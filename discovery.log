@@ -1,0 +1,563 @@
+2025-12-18 20:46:43,138 - INFO - Total missing schools: 223
+2025-12-18 20:46:43,138 - ERROR - Error reading campione_scuole.csv: [Errno 2] No such file or directory: 'campione_scuole.csv'
+2025-12-18 20:46:43,144 - INFO - Processing batch of 10 schools...
+2025-12-18 20:46:43,145 - INFO - Searching for TOPS10000T - Unknown (Unknown)
+2025-12-18 20:46:43,167 - INFO - Searching: TOPS10000T PTOF filetype:pdf
+2025-12-18 20:46:43,933 - INFO - response: https://www.bing.com/search?q=TOPS10000T+PTOF+filetype%3Apdf 200
+2025-12-18 20:46:45,027 - INFO - Searching: site:cercalatuascuola.istruzione.it TOPS10000T PTOF
+2025-12-18 20:46:46,006 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF 200
+2025-12-18 20:46:46,975 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:46:48,125 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:46:49,709 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:46:50,840 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:46:51,943 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:46:52,917 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:46:54,044 - INFO - Searching for TNCF005001 - Unknown (Unknown)
+2025-12-18 20:46:54,045 - INFO - Searching: TNCF005001 PTOF filetype:pdf
+2025-12-18 20:46:54,700 - INFO - response: https://www.bing.com/search?q=TNCF005001+PTOF+filetype%3Apdf 200
+2025-12-18 20:46:55,854 - INFO - Searching: site:cercalatuascuola.istruzione.it TNCF005001 PTOF
+2025-12-18 20:46:56,832 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF 200
+2025-12-18 20:46:57,823 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:46:58,953 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:46:59,953 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:00,943 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:02,169 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:03,176 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:04,334 - INFO - Searching for TEIS012009 - Unknown (Unknown)
+2025-12-18 20:47:04,336 - INFO - Searching: TEIS012009 PTOF filetype:pdf
+2025-12-18 20:47:04,676 - INFO - response: https://www.bing.com/search?q=TEIS012009+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:05,964 - INFO - Searching: site:cercalatuascuola.istruzione.it TEIS012009 PTOF
+2025-12-18 20:47:06,870 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF 200
+2025-12-18 20:47:07,881 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:47:08,885 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:47:09,902 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:10,890 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:11,966 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:12,923 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:14,366 - INFO - Searching for RMIC8C600P - Unknown (Unknown)
+2025-12-18 20:47:14,366 - INFO - Searching: RMIC8C600P PTOF filetype:pdf
+2025-12-18 20:47:14,892 - INFO - response: https://www.bing.com/search?q=RMIC8C600P+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:16,106 - INFO - Searching: site:cercalatuascuola.istruzione.it RMIC8C600P PTOF
+2025-12-18 20:47:17,037 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF 200
+2025-12-18 20:47:18,038 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:47:19,149 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:47:20,422 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:21,404 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:22,579 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:23,559 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:24,675 - INFO - Searching for NAIC80800G - Unknown (Unknown)
+2025-12-18 20:47:24,676 - INFO - Searching: NAIC80800G PTOF filetype:pdf
+2025-12-18 20:47:25,112 - INFO - response: https://www.bing.com/search?q=NAIC80800G+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:26,344 - INFO - Searching: site:cercalatuascuola.istruzione.it NAIC80800G PTOF
+2025-12-18 20:47:27,306 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF 200
+2025-12-18 20:47:28,329 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:47:29,602 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:47:30,618 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:31,876 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:32,983 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:33,914 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:35,205 - INFO - Searching for AGPC010001 - Unknown (Unknown)
+2025-12-18 20:47:35,206 - INFO - Searching: AGPC010001 PTOF filetype:pdf
+2025-12-18 20:47:35,636 - INFO - response: https://www.bing.com/search?q=AGPC010001+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:36,804 - INFO - Searching: site:cercalatuascuola.istruzione.it AGPC010001 PTOF
+2025-12-18 20:47:37,731 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF 200
+2025-12-18 20:47:38,764 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:47:39,846 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:47:40,882 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:41,894 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:42,974 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:43,948 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:45,258 - INFO - Searching for KRIS00400C - Unknown (Unknown)
+2025-12-18 20:47:45,259 - INFO - Searching: KRIS00400C PTOF filetype:pdf
+2025-12-18 20:47:46,439 - INFO - response: https://www.bing.com/search?q=KRIS00400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:47,565 - INFO - Searching: site:cercalatuascuola.istruzione.it KRIS00400C PTOF
+2025-12-18 20:47:48,640 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF 200
+2025-12-18 20:47:49,777 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:47:51,039 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:47:52,243 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:47:53,665 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:47:54,910 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:47:55,937 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:57,450 - INFO - Searching for MIIC8DB00D - Unknown (Unknown)
+2025-12-18 20:47:57,451 - INFO - Searching: MIIC8DB00D PTOF filetype:pdf
+2025-12-18 20:47:58,366 - INFO - response: https://www.bing.com/search?q=MIIC8DB00D+PTOF+filetype%3Apdf 200
+2025-12-18 20:47:59,759 - INFO - Searching: site:cercalatuascuola.istruzione.it MIIC8DB00D PTOF
+2025-12-18 20:48:00,873 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF 200
+2025-12-18 20:48:02,367 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:48:06,403 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:48:14,080 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:48:16,487 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:48:17,795 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:48:19,832 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:48:21,238 - INFO - Searching for CHIC80700E - Unknown (Unknown)
+2025-12-18 20:48:21,238 - INFO - Searching: CHIC80700E PTOF filetype:pdf
+2025-12-18 20:48:24,903 - INFO - response: https://www.bing.com/search?q=CHIC80700E+PTOF+filetype%3Apdf 200
+2025-12-18 20:48:26,307 - INFO - Searching: site:cercalatuascuola.istruzione.it CHIC80700E PTOF
+2025-12-18 20:48:28,031 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF 200
+2025-12-18 20:48:29,499 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:48:30,942 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:48:32,047 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:48:33,758 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:48:34,826 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:48:35,777 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:48:37,055 - INFO - Searching for FGIC85400C - Unknown (Unknown)
+2025-12-18 20:48:37,055 - INFO - Searching: FGIC85400C PTOF filetype:pdf
+2025-12-18 20:48:39,756 - INFO - response: https://www.bing.com/search?q=FGIC85400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:48:40,964 - INFO - Searching: site:cercalatuascuola.istruzione.it FGIC85400C PTOF
+2025-12-18 20:48:42,361 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF 200
+2025-12-18 20:48:44,982 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:48:48,274 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:48:51,019 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:48:57,952 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:48:59,264 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:49:01,088 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:49:02,524 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
+2025-12-18 20:51:27,797 - INFO - Total missing schools: 223
+2025-12-18 20:51:27,817 - INFO - Processing batch of 10 schools...
+2025-12-18 20:51:27,818 - INFO - Searching for TOPS10000T - Unknown (Unknown)
+2025-12-18 20:51:27,836 - INFO - Searching: TOPS10000T PTOF filetype:pdf
+2025-12-18 20:51:31,248 - INFO - response: https://www.bing.com/search?q=TOPS10000T+PTOF+filetype%3Apdf 200
+2025-12-18 20:51:33,360 - INFO - Searching: site:cercalatuascuola.istruzione.it TOPS10000T PTOF
+2025-12-18 20:51:34,447 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF 200
+2025-12-18 20:51:35,751 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:51:36,945 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:51:37,970 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:51:39,149 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:51:40,258 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:51:41,311 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:51:42,420 - INFO - Searching for TNCF005001 - OPERA ARMIDA BARELLI - ROVERETO (ROVERETO)
+2025-12-18 20:51:42,420 - INFO - Searching: TNCF005001 PTOF filetype:pdf
+2025-12-18 20:51:43,113 - INFO - response: https://www.bing.com/search?q=TNCF005001+PTOF+filetype%3Apdf 200
+2025-12-18 20:51:44,327 - INFO - Searching: site:cercalatuascuola.istruzione.it TNCF005001 PTOF
+2025-12-18 20:51:45,247 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF 200
+2025-12-18 20:51:46,333 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:51:47,400 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:51:48,771 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:51:49,894 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:51:51,001 - INFO - Searching: OPERA ARMIDA BARELLI - ROVERETO ROVERETO PTOF filetype:pdf
+2025-12-18 20:51:52,109 - INFO - response: https://www.bing.com/search?q=OPERA+ARMIDA+BARELLI+-+ROVERETO+ROVERETO+PTOF+filetype%3Apdf 200
+2025-12-18 20:51:53,375 - INFO - Searching for TEIS012009 - DELFICO - MONTAUTI (TERAMO)
+2025-12-18 20:51:53,375 - INFO - Searching: TEIS012009 PTOF filetype:pdf
+2025-12-18 20:51:54,637 - INFO - response: https://www.bing.com/search?q=TEIS012009+PTOF+filetype%3Apdf 200
+2025-12-18 20:51:55,941 - INFO - Searching: site:cercalatuascuola.istruzione.it TEIS012009 PTOF
+2025-12-18 20:51:56,940 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF 200
+2025-12-18 20:51:58,160 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:51:59,189 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:00,601 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:01,822 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:02,952 - INFO - Searching: DELFICO - MONTAUTI TERAMO PTOF filetype:pdf
+2025-12-18 20:52:03,897 - INFO - response: https://www.bing.com/search?q=DELFICO+-+MONTAUTI+TERAMO+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:04,985 - INFO - Searching for RMIC8C600P - Unknown (Unknown)
+2025-12-18 20:52:04,986 - INFO - Searching: RMIC8C600P PTOF filetype:pdf
+2025-12-18 20:52:05,643 - INFO - response: https://www.bing.com/search?q=RMIC8C600P+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:07,075 - INFO - Searching: site:cercalatuascuola.istruzione.it RMIC8C600P PTOF
+2025-12-18 20:52:08,092 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF 200
+2025-12-18 20:52:09,217 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:52:10,344 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:11,490 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:12,630 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:13,718 - INFO - Searching: Unknown Unknown PTOF filetype:pdf
+2025-12-18 20:52:14,732 - INFO - response: https://www.bing.com/search?q=Unknown+Unknown+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:15,965 - INFO - Searching for NAIC80800G - BONGHI (NAPOLI)
+2025-12-18 20:52:15,966 - INFO - Searching: NAIC80800G PTOF filetype:pdf
+2025-12-18 20:52:16,659 - INFO - response: https://www.bing.com/search?q=NAIC80800G+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:17,965 - INFO - Searching: site:cercalatuascuola.istruzione.it NAIC80800G PTOF
+2025-12-18 20:52:18,875 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF 200
+2025-12-18 20:52:19,896 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:52:20,898 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:21,932 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:23,030 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:24,135 - INFO - Searching: BONGHI NAPOLI PTOF filetype:pdf
+2025-12-18 20:52:25,074 - INFO - response: https://www.bing.com/search?q=BONGHI+NAPOLI+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:26,583 - INFO - Searching for AGPC010001 - EMPEDOCLE (AGRIGENTO)
+2025-12-18 20:52:26,583 - INFO - Searching: AGPC010001 PTOF filetype:pdf
+2025-12-18 20:52:27,291 - INFO - response: https://www.bing.com/search?q=AGPC010001+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:28,493 - INFO - Searching: site:cercalatuascuola.istruzione.it AGPC010001 PTOF
+2025-12-18 20:52:29,551 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF 200
+2025-12-18 20:52:30,607 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:52:31,837 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:32,857 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:34,045 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:35,474 - INFO - Searching: EMPEDOCLE AGRIGENTO PTOF filetype:pdf
+2025-12-18 20:52:36,402 - INFO - response: https://www.bing.com/search?q=EMPEDOCLE+AGRIGENTO+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:37,502 - INFO - Searching for KRIS00400C - GIUSEPPE GANGALE (CIRÒ MARINA)
+2025-12-18 20:52:37,503 - INFO - Searching: KRIS00400C PTOF filetype:pdf
+2025-12-18 20:52:38,698 - INFO - response: https://www.bing.com/search?q=KRIS00400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:39,974 - INFO - Searching: site:cercalatuascuola.istruzione.it KRIS00400C PTOF
+2025-12-18 20:52:40,929 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF 200
+2025-12-18 20:52:42,045 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:52:43,216 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:44,648 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:45,673 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:46,770 - INFO - Searching: GIUSEPPE GANGALE CIRÒ MARINA PTOF filetype:pdf
+2025-12-18 20:52:47,772 - INFO - response: https://www.bing.com/search?q=GIUSEPPE+GANGALE+CIR%C3%92+MARINA+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:49,495 - INFO - Searching for MIIC8DB00D - DON MILANI (NOVATE MILANESE)
+2025-12-18 20:52:49,496 - INFO - Searching: MIIC8DB00D PTOF filetype:pdf
+2025-12-18 20:52:50,048 - INFO - response: https://www.bing.com/search?q=MIIC8DB00D+PTOF+filetype%3Apdf 200
+2025-12-18 20:52:51,197 - INFO - Searching: site:cercalatuascuola.istruzione.it MIIC8DB00D PTOF
+2025-12-18 20:52:52,127 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF 200
+2025-12-18 20:52:53,218 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:52:54,430 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:52:55,748 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:52:56,952 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:52:58,060 - INFO - Searching: DON MILANI NOVATE MILANESE PTOF filetype:pdf
+2025-12-18 20:52:59,149 - INFO - response: https://www.bing.com/search?q=DON+MILANI+NOVATE+MILANESE+PTOF+filetype%3Apdf 200
+2025-12-18 20:53:00,425 - INFO - Searching for CHIC80700E - P. D. POLLIDORI (FOSSACESIA)
+2025-12-18 20:53:00,426 - INFO - Searching: CHIC80700E PTOF filetype:pdf
+2025-12-18 20:53:01,353 - INFO - response: https://www.bing.com/search?q=CHIC80700E+PTOF+filetype%3Apdf 200
+2025-12-18 20:53:02,617 - INFO - Searching: site:cercalatuascuola.istruzione.it CHIC80700E PTOF
+2025-12-18 20:53:03,873 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF 200
+2025-12-18 20:53:05,386 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:53:06,702 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:53:07,727 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:53:08,834 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:53:09,919 - INFO - Searching: P. D. POLLIDORI FOSSACESIA PTOF filetype:pdf
+2025-12-18 20:53:10,985 - INFO - response: https://www.bing.com/search?q=P.+D.+POLLIDORI+FOSSACESIA+PTOF+filetype%3Apdf 200
+2025-12-18 20:53:12,079 - INFO - Searching for FGIC85400C - DIREZIONE DIDATTICA + PASCOLI (MARGHERITA DI SAVOIA)
+2025-12-18 20:53:12,080 - INFO - Searching: FGIC85400C PTOF filetype:pdf
+2025-12-18 20:53:12,977 - INFO - response: https://www.bing.com/search?q=FGIC85400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:53:14,319 - INFO - Searching: site:cercalatuascuola.istruzione.it FGIC85400C PTOF
+2025-12-18 20:53:15,650 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF 200
+2025-12-18 20:53:16,882 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:53:17,988 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:53:19,095 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:53:20,252 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:53:21,635 - INFO - Searching: DIREZIONE DIDATTICA + PASCOLI MARGHERITA DI SAVOIA PTOF filetype:pdf
+2025-12-18 20:53:22,654 - INFO - response: https://www.bing.com/search?q=DIREZIONE+DIDATTICA+%2B+PASCOLI+MARGHERITA+DI+SAVOIA+PTOF+filetype%3Apdf 200
+2025-12-18 20:53:24,030 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
+2025-12-18 20:55:12,168 - INFO - Total missing schools: 223
+2025-12-18 20:55:12,192 - INFO - Processing batch of 10 schools...
+2025-12-18 20:55:12,193 - INFO - Searching for TOPS10000T - ISACCO NEWTON (CHIVASSO)
+2025-12-18 20:55:12,210 - INFO - Searching: "ISACCO NEWTON" "CHIVASSO" PTOF filetype:pdf
+2025-12-18 20:55:12,746 - INFO - response: https://www.bing.com/search?q=%22ISACCO+NEWTON%22+%22CHIVASSO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:13,915 - INFO - Searching: ISACCO NEWTON CHIVASSO PTOF
+2025-12-18 20:55:14,832 - INFO - response: https://www.bing.com/search?q=ISACCO+NEWTON+CHIVASSO+PTOF 200
+2025-12-18 20:55:15,941 - INFO - Searching: TOPS10000T PTOF filetype:pdf
+2025-12-18 20:55:16,817 - INFO - response: https://www.bing.com/search?q=TOPS10000T+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:17,925 - INFO - Searching: site:cercalatuascuola.istruzione.it TOPS10000T PTOF
+2025-12-18 20:55:18,864 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF 200
+2025-12-18 20:55:19,849 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:55:20,891 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:55:21,894 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:55:22,824 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:55:23,884 - INFO - Searching for TNCF005001 - OPERA ARMIDA BARELLI - ROVERETO (ROVERETO)
+2025-12-18 20:55:23,884 - INFO - Searching: "OPERA ARMIDA BARELLI - ROVERETO" "ROVERETO" PTOF filetype:pdf
+2025-12-18 20:55:24,220 - INFO - response: https://www.bing.com/search?q=%22OPERA+ARMIDA+BARELLI+-+ROVERETO%22+%22ROVERETO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:25,351 - INFO - Searching: OPERA ARMIDA BARELLI - ROVERETO ROVERETO PTOF
+2025-12-18 20:55:26,273 - INFO - response: https://www.bing.com/search?q=OPERA+ARMIDA+BARELLI+-+ROVERETO+ROVERETO+PTOF 200
+2025-12-18 20:55:27,401 - INFO - Searching: TNCF005001 PTOF filetype:pdf
+2025-12-18 20:55:28,279 - INFO - response: https://www.bing.com/search?q=TNCF005001+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:29,376 - INFO - Searching: site:cercalatuascuola.istruzione.it TNCF005001 PTOF
+2025-12-18 20:55:30,307 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF 200
+2025-12-18 20:55:31,275 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:55:32,361 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:55:33,387 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:55:34,439 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:55:35,533 - INFO - Searching for TEIS012009 - DELFICO - MONTAUTI (TERAMO)
+2025-12-18 20:55:35,534 - INFO - Searching: "DELFICO - MONTAUTI" "TERAMO" PTOF filetype:pdf
+2025-12-18 20:55:36,169 - INFO - response: https://www.bing.com/search?q=%22DELFICO+-+MONTAUTI%22+%22TERAMO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:37,291 - INFO - Searching: DELFICO - MONTAUTI TERAMO PTOF
+2025-12-18 20:55:38,190 - INFO - response: https://www.bing.com/search?q=DELFICO+-+MONTAUTI+TERAMO+PTOF 200
+2025-12-18 20:55:39,304 - INFO - Searching: TEIS012009 PTOF filetype:pdf
+2025-12-18 20:55:40,221 - INFO - response: https://www.bing.com/search?q=TEIS012009+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:41,307 - INFO - Searching: site:cercalatuascuola.istruzione.it TEIS012009 PTOF
+2025-12-18 20:55:42,254 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF 200
+2025-12-18 20:55:43,189 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:55:44,170 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:55:45,162 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:55:46,094 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:55:47,157 - INFO - Searching for RMIC8C600P - VIA MATTEOTTI (CAVE)
+2025-12-18 20:55:47,158 - INFO - Searching: "VIA MATTEOTTI" "CAVE" PTOF filetype:pdf
+2025-12-18 20:55:47,530 - INFO - response: https://www.bing.com/search?q=%22VIA+MATTEOTTI%22+%22CAVE%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:48,614 - INFO - Searching: VIA MATTEOTTI CAVE PTOF
+2025-12-18 20:55:49,583 - INFO - response: https://www.bing.com/search?q=VIA+MATTEOTTI+CAVE+PTOF 200
+2025-12-18 20:55:50,754 - INFO - Searching: RMIC8C600P PTOF filetype:pdf
+2025-12-18 20:55:51,669 - INFO - response: https://www.bing.com/search?q=RMIC8C600P+PTOF+filetype%3Apdf 200
+2025-12-18 20:55:52,770 - INFO - Searching: site:cercalatuascuola.istruzione.it RMIC8C600P PTOF
+2025-12-18 20:55:53,671 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF 200
+2025-12-18 20:55:54,653 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:55:55,647 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:55:56,603 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:55:57,717 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:55:58,794 - INFO - Searching for NAIC80800G - BONGHI (NAPOLI)
+2025-12-18 20:55:58,795 - INFO - Searching: "BONGHI" "NAPOLI" PTOF filetype:pdf
+2025-12-18 20:55:59,133 - INFO - response: https://www.bing.com/search?q=%22BONGHI%22+%22NAPOLI%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:00,268 - INFO - Searching: BONGHI NAPOLI PTOF
+2025-12-18 20:56:01,208 - INFO - response: https://www.bing.com/search?q=BONGHI+NAPOLI+PTOF 200
+2025-12-18 20:56:02,281 - INFO - Searching: NAIC80800G PTOF filetype:pdf
+2025-12-18 20:56:03,179 - INFO - response: https://www.bing.com/search?q=NAIC80800G+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:04,254 - INFO - Searching: site:cercalatuascuola.istruzione.it NAIC80800G PTOF
+2025-12-18 20:56:05,249 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF 200
+2025-12-18 20:56:06,250 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:56:07,168 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:56:08,181 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:56:09,127 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:56:10,173 - INFO - Searching for AGPC010001 - EMPEDOCLE (AGRIGENTO)
+2025-12-18 20:56:10,173 - INFO - Searching: "EMPEDOCLE" "AGRIGENTO" PTOF filetype:pdf
+2025-12-18 20:56:10,974 - INFO - response: https://www.bing.com/search?q=%22EMPEDOCLE%22+%22AGRIGENTO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:12,185 - INFO - Searching: EMPEDOCLE AGRIGENTO PTOF
+2025-12-18 20:56:13,070 - INFO - response: https://www.bing.com/search?q=EMPEDOCLE+AGRIGENTO+PTOF 200
+2025-12-18 20:56:14,337 - INFO - Searching: AGPC010001 PTOF filetype:pdf
+2025-12-18 20:56:15,234 - INFO - response: https://www.bing.com/search?q=AGPC010001+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:16,499 - INFO - Searching: site:cercalatuascuola.istruzione.it AGPC010001 PTOF
+2025-12-18 20:56:17,392 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF 200
+2025-12-18 20:56:18,387 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:56:19,366 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:56:20,483 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:56:21,526 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:56:22,614 - INFO - Searching for KRIS00400C - GIUSEPPE GANGALE (CIRÒ MARINA)
+2025-12-18 20:56:22,614 - INFO - Searching: "GIUSEPPE GANGALE" "CIRÒ MARINA" PTOF filetype:pdf
+2025-12-18 20:56:22,912 - INFO - response: https://www.bing.com/search?q=%22GIUSEPPE+GANGALE%22+%22CIR%C3%92+MARINA%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:24,037 - INFO - Searching: GIUSEPPE GANGALE CIRÒ MARINA PTOF
+2025-12-18 20:56:24,957 - INFO - response: https://www.bing.com/search?q=GIUSEPPE+GANGALE+CIR%C3%92+MARINA+PTOF 200
+2025-12-18 20:56:26,076 - INFO - Searching: KRIS00400C PTOF filetype:pdf
+2025-12-18 20:56:26,972 - INFO - response: https://www.bing.com/search?q=KRIS00400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:28,072 - INFO - Searching: site:cercalatuascuola.istruzione.it KRIS00400C PTOF
+2025-12-18 20:56:28,992 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF 200
+2025-12-18 20:56:30,012 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:56:31,359 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:56:32,782 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:56:33,909 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:56:35,000 - INFO - Searching for MIIC8DB00D - DON MILANI (NOVATE MILANESE)
+2025-12-18 20:56:35,001 - INFO - Searching: "DON MILANI" "NOVATE MILANESE" PTOF filetype:pdf
+2025-12-18 20:56:35,423 - INFO - response: https://www.bing.com/search?q=%22DON+MILANI%22+%22NOVATE+MILANESE%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:36,751 - INFO - Searching: DON MILANI NOVATE MILANESE PTOF
+2025-12-18 20:56:37,972 - INFO - response: https://www.bing.com/search?q=DON+MILANI+NOVATE+MILANESE+PTOF 200
+2025-12-18 20:56:39,137 - INFO - Searching: MIIC8DB00D PTOF filetype:pdf
+2025-12-18 20:56:40,185 - INFO - response: https://www.bing.com/search?q=MIIC8DB00D+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:41,193 - INFO - Searching: site:cercalatuascuola.istruzione.it MIIC8DB00D PTOF
+2025-12-18 20:56:42,151 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF 200
+2025-12-18 20:56:43,260 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:56:44,196 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:56:45,792 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:56:46,821 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:56:48,030 - INFO - Searching for CHIC80700E - P. D. POLLIDORI (FOSSACESIA)
+2025-12-18 20:56:48,031 - INFO - Searching: "P. D. POLLIDORI" "FOSSACESIA" PTOF filetype:pdf
+2025-12-18 20:56:48,543 - INFO - response: https://www.bing.com/search?q=%22P.+D.+POLLIDORI%22+%22FOSSACESIA%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:49,633 - INFO - Searching: P. D. POLLIDORI FOSSACESIA PTOF
+2025-12-18 20:56:50,600 - INFO - response: https://www.bing.com/search?q=P.+D.+POLLIDORI+FOSSACESIA+PTOF 200
+2025-12-18 20:56:51,675 - INFO - Searching: CHIC80700E PTOF filetype:pdf
+2025-12-18 20:56:52,655 - INFO - response: https://www.bing.com/search?q=CHIC80700E+PTOF+filetype%3Apdf 200
+2025-12-18 20:56:53,960 - INFO - Searching: site:cercalatuascuola.istruzione.it CHIC80700E PTOF
+2025-12-18 20:56:55,064 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF 200
+2025-12-18 20:56:56,058 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:56:57,454 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:56:58,728 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:56:59,716 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:57:00,823 - INFO - Searching for FGIC85400C - DIREZIONE DIDATTICA + PASCOLI (MARGHERITA DI SAVOIA)
+2025-12-18 20:57:00,824 - INFO - Searching: "DIREZIONE DIDATTICA + PASCOLI" "MARGHERITA DI SAVOIA" PTOF filetype:pdf
+2025-12-18 20:57:01,617 - INFO - response: https://www.bing.com/search?q=%22DIREZIONE+DIDATTICA+%2B+PASCOLI%22+%22MARGHERITA+DI+SAVOIA%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:57:03,080 - INFO - Searching: DIREZIONE DIDATTICA + PASCOLI MARGHERITA DI SAVOIA PTOF
+2025-12-18 20:57:04,433 - INFO - response: https://www.bing.com/search?q=DIREZIONE+DIDATTICA+%2B+PASCOLI+MARGHERITA+DI+SAVOIA+PTOF 200
+2025-12-18 20:57:06,395 - INFO - Searching: FGIC85400C PTOF filetype:pdf
+2025-12-18 20:57:07,317 - INFO - response: https://www.bing.com/search?q=FGIC85400C+PTOF+filetype%3Apdf 200
+2025-12-18 20:57:08,559 - INFO - Searching: site:cercalatuascuola.istruzione.it FGIC85400C PTOF
+2025-12-18 20:57:09,560 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF 200
+2025-12-18 20:57:10,556 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:57:11,709 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:57:12,770 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:57:13,810 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:57:14,863 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
+2025-12-18 20:58:21,158 - INFO - Total missing schools: 223
+2025-12-18 20:58:21,183 - INFO - Processing batch of 10 schools...
+2025-12-18 20:58:21,183 - INFO - Searching for TOPS10000T - ISACCO NEWTON (CHIVASSO)
+2025-12-18 20:58:21,199 - INFO - Searching: "ISACCO NEWTON" "CHIVASSO" PTOF filetype:pdf
+2025-12-18 20:58:21,890 - INFO - response: https://www.bing.com/search?q=%22ISACCO+NEWTON%22+%22CHIVASSO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:58:23,099 - INFO - Searching: ISACCO NEWTON CHIVASSO PTOF
+2025-12-18 20:58:24,174 - INFO - response: https://www.bing.com/search?q=ISACCO+NEWTON+CHIVASSO+PTOF 200
+2025-12-18 20:58:25,422 - INFO - Searching: TOPS10000T PTOF
+2025-12-18 20:58:26,517 - INFO - response: https://www.bing.com/search?q=TOPS10000T+PTOF 200
+2025-12-18 20:58:27,727 - INFO - Searching: site:cercalatuascuola.istruzione.it TOPS10000T PTOF
+2025-12-18 20:58:28,695 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF 200
+2025-12-18 20:58:29,702 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:58:30,775 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:58:31,892 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:58:32,995 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TOPS10000T+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:58:34,056 - INFO - Searching for TNCF005001 - OPERA ARMIDA BARELLI - ROVERETO (ROVERETO)
+2025-12-18 20:58:34,057 - INFO - Searching: "OPERA ARMIDA BARELLI - ROVERETO" "ROVERETO" PTOF filetype:pdf
+2025-12-18 20:58:34,473 - INFO - response: https://www.bing.com/search?q=%22OPERA+ARMIDA+BARELLI+-+ROVERETO%22+%22ROVERETO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:58:35,576 - INFO - Searching: OPERA ARMIDA BARELLI - ROVERETO ROVERETO PTOF
+2025-12-18 20:58:36,775 - INFO - response: https://www.bing.com/search?q=OPERA+ARMIDA+BARELLI+-+ROVERETO+ROVERETO+PTOF 200
+2025-12-18 20:58:38,248 - INFO - Searching: TNCF005001 PTOF
+2025-12-18 20:58:39,179 - INFO - response: https://www.bing.com/search?q=TNCF005001+PTOF 200
+2025-12-18 20:58:40,699 - INFO - Searching: site:cercalatuascuola.istruzione.it TNCF005001 PTOF
+2025-12-18 20:58:41,715 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF 200
+2025-12-18 20:58:42,660 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:58:43,621 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:58:44,549 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:58:45,535 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TNCF005001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:58:46,550 - INFO - Searching for TEIS012009 - DELFICO - MONTAUTI (TERAMO)
+2025-12-18 20:58:46,552 - INFO - Searching: "DELFICO - MONTAUTI" "TERAMO" PTOF filetype:pdf
+2025-12-18 20:58:47,017 - INFO - response: https://www.bing.com/search?q=%22DELFICO+-+MONTAUTI%22+%22TERAMO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:58:48,223 - INFO - Searching: DELFICO - MONTAUTI TERAMO PTOF
+2025-12-18 20:58:49,258 - INFO - response: https://www.bing.com/search?q=DELFICO+-+MONTAUTI+TERAMO+PTOF 200
+2025-12-18 20:58:50,466 - INFO - Searching: TEIS012009 PTOF
+2025-12-18 20:58:51,381 - INFO - response: https://www.bing.com/search?q=TEIS012009+PTOF 200
+2025-12-18 20:58:52,503 - INFO - Searching: site:cercalatuascuola.istruzione.it TEIS012009 PTOF
+2025-12-18 20:58:53,450 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF 200
+2025-12-18 20:58:54,603 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:58:55,583 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:58:56,610 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:58:57,660 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+TEIS012009+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:58:58,772 - INFO - Searching for RMIC8C600P - VIA MATTEOTTI (CAVE)
+2025-12-18 20:58:58,772 - INFO - Searching: "VIA MATTEOTTI" "CAVE" PTOF filetype:pdf
+2025-12-18 20:58:59,188 - INFO - response: https://www.bing.com/search?q=%22VIA+MATTEOTTI%22+%22CAVE%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:00,374 - INFO - Searching: VIA MATTEOTTI CAVE PTOF
+2025-12-18 20:59:01,254 - INFO - response: https://www.bing.com/search?q=VIA+MATTEOTTI+CAVE+PTOF 200
+2025-12-18 20:59:02,430 - INFO - Searching: RMIC8C600P PTOF
+2025-12-18 20:59:03,360 - INFO - response: https://www.bing.com/search?q=RMIC8C600P+PTOF 200
+2025-12-18 20:59:04,561 - INFO - Searching: site:cercalatuascuola.istruzione.it RMIC8C600P PTOF
+2025-12-18 20:59:05,512 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF 200
+2025-12-18 20:59:06,520 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:59:07,545 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:59:08,514 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:59:09,483 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+RMIC8C600P+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:59:10,586 - INFO - Searching for NAIC80800G - BONGHI (NAPOLI)
+2025-12-18 20:59:10,586 - INFO - Searching: "BONGHI" "NAPOLI" PTOF filetype:pdf
+2025-12-18 20:59:11,019 - INFO - response: https://www.bing.com/search?q=%22BONGHI%22+%22NAPOLI%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:12,104 - INFO - Searching: BONGHI NAPOLI PTOF
+2025-12-18 20:59:12,999 - INFO - response: https://www.bing.com/search?q=BONGHI+NAPOLI+PTOF 200
+2025-12-18 20:59:14,586 - INFO - Searching: NAIC80800G PTOF
+2025-12-18 20:59:15,472 - INFO - response: https://www.bing.com/search?q=NAIC80800G+PTOF 200
+2025-12-18 20:59:17,140 - INFO - Searching: site:cercalatuascuola.istruzione.it NAIC80800G PTOF
+2025-12-18 20:59:18,042 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF 200
+2025-12-18 20:59:19,320 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:59:20,506 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:59:21,615 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:59:22,622 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+NAIC80800G+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:59:23,677 - INFO - Searching for AGPC010001 - EMPEDOCLE (AGRIGENTO)
+2025-12-18 20:59:23,677 - INFO - Searching: "EMPEDOCLE" "AGRIGENTO" PTOF filetype:pdf
+2025-12-18 20:59:23,997 - INFO - response: https://www.bing.com/search?q=%22EMPEDOCLE%22+%22AGRIGENTO%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:25,050 - INFO - Searching: EMPEDOCLE AGRIGENTO PTOF
+2025-12-18 20:59:25,944 - INFO - response: https://www.bing.com/search?q=EMPEDOCLE+AGRIGENTO+PTOF 200
+2025-12-18 20:59:26,999 - INFO - Searching: AGPC010001 PTOF
+2025-12-18 20:59:27,881 - INFO - response: https://www.bing.com/search?q=AGPC010001+PTOF 200
+2025-12-18 20:59:28,974 - INFO - Searching: site:cercalatuascuola.istruzione.it AGPC010001 PTOF
+2025-12-18 20:59:29,853 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF 200
+2025-12-18 20:59:30,819 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:59:31,774 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:59:32,820 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:59:33,834 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+AGPC010001+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:59:34,868 - INFO - Searching for KRIS00400C - GIUSEPPE GANGALE (CIRÒ MARINA)
+2025-12-18 20:59:34,869 - INFO - Searching: "GIUSEPPE GANGALE" "CIRÒ MARINA" PTOF filetype:pdf
+2025-12-18 20:59:35,219 - INFO - response: https://www.bing.com/search?q=%22GIUSEPPE+GANGALE%22+%22CIR%C3%92+MARINA%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:36,438 - INFO - Searching: GIUSEPPE GANGALE CIRÒ MARINA PTOF
+2025-12-18 20:59:37,357 - INFO - response: https://www.bing.com/search?q=GIUSEPPE+GANGALE+CIR%C3%92+MARINA+PTOF 200
+2025-12-18 20:59:38,432 - INFO - Searching: KRIS00400C PTOF
+2025-12-18 20:59:39,398 - INFO - response: https://www.bing.com/search?q=KRIS00400C+PTOF 200
+2025-12-18 20:59:40,608 - INFO - Searching: site:cercalatuascuola.istruzione.it KRIS00400C PTOF
+2025-12-18 20:59:41,541 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF 200
+2025-12-18 20:59:42,572 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:59:43,649 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:59:44,706 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:59:45,711 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+KRIS00400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:59:46,762 - INFO - Searching for MIIC8DB00D - DON MILANI (NOVATE MILANESE)
+2025-12-18 20:59:46,763 - INFO - Searching: "DON MILANI" "NOVATE MILANESE" PTOF filetype:pdf
+2025-12-18 20:59:47,372 - INFO - response: https://www.bing.com/search?q=%22DON+MILANI%22+%22NOVATE+MILANESE%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:48,549 - INFO - Searching: DON MILANI NOVATE MILANESE PTOF
+2025-12-18 20:59:49,441 - INFO - response: https://www.bing.com/search?q=DON+MILANI+NOVATE+MILANESE+PTOF 200
+2025-12-18 20:59:50,625 - INFO - Searching: MIIC8DB00D PTOF
+2025-12-18 20:59:51,547 - INFO - response: https://www.bing.com/search?q=MIIC8DB00D+PTOF 200
+2025-12-18 20:59:52,625 - INFO - Searching: site:cercalatuascuola.istruzione.it MIIC8DB00D PTOF
+2025-12-18 20:59:53,513 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF 200
+2025-12-18 20:59:54,444 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=11&FORM=PERE 200
+2025-12-18 20:59:55,416 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=21&FORM=PERE1 200
+2025-12-18 20:59:56,391 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=31&FORM=PERE2 200
+2025-12-18 20:59:57,362 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+MIIC8DB00D+PTOF&first=41&FORM=PERE3 200
+2025-12-18 20:59:58,444 - INFO - Searching for CHIC80700E - P. D. POLLIDORI (FOSSACESIA)
+2025-12-18 20:59:58,444 - INFO - Searching: "P. D. POLLIDORI" "FOSSACESIA" PTOF filetype:pdf
+2025-12-18 20:59:58,769 - INFO - response: https://www.bing.com/search?q=%22P.+D.+POLLIDORI%22+%22FOSSACESIA%22+PTOF+filetype%3Apdf 200
+2025-12-18 20:59:59,882 - INFO - Searching: P. D. POLLIDORI FOSSACESIA PTOF
+2025-12-18 21:00:00,863 - INFO - response: https://www.bing.com/search?q=P.+D.+POLLIDORI+FOSSACESIA+PTOF 200
+2025-12-18 21:00:02,423 - INFO - Searching: CHIC80700E PTOF
+2025-12-18 21:00:03,400 - INFO - response: https://www.bing.com/search?q=CHIC80700E+PTOF 200
+2025-12-18 21:00:04,918 - INFO - Searching: site:cercalatuascuola.istruzione.it CHIC80700E PTOF
+2025-12-18 21:00:05,833 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF 200
+2025-12-18 21:00:06,784 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=11&FORM=PERE 200
+2025-12-18 21:00:07,762 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=21&FORM=PERE1 200
+2025-12-18 21:00:08,788 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=31&FORM=PERE2 200
+2025-12-18 21:00:09,741 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+CHIC80700E+PTOF&first=41&FORM=PERE3 200
+2025-12-18 21:00:10,814 - INFO - Searching for FGIC85400C - DIREZIONE DIDATTICA + PASCOLI (MARGHERITA DI SAVOIA)
+2025-12-18 21:00:10,815 - INFO - Searching: "DIREZIONE DIDATTICA + PASCOLI" "MARGHERITA DI SAVOIA" PTOF filetype:pdf
+2025-12-18 21:00:11,313 - INFO - response: https://www.bing.com/search?q=%22DIREZIONE+DIDATTICA+%2B+PASCOLI%22+%22MARGHERITA+DI+SAVOIA%22+PTOF+filetype%3Apdf 200
+2025-12-18 21:00:12,556 - INFO - Searching: DIREZIONE DIDATTICA + PASCOLI MARGHERITA DI SAVOIA PTOF
+2025-12-18 21:00:13,569 - INFO - response: https://www.bing.com/search?q=DIREZIONE+DIDATTICA+%2B+PASCOLI+MARGHERITA+DI+SAVOIA+PTOF 200
+2025-12-18 21:00:14,740 - INFO - Searching: FGIC85400C PTOF
+2025-12-18 21:00:15,724 - INFO - response: https://www.bing.com/search?q=FGIC85400C+PTOF 200
+2025-12-18 21:00:16,833 - INFO - Searching: site:cercalatuascuola.istruzione.it FGIC85400C PTOF
+2025-12-18 21:00:17,801 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF 200
+2025-12-18 21:00:18,838 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=11&FORM=PERE 200
+2025-12-18 21:00:19,869 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=21&FORM=PERE1 200
+2025-12-18 21:00:20,943 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=31&FORM=PERE2 200
+2025-12-18 21:00:22,028 - INFO - response: https://www.bing.com/search?q=site%3Acercalatuascuola.istruzione.it+FGIC85400C+PTOF&first=41&FORM=PERE3 200
+2025-12-18 21:00:23,172 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
+2025-12-18 21:03:53,270 - INFO - Total missing schools: 223
+2025-12-18 21:03:53,295 - INFO - Processing batch of 10 schools...
+2025-12-18 21:03:53,295 - INFO - Processing TOPS10000T - ISACCO NEWTON (CHIVASSO)
+2025-12-18 21:03:53,295 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/TOPS10000T/ptof/
+2025-12-18 21:03:55,098 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/TOPS10000T/
+2025-12-18 21:03:56,203 - INFO - Processing TNCF005001 - OPERA ARMIDA BARELLI - ROVERETO (ROVERETO)
+2025-12-18 21:03:56,203 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/TNCF005001/ptof/
+2025-12-18 21:03:56,400 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/TNCF005001/
+2025-12-18 21:03:56,678 - INFO - Trying lowercase: https://unica.istruzione.gov.it/cercalatuascuola/istituti/tncf005001/ptof/
+2025-12-18 21:03:57,978 - INFO - Processing TEIS012009 - DELFICO - MONTAUTI (TERAMO)
+2025-12-18 21:03:57,978 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/TEIS012009/ptof/
+2025-12-18 21:03:59,479 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/TEIS012009/
+2025-12-18 21:04:01,624 - INFO - Processing RMIC8C600P - VIA MATTEOTTI (CAVE)
+2025-12-18 21:04:01,625 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/RMIC8C600P/ptof/
+2025-12-18 21:04:02,445 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/RMIC8C600P/
+2025-12-18 21:04:03,971 - INFO - Processing NAIC80800G - BONGHI (NAPOLI)
+2025-12-18 21:04:03,971 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/NAIC80800G/ptof/
+2025-12-18 21:04:04,294 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/NAIC80800G/
+2025-12-18 21:04:04,851 - INFO - Trying lowercase: https://unica.istruzione.gov.it/cercalatuascuola/istituti/naic80800g/ptof/
+2025-12-18 21:04:05,952 - INFO - Processing AGPC010001 - EMPEDOCLE (AGRIGENTO)
+2025-12-18 21:04:05,953 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/AGPC010001/ptof/
+2025-12-18 21:04:06,703 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/AGPC010001/
+2025-12-18 21:04:07,629 - INFO - Processing KRIS00400C - GIUSEPPE GANGALE (CIRÒ MARINA)
+2025-12-18 21:04:07,630 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/KRIS00400C/ptof/
+2025-12-18 21:04:09,013 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/KRIS00400C/
+2025-12-18 21:04:10,845 - INFO - Processing MIIC8DB00D - DON MILANI (NOVATE MILANESE)
+2025-12-18 21:04:10,846 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/MIIC8DB00D/ptof/
+2025-12-18 21:04:11,630 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/MIIC8DB00D/
+2025-12-18 21:04:12,869 - INFO - Processing CHIC80700E - P. D. POLLIDORI (FOSSACESIA)
+2025-12-18 21:04:12,870 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/CHIC80700E/ptof/
+2025-12-18 21:04:14,006 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/CHIC80700E/
+2025-12-18 21:04:15,257 - INFO - Processing FGIC85400C - DIREZIONE DIDATTICA + PASCOLI (MARGHERITA DI SAVOIA)
+2025-12-18 21:04:15,257 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/FGIC85400C/ptof/
+2025-12-18 21:04:16,067 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/FGIC85400C/
+2025-12-18 21:04:16,323 - INFO - Trying lowercase: https://unica.istruzione.gov.it/cercalatuascuola/istituti/fgic85400c/ptof/
+2025-12-18 21:04:17,342 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
+2025-12-18 21:36:46,674 - INFO - Total missing schools: 223
+2025-12-18 21:36:46,701 - INFO - Already processed 10 schools.
+2025-12-18 21:36:46,702 - INFO - Processing batch of 10 schools...
+2025-12-18 21:36:46,702 - INFO - Processing RMPL355003 - MONS. TOZZI (ROMA)
+2025-12-18 21:36:46,703 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/RMPL355003/ptof/
+2025-12-18 21:36:49,078 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/RMPL355003/
+2025-12-18 21:36:50,134 - INFO - Processing UD1M00600L - G. BEARZI (UDINE)
+2025-12-18 21:36:50,134 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/UD1M00600L/ptof/
+2025-12-18 21:36:51,153 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/UD1M00600L/
+2025-12-18 21:36:51,890 - INFO - Processing NA1MU75009 - MATER DEI (NAPOLI)
+2025-12-18 21:36:51,891 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/NA1MU75009/ptof/
+2025-12-18 21:36:52,899 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/NA1MU75009/
+2025-12-18 21:36:53,697 - INFO - Processing RAIC82800B - INTERCOMUNALE RAVENNA/CERVIA (RAVENNA)
+2025-12-18 21:36:53,698 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/RAIC82800B/ptof/
+2025-12-18 21:36:54,281 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/RAIC82800B/
+2025-12-18 21:36:55,041 - INFO - Processing PATDEE500L - NICCOLO' MACHIAVELLI (PALERMO)
+2025-12-18 21:36:55,041 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/PATDEE500L/ptof/
+2025-12-18 21:36:55,909 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/PATDEE500L/
+2025-12-18 21:36:56,643 - INFO - Processing CSPS18000D - LICEO SCIENTIFICO - LINGUISTICO PITAGORA (RENDE)
+2025-12-18 21:36:56,643 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/CSPS18000D/ptof/
+2025-12-18 21:36:57,198 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/CSPS18000D/
+2025-12-18 21:36:57,908 - INFO - Processing TNIC85500V - ROVERETO SUD (ROVERETO)
+2025-12-18 21:36:57,908 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/TNIC85500V/ptof/
+2025-12-18 21:36:58,522 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/TNIC85500V/
+2025-12-18 21:36:59,206 - INFO - Processing CRIC817004 - LUIGI CHIESA (SPINO D'ADDA)
+2025-12-18 21:36:59,207 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/CRIC817004/ptof/
+2025-12-18 21:36:59,774 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/CRIC817004/
+2025-12-18 21:37:00,479 - INFO - Processing RMIC80600V - VIA DELLE SETTECHIESE (ROMA)
+2025-12-18 21:37:00,479 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/RMIC80600V/ptof/
+2025-12-18 21:37:01,036 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/RMIC80600V/
+2025-12-18 21:37:01,996 - INFO - Processing SRTL49500I - S. QUASIMODO (SIRACUSA)
+2025-12-18 21:37:01,996 - INFO - Checking Unica portal: https://unica.istruzione.gov.it/cercalatuascuola/istituti/SRTL49500I/ptof/
+2025-12-18 21:37:02,939 - INFO - Checking Scuola in Chiaro: https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/SRTL49500I/
+2025-12-18 21:37:03,661 - INFO - Batch complete. Results saved to data/found_ptof_candidates.csv
