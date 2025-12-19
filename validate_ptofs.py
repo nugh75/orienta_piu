@@ -27,9 +27,13 @@ logging.basicConfig(
     ]
 )
 
+DISCARD_DIR = 'ptof_discarded'
+
 def setup_dirs():
     if not os.path.exists(CHUNKS_DIR):
         os.makedirs(CHUNKS_DIR)
+    if not os.path.exists(DISCARD_DIR):
+        os.makedirs(DISCARD_DIR)
     
     # Ensure parsed output dir exists (data/)
     if not os.path.exists('data'):
@@ -165,7 +169,8 @@ def main():
                     df = pd.DataFrame(results)
                     df.to_csv(OUTPUT_FILE, index=False)
                 else:
-                    logging.warning(f"❌ Not a valid 2022-2025 PTOF: {filename}")
+                    logging.warning(f"❌ Not a valid 2022-2025 PTOF: {filename}. Moving to {DISCARD_DIR}")
+                    shutil.move(pdf_path, os.path.join(DISCARD_DIR, filename))
             else:
                  logging.warning(f"⚠️ Failed to analyze {filename}")
         else:

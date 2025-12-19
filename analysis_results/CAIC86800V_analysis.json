@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "school_id": "ND",
+    "denominazione": "Foscolo - Via Stoccolma",
+    "ordine_grado": "I_grado",
+    "anno_ptof": "ND",
+    "fonte": "PDF"
+  },
+  "extraction_quality": {
+    "status": "ok",
+    "notes": "Estrazione completa dei dati richiesti. Alcune sezioni richiedono inferenze per completare i campi."
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "score": 5,
+      "evidence_quote": "La scuola secondaria di I grado [...] orienta i suoi alunni al percorso superiore di II grado.",
+      "evidence_location": "N/A"
+    },
+    "2_2_partnership": {
+      "tipologie": {
+        "interni": {
+          "value": 1,
+          "evidence_quote": "Gruppo di Lavoro per la prevenzione della dispersione scolastica raccorderà le azioni di progettazione, attuazione e monitoraggio in connessione con la Commissione PTOF e gli Organi Collegiali.",
+          "evidence_location": "PAGINA 100"
+        },
+        "scuole_primarie": {
+          "value": 1,
+          "evidence_quote": "In tal senso i tre segmenti scolastici costituenti il comprensivo “Foscolo - Via Stoccolma” operano secondo un curricolo verticale che, partendo dalla Scuola dell’Infanzia, accompagna l’alunno nel suo processo di crescita in modo organico e completo",
+          "evidence_location": "N/A"
+        },
+        "licei": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "tecnici": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "professionali": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "iefp": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "universita": {
+          "value": 1,
+          "evidence_quote": "Collaborazione con UNIVERSITA’ DEGLI STUDI DI CAGLIARI – Facoltà di Pedagogia, Psicologia e Filosofia",
+          "evidence_location": "Pagina 97"
+        },
+        "aziende": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "enti_pubblici_territoriali": {
+          "value": 1,
+          "evidence_quote": "Comune di Cagliari",
+          "evidence_location": "Pagina 113"
+        },
+        "terzo_settore": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        },
+        "altro": {
+          "value": 0,
+          "evidence_quote": null,
+          "evidence_location": null
+        }
+      },
+      "partner_nominati": [
+        "Società sportive",
+        "Comune di Cagliari",
+        "Fondazione Teatro Lirico di Cagliari",
+        "Bibliobus",
+        "UNIVERSITA’ DEGLI STUDI DI CAGLIARI"
+      ],
+      "altro_testo": "La scuola è scuola Polo per la Scuola Italiana in Ospedale e ha aderito alla rete nazionale Scuole in Ospedale."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "garantire equità nei percorsi e offrire a tutti gli alunni opportunità concrete per il raggiungimento di competenze chiave e disciplinari di buon e ottimo livello.",
+        "evidence_location": "Pagina 95"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "progettazione di percorsi didattici sulla conoscenza di sé che sviluppino l’autonomia e l'autoconsapevolezza degli alunni e li orientino nella progressiva costruzione di obiettivi per la vita;",
+        "evidence_location": "N/A"
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "progettazione di attività didattiche con docenti delle classi ponte, con lo scopo di attuare corrette azioni di orientamento scolastico;",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 6,
+        "evidence_quote": "Al termine del ciclo di istruzione la funzione sommativa si accompagna alla valutazione prognostica che sostiene le decisioni circa l’orientamento per il successivo ciclo di istruzione.",
+        "evidence_location": "90"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "Implementare le azioni didattiche correlate allo sviluppo delle competenze chiave, in particolare quelle di cittadinanza glocale.",
+        "evidence_location": "Pagina 94"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 7,
+        "evidence_quote": "Ridurre la varianza all’interno delle classi parallele; Ampliare del 5% le fasce medio – alte a livello di istituto e di singola classe; Migliorare i livelli di competenza degli alunni, con particolare attenzione a coloro che manifestano difficoltà nei processi di apprendimento",
+        "evidence_location": "Pagina 96"
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5,
+        "evidence_quote": "L’Istituto elabora un proprio Rapporto di autovalutazione sulla base del quale definisce un proprio piano di Miglioramento della scuola a seguito dell’attuazione di percorsi di valutazione e autovalutazione.",
+        "evidence_location": "Pagina 94"
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "evidence_quote": "garantire equità nei percorsi e offrire a tutti gli alunni opportunità concrete per il raggiungimento di competenze chiave e disciplinari di buon e ottimo livello.",
+        "evidence_location": "Pagina 95"
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5,
+        "evidence_quote": "Gruppo di Lavoro per la prevenzione della dispersione scolastica raccorderà le azioni di progettazione, attuazione e monitoraggio in connessione con la Commissione PTOF e gli Organi Collegiali.",
+        "evidence_location": "PAGINA 100"
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4,
+        "evidence_quote": "predisposizione di ambienti di apprendimento innovativi, adatti alle attività di apprendimento cooperativo e alla promozione del senso di responsabilità e collaborazione;",
+        "evidence_location": "N/A"
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4,
+        "evidence_quote": "La Scuola organizza momenti di incontro con le famiglie degli alunni e tutti gli operatori scolastici per illustrare i contenuti dell’Offerta Formativa e l’organizzazione didattico-amministrativa dell’Istituto",
+        "evidence_location": "Pagina 114"
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6,
+        "evidence_quote": "Monitoraggio azioni programmate con questionari in ingresso e in uscita",
+        "evidence_location": "PAGINA 96"
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5,
+        "evidence_quote": "iniziative per il sostegno di alunni con disabilità e di alunni stranieri",
+        "evidence_location": "Pagina 107"
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5,
+        "evidence_quote": "laboratori creativi per classi aperte e per anni ponte",
+        "evidence_location": "PAGINA 103"
+      },
+      "didattica_laboratoriale": {
+        "score": 6,
+        "evidence_quote": "Implementare il protocollo d'istituto per lo sviluppo delle azioni di didattica laboratoriale.",
+        "evidence_location": "PAGINA 94"
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5,
+        "evidence_quote": "adozione di una didattica e di un'organizzazione flessibile, che privilegi l'utilizzo del metodo cooperativo e gli approcci multipli per lo sviluppo delle competenze del 'saper fare';",
+        "evidence_location": "N/A"
+      },
+      "didattica_interdisciplinare": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5,
+        "evidence_quote": "laboratori creativi per classi aperte e per anni ponte",
+        "evidence_location": "PAGINA 103"
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_volontariato": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_sportive": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_8_rete_passaggi_orizzontali": {
+      "score": 0,
+      "label": null,
+      "evidence_quote": null,
+      "evidence_location": null
+    }
+  },
+  "activities_register": [
+    {
+      "activity_id": "1",
+      "titolo_attivita": "Progetto di sperimentazione di potenziamento cognitivo",
+      "categoria_principale": "PCTO",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Il progetto di sperimentazione di potenziamento cognitivo coordinato dal SAPIE di Firenze",
+      "evidence_location": "PAGINA 97"
+    }
+  ],
+  "derived_indices": {
+    "partnership_count": "6",
+    "activities_count": "1",
+    "mean_finalita": "5.2",
+    "mean_obiettivi": "5.5",
+    "mean_governance": "5.0",
+    "mean_didattica_orientativa": "5.25",
+    "mean_opportunita": "5.0",
+    "ptof_orientamento_maturity_index": "5.3"
+  }
+}
