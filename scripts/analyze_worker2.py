@@ -11,7 +11,7 @@ import re
 # --- Configuration ---
 PTOF_DIR = 'ptof'
 RESULTS_DIR = 'analysis_results'
-SUMMARY_FILE = 'data/analysis_summary.csv'
+SUMMARY_FILE = 'data/analysis_summary_w2.csv'
 METADATA_FILE = 'data/candidati_ptof.csv'
 LOG_FILE = 'analysis.log'
 
@@ -50,8 +50,6 @@ INVALSI_DIR = 'data/liste invalsi'
 def parse_strato(strato):
     """
     Parse the 'strato' field to extract area and type.
-    User Rules:
-    - Territory: 'metro' -> Metropolitano, 'altro' -> Non Metropolitano
     """
     if pd.isna(strato):
         return 'ND', 'ND', 'ND'
@@ -63,11 +61,8 @@ def parse_strato(strato):
     elif 'sud' in strato: area = 'Sud'
     elif 'centro' in strato: area = 'Centro'
         
-    territorio = 'ND'
-    if 'metro' in strato: 
-        territorio = 'Metropolitano'
-    elif 'altro' in strato:
-        territorio = 'Non Metropolitano'
+    territorio = 'Altro'
+    if 'metro' in strato: territorio = 'Metropolitano'
         
     tipo = 'Altro'
     if 'licei' in strato: tipo = 'Liceo'
@@ -223,13 +218,13 @@ def build_aggregation_prompt(school_meta, chunk_results):
     VINCOLI NARRATIVI (STRATEGIA "CATALOGO NARRATIVO"):
     - **VIETATO USARE ELENCHI PUNTATI**: Ogni attività deve essere descritta in un paragrafo discorsivo autonomo.
     - **COPERTURA TOTALE**: Descrivi TUTTE le attività rilevate, nessuna esclusa.
-    - **FORMATO**: Per OGNI attività, usa un **Titolo in Grassetto** (es. "**Progetto Continuità**", "**Laboratorio Green**") seguito dalla descrizione completa.
+    - **FORMATO**: Per OGNI attività, usa un **Titolo in Grassetto** (es. "**Progetto Continuità**", "**Laboratorio Green**") seguito dalla descrizione.
     
     ANALISI 5W+H (DA APPLICARE A OGNI PARAGRAFO):
     Costruisci la descrizione rispondendo puntualmente a:
     1. **CHI** (Attori): Chi agisce? (Dip. disciplinari, singoli docenti, partner, esperti).
     2. **COSA** (Azione): In cosa consiste concretamente l'attività?
-    3. **COME** (Metodologia): Laboratorio, lezione, co-progettazione, uscita didattica?
+    3. **COME** (Metodo): Laboratorio, lezione, co-progettazione, uscita didattica?
     4. **PERCHÉ** (Scopo): Qual è il bisogno educativo o l'obiettivo strategico?
     5. **ASPETTATIVE** (Outcome): Cosa ci si aspetta che cambi (competenze, scelte)?
 
@@ -453,54 +448,10 @@ def analyze_school(pdf_path):
             json_str = final_response[json_start:json_end]
             json_data = json.loads(json_str)
             
-            # === MULTI-STAGE PIPELINE ===
-            # Stage 2: Deep Activity Analysis
-            from pipeline_stages import deep_analyze_activities, generate_narrative_report, validate_and_correct_json
-            
-            logging.info(f"Starting Stage 2: Deep Activity Analysis for {school_code}")
-            deep_activities = deep_analyze_activities(school_code, json_data, chunks, call_ollama)
-            
-            # Stage 3: Narrative Synthesis
-            logging.info(f"Starting Stage 3: Narrative Synthesis for {school_code}")
-            narrative_text = generate_narrative_report(school_code, json_data, deep_activities, chunks, call_ollama)
+            # Extract Narrative
+            narrative_text = final_response[json_end:].strip()
             narrative_text = narrative_text.replace("```markdown", "").replace("```", "").strip()
             
-            # Stage 4: JSON Validation & Correction
-            logging.info(f"Starting Stage 4: JSON Validation for {school_code}")
-            json_data, was_corrected = validate_and_correct_json(school_code, json_data, narrative_text)
-            if was_corrected:
-                logging.warning(f"  JSON scores were corrected based on narrative analysis")
-
-            
-            # --- Robust Grade Inference (Same as Dashboard) ---
-            def infer_level(name):
-                if not isinstance(name, str): return 'ND'
-                name = name.upper().strip()
-                # Keywords chiare per II Grado
-                keywords_ii_grado = [
-                    'LICEO', 'TECNICO', 'PROFESSIONALE', 'IIS', 'ISIS', 'IT ', 'IPS', 'ISTITUTO SUPERIORE', 
-                    'SCIENTIFICO', 'CLASSICO', 'LINGUISTICO', 'ARTISTICO'
-                ]
-                if any(k in name for k in keywords_ii_grado):
-                    return 'II Grado'
-                # Keywords per I Grado
-                keywords_i_grado = [
-                    'IC ', 'COMPRENSIVO', 'MEDIA', 'ELEMENTARE', 'DIREZIONE DIDATTICA', ' PRIMARIA', 'SEC. I GRADO'
-                ]
-                if any(k in name for k in keywords_i_grado):
-                    return 'I Grado'
-                # Default fallback
-                return 'I Grado'
-
-            # Logic to determine definitive grade
-            current_grade = meta.get('ordine_grado', 'ND')
-            if current_grade == 'ND' or not current_grade:
-                current_grade = infer_level(meta.get('denominazionescuola', ''))
-            
-            # Get INVALSI data (Moved up for header generation)
-            inv_data = invalsi_cache.get(school_code, {'area_geografica': 'ND', 'tipo_scuola': 'ND', 'territorio': 'ND'})
-            school_territorio = inv_data.get('territorio', 'ND')
-
             # Save JSON
             with open(result_file, 'w') as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
@@ -511,8 +462,8 @@ def analyze_school(pdf_path):
 
 **Istituto:** {meta.get('denominazionescuola', 'ND')}
 **Codice Meccanografico:** {school_code}
-**Territorio:** {school_territorio}
-**Grado:** {current_grade}
+**Territorio:** {meta.get('nome_comune', 'ND')}
+**Grado:** {meta.get('ordine_grado', 'ND')}
 **Anno PTOF:** 2022-2025
 
 ---
@@ -565,8 +516,8 @@ def analyze_school(pdf_path):
                     return sec_data.get('has_sezione_dedicata', 0)
                 return 0
             
-            # Get INVALSI data (Moved up)
-            # inv_data already retrieved above
+            # Get INVALSI data
+            inv_data = invalsi_cache.get(school_code, {'area_geografica': 'ND', 'tipo_scuola': 'ND', 'territorio': 'ND'})
 
             summary_data = {
                 'school_id': school_code,
@@ -655,13 +606,10 @@ def analyze_school(pdf_path):
             summary_data['mean_opportunita'] = round(mean_opportunita, 2)
             summary_data['ptof_orientamento_maturity_index'] = round(robustness_index, 2)
 
-            # Calculate partnership_count and activities_count from actual data (don't trust LLM)
-            partnership_data = json_data.get('ptof_section2', {}).get('2_2_partnership', {})
-            partner_nominati = partnership_data.get('partner_nominati', [])
-            summary_data['partnership_count'] = len(partner_nominati) if isinstance(partner_nominati, list) else 0
-            
-            activities_register = json_data.get('activities_register', [])
-            summary_data['activities_count'] = len(activities_register) if isinstance(activities_register, list) else 0
+            # Altri contatori
+            derived = json_data.get('derived_indices', {})
+            summary_data['partnership_count'] = derived.get('partnership_count', 0)
+            summary_data['activities_count'] = derived.get('activities_count', 0)
 
             import csv
             file_exists = os.path.isfile(SUMMARY_FILE)
@@ -682,9 +630,30 @@ def analyze_school(pdf_path):
 def main():
     setup_dirs()
     
-    # FULL MODE: Analyze all files in PTOF_DIR
-    pdf_files = sorted(glob.glob(os.path.join(PTOF_DIR, '*.pdf')))
-    logging.info(f"📂 FULL MODE: Found {len(pdf_files)} PDF files")
+    # WORKER 2 FILES (Medium files ~1MB)
+    TEST_FILES = [
+        'CEIC87400L_PTOF.pdf',
+        'TRABIA_PAIC888009.pdf',
+        'SAN_SECONDO_PARMENSE_PRIS00200Q.pdf',
+        'NARH105008_PTOF.pdf',
+        'PAPS100008_PTOF.pdf'
+    ]
+    
+    # Use TEST_FILES
+    pdf_files = []
+    for f in TEST_FILES:
+        path = os.path.join(PTOF_DIR, f)
+        if os.path.exists(path):
+            pdf_files.append(path)
+            
+    if pdf_files:
+        logging.info(f"🧪 WORKER 2: Analyzing {len(pdf_files)} files")
+    else:
+        # Fallback to all files - This block is removed as per instruction
+        # pdf_files = sorted(glob.glob(os.path.join(PTOF_DIR, '*.pdf')))
+        # logging.info(f"📂 FULL MODE: Found {len(pdf_files)} PDF files")
+        logging.warning("No test files found for WORKER 2. Exiting.")
+        return # Added return to prevent processing an empty list if no test files are found
     
     for pdf_path in pdf_files:
         analyze_school(pdf_path)

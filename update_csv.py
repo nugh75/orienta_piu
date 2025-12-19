@@ -52,7 +52,27 @@ for json_file in json_files:
                 return sec_data.get('score', 0)
             return 0
 
-        row['2_1_score'] = get_score(section2.get('2_1_ptof_orientamento_sezione_dedicata'))
+        sec_2_1 = section2.get('2_1_ptof_orientamento_sezione_dedicata', {})
+        row['2_1_score'] = get_score(sec_2_1)
+        
+        # Extract has_sezione_dedicata from JSON or infer from MD
+        if 'has_sezione_dedicata' in sec_2_1:
+            row['has_sezione_dedicata'] = sec_2_1.get('has_sezione_dedicata', 0)
+        else:
+            # Fallback: parse MD file for keywords
+            md_file = json_file.replace('.json', '.md')
+            has_section = 0
+            if os.path.exists(md_file):
+                with open(md_file, 'r') as mf:
+                    md_text = mf.read().lower()
+                    # If text says "non esiste sezione" or similar -> 0
+                    if any(x in md_text for x in ['non essendo esplicitamente', 'non come area autonoma', 'non è presente una sezione', 'assenza di una sezione']):
+                        has_section = 0
+                    elif any(x in md_text for x in ['sezione dedicat', 'capitolo dedicat', 'area specifica', 'sezione specifica']):
+                        has_section = 1
+                    else:
+                        has_section = 0  # Default to 0 if unclear
+            row['has_sezione_dedicata'] = has_section
         
         sec_2_3 = section2.get('2_3_finalita', {})
         for key in sec_2_3:
@@ -76,7 +96,7 @@ if all_data:
     # Define fixed column order
     fixed_order = [
         'school_id', 'denominazione', 'comune', 'extraction_status', 'duration_sec', 'analysis_file',
-        '2_1_score',
+        'has_sezione_dedicata', '2_1_score',
         '2_3_finalita_attitudini_score', '2_3_finalita_interessi_score', '2_3_finalita_progetto_vita_score',
         '2_3_finalita_transizioni_formative_score', '2_3_finalita_capacita_orientative_opportunita_score',
         '2_4_obiettivo_ridurre_abbandono_score', '2_4_obiettivo_continuita_territorio_score',
