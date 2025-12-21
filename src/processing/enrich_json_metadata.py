@@ -12,7 +12,6 @@ from glob import glob
 # Paths
 RESULTS_DIR = "analysis_results"
 ENRICHMENT_CSV = "data/metadata_enrichment.csv"
-INVALSI_CSV = "data/invalsi_unified.csv"
 
 def extract_canonical_code(filename_code):
     """Extract standard school code from prefixed filename."""
@@ -21,7 +20,7 @@ def extract_canonical_code(filename_code):
 
 def load_metadata_caches():
     """Load metadata from CSV sources."""
-    caches = {'enrichment': {}, 'invalsi': {}}
+    caches = {'enrichment': {}}
     
     # Enrichment (official registry)
     if os.path.exists(ENRICHMENT_CSV):
@@ -35,22 +34,10 @@ def load_metadata_caches():
         except Exception as e:
             print(f"✗ Failed to load enrichment: {e}")
     
-    # INVALSI
-    if os.path.exists(INVALSI_CSV):
-        try:
-            df = pd.read_csv(INVALSI_CSV, sep=';', dtype=str)
-            for _, row in df.iterrows():
-                code = str(row.get('istituto', '')).strip()
-                if code:
-                    caches['invalsi'][code] = row.to_dict()
-            print(f"✓ Loaded {len(caches['invalsi'])} records from INVALSI CSV")
-        except Exception as e:
-            print(f"✗ Failed to load INVALSI: {e}")
-    
     return caches
 
 def enrich_json_file(json_path, caches):
-    """Enrich a single JSON file with metadata."""
+    """Enrich a single JSON file with metadata (LLM output is primary)."""
     filename = os.path.basename(json_path)
     school_code_raw = filename.replace('_analysis.json', '')
     school_code = extract_canonical_code(school_code_raw)
@@ -63,18 +50,26 @@ def enrich_json_file(json_path, caches):
             data['metadata'] = {}
         
         enrich = caches['enrichment'].get(school_code, {})
-        invalsi = caches['invalsi'].get(school_code, {})
         
-        # Update metadata with priority: enrichment > invalsi > existing
+        # Update metadata with priority: existing (LLM) > enrichment
         data['metadata']['school_id'] = school_code
-        data['metadata']['denominazione'] = enrich.get('denominazione') or invalsi.get('denominazionescuola') or data['metadata'].get('denominazione', 'ND')
-        data['metadata']['comune'] = enrich.get('comune') or invalsi.get('nome_comune') or data['metadata'].get('comune', 'ND')
-        data['metadata']['area_geografica'] = enrich.get('area_geografica') or data['metadata'].get('area_geografica', 'ND')
-        data['metadata']['ordine_grado'] = enrich.get('ordine_grado') or invalsi.get('grado') or data['metadata'].get('ordine_grado', 'ND')
-        data['metadata']['territorio'] = invalsi.get('territorio_std') or data['metadata'].get('territorio', 'ND')
+        data['metadata']['denominazione'] = data['metadata'].get('denominazione') or enrich.get('denominazione') or 'ND'
+        data['metadata']['comune'] = data['metadata'].get('comune') or enrich.get('comune') or 'ND'
+        data['metadata']['area_geografica'] = data['metadata'].get('area_geografica') or enrich.get('area_geografica') or 'ND'
+        data['metadata']['ordine_grado'] = data['metadata'].get('ordine_grado') or enrich.get('ordine_grado') or 'ND'
+        data['metadata']['territorio'] = data['metadata'].get('territorio') or 'ND'
+
+        # Infer Ordine Grado from Denominazione if currently ND or generic
+        current_grado = data['metadata']['ordine_grado']
+        if current_grado in ['ND', '', None]:
+            denom_lower = data['metadata']['denominazione'].lower()
+            if 'infanzia' in denom_lower:
+                data['metadata']['ordine_grado'] = 'Infanzia'
+            elif 'primaria' in denom_lower or 'direzione didattica' in denom_lower or ' d.d.' in denom_lower:
+                data['metadata']['ordine_grado'] = 'Primaria'
         
-        # Get tipo_scuola from sources
-        tipo_scuola = invalsi.get('tipo_scuola_std') or data['metadata'].get('tipo_scuola', 'ND')
+        # Get tipo_scuola from LLM output
+        tipo_scuola = data['metadata'].get('tipo_scuola', 'ND')
         
         # For I Grado schools, replace ND with "I Grado" (no subtypes exist)
         ordine = data['metadata'].get('ordine_grado', '')

@@ -1,0 +1,1393 @@
+[
+  {
+    "file": "PAIC87200Q_analysis.json",
+    "school_id": "PAIC87200Q",
+    "review_date": "2025-12-21T19:33:39.968718",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (17)"
+      },
+      {
+        "field": "ptof_section2.2_2_partnership",
+        "issue": "metadata_incomplete",
+        "description": "The '2_2_partnership' section in the PTOF lacks a 'score' field despite listing 17 partners in the narrative. The narrative explicitly mentions active partnerships, which should correspond to a high score (6-7). The absence of a score constitutes a metadata inconsistency."
+      },
+      {
+        "field": "ptof_section2.2_2_partnership",
+        "issue": "score_anomaly",
+        "description": "The narrative highlights the presence of 17 partnerships, which should align with a high score (6-7). However, the 'score' field is missing entirely, creating a discrepancy between the narrative and the structured data. This violates the coherence requirement between narrative and quantitative metrics."
+      },
+      {
+        "field": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata",
+        "issue": "score_anomaly",
+        "description": "The '2_1_ptof_orientamento_sezione_dedicata' section has a score of 3, but the narrative states that orientation is 'integrated in diverse activities' rather than absent. While the score may reflect partial integration, the narrative's positive framing of integration could justify a higher score (e.g., 4-5), creating a potential inconsistency."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PTOF_2025-28_scelte_strategiche_analysis.json",
+    "school_id": "STRATEGICHE",
+    "review_date": "2025-12-21T18:28:27.901722",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (24)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Manca il punteggio per la sezione 2.2_partnership nonostante siano elencati 24 partner."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_rapporto_scuola_genitori",
+        "message": "La citazione fornita per il rapporto scuola-genitori punta a una sezione non rilevante (pagina 22) e non giustifica un punteggio 6."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "Punteggio 5 per la sezione dedicata all'orientamento nonostante le ore dichiarate siano 'ND' per attivit\u00e0 correlate."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "low",
+        "field": "2_7_opzionali_facoltative.opzionali_ludiche_ricreative",
+        "message": "Punteggio 2 per attivit\u00e0 ludiche/ricreative senza menzione di criticit\u00e0 nella narrativa."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "low",
+        "field": "activities_register.Progetto_Adolescenza",
+        "message": "Target 'Tutti' dichiarato, ma l'attivit\u00e0 \u00e8 specifica per studenti con difficolt\u00e0."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_4_obiettivo_contrastare_neet",
+        "message": "Punteggio 2 per l'obiettivo contrastare NEET nonostante siano elencate attivit\u00e0 specifiche (Progetto Percorsi, DROP)."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "FOGGIA_FGIC85900G_analysis.json",
+    "school_id": "FGIC85900G",
+    "review_date": "2025-12-21T19:35:40.014903",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PTOF-2022-25-_analysis.json",
+    "school_id": "PTOF-2022-25-",
+    "review_date": "2025-12-21T18:32:08.231293",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (21)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CSIC80800Q_PTOF_analysis.json",
+    "school_id": "CSIC80800Q",
+    "review_date": "2025-12-21T19:39:20.757986",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Score for 2.2_partnership is missing despite narrative highlighting strong partnerships."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "RMIS01600N_PTOF_analysis.json",
+    "school_id": "RMIS01600N",
+    "review_date": "2025-12-21T19:41:05.043465",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "La narrativa evidenzia criticit\u00e0 nelle partnership (mancanza di obiettivi condivisi e monitoraggio), ma lo score assegnato (5) non riflette questa debolezza."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_progetto_vita",
+        "message": "Lo score 2 per 'progetto di vita' \u00e8 coerente con l'assenza di riferimenti espliciti, ma la narrativa non giustifica un punteggio cos\u00ec basso rispetto ad altre finalit\u00e0."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azione_sistema_integrato_inclusione_fragilita",
+        "message": "Lo score 6 \u00e8 alto, ma la narrativa non fornisce evidenze specifiche sull'efficacia del sistema integrato di inclusione."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PATDEE500L_PTOF_analysis.json",
+    "school_id": "PATDEE500L",
+    "review_date": "2025-12-21T19:42:28.793737",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (8)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Score 8 per partnership, ma la narrativa critica la mancanza di dettaglio su alcune collaborazioni."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_4_obiettivo_ridurre_abbandono",
+        "message": "Score 6 senza evidenze specifiche nel JSON (evidence_quote mancante)."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PCPC00500A_PTOF_analysis.json",
+    "school_id": "PCPC00500A",
+    "review_date": "2025-12-21T19:46:22.434641",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_3_finalita_capacita_orientative_opportunita",
+        "message": "Punteggio 2 senza evidenze esplicite (evidence_quote = 'nessuna esplicita')."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_7_opzionali_volontariato",
+        "message": "Punteggio 2 senza evidenze associate (evidence_quote non presente)."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_7_opzionali_sportive",
+        "message": "Punteggio 5 senza evidenze associate (evidence_quote non presente)."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "BAIC818001-202225-202425-20250106_analysis.json",
+    "school_id": "BAIC818001",
+    "review_date": "2025-12-21T19:48:22.539632",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "MOIC84900D_PTOF_analysis.json",
+    "school_id": "MOIC84900D",
+    "review_date": "2025-12-21T19:51:34.302823",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita.finalita_progetto_vita",
+        "message": "Punteggio basso (2) nonostante la narrativa non menzioni esplicitamente l'assenza di progetti di vita, ma solo una mancanza di definizione chiara."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_4_obiettivo_continuita_territorio",
+        "message": "Punteggio alto (5) per obiettivo di continuit\u00e0 territoriale, ma la narrativa non fornisce evidenze specifiche di azioni strutturate per il territorio."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_7_registro_attivita",
+        "message": "La narrativa elogia le attivit\u00e0 opzionali come contribuenti all'orientamento, ma non tutte le attivit\u00e0 elencate (es. Progetto Coro) sono esplicitamente orientative."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CAGLIARI_CAIC86800V_analysis.json",
+    "school_id": "CAIC86800V",
+    "review_date": "2025-12-21T19:55:12.642857",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "MOIC84800N_PTOF_analysis.json",
+    "school_id": "MOIC84800N",
+    "review_date": "2025-12-21T19:57:53.496436",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "La narrativa indica l'assenza di una sezione dedicata all'orientamento, ma lo score assegnato \u00e8 5 (medio-alto). Secondo le linee guida, in caso di mancanza esplicita di una sezione, lo score dovrebbe essere basso (1-3)."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "MTIS01200R_PTOF_analysis.json",
+    "school_id": "MTIS01200R",
+    "review_date": "2025-12-21T19:58:52.711042",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa indica l'assenza di partnership, ma il campo 'score' per 2.2_partnership non \u00e8 presente nel JSON, rendendo impossibile verificare la coerenza tra valutazione e descrizione."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "AVERSA_CEPS02000T_analysis.json",
+    "school_id": "CEPS02000T",
+    "review_date": "2025-12-21T20:00:52.768367",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "VIPS08000D_LS_DA_VINCI_ARZIGNANO_analysis.json",
+    "school_id": "VIPS08000D",
+    "review_date": "2025-12-21T20:05:17.683912",
+    "flags": [
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Mancante il campo 'score' per la sezione 2.2_partnership."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa afferma 'mancano partnership', ma i dati riportano 4 partner nominati."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita.finalita_attitudini",
+        "message": "Punteggio 3 assegnato senza evidenze specifiche ('Non esplicitamente menzionate')."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita.finalita_interessi",
+        "message": "Punteggio 3 assegnato senza evidenze specifiche ('Non esplicitamente menzionate')."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita.finalita_capacita_orientative_opportunita",
+        "message": "Punteggio 3 assegnato senza evidenze specifiche ('Non esplicitamente menzionate')."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_6_didattica_orientativa.didattica_laboratoriale",
+        "message": "Punteggio massimo (5) assegnato senza ore dichiarate ('ND') e con evidenze non dettagliate."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "TRABIA_PAIC888009_analysis.json",
+    "school_id": "PAIC888009",
+    "review_date": "2025-12-21T20:07:47.470035",
+    "flags": [
+      {
+        "type": "narrative_inconsistency",
+        "severity": "high",
+        "field": "2_7_opzionali_facoltative",
+        "message": "L'attivit\u00e0 'Collaborazioni con Universit\u00e0' nel registro menziona studenti della scuola secondaria di secondo grado, ma la scuola \u00e8 di 'I Grado' (metadata.tipo_scuola)."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_4_obiettivo_ridurre_abbandono",
+        "message": "Punteggio 5 per l'obiettivo di ridurre l'abbandono, ma la narrativa non evidenzia obiettivi specifici o misurabili per questo aspetto."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio 5 per le partnership, ma la narrativa sottolinea l'assenza di accordi formali e risultati concreti."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_6_didattica_interdisciplinare",
+        "message": "Punteggio 5 per la didattica interdisciplinare, ma la narrativa non menziona metodologie specifiche per l'orientamento."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "NATF130009_PTOF_analysis.json",
+    "school_id": "NATF130009",
+    "review_date": "2025-12-21T20:10:55.595420",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "MOIS00200C_PTOF_analysis.json",
+    "school_id": "MOIS00200C",
+    "review_date": "2025-12-21T20:12:21.936630",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "La narrativa critica le partnership per mancanza di orientamento, ma il punteggio 2.2_partnership non \u00e8 definito nel JSON, nonostante la partnership_count sia 7 (valore alto)."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "MSIC81200D_analysis.json",
+    "school_id": "MSIC81200D",
+    "review_date": "2025-12-21T20:16:22.063341",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (10)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PAPS3Q5009-202528-202425-20250120_analysis.json",
+    "school_id": "PAPS3Q5009",
+    "review_date": "2025-12-21T20:18:00.143230",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il campo 'score' per 2.2_partnership \u00e8 mancante nonostante la narrativa ne evidenzi la presenza come punto di forza."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "PALERMO_PAPC030004_analysis.json",
+    "school_id": "PAPC030004",
+    "review_date": "2025-12-21T20:18:59.776398",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (21)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Mancanza del punteggio per la sezione 2.2_partnership nonostante la narrativa evidenzi una rete di partnership estesa."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_4_obiettivo_lifelong_learning",
+        "message": "Punteggio 5 assegnato senza evidenze qualitative o quantitative nel campo 'evidence_quote'."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_7_opzionali_culturali",
+        "message": "Punteggio 5 assegnato senza evidenze qualitative o quantitative nel campo 'evidence_quote'."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "SAN_MARCO_ARGENTANO_CSIS06700R_analysis.json",
+    "school_id": "CSIS06700R",
+    "review_date": "2025-12-21T20:20:39.146777",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita.finalita_progetto_vita",
+        "message": "Il punteggio 2 per 'finalita_progetto_vita' \u00e8 coerente con la narrativa ('nessuna citazione esplicita'), ma l'evidenza 'N/A' non giustifica un punteggio basso se non supportato da ulteriori dettagli."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "low",
+        "field": "2_7_opzionali_facoltative.opzionali_ludiche_ricreative",
+        "message": "La narrativa menziona una 'limitata offerta di attivit\u00e0 opzionali', ma il punteggio 2 per 'opzionali_ludiche_ricreative' non \u00e8 supportato da attivit\u00e0 specifiche nel registro."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "RHO_MIIS08900V_analysis.json",
+    "school_id": "MIIS08900V",
+    "review_date": "2025-12-21T20:21:54.571750",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "La narrativa indica una mancanza di descrizione dettagliata delle partnership, ma lo score assegnato (5) non riflette questa criticit\u00e0. Si aspetterebbe un punteggio pi\u00f9 basso (1-3)."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_4_obiettivo_ridurre_abbandono",
+        "message": "La narrativa sottolinea l'assenza di indicatori quantitativi per l'obiettivo di ridurre l'abbandono, ma lo score assegnato (4) non riflette questa debolezza."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_attitudini",
+        "message": "Lo score 3 per 'finalita_attitudini' \u00e8 coerente con l'evidenza 'Non esplicitamente menzionate', ma l'assenza di riferimenti specifici potrebbe giustificare un punteggio pi\u00f9 basso."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_interessi",
+        "message": "Lo score 3 per 'finalita_interessi' \u00e8 coerente con l'evidenza 'Non esplicitamente menzionate', ma l'assenza di riferimenti specifici potrebbe giustificare un punteggio pi\u00f9 basso."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "AQIS01800Q-202225-202425-20241222_analysis.json",
+    "school_id": "AQIS01800Q",
+    "review_date": "2025-12-21T20:26:53.454207",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CALTAGIRONE_CTIC823002_analysis.json",
+    "school_id": "CTIC823002",
+    "review_date": "2025-12-21T20:28:09.486548",
+    "flags": [
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Narrativa menziona collaborazioni con enti locali (Comune, Museo Diocesano, ecc.) ma i dati riportano 'partner_nominati': [] e 'partnership_count': 0."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "BNIS02300V_PTOF_analysis.json",
+    "school_id": "BNIS02300V",
+    "review_date": "2025-12-21T19:27:44.619140",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il punteggio 5 per le partnership \u00e8 sproporzionato rispetto alla narrativa, che critica la mancanza di dettagli operativi sulle collaborazioni."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "Il punteggio 2 per l'assenza di una sezione dedicata all'orientamento \u00e8 coerente, ma la narrativa non menziona esplicitamente il collegamento con il punteggio."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_7_opzionali_ludiche_ricreative",
+        "message": "Il punteggio 2 per le attivit\u00e0 ludiche/ricreative \u00e8 coerente con la narrativa, ma non \u00e8 fornita evidenza specifica nel JSON."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "BNIS01100L_PTOF_analysis.json",
+    "school_id": "BNIS01100L",
+    "review_date": "2025-12-21T19:37:21.495120",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio per 2.2_partnership mancante nonostante siano elencati 10 partner"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "COLLEFERRO_RMIS02400L_analysis.json",
+    "school_id": "RMIS02400L",
+    "review_date": "2025-12-21T19:53:12.587238",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_7_opzionali_laboratoriali_espressive",
+        "message": "Punteggio 6 assegnato senza evidenze concrete: la citazione dell'attivit\u00e0 \u00e8 vuota (\"...\") e non fornisce dettagli sull'implementazione."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_6_didattica_laboratoriale",
+        "message": "Punteggio 5 assegnato nonostante la narrativa evidenzi una descrizione vaga dei laboratori (\"non sono descritti in dettaglio in termini di spazi dedicati, strumentazione o esempi di attivit\u00e0 pratiche\")."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CENTO_FEIS01400G_analysis.json",
+    "school_id": "FEIS01400G",
+    "review_date": "2025-12-21T20:03:52.937471",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il punteggio 5 per le partnership non \u00e8 coerente con la narrativa, che critica la descrizione vaga delle collaborazioni e la mancanza di dettagli su accordi formali e monitoraggio."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "BAIS05300C_PTOF_analysis.json",
+    "school_id": "BAIS05300C",
+    "review_date": "2025-12-21T20:29:26.430830",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa evidenzia partnership come punto di forza, ma manca il punteggio associato alla sezione 2.2_partnership nel JSON."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_7_opzionali_facoltative_opzionali_laboratoriali_espressive",
+        "message": "Punteggio 5 assegnato a 'opzionali_laboratoriali_espressive' senza evidenze concrete (evidence_quote = '. ..')."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "BGPS02000G_PTOF_analysis.json",
+    "school_id": "BGPS02000G",
+    "review_date": "2025-12-21T20:30:54.503148",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il campo 'score' per la partnership non \u00e8 presente nel JSON, nonostante la narrativa ne evidenzi la presenza come punto di forza."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "TARANTO_TAIC829004_analysis.json",
+    "school_id": "TAIC829004",
+    "review_date": "2025-12-21T20:33:24.056793",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Narrativa indica mancanza di integrazione strategica delle partnership con l'orientamento, ma lo score assegnato \u00e8 6/7 (valore massimo)."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azione_sistema_integrato_inclusione_fragilita",
+        "message": "Score 6/7 assegnato senza evidenze esplicite di governance dedicata all'orientamento, come richiesto nella narrativa."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_4_obiettivo_continuita_territorio",
+        "message": "Score 5/7 assegnato senza specificare indicatori misurabili, come menzionato nella narrativa."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "VEROLI_FRPC02500X_analysis.json",
+    "school_id": "FRPC02500X",
+    "review_date": "2025-12-21T20:34:37.997056",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (19)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "RMPL355003_PTOF_analysis.json",
+    "school_id": "RMPL355003",
+    "review_date": "2025-12-21T20:35:37.578234",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa elogia le partnership come punto di forza, ma il campo 'score' per 2.2_partnership \u00e8 assente nel JSON, rendendo impossibile verificare la coerenza tra valutazione e descrizione."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "La narrativa indica l'assenza di una sezione dedicata all'orientamento, ma lo score assegnato \u00e8 3 (medio). Si aspetterebbe un punteggio pi\u00f9 basso (1-3) per riflettere questa criticit\u00e0."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_monitoraggio_azioni",
+        "message": "La narrativa segnala un monitoraggio limitato, ma lo score assegnato \u00e8 2 (basso). Tuttavia, il campo 'evidence_quote' \u00e8 vuoto, rendendo sospetto il giustificativo del punteggio."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "MIRFHT500U_PTOF_analysis.json",
+    "school_id": "MIRFHT500U",
+    "review_date": "2025-12-21T20:37:33.767930",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "Il punteggio 5 per la sezione dedicata all'orientamento non \u00e8 coerente con la narrativa, che descrive un approccio frammentato e mancante di una visione strategica integrata."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_4_obiettivo_continuita_territorio",
+        "message": "Il punteggio 5 per l'obiettivo di continuit\u00e0 territoriale non \u00e8 supportato da evidenze specifiche nella narrativa, che non menziona dettagli sull'implementazione."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_7_opzionali_culturali",
+        "message": "Il punteggio 1 per le attivit\u00e0 opzionali culturali non \u00e8 accompagnato da quote di evidenza, rendendo difficile valutare la giustificazione del voto."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "FOGGIA_FGIC86200B_analysis.json",
+    "school_id": "FGIC86200B",
+    "review_date": "2025-12-21T20:38:40.820806",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "NAIC80800G_PTOF_analysis.json",
+    "school_id": "NAIC80800G",
+    "review_date": "2025-12-21T20:39:52.041812",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa menziona partnership attive (es. Confindustria Umbria), ma il campo 'score' per 2.2_partnership \u00e8 assente, rendendo impossibile verificare la coerenza tra dati e valutazione."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "high",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "Il campo 'has_sezione_dedicata' \u00e8 impostato a 1 (sezione dedicata presente), ma la narrativa afferma esplicitamente che 'manca una sezione dedicata all\u2019orientamento', creando una contraddizione logica."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_7_opzionali_ludiche_ricreative",
+        "message": "L'attivit\u00e0 'opzionali_ludiche_ricreative' ha un punteggio di 2, ma la narrativa non menziona criticit\u00e0 specifiche per questa categoria, suggerendo una valutazione potenzialmente sproporzionata."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "CATANIA_CTIS04300B_analysis.json",
+    "school_id": "CTIS04300B",
+    "review_date": "2025-12-21T20:42:12.837481",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (12)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_coordinamento_servizi",
+        "message": "Score 6 assegnato a un'azione descritta come 'non descritta in termini di coerenza e di efficacia misurabile' nella narrativa."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita",
+        "message": "Score 6 assegnato a un'azione per cui la narrativa indica 'mancata integrazione con i servizi di inclusione'."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_7_opzionali_facoltative.opzionali_laboratoriali_espressive",
+        "message": "Score 5 assegnato a un'attivit\u00e0 (PCTO) per cui la narrativa segnala 'mancanza di dettagli sui criteri di selezione e monitoraggio'."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "KRIS00400C_PTOF_analysis.json",
+    "school_id": "KRIS00400C",
+    "review_date": "2025-12-21T20:43:28.533894",
+    "flags": [
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership, nonostante siano elencati 4 partner."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "RAGUSA_RGIS01300V_analysis.json",
+    "school_id": "RGIS01300V",
+    "review_date": "2025-12-21T20:44:37.167159",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa menziona 7 partnership attive, ma manca il campo 'score' per valutare la qualit\u00e0. Un punteggio alto (6-7) sarebbe atteso."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_progetto_vita",
+        "message": "La narrativa indica 'Nessuna esplicita menzione' per la finalit\u00e0 progetto di vita, ma il punteggio assegnato \u00e8 2 (basso). Questo \u00e8 coerente, ma richiede verifica per confermare l'attendibilit\u00e0."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_capacita_orientative_opportunita",
+        "message": "La narrativa indica 'Nessuna esplicita menzione' per le capacit\u00e0 orientative, ma il punteggio assegnato \u00e8 2 (basso). Questo \u00e8 coerente, ma richiede verifica per confermare l'attendibilit\u00e0."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "GENOVA_GEIS01400Q_analysis.json",
+    "school_id": "GEIS01400Q",
+    "review_date": "2025-12-21T20:47:41.755734",
+    "flags": [
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership, nonostante siano elencati 4 partner nominati."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "AVEZZANO_AQPM01000G_analysis.json",
+    "school_id": "AQPM01000G",
+    "review_date": "2025-12-21T20:50:17.328025",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Il campo 'score' per 2.2_partnership \u00e8 mancante nel JSON, rendendo impossibile verificare la coerenza tra punteggio e narrativa."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "VTIC82500A_G_NICOLINI_analysis.json",
+    "school_id": "VTIC82500A",
+    "review_date": "2025-12-21T20:51:23.212961",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Score 5 assegnato a partnership, ma la narrativa indica una mancanza di valutazione sistematica, che giustificherebbe un punteggio pi\u00f9 basso."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_attitudini",
+        "message": "Score 3 per attitudini, ma la narrativa afferma esplicitamente l'assenza di focus su attitudini, interessi e progetti di vita, incoerenza con il punteggio."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "MIPC09500C_PTOF_analysis.json",
+    "school_id": "MIPC09500C",
+    "review_date": "2025-12-21T20:52:43.048688",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "La narrativa sottolinea l'assenza di una sezione dedicata all'orientamento, ma lo score assegnato (4) non riflette questa criticit\u00e0. Un punteggio pi\u00f9 basso (1-3) sarebbe coerente con la descrizione."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita",
+        "message": "La narrativa indica una descrizione generica delle azioni di sistema, ma lo score assegnato (6) non \u00e8 supportato da dettagli specifici. Un punteggio pi\u00f9 basso sarebbe coerente con la mancanza di evidenze concrete."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "UD1M00600L_PTOF_analysis.json",
+    "school_id": "UD1M00600L",
+    "review_date": "2025-12-21T20:54:59.053051",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa indica una mancanza di dettagli concreti sulle partnership, ma lo score assegnato \u00e8 6 (alto). Si aspettava un punteggio basso (1-3) in coerenza con la descrizione."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_5_azione_sistema_integrato_inclusione_fragilita",
+        "message": "La narrativa sottolinea l'assenza di strategie specifiche per l'inclusione, ma lo score assegnato \u00e8 6 (alto). Si aspettava un punteggio inferiore in coerenza con la critica."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_7_opzionali_laboratoriali_espressive",
+        "message": "La narrativa evidenzia la mancanza di dettagli sulle opzionali (obiettivi, struttura), ma lo score assegnato \u00e8 6. Si aspettava un punteggio pi\u00f9 basso per allineamento con la descrizione."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "SVIC81300R_PTOF_analysis.json",
+    "school_id": "SVIC81300R",
+    "review_date": "2025-12-21T20:56:13.219965",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership, nonostante siano presenti partner nominati."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CEIC87400L_PTOF_analysis.json",
+    "school_id": "CEIC87400L",
+    "review_date": "2025-12-21T20:57:19.046591",
+    "flags": [
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Narrativa indica assenza di partnership ma il campo 'score' non \u00e8 presente nel JSON, rendendo impossibile verificare la coerenza tra valutazione e descrizione."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "ELMAS_PTOF_analysis.json",
+    "school_id": "ELMAS",
+    "review_date": "2025-12-21T20:58:27.934312",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il punteggio 5 per le partnership \u00e8 incoerente con la narrativa, che evidenzia mancanza di dettagli sul ruolo delle collaborazioni nell'orientamento."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_6_didattica_orientativa.didattica_laboratoriale",
+        "message": "Punteggio 6 per la didattica laboratoriale non \u00e8 supportato da evidenze specifiche di innovazione metodologica menzionate nella narrativa."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "AGPC010001-202225-202425-20250604_analysis.json",
+    "school_id": "AGPC010001",
+    "review_date": "2025-12-21T21:00:28.783523",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Narrativa indica partnership poco integrate nell'orientamento, ma score assegnato \u00e8 4 (medio-alto). Atteso un punteggio pi\u00f9 basso (1-3) in coerenza con la valutazione critica."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_7_opzionali_laboratoriali_espressive",
+        "message": "Score 6 assegnato a opzionali laboratoriali espressive senza evidenze narrative specifiche. La narrativa non menziona attivit\u00e0 di orientamento professionale correlate."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "activities_register",
+        "message": "Narrativa descrive attivit\u00e0 come 'Biologia con curvatura biomedica' e formazione STEAM come iniziative di approfondimento disciplinare, non come percorsi di orientamento professionale. Contraddice l'indicazione nel registro attivit\u00e0."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "CRPC02000A_PTOF_analysis.json",
+    "school_id": "CRPC02000A",
+    "review_date": "2025-12-21T21:01:54.699155",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_1_ptof_orientamento_sezione_dedicata",
+        "message": "La narrativa indica l'assenza di una sezione dedicata all'orientamento, ma lo score assegnato (4) non riflette questa criticit\u00e0. Si aspettava un punteggio basso (1-3)."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "CHIC80700E_PTOF_analysis.json",
+    "school_id": "CHIC80700E",
+    "review_date": "2025-12-21T21:02:56.330095",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_6_didattica_laboratoriale",
+        "message": "Punteggio massimo (8) assegnato a una sezione dove il punteggio massimo consentito \u00e8 7, senza evidenze aggiuntive a giustificarlo."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "BG1M02700A_PTOF_analysis.json",
+    "school_id": "BG1M02700A",
+    "review_date": "2025-12-21T21:05:54.731461",
+    "flags": [
+      {
+        "type": "narrative_inconsistency",
+        "severity": "high",
+        "field": "2_5_azione_dialogo_docenti_studenti",
+        "message": "Il punteggio nel JSON \u00e8 1, ma la narrativa indica che \u00e8 stato ridotto a 2, causando una discrepanza tra dati e descrizione."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "SAN_SECONDO_PARMENSE_PRIS00200Q_analysis.json",
+    "school_id": "PRIS00200Q",
+    "review_date": "2025-12-21T21:07:00.096130",
+    "flags": [
+      {
+        "type": "metadata_incomplete",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership, nonostante siano elencati partner specifici (R.I.T.A.P.E.R., Grea-it) nella narrativa."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "BUDDUSO_SSIC80600X_analysis.json",
+    "school_id": "SSIC80600X",
+    "review_date": "2025-12-21T21:14:11.595853",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_6_didattica_laboratoriale",
+        "message": "Punteggio massimo (5) assegnato a una sezione con evidenze molto generiche ('Non specificato, ma si deduce...') e mancanza di dettagli sulle metodologie e strumenti."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_3_finalita_progetto_vita",
+        "message": "Punteggio basso (2) coerente con l'evidenza 'Assente', ma la narrativa non chiarisce se il progetto di vita sia completamente assente o solo poco sviluppato."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "ISIS003002_PTOF_analysis.json",
+    "school_id": "ISIS003002",
+    "review_date": "2025-12-21T21:16:47.763305",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership, nonostante la narrativa menzioni partnership attive."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "CNIS01100D-202225-202425-20250117_analysis.json",
+    "school_id": "CNIS01100D",
+    "review_date": "2025-12-21T21:17:46.936304",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (8)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il punteggio 8 per le partnership \u00e8 alto, ma la narrativa critica la mancanza di impatti misurabili e descrizioni dettagliate."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "low",
+        "field": "2_7_opzionali_ludiche_ricreative",
+        "message": "Il punteggio 2 per le attivit\u00e0 ludiche/ricreative \u00e8 basso, ma la narrativa non ne menziona esplicitamente criticit\u00e0."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "TOPS10000T_PTOF_analysis.json",
+    "school_id": "TOPS10000T",
+    "review_date": "2025-12-21T21:18:53.331926",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (7)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Il punteggio 7 per le partnership \u00e8 incoerente con la narrativa, che critica la mancanza di monitoraggio e valutazione delle collaborazioni."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_3_finalita_progetto_vita",
+        "message": "Punteggio 2 per 'finalita_progetto_vita' con evidenza 'Assente' \u00e8 coerente, ma il punteggio 4 per 'obiettivo_lifelong_learning' non \u00e8 supportato da indicatori specifici nella narrativa."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_4_obiettivo_lifelong_learning",
+        "message": "La narrativa critica gli obiettivi come 'generici e non misurabili', ma il punteggio 4 suggerisce una valutazione positiva."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "RAIC82800B_PTOF_analysis.json",
+    "school_id": "RAIC82800B",
+    "review_date": "2025-12-21T21:20:00.977418",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (6)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Il campo 'score' per 2_2_partnership \u00e8 mancante nonostante siano presenti partnership nominate nella narrativa."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "SRTL49500I_PTOF_analysis.json",
+    "school_id": "SRTL49500I",
+    "review_date": "2025-12-21T21:21:39.128433",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (8)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "Mancanza del campo 'score' per la sezione 2.2_partnership nel JSON."
+      },
+      {
+        "type": "narrative_inconsistency",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "La lista delle partnership include 'Scoobydoo', un elemento non realistico che non corrisponde a una partnership effettiva."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "PTOF_2024-25_analysis.json",
+    "school_id": "",
+    "review_date": "2025-12-21T21:23:03.818522",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (19)"
+      },
+      {
+        "type": "metadata_incomplete",
+        "severity": "high",
+        "field": "metadata.school_id",
+        "message": "Il campo 'school_id' \u00e8 vuoto, necessario per l'identificazione univoca della scuola."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azioni_sistema.azione_rapporto_scuola_genitori",
+        "message": "Punteggio alto (6) senza evidenze associate (evidence_quote = null)."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "BAIC89400E_PTOF_analysis.json",
+    "school_id": "BAIC89400E",
+    "review_date": "2025-12-21T21:24:08.098332",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_2_partnership",
+        "message": "La narrativa indica l'assenza di partnership, ma il campo 'score' per 2_2_partnership non \u00e8 presente nel JSON. Si prevede un punteggio basso (1-3) in coerenza con la descrizione."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "Aggiornamento-PTOF-2023-24-RMIC8GA002-202225-202324-20231204_analysis.json",
+    "school_id": "AGGIORNAMEN",
+    "review_date": "2025-12-21T21:27:45.665726",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Punteggio basso (0) nonostante molte partnership (20)"
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_5_azione_coordinamento_servizi",
+        "message": "La narrativa in 2.1 menziona la mancanza di descrizione dettagliata del coordinamento interno, ma lo score 2.5_azione_coordinamento_servizi \u00e8 5 (alto)."
+      }
+    ],
+    "requires_human_review": true
+  },
+  {
+    "file": "RMIC8C600P_PTOF_analysis.json",
+    "school_id": "RMIC8C600P",
+    "review_date": "2025-12-21T21:29:02.581407",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "La sezione 2.2_partnership non include un punteggio esplicito, nonostante la narrativa e i dati riportino partnership attive (3 partner nominati)."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_4_obiettivo_continuita_territorio",
+        "message": "Il punteggio 5 per l'obiettivo di continuit\u00e0 territoriale non \u00e8 supportato da evidenze specifiche nel PTOF, che lo descrive come 'generico' e non misurabile."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_5_azione_sistema_integrato_inclusione_fragilita",
+        "message": "Il punteggio 5 per l'azione di inclusione non \u00e8 coerente con la narrativa, che evidenzia la necessit\u00e0 di una valutazione pi\u00f9 approfondita delle risorse dedicate."
+      }
+    ],
+    "requires_human_review": false
+  },
+  {
+    "file": "VAPLVL5003_PTOF_analysis.json",
+    "school_id": "VAPLVL5003",
+    "review_date": "2025-12-21T21:29:11.581366",
+    "flags": [
+      {
+        "type": "score_anomaly",
+        "severity": "medium",
+        "field": "2_2_partnership",
+        "message": "Narrativa indica che le partnership non sono esplicitamente orientate all'orientamento in uscita, ma lo score assegnato (4) non riflette questa criticit\u00e0."
+      },
+      {
+        "type": "score_anomaly",
+        "severity": "high",
+        "field": "2_4_obiettivo_contrastare_neet",
+        "message": "Score basso (1) senza evidenze esplicite nel PTOF, con riferimento a 'nessuna esplicita' nelle motivazioni."
+      }
+    ],
+    "requires_human_review": true
+  }
+]

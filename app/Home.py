@@ -6,6 +6,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 import glob
 import os
+import sys
+
+# Add project root to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 st.set_page_config(page_title="Dashboard PTOF", page_icon="📊", layout="wide")
 
@@ -60,6 +64,27 @@ try:
 except ImportError:
     pass
 
+# Auto-Update Check (Lightweight)
+try:
+    if 'index_updated' not in st.session_state:
+        from src.data.data_manager import update_index_safe
+        # Only auto-run if CSV missing or explicit refresh needed?
+        # For now, let's just do it once per session to be safe
+        update_index_safe()
+        st.session_state['index_updated'] = True
+except Exception as e:
+    st.error(f"Auto-update failed: {e}")
+
+# Sidebar explicit refresh
+if st.sidebar.button("🔄 Aggiorna Dati"):
+    from src.data.data_manager import update_index_safe
+    with st.spinner("Aggiornamento indice in corso..."):
+        success, count = update_index_safe()
+    if success:
+        st.success(f"Indice aggiornato: {count} scuole.")
+        st.cache_data.clear()
+        st.rerun()
+
 # Standardize numeric columns (handle 'ND')
 numeric_cols = [
     'ptof_orientamento_maturity_index', 
@@ -91,11 +116,17 @@ if 'ptof_orientamento_maturity_index' in df.columns:
         min_val = 1.0
         max_val = 7.0
         
+    # Reset slider if needed
+    slider_key = "home_score_range"
+    if slider_key not in st.session_state:
+        st.session_state[slider_key] = (min_val, max_val)
+
     score_range = st.sidebar.slider(
         "Range Indice Robustezza",
-        min_value=1.0, max_value=7.0,
-        value=(min_val, max_val),
-        step=0.1
+        min_value=0.0, max_value=7.0,
+        value=st.session_state[slider_key],
+        step=0.1,
+        key=slider_key
     )
     
     # Filter using the coerced series to avoid string comparison issues
@@ -162,17 +193,17 @@ col1, col2, col3 = st.columns(3)
 with col1:
     if 'territorio' in df.columns:
         fig = px.pie(df, names='territorio', title="Per Territorio", hole=0.4)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
 with col2:
     if 'ordine_grado' in df.columns:
         fig = px.pie(df, names='ordine_grado', title="Per Grado", hole=0.4)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
 with col3:
     if 'area_geografica' in df.columns:
         fig = px.pie(df, names='area_geografica', title="Per Area", hole=0.4)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
 st.markdown("---")
 
@@ -192,7 +223,7 @@ if all(c in df.columns for c in dim_cols):
         range_x=[0, 7], range_color=[1, 7],
         title="Media Punteggi per Dimensione"
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 st.markdown("---")
 
@@ -274,7 +305,7 @@ with tabs[0]:
             height=700
         )
         fig.update_layout(yaxis_tickfont_size=10)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
 # Individual category tabs
 for i, (cat, cols) in enumerate(CATEGORY_COLS.items()):
@@ -299,7 +330,7 @@ for i, (cat, cols) in enumerate(CATEGORY_COLS.items()):
                 title=f"Dettaglio {cat}",
                 height=400
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
             
             # Stats table
             col1, col2, col3 = st.columns(3)
@@ -319,7 +350,7 @@ if len(df) > 0:
     stats_df = stats_df.sort_values('ptof_orientamento_maturity_index', ascending=False).reset_index(drop=True)
     stats_df.insert(0, 'Pos.', range(1, len(stats_df) + 1))
     stats_df.columns = ['#', 'Codice', 'Scuola', 'Tipo', 'Area', 'Indice']
-    st.dataframe(stats_df, use_container_width=True, hide_index=True, height=500)
+    st.dataframe(stats_df, width="stretch", hide_index=True, height=500)
 
 # Footer
 st.markdown("---")

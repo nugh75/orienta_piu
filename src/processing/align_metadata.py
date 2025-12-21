@@ -16,7 +16,6 @@ from glob import glob
 # Paths
 RESULTS_DIR = "analysis_results"
 ENRICHMENT_CSV = "data/metadata_enrichment.csv"
-INVALSI_CSV = "data/invalsi_unified.csv"
 SUMMARY_CSV = "data/analysis_summary.csv"
 PTOF_DIR = "ptof"
 
@@ -67,13 +66,13 @@ REGION_TO_AREA = {
     'UD': 'Nord', 'GO': 'Nord', 'TS': 'Nord', 'PN': 'Nord',  # Friuli
     'IM': 'Nord', 'SV': 'Nord', 'GE': 'Nord', 'SP': 'Nord',  # Liguria
     'PC': 'Nord', 'PR': 'Nord', 'RE': 'Nord', 'MO': 'Nord', 'BO': 'Nord', 'FE': 'Nord', 'RA': 'Nord', 'FC': 'Nord', 'RN': 'Nord',  # Emilia-Romagna
-    # Centro
-    'MS': 'Centro', 'LU': 'Centro', 'PT': 'Centro', 'FI': 'Centro', 'LI': 'Centro', 'PI': 'Centro', 'AR': 'Centro', 'SI': 'Centro', 'GR': 'Centro', 'PO': 'Centro',  # Toscana
-    'PG': 'Centro', 'TR': 'Centro',  # Umbria
-    'PU': 'Centro', 'AN': 'Centro', 'MC': 'Centro', 'AP': 'Centro', 'FM': 'Centro',  # Marche
-    'VT': 'Centro', 'RI': 'Centro', 'RM': 'Centro', 'LT': 'Centro', 'FR': 'Centro',  # Lazio
-    # Sud
-    'AQ': 'Sud', 'TE': 'Sud', 'PE': 'Sud', 'CH': 'Sud',  # Abruzzo
+    # Nord (include Toscana, Umbria, Marche, Abruzzo)
+    'MS': 'Nord', 'LU': 'Nord', 'PT': 'Nord', 'FI': 'Nord', 'LI': 'Nord', 'PI': 'Nord', 'AR': 'Nord', 'SI': 'Nord', 'GR': 'Nord', 'PO': 'Nord',  # Toscana
+    'PG': 'Nord', 'TR': 'Nord',  # Umbria
+    'PU': 'Nord', 'AN': 'Nord', 'MC': 'Nord', 'AP': 'Nord', 'FM': 'Nord',  # Marche
+    'AQ': 'Nord', 'TE': 'Nord', 'PE': 'Nord', 'CH': 'Nord',  # Abruzzo
+    # Sud (solo Lazio e regioni meridionali)
+    'VT': 'Sud', 'RI': 'Sud', 'RM': 'Sud', 'LT': 'Sud', 'FR': 'Sud',  # Lazio
     'CB': 'Sud', 'IS': 'Sud',  # Molise
     'CE': 'Sud', 'BN': 'Sud', 'NA': 'Sud', 'AV': 'Sud', 'SA': 'Sud',  # Campania
     'FG': 'Sud', 'BA': 'Sud', 'TA': 'Sud', 'BR': 'Sud', 'LE': 'Sud', 'BT': 'Sud',  # Puglia
@@ -132,7 +131,6 @@ def infer_school_type_from_code(school_code):
     return ('ND', 'ND')
 
 enrichment_cache = {}
-invalsi_cache = {}
 
 # Load Enrichment CSV
 if os.path.exists(ENRICHMENT_CSV):
@@ -146,26 +144,210 @@ if os.path.exists(ENRICHMENT_CSV):
     except Exception as e:
         print(f"✗ Failed to load enrichment: {e}")
 
-# Load INVALSI CSV
-if os.path.exists(INVALSI_CSV):
-    try:
-        df = pd.read_csv(INVALSI_CSV, sep=';', dtype=str)
-        for _, row in df.iterrows():
-            code = str(row.get('istituto', '')).strip()
-            if code:
-                invalsi_cache[code] = row.to_dict()
-        print(f"✓ Loaded {len(invalsi_cache)} records from INVALSI CSV")
-    except Exception as e:
-        print(f"✗ Failed to load INVALSI: {e}")
-
 # ============================================
-# PHASE 2: Enrich JSON Files
+# PHASE 1b: Load School Registry (Anagrafe)
 # ============================================
 
-print("\n📁 PHASE 2: Enriching JSON files...")
+ANAGRAFE_STAT = "data/SCUANAGRAFESTAT20252620250901.csv"
+ANAGRAFE_PAR = "data/SCUANAGRAFEPAR20252620250901.csv"
+
+anagrafe_cache = {}  # code -> {denominazione, comune, area, tipo, ...}
+denom_to_code = {}   # denominazione (upper) -> code
+
+def load_anagrafe():
+    """Load school registry from MIUR files."""
+    global anagrafe_cache, denom_to_code
+
+    for csv_file in [ANAGRAFE_STAT, ANAGRAFE_PAR]:
+        if not os.path.exists(csv_file):
+            print(f"  ⚠️ File anagrafe non trovato: {csv_file}")
+            continue
+        try:
+            df = pd.read_csv(csv_file, dtype=str)
+            for _, row in df.iterrows():
+                code = str(row.get('CODICESCUOLA', '')).strip().upper()
+                denom = str(row.get('DENOMINAZIONESCUOLA', '')).strip()
+                if code:
+                    anagrafe_cache[code] = {
+                        'denominazione': denom,
+                        'comune': row.get('DESCRIZIONECOMUNE', ''),
+                        'area_geografica': 'Nord' if 'NORD' in str(row.get('AREAGEOGRAFICA', '')).upper() else 'Sud',
+                        'regione': row.get('REGIONE', ''),
+                        'provincia': row.get('PROVINCIA', ''),
+                        'tipo_grado': row.get('DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA', ''),
+                    }
+                    # Build reverse lookup by denomination
+                    if denom:
+                        denom_upper = denom.upper()
+                        denom_to_code[denom_upper] = code
+            print(f"  ✓ Caricato {csv_file}: {len(df)} righe")
+        except Exception as e:
+            print(f"  ✗ Errore caricamento {csv_file}: {e}")
+
+    print(f"✓ Anagrafe totale: {len(anagrafe_cache)} scuole, {len(denom_to_code)} denominazioni")
+
+print("\n📂 PHASE 1b: Loading School Registry (Anagrafe)...")
+load_anagrafe()
+
+def find_code_by_denomination(denom):
+    """Try to find school code by denomination (fuzzy match)."""
+    if not denom:
+        return None
+    denom_upper = denom.upper().strip()
+
+    # Exact match
+    if denom_upper in denom_to_code:
+        return denom_to_code[denom_upper]
+
+    # Partial match (denomination contains or is contained)
+    for cached_denom, code in denom_to_code.items():
+        if denom_upper in cached_denom or cached_denom in denom_upper:
+            return code
+
+    return None
+
+def validate_school_code(code):
+    """Check if code exists in anagrafe."""
+    return code.upper() in anagrafe_cache
+
+# ============================================
+# PHASE 2: Deduplicate & Enrich JSON Files
+# ============================================
+
+print("\n📁 PHASE 2a: Validating school codes against Anagrafe...")
 
 json_files = glob(os.path.join(RESULTS_DIR, '*_analysis.json'))
-print(f"Found {len(json_files)} JSON files")
+print(f"Found {len(json_files)} JSON files (before validation)")
+
+# Validate and fix mismatched codes
+mismatched_files = []
+for jf in json_files:
+    fname = os.path.basename(jf).replace('_analysis.json', '').replace('_PTOF', '')
+    code = extract_canonical_code(fname)
+
+    if not validate_school_code(code):
+        # Try to find correct code from JSON metadata denominazione
+        try:
+            with open(jf, 'r') as f:
+                data = json.load(f)
+            denom = data.get('metadata', {}).get('denominazione', '')
+            correct_code = find_code_by_denomination(denom)
+            if correct_code:
+                mismatched_files.append((jf, code, correct_code, denom))
+            else:
+                mismatched_files.append((jf, code, None, denom))
+        except:
+            mismatched_files.append((jf, code, None, ''))
+
+if mismatched_files:
+    print(f"\n⚠️ Trovati {len(mismatched_files)} file con codici non validi:")
+    renamed_count = 0
+    for jf, old_code, new_code, denom in mismatched_files:
+        if new_code:
+            print(f"  {old_code} -> {new_code} ({denom[:40]}...)")
+            # Rename JSON file
+            old_path = jf
+            new_fname = os.path.basename(jf).replace(old_code, new_code)
+            # Handle case where old_code might not be in filename directly
+            if old_code not in os.path.basename(jf):
+                new_fname = f"{new_code}_analysis.json"
+            new_path = os.path.join(os.path.dirname(jf), new_fname)
+
+            try:
+                os.rename(old_path, new_path)
+                renamed_count += 1
+
+                # Also rename corresponding MD file if exists
+                old_md = old_path.replace('.json', '.md')
+                if os.path.exists(old_md):
+                    new_md = new_path.replace('.json', '.md')
+                    os.rename(old_md, new_md)
+
+                # Update JSON metadata with correct code
+                with open(new_path, 'r') as f:
+                    data = json.load(f)
+                data['metadata']['school_id'] = new_code
+                # Also update from anagrafe
+                if new_code in anagrafe_cache:
+                    info = anagrafe_cache[new_code]
+                    if not data['metadata'].get('denominazione') or data['metadata'].get('denominazione') == 'ND':
+                        data['metadata']['denominazione'] = info['denominazione']
+                    if not data['metadata'].get('comune') or data['metadata'].get('comune') == 'ND':
+                        data['metadata']['comune'] = info['comune']
+                    if not data['metadata'].get('area_geografica') or data['metadata'].get('area_geografica') == 'ND':
+                        data['metadata']['area_geografica'] = info['area_geografica']
+                with open(new_path, 'w') as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+
+            except Exception as e:
+                print(f"    ❌ Errore rinomina: {e}")
+        else:
+            print(f"  ❌ {old_code}: Nessun match trovato in anagrafe ({denom[:40] if denom else 'no denom'})")
+
+    print(f"✅ Rinominati {renamed_count} file")
+
+    # Refresh file list after renames
+    json_files = glob(os.path.join(RESULTS_DIR, '*_analysis.json'))
+else:
+    print("✅ Tutti i codici sono validi")
+
+print("\n📁 PHASE 2b: Deduplicating JSON files...")
+
+# --- DEDUPLICATION LOGIC ---
+files_by_code = {}
+for jf in json_files:
+    fname = os.path.basename(jf)
+    code = extract_canonical_code(fname.replace('_analysis.json', ''))
+    if code not in files_by_code:
+        files_by_code[code] = []
+    files_by_code[code].append(jf)
+
+duplicates_removed = 0
+final_json_list = []
+
+for code, files in files_by_code.items():
+    if len(files) > 1:
+        # Strategy: Prefer exact match "{CODE}_analysis.json"
+        # If not, prefer shortest filename (likely cleaner) or most recent?
+        # Let's go with: Exact match > Shortest Filename > Most Recent
+        
+        canonical_name = f"{code}_analysis.json"
+        target_file = None
+        
+        # 1. Check for exact canonical name
+        for f in files:
+            if os.path.basename(f) == canonical_name:
+                target_file = f
+                break
+        
+        # 2. If not found, sort by length (ascending) then mtime (descending)
+        if not target_file:
+            # Sort: Length increases -> older mtime increases
+            # We want shortest length. If tie, we probably want recent. 
+            # Actually, standardizing on shortest name is safer for "clean" names.
+            files.sort(key=lambda x: (len(os.path.basename(x)), -os.path.getmtime(x)))
+            target_file = files[0]
+            
+        print(f"  ⚠️ Duplicate found for {code}:")
+        for f in files:
+            if f != target_file:
+                print(f"     🗑️ Removing redundant: {os.path.basename(f)}")
+                try:
+                    os.remove(f)
+                    duplicates_removed += 1
+                except Exception as e:
+                    print(f"     ❌ Error removing {os.path.basename(f)}: {e}")
+        
+        final_json_list.append(target_file)
+    else:
+        final_json_list.append(files[0])
+
+if duplicates_removed > 0:
+    print(f"🧹 Checked duplicates: Removed {duplicates_removed} files.")
+    # Refresh list
+    json_files = final_json_list
+else:
+    print("✅ No duplicates found.")
 
 json_success = 0
 json_errors = 0
@@ -270,7 +452,6 @@ for json_path in json_files:
         
         meta = data.get('metadata', {})
         enrich = enrichment_cache.get(school_code, {})
-        invalsi = invalsi_cache.get(school_code, {})
         
         row = {col: '' for col in CSV_COLUMNS}
         row['school_id'] = school_code

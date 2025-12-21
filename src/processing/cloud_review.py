@@ -5,9 +5,23 @@ import json
 import requests
 from typing import Optional, Dict, List
 from duckduckgo_search import DDGS
-from duckduckgo_search import DDGS
+
+# Import chunker for long documents
+try:
+    from src.processing.text_chunker import smart_split, get_chunk_info
+except ImportError:
+    from text_chunker import smart_split, get_chunk_info
+
+from src.utils.school_database import SchoolDatabase
 
 API_CONFIG_FILE = 'data/api_config.json'
+
+# Chunking configuration
+CHUNK_SIZE = 50000       # Max chars per chunk for analysis
+# Chunking configuration
+CHUNK_SIZE = 50000       # Max chars per chunk for analysis
+METADATA_CHUNK_SIZE = 12000  # Reduced to ~3k tokens to fit comfortably in 8k context with prompt
+LONG_DOC_THRESHOLD = 80000   # Docs longer than this use chunking
 
 def load_api_config() -> Dict:
     """Load API configuration from JSON file"""
@@ -158,6 +172,29 @@ def call_openrouter_api(api_key: str, model: str, prompt: str) -> Optional[str]:
         print(f"OpenRouter API exception: {e}")
     return None
 
+def call_ollama_api(model: str, prompt: str) -> Optional[str]:
+    """Call Local Ollama API"""
+    url = "http://localhost:11434/api/chat"
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "stream": False,
+        "options": {
+            "temperature": 0.3,
+            "num_ctx": 8192
+        }
+    }
+    try:
+        response = requests.post(url, json=payload, timeout=300)
+        if response.status_code == 200:
+            data = response.json()
+            return data['message']['content']
+        else:
+            print(f"Ollama API error: {response.status_code} - {response.text[:500]}")
+    except Exception as e:
+        print(f"Ollama API exception: {e}")
+    return None
+
 def call_cloud_llm(provider: str, api_key: str, model: str, prompt: str) -> Optional[str]:
     """Universal cloud LLM caller"""
     if provider == 'gemini':
@@ -166,18 +203,196 @@ def call_cloud_llm(provider: str, api_key: str, model: str, prompt: str) -> Opti
         return call_openai_api(api_key, model, prompt)
     elif provider == 'openrouter':
         return call_openrouter_api(api_key, model, prompt)
+    elif provider == 'ollama':
+        return call_ollama_api(model, prompt)
     return None
 
-def review_ptof_with_cloud(md_content: str, provider: str, api_key: str, model: str) -> Optional[Dict]:
+def parse_json_safe(response: str) -> Optional[Dict]:
+    """Safely parse JSON from LLM response."""
+    if not response:
+        return None
+    try:
+        import re
+        json_match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
+        if json_match:
+            return json.loads(json_match.group(1))
+        return json.loads(response)
+    except:
+        return None
+
+
+
+
+
+def merge_partial_analyses(partials: List[Dict]) -> Dict:
     """
-    Review a PTOF document using cloud LLM.
-    Returns structured JSON analysis or error dict on failure.
+    Merge multiple partial JSON analyses into one.
+    For scores: take maximum found. For lists: combine unique items.
     """
-    # Load prompt from config file
+    if not partials:
+        return {}
+    if len(partials) == 1:
+        return partials[0]
+    
+    merged = {'metadata': {}, 'ptof_section2': {}}
+    
+    for p in partials:
+        if not p:
+            continue
+            
+        # Merge metadata
+        meta = p.get('metadata', {})
+        for k, v in meta.items():
+            if v and v not in ['ND', '', None]:
+                if not merged['metadata'].get(k) or merged['metadata'][k] in ['ND', '', None]:
+                    merged['metadata'][k] = v
+        
+        # Merge section scores - take max
+        sec2 = p.get('ptof_section2', {})
+        for section_key, section_val in sec2.items():
+            if section_key not in merged['ptof_section2']:
+                merged['ptof_section2'][section_key] = section_val
+            elif isinstance(section_val, dict):
+                existing = merged['ptof_section2'][section_key]
+                if isinstance(existing, dict):
+                    # Merge sub-items
+                    for sub_k, sub_v in section_val.items():
+                        if isinstance(sub_v, dict) and 'score' in sub_v:
+                            existing_score = existing.get(sub_k, {}).get('score', 0)
+                            new_score = sub_v.get('score', 0)
+                            if new_score > existing_score:
+                                existing[sub_k] = sub_v
+                        elif sub_k == 'score':
+                            if sub_v > existing.get('score', 0):
+                                existing['score'] = sub_v
+        
+        # Merge lists (partner_nominati, activities)
+        for list_key in ['partner_nominati', 'activities_register']:
+            if list_key in p:
+                if list_key not in merged:
+                    merged[list_key] = []
+                merged[list_key].extend(p.get(list_key, []))
+    
+    # Deduplicate lists
+    for list_key in ['partner_nominati', 'activities_register']:
+        if list_key in merged and isinstance(merged[list_key], list):
+            seen = set()
+            unique = []
+            for item in merged[list_key]:
+                item_str = str(item)
+                if item_str not in seen:
+                    seen.add(item_str)
+                    unique.append(item)
+            merged[list_key] = unique
+    
+    return merged
+
+
+def review_ptof_chunked(md_content: str, provider: str, api_key: str, model: str) -> Optional[Dict]:
+    """
+    Analyze long PTOF documents using Map-Reduce strategy.
+    1. Split document into chunks
+    2. Analyze each chunk separately (MAP)
+    3. Merge partial results (REDUCE)
+    """
+    # Load analyst prompt
     try:
         with open('config/prompts.md', 'r') as f:
             prompts_content = f.read()
-        # Extract Analyst section
+        import re
+        analyst_match = re.search(r'## Analyst\n(.*?)(?=\n## |\Z)', prompts_content, re.DOTALL)
+        analyst_prompt = analyst_match.group(1).strip() if analyst_match else "Analizza questo PTOF."
+    except:
+        analyst_prompt = "Analizza questo documento PTOF e restituisci un JSON strutturato."
+    
+    # Split document
+    chunks = smart_split(md_content, CHUNK_SIZE)
+    info = get_chunk_info(chunks)
+    
+    print(f"[cloud_review] CHUNKED ANALYSIS: {info['count']} chunks, {info['total_chars']} total chars")
+    
+    # MAP: Analyze each chunk
+    partial_results = []
+    
+    for i, chunk in enumerate(chunks):
+        print(f"[cloud_review] Analyzing chunk {i+1}/{len(chunks)} ({len(chunk)} chars)...")
+        
+        chunk_prompt = f"""{analyst_prompt}
+
+---
+
+NOTA: Questa è la SEZIONE {i+1} di {len(chunks)} del documento PTOF.
+Analizza SOLO questa sezione e restituisci i punteggi trovati.
+
+SEZIONE {i+1}:
+
+{chunk}"""
+        
+        response = call_cloud_llm(provider, api_key, model, chunk_prompt)
+        partial_json = parse_json_safe(response)
+        
+        if partial_json:
+            partial_results.append(partial_json)
+            print(f"[cloud_review] Chunk {i+1}: Got valid JSON")
+        else:
+            print(f"[cloud_review] Chunk {i+1}: Parse failed")
+    
+    if not partial_results:
+        return None
+    
+    # REDUCE: Merge results
+    print(f"[cloud_review] Merging {len(partial_results)} partial results...")
+    merged = merge_partial_analyses(partial_results)
+    
+    # Extract metadata iteratively if needed
+    if not merged.get('metadata') or merged['metadata'].get('denominazione') in ['ND', '', None]:
+        print("[cloud_review] Extracting metadata iteratively...")
+        meta = extract_metadata_iterative(md_content, provider, api_key, model)
+        if meta:
+            if 'metadata' not in merged:
+                merged['metadata'] = {}
+            merged['metadata'].update(meta)
+    
+    return merged
+
+
+def review_ptof_with_cloud(md_content: str, provider: str, api_key: str, model: str, school_id: str = None) -> Optional[Dict]:
+    """
+    Review a PTOF document using cloud LLM.
+    Automatically uses chunked analysis for long documents.
+    Returns structured JSON analysis or error dict on failure.
+    
+    Args:
+        md_content: Markdown text of PTOF
+        provider: 'gemini', 'openai', etc.
+        api_key: API Key
+        model: Model name
+        school_id: Optional school code (e.g. MIIS08900V) to aid metadata search
+    """
+    content_size = len(md_content)
+    
+    # Use chunked analysis for long documents
+    if content_size > LONG_DOC_THRESHOLD:
+        print(f"[cloud_review] Long document ({content_size} chars) - using chunked analysis")
+        
+        result_json = review_ptof_chunked(md_content, provider, api_key, model)
+        if result_json:
+             # Enhancement: if metadata missing, try using school_id
+             if not result_json.get('metadata') or \
+                result_json['metadata'].get('denominazione') in ['ND', '', None] or \
+                result_json['metadata'].get('comune') in ['ND', '', None]:
+                 
+                 print("[cloud_review] Metadata incomplete after chunked analysis. Trying robust extraction...")
+                 meta = extract_metadata_from_header(md_content, provider, api_key, model, school_id=school_id)
+                 if meta:
+                    if 'metadata' not in result_json: result_json['metadata'] = {}
+                    result_json['metadata'].update(meta)
+        return result_json
+    
+    # Original logic for shorter documents
+    try:
+        with open('config/prompts.md', 'r') as f:
+            prompts_content = f.read()
         import re
         analyst_match = re.search(r'## Analyst\n(.*?)(?=\n## |\Z)', prompts_content, re.DOTALL)
         if analyst_match:
@@ -187,40 +402,33 @@ def review_ptof_with_cloud(md_content: str, provider: str, api_key: str, model: 
     except Exception as e:
         return {"error": f"Errore caricamento prompt: {e}"}
     
-    # Limit content size
-    content_size = len(md_content)
-    truncated_content = md_content[:80000]  # Increased limit
-    
-    full_prompt = f"{analyst_prompt}\n\n---\n\nTESTO PTOF DA ANALIZZARE ({content_size} caratteri):\n\n{truncated_content}"
+    full_prompt = f"{analyst_prompt}\n\n---\n\nTESTO PTOF DA ANALIZZARE ({content_size} caratteri):\n\n{md_content}"
     
     print(f"[cloud_review] Calling {provider}/{model} with {len(full_prompt)} chars prompt")
     
-    # 1. Main Analysis
     response = call_cloud_llm(provider, api_key, model, full_prompt)
     
     if response:
         print(f"[cloud_review] Got response: {len(response)} chars")
-        result_json = None
+        result_json = parse_json_safe(response)
         
-        # Try to extract JSON from response
-        try:
-            import re
-            json_match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
-            if json_match:
-                result_json = json.loads(json_match.group(1))
-            else:
-                result_json = json.loads(response)
-        except Exception as e:
-            # Return raw response with parse error info
-            return {"raw_response": response[:5000], "parse_error": str(e)}
+        if not result_json:
+            return {"raw_response": response[:5000], "parse_error": "JSON parse failed"}
             
-        # 2. Extract Metadata (Separate Call)
+        # Extract Metadata
         if result_json:
-            print("[cloud_review] Extracting metadata via Cloud...")
-            meta = extract_metadata_from_header(md_content, provider, api_key, model)
+            print("[cloud_review] Extracting/Verifying metadata via Cloud...")
+            # We use the new robust function here
+            meta = extract_metadata_from_header(md_content, provider, api_key, model, school_id=school_id)
             if meta:
-                if 'metadata' not in result_json: result_json['metadata'] = {}
-                result_json['metadata'].update(meta)
+                if 'metadata' not in result_json:
+                    result_json['metadata'] = {}
+                # Update but respect existing non-ND values? 
+                # Actually extract_metadata_from_header is now smarter, so we trust it more if it used web search.
+                # Let's merge carefully.
+                for k, v in meta.items():
+                    if v and v not in ['ND', '', None]:
+                         result_json['metadata'][k] = v
                 
         return result_json
             
@@ -304,10 +512,18 @@ def search_school_on_web(query: str) -> str:
         print(f"Web search error: {e}")
         return ""
 
-def extract_metadata_from_header(md_content: str, provider: str, api_key: str, model: str) -> Optional[Dict]:
+def extract_metadata_from_header(md_content: str, provider: str, api_key: str, model: str, use_iterative: bool = False, school_id: str = None) -> Optional[Dict]:
     """
     Extract school metadata (Name, City, Type, etc.) from PTOF header using Cloud LLM.
     Returns JSON dictionary.
+    
+    Args:
+        md_content: Document text
+        provider: API Provider
+        api_key: API Key
+        model: Model Name
+        use_iterative: If True, scans deeper if not found in header
+        school_id: Optional School Code from filename (e.g. MIIS00000X) as candidate
     """
     # Load prompt from Metadata Extractor section
     try:
@@ -324,11 +540,13 @@ def extract_metadata_from_header(md_content: str, provider: str, api_key: str, m
         print(f"Error loading extractor prompt: {e}")
         extractor_prompt = "Extract school metadata to JSON."
         
-    # Truncate content - Increased to 30000 chars (approx 10-15 pages) to catch deep metadata
+    # Truncate content - Increased to 30000 chars (approx 10-15 pages) to catch deep metadata (User requirement: look after first few pages)
+    # The user noted mechanism code might be after 2-3 pages. 30k chars is plenty.
     truncated = md_content[:30000]
     
     # 1. First Attempt - Direct Extraction
-    full_prompt = f"{extractor_prompt}\n\n---\n\nINIZIO DOCUMENTO:\n\n{truncated}"
+    # Enhance prompt to specifically look for ID
+    full_prompt = f"{extractor_prompt}\n\bIMPORTANTE: Cerca il CODICE MECCANOGRAFICO (es. MIIS...) nel testo. Spesso si trova dopo le prime pagine.\n\n---\n\nINIZIO DOCUMENTO:\n\n{truncated}"
     
     print(f"[cloud_review] Identifying school metadata via Cloud (Context: {len(truncated)} chars)...")
     response = call_cloud_llm(provider, api_key, model, full_prompt)
@@ -347,61 +565,187 @@ def extract_metadata_from_header(md_content: str, provider: str, api_key: str, m
                 meta_json = json.loads(response)
             except: pass
             
-    # 2. Validation & Fallback Web Search
-    needs_enrichment = False
-    search_query = ""
+    # LOGIC: Resolve School ID priority
+    # 1. ID found in text -> Best
+    # 2. ID passed in valid arg -> Fallback
+    detected_id = None
+    if meta_json:
+        raw_id = meta_json.get('school_id')
+        if raw_id and raw_id not in ['ND', '', 'None', 'null'] and len(raw_id) >= 8:
+            detected_id = raw_id.upper()
+            
+    final_id = detected_id if detected_id else school_id
     
-    if not meta_json:
-        needs_enrichment = True
-        # Try to guess name from filename if possible, or just search generic
-        search_query = "Scuola italiana PTOF"
+    # Update meta_json with the winning ID
+    if meta_json:
+        meta_json['school_id'] = final_id
     else:
-        # Check for missing critical fields
-        missing_fields = []
-        for field in ['area_geografica', 'denominazione', 'comune', 'school_id']:
-            val = meta_json.get(field)
-            if not val or val in ["ND", "null", None, ""]:
-                missing_fields.append(field)
-        
-        if missing_fields:
-            needs_enrichment = True
-            # Construct intelligent query
-            name = meta_json.get('denominazione', '')
-            city = meta_json.get('comune', '')
-            code = meta_json.get('school_id', '')
+        meta_json = {'school_id': final_id} if final_id else {}
+
+    # 3. Last Resort: Iterative Deep Scan (if requested or still missing critical info)
+    if use_iterative and (not meta_json or any(meta_json.get(f) in ['ND', '', None] for f in ['denominazione', 'comune'])):
+        print(f"[cloud_review] Metadata still missing. Starting Iterative Deep Scan...")
+        deep_meta = extract_metadata_iterative(md_content, provider, api_key, model)
+        if deep_meta:
+            if not meta_json: meta_json = {}
+            for k, v in deep_meta.items():
+                if v and v not in ['ND', '', None]:
+                    if not meta_json.get(k) or meta_json[k] in ['ND', '', None]:
+                        meta_json[k] = v
+            if deep_meta.get('school_id') and deep_meta['school_id'] not in ['ND', '']:
+                 meta_json['school_id'] = deep_meta['school_id']
+                 final_id = deep_meta['school_id']
+
+    # New Step: Check Local Database
+    # This avoids web search if we have the data locally
+    db_found = False
+    if final_id:
+        print(f"[cloud_review] Checking Local DB for ID: {final_id}...")
+        db_data = SchoolDatabase().get_school_data(final_id)
+        if db_data:
+            print(f"[cloud_review] ✅ Found authoritative data in Local DB for {final_id}")
+            db_found = True
+            # Merge DB data (DB is authoritative)
+            # We overwrite conflicting LLM hallucinations with official data
+            for k, v in db_data.items():
+                if v and v != 'ND':
+                    meta_json[k] = v
+    
+    # 4. Final Fallback: Web Search
+    # Only search if NOT found in DB and missing critical info
+    final_meta = meta_json if meta_json else {}
+    
+    missing_critical = False
+    for field in ['denominazione', 'comune']:
+        val = final_meta.get(field)
+        if not val or val in ["ND", "null", None, "", "N/A"]:
+            missing_critical = True
             
-            search_parts = [p for p in [name, city, code, "scuola", "indirizzo", "codice meccanografico"] if p and p not in ["ND", "null"]]
+    # If found in DB, we trust it and likely don't need search unless DB had missing fields (unlikely for CSVs)
+    should_search = (not db_found) and (missing_critical or (final_id and (not final_meta.get('denominazione') or final_meta.get('denominazione') == 'ND')))
+    
+    if should_search:
+        # Construct Query using the BEST ID we have
+        search_parts = []
+        
+        # Priority 1: Final ID (Text > Filename)
+        if final_id:
+             search_parts.append(f"Scuola {final_id}")
+        
+        # Priority 2: Name + City if no ID
+        elif final_meta.get('denominazione') and final_meta.get('denominazione') != 'ND':
+            search_parts.append(final_meta['denominazione'])
+            if final_meta.get('comune') and final_meta.get('comune') != 'ND':
+                search_parts.append(final_meta['comune'])
+            search_parts.append("scuola")
+            
+        else:
+             pass
+        
+        if search_parts:
             search_query = " ".join(search_parts)
+            print(f"[cloud_review] Final Attempt: Web Search for '{search_query}'")
+            web_results = search_school_on_web(search_query)
             
-    if needs_enrichment and search_query:
-        print(f"[cloud_review] Metadata incomplete. Fallback Web Search for: '{search_query}'")
-        web_results = search_school_on_web(search_query)
-        
-        if web_results:
-            print(f"[cloud_review] Found web info. Refining metadata...")
-            # Second Pass with Web Context
-            refine_prompt = f"""
-{extractor_prompt}
-
-IMPORTANTE: Il documento originale era incompleto.
-Usa ANCHE queste informazioni trovate sul web per completare i campi mancanti (specie school_id, comune, denominazione):
-
-RISULTATI WEB:
-{web_results}
-
----\n\nINIZIO DOCUMENTO ORIGINALE:\n\n{truncated}
-"""
-            response_v2 = call_cloud_llm(provider, api_key, model, refine_prompt)
-            if response_v2:
-                 # Extract JSON V2
-                json_match_v2 = re.search(r'```json\s*(.*?)\s*```', response_v2, re.DOTALL)
-                if json_match_v2:
-                    try:
-                        return json.loads(json_match_v2.group(1))
-                    except: pass
+            if web_results:
+                # Load prompt
                 try:
-                    return json.loads(response_v2)
-                except: pass
+                    with open('config/prompts.md', 'r') as f:
+                        prompts_content = f.read()
+                    import re
+                    match = re.search(r'## Metadata Extractor\n(.*?)(?=\n## |\Z)', prompts_content, re.DOTALL)
+                    extractor_prompt = match.group(1).strip() if match else "Extract school metadata to JSON."
+                except:
+                    extractor_prompt = "Extract school metadata to JSON."
+    
+                refine_prompt = f"""
+    {extractor_prompt}
+    
+    IMPORTANTE: Completa i dati mancanti usando i risultati web. 
+    CONFRONTA il codice scuola nel testo ({detected_id if detected_id else 'Non trovato'}) con i risultati web.
+    Se i risultati web mostrano un codice e un nome scuola chiari (es. {final_id}), usa quelli.
+    
+    RISULTATI WEB:
+    {web_results}
+    
+    ---\n\nDATI ATTUALI PARZIALI: {json.dumps(final_meta)}
+    """
+                response_v3 = call_cloud_llm(provider, api_key, model, refine_prompt)
+                if response_v3:
+                     # Extract JSON V3
+                    json_match_v3 = re.search(r'```json\s*(.*?)\s*```', response_v3, re.DOTALL)
+                    if json_match_v3:
+                        try: return json.loads(json_match_v3.group(1))
+                        except: pass
+                    try: return json.loads(response_v3)
+                    except: pass
     
     return meta_json
+    
+    return meta_json
+
+def _extract_metadata_llm_only(chunk_content: str, provider: str, api_key: str, model: str) -> Optional[Dict]:
+    """Helper: Pure LLM extraction without Web Search fallback."""
+    # Load prompt
+    try:
+        with open('config/prompts.md', 'r') as f:
+            prompts_content = f.read()
+        import re
+        match = re.search(r'## Metadata Extractor\n(.*?)(?=\n## |\Z)', prompts_content, re.DOTALL)
+        extractor_prompt = match.group(1).strip() if match else "Extract school metadata to JSON."
+    except:
+        extractor_prompt = "Extract school metadata to JSON."
+    
+    # Prompt adapted for chunks
+    full_prompt = f"{extractor_prompt}\n\n---\n\nTESTO DOCUMENTO (ESTRATTO):\n\n{chunk_content}"
+    
+    response = call_cloud_llm(provider, api_key, model, full_prompt)
+    if response:
+        # Extract JSON
+        json_match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL)
+        if json_match:
+            try: return json.loads(json_match.group(1))
+            except: pass
+        try: return json.loads(response)
+        except: pass
+    return None
+
+def extract_metadata_iterative(md_content: str, provider: str, api_key: str, model: str) -> Dict:
+    """
+    Iteratively extract metadata from chunks until all required fields are found.
+    Stops early if all fields are populated.
+    """
+    required_fields = ['denominazione', 'comune', 'area_geografica', 'ordine_grado', 'tipo_scuola', 'school_id']
+    found_meta = {}
+    
+    # Split into chunks for metadata extraction
+    from src.processing.text_chunker import split_by_size
+    chunks = split_by_size(md_content, METADATA_CHUNK_SIZE, overlap=5000)
+    
+    print(f"[cloud_review] Metadata extraction: {len(chunks)} chunks")
+    
+    for i, chunk in enumerate(chunks):
+        # Check if all fields found
+        missing = [f for f in required_fields if not found_meta.get(f) or found_meta[f] in ['ND', '', None]]
+        if not missing:
+            print(f"[cloud_review] All metadata found after {i} chunks")
+            break
+        
+        
+        print(f"[cloud_review] Extracting metadata from chunk {i+1}/{len(chunks)}")
+        
+        # USE PURE LLM EXTRACTION HERE
+        chunk_meta = _extract_metadata_llm_only(chunk, provider, api_key, model)
+        
+        if chunk_meta:
+            print(f"[cloud_review] Chunk {i+1} success: {chunk_meta.get('denominazione', 'Partial')}")
+            # Merge: keep existing values, add new non-empty ones
+            for k, v in chunk_meta.items():
+                if v and v not in ['ND', '', None]:
+                    if not found_meta.get(k) or found_meta[k] in ['ND', '', None]:
+                        found_meta[k] = v
+        else:
+            print(f"[cloud_review] Chunk {i+1} failed to extract JSON")
+    
+    return found_meta
 

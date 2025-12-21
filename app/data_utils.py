@@ -1,6 +1,11 @@
 import pandas as pd
 import streamlit as st
 
+def split_multi_value(value):
+    if pd.isna(value):
+        return []
+    return [part.strip() for part in str(value).split(',') if part.strip()]
+
 def explode_school_types(df: pd.DataFrame, col='tipo_scuola') -> pd.DataFrame:
     """
     Explodes the dataframe so that rows with multiple school types (comma separated)
@@ -16,7 +21,27 @@ def explode_school_types(df: pd.DataFrame, col='tipo_scuola') -> pd.DataFrame:
         
     df_temp = df.copy()
     # Split by comma and stack involves index manipulation
-    df_temp[col] = df_temp[col].astype(str).str.split(', ')
+    df_temp[col] = df_temp[col].apply(split_multi_value)
+    # Explode
+    df_exploded = df_temp.explode(col)
+    return df_exploded
+
+def explode_school_grades(df: pd.DataFrame, col='ordine_grado') -> pd.DataFrame:
+    """
+    Explodes the dataframe so that rows with multiple grades (comma separated)
+    are duplicated, one for each grade. 
+    Useful for aggregation charts by grade.
+    """
+    if col not in df.columns:
+        return df
+    
+    # Check if we have any comma separated values
+    if not df[col].astype(str).str.contains(',').any():
+        return df
+        
+    df_temp = df.copy()
+    # Split by comma and stack involves index manipulation
+    df_temp[col] = df_temp[col].apply(split_multi_value)
     # Explode
     df_exploded = df_temp.explode(col)
     return df_exploded
@@ -27,11 +52,11 @@ def get_unique_types(df: pd.DataFrame, col='tipo_scuola') -> list:
         return []
     
     all_types = set()
-    for val in df[col].dropna().astype(str):
-        if val == 'nan': continue
-        for t in val.split(', '):
-            if t:
-                all_types.add(t)
+    for val in df[col].dropna():
+        for t in split_multi_value(val):
+            if t.lower() == 'nan':
+                continue
+            all_types.add(t)
     return sorted(list(all_types))
 
 def filter_by_type(df: pd.DataFrame, selected_types: list, col='tipo_scuola') -> pd.DataFrame:
@@ -46,7 +71,7 @@ def filter_by_type(df: pd.DataFrame, selected_types: list, col='tipo_scuola') ->
     
     def has_overlap(val):
         if pd.isna(val): return False
-        current = set(str(val).split(', '))
+        current = set(split_multi_value(val))
         return not set(selected_types).isdisjoint(current)
         
     return df[df[col].apply(has_overlap)]
@@ -59,14 +84,17 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
     st.sidebar.header("🔍 Filtri Globali")
     
     # Reset Button
-    if st.sidebar.button("🗑️ Rimuovi Filtri", use_container_width=True):
-        keys = ["filter_area", "filter_tipo", "filter_terr", "filter_grado"]
+    if st.sidebar.button("🗑️ Rimuovi Filtri", width="stretch"):
+        keys = ["filter_area", "filter_tipo", "filter_terr", "filter_grado", "home_score_range"]
         if extra_clear_keys:
             keys.extend(extra_clear_keys)
             
         for k in keys:
             if k in st.session_state:
-                if 'chk' in k or 'checkbox' in k:
+                if k == 'home_score_range':
+                    # Delete slider key so it reinitializes with data defaults
+                    del st.session_state[k]
+                elif 'chk' in k or 'checkbox' in k:
                     st.session_state[k] = False
                 elif 'multiselect' in k or 'list' in k or k.startswith('filter_'):
                     # Sidebar filters are lists usually, but sometimes boolean if custom
@@ -88,6 +116,15 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
     if 'tipo_scuola' in df.columns:
         tipi = get_unique_types(df)
         if tipi:
+            # Clean invalid values from session_state (combinations like "Liceo, Tecnico")
+            if 'filter_tipo' in st.session_state:
+                current = st.session_state['filter_tipo']
+                if isinstance(current, list):
+                    # Remove any value that contains comma (combinations)
+                    valid = [t for t in current if t in tipi]
+                    if valid != current:
+                        st.session_state['filter_tipo'] = valid
+
             selected_tipi = st.sidebar.multiselect("Tipo Scuola", tipi, key="filter_tipo")
             if selected_tipi:
                 df = filter_by_type(df, selected_tipi)
@@ -104,11 +141,39 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
 
     # Ordine grado filter
     if 'ordine_grado' in df.columns:
-        gradi = sorted([x for x in df['ordine_grado'].dropna().unique() if str(x) not in ['nan', 'ND', '']])
+        # Get existing unique values (exploding commas if any)
+        existing_gradi = set()
+        for x in df['ordine_grado'].dropna().unique():
+            if str(x) not in ['nan', 'ND', '']:
+                for g in split_multi_value(x):
+                    if g:
+                        existing_gradi.add(g)
+        # ensure "Infanzia" and "Primaria" are always available options
+        for forced_option in ["Infanzia", "Primaria"]:
+            existing_gradi.add(forced_option)
+        
+        gradi = sorted(list(existing_gradi))
+
         if len(gradi) > 0:
+            # Clean invalid values from session_state
+            if 'filter_grado' in st.session_state:
+                current = st.session_state['filter_grado']
+                if isinstance(current, list):
+                    valid = [g for g in current if g in gradi]
+                    if valid != current:
+                        st.session_state['filter_grado'] = valid
+
             selected_gradi = st.sidebar.multiselect("Ordine Grado", gradi, key="filter_grado")
             if selected_gradi:
-                df = df[df['ordine_grado'].isin(selected_gradi)]
+                 # Use same logic as filters by type to partial match "I Grado, II Grado"
+                 def has_grade_overlap(val):
+                     if pd.isna(val): return False
+                     # Split cell value by comma
+                     current = set(split_multi_value(val))
+                     # Check if any selected grade is in current cell's grades
+                     return not set(selected_gradi).isdisjoint(current)
+                 
+                 df = df[df['ordine_grado'].apply(has_grade_overlap)]
 
     st.sidebar.info(f"📚 Scuole Filtrate: **{len(df)}**")
     return df

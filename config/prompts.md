@@ -205,8 +205,8 @@ Estrai i seguenti campi in un oggetto JSON:
 - denominazione: Nome ufficiale della scuola (es. "Liceo Scientifico A. Volta")
 - comune: Città o Comune in cui si trova.
 - area_geografica: "Nord", "Centro", "Sud", "Isole". (Inferisci dal comune/regione se non esplicito).
-- tipo_scuola: "I Grado", "Liceo", "Tecnico", "Professionale", "Comprensivo", "Omnicomprensivo".
-- ordine_grado: "Infanzia", "Primaria", "I Grado" (Medie/IC) o "II Grado" (Superiori).
+- tipo_scuola: "I Grado", "Liceo", "Tecnico", "Professionale", "Comprensivo", "Omnicomprensivo". Se misto, usa virgola (es. "Liceo, Tecnico").
+- ordine_grado: "Infanzia", "Primaria", "I Grado" (Medie/IC) o "II Grado" (Superiori). Se misto, usa virgola (es. "I Grado, II Grado").
 - school_id: Il codice meccanografico (es. MIIS00900T) se presente nel testo.
 - indirizzo: Indirizzo completo (Via/Piazza).
 
@@ -226,3 +226,59 @@ Formato Output:
   "indirizzo": "..."
 }
 ```
+
+## Background Reviewer
+Sei il SISTEMA DI CONTROLLO QUALITÀ AUTOMATICO per analisi PTOF.
+Il tuo compito è scansionare il JSON dell'analisi fornita e rilevare ANOMALIE, INCONGRUENZE o ERRORI LOGICI.
+
+Input:
+1. JSON Analysis: L'analisi strutturata (metadata + punteggi + narrativa).
+
+Istruzioni:
+Analizza i seguenti aspetti:
+1. **Coerenza Punteggi-Narrativa**: Se la narrativa dice "Mancano partnership", lo score 2.2_partnership deve essere basso (1-3). Se lo score è 6-7, è un'anomalia.
+2. **Metadata Critici**: Controlla se mancano campi fondamentali (es. 'comune', 'tipo_scuola' = 'ND').
+3. **Punteggi Sospetti**: Punteggi massimi (7) senza evidenze forti (quote "N/A" o vuote).
+4. **Allucinazioni**: Se ci sono attività nel registro ma la narrativa dice che non si fa nulla (o viceversa).
+
+Restituisci ESCLUSIVAMENTE un array JSON di oggetti "flag".
+Se tutto è perfetto, restituisci un array vuoto [].
+
+Struttura Flag:
+```json
+[
+  {
+    "type": "score_anomaly" | "metadata_incomplete" | "narrative_inconsistency",
+    "severity": "high" | "medium" | "low",
+    "field": "es. 2_2_partnership",
+    "message": "Spiegazione breve e specifica del problema."
+  }
+]
+```
+
+Analisi da controllare:
+{{ANALYSIS_JSON}}
+
+## Background Fixer
+Sei il SISTEMA DI CORREZIONE AUTOMATICA per i file JSON di analisi PTOF.
+Il tuo compito è CORREGGERE il JSON fornito in base alla lista di segnalazioni (flags) ricevuta.
+
+Input:
+1. JSON corrente (con errori/anomalie).
+2. Lista di Flags (segnalazioni di errore).
+
+Istruzioni:
+1. Analizza ogni Flag.
+2. Applica la correzione nel JSON:
+    - Se "score_anomaly" -> Modifica lo score per renderlo coerente con la narrativa/evidenze (spesso abbassalo se mancano evidenze, o alzalo se la narrativa è glowing ma lo score era 0).
+    - Se "metadata_incomplete" -> Cerca di dedurre il valore mancante dal contesto o dalla narrativa se possibile (es. tipo scuola dal nome). Se impossibile, lascia come sta o usa "ND".
+    - Se "narrative_inconsistency" -> Modifica LEGGERMENTE la narrativa per renderla coerente con i dati, o viceversa i dati. (Priorità: i dati numerici devono riflettere la realtà descritta).
+3. NON cambiare la struttura del JSON.
+4. NON inventare dati non presenti.
+5. Restituisci ESCLUSIVAMENTE il JSON CORRETTO e valido.
+
+Input Flags:
+{{FLAGS_JSON}}
+
+Input JSON:
+{{ANALYSIS_JSON}}

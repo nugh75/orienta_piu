@@ -27,7 +27,6 @@ from extract_pdf_metadata import extract_metadata_from_pdf
 RESULTS_DIR = 'analysis_results'
 SUMMARY_FILE = 'data/analysis_summary.csv'
 METADATA_FILE = 'data/candidati_ptof.csv'
-INVALSI_DIR = 'data/liste invalsi'
 
 # Load metadata
 metadata_cache = {}
@@ -38,37 +37,6 @@ if os.path.exists(METADATA_FILE):
         code = str(row.get('istituto', '')).strip()
         if code:
             metadata_cache[code] = row.to_dict()
-
-# Load INVALSI Unified
-invalsi_cache = {}
-INVALSI_UNIFIED = 'data/invalsi_unified.csv'
-if os.path.exists(INVALSI_UNIFIED):
-    try:
-        df_inv = pd.read_csv(INVALSI_UNIFIED, sep=';', on_bad_lines='skip', dtype=str)
-        # Columns: istituto, denominazione, ... grado, tipo_scuola_std, territorio_std
-        for _, row in df_inv.iterrows():
-            code = str(row.get('istituto', '')).strip()
-            if code:
-                area = 'ND'
-                strato = str(row.get('strato', '')).lower()
-                if 'nord' in strato: area = 'Nord'
-                elif 'centro' in strato: area = 'Centro'
-                elif 'sud' in strato or 'isole' in strato: area = 'Sud'
-
-                invalsi_cache[code] = {
-                    'territorio': row.get('territorio_std', 'ND'),
-                    'tipo_scuola': row.get('tipo_scuola_std', 'ND'),
-                    'ordine_grado': row.get('grado', 'ND'),
-                    # Let's check previous rebuild_csv.py logic for area.
-                }
-                
-                # Re-infer Area from strato if available, or just map it
-                strato = str(row.get('strato', '')).lower()
-                if 'nord' in strato: invalsi_cache[code]['area_geografica'] = 'Nord'
-                elif 'centro' in strato: invalsi_cache[code]['area_geografica'] = 'Centro'
-                elif 'sud' in strato or 'isole' in strato: invalsi_cache[code]['area_geografica'] = 'Sud'
-    except Exception as e:
-        print(f"Error loading unified Invalsi: {e}")
 
 # Load ENRICHMENT (Official Registry)
 enrichment_cache = {}
@@ -137,14 +105,14 @@ for json_file in json_files:
             json_data = json.load(f)
         
         meta = metadata_cache.get(school_code, {})
-        inv_data = invalsi_cache.get(school_code, {})
         enrich_data = enrichment_cache.get(school_code, {})
+        json_meta = json_data.get('metadata', {})
         
         summary_data = {col: '' for col in CSV_COLUMNS}
         summary_data['school_id'] = school_code
         
-        # Denominazione: Enrichment > Invalsi > PDF > Meta > 'ND'
-        denominazione = enrich_data.get('denominazione') or inv_data.get('denominazione')
+        # Denominazione: JSON (LLM) > Enrichment > PDF > Meta > 'ND'
+        denominazione = json_meta.get('denominazione') or enrich_data.get('denominazione')
         if not denominazione or denominazione == 'ND':
              # Try PDF
              pdf_path = os.path.join(PTOF_DIR, f"{school_code}.pdf")
@@ -152,8 +120,8 @@ for json_file in json_files:
              denominazione = pdf_meta.get('denominazione') or meta.get('denominazionescuola') or 'ND'
         summary_data['denominazione'] = denominazione
         
-        # Comune: Enrichment > Invalsi > PDF > Meta > 'ND'
-        comune = enrich_data.get('comune') or inv_data.get('comune')
+        # Comune: JSON (LLM) > Enrichment > PDF > Meta > 'ND'
+        comune = json_meta.get('comune') or enrich_data.get('comune')
         if not comune or comune == 'ND':
              # Try PDF (re-use if extracted)
              if 'pdf_meta' not in locals():
@@ -162,23 +130,29 @@ for json_file in json_files:
              comune = pdf_meta.get('comune') or meta.get('comune') or 'ND'
         summary_data['comune'] = comune
         
-        # Area: Enrichment > Invalsi > 'ND'
-        summary_data['area_geografica'] = enrich_data.get('area_geografica') or inv_data.get('area_geografica') or 'ND'
+        # Area: JSON (LLM) > Enrichment > Inferred from code > 'ND'
+        summary_data['area_geografica'] = json_meta.get('area_geografica') or enrich_data.get('area_geografica') or 'ND'
         
-        # Tipo: Invalsi > 'ND' (Registry doesn't have clear type field yet, can infer from grado?)
-        tipo_scuola = inv_data.get('tipo_scuola', 'ND')
+        # Tipo: JSON (LLM) > 'ND'
+        # Allow multi-values if comma present
+        tipo_scuola = json_meta.get('tipo_scuola', 'ND')
         
-        # Territorio: Invalsi > 'ND'
-        summary_data['territorio'] = inv_data.get('territorio', 'ND')
+        # Territorio: JSON (LLM) > 'ND'
+        summary_data['territorio'] = json_meta.get('territorio', 'ND')
         
-        # Grado: Enrichment > Invalsi > JSON Inferred
-        # Check Enrichment first
-        if enrich_data.get('ordine_grado') and enrich_data['ordine_grado'] != 'ND':
+        # Grado: Enrichment > JSON (LLM) Inferred
+        # We need to be careful: if JSON has "I Grado, II Grado" (richer info), we might want to prefer it over "Comprensivo" or single value in enrichment.
+        # Strategy: If JSON has comma, use JSON. Else check Enrichment.
+        
+        json_grado = json_meta.get('ordine_grado', 'ND')
+        if ',' in str(json_grado):
+             summary_data['ordine_grado'] = json_grado
+        elif enrich_data.get('ordine_grado') and enrich_data['ordine_grado'] != 'ND':
             summary_data['ordine_grado'] = enrich_data['ordine_grado']
-        elif inv_data.get('ordine_grado') and inv_data['ordine_grado'] != 'ND':
-            summary_data['ordine_grado'] = inv_data['ordine_grado']
+        elif json_grado and json_grado != 'ND':
+            summary_data['ordine_grado'] = json_grado
         else:
-             # Fallback to JSON logic (normalized)
+             # Fallback to JSON logic (normalized) - only if not found above
             raw_grado = json_data.get('metadata', {}).get('ordine_grado', 'ND').replace('_', ' ')
             if 'II' in raw_grado.upper() and 'GRADO' in raw_grado.upper():
                 summary_data['ordine_grado'] = 'II Grado'
@@ -192,7 +166,9 @@ for json_file in json_files:
                 else:
                     summary_data['ordine_grado'] = raw_grado.title()
 
+
         # For I Grado schools, if tipo_scuola is ND, set it to I Grado
+        # Careful not to overwrite if we have specific types
         ordine = summary_data.get('ordine_grado', '')
         if ordine == 'I Grado' and (tipo_scuola == 'ND' or not tipo_scuola):
             summary_data['tipo_scuola'] = 'I Grado'

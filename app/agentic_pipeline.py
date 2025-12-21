@@ -24,10 +24,23 @@ OLLAMA_URL = "http://192.168.129.14:11434/api/generate"
 MD_DIR = "ptof_md"
 RESULTS_DIR = "analysis_results"
 
+# Chunking configuration
+CHUNK_SIZE = 40000       # Max chars per chunk for Ollama (smaller context)
+LONG_DOC_THRESHOLD = 60000  # Use chunking for docs longer than this
+
+# Import chunker
+try:
+    from src.processing.text_chunker import smart_split, get_chunk_info
+except ImportError:
+    import sys
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    from src.processing.text_chunker import smart_split, get_chunk_info
+
 # Models
 MODEL_ANALYST = "gemma3:27b"
 MODEL_REVIEWER = "qwen3:32b"
 MODEL_REFINER = "gemma3:27b"
+MODEL_SYNTHESIZER = "gemma3:27b"
 
 try:
     from src.utils.config_loader import load_prompts
@@ -51,7 +64,7 @@ def extract_canonical_code(filename_code):
 
 def load_metadata_caches():
     """Load metadata from CSV sources."""
-    caches = {'enrichment': {}, 'invalsi': {}}
+    caches = {'enrichment': {}}
     
     # Enrichment (official registry)
     if os.path.exists('data/metadata_enrichment.csv'):
@@ -64,23 +77,12 @@ def load_metadata_caches():
         except Exception as e:
             logging.warning(f"Failed to load enrichment: {e}")
     
-    # INVALSI
-    if os.path.exists('data/invalsi_unified.csv'):
-        try:
-            df = pd.read_csv('data/invalsi_unified.csv', sep=';', dtype=str)
-            for _, row in df.iterrows():
-                code = str(row.get('istituto', '')).strip()
-                if code:
-                    caches['invalsi'][code] = row.to_dict()
-        except Exception as e:
-            logging.warning(f"Failed to load INVALSI: {e}")
-    
     return caches
 
 METADATA_CACHES = load_metadata_caches()
 
 def enrich_json_metadata(json_path, school_code_raw):
-    """Enrich JSON file with metadata from CSV sources."""
+    """Enrich JSON file with metadata from enrichment cache (LLM generated metadata is primary)."""
     school_code = extract_canonical_code(school_code_raw)
     
     try:
@@ -91,16 +93,15 @@ def enrich_json_metadata(json_path, school_code_raw):
             data['metadata'] = {}
         
         enrich = METADATA_CACHES['enrichment'].get(school_code, {})
-        invalsi = METADATA_CACHES['invalsi'].get(school_code, {})
         
-        # Update metadata with priority: existing > enrichment > invalsi
+        # Update metadata with priority: existing (from LLM) > enrichment
         data['metadata']['school_id'] = school_code
-        data['metadata']['denominazione'] = enrich.get('denominazione') or invalsi.get('denominazionescuola') or data['metadata'].get('denominazione', 'ND')
-        data['metadata']['comune'] = enrich.get('comune') or invalsi.get('nome_comune') or data['metadata'].get('comune', 'ND')
-        data['metadata']['area_geografica'] = enrich.get('area_geografica') or data['metadata'].get('area_geografica', 'ND')
-        data['metadata']['ordine_grado'] = enrich.get('ordine_grado') or invalsi.get('grado') or data['metadata'].get('ordine_grado', 'ND')
-        data['metadata']['territorio'] = invalsi.get('territorio_std') or data['metadata'].get('territorio', 'ND')
-        data['metadata']['tipo_scuola'] = invalsi.get('tipo_scuola_std') or data['metadata'].get('tipo_scuola', 'ND')
+        data['metadata']['denominazione'] = data['metadata'].get('denominazione') or enrich.get('denominazione') or 'ND'
+        data['metadata']['comune'] = data['metadata'].get('comune') or enrich.get('comune') or 'ND'
+        data['metadata']['area_geografica'] = data['metadata'].get('area_geografica') or enrich.get('area_geografica') or 'ND'
+        data['metadata']['ordine_grado'] = data['metadata'].get('ordine_grado') or enrich.get('ordine_grado') or 'ND'
+        data['metadata']['territorio'] = data['metadata'].get('territorio') or 'ND'
+        data['metadata']['tipo_scuola'] = data['metadata'].get('tipo_scuola') or 'ND'
         
         with open(json_path, 'w') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
@@ -145,8 +146,48 @@ class AnalystAgent(BaseAgent):
             logging.error("Analyst prompt missing")
             return ""
             
-        # No variables for Analyst currently
         return self.call_ollama(prompt_template, context=ptof_text)
+    
+    def draft_chunk(self, chunk_text, chunk_num, total_chunks):
+        """Analyze a single chunk of the document."""
+        logging.info(f"[{self.model}] Drafting chunk {chunk_num}/{total_chunks}...")
+        prompt_template = PROMPTS.get("Analyst", "")
+        if not prompt_template:
+            return ""
+        
+        chunk_prompt = f"""{prompt_template}
+
+NOTA: Questa è la SEZIONE {chunk_num} di {total_chunks} del documento PTOF.
+Analizza SOLO questa sezione e restituisci i punteggi trovati."""
+        
+        return self.call_ollama(chunk_prompt, context=chunk_text)
+
+
+class SynthesizerAgent(BaseAgent):
+    """Agent that synthesizes multiple partial analyses into one."""
+    def __init__(self):
+        super().__init__(MODEL_SYNTHESIZER, "Sintetizzatore di Analisi Multiple")
+    
+    def synthesize(self, partial_results):
+        """Combine multiple JSON analyses into one unified result."""
+        logging.info(f"[{self.model}] Synthesizing {len(partial_results)} partial results...")
+        
+        synthesis_prompt = f"""Sei un sintetizzatore di analisi PTOF.
+Hai ricevuto {len(partial_results)} analisi parziali dello stesso documento PTOF.
+
+ISTRUZIONI:
+1. Unifica tutte le analisi in un singolo JSON completo
+2. Per ogni indicatore con punteggio, scegli il punteggio PIÙ ALTO trovato
+3. Per liste (partner, attività), combina tutti gli elementi unici
+4. Per metadata, usa i valori non-ND trovati
+5. Restituisci SOLO il JSON unificato, nessun altro testo
+
+ANALISI PARZIALI:
+{json.dumps(partial_results, indent=2, ensure_ascii=False)}
+
+JSON UNIFICATO:"""
+        
+        return self.call_ollama(synthesis_prompt)
 
 class ReviewerAgent(BaseAgent):
     def __init__(self):
@@ -154,9 +195,17 @@ class ReviewerAgent(BaseAgent):
 
     def critique_report(self, source_text, draft_report):
         logging.info(f"[{self.model}] Critiquing report...")
-        prompt_template = PROMPTS.get("Reviewer", "")
         
-        prompt = prompt_template.replace("{{DRAFT_REPORT}}", draft_report)
+        if not draft_report:
+            logging.error("[Reviewer] draft_report is None or empty!")
+            return None
+            
+        prompt_template = PROMPTS.get("Reviewer", "")
+        if not prompt_template:
+            logging.error("[Reviewer] Reviewer prompt not found!")
+            return None
+        
+        prompt = prompt_template.replace("{{DRAFT_REPORT}}", str(draft_report))
         return self.call_ollama(prompt, context=source_text)
 
 class RefinerAgent(BaseAgent):
@@ -165,9 +214,20 @@ class RefinerAgent(BaseAgent):
 
     def refine_report(self, draft_report, critique):
         logging.info(f"[{self.model}] Refining report...")
-        prompt_template = PROMPTS.get("Refiner", "")
         
-        prompt = prompt_template.replace("{{DRAFT_REPORT}}", draft_report).replace("{{CRITIQUE}}", critique)
+        if not draft_report:
+            logging.error("[Refiner] draft_report is None or empty!")
+            return None
+        if not critique:
+            logging.warning("[Refiner] critique is None - using empty string")
+            critique = ""
+            
+        prompt_template = PROMPTS.get("Refiner", "")
+        if not prompt_template:
+            logging.error("[Refiner] Refiner prompt not found!")
+            return None
+        
+        prompt = prompt_template.replace("{{DRAFT_REPORT}}", str(draft_report)).replace("{{CRITIQUE}}", str(critique))
         return self.call_ollama(prompt)
 
 def run_pipeline():
@@ -213,9 +273,10 @@ def sanitize_json(text):
     
     return text[start:end+1]
 
-def process_single_ptof(md_file, analyst, reviewer, refiner, results_dir=RESULTS_DIR, status_callback=None):
+def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, results_dir=RESULTS_DIR, status_callback=None):
     """
     Process a single PTOF file through the Agentic Pipeline.
+    Automatically uses chunked analysis for long documents.
     status_callback: function(msg) to report progress
     """
     school_Code = os.path.basename(md_file).replace('.md', '')
@@ -226,14 +287,57 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, results_dir=RESULTS
     
     with open(md_file, 'r', encoding='utf-8') as f:
         content = f.read()
+    
+    content_size = len(content)
+    
+    # Check if we need chunked analysis
+    if content_size > LONG_DOC_THRESHOLD:
+        logging.info(f"[Pipeline] Long document ({content_size} chars) - using chunked analysis")
+        if status_callback: status_callback(f"Long doc ({content_size//1000}k chars) - chunking...")
         
-    # 1. Draft
-    if status_callback: status_callback("Analyst: Drafting report...")
-    draft = analyst.draft_report(content)
-    if not draft: return None
+        # Split document
+        chunks = smart_split(content, CHUNK_SIZE)
+        info = get_chunk_info(chunks)
+        logging.info(f"[Pipeline] Split into {info['count']} chunks")
+        
+        # Analyze each chunk
+        partial_results = []
+        for i, chunk in enumerate(chunks):
+            if status_callback: status_callback(f"Analyst: Chunk {i+1}/{len(chunks)}...")
+            
+            chunk_draft = analyst.draft_chunk(chunk, i+1, len(chunks))
+            if chunk_draft:
+                chunk_draft = sanitize_json(chunk_draft)
+                try:
+                    partial_json = json.loads(chunk_draft)
+                    partial_results.append(partial_json)
+                except:
+                    logging.warning(f"[Pipeline] Chunk {i+1} parse failed")
+        
+        if not partial_results:
+            logging.error("[Pipeline] No valid chunk results")
+            return None
+        
+        # Synthesize if we have a synthesizer
+        if synthesizer and len(partial_results) > 1:
+            if status_callback: status_callback("Synthesizer: Combining results...")
+            draft = synthesizer.synthesize(partial_results)
+            draft = sanitize_json(draft)
+        elif len(partial_results) == 1:
+            draft = json.dumps(partial_results[0])
+        else:
+            # Manual merge if no synthesizer
+            from src.processing.cloud_review import merge_partial_analyses
+            merged = merge_partial_analyses(partial_results)
+            draft = json.dumps(merged)
+    else:
+        # Standard single-pass analysis
+        if status_callback: status_callback("Analyst: Drafting report...")
+        draft = analyst.draft_report(content)
+        if not draft: return None
+        draft = sanitize_json(draft)
     
     # Save Draft JSON
-    draft = sanitize_json(draft)
     try:
         with open(final_json_path, 'w') as f:
             f.write(draft) 
@@ -247,13 +351,14 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, results_dir=RESULTS
         
         # Load config to get keys for extraction
         api_config = load_api_config()
-        # Prefer Gemini for extraction if available (fast/cheap)
-        prov = 'gemini' if api_config.get('gemini_api_key') else 'openrouter'
-        key = api_config.get(f'{prov}_api_key')
+        # Use OpenRouter with free model for metadata extraction
+        # Reason: Gemini quota limits (429 errors), OpenRouter has free models
+        prov = 'openrouter'
+        key = api_config.get('openrouter_api_key')
         
         if key:
-            logging.info("Extracting metadata with Cloud LLM...")
-            meta = extract_metadata_from_header(content, prov, key, "gemini-2.0-flash-exp" if prov=='gemini' else "google/gemini-2.0-flash-exp:free")
+            logging.info("Extracting metadata with Cloud LLM (OpenRouter)...")
+            meta = extract_metadata_from_header(content, prov, key, "google/gemini-2.0-flash-exp:free")
             if meta:
                 # Merge into JSON
                 try:
@@ -282,25 +387,33 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, results_dir=RESULTS
     # 2. Critique
     if status_callback: status_callback("Reviewer: Critiquing...")
     critique = reviewer.critique_report(content, narrative)
-    logging.info(f"Reviewer says: {critique[:100]}...")
     
-    # 3. Refine
+    if critique:
+        logging.info(f"Reviewer says: {critique[:100]}...")
+    else:
+        logging.warning("Reviewer returned None - skipping review step")
+        critique = ""
+    
+    # 3. Refine (only if critique has content)
     final_output = narrative
-    if "APPROVATO" not in critique.upper() and len(critique) > 10:
+    if critique and "APPROVATO" not in critique.upper() and len(critique) > 10:
          if status_callback: status_callback("Refiner: Improving report...")
          refined_json_str = refiner.refine_report(draft, critique)
-         refined_json_str = sanitize_json(refined_json_str)
          
-         try:
-             refined_data = json.loads(refined_json_str)
-             with open(final_json_path, 'w') as f:
-                 f.write(refined_json_str)
-             
-             final_output = refined_data.get('narrative', '')
-         except Exception as e:
-             logging.error(f"Failed to parse Refiner JSON: {e}")
+         if refined_json_str:
+             refined_json_str = sanitize_json(refined_json_str)
+             try:
+                 refined_data = json.loads(refined_json_str)
+                 with open(final_json_path, 'w') as f:
+                     f.write(refined_json_str)
+                 
+                 final_output = refined_data.get('narrative', '')
+             except Exception as e:
+                 logging.error(f"Failed to parse Refiner JSON: {e}")
+         else:
+             logging.warning("Refiner returned None - keeping original draft")
     else:
-         logging.info("Report approved directly.")
+         logging.info("Report approved directly or no critique available.")
 
     # Save Final MD
     with open(final_md_path, 'w') as f:
@@ -323,6 +436,7 @@ def run_pipeline():
     analyst = AnalystAgent()
     reviewer = ReviewerAgent()
     refiner = RefinerAgent()
+    synthesizer = SynthesizerAgent()
     
     for md_file in md_files:
         school_Code = os.path.basename(md_file).replace('.md', '')
@@ -334,7 +448,7 @@ def run_pipeline():
             
         logging.info(f"___ Processing {school_Code} ___")
         
-        process_single_ptof(md_file, analyst, reviewer, refiner)
+        process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer)
         
         # Incrementally update CSV for dashboard (Batch update mainly, but do it per file to help)
         try:
