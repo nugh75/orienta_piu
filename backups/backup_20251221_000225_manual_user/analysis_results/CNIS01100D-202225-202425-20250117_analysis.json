@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "school_id": "CNIS01100D",
+    "denominazione": "CEVA - \"G. BARUFFI\"",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord",
+    "territorio": "Non Metropolitano",
+    "comune": "CEVA",
+    "anno_ptof": "2022-2025"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione è presente e ben definita, con una descrizione chiara delle finalità e degli obiettivi dell'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "CFP Cebano Monregalese",
+        "Università del Piemonte Orientale",
+        "Fondazione CRC",
+        "Ente di gestione Aree Protette delle Alpi Marittime",
+        "Lycée di Gap",
+        "Rete Istituti Forestali Italiani",
+        "Rete Nazionale ITEFM",
+        "Consorzio forestale"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "promuovere la valorizzazione delle attitudini e delle capacità individuali",
+        "evidence_location": "Pagina 131"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "favorire l’esplorazione dei propri interessi",
+        "evidence_location": "Pagina 131"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "orientare gli studenti nella costruzione del proprio progetto di vita",
+        "evidence_location": "Pagina 131"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "accompagnare gli studenti nelle transizioni formative e professionali",
+        "evidence_location": "Pagina 131"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "sviluppare la capacità di individuare le opportunità formative e professionali",
+        "evidence_location": "Pagina 131"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Attività di stage presso aziende, enti e istituzioni del territorio per acquisire competenze pratiche e orientarsi nel mondo del lavoro.",
+      "5w_chi": "Studenti di tutti gli indirizzi",
+      "5w_cosa": "Svolgimento di stage, partecipazione a progetti, simulazioni di colloqui.",
+      "5w_dove": "Aziende, enti, istituzioni del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Acquisire competenze professionali, orientarsi nel mondo del lavoro, facilitare l'inserimento lavorativo.",
+      "ore_dichiarate": "Variabile",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Il PCTO è uno strumento fondamentale per l'orientamento e l'inserimento lavorativo.",
+      "evidence_location": "Pagina 131"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Visita",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate presso aziende del territorio per conoscere da vicino i diversi settori produttivi.",
+      "5w_chi": "Studenti di tutti gli indirizzi",
+      "5w_cosa": "Visita guidata, incontro con i responsabili aziendali, presentazione dell'azienda.",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Conoscere il mondo del lavoro, orientarsi nella scelta del percorso professionale.",
+      "ore_dichiarate": "Variabile",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Le visite aziendali sono un'occasione importante per conoscere il mondo del lavoro.",
+      "evidence_location": "Pagina 131"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti di diversi settori per conoscere le loro esperienze e le opportunità di lavoro.",
+      "5w_chi": "Studenti di tutti gli indirizzi",
+      "5w_cosa": "Presentazione del professionista, racconto della sua esperienza, domande e risposte.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Conoscere le professioni, orientarsi nella scelta del percorso professionale.",
+      "ore_dichiarate": "Variabile",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Gli incontri con i professionisti sono un'occasione preziosa per conoscere le professioni.",
+      "evidence_location": "Pagina 131"
+    }
+  ],
+  "narrative": "# Analisi del PTOF IIS G. Baruffi\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF dell'IIS G. Baruffi evidenzia un'attenzione significativa all'orientamento, con una sezione dedicata e azioni mirate a supportare gli studenti nella definizione del loro percorso di vita e nelle transizioni formative. L'istituto si avvale di una rete di partnership con enti e aziende locali, offrendo opportunità di stage, visite aziendali e incontri con professionisti. L'integrazione dell'orientamento nella didattica, con particolare focus sulle attività pratiche, rappresenta un elemento positivo.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\n\nLa presenza di una sezione specifica per l'orientamento nel PTOF è un punto di forza, che testimonia l'importanza attribuita a questo ambito dall'istituto. La sezione è ben strutturata e definisce chiaramente finalità e obiettivi.\n\n#### 2.2 Partnership e Reti\n\nL'istituto ha sviluppato collaborazioni con diversi soggetti del territorio, tra cui il CFP Cebano Monregalese, l'Università del Piemonte Orientale, la Fondazione CRC, l'Ente di gestione Aree Protette delle Alpi Marittime, il Lycée di Gap, la Rete Istituti Forestali Italiani, la Rete Nazionale ITEFM e il Consorzio forestale. Sebbene queste partnership offrano opportunità agli studenti, manca una descrizione dettagliata degli impatti misurabili di queste collaborazioni, come ad esempio il numero di studenti che hanno beneficiato di stage o il tasso di occupazione post-diploma. \n\n#### 2.3 Finalità e Obiettivi\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini e gli interessi degli studenti, a orientarli nella costruzione del loro progetto di vita, ad accompagnarli nelle transizioni formative e a sviluppare la loro capacità di individuare le opportunità formative e professionali.\n\n#### 2.4 Governance e Azioni di Sistema\n\nL'istituto prevede azioni di coordinamento tra i diversi servizi, di dialogo tra docenti e studenti, di rapporto con le famiglie e di monitoraggio delle azioni intraprese. Tuttavia, il PTOF non specifica in modo dettagliato gli strumenti utilizzati per il monitoraggio e la raccolta di feedback sull'efficacia delle azioni di orientamento.\n\n#### 2.5 Didattica Orientativa\n\nLa didattica orientativa si basa sull'esperienza degli studenti e sull'utilizzo di attività laboratoriali. L'enfasi sulle attività pratiche è apprezzabile, sebbene il documento non evidenzi una diffusa implementazione di metodologie didattiche innovative oltre alle attività laboratoriali.\n\n#### 2.6 Opportunità Formative\n\nL'istituto offre agli studenti diverse opportunità formative, tra cui opzionali culturali, laboratoriali espressive, di volontariato e sportive. La varietà dell'offerta è un punto di forza.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)\n\nIl PCTO rappresenta un'attività centrale nell'offerta formativa dell'istituto. Gli studenti, provenienti da tutti gli indirizzi, partecipano a stage presso aziende, enti e istituzioni del territorio, acquisendo competenze pratiche e orientandosi nel mondo del lavoro. Tuttavia, il PTOF non specifica i criteri utilizzati per la selezione delle aziende partner o le modalità di valutazione degli stage.\n\n#### 2.7.2 Visite aziendali\n\nLe visite aziendali sono organizzate per consentire agli studenti di conoscere da vicino i diversi settori produttivi e le professioni che li caratterizzano. Durante le visite, gli studenti hanno l'opportunità di incontrare i responsabili aziendali e di porre domande sulle opportunità di lavoro.\n\n#### 2.7.3 Incontri con professionisti\n\nGli incontri con professionisti sono un'occasione preziosa per gli studenti per conoscere le esperienze e le competenze necessarie per svolgere diverse professioni. Durante gli incontri, i professionisti raccontano il loro percorso professionale e rispondono alle domande degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una rete di partnership con enti e aziende del territorio, che offre agli studenti opportunità concrete di orientamento. L'istituto attribuisce importanza alle attività pratiche e all'integrazione dell'orientamento nella didattica.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza è la scarsa attenzione al monitoraggio e alla valutazione delle azioni intraprese. Inoltre, l'offerta di opzionali formative potrebbe essere ulteriormente ampliata.\n\n### 5. Gap Analysis\n\nÈ necessario rafforzare il sistema di monitoraggio e valutazione delle azioni di orientamento, al fine di verificarne l'efficacia e di apportare eventuali correzioni. È opportuno ampliare l'offerta di opzionali formative, in modo da rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nNel complesso, il PTOF dell'IIS G. Baruffi dimostra un buon livello di attenzione all'orientamento, con una serie di azioni concrete volte a supportare gli studenti nella costruzione del loro progetto di vita e nelle transizioni formative. L'istituto si avvale di una rete di partnership e di metodologie didattiche orientate alla pratica. Un miglioramento nell'analisi dei risultati e nell'ampliamento dell'offerta formativa potrebbe ulteriormente consolidare l'efficacia del sistema di orientamento."
+}
