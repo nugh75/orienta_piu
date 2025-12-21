@@ -200,30 +200,40 @@ if selected_school:
     # PDF Viewer
     st.subheader("📄 Documento PTOF Originale")
     school_id = school_data.get('school_id', '')
-    
-    # Find PDF file
-    pdf_patterns = [
-        f'ptof/*{school_id}*.pdf',
-        f'ptof/{school_id}*.pdf',
-        f'ptof/*_{school_id}_*.pdf',
-    ]
-    
-    pdf_files = []
-    for pattern in pdf_patterns:
-        pdf_files.extend(glob.glob(pattern))
-    
-    # Also search with denominazione-based patterns
-    if not pdf_files:
-        # Try to find by partial match on school name
-        all_pdfs = glob.glob('ptof/*.pdf')
-        for pdf in all_pdfs:
-            pdf_name = os.path.basename(pdf).upper()
-            if school_id.upper() in pdf_name:
-                pdf_files.append(pdf)
-                break
-    
-    if pdf_files:
-        pdf_path = pdf_files[0]
+
+    pdf_path = None
+    search_dirs = ["ptof", "ptof_processed", "ptof_inbox"]
+    try:
+        from app.data_utils import find_pdf_for_school
+        pdf_path = find_pdf_for_school(school_id, base_dirs=search_dirs)
+    except Exception:
+        pdf_patterns = []
+        for base_dir in search_dirs:
+            pdf_patterns.extend([
+                os.path.join(base_dir, f"*{school_id}*.pdf"),
+                os.path.join(base_dir, f"{school_id}*.pdf"),
+                os.path.join(base_dir, f"*_{school_id}_*.pdf"),
+                os.path.join(base_dir, "**", f"*{school_id}*.pdf"),
+            ])
+        pdf_files = []
+        for pattern in pdf_patterns:
+            pdf_files.extend(glob.glob(pattern, recursive=True))
+
+        if not pdf_files:
+            for base_dir in search_dirs:
+                all_pdfs = glob.glob(os.path.join(base_dir, "**", "*.pdf"), recursive=True)
+                for pdf in all_pdfs:
+                    pdf_name = os.path.basename(pdf).upper()
+                    if school_id.upper() in pdf_name:
+                        pdf_files.append(pdf)
+                        break
+                if pdf_files:
+                    break
+
+        if pdf_files:
+            pdf_path = sorted(set(pdf_files))[0]
+
+    if pdf_path:
         st.success(f"📎 PDF trovato: `{os.path.basename(pdf_path)}`")
         
         try:
@@ -262,6 +272,5 @@ if selected_school:
                     mime="application/pdf"
                 )
     else:
-        st.info(f"📂 PDF non trovato per {school_id}. Verifica che il file sia nella cartella `ptof/`.")
-        st.caption("Pattern cercati: ptof/*<codice_scuola>*.pdf")
-
+        st.info(f"📂 PDF non trovato per {school_id}. Verifica che il file sia in `ptof/` o `ptof_processed/`.")
+        st.caption("Cartelle cercate: ptof/, ptof_processed/, ptof_inbox/")

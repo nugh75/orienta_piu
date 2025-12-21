@@ -11,6 +11,9 @@ st.set_page_config(page_title="Gestione", page_icon="⚙️", layout="wide")
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
 PTOF_DIR = 'ptof'
+PTOF_PROCESSED_DIR = 'ptof_processed'
+PTOF_INBOX_DIR = 'ptof_inbox'
+PTOF_SEARCH_DIRS = [PTOF_DIR, PTOF_PROCESSED_DIR, PTOF_INBOX_DIR]
 PTOF_MD_DIR = 'ptof_md'
 
 @st.cache_data(ttl=30)
@@ -22,21 +25,36 @@ def load_data():
 def display_pdf(school_id, height=600):
     """Display PDF for a given school_id"""
     import base64
-    
-    pdf_patterns = [f'{PTOF_DIR}/*{school_id}*.pdf', f'{PTOF_DIR}/{school_id}*.pdf']
-    pdf_files = []
-    for pattern in pdf_patterns:
-        pdf_files.extend(glob.glob(pattern))
-    
-    if not pdf_files:
-        all_pdfs = glob.glob(f'{PTOF_DIR}/*.pdf')
-        for pdf in all_pdfs:
-            if school_id.upper() in os.path.basename(pdf).upper():
-                pdf_files.append(pdf)
-                break
-    
-    if pdf_files:
-        pdf_path = pdf_files[0]
+
+    try:
+        from app.data_utils import find_pdf_for_school
+        pdf_path = find_pdf_for_school(school_id, base_dirs=PTOF_SEARCH_DIRS)
+    except Exception:
+        pdf_path = None
+        pdf_patterns = []
+        for base_dir in PTOF_SEARCH_DIRS:
+            pdf_patterns.extend([
+                os.path.join(base_dir, f"*{school_id}*.pdf"),
+                os.path.join(base_dir, f"{school_id}*.pdf"),
+                os.path.join(base_dir, f"*_{school_id}_*.pdf"),
+                os.path.join(base_dir, "**", f"*{school_id}*.pdf"),
+            ])
+        pdf_files = []
+        for pattern in pdf_patterns:
+            pdf_files.extend(glob.glob(pattern, recursive=True))
+        if not pdf_files:
+            for base_dir in PTOF_SEARCH_DIRS:
+                all_pdfs = glob.glob(os.path.join(base_dir, "**", "*.pdf"), recursive=True)
+                for pdf in all_pdfs:
+                    if school_id.upper() in os.path.basename(pdf).upper():
+                        pdf_files.append(pdf)
+                        break
+                if pdf_files:
+                    break
+        if pdf_files:
+            pdf_path = sorted(set(pdf_files))[0]
+
+    if pdf_path:
         try:
             with open(pdf_path, "rb") as f:
                 pdf_bytes = f.read()
@@ -49,6 +67,7 @@ def display_pdf(school_id, height=600):
             return False
     else:
         st.info(f"PDF non trovato per {school_id}")
+        st.caption("Cartelle cercate: ptof/, ptof_processed/, ptof_inbox/")
         return False
 
 df = load_data()
@@ -297,12 +316,14 @@ with actions_col:
         if new_school_id != school_id:
             renamed_count = 0
             # PDF
-            for f in glob.glob(f'{PTOF_DIR}/*{school_id}*.pdf'):
-                try:
-                    new_name = os.path.basename(f).replace(school_id, new_school_id)
-                    os.rename(f, os.path.join(PTOF_DIR, new_name))
-                    renamed_count += 1
-                except Exception: pass
+            for base_dir in PTOF_SEARCH_DIRS:
+                for f in glob.glob(os.path.join(base_dir, "**", f"*{school_id}*.pdf"), recursive=True):
+                    try:
+                        new_name = os.path.basename(f).replace(school_id, new_school_id)
+                        os.rename(f, os.path.join(os.path.dirname(f), new_name))
+                        renamed_count += 1
+                    except Exception:
+                        pass
             
             # MD
             for f in glob.glob(f'{PTOF_MD_DIR}/*{school_id}*.md'):

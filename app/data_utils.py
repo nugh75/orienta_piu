@@ -6,6 +6,41 @@ def split_multi_value(value):
         return []
     return [part.strip() for part in str(value).split(',') if part.strip()]
 
+def find_pdf_for_school(school_id, base_dirs=None):
+    import glob
+    import os
+
+    if not school_id:
+        return None
+
+    base_dirs = base_dirs or ["ptof", "ptof_processed", "ptof_inbox"]
+    patterns = []
+    for base in base_dirs:
+        patterns.extend([
+            os.path.join(base, f"*{school_id}*.pdf"),
+            os.path.join(base, f"{school_id}*.pdf"),
+            os.path.join(base, f"*_{school_id}_*.pdf"),
+            os.path.join(base, "**", f"*{school_id}*.pdf"),
+        ])
+
+    pdf_files = []
+    for pattern in patterns:
+        pdf_files.extend(glob.glob(pattern, recursive=True))
+
+    if not pdf_files:
+        for base in base_dirs:
+            for pdf in glob.glob(os.path.join(base, "**", "*.pdf"), recursive=True):
+                if school_id.upper() in os.path.basename(pdf).upper():
+                    pdf_files.append(pdf)
+                    break
+            if pdf_files:
+                break
+
+    if not pdf_files:
+        return None
+
+    return sorted(set(pdf_files))[0]
+
 def explode_school_types(df: pd.DataFrame, col='tipo_scuola') -> pd.DataFrame:
     """
     Explodes the dataframe so that rows with multiple school types (comma separated)
