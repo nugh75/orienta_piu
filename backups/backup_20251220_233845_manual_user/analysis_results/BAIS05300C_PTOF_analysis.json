@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "school_id": "BAIS05300C",
+    "anno_ptof": "2022-2025",
+    "denominazione": "I.I.S.S. \"LUIGI RUSSO\"",
+    "ordine_grado": "II Grado",
+    "tipo_scuola": "Liceo",
+    "comune": "MONOPOLI",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non è presente una sezione esplicitamente dedicata all'orientamento, ma l'argomento è affrontato all'interno di altre sezioni, come la formazione del personale e le attività di potenziamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Conservatorio \"N. Rota\" di Monopoli",
+        "Cooperativa ITACA",
+        "Associazione culturale musicale “G. Piantoni” di Conversano",
+        "Fondazione Museo Pino Pascali",
+        "Associazione Nazionale di Salvamento - sezione di Monopoli"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "Non esplicitamente menzionate, ma si evince un'attenzione alla valorizzazione delle competenze individuali.",
+        "evidence_location": "Pagine varie"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "Non esplicitamente menzionate, ma si evince un'attenzione alla valorizzazione delle competenze individuali.",
+        "evidence_location": "Pagine varie"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "Nessun riferimento esplicito.",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "Attività di orientamento per il passaggio tra i diversi gradi di istruzione, in particolare con il Conservatorio.",
+        "evidence_location": "Pagina 236"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "Si mira a fornire agli studenti competenze per il futuro lavorativo, ma in modo generico.",
+        "evidence_location": "Pagine varie"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 3,
+        "note": "Le attività laboratoriali si concentrano su corsi tecnici specifici come Tinkercad e Minecraft a scuola. Sebbene utili per lo sviluppo di competenze digitali, manca un'esplicita integrazione con altre discipline curricolari per un approccio orientativo più olistico."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corso di Inglese B2",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso per migliorare le competenze linguistiche dei docenti e preparare all'esame Trinity College London.",
+      "5w_chi": "Docenti",
+      "5w_cosa": "Corso di lingua inglese livello B2.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Migliorare le competenze linguistiche dei docenti.",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": "...",
+      "evidence_location": "..."
+    },
+    {
+      "titolo_attivita": "Convenzione con il Conservatorio \"N. Rota\"",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di orientamento per gli studenti del Liceo Musicale.",
+      "5w_chi": "Studenti del Liceo Musicale",
+      "5w_cosa": "Visite, workshop, lezioni con esperti del Conservatorio.",
+      "5w_dove": "Conservatorio e Scuola",
+      "5w_quando": "A.S. 2022/23",
+      "5w_perche": "Favorire l'orientamento verso studi superiori musicali.",
+      "ore_dichiarate": "15 ore per corso",
+      "target": "Studenti 3M, 4M, 5M",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 236"
+    },
+    {
+      "titolo_attivita": "Convenzione con Cooperativa ITACA",
+      "categoria_principale": "Prevenzione e Benessere",
+      "descrizione_e_metodologia": "Attività per la prevenzione della povertà educativa minorile.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Interventi di supporto e sensibilizzazione.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Contrastare la povertà educativa.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 237"
+    }
+  ],
+  "narrative": "# Analisi del PTOF IISS Luigi Russo\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF dell'IISS Luigi Russo dimostra una consapevolezza dell'importanza dell'orientamento, sebbene non sia presente una sezione dedicata. L'orientamento è integrato in diverse aree del piano, come la formazione del personale, le partnership con enti esterni e le attività di potenziamento. Il livello di maturità dell'orientamento può essere definito come sufficiente, con margini di miglioramento nella strutturazione, nel monitoraggio e nella definizione di indicatori di successo.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\n\nL'assenza di una sezione specifica dedicata all'orientamento rappresenta una lacuna. Sebbene l'orientamento sia affrontato in altre sezioni, una sezione dedicata avrebbe permesso di definire in modo più chiaro le finalità, gli obiettivi e le azioni specifiche.\n\n#### 2.2 Partnership e Reti\n\nLa scuola ha sviluppato diverse partnership con enti esterni, tra cui il Conservatorio \"N. Rota\" di Monopoli, la Cooperativa ITACA e l'Associazione culturale musicale “G. Piantoni” di Conversano. Queste collaborazioni rappresentano un punto di forza, offrendo agli studenti opportunità di arricchimento e di orientamento. Tuttavia, è necessario valutare l'effettiva accessibilità di queste opportunità a tutti gli studenti, garantendo un'equa distribuzione delle risorse e delle informazioni.\n\n#### 2.3 Finalità e Obiettivi\n\nLe finalità dell'orientamento sono definite in modo generico, con un'attenzione alla valorizzazione delle competenze individuali e alla preparazione degli studenti per il futuro. Manca una chiara definizione degli obiettivi specifici, misurabili, raggiungibili, rilevanti e temporalmente definiti (SMART).\n\n#### 2.4 Governance e Azioni di Sistema\n\nLe azioni di sistema per l'orientamento sono limitate e poco strutturate. Manca un coordinamento efficace tra i diversi servizi e attori coinvolti.\n\n#### 2.5 Didattica Orientativa\n\nLa didattica orientativa si basa principalmente su attività laboratoriali, che rappresentano un approccio positivo. Tuttavia, le attività si concentrano su corsi tecnici specifici come Tinkercad e Minecraft a scuola. Sebbene utili per lo sviluppo di competenze digitali, manca un'esplicita integrazione con altre discipline curricolari per un approccio orientativo più olistico.\n\n#### 2.6 Opportunità Formative\n\nLa scuola offre diverse opportunità formative, come corsi di lingua inglese, coding e attività di potenziamento. Il punteggio assegnato è 6/10, in quanto, pur rappresentando una buona base, queste opportunità non sono sempre comunicate efficacemente a tutti gli studenti e necessitano di una maggiore diversificazione per rispondere alle diverse esigenze e interessi.\n\n#### 2.7 Inclusione\n\nLa sezione dedicata all'inclusione del PTOF presenta elementi rilevanti per l'orientamento, come la predisposizione di Piani Educativi Individualizzati (PEI) per studenti con bisogni educativi speciali e la formazione del personale docente su tematiche relative alla disabilità. Queste azioni contribuiscono a garantire un orientamento personalizzato e inclusivo, tenendo conto delle specifiche esigenze di ogni studente.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono le partnership con enti esterni, le attività laboratoriali e l'attenzione alla valorizzazione delle competenze individuali. Tuttavia, è necessario monitorare l'impatto di queste iniziative e garantire la loro sostenibilità nel tempo.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza sono l'assenza di una sezione dedicata all'orientamento, la mancanza di obiettivi specifici e misurabili, il coordinamento limitato tra i diversi servizi e attori coinvolti, e l'assenza di indicatori di successo per le iniziative di orientamento.\n\n### 5. Gap Analysis\n\nIl principale gap è la mancanza di una visione strategica dell'orientamento, che integri le diverse azioni e iniziative in un sistema coerente e monitorabile. Manca, inoltre, un sistema di valutazione che permetta di misurare l'efficacia delle azioni intraprese e di apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'IISS Luigi Russo dimostra un impegno verso l'orientamento, ma necessita di una maggiore strutturazione, di un monitoraggio più efficace e della definizione di indicatori di successo per raggiungere risultati ottimali. L'integrazione dell'orientamento in un sistema coerente, la definizione di obiettivi specifici e misurabili e l'attenzione all'inclusione rappresentano le sfide principali per il futuro."
+}

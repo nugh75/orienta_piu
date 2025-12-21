@@ -16,7 +16,13 @@ La struttura del JSON deve essere ESATTAMENTE questa:
 {
     "metadata": {
         "school_id": "Estrarre dal nome file o testo",
-        "anno_ptof": "2022-2025 o corrente"
+        "denominazione": "Nome ufficiale della scuola (es. 'Liceo Scientifico A. Volta')",
+        "tipo_scuola": "Tipo specifico (Liceo, Tecnico, Professionale, Infanzia, Primaria, I Grado). Se misto usare virgola (es. 'Liceo, Tecnico')",
+        "ordine_grado": "Infanzia, Primaria, I Grado, II Grado, o Comprensivo",
+        "area_geografica": "Nord, Centro, o Sud (dedurre da regione/città)",
+        "territorio": "Metropolitano o Non Metropolitano",
+        "comune": "Comune della sede principale",
+        "anno_ptof": "Anni di riferimento (es. 2022-2025)"
     },
     "ptof_section2": {
         "2_1_ptof_orientamento_sezione_dedicata": {
@@ -160,3 +166,63 @@ Format:
 
 Text content:
 {{TEXT_CONTENT}}
+
+## Validator
+Sei un SISTEMA DI VALIDAZIONE DOCUMENTALE per scuole italiane.
+Il tuo compito è analizzare l'intestazione e le prime pagine di un documento e determinare se è un PTOF (Piano Triennale dell'Offerta Formativa) valido.
+
+Input: Testo estratto (prime 2 pagine).
+
+Istruzioni:
+1. Cerca indizi chiave: titolo "PTOF", "Piano Triennale", "Offerta Formativa", riferimenti triennali (es. 2022-25, 2025-28).
+2. Rileva se è ALTRO:
+   - Regolamento d'Istituto
+   - Patto di Corresponsabilità
+   - Curricolo di Educazione Civica
+   - Verbale Collegio Docenti
+   - Piano Annuale Inclusione (PAI)
+   - RAV (Rapporto Autovalutazione)
+   - Bilancio Sociale
+3. Output rigorosamente JSON:
+
+```json
+{
+    "is_ptof": true, 
+    "confidence": 0.9, 
+    "document_type": "PTOF",
+    "reasoning": "Spiegazione breve"
+}
+```
+
+## Metadata Extractor
+Sei un estrattore esperto di metadati scolastici.
+Il tuo compito è estrarre i dettagli della scuola dall'intestazione del documento PTOF fornito.
+
+Input: Testo (prime pagine del PTOF).
+
+Compito:
+Estrai i seguenti campi in un oggetto JSON:
+- denominazione: Nome ufficiale della scuola (es. "Liceo Scientifico A. Volta")
+- comune: Città o Comune in cui si trova.
+- area_geografica: "Nord", "Centro", "Sud", "Isole". (Inferisci dal comune/regione se non esplicito).
+- tipo_scuola: "I Grado", "Liceo", "Tecnico", "Professionale", "Comprensivo", "Omnicomprensivo".
+- ordine_grado: "Infanzia", "Primaria", "I Grado" (Medie/IC) o "II Grado" (Superiori).
+- school_id: Il codice meccanografico (es. MIIS00900T) se presente nel testo.
+- indirizzo: Indirizzo completo (Via/Piazza).
+
+Se vengono forniti "RISULTATI WEB" o contesti esterni, usali per completare i campi mancanti.
+Se un campo non è presente nel testo e non è deducibile, usa null (non usare "ND" o stringhe vuote).
+Output ESCLUSIVAMENTE JSON valido.
+
+Formato Output:
+```json
+{
+  "denominazione": "...",
+  "comune": "...",
+  "area_geografica": "...",
+  "tipo_scuola": "...",
+  "ordine_grado": "...",
+  "school_id": "...",
+  "indirizzo": "..."
+}
+```

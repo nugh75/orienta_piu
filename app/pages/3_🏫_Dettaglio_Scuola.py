@@ -37,8 +37,29 @@ if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
 
-# School selector
-school_options = df['denominazione'].dropna().unique().tolist()
+# School selector with search
+school_options_all = df['denominazione'].dropna().unique().tolist()
+
+# Search box
+search_query = st.text_input("🔍 Cerca (codice, nome, comune)", placeholder="es: MIIS08900V o Milano", key="search_detail")
+
+# Filter based on search
+if search_query:
+    search_upper = search_query.upper()
+    filtered_df = df[
+        df['school_id'].str.upper().str.contains(search_upper, na=False) |
+        df['denominazione'].str.upper().str.contains(search_upper, na=False) |
+        df['comune'].astype(str).str.upper().str.contains(search_upper, na=False)
+    ]
+    school_options = filtered_df['denominazione'].dropna().unique().tolist()
+    st.caption(f"Trovate: {len(school_options)} scuole")
+else:
+    school_options = school_options_all
+
+if not school_options:
+    st.warning("Nessuna scuola trovata con questo filtro")
+    st.stop()
+
 selected_school = st.selectbox("Seleziona Scuola", school_options)
 
 if selected_school:
@@ -70,9 +91,11 @@ if selected_school:
         
         fig = go.Figure()
         fig.add_trace(go.Scatterpolar(r=school_vals + [school_vals[0]], theta=labels + [labels[0]],
-                                       fill='toself', name=selected_school[:25]))
+                                       fill='toself', name=selected_school[:25], 
+                                       line_color='#1f77b4', marker=dict(color='#1f77b4')))
         fig.add_trace(go.Scatterpolar(r=avg_vals + [avg_vals[0]], theta=labels + [labels[0]],
-                                       fill='toself', name='Media Campione', opacity=0.5))
+                                       fill='toself', name='Media Campione', opacity=0.5, 
+                                       line_color='#ff7f0e', marker=dict(color='#ff7f0e')))
         fig.update_layout(polar=dict(radialaxis=dict(range=[0, 7])), showlegend=True)
         st.plotly_chart(fig, use_container_width=True)
     
@@ -145,6 +168,13 @@ if selected_school:
     else:
         st.info("Report JSON non ancora disponibile per questa scuola")
     
+    # MD Report Viewer
+    md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
+    if md_files:
+        with st.expander("📝 Visualizza Report Testuale Completo (.md)", expanded=False):
+            with open(md_files[0], 'r') as f:
+                st.markdown(f.read())
+    
     st.markdown("---")
     
     # Position in ranking
@@ -164,3 +194,74 @@ if selected_school:
             st.metric("Su totale", f"{total} scuole")
         with col3:
             st.metric("Percentile", f"{percentile:.0f}°")
+    
+    st.markdown("---")
+    
+    # PDF Viewer
+    st.subheader("📄 Documento PTOF Originale")
+    school_id = school_data.get('school_id', '')
+    
+    # Find PDF file
+    pdf_patterns = [
+        f'ptof/*{school_id}*.pdf',
+        f'ptof/{school_id}*.pdf',
+        f'ptof/*_{school_id}_*.pdf',
+    ]
+    
+    pdf_files = []
+    for pattern in pdf_patterns:
+        pdf_files.extend(glob.glob(pattern))
+    
+    # Also search with denominazione-based patterns
+    if not pdf_files:
+        # Try to find by partial match on school name
+        all_pdfs = glob.glob('ptof/*.pdf')
+        for pdf in all_pdfs:
+            pdf_name = os.path.basename(pdf).upper()
+            if school_id.upper() in pdf_name:
+                pdf_files.append(pdf)
+                break
+    
+    if pdf_files:
+        pdf_path = pdf_files[0]
+        st.success(f"📎 PDF trovato: `{os.path.basename(pdf_path)}`")
+        
+        try:
+            import base64
+            
+            with open(pdf_path, "rb") as f:
+                pdf_bytes = f.read()
+            
+            base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+            
+            # Embed PDF using iframe
+            pdf_display = f'''
+                <iframe src="data:application/pdf;base64,{base64_pdf}" 
+                        width="100%" height="800" type="application/pdf">
+                </iframe>
+            '''
+            st.markdown(pdf_display, unsafe_allow_html=True)
+            
+            # Also provide download button
+            st.download_button(
+                label="📥 Scarica PDF",
+                data=pdf_bytes,
+                file_name=os.path.basename(pdf_path),
+                mime="application/pdf"
+            )
+            
+        except Exception as e:
+            st.warning(f"Impossibile visualizzare il PDF inline: {e}")
+            st.info("Usa il pulsante download per scaricare il file.")
+            
+            with open(pdf_path, "rb") as f:
+                st.download_button(
+                    label="📥 Scarica PDF",
+                    data=f.read(),
+                    file_name=os.path.basename(pdf_path),
+                    mime="application/pdf"
+                )
+    else:
+        st.info(f"📂 PDF non trovato per {school_id}. Verifica che il file sia nella cartella `ptof/`.")
+        st.caption("Pattern cercati: ptof/*<codice_scuola>*.pdf")
+

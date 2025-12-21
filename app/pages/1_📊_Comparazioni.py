@@ -36,27 +36,96 @@ if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
 
+# Convert to numeric
+numeric_cols = [
+    'ptof_orientamento_maturity_index', 
+    'mean_finalita', 'mean_obiettivi', 
+    'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita'
+]
+for col in numeric_cols:
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
 st.markdown("---")
 
 # 1. Heatmap Area x Tipo
 st.subheader("🔥 Matrice Performance: Area x Tipo Scuola")
+st.caption("Confronto del punteggio medio per area geografica e tipo di scuola.")
+
 if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
-    pivot = df.pivot_table(
+    try:
+        from app.data_utils import explode_school_types
+        df_pivot = explode_school_types(df)
+    except ImportError:
+        df_pivot = df
+        
+    # Pivot calculation
+    pivot = df_pivot.pivot_table(
         index='tipo_scuola', 
         columns='area_geografica', 
         values='ptof_orientamento_maturity_index', 
         aggfunc='mean'
     )
+    
     if not pivot.empty:
         fig = px.imshow(
             pivot, text_auto='.2f', color_continuous_scale='RdBu',
             zmin=1, zmax=7, title="Indice Medio per Tipo e Area"
         )
         st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("Dati insufficienti per la Heatmap")
+else:
+    st.warning("Colonne 'tipo_scuola' o 'area_geografica' mancanti.")
 
 st.markdown("---")
 
-# 2. Box plots Territorio e Grado
+# 2. Radar Chart (NEW)
+st.subheader("🕸️ Radar Chart: Profili a Confronto")
+st.caption("Confronto delle 5 dimensioni di maturità tra diversi gruppi.")
+
+radar_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
+if all(c in df.columns for c in radar_cols):
+    radar_group = st.selectbox("Raggruppa per:", ["tipo_scuola", "area_geografica", "ordine_grado"], index=0) # Index 0 is tipo_scuola
+    
+    if radar_group in df.columns:
+        # Calculate means
+        radar_df = df.groupby(radar_group)[radar_cols].mean().reset_index()
+        
+        fig = go.Figure()
+        
+        # Add trace for each group
+        for i, row in radar_df.iterrows():
+            group_name = str(row[radar_group])
+            values = row[radar_cols].values.tolist()
+            # Close the loop
+            values += values[:1]
+            
+            fig.add_trace(go.Scatterpolar(
+                r=values,
+                theta=[get_label(c) for c in radar_cols] + [get_label(radar_cols[0])],
+                fill='toself',
+                name=group_name
+            ))
+            
+        fig.update_layout(
+            polar=dict(
+                radialaxis=dict(
+                    visible=True,
+                    range=[0, 7]
+                )
+            ),
+            showlegend=True,
+            title=f"Confronto Profili per {radar_group.replace('_', ' ').title()}",
+            height=600
+        )
+        st.plotly_chart(fig, use_container_width=True)
+else:
+    st.info("Dati insufficienti per il Radar Chart")
+
+st.markdown("---")
+
+# 3. Box plots Territorio e Grado
 st.subheader("🏙️ Confronti: Territorio e Grado Scolastico")
 col1, col2 = st.columns(2)
 
@@ -76,8 +145,9 @@ with col2:
 
 st.markdown("---")
 
-# 3. Grouped Bar I Grado vs II Grado
+# 4. Grouped Bar I Grado vs II Grado
 st.subheader("📊 Confronto I Grado vs II Grado")
+
 if 'ordine_grado' in df.columns:
     dim_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
     if all(c in df.columns for c in dim_cols):
@@ -92,8 +162,8 @@ if 'ordine_grado' in df.columns:
 
 st.markdown("---")
 
-# 4. Gap Analysis
-st.subheader("🎯 Gap Analysis: Distanza dal Punteggio Ottimale (7)")
+# 5. Gap Analysis
+st.subheader("🎯 Gap Analysis: Distanza dal Ottimo (7)")
 gap_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
 if all(c in df.columns for c in gap_cols):
     gap_means = df[gap_cols].mean()
@@ -115,7 +185,7 @@ if all(c in df.columns for c in gap_cols):
 
 st.markdown("---")
 
-# 5. Regional comparison
+# 6. Regional comparison
 st.subheader("🗺️ Confronto Regionale")
 def get_region(code):
     if pd.isna(code) or len(str(code)) < 2:

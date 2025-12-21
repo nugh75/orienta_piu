@@ -35,6 +35,16 @@ st.markdown("---")
 # 2. Agent Architecture
 st.header("2️⃣ Architettura Multi-Agente")
 
+st.markdown("""
+### Pipeline Completo
+
+```
+PDF → Markdown → Analyst → Reviewer → Refiner (GPT-OSS) → JSON + Report
+                                                              ↓
+                                           refine_metadata.py → align_metadata.py → CSV → Dashboard
+```
+""")
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -64,13 +74,49 @@ with col2:
 with col3:
     st.markdown("""
     ### ✨ Refiner Agent
-    **Modello:** gemma3:27b
+    **Modello:** gpt-oss:20b
     
     **Ruolo:**
     - Incorpora feedback del Reviewer
     - Corregge punteggi errati
     - Raffina testo del report
-    - Produce output finale
+    - Produce JSON + MD finale
+    """)
+
+st.markdown("---")
+
+# 2b. Metadata Pipeline
+st.header("2️⃣b Pipeline Raffinamento Metadati")
+
+st.markdown("""
+Dopo l'analisi LLM, viene eseguito un processo automatico di raffinamento dei metadati:
+""")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("""
+    ### 📄 refine_metadata.py
+    **Scopo:** Estrarre metadati mancanti dal testo
+    
+    **Operazioni:**
+    - Analizza il Markdown del PTOF
+    - Estrae Denominazione e Comune tramite Regex
+    - Deduce Ordine/Grado dal contenuto
+    - Riempie i campi "ND" nel JSON
+    """)
+
+with col2:
+    st.markdown("""
+    ### 🔗 align_metadata.py
+    **Scopo:** Allineamento e generazione Dataset
+    
+    **Operazioni:**
+    - Standardizza i codici scuola
+    - Arricchisce JSON con anagrafica MIUR (CSV)
+    - Calcola medie e Indice di Robustezza
+    - Genera il file `analysis_summary.csv` per la Dashboard
+    - **Nota:** Disabilitata integrazione INVALSI per privacy
     """)
 
 st.markdown("---")

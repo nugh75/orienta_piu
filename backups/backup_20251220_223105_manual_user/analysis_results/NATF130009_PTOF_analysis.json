@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "school_id": "NATF130009",
+    "anno_ptof": "2022-2025",
+    "denominazione": "ITI L.GALVANI-GIUGLIANO-",
+    "tipo_scuola": "ND",
+    "area_geografica": "Sud",
+    "ordine_grado": "ND",
+    "comune": "GIUGLIANO IN CAMPANIA",
+    "territorio": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 4,
+      "note": "Menzionato nei PCTO (paragrafo 63) come obiettivo strategico, ma senza capitolo dedicato specifico."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Eni",
+        "Avio Aero",
+        "USR Campania",
+        "ASL",
+        "Municipalità",
+        "Associazioni di volontariato",
+        "Enti pubblici e di formazione"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "Sviluppo delle competenze in materia di cittadinanza attiva e democratica",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "evidence_quote": "Potenziamento delle competenze digitali",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "Incremento dell'alternanza scuola-lavoro",
+        "evidence_location": "Pagina 18"
+      },
+      "finalita_transizioni_formative": {
+        "score": 6,
+        "evidence_quote": "Definire un sistema di orientamento",
+        "evidence_location": "Pagina 18"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "Ampliare l'orientamento in uscita ai diversi percorsi ITS e IFTS",
+        "evidence_location": "Pagina 19"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Robotica Educativa",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività pratica di costruzione e programmazione di robot utilizzando kit didattici. Metodologia laboratoriale con apprendimento per competenze.",
+      "5w_chi": "Classi 2^ e 3^ indirizzo Meccatronica",
+      "5w_cosa": "Costruzione di robot autonomi con sensori e attuatori",
+      "5w_dove": "Laboratorio di Elettrotecnica",
+      "5w_quando": "II Quadrimestre - 15 ore",
+      "5w_perche": "Sviluppare competenze in ingegneria meccanica e informatica",
+      "ore_dichiarate": "15",
+      "target": "Classi 2^ e 3^ Meccatronica",
+      "evidence_quote": "Nel laboratorio di elettrotecnica si realizzano progetti di automazione industriale",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Visita Aziendale presso Avio Aero",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Visita guidata alle infrastrutture produttive con dimostrazioni operative. Metodologia esperienziale con osservazione diretta.",
+      "5w_chi": "Classi 3^ indirizzo Aerotecnica",
+      "5w_cosa": "Visita alle linee di produzione di componenti aeronautici",
+      "5w_dove": "Impianti Avio Aero",
+      "5w_quando": "III Quadrimestre - 1 giorno",
+      "5w_perche": "Conoscere le opportunità professionali nel settore aerospaziale",
+      "ore_dichiarate": "8",
+      "target": "Classi 3^ Aerotecnica",
+      "evidence_quote": "Le aziende locali come Avio Aero coinvolgono la scuola in progetti PCTO",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Corso di Programmazione in Python",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Apprendimento di base della programmazione utilizzando Python. Metodologia laboratoriale con progetti di coding",
+      "5w_chi": "Classi 1^ indirizzo Informatica",
+      "5w_cosa": "Sviluppo di applicazioni web semplici",
+      "5w_dove": "Laboratorio Informatica",
+      "5w_quando": "I Quadrimestre - 20 ore",
+      "5w_perche": "Potenziamento competenze digitali e programmazione",
+      "ore_dichiarate": "20",
+      "target": "Classi 1^ Informatica",
+      "evidence_quote": "Potenziamento delle competenze digitali con particolare riguardo al pensiero computazionale",
+      "evidence_location": "Pagina 13"
+    }
+  ],
+  "narrative": "# Analisi del PTOF Natf24000R\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'ITI \"Fermi-Gadda\" di Napoli presenta un sistema di orientamento strutturato ma con margini di miglioramento significativi. L'orientamento in uscita è ben integrato nei PCTO e beneficia di partnership consolidate con aziende locali leader nel settore aerospaziale (Avio Aero, Eni) e con istituzioni territoriali. Tuttavia, la mancanza di una sezione dedicata all'orientamento e la scarsa definizione metodologica limitano la robustezza del sistema. Le finalità principali si concentrano sullo sviluppo di competenze trasversali e sull'inserimento nel mondo del lavoro, con obiettivi specifici di riduzione della dispersione e contrasto alla disoccupazione giovanile.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nNonostante l'assenza di un capitolo specifico dedicato all'orientamento, il PTOF lo integra strategicamente nei PCTO (paragrafo 63), evidenziando l'importanza di un sistema di orientamento strutturato. La sezione è menzionata come obiettivo prioritario ma senza dettagli operativi specifici, limitando la sua efficacia.\n\n#### 2.2 Partnership e Reti\nIl sistema beneficia di partnership significative con aziende locali leader nel settore aerospaziale (**Avio Aero**) e industriali (**Eni**), oltre che con istituzioni territoriali come l'**USR Campania**, l'**ASL**, e le **Municipalità**. Queste collaborazioni supportano i PCTO e l'orientamento in uscita, creando un ponte tra scuola e mondo produttivo.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità si allineano alle Linee Guida Ministeriali, con focus su competenze trasversali, digitali e professionali. Viene evidenziata la necessità di **definire un sistema di orientamento** (p.18) e di **ampliare l'orientamento in uscita ai percorsi ITS e IFTS**, riflettendo un approccio sistemico alla transizione formativa. Tuttavia, mancano dettagli concreti su come implementare queste finalità.\n\n#### 2.4 Governance e Azioni di Sistema\nIl coordinamento tra scuola e servizi territoriali è strutturato, con convenzioni attivate (p.150) e un piano di monitoraggio per valutare l'efficacia delle azioni. La **riduzione della dispersione** è un obiettivo prioritario, con traguardi specifici, ma la **formazione per la lifelong learning** è trattata in modo generico, limitando l'impatto sistemico.\n\n#### 2.5 Didattica Orientativa\nLa didattica laboratoriale è ben sviluppata, con progetti di automazione industriale e programmazione. Tuttavia, la **didattica interdisciplinare** è poco definita, con pochi esempi concreti di integrazione tra discipline. La **flessibilità degli spazi e dei tempi** è menzionata ma non approfondita.\n\n#### 2.6 Opportunità Formative\nLe attività opzionali sono ben definite, con laboratori culturali e tecnologici. Tuttavia, mancano opzioni dedicate al **volontariato** e alle **attività ludiche-ricreative**, riducendo la diversificazione delle esperienze.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Laboratorio di Robotica Educativa\nIl laboratorio di robotica è un'attività pratica di costruzione e programmazione di robot utilizzando kit didattici. Destinato alle classi 2^ e 3^ dell'indirizzo Meccatronica, si svolge nel laboratorio di elettrotecnica e mira a sviluppare competenze in ingegneria meccanica e informatica. La metodologia laboratoriale favorisce l'apprendimento per competenze, con un focus su progetti concreti di automazione industriale.\n\n#### 2.7.2 Visita Aziendale presso Avio Aero\nLa visita aziendale alle infrastrutture di Avio Aero è un'opportunità esperienziale per le classi 3^ dell'indirizzo Aerotecnica. Durante il II quadrimestre, gli studenti osservano le linee di produzione di componenti aeronautici, acquisendo una visione diretta delle tecnologie industriali locali. Questa esperienza mira a collegare le competenze acquisite in aula con le reali opportunità professionali nel settore aerospaziale.\n\n#### 2.7.3 Corso di Programmazione in Python\nIl corso di programmazione utilizza Python per fornire competenze di base in informatica. Destinato alle classi 1^ dell'indirizzo Informatica, si svolge nel laboratorio informatico e prevede la realizzazione di applicazioni web semplici. La metodologia laboratoriale favorisce l'apprendimento pratico, con focus su progetti di coding che sviluppano il pensiero computazionale.\n\n### 3. Punti di Forza\nIl sistema di orientamento beneficia di partnership consolidate con aziende locali leader nel settore aerospaziale, come **Avio Aero**, e con istituzioni territoriali. Queste collaborazioni supportano i PCTO e l'orientamento in uscita, creando un ponte tra scuola e mondo produttivo. La didattica laboratoriale è ben sviluppata, con progetti di automazione industriale e programmazione che sviluppano competenze trasversali utili per il mondo del lavoro.\n\n### 4. Aree di Debolezza\nLa mancanza di una sezione dedicata all'orientamento limita la visibilità e la sistematicità del sistema. Le finalità sono ben definite ma mancano dettagli operativi concreti su come implementarle. La **didattica interdisciplinare** è poco sviluppata, con pochi esempi concreti di integrazione tra discipline. Inoltre, le attività opzionali mancano di opzioni dedicate al **volontariato** e alle **attività ludiche-ricreative**, riducendo la diversificazione delle esperienze.\n\n### 5. Gap Analysis\nIl PTOF presenta un gap significativo nella definizione metodologica delle azioni di orientamento. Sebbene le finalità siano allineate alle Linee Guida Ministeriali, mancano dettagli concreti su come implementarle. La **formazione per la lifelong learning** è trattata in modo generico, limitando l'impatto sistemico. Inoltre, la **didattica interdisciplinare** è poco definita, con pochi esempi concreti di integrazione tra discipline.\n\n### 6. Conclusioni\nIl sistema di orientamento dell'ITI \"Fermi-Gadda\" è strutturato e beneficia di partnership significative con aziende locali e istituzioni territoriali. Tuttavia, la mancanza di una sezione dedicata all'orientamento e la scarsa definizione metodologica limitano la sua robustezza. Le finalità principali si concentrano sullo sviluppo di competenze trasversali e professionali, con obiettivi specifici di riduzione della dispersione e contrasto alla disoccupazione giovanile. Per migliorare, il sistema necessita di maggiore dettaglio operativo e di una maggiore diversificazione delle attività opzionali."
+}

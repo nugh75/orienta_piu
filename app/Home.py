@@ -53,6 +53,23 @@ def load_data():
 
 df = load_data()
 
+# Global Filters
+try:
+    from app.data_utils import apply_sidebar_filters
+    df = apply_sidebar_filters(df)
+except ImportError:
+    pass
+
+# Standardize numeric columns (handle 'ND')
+numeric_cols = [
+    'ptof_orientamento_maturity_index', 
+    'mean_finalita', 'mean_obiettivi', 
+    'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
+    'partnership_count', 'has_sezione_dedicata'
+]
+for col in numeric_cols:
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
 # Title
 st.title("📊 Dashboard Analisi Orientamento PTOF")
 st.markdown("Sistema di analisi automatizzata dei Piani Triennali dell'Offerta Formativa")
@@ -60,53 +77,31 @@ st.markdown("Sistema di analisi automatizzata dei Piani Triennali dell'Offerta F
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
     st.stop()
-
-# Sidebar Filters
-st.sidebar.header("🔍 Filtri")
-st.sidebar.info(f"📚 Scuole Caricate: **{len(df)}**")
-
-# Area filter
-if 'area_geografica' in df.columns:
-    areas = sorted([x for x in df['area_geografica'].dropna().unique() if str(x) != 'nan'])
-    selected_areas = st.sidebar.multiselect("Area Geografica", areas, default=areas)
-    if selected_areas:
-        df = df[df['area_geografica'].isin(selected_areas)]
-
-# Tipo scuola filter
-if 'tipo_scuola' in df.columns:
-    tipi = sorted([x for x in df['tipo_scuola'].dropna().unique() if str(x) != 'nan'])
-    selected_tipi = st.sidebar.multiselect("Tipo Scuola", tipi, default=tipi)
-    if selected_tipi:
-        df = df[df['tipo_scuola'].isin(selected_tipi)]
-
-# Territorio filter
-if 'territorio' in df.columns:
-    territori = sorted([x for x in df['territorio'].dropna().unique() if str(x) != 'nan'])
-    selected_territori = st.sidebar.multiselect("Territorio", territori, default=territori)
-    if selected_territori:
-        df = df[df['territorio'].isin(selected_territori)]
-
-# Ordine grado filter
-if 'ordine_grado' in df.columns:
-    gradi = sorted([x for x in df['ordine_grado'].dropna().unique() if str(x) != 'nan'])
-    if len(gradi) > 1:
-        selected_gradi = st.sidebar.multiselect("Grado Scolastico", gradi, default=gradi)
-        if selected_gradi:
-            df = df[df['ordine_grado'].isin(selected_gradi)]
-
-# Score range slider
+    
+# Sidebar Filters (Local)
 if 'ptof_orientamento_maturity_index' in df.columns:
-    min_score = float(df['ptof_orientamento_maturity_index'].min()) if len(df) > 0 else 1.0
-    max_score = float(df['ptof_orientamento_maturity_index'].max()) if len(df) > 0 else 7.0
+    # Coerce to numeric, turning 'ND' to NaN
+    maturity_series = pd.to_numeric(df['ptof_orientamento_maturity_index'], errors='coerce')
+    
+    min_val = float(maturity_series.min()) if not maturity_series.dropna().empty else 1.0
+    max_val = float(maturity_series.max()) if not maturity_series.dropna().empty else 7.0
+    
+    # Ensure min < max
+    if min_val == max_val:
+        min_val = 1.0
+        max_val = 7.0
+        
     score_range = st.sidebar.slider(
         "Range Indice Robustezza",
         min_value=1.0, max_value=7.0,
-        value=(min_score, max_score),
+        value=(min_val, max_val),
         step=0.1
     )
+    
+    # Filter using the coerced series to avoid string comparison issues
     df = df[
-        (df['ptof_orientamento_maturity_index'] >= score_range[0]) & 
-        (df['ptof_orientamento_maturity_index'] <= score_range[1])
+        (maturity_series >= score_range[0]) & 
+        (maturity_series <= score_range[1])
     ]
 
 st.sidebar.markdown(f"**{len(df)} scuole filtrate**")
@@ -317,13 +312,14 @@ for i, (cat, cols) in enumerate(CATEGORY_COLS.items()):
 
 st.markdown("---")
 
-# Quick Stats Table
-st.subheader("📋 Riepilogo Rapido")
+# Quick Stats Table - All schools with ranking
+st.subheader("📋 Classifica Completa")
 if len(df) > 0:
     stats_df = df[['school_id', 'denominazione', 'tipo_scuola', 'area_geografica', 'ptof_orientamento_maturity_index']].copy()
-    stats_df.columns = ['Codice', 'Scuola', 'Tipo', 'Area', 'Indice']
-    stats_df = stats_df.sort_values('Indice', ascending=False).head(10)
-    st.dataframe(stats_df, use_container_width=True, hide_index=True)
+    stats_df = stats_df.sort_values('ptof_orientamento_maturity_index', ascending=False).reset_index(drop=True)
+    stats_df.insert(0, 'Pos.', range(1, len(stats_df) + 1))
+    stats_df.columns = ['#', 'Codice', 'Scuola', 'Tipo', 'Area', 'Indice']
+    st.dataframe(stats_df, use_container_width=True, hide_index=True, height=500)
 
 # Footer
 st.markdown("---")

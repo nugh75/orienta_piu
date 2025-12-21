@@ -1280,11 +1280,27 @@ try:
     
     if all_partners:
         partner_text = ' '.join(all_partners)
+        
+        # Stopwords italiane
+        stopwords_it = {
+            'il', 'lo', 'la', 'i', 'gli', 'le', 
+            'un', 'uno', 'una', 
+            'di', 'a', 'da', 'in', 'con', 'su', 'per', 'tra', 'fra', 
+            'e', 'o', 'ma', 'se', 'perché', 'non', 'che', 'chi', 'cui',
+            'del', 'dello', 'della', 'dei', 'degli', 'delle',
+            'al', 'allo', 'alla', 'ai', 'agli', 'alle',
+            'dal', 'dallo', 'dalla', 'dai', 'dagli', 'dalle',
+            'nel', 'nello', 'nella', 'nei', 'negli', 'nelle',
+            'col', 'coi', 'sul', 'sullo', 'sulla', 'sui', 'sugli', 'sulle',
+            'ed', 'od', 'ad'
+        }
+
         wordcloud = WordCloud(
             width=800, height=400,
             background_color='white',
             colormap='viridis',
-            max_words=50
+            max_words=50,
+            stopwords=stopwords_it
         ).generate(partner_text)
         
         fig_wc, ax = plt.subplots(figsize=(10, 5))

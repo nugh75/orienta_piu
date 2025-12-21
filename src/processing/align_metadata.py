@@ -181,75 +181,48 @@ for json_path in json_files:
         
         if 'metadata' not in data:
             data['metadata'] = {}
-        
+            
         enrich = enrichment_cache.get(school_code, {})
-        invalsi = invalsi_cache.get(school_code, {})
+        # Invalsi source REMOVED as per request
         
-        # Update metadata
+        # --- SAFE UPDATE MECHANISM ---
+        # Only update if current value is Missing or ND
+        def safe_update(key, new_val):
+            curr = str(data['metadata'].get(key, '')).strip()
+            is_curr_valid = curr and curr.lower() not in ['nd', 'nan', 'none', '']
+            
+            # New value must be valid to overwrite even ND
+            if new_val:
+                new_str = str(new_val).strip()
+                is_new_valid = new_str and new_str.lower() not in ['nd', 'nan', 'none', '']
+                
+                if not is_curr_valid and is_new_valid:
+                    data['metadata'][key] = new_str
+        
+        # Always ensure ID is correct
         data['metadata']['school_id'] = school_code
-        data['metadata']['denominazione'] = enrich.get('denominazione') or invalsi.get('denominazionescuola') or data['metadata'].get('denominazione', 'ND')
-        data['metadata']['comune'] = enrich.get('comune') or invalsi.get('nome_comune') or data['metadata'].get('comune', 'ND')
+
+        # Apply safe updates from Encryption ONLY (Manual/Legacy)
+        safe_update('denominazione', enrich.get('denominazione'))
+        safe_update('comune', enrich.get('comune'))
         
-        # area_geografica: INVALSI > enrichment > infer from code (keep for area only)
-        data['metadata']['area_geografica'] = invalsi.get('area_geografica') or enrich.get('area_geografica') or infer_area_from_code(school_code) or 'ND'
+        # area_geografica
+        possible_area = enrich.get('area_geografica') or infer_area_from_code(school_code)
+        safe_update('area_geografica', possible_area)
         
-        # ordine_grado: enrichment > INVALSI
-        ordine = enrich.get('ordine_grado') or invalsi.get('grado') or 'ND'
-        data['metadata']['ordine_grado'] = ordine
+        # ordine_grado
+        possible_ordine = enrich.get('ordine_grado')
+        safe_update('ordine_grado', possible_ordine)
         
-        # territorio from INVALSI
-        data['metadata']['territorio'] = invalsi.get('territorio_std') or 'ND'
+        # Territorio (Invalsi removed, so rely on extraction/enrich)
+        # No source for territorio currently other than what's in JSON
         
-        # tipo_scuola: INVALSI tipo_scuola_std > percorso2 > plesso (for IC)
-        invalsi_tipo = invalsi.get('tipo_scuola_std')
-        percorso = str(invalsi.get('percorso2', '') or '').strip()
-        plesso = str(invalsi.get('plesso', '') or '').strip()
-        
-        # Check for IC indicator in percorso2 or plesso fields
-        is_ic = percorso.upper() == 'IC' or plesso.upper() == 'IC'
-        
-        if invalsi_tipo and invalsi_tipo != 'ND':
-            data['metadata']['tipo_scuola'] = invalsi_tipo
-        elif is_ic:
-            data['metadata']['tipo_scuola'] = 'I Grado'
-        elif percorso:
-            # Map percorso2 to tipo_scuola
-            percorso_map = {
-                'licei_trad': 'Liceo',
-                'licei_altri': 'Liceo',
-                'IT': 'Tecnico',
-                'IP': 'Professionale',
-            }
-            data['metadata']['tipo_scuola'] = percorso_map.get(percorso, 'ND')
-        else:
-            data['metadata']['tipo_scuola'] = 'ND'
-        
-        # If ordine_grado is I Grado, tipo_scuola must also be I Grado
-        if ordine == 'I Grado':
-            data['metadata']['tipo_scuola'] = 'I Grado'
-        
-        # If tipo_scuola is I Grado, ordine_grado must also be I Grado
-        if data['metadata']['tipo_scuola'] == 'I Grado':
-            data['metadata']['ordine_grado'] = 'I Grado'
-        
-        # Derive ordine_grado from tipo_scuola if still ND (for II Grado)
-        if data['metadata']['ordine_grado'] == 'ND':
-            tipo = data['metadata']['tipo_scuola']
-            if tipo in ['Liceo', 'Tecnico', 'Professionale']:
-                data['metadata']['ordine_grado'] = 'II Grado'
-        
-        # Derive tipo_scuola from ordine_grado if tipo_scuola is still ND
-        if data['metadata']['tipo_scuola'] == 'ND':
-            ordine = data['metadata']['ordine_grado']
-            if ordine == 'I Grado':
-                data['metadata']['tipo_scuola'] = 'I Grado'
-            elif ordine == 'II Grado':
-                data['metadata']['tipo_scuola'] = 'II Grado'
+        # tipo_scuola 
+        # Logic simplified: Rely on Enrich or Preserve. extraction will fill this later.
         
         with open(json_path, 'w') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         
-        print(f"  ✓ {school_code}")
         json_success += 1
     except Exception as e:
         print(f"  ✗ {school_code}: {e}")
@@ -310,25 +283,28 @@ for json_path in json_files:
         ordine = enrich.get('ordine_grado') or meta.get('ordine_grado', 'ND')
         row['ordine_grado'] = ordine
         
-        # tipo_scuola from meta, but if ordine_grado is I Grado, tipo_scuola must be I Grado
+        # tipo_scuola from meta
         row['tipo_scuola'] = meta.get('tipo_scuola', 'ND')
-        if ordine == 'I Grado':
-            row['tipo_scuola'] = 'I Grado'
         
-        # If tipo_scuola is I Grado, ordine_grado must also be I Grado
-        if row['tipo_scuola'] == 'I Grado':
-            row['ordine_grado'] = 'I Grado'
-        
-        # Derive ordine_grado from tipo_scuola if ND
-        if row['ordine_grado'] == 'ND' and row['tipo_scuola'] in ['Liceo', 'Tecnico', 'Professionale']:
-            row['ordine_grado'] = 'II Grado'
-        
-        # Derive tipo_scuola from ordine_grado if tipo_scuola is still ND
+        # Logic to infer ND values, but respect existing ones
         if row['tipo_scuola'] == 'ND':
-            if row['ordine_grado'] == 'I Grado':
+            if ordine == 'I Grado':
                 row['tipo_scuola'] = 'I Grado'
-            elif row['ordine_grado'] == 'II Grado':
-                row['tipo_scuola'] = 'II Grado'
+            elif ordine == 'Comprensivo':
+                row['tipo_scuola'] = 'Infanzia, Primaria, I Grado'
+            elif ordine == 'II Grado':
+                # Attempt to guess if still ND? Usually handled by manual input
+                pass
+        
+        # Logic to infer ordine_grado if ND
+        if row['ordine_grado'] == 'ND':
+            if 'Liceo' in row['tipo_scuola'] or 'Tecnico' in row['tipo_scuola']:
+                row['ordine_grado'] = 'II Grado'
+            elif 'I Grado' in row['tipo_scuola'] and not 'Liceo' in row['tipo_scuola']:
+                 # If only I Grado or mixed lower
+                 row['ordine_grado'] = 'I Grado'
+                 if 'Primaria' in row['tipo_scuola']:
+                     row['ordine_grado'] = 'Comprensivo'
         
         row['extraction_status'] = 'ok'
         row['analysis_file'] = json_path

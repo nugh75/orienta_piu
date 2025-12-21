@@ -10,7 +10,7 @@ st.set_page_config(page_title="Dati Grezzi", page_icon="📋", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 
-@st.cache_data(ttl=60)
+# Removed cache to ensure fresh data
 def load_data():
     if os.path.exists(SUMMARY_FILE):
         return pd.read_csv(SUMMARY_FILE)
@@ -78,11 +78,16 @@ st.markdown("---")
 
 # 4. School Detail Explorer
 st.subheader("🏫 Esplora Singola Scuola")
-school_options = df['denominazione'].dropna().unique().tolist()
-selected_school = st.selectbox("Seleziona scuola", school_options)
 
-if selected_school:
-    school_row = df[df['denominazione'] == selected_school].iloc[0]
+# Disambiguate duplicate names by adding ID
+df['display_label'] = df['denominazione'].astype(str) + " [" + df['school_id'].astype(str) + "]"
+school_options = sorted(df['display_label'].unique().tolist())
+
+selected_label = st.selectbox("Seleziona scuola", school_options)
+
+if selected_label:
+    # Filter by unique label
+    school_row = df[df['display_label'] == selected_label].iloc[0]
     
     # Show all data as columns
     col1, col2 = st.columns(2)
@@ -91,8 +96,13 @@ if selected_school:
         st.markdown("**Metadati:**")
         for col in ['school_id', 'denominazione', 'tipo_scuola', 'area_geografica', 'ordine_grado', 'territorio', 'comune']:
             if col in df.columns:
-                val = school_row.get(col, 'N/D')
+                val = school_row[col]
+                # Handle various empty states
+                if pd.isna(val) or str(val).strip() == '' or str(val).lower() == 'nan':
+                    val = "ND (Dato mancante)"
                 st.write(f"- **{col}:** {val}")
+            else:
+                st.write(f"- **{col}:** ⚠️ Colonna assente nel CSV")
     
     with col2:
         st.markdown("**Indici:**")

@@ -181,43 +181,152 @@ def run_pipeline():
     reviewer = ReviewerAgent()
     refiner = RefinerAgent()
     
-    def sanitize_json(text):
-        """Extract valid JSON object from LLM response."""
-        text = text.strip()
+def sanitize_json(text):
+    """Extract valid JSON object from LLM response."""
+    text = text.strip()
+    
+    # Remove markdown code fences
+    if text.startswith("```json"):
+        text = text[7:]
+    elif text.startswith("```"):
+        text = text[3:]
+    if text.endswith("```"):
+        text = text[:-3]
+    text = text.strip()
+    
+    # Find the JSON object boundaries
+    start = text.find('{')
+    if start == -1:
+        return text
+    
+    # Find matching closing brace
+    depth = 0
+    end = start
+    for i, char in enumerate(text[start:], start):
+        if char == '{':
+            depth += 1
+        elif char == '}':
+            depth -= 1
+            if depth == 0:
+                end = i
+                break
+    
+    return text[start:end+1]
+
+def process_single_ptof(md_file, analyst, reviewer, refiner, results_dir=RESULTS_DIR, status_callback=None):
+    """
+    Process a single PTOF file through the Agentic Pipeline.
+    status_callback: function(msg) to report progress
+    """
+    school_Code = os.path.basename(md_file).replace('.md', '')
+    final_md_path = os.path.join(results_dir, f"{school_Code}_analysis.md")
+    final_json_path = os.path.join(results_dir, f"{school_Code}_analysis.json")
+    
+    if status_callback: status_callback(f"Processing {school_Code}...")
+    
+    with open(md_file, 'r', encoding='utf-8') as f:
+        content = f.read()
         
-        # Remove markdown code fences
-        if text.startswith("```json"):
-            text = text[7:]
-        elif text.startswith("```"):
-            text = text[3:]
-        if text.endswith("```"):
-            text = text[:-3]
-        text = text.strip()
+    # 1. Draft
+    if status_callback: status_callback("Analyst: Drafting report...")
+    draft = analyst.draft_report(content)
+    if not draft: return None
+    
+    # Save Draft JSON
+    draft = sanitize_json(draft)
+    try:
+        with open(final_json_path, 'w') as f:
+            f.write(draft) 
+    except:
+        pass
+    
+    # Enrich JSON
+    # Try to extract metadata using Cloud (if available) or basic rules
+    try:
+        from src.processing.cloud_review import extract_metadata_from_header, load_api_config
         
-        # Find the JSON object boundaries
-        start = text.find('{')
-        if start == -1:
-            return text
+        # Load config to get keys for extraction
+        api_config = load_api_config()
+        # Prefer Gemini for extraction if available (fast/cheap)
+        prov = 'gemini' if api_config.get('gemini_api_key') else 'openrouter'
+        key = api_config.get(f'{prov}_api_key')
         
-        # Find matching closing brace
-        depth = 0
-        end = start
-        for i, char in enumerate(text[start:], start):
-            if char == '{':
-                depth += 1
-            elif char == '}':
-                depth -= 1
-                if depth == 0:
-                    end = i
-                    break
+        if key:
+            logging.info("Extracting metadata with Cloud LLM...")
+            meta = extract_metadata_from_header(content, prov, key, "gemini-2.0-flash-exp" if prov=='gemini' else "google/gemini-2.0-flash-exp:free")
+            if meta:
+                # Merge into JSON
+                try:
+                    with open(final_json_path, 'r') as f:
+                        curr_data = json.load(f)
+                    
+                    if 'metadata' not in curr_data: curr_data['metadata'] = {}
+                    curr_data['metadata'].update(meta)
+                    
+                    with open(final_json_path, 'w') as f:
+                        json.dump(curr_data, f, indent=2)
+                except Exception as ex:
+                    logging.error(f"Failed merging metadata: {ex}")
+    except Exception as e:
+        logging.error(f"Metadata extraction failed: {e}")
+
+    enrich_json_metadata(final_json_path, school_Code)
         
-        return text[start:end+1]
+    # Extract Narrative
+    try:
+        draft_json = json.loads(draft)
+        narrative = draft_json.get('narrative', '')
+    except:
+        narrative = draft
+
+    # 2. Critique
+    if status_callback: status_callback("Reviewer: Critiquing...")
+    critique = reviewer.critique_report(content, narrative)
+    logging.info(f"Reviewer says: {critique[:100]}...")
+    
+    # 3. Refine
+    final_output = narrative
+    if "APPROVATO" not in critique.upper() and len(critique) > 10:
+         if status_callback: status_callback("Refiner: Improving report...")
+         refined_json_str = refiner.refine_report(draft, critique)
+         refined_json_str = sanitize_json(refined_json_str)
+         
+         try:
+             refined_data = json.loads(refined_json_str)
+             with open(final_json_path, 'w') as f:
+                 f.write(refined_json_str)
+             
+             final_output = refined_data.get('narrative', '')
+         except Exception as e:
+             logging.error(f"Failed to parse Refiner JSON: {e}")
+    else:
+         logging.info("Report approved directly.")
+
+    # Save Final MD
+    with open(final_md_path, 'w') as f:
+        f.write(final_output)
+    
+    # Return parsed JSON result
+    try:
+        with open(final_json_path, 'r') as f:
+             return json.load(f)
+    except:
+        return {}
+
+def run_pipeline():
+    if not os.path.exists(RESULTS_DIR):
+        os.makedirs(RESULTS_DIR)
+        
+    md_files = glob(os.path.join(MD_DIR, "*.md"))
+    logging.info(f"Found {len(md_files)} markdown files to process.")
+    
+    analyst = AnalystAgent()
+    reviewer = ReviewerAgent()
+    refiner = RefinerAgent()
     
     for md_file in md_files:
         school_Code = os.path.basename(md_file).replace('.md', '')
-        
         final_md_path = os.path.join(RESULTS_DIR, f"{school_Code}_analysis.md")
-        final_json_path = os.path.join(RESULTS_DIR, f"{school_Code}_analysis.json")
         
         if os.path.exists(final_md_path):
             logging.info(f"Skipping {school_Code} (Already completed)")
@@ -225,69 +334,13 @@ def run_pipeline():
             
         logging.info(f"___ Processing {school_Code} ___")
         
-        with open(md_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-            
-        # 1. Draft
-        draft = analyst.draft_report(content)
-        if not draft: continue
+        process_single_ptof(md_file, analyst, reviewer, refiner)
         
-        # Save Draft JSON
-        # Note: We save it even if imperfect to have the data.
-        draft = sanitize_json(draft)
-        with open(final_json_path, 'w') as f:
-            f.write(draft) 
-        
-        # Enrich JSON with metadata from CSV sources
-        enrich_json_metadata(final_json_path, school_Code)
-            
-        # Extract Narrative for review
-        try:
-            draft_json = json.loads(draft)
-            narrative = draft_json.get('narrative', '')
-        except:
-            narrative = draft # Fallback
-            
-        # 2. Critique
-        critique = reviewer.critique_report(content, narrative)
-        logging.info(f"Reviewer says: {critique[:100]}...")
-        
-        # 3. Refine (Conditional)
-        # 3. Refine (Conditional)
-        if "APPROVATO" not in critique.upper() and len(critique) > 10:
-             # Refiner returns a JSON string (as per prompt)
-             refined_json_str = refiner.refine_report(draft, critique) # Pass full draft, not just narrative
-             refined_json_str = sanitize_json(refined_json_str)
-             
-             try:
-                 refined_data = json.loads(refined_json_str)
-                 # Update JSON file with refined data
-                 with open(final_json_path, 'w') as f:
-                     f.write(refined_json_str)
-                 
-                 # Extract narrative for MD file
-                 final_output = refined_data.get('narrative', '')
-                 logging.info("Report and Scores refined by GPT-OSS.")
-             except Exception as e:
-                 logging.error(f"Failed to parse Refiner JSON: {e}")
-                 final_output = narrative # Fallback
-        else:
-             final_output = narrative
-             logging.info("Report approved directly.")
-
-        # Save Final MD
-        with open(final_md_path, 'w') as f:
-            f.write(final_output)
-        
-        # Incrementally update CSV for dashboard
+        # Incrementally update CSV for dashboard (Batch update mainly, but do it per file to help)
         try:
             import subprocess
-            # Run refine_metadata to extract ND values from MD files
-            subprocess.run(['python', 'src/processing/refine_metadata.py'], 
-                           capture_output=True, timeout=60)
-            # Run align_metadata to sync JSON and rebuild CSV
-            subprocess.run(['python', 'src/processing/align_metadata.py'], 
-                           capture_output=True, timeout=120)
+            subprocess.run(['python', 'src/processing/refine_metadata.py'], capture_output=True, timeout=60)
+            subprocess.run(['python', 'src/processing/align_metadata.py'], capture_output=True, timeout=120)
             logging.info(f"CSV updated for {school_Code}")
         except Exception as e:
             logging.warning(f"CSV rebuild failed: {e}")
