@@ -60,15 +60,28 @@ class SchoolDatabase:
 
     def _map_row(self, row: dict, is_state: bool) -> dict:
         """Map CSV row to internal schema."""
-        # Common fields
+        # Normalize 'Non Disponibile' values
+        def clean_value(val, to_title=False):
+            if not val or val.strip().lower() in ['non disponibile', 'nd', 'n/a', '']:
+                return ''
+            val = val.strip()
+            return val.title() if to_title else val
+        
+        # Common fields - extract all available metadata
         data = {
-            'school_id': row.get('CODICESCUOLA', '').upper(),
-            'denominazione': row.get('DENOMINAZIONESCUOLA', '').strip().title(),
-            'comune': row.get('DESCRIZIONECOMUNE', '').strip().title(),
-            'area_geografica': row.get('REGIONE', '').strip().title(), # Will align later
-            'indirizzo': row.get('INDIRIZZOSCUOLA', '').strip().title(),
-            'cap': row.get('CAPSCUOLA', ''),
-            'website': row.get('SITOWEBSCUOLA', '').lower() if row.get('SITOWEBSCUOLA') != 'Non Disponibile' else ''
+            'school_id': row.get('CODICESCUOLA', '').upper().strip(),
+            'denominazione': clean_value(row.get('DENOMINAZIONESCUOLA', ''), to_title=True),
+            'comune': clean_value(row.get('DESCRIZIONECOMUNE', ''), to_title=True),
+            'provincia': clean_value(row.get('PROVINCIA', ''), to_title=True),
+            'regione': clean_value(row.get('REGIONE', ''), to_title=True),
+            'area_geografica': clean_value(row.get('AREAGEOGRAFICA', ''), to_title=True),
+            'indirizzo': clean_value(row.get('INDIRIZZOSCUOLA', ''), to_title=True),
+            'cap': clean_value(row.get('CAPSCUOLA', '')),
+            'codice_comune': clean_value(row.get('CODICECOMUNESCUOLA', '')),
+            'email': clean_value(row.get('INDIRIZZOEMAILSCUOLA', '')).lower() if clean_value(row.get('INDIRIZZOEMAILSCUOLA', '')) else '',
+            'pec': clean_value(row.get('INDIRIZZOPECSCUOLA', '')).lower() if clean_value(row.get('INDIRIZZOPECSCUOLA', '')) else '',
+            'website': clean_value(row.get('SITOWEBSCUOLA', '')).lower() if clean_value(row.get('SITOWEBSCUOLA', '')) else '',
+            'anno_scolastico': clean_value(row.get('ANNOSCOLASTICO', '')),
         }
         
         # Determine Ordine/Tipo
@@ -76,6 +89,7 @@ class SchoolDatabase:
         # Private CSV has same field name? Checked: Yes.
         
         raw_tipo = row.get('DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA', '').upper()
+        data['tipo_istruzione_raw'] = clean_value(row.get('DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA', ''), to_title=True)
         
         # Map Type
         ordine = 'ND'
@@ -90,7 +104,7 @@ class SchoolDatabase:
         elif 'PRIMO GRADO' in raw_tipo or 'MEDIA' in raw_tipo:
             ordine = 'I Grado'
             tipo = 'I Grado'
-        elif 'SEC. DI SECONDO GRADO' in raw_tipo or 'LICEO' in raw_tipo or 'TECNICO' in raw_tipo or 'PROFESSIONALE' in raw_tipo:
+        elif 'SECONDO GRADO' in raw_tipo or 'LICEO' in raw_tipo or 'TECNICO' in raw_tipo or 'PROFESSIONALE' in raw_tipo:
             ordine = 'II Grado'
             if 'LICEO' in raw_tipo: tipo = 'Liceo'
             elif 'TECNICO' in raw_tipo: tipo = 'Tecnico'
@@ -100,6 +114,7 @@ class SchoolDatabase:
         data['ordine_grado'] = ordine
         data['tipo_scuola'] = tipo
         data['is_paritaria'] = not is_state
+        data['statale_paritaria'] = 'Paritaria' if not is_state else 'Statale'
         
         return data
 
@@ -107,3 +122,27 @@ class SchoolDatabase:
         """Retrieve school data by code."""
         if not school_code: return None
         return self._data.get(school_code.upper())
+
+    def get_location_by_comune(self, comune: str) -> Optional[Dict]:
+        """
+        Trova provincia e regione dato il nome di un comune.
+        Cerca nel database una scuola qualsiasi in quel comune.
+        
+        Returns: dict con 'comune', 'provincia', 'regione' o None se non trovato
+        """
+        if not comune:
+            return None
+        
+        comune_upper = comune.upper().strip()
+        
+        for code, data in self._data.items():
+            com = data.get('comune', '')
+            if com and com.upper().strip() == comune_upper:
+                return {
+                    'comune': data.get('comune', ''),
+                    'provincia': data.get('provincia', ''),
+                    'regione': data.get('regione', ''),
+                    'area_geografica': data.get('area_geografica', '')
+                }
+        
+        return None

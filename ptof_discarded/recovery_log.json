@@ -1,0 +1,467 @@
+{
+  "recovered": [],
+  "discarded": [
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MOIC84900D_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MOIC84900D_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MOIC84900D_PTOF.pdf",
+        "file_name": "MOIC84900D_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.30000000000000004,
+        "phase": "llm",
+        "page_count": 31,
+        "char_count": 13936,
+        "ptof_keywords_found": 15,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "Rapporto di Autovalutazione (RAV): Il testo presenta un indice e contenuti che sembrano parte di un Rapporto di Autovalutazione (RAV), non un PTOF. Manca esplicitamente il riferimento al Piano Triennale dell'Offerta Formativa e non si evidenziano le sezioni tipiche di un PTOF come curricolo, didattica, organizzazione con riferimenti a RAV, PDM e obiettivi formativi. Il documento sembra focalizzato sull'autovalutazione e sui risultati scolastici.",
+        "llm_confidence": 0.09999999999999998,
+        "timestamp": "2025-12-22T09:21:03.452343",
+        "reason": "Rifiutato da LLM (Rapporto di Autovalutazione (RAV): Il testo presenta un indice e contenuti che sembrano parte di un Rapporto di Autovalutazione (RAV), non un PTOF. Manca esplicitamente il riferimento al Piano Triennale dell'Offerta Formativa e non si evidenziano le sezioni tipiche di un PTOF come curricolo, didattica, organizzazione con riferimenti a RAV, PDM e obiettivi formativi. Il documento sembra focalizzato sull'autovalutazione e sui risultati scolastici.)"
+      },
+      "timestamp": "2025-12-22T09:21:11.075774"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BAIC89400E_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/BAIC89400E_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BAIC89400E_PTOF.pdf",
+        "file_name": "BAIC89400E_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 4341,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:21:11.140692",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:21:11.141407"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PEIS00300X_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/corrupted/PEIS00300X_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PEIS00300X_PTOF.pdf",
+        "file_name": "PEIS00300X_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:21:35.494303",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-22T09:21:35.495915"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIRFHT500U_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MIRFHT500U_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIRFHT500U_PTOF.pdf",
+        "file_name": "MIRFHT500U_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.31999999999999995,
+        "phase": "llm",
+        "page_count": 16,
+        "char_count": 13183,
+        "ptof_keywords_found": 15,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "Rapporto di autovalutazione: Il testo presenta una struttura articolata con sezioni dedicate agli esiti e ai processi, ma manca esplicitamente del termine 'PTOF' e non è chiaro se contenga l'intero piano triennale dell'offerta formativa con le sue componenti obbligatorie (curricolo, didattica, organizzazione, riferimenti a RAV e PDM). Il documento sembra essere un rapporto di autovalutazione.",
+        "llm_confidence": 0.19999999999999996,
+        "timestamp": "2025-12-22T09:22:05.013811",
+        "reason": "Rifiutato da LLM (Rapporto di autovalutazione: Il testo presenta una struttura articolata con sezioni dedicate agli esiti e ai processi, ma manca esplicitamente del termine 'PTOF' e non è chiaro se contenga l'intero piano triennale dell'offerta formativa con le sue componenti obbligatorie (curricolo, didattica, organizzazione, riferimenti a RAV e PDM). Il documento sembra essere un rapporto di autovalutazione.)"
+      },
+      "timestamp": "2025-12-22T09:22:11.609495"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NARH105008_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/NARH105008_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NARH105008_PTOF.pdf",
+        "file_name": "NARH105008_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 2,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:22:35.010059",
+        "reason": "Solo 2 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:22:35.010525"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BG1M02700A_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/corrupted/BG1M02700A_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BG1M02700A_PTOF.pdf",
+        "file_name": "BG1M02700A_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:23:18.522080",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-22T09:23:18.522954"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MATERA_MTIS009001.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MATERA_MTIS009001.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MATERA_MTIS009001.pdf",
+        "file_name": "MATERA_MTIS009001.pdf",
+        "result": "not_ptof",
+        "confidence": 0.27,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 14403,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 2,
+        "school_code_found": "MTIS009001",
+        "llm_analysis": "circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico al Collegio dei Docenti per la predisposizione dell'aggiornamento del PTOF, non il PTOF stesso.",
+        "llm_confidence": 0.15000000000000002,
+        "timestamp": "2025-12-22T09:23:27.407094",
+        "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico al Collegio dei Docenti per la predisposizione dell'aggiornamento del PTOF, non il PTOF stesso.)"
+      },
+      "timestamp": "2025-12-22T09:23:31.738018"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PTOF-2025-2028-3.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PTOF-2025-2028-3.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PTOF-2025-2028-3.pdf",
+        "file_name": "PTOF-2025-2028-3.pdf",
+        "result": "not_ptof",
+        "confidence": 0.09999999999999998,
+        "phase": "heuristic",
+        "page_count": 11,
+        "char_count": 16645,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 5,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:24:01.281184",
+        "reason": "Bassa confidenza euristica (0.10)"
+      },
+      "timestamp": "2025-12-22T09:24:01.283280"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CANICATTÃŒ_AGIS00100X.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X.pdf",
+        "file_name": "CANICATTÃŒ_AGIS00100X.pdf",
+        "result": "not_ptof",
+        "confidence": 0.0,
+        "phase": "heuristic",
+        "page_count": 7,
+        "char_count": 17346,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:24:08.733888",
+        "reason": "Bassa confidenza euristica (0.00)"
+      },
+      "timestamp": "2025-12-22T09:24:08.735549"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MOIS00200C_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/corrupted/MOIS00200C_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MOIS00200C_PTOF.pdf",
+        "file_name": "MOIS00200C_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:24:17.269633",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-22T09:24:17.270346"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SOPS050001_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/SOPS050001_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SOPS050001_PTOF.pdf",
+        "file_name": "SOPS050001_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.21000000000000008,
+        "phase": "llm",
+        "page_count": 22,
+        "char_count": 14869,
+        "ptof_keywords_found": 3,
+        "exclusion_keywords_found": 0,
+        "school_code_found": "SOPS050001",
+        "llm_analysis": "modulo: Il testo presenta due programmi svolto per le materie Italiano e Latino, con dettaglio degli argomenti trattati e testi analizzati. Non presenta la struttura articolata di un PTOF con riferimenti a curricolo, didattica, organizzazione, RAV, PDM e obiettivi formativi triennali.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-22T09:24:24.708662",
+        "reason": "Rifiutato da LLM (modulo: Il testo presenta due programmi svolto per le materie Italiano e Latino, con dettaglio degli argomenti trattati e testi analizzati. Non presenta la struttura articolata di un PTOF con riferimenti a curricolo, didattica, organizzazione, RAV, PDM e obiettivi formativi triennali.)"
+      },
+      "timestamp": "2025-12-22T09:24:30.273654"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MTIS01200R_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/MTIS01200R_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MTIS01200R_PTOF.pdf",
+        "file_name": "MTIS01200R_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 1,
+        "char_count": 5091,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:24:30.396378",
+        "reason": "Solo 1 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:24:30.396998"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BOLOGNA_BORC10500R.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/BOLOGNA_BORC10500R.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BOLOGNA_BORC10500R.pdf",
+        "file_name": "BOLOGNA_BORC10500R.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 2,
+        "char_count": 17477,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:24:48.587263",
+        "reason": "Solo 2 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:24:48.587994"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIIC836006_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/MIIC836006_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIIC836006_PTOF.pdf",
+        "file_name": "MIIC836006_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 3,
+        "char_count": 5808,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:25:00.402895",
+        "reason": "Solo 3 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:25:00.403519"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VENEZIA_VEIC81400N.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/VENEZIA_VEIC81400N.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VENEZIA_VEIC81400N.pdf",
+        "file_name": "VENEZIA_VEIC81400N.pdf",
+        "result": "not_ptof",
+        "confidence": 0.26,
+        "phase": "llm",
+        "page_count": 10,
+        "char_count": 15465,
+        "ptof_keywords_found": 18,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "Piano Inclusione: Il testo analizzato è un Piano Inclusione, non un PTOF. Il PTOF deve contenere informazioni su curricolo, didattica, organizzazione e riferimenti a RAV, PDM, obiettivi formativi, con una struttura articolata. Il testo presenta solo una parte del PTOF relativa all'inclusione.",
+        "llm_confidence": 0.09999999999999998,
+        "timestamp": "2025-12-22T09:26:23.942877",
+        "reason": "Rifiutato da LLM (Piano Inclusione: Il testo analizzato è un Piano Inclusione, non un PTOF. Il PTOF deve contenere informazioni su curricolo, didattica, organizzazione e riferimenti a RAV, PDM, obiettivi formativi, con una struttura articolata. Il testo presenta solo una parte del PTOF relativa all'inclusione.)"
+      },
+      "timestamp": "2025-12-22T09:26:29.580119"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CRPC02000A_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CRPC02000A_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CRPC02000A_PTOF.pdf",
+        "file_name": "CRPC02000A_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.28,
+        "phase": "llm",
+        "page_count": 36,
+        "char_count": 16055,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 3,
+        "school_code_found": null,
+        "llm_analysis": "guida per la stesura del PTOF: Il testo presenta caratteristiche del PTOF ma sembra essere una guida o un documento di supporto per la stesura del PTOF, non il PTOF stesso.",
+        "llm_confidence": 0.19999999999999996,
+        "timestamp": "2025-12-22T09:27:16.154949",
+        "reason": "Rifiutato da LLM (guida per la stesura del PTOF: Il testo presenta caratteristiche del PTOF ma sembra essere una guida o un documento di supporto per la stesura del PTOF, non il PTOF stesso.)"
+      },
+      "timestamp": "2025-12-22T09:27:20.244972"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SOIC82100B_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/SOIC82100B_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SOIC82100B_PTOF.pdf",
+        "file_name": "SOIC82100B_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 2,
+        "char_count": 5324,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:28:10.473883",
+        "reason": "Solo 2 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:28:10.474560"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/ISIS003002_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/ISIS003002_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/ISIS003002_PTOF.pdf",
+        "file_name": "ISIS003002_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.25000000000000006,
+        "phase": "llm",
+        "page_count": 36,
+        "char_count": 16055,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 3,
+        "school_code_found": null,
+        "llm_analysis": "altro: Il testo presenta caratteristiche del PTOF ma non è un documento ufficiale di una scuola specifica. È un documento di orientamento e riflessione per la stesura del PTOF, non il PTOF stesso.",
+        "llm_confidence": 0.15000000000000002,
+        "timestamp": "2025-12-22T09:28:10.674692",
+        "reason": "Rifiutato da LLM (altro: Il testo presenta caratteristiche del PTOF ma non è un documento ufficiale di una scuola specifica. È un documento di orientamento e riflessione per la stesura del PTOF, non il PTOF stesso.)"
+      },
+      "timestamp": "2025-12-22T09:28:15.056341"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BORC10500R_BEATA_VERGINE_DI_SAN_LUCA.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/BORC10500R_BEATA_VERGINE_DI_SAN_LUCA.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BORC10500R_BEATA_VERGINE_DI_SAN_LUCA.pdf",
+        "file_name": "BORC10500R_BEATA_VERGINE_DI_SAN_LUCA.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 2,
+        "char_count": 17477,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:28:25.080574",
+        "reason": "Solo 2 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:28:25.081300"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CRIC817004_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CRIC817004_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CRIC817004_PTOF.pdf",
+        "file_name": "CRIC817004_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.21000000000000005,
+        "phase": "llm",
+        "page_count": 13,
+        "char_count": 23963,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 3,
+        "school_code_found": "CRIC817004",
+        "llm_analysis": "altro: Il testo analizzato è una relazione al conto consuntivo dell'esercizio finanziario 2023, non un Piano Triennale dell'Offerta Formativa (PTOF). Pur citando il PTOF, il documento si concentra sull'aspetto finanziario e amministrativo, non presenta la struttura articolata e i contenuti specifici richiesti per un PTOF.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-22T09:28:34.468740",
+        "reason": "Rifiutato da LLM (altro: Il testo analizzato è una relazione al conto consuntivo dell'esercizio finanziario 2023, non un Piano Triennale dell'Offerta Formativa (PTOF). Pur citando il PTOF, il documento si concentra sull'aspetto finanziario e amministrativo, non presenta la struttura articolata e i contenuti specifici richiesti per un PTOF.)"
+      },
+      "timestamp": "2025-12-22T09:28:40.463194"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SSPS05000G_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/SSPS05000G_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SSPS05000G_PTOF.pdf",
+        "file_name": "SSPS05000G_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-22T09:28:40.474505",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-22T09:28:40.475821"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIPMU4500Z-201922-201819-20190131.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MIPMU4500Z-201922-201819-20190131.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIPMU4500Z-201922-201819-20190131.pdf",
+        "file_name": "MIPMU4500Z-201922-201819-20190131.pdf",
+        "result": "not_ptof",
+        "confidence": 0.46,
+        "phase": "llm",
+        "page_count": 37,
+        "char_count": 10614,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": "{\"role\": \"assistant_thinking\", \"content\": \"Okay, let's see. The user wants to know if the provided text is a PTOF. First, I need to recall what a PTOF is. From the criteria given, a valid PTOF must in",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-22T09:42:33.697112",
+        "reason": "Rifiutato da LLM ({\"role\": \"assistant_thinking\", \"content\": \"Okay, let's see. The user wants to know if the provided text is a PTOF. First, I need to recall what a PTOF is. From the criteria given, a valid PTOF must in)"
+      },
+      "timestamp": "2025-12-22T09:42:48.019527"
+    }
+  ]
+}

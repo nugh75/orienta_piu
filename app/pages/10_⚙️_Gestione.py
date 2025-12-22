@@ -10,10 +10,9 @@ st.set_page_config(page_title="Gestione", page_icon="⚙️", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
-PTOF_DIR = 'ptof'
 PTOF_PROCESSED_DIR = 'ptof_processed'
 PTOF_INBOX_DIR = 'ptof_inbox'
-PTOF_SEARCH_DIRS = [PTOF_DIR, PTOF_PROCESSED_DIR, PTOF_INBOX_DIR]
+PTOF_SEARCH_DIRS = [PTOF_PROCESSED_DIR, PTOF_INBOX_DIR]
 PTOF_MD_DIR = 'ptof_md'
 
 @st.cache_data(ttl=30)
@@ -67,7 +66,7 @@ def display_pdf(school_id, height=600):
             return False
     else:
         st.info(f"PDF non trovato per {school_id}")
-        st.caption("Cartelle cercate: ptof/, ptof_processed/, ptof_inbox/")
+        st.caption("Cartelle cercate: ptof_processed/, ptof_inbox/")
         return False
 
 df = load_data()
@@ -190,7 +189,40 @@ with actions_col:
     st.subheader(f"📋 {selected_school}")
     st.write(f"**Codice:** {school_id}")
     st.write(f"**Tipo:** {school_row.get('tipo_scuola', 'N/D')} | **Area:** {school_row.get('area_geografica', 'N/D')}")
+    
+    # Nuovi metadati: Regione, Provincia, Stato
+    regione = school_row.get('regione', 'N/D')
+    provincia = school_row.get('provincia', 'N/D')
+    statale = school_row.get('statale_paritaria', 'N/D')
+    st.write(f"**Regione:** {regione if regione and regione != 'ND' else 'N/D'} | **Provincia:** {provincia if provincia and provincia != 'ND' else 'N/D'} | **Stato:** {statale if statale and statale != 'ND' else 'N/D'}")
+    
     st.write(f"**Indice:** {school_row.get('ptof_orientamento_maturity_index', 'N/D'):.2f}/7" if pd.notna(school_row.get('ptof_orientamento_maturity_index')) else "**Indice:** N/D")
+    
+    # Contatti (se disponibili)
+    email = school_row.get('email', '')
+    pec = school_row.get('pec', '')
+    website = school_row.get('website', '')
+    indirizzo = school_row.get('indirizzo', '')
+    cap = school_row.get('cap', '')
+    comune = school_row.get('comune', '')
+    
+    has_contacts = any(str(v) not in ['', 'ND', 'nan', 'None'] for v in [email, pec, website, indirizzo])
+    if has_contacts:
+        with st.expander("📧 Contatti e Indirizzo", expanded=False):
+            if indirizzo and str(indirizzo) not in ['ND', 'nan', 'None', '']:
+                addr = f"{indirizzo}"
+                if cap and str(cap) not in ['ND', 'nan', 'None', '']:
+                    addr += f" - {cap}"
+                if comune and str(comune) not in ['ND', 'nan', 'None', '']:
+                    addr += f" {comune}"
+                st.write(f"📍 **Indirizzo:** {addr}")
+            if email and str(email) not in ['ND', 'nan', 'None', '']:
+                st.write(f"📧 **Email:** {email}")
+            if pec and str(pec) not in ['ND', 'nan', 'None', '']:
+                st.write(f"📨 **PEC:** {pec}")
+            if website and str(website) not in ['ND', 'nan', 'None', '']:
+                url = website if str(website).startswith('http') else f'https://{website}'
+                st.write(f"🌐 **Sito Web:** [{website}]({url})")
     
     # Metadata edit section
     st.markdown("---")

@@ -79,6 +79,46 @@ if selected_school:
         idx = school_data.get('ptof_orientamento_maturity_index', 0)
         st.metric("Indice Robustezza", f"{idx:.2f}/7" if pd.notna(idx) else "N/D")
     
+    # Seconda riga di metadati
+    col5, col6, col7, col8 = st.columns(4)
+    with col5:
+        regione = school_data.get('regione', 'N/D')
+        st.metric("Regione", regione if regione and regione != 'ND' else 'N/D')
+    with col6:
+        provincia = school_data.get('provincia', 'N/D')
+        st.metric("Provincia", provincia if provincia and provincia != 'ND' else 'N/D')
+    with col7:
+        comune = school_data.get('comune', 'N/D')
+        st.metric("Comune", comune if comune and comune != 'ND' else 'N/D')
+    with col8:
+        statale = school_data.get('statale_paritaria', 'N/D')
+        st.metric("Stato", statale if statale and statale != 'ND' else 'N/D')
+    
+    # Contatti (se disponibili)
+    email = school_data.get('email', '')
+    pec = school_data.get('pec', '')
+    website = school_data.get('website', '')
+    indirizzo = school_data.get('indirizzo', '')
+    cap = school_data.get('cap', '')
+    
+    has_contacts = any(v and v != 'ND' for v in [email, pec, website, indirizzo])
+    if has_contacts:
+        with st.expander("📧 Contatti e Indirizzo", expanded=False):
+            if indirizzo and indirizzo != 'ND':
+                addr = f"{indirizzo}"
+                if cap and cap != 'ND':
+                    addr += f" - {cap}"
+                comune_val = school_data.get('comune', '')
+                if comune_val and comune_val != 'ND':
+                    addr += f" {comune_val}"
+                st.write(f"📍 **Indirizzo:** {addr}")
+            if email and email != 'ND':
+                st.write(f"📧 **Email:** {email}")
+            if pec and pec != 'ND':
+                st.write(f"📨 **PEC:** {pec}")
+            if website and website != 'ND':
+                st.write(f"🌐 **Sito Web:** [{website}]({website if website.startswith('http') else 'https://' + website})")
+    
     st.markdown("---")
     
     # Radar Chart
@@ -202,7 +242,7 @@ if selected_school:
     school_id = school_data.get('school_id', '')
 
     pdf_path = None
-    search_dirs = ["ptof", "ptof_processed", "ptof_inbox"]
+    search_dirs = ["ptof_processed", "ptof_inbox"]
     try:
         from app.data_utils import find_pdf_for_school
         pdf_path = find_pdf_for_school(school_id, base_dirs=search_dirs)

@@ -2,6 +2,7 @@
 """
 Standalone script to enrich JSON analysis files with metadata from CSV sources.
 Run independently from the main pipeline.
+Uses SchoolDatabase to get authoritative data from SCUANAGRAFESTAT and SCUANAGRAFEPAR.
 """
 import os
 import json
@@ -12,6 +13,16 @@ from glob import glob
 # Paths
 RESULTS_DIR = "analysis_results"
 ENRICHMENT_CSV = "data/metadata_enrichment.csv"
+
+# Import SchoolDatabase for authoritative data
+try:
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+    from src.utils.school_database import SchoolDatabase
+    SCHOOL_DB = SchoolDatabase()
+except Exception as e:
+    print(f"⚠️ Warning: Could not load SchoolDatabase: {e}")
+    SCHOOL_DB = None
 
 def extract_canonical_code(filename_code):
     """Extract standard school code from prefixed filename."""
@@ -37,7 +48,7 @@ def load_metadata_caches():
     return caches
 
 def enrich_json_file(json_path, caches):
-    """Enrich a single JSON file with metadata (LLM output is primary)."""
+    """Enrich a single JSON file with metadata from SchoolDatabase and enrichment CSV."""
     filename = os.path.basename(json_path)
     school_code_raw = filename.replace('_analysis.json', '')
     school_code = extract_canonical_code(school_code_raw)
@@ -49,15 +60,53 @@ def enrich_json_file(json_path, caches):
         if 'metadata' not in data:
             data['metadata'] = {}
         
+        # Get enrichment data from legacy CSV (fallback)
         enrich = caches['enrichment'].get(school_code, {})
         
-        # Update metadata with priority: existing (LLM) > enrichment
+        # Get authoritative data from SchoolDatabase (SCUANAGRAFESTAT/PAR)
+        db_data = SCHOOL_DB.get_school_data(school_code) if SCHOOL_DB else {}
+        
+        # Helper function: priority is existing (LLM) > SchoolDB > enrichment CSV
+        def get_value(field, db_field=None):
+            db_field = db_field or field
+            existing = data['metadata'].get(field)
+            if existing and existing not in ['ND', '', None, 'null']:
+                return existing
+            db_val = db_data.get(db_field) if db_data else None
+            if db_val and db_val not in ['ND', '', None]:
+                return db_val
+            enrich_val = enrich.get(field)
+            if enrich_val and enrich_val not in ['ND', '', None]:
+                return enrich_val
+            return 'ND'
+        
+        # Update metadata with all available fields
         data['metadata']['school_id'] = school_code
-        data['metadata']['denominazione'] = data['metadata'].get('denominazione') or enrich.get('denominazione') or 'ND'
-        data['metadata']['comune'] = data['metadata'].get('comune') or enrich.get('comune') or 'ND'
-        data['metadata']['area_geografica'] = data['metadata'].get('area_geografica') or enrich.get('area_geografica') or 'ND'
-        data['metadata']['ordine_grado'] = data['metadata'].get('ordine_grado') or enrich.get('ordine_grado') or 'ND'
-        data['metadata']['territorio'] = data['metadata'].get('territorio') or 'ND'
+        data['metadata']['denominazione'] = get_value('denominazione')
+        data['metadata']['comune'] = get_value('comune')
+        data['metadata']['provincia'] = get_value('provincia')
+        data['metadata']['regione'] = get_value('regione')
+        data['metadata']['area_geografica'] = get_value('area_geografica')
+        data['metadata']['ordine_grado'] = get_value('ordine_grado')
+        data['metadata']['tipo_scuola'] = get_value('tipo_scuola')
+        data['metadata']['indirizzo'] = get_value('indirizzo')
+        data['metadata']['cap'] = get_value('cap')
+        data['metadata']['email'] = get_value('email')
+        data['metadata']['pec'] = get_value('pec')
+        data['metadata']['website'] = get_value('website')
+        data['metadata']['statale_paritaria'] = get_value('statale_paritaria')
+        
+        # Territory mapping based on area_geografica
+        area = data['metadata'].get('area_geografica', '').upper()
+        territorio_map = {
+            'NORD OVEST': 'Nord',
+            'NORD EST': 'Nord',
+            'NORD': 'Nord',
+            'CENTRO': 'Centro',
+            'SUD': 'Sud',
+            'ISOLE': 'Sud',
+        }
+        data['metadata']['territorio'] = territorio_map.get(area, get_value('territorio'))
 
         # Infer Ordine Grado from Denominazione if currently ND or generic
         current_grado = data['metadata']['ordine_grado']
@@ -68,15 +117,11 @@ def enrich_json_file(json_path, caches):
             elif 'primaria' in denom_lower or 'direzione didattica' in denom_lower or ' d.d.' in denom_lower:
                 data['metadata']['ordine_grado'] = 'Primaria'
         
-        # Get tipo_scuola from LLM output
-        tipo_scuola = data['metadata'].get('tipo_scuola', 'ND')
-        
-        # For I Grado schools, replace ND with "I Grado" (no subtypes exist)
+        # For I Grado schools, replace ND tipo_scuola with "I Grado"
         ordine = data['metadata'].get('ordine_grado', '')
+        tipo_scuola = data['metadata'].get('tipo_scuola', 'ND')
         if ordine == 'I Grado' and (tipo_scuola == 'ND' or not tipo_scuola):
             data['metadata']['tipo_scuola'] = 'I Grado'
-        else:
-            data['metadata']['tipo_scuola'] = tipo_scuola
         
         with open(json_path, 'w') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

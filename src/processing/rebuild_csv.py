@@ -54,8 +54,9 @@ if os.path.exists(ENRICHMENT_FILE):
         print(f"Error loading enrichment: {e}")
 
 CSV_COLUMNS = [
-    'school_id', 'denominazione', 'comune', 'area_geografica', 'tipo_scuola', 'territorio', 'ordine_grado',
-    'extraction_status', 'duration_sec', 'analysis_file',
+    'school_id', 'denominazione', 'comune', 'provincia', 'regione', 'area_geografica', 
+    'tipo_scuola', 'territorio', 'ordine_grado', 'indirizzo', 'cap', 'email', 'pec', 'website',
+    'statale_paritaria', 'extraction_status', 'duration_sec', 'analysis_file',
 
     'has_sezione_dedicata', '2_1_score',
     '2_3_finalita_attitudini_score', '2_3_finalita_interessi_score', '2_3_finalita_progetto_vita_score',
@@ -132,6 +133,16 @@ for json_file in json_files:
         
         # Area: JSON (LLM) > Enrichment > Inferred from code > 'ND'
         summary_data['area_geografica'] = json_meta.get('area_geografica') or enrich_data.get('area_geografica') or 'ND'
+        
+        # Nuovi campi da anagrafi ufficiali
+        summary_data['provincia'] = json_meta.get('provincia') or enrich_data.get('provincia') or 'ND'
+        summary_data['regione'] = json_meta.get('regione') or enrich_data.get('regione') or 'ND'
+        summary_data['indirizzo'] = json_meta.get('indirizzo') or enrich_data.get('indirizzo') or 'ND'
+        summary_data['cap'] = json_meta.get('cap') or enrich_data.get('cap') or 'ND'
+        summary_data['email'] = json_meta.get('email') or enrich_data.get('email') or 'ND'
+        summary_data['pec'] = json_meta.get('pec') or enrich_data.get('pec') or 'ND'
+        summary_data['website'] = json_meta.get('website') or enrich_data.get('website') or 'ND'
+        summary_data['statale_paritaria'] = json_meta.get('statale_paritaria') or enrich_data.get('statale_paritaria') or 'ND'
         
         # Tipo: JSON (LLM) > 'ND'
         # Allow multi-values if comma present

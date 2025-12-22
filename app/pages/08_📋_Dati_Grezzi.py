@@ -18,25 +18,44 @@ def load_data():
     if os.path.exists(SUMMARY_FILE):
         df = pd.read_csv(SUMMARY_FILE)
     
-    # Enrich with Regione if available
-    target_col = 'comune' # default
-    if 'comune' not in df.columns:
-        # Fallback check if uppercase exists or similar? 
-        # For now assume 'comune' exists as per CSV check
-        pass
+    # La colonna 'regione' viene ora popolata direttamente dalla pipeline
+    # usando il database ufficiale delle scuole (SchoolDatabase).
+    # Non sovrascriviamo più con region_map.json per evitare discrepanze
+    # tra questa pagina e Dettaglio Scuola.
+    
+    # Fallback: usa region_map SOLO se 'regione' non esiste o è tutta vuota/ND
+    if not df.empty and 'regione' in df.columns:
+        # Verifica se la regione è già popolata correttamente
+        valid_regions = df['regione'].dropna()
+        valid_regions = valid_regions[~valid_regions.isin(['ND', '', 'N/A', 'DA VERIFICARE'])]
         
-    if not df.empty and os.path.exists(REGION_MAP_FILE) and 'comune' in df.columns:
-        try:
-            with open(REGION_MAP_FILE, 'r') as f:
-                r_map = json.load(f)
-            mapping = r_map.get('comuni', {})
-            
-            # Map values (normalize to upper for matching)
-            df['regione'] = df['comune'].astype(str).str.upper().map(mapping)
-            df['regione'] = df['regione'].fillna('DA VERIFICARE')
-        except Exception as e:
-            st.error(f"Errore nel caricamento della mappa regioni: {e}")
-            df['regione'] = 'ERRORE'
+        if len(valid_regions) < len(df) * 0.5:  # Meno del 50% popolato
+            # Fallback a region_map per le righe mancanti
+            if os.path.exists(REGION_MAP_FILE) and 'comune' in df.columns:
+                try:
+                    with open(REGION_MAP_FILE, 'r') as f:
+                        r_map = json.load(f)
+                    mapping = r_map.get('comuni', {})
+                    
+                    # Mappa solo dove regione è vuota/ND
+                    mask = df['regione'].isna() | df['regione'].isin(['ND', '', 'N/A'])
+                    df.loc[mask, 'regione'] = df.loc[mask, 'comune'].astype(str).str.upper().map(mapping)
+                except Exception as e:
+                    pass  # Ignora errori, usa valori esistenti
+    elif not df.empty and 'regione' not in df.columns:
+        # Colonna non esiste, crea da region_map
+        if os.path.exists(REGION_MAP_FILE) and 'comune' in df.columns:
+            try:
+                with open(REGION_MAP_FILE, 'r') as f:
+                    r_map = json.load(f)
+                mapping = r_map.get('comuni', {})
+                df['regione'] = df['comune'].astype(str).str.upper().map(mapping)
+            except:
+                df['regione'] = 'DA VERIFICARE'
+    
+    # Riempi valori mancanti
+    if 'regione' in df.columns:
+        df['regione'] = df['regione'].fillna('DA VERIFICARE')
 
     return df
 

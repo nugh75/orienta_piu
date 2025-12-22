@@ -13,7 +13,7 @@ def find_pdf_for_school(school_id, base_dirs=None):
     if not school_id:
         return None
 
-    base_dirs = base_dirs or ["ptof", "ptof_processed", "ptof_inbox"]
+    base_dirs = base_dirs or ["ptof_processed", "ptof_inbox"]
     patterns = []
     for base in base_dirs:
         patterns.extend([
@@ -120,7 +120,7 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
     
     # Reset Button
     if st.sidebar.button("🗑️ Rimuovi Filtri", width="stretch"):
-        keys = ["filter_area", "filter_tipo", "filter_terr", "filter_grado", "home_score_range"]
+        keys = ["filter_area", "filter_regione", "filter_provincia", "filter_tipo", "filter_terr", "filter_grado", "home_score_range"]
         if extra_clear_keys:
             keys.extend(extra_clear_keys)
             
@@ -146,6 +146,22 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
             selected_areas = st.sidebar.multiselect("Area Geografica", areas, key="filter_area")
             if selected_areas:
                 df = df[df['area_geografica'].isin(selected_areas)]
+
+    # Regione filter
+    if 'regione' in df.columns:
+        regioni = sorted([x for x in df['regione'].dropna().unique() if str(x) not in ['nan', 'ND', '']])
+        if regioni:
+            selected_regioni = st.sidebar.multiselect("Regione", regioni, key="filter_regione")
+            if selected_regioni:
+                df = df[df['regione'].isin(selected_regioni)]
+    
+    # Provincia filter
+    if 'provincia' in df.columns:
+        province = sorted([x for x in df['provincia'].dropna().unique() if str(x) not in ['nan', 'ND', '']])
+        if province:
+            selected_province = st.sidebar.multiselect("Provincia", province, key="filter_provincia")
+            if selected_province:
+                df = df[df['provincia'].isin(selected_province)]
 
     # Tipo scuola filter
     if 'tipo_scuola' in df.columns:

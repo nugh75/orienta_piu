@@ -64,7 +64,7 @@ def extract_canonical_code(filename_code):
 
 def load_metadata_caches():
     """Load metadata from CSV sources."""
-    caches = {'enrichment': {}}
+    caches = {'enrichment': {}, 'school_db': None}
     
     # Enrichment (official registry)
     if os.path.exists('data/metadata_enrichment.csv'):
@@ -77,12 +77,20 @@ def load_metadata_caches():
         except Exception as e:
             logging.warning(f"Failed to load enrichment: {e}")
     
+    # Load SchoolDatabase for complete metadata
+    try:
+        from src.utils.school_database import SchoolDatabase
+        caches['school_db'] = SchoolDatabase()
+        logging.info(f"Loaded SchoolDatabase with {len(caches['school_db']._data)} schools")
+    except Exception as e:
+        logging.warning(f"Failed to load SchoolDatabase: {e}")
+    
     return caches
 
 METADATA_CACHES = load_metadata_caches()
 
 def enrich_json_metadata(json_path, school_code_raw):
-    """Enrich JSON file with metadata from enrichment cache (LLM generated metadata is primary)."""
+    """Enrich JSON file with metadata from SchoolDatabase and enrichment cache."""
     school_code = extract_canonical_code(school_code_raw)
     
     try:
@@ -93,20 +101,47 @@ def enrich_json_metadata(json_path, school_code_raw):
             data['metadata'] = {}
         
         enrich = METADATA_CACHES['enrichment'].get(school_code, {})
+        school_db = METADATA_CACHES.get('school_db')
         
-        # Update metadata with priority: existing (from LLM) > enrichment
+        # Get data from SchoolDatabase (most complete source)
+        db_data = {}
+        if school_db:
+            db_data = school_db.get_school_data(school_code) or {}
+        
+        # Update metadata with priority: existing (from LLM) > SchoolDB > enrichment
         data['metadata']['school_id'] = school_code
-        data['metadata']['denominazione'] = data['metadata'].get('denominazione') or enrich.get('denominazione') or 'ND'
-        data['metadata']['comune'] = data['metadata'].get('comune') or enrich.get('comune') or 'ND'
-        data['metadata']['area_geografica'] = data['metadata'].get('area_geografica') or enrich.get('area_geografica') or 'ND'
-        data['metadata']['ordine_grado'] = data['metadata'].get('ordine_grado') or enrich.get('ordine_grado') or 'ND'
+        
+        # Basic info
+        data['metadata']['denominazione'] = data['metadata'].get('denominazione') or db_data.get('denominazione') or enrich.get('denominazione') or 'ND'
+        data['metadata']['comune'] = data['metadata'].get('comune') or db_data.get('comune') or enrich.get('comune') or 'ND'
+        data['metadata']['area_geografica'] = data['metadata'].get('area_geografica') or db_data.get('area_geografica') or enrich.get('area_geografica') or 'ND'
+        data['metadata']['ordine_grado'] = data['metadata'].get('ordine_grado') or db_data.get('ordine_grado') or enrich.get('ordine_grado') or 'ND'
         data['metadata']['territorio'] = data['metadata'].get('territorio') or 'ND'
-        data['metadata']['tipo_scuola'] = data['metadata'].get('tipo_scuola') or 'ND'
+        data['metadata']['tipo_scuola'] = data['metadata'].get('tipo_scuola') or db_data.get('tipo_scuola') or 'ND'
+        
+        # New fields from SchoolDatabase
+        data['metadata']['regione'] = data['metadata'].get('regione') or db_data.get('regione') or 'ND'
+        data['metadata']['provincia'] = data['metadata'].get('provincia') or db_data.get('provincia') or 'ND'
+        data['metadata']['statale_paritaria'] = data['metadata'].get('statale_paritaria') or db_data.get('statale_paritaria') or 'ND'
+        data['metadata']['indirizzo'] = data['metadata'].get('indirizzo') or db_data.get('indirizzo') or 'ND'
+        data['metadata']['cap'] = data['metadata'].get('cap') or db_data.get('cap') or 'ND'
+        data['metadata']['email'] = data['metadata'].get('email') or db_data.get('email') or 'ND'
+        data['metadata']['pec'] = data['metadata'].get('pec') or db_data.get('pec') or 'ND'
+        data['metadata']['website'] = data['metadata'].get('website') or db_data.get('website') or 'ND'
+        
+        # Map territorio from area_geografica if not set
+        if data['metadata']['territorio'] == 'ND' and data['metadata']['area_geografica'] != 'ND':
+            area = data['metadata']['area_geografica'].upper()
+            territorio_map = {
+                'NORD OVEST': 'Nord', 'NORD EST': 'Nord', 'NORD': 'Nord',
+                'CENTRO': 'Centro', 'SUD': 'Sud', 'ISOLE': 'Sud',
+            }
+            data['metadata']['territorio'] = territorio_map.get(area, 'ND')
         
         with open(json_path, 'w') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         
-        logging.info(f"Enriched metadata for {school_code}")
+        logging.info(f"Enriched metadata for {school_code} (regione: {data['metadata'].get('regione')}, provincia: {data['metadata'].get('provincia')})")
         return True
     except Exception as e:
         logging.error(f"Failed to enrich {json_path}: {e}")
@@ -450,14 +485,21 @@ def run_pipeline():
         
         process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer)
         
-        # Incrementally update CSV for dashboard (Batch update mainly, but do it per file to help)
+        # Aggiorna CSV per dashboard dopo ogni analisi
         try:
             import subprocess
-            subprocess.run(['python', 'src/processing/refine_metadata.py'], capture_output=True, timeout=60)
-            subprocess.run(['python', 'src/processing/align_metadata.py'], capture_output=True, timeout=120)
-            logging.info(f"CSV updated for {school_Code}")
+            result = subprocess.run(
+                ['python', 'src/processing/rebuild_csv.py'], 
+                capture_output=True, 
+                timeout=120,
+                text=True
+            )
+            if result.returncode == 0:
+                logging.info(f"✅ CSV aggiornato per {school_Code}")
+            else:
+                logging.warning(f"⚠️ rebuild_csv.py warning: {result.stderr[:200] if result.stderr else 'unknown'}")
         except Exception as e:
-            logging.warning(f"CSV rebuild failed: {e}")
+            logging.warning(f"❌ CSV rebuild failed: {e}")
 
 if __name__ == "__main__":
     run_pipeline()

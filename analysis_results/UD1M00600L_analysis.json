@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "school_id": "UD1M00600L",
+    "denominazione": "Istituto Salesiano G. Bearzi",
+    "tipo_scuola": "Scuola Secondaria di I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2022-2025",
+    "regione": "Friuli-Venezia G.",
+    "provincia": "Udine",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Don Bosco 2",
+    "cap": "33100",
+    "email": "scuola.secondaria@bearzi.it",
+    "pec": "pec@pec.bearzi.it",
+    "website": "www.bearzi.it",
+    "nome_scuola": "Scuola Secondaria I Grado Paritaria G. Bearzi",
+    "tipologia": "I Grado"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione è presente e ben strutturata, con una chiara articolazione delle finalità, obiettivi e azioni. Tuttavia, manca una descrizione dettagliata del monitoraggio e della valutazione delle attività."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Centro di Formazione Professionale",
+        "AGESC (Associazione Genitori Scuole Cattoliche)",
+        "Istituzioni educative preposte",
+        "Università degli Studi Z",
+        "Confindustria Milano",
+        "Centri per l'Impiego",
+        "Enti di Formazione Professionale",
+        "psicologi del Centro di Formazione Professionale"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6,
+        "evidence_quote": "Favorire l'esplorazione degli interessi personali e professionali",
+        "evidence_location": "Pagina 82"
+      },
+      "finalita_interessi": {
+        "score": 6,
+        "evidence_quote": "Favorire l'esplorazione degli interessi personali e professionali",
+        "evidence_location": "Pagina 82"
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "formazione culturale, umana, professionale e cristiana",
+        "evidence_location": "Pagina 36"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Agevolare le transizioni formative verso l'istruzione superiore e il mondo del lavoro",
+        "evidence_location": "Pagina 82"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "Sviluppare le capacità di orientamento e la conoscenza delle opportunità formative e professionali",
+        "evidence_location": "Pagina 82"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Studio pomeridiano",
+      "categoria_principale": "Studio/Supporto",
+      "descrizione_e_metodologia": "Tempo dedicato allo studio individuale e al lavoro personale, con possibilità di supporto.",
+      "5w_chi": "Studenti volontari",
+      "5w_cosa": "Studio individuale e approfondimento",
+      "5w_dove": "Scuola",
+      "5w_quando": "Ogni giorno dalle 16:00 alle 17:00",
+      "5w_perche": "Abilitare gli alunni a lavorare in modo autonomo e gestire i tempi di studio.",
+      "ore_dichiarate": "1",
+      "target": "Studenti",
+      "evidence_quote": "un tempo di silenzio e concentrazione per rielaborare personalmente quanto appreso nelle lezioni curricolari",
+      "evidence_location": "Pagina 22"
+    },
+    {
+      "titolo_attivita": "Visite guidate e di istruzione",
+      "categoria_principale": "Visita/Uscita Didattica",
+      "descrizione_e_metodologia": "Visite a luoghi culturali per approfondire le conoscenze e favorire la socializzazione.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Visita a luoghi di interesse culturale",
+      "5w_dove": "Luoghi culturali",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Conoscere e visitare luoghi culturali, approfondire i rapporti tra studenti.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "visite guidate e a viaggi di istruzione che consentano agli alunni non solo di conoscere e visitare particolari mete culturali, ma anche di approfondire i loro reciproci rapporti e crescere nell'amicizia di classe",
+      "evidence_location": "Pagina 21"
+    },
+    {
+      "titolo_attivita": "Visite guidate e di istruzione",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visite guidate a luoghi di interesse storico, artistico e culturale.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Visita a musei, città d'arte, aziende.",
+      "5w_dove": "Luoghi di interesse sul territorio",
+      "5w_quando": "II quadrimestre, 16 ore",
+      "5w_perche": "Ampliare le conoscenze, favorire l'esperienza diretta.",
+      "ore_dichiarate": "16",
+      "target": "Tutte le classi",
+      "evidence_quote": "Visite guidate e di istruzione",
+      "evidence_location": "Pagina 21"
+    },
+    {
+      "titolo_attivita": "Soggiorni in montagna",
+      "categoria_principale": "Esperienza Residenziale",
+      "descrizione_e_metodologia": "Soggiorni residenziali in montagna per attività sportive e ricreative.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Attività sportive, giochi, escursioni.",
+      "5w_dove": "Località montane",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere la socializzazione, l'attività fisica e il contatto con la natura.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Soggiorni in montagna",
+      "evidence_location": "Pagina 22"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti di diversi settori per raccontare le loro esperienze e rispondere alle domande degli studenti.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Incontri con professionisti, dibattito, domande e risposte.",
+      "5w_dove": "Aula Magna",
+      "5w_quando": "Durante l'anno scolastico, 8 ore",
+      "5w_perche": "Offrire modelli di riferimento e stimolare la riflessione sulle scelte future.",
+      "ore_dichiarate": "8",
+      "target": "Tutte le classi",
+      "evidence_quote": "Incontri con professionisti per l'orientamento",
+      "evidence_location": "Pagina 83"
+    },
+    {
+      "titolo_attivita": "Assemblee di classe",
+      "categoria_principale": "Riunione",
+      "descrizione_e_metodologia": "Momenti gestiti autonomamente dagli studenti per valutare problemi, proporre iniziative e analizzare l'andamento della classe.",
+      "5w_chi": "Studenti, docenti",
+      "5w_cosa": "Valutazione problemi, proposte, analisi classe.",
+      "5w_dove": "Aula",
+      "5w_quando": "Mensilmente o su autorizzazione",
+      "5w_perche": "Promuovere la partecipazione studentesca e la collaborazione.",
+      "ore_dichiarate": "1-2 ore",
+      "target": "Tutte le classi",
+      "evidence_quote": "È consentita un’assemblea al mese...",
+      "evidence_location": "Pagina 67"
+    },
+    {
+      "titolo_attivita": "Assemblea di Istituto",
+      "categoria_principale": "Riunione",
+      "descrizione_e_metodologia": "Riunione di tutti gli studenti con possibilità di invitare esperti.",
+      "5w_chi": "Studenti, esperti, Direttore, Coordinatori",
+      "5w_cosa": "Discussione su temi sociali, culturali, artistici e scientifici.",
+      "5w_dove": "Locali scolastici",
+      "5w_quando": "Mensilmente, massimo 4 all'anno",
+      "5w_perche": "Promuovere la partecipazione studentesca e l'approfondimento su temi rilevanti.",
+      "ore_dichiarate": "Una giornata",
+      "target": "Tutta la scuola",
+      "evidence_quote": "È consentito lo svolgimento di una assemblea di istituto al mese...",
+      "evidence_location": "Pagina 67-68"
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Benvenuti sul sito dell'IIS Primo Levi di Vignola</title>
+	<meta name="description" content="Istituto di Istruzione Superiore 'Primo Levi'">
+	<meta name="copyright" content="Copyright 2015-2025Istituto di Istruzione Superiore 'Primo Levi'">
+	<meta property="og:url" content="https://www.istitutolevi.edu.it/404.htm">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Benvenuti sul sito dell'IIS Primo Levi di Vignola">
+	<meta property="og:description" content="IIS Primo Levi - Vignola">
+	<meta property="og:image" content="https://www.istitutolevi.edu.it/img/logo-fb.png">
+	<link rel="stylesheet" href="/assets/css/bootstrap-italia.css">
+	<link rel="stylesheet" href="/assets/css/splide.min.css">
+	<link rel="stylesheet" href="/assets/js/components/swiper/swiper-bundle.min.css">	
+    <link rel="stylesheet" href="/assets/css/scuole.css?c=20240229150946">
+	<script src="/assets/js/modernizr.custom.js"></script>
+</head>
+<body>
+<style>
+.cookie-bar {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1100;
+  background-color: #fcfcfc;
+  padding: 24px 32px;
+  border: 1px solid #aaa;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.cookie-bar .btn {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+.cookie-bar .cookie-bar-header {
+  margin-bottom: 26px;
+}
+.cookie-bar .cookie-bar-header h5 {
+  text-align: left;
+  margin-bottom: 22px;
+}
+.cookie-bar .cookie-bar-continua {
+  font-size: 0.8em;
+  padding: 8px 12px 8px 14px;
+  margin-top: -4px;
+  color: #333;
+  background-color: #bbb;
+  text-transform: uppercase;
+}
+.cookie-bar .cookie-bar-continua:hover {
+  background-color: #ccc;
+}
+.cookie-bar .cookie-bar-continua svg {
+  width: 18px;
+  height: 18px;
+  fill: #222;
+  margin-top: -2px;
+  padding-left: 4px;
+}
+.cookie-bar p {
+  font-size: 0.88em;
+  line-height: 1.25em;
+  color: #19191a;
+  margin-bottom: 0;
+}
+.cookie-bar p span {
+  font-size: 0.88em;
+  font-weight: 600;
+}
+.cookie-bar .cookie-bar-buttons {
+  text-align: center;
+  margin-top: 26px;
+}
+.cookie-bar .cookie-bar-buttons .btn-primary {
+  margin-left: 12px;
+}
+.cookie-bar .cookie-bar-indietro {
+  padding-left: 16px;
+}
+.cookie-bar .cookie-bar-indietro svg {
+  width: 20px;
+  height: 20px;
+  margin-top: -2px;
+}
+@media (min-width: 576px) {
+  .cookie-bar .cookie-bar-header {
+    text-align: right;
+  }
+  .cookie-bar .cookie-bar-buttons {
+    text-align: right;
+  }
+  .cookie-bar .cookie-bar-header h5 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .cookie-bar {
+      padding: 32px 48px;
+  }
+}
+@media (min-width: 992px) {
+  .cookie-bar {
+      max-width: 832px;
+      left: 50%;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      border-radius: 4px 4px 0 0;
+  }
+}
+
+/* colori x sito */
+.cookie-bar .cookie-bar-header h5 {
+  color: #51758d;
+}
+.cookie-bar a {
+  color: #51758d;
+}
+.cookie-bar a:hover {
+  color: #D1344C;
+}
+.cookie-bar .btn-outline-primary {
+  color: #51758d;
+  border-color: #51758d;
+  box-shadow: inset 0 0 0 1px #51758d;
+}
+.cookie-bar .btn-outline-primary:hover {
+  color: #D1344C;
+  border-color: #D1344C;
+  box-shadow: inset 0 0 0 1px #D1344C;
+}
+.cookie-bar .btn-primary {
+  color: #fff;
+  background-color: #51758d;
+  border-color: #51758d;
+}
+.cookie-bar .btn-primary:hover {
+  background-color: #D1344C;
+  border-color: #D1344C;
+}
+.cookie-bar .cookie-bar-indietro svg {
+  fill: #51758d;
+}
+.toggles label input[type="checkbox"][disabled] + .lever::after, .toggles label input[type="checkbox"][disabled]:checked + .lever::after {
+  background-color: #9ed99e;
+}
+.toggles label input[type="checkbox"]:checked + .lever::after {
+  background-color: #51758d;
+}
+</style>
+
+<div id="cookie-bar" class="cookie-bar d-none">
+  <div class="clearfix cookie-bar-header">
+    <h5 class="display-5 float-sm-left">Cookie</h5>
+    <button aria-labelledby="a_nome" class="btn btn-info float-sm-right cookie-bar-continua" title="Continua senza accettare">Continua senza accettare <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#svg-cross"></use></svg></button>
+  </div>
+  <div class="clearfix cookie-bar-body">
+    <p>Questo sito utilizza cookie, anche di terze parti, per migliorare l'esperienza di navigazione. Se vuoi saperne di più puoi consultare la nostra <a aria-labelledby="a_nome" href="/info/informativa_privacy_e_cookie.htm#cookie">cookie policy</a>.<br>Premendo <span>"ACCETTA"</span> acconsenti all'uso completo dei cookie.<br>Usa il pulsante <span>"PREFERENZE"</span> per selezionare soltanto alcuni cookie, negare il consenso o revocare quello già prestato.<br>Il pulsante <span>"CONTINUA SENZA ACCETTARE"</span> chiude il banner e continuerai la navigazione con i soli cookie tecnici.</p>
+    <div class="cookie-bar-buttons">
+      <button aria-labelledby="a_nome" class="btn btn-outline-primary cookie-bar-preferenze" title="Preferenze">Preferenze</button>
+      <button aria-labelledby="a_nome" class="btn btn-primary cookie-bar-accetta" title="Accetta">Accetta</button>
+    </div>
+  </div>
+  <div class="div-preferenze" style="display: none">
+
+    <div class="mt-4">
+      <div class="row">
+        <div class="col-5">
+          <div class="form-check">
+            <div class="toggles">
+              <label for="tgCT">
+                Cookie tecnici
+                <input type="checkbox" id="tgCT" aria-labelledby="tgCT-help" disabled checked>
+                <span class="lever"></span>
+              </label>
+            </div>
+            <small id="tgCT-help" class="form-text">Il sito utilizza cookie tecnici al fine di fornire un migliore servizio di consultazione dei contenuti.</small>
+          </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+          <div class="form-check">
+            <div class="toggles">
+              <label for="tgCP">
+                Cookie di profilazione
+                <input type="checkbox" id="tgCP" aria-labelledby="tgCP-help">
+                <span class="lever"></span>
+              </label>
+            </div>
+            <small id="tgCP-help" class="form-text">Il sito utilizza cookie di profilazione di terze parti (YouTube) per analizzare il comportamento e le scelte degli utenti al fine di proporre contenuti mirati.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cookie-bar-buttons">
+      <button aria-labelledby="a_nome" class="btn btn-outline-primary cookie-bar-indietro" title="Indietro"><svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-arrow-left"></use></svg> Indietro</button>
+      <button aria-labelledby="a_nome" class="btn btn-primary cookie-bar-salva" title="Salva preferenze">Salva preferenze</button>
+    </div>
+  </div>
+</div>
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right perfect-scrollbar">
+		<div class="menu-user-mobile menu-user-blue"></div>
+	</nav>
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-search perfect-scrollbar">
+    <div class="menu-mobile-header d-flex justify-content-between align-items-center">
+      <div class="mobile-header-control d-flex align-items-center">
+        <a class="menu-mobile-close mr-2" href="#">
+          <svg class="it-arrow-left"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#it-arrow-left"></use></svg>
+        </a>
+        <p class="mb-0"><strong>Filtri</strong></p>
+      </div>
+      <a class="text-uppercase text-primary" href="#"><strong>Conferma</strong></a>
+    </div>
+    <div class="search-results-filters-mobile"></div>
+  </nav>
+    <div id="main-wrapper" class="push_container">
+<div class="skiplink sr-only">
+ 	<ul>
+  	<li><a class="sr-only sr-only-focusable" href="#main-container">Vai ai contenuti</a></li>
+   	<li><a class="sr-only sr-only-focusable" href="#menu-principale">Vai al menu di navigazione</a></li>
+ 	<li><a class="sr-only sr-only-focusable" href="#footer-wrapper">Vai al footer</a></li>
+  </ul>
+</div>
+      <header id="main-header" class="bg-white">
+        <div id="pre-header" class="bg-petrol">
+          <div class="container">
+            <div class="row variable-gutters">
+              <div class="col-8 data-ist"><a href="https://www.miur.gov.it/" target="_blank" aria-label="Ministero dell'Istruzione e del Merito - Collegamento esterno - Apre su nuova scheda"><strong>MIM</strong></a> - <strong><a href="tel:+39059771195" title="Chiama l'Istituto di Istruzione Superiore 'Primo Levi'"><svg class="svg-phone"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-phone"></use></svg>059 771195</a></strong> - <strong><a href="/cdn-cgi/l/email-protection#94f9fbfde7a4a4a6a4a4f7d4fde7e0e6e1eefdfbfaf1bafde0" title="Scrivi all'Istituto di Istruzione Superiore 'Primo Levi'"><svg class="svg-envelope"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-envelope"></use></svg><span class="d-none d-xl-inline"><span class="__cf_email__" data-cfemail="472a282e34777775777724072e343335323d2e282922692e33">[email&#160;protected]</span></span></a></strong><span class="d-none d-xl-inline"> - <strong><a href="/cdn-cgi/l/email-protection#7c1113150f4c4c4e4c4c1f3c0c191f52150f080e090615131219521508" title="Scrivi una PEC all'Istituto di Istruzione Superiore 'Primo Levi'"><svg class="svg-envelope"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-envelope"></use></svg><span class="__cf_email__" data-cfemail="54393b3d27646466646437142431377a3d272026212e3d3b3a317a3d20">[email&#160;protected]</span></a></strong></span><span class="d-none d-xl-inline"> - <abbr title="Codice Meccanografico dell'Istituto di Istruzione Superiore 'Primo Levi'">Cod. Mecc.</abbr> <strong>mois00200c</strong></span></div>
+             <div class="col-4 header-utils-wrapper">
+               <div class="header-utils">
+                 <button type="button" class="icon-text" data-toggle="modal" data-target="#access-modal">
+                   <span class="mr-2">Accedi</span>
+                   <div class="icon-wrapper"><svg class="svg-user"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-user"></use></svg></div>
+                 </button>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="container header-top">
+          <div class="row variable-gutters">
+            <div class="col-8 d-flex align-items-center">
+              <button class="hamburger hamburger--spin-r toggle-menu menu-left push-body d-xl-none" type="button" aria-label="apri chiudi navigazione"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+              <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left perfect-scrollbar">
+              <div class="logo-header"><svg class="emblema-italia"><use xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" xlink:href="/assets/svg/sprite.svg#emblema-italia"></use></svg><div class="h1"><span>Istituto di Istruzione Superiore</span><span><strong>Primo Levi</strong></span><span>Vignola</span></div></div>
+                <div class="nav-list-mobile dl-menuwrapper">
+
+    <nav aria-label="Principale">
+      <ul class="dl-menu nav-list nav-list-primary" data-element="menu">
+        <li class="text-redbrown menu-dropdown-simple-wrapper">
+          <a class="toggle-dropdown toggle-dropdown-simple" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Scuola" id="mainNavDropdown1-mob">Scuola</a>
+          <ul class="menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown1-mob" data-element="school-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown1-mob" href="/scuola_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/presentazione/index.htm" class="list-item">Presentazione</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/la_storia/index.htm" class="list-item">La storia</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/scuola_i_luoghi.htm" data-element="school-locations" class="list-item">I luoghi della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/le_persone/" class="list-item">Le persone</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/scuola_i_numeri.htm" class="list-item">I numeri della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/carte_della_scuola/" class="list-item">Le carte della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/organizzazione/" class="list-item">Organizzazione</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/orientamento_permanente/orientamento.htm" class="list-item">Orientamento permanente</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/vita_della_scuola/" class="list-item">Vita della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/sicurezza/index.htm" class="list-item">Sicurezza</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/privacy/" class="list-item">Privacy</a></li>
+          </ul>
+        </li>
+        <li class="text-purplelight menu-dropdown-simple-wrapper">
+          <a class="toggle-dropdown toggle-dropdown-simple" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Servizi" id="mainNavDropdown2-mob">Servizi</a>
+          <ul class="menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown2-mob" data-element="services-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown2-mob" href="/servizi_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/famiglie_e_studenti/" data-element="service-type" class="list-item">Famiglie e studenti</a></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/personale_scolastico/" data-element="service-type" class="list-item">Personale scolastico</a></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/percorsi_di_studio/" data-element="service-type" class="list-item">Percorsi di studio</a></li>
+          </ul>
+        </li>
+        <li class="text-greendark menu-dropdown-simple-wrapper">
+          <a class="toggle-dropdown toggle-dropdown-simple" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Novità" id="mainNavDropdown3-mob">Novità</a>
+          <ul class="menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown3-mob" data-element="news-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown3-mob" href="/novita_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/tutte_le_notizie.htm" class="list-item">Le notizie</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/circolari/" class="list-item">Le circolari</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/tutti_gli_appuntamenti.htm" class="list-item">Calendario eventi</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/albo_online/albo_online.htm" class="list-item">Albo online</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/formazione_rete_ambito_11/fra11_2223.htm" class="list-item">Formazione Ambito 11</a></li>
+          </ul>
+        </li>
+        <li class="text-bluelectric menu-dropdown-simple-wrapper">
+          <a class="toggle-dropdown toggle-dropdown-simple" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Didattica" id="mainNavDropdown4-mob">Didattica</a>
+          <ul class="menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown4-mob" data-element="teaching-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown4-mob" href="/didattica_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/didattica_panoramica.htm" target="_blank" class="list-item">Offerta formativa</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/curricoli/" class="list-item">Curricoli d&#39;Istituto</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/progetti_delle_classi/" class="list-item">I progetti delle classi</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/progetti_delle_classi/progetti_di_orientamento/pcto/" class="list-item">I progetti di PCTO</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/erasmus/" class="list-item">Eramsus+</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/schede_didattiche/" class="list-item">Schede didattiche</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+    <nav class="nwarg">
+      <ul class="nav-list nav-list-secondary">
+        <li class="d-none d-lg-block d-xl-block">
+          				<div class="header-search d-flex align-items-center">
+					<button type="button" class="d-flex align-items-center search-btn" data-toggle="modal" data-target="#search-modal" aria-label="Cerca nel sito" data-element="search-modal-button">
+					<span class="d-none d-lg-block mr-2"><strong>Cerca</strong></span>
+					<svg class="svg-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-search"></use></svg>
+					</button>
+				</div>
+
+        </li>
+        <li>
+          <a href="/circolari/" class="text-greendark font-weight-bold pr-0">Circolari</a>
+        </li>
+        <li>
+          <a href="/contatti/">Contatti</a>
+        </li>
+        <li class="d-none d-lg-block d-xl-block">
+          
+      <div class="header-social">
+        
+        <div class="header-social-wrapper">
+          <a href="https://it-it.facebook.com/primolevi.vignola.official" target="_blank" aria-label="facebook" title="vai alla pagina facebook"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+          <a href="https://www.youtube.com/channel/UC9VO5Eno0m0AFJE92fiufuw" target="_blank" aria-label="youtube" title="vai alla pagina youtube"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          <a href="https://www.instagram.com/iis.primolevi/" target="_blank" aria-label="instagram" title="vai alla pagina instagram"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg></a>
+        </div>
+      </div>
+
+        </li>
+      </ul>
+    </nav>
+
+                </div>
+              </div>
+              <div class="logo-header"><a href="/" class="d-inline-flex" aria-label="home Istituto di Istruzione Superiore 'Primo Levi'" title="vai alla home page"><svg class="emblema-italia"><use xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" xlink:href="/assets/svg/sprite.svg#emblema-italia"></use></svg></a><a href="/" class="d-inline-flex" aria-label="home Istituto di Istruzione Superiore 'Primo Levi'" title="vai alla home page"><div class="h1"><span>Istituto di Istruzione Superiore</span><span><strong>Primo Levi</strong></span><span>Vignola</span></div></a></div>
+              <div class="sticky-main-nav"></div>
+            </div>
+            <div class="col-4 d-flex align-items-center justify-content-end">
+				<div class="header-search d-flex align-items-center sec-search-levi">
+					<button type="button" class="d-flex align-items-center search-btn" data-toggle="modal" data-target="#search-modal" aria-label="Cerca nel sito" data-element="search-modal-button">
+					<span class="d-none d-lg-block mr-2"><strong>Cerca</strong></span>
+					<svg class="svg-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-search"></use></svg>
+					</button>
+				</div>
+				<div class="header-logo-levi d-flex align-items-center"><img src="/img/logo-levi-s.png" title="Logo Istituto di Istruzione Superiore 'Primo Levi' Vignola"><h4>Scienza<br>Tecnologia<br>Impresa</h4></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white d-none d-xl-block header-bottom" id="sub-nav">
+          <div class="container">
+            <div class="row variable-gutters">
+              <div class="col nav-container">
+
+    <nav aria-label="Principale" class="main-nav" id="menu-principale">
+      <ul class="dl-menu nav-list nav-list-primary" data-element="menu">
+        <li class="text-redbrown menu-dropdown-simple-wrapper">
+          <a class="nav-link dropdown-toggle"  data-toggle="dropdown" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Scuola" id="mainNavDropdown1-mob">Scuola</a>
+          <div class="dropdown-menu menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown1-mob">
+            <div class="link-list-wrapper">
+          <ul class="link-list" aria-labelledby="mainNavDropdown1-mob" data-element="school-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown1-mob" href="/scuola_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/presentazione/index.htm" class="list-item">Presentazione</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/la_storia/index.htm" class="list-item">La storia</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/scuola_i_luoghi.htm" data-element="school-locations" class="list-item">I luoghi della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/le_persone/" class="list-item">Le persone</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/scuola_i_numeri.htm" class="list-item">I numeri della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/carte_della_scuola/" class="list-item">Le carte della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/organizzazione/" class="list-item">Organizzazione</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/orientamento_permanente/orientamento.htm" class="list-item">Orientamento permanente</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/vita_della_scuola/" class="list-item">Vita della scuola</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/sicurezza/index.htm" class="list-item">Sicurezza</a></li>
+            <li><a aria-labelledby="mainNavDropdown1-mob_s_1" href="/privacy/" class="list-item">Privacy</a></li>
+          </ul>
+            </div>
+          </div>
+        </li>
+        <li class="text-purplelight menu-dropdown-simple-wrapper">
+          <a class="nav-link dropdown-toggle"  data-toggle="dropdown" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Servizi" id="mainNavDropdown2-mob">Servizi</a>
+          <div class="dropdown-menu menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown2-mob">
+            <div class="link-list-wrapper">
+          <ul class="link-list" aria-labelledby="mainNavDropdown2-mob" data-element="services-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown2-mob" href="/servizi_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/famiglie_e_studenti/" data-element="service-type" class="list-item">Famiglie e studenti</a></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/personale_scolastico/" data-element="service-type" class="list-item">Personale scolastico</a></li>
+            <li><a aria-labelledby="mainNavDropdown2-mob_s_2" href="/percorsi_di_studio/" data-element="service-type" class="list-item">Percorsi di studio</a></li>
+          </ul>
+            </div>
+          </div>
+        </li>
+        <li class="text-greendark menu-dropdown-simple-wrapper">
+          <a class="nav-link dropdown-toggle"  data-toggle="dropdown" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Novità" id="mainNavDropdown3-mob">Novità</a>
+          <div class="dropdown-menu menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown3-mob">
+            <div class="link-list-wrapper">
+          <ul class="link-list" aria-labelledby="mainNavDropdown3-mob" data-element="news-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown3-mob" href="/novita_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/tutte_le_notizie.htm" class="list-item">Le notizie</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/circolari/" class="list-item">Le circolari</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/tutti_gli_appuntamenti.htm" class="list-item">Calendario eventi</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/albo_online/albo_online.htm" class="list-item">Albo online</a></li>
+            <li><a aria-labelledby="mainNavDropdown3-mob_s_3" href="/formazione_rete_ambito_11/fra11_2223.htm" class="list-item">Formazione Ambito 11</a></li>
+          </ul>
+            </div>
+          </div>
+        </li>
+        <li class="text-bluelectric menu-dropdown-simple-wrapper">
+          <a class="nav-link dropdown-toggle"  data-toggle="dropdown" role="button" href="#" aria-expanded="false" title="Vai alla pagina: Didattica" id="mainNavDropdown4-mob">Didattica</a>
+          <div class="dropdown-menu menu-dropdown dl-submenu menu-dropdown-simple" aria-labelledby="mainNavDropdown4-mob">
+            <div class="link-list-wrapper">
+          <ul class="link-list" aria-labelledby="mainNavDropdown4-mob" data-element="teaching-submenu">
+            <li class="menu-title"><div class="h3"><a aria-labelledby="mainNavDropdown4-mob" href="/didattica_panoramica.htm" data-element="overview">Panoramica</a></div></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/didattica_panoramica.htm" target="_blank" class="list-item">Offerta formativa</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/curricoli/" class="list-item">Curricoli d&#39;Istituto</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/progetti_delle_classi/" class="list-item">I progetti delle classi</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/progetti_delle_classi/progetti_di_orientamento/pcto/" class="list-item">I progetti di PCTO</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/erasmus/" class="list-item">Eramsus+</a></li>
+            <li><a aria-labelledby="mainNavDropdown4-mob_s_4" href="/schede_didattiche/" class="list-item">Schede didattiche</a></li>
+          </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+
+    <nav class="nwarg">
+      <ul class="nav-list nav-list-secondary">
+        <li class="d-none d-lg-block d-xl-block">
+          				<div class="header-search d-flex align-items-center">
+					<button type="button" class="d-flex align-items-center search-btn" data-toggle="modal" data-target="#search-modal" aria-label="Cerca nel sito" data-element="search-modal-button">
+					<span class="d-none d-lg-block mr-2"><strong>Cerca</strong></span>
+					<svg class="svg-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-search"></use></svg>
+					</button>
+				</div>
+
+        </li>
+        <li>
+          <a href="/circolari/" class="text-greendark font-weight-bold pr-0">Circolari</a>
+        </li>
+        <li>
+          <a href="/contatti/">Contatti</a>
+        </li>
+        <li class="d-none d-lg-block d-xl-block">
+          
+      <div class="header-social">
+        
+        <div class="header-social-wrapper">
+          <a href="https://it-it.facebook.com/primolevi.vignola.official" target="_blank" aria-label="facebook" title="vai alla pagina facebook"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+          <a href="https://www.youtube.com/channel/UC9VO5Eno0m0AFJE92fiufuw" target="_blank" aria-label="youtube" title="vai alla pagina youtube"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          <a href="https://www.instagram.com/iis.primolevi/" target="_blank" aria-label="instagram" title="vai alla pagina instagram"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg></a>
+        </div>
+      </div>
+
+        </li>
+      </ul>
+    </nav>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="false">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content perfect-scrollbar">
+            <div class="modal-body">
+              <form action="/esito_ricerca.htm">
+                <div class="container">
+                  <div class="row variable-gutters">
+                    <div class="col">
+                      <h2 id="searchModal" class="h2 pb-3">Cerca <button type="button" class="close dismiss" data-dismiss="modal" aria-label="Chiudi"><svg class="svg-cancel-large" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-cancel-large"></use></svg></button></h2>
+                      <div class="form-group search-form">
+                        <label for="search-input">Cerca informazioni</label>
+                        <input data-element="search-modal-input" id="search-input" name="key" type="text" class="form-control" placeholder="Cerca informazioni">
+                        <button type="button" class="clean-input" aria-label="Elimina testo di ricerca"><svg class="svg-cancel-large" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-cancel-large"></use></svg></button>
+                        <button type="button" class="search-btn" aria-label="avvia la ricerca" data-element="search-submit"><svg class="svg-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-search"></use></svg></button>
+                      </div>
+                      <div class="cat-filters">
+                        <div class="custom-control custom-submit-primary"><button type="submit" class="custom-control-submit" id="tutto" name="ph" value="0">Cerca in <strong class="text-uppercase text-small-bold">tutto il sito</strong></button></div>
+                        <div class="custom-control custom-submit-redbrown"><button type="submit" class="custom-control-submit" id="scuola" name="ph" value="1">Cerca nella sezione <strong class="text-uppercase text-small-bold">scuola</strong></button></div>
+                        <div class="custom-control custom-submit-purplelight"><button type="submit" class="custom-control-submit" id="servizi" name="ph" value="2">Cerca nei <strong class="text-uppercase text-small-bold">servizi</strong></button></div>
+                        <div class="custom-control custom-submit-greendark"><button type="submit" class="custom-control-submit" id="notizie" name="ph" value="3">Cerca tra le <strong class="text-uppercase text-small-bold">novità</strong></button></div>
+                        <div class="custom-control custom-submit-bluelectric"><button type="submit" class="custom-control-submit" id="didattica" name="ph" value="4">Cerca nella <strong class="text-uppercase text-small-bold">didattica</strong></button></div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row variable-gutters">
+                      <div class="col-12">
+                        <div class="badges-wrapper">
+    <h3 class="h4">Potrebbero interessarti</h3>
+    <div class="badges">
+    <a href="/esito_ricerca.htm?tag=3" class="badge badge-sm badge-pill badge-outline-primary">Albo Sindacale</a>
+    <a href="/esito_ricerca.htm?tag=4" class="badge badge-sm badge-pill badge-outline-primary">Alternanza scuola lavoro</a>
+    <a href="/esito_ricerca.htm?tag=5" class="badge badge-sm badge-pill badge-outline-primary">Alternativa all&#39;ora di religione</a>
+    <a href="/esito_ricerca.htm?tag=6" class="badge badge-sm badge-pill badge-outline-primary">Alunni</a>
+    <a href="/esito_ricerca.htm?tag=7" class="badge badge-sm badge-pill badge-outline-primary">Ammesso / Non ammesso</a>
+    <a href="/esito_ricerca.htm?tag=9" class="badge badge-sm badge-pill badge-outline-primary">Attività extracurricolari</a>
+    <a href="/esito_ricerca.htm?tag=13" class="badge badge-sm badge-pill badge-outline-primary">Aule</a>
+    <a href="/esito_ricerca.htm?tag=14" class="badge badge-sm badge-pill badge-outline-primary">Bacheca sindacale</a>
+    <a href="/esito_ricerca.htm?tag=16" class="badge badge-sm badge-pill badge-outline-primary">Biblioteca</a>
+    <a href="/esito_ricerca.htm?tag=18" class="badge badge-sm badge-pill badge-outline-primary">Calendario</a>
+    <a href="/esito_ricerca.htm?tag=22" class="badge badge-sm badge-pill badge-outline-primary">Circolari</a>
+    <a href="/esito_ricerca.htm?tag=29" class="badge badge-sm badge-pill badge-outline-primary">Didattica</a>
+    <a href="/esito_ricerca.htm?tag=33" class="badge badge-sm badge-pill badge-outline-primary">Domande frequenti</a>
+    <a href="/esito_ricerca.htm?tag=37" class="badge badge-sm badge-pill badge-outline-primary">Erasmus</a>
+    <a href="/esito_ricerca.htm?tag=38" class="badge badge-sm badge-pill badge-outline-primary">Esame, esame di stato</a>
+    <a href="/esito_ricerca.htm?tag=42" class="badge badge-sm badge-pill badge-outline-primary">Formazione docenti</a>
+    <a href="/esito_ricerca.htm?tag=44" class="badge badge-sm badge-pill badge-outline-primary">Gare sportive</a>
+    <a href="/esito_ricerca.htm?tag=45" class="badge badge-sm badge-pill badge-outline-primary">Genitori</a>
+    <a href="/esito_ricerca.htm?tag=48" class="badge badge-sm badge-pill badge-outline-primary">Gita scolastica</a>
+    <a href="/esito_ricerca.htm?tag=52" class="badge badge-sm badge-pill badge-outline-primary">Insegnanti</a>
+    <a href="/esito_ricerca.htm?tag=54" class="badge badge-sm badge-pill badge-outline-primary">Iscrizioni</a>
+    <a href="/esito_ricerca.htm?tag=55" class="badge badge-sm badge-pill badge-outline-primary">Istituto</a>
+    <a href="/esito_ricerca.htm?tag=56" class="badge badge-sm badge-pill badge-outline-primary">Italiano</a>
+    <a href="/esito_ricerca.htm?tag=59" class="badge badge-sm badge-pill badge-outline-primary">Lettere</a>
+    <a href="/esito_ricerca.htm?tag=60" class="badge badge-sm badge-pill badge-outline-primary">Libri di testo</a>
+    <a href="/esito_ricerca.htm?tag=62" class="badge badge-sm badge-pill badge-outline-primary">Lingua inglese</a>
+    <a href="/esito_ricerca.htm?tag=66" class="badge badge-sm badge-pill badge-outline-primary">Matematica</a>
+    <a href="/esito_ricerca.htm?tag=68" class="badge badge-sm badge-pill badge-outline-primary">Modulistica</a>
+    <a href="/esito_ricerca.htm?tag=70" class="badge badge-sm badge-pill badge-outline-primary">Notizie</a>
+    <a href="/esito_ricerca.htm?tag=71" class="badge badge-sm badge-pill badge-outline-primary">Offerta formativa</a>
+    <a href="/esito_ricerca.htm?tag=72" class="badge badge-sm badge-pill badge-outline-primary">Open Day</a>
+    <a href="/esito_ricerca.htm?tag=73" class="badge badge-sm badge-pill badge-outline-primary">Orario</a>
+    <a href="/esito_ricerca.htm?tag=74" class="badge badge-sm badge-pill badge-outline-primary">Organigramma</a>
+    <a href="/esito_ricerca.htm?tag=75" class="badge badge-sm badge-pill badge-outline-primary">Orientamento</a>
+    <a href="/esito_ricerca.htm?tag=76" class="badge badge-sm badge-pill badge-outline-primary">Pagamenti</a>
+    <a href="/esito_ricerca.htm?tag=78" class="badge badge-sm badge-pill badge-outline-primary">Personale ATA</a>
+    <a href="/esito_ricerca.htm?tag=80" class="badge badge-sm badge-pill badge-outline-primary">PON - Programma Operativo Nazionale</a>
+    <a href="/esito_ricerca.htm?tag=88" class="badge badge-sm badge-pill badge-outline-primary">Rassegna stampa</a>
+    <a href="/esito_ricerca.htm?tag=90" class="badge badge-sm badge-pill badge-outline-primary">Registro elettronico</a>
+    <a href="/esito_ricerca.htm?tag=91" class="badge badge-sm badge-pill badge-outline-primary">Regolamento d&#39;istituto</a>
+    <a href="/esito_ricerca.htm?tag=93" class="badge badge-sm badge-pill badge-outline-primary">RSU - Rappresentanza Sindacale Unitaria</a>
+    <a href="/esito_ricerca.htm?tag=94" class="badge badge-sm badge-pill badge-outline-primary">Scambi culturali</a>
+    <a href="/esito_ricerca.htm?tag=99" class="badge badge-sm badge-pill badge-outline-primary">Scuola secondaria</a>
+    <a href="/esito_ricerca.htm?tag=100" class="badge badge-sm badge-pill badge-outline-primary">Sedi</a>
+    <a href="/esito_ricerca.htm?tag=101" class="badge badge-sm badge-pill badge-outline-primary">Segreteria</a>
+    <a href="/esito_ricerca.htm?tag=102" class="badge badge-sm badge-pill badge-outline-primary">Servizi</a>
+    <a href="/esito_ricerca.htm?tag=103" class="badge badge-sm badge-pill badge-outline-primary">Sicurezza</a>
+    <a href="/esito_ricerca.htm?tag=104" class="badge badge-sm badge-pill badge-outline-primary">Sindacati</a>
+    </div>
+  </div>
+        
+                      </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="modal fade" id="access-modal" tabindex="-1" role="dialog" aria-labelledby="accessModal" aria-hidden="false">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content perfect-scrollbar">
+                  <div class="modal-body">
+                    <form class="access-main-wrapper" name="frmUtentiM" method="post" action="/ar.htm">
+                      <div class="container">
+                        <div class="row variable-gutters mb-0 mb-lg-4 mb-xl-5">
+                          <div class="col">
+                            <h2 class="d-inline" id="accessModal">Accedi ai servizi</h2>
+                            <button type="button" class="close dismiss" data-dismiss="modal" aria-label="Chiudi">
+                              <svg class="svg-cancel-large"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/svg/sprite.svg#svg-cancel-large"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="row variable-gutters justify-content-center pt-4 pt-xl-5">
+                          <div class="col-lg-4">
+                            <p class="text-intro">Da qui puoi accedere ai diversi servizi della scuola che richiedono un'autenticazione personale</p>
+                            <div class="access-buttons">
+                              <a class="btn btn-petrol btn-block btn-lg rounded mb-3" href="#" data-focus-mouse="false">Registro insegnanti</a>
+                              <a class="btn btn-petrol btn-block btn-lg rounded mb-3" href="#">Registro genitori</a>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 offset-lg-2 access-mobile-bg">
+                            <div class="access-login">
+
+                              
+
+                              <h3>Personale scolastico</h3>
+                              <p class="text-large">Entra nell'area riservata del sito della scuola</p>
+                              <div class="access-login-form">
+                                <div class="form-group">
+                                  <label for="suid">Username</label>
+                                  <input id="suid" name="suid" type="text" class="form-control" placeholder="Il tuo username">
+                                </div>
+                                <div class="form-group mb-3">
+                                  <label for="spwd">Password</label>
+                                  <input id="spwd" name="spwd" type="password" class="form-control" placeholder="La tua password">
+                                </div>
+                                <div class="row variable-gutters">
+                                  <div class="col-lg-6 mb-4">
+                                  </div>
+                                  <div class="col-lg-6 mb-4">
+                                    <button type="submit" class="btn btn-white btn-block rounded" name="login" value="Accedi">Accedi</button>
+                                  </div>
+                                </div>
+                              </div>
+
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <main id="main-container" class="main-container ">
+
+        <section class="section py-2 bg-white d-none d-sm-block">
+          <div class="container">
+            <div class="row variable-gutters">
+              <div class="col-12">
+                <div class="breadcrumb">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumbs-list" data-element="breadcrumb">
+                                          <li class="breadcrumb-item"><a href="/" aria-labelledby="a_nome" title="Vai alla pagina: Home">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page"><span>Errore 404</span></li>
+
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section bg-white">
+            <div class="container">
+                <article class="article-wrapper">
+                    <div class="box_404 text-center clearfix">
+                        <h1 class="xl">404</h1>
+                        <h2>Pagina non trovata</h2>
+                        <p>Oops!<br>La pagina che cerchi non è stata trovata, utilizza il menu o il motore di ricerca per continuare la navigazione.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        </main>
+
+    <footer id="footer-wrapper" class="footer-wrapper">
+      <div class="container">
+
+        <div class="row variable-gutters mb-5">
+          <div class="col logos-wrapper">
+            <img class="ue-logo" src="/assets/img/logo-eu-inverted.svg" width="254" height="80" alt="Finanziato dall' Unione Europea - Next generation EU">
+            <div class="logo-footer">
+              <svg class="emblema-italia"><use xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" xlink:href="/assets/svg/sprite.svg#emblema-italia"></use></svg><p class="h1"><span>Istituto di Istruzione Superiore</span><span><strong>Primo Levi</strong></span><span>Vignola</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row variable-gutters mb-3">
+          <div class="col-lg-3">
+            <h2 class="h3">Link esterni</h2>
+            <div class="footer-list">
+              <ul>
+                <li><a class="text-underline-hover" href="https://www.miur.gov.it/" target="_blank" aria-label="Ministero dell'Istruzione e del Merito- MIM - link esterno - apertura nuova scheda">Ministero dell'Istruzione e del Merito</a></li>
+                <li><a class="text-underline-hover" href="https://www.istruzioneer.gov.it/" target="_blank" aria-label="Ufficio Scolastico Regionale - link esterno - apertura nuova scheda">Ufficio Scolastico Regionale</a></li>
+                <li><a class="text-underline-hover" href="https://mo.istruzioneer.gov.it/" target="_blank" aria-label="Ufficio Scolastico Territoriale - link esterno - apertura nuova scheda">Ufficio Scolastico Territoriale</a></li>
+                <li><a class="text-underline-hover" href="https://cercalatuascuola.istruzione.it/cercalatuascuola/" target="_blank" aria-label="Scuola in Chiaro - link esterno - apertura nuova scheda">Scuola in Chiaro</a></li>
+                <li><a class="text-underline-hover" href="#" aria-label="Iscrizioni On LIne">Iscrizioni On Line</a></li>
+                <li><a class="text-underline-hover" href="https://www.invalsi.it/invalsi/" target="_blank" aria-label="Invalsi - link esterno - apertura nuova scheda">Invalsi</a></li>
+              </ul>
+            </div>
+          </div>          
+          <div class="col-lg-3">
+            
+      <h2 class="h3">Scuola</h2>
+      <div class="footer-list">
+          <ul>
+            <li><a class="text-underline-hover" href="/presentazione/index.htm">Presentazione</a></li>
+            <li><a class="text-underline-hover" href="/la_storia/index.htm">La storia</a></li>
+            <li><a class="text-underline-hover" href="/scuola_i_luoghi.htm" data-element="school-locations">I luoghi della scuola</a></li>
+            <li><a class="text-underline-hover" href="/le_persone/">Le persone</a></li>
+            <li><a class="text-underline-hover" href="/scuola_i_numeri.htm">I numeri della scuola</a></li>
+            <li><a class="text-underline-hover" href="/carte_della_scuola/">Le carte della scuola</a></li>
+            <li><a class="text-underline-hover" href="/organizzazione/">Organizzazione</a></li>
+            <li><a class="text-underline-hover" href="/orientamento_permanente/orientamento.htm">Orientamento permanente</a></li>
+            <li><a class="text-underline-hover" href="/vita_della_scuola/">Vita della scuola</a></li>
+            <li><a class="text-underline-hover" href="/sicurezza/index.htm">Sicurezza</a></li>
+            <li><a class="text-underline-hover" href="/privacy/">Privacy</a></li>
+          </ul>
+        </div>
+           
+          </div>
+          <div class="col-lg-3">
+            
+      <h2 class="h3">Servizi</h2>
+      <div class="footer-list">
+          <ul>
+            <li><a class="text-underline-hover" href="/famiglie_e_studenti/" data-element="service-type">Famiglie e studenti</a></li>
+            <li><a class="text-underline-hover" href="/personale_scolastico/" data-element="service-type">Personale scolastico</a></li>
+            <li><a class="text-underline-hover" href="/percorsi_di_studio/" data-element="service-type">Percorsi di studio</a></li>
+          </ul>
+        </div>
+
+      <h2 class="h3">Didattica</h2>
+      <div class="footer-list">
+          <ul>
+            <li><a class="text-underline-hover" href="/didattica_panoramica.htm" target="_blank">Offerta formativa</a></li>
+            <li><a class="text-underline-hover" href="/curricoli/">Curricoli d&#39;Istituto</a></li>
+            <li><a class="text-underline-hover" href="/progetti_delle_classi/">I progetti delle classi</a></li>
+            <li><a class="text-underline-hover" href="/progetti_delle_classi/progetti_di_orientamento/pcto/">I progetti di PCTO</a></li>
+            <li><a class="text-underline-hover" href="/erasmus/">Eramsus+</a></li>
+            <li><a class="text-underline-hover" href="/schede_didattiche/">Schede didattiche</a></li>
+          </ul>
+        </div>
+            
+          </div>
+          <div class="col-lg-3">
+            
+      <h2 class="h3">Novità</h2>
+      <div class="footer-list">
+          <ul>
+            <li><a class="text-underline-hover" href="/tutte_le_notizie.htm">Le notizie</a></li>
+            <li><a class="text-underline-hover" href="/circolari/">Le circolari</a></li>
+            <li><a class="text-underline-hover" href="/tutti_gli_appuntamenti.htm">Calendario eventi</a></li>
+            <li><a class="text-underline-hover" href="/albo_online/albo_online.htm">Albo online</a></li>
+            <li><a class="text-underline-hover" href="/formazione_rete_ambito_11/fra11_2223.htm">Formazione Ambito 11</a></li>
+          </ul>
+        </div>
+
+          </div>
+        </div>
+
+        <div class="row variable-gutters">
+          <div class="col-lg-12 sub-footer">
+            <ul id="menu-footer" class="footer-inline-menu">
+              <li><a class="text-underline-hover" href="/amministrazione_trasparente/amministrazione_trasparente.htm">Amministrazione Trasparente</a></li>
+              <li><a class="text-underline-hover" href="/albo_online/albo_online.htm">Albo online</a></li>
+              <li><a class="text-underline-hover" href="/info/informativa_privacy_e_cookie.htm" data-element="privacy-policy-link">Privacy Policy</a></li>
+              <li><a class="text-underline-hover" href="/note_legali.htm" data-element="legal-notes">Note legali</a></li>
+              <li><a class="text-underline-hover" href="/feedback/" data-element="feedback-link">Meccanismo di feedback</a></li>
+              <li><a class="text-underline-hover" href="https://form.agid.gov.it/view/e7aae8f0-d57d-11ee-a992-9900a07ec14d/" target="_blank" data-element="accessibility-link">Dichiarazioni di accessibilità</a></li>
+              <li><a class="text-underline-hover cookie-bar-preferenze-open" href="#" data-element="cookie-bar-link">Preferenze cookie</a></li>
+            </ul>
+			
+      <div class="footer-social">
+        
+        <div class="footer-social-wrapper">
+          <a href="https://it-it.facebook.com/primolevi.vignola.official" target="_blank" aria-label="facebook" title="vai alla pagina facebook"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+          <a href="https://www.youtube.com/channel/UC9VO5Eno0m0AFJE92fiufuw" target="_blank" aria-label="youtube" title="vai alla pagina youtube"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          <a href="https://www.instagram.com/iis.primolevi/" target="_blank" aria-label="instagram" title="vai alla pagina instagram"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg></a>
+        </div>
+      </div>
+
+          </div>
+        </div>
+
+        <div class="row variable-gutters mb-3">
+          <div class="col-lg-12 text-left text-md-center footer-text">
+            <p><strong>Istituto di Istruzione Superiore 'Primo Levi'</strong></p>
+            <p class="pt-2">Via Resistenza, 800 - 41058 Vignola (MO) - Tel. 059 771195 - Fax 059 764354 -	Email: <a aria-labelledby="a_nome" href="/cdn-cgi/l/email-protection#117c7e78622121232121725178626563646b787e7f743f7865" title="Scrivi una email all'indirizzo mois00200c@istruzione.it"><span class="__cf_email__" data-cfemail="e78a888e94d7d7d5d7d784a78e949395929d8e888982c98e93">[email&#160;protected]</span></a> - PEC: <a aria-labelledby="a_nome" href="/cdn-cgi/l/email-protection#25484a4c56151517151546655540460b4c565157505f4c4a4b400b4c51" title="Scrivi una email all'indirizzo PEC mois00200c@pec.istruzione.it"><span class="__cf_email__" data-cfemail="fa97959389cacac8caca99ba8a9f99d493898e888f809395949fd4938e">[email&#160;protected]</span></a><br>Codice meccanografico: mois00200c - C.F. 94058180368</p>
+            <p class="pt-3"><em>Ultimo aggiornamento: Gioved&igrave;, 18 Dicembre 2025 ore 10:56</em></p>
+          </div>
+        </div>
+
+        <div class="row variable-gutters mb-3">
+          <div class="col-lg-12 text-right">
+            <p style="font-size: 0.75em">Sito realizzato da <a aria-labelledby="a_nome" href="http://aitec.it" title="Collegamento al sito http://aitec.it">Aitec.it</a></p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    </div>
+
+
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+      window.__PUBLIC_PATH__ = '/assets/fonts' 
+    </script>
+    <script src="/assets/js/bootstrap-italia.js"></script>
+	<script src="/assets/js/splide.min.js"></script>
+    <script src="/assets/js/components/jquery-easing/jquery.easing.js"></script>
+    <script src="/assets/js/components/jquery.scrollto/jquery.scrollTo.js"></script>
+    <script src="/assets/js/components/ResponsiveDom/js/jquery.responsive-dom.js"></script>
+    <script src="/assets/js/components/jPushMenu/jpushmenu.js"></script>
+    <script src="/assets/js/components/perfect-scrollbar-master/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="/assets/js/components/vallenato.js-master/vallenato.js"></script>
+    <script src="/assets/js/components/responsive-tabs/js/jquery.responsiveTabs.js"></script>
+    <script src="/assets/js/components/fitvids/jquery.fitvids.js"></script>
+    <script src="/assets/js/components/sticky-kit-master/dist/sticky-kit.js"></script>
+    <script src="/assets/js/components/jquery-match-height/dist/jquery.matchHeight.js"></script>
+    <script src="/assets/js/components/clndr/json2.js"></script>
+    <script src="/assets/js/components/clndr/moment-2.8.3.js"></script>
+    <script src="/assets/js/components/clndr/underscore.js"></script>
+    <script src="/assets/js/components/clndr/clndr.js"></script>
+    <script src="/assets/js/components/clndr/it.js"></script>
+	<script src="/assets/js/components/swiper/swiper-bundle.min.js"></script>
+	<script src="/assets/js/scuole.js"></script>
+
+	<script>
+
+	$(document).ready(function () {
+		
+		
+
+	});
+
+	</script>
+
+
+
+<script>
+  $(document).ready(function() {
+
+    function switch_div_c(first, second, t = 250) {
+      $(first).slideUp(t);
+
+      var div = $(second);
+
+      var height = div.css({
+          display: "block"
+      }).height();
+
+      div.css({
+          overflow: "hidden",
+          marginTop: height,
+          height: 0
+      }).animate({
+          marginTop: 0,
+          height: height
+      }, t, function () {
+          $(this).css({
+              display: "",
+              overflow: "",
+              height: "",
+              marginTop: ""
+          });
+      });
+    }
+
+
+    $(".cookie-bar-preferenze").on("click", function() {
+      switch_div_c(".cookie-bar-body", ".div-preferenze");
+    });
+
+    $(".cookie-bar-indietro").on("click", function() {
+      switch_div_c(".div-preferenze", ".cookie-bar-body");
+    });
+
+    $(".cookie-bar-accetta").on("click", function() {
+      cAggiornaConsenso('granted', 'granted');
+    });
+
+    $(".cookie-bar-salva").on("click", function() {
+      cAggiornaConsenso(($("#tgCP").prop("checked") ? 'granted' : 'denied'), 'granted');
+    });
+
+    $(".cookie-bar-continua").on("click", function() {
+      cAggiornaConsenso('denied', 'granted');
+    });
+
+    $(".cookie-bar-preferenze-open").on("click", function() {
+      $("#cookie-bar").removeClass("d-none");
+      switch_div_c(".cookie-bar-body", ".div-preferenze", 0);
+    });
+
+
+    if (getCookie('aCookie')=='true') {
+      $("#tgCP").prop('checked', (getCookie('aCookie_ad_storage') == 'denied' ? false : true));
+    } else {
+      $("#cookie-bar").removeClass("d-none");
+    }
+
+  });
+</script>
+
+
+<script>
+  function cAggiornaConsenso(v_ad_storage, v_analytics_storage) {
+    document.cookie = `aCookie=true; path=/; max-age=${60 * 60 * 24 * 180};`;
+    document.getElementById('cookie-bar').classList.add("d-none");
+  }
+  function getCookie(name) {
+    let value = `; ${document.cookie}`;
+    let parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+</script>
+
+
+</body>
+</html>

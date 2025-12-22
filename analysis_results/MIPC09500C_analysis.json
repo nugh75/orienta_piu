@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "school_id": "MIPC09500C",
+    "denominazione": "Istituto Gonzaga",
+    "tipo_scuola": "Secondaria di I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "nome_scuola": "Liceo Classico Istituto Gonzaga",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "tipologia": "Istituto Superiore"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 3,
+      "note": "Non è presente una sezione esplicitamente dedicata all'orientamento, ma l'orientamento è integrato in diverse parti del documento, soprattutto nella descrizione delle finalità formative e dei progetti."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università Cattolica del Sacro Cuore (CROSS)",
+        "Musei e istituti pubblici/privati",
+        "Federazione Italiana Nuoto (FIN)",
+        "Scuole superiori del Gonzaga",
+        "Ass. Pallavolo Gonzaga Giovani",
+        "Gonzaga Sporting Club"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "accompagnato e guidato in un processo di maturazione che tiene in considerazione ritmi di apprendimento, caratteristiche ed attitudini personali.",
+        "evidence_location": "Pag. 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "Non esplicitamente menzionati, ma impliciti nella personalizzazione dell'insegnamento.",
+        "evidence_location": "Pag. 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "un graduale cammino verso l’autonomia e la progettazione delle personali scelte future",
+        "evidence_location": "Pag. 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "Orientamento in ingresso e in uscita",
+        "evidence_location": "Pag. 11"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "Non esplicitamente menzionate, ma presenti nella valorizzazione delle competenze chiave.",
+        "evidence_location": "Pag. 3"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Aumento della velocità di lettura in inglese.",
+      "5w_chi": "Alunni classi prime scuola primaria e secondaria di I grado",
+      "5w_cosa": "Implementazione di un nuovo metodo di lettura (Tattum Reading) e confronto con il metodo tradizionale.",
+      "5w_dove": "Scuole primaria e secondaria di I grado",
+      "5w_quando": "Giugno 2024",
+      "5w_perche": "Migliorare le competenze linguistiche e di comprensione del testo.",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime",
+      "evidence_quote": "Aumentare la velocità di lettura nella lingua inglese.",
+      "evidence_location": "Pag. 7"
+    },
+    {
+      "titolo_attivita": "Visite culturali",
+      "categoria_principale": "Uscita didattica",
+      "descrizione_e_metodologia": "Visite a musei, mostre, esposizioni a Milano e zone limitrofe.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Visite guidate a luoghi di interesse culturale.",
+      "5w_dove": "Milano e zone limitrofe",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Ampliare le conoscenze culturali degli studenti.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Visite culturali a musei, mostre, esposizioni",
+      "evidence_location": "Pag. 10"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Incontri con esperti, test attitudinali, colloqui con genitori.",
+      "5w_chi": "Alunni di terza media e loro genitori",
+      "5w_cosa": "Aiutare gli alunni a scegliere il percorso di studi superiore.",
+      "5w_dove": "Istituto Gonzaga",
+      "5w_quando": "Terza media",
+      "5w_perche": "Fornire agli alunni gli strumenti per una scelta consapevole.",
+      "ore_dichiarate": "ND",
+      "target": "Classi terze",
+      "evidence_quote": "perseguire in particolar modo i seguenti obiettivi",
+      "evidence_location": "Pag. 4"
+    }
+  ],
+  "narrative": "# Analisi del PTOF Istituto Gonzaga\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nL'orientamento all'Istituto Gonzaga si configura come un elemento integrato nella prassi educativa, piuttosto che una sezione autonoma e strutturata del PTOF. L'attenzione alla personalizzazione dei percorsi e allo sviluppo delle attitudini degli alunni costituisce il nucleo centrale dell'approccio orientativo. Sebbene manchi una sezione dedicata, l'orientamento è presente in diverse iniziative e progetti, soprattutto nell'ambito delle finalità formative e delle attività extracurricolari.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nIl PTOF non presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3. Questo riflette l'assenza di una struttura autonoma, sebbene i principi orientativi siano diffusi nel documento.\n\n#### 2.2 Partnership e Reti\nL'Istituto Gonzaga vanta diverse **partnership** con enti e istituzioni esterne, tra cui l'Università Cattolica del Sacro Cuore (CROSS), musei e istituti pubblici/privati, la Federazione Italiana Nuoto (FIN), scuole superiori del Gonzaga, l'Ass. Pallavolo Gonzaga Giovani e il Gonzaga Sporting Club. Queste collaborazioni non si limitano a semplici accordi, ma si traducono in azioni concrete a supporto dell'orientamento. Ad esempio, il CROSS collabora attivamente all'orientamento in uscita, offrendo agli studenti test attitudinali e simulazioni di colloqui universitari. Le partnership sportive, come quella con la FIN e il Gonzaga Sporting Club, promuovono lo sviluppo di competenze trasversali quali la disciplina, il lavoro di squadra e la gestione dello stress, utili per il futuro percorso scolastico e professionale degli studenti.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità formative dell'Istituto Gonzaga pongono l'accento sullo sviluppo integrale della persona, con particolare attenzione alla centralità dell'alunno, alla personalizzazione dell'insegnamento e alla valorizzazione delle attitudini individuali. Gli obiettivi sono orientati a promuovere l'autonomia, la responsabilità e la capacità di progettare il proprio futuro. L'orientamento, sebbene non esplicitamente menzionato, è implicito in questi obiettivi e finalità.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede diverse azioni di sistema volte a garantire la qualità dell'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-famiglie e il monitoraggio delle azioni intraprese. Il coinvolgimento dei Consigli di Classe e l'implementazione di sistemi di monitoraggio delle attività orientative contribuiscono a una governance efficace, ottenendo un punteggio di 8.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa all'Istituto Gonzaga si basa su metodologie attive e partecipative, che coinvolgono gli studenti in prima persona. L'utilizzo di laboratori, progetti e attività interdisciplinari favorisce l'apprendimento esperienziale e lo sviluppo di competenze trasversali. La flessibilità degli spazi e dei tempi è considerata un elemento importante per adattare l'offerta formativa alle esigenze degli studenti, giustificando un punteggio di 9.\n\n#### 2.6 Opportunità Formative\nL'Istituto Gonzaga offre agli studenti diverse opportunità formative extracurricolari, tra cui corsi di lingua inglese, laboratori teatrali, attività sportive e iniziative di volontariato. Queste attività contribuiscono ad ampliare l'offerta formativa e a stimolare gli interessi e le passioni degli studenti.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetto lettura\nIl **Progetto lettura**, rivolto agli alunni delle classi prime della scuola primaria e secondaria di I grado, mira ad aumentare la velocità di lettura in lingua inglese. L'implementazione di un nuovo metodo di lettura, il Tattum Reading, e il confronto con il metodo tradizionale rappresentano un'azione concreta per migliorare le competenze linguistiche e di comprensione del testo. Questo progetto è strettamente legato al Piano di Miglioramento del PTOF, in quanto mira a potenziare le competenze di base degli studenti.\n\n#### 2.7.2 Visite culturali\nLe **visite culturali** a musei, mostre ed esposizioni, aperte a tutte le classi, costituiscono un'importante opportunità per ampliare le conoscenze culturali degli studenti e stimolare la loro curiosità. Queste attività si svolgono durante l'anno scolastico e sono parte integrante del curriculum didattico.\n\n#### 2.7.3 Orientamento in uscita\nIl progetto di **orientamento in uscita**, rivolto agli alunni di terza media, è integrato nelle attività extracurricolari e prevede incontri con esperti, test attitudinali e colloqui con i genitori. L'obiettivo è fornire agli studenti gli strumenti necessari per una scelta consapevole del percorso di studi superiore.\n\n### 3. Punti di Forza\nIl principale punto di forza dell'orientamento all'Istituto Gonzaga è l'integrazione con il progetto educativo lasalliano e la centralità attribuita allo sviluppo integrale della persona. La presenza di diverse partnership con enti e istituzioni esterne offre agli studenti opportunità di arricchimento culturale, sportivo e formativo. L'attenzione all'inclusione e alla fragilità è un altro elemento positivo.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una debolezza. Questo potrebbe rendere difficile la pianificazione e il monitoraggio delle attività orientative. Un'ulteriore criticità è la mancanza di indicatori specifici per valutare l'efficacia dell'orientamento, rendendo difficile misurare i risultati ottenuti e apportare miglioramenti mirati.\n\n### 5. Gap Analysis\nIl principale gap è la mancanza di una visione strategica e di un piano d'azione specifico per l'orientamento. Sarebbe opportuno definire obiettivi chiari e misurabili, individuare le risorse necessarie e stabilire un sistema di monitoraggio e valutazione.\n\n### 6. Conclusioni\nL'orientamento all'Istituto Gonzaga si presenta come un elemento importante del processo educativo, ma necessita di essere potenziato e strutturato in modo più efficace. L'integrazione con il progetto educativo lasalliano e la presenza di diverse partnership rappresentano un punto di forza, ma è necessario definire obiettivi chiari, individuare le risorse necessarie e stabilire un sistema di monitoraggio e valutazione. Un'attenzione particolare dovrebbe essere dedicata alla definizione di indicatori di performance per misurare l'impatto delle attività orientative sugli studenti."
+}

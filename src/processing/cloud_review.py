@@ -104,26 +104,36 @@ def fetch_openrouter_models_free(api_key: str = "") -> List[str]:
         print(f"Error fetching OpenRouter models: {e}")
     return []
 
-def call_gemini_api(api_key: str, model: str, prompt: str) -> Optional[str]:
-    """Call Gemini API"""
+def call_gemini_api(api_key: str, model: str, prompt: str, max_retries: int = 3) -> Optional[str]:
+    """Call Gemini API with retry on rate limit"""
+    import time
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 8192}
     }
-    try:
-        response = requests.post(url, json=payload, timeout=120)
-        if response.status_code == 200:
-            data = response.json()
-            return data['candidates'][0]['content']['parts'][0]['text']
-        else:
-            print(f"Gemini API error: {response.status_code} - {response.text[:200]}")
-    except Exception as e:
-        print(f"Gemini API exception: {e}")
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(url, json=payload, timeout=120)
+            if response.status_code == 200:
+                data = response.json()
+                return data['candidates'][0]['content']['parts'][0]['text']
+            elif response.status_code == 429:
+                wait_time = (attempt + 1) * 10
+                print(f"⚠️ Gemini rate limit (429), waiting {wait_time}s... (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                print(f"Gemini API error: {response.status_code} - {response.text[:200]}")
+                break
+        except Exception as e:
+            print(f"Gemini API exception: {e}")
+            break
     return None
 
-def call_openai_api(api_key: str, model: str, prompt: str) -> Optional[str]:
-    """Call OpenAI API"""
+def call_openai_api(api_key: str, model: str, prompt: str, max_retries: int = 3) -> Optional[str]:
+    """Call OpenAI API with retry on rate limit"""
+    import time
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -135,19 +145,28 @@ def call_openai_api(api_key: str, model: str, prompt: str) -> Optional[str]:
         "temperature": 0.3,
         "max_tokens": 8192
     }
-    try:
-        response = requests.post(url, headers=headers, json=payload, timeout=120)
-        if response.status_code == 200:
-            data = response.json()
-            return data['choices'][0]['message']['content']
-        else:
-            print(f"OpenAI API error: {response.status_code} - {response.text[:200]}")
-    except Exception as e:
-        print(f"OpenAI API exception: {e}")
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=120)
+            if response.status_code == 200:
+                data = response.json()
+                return data['choices'][0]['message']['content']
+            elif response.status_code == 429:
+                wait_time = (attempt + 1) * 10
+                print(f"⚠️ OpenAI rate limit (429), waiting {wait_time}s... (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                print(f"OpenAI API error: {response.status_code} - {response.text[:200]}")
+                break
+        except Exception as e:
+            print(f"OpenAI API exception: {e}")
+            break
     return None
 
-def call_openrouter_api(api_key: str, model: str, prompt: str) -> Optional[str]:
-    """Call OpenRouter API"""
+def call_openrouter_api(api_key: str, model: str, prompt: str, max_retries: int = 3) -> Optional[str]:
+    """Call OpenRouter API with retry on rate limit"""
+    import time
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -161,15 +180,23 @@ def call_openrouter_api(api_key: str, model: str, prompt: str) -> Optional[str]:
         "temperature": 0.3,
         "max_tokens": 8192
     }
-    try:
-        response = requests.post(url, headers=headers, json=payload, timeout=120)
-        if response.status_code == 200:
-            data = response.json()
-            return data['choices'][0]['message']['content']
-        else:
-            print(f"OpenRouter API error: {response.status_code} - {response.text[:200]}")
-    except Exception as e:
-        print(f"OpenRouter API exception: {e}")
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=120)
+            if response.status_code == 200:
+                data = response.json()
+                return data['choices'][0]['message']['content']
+            elif response.status_code == 429:
+                wait_time = (attempt + 1) * 10  # 10, 20, 30 seconds
+                print(f"⚠️ Rate limit (429), waiting {wait_time}s... (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                print(f"OpenRouter API error: {response.status_code} - {response.text[:200]}")
+                break
+        except Exception as e:
+            print(f"OpenRouter API exception: {e}")
+            break
     return None
 
 def call_ollama_api(model: str, prompt: str) -> Optional[str]:
@@ -195,17 +222,36 @@ def call_ollama_api(model: str, prompt: str) -> Optional[str]:
         print(f"Ollama API exception: {e}")
     return None
 
-def call_cloud_llm(provider: str, api_key: str, model: str, prompt: str) -> Optional[str]:
-    """Universal cloud LLM caller"""
+# Fallback model configuration
+OLLAMA_FALLBACK_MODELS = ["gemma3:27b", "llama3.1:8b", "mistral:latest"]
+
+def call_cloud_llm(provider: str, api_key: str, model: str, prompt: str, use_fallback: bool = True) -> Optional[str]:
+    """Universal cloud LLM caller with automatic Ollama fallback on failure"""
+    result = None
+    
+    # Try primary provider
     if provider == 'gemini':
-        return call_gemini_api(api_key, model, prompt)
+        result = call_gemini_api(api_key, model, prompt)
     elif provider == 'openai':
-        return call_openai_api(api_key, model, prompt)
+        result = call_openai_api(api_key, model, prompt)
     elif provider == 'openrouter':
-        return call_openrouter_api(api_key, model, prompt)
+        result = call_openrouter_api(api_key, model, prompt)
     elif provider == 'ollama':
-        return call_ollama_api(model, prompt)
-    return None
+        result = call_ollama_api(model, prompt)
+    
+    # If failed and fallback enabled, try Ollama local models
+    if result is None and use_fallback and provider != 'ollama':
+        print(f"⚠️ {provider} failed, trying Ollama fallback...")
+        for fallback_model in OLLAMA_FALLBACK_MODELS:
+            print(f"   🔄 Trying {fallback_model}...")
+            result = call_ollama_api(fallback_model, prompt)
+            if result:
+                print(f"   ✅ Fallback to {fallback_model} succeeded!")
+                break
+        if not result:
+            print(f"   ❌ All Ollama fallback models failed")
+    
+    return result
 
 def parse_json_safe(response: str) -> Optional[Dict]:
     """Safely parse JSON from LLM response."""
