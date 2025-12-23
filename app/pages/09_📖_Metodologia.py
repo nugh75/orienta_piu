@@ -164,7 +164,7 @@ scale_data = {
     ]
 }
 
-st.dataframe(scale_data, width="stretch", hide_index=True)
+st.dataframe(scale_data, use_container_width=True, hide_index=True)
 
 st.markdown("---")
 

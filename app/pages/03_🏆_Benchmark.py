@@ -136,7 +136,7 @@ with col1:
     top10.columns = ['Scuola', 'Tipo', 'Area', 'Indice']
     top10.insert(0, '#', range(1, len(top10) + 1))
     top10['Indice'] = top10['Indice'].round(2)
-    st.dataframe(top10, width="stretch", hide_index=True)
+    st.dataframe(top10, use_container_width=True, hide_index=True)
 
 with col2:
     st.markdown("### 🔻 Bottom 10 Performers")
@@ -146,7 +146,7 @@ with col2:
     bottom10.columns = ['Scuola', 'Tipo', 'Area', 'Indice']
     bottom10.insert(0, '#', range(1, len(bottom10) + 1))
     bottom10['Indice'] = bottom10['Indice'].round(2)
-    st.dataframe(bottom10, width="stretch", hide_index=True)
+    st.dataframe(bottom10, use_container_width=True, hide_index=True)
 
 # Comparison chart
 st.markdown("### 📈 Visualizzazione Comparativa")
@@ -163,7 +163,7 @@ fig_compare = px.bar(
 )
 fig_compare.update_layout(xaxis_tickangle=45, height=400)
 fig_compare.update_xaxes(tickfont_size=8)
-st.plotly_chart(fig_compare, width="stretch")
+st.plotly_chart(fig_compare, use_container_width=True)
 
 st.markdown("---")
 
@@ -231,7 +231,7 @@ if 'denominazione' in df_valid.columns:
             height=400
         )
         
-        st.plotly_chart(fig_dist, width="stretch")
+        st.plotly_chart(fig_dist, use_container_width=True)
 
 st.markdown("---")
 
@@ -290,7 +290,7 @@ if all(c in df_valid.columns for c in dim_cols):
             height=550
         )
         
-        st.plotly_chart(fig_radar, width="stretch")
+        st.plotly_chart(fig_radar, use_container_width=True)
         
         # Comparison table
         comparison_data = []
@@ -302,7 +302,7 @@ if all(c in df_valid.columns for c in dim_cols):
                 'Indice': f"{row['ptof_orientamento_maturity_index']:.2f}"
             })
         
-        st.dataframe(pd.DataFrame(comparison_data), width="stretch", hide_index=True)
+        st.dataframe(pd.DataFrame(comparison_data), use_container_width=True, hide_index=True)
     else:
         st.info("Seleziona almeno una scuola per il confronto")
 else:
@@ -378,7 +378,7 @@ if x_metric in df_valid.columns and y_metric in df_valid.columns:
                                text="⚠️ Da Migliorare", showarrow=False, font=dict(size=12))
         
         fig_quad.update_layout(height=550)
-        st.plotly_chart(fig_quad, width="stretch")
+        st.plotly_chart(fig_quad, use_container_width=True)
         
         # Quadrant summary
         quad_counts = df_quad['Quadrante'].value_counts()
@@ -424,7 +424,7 @@ if 'tipo_primario' in df_valid.columns:
     )
     fig_tipo.update_traces(texttemplate='%{text:.2f}', textposition='outside')
     fig_tipo.update_layout(height=400)
-    st.plotly_chart(fig_tipo, width="stretch")
+    st.plotly_chart(fig_tipo, use_container_width=True)
 
 # Footer
 st.markdown("---")

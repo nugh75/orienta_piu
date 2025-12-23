@@ -28,10 +28,16 @@ logging.basicConfig(
 CONFIG_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'config', 'pipeline_config.json'))
 
 try:
+    import src.llm.client
+    import importlib
+    importlib.reload(src.llm.client)
     from src.llm.client import LLMClient
 except ImportError:
     import sys
     sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    import src.llm.client
+    import importlib
+    importlib.reload(src.llm.client)
     from src.llm.client import LLMClient
 
 def load_pipeline_config():
@@ -669,7 +675,7 @@ class BaseAgent:
                 prompt=user_prompt,
                 system_prompt=system_prompt,
                 temperature=0.2,
-                max_tokens=32768
+                max_tokens=16000
             )
             return response
         except Exception as e:
@@ -771,6 +777,25 @@ class RefinerAgent(BaseAgent):
         prompt = prompt_template.replace("{{DRAFT_REPORT}}", str(draft_report)).replace("{{CRITIQUE}}", str(critique))
         return self.call_llm(prompt)
 
+class NarrativeAgent(BaseAgent):
+    def __init__(self):
+        super().__init__(MODEL_REFINER, "Redattore di Report Narrativi PTOF")
+
+    def generate_narrative(self, analysis_json, school_code):
+        prompt_template = PROMPTS.get("Narrative", "")
+        if not prompt_template:
+            prompt_template = (
+                "Usa il JSON nel contesto per scrivere un report narrativo in Markdown. "
+                "Mantieni la struttura: 1. Sintesi Generale, 2. Analisi Dimensionale "
+                "(con sottosezioni 2.1-2.7), 3. Punti di Forza, 4. Aree di Debolezza, "
+                "5. Gap Analysis, 6. Conclusioni. "
+                "Evita elenchi puntati, usa prosa fluida e metti in **grassetto** "
+                "attivita, partner e concetti chiave. "
+                "Titolo: # Analisi del PTOF {{SCHOOL_CODE}}."
+            )
+        prompt = prompt_template.replace("{{SCHOOL_CODE}}", str(school_code))
+        return self.call_llm(prompt, context=json.dumps(analysis_json, ensure_ascii=False, indent=2))
+
 
 def sanitize_json(text):
     """Extract valid JSON object from LLM response."""
@@ -803,6 +828,20 @@ def sanitize_json(text):
                 break
     
     return text[start:end+1]
+
+def _looks_like_json(text):
+    if not text:
+        return False
+    raw = str(text).strip()
+    if not raw.startswith("{"):
+        return False
+    try:
+        data = json.loads(raw)
+    except Exception:
+        return False
+    if not isinstance(data, dict):
+        return False
+    return any(key in data for key in ("metadata", "ptof_section2", "activities_register"))
 
 def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, results_dir=RESULTS_DIR, status_callback=None):
     """
@@ -878,18 +917,19 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         pass
 
     # Extract content for review - use full draft if narrative is empty
+    narrative_text = ""
+    narrative_for_review = draft
     try:
         draft_json = json.loads(draft)
-        narrative = draft_json.get('narrative', '')
-        # If no narrative field, use the full JSON as string for review
-        if not narrative:
-            narrative = draft
-    except:
-        narrative = draft
+        narrative_text = draft_json.get('narrative', '') or ""
+        if narrative_text:
+            narrative_for_review = narrative_text
+    except Exception:
+        pass
 
     # 2. Critique
     if status_callback: status_callback("Reviewer: Critiquing...")
-    critique = reviewer.critique_report(content, narrative)
+    critique = reviewer.critique_report(content, narrative_for_review)
     
     if critique:
         logging.info(f"Reviewer says: {critique[:100]}...")
@@ -898,7 +938,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         critique = ""
     
     # 3. Refine (only if critique has content)
-    final_output = narrative
+    final_output = narrative_text
     refined_json_str = None
     if critique and "APPROVATO" not in critique.upper() and len(critique) > 10:
          if status_callback: status_callback("Refiner: Improving report...")
@@ -925,19 +965,39 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     enrich_json_metadata(final_json_path, school_code, force_school_id=True, md_path=md_file)
     fill_missing_metadata_with_llm(final_json_path, md_file, school_code, status_callback=status_callback)
 
-    if not final_output or not str(final_output).strip():
-        for candidate in (narrative, refined_json_str, draft):
-            if candidate and str(candidate).strip():
-                final_output = str(candidate)
-                break
-    if not final_output or not str(final_output).strip():
-        try:
-            with open(final_json_path, 'r') as f:
-                final_output = json.dumps(json.load(f), ensure_ascii=False, indent=2)
-        except Exception:
-            final_output = "Report non disponibile."
+    analysis_data = None
+    narrative_from_json = ""
+    try:
+        with open(final_json_path, 'r') as f:
+            analysis_data = json.load(f)
+        narrative_from_json = analysis_data.get('narrative', '') or ""
+    except Exception:
+        analysis_data = None
+
+    if narrative_from_json:
+        final_output = narrative_from_json
+
+    if not final_output or _looks_like_json(final_output):
+        if analysis_data:
+            narrative_agent = NarrativeAgent()
+            generated = narrative_agent.generate_narrative(analysis_data, school_code)
+            if generated and str(generated).strip():
+                final_output = str(generated).strip()
+                analysis_data['narrative'] = final_output
+                try:
+                    with open(final_json_path, 'w') as f:
+                        json.dump(analysis_data, f, ensure_ascii=False, indent=2)
+                except Exception as e:
+                    logging.warning(f"Failed to store narrative in JSON: {e}")
+
+    if not final_output or _looks_like_json(final_output):
+        final_output = "Report narrativo non disponibile. Rigenera l'analisi."
 
     # Save Final MD
+    if not isinstance(final_output, str):
+        logging.warning(f"final_output is not a string (type: {type(final_output)}), converting to string.")
+        final_output = str(final_output)
+
     with open(final_md_path, 'w') as f:
         f.write(final_output)
     

@@ -42,7 +42,7 @@ all_cols = df.columns.tolist()
 selected_cols = st.multiselect("Seleziona colonne da visualizzare", all_cols, default=all_cols)
 
 if selected_cols:
-    st.dataframe(df[selected_cols], width="stretch", height=400)
+    st.dataframe(df[selected_cols], use_container_width=True, height=400)
 else:
     st.warning("Seleziona almeno una colonna")
 
@@ -57,7 +57,7 @@ if score_cols:
     stats = df[score_cols].describe().T
     stats = stats[['count', 'mean', 'std', 'min', '25%', '50%', '75%', 'max']]
     stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Q1', 'Mediana', 'Q3', 'Max']
-    st.dataframe(stats.round(2), width="stretch")
+    st.dataframe(stats.round(2), use_container_width=True)
 
 st.markdown("---")
 
@@ -73,7 +73,7 @@ missing_df = pd.DataFrame({
 missing_df = missing_df[missing_df['Mancanti'] > 0].sort_values('Mancanti', ascending=False)
 
 if len(missing_df) > 0:
-    st.dataframe(missing_df, width="stretch", hide_index=True)
+    st.dataframe(missing_df, use_container_width=True, hide_index=True)
 else:
     st.success("✅ Nessun valore mancante!")
 
@@ -121,7 +121,7 @@ if selected_label:
     st.markdown("**Tutti i punteggi:**")
     score_cols = [c for c in df.columns if '_score' in c]
     score_data = {c: school_row.get(c, 0) for c in score_cols}
-    st.dataframe(pd.DataFrame([score_data]), width="stretch")
+    st.dataframe(pd.DataFrame([score_data]), use_container_width=True)
 
 st.markdown("---")
 

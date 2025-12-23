@@ -154,10 +154,10 @@ def go_next():
 nav_col1, nav_col2, nav_col3, nav_col4 = st.columns([1, 3, 1, 1])
 
 with nav_col1:
-    st.button("⬅️ Precedente", on_click=go_prev, width="stretch")
+    st.button("⬅️ Precedente", on_click=go_prev, use_container_width=True)
 
 with nav_col3:
-    st.button("➡️ Successiva", on_click=go_next, width="stretch")
+    st.button("➡️ Successiva", on_click=go_next, use_container_width=True)
 
 with nav_col4:
     st.markdown(f"**{st.session_state.school_idx + 1}/{len(school_options)}**")

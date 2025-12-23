@@ -154,13 +154,13 @@ with col1:
     )
     fig_ranking.update_traces(texttemplate='%{text:.2f}', textposition='outside')
     fig_ranking.update_layout(height=500)
-    st.plotly_chart(fig_ranking, width="stretch")
+    st.plotly_chart(fig_ranking, use_container_width=True)
 
 with col2:
     st.markdown("### 📊 Statistiche Regionali")
     st.dataframe(
         regional_stats.reset_index(drop=True),
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
         height=450
     )
@@ -244,7 +244,7 @@ try:
         with col_anova1:
             st.dataframe(
                 anova_results,
-                width="stretch",
+                use_container_width=True,
                 hide_index=True
             )
         
@@ -329,7 +329,7 @@ if len(map_data) > 0:
     )
     
     fig_map.update_layout(height=600, margin=dict(l=0, r=0, t=40, b=0))
-    st.plotly_chart(fig_map, width="stretch")
+    st.plotly_chart(fig_map, use_container_width=True)
 else:
     st.info("Dati insufficienti per generare la mappa")
 
@@ -407,7 +407,7 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
             x=0.5
         )
     )
-    st.plotly_chart(fig_top, width="stretch")
+    st.plotly_chart(fig_top, use_container_width=True)
     
     # Show table with top schools
     st.markdown("### 📋 Dettaglio Scuole Top Performers")
@@ -417,7 +417,7 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
     top_display.columns = ['Scuola', 'Comune', 'Regione', 'Tipo', 'Indice']
     top_display = top_display.reset_index(drop=True)
     top_display.index = top_display.index + 1  # Start from 1
-    st.dataframe(top_display, width="stretch")
+    st.dataframe(top_display, use_container_width=True)
 else:
     st.info("Dati insufficienti per la mappa delle scuole virtuose")
 
@@ -514,7 +514,7 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
                 )
                 
                 fig_tipo_map.update_layout(height=550, margin=dict(l=0, r=0, t=40, b=0))
-                st.plotly_chart(fig_tipo_map, width="stretch")
+                st.plotly_chart(fig_tipo_map, use_container_width=True)
         else:
             # Show single type
             tipo_stats = df_tipo_map.groupby('regione').agg({
@@ -556,7 +556,7 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
                 )
                 
                 fig_tipo_single.update_layout(height=550, margin=dict(l=0, r=0, t=40, b=0))
-                st.plotly_chart(fig_tipo_single, width="stretch")
+                st.plotly_chart(fig_tipo_single, use_container_width=True)
                 
                 # Summary stats
                 st.markdown(f"**{selected_tipo}**: {df_tipo_map['school_id'].nunique()} scuole in {len(tipo_stats)} regioni | Media: {df_tipo_map['ptof_orientamento_maturity_index'].mean():.2f}")
@@ -584,7 +584,7 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
         )
         fig_tipo_bar.update_traces(texttemplate='n=%{text}', textposition='outside')
         fig_tipo_bar.update_layout(height=350)
-        st.plotly_chart(fig_tipo_bar, width="stretch")
+        st.plotly_chart(fig_tipo_bar, use_container_width=True)
     else:
         st.info("Nessuna tipologia scolastica disponibile")
 else:
@@ -612,7 +612,7 @@ if len(df_macro) > 5:
             points='all'
         )
         fig_box.update_layout(showlegend=False, height=450)
-        st.plotly_chart(fig_box, width="stretch")
+        st.plotly_chart(fig_box, use_container_width=True)
     
     with col2:
         # Statistics table
@@ -624,7 +624,7 @@ if len(df_macro) > 5:
         macro_stats.columns = ['Area', 'N', 'Media', 'Dev.Std', 'Min', 'Max']
         
         st.markdown("### 📊 Statistiche per Area")
-        st.dataframe(macro_stats, width="stretch", hide_index=True)
+        st.dataframe(macro_stats, use_container_width=True, hide_index=True)
         
         # Statistical test (if scipy available)
         try:
@@ -668,7 +668,7 @@ if 'territorio' in df_valid.columns:
                 points='all'
             )
             fig_box_terr.update_layout(showlegend=False, height=450)
-            st.plotly_chart(fig_box_terr, width="stretch")
+            st.plotly_chart(fig_box_terr, use_container_width=True)
         
         with col2:
             # Statistics table
@@ -680,7 +680,7 @@ if 'territorio' in df_valid.columns:
             terr_stats.columns = ['Territorio', 'N', 'Media', 'Dev.Std', 'Min', 'Max']
             
             st.markdown("### 📊 Statistiche per Territorio")
-            st.dataframe(terr_stats, width="stretch", hide_index=True)
+            st.dataframe(terr_stats, use_container_width=True, hide_index=True)
             
             # Mann-Whitney U Test and Cohen's d
             try:
@@ -740,7 +740,7 @@ if 'territorio' in df_valid.columns:
                             direction if abs_d >= 0.2 else "-"
                         ]
                     }
-                    st.dataframe(test_results, width="stretch", hide_index=True)
+                    st.dataframe(test_results, use_container_width=True, hide_index=True)
                     
                     # Summary message
                     if p_val_mw < 0.05 and abs_d >= 0.2:
@@ -800,7 +800,7 @@ if 'territorio' in df_valid.columns:
             )
             fig_grouped.update_traces(texttemplate='n=%{text}', textposition='outside')
             fig_grouped.update_layout(height=500, xaxis_tickangle=-45)
-            st.plotly_chart(fig_grouped, width="stretch")
+            st.plotly_chart(fig_grouped, use_container_width=True)
             
             # Calculate effect sizes per region
             st.markdown("### 🔬 Effect Size per Regione")
@@ -861,7 +861,7 @@ if 'territorio' in df_valid.columns:
                     effect_df['abs_d'] = effect_df["Cohen's d"].astype(float).abs()
                     effect_df = effect_df.sort_values('abs_d', ascending=False).drop('abs_d', axis=1)
                     
-                    st.dataframe(effect_df, width="stretch", hide_index=True)
+                    st.dataframe(effect_df, use_container_width=True, hide_index=True)
                     
                     # Summary
                     significant_regions = [row for row in effect_data if float(row['p-value'].replace('<', '')) < 0.05]
@@ -878,7 +878,7 @@ if 'territorio' in df_valid.columns:
         
         # Full table
         with st.expander("📋 Tabella completa per Regione e Territorio"):
-            st.dataframe(reg_terr_stats, width="stretch", hide_index=True)
+            st.dataframe(reg_terr_stats, use_container_width=True, hide_index=True)
     else:
         st.info("Dati insufficienti per l'analisi per regione e territorio")
 else:
@@ -920,19 +920,19 @@ if all(c in df_valid.columns for c in dim_cols) and 'area_geografica' in df_vali
             color_discrete_sequence=px.colors.qualitative.Set2
         )
         fig_gap.update_layout(height=450)
-        st.plotly_chart(fig_gap, width="stretch")
+        st.plotly_chart(fig_gap, use_container_width=True)
         
         # Gap summary table
         col1, col2 = st.columns(2)
         with col1:
             st.markdown("### 📊 Gap Maggiori")
             top_gaps = gap_df.nlargest(5, 'Gap')[['Area', 'Dimensione', 'Gap', 'Min', 'Max']]
-            st.dataframe(top_gaps, width="stretch", hide_index=True)
+            st.dataframe(top_gaps, use_container_width=True, hide_index=True)
         
         with col2:
             st.markdown("### 📊 Gap Minori")
             bottom_gaps = gap_df.nsmallest(5, 'Gap')[['Area', 'Dimensione', 'Gap', 'Min', 'Max']]
-            st.dataframe(bottom_gaps, width="stretch", hide_index=True)
+            st.dataframe(bottom_gaps, use_container_width=True, hide_index=True)
 else:
     st.info("Dati insufficienti per l'analisi dei gap")
 
@@ -974,7 +974,7 @@ if all(c in df_valid.columns for c in dim_cols) and 'area_geografica' in df_vali
             height=500
         )
         
-        st.plotly_chart(fig_radar, width="stretch")
+        st.plotly_chart(fig_radar, use_container_width=True)
 else:
     st.info("Dati insufficienti per il radar chart")
 

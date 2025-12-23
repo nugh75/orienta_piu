@@ -3,6 +3,26 @@ import requests
 import json
 import logging
 
+def _normalize_model_name(model):
+    if not model:
+        return ""
+    name = str(model).strip().lower()
+    if "/" in name:
+        name = name.split("/")[-1]
+    if ":" in name:
+        name = name.split(":")[0]
+    return name
+
+def _uses_max_completion_tokens(model):
+    name = _normalize_model_name(model)
+    return name.startswith("gpt-5") or name.startswith("o1") or name.startswith("o3")
+
+def _supports_temperature(model):
+    name = _normalize_model_name(model)
+    if not name:
+        return True
+    return not (name.startswith("gpt-5") or name.startswith("o1") or name.startswith("o3"))
+
 class LLMClient:
     def __init__(self, config):
         self.config = config
@@ -105,9 +125,15 @@ class LLMClient:
         payload = {
             "model": model,
             "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens
         }
+        if _supports_temperature(model):
+            payload["temperature"] = temperature
+        
+        # Supporto per modelli nuovi (o1, o3, gpt-5) che usano max_completion_tokens
+        if _uses_max_completion_tokens(model):
+            payload["max_completion_tokens"] = max_tokens
+        else:
+            payload["max_tokens"] = max_tokens
         
         try:
             response = requests.post(base_url, headers=headers, json=payload, timeout=300)

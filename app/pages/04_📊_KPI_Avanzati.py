@@ -212,7 +212,7 @@ fig_outlier = px.box(
     hover_data=['denominazione', 'tipo_scuola']
 )
 fig_outlier.update_layout(height=400)
-st.plotly_chart(fig_outlier, width="stretch")
+st.plotly_chart(fig_outlier, use_container_width=True)
 
 # Show outlier details
 col1, col2 = st.columns(2)
@@ -225,7 +225,7 @@ with col1:
     if len(excellent_df) > 0:
         excellent_df.columns = ['Scuola', 'Tipo', 'Area', 'Indice']
         excellent_df = excellent_df.sort_values('Indice', ascending=False)
-        st.dataframe(excellent_df, width="stretch", hide_index=True)
+        st.dataframe(excellent_df, use_container_width=True, hide_index=True)
     else:
         st.info("Nessun outlier eccellente rilevato")
 
@@ -237,7 +237,7 @@ with col2:
     if len(critical_df) > 0:
         critical_df.columns = ['Scuola', 'Tipo', 'Area', 'Indice']
         critical_df = critical_df.sort_values('Indice', ascending=True)
-        st.dataframe(critical_df, width="stretch", hide_index=True)
+        st.dataframe(critical_df, use_container_width=True, hide_index=True)
     else:
         st.info("Nessun outlier critico rilevato")
 
@@ -258,7 +258,7 @@ with col1:
         title="Distribuzione Indice di Maturità"
     )
     fig_hist.update_layout(height=400)
-    st.plotly_chart(fig_hist, width="stretch")
+    st.plotly_chart(fig_hist, use_container_width=True)
 
 with col2:
     # Dimension distribution
@@ -277,7 +277,7 @@ with col2:
             title="Distribuzione per Dimensione"
         )
         fig_violin.update_layout(height=400, showlegend=False)
-        st.plotly_chart(fig_violin, width="stretch")
+        st.plotly_chart(fig_violin, use_container_width=True)
 
 st.markdown("---")
 
@@ -320,13 +320,13 @@ try:
                 )
                 fig_coef.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
                 fig_coef.update_layout(height=350)
-                st.plotly_chart(fig_coef, width="stretch")
+                st.plotly_chart(fig_coef, use_container_width=True)
             
             with col2:
                 st.markdown("### 📊 Coefficienti")
                 st.dataframe(
                     coef_df[['Dimensione', 'Coefficiente']].round(3),
-                    width="stretch",
+                    use_container_width=True,
                     hide_index=True
                 )
                 
@@ -434,7 +434,7 @@ if 'tipo_scuola' in df_valid.columns and all(c in df_valid.columns for c in dim_
                 height=450
             )
             
-            st.plotly_chart(fig_swot, width="stretch")
+            st.plotly_chart(fig_swot, use_container_width=True)
     else:
         st.info("Dati insufficienti per l'analisi SWOT")
 else:
@@ -465,7 +465,7 @@ if all(c in df_valid.columns for c in dim_cols):
         title="Matrice di Correlazione"
     )
     fig_corr.update_layout(height=500)
-    st.plotly_chart(fig_corr, width="stretch")
+    st.plotly_chart(fig_corr, use_container_width=True)
     
     # Top correlations
     st.markdown("### 📊 Correlazioni più Forti")
@@ -485,7 +485,7 @@ if all(c in df_valid.columns for c in dim_cols):
         corr_pairs_df['Correlazione'].abs().sort_values(ascending=False).index
     ).head(5)
     
-    st.dataframe(corr_pairs_df.round(3), width="stretch", hide_index=True)
+    st.dataframe(corr_pairs_df.round(3), use_container_width=True, hide_index=True)
 
 # Footer
 st.markdown("---")

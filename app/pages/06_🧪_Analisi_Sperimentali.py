@@ -105,7 +105,7 @@ if selected_school_label:
             title=f"Profilo vs Media: {school_row['denominazione']}"
         )
         
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
         
         # Textual Insight
         st.markdown("##### 💡 Insight Rapido")
@@ -187,7 +187,7 @@ if all(c in df.columns for c in target_cols):
     fig_flow.update_layout(coloraxis_showscale=False)
     
     fig_flow.update_layout(height=600, margin=dict(l=20, r=20, t=40, b=20))
-    st.plotly_chart(fig_flow, width="stretch")
+    st.plotly_chart(fig_flow, use_container_width=True)
 
 else:
     st.warning("Dati mancanti per generare il grafico dei flussi (Area, Tipo o Indice).")
@@ -220,7 +220,7 @@ if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Matu
         color_discrete_sequence=px.colors.qualitative.Pastel
     )
     fig_sun.update_layout(height=700, margin=dict(t=0, l=0, r=0, b=0))
-    st.plotly_chart(fig_sun, width="stretch")
+    st.plotly_chart(fig_sun, use_container_width=True)
 else:
     st.info("Dati insufficienti per il Sunburst Chart.")
 
@@ -243,7 +243,7 @@ if all(c in df.columns for c in [col_x, col_y, col_z, col_color]):
         size_max=10
     )
     fig_3d.update_layout(height=700, margin=dict(l=0, r=0, b=0, t=0))
-    st.plotly_chart(fig_3d, width="stretch")
+    st.plotly_chart(fig_3d, use_container_width=True)
 else:
     st.warning("Seleziona colonne valide per generare il grafico 3D.")
 
@@ -295,7 +295,7 @@ if ridge_var in df.columns and ridge_group in df.columns:
         bargap=0,
         title=f"Distribuzione di {get_label(ridge_var)} per {ridge_group}"
     )
-    st.plotly_chart(fig_ridge, width="stretch")
+    st.plotly_chart(fig_ridge, use_container_width=True)
 
 else:
     st.warning("Dati insufficienti o colonne mancanti per il Ridgeline Plot.")

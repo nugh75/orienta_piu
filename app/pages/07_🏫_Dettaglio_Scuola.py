@@ -112,12 +112,23 @@ if selected_school:
                 if comune_val and comune_val != 'ND':
                     addr += f" {comune_val}"
                 st.write(f"📍 **Indirizzo:** {addr}")
-            if email and email != 'ND':
+            if email and email != 'ND' and isinstance(email, str):
                 st.write(f"📧 **Email:** {email}")
-            if pec and pec != 'ND':
+            if pec and pec != 'ND' and isinstance(pec, str):
                 st.write(f"📨 **PEC:** {pec}")
-            if website and website != 'ND':
+            if website and website != 'ND' and isinstance(website, str):
                 st.write(f"🌐 **Sito Web:** [{website}]({website if website.startswith('http') else 'https://' + website})")
+    
+    st.markdown("---")
+
+    # MD Report Viewer (Moved here)
+    school_id = school_data.get('school_id')
+    if school_id:
+        md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
+        if md_files:
+            with st.expander("📝 Visualizza Report Testuale Completo (.md)", expanded=False):
+                with open(md_files[0], 'r') as f:
+                    st.markdown(f.read())
     
     st.markdown("---")
     
@@ -137,7 +148,7 @@ if selected_school:
                                        fill='toself', name='Media Campione', opacity=0.5, 
                                        line_color='#ff7f0e', marker=dict(color='#ff7f0e')))
         fig.update_layout(polar=dict(radialaxis=dict(range=[0, 7])), showlegend=True)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
     
     st.markdown("---")
     
@@ -154,7 +165,7 @@ if selected_school:
                         color='Punteggio', color_continuous_scale='RdYlGn',
                         range_x=[0, 7], range_color=[1, 7])
             fig.update_layout(height=600)
-            st.plotly_chart(fig, width="stretch")
+            st.plotly_chart(fig, use_container_width=True)
     
     st.markdown("---")
     
@@ -207,15 +218,6 @@ if selected_school:
             st.error(f"Errore caricamento JSON: {e}")
     else:
         st.info("Report JSON non ancora disponibile per questa scuola")
-    
-    # MD Report Viewer
-    md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
-    if md_files:
-        with st.expander("📝 Visualizza Report Testuale Completo (.md)", expanded=False):
-            with open(md_files[0], 'r') as f:
-                st.markdown(f.read())
-    
-    st.markdown("---")
     
     # Position in ranking
     st.subheader("📈 Posizione in Classifica")

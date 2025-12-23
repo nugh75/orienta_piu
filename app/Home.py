@@ -192,17 +192,17 @@ col1, col2, col3 = st.columns(3)
 with col1:
     if 'territorio' in df.columns:
         fig = px.pie(df, names='territorio', title="Per Territorio", hole=0.4)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 with col2:
     if 'ordine_grado' in df.columns:
         fig = px.pie(df, names='ordine_grado', title="Per Grado", hole=0.4)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 with col3:
     if 'area_geografica' in df.columns:
         fig = px.pie(df, names='area_geografica', title="Per Area", hole=0.4)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 
@@ -222,7 +222,7 @@ if all(c in df.columns for c in dim_cols):
         range_x=[0, 7], range_color=[1, 7],
         title="Media Punteggi per Dimensione"
     )
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 
@@ -304,7 +304,7 @@ with tabs[0]:
             height=700
         )
         fig.update_layout(yaxis_tickfont_size=10)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 # Individual category tabs
 for i, (cat, cols) in enumerate(CATEGORY_COLS.items()):
@@ -329,7 +329,7 @@ for i, (cat, cols) in enumerate(CATEGORY_COLS.items()):
                 title=f"Dettaglio {cat}",
                 height=400
             )
-            st.plotly_chart(fig, width="stretch")
+            st.plotly_chart(fig, use_container_width=True)
             
             # Stats table
             col1, col2, col3 = st.columns(3)
@@ -349,7 +349,7 @@ if len(df) > 0:
     stats_df = stats_df.sort_values('ptof_orientamento_maturity_index', ascending=False).reset_index(drop=True)
     stats_df.insert(0, 'Pos.', range(1, len(stats_df) + 1))
     stats_df.columns = ['#', 'Codice', 'Scuola', 'Tipo', 'Area', 'Indice']
-    st.dataframe(stats_df, width="stretch", hide_index=True, height=500)
+    st.dataframe(stats_df, use_container_width=True, hide_index=True, height=500)
 
 # Footer
 st.markdown("---")

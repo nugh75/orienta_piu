@@ -87,7 +87,7 @@ if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
             pivot, text_auto='.2f', color_continuous_scale='RdBu',
             zmin=1, zmax=7, title="Indice Medio per Tipo e Area"
         )
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
         
         with st.expander("📘 Guida alla lettura: Heatmap"):
             st.markdown("""
@@ -159,7 +159,7 @@ if all(c in df.columns for c in radar_cols):
             title=f"Confronto Profili per {radar_group.replace('_', ' ').title()}",
             height=600
         )
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("Dati insufficienti per il Radar Chart")
 
@@ -174,7 +174,7 @@ with col1:
         fig = px.box(df, x='territorio', y='ptof_orientamento_maturity_index',
                      points="all", color='territorio',
                      title="Distribuzione per Territorio")
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 with col2:
     if 'ordine_grado' in df.columns:
@@ -189,7 +189,7 @@ with col2:
         fig = px.box(df_box, x='ordine_grado', y='ptof_orientamento_maturity_index',
                      points="all", color='ordine_grado',
                      title="Distribuzione per Grado")
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
     with st.expander("📘 Guida alla lettura: Box Plot"):
         st.markdown("""
@@ -223,7 +223,7 @@ if 'ordine_grado' in df.columns:
         fig = px.bar(grado_melted, x='Dimensione', y='Media', color='ordine_grado',
                      barmode='group', title="Media per Dimensione: I Grado vs II Grado")
         fig.update_layout(xaxis_tickangle=-30)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
 
@@ -246,7 +246,7 @@ if all(c in df.columns for c in gap_cols):
     fig.add_trace(go.Bar(x=gap_df['Dimensione'], y=gap_df['Gap da 7'], 
                          name='Gap', marker_color='#EF553B'))
     fig.update_layout(barmode='stack', yaxis=dict(range=[0, 7]))
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, use_container_width=True)
 
     with st.expander("📘 Guida alla lettura: Gap Analysis"):
         st.markdown("""
@@ -291,7 +291,7 @@ if 'regione' in df.columns:
                 title="Indice per Regione",
             )
             fig.update_traces(texttemplate='n=%{text}', textposition='outside')
-            st.plotly_chart(fig, width="stretch")
+            st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("Dati regionali insufficienti (servono almeno 3 regioni)")
     else:

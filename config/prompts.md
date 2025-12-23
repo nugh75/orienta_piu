@@ -84,7 +84,7 @@ La struttura del JSON deve essere ESATTAMENTE questa:
             "evidence_location": "..."
         }
     ],
-    "narrative": "REPORT TESTUALE IN MARKDOWN. REGOLE: (1) EVITA ELENCHI PUNTATI - usa SOLO prosa fluida (2) Metti in **grassetto** i nomi delle attività, partner, concetti chiave (3) Tono DESCRITTIVO e ANALITICO per ricerca universitaria.\n\n# Analisi del PTOF [CODICE]\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n[Riassunto esecutivo in prosa fluida del livello di maturità dell'orientamento.]\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\n[Analizza struttura e implicazioni in forma discorsiva.]\n\n#### 2.2 Partnership e Reti\n[Descrivi collaborazioni citando i **partner** in grassetto.]\n\n#### 2.3 Finalità e Obiettivi\n[Valuta allineamento alle Linee Guida. Evidenzia **concetti chiave**.]\n\n#### 2.4 Governance e Azioni di Sistema\n[Analizza coordinamento e impatto.]\n\n#### 2.5 Didattica Orientativa\n[Descrivi metodologie e **competenze** sviluppate.]\n\n#### 2.6 Opportunità Formative\n[Presenta percorsi opzionali.]\n\n#### 2.7 Registro Dettagliato delle Attività\n[IMPORTANTE: Crea una SOTTO-SEZIONE (####) per OGNI attività rilevata. Per ciascuna, scrivi un paragrafo dettagliato che integri naturalmente: CHI partecipa, COSA si fa concretamente, DOVE si svolge, QUANDO e per quanto tempo, PERCHÉ (obiettivi formativi). Non usare etichette esplicite come 'Chi:', 'Cosa:' ma incorpora le informazioni in prosa fluida.]\n\n#### 2.7.1 [Nome Prima Attività]\n[Descrizione dettagliata in prosa...]\n\n#### 2.7.2 [Nome Seconda Attività]\n[Descrizione dettagliata in prosa...]\n\n[...continua per tutte le attività rilevate...]\n\n### 3. Punti di Forza\n[Prosa fluida sui principali asset.]\n\n### 4. Aree di Debolezza\n[Prosa fluida sulle criticità.]\n\n### 5. Gap Analysis\n[Prosa fluida sulle lacune.]\n\n### 6. Conclusioni\n[Analisi complessiva dello stato dell'orientamento. NON dare consigli.]"
+    "narrative": "REPORT TESTUALE IN MARKDOWN (unica stringa). REGOLE: (1) EVITA ELENCHI PUNTATI - usa SOLO prosa fluida (2) Metti in **grassetto** i nomi delle attività, partner, concetti chiave (3) Tono DESCRITTIVO e ANALITICO per ricerca universitaria. NON USARE STRUTTURE JSON ANNIDATE QUI.\n\n# Analisi del PTOF [CODICE]\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n[Riassunto esecutivo in prosa fluida del livello di maturità dell'orientamento.]\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\n[Analizza struttura e implicazioni in forma discorsiva.]\n\n#### 2.2 Partnership e Reti\n[Descrivi collaborazioni citando i **partner** in grassetto.]\n\n#### 2.3 Finalità e Obiettivi\n[Valuta allineamento alle Linee Guida. Evidenzia **concetti chiave**.]\n\n#### 2.4 Governance e Azioni di Sistema\n[Analizza coordinamento e impatto.]\n\n#### 2.5 Didattica Orientativa\n[Descrivi metodologie e **competenze** sviluppate.]\n\n#### 2.6 Opportunità Formative\n[Presenta percorsi opzionali.]\n\n#### 2.7 Registro Dettagliato delle Attività\n[IMPORTANTE: Crea una SOTTO-SEZIONE (####) per OGNI attività rilevata. Per ciascuna, scrivi un paragrafo dettagliato che integri naturalmente: CHI partecipa, COSA si fa concretamente, DOVE si svolge, QUANDO e per quanto tempo, PERCHÉ (obiettivi formativi). Non usare etichette esplicite come 'Chi:', 'Cosa:' ma incorpora le informazioni in prosa fluida.]\n\n#### 2.7.1 [Nome Prima Attività]\n[Descrizione dettagliata in prosa...]\n\n#### 2.7.2 [Nome Seconda Attività]\n[Descrizione dettagliata in prosa...]\n\n[...continua per tutte le attività rilevate...]\n\n### 3. Punti di Forza\n[Prosa fluida sui principali asset.]\n\n### 4. Aree di Debolezza\n[Prosa fluida sulle criticità.]\n\n### 5. Gap Analysis\n[Prosa fluida sulle lacune.]\n\n### 6. Conclusioni\n[Analisi complessiva dello stato dell'orientamento. NON dare consigli.]"
 }
 ```
 
@@ -127,6 +127,7 @@ Il tuo compito è:
 1. Correggere il JSON modificando i punteggi dove richiesto dal Revisore.
 2. Riscrivere la sezione "narrative" per renderla perfetta, scorrevole, professionale e rispondente alle critiche.
    IMPORTANTE: Mantieni RIGOROSAMENTE la struttura dei capitoli (1. Sintesi, 2. Analisi Dimensionale, 3. Punti di Forza, 4. Debolezze, 5. Gap Analysis, 6. Conclusioni) definita dall'Analista.
+   IMPORTANTE: Il campo "narrative" nel JSON deve rimanere una SINGOLA STRINGA Markdown, non un oggetto annidato.
 3. Assicurarti che il JSON finale sia valido.
 
 Output:
@@ -137,6 +138,26 @@ Bozza:
 
 Critiche:
 {{CRITIQUE}}
+
+## Narrative
+Sei un **redattore di report narrativi**. Hai in input un JSON strutturato con metadati, punteggi e attività.
+
+Istruzioni:
+1. Usa SOLO le informazioni presenti nel JSON (fornito nel contesto).
+2. Produci un report in **Markdown** con struttura:
+   - # Analisi del PTOF {{SCHOOL_CODE}}
+   - ## Report di Valutazione dell'Orientamento
+   - ### 1. Sintesi Generale
+   - ### 2. Analisi Dimensionale (con sottosezioni 2.1 - 2.7)
+   - ### 3. Punti di Forza
+   - ### 4. Aree di Debolezza
+   - ### 5. Gap Analysis
+   - ### 6. Conclusioni
+3. Niente elenchi puntati: solo prosa fluida.
+4. Metti in **grassetto** nomi delle attività, partner e concetti chiave.
+
+Output:
+Restituisci SOLO il report narrativo in Markdown. Nessun JSON.
 
 ## Validator
 Analyze the following text from a school document.

@@ -125,6 +125,54 @@
         "refiner": "google/gemini-2.5-flash-001",
         "synthesizer": "google/gemini-2.5-flash-001"
       }
+    },
+    "10": {
+      "name": "Local Lightweight (Gemma 3 + Qwen Coder)",
+      "type": "ollama",
+      "description": "Configurazione leggera locale. Gemma 3 (4B) per analisi, Qwen 2.5 Coder (7B) per logica.",
+      "models": {
+        "analyst": "gemma3:latest",
+        "reviewer": "qwen2.5-coder:7b",
+        "refiner": "qwen2.5-coder:7b",
+        "synthesizer": "gemma3:latest"
+      },
+      "ollama_url": "http://192.168.129.14:11434/api/generate"
+    },
+    "11": {
+      "name": "Local Qwen 2.5 Coder Only (7B)",
+      "type": "ollama",
+      "description": "Configurazione 100% Qwen 2.5 Coder (7B). Ottimo per logica e struttura.",
+      "models": {
+        "analyst": "qwen2.5-coder:7b",
+        "reviewer": "qwen2.5-coder:7b",
+        "refiner": "qwen2.5-coder:7b",
+        "synthesizer": "qwen2.5-coder:7b"
+      },
+      "ollama_url": "http://192.168.129.14:11434/api/generate"
+    },
+    "12": {
+      "name": "Hybrid: Gemma 3 + GPT-5 Mini",
+      "type": "mixed",
+      "description": "Analisi locale con Gemma 3, Refiner e Synthesizer con GPT-5 Mini.",
+      "models": {
+        "analyst": { "provider": "ollama", "model": "gemma3:27b" },
+        "reviewer": { "provider": "ollama", "model": "gemma3:27b" },
+        "refiner": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" },
+        "synthesizer": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" }
+      },
+      "ollama_url": "http://192.168.129.14:11434/api/generate"
+    },
+    "13": {
+      "name": "Local Llama 3.2 Mini",
+      "type": "ollama",
+      "description": "Configurazione 100% Locale con Llama 3.2 3B (interpretato come '5.2 mini').",
+      "models": {
+        "analyst": "llama3.2:3b",
+        "reviewer": "llama3.2:3b",
+        "refiner": "llama3.2:3b",
+        "synthesizer": "llama3.2:3b"
+      },
+      "ollama_url": "http://192.168.129.14:11434/api/generate"
     }
   },
   "chunking": {

@@ -83,7 +83,7 @@ if all(c in df.columns for c in corr_cols) and len(df) >= 5:
     fig = px.imshow(corr.values, x=labels, y=labels, color_continuous_scale='RdBu',
                    zmin=-1, zmax=1, text_auto='.2f', title="Correlazioni tra Dimensioni")
     fig.update_layout(height=600)
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("Dati insufficienti per le correlazioni (servono le 5 dimensioni e almeno 5 scuole)")
 
@@ -168,7 +168,7 @@ if len(target_cols) >= 2 and len(df) >= 5:
         fig_sub.update_layout(height=height)
 
 
-        st.plotly_chart(fig_sub, width="stretch")
+        st.plotly_chart(fig_sub, use_container_width=True)
 else:
     st.info("Dati insufficienti per le correlazioni di dettaglio stabilite.")
 
@@ -204,7 +204,7 @@ if HAS_SKLEARN:
             with col1:
                 fig = px.scatter(cluster_df, x='PC1', y='PC2', color='Cluster', hover_data=['Scuola'],
                                title=f"Mappa dei Cluster (PCA)")
-                st.plotly_chart(fig, width="stretch")
+                st.plotly_chart(fig, use_container_width=True)
             
             with col2:
                 st.markdown("### 📊 Profilo Gruppi")
@@ -216,7 +216,7 @@ if HAS_SKLEARN:
                 
                 fig_heat = px.imshow(cluster_means, text_auto='.1f', color_continuous_scale='Viridis',
                                    title="Punteggi Medi", aspect="auto")
-                st.plotly_chart(fig_heat, width="stretch")
+                st.plotly_chart(fig_heat, use_container_width=True)
                 
             with st.expander("📘 Guida alla lettura: Clustering e PCA", expanded=False):
                 st.markdown("""
@@ -275,7 +275,7 @@ if HAS_SCIPY:
                                'p-value': f"{p_val:.4f}", 'Sig.': sig})
     
     if results:
-        st.dataframe(pd.DataFrame(results), width="stretch", hide_index=True)
+        st.dataframe(pd.DataFrame(results), use_container_width=True, hide_index=True)
         # Detailed ANOVA Explanation
         with st.expander("📘 Guida alla lettura: ANOVA (Analisi delle Varianza)", expanded=False):
             st.markdown("""
@@ -311,7 +311,7 @@ if 'tipo_scuola' in df.columns:
                    color='tipo_scuola', box=True, points='all',
                    title="Violin Plot Maturity Index")
     fig.update_layout(showlegend=False)
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, use_container_width=True)
     
     with st.expander("📘 Guida alla lettura: Violin Plot"):
         st.markdown("""
@@ -332,12 +332,12 @@ if 'ptof_orientamento_maturity_index' in df.columns:
         st.markdown("### 🥇 Top 5")
         top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
         top5.columns = ['Scuola', 'Tipo', 'Indice']
-        st.dataframe(top5.reset_index(drop=True), width="stretch")
+        st.dataframe(top5.reset_index(drop=True), use_container_width=True)
     with col2:
         st.markdown("### 🔻 Bottom 5")
         bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
         bottom5.columns = ['Scuola', 'Tipo', 'Indice']
-        st.dataframe(bottom5.reset_index(drop=True), width="stretch")
+        st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
 
 st.markdown("---")
 
@@ -404,7 +404,7 @@ try:
                     df_act = pd.DataFrame(counts.most_common(15), columns=['Categoria', 'N'])
                     fig = px.bar(df_act, x='N', y='Categoria', orientation='h', title="Top Categorie")
                     fig.update_layout(yaxis={'categoryorder':'total ascending'})
-                    st.plotly_chart(fig, width="stretch")
+                    st.plotly_chart(fig, use_container_width=True)
                 else:
                     st.info("Nessuna attività")
             
@@ -415,7 +415,7 @@ try:
                     df_collab = pd.DataFrame(counts.most_common(15), columns=['Partner', 'N'])
                     fig = px.bar(df_collab, x='N', y='Partner', orientation='h', title="Top Partner")
                     fig.update_layout(yaxis={'categoryorder':'total ascending'})
-                    st.plotly_chart(fig, width="stretch")
+                    st.plotly_chart(fig, use_container_width=True)
                 else:
                     st.info("Nessun partner")
         

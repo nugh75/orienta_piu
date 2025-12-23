@@ -23,6 +23,26 @@ CHUNK_SIZE = 50000       # Max chars per chunk for analysis
 METADATA_CHUNK_SIZE = 12000  # Reduced to ~3k tokens to fit comfortably in 8k context with prompt
 LONG_DOC_THRESHOLD = 80000   # Docs longer than this use chunking
 
+def _normalize_model_name(model: str) -> str:
+    if not model:
+        return ""
+    name = str(model).strip().lower()
+    if "/" in name:
+        name = name.split("/")[-1]
+    if ":" in name:
+        name = name.split(":")[0]
+    return name
+
+def _uses_max_completion_tokens(model: str) -> bool:
+    name = _normalize_model_name(model)
+    return name.startswith("gpt-5") or name.startswith("o1") or name.startswith("o3")
+
+def _supports_temperature(model: str) -> bool:
+    name = _normalize_model_name(model)
+    if not name:
+        return True
+    return not (name.startswith("gpt-5") or name.startswith("o1") or name.startswith("o3"))
+
 def load_api_config() -> Dict:
     """Load API configuration from JSON file"""
     if os.path.exists(API_CONFIG_FILE):
@@ -142,9 +162,13 @@ def call_openai_api(api_key: str, model: str, prompt: str, max_retries: int = 3)
     payload = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.3,
-        "max_tokens": 8192
     }
+    if _supports_temperature(model):
+        payload["temperature"] = 0.3
+    if _uses_max_completion_tokens(model):
+        payload["max_completion_tokens"] = 8192
+    else:
+        payload["max_tokens"] = 8192
     
     for attempt in range(max_retries):
         try:
@@ -177,9 +201,13 @@ def call_openrouter_api(api_key: str, model: str, prompt: str, max_retries: int 
     payload = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.3,
-        "max_tokens": 8192
     }
+    if _supports_temperature(model):
+        payload["temperature"] = 0.3
+    if _uses_max_completion_tokens(model):
+        payload["max_completion_tokens"] = 8192
+    else:
+        payload["max_tokens"] = 8192
     
     for attempt in range(max_retries):
         try:
@@ -794,4 +822,3 @@ def extract_metadata_iterative(md_content: str, provider: str, api_key: str, mod
             print(f"[cloud_review] Chunk {i+1} failed to extract JSON")
     
     return found_meta
-

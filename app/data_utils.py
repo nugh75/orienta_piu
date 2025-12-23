@@ -119,7 +119,7 @@ def apply_sidebar_filters(df: pd.DataFrame, extra_clear_keys: list = None) -> pd
     st.sidebar.header("🔍 Filtri Globali")
     
     # Reset Button
-    if st.sidebar.button("🗑️ Rimuovi Filtri", width="stretch"):
+    if st.sidebar.button("🗑️ Rimuovi Filtri", use_container_width=True):
         keys = ["filter_area", "filter_regione", "filter_provincia", "filter_tipo", "filter_terr", "filter_grado", "home_score_range"]
         if extra_clear_keys:
             keys.extend(extra_clear_keys)

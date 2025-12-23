@@ -328,11 +328,7 @@ def run_workflow():
                             data = json.load(f)
                         md_path = ANALYSIS_DIR / f"{school_code}_PTOF_analysis.md"
                         if not md_path.exists() or md_path.stat().st_size == 0:
-                            try:
-                                md_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
-                                print("   INFO: MD vuoto, scritto JSON di fallback", flush=True)
-                            except Exception as e:
-                                print(f"   WARN: Impossibile ricreare MD: {e}", flush=True)
+                            print("   ⚠️ Report MD mancante o vuoto (narrativa non generata)", flush=True)
                         meta = data.get('metadata', {})
                         print(f"   ✅ Salvato - {meta.get('provincia', 'ND')}, {meta.get('regione', 'ND')}", flush=True)
                     else:
