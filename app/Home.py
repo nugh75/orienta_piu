@@ -124,7 +124,6 @@ if 'ptof_orientamento_maturity_index' in df.columns:
     score_range = st.sidebar.slider(
         "Range Indice Robustezza",
         min_value=0.0, max_value=7.0,
-        value=st.session_state[slider_key],
         step=0.1,
         key=slider_key
     )

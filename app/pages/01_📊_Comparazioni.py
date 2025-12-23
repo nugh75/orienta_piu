@@ -259,45 +259,37 @@ if all(c in df.columns for c in gap_cols):
 # 6. Regional comparison
 st.subheader("🗺️ Confronto Regionale")
 
-# Load region map from JSON config
-import json
-REGION_MAP_FILE = 'config/region_map.json'
-
-def load_region_map():
-    if os.path.exists(REGION_MAP_FILE):
-        with open(REGION_MAP_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get('comuni', {})
-    return {}
-
-REGION_MAP = load_region_map()
-
-def get_region(comune):
-    if pd.isna(comune):
+def normalize_region(value):
+    if pd.isna(value):
         return None
-    comune_upper = str(comune).upper().strip()
-    # Exact match first
-    if comune_upper in REGION_MAP:
-        return REGION_MAP[comune_upper]
-    # Partial match
-    for key, region in REGION_MAP.items():
-        if key in comune_upper or comune_upper in key:
-            return region
-    return None
+    value_str = str(value).strip()
+    if value_str in ('', 'ND', 'N/A', 'nan'):
+        return None
+    return value_str
 
-if 'comune' in df.columns:
-    df['regione'] = df['comune'].apply(get_region)
-    region_counts = df['regione'].value_counts()
-    
-    if len(region_counts.dropna()) >= 3:
-        region_avg = df.groupby('regione')['ptof_orientamento_maturity_index'].agg(['mean', 'count']).reset_index()
+if 'regione' in df.columns:
+    df_region = df.copy()
+    df_region['regione'] = df_region['regione'].apply(normalize_region)
+    region_counts = df_region['regione'].dropna().value_counts()
+
+    if len(region_counts) >= 3:
+        region_avg = df_region[df_region['regione'].notna()].groupby('regione')[
+            'ptof_orientamento_maturity_index'
+        ].agg(['mean', 'count']).reset_index()
         region_avg.columns = ['Regione', 'Indice Medio', 'N. Scuole']
-        region_avg = region_avg.dropna()
-        
+
         if len(region_avg) >= 3:
-            fig = px.bar(region_avg.sort_values('Indice Medio'), x='Indice Medio', y='Regione',
-                        orientation='h', color='Indice Medio', color_continuous_scale='RdYlGn',
-                        range_color=[1, 7], text='N. Scuole', title="Indice per Regione")
+            fig = px.bar(
+                region_avg.sort_values('Indice Medio'),
+                x='Indice Medio',
+                y='Regione',
+                orientation='h',
+                color='Indice Medio',
+                color_continuous_scale='RdYlGn',
+                range_color=[1, 7],
+                text='N. Scuole',
+                title="Indice per Regione",
+            )
             fig.update_traces(texttemplate='n=%{text}', textposition='outside')
             st.plotly_chart(fig, width="stretch")
         else:
@@ -305,4 +297,4 @@ if 'comune' in df.columns:
     else:
         st.info("Dati regionali insufficienti")
 else:
-    st.info("Colonna 'comune' non disponibile per mappare le regioni")
+    st.info("Colonna 'regione' non disponibile nel CSV")

@@ -32,7 +32,7 @@ cp /path/to/new/ptof/*.pdf ptof_inbox/
 ```bash
 # Da terminale
 source .venv/bin/activate
-python workflow_ptof.py
+python workflow_notebook.py
 ```
 
 ### 3. Cosa Succede
@@ -61,7 +61,7 @@ Dopo l'esecuzione:
 - `ptof_inbox/` è vuota (tutti i PDF processati)
 - `ptof_processed/batch_TIMESTAMP/` contiene i PDF archiviati
 - `analysis_results/` contiene i JSON di analisi
-- `logs/workflow_ptof.log` contiene il log completo
+- Log in console (usa `tee` se vuoi salvarlo su file)
 
 ## Comandi Utili
 
@@ -79,7 +79,7 @@ ls -1 analysis_results/*.json | wc -l
 
 ### Visualizza log workflow
 ```bash
-tail -f logs/workflow_ptof.log
+tail -f logs/workflow_notebook.log
 ```
 
 ### Cleanup inbox (svuota)
@@ -107,7 +107,7 @@ cp ptof_processed/batch_20250121_143022/*.pdf ptof_inbox/
 
 ✅ **Best Practices**:
 - Esegui il workflow quando hai nuovi PDF da processare
-- Verifica il log (`logs/workflow_ptof.log`) per debugging
+- Verifica l'output in console (oppure `logs/workflow_notebook.log` se usi `tee`)
 - Backup periodico di `ptof_processed/` per sicurezza
 - Usa la dashboard per verificare i risultati
 

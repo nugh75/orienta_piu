@@ -10,12 +10,6 @@
 
 Edit `config/prompts.md` - each section is marked with `## SectionName`.
 
-## Running Tests
-
-```bash
-python -m pytest tests/
-```
-
 ## Code Style
 
 - Use type hints

@@ -7,6 +7,8 @@ import re
 import pandas as pd
 import logging
 
+from src.utils.constants import normalize_area_geografica
+
 RESULTS_DIR = 'analysis_results'
 SUMMARY_FILE = 'data/analysis_summary.csv'
 METADATA_FILE = 'data/candidati_ptof.csv'
@@ -184,12 +186,18 @@ def update_index_safe():
                 # NEW INSERT: Start with JSON metadata
                 meta_from_cache = metadata_cache.get(school_code, {'istituto': school_code})
                 
+                area_raw = json_meta.get('area_geografica') or meta_from_cache.get('area_geografica') or 'ND'
+                area_norm = normalize_area_geografica(
+                    area_raw,
+                    regione=json_meta.get('regione'),
+                    provincia_sigla=school_code[:2]
+                )
                 merged_row = {
                     'school_id': school_code,
                     'denominazione': json_meta.get('denominazione', meta_from_cache.get('denominazionescuola', 'ND')),
                     'comune': json_meta.get('comune', meta_from_cache.get('nome_comune', 'ND')),
                     'tipo_scuola': json_meta.get('tipo_scuola', 'ND'),
-                    'area_geografica': json_meta.get('area_geografica', 'ND'),
+                    'area_geografica': area_norm if area_norm != 'ND' else 'ND',
                     'territorio': json_meta.get('territorio', 'ND'),
                     'ordine_grado': json_meta.get('ordine_grado', 'ND'),
                     'duration_sec': 0
@@ -197,6 +205,14 @@ def update_index_safe():
                 # Add analysis data
                 merged_row.update(analysis_data)
             
+            area_norm = normalize_area_geografica(
+                merged_row.get('area_geografica'),
+                regione=merged_row.get('regione'),
+                provincia_sigla=school_code[:2]
+            )
+            if area_norm != 'ND':
+                merged_row['area_geografica'] = area_norm
+
             all_rows.append(merged_row)
 
         except Exception as e:

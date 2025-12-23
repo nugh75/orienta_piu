@@ -6,7 +6,7 @@ Ho aggiornato il notebook `docs/CLI_Examples.ipynb` per usare il nuovo sistema c
 
 1. **Aggiunta sezione "Workflow Automatico Inbox → Processed"** all'inizio
    - Priorità massima ⭐
-   - Usa `workflow_ptof.py` invece degli script separati
+   - Usa `workflow_notebook.py` invece degli script separati
    - Gestisce automaticamente `ptof_inbox/` → `ptof_processed/`
 
 2. **Cella di verifica stato**
@@ -25,7 +25,7 @@ Ho aggiornato il notebook `docs/CLI_Examples.ipynb` per usare il nuovo sistema c
 
 2. **Esegui la prima cella del notebook** (sezione "Workflow Automatico")
    - Automaticamente converte, analizza e archivia PDF
-   - Log salvato in `logs/workflow_ptof.log`
+   - Log disponibile su console (oppure `logs/workflow_notebook.log` se usi `tee`)
 
 3. **Verifica stato** con la seconda cella
    - Vedi PDF rimanenti in inbox
@@ -36,7 +36,7 @@ Ho aggiornato il notebook `docs/CLI_Examples.ipynb` per usare il nuovo sistema c
 Se preferisci da terminale invece del notebook:
 ```bash
 source .venv/bin/activate
-python workflow_ptof.py
+python workflow_notebook.py
 ```
 
 ## 📂 Risultati
@@ -45,6 +45,6 @@ Dopo l'esecuzione:
 - `ptof_inbox/` - Vuota (PDF spostati)
 - `ptof_processed/batch_TIMESTAMP/` - PDF archiviati con README
 - `analysis_results/` - JSON analisi
-- `logs/workflow_ptof.log` - Log completo
+- Log su console (oppure `logs/workflow_notebook.log` se usi `tee`)
 
 Il notebook è pronto! Ricaricalo e prova la nuova sezione in cima. 🎯

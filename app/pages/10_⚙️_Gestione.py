@@ -244,9 +244,14 @@ with actions_col:
         new_denominazione = st.text_input("Denominazione", value=str(school_row.get('denominazione', '')), key=f"edit_denom_{school_id}")
         new_comune = st.text_input("Comune", value=str(school_row.get('comune', '') if pd.notna(school_row.get('comune')) else ''), key=f"edit_comune_{school_id}")
         
-        new_area = st.selectbox("Area Geografica", ['', 'Nord', 'Sud'],
-            index=['', 'Nord', 'Sud'].index(str(school_row.get('area_geografica', '')))\
-            if str(school_row.get('area_geografica', '')) in ['Nord', 'Sud'] else 0, key=f"edit_area_{school_id}")
+        area_options = ['', 'Nord Ovest', 'Nord Est', 'Centro', 'Sud', 'Isole']
+        current_area = str(school_row.get('area_geografica', ''))
+        new_area = st.selectbox(
+            "Area Geografica",
+            area_options,
+            index=area_options.index(current_area) if current_area in area_options else 0,
+            key=f"edit_area_{school_id}"
+        )
         
         new_territorio = st.selectbox("Territorio", ['', 'Metropolitano', 'Non Metropolitano'],
             index=['', 'Metropolitano', 'Non Metropolitano'].index(str(school_row.get('territorio', '')))\
@@ -254,7 +259,9 @@ with actions_col:
     
     with col_right:
         st.markdown("**Tipo Scuola**")
-        current_types = str(school_row.get('tipo_scuola', '')).split(', ') if pd.notna(school_row.get('tipo_scuola')) else []
+        # Split by comma and strip whitespace to handle "Liceo, Tecnico" or "Liceo,Tecnico"
+        current_types = [t.strip() for t in str(school_row.get('tipo_scuola', '')).split(',') if t.strip()] if pd.notna(school_row.get('tipo_scuola')) else []
+        
         tipo_infanzia = st.checkbox("Infanzia", value='Infanzia' in current_types, key=f"tipo_infanzia_{school_id}")
         tipo_primaria = st.checkbox("Primaria", value='Primaria' in current_types, key=f"tipo_primaria_{school_id}")
         tipo_igrado = st.checkbox("Medie (Sec. I Grado)", value='I Grado' in current_types or 'Medie' in current_types, key=f"tipo_igrado_{school_id}")
@@ -265,7 +272,8 @@ with actions_col:
         
         st.markdown("")  # Spacer
         st.markdown("**Ordine Grado**")
-        current_ordini = str(school_row.get('ordine_grado', '')).split(', ') if pd.notna(school_row.get('ordine_grado')) else []
+        current_ordini = [t.strip() for t in str(school_row.get('ordine_grado', '')).split(',') if t.strip()] if pd.notna(school_row.get('ordine_grado')) else []
+        
         ordine_infanzia = st.checkbox("Infanzia", value='Infanzia' in current_ordini, key=f"ordine_infanzia_{school_id}")
         ordine_primaria = st.checkbox("Primaria", value='Primaria' in current_ordini, key=f"ordine_primaria_{school_id}")
         ordine_igrado = st.checkbox("I Grado", value='I Grado' in current_ordini, key=f"ordine_igrado_{school_id}")

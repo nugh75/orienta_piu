@@ -57,7 +57,11 @@ def main():
     
     count = 0
     for pdf_path in pdf_files:
-        filename = os.path.basename(pdf_path).replace('.pdf', '.md')
+        base = os.path.splitext(os.path.basename(pdf_path))[0]
+        if base.lower().endswith('_ptof'):
+            filename = f"{base}.md"
+        else:
+            filename = f"{base}_ptof.md"
         output_path = os.path.join(MD_DIR, filename)
         
         # Skip if exists? User said "transform all", usually implies creating them. 

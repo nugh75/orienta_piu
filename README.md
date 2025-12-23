@@ -4,19 +4,26 @@ Sistema automatizzato per l'analisi dei documenti PTOF delle scuole italiane.
 
 ## 🚀 Quick Start
 
+Il progetto include un `Makefile` per semplificare tutte le operazioni.
+
 ```bash
-# Setup
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+# 1. Setup (solo la prima volta)
+make setup
 
-# Workflow CLI
+# 2. Copia i PDF nella cartella di input
 cp /path/to/*.pdf ptof_inbox/
-python workflow_ptof.py
 
-# Dashboard (✅ Verificata e Funzionante)
-./start_dashboard.sh
-# oppure: streamlit run app/Home.py
+# 3. Esegui l'analisi completa
+make run
+
+# 4. Avvia la Dashboard
+make dashboard
 ```
+
+### Comandi Rapidi
+- `make refresh`: Rigenera il CSV dai JSON e avvia la dashboard (utile dopo modifiche manuali).
+- `make full`: Esegue tutto il ciclo (Analisi -> CSV -> Dashboard).
+- `make help`: Mostra tutti i comandi disponibili.
 
 ## 📂 Directory
 
@@ -24,7 +31,7 @@ python workflow_ptof.py
 - `ptof_processed/` → PDF archiviati
 - `ptof_md/` → Markdown
 - `analysis_results/` → JSON analisi
-- `logs/workflow_ptof.log` → Log
+- `logs/` → Log (opzionale: usa `tee` se vuoi salvare l'output)
 
 ## 🤖 Pipeline Multi-Agente
 
@@ -37,9 +44,8 @@ python workflow_ptof.py
 ## 📋 CLI Commands
 
 ```bash
-python workflow_ptof.py        # Workflow completo
+python workflow_notebook.py    # Workflow completo
 python app/agentic_pipeline.py # Solo analisi
-python run_fixer.py            # Background fixer
 ```
 
 ## 📓 Notebook

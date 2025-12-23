@@ -5,7 +5,7 @@ Il notebook attualmente usa la vecchia struttura `ptof/` invece di `ptof_inbox/`
 
 ## ✅ Soluzione Rapida
 
-Usa direttamente lo script `workflow_ptof.py` invece delle celle bash nel notebook!
+Usa direttamente lo script `workflow_notebook.py` invece delle celle bash nel notebook!
 
 ### Da Terminale:
 
@@ -17,7 +17,7 @@ source .venv/bin/activate
 cp /path/to/*.pdf ptof_inbox/
 
 # Esegui workflow
-python workflow_ptof.py
+python workflow_notebook.py
 ```
 
 ### Da Jupyter Notebook:
@@ -30,7 +30,7 @@ cd /Users/danieledragoni/git/LIste
 source .venv/bin/activate
 
 echo "🚀 WORKFLOW PTOF"
-python workflow_ptof.py 2>&1 | tee logs/workflow_ptof.log
+python workflow_notebook.py 2>&1 | tee logs/workflow_notebook.log
 echo "✅ Completato!"
 ```
 
@@ -51,17 +51,17 @@ echo "JSON files: $(find analysis_results -name '*.json' | wc -l)"
 
 ## 🎯 Alternativa
 
-Usa direttamente `workflow_ptof.py` da terminale - è più semplice e affidabile!
+Usa direttamente `workflow_notebook.py` da terminale - è più semplice e affidabile!
 
 ```bash
 # 1. Prepara
 cp /path/to/*.pdf ptof_inbox/
 
 # 2. Esegui
-source .venv/bin/activate && python workflow_ptof.py
+source .venv/bin/activate && python workflow_notebook.py
 
 # 3. Verifica
-tail -f logs/workflow_ptof.log
+tail -f logs/workflow_notebook.log
 ```
 
 Il workflow automaticamente:

@@ -242,7 +242,7 @@ with st.expander("Schema JSON Output"):
     "denominazione": "...",
     "ordine_grado": "I Grado|II Grado",
     "tipo_scuola": "Liceo|Tecnico|Professionale|I Grado",
-    "area_geografica": "Nord|Sud"
+    "area_geografica": "Nord Ovest|Nord Est|Centro|Sud|Isole"
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {

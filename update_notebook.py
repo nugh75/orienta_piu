@@ -27,11 +27,10 @@ def update_notebook():
                 "cell_type": "markdown",
                 "metadata": {},
                 "source": [
-                    "### 🔍 Rilevamento e Correzione Incongruenze\n",
+                    "### 🔍 Rilevamento Incongruenze\n",
                     "\n",
-                    "La procedura è divisa in due fasi:\n",
-                    "1. **Rilevamento**: `run_reviewer.py` scansiona i file e crea un report anomalie (`review_flags.json`).\n",
-                    "2. **Correzione**: `run_fixer.py` legge il report, mostra un piano e chiede quali file correggere."
+                    "La procedura è basata sul **rilevamento** delle anomalie.\n",
+                    "1. **Rilevamento**: `run_reviewer.py` scansiona i file e crea un report anomalie (`review_flags.json`)."
                 ]
             }
             
@@ -54,27 +53,8 @@ def update_notebook():
                 ]
             }
             
-            # 3. Fixer Code
-            cell3 = {
-                "cell_type": "code",
-                "execution_count": None,
-                "metadata": {},
-                "outputs": [],
-                "source": [
-                    "%%bash\n",
-                    "# FASE 2: Correzione Interattiva\n",
-                    "# AVVISO: Questo comando richiede interazione utente!\n",
-                    "cd /Users/danieledragoni/git/LIste\n",
-                    "source .venv/bin/activate\n",
-                    "\n",
-                    "echo \"🛠️ Avvio Fixer (Interattivo)...\"\n",
-                    "# python run_fixer.py # Decommenta per eseguire da qui (richiede input)"
-                ]
-            }
-            
             new_cells.append(cell1)
             new_cells.append(cell2)
-            new_cells.append(cell3)
             
             # We skip the next cell (which is the old code cell for background fixer)
             skip_nextor = True

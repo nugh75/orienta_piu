@@ -3,14 +3,11 @@
 import streamlit as st
 import pandas as pd
 import os
-import json
 import glob
 
 st.set_page_config(page_title="Dati Grezzi", page_icon="📋", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
-
-REGION_MAP_FILE = 'config/region_map.json'
 
 # Removed cache to ensure fresh data
 def load_data():
@@ -18,45 +15,10 @@ def load_data():
     if os.path.exists(SUMMARY_FILE):
         df = pd.read_csv(SUMMARY_FILE)
     
-    # La colonna 'regione' viene ora popolata direttamente dalla pipeline
-    # usando il database ufficiale delle scuole (SchoolDatabase).
-    # Non sovrascriviamo più con region_map.json per evitare discrepanze
-    # tra questa pagina e Dettaglio Scuola.
-    
-    # Fallback: usa region_map SOLO se 'regione' non esiste o è tutta vuota/ND
+    # Analysis summary è la fonte di verità per la regione.
     if not df.empty and 'regione' in df.columns:
-        # Verifica se la regione è già popolata correttamente
-        valid_regions = df['regione'].dropna()
-        valid_regions = valid_regions[~valid_regions.isin(['ND', '', 'N/A', 'DA VERIFICARE'])]
-        
-        if len(valid_regions) < len(df) * 0.5:  # Meno del 50% popolato
-            # Fallback a region_map per le righe mancanti
-            if os.path.exists(REGION_MAP_FILE) and 'comune' in df.columns:
-                try:
-                    with open(REGION_MAP_FILE, 'r') as f:
-                        r_map = json.load(f)
-                    mapping = r_map.get('comuni', {})
-                    
-                    # Mappa solo dove regione è vuota/ND
-                    mask = df['regione'].isna() | df['regione'].isin(['ND', '', 'N/A'])
-                    df.loc[mask, 'regione'] = df.loc[mask, 'comune'].astype(str).str.upper().map(mapping)
-                except Exception as e:
-                    pass  # Ignora errori, usa valori esistenti
-    elif not df.empty and 'regione' not in df.columns:
-        # Colonna non esiste, crea da region_map
-        if os.path.exists(REGION_MAP_FILE) and 'comune' in df.columns:
-            try:
-                with open(REGION_MAP_FILE, 'r') as f:
-                    r_map = json.load(f)
-                mapping = r_map.get('comuni', {})
-                df['regione'] = df['comune'].astype(str).str.upper().map(mapping)
-            except:
-                df['regione'] = 'DA VERIFICARE'
-    
-    # Riempi valori mancanti
-    if 'regione' in df.columns:
         df['regione'] = df['regione'].fillna('DA VERIFICARE')
-
+    
     return df
 
 df = load_data()
@@ -76,15 +38,13 @@ st.markdown(f"**{len(df)} scuole** | **{len(df.columns)} colonne**")
 
 # Column selector
 all_cols = df.columns.tolist()
-default_cols = ['school_id', 'denominazione', 'regione', 'tipo_scuola', 'area_geografica', 'ordine_grado', 
-                'ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi', 
-                'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
-default_cols = [c for c in default_cols if c in all_cols]
-
-selected_cols = st.multiselect("Seleziona colonne da visualizzare", all_cols, default=default_cols)
+# Imposta tutte le colonne come default per mostrare tutto il CSV
+selected_cols = st.multiselect("Seleziona colonne da visualizzare", all_cols, default=all_cols)
 
 if selected_cols:
     st.dataframe(df[selected_cols], width="stretch", height=400)
+else:
+    st.warning("Seleziona almeno una colonna")
 
 st.markdown("---")
 
@@ -168,8 +128,9 @@ st.markdown("---")
 # 5. JSON Viewer
 st.subheader("📄 Visualizza JSON Originale")
 
-if selected_school:
-    school_id = df[df['denominazione'] == selected_school]['school_id'].iloc[0]
+if selected_label:
+    # Estrai school_id dalla riga selezionata (già filtrata sopra)
+    school_id = school_row['school_id']
     json_files = glob.glob(f'analysis_results/*{school_id}*_analysis.json')
     
     if json_files:
@@ -200,7 +161,7 @@ with col1:
     )
 
 with col2:
-    if selected_school and 'json_data' in dir():
+    if selected_label and 'json_data' in locals() and json_data:
         json_str = json.dumps(json_data, indent=2, ensure_ascii=False)
         st.download_button(
             label="📥 Scarica JSON Scuola",

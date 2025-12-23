@@ -67,7 +67,7 @@ Una volta avviata, la dashboard sarà disponibile su:
 ## Filtri Globali
 
 La sidebar offre filtri per:
-- 🌍 Area Geografica (Nord, Centro, Sud)
+- 🌍 Area Geografica (Nord Ovest, Nord Est, Centro, Sud, Isole)
 - 🏫 Tipo Scuola (Liceo, Tecnico, Professionale, ecc.)
 - 🗺️ Territorio (Metropolitano, Non Metropolitano)
 - 📚 Ordine Grado (Infanzia, Primaria, I Grado, II Grado)

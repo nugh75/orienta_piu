@@ -4,6 +4,8 @@ import csv
 import logging
 from typing import Optional, Dict
 
+from src.utils.constants import normalize_area_geografica
+
 logger = logging.getLogger(__name__)
 
 class SchoolDatabase:
@@ -67,6 +69,24 @@ class SchoolDatabase:
             val = val.strip()
             return val.title() if to_title else val
         
+        raw_area = row.get('AREAGEOGRAFICA', '')
+        raw_regione = row.get('REGIONE', '')
+        provincia_sigla = row.get('PROVINCIA', '')
+        provincia_sigla = provincia_sigla.strip() if provincia_sigla else ''
+        if provincia_sigla and len(provincia_sigla) != 2:
+            provincia_sigla = ''
+
+        try:
+            area_geografica = normalize_area_geografica(
+                raw_area,
+                regione=raw_regione,
+                provincia_sigla=provincia_sigla
+            )
+        except TypeError:
+            area_geografica = normalize_area_geografica(raw_area)
+        except Exception:
+            area_geografica = clean_value(raw_area, to_title=True)
+
         # Common fields - extract all available metadata
         data = {
             'school_id': row.get('CODICESCUOLA', '').upper().strip(),
@@ -74,7 +94,7 @@ class SchoolDatabase:
             'comune': clean_value(row.get('DESCRIZIONECOMUNE', ''), to_title=True),
             'provincia': clean_value(row.get('PROVINCIA', ''), to_title=True),
             'regione': clean_value(row.get('REGIONE', ''), to_title=True),
-            'area_geografica': clean_value(row.get('AREAGEOGRAFICA', ''), to_title=True),
+            'area_geografica': area_geografica,
             'indirizzo': clean_value(row.get('INDIRIZZOSCUOLA', ''), to_title=True),
             'cap': clean_value(row.get('CAPSCUOLA', '')),
             'codice_comune': clean_value(row.get('CODICECOMUNESCUOLA', '')),
@@ -104,12 +124,12 @@ class SchoolDatabase:
         elif 'PRIMO GRADO' in raw_tipo or 'MEDIA' in raw_tipo:
             ordine = 'I Grado'
             tipo = 'I Grado'
-        elif 'SECONDO GRADO' in raw_tipo or 'LICEO' in raw_tipo or 'TECNICO' in raw_tipo or 'PROFESSIONALE' in raw_tipo:
+        elif 'SECONDO GRADO' in raw_tipo or 'LICEO' in raw_tipo or 'TECNICO' in raw_tipo or 'PROFESSIONALE' in raw_tipo or 'SUPERIORE' in raw_tipo:
             ordine = 'II Grado'
             if 'LICEO' in raw_tipo: tipo = 'Liceo'
             elif 'TECNICO' in raw_tipo: tipo = 'Tecnico'
             elif 'PROFESSIONALE' in raw_tipo: tipo = 'Professionale'
-            else: tipo = 'Istituto Superiore'
+            else: tipo = 'ND'
             
         data['ordine_grado'] = ordine
         data['tipo_scuola'] = tipo

@@ -12,6 +12,20 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.utils.school_database import SchoolDatabase
+from src.utils.constants import get_area_from_regione, normalize_area_geografica
+
+# Import del database dei comuni (fallback per area_geografica)
+try:
+    from src.utils.comuni_database import ComuniDatabase
+    _comuni_db = None
+    def get_comuni_db():
+        global _comuni_db
+        if _comuni_db is None:
+            _comuni_db = ComuniDatabase()
+        return _comuni_db
+except ImportError:
+    get_comuni_db = None
+    print("⚠️ ComuniDatabase non disponibile - usa fallback statico")
 
 # Singleton per il database
 _school_db = None
@@ -224,7 +238,25 @@ def enrich_json_with_miur(json_path: str, school_code: str = None) -> Dict:
                 if location.get('area_geografica') and data['metadata'].get('area_geografica') in ['ND', '', None]:
                     data['metadata']['area_geografica'] = location['area_geografica']
             else:
-                result['warnings'].append(f"Comune '{comune_llm}' non trovato in database MIUR")
+                # FALLBACK 1.5: Usa database comuni italiani
+                if get_comuni_db:
+                    comuni_db = get_comuni_db()
+                    comuni_info = comuni_db.get_comune_info(comune_llm)
+                    if comuni_info:
+                        # Aggiorna con dati dal database comuni
+                        if data['metadata'].get('provincia') in ['ND', '', None]:
+                            data['metadata']['provincia'] = comuni_info['provincia']
+                            result['changes'].append(f"provincia = '{comuni_info['provincia']}' (da ComuniDB)")
+                        if data['metadata'].get('regione') in ['ND', '', None]:
+                            data['metadata']['regione'] = comuni_info['regione']
+                            result['changes'].append(f"regione = '{comuni_info['regione']}' (da ComuniDB)")
+                        if data['metadata'].get('area_geografica') in ['ND', '', None]:
+                            data['metadata']['area_geografica'] = comuni_info['area_geografica']
+                            result['changes'].append(f"area_geografica = '{comuni_info['area_geografica']}' (da ComuniDB)")
+                    else:
+                        result['warnings'].append(f"Comune '{comune_llm}' non trovato neanche in ComuniDB")
+                else:
+                    result['warnings'].append(f"Comune '{comune_llm}' non trovato in database MIUR")
         else:
             # FALLBACK 2: Ricerca web usando il nome della scuola
             denominazione = data['metadata'].get('denominazione', '')
@@ -277,21 +309,8 @@ def enrich_json_with_miur(json_path: str, school_code: str = None) -> Dict:
     
     # CALCOLO AUTOMATICO area_geografica e territorio dalla regione/provincia
     def get_area_geografica(regione: str) -> str:
-        """Ritorna Nord/Centro/Sud/Isole dalla regione (case-insensitive)"""
-        if not regione or regione in ['ND', '', None]:
-            return 'ND'
-        r = regione.upper().strip()
-        if any(x in r for x in ['PIEMONTE', 'LOMBARDIA', 'VENETO', 'LIGURIA', 
-                                'EMILIA', 'FRIULI', 'TRENTINO', 'VALLE']):
-            return 'Nord'
-        if any(x in r for x in ['TOSCANA', 'UMBRIA', 'MARCHE', 'LAZIO']):
-            return 'Centro'
-        if any(x in r for x in ['ABRUZZO', 'MOLISE', 'CAMPANIA', 'PUGLIA', 
-                                'BASILICATA', 'CALABRIA']):
-            return 'Sud'
-        if any(x in r for x in ['SICILIA', 'SARDEGNA']):
-            return 'Isole'
-        return 'ND'
+        """Ritorna area geografica standard dalla regione (case-insensitive)."""
+        return get_area_from_regione(regione)
     
     PROVINCE_METRO = ['Roma', 'Milano', 'Napoli', 'Torino', 'Bari', 'Firenze', 
                       'Bologna', 'Genova', 'Venezia', 'Palermo', 'Catania', 
@@ -317,6 +336,31 @@ def enrich_json_with_miur(json_path: str, school_code: str = None) -> Dict:
             data['metadata']['territorio'] = territorio
             result['changes'].append(f"territorio = '{territorio}' (da provincia)")
     
+    # FALLBACK FINALE: Se area_geografica è ancora ND, usa database comuni
+    if data['metadata'].get('area_geografica') in ['ND', '', None]:
+        comune = data['metadata'].get('comune', '')
+        if comune and comune not in ['ND', '', None] and get_comuni_db:
+            comuni_db = get_comuni_db()
+            comuni_info = comuni_db.get_comune_info(comune)
+            if comuni_info and comuni_info.get('area_geografica'):
+                data['metadata']['area_geografica'] = comuni_info['area_geografica']
+                result['changes'].append(f"area_geografica = '{comuni_info['area_geografica']}' (da ComuniDB fallback)")
+                # Aggiorna anche provincia e regione se mancanti
+                if data['metadata'].get('provincia') in ['ND', '', None]:
+                    data['metadata']['provincia'] = comuni_info['provincia']
+                    result['changes'].append(f"provincia = '{comuni_info['provincia']}' (da ComuniDB)")
+                if data['metadata'].get('regione') in ['ND', '', None]:
+                    data['metadata']['regione'] = comuni_info['regione']
+                    result['changes'].append(f"regione = '{comuni_info['regione']}' (da ComuniDB)")
+    
+    area_norm = normalize_area_geografica(
+        data['metadata'].get('area_geografica'),
+        regione=data['metadata'].get('regione'),
+        provincia_sigla=school_code[:2] if school_code else None
+    )
+    if area_norm != 'ND':
+        data['metadata']['area_geografica'] = area_norm
+
     # Salva JSON aggiornato
     try:
         with open(json_path, 'w') as f:

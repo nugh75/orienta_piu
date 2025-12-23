@@ -19,7 +19,7 @@ La struttura del JSON deve essere ESATTAMENTE questa:
         "denominazione": "Nome ufficiale della scuola (es. 'Liceo Scientifico A. Volta')",
         "tipo_scuola": "Tipo specifico (Liceo, Tecnico, Professionale, Infanzia, Primaria, I Grado). Se misto usare virgola (es. 'Liceo, Tecnico')",
         "ordine_grado": "Infanzia, Primaria, I Grado, II Grado, o Comprensivo",
-        "area_geografica": "Nord, Centro, o Sud (dedurre da regione/città)",
+        "area_geografica": "Nord Ovest, Nord Est, Centro, Sud, o Isole (dedurre da regione/città)",
         "territorio": "Metropolitano o Non Metropolitano",
         "comune": "Comune della sede principale",
         "anno_ptof": "Anni di riferimento (es. 2022-2025)"
@@ -204,7 +204,7 @@ Compito:
 Estrai i seguenti campi in un oggetto JSON:
 - denominazione: Nome ufficiale della scuola (es. "Liceo Scientifico A. Volta")
 - comune: Città o Comune in cui si trova.
-- area_geografica: "Nord", "Centro", "Sud", "Isole". (Inferisci dal comune/regione se non esplicito).
+- area_geografica: "Nord Ovest", "Nord Est", "Centro", "Sud", "Isole". (Inferisci dal comune/regione se non esplicito).
 - tipo_scuola: "I Grado", "Liceo", "Tecnico", "Professionale", "Comprensivo", "Omnicomprensivo". Se misto, usa virgola (es. "Liceo, Tecnico").
 - ordine_grado: "Infanzia", "Primaria", "I Grado" (Medie/IC) o "II Grado" (Superiori). Se misto, usa virgola (es. "I Grado, II Grado").
 - school_id: Il codice meccanografico (es. MIIS00900T) se presente nel testo.

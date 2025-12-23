@@ -10,9 +10,12 @@ import re
 import pandas as pd
 from glob import glob
 
+from src.utils.constants import normalize_area_geografica
+
 # Paths
 RESULTS_DIR = "analysis_results"
 ENRICHMENT_CSV = "data/metadata_enrichment.csv"
+PTOF_MD_DIR = "ptof_md"
 
 # Import SchoolDatabase for authoritative data
 try:
@@ -47,6 +50,63 @@ def load_metadata_caches():
     
     return caches
 
+def is_missing_field(field, value):
+    if value is None:
+        return True
+    raw = str(value).strip()
+    if not raw:
+        return True
+    if raw.lower() in ['nd', 'n/d', 'n/a', 'null', 'none', 'nan']:
+        return True
+    if field == 'tipo_scuola' and raw.lower() == 'istituto superiore':
+        return True
+    return False
+
+def infer_school_level_from_text(text):
+    if not text:
+        return {}
+    sample = text[:20000].lower()
+
+    if re.search(r'(scuola\s+infanzia|infanzia)', sample):
+        return {'ordine_grado': 'Infanzia', 'tipo_scuola': 'Infanzia'}
+    if re.search(r'(primaria|elementare|direzione\s+didattica)', sample):
+        return {'ordine_grado': 'Primaria', 'tipo_scuola': 'Primaria'}
+    if re.search(r'(scuola\s+media|secondaria\s+di\s+primo|\bi\s*grado\b|\b1\W*grado\b|comprensivo)', sample):
+        return {'ordine_grado': 'I Grado', 'tipo_scuola': 'I Grado'}
+    if re.search(r'(secondaria\s+di\s+secondo|\bii\s*grado\b|\b2\W*grado\b|liceo|istituto\s+tecnico|istituto\s+professionale|istituto\s+superiore)', sample):
+        tipo = 'II Grado'
+        if re.search(r'liceo', sample):
+            tipo = 'Liceo'
+        elif re.search(r'(istituto\s+tecnico|\btecnico\b)', sample):
+            tipo = 'Tecnico'
+        elif re.search(r'(istituto\s+professionale|\bprofessionale\b)', sample):
+            tipo = 'Professionale'
+        return {'ordine_grado': 'II Grado', 'tipo_scuola': tipo}
+
+    return {}
+
+
+def find_md_path(school_code):
+    candidates = [
+        os.path.join(PTOF_MD_DIR, f"{school_code}_ptof.md"),
+        os.path.join(PTOF_MD_DIR, f"{school_code}_PTOF.md"),
+        os.path.join(PTOF_MD_DIR, f"{school_code}.md"),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            return path
+    return None
+
+
+def infer_school_level_from_md(md_path):
+    if not md_path or not os.path.exists(md_path):
+        return {}
+    try:
+        with open(md_path, 'r', encoding='utf-8', errors='ignore') as f:
+            return infer_school_level_from_text(f.read())
+    except Exception:
+        return {}
+
 def enrich_json_file(json_path, caches):
     """Enrich a single JSON file with metadata from SchoolDatabase and enrichment CSV."""
     filename = os.path.basename(json_path)
@@ -70,13 +130,13 @@ def enrich_json_file(json_path, caches):
         def get_value(field, db_field=None):
             db_field = db_field or field
             existing = data['metadata'].get(field)
-            if existing and existing not in ['ND', '', None, 'null']:
+            if existing and not is_missing_field(field, existing):
                 return existing
             db_val = db_data.get(db_field) if db_data else None
-            if db_val and db_val not in ['ND', '', None]:
+            if db_val and not is_missing_field(field, db_val):
                 return db_val
             enrich_val = enrich.get(field)
-            if enrich_val and enrich_val not in ['ND', '', None]:
+            if enrich_val and not is_missing_field(field, enrich_val):
                 return enrich_val
             return 'ND'
         
@@ -86,9 +146,16 @@ def enrich_json_file(json_path, caches):
         data['metadata']['comune'] = get_value('comune')
         data['metadata']['provincia'] = get_value('provincia')
         data['metadata']['regione'] = get_value('regione')
-        data['metadata']['area_geografica'] = get_value('area_geografica')
+        raw_area = get_value('area_geografica')
+        data['metadata']['area_geografica'] = normalize_area_geografica(
+            raw_area,
+            regione=data['metadata'].get('regione'),
+            provincia_sigla=school_code[:2]
+        )
         data['metadata']['ordine_grado'] = get_value('ordine_grado')
         data['metadata']['tipo_scuola'] = get_value('tipo_scuola')
+        if str(data['metadata'].get('tipo_scuola', '')).strip().lower() == 'istituto superiore':
+            data['metadata']['tipo_scuola'] = 'ND'
         data['metadata']['indirizzo'] = get_value('indirizzo')
         data['metadata']['cap'] = get_value('cap')
         data['metadata']['email'] = get_value('email')
@@ -107,6 +174,24 @@ def enrich_json_file(json_path, caches):
             'ISOLE': 'Sud',
         }
         data['metadata']['territorio'] = territorio_map.get(area, get_value('territorio'))
+
+        md_path = find_md_path(school_code)
+        md_inferred = infer_school_level_from_md(md_path)
+        if is_missing_field('ordine_grado', data['metadata'].get('ordine_grado')) and md_inferred.get('ordine_grado'):
+            data['metadata']['ordine_grado'] = md_inferred['ordine_grado']
+        if is_missing_field('tipo_scuola', data['metadata'].get('tipo_scuola')) and md_inferred.get('tipo_scuola'):
+            data['metadata']['tipo_scuola'] = md_inferred['tipo_scuola']
+
+        ordine = data['metadata'].get('ordine_grado', '')
+        tipo_scuola = data['metadata'].get('tipo_scuola', '')
+        if ordine in ['Infanzia', 'Primaria'] and (not tipo_scuola or tipo_scuola == 'ND'):
+            data['metadata']['tipo_scuola'] = ordine
+        if ordine == 'I Grado' and (tipo_scuola == 'ND' or not tipo_scuola):
+            data['metadata']['tipo_scuola'] = 'I Grado'
+        if tipo_scuola in ['Liceo', 'Tecnico', 'Professionale'] and (not ordine or ordine == 'ND'):
+            data['metadata']['ordine_grado'] = 'II Grado'
+        if ordine == 'II Grado' and (not tipo_scuola or tipo_scuola == 'ND'):
+            data['metadata']['tipo_scuola'] = 'II Grado'
 
         # Infer Ordine Grado from Denominazione if currently ND or generic
         current_grado = data['metadata']['ordine_grado']

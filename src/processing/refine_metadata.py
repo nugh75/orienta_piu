@@ -146,8 +146,9 @@ def main():
         
         # Find corresponding MD file
         md_candidates = [
-            os.path.join(PTOF_MD_DIR, f"{school_code}.md"),
+            os.path.join(PTOF_MD_DIR, f"{school_code}_ptof.md"),
             os.path.join(PTOF_MD_DIR, f"{school_code}_PTOF.md"),
+            os.path.join(PTOF_MD_DIR, f"{school_code}.md"),
         ]
         md_path = None
         for candidate in md_candidates:

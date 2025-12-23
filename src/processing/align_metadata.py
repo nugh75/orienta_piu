@@ -13,6 +13,7 @@ import csv
 import pandas as pd
 from glob import glob
 
+from src.utils.constants import get_geo_from_sigla, normalize_area_geografica
 # Paths
 RESULTS_DIR = "analysis_results"
 ENRICHMENT_CSV = "data/metadata_enrichment.csv"
@@ -55,39 +56,10 @@ def extract_canonical_code(filename_code):
             return part
     return parts[0] if parts else filename_code
 
-# Italian region codes to area mapping
-REGION_TO_AREA = {
-    # Nord
-    'TO': 'Nord', 'VC': 'Nord', 'NO': 'Nord', 'CN': 'Nord', 'AT': 'Nord', 'AL': 'Nord', 'BI': 'Nord', 'VB': 'Nord',  # Piemonte
-    'AO': 'Nord',  # Valle d'Aosta
-    'VA': 'Nord', 'CO': 'Nord', 'SO': 'Nord', 'MI': 'Nord', 'BG': 'Nord', 'BS': 'Nord', 'PV': 'Nord', 'CR': 'Nord', 'MN': 'Nord', 'LC': 'Nord', 'LO': 'Nord', 'MB': 'Nord',  # Lombardia
-    'BZ': 'Nord', 'TN': 'Nord',  # Trentino
-    'VR': 'Nord', 'VI': 'Nord', 'BL': 'Nord', 'TV': 'Nord', 'VE': 'Nord', 'PD': 'Nord', 'RO': 'Nord',  # Veneto
-    'UD': 'Nord', 'GO': 'Nord', 'TS': 'Nord', 'PN': 'Nord',  # Friuli
-    'IM': 'Nord', 'SV': 'Nord', 'GE': 'Nord', 'SP': 'Nord',  # Liguria
-    'PC': 'Nord', 'PR': 'Nord', 'RE': 'Nord', 'MO': 'Nord', 'BO': 'Nord', 'FE': 'Nord', 'RA': 'Nord', 'FC': 'Nord', 'RN': 'Nord',  # Emilia-Romagna
-    # Nord (include Toscana, Umbria, Marche, Abruzzo)
-    'MS': 'Nord', 'LU': 'Nord', 'PT': 'Nord', 'FI': 'Nord', 'LI': 'Nord', 'PI': 'Nord', 'AR': 'Nord', 'SI': 'Nord', 'GR': 'Nord', 'PO': 'Nord',  # Toscana
-    'PG': 'Nord', 'TR': 'Nord',  # Umbria
-    'PU': 'Nord', 'AN': 'Nord', 'MC': 'Nord', 'AP': 'Nord', 'FM': 'Nord',  # Marche
-    'AQ': 'Nord', 'TE': 'Nord', 'PE': 'Nord', 'CH': 'Nord',  # Abruzzo
-    # Sud (solo Lazio e regioni meridionali)
-    'VT': 'Sud', 'RI': 'Sud', 'RM': 'Sud', 'LT': 'Sud', 'FR': 'Sud',  # Lazio
-    'CB': 'Sud', 'IS': 'Sud',  # Molise
-    'CE': 'Sud', 'BN': 'Sud', 'NA': 'Sud', 'AV': 'Sud', 'SA': 'Sud',  # Campania
-    'FG': 'Sud', 'BA': 'Sud', 'TA': 'Sud', 'BR': 'Sud', 'LE': 'Sud', 'BT': 'Sud',  # Puglia
-    'PZ': 'Sud', 'MT': 'Sud',  # Basilicata
-    'CS': 'Sud', 'CZ': 'Sud', 'RC': 'Sud', 'KR': 'Sud', 'VV': 'Sud',  # Calabria
-    'TP': 'Sud', 'PA': 'Sud', 'ME': 'Sud', 'AG': 'Sud', 'CL': 'Sud', 'EN': 'Sud', 'CT': 'Sud', 'RG': 'Sud', 'SR': 'Sud',  # Sicilia
-    'SS': 'Sud', 'NU': 'Sud', 'CA': 'Sud', 'OR': 'Sud', 'OT': 'Sud', 'OG': 'Sud', 'CI': 'Sud', 'VS': 'Sud', 'SU': 'Sud',  # Sardegna
-}
-
 def infer_area_from_code(school_code):
     """Infer area geografica from school code prefix."""
-    if len(school_code) >= 2:
-        prefix = school_code[:2].upper()
-        return REGION_TO_AREA.get(prefix, 'ND')
-    return 'ND'
+    geo = get_geo_from_sigla(school_code)
+    return geo.get('area_geografica', 'ND')
 
 def infer_school_type_from_code(school_code):
     """
@@ -168,10 +140,17 @@ def load_anagrafe():
                 code = str(row.get('CODICESCUOLA', '')).strip().upper()
                 denom = str(row.get('DENOMINAZIONESCUOLA', '')).strip()
                 if code:
+                    prov_sigla = str(row.get('PROVINCIA', '')).strip().upper()
+                    if len(prov_sigla) != 2:
+                        prov_sigla = code[:2]
                     anagrafe_cache[code] = {
                         'denominazione': denom,
                         'comune': row.get('DESCRIZIONECOMUNE', ''),
-                        'area_geografica': 'Nord' if 'NORD' in str(row.get('AREAGEOGRAFICA', '')).upper() else 'Sud',
+                        'area_geografica': normalize_area_geografica(
+                            row.get('AREAGEOGRAFICA', ''),
+                            regione=row.get('REGIONE', ''),
+                            provincia_sigla=prov_sigla
+                        ),
                         'regione': row.get('REGIONE', ''),
                         'provincia': row.get('PROVINCIA', ''),
                         'tipo_grado': row.get('DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA', ''),
@@ -389,7 +368,12 @@ for json_path in json_files:
         safe_update('comune', enrich.get('comune'))
         
         # area_geografica
-        possible_area = enrich.get('area_geografica') or infer_area_from_code(school_code)
+        possible_area_raw = enrich.get('area_geografica') or infer_area_from_code(school_code)
+        possible_area = normalize_area_geografica(
+            possible_area_raw,
+            regione=data['metadata'].get('regione'),
+            provincia_sigla=school_code[:2]
+        )
         safe_update('area_geografica', possible_area)
         
         # ordine_grado
@@ -457,7 +441,13 @@ for json_path in json_files:
         row['school_id'] = school_code
         row['denominazione'] = meta.get('denominazione', 'ND')
         row['comune'] = meta.get('comune', 'ND')
-        row['area_geografica'] = meta.get('area_geografica') or enrich.get('area_geografica') or infer_area_from_code(school_code) or 'ND'
+        raw_area = meta.get('area_geografica') or enrich.get('area_geografica') or infer_area_from_code(school_code)
+        area_norm = normalize_area_geografica(
+            raw_area,
+            regione=meta.get('regione') or enrich.get('regione'),
+            provincia_sigla=school_code[:2]
+        )
+        row['area_geografica'] = area_norm if area_norm != 'ND' else 'ND'
         row['territorio'] = meta.get('territorio', 'ND')
         
         # ordine_grado: enrichment > meta (from JSON)

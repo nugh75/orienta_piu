@@ -5,9 +5,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import json
-import subprocess
-import sys
 
 st.set_page_config(page_title="Mappa Italia", page_icon="🗺️", layout="wide")
 
@@ -28,7 +25,6 @@ st.markdown("""
 
 # Constants
 SUMMARY_FILE = 'data/analysis_summary.csv'
-REGION_MAP_FILE = 'config/region_map.json'
 
 LABEL_MAP = {
     'mean_finalita': 'Finalità',
@@ -41,18 +37,6 @@ LABEL_MAP = {
 
 def get_label(col):
     return LABEL_MAP.get(col, col.replace('_', ' ').title())
-
-# Load region map from JSON file
-@st.cache_data(ttl=30)
-def load_region_map():
-    """Load region mapping from JSON config file."""
-    if os.path.exists(REGION_MAP_FILE):
-        with open(REGION_MAP_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get('comuni', {})
-    return {}
-
-REGION_MAP = load_region_map()
 
 # Region to ISO codes for choropleth
 REGION_ISO = {
@@ -92,6 +76,20 @@ if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
     st.stop()
 
+# Normalize region values from analysis_summary only (no external mapping)
+def normalize_region(value):
+    if pd.isna(value):
+        return 'Non Specificato'
+    value_str = str(value).strip()
+    if value_str in ('', 'ND', 'N/A', 'nan'):
+        return 'Non Specificato'
+    return value_str
+
+if 'regione' in df.columns:
+    df['regione'] = df['regione'].apply(normalize_region)
+else:
+    df['regione'] = 'Non Specificato'
+
 # Standardize numeric columns
 numeric_cols = ['ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi', 
                 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
@@ -99,98 +97,33 @@ for col in numeric_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# Infer region from comune using JSON config
-def get_region(comune):
-    if pd.isna(comune):
-        return 'Non Specificato'
-    comune_upper = str(comune).upper().strip()
-    # Exact match first
-    if comune_upper in REGION_MAP:
-        return REGION_MAP[comune_upper]
-    # Partial match
-    for key, region in REGION_MAP.items():
-        if key in comune_upper or comune_upper in key:
-            return region
-    return 'Non Specificato'
-
-# Apply region mapping
-df['regione'] = df['comune'].apply(get_region) if 'comune' in df.columns else 'Non Specificato'
 df['macro_area'] = df['regione'].map(MACRO_AREA).fillna('Non Specificato')
 
 # Filter out schools with no maturity index
 df_valid = df[df['ptof_orientamento_maturity_index'].notna()].copy()
 
-# === ALERT: CHECK FOR UNMAPPED COMUNI ===
-unmapped_comuni = []
-if 'comune' in df.columns:
-    for comune in df['comune'].dropna().unique():
-        comune_upper = str(comune).upper().strip()
-        if comune_upper and comune_upper != 'ND':
-            is_mapped = False
-            for key in REGION_MAP.keys():
-                if key in comune_upper or comune_upper in key:
-                    is_mapped = True
-                    break
-            if not is_mapped:
-                unmapped_comuni.append(comune_upper)
+# === ALERT: CHECK FOR MISSING REGION IN SUMMARY ===
+missing_region_rows = df[df['regione'] == 'Non Specificato']
+if not missing_region_rows.empty:
+    st.error(f"⚠️ **Attenzione: {len(missing_region_rows)} scuole senza regione in analysis_summary.csv**")
 
-if unmapped_comuni:
-    st.error(f"""
-    ⚠️ **Attenzione: {len(unmapped_comuni)} comuni senza regione mappata!**
-    
-    I seguenti comuni non sono presenti in `config/region_map.json`:
-    """)
-    
-    # Show unmapped comuni
-    with st.expander(f"📋 Visualizza {len(unmapped_comuni)} comuni non mappati", expanded=True):
-        cols = st.columns(3)
-        for i, comune in enumerate(sorted(unmapped_comuni)[:15]):
-            with cols[i % 3]:
-                st.code(comune)
-        if len(unmapped_comuni) > 15:
-            st.caption(f"... e altri {len(unmapped_comuni) - 15} comuni")
-    
-    # Button to auto-update using LLM
-    st.markdown("---")
-    col1, col2 = st.columns([2, 1])
-    
-    with col1:
-        st.info("""
-        🤖 **Aggiornamento automatico disponibile!**
-        
-        Clicca il pulsante per usare l'AI (Gemini) per identificare automaticamente 
-        le regioni dei comuni mancanti e aggiornare il file di configurazione.
-        """)
-    
-    with col2:
-        if st.button("🚀 Aggiorna Regioni con AI", type="primary", width="stretch"):
-            with st.spinner("🤖 Interrogo Gemini per identificare le regioni..."):
-                try:
-                    # Run the update script
-                    script_path = os.path.join(os.getcwd(), 'src', 'utils', 'update_region_map.py')
-                    result = subprocess.run(
-                        [sys.executable, script_path],
-                        capture_output=True,
-                        text=True,
-                        cwd=os.getcwd(),
-                        timeout=60
-                    )
-                    
-                    if result.returncode == 0:
-                        st.success("✅ Regioni aggiornate con successo!")
-                        st.info("🔄 Ricarica la pagina per vedere le modifiche.")
-                        # Clear cache to reload region map
-                        st.cache_data.clear()
-                        st.rerun()
-                    else:
-                        st.error(f"❌ Errore nell'aggiornamento:\n```\n{result.stderr}\n```")
-                        if result.stdout:
-                            st.code(result.stdout)
-                except subprocess.TimeoutExpired:
-                    st.error("⏱️ Timeout: l'operazione ha impiegato troppo tempo.")
-                except Exception as e:
-                    st.error(f"❌ Errore: {e}")
-    
+    if 'comune' in df.columns:
+        missing_comuni = sorted({
+            str(comune).upper().strip()
+            for comune in missing_region_rows['comune'].dropna().tolist()
+            if str(comune).strip()
+        })
+
+        if missing_comuni:
+            with st.expander(f"📋 Visualizza {len(missing_comuni)} comuni senza regione", expanded=True):
+                cols = st.columns(3)
+                for i, comune in enumerate(missing_comuni[:15]):
+                    with cols[i % 3]:
+                        st.code(comune)
+                if len(missing_comuni) > 15:
+                    st.caption(f"... e altri {len(missing_comuni) - 15} comuni")
+
+    st.info("Aggiorna i metadati rigenerando `data/analysis_summary.csv` dal workflow.")
     st.markdown("---")
 
 st.markdown("---")

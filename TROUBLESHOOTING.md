@@ -305,7 +305,7 @@ VERIFY
 Se i problemi persistono:
 
 1. Verifica di avere l'ultima versione del codice
-2. Controlla i log in `logs/workflow_ptof.log`
+2. Controlla l'output in console (oppure `logs/workflow_notebook.log` se usi `tee`)
 3. Consulta [DASHBOARD_README.md](DASHBOARD_README.md) per dettagli sulla dashboard
 4. Esegui lo script di verifica integrità sopra riportato
 

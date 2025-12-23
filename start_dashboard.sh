@@ -26,10 +26,14 @@ fi
 
 # Avvia Streamlit
 echo ""
+echo "🛑 Arresto eventuali istanze precedenti..."
+pkill -f "streamlit run app/Home.py" || true
+sleep 1
+
 echo "✅ Avvio dashboard su http://localhost:8501"
 echo ""
 echo "📌 Premi CTRL+C per terminare"
 echo "================================================"
 echo ""
 
-streamlit run app/Home.py
+streamlit run app/Home.py --server.port 8501

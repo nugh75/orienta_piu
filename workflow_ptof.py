@@ -190,28 +190,44 @@ def rename_analysis_files(old_code: str, new_code: str) -> dict:
     }
     
     # Rinomina JSON analisi
-    old_json = f"{ANALYSIS_DIR}/{old_code}_analysis.json"
-    new_json = f"{ANALYSIS_DIR}/{new_code}_analysis.json"
-    if os.path.exists(old_json) and not os.path.exists(new_json):
-        os.rename(old_json, new_json)
-        renamed['json'] = new_json
-        logger.info(f"  📝 Rinominato: {old_code}_analysis.json → {new_code}_analysis.json")
+    old_json_candidates = [
+        f"{ANALYSIS_DIR}/{old_code}_PTOF_analysis.json",
+        f"{ANALYSIS_DIR}/{old_code}_analysis.json",
+    ]
+    new_json = f"{ANALYSIS_DIR}/{new_code}_PTOF_analysis.json"
+    for old_json in old_json_candidates:
+        if os.path.exists(old_json) and not os.path.exists(new_json):
+            os.rename(old_json, new_json)
+            renamed['json'] = new_json
+            logger.info(f"  📝 Rinominato: {os.path.basename(old_json)} → {os.path.basename(new_json)}")
+            break
     
     # Rinomina MD analisi
-    old_analysis_md = f"{ANALYSIS_DIR}/{old_code}_analysis.md"
-    new_analysis_md = f"{ANALYSIS_DIR}/{new_code}_analysis.md"
-    if os.path.exists(old_analysis_md) and not os.path.exists(new_analysis_md):
-        os.rename(old_analysis_md, new_analysis_md)
-        renamed['md'] = new_analysis_md
-        logger.info(f"  📝 Rinominato: {old_code}_analysis.md → {new_code}_analysis.md")
+    old_analysis_md_candidates = [
+        f"{ANALYSIS_DIR}/{old_code}_PTOF_analysis.md",
+        f"{ANALYSIS_DIR}/{old_code}_analysis.md",
+    ]
+    new_analysis_md = f"{ANALYSIS_DIR}/{new_code}_PTOF_analysis.md"
+    for old_analysis_md in old_analysis_md_candidates:
+        if os.path.exists(old_analysis_md) and not os.path.exists(new_analysis_md):
+            os.rename(old_analysis_md, new_analysis_md)
+            renamed['md'] = new_analysis_md
+            logger.info(f"  📝 Rinominato: {os.path.basename(old_analysis_md)} → {os.path.basename(new_analysis_md)}")
+            break
     
     # Rinomina MD sorgente in ptof_md
-    old_ptof_md = f"{MD_DIR}/{old_code}.md"
-    new_ptof_md = f"{MD_DIR}/{new_code}.md"
-    if os.path.exists(old_ptof_md) and not os.path.exists(new_ptof_md):
-        os.rename(old_ptof_md, new_ptof_md)
-        renamed['ptof_md'] = new_ptof_md
-        logger.info(f"  📝 Rinominato: {old_code}.md → {new_code}.md")
+    old_ptof_md_candidates = [
+        f"{MD_DIR}/{old_code}_ptof.md",
+        f"{MD_DIR}/{old_code}_PTOF.md",
+        f"{MD_DIR}/{old_code}.md",
+    ]
+    new_ptof_md = f"{MD_DIR}/{new_code}_ptof.md"
+    for old_ptof_md in old_ptof_md_candidates:
+        if os.path.exists(old_ptof_md) and not os.path.exists(new_ptof_md):
+            os.rename(old_ptof_md, new_ptof_md)
+            renamed['ptof_md'] = new_ptof_md
+            logger.info(f"  📝 Rinominato: {os.path.basename(old_ptof_md)} → {os.path.basename(new_ptof_md)}")
+            break
     
     # Aggiorna school_id nel JSON se rinominato
     if renamed['json'] and os.path.exists(renamed['json']):
@@ -276,8 +292,9 @@ def check_already_processed(school_code):
     
     # Cerca markdown esistente
     md_patterns = [
-        f"{MD_DIR}/{school_code}.md",
+        f"{MD_DIR}/{school_code}_ptof.md",
         f"{MD_DIR}/{school_code}_PTOF.md",
+        f"{MD_DIR}/{school_code}.md",
     ]
     for pattern in md_patterns:
         if os.path.exists(pattern):
@@ -484,7 +501,7 @@ def convert_pdfs_to_md(validated_pdfs=None):
         try:
             # Prima converti con nome temporaneo basato sul filename
             filename_code = extract_school_code_from_filename(pdf_path)
-            temp_md_output = f"{MD_DIR}/_temp_{filename_code}.md"
+            temp_md_output = f"{MD_DIR}/_temp_{filename_code}_ptof.md"
             
             # Convert PDF to MD
             if pdf_to_markdown(pdf_path, temp_md_output):
@@ -523,7 +540,7 @@ def convert_pdfs_to_md(validated_pdfs=None):
                     continue
                 
                 # Rinomina al nome corretto
-                final_md_output = f"{MD_DIR}/{real_code}.md"
+                final_md_output = f"{MD_DIR}/{real_code}_ptof.md"
                 if os.path.exists(final_md_output) and final_md_output != temp_md_output:
                     logger.warning(f"⚠️ File MD esiste già: {final_md_output}")
                     os.remove(temp_md_output)
@@ -533,14 +550,14 @@ def convert_pdfs_to_md(validated_pdfs=None):
                 
                 converted.append(pdf_path)
                 code_mapping[pdf_path] = real_code
-                logger.info(f"✅ Convertito: {os.path.basename(pdf_path)} → {real_code}.md")
+                logger.info(f"✅ Convertito: {os.path.basename(pdf_path)} → {real_code}_ptof.md")
             else:
                 logger.error(f"❌ Errore conversione: {os.path.basename(pdf_path)}")
             
         except Exception as e:
             logger.error(f"❌ Errore conversione {pdf_path}: {e}")
             # Pulisci file temporanei se esistono
-            temp_path = f"{MD_DIR}/_temp_{extract_school_code_from_filename(pdf_path)}.md"
+            temp_path = f"{MD_DIR}/_temp_{extract_school_code_from_filename(pdf_path)}_ptof.md"
             if os.path.exists(temp_path):
                 os.remove(temp_path)
     
@@ -571,11 +588,11 @@ def run_multi_agent_analysis(converted_pdfs, code_mapping=None):
     for pdf_path in converted_pdfs:
         # Usa il codice reale dal mapping, altrimenti estrai dal filename
         school_code = code_mapping.get(pdf_path) or extract_school_code_from_filename(pdf_path)
-        md_file = f"{MD_DIR}/{school_code}.md"
-        analysis_file = f"{ANALYSIS_DIR}/{school_code}_analysis.json"
+        md_file = f"{MD_DIR}/{school_code}_ptof.md"
+        analysis_file = f"{ANALYSIS_DIR}/{school_code}_PTOF_analysis.json"
         
         if os.path.exists(md_file):
-            if os.path.exists(analysis_file):
+            if os.path.exists(analysis_file) or os.path.exists(f\"{ANALYSIS_DIR}/{school_code}_analysis.json\"):
                 logger.info(f"⏭️ Già analizzato: {school_code}")
             else:
                 to_analyze.append((md_file, school_code))
@@ -761,7 +778,7 @@ def enrich_all_metadata():
             if not filename.endswith('_analysis.json'):
                 continue
             
-            school_code = filename.replace('_analysis.json', '').upper()
+            school_code = filename.replace('_PTOF_analysis.json', '').replace('_analysis.json', '').upper()
             
             # Get data from SchoolDatabase
             db_data = SCHOOL_DB.get_school_data(school_code)

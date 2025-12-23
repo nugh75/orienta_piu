@@ -9,6 +9,8 @@ import csv
 import csv
 import pandas as pd
 import sys
+from pathlib import Path
+from src.utils.constants import normalize_area_geografica
 
 # Fix imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))) # Add root
@@ -92,18 +94,51 @@ def extract_canonical_code(filename_code):
     # Fallback: return as-is
     return filename_code
 
-# Process all JSON files
+# Process all JSON files (deduplicate by school code)
 json_files = glob.glob(os.path.join(RESULTS_DIR, '*_analysis.json'))
 print(f"Found {len(json_files)} JSON files to process")
 
-rows = []
+
+def candidate_rank(path: str) -> tuple:
+    file_path = Path(path)
+    is_ptof = path.endswith('_PTOF_analysis.json')
+    size = file_path.stat().st_size if file_path.exists() else 0
+    mtime = file_path.stat().st_mtime if file_path.exists() else 0
+    return (1 if is_ptof else 0, size, mtime)
+
+
+candidates_by_code = {}
 for json_file in json_files:
     school_code_raw = os.path.basename(json_file).replace('_analysis.json', '')
     school_code = extract_canonical_code(school_code_raw)
-    
+    candidates_by_code.setdefault(school_code, []).append(json_file)
+
+selected_entries = []
+skipped_duplicates = 0
+for school_code, candidates in candidates_by_code.items():
+    sorted_candidates = sorted(candidates, key=candidate_rank, reverse=True)
+    chosen_path = None
+    json_data = None
+    for path in sorted_candidates:
+        try:
+            with open(path, 'r') as f:
+                json_data = json.load(f)
+            chosen_path = path
+            break
+        except Exception:
+            continue
+    if not chosen_path:
+        print(f"✗ {school_code}: no valid JSON among {len(sorted_candidates)} files")
+        continue
+    if len(sorted_candidates) > 1:
+        skipped_duplicates += len(sorted_candidates) - 1
+    selected_entries.append((school_code, chosen_path, json_data))
+
+print(f"Selected {len(selected_entries)} unique schools (skipped {skipped_duplicates} duplicates)")
+
+rows = []
+for school_code, json_file, json_data in selected_entries:
     try:
-        with open(json_file, 'r') as f:
-            json_data = json.load(f)
         
         meta = metadata_cache.get(school_code, {})
         enrich_data = enrichment_cache.get(school_code, {})
@@ -131,8 +166,14 @@ for json_file in json_files:
              comune = pdf_meta.get('comune') or meta.get('comune') or 'ND'
         summary_data['comune'] = comune
         
-        # Area: JSON (LLM) > Enrichment > Inferred from code > 'ND'
-        summary_data['area_geografica'] = json_meta.get('area_geografica') or enrich_data.get('area_geografica') or 'ND'
+        # Area: JSON (LLM) > Enrichment > Normalized
+        raw_area = json_meta.get('area_geografica') or enrich_data.get('area_geografica')
+        area_norm = normalize_area_geografica(
+            raw_area,
+            regione=json_meta.get('regione') or enrich_data.get('regione'),
+            provincia_sigla=school_code[:2]
+        )
+        summary_data['area_geografica'] = area_norm if area_norm != 'ND' else 'ND'
         
         # Nuovi campi da anagrafi ufficiali
         summary_data['provincia'] = json_meta.get('provincia') or enrich_data.get('provincia') or 'ND'
