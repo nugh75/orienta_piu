@@ -60,7 +60,37 @@ if not school_options:
     st.warning("Nessuna scuola trovata con questo filtro")
     st.stop()
 
-selected_school = st.selectbox("Seleziona Scuola", school_options)
+# Navigazione tra scuole
+if 'selected_school_name' not in st.session_state:
+    st.session_state.selected_school_name = school_options[0]
+elif st.session_state.selected_school_name not in school_options:
+    # Se la scuola selezionata non è più nelle opzioni (es. cambio filtro), resetta
+    st.session_state.selected_school_name = school_options[0]
+
+current_index = school_options.index(st.session_state.selected_school_name)
+
+def prev_school():
+    new_index = (current_index - 1) % len(school_options)
+    st.session_state.selected_school_name = school_options[new_index]
+
+def next_school():
+    new_index = (current_index + 1) % len(school_options)
+    st.session_state.selected_school_name = school_options[new_index]
+
+col_prev, col_sel, col_next = st.columns([1, 10, 1])
+
+with col_prev:
+    st.write("") # Spacer per allineamento verticale
+    st.write("")
+    st.button("⬅️", on_click=prev_school, help="Scuola precedente", use_container_width=True)
+
+with col_sel:
+    selected_school = st.selectbox("Seleziona Scuola", school_options, key="selected_school_name")
+
+with col_next:
+    st.write("") # Spacer per allineamento verticale
+    st.write("")
+    st.button("➡️", on_click=next_school, help="Scuola successiva", use_container_width=True)
 
 if selected_school:
     school_data = df[df['denominazione'] == selected_school].iloc[0]

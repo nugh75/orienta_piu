@@ -32,6 +32,11 @@ cp /path/to/new/*.pdf ptof_inbox/
 make run
 ```
 
+Alias equivalente:
+```bash
+make workflow
+```
+
 ### 3. Visualizza Risultati
 ```bash
 make dashboard
@@ -41,6 +46,14 @@ make dashboard
 - **`make csv`**: Rigenera il file CSV (`data/analysis_summary.csv`) partendo dai JSON in `analysis_results/`. Utile se hai modificato manualmente i JSON o se il CSV è disallineato.
 - **`make refresh`**: Esegue `make csv` e poi avvia la dashboard.
 - **`make full`**: Esegue l'intero ciclo (`run` + `csv` + `dashboard`).
+
+## 🔁 Cosa Succede nel Workflow
+
+1. **Conversione** -> PDF in `ptof_md/`
+2. **Analisi** -> JSON in `analysis_results/`
+3. **Auto-fill regioni** -> completa `regione/provincia/area_geografica` usando `data/comuni_italiani.json`
+4. **CSV** -> rigenera `data/analysis_summary.csv`
+5. **Archiviazione** -> PDF spostati in `ptof_processed/batch_TIMESTAMP/`
 
 ### 4. Risultati (Output)
 - `ptof_inbox/` svuotata (PDF spostati)
@@ -71,3 +84,5 @@ make dashboard
 - I PDF vengono **spostati** (non copiati) da inbox a processed
 - Ogni batch ha timestamp e README con lista file
 - Log in console (oppure `logs/workflow_notebook.log` se usi `tee`)
+- Se `ptof_inbox/.download_in_progress` esiste, il workflow resta in attesa di nuovi PDF
+  (polling configurabile con `PTOF_DOWNLOAD_WAIT_SECONDS`)

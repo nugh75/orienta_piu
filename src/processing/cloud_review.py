@@ -44,20 +44,37 @@ def _supports_temperature(model: str) -> bool:
     return not (name.startswith("gpt-5") or name.startswith("o1") or name.startswith("o3"))
 
 def load_api_config() -> Dict:
-    """Load API configuration from JSON file"""
-    if os.path.exists(API_CONFIG_FILE):
-        try:
-            with open(API_CONFIG_FILE, 'r') as f:
-                return json.load(f)
-        except:
-            pass
-    return {
+    """Load API configuration from JSON file or .env"""
+    config = {
         "gemini_api_key": "",
         "openai_api_key": "",
         "openrouter_api_key": "",
         "default_provider": "gemini",
         "default_model": ""
     }
+    
+    if os.path.exists(API_CONFIG_FILE):
+        try:
+            with open(API_CONFIG_FILE, 'r') as f:
+                file_config = json.load(f)
+                config.update(file_config)
+        except:
+            pass
+            
+    # Override with env vars
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+        if os.getenv("GEMINI_API_KEY"):
+            config["gemini_api_key"] = os.getenv("GEMINI_API_KEY")
+        if os.getenv("OPENAI_API_KEY"):
+            config["openai_api_key"] = os.getenv("OPENAI_API_KEY")
+        if os.getenv("OPENROUTER_API_KEY"):
+            config["openrouter_api_key"] = os.getenv("OPENROUTER_API_KEY")
+    except ImportError:
+        pass
+        
+    return config
 
 def save_api_config(config: Dict) -> bool:
     """Save API configuration to JSON file"""

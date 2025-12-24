@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "school_id": "CTIS04300B",
+    "denominazione": "Marconi-Mangano",
+    "tipo_scuola": "Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Catania",
+    "anno_ptof": "2022-2025",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Vescovo Maurizio 82",
+    "cap": "95126",
+    "email": "ctis04300b@istruzione.it",
+    "pec": "ctis04300b@pec.istruzione.it",
+    "website": "www.iismarconi-mangano.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 6,
+      "note": "L'orientamento è integrato sia come priorità strategica (RAV) sia come offerta formativa specifica. Il punteggio è elevato per la presenza di percorsi strutturati in ingresso e uscita citati nell'indice e nel piano di miglioramento.",
+      "review_notes": "Confermato. La sezione è chiaramente identificata nell'indice (pagg. 100, 106) e descritta come asse portante del Piano di Miglioramento (pagg. 30-31)."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "ITS di settore",
+        "Università",
+        "Aziende del territorio",
+        "Associazionismo",
+        "Parrocchia",
+        "Politecnico JinYu di Pechino",
+        "Experimental Middle School (Università Normale di He Bei)",
+        "AICA",
+        "ASP di Catania",
+        "English Study Centre di Catania",
+        "Dipartimento di Scienze Motorie",
+        "CPIA CT1",
+        "Rete FIBRA",
+        "Rete TAM",
+        "SMI (Sistema Moda Italia)",
+        "Fondazione Mondo Digitale"
+      ],
+      "partnership_count": 16,
+      "review_notes": "CORREZIONE: Il JSON originale conteneva 39 partner, molti dei quali (es. 'Viva Voce Web', 'Villa Giada') non compaiono nel testo fornito (pagg. 1-39). Ho rimosso le allucinazioni e mantenuto solo i partner verificabili nel documento."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "garantire a ciascuno lo sviluppo integrale della personalità favorendo l'orientamento scolastico e professionale",
+        "evidence_location": "Pagina 6",
+        "review_notes": "CORREZIONE: Il riferimento originale alla Pagina 119 era un'allucinazione. Trovata evidenza a Pagina 6."
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "stimolare la frequenza assidua, la motivazione, la creatività e il pensiero critico",
+        "evidence_location": "Pagina 6",
+        "review_notes": "CORREZIONE: Riferimento a Pagina 120 rimosso (non presente). Evidenza trovata a Pagina 6."
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "acquisire una solida preparazione culturale e tecnico-professionale, in modo che siano in grado di sviluppare competenze progettuali e operative in un'ottica di Lifelong Learning",
+        "evidence_location": "Pagina 35",
+        "review_notes": "CORREZIONE: Riferimento a Pagina 98 rimosso. Evidenza solida a Pagina 35."
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "competenze... atte a garantire un rapido inserimento nel mondo del lavoro, nonché l’accesso alle università e alla formazione tecnica superiore",
+        "evidence_location": "Pagina 5",
+        "review_notes": "CORREZIONE: Riferimento a Pagina 42 rimosso. Evidenza esplicita a Pagina 5."
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "iniziative di orientamento in ingresso e in uscita degli studenti attraverso il raccordo con le scuole di base, le aziende, le Università e gli ITS",
+        "evidence_location": "Pagina 35",
+        "review_notes": "CORREZIONE: Riferimento a Pagina 130 rimosso. Evidenza a Pagina 35."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6,
+        "review_notes": "Confermato. Priorità assoluta del RAV (Pag. 24) con traguardi numerici precisi (riduzione 3% dispersione implicita)."
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5,
+        "review_notes": "Confermato. Citato a Pagina 30 come valorizzazione della scuola aperta al territorio."
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4,
+        "review_notes": "Confermato. Implicito nelle azioni di riorientamento e placement (Pag. 31-32)."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "review_notes": "Confermato. Citato esplicitamente a Pagina 35."
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5,
+        "review_notes": "Confermato. Collaborazione con servizi socio-sanitari e associazioni (Pag. 30)."
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4,
+        "review_notes": "Confermato. Citato nel Piano di Miglioramento (Pag. 31)."
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5,
+        "review_notes": "Confermato. Coinvolgimento delle famiglie in attività formative (Pag. 33)."
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4,
+        "review_notes": "Confermato. Monitoraggio della dispersione citato a Pagina 24."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5,
+        "review_notes": "Confermato. Ampio spazio all'inclusione e contrasto al bullismo (Pag. 29)."
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6,
+        "review_notes": "Aumentato. Il documento sottolinea esplicitamente la priorità dell'esperienza sulla teoria (Pag. 20)."
+      },
+      "didattica_laboratoriale": {
+        "score": 5,
+        "review_notes": "Aumentato. Presenza massiccia di laboratori (38 totali) e focus su metodologie laboratoriali (Pag. 19-21)."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4,
+        "review_notes": "Aumentato. Citata apertura pomeridiana e rimodulazione oraria (Pag. 30)."
+      },
+      "didattica_interdisciplinare": {
+        "score": 5,
+        "review_notes": "Confermato. Progettualità comune tra tecnico e professionale (Pag. 5)."
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5,
+        "review_notes": "Aumentato. Visite guidate, mostre, eventi moda e musicali (Pag. 31)."
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5,
+        "review_notes": "Confermato. Teatro e laboratori artistici (Pag. 31)."
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3,
+        "review_notes": "Confermato. Scarsa evidenza di attività puramente ludiche."
+      },
+      "opzionali_volontariato": {
+        "score": 4,
+        "review_notes": "Confermato. Adozione studente africano e progetti solidarietà (Pag. 6)."
+      },
+      "opzionali_sportive": {
+        "score": 6,
+        "review_notes": "Aumentato. Protocollo CONI, certificazioni sportive e palestre (Pag. 16, 20)."
+      }
+    },
+    "2_8_inclusione": {
+      "score": 6,
+      "note": "L'inclusione è un pilastro strategico, con laboratori dedicati e sinergia con servizi territoriali.",
+      "review_notes": "Confermato. Il documento cita esplicitamente laboratori per disabilità (Pag. 21) e docenti di sostegno abilitati (Pag. 8)."
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO e Apprendistato",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Sinergia con aziende per contratti di apprendistato e progetti qualificati di PCTO.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Percorsi per le competenze trasversali",
+      "5w_dove": "Aziende e tessuto produttivo del territorio",
+      "5w_quando": "Durante il percorso scolastico",
+      "5w_perche": "Garantire rapido inserimento nel mondo del lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "avvio e la concretizzazione di contratti di apprendistato, di progetti qualificati di PCTO",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Progetti ERASMUS Plus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità internazionale per studenti e staff (KA122-VET) per lo sviluppo di soft skills e competenze professionali.",
+      "5w_chi": "Studenti e Personale scolastico",
+      "5w_cosa": "Mobilità transnazionale e scambi culturali",
+      "5w_dove": "Paesi dell'Unione Europea",
+      "5w_quando": "A partire dall'a.s. 2021/22",
+      "5w_perche": "Migliorare l'attrattiva e la dimensione internazionale della scuola",
+      "ore_dichiarate": "ND",
+      "target": "Studenti e Staff",
+      "evidence_quote": "internazionalizzazione della scuola grazie ai progetti ERASMUS",
+      "evidence_location": "Pagina 6, 38"
+    },
+    {
+      "titolo_attivita": "Corsi 0 e Recupero",
+      "categoria_principale": "Corso di recupero",
+      "descrizione_e_metodologia": "Interventi didattici a settembre per colmare carenze nelle competenze di base (Italiano, Matematica, Inglese).",
+      "5w_chi": "Studenti con carenze",
+      "5w_cosa": "Recupero competenze di base",
+      "5w_dove": "Sedi dell'Istituto",
+      "5w_quando": "Settembre",
+      "5w_perche": "Migliorare gli esiti degli alunni con gravi carenze",
+      "ore_dichiarate": "ND",
+      "target": "Studenti in ingresso",
+      "evidence_quote": "Corsi 0 a partire dal mese di settembre",
+      "evidence_location": "Pagina 31"
+    },
+    {
+      "titolo_attivita": "Certificazioni Tecniche e Linguistiche",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Rilascio di certificazioni specialistiche (AICA, CISCO, ECDL, AUTOCAD, CAMBRIDGE, HSK).",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Conseguimento certificazioni riconosciute",
+      "5w_dove": "Test Center interno",
+      "5w_quando": "Durante il percorso di studi",
+      "5w_perche": "Potenziare l'occupabilità e le competenze digitali/linguistiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "L'Istituto rilascia certificazioni, quali AICA, EUCIP, CISCO, ECDL, AUTOCAD, CAMBRIDGE, HSK",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Robotica ed Automazione",
+      "categoria_principale": "Curvatura",
+      "descrizione_e_metodologia": "Specializzazione sperimentale con laboratori dedicati all'elettronica e alla robotica.",
+      "5w_chi": "Studenti indirizzo Elettronica",
+      "5w_cosa": "Progetto Robotica ed automazione",
+      "5w_dove": "Laboratori di Elettronica",
+      "5w_quando": "Triennio",
+      "5w_perche": "Innovazione tecnologica e competenze avanzate",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Elettronica, progetto 'Robotica ed automazione'",
+      "evidence_location": "Pagina 15"
+    }
+  ],
+  "narrative": "# Analisi Auditoriale PTOF CTIS04300B\n\nL'Istituto Marconi-Mangano presenta un'offerta formativa robusta e fortemente orientata al mercato del lavoro e all'internazionalizzazione. \n\n### Punti di Forza\n1. **Infrastruttura Laboratoriale**: Con 38 laboratori totali, la scuola dimostra una coerenza esemplare tra la missione dichiarata (didattica esperienziale) e le risorse materiali disponibili.\n2. **Internazionalizzazione**: L'accreditamento Erasmus+ e i gemellaggi con la Cina (Progetto Il Milione) elevano il profilo della scuola oltre il contesto locale.\n3. **Inclusione e Dispersione**: Il PTOF non si limita a dichiarazioni di intenti, ma fissa obiettivi quantitativi (RAV) per la riduzione della dispersione, specialmente nel plesso Mangano.\n\n### Criticità Rilevate\n1. **Manutenzione Infrastrutturale**: Il documento denuncia gravi carenze nella manutenzione degli edifici (palestra inagibile al Mangano, sbalzi di tensione) che limitano l'efficacia dell'azione didattica.\n2. **Personale**: Si segnala un elevato tasso di assenteismo legato alla Legge 104/92, che impatta sulla continuità didattica.\n\n### Conclusioni dell'Auditor\nL'analisi originale è stata corretta rimuovendo riferimenti a pagine non presenti nel documento fornito e depurando l'elenco dei partner da allucinazioni. Il punteggio complessivo dell'orientamento rimane alto (6/7) grazie alla chiara integrazione tra istruzione tecnica, professionale e certificazioni esterne."
+}

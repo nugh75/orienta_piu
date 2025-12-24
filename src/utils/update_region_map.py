@@ -20,10 +20,26 @@ API_CONFIG_FILE = os.path.join(DATA_DIR, 'api_config.json')
 
 def load_api_config() -> Dict:
     """Load API configuration."""
+    config = {}
     if os.path.exists(API_CONFIG_FILE):
-        with open(API_CONFIG_FILE, 'r') as f:
-            return json.load(f)
-    return {}
+        try:
+            with open(API_CONFIG_FILE, 'r') as f:
+                config = json.load(f)
+        except Exception:
+            pass
+            
+    # Override/Augment with env vars
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+        if os.getenv("GEMINI_API_KEY"):
+            config["gemini_api_key"] = os.getenv("GEMINI_API_KEY")
+        if os.getenv("OPENROUTER_API_KEY"):
+            config["openrouter_api_key"] = os.getenv("OPENROUTER_API_KEY")
+    except ImportError:
+        pass
+        
+    return config
 
 
 def load_region_map() -> Dict:
@@ -274,7 +290,7 @@ def update_region_map(unmapped_comuni: List[str]) -> Dict[str, str]:
     
     if not new_mappings:
         if not gemini_key and not openrouter_key:
-            print("❌ Nessuna API key configurata (Gemini o OpenRouter) in data/api_config.json e Ollama non ha risposto")
+            print("❌ Nessuna API key configurata (Gemini o OpenRouter) in .env o data/api_config.json e Ollama non ha risposto")
         else:
             print("❌ Impossibile ottenere mappature da nessun LLM")
         return {}

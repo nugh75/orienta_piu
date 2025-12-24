@@ -183,6 +183,28 @@ python -c "import plotly; print(plotly.__version__)"  # Dovrebbe essere >= 5.0
 **Soluzione:**
 Ricarica la pagina (CTRL+R) o riavvia Streamlit
 
+### 11. Attenzione: scuole senza regione in analysis_summary.csv
+
+**Causa:** Metadati incompleti nei JSON di analisi.
+
+**Soluzione:**
+```bash
+python3 src/processing/autofill_region_from_comuni.py
+python3 src/processing/rebuild_csv_clean.py
+```
+
+### 12. Workflow in attesa per troppo tempo
+
+**Causa:** Esiste il lock file `ptof_inbox/.download_in_progress` (download ancora in corso o terminato male).
+
+**Soluzioni:**
+1. Attendi la fine del download
+2. Se il download è finito, rimuovi il lock:
+```bash
+rm ptof_inbox/.download_in_progress
+```
+3. (Opzionale) riduci il polling con `PTOF_DOWNLOAD_WAIT_SECONDS`
+
 ---
 
 ## Comandi Utili di Debug

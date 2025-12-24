@@ -178,24 +178,51 @@ def _infer_school_level_from_text(text):
     if not text:
         return {}
     sample = text[:20000].lower()
+    
+    types = []
+    grades = []
+    
+    if 'infanzia' in sample or 'materna' in sample:
+        types.append('Infanzia')
+        grades.append('Infanzia')
+        
+    if 'primaria' in sample or 'elementare' in sample or 'direzione didattica' in sample:
+        types.append('Primaria')
+        grades.append('Primaria')
+        
+    if re.search(r'(scuola\s+media|secondaria\s+di\s+primo|\bi\s*grado\b|\b1\W*grado\b)', sample):
+        types.append('I Grado')
+        grades.append('I Grado')
+        
+    if re.search(r'liceo', sample):
+        types.append('Liceo')
+        grades.append('II Grado')
+        
+    if re.search(r'(istituto\s+tecnico|\btecnico\b|itis|itc|itg)', sample):
+        types.append('Tecnico')
+        grades.append('II Grado')
+        
+    if re.search(r'(istituto\s+professionale|\bprofessionale\b|ipsia|ipc)', sample):
+        types.append('Professionale')
+        grades.append('II Grado')
+        
+    if 'comprensivo' in sample:
+        if 'Infanzia' not in types: types.append('Infanzia')
+        if 'Primaria' not in types: types.append('Primaria')
+        if 'I Grado' not in types: types.append('I Grado')
+        
+        if 'Infanzia' not in grades: grades.append('Infanzia')
+        if 'Primaria' not in grades: grades.append('Primaria')
+        if 'I Grado' not in grades: grades.append('I Grado')
+        if 'Comprensivo' not in grades: grades.append('Comprensivo')
 
-    if re.search(r'(scuola\s+infanzia|infanzia)', sample):
-        return {'ordine_grado': 'Infanzia', 'tipo_scuola': 'Infanzia'}
-    if re.search(r'(primaria|elementare|direzione\s+didattica)', sample):
-        return {'ordine_grado': 'Primaria', 'tipo_scuola': 'Primaria'}
-    if re.search(r'(scuola\s+media|secondaria\s+di\s+primo|\bi\s*grado\b|\b1\W*grado\b|comprensivo)', sample):
-        return {'ordine_grado': 'I Grado', 'tipo_scuola': 'I Grado'}
-    if re.search(r'(secondaria\s+di\s+secondo|\bii\s*grado\b|\b2\W*grado\b|liceo|istituto\s+tecnico|istituto\s+professionale|istituto\s+superiore)', sample):
-        tipo = 'II Grado'
-        if re.search(r'liceo', sample):
-            tipo = 'Liceo'
-        elif re.search(r'(istituto\s+tecnico|\btecnico\b)', sample):
-            tipo = 'Tecnico'
-        elif re.search(r'(istituto\s+professionale|\bprofessionale\b)', sample):
-            tipo = 'Professionale'
-        return {'ordine_grado': 'II Grado', 'tipo_scuola': tipo}
-
-    return {}
+    result = {}
+    if types:
+        result['tipo_scuola'] = ', '.join(sorted(list(set(types))))
+    if grades:
+        result['ordine_grado'] = ', '.join(sorted(list(set(grades))))
+        
+    return result
 
 
 def _is_missing_value(value):

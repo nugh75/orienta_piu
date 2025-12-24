@@ -20,8 +20,15 @@ Avvia lo script principale `workflow_notebook.py` che gestisce l'intero processo
 - Conversione PDF -> Markdown
 - Analisi con agenti AI
 - Generazione JSON
+- Auto-fill regioni/province da `data/comuni_italiani.json`
+- Rebuild CSV (`data/analysis_summary.csv`)
 ```bash
 make run
+```
+
+Alias equivalente:
+```bash
+make workflow
 ```
 
 ### 3. Avvio Dashboard

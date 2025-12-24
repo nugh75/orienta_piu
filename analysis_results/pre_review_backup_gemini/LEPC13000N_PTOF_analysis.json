@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "school_id": "LEPC13000N",
+    "denominazione": "Liceo \"Virgilio-Redi\"",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Lecce",
+    "anno_ptof": "2022-2025",
+    "provincia": "Lecce",
+    "regione": "Puglia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Galileo Galilei 4",
+    "cap": "73100",
+    "email": "lepc13000n@istruzione.it",
+    "pec": "lepc13000n@pec.istruzione.it",
+    "website": "https//www.liceovirgilio.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione è presente e ben strutturata, con una descrizione dettagliata delle azioni previste. Tuttavia, manca una chiara definizione degli indicatori di successo."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università del Salento",
+        "Accademia di Belle Arti",
+        "Scuola Superiore per Mediatori Linguistici Bona Sforza di Bari",
+        "Croce Rossa Italiana",
+        "Enti, Associazioni, Ordini Professionali del Territorio"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "disegna un percorso, formativo e orientativo, che mette in luce, soprattutto nel corso del secondo biennio e del monoennio finale, le inclinazioni e le attitudini di ciascuno studente",
+        "evidence_location": "Pagina 4"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "nessuna citazione esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "nessuna citazione esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "orientamento in uscita",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "sviluppo delle competenze trasversali e per l’orientamento",
+        "evidence_location": "Pagina 3"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4,
+        "note": "La didattica laboratoriale è menzionata nel PTOF, ma mancano dettagli specifici sulle metodologie implementate, gli spazi dedicati o i risultati attesi. Il punteggio riflette questa mancanza di approfondimento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per le Competenze Trasversali e per l’Orientamento (PCTO)",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Percorsi in aziende e istituzioni, con focus su competenze trasversali e orientamento professionale.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Esperienze pratiche in contesti lavorativi.",
+      "5w_dove": "Aziende, istituzioni del territorio.",
+      "5w_quando": "Secondo biennio e monoennio finale.",
+      "5w_perche": "Sviluppo competenze, orientamento al lavoro.",
+      "ore_dichiarate": "90",
+      "target": "Studenti del triennio",
+      "evidence_quote": "Percorsi per le Competenze Trasversali e per l’Orientamento",
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo",
+      "categoria_principale": "Incontro/Seminario",
+      "descrizione_e_metodologia": "Moduli curricolari di 30 ore per l'orientamento, con attività di didattica orientativa e PCTO.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Attività di orientamento e sviluppo competenze.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Rafforzare l'orientamento e ridurre la dispersione scolastica.",
+      "ore_dichiarate": "30",
+      "target": "Studenti del triennio",
+      "evidence_quote": "moduli di orientamento formativo, di almeno 30 ore per ogni anno scolastico",
+      "evidence_location": "Pagina 11"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LEPC13000N\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF del Liceo “Virgilio-Redi” dimostra un’attenzione significativa all'orientamento, con una sezione dedicata e azioni pianificate. L'orientamento è concepito come un sistema integrato che coinvolge figure scolastiche e partner esterni. Il PTOF prevede l'utilizzo di strumenti di monitoraggio quali il Database esiti, il Database scelte universitarie e la Rendicontazione sociale, sebbene la loro implementazione e il grado di integrazione con le attività di orientamento necessitino di ulteriore chiarimento.  Una comparazione con i benchmark nazionali, come le Linee Guida MIUR sull'orientamento, potrebbe evidenziare aree di miglioramento e best practices.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nLa presenza di una sezione specifica dedicata all'orientamento nel PTOF è un elemento positivo. La sezione descrive finalità, obiettivi e azioni previste, dimostrando consapevolezza dell'importanza dell'orientamento per il successo formativo degli studenti.\n\n#### 2.2 Partnership e Reti\nIl Liceo “Virgilio-Redi” ha stabilito partnership con diverse istituzioni, tra cui l’Università del Salento, l’Accademia di Belle Arti e la Scuola Superiore per Mediatori Linguistici Bona Sforza di Bari. Queste collaborazioni si concretizzano in progetti specifici, come ad esempio convenzioni per stage e laboratori didattici, offrendo agli studenti opportunità di approfondimento e orientamento. La rete di partner è diversificata e copre diversi ambiti, garantendo una vasta gamma di opportunità per gli studenti.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate allo sviluppo delle attitudini e delle competenze degli studenti, alla preparazione per la transizione formativa e all'acquisizione di capacità orientative per affrontare le sfide del futuro. L'obiettivo di ridurre l'abbandono scolastico è presente, ma potrebbe essere maggiormente enfatizzato con dati specifici e target misurabili.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i diversi servizi scolastici, il dialogo tra docenti e studenti, il rapporto con le famiglie e il monitoraggio delle azioni intraprese. Queste azioni contribuiscono a creare un sistema integrato di orientamento che coinvolge l'intera comunità scolastica.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'esperienza diretta degli studenti, sull'utilizzo di metodologie laboratoriali e sulla flessibilità degli spazi e dei tempi. La didattica laboratoriale, pur menzionata, necessita di un maggiore approfondimento in termini di metodologie, spazi dedicati e risultati attesi, giustificando il punteggio di 4.\n\n#### 2.6 Opportunità Formative\nIl Liceo “Virgilio-Redi” offre agli studenti diverse opportunità formative, tra cui opzionali culturali, laboratoriali, sportive e di volontariato. Queste opzioni consentono agli studenti di approfondire i propri interessi e di sviluppare le proprie passioni.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Percorsi per le Competenze Trasversali e per l’Orientamento (PCTO)\nI PCTO rappresentano un'attività fondamentale per l'orientamento degli studenti del triennio. Questi percorsi prevedono 90 ore di esperienza pratica in aziende e istituzioni del territorio, selezionate in base agli ambiti di potenziamento delle competenze trasversali e agli interessi degli studenti. Ulteriori dettagli sulle metodologie di valutazione dei risultati e sui partner specifici coinvolti potrebbero arricchire la descrizione.\n\n#### 2.7.2 Moduli di orientamento formativo\nI moduli di orientamento formativo sono integrati nel curricolo scolastico e offrono agli studenti 30 ore di attività dedicate all'orientamento. Queste attività si svolgono in scuola e coinvolgono studenti del triennio, con l'obiettivo di rafforzare l'orientamento e ridurre la dispersione scolastica.\n\n### 3. Punti di Forza\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, con azioni concrete e partnership consolidate. L'approccio sistemico all'orientamento, che coinvolge diverse figure scolastiche e partner esterni, è un altro elemento positivo.\n\n### 4. Aree di Debolezza\nL'area di debolezza principale è la mancanza di una chiara definizione degli indicatori di successo e di un sistema di valutazione dell'efficacia delle azioni intraprese. Inoltre, l'attenzione alla riduzione dell'abbandono scolastico potrebbe essere maggiormente enfatizzata.\n\n### 5. Gap Analysis\nIl gap principale è la necessità di sviluppare un sistema di monitoraggio e valutazione dell'orientamento che consenta di misurare l'impatto delle azioni intraprese e di apportare eventuali correzioni. È inoltre necessario rafforzare la collaborazione con il territorio per offrire agli studenti opportunità di orientamento più mirate e personalizzate.\n\n### 6. Conclusioni\nIl PTOF del Liceo “Virgilio-Redi” presenta un buon livello di maturità nell'ambito dell'orientamento. Le azioni previste sono ben strutturate e integrate nel sistema scolastico. Tuttavia, per migliorare ulteriormente l'efficacia dell'orientamento, è necessario sviluppare un sistema di monitoraggio e valutazione e rafforzare la collaborazione con il territorio."
+}

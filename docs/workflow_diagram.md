@@ -5,14 +5,14 @@
 ```mermaid
 flowchart TD
     subgraph Input["📥 Input Phase"]
-        PDF[("PTOF PDF Files<br/>ptof/")]
+        PDF[("PTOF PDF Files<br/>ptof_inbox/")]
         CONVERT["convert_pdfs_to_md.py"]
         MD[("Markdown Files<br/>ptof_md/")]
     end
 
     subgraph Metadata["📋 Metadata Sources"]
-        REGISTRY[("Official Registry<br/>metadata_enrichment.csv")]
-        INVALSI[("INVALSI Data<br/>invalsi_unified.csv")]
+        REGISTRY[("School Registry<br/>SchoolDatabase")]
+        COMUNI[("Comuni Database<br/>comuni_italiani.json")]
     end
 
     subgraph Agents["🤖 3-Agent Pipeline"]
@@ -36,9 +36,10 @@ flowchart TD
     REFINER --> REPORT
     
     REGISTRY --> JSON
-    INVALSI --> JSON
+    COMUNI --> JSON
     
-    JSON --> |"rebuild_csv.py"| CSV
+    JSON --> |"autofill_region_from_comuni.py"| JSON
+    JSON --> |"rebuild_csv_clean.py"| CSV
     CSV --> DASH
 ```
 

@@ -195,9 +195,21 @@ with col1:
         st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    if 'ordine_grado' in df.columns:
-        fig = px.pie(df, names='ordine_grado', title="Per Grado", hole=0.4)
-        st.plotly_chart(fig, use_container_width=True)
+    if 'tipo_scuola' in df.columns:
+        try:
+            from app.data_utils import explode_school_types
+            df_exploded = explode_school_types(df)
+            # Count occurrences
+            type_counts = df_exploded['tipo_scuola'].value_counts().reset_index()
+            type_counts.columns = ['tipo_scuola', 'count']
+            
+            fig = px.pie(type_counts, names='tipo_scuola', values='count', title="Per Tipo Scuola", hole=0.4)
+            st.plotly_chart(fig, use_container_width=True)
+        except Exception:
+            # Fallback if something fails
+            if 'ordine_grado' in df.columns:
+                fig = px.pie(df, names='ordine_grado', title="Per Grado", hole=0.4)
+                st.plotly_chart(fig, use_container_width=True)
 
 with col3:
     if 'area_geografica' in df.columns:

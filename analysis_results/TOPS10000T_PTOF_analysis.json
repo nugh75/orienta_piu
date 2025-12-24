@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "school_id": "TOPS10000T",
+    "denominazione": "Liceo Charles Darwin",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Rivoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "indirizzo": "Viale Papa Giovanni Xxiii N 25",
+    "cap": "10098",
+    "email": "tops10000t@istruzione.it",
+    "pec": "tops10000t@pec.istruzione.it",
+    "website": "www.liceodarwin.net",
+    "statale_paritaria": "Statale"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "review_notes": "Punteggio elevato confermato. L'indice a pagina 3 e la strategia a pagina 15 delineano un sistema strutturato di orientamento (entrata, itinere, uscita) con moduli specifici e monitoraggio RAV."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Polo museale di arte contemporanea",
+        "associazioni musicali",
+        "Confindustria",
+        "Università",
+        "ITS Academy",
+        "ASL TO3",
+        "Comune di Rivoli",
+        "Politecnico di Torino",
+        "IBM",
+        "Stellantis",
+        "ONU (Agenda 2030)",
+        "Servizi sociali",
+        "Terzo settore"
+      ],
+      "partnership_count": 13,
+      "review_notes": "Il numero di partner è stato ridotto a quelli effettivamente citati o desumibili dalle prime 44 pagine. Molti nomi nel JSON originale (es. Subalpina Mathesis) non trovano riscontro nel testo fornito."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6,
+        "evidence_quote": "valorizzazione della persona umana, nella prospettiva di un diritto al libero e pieno sviluppo della personalità",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_interessi": {
+        "score": 6,
+        "evidence_quote": "valorizzare talenti ed evidenziare inclinazioni, a personalizzare gli apprendimenti",
+        "evidence_location": "Pagina 16"
+      },
+      "finalita_progetto_vita": {
+        "score": 6,
+        "evidence_quote": "rendere congruente il percorso scolastico individuale con ciò che lo studente prevede nel suo percorso di vita",
+        "evidence_location": "Pagina 15"
+      },
+      "finalita_transizioni_formative": {
+        "score": 6,
+        "evidence_quote": "adeguati all’inserimento nella vita sociale, al proseguimento della propria formazione in ambito universitario, ma anche necessari nel futuro mondo del lavoro",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "fornire allo studente un quadro completo del percorso di apprendimento della nostra Istituzione",
+        "evidence_location": "Pagina 15"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6,
+        "review_notes": "Punteggio aumentato. La priorità RAV a pagina 19 è esplicita: ridurre di 10 punti percentuali i non ammessi e i sospesi."
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5,
+        "review_notes": "Confermato. Citata collaborazione con enti locali e associazioni a pagina 5."
+      },
+      "obiettivo_contrastate_neet": {
+        "score": 4,
+        "review_notes": "Punteggio medio. Il contrasto alla dispersione è citato a pagina 20 e 41, ma non ci sono riferimenti specifici ai NEET."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6,
+        "review_notes": "Confermato. Citato esplicitamente a pagina 29 come 'Lifelong Learning' e 'Growth Mindset'."
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5,
+        "review_notes": "Supportato dalla collaborazione con servizi socio-sanitari citata a pagina 20."
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6,
+        "review_notes": "Centrale nella mission (p. 13) e nei progetti PNRR (p. 34) dove il docente è 'regista'."
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5,
+        "review_notes": "Obiettivo strategico n. 10 (p. 17-18) per migliorare l'interazione con le famiglie."
+      },
+      "azione_monitoraggio_actions": {
+        "score": 5,
+        "review_notes": "Citato a pagina 15 come processo di 'progettazione/monitoraggio/supervisione'."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7,
+        "review_notes": "Punteggio massimo. L'inclusione è un pilastro (p. 13, 17, 20) con percorsi individualizzati e supporto psicologico."
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6,
+        "review_notes": "Confermato. Metodologie 'learning by doing' e 'esperienze' citate a p. 34 e 40."
+      },
+      "didattica_laboratoriale": {
+        "score": 7,
+        "review_notes": "Punteggio aumentato. Presenza massiccia di laboratori (p. 10) e progetti PNRR Next Gen Labs (p. 34-36)."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 7,
+        "review_notes": "Punteggio aumentato. Il progetto Darwin 4.0 (p. 33) è interamente dedicato alla flessibilità degli spazi fisici e virtuali."
+      },
+      "didattica_interdisciplinare": {
+        "score": 6,
+        "review_notes": "Confermato. Citato l'apprendimento interdisciplinare a p. 14 e 29."
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5,
+        "review_notes": "Presenti attività di ampliamento (p. 3) e Digital Art (p. 35)."
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6,
+        "review_notes": "Supportato dai laboratori di videomaking, musica digitale e Digital Art (p. 35)."
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4,
+        "review_notes": "Punteggio prudenziale. Citate attività di socializzazione in spazi aperti (p. 33)."
+      },
+      "opzionali_volontariato": {
+        "score": 5,
+        "review_notes": "Citata disponibilità al volontariato sociale a pagina 6."
+      },
+      "opzionali_sportive": {
+        "score": 6,
+        "review_notes": "Potenziamento discipline motorie (p. 16, 20) e progetto Sciabile (p. 106 - citato in indice)."
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "DARWIN 4.0",
+      "categoria_principale": "Progetto PNRR",
+      "descrizione_e_metodologia": "Trasformazione delle aule in ambienti di apprendimento innovativi e flessibili.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Innovazione metodologica e spazi fisici/virtuali",
+      "5w_dove": "Sedi di Rivoli e Sangano",
+      "5w_quando": "01/01/2023 - 31/12/2024",
+      "5w_perche": "Sviluppo competenze trasversali e digitali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "spazi fisici didattici organizzati in modo flessibile",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Laboratorio informatico e per la modellizzazione",
+      "categoria_principale": "Progetto PNRR",
+      "descrizione_e_metodologia": "Next Generation Labs per competenze digitali (stampa 3D, realtà virtuale, videomaking).",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Competenze tecnologiche avanzate",
+      "5w_dove": "Laboratori d'istituto",
+      "5w_quando": "01/01/2023 - 31/12/2024",
+      "5w_perche": "Professioni digitali del futuro",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "making e modellazione e stampa 3D e 4D",
+      "evidence_location": "Pagina 35"
+    },
+    {
+      "titolo_attivita": "Darwin Digital STEM",
+      "categoria_principale": "Progetto PNRR",
+      "descrizione_e_metodologia": "Attrezzaggio aule con kit per biologia molecolare, fisica e calcolatrici grafiche.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Didattica delle STEM",
+      "5w_dove": "Aule/Laboratori",
+      "5w_quando": "03/04/2024 - 20/06/2024",
+      "5w_perche": "Potenziamento competenze scientifiche",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "kit didattici modulari e collaborativi",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "STEM BY STEM",
+      "categoria_principale": "Progetto PNRR",
+      "descrizione_e_metodologia": "Percorsi formativi e di orientamento per superare il divario di genere nelle STEM.",
+      "5w_chi": "Studenti e Docenti",
+      "5w_cosa": "Competenze STEM e multilinguistiche",
+      "5w_dove": "Scuola",
+      "5w_quando": "15/11/2023 - 15/05/2025",
+      "5w_perche": "Pari opportunità e innovazione",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "superamento dei divari di genere",
+      "evidence_location": "Pagina 40"
+    },
+    {
+      "titolo_attivita": "Vietato dis-perderci!",
+      "categoria_principale": "Progetto PNRR",
+      "descrizione_e_metodologia": "Interventi di tutoraggio e formazione per il recupero delle competenze di base.",
+      "5w_chi": "125 Studenti",
+      "5w_cosa": "Contrasto alla dispersione scolastica",
+      "5w_dove": "Scuola",
+      "5w_quando": "17/04/2024 - 15/09/2025",
+      "5w_perche": "Riduzione divari negli apprendimenti",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime e terze",
+      "evidence_quote": "ricerca e consolidamento della motivazione allo studio",
+      "evidence_location": "Pagina 41"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione di almeno 20 unità di personale sulla transizione digitale.",
+      "5w_chi": "Personale scolastico",
+      "5w_cosa": "Transizione digitale",
+      "5w_dove": "Scuola / Piattaforma Scuola Futura",
+      "5w_quando": "01/01/2023 - 31/08/2024",
+      "5w_perche": "Innovazione didattica e digitale",
+      "ore_dichiarate": "ND",
+      "target": "Personale",
+      "evidence_quote": "formazione di almeno venti unità di personale",
+      "evidence_location": "Pagina 37"
+    }
+  ]
+}

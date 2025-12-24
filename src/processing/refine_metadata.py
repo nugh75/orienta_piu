@@ -60,23 +60,51 @@ def extract_metadata_from_md(md_path):
                 break
     
     # Extract ordine_grado (school level)
-    if re.search(r'scuola\s+media|secondaria\s+di\s+primo|I\s*grado', content[:5000], re.IGNORECASE):
-        metadata['ordine_grado'] = 'I Grado'
-        metadata['tipo_scuola'] = 'I Grado'
-    elif re.search(r'liceo|istituto\s+tecnico|istituto\s+professionale|secondaria\s+di\s+secondo|II\s*grado', content[:5000], re.IGNORECASE):
-        metadata['ordine_grado'] = 'II Grado'
-        # Try to determine specific tipo
-        if re.search(r'liceo', content[:5000], re.IGNORECASE):
-            metadata['tipo_scuola'] = 'Liceo'
-        elif re.search(r'tecnico', content[:5000], re.IGNORECASE):
-            metadata['tipo_scuola'] = 'Tecnico'
-        elif re.search(r'professionale', content[:5000], re.IGNORECASE):
-            metadata['tipo_scuola'] = 'Professionale'
-        else:
-            metadata['tipo_scuola'] = 'II Grado'
-    elif re.search(r'comprensivo', content[:5000], re.IGNORECASE):
-        metadata['ordine_grado'] = 'I Grado'
-        metadata['tipo_scuola'] = 'I Grado'
+    types = []
+    grades = []
+    
+    content_lower = content[:5000].lower()
+    
+    # Check for specific types
+    if 'infanzia' in content_lower or 'materna' in content_lower:
+        types.append('Infanzia')
+        grades.append('Infanzia')
+        
+    if 'primaria' in content_lower or 'elementare' in content_lower:
+        types.append('Primaria')
+        grades.append('Primaria')
+        
+    if re.search(r'scuola\s+media|secondaria\s+di\s+primo|I\s*grado', content_lower, re.IGNORECASE):
+        types.append('I Grado')
+        grades.append('I Grado')
+        
+    if re.search(r'liceo', content_lower, re.IGNORECASE):
+        types.append('Liceo')
+        grades.append('II Grado')
+        
+    if re.search(r'tecnico|itis|itc|itg', content_lower, re.IGNORECASE):
+        types.append('Tecnico')
+        grades.append('II Grado')
+        
+    if re.search(r'professionale|ipsia|ipc', content_lower, re.IGNORECASE):
+        types.append('Professionale')
+        grades.append('II Grado')
+        
+    if 'comprensivo' in content_lower:
+        # Comprensivo usually covers Infanzia, Primaria, I Grado
+        if 'Infanzia' not in types: types.append('Infanzia')
+        if 'Primaria' not in types: types.append('Primaria')
+        if 'I Grado' not in types: types.append('I Grado')
+        
+        if 'Infanzia' not in grades: grades.append('Infanzia')
+        if 'Primaria' not in grades: grades.append('Primaria')
+        if 'I Grado' not in grades: grades.append('I Grado')
+        if 'Comprensivo' not in grades: grades.append('Comprensivo')
+
+    if types:
+        metadata['tipo_scuola'] = ', '.join(sorted(list(set(types))))
+    if grades:
+        metadata['ordine_grado'] = ', '.join(sorted(list(set(grades))))
     
     return metadata
 
@@ -99,15 +127,23 @@ def refine_json_metadata(json_path, md_path):
     
     # Extract from MD only if we have ND values
     fields_to_check = ['denominazione', 'comune', 'ordine_grado', 'tipo_scuola']
-    has_nd = any(meta.get(f) == 'ND' or not meta.get(f) for f in fields_to_check)
     
-    if has_nd and os.path.exists(md_path):
+    if md_path and os.path.exists(md_path):
         extracted = extract_metadata_from_md(md_path)
         
         for field in fields_to_check:
-            if (meta.get(field) == 'ND' or not meta.get(field)) and extracted.get(field):
-                meta[field] = extracted[field]
-                refined = True
+            current_val = meta.get(field)
+            new_val = extracted.get(field)
+            
+            if new_val:
+                # Update if missing, ND, or if we have a new value for types/grades
+                if not current_val or current_val == 'ND':
+                    meta[field] = new_val
+                    refined = True
+                elif field in ['tipo_scuola', 'ordine_grado'] and new_val != current_val:
+                    # Update types/grades with improved extraction
+                    meta[field] = new_val
+                    refined = True
     
     # Bidirectional sync for I Grado
     if meta.get('ordine_grado') == 'I Grado' and meta.get('tipo_scuola') == 'ND':

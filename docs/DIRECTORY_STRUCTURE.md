@@ -7,6 +7,7 @@ Questo documento spiega la struttura delle cartelle per il workflow di analisi P
 ```
 LIste/
 ├── ptof_inbox/              # 📥 PDF da analizzare (INSERISCI QUI I NUOVI FILE)
+│   └── .download_in_progress # ⏳ Lock file durante download automatico
 ├── ptof_processed/          # ✅ PDF già analizzati (archiviati per batch)
 │   ├── batch_20250121_143022/
 │   │   ├── README.txt       # Riepilogo batch
@@ -51,7 +52,10 @@ Il workflow automatico esegue:
    - Sposta PDF da `ptof_inbox/` a `ptof_processed/batch_TIMESTAMP/`
    - Crea file README.txt con riepilogo batch
 
-4. **Aggiornamento** 📊
+4. **Auto-fill regioni** 🧭
+   - Completa `regione/provincia/area_geografica` usando `data/comuni_italiani.json`
+
+5. **Aggiornamento** 📊
    - Ricostruisce `data/analysis_summary.csv`
    - Aggiorna dashboard
 
@@ -104,6 +108,7 @@ cp ptof_processed/batch_20250121_143022/*.pdf ptof_inbox/
 - NON modificare manualmente `ptof_processed/` (gestito automaticamente)
 - I PDF vengono spostati (non copiati) da inbox a processed
 - Ogni batch ha un README.txt con la lista dei file processati
+- Se `ptof_inbox/.download_in_progress` esiste, il workflow resta in attesa di nuovi PDF
 
 ✅ **Best Practices**:
 - Esegui il workflow quando hai nuovi PDF da processare

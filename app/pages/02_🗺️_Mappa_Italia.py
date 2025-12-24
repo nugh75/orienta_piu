@@ -49,6 +49,15 @@ REGION_ISO = {
     'Sicilia': 'IT-82', 'Sardegna': 'IT-88'
 }
 
+# Normalizzazione nomi regioni (CSV -> ISO Map)
+REGION_NORMALIZATION = {
+    'Emilia Romagna': 'Emilia-Romagna',
+    'Friuli-Venezia Giulia': 'Friuli Venezia Giulia',
+    'Trentino Alto Adige': 'Trentino-Alto Adige',
+    'Valle D\'Aosta': 'Valle d\'Aosta',
+    'Valle d Aosta': 'Valle d\'Aosta',
+}
+
 # Macro-areas (solo Nord e Sud)
 MACRO_AREA = {
     'Piemonte': 'Nord', 'Valle d\'Aosta': 'Nord', 'Lombardia': 'Nord',
@@ -83,6 +92,11 @@ def normalize_region(value):
     value_str = str(value).strip()
     if value_str in ('', 'ND', 'N/A', 'nan'):
         return 'Non Specificato'
+    
+    # Applica normalizzazione specifica
+    if value_str in REGION_NORMALIZATION:
+        return REGION_NORMALIZATION[value_str]
+        
     return value_str
 
 if 'regione' in df.columns:
@@ -500,7 +514,7 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
                     color='Tipo',
                     hover_name='Regione',
                     hover_data={'Media': ':.2f', 'N. Scuole': True, 'Tipo': True, 'lat': False, 'lon': False},
-                    size_max=40,
+                    size_max=20,
                     title="Distribuzione Tipologie per Regione"
                 )
                 
@@ -629,21 +643,104 @@ if len(df_macro) > 5:
         # Statistical test (if scipy available)
         try:
             from scipy import stats
-            groups = [group['ptof_orientamento_maturity_index'].dropna().values 
-                     for name, group in df_macro.groupby('macro_area')]
-            if len(groups) >= 2 and all(len(g) >= 3 for g in groups):
-                stat, p_val = stats.kruskal(*groups)
+            # Filter groups with at least 3 samples
+            valid_groups = []
+            excluded_groups = []
+            for name, group in df_macro.groupby('macro_area'):
+                values = group['ptof_orientamento_maturity_index'].dropna().values
+                if len(values) >= 3:
+                    valid_groups.append(values)
+                else:
+                    excluded_groups.append(name)
+            
+            if len(valid_groups) >= 2:
+                stat, p_val = stats.kruskal(*valid_groups)
                 st.markdown("### 🔬 Test Kruskal-Wallis")
+                if excluded_groups:
+                    st.caption(f"⚠️ Esclusi per dati insufficienti (<3): {', '.join(excluded_groups)}")
+                
                 st.metric("H-statistic", f"{stat:.2f}")
                 st.metric("p-value", f"{p_val:.4f}")
                 if p_val < 0.05:
                     st.success("✅ Differenza significativa (p < 0.05)")
                 else:
                     st.info("❌ Nessuna differenza significativa")
+            else:
+                st.info("Dati insufficienti per il test statistico (richiesti almeno 2 gruppi con n>=3)")
         except ImportError:
             st.info("Installa scipy per il test statistico")
 else:
     st.info("Dati insufficienti per il confronto macro-aree")
+
+st.markdown("---")
+
+# === 3a. AREA GEOGRAFICA (5 AREE) COMPARISON ===
+st.subheader("🌍 Confronto per Area Geografica (5 Aree)")
+st.caption("Analisi statistica per Nord Ovest, Nord Est, Centro, Sud, Isole")
+
+if 'area_geografica' in df_valid.columns:
+    df_area = df_valid[df_valid['area_geografica'].notna() & (df_valid['area_geografica'] != 'ND')].copy()
+    
+    if len(df_area) > 5:
+        col1, col2 = st.columns([2, 1])
+        
+        with col1:
+            # Boxplot
+            fig_box_area = px.box(
+                df_area, x='area_geografica', y='ptof_orientamento_maturity_index',
+                color='area_geografica',
+                title="Distribuzione Indice per Area Geografica",
+                labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice Maturità'},
+                points='all',
+                category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
+            )
+            fig_box_area.update_layout(showlegend=False, height=450)
+            st.plotly_chart(fig_box_area, use_container_width=True)
+        
+        with col2:
+            # Statistics table
+            area_stats = df_area.groupby('area_geografica')['ptof_orientamento_maturity_index'].agg([
+                'count', 'mean', 'std', 'min', 'max'
+            ]).round(2)
+            area_stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Max']
+            area_stats = area_stats.reset_index()
+            
+            st.markdown("### 📊 Statistiche per Area")
+            st.dataframe(area_stats, use_container_width=True, hide_index=True)
+            
+            # Statistical test
+            try:
+                from scipy import stats
+                # Filter groups with at least 3 samples
+                valid_groups = []
+                excluded_groups = []
+                for name, group in df_area.groupby('area_geografica'):
+                    values = group['ptof_orientamento_maturity_index'].dropna().values
+                    if len(values) >= 3:
+                        valid_groups.append(values)
+                    else:
+                        excluded_groups.append(name)
+                
+                if len(valid_groups) >= 2:
+                    stat, p_val = stats.kruskal(*valid_groups)
+                    st.markdown("### 🔬 Test Kruskal-Wallis")
+                    if excluded_groups:
+                        st.caption(f"⚠️ Esclusi per dati insufficienti (<3): {', '.join(excluded_groups)}")
+                    
+                    st.metric("H-statistic", f"{stat:.2f}")
+                    st.metric("p-value", f"{p_val:.4f}")
+                    if p_val < 0.05:
+                        st.success("✅ Differenza significativa")
+                    else:
+                        st.info("❌ Nessuna differenza significativa")
+                else:
+                    st.info("Dati insufficienti per il test statistico (richiesti almeno 2 gruppi con n>=3)")
+            except ImportError:
+                st.info("Installa scipy per il test statistico")
+    else:
+        st.info("Dati insufficienti per il confronto per aree geografiche")
+else:
+    st.warning("Colonna 'area_geografica' non trovata nel dataset")
 
 st.markdown("---")
 

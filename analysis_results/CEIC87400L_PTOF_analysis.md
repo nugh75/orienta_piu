@@ -6,33 +6,33 @@ Il PTOF della Scuola dell’Infanzia Paritaria “Sant’ Antonio” presenta un
 ### 2. Analisi Dimensionale
 
 #### 2.1 Sezione Dedicata all'Orientamento
-L'orientamento, pur non essendo un focus primario, è presente nel PTOF attraverso l'attività di preparazione alla scuola primaria. Questa attività, seppur limitata, dimostra un'attenzione alla continuità del percorso educativo e alla facilitazione della transizione per i bambini.
+L'orientamento, pur non essendo un focus primario, è presente nel PTOF attraverso l'attività di preparazione alla scuola primaria. Questa attività, seppur limitata, dimostra un'attenzione alla continuità del percorso educativo e alla facilitazione della transizione per i bambini. Il progetto "CON TEO E NINA AMBASCIATORI DEL PIANETA NELL’AMICIZIA E NELLA PACE!" (pag. 15) include anche aspetti di orientamento, promuovendo la scoperta e l'esplorazione del mondo circostante.
 
 #### 2.2 Partnership e Reti
-Il PTOF evidenzia collaborazioni con enti esterni quali l'Associazione CLAB ARCELLA per attività motorie, Forcellini Ristorazione per il servizio mensa e la FISM. Queste partnership arricchiscono l'offerta formativa e offrono ai bambini opportunità di apprendimento diversificate.
+Il PTOF evidenzia collaborazioni con enti esterni quali l'Associazione CLAB ARCELLA per attività motorie, Forcellini Ristorazione per il servizio mensa e la FISM. Queste partnership arricchiscono l'offerta formativa e offrono ai bambini opportunità di apprendimento diversificate. La scuola è anche associata alla FISM provinciale di Padova, che fornisce servizi di consulenza e assistenza per l’adempimento normativo e il coordinamento pedagogico.
 
 #### 2.3 Finalità e Obiettivi
-Le finalità educative sono ben definite e coerenti con le Indicazioni Nazionali per la scuola dell'infanzia, promuovendo l'autonomia, la cittadinanza attiva e lo sviluppo integrale della persona. Il punteggio attribuito riflette la chiarezza e la completezza di queste finalità.
+Le finalità educative sono ben definite e coerenti con le Indicazioni Nazionali per la scuola dell'infanzia, promuovendo l'autonomia, la cittadinanza attiva e lo sviluppo integrale della persona. Il punteggio attribuito riflette la chiarezza e la completezza di queste finalità. Gli obiettivi includono anche la promozione di un approccio sereno e positivo con la lingua inglese e francese, l'arricchimento del vocabolario e lo sviluppo delle capacità comunicative.
 
 #### 2.4 Governance e Azioni di Sistema
-Il PTOF descrive azioni di sistema volte a favorire il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori. L'attenzione alla comunicazione e alla collaborazione rappresenta un punto di forza.
+Il PTOF descrive azioni di sistema volte a favorire il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori. L'attenzione alla comunicazione e alla collaborazione rappresenta un punto di forza. La scuola ha anche un piano di formazione per tutto il personale, che include tematiche come la formazione specifica per campi di apprendimento, l'insegnamento della Religione Cattolica e il supporto per gli alunni con Bisogni Educativi Speciali (BES).
 
 #### 2.5 Didattica Orientativa
-La didattica laboratoriale è un elemento distintivo del PTOF, offrendo ai bambini opportunità di apprendimento esperienziale e coinvolgente. I laboratori specifici (musica, natura, inglese, francese, numeri, grafico-motorio) sono ben strutturati e mirati allo sviluppo di competenze specifiche.
+La didattica laboratoriale è un elemento distintivo del PTOF, offrendo ai bambini opportunità di apprendimento esperienziale e coinvolgente. I laboratori specifici (musica, natura, inglese, francese, numeri, grafico-motorio) sono ben strutturati e mirati allo sviluppo di competenze specifiche. Il laboratorio di musica, ad esempio, si propone di sviluppare la sensibilità musicale e la creatività dei bambini attraverso l'esplorazione di suoni, ritmi e melodie.
 
 #### 2.6 Opportunità Formative
-L'offerta di laboratori diversificati contribuisce ad ampliare gli interessi dei bambini e a stimolare la loro creatività. Sebbene non siano esplicitamente orientati alla scelta di un percorso professionale, i laboratori offrono ai bambini l'opportunità di scoprire le proprie attitudini e passioni.
+L'offerta di laboratori diversificati contribuisce ad ampliare gli interessi dei bambini e a stimolare la loro creatività. Sebbene non siano esplicitamente orientati alla scelta di un percorso professionale, i laboratori offrono ai bambini l'opportunità di scoprire le proprie attitudini e passioni. Il laboratorio di inglese, ad esempio, introduce i bambini alla lingua inglese attraverso un approccio ludico e interattivo.
 
 #### 2.7 Registro Dettagliato delle Attività
-
-#### 2.7.1 Laboratorio musica
-Il laboratorio di musica, rivolto a tutti i bambini, mira a sviluppare la loro sensibilità musicale e la creatività attraverso l'esplorazione di suoni, ritmi e melodie. L'attività si svolge all'interno della scuola durante l'anno scolastico e si propone di stimolare l'espressione artistica e la collaborazione tra i bambini.
-
-#### 2.7.2 Laboratorio natura
-Il laboratorio di natura, rivolto a tutti i bambini, offre l'opportunità di esplorare l'ambiente naturale e di conoscere le caratteristiche delle piante e degli animali. L'attività si svolge all'interno della scuola e nei suoi dintorni durante l'anno scolastico e si propone di sensibilizzare i bambini al rispetto dell'ambiente e alla sostenibilità.
-
-#### 2.7.3 Laboratorio Inglese
-Il laboratorio di inglese, rivolto ai bambini del secondo e terzo anno, introduce i bambini alla lingua inglese attraverso un approccio ludico e interattivo. L'attività si svolge all'interno della scuola a partire da gennaio e si propone di stimolare l'interesse per le lingue straniere e di sviluppare le competenze comunicative di base.
+Il PTOF include un registro dettagliato delle attività, che comprende:
+- Laboratorio musica: "Con Teo, Nina e Dante alla scoperta dei rumori, suoni e ritmi" (Sr Adele Ronchi e Sr Marie-Claire Sogan)
+- Laboratorio natura: "Dante esploratore della natura con teo e Nina!" (Sr Adele Ronchi e Sr Marie-Claire Sogan)
+- Laboratorio Inglese: "Explore, learn and play with Teo and Nina" (Chiara Borgato)
+- Laboratorio francese: "A piccoli passi con Teo e Nina esploratori del mondo" (Sr Adèle Agbadza)
+- Laboratorio Numeri: "Con Teo e Nina alla scoperta delle linee, delle forme e dei numeri" (Sr Luisa Zanella)
+- Laboratorio grafico-motorio e fonologico: "Con Teo e Nina esploriamo il mondo dei segni, dei suoni e delle parole" (Sr Luisa Zanella)
+- Laboratorio Sicurezza-Stradale: "Teo e Nina esperti di sicurezza!" (Sr Luisa Zanella, Sandoli Giovanna e Scremin Mariangela)
+- Laboratorio motoria: "Giocomotricità!" (Associazione CLAB ARCELLA)
 
 ### 3. Punti di Forza
 La scuola dimostra un forte impegno per lo sviluppo integrale del bambino, la didattica laboratoriale, il coinvolgimento dei genitori e l'inclusione di tutti gli alunni. La presenza di partnership con enti esterni arricchisce l'offerta formativa.

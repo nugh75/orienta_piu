@@ -1,73 +1,74 @@
-#!/usr/bin/env python3
-"""
-Script CLI allineato al notebook docs/CLI_Examples.ipynb.
-Fonte: cella "COMPLETO ANALISI PTOF (VERSIONE SEMPLIFICATA)".
-"""
+# ══════════════════════════════════════════════════════════════════════
+# COMPLETO ANALISI PTOF (VERSIONE SEMPLIFICATA)
+# ══════════════════════════════════════════════════════════════════════
+# 🚀 PDF → MD → Analisi Multi-Agente → JSON (arricchito) → rebuild_csv → CSV
+# ✅ Catena dati: Normalizzazioni nel JSON, CSV è derivato (solo lettura)
+import sys
+import os
+import re
+import json
+import shutil
+import subprocess
+import logging
+import importlib
+from pathlib import Path
+from datetime import datetime
+import time
 
-def run_workflow():
-    # ══════════════════════════════════════════════════════════════════════
-    # COMPLETO ANALISI PTOF (VERSIONE SEMPLIFICATA)
-    # ══════════════════════════════════════════════════════════════════════
-    # 🚀 PDF → MD → Analisi Multi-Agente → JSON (arricchito) → rebuild_csv → CSV
-    # ✅ Catena dati: Normalizzazioni nel JSON, CSV è derivato (solo lettura)
-    import sys
-    import os
-    import re
-    import json
-    import shutil
-    import subprocess
-    import logging
-    import importlib
-    from pathlib import Path
-    from datetime import datetime
-    
-    # Setup logging
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.StreamHandler()]
-    )
-    logger = logging.getLogger(__name__)
-    
-    # Configurazione
-    BASE_DIR = Path('/Users/danieledragoni/git/LIste')
-    os.chdir(BASE_DIR)
-    sys.path.insert(0, str(BASE_DIR))
-    
-    INBOX_DIR = BASE_DIR / "ptof_inbox"
-    PROCESSED_DIR = BASE_DIR / "ptof_processed"
-    MD_DIR = BASE_DIR / "ptof_md"
-    ANALYSIS_DIR = BASE_DIR / "analysis_results"
-    CSV_FILE = BASE_DIR / "data" / "analysis_summary.csv"
-    
-    # Crea directory
-    for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
-        d.mkdir(parents=True, exist_ok=True)
-    
-    print("="*70, flush=True)
-    print("🚀 WORKFLOW COMPLETO ANALISI PTOF", flush=True)
-    print(f"🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", flush=True)
-    print("="*70, flush=True)
-    
-    # =====================================================
-    # INIZIALIZZAZIONE DATABASE MIUR
-    # =====================================================
-    print("\n🔧 Caricamento database...", flush=True)
-    
-    import src.utils.school_database as school_db_module
-    importlib.reload(school_db_module)
-    from src.utils.school_database import SchoolDatabase
-    
-    SchoolDatabase._instance = None
-    SchoolDatabase._loaded = False
-    SCHOOL_DB = SchoolDatabase()
-    print(f"   ✅ Database MIUR: {len(SCHOOL_DB._data)} scuole", flush=True)
-    
-    # Conta PDF
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
+
+# Configurazione
+BASE_DIR = Path('/Users/danieledragoni/git/LIste')
+os.chdir(BASE_DIR)
+sys.path.insert(0, str(BASE_DIR))
+
+INBOX_DIR = BASE_DIR / "ptof_inbox"
+PROCESSED_DIR = BASE_DIR / "ptof_processed"
+MD_DIR = BASE_DIR / "ptof_md"
+ANALYSIS_DIR = BASE_DIR / "analysis_results"
+CSV_FILE = BASE_DIR / "data" / "analysis_summary.csv"
+DOWNLOAD_LOCK = INBOX_DIR / ".download_in_progress"
+WAIT_SECONDS = int(os.environ.get("PTOF_DOWNLOAD_WAIT_SECONDS", "10"))
+
+# Crea directory
+for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
+
+print("="*70, flush=True)
+print("🚀 WORKFLOW COMPLETO ANALISI PTOF", flush=True)
+print(f"🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", flush=True)
+print("="*70, flush=True)
+
+# =====================================================
+# INIZIALIZZAZIONE DATABASE MIUR
+# =====================================================
+print("\n🔧 Caricamento database...", flush=True)
+
+import src.utils.school_database as school_db_module
+importlib.reload(school_db_module)
+from src.utils.school_database import SchoolDatabase
+
+SchoolDatabase._instance = None
+SchoolDatabase._loaded = False
+SCHOOL_DB = SchoolDatabase()
+print(f"   ✅ Database MIUR: {len(SCHOOL_DB._data)} scuole", flush=True)
+
+# Conta PDF
+while True:
     inbox_pdfs = list(INBOX_DIR.glob("*.pdf"))
     print(f"\n📥 PDF in inbox: {len(inbox_pdfs)}", flush=True)
-    
+
     if not inbox_pdfs:
+        if DOWNLOAD_LOCK.exists():
+            print(f"⏳ Download in corso, attendo {WAIT_SECONDS}s...", flush=True)
+            time.sleep(WAIT_SECONDS)
+            continue
         print("⚠️ Nessun PDF da processare!", flush=True)
         print("💡 Copia i PDF in ptof_inbox/ e riprova", flush=True)
     else:
@@ -114,7 +115,7 @@ def run_workflow():
                     return "\n".join(text_parts).strip()
                 except Exception:
                     return ""
-    
+
         def extract_school_code(name, school_db, pdf_path=None):
             def dedupe(candidates):
                 seen = set()
@@ -125,7 +126,7 @@ def run_workflow():
                     seen.add(code)
                     unique.append(code)
                 return unique
-    
+
             def pick_valid(candidates):
                 if not school_db:
                     return None, None
@@ -134,15 +135,15 @@ def run_workflow():
                     if miur_data:
                         return code, miur_data
                 return None, None
-    
+
             filename_candidates = code_pattern.findall(name.upper())
             filename_candidates = [c for c in filename_candidates if any(ch.isdigit() for ch in c)]
             filename_candidates = dedupe(filename_candidates)
-    
+
             code, miur_data = pick_valid(filename_candidates)
             if code:
                 return code, filename_candidates, miur_data, "filename"
-    
+
             pdf_candidates = []
             if pdf_path is not None:
                 text = extract_text_from_pdf(pdf_path)
@@ -154,14 +155,14 @@ def run_workflow():
                     if code:
                         combined = filename_candidates + [c for c in pdf_candidates if c not in filename_candidates]
                         return code, combined, miur_data, "pdf"
-    
+
             combined = filename_candidates + [c for c in pdf_candidates if c not in filename_candidates]
             if pdf_candidates:
                 return pdf_candidates[0], combined, None, "pdf"
             if filename_candidates:
                 return filename_candidates[0], combined, None, "filename"
             return None, [], None, None
-    
+
         def json_status(path):
             if not path.exists():
                 return 'missing'
@@ -186,7 +187,7 @@ def run_workflow():
                 if status in ('empty', 'invalid'):
                     return path, status
             return candidates[0], 'missing'
-    
+
         def choose_preferred_pdf(current_path, new_path):
             current_stat = current_path.stat()
             new_stat = new_path.stat()
@@ -205,16 +206,16 @@ def run_workflow():
                 print(f"🔎 {pdf_path.name}: codice estratto dal PDF → {school_code}", flush=True)
             if len(candidates) > 1:
                 print(f"⚠️ {pdf_path.name}: codici trovati {candidates}, scelto {school_code}", flush=True)
-    
+        
             if miur_data:
                 print(f"✅ {school_code}: {miur_data.get('denominazione', 'ND')[:50]}", flush=True)
             else:
                 print(f"⚠️ {school_code}: Non in MIUR (procedo comunque)", flush=True)
-    
+        
             recognized_pdfs.append((pdf_path, school_code, miur_data))
-    
+        
             analysis_path, status = get_analysis_status(school_code)
-    
+
             if status == 'valid':
                 if school_code not in already_analyzed:
                     print(f"⏭️ {school_code}: Analisi già presente ({analysis_path.name})", flush=True)
@@ -224,7 +225,7 @@ def run_workflow():
                 print(f"⚠️ {school_code}: JSON vuoto, rieseguo analisi", flush=True)
             elif status == 'invalid':
                 print(f"⚠️ {school_code}: JSON non valido, rieseguo analisi", flush=True)
-    
+        
             if school_code in process_pdfs:
                 kept = choose_preferred_pdf(process_pdfs[school_code][0], pdf_path)
                 if kept == pdf_path:
@@ -233,7 +234,7 @@ def run_workflow():
                 else:
                     print(f"⚠️ Duplicato {school_code}: tengo {process_pdfs[school_code][0].name}, scarto {pdf_path.name}", flush=True)
                 continue
-    
+        
             process_pdfs[school_code] = (pdf_path, school_code, miur_data)
     
         process_pdfs = list(process_pdfs.values())
@@ -253,15 +254,15 @@ def run_workflow():
     
         for pdf_path, school_code, miur_data in process_pdfs:
             md_output = MD_DIR / f"{school_code}_ptof.md"
-    
+        
             # Verifica se già analizzato
             analysis_path, status = get_analysis_status(school_code)
             if status == 'valid':
                 print(f"⏭️ Già analizzato: {school_code} ({analysis_path.name})", flush=True)
                 continue
-    
+        
             print(f"🔄 Convertendo: {pdf_path.name} → {school_code}_ptof.md", flush=True)
-    
+        
             try:
                 if pdf_to_markdown(str(pdf_path), str(md_output)):
                     converted.append((pdf_path, school_code, miur_data))
@@ -280,7 +281,7 @@ def run_workflow():
             print("\n" + "="*70, flush=True)
             print("🤖 STEP 2: Analisi Multi-Agente", flush=True)
             print("="*70, flush=True)
-    
+        
             # Forza reload del modulo pipeline
             import app.agentic_pipeline as agentic_module
             importlib.reload(agentic_module)
@@ -288,27 +289,27 @@ def run_workflow():
                 AnalystAgent, RefinerAgent, ReviewerAgent, SynthesizerAgent,
                 process_single_ptof
             )
-    
+        
             analyst = AnalystAgent()
             refiner = RefinerAgent()
             reviewer = ReviewerAgent()
             synthesizer = SynthesizerAgent()
-    
+        
             analyzed = []
-    
+        
             for pdf_path, school_code, miur_data in converted:
                 md_file = MD_DIR / f"{school_code}_ptof.md"
-    
+            
                 if not md_file.exists():
                     print(f"⚠️ MD non trovato: {school_code}", flush=True)
                     continue
-    
+            
                 print(f"\n📝 Analizzando: {school_code}", flush=True)
-    
+            
                 try:
                     def status_cb(msg):
                         print(f"   {msg}", flush=True)
-    
+                
                     # process_single_ptof salva JSON già arricchito (con enrich_json_metadata)
                     result = process_single_ptof(
                         str(md_file),
@@ -319,7 +320,7 @@ def run_workflow():
                         str(ANALYSIS_DIR),
                         status_callback=status_cb
                     )
-    
+                
                     if result:
                         analyzed.append(school_code)
                         # Leggi metadati dal JSON salvato per feedback
@@ -333,83 +334,101 @@ def run_workflow():
                         print(f"   ✅ Salvato - {meta.get('provincia', 'ND')}, {meta.get('regione', 'ND')}", flush=True)
                     else:
                         print(f"   ⚠️ Nessun risultato", flush=True)
-    
+                
                 except Exception as e:
                     print(f"   ❌ Errore analisi: {e}", flush=True)
                     import traceback
                     traceback.print_exc()
-    
+        
             print(f"\n📊 Analizzati: {len(analyzed)} file", flush=True)
     
-        # =====================================================
-        # STEP 3: REBUILD CSV DA JSON
-        # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("📊 STEP 3: Rebuild CSV da JSON", flush=True)
-        print("="*70, flush=True)
+    # =====================================================
+    # STEP 2.5: AUTO-FILL REGIONI DA COMUNI
+    # =====================================================
+    print("\n" + "="*70, flush=True)
+    print("🧭 STEP 2.5: Auto-fill regioni da comuni", flush=True)
+    print("="*70, flush=True)
     
-        # Esegui rebuild_csv_clean.py
-        result = subprocess.run(
-            ['python3', 'src/processing/rebuild_csv_clean.py'],
-            capture_output=True, text=True, cwd=str(BASE_DIR)
-        )
-        print(result.stdout, flush=True)
-        if result.returncode != 0:
-            print(f"⚠️ Errore: {result.stderr}", flush=True)
+    result = subprocess.run(
+        ['python3', 'src/processing/autofill_region_from_comuni.py'],
+        capture_output=True, text=True, cwd=str(BASE_DIR)
+    )
+    print(result.stdout, flush=True)
+    if result.returncode != 0:
+        print(f"⚠️ Errore: {result.stderr}", flush=True)
+
+    # =====================================================
+    # STEP 3: REBUILD CSV DA JSON
+    # =====================================================
+    print("\n" + "="*70, flush=True)
+    print("📊 STEP 3: Rebuild CSV da JSON", flush=True)
+    print("="*70, flush=True)
     
-        # =====================================================
-        # STEP 4: VERIFICA CSV FINALE
-        # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("📊 STEP 4: Verifica CSV", flush=True)
-        print("="*70, flush=True)
+    # Esegui rebuild_csv_clean.py
+    result = subprocess.run(
+        ['python3', 'src/processing/rebuild_csv_clean.py'],
+        capture_output=True, text=True, cwd=str(BASE_DIR)
+    )
+    print(result.stdout, flush=True)
+    if result.returncode != 0:
+        print(f"⚠️ Errore: {result.stderr}", flush=True)
     
-        if CSV_FILE.exists():
-            import pandas as pd
-            df = pd.read_csv(CSV_FILE)
-            print(f"📊 CSV contiene {len(df)} scuole", flush=True)
-            print(f"\nColonne principali:", flush=True)
-            print(df[['school_id', 'denominazione', 'provincia', 'regione', 'area_geografica', 'ptof_orientamento_maturity_index']].to_string(), flush=True)
+    # =====================================================
+    # STEP 4: VERIFICA CSV FINALE
+    # =====================================================
+    print("\n" + "="*70, flush=True)
+    print("📊 STEP 4: Verifica CSV", flush=True)
+    print("="*70, flush=True)
+    
+    if CSV_FILE.exists():
+        import pandas as pd
+        df = pd.read_csv(CSV_FILE)
+        print(f"📊 CSV contiene {len(df)} scuole", flush=True)
+        print(f"\nColonne principali:", flush=True)
+        print(df[['school_id', 'denominazione', 'provincia', 'regione', 'area_geografica', 'ptof_orientamento_maturity_index']].to_string(), flush=True)
+    else:
+        print("⚠️ CSV non ancora creato", flush=True)
+    
+    # =====================================================
+    # STEP 5: SPOSTA PDF PROCESSATI
+    # =====================================================
+    print("\n" + "="*70, flush=True)
+    print("📦 STEP 5: Organizzazione file processati", flush=True)
+    print("="*70, flush=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    batch_dir = PROCESSED_DIR / f"batch_{timestamp}"
+    batch_dir.mkdir(exist_ok=True)
+    
+    processed_count = 0
+    for pdf_path, school_code, _ in recognized_pdfs:
+        analysis_path, status = get_analysis_status(school_code)
+        if status == 'valid':
+            dest = batch_dir / pdf_path.name
+            shutil.move(str(pdf_path), str(dest))
+            processed_count += 1
+            print(f"📦 Spostato: {pdf_path.name}", flush=True)
         else:
-            print("⚠️ CSV non ancora creato", flush=True)
+            print(f"⚠️ Analisi non valida ({analysis_path.name}), non sposto: {pdf_path.name}", flush=True)
     
-        # =====================================================
-        # STEP 5: SPOSTA PDF PROCESSATI
-        # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("📦 STEP 5: Organizzazione file processati", flush=True)
-        print("="*70, flush=True)
+    print(f"\n📊 PDF spostati in batch: {processed_count}", flush=True)
     
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        batch_dir = PROCESSED_DIR / f"batch_{timestamp}"
-        batch_dir.mkdir(exist_ok=True)
+    # =====================================================
+    # RIEPILOGO FINALE
+    # =====================================================
+    print("\n" + "="*70, flush=True)
+    print("📊 RIEPILOGO FINALE", flush=True)
+    print("="*70, flush=True)
     
-        processed_count = 0
-        for pdf_path, school_code, _ in recognized_pdfs:
-            analysis_path, status = get_analysis_status(school_code)
-            if status == 'valid':
-                dest = batch_dir / pdf_path.name
-                shutil.move(str(pdf_path), str(dest))
-                processed_count += 1
-                print(f"📦 Spostato: {pdf_path.name}", flush=True)
-            else:
-                print(f"⚠️ Analisi non valida ({analysis_path.name}), non sposto: {pdf_path.name}", flush=True)
-    
-        print(f"\n📊 PDF spostati in batch: {processed_count}", flush=True)
-    
-        # =====================================================
-        # RIEPILOGO FINALE
-        # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("📊 RIEPILOGO FINALE", flush=True)
-        print("="*70, flush=True)
-    
-        final_count = len(list(ANALYSIS_DIR.glob("*_analysis.json")))
-        print(f"📁 Totale analisi JSON: {final_count}", flush=True)
-        print(f"📊 CSV generato: {CSV_FILE}", flush=True)
-        print(f"\n💡 Catena dati:", flush=True)
-        print(f"   JSON (verità) → rebuild_csv_clean.py → CSV (derivato)", flush=True)
-        print(f"\n🚀 Avvia dashboard: streamlit run app/Home.py", flush=True)
-        print("="*70, flush=True)
-if __name__ == '__main__':
-    run_workflow()
+    final_count = len(list(ANALYSIS_DIR.glob("*_analysis.json")))
+    print(f"📁 Totale analisi JSON: {final_count}", flush=True)
+    print(f"📊 CSV generato: {CSV_FILE}", flush=True)
+    print(f"\n💡 Catena dati:", flush=True)
+    print(f"   JSON (verità) → rebuild_csv_clean.py → CSV (derivato)", flush=True)
+    print(f"\n🚀 Avvia dashboard: streamlit run app/Home.py", flush=True)
+    print("="*70, flush=True)
+    if DOWNLOAD_LOCK.exists():
+        print(f"\n⏳ Download in corso, attendo {WAIT_SECONDS}s per nuovi PDF...", flush=True)
+        time.sleep(WAIT_SECONDS)
+        continue
+    break

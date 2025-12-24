@@ -1,6 +1,15 @@
 import pandas as pd
 import streamlit as st
 
+TIPI_SCUOLA = [
+    "Infanzia",
+    "Primaria",
+    "I Grado",
+    "Liceo",
+    "Tecnico",
+    "Professionale"
+]
+
 def split_multi_value(value):
     if pd.isna(value):
         return []
@@ -84,9 +93,9 @@ def explode_school_grades(df: pd.DataFrame, col='ordine_grado') -> pd.DataFrame:
 def get_unique_types(df: pd.DataFrame, col='tipo_scuola') -> list:
     """Returns sorted unique types from the column."""
     if col not in df.columns:
-        return []
+        return sorted(TIPI_SCUOLA)
     
-    all_types = set()
+    all_types = set(TIPI_SCUOLA)
     for val in df[col].dropna():
         for t in split_multi_value(val):
             if t.lower() == 'nan':
