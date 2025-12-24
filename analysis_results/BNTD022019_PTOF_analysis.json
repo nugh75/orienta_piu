@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben strutturata, con una descrizione dettagliata delle azioni e dei criteri di valutazione. Tuttavia, manca una chiara definizione degli indicatori di successo."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T18:33:40.549936"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -383,6 +385,22 @@
             "reason": "Il testo non presenta alcuna menzione esplicita di azioni integrate per l'inclusione e la gestione d"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T18:34:40.715817",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 16,
+        "enrichments_found": 31,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
       }
     }
   ],

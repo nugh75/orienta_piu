@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-ollama review-scores review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini wizard
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-ollama review-scores review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard
 
 PYTHON = python3
 PIP = pip
@@ -58,6 +58,9 @@ help:
 	@echo "  make registry-status - Mostra stato del registro analisi"
 	@echo "  make registry-list   - Lista tutti i file registrati"
 	@echo "  make registry-clear  - Pulisce il registro (forza ri-analisi di tutto)"
+	@echo ""
+	@echo "♻️ RECOVERY PTOF:"
+	@echo "  make recover-not-ptof - Recupera solo i PDF con suffisso _ok in ptof_discarded/not_ptof"
 	@echo ""
 	@echo "🔗 COMBINAZIONI:"
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
@@ -312,6 +315,13 @@ ifndef CODE
 else
 	$(PYTHON) src/utils/analysis_registry.py --remove $(CODE)
 endif
+
+# ═══════════════════════════════════════════════════════════════════
+# RECOVERY PTOF
+# ═══════════════════════════════════════════════════════════════════
+
+recover-not-ptof:
+	$(PYTHON) src/validation/ptof_validator.py recover --category not_ptof --only-ok
 
 # ═══════════════════════════════════════════════════════════════════
 # OUTREACH PTOF

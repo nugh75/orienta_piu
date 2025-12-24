@@ -147,6 +147,7 @@ def menu_workflow() -> None:
         ("Rigenera CSV + Geo", "csv"),
         ("Backfill metadati", "backfill"),
         ("Clean cache", "clean"),
+        ("Recupera not_ptof con _ok (sposta in inbox)", "recover-not-ptof"),
         ("Refresh (csv + dashboard)", "refresh"),
         ("Full (run + csv + dashboard)", "full"),
         ("Pipeline (download sample + run + csv + dashboard)", "pipeline"),

@@ -215,149 +215,25 @@ e confrontabile tra scuole, capace di restituire un quadro chiaro dell'orientame
 
 st.markdown("---")
 
-st.header("Panoramica del Sistema")
+st.header("Analisi PTOF, punteggi e report")
 st.markdown(
     """
-Il sistema lavora come una redazione organizzata in fasi. Prima si recupera il documento,
-poi si verifica che sia realmente un PTOF, quindi si trasforma il testo in una base
-dati leggibile e, infine, si produce una valutazione narrativa e numerica.
+L'analisi dei PTOF è pensata come un processo unico e integrato, ma con una sequenza
+chiara: prima si produce l'analisi in **punteggi** per dimensioni e sotto‑dimensioni,
+poi, a partire da quei punteggi e dalle evidenze testuali, si costruisce il **report
+narrativo**. La lettura mette insieme coerenza interna del documento, qualità delle
+azioni descritte e solidità delle evidenze, così che numeri e testo si rinforzino
+a vicenda e consentano confronti affidabili senza perdere il contesto di ciascuna scuola.
 
-La sequenza, in sintesi, è questa:
-
-```
-Download -> Validazione PTOF -> Markdown -> Analisi multi-agente -> JSON + Report -> Controlli -> CSV -> Dashboard
-```
-
-Ogni passaggio è pensato per ridurre errori e aumentare la coerenza finale.
+Il report non nasce “a sentimento”: segue un prompt strutturato che impone una sequenza
+precisa (Sintesi generale, Analisi dimensionale, Punti di forza, Aree di debolezza,
+Gap analysis, Conclusioni). In questa sezione trovi come vengono definite le dimensioni,
+come si assegnano i punteggi e come nasce il report finale, fino all'**Indice di Robustezza**
+che sintetizza la qualità complessiva dell'orientamento.
 """
 )
 
-st.markdown("---")
-
-st.header("Strategie di Download")
-st.markdown(
-    """
-Per trovare il PTOF, il sistema procede per gradi e non si ferma al primo tentativo.
-Si parte dal portale Unica, poi si consultano i siti istituzionali, si risale
-all'istituto di riferimento quando necessario e, se il documento non è ancora trovato,
-si effettua una ricerca mirata sul web. Questo approccio evita buchi di copertura
-soprattutto nei casi in cui il PTOF è pubblicato su piattaforme esterne.
-
-Quando un file è già presente nel sistema, non viene riscaricato: la duplicazione
-introduce rumore e rallenta le analisi.
-"""
-)
-
-st.markdown("---")
-
-st.header("Validazione e Pulizia del Documento")
-st.markdown(
-    """
-Prima di qualsiasi analisi, il documento viene verificato. Il controllo serve a evitare
-che un regolamento, un curricolo o un verbale finisca per errore nel flusso dei PTOF.
-Si controllano titolo, indizi testuali e coerenza temporale (triennio). Se il documento
-non è un PTOF valido, viene scartato e archiviato separatamente.
-
-Questo passaggio è essenziale: un'analisi buona nasce da un documento corretto.
-"""
-)
-
-st.markdown("---")
-
-st.header("Architettura Multi-Agente")
-
-st.markdown(
-    """
-### Pipeline completa
-
-```
-PDF -> Validazione PTOF -> Markdown -> Analyst -> Reviewer -> Refiner -> JSON + Report
-                                                         |
-                                                         v
-                                            Controlli finali -> CSV -> Dashboard
-```
-"""
-)
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.markdown(
-        """
-    ### 🔍 Analyst Agent
-    È il primo lettore: estrae dati, assegna punteggi e costruisce una bozza
-    narrativa basata sulle evidenze presenti nel testo.
-    """
-    )
-
-with col2:
-    st.markdown(
-        """
-    ### 🧐 Reviewer Agent
-    È il controllo critico: verifica se il report cita elementi non presenti,
-    corregge punteggi troppo alti o troppo bassi e segnala incoerenze.
-    """
-    )
-
-with col3:
-    st.markdown(
-        """
-    ### ✨ Refiner Agent
-    È l'editor finale: integra le correzioni, rende il testo più chiaro e
-    assicura che il JSON e il report siano consistenti.
-    """
-    )
-
-st.markdown("---")
-
-st.header("Revisione e Controllo Qualità")
-st.markdown(
-    """
-La qualità non dipende da un singolo controllo, ma da livelli successivi.
-
-**Revisione interna (Reviewer Agent):** sempre attiva nella pipeline.
-
-**Revisione del report (OpenRouter / Gemini / Ollama):** un secondo passaggio che
-arricchisce il testo, recupera dettagli mancanti e rende il report più fedele.
-Con Ollama la revisione viene fatta a chunk, poi ricomposta.
-
-**Revisione dei punteggi estremi (OpenRouter / Gemini / Ollama):** quando un punteggio
-risulta molto basso o molto alto, si attiva una verifica dedicata per evitare
-sovra o sotto-valutazioni.
-
-**Revisione Non-PTOF:** se un documento non è un PTOF, l'analisi viene rimossa
-per mantenere pulito il dataset.
-
-**Background Reviewer/Fixer:** un controllo automatico aggiuntivo che cerca
-incongruenze tra narrativa e punteggi, e applica correzioni prudenti.
-"""
-)
-
-st.markdown("---")
-
-st.header("Metadati e Dataset")
-
-st.markdown(
-    """
-Dopo l'analisi, il sistema arricchisce i dati con anagrafiche ufficiali. Questo
-permette di standardizzare denominazioni, comune, area geografica e ordine di scuola.
-
-Il risultato è un dataset coerente che consente confronti affidabili tra territori
-e tipologie di istituto.
-"""
-)
-
-st.markdown("---")
-
-st.header("Framework di Valutazione")
-
-st.markdown(
-    """
-L'orientamento viene letto in 7 dimensioni principali, ispirate alle
-Linee Guida Nazionali per l'Orientamento (DM 328/2022).
-"""
-)
-
+st.subheader("Framework di Valutazione")
 st.markdown(
     """
 La prima dimensione osserva se il PTOF dedica uno spazio esplicito all'orientamento,
@@ -437,13 +313,12 @@ di queste opportunità, non solo la loro presenza nominale.
 """
 )
 
-st.markdown("---")
-
-st.header("Scala di Punteggio (Likert 1-7)")
-
+st.subheader("Scala di Punteggio (Likert 1-7)")
 st.markdown(
     """
-Ogni sottodimensione è valutata su una scala Likert a 7 punti:
+Ogni sottodimensione è valutata su una scala Likert a 7 punti. La scala non è un giudizio
+morale, ma una misura di quanto il PTOF riesce a trasformare le intenzioni in azioni
+concrete, documentate e coerenti.
 """
 )
 
@@ -471,14 +346,12 @@ scale_data = {
 
 st.dataframe(scale_data, use_container_width=True, hide_index=True)
 
-st.markdown("---")
-
-st.header("Indice di Robustezza")
-
+st.subheader("Indice di Robustezza")
 st.markdown(
     """
 L'**Indice di Robustezza del Sistema di Orientamento** (IRSO) sintetizza la solidità
-complessiva del sistema di orientamento della scuola, come media di 5 dimensioni.
+complessiva del sistema di orientamento della scuola. Non sostituisce i punteggi
+analitici, ma offre una misura sintetica utile per confronti rapidi tra istituti.
 
 ```
 IRSO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didattica + Media_Opportunità) / 5
@@ -496,50 +369,179 @@ IRSO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didattica +
 """
 )
 
+st.subheader("Report narrativo e output")
+st.markdown(
+    """
+Accanto ai punteggi, il sistema produce un **report narrativo** che spiega le valutazioni,
+riporta le evidenze e collega le dimensioni tra loro. È il ponte tra i numeri e la lettura
+qualitativa: per questo segue una struttura stabile e obbligatoria, che riflette il prompt
+di produzione. La sequenza è sempre la stessa: **Sintesi generale** per fissare il quadro,
+**Analisi dimensionale** per dettagliare sezione per sezione, **Punti di forza** e **Aree
+di debolezza** per bilanciare la lettura, **Gap analysis** per evidenziare le mancanze
+strutturali e **Conclusioni** per restituire una chiusura coerente e utile.
+
+Il report nasce dai punteggi ma non li ripete: li interpreta, li giustifica con esempi e
+spiega dove il PTOF è specifico o, al contrario, vago. In questa fase vengono richiamate
+le evidenze testuali più rilevanti, così che chi legge possa collegare direttamente
+valutazione e contenuto del documento.
+
+**Esempio sintetico:** un punteggio alto sulla **didattica orientativa** diventa un
+passaggio narrativo che cita laboratori, moduli interdisciplinari e attività pratiche
+descritte nel PTOF; un punteggio basso si traduce invece in una nota che segnala
+l'assenza di azioni strutturate e la presenza di riferimenti solo generici.
+
+L'output finale è doppio: un **JSON strutturato** per analisi e confronti, e un **Markdown**
+per la lettura umana. Questa doppia forma garantisce sia la riproducibilità tecnica sia
+la comprensibilità per chi deve interpretare i risultati, e permette di aggiornare o
+revisionare i report senza perdere la traccia delle scelte effettuate.
+"""
+)
+
 st.markdown("---")
 
-st.header("Fonti Dati")
-
+st.header("Workflow operativo e agente principale")
 st.markdown(
     """
-Le informazioni provengono da più fonti, integrate per fornire un quadro completo.
+Questa parte descrive come il sistema mette in pratica l'analisi: dal recupero dei documenti
+alla gestione dei casi non pertinenti, fino alla registrazione delle attività svolte.
+È qui che l'agente principale organizza il lavoro e garantisce continuità tra un ciclo
+di analisi e l'altro.
 """
 )
 
+st.subheader("Panoramica del Sistema")
 st.markdown(
     """
-| Fonte | Descrizione | Utilizzo |
-|-------|-------------|----------|
-| **metadata_enrichment.csv** | Anagrafica MIUR | Denominazione, Comune, Tipo scuola |
-| **comuni_italiani.json** | Elenco comuni/province | Normalizzazione geografica |
-| **PTOF Documents** | Documenti scolastici | Analisi testuale |
+Il workflow è progettato per essere ripetibile e trasparente. Prima si recuperano i PDF,
+poi si valida la natura del documento, quindi si trasforma il contenuto in testo leggibile
+(Markdown) e si avvia la pipeline multi‑agente. Ogni passaggio lascia traccia nei log e
+nei file di stato, in modo che la pipeline possa essere ripresa senza perdere coerenza.
+
+La sequenza, in sintesi, è questa:
+
+```
+Download -> Validazione PTOF -> Markdown -> Analisi multi-agente -> JSON + Report -> Controlli -> CSV -> Dashboard
+```
+
+Ogni passaggio è pensato per ridurre errori, evitare duplicazioni e aumentare la qualità
+complessiva del risultato.
+"""
+)
+
+st.subheader("Strategie di Download")
+st.markdown(
+    """
+Per trovare il PTOF, il sistema procede per gradi e non si ferma al primo tentativo.
+Si parte dal portale Unica, poi si consultano i siti istituzionali, si risale
+all'istituto di riferimento quando necessario e, se il documento non è ancora trovato,
+si effettua una ricerca mirata sul web. Questo approccio evita buchi di copertura
+soprattutto nei casi in cui il PTOF è pubblicato su piattaforme esterne.
+
+Quando un file è già presente nel sistema, non viene riscaricato: la duplicazione
+introduce rumore e rallenta le analisi.
+"""
+)
+
+st.subheader("Validazione e gestione non-PTOF")
+st.markdown(
+    """
+Prima di qualsiasi analisi, il documento viene verificato. Il controllo serve a evitare
+che un regolamento, un curricolo o un verbale finisca per errore nel flusso dei PTOF.
+Si controllano titolo, indizi testuali e coerenza temporale (triennio). Se il documento
+non è un PTOF valido, viene scartato e archiviato separatamente.
+
+La gestione dei **documenti non‑PTOF** è parte del processo principale: ciò che non supera
+la validazione viene spostato in cartelle dedicate e le analisi generate per errore vengono
+rimosse. In questo modo il dataset rimane pulito e affidabile.
+"""
+)
+
+st.subheader("Architettura Multi-Agente")
+st.markdown(
+    """
+### Pipeline completa
+
+```
+PDF -> Validazione PTOF -> Markdown -> Analyst -> Reviewer -> Refiner -> JSON + Report
+                                                         |
+                                                         v
+                                            Controlli finali -> CSV -> Dashboard
+```
+"""
+)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown(
+        """
+### 🔍 Analyst Agent
+È il primo lettore: estrae dati, assegna punteggi e costruisce una bozza
+narrativa basata sulle evidenze presenti nel testo.
+"""
+    )
+
+with col2:
+    st.markdown(
+        """
+### 🧐 Reviewer Agent
+È il controllo critico: verifica se il report cita elementi non presenti,
+corregge punteggi troppo alti o troppo bassi e segnala incoerenze.
+"""
+    )
+
+with col3:
+    st.markdown(
+        """
+### ✨ Refiner Agent
+È l'editor finale: integra le correzioni, rende il testo più chiaro e
+assicura che il JSON e il report siano consistenti.
+"""
+    )
+
+st.subheader("Metadati e Dataset")
+st.markdown(
+    """
+Dopo l'analisi, il sistema arricchisce i dati con anagrafiche ufficiali. Questo
+permette di standardizzare denominazioni, comune, area geografica e ordine di scuola.
+
+Il risultato è un dataset coerente che consente confronti affidabili tra territori
+e tipologie di istituto. L'arricchimento è cruciale per leggere correttamente i risultati
+su mappe e dashboard, evitando che differenze di formattazione generino errori.
+"""
+)
+
+st.subheader("Registro dell'Analisi")
+st.markdown(
+    """
+Ogni documento processato viene registrato in un **registro di analisi** che conserva
+lo stato dei passaggi già svolti. Questo registro evita doppie elaborazioni, consente di
+riprendere un lavoro interrotto e permette di sapere quali scuole sono state analizzate,
+revisionate o scartate.
+
+Il registro è utile anche per le revisioni: quando un report viene riletto o corretto,
+lo stato viene aggiornato, così da mantenere una traccia coerente dell'intero ciclo di vita
+di un'analisi.
 """
 )
 
 st.markdown("---")
 
-st.header("Limitazioni e Buone Pratiche")
-
-st.warning(
-    """
-Attenzione: i punteggi sono generati da modelli di intelligenza artificiale e possono contenere errori.
-"""
-)
-
+st.header("Revisori e Controllo Qualità")
 st.markdown(
     """
-### Limitazioni note
+La qualità non dipende da un singolo controllo, ma da livelli successivi che entrano in gioco
+quando necessario. Il **Reviewer Agent** è parte integrante della pipeline: agisce subito dopo
+la prima bozza per correggere errori e incoerenze. A questo si aggiungono revisori dedicati che
+operano a valle del workflow principale.
 
-La qualità dipende dai documenti di partenza. PDF scannerizzati, impaginazioni
-complesse o testo poco chiaro possono ridurre la precisione. Inoltre, modelli
-diversi possono produrre valutazioni leggermente differenti. Per questo i risultati
-vanno letti come indicatori comparativi e non come giudizi assoluti.
+La **revisione del report** (con OpenRouter, Gemini o Ollama) arricchisce il testo con dettagli
+mancanti, conferma la coerenza interna e rende la narrativa più precisa. La **revisione dei
+punteggi estremi** si concentra sulle valutazioni troppo alte o troppo basse, per evitare distorsioni.
 
-### Buone pratiche
-
-- usare i punteggi per confrontare, non per etichettare
-- leggere sempre il report narrativo insieme ai numeri
-- considerare il contesto specifico della scuola
+La **revisione Non‑PTOF** agisce quando un documento non è pertinente, eliminando output errati.
+Infine, il **Background Reviewer/Fixer** controlla la coerenza tra punteggi, narrativa e metadati,
+applicando correzioni prudenti quando emergono anomalie.
 """
 )
 
@@ -576,11 +578,50 @@ with st.expander("Review punteggi estremi (OpenRouter/Gemini/Ollama) - prompt"):
 
 st.markdown("---")
 
-st.header("Approfondimenti (opzionali)")
+st.header("Avvertenze e Buone Pratiche")
+
+st.warning(
+    """
+Attenzione: i punteggi sono generati da modelli di intelligenza artificiale e possono contenere errori.
+"""
+)
 
 st.markdown(
     """
-Questa sezione raccoglie dettagli tecnici utili per chi vuole approfondire.
+### Limitazioni note
+
+La qualità dipende dai documenti di partenza. PDF scannerizzati, impaginazioni complesse
+o testo poco chiaro possono ridurre la precisione. Inoltre, modelli diversi possono produrre
+valutazioni leggermente differenti. Per questo i risultati vanno letti come indicatori
+comparativi e non come giudizi assoluti.
+
+### Buone pratiche
+
+- usare i punteggi per confrontare, non per etichettare
+- leggere sempre il report narrativo insieme ai numeri
+- considerare il contesto specifico della scuola
+"""
+)
+
+st.markdown("---")
+
+st.header("Documenti e Fonti")
+
+st.markdown(
+    """
+La base documentale è composta dai PTOF originali, dalle versioni in Markdown
+utilizzate per l'analisi e dai dataset di sintesi. Queste fonti consentono sia
+la lettura qualitativa sia la comparazione quantitativa tra scuole.
+"""
+)
+
+st.markdown(
+    """
+| Fonte | Descrizione | Utilizzo |
+|-------|-------------|----------|
+| **metadata_enrichment.csv** | Anagrafica MIUR | Denominazione, Comune, Tipo scuola |
+| **comuni_italiani.json** | Elenco comuni/province | Normalizzazione geografica |
+| **PTOF Documents** | Documenti scolastici | Analisi testuale |
 """
 )
 
@@ -620,10 +661,10 @@ with st.expander("Schema JSON Output"):
 with st.expander("Riferimenti Normativi"):
     st.markdown(
         """
-    - **DM 328/2022** - Adozione delle Linee guida per l'orientamento
-    - **PTOF** - Piano Triennale dell'Offerta Formativa (L. 107/2015)
-    - **Orientamento permanente** - Accordo Stato-Regioni 2014
-    """
+- **DM 328/2022** - Adozione delle Linee guida per l'orientamento
+- **PTOF** - Piano Triennale dell'Offerta Formativa (L. 107/2015)
+- **Orientamento permanente** - Accordo Stato-Regioni 2014
+"""
     )
 
 st.markdown("---")

@@ -46,12 +46,13 @@ DISCARDED_NOT_PTOF = DISCARDED_DIR / "not_ptof"
 DISCARDED_TOO_SHORT = DISCARDED_DIR / "too_short"
 DISCARDED_CORRUPTED = DISCARDED_DIR / "corrupted"
 RECOVERY_LOG = DISCARDED_DIR / "recovery_log.json"
+ALLOWLIST_FILE = BASE_DIR / "data" / "ptof_validator_allowlist.txt"
 
 # Soglie
 MIN_PAGES = 5  # Minimo pagine per un PTOF valido
 MIN_CHARS = 3000  # Minimo caratteri estratti
-CONFIDENCE_THRESHOLD_HEURISTIC = 0.7  # Se > 0.7, skip LLM
-CONFIDENCE_THRESHOLD_LLM = 0.5  # Se > 0.5 dopo LLM, accetta
+CONFIDENCE_THRESHOLD_HEURISTIC = 0.65  # Se > 0.65, skip LLM
+CONFIDENCE_THRESHOLD_LLM = 0.45  # Se > 0.45 dopo LLM, accetta
 
 
 class ValidationResult(Enum):
@@ -108,11 +109,13 @@ class PTOFValidator:
     # Keywords che indicano un PTOF
     PTOF_KEYWORDS = [
         "piano triennale",
+        "piano dell'offerta formativa",
         "offerta formativa",
         "ptof",
         "p.t.o.f",
         "triennio",
         "curricolo",
+        "curricolo verticale",
         "rav",
         "piano di miglioramento",
         "pdm",
@@ -136,6 +139,10 @@ class PTOFValidator:
         "certificazione competenze",
         "orientamento",
         "continuità",
+        "atto di indirizzo",
+        "profilo educativo",
+        "indirizzi di studio",
+        "piano di formazione",
         "pnsd",
         "piano digitale",
         "animatore digitale",
@@ -179,11 +186,22 @@ class PTOFValidator:
         "determina",
         "decreto",
     ]
+
+    STRONG_PTOF_KEYWORDS = [
+        "piano triennale dell'offerta formativa",
+        "piano triennale",
+        "offerta formativa",
+        "ptof",
+        "p.t.o.f",
+    ]
+    OK_SUFFIXES = ("_ok", "-ok", " ok")
     
     def __init__(self, ollama_url: str = None, ollama_model: str = None):
         """Inizializza il validatore."""
         self.ollama_url = ollama_url or OLLAMA_URL
         self.ollama_model = ollama_model or OLLAMA_MODEL
+        self.allowlist = self._load_allowlist()
+        self.allowlist_norm = {item.lower() for item in self.allowlist}
         
         # Crea directory
         for d in [DISCARDED_NOT_PTOF, DISCARDED_TOO_SHORT, DISCARDED_CORRUPTED]:
@@ -210,6 +228,18 @@ class PTOFValidator:
         """Salva log dei recuperi."""
         with open(RECOVERY_LOG, 'w') as f:
             json.dump(self.recovery_log, f, ensure_ascii=False, indent=2)
+
+    def _load_allowlist(self) -> set:
+        """Carica allowlist per forzare l'accettazione di file PTOF."""
+        if not ALLOWLIST_FILE.exists():
+            return set()
+        items = set()
+        for line in ALLOWLIST_FILE.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            items.add(line)
+        return items
     
     def _extract_text_from_pdf(self, pdf_path: Path, max_pages: int = 10) -> Tuple[str, int]:
         """
@@ -259,6 +289,41 @@ class PTOFValidator:
             if match:
                 return match.group(1)
         return None
+
+    def _extract_school_code_from_name(self, name: str) -> Optional[str]:
+        match = re.search(r'\b([A-Z]{2}[A-Z]{2}\d{6}[A-Z]?)\b', name.upper())
+        if match:
+            return match.group(1)
+        return None
+
+    def _force_accept_reason(self, pdf_path: Path, text: str = "") -> Optional[str]:
+        """Ritorna motivo di accettazione forzata se attivo."""
+        stem_lower = pdf_path.stem.lower()
+        for suffix in self.OK_SUFFIXES:
+            if stem_lower.endswith(suffix):
+                return f"Override filename suffix ({suffix})"
+
+        if not self.allowlist_norm:
+            return None
+
+        name_lower = pdf_path.name.lower()
+        if name_lower in self.allowlist_norm or stem_lower in self.allowlist_norm:
+            return "Override allowlist (nome file)"
+
+        code_from_name = self._extract_school_code_from_name(pdf_path.name)
+        if code_from_name and code_from_name.lower() in self.allowlist_norm:
+            return "Override allowlist (codice)"
+
+        if text:
+            code_from_text = self._extract_school_code(text)
+            if code_from_text and code_from_text.lower() in self.allowlist_norm:
+                return "Override allowlist (codice nel testo)"
+
+        return None
+
+    def _is_ok_filename(self, name: str) -> bool:
+        stem_lower = Path(name).stem.lower()
+        return any(stem_lower.endswith(suffix) for suffix in self.OK_SUFFIXES)
     
     def _heuristic_validation(self, text: str, page_count: int) -> Tuple[float, ValidationReport]:
         """
@@ -269,6 +334,7 @@ class PTOFValidator:
         """
         # Conta keywords
         ptof_count = self._count_keywords(text, self.PTOF_KEYWORDS)
+        strong_count = self._count_keywords(text, self.STRONG_PTOF_KEYWORDS)
         exclusion_count = self._count_keywords(text, self.EXCLUSION_KEYWORDS)
         school_code = self._extract_school_code(text)
         char_count = len(text)
@@ -277,17 +343,24 @@ class PTOFValidator:
         confidence = 0.0
         
         # Fattori positivi
-        if ptof_count >= 15:
+        if ptof_count >= 12:
             confidence += 0.4
-        elif ptof_count >= 8:
+        elif ptof_count >= 6:
             confidence += 0.25
-        elif ptof_count >= 3:
-            confidence += 0.1
+        elif ptof_count >= 2:
+            confidence += 0.12
+
+        if strong_count > 0:
+            confidence += 0.2
         
         if page_count >= 50:
             confidence += 0.3
+        elif page_count >= 30:
+            confidence += 0.25
         elif page_count >= 20:
             confidence += 0.2
+        elif page_count >= 10:
+            confidence += 0.15
         elif page_count >= MIN_PAGES:
             confidence += 0.1
         
@@ -296,12 +369,14 @@ class PTOFValidator:
         
         if char_count >= 50000:
             confidence += 0.1
+        elif char_count >= 20000:
+            confidence += 0.05
         
         # Fattori negativi
         if exclusion_count >= 5:
-            confidence -= 0.4
+            confidence -= 0.35
         elif exclusion_count >= 2:
-            confidence -= 0.2
+            confidence -= 0.1 if ptof_count >= 6 else 0.2
         
         if page_count < MIN_PAGES:
             confidence -= 0.3
@@ -434,6 +509,8 @@ Rispondi SOLO in questo formato JSON:
                 reason="File non trovato"
             )
         
+        force_reason = self._force_accept_reason(pdf_path)
+
         # Fase 1: Estrai testo
         text, page_count = self._extract_text_from_pdf(pdf_path)
         
@@ -447,6 +524,23 @@ Rispondi SOLO in questo formato JSON:
                 reason="Impossibile leggere PDF"
             )
         
+        if not force_reason:
+            force_reason = self._force_accept_reason(pdf_path, text=text)
+
+        if force_reason:
+            school_code = self._extract_school_code(text)
+            return ValidationReport(
+                file_path=str(pdf_path),
+                file_name=pdf_path.name,
+                result=ValidationResult.VALID_PTOF.value,
+                confidence=1.0,
+                phase="override",
+                page_count=page_count,
+                char_count=len(text),
+                school_code_found=school_code,
+                reason=force_reason
+            )
+
         if page_count < MIN_PAGES:
             return ValidationReport(
                 file_path=str(pdf_path),
@@ -487,7 +581,7 @@ Rispondi SOLO in questo formato JSON:
             logger.info(f"   ✅ PTOF VALIDO (heuristic: {h_confidence:.2f})")
             return report
         
-        if h_confidence <= 0.2:
+        if h_confidence <= 0.15:
             report.result = ValidationResult.NOT_PTOF.value
             report.reason = f"Bassa confidenza euristica ({h_confidence:.2f})"
             logger.info(f"   ❌ NON PTOF (heuristic: {h_confidence:.2f})")
@@ -700,13 +794,14 @@ Rispondi SOLO in questo formato JSON:
         logger.info(f"♻️ Recuperato: {discarded_path.name} → {dest_path.relative_to(BASE_DIR)}")
         return dest_path
     
-    def recover_all(self, category: str = None, dest_dir: Path = None) -> List[Path]:
+    def recover_all(self, category: str = None, dest_dir: Path = None, only_ok: bool = False) -> List[Path]:
         """
         Recupera tutti i file scartati (opzionalmente filtrati per categoria).
         
         Args:
             category: 'not_ptof', 'too_short', 'corrupted' o None per tutti
             dest_dir: Directory di destinazione
+            only_ok: Recupera solo file con suffisso _ok/-ok/ ok
             
         Returns:
             Lista dei path recuperati
@@ -715,6 +810,8 @@ Rispondi SOLO in questo formato JSON:
         
         if category:
             discarded = [d for d in discarded if d["category"] == category]
+        if only_ok:
+            discarded = [d for d in discarded if self._is_ok_filename(d["name"])]
         
         recovered = []
         for item in discarded:
@@ -804,6 +901,8 @@ if __name__ == "__main__":
     parser.add_argument("--dry-run", action="store_true", help="Non sposta i file")
     parser.add_argument("--category", "-c", choices=["not_ptof", "too_short", "corrupted"],
                        help="Categoria per recover")
+    parser.add_argument("--only-ok", action="store_true",
+                       help="Recupera solo file con suffisso _ok/-ok/ ok")
     
     args = parser.parse_args()
     
@@ -835,5 +934,5 @@ if __name__ == "__main__":
             recover_file(args.file)
         else:
             validator = PTOFValidator()
-            recovered = validator.recover_all(category=args.category)
+            recovered = validator.recover_all(category=args.category, only_ok=args.only_ok)
             print(f"\n♻️ Recuperati {len(recovered)} file")

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T18:15:27.243468",
+  "last_updated": "2025-12-24T19:06:57.418578",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -18,7 +18,22 @@
       "analyzed_at": "2025-12-24T15:00:21.447736",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/FITN02301T_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/FITN02301T_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/FITN02301T_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:49:14.124432",
+          "details": {
+            "chunks_analyzed": 21,
+            "extreme_scores_checked": 7,
+            "scores_modified": 7,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:49:14.124447"
     },
     "OREE82805P": {
       "pdf_hash": "sha256:bd8da2a3fe1f0f5d3a4baf737a61af45bdbfcf5ff25093c9d12a526de5cef608",
@@ -153,7 +168,26 @@
       "analyzed_at": "2025-12-24T16:28:11.266463",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LE1M00300G_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LE1M00300G_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LE1M00300G_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:28:19.436390",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 3,
+            "enrichments_found": 8,
+            "corrections_found": 1,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:28:19.436409"
     },
     "CAEE89005A": {
       "pdf_hash": "sha256:4a15ea83bdc360da1e4c1b8480c3e1e027a18d1d4f100e829f4463c97879be1f",
@@ -180,7 +214,22 @@
       "analyzed_at": "2025-12-24T16:59:26.739179",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TVPSIL5006_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TVPSIL5006_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TVPSIL5006_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:06:57.418521",
+          "details": {
+            "chunks_analyzed": 27,
+            "extreme_scores_checked": 8,
+            "scores_modified": 4,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:06:57.418526"
     },
     "MIEE8EU01T": {
       "pdf_hash": "sha256:81a25b060d3f321e59d64de49a7e89817fbc1a6e73b82433afe4e5a2044c9553",
@@ -227,6 +276,273 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RAMM81301P_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RAMM81301P_ptof.md"
+    },
+    "TPAA813018": {
+      "pdf_hash": "unknown",
+      "pdf_name": "TPAA813018_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:22:07.860567",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 9,
+            "enrichments_found": 49,
+            "corrections_found": 0,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:22:07.860584"
+    },
+    "PIEE838014": {
+      "pdf_hash": "unknown",
+      "pdf_name": "PIEE838014_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:22:43.615368",
+          "details": {
+            "chunks_analyzed": 20,
+            "extreme_scores_checked": 6,
+            "scores_modified": 6,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:03:15.730467",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 20,
+            "enrichments_found": 57,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:03:15.730481"
+    },
+    "RMIC8GA002": {
+      "pdf_hash": "unknown",
+      "pdf_name": "RMIC8GA002_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:26:44.582191",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 10,
+            "enrichments_found": 15,
+            "corrections_found": 2,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:26:44.582204"
+    },
+    "RMMM8F9013": {
+      "pdf_hash": "unknown",
+      "pdf_name": "RMMM8F9013_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:33:30.310789",
+          "details": {
+            "chunks_analyzed": 29,
+            "extreme_scores_checked": 5,
+            "scores_modified": 4,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:33:30.310799"
+    },
+    "BNTD022019": {
+      "pdf_hash": "unknown",
+      "pdf_name": "BNTD022019_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:34:40.718783",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 16,
+            "enrichments_found": 31,
+            "corrections_found": 0,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:34:40.718800"
+    },
+    "COAA81301E": {
+      "pdf_hash": "unknown",
+      "pdf_name": "COAA81301E_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:37:57.192955",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 5,
+            "enrichments_found": 9,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:37:57.192983"
+    },
+    "SATD034011": {
+      "pdf_hash": "unknown",
+      "pdf_name": "SATD034011_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:48:20.836975",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 9,
+            "enrichments_found": 16,
+            "corrections_found": 1,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:48:20.836987"
+    },
+    "VE1M6Q5004": {
+      "pdf_hash": "unknown",
+      "pdf_name": "VE1M6Q5004_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:50:54.623087",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 4,
+            "enrichments_found": 7,
+            "corrections_found": 2,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:50:54.623099"
+    },
+    "TAEE80501N": {
+      "pdf_hash": "unknown",
+      "pdf_name": "TAEE80501N_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:54:12.925631",
+          "details": {
+            "chunks_analyzed": 8,
+            "extreme_scores_checked": 2,
+            "scores_modified": 2,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:54:12.925644"
+    },
+    "TPTD00802B": {
+      "pdf_hash": "unknown",
+      "pdf_name": "TPTD00802B_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:54:14.944783",
+          "details": {
+            "note": "Nessuno score estremo da revisionare",
+            "orientamento_issue": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:54:14.944798"
+    },
+    "CBAA82709C": {
+      "pdf_hash": "unknown",
+      "pdf_name": "CBAA82709C_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T18:54:14.965582",
+          "details": {
+            "note": "Nessuno score estremo da revisionare",
+            "orientamento_issue": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T18:54:14.965588"
     }
   }
 }

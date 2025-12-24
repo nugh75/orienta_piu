@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è presente e ben definita, con una chiara articolazione delle azioni per lo sviluppo delle competenze STEM. Tuttavia, manca una esplicita connessione con l'orientamento in uscita verso la scelta della scuola secondaria di II grado."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF è ben definita e articolata in tre moduli distinti per le classi I, II e III della scuola secondaria di primo grado. Ogni modulo prevede un numero specifi (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T19:02:03.812815"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -69,7 +71,7 @@
         "evidence_location": "Pagina 218"
       },
       "finalita_capacita_orientative_opportunita": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "Conoscere le potenzialità offerte dalle tecnologie.",
         "evidence_location": "Pagina 193"
       }
@@ -79,13 +81,13 @@
         "score": 5
       },
       "obiettivo_continuita_territorio": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_contrastare_neet": {
         "score": 5
       },
       "obiettivo_lifelong_learning": {
-        "score": 6
+        "score": 5
       }
     },
     "2_5_azioni_sistema": {
@@ -102,7 +104,7 @@
         "score": 3
       },
       "azione_sistema_integrato_inclusione_fragilita": {
-        "score": 6
+        "score": 5
       }
     },
     "2_6_didattica_orientativa": {
@@ -110,7 +112,7 @@
         "score": 5
       },
       "didattica_laboratoriale": {
-        "score": 6
+        "score": 5
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 4
@@ -133,7 +135,7 @@
         "score": 4
       },
       "opzionali_sportive": {
-        "score": 6
+        "score": 4
       }
     }
   },
@@ -322,5 +324,81 @@
     }
   ],
   "narrative": "# Analisi del PTOF PIEE838014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo A.Saffi (PIEE838014) per il triennio 2022-2025. La scuola, situata nel comune di **Pontedera** in provincia di **Pisa**, si configura come istituto **statale** di grado **primario**. L'analisi si basa sui dati forniti, valutando l'orientamento in termini di progettazione, partnership, obiettivi, azioni e didattica. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con particolare attenzione alle competenze **STEM**, alla prevenzione della **dispersione scolastica** e alla promozione della **cittadinanza attiva**. Tuttavia, emerge una necessità di rafforzare il collegamento esplicito tra le attività di orientamento e la scelta della scuola secondaria di II grado.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è considerata positiva, con un punteggio di 5. Si evidenzia una chiara articolazione delle azioni per lo sviluppo delle competenze **STEM**, ma si sottolinea la mancanza di una connessione esplicita con l'orientamento in uscita verso la scuola secondaria di II grado.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, ben 19, che includono il **Comune di Pontedera**, l'**Unione Valdera**, diverse **associazioni del territorio**, la **Polizia di Stato**, la **Biblioteca comunale Gronchi**, **Geofor**, altre **scuole del territorio**, **enti locali**, **musei**, **istituti pubblici e privati**, la **British School**, la **Rete ValVal**, il **CTI Valdera**, la **Rete IRIS**, l'**IPSIA Pacinotti**, l'**ASL**, i **Servizi Sociali**, l'**Università degli Studi di Pisa** e l'**Università degli Studi di Firenze**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità del PTOF sono orientate alla **valorizzazione** delle **competenze linguistiche** (punteggio 4), delle **competenze musicali** (punteggio 4), allo sviluppo del **progetto di vita** attraverso attività come **\"Ok City Camp\"** e **\"A Scuola con i Re\"** (punteggio 4), alla costruzione della **continuità** delle competenze di **cittadinanza** (punteggio 4) e, in misura minore, allo sviluppo delle **capacità orientative** e delle **opportunità** offerte dalle **tecnologie** (punteggio 2).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ben definiti e mirati. Si punta a **ridurre l'abbandono** scolastico (punteggio 5), a garantire la **continuità territoriale** (punteggio 6), a **contrastare il fenomeno NEET** (punteggio 5) e a promuovere il **lifelong learning** (punteggio 6).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 3) e un sistema integrato per l'**inclusione** e la gestione delle **fragilità** (punteggio 6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sull'utilizzo di **laboratori** (punteggio 6), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzionali **culturali** (punteggio 5), **laboratoriali ed espressive** (punteggio 5), **ludico-ricreative** (punteggio 4), di **volontariato** (punteggio 4) e, in particolare, **sportive** (punteggio 6).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nella chiarezza degli **obiettivi** e nella varietà delle attività proposte, come **\"Prevenire la dispersione implicita\"**, **\"L'attenzione della scuola alle competenze chiave europee\"**, **\"Multi-STEM\"**, **\"CONOSCER-SI PER CONOSC-ERE\"**, **\"Ok City Camp\"**, **\"A Scuola con i Re\"**, **\"DELE - Certificazione Spagnolo\"**, **\"Gioco-Concorso Kangourou Della Matematica\"**, e i progetti di ampliamento dell'offerta formativa e i progetti musicali. L'impegno verso l'**inclusione** e la gestione delle **fragilità** rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la mancanza di un collegamento esplicito tra le attività di orientamento e la scelta della scuola secondaria di II grado. Inoltre, il **monitoraggio delle azioni** risulta essere un aspetto da rafforzare (punteggio 3).\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di definire percorsi di orientamento più strutturati e mirati alla transizione verso la scuola secondaria di II grado. È necessario integrare le attività esistenti con iniziative specifiche volte a fornire agli studenti informazioni e strumenti utili per compiere scelte consapevoli e informate.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo A.Saffi presenta un quadro complessivamente positivo in termini di orientamento. La scuola dimostra un forte impegno verso la **valorizzazione delle competenze** degli studenti e la prevenzione della **dispersione scolastica**. Tuttavia, per ottimizzare l'efficacia dell'azione orientativa, è necessario colmare il divario esistente tra le attività proposte e la preparazione degli studenti alla scelta della scuola secondaria di II grado. Un maggiore focus su questo aspetto consentirebbe di garantire una transizione scolastica più fluida e consapevole per tutti gli alunni.",
-  "review_notes": "Nessuna sezione intitolata esplicitamente 'Orientamento' è presente; i punteggi rimangono confermati."
+  "review_notes": "Nessuna sezione intitolata esplicitamente 'Orientamento' è presente; i punteggi rimangono confermati.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T18:22:43.607577",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 20,
+        "extreme_scores_checked": 6,
+        "scores_modified": 6,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_capacita_orientative_opportunita.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona attività concrete come laboratori STEM, gare matematiche e progetti di orientament"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_continuita_territorio.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Non ci sono evidenze specifiche nel testo che dimostrino una forte continuità con il territorio, seb"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_lifelong_learning.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il concetto di lifelong learning non è esplicitamente menzionato nel testo, anche se ci sono attivit"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'inclusione in modo generico, ad esempio nel contesto della robotica educativa pe"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_laboratoriale.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'uso di laboratori e attività pratiche, ma non fornisce dettagli specifici sulle "
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_sportive.score",
+            "old": 6,
+            "new": 4,
+            "reason": "Non ci sono evidenze nel testo di attività opzionali sportive, quindi il punteggio alto non è giusti"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T19:03:15.726881",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 20,
+        "enrichments_found": 57,
+        "corrections_found": 0,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-24T18:22:43.607595",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 6
+    }
+  ]
 }
