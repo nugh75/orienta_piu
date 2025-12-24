@@ -198,24 +198,27 @@ Genera un report completo in Markdown seguendo ESATTAMENTE questa struttura:
 [Elenco progetti e attività specifiche]
 
 ### 3. Punti di Forza
-[3-5 punti di forza narrativi]
+[Descrivi 3-5 punti di forza in forma NARRATIVA, senza elenchi puntati]
 
 ### 4. Aree di Debolezza
-[3-5 aree da migliorare]
+[Descrivi 3-5 aree da migliorare in forma NARRATIVA, senza elenchi puntati]
 
 ### 5. Gap Analysis
-[Analisi delle lacune rispetto alle linee guida]
+[Analisi narrativa delle lacune rispetto alle linee guida]
 
 ### 6. Conclusioni
-[Sintesi finale e raccomandazioni]
+[Sintesi finale e raccomandazioni in forma discorsiva]
 
-ISTRUZIONI:
-- Usa STILE NARRATIVO E DISCORSIVO
-- Cita dettagli specifici dal PTOF (nomi progetti, partner, etc.)
+ISTRUZIONI CRITICHE SULLO STILE:
+- Usa SEMPRE STILE NARRATIVO E DISCORSIVO, come un saggio o una relazione professionale
+- EVITA ASSOLUTAMENTE gli elenchi puntati (- o *) e numerati
+- Scrivi paragrafi completi e articolati, non liste di punti
+- Collega le frasi con connettivi logici (inoltre, tuttavia, in particolare, ecc.)
+- Cita dettagli specifici dal PTOF (nomi progetti, partner, etc.) integrandoli nel testo
 - Sii coerente con gli score JSON
 - NON INVENTARE informazioni non presenti nel PTOF
 
-OUTPUT: Restituisci SOLO il report Markdown completo, senza commenti introduttivi."""
+OUTPUT: Restituisci SOLO il report Markdown completo in stile narrativo, senza commenti introduttivi."""
 
 
 def check_report_score_coherence(report: str, json_data: Dict) -> List[Dict]:
@@ -308,7 +311,7 @@ RISPONDI con JSON:
   "enrichments": [
     {{
       "section": "nome sezione report da arricchire",
-      "addition": "testo da aggiungere (stile narrativo, non elenchi)",
+      "addition": "testo NARRATIVO da aggiungere (MAI elenchi puntati, scrivi frasi complete e discorsive)",
       "source_quote": "citazione breve dal PTOF"
     }}
   ],
@@ -353,12 +356,17 @@ CORREZIONI DA APPLICARE:
 {corrections_text}
 {orient_instruction}
 
-ISTRUZIONI:
+ISTRUZIONI CRITICHE:
 1. Integra gli arricchimenti nelle sezioni appropriate del report
-2. Usa STILE NARRATIVO E DISCORSIVO (no elenchi puntati se possibile)
+2. Usa SEMPRE STILE NARRATIVO E DISCORSIVO:
+   - VIETATO usare elenchi puntati (- o *) o numerati
+   - Scrivi paragrafi completi e articolati
+   - Usa connettivi logici per collegare le idee
+   - Il report deve sembrare un saggio professionale, non una lista
 3. Applica le correzioni segnalate
-4. MANTIENI la struttura esistente del report
+4. MANTIENI la struttura esistente del report (solo i titoli ###)
 5. NON rimuovere sezioni esistenti
+6. CONVERTI eventuali elenchi esistenti in prosa narrativa
 
 STRUTTURA OBBLIGATORIA DA PRESERVARE:
 # Analisi del PTOF [CODICE]
@@ -567,6 +575,44 @@ def main():
             
             if not orientamento_found:
                 logger.warning(f"   ⚠️ Nessuna sezione orientamento trovata nel PTOF")
+                # Aggiorna il JSON per riflettere l'assenza della sezione orientamento
+                if "ptof_section2" not in json_data:
+                    json_data["ptof_section2"] = {}
+                if "2_1_ptof_orientamento_sezione_dedicata" not in json_data["ptof_section2"]:
+                    json_data["ptof_section2"]["2_1_ptof_orientamento_sezione_dedicata"] = {}
+                
+                orient_section = json_data["ptof_section2"]["2_1_ptof_orientamento_sezione_dedicata"]
+                old_score = orient_section.get("score", "N/A")
+                old_has_dedicata = orient_section.get("has_sezione_dedicata", "N/A")
+                
+                # Aggiorna solo se necessario (se attualmente dice che c'è)
+                if orient_section.get("has_sezione_dedicata", 0) == 1 or orient_section.get("score", 0) > 2:
+                    orient_section["has_sezione_dedicata"] = 0
+                    orient_section["score"] = 1
+                    orient_section["note"] = f"Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score={old_score}, has_sezione_dedicata={old_has_dedicata})"
+                    orient_section["ollama_reviewed"] = True
+                    orient_section["ollama_review_date"] = datetime.now().isoformat()
+                    logger.info(f"   📝 JSON aggiornato: has_sezione_dedicata=0, score=1 (era score={old_score})")
+            else:
+                # Sezione orientamento TROVATA - verifica se JSON è allineato
+                if "ptof_section2" not in json_data:
+                    json_data["ptof_section2"] = {}
+                if "2_1_ptof_orientamento_sezione_dedicata" not in json_data["ptof_section2"]:
+                    json_data["ptof_section2"]["2_1_ptof_orientamento_sezione_dedicata"] = {}
+                
+                orient_section = json_data["ptof_section2"]["2_1_ptof_orientamento_sezione_dedicata"]
+                old_score = orient_section.get("score", "N/A")
+                old_has_dedicata = orient_section.get("has_sezione_dedicata", "N/A")
+                
+                # Aggiorna se JSON dice che non c'è ma noi l'abbiamo trovata
+                if orient_section.get("has_sezione_dedicata", 0) == 0 or orient_section.get("score", 0) < 3:
+                    orient_section["has_sezione_dedicata"] = 1
+                    orient_section["score"] = max(orient_section.get("score", 0), 4)  # Almeno 4 se trovata
+                    old_note = orient_section.get("note", "")
+                    orient_section["note"] = f"Revisione Ollama: sezione dedicata all'orientamento TROVATA. {orientamento_details.strip()[:200]} (Precedente: score={old_score}, has_sezione_dedicata={old_has_dedicata})"
+                    orient_section["ollama_reviewed"] = True
+                    orient_section["ollama_review_date"] = datetime.now().isoformat()
+                    logger.info(f"   📝 JSON aggiornato: has_sezione_dedicata=1, score≥4 (era score={old_score})")
             
             # Variabili per tracking
             activity_status = "completed"
