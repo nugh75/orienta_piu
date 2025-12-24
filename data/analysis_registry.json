@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T17:05:36.439878",
+  "last_updated": "2025-12-24T17:31:23.258352",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -190,6 +190,52 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MIEE8EU01T_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MIEE8EU01T_ptof.md"
+    },
+    "VEEE859019": {
+      "pdf_hash": "sha256:ef66bab4f321ff21eda0562c7bd237548b12bf32a20b71cfa912e23b86518c92",
+      "pdf_name": "VEEE859019_PTOF.pdf",
+      "pdf_size": 2666832,
+      "analyzed_at": "2025-12-24T17:28:27.906083",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/VEEE859019_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEEE859019_ptof.md"
+    },
+    "LTRA01650V": {
+      "pdf_hash": "unknown",
+      "pdf_name": "LTRA01650V_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T17:30:08.452604",
+          "details": {
+            "chunks_analyzed": 10,
+            "extreme_scores_checked": 3,
+            "scores_modified": 3,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T17:31:23.258252",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 9,
+            "enrichments_found": 19,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        }
+      ],
+      "last_review": "2025-12-24T17:31:23.258263"
     }
   }
 }

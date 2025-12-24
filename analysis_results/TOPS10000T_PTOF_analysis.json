@@ -236,5 +236,23 @@
       "evidence_location": "Pagina 37"
     }
   ],
-  "review_notes": "Solo la sezione dedicata all'orientamento è stata ridotta, poiché il documento non presenta un capitolo esplicitamente intitolato \"Orientamento\"."
+  "review_notes": "Solo la sezione dedicata all'orientamento è stata ridotta, poiché il documento non presenta un capitolo esplicitamente intitolato \"Orientamento\".",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T17:17:29.373733",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "create",
+        "chunks_analyzed": 8,
+        "enrichments_found": 12,
+        "corrections_found": 0,
+        "orientamento_found": true,
+        "report_created": true,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
 }

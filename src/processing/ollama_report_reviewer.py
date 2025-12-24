@@ -109,7 +109,8 @@ def extract_scores_summary(json_data: Dict) -> str:
         if isinstance(obj, dict):
             if "score" in obj:
                 score = obj["score"]
-                note = obj.get("note", obj.get("evidence_quote", ""))[:100]
+                note = obj.get("note") or obj.get("evidence_quote") or ""
+                note = str(note)[:100] if note else ""
                 summary_lines.append(f"- {path}: score={score} | {note}")
             for k, v in obj.items():
                 if k not in ["score", "note", "evidence_quote"]:
