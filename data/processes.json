@@ -2559,9 +2559,10 @@
       "Long doc (547k chars) - chunking...",
       "2025-12-24 12:37:48,899 - INFO - [Pipeline] Split into 16 chunks",
       "Analyst: Chunk 1/16...",
-      "2025-12-24 12:37:48,899 - INFO - [gemma3:27b] Drafting chunk 1/16..."
+      "2025-12-24 12:37:48,899 - INFO - [gemma3:27b] Drafting chunk 1/16...",
+      "\n\u26a0\ufe0f Process interrupted by server restart"
     ],
-    "status": "running",
+    "status": "interrupted",
     "timestamp": 1766574186.3039339
   },
   "96bfcb55-1bc6-4d29-864a-2e809746a28c": {
@@ -2620,9 +2621,10 @@
       "2025-12-24 12:35:43,027 - INFO - Reviewing LEPC13000N (17/35)",
       "2025-12-24 12:36:07,149 - INFO - LEPC13000N: applied 7/7 updates",
       "2025-12-24 12:36:07,150 - INFO - Sleeping 123s...",
-      "2025-12-24 12:38:10,155 - INFO - Reviewing TPTD00251R (18/35)"
+      "2025-12-24 12:38:10,155 - INFO - Reviewing TPTD00251R (18/35)",
+      "\n\u26a0\ufe0f Process interrupted by server restart"
     ],
-    "status": "running",
+    "status": "interrupted",
     "timestamp": 1766574194.045276
   },
   "d5dbe6f7-69ea-4198-9e72-48d9f2df79b4": {
@@ -2740,15 +2742,24 @@
       "\u2728 Arricchimento FRPC02500X (22/61)",
       "2025-12-24 12:34:40,349 - WARNING - \u26a0\ufe0f Rate limit (429). Attesa 60s...",
       "2025-12-24 12:35:41,594 - WARNING - \u26a0\ufe0f Rate limit (429). Attesa 120s...",
-      "2025-12-24 12:37:42,727 - WARNING - \u26a0\ufe0f Rate limit (429). Attesa 180s..."
+      "2025-12-24 12:37:42,727 - WARNING - \u26a0\ufe0f Rate limit (429). Attesa 180s...",
+      "\n\u26a0\ufe0f Process interrupted by server restart"
     ],
-    "status": "running",
+    "status": "interrupted",
     "timestamp": 1766574207.6464121
   },
   "8815589c-9273-4364-836e-e01ff9cf3117": {
     "command": "make dashboard",
+    "logs": [
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766576295.120841
+  },
+  "8e46c608-16e9-434b-9658-c236f68d5408": {
+    "command": "make run",
     "logs": [],
     "status": "starting",
-    "timestamp": 1766576295.120841
+    "timestamp": 1766577379.173225
   }
 }

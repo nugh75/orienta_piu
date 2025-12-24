@@ -35,7 +35,7 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Maturità'
+    'ptof_orientamento_maturity_index': 'Indice Robustezza'
 }
 
 def get_label(col):
@@ -69,7 +69,7 @@ for col in numeric_cols:
 df_valid = df[df['ptof_orientamento_maturity_index'].notna() & (df['ptof_orientamento_maturity_index'] > 0)].copy()
 
 if len(df_valid) == 0:
-    st.warning("⚠️ Nessuna scuola con indice di maturità valido.")
+    st.warning("⚠️ Nessuna scuola con indice di robustezza valido.")
     st.stop()
 
 st.markdown("---")
@@ -158,7 +158,7 @@ comparison_df = pd.concat([
 fig_compare = px.bar(
     comparison_df, x='Scuola', y='Indice', color='Gruppo',
     color_discrete_map={'Top 10': '#28a745', 'Bottom 10': '#dc3545'},
-    title="Top 10 vs Bottom 10 - Indice di Maturità",
+    title="Top 10 vs Bottom 10 - Indice di Robustezza",
     barmode='group'
 )
 fig_compare.update_layout(xaxis_tickangle=45, height=400)
@@ -187,7 +187,7 @@ if 'denominazione' in df_valid.columns:
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            st.metric("Indice Maturità", f"{school_score:.2f}/7")
+            st.metric("Indice Robustezza", f"{school_score:.2f}/7")
         
         with col2:
             st.metric("Percentile", f"{percentile:.0f}°")
@@ -226,7 +226,7 @@ if 'denominazione' in df_valid.columns:
         
         fig_dist.update_layout(
             title="Posizione nella Distribuzione Nazionale",
-            xaxis_title="Indice di Maturità",
+            xaxis_title="Indice di Robustezza",
             yaxis_title="Frequenza",
             height=400
         )

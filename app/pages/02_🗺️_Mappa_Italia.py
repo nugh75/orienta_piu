@@ -32,7 +32,7 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Maturità'
+    'ptof_orientamento_maturity_index': 'Indice Robustezza'
 }
 
 def get_label(col):
@@ -79,7 +79,7 @@ def load_data():
 df = load_data()
 
 st.title("🗺️ Analisi Geografica Italia")
-st.markdown("Visualizzazione della distribuzione territoriale dell'indice di maturità PTOF")
+st.markdown("Visualizzazione della distribuzione territoriale dell'indice di robustezza dell'orientamento PTOF")
 
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
@@ -144,7 +144,7 @@ st.markdown("---")
 
 # === 1. REGIONAL RANKING ===
 st.subheader("🏆 Ranking Regionale")
-st.caption("Classifica delle regioni per indice di maturità medio")
+st.caption("Classifica delle regioni per indice di robustezza medio")
 
 regional_stats = df_valid.groupby('regione').agg({
     'ptof_orientamento_maturity_index': ['mean', 'count', 'std']
@@ -163,7 +163,7 @@ with col1:
         x='Media', y='Regione', orientation='h',
         color='Media', color_continuous_scale='RdYlGn',
         range_x=[0, 7], range_color=[1, 7],
-        title="Indice di Maturità per Regione",
+        title="Indice di Robustezza per Regione",
         text='Media'
     )
     fig_ranking.update_traces(texttemplate='%{text:.2f}', textposition='outside')
@@ -181,7 +181,7 @@ with col2:
 
 # === ANOVA Test for Regional Differences ===
 st.markdown("### 🔬 Test ANOVA: Differenze tra Regioni")
-st.caption("Verifica statistica se esistono differenze significative nell'indice di maturità tra le regioni")
+st.caption("Verifica statistica se esistono differenze significative nell'indice di robustezza tra le regioni")
 
 try:
     from scipy import stats
@@ -329,7 +329,7 @@ if len(map_data) > 0:
         color_continuous_scale='RdYlGn',
         range_color=[1, 7],
         size_max=50,
-        title="Distribuzione Geografica Indice Maturità"
+        title="Distribuzione Geografica Indice Robustezza"
     )
     
     fig_map.update_geos(
@@ -351,7 +351,7 @@ st.markdown("---")
 
 # === 2bis. TOP PERFORMERS MAP ===
 st.subheader("🏆 Mappa Scuole più Virtuose")
-st.caption("Le scuole con gli indici di maturità più alti, colorate per tipologia")
+st.caption("Le scuole con gli indici di robustezza più alti, colorate per tipologia")
 
 if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
     # Slider to select how many top schools to show
@@ -409,7 +409,7 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
             'lat': False, 
             'lon': False
         },
-        title=f"🏆 Top {n_top} Scuole per Indice di Maturità",
+        title=f"🏆 Top {n_top} Scuole per Indice di Robustezza",
         color_discrete_sequence=px.colors.qualitative.Bold
     )
     
@@ -640,7 +640,7 @@ if len(df_macro) > 5:
             color='macro_area',
             color_discrete_map={'Nord': '#3498db', 'Sud': '#e74c3c'},
             title="Distribuzione Indice per Macro-Area",
-            labels={'macro_area': 'Macro-Area', 'ptof_orientamento_maturity_index': 'Indice Maturità'},
+            labels={'macro_area': 'Macro-Area', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
             points='all'
         )
         fig_box.update_layout(showlegend=False, height=450)
@@ -708,7 +708,7 @@ if 'area_geografica' in df_valid.columns:
                 df_area, x='area_geografica', y='ptof_orientamento_maturity_index',
                 color='area_geografica',
                 title="Distribuzione Indice per Area Geografica",
-                labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice Maturità'},
+                labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
                 points='all',
                 category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
             )
@@ -779,7 +779,7 @@ if 'territorio' in df_valid.columns:
                 color='territorio',
                 color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
                 title="Distribuzione Indice per Territorio",
-                labels={'territorio': 'Territorio', 'ptof_orientamento_maturity_index': 'Indice Maturità'},
+                labels={'territorio': 'Territorio', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
                 points='all'
             )
             fig_box_terr.update_layout(showlegend=False, height=450)
@@ -879,7 +879,7 @@ st.markdown("---")
 
 # === 3c. ANALISI PER REGIONE E TERRITORIO ===
 st.subheader("📊 Analisi per Regione e Territorio")
-st.caption("Confronto dell'indice di maturità per regione, suddiviso per area metropolitana e non metropolitana")
+st.caption("Confronto dell'indice di robustezza per regione, suddiviso per area metropolitana e non metropolitana")
 
 if 'territorio' in df_valid.columns:
     df_reg_terr = df_valid[
@@ -1095,4 +1095,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.caption("🗺️ Mappa Italia - Dashboard PTOF | Analisi geografica della maturità PTOF delle scuole italiane")
+st.caption("🗺️ Mappa Italia - Dashboard PTOF | Analisi geografica della robustezza dell'orientamento PTOF delle scuole italiane")

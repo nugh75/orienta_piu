@@ -43,7 +43,7 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Maturità',
+    'ptof_orientamento_maturity_index': 'Indice Robustezza',
     'partnership_count': 'N. Partnership'
 }
 
@@ -80,7 +80,7 @@ dim_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattic
 df_valid = df[df['ptof_orientamento_maturity_index'].notna()].copy()
 
 if len(df_valid) == 0:
-    st.warning("⚠️ Nessuna scuola con indice di maturità valido.")
+    st.warning("⚠️ Nessuna scuola con indice di robustezza valido.")
     st.stop()
 
 st.markdown("---")
@@ -255,7 +255,7 @@ with col1:
         df_valid, x='ptof_orientamento_maturity_index',
         nbins=20, marginal='box',
         color_discrete_sequence=['#3498db'],
-        title="Distribuzione Indice di Maturità"
+        title="Distribuzione Indice di Robustezza"
     )
     fig_hist.update_layout(height=400)
     st.plotly_chart(fig_hist, use_container_width=True)
@@ -283,7 +283,7 @@ st.markdown("---")
 
 # === 4. REGRESSION SUMMARY ===
 st.subheader("📈 Analisi Regressione")
-st.caption("Identificazione dei migliori predittori dell'indice di maturità")
+st.caption("Identificazione dei migliori predittori dell'indice di robustezza")
 
 try:
     from sklearn.linear_model import LinearRegression

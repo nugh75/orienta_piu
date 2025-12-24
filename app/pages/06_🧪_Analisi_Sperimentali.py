@@ -33,7 +33,7 @@ st.title("🧪 Analisi Sperimentali")
 st.markdown("""
 Questa pagina contiene visualizzazioni **sperimentali** per esplorare i dati in modo diverso.
 1. **Radar Chart**: Confronta il profilo di una scuola con la media nazionale.
-2. **Analisi dei Flussi**: Osserva come le caratteristiche geografiche influenzano la maturità dell'orientamento.
+2. **Analisi dei Flussi**: Osserva come le caratteristiche geografiche influenzano la robustezza dell'orientamento.
 """)
 
 if df.empty:
@@ -128,15 +128,15 @@ if selected_school_label:
 
 # --- 2. PARALLEL CATEGORIES ---
 st.markdown("---")
-st.subheader("🌊 Flussi: Geografica → Tipo Scuola → Maturità")
-st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e indice di maturità.")
+st.subheader("🌊 Flussi: Geografica → Tipo Scuola → Robustezza")
+st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e indice di robustezza.")
 
 with st.expander("ℹ️ Come leggere questo grafico (Clicca per aprire)", expanded=True):
     st.markdown("""
     Questo grafico (**Parallel Categories**) mostra i "flussi" di scuole attraverso diverse categorie:
     1.  **Sinistra (Area)**: Da dove partono le scuole (Nord, Sud).
     2.  **Centro (Tipo)**: Che tipo di scuola sono (Liceo, Tecnico, Comprensivo, ecc.).
-    3.  **Destra (Maturità)**: Qual è il loro punteggio di maturità nell'orientamento (Basso, Medio, Alto).
+    3.  **Destra (Robustezza)**: Qual è il loro punteggio di robustezza nell'orientamento (Basso, Medio, Alto).
 
     **Cosa osservare:**
     - Le **linee (nastri)** collegati mostrano quante scuole seguono quel percorso.
@@ -155,31 +155,31 @@ if all(c in df.columns for c in target_cols):
         elif val <= 5.5: return "Media (3.5-5.5)"
         else: return "Alta (>5.5)"
 
-    df['Livello Maturità'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
+    df['Livello Robustezza'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
     
     # Prepare dataframe for plotting
     # We remove rows with critical missing values for cleaner viz
-    df_flow = df[['area_geografica', 'tipo_scuola', 'Livello Maturità']].dropna()
+    df_flow = df[['area_geografica', 'tipo_scuola', 'Livello Robustezza']].dropna()
     
     # Simplify School Types if too many unique values exist (optional, but good for display)
     # Just taking the first part if it's a comma separated list often happens
     df_flow['tipo_scuola'] = df_flow['tipo_scuola'].apply(lambda x: x.split(',')[0] if isinstance(x, str) else x)
     
     # Sort for better color flow stability
-    df_flow = df_flow.sort_values(by=['area_geografica', 'Livello Maturità'])
+    df_flow = df_flow.sort_values(by=['area_geografica', 'Livello Robustezza'])
     
     # Map area to numbers for coloring (Parcats requires numbers for color scale)
     df_flow['area_code'] = df_flow['area_geografica'].astype('category').cat.codes
 
     fig_flow = px.parallel_categories(
         df_flow, 
-        dimensions=['area_geografica', 'tipo_scuola', 'Livello Maturità'],
+        dimensions=['area_geografica', 'tipo_scuola', 'Livello Robustezza'],
         color='area_code', # Use numeric code for color
         color_continuous_scale=px.colors.sequential.Inferno,
         labels={
             'area_geografica': 'Area Geografica',
             'tipo_scuola': 'Tipo Scuola',
-            'Livello Maturità': 'Livello Maturità PTOF',
+            'Livello Robustezza': 'Livello Robustezza PTOF',
             'area_code': 'Codice Area'
         }
     )
@@ -206,27 +206,27 @@ else:
 # --- 3. SUNBURST CHART ---
 st.markdown("---")
 st.subheader("🌞 Gerarchia (Sunburst)")
-st.caption("Esplora la distribuzione gerarchica: Area Geografica → Tipo Scuola → Livello Maturità.")
+st.caption("Esplora la distribuzione gerarchica: Area Geografica → Tipo Scuola → Livello Robustezza.")
 
-# Ensure 'Livello Maturità' exists if not created above
-if 'Livello Maturità' not in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
+# Ensure 'Livello Robustezza' exists if not created above
+if 'Livello Robustezza' not in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
     def categorize_maturity(val):
         if pd.isna(val): return "ND"
         if val < 3.5: return "Bassa (<3.5)"
         elif val <= 5.5: return "Media (3.5-5.5)"
         else: return "Alta (>5.5)"
-    df['Livello Maturità'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
+    df['Livello Robustezza'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
 
-if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Maturità']):
+if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Robustezza']):
     # Filter out ND or empty
-    df_sun = df.dropna(subset=['area_geografica', 'tipo_scuola', 'Livello Maturità']).copy()
+    df_sun = df.dropna(subset=['area_geografica', 'tipo_scuola', 'Livello Robustezza']).copy()
     
     # Simple normalization for Tipo Scuola
     df_sun['tipo_scuola'] = df_sun['tipo_scuola'].apply(lambda x: x.split(',')[0] if isinstance(x, str) else x)
     
     fig_sun = px.sunburst(
         df_sun,
-        path=['area_geografica', 'tipo_scuola', 'Livello Maturità'],
+        path=['area_geografica', 'tipo_scuola', 'Livello Robustezza'],
         color='area_geografica',
         color_discrete_sequence=px.colors.qualitative.Pastel
     )
@@ -243,7 +243,7 @@ st.caption("Esplora le relazioni tra 3 dimensioni contemporaneamente. Ruota il g
 col_x = st.selectbox("Asse X", ['mean_finalita', 'mean_obiettivi', 'mean_governance'], index=0)
 col_y = st.selectbox("Asse Y", ['mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa'], index=2)
 col_z = st.selectbox("Asse Z", ['mean_didattica_orientativa', 'mean_opportunita', 'ptof_orientamento_maturity_index'], index=1)
-col_color = st.selectbox("Colore", ['area_geografica', 'tipo_scuola', 'Livello Maturità'], index=0)
+col_color = st.selectbox("Colore", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
 
 if all(c in df.columns for c in [col_x, col_y, col_z, col_color]):
     fig_3d = px.scatter_3d(
@@ -265,7 +265,7 @@ st.caption("Confronta la forma delle distribuzioni dei punteggi tra diverse cate
 
 # Select Variable and Group
 ridge_var = st.selectbox("Variabile (Punteggio)", ['ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi', 'mean_didattica_orientativa'], index=0)
-ridge_group = st.selectbox("Raggruppa per", ['area_geografica', 'tipo_scuola', 'Livello Maturità'], index=0)
+ridge_group = st.selectbox("Raggruppa per", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
 
 if ridge_var in df.columns and ridge_group in df.columns:
     # Filter cleanup

@@ -105,7 +105,7 @@ st.markdown("---")
 
 # 2. Radar Chart (NEW)
 st.subheader("🕸️ Radar Chart: Profili a Confronto")
-st.caption("Confronto delle 5 dimensioni di maturità tra diversi gruppi.")
+st.caption("Confronto delle 5 dimensioni di robustezza tra diversi gruppi.")
 
 radar_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
 if all(c in df.columns for c in radar_cols):
