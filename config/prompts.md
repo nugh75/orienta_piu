@@ -8,6 +8,11 @@ Il tuo compito è analizzare il testo fornito ed estrarre dati strutturati sull'
 Valutare la "Robustezza e Sistemicità" dell'orientamento scolastico.
 Non valutare solo le intenzioni, ma le AZIONI CONCRETE descritte.
 
+### ISTRUZIONE SPECIALE: SEZIONE DEDICATA
+Verifica con ESTREMA ATTENZIONE se esiste un capitolo o una sezione esplicitamente intitolata "Orientamento" (o variazioni chiare come "Continuità e Orientamento").
+NON considerare "dedicata" una sezione se l'orientamento è solo menzionato in paragrafi sparsi o dentro altri capitoli (es. PTOF generale).
+Se esiste una sezione dedicata, imposta "has_sezione_dedicata": 1. Altrimenti 0.
+
 ### ISTRUZIONI DI OUTPUT (JSON STRICT)
 L'output deve essere SOLO un JSON valido. Nessun markdown, nessun preambolo.
 La struttura del JSON deve essere ESATTAMENTE questa:
@@ -26,7 +31,7 @@ La struttura del JSON deve essere ESATTAMENTE questa:
     },
     "ptof_section2": {
         "2_1_ptof_orientamento_sezione_dedicata": {
-            "has_sezione_dedicata": 1 (se c'è capitolo specifico) o 0,
+            "has_sezione_dedicata": 1 (SOLO se esiste un capitolo/sezione con titolo esplicito "Orientamento") o 0,
             "score": [Punteggio 1-7 basato sulla chiarezza della sezione dedicata],
             "note": "Breve commento"
         },
@@ -107,6 +112,7 @@ Istruzioni:
 2. Verifica la correttezza dei punteggi: L'Analista ha dato 7 ma il testo è vago? Segnalalo. Ha dato 1 ma l'attività c'è? Segnalalo.
 3. Cerca "Allucinazioni": Il report cita progetti che NON esistono nel testo?
 4. Valuta la Narrativa: È troppo promozionale? È troppo sintetica?
+5. CONTROLLO SPECIALE: Verifica se l'Analista ha identificato correttamente la presenza/assenza di una sezione dedicata all'Orientamento. Se l'Analista dice "Sì" (has_sezione_dedicata=1) ma nel testo non c'è un capitolo specifico intitolato "Orientamento", segnalalo come ERRORE GRAVE.
 
 Output:
 Se tutto è perfetto (raro), scrivi solo: "APPROVATO".

@@ -1,0 +1,2869 @@
+# Contenuto PTOF: BG1E01600P_PTOF.pdf
+
+## Pagina 1
+
+
+## Piano Triennale
+
+
+## Dell’Offerta
+
+
+## Formativa
+
+2025-2028
+Scuola Primaria
+
+## Sacra Famiglia
+
+
+---
+
+## Pagina 2
+
+1
+
+## Indice
+
+Premessa
+Pag.     3
+1
+
+## Scuola E Territorio
+
+Pag.     4
+1.1
+Lettura del territorio
+“
+4
+1.2
+Presentazione della scuola
+“
+5
+Ruolo della scuola nel contesto territoriale in cui opera
+“
+6
+2
+
+## L’Istituzione Scolastica
+
+Pag.     6
+2.1
+Il pensiero educativo di Paola Elisabetta Cerioli
+“
+6
+2.2
+Principi base dell’opera educativa dell’Istituto Sacra Famiglia
+“
+7
+2.3
+I componenti della comunità educante
+“
+8
+3
+
+## Offerta Formativa
+
+Pag.    9
+3.1
+Finalità e principi della scuola
+“
+9
+3.2
+Le Indicazioni Nazionali per il curricolo della Scuola dell’infanzia e del primo ciclo di
+istruzione
+“
+11
+3.3
+Finalità generali a partire dalle nuove indicazioni per il curricolo
+“
+11
+3.4
+Competenze-chiave per l’apprendimento permanente
+“
+11
+3.5
+Profilo delle competenze al termine del primo ciclo d’istruzione
+“
+12
+3.6
+L’organizzazione del Curricolo
+“
+13
+3.7
+Educare attraverso le discipline: traguardi di sviluppo delle competenze
+“
+14
+3.8
+Metodi e mezzi didattici
+“
+16
+3.9
+Outdoor Education
+‘’
+17
+4
+
+## Progetto Orario
+
+Pag.    18
+4.1
+Progetto calendario-orario
+“
+18
+5
+
+## Organizzazione Dell’Offerta Formativa
+
+Pag.    19
+5.1
+Formazione delle classi – criteri delle classi prime
+“
+19
+5.2
+Strumenti per la rilevazione iniziale
+“
+19
+5.3
+Programmazione annuale
+“
+19
+5.4
+Attività del Collegio Docenti
+“
+20
+5.5
+Attività di formazione integrata: recupero – potenziamento
+“
+21
+5.6
+Progettazione dei piani di studio personalizzati
+“
+22
+BES- bisogni educativi speciali
+“
+22
+Modalità di attuazione dell’inclusione
+“
+23
+5.7
+Valutazione
+“
+23
+Il protocollo di valutazione
+‘’
+23
+5.8
+Strumenti per la verifica e la valutazione dei percorsi didattici
+“
+24
+Valutazione e osservazione in itinere
+“
+24
+Valutazione periodica e finale
+Criteri di valutazione
+Valutazione comportamento
+‘’
+‘’
+‘’
+25
+27
+28
+5.9
+Didattica e valutazione per competenze
+“
+29
+6
+
+## Ampliamento Dell’Offerta Formativa
+
+Pag.    29
+Premessa
+“
+29
+6.1
+Progetto Educativo
+“
+30
+
+---
+
+## Pagina 3
+
+2
+6.2
+Progetto Scuola-Famiglia
+“
+30
+6.3
+Progetto Accoglienza
+“
+31
+6.4
+Progetto Continuità
+“
+31
+6.5
+Progetto Sicurezza-Salute
+“
+32
+6.6
+6.7
+Progetto Scuol@mbiente
+Progetto madrelingua
+“
+‘’
+33
+34
+6.8
+Tipi di servizi previsti dalla scuola
+“
+34
+6.9
+Attività extrascolastiche
+“
+35
+7
+
+## Scelte Strategiche Rapporto Di Autovalutazione (Rav)  E Piano Di
+
+
+## Miglioramento
+
+“
+36
+7.1
+Priorità desunte dal RAV
+“
+36
+7.2
+Priorità e traguardi
+36
+7.3
+Obiettivi formativi prioritari (art. 1, comma 7 L. 107/15)
+“
+37
+7.4
+Piano di miglioramento
+“
+38
+7.5
+Principali elementi di innovazione
+“
+39
+8
+
+## Gestione Dell’Unità Scolastica Autonoma
+
+Pag.    41
+8.1
+Regolamento di Istituto
+“
+41
+8.2
+Regolamento degli studenti
+“
+41
+8.3
+Regolamento dei docenti
+“
+41
+8.4
+Patto di corresponsabilità educativa
+“
+41
+8.5
+Uso delle aule speciali
+“
+41
+8.6
+Modalità di convocazione e svolgimento delle assemblee di classe
+“
+41
+8.7
+Servizi amministrativi
+“
+41
+8.8
+Operatori scolastici
+“
+42
+8.9
+Procedure dei reclami
+"
+42
+
+## Elenco Documenti Allegati
+
+‘’
+43
+
+---
+
+## Pagina 4
+
+3
+Premessa
+Il presente Piano Triennale dell’Offerta Formativa (d’ora in avanti PTOF), relativo alla Scuola Primaria
+dell’Istituto Sacra Famiglia è stato elaborato dal Collegio dei docenti ed è stato approvato dal Consiglio
+d’Istituto. La Legge 13 luglio 2015, n. 107, recante la “Riforma del sistema nazionale di istruzione e
+formazione e delega per il riordino delle disposizioni legislative vigenti” ha tracciato le nuove linee per
+l’elaborazione del Piano dell’Offerta Formativa che ha durata triennale, rivedibile annualmente entro il
+mese di ottobre di ciascun anno scolastico.
+Il PTOF rappresenta la carta d’identità della scuola, identità culturale e programmatica; ha valenza
+triennale perché, a partire dalla descrizione dell’identità venutasi a consolidare, individua, attraverso
+attente procedure valutative, la parte programmatica e gli obiettivi di miglioramento definiti nel
+Rapporto di Auto Valutazione (d’ora in avanti RAV) e nel Piano di Miglioramento (d’ora in avanti PdM) di
+cui all’art.6, comma 1, del DPR 28 marzo 2013 n. 80. Il PTOF è quindi il progetto nel quale si concretizza il
+complessivo processo educativo della scuola, attraverso l’organizzazione delle attività dell’Istituto in
+risposta ai bisogni degli alunni, delle loro famiglie e del territorio, mettendo a fuoco il disegno coerente
+delle scelte culturali, didattiche e organizzative. In altri termini esso definisce e presenta l'identità della
+scuola in un'ottica pienamente integrata e personalizzata al successo formativo dei suoi alunni.
+È un documento pubblico che si può scaricare in formato digitale dal sito della scuola, viene inserito in
+Scuola in Chiaro e sarà pubblicato nel Portale del MIUR. Completano il documento, in allegato, il Patto di
+Corresponsabilità Educativa, il Curricolo d’Istituto, il Piano di Miglioramento, il Regolamento di Istituto.
+Educare oggi, più che passato, chiede sicuri riferimenti ad una impostazione pedagogica che esprima
+quadri di valore, principi chiari e indicazioni operative coerenti. Nel contesto socioculturale
+contemporaneo esiste, infatti, una molteplicità di proposte educative, fondate su visioni antropologiche
+diverse che, pur offrendo occasioni positive di confronto, se accolte senza opportuno discernimento,
+possono causare disorientamento nelle persone in crescita.
+La Scuola Primaria SACRA FAMIGLIA elabora un PTOF che
+ ne definisce l’identità;
+ esplicita i valori cui essa si ispira;
+ precisa gli obiettivi sul piano formativo, culturale e didattico;
+ li traduce in termini operativi.
+Il PTOF è pertanto:
+- uno strumento progettuale di lavoro;
+- punto di riferimento nella programmazione delle singole attività e nel loro coordinamento;
+- termine di confronto nei momenti di verifica e di valutazione degli alunni.
+Ma insieme vuol essere:
+- un dialogo aperto coi destinatari;
+- la comunicazione di precise condizioni alla base del modo caratteristico di operare dell’Istituto;
+- la trasmissione di valori nei quali l’Istituto crede e invita a credere.
+La nostra offerta formativa è l’esplicitazione del modo caratteristico di intendere l’educazione secondo il
+modello che Santa Paola Elisabetta Cerioli, fondatrice dell’Istituto della Sacra Famiglia, ha intuito.
+
+---
+
+## Pagina 5
+
+4
+
+## 1. Scuola E Territorio
+
+
+## 1.1 Lettura Del Territorio
+
+Seriate è una cittadina situata a Sud-Est della provincia di Bergamo da cui dista circa 5 km. È situata sulle
+propaggini collinari delle Alpi Orobiche, allo sbocco della Val Seriana. Il centro abitato, posto su un’area
+pianeggiante d’origine alluvionale a m. 248 sul livello del mare, si estende sulle due rive del fiume Serio
+che lo attraversa in direzione Nord-Sud. Il territorio comunale della città di Seriate si sviluppa su una
+superficie di circa 14 km², e conta circa 25.600 abitanti (aggiornato al 2024). In particolare Comonte,
+località dove sorge la Scuola Paritaria “Sacra Famiglia” è situata all’estremo orientale di Seriate dal cui
+centro dista circa 2 km, ed è direttamente confinante con i paesi vicini: Pedrengo, Albano S. Alessandro,
+Brusaporto. Sono presenti numerose ed importanti vie di comunicazione, che rendono Seriate un punto
+di transito e snodo obbligato per gli accessi verso Bergamo, la Val Cavallina e la Val Calepio.
+Dal punto di vista dello sviluppo economico, Seriate è sempre stata una città industrializzata; negli ultimi
+decenni è stato però notevole lo sviluppo del settore terziario, con insediamento sul territorio comunale
+d’attività commerciali e di servizi che hanno determinato un incremento delle possibilità occupazionali
+sia per i residenti sia per gli abitanti dei comuni limitrofi. L’occupazione in generale non registra gravi
+difficoltà, relativamente alla popolazione in età adulta, che è occupata in provincia o nell’hinterland
+milanese, anche se non sempre in mansioni qualificate. Maggiori difficoltà incontrano i giovani
+soprattutto alla ricerca della prima occupazione.
+Nel territorio comunale sono presenti due parrocchie: quella del Santissimo Redentore, che ingloba la
+maggior parte del territorio comunale (tale parrocchia è la più grande di tutta la Diocesi di Bergamo), e
+quella di Sant’Antonio da Padova, che coincide sostanzialmente con la frazione di Cassinone.
+SI segnala inoltre la presenza sul territorio di un’importante struttura sanitaria, l’Ospedale Bolognini;
+un’altra importante struttura sanitaria è situata nel centro cittadino, vale a dire la residenza per anziani
+“Giovanni Paolo I”.
+In conseguenza della numerosa popolazione residente, notevole è stata l’offerta di strutture per
+l’istruzione, ormai a tutti i livelli, dalla scuola Infanzia alle scuole superiori, messe a disposizione sia dalle
+istituzioni pubbliche sia da enti privati.
+Sul territorio di Seriate sono presenti i seguenti Istituti comprensivi:
+
+ISTITUTO COMPRENSIVO “Aldo Moro” di Seriate che comprende:
+-
+N. 1 Scuola dell’Infanzia, N. 1 Scuola Primaria, N. 1 Scuola Secondaria di I grado
+
+ISTITUTO COMPRENSIVO “Cesare Battisti” di Seriate che comprende:
+-
+N. 1 Scuola dell’Infanzia, N. 3 Scuole Primarie, N. 1 Scuola Secondaria di I grado
+
+ISTITUTO “SACRA FAMIGLIA” che comprende:
+-
+N. 1 Scuola d’Infanzia Santa Cerioli con Micronido, N. 1 Scuola Primaria, N. 1 Scuola
+Secondaria di I grado
+
+N. 2 SCUOLE DELL’INFANZIA PARITARIE NON STATALI (tra cui la Scuola dell’Infanzia Sacra Famiglia,
+via Colleoni Seriate)
+
+
+
+## Scuole Secondarie Di Ii Grado
+
+
+ITIS-Ettore Majorana (Istituto tecnico industriale di Stato e Liceo scientifico) con due sedi: centrale
+e succursale.
+
+
+
+## Istituti Professionali
+
+
+Ente di Formazione Professionale "SACRA FAMIGLIA"
+
+Scuola Edile
+
+Centro di formazione professionale disabili Regione Lombardia
+
+---
+
+## Pagina 6
+
+5
+Risorse esterne presenti sul territorio:
+
+Biblioteca comunale
+
+Sala della Comunità parrocchiale Teatro Aurora
+
+Oratorio Seriate
+
+Centro Pastorale Giovanni XXIII
+
+CineTeatro Gavazzeni
+
+Centri associativi e gruppi di volontariato con finalità socio-assistenziali
+
+Centri socio-culturali
+
+Associazioni sanitarie – Associazioni culturali – Gruppo di Mediazione Didattica - ASAV
+
+Servizi educativi
+
+Strutture sportive (tra cui la Piscina comunale)
+
+## 1.2 Presentazione Della Scuola
+
+L’edificio scolastico ospita alunni della Scuola Primaria e Secondaria di I grado, come da Decreto
+Ministero Pubblica Istruzione rilasciato a partire dall’anno scolastico 1994-1995, presso i locali
+dell’Istituto in parte totalmente ristrutturato (zona Segreteria, Refettori, Laboratori e una parte delle
+aule della Scuola Primaria) ed in parte di nuova realizzazione (alcune aule della Primaria, aule Scuola
+Secondaria di I grado, Biblioteca ragazzi, Laboratori, Palestrina  e Palestra Polivalente).
+La scuola garantisce agli alunni una sorveglianza interna ed esterna nell’ambito della struttura scolastica.
+All’esterno dell’Edificio scolastico in zona protetta e circoscritta vi sono ampi spazi per la ricreazione e
+vari campetti per le diverse discipline sportive e ricreative. L’intero complesso è posizionato in località
+pedecollinare con ampi spazi verdi nel suo interno e quindi con visuali ad ampio raggio sulla campagna
+circostante.
+L’ambiente scolastico è pulito, accogliente e sicuro. Gli ambienti scolastici interni sono mantenuti
+quotidianamente puliti e decorosi con particolare attenzione all’igiene ed alla salubrità dei luoghi
+frequentati dagli allievi. Il personale ausiliario si adopera per garantire la costante igiene dei servizi.
+Le Aule Scolastiche risultano ben soleggiate ed aerate con riscaldamento a radiatori in ghisa.
+Ogni piano della Scuola è dotato di Servizi Igienici e Servizi specifici per portatori di disabilità.
+Il collegamento tra le varie ali dell’edificio è garantito da corridoi di passaggio tra le diverse zone della
+struttura e da due rampe di scale, oltre alle scale esterne di sicurezza, realizzate su specifica richiesta dei
+Vigili del Fuoco, e da un ascensore.
+Nel dettaglio l’edificio scolastico mette a disposizione della Scuola Primaria:
+-
+N. 15 aule curricolari con numero di banchi adeguato al numero degli alunni e cattedra per il
+docente. Ogni aula è dotata di LIM  o maxischermo touchscreen, PC, lavagna, citofono, armadio
+-
+N. 6 aule speciali (laboratorio informatico 18 postazioni, laboratorio scientifico attrezzato, aula di
+arte, 2 aule di supporto aggiuntivo con LIM) il cui orario di disponibilità e d’utilizzo effettivo è
+stabilito dagli insegnanti secondo un orario settimanale interno.
+-
+N. 1 palestra regolamentare polivalente (nella stessa struttura sono compresi il laboratorio di
+artistica, la sala riunioni di 150 posti e struttura da palcoscenico)
+-
+1 palestrina
+-
+N. 1 sala riunioni dotata di circa 150 posti a sedere, microfono e di uno schermo per proiezioni.
+-
+N. 1 sala riunioni dotata di circa 80 posti a sedere, microfono e di uno schermo per proiezioni.
+-
+N. 1 aula docenti
+-
+N. 1 biblioteca per alunni
+-
+N. 3 servizi igienici (per piano), più un servizio igienico per disabili (per piano).
+-
+N. 1 sala medica
+-
+N. 4 campi sportivi (calcetto, pallavolo e basket e uno multifunzionale)
+-
+Diversi ampi cortili esterni protetti a disposizione per attività all’aperto, intervallo e ricreazione
+-
+N.1 grande spazio pavimentato coperto e chiuso con vetrate  (veranda)
+-
+Spazio verde esterno con tavoli e sedili in legno
+-
+Tre ampie sale per servizio mensa
+
+---
+
+## Pagina 7
+
+6
+-
+N. 2 ascensori (1 per scuola e 1 per palestra)
+-
+Non esistono barriere architettoniche
+Un ampio parcheggio a servizio della sosta dei genitori e del personale docente e non docente è
+collocato in zona contigua all’Istituto scolastico e collegato alla viabilità urbana mediante la via Luigia
+Corti avente una sezione stradale pari a m. 5.
+La scuola dispone di un piano d’evacuazione dell’edificio in caso di emergenza sviluppato e verificato
+con un responsabile dei Vigili del Fuoco di Bergamo.
+L’Istituto ha richiesto e ottenuto parere favorevole ai fini dell’agibilità del Complesso Scolastico dal
+Ministero della Pubblica Istruzione, Vigili del Fuoco, ASL, ISPESL.
+Ruolo della scuola nel contesto territoriale in cui opera
+La Scuola Cattolica gestita dalle Suore della Sacra Famiglia vuole realizzare nel concreto il diritto ad
+esercitare la libertà d’insegnamento. Continua la sua missione al servizio del territorio e si rivolge a tutte
+le famiglie adottando una serie di impegni e di obiettivi:
+a) Collaborare al compito educativo delle famiglie, con un servizio didattico regolare ed efficiente
+secondo la linea educativa e l’eredità della Fondatrice Santa Paola Elisabetta;
+b) Stimolare con la propria presenza sul territorio iniziative di carattere culturale sociale e religioso,
+promuovendo in particolare attività in sintonia con il carisma dell’Istituto;
+c) Mettere a disposizione attrezzature, il personale, la propria esperienza educativa a favore della
+famiglia, soprattutto nelle situazioni e nelle circostanze meno favorevoli;
+d) Favorire e promuovere la presenza attiva e stimolante dei genitori, intermediari insostituibili nella
+trasmissione delle esigenze del territorio, in modo da suscitare iniziative adeguate;
+e) Collaborare con altre scuole statali e non, per attività comuni sia didattico-sperimentali, che
+culturali, sportive, ecc.
+La scuola si fonda su una stretta collaborazione con le famiglie, chiamate a partecipare attivamente alla
+vita, ai programmi e alle scelte della Scuola Cattolica.
+
+## 2. L’Istituzione Scolastica
+
+2.1 IL PENSIERO EDUCATIVO DI PAOLA ELISABETTA CERIOLI: UN’EREDITÀ DA NON DIMENTICARE
+Santa Paola Elisabetta Cerioli (Soncino 1816 – Comonte 1865) fondò la Congregazione della Sacra
+Famiglia per il riscatto della classe povera, specialmente contadina, a quel tempo la più emarginata.
+Fissò tutta la sua attenzione materna a favore degli orfani e dei poveri per assisterli nei loro bisogni
+primari, ma soprattutto per prepararli, in modo teorico e pratico, all’inserimento nella società e poter
+così divenire artefici del proprio futuro e del proprio riscatto sociale.
+Attraverso alcuni brevi scritti di Santa Paola Elisabetta Cerioli si intuiscono gli aspetti caratterizzanti della
+sua intuizione pedagogica:
+1. Visione integrale dell’uomo, per cui l’istruzione non è una formazione esclusivamente nozionistica,
+accumulo di conoscenze teoriche e pratiche, ma un vero e proprio esercizio formativo. L’istruzione
+è, per la Cerioli, strumento per una coscienza di sé, fondamento per una elevazione sociale, base
+indispensabile per una professionalità consapevole ed esperta. “… Il lavoro sia accompagnato
+dall’istruzione, l’istruzione con la pratica, la pratica con l’esperienza…”
+2. Alta consapevolezza della missione educativa:
+L’educazione esige intelligenza e ricchezza di doti umane, studio, preparazione, esperienza, rigore di
+metodo, rispetto delle regole; questo richiede un impegno ad evitare l’improvvisazione. “Dopo Dio
+
+---
+
+## Pagina 8
+
+7
+dipende molto dall’educatore la buona o cattiva riuscita dei ragazzi. L’educazione è per una religiosa
+della Sacra Famiglia l’impegno più grande al quale deve attendere con più zelo, con più amore,
+essendo esso il fine speciale e proprio della loro istituzione…”.
+3. Personalizzazione del rapporto formativo:
+Educare attraverso la vicinanza discreta preveniente, sprigionando e schiudendo tutte le possibilità
+di ciascuno. “… guardate di conoscere bene l’indole, il carattere, l’inclinazione degli alunni, per saper
+applicare quei rimedi ad ognuno più adatti…”
+4. La serenità:
+Condizioni essenziali per l’apprendimento e per la formazione del carattere di ciascuno sono la
+gioia, l’ottimismo, l’ambiente umano, lo “stile di famiglia” nel rapporto educatore – ragazzo. Una
+relazione che si prende cura del bisogno di vita, che vigila e tiene per mano, che cura la persona in
+quanto tale, che è protesa a generare la vita, a dare fiducia e sicurezza come accade nelle più
+positive esperienze familiari: “…non una vigilanza che opprime, che rende schiavi, che toglie la
+libertà… La vostra vigilanza deve essere quieta e caritatevole come quella dei nostri buoni angeli
+custodi…”.
+5. La pedagogia dell’amore:
+Tutto il piano educativo della Cerioli manifesta la necessità di ricollocare al centro la verità
+dell’amore; il primato della fiducia nell’uomo, la gioia della vita e la bellezza delle cose create da
+Dio. Dio è soprattutto il Padre buono, santo, misericordioso: “…non stringete il loro cuore, non
+impoverite l’intelletto, predicando Dio, ad ogni momento, severo e terribile, sempre pronto a
+castigare…”
+6. Educazione alla natura:
+Educare alla bellezza, alle esperienze dirette, attraverso apprendimenti pratici “…discorrete della
+creazione, delle fonti, degli uccelli, delle api… dalla terra sollevateli al cielo…”
+La Santa lasciava spazio alla creatività personale: “…io vi ho espresso i miei pensieri, voi poi
+sviluppateli alla vostra maniera… ma con semplicità (nostro distintivo), dolcezza, buon umore…”
+
+## 2.2 Principi Base Dell’Opera Educativa Dell’Istituto Sacra Famiglia
+
+Le seguenti idee guida vengono assunte come perni centrali tutta l’opera educativa, declinate secondo
+un continuo aggiornamento professionale dei docenti ed un utilizzo ponderato dei nuovi metodi ed
+acquisizioni psicopedagogiche.
+1. Primato del valore cristiano
+L’educatore deve sentirsi collaboratore del Creatore nella “riuscita della vita” degli allievi,
+continuatore dell’opera di Dio nell’elevazione dell’umanità, modello ed esempio a cui gli alunni
+guardano. L’opera educativa e didattica è dunque evangelizzazione. In questo senso l’ideale è
+Cristo, non solo dal punto di vista religioso ma che come modello antropologico, in una
+prospettiva sempre attuale di un uomo che ha saputo vivere in sintonia con il creato nella pienezza
+della sua umanità. Paola Elisabetta Cerioli soleva dire:
+“quando entrano nella mente e nel cuore degli allievi la fede e l’amore verso Dio, tutto diventa più
+facile, senza Dio tutto si complica irrimediabilmente”.
+2. Attenzione ai “più piccoli e bisognosi”
+Accogliendo ogni allievo nella singolarità del suo essere, personalizzando gli interventi secondo
+l’indole e le capacità di ciascuno. La cura per l’inclusione di ogni alunno è diretta espressione di
+questa attenzione ai “piccoli”.
+3. Centralità della famiglia e dei suoi valori:
+
+---
+
+## Pagina 9
+
+8
+La promozione di un ambiente sereno, accogliente è presupposto indispensabile dell’intervento
+educativo, fondato sull’amore e l’attenzione verso il singolo, il rispetto del tempo di maturazione
+degli alunni, il rispetto della collegialità nella programmazione educativa, la collaborazione forte con
+la famiglia.
+4. Apertura
+-
+alle iniziative, ai problemi ed alle istanze della comunità locale civile ed ecclesiale, per un’azione
+educativa unitaria;
+-
+al dialogo ed alla collaborazione, con particolare attenzione alla mondialità e alla solidarietà.
+5. Scuola formativa:
+-
+Che produce cultura come sintesi di conoscenza e di abilità;
+-
+Che mette in grado l’allievo di apprendere un metodo scientifico e di operatività;
+-
+Che dà una formazione dinamica: dà conoscenze, abilità e competenze che rendano l’alunno
+capace di accedere con spirito critico alle diverse fonti di informazione.
+-
+Che rispetta la diversità di ciascuno, assunto come valore, nella convinzione della irripetibilità di
+ogni uomo e della cura per l’inclusività
+-
+Che dà uguaglianza di possibilità in ogni attività, approfondendo la conoscenza dei singoli per una
+possibile personalizzazione degli interventi;
+-
+Che rispetta la continuità: la Scuola ricerca e persegue l’accordo con la scuola dell’ordine
+precedente e seguente per consentire un “continuum” programmatico.
+La Scuola Primaria Sacra famiglia promuove la formazione dell’uomo, del cristiano e del cittadino,
+in accordo con i principi sanciti dalla Costituzione Italiana, nel rispetto di:
+-
+Uguaglianza, per cui istruisce, educa e assiste i minori, senza distinzione di sesso, etnia, lingua e
+condizione psico-fisica;
+-
+Inclusione di tutti gli alunni, in particolare di quelli con bisogni educativi speciali;
+-
+Trasparenza, per questo la Scuola predispone appositi strumenti informativi;
+-
+Autonomia e flessibilità, nei tre settori della didattica, dell’organizzazione e della ricerca.
+
+## 2.3 I Componenti Della Comunità Educante:
+
+Gli Alunni: come protagonisti attivi
+Genitori: Primi responsabili nell’azione educativa.
+Docenti ed Educatori: sono corresponsabili dell’istruzione e della formazione degli alunni. Pertanto essi
+sono scelti con cura da parte dell’Istituto che richiede espressamente da loro il rispetto e la condivisione
+dei principi e dei valori cristiani.
+Personale non docente: Corresponsabili nella cura, sorveglianza ed educazione degli alunni.
+Le Religiose della Sacra Famiglia: realizzano la loro specifica vocazione all’educazione svolgendo
+un’azione direttiva ed animatrice, con specifici compiti organizzativi. Esse sono guidate in questo dal
+patrimonio educativo che hanno appreso dalla loro Santa Fondatrice.
+
+## Scuola E Contesti Educativi
+
+L’azione formativa della scuola si impegna a tenere conto dei diversi contesti educativi all’interno
+dei quali si sviluppa l’esperienza educativa di ogni bambino, in particolare:
+
+con la Famiglia la scuola attua una convergenza d’azione sulla base di un “patto di
+corresponsabilità educativa” sottoscritto insieme ai genitori;
+
+con le altre agenzie sul territorio la scuola definisce iniziative collaborative;
+
+con i servizi socio-sanitari la scuola si confronta in tema di inclusività in particolare di fronte
+a situazioni di svantaggio e/o di disabilità.
+
+---
+
+## Pagina 10
+
+9
+
+## 3.Offerta Formativa
+
+
+## 3.1 Finalità E Principi Della Scuola Italiana
+
+Acquisire competenze appropriate al contesto è fondamentale per la realizzazione personale, la
+cittadinanza attiva, l’inclusione e il successo professionale. Le competenze chiave sono tutte
+interdipendenti e ogni volta l’accento è posto sul pensiero critico, la creatività, l’iniziativa, la capacità di
+risolvere problemi, la valutazione del rischio, la presa di decisioni e la gestione costruttiva delle emozioni.
+(Indicazioni nazionali 2012)
+FINALITA' EDUCATIVE DELLA SCUOLA PRIMARIA (legge n° 53, 28 marzo 2003)
+La scuola si dice Primaria non solo perché è la prima Scuola obbligatoria del sistema educativo
+nazionale di istruzione e di formazione, ma soprattutto per un’altra serie di ragioni che affondano le
+loro radici nella nostra migliore tradizione pedagogica.
+La prima ragione è culturale: la scuola è primaria perché promuove nei fanciulli e nelle fanciulle
+l’acquisizione di tutti i tipi di linguaggio e un primo livello di padronanza delle conoscenze e delle
+abilità, comprese quelle metodologiche di indagine, indispensabili alla comprensione
+intersoggettiva del mondo umano.
+Inoltre la Scuola Primaria è il luogo in cui ci si abitua a radicare le conoscenze (sapere) sulle
+esperienze (il fare e l’agire), a integrare con sistematicità le due dimensioni e anche a concepire i
+primi ordinamenti formali, semantici e sintattici, disciplinari e interdisciplinari, del sapere.
+In terzo luogo, la scuola primaria assicura obbligatoriamente a tutti i fanciulli le condizioni
+culturali, relazionali, didattiche e organizzative idonee a «rimuovere gli ostacoli di ordine
+economico e sociale» che limitando di fatto la libertà e la giustizia dei cittadini, «impediscono il
+pieno sviluppo della persona umana» indipendentemente dal sesso, dalla razza, dalla lingua, dalla
+religione, dalle opinioni politiche e dalle condizioni personali e sociali (art. 3 della Costituzione).
+La quarta motivazione è etica. Per «concorrere al progresso materiale o spirituale della società»
+(art. 4 della Costituzione) è necessario superare le forme di egocentrismo e praticare, invece, i
+valori del reciproco rispetto, della partecipazione, della collaborazione, dell’impegno competente
+e responsabile, della cooperazione e della solidarietà.
+L’ultima ragione è psicologica. Proseguendo il cammino iniziato dalla famiglia e dalla scuola
+dell’infanzia, la Scuola Primaria insegna a tutti i fanciulli l’alfabeto dell’integrazione affettiva della
+personalità e pone le basi per una immagine realistica, ma positiva di sé.
+Per tutte queste ragioni, la Scuola Primaria è l’ambiente educativo di apprendimento, nel quale
+ogni fanciullo trova le occasioni per maturare progressivamente le proprie capacità di autonomia,
+di azione diretta, di relazioni umane, di progettazione e verifica, di esplorazione, di riflessione
+logico-critica e di studio individuale.
+3.2 LE INDICAZIONI NAZIONALI PER IL CURRICOLO DELLA SCUOLA DELL’INFANZIA E DEL PRIMO CICLO
+
+## D’Istruzione (2012)
+
+Con le Indicazioni nazionali s’intendono fissare gli obiettivi generali, gli obiettivi di apprendimento e i
+relativi traguardi per lo sviluppo delle competenze dei bambini e dei ragazzi per ciascuna disciplina o
+campo di esperienza. Per l’insegnamento della Religione Cattolica, disciplinata dagli accordi
+concordatari, i traguardi di sviluppo delle competenze e gli obiettivi di apprendimento sono definiti
+d’intesa con l’autorità ecclesiastica (DPR 11 febbraio 2010).
+
+---
+
+## Pagina 11
+
+10
+La scuola nel nuovo scenario sociale
+Alla scuola spettano alcune finalità specifiche:
+offrire agli studenti occasioni di apprendimento dei saperi e dei linguaggi culturali di base;
+far sì che gli studenti acquisiscano gli strumenti di pensiero necessari per apprendere a selezionare
+le informazioni;
+promuovere negli studenti la capacità di elaborare metodi;
+favorire l’autonomia di pensiero degli studenti, orientando la propria didattica alla costruzione di
+saperi a partire dai concreti bisogni formativi, con una particolare attenzione al sostegno delle varie
+forme di diversità, di disabilità o di svantaggio.
+La centralità della persona
+LO STUDENTE È POSTO AL CENTRO DELL’AZIONE EDUCATIVA in tutti i suoi aspetti. La definizione e
+la realizzazione delle strategie educative e didattiche devono sempre tener conto della singolarità e
+complessità di ogni persona, della sua identità, delle sue aspirazioni, capacità e fragilità, nelle varie
+fasi di sviluppo e di formazione.
+PARTICOLARE CURA È NECESSARIO DEDICARE ALLA FORMAZIONE DELLA CLASSE COME GRUPPO,
+alla promozione dei legami cooperativi fra i suoi componenti, alla gestione degli inevitabili conflitti:
+la formazione di importanti legami di gruppo è infatti condizione indispensabile per lo sviluppo della
+personalità di ognuno.
+Per una nuova cittadinanza
+INSEGNARE DELLE REGOLE DEL VIVERE E DEL CONVIVERE è per la scuola un compito ineludibile,
+oggi ancor più che nel passato, perché le famiglie spesso incontrano difficoltà e necessitano di
+essere supportate nel loro ruolo educativo e questo porta la scuola ad affiancare al compito
+“dell’insegnare ad apprendere” quello “dell’insegnare ad essere”.
+La promozione e lo sviluppo di ogni persona stimola in modo vicendevole la promozione e lo
+sviluppo delle altre persone: OGNUNO IMPARA MEGLIO NELLA RELAZIONE CON GLI ALTRI.
+La scuola deve perseguire alcuni obiettivi prioritari:
+
+## -Ricomporre I Grandi Oggetti Della Conoscenza Superando La Frammentazione Delle
+
+
+## Singole Discipline;
+
+-PROMUOVERE LA CAPACITÀ DI COGLIERE GLI ASPETTI ESSENZIALI DEI PROBLEMI, la capacità di
+comprendere le implicazioni per l’uomo degli sviluppi delle scienze, la capacità di valutare i limiti
+delle conoscenze, la capacità di vivere in un mondo in continuo cambiamento;
+-diffondere la CONSAPEVOLEZZA CHE I GRANDI PROBLEMI DELL’UMANITÀ (ambiente, salute,
+distribuzione delle risorse, bioetica, confronto interreligioso) POSSONO ESSERE AFFRONTATI
+
+## Attraverso Una Stretta Collaborazione.
+
+LA SCUOLA PRIMARIA SACRA FAMIGLIA è convinta che tutti questi obiettivi possono essere
+realizzati sin dalle prime fasi della formazione degli alunni, utilizzando i canali di comunicazione
+più congeniali ai bambini stessi, cioè la SPERIMENTAZIONE e il GIOCO.
+L’ESPERIMENTO, LA MANIPOLAZIONE, IL GIOCO, LA NARRAZIONE, LE ESPRESSIONI ARTISTICHE E
+
+## Musicali Sono Occasioni Privilegiate Per Apprendere Per Via Pratica Quello Che
+
+
+## Successivamente Dovrà Essere Oggetto Di Conoscenze Più Elaborate.
+
+
+---
+
+## Pagina 12
+
+11
+
+## 3.3 Finalità Generali A Partire Dalle Nuove Indicazioni Per Il Curricolo
+
+La finalità generale della scuola è lo sviluppo armonico ed integrale della persona, all’interno dei
+principi della Costituzione italiana e della tradizione culturale europea. La scuola italiana, statale e
+paritaria, svolge la funzione pubblica della formazione di ogni persona e la crescita civile e sociale
+del Paese. Assicura a tutti i cittadini l’istruzione obbligatoria di dieci anni. L’azione della scuola si
+esplica attraverso la collaborazione con la famiglia, nel reciproco rispetto dei diversi ruoli ed ambiti
+educativi, nonché con le altre formazioni sociali.
+Per garantire a tutti i cittadini pari condizioni di accesso all’istruzione e un servizio di qualità, lo
+Stato stabilisce le norme generali cui devono attenersi tutte le scuole, siano esse statali o
+paritarie. Tali norme comprendono: la fissazione degli obiettivi generali del processo formativo e
+degli obiettivi specifici di apprendimento relativi alle competenze degli studenti; le discipline di
+insegnamento e gli orari obbligatori; gli standard relativi alla qualità del servizio; i sistemi di
+valutazione e controllo del servizio stesso.
+Con le Indicazioni nazionali del 4 settembre 2012 s’intendono fissare gli obiettivi generali, gli
+obiettivi di apprendimento e i relativi traguardi per lo sviluppo delle competenze dei bambini e dei
+ragazzi per ciascuna disciplina o campo di esperienza. Per l’insegnamento della Religione Cattolica,
+disciplinata dagli accordi concordatari, i traguardi di sviluppo delle competenze e gli obiettivi di
+apprendimento sono definiti d’intesa con l’autorità ecclesiastica (DPR 11 febbraio 2010).
+
+## 3.4 Competenze-Chiave Per L’Apprendimento Permanente Definite Dal Parlamento
+
+
+## Europeo E Dal Consiglio Ue (Raccomandazione Del 18 Dicembre 2006)
+
+Il sistema scolastico italiano assume come orizzonte di riferimento verso cui tendere il quadro delle
+competenze-chiave per l’apprendimento permanente definite dal Parlamento europeo e dal
+Consiglio UE che sono:
+
+## Comunicazione Nella Madrelingua;
+
+
+## Comunicazione Nelle Lingue Straniere;
+
+
+## Competenza Matematica E Competenze Di Base In Scienza E Tecnologia;
+
+
+## Competenza Digitale;
+
+
+## Imparare Ad Imparare;
+
+
+## Competenze Sociali E Civiche;
+
+
+## Spirito Di Iniziativa E Imprenditorialità;
+
+
+## Consapevolezza Ed Espressione Culturale.
+
+Le Indicazioni nazionali intendono promuovere e consolidare le competenze culturali basilari e
+irrinunciabili, per sviluppare progressivamente, nel corso della vita, le competenze-chiave europee.
+L’istituto scolastico SACRA FAMIGLIA (che riunisce micronido, scuola d’infanzia, scuola primaria e
+secondaria di primo grado) permette l’affermarsi di una scuola unitaria di base che prenda in
+carico i bambini dall’età di pochi mesi e li guidi fino al termine del primo ciclo d’istruzione in un
+unico percorso strutturato, il cui obiettivo generale è il conseguimento delle competenze
+delineate nel profilo dello studente al termine di tale percorso.
+
+## 3.5 Profilo Delle Competenze Al Termine Del Primo Ciclo D’Istruzione
+
+Lo studente al termine del primo ciclo, attraverso gli apprendimenti sviluppati a scuola, lo studio
+personale, le esperienze educative vissute in famiglia e nella comunità, è in grado di iniziare ad
+
+---
+
+## Pagina 13
+
+12
+affrontare, in autonomia e con responsabilità, le situazioni di vita tipiche della propria età,
+riflettendo ed esprimendo la propria personalità in tutte le sue dimensioni.
+Ha consapevolezza delle proprie potenzialità e dei propri limiti, utilizza gli strumenti di conoscenza
+per comprendere, per riconoscere ed apprezzare le diverse identità, le tradizioni culturali e
+religiose, in un’ottica di dialogo e di rispetto reciproco. Interpreta i sistemi simbolici e culturali della
+società, orienta le proprie scelte in modo consapevole, rispetta le regole condivise, collabora con gli
+altri per la costruzione del bene comune esprimendo le proprie personali opinioni e sensibilità. Si
+impegna per portare a compimento il lavoro iniziato da solo o insieme ad altri.
+Dimostra una padronanza della lingua italiana tale da consentirgli di comprendere enunciati e testi
+di una certa complessità, di esprimere le proprie idee, di adottare un registro linguistico
+appropriato alle diverse situazioni.
+Nell’incontro con persone di diverse nazionalità è in grado di esprimersi a in lingua inglese anche
+nell’uso delle tecnologie dell’informazione e della comunicazione.
+Le sue conoscenze matematiche e scientifico-tecnologiche gli consentono di analizzare dati e fatti
+della realtà e di verificare l’attendibilità delle analisi quantitative e statistiche proposte da altri. Il
+possesso di un pensiero razionale gli consente di affrontare problemi e situazioni sulla base di
+elementi certi e di avere consapevolezza dei limiti delle affermazioni che riguardano questioni
+complesse che non si prestano a spiegazioni univoche.
+Si orienta nello spazio e nel tempo dando espressione a curiosità e ricerca di senso; osserva e
+interpreta ambienti, fatti, fenomeni e produzioni artistiche.
+Ha buone competenze digitali, usa con consapevolezza le tecnologie della comunicazione per
+ricercare ed analizzare dati e informazioni, distinguendo tra quelle attendibili e quelle che
+necessitano di approfondimento e verifica. Possiede un patrimonio di conoscenze e nozioni di base
+ed è allo stesso tempo capace di procurarsi velocemente nuove informazioni in modo autonomo.
+Ha cura e rispetto di sé, come presupposto di un sano e corretto stile di vita. Assimila il senso e la
+necessità del rispetto delle regole di convivenza civile. Ha attenzione per le funzioni pubbliche alle
+quali partecipa in diverse forme in diverse forme: esposizione pubblica del proprio lavoro, occasioni
+rituali comunitarie, azioni di solidarietà, manifestazioni sportive non agonistiche, volontariato …
+Dimostra originalità e spirito di iniziativa. Si assume le proprie responsabilità e chiede aiuto quando
+si trova in difficoltà, fornendo a sua volta aiuto a chi lo chiede.
+In relazione alle proprie potenzialità e al proprio talento si impegna in campi espressivi, motori ed
+artistici. È disposto all’autovalutazione e a misurarsi con novità e imprevisti.
+
+## 3.6 L’Organizzazione Del Curricolo
+
+Le Indicazioni nazionali (2012) costituiscono il quadro di riferimento per la progettazione curricolare
+affidata alle scuole, per elaborare specifiche scelte relative a contenuti, metodi, organizzazione e
+valutazione coerenti con i traguardi formativi previsti.
+Il curricolo d’istituto che ne risulta è espressione della libertà d’insegnamento, dell’autonomia
+scolastica e dell’identità dell’Istituto. Ogni scuola predispone il curricolo all’interno del PTOF con
+riferimento al profilo dello studente al termine del primo ciclo di istruzione, ai traguardi per lo
+sviluppo delle competenze, agli obiettivi di apprendimento specifici per ogni disciplina. A partire
+dall’unico curricolo verticale d’istituto, i docenti individuano le esperienze d’apprendimento, le
+scelte didattiche e le strategie metodologiche, con particolare attenzione all’integrazione tra le
+discipline, così come è indicato dal Regolamento dell’autonomia scolastica, scegliendo così
+l’itinerario più opportuno per il conseguimento delle competenze previste dai fissati traguardi per
+lo sviluppo delle competenze.
+
+---
+
+## Pagina 14
+
+13
+L’elaborazione e la realizzazione del curricolo costituiscono pertanto un processo dinamico e aperto
+e rappresentano per la comunità scolastica un’occasione di partecipazione e di apprendimento
+continuo.
+Il Curricolo d’Istituto della Scuola Primaria Sacra Famiglia, elaborato sulla base delle Indicazioni
+nazionali, distinto per singole discipline, compresa l’educazione civica, viene allegato al presente
+
+## Ptof.
+
+
+## 3.7 Educare Attraverso Le Discipline:
+
+
+## Traguardi Per Lo Sviluppo Delle Competenze Al Termine Della Scuola Primaria
+
+
+## Italiano
+
+L’alunno scambia comunicazioni con compagni e docenti attraverso messaggi semplici, chiari e
+pertinenti. Comprende testi di vario tipo, ne individua il senso globale e le informazioni principali. Legge
+testi letterari di vario genere sia a voce alta, con tono di voce espressivo, sia con lettura silenziosa e
+autonoma. Produce testi legati alle diverse occasioni di scrittura che la scuola offre, rielabora testi
+attraverso la parafrasi e la riscrittura.
+Sviluppa gradualmente abilità funzionali allo studio estrapolando informazioni utili per la
+memorizzazione e l’esposizione orale. Svolge attività di riflessione linguistica, mostrando di cogliere le
+operazioni implicate dalla comunicazione.
+
+## Inglese
+
+L’alunno riconosce se ha capito messaggi verbali orali e semplici testi scritti, svolge i compiti secondo le
+indicazioni date in lingua straniera dall’insegnante. Stabilisce relazioni tra elementi culturali e linguistici
+della lingua materna e straniera.
+Comprende frasi ed espressioni di uso frequente, relative ad ambiti familiari. Interagisce nel gioco, in
+situazioni semplici e di routine, legate a bisogni immediati comunicando in modo comprensibile e con
+espressioni e frasi memorizzate.
+Descrive in termini semplici aspetti del proprio vissuto personale e dell’ambiente familiare.
+
+## Musica
+
+L’alunno esplora, discrimina ed elabora eventi sonori dal punto di vista qualitativo, spaziale e in
+riferimento alla loro fonte. Gestisce diverse possibilità espressive della voce, di oggetti sonori e
+strumenti musicali, imparando ad ascoltare se stesso e gli altri; fa uso di forme di notazione analogiche o
+codificate. Articola combinazioni timbriche, ritmiche e melodiche, eseguendole con la voce, il corpo, gli
+strumenti.
+Esegue, da solo o in gruppo, semplici brani vocali e strumentali e riconosce gli elementi linguistici
+costitutivi di un semplice brano musicale.
+
+## Arte E Immagine
+
+L’alunno utilizza gli elementi di base del linguaggio visuale per osservare, descrivere e leggere immagini
+statiche e messaggi in movimento. Utilizza le conoscenze sul linguaggio visuale per produrre e
+rielaborare in modo creativo le immagini attraverso molteplici tecniche, con materiali e strumenti
+diversificati. Legge gli aspetti formali di alcune opere. Conosce i principali beni artistico-culturali del
+proprio territorio e mette in atto pratiche di rispetto e salvaguardia.
+
+## Educazione Motoria
+
+L’alunno acquisisce consapevolezza di sé attraverso l’osservazione e l’ascolto del proprio corpo, la
+padronanza degli schemi motori e posturali, sapendosi adattare alle variabili spaziali e temporali.
+Utilizza il linguaggio motorio e corporeo per comunicare. Conosce e apprezza, sperimentandole,
+molteplici discipline sportive e diverse gestualità tecniche, in forma semplificata e progressivamente
+sempre più complessa. Si muove nell’ambiente rispettando alcuni criteri di sicurezza per sé e per gli altri.
+
+---
+
+## Pagina 15
+
+14
+Riconosce alcuni essenziali principi relativi al proprio benessere psico-fisico, connessi alla cura del
+proprio corpo. Comprende, attraverso il gioco e lo sport, il valore delle regole e l’importanza di
+rispettarle.
+
+## Storia
+
+L’alunno conosce elementi significativi del passato relativi al suo ambiente di vita. Riconosce le tracce
+storiche presenti sul territorio. Conosce gli aspetti fondamentali della preistoria, della protostoria e della
+storia antica. Usa la linea del tempo per collocare un fatto o un periodo storico. Organizza la
+conoscenza, tematizzando e usando semplici categorie (alimentazione, difesa, cultura).
+Produce semplici testi storici e sa usare carte geo-storiche, iniziando a usare strumenti informatici con la
+guida dell’insegnante. Sa raccontare i fatti studiati.
+
+## Geografia
+
+L’alunno si orienta nello spazio circostante e sulle carte geografiche, utilizzando riferimenti topologici,
+punti cardinali e coordinate geografiche. Si rende conto che lo spazio geografico è un sistema
+territoriale, costituito da elementi fisici e antropici connessi e interdipendenti. Individua, conosce e
+descrive gli elementi caratterizzanti dei diversi paesaggi (montagna, pianura…) con articolare attenzione
+a quelli italiani. E’ in grado di riconoscere e localizzare i principali elementi geografici fisici (monti, fiumi,
+laghi…) e antropici (città, infrastrutture…) dell’Italia. Utilizza il linguaggio della geograficità per
+interpretare le carte geografiche e per realizzare semplici schizzi cartografici e carte tematiche.
+
+## Matematica
+
+L’alunno sviluppa un atteggiamento positivo rispetto alla matematica, intuendo come sia utile per
+operare nella realtà. Si muove con sicurezza nel calcolo scritto e mentale con i numeri naturali. Utilizza
+rappresentazioni di dati per ricavare informazioni significative. Riesce a risolvere facili problemi,
+utilizzando strategie diverse e spiegando il procedimento seguito. Percepisce e rappresenta forme e
+strutture utilizzando strumenti per il disegno geometrico e i più comuni strumenti di misura. Descrive e
+classifica figure in base a caratteristiche geometriche. Impara a costruire ragionamenti e a sostenere le
+proprie tesi.
+SCIENZE e TECNOLOGIA
+L’alunno utilizza le proprie capacità per un approccio scientifico ai fenomeni, ponendosi domande
+esplicite e individuando problemi significativi da indagare a partire dalla propria esperienza. Con la guida
+dell’insegnante, poi in collaborazione con i compagni e anche da solo, formula ipotesi e previsioni,
+osserva, registra, classifica, schematizza, identifica relazioni spazio-temporali, prospetta soluzioni e
+interpretazioni, producendo rappresentazioni grafiche e schemi. Analizza e racconta in forma chiara ciò
+che ha fatto e imparato. Ha atteggiamenti di cura e rispetto verso l’ambiente, scolastico, sociale e
+naturale e ne riconosce il valore. Ha cura del proprio corpo con scelte adeguate di comportamenti e di
+abitudini alimentari.
+L’alunno esplora il mondo fatto dall’uomo, individua le funzioni di un artefatto e di una semplice
+macchina, usando oggetti e strumenti coerentemente con le loro funzioni. Realizza oggetti seguendo
+una definita metodologia progettuale. Esamina oggetti e processi in relazione all’impatto ambientale.
+Osserva oggetti del passato rilevando le trasformazioni di utensili e processi produttivi.
+E’ in grado di usare le nuove tecnologie e i linguaggi multimediali per sviluppare il proprio lavoro in più
+discipline, per presentarne i risultati e per potenziare le proprie capacità comunicative.
+Utilizza strumenti informatici e di comunicazione in situazioni significative di gioco e di relazione con gli
+altri.
+
+## Educazione Civica
+
+L’alunno conosce gli elementi fondanti della Costituzione, è consapevole dei ruoli, dei compiti e delle
+funzioni delle istituzioni dello Stato italiano, dell’Unione europea e dei principali organismi
+internazionali; conosce il significato ed in parte la storia degli elementi simbolici identitari (bandiera e
+inno nazionale). Ha recepito gli elementi basilari dei concetti di “sostenibilità ed ecosostenibilità”.  È
+consapevole del significato delle parole “diritto e dovere”. Conosce nelle sue principali esplicitazioni il
+
+---
+
+## Pagina 16
+
+15
+principio di legalità e di contrasto alle mafie, ha introitato i principi dell’educazione ambientale in
+un’ottica di consapevolezza e tutela dei beni del patrimonio culturale locale e nazionale, nelle sue varie
+sfaccettature (lingua, monumenti, paesaggio, produzioni di eccellenza). È consapevole dell’importanza
+dell’esercizio della cittadinanza attiva che si espleta anche attraverso le associazioni di volontariato e di
+protezione civile. Ha sviluppato conoscenze e competenze in materia di educazione alla salute ed al
+benessere psicofisico, conosce gli elementi necessari dell’educazione stradale in rapporto alle sue
+dinamiche esistenziali. È consapevole dei principi normativi relativi ai concetti di “privacy, diritti
+d’autore”. Esercita un uso consapevole in rapporto all’età dei materiali e delle fonti documentali digitali
+disponibili sul web e comincia ad inoltrarsi nella loro corretta interpretazione.
+
+## Religione Cattolica
+
+L’alunno riflette su Dio Creatore e Padre, sugli elementi fondamentali della vita di Gesù e sa collegare i
+contenuti principali del suo insegnamento alle tradizioni dell’ambiente in cui vive; riconosce il significato
+cristiano del Natale e della Pasqua.
+Riconosce nella Bibbia, libro sacro per ebrei e cristiani, un documento fondamentale della cultura
+occidentale, distinguendola da altre tipologie di testi, anche di altre religioni; identifica le caratteristiche
+essenziali di un brano biblico, sa farsi accompagnare nell’analisi delle pagine a lui più accessibili, per
+collegarle alla propria esperienza.
+Confronta la propria esperienza religiosa con quella di altre persone e distingue la specificità della
+proposta di salvezza del cristianesimo; identifica nella Chiesa la comunità di coloro che credono in Gesù
+Cristo e cercano di mettere in pratica il suo insegnamento; coglie il valore specifico dei Sacramenti e si
+interroga sul significato che essi hanno nella vita dei cristiani.
+
+## 3.8 Metodi E Mezzi Didattici
+
+-
+valorizzazione delle effettive capacità, delle esperienze già acquisite e delle esigenze di
+apprendimento di ciascun alunno come punto di partenza da cui far emergere sollecitazioni per
+un processo di ricerca, attraverso l’osservazione, la presa di coscienza e la problematizzazione;
+-
+graduale passaggio dall’esperienza esplorativa manipolatoria ed operativa (muovendo da
+situazioni spontanee e gioco strutturato), alla capacità iconico-rappresentativa, per giungere
+ad un primo livello di formalizzazione;
+-
+creazione di un ambiente educativo di apprendimento caratterizzato da un clima sociale
+sereno, in grado di favorire lo spirito di iniziativa, l’autodecisione, il senso di responsabilità
+personale degli alunni, offrendo loro occasioni di valorizzazione, incoraggiamento e
+gratificazione;
+-
+promozione e sviluppo di atteggiamenti e comportamenti critici, responsabili e costruttivi nel
+rispetto delle norme di condotta e dei valori proposti e condivisi da scuola e famiglia.
+Il team docente realizza l’attività didattica ed educativa attraverso:
+-
+riunioni periodiche del team, per l’integrazione delle varie discipline e sviluppare tematiche
+comuni mediante linguaggi e contenuti specifici di ogni ambito;
+-
+la progettazione collegiale di esperienze varie e diversificate, gradualmente più complesse e
+rispettose dei tempi e degli stili di apprendimento diversi;
+-
+l’alternanza di diverse strategie didattiche, utilizzando sia la lezione frontale, sia il lavoro per
+gruppi o a coppie, omogenei o eterogenei per competenze, sia il lavoro individuale;
+-
+il contributo delle specifiche competenze di ciascun docente (di classe e di sostegno)
+-
+la valutazione formativa che è svolta al fine di:
+ capire come si sta svolgendo il processo di apprendimento e di sviluppo dell’alunno;
+ accertare l’efficacia e l’efficienza delle strategie educative e didattiche messe in atto;
+ documentare e comunicare alle famiglie i progressi degli alunni;
+ favorire il passaggio di informazioni ad altre scuole.
+
+---
+
+## Pagina 17
+
+16
+
+## Mezzi E Strumenti A Disposizione
+
+La pianificazione annuale delle attività formative-didattiche, di competenza degli organi collegiali si
+avvale dell’utilizzo di tutti i mezzi, spazi strutturati e strumenti messi a disposizione dall’Istituto,
+come specificati all’inizio del PTOF.
+
+## I Compiti
+
+costituiscono una condizione operativa essenziale all’interno della programmazione educativa e
+didattica che, soprattutto all’inizio del percorso scolastico, non può essere realizzata senza la
+collaborazione dei genitori. I lavori scolastici da eseguire a casa sono assegnati dalla Scuola con la
+finalità di far acquisire progressivamente agli alunni la capacità ed il gusto di esercitare, in
+autonomia, abilità e strumenti culturali appresi. I compiti a casa costituiscono una “valutazione in
+itinere” e saranno ripresi e corretti dall’insegnante nelle forme che riterrà più adeguate.
+Durante la classe terza inoltre viene messa a disposizione un’ora alla settimana in classe per
+proporre agli alunni diverse tipologie di metodi di studio, in modo che i bambini possano
+familiarizzare con essi e scegliere col tempo quello che è a loro più congeniale.
+
+## 3.9 Outdoor Education
+
+È un orientamento pedagogico internazionale che, reagendo alle forme chiuse e iperprotettive che
+caratterizzano la vita dell’infanzia nelle società più sviluppate, si propone di valorizzare le
+esperienze basate sullo “star fuori” (out-door) assumendo l’ambiente esterno come spazio di
+formazione.
+Originatosi nei paesi nordeuropei e lì diffuso da diversi decenni, l’Outdoor education sta vedendo
+una rapida diffusione anche in Italia ed è ormai una proposta pedagogica attuale, inoltre è
+fortemente inclusivo nel rispetto delle condizioni dei singoli soggetti.
+Gli «orizzonti di riferimento» ai quali si richiama il progetto «Outdoor education» sono:
+-
+Trasformare il modello trasmissivo della scuola
+-
+Creare nuovi spazi per l’apprendimento
+-
+Riorganizzare il tempo del fare scuola
+-
+Riconnettere i saperi della scuola e i saperi della società della conoscenza
+È caratterizzato da una didattica attiva che si svolge in ambienti esterni alla scuola: l’offerta
+formativa dell’Outdoor education include quindi una numerosa gamma di attività didattiche che
+vanno da semplici esperienze di tipo percettivo-sensoriale (orto didattico, visite a fattorie, musei,
+parchi, ecc.) ad esperienze basate su attività sociomotorie ed esplorative tipiche dell’Adventure
+education (sport e gioco all’aperto, orienteering, trekking, arrampicata, ecc.), a progetti scolastici
+che intrecciano l’apertura al mondo naturale con la tecnologia (coding, pixel art, robotica, ecc.).
+La Scuola Sacra Famiglia possiede nel suo DNA costitutivo una naturale predisposizione alla cura e
+al rispetto per il creato e la natura, secondo l’impronta data dalla Santa Fondatrice, ed è
+indubbiamente favorita dalla sua particolare posizione naturalistica, per questo nella pratica
+didattica quotidiana da sempre è stata presente un’attenzione speciale alle tematiche ambientali
+e all’interazione sostenibile con l’ambiente; al tempo stesso sono sempre stati ampiamente
+sfruttati gli spazi esterni.
+La riflessione pedagogica indotta dall’orientamento verso l’Outdoor education ha impresso una
+ulteriore spinta verso una sempre maggior propensione verso lo “star fuori”, nell’ottica di un
+crescente utilizzo della didattica all’aperto che, a partire dai tempi di ricreazione e di educazione
+motoria, si è poi esteso ad altre discipline, in particolare con frequenti attività a partire da
+esperienze ludiche, con la costruzione di percorsi esperienziali di scoperta, valorizzazione e rispetto
+dell’ambiente, di esplorazione e ricerca nello spazio esterno e sul territorio.
+Da questo punto di vista non è infatti sufficiente uscire dall’aula per poter parlare di Outdoor
+education: in un’esperienza pedagogica di questo tipo non possono mancare sia l’interdisciplinarità
+sia l’attivazione di relazioni interpersonali ed ecosistemiche.
+
+---
+
+## Pagina 18
+
+17
+L’OE può dunque essere praticata in qualunque contesto e può basarsi su attività quotidiane
+ordinarie e di prossimità, come anche attività straordinarie e che richiedono una speciale
+progettazione, ma in ogni caso richiede al docente la capacità di osservare e valorizzare un
+ambiente esterno dal punto di vista delle sue potenzialità culturali e didattiche, oltre che
+un’adeguata preparazione in materia di prevenzione, sicurezza, valutazione del rischio e salute,
+necessaria a intraprendere attività a differenti livelli di impegno.
+Infine non si riferisce esclusivamente ad esperienze svolte in contesti naturali (giardini, fattorie,
+boschi, campi e vigneti ecc.) ma anche a percorsi didattici realizzati in ambienti urbani (parchi
+naturali e cittadini, musei, piazze, ecc.) nei quali sono garantiti un rapporto diretto e concreto con il
+mondo reale e il pieno coinvolgimento del soggetto in formazione (in tutte le sue dimensioni:
+cognitiva, fisica, affettiva e relazionale). Per questo vi trovano posto frequenti uscite e gite sul
+territorio.
+
+## 4. Progetto Orario
+
+
+## 4.1 Progetto Calendario-Orario
+
+Il regolamento in materia di autonomia emanato con D.P.R n. 275 dell'8 marzo 1999 prevede che
+le singole istituzioni scolastiche possano realizzare adattamenti del calendario e organizzare in
+modo flessibile l'orario complessivo, nel rispetto dell'articolazione delle lezioni in non meno di
+cinque giorni settimanali e del monte ore annuale, pluriennale o di ciclo previsto per le singole
+discipline e attività obbligatorie. Sulla base di tale regolamento e tenendo conto dell'Ordinanza
+Ministeriale e del Decreto Sovrintendente Scolastico Regionale per la Lombardia per l’anno
+corrente, vengono definiti il calendario scolastico e l'orario da adottare.
+Il calendario delle lezioni e dei giorni di vacanza per ogni anno scolastico sarà conforme alle
+indicazioni espresse nei documenti sopra citati e articolato ed approvato dal Consiglio d’Istituto.
+
+## Motivazione E Finalità
+
+Il presente Progetto Orario si è realizzato per venire incontro alle richieste delle famiglie e in conformità
+con la volontà della scuola, al fine di offrire la possibilità di frequentare una scuola che fornisca una
+strutturazione oraria a “settimana corta”, consentendo di poter fruire di un pomeriggio libero
+(venerdì).
+Quadro generale della Scuola Primaria Sacra Famiglia
+
+## Totale Sezioni
+
+
+## A – B - C
+
+
+## Totale Classi
+
+15
+
+## Insegnanti
+
+24
+Classi funzionanti a
+Settimana corta
+Orario
+settimanale
+28 ore
+
+---
+
+## Pagina 19
+
+18
+
+## Orario Giornaliero Attivita’ Scolastiche
+
+L'orario delle attività scolastiche è distribuito su 5 giorni settimanali per un totale di 28 ore di
+insegnamento curricolari. L’orario è strutturato con questa modalità:
+da LUNEDÌ A GIOVEDÌ                   8.15 - 10.05   lezione
+10.05 - 10.15  intervallo
+10.20 - 12.15  lezione
+12.15 – 13.45  mensa e ricreazione
+13.45 - 15.45 lezione (dalle 15.45 alle 16.00 uscita)
+VENERDÌ                                         8.15 – 12.15    lezione  (dalle 12.15 uscita)
+(con possibilità di servizio mensa e pomeriggio a richiesta)
+
+## Servizi Aggiuntivi
+
+ANTICIPO: dalle ore 7.30 tutti i giorni
+POSTICIPO: da Lunedì a Giovedì dalle 16.00 alle 17.30
+SPAZIO COMPITI: Venerdì dalle 13.00 alle 16.00
+SPAZIO COMPITI: Mercoledì dalle 16.00 alle 17.30
+
+## Tempi Delle Discipline
+
+Quadro orario settimanale delle discipline:
+
+## Italiano
+
+FINO A 8 ORE max.
+
+## Matematica
+
+
+## 6 Ore
+
+
+## Scienze E Tecnologia
+
+
+## 2 Ore
+
+STORIA                                                                                      2 ORE
+
+## Geografia
+
+
+## 2 Ore
+
+
+## Lingua Straniera
+
+FINO A 4 ORE max.
+ED. MOTORIA                                                                           2 ORE
+
+## Ed. Musicale
+
+
+## 1 Ora
+
+
+## Arte E Immagine
+
+
+## 1 Ora
+
+
+## Religione Cattolica
+
+
+## 2 Ore
+
+
+## Totale Ore Settimanali Di Frequenza: 28 Ore
+
+Per la realizzazione dei progetti è previsto l'affiancamento di specialisti in compresenza con
+l'insegnante di classe (es.: musica, laboratorio teatro, madrelingua, circomotrcità, coding, orto).
+La scuola prevede l'articolazione modulare del monte ore delle discipline, concentrando, se
+necessario, le ore di un ambito disciplinare in alcuni periodi dell'anno, in relazione a:
+- Particolari attività;
+- Progetti;
+- Festività
+- Attività interdisciplinari.
+VERIFICA del progetto orario
+Per verificare l'effettiva funzionalità del Progetto Orario elaborato, ciascun insegnante avrà cura di
+rendere note eventuali difficoltà o osservazioni in merito in sede di Collegio Docenti; al termine
+
+---
+
+## Pagina 20
+
+19
+dell'anno scolastico, inoltre, si procederà a una verifica finale che sarà effettuata sulla base delle
+osservazioni raccolte e di altre eventualmente aggiunte, con lo scopo di superare, avvalendosi
+dell'esperienza svolta, gli ostacoli incontrati e di rendere il progetto più funzionale e adeguato alle
+effettive esigenze degli alunni.
+
+## 5. Organizzazione Dell’Offerta Formativa
+
+
+## 5.1 Formazione Delle Classi - Criteri Delle Classi Prime
+
+Le classi prime della scuola sono formate secondo criteri determinati dal Collegio dei Docenti.
+Nella prima settimana di frequenza i bambini vengono suddivisi in piccoli gruppi per favorire la
+conoscenza reciproca e l’osservazione personalizzata da parte dei docenti.  Successivamente, al
+termine del progetto accoglienza, vengono formate le classi, componendo gruppi omogenei
+nell'eterogeneità secondo i seguenti criteri:
+
+numerosità del gruppo classe;
+
+situazione generale dal punto di vista dell'apprendimento;
+
+presenza di alunni stranieri;
+
+presenza di alunni in situazione di disabilità;
+
+presenza di alunni con svantaggi socio-culturali;
+
+situazione socio-familiare.
+5.2
+
+## Strumenti Per La Rilevazione Iniziale
+
+Allo scopo di avere un quadro completo della situazione particolare di ogni bambino e per favorire
+la stesura di un progetto di team rispettoso delle caratteristiche di ciascuno è necessario che la
+scuola disponga dei seguenti documenti:
+
+fascicolo personale dell'alunno inviato dalla Scuola dell’Infanzia;
+
+informazioni provenienti dalla famiglia;
+
+eventuali certificati medici attestanti patologie;
+
+certificazioni relative a difficoltà o disturbi dell’apprendimento;
+
+certificati attestanti situazioni di disabilità per la quali è previsto il sostegno.
+La famiglia è da considerarsi una fonte privilegiata di informazioni dirette sull’alunno, poiché
+rappresenta il luogo delle sue esperienze principali di vita e di apprendimento.
+Pertanto, sin dall’inizio, è necessario creare con essa un clima di collaborazione fondato sulla
+consapevolezza dell’unicità dei fini che muovono entrambi i soggetti educativi: la Scuola e la
+famiglia.
+
+## 5.3 Programmazione Annuale
+
+La programmazione annuale verticale relativa a tutte le discipline di competenza viene approvata
+dal Collegio Docenti ad inizio anno scolastico, sulla base della proposta elaborata dai gruppi di
+lavoro dei docenti delle discipline.
+Tale programmazione è parte integrante del registro GIORNALE dell’insegnante, che dall’anno
+scolastico 2013/14 è in formato elettronico.
+Si accede dal sito: www.scuolasacrafamigliabg.izscuola.it. Ogni insegnante e ogni famiglia ha una
+password personale per poter accedere al registro che è dotato di un sistema di sicurezza e di
+salvataggio automatico di backup giornaliero.
+
+---
+
+## Pagina 21
+
+20
+La programmazione annuale è stabilita collegialmente nel Curricolo d’Istituto (allegato al PTOF)
+articolata in competenze di riferimento, obiettivi formativi e di apprendimento, distinti in
+conoscenze ed abilità. Sulla base di questo curricolo ogni insegnante costruisce la propria
+programmazione bimestrale delle unità di apprendimento, in cui si precisano le attività, i
+contenuti e la metodologia che si prevedono di impiegare e i criteri di valutazione, stabiliti
+collegialmente. La programmazione bimestrale, in formato cartaceo verrà allegata all’AGENDA della
+programmazione del team di riferimento.
+La programmazione sarà costruita tenendo in considerazione la relazione sulla situazione di
+partenza degli alunni, anch’essa allegata all’AGENDA. Gli insegnanti delle classi parallele si
+incontrano periodicamente e documentano l’attività di programmazione svolta in questi incontri
+attraverso il registro AGENDA DELLA PROGRAMMAZIONE, che raccoglie tutta la documentazione
+degli incontri tra gli insegnanti per:
+Condividere in modo trasversale le programmazioni annuali delle diverse discipline;
+Valutare la situazione di partenza delle singole classi;
+Programmare le attività comuni, progetti particolari, attività integrative;
+Elaborare interventi di recupero, consolidamento o potenziamento;
+Proporre visite e uscite d’istruzione;
+Eventuali incontri con consulenti e specialisti;
+Rapporti con le famiglie e le altre agenzie educative.
+
+## 5.4 Attività Del Collegio Docenti
+
+Da inizio Settembre a fine Giugno
+
+## Ordine Del Giorno Da Trattare Nei Collegi Docenti- Consigli Di Interclasse
+
+1. Presentazione della situazione educativa e didattica della classe; osservazioni su singoli alunni
+Specificazione degli interventi in relazione alla situazione della classe e di singoli alunni
+2. Verifica e programmazione dell’attività di inclusione
+3. Verifica ed organizzazione delle attività curriculari e extracurricolari (quadrimestrale)
+4. Programmazione del lavoro interdisciplinare (quadrimestrale)
+5. Varie ed eventuali
+Le attività annuali del Collegio Docenti sono generalmente così strutturate:
+Settembre: Incontro di apertura del Collegio Docenti Congiunto (Infanzia, Primaria e Secondaria).
+-(Collegio Docenti)  Organizzazione generale dell’organico, assegnazione discipline di competenza,
+nomina incarichi, Programmazione annuale.
+Ottobre:-(Collegio Docenti) Proposte progetti e attività comuni; situazione didattica ed educativa di
+partenza. Incontro del Collegio Congiunto
+
+---
+
+## Pagina 22
+
+21
+Novembre:(Consiglio di Interclasse) situazione didattica educativa, proposte e progetti
+Gennaio:(Collegio Docenti) Situazione didattica-disciplinare intermedia
+Febbraio:(Incontro di Team) Compilazione Scheda di valutazione. Verifica attività di inclusione.
+Incontro del Collegio Congiunto. Assemblee di classe
+Marzo: Colloqui individuali con i genitori
+Aprile: Colloqui individuali con i genitori
+Maggio:(Consiglio di Interclasse) Rilevazione della situazione didattica-disciplinare. Adozione dei libri di
+testo.
+Giugno:(Incontro di Team) Compilazione della Scheda di valutazione. Verifica delle attività di inclusione.
+-(Collegio Docenti) Revisione e verifica di attività e progetti. Esame di nuove proposte.
+Incontro finale del Collegio Congiunto.
+
+## 5.5 Attività Di Formazione Integrata: Recupero Consolidamento E Potenziamento
+
+I Team dei Docenti programmano attività di integrazione scolastica ed iniziative di recupero,
+consolidamento e potenziamento in relazione alle reali esigenze sia delle classi sia dei singoli alunni.
+L'attività di recupero consolidamento e potenziamento è curata dai singoli insegnanti, seguendo la
+metodologia di verifica ed eventuale riprogettazione utilizzando le ore curricolari a disposizione
+degli insegnanti.
+
+## 5.6 Progettazione Dei Piani Di Studio Personalizzati (Legge 53/2003)
+
+Sulla base dei traguardi di sviluppo delle competenze e degli obiettivi di apprendimento di ogni
+disciplina, ciascun insegnante progetta in itinere i Piani di Studio Personalizzati attraverso
+l’organizzazione delle Unità di Apprendimento che si sviluppano mediante l’individuazione dei
+bisogni formativi, la scelta degli obiettivi specifici e di appositi percorsi di metodo e di contenuti, al
+fine di valutare il sapere e il saper fare del bambino.
+BES- BISOGNI EDUCATIVI SPECIALI (Direttiva M. 27/12/2012 - C. M. n. 8 del 06/03/2013 - D. Lgs.
+n. 66/17 art. 8, integrato e modificato dal D. Lgs. 96/19 )
+La Direttiva del MIUR definisce la strategia inclusiva finalizzata a promuovere il diritto
+all’apprendimento per tutti gli alunni in difficoltà. L’identificazione degli alunni che manifestano
+difficoltà non avviene solo sulla base di un eventuale certificazione (sebbene utile per ottenere una
+serie di benefici e tutele) perché le istituzioni scolastiche hanno la responsabilità di attuare le
+strategie di intervento che possano cogliere l’eterogeneità dei bisogni educativi, così da
+personalizzare i percorsi di apprendimento di ogni alunno.
+È responsabilità del team dei Docenti l’individuazione dei casi in cui sia necessaria e opportuna
+l’adozione di una personalizzazione della didattica ed eventualmente di misure compensative e7o
+dispensative, con la successiva stesura di un piano di lavoro (PEI, Piano Educativo Individualizzato,
+oppure PDP, Piano Didattico Personalizzato).
+L’Istituto nomina una commissione BES che, sulla base dei bisogni educativi presenti nella scuola,
+redige all’inizio di ogni anno scolastico una proposta il Piano Annuale per l’Inclusività (PI, allegato)
+che va discusso e deliberato in Collegio Docenti e presentato in Consiglio d’Istituto per il visto entro
+la fine di giugno.
+
+---
+
+## Pagina 23
+
+22
+
+## Modalità Di Attuazione Dell’Inclusione- Il Piano Annuale
+
+La scuola redige annualmente il PI (Piano annuale per Inclusività) nel quale intende raccogliere in un
+quadro organico gli interventi intrapresi per affrontare le problematiche relative all’inclusività con
+particolare
+riguardo
+agli
+alunni
+con
+disabilità,
+difficoltà
+di
+apprendimento,
+disagio
+comportamentale, disturbi specifici dell'apprendimento. Tali interventi che coinvolgono soggetti
+diversi (insegnanti, famiglie, équipe medica, esperti esterni) a livello di Istituzione scolastica devono
+essere gestiti integrando al meglio i contributi delle diverse professionalità coinvolte.
+Modalità operative
+Le modalità operative saranno necessariamente diverse nei casi di:
+1. Alunni con disabilità certificate (legge 104/92)
+2. Alunni con Disturbo Specifico di Apprendimento (l.170/2010)
+3. Alunni con altri bisogni educativi speciali
+Soggetti coinvolti e compiti
+Coordinatrice delle attività didattiche, personale docente e non docente, referenti per la disabilità,
+lo psicologo dell’istituto, gli assistenti educatori, famiglia, assistenti sociali, associazioni ed enti
+presenti sul territorio.
+La Coordinatrice e il Gestore sono garanti del processo di inclusione. A tal fine il Gestore assicura al
+proprio Istituto all’inizio dell’anno scolastico il reperimento di tutti gli ausili e/o attrezzature
+necessarie alle esigenze dell’alunno e fornisce, in caso di disabilità, l’organico di docenti di sostegno
+sulla base della richiesta; collabora anche con Enti e Associazioni esterni all’ambiente scolastico.
+- Consiglio di Interclasse
+Il primo passo per l’inclusione dell’alunno è la stretta collaborazione tra gli insegnanti del Team, per
+favorire l’appartenenza dell’alunno in difficoltà al contesto socio educativo del gruppo classe.
+- Commissione BES, costituita dai docenti referenti presenti nei diversi ordini di scuola. Si auspica la
+costituzione di un GLI d’Istituto, cioè di un Gruppo integrato da tutte le risorse specifiche e di
+coordinamento.  Si occuperà prevalentemente di: formulare progetti per la continuità fra ordini di
+scuola; elaborare progetti specifici per i soggetti con disabilità, in relazione alle specifiche necessità.
+A tale commissione, in assenza del GLI (Gruppo di lavoro per l’inclusione) competono anche le
+problematiche relative a tutti i BES.
+- Personale non docente
+I compiti del personale non docente sono relativi all’ambito dell’assistenza fisica al disabile nonché
+di vigilanza in ambiente scolastico e durante le attività didattiche che si svolgono esterne alla scuola
+in collaborazione con i docenti.
+- Il territorio
+Il territorio è una risorsa importante per il soggetto disabile come in generale per tutti gli alunni. Il
+territorio dà senso alle attività della scuola, integra e definisce il Progetto di Vita dell’alunno. La
+scuola si interfaccia con le amministrazioni comunali dei paesi di provenienza degli alunni.
+- Docenti referenti di classe e docenti di sostegno:
+collaborano per svolgere:
+1. azione di accoglienza e tutoraggio dei nuovi docenti nell’area di sostegno
+2. ricerca e produzione di materiali per la didattica;
+3. individuazione di adeguate strategie educative;
+4. aggiornamento e monitoraggio sull’andamento generale degli alunni certificati;
+5. pianificazione degli incontri famiglia-docenti;
+6. individuazione di adeguate strategie educative;
+7. stesura dei documenti previsti dalla normativa (PEI e PDP)
+
+---
+
+## Pagina 24
+
+23
+Docente referente per i BES collabora con il Dirigente in particolare per:
+1. coordinamento per la stesura del Piano di Inclusione Scolastica (PI);
+2. coordinamento per la compilazione dei documenti (PEI e PDP);
+3. collaborazione nelle attività di formazione per i docenti;
+Per gli alunni con Bisogni Educativi Speciali con certificazione di disabilità da parte dell'ATS di
+competenza e/o con Disturbi Specifici di Apprendimento sono previsti interventi mirati e personalizzati
+documentati nel PEI (Piano Educativo Individualizzato) – (L. 104/1992) e nel PDP (Piano Didattico
+Personalizzato) – (L. 170/2010) per il secondo caso. Tali documenti sono redatti dai Docenti di classe in
+base alla diagnosi e certificazione presentate dalla famiglia dell'alunno, dopo una fase di conoscenza
+della situazione di partenza. Vengono redatti all'inizio di ogni anno scolastico, uno per ogni situazione
+presente nella scuola, sottoscritto dalla Coordinatrice delle attività didattiche, dai Docenti della classe,
+dai genitori dell'alunno e dall'esperto a cui la famiglia si è rivolta per un accompagnamento nel periodo
+scolastico.
+Per gli alunni con BES (Bisogni Educativi Speciali), ma sprovvisti di dichiarazioni di disabilità da parte
+dell'ente ATS preposto, gli insegnanti in sede di programmazione organizzano percorsi personalizzati
+e/o differenziati evidenziando:
+
+situazione di partenza
+
+obiettivi educativi e didattici generali
+
+risultato atteso
+
+strategie
+
+verifica
+La legislazione ministeriale in merito (C.M. 08 06 marzo 2013 e Nota 2563 del 22 novembre 2013)
+richiede che la scuola stili un particolare documento che accompagni tali studenti in momentanea
+difficoltà. Anche in questo caso la famiglia è informata della stesura di tale Piano, proposto dal Consiglio
+di classe e invitata a sottoscriverlo. In caso di mancata accettazione da parte dei familiari, il Consiglio di
+classe prosegue il percorso di supporto intrapreso.
+Entro la fine del mese di giugno la commissione BES è tenuta a stilare il Piano Annuale per l’Inclusività
+(PI). Tale documento illustra l’analisi del contesto di Istituto con l’elencazione dei punti di forza e di
+criticità che riguardano la rilevazione degli alunni con Bisogni Educativi Speciali, le risorse professionali
+interne ed esterne, il coinvolgimento dei docenti curricolari, le famiglie, i servizi socio-sanitari, il
+volontariato e la formazione dei docenti. Nella seconda parte vengono illustrate le aree di intervento. Il
+PI viene è approvato dal Collegio Docenti e dal Consiglio di Istituto al termine dell’anno scolastico per
+poi essere aggiornato in fase di programmazione all’inizio dell’anno scolastico successivo.
+Il PI è allegato al presente documento.
+5.7
+
+## Valutazione
+
+La valutazione degli apprendimenti e della crescita dell'alunno avviene secondo criteri definiti dal
+Collegio Docenti in considerazione del percorso individuale di ciascuno.
+In relazione alle procedure di valutazione, il Collegio dà per universalmente condivisi i seguenti
+concetti:
+ valutare non vuol dire classificare gli alunni;
+ classificare gli alunni non è un modo educativamente corretto per formarli;
+ perché la valutazione sia fattore del processo formativo, occorrono procedure
+formalizzate e interdisciplinari;
+ attraverso la valutazione, l'alunno deve giungere a conoscere se stesso, cioè ad
+autovalutarsi;
+
+---
+
+## Pagina 25
+
+24
+ la valutazione è formativa se consolida e potenzia la cultura di ogni alunno e lo avvia all'auto-
+orientamento;
+ il confronto dei ragazzi tra loro li aiuta ad autovalutarsi e ad auto-orientarsi;
+ il docente contribuisce alla formazione, se collabora con gli alunni alla loro autovalutazione;
+ la valutazione di un alunno potrà essere realmente formativa, quando sarà oggettiva e
+condivisa dalla famiglia, presentandosi come analisi del vissuto scolastico ed extrascolastico
+e come intervento terapeutico e modificativo di tutti i comportamenti non conformi e
+devianti.
+Viene ALLEGATO al presente documento IL PROTOCOLLO DI VALUTAZIONE annualmente
+aggiornato e approvato dal Collegio Docenti in cui si richiamano, a partire dai riferimenti
+normativi più recenti, gli indicatori per la valutazione degli apprendimenti, i criteri di valutazione
+collegialmente stabiliti e i documenti di valutazione adottati. In conformità a tale protocollo si
+richiamano nel seguente paragrafo le indicazioni relative agli strumenti di valutazione previsti.
+5.8
+
+## Strumenti Per La Verifica E La Valutazione Dei Percorsi Didattici
+
+A partire dall’ultimo periodo dell’a.s. 2024-25 cessano di avere efficacia l’Ordinanza Ministeriale n
+172 del 4 dicembre 2020 e relative linee guida, così come stabilito con l’entrata in vigore della
+legge 150 del 1° ottobre 2024, recante “Revisione della disciplina in materia di valutazione delle
+studentesse e degli studenti, di tutela dell’autorevolezza del personale scolastico nonché di
+indirizzi scolastici differenziati” e della relativa ordinanza attuativa O.M. 9 gennaio 2025, n. 3
+
+## Valutazione In Itinere
+
+Per quanto riguarda la valutazione in itinere, sono affidate ai singoli docenti le modalità di raccolta
+degli elementi maggiormente significativi ai fini delle valutazioni periodiche e finali, tali da restituire
+in modo comprensibile agli alunni e alle famiglie il livello di padronanza dei contenuti verificati, in
+conformità con i criteri e le modalità definiti dal Collegio dei docenti e inseriti nel PTOF. La
+valutazione in itinere, espressa nelle forme ritenute più opportune, registra il progresso negli
+apprendimenti degli alunni e consente ai docenti di rimodulare la progettazione curricolare anche ai
+fini dell’individualizzazione e della personalizzazione dei percorsi.
+La valutazione in itinere utilizzerà strumenti di verifica diversificati in relazione al gruppo classe e
+agli obiettivi proposti in modo da fornire informazioni complete circa l’apprendimento degli alunni.
+Le verifiche da predisporre al termine di ogni unità di apprendimento o comunque alla conclusione
+di un percorso formativo-culturale, dovranno essere strettamente connesse con l’attività svolta in
+modo da costituire la naturale conclusione del lavoro.
+Gli strumenti dell'osservazione dell'apprendimento sono:
+
+verifiche al termine di ogni unità di apprendimento con prove strutturate e non
+strutturate in tutte le discipline;
+
+prove informali, cioè tutte le informazioni che emergono nel corso della normale
+attività e dall’interazione con l’alunno (compiti assegnati, osservazione del lavoro in
+classe…); tali dati possono emergere anche in modo informale ed episodico;
+
+eventuali percorsi personalizzati e individualizzati in caso di alunni con Bisogni
+educativi speciali segnalati nell’agenda della programmazione e organizzazione
+didattica.
+Gli strumenti sopra elencati sono a sostegno di una osservazione sistematica che viene svolta
+quotidianamente dagli insegnanti, documentata attraverso annotazione sul registro elettronico
+
+---
+
+## Pagina 26
+
+25
+(giornale dell’insegnante) e di cui rimane traccia anche nei verbali e nelle relazioni degli incontri di
+team degli insegnanti, raccolti nell’agenda della programmazione e organizzazione didattica.
+Per quanto riguarda la valutazione in itinere (verifiche scritte e orali, consegna di elaborati…)
+vengono conservati fino al termine dell’a.s. 2024-25 i criteri già in adozione da parte del Collegio
+Docenti, con attribuzione di un giudizio descrittivo in base al livello raggiunto.
+I docenti valutano, per ciascun alunno, il livello di acquisizione dei singoli obiettivi di apprendimento
+individuati nella progettazione annuale e appositamente selezionati come oggetto di valutazione.
+Sono individuati quattro livelli di apprendimento:
+● avanzato;
+● intermedio;
+● base;
+● in via di prima acquisizione
+I livelli di apprendimento sono definiti sulla base di quattro dimensioni che caratterizzano
+l’apprendimento e che permettono di formulare un giudizio descrittivo, così delineate:
+a) l’autonomia;
+b) la tipologia della situazione (nota o non nota);
+c) le risorse mobilitate per portare a termine il compito;
+d) la continuità nella manifestazione dell'apprendimento.
+
+## Scuola Primaria Sacra Famiglia –
+
+
+## Criteri Di Valutazione
+
+
+## Per L’Attribuzione Dei Livelli Nelle Singole Discipline
+
+nella VALUTAZIONE IN ITINERE
+
+## Livello Di
+
+
+## Apprendimento
+
+
+## Significato Valutativo
+
+
+## Descrittori
+
+
+## Avanzato
+
+Completo e sicuro raggiungimento
+degli obiettivi
+L’alunno porta a termine compiti in situazioni note e
+non note, mobilitando una varietà di risorse sia
+fornite dal docente sia reperite altrove, in modo
+autonomo e con continuità.
+
+## Intermedio
+
+Adeguato e/o Soddisfacente
+raggiungimento degli obiettivi
+L’alunno porta a termine compiti in situazioni note in modo
+autonomo e continuo; risolve compiti in situazioni non note
+utilizzando le risorse fornite dal docente o reperite altrove,
+anche se in modo discontinuo e non del tutto autonomo.
+
+## Base
+
+Raggiungimento degli obiettivi
+anche in forma essenziale
+L’alunno porta a termine compiti solo in situazioni
+note e utilizzando le risorse fornite dal docente, sia
+in modo autonomo ma discontinuo, sia in modo non
+autonomo, ma con continuità.
+
+## In Via Di
+
+
+## Acquisizione
+
+Parziale o mancato raggiungimento
+degli obiettivi
+L’alunno porta a termine compiti solo in situazioni note e
+unicamente con il supporto del docente e di risorse fornite
+appositamente.
+
+## Valutazione Periodica Intermedia E Finale
+
+Per quanto riguarda la valutazione periodica della quale si dà resoconto alle famiglie, gli insegnanti
+si avvalgono di alcuni strumenti necessari:
+
+scheda di valutazione dei singoli alunni alla fine del I e II quadrimestre
+
+certificazione delle competenze acquisite alla fine della classe quinta.
+
+Nota informativa relativa all’insegnamento IRC
+
+---
+
+## Pagina 27
+
+26
+A partire dall’anno scolastico 2013/14 il documento di valutazione viene distribuito ai genitori in
+formato elettronico, con la possibilità di richiederne la stampa in Segreteria.
+L’Ordinanza ministeriale 9 gennaio 2025, n. 3, prevede che le nuove modalità di valutazione siano
+applicate a partire dall’ultimo periodo dell’anno scolastico 2024/2025. Dal medesimo periodo
+didattico cessano di avere efficacia le disposizioni di cui all’ordinanza ministeriale 4 dicembre
+2020, n. 172 e alle relative Linee guida.
+Le nuove disposizioni intervengono sulla valutazione periodica e finale degli apprendimenti riferita a
+ciascuna delle discipline di studio previste dalle Indicazioni nazionali per il curricolo, ivi compreso
+l’insegnamento trasversale di educazione civica di cui alla legge 20 agosto 2019, n. 92, sostituendo i
+giudizi descrittivi con giudizi sintetici correlati alla descrizione dei livelli di apprendimento
+raggiunti. Per esigenze di chiarezza ed efficacia comunicativa nei confronti dei genitori e degli
+alunni, i giudizi sintetici da riportare nel documento di valutazione sono individuati dall’ordinanza
+in una scala decrescente di sei livelli:
+
+## - Ottimo, Distinto, Buono, Discreto, Sufficiente, Non Sufficiente.
+
+Restano ferme le disposizioni di cui all’art. 3 del d.lgs. 62/2017 per l’ammissione alla classe
+successiva o alla prima classe di scuola secondaria di primo grado. Si ricorda che la non ammissione
+è disposta all’unanimità dai docenti della classe solo in casi eccezionali e comprovati da specifica
+motivazione, sulla base dei criteri definiti da collegio dei docenti. In ogni caso, tenuto conto del
+valore formativo della valutazione, la scuola provvede a segnalare tempestivamente e
+opportunamente alle famiglie degli alunni le specifiche strategie per il miglioramento degli
+apprendimenti che adotta nell'ambito della propria autonomia didattica e organizzativa, anche per
+personalizzare i percorsi e far emergere i talenti di ciascuno. Per gli obiettivi non ancora raggiunti, o
+per gli apprendimenti in via di prima acquisizione la normativa prevede che “[l]’istituzione
+scolastica, nell’ambito dell'autonomia didattica e organizzativa, attiva specifiche strategie per il
+miglioramento dei livelli di apprendimento (…).” (art. 2, comma 2 del decreto legislativo n.
+62/2017).
+Il DOCUMENTO DI VALUTAZIONE attesta i risultati del percorso formativo di ciascun alunno
+mediante la descrizione dettagliata dei comportamenti e delle manifestazioni dell’apprendimento
+rilevati in modo continuativo.
+L’Allegato A all’O. M. descrive i sei giudizi sintetici, tenendo in considerazione diverse aree:
+-padronanza e l’utilizzo dei contenuti disciplinari, delle abilità e delle competenze maturate;
+-uso del linguaggio specifico;
+-autonomia e la continuità nello svolgimento delle attività anche in relazione al grado di difficoltà
+delle stesse;
+-capacità di espressione e rielaborazione personale.
+Spetta a ciascuna istituzione scolastica, a norma di quanto previsto dall’articolo 4 del DPR
+275/1999, declinare tali descrizioni per ciascuna disciplina e anno di corso (es. attraverso griglie,
+tabelle e rubriche di valutazione), tenendo a riferimento le Indicazioni nazionali per il curricolo
+vigenti e i curricoli di istituto inseriti nei Piani triennali dell’offerta formativa.
+Pertanto, il collegio dei docenti, in coerenza con le suddette novità, delibera i criteri e le modalità di
+valutazione degli apprendimenti che vengono inseriti nel PTOF e resi pubblici.
+Fermo restando che la valutazione periodica e finale espressa in giudizi sintetici è riferita a
+ciascuna disciplina di studio nella sua interezza, ogni istituzione scolastica ha la facoltà di inserire
+nel documento di valutazione i principali obiettivi disciplinari. Per la valutazione degli alunni con
+disabilità o con disturbi specifici di apprendimento i giudizi sintetici delle discipline andranno
+correlati a quanto previsto, rispettivamente, dal Piano educativo individualizzato o dal Piano
+didattico personalizzato.
+
+---
+
+## Pagina 28
+
+27
+
+## Scuola Primaria Sacra Famiglia –
+
+
+## Criteri Di Valutazione
+
+PER L’ATTRIBUZIONE DEI LIVELLI NELLE SINGOLE DISCIPLINE nella VALUTAZIONE PERIODICA E FINALE
+
+## Giudizio
+
+
+## Sintetico
+
+
+## Significato Valutativo
+
+
+## Descrittori
+
+
+## Ottimo
+
+Completo e sicuro
+raggiungimento degli obiettivi
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza,
+riuscendo
+ad
+affrontare
+anche
+situazioni
+complesse e non proposte in precedenza. È in grado di utilizzare
+conoscenze, abilità e competenze per svolgere con continuità
+compiti e risolvere problemi, anche difficili, in modo originale e
+personale. Si esprime correttamente, con particolare proprietà di
+linguaggio, capacità critica e di argomentazione, in modalità
+adeguate al contesto.
+
+## Distinto
+
+Più che soddisfacente
+raggiungimento degli obiettivi
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza,
+riuscendo
+ad
+affrontare
+anche
+situazioni
+complesse. È in grado di utilizzare conoscenze, abilità e
+competenze per svolgere con continuità compiti e risolvere
+problemi anche difficili. Si esprime correttamente, con proprietà di
+linguaggio e capacità di argomentazione, in modalità adeguate al
+contesto.
+
+## Buono
+
+Soddisfacente raggiungimento
+degli obiettivi
+L’alunno svolge e porta a termine le attività con autonomia e
+consapevolezza. È in grado di utilizzare conoscenze, abilità e
+competenze per svolgere con continuità compiti e risolvere
+problemi. Si esprime correttamente, collegando le principali
+informazioni e usando un linguaggio adeguato al contesto.
+
+## Discreto
+
+Raggiungimento adeguato degli
+obiettivi
+L’alunno svolge e porta a termine le attività con parziale
+autonomia e consapevolezza. È in grado di utilizzare alcune
+conoscenze, abilità e competenze per svolgere compiti e risolvere
+problemi
+non
+particolarmente
+complessi.
+Si
+esprime
+correttamente, con un lessico semplice e adeguato al contesto.
+
+## Sufficiente
+
+Raggiungimento degli obiettivi
+essenziali
+L’alunno svolge le attività principalmente sotto la guida e con il
+supporto del docente. È in grado di applicare alcune conoscenze e
+abilità per svolgere semplici compiti e problemi, solo se già
+affrontati in precedenza. Si esprime con un lessico limitato e con
+qualche incertezza.
+
+## Insufficiente
+
+Parziale o mancato
+raggiungimento degli obiettivi
+L’alunno non riesce abitualmente a svolgere le attività proposte,
+anche se guidato dal docente. Applica solo saltuariamente
+conoscenze e abilità per svolgere alcuni semplici compiti. Si
+esprime con incertezza e in maniera non adeguata al contesto.
+
+## Valutazione Irc
+
+Per la valutazione di Religione cattolica la legge precisa che continua ad essere espressa mediante le
+stesse modalità precedenti, trasmessa ai genitori con una Nota Informativa da allegare al
+documento di valutazione, contenente un giudizio riguardante l’interesse dell’alunno e il profitto
+che ne ritrae.
+Il giudizio per religione cattolica viene espresso attraverso i seguenti descrittori:
+
+## Insufficiente – Sufficiente – Buono – Distinto – Ottimo
+
+
+## Valutazione Del Comportamento
+
+La valutazione del comportamento viene espressa con giudizio. Per la valutazione del
+comportamento si deve fare riferimento alle competenze di cittadinanza. Per l’elaborazione del
+
+---
+
+## Pagina 29
+
+28
+Giudizio di comportamento i Docenti tengono conto dei criteri già in adozione dal Collegio Docenti,
+(espressi per la Didattica in presenza, con le modifiche introdotte ad integrazione per eventuale
+attivazione della DAD, come precisate dal PIANO DDI). Nel Giudizio Globale sono espresse
+eventuali osservazioni aggiuntive nel caso di segnalazione di comportamenti poco corretti o non
+corretti. Per del giudizio sul comportamento gli insegnanti utilizzano la griglia prestabilita
+collegialmente.
+
+## Valutazione Dad
+
+Il protocollo di valutazione comprende anche i criteri approvati dal Collegio Docenti per la valutazione
+delle discipline e del comportamento durante eventuali periodi in DAD.
+
+## Scuola Primaria Paritaria Sacra Famiglia-
+
+Griglia di riferimento per valutazione comportamento.
+
+## Valutazione Sintetica Periodica E Finale
+
+
+## Descrittori Corrispondenti
+
+
+## Maturo E Responsabile
+
+
+svolge con cura e impegno il proprio lavoro;
+rispetta le consegne;
+rispetta le regole di convivenza civile;
+rispetta l’ambiente scolastico;
+favorisce atteggiamenti positivi nel gruppo;
+contribuisce positivamente allo svolgimento delle attività;
+frequenta con regolarità e puntualità
+
+## Corretto E Disponibile
+
+
+svolge sempre il proprio lavoro;
+rispetta le consegne;
+rispetta le regole di convivenza civile;
+rispetta l’ambiente scolastico;
+partecipa alla vita della classe;
+si relaziona bene con i compagni;
+frequenta con regolarità e puntualità
+
+## Corretto
+
+
+svolge il proprio lavoro;
+rispetta le consegne;
+rispetta le regole di convivenza civile;
+rispetta l’ambiente scolastico;
+si relaziona con i compagni;
+frequenta in modo regolare
+
+## Generalmente Corretto
+
+
+Svolge il proprio lavoro;
+generalmente rispetta:
+le consegne, le regole di convivenza civile
+e dell’ambiente scolastico;
+ha poca cura del suo materiale;
+a volte crea disturbo durante le attività;
+frequenta ma non è sempre puntuale
+
+## Non Sempre Corretto
+
+
+Non sempre rispetta le regole, le consegne, l’ambiente scolastico;
+crea disturbo durante le attività;
+non sempre svolge il proprio lavoro;
+non porta il materiale scolastico;
+spesso non è puntuale;
+spesso ha un atteggiamento provocatorio.
+
+## Non Corretto
+
+
+## Non Maturo
+
+
+Non segue le indicazioni dei docenti;
+non svolge il proprio lavoro;
+non rispetta le regole e l’ambiente scolastico;
+disturba le attività della classe;
+ha un linguaggio e un atteggiamento irrispettosi;
+non è puntuale
+
+---
+
+## Pagina 30
+
+29
+
+## 5.9 Didattica E Valutazione Per Competenze
+
+La competenza è “la capacità di far fronte ad un compito, o un insieme di compiti, riuscendo a mettere in
+moto ed a orchestrare le proprie risorse interne, cognitive, affettive e volitive, e a utilizzare quelle esterne
+disponibili in modo coerente e fecondo” [Pellerey, 2004].
+Recependo le sollecitazioni contenute nella Raccomandazione europea (2006) e nelle Indicazioni
+nazionali (2012), la Scuola propone un percorso didattico finalizzato allo sviluppo delle competenze che
+sono valutate mediante dei livelli di acquisizione per giungere alla Certificazione delle competenze a
+conclusione del percorso della scuola primaria e, successivamente, al termine del primo ciclo di
+istruzione. Per gli alunni con disabilità la Certificazione delle Competenze può essere accompagnata, se
+necessario, da una nota esplicativa che rapporti il significato degli enunciati di competenza agli obiettivi
+specifici previsti dal PEI dell’alunno.
+
+## Progettazione Di Un Compito Autentico
+
+Il compito autentico è l’atto che rende esplicita una o più competenze ed è finalizzato alla realizzazione
+di un prodotto. Il compito autentico si struttura attraverso la scelta:
+-
+una o due competenze europee;
+-
+discipline coinvolte;
+-
+traguardi di competenza disciplinari e obiettivi di apprendimento (abilità e conoscenze);
+-
+classe e sezione di riferimento;
+-
+consegna operativa;
+-
+prodotto atteso;
+-
+tempi e fasi di lavoro;
+-
+risorse a disposizione.
+Per ogni area disciplinare i docenti predispongono un compito autentico durante ciascun
+quadrimestre, al fine di raccogliere le informazioni e le valutazioni per competenze necessarie per la
+corretta compilazione del documento di Certificazione delle Competenze, emesso al termine della
+classe quinta.
+
+## 6. Ampliamento Dell’Offerta Formativa
+
+Premessa
+L’Offerta Formativa si esplica attraverso la realizzazione di specifici Progetti e Laboratori che consentono
+l’apprendimento di tecniche operative ed operazioni mentali proficue alla crescita culturale e cognitiva e
+alla soddisfazione di bisogni profondi quali quelli dell’esplorazione, del successo, del vivere in gruppo.
+Questa modalità di lavoro:
+- agevola l’assunzione di responsabilità,
+- facilita l’emergere delle preconoscenze,
+- individua centri di interesse, nuclei di contenuti, passibili di essere affrontati in modo
+interdisciplinari,
+- affina la capacità di organizzare le proprie conoscenze,
+- estende progressivamente l’impiego delle nuove tecnologie,
+- favorisce l’autovalutazione.
+Ogni percorso didattico potrà essere intrapreso a seconda delle esigenze in spazi differenti: l’aula, uno o
+più laboratori, luoghi presenti sul territorio e le modalità applicative verranno definite in sede di
+programmazione del Collegio Docenti e nei vari Consigli di Classe.
+Ogni percorso didattico potrà essere intrapreso a seconda delle esigenze in spazi differenti: l'aula,
+uno o più laboratori, luoghi presenti sul territorio e le modalità applicative verranno definite in sede
+di programmazione.
+
+---
+
+## Pagina 31
+
+30
+
+## Progetti Reiterati Annualmente
+
+1- Progetto educativo annuale
+2- Progetto Scuola - Famiglia
+3 - Progetto accoglienza
+4 -Progetto continuità
+5 -Progetto sicurezza-salute e Life Skills Training Program
+7 -Progetto scuol@mbiente
+8- Progetto madrelingua e potenziamento gioco inglese
+
+## 6.1 Progetto Educativo
+
+Il programma educativo coinvolge tutta la Comunità Educante, orientando le scelte di
+programmazione e organizzazione dell’Offerta Formativa come di tutte le attività proposte in
+ampliamento (incontri formativi, progetti vari, momenti di aggregazione). Ogni anno il tema del
+progetto educativo diventa lo sfondo integratore annuale di tutte le proposte educative e
+didattiche.
+Tappe dell’Itinerario Educativo:
+Accoglienza-Continuità
+Celebrazione inizio anno scolastico
+Attività formative e di service learning
+Cammino di Avvento
+Recita di Natale
+Settimana Santa Paola Elisabetta Cerioli (Festa 23 gennaio)
+Cammino di Quaresima
+Celebrazione fine anno scolastico
+
+## 6.2 Progetto Scuola – Famiglia
+
+La Scuola promuove e sostiene la collaborazione con tutte le famiglie degli alunni per questo richiede:
+ L’accettazione del Patto di corresponsabilità educativa, allegato al PTOF;
+ l’accettazione del presente Piano di Offerta Formativa;
+ la partecipazione agli Organi Collegiali istituiti;
+ la collaborazione attraverso il Comitato Genitori
+Inoltre la Scuola sollecita in ogni modo il coinvolgimento e la collaborazione costruttiva con la
+famiglia nell’azione educativa, attribuendo una fondamentale importanza agli incontri con i
+genitori.
+Si prevedono diverse occasioni di incontro tra genitori e docenti:
+Colloqui individuali bimestrali
+Colloqui collettivi (assemblee di classe) in occasione:
+dell’inizio anno scolastico
+della presentazione dei programmi annuali,
+della consegna dei documenti di valutazione,
+Consigli di interclasse con i rappresentanti genitori.
+Sono considerati e utilizzati strumenti di comunicazione rapidi ed efficaci in primo luogo il diario e le
+comunicazioni tramite Segreteria o attraverso il registro elettronico e la possibilità della
+comunicazione tramite la piattaforma istituzionale Gmail.
+
+---
+
+## Pagina 32
+
+31
+Annualmente sono organizzati degli incontri culturali con esperti secondo un calendario
+comunicato già all’inizio delle attività scolastiche.
+È prevista l’organizzazione di manifestazioni ricreative e feste legate alle diverse ricorrenze in
+collaborazione con il Comitato Genitori.
+
+## 6.3   Progetto Accoglienza
+
+Nel progettare il contesto di accoglienza, è necessario definire alcuni principi procedurali:
+
+## Perché É Importante
+
+mira alla creazione di un progetto educativo finalizzato allo sviluppo integrale della personalità del
+bambino nell'ottica della continuità;
+trova la sua legittimazione nei documenti programmatici;
+permette di rispettare le esigenze del bambino, della famiglia, della scuola;
+
+## A Chi Si Rivolge
+
+ai bambini, all'adulto docente, all'adulto genitore, nel rispetto delle esigenze di ciascuno
+
+## Quali Azioni Implica
+
+l'adozione di strategie di inserimento
+idonea organizzazione degli spazi, flessibile utilizzo dei tempi;
+attenzione ai materiali;
+una puntuale osservazione e un rispetto dei ritmi e dei tempi del distacco;
+un recupero di esperienze e competenze pregresse;
+l'adozione di tecniche di comunicazione efficaci, quali quella dell’esplorazione e del vivere in
+gruppo;
+.
+Durante il progetto accoglienza la scuola propone il seguente orario:
+PRIMO GIORNO DI SCUOLA dalle ore 9.00 alle ore 12.00
+PRIMA SETTIMANA (almeno cinque giorni): dalle ore 8.15 alle ore 12.15 per tutti gli alunni
+(non è previsto il servizio mensa)
+Durante le prime settimane di frequenza scolastica vengono realizzate diverse iniziative di
+accoglienza per tutti gli alunni, in particolare per gli alunni delle classi prime (Festa dell’accoglienza).
+
+## 6.4Progetto Continuità
+
+(C.M. 339/1992; D.M. 16.11.1992;  Legge 148/1990)
+Per garantire all’alunno un percorso formativo organico e completo, che valorizzi le competenze già
+acquisite, i docenti si incontrano con i colleghi degli altri ordini di scuola e, nel rispetto della
+specificità e pari dignità educativa dell'azione di ciascuna scuola:
+- effettuano il passaggio di informazioni tramite il fascicolo personale dell’alunno;
+-confrontano percorsi educativi e metodologie didattiche;
+-costruiscono momenti di lavoro comune.
+Il progetto coinvolge gli insegnanti delle future classi prime per quanto riguarda il collegamento con
+la scuola dell’Infanzia paritarie del territorio di Seriate per il passaggio di informazioni tramite la
+compilazione di uno specifico modulo e la programmazione di incontri con i bambini dell’Infanzia
+per un primo approccio di conoscenza delle attività scolastiche, oltre ad un primo incontro a
+maggio rivolto agli alunni già iscritti alla scuola Primaria, accompagnati dai genitori, per
+permettere la reciproca conoscenza con i futuri docenti.
+
+---
+
+## Pagina 33
+
+32
+Per quanto riguarda la continuità con la scuola Secondaria, gli alunni delle classi quinte sono
+inseriti in un percorso di avvicinamento alle attività della scuola che li accoglierà, gestito e
+predisposto dagli insegnanti di classe in collaborazione con gli insegnanti della Secondaria.
+
+## 6.5 Progetto Sicurezza-Salute
+
+Il Progetto Sicurezza è rivolto a tutte le classi, al fine di rendere gli alunni consapevoli di possibili
+pericoli all'interno della struttura scolastica e di far loro assumere un comportamento responsabile,
+evitando inconvenienti a sé e ai compagni.
+Tale progetto ha inoltre lo scopo di rendere consapevole il Collegio Docenti che il rispetto del
+regolamento sulla sicurezza è un irrinunciabile compito educativo e preventivo.
+Gli alunni saranno condotti a:
+- conoscere le tematiche in generale;
+- essere capaci di formulare una normativa che guidi il loro comportamento;
+- maturare il senso civico, prendendo coscienza del fatto che le regole e gli atteggiamenti corretti
+interiorizzati a scuola debbono essere vissuti anche al di fuori di essa.
+
+## Contenuti Ed Attivita'
+
+Il Progetto Sicurezza-Salute è rivolto a tutte le classi dalla prima alla quinta classe della scuola
+Primaria e prevede la presentazione del Piano di evacuazione della scuola (D.M. 26/08/1992) e
+l’effettuazione annuale del suddetto Piano di evacuazione con una prova di simulazione di
+evacuazione per tutte le classi. Il progetto viene integrato con obiettivi specifici a partire dalla classe
+
+## Iii.
+
+Con periodicità viene proposto agli alunni anche il progetto di primo soccorso (Bimbambulanza)
+
+## Obiettivi Comuni:
+
+-    far riflettere i bambini sui punti salienti del regolamento interno;
+- far tracciare una mappa dei possibili rischi, connessi al movimento in classe e fuori;
+- far riflettere su tutti i possibili scherzi che hanno conseguenze spiacevoli, ma che sono abituali e
+usuali negli alunni;
+- evidenziare tutti i punti pericolosi della classe e della scuola;
+- localizzare le uscite di sicurezza e gli strumenti da utilizzare in caso di emergenza e pericolo;
+- osservare la mappa del piano di evacuazione affissa sulla porta di ogni aula.
+
+## Obiettivi Specifici Per Le Classi Iii-Iv-V:
+
+-
+educazione alla salute realizzata attraverso un percorso di ed. alimentare e di ed. all'igiene
+personale, percorso LST Training Program e progetto Attiva Kids;
+-
+educazione ambientale realizzata attraverso un percorso finalizzato alla conoscenza e al
+rispetto di tutte le forme di vita (curato dagli insegnanti di geografia, lingua italiana, ed.
+all'immagine);
+-
+educazione stradale realizzata attraverso l'intervento di un rappresentante della polizia
+municipale.
+
+## Verifica
+
+La modalità di verifica è l'osservazione attenta e sistematica degli alunni a cui si aggiungono prove
+orali e scritte per quanto riguarda gli argomenti disciplinari
+
+---
+
+## Pagina 34
+
+33
+
+## Life Skills Training Program
+
+All’interno del progetto salute e parallelamente ad esso si struttura il percorso Life Skills Training
+Program inserito nell’offerta formativa della nostra Scuola Primaria a partire dall’a.s. 2021-22 e che va
+ad interessare le classi terze quarte e quinte della Primaria, per proseguire per tutto il triennio della
+Secondaria. Un percorso pluriennale testato e validato, svolto dai docenti di classe formati da tecnici
+dell’ATS, che si propone di sviluppare le abilità di vita (Life Skills) come abilità sociali, assertività,
+gestione della rabbia e dell’aggressività, gestione dei conflitti, saper resistere alla pressione dei pari;
+tutte queste abilità opportunamente sviluppate costituiscono un indispensabile bagaglio di maturazione
+della personalità e sono fattori protettivi di fronte al pericolo, durante l’adolescenza, di cadere nella rete
+delle dipendenze (di sostanze o del gioco d’azzardo) oppure di essere coinvolti in situazioni di bullismo o
+cyberbullismo.
+
+## 6.6 Progetto Scuol@Mbiente
+
+
+## Motivazione
+
+Formare una mente ecologica che sia contemporaneamente critica, problematica e partecipativa.
+Sviluppare tutti gli obiettivi di educazione ambientale e sostenibilità previsti da AGENDA 2030.
+
+## Finalità
+
+-
+Critica: in quanto rende consapevoli gli alunni delle complesse interazioni tra uomo e ambiente in
+modo che osservando il territorio dove vivono siano in grado di riflettere sulle modifiche che l’uomo
+ha apportato nell’ambiente nel corso dei secoli;
+-
+Problematica: capace di evidenziare i problemi facendo un’analisi dinamica e funzionale;
+-
+Partecipativa: in grado di prendere coscienza delle conseguenze delle azioni secondo l’etica delle
+responsabilità e individuare le possibili soluzioni in azioni concrete.
+
+## Obiettivi
+
+Gli alunni devono:
+
+Conoscere ed interagire con l’ambiente circostante;
+
+Essere in grado di porsi domande nell’osservazione di fenomeni naturali e non;
+
+Essere in grado di comprendere che la configurazione di un ambiente è frutto di un lungo processo
+di cambiamento;
+
+Essere in grado di osservare e riflettere sulle modifiche che l’uomo ha apportato all’ambiente nel
+corso dei secoli;
+
+Comprendere l’effetto delle nostre azioni sull’ambiente, promuovendo atteggiamenti consapevoli e
+responsabili per il rispetto della natura e per l’utilizzo delle sue risorse;
+
+Acquisire la consapevolezza della necessità di azioni quotidiane come la raccolta differenziata e il
+riciclaggio del materiale;
+
+Produrre azioni positive a scuola per la salvaguardia dell’ambiente e proporle anche in famiglia.
+
+## Attività
+
+
+Attività didattiche volte a sensibilizzare gli alunni riguardo alla tematica ambientale sia a scuola che
+a casa (programma di tecnologia e scienze);
+
+Raccolta differenziata;
+
+Attività per migliorare la cura dell’ambiente e al fine di ridurre gli sprechi con l’assunzione di ruoli
+quali l’ecologista di classe;
+
+Utilizzo di forme concrete di recupero e riciclo di materiali (es.: fogli fronte/retro o agende ormai
+datate come fogli di brutta copia);
+
+Progettazione e realizzazione di oggetti attraverso l’utilizzo di materiali di recupero.
+
+---
+
+## Pagina 35
+
+34
+
+## Verifica – Valutazione
+
+Il progetto sarà valutato controllando i processi individuali che sa innescare, per i cambiamenti che
+produce nelle capacità, nelle competenze e nei comportamenti e avverrà in itinere senza prevedere
+momenti specifici. Gli strumenti per la valutazione si identificano in osservazioni, discussioni,
+questionari, dibattiti, elaborazioni di materiali e loro presentazione.
+
+## 6.7 Progetto Madrelingua
+
+Il progetto coinvolge gli alunni delle classi terze quarte e quinte della scuola Primaria, utilizzando
+una parte delle ore settimanali previste per l’insegnamento della lingua inglese (l’orario settimanale
+curricolare di inglese è di due ore dalla prima alla terza e quattro ore in quarta e quinta) e prevede
+l’affiancamento di un esperto madrelingua in compresenza con l’insegnante specialista interna.
+A questo progetto si affianca il potenziamento gioco in inglese di classi prime e seconde durante
+la ricreazione (con un’esperta esterna in compresenza).
+
+## Obiettivi
+
+Potenziare la conoscenza e l’uso della lingua inglese attraverso l’intervento sistematico dell’esperto
+madrelingua anche in situazioni di gioco e divertimento;
+Consolidare le capacità di listening and speaking comprehension;
+Accrescere l’autostima degli alunni attraverso l’esercizio delle proprie capacità;
+Sviluppare la capacità comunicativa verbale e gestuale anche nella lingua inglese;
+Partecipare a conversazioni guidate su argomenti concordati col docente di classe in modo da
+espandere il lessico e curare la corretta pronuncia;
+
+## 6.8  Tipi Di Servizi Previsti Dalla Scuola
+
+L’ampliamento dell’offerta Formativa si esplica inoltre attraverso la realizzazione di specifici
+progetti e laboratori, proposti dalle insegnanti delle singole classi, che consentono l’apprendimento
+di tecniche operative e operazioni mentali proficue per la crescita culturale e cognitiva e per la
+soddisfazione di bisogni profondi. Per arricchire e ampliare l’Offerta Formativa, sono previste le
+seguenti attività:
+
+attività sportive curricolari;
+
+attività di approfondimento musicale (progetto musica con esperto esterno);
+
+partecipazione a mostre e spettacoli;
+
+visite d’istruzione guidate;
+
+visite per la conoscenza delle risorse del territorio;
+
+attività extrascolastiche (minivolley, basket, danza, aerobica, ginnastica artistica, inglese);
+
+iniziative estive di aggregazione (C.R.E Sportingioco e Summercamp)
+
+attuazione di eventuali iniziative in tema di educazione alimentare, stradale, alla sicurezza e
+alla salute.
+La Scuola offre inoltre i seguenti servizi:
+MENSA: con assistenza alla ricreazione del dopopranzo utilizzando gli spazi all’interno e all’esterno
+della scuola.
+TRASPORTO: a gestione esterna.
+ANTICIPO E POSTICIPO: È possibile anticipare l’ingresso alle ore 7.30 e posticipare l’uscita alle ore
+17.30 (previo versamento di quota aggiuntiva).
+
+---
+
+## Pagina 36
+
+35
+SPAZIO COMPITI: Mercoledì (16.00-17.30) e Venerdì (13.00-16.00)
+SERVIZI DI CONSULENZA PEDAGOGICA: uno sportello psicologico è presente nella scuola per i
+genitori che avessero necessità di un colloquio in giorni e orari stabiliti.
+
+## 6.9 Attivitá Extrascolastiche:
+
+Si prevedono durante il periodo dell’anno scolastico dei corsi, a pagamento, che non dovranno
+sovrapporsi alle ore curricolari del pomeriggio, perciò si svolgeranno in orario pomeridiano, dalle ore
+16.00 in poi, oppure il venerdì pomeriggio.
+L’attuazione di tali corsi avviene in base alle richieste pervenute dai genitori, in relazione al numero di
+alunni che ne abbiano richiesto la frequenza e in relazione al tipo di attività, che dovrà rientrare nel
+progetto educativo della scuola.
+Solitamente i corsi attivati sono:
+multisport, danza, circomotricità, ginnastica artistica, judo, potenziamento inglese, sci.
+Le diverse attività saranno scelte di anno in anno e proposte alle famiglie tramite relative schede di
+presentazione e di iscrizione. Per motivi organizzativi, il corso di sci sarà proposto il venerdì pomeriggio.
+
+---
+
+## Pagina 37
+
+36
+
+## 7 Scelte Strategiche -  Rapporto Di Autovalutazione (Rav)
+
+
+## E  Piano Di Miglioramento
+
+
+## 7.1 Priorità Desunte Dal Rav
+
+
+## Aspetti Generali
+
+La Scuola Cattolica gestita e coordinata dalle suore della Sacra Famiglia vuole realizzare nel concreto il
+diritto ad esercitare la libertà d’insegnamento. Continua la sua missione al servizio del territorio e si
+rivolge a tutte le famiglie adottando una serie di impegni e di obiettivi:
+a) collaborare con la regolarità e l’efficienza del suo servizio al pieno raggiungimento degli scopi che le
+famiglie si sono prefisse affidandoci i loro figli, svolgendo un compito educativo-formativo secondo la
+linea e l’eredità lasciateci da Santa Paola Elisabetta;
+b) stimolare con la sua presenza iniziative di carattere culturale e religioso e sociale soprattutto con
+attività che meglio rispondono al caratteristico fine dell’Istituto;
+c) mettere a disposizione le sue attrezzature, il suo personale, la sua esperienza educativa a favore della
+famiglia soprattutto nelle situazioni e nelle circostanze meno favorevoli;
+d) promuovere la presenza attiva e stimolante dei genitori, interpreti autorevoli delle esigenze del
+territorio, in modo da suscitare iniziative adeguate;
+e) collaborare con altre scuole statali e non, per attività comuni sia didattico-sperimentali, che culturali,
+sportive, ecc.
+La scuola si fonda su una stretta collaborazione con le famiglie che saranno chiamate a partecipare
+attivamente alla vita, ai programmi e alle scelte della Scuola Cattolica. In quest’ottica l’Istituto s’impegna
+pure al contenimento delle quote di frequenza, favorendo in particolare quelle famiglie che, pur non
+avendo possibilità economiche, desiderano dare ai loro figli una scuola che risponda alle proprie
+aspirazioni.
+
+## 1.2 Priorità E Traguardi
+
+
+## - Risultati Scolastici
+
+Priorità
+Curare la personalizzazione della didattica.
+Traguardi
+Sviluppare strategie adeguate ai diversi stili di apprendimento degli alunni.
+
+## - Risultati Nelle Prove Standardizzate Nazionali
+
+Priorità
+Formazione docenti e preparazione alunni su percorsi didattici finalizzati ad affrontare in modo sereno e
+autonomo le prove nazionali.
+Traguardi
+Mantenere nel tempo i risultati ottenuti considerando che sono di un livello superiore alla media
+nazionale e regionale.
+
+## - Competenze Chiave Europee
+
+Priorità
+1)Sviluppare l'autonomia personale e le competenze sociali e relazionali dell'alunno nella Scuola
+Primaria;
+2)curare la personalizzazione della didattica: sviluppare strategie adeguate ai diversi stili di
+apprendimento degli alunni;
+
+---
+
+## Pagina 38
+
+37
+3)Potenziamento della lingua inglese con madrelingua
+Traguardi
+1)Aiutare a raggiungere un'autonoma capacità di lavoro e collaborazione nella consapevolezza delle
+proprie potenzialità e dei propri limiti.
+2)Miglioramento la comprensione e la comunicazione in lingua inglese.
+
+## 1.3 Obiettivi Formativi Prioritari (Art. 1, Comma 7 L. 107/15)
+
+
+## Aspetti Generali
+
+L'istituto scolastico si propone le seguenti finalità:
+-
+Educazione integrale della persona: usando il sapere (le conoscenze) e il fare (le abilità) come
+occasioni per sviluppare armonicamente la personalità degli allievi in tutte le direzioni (etiche,
+religiose, sociali, intellettuali, affettive, operative, creative)
+-
+Aiuta l'alunno a formare la propria identità personale: accompagna l’alunno nel suo processo
+interiore di costruzione di una personalità con l’aiuto degli adulti (genitori e insegnanti), anche
+attraverso percorsi mirati di educazione all’affettività.
+-
+Accompagna l'alunno in un graduale percorso di acquisizione di autonomia personale e di gestione
+del proprio lavoro,
+-
+Aiuta lo studente ad acquisire un’immagine sempre più chiara ed approfondita della realtà sociale
+-
+Aiuta a costruire relazioni positive: l’alunno impara a interagire con i coetanei e con gli adulti,
+mantenendo sempre aperta la disponibilità al dialogo, alla critica e alla collaborazione
+-
+Sostiene la ricerca di senso e di motivazione: radicando negli alunni conoscenze e abilità disciplinari
+e interdisciplinari partendo dalle effettive capacità di ciascuno, utilizzando le modalità più motivanti
+e ricche di senso.
+-
+Previene il disagio attraverso la disponibilità all’ascolto e al dialogo, fornendo esempi di stili di vita
+positivi, condividendo esperienze, problemi e scelte.
+
+## Obiettivi Formativi Individuati Dalla Scuola
+
+1 ) valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento all'italiano
+nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante l'utilizzo della
+metodologia Content Language Integrated Learning (CLIL)
+2 ) potenziamento delle competenze matematico-logiche e scientifiche
+3 ) sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità, della
+sostenibilità ambientale, dei beni paesaggistici, del patrimonio e delle attività culturali
+4 ) potenziamento delle discipline motorie e sviluppo di comportamenti ispirati a uno stile di vita sano,
+con particolare riferimento all'alimentazione, all'educazione fisica e allo sport, e attenzione alla tutela
+del diritto allo studio degli studenti praticanti attività sportiva agonistica
+5 ) sviluppo delle competenze digitali degli studenti, con particolare riguardo al pensiero
+computazionale, all'utilizzo critico e consapevole dei social network e dei media nonché alla produzione
+e ai legami con il mondo del lavoro
+6 ) potenziamento della didattica all’aperto, delle metodologie laboratoriali e delle attività di laboratorio
+7 ) prevenzione del disagio e contrasto della dispersione scolastica, di ogni forma di discriminazione e
+del bullismo, anche informatico; potenziamento dell'inclusione scolastica e del diritto allo studio degli
+alunni con bisogni educativi speciali attraverso percorsi individualizzati e personalizzati, anche con il
+supporto e la collaborazione dei servizi socio-sanitari ed educativi del territorio e delle associazioni di
+settore e attraverso l'applicazione delle linee di indirizzo per favorire il diritto allo studio degli alunni,
+emanate dal MIUR il 18 dicembre 2014.
+8 ) valorizzazione della scuola intesa come comunità attiva, aperta al territorio e in grado di sviluppare e
+aumentare l'interazione con le famiglie e con la comunità locale, comprese le organizzazioni del terzo
+settore e le imprese
+
+---
+
+## Pagina 39
+
+38
+9 ) apertura pomeridiana della scuola e riduzione del numero di alunni e di studenti per classe o per
+articolazioni di gruppi di classi, anche con potenziamento del tempo scolastico o rimodulazione del
+monte orario rispetto a quanto indicato dal regolamento di cui al decreto del Presidente della
+Repubblica 20 marzo 2009, n. 89
+10 ) individuazione di percorsi e di sistemi funzionali alla premialità e alla valorizzazione del merito degli
+alunni e degli studenti
+
+## 1.4 Piano Di Miglioramento
+
+
+## 1) Implementazione Della Didattica E Valutazione Per Competenze
+
+
+## Descrizione Percorso
+
+L'Istituto, già da anni si è attivato per promuovere la formazione dei docenti sulla didattica e valutazione
+per competenze. I docenti attraverso corsi interattivi sono stimolati a costruire compiti autentici da
+proporre ai ragazzi finalizzati alla valutazione delle competenze trasversali e disciplinari
+
+## Obiettivi Di Processo Collegati Al Percorso
+
+
+## Obiettivi Di Processo ( Curricolo, Progettazione E Valutazione)
+
+Obiettivo:  Progettare e valutare per competenze (Programmazione del singolo docenti e Unità di
+apprendimento e Programmazione trasversale del Team Docenti della classe).
+
+## Priorità Collegate All’Obiettivo
+
+Priorità [Risultati scolastici]: Curare la personalizzazione della didattica.
+
+## Attività Prevista Nel Percorso: Compito Autentico Annuale
+
+Tempistica prevista per la conclusione dell'attività: fine anno scolastico
+Destinatari Studenti: Soggetti Interni/Esterni Coinvolti Studenti Docenti
+Responsabile: Collegio Docenti
+Risultati Attesi: Miglioramento dell'inclusione. Valorizzazione delle competenze nascoste. I ragazzi sono
+stimolati a collaborare per il raggiungimento di un obiettivo comune. I Docenti possono osservare e
+valutare le competenze effettive raggiunte dagli alunni
+
+## 2) Potenziamento Inglese Con Madrelingua
+
+
+## Descrizione Percorso
+
+Il percorso prevede il potenziamento della lingua inglese nella Scuola Primaria, aumentando il monte ore
+a disposizione ed introducendo gradualmente l'insegnamento di madrelingua inglese.
+
+## Obiettivi Di Processo Collegati Al Percorso
+
+
+## Obiettivi Di Processo (Curricolo, Progettazione E Valutazione)
+
+Obiettivo: Potenziare le ore disponibili per il potenziamento della lingua inglese introducendo
+l'insegnante di madrelingua
+
+## Priorità Collegate All’Obiettivo
+
+Priorità [Competenze chiave europee]: Potenziamento della lingua inglese con madrelingua
+
+## Attività Prevista Nel Percorso: Progetto Madrelingua
+
+Tempistica prevista per la conclusione dell'attività: fine anno scolastico
+Destinatari: Studenti
+Soggetti Interni/Esterni Coinvolti: Studenti Docenti ed esperti esterni
+Responsabile: Docenti di Lingua Inglese
+
+---
+
+## Pagina 40
+
+39
+Potenziamento del monte ore dedicato all'insegnamento della lingua inglese nella Scuola Primaria: n. 4
+ore settimanali nelle classi quarte e quinte.
+Potenziamento inglese in gioco durante la ricreazione per classi prime e seconde.
+Madrelingua Scuola Primaria: Progetto con madrelingua classi terze quarte e quinte.
+Risultati Attesi
+Miglioramento delle competenze comunicative nella lingua inglese, non solo scritte ma anche orali, con
+maggiore cura della pronuncia e della fluenza del discorso.
+
+## 3) Outdoor Education
+
+
+## Descrizione Percorso
+
+L’outdoor education si propone di valorizzare le esperienze basate sullo “star fuori” (out-door)
+assumendo l’ambiente esterno come spazio di formazione.
+
+## Obiettivi Di Processo Collegati Al Percorso
+
+-
+Trasformare il modello trasmissivo della scuola
+-
+Creare nuovi spazi per l’apprendimento
+-
+Riorganizzare il tempo del fare scuola
+-
+Riconnettere i saperi della scuola e i saperi della società della conoscenza
+
+## Obiettivi Di Processo (Curricolo, Progettazione E Valutazione)
+
+Obiettivo:
+Crescente utilizzo della didattica all’aperto che, a partire dai tempi di ricreazione e di educazione
+motoria, estesa ad altre discipline, in particolare con frequenti attività a partire da esperienze
+ludiche, con la costruzione di percorsi esperienziali di scoperta, valorizzazione e rispetto
+dell’ambiente, di esplorazione e ricerca nello spazio esterno e sul territorio. Le attività svolte
+all’aperto rientrano nella progettazione curricolare e sono oggetto di valutazione all’interno del
+percorso didattico delle diverse discipline coinvolte.
+
+## Priorità Collegate All’Obiettivo
+
+Priorità [Competenze chiave europee]: Imparare ad imparare; Spirito d’iniziativa; Competenze sociali e
+civiche
+
+## Attività Prevista Nel Percorso: Outdoor Education
+
+L’offerta formativa dell’Outdoor education include una numerosa gamma di attività didattiche che
+vanno da semplici esperienze di tipo percettivo-sensoriale (orto didattico, visite a fattorie, musei,
+parchi, ecc.) ad esperienze basate su attività sociomotorie ed esplorative tipiche dell’Adventure
+education (sport e gioco all’aperto, orienteering, trekking, arrampicata, ecc.), a progetti scolastici
+che intrecciano l’apertura al mondo naturale con la tecnologia (coding, pixel art, robotica, ecc.).
+Tempistica prevista per la conclusione dell'attività: fine anno scolastico
+Destinatari: Studenti
+Soggetti Interni/Esterni Coinvolti: Studenti Docenti ed eventuali esperti esterni
+Responsabile: Docenti di classe
+Risultati Attesi
+Miglioramento delle competenze sociali e civiche, di rispetto e valorizzazione dell’ambiente naturale,
+maggiore possibilità di un rapporto diretto e concreto con il mondo reale e il pieno coinvolgimento
+del soggetto in formazione
+
+---
+
+## Pagina 41
+
+40
+
+## 1.5 Principali Elementi Di Innovazione
+
+
+## Aree Di Innovazione:
+
+
+## - Pratiche Di Valutazione
+
+Implementazione della costruzione di rubriche per la valutazione delle competenze da utilizzare come
+strumenti di riferimento durante la compilazione del certificato delle competenze al termine della
+Scuola Primaria e Scuola Secondaria di I grado.
+
+## - Potenziamento Dell’Uso Della Lingua Straniera Nella Quotidianità
+
+- POTENZIAMENTO DELLE ATTIVITÀ LABORATORIALI E RINNOVO STRUMENTAZIONE LABORATORI DI
+
+## Informatica E Scienze
+
+
+---
+
+## Pagina 42
+
+41
+
+## 8.Gestione Dell’Unità
+
+
+## Scolastica Autonoma
+
+
+## 8.1 Regolamento D’Istituto
+
+Approvato dal Consiglio di Istituto in data 05 settembre 2013. Il documento è consultabile in forma
+cartacea e online sul sito della Scuola. Contiene e regolarizza l’attività scolastica, i tempi e gli spazi
+dell’attività didattica curriculare e extracurriculare. È allegato al presente documento.
+
+## 8.2 Regolamento Degli Studenti
+
+Il regolamento degli studenti è riportato sul diario scolastico in adozione.
+
+## 8.3 Regolamento Dei Docenti
+
+Il regolamento dei docenti viene consegnato agli insegnanti in servizio presso la Scuola ed esposto in
+bacheca.
+
+## 8.4 Patto Di Corresponsabilità Educativa
+
+Il documento viene consegnato a tutte le famiglie all’inizio dell’anno scolastico e sottoscritto dai genitori
+e dall’alunno stesso. È consultabile in forma digitale sul sito della scuola. È allegato al presente
+documento.
+
+## 8.5 Uso Delle Aule Speciali
+
+L’uso delle aule speciali è regolato da un codice di comportamento affisso negli specifici spazi preposti.
+
+## 8.6 Modalità Di Convocazione E Svolgimento Delle Assemblee Di Classe
+
+ La convocazione delle riunioni da parte della Scuola (Consiglio di Interclasse, Collegio dei Docenti, ...)
+e di qualsiasi assemblea di carattere didattico è fatta dalla Coordinatrice didattica. In esse si
+discuteranno gli argomenti all’ordine del giorno e ogni delibera verrà presa a maggioranza dei
+presenti secondo le disposizioni ministeriali.
+ Le assemblee di classe possono essere convocate dai genitori rappresentanti di classe purché si
+rivolga domanda, cinque giorni prima, alla Direzione. In tale richiesta vengono specificati l’ordine del
+giorno e la richiesta di autorizzazione all’uso dei locali.
+- Il Consiglio d’Istituto viene convocato dal Presidente in data concordata con la Direzione e
+sarà sempre preceduto da riunioni della Giunta esecutiva, secondo le disposizioni ministeriali.
+Calendario dei colloqui
+Ogni anno, entro i primi giorni di ottobre, la Scuola elabora e pubblica il Calendario dei colloqui
+individuali con i genitori degli alunni.
+
+## 8.7  Servizi Amministrativi
+
+ La scuola individua, fissandone e pubblicandone gli standard e garantendone altresì l’osservanza ed il
+rispetto, i seguenti fattori di qualità dei servizi amministrativi: celerità delle procedure, trasparenza,
+informatizzazione dei servizi di segreteria, tempi di attesa agli sportelli.
+ La distribuzione dei moduli di iscrizione è effettuata nei giorni previsti secondo un orario
+pubblicizzato in modo efficace.
+ La Segreteria garantisce lo svolgimento delle procedure di iscrizione alle classi all’istante.
+
+---
+
+## Pagina 43
+
+42
+ Il rilascio dei certificati è effettuato nel normale orario di apertura della Segreteria al pubblico entro il
+tempo massimo di tre giorni lavorativi per quelli di iscrizione e frequenza, entro cinque giorni per
+quelli con votazioni e/o giudizi.
+ I documenti di valutazione degli alunni sono pubblicati on line previa comunicazione ai genitori. La
+Segreteria se necessario è a disposizione per un’eventuale stampa degli stessi,
+ Gli uffici di Segreteria, compatibilmente con la dotazione organica di personale amministrativo,
+garantiscono il seguente orario di apertura al pubblico: dalle ore 8.00 alle ore 10.00 tutti i giorni (da
+lunedì al sabato).
+ La Coordinatrice riceve isia su appuntamento telefonico richiesto in Segreteria sia secondo un orario
+di ricevimento.
+ La scuola assicura all’utente la tempestività del contatto telefonico o tramite mail, stabilendo al
+proprio interno modalità di risposta che comprendano il nome dell’istituto, il nome e la qualifica di
+chi risponde, la persona o l’ufficio in grado di fornire le informazioni richieste.
+Per l’informazione vengono seguiti i seguenti criteri:
+ La Scuola assicura spazi ben visibili, in apposite bacheche, adibiti all’informazione:
+ -tabella dell’orario di lavoro dei dipendenti (orari dei docenti).
+ -orario delle lezioni;
+ -regolamento d’Istituto
+ -organigramma degli uffici (presidenza e servizi);
+ -organico del personale docente;
+ -varie
+ Sono inoltre resi disponibili appositi spazi per:
+ - bacheca sindacale;
+ - bacheca degli studenti;
+ - bacheca dei genitori.
+ Presso l’ingresso e presso gli uffici saranno sempre presenti e riconoscibili operatori scolastici in
+grado di fornire all’utenza le prime informazioni per la fruizione del servizio.
+
+## 8.8 Operatori Scolastici
+
+Gestore
+Coordinatrice delle attività didattiche
+Docenti
+Personale non docente
+
+## 8.9 Procedure Dei Reclami
+
+ I reclami possono essere espressi in forma orale, scritta (su modulo apposito da richiedere in
+segreteria), telefonica, via fax e devono contenere generalità, indirizzo e reperibilità del proponente.
+ I reclami orali e telefonici dovranno, successivamente, essere sottoscritti.
+ I reclami anonimi non saranno presi in considerazione, se non circostanziati.
+ Il Gestore, dopo aver esperito ogni possibile indagine in merito, risponderà, sempre in forma scritta,
+con celerità e, comunque, non oltre quindici giorni, attivandosi per rimuovere le cause che hanno
+provocato il reclamo.
+
+---
+
+## Pagina 44
+
+43
+ Qualora il reclamo non sia di competenza del Gestore, al reclamante saranno fornite indicazioni circa
+il corretto destinatario.
+
+## Elenco Documenti Allegati
+
+Fanno parte integrante del presente Piano triennale dell’Offerta Formativa i seguenti documenti:
+Allegato 1- Curricolo d’Istituto
+Allegato 2- Regolamento d’Istituto
+Allegato 3- Patto Educativo di Corresponsabilità
+Allegato 4- Piano Annuale dell’Inclusione
+Allegato 5- Piano di Miglioramento
+Allegato 6- Protocollo di valutazione + Valutazione DAD Primaria
+Allegato 7- Regolamento Aule Speciali (biblioteca, laboratorio di informatica, Aula di Scienze)
+Allegato 8- Regolamento alunni
+Allegato 9- Regolamento Docenti
+Allegato 10- Piano scolastico per la Didattica Digitale Integrata (Piano DDI)
+
+---
+
+## Pagina 45
+
+44
+Il presente Piano triennale dell’Offerta formativa è stato aggiornato per l’anno
+scolastico 2024-25 in data 8.9.24 e nuovamente aggiornato e approvato dal
+Collegio docenti per il triennio 2025-2028 con delibera del 10 marzo 2025.
+Approvato dal Consiglio d’istituto in data 20.03.2025
+
+## Scuola Primaria Paritaria
+
+
+## “Sacra Famiglia”
+
+Via L. Corti n. 6  2922035
+24068 COMONTE di SERIATE (BG)
+- Tel. 035/297227 e Fax035/
+Sito Internet:www.scuolasacrafamigliabg.it
+E-mail: scuola@istitutosacrafamigliabg.it
+
+---
+
+## Pagina 46
+
+
+
+---
+

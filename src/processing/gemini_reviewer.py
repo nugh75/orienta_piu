@@ -89,7 +89,10 @@ def load_status() -> Dict:
 
 def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
     """Chiama Google Gemini API"""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    # Sanitize model name for Google API (remove OpenRouter prefixes/suffixes)
+    clean_model = model.replace("google/", "").replace(":free", "")
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{clean_model}:generateContent?key={api_key}"
     
     headers = {
         "Content-Type": "application/json"
@@ -156,6 +159,7 @@ ISTRUZIONI OPERATIVE:
 4. NON CANCELLARE le sezioni esistenti. Mantieni i titoli e la struttura.
 5. NON INVENTARE nulla. Usa solo informazioni presenti nel PTOF.
 6. Se il report è troppo generico, rendilo più specifico citando il testo originale.
+7. CONTROLLO SEZIONE ORIENTAMENTO: Se nel PTOF originale NON esiste un capitolo dedicato all'Orientamento, NON inventarlo e NON scrivere che esiste nella sezione "2.1 Sezione Dedicata". Sii onesto sulla sua assenza.
 
 IMPORTANTE - STRUTTURA OBBLIGATORIA DA PRESERVARE:
 Il report finale DEVE contenere ESATTAMENTE questi titoli (non tradurli, non cambiarli):

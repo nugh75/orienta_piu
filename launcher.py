@@ -1,208 +1,169 @@
-#!/usr/bin/env python3
-import customtkinter as ctk
+from textual.app import App, ComposeResult
+from textual.containers import Container, Horizontal, Vertical, ScrollableContainer
+from textual.widgets import Header, Footer, Button, Input, Label, Select, Log, Static
+from textual.worker import Worker, WorkerState
 import subprocess
-import threading
-import queue
 import os
-import sys
 import signal
-import time
 
-# Configuration
-ctk.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
-ctk.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+class LIsteLauncher(App):
+    CSS = """
+    Screen {
+        layout: grid;
+        grid-size: 2;
+        grid-columns: 30% 70%;
+    }
+    #sidebar {
+        height: 100%;
+        background: $panel;
+        border-right: vkey $accent;
+        padding: 1;
+    }
+    #main {
+        height: 100%;
+        padding: 1;
+    }
+    .section-title {
+        text-align: center;
+        text-style: bold;
+        margin-top: 1;
+        margin-bottom: 1;
+        background: $accent;
+        color: $text;
+    }
+    Button {
+        width: 100%;
+        margin-bottom: 1;
+    }
+    Log {
+        border: solid $accent;
+        height: 1fr;
+    }
+    #controls {
+        height: auto;
+    }
+    """
 
-class LIsteApp(ctk.CTk):
-    def __init__(self):
-        super().__init__()
-
-        # Window setup
-        self.title("LIste Control Panel")
-        self.geometry("1100x700")
-
-        # Grid layout (2 columns: Sidebar, Main)
-        self.grid_columnconfigure(1, weight=1)
-        self.grid_rowconfigure(0, weight=1)
-
-        # State variables
-        self.process = None
-        self.queue = queue.Queue()
-        self.is_running = False
+    def compose(self) -> ComposeResult:
+        yield Header(show_clock=True)
         
-        # --- SIDEBAR ---
-        self.sidebar_frame = ctk.CTkFrame(self, width=200, corner_radius=0)
-        self.sidebar_frame.grid(row=0, column=0, sticky="nsew")
-        self.sidebar_frame.grid_rowconfigure(10, weight=1)
+        # Sidebar
+        with Vertical(id="sidebar"):
+            yield Label("⚙️ Configurazione", classes="section-title")
+            yield Label("N. Scuole:")
+            yield Input(value="5", id="n_schools")
+            yield Label("Modello LLM:")
+            yield Select.from_values([
+                "meta-llama/llama-3.3-70b-instruct:free",
+                "google/gemini-2.0-flash-exp:free",
+                "mistralai/mistral-7b-instruct:free",
+                "openai/gpt-4o-mini"
+            ], value="meta-llama/llama-3.3-70b-instruct:free", id="model_select")
+            
+            yield Label("📥 Download", classes="section-title")
+            yield Button("Download Sample (5)", id="btn_sample")
+            yield Button("Download Stratificato", id="btn_strato")
+            yield Button("Download Statali", id="btn_statali")
+            
+            yield Label("🤖 Analisi", classes="section-title")
+            yield Button("Avvia Workflow", id="btn_run")
+            yield Button("Review Scores", id="btn_review")
+            yield Button("Backfill", id="btn_backfill")
+            
+            yield Label("📊 Dati", classes="section-title")
+            yield Button("Rigenera CSV + Geo", id="btn_csv")
+            yield Button("Avvia Dashboard", id="btn_dash")
+            yield Button("Pulisci Cache", id="btn_clean")
 
-        self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="LIste\nControl Panel", font=ctk.CTkFont(size=20, weight="bold"))
-        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+        # Main Area
+        with Vertical(id="main"):
+            yield Label("🖥️ Console Output", classes="section-title")
+            yield Log(id="console_log", highlight=True)
+            with Horizontal(id="controls"):
+                yield Button("🛑 STOP", id="btn_stop", variant="error", disabled=True)
+                yield Button("🧹 Clear", id="btn_clear")
 
-        # Settings: N Schools
-        self.n_schools_label = ctk.CTkLabel(self.sidebar_frame, text="N. Scuole (per strato):", anchor="w")
-        self.n_schools_label.grid(row=1, column=0, padx=20, pady=(10, 0), sticky="w")
-        self.n_schools_entry = ctk.CTkEntry(self.sidebar_frame)
-        self.n_schools_entry.grid(row=2, column=0, padx=20, pady=(0, 10))
-        self.n_schools_entry.insert(0, "5")
+        yield Footer()
 
-        # Settings: Model
-        self.model_label = ctk.CTkLabel(self.sidebar_frame, text="Modello LLM:", anchor="w")
-        self.model_label.grid(row=3, column=0, padx=20, pady=(10, 0), sticky="w")
-        self.model_option = ctk.CTkOptionMenu(self.sidebar_frame, values=[
-            "meta-llama/llama-3.3-70b-instruct:free",
-            "google/gemini-2.0-flash-exp:free",
-            "mistralai/mistral-7b-instruct:free",
-            "openai/gpt-4o-mini"
-        ])
-        self.model_option.grid(row=4, column=0, padx=20, pady=(0, 10))
-
-        # Settings: API Key (Optional visual placeholder)
-        self.api_label = ctk.CTkLabel(self.sidebar_frame, text="API Key (opzionale):", anchor="w")
-        self.api_label.grid(row=5, column=0, padx=20, pady=(10, 0), sticky="w")
-        self.api_entry = ctk.CTkEntry(self.sidebar_frame, show="*")
-        self.api_entry.grid(row=6, column=0, padx=20, pady=(0, 10))
+    def on_button_pressed(self, event: Button.Pressed) -> None:
+        btn_id = event.button.id
         
-        # Save Config Button (Mock)
-        self.save_btn = ctk.CTkButton(self.sidebar_frame, text="Salva Config", command=self.save_config)
-        self.save_btn.grid(row=7, column=0, padx=20, pady=20)
-
-        # --- MAIN AREA ---
-        self.main_frame = ctk.CTkFrame(self, corner_radius=0, fg_color="transparent")
-        self.main_frame.grid(row=0, column=1, sticky="nsew", padx=20, pady=20)
-        self.main_frame.grid_rowconfigure(3, weight=1) # Console expands
-        self.main_frame.grid_columnconfigure(0, weight=1)
-        self.main_frame.grid_columnconfigure(1, weight=1)
-        self.main_frame.grid_columnconfigure(2, weight=1)
-
-        # Section 1: Download
-        self.create_section_frame("📥 Download PTOF", 0, [
-            ("Download Sample (5/strato)", lambda: self.run_command(["make", "download-sample"])),
-            ("Download Stratificato (N)", lambda: self.run_command(["make", "download-strato", f"N={self.n_schools_entry.get()}"])),
-            ("Download Statali", lambda: self.run_command(["make", "download-statali"]))
-        ])
-
-        # Section 2: Analisi
-        self.create_section_frame("🤖 Analisi & AI", 1, [
-            ("Avvia Workflow Completo", lambda: self.run_command(["make", "run"])),
-            ("Review Scores (LLM)", lambda: self.run_command(["make", "review-scores", f"MODEL={self.model_option.get()}"])),
-            ("Backfill Metadati", lambda: self.run_command(["make", "backfill"]))
-        ])
-
-        # Section 3: Dashboard & Dati
-        self.create_section_frame("📊 Dashboard & Dati", 2, [
-            ("Rigenera CSV + Geo", lambda: self.run_command(["make", "csv"])),
-            ("Avvia Dashboard", lambda: self.run_command(["make", "dashboard"])),
-            ("Pulisce Cache", lambda: self.run_command(["make", "clean"]))
-        ])
-
-        # --- CONSOLE ---
-        self.console_label = ctk.CTkLabel(self.main_frame, text="Console Output:", font=ctk.CTkFont(size=14, weight="bold"))
-        self.console_label.grid(row=2, column=0, sticky="w", pady=(20, 5))
-
-        self.console_textbox = ctk.CTkTextbox(self.main_frame, width=800, height=300, font=("Courier", 12))
-        self.console_textbox.grid(row=3, column=0, columnspan=3, sticky="nsew")
-        
-        # Control Buttons (Stop/Clear)
-        self.controls_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
-        self.controls_frame.grid(row=4, column=0, columnspan=3, sticky="ew", pady=10)
-        
-        self.stop_btn = ctk.CTkButton(self.controls_frame, text="🛑 STOP", fg_color="red", hover_color="darkred", command=self.stop_process, state="disabled")
-        self.stop_btn.pack(side="right", padx=10)
-        
-        self.clear_btn = ctk.CTkButton(self.controls_frame, text="🧹 Pulisci Console", fg_color="gray", hover_color="darkgray", command=self.clear_console)
-        self.clear_btn.pack(side="right")
-
-        # Start queue checker
-        self.after(100, self.check_queue)
-
-    def create_section_frame(self, title, col_idx, buttons):
-        frame = ctk.CTkFrame(self.main_frame)
-        frame.grid(row=0, column=col_idx, sticky="nsew", padx=10, pady=10)
-        
-        label = ctk.CTkLabel(frame, text=title, font=ctk.CTkFont(size=16, weight="bold"))
-        label.pack(pady=10, padx=10)
-        
-        for btn_text, btn_cmd in buttons:
-            btn = ctk.CTkButton(frame, text=btn_text, command=btn_cmd)
-            btn.pack(pady=5, padx=10, fill="x")
-
-    def save_config(self):
-        # Mock save
-        self.log_message("Configurazione salvata (simulazione).")
-
-    def log_message(self, msg):
-        self.console_textbox.insert("end", str(msg) + "\n")
-        self.console_textbox.see("end")
-
-    def clear_console(self):
-        self.console_textbox.delete("1.0", "end")
-
-    def run_command(self, command_list):
-        if self.is_running:
-            self.log_message("⚠️ Un processo è già in esecuzione. Attendere o premere STOP.")
+        if btn_id == "btn_clear":
+            self.query_one(Log).clear()
+            return
+            
+        if btn_id == "btn_stop":
+            self.stop_process()
             return
 
-        self.is_running = True
-        self.stop_btn.configure(state="normal")
-        self.log_message(f"\n🚀 Esecuzione: {' '.join(command_list)}\n" + "-"*40)
+        # Command mapping
+        n_val = self.query_one("#n_schools", Input).value
+        model_val = self.query_one("#model_select", Select).value
+        
+        commands = {
+            "btn_sample": ["make", "download-sample"],
+            "btn_strato": ["make", "download-strato", f"N={n_val}"],
+            "btn_statali": ["make", "download-statali"],
+            "btn_run": ["make", "run"],
+            "btn_review": ["make", "review-scores", f"MODEL={model_val}"],
+            "btn_backfill": ["make", "backfill"],
+            "btn_csv": ["make", "csv"],
+            "btn_dash": ["make", "dashboard"],
+            "btn_clean": ["make", "clean"]
+        }
+        
+        if btn_id in commands:
+            self.run_command(commands[btn_id])
 
-        # Start thread
-        thread = threading.Thread(target=self._execute_thread, args=(command_list,))
-        thread.daemon = True
-        thread.start()
+    def run_command(self, cmd_list):
+        log = self.query_one(Log)
+        log.write(f"\n🚀 Running: {' '.join(cmd_list)}\n")
+        self.query_one("#btn_stop").disabled = False
+        self.run_worker(self._subprocess_worker_sync(cmd_list), exclusive=True, group="cmd", thread=True)
 
-    def _execute_thread(self, command_list):
+    def _subprocess_worker_sync(self, cmd_list):
+        log = self.query_one(Log)
+        env = os.environ.copy()
+        env["PYTHONUNBUFFERED"] = "1"
+
         try:
-            # Use unbuffered output for real-time logging
-            env = os.environ.copy()
-            env["PYTHONUNBUFFERED"] = "1"
-            
             self.process = subprocess.Popen(
-                command_list,
+                cmd_list,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,
                 text=True,
                 bufsize=1,
-                universal_newlines=True,
                 env=env,
-                preexec_fn=os.setsid # Create new process group for clean kill
+                preexec_fn=os.setsid
             )
-
-            for line in self.process.stdout:
-                self.queue.put(line)
-
-            self.process.wait()
-            return_code = self.process.returncode
-            self.queue.put(f"\n✅ Processo terminato con codice: {return_code}\n")
-
+            
+            while True:
+                line = self.process.stdout.readline()
+                if not line and self.process.poll() is not None:
+                    break
+                if line:
+                    self.call_from_thread(log.write, line.strip())
+            
+            rc = self.process.poll()
+            self.call_from_thread(log.write, f"\n✅ Process finished with code {rc}\n")
+            
         except Exception as e:
-            self.queue.put(f"\n❌ Errore esecuzione: {str(e)}\n")
+            self.call_from_thread(log.write, f"\n❌ Error: {e}\n")
         finally:
             self.process = None
-            self.queue.put("DONE")
+            self.call_from_thread(self.update_stop_button, True)
 
-    def check_queue(self):
-        try:
-            while True:
-                msg = self.queue.get_nowait()
-                if msg == "DONE":
-                    self.is_running = False
-                    self.stop_btn.configure(state="disabled")
-                else:
-                    self.console_textbox.insert("end", msg)
-                    self.console_textbox.see("end")
-        except queue.Empty:
-            pass
-        
-        self.after(100, self.check_queue)
+    def update_stop_button(self, disabled):
+        self.query_one("#btn_stop").disabled = disabled
 
     def stop_process(self):
-        if self.process:
-            self.log_message("\n🛑 Invio segnale di stop...")
+        if hasattr(self, 'process') and self.process:
+            self.query_one(Log).write("\n🛑 Stopping process...\n")
             try:
                 os.killpg(os.getpgid(self.process.pid), signal.SIGTERM)
             except Exception as e:
-                self.log_message(f"Errore nello stop: {e}")
+                self.query_one(Log).write(f"Error stopping: {e}")
 
 if __name__ == "__main__":
-    app = LIsteApp()
-    app.mainloop()
+    app = LIsteLauncher()
+    app.run()

@@ -1,0 +1,147 @@
+{
+  "d01ee815-13e7-4249-8d25-3cc3f4dd27ad": {
+    "command": "make review-gemini MODEL=google/gemini-3-flash-preview",
+    "logs": [
+      "python3 src/processing/gemini_reviewer.py --model \"google/gemini-3-flash-preview\"",
+      "2025-12-24 11:32:48,882 - INFO - \ud83d\ude80 Avvio Gemini Enrichment con modello: google/gemini-3-flash-preview",
+      "2025-12-24 11:32:48,884 - INFO - \ud83d\udccb Trovati 79 report da arricchire",
+      "2025-12-24 11:32:48,884 - INFO -",
+      "\u2728 Arricchimento BRMM07900G (1/79)",
+      "2025-12-24 11:32:50,686 - ERROR - \u274c Errore API 404:",
+      "2025-12-24 11:33:01,576 - ERROR - \u274c Errore API 404:",
+      "2025-12-24 11:33:14,272 - ERROR - \u274c Errore API 404:",
+      "make: *** [review-gemini] Terminated: 15",
+      "\n\u2705 Process finished with code -15",
+      "DONE"
+    ],
+    "status": "failed",
+    "timestamp": 1766572368.697449
+  },
+  "6cb16666-c275-4957-96ab-0764cf75a145": {
+    "command": "make review-non-ptof",
+    "logs": [
+      "python3 src/processing/non_ptof_reviewer.py",
+      "2025-12-24 11:33:00,583 - INFO - \ud83d\udd0d PTOFValidator inizializzato",
+      "2025-12-24 11:33:00,583 - INFO -    Ollama: http://192.168.129.14:11434/api/generate",
+      "2025-12-24 11:33:00,583 - INFO -    Modello: qwen3:32b",
+      "2025-12-24 11:33:00,584 - INFO - Found 92 analyses to check",
+      "2025-12-24 11:33:00,586 - INFO - \ud83d\udd0d Validazione: AVEE81805N_PTOF.pdf",
+      "2025-12-24 11:33:00,732 - INFO -    \ud83d\udcca Heuristic confidence: 0.65",
+      "2025-12-24 11:33:00,733 - INFO -       PTOF keywords: 16",
+      "2025-12-24 11:33:00,733 - INFO -       Exclusion keywords: 2",
+      "2025-12-24 11:33:00,733 - INFO -    \ud83e\udd16 Caso ambiguo, analisi LLM...",
+      "2025-12-24 11:33:16,817 - INFO -    \ud83d\udcca LLM confidence: 0.95",
+      "2025-12-24 11:33:16,818 - INFO -    \ud83d\udcca Combined: 0.83",
+      "2025-12-24 11:33:16,818 - INFO -    \u2705 PTOF VALIDO (LLM)",
+      "2025-12-24 11:33:16,818 - INFO - AVEE81805N: validation result = valid_ptof (Validato da LLM (PTOF: Il testo presenta un piano triennale dell'offerta formativa con sezioni dedicate al contesto, alle scelte strategiche, all'offerta formativa e all'organizzazione, riferimenti al RAV e al PDM, e una struttura articolata tipica di un PTOF.))",
+      "2025-12-24 11:33:16,822 - INFO - \ud83d\udd0d Validazione: AVEE87401T_PTOF.pdf",
+      "2025-12-24 11:33:16,962 - INFO -    \ud83d\udcca Heuristic confidence: 0.50",
+      "2025-12-24 11:33:16,962 - INFO -       PTOF keywords: 16",
+      "2025-12-24 11:33:16,962 - INFO -       Exclusion keywords: 2",
+      "2025-12-24 11:33:16,962 - INFO -    \ud83e\udd16 Caso ambiguo, analisi LLM...",
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766572380.269854
+  },
+  "01c067a2-65b1-49db-a699-0cce919628e8": {
+    "command": "make review-gemini MODEL=google/gemini-2.5-flash",
+    "logs": [
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766572413.910203
+  },
+  "6c5a2332-0ced-4332-970d-c66945536bb6": {
+    "command": "make review-gemini MODEL=google/gemini-2.5-flash",
+    "logs": [
+      "python3 src/processing/gemini_reviewer.py --model \"google/gemini-2.5-flash\"",
+      "2025-12-24 11:35:21,236 - INFO - \ud83d\ude80 Avvio Gemini Enrichment con modello: google/gemini-2.5-flash",
+      "2025-12-24 11:35:21,238 - INFO - \ud83d\udccb Trovati 79 report da arricchire",
+      "2025-12-24 11:35:21,238 - INFO -",
+      "\u2728 Arricchimento BRMM07900G (1/79)",
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766572521.068238
+  },
+  "5e686861-1f67-4769-8901-85986f7141cc": {
+    "command": "make review-non-ptof",
+    "logs": [
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766572554.9189801
+  },
+  "dcabc0cf-8079-4021-a4ec-1cd76cde54d9": {
+    "command": "make run",
+    "logs": [
+      "\n\u26a0\ufe0f Process interrupted by server restart"
+    ],
+    "status": "interrupted",
+    "timestamp": 1766574033.104461
+  },
+  "a1910ca8-b96b-44e7-9fa3-2f4fd056ae7e": {
+    "command": "make run",
+    "logs": [
+      "python3 workflow_notebook.py",
+      "======================================================================",
+      "\ud83d\ude80 WORKFLOW COMPLETO ANALISI PTOF",
+      "\ud83d\udd50 2025-12-24 12:03:06",
+      "======================================================================",
+      "",
+      "\ud83d\udd27 Caricamento database...",
+      "2025-12-24 12:03:07,238 - INFO - [SchoolDatabase] Loaded 61855 schools.",
+      "[SchoolDatabase] Loaded 61855 schools from CSVs.",
+      "\u2705 Database MIUR: 61855 scuole",
+      "",
+      "\ud83d\udce5 PDF in inbox: 762",
+      "",
+      "======================================================================",
+      "\ud83d\udd0d STEP -1: Validazione PTOF (pre-analisi)",
+      "======================================================================",
+      "2025-12-24 12:03:07,421 - INFO - \ud83d\udd0d PTOFValidator inizializzato",
+      "2025-12-24 12:03:07,421 - INFO -    Ollama: http://192.168.129.14:11434/api/generate",
+      "2025-12-24 12:03:07,421 - INFO -    Modello: qwen3:32b",
+      "2025-12-24 12:03:07,423 - INFO - \ud83d\udcc2 Validazione batch: 762 PDF in /Users/danieledragoni/git/LIste/ptof_inbox",
+      "2025-12-24 12:03:07,423 - INFO - \ud83d\udd0d Validazione: RIPS00801E_PTOF.pdf",
+      "2025-12-24 12:03:07,569 - INFO -    \ud83d\udcca Heuristic confidence: 0.65",
+      "2025-12-24 12:03:07,569 - INFO -       PTOF keywords: 19",
+      "2025-12-24 12:03:07,569 - INFO -       Exclusion keywords: 2",
+      "2025-12-24 12:03:07,569 - INFO -    \ud83e\udd16 Caso ambiguo, analisi LLM...",
+      "2025-12-24 12:03:16,722 - INFO -    \ud83d\udcca LLM confidence: 0.95",
+      "2025-12-24 12:03:16,722 - INFO -    \ud83d\udcca Combined: 0.83",
+      "2025-12-24 12:03:16,722 - INFO -    \u2705 PTOF VALIDO (LLM)",
+      "2025-12-24 12:03:16,722 - INFO - \ud83d\udd0d Validazione: MNEE83603V_PTOF.pdf",
+      "2025-12-24 12:03:17,168 - INFO -    \ud83d\udcca Heuristic confidence: 0.70",
+      "2025-12-24 12:03:17,168 - INFO -       PTOF keywords: 19",
+      "2025-12-24 12:03:17,168 - INFO -       Exclusion keywords: 0",
+      "2025-12-24 12:03:17,168 - INFO -    \u2705 PTOF VALIDO (heuristic: 0.70)",
+      "2025-12-24 12:03:17,168 - INFO - \ud83d\udd0d Validazione: PTOF_RMIS02400L-2025-2028_def.pdf",
+      "2025-12-24 12:03:17,748 - INFO -    \ud83d\udcca Heuristic confidence: 0.65",
+      "2025-12-24 12:03:17,748 - INFO -       PTOF keywords: 19",
+      "2025-12-24 12:03:17,748 - INFO -       Exclusion keywords: 2",
+      "2025-12-24 12:03:17,748 - INFO -    \ud83e\udd16 Caso ambiguo, analisi LLM..."
+    ],
+    "status": "running",
+    "timestamp": 1766574186.3039339
+  },
+  "96bfcb55-1bc6-4d29-864a-2e809746a28c": {
+    "command": "make review-scores MODEL=openai/gpt-oss-120b:free",
+    "logs": [
+      "python3 src/processing/score_reviewer.py --model \"openai/gpt-oss-120b:free\"",
+      "2025-12-24 12:03:14,206 - INFO - Starting score review with provider: openrouter model: openai/gpt-oss-120b:free",
+      "2025-12-24 12:03:14,206 - INFO - Base wait: 120s",
+      "2025-12-24 12:03:14,207 - INFO - Found 35 files to review",
+      "2025-12-24 12:03:14,208 - INFO - Reviewing TPAA813018 (1/35)"
+    ],
+    "status": "running",
+    "timestamp": 1766574194.045276
+  },
+  "d5dbe6f7-69ea-4198-9e72-48d9f2df79b4": {
+    "command": "make review-gemini MODEL=google/gemini-3-flash-preview",
+    "logs": [],
+    "status": "starting",
+    "timestamp": 1766574207.6464121
+  }
+}

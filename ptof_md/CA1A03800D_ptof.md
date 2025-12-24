@@ -1,0 +1,5471 @@
+# Contenuto PTOF: CA1A03800D_PTOF.pdf
+
+## Pagina 1
+
+
+## A.S. 2022 - 2023
+
+
+## Primavera | Scuola Dell’Infanzia
+
+
+## Scuola Primaria – Tradizionale | Scuola Primaria – Cir.Cle
+
+
+## Scuola Secondaria Di I Grado
+
+
+## Ptof - Piano Triennale
+
+
+## Offerta Formativa
+
+
+## Ptof
+
+
+## Piano Triennale
+
+2023-25
+
+---
+
+## Pagina 2
+
+
+## Indice
+
+La scuola e il suo contesto
+Priorità e traguardi
+Offerta formativa:
+Scuola dell’Infanzia
+Sezione Primavera
+Scuola primaria tradizionale
+Scuola primaria circolare
+Scuola secondaria di I grado
+Curricolo d’istituto
+L’organizzazione
+
+---
+
+## Pagina 3
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#"
+
+## La Scuola E Il Suo Contesto
+
+CONTESTO SOCIO/CULTURALE  ed ECONOMICO DEL TERRITORIO
+L’area di riferimento e di intervento dell’Istituto è ampia e diversificata. La Scuola, situata nel capoluogo della
+Provincia di Bergamo, offre il suo servizio educativo ad una popolazione scolastica che proviene da realtà
+ambientali diverse sia per territorio sia per livello socio-culturale.
+Le situazioni degli alunni risultano diversificate per livello culturale, per problemi interni allo stesso nucleo
+familiare e connessi all’attività lavorativa dei genitori. Le esperienze di vita, gli interessi culturali, i modi di
+giudicare e di agire, le motivazioni che sostengono la vita e l’orientamento allo studio risultano variegati.
+É possibile comunque individuare alcune caratteristiche della nostra popolazione scolastica e i bisogni formativi
+emergenti riscontrabili, anche se in misura diversa, negli allievi dei diversi ordini scolastici.
+
+## Analisi Dei Bisogni Educativi
+
+Caratteristiche del territorio
+•!
+Profondi processi di evoluzione
+dell’economia e del territorio fortemente
+urbanizzato con rilevanti ricadute
+sull’ambiente stesso.
+•!
+Rapida evoluzione delle conoscenze e delle
+competenze tecnologiche.
+•!
+Multiculturalità etnica e religiosa.
+•!
+Nuclei familiari di diversa composizione.
+•!
+Rapidi mutamenti comunicativi.
+•!
+Informatizzazione sempre più ampia dei
+sistemi produttivi.
+•!
+Pluralità di servizi sociali e culturali.
+Bisogni formativi emergenti
+•!
+Punti di riferimento per orientarsi nella
+complessità del presente.
+•!
+Ambiente scolastico stimolante ed attento a
+crescita, interessi e esigenze degli alunni e delle
+famiglie.
+•!
+Nuove esperienze di aggregazione/convivenza
+civile per costruire relazioni corrette e autentiche.
+•!
+Formazione all’accoglienza della diversità e al
+rispetto dei propri valori e delle altre culture.
+•!
+Necessità di utilizzare in modo consapevole e
+responsabile strumenti comunicativi e digitali.
+•!
+Spendibilità delle competenze acquisite sia
+nell’iter scolastico, sia nei diversi contesti di vita.
+Bergamo e Provincia offrono molte occasioni formative per arricchire la proposta della Scuola, dalla visita a
+monumenti, palazzi, chiese, centro storico, che testimoniano la vivacità e la ricchezza artistica della città, alla
+partecipazione a conferenze, incontri, spettacoli, convegni, corsi ed interventi organizzati a scuola o sul
+territorio, a cura di esperti.
+La Scuola mantiene un intenso rapporto di collaborazione con il territorio, segnato da una cultura e una
+tradizione di sensibilità verso i servizi sociali. Fruisce delle sue risorse naturali, storico-ambientali, socio-
+istituzionali, artistiche, associazionistico-umanitarie.
+
+---
+
+## Pagina 4
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$"
+
+## Sede Della Scuola
+
+
+## Istituti Paritari Bergamo
+
+
+## Fondazione Luigi Clerici
+
+Via Sant’Antonino 8 - 24122 BERGAMO
+Tel. 035 0782017
+paritario.bergamo@clerici.lombardia.it
+segreteria.didattica@clericibergamo.it
+paritariobg.clerici.lombardia.it
+
+## Caratteristiche Principali Dell’Istituto Scolastico
+
+
+## L’Istituto Scolastico “Suore Sacramentine” E La Sua Storia
+
+L’Istituto Scolastico Suore Sacramentine si pone come una presenza significativa nel mondo scolastico
+bergamasco dal 1925; impegnato nell’educazione umana e culturale delle nuove generazioni, unisce nei suoi
+percorsi didattici tradizione ed innovazione in sinergia con le famiglie ed il territorio.
+Dall’anno scolastico 2022/2023 l’Istituto Scolastico “Suore Sacramentine” e la Scuola Primaria Cir.Cle sono
+ubicati nello stesso immobile e vengono gestiti dalla Fondazione Luigi Clerici.
+Nel plesso sono attualmente presenti:
+!! SCUOLA DELL’INFANZIA (3 sezioni) con SEZIONE PRIMAVERA
+!! SCUOLA PRIMARIA TRADIZIONALE (8 classi)
+!! SCUOLA PRIMARIA  CIR.CLE (5 classi)
+!! SCUOLA SECONDARIA DI PRIMO GRADO (5 classi)
+La Scuola, in ogni suo ordine, è Paritaria (dal 01/12/2000 Scuola Primaria, dal 28/02/2001 Scuola dell’Infanzia,
+Secondaria di Primo grado).
+La Scuola Primaria Cir.Cle è paritaria dal 13 giugno 2012 (DM 205)
+
+## Mission Dell’Istituto Scolastico “Suore Sacramentine”
+
+L’Istituto  scolastico  si  caratterizza  per un’offerta  formativa centrata sulla  formazione  integrale dell’alunno
+in  quanto  lo pone  al  centro  dell’attività  educativo - culturale,  come  persona da promuovere in tutte le sue
+dimensioni.
+
+
+	
+
+
+---
+
+## Pagina 5
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%"
+La Scuola si ispira ai seguenti principi educativi:
+•!
+affermazione del valore primario della persona;
+•!
+stile educativo improntato all’accoglienza attenta e personalizzata dell’alunno;
+•!
+strategie didattiche finalizzate a rispondere al progressivo sviluppo socio – culturale;
+•!
+costruttiva collaborazione tra scuola e famiglia;
+•!
+istruzione qualificata ed attenta alle esigenze della società contemporanea e del mondo del lavoro.
+Per la sua specificità carismatica, si propone di favorire:
+•!
+la scoperta dei valori dell’interiorità e dell’ascolto, il senso dello stupore e l’apertura al mistero di Dio;
+•!
+la maturazione di atteggiamenti di lode e di riconoscenza;
+•!
+l’assunzione di comportamenti aperti al dialogo improntati allo spirito di condivisione, di solidarietà e
+di disponibilità alla collaborazione;
+•!
+la capacità di leggere la realtà nell’ottica di in una visione cristiana della vita.
+Nella  sua  proposta,  è  attenta  alla  progettazione, sperimentazione  ed innovazione tecnologica, mirata a
+rispondere con flessibilità ed efficacia comunicativa alle  esigenze specifiche dei vari utenti.
+Per il Progetto Educativo d’Istituto si veda l’Allegato n°1
+
+## Finalità Formative
+
+Considerate le indicazioni della LEGGE 13 luglio 2015, n. 107, e le peculiarità della nostra Scuola delineate nel
+Progetto Educativo, si è operata una sintesi delle finalità di seguito presentate:
+1.!
+Sviluppare le competenze degli alunni, rispettandone tempi e stili di apprendimento.
+2.! Favorire il superamento delle disuguaglianze socio-culturali e territoriali per costruire una scuola e una
+società dell’inclusione.
+3.! Promuovere il successo formativo di ogni allievo valorizzando la persona nella sua unicità.
+4.! Realizzare una scuola aperta all’innovazione e al territorio capace di formare i futuri cittadini.
+5.! Alimentare il naturale desiderio di verità, di giustizia, di bene e di bello.
+6.! Costruire una proficua collaborazione tra scuola e famiglia sostenuta da iniziative di carattere formativo
+e da un attivo coinvolgimento nella vita della scuola.
+!
+
+---
+
+## Pagina 6
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&"
+
+## Monte Ore Scolastico
+
+
+## Ordine
+
+
+## Settimanale
+
+
+## Annuale
+
+INFANZIA con sezione PRIMAVERA
+38
+1600
+
+## Primaria
+
+30
+990
+
+## Secondaria Di Primo Grado
+
+30
+990
+"
+
+## Attrezzature E Infrastrutture Materiali
+
+
+## Risorse Strutturali
+
+
+## Risorse Tecnologiche
+
+•!
+Ampi cortili per attività ludico-sportive
+•!
+Spazi giochi per l’infanzia
+•!
+Aula magna (430 posti a sedere)
+•!
+Aula di Musica e Sala per riunioni e proiezioni
+(100 posti)
+•!
+Refettori e sale di ricreazione/accoglienza
+•!
+Palestra grande e piccola
+•!
+Biblioteca generale e di classe
+•!
+Laboratorio di scienze
+•!
+Laboratorio di Arte e Tecnologia
+•!
+Laboratorio di robotica
+•!
+2 laboratori linguistici - informatici
+•! Lavagne interattive multimediali (lim) in tutte
+le classi
+•! Pc ad uso didattico ed amministrativo
+•! Fotocopiatrici
+•! Videocamere integrate nei PC delle LIM con
+microfono per lezioni a distanza in tutte le
+classi
+•! Videocamera e microfono per
+videoconferenze
+•! Stampanti 3D
+•! Microscopio digitale con videoproiettore
+•! Bracci Robotici COMAU
+•! Robot
+
+## Risorse Umane - Interne
+
+
+## Personale Docente
+
+
+## Ordine Di Scuola
+
+DOCENTI n°
+CLASSI n°
+INFANZIA con SEZIONE PRIMAVERA
+6
+4
+
+## Primaria
+
+10+
+8 + 5
+
+## Scuola Secondaria Di Primo Grado
+
+15
+5
+"
+"
+
+---
+
+## Pagina 7
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'"
+
+## Personale Con Funzioni Specifiche
+
+
+## Rappresentante Legale
+
+1
+
+## Dirigente Scolastico
+
+1
+
+## Coordinatori Didattici
+
+3
+
+## Rappresentante Sicurezza Lavoratori
+
+1
+
+## Personale Segreteria
+
+2
+
+## Personale Amministrativo
+
+3
+
+## Personale Portineria
+
+3
+
+## Personale Vigilanza
+
+4
+
+## Personale Cucina
+
+2
+
+## Personale Assistenza Mensa
+
+6
+
+## Addetti Emergenza Incendi
+
+8
+
+## Addetti Primo Soccorso
+
+18
+
+## Collaborazioni Esterne
+
+•!
+
+## Associazione Patchwork
+
+•!
+
+## Responsabile Servizio Prevenzione Protezione
+
+•!
+
+## Tecnici Strumentazioni Informatiche
+
+•!
+SERVIZIO MENSA INTERNA  “Vicook”
+•!
+IMPRESA PULIZIE  “FraMar”
+•!
+
+## Addetti Manutenzione Impianti
+
+•!
+
+## Addetti Distributori Automatici
+
+•!
+
+## Professionisti Per Paghe E Dichiarazioni Fiscali
+
+Tutti gli ambienti utilizzati rispettano le vigenti norme del D.Lgs 81/2008.
+Gli utenti dei Laboratori sono tenuti a rispettare i Regolamenti specifici (affissi in ogni laboratorio).
+!
+
+---
+
+## Pagina 8
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+("
+
+## Contesto Culturale E Formativo Della Scuola Primaria Cir.Cle
+
+La Scuola Primaria Cir.Cle nasce all’interno di una realtà scolastica consolidata da anni e punto di riferimento
+culturale per il territorio bergamasco che dal 2012 vede protagonista una nuova gestione operativa costituita
+dalla Società “Antilia Srl”. Dal 2018 tale Società si è ulteriormente definita come iSchool Srl.
+L’amore per la formazione e l’attenzione costante alla crescita dei “cittadini del futuro” sono i principi cardine
+su cui si fonda il carattere innovativo e dinamico della scuola che si traduce nella ricerca costante di alti standard
+qualitativi sia dal punto di vista delle risorse umane e professionali, attraverso la formazione e aggiornamento
+continuo dei docenti, sia dal punto di vista delle risorse materiali.
+Obiettivo generale della scuola è aiutare il soggetto a formarsi come persona per mezzo dell’alfabetizzazione
+culturale aperta a tutti i saperi, del confronto tra le diverse posizioni, della promozione di dinamiche di
+uguaglianza, di continuità e pari opportunità, in modo che ogni studente possa partecipare attivamente alla vita
+sociale, civile, economica e culturale del mondo in cui vive. Pertanto sono obiettivi della scuola la conoscenza
+e lo sviluppo dei linguaggi della comunicazione, di una solida capacità critica che consenta all’allievo di valutare
+la complessità dell’offerta culturale e di un orientamento strategico alla vita, proiettato verso il mondo e il
+domani.
+
+## Risorse Interne Alla Scuola
+
+Dal punto di vista delle risorse umane e professionali la scuola mostra un Collegio di Docenti molto unito al suo
+interno e fortemente motivato a realizzare il progetto educativo. Di tutti i componenti del Collegio è
+documentabile la preparazione specifica nelle discipline che insegnano. Viene garantita inoltre la verticalità
+dell’insegnamento data dal raccordo e dalla stessa missione educativa dei docenti a partire dalla scuola
+dell’infanzia fino alla scuola secondaria di II grado.
+Dal punto di vista delle risorse materiali, la scuola presenta un numero adeguato di aule, una palestra esterna,
+un laboratorio linguistico, una zona lettura, un’aula polifunzionale, monitor e lim, Ipad, strumenti musicali, un
+servizio mensa.
+
+## Risorse Esterne
+
+La città e la provincia di Bergamo sono ricche di biblioteche, parchi, mediateche, teatri, cinema nonché figure
+professionali di alto profilo culturale, tutte risorse di cui la scuola intende avvalersi, pianificando accordi
+!
+
+---
+
+## Pagina 9
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+)"
+
+## Le Scelte Strategiche
+
+La Scuola nella stesura del nuovo Piano di Miglioramento ha tenuto in considerazione l’autovalutazione di
+Istituto già effettuata e le nuove esigenze evidenziate nel percorso scolastico del triennio 2020-2023.
+
+## Obiettivi Formativi Prioritari (Art. 1, Comma 7 L.107/15)
+
+1.!
+Valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento alla lingua
+inglese e alla lingua spagnola.
+2.! Potenziamento delle competenze logico – matematiche e scientifiche.
+3.! Sviluppo delle competenze digitali degli studenti, con particolare riguardo all’utilizzo critico e consapevole
+degli strumenti e contenuti digitali.
+4.! Potenziamento della metodologia laboratoriale e delle attività da svolgere in laboratorio.
+5.! Potenziamento delle competenze nella pratica e nella cultura artistica, musicale, espressiva.
+6.! Sviluppo delle competenze in materia di cittadinanza attiva e democratica attraverso il sostegno di
+responsabilità, solidarietà e cura dei beni comuni.
+7.! Valorizzazione della scuola intesa come ambiente di apprendimento e comunità attiva.
+!
+
+---
+
+## Pagina 10
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+*"
+
+## Prioritá E Traguardi
+
+SCUOLA DELL’INFANZIA e SEZIONE PRIMAVERA
+
+## Esiti Degli Studenti
+
+
+## Descrizione
+
+
+## Della Prioritá
+
+
+## Descrizione
+
+
+## Del Traguardo
+
+
+## Competenze Chiave E
+
+
+## Di Cittadinanza
+
+Sviluppo dell’identità e
+dell’autonomia del
+bambino.
+Guidare il bambino:
+•! all’acquisizione di un buon livello di
+autonomia personale;
+•! alla consapevolezza di una propria identità.
+
+## Risultati Di Sviluppo
+
+
+## E Apprendimento
+
+Miglioramento
+delle abilità linguistiche.
+Sviluppare e consolidare competenze linguistiche
+e comunicative nei diversi contesti:
+•! a scuola,
+•! in famiglia,
+•! nel territorio e nella formazione
+extrascolastica.
+
+## Scuola Primaria - Tradizionale
+
+
+## Esiti Degli Studenti
+
+
+## Descrizione
+
+
+## Della Prioritá
+
+
+## Descrizione
+
+
+## Del Traguardo
+
+
+## Competenze Chiave E
+
+
+## Di Cittadinanza
+
+Sviluppo delle competenze di
+Cittadinanza sociali e civiche.
+Favorire atteggiamenti positivi negli alunni in
+modo che il 90 % degli alunni raggiunga
+livelli alti di competenza (A-B).
+
+## Risultati Scolastici
+
+Potenziamento dei linguaggi
+della comunicazione.
+Migliorare la consapevolezza all’espressione
+culturale e al pensiero creativo, proponendo
+attività o percorsi artistici, musicali e
+mimico-corporei.
+!
+
+---
+
+## Pagina 11
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!+"
+
+## Scuola Primaria Sperimentale Cir.Cle
+
+
+## Esiti Degli Studenti
+
+
+## Descrizione
+
+
+## Della Prioritá
+
+
+## Descrizione
+
+
+## Del Traguardo
+
+
+## Competenze
+
+
+## Chiave Di
+
+
+## Cittadinanza E
+
+
+## Risultati Scolastici
+
+Una scuola delle Intelligenze
+Multiple: diversificare per
+valorizzare.
+Favorire:
+Intelligenza Linguistica,
+Intelligenza Logico-matematica
+Intelligenza Musicale
+Intelligenza Visuo-spaziale,
+Intelligenza Corporea -Cinestetica,
+Intelligenza Interpersonale,
+Intelligenza Interpersonale.
+
+## Scuola Secondaria Di Primo Grado
+
+
+## Esiti Degli
+
+
+## Studenti
+
+
+## Descrizione
+
+
+## Della Prioritá
+
+
+## Descrizione
+
+
+## Del Traguardo
+
+
+## Competenze
+
+
+## Chiave E Di
+
+
+## Cittadinanza
+
+Potenziamento della didattica
+laboratoriale in particolare con
+l’utilizzo della strumentazione
+informatica.
+(Competenza digitale)
+Incrementare il numero delle proposte di
+attività laboratoriali di:
+•! Scienze
+•! Informatica
+•! Lingua straniera.
+
+## Risultati
+
+
+## Scolastici
+
+Potenziamento del metodo
+di studio
+•! Reperire e organizzare informazioni
+ottenute da diverse fonti per
+rispondere all’attività richiesta.
+L’Istituto è una realtà composita con la presenza di più ordini di scuola.
+I PdM elaborati evidenziano l’attenzione alle esigenze proprie di ogni ordine di scuola e convergono nelle mete
+comuni in un’ottica di miglioramento permanente e progressivo.
+I piani di miglioramento che seguono sono da leggere come spazio di lavoro annuale, costantemente monitorato
+nel suo svolgimento, al fine di valutarne l’efficacia nel raggiungimento degli obiettivi che, a loro volta,
+realizzeranno le priorità in un’ottica triennale.
+L’offerta formativa dei vari ordini di scuola assume quindi un respiro triennale, delineando attività e progetti che
+mirano alla realizzazione e concretizzazione anche delle finalità tracciate a partire dal RAV.
+!
+
+---
+
+## Pagina 12
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!!"
+
+## Estratto Dal Piano Di Miglioramento
+
+SCUOLA DELL’INFANZIA e SEZIONE PRIMAVERA
+
+## Prioritá: Sviluppo Dell’Identità E Dell’Autonomia Del Bambino.
+
+
+## Obiettivo Di Processo
+
+•!
+Potenziare i percorsi formativi per favorire la crescita dell’autonomia e dell’identità del bambino.
+
+## Azioni
+
+•!
+I Docenti individuano situazioni in cui il bambino possa acquisire autonomia nella gestione dei propri
+bisogni.
+•!
+I Docenti progettano attività mirate.
+
+## Prioritá: Miglioramento Delle Abilità Linguistiche
+
+
+## Obiettivo Di Processo
+
+•! Offrire la possibilità di sperimentare una varietà di situazioni comunicative ricche di senso.
+
+## Azioni
+
+•!
+I Docenti  adottano metodologie, tecniche e strategie adeguate e progettano attività accattivanti e
+motivanti, ludiche e/o laboratoriali, finalizzate a favorire l'apprendimento attivo e la scoperta.
+•!
+Realizzano attività ed iniziative improntate alla conversazione, ai suoni e alle parole..
+
+## Scuola Primaria
+
+
+## Prioritá: Sviluppo Delle Competenze Di Cittadinanza Sociali E Civiche
+
+
+## Obiettivo Di Processo
+
+•!
+Adottare in modo sistematico pratiche didattiche innovative e strategie per la promozione di
+competenze sociali e civiche (assegnazione di ruoli e responsabilità, attività di cura di spazi comuni,
+collaborazione e spirito di gruppo, utilizzo delle LIM).
+
+## Azioni
+
+I Docenti:
+•!
+declinano la progettazione educativa in strategie efficaci,
+•!
+attivano metodologie idonee,
+•!
+valorizzano atteggiamenti corretti e meritevoli,
+•!
+propongono iniziative di solidarietà,
+•!
+monitorano al termine della classe 5^ le competenze sociali e civiche raggiunte
+
+## Prioritá: Potenziare Le Competenze Linguistico-Espressive E Di Ricerca
+
+
+## Obiettivo Di Processo
+
+•!
+Potenziare i percorsi formativi per favorire una didattica innovativa nelle strategie di ricerca e studio
+per acquisire un’efficace competenza linguistica-espressiva
+
+## Azioni
+
+•! I Docenti curano la dimensione linguistica-espressiva nella didattica quotidiana e propongono
+attività laboratoriali di studio e ricerca mirati.
+•!
+La CoD propone al CD laboratori e progetti offerti dal territorio.
+!
+
+---
+
+## Pagina 13
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!#"
+
+## Scuola Primaria Cir.Cle
+
+
+## Prioritá: Una Scuola Delle Intelligenze Multiple: Diversificare Per Valorizzare
+
+
+## Obiettivo Di Processo
+
+•!
+Sviluppo delle Intelligenze Multiple
+
+## Azioni
+
+•!
+I docenti  promuovono un’educazione ai sentimenti attraverso un linguaggio non violento.
+•!
+I docenti  programmano singolarmente e collegialmente attività interdisciplinari
+•!
+I docenti agiscono in modo registico grazie a spazi studiati, attrezzati e dedicati
+•!
+I docenti promuovono laboratori, percorsi motivanti e dinamici in ogni ambito disciplinari avvalendosi
+anche della strumentazione informatica.
+•!
+I docenti verificano e valutano quotidianamente i processi educativi e didattici
+•!
+I docenti promuovono un apprendimento collaborativo e esperienziale.
+•!
+I docenti riflettono sulle esperienze insieme ai bambini per promuovere consapevolezze e competenze
+metacognitive.
+•!
+I docenti mettono al centro il bambino e i suoi diritti d’inclusione.
+•!
+I docenti lavorano in collaborazione con il territorio e colgono occasioni formative e di crescita anche
+fuori dalla scuola.
+•!
+I docenti di Lingua Inglese e Cinese si avvalgono di enti esterni per la certificazione delle competenze
+linguistiche.
+
+## Scuola Secondaria Di Primo Grado
+
+PRIORITÁ: POTENZIAMENTO DELLA DIDATTICA LABORATORIALE IN PARTICOLARE CON L’UTILIZZO
+
+## Della  Strumentazione Informatica. (Competenza Digitale)
+
+
+## Obiettivi Di Processo
+
+•!
+Sfruttare meglio le varie potenzialità delle risorse materiali presenti nella Scuola, incrementando le
+attività laboratoriali che coinvolgono attivamente e responsabilmente lo studente.
+•!
+Prevedere alcuni progetti o attività curricolari o extracurricolari significativi con l’utilizzo della
+strumentazione informatica.
+
+## Azioni
+
+•!
+I docenti delle classi calendarizzano i laboratori da effettuare durante l’anno.
+•!
+I docenti segnalano su un registro predisposto la data, la classe e l’argomento che svolgono in laboratorio.
+•!
+I docenti responsabilizzano gli alunni a svolgere con progressiva autonomia le attività laboratoriali.
+•!
+La Scuola propone attività con la strumentazione informatica anche in collaborazione con enti esterni.
+
+## Prioritá: Potenziamento Del Metodo Di Studio
+
+
+## Obiettivi Di Processo
+
+•!
+Proporre in tutte e materie la ricerca di informazioni  da diverse fonti e l’elaborazione di mappe
+concettuali
+
+## Azioni
+
+•!
+I docenti pianificano le attività o le azioni da svolgere.
+•!
+I docenti indicano su sul registro data, classe e argomento che svolgono per incrementare il metodo di
+studio.
+Per il Piano di Miglioramento completo vedi allegato n° 2.
+
+---
+
+## Pagina 14
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!$"
+!
+
+---
+
+## Pagina 15
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!%"
+!""#$%&'!
+!"!!#$#$%&'%#(#$)$*)$%&'%#()$
++,-+-()(.-/#$0-')$1&'%#)(!)2$
+)."0&!#3-4$&55)!!#3-4$'-,&*)$)$/-0#&*)$#($
+6,&.-$.#$,#/+-(.),)$&#$*-,-$%#/-6(#7!
+"#$%#!!
+#*$%&'%#(-$1+,-!&6-(#/!&2$.#$
+-6(#$0-/&$08)$5&4$08)$.#0)4$08)$
+3#3)7!
+&'()*+(!
+0",,#0-*#$&.)6"&!#$&**)$
+)/#6)(9)$&(08)$.#$
+%&'%#(#$.#3),/&')(!)$
+&%#*#7!
+()%#*&++),
+!"#$%&%$'()#"#!"#$*+&"(",-"#.'#*/,'#
+.*$",("#%'#0','#.'#1,#21%!'0'$%(*#"#
+$*,.'3'4*#&"5$*54*#".1$%('3*6!
+-*#./#0',,
+'!#3"5*#7","#."!#7%+7',*#"#!*#/1'.%#%#
+4$*&5'5"#'!#3%!*5"#."!!%#41%#&"54*,%#
+%((5%3"54*#5"!%-'*,'#&*4'('3"8#%(("//'%+",('#
+.'#$*!!%7*5%-'*,"#"#.'#$**&"5%-'*,"#,"!#
+5'4&"((*#."/!'#%!(5'#"#."!!"#$*4"6!
+1#23&'4',
+'#/",'(*5'#,"!#!*5*#$*+&'(*#.'#
+9&5'+'#"#',4*4('(1'7'!':#
+".1$%(*5'#."'#0'/!'6!
+
+## L’Offerta Formativa
+
+
+## Insegnamenti E Quadri Orario
+
+
+## Scuola Dell’Infanzia Con Sezione Primavera
+
+La Scuola dell’Infanzia Paritaria “Casa dei Bambini” ha come compito prioritario e fine ultimo la formazione
+integrale del bambino nella sua singolarità e irripetibilità, nell’ottica dei valori umano-spirituali cui l’azione
+educativa dell’Istituto si ispira.
+Dal 2014-2015 alla Scuola dell’Infanzia è stata annessa una Sezione Primavera come risposta alla domanda delle
+famiglie con bambini al di sotto dei tre anni di età. Nell’esercizio delle attività le educatrici tengono conto dei
+ritmi, tempi e diritti dei bambini, al fine di offrire un qualificato spazio di preparazione e introduzione alla Scuola
+dell’Infanzia, attraverso la realizzazione di un contesto di raccordo e di continuità con quest’ultima.
+Constatata l'ottima integrazione sul piano pedagogico con la Scuola dell'Infanzia, il progetto prosegue
+proponendosi di offrire ai piccoli un servizio educativo attento ai bisogni ed alle potenzialità di questa fascia di
+età, calibrando il percorso educativo sulle loro esigenze di crescita.
+La Scuola ispira la sua opera educativa a valori e motivazioni aventi precisi riferimenti al Vangelo e li esplicita in
+uno stile che scaturisce dal Carisma della Congregazione.
+La proposta educativa mira allo sviluppo di tutte le potenzialità del bambino, al fine di porre le basi per la
+formazione di una personalità caratterizzata da:
+
+## Valori Educativi
+
+"! apertura alla relazione con gli altri
+"! desiderio di scoprire e di conoscere
+"! sicurezza affettiva e autonomia
+
+## La Scuola
+
+
+---
+
+## Pagina 16
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!&"
+
+## Organizzazione Della Scuola Dell’Infanzia
+
+La scuola accoglie normalmente le iscrizioni dei bambini  che hanno compiuto o compiono i tre anni entro il 31
+Dicembre. Possono essere iscritti anche bambini che compiono i 3 anni di età entro il 30 Aprile dell’anno
+scolastico di riferimento, a condizione che sia esaurita la lista d’attesa dei bambini dell’età di 3 anni e che ci sia
+la disponibilità della scuola.
+La Scuola dell’Infanzia è strutturata su 3 sezioni eterogenee, così nominate:
+#! Sezione GIRASOLI
+#! Sezione  DELFINI
+#! Sezione LUNA
+
+## Organico Delle Docenti
+
+É composto da 3 insegnanti che operano sulle diverse sezioni della Scuola dell’Infanzia e da due educatrici per
+la Sezione primavera.
+Per interventi specifici, ci si avvale di personale qualificato e di esperti presenti sul territorio.
+
+## Tempo Scolastico E Orari
+
+La Scuola dell’Infanzia funziona dal Lunedì al Venerdì, esclusi il Sabato e i giorni stabiliti nel calendario scolastico.
+L’orario di entrata va dalle ore 8.30 alle ore 9.15; l’uscita è prevista dalle ore 15.40 alle ore 16.00 (ore 11.45-12.00
+solo nelle prime due settimane dell’inserimento). Il tempo-scuola è suddiviso in fasce orarie, flessibili e
+suscettibili di modifiche a seconda delle necessità.
+Per necessità legate all’emergenza sanitaria, gli orari di entrata e uscita sono scaglionati.
+
+## Tempi
+
+
+## Proposta
+
+
+## Spazi
+
+7.45 – 8.30
+Pre-scuola
+Sezione accoglienza
+8.30 – 9.15
+Accoglienza
+Sezione
+9.15 – 9.45
+Giochi organizzati/attività di routine
+Sezione e salone
+9.45 – 10.00
+Uso servizi igienici
+Servizi igienici
+10.00 – 11.10
+Attività educativo-didattiche
+Sezione e salone
+11.10 – 11.30
+Gioco di movimento
+Salone
+11.30 – 12.30
+Pranzo
+Sala pranzo
+12.30 – 13.30
+Gioco libero
+Salone o cortile
+13.30
+Uscita anticipata
+13.30 - 15.15
+Riposo pomeridiano piccoli
+Sala di riposo
+13.30 – 15.30
+Continuazione attività e gioco libero mezzani e grandi
+Sezione e salone
+15.40 – 16.00
+Uscita
+Sezione
+16.00 – 17.30
+Post-scuola
+Sezione
+
+---
+
+## Pagina 17
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!'"
+La giornata scolastica è organizzata in modo che i vari momenti offrano ai bambini adeguate valenze educative
+nel rispetto dei bisogni educativi e dei ritmi individuali e sociali. Si suddivide in:
+Accoglienza: i bambini e i genitori vengono accolti e salutati.
+Attività di routine: rispetto delle esigenze individuali del bambino nel gruppo.
+Attività di sezione e di intersezione.
+Attività inerenti al percorso educativo-didattico progettato.
+Attività individuali liberamente scelte dal bambino.
+Tutte queste attività sviluppano nei bambini autostima e sicurezza; promuovono la socializzazione e favoriscono
+la comunicazione; permettono al bambino di esprimere le proprie abilità.
+Le attività sono programmate per sezione (eterogenea) con riferimento personalizzato verso l’insegnante.
+La sezione è un punto di riferimento privilegiato, in quanto:
+•!
+facilita processi di identificazione;
+•!
+garantisce la continuità dei rapporti tra adulti- bambini e bambini;
+•!
+rafforza il gruppo sezione;
+•!
+favorisce la costruzione di amicizie che vengono mantenute anche all’esterno della sezione;
+•!
+agevola lo scambio, il confronto, la collaborazione e l’aiuto tra bambini di diverse età.
+Si programmano anche attività di intersezione e laboratori (gruppi omogenei), con una più articolata fruizione
+degli spazi e dei materiali, favorendo tra i bambini di diversa età rapporti più stimolanti e scambi di esperienze.
+Sono previsti momenti di vita comune, con canti, rappresentazioni, giochi liberi e organizzati, visite.
+Durante l’anno la Scuola organizza momenti con il coinvolgimento dei genitori, quali:
+•!
+Accoglienza.
+•!
+Recita e scambio degli auguri natalizi.
+•!
+Festa della Fondatrice, Santa Geltrude Comensoli.
+•!
+A colazione con i papà.
+•!
+In laboratorio con le mamme.
+•!
+Festa della Famiglia.
+
+## L’Ambiente Di Apprendimento
+
+La Scuola dell’Infanzia si propone come contesto di relazione, di cura e di apprendimento, pertanto l’insegnante
+si attiva per:
+•!
+creare un clima di serenità e correttezza, valorizzando la relazione personale con il bambino attraverso
+un servizio paziente e generoso;
+•!
+instaurare con i bambini un equilibrato rapporto affettivo e umano ed è attenta ad interpretare e
+valorizzare i cosiddetti “errori”;
+•!
+guidare il bambino a prendere coscienza di sé e delle proprie risorse, a costruire la sua storia personale
+all’interno del contesto in cui vive, ad essere protagonista della sua formazione e ad assumersi
+gradualmente delle responsabilità e a costruire una propria identità.
+!
+
+---
+
+## Pagina 18
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!("
+L’ambiente è organizzato dalle insegnanti in modo che ogni bambino si senta riconosciuto, sostenuto e
+valorizzato. Si caratterizza come:
+•!
+Spazio accogliente: caldo, curato, che parla dei bambini, del loro valore, dei loro bisogni di gioco, di
+movimento, espressione della pedagogia e delle scelte educative della scuola.
+•!
+Tempo disteso: nel quale il bambino può giocare, esplorare, dialogare, osservare, ascoltare, capire,
+sentirsi protagonista. In questo modo può vivere il suo tempo esistenziale senza acceleramenti  e
+rallentamenti da parte degli adulti.
+•!
+Stile educativo: fondato sull’ascolto, sull’osservazione, sulla progettazione elaborata collegialmente.
+•!
+Partecipazione vissuta: permette di stabilire e sviluppare la corresponsabilità, il dialogo e la
+conoscenza.
+Nell’organizzazione didattica si tengono in considerazione le varie dimensioni del bambino e il suo modo
+specifico di apprendere. Si valorizzano in particolare:
+•!
+La relazione personale tra pari e con gli adulti;
+•!
+il gioco;
+•!
+l’esplorazione e la ricerca;
+•!
+l’esperienza diretta di contatto con la natura, le cose, i materiali, l’ambiente sociale e culturale;
+•!
+l’apprendimento del gruppo sezione e dei sottogruppi di età, secondo criteri di flessibilità strutturati in
+laboratori.
+
+## Finalitá Da Promuovere
+
+Sviluppo dell’identità
+•!
+Imparare a star bene, sentirsi sicuri nell’ambiente sociale allargato.
+•!
+Imparare a conoscersi e sentirsi riconosciuti come persona.
+•!
+Sperimentare diversi ruoli e diverse forme di identità, abitante di un territorio appartenente ad
+una comunità.
+Sviluppo dell’autonomia
+•!
+Acquisire fiducia in sé e degli altri.
+•!
+Esplorare la realtà e comprendere le regole della vita quotidiana.
+•!
+Partecipare alle decisioni motivando le proprie opinioni, le proprie scelte e i propri comportamenti.
+Sviluppo delle competenze
+•!
+Imparare a riflettere, esplorare e osservare.
+•!
+Descrivere la propria esperienza rievocando, narrando e rappresentando fatti significativi.
+Sviluppo del senso religioso
+•!
+Dare una risposta religiosa al bisogno di significato.
+•!
+Cogliere i segni della presenza di DIO nella creazione, nelle opere dell’uomo, e nella Parola Rivelata.
+Cittadinanza
+•!
+Comprendere, spiegare i legami con la propria famiglia, comunità, scuola, paese, mondo.
+Convivenza civile
+•!
+Interagire con l’ambiente sociale e umano e capire la diversità e l’individualità.
+•!
+Imparare a conoscere potenzialità e i limiti.
+•!
+Comprendere che ci sono azioni buone e cattive.
+
+---
+
+## Pagina 19
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!)"
+
+## Progettazione Educativa E Didattica
+
+La programmazione educativa e didattica si fonda sui Traguardi per lo sviluppo delle competenze (vedi Curricolo
+di Istituto allegato 3) e sui Campi d’Esperienza per la Scuola dell’Infanzia. Essa intende rispondere a domande
+fondamentali, quali:
+•!
+sapere
+•!
+saper fare
+•!
+saper essere.
+Ogni anno le insegnanti e le educatrici propongono uno sfondo integratore accattivante per favorire la crescita
+armonica dei bambini.
+
+## Profilo Del Bambino Al Termine Della Scuola Dell’Infanzia
+
+Il bambino è protagonista della propria crescita ed è positivo ed entusiasta. Riconosce ed esprime le proprie
+emozioni, è consapevole di desideri e paure, avverte gli stati d’animo altrui. Ha un positivo rapporto con la
+propria corporeità e ha maturato una sufficiente fiducia in sé.
+Ha acquisito autonomia nell’alimentarsi e nel vestirsi; ha imparato a condividere esperienze e giochi, a gestire
+gradualmente i conflitti, a rispettare le regole e ad assumersi delle responsabilità.
+Ha sviluppato la curiosità e la voglia di sperimentare e di interagire con le cose, l’ambiente e le persone.
+Sa raccontare e descrivere situazioni ed esperienze vissute usando pluralità di linguaggi e utilizzando sempre
+con maggiore proprietà la lingua italiana. È attento alle consegne, si appassiona e porta a termine il lavoro dato.
+Il bambino ha accresciuto il senso della cittadinanza. Sa comprendere e spiegare il legame con la propria famiglia,
+comunità, scuola, paese, mondo. Gioca e lavora in gruppo in modo costruttivo. Esprime con spontaneità la
+propria religiosità.
+
+## Ampliamento Dell’Offerta Formativa
+
+I progetti  e i laboratori scelti dalla nostra Scuola dell’Infanzia rispondono ai bisogni, ai desideri e alle inclinazioni
+dei bambini. Sono spazi strutturati e destrutturati pensati e voluti per dare ai bambini l’opportunità di
+sperimentare, costruire, imparare, fare, collaborare, esprimere se stesso, comunicare le sue esperienze e
+manifestare la sua fantasia divertendosi.
+Strategia privilegiata di lavoro è l’attività di intersezione.
+!
+
+---
+
+## Pagina 20
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+!*"
+
+## Progetti
+
+
+## Progetto
+
+
+## Destinatari
+
+
+## Prima Accoglienza
+
+Tutti
+Il mese di Settembre è dedicato all’inserimento del
+bambino nella Scuola, un evento carico di significati
+e talvolta di ansie sia per i bambini sia per i genitori.
+
+## Psicomotricita’
+
+Tutti
+Esperienze motorie e ritmiche per riconoscere i più
+evidenti segnali del proprio corpo.
+
+## Logopedia
+
+Tutti
+Percorso con la specialistica per curare il linguaggio.
+
+## Sicurezza
+
+Tutti
+Giochi e prove di simulazione per riconoscere
+pericoli e situazioni di emergenza.
+
+## Inglese
+
+4 -5 anni
+Attraverso giochi e canzoni i bambini si accostano a
+una nuova lingua
+
+## Raccordo
+
+5 anni
+Momenti di attività con i bambini delle classi prime
+della Scuola Primaria.
+!
+
+---
+
+## Pagina 21
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#+"
+
+## Laboratori
+
+
+## Laboratorio
+
+
+## “Cose Da Grandi”
+
+(Precalcolo, prescrittura e prelettura) per migliorare la coordinazione grafo -
+motoria, per favorire la scoperta dei concetti spazio - temporali e dei
+prerequisiti logici e per sostenere in modo ludico l’approccio alla lettura, alla
+scrittura e al calcolo.
+
+## Io Racconto …
+
+Per imparare a mettersi nei panni degli altri, essere per un giorno o per qualche
+momento qualcuno o qualcosa di diverso, essere liberi di esprimersi e
+divertirsi insieme.
+
+## Musica
+
+Per avvicinarsi al linguaggio sonoro, acquisire ritmo e armonia, divertirsi con i
+compagni e trascorrere momenti allegri.
+
+## Arte
+
+Per imparare a disegnare, colorare e realizzare lavori creativi.
+
+## Sezione Primavera
+
+
+## Finalità
+
+La Sezione Primavera è un servizio educativo e sociale che ha finalità di formazione e socializzazione dei bambini
+in età compresa tra i 24 e i 36 mesi. In questa fascia di età il bambino vive esperienze di maturazione dell’identità,
+conquista dell’autonomia, sviluppo delle competenze, inteso come consolidamento delle abilità sensoriali,
+percettive, motorie, linguistiche e cognitive.
+Il percorso educativo è pensato proprio per i bambini di questa fascia d’età e si può riassumere nel concetto di
+apprendimento attraverso un ambiente di cura educativa, con una attenzione forte al tema dell’accoglienza, del
+benessere, della corporeità, della creatività, dell’immaginazione e dell’accompagnamento alle prime forme di
+linguaggio.
+
+## Obiettivi
+
+•!
+Concorrere allo sviluppo armonico ed integrale del bambino nel rispetto dei suoi ritmi evolutivi.
+•!
+Garantire al bambino un distacco graduale dalle figure parentali durante la fase dell’inserimento nella
+sezione.
+•!
+Sostenere la costruzione dell’identità del bambino attraverso l’interazione con le educatrici e con i
+compagni.
+•!
+Favorire la socializzazione fra bambini della Sezione Primavera e della Scuola dell’Infanzia.
+•!
+Promuovere esperienze che potenzino l’autonomia nelle diverse aree (motoria, espressiva, sensoriale) e
+la conoscenza di nuovi spazi.
+•!
+Coinvolgere le famiglie attraverso momenti di attività condivisi con i propri figli ed attraverso assemblee
+e colloqui individuali.
+•!
+Realizzare un percorso educativo in continuità con la Scuola dell’Infanzia.
+
+---
+
+## Pagina 22
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#!"
+
+## Clima Relazionale
+
+Il clima relazionale ed affettivo, vissuto nella sezione, favorisce un equilibrato rapporto tra cura educativa ed
+apprendimento; sono offerti numerosi stimoli per lo sviluppo delle abilità cognitive e, nel contempo, occasioni
+per promuovere la socialità e il benessere del bambino.
+Tutte le attività sono organizzate nel pieno rispetto della centralità del bambino, soggetto di diritti, che chiede
+di essere amato, accolto, ascoltato e rispettato.
+L’insegnante costruisce un contesto di vita, di relazione e di apprendimento attraverso un'attenta regia
+educativa. Utilizza una metodologia che valorizza il gioco come metodo attivo e strumento essenziale di
+crescita.
+
+## Il Personale
+
+La sezione è affidata a due Educatrici, che assicurano per tutto il tempo-scuola la loro presenza.
+La Coordinatrice della Scuola dell’Infanzia è anche Coordinatrice della Sezione Primavera e collabora per
+stimolare, proporre, ricercare ciò che favorisce il pieno sviluppo dei bambini.
+La formazione in servizio è integrata dalla partecipazione a corsi di aggiornamento organizzati dalla Scuola o da
+Organismi riconosciuti idonei.
+
+## Spazi E Strutture Interne Ed Esterne
+
+I locali sono idonei sotto il profilo funzionale e della sicurezza, rispettosi delle norme vigenti e rispondenti alle
+specifiche esigenze dei bambini dai due ai tre anni. La sezione è dotata di un’aula per lo svolgimento delle attività
+ludico – didattiche e di uno spazio all’aperto per le attività ludiche. Si avvale di spazi comuni alla Scuola
+dell’Infanzia, quali: il salone per il gioco e i servizi igienici dotati di un fasciatoio.
+La sezione è strutturata ad “angoli” sia per stimolare l'iniziativa di ogni bambino sia per rispondere al suo bisogno
+di sentirsi contenuto, rassicurato e protetto:
+- Angolo morbido, per momenti di coccole, lettura rilassata e accoglienza in circle-time del mattino.
+- Angolo delle costruzioni e dei giochi a tappeto attrezzato, per offrire la possibilità di inventare, produrre,
+costruire.
+- Angolo della cucina, per favorire il gioco simbolico.
+- Spazio-lavoro, dove i tavoli e le sedie sono strumenti fondamentali per le attività manipolative, grafico-
+pittoriche e creative.
+- Angolo della lettura, per stimolare il linguaggio e la scoperta di cose nuove.
+- Angolo della creatività, per scoprire la natura degli oggetti e poterli toccare, spostare, assaggiare.
+- Angolo dei travestimenti, per trasformare la realtà in base ai suoi desideri.
+- Angolo della nanna, per un relax completo.
+- Tana, per fare esperienze fantasiose.
+La sezione è dotata di sussidi didattici adeguati all’età e rispondenti alle esigenze dei bambini.
+
+## Orari E Organizzazione Della Giornata Educativa
+
+La Sezione Primavera ospita i bambini dal lunedì al venerdì, dalle ore 8.30 alle 16.00, offrendo un tempo scuola
+di 38 ore settimanali.
+
+---
+
+## Pagina 23
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+##"
+La giornata scolastica è scandita da momenti di routine, che sono veri e propri punti di orientamento per il
+bambino, e da attività in sezione. Tutti i momenti sono fondamentali per la crescita del bambino: l’ingresso e
+l’uscita caratterizzano il tempo del distacco e quello del ricongiungimento con l’accompagnatore.
+La giornata scolastica è così organizzata:
+
+## Tempi
+
+
+## Proposta
+
+8.30/ 9.15
+accoglienza
+9.30/ 10.00
+spuntino e igiene
+10.00/ 11.00
+attività strutturata/gioco libero
+11.00/11.15
+igiene
+11.15/11.30
+apparecchiamo
+11.30 /12.15
+pranzo
+12.15/12.45
+igiene e  cambio
+12.45/13.15
+gioco libero
+13.00/ 13.15
+uscita anticipata se richiesta
+13.15 /15.00
+riposo
+15.00 /15.30
+igiene e cambio
+15.40 /16.00
+gioco libero e congedo
+
+## Attivitá
+
+$! NARRAZIONE: Lettura di storie, fiabe, racconti.
+$! TRAVASI: I travasi di materiali naturali si prestano a molteplici scoperte che servono a raggiungere gli
+obiettivi cognitivi e a conquistare l’autonomia operativa.
+$! MANIPOLAZIONE: Attraverso i vari materiali che vengono proposti, il bambino ha la possibilità di
+scoprire nuove sensazioni: piacere, fastidio, paura di sporcarsi e di scoprire materiali sconosciuti.
+$! ATTIVITA’ GRAFICO-PITTORICA: Per questa attività tattile e percettivo-motoria si utilizzano colori a
+tempera e a dita. Le attività pittoriche servono a percepire, distinguere e conoscere i colori.
+$! ATTIVITA’ SONORO MUSICALE: Il bambino vive la musica come esperienza emozionale che si esplica
+con movimenti e gesti corporei.
+$! PSICOMOTRICITA’: La pratica psicomotoria si occupa dell’evoluzione motoria, affettiva e psicologica
+del bambino, leggendola attraverso il corpo. È anche un aiuto alla comunicazione.
+$! GIOCO LIBERO/STRUTTURATO: Saper giocare è un segnale importante dello stato di benessere del
+bambino ed è per questo che al gioco è dedicata larga parte della giornata.
+$! GIOCO SIMBOLICO: É il gioco del “far finta di”, dell’imitazione.
+
+---
+
+## Pagina 24
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#$"
+
+## Verifica E Valutazione Della Qualità Del Servizio
+
+La Scuola è consapevole della necessità di un'attenta valutazione e di un’adeguata documentazione del percorso
+educativo-didattico del bambino, dell'esperienza scolastica complessiva e della qualità del servizio offerto.
+Nel corso dei primi due mesi di scuola i bambini sono osservati con particolare attenzione al loro ingresso a
+scuola. Tali osservazioni sono registrate quotidianamente al fine di conoscere le difficoltà che vive il bambino
+nella giornata e soprattutto al momento del distacco dal suo accompagnatore, in modo da renderlo meno
+traumatico.
+L’andamento educativo e didattico è valutato periodicamente nel Collegio dei Docenti e nell’Intersezione.
+Altro elemento che consente di valutare percorsi, progressi e difficoltà, è la documentazione, intesa come
+processo che produce traccia, memoria e riflessione negli adulti e nei bambini, rendendo visibili le modalità e i
+percorsi di formazione.
+
+## Continuità Educativa Con La Scuola Dell’Infanzia
+
+La Sezione Primavera è pienamente integrata sul piano pedagogico con la Scuola dell'Infanzia e, nel corso
+dell’anno e in momenti programmati, gode dell’opportunità di condividere con essa attività e vissuti. Questo
+garantisce ai bambini e alle loro famiglie un percorso privilegiato di continuità educativa che, da un punto di
+vista pedagogico, favorisce stabilità e coerenza al percorso formativo del bambino.
+I momenti di compresenza tra i bambini di tre anni e i bambini della Sezione Primavera sono di forte stimolo sia
+per quelli della sezione dei tre anni, in quanto si sentono responsabili nei confronti dei più piccoli, sia per quelli
+della Sezione Primavera che, osservando i “più grandi”, vengono stimolati alla crescita e all’autonomia.
+!
+
+---
+
+## Pagina 25
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#%"
+
+## Scuola Primaria
+
+La Scuola Primaria pone al centro delle sue premure educative ogni singolo alunno, considerato nella sua unicità
+e come persona creata ad immagine di Dio, redenta da Cristo ed abitata dalla sua presenza.
+Offre il suo servizio educativo a tutte le famiglie che lo richiedono e s’impegna a promuovere la crescita
+dell’alunno in tutte le sue potenzialità, garantendo un piano formativo basato su iniziative e progetti che
+valorizzano la persona del bambino e la sua realizzazione umana e culturale.
+Rilevante importanza è attribuita all’ambiente di apprendimento organizzato in modo da favorire un clima
+relazionale sereno e stimolare la creatività e l’apprendimento.
+
+## Patto Formativo
+
+Gli alunni vengono pienamente coinvolti nel percorso educativo affinché diventino protagonisti attivi
+dell'azione formativa e della costruzione armonica e integrale della propria personalità.
+L’alunno si impegna a:
+•!
+rispettare i tempi programmati e concordati con i docenti per il raggiungimento dei traguardi previsti dal
+proprio curricolo;
+•!
+operare in modo responsabile nell’esecuzione dei compiti richiesti.
+La scuola realizza il proprio compito di educare/istruendo, in stretta collaborazione con la famiglia, che accoglie
+e condivide le proposte della Scuola. Il patto formativo fra Scuola e Famiglia rappresenta infatti l’elemento
+portante della nuova modalità di fare scuola e il rapporto è teso a costruire un percorso educativo basato su
+una corresponsabilità che si traduce in un cammino condiviso in cui i bambini vengono accompagnati ad
+elaborare il senso della propria esperienza, a sperimentare la cittadinanza attiva e a creare un ambiente positivo
+di apprendimento.
+La famiglia pertanto si impegna a:
+•!
+accogliere il Progetto Educativo dell’Istituto, il Piano dell’Offerta Formativa redatto dal Collegio dei Docenti
+e approvato dal Consiglio d’Istituto e sottoscrivere il Patto di Corresponsabilità Educativa;
+•!
+condividere con gli insegnanti linee educative comuni, consentendo alla scuola di dare continuità alla
+propria azione educativa;
+•!
+instaurare un rapporto costruttivo con i docenti, rispettando la loro libertà di insegnamento e competenza
+valutativa.
+L’insegnante, con le sue capacità, la ricchezza umana e culturale e le attenzioni che rivolge all'educando, si
+impegna a:
+•!
+creare un clima positivo nel gruppo classe;
+•!
+introdurre una didattica differenziata ed individualizzata;
+•!
+organizzare tempi ed attività per l'autonomia dei bambini;
+•!
+utilizzare in modo flessibile e funzionale mediatori didattici diversi;
+•!
+conoscere la pratica dei laboratori e saperli utilizzare.
+
+## Organizzazione Oraria
+
+Il monte ore offerto dalla scuola è di 30 ore settimanali, dal lunedì al venerdì. All’interno di tale orario la scuola
+arricchisce il curricolo e organizza, in collaborazione con le famiglie, attività, percorsi e progetti che vanno a
+
+---
+
+## Pagina 26
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#&"
+sostenere e ad arricchire la didattica da un minimo di 70 ad un massimo di 100 ore annuali. Inoltre, il monte ore
+annuale è aumentato di 60 ore circa, in virtù del maggiore numero di giorni scolastici effettuati in un anno.
+Il Collegio dei Docenti applica i criteri di flessibilità, unitarietà e trasversalità, per rendere il curricolo più ricco
+e diversificato e per garantire la qualità degli apprendimenti.
+
+## Unitarietà
+
+! educazione integrale della personalità dei fanciulli
+"
+TRASVERSALITÀ ! percorsi formativi, conoscenze, abilità
+"
+
+## Flessibilità
+
+! progettare “in situazione”
+
+## Monte Ore Delle Singole Discipline
+
+
+## Discipline
+
+Classi 1^-2^
+Classi 3^
+Classi 4^-5^
+Italiano
+8
+7
+7
+Inglese
+3
+4
+4
+Religione
+2
+2
+2
+Storia
+2
+2
+2
+Geografia
+1
+1
+1
+Arte e immagine
+1
+1
+2
+Educazione Fisica
+2
+2
+2
+Musica/Tastiera
+1
+1
+1
+Matematica
+6
+6
+6
+Scienze
+2
+2
+2
+Informatica
+1
+1
+1
+Approfondimento
+1
+1
+30
+30
+30
+L’insegnamento di educazione civica è obbligatorio e trasversale.
+!
+
+---
+
+## Pagina 27
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#'"
+
+## Orario Scolastico
+
+
+## Accoglienza
+
+7.45-8.25
+
+## Lezioni
+
+8.30-10.30
+
+## Intervallo
+
+10.30-10.45
+
+## Lezioni
+
+10.45-12.30
+
+## Pausa Pranzo
+
+12.35-13.00
+
+## Ricreazione
+
+13.00-13.50
+
+## Lezioni
+
+14.00-16.00
+
+## Post-Scuola
+
+16.00-17.30
+Nel rispetto dell’emergenza sanitaria gli orari di entrata e uscita sono scaglionati.
+
+## Organizzazione Didattica
+
+Ogni classe è affidata alla cura di una o due insegnanti, in modo da facilitare la funzione delle insegnanti di
+essere punto di riferimento costante a livello relazionale ed affettivo, fattore fondante dell’approccio al sapere,
+segno e strumento di unità della classe e del lavoro che in essa si svolge, espressione concreta ed autorevole di
+quel contesto educativo che è la scuola nel suo insieme.
+Le insegnanti vengono affiancate, nel lavoro educativo, da insegnanti contitolari e specialiste in Inglese e Scienze
+Motorie, che hanno il compito di aiutare il bambino a crescere in tutte le sue dimensioni e di approfondire
+competenze che riteniamo fondamentali per la crescita umana e il cammino scolastico.
+
+## La Classe
+
+Il funzionamento della scuola avviene su classi, che rappresentano un contesto di rapporti stabili che favorisce
+l’identità personale.
+La vita della classe costituisce infatti un importante apporto alla formazione umana e sociale del bambino; le
+relazioni, il confronto nelle differenze, la solidarietà sono contenuto esplicito e concreto dell’educazione alla
+cittadinanza, nelle dimensioni personale e comunitaria.
+La presenza del gruppo classe è un apporto significativo all’esperienza, sia dal punto di vista relazionale che
+conoscitivo.
+Le attività didattiche possono essere organizzate e svolte con le seguenti modalità:
+•!
+lezione frontale collettiva,
+•!
+attività di lavoro di gruppo,
+•!
+attività per classi o sezioni aperte,
+•!
+laboratori di compito od elettivi,
+•!
+attività di recupero o potenziamento.
+
+## Progettazione Educativa E Percorso Formativo
+
+La nostra azione educativa, finalizzata alla formazione del “progetto di vita” del bambino, mette al centro lo
+sviluppo armonico di tutte le dimensioni della personalità che lo realizzano come uomo-cittadino-cristiano. La
+comunità educante fa leva sulla dimensione socio-affettiva come canale privilegiato per l’apprendimento e la
+maturazione personale, nella convinzione che si possano creare le condizioni di successo formativo per ogni
+
+---
+
+## Pagina 28
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#("
+alunno, valorizzando la diversità come fonte di ricchezza, di consolidamento della propria identità e delle abilità
+relazionali e comunicative.
+Per promuovere tale crescita, la comunità educante fa riferimento alla figura di Gesù, al percorso spirituale di
+Madre Geltrude Comensoli (Fondatrice della Congregazione religiosa che gestisce la Scuola) e ai suggerimenti
+che la Chiesa propone durante l’anno liturgico.
+Le tappe previste sono:
+•!
+percorso spirituale proposto dalla CEI “Educare alla vita buona del Vangelo”;
+•!
+celebrazioni eucaristiche;
+•!
+educazione al dialogo con Dio (preghiera del cuore, preghiere della tradizione);
+•!
+percorsi specifici nei tempi forti liturgici: Avvento-Natale, Quaresima-Pasqua;
+•!
+presentazione, attività e grande festa in onore della Santa Fondatrice Madre Geltrude Comensoli;
+•!
+sensibilizzazione e gesti di solidarietà a favore dei meno fortunati.
+Annualmente la Scuola Primaria sviluppa un percorso formativo, ponendo al centro un valore ritenuto
+fondamentale per la crescita dei bambini e attraverso uno sfondo integratore accattivante lo declina in tappe,
+nuclei tematici e competenze di vita.
+
+## Educazione Civica
+
+Il compito dell’educazione civica nella scuola primaria è contribuire a formare cittadini responsabili e attivi e a
+promuovere la partecipazione piena e consapevole alla vita civica, culturale e sociale delle comunità, nel
+rispetto delle regole, dei diritti e dei doveri.
+Insegnare le regole del vivere e del convivere è per la scuola un compito oggi ancora più ineludibile rispetto al
+passato, perché sono molti i casi nel quale le famiglie incontrano difficoltà più o meno grandi nello svolgere il
+loro ruolo educativo. Fondamentale risulta la collaborazione tra scuola e famiglia. L’obiettivo principale è quello
+di proporre agli alunni un’educazione che li spinga a fare scelte autonome e feconde, quale risultato di un
+confronto continuo della sua progettualità con i valori che orientano la società in cui vivono.
+L’educazione civica viene promossa attraverso esperienze significative che consentano il concreto prendersi
+cura di se stessi, degli altri e dell’ambiente e che favoriscano forme di cooperazione e di solidarietà. Questa fase
+del processo formativo è il terreno favorevole per lo sviluppo di un’adesione consapevole a valori condivisi e
+di atteggiamenti collaborativi che costituiscono la condizione per praticare la buona convivenza civile.
+Gli obiettivi e i contenuti da affrontare si intrecciano con le dimensioni dell’apprendimento di carattere
+cognitivo, affettivo e volitivo in una relazione circolare.
+!"#$%&"'%$()'*%"+",-.!
+"#$#%"&'&(!)&$%*'&!
+"'+,+"*-&$,&(!"#$"&,,.*/+00*'&(!
+&%)'+-&'&!1+.2+0+!)&'%#$*/+3"
+!"#$%&"'%$(,'/"+",-.!
+"#-)+&'&!%"&/,&!&!*0+#$+(!
+-&,,&'&!+$!*,,#!"#-)#',*-&$,+!
++$!,*/+!2+'&0+#$+3"
+!"#$%&"'%$(-00$++",-.!!
+)'#4*'&(!5*'&!&%)&'+&$0*(!4*/.,*'&(!
+&%%&'&!"*)*"+!!
+2+!2&"&$,'*-&$,#!&!&-)*,+*"
+
+---
+
+## Pagina 29
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#)"
+L’insegnamento di questa disciplina è al secondo anno di sperimentazione. Come riportato nelle Linee guida,
+adottate in applicazione della Legge 20 agosto 2019 n. 92, la disciplina si articola in 3 nuclei concettuali
+fondamentali:
+1. Costituzione, diritto (nazionale e internazionale), legalità e solidarietà.
+2. Sviluppo sostenibile, educazione ambientale, conoscenza e tutela del patrimonio e del territorio.
+3. Cittadinanza digitale.
+L’insegnamento è affidato all’intera equipe pedagogica della classe, in un’ottica di condivisione e trasversalità,
+per un numero di ore annue non inferiore a 33. Il docente coordinatore pianifica con l’aiuto delle colleghe una
+progettazione delle attività e delle iniziative. La valutazione segue gli stessi criteri adottati nelle diverse
+discipline e si avvale di strumenti condivisi finalizzati a render conto del conseguimento da parte degli alunni
+delle conoscenze e delle abilità e del progressivo sviluppo delle competenze previste nella sezione del curricolo
+dedicata all’educazione civica.
+
+## Percorsi Formativi Finalizzati Al Potenziamento Delle Abilitá Di
+
+
+## Comunicazione
+
+La Scuola Primaria si prefigge di favorire la crescita della dimensione espressiva dell’alunno attraverso percorsi
+che mirano a lavorare sulle narrazioni, prodotte attraverso i diversi medium, sulla “formazione dei sensi”, e
+attraverso l’utilizzo nella didattica di: cinema, teatro, arte e musica.
+Tenendo presente la teoria delle intelligenze multiple di Gardner, tale percorso promuove la crescita globale di
+ciascun alunno e al tempo stesso mira al benessere del gruppo classe in quanto ciascuno apprende e conosce il
+mondo, privilegiando una o più di queste intelligenze, al di sopra delle altre.
+Le aree tematiche privilegiate sono le seguenti:
+
+## La Parola
+
+Scrittura creativa
+Gara di lettura
+Giochiamo con le storie
+Promuovere e far sperimentare il piacere del leggere, la scrittura creativa e
+l’invenzione di storie.
+Motivare il lavoro di gruppo.
+Favorire l’ascolto.
+Proporre la lettura come chiave per leggere i vissuti affettivi ed emozionali.
+Stimolare la creatività individuale dei bambini, la fantasia e la capacità di
+raccontare ed esprimersi, attraverso le parole ed il disegno.
+Favorire la conoscenza delle tecniche di realizzazione e gestione di un
+giornalino.
+
+## L’Arte
+
+Atelier creativi (disegno,
+colore, tecniche miste)
+Arte povera e riciclo
+Costruzione e
+manipolazione della
+carta
+Arte rupestre/papiro
+Arteterapia
+Scoprire un nuovo e diverso modo di raccontarsi.
+Imparare a codificare le informazioni iconografiche sulla base della conoscenza
+di se stessi.
+Scoprire e valorizzare la propria creatività.
+Favorire l’accoglienza e l’interazione, l’uso dei materiali, del colore, del tratto
+grafico.
+Sviluppo della manualità, allenamento della motricità fine.
+
+---
+
+## Pagina 30
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+#*"
+
+## Il Cinema
+
+Tecniche audiovisive e
+linguaggio
+cinematografico
+Visione di film
+Cineforum
+Utilizzare il linguaggio cinematografico per affrontare tematiche diverse.
+Imparare a progettare e realizzare semplici opere video di immagini in
+movimento. Sviluppare dinamiche di lavoro di gruppo finalizzate a produrre un
+elaborato finale.
+
+## Il Teatro
+
+Teatro
+di
+narrazione
+(anche in L2)
+Giocoleria
+Drammatizzare e lavorare sulle emozioni da raccontare e trasmettere al
+pubblico;
+Sviluppare dinamiche di lavoro di gruppo finalizzate a produrre i personaggi,
+scenografie, azioni;
+Eventuale
+realizzazione
+di
+un
+piccolo
+spettacolo
+utile
+per
+una
+rappresentazione finale
+
+## La Musica
+
+Tastiera
+Bans, canti mimati, balli
+Talent show
+Realizzazione di coreografie, proposte e inventate.
+Potenziare le attitudini canore e musicali.
+Recuperare e trasmettere il repertorio musicale popolare e non.
+Realizzare uno spettacolo alla scoperta di nuovi talenti, per favorire
+l’inclusione.
+Ogni progetto individua: obiettivi formativi e abilità, articolazione del percorso, attività (v. allegato n 4).
+
+## Ampliamento Dell’Offerta Formativa
+
+Una parte del monte ore dell’ampliamento dell’Offerta Formativa è dedicato al rafforzamento/recupero delle
+abilità linguistiche e logico-matematiche e alla creazione delle abilità di studio. Vengono inoltre proposti i
+seguenti progetti curricolari:
+
+## Progetto
+
+
+## Destinatari
+
+
+## Accoglienza
+
+Tutte le classi
+Si organizzano in ogni classe attività mirate all’inserimento degli alunni e
+al termine del mese di settembre un momento di condivisione: la Festa
+dell’accoglienza.
+
+## Sicurezza
+
+Tutte le classi
+Si strutturano lezioni teorico–pratiche mirate al riconoscimento
+dell’allarme, alla ricerca dei segnali presenti nella scuola, alla conoscenza
+del protocollo, del percorso e delle modalità di raggiungimento del
+punto di raccolta.
+
+## Ambiente
+
+Tutte le classi
+Si sensibilizzano gli alunni alla conservazione dei beni naturali attraverso
+semplici gesti e azioni quotidiane in ogni ambiente di vita.
+
+## Alimentazione
+
+Tutte le classi
+Il pasto in mensa è un’occasione importante per favorire corrette
+abitudini alimentari, educare al gusto e a non sprecare.
+SfogliAMO
+Tutte le classi
+Durante tutto l’anno scolastico i bambini usufruiscono della biblioteca
+di classe, godono il momento della lettura e ne scoprono la bellezza, la
+passione e le potenzialità.
+
+## Cinema
+
+Tutte le classi
+Attraverso la visione di alcuni film, gli alunni sono guidati a sviluppare
+una propria capacità critica.
+
+---
+
+## Pagina 31
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$+"
+
+## Tastiera
+
+Classi 4^- 5^
+Corso opzionale di tastiera organizzato in collaborazione con il Centro
+Studi Musicali “L’Accademia”, con metodo Yamaha.
+
+## Madrelingua
+
+
+## Inglese
+
+Classi 4^-5^
+I bambini vengono stimolati all’uso della lingua inglese attraverso
+esperienze di gruppo ludiche, motorie e espressive e la partecipazione a
+dialoghi con l’insegnante madrelingua e con i compagni.
+
+## Certificazione
+
+
+## Cambridge
+
+Classi 5^
+Certificazione YLE MOVERS rilasciata dalla Cambridge English Language
+Assessment.
+
+## Teatro In Inglese
+
+Classi 4^- 5^
+Spettacolo in lingua inglese di un racconto famoso.
+
+## Affettivitá
+
+
+## Ed Emozioni
+
+Tutte le classi
+Attraverso momenti ludici e di riflessione, i bambini affrontano
+tematiche relative alla conoscenza di sé, delle proprie emozioni e della
+sfera affettivo-sessuale.
+
+## Con Gli Occhi
+
+
+## Dell’Altro
+
+Classi 5^
+Prevenzione a problematiche di prevaricazione e bullismo.
+
+## A Tutto Sport
+
+Classi 4^- 5^
+Proposte di giochi sportivi.
+
+## Giocoleria
+
+Classi 4^
+Acrobazie e giochi di equilibrio come in un circo.
+
+## Scherma
+
+Classi 3^- 4^-5^
+Sviluppare la conoscenza e la pratica dei gesti tecnici della scherma
+Ogni progetto individua: obiettivi formativi e abilità, articolazione del percorso, attività.
+
+## Valutazione
+
+La Scuola Primaria valuta le conoscenze e le abilità conseguite dagli alunni e, al termine di un percorso didattico,
+il raggiungimento dei traguardi di competenza delle singole discipline.
+L’atto valutativo sintetizza e rende evidente quanto in sede di progettazione è stato predisposto a livello di
+obiettivi, finalità, strategie, metodi, risorse per rispondere ai bisogni formativi della classe e del singolo alunno.
+La valutazione è il momento di sintesi in cui vengono messe a fuoco le prestazioni dell’alunno, considerando il
+livello di partenza, le modalità di somministrazione delle prove e i dati socio–affettivi che hanno contribuito al
+raggiungimento delle competenze attese. La valutazione dei comportamenti e delle prestazioni viene verificata
+attraverso un’osservazione metodica.
+La Scuola possiede un Protocollo per la Valutazione (vedi allegato 6) al quale le insegnanti si riferiscono per
+avere dei criteri di valutazione condivisi. Il Collegio Docenti utilizza una valutazione formativa e non sommativa,
+in modo da tener presente e valorizzare i progressi dell’alunno, incentivandolo ad avere fiducia in se stesso e a
+sostenerlo in un sicuro successo formativo.
+A seguito O.M. 172 DEL 04/12/2020, con relative LINEE GUIDA, la scuola, dal febbraio 2021, adotta la nuova
+valutazione per gli alunni e ogni docente si impegna a verificare la propria azione didattica e a realizzare
+interventi mirati.
+La valutazione tiene presente le seguenti DIMENSIONI DELL’APPRENDIMENTO:
+•!
+Autonomia dell’alunno nel mostrare la manifestazione di apprendimento;
+
+---
+
+## Pagina 32
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$!"
+•!
+Tipologia della situazione (nota o non nota) entro la quale l’alunno mostra di aver raggiunto
+l’obiettivo;
+•!
+Le risorse mobilitate per portare a termine il compito;
+•!
+La continuità nella manifestazione dell’apprendimento.
+
+## Scuola Primaria Cir.Cle
+
+Sono le intenzionalità educative, le finalità istituzionali, i valori, gli scopi ultimi e il progetto di base per una
+“nuova scuola” che ispirano l’offerta formativa proposta dalla Scuola Primaria Cir .Cle.
+Condivisa a livello collegiale, rappresenta la direzione, la meta verso cui ci si intende muovere e la proiezione
+delle aspettative relative a ciò che la scuola Cir.Cle vuole essere per il futuro.
+La scuola primaria Cir.Cle, con tutte le persone che in essa vi operano (responsabile didattico, docenti, personale
+non insegnante, etc) intende coinvolgere gli alunni e i loro genitori nella realizzazione di una “nuova scuola” che
+rappresenta il progetto attraverso il quale si desidera che la scuola si evolva nel futuro e si impegna a proseguire.
+1.!
+Una scuola altamente formativa in grado di promuovere attraverso una pluralità di saperi, di progetti,
+di integrazioni curricolari e di esperienze significative, la maturazione di tutte le dimensioni della
+personalità dei bambini.
+2.! Una scuola costruttivista dove i bambini apprendono attraverso un processo di costruzione attiva e
+non tramite una percezione passiva di informazioni.
+3.! Una scuola dell’interazione dove vengono favoriti i rapporti socioaffettivi tra bambini della stessa
+classe e della stessa scuola, tra i bambini e gli operatori scolastici.
+4.! Una scuola partecipata cha sa instaurare rapporti costruttivi di collaborazione con le famiglie, con enti
+e associazioni operanti sul territorio, per migliorare la vita scolastica ed innescare processi innovativi.
+5.! Una scuola dell’integrazione che valorizza le differenze, crea legami autentici tra le persone, favorisce
+l’incontro fra culture diverse.
+6.! Una scuola accogliente, allegra, spaziosa, colorata in grado di rendere piacevole e gratificante
+l’acquisizione dei saperi, di favorire ricche relazioni sociali e di consentire attività ludiche guidate e
+giochi liberi; una scuola, quindi, come luogo di vita per docenti e bambini.
+7.! Una scuola organizzata dotata di ambienti diversificati (laboratori), per svolgere attività con
+attrezzature funzionali e flessibile negli orari e nelle tipologie organizzative, per rispondere alle
+molteplici esigenze degli alunni e delle famiglie.
+8.! Una scuola attuale, dinamica, in continua evoluzione capace di leggere i cambiamenti della società in
+cui è inserita, di progettare il miglioramento della qualità dell’offerta formativa e di servizio.
+9.! Una scuola dialogante e cooperante con altre agenzie educative per costruire sistema formativo
+allargato.
+10.! Una scuola responsabilizzante, dove si potenzia la capacità di operare delle scelte, di progettare, di
+assumere responsabilità e impegno.
+
+
+
+---
+
+## Pagina 33
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$#"
+
+## La Riforma Del Sistema Di Istruzione E Formazione
+
+L’Atto di Indirizzo emanato il 4 settembre 2012 dal Ministero dell’Istruzione dell’Università e della Ricerca
+definisce i criteri generali per l’armonizzazione degli assetti pedagogici, didattici e organizzativi della scuola
+dell’infanzia e del primo ciclo di istruzione con gli obiettivi del Regolamento (D.L. n. 89 del 20 marzo 2009) e
+prevede, per un periodo non superiore a tre anni scolastici in attesa che si proceda alla loro compiuta
+armonizzazione, l’applicazione delle Indicazioni per il curricolo che pertanto costituiscono il punto di
+riferimento per la progettazione dei piani dell’offerta formativa.
+I criteri esplicitati si riferiscono alla necessità di:
+- porre al centro, nell’azione della scuola, l’alunno e il suo itinerario di formazione personale e di apprendimento;
+- mantenere in primo piano l’obiettivo di formare i cittadini di oggi e di domani;
+- operare per una scuola dell’inclusione;
+- fissare le tappe e i traguardi da superare nel percorso formativo secondo standard diffusi nell’area UE e OCSE;
+- definire e proporre un curricolo adeguato alla formazione degli alunni e al loro proseguimento degli studi.
+
+## Un Curricolo Adeguato Alla Formazione Degli Alunni
+
+Il percorso educativo e formativo è un continuum progettuale che accompagna i bambini e le bambine dal loro
+ingresso alla conclusione del primo ciclo di istruzione, nella prospettiva della successiva prosecuzione degli
+studi.
+Contenuti e articolazioni delle discipline sono ripensati nella prospettiva di portare a una prima familiarità con
+i “nuclei fondanti” delle discipline stesse e a una solida acquisizione di conoscenze e competenze di base che
+tutti gli studenti devono possedere e padroneggiare a conclusione del primo ciclo di istruzione.
+Le Indicazioni per il curricolo costituiscono un riferimento essenziale che può, e deve, essere sviluppato,
+integrato e aggiornato nel pieno esercizio della responsabilità di scelta pedagogica e rispondendo alle diversità
+delle situazioni ed esigenze. Necessario dunque predisporre un curricolo che, a partire da un’impostazione
+necessariamente predisciplinare, e salvaguardando sempre la dimensione transdisciplinare e interdisciplinare,
+miri a far scoprire la bellezza e l’interesse di ciascuna disciplina e conduca così gradualmente a coglierne i nuclei
+fondanti. In tal modo è possibile far maturare un rapporto positivo con le discipline sul quale costruire, con il
+maturare delle necessarie facoltà, un approfondimento critico di esse valorizzando le capacità di ogni singolo
+alunno.
+Il lavoro scolastico che la scuola intende organizzare garantisce un’ampia flessibilità di tempi e di modi,
+calibrando gli interventi alle capacità, ai ritmi e agli stili cognitivi di ciascun alunno.
+Il lavoro proposto e organizzato dal corpo docente è basato sul Profilo educativo culturale e professionale dello
+studente, documento che definisce che cosa ogni alunno deve sapere (conoscenze disciplinari e
+interdisciplinari), deve fare (abilità operative), come deve agire (comportamenti personali e sociali).
+In tale documento l'alunno è visto nella sua dimensione integrale: i contenuti disciplinari e le pratiche didattiche
+sono interpretati come strumenti utili a conseguire competenze personali, a sviluppare armonicamente tutte le
+dimensioni della persona, a promuovere la cittadinanza attiva.
+Gli Obiettivi generali del processo formativo e quelli specifici di apprendimento delle singole discipline sono
+invece elencati nelle Indicazioni per il curricolo nella Scuola Primaria.
+Per costruire quello che viene definito il Piano di Studi Personalizzato (Psp), ovvero l'insieme delle Unità di
+Apprendimento progettate per uno o più alunni, il corpo docente:
+- raccoglie informazioni finalizzate a formulare un profilo d'ingresso di ciascun alunno in relazione a:
+1. conoscenze, abilità e competenze già possedute;
+2. difficoltà di apprendimento e/o di relazione precedentemente rilevate;
+
+---
+
+## Pagina 34
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$$"
+3. stili e ritmi cognitivi, attitudini e interessi personali;
+4. modalità relazionali nei vari ambienti di vita; eventuali comportamenti problematici; abitudini e
+risorse culturali della famiglia;
+5. attività svolte in orario extrascolastico.
+- confronta il profilo formulato con il Profilo e con le Indicazioni nazionali
+- formula gli Obiettivi formativi
+- progetta le Unità di Apprendimento che, tenendo conto del Piano dell'Offerta Formativa delle scuola, siano
+finalizzate alla trasformazione degli Obiettivi formativi in competenze personali dell'alunno.
+- mette in atto le Unità di Apprendimento e ne verifica l'efficacia per procedere eventualmente e perfezionarle
+al fine di renderle sempre più rispondenti ai bisogni formativi degli alunni.
+
+## Il Disegno Educativo
+
+Il disegno educativo che si intende proporre per gli alunni della scuola è permeato dalla volontà di costruire un
+individuo capace di:
+•!
+riconoscere e gestire i diversi aspetti della propria esperienza motoria, emotiva e razionale;
+•!
+abituarsi a riflettere, con spirito critico, sia sulle affermazioni in genere, sia sulle considerazioni necessarie
+per prendere una decisione;
+•!
+distinguere nell’affrontare in modo logico i vari argomenti, il diverso grado di complessità che li caratterizza,
+senza peraltro perdere mai l’aggancio con il senso della realtà e del mondo personale, sociale e naturale
+circostanti;
+•!
+di avere gli strumenti di giudizio sufficienti per valutare se stessi, le proprie azioni, i fatti e i comportamenti
+individuali, umani e sociali degli altri, alla luce - di parametri derivati dai grandi valori spirituali che ispirano
+la convivenza civile;
+•!
+di essere disponibili al rapporto di collaborazione con gli altri, per contribuire con il proprio apporto
+personale alla realizzazione di una società migliore;
+•!
+di avere consapevolezza, sia pure adeguata all’età, delle proprie capacità di riuscire, sulla base di esse, a
+immaginare e progettare il proprio futuro, predisponendosi a gettarne le basi con appropriate assunzioni
+di responsabilità;
+•!
+di porsi le grandi domande sul mondo, sulle cose, su di sé e sugli altri, sul destino di ogni realtà, nel tentativo
+di trovare un senso che dia loro unità e giustificazione.
+In relazione alle finalità ultime del processo educativo il traguardo può ritenersi raggiunto se le conoscenze
+disciplinari e interdisciplinari (il sapere) e le abilità operative (il fare) apprese ed esercitate a scuola diventano
+competenze personali.
+Un ragazzo è riconosciuto “competente” quando, facendo ricorso a tutte le capacità di cui dispone, utilizza le
+conoscenze e abilità apprese per:
+•!
+esprimere un personale modo di essere e proporlo agli altri;
+•!
+interagire con l’ambiente naturale e sociale che lo circonda, e influenzarlo positivamente;
+•!
+risolvere i problemi che di volta in volta incontra;
+•!
+riflettere su se stesso e gestire il proprio processo di crescita, anche chiedendo aiuto, quando occorre;
+•!
+comprendere, per il loro valore, la complessità dei sistemi simbolici e culturali;
+•!
+maturare il senso del bello;
+•!
+conferire senso alla vita.
+
+## Il Disegno Formativo
+
+L'intera esistenza di una persona è accompagnata dalla necessità di conoscere, sperimentare e aprirsi a nuove
+esperienze formative.
+
+---
+
+## Pagina 35
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$%"
+In ogni età della vita, occorre stimolare l'individuo al meglio, tenendo conto delle sfaccettature della sua
+personalità e delle sue capacità, per trasformarle in vere e proprie "competenze".
+Ripercorrendo gli obiettivi generali del processo formativo espressi nelle Indicazioni nazionali si incontrano due
+concetti che il Collegio Docenti ritiene fondamentali per progettare un valido percorso formativo: "valorizzare
+l'esperienza del fanciullo", "esplicitare le idee e i valori presenti nell'esperienza" e "dal mondo delle categorie
+empiriche al mondo delle categorie formali".
+La centralità dell'ESPERIENZA, deve essere intesa come vissuto, il bambino nel momento in cui entra nel mondo
+scolastico si presenta con un proprio bagaglio esperienziale personale, legato al proprio passato e a quello della
+propria famiglia; come base su cui fondare il proprio sapere e come possibilità di scoprire e maturare nuove
+esperienze stesse.
+I bambini che entrano nella scuola primaria hanno già maturato delle concettualizzazioni intuitive e generali che
+utilizzano per spiegare i fenomeni che incontrano: si potrebbe dire che il bambino ha elaborato una propria
+"fisica", o "storia", "arte" che potrebbero essere definite "ingenue", indicando con questo termine, non il concetto
+di semplicità, ma bensì il valore fondamentale di una conoscenza non ancora formalizzata.
+La scuola intende utilizzare queste conoscenze per impostare il proprio programma, suggerendo e lavorando
+inizialmente con i bambini proprio come il bambino "lavora" di per sè. Ciò significa impostare un programma
+basato su apprendimenti "ingenui", che si contrappongono a quelli "formali". Un apprendimento ingenuo è tale
+perchè è raggiunto in maniera costruttiva (dal punto di vista dell'allievo) ed organizzata (dal punto di vista
+dell'insegnante), ma non istituzionalizzata. L'insegnante organizza l'ambiente, pre-dispone il contesto
+conoscitivo, avendo già in mente qual è
+l'apprendimento che vuol far costruire all'allievo; l'allievo si fa carico di un impegno(per esempio accettando di
+giocare ad un gioco suggerito dall'insegnante) senza sapere qual è la posta cognitiva in gioco.
+Solo successivamente quando l'allievo ha appreso in modo "ingenuo" si può proporre e impostare un traguardo
+cognitivo formale, quando è ben chiaro che si sta facendo qualche cosa per imparare qualche cosa. Il sapere che
+ci si attende di dover far raggiungere è stabilito: Il formale viene dunque poi, ma ha senso solo se si fonda su
+una costruzione ingenua, già effettuata.
+Come viene sottolineato nelle Indicazioni, la Scuola Primaria accompagna i fanciulli a passare dal mondo e dalla
+vita ordinati, interpretati ed agiti solo alla luce delle categorie presenti nel loro patrimonio culturale, valoriale
+e comportamentale al mondo e alla vita ordinati e interpretati anche alla luce delle categorie critiche,
+semantiche e sintattiche, presenti nelle discipline di studio e negli ordinamenti formali del sapere accettati a
+livello di comunità scientifica.
+Fine ultimo è quello di impostare una scuola che pone al centro il bambino con le sue vere competenze cognitive
+e su queste fa leva per costruire competenze più complesse utili nell'affrontare nuovi saperi essenziali e
+progressivi.
+La scuola primaria non può disconoscere le categorie interpretative soggettive di ogni singolo alunno, ma ha il
+compito di proporre semplicemente un lavoro su tali concezioni infantili per aiutare i bambini a metterle alla
+prova per classificarle e sostituirle con semplici e chiare definizioni operative che sempre più,
+con il passare degli anni, si avvicineranno alle categorie formali delle diverse discipline.
+Quindi attraverso un graduale e progressivo percorso di riflessione critica, attivato a partire dall'esperienza, la
+scuola si propone di arricchire sul piano analitico e sintetico la visione del mondo e della vita degli allievi, di
+integrare tale visione nella loro personalità e di stimolare l'esercizio nel concreto della propria vita.
+L'obiettivo principale è una scuola di qualità basata su pacchetti formativi, che conducano gli alunni alla massima
+attivazione delle risorse di cui sono dotati, attraverso l'esercizio dell'autonomia personale, della responsabilità
+intellettuale, morale e sociale, della creatività e del gusto estetico. Il quadro si completa con necessarie buone
+tecniche e pratiche didattiche, percorsi di ricerca e di formazione per i docenti e quant’altro serva per qualificare
+il processo di insegnamento- apprendimento.
+Il vissuto esperienziale del bambino è indubbiamente legato alla propria corporeità, che, nelle Indicazioni, viene
+riconosciuta come valore fondamentale
+del quale la scuola deve essere consapevole. Essa rappresenta il modo globale del bambino di essere nel mondo
+e di agire nella società. L'avvaloramento dell'espressione corporea è allo stesso tempo condizione e risultato
+
+---
+
+## Pagina 36
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$&"
+dell'avvaloramento di tutte le altre dimensioni della persona: la razionale, l'estetica, la sociale, l'operativa,
+l'affettiva e così via.
+
+## L’Organizzazione Del Curricolo
+
+Nel rispetto e nella valorizzazione dell’autonomia delle Istituzioni Scolastiche, le Indicazioni rappresentano la
+base di partenza per la costruzione del curricolo, cioè del percorso formativo che ogni scuola progetta per gli
+allievi, un percorso delineato nel tempo, nello spazio e nelle risorse umane e materiali necessarie a svolgerlo.
+L’elaborazione del curriculo di scuola implica l’effettuazione di scelte specifiche in relazione ai bisogni di
+formazione degli allievi e all’analisi del contesto in cui la scuola è inserita. Una progettazione curriculare che
+permetta alla scuola di organizzare il servizio e orientare l’attività di insegnamento/apprendimento è costituita
+da un intreccio di elementi, componenti fondamentali che costituiscono il processo didattico: le finalità
+assegnate alla scuola primaria, i traguardi di competenza, gli obiettivi di apprendimento e i contenuti,
+l’impostazione metodologica, la valutazione degli alunni, i tempi e le attività didattiche, gli spazi a disposizione.
+Durante la fase di progettazione didattica ogni docente traduce l’itinerario stabilito per l’intera scuola in “lavoro
+d’aula”, cioè in esperienze di apprendimento e scelte didattiche significative, elaborando le strategie più efficaci
+per i propri alunni.
+In un contesto idoneo a promuovere apprendimenti significativi e a garantire il successo formativo per tutti gli
+alunni, un’attenzione particolare va prestata ai “traguardi di sviluppo della competenza” relative alle discipline
+e non solo, che costituiscono criteri per la valutazione delle competenze attese.
+Come viene evidenziato nelle Indicazioni la competenza è qualcosa che viene gradualmente incrementata e che
+richiede del tempo, e sottintende una serie di riferimenti al “sapere” (le conoscenze), al “saper fare” (le abilità),
+al “saper essere” (le disposizioni e gli atteggiamenti), al “saper imparare” (la riflessività e la consapevolezza.
+L’apprendimento che sviluppa competenza è svincolato dagli aspetti di puro meccanicismo e rappresenta l’esito
+di un’attività, con un coinvolgimento autentico in ciò che si impara: l’alunno/a usa le conoscenze e le abilità di
+cui è in possesso, impara a fare e riflettere su ciò che fa, sviluppa comportamenti di responsabilità e autonomia.
+Gli allievi vengono quindi coinvolti nello svolgere compiti che abbiano un senso, e permettano loro di
+impadronirsi delle abilità necessarie alla loro realizzazione. Le situazioni di apprendimento più adeguate sono
+quelle che permettono di mettere in opera un insieme organizzato di saperi e saper fare, che comportano legami
+tra le discipline e la vita extrascolastica; situazioni che sviluppino interazioni sociali con i pari e con l’insegnante.
+
+## La Formazione Efficace
+
+Lavorare per competenze significa favorire la maturazione negli studenti della consapevolezza dei propri talenti,
+di un rapporto positivo con la realtà sostenuto da curiosità e volontà, in grado di riconoscere le criticità e le
+opportunità che gli si presentano, capaci di assumere responsabilità autonome nella prospettiva del servizio
+inteso come contributo al bene comune e consapevoli di
+partecipare ad un processo comune di crescita interculturale.
+La competenza non è un fenomeno assimilabile al saper fare, ma un modo di essere della persona che ne
+valorizza tutte le potenzialità. Ciò significa superare la “socializzazione” – ovvero l’adattamento della persona a
+ruoli stabiliti e rigidi, un processo che oggi funziona piuttosto “a rovescio” provocando disaffezione e rifiuto per
+tutto ciò che appare impersonale – per una prospettiva di “socievolezza” propria di chi, dotato di libertà e
+volontà, è posto in condizione di mettere a frutto i propri talenti nella costruzione di una vita sociale sempre
+più a misura d’uomo.
+Questa meta viene perseguita mediante una formazione efficace che valorizza la figura dell’insegnante come
+adulto significativo, collocato entro una comunità di apprendimento, capace di mobilitare i talenti degli studenti
+in esperienze significative concrete, sfidanti, che suscitano interesse e sollecitano un apprendimento per
+scoperta e conquista personale. Questa prospettiva valorizza l’identità della scuola e la mette i relazione con
+gli attori significativi del contesto territoriale con cui condivide la responsabilità educativa e da cui ricava
+occasioni e stimoli per arricchire i percorsi formativi degli studenti.
+
+---
+
+## Pagina 37
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$'"
+La didattica delle competenze si fonda sul presupposto che gli studenti apprendono meglio quando
+costruiscono il loro sapere in modo attivo attraverso situazioni di apprendimento fondate sull’esperienza.
+Aiutando gli studenti a scoprire e perseguire interessi, si può elevare al massimo il loro grado di coinvolgimento,
+la loro produttività, i loro talenti. L’insegnante non si limita a trasferire le conoscenze, ma è una guida in grado
+di porre domande, sviluppare strategie per risolvere problemi, giungere a comprensioni più profonde, sostenere
+gli studenti nel trasferimento e uso di ciò che sanno e sanno fare in nuovi contesti. I “prodotti” dell’attività degli
+studenti, insieme a comportamenti e atteggiamenti che essi manifestano all’interno di compiti costituiscono le
+evidenze di una valutazione attendibile, ovvero basata su prove reali ed adeguate. Il valore della didattica per
+competenze è definita dalla seguenti mete formative:
+- formare cittadini consapevoli, autonomi e responsabili;
+- riconoscere gli apprendimenti comunque acquisiti;
+- favorire processi formativi efficaci in grado di mobilitare le capacità ed i talenti dei giovani rendendoli
+responsabili del proprio cammino formativo e consapevoli dei propri processi di apprendimento, verso la
+competenza di “imparare a imparare”;
+- caratterizzare in chiave europea il sistema educativo italiano rendendo possibile la mobilità delle persone nel
+contesto comunitario;
+- favorire la continuità tra formazione, lavoro e vita sociale lungo tutto il corso della vita;
+- valorizzare la cultura viva del territorio come risorsa per l’apprendimento;
+integrare l’istituzione scuola attraverso la scoperta e lo studio degli ambienti della nostra città.
+- consentire una corresponsabilità educativa da parte delle famiglie e della comunità territoriale.
+Una scuola che si proponga di sviluppare una formazione efficace pone al centro del suo compito il “coltivare
+talenti” di tutti i cittadini, senza esclusione di nessuno, e propone la cultura come esperienza ed appropriazione
+personale in vista di un progetto di vita significativo.
+La formazione è efficace se non opera su saperi inerti, ma valorizza la cultura realmente vissuta (civica,
+professionale, umanistica quanto scientifica) stimolando lo studente alla ricerca ed alla scoperta dei significati,
+dei valori, dei metodi, così da acquisire coscienza personale, consapevolezza del mondo, competenze attuali.
+
+## Curricolo Scuola Primaria Cir-Cle
+
+(con riferimento alle Competenze chiave europee e alle Indicazioni nazionali 2012)
+
+## Comunicazione Nella Madrelingua
+
+Disciplina di riferimento: LINGUA ITALIANA
+Discipline concorrenti: tutte
+Comunicare in modo responsabile e coerente al contesto attraverso un dialogo
+costruttivo e rispettoso delle proprie idee e di quelle altrui.
+•!
+Utilizza un pensiero critico attraverso l’ascolto, la lettura e la scrittura.
+•!
+Legge con piacere testi narrativi.
+•!
+Legge comprendendone i contenuti dei diversi tipi di testo: storico, scientifico…
+•!
+Raggiunge una buona correttezza ortografica attraverso una scrittura libera e creativa.
+•!
+Utilizza un linguaggio disciplinare specifico attraverso una rielaborazione orale personale.
+•!
+Discrimina uguaglianze e diversità di linguaggi utilizzando le molteplici lingue proposte.
+•!
+Sviluppa un pensiero logico sintatticamente corretto attraverso momenti di ascolto comunitario con
+racconti individuali.
+COMPETENZE IN MATEMATICA E COMPETENZE DI BASE IN SCIENZA E TECNOLOGIA-MATEMATICA
+Disciplina di riferimento: MATEMATICA
+
+
+---
+
+## Pagina 38
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$("
+Discipline concorrenti: tutte
+Sviluppare l’intelligenza numerica significa intuire e cogliere nella realtà connessioni traducibili in linguaggio
+matematico, favorendo un atteggiamento positivo attraverso esperienze significative e personali:
+! Utilizza rappresentazioni diverse di oggetti matematici facendo riferimento alla realtà quotidiana e
+all’esperienza personale (frazioni, percentuali, decimali ecc...).
+•!
+Mette in atto strategie di problem solving autonome e personali distanziandosi da una formalizzazione
+univoca.
+•!
+Attraverso ragionamenti, ipotesi e confronti l’alunno sviluppa buone capacità metacognitive.
+•!
+Acquisisce una capacità immediata di calcolo orale e scritto attraverso un’attività sistematica e
+quotidiana.
+•!
+Riconosce e rappresenta elementi geometrici.
+•!
+Descrive e classifica elementi geometrici.
+•!
+Utilizza strumenti per il disegno geometrico.
+•!
+Si orienta sia nella lettura sia nella costruzione di grafici e tabelle.
+Inoltre la scuola attua al proprio interno tre sperimentazioni didattiche: “Bimbi Matematici”, Geometria Creativa.
+Disciplina: SCIENZE
+Le scienze vengono insegnante in lingua italiana, l’insegnante specialista utilizza anche schede informative e
+compilative in lingua inglese. Tale materiale è a completamento e in coerenza con le competenze dei bimbi
+nella seconda lingua.
+Inoltre la scuola è coinvolta in progetti legati alla sperimentazione scientifica:
+Bergamo scienza
+La settimana al museo.
+Disciplina di riferimento: GEOGRAFIA
+Promuovere una relazione consapevole e orientata nell’ambiente e nello spazio,
+favorendo uno scambio etico con il mondo circostante, cogliendo l’interdipendenza tra uomo e ambiente.
+•!
+Si orienta nello spazio che lo circonda utilizzando punti di riferimento formali e non formali.
+•!
+Interpreta, progetta e realizza carte geografiche di diverso tipo per rappresentare la realtà e pianificare
+itinerari.
+•!
+Ricava informazioni geografiche da una pluralità di fonti e le sa selezionare autonomamente.
+•!
+Coglie le connotazioni dei paesaggi, con particolare riferimento a quelli italiani, creando analogie e
+differenze con i paesaggi europei e altri continenti.
+•!
+Riconosce le trasformazioni operate dall’uomo sul territorio, cogliendone criticamente gli aspetti.
+•!
+Utilizza in modo competente e funzionale gli strumenti della geografia per comprenderne i concetti
+attraverso strumenti tradizionali e nuove tecnologie.
+•!
+Esplora consapevolmente il territorio circostante effettuando esperienze significative.
+
+## Consapevolezza Ed Espressione Culturale
+
+Disciplina di riferimento: STORIA
+Discipline concorrenti tutte
+La storia concorre in modo fondamentale alla costruzione dell’identità personale, sociale e culturale.
+•!
+Costruisce linee del tempo per organizzare informazioni e conoscenze, prima legate alla memoria
+autobiografica, poi alla storia della civiltà umana.
+•!
+Esplora il territorio discriminando e classificando le tracce storiche presenti, acquisendo una sensibilità
+personale verso il patrimonio artistico e naturale
+•!
+Riconoscere la relazione di causa ed effetto tra gruppi umani e contesti spaziali.
+•!
+Utilizza categorie storiche e un linguaggio adeguato alla disciplina.
+•!
+Attraverso la produzione e costruzione di elaborati concreti, l’alunno acquisisce la capacità
+interpretativa di un testo storico.
+•!
+Usa carte geo-storiche.
+•!
+Comprende aspetti fondamentali del passato che vanno dalla nascita della vita alla fine dell’impero
+romano d’Occidente.
+•!
+Conquista il senso della ricerca storica attraverso un rimando agli eventi contemporanei.
+
+---
+
+## Pagina 39
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$)"
+Disciplina di riferimento: ARTE E IMMAGINE
+L’arte nel nostro progetto è fonte d’ispirazione e scoperta delle capacità espressive del bambino.
+Viene promossa nelle due ore settimanali, ma è anche protagonista di spunti di riflessione per la lingua italiana
+e la storia.
+Fin dal primo anno della loro presenza partecipano a iniziative legate all’arte e a mostre evento sul territorio. La
+scuola da quest’anno propone la disciplina in lingua inglese grazie alla compresenza di una madrelingua.
+Disciplina di riferimento: MUSICA
+Nel biennio iniziale il progetto musicale è dedicato all’educazione vocale. I bambini compongono un piccolo
+coro che si esibisce nei momenti di festa della scuola.
+A partire dalla classe terza quest’anno i bambini comporranno una banda che accrescerà le loro competenze
+musicali e il senso di appartenenza alla scuola.
+Disciplina di riferimento: EDUCAZIONE FISICA
+In questa disciplina la scuola si avvale di una preziosa collaborazione:
+l’associazione Educazione. sport fornisce dei docenti specialisti che attraverso attività ludiche promuove
+l’educazione motoria.
+Disciplina di riferimento: RELIGIONE
+Conosce e riconosce i legami del pensiero religioso e spirituale con il nostro mondo culturale.
+
+## Competenze Digitali
+
+Le competenze informatiche sono perseguite attraverso l’uso di software didattici per il biennio iniziale del
+progetto. A partire dalla classe terza l’informatica ha una valenza trasversale: il computer portatile diventa
+strumento inclusivo e didattico utilizzato nella maggior parte delle discipline.
+Tale approccio è in conformità con lo spazio della classe in cui appare una LIM.
+
+## Imparare Ad Imparare
+
+Raggiungere una capacità di organizzazione del proprio apprendimento scegliendo e utilizzando
+consapevolmente gli strumenti e le informazioni acquisite, dimostrando interesse ed entusiasmo per la propria
+formazione.
+•!
+Acquisire ed interpretare le informazioni individuando collegamenti e relazioni da trasferire in diversi
+contesti
+•!
+Selezionare le informazioni in base all’obiettivo da raggiungere
+•!
+Scegliere ed utilizzare diverse fonti, conosciute e non, in base alle necessità
+•!
+Acquisire un metodo di studio individualizzato ed efficace
+•!
+Rielaborare in modo personale il proprio sapere ed utilizzarlo nei diversi contesti
+•!
+Sviluppare capacità di autocorrezione ed autovalutazione
+•!
+Sviluppare un atteggiamento positivo e propositivo nei confronti dell’apprendimento, assecondando le
+proprie curiosità
+
+## Spirito Di Iniziativa O Intraprendenza
+
+Saper osservare, interpretare e modificare consapevolmente la realtà valutando strategie di azione e
+opportunità per prendere decisioni efficaci
+•!
+Pianificare e gestire progetti per raggiungere gli obiettivi prefissati
+•!
+Assumere e portare a termine compiti e iniziative
+•!
+Assumersi la responsabilità del proprio operato
+•!
+Trovare soluzioni nuove e originali per risolvere situazioni diverse
+•!
+Agire in modo flessibile e creativo all’interno dell’esperienza formativa
+
+## Profilo Dello Studente Al Termine Del Primo Ciclo D’Istruzione
+
+
+---
+
+## Pagina 40
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+$*"
+La scuola si propone di portare l’alunno, oltre al pieno dominio dei singoli ambiti disciplinari, all’elaborazione
+delle loro molteplici connessioni attraverso attività interdisciplinari che al termine del primo ciclo di istruzione
+prevedono il raggiungimento delle seguenti competenze-chiave (definite dal Parlamento europeo con
+Raccomandazione del 18 dicembre 2006):
+1. Comunicazione nella madrelingua
+È la capacità di esprimere e interpretare concetti in forma sia orale sia scritta interagendo adeguatamente sul
+piano linguistico in una vasta gamma di contesti.
+2. Comunicazione nelle lingue straniere
+È la capacità di interagire con modelli linguistici differenti da quello di origine.
+3. Competenza matematica e competenze di base in scienza e tecnologia
+È l’abilità di sviluppare e applicare il pensiero matematico, scientifico e tecnologico alla risoluzione di situazioni
+problematiche.
+4. Competenza digitale
+È l’abilità di utilizzare le tecnologie digitali sviluppando uno spirito critico.
+5. Imparare a imparare
+È l’abilità di gestire in modo efficace le informazioni acquisite essendo consapevoli del proprio processo di
+apprendimento.
+6. Competenze sociali e civiche
+È l’abilità di attuare forme di comportamento efficaci e costruttive conformi alla vita sociale.
+7. Spirito d’iniziativa
+È l’abilità di tradurre le idee in azione.
+8. Consapevolezza ed espressione culturale
+È l’abilità di esprimere le proprie idee in modo creativo utilizzando diversi mezzi di comunicazione.
+
+## Progetto Cir-Cle
+
+A partire dall’anno scolastico 2014/15 la scuola primaria ha avviato un nuovo progetto che riguarda gli alunni
+sino alle classe quinta, in collaborazione con il Circolo dei bambini, scuola materna di fondata esperienza e realtà
+innovativa e all’avanguardia riconosciuta a livello nazionale da più di quarant’anni.
+Il progetto manterrà l’impostazione di base dell’organizzazione didattica della scuola primaria con l’apporto di
+novità nelle discipline, nell’uso degli spazi e della gestione degli alunni a livello di classe o gruppo classe.
+Nello specifico, questi i cardini:
+
+## Azione Consapevole (Cura)
+
+- Programmazione interdisciplinare: evitare la rigida separazione tra le discipline permette ai bambini di
+percepirsi come “tutti interi” dentro un unico luogo
+- Esplicitazione del senso: comunicare sempre ai bambini il perché si intraprende un impegno, una fatica,
+un’attività
+- Circolazione di idee: valorizzare la partecipazione promuove la costruzione di un sapere condiviso
+- Lavoro nel piccolo gruppo: il clima di ascolto genera un contratto comunicativo e mentale
+- Linguaggio: una comunicazione di qualità è la condizione ideale per mantenere una relazione educativa e
+significativa
+- Professionalità: ogni insegnante deve sentirsi in continua formazione e non deve perdere l’esigenza di
+confrontarsi
+
+---
+
+## Pagina 41
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%+"
+- Valutazione: il docente accompagna ogni bambino all’autovalutazione
+
+## Spazio (Funzione Registica)
+
+- Accoglie
+- Limita
+- Rassicura
+- Ordina per azioni
+- Facilita il nostro agire
+
+## Tempo (Ritualità)
+
+- Settimana corta
+- Lezione dalle 8.00 alle 16.15
+- Ogni giorno 7 unità didattiche da 50 minuti
+- Ogni 50 minuti 10 minuti di intervallo
+- h 10.30/10.45 e 16.00/16.15 intervallo con merenda
+- h 12.30 – 14.15 pranzo intervallo lungo
+- il mattino è caratterizzato dalle discipline curriculari.
+- il pomeriggio è dedicato a laboratori (Cinese, Arte, Drama, Scienze, Musica, Nuoto, Informatica)
+
+## Piano Studi Scuola Primaria Cir - Cle
+
+
+## Classe
+
+prima
+
+## Classe
+
+seconda
+
+## Classe
+
+Terza
+
+## Classe
+
+quarta
+
+## Classe
+
+quinta
+
+## Ambito Antropologico
+
+(Italiano/Storia/
+Geografia)
+8 h
+8 h
+10h
+10h
+10 h
+
+## Ambito Logico-
+
+
+## Matematico
+
+5 h
+6 h
+6 h
+7 h
+7 h
+Scienze
+1 h
+2 h
+2 h
+2 h
+2 h
+Tecnologia
+1 h
+2 h
+2 h
+2 h
+2 h
+
+## Lingue Straniere
+
+Inglese
+7+3
+7 + 3
+7+3
+7+3
+7+3
+Cinese
+1h
+1 h
+2 h
+2 h/
+2 h
+***
+***
+
+## Arte E Immagine
+
+1 h
+1 h
+1 h
+1 h
+2 h
+
+## Musica
+
+1 h
+1 h
+1 h
+1 h
+1 h
+
+## Motoria
+
+2 h
+2 h
+2 h
+2 h
+2h
+
+---
+
+## Pagina 42
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%!"
+
+## Religione
+
+1 h
+1 h
+1 h
+1 h
+1 h/
+
+## Potenziamento Didattico Lingua Inglese
+
+Nell’ambito del proprio curricolo la scuola primaria “Cir-Cle” prevede un forte potenziamento della lingua per
+offrire una proposta educativa arricchita che valorizzi la possibilità di apprendimento della scuola primaria e
+favorisca la capacità dei bambini di interagire in due e anche più lingue, pronti a far fronte al meglio alle richieste
+che i mutati bisogni di una società improntata ormai sul sapere delle lingue esige.
+L’approccio e la conoscenza della lingua inglese come lingua diversa dalla propria lingua madre rivestono un
+ruolo fondamentale nella formazione di ogni individuo:
+• favoriscono l’acquisizione degli strumenti necessari per un confronto diretto tra la propria e le altre culture;
+• proiettano l’allievo dalla sfera del sé e del proprio ambiente a quella dell’altro e di tutti gli aspetti culturali
+che ne connotano la diversità;
+• permettono l’acquisizione di abilità comunicative tramite l’impiego di strategie che, comparate con quelle
+attivate nell’uso della lingua madre, rendono l’allievo consapevole delle proprie modalità di apprendimento e
+lo aiutano a progredire verso l’autonomia e l’integrazione sociale.
+
+## Il Progetto Didattico Linguistico
+
+
+## Organizzazione
+
+Il progetto didattico che prevede 8/10 ore settimanali di lingua inglese è stato strutturato con Insegnanti
+madrelingua e esperienza pluriennale di insegnamento in Italia e all’estero secondo la seguente organizzazione
+che prevede una diversa impostazione della lezione/esperienza della lingua:
+- lezione curriculare/frontale
+- drama (attività teatrale in lingua inglese)
+- History of art (l’insegnamento della materia viene fatto in lingua inglese)
+- laboratori linguistici: ludico, narrativo, musicale, sportivo, etc
+Per il triennio, il Collegio Docenti ha deliberato l’adozione di un libro di testi non ministeriali ma editi dalla
+Cambridge per garantire agli alunni un livello di preparazione corrispondente alle possibilità offerte dal monte
+ore potenziato della lingua inglese e utile per le certificazioni che a partire dalla classe seconda gli alunni
+sosterranno.
+
+## I Laboratori
+
+! FUN AND GAME: apprendere la lingua in modo naturale e divertente: il programma è basato su esperienze di
+apprendimento e non su strutture grammaticali
+! DRAMA: preparazione di uno spettacolo cantato e recitato in lingua inglese acquisendo scioltezza nella
+comunicazione orale
+! HISTORY AND CULTURE: conoscere attraverso attività ludico-creative usanze e tradizioni del mondo
+anglosassone
+! FAIRY TALES: conoscere attraverso il racconto e le attività a tema le il mondo fantastico delle principali fiabe
+della tradizione inglese, i personaggi e le loro caratteristiche
+! MUSIC AND SONG: giochi contati e ritmici tratti dal repertorio musicale della tradizione infantile, con
+particolare riguardo alle canzoni e alle filastrocche in lingua inglese
+! LEARNING IS FUN preparazione per certificazione riconosciuta a livello europeo
+! GYM AND MOVE: giochi e percorsi in palestra con indicazioni e regole in inglese e degli sport inglesi
+
+---
+
+## Pagina 43
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%#"
+Azioni legate al Progetto linguistico
+In collaborazione con il British Council di Milano e Cambridge English Language Assessment dell'Università di
+Cambridge. Il progetto linguistico ha come obiettivo il conseguimento di quattro certificazioni  internazionali,
+le prime tre nell'ambito del ciclo Young Learners e l'ultima conosciuta come KEY, oppure KET, ascrivibili,
+all'interno del Common European Framework of Reference for Languages (CEFR) del Council of Europe.
+Il primo esame, STARTERS, sarà  sostenuto alla fine del secondo anno, seguirà alla fine del quarto MOVERS, per
+concludere il quinto con FLYERS E KEY/KET. Nel corso dell'esame KEY/KET, agli alunni che risponderanno  a
+tutte le estensioni proposte verrà riconosciuto, quindi certificato, il livello successivo B1.
+Il programma offre ai ragazzi l'opportunità di sviluppare una profonda comprensione della lingua inglese e di
+rafforzare ed estendere, attraverso un approccio graduale e veicolato da conversazioni one to one, la
+competenza nella produttività e la fluenza dell'abilità  di speaking. L'approfondimento del format d'esame,
+coniugato alla conversazione della routine quotidiana, consente agli studenti di acquisire competenza, sicurezza
+e familiarità con la seconda lingua.
+La spontaneità della lingua inglese verrà inoltre promossa attraverso l’esperienza del teatro e del dialogo con la
+docente madrelingua ed un progetto di insegnamento della Lingua Inglese che vede coinvolte alcune discipline
+come la Musica, l’Arte, la Religione e le Scienze.
+Un esempio consolidato di questa modalità è il percorso di History of Art . Il percorso è strettamente collegato
+a quello di inglese, e ne va in parallelo. Lo scopo è utilizzare sia l'inglese che la propria creatività per parlare di
+arte, stili e artisti, e scoprirne di nuovi.
+Le lezioni sono svolte in lingua inglese (con l'ausilio di materiale audio e video per esporre gli studenti a una
+varietà di pronunce), tenendo conto del bagaglio pregresso e livello degli alunni, e vanno ad affinare
+principalmente le abilità di speaking e listening.
+Vocaboli e strutture grammaticali sono le stesse previste dal programma Cambridge e le richieste fatte
+dall'insegnante sono studiate per aiutare i bambini a prepararsi per le prove di speaking degli esami Young
+Learners e KEY.
+Anche la Musica compartecipa al progetto linguistico:Il progetto di musica proposto alle classi elementari
+CIR.CLE ha come obiettivo l’apprendimento e la comprensione dei principi elementari della musica: dall’ascolto,
+all’ esecuzione strumentale; dalla teoria alla pratica.In base al grado di ciascuna classe, le lezioni verranno svolte
+con l’ausilio degli strumenti musicali a disposizione dall’ istituto o dall’insegnante (Chitarra, pianoforte, tastiere,
+percussioni) e saranno corredate dall’utilizzo di materiale multimediale.La peculiarità che caratterizza il progetto
+è l’adozione della lingua inglese non solo come mezzo di traduzione di singoli elementi lessicali (“Ear Training”
+“Counting” “Playing” “Drums” etc…), ma come vero e proprio strumento di dialogo e di conduzione della lezione.
+Gli studenti in questo modo comprenderanno la musica attraverso un coinvolgimento attivo e di respiro
+internazionale, volto ad arricchire il loro bagaglio artistico-culturale e a gettare le basi per potenziali percorsi
+musicali futuri.
+Inoltre i bambini seguiranno un percorso di lingua cinese inserito a livello curricolare .Per imparare il cinese non
+sono sufficienti la costanza, l’impegno e il metodo. I caratteri cinesi non sono solo un insieme di tratti, ma
+bisogna caricarli di emozione: un’immagine, una finestra sulla millenaria cultura cinese. Chi ha un’immaginazione
+sfrenata, una memoria inesauribile e una grande libertà di pensiero? I bambini.
+
+---
+
+## Pagina 44
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%$"
+In Europa e negli USA da anni è stato introdotto il cinese come seconda lingua straniera.
+La nostra scuola è stata innovativa inserendo l’insegnamento della lingua cinese a livello curricolare: 2 ore alla
+settimana per ognuna delle 5 classi elementari.
+Utilizzo un metodo nuovo ed innovativo, ma  ben consolidato dall’esperienza di tanti anni coi bambini, per
+stemperare le difficoltà della lingua cinese: i toni, i caratteri e la struttura della frase.
+Il nostro non è un corso ludico, ma finalizzato al conseguimento di due certificazioni internazionali di cinese
+YCT (Youth Chinese Test) in collaborazione con l’Istituto Confucio dell’Università Cattolica e dell’Università
+Statale di Milano.
+PROGETTO LEGGIamo
+Per promuovere, consolidare, potenziare e sviluppare l'amore per la lettura si decide di intraprendere un
+percorso strutturato con la biblioteca. Per scaturire un autentico amore per il libro, è indispensabile trasformare
+la lettura da richiesta fatta agli alunni, in un’interessante offerta e considerarla momento essenziale della
+programmazione didattica.
+La lettura non sarà offerta come un fatto isolato, bensì come un rituale da condividere con la classe, dando la
+possibilità ad ogni alunno di esprimere se stesso, cercando anche  di sviluppare l’immaginazione e il fantasticare,
+dando spazio anche alla creatività.
+Finalità
+"!
+Promuovere un atteggiamento positivo nei confronti della lettura
+"!
+Favorire l'avvicinamento affettivo ed emozionale del bambino al libro
+"!
+Fornire al bambino le competenze necessarie per realizzare un rapporto attivo-creativo e costruttivo
+con il libro
+"!
+Far vivere la lettura come attività libera, che coinvolga il bambino cognitivamente ed emotivamente
+"!
+Educare all'ascolto e alla comunicazione con gli altri
+"!
+Rafforzare l’autonomia e la creatività del pensiero
+"!
+Stimolare la fantasia dei bambini e la loro creatività anche attraverso varie forme di rielaborazione dei
+testi letti
+Obiettivi
+"!
+Scoprire il luogo della biblioteca e la sua funzione
+"!
+Trasmettere il piacere di ascoltare l’adulto che legge e di guardare le figure
+"!
+Riprodurre con disegni i personaggi della storia letta
+"!
+Drammatizzazione della lettura
+"!
+Giochi con i personaggi della lettura
+"!
+Trasmettere il piacere della lettura
+"!
+Educare all'ascolto e alla convivenza
+"!
+Costruire una positiva relazione tra insegnanti, alunni e la lettura a vantaggio dell’apprendimento
+"!
+Migliorare la lettura soprattutto tenendo conto dell’intonazione
+"!
+Cogliere le differenze tra i vari generi letterari ed esprimere la propria preferenza
+"!
+Favorire gli scambi di idee fra lettori
+
+---
+
+## Pagina 45
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%%"
+"!
+Mettere in evidenza la varietà e la ricchezza delle culture presenti nella società attuale, a cominciare
+dagli aspetti concreti della vita quotidiana (cibo e alimentazione, giochi, lingue, dialetti, musiche e
+poesie, feste e usanze religiose)
+"!
+Scoprire le risorse del territorio
+"!
+Frequenza delle classi alla biblioteca per il prestito del libro
+Attività
+"!
+Visita alla biblioteca per comprenderne gli ambienti e la loro funzione
+"!
+Attivazione della tessera personale per prestito libro
+"!
+Lettura e ascolto da parte delle insegnanti  o individuale dei libri scelti
+"!
+Realizzazione di disegni inerenti i libri letti ( protagonista, personaggi principali, ambienti ecc.)
+"!
+Giochi con le parole, le storie e le figure
+"!
+visita mensile alla biblioteca
+"!
+attivazione del prestito del libro con tessera personale
+"!
+collaborazione con la biblioteca comunale
+"!
+lettura, da parte delle insegnanti o individuale, di libri presi in prestito dalla biblioteca
+"!
+analisi dei personaggi principali, degli ambienti da verbalizzare attraverso il testo descrittivo
+PROGETTO SPERIMENtiamo
+il progetto scientifico che vede coinvolte le classi della scuola primaria  si chiama Sperimentiamo.
+Nel progetto si coniuga una forte precisione scientifica con  uno  spiccato amore per l'aspetto ludico
+dell'apprendimento. Le esperienze lavorative all'estero dell'insegnante regalano agli studenti anche momenti di
+confronto in lingua inglese anche in ambito scientifico.
+L'offerta didattica di Specimen tiene conto del programma ministeriale, ma viene proposta in un percorso
+scientifico-formativo che inizia in prima e si chiude in quinta. Lungo questo percorso il bambino cresce
+gradualmente nelle sue competenze scientifiche senza mai perdere di vista ciò che ormai conosce e che
+costituisce base fondamentale per ciò che sarà il suo sapere. Questo è possibile grazie ad una formulazione del
+programma che tiene conto della successione logica e concatenata del sapere scientifico, non solo nell'ottica
+del programma didattico di una singola classe, ma sull'intero quinquennio. L'inclusione  è il cardine su cui ruota
+normalmente la lezione di scienze con i suoi laboratori esperienziali e le lezioni dove non manca mai
+brainstorming e confronto.
+
+## Potenziamento Ambito Logico-Matematico
+
+
+---
+
+## Pagina 46
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%&"
+
+## 1-La Collana “Bimbi Matematici”
+
+Bimbi Matematici è una collana di libri per bambini
+nata e cresciuta nella nostra scuola e che ha
+rivoluzionato il modo di insegnare la matematica.
+Un'avventura lunga 53 volumi e 6 anni, dall'infanzia fino
+alla fine della primaria. E i protagonisti sono loro, i
+nostri bimbi matematici, che in questo percorso si
+sono impadroniti di questa materia, giorno dopo
+giorno, volume dopo volume. Il nostro metodo può
+essere riassunto in alcune parole chiave:
+- Autonomia. Bimbi Matematici è strutturato come
+percorso individuale, fatto di esercizi dal forte
+impatto visivo e molto intuitivi, che il bambino sia in grado di svolgere senza l'aiuto dell'insegnante. Questa
+caratteristica rende l'avvicinamento alla matematica più leggero e motivante.
+- Ritualità. Bimbi Matematici è un rituale quotidiano, la prima cosa che si fa a scuola tutte le mattine, e anche
+nel weekend! La ritualità è importante nelle abitudini ma anche nei gesti: è il bambino a gestire il proprio libro,
+a procurarsi il materiale necessario prima di iniziare, a inserire il segnalibro e riporre il libro al suo posto al termine
+dell’attività, ad attendere silenziosamente la correzione individuale da parte dell'insegnante.
+- Gradualità. Ogni mese, quando a scuola si inizia un volume, i nuovi esercizi sono proposti nella maniera più
+semplice e intuitiva possibile. Col passare dei giorni, i bambini interiorizzano i concetti e la loro consapevolezza
+cresce di pari passo con la difficoltà dei problemi che si trovano a dover risolvere. Così arrivati a fine libro gli
+esercizi sono diventati più difficili senza che quasi loro se ne siano accorti... e sentendosi bravi!
+- Inclusività. Un esercizio quotidiano, individuale e graduale produce nei bambini un forte senso di auto efficacia,
+che si traduce in motivazione al lavoro. Il percorso risulta così essere altamente inclusivo. Perché sentirsi bravi è
+importante, ogni giorno di scuola!
+- Piacevolezza. Crediamo molto nell'utilizzo delle immagini e nell'importanza che ogni tema venga rappresentato
+nella maniera più vicina al mondo dei bambini. La matematica può così diventare un mondo dentro cui giocare
+e divertirsi, un mondo fatto di cose belle, dove le conquiste sono tutte a portata di mano.
+- Elasticità. Cerchiamo di stimolare al massimo un approccio elastico alla matematica! Per questo presentiamo
+ogni argomento da tante prospettive differenti. Mese nuovo, libro nuovo, esercizi nuovi!
+2 PROGETTO “GEOMETRIA CREATIVA” (in collaborazione con l’editore Erickson)
+Nella nostra scuola dedichiamo un’ora la settimana a questa attività. Nata come avvicinamento ludico alla
+geometria e amatissima dai nostri bambini, questa materia ha nel corso degli anni assunto una consistenza tale
+da sconfinare anche nelle altre aree della didattica. Grazie a questa sperimentazione, in atto da 5 anni presso la
+nostra scuola, vedrà la luce una importante pubblicazione con Erickson dal titolo “Sviluppare la creatività con il
+Codice Quadretto”, in uscita l’11 novembre, che sarà il primo di una serie di 3 libri.
+Ecco i pilastri sui quali si fonda questo metodo sperimentale:
+Imparare divertendosi. I bambini iniziano il loro percorso ricopiando disegni su reticolo. Si familiarizza con il
+mondo della geometria in modo naturale e istintivo, conquistando competenze divertendosi.
+Le regole del gioco. I disegni sono costruiti seguendo criteri matematici.
+Universalità e inclusività. La bellezza delle immagini è un linguaggio universale ed accessibile a tutti, senza
+sovrastrutture.
+Un'arte replicabile. Qualsiasi disegno di Geometria Creativa, essendo costruito secondo criteri matematici,
+
+---
+
+## Pagina 47
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%'"
+può essere riprodotto in modo esatto.
+Il ruolo attivo dei bambini. Molti dei disegni inclusi nei nostri libri, sono stati realizzati dai bambini stessi che,
+una volta appreso il metodo, diventano protagonisti.
+Libertà di pensiero. Geometria Creativa è libertà di pensiero. I bambini si ritrovano ad esplorare mondi
+distanti dalle gabbie della didattica tradizionale, e più vicini alla loro sensibilità.
+Gradualità. Le immagini e le attività proposte diventano via via sempre più complesse,
+all'interno di un percorso che parte dai 5 e arriva ai 10 anni.
+La Geometria Creativa ammette anche una naturale estensione tridimensionale. Infatti nella nostra scuola
+proponiamo laboratori di costruzioni 3d con la carta!
+Inoltre, questa attività può essere svolta a computer attraverso il software Geogebra. Per questo promuoviamo
+anche laboratori di disegno a computer!
+Sempre grazie alla Geometria Creativa, sono nate le Carte Coding, che utilizziamo nella nostra scuola come
+primo avvicinamento al mondo della programmazione!
+
+## Organizzazione Didattica
+
+L’attività didattica si sviluppa in modi diversi, secondo le scelte metodologiche che ogni docente liberamente
+decide. L’attività con gli alunni comunque si svolge all’interno di schemi di lavoro previsti dalla normativa
+vigente, sentiti gli Organi Collegiali chiamati a decidere in merito.
+Il gruppo di insegnamento:
+L’unità organizzativa base della scuola primaria è costituita dal modulo docenti composto dal docente
+responsabile (insegnante prevalente), a cui si aggiungono insegnanti specialisti delle discipline.
+L’insegnamento di Religione è impartito a tutti gli alunni che ne faranno richiesta mentre per coloro che non
+vorranno usufruire di tale insegnamento si provvederà, nelle ore dedicate alla religione, a far svolgere attività
+alternative in classe.
+Ogni insegnante preparerà una nota comprendente il materiale di cancelleria occorrente agli alunni, tale nota
+verrà presentata nei primi giorni di scuola.
+
+## Il Tempo A Scuola:
+
+Incontri con le famiglie:
+Durante l’anno scolastico sono previsti cinque incontri con i genitori degli alunni:
+- all’inizio dell’anno scolastico per dare informazioni generali, presentare le programmazioni didattiche dei
+singoli docenti in termini di contenuti e obiettivi, aggiornare gli organi collegiali;
+- alla chiusura del primo quadrimestre per consegnare le schede di valutazione in modo individuale ai singoli
+genitori;
+- verso la metà del secondo quadrimestre per analizzare la situazione didattico-disciplinare degli alunni;
+- a fine anno in occasione della consegna della scheda personale di fine anno scolastico.
+I docenti saranno a disposizione durante l’anno per i colloqui individuali con i genitori, tramite una prenotazione
+tramite registro elettronico.
+
+## Da Lunedi’ A Venerdi’
+
+Divisi per fasce d’età:
+
+---
+
+## Pagina 48
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%("
+# dalle ore 08.00 alle ore 13.00 lezione
+# dalle ore 14.15 alle ore 16.15 lezione
+La scuola è aperta alle ore 07.50 per accogliere i bimbi anche in anticipo rispetto all’inizio delle lezioni, per
+esigenze espresse dalla utenza.
+Sempre per lo stesso motivo nel pomeriggio gli alunni potranno fermarsi fino alle 18.00.
+Dalle 16.15 alle 18.00 gli alunni avranno la possibilità di giocare o di seguire lezioni e/o corsi.
+
+## Il Metodo
+
+La scuola insegna all’alunno come “si impara ad imparare” attraverso la lezione frontale, classi aperte, la
+conversazione, discussione, dialogo, il cooperative learning, etc
+Nello svolgimento dell’azione educativa gli insegnanti utilizzano le seguenti metodologie didattiche:
+- nelle prime classi le insegnanti organizzano attività didattiche che privilegiano il gioco, il lavoro in gruppo,
+l’esplorazione e la ricerca, in modo che il bambino possa sentirsi protagonista nel contesto educativo, essere
+colui che impara cose nuove perché il gioco ha stimolato la sua curiosità e il bisogno di vedere come fanno gli
+altri a risolvere gli stessi problemi da lui incontrati in un continuo dialogo aperto con le insegnanti
+- nelle classi successive gli insegnanti guidano gli alunni verso lo sviluppo di un’autonomia di giudizio sui vari
+argomenti trattati in classe; affinché ciascun alunno sappia esprimere opinioni personali e rielaborare le
+conoscenze apprese per argomentare in modo autonomo
+Le forme più ricorrenti nella classi si articolano secondo le sottoindicate tipologie:
+"! “Lezione Collettiva” a livello di classe si ricorre all’uso della lezione collettiva in cui si comunicano
+informazioni uguali per tutti o si utilizzano mezzi audiovisivi o altri strumenti fruibili
+contemporaneamente da un grande gruppo. La lezione collettiva è quindi vista come superamento
+della pura trasmissione dei saperi.
+"! “Attività di piccolo gruppo a classi aperte” : La metodologia basata sulla “classe aperta” permette il
+lavoro in piccoli gruppi, come alternativa all’insegnamento collettivo e risulta essenziale per la sua
+funzione formativa, sia sul piano dell’apprendimento che sul piano relazionale. Si basa sulla
+condivisione.
+"!  “Interventi individualizzati”. L’individualizzazione è vista come trattamento differenziato degli
+alunni, è una strategia che consente di soddisfare le necessità di formazione di ciascuno.
+
+## La Valutazione
+
+La
+valutazione
+è
+parte
+integrante
+della
+programmazione,
+per
+monitorare
+il
+processo
+insegnamento/apprendimento. Essa ha come oggetto il bambino e il progetto educativo.
+La valutazione è un elemento pedagogico fondamentale delle programmazioni didattiche, strumento che
+permette di seguire i progressi dell’alunno rispetto agli obiettivi e ai fini da raggiungere durante la sua
+permanenza a scuola. Tra questi vi sono: l’acquisizione delle conoscenze e dei contenuti disciplinari (il sapere),
+l’acquisizione delle competenze e la capacità di trasformare in azione i contenuti acquisiti (il saper fare), la
+capacità di interagire e di tradurre le conoscenze e le abilità in razionali comportamenti (saper essere).
+La scuola valuta anche le competenze così dette trasversali che attengono, oltre che agli obiettivi cognitivi,
+anche agli obiettivi comportamentali, riferiti cioè al comportamento sociale affettivo e relazionale.
+La valutazione globale tiene conto della situazione di partenza, delle reali capacità dell’alunno, dell’impegno
+dimostrato e dell’efficacia della formazione educativa, considerate le condizioni ambientali, fisiche e psichiche.
+L' osservazione, strumento prioritario per l'analisi qualitativa, accentua il ruolo del docente come soggetto che
+raccoglie in modo sistematico e continuativo le informazioni sullo sviluppo delle conoscenze e delle abilità,
+sulla disponibilità ad apprendere, sulla costruzione della personalità. Gli apprendimenti cognitivi sono solo una
+parte di quelli osservabili, il quadro informativo riguarda tutti gli aspetti che appartengono alla maturazione
+dello studente.
+
+---
+
+## Pagina 49
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%)"
+La valutazione delle conoscenze e quella delle competenze avvengono con modalità e finalità differenti, ma
+concorrono alla elaborazione della scheda di valutazione finale.
+Partendo dalle premesse fondamentali relative alla “centralità dell’alunno”, occorre precisare che la valutazione
+formativa, nella nostra scuola, si ispira ai seguenti criteri:
+1. la globalità della valutazione,
+2. la valutazione come processo,
+3. la valutazione come valorizzazione,
+4. la valutazione come operazione partecipata,
+1.!
+
+## Valutazione Delle Conoscenze
+
+Il processo di valutazione delle conoscenze e dei contenuti acquisiti si avvale di tre momenti:
+1. La valutazione iniziale: serve ad individuare, attraverso l’osservazione e la somministrazione di prove d’ingresso,
+il livello di partenza degli alunni, ad accertare il possesso dei prerequisiti e a predisporre eventuali attività di
+potenziamento.
+2. La valutazione formativa o in itinere: è finalizzata a cogliere informazioni analitiche e continue sul processo
+di apprendimento. Fornisce ai docenti indicazioni per attivare eventuali cambiamenti all’azione didattica o
+predisporre interventi di rinforzo.
+3. La valutazione sommativa o finale: consente un giudizio sulle conoscenze e abilità acquisite dallo studente in
+un determinato periodo di tempo o al termine dell’anno scolastico basandosi non solo sui risultati delle prove
+somministrate, ma soprattutto sul processo di maturazione osservato.
+Valutazione degli apprendimenti La valutazione dei processi di insegnamento/apprendimento consente
+innanzitutto la verifica dell’intervento didattico e il costante adeguamento della programmazione.
+Significato della valutazione del percorso formativo di ogni alunno
+La valutazione non è diretta a classificare o a selezionare gli alunni, ma a conoscerli e ad accompagnarli nello
+sviluppo delle rispettive potenzialità individuali.
+Gli insegnanti elaborano osservazioni e verifiche di tipo disciplinare concordate, di solito, a livello di modulo e
+di Collegio Docenti.
+Sono prove di padronanza sugli obiettivi affrontanti ed interni alla programmazione didattica.
+Finalità della scheda di valutazione
+Essa ha una funzione certificativa di particolare importanza. Oltre a riportare i giudizi sintetici per le varie
+discipline, presenta un profilo dinamico dell’alunno che evidenzia i progressi ottenuti rispetto al livello di
+partenza, gli interessi e le attitudini manifestate, oltre che le eventuali distanze degli apprendimenti dell’alunno
+dai traguardi comuni, al fine di progettare nuove azioni da intraprendere.
+La valutazione degli apprendimenti scaturisce da un insieme di prove di verifica, dall’insieme delle osservazioni
+iniziali e continue di tutti gli insegnanti, dall’analisi dei processi di apprendimento e degli atteggiamenti nei
+confronti della scuola, dalle esercitazioni e produzioni quotidiane in classe o a casa.
+La valutazione delle verifiche, sia orali sia scritte, è espressa in decimi (come da Decreto Legge del 1 settembre
+2008 n. 137). I voti riportati nel Documento di valutazione periodica delle discipline non sono da intendersi come
+risultato della media aritmetica dei voti in decimi delle singolo prove: essi comprendono altri elementi formativi,
+legati agli indicatori di processo (tempi di applicazione, autonomia e ritmi di apprendimento).
+
+---
+
+## Pagina 50
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+%*"
+
+## 2. Valutazione Delle Competenze
+
+La competenza rappresenta la capacità di utilizzare conoscenze, abilità e tutto il proprio sapere, in situazioni
+reali di vita e concrete. Per definizione, tale capacità non può essere valutata tramite le prove utilizzate per la
+verifica degli apprendimenti.
+In particolare, in linea con le indicazioni nazionali, la scuola prevede lo sviluppo e la valutazione delle seguenti
+competenze europee:
+• Comunicazione nella madrelingua
+• Comunicazione nelle lingue straniere
+• Competenza matematica e competenze di base in scienza e tecnologia
+• Competenza digitale
+• Imparare ad imparare
+• Competenze sociali e civiche
+• Spirito di iniziativa e imprenditorialità
+• Consapevolezza ed espressione culturale
+Le competenze verranno valutate tramite le seguenti modalità:
+
+---
+
+## Pagina 51
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&+"
+- COMPITI DI REALTA’: si richiede agli studenti, singolarmente o in gruppo, di risolvere una situazione
+problematica concreta, complessa e nuova, il più possibile vicina al mondo reale, utilizzando sia le conoscenze
+sia le competenze acquisite in modo da poter valutare la loro capacità di muoversi in contesti diversi dalla
+pratica didattica.
+Queste le caratteristiche del compito di realtà:
+•!
+è progettuale
+•!
+è realistico
+•!
+è operativo
+•!
+è spendibile
+•!
+è complesso
+•!
+richiede competenze disciplinari
+•!
+è trasversale
+•!
+è verificabile
+•!
+si può elaborare socialmente
+Si prevedono almeno due compiti di realtà a quadrimestre che saranno strutturati seguendo una griglia di
+riferimento che preveda una descrizione sintetica del compito, la metodologia utilizzata e le competenze che
+si intendono sviluppare e valutare.
+- OSSERVAZIONI SISTEMATICHE: gli insegnanti, durante l’intero anno scolastico, effettuano osservazioni
+sistematiche riguardo l’autonomia degli alunni, la capacità di relazione e partecipazione, la responsabilità e la
+consapevolezza di sé, attraverso griglie strutturate o libere riflessioni, in base alla necessità
+- ATTIVITA’-QUESTIONARI METACOGNITIVI: si chiede all’alunno di raccontare, sotto forma di questionario,
+interviste, libere riflessioni orali e\o scritte, quali siano stati gli aspetti più interessanti per lui durante alcune
+attività svolte, quali le difficoltà eventualmente incontrate e le motivazioni che l’hanno spinto verso una
+strategia rispetto ad un’altra; in tal modo è possibile far emergere le emozioni vissute, i risultati ottenuti, gli
+errori commessi e portare l’alunno ad una migliore conoscenza di sé, e ha sviluppare capacità di autocorrezione
+e autovalutazione Al termine della classe quinta, una Certificazione delle competenze affianca e integra il
+documento di valutazione degli apprendimenti e del comportamento degli alunni.
+Con la Certificazione delle competenze, infatti, gli apprendimenti acquisiti dagli alunni nell'ambito delle singole
+discipline vengono calati all'interno di un più globale processo di crescita individuale. Non è importante
+accumulare conoscenze, ma saper trovare le relazioni tra queste conoscenze e il mondo che ci circonda con
+l'obiettivo di saperle utilizzare e sfruttare per elaborare soluzioni a tutti quei problemi che la vita reale pone
+quotidianamente.
+
+---
+
+## Pagina 52
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&!"
+
+---
+
+## Pagina 53
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&#"
+
+---
+
+## Pagina 54
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&$"
+
+## Ampliamento Offerta Formativa
+
+Progetto accoglienza: alunni classe Prima
+L’accoglienza per gli alunni che entrano per la prima volta alla scuola primaria è organizzata ogni anno con
+l’obiettivo di creare un clima particolarmente distensivo, piacevole e motivante per affrontare una nuova
+avventura proseguendo in un percorso giocoso e stimolante.
+I primi giorni di scuola rappresentano per i bambini un evento ricco di emozioni, di significati, di aspettative, al
+tempo stesso carico di ansie e di paure;
+sono perciò un momento particolarmente delicato e richiedono molta cura da parte della scuola nel progettare
+le attività per l'«accoglienza» degli alunni in modo
+da favorirne l'inserimento nel nuovo ambiente e di avvertire quel benessere che garantirà una frequenza
+scolastica serena e partecipata.
+Finalità:
+- Favorire l'inserimento di ogni bambino nel nuovo contesto scolastico, garantendo un passaggio dalla scuola
+dell'infanzia alla scuola primaria il più
+possibile sereno e positivo.
+- Motivare il bambino ad apprendere
+- Guidare gli alunni ad acquisire gradualmente un buon livello di autonomia
+- Agevolare la comunicazione e la relazione con i coetanei e con gli adulti
+Attività:
+- Giochi strutturati e liberi per favorire la socializzazione
+- Uscita sul territorio e merenda al parco
+- Letture animate che facciano da sfondo integratore per l’approccio alla conoscenza delle regole della scuola
+- Conoscenza degli ambienti scolastici attraverso la guida degli alunni delle ultime classi
+- Organizzazione degli spazi scolastici
+
+---
+
+## Pagina 55
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&%"
+
+## Progetto Continuità
+
+Raccordo scuola dell’infanzia – scuola primaria
+Condividendo l’esigenza che nella scuola si affermi e si consolidi una vera e propria “CULTURA DELLA
+CONTINUITÀ” i docenti in collaborazione con le insegnanti delle scuole dell’infanzia organizzeranno momenti
+di incontro tra i bambini dei due ordini di scuola. Un progetto che parte dal considerare la propria azione
+docente all’interno di un processo evolutivo che preveda sempre un collegamento tra un “prima” e un “dopo”
+affidati ai referenti educatori.
+Finalità:
+• Consentire ai bambini della scuola dell’infanzia di conoscere in modo graduale l’ambiente della scuola
+elementare.
+• Stimolare, negli alunni della scuola elementare, un senso di responsabilità nei confronti dei loro compagni più
+piccoli.
+• Sviluppare, negli alunni di entrambi gli ordini di scuola, il desiderio di comunicare ad altri le proprie esperienze
+e conoscenze.
+• Realizzare, fra le insegnanti, uno scambio d’informazioni utili alla conoscenza dei bambini e dei percorsi
+didattici da loro effettuati.
+Obiettivi:
+Per gli alunni della scuola dell’infanzia:
+• Ridurre l’ansia nell’approccio alla scuola elementare.
+• Conoscere gli spazi, gli ambienti e i materiali della scuola elementare.
+• Conoscere le insegnanti della scuola elementare.
+• Promuovere curiosità verso i testi scritti.
+• Stimolare il gusto all’ascolto di brani letti da altri.
+Per gli alunni della scuola elementare:
+• Condividere esperienze, sviluppando lo spirito di collaborazione.
+Progetto integrazione degli alunni diversamente abili
+Nel rispetto della diversità individuale e delle situazioni di handicap la Scuola accoglie a predispone per gli
+alunni diversamente abili un itinerario tendente a favorire la migliore integrazione attraverso un progetto mirato
+e adatto allo sviluppo delle potenzialità e alla tipologia dello svantaggio.
+La considerazione dell’integrazione dell’alunno diversamente abile come risorsa pone ogni bambino al centro
+del processo formativo, tenendo conto delle sue specifiche e differenti necessità e risorse definite nel Piano
+educativo individualizzato (PEI).
+Finalità:
+- integrazione e socializzazione dell’handicap con modalità diverse specifiche
+del singolo e del gruppo in cui è inserito
+Obiettivi
+- migliorare le dinamiche relazionali e l’autonomia
+- favorire la socializzazione e la partecipazione alle dinamiche della vita di
+classe e dei gruppi classe
+- favorire l’acquisizione di abilità e competenze psicomotorie, percettive, cognitive, comunicative, espressive
+- promuovere attraverso attività laboratoriali nuove strategie di comunicazione
+
+---
+
+## Pagina 56
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&&"
+Attività
+- Attività per lo sviluppo cognitivo svolte mediante strumenti didattici quali ad esempio schede apposite,
+sussidi, software, strumenti musicali, laboratori vari
+- Attività ludico-ricreative che favoriscono l’apprendimento di abilità sociali - Attività con sostegno in classe
+- Attività a piccoli gruppi e/o di classe
+Metodologia
+Al processo di integrazione e di promozione delle potenzialità dell’alunno diversamente abile, partecipano tutti
+gli insegnanti in collaborazione con la famiglia e gli operatori socio-sanitari.
+Sulla base del Profilo Dinamico Funzionale elaborato dall’insegnante di sostegno dopo l’analisi della situazione
+di partenza, viene definito il Piano educativo individualizzato che illustra:
+- le aree e le modalità di intervento
+- gli obiettivi specifici relativi alle singole discipline
+- i contenuti
+- la metodologia
+- gli strumenti
+- le modalità di verifica
+- i criteri di valutazione
+Il coinvolgimento della famiglia sarà al centro del percorso formativo, attraverso una stretta collaborazione e
+diverse tipologie di incontro:
+- con l’insegnante di sostegno
+- con gli insegnanti della classe
+- con l’equipe medico-psico-pedagogica
+
+## Organizzazione
+
+La scuola si pone l’obiettivo del pieno sviluppo delle potenzialità degli alunni
+che si trovano in situazione di disagio:
+- nella relazione,
+- nella comunicazione,
+- nella socializzazione,
+- nell’apprendimento.
+Per affrontare il problema dell’integrazione la scuola attua un modello organizzativo-didattico flessibile
+caratterizzato dalle seguenti modalità di lavoro:
+1. organizzazione di laboratori, a piccoli gruppi o apertura delle classi per:
+• dare stimoli più adeguati,
+• favorire l’uso di più linguaggi,
+• potenziare le abilità cognitive,
+• prevenire e/o ridurre i comportamenti problematici.
+2. utilizzo graduale e progressivo di metodologie e tecniche per:
+• facilitare la didattica rendendola adeguata alle esigenze individuali,
+• accrescere l’efficacia del processo insegnamento- apprendimento,
+• rompere l’isolamento della classe e della scuola con il mondo esterno.
+3. avvio di progetti, oppure partecipazione a tutti quelli che, a livello di plesso, di classe o di piccolo gruppo,
+coinvolgono gli alunni in difficoltà ed i loro compagni per:
+
+---
+
+## Pagina 57
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&'"
+• sviluppare le capacità di relazionarsi con gli altri,
+• favorire l’autonomia personale,
+• promuovere la creatività.
+4. continuità educativa fra i diversi gradi di scuola per:
+• favorire l’inserimento nel nuovo ambiente,
+• favorire la socializzazione con i nuovi insegnanti e i nuovi compagni,
+• mantenere la propria autostima.
+Progetto DSA
+La scuola attiva progetti personalizzati per alunni con diagnosi di DSA in accordo con le linee guida dettate dalla
+Legge n. 170/2010. Per ciascun ambito di studio si individuano le metodologie più adatte ad assicurare
+l’apprendimento dell’allievo in relazione alle sue specificità, garantendo un’adeguata flessibilità didattica. Per
+ciascuna materia vengono inoltre garantiti strumenti compensativi e dispensativi necessari a sostenere l’alunno
+nel suo percorso di apprendimento. Tali strumenti sono atti a facilitare le prestazioni e a sollevare l’alunno da
+attività difficoltose e devono essere calibrate in base all’effettiva incidenza del disturbo sulle prestazioni
+richieste.
+
+## Strumenti Compensativi:
+
+- Uso di elementi che facilitino le operazioni di calcolo (calcolatrice, tavola pitagorica, linea del 100, etc )
+- Trasformare un compito di lettura in un compito di ascolto
+- Concedere tempi più lunghi nell’esecuzione di un compito
+- Fornire allo studente mappe concettuali per favorire lo studio
+- Creazione di prove di verifica calibrate
+
+## Strumenti Dispensativi:
+
+- Un’adeguata riduzione del carico di lavoro
+- Valutare l’alunno più sui contenuti che sulla forma
+- Privilegiare la valutazione in forma orale
+- Dispensare l’alunno, quando strettamente necessario, dall’acquisizione della lingua straniera in forma scritta
+Si stabiliscono inoltre, nelle materie in cui si rende necessario, obiettivi minimi di apprendimento in base ai quali
+valutare l’alunno.
+Educazione a misura di bambino
+Per adeguare l'istruzione scolastica alle caratteristiche di ogni singolo studente, alla misura in cui ognuno di loro
+viene messo nelle condizioni di poter acquisire le competenze curricolari, la scuola si basa sull’importanza
+pedagogica dell’individualizzazione come criterio-regolativo generale dell'educazione: un principio formativo
+che esige attenzione alle differenze della persona nella pluralità delle sue dimensioni individuali (cognitive e
+affettive) e sociali (l'ambiente famigliare e il contesto socio-culturale).
+L' «individualizzazione» in senso stretto si riferisce alle strategie didattiche che mirano ad assicurare a tutti gli
+studenti il raggiungimento delle competenze fondamentali del curricolo, attraverso una diversificazione dei
+percorsi di insegnamento con lo scopo di far sì che certi traguardi siano raggiunti da tutti. Gli obiettivi sono
+dunque comuni a tutti.
+Finalità
+• adattamento dell'insegnamento alle caratteristiche cognitive individuali
+degli alunni: ai loro codici linguistici, ai loro prerequisiti di partenza, ai loro
+stili cognitivi, ai loro ritmi d'apprendimento.
+• proporre un percorso di apprendimento che si pone obiettivi a lungo
+termine e che si intrecci e sia risorsa per l’intero gruppo classe.
+
+---
+
+## Pagina 58
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&("
+• potenziare l’autonomia personale
+• consolidare l’autostima e la fiducia in se stessi
+• colmare le eventuali carenze
+• favorire la socializzazione e la cooperazione
+La «personalizzazione» indica invece le strategie didattiche finalizzate a garantire ad ogni studente una propria
+forma di eccellenza cognitiva per coltivare le proprie potenzialità e sviluppare i propri personali talenti. Aiutare
+ogni studente a sviluppare una propria forma di talento è probabilmente un obiettivo altrettanto importante di
+quello di garantire a tutti la padronanza delle competenze fondamentali.
+Finalità
+• sviluppare le proprie potenzialità intellettive e coltivare i propri talenti
+• rendere l’alunno consapevole delle proprie inclinazioni
+Progetto informatica
+Il progetto si propone di ricercare, attraverso la multimedialità, legami trasversali fra le conoscenze e accrescere
+le competenze informatiche di ciascun alunno.
+Attraverso l’uso di dispositivi tecnologici (computer, Ipad ecc.) gli alunni impareranno a conoscerne le
+caratteristiche fondamentali e le funzioni principali sviluppando uno spirito critico verso l’utilizzo corretto di
+tali strumenti. Le lezioni si tengono nel laboratorio informatico, con connessione internet protetta, e la
+dotazione di un computer per ogni alunno.
+Finalità
+- promuovere un’alfabetizzazione informatica di base;
+- favorire lo sviluppo di capacità logiche e analitiche;
+- elaborare testi attraverso la videoscrittura;
+- creare, elaborare e utilizzare semplici immagini;
+- navigare e ricercare in internet in base agli obiettivi dati;
+- utilizzare nuovi metodi di apprendimento grazie all’integrazione delle nuove tecnologie nella didattica;
+- sviluppare uno spirito critico nei confronti della tecnologia multimediale.
+Obiettivi
+- Comprendere le potenzialità del computer.
+- Utilizzare il computer in modo autonomo.
+- Utilizzare in modo elementare software come Word, Excel, Power Point.
+- Utilizzare in modo corretto la navigazione internet.
+- Utilizzare programmi didattici, comprendendone l’uso e le potenzialità.
+- Comprendere alcune novità nel campo informatico, instaurando un dialogo sul loro utilizzo e applicazione.
+Attività
+- Migliorare l’apprendimento delle lezioni tradizionali, proponendo anche durante le lezioni presso il laboratorio
+d’informatica argomenti e tematiche trattate in classe, in collaborazione con gli altri insegnanti;
+- Creare per ogni bambino una cartella per raccogliere i documenti realizzati;
+- Utilizzare Word per la composizione di documenti di difficoltà crescente, che prevedano l’inserimento di
+immagini e una formattazione specifica;
+- Disegnare con il software Paint elementi in base ad un tema dato;
+- Utilizzare Exel per la creazione di tabelle, semplici grafici e l’esecuzione di formule, contenenti le quattro
+operazioni;
+- Utilizzare una pen drive usb personale per il salvataggio e la gestione dei propri dati;
+
+---
+
+## Pagina 59
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&)"
+- Preparare una presentazione multimediale utilizzando il software Power Point;
+- Accompagnare gli alunni ad un corretto utilizzo della navigazione internet;
+- Raccolta di dati e immagini per la realizzazione di un blog scolastico.
+
+## Patto Educativo Di Corresponsabilità
+
+(ai sensi del D.P.R. n. 235/2007)
+L’introduzione del Patto di corresponsabilità si inserisce all’interno di una linea di interventi di carattere
+normativo e amministrativo attraverso i quali si sono voluti richiamare ruoli e responsabilità di ciascuna
+componente della comunità scolastica: docenti, dirigenti scolastici, studenti e, da ultimo, genitori.
+Al fine di consentire all’istituzione scolastica di realizzare con successo le finalità educative e formative cui è
+istituzionalmente preposta, ciascun soggetto è tenuto ad adempiere correttamente ai doveri che l’ordinamento
+gli attribuisce.
+La disposizione di cui all’art. 5 bis va coordinata con le altre disposizioni dello Statuto ed in particolare, laddove
+fa riferimento a “diritti e doveri nel rapporto fra istituzione scolastica autonoma, studenti e famiglie”, essa va
+coordinata con gli art. 2 e 3 che prevedono già “diritti” e “doveri” degli studenti, anche al fine di distinguere il
+Patto educativo di corresponsabilità, così introdotto, dal regolamento d’istituto.
+L’obiettivo del patto educativo è quello di impegnare le famiglie degli alunni, e gli alunni stessi, fin dal momento
+dell’iscrizione, a condividere con la scuola i nuclei fondanti dell’azione educativa.
+La scuola come ambiente di apprendimento in cui promuovere la formazione di ogni studente, la sua interazione
+sociale, la sua crescita civile. L’interiorizzazione delle regole può avvenire solo con una fattiva collaborazione
+con la famiglia; pertanto la scuola persegue l’obiettivo di costruire una alleanza educativa con i genitori,
+mediante relazioni costanti nel rispetto dei reciproci ruoli.
+
+## Patto Educativo Scuola-Alunni-Genitori
+
+Gentilissimi genitori,
+all’inizio di questo percorso scolastico con i vostri figli e con voi, vorremmo organizzarci per una buona partenza.
+Ecco perciò alcuni spunti su cui lavorare tutti: noi, voi e i bambini.
+Una specie di decalogo o di «contratto», come preferite, in cui stabilire alcuni impegni che ci permettano di
+camminare insieme verso una bella esperienza.
+Le strategie per insegnare sono tante e sono compito nostro. A voi accordarci la fiducia e affidarci i bambini con
+serenità in un clima di collaborazione!
+
+## Apprendimento
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà quello di utilizzare tutte le tecniche e le attenzioni possibili perché ogni bambino acquisisca abilità e
+concetti ottenendo i migliori risultati possibili.
+
+## Ai Bambini Chiediamo:
+
+la disponibilità all’impegno, anche di fronte a ciò che può essere nuovo o più difficile, imparando un poco alla
+volta ad allungare i tempi di attenzione.
+
+## Ai Genitori Chiediamo:
+
+di fidarvi e di condividere i nostri interventi, incoraggiando i vostri figli quando li vedrete in difficoltà,
+dando importanza al loro lavoro, seguendolo con attenzione e segnalandoci eventuali problemi con
+serenità.
+
+## Comunicazioni
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà quello di utilizzare il quadernino/diario per inviare sempre le informazioni importanti riguardo
+
+---
+
+## Pagina 60
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+&*"
+all’organizzazione scolastica, di verificare che le comunicazioni siano firmate, di utilizzare il diario per i compiti
+assegnati a casa. Ci impegniamo, inoltre, ad offrire la massima disponibilità nei colloqui individuali (su
+appuntamento) oltre a quelli programmati bimestralmente.
+AI BAMBINI CHIEDIAMO: un po’ alla volta impareranno a richiamare la vostra attenzione sulle comunicazioni
+scritte e ad ascoltare, ricordare e riferire anche messaggi orali.
+
+## Ai Genitori Chiediamo:
+
+di utilizzare il quadernino/diario per comunicare con la scuola, di controllarlo ogni giorno per non lasciarvi
+sfuggire eventuali messaggi importanti, di utilizzare il telefono della scuola solo per comunicazioni urgenti e
+indispensabili e di richiedere preventivamente eventuali colloqui con gli insegnanti. Consultare regolarmente la
+bacheca e prendere visione degli eventuali avvisi.
+
+## Materiale
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà quello di non richiederne troppo, di offrire spazi in classe per riporre gli oggetti che possono essere lasciati
+a scuola evitando che i bambini si muovano con zaini troppo pesanti. Faremo anche in modo che tutto venga
+utilizzato e riposto nei propri spazi al fine di valorizzare ogni cosa e di evitare inutili sprechi.
+AI BAMBINI CHIEDIAMO: a loro chiediamo di imparare quali sono gli oggetti indispensabili, di averne cura, di
+non perderli e di portarli sempre.
+
+## Ai Genitori Chiediamo:
+
+di aiutare i vostri figli in questo impegno, controllando sempre lo stato del materiale sostituendo con
+regolarità ciò che si è deteriorato e aggiungendo ciò che viene richiesto con la maggior puntualità possibile
+perché tutti possano lavorare con le medesime opportunità.
+
+## Compiti
+
+
+## Il Nostro Compito Di Insegnanti:
+
+spiegare in classe i compiti assegnati e garantire che sul diario siano scritti in modo chiaro; distribuire e calibrare
+i carichi di studio; accettare la giustificazione scritta dai genitori in caso di non svolgimento dei compiti
+assegnati.
+AI BAMBINI CHIEDIAMO: portare a termine puntualmente i compiti assegnati per casa con ordine e precisione;
+utilizzare il diario per eseguire i lavori assegnati e presentare giustificazione in caso di mancata esecuzione.
+
+## Ai Genitori Chiediamo:
+
+controllare il diario dei proprio figli e verificare che i compiti siano svolti in modo completo; giustificare il
+compito non svolto del proprio figlio solo se
+strettamente necessario.
+
+## Comportamento
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà quello di fornire ai bimbi fin dall’inizio regole chiare e adeguate all’età e di spiegare loro la necessità di
+rispettarle, aumentando gradualmente il loro autocontrollo. Aiutare gli alunni ad essere corretto nei confronti
+dei compagni, degli adulti e dell’ambiente scolastico.
+AI BAMBINI CHIEDIAMO: a loro chiediamo di essere disponibili a lasciarsi guidare e chiediamo di utilizzare quelle
+regole che sicuramente hanno già avuto modo di imparare nella loro crescita nel rispetto degli altri e delle
+proprie responsabilità.
+
+---
+
+## Pagina 61
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'+"
+
+## Ai Genitori Chiediamo:
+
+di seguire attivamente e con fiducia il percorso di crescita dei propri bambini e di accogliere e condividere le
+linee educative della scuola.
+Collaborare segnalando particolari esigenze o necessità.
+
+## Mensa
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà di garantire un servizio regolare e funzionale.
+Dedicare la nostra personale attenzione al controllo e distribuzione del cibo.
+Valorizzare il momento del pranzo per tutte le implicazioni emotive ed affettive che
+comporta il rapporto con il cibo.
+Far sì che il momento
+del pranzo si svolga in un ambiente il più sereno possibile e non caotico, diventando così un momento piacevole.
+AI BAMBINI CHIEDIAMO: mantenere un comportamento adeguato e rispettoso
+sia nel confronto degli altri che del cibo stesso.
+
+## Ai Genitori Chiediamo:
+
+comunicare eventuali problematiche e necessità alimentari (intolleranze, allergie…). Dimostrare interesse per il
+momento del pranzo a scuola.
+
+## Puntualità E Regolarità
+
+
+## Il Nostro Compito Di Insegnanti:
+
+sarà di garantire la puntualità dell’inizio delle lezioni di ogni giorno, per ogni ora di lezione; essere tempestivi
+nelle comunicazioni alle famiglie e predisporre gli interventi necessari.
+AI BAMBINI CHIEDIAMO: rispettare l’ora d’inizio delle lezioni; verificare di avere con sé tutto l’occorrente prima
+dell’inizio delle lezioni; gestire le proprie necessità nei momenti appropriati.
+
+## Ai Genitori Chiediamo:
+
+rispettare gli orari sia d’entrata sia di uscita; limitare al minimo indispensabile le assenze, le uscite o le entrate
+fuori orario del figlio; giustificare sempre eventuali assenze o ritardi per garantire la regolarità della frequenza
+scolastica.
+Il rispetto dell’orario è molto importante per il bambino perché gli offre la percezione di essere inserito in un
+ambiente “ordinato”, trasmettendogli sicurezza ed autostima.
+
+## Regolamento Scolastico – Indicazioni Di Buone Prassi
+
+Orario, frequenza, giustificazioni e permessi
+1.! L’orario delle lezioni è diviso in due fasce. Classi dalla prima alla terza (dalle 8:20 alle 16:15); classi
+quarte e quinte (dalle 8:10 alle 16:15).
+2. L’orario di accoglienza, al mattino, per il servizio di pre scuola è fissato alle ore 7:50.
+3. L’orario di chiusura del posticipo è fissato categoricamente alle ore 18.00.
+4. Gli alunni sono tenuti a rispettare gli orari indicati. La puntualità è segno di rispetto per gli altri;
+
+---
+
+## Pagina 62
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'!"
+i ritardi abituali disturbano l’attività didattica di tutta la classe. I ritardi dovranno essere giustificati
+entro la giornata seguente, tramite libretto apposito, se superiori a 5 minuti.
+5. Gli ingressi posticipati programmati e le uscite anticipate programmate (per motivazioni
+strettamente necessarie) vanno giustificate tramite il suddetto libretto.
+6. Le deleghe continuative inerenti alla presa in carico dei propri figli devono pervenire in segreteria
+entro fine settembre.
+7. Non è consentito conferire con gli insegnanti durante l’orario di attività didattica.
+Per colloqui individuali è necessario chiedere un appuntamento con gli insegnanti all’attivazione del
+registro elettronico.
+8. É fatto divieto di comunicare con gli insegnanti tramite contatto telefonico personale: gli insegnanti
+possono essere contattati solo tramite mail istituzionale, da lunedì a venerdì dalle 8 alle 17. In ragione
+del diritto di ciascuno alla disconnessione, la scuola vi informa che i docenti non garantiranno la lettura
+di messaggi e mail oltre l’orario e i giorni dedicati.
+Vita scolastica
+9. L’alunno, per una corretta crescita personale, si impegna a rispettare insegnanti e compagni, con
+comportamento e linguaggio consoni all’ambiente scolastico.
+10. L’alunno ha cura del materiale scolastico proprio, degli altri e della scuola ed è responsabile dei
+danni eventualmente recati.
+11. L’alunno si segna sul proprio diario i compiti da eseguire e le lezioni da studiare. I genitori si
+impegnano a verificare e a prendere visione delle varie comunicazioni.
+Per la compartecipazione alla crescita didattica del proprio bambino, si consiglia di sfogliare le attività
+svolte sui quaderni in classe.
+12. L’alunno durante l’attività didattica indossa la divisa e le pantofole.
+13. Per la pratica delle attività motorie e sportive l’alunno viene a scuola con la divisa sportiva e porta
+le scarpe da ginnastica da cambiare prima dell’accesso in palestra, le quali potranno essere lasciate a
+scuola nel proprio armadietto.
+Altre direttive e comunicazioni
+14. A scuola non si portano videogiochi e dispositivi tecnologici.
+15. In occasione di feste (compleanni, ricorrenze particolari, etc), previo accordo con la Direzione, si
+potranno portare alimenti forniti di lista ingredienti dettagliata.
+16. Il servizio mensa è interno.
+17. L’assistenza in mensa è garantita, oltre che dal personale addetto al servizio, dagli insegnanti, i quali
+favoriscono il mantenimento di un clima educativo sereno e rispondono alle esigenze degli alunni.
+18. In caso di allergie o intolleranze alimentari il menu può essere modificato secondo le necessità, con
+la presentazione del certificato medico.
+
+---
+
+## Pagina 63
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'#"
+
+## Scuola Secondaria Di Primo Grado
+
+La Scuola Secondaria di Primo Grado completa il Primo Ciclo di Istruzione avviato con la Scuola Primaria e
+orienta al percorso formativo successivo.
+Si propone la promozione del pieno sviluppo della persona attraverso l’elevazione del livello di educazione e
+di istruzione di ogni alunno, il potenziamento delle sue capacità di acquisire i valori della cultura, di inserirsi
+positivamente nella società.
+Con la sua azione formativa, la Scuola, ispirandosi ai principi valoriali che caratterizzano e ispirano l’azione
+educativa dell’Istituto, contribuisce allo sviluppo e alla costruzione dell’identità del preadolescente e favorisce
+il suo orientamento ai fini delle scelte future.
+La Scuola Secondaria di Primo Grado è pertanto la piattaforma su cui costruire il successivo percorso formativo
+grazie all’acquisizione di competenze sia attraverso l’apprendimento, sia mediante le diverse attività proposte.
+Tali competenze promuovono il benessere dell’alunno, offrono occasioni di sviluppo della sua personalità in
+tutte le sue dimensioni (etica, religiosa, sociale, intellettiva, affettiva, operativa) e favoriscono, mediante
+l'utilizzo di metodologie ricche e motivanti, la progressiva maturazione della conoscenza di sé e del proprio
+rapporto con il mondo, oltre che la conquista e il potenziamento di capacità logiche, espressive e operative.
+
+## Orario Settimanale Delle Singole Discipline
+
+Religione
+1
+Italiano
+6
+Storia, Geografia
+4
+Lingua inglese (un’ora di compresenza con madrelingua)
+5
+Matematica e Scienze
+6
+Tecnologia
+2
+Arte e immagine
+2
+Musica
+2
+Educazione Fisica
+2
+Educazione Civica (Legge20/08/19 n° 92)
+Trasversale
+Totale
+30
+!
+(3+2)*
+(4+2)
+
+## Totale
+
+30
+
+
+
+
+---
+
+## Pagina 64
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'$"
+
+## Orario Scolastico Giornaliero
+
+Modulo lezione
+ORE
+I
+I     ora
+8.00  – 9.00
+II    ora
+9.00  -  9.50
+
+## Intervallo
+
+II
+III   ora
+10.05  - 11.00
+IV   ora
+11.00  - 11.50
+
+## Intervallo
+
+III
+V    ora
+12.05  - 13.00
+VI   ora
+13.00  - 14.00
+
+## Orario Scolastico Settimanale
+
+Giorni
+Mattino
+Pomeriggio
+Lunedì
+8.00-
+14.00
+Lezioni
+14.45 - 16.00
+Attività opzionali
+Martedì
+8.00-
+14.00
+Lezioni
+14.45 - 16.00
+Attività opzionali
+Mercoledì
+8.00-
+14.00
+Lezioni
+14.45 - 16.00
+Attività opzionali
+Giovedì
+8.00-
+14.00
+Lezioni
+14.45 - 16.00
+Attività opzionali
+Venerdì
+8.00-
+14.00
+Lezioni
+14.45 - 16.00
+Attività opzionali
+
+## Criteri Formazione Classi
+
+Nella Scuola Secondaria di primi Grado si formano le classi, tenendo conto dei seguenti criteri:
+•!
+numero di allievi per classe;
+•!
+distribuzione equilibrata tra maschi e femmine;
+•!
+indicazioni dei docenti della scuola primaria;
+•!
+equa ripartizione dei gruppi di livello;
+•!
+elementi di carattere logistico/organizzativo.
+
+
+
+
+
+
+   ­ 
+
+
+Il tempo prolungato ha la stessa modularità mattutitna del tempo ordinario, con le stesse proposte di ore disciplinari a
+moduli.
+A differenza del tempo ordinario che termina alle 13:45, gli iscritti al tempo prolungato PROSEGUIRANNO CON IL
+MOMENTO MENSA FINO ALLE 14:30 E A SEGUIRE UN TEMPO SCUOLA FINO ALLE 16:15, DAL LUNEDI’ AL VENERDI’.
+Le attività pomeridiane prevedono i seguenti moduli disciplinari:
+- POTENZIAMENTO AREA UMANISTICA, con particolare attenzione al metodo di studio e
+all’approfondimento di temi di letteratura e potenziamento della scrittura.
+- POTENZIAMENTO AREA SCIENTIFICA, in continuo con il modulo di scienze mattutino, dove si
+potenzierà la conoscenza in ambito scientifico anche con laboratori esperienzali.
+- POTENZIAMENTO AREA INFORMATICA-DIGITALE, affinchè si possa portare gli studenti ad ottenere
+l’International Certification of Digital Literacy, la Certificazione Internazionale di Alfabetizzazione Digitale per eccellen-
+za, e potenziare la metodologia del coding e l’applicazione nella robotica.
+
+## - Certificazione In Lingua Inglese*
+
+Si potrà poi scegliere tra due delle seguenti certificazioni:
+
+## - Certificazione In Lingua Cinese*
+
+
+## - Certificazione In Lingua Spagnola*
+
+* SI PRECISA CHE PER LE CERTIFICAZIONI DI LINGUA INGLESE E CINESE E’ RICHIESTA UNA
+PREPARAZIONE DI LIVELLO A1/A2. LA SCUOLA MET TE A DISPOSIZIONE PERCORSI DI ALLINEAMENTO
+
+## A Pagamento.
+
+Inoltre, la lingua verrà ulteriormente potenziata svolgendo due moduli mattutini in lingua inglese, uno per una disciplina
+di studio e uno in ambito musicale (per un totale di 10 ore settimanali).
+
+---
+
+## Pagina 65
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'%"
+
+## Curricolo
+
+La Scuola ha predisposto il proprio curricolo nel rispetto delle finalità generali, dei traguardi per lo sviluppo
+delle competenze e degli obiettivi di apprendimento stabiliti dalle “Indicazioni per il Curricolo” da raggiungere
+al termine del Primo Ciclo d’Istruzione. Dall’A.S. 2020 – 2021, in ottemperanza alla legge n° 92 del 20/08/19 e al
+D. M. n° 35 del 22/06/2020, viene aggiunta al curricolo la sezione di Educazione Civica in coerenza ed
+integrazione con le Indicazioni nazionali per il curricolo delle scuole dell’infanzia e del primo ciclo di istruzione.
+Si propone l’obiettivo di perseguire la continuità orizzontale e verticale per promuovere un raccordo positivo
+fra i diversi ordini di scuola presenti nell’Istituto, al fine di favorire lo sviluppo armonico della personalità degli
+alunni.
+In base alle “Linee guida per l’insegnamento dell’educazione civica", ai sensi dell’articolo 3 della legge 20 agosto
+2019, n. 92” e del D.L. del 22/06/2020 si è aggiunto il curricolo di Educazione Civica con la programmazione e
+le modalità di valutazione di tale insegnamento.
+
+## Finalità
+
+L’azione educativa promossa dalla scuola, è centrata primariamente sulla persona dell'alunno, considerato nella
+sua unicità e singolarità, accolto in tutta la sua realtà per orientarlo ad impegnare al meglio le sue potenzialità
+e renderlo protagonista di uno specifico progetto di vita. Acquista pertanto un particolare rilievo l’insegnamento
+della Religione inserito nell’intero triennio.
+
+## Profilo Dello Studente
+
+Ogni scelta ed intervento didattico/educativo, sono orientati a promuovere lo sviluppo dell’alunno come
+persona che al termine del Primo Ciclo presenta le seguenti caratteristiche:
+•!
+Mostra fiducia in se stesso ed equilibrio emotivo-affettivo, ispirando le proprie scelte ai valori
+umano/cristiani.
+•!
+Instaura rapporti interpersonali armonici e costruttivi.
+•!
+É disponibile alla collaborazione e alla solidarietà nel “riconoscimento delle diverse identità, tradizioni
+culturali e religiose, in un’ottica di dialogo e di rispetto reciproco”.
+•!
+Sviluppa interesse nei confronti dell’uomo, delle sue attività e dell’ambiente che lo circonda.
+•!
+Interpreta la realtà in cui vive nei suoi molteplici aspetti.
+•!
+Concretizza il desiderio di apprendere, conoscere e operare impiegando attivamente le proprie risorse.
+•!
+Valorizza la fatica nel raggiungimento di traguardi significativi a livello personale e comunitario.
+•!
+Si pone come cittadino  attivo e responsabile all’interno della comunità locale, nazionale, europea e
+mondiale.
+•!
+È in grado di distinguere i diversi device e di utilizzarli correttamente, di rispettare i comportamenti
+nella rete e navigare in modo sicuro.
+
+## Progettazione Educativo - Didattica
+
+La progettazione educativa e didattica della Scuola
+•!
+promuove esperienze formative con approcci educativi attivi;
+•!
+guida i ragazzi lungo percorsi di maturazione umana e spirituale, di crescita nella consapevolezza di sé
+e dei valori dell’ambiente in cui vive;
+
+---
+
+## Pagina 66
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'&"
+•!
+favorisce l’acquisizione di atteggiamenti e conoscenze che progressivamente permettono il
+consolidamento della sua personalità, l’approfondimento dei contenuti disciplinari;
+•!
+educa alle diverse forme comunicazione e ad un utilizzo corretto e intelligente della strumentazione
+tecnologica;
+•!
+sviluppa una sempre più autonoma capacità di individuare le connessioni tra i diversi saperi.
+Per indicazioni relative alle singole discipline, si rimanda alle progettazioni curricolari dei diversi insegnanti
+depositate presso la segreteria della Scuola.
+Per maggiori approfondimenti, si veda il Curricolo della Scuola allegato n°3.
+
+## Ampliamento Offerta Formativa
+
+Le attività di arricchimento dell’offerta formativa sono previste in orario scolastico ed extracurricolare.
+I Docenti, attenti a rilevare i bisogni formativi degli alunni e delle famiglie, avanzano proposte mirate alla
+valorizzazione delle attitudini e degli interessi degli alunni e alla loro formazione.
+Tali proposte si concretizzano in “PROGETTI” e “ATTIVITÀ OPZIONALI” ritenuti importanti dal Collegio dei
+Docenti per il raggiungimento, al termine del Primo Ciclo di istruzione, di un soddisfacente livello di maturazione
+umana e di un profilo culturale adeguato.
+I progetti e le attività si realizzeranno, a livello multidisciplinare, in tempi e con modalità definite dal Collegio
+Docenti e dai Consigli di classe.
+
+## Progetti In Orario Curricolare
+
+
+## Progetti E Attivitá Didattiche Complementari
+
+
+## Progetto
+
+
+## Destinatari
+
+
+## Descrizione
+
+
+## Emozioni
+
+
+## Del Teatro
+
+Tutte le classi
+É realizzato dai docenti di Lettere e da un’esperta che accompagnano
+gli alunni della classe seconda nella stesura, nell’interpretazione del
+copione  e nella rappresentazione teatrale proposta alle famiglie.
+Per le altre classi, il progetto prevede la fruizione critica di opere
+teatrali di vario genere con la guida dei docenti e di esperti in basse alle
+offerte del territorio e la realizzazione di un concerto natalizio. Il
+progetto è integrato dalla possibilità offerta ai ragazzi di partecipare al
+coro di voci bianche diretto dal Professore di Musica, a laboratori
+teatrali realizzati nelle ore pomeridiani, in lingua italiana o lingua
+inglese.
+Con tale progetto, si intende condurli a scoprire le proprie potenzialità,
+sviluppare la creatività e la capacità critica, migliorare la qualità delle
+relazioni, scoprire le valenze formative dei contenuti culturali come
+supporto nel loro cammino di crescita.
+	
+
+
+## Progetto Accoglienza
+
+Il progetto è pensato per tutte le classi della Secondaria di I grado aﬃnché, all’inizio dell’anno scolastico, gli studenti
+possano ritrovare nella scuola il giusto “benvenuto” in termini di progettualità formativa e di relazioni positive. Partico-
+lare attenzione verrà data alla formazione delle classi prime, con un progetto personalizzato che prevede, anticipando il
+primo giorno di scuola e per i successivi giorni, attività a tutti gli studenti in entrata al ﬁne di individuare gruppi classe
+che possano risultare il più adeguati possibile sia a livello di preparazione scolastica che di benessere relazionale.
+
+## Progetto Sportivo
+
+Il progetto si sviluppa lungo tutto l’arco dell’anno in orario curriculare e prevede lezioni in classe, esercizi
+ginnico-sportivi, partecipazione ai G.S.S. organizzati dall’Uﬃcio Educazione ﬁsica di Bergamo, approccio e messa in
+pratica di giochi vari. Il progetto si propone di portare gli studenti a conoscere la propria realtà psicoﬁsica, scoprire il
+valore educativo e sociale dello sport, svolgere attività che coinvolgano le dimensioni corporee, volitive e relazionali,
+promuovendo in loro la passione e l’interesse per l’attività motoria.
+
+## Progetto Teatrale
+
+Il progetto è realizzato sia a livello interdisciplinare sia grazie all’intervento di un’esperta che accompagna gli studenti in
+un percorso di teatro a tutto tondo: dalla stesura del copione all’interpretazione della performance, ﬁno alla rappresen-
+tazione in forma di spettacolo aperto al pubblico. Il progetto prevede la fruizione critica di opere teatrali di vario
+genere, con la guida dei docenti e dell’esperta in base alle oﬀerte del territorio. Il progetto è integrato dalla possibilità
+oﬀerta ai ragazzi di partecipare al coro di voci bianche diretto dal Professore di Musica e a laboratori teatrali realizzati
+nelle ore pomeridiane, in lingua italiana o lingua inglese. Inoltre, viene data importanza all’utilizzo del corpo come
+mezzo di comunicazione non verbale per esprimere sé stessi, le proprie emozioni ed entrare nella relazione con l’altro.
+Con tale progetto si intende quindi condurre gli studenti a scoprire le proprie potenzialità, sviluppare la creatività e la
+capacità critica, migliorare la qualità delle relazioni, scoprire le valenze formative dei contenuti culturali come supporto
+nel loro processo di crescita.
+
+## Progetti Di Conoscenza Di Se’, Intelligenza Emotiva
+
+L’intelligenza emotiva è linguaggio delle emozioni, cioè la capacità di riconoscere i nostri sentimenti e quelli degli altri,
+di motivare noi stessi, e di gestire positivamente le nostre emozioni, tanto interiormente quanto nelle relazioni sociali.
+Tutto questo permette di approfondire la conoscenza di sé stessi, di sapersi relazionare con l’altro in modo positivo e
+costruttivo. Questo progetto è svolto lungo l’arco del triennio dai docenti di Italiano, Scienze e Religione attraverso
+attività culturali, dibattiti, lavori di gruppo, attività laboratoriali e approfondimenti di vario genere.
+
+---
+
+## Pagina 67
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+Nella classe terza, sono previsti interventi speciﬁci di professionisti della Phsyco Educational Academy con il coinvolgi-
+mento anche delle famiglie.
+La ﬁnalità del progetto è quella di agevolare lo sviluppo di una coscienza di sé positiva ed armonica che favorisca la
+formazione di una solida identità personale.
+
+## Proget To Scientifico-Tecnologico
+
+Il progetto intende sviluppare negli studenti competenze tecnologiche per un approccio più consapevole agli studi
+futuri e all’ingresso successivo nel mondo del lavoro, grazie alle nuove tecnologie oﬀerte dalla progettazione digitale.
+Gli studenti potranno così conoscere le potenzialità delle nuove tecnologie nella progettazione e realizzazione di
+oggetti tridimensionali con la stampa 3D.
+
+## Consiglio Comunale Dei Ragazzi
+
+Il Consiglio Comunale dei Ragazzi è un organo partecipativo dove i ragazzi si riuniscono per esprimere le loro opinioni,
+confrontare le loro idee, discutere liberamente nel rispetto delle regole, collaborando fra loro al ﬁne di migliorare il
+“vivere bene” della comunità scolastica, e non solo. Con questo progetto si ci pone l’obiettivo principale di stimolare nei
+ragazzi una partecipazione attiva alla vita scolastica, incentivando il senso civico e il vivere democraticamente nella
+piena e naturale consapevolezza dei diritti e doveri civici. Inoltre, il progetto mira a far conoscere il funzionamento degli
+organismi comunali istituzionali, comprendere l’importanza del dialogo e del confronto tra pari e con gli adulti,
+imparare a esprimere la propria opinione riguardo a fatti e argomenti di interesse collettivo e quindi a proporre azioni
+di miglioramento all’interno della comunità scolastica.
+
+## Clil-Content And Language Integrated Learning
+
+Il progetto di “CLIL” è un approccio metodologico rivolto all’apprendimento integrato di competenze linguistico-comu-
+nicative e disciplinari in lingua straniera. Si tratta quindi di insegnare argomenti di una data materia non in lingua
+italiana ma in lingua inglese, allo scopo di favorire l’acquisizione di contenuti disciplinari potenziando l’apprendimento
+della lingua straniera. Il progetto è tenuto dal docente di lingua inglese in collaborazione con i docenti delle varie
+discipline, intervallandosi periodicamente nelle lezioni su più discipline, in base alla classe e alla funzionalità dell’inte-
+rvento.
+
+## Peer Tutoring
+
+Il peer tutoring è un metodo basato su un approccio cooperativo dell’apprendimento, ormai collaudato della pratica
+didattica per gli importanti e molteplici vantaggi; infatti, aiuta a far emergere negli studenti, da entrambe le parti, le
+potenzialità, relazionali, sviluppa una cultura della solidarietà e rielabora il concetto di responsabilità, poiché non più
+oggetto d’apprendimento bensì soggetto attivo. Per far questo la “First Campus” ha attivato il progetto su tutte le classi
+presenti e per tutto l’anno scolastico, attraverso le competenze degli insegnanti di lettere che, a rotazione e in coppia
+per ogni lezione, oﬀrono agli studenti momenti di didattica “capovolta” in cui poter attivarsi per la ricerca del sapere e la
+trasmissione dello stesso agli altri, con tutte le ricadute positive che questo cambiamento di prospettiva comporta.
+
+## Coding E Robotica
+
+Attraverso l’utilizzo di tecnologie avanzate di robotica educativa disponibili in Istituto e l’uso del laboratorio di informa-
+tica e robotica, il progetto propone agli studenti attività con gli obiettivi didattici ed educativi di sapere programmare e
+comunicare con macchine intelligenti e robot, utilizzando applicazioni e linguaggi adatti. In particolare, si lavorerà sulla
+programmazione di robot mobili (Mbot della Makeblock) con linguaggi graﬁci, derivati da SCRATCH (Blookly), del
+braccio meccanico antropomorfo (Robot Pick and Place - Robot TinkerKit Arduino) e di strutture meccaniche, a coordi-
+nate cilindriche, di un robot Fisher Technik programmabile con i microcomputer Arduino e linguaggio Blookly.
+
+## Varie
+
+Durante l’anno scolastico, in relazione alle tematiche aﬀrontate e agli interessi che emergono nel dialogo
+formativo-educativo con studenti e famiglie, si propongono attività culturali, laboratoriali e di uscite sul territorio
+di vario genere, come:
+- Partecipazione a BergamoScienza
+- Visite guidate nel territorio circostante l’Istituto
+- Bibliotecario per un giorno (in collaborazione con la Biblioteca Tiraboschi)
+- Progetti di educazione ambientale ed ecologica
+- Partecipazione a spettacoli teatrali legati a tematiche sociali o alle discipline letterarie
+- Percorsi sulla legalità
+- Percorso di sensibilizzazione a temi socio-scientiﬁci (es. Mostra SenzAtomica)
+ | Fondazione Luigi Clerici - Suore Sacramentine
+
+---
+
+## Pagina 68
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'("
+Per la descrizione dettagliata e completa dei progetti vedi Allegato  n° 6
+ATTIVITÀ OPZIONALI (Extracurricolari in orario pomeridiano)
+!! Extra English Conversation (classi 1^ e 2^)
+Corso di conversazione in lingua inglese con l’esperta madrelingua.
+!! Corso di Certificazione KET/PET (classi 3^)
+Corso di approfondimento della lingua inglese che può prevedere la partecipazione all’esame KET/PET. Svolto
+dall’esperta madrelingua inglese.
+!! Corso di Lingua latina     (classi 3^)
+Primo approccio alla lingua latina svolto da un insegnante di Lettere.
+!! Studio assistito (tutte le classi)
+Studio assistito con la presenza di educatori o  insegnanti che si alternano. (Da ottobre a maggio, dal lunedì al
+venerdì, dalle ore 14.45 – 16.00)
+!! Doposcuola con potenziamento del metodo di studio (tutte le classi)
+Doposcuola con guida allo svolgimento dei compiti, all’assunzione di un personale metodo di studio e
+all’organizzazione del lavoro con la presenza di esperti della Fondazione “L. Clerici” e dell’associazione
+“Patchwork” . (Da ottobre a maggio, dal lunedì al venerdì, dalle ore 14.45 – 17.30 circa)
+!! Coro di voci bianche (tutte le classi)
+Attività gestita dal Docente di Musica con possibilità di partecipazione a manifestazioni anche al di fuori della
+Scuola
+!! Laboratorio teatrale pomeridiano (Tutte le classi)  Gestito dall’attrice/regista Silvia Barbieri.
+!! Corso di danza classica/moderna
+!! Corso di strumento musicale
+!! Corso di Spagnolo (2 ore)
+!! Laboratori di robotica e tecnologia informatica proposti  dalla Fondazione “L. Clerici”.
+
+## Iniziative Culturali
+
+La scuola arricchisce la sua proposta formativa in orario curricolare, coinvolgendo gli alunni e le loro famiglie in
+iniziative ed attività culturali durante l’anno anche usufruendo delle proposte avanzate da enti culturali e
+istituzioni locali.
+Le diverse attività vengono valutate e selezionate dai Consigli di Classe in base agli interessi e alle esigenze dei
+ragazzi, alla valenza formativa delle attività ed alla Progettazione didattica annuale.
+
+## Ambiente Di Apprendimento
+
+Per rendere significativa ed efficace l’opera educativa, i docenti si premurano di creare un ambiente favorevole
+all'accoglienza, alla crescita ed al conseguimento del successo formativo di ogni alunno.
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+
+## Orientamento
+
+L’orientamento oggi viene considerato un processo continuo e multiforme, diretto a mettere lo studente nella condizione
+di operare scelte consapevoli e informate. Il “sapersi orientare”, infatti, non è più una qualità che si riferisce solo alla gestio-
+ne della transizione tra formazione e lavoro, ma è considerato un valore permanente, un elemento essenziale durante tutto
+l’arco della vita della persona: ne garantisce lo sviluppo, favorendo la produzione continua di conoscenze ed esperienze
+indispensabili in un’ottica di lifelonglearning. Per poter sviluppare questa capacità, in un progetto dedicato all’orientame-
+nto, ci si deve distanziare dalla trasmissione tradizionale del “sapere” (inteso come accumulo di nozioni culturali e tecniche
+nei riguardi di una determinata attività lavorativa), investendo, invece, in un’azione con una valenza più formativa: quanto
+più il ragazzo acquisisce consapevolezza di sè e conoscenza delle proprie potenzialità e risorse, tanto più diventerà attivo e
+capce sia di esercitare un controllo sulla propria vita, sia di realizzarsi positivamente a livello professionale e sociale.
+L’intervento di orientamento, di conseguenza, assume un ruolo realmente strategico e diventa determinante per gli
+studenti tutti, prendendo in considerazione anche i giovani che puntano all’eccellenza e i ragazzi in situazioni di disagio, al
+ﬁne di sostenere le scelte formative e, contemporaneamente, l’inclucione sociale.
+Un buon progetto di orientamento rivolto ad studenti della Scuola Secondaria di Primo Grado deve mantenersi in linea con
+le esigenze e le potenzialità di ragazzi in età pre-adolescenziale.
+Lo sviluppo dell’identità nel pre-adolescente si avvale di meccanismi che lo portano lentamente alla creazione
+di una rappresentazione personale sempre più deﬁnita.
+L’adulto, nei diversi contesti, ha il compito di sostenere questa maturazione, aiutando lo studente nella valorizzazione e
+nella deﬁnizione della propria identità in termini di potenzialità personali, interessi, attitudini e valori, di stimolarne le
+capacità progettuali e di munirlo di strumenti essenziali per mettere a confronto il proprio progetto personale e professio-
+nale con gli indirizzi formativi e gli sbocchi occupazionali attuali.
+
+## Attivita’ E Servizi Extra
+
+
+## Area Comunicazione
+
+Comunicazione digitale
+Cotograﬁa ed editing
+
+## Area Artistica
+
+Decoupage, creta e pittura
+
+## Area Logica
+
+Scacchi
+
+## Area Sportiva
+
+Multisport
+Yoga dinamico e mindfullness
+hip hop
+
+## Mensa
+
+
+## Doposcuola
+
+
+## Pre-Post Scuola
+
+
+## Strumenti
+
+Dispositivo digitale
+Casella email
+Utenza per registro elettronico
+Piattaforma FLC Online
+Licenze Microsoft Oﬃce 365
+Assistenza dedicata
+
+## Doposcuola
+
+Lab. biblioteca
+Tutoraggio di gruppo
+Tutoraggio singolo
+
+## Area Linguistica
+
+Certiﬁcazione ket
+Corso di latino
+Corso spagnolo triennale
+Certiﬁcazione tele
+
+## Area Espressiva
+
+Vieni a teatro?
+
+---
+
+## Pagina 69
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+')"
+Nella loro azione, si ispirano pertanto ai seguenti
+
+## Principi Metodologici
+
+•!
+Assumere atteggiamenti che facilitino le relazioni umane;
+•!
+considerare con particolare attenzione il vissuto e la situazione di partenza di  ogni allievo
+valorizzandone le esperienze e le conoscenze;
+•!
+essere attenti alle esigenze, ai bisogni, ai ritmi di crescita e di  apprendimento degli alunni, operando
+con gradualità e progressività;
+•!
+suscitare  e supportare la motivazione all'impegno;
+•!
+guidare l’alunno alla conoscenza del proprio stile cognitivo e delle proprie modalità di apprendimento;
+•!
+attuare interventi adeguati nel rispetto delle diversità;
+•!
+ricercare percorsi didattici che coinvolgano attivamente l'alunno, promuovendone le potenzialità;
+•!
+realizzare attività didattiche in forma di laboratorio e di apprendimento cooperativo;
+•!
+adottare mezzi e strumenti  didattici innovativi.
+
+## Modalitá E Strumenti Didattici
+
+•!
+Esercizi di varie tipologie per lo sviluppo delle competenze e la produzione autonoma di elaborati
+personali;
+•!
+lavori individuali o per gruppi di livello;
+•!
+lavori di gruppo o a coppie;
+•!
+Didattica modulare;
+•!
+Peer education
+•!
+attività laboratoriali;
+•!
+lezioni frontali e dialogate;
+•!
+attività  di ricerca e di approfondimento;
+•!
+interventi di potenziamento, sostegno  e di recupero;
+•!
+lettura e interpretazione guidata dei linguaggi artistici, cinematografici e musicali;
+•!
+uso della strumentazione informatica e multimediale;
+•!
+utilizzo della LIM;
+•!
+cartellonistica;
+•!
+produzioni grafico-pittoriche;
+•!
+esperienze operative, progettuali e laboratoriali;
+•!
+uscite e visite didattico-culturali;
+•!
+interventi di esperti nei vari settori.
+
+## Valutazione
+
+La valutazione assume una funzione formativa di guida e di stimolo al miglioramento continuo degli
+apprendimenti. Pur mettendo in luce gli aspetti non soddisfacenti, mira ad evidenziare le possibilità di
+miglioramento.
+Oggetto della valutazione sono le conoscenze, i traguardi di sviluppo delle competenze e i comportamenti, in
+quanto momenti di un più ampio processo di crescita e maturazione personale.
+La valutazione è effettuata in base alle recenti normative ministeriali.
+La tempestività e la trasparenza sui criteri e sui risultati della valutazione vengono assicurate agli studenti e alle
+famiglie per renderle partecipi del cammino formativo del figlio/a e promuoverne la corresponsabilità
+educativa.
+
+---
+
+## Pagina 70
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+'*"
+
+## Criteri Di Valutazione Delle Discipline
+
+Il Collegio Docenti ha definito modalità e criteri per assicurare l’omogeneità, l’equità e la trasparenza della
+valutazione, nel rispetto del principio della libertà di insegnamento.
+Criteri essenziali per una valutazione di qualità sono:
+•!
+la finalità formativa;
+•!
+la validità, l’attendibilità, l’accuratezza, la trasparenza e l’equità;
+•!
+la coerenza con gli obiettivi di apprendimento previsti dalle progettazioni curricolari;
+•!
+la considerazione sia dei processi di apprendimento sia dei loro esiti;
+•!
+il rigore metodologico nelle procedure;
+•!
+la valenza informativa.
+
+## Comunicazioni Con Le Famiglie
+
+I genitori sono informati del percorso scolastico dell’alunno mediante:
+"!
+colloqui formali e informali, al mattino e al pomeriggio anche online;
+"!
+comunicazioni/valutazioni online tramite registro elettronico;
+"!
+schede informative scritte bimestrali;
+"!
+schede di valutazione quadrimestrali;
+"!
+registro online.
+
+## Strumenti Di Verifica
+
+I docenti hanno a disposizione una gamma di strumenti di verifica da utilizzare per la valutazione delle
+conoscenze, delle abilità e delle competenze conseguite dall’alunno:
+•!
+prove orali che permettono di valutare l’acquisizione di contenuti, la proprietà di linguaggio, la capacità di
+esprimere anche idee personali;
+•!
+prove scritte (strutturate, semistrutturate, non strutturate con domande aperte o produzione di testi),
+compiti di realtà, prove grafico-pratiche con le quali si valutano, oltre alla conoscenza degli argomenti, la
+capacità di organizzare il proprio lavoro e di utilizzare gli strumenti propri delle diverse discipline. La Scuola
+organizza a inizio e fine anno prove a classi parallele stile Invalsi per tutte le classi per monitorare il
+raggiungimento dei livelli di competenza degli alunni in Matematica, Italiano e Inglese;
+•!
+attività di laboratorio e lavori di gruppo;
+•!
+osservazioni sulle modalità di lavoro degli studenti durante il modulo orario;
+•!
+oltre alle prove suddette, che per loro natura si collocano in momenti ben precisi dell’attività didattica,
+oggetto di verifica è anche la qualità del lavoro svolto a casa che concorre alla valutazione complessiva
+dell’alunno.
+Ogni operazione valutativa, in ottemperanza alle normative vigenti, viene espressa in decimi e, quando
+necessario,  in giudizi sintetici o livelli di competenza.
+Si riporta la griglia base di valutazione adottata e condivisa dal Collegio dei Docenti.
+
+---
+
+## Pagina 71
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(+"
+
+## Attribuzione Dei Voti Per La Valutazione Degli Apprendimenti
+
+
+## Corrispondenza Valutativa
+
+10
+Conoscenze approfondite e ben rielaborate
+Capacità espressiva ricca e personale
+Metodo di studio sicuro e autonomo
+Competenze acquisite in modo maturo
+9
+Conoscenze complete e organiche
+Capacità espressiva soddisfacente e con linguaggio appropriato
+Metodo di studio consolidato e proficuo
+Competenze acquisite in modo completo
+8
+Conoscenze corrette e ben organizzate
+Capacità espressiva appropriata e pertinente
+Metodo di studio valido ed efficace
+Competenze acquisite in modo adeguato
+7
+Conoscenze abbastanza corrette ed organizzate
+Capacità espressiva adeguata e con linguaggio lineare
+Metodo di studio ordinato e generalmente organizzato
+Competenze acquisite in modo discreto
+6
+Conoscenze nozionistiche e superficiali
+Capacità espressiva semplice, ma nel complesso adeguata
+Metodo di studio in via di acquisizione
+Competenze acquisite in modo essenziale
+5
+Conoscenze incomplete e/o parziali
+Capacità espressiva imprecisa e insicura
+Metodo di studio poco efficace
+Competenze in via di acquisizione
+4
+Conoscenze lacunose e frammentarie
+Capacità espressiva carente e disordinata
+Metodo di studio disorganizzato
+Competenze scarse
+
+## Valutazione Del Comportamento
+
+La valutazione del comportamento si riferisce a:
+"!
+sviluppo delle competenze di cittadinanza;
+"!
+linee guida per l’insegnamento dell’Ed. Civica;
+"!
+Statuto delle studentesse e degli studenti;
+"!
+il Patto educativo di corresponsabilità;
+"!
+regolamenti approvati dall’istituzione scolastica ne costituiscono i riferimenti essenziali. (Cfr Dlgs 13
+aprile 2017, n. 62).
+In conformità alle disposizioni ministeriali vigenti in materia di valutazione (Decreto MIUR n.741/2017, Circolare
+MIUR n. 1865/2017 e D.L. del 22/06/2020), Il Collegio dei Docenti ha deliberato i seguenti criteri per la
+valutazione del comportamento suddivisi in vari livelli:
+a.! Rispetto delle persone e collaborazione con compagni e insegnanti.
+b.! Rispetto delle regole della vita scolastica, dell’ambiente e del materiale proprio e altrui.
+c.! Partecipazione e interesse alla vita scolastica. (Valutato nel giudizio globale)
+d.! Impegno e responsabilità a scuola e a casa. (Valutato nel giudizio globale)
+
+---
+
+## Pagina 72
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(!"
+La valutazione è espressa con un giudizio sintetico e con un giudizio analitico globale.
+
+## Certificazione Delle Competenze
+
+La certificazione delle competenze costituisce l’esito di un processo formativo iniziato  con la progettazione e
+completato prima con la valutazione, e, al termine del Primo Ciclo, con la certificazione delle competenze.
+Vedi Protocollo di valutazione allegato n° 7.
+!
+
+---
+
+## Pagina 73
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(#"
+
+## Curricolo Di Istituto
+
+
+## (Competenze Ed Educazione Civica)
+
+Il CURRICOLO dell’Istituto Scolastico è in allegato n° 3.
+In base alle “Linee guida per l’insegnamento dell’educazione civica", ai sensi dell’articolo 3 della legge 20 agosto
+2019, n. 92” e del D.L. del 22/06/2020 si è aggiunto il curricolo di Educazione Civica con la programmazione e
+le modalità di valutazione di tale insegnamento.
+
+## Rapporti Tra I Diversi Ordini Di Scuola
+
+Grazie alla sua struttura interna che ospita diversi ordini scolastici, l’Istituto Scolastico stabilisce dei momenti
+di incontro tra i vari ordini di scuola al fine di favorire negli alunni un passaggio graduale e una continuità
+didattica.
+
+## Raccordo Scuola Dell’Infanzia/Scuola Primaria
+
+Durante l'anno scolastico, si terranno degli incontri con le insegnanti della Scuola dell’Infanzia per:
+•!
+conoscere gli obiettivi della progettazione dell'ultimo anno;
+•!
+definire i prerequisiti richiesti dalla Scuola Primaria;
+•!
+organizzare momenti di attività didattica comuni che coinvolgano i bambini di cinque e sei anni;
+•!
+raccogliere informazioni sui progressi formativo-didattici degli alunni che si iscrivono alla Scuola
+Primaria.
+
+## Raccordo Scuola Primaria/Secondaria Di Primo Grado
+
+Gli insegnanti dei due ordini di scuola s’incontrano per:
+•!
+discutere su temi comuni che riguardano la vita della scuola;
+•!
+comunicare il percorso formativo-didattico compiuto dagli alunni nel corso del quinquennio della
+Scuola Primaria;
+•!
+decidere alcuni momenti di collaborazione tra gli alunni di quinta e della Scuola Secondaria di Primo
+Grado;
+•!
+trasmettere informazioni per la formazione delle classi e la conoscenza degli alunni.
+
+## Raccordo Scuola Secondaria Di Primo Grado/ Secondaria Di Secondo Grado
+
+Si organizzano incontri e laboratori con la Scuola Secondaria di II Grado presente nell’edificio scolastico per
+offrire agli alunni informazioni e orientamenti sulle caratteristiche specifiche dei corsi superiori.
+
+## Azioni Della Scuola Per L’Inclusione Scolastica
+
+(Infanzia con sezione Primavera, Primaria, Secondaria di Primo grado)
+Per assicurare ad ogni studente il successo del proprio percorso formativo, l’Istituto – in tutti i suoi ordini di
+scuola - mette in atto strategie di accoglienza, continuità educativa ed inclusione per alunni che manifestano
+disabilità, difficoltà o svantaggio (DSA, ADHD, disabilità, svantaggio socio – economico, linguistico e culturale).
+La Direttiva 27 dicembre 2012, relativa agli strumenti di intervento per alunni con BES, la Circolare Ministeriale
+n.8/2013 e la legge 5 febbraio 1992, n. 104, legge-quadro per l’assistenza, l’integrazione sociale e i diritti delle
+persone con handicap, forniscono le indicazioni operative ed obbligatorie in tema di Bisogni Educativi Speciali
+e di disabilità.
+Rispetto a tali indicazioni, il nostro Istituto, già per vocazione attento alla persona nella sua unicità e
+complessità, ha individuato figure di riferimento costituendo GLO – Gruppo operativo inclusione per ogni
+ordine di scuola..
+
+---
+
+## Pagina 74
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+($"
+Si ritiene infatti che la Scuola abbia il compito di
+•!
+promuovere la piena integrazione di tutti gli alunni;
+•!
+rispondere in modo adeguato alle esigenze di studenti con BES, attuando un insegnamento sensibile alle
+diversità;
+•!
+accompagnare questi alunni (certificati e non) nel percorso educativo promuovendo le loro specifiche
+potenzialità;
+•!
+rispondere alle esigenze delle famiglie e al loro bisogno di trovare nella scuola un alleato competente
+per affrontare un percorso positivo per i figli;
+•!
+dar vita ad un approccio integrato scuola/famiglia/servizi sanitari.
+Il GLO, nella Scuola, svolge le seguenti funzioni di natura organizzativa, di coordinamento, di collaborazione e
+di mediazione.
+È impegnato a
+•!
+provvedere alla raccolta, lettura e organizzazione della documentazione relativa ai percorsi di alunni
+con bisogni educativi speciali;
+•!
+elaborare percorsi didattici personalizzati con l’individuazione delle misure dispensative e degli
+strumenti compensativi previsti dalla normativa;
+•!
+collaborare con i consulenti esterni, attraverso l’attività di mediazione scuola-famiglia, per un’adeguata
+presa in carico delle situazioni di difficoltà;
+•!
+collaborare con le varie componenti scolastiche per sostenere e guidare l’alunno nel passaggio
+all’ordine di scuola successivo;
+•!
+organizzare, se necessario, incontri con le equipe medico-psico-pedagogiche e a favore degli alunni con
+bisogni educativi speciali;
+•!
+elaborare una proposta di Piano Annuale per l’Inclusività (PAI).
+Ogni Consiglio di Classe provvede inoltre a
+•!
+individuare e formalizzare la presenza di BES nelle varie classi;
+•!
+elaborare i piani personalizzati (PDP – PEI) al fine di definire, monitorare e documentare le strategie di
+intervento più idonee;
+•!
+individuare altresì obiettivi e criteri di valutazione degli apprendimenti da utilizzare negli specifici casi.
+Per maggiori approfondimenti, vedi il Protocollo di accoglienza per l’inclusione (Allegato n° 8) e PAI (Allegato n°
+9).
+!
+
+---
+
+## Pagina 75
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(%"
+
+## L’Organizzazione
+
+
+## Modello Organizzativo
+
+
+## Figure E Funzioni Organizzative
+
+
+## Direzione Della Scuola
+
+
+## Rappresentante Legale
+
+
+## Dirigente Scolastico- Responsabile Gestione Qualitá
+
+
+## Coordinatori Didattici
+
+
+## Organi Collegiali
+
+
+## Consiglio Di Istituto
+
+
+## Collegio Docenti
+
+
+## Consiglio Di Classe
+
+
+## Consiglio Di Intersezione/Interclasse
+
+
+## Docenti
+
+
+## Equipe Pedagogica
+
+
+## Coordinatori Di Classe
+
+
+## Commissioni
+
+#! Nucleo di autovalutazione - PTOF
+#! GLO – Gruppo operativo inclusione (BES)
+#! Commissione Progetto Inclusione
+
+## Genitori
+
+
+## Assemblee Di Classe Genitori
+
+
+## Rappresentanti Di Classe/Istituto
+
+
+## Associazione Genitori D’Istituto
+
+!
+
+---
+
+## Pagina 76
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(&"
+
+## Rapporti Con Le Famiglie
+
+Il dialogo e la collaborazione con i genitori sono considerati importanti per il buon esito del progetto
+formativo.
+L’Istituto offre alle famiglie un ampio ventaglio di opportunità di confronto e incontro.
+
+## Colloqui
+
+
+## Figure Di Riferimento
+
+
+## Tempi
+
+
+## Modalità
+
+SCUOLA DELL’INFANZIA con SEZIONE PRIMAVERA
+
+## Coordinatrice
+
+Tutto l’anno.
+Incontri in relazione alle necessità.
+
+## Docenti
+
+Due/tre incontri all’anno.
+Incontri calendarizzati.
+
+## Scuola Primaria Tradizionale
+
+
+## Coordinatrice
+
+Tutto l’anno.
+Incontri in relazione alle necessità.
+
+## Docenti
+
+Tre/quattro incontri all’anno.
+Incontri calendarizzati e in base alle
+necessità anche online.
+Fine Primo e Secondo
+Quadrimestre.
+Consegna del Documento di Valutazione
+nel giorno stabilito.
+
+## Scuola Primaria Sperimentale Cir - Cle
+
+
+## Coordinatrice
+
+Tutto l’anno.
+Incontri in relazione alle necessità.
+
+## Docenti
+
+Tre/quattro incontri all’anno.
+Incontri calendarizzati e in base alle
+necessità anche online.
+Fine Primo e Secondo
+Quadrimestre.
+Consegna del Documento di Valutazione
+nel giorno stabilito.
+
+## Scuola Secondaria I Grado
+
+
+## Coordinatrice
+
+Tutto l’anno.
+Su appuntamento previo accordo.
+
+## Docenti
+
+Un’ora settimanale al mattino in
+presenza.
+Un pomeriggio a quadrimestre in
+presenza.
+Su appuntamento tramite registro
+elettronico previo accordo in base al
+calendario stabilito.
+Ogni quadrimestre, tramite
+piattaforma TEAMS, tutti i docenti
+sono disponibili per due settimane
+in orario pomeridiano negli orari e
+nei giorni messi a disposizione.
+Su appuntamento tramite registro
+elettronico
+!
+
+---
+
+## Pagina 77
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+('"
+Comunicazioni con le famiglie
+I genitori sono informati del percorso scolastico dell’alunno e delle iniziative della Scuola mediante:
+"!
+colloqui formali e informali (in presenza o on online in base alle necessità della famiglia o date dalla
+situazione sanitaria);
+"!
+comunicazioni/valutazioni online tramite registro elettronico;
+"!
+schede informative scritte bimestrali;
+"!
+circolari;
+"!
+registro online;
+"!
+bacheca web;
+"!
+sito web istituzionale.
+
+## Piano Scolastico Per La Didattica Digitale Integrata
+
+Nel caso si verifichino nuove situazioni emergenziali, potrebbero essere disposte la sospensione della didattica
+in presenza e la ripresa dell’attività a distanza, sulla base di provvedimenti normativi.
+In tal caso, la Scuola attiverà la Didattica a Distanza:
+
+## Riferimenti Normativi:
+
+Decreto legge 17 marzo 2020 n.18 convertito, con modificazioni, dalla legge n. 27 del 24 aprile 2020
+
+## Obiettivi
+
+•!
+Raggiungimento da parte di tutti gli alunni delle competenze e conoscenze previste nel curricolo della
+Scuola per l’anno scolastico che stanno frequentando;
+•!
+continuità didattica ed educativa nello svolgimento dell’anno scolastico;
+•!
+svolgimento di attività di recupero e potenziamento in base alle necessità degli alunni;
+•!
+mantenimento delle relazioni fra docenti, alunni e famiglie nell’ambito dell’attività didattico-educativa;
+•!
+supporto emotivo e psicologico ad alunni e famiglie in difficoltà.
+
+## Strumenti
+
+•!
+Tutti i programmi compresi nel pacchetto Office 365, in particolare la piattaforma TEAMS;
+•!
+registro elettronico e virtual classroom di Soluzione WEB;
+•!
+videolezioni;
+•!
+mail istituzionale;
+•!
+sito Web della Scuola;
+•!
+canale Youtube della Scuola;
+•!
+pc, tablet e smartphone;
+•!
+libri digitali;
+•!
+aule attrezzate con LIM, microfoni e videocamere inserite nei PC delle LIM;
+
+---
+
+## Pagina 78
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(("
+•!
+videocamera mobile con microfono e PC portatile;
+•!
+connessione Web.
+
+## Orario E Frequenza Delle Lezioni
+
+
+## Scuola Dell’Infanzia:
+
+Le insegnanti caricano video utilizzando la piattaforma Teams , WhatsApp, Google Drive o YouTube, per
+intrattenere i bambini con esercitazioni, letture, filastrocche …
+
+## Scuola Primaria
+
+$! per ogni classe, n° 4 ore giornaliere sincrone (due al mattino e due al pomeriggio) per 5 giorni per un
+totale di 20 ore settimanali;
+$! per le classi 1^,n°3 ore giornaliere sincrone (due al mattino e una nel pomeriggio)per 5 giorni per un
+totale di 15 ore settimanali;
+$! per le classi 4^ e 5^, n°1 ora settimanale sincrona con l’esperta madrelingua;
+$! per le classi 3^, 4^, 5^: le docenti stabiliscono incontri sincroni sulla piattaforma e si accordano con gli
+alunni per interrogazioni o momenti di recupero e potenziamento;
+$! per ogni classe, n° 8 ore asincrone: i docenti assegnano esercizi e attività da svolgere individualmente o
+in gruppi di lavoro ma sempre sulla piattaforma Teams.
+Se alcuni alunni dovessero rimanere assenti, potranno collegarsi alla loro classe con Teams e assistere
+alle lezioni in diretta grazie alla telecamera installata in ogni classe
+
+## Scuola Secondaria Di Primo Grado
+
+$! in base alla situazione sanitaria, la Scuola può operare la scelta di svolgere online l’intera mattinata
+scolastica oppure,
+$! Se alcuni alunni dovessero rimanere assenti, potranno collegarsi alla loro classe con Teams e assistere
+alle lezioni in diretta grazie alla telecamera installata in ogni classe.
+INDICAZIONI ALLE FAMIGLIE PER UNA PARTECIPAZIONE SOSTENIBILE ALLE ATTIVITÀ DIDATTICHE A
+
+## Distanza
+
+Alle famiglie in generale si chiede di fornire per quanto possibile una connessione e dei dispositivi tali che
+permettano agli alunni di usufruire al meglio della Didattica a distanza.
+Per la Scuola dell’Infanzia, si chiede alle famiglie di aiutare i bambini nella fruizione dei sussidi proposti.
+Per la Scuola Primaria, si chiede alle famiglie di supportare i bambini, specie i più piccoli, nell’utilizzo corretto
+dello strumento didattico, di vigilare sul comportamento rispettoso della netiquette, di restituire con puntualità
+i lavori richiesti.
+Per la Scuola Secondaria di Primo Grado, si chiede alle famiglie di collaborare per un produttivo svolgimento
+delle attività richieste dai docenti.
+
+## Metodologie E Strumenti Per La Verifica
+
+Per tutte le alunne e tutti gli alunni la valutazione periodica e finale viene integrata con la descrizione dei
+processi formativi (in termini di progressi nello sviluppo culturale, personale e sociale).
+La valutazione verrà effettuata tramite:
+$! osservazioni del docente durante le videolezioni;
+$! test in formato elettronico;
+
+---
+
+## Pagina 79
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+()"
+$! elaborati prodotti dagli alunni sia in diretta, sia in differita;
+$! svolgimento di compiti assegnati;
+$! prove di competenza;
+$! interrogazioni orali online programmate o no;
+$! attività svolte in gruppo sulla piattaforma.
+
+## La Valutazione
+
+La valutazione terrà conto della situazione reale vissuta dall’alunno e dei risultati ottenuti durante le prove:
+•!
+esiti di osservazioni e prove effettuate in presenza tra la fine del primo quadrimestre/trimestre e l’inizio
+della sospensione delle attività didattiche in presenza;
+•!
+esiti di osservazioni e prove effettuate nel periodo della didattica a distanza, in relazione agli obiettivi
+di apprendimento perseguiti e alle attività svolte;
+•!
+elementi relativi alle condizioni favorevoli/sfavorevoli di accesso dell’alunno alla didattica a distanza.
+
+## Alunni Con Bisogni Educativi Speciali
+
+Per gli alunni BES, si farà riferimento a quanto stabilito nel PEI e nel PDP. I docenti adatteranno le proposte e le
+richieste tenendo conto della situazione familiare dell’alunno e delle sue reali possibilità di accesso alla
+Didattica a Distanza.
+I Docenti di sostegno si manterranno in contatto direttamente con le famiglie per concordare gli interventi
+individualizzati per gli alunni.
+
+## La Gestione Della Privacy
+
+La privacy viene gestita in base al Regolamento Europeo 2016/679 (GDPR) e al T.U. Privacy Italiano (D.Lgs
+196/2003) così come modificato dal D.Lgs 101/2028.
+
+## Gli Organi Collegiali  E Le Assemblee
+
+Le riunioni degli organi collegiali e le assemblee vengono svolte tramite la piattaforma Teams e mantengono
+per quanto possibile, la scansione temporale programmata ad inizio anno.
+
+## Rapporti Scuola – Famiglia
+
+•!
+Le famiglie verranno informate periodicamente con il registro online con le stesse modalità e tempistiche
+utilizzate durante le lezioni in presenza;
+•!
+quando necessario, la Preside o i Docenti contatteranno telefonicamente le famiglie;
+•!
+i docenti sono stati forniti di una mail istituzionale e della chat di Teams utilizzabili per i contatti con le
+famiglie;
+•!
+la videochat di Teams verrà usata per i colloqui con i docenti programmati o richiesti dalle famiglie o dai
+docenti stessi.
+!
+
+---
+
+## Pagina 80
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+(*"
+
+## Tempi E Servizi All’Utenza
+
+•!
+La Scuola  è aperta a partire dalle 7.30.
+•!
+I servizi pre-scuola (dalle 7.30) e post-scuola (fino alle 17.30) sono attivi tutti i giorni.
+•!
+La  portineria, rimane aperta, in via ordinaria, ad orario continuato, dalle ore 7.30 alle ore 18.30 da lunedì a
+venerdì, dalle 7.30 alle 12.00 al sabato; oltre questo orario, solo nei giorni in cui si effettuano incontri
+formativi o riunioni, per genitori o per studenti.
+•!
+La Segreteria didattica è aperta al pubblico per tutto l'anno (esclusi i giorni di vacanza previsti dal calendario
+scolastico e quelli del mese di agosto): Da lunedì mercoledì e venerdì dalle 8.00 alle 10.00; martedì e giovedì
+dalle 8.00 alle 10.00 e dalle 15.00 alle 17.00.
+Il rilascio dei certificati è previsto nell'arco di 48 ore di giorni lavorativi in relazione alla complessità di quanto
+richiesto.
+•!
+Gli uffici dell'amministrazione, eccetto i giorni di vacanza e di chiusura nel mese di agosto, sono aperti al
+mattino - da lunedì a venerdì, dalle ore 08.40 alle ore 12.30. Sabato su appuntamento.
+Nei
+mesi
+di
+giugno,
+luglio
+e
+agosto
+gli
+orari
+saranno
+indicati
+in
+tempi
+opportuni.
+Per particolari necessità è possibile telefonare e concordare un appuntamento anche nei giorni e orari in
+cui non è previsto orario di sportello.
+Il rilascio dei certificati è previsto nell'arco di 48 ore di giorni lavorativi in relazione alla   complessità di
+quanto richiesto.
+•!
+Il servizio mensa è attivo tutti i giorni per tutti gli ordini di scuola. È fruibile anche dagli alunni che non si
+fermano per attività pomeridiane, ma che tornano a casa subito dopo pranzo.
+•!
+Sul sito istituzionale e nelle Bacheche, collocate agli ingressi della scuola e negli spazi interni, sono esposti:
+il calendario scolastico, il Regolamento di Istituto, gli orari di ricevimento del Dirigente scolastico e dei
+Docenti, l'Organigramma degli Organi collegiali, le iniziative organizzate dalla Scuola e le comunicazioni agli
+studenti, informazioni e aggiornamenti sul Sistema Qualità.
+•!
+Le informazioni riguardanti gli studenti sono affisse alle bacheche poste sui corridoi adiacenti alle aule.
+I genitori ne sono informati attraverso comunicazioni scritte e circolari inviate tramite registro elettronico.
+
+## Regolamento D’Istituto
+
+Per garantire il buon funzionamento della vita scolastica ed un’efficace azione educativa, genitori, alunni e
+docenti sono vincolati dalle seguenti norme disciplinari e comportamentali.
+I GENITORI sono tenuti a
+•! rispettare le competenze delle varie componenti della comunità educante e dell’Istituto gestore ed
+accogliere le decisioni relative all’assunzione o all’eventuale sostituzione del personale docente e all’uso
+dell’edificio scolastico;
+•! considerare e sottoscrivere le varie comunicazioni della Scuola e rispondere alle eventuali richieste;
+•! partecipare ad incontri o convegni organizzati dall’Istituto e/o da altri Enti formativi per rendere l’azione
+educativa sempre più efficace ed aggiornata;
+18.OO) tutti i giorni dal lunedì al venerdì.
+, (sabato chiusi) .
+solo sotto appuntamento.
+Il
+
+---
+
+## Pagina 81
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+)+"
+•! esercitare con la dovuta frequenza, attenendosi agli orari stabiliti, il diritto-dovere di conferire con il
+Dirigente/Coordinatore Scolastico e con gli insegnanti per conoscere il comportamento e il profitto del
+figlio/a;
+•! prendere visione delle informazioni e comunicazioni trasmesse alla famiglia tramite registro on line;
+•! firmare le comunicazioni inviate tramite circolari, diario e libretto scolastico;
+•! non fumare negli spazi scolastici (anche esterni) in conformità alla normativa vigente;
+•! attenersi alle modalità di comunicazione con gli insegnanti stabilite dalla Scuola (Vedi PTOF);
+•! rispettare gli orari e i tempi della Segreteria e dell’Amministrazione e quanto è comunicato da tali servizi
+•! se richiesto dalla situazione sanitaria, attenersi alle norme anti - covid prescritte dal protocollo di
+sicurezza anticovid 19.
+Agli ALUNNI  si chiede di
+•!
+essere in aula al suono del primo campanello prima dell’inizio delle lezioni;
+•!
+frequentare regolarmente le lezioni e partecipare alle attività integrative scelte in orario
+extracurricolare;
+•!
+manifestare rispetto verso il personale docente e non docente, verso se stessi e i compagni;
+•!
+aver cura dell’ordine personale, del materiale didattico, dell’ambiente e delle strutture;
+•!
+rispettare le regole stabilite nell’uso delle strumentazioni e dei laboratori. I danni arrecati per incuria o
+per dolo dovranno essere risarciti. Si offre la possibilità di risarcire il danno con lo scambio in attività a
+favore della Comunità Scolastica, in accordo con la Direzione;
+•!
+non utilizzare il telefono cellulare o altri dispositivi elettronici durante l’orario scolastico e negli spazi
+scolastici in conformità alla normativa vigente;
+•!
+non fumare negli spazi scolastici in conformità alla normativa vigente;
+•!
+non è consentito fare riprese o fotografie con cellulari ai compagni e ai docenti;
+•!
+non lasciare la classe se non con il permesso del docente;
+•!
+non accedere ai distributori automatici, né recarsi in portineria o presso la Segreteria durante le lezioni
+e al cambio dell’ora;
+•!
+accedere alla Palestra o ai vari Laboratori solo accompagnati dai docenti;
+•!
+mantenere un comportamento controllato durante l’intervallo e seguire le indicazioni del Docente
+presente per l’assistenza;
+•!
+consumare merende e bevande negli appositi spazi e nei tempi previsti, non nelle classi;
+•!
+evitare di portare a scuola oggetti preziosi e materiali che possano creare disturbo o pericolo. La Scuola
+non risponde di eventuali smarrimenti;
+•!
+rispettare le modalità date relative alla “pausa pranzo”;
+•!
+non esporre o diffondere comunicazioni, inviti od altro, né distribuire opuscoli o volantini nella Scuola,
+senza autorizzazione del Dirigente scolastico;
+•!
+se richiesto dalla situazione sanitaria, attenersi scrupolosamente alle norme anti-covid prescritte dal
+protocollo di sicurezza anticovid 19.
+
+## Assenze E Ritardi
+
+•!
+Assenze o eventuali ritardi devono essere giustificati per iscritto sul libretto scolastico da un genitore o
+da chi ne fa le veci e controfirmati dal Dirigente scolastico/Coordinatore, prima di rientrare in classe.
+•!
+L’allievo non può lasciare la scuola prima del termine delle lezioni senza una richiesta scritta motivata
+e firmata dal genitore sul libretto scolastico.
+•!
+Le assenze superiori a cinque giorni è opportuno siano giustificate e motivate con una comunicazione
+scritta dai genitori.
+
+---
+
+## Pagina 82
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+)!"
+
+## Responsabilità  Del  Docente
+
+Il Docente è tenuto a conoscere e ad attuare le direttive scolastiche stabilite dal Regolamento Ministeriale e
+d’Istituto.
+È suo compito:
+•!
+controllare le assenze e segnalarle sul registro elettronico all’inizio dell’ora;
+•!
+richiedere le giustificazioni (il Docente della prima ora giustifica sul registro elettronico le assenze dei
+giorni precedenti);
+•!
+tenere aggiornato il Registro elettronico personale e di classe;
+•!
+curare l’ordine della classe, l’attenzione durante le lezioni, il comportamento corretto degli alunni anche
+fuori dall’aula;
+•!
+elaborare la progettazione didattica ed usare le strategie più idonee alle reali possibilità della classe;
+•!
+a fine anno, consegnare in segreteria i prospetti dei recuperi svolti, le relazioni finali e i programmi
+effettivamente svolti;
+•!
+andare a prendere la classe nel salone d’attesa cinque minuti prima dell’inizio delle lezioni alla prima
+ora;
+•!
+essere disponibili ai colloqui con i genitori nei giorni e negli orari stabiliti e concordati;
+•!
+partecipare ai Consigli e ai vari incontri organizzati dall’Istituto;
+•!
+rispettare l’etica professionale ed essere riservati su quanto emerge durante i Consigli e gli Scrutini e
+non dissociarsi dalla corresponsabilità di decisioni prese dal Consiglio di classe e dal Collegio dei
+Docenti;
+•!
+vigilare sugli alunni durante le visite didattiche/gite d’istruzione e durante l’intervallo e le ricreazioni in
+base ai turni assegnati;
+•!
+non fumare negli spazi scolastici in conformità alla normativa vigente;
+•!
+far rispettare i regolamenti dei vari laboratori;
+•!
+se richiesto dalla situazione sanitaria, attenersi scrupolosamente alle norme anti - covid prescritte dal
+protocollo di sicurezza anticovid 19.
+
+## Servizio Mensa Interno
+
+•!
+Il servizio mensa è appaltato alla ditta di ristorazione VicooK S.r.l. ed è gestito nei locali della scuola.
+Nella preparazione del cibo, viene seguito il menù indicato dall’Asl.
+•!
+Gli alunni della Scuola Secondaria di Primo grado possono portare il pranzo da casa o farselo portare a
+scuola dal bar di fronte.
+•!
+L’assistenza in mensa è garantita, oltre che dal personale addetto al servizio, dagli insegnanti, i quali
+favoriscono il mantenimento di un clima educativo e sereno e rispondono alle esigenze degli alunni.
+•!
+In caso di allergie o intolleranze alimentari il menu può essere modificato secondo le necessità con la
+presentazione del certificato medico.
+Ogni ordine di Scuola si impegna a declinare il suddetto Regolamento in base all’età degli alunni e alle specifiche
+esigenze del proprio contesto scolastico.
+IL PATTO DI CORRESPONSABILITÁ  (Allegato n° 10).
+!
+
+---
+
+## Pagina 83
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+)#"
+
+## Piano Di Formazione Del Personale
+
+In relazione alle specifiche esigenze, la Scuola organizza corsi formativi e incontri di aggiornamento per il
+personale docente e ATA.
+Lungo il triennio si prevedono:
+
+## Personale Docente
+
+•!
+Metodologie innovative di insegnamento e apprendimento anche per la Didattica a Distanza.
+•!
+Aggiornamenti sulla didattica con la strumentazione digitale.
+•!
+Incontri formativi di carattere psico-pedagogico, umano/spirituale.
+•!
+Corso/aggiornamento sicurezza sul posto di lavoro.
+•!
+Corso di intervento Antincendio.
+•!
+Aggiornamento Privacy sulla nuova normativa europea.
+•!
+Responsabilità ed etica professionale nella gestione degli alunni.
+•!
+Presentazione del Regolamento interno disciplinare d’Istituto.
+•!
+Partecipazione a vari corsi formativi proposti dal territorio o a Webinar.
+
+## Personale Ata
+
+•!
+Aggiornamento del personale amministrativo in rapporto alla vigente normativa fiscale e di lavoro.
+•!
+Corso/aggiornamento sicurezza sul posto di lavoro.
+•!
+Aggiornamento per implementare l’utilizzo delle tecnologie in ambito amministrativo.
+•!
+Aggiornamento Privacy sulla nuova normativa europea.
+•!
+Presentazione del Regolamento interno disciplinare d’Istituto.
+Lungo il triennio si presterà attenzione alle diverse offerte del territorio e, in relazione ai bisogni della Scuola, si
+promuoverà la partecipazione dei docenti e/o del personale ATA ai vari incontri, con particolare attenzione
+alle nuove normative che interessano le diverse mansioni (segreteria, amministrazione …).
+!
+
+---
+
+## Pagina 84
+
+
+## Ptof | Piano Triennale Dell’Offerta Formativa
+
+A.S. 2022/2023 | Fondazione Luigi Clerici – Suore Sacramentine
+)$"
+
+## Allegati
+
+(Conservati in segreteria)
+1.! PEI (Progetto Educativo d’Istituto)
+2.! Piani di Miglioramento
+3.! Curricolo della scuola
+4.! Progetti Scuola Primaria
+5.! Protocollo di valutazione - Scuola Primaria
+6.! Progetti Scuola Secondaria di Primo Grado
+7.! Protocollo di valutazione - Scuola Secondaria di Primo Grado
+8.! Protocollo per l’inclusione scolastica
+
+## 9.! Pai
+
+10.! Patto di corresponsabilità della Scuola Secondaria
+11.! Protocollo di sicurezza anticovid 19
+Gli allegati sono pubblicati a norma di legge: sono visionabili presso la Segreteria previa richiesta.
+Il Piano Triennale dell’Offerta Formativa dell’Istituto Scolastico “Suore Sacramentine di Bergamo” è
+stato elaborato dal Collegio dei Docenti sulla base dell’Atto di indirizzo del Dirigente ed è stato
+approvato dal Consiglio di Istituto.
+Periodo di riferimento: 2022-2025
+(Ultimo aggiornamento: Novembre 2022)
+
+---
+
+## Pagina 85
+
+
+## Clerici Bergamo
+
+Via S. Antonino - 8 | 24122 Bergamo BG
+
+## T. 035 07 82 017
+
+paritario.bergamo@clerici.lombardia.it
+segreteria.didattica@clericibergamo.it
+
+---
+

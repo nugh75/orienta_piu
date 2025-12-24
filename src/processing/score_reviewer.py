@@ -135,6 +135,20 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
                 logger.warning(f"Rate limit (429). Waiting {wait_time}s...")
                 time.sleep(wait_time)
             else:
+                # Gestione errore Privacy/Data Policy
+                try:
+                    err_json = response.json()
+                    err_msg = err_json.get("error", {}).get("message", "")
+                    if "data policy" in err_msg:
+                        logger.error(f"❌ ERRORE PRIVACY OPENROUTER: {err_msg}")
+                        logger.error("   SOLUZIONE: Vai su https://openrouter.ai/settings/privacy")
+                        logger.error("   1. DISATTIVA 'ZDR Endpoints Only'")
+                        logger.error("   2. ATTIVA 'Enable free endpoints that may train on inputs'")
+                        logger.error("   3. ATTIVA 'Enable free endpoints that may publish prompts'")
+                        return None
+                except:
+                    pass
+
                 logger.error(f"API error {response.status_code}: {response.text}")
                 time.sleep(10)
         except Exception as e:
@@ -146,7 +160,10 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
 
 def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
     """Call Google Gemini API with retry/backoff."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    # Sanitize model name for Google API (remove OpenRouter prefixes/suffixes)
+    clean_model = model.replace("google/", "").replace(":free", "")
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{clean_model}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -218,6 +235,11 @@ def build_extreme_review_prompt(
     return f"""
 SEI UN REVISORE CRITICO. Devi verificare SOLO i punteggi estremi (<= {low} o >= {high}).
 Conferma o modifica i punteggi usando il testo come fonte di verita.
+
+ISTRUZIONE SPECIALE - SEZIONE ORIENTAMENTO:
+Verifica con ESTREMA ATTENZIONE se esiste un capitolo o una sezione esplicitamente intitolata "Orientamento" (o variazioni chiare come "Continuità e Orientamento").
+Se il punteggio relativo alla sezione dedicata è alto (>= {high}) ma nel testo NON c'è un capitolo specifico, DEVI abbassare il punteggio a 1 o 2.
+NON considerare "dedicata" una sezione se l'orientamento è solo menzionato in paragrafi sparsi.
 
 DOCUMENTO ORIGINALE (Markdown, estratto):
 {truncated_md} ... [troncato se troppo lungo]

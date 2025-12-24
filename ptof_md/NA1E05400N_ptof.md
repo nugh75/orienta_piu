@@ -1,0 +1,1166 @@
+# Contenuto PTOF: NA1E05400N_PTOF.pdf
+
+## Pagina 1
+
+
+## Infanzia
+
+
+## Primaria
+
+
+## Secondaria 1°
+
+
+## Grado
+
+
+## Liceo Scientifico
+
+
+## Liceo Scienze Umane
+
+
+## Ptof 2022-2025
+
+P i a n o  d e l l ' O f f e r t a  F o r m a t i v a
+E s t r a t t o
+
+## Formazione Dalla Testa
+
+
+## Al Cuore
+
+
+---
+
+## Pagina 2
+
+L’Istituto Maria Ausiliatrice è una scuola cattolica e
+salesiana, scuola paritaria che ai sensi della legge
+62/2000, partecipa a pieno titolo del Sistema Nazionale di
+Istruzione e Formazione e realizza la propria funzione
+impegnandosi per il successo scolastico di tutti i suoi
+studenti, nel rispetto dell’unicità di ciascuno.
+L’Istituto Maria Ausiliatrice comprende scuola
+dell’infanzia con quattro sezioni, scuola primaria con due
+sezioni, scuola secondaria di 1° grado con una sezione,
+scuola secondaria di 2° grado con una sezione di Liceo
+Scientifico e una sezione di Liceo delle Scienze Umane.
+Il (PTOF) è la risposta, conforme alla domanda educativa
+e formativa dei genitori e degli alunni, in coerenza con le
+linee guida dei sistemi educativi nazionali ed
+europei e con il Progetto Educativo Nazionale delle
+scuole salesiane, nell'ambito dell'autonomia delle
+istituzioni scolastiche.
+Premessa
+
+---
+
+## Pagina 3
+
+Il PTOF ha come fine ultimo e principale
+la promozione del successo formativo
+degli
+studenti,
+in
+un
+contesto
+organizzativo che fa del rispetto di sé e
+dell’altro il proprio principio imperatore e
+sostanziale.
+Per declinare le finalità di cui sopra, la
+scuola fa proprio il riferimento alle
+competenze in materia di
+cittadinanza, con particolare riguardo
+alle competenze sociali e civiche,
+ovvero
+alle
+competenze
+personali,
+interpersonali e interculturali che
+consentono alle persone di partecipare in
+modo efficace e costruttivo alla vita
+sociale e lavorativa e di dotarsi degli
+strumenti necessari per impegnarsi ad
+una partecipazione attiva e democratica.
+A queste si legano in modo
+interdipendente, le altre
+competenze di seguito evidenziate, così
+come definite dal Consiglio dell’Unione
+Europea nel maggio 2018:
+- Competenza alfabetico funzionale
+- Competenza multilinguistica
+- Competenza matematica e
+competenza in scienze, tecnologia e
+ingegneria
+- Competenza digitale
+-  Competenza personale, sociale e
+capacità di imparare ad imparare
+- Competenza imprenditoriale
+- Competenza in materia di
+consapevolezza ed espressioni
+culturali.
+L’educazione è
+cosa del cuore
+(san Giovanni Bosco)
+
+---
+
+## Pagina 4
+
+linee di indirizzo  strategiche per la definizione del PTOF per coniugare analisi del
+territorio e bisogni dell’utenza.
+
+## Internazionalizzazione
+
+- Potenziamento dell’insegnamento
+dell’Inglese e di altre lingue europee
+-  Plurilinguismo
+-  Progetti interculturali
+
+## - Clil
+
+
+## Molteplicità Di Approcci E
+
+
+## Contesti Di Apprendimento
+
+- Apprendimento interdisciplinare
+-  Educazione sociale ed emotiva
+-  Apprendimento basato sull'indagine
+e sui progetti
+-  Sulle arti e sui giochi
+- Metodi di apprendimento sperimentali
+-  Apprendimento basato sul lavoro e su
+metodi scientifici
+-  Uso di tecnologie digitali
+-   Esperienze per l’auto-
+imprenditorialità
+
+## Orientamento
+
+- Valorizzazione del curricolo di disciplina
+in chiave orientativa
+- Progetti continuità tra diversi gradi
+scolastici e collegamenti con il mondo
+universitario
+- Conseling e laboratori di analisi delle
+competenze
+- Percorsi per le Competenze
+Trasversali e per l’Orientamento (PCTO)
+
+## Partecipazione
+
+- Valorizzazione della partecipazione
+studentesca alla vita della scuola
+- Didattica per progetti
+- Valorizzazione di esperienze e laboratori
+di cittadinanza attiva
+- Coinvolgimento di tutte le componenti
+nella progettazione e valutazione del PTOF
+- Inclusione.
+
+---
+
+## Pagina 5
+
+L’Istituto delle “Figlie di Maria Ausiliatrice” (FMA) di Napoli opera nel
+quartiere dal 1905.  Ha dietro di sé una lunga storia: per anni ha saputo essere
+nel territorio una realtà educativa positiva e propositiva contribuendo a
+formare intere generazioni di giovani dal punto di vista umano, religioso,
+culturale e professionale.   Attualmente accoglie circa 650 alunni che esprimono le
+sfide e le opportunità del contesto socio-culturale complessivo da cui provengono.
+L’identità dell’Istituto  si  caratterizza per  una  solida base  cattolico-culturale. È
+un ambiente che accoglie le identità dei diversi segmenti scolastici: scuola
+dell’infanzia, scuola primaria, scuola secondaria di I e II grado inseriti in
+percorsi di continuità educativa e didattica.
+La nostra scuola è una comunità educante, in cui si realizza un processo libero di
+produzione di cultura e di educazione. Essa è composta da religiose, laici, genitori,
+docenti e allievi, uniti da un patto educativo e impegnati in un comune processo
+di formazione. La comunità educante si offre come luogo di concreta
+collaborazione nello stile di famiglia, caratteristico delle “case” di don Bosco e
+madre Mazzarello.
+Vengono promosse numerose opportunità di partecipazione alla vita della scuola,
+sia di taglio educativo che religioso. La comunità religiosa si rende garante della
+direzione, dell’animazione e della gestione della scuola secondo il carisma
+salesiano.  L’Istituto fa parte di una vasta rete di scuole a livello italiano ed
+europeo ed è un ambiente che educa alla vita da oltre 100 anni.
+Caratteristiche della Scuola
+Identità
+
+---
+
+## Pagina 6
+
+Vision
+La nostra MISSION è formare persone in grado di pensare ed agire autonomamente
+e responsabilmente all’interno della società, strutturando un progetto globale
+(PTOF) che, attraverso lo strumento giuridico dell’autonomia, coinvolga tutti
+soggetti protagonisti del processo di crescita:
+- Lo studente nella interezza della sua persona: soggettiva, cognitiva, relazionale,
+spirituale e professionale, quindi  non  solo destinatario  di  un servizio  scolastico,
+ma  parte in causa  capace  di partecipare  attivamente alla  realizzazione
+di  se  stesso.
+- La  famiglia  nell’espletare  responsabilmente  il suo  ruolo,  condividendo il
+progetto  educativo finalizzato  al raggiungimento della maturità dei ragazzi.
+- I  docenti nell’esercizio  della  loro professionalità,  attivando  un processo  di
+apprendimento continuo, graduale, flessibile, centrato sullo sviluppo di abilità e
+competenze, in una continua riflessione sulle pratiche didattiche innovative e
+coinvolgenti.
+- Il  territorio  inteso come contesto di appartenenza ricco di risorse e vincoli, da
+cogliere e da superare e con il quale interagire ed integrarsi.
+La nostra VISION  è un sistema  formativo,  aperto
+verso  l’esterno,  integrato e  complessivo,  fondato
+sul  rispetto  della persona e sulla valorizzazione dei
+rapporti interpersonali ed interistituzionali.
+L’Istituto intende travalicare i confini didattici
+tradizionali ed essere luogo formativo in cui
+l’esplorazione  di sistemi di collaborazioni
+tra  gli  attori del  territorio,  gli enti  locali,  le
+istituzioni,  le    autonomie, le aziende, il mondo del
+lavoro, consolidi la formazione di ogni alunno.
+"Il Sistema Preventivo
+mette al centro la
+persona, fa appello alla
+sua libertà e
+intelligenza,
+potenzia la sua volontà,
+ne considera i
+dinamismi affettivi e la
+dimensione
+relazionale e sociale,
+educa la sua naturale
+apertura a Dio e al
+senso della
+vita.
+Mission
+"in ciascuno, anche nel più limitato da fragilità personali o
+condizionamenti sociali, è presente un punto accessibile al bene e
+dovere primo dell’educatore è di cercare questo punto, questa corda
+sensibile del cuore e di trarne profitto” (don Bosco).
+
+---
+
+## Pagina 7
+
+-  Finalizzare le scelte educative, curriculari, extracurriculari e organizzative al
+potenziamento dell’inclusione scolastica e del diritto al successo formativo di
+tutti gli alunni.
+-   Favorire il potenziamento delle eccellenze e valorizzare il merito
+-   Sostenere formazione ed auto-aggiornamento rivolto al personale docenti per la
+diffusione dell’innovazione metodologica, didattica e l’uso delle tecnologie digitali
+-   Valorizzare e potenziare le competenze internazionali mediante la metodologia
+CLIL in tutti i livelli di scuola
+-   Offrire a tutti i gradi scolastici esperienze internazionali di formazione e confronto
+-   Curare il processo di apprendimento inteso come: progettazione e costruzione
+della conoscenza, scoperta e piacere di apprendere insieme, relazione
+affettivamente significativa, predisposizione adeguata dei tempi e degli ambienti di
+apprendimento
+-   Potenziamento delle competenze matematiche e scientifiche
+-   Sviluppo delle competenze legate alla cittadinanza attiva e democratica attraverso
+la valorizzazione dell’educazione interculturale, della cura del creato e della
+pace
+-   Sviluppo delle competenze digitali degli studenti, con particolare riguardo al
+pensiero critico e computazionale, all’utilizzo critico e consapevole dei media e delle
+tecnologie della comunicazione
+-  Potenziamento delle tecnologie innovative e conseguente modifica degli ambienti di
+apprendimento per lo sviluppo di pratiche didattiche innovative.
+Obiettivi formativi prioritari
+Ci sta a cuore la
+felicità di ogni
+giovane, di ogni
+bambino/a per cui
+qualsiasi proposta
+scolastica ed
+extrascolastica mira al
+raggiungimento di
+questa finalità..
+
+---
+
+## Pagina 8
+
+La scuola dell’infanzia è parte integrante
+del percorso formativo unitario e
+contribuisce alla elaborazione del
+curricolo verticale. Essa, in quanto
+ambiente educativo intenzionalmente e
+professionalmente strutturato, persegue
+linee progettuali e programmatiche che
+si realizzano attraverso i campi di
+esperienza, contesti culturali e pratici,
+che amplificano l’esperienza dei
+bambini.
+L’esperienza formativa fornisce:
+· la valorizzazione del gioco come
+risorsa privilegiata di apprendimenti e di
+relazioni;
+· la relazione personale significativa
+con pari e con gli adulti;
+· l’esplorazione e la ricerca che
+consentono al bambino di scoprire i
+diversi aspetti della realtà.
+.
+Scuola
+dell’infanzia
+La scuola dell’infanzia si rivolge a tutti i
+bambini dai 3 ai 6 anni di età ed è la
+risposta al loro diritto all’educazione e
+alla cura. Il curricolo prevede
+l’organizzazione di attività didattiche e di
+un’equilibrata integrazione di
+momenti di cura, di relazione, di
+apprendimento. Tale processo si realizza
+attraverso l’azione, l’esplorazione, il
+contatto con gli oggetti, la natura, l’arte,
+il territorio, in una dimensione ludica, da
+intendersi come forma tipica di relazione
+e di conoscenza.
+Nel gioco, particolarmente in quello
+simbolico, i bambini osservano, si
+esprimono,raccontano, fanno ipotesi e
+rielaborano in modo creativo le
+esperienze personali e sociali.
+Nella relazione educativa, gli
+insegnanti svolgono una funzione di
+mediazione e di facilitazione e, nel fare
+propria la ricerca dei bambini, li aiutano a
+pensare e a riflettere meglio,
+sollecitandoli a osservare, descrivere,
+narrare, fare ipotesi, dare e chiedere
+spiegazioni in contesti cooperativi e di
+confronto diffuso.
+
+---
+
+## Pagina 9
+
+La Scuola dell’Infanzia ha durata
+triennale; si pone in continuità
+educativa con la scuola primaria;
+accoglie bambini di età compresa tra i 3
+e i 5 anni compiuti entro il 31 dicembre
+dell’anno scolastico di riferimento. Su
+richiesta delle famiglie possono essere
+iscritti alla scuola dell’infanzia, le
+bambine e i bambini che compiono 3
+anni di età entro il 30 aprile dell’anno
+scolastico di  riferimento.
+L’orario di funzionamento della Scuola
+dell'Infanzia è stabilito in 40
+ore settimanali. Permane la possibilità
+di chiedere, da parte delle
+famiglie, un tempo scuola ridotto,
+limitato alla sola fascia del mattino, per
+complessive 25 ore settimanali.
+.
+Scuola
+dell’infanzia
+
+## Curricolo Scuola Infanzia
+
+La scuola dell’Infanzia
+dell’Istituto Maria Ausiliatrice fa propri i
+principi delle “Indicazioni
+Nazionali per il curricolo della scuola
+dell’infanzia” del 2018.
+- Consolidare l’identità
+significa vivere serenamente tutte le
+dimensioni del proprio io, stare bene,
+essere rassicurati nella molteplicità del
+proprio fare e sentire, sentirsi sicuri in un
+ambiente sociale allargato, imparare a
+conoscersi e ad essere riconosciuti come
+persona unica e irripetibile.
+- Sviluppare l’autonomia
+significa avere fiducia in sé e fidarsi degli
+altri; provare soddisfazione nel fare da sé
+e saper chiedere aiuto o poter esprimere
+insoddisfazione e frustrazione elaborando
+progressivamente risposte e strategie;
+esprimere sentimenti ed emozioni;
+partecipare alle decisioni esprimendo
+opinioni, imparando ad operare scelte e
+ad assumere comportamenti e
+atteggiamenti sempre più consapevoli.
+- Acquisire competenze
+significa giocare, muoversi, manipolare,
+curiosare, domandare, imparare a
+riflettere sull’esperienza attraverso
+l’esplorazione, l’osservazione e il
+confronto tra proprietà, quantità,
+caratteristiche, fatti; significa ascoltare
+e comprendere, narrazioni e discorsi,
+raccontare e rievocare azioni ed
+esperienze e tradurle in tracce personali e
+condivise; essere in grado di descrivere,
+rappresentare e immaginare, “ripetere”,
+con simulazioni e giochi di ruolo,
+situazioni ed eventi con linguaggi diversi.
+
+---
+
+## Pagina 10
+
+Scuola
+dell’infanzia
+
+## Profilo In Uscita
+
+Al termine del percorso triennale della scuola dell’infanzia i bambini sviluppano
+competenze di base che strutturano la loro crescita personale:
+
+## Maturazione Dell’Identità
+
+Il bambino è condotto a:
+- acquisire atteggiamenti di stima di sé, sicurezza, di fiducia nelle proprie capacità, di
+motivazione al passaggio dalla curiosità alla ricerca
+-  sviluppare la capacità di esprimere e controllare le emozioni e i sentimenti,
+rendendolo sensibile a quello degli altri riconoscere e apprezzare l’identità personale
+ed altrui nelle connessioni con le differenze di sesso, cultura e di valori
+
+## Conquista Dell’Autonomia
+
+Il bambino è portato a:
+- riconoscere le dipendenze dall’ambiente sociale, essere in grado di orientarsi in
+maniera personale alla realtà e di compiere scelte innovative
+- collaborare con i singoli e i gruppi nella scoperta
+- rispettare i valori della libertà, della cura di sé, degli altri, dell’ambiente, della
+solidarietà, della giustizia, dell’impegno ad agire per il bene comune
+
+## Competenze Alfabetiche E Relazionali
+
+Il bambino è portato a:
+- incontrare le prime forme di lettura
+- conoscere le diverse realtà: sociale, artistica, urbana e storica, tradizionale
+- produrre messaggi attraverso numerose attività rappresentative e codici
+comunicativi
+- mostrare coerenza cognitiva e di comportamenti pratici, insieme a intuizione,
+immaginazione, creatività e gusto estetico
+
+## Senso Della Cittadinanza
+
+Il bambino è portato a:
+- porre attenzione al punto di vista dell’altro
+-  scoprire gli altri, i loro bisogni e la necessità di gestire i contrasti attraverso regole
+condivise
+- definire le regole attraverso le relazioni, il dialogo, l’espressione del proprio
+pensiero
+
+---
+
+## Pagina 11
+
+
+## Progettazione Organizzativa
+
+La  Scuola dell’Infanzia è aperta e
+funzionante da settembre a giugno.
+Sono attive quattro sezioni nelle quali i
+bambini vengono distribuiti rispetto
+all’età in modo eterogeneo
+La Scuola dell’Infanzia è aperta
+dal lunedì al venerdì ed è funzionante
+con il seguente orario:
+TEMPO MINIMO            ore 8.00-13.00
+TEMPO PROLUNGATO  ore 8.00-15.45
+Il tempo della giornata è così
+suddiviso:
+h 08.00 – 09.00         Accoglienza
+h 09.00                      Inizio
+attività didattiche di sezione e/o
+d’intersezione
+h 12.30                      Pranzo
+h 13.00                      Ricreazione
+h 14.00                      Attività di
+sezione e/o di laboratorio per i
+bambini di 4 e 5 anni
+h 15.45                      Uscita
+
+## Attività Specialistiche In
+
+
+## Orario Curricolare
+
+• Attività motoria: 2 volta alla settimana
+con insegnante specializzato per fascia
+d’età.
+• L’inglese dei bambini: 2 volta alla
+settimana con insegnante specializzato
+per fascia d’età.
+• Attività di pre-lettura, pre-scrittura e
+pre-calcolo: per i bambini di 5 anni 3
+volte alla settimana.
+
+## Attività Libere
+
+• La seconda lingua: lo spagnolo con
+insegnante di madrelingua
+•  I bambini vengono coinvolti, durante il
+periodo estivo di sospensione delle attività
+didattiche (mese di luglio- Estate bimbi),
+in una serie di percorsi ludico-ricreativi che
+gli consentono di sperimentare nuove
+forme di socialità.
+
+## Attivita’ Pomeridiane Facoltative
+
+- avviamento allo sport
+- danza classica
+- musica
+
+---
+
+## Pagina 12
+
+Scuola
+Primaria
+La Scuola Primaria, accogliendo e
+valorizzando le diversità individuali,
+promuove lo sviluppo della personalità
+ed offre l’opportunità di sviluppare le
+dimensioni cognitive, emotive,
+affettive, sociali, corporee, etiche e
+religiose, e di acquisire i saperi
+irrinunciabili quali strumenti culturali
+per la cittadinanza.
+Essa, attraverso le varie discipline, ha il
+fine far acquisire e sviluppare le
+conoscenze e le abilità di base, di
+utilizzare diversi stili cognitivi, ponendo
+così le premesse per lo sviluppo del
+pensiero riflessivo e critico,
+scientifico e computazionale, orientato
+alla formazione di cittadini europei
+consapevoli e responsabili.
+Accoglie i bambini dai 5 anni e mezzo ai 10 anni
+nella concretezza del loro vissuto:
+- promuove l’acquisizione di tutti i tipi di
+linguaggio e un primo livello di padronanza delle
+conoscenze e delle abilità, radicandole sulle
+esperienze, per lo sviluppo delle competenze
+chiave;
+- cura lo sviluppo della personalità in
+tutte le componenti, per condurlo ad una scoperta di
+se stesso e del mondo circostante, nel pieno
+rispetto dei ritmi di crescita a vari livelli;
+- realizza, un clima sociale positivo ed
+accogliente ispirato al Sistema Preventivo, uno
+stile di vita che è finalizzato alla maturazione di
+valori umani e cristiani;
+- valorizza gli strumenti culturali per la
+cittadinanza e promuove l’insegnamento delle
+lingue (italiano, inglese e spagnolo) per
+la comunicazione e la costruzione delle conoscenze
+utilizzando con gradualità la metodologia CLIL
+nell’insegnamento di una disciplina.
+
+---
+
+## Pagina 13
+
+Profilo in uscita
+In linea con le Nuove Indicazioni
+Nazionali per il curricolo della scuola
+dell’infanzia e del primo ciclo
+d’istruzione, la Scuola Primaria adotta
+il profilo in uscita della Scuola
+Primaria e i traguardi per lo sviluppo
+delle competenze.
+Alla fine della scuola primaria gli alunni
+avranno una solida preparazione di
+base, saranno persone attente e
+curiose, capaci di pensare e di
+riflettere di porsi domande e di non
+accettare risposte chiuse e limitanti,
+sapranno interagire con gli altri e
+con l’ambiente con un
+comportamento responsabile e
+leale.
+Lo studente attraverso gli apprendimenti sviluppati a scuola, lo studio personale,
+le esperienze educative vissute in famiglia e nella comunità:
+- Ha consapevolezza di sé del proprio corpo, delle proprie emozioni, dei personali modi di essere e
+di capire, di crescere, dei propri punti forza e di debolezza per costruirsi una positiva immagine di sé
+come individuo.
+- Conosce i propri diritti e i propri doveri nei confronti di se stessi, degli altri e dell’ambiente.
+- Riconosce le diversità come valore per costruire insieme un percorso di crescita.
+- Pone e si pone domande, esprime le proprie idee argomentando intorno a un fatto,
+sostenendole e confrontandole con quelle degli altri arrivando a una sintesi.
+- Interagisce con coetanei e adulti per raggiungere scopi comuni all’interno di spazi diversi regolati
+da norme condivise.
+- Si orienta nello spazio e nel tempo operando confronti costruttivi tra realtà storiche e geografiche
+diverse.
+- Individua cause conseguenze ed eventi.
+- Inizia a ricercare su fatti delimitati nello spazio e nel tempo secondo il metodo storico.
+- Conosce le caratteristiche di ambienti specifici.
+- Si colloca nello spazio attraverso la lettura e costruzione di mappe e carte.
+
+---
+
+## Pagina 14
+
+La nostra scuola primaria attiva
+10 classi in 2 sezioni (A e B)
+La pianificazione del nuovo orario
+prevede un monte ore annuale
+obbligatorio pari a 891 ore.
+La nostra scuola si articola in
+cinque giorni settimanali:
+dal Lunedì al Venerdì con orario
+antimeridiano.
+Le lezioni iniziano alle ore 8.00 e
+terminano alle ore 13,30
+La scuola offre un servizio pomeridiano di
+Assistenza allo Studio per 5 giorni a
+settimana. Per gli alunni che usufruiranno
+del servizio è prevista la pausa
+pranzo e la ricreazione.
+Le ore scolastiche giornaliere
+risultano così suddivise nell’arco della
+giornata scolastica:
+8.00/8.55         1° ora
+8.55/9.50         2° ora
+9.50/10.45       3° ora
+11.00/11.50     4° ora
+11.50/12.40     5° ora
+12.40/13.30     6° ora
+
+## Progettazione
+
+
+## Organizzativa
+
+Per gli alunni che usufruiranno del servizio di
+Assistenza allo Studio è previsto:
+13.30     Pausa pranzo e ricreazione
+14.00 - 16.00   Assistenza allo studio
+
+---
+
+## Pagina 15
+
+
+## Progettazione
+
+
+## Organizzativa
+
+Vengono proposte dalla Scuola 3 ore di Inglese aggiuntive rispetto al programma
+ministeriale.
+Sono previsti quindi complessivamente i seguenti carichi orari:
+27 ore dalla Prima classe alla Quinta
+Inoltre vengono proposte ore aggiuntive di lingua inglese rispetto al programma ministeriale:
+4 ore di attività didattica in lingua Inglese in Prima e Seconda di cui una con metodologia
+CLIL e una nel pm con Docente di classe e di madrelingua
+5 ore di attività didattica in lingua Inglese in Terza Quarta e Quinta di cui una con
+metodologia CLIL e una nel pm con Docente di classe e di madrelingua
+La Scuola i offre la possibilità del bilinguismo: lo Spagnolo con Docente di Madrelingua può
+essere scelto come attività pomeridiana .
+I corsi si attiveranno se si raggiungerà il numero minimo di 15 partecipanti;
+Orario pomeridiano per attività alcune integrative
+Fino alle 14.00-15.00 assistenza allo studio
+Ore 15.00-16.00: 1 ora inglese madrelingua.
+Ore 16.00-17.15:  Lingua spagnola. I corsi si attiveranno se si raggiungerà il numero minimo
+di 15 partecipanti
+
+---
+
+## Pagina 16
+
+
+## Attività Integrative
+
+Sono integrative tutte le attività che si
+svolgono nel normale orario scolastico o che,
+pur inserite in questo, rappresentano attività
+facoltative, di supporto all’attività didattica.
+L’Istituto, avvalendosi della collaborazione di
+personale altamente qualificato, propone le
+seguenti attività:
+•   Potenziamento delle lingue straniere:
+inglese nelle classi I e II primaria con
+l’aggiunta di un ora nel pomeriggio con
+Docente di Madrelingua, Spagnolo con
+aggiunta di 2 ore il pomeriggio
+•     Itinerari didattici e laboratori scelti per
+le varie classi e che vanno ad integrare i
+percorsi disciplinari, iniziative culturali, visite
+guidate.
+•     Le feste scolastiche sono momenti
+altamente formativi di carattere religioso
+particolarmente curati e preparati
+insieme da insegnanti e alunni: esse
+favoriscono la conoscenza di alcune
+tradizioni salesiane e vengono incontro al
+naturale desiderio dei bambini e dei
+ragazzi a vivere il senso della festa e
+dello stare insieme.
+•   Esperienze significative di l’educazione
+alla cittadinanza che consentano di
+apprendere il concreto prendersi cura di se
+stessi, degli altri e dell’ambiente e che
+favoriscano forme di cooperazione e
+solidarietà.
+•     Un programma di educazione alla
+prevenzione della salute orale, per aiutare
+a costruire fin da piccoli sane abitudini., di
+educazione alimentare e ambientale.
+•     Progetto Koala e Kangorou (giochi
+matematici per attivare  la logica matematica)
+•     Coding
+Attività extrascolastiche
+·  Corsi di musica: di gruppo e individuali
+Attività sportiva
+- Karate
+- Calcetto
+- Basket
+- Danza
+- Hip-hop.
+- Corso di Pilates per le mamme (2
+ore settimanali).
+
+## Progettazione
+
+
+## Organizzativa
+
+
+---
+
+## Pagina 17
+
+La Scuola Secondaria di primo grado
+accoglie ed accompagna le alunne e
+gli alunni nel delicato passaggio dalla
+fanciullezza alla preadolescenza,
+rispettandone i tempi individuali di
+maturazione; opera perché ciascuno
+possa sviluppare al meglio le
+proprie potenzialità sul piano
+intellettuale, sociale, affettivo, etico e
+creativo. Essa accresce le capacità di
+partecipazione e di contributo ai valori
+della cultura e della civiltà e costituisce,
+la premessa indispensabile per
+l’ulteriore impegno dei ragazzi nel
+secondo ciclo di istruzione e di
+formazione.
+Scuola
+secondaria
+di primo grado
+La finalità della scuola secondaria di
+primo grado è l'acquisizione delle
+conoscenze e delle abilità
+fondamentali per sviluppare le
+competenze culturali di base nella
+prospettiva del pieno sviluppo della
+persona.
+In questa prospettiva la nostra scuola
+pone particolare attenzione ai
+processi di apprendimento di tutti gli
+alunni e di ciascuno di essi, li
+accompagna nell’elaborare il senso
+della propria esperienza, promuove la
+pratica consapevole della cittadinanza
+nell’ottica della formazione del “buon
+cristiano e dell’onesto cittadino”
+(don Bosco).
+La scuola secondaria di primo grado è:
+- Scuola dell’educazione integrale
+della persona
+- Scuola che colloca nel mondo
+- Scuola orientativa
+- Scuola dell’identità
+- Scuola della motivazione del
+significato
+- Scuola della prevenzione dei disagi e
+del recupero degli svantaggi.
+
+---
+
+## Pagina 18
+
+La scuola propone situazioni e contesti in cui gli
+alunni riflettono per capire il “mondo” e se stessi,
+trovano stimoli per sviluppare il pensiero analitico e
+critico, imparano ad imparare, coltivano la fantasia
+e il pensiero originale, si confrontano per ricercare
+significati e condividere possibili schemi di
+comprensione della realtà, riflettendo sul senso e le
+conseguenze delle proprie scelte, rinforzano ed
+entrano in contatto con la propria spiritualità. Inoltre,
+favorisce lo sviluppo delle capacità necessarie per
+imparare a leggere le proprie emozioni e a gestirle e
+promuove quel primario senso di responsabilità
+che si traduce nel fare bene il proprio lavoro e nel
+portarlo a termine nel rispetto della condivisione
+comune.
+Nella scuola secondaria di primo grado si realizza
+l’accesso alle discipline come punti di vista sulla
+realtà e come modalità di conoscenza,
+interpretazione e rappresentazione del mondo.
+Le competenze sviluppate nell’ambito delle singole
+discipline concorrono a loro volta alla promozione di
+competenze più ampie e trasversali, orientate ai valori
+della convivenza civile e del bene comune, nonché
+alla riflessione etico-cristiana.
+È compito peculiare di questo ciclo scolastico porre le
+basi per l’esercizio della cittadinanza attiva e della
+sana compartecipazione alla vita pubblica e
+cristiana. Obiettivi irrinunciabili dell’educazione alla
+cittadinanza sono la costruzione del senso di
+legalità e lo sviluppo di un’etica cristiana della
+responsabilità.
+
+---
+
+## Pagina 19
+
+L'orario si articola in cinque giorni settimanali: dal lunedì al venerdì con 6 ore
+curriculari (8.00-14.00).
+A tale monte ore si aggiungono le ore pomeridiane opzionali relative ai laboratori.
+L’anno scolastico è suddiviso in due quadrimestri con la valutazione ministeriale e la
+valutazione del comportamento dell’alunno.
+La scuola, ove necessario, attiva i laboratori di “Attività di sostegno e di recupero”
+gestiti dai docenti delle discipline interessate secondo un piano personalizzato.
+Per gli alunni che parteciperanno ai laboratori di “Attività di sostegno e di recupero” è
+prevista la pausa pranzo e la ricreazione.
+La scuola offre un servizio pomeridiano di Studio assistito per cinque giorni a
+settimana.
+Per gli alunni che usufruiranno di questo servizio è previsto:
+14.00 - 14.50  Pausa Pranzo e ricreazione
+14.50- 16.50   Studio assistito
+
+## Progettazione Organizzativa
+
+
+---
+
+## Pagina 20
+
+La Scuola secondaria di primo
+grado, punta a sviluppare le diverse
+competenze quali:
+• competenza alfabetica funzionale;
+• competenza multilinguistica;
+• competenza matematica e
+competenza in scienze, tecnologie e
+ingegneria;
+• competenza digitale;
+• competenza personale, sociale e
+capacità di imparare ad imparare;
+• competenza in materia di
+cittadinanza;
+• competenza imprenditoriale;
+• competenza in materia di
+consapevolezza ed espressione
+culturali.
+Per questo propone diverse attività
+integrative di potenziamento sia
+durante l'orario curricolare che
+durante l'orario extra curriculare.
+- Progetti interdisciplinare in linea
+con i principi educativi salesiani su
+temi di cittadinanza e costituzione
+·  Cooding
+·  Preparazione
+alle olimpiadi della matematica
+- Certificazioni in lingua inglese e
+spagnolo (Trinity e Dele)
+- Corso di teatro e  allestimento di
+un musical
+- Laboratori di scienze
+- Laboratori di fimo e cake design
+- Uscite didattiche
+- Viaggi di istruzione
+Attività
+integrative
+
+---
+
+## Pagina 21
+
+La Scuola Secondaria di Secondo Grado
+“Maria Ausiliatrice” offre due indirizzi di
+studio: scientifico e delle scienze umane.
+I percorsi liceali forniscono allo studente
+“gli strumenti culturali e metodologici
+per una comprensione approfondita della
+realtà, affinché egli si ponga, con
+atteggiamento razionale, creativo,
+progettuale e critico, di fronte alle
+situazioni, ai fenomeni e ai problemi, ed
+acquisisca conoscenze, abilità e
+competenze adeguate al proseguimento
+degli studi di ordine superiore,
+all'inserimento nella vita sociale e nel
+mondo del lavoro e coerenti con le
+capacità e le scelte personali” .
+La scuola prevede il profilo educativo,
+culturale e professionale dello studente
+alla fine del secondo ciclo di istruzione.
+Per profilo Educativo, Culturale e
+Professionale si intende la definizione di
+quello che l’alunno deve essere in grado di
+fare, di sapere e di saper essere al termine
+del periodo di insegnamento e
+apprendimento.
+Il profilo è suddiviso in quattro grandi aree:
+1.  Autonomia e identità
+2.  Orientamento
+3.  Convivenza civile
+4.  Strumenti culturali
+Ogni attività, sia curricolare, sia opzionale
+che extracurricolare attivata dalla
+scuola è finalizzata alla realizzazione del
+Profilo in uscita.
+Scuola Secondaria Secondo Grado
+The idea behind
+gamification is to
+hasten the learning
+process through
+incentives and
+friendly
+competition.
+Ogni nostro profilo è descritto attraverso
+obiettivi riguardanti: conoscenze,
+abilità e competenze, comportamento.
+·  Per conoscenze intendiamo i
+saperi stabili e capitalizzabili, cioè non
+solamente posseduti dall’alunno con
+continuità, ma anche impiegabili e
+sfruttabili secondo le situazioni concrete
+nelle quali egli verrà a trovarsi. Le
+conoscenze sono disciplinari.
+·  Per abilità cognitive
+intendiamo i passi concreti, le prestazioni,
+il saper fare con riferimento a
+terzi, non semplicemente simulate in aula.
+Le abilità, in genere, sono pluridisciplinari.
+· Per competenze intendiamo il
+prodotto di una sintesi cognitiva, operativa
+ed esistenziale, in cui si integrano
+conoscenze teoriche, abilità pratiche ed
+atteggiamenti personali.
+· Per comportamento intendiamo la
+manifestazione di determinate forme di
+azione o reazione nelle varie situazioni che
+un alunno/a  è in grado di assicurare. Si
+tratta quindi di un saper fare “eticamente”
+caratterizzato.
+
+---
+
+## Pagina 22
+
+Il liceo scientifico Maria Ausiliatrice,
+secondo le linee guida tracciate dal
+fondatore Don Bosco, intende formare nella
+consapevolezza che l’educazione debba
+favorire la crescita integrale dei giovani
+come “onesti cittadini e buoni cristiani”.
+In tal senso questo Liceo  vuole preparare
+professionisti in grado di entrare nella nostra
+società con “scienza e coscienza”.
+In piena adesione alle nuove indicazioni
+ministeriali, lo scientifico si prefigge di
+approfondire il nesso tra scienza e tradizione
+umanistica, favorendo l’acquisizione delle
+conoscenze e dei metodi propri della
+matematica e delle scienze sperimentali,
+ma anche dei saperi storico-artistici
+e letterari, sviluppando le strategie più
+idonee all’integrazione fra le discipline e
+alla loro possibile aggregazione in aree.
+Al  termine del percorso lo studente avrà
+maturato le abilità-chiave necessarie per
+seguire lo sviluppo della ricerca
+scientifica e tecnologica.
+Allo stesso tempo possiederà
+anche buone competenze in ambito
+linguistico, letterario e storico-artistico.
+
+## Liceo Scientifico
+
+Lo studente, mentre studia, deve saper
+tradurre in progetto di vita quanto
+viene proposto, acquisendo le seguenti
+competenze alla fine del curricolo:
+- flessibilità e capacità di adattarsi a
+situazioni nuove;
+- lavorare in maniera autonoma e in
+gruppo;
+- interagire costruttivamente e con
+contributi personali in ambiti di
+discussione libera e guidata;
+- confrontarsi con la realtà  in chiave
+educativa;
+- confrontare la propria cultura con
+quella europea;
+- valorizzare gli apporti culturali della
+propria tradizione, cogliendoli nella
+loro evoluzione storica;
+- possedere significative competenze
+trasversali, condizione essenziale per
+la
+piena realizzazione personale e per la
+partecipazione attiva alla vita
+sociale,
+orientate ai valori della convivenza
+civile e del bene comune.
+
+---
+
+## Pagina 23
+
+Il liceo delle scienze umane Maria
+Ausiliatrice, ispirato al carisma salesiano e
+orientato, nell’applicazione pratica,
+all'esempio di amorevolezza e cura
+lasciato da Santa M. Mazzarello, intende
+seguire la formazione dei giovani favorendo
+il rispetto e la consapevolezza di un’onesta
+convivenza civile. In tal senso, questo
+liceo vuole preparare professionisti in
+grado di entrare nel sociale con
+un’adeguata preparazione nel leggere i
+bisogni dell’altro.
+Alla fine del percorso liceale lo studente:
+-  padroneggia l’esperienza di sé, dell’altro
+e  le relazioni interpersonali;
+-  conosce le forme di vita sociale e di cura
+per il bene comune;
+- si confronta in modo costruttivo con il
+mondo delle idealità e dei valori.
+- possiede una approfondita padronanza
+delle discipline e un’articolata
+organizzazione delle
+conoscenze, nella prospettiva
+dell’elaborazione di un sapere integrato.
+
+## Liceo Delle Scienze Umane
+
+Lo studente assume il ruolo di cittadino
+europeo attraverso conoscenze
+pluridisciplinari: filosofia, storia,
+letteratura e cultura cristiana.
+Infine, lo studente saprà
+utilizzare in forma flessibile i vari
+linguaggi propri delle scienze umane
+(antropologia, pedagogia, psicologia e
+sociologia), per comprendere le
+dinamiche della realtà sociale, dando
+una particolare attenzione al mondo
+dell’educazione, dei servizi alla
+persona, del lavoro e dei fenomeni
+interculturali.
+
+---
+
+## Pagina 24
+
+L’anno scolastico è suddiviso in un
+trimestre e in un pentamestre.
+La scuola attiva  laboratori di
+“sostegno, di recupero e di
+eccellenza” a partire dal mese di
+novembre, con programmazione
+specifica.
+Tali laboratori sono gestiti dai
+docenti di classe, in orario
+scolastico ed
+extrascolastico.
+
+## Progettazione Organizzativa
+
+La nostra scuola articola in cinque giorni settimanali il monte ore da dover espletare, per le
+singole classi ed istituzioni secondarie.
+Le lezioni iniziano alle ore 8.00 e terminano alle ore 14.00
+
+---
+
+## Pagina 25
+
+
+## Progettazione Organizzativa
+
+L’ORARIO SCOLASTICO ANNUALE per singole discipline è il seguente:
+Si è potenziato l’approfondimento dello studio delle lingue straniere per  porre
+le basi per la costruzione di conoscenze e confronto tra diverse culture
+privilegiando due lingue comunitarie: inglese e spagnolo.
+*Un’ora di lezione è svolta in compresenza del lettore madrelingua
+**L’ora in più di fisica sarà svolta con metodologia CLIL in compresenza tra
+docente di fisica e lettore madrelingua. Come prescrivono le indicazioni
+ministeriali riguardo la metodologia CLIL, questa ha come finalità quella di far
+acquisire contenuti disciplinari migliorando le competenze linguistiche nella lingua
+veicolare (in questo caso l’inglese), utilizzata come strumento per apprendere e
+sviluppare abilità cognitive.
+
+---
+
+## Pagina 26
+
+The idea behind
+gamification is to
+hasten the learning
+process through
+incentives and
+friendly
+competition.
+Si è potenziato l’approfondimento dello studio delle lingue straniere per
+permettere di porre le basi per la costruzione di conoscenze e confronto tra
+diverse culture privilegiando due lingue comunitarie: inglese e spagnolo.
+*Un’ora di lezione è svolta in compresenza del lettore madrelingua
+**La quarta ora di Scienze Umane sarà svolta con metodologia CLIL in
+compresenza tra docente di Scienze Umane e lettore madrelingua. Come
+prescrivono le indicazioni ministeriali riguardo la metodologia CLIL, questa ha
+come finalità quella di far acquisire contenuti disciplinari migliorando le
+competenze linguistiche nella lingua veicolare (in questo caso l’inglese), utilizzata
+come strumento per apprendere e sviluppare abilità cognitive.
+***Si è introdotta, come disciplina di studio, al biennio, la “Metodologia della
+ricerca” per potenziare lo studio  del lavoro di ricerca sulla base del metodo
+scientifico.
+
+## Progettazione Organizzativa
+
+L’ORARIO SCOLASTICO ANNUALE per singole discipline è il seguente:
+
+---
+
+## Pagina 27
+
+I percorsi per le competenze trasversali e per
+l’orientamento (PCTO)  sono un’opportunità di crescere
+insieme. Per questo la scuola predispone e monitora le
+attività attraverso un’equipe dedicata coordinata dalla
+Coordinatrice delle attività educative e didattiche.
+I PCTO si svolgono sia in orario curricolare con l’azione dei
+tutor interni, sia in orario extra curricolare, con l’azione dei
+tutor esterni.
+Le attività si svolgono con diversi enti e singoli professionisti
+con cui la scuola stipula precise convenzioni tra i quali:
+-   UniCredit Start up Your Life
+-   La Locomotiva onlus
+-   Studi legali
+-   Studi di ingegneria
+-   Studi di architettura
+-   Studi di medicina
+I PCTO sono attuati nei licei per una durata complessiva
+non inferiore a 90 ore nel secondo biennio e nel quinto anno.
+Certificazioni lingue europee:
+Trinity (ENG) Dele (ESP) Delf (FRA)
+Progetto Lauree Scientifiche (PLS) Matematica, Fisica, Chimica)
+Olimpiadi Matematica
+Olimpiadi Italiano
+Olimpiadi Filosofia
+Premi letterari
+Witness, incontro con testimoni della contemporaneità
+Laboratori: analisi del testo, scrittura creativa, giornalismo, teatro.
+Percorsi per le Competenze
+Trasversali e per l’Orientamento
+Attività opzionali
+
+---
+

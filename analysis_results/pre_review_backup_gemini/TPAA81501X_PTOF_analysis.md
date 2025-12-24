@@ -1,0 +1,67 @@
+# Analisi del PTOF TPAA81501X
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il Piano Triennale dell’Offerta Formativa (PTOF) dell’Istituto Comprensivo “Capuana‑Pardo”, plesso “Nino Atria” di Castelvetrano (codice scuola TPAA81501X), si presenta come un documento articolato che combina una descrizione dettagliata delle risorse disponibili, una programmazione didattica stratificata su tre ordini di scuola e una serie di progetti finanziati sia dal Piano Scuola 4.0 sia da fondi europei. L’istituto è composto da otto plessi distribuiti sul territorio comunale, con un totale di venti classi che accolgono 441 alunni: 73 nella scuola dell’infanzia, 141 nella primaria “Luigi Capuana”, 20 nella primaria “Nino Atria” e 207 nella secondaria di primo grado “G. Pardo”. 
+
+Le strutture sono dotate di sette laboratori con connessione internet, tra cui due laboratori informatici, un laboratorio linguistico, due laboratori musicali, due laboratori scientifici e un ambiente STEAM. L’offerta tecnologica comprende ventuno LIM e Smart‑TV, distribuiti sia nelle aule di uso generale sia in due biblioteche, e un totale di 199 postazioni di PC e tablet, di cui quarantasette sono collocate in aule non dotate di LIM. 
+
+Il PTOF prevede un investimento complessivo di € 158 184,81 per il progetto “A scuola di Futuro”, finalizzato alla trasformazione di venti ambienti di apprendimento in aule‑laboratorio con arredi modulari e dotazioni digitali avanzate. Un ulteriore finanziamento di € 16 000,00 è destinato al progetto “STEM: le competenze del futuro”, che prevede l’acquisto di robot didattici, kit di elettronica, una stampante 3D e software per la didattica digitale. Entrambi i progetti sono inseriti nel contesto del Piano Scuola 4.0 e del PNRR, con date di avvio rispettivamente dal 1 gennaio 2023 al 31 dicembre 2024 e dal 11 luglio 2022 al 6 luglio 2023. 
+
+L’offerta formativa è organizzata su tre ordini di scuola – Infanzia, Primaria e Secondaria di primo grado – e si articola in un curriculum verticale che integra le otto competenze chiave europee (alfabetizzazione, multilinguismo, competenze matematico‑scientifiche, digitali, sociali, civiche, imprenditoriali e culturali). Il documento evidenzia una forte attenzione all’inclusione, con la costituzione di un Piano di Attuazione per l’Inclusione (PAI), la definizione di Piani Educativi Individualizzati (PEI) per gli alunni con disabilità certificata e la presenza di un Gruppo Operativo di Lavoro per l’Inclusione (GLO). 
+
+### 2. Analisi Dimensionale
+
+#### 2.1 Sezione Dedicata all'Orientamento
+
+Nel PTOF non è presente una sezione autonoma intitolata “Orientamento”. Tuttavia, le attività di orientamento sono integrate all’interno dei moduli formativi destinati alle classi della scuola secondaria di primo grado. Per ciascuna delle tre classi (I, II e III) è previsto un percorso di quaranta ore, suddivise in venti ore curriculari e dieci ore extracurriculari, per un totale di trenta ore per classe. Le attività includono la partecipazione alle Giornate FAI, la presenza a manifestazioni sulla cittadinanza (diritti dell’infanzia, parità di genere, bullismo e cyber‑bullismo, tutela dei diritti umani e del patrimonio ambientale), viaggi di istruzione, visite guidate, progetti Erasmus+ e l’organizzazione di sportelli di ascolto psicologico per alunni, docenti e famiglie. Inoltre, il PTOF prevede la preparazione per gli esami di certificazione linguistica Trinity, con percorsi di listening, speaking e simulazioni d’esame, nonché attività di coding e laboratori di robotica per sviluppare il pensiero computazionale.
+
+#### 2.2 Partnership e Reti
+
+Le collaborazioni dell’istituto sono numerose e variegate, riflettendo una strategia di rete che coinvolge enti educativi, culturali, sportivi e sanitari. Tra le reti più rilevanti figura la rete Trinity College of London, che consente agli studenti di sostenere gli esami di certificazione linguistica e di accedere a risorse didattiche condivise. La rete “Ri_Medi@ 10.0” è dedicata alla formazione del personale, mentre convenzioni con associazioni culturali e sportive – tra cui A.S.D. “Non solo vela”, KIWANIS, Lions Club, Rotary, l’Associazione sportiva “Si Volley” e la Croce Rossa Italiana – permettono lo scambio di buone pratiche e l’organizzazione di attività extracurriculari. 
+
+L’istituto collabora inoltre con l’ASP di Trapani per la sicurezza stradale, con il CONI per le attività sportive, con le università di Palermo, Messina, Enna e Roma, nonché con il progetto Almalaurea, creando un ampio ventaglio di opportunità di formazione e ricerca. Altre reti tematiche includono AIAS, Athletes Academy, la rete “Azione contro il Cyberbullismo” e la rete “Alleanze educative: una rete contro la dispersione scolastica”. Queste partnership consentono lo scambio di risorse, la condivisione di metodologie innovative e la realizzazione di progetti congiunti, come “A scuola di Futuro” e le iniziative di “Educazione alla cittadinanza digitale”.
+
+#### 2.3 Finalità e Obiettivi
+
+Le finalità del PTOF sono espresse in modo dettagliato e collegano le priorità del Piano di Azione per la Scuola (PAV) con le esigenze del territorio. Tra gli obiettivi principali vi è il consolidamento e il potenziamento delle competenze linguistiche (italiano e inglese) e matematico‑scientifiche, con l’intento di aumentare del 3 % i risultati delle prove INVALSI rispetto all’anno precedente. Parallelamente, il documento prevede di incrementare del 5 % la percentuale di alunni delle classi uscenti che raggiungono il livello A nelle competenze sociali e civiche, e di migliorare del 3 % il giudizio “Ottimo” di comportamento. 
+
+Altri obiettivi includono lo sviluppo di una cittadinanza attiva e responsabile, la promozione della sostenibilità ambientale, l’autonomia e la capacità di problem solving, nonché la valorizzazione delle competenze imprenditoriali e culturali. Il PTOF sottolinea inoltre l’importanza di una transizione ecologica e culturale, con attività legate all’Agenda 2030, in particolare gli obiettivi 4 (istruzione di qualità), 13 (lotta ai cambiamenti climatici) e 15 (uso sostenibile degli ecosistemi). 
+
+#### 2.4 Governance e Azioni di Sistema
+
+L’organizzazione scolastica è descritta con grande dettaglio. Al vertice troviamo il Dirigente Scolastico, affiancato dal Docente Collaboratore Vicario, responsabile della gestione amministrativa e della coordinazione dei docenti in assenza del dirigente. Il Responsabile di plesso, l’Animatore digitale, il Coordinatore dell’Educazione Civica e i referenti per sicurezza, bullismo, COVID‑19, continuità e orientamento costituiscono il nucleo operativo. 
+
+Il modello organizzativo prevede la suddivisione in sei dipartimenti (Umanistico, Lingue straniere, Matematico‑scientifico‑tecnologico, Antropologico, Linguaggi non verbali, Integrazione e inclusione) e la creazione di gruppi di lavoro (GLI, GLO, GLO‑DSA) per la gestione dell’inclusione. La scuola ha istituito un Piano di Attuazione per l’Inclusione (PAI) e un Gruppo Operativo di Lavoro per l’Inclusione (GLO), con la partecipazione di docenti curricolari, docenti di sostegno, personale ATA, specialisti ASL, associazioni, famiglie e rappresentanti degli enti locali. 
+
+Il piano di formazione del personale docente prevede percorsi di Formazione Digitale, Formazione Linguistica (per la certificazione Trinity), Innovazione metodologica, Scuola Inclusiva, Tecniche di Primo Soccorso e Competenze Socio‑Emotive. Le attività si svolgono attraverso laboratori, workshop, peer review e comunità di pratiche, coinvolgendo anche reti esterne di formazione. Per il personale ATA sono previsti corsi di Primo Soccorso e di gestione dello stress lavoro correlato. 
+
+#### 2.5 Didattica Orientativa
+
+La didattica orientativa è caratterizzata da un approccio interdisciplinare e da metodologie attive. Il PTOF prevede laboratori orientativi denominati “Didattica dell’Antico”, “Matematico‑Tecno/Logico”, “Potenziamento delle lingue straniere” e “Coreutico‑musicale‑sportivo”, tutti inseriti nella programmazione interdipartimentale verticale. L’integrazione del curriculum STEAM è evidente nei progetti “STEM: le competenze del futuro” e “A scuola di Futuro”, dove gli alunni sono chiamati a progettare, realizzare e presentare prodotti digitali o artefatti fisici. 
+
+Le metodologie includono il project‑based learning, la gamification (ad esempio nei pavimenti interattivi della scuola dell’infanzia), il coding unplugged e plugged, l’uso di LIM e Smart‑TV, la didattica digitale integrata (DDI) con piattaforme Google Workspace for Education e Axios, e l’applicazione del CLIL (Content Language Integrated Learning) per le discipline linguistiche. Il documento prevede inoltre l’adozione del BYOD (Bring Your Own Device) a partire dalla secondaria di primo grado, per favorire l’uso consapevole dei dispositivi personali. 
+
+#### 2.6 Opportunità Formative
+
+Le opportunità formative offerte dal PTOF sono molteplici. Il progetto “A scuola di Futuro” prevede la trasformazione di venti ambienti di apprendimento in aule‑laboratorio, con arredi modulari e dotazioni tecnologiche avanzate. Il progetto “STEM: le competenze del futuro” fornisce robot didattici, kit di elettronica, una stampante 3D e software per la didattica digitale, con particolare attenzione alla programmazione e al pensiero computazionale. 
+
+I percorsi “Ready with Trinity” e “Learn more with Trinity” accompagnano gli studenti verso la certificazione linguistica Trinity, con attività di listening, speaking e simulazioni d’esame. Il progetto “Miglior Lettore” e le attività della biblioteca scolastica incentivano la lettura e la produzione di contenuti multimediali. Altre iniziative includono il progetto “Bimboil” per l’educazione alimentare, il progetto “Musica Maestro” per lo sviluppo delle competenze musicali, il progetto “Natale Insieme” per la valorizzazione delle tradizioni culturali, il progetto “Scuola Attiva Junior” per la promozione di sport come basket e atletica leggera, e il progetto “Agenda Sud – Obiettivo Smile” volto a contrastare la dispersione scolastica e a rafforzare l’autostima degli alunni. 
+
+Le attività di transizione ecologica comprendono il progetto “Edugreen”, la realizzazione del “Villaggio della Protezione Civile” e l’iniziativa “AVANTI INSIEME”, che mirano a sensibilizzare gli alunni alla raccolta differenziata, al riuso dei materiali e alla conoscenza dei rischi naturali e antropici. 
+
+#### 2.7 Registro Dettagliato delle Attività
+
+Il PTOF fornisce un registro dettagliato delle attività didattiche e orarie. Nella scuola dell’infanzia, il quadro orario prevede quaranta ore settimanali per ciascun plesso. Nella primaria, le ore settimanali variano da ventisette a trenta, con un monte ore annuale che supera i trecento per le discipline principali. Nella secondaria di primo grado, il monte ore annuale comprende 297 ore per italiano, storia e geografia, 198 ore per matematica e scienze, 66 ore per tecnologia, 99 ore per inglese, 66 ore per seconda lingua comunitaria, 66 ore per arte e immagine, 66 ore per scienze motorie e sportive, oltre a ore dedicate a musica, religione e attività di approfondimento. 
+
+Le dotazioni tecnologiche sono descritte con precisione: ventuno LIM e Smart‑TV, di cui dodici sono collocati nelle biblioteche, 199 postazioni di PC e tablet, di cui quarantasette sono distribuite in aule non dotate di LIM. I laboratori comprendono due informatici, uno linguistico, due musicali, due scientifici e un ambiente STEAM. Le attività extracurriculari sono quantificate in termini di ore curriculari ed extracurriculari per ciascun modulo di orientamento, e le iniziative di transizione ecologica sono programmate su base annuale con obiettivi di raccolta differenziata, riduzione degli sprechi e sensibilizzazione sulla protezione civile. 
+
+### 3. Punti di Forza
+
+Il PTOF del plesso “Nino Atria” si distingue per la coerenza tra gli obiettivi strategici, le risorse disponibili e le azioni concrete. La presenza di un quadro orario ben definito, la dotazione tecnologica capillare (LIM, PC, tablet, laboratori) e la varietà di progetti finanziati (A scuola di Futuro, STEM, Trinity, Bimboil, Musica Maestro) garantiscono un’offerta formativa ampia e diversificata. L’attenzione all’inclusione, espressa attraverso il PAI, i PEI, il GLO e la presenza di figure dedicate (assistente educativo culturale, assistenti alla comunicazione) permette di rispondere alle esigenze di alunni con disabilità o BES. La rete di partnership, che coinvolge università, enti sanitari, associazioni sportive e culturali, arricchisce l’esperienza scolastica e favorisce la continuità tra scuola e territorio. Infine, la programmazione di attività di transizione ecologica e di cittadinanza digitale dimostra un impegno verso gli obiettivi dell’Agenda 2030. 
+
+### 4. Aree di Debolezza
+
+Nonostante la ricchezza di risorse, il PTOF segnala alcune criticità. Gli spazi dedicati alle attività di sostegno non sono sempre sufficienti o adeguatamente attrezzati, e la mancanza di un mediatore culturale per gli alunni stranieri neo‑arrivati limita l’efficacia dell’accoglienza. Inoltre, la nomina tardiva degli assistenti all’autonomia e comunicazione è indicata come un limite che può compromettere il diritto allo studio di alcuni alunni con disabilità. La dipendenza da finanziamenti esterni (FSE, PON) per la copertura di molte dotazioni tecniche rende vulner

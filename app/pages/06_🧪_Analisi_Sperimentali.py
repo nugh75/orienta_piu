@@ -186,8 +186,19 @@ if all(c in df.columns for c in target_cols):
     # Hide the colorbar as it shows numbers
     fig_flow.update_layout(coloraxis_showscale=False)
     
-    fig_flow.update_layout(height=600, margin=dict(l=20, r=20, t=40, b=20))
-    st.plotly_chart(fig_flow, use_container_width=True)
+    # Improve readability
+    fig_flow.update_traces(
+        labelfont=dict(size=24, color="black", family="Arial Black"), # Bigger and bolder headers
+        tickfont=dict(size=18, color="black"),   # Bigger category labels
+    )
+    
+    # Layout più largo e con margini laterali maggiori per evitare il taglio delle etichette
+    fig_flow.update_layout(width=1000, height=1000, margin=dict(l=150, r=150, t=60, b=20))
+    
+    # Centering using columns
+    col1, col2, col3 = st.columns([1, 10, 1])
+    with col2:
+        st.plotly_chart(fig_flow, use_container_width=False)
 
 else:
     st.warning("Dati mancanti per generare il grafico dei flussi (Area, Tipo o Indice).")

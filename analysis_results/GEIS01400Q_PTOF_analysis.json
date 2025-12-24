@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "school_id": "GEIS01400Q",
+    "denominazione": "I.S. I. Calvino",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Borzoli 21",
+    "cap": "16153",
+    "email": "geis01400q@istruzione.it",
+    "pec": "geis01400q@pec.istruzione.it",
+    "website": "www.calvino.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione è ben definita e dedicata all'orientamento, con una descrizione dettagliata delle attività PCTO."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Rete Istituti Tecnici Genova-TecnOrientarsi",
+        "Rete Scuole del Ponente",
+        "Scuola Polo provinciale LSSA",
+        "WeDebate",
+        "Movimento Avanguardie Educative",
+        "Rete Nazionale di Robotica Educativa",
+        "Rete metropolitana per l’orientamento e il contrasto alla dispersione scolastica",
+        "Rete Ligure scuole che promuovono la salute",
+        "Associazioni no profit del Municipio",
+        "Biblioteche Civiche",
+        "Ja ITALIA",
+        "Educazione Digitale",
+        "Seniores Liguria",
+        "RAI WAY",
+        "Consorzio ELIS",
+        "Autostrade per l'Italia",
+        "MIUR",
+        "Enti ed associazioni culturali",
+        "Città metropolitana di Genova",
+        "Servizio e Formazione Professionale della Città Metropolitana",
+        "ASL",
+        "Servizi Socio Sanitari",
+        "Enti specializzati",
+        "Polizia Postale",
+        "Università degli Studi di Genova",
+        "Istituto Italiano di Tecnologia",
+        "COMAU",
+        "CISCO",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Altre associazioni o cooperative"
+      ],
+      "partnership_count": 32
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "valorizzazione delle diversità",
+        "evidence_location": "Pagina 102"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "monitoraggio dei PEI",
+        "evidence_location": "Pagina 98"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "contributo a ridurre l’abbandono scolastico",
+        "evidence_location": "Pagina 119"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "preparare gli studenti alla scelta dell'indirizzo di studio successivo",
+        "evidence_location": "Pagina 146"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "sviluppo competenze imprenditoriali",
+        "evidence_location": "Pagina 41"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Ja ITALIA Idee in Azione",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Percorso di educazione imprenditoriale con costituzione di team e sviluppo di business canvas.",
+      "5w_chi": "Classi terze",
+      "5w_cosa": "Sviluppo competenze imprenditoriali e cittadinanza attiva.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale, 20-30 ore",
+      "5w_perche": "Sviluppo competenze imprenditoriali",
+      "ore_dichiarate": "20-30",
+      "target": "Classi terze",
+      "evidence_quote": "sviluppo delle competenze imprenditoriali",
+      "evidence_location": "Pagina 41"
+    },
+    {
+      "titolo_attivita": "Calvino Academy",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Corsi di Logica, Matematica, Robotica, Web attack, Informatica, Cisco, etc.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Preparazione a gare e sviluppo competenze specifiche.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Preparazione a competizioni e approfondimento",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "preparazione alle gare",
+      "evidence_location": "Pagina 42"
+    },
+    {
+      "titolo_attivita": "Educazione digitale",
+      "categoria_principale": "Percorsi",
+      "descrizione_e_metodologia": "Percorsi professionalizzanti in diversi ambiti.",
+      "5w_chi": "Classi quarte e quinte",
+      "5w_cosa": "Sviluppo competenze trasversali.",
+      "5w_dove": "Online/Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo competenze",
+      "ore_dichiarate": "ND",
+      "target": "Classi quarte e quinte",
+      "evidence_quote": "attività professionalizzanti",
+      "evidence_location": "Pagina 45"
+    },
+    {
+      "titolo_attivita": "Seniores Liguria ODV",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Supporto all'orientamento con volontari esperti.",
+      "5w_chi": "Classi quinte",
+      "5w_cosa": "Simulazione colloqui di lavoro.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Orientamento al mondo del lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Classi quinte",
+      "evidence_quote": "simulazione colloqui",
+      "evidence_location": "Pagina 46"
+    },
+    {
+      "titolo_attivita": "Progetto Rai Way S.p.A.",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso triennale con attività in azienda.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Formazione e job shadowing.",
+      "5w_dove": "Sedi Rai Way",
+      "5w_quando": "Triennale",
+      "5w_perche": "Avvicinamento al mondo del lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "formazione in azienda",
+      "evidence_location": "Pagina 47"
+    },
+    {
+      "titolo_attivita": "Progetto Autostrade per l'Italia",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorso formativo con Autostrade per l'Italia per orientare gli studenti alle discipline STEM.",
+      "5w_chi": "Studenti classe 5°",
+      "5w_cosa": "Eventi di presentazione, testimonianze aziendali, stage.",
+      "5w_dove": "Autostrade per l'Italia, scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Orientamento STEM, consapevolezza delle scelte formative.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 5°",
+      "evidence_quote": "facilitare l'orientamento degli studenti alle discipline STEM",
+      "evidence_location": "Pagina 49"
+    },
+    {
+      "titolo_attivita": "Stage presso Dipartimenti Universitari",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage presso diverse strutture universitarie.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività concordate con le strutture ospitanti.",
+      "5w_dove": "Università degli Studi di Genova",
+      "5w_quando": "Annuale",
+      "5w_perche": "Esperienza universitaria, orientamento.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Stage presso diversi Dipartimenti Universitari",
+      "evidence_location": "Pagina 50"
+    },
+    {
+      "titolo_attivita": "Automazione di un microscopio a fluorescenza",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Sviluppo di un prototipo con una start-up dell'Istituto Italiano di Tecnologia.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Automazione di un microscopio per case farmaceutiche.",
+      "5w_dove": "Istituto Italiano di Tecnologia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Applicazione pratica delle competenze, contesto aziendale.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "automazione del sistema",
+      "evidence_location": "Pagina 51"
+    },
+    {
+      "titolo_attivita": "Patentino della Robotica",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "Corso di programmazione di bracci robotici COMAU.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Programmazione bracci robotici.",
+      "5w_dove": "Struttura ospitante",
+      "5w_quando": "Annuale",
+      "5w_perche": "Competenze professionali, certificazione.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "programmazione di bracci robotici della COMAU",
+      "evidence_location": "Pagina 54"
+    },
+    {
+      "titolo_attivita": "CISCO Academy",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "Corsi e-learning CISCO con certificazioni.",
+      "5w_chi": "Studenti, personale scolastico",
+      "5w_cosa": "Corsi di networking e cybersecurity.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Annuale",
+      "5w_perche": "Competenze digitali, inserimento lavorativo.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "corsi della piattaforma e-learning di CISCO",
+      "evidence_location": "Pagina 55"
+    },
+    {
+      "titolo_attivita": "Collaborazione con enti locali e terzo settore",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Coinvolgimento di enti locali e terzo settore per favorire l'inclusione e il successo formativo.",
+      "5w_chi": "Alunni di lingua non italiana, famiglie, mediatori culturali",
+      "5w_cosa": "Acquisizione delle competenze di letto-scrittura, inclusione sociale e scolastica.",
+      "5w_dove": "Scuola, territorio",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Favorire l'inclusione e il successo formativo degli alunni.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte parallele",
+      "evidence_quote": "inclusione sociale e scolastica",
+      "evidence_location": "Pagina 74"
+    },
+    {
+      "titolo_attivita": "Certificazioni Lingua Inglese",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "Offerta di corsi per il conseguimento di certificazioni linguistiche (PET, FCE, CAE).",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Preparazione e sostenimento degli esami di certificazione.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Acquisire competenze linguistiche spendibili nel mondo del lavoro e riconosciute a livello universitario.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": "conseguimento del livello B1 per il PET, B2 per il FCE e C1 per il CAE",
+      "evidence_location": "Pagina 75"
+    },
+    {
+      "titolo_attivita": "Lo sport di tutti",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Affiancamento al gruppo sportivo scolastico per l'inclusione di alunni con disabilità.",
+      "5w_chi": "Alunni con disabilità",
+      "5w_cosa": "Partecipazione alle attività sportive scolastiche e ai campionati regionali.",
+      "5w_dove": "Strutture sportive (calcetto, palestra, piscina)",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Promuovere l'inclusione scolastica e sportiva.",
+      "ore_dichiarate": "ND",
+      "target": "Altro",
+      "evidence_quote": "inclusione scolastica e sportiva",
+      "evidence_location": "Pagina 75"
+    },
+    {
+      "titolo_attivita": "\"La scuola per tutti\" - Progetto di COMODATO D’USO",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Fornitura di libri di testo e materiale didattico a studenti in difficoltà economica.",
+      "5w_chi": "Studenti in difficoltà economica",
+      "5w_cosa": "Fornitura di libri di testo e materiale didattico.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Garantire il diritto allo studio.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte parallele",
+      "evidence_quote": "Garantire il diritto allo studio a tutte le studentesse e a tutti gli studenti.",
+      "evidence_location": "Pagina 76"
+    },
+    {
+      "titolo_attivita": "RepairClub",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riparazione di dispositivi elettronici per applicare competenze pratiche e sviluppare il problem solving.",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Riparazione di dispositivi elettronici.",
+      "5w_dove": "Laboratorio di elettronica",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Applicare conoscenze teoriche, sviluppare competenze di problem solving e sensibilizzare al riciclo.",
+      "ore_dichiarate": "ND",
+      "target": "Gruppi classe",
+      "evidence_quote": "valorizzazione degli studenti più motivati",
+      "evidence_location": "Pagina 78"
+    },
+    {
+      "titolo_attivita": "Orientamento in ingresso",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Incontri conoscitivi e di orientamento con scuole medie per presentare l'offerta formativa dell'istituto.",
+      "5w_chi": "Studenti delle scuole medie, famiglie",
+      "5w_cosa": "Presentazione dell'offerta formativa e delle competenze necessarie.",
+      "5w_dove": "I.S. I. Calvino",
+      "5w_quando": "Anno scolastico 2022-2025",
+      "5w_perche": "Favorire iscrizioni consapevoli e motivate.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": "accompagnare gli studenti nella scelta consapevole del proprio percorso scolastico e formativo.",
+      "evidence_location": "Pagina 79"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento in entrata",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Incontri conoscitivi e di orientamento con scuole di provenienza",
+      "5w_chi": "Docenti di sostegno, studenti delle scuole medie",
+      "5w_cosa": "Presentazione dell'offerta formativa e attività di accoglienza",
+      "5w_dove": "I.I.S. I. Calvino",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Favorire il passaggio di ciclo e l'integrazione",
+      "ore_dichiarate": "ND",
+      "target": "Studenti in entrata",
+      "evidence_quote": "progetti “ponte” di orientamento",
+      "evidence_location": "Pagina 108"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Esperienze di stage in aziende e enti del territorio",
+      "5w_chi": "Studenti del biennio e del quinto anno",
+      "5w_cosa": "Svolgimento di attività pratiche in contesti lavorativi",
+      "5w_dove": "Aziende ed enti del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Acquisire competenze professionali e orientarsi nel mondo del lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Studenti del biennio e del quinto anno",
+      "evidence_quote": "PCTO",
+      "evidence_location": "Pagina 100"
+    },
+    {
+      "titolo_attivita": "Rete Nazionale di Robotica Educativa",
+      "categoria_principale": "Rete/Progetto",
+      "descrizione_e_metodologia": "Partecipazione a una rete per l'innovazione didattica e l'utilizzo della robotica educativa.",
+      "5w_chi": "Docenti e studenti",
+      "5w_cosa": "Sperimentazione di pratiche innovative con la robotica.",
+      "5w_dove": "Scuola",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Ripensare l'organizzazione della didattica e promuovere l'innovazione.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "ripensare l’organizzazione della didattica",
+      "evidence_location": "Pagina 143"
+    },
+    {
+      "titolo_attivita": "Rete Scuola-Cel contro la dispersione",
+      "categoria_principale": "Rete/Progetto",
+      "descrizione_e_metodologia": "Collaborazione con enti e servizi territoriali per prevenire l'abbandono scolastico.",
+      "5w_chi": "Studenti a rischio di dispersione, docenti, enti territoriali",
+      "5w_cosa": "Percorsi paralleli scuola-centro di educazione al lavoro.",
+      "5w_dove": "Scuola e centri di educazione al lavoro",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Prevenire l'abbandono scolastico e favorire l'integrazione.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti a rischio",
+      "evidence_quote": "prevenire l'abbandono scolastico",
+      "evidence_location": "Pagina 148"
+    },
+    {
+      "titolo_attivita": "Rete Metropolitana per l'Orientamento e il Contrasto alla Dispersione",
+      "categoria_principale": "Rete/Progetto",
+      "descrizione_e_metodologia": "Creazione di una rete per l'orientamento degli studenti alla fine del primo ciclo di studi.",
+      "5w_chi": "Studenti di I e II grado, docenti.",
+      "5w_cosa": "Incontri tra studenti del triennio e scuole medie per fornire informazioni.",
+      "5w_dove": "Scuole medie e superiori",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Evitare il trasferimento scolastico e l'abbandono.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti di I e II grado",
+      "evidence_quote": "realizzare iniziative per una più efficace azione di orientamento",
+      "evidence_location": "Pagina 149"
+    },
+    {
+      "titolo_attivita": "Rete Scuole Liguri che Promuovono la Salute",
+      "categoria_principale": "Rete/Progetto",
+      "descrizione_e_metodologia": "Promozione di stili di vita sani e ambienti favorevoli all'interno della comunità scolastica.",
+      "5w_chi": "Studenti, docenti, personale scolastico.",
+      "5w_cosa": "Iniziative per la salute e il benessere.",
+      "5w_dove": "Scuola",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Migliorare e proteggere la salute all'interno della comunità scolastica.",
+      "ore_dichiarate": "ND",
+      "target": "Tutta la comunità scolastica",
+      "evidence_quote": "promuovere stili di vita sani e attivi",
+      "evidence_location": "Pagina 150"
+    },
+    {
+      "titolo_attivita": "Convenzioni di tirocinio curricolare con UNIGE",
+      "categoria_principale": "Convenzione/Stage",
+      "descrizione_e_metodologia": "Tirocini curriculari con l'Università di Genova.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze di tirocinio.",
+      "5w_dove": "Università di Genova",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Collegamento tra scuola e università.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "nessuna citazione specifica",
+      "evidence_location": "Pagina 151"
+    },
+    {
+      "titolo_attivita": "Mobility Manager",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Consapevolezza che le iniziative scolastiche influiscono sul trasporto pubblico e sulle scelte di mobilità.",
+      "5w_chi": "Studenti, personale scolastico",
+      "5w_cosa": "Verifica soluzioni per il miglioramento degli spostamenti.",
+      "5w_dove": "Territorio",
+      "5w_quando": "Annuale",
+      "5w_perche": "Migliorare la mobilità sostenibile.",
+      "ore_dichiarate": "ND",
+      "target": "Tutta la comunità scolastica",
+      "evidence_quote": "Iniziative scolastiche influiscono sul trasporto pubblico",
+      "evidence_location": "Pag. 122"
+    },
+    {
+      "titolo_attivita": "Referente per il riorientamento",
+      "categoria_principale": "Servizio",
+      "descrizione_e_metodologia": "Raccolta informazioni, colloqui con famiglie e studenti, supporto nella ridefinizione del cammino formativo.",
+      "5w_chi": "Studenti a rischio, famiglie",
+      "5w_cosa": "Offrire percorsi alternativi.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Prevenire l'abbandono scolastico.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti a rischio",
+      "evidence_quote": "Possibili percorsi alternativi",
+      "evidence_location": "Pag. 124"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEIS01400Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF 2022-2025 dell'I.S. I. Calvino (GEIS01400Q) presenta un approccio all'orientamento ben strutturato e integrato nella sua offerta formativa. La scuola, situata nel territorio metropolitano di Genova, dimostra un forte impegno nel contrasto alla dispersione scolastica, nella preparazione degli studenti alle transizioni formative e nello sviluppo delle loro capacità orientative e imprenditoriali. L'istituto si avvale di una vasta rete di **partnership** con enti locali, università, aziende e associazioni, che arricchiscono l'offerta formativa e offrono agli studenti opportunità concrete di orientamento e di esperienza nel mondo del lavoro. La sezione dedicata all'orientamento è valutata con un punteggio massimo di 5, evidenziando la chiarezza e la completezza della sua definizione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento, con una descrizione dettagliata delle attività **PCTO**, è un elemento distintivo del PTOF.\n\n**2.2 Partnership:** L'I.S. I. Calvino vanta un numero significativo di **partnership** (32), tra cui la **Rete Istituti Tecnici Genova-TecnOrientarsi**, la **Rete Scuole del Ponente**, la **Scuola Polo provinciale LSSA**, **WeDebate**, il **Movimento Avanguardie Educative**, la **Rete Nazionale di Robotica Educativa**, la **Rete metropolitana per l’orientamento e il contrasto alla dispersione scolastica**, la **Rete Ligure scuole che promuovono la salute**, e collaborazioni con **Ja ITALIA**, **Educazione Digitale**, **Seniores Liguria**, **RAI WAY**, **Consorzio ELIS**, **Autostrade per l'Italia**, **MIUR**, **Università degli Studi di Genova** e **Istituto Italiano di Tecnologia**. Questa fitta rete di collaborazioni testimonia l'impegno della scuola nell'ampliare le opportunità per i propri studenti.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e mirate. La scuola pone l'accento sulla **valorizzazione delle diversità**, sul **monitoraggio dei PEI**, sul contributo a **ridurre l’abbandono scolastico**, sulla preparazione degli studenti alla scelta dell'indirizzo di studio successivo e sullo **sviluppo competenze imprenditoriali**. Tutti questi aspetti sono valutati con punteggi elevati (4 o 5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e pertinenti. La scuola si propone di **ridurre l’abbandono** scolastico, garantire la **continuità territoriale**, **contrastare i NEET** e promuovere il **lifelong learning**. Tutti gli obiettivi ricevono un punteggio di 5, indicando un forte impegno della scuola in questa direzione.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate e coordinate. Particolare attenzione è rivolta al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori** e al **sistema integrato inclusione-fragilità**, tutte azioni valutate con punteggi elevati (5 o 6). Il **monitoraggio delle azioni** risulta leggermente meno sviluppato, con un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi e coinvolgenti, come l'apprendimento dall'esperienza degli studenti, la didattica laboratoriale e la flessibilità degli spazi e dei tempi. L'approccio interdisciplinare, sebbene presente, risulta meno sviluppato rispetto agli altri aspetti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte valutate positivamente.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza della sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella definizione di finalità e obiettivi ambiziosi e pertinenti, nella strutturazione delle azioni di sistema e nell'adozione di approcci didattici innovativi. L'impegno della scuola nel contrasto alla dispersione scolastica e nella promozione del **lifelong learning** è particolarmente apprezzabile. Attività come **Ja ITALIA Idee in Azione**, **Calvino Academy**, **Educazione digitale**, **Seniores Liguria ODV**, **Progetto Rai Way S.p.A.**, **Progetto Autostrade per l'Italia**, gli **Stage presso Dipartimenti Universitari** e l'iniziativa **Automazione di un microscopio a fluorescenza** rappresentano esempi concreti di come la scuola si impegna a offrire agli studenti opportunità di orientamento e di esperienza nel mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere il **monitoraggio delle azioni** intraprese, che ottiene un punteggio leggermente inferiore rispetto alle altre dimensioni. Inoltre, l'approccio interdisciplinare nella didattica orientativa potrebbe essere ulteriormente sviluppato.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di integrazione tra le diverse dimensioni dell'orientamento. Tuttavia, sarebbe opportuno rafforzare il sistema di monitoraggio delle azioni per valutarne l'efficacia e apportare eventuali correzioni. Inoltre, un maggiore focus sull'interdisciplinarità potrebbe arricchire ulteriormente l'offerta formativa.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.S. I. Calvino dimostra un forte impegno nell'orientamento e nella preparazione degli studenti al futuro. La scuola si avvale di una vasta rete di **partnership** e di approcci didattici innovativi per offrire agli studenti opportunità concrete di orientamento e di esperienza nel mondo del lavoro. Pur presentando alcune aree di debolezza, il PTOF è complessivamente ben strutturato e coerente con le finalità dell'istituto. L'attenzione alla **prevenzione della dispersione scolastica** e alla promozione del **lifelong learning** rappresenta un valore aggiunto significativo."
+}

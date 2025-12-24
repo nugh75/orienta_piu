@@ -120,6 +120,20 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
                 time.sleep(wait_time)
             
             else:
+                # Gestione errore Privacy/Data Policy
+                try:
+                    err_json = response.json()
+                    err_msg = err_json.get("error", {}).get("message", "")
+                    if "data policy" in err_msg:
+                        logger.error(f"❌ ERRORE PRIVACY OPENROUTER: {err_msg}")
+                        logger.error("   SOLUZIONE: Vai su https://openrouter.ai/settings/privacy")
+                        logger.error("   1. DISATTIVA 'ZDR Endpoints Only'")
+                        logger.error("   2. ATTIVA 'Enable free endpoints that may train on inputs'")
+                        logger.error("   3. ATTIVA 'Enable free endpoints that may publish prompts'")
+                        return None # Inutile riprovare
+                except:
+                    pass
+
                 logger.error(f"❌ Errore API {response.status_code}: {response.text}")
                 time.sleep(10)
                 
@@ -158,6 +172,7 @@ ISTRUZIONI OPERATIVE:
 4. NON CANCELLARE le sezioni esistenti. Mantieni i titoli e la struttura.
 5. NON INVENTARE nulla. Usa solo informazioni presenti nel PTOF.
 6. Se il report è troppo generico, rendilo più specifico citando il testo originale.
+7. CONTROLLO SEZIONE ORIENTAMENTO: Se nel PTOF originale NON esiste un capitolo dedicato all'Orientamento, NON inventarlo e NON scrivere che esiste nella sezione "2.1 Sezione Dedicata". Sii onesto sulla sua assenza.
 
 IMPORTANTE - STRUTTURA OBBLIGATORIA DA PRESERVARE:
 Il report finale DEVE contenere ESATTAMENTE questi titoli (non tradurli, non cambiarli):

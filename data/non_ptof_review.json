@@ -180,5 +180,81 @@
       "/Users/danieledragoni/git/LIste/ptof_md/FREE830013_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "BAEE027053",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BAEE027053_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 4 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T10:28:35.271318",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/BAEE027053_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/BAEE027053_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/BAEE027053_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "BAIC89400E",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BAIC89400E_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 4 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T10:28:36.408665",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/BAIC89400E_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/BAIC89400E_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/BAIC89400E_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "AGIS00100X",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATT\u00c3\u0152_AGIS00100X.pdf",
+    "result": "not_ptof",
+    "reason": "Bassa confidenza euristica (0.00)",
+    "confidence": 0.0,
+    "timestamp": "2025-12-24T11:40:51.975135",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/AGIS00100X_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/AGIS00100X_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/AGIS00100X_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "AGIS00100X",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CANICATT\u00c3\u0152_AGIS00100X_20251224_114051.pdf",
+    "result": "not_ptof",
+    "reason": "Bassa confidenza euristica (0.00)",
+    "confidence": 0.0,
+    "timestamp": "2025-12-24T11:41:39.295186",
+    "removed_paths": [],
+    "action": "removed"
+  },
+  {
+    "school_code": "VTEE820019",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VTEE820019_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (circolare: Il testo \u00e8 un atto di indirizzo del dirigente scolastico per l'aggiornamento annuale del PTOF, non il PTOF stesso. Manca la parte sostanziale del piano formativo.)",
+    "confidence": 0.13000000000000003,
+    "timestamp": "2025-12-24T11:47:24.639856",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/VTEE820019_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/VTEE820019_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/VTEE820019_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "VTEE820019",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/VTEE820019_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico per l'aggiornamento annuale del PTOF, non il PTOF stesso. Manca la parte sostanziale del piano formativo.)",
+    "confidence": 0.15999999999999998,
+    "timestamp": "2025-12-24T11:48:06.117903",
+    "removed_paths": [],
+    "action": "removed"
   }
 ]
