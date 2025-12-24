@@ -371,10 +371,10 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
             if pd.isna(row['lat']) or pd.isna(row['lon']):
                 reg = row.get('regione', '')
                 coords = REGION_COORDS.get(reg, (42.0, 12.5))
-                # Add jitter for fallback
+                # Add jitter for fallback (reduced to 0.05)
                 import numpy as np
-                top_schools.at[idx, 'lat'] = coords[0] + np.random.uniform(-0.1, 0.1)
-                top_schools.at[idx, 'lon'] = coords[1] + np.random.uniform(-0.1, 0.1)
+                top_schools.at[idx, 'lat'] = coords[0] + np.random.uniform(-0.05, 0.05)
+                top_schools.at[idx, 'lon'] = coords[1] + np.random.uniform(-0.05, 0.05)
     else:
         # Fallback to region center + jitter
         top_schools['lat'] = top_schools['regione'].map(lambda x: REGION_COORDS.get(x, (42.0, 12.5))[0])
@@ -383,8 +383,9 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
         # Add slight random offset to avoid overlap (within same region)
         import numpy as np
         np.random.seed(42)
-        top_schools['lat'] = top_schools['lat'] + np.random.uniform(-0.5, 0.5, len(top_schools))
-        top_schools['lon'] = top_schools['lon'] + np.random.uniform(-0.5, 0.5, len(top_schools))
+        # Reduced jitter from 0.5 to 0.1
+        top_schools['lat'] = top_schools['lat'] + np.random.uniform(-0.1, 0.1, len(top_schools))
+        top_schools['lon'] = top_schools['lon'] + np.random.uniform(-0.1, 0.1, len(top_schools))
     
     # Prepare tipo_scuola for color (take first type if multiple)
     if 'tipo_scuola' in top_schools.columns:
@@ -512,10 +513,11 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
                     lambda x: REGION_COORDS.get(x, (42.0, 12.5))[1]
                 )
                 
-                # Add slight offset to avoid overlap
+                # Add slight offset to avoid overlap (reduced to keep within region)
                 import numpy as np
                 tipo_values = tipo_region_stats['Tipo'].unique()
-                tipo_offsets = {t: (i * 0.3, i * 0.2) for i, t in enumerate(tipo_values)}
+                # Offset reduced from 0.3/0.2 to 0.08/0.08 (approx 8km instead of 30km)
+                tipo_offsets = {t: ((i - len(tipo_values)/2) * 0.08, (i - len(tipo_values)/2) * 0.08) for i, t in enumerate(tipo_values)}
                 tipo_region_stats['lat'] = tipo_region_stats.apply(
                     lambda r: r['lat'] + tipo_offsets.get(r['Tipo'], (0, 0))[0], axis=1
                 )

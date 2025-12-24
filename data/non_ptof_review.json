@@ -96,5 +96,61 @@
       "/Users/danieledragoni/git/LIste/ptof_md/AREE820018_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "VTIC82500A",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VTIC82500A_G_NICOLINI.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (Errore analisi LLM)",
+    "confidence": 0.48,
+    "timestamp": "2025-12-24T10:14:31.201313",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/VTIC82500A_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/VTIC82500A_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/VTIC82500A_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "MTIS009001",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MATERA_MTIS009001.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico al Collegio dei Docenti per la predisposizione dell'aggiornamento del PTOF, non il PTOF stesso.)",
+    "confidence": 0.3,
+    "timestamp": "2025-12-24T10:16:23.332543",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/MTIS009001_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/MTIS009001_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/MTIS009001_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "PAIC888009",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TRABIA_PAIC888009.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un 'Atto di indirizzo' relativo al PTOF, ma non rappresenta il PTOF completo. Contiene riferimenti al PTOF esistente e alle sue integrazioni, ma non presenta l'offerta formativa completa con le sue articolazioni.)",
+    "confidence": 0.23999999999999996,
+    "timestamp": "2025-12-24T10:17:15.805733",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/PAIC888009_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/PAIC888009_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/PAIC888009_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "CEIC87400L",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CEIC87400L_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Bassa confidenza euristica (0.05)",
+    "confidence": 0.04999999999999999,
+    "timestamp": "2025-12-24T10:18:27.677829",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/CEIC87400L_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/CEIC87400L_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/CEIC87400L_ptof.md"
+    ],
+    "action": "removed"
   }
 ]

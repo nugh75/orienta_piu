@@ -588,6 +588,90 @@
         "reason": "Solo 4 pagine (minimo: 5)"
       },
       "timestamp": "2025-12-24T10:05:05.188682"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VTIC82500A_G_NICOLINI.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/VTIC82500A_G_NICOLINI.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VTIC82500A_G_NICOLINI.pdf",
+        "file_name": "VTIC82500A_G_NICOLINI.pdf",
+        "result": "not_ptof",
+        "confidence": 0.48,
+        "phase": "llm",
+        "page_count": 169,
+        "char_count": 17834,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 5,
+        "school_code_found": "VTAA825017",
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T10:13:30.506740",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T10:14:31.203501"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MATERA_MTIS009001.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MATERA_MTIS009001_20251224_101623.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MATERA_MTIS009001.pdf",
+        "file_name": "MATERA_MTIS009001.pdf",
+        "result": "not_ptof",
+        "confidence": 0.3,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 14403,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 2,
+        "school_code_found": "MTIS009001",
+        "llm_analysis": "circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico al Collegio dei Docenti per la predisposizione dell'aggiornamento del PTOF, non il PTOF stesso.",
+        "llm_confidence": 0.19999999999999996,
+        "timestamp": "2025-12-24T10:15:31.855496",
+        "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un atto di indirizzo del dirigente scolastico al Collegio dei Docenti per la predisposizione dell'aggiornamento del PTOF, non il PTOF stesso.)"
+      },
+      "timestamp": "2025-12-24T10:16:23.333915"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TRABIA_PAIC888009.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TRABIA_PAIC888009.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TRABIA_PAIC888009.pdf",
+        "file_name": "TRABIA_PAIC888009.pdf",
+        "result": "not_ptof",
+        "confidence": 0.23999999999999996,
+        "phase": "llm",
+        "page_count": 8,
+        "char_count": 25741,
+        "ptof_keywords_found": 22,
+        "exclusion_keywords_found": 4,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo sembra essere un 'Atto di indirizzo' relativo al PTOF, ma non rappresenta il PTOF completo. Contiene riferimenti al PTOF esistente e alle sue integrazioni, ma non presenta l'offerta formativa completa con le sue articolazioni.",
+        "llm_confidence": 0.19999999999999996,
+        "timestamp": "2025-12-24T10:16:23.642542",
+        "reason": "Rifiutato da LLM (circolare: Il testo sembra essere un 'Atto di indirizzo' relativo al PTOF, ma non rappresenta il PTOF completo. Contiene riferimenti al PTOF esistente e alle sue integrazioni, ma non presenta l'offerta formativa completa con le sue articolazioni.)"
+      },
+      "timestamp": "2025-12-24T10:17:15.806655"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CEIC87400L_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CEIC87400L_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CEIC87400L_PTOF.pdf",
+        "file_name": "CEIC87400L_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.04999999999999999,
+        "phase": "heuristic",
+        "page_count": 20,
+        "char_count": 25184,
+        "ptof_keywords_found": 14,
+        "exclusion_keywords_found": 5,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T10:18:27.677512",
+        "reason": "Bassa confidenza euristica (0.05)"
+      },
+      "timestamp": "2025-12-24T10:18:27.678322"
     }
   ]
 }
