@@ -20,17 +20,33 @@ Il sistema lavora come un team: un agente legge e propone, un secondo controlla,
 un terzo rifinisce. Il risultato finale è un report coerente e confrontabile.
 
 In sintesi:
-1. **Verifica** che il documento sia davvero un PTOF
-2. **Legge** il testo e individua i contenuti rilevanti
-3. **Valuta** le dimensioni dell'orientamento con un punteggio 1-7
-4. **Racconta** in modo chiaro ciò che emerge
-5. **Confronta** i risultati tra scuole nella dashboard
+1. **Scarica** il PTOF usando strategie multiple (Unica, Sito Web, DuckDuckGo)
+2. **Verifica** che il documento sia davvero un PTOF
+3. **Legge** il testo e individua i contenuti rilevanti
+4. **Valuta** le dimensioni dell'orientamento con un punteggio 1-7
+5. **Racconta** in modo chiaro ciò che emerge
+6. **Confronta** i risultati tra scuole nella dashboard
 
 ### Pipeline di Elaborazione
 
 ```
-PDF → Validazione PTOF → Markdown → Analisi multi-agente → JSON + Report → Controlli → CSV → Dashboard
+Download (Multi-Strategy) → Validazione PTOF → Markdown → Analisi multi-agente → JSON + Report → Controlli → CSV → Dashboard
 ```
+""")
+
+st.markdown("---")
+
+# 1b. Download Strategy
+st.header("1️⃣b Strategie di Download")
+st.markdown("""
+Per garantire la massima copertura, il sistema utilizza 4 strategie di download in cascata:
+
+1.  **Portale Unica**: Interroga il portale ufficiale del Ministero dell'Istruzione.
+2.  **Sito Web Scuola**: Scansiona il sito istituzionale della scuola alla ricerca di link PTOF.
+3.  **Codice Istituto**: Per i plessi, prova a cercare usando il codice dell'istituto principale.
+4.  **Ricerca Web (DuckDuckGo)**: Esegue una ricerca mirata sul web per trovare PDF ospitati su piattaforme esterne (es. Argo, Spaggiari).
+
+Il sistema verifica inoltre se il file è già stato scaricato o analizzato in precedenza, evitando duplicati.
 """)
 
 st.markdown("---")

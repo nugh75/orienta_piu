@@ -33,7 +33,8 @@ Apri due terminali:
 
 ```bash
 # Terminale 1: download PTOF
-python src/downloaders/ptof_downloader.py --tutte --sample-per-strato 5
+# Strategie: Unica, Sito Web, Codice Istituto, DuckDuckGo
+make download-strato N=5
 
 # Terminale 2: analisi (resta in attesa di nuovi PDF)
 make workflow
@@ -41,6 +42,15 @@ make workflow
 
 Il workflow aspetta se trova `ptof_inbox/.download_in_progress`.
 Per cambiare il polling: `PTOF_DOWNLOAD_WAIT_SECONDS=10`.
+
+### Strategie di Download
+Il downloader utilizza 4 strategie in cascata per massimizzare il successo:
+1. **Portale Unica**: Cerca sul portale ufficiale del Ministero.
+2. **Sito Web Scuola**: Cerca sul sito istituzionale della scuola.
+3. **Codice Istituto**: Per i plessi, prova a cercare con il codice dell'istituto principale.
+4. **Ricerca Web (DuckDuckGo)**: Cerca su tutto il web "CodiceScuola PTOF filetype:pdf".
+
+Inoltre, verifica sempre se il file è già presente in `ptof_processed` o `ptof_discarded` per evitare download inutili.
 
 ### Comandi Rapidi
 - `make refresh`: Rigenera il CSV dai JSON e avvia la dashboard (utile dopo modifiche manuali).
