@@ -10,6 +10,31 @@ import glob
 
 st.set_page_config(page_title="Dettaglio Scuola", page_icon="🏫", layout="wide")
 
+# CSS per il selectbox delle scuole - testo più piccolo e non troncato
+st.markdown("""
+<style>
+    /* Selectbox opzioni - testo più piccolo */
+    div[data-baseweb="select"] > div {
+        font-size: 0.85rem !important;
+    }
+    
+    /* Dropdown menu opzioni */
+    div[data-baseweb="popover"] li {
+        font-size: 0.8rem !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+    
+    /* Input selezionato nel selectbox */
+    div[data-baseweb="select"] span {
+        font-size: 0.85rem !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 SUMMARY_FILE = 'data/analysis_summary.csv'
 
 LABEL_MAP = {

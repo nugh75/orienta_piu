@@ -11,6 +11,7 @@
 ### Mail List
 
 - [X] Sistema automatizzato per ricevere PTOF dalle scuole via email
+- [ ] Completare automazione invio mail con link upload PTOF e raccolta in ptof_inbox
 - [ ] Parsing automatico allegati PDF
 - [ ] Integrazione con inbox PTOF
 
