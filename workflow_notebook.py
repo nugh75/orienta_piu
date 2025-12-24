@@ -14,6 +14,16 @@ import importlib
 from pathlib import Path
 from datetime import datetime
 import time
+import argparse
+
+# Parse command line arguments
+parser = argparse.ArgumentParser(description="Workflow analisi PTOF")
+parser.add_argument("--force", action="store_true", help="Forza ri-analisi di tutti i file (ignora registro)")
+parser.add_argument("--force-code", type=str, help="Forza ri-analisi di un codice specifico")
+args, _ = parser.parse_known_args()
+
+FORCE_REANALYSIS = args.force
+FORCE_CODE = args.force_code
 
 # Setup logging
 logging.basicConfig(
@@ -58,6 +68,20 @@ SchoolDatabase._instance = None
 SchoolDatabase._loaded = False
 SCHOOL_DB = SchoolDatabase()
 print(f"   ✅ Database MIUR: {len(SCHOOL_DB._data)} scuole", flush=True)
+
+# Carica registro analisi
+from src.utils.analysis_registry import (
+    load_registry, save_registry, is_already_analyzed,
+    register_analysis, get_registry_stats, get_pending_files
+)
+
+ANALYSIS_REGISTRY = load_registry()
+reg_stats = get_registry_stats()
+print(f"   ✅ Registro analisi: {reg_stats['valid_entries']} file già analizzati", flush=True)
+if FORCE_REANALYSIS:
+    print(f"   ⚠️ Modalità FORCE attiva: tutti i file verranno ri-analizzati", flush=True)
+if FORCE_CODE:
+    print(f"   ⚠️ Forza ri-analisi per: {FORCE_CODE}", flush=True)
 
 # Conta PDF
 while True:
@@ -250,16 +274,33 @@ while True:
             recognized_pdfs.append((pdf_path, school_code, miur_data))
         
             analysis_path, status = get_analysis_status(school_code)
+            
+            # Controllo registro (basato su hash del PDF)
+            is_done, skip_reason = is_already_analyzed(school_code, pdf_path, ANALYSIS_REGISTRY)
+            
+            # Forza ri-analisi se richiesto
+            if FORCE_REANALYSIS or (FORCE_CODE and school_code == FORCE_CODE):
+                is_done = False
+                skip_reason = "forced"
+                print(f"🔄 {school_code}: Ri-analisi forzata", flush=True)
 
-            if status == 'valid':
+            if status == 'valid' and is_done:
                 if school_code not in already_analyzed:
-                    print(f"⏭️ {school_code}: Analisi già presente ({analysis_path.name})", flush=True)
+                    print(f"⏭️ {school_code}: Già analizzato (hash verificato)", flush=True)
                     already_analyzed.add(school_code)
                 continue
-            if status == 'empty':
+            
+            # File modificato dall'ultima analisi
+            if status == 'valid' and skip_reason == 'modified':
+                print(f"🔄 {school_code}: PDF modificato, ri-analizzo", flush=True)
+            elif status == 'empty':
                 print(f"⚠️ {school_code}: JSON vuoto, rieseguo analisi", flush=True)
             elif status == 'invalid':
                 print(f"⚠️ {school_code}: JSON non valido, rieseguo analisi", flush=True)
+            elif skip_reason == 'new':
+                print(f"🆕 {school_code}: Nuovo file da analizzare", flush=True)
+            elif skip_reason == 'missing_json':
+                print(f"⚠️ {school_code}: JSON mancante, rieseguo analisi", flush=True)
         
             if school_code in process_pdfs:
                 kept = choose_preferred_pdf(process_pdfs[school_code][0], pdf_path)
@@ -367,6 +408,17 @@ while True:
                             print("   ⚠️ Report MD mancante o vuoto (narrativa non generata)", flush=True)
                         meta = data.get('metadata', {})
                         print(f"   ✅ Salvato - {meta.get('provincia', 'ND')}, {meta.get('regione', 'ND')}", flush=True)
+                        
+                        # Registra nel registro analisi
+                        ANALYSIS_REGISTRY = register_analysis(
+                            school_code=school_code,
+                            pdf_path=pdf_path,
+                            json_path=json_path,
+                            md_path=md_file,
+                            registry=ANALYSIS_REGISTRY,
+                            auto_save=True
+                        )
+                        print(f"   📝 Registrato nel registro analisi", flush=True)
                     else:
                         print(f"   ⚠️ Nessun risultato", flush=True)
                 

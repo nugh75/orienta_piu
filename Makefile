@@ -30,13 +30,20 @@ help:
 	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
 	@echo ""
 	@echo "🔄 WORKFLOW ANALISI:"
-	@echo "  make setup      - Installa le dipendenze"
-	@echo "  make run        - Esegue il workflow completo (workflow_notebook.py)"
-	@echo "  make workflow   - Alias di run (workflow_notebook.py)"
-	@echo "  make dashboard  - Avvia la dashboard Streamlit"
-	@echo "  make csv        - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
-	@echo "  make backfill   - Backfill metadati mancanti con scan LLM mirata"
-	@echo "  make clean      - Pulisce file temporanei e cache"
+	@echo "  make setup          - Installa le dipendenze"
+	@echo "  make run            - Esegue il workflow completo (workflow_notebook.py)"
+	@echo "  make run-force      - Forza ri-analisi di tutti i file"
+	@echo "  make run-force-code CODE=X - Forza ri-analisi di un codice specifico"
+	@echo "  make workflow       - Alias di run (workflow_notebook.py)"
+	@echo "  make dashboard      - Avvia la dashboard Streamlit"
+	@echo "  make csv            - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
+	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
+	@echo "  make clean          - Pulisce file temporanei e cache"
+	@echo ""
+	@echo "📋 REGISTRO ANALISI:"
+	@echo "  make registry-status - Mostra stato del registro analisi"
+	@echo "  make registry-list   - Lista tutti i file registrati"
+	@echo "  make registry-clear  - Pulisce il registro (forza ri-analisi di tutto)"
 	@echo ""
 	@echo "🔗 COMBINAZIONI:"
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
@@ -51,6 +58,17 @@ setup:
 
 run:
 	$(PYTHON) workflow_notebook.py
+
+run-force:
+	$(PYTHON) workflow_notebook.py --force
+
+run-force-code:
+ifndef CODE
+	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
+	@echo "   Esempio: make run-force-code CODE=RMIC8GA002"
+else
+	$(PYTHON) workflow_notebook.py --force-code $(CODE)
+endif
 
 workflow: run
 
@@ -195,3 +213,28 @@ csv-watch:
 		echo "💤 Attesa $(or $(INTERVAL),300)s..."; \
 		sleep $(or $(INTERVAL),300); \
 	done
+
+# ═══════════════════════════════════════════════════════════════════
+# REGISTRO ANALISI
+# ═══════════════════════════════════════════════════════════════════
+
+# Mostra statistiche del registro
+registry-status:
+	$(PYTHON) src/utils/analysis_registry.py --stats
+
+# Lista tutti i file registrati
+registry-list:
+	$(PYTHON) src/utils/analysis_registry.py --list
+
+# Pulisce il registro (forza ri-analisi di tutto)
+registry-clear:
+	$(PYTHON) src/utils/analysis_registry.py --clear
+
+# Rimuove una entry specifica (uso: make registry-remove CODE=RMIC8GA002)
+registry-remove:
+ifndef CODE
+	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
+	@echo "   Esempio: make registry-remove CODE=RMIC8GA002"
+else
+	$(PYTHON) src/utils/analysis_registry.py --remove $(CODE)
+endif
