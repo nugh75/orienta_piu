@@ -1470,6 +1470,237 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2025-12-24T12:18:21.775123"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FRPSII500H_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/FRPSII500H_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FRPSII500H_PTOF.pdf",
+        "file_name": "FRPSII500H_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.42,
+        "phase": "llm",
+        "page_count": 124,
+        "char_count": 27032,
+        "ptof_keywords_found": 22,
+        "exclusion_keywords_found": 5,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T12:19:22.934373",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T12:20:23.004926"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PTPS01000P_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PTPS01000P_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PTPS01000P_PTOF.pdf",
+        "file_name": "PTPS01000P_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.22999999999999998,
+        "phase": "llm",
+        "page_count": 9,
+        "char_count": 14685,
+        "ptof_keywords_found": 14,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "sezione del PTOF: Il documento presenta contenuti rilevanti per il PTOF (come il Piano di Formazione dei docenti, RAV, PdM) ma manca della struttura completa e articolata tipica del PTOF. Si presenta come una sezione specifica del PTOF relativa alla formazione dei docenti.",
+        "llm_confidence": 0.15000000000000002,
+        "timestamp": "2025-12-24T12:21:34.419260",
+        "reason": "Rifiutato da LLM (sezione del PTOF: Il documento presenta contenuti rilevanti per il PTOF (come il Piano di Formazione dei docenti, RAV, PdM) ma manca della struttura completa e articolata tipica del PTOF. Si presenta come una sezione specifica del PTOF relativa alla formazione dei docenti.)"
+      },
+      "timestamp": "2025-12-24T12:22:18.374413"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PAMM8AP018_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PAMM8AP018_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PAMM8AP018_PTOF.pdf",
+        "file_name": "PAMM8AP018_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.15000000000000002,
+        "phase": "llm",
+        "page_count": 19,
+        "char_count": 32995,
+        "ptof_keywords_found": 18,
+        "exclusion_keywords_found": 4,
+        "school_code_found": null,
+        "llm_analysis": "Piano per l'Inclusione: Il documento presenta il titolo 'PIANO PER L’INCLUSIONE (ex-PAI)' e tratta esclusivamente tematiche relative all'inclusione e ai Bisogni Educativi Speciali, senza coprire l'offerta formativa complessiva dell'istituto né riferirsi al RAV o agli obiettivi triennali. La struttura e il contenuto sono specifici per un Piano per l'Inclusione e non per un PTOF.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-24T12:23:14.520505",
+        "reason": "Rifiutato da LLM (Piano per l'Inclusione: Il documento presenta il titolo 'PIANO PER L’INCLUSIONE (ex-PAI)' e tratta esclusivamente tematiche relative all'inclusione e ai Bisogni Educativi Speciali, senza coprire l'offerta formativa complessiva dell'istituto né riferirsi al RAV o agli obiettivi triennali. La struttura e il contenuto sono specifici per un Piano per l'Inclusione e non per un PTOF.)"
+      },
+      "timestamp": "2025-12-24T12:23:22.104783"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TS1A00900V_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TS1A00900V_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TS1A00900V_PTOF.pdf",
+        "file_name": "TS1A00900V_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.46,
+        "phase": "llm",
+        "page_count": 42,
+        "char_count": 7753,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T12:26:08.983044",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T12:27:09.068935"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NAIC8EV005_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/NAIC8EV005_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NAIC8EV005_PTOF.pdf",
+        "file_name": "NAIC8EV005_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.14999999999999997,
+        "phase": "heuristic",
+        "page_count": 12,
+        "char_count": 8892,
+        "ptof_keywords_found": 14,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T12:27:09.178010",
+        "reason": "Bassa confidenza euristica (0.15)"
+      },
+      "timestamp": "2025-12-24T12:27:09.178545"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PZIC85900P_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PZIC85900P_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PZIC85900P_PTOF.pdf",
+        "file_name": "PZIC85900P_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.14999999999999997,
+        "phase": "heuristic",
+        "page_count": 5,
+        "char_count": 19004,
+        "ptof_keywords_found": 12,
+        "exclusion_keywords_found": 3,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T12:28:10.428528",
+        "reason": "Bassa confidenza euristica (0.15)"
+      },
+      "timestamp": "2025-12-24T12:28:10.429364"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CAEE839044_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CAEE839044_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CAEE839044_PTOF.pdf",
+        "file_name": "CAEE839044_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.18,
+        "phase": "llm",
+        "page_count": 7,
+        "char_count": 19203,
+        "ptof_keywords_found": 21,
+        "exclusion_keywords_found": 3,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo analizzato è un Atto di indirizzo per la revisione del PTOF annuale e la strutturazione del Piano Triennale dell'Offerta Formativa, non il PTOF stesso. Manca la parte operativa e articolata del piano formativo.",
+        "llm_confidence": 0.09999999999999998,
+        "timestamp": "2025-12-24T12:29:41.608257",
+        "reason": "Rifiutato da LLM (circolare: Il testo analizzato è un Atto di indirizzo per la revisione del PTOF annuale e la strutturazione del Piano Triennale dell'Offerta Formativa, non il PTOF stesso. Manca la parte operativa e articolata del piano formativo.)"
+      },
+      "timestamp": "2025-12-24T12:30:22.281792"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/GEIS018003_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/GEIS018003_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/GEIS018003_PTOF.pdf",
+        "file_name": "GEIS018003_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.48,
+        "phase": "llm",
+        "page_count": 10,
+        "char_count": 28279,
+        "ptof_keywords_found": 24,
+        "exclusion_keywords_found": 4,
+        "school_code_found": "GEIS018003",
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T12:34:31.656203",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T12:35:31.706097"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SARF001014_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/SARF001014_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SARF001014_PTOF.pdf",
+        "file_name": "SARF001014_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.48,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 21437,
+        "ptof_keywords_found": 26,
+        "exclusion_keywords_found": 2,
+        "school_code_found": "SAIS067002",
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T12:35:32.393038",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T12:36:32.473199"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIRFHT500U_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MIRFHT500U_PTOF_20251224_124135.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MIRFHT500U_PTOF.pdf",
+        "file_name": "MIRFHT500U_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.26,
+        "phase": "llm",
+        "page_count": 16,
+        "char_count": 13183,
+        "ptof_keywords_found": 15,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "Rapporto di Autovalutazione: Il testo presenta sezioni che somigliano a un Rapporto di Autovalutazione (RAV) con indicatori di qualità e descrizioni di risultati, ma manca la struttura completa e articolata tipica di un PTOF, non contiene informazioni esplicite sul curricolo, sulla didattica e sull'organizzazione, e non è identificato come PTOF.",
+        "llm_confidence": 0.09999999999999998,
+        "timestamp": "2025-12-24T12:40:44.083620",
+        "reason": "Rifiutato da LLM (Rapporto di Autovalutazione: Il testo presenta sezioni che somigliano a un Rapporto di Autovalutazione (RAV) con indicatori di qualità e descrizioni di risultati, ma manca la struttura completa e articolata tipica di un PTOF, non contiene informazioni esplicite sul curricolo, sulla didattica e sull'organizzazione, e non è identificato come PTOF.)"
+      },
+      "timestamp": "2025-12-24T12:41:35.182427"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NA1E18200P_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/NA1E18200P_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NA1E18200P_PTOF.pdf",
+        "file_name": "NA1E18200P_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.23000000000000004,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 12394,
+        "ptof_keywords_found": 16,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo analizzato è una circolare del MIUR che fornisce indicazioni per la predisposizione del PTOF, non è il PTOF stesso.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-24T12:43:11.965154",
+        "reason": "Rifiutato da LLM (circolare: Il testo analizzato è una circolare del MIUR che fornisce indicazioni per la predisposizione del PTOF, non è il PTOF stesso.)"
+      },
+      "timestamp": "2025-12-24T12:43:57.547965"
     }
   ]
 }

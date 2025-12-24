@@ -17,6 +17,9 @@ help:
 	@echo "  make download-regione R=X  - Scarica scuole di una regione (es: R=LAZIO)"
 	@echo "  make download-metro        - Scarica solo province metropolitane"
 	@echo "  make download-non-metro    - Scarica solo province NON metropolitane"
+	@echo "  make download-grado G=X    - Scarica per grado (G=INFANZIA/PRIMARIA/SEC_PRIMO/SEC_SECONDO)"
+	@echo "  make download-area A=X     - Scarica per area geografica (A=NORD OVEST/SUD/ISOLE...)"
+	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
 	@echo "🤖 ANALISI & REVISIONE:"
 	@echo "  make run                   - Esegue analisi sui PDF in ptof_inbox/"
@@ -39,6 +42,9 @@ help:
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
+	@echo ""
+	@echo "⏰ AUTOMAZIONE:"
+	@echo "  make csv-watch             - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
 
 setup:
 	$(PIP) install -r requirements.txt

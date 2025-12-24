@@ -1,0 +1,19 @@
+# 📋 Cose da Fare
+
+## 🔄 Automazione
+
+### GitHub
+
+- [ ] Automatizzazione workflow GitHub Actions
+- [ ] CI/CD per test automatici
+- [ ] Deploy automatico
+
+### Mail List
+
+- [X] Sistema automatizzato per ricevere PTOF dalle scuole via email
+- [ ] Parsing automatico allegati PDF
+- [ ] Integrazione con inbox PTOF
+
+---
+
+*Ultimo aggiornamento: 24 dicembre 2025*
