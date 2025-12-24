@@ -56,6 +56,7 @@ dashboard:
 
 csv:
 	$(PYTHON) src/processing/rebuild_csv_clean.py
+	$(PYTHON) src/processing/geocode_schools.py
 
 backfill:
 	$(PYTHON) src/processing/backfill_metadata_llm.py

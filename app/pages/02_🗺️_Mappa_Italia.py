@@ -360,15 +360,31 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
     # Get top N schools by maturity index
     top_schools = df_valid.nlargest(n_top, 'ptof_orientamento_maturity_index').copy()
     
-    # Get coordinates from comune -> region mapping
-    top_schools['lat'] = top_schools['regione'].map(lambda x: REGION_COORDS.get(x, (42.0, 12.5))[0])
-    top_schools['lon'] = top_schools['regione'].map(lambda x: REGION_COORDS.get(x, (42.0, 12.5))[1])
-    
-    # Add slight random offset to avoid overlap (within same region)
-    import numpy as np
-    np.random.seed(42)
-    top_schools['lat'] = top_schools['lat'] + np.random.uniform(-0.5, 0.5, len(top_schools))
-    top_schools['lon'] = top_schools['lon'] + np.random.uniform(-0.5, 0.5, len(top_schools))
+    # Use real coordinates if available, otherwise fallback to region center + jitter
+    if 'lat' in top_schools.columns and 'lon' in top_schools.columns:
+        # Ensure numeric
+        top_schools['lat'] = pd.to_numeric(top_schools['lat'], errors='coerce')
+        top_schools['lon'] = pd.to_numeric(top_schools['lon'], errors='coerce')
+        
+        # Fill missing with region center
+        for idx, row in top_schools.iterrows():
+            if pd.isna(row['lat']) or pd.isna(row['lon']):
+                reg = row.get('regione', '')
+                coords = REGION_COORDS.get(reg, (42.0, 12.5))
+                # Add jitter for fallback
+                import numpy as np
+                top_schools.at[idx, 'lat'] = coords[0] + np.random.uniform(-0.1, 0.1)
+                top_schools.at[idx, 'lon'] = coords[1] + np.random.uniform(-0.1, 0.1)
+    else:
+        # Fallback to region center + jitter
+        top_schools['lat'] = top_schools['regione'].map(lambda x: REGION_COORDS.get(x, (42.0, 12.5))[0])
+        top_schools['lon'] = top_schools['regione'].map(lambda x: REGION_COORDS.get(x, (42.0, 12.5))[1])
+        
+        # Add slight random offset to avoid overlap (within same region)
+        import numpy as np
+        np.random.seed(42)
+        top_schools['lat'] = top_schools['lat'] + np.random.uniform(-0.5, 0.5, len(top_schools))
+        top_schools['lon'] = top_schools['lon'] + np.random.uniform(-0.5, 0.5, len(top_schools))
     
     # Prepare tipo_scuola for color (take first type if multiple)
     if 'tipo_scuola' in top_schools.columns:
