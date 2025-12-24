@@ -69,7 +69,7 @@ for col in numeric_cols:
 df_valid = df[df['ptof_orientamento_maturity_index'].notna() & (df['ptof_orientamento_maturity_index'] > 0)].copy()
 
 if len(df_valid) == 0:
-    st.warning("⚠️ Nessuna scuola con indice di robustezza valido.")
+    st.warning("⚠️ Nessuna scuola con Indice RO valido.")
     st.stop()
 
 st.markdown("---")
@@ -158,7 +158,7 @@ comparison_df = pd.concat([
 fig_compare = px.bar(
     comparison_df, x='Scuola', y='Indice', color='Gruppo',
     color_discrete_map={'Top 10': '#28a745', 'Bottom 10': '#dc3545'},
-    title="Top 10 vs Bottom 10 - Indice di Robustezza",
+    title="Top 10 vs Bottom 10 - Indice RO",
     barmode='group'
 )
 fig_compare.update_layout(xaxis_tickangle=45, height=400)
@@ -169,7 +169,7 @@ st.markdown("---")
 
 # === 2b. CLASSIFICA COMPLETA ===
 st.subheader("📋 Classifica Completa")
-st.caption("Tutte le scuole ordinate per indice di robustezza con le medie per dimensione")
+st.caption("Tutte le scuole ordinate per Indice RO con le medie per dimensione")
 
 # Prepare complete ranking with all means
 ranking_cols = ['denominazione', 'tipo_scuola', 'regione', 'area_geografica', 'ptof_orientamento_maturity_index']
@@ -351,7 +351,7 @@ if 'denominazione' in df_valid.columns:
         
         fig_dist.update_layout(
             title="Posizione nella Distribuzione Nazionale",
-            xaxis_title="Indice di Robustezza",
+            xaxis_title="Indice RO",
             yaxis_title="Frequenza",
             height=400
         )
@@ -543,8 +543,8 @@ if 'tipo_primario' in df_valid.columns:
         color='ptof_orientamento_maturity_index_mean',
         color_continuous_scale='RdYlGn',
         range_color=[1, 7],
-        title="Indice Medio per Tipologia Scolastica",
-        labels={'tipo_primario': 'Tipologia', 'ptof_orientamento_maturity_index_mean': 'Indice Medio'},
+        title="Indice RO Medio per Tipologia Scolastica",
+        labels={'tipo_primario': 'Tipologia', 'ptof_orientamento_maturity_index_mean': 'Indice RO Medio'},
         text='ptof_orientamento_maturity_index_mean'
     )
     fig_tipo.update_traces(texttemplate='%{text:.2f}', textposition='outside')

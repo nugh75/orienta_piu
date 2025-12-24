@@ -5301,6 +5301,48 @@
         "reason": "Rifiutato da LLM (modulo: Il documento presenta solo un estratto relativo al piano di formazione del personale docente, non contiene informazioni complete sul curricolo, didattica, organizzazione e non mostra una struttura articolata tipica di un PTOF.)"
       },
       "timestamp": "2025-12-24T20:27:11.936509"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BGIS03800B_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/BGIS03800B_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BGIS03800B_PTOF.pdf",
+        "file_name": "BGIS03800B_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.2700000000000001,
+        "phase": "llm",
+        "page_count": 5,
+        "char_count": 18159,
+        "ptof_keywords_found": 21,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo analizzato è un atto d'indirizzo al Collegio dei Docenti per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e i contenuti specifici dell'offerta formativa.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-24T20:33:49.960671",
+        "reason": "Rifiutato da LLM (circolare: Il testo analizzato è un atto d'indirizzo al Collegio dei Docenti per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e i contenuti specifici dell'offerta formativa.)"
+      },
+      "timestamp": "2025-12-24T20:34:25.779807"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SR1A00700P_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/SR1A00700P_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/SR1A00700P_PTOF.pdf",
+        "file_name": "SR1A00700P_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.33000000000000007,
+        "phase": "llm",
+        "page_count": 5,
+        "char_count": 13667,
+        "ptof_keywords_found": 12,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": "integrazione PTOF: Il testo presenta un'integrazione al PTOF relativa all'emergenza COVID-19, ma non include l'intero piano triennale dell'offerta formativa né le informazioni complete su curricolo, didattica e organizzazione. Manca la struttura articolata tipica di un PTOF.",
+        "llm_confidence": 0.15000000000000002,
+        "timestamp": "2025-12-24T20:42:56.245622",
+        "reason": "Rifiutato da LLM (integrazione PTOF: Il testo presenta un'integrazione al PTOF relativa all'emergenza COVID-19, ma non include l'intero piano triennale dell'offerta formativa né le informazioni complete su curricolo, didattica e organizzazione. Manca la struttura articolata tipica di un PTOF.)"
+      },
+      "timestamp": "2025-12-24T20:43:05.824596"
     }
   ]
 }

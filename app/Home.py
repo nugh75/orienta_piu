@@ -38,7 +38,7 @@ LABEL_MAP = {
     'mean_governance': 'Media Governance',
     'mean_didattica_orientativa': 'Media Didattica',
     'mean_opportunita': 'Media Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Robustezza',
+    'ptof_orientamento_maturity_index': 'Indice RO',
     'partnership_count': 'N. Partnership',
     'activities_count': 'N. Attività',
     '2_1_score': 'Sezione Dedicata'
@@ -108,9 +108,9 @@ with c1:
 with c2:
     if 'ptof_orientamento_maturity_index' in df.columns:
         avg_idx = df['ptof_orientamento_maturity_index'].mean()
-        st.metric("📊 Indice Medio", f"{avg_idx:.2f}/7" if pd.notna(avg_idx) else "N/D")
+        st.metric("📊 Indice RO Medio", f"{avg_idx:.2f}/7" if pd.notna(avg_idx) else "N/D", help="Indice di Robustezza dell'Orientamento")
     else:
-        st.metric("📊 Indice Medio", "N/D")
+        st.metric("📊 Indice RO Medio", "N/D")
 
 with c3:
     if 'has_sezione_dedicata' in df.columns:
@@ -303,7 +303,7 @@ if len(df) > 0:
     stats_df = df[['school_id', 'denominazione', 'tipo_scuola', 'area_geografica', 'ptof_orientamento_maturity_index']].copy()
     stats_df = stats_df.sort_values('ptof_orientamento_maturity_index', ascending=False).reset_index(drop=True)
     stats_df.insert(0, 'Pos.', range(1, len(stats_df) + 1))
-    stats_df.columns = ['#', 'Codice', 'Scuola', 'Tipo', 'Area', 'Indice']
+    stats_df.columns = ['#', 'Codice', 'Scuola', 'Tipo', 'Area', 'Indice RO']
     st.dataframe(stats_df, use_container_width=True, hide_index=True, height=500)
 
 # Footer

@@ -16,7 +16,7 @@ LABEL_MAP = {
     'mean_governance': 'Media Governance',
     'mean_didattica_orientativa': 'Media Didattica',
     'mean_opportunita': 'Media Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Robustezza',
+    'ptof_orientamento_maturity_index': 'Indice RO',
 }
 
 def get_label(col):
@@ -85,7 +85,7 @@ if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
     if not pivot.empty:
         fig = px.imshow(
             pivot, text_auto='.2f', color_continuous_scale='RdBu',
-            zmin=1, zmax=7, title="Indice Medio per Tipo e Area"
+            zmin=1, zmax=7, title="Indice RO Medio per Tipo e Area"
         )
         st.plotly_chart(fig, use_container_width=True)
         
@@ -276,19 +276,19 @@ if 'regione' in df.columns:
         region_avg = df_region[df_region['regione'].notna()].groupby('regione')[
             'ptof_orientamento_maturity_index'
         ].agg(['mean', 'count']).reset_index()
-        region_avg.columns = ['Regione', 'Indice Medio', 'N. Scuole']
+        region_avg.columns = ['Regione', 'Indice RO Medio', 'N. Scuole']
 
         if len(region_avg) >= 3:
             fig = px.bar(
-                region_avg.sort_values('Indice Medio'),
-                x='Indice Medio',
+                region_avg.sort_values('Indice RO Medio'),
+                x='Indice RO Medio',
                 y='Regione',
                 orientation='h',
-                color='Indice Medio',
+                color='Indice RO Medio',
                 color_continuous_scale='RdYlGn',
                 range_color=[1, 7],
                 text='N. Scuole',
-                title="Indice per Regione",
+                title="Indice RO per Regione",
             )
             fig.update_traces(texttemplate='n=%{text}', textposition='outside')
             st.plotly_chart(fig, use_container_width=True)

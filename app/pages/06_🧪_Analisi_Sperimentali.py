@@ -129,7 +129,7 @@ if selected_school_label:
 # --- 2. PARALLEL CATEGORIES ---
 st.markdown("---")
 st.subheader("🌊 Flussi: Geografica → Tipo Scuola → Robustezza")
-st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e indice di robustezza.")
+st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e Indice RO.")
 
 with st.expander("ℹ️ Come leggere questo grafico (Clicca per aprire)", expanded=True):
     st.markdown("""

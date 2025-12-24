@@ -143,7 +143,7 @@ if selected_school:
         st.metric("Area", school_data.get('area_geografica', 'N/D'))
     with col4:
         idx = school_data.get('ptof_orientamento_maturity_index', 0)
-        st.metric("Indice Robustezza", f"{idx:.2f}/7" if pd.notna(idx) else "N/D")
+        st.metric("Indice RO", f"{idx:.2f}/7" if pd.notna(idx) else "N/D", help="Indice di Robustezza dell'Orientamento")
     
     # Seconda riga di metadati
     col5, col6, col7, col8 = st.columns(4)

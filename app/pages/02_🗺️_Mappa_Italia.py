@@ -32,7 +32,7 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Robustezza'
+    'ptof_orientamento_maturity_index': 'Indice RO'
 }
 
 def get_label(col):
@@ -79,7 +79,7 @@ def load_data():
 df = load_data()
 
 st.title("🗺️ Analisi Geografica Italia")
-st.markdown("Visualizzazione della distribuzione territoriale dell'indice di robustezza dell'orientamento PTOF")
+st.markdown("Visualizzazione della distribuzione territoriale dell'**Indice RO** (Robustezza dell'Orientamento) nei PTOF")
 
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
@@ -144,7 +144,7 @@ st.markdown("---")
 
 # === 1. REGIONAL RANKING ===
 st.subheader("🏆 Ranking Regionale")
-st.caption("Classifica delle regioni per indice di robustezza medio")
+st.caption("Classifica delle regioni per Indice RO (Robustezza Orientamento) medio")
 
 regional_stats = df_valid.groupby('regione').agg({
     'ptof_orientamento_maturity_index': ['mean', 'count', 'std']
@@ -163,7 +163,7 @@ with col1:
         x='Media', y='Regione', orientation='h',
         color='Media', color_continuous_scale='RdYlGn',
         range_x=[0, 7], range_color=[1, 7],
-        title="Indice di Robustezza per Regione",
+        title="Indice RO per Regione",
         text='Media'
     )
     fig_ranking.update_traces(texttemplate='%{text:.2f}', textposition='outside')
@@ -181,7 +181,7 @@ with col2:
 
 # === ANOVA Test for Regional Differences ===
 st.markdown("### 🔬 Test ANOVA: Differenze tra Regioni")
-st.caption("Verifica statistica se esistono differenze significative nell'indice di robustezza tra le regioni")
+st.caption("Verifica statistica se esistono differenze significative nell'Indice RO tra le regioni")
 
 try:
     from scipy import stats
@@ -356,7 +356,7 @@ try:
                     # Show interpretation
                     best_region = sorted_regions[0][0]
                     worst_region = sorted_regions[-1][0]
-                    st.info(f"📌 **Interpretazione**: La regione con il miglior indice di robustezza è **{best_region}** ({sorted_regions[0][1]:.2f}), "
+                    st.info(f"📌 **Interpretazione**: La regione con il miglior Indice RO è **{best_region}** ({sorted_regions[0][1]:.2f}), "
                            f"mentre **{worst_region}** ({sorted_regions[-1][1]:.2f}) mostra i valori più bassi. "
                            f"Sono stati identificati **{len(significant_pairs)} confronti significativi** su {len(all_pairs)} possibili.")
                     
@@ -380,7 +380,7 @@ try:
                 region_means = {region_names[i]: np.mean(region_groups[i]) for i in range(len(region_names))}
                 sorted_regions = sorted(region_means.items(), key=lambda x: x[1], reverse=True)
                 
-                st.markdown("##### 📊 Ranking delle Regioni (per indice medio)")
+                st.markdown("##### 📊 Ranking delle Regioni (per Indice RO medio)")
                 ranking_df = pd.DataFrame([
                     {'Posizione': i+1, 'Regione': reg, 'Media': f"{mean:.2f}"} 
                     for i, (reg, mean) in enumerate(sorted_regions)
@@ -401,7 +401,7 @@ st.markdown("---")
 
 # === 2. CHOROPLETH MAP ===
 st.subheader("🗺️ Mappa Coropletica")
-st.caption("Visualizzazione geografica dell'indice medio per regione")
+st.caption("Visualizzazione geografica dell'Indice RO medio per regione")
 
 # Prepare data for map
 map_data = regional_stats.copy()
@@ -438,7 +438,7 @@ if len(map_data) > 0:
         color_continuous_scale='RdYlGn',
         range_color=[1, 7],
         size_max=50,
-        title="Distribuzione Geografica Indice Robustezza"
+        title="Distribuzione Geografica Indice RO"
     )
     
     fig_map.update_geos(
@@ -518,7 +518,7 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
             'lat': False, 
             'lon': False
         },
-        title=f"🏆 Top {n_top} Scuole per Indice di Robustezza",
+        title=f"🏆 Top {n_top} Scuole per Indice RO",
         color_discrete_sequence=px.colors.qualitative.Bold
     )
     
@@ -721,7 +721,7 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
             color='Media', color_continuous_scale='RdYlGn',
             range_x=[0, 7], range_color=[1, 7],
             text='N. Scuole',
-            title="Indice Medio per Tipologia Scolastica"
+            title="Indice RO Medio per Tipologia Scolastica"
         )
         fig_tipo_bar.update_traces(texttemplate='n=%{text}', textposition='outside')
         fig_tipo_bar.update_layout(height=350)
@@ -748,8 +748,8 @@ if len(df_macro) > 5:
             df_macro, x='macro_area', y='ptof_orientamento_maturity_index',
             color='macro_area',
             color_discrete_map={'Nord': '#3498db', 'Sud': '#e74c3c'},
-            title="Distribuzione Indice per Macro-Area",
-            labels={'macro_area': 'Macro-Area', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
+            title="Distribuzione Indice RO per Macro-Area",
+            labels={'macro_area': 'Macro-Area', 'ptof_orientamento_maturity_index': 'Indice RO'},
             points='all'
         )
         fig_box.update_layout(showlegend=False, height=450)
@@ -835,8 +835,8 @@ if 'area_geografica' in df_valid.columns:
             fig_box_area = px.box(
                 df_area, x='area_geografica', y='ptof_orientamento_maturity_index',
                 color='area_geografica',
-                title="Distribuzione Indice per Area Geografica",
-                labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
+                title="Distribuzione Indice RO per Area Geografica",
+                labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice RO'},
                 points='all',
                 category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
             )
@@ -964,8 +964,8 @@ if 'territorio' in df_valid.columns:
                 df_territorio, x='territorio', y='ptof_orientamento_maturity_index',
                 color='territorio',
                 color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                title="Distribuzione Indice per Territorio",
-                labels={'territorio': 'Territorio', 'ptof_orientamento_maturity_index': 'Indice Robustezza'},
+                title="Distribuzione Indice RO per Territorio",
+                labels={'territorio': 'Territorio', 'ptof_orientamento_maturity_index': 'Indice RO'},
                 points='all'
             )
             fig_box_terr.update_layout(showlegend=False, height=450)
@@ -1065,7 +1065,7 @@ st.markdown("---")
 
 # === 3c. ANALISI PER REGIONE E TERRITORIO ===
 st.subheader("📊 Analisi per Regione e Territorio")
-st.caption("Confronto dell'indice di robustezza per regione, suddiviso per area metropolitana e non metropolitana")
+st.caption("Confronto dell'Indice RO per regione, suddiviso per area metropolitana e non metropolitana")
 
 if 'territorio' in df_valid.columns:
     df_reg_terr = df_valid[
@@ -1095,8 +1095,8 @@ if 'territorio' in df_valid.columns:
                 x='regione', y='Media', color='territorio',
                 barmode='group',
                 color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                title="Indice Medio per Regione e Territorio",
-                labels={'regione': 'Regione', 'Media': 'Indice Medio', 'territorio': 'Territorio'},
+                title="Indice RO Medio per Regione e Territorio",
+                labels={'regione': 'Regione', 'Media': 'Indice RO Medio', 'territorio': 'Territorio'},
                 text='N'
             )
             fig_grouped.update_traces(texttemplate='n=%{text}', textposition='outside')

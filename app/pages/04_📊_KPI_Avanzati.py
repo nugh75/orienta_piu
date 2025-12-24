@@ -43,7 +43,7 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice Robustezza',
+    'ptof_orientamento_maturity_index': 'Indice RO',
     'partnership_count': 'N. Partnership'
 }
 
@@ -80,7 +80,7 @@ dim_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattic
 df_valid = df[df['ptof_orientamento_maturity_index'].notna()].copy()
 
 if len(df_valid) == 0:
-    st.warning("⚠️ Nessuna scuola con indice di robustezza valido.")
+    st.warning("⚠️ Nessuna scuola con Indice RO valido.")
     st.stop()
 
 st.markdown("---")
@@ -97,7 +97,7 @@ with col1:
 
 with col2:
     mean_idx = df_valid['ptof_orientamento_maturity_index'].mean()
-    st.metric("📊 Media Indice", f"{mean_idx:.2f}")
+    st.metric("📊 Media Indice RO", f"{mean_idx:.2f}", help="Indice di Robustezza dell'Orientamento")
 
 with col3:
     median_idx = df_valid['ptof_orientamento_maturity_index'].median()
@@ -255,7 +255,7 @@ with col1:
         df_valid, x='ptof_orientamento_maturity_index',
         nbins=20, marginal='box',
         color_discrete_sequence=['#3498db'],
-        title="Distribuzione Indice di Robustezza"
+        title="Distribuzione Indice RO"
     )
     fig_hist.update_layout(height=400)
     st.plotly_chart(fig_hist, use_container_width=True)
@@ -283,7 +283,7 @@ st.markdown("---")
 
 # === 4. REGRESSION SUMMARY ===
 st.subheader("📈 Analisi Regressione")
-st.caption("Identificazione dei migliori predittori dell'indice di robustezza")
+st.caption("Identificazione dei migliori predittori dell'Indice RO (Robustezza Orientamento)")
 
 try:
     from sklearn.linear_model import LinearRegression
