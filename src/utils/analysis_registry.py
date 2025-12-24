@@ -321,6 +321,172 @@ def remove_entry(school_code: str) -> bool:
     return False
 
 
+def register_review(
+    school_code: str,
+    review_type: str,
+    model: str,
+    status: str,
+    details: Optional[Dict[str, Any]] = None,
+    registry: Optional[Dict[str, Any]] = None,
+    auto_save: bool = True
+) -> Dict[str, Any]:
+    """
+    Registra un'attività di revisione nel registro.
+    
+    Args:
+        school_code: Codice meccanografico della scuola
+        review_type: Tipo di revisione (es. "ollama_score_review", "ollama_report_review", "gemini_review")
+        model: Modello LLM utilizzato
+        status: Stato della revisione ("completed", "failed", "partial", "error")
+        details: Dettagli aggiuntivi sulla revisione
+        registry: Registro esistente (se None, viene caricato)
+        auto_save: Se True, salva automaticamente il registro
+    
+    Returns:
+        Registro aggiornato
+    """
+    if registry is None:
+        registry = load_registry()
+    
+    analyzed_files = registry.get("analyzed_files", {})
+    
+    # Se la scuola non è nel registro, crea entry base
+    if school_code not in analyzed_files:
+        analyzed_files[school_code] = {
+            "pdf_hash": "unknown",
+            "pdf_name": f"{school_code}_ptof.pdf",
+            "analyzed_at": "unknown",
+            "json_path": "",
+            "reviews": []
+        }
+    
+    # Assicura che esista la lista reviews
+    if "reviews" not in analyzed_files[school_code]:
+        analyzed_files[school_code]["reviews"] = []
+    
+    # Aggiungi la revisione
+    review_entry = {
+        "type": review_type,
+        "model": model,
+        "status": status,
+        "timestamp": datetime.now().isoformat()
+    }
+    
+    if details:
+        review_entry["details"] = details
+    
+    analyzed_files[school_code]["reviews"].append(review_entry)
+    analyzed_files[school_code]["last_review"] = datetime.now().isoformat()
+    
+    registry["analyzed_files"] = analyzed_files
+    
+    if auto_save:
+        save_registry(registry)
+    
+    return registry
+
+
+def get_review_status(school_code: str, review_type: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    """
+    Ottiene lo stato delle revisioni per una scuola.
+    
+    Args:
+        school_code: Codice meccanografico della scuola
+        review_type: Tipo specifico di revisione (se None, ritorna tutte)
+    
+    Returns:
+        Dizionario con info sulle revisioni o None se non trovato
+    """
+    registry = load_registry()
+    analyzed_files = registry.get("analyzed_files", {})
+    
+    if school_code not in analyzed_files:
+        return None
+    
+    entry = analyzed_files[school_code]
+    reviews = entry.get("reviews", [])
+    
+    if review_type:
+        # Filtra per tipo
+        filtered = [r for r in reviews if r.get("type") == review_type]
+        return {
+            "school_code": school_code,
+            "review_type": review_type,
+            "total_reviews": len(filtered),
+            "last_review": filtered[-1] if filtered else None,
+            "reviews": filtered
+        }
+    else:
+        return {
+            "school_code": school_code,
+            "total_reviews": len(reviews),
+            "last_review": entry.get("last_review"),
+            "reviews": reviews
+        }
+
+
+def was_reviewed(school_code: str, review_type: str, registry: Optional[Dict[str, Any]] = None) -> bool:
+    """
+    Verifica se una scuola è già stata revisionata con un certo tipo di review.
+    
+    Args:
+        school_code: Codice meccanografico della scuola
+        review_type: Tipo di revisione
+        registry: Registro (se None, viene caricato)
+    
+    Returns:
+        True se già revisionata con successo
+    """
+    if registry is None:
+        registry = load_registry()
+    
+    analyzed_files = registry.get("analyzed_files", {})
+    
+    if school_code not in analyzed_files:
+        return False
+    
+    reviews = analyzed_files[school_code].get("reviews", [])
+    
+    # Cerca una revisione completata dello stesso tipo
+    for review in reviews:
+        if review.get("type") == review_type and review.get("status") == "completed":
+            return True
+    
+    return False
+
+
+def get_review_stats() -> Dict[str, Any]:
+    """
+    Ottiene statistiche sulle revisioni.
+    
+    Returns:
+        Dizionario con statistiche
+    """
+    registry = load_registry()
+    analyzed_files = registry.get("analyzed_files", {})
+    
+    stats = {
+        "total_schools": len(analyzed_files),
+        "schools_with_reviews": 0,
+        "reviews_by_type": {},
+        "reviews_by_status": {}
+    }
+    
+    for school_code, entry in analyzed_files.items():
+        reviews = entry.get("reviews", [])
+        if reviews:
+            stats["schools_with_reviews"] += 1
+        
+        for review in reviews:
+            r_type = review.get("type", "unknown")
+            r_status = review.get("status", "unknown")
+            
+            stats["reviews_by_type"][r_type] = stats["reviews_by_type"].get(r_type, 0) + 1
+            stats["reviews_by_status"][r_status] = stats["reviews_by_status"].get(r_status, 0) + 1
+    
+    return stats
+
+
 # CLI per test e debug
 if __name__ == "__main__":
     import argparse
@@ -330,6 +496,8 @@ if __name__ == "__main__":
     parser.add_argument("--clear", action="store_true", help="Pulisce il registro")
     parser.add_argument("--remove", type=str, help="Rimuove una entry specifica")
     parser.add_argument("--list", action="store_true", help="Lista tutte le entry")
+    parser.add_argument("--reviews", action="store_true", help="Mostra statistiche revisioni")
+    parser.add_argument("--school", type=str, help="Mostra dettagli per una scuola specifica")
     
     args = parser.parse_args()
     
@@ -343,6 +511,49 @@ if __name__ == "__main__":
         print(f"📋 Totale registrati: {stats['total_registered']}")
         print(f"✅ Entry valide: {stats['valid_entries']}")
         print(f"❌ JSON mancanti: {stats['missing_json']}")
+        
+        # Aggiungi stats revisioni
+        review_stats = get_review_stats()
+        if review_stats["schools_with_reviews"] > 0:
+            print(f"\n🔍 REVISIONI:")
+            print(f"   Scuole con revisioni: {review_stats['schools_with_reviews']}")
+            print(f"   Per tipo:")
+            for r_type, count in review_stats["reviews_by_type"].items():
+                print(f"      - {r_type}: {count}")
+            print(f"   Per stato:")
+            for r_status, count in review_stats["reviews_by_status"].items():
+                print(f"      - {r_status}: {count}")
+    
+    elif args.reviews:
+        review_stats = get_review_stats()
+        print("\n🔍 STATISTICHE REVISIONI")
+        print("=" * 50)
+        print(f"📋 Scuole totali: {review_stats['total_schools']}")
+        print(f"✨ Scuole con revisioni: {review_stats['schools_with_reviews']}")
+        print(f"\n📊 Per tipo di revisione:")
+        for r_type, count in review_stats["reviews_by_type"].items():
+            print(f"   {r_type}: {count}")
+        print(f"\n📊 Per stato:")
+        for r_status, count in review_stats["reviews_by_status"].items():
+            emoji = "✅" if r_status == "completed" else "❌" if r_status in ["failed", "error"] else "⚠️"
+            print(f"   {emoji} {r_status}: {count}")
+    
+    elif args.school:
+        review_info = get_review_status(args.school)
+        if review_info:
+            print(f"\n📋 DETTAGLI SCUOLA: {args.school}")
+            print("=" * 50)
+            print(f"Revisioni totali: {review_info['total_reviews']}")
+            print(f"Ultima revisione: {review_info['last_review']}")
+            print(f"\nStorico revisioni:")
+            for i, rev in enumerate(review_info['reviews'], 1):
+                status_emoji = "✅" if rev['status'] == "completed" else "❌"
+                print(f"  {i}. {status_emoji} {rev['type']} - {rev['model']} [{rev['timestamp'][:16]}]")
+                if rev.get('details'):
+                    for k, v in rev['details'].items():
+                        print(f"      {k}: {v}")
+        else:
+            print(f"❌ Scuola {args.school} non trovata nel registro")
     
     elif args.clear:
         confirm = input("⚠️ Sei sicuro di voler pulire il registro? (s/N): ")
@@ -367,7 +578,9 @@ if __name__ == "__main__":
         print("=" * 70)
         for code, entry in sorted(analyzed.items()):
             date = entry.get("analyzed_at", "?")[:10]
-            print(f"  {code}: {entry.get('pdf_name', '?')[:40]} [{date}]")
+            reviews_count = len(entry.get("reviews", []))
+            reviews_str = f" [📝{reviews_count}]" if reviews_count > 0 else ""
+            print(f"  {code}: {entry.get('pdf_name', '?')[:40]} [{date}]{reviews_str}")
     
     else:
         parser.print_help()
