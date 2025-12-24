@@ -167,6 +167,131 @@ st.plotly_chart(fig_compare, use_container_width=True)
 
 st.markdown("---")
 
+# === 2b. CLASSIFICA COMPLETA ===
+st.subheader("📋 Classifica Completa")
+st.caption("Tutte le scuole ordinate per indice di robustezza con le medie per dimensione")
+
+# Prepare complete ranking with all means
+ranking_cols = ['denominazione', 'tipo_scuola', 'regione', 'area_geografica', 'ptof_orientamento_maturity_index']
+dim_cols_ranking = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
+
+# Add dimension columns if they exist
+for col in dim_cols_ranking:
+    if col in df_valid.columns:
+        ranking_cols.append(col)
+
+df_ranking = df_valid[ranking_cols].copy()
+df_ranking = df_ranking.sort_values('ptof_orientamento_maturity_index', ascending=False)
+df_ranking.insert(0, 'Pos.', range(1, len(df_ranking) + 1))
+
+# Rename columns for display
+rename_map = {
+    'denominazione': 'Scuola',
+    'tipo_scuola': 'Tipo',
+    'regione': 'Regione',
+    'area_geografica': 'Area',
+    'ptof_orientamento_maturity_index': 'Indice',
+    'mean_finalita': 'Finalità',
+    'mean_obiettivi': 'Obiettivi',
+    'mean_governance': 'Governance',
+    'mean_didattica_orientativa': 'Didattica',
+    'mean_opportunita': 'Opportunità'
+}
+df_ranking = df_ranking.rename(columns=rename_map)
+
+# Round numeric columns
+numeric_display_cols = ['Indice', 'Finalità', 'Obiettivi', 'Governance', 'Didattica', 'Opportunità']
+for col in numeric_display_cols:
+    if col in df_ranking.columns:
+        df_ranking[col] = df_ranking[col].round(2)
+
+# Add filter options
+col_filter1, col_filter2, col_filter3 = st.columns(3)
+
+with col_filter1:
+    if 'Tipo' in df_ranking.columns:
+        tipi_filtro = ['Tutti'] + sorted(df_ranking['Tipo'].dropna().unique().tolist())
+        tipo_sel = st.selectbox("Filtra per Tipo", tipi_filtro, key='ranking_tipo')
+    else:
+        tipo_sel = 'Tutti'
+
+with col_filter2:
+    if 'Regione' in df_ranking.columns:
+        regioni_filtro = ['Tutte'] + sorted(df_ranking['Regione'].dropna().unique().tolist())
+        regione_sel = st.selectbox("Filtra per Regione", regioni_filtro, key='ranking_regione')
+    else:
+        regione_sel = 'Tutte'
+
+with col_filter3:
+    if 'Area' in df_ranking.columns:
+        aree_filtro = ['Tutte'] + sorted(df_ranking['Area'].dropna().unique().tolist())
+        area_sel = st.selectbox("Filtra per Area", aree_filtro, key='ranking_area')
+    else:
+        area_sel = 'Tutte'
+
+# Apply filters
+df_ranking_filtered = df_ranking.copy()
+if tipo_sel != 'Tutti' and 'Tipo' in df_ranking_filtered.columns:
+    df_ranking_filtered = df_ranking_filtered[df_ranking_filtered['Tipo'].str.contains(tipo_sel, na=False)]
+if regione_sel != 'Tutte' and 'Regione' in df_ranking_filtered.columns:
+    df_ranking_filtered = df_ranking_filtered[df_ranking_filtered['Regione'] == regione_sel]
+if area_sel != 'Tutte' and 'Area' in df_ranking_filtered.columns:
+    df_ranking_filtered = df_ranking_filtered[df_ranking_filtered['Area'] == area_sel]
+
+# Recalculate positions after filtering
+df_ranking_filtered = df_ranking_filtered.copy()
+df_ranking_filtered['Pos.'] = range(1, len(df_ranking_filtered) + 1)
+
+# Display stats
+st.markdown(f"**{len(df_ranking_filtered)}** scuole nella selezione (su {len(df_ranking)} totali)")
+
+# Display with progress bars
+st.dataframe(
+    df_ranking_filtered,
+    use_container_width=True,
+    hide_index=True,
+    height=500,
+    column_config={
+        'Pos.': st.column_config.NumberColumn('Pos.', width='small'),
+        'Scuola': st.column_config.TextColumn('Scuola', width='large'),
+        'Indice': st.column_config.ProgressColumn('Indice', min_value=0, max_value=7, format='%.2f'),
+        'Finalità': st.column_config.ProgressColumn('Finalità', min_value=0, max_value=7, format='%.2f'),
+        'Obiettivi': st.column_config.ProgressColumn('Obiettivi', min_value=0, max_value=7, format='%.2f'),
+        'Governance': st.column_config.ProgressColumn('Governance', min_value=0, max_value=7, format='%.2f'),
+        'Didattica': st.column_config.ProgressColumn('Didattica', min_value=0, max_value=7, format='%.2f'),
+        'Opportunità': st.column_config.ProgressColumn('Opportunità', min_value=0, max_value=7, format='%.2f'),
+    }
+)
+
+# Summary statistics for filtered selection
+if len(df_ranking_filtered) > 0:
+    with st.expander("📊 Statistiche della selezione"):
+        stat_cols = ['Indice', 'Finalità', 'Obiettivi', 'Governance', 'Didattica', 'Opportunità']
+        stat_cols = [c for c in stat_cols if c in df_ranking_filtered.columns]
+        
+        stats_summary = df_ranking_filtered[stat_cols].describe().round(2)
+        st.dataframe(stats_summary, use_container_width=True)
+        
+        # Best and worst in selection
+        col_best, col_worst = st.columns(2)
+        with col_best:
+            best = df_ranking_filtered.iloc[0]
+            st.success(f"🥇 **Migliore**: {best['Scuola'][:40]} (Indice: {best['Indice']:.2f})")
+        with col_worst:
+            worst = df_ranking_filtered.iloc[-1]
+            st.warning(f"🔻 **Ultimo**: {worst['Scuola'][:40]} (Indice: {worst['Indice']:.2f})")
+
+# Download button
+csv_data = df_ranking_filtered.to_csv(index=False)
+st.download_button(
+    label="📥 Scarica Classifica (CSV)",
+    data=csv_data,
+    file_name="classifica_scuole.csv",
+    mime="text/csv"
+)
+
+st.markdown("---")
+
 # === 3. PERCENTILE POSITIONING ===
 st.subheader("📍 Posizionamento Percentile")
 st.caption("Scopri dove si posiziona una scuola rispetto alla distribuzione nazionale")

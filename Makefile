@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini review-non-ptof outreach-portal outreach-email list-models
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini
 
 PYTHON = python3
 PIP = pip
@@ -6,6 +6,7 @@ STREAMLIT = streamlit
 DOWNLOADER = src/downloaders/ptof_downloader.py
 UPLOAD_PORTAL = src/portal/ptof_upload_portal.py
 EMAILER = src/outreach/ptof_emailer.py
+MODEL_LISTER = src/utils/list_models.py
 
 help:
 	@echo "Comandi disponibili:"
@@ -56,11 +57,15 @@ help:
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
 	@echo ""
-	@echo "🤖 MODELLI AI:"
-	@echo "  make list-models          - Stampa elenco modelli da config/pipeline_config.json"
-	@$(PYTHON) -c "import json; from pathlib import Path; p=Path('config/pipeline_config.json'); data=json.load(p.open()) if p.exists() else {}; presets=list((data.get('presets', {}) or {}).values()); models=set(); [models.add(v) for preset in presets for v in (preset.get('models', {}) or {}).values() if isinstance(v, str)]; [models.add(v.get('model')) for preset in presets for v in (preset.get('models', {}) or {}).values() if isinstance(v, dict) and v.get('model')]; models=sorted(models); print('   - ' + '\\n   - '.join(models) if models else '   - (nessun modello trovato)')"
-	@echo "   - google/gemini-2.0-flash-exp:free (default OpenRouter per review)"
-	@echo "   - gemini-2.0-flash-exp (default Gemini per review)"
+	@echo "🤖 MODELLI AI (PRESET):"
+	@echo "  make list-models             - Lista modelli dai preset (config/pipeline_config.json)"
+	@$(PYTHON) $(MODEL_LISTER) --config --prefix "   - "
+	@echo "🤖 MODELLI AI (OPENROUTER):"
+	@echo "  make list-models-openrouter  - Lista modelli OpenRouter (FREE_ONLY=1 per limitare)"
+	@$(PYTHON) $(MODEL_LISTER) --openrouter --prefix "   - "
+	@echo "🤖 MODELLI AI (GEMINI API):"
+	@echo "  make list-models-gemini      - Lista modelli Gemini (richiede GEMINI_API_KEY)"
+	@$(PYTHON) $(MODEL_LISTER) --gemini --prefix "   - "
 	@echo ""
 	@echo "⏰ AUTOMAZIONE:"
 	@echo "  make csv-watch             - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
@@ -250,3 +255,30 @@ ifndef CODE
 else
 	$(PYTHON) src/utils/analysis_registry.py --remove $(CODE)
 endif
+
+# ═══════════════════════════════════════════════════════════════════
+# OUTREACH PTOF
+# ═══════════════════════════════════════════════════════════════════
+
+outreach-portal:
+	$(STREAMLIT) run $(UPLOAD_PORTAL) --server.port $(or $(PORT),8502)
+
+outreach-email:
+	$(PYTHON) $(EMAILER) \
+		$(if $(BASE_URL),--base-url "$(BASE_URL)",) \
+		$(if $(LIMIT),--limit $(LIMIT),) \
+		$(if $(SEND),--send,) \
+		$(if $(USE_PEC),--use-pec,) \
+		$(if $(TEMPLATE),--template "$(TEMPLATE)",) \
+		$(if $(SUBJECT),--subject "$(SUBJECT)",) \
+		$(if $(SIGNATURE),--signature "$(SIGNATURE)",) \
+		$(foreach f,$(CSV),--csv "$(f)")
+
+list-models:
+	@$(PYTHON) $(MODEL_LISTER) --config
+
+list-models-openrouter:
+	@$(PYTHON) $(MODEL_LISTER) --openrouter $(if $(FREE_ONLY),--free-only,)
+
+list-models-gemini:
+	@$(PYTHON) $(MODEL_LISTER) --gemini
