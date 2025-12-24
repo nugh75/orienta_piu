@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben definita, con un focus sull'inclusione e la personalizzazione. Tuttavia, manca una chiara esplicitazione di azioni specifiche per l'orientamento in uscita."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T21:16:38.022575"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -252,6 +254,22 @@
         "orientamento_found": true,
         "report_created": false,
         "report_enriched": true,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-24T21:16:38.022855",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
         "initial_issues": 0
       }
     }

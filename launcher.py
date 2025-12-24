@@ -69,14 +69,14 @@ class PTOFLauncher(App):
     Screen {
         layout: grid;
         grid-size: 2;
-        grid-columns: 25 1fr;
+        grid-columns: 35 1fr;
     }
     #sidebar {
         height: 100%;
         background: $panel;
         border-right: solid $accent;
         overflow-y: auto;
-        width: 25;
+        width: 35;
     }
     #main {
         height: 100%;
@@ -355,8 +355,8 @@ class PTOFLauncher(App):
     def on_mount(self) -> None:
         """Inizializzazione."""
         self.show_menu("main")
-        self.log_message("🚀 PTOF Launcher avviato")
-        self.log_message("   Seleziona un comando dal menu a sinistra")
+        self.call_later(self.log_message, "🚀 PTOF Launcher avviato")
+        self.call_later(self.log_message, "   Seleziona un comando dal menu a sinistra")
     
     def show_menu(self, menu_id: str) -> None:
         """Mostra un menu specifico."""
@@ -383,6 +383,15 @@ class PTOFLauncher(App):
     @on(Button.Pressed)
     def handle_button(self, event: Button.Pressed) -> None:
         """Gestisce click sui bottoni."""
+        try:
+            self._handle_button_safe(event)
+        except Exception as e:
+            self.log_message(f"\n❌ Errore interfaccia: {e}")
+            import traceback
+            traceback.print_exc()
+
+    def _handle_button_safe(self, event: Button.Pressed) -> None:
+        """Logica gestione bottoni."""
         btn_id = event.button.id
         
         # Menu navigation
@@ -444,12 +453,13 @@ class PTOFLauncher(App):
             self.load_models("ollama")
             return
         
-        # Comandi - esegui direttamente
+        # Comandi - seleziona per esecuzione
         if btn_id.startswith("cmd-"):
             cmd = btn_id[4:]  # Rimuovi "cmd-"
             self.current_command = cmd
-            self.log_message(f"\n📌 Comando: {cmd}")
-            self.execute_command(cmd, background=False)
+            self.log_message(f"\n📌 Selezionato: {cmd}")
+            self.log_message("   Configura i parametri in alto e premi ▶️ ESEGUI")
+            # self.execute_command(cmd, background=False)
     
     def load_models(self, provider: str) -> None:
         """Carica modelli da provider."""
@@ -515,7 +525,7 @@ class PTOFLauncher(App):
                 args.append(f"CHUNK={chunk}")
         
         if cmd in ("ollama-score-review", "ollama-report-review", "ollama-review-all",
-                   "review-non-ptof"):
+                   "review-non-ptof", "review-gemini"):
             if limit:
                 args.append(f"LIMIT={limit}")
         
@@ -527,7 +537,7 @@ class PTOFLauncher(App):
                 args.append(f"HIGH={high}")
         
         if cmd in ("ollama-score-review", "ollama-report-review", "ollama-review-all",
-                   "review-scores", "review-scores-gemini"):
+                   "review-scores", "review-scores-gemini", "review-gemini"):
             if code:
                 args.append(f"TARGET={code}")
         

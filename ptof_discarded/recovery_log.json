@@ -5406,6 +5406,27 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2025-12-24T21:02:32.729186"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CHTF01101V_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CHTF01101V_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CHTF01101V_PTOF.pdf",
+        "file_name": "CHTF01101V_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.19000000000000009,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 21894,
+        "ptof_keywords_found": 25,
+        "exclusion_keywords_found": 5,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo analizzato è un atto di indirizzo del dirigente scolastico per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e il contenuto specifico del piano formativo.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-24T21:18:16.932990",
+        "reason": "Rifiutato da LLM (circolare: Il testo analizzato è un atto di indirizzo del dirigente scolastico per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e il contenuto specifico del piano formativo.)"
+      },
+      "timestamp": "2025-12-24T21:18:36.603708"
     }
   ]
 }

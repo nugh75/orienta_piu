@@ -223,7 +223,7 @@ review-slow:
 
 # Gemini Review (uso: make review-gemini MODEL=gemini-1.5-pro)
 review-gemini:
-	$(PYTHON) src/processing/gemini_reviewer.py $(if $(MODEL),--model "$(MODEL)",)
+	$(PYTHON) src/processing/gemini_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(WAIT),--wait $(WAIT),)
 
 # Ollama Report Review (uso: make review-ollama MODEL=qwen3:32b)
 review-ollama:
