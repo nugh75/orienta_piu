@@ -3527,111 +3527,6 @@
       "strato": "PAR_ISOLE_NON_METRO_SEC_PRIMO",
       "size": 257353,
       "timestamp": "2025-12-24T06:20:59.613115"
-    },
-    "TAPS021014": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/TAPS021014_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_SUD_NON_METRO_SEC_SECONDO",
-      "size": 1197152,
-      "timestamp": "2025-12-24T09:57:01.910354"
-    },
-    "CETD047514": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/CETD047514_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_SUD_NON_METRO_SEC_SECONDO",
-      "size": 1197152,
-      "timestamp": "2025-12-24T09:57:10.155104"
-    },
-    "CETD02951E": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/CETD02951E_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_SUD_NON_METRO_SEC_SECONDO",
-      "size": 412545,
-      "timestamp": "2025-12-24T09:57:11.164104"
-    },
-    "MBAA8GA028": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/MBAA8GA028_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_NORD OVEST_NON_METRO_INFANZIA",
-      "size": 696731,
-      "timestamp": "2025-12-24T09:57:12.169398"
-    },
-    "CNAA81303X": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/CNAA81303X_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_NORD OVEST_NON_METRO_INFANZIA",
-      "size": 676316,
-      "timestamp": "2025-12-24T09:57:13.177857"
-    },
-    "FGEE00501A": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/FGEE00501A_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_SUD_NON_METRO_PRIMARIA",
-      "size": 748921,
-      "timestamp": "2025-12-24T09:57:23.729536"
-    },
-    "SAEE83006E": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/SAEE83006E_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_SUD_NON_METRO_PRIMARIA",
-      "size": 894945,
-      "timestamp": "2025-12-24T09:57:24.737241"
-    },
-    "TEEE84402Q": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/TEEE84402Q_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_SUD_NON_METRO_PRIMARIA",
-      "size": 894945,
-      "timestamp": "2025-12-24T09:57:26.746011"
-    },
-    "LTIC809007": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/LTIC809007_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_CENTRO_NON_METRO_ALTRO",
-      "size": 1759521,
-      "timestamp": "2025-12-24T09:57:28.758568"
-    },
-    "PSRI02050R": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/PSRI02050R_PTOF.pdf",
-      "source": "existing",
-      "strato": "STAT_CENTRO_NON_METRO_ALTRO",
-      "size": 412545,
-      "timestamp": "2025-12-24T09:57:29.766409"
-    },
-    "MSVC01000G": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/MSVC01000G_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_CENTRO_NON_METRO_ALTRO",
-      "size": 1408647,
-      "timestamp": "2025-12-24T09:57:37.502975"
-    },
-    "LTIC81300V": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/LTIC81300V_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_CENTRO_NON_METRO_ALTRO",
-      "size": 810601,
-      "timestamp": "2025-12-24T09:57:47.073518"
-    },
-    "LURI01601N": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/LURI01601N_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_CENTRO_NON_METRO_ALTRO",
-      "size": 974944,
-      "timestamp": "2025-12-24T09:57:58.061407"
-    },
-    "CSMM8AT019": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/CSMM8AT019_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_SUD_NON_METRO_SEC_PRIMO",
-      "size": 810601,
-      "timestamp": "2025-12-24T09:58:03.794828"
-    },
-    "BRMM841015": {
-      "path": "/Users/danieledragoni/git/LIste/ptof_inbox/BRMM841015_PTOF.pdf",
-      "source": "duckduckgo",
-      "strato": "STAT_SUD_NON_METRO_SEC_PRIMO",
-      "size": 398327,
-      "timestamp": "2025-12-24T09:58:50.573447"
     }
   },
   "failed": {
@@ -3667,15 +3562,15 @@
     },
     "COAA80402R": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 2,
+      "attempts": 1,
       "strato": "STAT_NORD OVEST_NON_METRO_INFANZIA",
-      "last_attempt": "2025-12-24T09:57:19.585435"
+      "last_attempt": "2025-12-23T19:53:12.649110"
     },
     "BSAA88701T": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 2,
+      "attempts": 1,
       "strato": "STAT_NORD OVEST_NON_METRO_INFANZIA",
-      "last_attempt": "2025-12-24T09:57:22.720755"
+      "last_attempt": "2025-12-23T19:53:15.683804"
     },
     "FGEE00501A": {
       "reason": "Nessuna strategia ha funzionato",
@@ -3733,15 +3628,15 @@
     },
     "SAMM8AH01N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 2,
+      "attempts": 1,
       "strato": "STAT_SUD_NON_METRO_SEC_PRIMO",
-      "last_attempt": "2025-12-24T09:58:11.031585"
+      "last_attempt": "2025-12-23T19:54:15.746192"
     },
     "CZMM83002X": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 2,
+      "attempts": 1,
       "strato": "STAT_SUD_NON_METRO_SEC_PRIMO",
-      "last_attempt": "2025-12-24T09:58:37.026638"
+      "last_attempt": "2025-12-23T19:54:28.243335"
     },
     "BRMM841015": {
       "reason": "Nessuna strategia ha funzionato",
@@ -9085,381 +8980,381 @@
     },
     "CTAA8BE01E": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:03.368089"
+      "last_attempt": "2025-12-24T09:54:29.237235"
     },
     "CTAA86201D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:33.224036"
+      "last_attempt": "2025-12-24T09:54:58.492699"
     },
     "MEAA842013": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:37.107191"
+      "last_attempt": "2025-12-24T09:55:01.768576"
     },
     "CTAA8AR05B": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:41.488174"
+      "last_attempt": "2025-12-24T09:55:05.012444"
     },
     "MEAA83201C": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:44.865840"
+      "last_attempt": "2025-12-24T09:55:08.639286"
     },
     "PAAA88504T": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:45:48.259257"
+      "last_attempt": "2025-12-24T09:55:12.098644"
     },
     "CTAA89807E": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:46:58.649762"
+      "last_attempt": "2025-12-24T09:56:22.366009"
     },
     "MEAA8AD097": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:47:02.401582"
+      "last_attempt": "2025-12-24T09:56:25.960913"
     },
     "PAAA8A2011": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:48:53.051339"
+      "last_attempt": "2025-12-24T09:57:33.961681"
     },
     "CAAA870072": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:48:57.424671"
+      "last_attempt": "2025-12-24T09:57:37.482196"
     },
     "MEAA872053": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:01.329835"
+      "last_attempt": "2025-12-24T09:57:41.071117"
     },
     "CTAA830023": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:04.787277"
+      "last_attempt": "2025-12-24T09:57:44.233077"
     },
     "MEAA82405N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:16.519530"
+      "last_attempt": "2025-12-24T09:57:48.255151"
     },
     "CTAA84204B": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:42.532503"
+      "last_attempt": "2025-12-24T09:57:56.471612"
     },
     "MEAA827033": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:45.941283"
+      "last_attempt": "2025-12-24T09:57:59.877773"
     },
     "CTAA8AQ03D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:49.265604"
+      "last_attempt": "2025-12-24T09:58:03.096694"
     },
     "CTAA815032": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:52.836847"
+      "last_attempt": "2025-12-24T09:58:06.371827"
     },
     "CTAA881031": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:56.255331"
+      "last_attempt": "2025-12-24T09:58:09.519544"
     },
     "PAAA84903N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:49:59.702888"
+      "last_attempt": "2025-12-24T09:58:12.752459"
     },
     "PAAA8BM028": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:20.920280"
+      "last_attempt": "2025-12-24T09:58:16.743993"
     },
     "CTAA8BQ012": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:24.604442"
+      "last_attempt": "2025-12-24T09:58:19.832185"
     },
     "PAAA84801Q": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:30.114288"
+      "last_attempt": "2025-12-24T09:58:23.081713"
     },
     "CAAA845035": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:33.326018"
+      "last_attempt": "2025-12-24T09:58:26.195722"
     },
     "MEAA83807N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:37.927215"
+      "last_attempt": "2025-12-24T09:58:36.861101"
     },
     "CAAA8AK01Q": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:45.462720"
+      "last_attempt": "2025-12-24T09:58:42.402618"
     },
     "CAAA86402D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:50:49.588682"
+      "last_attempt": "2025-12-24T09:58:45.550862"
     },
     "CTAA8A0084": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:51:39.349839"
+      "last_attempt": "2025-12-24T09:58:51.818464"
     },
     "CAAA845013": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:51:41.923580"
+      "last_attempt": "2025-12-24T09:58:54.400086"
     },
     "PAAA892052": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:51:45.428046"
+      "last_attempt": "2025-12-24T09:58:57.754944"
     },
     "PAAA83005P": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:51:50.201855"
+      "last_attempt": "2025-12-24T09:59:01.712467"
     },
     "PAAA8BF01V": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:51:53.862405"
+      "last_attempt": "2025-12-24T09:59:04.643765"
     },
     "CTAA887052": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:52:45.140084"
+      "last_attempt": "2025-12-24T09:59:35.053572"
     },
     "MEAA856022": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:52:48.627796"
+      "last_attempt": "2025-12-24T09:59:38.341638"
     },
     "CAAA84601V": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:52:52.139222"
+      "last_attempt": "2025-12-24T09:59:42.440922"
     },
     "MEAA8AE04T": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:53:06.209742"
+      "last_attempt": "2025-12-24T09:59:52.517538"
     },
     "MEAA881081": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:53:09.792807"
+      "last_attempt": "2025-12-24T09:59:56.371279"
     },
     "PAAA85501V": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:53:42.958497"
+      "last_attempt": "2025-12-24T10:00:01.514361"
     },
     "CTAA8BJ017": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_ISOLE_METRO_INFANZIA",
-      "last_attempt": "2025-12-23T22:53:51.097780"
+      "last_attempt": "2025-12-24T10:00:07.361478"
     },
     "VITD02000N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:54:00.120552"
+      "last_attempt": "2025-12-24T10:00:14.350761"
     },
     "MOIC80500Q": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:02.768092"
+      "last_attempt": "2025-12-24T10:02:14.787400"
     },
     "VRCT71300A": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:09.730453"
+      "last_attempt": "2025-12-24T10:02:19.556380"
     },
     "FOIC818007": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:46.425010"
+      "last_attempt": "2025-12-24T10:02:47.301222"
     },
     "MOCT701009": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:49.634281"
+      "last_attempt": "2025-12-24T10:02:50.573013"
     },
     "GORI01101C": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:52.974134"
+      "last_attempt": "2025-12-24T10:02:53.576975"
     },
     "VRCT70500B": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:56:57.345708"
+      "last_attempt": "2025-12-24T10:02:57.571463"
     },
     "PRIC839006": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:57:08.906098"
+      "last_attempt": "2025-12-24T10:03:06.991132"
     },
     "FORI009018": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:57:12.052266"
+      "last_attempt": "2025-12-24T10:03:10.630126"
     },
     "PDIC82800D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:57:52.424303"
+      "last_attempt": "2025-12-24T10:03:38.544841"
     },
     "PDRI02201A": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:02.684686"
+      "last_attempt": "2025-12-24T10:03:46.844519"
     },
     "VRIC87000N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:05.395431"
+      "last_attempt": "2025-12-24T10:03:49.325877"
     },
     "TSIC80200N": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:44.335134"
+      "last_attempt": "2025-12-24T10:04:26.428225"
     },
     "RNIC811008": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:46.847783"
+      "last_attempt": "2025-12-24T10:04:29.001809"
     },
     "VIIC885003": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:49.297661"
+      "last_attempt": "2025-12-24T10:04:32.142586"
     },
     "UDIC84600D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:51.617534"
+      "last_attempt": "2025-12-24T10:04:34.666182"
     },
     "TVRH01005V": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:58:57.267773"
+      "last_attempt": "2025-12-24T10:04:39.951944"
     },
     "PDTD01701D": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:00.540817"
+      "last_attempt": "2025-12-24T10:04:43.597935"
     },
     "TSRC001509": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:03.723155"
+      "last_attempt": "2025-12-24T10:04:46.748727"
     },
     "UDIC85300L": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:06.155485"
+      "last_attempt": "2025-12-24T10:04:49.770104"
     },
     "PDIC87200G": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:10.653837"
+      "last_attempt": "2025-12-24T10:04:53.756471"
     },
     "FEIC824002": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:31.484221"
+      "last_attempt": "2025-12-24T10:05:11.160868"
     },
     "TVIC847001": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:34.061805"
+      "last_attempt": "2025-12-24T10:05:13.634273"
     },
     "ROIC80000E": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:36.685132"
+      "last_attempt": "2025-12-24T10:05:16.450979"
     },
     "RNRC00201L": {
       "reason": "Nessuna strategia ha funzionato",
-      "attempts": 1,
+      "attempts": 2,
       "strato": "STAT_NORD EST_NON_METRO_ALTRO",
-      "last_attempt": "2025-12-23T22:59:39.687165"
+      "last_attempt": "2025-12-24T10:05:19.796754"
     },
     "MOIC83000C": {
       "reason": "Nessuna strategia ha funzionato",
@@ -27493,34 +27388,29 @@
       "reason": "Documento generico (score=0.30)",
       "strato": "PAR_NORD EST_METRO_SEC_PRIMO",
       "timestamp": "2025-12-24T06:21:43.518254"
-    },
-    "CZMM83002X": {
-      "reason": "PTOF probabile (score=0.75, keywords=['piano triennale', 'offerta formativa', 'competenze', 'valutazione', 'inclusione'])",
-      "strato": "STAT_SUD_NON_METRO_SEC_PRIMO",
-      "timestamp": "2025-12-24T09:58:37.024995"
     }
   },
-  "last_run": "2025-12-24T09:58:50.575275",
+  "last_run": "2025-12-24T10:05:19.797901",
   "stats_per_strato": {
     "STAT_SUD_NON_METRO_SEC_SECONDO": {
-      "downloaded": 22,
+      "downloaded": 19,
       "failed": 64
     },
     "STAT_NORD OVEST_NON_METRO_INFANZIA": {
-      "downloaded": 8,
-      "failed": 94
+      "downloaded": 6,
+      "failed": 92
     },
     "STAT_SUD_NON_METRO_PRIMARIA": {
-      "downloaded": 14,
+      "downloaded": 11,
       "failed": 83
     },
     "STAT_CENTRO_NON_METRO_ALTRO": {
-      "downloaded": 11,
+      "downloaded": 6,
       "failed": 90
     },
     "STAT_SUD_NON_METRO_SEC_PRIMO": {
-      "downloaded": 10,
-      "failed": 90
+      "downloaded": 8,
+      "failed": 88
     },
     "STAT_CENTRO_METRO_SEC_PRIMO": {
       "downloaded": 6,
@@ -27588,11 +27478,11 @@
     },
     "STAT_ISOLE_METRO_INFANZIA": {
       "downloaded": 12,
-      "failed": 38
+      "failed": 76
     },
     "STAT_NORD EST_NON_METRO_ALTRO": {
       "downloaded": 3,
-      "failed": 47
+      "failed": 72
     },
     "STAT_NORD OVEST_METRO_SEC_SECONDO": {
       "downloaded": 10,

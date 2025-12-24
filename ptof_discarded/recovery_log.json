@@ -546,6 +546,48 @@
         "reason": "Solo 4 pagine (minimo: 5)"
       },
       "timestamp": "2025-12-24T09:56:48.788766"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NAAA8BW034_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/NAAA8BW034_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NAAA8BW034_PTOF.pdf",
+        "file_name": "NAAA8BW034_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.42,
+        "phase": "llm",
+        "page_count": 16,
+        "char_count": 15907,
+        "ptof_keywords_found": 19,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T10:02:19.523082",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T10:03:19.584522"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/AREE820018_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/AREE820018_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/AREE820018_PTOF.pdf",
+        "file_name": "AREE820018_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 11784,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T10:05:05.186207",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-24T10:05:05.188682"
     }
   ]
 }

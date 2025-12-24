@@ -68,5 +68,33 @@
       "/Users/danieledragoni/git/LIste/ptof_md/AREE82004B_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "NAAA8BW034",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NAAA8BW034_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (Errore analisi LLM)",
+    "confidence": 0.42,
+    "timestamp": "2025-12-24T10:03:19.582787",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/NAAA8BW034_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/NAAA8BW034_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/NAAA8BW034_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "AREE820018",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/AREE820018_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 4 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T10:05:05.186354",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/AREE820018_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/AREE820018_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/AREE820018_ptof.md"
+    ],
+    "action": "removed"
   }
 ]
