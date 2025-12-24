@@ -102,7 +102,7 @@
         "score": 5
       },
       "didattica_interdisciplinare": {
-        "score": 4
+        "score": 6
       }
     },
     "2_7_opzionali_facoltative": {
@@ -364,35 +364,5 @@
     }
   ],
   "narrative": "Il Piano Triennale dell'Offerta Formativa (PTOF) dell'Ic Bisignano \"G. Pucciano\" delinea una visione strategica per il periodo 2022-2025, focalizzandosi sull'orientamento, l'innovazione didattica e l'inclusione. La scuola si impegna a fornire una sezione dedicata all'orientamento, pur riconoscendo la necessità di definire obiettivi specifici più chiari.  Un elemento centrale del PTOF è la costruzione di partnership con enti locali, associazioni culturali, del terzo settore, società sportive, altre istituzioni scolastiche e l'Università degli Studi della Basilicata, per arricchire l'offerta formativa e favorire l'integrazione con il territorio. Le finalità del PTOF sono orientate alla valorizzazione delle attitudini e degli interessi degli studenti, allo sviluppo di un progetto di vita consapevole e alla preparazione alle transizioni formative. L'istituto si propone di ridurre l'abbandono scolastico, promuovere la continuità territoriale e incentivare il lifelong learning. Le azioni previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e un sistema di monitoraggio delle attività. Particolare attenzione è rivolta alla didattica orientativa, con l'utilizzo di metodologie innovative come l'apprendimento basato sull'esperienza, i laboratori e la flessibilità degli spazi e dei tempi. Il PTOF prevede, inoltre, un'offerta di attività opzionali in ambito culturale, laboratoriale, ludico-ricreativo, di volontariato e sportivo. Le attività registrate, come i laboratori digitali, i progetti di letteratura e inglese, e le iniziative STEM, testimoniano l'impegno della scuola nel promuovere competenze chiave per il futuro.  L'istituto si concentra sull'offerta di percorsi formativi che promuovano la crescita personale e sociale degli studenti, con un'attenzione particolare alla prevenzione delle dipendenze e alla sensibilizzazione sui temi della salute e della sicurezza.",
-  "review_notes": "Il documento presenta una struttura articolata con obiettivi e azioni specifiche per migliorare la qualità dell'offerta formativa e favorire l'inclusione e il successo degli studenti.",
-  "processing_history": [
-    {
-      "timestamp": "2025-12-24T19:56:51.838310",
-      "activity": "ollama_score_review",
-      "model": "qwen3:32b",
-      "status": "completed",
-      "details": {
-        "chunks_analyzed": 13,
-        "extreme_scores_checked": 1,
-        "scores_modified": 1,
-        "orientamento_found": true,
-        "changes": [
-          {
-            "path": "ptof_section2.2_6_didattica_orientativa.didattica_interdisciplinare.score",
-            "old": 6,
-            "new": 4,
-            "reason": "Il testo menziona l'interdisciplinarietà come elemento dell'educazione alimentare, ma non fornisce d"
-          }
-        ]
-      }
-    }
-  ],
-  "review_history": [
-    {
-      "timestamp": "2025-12-24T19:56:51.838333",
-      "reviewer": "ollama/qwen3:32b",
-      "type": "score_review",
-      "changes": 1
-    }
-  ]
+  "review_notes": "Il documento presenta una struttura articolata con obiettivi e azioni specifiche per migliorare la qualità dell'offerta formativa e favorire l'inclusione e il successo degli studenti."
 }

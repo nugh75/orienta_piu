@@ -11,6 +11,7 @@ import shutil
 import subprocess
 import logging
 import importlib
+import signal
 from pathlib import Path
 from datetime import datetime
 import time
@@ -46,6 +47,44 @@ CSV_FILE = BASE_DIR / "data" / "analysis_summary.csv"
 DOWNLOAD_LOCK = INBOX_DIR / ".download_in_progress"
 WAIT_SECONDS = int(os.environ.get("PTOF_DOWNLOAD_WAIT_SECONDS", "10"))
 
+# Flag per uscita controllata
+EXIT_REQUESTED = False
+
+def graceful_exit_handler(signum, frame):
+    """Handler per uscita controllata con Ctrl+C."""
+    global EXIT_REQUESTED
+    if EXIT_REQUESTED:
+        print("\n\n⚠️ Uscita forzata (seconda interruzione).", flush=True)
+        sys.exit(1)
+    
+    EXIT_REQUESTED = True
+    print("\n\n🛑 USCITA RICHIESTA - Salvataggio in corso...", flush=True)
+    print("   (Premi Ctrl+C di nuovo per uscita forzata)", flush=True)
+
+# Registra handler per SIGINT (Ctrl+C)
+signal.signal(signal.SIGINT, graceful_exit_handler)
+
+def save_and_exit():
+    """Salva tutti i dati e esce in modo pulito."""
+    print("\n📝 Salvataggio registro analisi...", flush=True)
+    try:
+        from src.utils.analysis_registry import save_registry, load_registry
+        registry = load_registry()
+        save_registry(registry)
+        print("   ✅ Registro salvato", flush=True)
+    except Exception as e:
+        print(f"   ⚠️ Errore salvataggio registro: {e}", flush=True)
+    
+    print("\n📊 Rigenerazione CSV...", flush=True)
+    try:
+        subprocess.run([sys.executable, "src/data/rebuild_csv.py"], cwd=BASE_DIR, check=False, timeout=60)
+        print("   ✅ CSV rigenerato", flush=True)
+    except Exception as e:
+        print(f"   ⚠️ Errore rigenerazione CSV: {e}", flush=True)
+    
+    print("\n✅ Uscita completata. I risultati parziali sono stati salvati.", flush=True)
+    sys.exit(0)
+
 # Crea directory
 for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
@@ -53,6 +92,7 @@ for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
 print("="*70, flush=True)
 print("🚀 WORKFLOW COMPLETO ANALISI PTOF", flush=True)
 print(f"🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", flush=True)
+print("💡 Premi Ctrl+C per uscita controllata con salvataggio", flush=True)
 print("="*70, flush=True)
 
 # =====================================================
@@ -85,6 +125,10 @@ if FORCE_CODE:
 
 # Conta PDF
 while True:
+    # Controllo uscita richiesta
+    if EXIT_REQUESTED:
+        save_and_exit()
+    
     inbox_pdfs = list(INBOX_DIR.glob("*.pdf"))
     print(f"\n📥 PDF in inbox: {len(inbox_pdfs)}", flush=True)
 
@@ -105,17 +149,20 @@ while True:
 
         try:
             from src.validation.ptof_validator import validate_inbox
-            validation_results = validate_inbox(move_invalid=True)
+            validation_results = validate_inbox(move_invalid=True, use_registry=True)
             stats = validation_results.get("stats", {})
             if stats:
-                print(
+                skipped = stats.get('skipped_already_valid', 0)
+                msg = (
                     f"   ✅ Validi: {stats.get('valid', 0)} | "
                     f"❌ Non PTOF: {stats.get('not_ptof', 0)} | "
                     f"📄 Troppo corti: {stats.get('too_short', 0)} | "
                     f"💔 Corrotti: {stats.get('corrupted', 0)} | "
-                    f"❓ Ambigui: {stats.get('ambiguous', 0)}",
-                    flush=True,
+                    f"❓ Ambigui: {stats.get('ambiguous', 0)}"
                 )
+                if skipped > 0:
+                    msg += f" | ⏭️ Già validati: {skipped}"
+                print(msg, flush=True)
         except Exception as e:
             print(f"⚠️ Validazione PTOF fallita: {e}", flush=True)
 
@@ -257,6 +304,10 @@ while True:
             return current_path
     
         for pdf_path in inbox_pdfs:
+            # Controllo uscita richiesta
+            if EXIT_REQUESTED:
+                save_and_exit()
+            
             school_code, candidates, miur_data, source = extract_school_code(pdf_path.stem, SCHOOL_DB, pdf_path)
             if not school_code:
                 print(f"❌ {pdf_path.name}: Codice non estratto", flush=True)
@@ -329,6 +380,10 @@ while True:
         converted = []
     
         for pdf_path, school_code, miur_data in process_pdfs:
+            # Controllo uscita richiesta
+            if EXIT_REQUESTED:
+                save_and_exit()
+            
             md_output = MD_DIR / f"{school_code}_ptof.md"
         
             # Verifica se già analizzato
@@ -374,6 +429,10 @@ while True:
             analyzed = []
         
             for pdf_path, school_code, miur_data in converted:
+                # Controllo uscita richiesta
+                if EXIT_REQUESTED:
+                    save_and_exit()
+                
                 md_file = MD_DIR / f"{school_code}_ptof.md"
             
                 if not md_file.exists():

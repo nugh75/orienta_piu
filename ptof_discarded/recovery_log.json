@@ -5238,6 +5238,48 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2025-12-24T19:33:46.318429"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/LU1E00700B_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/LU1E00700B_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/LU1E00700B_PTOF.pdf",
+        "file_name": "LU1E00700B_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.44000000000000006,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 12524,
+        "ptof_keywords_found": 21,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T20:03:13.531580",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T20:04:13.653154"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CANICATTÃŒ_AGIS00100X.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X.pdf",
+        "file_name": "CANICATTÃŒ_AGIS00100X.pdf",
+        "result": "not_ptof",
+        "confidence": 0.38,
+        "phase": "llm",
+        "page_count": 7,
+        "char_count": 17346,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T20:12:35.156192",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T20:13:35.201334"
     }
   ]
 }

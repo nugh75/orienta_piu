@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 6,
+      "score": 2,
       "note": "La sezione è presente e dettagliata. L'indice cita moduli di orientamento formativo (p. 436) e tutor per l'orientamento (p. 19)."
     },
     "2_2_partnership": {
@@ -65,33 +65,33 @@
     },
     "2_4_obiettivi": {
       "obiettivo_ridurre_abbandono": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_continuita_territorio": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_contrastare_neet": {
         "score": 4
       },
       "obiettivo_lifelong_learning": {
-        "score": 6
+        "score": 5
       }
     },
     "2_5_azioni_sistema": {
       "action_coordinamento_servizi": {
-        "score": 6
+        "score": 5
       },
       "azione_dialogo_docenti_studenti": {
         "score": 5
       },
       "azione_rapporto_scuola_genitori": {
-        "score": 6
+        "score": 5
       },
       "azione_monitoraggio_azioni": {
         "score": 5
       },
       "azione_sistema_integrato_inclusione_fragilita": {
-        "score": 6
+        "score": 5
       }
     },
     "2_6_didattica_orientativa": {
@@ -99,7 +99,7 @@
         "score": 5
       },
       "didattica_laboratoriale": {
-        "score": 6
+        "score": 5
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 5
@@ -110,10 +110,10 @@
     },
     "2_7_opzionali_facoltative": {
       "opzionali_culturali": {
-        "score": 6
+        "score": 5
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 6
+        "score": 5
       },
       "opzionali_ludiche_ricreative": {
         "score": 3
@@ -156,5 +156,89 @@
       "evidence_location": "Pagina 23"
     }
   ],
-  "review_notes": "Nota generale: il documento presenta una buona struttura e contiene evidenze per la maggior parte degli aspetti valutati. Tuttavia, alcuni punteggi massimi potrebbero essere rivisti per garantire una valutazione più precisa."
+  "review_notes": "Nota generale: il documento presenta una buona struttura e contiene evidenze per la maggior parte degli aspetti valutati. Tuttavia, alcuni punteggi massimi potrebbero essere rivisti per garantire una valutazione più precisa.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T19:47:05.628780",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 68,
+        "extreme_scores_checked": 12,
+        "scores_modified": 10,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 6,
+            "new": 2,
+            "reason": "Nel testo non è presente una sezione esplicita dedicata all'orientamento. Le citazioni menzionate (p"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_ridurre_abbandono.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'obiettivo di ridurre l'abbandono scolastico, nonostan"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_continuita_territorio.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'obiettivo di continuità territoriale, nonostante il p"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_lifelong_learning.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'obiettivo di lifelong learning, nonostante il puntegg"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.action_coordinamento_servizi.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'azione di coordinamento dei servizi, nonostante il pu"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_rapporto_scuola_genitori.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'azione di rapporto scuola-genitori, nonostante il pun"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sull'azione del sistema integrato per l'inclusione delle f"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_laboratoriale.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sulla didattica laboratoriale, nonostante il punteggio ass"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_culturali.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sugli opzionali culturali, nonostante il punteggio assegna"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non fornisce evidenze specifiche sugli opzionali laboratoriali espressivi, nonostante il pu"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-24T19:47:05.628801",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 10
+    }
+  ]
 }

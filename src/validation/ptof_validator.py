@@ -47,12 +47,105 @@ DISCARDED_TOO_SHORT = DISCARDED_DIR / "too_short"
 DISCARDED_CORRUPTED = DISCARDED_DIR / "corrupted"
 RECOVERY_LOG = DISCARDED_DIR / "recovery_log.json"
 ALLOWLIST_FILE = BASE_DIR / "data" / "ptof_validator_allowlist.txt"
+VALIDATION_REGISTRY_FILE = BASE_DIR / "data" / "validation_registry.json"
 
 # Soglie
 MIN_PAGES = 5  # Minimo pagine per un PTOF valido
 MIN_CHARS = 3000  # Minimo caratteri estratti
 CONFIDENCE_THRESHOLD_HEURISTIC = 0.65  # Se > 0.65, skip LLM
 CONFIDENCE_THRESHOLD_LLM = 0.45  # Se > 0.45 dopo LLM, accetta
+
+
+# =====================================================
+# REGISTRO VALIDAZIONE
+# =====================================================
+
+def _compute_file_hash(file_path: Path) -> str:
+    """Calcola hash SHA256 del file."""
+    import hashlib
+    hash_func = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            hash_func.update(chunk)
+    return hash_func.hexdigest()
+
+
+def load_validation_registry() -> Dict:
+    """Carica il registro delle validazioni."""
+    if not VALIDATION_REGISTRY_FILE.exists():
+        return {"validated_files": {}, "last_updated": None}
+    try:
+        with open(VALIDATION_REGISTRY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Errore caricamento registro validazione: {e}")
+        return {"validated_files": {}, "last_updated": None}
+
+
+def save_validation_registry(registry: Dict) -> bool:
+    """Salva il registro delle validazioni."""
+    try:
+        VALIDATION_REGISTRY_FILE.parent.mkdir(parents=True, exist_ok=True)
+        registry["last_updated"] = datetime.now().isoformat()
+        with open(VALIDATION_REGISTRY_FILE, "w", encoding="utf-8") as f:
+            json.dump(registry, f, indent=2, ensure_ascii=False)
+        return True
+    except Exception as e:
+        logger.error(f"Errore salvataggio registro validazione: {e}")
+        return False
+
+
+def is_already_validated(pdf_path: Path, registry: Dict = None) -> Tuple[bool, Optional[str]]:
+    """
+    Verifica se un PDF è già stato validato.
+    
+    Returns:
+        (True, result) se già validato con stesso hash
+        (False, None) se nuovo o modificato
+    """
+    if registry is None:
+        registry = load_validation_registry()
+    
+    validated = registry.get("validated_files", {})
+    file_key = pdf_path.name
+    
+    if file_key not in validated:
+        return False, None
+    
+    entry = validated[file_key]
+    try:
+        current_hash = _compute_file_hash(pdf_path)
+    except Exception:
+        return False, None
+    
+    if current_hash == entry.get("hash"):
+        return True, entry.get("result")
+    
+    return False, None
+
+
+def register_validation(pdf_path: Path, result: str, confidence: float, 
+                        registry: Dict = None, auto_save: bool = True) -> Dict:
+    """Registra una validazione completata."""
+    if registry is None:
+        registry = load_validation_registry()
+    
+    try:
+        file_hash = _compute_file_hash(pdf_path)
+    except Exception:
+        file_hash = "error"
+    
+    registry["validated_files"][pdf_path.name] = {
+        "hash": file_hash,
+        "result": result,
+        "confidence": confidence,
+        "validated_at": datetime.now().isoformat()
+    }
+    
+    if auto_save:
+        save_validation_registry(registry)
+    
+    return registry
 
 
 class ValidationResult(Enum):
@@ -656,9 +749,14 @@ Rispondi SOLO in questo formato JSON:
         
         return dest_path
     
-    def validate_batch(self, pdf_dir: Path, move_invalid: bool = True) -> Dict:
+    def validate_batch(self, pdf_dir: Path, move_invalid: bool = True, use_registry: bool = True) -> Dict:
         """
         Valida tutti i PDF in una directory.
+        
+        Args:
+            pdf_dir: Directory contenente i PDF
+            move_invalid: Se True, sposta i file non validi
+            use_registry: Se True, salta i file già validati
         
         Returns:
             Dizionario con statistiche e reports
@@ -670,14 +768,37 @@ Rispondi SOLO in questo formato JSON:
             "too_short": [],
             "corrupted": [],
             "ambiguous": [],
+            "skipped": [],  # File già validati
             "stats": {}
         }
         
         pdf_files = list(pdf_dir.glob("*.pdf"))
         logger.info(f"📂 Validazione batch: {len(pdf_files)} PDF in {pdf_dir}")
         
+        # Carica registro validazione
+        validation_registry = load_validation_registry() if use_registry else None
+        skipped_count = 0
+        
         for pdf_path in pdf_files:
+            # Controlla se già validato
+            if use_registry and validation_registry:
+                already_validated, cached_result = is_already_validated(pdf_path, validation_registry)
+                if already_validated:
+                    skipped_count += 1
+                    # Aggiungi al risultato appropriato senza rivalidare
+                    if cached_result == ValidationResult.VALID_PTOF.value:
+                        results["skipped"].append({"file": pdf_path.name, "result": cached_result})
+                    # I file non validi dovrebbero già essere stati spostati
+                    continue
+            
             report = self.validate(pdf_path)
+            
+            # Registra la validazione
+            if use_registry:
+                validation_registry = register_validation(
+                    pdf_path, report.result, report.confidence, 
+                    validation_registry, auto_save=False
+                )
             
             if report.result == ValidationResult.VALID_PTOF.value:
                 results["valid"].append(report)
@@ -696,6 +817,10 @@ Rispondi SOLO in questo formato JSON:
             else:
                 results["ambiguous"].append(report)
         
+        # Salva registro una volta alla fine
+        if use_registry and validation_registry:
+            save_validation_registry(validation_registry)
+        
         # Statistiche
         total = len(pdf_files)
         results["stats"] = {
@@ -705,10 +830,14 @@ Rispondi SOLO in questo formato JSON:
             "too_short": len(results["too_short"]),
             "corrupted": len(results["corrupted"]),
             "ambiguous": len(results["ambiguous"]),
+            "skipped": skipped_count,
+            "skipped_already_valid": skipped_count,  # alias più esplicito
             "valid_rate": len(results["valid"]) / total if total > 0 else 0
         }
         
         logger.info(f"📊 Risultati batch:")
+        if skipped_count > 0:
+            logger.info(f"   ⏭️ Saltati (già validati): {skipped_count}")
         logger.info(f"   ✅ Validi: {results['stats']['valid']}")
         logger.info(f"   ❌ Non PTOF: {results['stats']['not_ptof']}")
         logger.info(f"   📄 Troppo corti: {results['stats']['too_short']}")
@@ -827,14 +956,18 @@ Rispondi SOLO in questo formato JSON:
 # FUNZIONI HELPER
 # =====================================================
 
-def validate_inbox(move_invalid: bool = True) -> Dict:
+def validate_inbox(move_invalid: bool = True, use_registry: bool = True) -> Dict:
     """
     Valida tutti i PDF in ptof_inbox/.
     Funzione di convenienza per uso da CLI.
+    
+    Args:
+        move_invalid: Se True, sposta file non validi in ptof_discarded/
+        use_registry: Se True, salta file già validati (velocizza riavvio)
     """
     validator = PTOFValidator()
     inbox_dir = BASE_DIR / "ptof_inbox"
-    return validator.validate_batch(inbox_dir, move_invalid=move_invalid)
+    return validator.validate_batch(inbox_dir, move_invalid=move_invalid, use_registry=use_registry)
 
 
 def show_discarded():

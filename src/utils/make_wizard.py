@@ -89,6 +89,92 @@ def run_make(target: str, variables: Optional[Dict[str, str]] = None) -> None:
     subprocess.run(cmd, cwd=BASE_DIR, check=False)
 
 
+def get_models_list(args: List[str]) -> List[str]:
+    """Recupera lista modelli come array"""
+    if not MODEL_LISTER.exists():
+        return []
+    cmd = [sys.executable, str(MODEL_LISTER)] + args
+    result = subprocess.run(cmd, cwd=BASE_DIR, text=True, capture_output=True, check=False)
+    output = result.stdout.strip()
+    if not output:
+        return []
+    return [line.strip() for line in output.split("\n") if line.strip()]
+
+
+def prompt_model_choice(provider: str, default: str, free_only: bool = True) -> str:
+    """Mostra lista modelli numerata e permette selezione"""
+    print(f"\nRecupero lista modelli {provider}...")
+    
+    if provider == "openrouter":
+        args = ["--openrouter"]
+        if free_only:
+            args.append("--free-only")
+    elif provider == "gemini":
+        args = ["--gemini"]
+    elif provider == "ollama":
+        # Per Ollama usiamo una lista predefinita
+        models = [
+            "qwen3:32b",
+            "qwen3:14b", 
+            "qwen3:8b",
+            "llama3.3:70b",
+            "llama3.2:latest",
+            "mistral:latest",
+            "deepseek-r1:32b",
+            "deepseek-r1:14b",
+            "gemma2:27b",
+            "phi3:medium",
+        ]
+        return _show_model_menu(models, default, provider)
+    else:
+        return default
+    
+    models = get_models_list(args)
+    if not models:
+        print(f"Nessun modello {provider} trovato. Uso default: {default}")
+        return default
+    
+    return _show_model_menu(models, default, provider)
+
+
+def _show_model_menu(models: List[str], default: str, provider: str) -> str:
+    """Mostra menu numerato per selezione modello"""
+    # Metti il default in cima se presente
+    if default in models:
+        models.remove(default)
+        models.insert(0, default)
+    
+    # Mostra tutti i modelli
+    display_models = models
+    
+    print(f"\nModelli {provider} disponibili ({len(display_models)} totali):")
+    for idx, model in enumerate(display_models, 1):
+        marker = " ← default" if model == default else ""
+        print(f"  {idx:3}) {model}{marker}")
+    
+    print(f"\n  d) Usa default ({default})")
+    print(f"  m) Digita manualmente")
+    
+    while True:
+        choice = input("> ").strip().lower()
+        
+        if choice in {"d", ""}:
+            return default
+        
+        if choice == "m":
+            manual = input(f"Digita nome modello: ").strip()
+            return manual if manual else default
+        
+        if choice.isdigit():
+            index = int(choice)
+            if 1 <= index <= len(display_models):
+                selected = display_models[index - 1]
+                print(f"Selezionato: {selected}")
+                return selected
+        
+        print("Scelta non valida. Riprova.")
+
+
 def show_models(args: List[str]) -> None:
     if not MODEL_LISTER.exists():
         print("Script modelli non trovato:", MODEL_LISTER)
@@ -182,25 +268,18 @@ def menu_review() -> None:
         return
 
     if choice == "review-slow":
-        if prompt_yes_no("Mostrare lista modelli OpenRouter?", default=False):
-            free_only = prompt_yes_no("Solo modelli free?", default=True)
-            args = ["--openrouter"]
-            if free_only:
-                args.append("--free-only")
-            show_models(args)
-        model = prompt_text("Modello OpenRouter", default=DEFAULT_OPENROUTER_MODEL)
+        free_only = prompt_yes_no("Solo modelli free?", default=True)
+        model = prompt_model_choice("openrouter", DEFAULT_OPENROUTER_MODEL, free_only)
         run_make(choice, {"MODEL": model})
         return
 
     if choice == "review-gemini":
-        if prompt_yes_no("Mostrare lista modelli Gemini?", default=False):
-            show_models(["--gemini"])
-        model = prompt_text("Modello Gemini", default=DEFAULT_GEMINI_MODEL)
+        model = prompt_model_choice("gemini", DEFAULT_GEMINI_MODEL)
         run_make(choice, {"MODEL": model})
         return
 
     if choice == "review-ollama":
-        model = prompt_text("Modello Ollama", default=DEFAULT_OLLAMA_MODEL)
+        model = prompt_model_choice("ollama", DEFAULT_OLLAMA_MODEL)
         ollama_url = prompt_text("URL Ollama", default=DEFAULT_OLLAMA_URL)
         chunk_size = prompt_int("Chunk size", default=DEFAULT_OLLAMA_CHUNK_SIZE)
         wait = prompt_int("Attesa secondi tra chiamate", default=DEFAULT_OLLAMA_WAIT)
@@ -221,19 +300,11 @@ def menu_review() -> None:
 
     if choice in {"review-scores", "review-scores-gemini"}:
         if choice == "review-scores":
-            if prompt_yes_no("Mostrare lista modelli OpenRouter?", default=False):
-                free_only = prompt_yes_no("Solo modelli free?", default=True)
-                args = ["--openrouter"]
-                if free_only:
-                    args.append("--free-only")
-                show_models(args)
-            model_default = DEFAULT_OPENROUTER_MODEL
+            free_only = prompt_yes_no("Solo modelli free?", default=True)
+            model = prompt_model_choice("openrouter", DEFAULT_OPENROUTER_MODEL, free_only)
         else:
-            if prompt_yes_no("Mostrare lista modelli Gemini?", default=False):
-                show_models(["--gemini"])
-            model_default = DEFAULT_GEMINI_MODEL
+            model = prompt_model_choice("gemini", DEFAULT_GEMINI_MODEL)
 
-        model = prompt_text("Modello", default=model_default)
         low = prompt_int("Soglia bassa", default=2)
         high = prompt_int("Soglia alta", default=6)
         target = prompt_text("Target codice (opzionale)")
@@ -255,7 +326,7 @@ def menu_review() -> None:
         return
 
     if choice == "review-scores-ollama":
-        model = prompt_text("Modello Ollama", default=DEFAULT_OLLAMA_MODEL)
+        model = prompt_model_choice("ollama", DEFAULT_OLLAMA_MODEL)
         ollama_url = prompt_text("URL Ollama", default=DEFAULT_OLLAMA_URL)
         chunk_size = prompt_int("Chunk size", default=DEFAULT_OLLAMA_CHUNK_SIZE)
         low = prompt_int("Soglia bassa", default=2)

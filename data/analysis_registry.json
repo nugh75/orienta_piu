@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T19:37:06.060817",
+  "last_updated": "2025-12-24T20:24:54.428188",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -212,7 +212,22 @@
       "analyzed_at": "2025-12-24T16:34:32.184976",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CAEE89005A_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CAEE89005A_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CAEE89005A_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:00:02.978485",
+          "details": {
+            "chunks_analyzed": 6,
+            "extreme_scores_checked": 5,
+            "scores_modified": 0,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:00:02.978500"
     },
     "TOIC837002": {
       "pdf_hash": "sha256:3a1a32ad881caf9847d65182cb34c5c3b1ac97f64fb1cf262d2979ec5d55da60",
@@ -243,9 +258,25 @@
             "scores_modified": 4,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:58:12.033539",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 27,
+            "enrichments_found": 42,
+            "corrections_found": 6,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T19:06:57.418526"
+      "last_review": "2025-12-24T19:58:12.033558"
     },
     "MIEE8EU01T": {
       "pdf_hash": "sha256:81a25b060d3f321e59d64de49a7e89817fbc1a6e73b82433afe4e5a2044c9553",
@@ -604,9 +635,25 @@
             "note": "Nessuno score estremo da revisionare",
             "orientamento_issue": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:49:51.171730",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 30,
+            "enrichments_found": 38,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T18:54:14.965588"
+      "last_review": "2025-12-24T19:49:51.171740"
     },
     "VAAA842018": {
       "pdf_hash": "unknown",
@@ -625,9 +672,25 @@
             "scores_modified": 4,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:01:48.646271",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 5,
+            "enrichments_found": 7,
+            "corrections_found": 1,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
         }
       ],
-      "last_review": "2025-12-24T19:09:05.912858"
+      "last_review": "2025-12-24T20:01:48.646290"
     },
     "RMIS01600N": {
       "pdf_hash": "unknown",
@@ -646,9 +709,172 @@
             "scores_modified": 12,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:09:03.008339",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 11,
+            "enrichments_found": 16,
+            "corrections_found": 5,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T19:17:18.069320"
+      "last_review": "2025-12-24T20:09:03.008361"
+    },
+    "PATDEE500L": {
+      "pdf_hash": "unknown",
+      "pdf_name": "PATDEE500L_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:47:05.632150",
+          "details": {
+            "chunks_analyzed": 68,
+            "extreme_scores_checked": 12,
+            "scores_modified": 10,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:47:05.632159"
+    },
+    "MEIS03700V": {
+      "pdf_hash": "unknown",
+      "pdf_name": "MEIS03700V_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:51:46.806292",
+          "details": {
+            "chunks_analyzed": 12,
+            "extreme_scores_checked": 1,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:51:46.806312"
+    },
+    "TRMM045005": {
+      "pdf_hash": "unknown",
+      "pdf_name": "TRMM045005_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:53:47.534336",
+          "details": {
+            "chunks_analyzed": 8,
+            "extreme_scores_checked": 1,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:53:47.534346"
+    },
+    "CSEE8AJ06X": {
+      "pdf_hash": "unknown",
+      "pdf_name": "CSEE8AJ06X_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:56:51.843930",
+          "details": {
+            "chunks_analyzed": 13,
+            "extreme_scores_checked": 1,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T19:56:51.843944"
+    },
+    "MOIC84900D": {
+      "pdf_hash": "unknown",
+      "pdf_name": "MOIC84900D_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:07:11.715734",
+          "details": {
+            "chunks_analyzed": 11,
+            "extreme_scores_checked": 12,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:07:11.715751"
+    },
+    "BOIS02700V": {
+      "pdf_hash": "unknown",
+      "pdf_name": "BOIS02700V_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:17:06.835794",
+          "details": {
+            "chunks_analyzed": 12,
+            "extreme_scores_checked": 5,
+            "scores_modified": 4,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:17:06.835815"
+    },
+    "LOTF003017": {
+      "pdf_hash": "unknown",
+      "pdf_name": "LOTF003017_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:24:54.428038",
+          "details": {
+            "chunks_analyzed": 8,
+            "extreme_scores_checked": 1,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:24:54.428048"
     }
   }
 }

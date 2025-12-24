@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
+      "score": 6,
       "note": "L'istituto presenta una sezione strutturata denominata 'ORIENTARSI' che recepisce le linee guida del D.M. 328/2022, prevedendo esplicitamente le 30 ore di orientamento e figure di riferimento. La documentazione è dettagliata per ogni passaggio di grado."
     },
     "2_2_partnership": {
@@ -235,35 +235,5 @@
     }
   ],
   "narrative": "# Analisi Auditoriale PTOF MOIC84900D - I.C. Ravarino\n\n## Valutazione dell'Orientamento e Strategia Formativa\n\n### 1. Sintesi Generale\nL'analisi del PTOF 2022-2025 dell'**I.C. Ravarino** rivela un'istituzione scolastica profondamente radicata nel proprio territorio e proattiva nell'integrare le riforme nazionali (DM 328/2022, PNRR). Nonostante le sfide logistiche (scuola diffusa su più sedi provvisorie), l'offerta formativa è solida, con un focus d'eccellenza sulla **continuità verticale** e sull'**inclusione**. La rete di partnership è eccezionalmente vasta (26 enti), garantendo un supporto multidimensionale allo studente.\n\n### 2. Analisi Dimensionale e Punteggi\nL'auditor ha confermato o elevato la maggior parte dei punteggi originali. La **Transizione Formativa (Score 7)** è il punto di forza assoluto: il 'Progetto Ponte' è descritto con una precisione metodologica rara, coprendo persino il passaggio Nido-Infanzia. La **Didattica Laboratoriale (Score 6)** è supportata da investimenti massicci in STEM e realtà aumentata. Il **Monitoraggio (Score 5)**, inizialmente sottovalutato, è in realtà ben integrato attraverso l'uso sistematico dei dati INVALSI e RAV per la revisione della didattica.\n\n### 3. Punti di Forza\n- **Integrazione PNRR:** I progetti 'Immergiamoci nel futuro' e 'STEMlab' mostrano una chiara visione di modernizzazione degli spazi e delle metodologie.\n- **Rete Territoriale:** La collaborazione con l'Unione dei Comuni del Sorbara e le associazioni locali (Auser, Arci, Croce Rossa) crea un ecosistema educativo completo.\n- **Inclusione:** Protocolli avanzati per DSA e l'uso della CAA dimostrano un'attenzione reale alla fragilità.\n\n### 4. Aree di Miglioramento\nL'unica criticità rilevata riguarda la frammentazione delle sedi della Scuola Secondaria, che pur essendo gestita con efficienza organizzativa, rappresenta un vincolo strutturale per la piena attuazione dei laboratori in sede. Si raccomanda di formalizzare ulteriormente gli indicatori di successo post-diploma (esiti a distanza) una volta consolidato il nuovo sistema di monitoraggio.\n\n### 5. Conclusioni\nL'I.C. Ravarino opera con un alto grado di consapevolezza strategica. L'orientamento non è un'attività isolata ma un processo continuo che inizia dall'infanzia. Il documento è pienamente conforme alle direttive vigenti e mostra una spiccata attitudine all'innovazione.",
-  "review_notes": "Tutti i punteggi estremi sono stati verificati rispetto al testo. Solo le voci con evidenza insufficiente di monitoraggio o valutazione sistematica sono state ridotte da 7 a 6.",
-  "processing_history": [
-    {
-      "timestamp": "2025-12-24T20:07:11.711794",
-      "activity": "ollama_score_review",
-      "model": "qwen3:32b",
-      "status": "completed",
-      "details": {
-        "chunks_analyzed": 11,
-        "extreme_scores_checked": 12,
-        "scores_modified": 1,
-        "orientamento_found": true,
-        "changes": [
-          {
-            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
-            "old": 6,
-            "new": 2,
-            "reason": "Nel testo non è presente alcun riferimento esplicito ad una sezione dedicata all'orientamento, né al"
-          }
-        ]
-      }
-    }
-  ],
-  "review_history": [
-    {
-      "timestamp": "2025-12-24T20:07:11.711810",
-      "reviewer": "ollama/qwen3:32b",
-      "type": "score_review",
-      "changes": 1
-    }
-  ]
+  "review_notes": "Tutti i punteggi estremi sono stati verificati rispetto al testo. Solo le voci con evidenza insufficiente di monitoraggio o valutazione sistematica sono state ridotte da 7 a 6."
 }

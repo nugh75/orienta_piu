@@ -32,6 +32,17 @@ st.markdown("""
         overflow: visible !important;
         text-overflow: clip !important;
     }
+    
+    /* Metriche info generali - font più piccolo */
+    div[data-testid="stMetric"] {
+        padding: 8px !important;
+    }
+    div[data-testid="stMetric"] label {
+        font-size: 0.75rem !important;
+    }
+    div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+        font-size: 0.95rem !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
