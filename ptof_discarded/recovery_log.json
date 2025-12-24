@@ -672,6 +672,48 @@
         "reason": "Bassa confidenza euristica (0.05)"
       },
       "timestamp": "2025-12-24T10:18:27.678322"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BG1M02700A_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/corrupted/BG1M02700A_PTOF_20251224_102010.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BG1M02700A_PTOF.pdf",
+        "file_name": "BG1M02700A_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T10:20:10.392007",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-24T10:20:10.392882"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FREE830013_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/too_short/FREE830013_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FREE830013_PTOF.pdf",
+        "file_name": "FREE830013_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 8994,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-24T10:21:08.137019",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2025-12-24T10:21:08.137723"
     }
   ]
 }

@@ -152,5 +152,33 @@
       "/Users/danieledragoni/git/LIste/ptof_md/CEIC87400L_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "BG1M02700A",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BG1M02700A_PTOF.pdf",
+    "result": "corrupted",
+    "reason": "Impossibile leggere PDF",
+    "confidence": 1.0,
+    "timestamp": "2025-12-24T10:20:10.392139",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/BG1M02700A_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/BG1M02700A_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/BG1M02700A_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "FREE830013",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FREE830013_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 4 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T10:21:08.137162",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/FREE830013_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/FREE830013_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/FREE830013_ptof.md"
+    ],
+    "action": "removed"
   }
 ]
