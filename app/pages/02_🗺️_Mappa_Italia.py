@@ -278,6 +278,115 @@ try:
         # Additional context
         if p_value < 0.05:
             st.success(f"✅ Le differenze tra le {len(region_groups)} regioni sono **statisticamente significative** con un effect size **{effect_text.lower()}**.")
+            
+            # === POST-HOC ANALYSIS: Tukey HSD ===
+            st.markdown("#### 🎯 Analisi Post-Hoc: Quali regioni differiscono?")
+            
+            try:
+                from scipy.stats import tukey_hsd
+                
+                # Perform Tukey HSD test
+                tukey_result = tukey_hsd(*region_groups)
+                
+                # Build pairwise comparison results
+                significant_pairs = []
+                all_pairs = []
+                
+                for i in range(len(region_names)):
+                    for j in range(i + 1, len(region_names)):
+                        mean_i = np.mean(region_groups[i])
+                        mean_j = np.mean(region_groups[j])
+                        diff = mean_i - mean_j
+                        p_adj = tukey_result.pvalue[i, j]
+                        
+                        # Determine which region is "better" (higher index)
+                        if diff > 0:
+                            favored = region_names[i]
+                            unfavored = region_names[j]
+                        else:
+                            favored = region_names[j]
+                            unfavored = region_names[i]
+                        
+                        pair_info = {
+                            'Regione 1': region_names[i],
+                            'Media 1': f"{mean_i:.2f}",
+                            'Regione 2': region_names[j],
+                            'Media 2': f"{mean_j:.2f}",
+                            'Differenza': f"{abs(diff):.2f}",
+                            'p-value adj.': f"{p_adj:.4f}",
+                            'Significativo': '✅' if p_adj < 0.05 else '❌',
+                            'A favore di': favored if p_adj < 0.05 else '-'
+                        }
+                        all_pairs.append(pair_info)
+                        
+                        if p_adj < 0.05:
+                            significant_pairs.append({
+                                'Confronto': f"{favored} vs {unfavored}",
+                                'Media superiore': f"{favored} ({max(mean_i, mean_j):.2f})",
+                                'Media inferiore': f"{unfavored} ({min(mean_i, mean_j):.2f})",
+                                'Differenza': f"{abs(diff):.2f}",
+                                'p-value': f"{p_adj:.4f}"
+                            })
+                
+                if significant_pairs:
+                    st.markdown("##### 🏆 Confronti Significativi (p < 0.05)")
+                    st.caption("Queste coppie di regioni mostrano differenze statisticamente significative")
+                    
+                    sig_df = pd.DataFrame(significant_pairs)
+                    st.dataframe(sig_df, use_container_width=True, hide_index=True)
+                    
+                    # Summary of best and worst regions
+                    region_means = {region_names[i]: np.mean(region_groups[i]) for i in range(len(region_names))}
+                    sorted_regions = sorted(region_means.items(), key=lambda x: x[1], reverse=True)
+                    
+                    st.markdown("##### 📊 Ranking Sintetico")
+                    col_best, col_worst = st.columns(2)
+                    
+                    with col_best:
+                        st.markdown("**🥇 Top 3 Regioni:**")
+                        for i, (reg, mean) in enumerate(sorted_regions[:3], 1):
+                            medal = ["🥇", "🥈", "🥉"][i-1]
+                            st.markdown(f"{medal} **{reg}**: {mean:.2f}")
+                    
+                    with col_worst:
+                        st.markdown("**📉 Ultime 3 Regioni:**")
+                        for i, (reg, mean) in enumerate(sorted_regions[-3:]):
+                            st.markdown(f"• {reg}: {mean:.2f}")
+                    
+                    # Show interpretation
+                    best_region = sorted_regions[0][0]
+                    worst_region = sorted_regions[-1][0]
+                    st.info(f"📌 **Interpretazione**: La regione con il miglior indice di robustezza è **{best_region}** ({sorted_regions[0][1]:.2f}), "
+                           f"mentre **{worst_region}** ({sorted_regions[-1][1]:.2f}) mostra i valori più bassi. "
+                           f"Sono stati identificati **{len(significant_pairs)} confronti significativi** su {len(all_pairs)} possibili.")
+                    
+                else:
+                    st.info("ℹ️ Nessun confronto tra coppie di regioni raggiunge la significatività statistica (p < 0.05) nel test post-hoc Tukey HSD.")
+                
+                # Expandable section with all pairwise comparisons
+                with st.expander("📋 Visualizza tutti i confronti a coppie"):
+                    all_pairs_df = pd.DataFrame(all_pairs)
+                    # Sort by p-value to show most significant first
+                    all_pairs_df = all_pairs_df.sort_values('p-value adj.')
+                    st.dataframe(all_pairs_df, use_container_width=True, hide_index=True)
+                    st.caption("La tabella mostra tutti i confronti possibili tra coppie di regioni, ordinati per significatività.")
+                    
+            except ImportError:
+                st.warning("⚠️ Test Tukey HSD non disponibile. Aggiorna scipy: `pip install --upgrade scipy`")
+            except Exception as e:
+                st.warning(f"⚠️ Impossibile eseguire test post-hoc: {e}")
+                
+                # Fallback: show simple ranking
+                region_means = {region_names[i]: np.mean(region_groups[i]) for i in range(len(region_names))}
+                sorted_regions = sorted(region_means.items(), key=lambda x: x[1], reverse=True)
+                
+                st.markdown("##### 📊 Ranking delle Regioni (per indice medio)")
+                ranking_df = pd.DataFrame([
+                    {'Posizione': i+1, 'Regione': reg, 'Media': f"{mean:.2f}"} 
+                    for i, (reg, mean) in enumerate(sorted_regions)
+                ])
+                st.dataframe(ranking_df, use_container_width=True, hide_index=True)
+                
         else:
             st.info(f"ℹ️ Non ci sono differenze statisticamente significative tra le {len(region_groups)} regioni analizzate.")
     else:
