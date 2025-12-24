@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben strutturata, con obiettivi e azioni specifiche. Tuttavia, manca una descrizione dettagliata del monitoraggio e della valutazione."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T19:17:34.767073"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -262,6 +264,22 @@
             "reason": "Le attività ludiche e ricreative sono menzionate ma non dettagliate, suggerendo un punteggio di 3 pe"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T19:18:37.660528",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 29,
+        "enrichments_found": 50,
+        "corrections_found": 1,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

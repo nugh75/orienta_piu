@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 1,
-      "note": "Non è presente una sezione dedicata all'orientamento, ma l'offerta formativa include elementi che possono essere considerati orientativi."
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. L'orientamento è trattato nella macroarea 6 intitolata \"Continuità – Orientamento\". Per la scuola secondaria di primo grado sono previsti tre moduli di orientamento formativo, destinati rispettivament (Precedente: score=1, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T19:28:49.837561"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -371,6 +373,22 @@
             "reason": "Il documento menziona attività per la prevenzione del disagio giovanile e la lotta alla dispersione "
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T19:29:58.632161",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 8,
+        "enrichments_found": 12,
+        "corrections_found": 1,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],
