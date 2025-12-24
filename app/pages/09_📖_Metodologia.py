@@ -7,8 +7,8 @@ st.set_page_config(page_title="Metodologia", page_icon="📖", layout="wide")
 st.title("📖 Metodologia di Analisi")
 
 st.markdown("""
-Questa sezione documenta la metodologia utilizzata per l'analisi automatizzata dei documenti PTOF 
-(Piano Triennale dell'Offerta Formativa) delle scuole italiane.
+Questa sezione racconta, in modo semplice, come analizziamo i PTOF
+(Piano Triennale dell'Offerta Formativa) e come teniamo alta la qualità dei risultati.
 """)
 
 st.markdown("---")
@@ -16,17 +16,20 @@ st.markdown("---")
 # 1. Overview
 st.header("1️⃣ Panoramica del Sistema")
 st.markdown("""
-Il sistema utilizza un'architettura **multi-agente** basata su Large Language Models (LLM) per:
+Il sistema lavora come un team: un agente legge e propone, un secondo controlla,
+un terzo rifinisce. Il risultato finale è un report coerente e confrontabile.
 
-1. **Estrarre** informazioni strutturate dai documenti PTOF
-2. **Valutare** la qualità delle strategie di orientamento
-3. **Generare** report narrativi con evidenze testuali
-4. **Aggregare** i dati per analisi comparative
+In sintesi:
+1. **Verifica** che il documento sia davvero un PTOF
+2. **Legge** il testo e individua i contenuti rilevanti
+3. **Valuta** le dimensioni dell'orientamento con un punteggio 1-7
+4. **Racconta** in modo chiaro ciò che emerge
+5. **Confronta** i risultati tra scuole nella dashboard
 
 ### Pipeline di Elaborazione
 
 ```
-PDF → Markdown → 3-Agent Analysis → JSON + Report → Dashboard
+PDF → Validazione PTOF → Markdown → Analisi multi-agente → JSON + Report → Controlli → CSV → Dashboard
 ```
 """)
 
@@ -36,12 +39,12 @@ st.markdown("---")
 st.header("2️⃣ Architettura Multi-Agente")
 
 st.markdown("""
-### Pipeline Completo
+### Pipeline completa
 
 ```
-PDF → Markdown → Analyst → Reviewer → Refiner (GPT-OSS) → JSON + Report
-                                                              ↓
-                                           refine_metadata.py → align_metadata.py → CSV → Dashboard
+PDF → Validazione PTOF → Markdown → Analyst → Reviewer → Refiner → JSON + Report
+                                                        ↓
+                                       Controlli finali → CSV → Dashboard
 ```
 """)
 
@@ -50,8 +53,6 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("""
     ### 🔍 Analyst Agent
-    **Modello:** gemma3:27b
-    
     **Ruolo:**
     - Legge il documento PTOF
     - Estrae dati strutturati
@@ -62,8 +63,6 @@ with col1:
 with col2:
     st.markdown("""
     ### 🧐 Reviewer Agent
-    **Modello:** qwen3:32b
-    
     **Ruolo:**
     - Red-team dell'analisi
     - Rileva allucinazioni
@@ -74,8 +73,6 @@ with col2:
 with col3:
     st.markdown("""
     ### ✨ Refiner Agent
-    **Modello:** gpt-oss:20b
-    
     **Ruolo:**
     - Incorpora feedback del Reviewer
     - Corregge punteggi errati
@@ -86,10 +83,10 @@ with col3:
 st.markdown("---")
 
 # 2b. Metadata Pipeline
-st.header("2️⃣b Pipeline Raffinamento Metadati")
+st.header("2️⃣b Metadati e Dataset")
 
 st.markdown("""
-Dopo l'analisi LLM, viene eseguito un processo automatico di raffinamento dei metadati:
+Dopo l'analisi, il sistema completa e uniforma i dati anagrafici per rendere i confronti affidabili.
 """)
 
 col1, col2 = st.columns(2)
@@ -97,32 +94,53 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     ### 📄 refine_metadata.py
-    **Scopo:** Estrarre metadati mancanti dal testo
-    
+    **Scopo:** Riempire i campi mancanti dal testo
+
     **Operazioni:**
     - Analizza il Markdown del PTOF
-    - Estrae Denominazione e Comune tramite Regex
+    - Riconosce Denominazione e Comune
     - Deduce Ordine/Grado dal contenuto
-    - Riempie i campi "ND" nel JSON
+    - Completa i campi mancanti nel JSON
     """)
 
 with col2:
     st.markdown("""
     ### 🔗 align_metadata.py
-    **Scopo:** Allineamento e generazione Dataset
-    
+    **Scopo:** Allineamento e dataset finale
+
     **Operazioni:**
     - Standardizza i codici scuola
-    - Arricchisce JSON con anagrafica MIUR (CSV)
+    - Arricchisce i JSON con anagrafica MIUR
     - Calcola medie e Indice di Robustezza
     - Genera il file `analysis_summary.csv` per la Dashboard
-    - **Nota:** Disabilitata integrazione INVALSI per privacy
+    - **Nota:** La fonte INVALSI è stata rimossa per privacy
     """)
 
 st.markdown("---")
 
-# 3. Scoring Framework
-st.header("3️⃣ Framework di Valutazione")
+# 3. Pesi e Contrappesi
+st.header("3️⃣ Pesi e Contrappesi (Qualità e Affidabilità)")
+
+st.markdown("""
+Per ridurre gli errori, il sistema bilancia **spinta all'estrazione** con **controlli di qualità**.
+
+**Pesi (cosa aumenta il punteggio)**:
+- Evidenze chiare nel testo (azioni concrete, dettagli, obiettivi espliciti)
+- Coerenza tra sezioni (finalità, obiettivi, azioni)
+- Presenza di una sezione dedicata all'orientamento
+
+**Contrappesi (cosa corregge o riduce)**:
+- Validazione PTOF prima dell'analisi: i documenti non pertinenti vengono scartati
+- Reviewer che controlla errori e allucinazioni
+- Revisore post-analisi che elimina output non-PTOF
+- Revisore dei punteggi estremi (facoltativo) per confermare valori troppo alti o bassi
+- Arricchimento metadati con anagrafica MIUR per evitare errori di contesto
+""")
+
+st.markdown("---")
+
+# 4. Scoring Framework
+st.header("4️⃣ Framework di Valutazione")
 
 st.markdown("""
 Il sistema valuta **7 dimensioni principali** dell'orientamento scolastico, basate sulle 
@@ -143,8 +161,8 @@ st.markdown("""
 
 st.markdown("---")
 
-# 4. Likert Scale
-st.header("4️⃣ Scala di Punteggio (Likert 1-7)")
+# 5. Likert Scale
+st.header("5️⃣ Scala di Punteggio (Likert 1-7)")
 
 st.markdown("""
 Ogni sottodimensione è valutata su una scala Likert a 7 punti:
@@ -168,8 +186,8 @@ st.dataframe(scale_data, use_container_width=True, hide_index=True)
 
 st.markdown("---")
 
-# 5. Indice di Robustezza
-st.header("5️⃣ Indice di Robustezza")
+# 6. Indice di Robustezza
+st.header("6️⃣ Indice di Robustezza")
 
 st.markdown("""
 L'**Indice di Robustezza del Sistema di Orientamento** (IRSO) è calcolato come media delle 5 medie dimensionali:
@@ -191,23 +209,23 @@ IRSO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didattica +
 
 st.markdown("---")
 
-# 6. Data Sources
-st.header("6️⃣ Fonti Dati")
+# 7. Data Sources
+st.header("7️⃣ Fonti Dati")
 
 st.markdown("""
 Il sistema integra dati da multiple fonti per l'arricchimento dei metadati:
 
 | Fonte | Descrizione | Utilizzo |
 |-------|-------------|----------|
-| **metadata_enrichment.csv** | Anagrafica ufficiale MIUR | Denominazione, Comune, Tipo scuola |
-| **invalsi_unified.csv** | Dati INVALSI | Area geografica, Territorio |
+| **metadata_enrichment.csv** | Anagrafica MIUR | Denominazione, Comune, Tipo scuola |
+| **comuni_italiani.json** | Elenco comuni/province | Normalizzazione geografica |
 | **PTOF Documents** | Documenti scolastici | Analisi testuale |
 """)
 
 st.markdown("---")
 
-# 7. Limitations
-st.header("7️⃣ Limitazioni e Considerazioni")
+# 8. Limitations
+st.header("8️⃣ Limitazioni e Considerazioni")
 
 st.warning("""
 **Attenzione:** I punteggi sono generati da modelli di intelligenza artificiale e possono contenere errori.
@@ -231,8 +249,8 @@ st.markdown("""
 
 st.markdown("---")
 
-# 8. Technical Details
-st.header("8️⃣ Dettagli Tecnici")
+# 9. Technical Details
+st.header("9️⃣ Dettagli Tecnici")
 
 with st.expander("Schema JSON Output"):
     st.code("""

@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini review-non-ptof
 
 PYTHON = python3
 PIP = pip
@@ -24,6 +24,7 @@ help:
 	@echo "  make review-gemini         - Revisione con Google Gemini (usa MODEL=... per cambiare)"
 	@echo "  make review-scores         - Revisione punteggi estremi (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
 	@echo "  make review-scores-gemini  - Revisione punteggi estremi con Google (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
+	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
 	@echo ""
 	@echo "🔄 WORKFLOW ANALISI:"
 	@echo "  make setup      - Installa le dipendenze"
@@ -173,6 +174,10 @@ review-scores:
 # Score Review (Gemini) (uso: make review-scores-gemini MODEL=gemini-2.0-flash-exp LOW=2 HIGH=6)
 review-scores-gemini:
 	$(PYTHON) src/processing/score_reviewer.py --provider gemini $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
+
+# Non-PTOF Review (uso: make review-non-ptof TARGET=RMIC8GA002 DRY=1)
+review-non-ptof:
+	$(PYTHON) src/processing/non_ptof_reviewer.py $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),)
 
 # Watch CSV: rigenera il CSV ogni N secondi (default 300s = 5min)
 # Uso: make csv-watch INTERVAL=60

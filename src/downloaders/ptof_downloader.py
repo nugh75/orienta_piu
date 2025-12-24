@@ -58,6 +58,16 @@ except ImportError:
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+try:
+    from ddgs import DDGS
+    HAS_DDG = True
+except ImportError:
+    try:
+        from duckduckgo_search import DDGS
+        HAS_DDG = True
+    except ImportError:
+        HAS_DDG = False
+
 # ═══════════════════════════════════════════════════════════════════
 # CONFIGURAZIONE
 # ═══════════════════════════════════════════════════════════════════
@@ -67,13 +77,16 @@ DOWNLOAD_DIR = BASE_DIR / "ptof_inbox"
 LOG_DIR = BASE_DIR / "logs"
 STATE_FILE = DATA_DIR / "download_state.json"
 DOWNLOAD_LOCK = DOWNLOAD_DIR / ".download_in_progress"
+PROCESSED_DIR = BASE_DIR / "ptof_processed"
+DISCARDED_DIR = BASE_DIR / "ptof_discarded"
 
 # File anagrafiche MIUR
 ANAGRAFE_STAT = DATA_DIR / "SCUANAGRAFESTAT20252620250901.csv"
 ANAGRAFE_PAR = DATA_DIR / "SCUANAGRAFEPAR20252620250901.csv"
 
 # Scuola In Chiaro API
-SCUOLA_IN_CHIARO_BASE = "https://cercalatuascuola.istruzione.it"
+# Aggiornato al nuovo portale Unica
+SCUOLA_IN_CHIARO_BASE = "https://unica.istruzione.gov.it"
 SCUOLA_IN_CHIARO_PTOF = f"{SCUOLA_IN_CHIARO_BASE}/cercalatuascuola/istituti/{{code}}/ptof/"
 SCUOLA_IN_CHIARO_DOCS = f"{SCUOLA_IN_CHIARO_BASE}/cercalatuascuola/istituti/{{code}}/documenti/"
 
@@ -456,15 +469,16 @@ class PTOFDownloader:
             self.stats["skipped"] += 1
             return DownloadResult(False, "Già rifiutato", "cache")
         
-        # Verifica se file esiste già in inbox
-        existing = list(self.download_dir.glob(f"*{code}*.pdf"))
-        if existing:
-            # Valida il file esistente
-            is_valid, score, reason = self.validator.is_valid_ptof(existing[0])
-            if is_valid:
-                self.state.mark_downloaded(code, str(existing[0]), "existing", strato, existing[0].stat().st_size)
-                self.stats["already_done"] += 1
-                return DownloadResult(True, f"File esistente valido: {existing[0].name}", "existing")
+        # Verifica se file esiste già nel progetto (inbox, processed, discarded)
+        check_dirs = [self.download_dir, PROCESSED_DIR, DISCARDED_DIR]
+        for d in check_dirs:
+            if d.exists():
+                existing = list(d.glob(f"*{code}*.pdf"))
+                if existing:
+                    # Se trovato, consideralo come già fatto
+                    self.state.mark_downloaded(code, str(existing[0]), "existing", strato, existing[0].stat().st_size)
+                    self.stats["already_done"] += 1
+                    return DownloadResult(True, f"File già presente in {d.name}: {existing[0].name}", "existing")
         
         # Strategia 1: API Scuola In Chiaro
         result = self._try_scuola_in_chiaro(school)
@@ -480,6 +494,12 @@ class PTOFDownloader:
         # Strategia 3: Per scuole statali, prova con codice istituto
         if school.is_statale and school.codice_istituto and school.codice_istituto != code:
             result = self._try_scuola_in_chiaro_istituto(school)
+            if result.success:
+                return result
+        
+        # Strategia 4: Ricerca Web (DuckDuckGo)
+        if HAS_DDG:
+            result = self._try_search_engine(school)
             if result.success:
                 return result
         
@@ -579,6 +599,28 @@ class PTOFDownloader:
         except Exception as e:
             return DownloadResult(False, f"Errore sito: {e}")
     
+    def _try_search_engine(self, school: SchoolRecord) -> DownloadResult:
+        """Strategia 4: Cerca il PTOF usando DuckDuckGo."""
+        try:
+            # Query specifica per trovare PDF
+            query = f"{school.codice} PTOF piano triennale offerta formativa filetype:pdf"
+            
+            with DDGS() as ddgs:
+                # Cerchiamo i primi 5 risultati
+                results = list(ddgs.text(query, max_results=5))
+                
+            for res in results:
+                url = res['href']
+                # Spesso i link di Google/DDG sono puliti, ma verifichiamo
+                if url.lower().endswith('.pdf'):
+                     result = self._download_and_validate(url, school, "duckduckgo")
+                     if result.success:
+                         return result
+            
+            return DownloadResult(False, "Nessun PDF valido trovato via ricerca")
+        except Exception as e:
+             return DownloadResult(False, f"Errore ricerca: {e}")
+
     def _find_pdf_links(self, html: str, base_url: str) -> List[str]:
         """Trova tutti i link a PDF nella pagina."""
         links = re.findall(r'href=["\']([^"\']*\.pdf[^"\']*)["\']', html, re.IGNORECASE)

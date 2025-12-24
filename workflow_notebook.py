@@ -73,6 +73,41 @@ while True:
         print("💡 Copia i PDF in ptof_inbox/ e riprova", flush=True)
     else:
         # =====================================================
+        # STEP -1: VALIDAZIONE PTOF (PRE-ANALISI)
+        # =====================================================
+        print("\n" + "="*70, flush=True)
+        print("🔍 STEP -1: Validazione PTOF (pre-analisi)", flush=True)
+        print("="*70, flush=True)
+
+        try:
+            from src.validation.ptof_validator import validate_inbox
+            validation_results = validate_inbox(move_invalid=True)
+            stats = validation_results.get("stats", {})
+            if stats:
+                print(
+                    f"   ✅ Validi: {stats.get('valid', 0)} | "
+                    f"❌ Non PTOF: {stats.get('not_ptof', 0)} | "
+                    f"📄 Troppo corti: {stats.get('too_short', 0)} | "
+                    f"💔 Corrotti: {stats.get('corrupted', 0)} | "
+                    f"❓ Ambigui: {stats.get('ambiguous', 0)}",
+                    flush=True,
+                )
+        except Exception as e:
+            print(f"⚠️ Validazione PTOF fallita: {e}", flush=True)
+
+        # Refresh inbox after validation
+        inbox_pdfs = list(INBOX_DIR.glob("*.pdf"))
+        print(f"\n📥 PDF in inbox dopo validazione: {len(inbox_pdfs)}", flush=True)
+        if not inbox_pdfs:
+            if DOWNLOAD_LOCK.exists():
+                print(f"⏳ Download in corso, attendo {WAIT_SECONDS}s...", flush=True)
+                time.sleep(WAIT_SECONDS)
+                continue
+            print("⚠️ Nessun PDF da processare!", flush=True)
+            print("💡 Copia i PDF in ptof_inbox/ e riprova", flush=True)
+            continue
+
+        # =====================================================
         # STEP 0: VALIDAZIONE PRE-ANALISI
         # =====================================================
         print("\n" + "="*70, flush=True)

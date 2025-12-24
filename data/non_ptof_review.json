@@ -1,0 +1,72 @@
+[
+  {
+    "school_code": "TPTD00801A",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TPTD00801A_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (Errore analisi LLM)",
+    "confidence": 0.42,
+    "timestamp": "2025-12-24T09:39:38.365674",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/TPTD00801A_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/TPTD00801A_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/TPTD00801A_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "RGAA809032",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RGAA809032_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (delibera del Consiglio d'Istituto: Il documento presenta elementi comuni ai PTOF come riferimenti normativi e linee di indirizzo, ma manca esplicitamente del titolo 'Piano Triennale dell'Offerta Formativa' e non \u00e8 chiaro se contenga l'intera struttura articolata richiesta per un PTOF. Il titolo 'Indirizzi generali per le attivit\u00e0 della scuola' suggerisce che si tratti di una delibera del Consiglio d'Istituto piuttosto che del PTOF completo.)",
+    "confidence": 0.36000000000000004,
+    "timestamp": "2025-12-24T09:52:22.660420",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/RGAA809032_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/RGAA809032_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/RGAA809032_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "FREE82003E",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FREE82003E_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Rifiutato da LLM (progetto PCTO: Il testo presenta caratteristiche di un progetto PCTO (Percorsi per le Competenze Trasversali e per l'Orientamento) e non di un PTOF. Pur riferendosi all'offerta formativa, il contenuto si concentra su un progetto specifico e non presenta la struttura articolata e completa di un Piano Triennale dell'Offerta Formativa.)",
+    "confidence": 0.19,
+    "timestamp": "2025-12-24T09:54:54.612282",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/FREE82003E_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/FREE82003E_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/FREE82003E_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "NARH105008",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NARH105008_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 2 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T09:54:54.629598",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/NARH105008_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/NARH105008_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/NARH105008_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "AREE82004B",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/AREE82004B_PTOF.pdf",
+    "result": "too_short",
+    "reason": "Solo 4 pagine (minimo: 5)",
+    "confidence": 0.9,
+    "timestamp": "2025-12-24T09:56:48.786110",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/AREE82004B_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/AREE82004B_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/AREE82004B_ptof.md"
+    ],
+    "action": "removed"
+  }
+]

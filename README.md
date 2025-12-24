@@ -48,6 +48,7 @@ Per cambiare il polling: `PTOF_DOWNLOAD_WAIT_SECONDS=10`.
 - `make help`: Mostra tutti i comandi disponibili.
 - `make review-scores`: Revisione automatica dei punteggi estremi (solo JSON).
 - `make review-scores-gemini`: Come sopra, ma con Google Gemini.
+- `make review-non-ptof`: Rimuove analisi generate da documenti non-PTOF.
 
 ## 📂 Directory
 
@@ -59,6 +60,9 @@ Per cambiare il polling: `PTOF_DOWNLOAD_WAIT_SECONDS=10`.
 
 ## 🤖 Pipeline Multi-Agente
 
+Tre ruoli complementari lavorano in sequenza: il primo propone, il secondo controlla,
+il terzo rifinisce. Questo riduce errori e rende i risultati più stabili.
+
 | Agente | Modello | Ruolo |
 |--------|---------|-------|
 | Analyst | gemma3:27b | Estrae dati |
@@ -69,6 +73,23 @@ Post-processing automatico nel workflow:
 - Auto-fill regione/provincia/area usando `data/comuni_italiani.json`
 - Rebuild CSV (`data/analysis_summary.csv`) dai JSON
 
+Controlli di qualità integrati:
+- **Validazione PTOF pre-analisi**: i documenti non pertinenti vengono scartati.
+- **Revisore non-PTOF post-analisi**: elimina output generati da documenti sbagliati.
+
+## ✅ Qualità dell'analisi (pesi e contrappesi)
+
+**Pesi (cosa aumenta il punteggio)**:
+- Evidenze chiare nel testo (azioni concrete, obiettivi espliciti)
+- Coerenza tra sezioni e attività
+- Presenza di una sezione dedicata all'orientamento
+
+**Contrappesi (cosa corregge o riduce)**:
+- Validazione PTOF prima dell'analisi
+- Reviewer che cerca incoerenze e allucinazioni
+- Revisore dei punteggi estremi (facoltativo)
+- Arricchimento metadati con anagrafica MIUR
+
 ## 📋 CLI Commands
 
 ```bash
@@ -76,6 +97,7 @@ python workflow_notebook.py    # Workflow completo
 python app/agentic_pipeline.py # Solo analisi
 python src/processing/autofill_region_from_comuni.py # Auto-fill regioni da comuni
 python src/processing/score_reviewer.py --provider openrouter --model "meta-llama/llama-3.3-70b-instruct:free"
+python src/processing/non_ptof_reviewer.py --dry-run
 ```
 
 ## ✅ Esempi (Review punteggi estremi)
@@ -92,6 +114,16 @@ make review-scores-gemini MODEL="gemini-2.0-flash-exp" TARGET=RMIC8GA002
 
 # CLI diretto con provider Gemini
 python src/processing/score_reviewer.py --provider gemini --model "gemini-2.0-flash-exp" --low-threshold 2 --high-threshold 6 --target RMIC8GA002
+```
+
+## ✅ Esempi (Review non-PTOF)
+
+```bash
+# Dry-run per vedere cosa verrebbe rimosso
+make review-non-ptof DRY=1
+
+# Rimozione su una singola scuola
+make review-non-ptof TARGET=RMIC8GA002
 ```
 
 ## 📓 Notebook
