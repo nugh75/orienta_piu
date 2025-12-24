@@ -1,9 +1,11 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini review-non-ptof
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-scores review-scores-gemini review-non-ptof outreach-portal outreach-email list-models
 
 PYTHON = python3
 PIP = pip
 STREAMLIT = streamlit
 DOWNLOADER = src/downloaders/ptof_downloader.py
+UPLOAD_PORTAL = src/portal/ptof_upload_portal.py
+EMAILER = src/outreach/ptof_emailer.py
 
 help:
 	@echo "Comandi disponibili:"
@@ -29,6 +31,10 @@ help:
 	@echo "  make review-scores-gemini  - Revisione punteggi estremi con Google (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
 	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
 	@echo ""
+	@echo "📬 OUTREACH PTOF:"
+	@echo "  make outreach-portal       - Avvia portale upload PTOF (PORT=8502)"
+	@echo "  make outreach-email        - Invia email PTOF (BASE_URL=..., LIMIT=..., SEND=1, CSV=\"... ...\")"
+	@echo ""
 	@echo "🔄 WORKFLOW ANALISI:"
 	@echo "  make setup          - Installa le dipendenze"
 	@echo "  make run            - Esegue il workflow completo (workflow_notebook.py)"
@@ -49,6 +55,12 @@ help:
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
+	@echo ""
+	@echo "🤖 MODELLI AI:"
+	@echo "  make list-models          - Stampa elenco modelli da config/pipeline_config.json"
+	@$(PYTHON) -c "import json; from pathlib import Path; p=Path('config/pipeline_config.json'); data=json.load(p.open()) if p.exists() else {}; presets=list((data.get('presets', {}) or {}).values()); models=set(); [models.add(v) for preset in presets for v in (preset.get('models', {}) or {}).values() if isinstance(v, str)]; [models.add(v.get('model')) for preset in presets for v in (preset.get('models', {}) or {}).values() if isinstance(v, dict) and v.get('model')]; models=sorted(models); print('   - ' + '\\n   - '.join(models) if models else '   - (nessun modello trovato)')"
+	@echo "   - google/gemini-2.0-flash-exp:free (default OpenRouter per review)"
+	@echo "   - gemini-2.0-flash-exp (default Gemini per review)"
 	@echo ""
 	@echo "⏰ AUTOMAZIONE:"
 	@echo "  make csv-watch             - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"

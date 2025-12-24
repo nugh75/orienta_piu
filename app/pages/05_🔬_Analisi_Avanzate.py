@@ -237,7 +237,9 @@ st.markdown("---")
 # 3. ANOVA
 st.subheader("📊 ANOVA: Test Differenze per Gruppo")
 if HAS_SCIPY:
+    import numpy as np
     results = []
+    significant_tests = []  # Per memorizzare i test significativi
     test_vars = [
         ('area_geografica', 'Area Geografica'),
         ('ordine_grado', 'Ordine Grado'),
@@ -266,16 +268,136 @@ if HAS_SCIPY:
             target_df = df
         
         if col in target_df.columns and 'ptof_orientamento_maturity_index' in target_df.columns:
-            groups = [g['ptof_orientamento_maturity_index'].dropna().values 
-                     for _, g in target_df.groupby(col) if len(g) >= 2]
+            groups = []
+            group_names = []
+            for name, g in target_df.groupby(col):
+                vals = g['ptof_orientamento_maturity_index'].dropna().values
+                if len(vals) >= 2:
+                    groups.append(vals)
+                    group_names.append(str(name))
+            
             if len(groups) >= 2:
                 f_stat, p_val = stats.f_oneway(*groups)
                 sig = "✅" if p_val < 0.05 else "⚪"
                 results.append({'Confronto': label, 'F': f"{f_stat:.2f}", 
                                'p-value': f"{p_val:.4f}", 'Sig.': sig})
+                
+                # Salva info per analisi post-hoc se significativo
+                if p_val < 0.05:
+                    significant_tests.append({
+                        'label': label,
+                        'col': col,
+                        'groups': groups,
+                        'group_names': group_names,
+                        'f_stat': f_stat,
+                        'p_val': p_val
+                    })
     
     if results:
         st.dataframe(pd.DataFrame(results), use_container_width=True, hide_index=True)
+        
+        # === POST-HOC ANALYSIS per i test significativi ===
+        if significant_tests:
+            st.markdown("---")
+            st.markdown("### 🎯 Analisi Post-Hoc: A favore di chi?")
+            st.caption("Per ogni confronto significativo, il test Tukey HSD identifica quali gruppi differiscono")
+            
+            for test_info in significant_tests:
+                label = test_info['label']
+                groups = test_info['groups']
+                group_names = test_info['group_names']
+                
+                with st.expander(f"📊 **{label}** - Dettaglio confronti", expanded=True):
+                    try:
+                        from scipy.stats import tukey_hsd
+                        
+                        # Perform Tukey HSD test
+                        tukey_result = tukey_hsd(*groups)
+                        
+                        # Build pairwise comparison results
+                        significant_pairs = []
+                        all_pairs = []
+                        
+                        for i in range(len(group_names)):
+                            for j in range(i + 1, len(group_names)):
+                                mean_i = np.mean(groups[i])
+                                mean_j = np.mean(groups[j])
+                                diff = mean_i - mean_j
+                                p_adj = tukey_result.pvalue[i, j]
+                                
+                                # Determine which group is "better" (higher index)
+                                if diff > 0:
+                                    favored = group_names[i]
+                                    unfavored = group_names[j]
+                                else:
+                                    favored = group_names[j]
+                                    unfavored = group_names[i]
+                                
+                                pair_info = {
+                                    'Gruppo 1': group_names[i],
+                                    'Media 1': f"{mean_i:.2f}",
+                                    'Gruppo 2': group_names[j],
+                                    'Media 2': f"{mean_j:.2f}",
+                                    'Differenza': f"{abs(diff):.2f}",
+                                    'p-value adj.': f"{p_adj:.4f}",
+                                    'Significativo': '✅' if p_adj < 0.05 else '❌',
+                                    'A favore di': favored if p_adj < 0.05 else '-'
+                                }
+                                all_pairs.append(pair_info)
+                                
+                                if p_adj < 0.05:
+                                    significant_pairs.append({
+                                        'Confronto': f"{favored} vs {unfavored}",
+                                        'Gruppo superiore': f"{favored} ({max(mean_i, mean_j):.2f})",
+                                        'Gruppo inferiore': f"{unfavored} ({min(mean_i, mean_j):.2f})",
+                                        'Differenza': f"{abs(diff):.2f}",
+                                        'p-value': f"{p_adj:.4f}"
+                                    })
+                        
+                        # Ranking dei gruppi
+                        group_means = {group_names[i]: np.mean(groups[i]) for i in range(len(group_names))}
+                        sorted_groups = sorted(group_means.items(), key=lambda x: x[1], reverse=True)
+                        
+                        col_rank, col_sig = st.columns([1, 2])
+                        
+                        with col_rank:
+                            st.markdown("**🏆 Ranking Gruppi:**")
+                            for i, (grp, mean) in enumerate(sorted_groups, 1):
+                                medal = "🥇" if i == 1 else ("🥈" if i == 2 else ("🥉" if i == 3 else f"{i}."))
+                                st.markdown(f"{medal} **{grp}**: {mean:.2f}")
+                        
+                        with col_sig:
+                            if significant_pairs:
+                                st.markdown("**✅ Confronti Significativi (p < 0.05):**")
+                                sig_df = pd.DataFrame(significant_pairs)
+                                st.dataframe(sig_df, use_container_width=True, hide_index=True)
+                            else:
+                                st.info("Nessun confronto tra coppie raggiunge la significatività nel test post-hoc.")
+                        
+                        # Interpretazione
+                        best_group = sorted_groups[0][0]
+                        worst_group = sorted_groups[-1][0]
+                        st.info(f"📌 **Interpretazione**: Il gruppo con il miglior indice è **{best_group}** ({sorted_groups[0][1]:.2f}), "
+                               f"il peggiore è **{worst_group}** ({sorted_groups[-1][1]:.2f}). "
+                               f"Confronti significativi: **{len(significant_pairs)}/{len(all_pairs)}**.")
+                        
+                        # Tutti i confronti in dettaglio (opzionale)
+                        with st.expander("📋 Tutti i confronti a coppie"):
+                            all_pairs_df = pd.DataFrame(all_pairs)
+                            all_pairs_df = all_pairs_df.sort_values('p-value adj.')
+                            st.dataframe(all_pairs_df, use_container_width=True, hide_index=True)
+                            
+                    except ImportError:
+                        st.warning("⚠️ Test Tukey HSD non disponibile. Aggiorna scipy: `pip install --upgrade scipy`")
+                        # Fallback: mostra solo ranking
+                        group_means = {group_names[i]: np.mean(groups[i]) for i in range(len(group_names))}
+                        sorted_groups = sorted(group_means.items(), key=lambda x: x[1], reverse=True)
+                        st.markdown("**📊 Ranking dei Gruppi:**")
+                        for i, (grp, mean) in enumerate(sorted_groups, 1):
+                            st.markdown(f"{i}. **{grp}**: {mean:.2f}")
+                    except Exception as e:
+                        st.warning(f"⚠️ Errore nel test post-hoc: {e}")
+        
         # Detailed ANOVA Explanation
         with st.expander("📘 Guida alla lettura: ANOVA (Analisi delle Varianza)", expanded=False):
             st.markdown("""

@@ -24,4 +24,54 @@ A livello nazionale, l’istituto ha aderito a bandi PON 2014‑2020, a proget
 
 #### 2.3 Finalità e Obiettivi
 
-Le finalità espresse nel PTOF includono la valorizzazione delle competenze linguistiche (italiano, inglese e seconde lingue comunitarie), matematico‑logiche, scientifiche, artistiche e motorie, nonché lo sviluppo della cittadinanza attiva, della legalità, della sostenibilità ambientale e dell’inclusione. Tra gli obiettivi specifici si segnala la riduzione dell’abbandono scolastico, la continuità territoriale degli alunni, il contrasto al fenomeno NEET e la promozione del lifelong learning. Il documento prevede inoltre il potenziamento delle capacità di orientamento attraverso attività di recupero e potenziamento, la definizione di percorsi personalizzati per gli alunni con BES e DSA
+Le finalità espresse nel PTOF includono la valorizzazione delle competenze linguistiche (italiano, inglese e seconde lingue comunitarie), matematico‑logiche, scientifiche, artistiche e motorie, nonché lo sviluppo della cittadinanza attiva, della legalità, della sostenibilità ambientale e dell’inclusione. Tra gli obiettivi specifici si segnala la riduzione dell’abbandono scolastico, la continuità territoriale degli alunni, il contrasto al fenomeno NEET e la promozione del lifelong learning. Il documento prevede inoltre il potenziamento delle capacità di orientamento attraverso attività di recupero e potenziamento, la definizione di percorsi personalizzati per gli alunni con BES e DSA, e la creazione di momenti di confronto tra docenti dei diversi ordini di scuola per garantire una continuità didattica.
+
+#### 2.4 Governance e Azioni di Sistema
+
+La governance dell’istituto è strutturata attorno al Collegio dei Docenti, al Dirigente Scolastico e al Consiglio di Istituto, tutti coinvolti nella definizione e nell’approvazione del PTOF. Il Collegio dei Docenti elabora il Piano Annuale di Aggiornamento e Formazione, che è allineato alle priorità individuate nel Rapporto di Autovalutazione (RAV) e nel Piano di Miglioramento (PdM). Il PdM, articolato in tre fasi (Pianificazione, Attuazione, Verifica), prevede la realizzazione di progetti trasversali per il recupero e il potenziamento delle competenze, con una particolare attenzione alla formazione continua del personale docente e ATA. Le attività di formazione includono corsi di coding, laboratori di Minecraft, utilizzo della G‑Suite (Google for Education), percorsi di aggiornamento su metodologie didattiche innovative (realtà aumentata, STEM, didattica per competenze) e workshop sulla sicurezza digitale. La partecipazione a bandi nazionali e regionali (PON, PNRR, Agenda Nord) è gestita da una commissione interna che coordina la redazione delle domande, la rendicontazione dei finanziamenti e la distribuzione delle risorse tra i plessi.
+
+#### 2.5 Didattica Orientativa
+
+Pur non essendo formalizzata come “didattica orientativa”, l’approccio pedagogico dell’Istituto integra costantemente elementi di orientamento nelle pratiche quotidiane. La didattica per competenze, prevista dal PTOF, si traduce in metodologie attive quali il cooperative learning, il peer education, il project‑based learning e l’apprendimento basato su problemi (problem‑based learning). L’uso di strumenti digitali – LIM, digital board, tablet, piattaforme come Google Classroom e Microsoft Teams – consente la realizzazione di percorsi personalizzati e la raccolta di dati diagnostici utili a orientare gli alunni verso scelte consapevoli. I laboratori di coding, le attività di realtà aumentata e i progetti STEM (ad esempio “Monsters High School – A scuola di animazione digitale”) sono concepiti per sviluppare competenze trasversali (pensiero computazionale, problem solving, creatività) che costituiscono un vero e proprio orientamento verso i percorsi tecnico‑scientifici. Inoltre, le attività di orientamento alla cittadinanza digitale, con particolare riferimento alla valutazione delle fonti, al riconoscimento delle fake news e alla sicurezza online, sono integrate nei curricula di tutte le classi, dal primo ciclo fino alla secondaria di primo grado.
+
+#### 2.6 Opportunità Formative
+
+Le opportunità formative offerte dall’Istituto sono molteplici e si articolano su diversi livelli. Per il personale docente e ATA sono previsti corsi di aggiornamento interno (coding, Minecraft, G‑Suite) e partecipazione a percorsi esterni finanziati da bandi PON e PNRR, con l’obiettivo di consolidare le competenze digitali e metodologiche. Gli alunni, dal primo ciclo alla secondaria, beneficiano di laboratori di coding, attività di “CodeWeek”, progetti di animazione digitale, laboratori musicali, attività motorie (Scuola Attiva Kids/Junior) e percorsi di educazione alla cittadinanza digitale. Le iniziative di “Caffè Digitali” e la partecipazione a “Programma il futuro” e “L’Ora del Codice” offrono spazi di confronto tra scuola, famiglie e territorio. Le collaborazioni con enti culturali (biblioteche, musei, teatri) e sportivi (federazioni sportive nazionali) ampliano il panorama formativo, consentendo agli alunni di sperimentare contesti reali di apprendimento e di sviluppare competenze trasversali legate alla comunicazione, al lavoro di squadra e alla gestione di progetti.
+
+#### 2.7 Registro Dettagliato delle Attività
+
+Il PTOF elenca in modo dettagliato le attività programmate, i relativi obiettivi, le tempistiche e i finanziamenti. Tra le iniziative più rilevanti troviamo:
+
+- **Il futuro nelle tue mani** (finanziamento €80 172,50, periodo 20 febbraio 2023 – 31 dicembre 2024), volto a sostenere alunni in situazioni di fragilità con percorsi di recupero in italiano, matematica e inglese, e a promuovere il “talento” attraverso attività motivazionali.
+- **Futuro al Centro** (finanziamento €75 547,99, periodo 17 aprile 2024 – 15 settembre 2025), con lo stesso focus di recupero e potenziamento, ma con un’enfasi maggiore sull’inclusione di alunni con BES.
+- **Dare forma alle idee** (finanziamento €68 347,87, periodo 12 febbraio 2024 – 30 settembre 2025), dedicato alla transizione digitale del personale, con corsi su competenze digitali, sicurezza informatica e utilizzo di strumenti per la didattica STEM.
+- **Scuola di oggi, mondo di domani** (finanziamento €116 651,94, periodo 1 febbraio 2024 – 15 maggio 2025), mirato allo sviluppo di competenze STEM e multilinguistiche, con particolare attenzione alla parità di genere e alla riduzione dei divari socio‑economici.
+- **Scuola Attiva Kids** e **Scuola Attiva Junior** (avviate nel giugno 2023), finanziate dal Ministero dell’Istruzione e dalle Federazioni Sportive Nazionali, con l’obiettivo di promuovere la salute, il benessere e la cittadinanza attiva attraverso attività sportive e motorie.
+- **Monsters High School – A scuola di animazione digitale**, progetto trasversale che integra linguaggi audiovisivi, web e videogame, con la partecipazione di esperti universitari e formatori esterni.
+- **CodeWeek** e **Caffè Digitali**, iniziative annuali che coinvolgono tutti gli ordini di scuola nella scoperta delle tecnologie digitali e nella promozione della cittadinanza digitale.
+- **Progetto lettura** nelle scuole dell’infanzia, con la Biblioteca “Augusto Tersenghi” che fornisce alunni di 3‑5 anni circa 30‑40 albi illustrati al mese, favorendo la prima esperienza di prestito e la costruzione di un rapporto positivo con il libro.
+- **Attività di sicurezza stradale** (“A scuola di sicurezza stradale”) realizzate in collaborazione con SICES Srl, la Polizia locale di Velletri e la Polizia Metropolitana, con l’obiettivo di formare gli alunni alla corretta circolazione pedonale e ciclistica.
+- **Iniziative di educazione alla legalità** (giornata della gentilezza, muro della gentilezza, giornate contro la violenza sulle donne), realizzate con il supporto di Polizia, Carabinieri e associazioni del territorio, volte a contrastare bullismo e cyberbullismo.
+
+Le attività sono distribuite su un calendario annuale che prevede verifiche periodiche (settembre, gennaio, maggio) e momenti di monitoraggio e revisione, con l’obiettivo di garantire un miglioramento annuale minimo dell’1 % degli esiti scolastici. Il registro delle attività include anche la partecipazione a bandi regionali, nazionali ed europei, la rendicontazione dei risultati e la condivisione di buone pratiche attraverso il sito istituzionale.
+
+### 3. Punti di Forza
+
+- **Integrazione di risorse digitali**: la presenza capillare di LIM, digital board e dispositivi mobili consente un approccio didattico innovativo e personalizzato.
+- **Rete territoriale solida**: collaborazioni con biblioteche, musei, enti sportivi e forze dell’ordine arricchiscono l’offerta formativa e favoriscono l’integrazione scuola‑territorio.
+- **Finanziamenti diversificati**: la capacità di accedere a fondi PON, PNRR, Agenda Nord e progetti ministeriali garantisce risorse economiche per progetti di recupero, inclusione e innovazione.
+- **Formazione continua del personale**: i piani di aggiornamento includono corsi su coding, realtà aumentata, sicurezza digitale e metodologie attive, rafforzando la professionalità docente.
+- **Approccio per competenze**: la didattica per competenze, il project‑based learning e le attività STEM sono ben radicati nel curriculum, favorendo lo sviluppo di capacità trasversali.
+
+### 4. Aree di Debolezza
+
+- **Assenza di una sezione esplicita sull’orientamento**: la dispersione delle informazioni rende difficile una valutazione sistematica delle attività orientative.
+- **Limitata capacità strutturale degli edifici**: le strutture, pur recenti, presentano carenze in termini di spazi adeguati per laboratori specialistici e per alunni con BES.
+- **Dipendenza da personale a tempo determinato**: la presenza di docenti e ATA a tempo determinato può compromettere la continuità dei progetti di lungo periodo.
+- **Scarsa evidenza di monitoraggio dei risultati di orientamento**: il PTOF non prevede indicatori specifici per valutare l’efficacia delle attività orientative.
+
+### 5. Gap Analysis
+
+| Gap identificato | Evidenza nel PTOF | Impatto | Proposta di intervento |
+|------------------|-------------------|---------|------------------------|
+| Mancanza di una sezione dedicata all’orientamento | Nessuna sezione “Orientamento” | Difficoltà di rendicontazione e di

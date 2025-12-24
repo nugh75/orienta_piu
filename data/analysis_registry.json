@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T15:45:37.113239",
+  "last_updated": "2025-12-24T15:57:35.197821",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -100,6 +100,24 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LUMM84201B_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LUMM84201B_ptof.md"
+    },
+    "PAMM8A8014": {
+      "pdf_hash": "sha256:f3b83831a7d9e9a28db0fce262069dd2b5ee6289be8b48208a769b0d5fab06b0",
+      "pdf_name": "PAMM8A8014_PTOF.pdf",
+      "pdf_size": 1709692,
+      "analyzed_at": "2025-12-24T15:55:28.097669",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAMM8A8014_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAMM8A8014_ptof.md"
+    },
+    "NA1M032002": {
+      "pdf_hash": "sha256:67d0b677bdd95300a1308c3abf3d333e7d2f84f0f49170004b841eb0f471c6a6",
+      "pdf_name": "NA1M032002_PTOF.pdf",
+      "pdf_size": 1684010,
+      "analyzed_at": "2025-12-24T15:57:35.197773",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NA1M032002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1M032002_ptof.md"
     }
   }
 }

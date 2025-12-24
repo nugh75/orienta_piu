@@ -790,6 +790,25 @@ if len(df_macro) > 5:
                 st.metric("p-value", f"{p_val:.4f}")
                 if p_val < 0.05:
                     st.success("✅ Differenza significativa (p < 0.05)")
+                    
+                    # === POST-HOC: Ranking e confronto gruppi ===
+                    import numpy as np
+                    group_names = []
+                    group_values = []
+                    for name, group in df_macro.groupby('macro_area'):
+                        values = group['ptof_orientamento_maturity_index'].dropna().values
+                        if len(values) >= 3:
+                            group_names.append(name)
+                            group_values.append(values)
+                    
+                    group_means = {group_names[i]: np.mean(group_values[i]) for i in range(len(group_names))}
+                    sorted_groups = sorted(group_means.items(), key=lambda x: x[1], reverse=True)
+                    
+                    best_group = sorted_groups[0][0]
+                    worst_group = sorted_groups[-1][0]
+                    diff = sorted_groups[0][1] - sorted_groups[-1][1]
+                    
+                    st.info(f"📌 **A favore di {best_group}** (media: {sorted_groups[0][1]:.2f}) vs {worst_group} (media: {sorted_groups[-1][1]:.2f}). Differenza: {diff:.2f}")
                 else:
                     st.info("❌ Nessuna differenza significativa")
             else:
@@ -858,6 +877,64 @@ if 'area_geografica' in df_valid.columns:
                     st.metric("p-value", f"{p_val:.4f}")
                     if p_val < 0.05:
                         st.success("✅ Differenza significativa")
+                        
+                        # === POST-HOC: Dunn test con ranking ===
+                        import numpy as np
+                        group_names_area = []
+                        group_values_area = []
+                        for name, group in df_area.groupby('area_geografica'):
+                            values = group['ptof_orientamento_maturity_index'].dropna().values
+                            if len(values) >= 3:
+                                group_names_area.append(name)
+                                group_values_area.append(values)
+                        
+                        # Ranking dei gruppi
+                        group_means_area = {group_names_area[i]: np.mean(group_values_area[i]) for i in range(len(group_names_area))}
+                        sorted_groups_area = sorted(group_means_area.items(), key=lambda x: x[1], reverse=True)
+                        
+                        st.markdown("#### 🎯 A favore di chi?")
+                        
+                        # Mostra ranking
+                        col_rank1, col_rank2 = st.columns(2)
+                        with col_rank1:
+                            st.markdown("**🏆 Ranking:**")
+                            for i, (grp, mean) in enumerate(sorted_groups_area, 1):
+                                medal = "🥇" if i == 1 else ("🥈" if i == 2 else ("🥉" if i == 3 else f"{i}."))
+                                st.markdown(f"{medal} **{grp}**: {mean:.2f}")
+                        
+                        with col_rank2:
+                            best = sorted_groups_area[0]
+                            worst = sorted_groups_area[-1]
+                            st.info(f"📌 **{best[0]}** ha l'indice più alto ({best[1]:.2f}), **{worst[0]}** il più basso ({worst[1]:.2f}). Differenza: {best[1]-worst[1]:.2f}")
+                        
+                        # Test Dunn post-hoc (se disponibile)
+                        try:
+                            from scipy.stats import mannwhitneyu
+                            from itertools import combinations
+                            
+                            significant_pairs_area = []
+                            for (i, name1), (j, name2) in combinations(enumerate(group_names_area), 2):
+                                _, p_pairwise = mannwhitneyu(group_values_area[i], group_values_area[j], alternative='two-sided')
+                                # Bonferroni correction
+                                n_comparisons = len(group_names_area) * (len(group_names_area) - 1) // 2
+                                p_adjusted = min(p_pairwise * n_comparisons, 1.0)
+                                
+                                if p_adjusted < 0.05:
+                                    mean1, mean2 = np.mean(group_values_area[i]), np.mean(group_values_area[j])
+                                    favored = name1 if mean1 > mean2 else name2
+                                    significant_pairs_area.append({
+                                        'Confronto': f"{name1} vs {name2}",
+                                        'A favore di': favored,
+                                        'Media sup.': f"{max(mean1, mean2):.2f}",
+                                        'Media inf.': f"{min(mean1, mean2):.2f}",
+                                        'p-value adj.': f"{p_adjusted:.4f}"
+                                    })
+                            
+                            if significant_pairs_area:
+                                with st.expander(f"📋 {len(significant_pairs_area)} confronti significativi (Bonferroni-corretti)"):
+                                    st.dataframe(pd.DataFrame(significant_pairs_area), use_container_width=True, hide_index=True)
+                        except Exception:
+                            pass
                     else:
                         st.info("❌ Nessuna differenza significativa")
                 else:
