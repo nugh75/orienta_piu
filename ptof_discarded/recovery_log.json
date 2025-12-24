@@ -5343,6 +5343,69 @@
         "reason": "Rifiutato da LLM (integrazione PTOF: Il testo presenta un'integrazione al PTOF relativa all'emergenza COVID-19, ma non include l'intero piano triennale dell'offerta formativa né le informazioni complete su curricolo, didattica e organizzazione. Manca la struttura articolata tipica di un PTOF.)"
       },
       "timestamp": "2025-12-24T20:43:05.824596"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RNEE80202L_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/RNEE80202L_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RNEE80202L_PTOF.pdf",
+        "file_name": "RNEE80202L_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.17000000000000007,
+        "phase": "llm",
+        "page_count": 5,
+        "char_count": 18958,
+        "ptof_keywords_found": 26,
+        "exclusion_keywords_found": 5,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo analizzato è un atto di indirizzo del dirigente scolastico per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e il contenuto specifico del piano formativo.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-24T20:54:04.131098",
+        "reason": "Rifiutato da LLM (circolare: Il testo analizzato è un atto di indirizzo del dirigente scolastico per la predisposizione del PTOF, non il PTOF stesso. Manca la struttura articolata e il contenuto specifico del piano formativo.)"
+      },
+      "timestamp": "2025-12-24T20:55:04.057320"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FRIS023002_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/FRIS023002_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/FRIS023002_PTOF.pdf",
+        "file_name": "FRIS023002_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.44000000000000006,
+        "phase": "llm",
+        "page_count": 6,
+        "char_count": 17631,
+        "ptof_keywords_found": 10,
+        "exclusion_keywords_found": 5,
+        "school_code_found": "FRIS023002",
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T20:55:04.552971",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T20:56:04.600659"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PEMM81102R_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PEMM81102R_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PEMM81102R_PTOF.pdf",
+        "file_name": "PEMM81102R_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.44000000000000006,
+        "phase": "llm",
+        "page_count": 5,
+        "char_count": 18426,
+        "ptof_keywords_found": 27,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T21:01:32.614588",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T21:02:32.729186"
     }
   ]
 }

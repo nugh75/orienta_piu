@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T20:26:57.713836",
+  "last_updated": "2025-12-24T21:08:48.289159",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -148,7 +148,22 @@
       "analyzed_at": "2025-12-24T15:57:35.197773",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NA1M032002_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1M032002_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1M032002_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T21:00:55.845924",
+          "details": {
+            "chunks_analyzed": 3,
+            "extreme_scores_checked": 12,
+            "scores_modified": 11,
+            "orientamento_found": false
+          }
+        }
+      ],
+      "last_review": "2025-12-24T21:00:55.845940"
     },
     "MBMM8DN017": {
       "pdf_hash": "sha256:6f2bc5e9cfcbc2d6b3a96d439d814e97314928feb0636bf492a05c12834bf641",
@@ -746,9 +761,25 @@
             "scores_modified": 10,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T21:08:48.289066",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 68,
+            "enrichments_found": 142,
+            "corrections_found": 53,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T19:47:05.632159"
+      "last_review": "2025-12-24T21:08:48.289074"
     },
     "MEIS03700V": {
       "pdf_hash": "unknown",
@@ -896,6 +927,48 @@
         }
       ],
       "last_review": "2025-12-24T20:26:57.713581"
+    },
+    "NAEE8G1015": {
+      "pdf_hash": "unknown",
+      "pdf_name": "NAEE8G1015_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:59:39.674153",
+          "details": {
+            "chunks_analyzed": 29,
+            "extreme_scores_checked": 1,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:59:39.674167"
+    },
+    "BAAA83103A": {
+      "pdf_hash": "unknown",
+      "pdf_name": "BAAA83103A_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T21:05:53.798016",
+          "details": {
+            "chunks_analyzed": 13,
+            "extreme_scores_checked": 2,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T21:05:53.798027"
     }
   }
 }

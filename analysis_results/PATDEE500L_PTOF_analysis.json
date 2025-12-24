@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "La sezione è presente e dettagliata. L'indice cita moduli di orientamento formativo (p. 436) e tutor per l'orientamento (p. 19)."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo Niccolo' Machiavelli è ben sviluppata e include moduli di orientamento formativo, l'implementazione di un sistema di tutoraggio, e l'organizzazi (Precedente: score=2, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T21:07:40.381559"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -230,6 +232,22 @@
             "reason": "Il testo non fornisce evidenze specifiche sugli opzionali laboratoriali espressivi, nonostante il pu"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T21:08:48.286907",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 68,
+        "enrichments_found": 142,
+        "corrections_found": 53,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
       }
     }
   ],
