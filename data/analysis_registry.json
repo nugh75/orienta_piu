@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T17:41:18.058244",
+  "last_updated": "2025-12-24T18:15:27.243468",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -153,22 +153,7 @@
       "analyzed_at": "2025-12-24T16:28:11.266463",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LE1M00300G_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LE1M00300G_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-24T17:41:18.058144",
-          "details": {
-            "chunks_analyzed": 3,
-            "extreme_scores_checked": 10,
-            "scores_modified": 2,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-24T17:41:18.058152"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LE1M00300G_ptof.md"
     },
     "CAEE89005A": {
       "pdf_hash": "sha256:4a15ea83bdc360da1e4c1b8480c3e1e027a18d1d4f100e829f4463c97879be1f",
@@ -213,82 +198,18 @@
       "analyzed_at": "2025-12-24T17:28:27.906083",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/VEEE859019_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEEE859019_ptof.md"
-    },
-    "LTRA01650V": {
-      "pdf_hash": "unknown",
-      "pdf_name": "LTRA01650V_ptof.pdf",
-      "analyzed_at": "unknown",
-      "json_path": "",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-24T17:30:08.452604",
-          "details": {
-            "chunks_analyzed": 10,
-            "extreme_scores_checked": 3,
-            "scores_modified": 3,
-            "orientamento_found": true
-          }
-        },
-        {
-          "type": "ollama_report_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-24T17:31:23.258252",
-          "details": {
-            "action": "enrich",
-            "chunks_analyzed": 9,
-            "enrichments_found": 19,
-            "corrections_found": 0,
-            "orientamento_found": true,
-            "report_created": false,
-            "report_enriched": true,
-            "initial_issues": 0
-          }
-        }
-      ],
-      "last_review": "2025-12-24T17:31:23.258263"
-    },
-    "TPAA813018": {
-      "pdf_hash": "unknown",
-      "pdf_name": "TPAA813018_ptof.pdf",
-      "analyzed_at": "unknown",
-      "json_path": "",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-24T17:36:15.495810",
-          "details": {
-            "chunks_analyzed": 10,
-            "extreme_scores_checked": 2,
-            "scores_modified": 3,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-24T17:36:15.495824"
-    },
-    "AVEE81805N": {
-      "pdf_hash": "unknown",
-      "pdf_name": "AVEE81805N_ptof.pdf",
-      "analyzed_at": "unknown",
-      "json_path": "",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEEE859019_ptof.md",
       "reviews": [
         {
           "type": "ollama_report_review",
           "model": "qwen3:32b",
           "status": "completed",
-          "timestamp": "2025-12-24T17:39:23.573719",
+          "timestamp": "2025-12-24T18:15:27.243308",
           "details": {
             "action": "enrich",
-            "chunks_analyzed": 10,
+            "chunks_analyzed": 16,
             "enrichments_found": 18,
-            "corrections_found": 1,
+            "corrections_found": 9,
             "orientamento_found": false,
             "report_created": false,
             "report_enriched": true,
@@ -296,28 +217,16 @@
           }
         }
       ],
-      "last_review": "2025-12-24T17:39:23.573730"
+      "last_review": "2025-12-24T18:15:27.243323"
     },
-    "RMIC8GA002": {
-      "pdf_hash": "unknown",
-      "pdf_name": "RMIC8GA002_ptof.pdf",
-      "analyzed_at": "unknown",
-      "json_path": "",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-24T17:39:57.520595",
-          "details": {
-            "chunks_analyzed": 10,
-            "extreme_scores_checked": 1,
-            "scores_modified": 1,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-24T17:39:57.520609"
+    "RAMM81301P": {
+      "pdf_hash": "sha256:43daac952e99d5a164762c951b6dda3d12184aa18bdf8b22bf5005fe95a61589",
+      "pdf_name": "RAMM81301P_PTOF.pdf",
+      "pdf_size": 3209877,
+      "analyzed_at": "2025-12-24T18:14:16.336350",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RAMM81301P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RAMM81301P_ptof.md"
     }
   }
 }
