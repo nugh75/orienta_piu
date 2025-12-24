@@ -83,14 +83,6 @@ if df.empty:
 # Keep original DF for saving operations
 df_original = df.copy()
 
-# Global Sidebar Filters
-try:
-    from app.data_utils import apply_sidebar_filters
-    # Apply filters to view DF
-    df = apply_sidebar_filters(df, extra_clear_keys=['search_box', 'filter_missing_chk'])
-except ImportError:
-    pass
-
 # Main school selector with navigation
 school_options_all = df['denominazione'].dropna().unique().tolist()
 

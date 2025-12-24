@@ -5217,6 +5217,27 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2025-12-24T19:23:30.879921"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X_20251224_114051.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CANICATTÃŒ_AGIS00100X_20251224_114051.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CANICATTÃŒ_AGIS00100X_20251224_114051.pdf",
+        "file_name": "CANICATTÃŒ_AGIS00100X_20251224_114051.pdf",
+        "result": "not_ptof",
+        "confidence": 0.38,
+        "phase": "llm",
+        "page_count": 7,
+        "char_count": 17346,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2025-12-24T19:32:46.222222",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2025-12-24T19:33:46.318429"
     }
   ]
 }

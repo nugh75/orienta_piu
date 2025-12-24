@@ -57,13 +57,6 @@ def load_data():
 
 df = load_data()
 
-# Global Filters
-try:
-    from app.data_utils import apply_sidebar_filters
-    df = apply_sidebar_filters(df)
-except ImportError:
-    pass
-
 # Auto-Update Check (Lightweight)
 try:
     if 'index_updated' not in st.session_state:
@@ -102,58 +95,8 @@ st.markdown("Sistema di analisi automatizzata dei Piani Triennali dell'Offerta F
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
     st.stop()
-    
-# Sidebar Filters (Local)
-if 'ptof_orientamento_maturity_index' in df.columns:
-    # Coerce to numeric, turning 'ND' to NaN
-    maturity_series = pd.to_numeric(df['ptof_orientamento_maturity_index'], errors='coerce')
-    
-    min_val = float(maturity_series.min()) if not maturity_series.dropna().empty else 1.0
-    max_val = float(maturity_series.max()) if not maturity_series.dropna().empty else 7.0
-    
-    # Ensure min < max
-    if min_val == max_val:
-        min_val = 1.0
-        max_val = 7.0
-        
-    # Reset slider if needed
-    slider_key = "home_score_range"
-    if slider_key not in st.session_state:
-        st.session_state[slider_key] = (min_val, max_val)
 
-    score_range = st.sidebar.slider(
-        "Range Indice Robustezza",
-        min_value=0.0, max_value=7.0,
-        step=0.1,
-        key=slider_key
-    )
-    
-    # Filter using the coerced series to avoid string comparison issues
-    df = df[
-        (maturity_series >= score_range[0]) & 
-        (maturity_series <= score_range[1])
-    ]
-
-st.sidebar.markdown(f"**{len(df)} scuole filtrate**")
-
-# Glossario
-st.sidebar.markdown("---")
-with st.sidebar.expander("📘 Glossario", expanded=False):
-    st.markdown("""
-    **Indice di Robustezza**: Media delle 5 dimensioni (1-7)
-    
-    **Dimensioni:**
-    - Finalità: Attitudini, Interessi, Progetto di vita
-    - Obiettivi: Abbandono, NEET, Lifelong learning
-    - Governance: Coordinamento, Monitoraggio
-    - Didattica: Laboratoriale, Interdisciplinare
-    - Opportunità: Culturali, Espressive, Sportive
-    
-    **Scala Likert (1-7):**
-    - 1: Assente
-    - 4: Sufficiente
-    - 7: Eccellente
-    """)
+st.sidebar.markdown(f"**{len(df)} scuole analizzate**")
 
 # KPIs Row
 st.subheader("📈 Indicatori Chiave")

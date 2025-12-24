@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T19:29:58.635570",
+  "last_updated": "2025-12-24T19:37:06.060817",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -569,9 +569,25 @@
             "note": "Nessuno score estremo da revisionare",
             "orientamento_issue": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T19:37:06.060713",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 10,
+            "enrichments_found": 29,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T18:54:14.944798"
+      "last_review": "2025-12-24T19:37:06.060727"
     },
     "CBAA82709C": {
       "pdf_hash": "unknown",
