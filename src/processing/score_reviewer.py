@@ -5,8 +5,10 @@ Focuses on scores that are too low or too high, confirms or adjusts them.
 """
 
 import os
+import sys
 import json
 import time
+import signal
 import logging
 import argparse
 import shutil
@@ -14,6 +16,22 @@ import random
 import requests
 from pathlib import Path
 from typing import Dict, Optional, Any, List, Set
+
+# Flag per uscita controllata
+EXIT_REQUESTED = False
+
+def graceful_exit_handler(signum, frame):
+    """Handler per uscita controllata con Ctrl+C."""
+    global EXIT_REQUESTED
+    if EXIT_REQUESTED:
+        print("\n\n⚠️ Uscita forzata.", flush=True)
+        sys.exit(1)
+    EXIT_REQUESTED = True
+    print("\n\n🛑 USCITA RICHIESTA - Completamento file corrente...", flush=True)
+    print("   (Premi Ctrl+C di nuovo per uscita forzata)", flush=True)
+
+# Registra handler
+signal.signal(signal.SIGINT, graceful_exit_handler)
 
 # Setup logging
 logging.basicConfig(
@@ -368,6 +386,7 @@ def main() -> None:
 
     logger.info(f"Starting score review with provider: {args.provider} model: {model_name}")
     logger.info(f"Base wait: {args.wait}s")
+    logger.info(f"💡 Premi Ctrl+C per uscita controllata")
 
     BACKUP_DIR.mkdir(exist_ok=True)
 
@@ -401,6 +420,11 @@ def main() -> None:
 
     count = 0
     for school_code, json_path, md_path in candidates:
+        # Controllo uscita richiesta
+        if EXIT_REQUESTED:
+            logger.info("\n🛑 Uscita controllata richiesta. Salvataggio...")
+            break
+        
         if count >= args.limit:
             break
 

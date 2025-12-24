@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-24T20:24:54.428188",
+  "last_updated": "2025-12-24T20:26:57.713836",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -875,6 +875,27 @@
         }
       ],
       "last_review": "2025-12-24T20:24:54.428048"
+    },
+    "SRPS150012": {
+      "pdf_hash": "unknown",
+      "pdf_name": "SRPS150012_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-24T20:26:57.713563",
+          "details": {
+            "chunks_analyzed": 5,
+            "extreme_scores_checked": 1,
+            "scores_modified": 0,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-24T20:26:57.713581"
     }
   }
 }

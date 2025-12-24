@@ -5280,6 +5280,27 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2025-12-24T20:13:35.201334"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MBMM8GC013_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/MBMM8GC013_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/MBMM8GC013_PTOF.pdf",
+        "file_name": "MBMM8GC013_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.28,
+        "phase": "llm",
+        "page_count": 9,
+        "char_count": 9142,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": "modulo: Il documento presenta solo un estratto relativo al piano di formazione del personale docente, non contiene informazioni complete sul curricolo, didattica, organizzazione e non mostra una struttura articolata tipica di un PTOF.",
+        "llm_confidence": 0.09999999999999998,
+        "timestamp": "2025-12-24T20:26:37.793846",
+        "reason": "Rifiutato da LLM (modulo: Il documento presenta solo un estratto relativo al piano di formazione del personale docente, non contiene informazioni complete sul curricolo, didattica, organizzazione e non mostra una struttura articolata tipica di un PTOF.)"
+      },
+      "timestamp": "2025-12-24T20:27:11.936509"
     }
   ]
 }

@@ -9,8 +9,10 @@ Strategia:
 """
 
 import os
+import sys
 import json
 import time
+import signal
 import logging
 import argparse
 import shutil
@@ -19,6 +21,22 @@ import requests
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Any
+
+# Flag per uscita controllata
+EXIT_REQUESTED = False
+
+def graceful_exit_handler(signum, frame):
+    """Handler per uscita controllata con Ctrl+C."""
+    global EXIT_REQUESTED
+    if EXIT_REQUESTED:
+        print("\n\n⚠️ Uscita forzata.", flush=True)
+        sys.exit(1)
+    EXIT_REQUESTED = True
+    print("\n\n🛑 USCITA RICHIESTA - Completamento file corrente...", flush=True)
+    print("   (Premi Ctrl+C di nuovo per uscita forzata)", flush=True)
+
+# Registra handler
+signal.signal(signal.SIGINT, graceful_exit_handler)
 
 # Setup logging
 logging.basicConfig(
@@ -198,6 +216,7 @@ def main():
         return
 
     logger.info(f"🚀 Avvio Gemini Enrichment con modello: {args.model}")
+    logger.info(f"💡 Premi Ctrl+C per uscita controllata")
     
     # Setup directory
     BACKUP_DIR.mkdir(exist_ok=True)
@@ -235,6 +254,11 @@ def main():
     
     count = 0
     for school_code, report_path, source_path in candidates:
+        # Controllo uscita richiesta
+        if EXIT_REQUESTED:
+            logger.info("\n🛑 Uscita controllata richiesta. Salvataggio...")
+            break
+        
         if count >= args.limit:
             break
             

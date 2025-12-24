@@ -10,8 +10,10 @@ Strategia:
 """
 
 import os
+import sys
 import json
 import time
+import signal
 import logging
 import argparse
 import shutil
@@ -19,6 +21,22 @@ import requests
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Any, List
+
+# Flag per uscita controllata
+EXIT_REQUESTED = False
+
+def graceful_exit_handler(signum, frame):
+    """Handler per uscita controllata con Ctrl+C."""
+    global EXIT_REQUESTED
+    if EXIT_REQUESTED:
+        print("\n\n⚠️ Uscita forzata.", flush=True)
+        sys.exit(1)
+    EXIT_REQUESTED = True
+    print("\n\n🛑 USCITA RICHIESTA - Completamento file corrente...", flush=True)
+    print("   (Premi Ctrl+C di nuovo per uscita forzata)", flush=True)
+
+# Registra handler
+signal.signal(signal.SIGINT, graceful_exit_handler)
 
 # Import chunker (stesso package)
 try:
@@ -440,6 +458,7 @@ def main():
     logger.info(f"   Modello: {args.model}")
     logger.info(f"   URL: {args.ollama_url}")
     logger.info(f"   Chunk size: {args.chunk_size}")
+    logger.info(f"💡 Premi Ctrl+C per uscita controllata")
     
     # Test connessione Ollama
     try:
@@ -495,6 +514,11 @@ def main():
     
     count = 0
     for school_code, report_path, json_path, ptof_path, report_exists in candidates:
+        # Controllo uscita richiesta
+        if EXIT_REQUESTED:
+            logger.info("\n🛑 Uscita controllata richiesta. Salvataggio...")
+            break
+        
         if count >= args.limit:
             break
         
