@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 5,
       "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
       "ollama_review_date": "2025-12-25T00:29:40.213181"
@@ -118,7 +118,7 @@
         "note": "Pur menzionando attività laboratoriali come Fab-Lab e coding, il documento non fornisce dettagli sufficienti sulla loro implementazione metodologica o frequenza."
       },
       "didattica_flessibilita_spazi_tempi": {
-        "score": 2,
+        "score": 4,
         "note": "La descrizione del 'tempo scuola articolato su 5 giorni' è vaga e non evidenzia una reale flessibilità nell'organizzazione degli spazi e dei tempi didattici."
       },
       "didattica_interdisciplinare": {
@@ -275,6 +275,46 @@
         "report_enriched": false,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T06:16:09.309998",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 7,
+        "extreme_scores_checked": 3,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il testo mostra una sezione dedicata all'orientamento con attività specifiche come il 'tempo scuola "
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_flessibilita_spazi_tempi.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo menziona una 'flessibilità negli spazi e nei tempi didattici' con esempi concreti come l'or"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 6,
+            "new": null,
+            "reason": ""
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T06:16:09.310016",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
     }
   ]
 }

@@ -32,7 +32,7 @@ help:
 	@echo "  make review-scores-gemini  - Revisione punteggi estremi con Google (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
 	@echo "  make review-ollama         - Revisione report con Ollama locale (MODEL=..., OLLAMA_URL=..., CHUNK_SIZE=..., WAIT=..., LIMIT=..., TARGET=...)"
 	@echo "  make review-scores-ollama  - Revisione punteggi estremi con Ollama locale (MODEL=..., OLLAMA_URL=..., CHUNK_SIZE=..., LOW=2, HIGH=6, WAIT=..., LIMIT=..., TARGET=...)"
-	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
+	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1, MAX_SCORE=2.0)"
 	@echo ""
 	@echo "🦙 OLLAMA REVIEWERS (chunking, server 192.168.129.14):"
 	@echo "  make ollama-score-review   - Revisione score JSON (MODEL=..., TARGET=..., LOW=2, HIGH=6)"
@@ -257,7 +257,7 @@ review-scores-ollama:
 
 # Non-PTOF Review (uso: make review-non-ptof TARGET=RMIC8GA002 DRY=1)
 review-non-ptof:
-	$(PYTHON) -m src.processing.non_ptof_reviewer $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),)
+	$(PYTHON) -m src.processing.non_ptof_reviewer $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_SCORE),--max-score $(MAX_SCORE),)
 
 # ═══════════════════════════════════════════════════════════════════
 # OLLAMA REVIEWERS (locale su 192.168.129.14)

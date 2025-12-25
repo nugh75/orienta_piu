@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione 4.1 del PTOF, intitolata 'L’Organizzazione', include esplicitamente l'orientamento come area di responsabilità delle Funzioni Strumentali. Inoltre, sono previste commissioni di lavoro dedic (Precedente: score=5, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-25T00:29:40.213181"
+      "ollama_review_date": "2025-12-25T08:17:31.491253"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -306,6 +306,22 @@
             "reason": ""
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T08:19:09.863238",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 7,
+        "enrichments_found": 13,
+        "corrections_found": 8,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

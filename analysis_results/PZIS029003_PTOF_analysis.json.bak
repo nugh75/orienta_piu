@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 4,
-      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF include progetti specifici come il PCTO e collaborazioni internazionali attraverso il programma Erasmus+. Questi elementi sono citati nel documento come p (Precedente: score=1, has_sezione_dedicata=0)",
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-25T08:29:35.237498"
+      "ollama_review_date": "2025-12-25T00:31:10.418109"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -216,22 +216,6 @@
         "report_created": false,
         "report_enriched": false,
         "initial_issues": 0
-      }
-    },
-    {
-      "timestamp": "2025-12-25T08:31:15.734702",
-      "activity": "ollama_report_review",
-      "model": "qwen3:32b",
-      "status": "completed",
-      "details": {
-        "action": "enrich",
-        "chunks_analyzed": 5,
-        "enrichments_found": 12,
-        "corrections_found": 5,
-        "orientamento_found": true,
-        "report_created": false,
-        "report_enriched": true,
-        "initial_issues": 1
       }
     }
   ]

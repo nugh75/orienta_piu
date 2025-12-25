@@ -60,7 +60,30 @@ Inoltre, verifica sempre se il file è già presente in `ptof_processed` o `ptof
 - `make review-scores-gemini`: Come sopra, ma con Google Gemini.
 - `make review-non-ptof`: Rimuove analisi generate da documenti non-PTOF.
 
-## 📂 Directory
+## �️ Sicurezza e Integrità dei Dati
+
+Il sistema implementa meccanismi robusti per prevenire la perdita o la corruzione dei dati:
+
+### 1. Scrittura Atomica
+Tutti i file critici (JSON, CSV, Markdown) vengono scritti in modalità atomica:
+- Il contenuto viene prima scritto su un file temporaneo.
+- Solo se la scrittura ha successo, il file temporaneo sostituisce quello originale.
+- Questo previene la creazione di file troncati o corrotti in caso di crash o interruzioni.
+
+### 2. Backup Automatici
+Durante le operazioni di revisione (es. `make review-*`), il sistema crea automaticamente copie di backup:
+- Prima di modificare un file esistente, viene creata una copia con estensione `.bak`.
+- Esempio: `analisi.json` -> `analisi.json.bak`.
+- Questo permette di ripristinare facilmente lo stato precedente in caso di errori logici dei modelli AI.
+
+### 3. Pulizia Falsi Positivi
+Il comando `make review-non-ptof` è stato potenziato per mantenere pulito il dataset:
+- Filtra le scuole con punteggi bassi (default <= 2.0), spesso indice di documenti errati.
+- **Strict Mode**: Se il punteggio è <= 2.0, il documento viene eliminato a prescindere, senza ulteriore validazione. Questo perché un punteggio così basso è garanzia quasi assoluta che il documento non sia un PTOF valido o non contenga informazioni pertinenti.
+- Per punteggi superiori, rivalida il PDF originale con euristiche e LLM.
+- Se confermato come NON PTOF, rimuove tutti gli artefatti (JSON, MD analisi, MD conversione) e aggiorna il CSV.
+
+## �📂 Directory
 
 - `ptof_inbox/` → PDF da analizzare
 - `ptof_processed/` → PDF archiviati

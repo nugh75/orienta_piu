@@ -987,6 +987,87 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     except Exception:
         analysis_data = None
 
+    # SAFETY CHECK: Calculate Maturity Index and discard if too low (<= 2.0)
+    # This prevents saving "garbage" analyses where the model found nothing relevant.
+    if analysis_data:
+        try:
+            # Calculate index locally to avoid dependency on rebuild_csv
+            sec2 = analysis_data.get('ptof_section2', {})
+            
+            def _get_scores(section_key, subsection_keys):
+                scores = []
+                section = sec2.get(section_key, {})
+                for key in subsection_keys:
+                    try:
+                        val = section.get(key, {}).get('score', 0)
+                        scores.append(float(val) if val is not None else 0)
+                    except:
+                        scores.append(0)
+                return scores
+
+            def _calc_avg(scores):
+                valid = [s for s in scores if s > 0]
+                return sum(valid) / len(valid) if valid else 0
+
+            # 1. Finalita
+            s_fin = _get_scores('2_3_finalita', [
+                'finalita_attitudini', 'finalita_interessi', 'finalita_progetto_vita',
+                'finalita_transizioni_formative', 'finalita_capacita_orientative_opportunita'
+            ])
+            
+            # 2. Obiettivi
+            s_obi = _get_scores('2_4_obiettivi', [
+                'obiettivo_ridurre_abbandono', 'obiettivo_continuita_territorio',
+                'obiettivo_contrastare_neet', 'obiettivo_lifelong_learning'
+            ])
+            
+            # 3. Governance
+            s_gov = _get_scores('2_5_azioni_sistema', [
+                'azione_coordinamento_servizi', 'azione_dialogo_docenti_studenti',
+                'azione_rapporto_scuola_genitori', 'azione_monitoraggio_azioni',
+                'azione_sistema_integrato_inclusione_fragilita'
+            ])
+            
+            # 4. Didattica
+            s_did = _get_scores('2_6_didattica_orientativa', [
+                'didattica_da_esperienza_studenti', 'didattica_laboratoriale',
+                'didattica_flessibilita_spazi_tempi', 'didattica_interdisciplinare'
+            ])
+            
+            # 5. Opportunita
+            s_opp = _get_scores('2_7_opzionali_facoltative', [
+                'opzionali_culturali', 'opzionali_laboratoriali_espressive',
+                'opzionali_ludiche_ricreative', 'opzionali_volontariato', 'opzionali_sportive'
+            ])
+            
+            means = [
+                _calc_avg(s_fin), _calc_avg(s_obi), _calc_avg(s_gov), 
+                _calc_avg(s_did), _calc_avg(s_opp)
+            ]
+            ro_index = _calc_avg(means)
+            
+            logging.info(f"Calculated RO Index for {school_code}: {ro_index:.2f}")
+            
+            if ro_index <= 2.0:
+                msg = f"⚠️ SAFETY CHECK: RO Index {ro_index:.2f} is too low (<= 2.0). Discarding analysis for {school_code}."
+                logging.warning(msg)
+                if status_callback: status_callback(msg)
+                
+                # Delete artifacts
+                if os.path.exists(final_json_path): os.remove(final_json_path)
+                if os.path.exists(final_md_path): os.remove(final_md_path)
+                
+                # Also delete legacy files if any
+                legacy_json = os.path.join(output_dir, f"{school_code}_analysis.json")
+                legacy_md = os.path.join(output_dir, f"{school_code}_analysis.md")
+                if os.path.exists(legacy_json): os.remove(legacy_json)
+                if os.path.exists(legacy_md): os.remove(legacy_md)
+                
+                return None
+                
+        except Exception as e:
+            logging.error(f"Error in Safety Check: {e}")
+
     if narrative_from_json:
         final_output = narrative_from_json
 

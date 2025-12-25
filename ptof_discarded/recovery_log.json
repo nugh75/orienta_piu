@@ -6330,6 +6330,279 @@
         "reason": "Rifiutato da LLM (integrazione PTOF: Il documento presenta un'integrazione al PTOF relativa all'emergenza COVID-19, non il PTOF completo. Manca la struttura articolata tipica del PTOF e non copre l'intero piano triennale dell'offerta formativa.)"
       },
       "timestamp": "2025-12-24T22:19:19.385135"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RGMM831019_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/RGMM831019_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RGMM831019_PTOF.pdf",
+        "file_name": "RGMM831019_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.21000000000000008,
+        "phase": "llm",
+        "page_count": 5,
+        "char_count": 13757,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 4,
+        "school_code_found": null,
+        "llm_analysis": "circolare: Il testo presenta riferimenti al Piano Triennale dell'Offerta Formativa ma si concentra principalmente sul Patto Educativo di Corresponsabilità tra scuola e famiglia, senza articolare un piano formativo triennale con le caratteristiche richieste.",
+        "llm_confidence": 0.050000000000000044,
+        "timestamp": "2025-12-25T08:47:23.371864",
+        "reason": "Rifiutato da LLM (circolare: Il testo presenta riferimenti al Piano Triennale dell'Offerta Formativa ma si concentra principalmente sul Patto Educativo di Corresponsabilità tra scuola e famiglia, senza articolare un piano formativo triennale con le caratteristiche richieste.)"
+      },
+      "timestamp": "2025-12-25T08:48:17.270734"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PAMM8A8014_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PAMM8A8014_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PAMM8A8014_PTOF.pdf",
+        "file_name": "PAMM8A8014_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.8000000000000002,
+        "phase": "heuristic",
+        "page_count": 161,
+        "char_count": 12938,
+        "ptof_keywords_found": 18,
+        "exclusion_keywords_found": 2,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T08:55:22.366049",
+        "reason": "Strict Mode: Score 0.0 too low for confidence 0.80"
+      },
+      "timestamp": "2025-12-25T08:55:22.367105"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BSAA88701T_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/BSAA88701T_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/BSAA88701T_PTOF.pdf",
+        "file_name": "BSAA88701T_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.7000000000000001,
+        "phase": "heuristic",
+        "page_count": 6,
+        "char_count": 12394,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T08:55:22.469177",
+        "reason": "Strict Mode: Score 1.0 too low for confidence 0.70"
+      },
+      "timestamp": "2025-12-25T08:55:22.470058"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CZAA83005V_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CZAA83005V_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CZAA83005V_PTOF.pdf",
+        "file_name": "CZAA83005V_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.7000000000000001,
+        "phase": "heuristic",
+        "page_count": 6,
+        "char_count": 12394,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T08:55:22.560346",
+        "reason": "Strict Mode: Score 1.0 too low for confidence 0.70"
+      },
+      "timestamp": "2025-12-25T08:55:22.561445"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RE1E006009_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/RE1E006009_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RE1E006009_PTOF.pdf",
+        "file_name": "RE1E006009_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.7000000000000001,
+        "phase": "heuristic",
+        "page_count": 6,
+        "char_count": 12394,
+        "ptof_keywords_found": 17,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T08:55:22.673295",
+        "reason": "Strict Mode: Score 1.0 too low for confidence 0.70"
+      },
+      "timestamp": "2025-12-25T08:55:22.674356"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TVMM83401X_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TVMM83401X_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TVMM83401X_PTOF.pdf",
+        "file_name": "TVMM83401X_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.76,
+        "phase": "llm",
+        "page_count": 9,
+        "char_count": 3725,
+        "ptof_keywords_found": 9,
+        "exclusion_keywords_found": 1,
+        "school_code_found": null,
+        "llm_analysis": "PTOF: Il documento presenta l'intestazione 'Piano Triennale Offerta Formativa', contiene sezioni riconducibili alle aree richieste (scuola e contesto, offerta formativa, organizzazione), menziona il RAV e il PDM, e presenta una struttura articolata con indice e sottosezioni.",
+        "llm_confidence": 0.9,
+        "timestamp": "2025-12-25T08:55:22.752997",
+        "reason": "Strict Mode: Score 1.1 too low for confidence 0.76"
+      },
+      "timestamp": "2025-12-25T08:55:54.310349"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NATD099019_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/NATD099019_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NATD099019_PTOF.pdf",
+        "file_name": "NATD099019_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.813650",
+        "reason": "Score 1.16 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.814242"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VITF010009_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/VITF010009_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/VITF010009_PTOF.pdf",
+        "file_name": "VITF010009_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.832126",
+        "reason": "Score 1.22 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.832805"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CTMM84701G_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CTMM84701G_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CTMM84701G_PTOF.pdf",
+        "file_name": "CTMM84701G_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.846342",
+        "reason": "Score 1.38 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.846862"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CAEE8AN02D_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/CAEE8AN02D_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CAEE8AN02D_PTOF.pdf",
+        "file_name": "CAEE8AN02D_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.861900",
+        "reason": "Score 1.49 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.862832"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TOTD03701C_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TOTD03701C_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TOTD03701C_PTOF.pdf",
+        "file_name": "TOTD03701C_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.877970",
+        "reason": "Score 1.52 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.878626"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RCMM812025_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/RCMM812025_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/RCMM812025_PTOF.pdf",
+        "file_name": "RCMM812025_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.893857",
+        "reason": "Score 1.82 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.894622"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PZIC85900P_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PZIC85900P_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PZIC85900P_PTOF.pdf",
+        "file_name": "PZIC85900P_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T09:08:50.932081",
+        "reason": "Score 1.87 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T09:08:50.932710"
     }
   ]
 }

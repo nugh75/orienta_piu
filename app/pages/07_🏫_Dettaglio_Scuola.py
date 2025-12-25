@@ -192,9 +192,9 @@ if selected_school:
     if school_id:
         md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
         if md_files:
-            with st.expander("📝 Visualizza Report Testuale Completo (.md)", expanded=False):
-                with open(md_files[0], 'r') as f:
-                    st.markdown(f.read())
+            st.markdown("### 📝 Report Analisi Completo")
+            with open(md_files[0], 'r') as f:
+                st.markdown(f.read())
     
     st.markdown("---")
     

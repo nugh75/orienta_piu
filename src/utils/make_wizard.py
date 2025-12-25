@@ -355,6 +355,7 @@ def menu_review() -> None:
         no_llm = prompt_yes_no("No LLM?", default=False)
         no_move = prompt_yes_no("Non spostare PDF?", default=False)
         limit = prompt_int("Limite file (opzionale)")
+        max_score = prompt_text("Max score (default 2.0)", default="2.0")
         run_make(
             choice,
             {
@@ -363,6 +364,7 @@ def menu_review() -> None:
                 "NO_LLM": "1" if no_llm else None,
                 "NO_MOVE": "1" if no_move else None,
                 "LIMIT": limit,
+                "MAX_SCORE": max_score,
             },
         )
 

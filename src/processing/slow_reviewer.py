@@ -75,12 +75,12 @@ def get_openrouter_key() -> Optional[str]:
     config = load_api_config()
     return config.get("openrouter_api_key")
 
-    def save_status(status: Dict):
-        """Salva lo stato delle revisioni"""
-        try:
-            atomic_write(STATUS_FILE, json.dumps(status, indent=2))
-        except Exception as e:
-            logger.error(f"Errore salvataggio stato: {e}")
+def save_status(status: Dict):
+    """Salva lo stato delle revisioni"""
+    try:
+        atomic_write(STATUS_FILE, json.dumps(status, indent=2))
+    except Exception as e:
+        logger.error(f"Errore salvataggio stato: {e}")
 
 def load_status() -> Dict:
     """Carica lo stato delle revisioni"""

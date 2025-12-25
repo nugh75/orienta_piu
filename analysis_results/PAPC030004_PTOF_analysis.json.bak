@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 4,
-      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova nelle pagine 153, 166 e 292 del PTOF, dove vengono trattati i 'Moduli di orientamento formativo', i 'Percorsi per le competenze trasversali e per l’orient (Precedente: score=1, has_sezione_dedicata=0)",
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-25T09:01:11.347538"
+      "ollama_review_date": "2025-12-25T00:38:19.395016"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -315,22 +315,6 @@
         "report_created": false,
         "report_enriched": false,
         "initial_issues": 0
-      }
-    },
-    {
-      "timestamp": "2025-12-25T09:02:21.855782",
-      "activity": "ollama_report_review",
-      "model": "qwen3:32b",
-      "status": "completed",
-      "details": {
-        "action": "enrich",
-        "chunks_analyzed": 24,
-        "enrichments_found": 24,
-        "corrections_found": 6,
-        "orientamento_found": true,
-        "report_created": false,
-        "report_enriched": true,
-        "initial_issues": 1
       }
     }
   ]

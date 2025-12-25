@@ -612,6 +612,11 @@ st.markdown(
 La base documentale è composta dai PTOF originali, dalle versioni in Markdown
 utilizzate per l'analisi e dai dataset di sintesi. Queste fonti consentono sia
 la lettura qualitativa sia la comparazione quantitativa tra scuole.
+
+### 🛡️ Criteri di Esclusione e Qualità del Dato
+Per garantire l'affidabilità delle analisi, il sistema applica criteri rigorosi di esclusione:
+1. **Validazione PTOF**: I documenti che non superano i controlli euristici (es. numero pagine, parole chiave) vengono scartati prima dell'analisi.
+2. **Soglia Minima di Rilevanza (Score <= 2.0)**: Qualsiasi analisi che produca un Indice di Robustezza dell'Orientamento (RO Index) inferiore o uguale a 2.0 viene automaticamente scartata ed eliminata. Un punteggio così basso indica con quasi assoluta certezza che il documento non è un PTOF valido o non contiene alcuna informazione pertinente sull'orientamento, rendendo l'analisi priva di valore.
 """
 )
 
