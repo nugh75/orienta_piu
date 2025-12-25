@@ -1400,6 +1400,153 @@ st.info("""
 🎯 **Implicazioni**: Le aree geografiche potrebbero avere "specializzazioni" diverse. Ad esempio, il Nord potrebbe eccellere in Governance mentre il Sud in Didattica. Questa visualizzazione aiuta a identificare buone pratiche regionali da diffondere.
 """)
 
+st.markdown("---")
+
+# === 6. HOTSPOT GEOGRAFICI (Clustering Spaziale) ===
+st.subheader("🔥 Hotspot Geografici di Eccellenza")
+st.caption("Identificazione di cluster territoriali con concentrazione di scuole eccellenti")
+
+# Check if we have lat/lon data
+if 'lat' in df_valid.columns and 'lon' in df_valid.columns:
+    # Prepare data with valid coordinates
+    df_geo = df_valid[['lat', 'lon', 'ptof_orientamento_maturity_index', 'denominazione', 'comune', 'regione']].copy()
+    df_geo['lat'] = pd.to_numeric(df_geo['lat'], errors='coerce')
+    df_geo['lon'] = pd.to_numeric(df_geo['lon'], errors='coerce')
+    df_geo = df_geo.dropna(subset=['lat', 'lon', 'ptof_orientamento_maturity_index'])
+    
+    if len(df_geo) >= 10:
+        try:
+            from sklearn.cluster import DBSCAN
+            import numpy as np
+            
+            # Filter only top performing schools (top 30%)
+            threshold = df_geo['ptof_orientamento_maturity_index'].quantile(0.70)
+            top_performers = df_geo[df_geo['ptof_orientamento_maturity_index'] >= threshold].copy()
+            
+            if len(top_performers) >= 5:
+                col_h1, col_h2 = st.columns([1, 3])
+                
+                with col_h1:
+                    # DBSCAN parameters
+                    eps_km = st.slider("Raggio cluster (km)", 10, 100, 50, 10, 
+                                       help="Distanza massima tra punti dello stesso cluster")
+                    min_samples = st.slider("Minimo scuole per hotspot", 2, 10, 3, 
+                                            help="Numero minimo di scuole per formare un hotspot")
+                
+                # Convert km to degrees (approx: 1 degree ≈ 111 km)
+                eps_deg = eps_km / 111.0
+                
+                # Perform DBSCAN clustering
+                coords = top_performers[['lat', 'lon']].values
+                clustering = DBSCAN(eps=eps_deg, min_samples=min_samples).fit(coords)
+                top_performers['cluster'] = clustering.labels_
+                
+                # Count clusters (excluding noise = -1)
+                n_clusters = len(set(clustering.labels_)) - (1 if -1 in clustering.labels_ else 0)
+                n_in_clusters = len(top_performers[top_performers['cluster'] != -1])
+                
+                with col_h2:
+                    met_cols = st.columns(3)
+                    with met_cols[0]:
+                        st.metric("🔥 Hotspot Identificati", n_clusters)
+                    with met_cols[1]:
+                        st.metric("🏫 Scuole in Hotspot", n_in_clusters)
+                    with met_cols[2]:
+                        st.metric("📊 Scuole Top 30%", len(top_performers))
+                
+                if n_clusters > 0:
+                    # Assign colors to clusters
+                    cluster_colors = px.colors.qualitative.Set1
+                    top_performers['color'] = top_performers['cluster'].apply(
+                        lambda x: cluster_colors[x % len(cluster_colors)] if x >= 0 else '#CCCCCC'
+                    )
+                    top_performers['cluster_label'] = top_performers['cluster'].apply(
+                        lambda x: f"Hotspot {x+1}" if x >= 0 else "Scuola isolata"
+                    )
+                    
+                    # Create map
+                    fig_hotspot = px.scatter_geo(
+                        top_performers,
+                        lat='lat', lon='lon',
+                        color='cluster_label',
+                        hover_name='denominazione',
+                        hover_data={
+                            'ptof_orientamento_maturity_index': ':.2f',
+                            'comune': True,
+                            'regione': True,
+                            'cluster_label': False,
+                            'lat': False, 'lon': False
+                        },
+                        title="Hotspot di Eccellenza (Scuole Top 30%)",
+                        color_discrete_sequence=['#CCCCCC'] + list(cluster_colors)
+                    )
+                    
+                    fig_hotspot.update_traces(marker=dict(size=10, line=dict(width=1, color='white')))
+                    
+                    fig_hotspot.update_geos(
+                        scope='europe',
+                        center=dict(lat=42.5, lon=12.5),
+                        projection_scale=5,
+                        showland=True, landcolor='rgb(243, 243, 243)',
+                        showocean=True, oceancolor='rgb(204, 229, 255)',
+                        showcountries=True, countrycolor='rgb(204, 204, 204)'
+                    )
+                    
+                    fig_hotspot.update_layout(height=600, margin=dict(l=0, r=0, t=50, b=0))
+                    st.plotly_chart(fig_hotspot, use_container_width=True)
+                    
+                    # Hotspot details
+                    st.markdown("#### 📋 Dettaglio Hotspot")
+                    
+                    for cluster_id in sorted(set(top_performers['cluster'])):
+                        if cluster_id == -1:
+                            continue
+                        
+                        cluster_schools = top_performers[top_performers['cluster'] == cluster_id]
+                        center_lat = cluster_schools['lat'].mean()
+                        center_lon = cluster_schools['lon'].mean()
+                        mean_score = cluster_schools['ptof_orientamento_maturity_index'].mean()
+                        
+                        # Find predominant region
+                        main_region = cluster_schools['regione'].mode().iloc[0] if len(cluster_schools) > 0 else "N/D"
+                        
+                        with st.expander(f"🔥 Hotspot {cluster_id + 1}: {main_region} ({len(cluster_schools)} scuole, media: {mean_score:.2f})"):
+                            cols_info = st.columns(3)
+                            with cols_info[0]:
+                                st.metric("📍 Centro", f"{center_lat:.2f}, {center_lon:.2f}")
+                            with cols_info[1]:
+                                st.metric("📊 Media Indice", f"{mean_score:.2f}")
+                            with cols_info[2]:
+                                st.metric("🏫 N. Scuole", len(cluster_schools))
+                            
+                            st.markdown("**Scuole nel cluster:**")
+                            for _, school in cluster_schools.iterrows():
+                                st.write(f"- {school['denominazione']} ({school['comune']}) - Indice: {school['ptof_orientamento_maturity_index']:.2f}")
+                    
+                    st.info("""
+💡 **A cosa serve**: Identifica zone geografiche dove si concentrano scuole con PTOF eccellenti.
+
+🔍 **Cosa rileva**: Gli hotspot sono cluster di scuole top 30% geograficamente vicine. Potrebbero indicare:
+- Reti scolastiche formali o informali efficaci
+- Effetti di diffusione di buone pratiche
+- Supporto territoriale (USR, università, enti formativi)
+
+🎯 **Implicazioni**: Gli hotspot sono "zone di eccellenza" da studiare per capire cosa funziona e replicarlo altrove.
+""")
+                else:
+                    st.info("ℹ️ Nessun hotspot identificato con questi parametri. Prova ad aumentare il raggio o diminuire il minimo scuole.")
+            else:
+                st.info("Dati insufficienti per l'analisi hotspot (servono almeno 5 scuole nel top 30%)")
+                
+        except ImportError:
+            st.warning("Installa scikit-learn per l'analisi hotspot: `pip install scikit-learn`")
+        except Exception as e:
+            st.error(f"Errore nell'analisi hotspot: {e}")
+    else:
+        st.info("Coordinate geografiche insufficienti per l'analisi hotspot")
+else:
+    st.info("Coordinate geografiche (lat/lon) non disponibili nei dati. Aggiungi le coordinate per abilitare questa analisi.")
+
 # Footer
 st.markdown("---")
 st.caption("🗺️ Mappa Italia - Dashboard PTOF | Analisi geografica della robustezza dell'orientamento PTOF delle scuole italiane")

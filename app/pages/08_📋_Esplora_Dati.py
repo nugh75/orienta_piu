@@ -94,6 +94,115 @@ st.info("""
 
 st.markdown("---")
 
+# === FILTRI E EXPORT AVANZATO ===
+st.subheader("🔍 Filtra e Esporta Dati")
+
+with st.expander("⚙️ Configura Filtri", expanded=True):
+    filter_cols = st.columns(4)
+    
+    # Initialize filtered dataframe
+    df_filtered = df.copy()
+    active_filters = []
+    
+    with filter_cols[0]:
+        # Regione filter
+        if 'regione' in df.columns:
+            regions = ['Tutte'] + sorted(df['regione'].dropna().unique().tolist())
+            selected_region = st.selectbox("Regione", regions, key="filter_region")
+            if selected_region != 'Tutte':
+                df_filtered = df_filtered[df_filtered['regione'] == selected_region]
+                active_filters.append(f"Regione: {selected_region}")
+    
+    with filter_cols[1]:
+        # Tipo scuola filter
+        if 'tipo_scuola' in df.columns:
+            types = ['Tutti'] + sorted(df['tipo_scuola'].dropna().unique().tolist())
+            selected_type = st.selectbox("Tipo Scuola", types, key="filter_type")
+            if selected_type != 'Tutti':
+                df_filtered = df_filtered[df_filtered['tipo_scuola'] == selected_type]
+                active_filters.append(f"Tipo: {selected_type}")
+    
+    with filter_cols[2]:
+        # Statale/Paritaria filter
+        if 'statale_paritaria' in df.columns:
+            stato = ['Tutti'] + sorted(df['statale_paritaria'].dropna().unique().tolist())
+            selected_stato = st.selectbox("Stato", stato, key="filter_stato")
+            if selected_stato != 'Tutti':
+                df_filtered = df_filtered[df_filtered['statale_paritaria'] == selected_stato]
+                active_filters.append(f"Stato: {selected_stato}")
+    
+    with filter_cols[3]:
+        # Indice RO range filter
+        if 'ptof_orientamento_maturity_index' in df.columns:
+            min_val = float(df['ptof_orientamento_maturity_index'].min())
+            max_val = float(df['ptof_orientamento_maturity_index'].max())
+            ro_range = st.slider("Indice RO", min_val, max_val, (min_val, max_val), 0.1, key="filter_ro")
+            if ro_range != (min_val, max_val):
+                df_filtered = df_filtered[
+                    (df_filtered['ptof_orientamento_maturity_index'] >= ro_range[0]) & 
+                    (df_filtered['ptof_orientamento_maturity_index'] <= ro_range[1])
+                ]
+                active_filters.append(f"Indice RO: {ro_range[0]:.1f}-{ro_range[1]:.1f}")
+
+# Show filter results
+if active_filters:
+    st.info(f"🔍 **Filtri attivi:** {' | '.join(active_filters)} → **{len(df_filtered)} scuole**")
+else:
+    st.caption(f"Nessun filtro attivo. Totale: {len(df_filtered)} scuole")
+
+# Preview filtered data
+if selected_cols and len(df_filtered) > 0:
+    st.markdown("**Anteprima dati filtrati:**")
+    st.dataframe(df_filtered[selected_cols].head(20), use_container_width=True, height=300)
+    if len(df_filtered) > 20:
+        st.caption(f"Mostrate prime 20 righe su {len(df_filtered)} totali")
+
+# Export buttons for filtered data
+st.markdown("**📥 Esporta dati filtrati:**")
+exp_cols = st.columns(3)
+
+with exp_cols[0]:
+    if len(df_filtered) > 0:
+        csv_filtered = df_filtered.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 CSV Filtrato",
+            data=csv_filtered,
+            file_name=f"dati_filtrati_{len(df_filtered)}_scuole.csv",
+            mime="text/csv",
+            help=f"Scarica {len(df_filtered)} scuole in formato CSV"
+        )
+
+with exp_cols[1]:
+    if len(df_filtered) > 0:
+        try:
+            from io import BytesIO
+            excel_buffer = BytesIO()
+            df_filtered.to_excel(excel_buffer, index=False, engine='openpyxl')
+            excel_buffer.seek(0)
+            st.download_button(
+                label="📥 Excel Filtrato",
+                data=excel_buffer,
+                file_name=f"dati_filtrati_{len(df_filtered)}_scuole.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                help=f"Scarica {len(df_filtered)} scuole in formato Excel"
+            )
+        except ImportError:
+            st.warning("Installa openpyxl per export Excel")
+
+with exp_cols[2]:
+    if len(df_filtered) > 0 and selected_cols:
+        # Export only selected columns
+        csv_selected = df_filtered[selected_cols].to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Solo Colonne Selezionate",
+            data=csv_selected,
+            file_name=f"dati_selezionati_{len(df_filtered)}_scuole.csv",
+            mime="text/csv",
+            help=f"Scarica solo le {len(selected_cols)} colonne selezionate"
+        )
+
+st.markdown("---")
+
 # 2. Statistics Summary
 st.subheader("📈 Statistiche Descrittive")
 numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns.tolist()

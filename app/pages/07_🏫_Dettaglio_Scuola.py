@@ -372,6 +372,158 @@ if selected_school:
     
     st.markdown("---")
     
+    # === EXPORT PDF SCHEDA SCUOLA ===
+    st.subheader("📥 Esporta Scheda Scuola")
+    
+    # Prepare data for PDF
+    def generate_school_pdf(school_data, radar_cols, df):
+        """Generate PDF report for a single school"""
+        try:
+            from reportlab.lib import colors
+            from reportlab.lib.pagesizes import A4
+            from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+            from reportlab.lib.units import cm
+            from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+            from io import BytesIO
+            
+            buffer = BytesIO()
+            doc = SimpleDocTemplate(buffer, pagesize=A4, 
+                                    rightMargin=2*cm, leftMargin=2*cm,
+                                    topMargin=2*cm, bottomMargin=2*cm)
+            
+            styles = getSampleStyleSheet()
+            title_style = ParagraphStyle('CustomTitle', parent=styles['Heading1'], 
+                                         fontSize=18, spaceAfter=12, textColor=colors.HexColor('#2c3e50'))
+            heading_style = ParagraphStyle('CustomHeading', parent=styles['Heading2'],
+                                           fontSize=14, spaceAfter=8, textColor=colors.HexColor('#34495e'))
+            normal_style = styles['Normal']
+            
+            story = []
+            
+            # Title
+            story.append(Paragraph(f"📋 Scheda Scuola", title_style))
+            story.append(Paragraph(f"<b>{school_data.get('denominazione', 'N/D')}</b>", heading_style))
+            story.append(Spacer(1, 12))
+            
+            # Info table
+            info_data = [
+                ['Codice Meccanografico', str(school_data.get('school_id', 'N/D'))],
+                ['Tipo Scuola', str(school_data.get('tipo_scuola', 'N/D'))],
+                ['Regione', str(school_data.get('regione', 'N/D'))],
+                ['Provincia', str(school_data.get('provincia', 'N/D'))],
+                ['Comune', str(school_data.get('comune', 'N/D'))],
+                ['Statale/Paritaria', str(school_data.get('statale_paritaria', 'N/D'))],
+            ]
+            
+            info_table = Table(info_data, colWidths=[6*cm, 10*cm])
+            info_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#ecf0f1')),
+                ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#2c3e50')),
+                ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+                ('FONTSIZE', (0, 0), (-1, -1), 10),
+                ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#bdc3c7')),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+                ('TOPPADDING', (0, 0), (-1, -1), 8),
+            ]))
+            story.append(info_table)
+            story.append(Spacer(1, 20))
+            
+            # Main score
+            idx = school_data.get('ptof_orientamento_maturity_index', 0)
+            idx_str = f"{idx:.2f}/7" if pd.notna(idx) else "N/D"
+            story.append(Paragraph(f"<b>Indice Robustezza Orientamento (RO):</b> {idx_str}", heading_style))
+            story.append(Spacer(1, 12))
+            
+            # Dimension scores
+            story.append(Paragraph("Punteggi per Dimensione", heading_style))
+            
+            dim_labels = ['Finalità', 'Obiettivi', 'Governance', 'Didattica Orientativa', 'Opportunità']
+            dim_data = [['Dimensione', 'Punteggio']]
+            
+            for col, label in zip(radar_cols, dim_labels):
+                val = school_data.get(col, 0)
+                val_str = f"{val:.2f}/7" if pd.notna(val) else "N/D"
+                dim_data.append([label, val_str])
+            
+            dim_table = Table(dim_data, colWidths=[8*cm, 4*cm])
+            dim_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#3498db')),
+                ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+                ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+                ('FONTSIZE', (0, 0), (-1, -1), 10),
+                ('ALIGN', (1, 0), (1, -1), 'CENTER'),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#bdc3c7')),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+                ('TOPPADDING', (0, 0), (-1, -1), 8),
+            ]))
+            story.append(dim_table)
+            story.append(Spacer(1, 20))
+            
+            # Ranking
+            df_sorted_pdf = df.sort_values('ptof_orientamento_maturity_index', ascending=False).reset_index(drop=True)
+            df_sorted_pdf.index = df_sorted_pdf.index + 1
+            pos = df_sorted_pdf[df_sorted_pdf['denominazione'] == school_data.get('denominazione')].index[0]
+            tot = len(df_sorted_pdf)
+            pct = (tot - pos) / tot * 100
+            
+            story.append(Paragraph("Posizione in Classifica Nazionale", heading_style))
+            rank_data = [
+                ['Posizione', f"#{pos} su {tot} scuole"],
+                ['Percentile', f"{pct:.0f}° (supera il {pct:.0f}% delle scuole)"],
+            ]
+            rank_table = Table(rank_data, colWidths=[6*cm, 10*cm])
+            rank_table.setStyle(TableStyle([
+                ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#ecf0f1')),
+                ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#bdc3c7')),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+                ('TOPPADDING', (0, 0), (-1, -1), 8),
+            ]))
+            story.append(rank_table)
+            story.append(Spacer(1, 20))
+            
+            # Footer
+            from datetime import datetime
+            story.append(Spacer(1, 30))
+            story.append(Paragraph(f"<i>Report generato il {datetime.now().strftime('%d/%m/%Y %H:%M')}</i>", normal_style))
+            story.append(Paragraph("<i>Dashboard PTOF - Analisi Robustezza Orientamento</i>", normal_style))
+            
+            doc.build(story)
+            buffer.seek(0)
+            return buffer.getvalue()
+            
+        except ImportError:
+            return None
+        except Exception as e:
+            st.error(f"Errore generazione PDF: {e}")
+            return None
+    
+    try:
+        pdf_bytes = generate_school_pdf(school_data, radar_cols, df)
+        
+        if pdf_bytes:
+            col_pdf1, col_pdf2 = st.columns([1, 2])
+            with col_pdf1:
+                st.download_button(
+                    label="📥 Scarica Scheda PDF",
+                    data=pdf_bytes,
+                    file_name=f"scheda_{school_data.get('school_id', 'scuola')}.pdf",
+                    mime="application/pdf",
+                    help="Scarica la scheda completa della scuola in formato PDF"
+                )
+            with col_pdf2:
+                st.caption("La scheda PDF include: dati anagrafici, punteggi per dimensione, posizione in classifica.")
+        else:
+            st.warning("⚠️ Per generare PDF installa reportlab: `pip install reportlab`")
+            
+    except Exception as e:
+        st.warning(f"Export PDF non disponibile: {e}")
+        st.caption("Installa reportlab: `pip install reportlab`")
+    
+    st.markdown("---")
+    
     # PDF Viewer
     st.subheader("📄 Documento PTOF Originale")
     school_id = school_data.get('school_id', '')

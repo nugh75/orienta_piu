@@ -792,3 +792,181 @@ st.info("""
 
 🎯 **Implicazioni**: Se le scuole eccellenti usano termini specifici (es. "competenze", "orientamento") più frequentemente, potrebbero essere indicatori di qualità. Differenze lessicali suggeriscono approcci diversi alla documentazione.
 """)
+
+# === NUOVA SEZIONE: DEBOLEZZE SISTEMICHE ===
+st.markdown("---")
+st.subheader("📉 Debolezze Sistemiche Nazionali")
+st.caption("Pattern di debolezza ricorrenti per tipo scuola e ordine grado")
+
+# Sotto-indicatori per analisi dettagliata
+SUB_INDICATORS = {
+    'Finalità': {
+        '2_3_finalita_attitudini_score': 'Attitudini',
+        '2_3_finalita_interessi_score': 'Interessi',
+        '2_3_finalita_progetto_vita_score': 'Progetto di Vita',
+        '2_3_finalita_transizioni_formative_score': 'Transizioni',
+        '2_3_finalita_capacita_orientative_opportunita_score': 'Capacità Orientative'
+    },
+    'Obiettivi': {
+        '2_4_obiettivo_ridurre_abbandono_score': 'Ridurre Abbandono',
+        '2_4_obiettivo_continuita_territorio_score': 'Continuità Territorio',
+        '2_4_obiettivo_contrastare_neet_score': 'Contrastare NEET',
+        '2_4_obiettivo_lifelong_learning_score': 'Lifelong Learning'
+    },
+    'Governance': {
+        '2_5_azione_coordinamento_servizi_score': 'Coordinamento',
+        '2_5_azione_dialogo_docenti_studenti_score': 'Dialogo Doc-Stud',
+        '2_5_azione_rapporto_scuola_genitori_score': 'Rapporto Genitori',
+        '2_5_azione_monitoraggio_azioni_score': 'Monitoraggio',
+        '2_5_azione_sistema_integrato_inclusione_fragilita_score': 'Inclusione'
+    },
+    'Didattica': {
+        '2_6_didattica_da_esperienza_studenti_score': 'Esperienza',
+        '2_6_didattica_laboratoriale_score': 'Laboratoriale',
+        '2_6_didattica_flessibilita_spazi_tempi_score': 'Flessibilità',
+        '2_6_didattica_interdisciplinare_score': 'Interdisciplinare'
+    },
+    'Opportunità': {
+        '2_7_opzionali_culturali_score': 'Culturali',
+        '2_7_opzionali_laboratoriali_espressive_score': 'Espressive',
+        '2_7_opzionali_ludiche_ricreative_score': 'Ludiche',
+        '2_7_opzionali_volontariato_score': 'Volontariato',
+        '2_7_opzionali_sportive_score': 'Sportive'
+    }
+}
+
+# Calcola medie nazionali per ogni sotto-indicatore
+all_sub_cols = []
+for dim, subs in SUB_INDICATORS.items():
+    all_sub_cols.extend(subs.keys())
+
+# Converti a numerico
+for col in all_sub_cols:
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+# Identifica le debolezze sistemiche (sotto la media nazionale)
+weaknesses = []
+national_means = {}
+
+for dim, subs in SUB_INDICATORS.items():
+    for col, label in subs.items():
+        if col in df.columns:
+            mean_val = df[col].mean()
+            national_means[col] = mean_val
+            # Considera debole se media < 3.5 (sotto sufficienza)
+            if mean_val < 3.5:
+                weaknesses.append({
+                    'Dimensione': dim,
+                    'Indicatore': label,
+                    'Colonna': col,
+                    'Media Nazionale': mean_val,
+                    'Criticità': 'Alta' if mean_val < 2.5 else 'Media' if mean_val < 3.5 else 'Bassa'
+                })
+
+# Ordina per media
+weaknesses = sorted(weaknesses, key=lambda x: x['Media Nazionale'])
+
+if weaknesses:
+    st.markdown("### 🔴 Aree Critiche a Livello Nazionale")
+    
+    # Top 5 debolezze
+    top_weak = weaknesses[:5]
+    
+    cols = st.columns(5)
+    for i, w in enumerate(top_weak):
+        with cols[i]:
+            color = "#dc3545" if w['Criticità'] == 'Alta' else "#ffc107"
+            st.markdown(f"""
+            <div style="background-color: {color}; padding: 10px; border-radius: 8px; text-align: center; color: white;">
+                <strong>{w['Indicatore']}</strong><br>
+                <span style="font-size: 1.5em;">{w['Media Nazionale']:.2f}</span><br>
+                <small>{w['Dimensione']}</small>
+            </div>
+            """, unsafe_allow_html=True)
+    
+    # Heatmap debolezze per tipo scuola
+    st.markdown("### 📊 Mappa Debolezze per Tipo Scuola")
+    
+    tipi_scuola = ['Liceo', 'Tecnico', 'Professionale', 'Primaria', 'I Grado', 'Infanzia']
+    weak_cols = [w['Colonna'] for w in weaknesses[:10]]
+    weak_labels = [w['Indicatore'] for w in weaknesses[:10]]
+    
+    heatmap_data = []
+    for tipo in tipi_scuola:
+        df_tipo = df[df['tipo_scuola'].str.contains(tipo, na=False, case=False)]
+        if len(df_tipo) > 0:
+            row = {'Tipo': tipo}
+            for col, label in zip(weak_cols, weak_labels):
+                if col in df_tipo.columns:
+                    row[label] = df_tipo[col].mean()
+            heatmap_data.append(row)
+    
+    if heatmap_data:
+        hm_df = pd.DataFrame(heatmap_data).set_index('Tipo')
+        
+        fig_hm = px.imshow(
+            hm_df.values,
+            x=hm_df.columns.tolist(),
+            y=hm_df.index.tolist(),
+            color_continuous_scale='RdYlGn',
+            aspect='auto',
+            title="Media per Tipo Scuola (Verde=Alto, Rosso=Basso)"
+        )
+        fig_hm.update_layout(
+            xaxis_title="Indicatore",
+            yaxis_title="Tipo Scuola"
+        )
+        st.plotly_chart(fig_hm, use_container_width=True)
+    
+    # Analisi correlazione debolezze
+    st.markdown("### 🔗 Correlazione tra Debolezze")
+    st.caption("Le debolezze tendono a presentarsi insieme?")
+    
+    weak_col_list = [w['Colonna'] for w in weaknesses[:8]]
+    weak_label_list = [w['Indicatore'] for w in weaknesses[:8]]
+    
+    if len(weak_col_list) >= 2:
+        corr_weak = df[weak_col_list].corr()
+        corr_weak.columns = weak_label_list
+        corr_weak.index = weak_label_list
+        
+        fig_corr = px.imshow(
+            corr_weak,
+            color_continuous_scale='RdBu_r',
+            aspect='auto',
+            title="Correlazione tra Indicatori Deboli"
+        )
+        st.plotly_chart(fig_corr, use_container_width=True)
+        
+        # Trova coppie fortemente correlate
+        strong_pairs = []
+        for i, col1 in enumerate(weak_col_list):
+            for j, col2 in enumerate(weak_col_list):
+                if i < j:
+                    corr_val = df[[col1, col2]].corr().iloc[0, 1]
+                    if corr_val > 0.6:
+                        strong_pairs.append({
+                            'Indicatore 1': weak_label_list[i],
+                            'Indicatore 2': weak_label_list[j],
+                            'Correlazione': corr_val
+                        })
+        
+        if strong_pairs:
+            st.markdown("**Debolezze che tendono a presentarsi insieme:**")
+            for pair in sorted(strong_pairs, key=lambda x: x['Correlazione'], reverse=True)[:3]:
+                st.markdown(f"- {pair['Indicatore 1']} ↔ {pair['Indicatore 2']} (r={pair['Correlazione']:.2f})")
+    
+    st.info("""
+    💡 **A cosa serve**: Identifica le aree di debolezza sistemica a livello nazionale, evidenziando problemi strutturali.
+    
+    🔍 **Cosa rileva**: Gli indicatori con media < 3.5 rappresentano aree critiche. La mappa per tipo scuola mostra se alcune tipologie sono più vulnerabili in specifiche aree. Le correlazioni rivelano se le debolezze si presentano in cluster.
+    
+    🎯 **Implicazioni**: Debolezze sistemiche richiedono interventi di policy a livello nazionale. Correlazioni forti tra debolezze suggeriscono cause comuni da affrontare in modo integrato.
+    """)
+
+else:
+    st.success("✅ Nessuna area critica sistemica identificata (tutte le medie ≥ 3.5)")
+
+st.markdown("---")
+st.caption("🔬 Clustering e Correlazioni - Analisi avanzata dei pattern")

@@ -1203,6 +1203,140 @@ st.info("""
 🎯 **Implicazioni**: Dimensioni fortemente correlate potrebbero avere cause comuni. Se vuoi migliorare una dimensione, potresti beneficiare anche in quelle correlate. Correlazioni deboli suggeriscono aspetti indipendenti da affrontare separatamente.
 """)
 
+# === NUOVA SEZIONE: CONFRONTO STATALE VS PARITARIA ===
+st.markdown("---")
+st.subheader("🏛️ Confronto Statale vs Paritaria")
+st.caption("Analisi statistica delle differenze tra scuole statali e paritarie")
+
+if 'statale_paritaria' in df_valid.columns:
+    # Pulizia dati
+    df_sp = df_valid[df_valid['statale_paritaria'].isin(['Statale', 'Paritaria'])].copy()
+    
+    if len(df_sp) > 10:
+        statali = df_sp[df_sp['statale_paritaria'] == 'Statale']
+        paritarie = df_sp[df_sp['statale_paritaria'] == 'Paritaria']
+        
+        # Metriche principali
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.markdown("### 🏫 Statali")
+            st.metric("N. Scuole", len(statali))
+            st.metric("Media Indice RO", f"{statali['ptof_orientamento_maturity_index'].mean():.2f}")
+            st.metric("Dev. Standard", f"{statali['ptof_orientamento_maturity_index'].std():.2f}")
+        
+        with col2:
+            st.markdown("### 🏠 Paritarie")
+            st.metric("N. Scuole", len(paritarie))
+            st.metric("Media Indice RO", f"{paritarie['ptof_orientamento_maturity_index'].mean():.2f}")
+            st.metric("Dev. Standard", f"{paritarie['ptof_orientamento_maturity_index'].std():.2f}")
+        
+        with col3:
+            st.markdown("### 📊 Test Statistico")
+            # Mann-Whitney U test (non parametrico)
+            from scipy.stats import mannwhitneyu, ttest_ind
+            
+            stat_vals = statali['ptof_orientamento_maturity_index'].dropna()
+            pari_vals = paritarie['ptof_orientamento_maturity_index'].dropna()
+            
+            if len(stat_vals) >= 5 and len(pari_vals) >= 5:
+                # T-test
+                t_stat, t_pval = ttest_ind(stat_vals, pari_vals)
+                # Mann-Whitney
+                u_stat, u_pval = mannwhitneyu(stat_vals, pari_vals, alternative='two-sided')
+                
+                # Effect size (Cohen's d)
+                pooled_std = np.sqrt(((len(stat_vals)-1)*stat_vals.std()**2 + (len(pari_vals)-1)*pari_vals.std()**2) / 
+                                    (len(stat_vals) + len(pari_vals) - 2))
+                cohens_d = (stat_vals.mean() - pari_vals.mean()) / pooled_std if pooled_std > 0 else 0
+                
+                sig_text, sig_color = format_significance(u_pval)
+                st.metric("Mann-Whitney p-value", sig_text)
+                
+                effect_label = "Grande" if abs(cohens_d) >= 0.8 else "Medio" if abs(cohens_d) >= 0.5 else "Piccolo" if abs(cohens_d) >= 0.2 else "Trascurabile"
+                st.metric("Cohen's d", f"{cohens_d:.2f} ({effect_label})")
+                
+                diff = stat_vals.mean() - pari_vals.mean()
+                st.metric("Δ Media", f"{diff:+.2f}")
+        
+        # Box plot comparativo
+        fig_box = px.box(
+            df_sp, 
+            x='statale_paritaria', 
+            y='ptof_orientamento_maturity_index',
+            color='statale_paritaria',
+            title="Distribuzione Indice RO: Statali vs Paritarie",
+            labels={'statale_paritaria': 'Tipologia', 'ptof_orientamento_maturity_index': 'Indice RO'}
+        )
+        fig_box.update_layout(showlegend=False)
+        st.plotly_chart(fig_box, use_container_width=True)
+        
+        # Confronto per dimensione
+        st.markdown("#### 📊 Confronto per Dimensione")
+        
+        dim_comparison = []
+        for col in dim_cols:
+            if col in df_sp.columns:
+                stat_mean = statali[col].mean()
+                pari_mean = paritarie[col].mean()
+                diff = stat_mean - pari_mean
+                
+                # Test statistico per dimensione
+                stat_v = statali[col].dropna()
+                pari_v = paritarie[col].dropna()
+                if len(stat_v) >= 5 and len(pari_v) >= 5:
+                    _, p_val = mannwhitneyu(stat_v, pari_v, alternative='two-sided')
+                else:
+                    p_val = None
+                
+                dim_comparison.append({
+                    'Dimensione': get_label(col),
+                    'Media Statali': stat_mean,
+                    'Media Paritarie': pari_mean,
+                    'Differenza': diff,
+                    'p-value': p_val,
+                    'Significativo': '✅' if p_val and p_val < 0.05 else '❌' if p_val else 'N/D'
+                })
+        
+        dim_df = pd.DataFrame(dim_comparison)
+        
+        # Grafico a barre affiancate
+        fig_dim = go.Figure()
+        fig_dim.add_trace(go.Bar(
+            name='Statali',
+            x=[d['Dimensione'] for d in dim_comparison],
+            y=[d['Media Statali'] for d in dim_comparison],
+            marker_color='steelblue'
+        ))
+        fig_dim.add_trace(go.Bar(
+            name='Paritarie',
+            x=[d['Dimensione'] for d in dim_comparison],
+            y=[d['Media Paritarie'] for d in dim_comparison],
+            marker_color='coral'
+        ))
+        fig_dim.update_layout(
+            barmode='group',
+            title="Media per Dimensione: Statali vs Paritarie",
+            yaxis_range=[0, 7],
+            yaxis_title="Punteggio Medio"
+        )
+        st.plotly_chart(fig_dim, use_container_width=True)
+        
+        # Tabella riepilogativa
+        st.dataframe(dim_df.round(2), use_container_width=True, hide_index=True)
+        
+        st.info("""
+        💡 **A cosa serve**: Verifica se esistono differenze sistematiche tra scuole statali e paritarie nella qualità dell'orientamento.
+        
+        🔍 **Cosa rileva**: Il test Mann-Whitney confronta le distribuzioni. Cohen's d misura l'entità della differenza (>0.8 = grande, 0.5-0.8 = medio, 0.2-0.5 = piccolo).
+        
+        🎯 **Implicazioni**: Differenze significative potrebbero indicare risorse diverse, approcci pedagogici distinti o contesti operativi differenti.
+        """)
+    else:
+        st.warning("Dati insufficienti per il confronto statale/paritaria.")
+else:
+    st.warning("Colonna 'statale_paritaria' non presente nel dataset.")
+
 # Footer
 st.markdown("---")
 st.caption("📊 KPI Avanzati - Dashboard PTOF | Statistiche approfondite e analisi degli outlier")

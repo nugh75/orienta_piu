@@ -1,7 +1,7 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-ollama review-scores review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-ollama review-scores review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-restore
 
-PYTHON = python3
-PIP = pip
+PYTHON = .venv/bin/python
+PIP = .venv/bin/pip
 STREAMLIT = streamlit
 DOWNLOADER = src/downloaders/ptof_downloader.py
 UPLOAD_PORTAL = src/portal/ptof_upload_portal.py
@@ -67,10 +67,20 @@ help:
 	@echo "  make fix-truncated    - Trova troncati e ripristina SOLO quelli dai backup"
 	@echo "  make list-backups     - Elenca tutti i file di backup disponibili"
 	@echo ""
-	@echo "�🔗 COMBINAZIONI:"
+	@echo "🔗 COMBINAZIONI:"
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
+	@echo ""
+	@echo "📚 REPORT & ANALISI:"
+	@echo "  make best-practice           - Genera report best practice (statistico)"
+	@echo "  make best-practice-llm       - Genera report narrativo con Ollama (incrementale)"
+	@echo "                                 MODEL=X per modello Ollama (default qwen3:32b)"
+	@echo "  make best-practice-llm-reset - Rigenera report narrativo da zero"
+	@echo "  make best-practice-llm-synth - Genera report sintetico (refactoring con Gemini)"
+	@echo "                                 REFACTOR_MODEL=X per modello Gemini"
+	@echo "                                 FALLBACK_MODEL=X per modello OpenRouter fallback"
+	@echo "  make best-practice-llm-synth-restore - Ripristina report sintetico dal backup"
 	@echo ""
 	@echo "🤖 MODELLI AI:"
 	@echo "  make models                  - Mostra tutti i modelli disponibili"
@@ -118,6 +128,35 @@ csv:
 
 backfill:
 	$(PYTHON) src/processing/backfill_metadata_llm.py
+
+best-practice:
+	@echo "📚 Generazione report Best Practice Orientamento..."
+	$(PYTHON) -m src.agents.best_practice_agent
+	@echo "✅ Report generato in reports/best_practice_orientamento.md"
+
+best-practice-llm:
+	@echo "🤖 Generazione report Best Practice con Ollama LLM (incrementale)..."
+	$(PYTHON) -m src.agents.best_practice_ollama_agent $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL)) $(if $(RESET),--reset)
+	@echo "✅ Report narrativo generato in reports/best_practice_orientamento_narrativo.md"
+	@echo "💡 Per creare il report sintetico: make best-practice-llm-synth"
+
+best-practice-llm-reset:
+	@echo "🔄 Reset e rigenerazione report Best Practice con Ollama LLM..."
+	$(PYTHON) -m src.agents.best_practice_ollama_agent --reset $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL))
+	@echo "✅ Report narrativo generato in reports/best_practice_orientamento_narrativo.md"
+
+best-practice-llm-synth:
+	@echo "✨ Generazione Report Sintetico (refactoring per sezioni)..."
+	$(PYTHON) -m src.agents.best_practice_ollama_agent --synth $(if $(REFACTOR_MODEL),--refactor-model $(REFACTOR_MODEL)) $(if $(FALLBACK_MODEL),--fallback-model $(FALLBACK_MODEL))
+	@echo "✅ Report sintetico generato in reports/best_practice_orientamento_sintetico.md"
+
+best-practice-llm-synth-restore:
+	@if [ -f reports/best_practice_orientamento_sintetico.md.bak ]; then \
+		cp reports/best_practice_orientamento_sintetico.md.bak reports/best_practice_orientamento_sintetico.md; \
+		echo "✅ Report sintetico ripristinato dal backup"; \
+	else \
+		echo "❌ Nessun backup trovato"; \
+	fi
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +

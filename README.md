@@ -159,6 +159,58 @@ make review-non-ptof DRY=1
 make review-non-ptof TARGET=RMIC8GA002
 ```
 
+## 📚 Report Best Practice con LLM
+
+Il sistema genera un report narrativo sulle best practice dell'orientamento analizzando tutti i PTOF.
+
+### Architettura a due livelli
+
+| Fase | Modello | Ruolo |
+|------|---------|-------|
+| Incremento | Ollama (qwen3:32b) | Legge ogni scuola e arricchisce il report |
+| Refactoring | Gemini 3 Flash | Ogni N scuole riorganizza e elimina ridondanze |
+
+### Funzionamento
+
+1. **Fase incrementale (Ollama)**: Per ogni scuola, estrae le best practice e le aggiunge al report esistente
+2. **Fase refactoring (Gemini)**: Ogni 10 scuole (configurabile), Gemini riorganizza il report:
+   - Elimina ridondanze e ripetizioni
+   - Unifica sottotitoli simili
+   - Migliora la narrazione con connettivi
+   - Preserva tutte le informazioni e i riferimenti alle scuole
+
+### Formattazione automatica
+
+Il report usa la formattazione **neretto** per:
+- **Codice meccanografico** e **Nome scuola** (es: **RMIC8GA002** - **I.C. Via Roma**)
+- **Nomi dei progetti** (es: **Progetto Futuro**)
+
+### Comandi
+
+```bash
+# Generazione incrementale (default: refactoring ogni 10 scuole)
+make best-practice-llm
+
+# Refactoring ogni 5 scuole con modello specifico
+make best-practice-llm REFACTOR_EVERY=5 REFACTOR_MODEL=gemini-3-pro-preview
+
+# Ricomincia da zero
+make best-practice-llm-reset
+
+# Senza refactoring automatico
+make best-practice-llm REFACTOR_EVERY=9999
+```
+
+### Gestione errori
+
+- **Rate limit Gemini (429)**: Il sistema salta il refactoring e riprova automaticamente dopo altre N scuole
+- **Interruzione (Ctrl+C)**: Salvataggio sicuro del progresso, ripresa dalla prossima esecuzione
+- **Report troppo corto**: Se Gemini restituisce un report ridotto >50%, mantiene l'originale
+
+### Output
+
+Il report viene salvato in: `reports/best_practice_orientamento_narrativo.md`
+
 ## 📓 Notebook
 
 `docs/CLI_Examples.ipynb`
