@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-25T15:28:11.277506",
+  "last_updated": "2025-12-25T19:54:25.853384",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -1624,6 +1624,366 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMIC8B1001_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMIC8B1001_ptof.md"
+    },
+    "CA1A03800D": {
+      "pdf_hash": "sha256:44c4a95327675fd37339d81bec885af03a11ffe91b95542ffe21ce5a7d0ee35a",
+      "pdf_name": "CA1A03800D_PTOF.pdf",
+      "pdf_size": 6134020,
+      "analyzed_at": "2025-12-25T15:35:45.268017",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CA1A03800D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CA1A03800D_ptof.md"
+    },
+    "MIIC895002": {
+      "pdf_hash": "sha256:d3eea9830b02194f5ee5921953d61777e6d2f7f2e11b3c50c4fc86b70d0e9d7c",
+      "pdf_name": "MIIC895002_PTOF.pdf",
+      "pdf_size": 1408647,
+      "analyzed_at": "2025-12-25T15:43:52.707784",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MIIC895002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MIIC895002_ptof.md"
+    },
+    "VEMM84501A": {
+      "pdf_hash": "sha256:9c9924b20a1ae650a4739541ae916ccfd4f99495dd50ce0c78082cc7afeab806",
+      "pdf_name": "VEMM84501A_PTOF.pdf",
+      "pdf_size": 2366811,
+      "analyzed_at": "2025-12-25T15:56:14.922482",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/VEMM84501A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEMM84501A_ptof.md"
+    },
+    "RN1M010002": {
+      "pdf_hash": "sha256:44c4a95327675fd37339d81bec885af03a11ffe91b95542ffe21ce5a7d0ee35a",
+      "pdf_name": "RN1M010002_PTOF.pdf",
+      "pdf_size": 6134020,
+      "analyzed_at": "2025-12-25T16:04:58.446881",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RN1M010002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RN1M010002_ptof.md"
+    },
+    "NAMM29500A": {
+      "pdf_hash": "sha256:468367a671aa0a270aeb559badf8b446e12822452907a88b74b967492fe21617",
+      "pdf_name": "NAMM29500A_PTOF.pdf",
+      "pdf_size": 1803444,
+      "analyzed_at": "2025-12-25T16:12:44.422692",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NAMM29500A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NAMM29500A_ptof.md"
+    },
+    "MCPL0P500L": {
+      "pdf_hash": "sha256:9221177145485b43a4905197eb9ae022ed1066744ac9be5a28a93b838ea554aa",
+      "pdf_name": "MCPL0P500L_PTOF.pdf",
+      "pdf_size": 1349592,
+      "analyzed_at": "2025-12-25T16:23:02.626977",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MCPL0P500L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MCPL0P500L_ptof.md"
+    },
+    "SAAA8CC05Q": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "SAAA8CC05Q_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2025-12-25T16:28:12.729219",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/SAAA8CC05Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/SAAA8CC05Q_ptof.md"
+    },
+    "NA1M023007": {
+      "pdf_hash": "sha256:1f52dac052d3a9240125af4b06ae56520d23355a506cd13793040afdccacd8fa",
+      "pdf_name": "NA1M023007_PTOF.pdf",
+      "pdf_size": 2939522,
+      "analyzed_at": "2025-12-25T16:31:02.102590",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NA1M023007_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1M023007_ptof.md"
+    },
+    "MIPC10500T": {
+      "pdf_hash": "sha256:e50880b2a52f63fa642d5ccca42e83b1f4de54f571792668cdf19ebc044f40a8",
+      "pdf_name": "MIPC10500T_PTOF.pdf",
+      "pdf_size": 4674983,
+      "analyzed_at": "2025-12-25T16:47:11.604053",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MIPC10500T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MIPC10500T_ptof.md"
+    },
+    "GEEE86603C": {
+      "pdf_hash": "sha256:f2e81c4ac59ae3163782ac6751ec7958873f19db52721d44985dda4f3e569aea",
+      "pdf_name": "GEEE86603C_PTOF.pdf",
+      "pdf_size": 1616022,
+      "analyzed_at": "2025-12-25T16:50:54.661778",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/GEEE86603C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/GEEE86603C_ptof.md"
+    },
+    "RMMM72005D": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RMMM72005D_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2025-12-25T16:53:39.910500",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMMM72005D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMMM72005D_ptof.md"
+    },
+    "MI1A464008": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "MI1A464008_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2025-12-25T16:56:35.759341",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MI1A464008_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MI1A464008_ptof.md"
+    },
+    "TOEE8AD01B": {
+      "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
+      "pdf_name": "TOEE8AD01B_PTOF.pdf",
+      "pdf_size": 1609560,
+      "analyzed_at": "2025-12-25T16:59:40.404330",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TOEE8AD01B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TOEE8AD01B_ptof.md"
+    },
+    "MI1AD4500V": {
+      "pdf_hash": "sha256:762af4ec0bcb2880001f5f70d473b248fcb02fae9064cc393b109a34615f30ad",
+      "pdf_name": "MI1AD4500V_PTOF.pdf",
+      "pdf_size": 1573035,
+      "analyzed_at": "2025-12-25T17:03:13.027050",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MI1AD4500V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MI1AD4500V_ptof.md"
+    },
+    "CTEE88301Q": {
+      "pdf_hash": "sha256:1ee26b7501ab0d28efdc4540b316888b238ea6e567e440a8497c757cbb61761d",
+      "pdf_name": "CTEE88301Q_PTOF.pdf",
+      "pdf_size": 2270981,
+      "analyzed_at": "2025-12-25T17:16:43.426771",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CTEE88301Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CTEE88301Q_ptof.md"
+    },
+    "SS1E01300B": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "SS1E01300B_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2025-12-25T17:19:04.613315",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/SS1E01300B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/SS1E01300B_ptof.md"
+    },
+    "PAIC89900Q": {
+      "pdf_hash": "sha256:158957b72821ffe0291577415e4817bdb5b96db1a906491f0ee3a5c9d45e3cff",
+      "pdf_name": "PAIC89900Q_PTOF.pdf",
+      "pdf_size": 2196578,
+      "analyzed_at": "2025-12-25T17:27:58.536259",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAIC89900Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAIC89900Q_ptof.md"
+    },
+    "LT1E00400C": {
+      "pdf_hash": "sha256:a2ecb8d978ad7db5e3e7c9624efd191f45c2c9ceb4633d062d387ae209aa2ec5",
+      "pdf_name": "LT1E00400C_PTOF.pdf",
+      "pdf_size": 1307948,
+      "analyzed_at": "2025-12-25T17:33:07.023691",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LT1E00400C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LT1E00400C_ptof.md"
+    },
+    "SA1M012007": {
+      "pdf_hash": "sha256:439b1ca5819761d4cd4bd4056436f7d3b448e341f2461d86996ba367a302172e",
+      "pdf_name": "SA1M012007_PTOF.pdf",
+      "pdf_size": 2061149,
+      "analyzed_at": "2025-12-25T17:41:27.901617",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/SA1M012007_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/SA1M012007_ptof.md"
+    },
+    "RM1A55100G": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RM1A55100G_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2025-12-25T17:44:28.820649",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RM1A55100G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RM1A55100G_ptof.md"
+    },
+    "RMIC8FC003": {
+      "pdf_hash": "sha256:43875cc8e3f70482b85ed673e341b3016e3b5109005fb9171046a9d74d2fe607",
+      "pdf_name": "RMIC8FC003_PTOF.pdf",
+      "pdf_size": 1581929,
+      "analyzed_at": "2025-12-25T17:47:59.414946",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMIC8FC003_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMIC8FC003_ptof.md"
+    },
+    "BLIS00100B": {
+      "pdf_hash": "sha256:611e3d2cace611a37ff7263949d6444f976a931ed1d75fedb6e22b17ee37a3bd",
+      "pdf_name": "BLIS00100B_PTOF.pdf",
+      "pdf_size": 2068399,
+      "analyzed_at": "2025-12-25T18:12:25.715937",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BLIS00100B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BLIS00100B_ptof.md"
+    },
+    "RMTF180009": {
+      "pdf_hash": "sha256:63b8932b79c7145bd328b04ab0fa864afc47caae9996d7b0176543993b9e4a37",
+      "pdf_name": "RMTF180009_PTOF.pdf",
+      "pdf_size": 2362506,
+      "analyzed_at": "2025-12-25T18:24:19.727818",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMTF180009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMTF180009_ptof.md"
+    },
+    "RM1A61800R": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RM1A61800R_PTOF_ok.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2025-12-25T18:26:11.151764",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RM1A61800R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RM1A61800R_ptof.md"
+    },
+    "MTIS009001": {
+      "pdf_hash": "sha256:867647c9f8ed2a2c9d3f6ba9b05cb33302bef939348063817391b92f94339ab8",
+      "pdf_name": "MATERA_MTIS009001_20251224_101623.pdf",
+      "pdf_size": 249756,
+      "analyzed_at": "2025-12-25T18:28:07.319569",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MTIS009001_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MTIS009001_ptof.md"
+    },
+    "GE1M006006": {
+      "pdf_hash": "sha256:c070bb08fdce508779b49dd492f3fb2fdce1dc69663268b92aa428b572b1dddd",
+      "pdf_name": "GE1M006006_PTOF.pdf",
+      "pdf_size": 846828,
+      "analyzed_at": "2025-12-25T18:34:52.201483",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/GE1M006006_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/GE1M006006_ptof.md"
+    },
+    "ENIC82000T": {
+      "pdf_hash": "sha256:3a1c1b8be31a64ba238e7026a8cac6b981288ef8150aa768d593bcf25a20042a",
+      "pdf_name": "ENIC82000T_PTOF.pdf",
+      "pdf_size": 1585010,
+      "analyzed_at": "2025-12-25T18:37:41.561739",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/ENIC82000T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/ENIC82000T_ptof.md"
+    },
+    "BA1E01000P": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "BA1E01000P_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2025-12-25T18:40:01.167732",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BA1E01000P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BA1E01000P_ptof.md"
+    },
+    "CTIC86100R": {
+      "pdf_hash": "sha256:0c751edc77a12c0fe48771abc09e42ce95e625772d88660b7f733ed7c84adf3d",
+      "pdf_name": "CTIC86100R_PTOF.pdf",
+      "pdf_size": 7211395,
+      "analyzed_at": "2025-12-25T18:57:24.741786",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CTIC86100R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CTIC86100R_ptof.md"
+    },
+    "RMPC072019": {
+      "pdf_hash": "sha256:d441bcf9de29d982d6ee4cd5dc07c98a9795c678637c8fdd8b23867139bbe0d2",
+      "pdf_name": "RMPC072019_PTOF.pdf",
+      "pdf_size": 2108706,
+      "analyzed_at": "2025-12-25T19:06:04.964562",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMPC072019_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMPC072019_ptof.md"
+    },
+    "BSIC84100G": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "BSIC84100G_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2025-12-25T19:11:05.901170",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BSIC84100G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BSIC84100G_ptof.md"
+    },
+    "RG1E0O5005": {
+      "pdf_hash": "sha256:138edb4d75561e4054a8d9365af5b119fd8cb732ac2bca6fdde5eda1d80c43a6",
+      "pdf_name": "RG1E0O5005_PTOF.pdf",
+      "pdf_size": 662223,
+      "analyzed_at": "2025-12-25T19:16:05.131693",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RG1E0O5005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RG1E0O5005_ptof.md"
+    },
+    "TOIC86100V": {
+      "pdf_hash": "sha256:964d5dc93121cac6b7f291d9e370094803f3eef03035c400a19d01ae263e143a",
+      "pdf_name": "TOIC86100V_PTOF.pdf",
+      "pdf_size": 773626,
+      "analyzed_at": "2025-12-25T19:18:30.466353",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TOIC86100V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TOIC86100V_ptof.md"
+    },
+    "BOEE87902E": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "BOEE87902E_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2025-12-25T19:20:53.099571",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BOEE87902E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BOEE87902E_ptof.md"
+    },
+    "BOAA85601G": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "BOAA85601G_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2025-12-25T19:23:27.857743",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BOAA85601G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BOAA85601G_ptof.md"
+    },
+    "BG1E03200L": {
+      "pdf_hash": "sha256:0172af03ab7080f64354b0f2ba0b1a054da001510a235364e34f09a4e831d616",
+      "pdf_name": "BG1E03200L_PTOF.pdf",
+      "pdf_size": 1831917,
+      "analyzed_at": "2025-12-25T19:26:24.158188",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BG1E03200L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BG1E03200L_ptof.md"
+    },
+    "CNMM85901B": {
+      "pdf_hash": "sha256:e4c6089ad67e251da3e7edd43c78ab8e90e85e551c0e7dff855dfe3832d5462e",
+      "pdf_name": "CNMM85901B_PTOF.pdf",
+      "pdf_size": 730876,
+      "analyzed_at": "2025-12-25T19:32:01.241692",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CNMM85901B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CNMM85901B_ptof.md"
+    },
+    "CTEE825083": {
+      "pdf_hash": "sha256:910664c97c7e5a95c744262f1329e6832931f41ea2f5ffab5fbcb8fe7642b0fd",
+      "pdf_name": "CTEE825083_PTOF.pdf",
+      "pdf_size": 3719136,
+      "analyzed_at": "2025-12-25T19:37:51.459349",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CTEE825083_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CTEE825083_ptof.md"
+    },
+    "FREE82003E": {
+      "pdf_hash": "sha256:c5644548b04bbf1ab95dc6122c4b2d55d5a7caa25d5c5a1e7b5924632ba3b39d",
+      "pdf_name": "FREE82003E_PTOF.pdf",
+      "pdf_size": 390977,
+      "analyzed_at": "2025-12-25T19:39:15.097140",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/FREE82003E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/FREE82003E_ptof.md"
+    },
+    "TOAA85801X": {
+      "pdf_hash": "sha256:0e95a3e23e0f939872862dd245708704c8cf915be933d65e387703096f2b8105",
+      "pdf_name": "TOAA85801X_PTOF.pdf",
+      "pdf_size": 2348418,
+      "analyzed_at": "2025-12-25T19:54:25.853204",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TOAA85801X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TOAA85801X_ptof.md"
     }
   }
 }

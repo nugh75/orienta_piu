@@ -22,6 +22,12 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 
 from src.utils.file_utils import atomic_write
 
+# Import registry
+try:
+    from utils.analysis_registry import register_review
+except ImportError:
+    from src.utils.analysis_registry import register_review
+
 # Flag per uscita controllata
 EXIT_REQUESTED = False
 
@@ -553,6 +559,11 @@ def main() -> None:
                 logger.info(f"No extreme scores found for {school_code}, skipping API call.")
                 status["reviewed"].append(school_code)
                 save_status(status)
+                # Registra anche se non c'erano score estremi
+                register_review(school_code, f"{args.provider}_score_review", model_name, "completed", {
+                    "scores_updated": 0,
+                    "no_extreme_scores": True
+                })
                 count += 1
                 continue
 
@@ -584,14 +595,27 @@ def main() -> None:
                 logger.info(f"{school_code}: applied {applied}/{len(allowed_paths)} updates")
                 status["reviewed"].append(school_code)
                 save_status(status)
+                
+                # Registra nel registry centralizzato
+                register_review(school_code, f"{args.provider}_score_review", model_name, "completed", {
+                    "scores_updated": applied,
+                    "scores_total": len(allowed_paths)
+                })
+                
                 count += 1
             else:
                 logger.error(f"{school_code}: no response from API")
                 status["failed"].append(school_code)
+                register_review(school_code, f"{args.provider}_score_review", model_name, "failed", {
+                    "error": "no_response"
+                })
 
         except Exception as e:
             logger.error(f"{school_code}: error during review: {e}")
             status["failed"].append(school_code)
+            register_review(school_code, f"{args.provider}_score_review", model_name, "failed", {
+                "error": str(e)
+            })
 
         if called_api:
             jitter = random.randint(-15, 15)

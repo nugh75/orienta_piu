@@ -26,6 +26,12 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 
 from src.utils.file_utils import atomic_write
 
+# Import registry
+try:
+    from utils.analysis_registry import register_review
+except ImportError:
+    from src.utils.analysis_registry import register_review
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -342,14 +348,26 @@ def main():
                 logger.info(f"✅ {school_code}: Report arricchito e salvato")
                 status['reviewed'].append(school_code)
                 save_status(status)
+                
+                # Registra nel registry centralizzato
+                register_review(school_code, "openrouter_review", args.model, "completed", {
+                    "report_enriched": True
+                })
+                
                 count += 1
             else:
                 logger.error(f"❌ {school_code}: Nessuna risposta dall'API")
                 status['failed'].append(school_code)
+                register_review(school_code, "openrouter_review", args.model, "failed", {
+                    "error": "no_response"
+                })
                 
         except Exception as e:
             logger.error(f"❌ {school_code}: Errore generico: {e}")
             status['failed'].append(school_code)
+            register_review(school_code, "openrouter_review", args.model, "failed", {
+                "error": str(e)
+            })
         
         # Wait with jitter
         jitter = random.randint(-15, 15)

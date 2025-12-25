@@ -38,6 +38,44 @@ def explode_multi_value(df: pd.DataFrame, col: str) -> pd.DataFrame:
     df_temp[col] = df_temp[col].apply(split_multi_value)
     return df_temp.explode(col)
 
+def cohens_d(group1, group2):
+    """Calcola Cohen's d per due gruppi"""
+    n1, n2 = len(group1), len(group2)
+    if n1 < 2 or n2 < 2:
+        return np.nan
+    var1, var2 = group1.var(), group2.var()
+    pooled_std = np.sqrt(((n1-1)*var1 + (n2-1)*var2) / (n1+n2-2))
+    if pooled_std == 0:
+        return np.nan
+    return (group1.mean() - group2.mean()) / pooled_std
+
+def interpret_cohens_d(d):
+    """Interpreta il valore di Cohen's d"""
+    if pd.isna(d):
+        return "N/D", "⚪"
+    d_abs = abs(d)
+    if d_abs < 0.2:
+        return "Trascurabile", "⚪"
+    elif d_abs < 0.5:
+        return "Piccolo", "🟡"
+    elif d_abs < 0.8:
+        return "Medio", "🟠"
+    else:
+        return "Grande", "🔴"
+
+def interpret_pvalue(p):
+    """Interpreta il p-value"""
+    if pd.isna(p):
+        return "N/D", "⚪"
+    if p < 0.001:
+        return "***", "🟢"
+    elif p < 0.01:
+        return "**", "🟢"
+    elif p < 0.05:
+        return "*", "🟡"
+    else:
+        return "n.s.", "⚪"
+
 @st.cache_data(ttl=60)
 def load_data():
     if os.path.exists(SUMMARY_FILE):
@@ -338,44 +376,6 @@ st.markdown("---")
 # === NUOVA SEZIONE: SIGNIFICATIVITÀ STATISTICA E EFFECT SIZE ===
 st.subheader("📈 Significatività Statistica ed Effect Size")
 st.caption("Analisi della significatività delle differenze tra gruppi e della dimensione dell'effetto.")
-
-def cohens_d(group1, group2):
-    """Calcola Cohen's d per due gruppi"""
-    n1, n2 = len(group1), len(group2)
-    if n1 < 2 or n2 < 2:
-        return np.nan
-    var1, var2 = group1.var(), group2.var()
-    pooled_std = np.sqrt(((n1-1)*var1 + (n2-1)*var2) / (n1+n2-2))
-    if pooled_std == 0:
-        return np.nan
-    return (group1.mean() - group2.mean()) / pooled_std
-
-def interpret_cohens_d(d):
-    """Interpreta il valore di Cohen's d"""
-    if pd.isna(d):
-        return "N/D", "⚪"
-    d_abs = abs(d)
-    if d_abs < 0.2:
-        return "Trascurabile", "⚪"
-    elif d_abs < 0.5:
-        return "Piccolo", "🟡"
-    elif d_abs < 0.8:
-        return "Medio", "🟠"
-    else:
-        return "Grande", "🔴"
-
-def interpret_pvalue(p):
-    """Interpreta il p-value"""
-    if pd.isna(p):
-        return "N/D", "⚪"
-    if p < 0.001:
-        return "***", "🟢"
-    elif p < 0.01:
-        return "**", "🟢"
-    elif p < 0.05:
-        return "*", "🟡"
-    else:
-        return "n.s.", "⚪"
 
 # Tab per diverse analisi statistiche
 stat_tab1, stat_tab2, stat_tab3 = st.tabs(["🏙️ Territorio", "📚 Grado Scolastico", "🗺️ Area Geografica"])
