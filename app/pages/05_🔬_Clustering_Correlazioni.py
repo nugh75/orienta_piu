@@ -1,4 +1,4 @@
-# 🔬 Analisi Avanzate - Statistiche e Clustering
+# 🔬 Clustering e Correlazioni - Analisi cluster e pattern
 
 import streamlit as st
 import pandas as pd
@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 import os
 import glob
 from collections import Counter
+from app.data_utils import get_label, LABEL_MAP_SHORT as LABEL_MAP
 
 # Safe optional imports
 try:
@@ -30,20 +31,9 @@ try:
 except ImportError:
     HAS_WORDCLOUD = False
 
-st.set_page_config(page_title="Analisi Avanzate", page_icon="🔬", layout="wide")
+st.set_page_config(page_title="Clustering e Correlazioni", page_icon="🔬", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
-
-LABEL_MAP = {
-    'mean_finalita': 'Finalità',
-    'mean_obiettivi': 'Obiettivi', 
-    'mean_governance': 'Governance',
-    'mean_didattica_orientativa': 'Didattica',
-    'mean_opportunita': 'Opportunità',
-}
-
-def get_label(col):
-    return LABEL_MAP.get(col, col.replace('_', ' ').title())
 
 @st.cache_data(ttl=60)
 def load_data():
@@ -53,7 +43,7 @@ def load_data():
 
 df = load_data()
 
-st.title("🔬 Analisi Statistiche Avanzate")
+st.title("🔬 Clustering e Correlazioni")
 
 with st.expander("📖 Come leggere questa pagina", expanded=False):
     st.markdown("""

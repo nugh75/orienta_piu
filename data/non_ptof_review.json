@@ -526,5 +526,19 @@
       "/Users/danieledragoni/git/LIste/ptof_md/TO1AFN500B_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "TOIC86100V",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TOIC86100V_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.66 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T20:25:24.972377",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/TOIC86100V_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/TOIC86100V_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/TOIC86100V_ptof.md"
+    ],
+    "action": "removed"
   }
 ]

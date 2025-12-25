@@ -1,4 +1,4 @@
-# 📖 Metodologia - Documentazione del sistema
+# ℹ️ Documentazione - Metodologia e guida al sistema
 
 from pathlib import Path
 

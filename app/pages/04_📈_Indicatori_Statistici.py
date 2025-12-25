@@ -1,4 +1,4 @@
-# 📊 KPI Avanzati - Statistiche e Analisi Approfondite
+# � Indicatori Statistici - Test e KPI dettagliati
 
 import streamlit as st
 import pandas as pd
@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 import numpy as np
 import os
 from scipy import stats
+from app.data_utils import get_label, LABEL_MAP
 
 # Funzioni per test statistici
 def chi2_test_presence(df, group_col, presence_col):

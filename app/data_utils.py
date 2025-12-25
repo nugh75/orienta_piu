@@ -10,6 +10,35 @@ TIPI_SCUOLA = [
     "Professionale"
 ]
 
+# Mapping centralizzato per etichette colonne (evita duplicazione nelle pagine)
+LABEL_MAP = {
+    'mean_finalita': 'Media Finalità',
+    'mean_obiettivi': 'Media Obiettivi', 
+    'mean_governance': 'Media Governance',
+    'mean_didattica_orientativa': 'Media Didattica',
+    'mean_opportunita': 'Media Opportunità',
+    'ptof_orientamento_maturity_index': 'Indice RO',
+    'partnership_count': 'N. Partnership',
+    'activities_count': 'N. Attività',
+    '2_1_score': 'Sezione Dedicata',
+    'has_sezione_dedicata': 'Sezione Dedicata'
+}
+
+# Versione compatta per grafici
+LABEL_MAP_SHORT = {
+    'mean_finalita': 'Finalità',
+    'mean_obiettivi': 'Obiettivi', 
+    'mean_governance': 'Governance',
+    'mean_didattica_orientativa': 'Didattica',
+    'mean_opportunita': 'Opportunità',
+    'ptof_orientamento_maturity_index': 'Indice RO'
+}
+
+def get_label(col: str, short: bool = False) -> str:
+    """Restituisce l'etichetta leggibile per una colonna."""
+    label_dict = LABEL_MAP_SHORT if short else LABEL_MAP
+    return label_dict.get(col, col.replace('_', ' ').title())
+
 def split_multi_value(value):
     if pd.isna(value):
         return []

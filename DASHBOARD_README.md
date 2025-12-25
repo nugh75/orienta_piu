@@ -4,13 +4,13 @@
 
 La dashboard Streamlit è **pienamente funzionante** con tutti i componenti verificati.
 
-### Test Eseguiti (21/12/2025)
+### Test Eseguiti (25/12/2025)
 
 - ✅ Moduli Python (streamlit, plotly, pandas, numpy)
 - ✅ File dati (91 scuole, 43 colonne)
 - ✅ Integrità CSV (indice medio: 2.99)
 - ✅ Moduli custom (data_utils, data_manager)
-- ✅ 13 pagine dashboard
+- ✅ 11 pagine dashboard
 - ✅ Sintassi corretta in tutti i file
 
 ## Avvio Rapido
@@ -50,19 +50,17 @@ Una volta avviata, la dashboard sarà disponibile su:
 
 ### Pagine Disponibili
 
-1. **📊 Comparazioni** - Confronto tra scuole
-2. **🗺️ Mappa Italia** - Visualizzazione geografica
-3. **🏆 Benchmark** - Analisi comparativa
-4. **📊 KPI Avanzati** - Indicatori dettagliati
-5. **🔬 Analisi Avanzate** - Analisi statistiche approfondite
-6. **🧪 Analisi Sperimentali** - Funzionalità sperimentali
-7. **🏫 Dettaglio Scuola** - Vista dettagliata per scuola
-8. **📋 Dati Grezzi** - Visualizzazione dati raw
-9. **📖 Metodologia** - Documentazione metodologica
-10. **⚙️ Gestione** - Amministrazione sistema
-11. **📤 Carica e Analizza** - Upload e analisi nuovi PTOF
-12. **🛡️ Backup** - Gestione backup
-13. **🖥️ CLI** - Interfaccia command line
+1. **📊 Confronti Gruppi** - Comparazioni statistiche tra gruppi di scuole
+2. **🗺️ Mappa Italia** - Visualizzazione geografica e analisi regionale
+3. **🏆 Benchmark** - Classifiche e posizionamento relativo
+4. **📈 Indicatori Statistici** - Test statistici e KPI dettagliati
+5. **🔬 Clustering e Correlazioni** - Analisi cluster, correlazioni, word cloud
+6. **🕸️ Visualizzazioni Avanzate** - Radar chart, Sankey, Sunburst
+7. **🏫 Dettaglio Scuola** - Scheda approfondita singola scuola
+8. **📋 Esplora Dati** - Dati grezzi e statistiche descrittive
+9. **ℹ️ Documentazione** - Metodologia e guida al sistema
+10. **✏️ Modifica Metadati** - Revisione e modifica dati scuole
+11. **🛡️ Backup** - Gestione backup e ripristino
 
 ## Filtri Globali
 

@@ -1,4 +1,4 @@
-# 📊 Comparazioni - Confronti tra gruppi
+# 📊 Confronti Gruppi - Comparazioni statistiche tra gruppi
 
 import streamlit as st
 import pandas as pd
@@ -7,22 +7,11 @@ import plotly.graph_objects as go
 import os
 import numpy as np
 from scipy import stats
+from app.data_utils import get_label, LABEL_MAP
 
-st.set_page_config(page_title="Comparazioni", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Confronti Gruppi", page_icon="📊", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
-
-LABEL_MAP = {
-    'mean_finalita': 'Media Finalità',
-    'mean_obiettivi': 'Media Obiettivi', 
-    'mean_governance': 'Media Governance',
-    'mean_didattica_orientativa': 'Media Didattica',
-    'mean_opportunita': 'Media Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO',
-}
-
-def get_label(col):
-    return LABEL_MAP.get(col, col.replace('_', ' ').title())
 
 def split_multi_value(value):
     if pd.isna(value):

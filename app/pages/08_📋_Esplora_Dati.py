@@ -1,4 +1,4 @@
-# 📋 Dati Grezzi - Esplorazione e verifica dati
+# 📋 Esplora Dati - Dati grezzi e statistiche descrittive
 
 import streamlit as st
 import pandas as pd
@@ -6,7 +6,7 @@ import os
 import glob
 import json
 
-st.set_page_config(page_title="Dati Grezzi", page_icon="📋", layout="wide")
+st.set_page_config(page_title="Esplora Dati", page_icon="📋", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 

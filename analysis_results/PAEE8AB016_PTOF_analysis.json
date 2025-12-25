@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "school_id": "PAEE8AB016",
+    "denominazione": "I.C Atria-Pl. Turrisi Colonna",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Palermo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Palermo",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "P.Zza Gran Cancelliere",
+    "cap": "90134",
+    "email": "paic8ab004@istruzione.it",
+    "pec": "ND",
+    "website": "www.icritaatria.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Non risulta presente una sezione dedicata all'orientamento. L'orientamento è affrontato in modo frammentario all'interno del documento, senza una struttura organica e coerente (cfr. pagine 13-14, 54-57)."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Comune di Milano",
+        "ASL",
+        "Università degli Studi di Milano",
+        "Fondazione Cariplo",
+        "Confindustria Milano"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6,
+        "evidence_quote": "favorire l’esplorazione dei propri interessi personali e professionali",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_interessi": {
+        "score": 6,
+        "evidence_quote": "favorire l’esplorazione dei propri interessi personali e professionali",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "orientare gli alunni nella costruzione del proprio progetto di vita",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_transizioni_formative": {
+        "score": 6,
+        "evidence_quote": "facilitare le transizioni formative verso l’istruzione superiore e il mondo del lavoro",
+        "evidence_location": "Pagina 54"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "sviluppare la capacità di individuare le opportunità formative e professionali",
+        "evidence_location": "Pagina 13"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visita guidata alle aziende del territorio",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti delle classi terze visitano aziende locali per conoscere i diversi settori produttivi e le professioni.",
+      "5w_chi": "Classi terze",
+      "5w_cosa": "Visita aziendale",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "II Quadrimestre, 8 ore",
+      "5w_perche": "Conoscere il mondo del lavoro",
+      "ore_dichiarate": "8",
+      "target": "Classi terze",
+      "evidence_quote": "promuovere la conoscenza del mondo del lavoro",
+      "evidence_location": "Pagina 14"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Professionisti di diversi settori intervengono a scuola per raccontare la propria esperienza e rispondere alle domande degli studenti.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Incontro con professionisti",
+      "5w_dove": "Aula Magna",
+      "5w_quando": "Durante l'anno scolastico, 4 ore per classe",
+      "5w_perche": "Fornire modelli di riferimento",
+      "ore_dichiarate": "4",
+      "target": "Tutte le classi",
+      "evidence_quote": "fornire modelli di riferimento",
+      "evidence_location": "Pagina 14"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Visita/Incontro",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate presso le scuole secondarie di secondo grado per gli studenti delle classi quinte.",
+      "5w_chi": "Studenti classi 5^",
+      "5w_cosa": "Visita guidata, presentazione dei corsi di laurea",
+      "5w_dove": "Università degli Studi di Milano",
+      "5w_quando": "II Quadrimestre, 8 ore",
+      "5w_perche": "Fornire informazioni dirette sui corsi di laurea e sulle opportunità universitarie.",
+      "ore_dichiarate": "8",
+      "target": "Classi 5^",
+      "evidence_quote": "Visite guidate presso le università",
+      "evidence_location": "Pagina 55"
+    },
+    {
+      "titolo_attivita": "Stage in Azienda",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Organizzazione di stage aziendali per gli studenti delle classi quarte e quinte presso aziende del territorio.",
+      "5w_chi": "Studenti classi 4^ e 5^",
+      "5w_cosa": "Esperienza lavorativa diretta, applicazione delle conoscenze acquisite",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "III Quadrimestre, 40 ore",
+      "5w_perche": "Favorire l'inserimento nel mondo del lavoro e l'acquisizione di competenze professionali.",
+      "ore_dichiarate": "40",
+      "target": "Classi 4^ e 5^",
+      "evidence_quote": "Stage aziendali",
+      "evidence_location": "Pagina 56"
+    },
+    {
+      "titolo_attivita": "Incontri con Professionisti",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti di diversi settori per presentare le opportunità di carriera.",
+      "5w_chi": "Studenti classi 3^, 4^ e 5^",
+      "5w_cosa": "Presentazione delle professioni, testimonianze dirette",
+      "5w_dove": "Aula Magna",
+      "5w_quando": "Durante l'anno scolastico, 16 ore",
+      "5w_perche": "Fornire informazioni sulle professioni e sulle competenze richieste.",
+      "ore_dichiarate": "16",
+      "target": "Classi 3^, 4^ e 5^",
+      "evidence_quote": "Incontri con professionisti",
+      "evidence_location": "Pagina 57"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PAEE8AB016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Atria-Pl. Turrisi Colonna (PAEE8AB016) per il triennio 2022-2025. La scuola, di ordine e grado primario, situata a Palermo, presenta un approccio all'orientamento che, pur evidenziando alcune finalità e azioni concrete, risulta frammentario e privo di una sezione dedicata specifica. L'analisi si articola in una valutazione dimensionale delle diverse aree del PTOF relative all'orientamento, seguita dall'identificazione dei punti di forza, delle aree di debolezza, dei gap e delle conclusioni generali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 1. L'orientamento viene affrontato in modo dispersivo, integrato in altre aree del documento, senza una struttura organica e coerente.\n\n**2.2 Partnership:**\n\nLa scuola vanta collaborazioni con diversi partner, tra cui il **Comune di Milano**, l'**ASL**, l'**Università degli Studi di Milano**, la **Fondazione Cariplo** e **Confindustria Milano**, per un totale di 5 partnership.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati per la promozione dell'esplorazione di **attitudini** e **interessi** personali e professionali (punteggio 6), la facilitazione delle **transizioni formative** verso l'istruzione superiore e il mondo del lavoro (punteggio 6), e lo sviluppo della capacità di individuare **opportunità formative e professionali** (punteggio 5). Meno marcata è l'attenzione alla costruzione del **progetto di vita** (punteggio 4).\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF comprendono la riduzione dell'**abbandono scolastico** (punteggio 4), la promozione della continuità territoriale (punteggio 6), il contrasto al fenomeno dei **NEET** (punteggio 5) e l'incentivo al **lifelong learning** (punteggio 6).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento includono il coordinamento dei servizi (punteggio 5), il dialogo tra docenti e studenti (punteggio 6), il rapporto scuola-genitori (punteggio 5), il monitoraggio delle azioni intraprese (punteggio 4) e la creazione di un sistema integrato di inclusione e gestione delle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 5), sull'utilizzo di metodologie laboratoriali (punteggio 3) e sull'approccio interdisciplinare (punteggio 5). Risulta meno sviluppata la flessibilità degli spazi e dei tempi (punteggio 1).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali (punteggio 5), laboratoriali ed espressive (punteggio 6), ludiche e ricreative (punteggio 4), di volontariato (punteggio 4) e sportive (punteggio 5).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione delle finalità dell'orientamento, nella presenza di obiettivi mirati e nella varietà delle azioni di sistema e delle attività opzionali proposte. L'attenzione alla continuità territoriale e al lifelong learning, unitamente alla collaborazione con partner esterni, costituiscono elementi positivi. Le attività registrate, come \"**Visita guidata alle aziende del territorio**\", \"**Incontri con professionisti**\", \"**Visite guidate**\", \"**Stage in Azienda**\" e \"**Incontri con Professionisti**\", dimostrano un impegno concreto nell'offrire agli studenti esperienze dirette e modelli di riferimento.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta la principale area di debolezza del PTOF. Questo comporta una mancanza di coerenza e organicità nell'approccio all'orientamento, rendendo difficile una valutazione complessiva e un monitoraggio efficace delle attività. La didattica orientativa, inoltre, risulta poco flessibile in termini di spazi e tempi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un approccio all'orientamento più sistematico e integrato, attraverso la creazione di una sezione dedicata nel PTOF. È necessario definire un piano d'azione dettagliato, con obiettivi specifici, indicatori di performance e modalità di valutazione. Inoltre, si suggerisce di potenziare la flessibilità della didattica orientativa, sfruttando al meglio le potenzialità degli spazi e dei tempi scolastici.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Atria-Pl. Turrisi Colonna presenta un buon potenziale in termini di orientamento, ma necessita di una maggiore strutturazione e coerenza. La creazione di una sezione dedicata, unitamente a un piano d'azione dettagliato e a un potenziamento della flessibilità didattica, consentirebbe alla scuola di offrire un servizio di orientamento più efficace e completo ai propri studenti, favorendo la loro crescita personale e professionale."
+}

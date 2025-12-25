@@ -6708,6 +6708,27 @@
         "reason": "Score 1.56 too low (<= 2.0)"
       },
       "timestamp": "2025-12-25T15:17:39.584736"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TOIC86100V_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TOIC86100V_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TOIC86100V_PTOF.pdf",
+        "file_name": "TOIC86100V_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T20:25:24.972330",
+        "reason": "Score 1.66 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T20:25:24.972868"
     }
   ]
 }

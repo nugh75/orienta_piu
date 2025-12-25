@@ -1,4 +1,4 @@
-# ⚙️ Gestione - Revisione Metadati Scuole
+# ✏️ Modifica Metadati - Revisione dati scuole
 
 import streamlit as st
 import pandas as pd
@@ -6,7 +6,7 @@ import os
 import json
 import glob
 
-st.set_page_config(page_title="Gestione", page_icon="⚙️", layout="wide")
+st.set_page_config(page_title="Modifica Metadati", page_icon="✏️", layout="wide")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
