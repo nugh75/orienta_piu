@@ -5,6 +5,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import os
+import numpy as np
+from scipy import stats
 
 st.set_page_config(page_title="Comparazioni", page_icon="📊", layout="wide")
 
@@ -137,6 +139,80 @@ if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
 
 🎯 **Implicazioni**: Se i Licei del Nord hanno punteggi alti ma quelli del Sud bassi, potrebbe indicare disparità territoriali da affrontare. Utile per politiche educative mirate.
 """)
+        
+        # === ANALISI STATISTICA HEATMAP ===
+        with st.expander("📈 Analisi Statistica: Effetti Tipo Scuola e Area Geografica", expanded=False):
+            st.markdown("""
+            Analisi degli effetti principali e dell'interazione tra **Tipo Scuola** e **Area Geografica** 
+            sull'Indice RO.
+            """)
+            
+            # Effetto Tipo Scuola (ANOVA one-way)
+            tipo_groups = df_pivot.groupby('tipo_scuola')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+            valid_tipo = {k: pd.Series(v).dropna() for k, v in tipo_groups.items() if len(pd.Series(v).dropna()) >= 3}
+            
+            col_stat1, col_stat2 = st.columns(2)
+            
+            with col_stat1:
+                st.markdown("#### 📚 Effetto Tipo Scuola")
+                if len(valid_tipo) >= 2:
+                    f_tipo, p_tipo = stats.f_oneway(*[v for v in valid_tipo.values()])
+                    p_interp, p_emoji = interpret_pvalue(p_tipo)
+                    st.markdown(f"- F = {f_tipo:.2f}, p = {p_tipo:.4f} {p_emoji} {p_interp}")
+                    
+                    if p_tipo < 0.05:
+                        st.success("✅ Il tipo di scuola ha un effetto significativo")
+                    else:
+                        st.info("Il tipo di scuola non ha un effetto significativo")
+                else:
+                    st.info("Dati insufficienti")
+            
+            with col_stat2:
+                st.markdown("#### 🗺️ Effetto Area Geografica")
+                if 'area_geografica' in df_pivot.columns:
+                    area_groups = df_pivot.groupby('area_geografica')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+                    valid_area = {k: pd.Series(v).dropna() for k, v in area_groups.items() if len(pd.Series(v).dropna()) >= 3}
+                    
+                    if len(valid_area) >= 2:
+                        f_area, p_area = stats.f_oneway(*[v for v in valid_area.values()])
+                        p_interp, p_emoji = interpret_pvalue(p_area)
+                        st.markdown(f"- F = {f_area:.2f}, p = {p_area:.4f} {p_emoji} {p_interp}")
+                        
+                        if p_area < 0.05:
+                            st.success("✅ L'area geografica ha un effetto significativo")
+                        else:
+                            st.info("L'area geografica non ha un effetto significativo")
+                    else:
+                        st.info("Dati insufficienti")
+                else:
+                    st.info("Dati area non disponibili")
+            
+            # Tabella riassuntiva combinazioni
+            st.markdown("---")
+            st.markdown("#### 🏆 Migliori e Peggiori Combinazioni")
+            
+            if not pivot.empty:
+                # Trova max e min
+                flat_data = []
+                for tipo in pivot.index:
+                    for area in pivot.columns:
+                        val = pivot.loc[tipo, area]
+                        if pd.notna(val):
+                            flat_data.append({'Tipo': tipo, 'Area': area, 'Media': val})
+                
+                if flat_data:
+                    flat_df = pd.DataFrame(flat_data).sort_values('Media', ascending=False)
+                    
+                    col_best, col_worst = st.columns(2)
+                    with col_best:
+                        st.markdown("**🥇 Top 3:**")
+                        for _, row in flat_df.head(3).iterrows():
+                            st.markdown(f"- {row['Tipo']} ({row['Area']}): **{row['Media']:.2f}**")
+                    
+                    with col_worst:
+                        st.markdown("**⚠️ Bottom 3:**")
+                        for _, row in flat_df.tail(3).iterrows():
+                            st.markdown(f"- {row['Tipo']} ({row['Area']}): **{row['Media']:.2f}**")
     else:
         st.info("Dati insufficienti per la Heatmap")
 else:
@@ -259,6 +335,233 @@ st.info("""
 
 st.markdown("---")
 
+# === NUOVA SEZIONE: SIGNIFICATIVITÀ STATISTICA E EFFECT SIZE ===
+st.subheader("📈 Significatività Statistica ed Effect Size")
+st.caption("Analisi della significatività delle differenze tra gruppi e della dimensione dell'effetto.")
+
+def cohens_d(group1, group2):
+    """Calcola Cohen's d per due gruppi"""
+    n1, n2 = len(group1), len(group2)
+    if n1 < 2 or n2 < 2:
+        return np.nan
+    var1, var2 = group1.var(), group2.var()
+    pooled_std = np.sqrt(((n1-1)*var1 + (n2-1)*var2) / (n1+n2-2))
+    if pooled_std == 0:
+        return np.nan
+    return (group1.mean() - group2.mean()) / pooled_std
+
+def interpret_cohens_d(d):
+    """Interpreta il valore di Cohen's d"""
+    if pd.isna(d):
+        return "N/D", "⚪"
+    d_abs = abs(d)
+    if d_abs < 0.2:
+        return "Trascurabile", "⚪"
+    elif d_abs < 0.5:
+        return "Piccolo", "🟡"
+    elif d_abs < 0.8:
+        return "Medio", "🟠"
+    else:
+        return "Grande", "🔴"
+
+def interpret_pvalue(p):
+    """Interpreta il p-value"""
+    if pd.isna(p):
+        return "N/D", "⚪"
+    if p < 0.001:
+        return "***", "🟢"
+    elif p < 0.01:
+        return "**", "🟢"
+    elif p < 0.05:
+        return "*", "🟡"
+    else:
+        return "n.s.", "⚪"
+
+# Tab per diverse analisi statistiche
+stat_tab1, stat_tab2, stat_tab3 = st.tabs(["🏙️ Territorio", "📚 Grado Scolastico", "🗺️ Area Geografica"])
+
+with stat_tab1:
+    st.markdown("#### Confronto Metropolitano vs Non Metropolitano")
+    if 'territorio' in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
+        terr_groups = df.groupby('territorio')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+        
+        if len(terr_groups) >= 2:
+            terr_names = list(terr_groups.keys())
+            results_terr = []
+            
+            for i, t1 in enumerate(terr_names):
+                for t2 in terr_names[i+1:]:
+                    g1 = pd.Series(terr_groups[t1]).dropna()
+                    g2 = pd.Series(terr_groups[t2]).dropna()
+                    
+                    if len(g1) >= 3 and len(g2) >= 3:
+                        # T-test
+                        t_stat, p_value = stats.ttest_ind(g1, g2)
+                        # Cohen's d
+                        d = cohens_d(g1, g2)
+                        d_interp, d_emoji = interpret_cohens_d(d)
+                        p_interp, p_emoji = interpret_pvalue(p_value)
+                        
+                        results_terr.append({
+                            'Confronto': f"{t1} vs {t2}",
+                            'N₁': len(g1),
+                            'Media₁': f"{g1.mean():.2f}",
+                            'N₂': len(g2),
+                            'Media₂': f"{g2.mean():.2f}",
+                            'Differenza': f"{g1.mean() - g2.mean():.2f}",
+                            't': f"{t_stat:.2f}",
+                            'p-value': f"{p_value:.4f}",
+                            'Sig.': f"{p_emoji} {p_interp}",
+                            "Cohen's d": f"{d:.2f}" if not pd.isna(d) else "N/D",
+                            'Effetto': f"{d_emoji} {d_interp}"
+                        })
+            
+            if results_terr:
+                st.dataframe(pd.DataFrame(results_terr), use_container_width=True, hide_index=True)
+            else:
+                st.info("Dati insufficienti per l'analisi statistica (servono almeno 3 scuole per gruppo)")
+        else:
+            st.info("Servono almeno 2 gruppi territoriali per il confronto")
+    else:
+        st.warning("Colonna 'territorio' non disponibile")
+
+with stat_tab2:
+    st.markdown("#### Confronto I Grado vs II Grado")
+    if 'ordine_grado' in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
+        # Explode multi-value
+        try:
+            from app.data_utils import explode_school_grades
+            df_stat = explode_school_grades(df)
+        except Exception:
+            df_stat = df
+        df_stat = explode_multi_value(df_stat, 'ordine_grado')
+        
+        grado_groups = df_stat.groupby('ordine_grado')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+        
+        if len(grado_groups) >= 2:
+            grado_names = list(grado_groups.keys())
+            results_grado = []
+            
+            for i, g1_name in enumerate(grado_names):
+                for g2_name in grado_names[i+1:]:
+                    g1 = pd.Series(grado_groups[g1_name]).dropna()
+                    g2 = pd.Series(grado_groups[g2_name]).dropna()
+                    
+                    if len(g1) >= 3 and len(g2) >= 3:
+                        t_stat, p_value = stats.ttest_ind(g1, g2)
+                        d = cohens_d(g1, g2)
+                        d_interp, d_emoji = interpret_cohens_d(d)
+                        p_interp, p_emoji = interpret_pvalue(p_value)
+                        
+                        results_grado.append({
+                            'Confronto': f"{g1_name} vs {g2_name}",
+                            'N₁': len(g1),
+                            'Media₁': f"{g1.mean():.2f}",
+                            'N₂': len(g2),
+                            'Media₂': f"{g2.mean():.2f}",
+                            'Differenza': f"{g1.mean() - g2.mean():.2f}",
+                            't': f"{t_stat:.2f}",
+                            'p-value': f"{p_value:.4f}",
+                            'Sig.': f"{p_emoji} {p_interp}",
+                            "Cohen's d": f"{d:.2f}" if not pd.isna(d) else "N/D",
+                            'Effetto': f"{d_emoji} {d_interp}"
+                        })
+            
+            if results_grado:
+                st.dataframe(pd.DataFrame(results_grado), use_container_width=True, hide_index=True)
+            else:
+                st.info("Dati insufficienti per l'analisi statistica")
+        else:
+            st.info("Servono almeno 2 gradi scolastici per il confronto")
+    else:
+        st.warning("Colonna 'ordine_grado' non disponibile")
+
+with stat_tab3:
+    st.markdown("#### Confronto tra Aree Geografiche (Nord, Centro, Sud)")
+    if 'area_geografica' in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
+        area_groups = df.groupby('area_geografica')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+        
+        if len(area_groups) >= 2:
+            area_names = list(area_groups.keys())
+            results_area = []
+            
+            for i, a1 in enumerate(area_names):
+                for a2 in area_names[i+1:]:
+                    g1 = pd.Series(area_groups[a1]).dropna()
+                    g2 = pd.Series(area_groups[a2]).dropna()
+                    
+                    if len(g1) >= 3 and len(g2) >= 3:
+                        t_stat, p_value = stats.ttest_ind(g1, g2)
+                        d = cohens_d(g1, g2)
+                        d_interp, d_emoji = interpret_cohens_d(d)
+                        p_interp, p_emoji = interpret_pvalue(p_value)
+                        
+                        results_area.append({
+                            'Confronto': f"{a1} vs {a2}",
+                            'N₁': len(g1),
+                            'Media₁': f"{g1.mean():.2f}",
+                            'N₂': len(g2),
+                            'Media₂': f"{g2.mean():.2f}",
+                            'Differenza': f"{g1.mean() - g2.mean():.2f}",
+                            't': f"{t_stat:.2f}",
+                            'p-value': f"{p_value:.4f}",
+                            'Sig.': f"{p_emoji} {p_interp}",
+                            "Cohen's d": f"{d:.2f}" if not pd.isna(d) else "N/D",
+                            'Effetto': f"{d_emoji} {d_interp}"
+                        })
+            
+            if results_area:
+                st.dataframe(pd.DataFrame(results_area), use_container_width=True, hide_index=True)
+                
+                # ANOVA se ci sono 3+ gruppi
+                if len(area_groups) >= 3:
+                    valid_groups = [pd.Series(v).dropna() for v in area_groups.values() if len(pd.Series(v).dropna()) >= 3]
+                    if len(valid_groups) >= 3:
+                        f_stat, p_anova = stats.f_oneway(*valid_groups)
+                        p_interp, p_emoji = interpret_pvalue(p_anova)
+                        st.markdown(f"""
+                        **ANOVA (confronto globale)**: F = {f_stat:.2f}, p = {p_anova:.4f} {p_emoji} {p_interp}
+                        """)
+            else:
+                st.info("Dati insufficienti per l'analisi statistica")
+        else:
+            st.info("Servono almeno 2 aree geografiche per il confronto")
+    else:
+        st.warning("Colonna 'area_geografica' non disponibile")
+
+with st.expander("📘 Guida alla lettura: Significatività e Effect Size"):
+    st.markdown("""
+    ### 📊 Come interpretare i risultati
+    
+    **P-value (Significatività statistica)**
+    - `*** (p < 0.001)`: Differenza altamente significativa
+    - `** (p < 0.01)`: Differenza molto significativa
+    - `* (p < 0.05)`: Differenza significativa
+    - `n.s.`: Non significativa (la differenza potrebbe essere casuale)
+    
+    **Cohen's d (Dimensione dell'effetto)**
+    - `< 0.2` ⚪ **Trascurabile**: Differenza praticamente inesistente
+    - `0.2-0.5` 🟡 **Piccolo**: Differenza reale ma modesta
+    - `0.5-0.8` 🟠 **Medio**: Differenza sostanziale e rilevante
+    - `> 0.8` 🔴 **Grande**: Differenza molto marcata
+    
+    ### ⚠️ Nota importante
+    Un p-value significativo indica che la differenza è *reale* (non casuale), ma non dice quanto sia *importante*.
+    Il Cohen's d invece quantifica l'*entità* della differenza. Una differenza può essere statisticamente significativa ma praticamente irrilevante (d piccolo), o viceversa.
+    
+    **Per decisioni pratiche, guarda il Cohen's d!**
+    """)
+
+st.info("""
+💡 **A cosa serve**: Quantifica se le differenze osservate tra i gruppi sono statisticamente significative e quanto sono rilevanti nella pratica.
+
+🔍 **Cosa rileva**: Il **p-value** indica se la differenza è reale o casuale. Il **Cohen's d** misura l'entità della differenza: valori > 0.5 indicano differenze sostanziali meritevoli di attenzione.
+
+🎯 **Implicazioni**: Differenze con p < 0.05 E Cohen's d > 0.5 sono quelle su cui vale la pena intervenire. Evita di basare decisioni su differenze statisticamente significative ma con effetto trascurabile.
+""")
+
+st.markdown("---")
+
 # 4. Grouped Bar I Grado vs II Grado
 st.subheader("📊 Confronto I Grado vs II Grado")
 
@@ -281,6 +584,46 @@ if 'ordine_grado' in df.columns:
                      barmode='group', title="Media per Dimensione: I Grado vs II Grado")
         fig.update_layout(xaxis_tickangle=-30)
         st.plotly_chart(fig, use_container_width=True)
+        
+        # === ANALISI STATISTICA PER DIMENSIONE ===
+        with st.expander("📈 Analisi Statistica per Dimensione (I Grado vs II Grado)", expanded=False):
+            grado_groups = df_bar.groupby('ordine_grado')
+            grado_names = list(grado_groups.groups.keys())
+            
+            if len(grado_names) >= 2:
+                results_dim = []
+                for dim_col in dim_cols:
+                    g1_name, g2_name = grado_names[0], grado_names[1]
+                    g1 = grado_groups.get_group(g1_name)[dim_col].dropna()
+                    g2 = grado_groups.get_group(g2_name)[dim_col].dropna()
+                    
+                    if len(g1) >= 3 and len(g2) >= 3:
+                        t_stat, p_value = stats.ttest_ind(g1, g2)
+                        d = cohens_d(g1, g2)
+                        d_interp, d_emoji = interpret_cohens_d(d)
+                        p_interp, p_emoji = interpret_pvalue(p_value)
+                        
+                        results_dim.append({
+                            'Dimensione': get_label(dim_col),
+                            f'Media {g1_name}': f"{g1.mean():.2f}",
+                            f'Media {g2_name}': f"{g2.mean():.2f}",
+                            'Diff.': f"{g1.mean() - g2.mean():.2f}",
+                            'p-value': f"{p_value:.4f}",
+                            'Sig.': f"{p_emoji} {p_interp}",
+                            "Cohen's d": f"{d:.2f}" if not pd.isna(d) else "N/D",
+                            'Effetto': f"{d_emoji} {d_interp}"
+                        })
+                
+                if results_dim:
+                    st.dataframe(pd.DataFrame(results_dim), use_container_width=True, hide_index=True)
+                    
+                    # Evidenzia le differenze significative
+                    sig_dims = [r for r in results_dim if '🟢' in r['Sig.'] or '🟡' in r['Sig.']]
+                    if sig_dims:
+                        st.markdown("**🔍 Differenze significative trovate in:**")
+                        for r in sig_dims:
+                            effect = r['Effetto'].split()[1] if len(r['Effetto'].split()) > 1 else r['Effetto']
+                            st.markdown(f"- **{r['Dimensione']}**: differenza di {r['Diff.']} punti (effetto {effect.lower()})")
         
         st.info("""
 💡 **A cosa serve**: Confronta direttamente le scuole di I grado (medie) con quelle di II grado (superiori) su ogni dimensione.
@@ -320,6 +663,49 @@ if all(c in df.columns for c in gap_cols):
         - **Verde/Blu:** Il punteggio attuale raggiunto.
         - **Rosso/Grigio:** Il gap (distanza) mancante per arrivare a 7.
         """)
+    
+    # === ANALISI STATISTICA GAP ===
+    with st.expander("📈 Analisi Statistica: Quanto siamo lontani dall'eccellenza?", expanded=False):
+        st.markdown("""
+        Verifica se i punteggi medi sono significativamente diversi dal valore teorico ottimo (7).
+        Utilizziamo un **t-test one-sample** per ogni dimensione.
+        """)
+        
+        results_gap = []
+        for gap_col in gap_cols:
+            values = df[gap_col].dropna()
+            if len(values) >= 3:
+                t_stat, p_value = stats.ttest_1samp(values, 7)  # Test vs valore teorico 7
+                mean_val = values.mean()
+                std_val = values.std()
+                gap = 7 - mean_val
+                
+                # Effect size (Cohen's d one-sample)
+                d_one = (mean_val - 7) / std_val if std_val > 0 else np.nan
+                d_interp, d_emoji = interpret_cohens_d(d_one)
+                p_interp, p_emoji = interpret_pvalue(p_value)
+                
+                results_gap.append({
+                    'Dimensione': get_label(gap_col),
+                    'Media': f"{mean_val:.2f}",
+                    'Gap da 7': f"{gap:.2f}",
+                    'DS': f"{std_val:.2f}",
+                    't': f"{t_stat:.2f}",
+                    'p-value': f"{p_value:.4f}",
+                    'Sig.': f"{p_emoji} {p_interp}",
+                    'Distanza (d)': f"{abs(d_one):.2f}" if not pd.isna(d_one) else "N/D",
+                    'Entità Gap': f"{d_emoji} {d_interp}"
+                })
+        
+        if results_gap:
+            st.dataframe(pd.DataFrame(results_gap), use_container_width=True, hide_index=True)
+            
+            # Ranking delle priorità
+            st.markdown("### 🎯 Priorità di Intervento")
+            sorted_gaps = sorted(results_gap, key=lambda x: float(x['Gap da 7']), reverse=True)
+            for i, r in enumerate(sorted_gaps, 1):
+                emoji = "🔴" if float(r['Gap da 7']) > 2 else "🟠" if float(r['Gap da 7']) > 1 else "🟡"
+                st.markdown(f"{i}. {emoji} **{r['Dimensione']}**: gap di {r['Gap da 7']} punti ({r['Entità Gap'].split()[1] if len(r['Entità Gap'].split()) > 1 else 'N/D'})")
 
 st.info("""
 💡 **A cosa serve**: Visualizza quanto manca a ciascuna dimensione per raggiungere l'eccellenza (punteggio massimo 7).
@@ -365,6 +751,65 @@ if 'regione' in df.columns:
             )
             fig.update_traces(texttemplate='n=%{text}', textposition='outside')
             st.plotly_chart(fig, use_container_width=True)
+            
+            # === ANALISI STATISTICA REGIONALE ===
+            with st.expander("📈 Analisi Statistica Regionale (ANOVA + Confronti)", expanded=False):
+                # ANOVA globale
+                region_groups = df_region[df_region['regione'].notna()].groupby('regione')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+                valid_regions = {k: pd.Series(v).dropna() for k, v in region_groups.items() if len(pd.Series(v).dropna()) >= 3}
+                
+                if len(valid_regions) >= 3:
+                    f_stat, p_anova = stats.f_oneway(*[v for v in valid_regions.values()])
+                    p_interp, p_emoji = interpret_pvalue(p_anova)
+                    
+                    st.markdown(f"""
+                    ### ANOVA (Confronto Globale tra Regioni)
+                    - **F-statistic**: {f_stat:.2f}
+                    - **p-value**: {p_anova:.4f} {p_emoji} {p_interp}
+                    """)
+                    
+                    if p_anova < 0.05:
+                        st.success("✅ Esistono differenze significative tra le regioni!")
+                        
+                        # Top 3 e Bottom 3 regioni
+                        sorted_regions = sorted(valid_regions.items(), key=lambda x: x[1].mean(), reverse=True)
+                        top3 = sorted_regions[:3]
+                        bottom3 = sorted_regions[-3:]
+                        
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.markdown("#### 🏆 Top 3 Regioni")
+                            for reg, vals in top3:
+                                st.markdown(f"- **{reg}**: {vals.mean():.2f} (n={len(vals)})")
+                        
+                        with col2:
+                            st.markdown("#### ⚠️ Bottom 3 Regioni")
+                            for reg, vals in bottom3:
+                                st.markdown(f"- **{reg}**: {vals.mean():.2f} (n={len(vals)})")
+                        
+                        # Confronti Post-hoc (Top vs Bottom)
+                        st.markdown("---")
+                        st.markdown("#### Confronti Post-hoc (Migliore vs Peggiore)")
+                        
+                        if len(sorted_regions) >= 2:
+                            best_name, best_vals = sorted_regions[0]
+                            worst_name, worst_vals = sorted_regions[-1]
+                            
+                            t_stat, p_value = stats.ttest_ind(best_vals, worst_vals)
+                            d = cohens_d(best_vals, worst_vals)
+                            d_interp, d_emoji = interpret_cohens_d(d)
+                            p_interp, p_emoji = interpret_pvalue(p_value)
+                            
+                            st.markdown(f"""
+                            **{best_name}** vs **{worst_name}**:
+                            - Differenza medie: {best_vals.mean() - worst_vals.mean():.2f}
+                            - t = {t_stat:.2f}, p = {p_value:.4f} {p_emoji} {p_interp}
+                            - Cohen's d = {d:.2f} → Effetto {d_emoji} {d_interp}
+                            """)
+                    else:
+                        st.info("Le differenze tra regioni non sono statisticamente significative (p > 0.05)")
+                else:
+                    st.info("Servono almeno 3 regioni con dati sufficienti per l'ANOVA")
             
             st.info("""
 💡 **A cosa serve**: Ordina le regioni per punteggio medio, permettendo confronti territoriali immediati.

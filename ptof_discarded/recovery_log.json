@@ -6645,6 +6645,69 @@
         "reason": "Score 1.0 too low (<= 2.0)"
       },
       "timestamp": "2025-12-25T11:55:29.102127"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NOEE819024_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/NOEE819024_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NOEE819024_PTOF.pdf",
+        "file_name": "NOEE819024_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T14:38:16.083440",
+        "reason": "Score 1.0 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T14:38:16.083906"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PO1M3E5001_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/PO1M3E5001_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PO1M3E5001_PTOF.pdf",
+        "file_name": "PO1M3E5001_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T15:17:39.568773",
+        "reason": "Score 1.0 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T15:17:39.569321"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TO1AFN500B_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/LIste/ptof_discarded/not_ptof/TO1AFN500B_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TO1AFN500B_PTOF.pdf",
+        "file_name": "TO1AFN500B_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 1.0,
+        "phase": "score_check",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-25T15:17:39.583926",
+        "reason": "Score 1.56 too low (<= 2.0)"
+      },
+      "timestamp": "2025-12-25T15:17:39.584736"
     }
   ]
 }

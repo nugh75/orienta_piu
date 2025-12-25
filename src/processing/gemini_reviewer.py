@@ -58,12 +58,11 @@ logger = logging.getLogger(__name__)
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 ANALYSIS_DIR = BASE_DIR / "analysis_results"
 MD_DIR = BASE_DIR / "ptof_md"
-BACKUP_DIR = ANALYSIS_DIR / "pre_review_backup_gemini"
 STATUS_FILE = BASE_DIR / "data" / "review_status_gemini.json"
 API_CONFIG_FILE = BASE_DIR / "data" / "api_config.json"
 
 # Default settings
-DEFAULT_MODEL = "gemini-2.0-flash-exp" # Aggiornato su richiesta utente (era gemini-3-flash-preview ma corretto a 2.0 flash exp che è l'attuale preview)
+DEFAULT_MODEL = "gemini-3-flash-preview"  # Aggiornato Dic 2025 - latest, advanced reasoning
 DEFAULT_WAIT = 10  # Flash è molto veloce e ha limiti alti
 MAX_RETRIES = 3
 
@@ -109,8 +108,25 @@ def load_status() -> Dict:
             logger.error(f"Errore caricamento stato: {e}")
     return {"reviewed": [], "failed": []}
 
+# Costanti per rate limit Gemini
+RATE_LIMIT_MAX_RETRIES = 20  # Retry molto più alto per rate limit
+RATE_LIMIT_BASE_WAIT = 60    # Attesa base (finestra mobile 60s)
+RATE_LIMIT_MAX_WAIT = 600    # Max 10 minuti
+
 def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
-    """Chiama Google Gemini API"""
+    """Chiama Google Gemini API.
+    
+    IMPORTANTE: In caso di rate limit (429), NON passa al prossimo file
+    ma continua a riprovare con backoff esponenziale sullo stesso file.
+    
+    Gemini API limits (free tier):
+    - RPM (Requests Per Minute): finestra mobile 60s
+    - TPM (Tokens Per Minute): finestra mobile 60s
+    - RPD (Requests Per Day): reset a mezzanotte Pacific Time (PT)
+      → In Italia ~09:00 CET
+    
+    I limiti variano per modello (pro ha limiti più bassi nel free tier).
+    """
     # Sanitize model name for Google API (remove OpenRouter prefixes/suffixes)
     clean_model = model.replace("google/", "").replace(":free", "")
     
@@ -128,7 +144,10 @@ def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
         }
     }
     
-    for attempt in range(MAX_RETRIES):
+    rate_limit_retries = 0
+    other_retries = 0
+    
+    while other_retries < MAX_RETRIES:
         try:
             response = requests.post(url, headers=headers, json=data, timeout=120)
             
@@ -141,15 +160,52 @@ def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
                     return None
             
             elif response.status_code == 429:
-                wait_time = 60 * (attempt + 1)
-                logger.warning(f"⚠️ Rate limit (429). Attesa {wait_time}s...")
+                rate_limit_retries += 1
+                
+                # Controlla se è limite giornaliero (RPD)
+                try:
+                    err_text = response.text.lower()
+                    if "daily" in err_text or "quota" in err_text and "day" in err_text:
+                        logger.error("❌ LIMITE GIORNALIERO GEMINI RAGGIUNTO!")
+                        logger.error("   Reset: mezzanotte Pacific Time (PT)")
+                        logger.error("   → In Italia circa alle 09:00 CET")
+                        logger.error("   Suggerimento: attendi il reset o usa un altro progetto")
+                        return None  # Non ha senso riprovare per ore
+                except:
+                    pass
+                
+                if rate_limit_retries > RATE_LIMIT_MAX_RETRIES:
+                    logger.error(f"❌ Troppi rate limit consecutivi ({rate_limit_retries}). Possibile limite giornaliero.")
+                    return None
+                
+                # Leggi Retry-After se presente
+                retry_after = response.headers.get('Retry-After')
+                if retry_after:
+                    try:
+                        wait_time = int(retry_after)
+                        logger.info(f"⏱️ Retry-After header: {wait_time}s")
+                    except ValueError:
+                        wait_time = RATE_LIMIT_BASE_WAIT
+                else:
+                    # Backoff esponenziale: 60, 120, 240... max 600s
+                    wait_time = min(RATE_LIMIT_BASE_WAIT * (2 ** (rate_limit_retries - 1)), RATE_LIMIT_MAX_WAIT)
+                
+                # Aggiungi jitter
+                jitter = random.randint(-5, 5)
+                wait_time = max(30, wait_time + jitter)
+                
+                logger.warning(f"⚠️ Rate limit (429). Retry {rate_limit_retries}/{RATE_LIMIT_MAX_RETRIES}. Attesa {wait_time}s...")
+                logger.info("   💡 RIMANGO sullo stesso PTOF (non passo al prossimo)")
                 time.sleep(wait_time)
+                continue  # Riprova STESSO file
             
             else:
+                other_retries += 1
                 logger.error(f"❌ Errore API {response.status_code}: {response.text}")
                 time.sleep(10)
                 
         except Exception as e:
+            other_retries += 1
             logger.error(f"❌ Eccezione chiamata API: {e}")
             time.sleep(10)
             
@@ -221,9 +277,6 @@ def main():
 
     logger.info(f"🚀 Avvio Gemini Enrichment con modello: {args.model}")
     logger.info(f"💡 Premi Ctrl+C per uscita controllata")
-    
-    # Setup directory
-    BACKUP_DIR.mkdir(exist_ok=True)
     
     # Load status
     status = load_status()

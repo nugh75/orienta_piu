@@ -2,7 +2,7 @@
 """
 Slow Reviewer - Revisione PTOF con modelli OpenRouter Free
 Strategia:
-- Usa modelli potenti ma gratuiti (es. gemini-2.0-flash-exp:free)
+- Usa modelli potenti ma gratuiti (es. gemini-3-flash-preview:free)
 - Attesa lunga tra le chiamate per evitare rate limit
 - Backoff esponenziale in caso di errore
 - Persistenza dello stato per riprendere l'esecuzione
@@ -41,12 +41,11 @@ logger = logging.getLogger(__name__)
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 ANALYSIS_DIR = BASE_DIR / "analysis_results"
 MD_DIR = BASE_DIR / "ptof_md"
-BACKUP_DIR = ANALYSIS_DIR / "pre_review_backup"
 STATUS_FILE = BASE_DIR / "data" / "review_status.json"
 API_CONFIG_FILE = BASE_DIR / "data" / "api_config.json"
 
 # Default settings
-DEFAULT_MODEL = "google/gemini-2.0-flash-exp:free"
+DEFAULT_MODEL = "google/gemini-3-flash-preview:free"  # Aggiornato Dic 2025
 DEFAULT_WAIT = 120  # secondi
 MAX_RETRIES = 3
 
@@ -92,8 +91,22 @@ def load_status() -> Dict:
             logger.error(f"Errore caricamento stato: {e}")
     return {"reviewed": [], "failed": []}
 
+# Costanti per rate limit
+RATE_LIMIT_MAX_RETRIES = 20  # Retry molto più alto per rate limit
+RATE_LIMIT_BASE_WAIT = 60    # Attesa base per rate limit al minuto
+RATE_LIMIT_MAX_WAIT = 900    # Max 15 minuti di attesa
+
 def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
-    """Chiama OpenRouter con gestione errori e backoff"""
+    """Chiama OpenRouter con gestione errori e backoff.
+    
+    IMPORTANTE: In caso di rate limit (429), NON passa al prossimo file
+    ma continua a riprovare con backoff esponenziale sullo stesso file.
+    
+    OpenRouter limits (free tier):
+    - ~20 richieste/minuto (finestra mobile 60s)
+    - ~50-200 richieste/giorno
+    - Reset giornaliero: ogni 24h (tipicamente UTC)
+    """
     headers = {
         "Authorization": f"Bearer {api_key}",
         "HTTP-Referer": "https://github.com/nugh75/LIste",
@@ -107,7 +120,10 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
         "temperature": 0.1
     }
     
-    for attempt in range(MAX_RETRIES):
+    rate_limit_retries = 0
+    other_retries = 0
+    
+    while other_retries < MAX_RETRIES:
         try:
             response = requests.post(
                 "https://openrouter.ai/api/v1/chat/completions",
@@ -120,11 +136,48 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
                 return response.json()['choices'][0]['message']['content']
             
             elif response.status_code == 429:
-                wait_time = 300 * (attempt + 1)  # 5, 10, 15 minuti
-                logger.warning(f"⚠️ Rate limit (429). Attesa {wait_time}s...")
+                rate_limit_retries += 1
+                
+                # Controlla se è limite giornaliero
+                try:
+                    err_json = response.json()
+                    err_msg = err_json.get("error", {}).get("message", "").lower()
+                    if "daily" in err_msg or "day" in err_msg:
+                        logger.error("❌ LIMITE GIORNALIERO RAGGIUNTO!")
+                        logger.error("   OpenRouter: limite giornaliero esaurito.")
+                        logger.error("   Reset: prossime 24h (controlla dashboard OpenRouter)")
+                        logger.error("   Suggerimento: acquista crediti per aumentare il limite")
+                        return None  # Non ha senso riprovare per ore
+                except:
+                    pass
+                
+                if rate_limit_retries > RATE_LIMIT_MAX_RETRIES:
+                    logger.error(f"❌ Troppi rate limit consecutivi ({rate_limit_retries}). Possibile limite giornaliero.")
+                    return None
+                
+                # Leggi Retry-After se presente
+                retry_after = response.headers.get('Retry-After')
+                if retry_after:
+                    try:
+                        wait_time = int(retry_after)
+                        logger.info(f"⏱️ Retry-After header: {wait_time}s")
+                    except ValueError:
+                        wait_time = RATE_LIMIT_BASE_WAIT
+                else:
+                    # Backoff esponenziale: 60, 120, 240, 480... max 900s
+                    wait_time = min(RATE_LIMIT_BASE_WAIT * (2 ** (rate_limit_retries - 1)), RATE_LIMIT_MAX_WAIT)
+                
+                # Aggiungi jitter per evitare thundering herd
+                jitter = random.randint(-10, 10)
+                wait_time = max(30, wait_time + jitter)
+                
+                logger.warning(f"⚠️ Rate limit (429). Retry {rate_limit_retries}/{RATE_LIMIT_MAX_RETRIES}. Attesa {wait_time}s...")
+                logger.info("   💡 RIMANGO sullo stesso PTOF (non passo al prossimo)")
                 time.sleep(wait_time)
+                continue  # Riprova STESSO file
             
             else:
+                other_retries += 1
                 # Gestione errore Privacy/Data Policy
                 try:
                     err_json = response.json()
@@ -143,6 +196,7 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
                 time.sleep(10)
                 
         except Exception as e:
+            other_retries += 1
             logger.error(f"❌ Eccezione chiamata API: {e}")
             time.sleep(10)
             
@@ -217,9 +271,6 @@ def main():
 
     logger.info(f"🚀 Avvio Slow Enrichment con modello: {args.model}")
     logger.info(f"⏱️ Attesa base: {args.wait}s")
-    
-    # Setup directory
-    BACKUP_DIR.mkdir(exist_ok=True)
     
     # Load status
     status = load_status()

@@ -23,8 +23,8 @@ from typing import Dict, List, Optional
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_LISTER = BASE_DIR / "src" / "utils" / "list_models.py"
 
-DEFAULT_OPENROUTER_MODEL = "google/gemini-2.0-flash-exp:free"
-DEFAULT_GEMINI_MODEL = "gemini-2.0-flash-exp"
+DEFAULT_OPENROUTER_MODEL = "google/gemini-3-flash-preview:free"
+DEFAULT_GEMINI_MODEL = "gemini-3-flash-preview"
 DEFAULT_OLLAMA_MODEL = "qwen3:32b"
 
 # Processi attivi

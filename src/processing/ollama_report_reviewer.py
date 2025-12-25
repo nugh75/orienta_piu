@@ -61,7 +61,6 @@ except ImportError:
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 ANALYSIS_DIR = BASE_DIR / "analysis_results"
 MD_DIR = BASE_DIR / "ptof_md"
-BACKUP_DIR = ANALYSIS_DIR / "pre_ollama_report_backup"
 LOG_DIR = BASE_DIR / "logs"
 
 # Crea directory logs se non esiste
@@ -478,9 +477,6 @@ def main():
         logger.error(f"❌ Impossibile connettersi a Ollama: {e}")
         return
     
-    # Setup directory
-    BACKUP_DIR.mkdir(exist_ok=True)
-    
     # Load registry (usato al posto dello status file locale)
     registry = load_registry()
     
@@ -532,10 +528,6 @@ def main():
         logger.info(f"\n✨ {action} {school_code} ({count+1}/{min(len(candidates), args.limit)})")
         
         try:
-            # Backup report se esiste
-            if report_exists:
-                shutil.copy2(report_path, BACKUP_DIR / report_path.name)
-            
             # Leggi JSON
             with open(json_path, 'r') as f:
                 json_data = json.load(f)

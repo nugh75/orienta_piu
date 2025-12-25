@@ -67,6 +67,42 @@ Esegue in sequenza: analisi dei PDF (`run`), rigenerazione del CSV (`csv`) e avv
 ```bash
 make full
 ```
+
+## Manutenzione Report
+
+Durante le revisioni AI, può capitare che alcuni report MD vengano troncati (es. per timeout API o rate limit). I backup vengono creati automaticamente come file `.bak` nella stessa cartella.
+
+### Controllo File Troncati
+Scansiona tutti i file `*_analysis.md` e identifica quelli potenzialmente troncati (file vuoti, terminanti a metà frase, code block non chiusi).
+```bash
+make check-truncated
+```
+
+### Trova e Ripristina File Troncati
+Comando unico che:
+1. Trova tutti i file MD troncati
+2. Ripristina SOLO quelli troncati usando i file `.bak` di backup
+3. Non tocca i file integri
+
+```bash
+make fix-truncated
+```
+
+### Lista Backup Disponibili
+Mostra quanti file `.bak` sono disponibili nella cartella analysis_results.
+```bash
+make list-backups
+```
+
+### Workflow di Recovery Tipico
+```bash
+# Trova troncati e ripristina in un solo comando
+make fix-truncated
+
+# Rigenera il CSV con i dati corretti
+make csv
+```
+
 ## Esempio di Workflow Tipico
 
 1.  **Setup iniziale** (solo la prima volta):

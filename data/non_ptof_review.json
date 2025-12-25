@@ -484,5 +484,47 @@
       "/Users/danieledragoni/git/LIste/ptof_md/CHTD07500E_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "NOEE819024",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NOEE819024_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.0 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T14:38:16.083486",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/NOEE819024_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/NOEE819024_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/NOEE819024_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "PO1M3E5001",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/PO1M3E5001_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.0 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T15:17:39.568819",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/PO1M3E5001_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/PO1M3E5001_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/PO1M3E5001_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "TO1AFN500B",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TO1AFN500B_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.56 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T15:17:39.584125",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/TO1AFN500B_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/TO1AFN500B_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/TO1AFN500B_ptof.md"
+    ],
+    "action": "removed"
   }
 ]

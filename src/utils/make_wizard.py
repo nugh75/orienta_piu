@@ -13,8 +13,8 @@ from typing import Dict, List, Optional, Tuple
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 MODEL_LISTER = BASE_DIR / "src" / "utils" / "list_models.py"
 
-DEFAULT_OPENROUTER_MODEL = "google/gemini-2.0-flash-exp:free"
-DEFAULT_GEMINI_MODEL = "gemini-2.0-flash-exp"
+DEFAULT_OPENROUTER_MODEL = "google/gemini-3-flash-preview:free"
+DEFAULT_GEMINI_MODEL = "gemini-3-flash-preview"
 DEFAULT_OLLAMA_MODEL = "qwen3:32b"
 DEFAULT_OLLAMA_URL = "http://192.168.129.14:11434"
 DEFAULT_OLLAMA_CHUNK_SIZE = 30000
@@ -425,8 +425,21 @@ def menu_registry() -> None:
         run_make(choice)
 
 
+def menu_manutenzione() -> None:
+    options = [
+        ("Controlla file troncati", "check-truncated"),
+        ("Trova e ripristina troncati", "fix-truncated"),
+        ("Lista backup disponibili", "list-backups"),
+    ]
+    choice = prompt_choice("🔧 Manutenzione Report", options)
+    if not choice:
+        return
+    run_make(choice)
+
+
 def menu_models() -> None:
     options = [
+        ("Mostra TUTTI i modelli", "all"),
         ("Preset locali (config)", "config"),
         ("OpenRouter", "openrouter"),
         ("Gemini", "gemini"),
@@ -435,6 +448,9 @@ def menu_models() -> None:
     if not choice:
         return
 
+    if choice == "all":
+        subprocess.run(["make", "models"], cwd=BASE_DIR, check=False)
+        return
     if choice == "config":
         show_models(["--config"])
         return
@@ -463,6 +479,7 @@ def main() -> None:
                 ("Review", "review"),
                 ("Outreach PTOF", "outreach"),
                 ("Registro analisi", "registry"),
+                ("Manutenzione report", "manutenzione"),
                 ("Lista modelli AI", "models"),
             ]
             choice = prompt_choice("Seleziona area", options, allow_back=False)
@@ -476,6 +493,8 @@ def main() -> None:
                 menu_outreach()
             elif choice == "registry":
                 menu_registry()
+            elif choice == "manutenzione":
+                menu_manutenzione()
             elif choice == "models":
                 menu_models()
     except KeyboardInterrupt:

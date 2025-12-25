@@ -62,20 +62,21 @@ help:
 	@echo "♻️ RECOVERY PTOF:"
 	@echo "  make recover-not-ptof - Recupera solo i PDF con suffisso _ok in ptof_discarded/not_ptof"
 	@echo ""
-	@echo "🔗 COMBINAZIONI:"
+	@echo "� MANUTENZIONE REPORT:"
+	@echo "  make check-truncated  - Trova report MD troncati"
+	@echo "  make fix-truncated    - Trova troncati e ripristina SOLO quelli dai backup"
+	@echo "  make list-backups     - Elenca tutti i file di backup disponibili"
+	@echo ""
+	@echo "�🔗 COMBINAZIONI:"
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
 	@echo ""
-	@echo "🤖 MODELLI AI (PRESET):"
-	@echo "  make list-models             - Lista modelli dai preset (config/pipeline_config.json)"
-	@$(PYTHON) $(MODEL_LISTER) --config --prefix "   - "
-	@echo "🤖 MODELLI AI (OPENROUTER):"
+	@echo "🤖 MODELLI AI:"
+	@echo "  make models                  - Mostra tutti i modelli disponibili"
+	@echo "  make list-models             - Lista modelli dai preset"
 	@echo "  make list-models-openrouter  - Lista modelli OpenRouter (FREE_ONLY=1 per limitare)"
-	@$(PYTHON) $(MODEL_LISTER) --openrouter --prefix "   - "
-	@echo "🤖 MODELLI AI (GEMINI API):"
 	@echo "  make list-models-gemini      - Lista modelli Gemini (richiede GEMINI_API_KEY)"
-	@$(PYTHON) $(MODEL_LISTER) --gemini --prefix "   - "
 	@echo ""
 	@echo "⏰ AUTOMAZIONE:"
 	@echo "  make csv-watch             - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
@@ -349,3 +350,54 @@ list-models-openrouter:
 
 list-models-gemini:
 	@$(PYTHON) $(MODEL_LISTER) --gemini
+
+# Mostra TUTTI i modelli disponibili in un unico comando
+models:
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "🤖 MODELLI AI DISPONIBILI"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	@echo "📝 PRESET (config/pipeline_config.json):"
+	@$(PYTHON) $(MODEL_LISTER) --config --prefix "   "
+	@echo ""
+	@echo "🌐 OPENROUTER (modelli free):"
+	@$(PYTHON) $(MODEL_LISTER) --openrouter --free-only --prefix "   "
+	@echo ""
+	@echo "✨ GEMINI (Google AI - da API):"
+	@$(PYTHON) $(MODEL_LISTER) --gemini --prefix "   "
+	@echo ""
+	@echo "🚀 GEMINI GENERAZIONE 3 (Dicembre 2025):"
+	@echo "   gemini-3-flash-preview     ← Latest, advanced reasoning, low latency"
+	@echo "   gemini-3-pro-preview       ← Top tier, complex tasks"
+	@echo ""
+	@echo "⭐ GEMINI 2.5 (Stabili):"
+	@echo "   gemini-2.5-flash           ← Bilanciato velocità/qualità (DEFAULT)"
+	@echo "   gemini-2.5-pro             ← 2M token context, production"
+	@echo "   gemini-2.5-flash-lite-preview ← Ultra-light, high throughput"
+	@echo ""
+	@echo "🦙 OLLAMA (locale - modelli consigliati):"
+	@echo "   qwen3:32b"
+	@echo "   qwen3:14b"
+	@echo "   llama3.3:70b"
+	@echo "   deepseek-r1:32b"
+	@echo "   gemma2:27b"
+	@echo ""
+
+# ═══════════════════════════════════════════════════════════════════
+# MANUTENZIONE REPORT
+# ═══════════════════════════════════════════════════════════════════
+
+# Trova report MD troncati
+check-truncated:
+	@$(PYTHON) check_truncated.py
+
+# Trova e ripristina SOLO i report troncati dai backup (.bak)
+fix-truncated:
+	@$(PYTHON) restore_from_backup.py
+
+# Elenca tutti i file di backup disponibili
+list-backups:
+	@echo "📦 File .bak in analysis_results/:"
+	@ls -la analysis_results/*.bak 2>/dev/null | wc -l | xargs -I {} echo "   Totale: {} file"
+	@ls analysis_results/*.bak 2>/dev/null | head -20 || echo "   (nessun backup trovato)"
