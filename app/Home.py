@@ -92,6 +92,40 @@ for col in numeric_cols:
 st.title("📊 Dashboard Analisi Orientamento PTOF")
 st.markdown("Sistema di analisi automatizzata dei Piani Triennali dell'Offerta Formativa")
 
+with st.expander("📖 Guida alla Dashboard", expanded=False):
+    st.markdown("""
+    ### 🎯 Cos'è questa Dashboard?
+    Questa dashboard analizza automaticamente i **PTOF** (Piani Triennali dell'Offerta Formativa) delle scuole italiane, 
+    valutando la qualità e robustezza delle politiche di **orientamento scolastico**.
+    
+    ### 📊 L'Indice RO (Robustezza dell'Orientamento)
+    È il punteggio principale che riassume la qualità dell'orientamento in una scuola:
+    - **Scala 1-7**: Da insufficiente a eccellente
+    - **1-2**: Orientamento carente o assente
+    - **3-4**: Orientamento sufficiente ma migliorabile
+    - **5-6**: Buona strutturazione dell'orientamento
+    - **7**: Eccellenza, orientamento completo e ben documentato
+    
+    ### 📐 Le 5 Dimensioni Valutate
+    1. **Finalità**: Chiarezza degli scopi dell'orientamento nel PTOF
+    2. **Obiettivi**: Concretezza e misurabilità dei target prefissati
+    3. **Governance**: Organizzazione, ruoli e responsabilità definite
+    4. **Didattica Orientativa**: Integrazione dell'orientamento nella didattica quotidiana
+    5. **Opportunità**: Collegamenti con territorio, università, mondo del lavoro
+    
+    ### 📑 Le Pagine della Dashboard
+    - **🗺️ Mappa Italia**: Analisi geografica con confronti regionali
+    - **🏆 Benchmark**: Classifiche e confronti tra scuole
+    - **📊 KPI Avanzati**: Statistiche dettagliate con test di significatività
+    - **🔬 Analisi Avanzate**: Correlazioni, clustering e text mining
+    - **🧪 Sperimentali**: Radar chart e visualizzazioni innovative
+    - **🏫 Dettaglio Scuola**: Approfondimento su singole scuole
+    - **📋 Dati Grezzi**: Esplorazione del dataset completo
+    
+    ### ❓ Come Leggere i Grafici
+    Ogni sezione ha un pulsante **"📖 Come leggere..."** che spiega come interpretare le visualizzazioni.
+    """)
+
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
     st.stop()

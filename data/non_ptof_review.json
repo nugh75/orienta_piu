@@ -456,5 +456,33 @@
       "/Users/danieledragoni/git/LIste/ptof_md/PZIC85900P_ptof.md"
     ],
     "action": "removed"
+  },
+  {
+    "school_code": "NA1E18200P",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/NA1E18200P_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.0 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T11:55:29.078527",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/NA1E18200P_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/NA1E18200P_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/NA1E18200P_ptof.md"
+    ],
+    "action": "removed"
+  },
+  {
+    "school_code": "CHTD07500E",
+    "pdf_path": "/Users/danieledragoni/git/LIste/ptof_inbox/CHTD07500E_PTOF.pdf",
+    "result": "not_ptof",
+    "reason": "Score 1.0 too low (<= 2.0)",
+    "confidence": 1.0,
+    "timestamp": "2025-12-25T11:55:29.101524",
+    "removed_paths": [
+      "/Users/danieledragoni/git/LIste/analysis_results/CHTD07500E_PTOF_analysis.json",
+      "/Users/danieledragoni/git/LIste/analysis_results/CHTD07500E_PTOF_analysis.md",
+      "/Users/danieledragoni/git/LIste/ptof_md/CHTD07500E_ptof.md"
+    ],
+    "action": "removed"
   }
 ]

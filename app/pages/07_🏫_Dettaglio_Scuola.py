@@ -69,6 +69,41 @@ df = load_data()
 
 st.title("🏫 Dettaglio Scuola")
 
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina fornisce un'**analisi approfondita** di una singola scuola, mostrando tutti i dettagli dell'analisi del PTOF.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **📋 Informazioni Generali**
+    - Dati anagrafici della scuola (codice, tipo, comune, regione)
+    - **Indice RO**: Punteggio complessivo di Robustezza dell'Orientamento (scala 1-7)
+      - 1-2: Insufficiente | 3-4: Sufficiente | 5-6: Buono | 7: Eccellente
+    
+    **🕸️ Profilo Radar**
+    - Mostra il **profilo multidimensionale** della scuola
+    - Ogni vertice rappresenta una delle 5 dimensioni valutate:
+      - **Finalità**: Chiarezza degli obiettivi di orientamento
+      - **Obiettivi**: Specificità e misurabilità dei traguardi
+      - **Governance**: Organizzazione e responsabilità
+      - **Didattica**: Metodologie orientative applicate
+      - **Opportunità**: Connessioni con territorio e mondo del lavoro
+    - Più il profilo è ampio e regolare, migliore è la qualità
+    
+    **📈 Punteggi Dettagliati**
+    - Barre orizzontali che mostrano il punteggio per ogni dimensione
+    - Permettono un confronto immediato tra le aree
+    
+    **📖 Report Completo**
+    - Testo descrittivo generato dall'analisi AI del PTOF
+    - Contiene osservazioni qualitative e raccomandazioni
+    
+    **🏆 Posizione in Classifica**
+    - **Percentile**: Indica la posizione relativa (es: 80° = supera l'80% delle scuole)
+    - Confronto con la media nazionale e del proprio tipo
+    """)
+
 if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
@@ -185,6 +220,14 @@ if selected_school:
             if website and website != 'ND' and isinstance(website, str):
                 st.write(f"🌐 **Sito Web:** [{website}]({website if website.startswith('http') else 'https://' + website})")
     
+    st.info("""
+💡 **A cosa serve**: Fornisce una panoramica della scuola con i dati identificativi e il punteggio complessivo.
+
+🔍 **Cosa rileva**: L'**Indice RO** (Robustezza Orientamento) è il punteggio principale (scala 1-7). Valori 1-2 = insufficiente, 3-4 = sufficiente, 5-6 = buono, 7 = eccellente.
+
+🎯 **Implicazioni**: Un punteggio alto indica un PTOF con orientamento ben strutturato. I contatti permettono di approfondire direttamente con la scuola.
+""")
+    
     st.markdown("---")
 
     # MD Report Viewer (Moved here)
@@ -215,6 +258,14 @@ if selected_school:
                                        line_color='#ff7f0e', marker=dict(color='#ff7f0e')))
         fig.update_layout(polar=dict(radialaxis=dict(range=[0, 7])), showlegend=True)
         st.plotly_chart(fig, use_container_width=True)
+        
+        st.info("""
+💡 **A cosa serve**: Mostra il "profilo" della scuola sulle 5 dimensioni dell'orientamento, confrontato con la media nazionale.
+
+🔍 **Cosa rileva**: L'area blu è la scuola, quella arancione è la media del campione. Dove il blu "esce" dall'arancione, la scuola eccelle. Dove è "dentro", c'è margine di miglioramento.
+
+🎯 **Implicazioni**: Identifica rapidamente punti di forza (da valorizzare nella comunicazione) e aree critiche (dove investire in formazione o risorse).
+""")
     
     st.markdown("---")
     
@@ -232,6 +283,14 @@ if selected_school:
                         range_x=[0, 7], range_color=[1, 7])
             fig.update_layout(height=600)
             st.plotly_chart(fig, use_container_width=True)
+            
+            st.info("""
+💡 **A cosa serve**: Mostra il punteggio di ogni singolo indicatore valutato nel PTOF.
+
+🔍 **Cosa rileva**: Ogni barra è un indicatore specifico. Verde = punteggio alto (buono), Rosso = punteggio basso (critico). Le barre più corte indicano le aree prioritarie.
+
+🎯 **Implicazioni**: Usa questa vista per identificare esattamente QUALI aspetti migliorare nel PTOF. Gli indicatori in rosso sono le priorità di intervento concrete.
+""")
     
     st.markdown("---")
     
@@ -302,6 +361,14 @@ if selected_school:
             st.metric("Su totale", f"{total} scuole")
         with col3:
             st.metric("Percentile", f"{percentile:.0f}°")
+        
+        st.info("""
+💡 **A cosa serve**: Indica la posizione della scuola nella classifica nazionale e il confronto con le altre.
+
+🔍 **Cosa rileva**: Il percentile indica quante scuole questa supera. Es: 75° percentile = supera il 75% degli istituti analizzati. Più è alto, meglio è.
+
+🎯 **Implicazioni**: Un dato utile per la comunicazione esterna ("Siamo nel top 20%"). Permette anche di fissare obiettivi concreti ("Vogliamo passare dal 60° al 75° percentile").
+""")
     
     st.markdown("---")
     

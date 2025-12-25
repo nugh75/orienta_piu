@@ -55,6 +55,40 @@ df = load_data()
 
 st.title("🔬 Analisi Statistiche Avanzate")
 
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina offre **analisi statistiche sofisticate** per scoprire pattern nascosti nei dati, includendo correlazioni, clustering e text mining.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **🔥 Matrice di Correlazione**
+    - Mostra quanto le 5 dimensioni si "muovono insieme"
+    - Valori da -1 a +1:
+      - **+1 (rosso)**: Correlazione positiva perfetta
+      - **0 (bianco)**: Nessuna relazione
+      - **-1 (blu)**: Correlazione negativa perfetta
+    - Es: Se Governance correla 0.8 con Didattica, scuole forti in governance tendono a essere forti anche in didattica
+    
+    **🧩 Clustering K-Means**
+    - Raggruppa le scuole in cluster simili automaticamente
+    - Ogni cluster rappresenta un "profilo tipo" di scuola
+    - La visualizzazione PCA riduce le dimensioni per mostrare i gruppi
+    
+    **☁️ Word Cloud**
+    - Visualizza le parole più frequenti nei report
+    - Dimensione maggiore = parola più ricorrente
+    
+    **📦 Distribuzioni**
+    - Istogrammi che mostrano come si distribuiscono i punteggi
+    - Utile per capire se ci sono gruppi distinti o una distribuzione normale
+    
+    ### 🔢 Interpretazione Test Statistici
+    - **p-value < 0.05**: Risultato statisticamente significativo
+    - **Correlazione r > 0.7**: Forte relazione tra variabili
+    - **Silhouette Score**: Qualità del clustering (più alto = cluster più definiti)
+    """)
+
 if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
@@ -97,6 +131,14 @@ with st.expander("📘 Guida alla lettura: Matrice di Correlazione"):
     - 🟦 **Blu (-1):** Correlazione negativa. Se X sale, Y scende.
     - ⬜ **Bianco (0):** Nessuna relazione apparente.
     """)
+
+st.info("""
+💡 **A cosa serve**: Mostra quali dimensioni dell'orientamento "vanno insieme" - se una scuola è forte in una, tende a esserlo anche nell'altra?
+
+🔍 **Cosa rileva**: Valori vicini a +1 (rosso) indicano correlazione positiva forte: le dimensioni si muovono insieme. Valori vicini a 0 (bianco) indicano indipendenza.
+
+🎯 **Implicazioni**: Se due dimensioni correlano fortemente, intervenire su una potrebbe migliorare anche l'altra. Es: se Governance e Didattica correlano 0.8, migliorare l'organizzazione potrebbe riflettersi sulla didattica orientativa.
+""")
 
 # 1.1 Correlation Heatmap (Sub-dimensions)
 st.markdown("---")
@@ -172,6 +214,14 @@ if len(target_cols) >= 2 and len(df) >= 5:
 else:
     st.info("Dati insufficienti per le correlazioni di dettaglio stabilite.")
 
+st.info("""
+💡 **A cosa serve**: Esplora le correlazioni tra i singoli indicatori all'interno di ciascuna dimensione.
+
+🔍 **Cosa rileva**: Ogni cella mostra quanto due sotto-indicatori sono correlati. Puoi filtrare per dimensione specifica e per soglia minima di correlazione. Utile per capire quali indicatori "vanno insieme".
+
+🎯 **Implicazioni**: Correlazioni forti tra sotto-dimensioni suggeriscono che migliorare un aspetto specifico potrebbe influenzare altri. Aiuta a identificare interventi mirati.
+""")
+
 st.markdown("---")
 
 # 2. Clustering (Refined)
@@ -225,6 +275,14 @@ if HAS_SKLEARN:
                 - Il grafico a dispersione (**PCA**) mostra le scuole nello spazio: più sono vicine, più i loro PTOF sono simili.
                 - La **Heatmap a destra** ti dice *perché* sono simili: mostra i punteggi medi di ogni gruppo.
                 """)
+            
+            st.info("""
+💡 **A cosa serve**: Raggruppa automaticamente le scuole in "famiglie" con caratteristiche simili, senza pregiudizi.
+
+🔍 **Cosa rileva**: Nel grafico, scuole vicine hanno PTOF simili. I colori indicano i cluster (gruppi). La heatmap mostra il "profilo tipo" di ogni gruppo.
+
+🎯 **Implicazioni**: Identifica "tipi" di scuole non basati su etichette tradizionali (Liceo/Tecnico) ma sui contenuti reali. Utile per creare programmi di supporto mirati per ogni "famiglia".
+""")
         else:
             st.info("Servono almeno 6 scuole con dati completi")
     else:
@@ -413,6 +471,14 @@ if HAS_SCIPY:
                 - ✅ (p < 0.05): La differenza è statisticamente significativa (reale, non dovuta al caso).
                 - ⚪ (p >= 0.05): Non ci sono prove sufficienti per dire che i gruppi siano diversi.
             """)
+        
+        st.info("""
+💡 **A cosa serve**: Verifica scientificamente se le differenze tra gruppi (es. Nord vs Sud, Licei vs Tecnici) sono reali o dovute al caso.
+
+🔍 **Cosa rileva**: Le righe con ✅ indicano differenze statisticamente significative: quel raggruppamento crea davvero differenze nei punteggi. I test post-hoc dicono QUALI gruppi specifici differiscono.
+
+🎯 **Implicazioni**: Se il tipo di scuola è significativo ma l'area geografica no, significa che il tipo di istituto influenza la qualità dell'orientamento più della posizione geografica. Utile per decidere dove intervenire.
+""")
     else:
         st.info("Dati insufficienti per ANOVA")
 else:
@@ -434,7 +500,7 @@ if 'tipo_scuola' in df.columns:
                    title="Violin Plot Maturity Index")
     fig.update_layout(showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
-    
+
     with st.expander("📘 Guida alla lettura: Violin Plot"):
         st.markdown("""
         **Che cos'è?**
@@ -443,6 +509,14 @@ if 'tipo_scuola' in df.columns:
         - **Forma Stretta/Lunga**: Poche scuole hanno quei punteggi.
         - **Punto Bianco**: La mediana del gruppo.
         """)
+
+st.info("""
+💡 **A cosa serve**: Visualizza la distribuzione completa dei punteggi per ogni tipologia scolastica.
+
+🔍 **Cosa rileva**: La forma del "violino" indica dove si concentrano le scuole. Forme larghe = alta densità. Il box interno mostra mediana e quartili. I punti sono le singole scuole.
+
+🎯 **Implicazioni**: Permette di vedere non solo la media ma la forma della distribuzione: se è simmetrica, se ci sono outlier, se esistono sottogruppi. Tipologie con forme diverse hanno caratteristiche diverse.
+""")
 
 st.markdown("---")
 
@@ -460,6 +534,14 @@ if 'ptof_orientamento_maturity_index' in df.columns:
         bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
         bottom5.columns = ['Scuola', 'Tipo', 'Indice']
         st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
+
+st.info("""
+💡 **A cosa serve**: Mostra rapidamente le 5 scuole migliori e le 5 peggiori del campione.
+
+🔍 **Cosa rileva**: Le Top 5 sono modelli di eccellenza da studiare. Le Bottom 5 potrebbero necessitare di supporto prioritario. La differenza tra i due gruppi indica l'ampiezza del gap.
+
+🎯 **Implicazioni**: Le scuole eccellenti possono essere contattate per scambi di buone pratiche. Quelle in difficoltà potrebbero beneficiare di interventi mirati.
+""")
 
 st.markdown("---")
 
@@ -602,6 +684,14 @@ try:
 except Exception as e:
     st.error(f"Errore JSON Analysis: {e}")
 
+st.info("""
+💡 **A cosa serve**: Analizza quali attività e partner sono più frequenti nei PTOF analizzati.
+
+🔍 **Cosa rileva**: I grafici a barre mostrano le categorie di attività e i partner più citati. Le Word Cloud visualizzano le parole più frequenti nei titoli delle attività e nei nomi dei partner.
+
+🎯 **Implicazioni**: Identifica pattern comuni nelle collaborazioni e nelle attività. Partner ricorrenti potrebbero essere best practice da replicare. Categorie poco presenti potrebbero indicare aree da sviluppare.
+""")
+
 st.markdown("---")
 
 # 7. Word Cloud (Markdown - Top/Bottom)
@@ -699,7 +789,16 @@ if HAS_WORDCLOUD:
                             ax.axis('off')
                             st.pyplot(fig)
                         else: st.warning("No text for Bottom")
+
     except Exception as e:
         st.error(f"Errore generazione Word Cloud: {e}")
 else:
     st.warning("Install wordcloud: pip install wordcloud")
+
+st.info("""
+💡 **A cosa serve**: Confronta il linguaggio usato nei PTOF delle scuole eccellenti rispetto a quelle in difficoltà.
+
+🔍 **Cosa rileva**: Le Word Cloud mostrano le parole più frequenti nei documenti del 20% migliore (Top Performers) vs il 20% peggiore (Bottom Performers). Parole più grandi = più frequenti.
+
+🎯 **Implicazioni**: Se le scuole eccellenti usano termini specifici (es. "competenze", "orientamento") più frequentemente, potrebbero essere indicatori di qualità. Differenze lessicali suggeriscono approcci diversi alla documentazione.
+""")

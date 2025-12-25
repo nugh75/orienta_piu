@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "school_id": "TVEE818035",
+    "denominazione": "G. Matteotti - Miane",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Miane",
+    "anno_ptof": "2022-2025",
+    "provincia": "Treviso",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Matteotti 3",
+    "cap": "31050",
+    "email": "tvic818001@istruzione.it",
+    "pec": "ND",
+    "website": "www.icfollinatarzo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Errore grave: non esiste una sezione dedicata specificamente all'orientamento nel PTOF. L'orientamento è trattato all'interno del contesto più ampio dell'inclusione scolastica, con un riferimento a un modulo formativo inserito in 'Iniziative di ampliamento dell'offerta formativa', non in un capitolo autonomo."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "GLIR",
+        "GIT",
+        "Scuole polo per l’inclusione territoriale",
+        "Associazioni di riferimento"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzare gli studenti con particolari attitudini",
+        "evidence_location": "Pagina 102"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle potenzialità personali",
+        "evidence_location": "Pagina 101"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "Gli alunni vengono accompagnati nel passaggio tra i vari ordini di scuola.",
+        "evidence_location": "Pagina 105"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Modulo di orientamento formativo per la classe I",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Attività di accoglienza, conoscenza di sé e delle proprie emozioni, metodo di studio.",
+      "5w_chi": "Alunni di prima",
+      "5w_cosa": "Conoscenza di sé e del metodo di studio",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Favorire l'inserimento nella scuola secondaria di primo grado",
+      "ore_dichiarate": "30",
+      "target": "Classe I",
+      "evidence_quote": "Conoscere se stessi, i propri interessi, le proprie attitudini e capacità",
+      "evidence_location": "Pagina 68"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo per la classe II",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Riflessione su sé stessi, cyberbullismo, stili relazionali online.",
+      "5w_chi": "Alunni di seconda",
+      "5w_cosa": "Riflessione su sé stessi e consapevolezza dei rischi online",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare consapevolezza e capacità di scelta",
+      "ore_dichiarate": "87",
+      "target": "Classe II",
+      "evidence_quote": "la riflessione su di sé attraverso il diario",
+      "evidence_location": "Pagina 69"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo per la classe III",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Conoscenza di sé, scelta della scuola superiore, materie scientifiche.",
+      "5w_chi": "Alunni di terza",
+      "5w_cosa": "Preparazione alla scelta della scuola superiore",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Orientare gli alunni verso la scuola superiore",
+      "ore_dichiarate": "38",
+      "target": "Classe III",
+      "evidence_quote": "conoscenza di sé e scelta della scuola superiore",
+      "evidence_location": "Pagina 70"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concorsi",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Organizzazione o partecipazione a concorsi di varia natura (artistici, letterari, musicali ecc..), olimpiadi della matematica.",
+      "5w_chi": "Studenti con particolari attitudini",
+      "5w_cosa": "Partecipazione a concorsi",
+      "5w_dove": "Scuola/Esterno",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Valorizzare le attitudini degli studenti",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "organizza o partecipa a concorsi di varia natura",
+      "evidence_location": "Pagina 102"
+    }
+  ],
+  "narrative": "# Analisi del PTOF Tvic818001\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Ic Follina E Tarzo presenta un approccio all'orientamento prevalentemente integrato nelle attività di inclusione e valutazione, piuttosto che come un'area tematica autonoma. L'orientamento è visto come parte del processo di sviluppo delle potenzialità individuali degli studenti e della loro preparazione al passaggio tra i diversi ordini di scuola. La presenza di partnership con enti esterni e l'attenzione alle attività extracurriculari rappresentano elementi positivi, ma manca una visione strategica e sistematica dell'orientamento come processo strutturato.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nÈ rilevante evidenziare l'assenza di una sezione dedicata specificamente all'orientamento nel PTOF, con un punteggio di 0/10. L'orientamento è trattato all'interno del contesto più ampio dell'inclusione scolastica, con un riferimento a un modulo formativo inserito in 'Iniziative di ampliamento dell'offerta formativa', e non in un capitolo autonomo.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con **GLIR**, **GIT**, **Scuole polo per l’inclusione territoriale** e **Associazioni di riferimento**. Sebbene queste partnership siano importanti, manca un'analisi critica della loro efficacia e un sistema di monitoraggio dei risultati ottenuti. Il PTOF stesso ammette che \"non sempre gli interventi volti a supportare gli studenti sono efficaci\" (pag. 102), evidenziando la necessità di una valutazione più approfondita.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate allo sviluppo delle attitudini e degli interessi degli studenti, alla loro preparazione al passaggio tra i diversi ordini di scuola e alla valorizzazione delle loro potenzialità personali. Tuttavia, manca una chiara definizione degli obiettivi specifici e misurabili.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema previste dal PTOF sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori e al monitoraggio delle azioni. Queste azioni sono importanti per garantire un approccio integrato e partecipativo all'orientamento.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'utilizzo di metodologie laboratoriali e sulla valorizzazione delle esperienze degli studenti. Tuttavia, manca una chiara definizione delle competenze che gli studenti devono acquisire attraverso l'orientamento, giustificando un punteggio ridotto a 3/10.\n\n#### 2.6 Opportunità Formative\nLa scuola offre agli studenti la possibilità di partecipare a concorsi di varia natura e ad attività extracurriculari. I dettagli su tipologie, frequenza e risultati di queste attività sono limitati, portando a un punteggio di 4/10.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Partecipazione a concorsi\nLa partecipazione a concorsi di varia natura (artistici, letterari, musicali, olimpiadi della matematica) è descritta come un'attività extracurriculare rivolta agli studenti con particolari attitudini. Tuttavia, le informazioni fornite sono parziali e non strutturate come un vero e proprio registro con date, responsabili o risultati.\n\n### 3. Punti di Forza\nI punti di forza del PTOF sono la presenza di partnership con enti esterni, l'attenzione alle attività extracurriculari e l'integrazione dell'orientamento nelle attività di inclusione scolastica.\n\n### 4. Aree di Debolezza\nLe aree di debolezza del PTOF sono l'assenza di una sezione dedicata all'orientamento, la mancanza di una chiara definizione degli obiettivi specifici e misurabili, la scarsa attenzione alla valutazione e al monitoraggio delle azioni e la limitata descrizione delle competenze da acquisire attraverso la didattica orientativa.\n\n### 5. Gap Analysis\nIl principale gap del PTOF è la mancanza di una visione strategica e sistematica dell'orientamento come processo strutturato. È necessario definire obiettivi specifici e misurabili, individuare le azioni necessarie per raggiungerli e monitorare i risultati ottenuti.\n\n### 6. Conclusioni\nL'orientamento nel PTOF dell'Ic Follina E Tarzo è un aspetto importante, ma non ancora pienamente sviluppato. È necessario definire una strategia chiara e sistematica per l'orientamento, che tenga conto delle esigenze degli studenti e delle opportunità offerte dal territorio. Si auspica un collegamento con i fondi PNRR, in particolare con le iniziative volte a potenziare le competenze degli studenti e a favorire la transizione scuola-lavoro."
+}

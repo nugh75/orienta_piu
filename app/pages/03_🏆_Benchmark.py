@@ -53,6 +53,43 @@ df = load_data()
 st.title("🏆 Benchmark e Confronti")
 st.markdown("Analisi comparativa delle performance delle scuole")
 
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina ti permette di **confrontare le scuole** tra loro, identificando le migliori pratiche (benchmark) e posizionando ogni istituto rispetto al gruppo di riferimento.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **🥇 Best-in-Class per Tipologia**
+    - Mostra la **scuola migliore** per ogni tipo (Liceo, Tecnico, ecc.)
+    - Utile per identificare modelli da seguire nel proprio settore
+    
+    **🏅 Top 10 vs Bottom 10**
+    - Classifica delle 10 scuole con i punteggi più alti e più bassi
+    - Permette di capire il divario tra eccellenze e criticità
+    
+    **📍 Posizionamento Percentile**
+    - Ogni scuola ha un **percentile** che indica la sua posizione relativa
+    - Es: "75° percentile" = la scuola supera il 75% delle altre
+    
+    **🕸️ Radar Chart (Confronto Profili)**
+    - Visualizza il **profilo multidimensionale** di più scuole
+    - Le aree colorate rappresentano le 5 dimensioni valutate
+    - Più l'area è ampia, migliore è la scuola in quella dimensione
+    
+    **📐 Quadrante Performance**
+    - Divide le scuole in **4 categorie strategiche**:
+      - 🌟 **Alto-Alto**: Eccellenza (alte performance, alta robustezza)
+      - ⚠️ **Alto-Basso**: Potenziale (alta robustezza, basse performance specifiche)
+      - 🔍 **Basso-Alto**: Da monitorare (bassa robustezza, alte performance specifiche)
+      - ❌ **Basso-Basso**: Criticità (necessita intervento)
+    
+    ### 🔢 Come Interpretare i Numeri
+    - **Indice RO (1-7)**: Punteggio complessivo di Robustezza dell'Orientamento
+    - **Percentile**: Posizione relativa (più alto = meglio)
+    - **Δ dalla media**: Quanto la scuola si discosta dalla media del gruppo
+    """)
+
 if df.empty:
     st.warning("⚠️ Nessun dato disponibile. Esegui prima il pipeline di analisi.")
     st.stop()
@@ -120,6 +157,14 @@ if 'tipo_scuola' in df_valid.columns:
 else:
     st.info("Colonna 'tipo_scuola' non disponibile")
 
+st.info("""
+💡 **A cosa serve**: Identifica le scuole "campioni" per ogni tipologia (Liceo, Tecnico, ecc.), da usare come modelli di riferimento.
+
+🔍 **Cosa rileva**: Le 3 scuole con l'Indice RO più alto in ciascuna categoria. Se una tipologia non ha medaglie, significa che mancano dati per quel tipo.
+
+🎯 **Implicazioni**: Queste scuole hanno PTOF esemplari per l'orientamento. Puoi contattarle o studiare i loro documenti per replicare le buone pratiche nel tuo istituto.
+""")
+
 st.markdown("---")
 
 # === 2. TOP vs BOTTOM PERFORMERS ===
@@ -164,6 +209,14 @@ fig_compare = px.bar(
 fig_compare.update_layout(xaxis_tickangle=45, height=400)
 fig_compare.update_xaxes(tickfont_size=8)
 st.plotly_chart(fig_compare, use_container_width=True)
+
+st.info("""
+💡 **A cosa serve**: Mostra il divario tra le scuole migliori e peggiori nel campione analizzato.
+
+🔍 **Cosa rileva**: Le barre verdi sono le 10 scuole con punteggio più alto, quelle rosse le 10 con punteggio più basso. La differenza di altezza indica quanto è ampio il divario.
+
+🎯 **Implicazioni**: Un divario grande suggerisce forti disparità nel sistema scolastico. Le scuole in rosso potrebbero necessitare di supporto o formazione specifica sull'orientamento.
+""")
 
 st.markdown("---")
 
@@ -290,6 +343,14 @@ st.download_button(
     mime="text/csv"
 )
 
+st.info("""
+💡 **A cosa serve**: Mostra la classifica completa di tutte le scuole ordinate per Indice RO, con possibilità di filtraggio.
+
+🔍 **Cosa rileva**: Ogni riga è una scuola con posizione, dati anagrafici, indice complessivo e punteggi per ciascuna delle 5 dimensioni. Le barre di progresso visualizzano i valori. I filtri permettono di restringere la selezione.
+
+🎯 **Implicazioni**: Usa questa classifica per identificare rapidamente le scuole migliori e peggiori nel tuo territorio o tipologia. Puoi esportare i dati in CSV per analisi personalizzate.
+""")
+
 st.markdown("---")
 
 # === 3. PERCENTILE POSITIONING ===
@@ -357,6 +418,14 @@ if 'denominazione' in df_valid.columns:
         )
         
         st.plotly_chart(fig_dist, use_container_width=True)
+        
+        st.info("""
+💡 **A cosa serve**: Mostra dove si colloca una scuola rispetto a tutte le altre nel campione nazionale.
+
+🔍 **Cosa rileva**: L'istogramma mostra quante scuole hanno ciascun punteggio. La linea rossa verticale indica la posizione della scuola selezionata. Se è a destra, la scuola è sopra la media.
+
+🎯 **Implicazioni**: Un percentile alto (es. 80°) significa che la scuola supera l'80% degli altri istituti. Questo dato è utile per comunicare ai genitori e stakeholder la qualità dell'orientamento offerto.
+""")
 
 st.markdown("---")
 
@@ -428,6 +497,14 @@ if all(c in df_valid.columns for c in dim_cols):
             })
         
         st.dataframe(pd.DataFrame(comparison_data), use_container_width=True, hide_index=True)
+        
+        st.info("""
+💡 **A cosa serve**: Confronta visivamente il "profilo" di più scuole sulle 5 dimensioni dell'orientamento.
+
+🔍 **Cosa rileva**: L'area grigia è la media nazionale. Se il profilo colorato di una scuola "esce" dal grigio in una direzione, quella scuola eccelle in quella dimensione. Un profilo ampio e regolare indica equilibrio.
+
+🎯 **Implicazioni**: Permette di identificare punti di forza e debolezza di ogni scuola. Utile per capire dove concentrare gli sforzi di miglioramento o quali aspetti valorizzare nella comunicazione.
+""")
     else:
         st.info("Seleziona almeno una scuola per il confronto")
 else:
@@ -517,6 +594,14 @@ if x_metric in df_valid.columns and y_metric in df_valid.columns:
                 count = quad_counts.get(q, 0)
                 pct = count / len(df_quad) * 100
                 st.metric(q.split(' ')[0], f"{count} ({pct:.0f}%)")
+        
+        st.info("""
+💡 **A cosa serve**: Classifica le scuole in 4 categorie strategiche incrociando due dimensioni a scelta.
+
+🔍 **Cosa rileva**: Le linee tratteggiate dividono il grafico usando la mediana (valore centrale). ⭐ Eccellenti = sopra la media in entrambe le dimensioni. ⚠️ Da Migliorare = sotto la media in entrambe.
+
+🎯 **Implicazioni**: Le scuole nel quadrante ⭐ sono modelli da seguire. Quelle in ⚠️ necessitano interventi prioritari. I quadranti intermedi indicano scuole con potenziale parziale da sviluppare.
+""")
 else:
     st.warning("Metriche selezionate non disponibili")
 
@@ -550,6 +635,14 @@ if 'tipo_primario' in df_valid.columns:
     fig_tipo.update_traces(texttemplate='%{text:.2f}', textposition='outside')
     fig_tipo.update_layout(height=400)
     st.plotly_chart(fig_tipo, use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Confronta le performance medie tra le diverse tipologie scolastiche (Licei, Tecnici, Professionali, ecc.).
+
+🔍 **Cosa rileva**: L'altezza delle barre indica il punteggio medio. Le barre di errore (linee verticali) mostrano la variabilità: più sono lunghe, più le scuole di quel tipo hanno risultati diversi tra loro.
+
+🎯 **Implicazioni**: Tipologie con punteggi bassi potrebbero richiedere interventi mirati. Alta variabilità suggerisce che il tipo di scuola non è determinante: ci sono sia eccellenze che criticità.
+""")
 
 # Footer
 st.markdown("---")

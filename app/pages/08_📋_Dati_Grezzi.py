@@ -25,6 +25,43 @@ def load_data():
 df = load_data()
 
 st.title("📋 Dati Grezzi e Verifica")
+
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina permette di **esplorare i dati grezzi** e verificare la qualità e completezza del dataset.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **📊 Tabella Completa**
+    - Visualizza tutti i dati in formato tabellare
+    - Puoi selezionare quali colonne mostrare
+    - Usa la ricerca integrata per trovare scuole specifiche
+    - Le colonne sono ordinabili cliccando sull'intestazione
+    
+    **📈 Statistiche Descrittive**
+    - Per ogni colonna numerica mostra:
+      - **N**: Numero di valori non nulli
+      - **Media**: Valore medio
+      - **Dev.Std**: Dispersione dei dati (valori bassi = dati simili)
+      - **Min/Max**: Range dei valori
+      - **Q1, Mediana, Q3**: Quartili (25°, 50°, 75° percentile)
+    
+    **🔍 Analisi Valori Mancanti**
+    - Elenca le colonne con dati mancanti
+    - La percentuale indica la completezza dei dati
+    - Valori mancanti alti possono indicare problemi di qualità dati
+    
+    **🛠️ Verifica File JSON**
+    - Controlla la coerenza tra file di analisi e dati aggregati
+    - Evidenzia eventuali discrepanze
+    
+    ### 🔢 Come Usare Questa Pagina
+    - **Per l'esplorazione**: Seleziona le colonne di interesse e ordina i dati
+    - **Per il debug**: Verifica valori mancanti e statistiche
+    - **Per l'export**: I dati possono essere copiati dalla tabella
+    """)
+
 st.markdown("Esplora i dati grezzi per verificare affidabilità e completezza")
 
 if df.empty:
@@ -47,6 +84,14 @@ if selected_cols:
 else:
     st.warning("Seleziona almeno una colonna")
 
+st.info("""
+💡 **A cosa serve**: Esplora tutti i dati grezzi del dataset in formato tabellare.
+
+🔍 **Cosa rileva**: Ogni riga è una scuola, ogni colonna un attributo. Clicca sulle intestazioni per ordinare. Usa la barra di ricerca integrata (in alto a destra) per trovare scuole specifiche.
+
+🎯 **Implicazioni**: Utile per verifiche puntuali, export di dati specifici, e per rispondere a domande specifiche ("Quali scuole di Roma hanno punteggio > 5?").
+""")
+
 st.markdown("---")
 
 # 2. Statistics Summary
@@ -59,6 +104,14 @@ if score_cols:
     stats = stats[['count', 'mean', 'std', 'min', '25%', '50%', '75%', 'max']]
     stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Q1', 'Mediana', 'Q3', 'Max']
     st.dataframe(stats.round(2), use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Fornisce un riassunto statistico di tutte le variabili numeriche del dataset.
+
+🔍 **Cosa rileva**: N = valori validi, Media = valore medio, Dev.Std = dispersione (bassa = dati omogenei), Q1/Mediana/Q3 = distribuzione. Min/Max = valori estremi.
+
+🎯 **Implicazioni**: Una deviazione standard alta indica grande variabilità tra scuole. Se Min e Max sono molto distanti, ci sono casi estremi che meritano attenzione.
+""")
 
 st.markdown("---")
 
@@ -75,6 +128,13 @@ missing_df = missing_df[missing_df['Mancanti'] > 0].sort_values('Mancanti', asce
 
 if len(missing_df) > 0:
     st.dataframe(missing_df, use_container_width=True, hide_index=True)
+    st.info("""
+💡 **A cosa serve**: Identifica quali informazioni mancano nel dataset e in che misura.
+
+🔍 **Cosa rileva**: La tabella mostra le colonne con dati mancanti e la percentuale. Valori alti indicano lacune informative significative.
+
+🎯 **Implicazioni**: Se una colonna importante (es. regione) ha molti mancanti, le analisi per quella dimensione saranno meno affidabili. Potrebbe essere necessario integrare i dati mancanti.
+""")
 else:
     st.success("✅ Nessun valore mancante!")
 
@@ -124,6 +184,14 @@ if selected_label:
     score_data = {c: school_row.get(c, 0) for c in score_cols}
     st.dataframe(pd.DataFrame([score_data]), use_container_width=True)
 
+st.info("""
+💡 **A cosa serve**: Permette di esaminare nel dettaglio i dati di una singola scuola selezionata.
+
+🔍 **Cosa rileva**: Mostra tutti i metadati (ID, nome, regione, tipo) e tutti gli indici calcolati (Indice RO, medie dimensionali, singoli punteggi). Ogni aspetto valutato nel PTOF è visibile.
+
+🎯 **Implicazioni**: Usa questa sezione per verificare dati specifici, rispondere a domande puntuali su una scuola, o per validare che l'analisi automatica abbia funzionato correttamente.
+""")
+
 st.markdown("---")
 
 # 5. JSON Viewer
@@ -145,6 +213,14 @@ if selected_label:
             st.error(f"Errore caricamento JSON: {e}")
     else:
         st.info("JSON non ancora disponibile per questa scuola")
+
+st.info("""
+💡 **A cosa serve**: Mostra il file JSON originale prodotto dall'analisi del PTOF di questa scuola.
+
+🔍 **Cosa rileva**: Il JSON contiene tutti i dati estratti: testi analizzati, punteggi assegnati dall'AI, motivazioni delle valutazioni, e metadati. È il documento completo dell'analisi.
+
+🎯 **Implicazioni**: Utile per verificare nel dettaglio come sono stati assegnati i punteggi, controllare le motivazioni dell'AI, o esportare dati per analisi esterne.
+""")
 
 st.markdown("---")
 
@@ -170,6 +246,14 @@ with col2:
             file_name=f"{school_id}_analysis.json",
             mime="application/json"
         )
+
+st.info("""
+💡 **A cosa serve**: Consente di scaricare i dati in formati riutilizzabili (CSV o JSON).
+
+🔍 **Cosa rileva**: Il CSV contiene il riepilogo di tutte le scuole analizzate in formato tabellare, pronto per Excel o altri software. Il JSON della scuola selezionata contiene l'analisi completa di quella specifica scuola.
+
+🎯 **Implicazioni**: Usa i download per analisi offline, report personalizzati, o integrazione con altri strumenti. Il CSV è ideale per statistiche aggregate, il JSON per approfondimenti su singole scuole.
+""")
 
 st.markdown("---")
 st.caption("📋 Dati Grezzi - Usa questa pagina per verificare l'affidabilità dei dati")

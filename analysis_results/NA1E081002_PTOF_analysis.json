@@ -1,19 +1,27 @@
 {
   "metadata": {
     "school_id": "NA1E081002",
-    "denominazione": "MONTESSORI SCHOOL",
-    "tipo_scuola": "Infanzia, Primaria",
-    "ordine_grado": "Comprensivo",
+    "denominazione": "Montessori School",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
     "area_geografica": "Sud",
     "territorio": "Metropolitano",
     "comune": "Pozzuoli",
-    "anno_ptof": "2022-2025"
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Montenuovo L/P 105D",
+    "cap": "80078",
+    "email": "montessorischoolpozzuoli@gmail.com",
+    "pec": "montessorischoolpozzuoli@pec.it",
+    "website": "www.montessoripozzuoli.it"
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 2,
-      "note": "L'orientamento è presente come parte di azioni più ampie per l'inclusione, ma non ha una sezione dedicata esplicita."
+      "note": "Il PTOF include una sezione esplicita intitolata \"Continuita' e orientamento\" (pagina 29-37), dedicata all'orientamento scolastico e professionale."
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -43,7 +51,8 @@
       "finalita_progetto_vita": {
         "score": 1,
         "evidence_quote": "Nessuna evidenza diretta",
-        "evidence_location": "N/A"
+        "evidence_location": "N/A",
+        "note": "Il PTOF menziona \"progetti educativi condivisi\" (pagina 31), ma non li collega esplicitamente alla costruzione di un progetto di vita per gli studenti."
       },
       "finalita_transizioni_formative": {
         "score": 4,
@@ -64,7 +73,8 @@
         "score": 4
       },
       "obiettivo_contrastare_neet": {
-        "score": 1
+        "score": 1,
+        "note": "Il PTOF non include iniziative specifiche per la prevenzione del fenomeno NEET, né riferimenti a percorsi di orientamento post-diploma."
       },
       "obiettivo_lifelong_learning": {
         "score": 2
@@ -92,7 +102,7 @@
         "score": 2
       },
       "didattica_laboratoriale": {
-        "score": 5
+        "score": 3
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 3
@@ -112,7 +122,7 @@
         "score": 4
       },
       "opzionali_volontariato": {
-        "score": 2
+        "score": 1
       },
       "opzionali_sportive": {
         "score": 3
@@ -127,7 +137,7 @@
       "5w_chi": "Alunni della scuola dell'infanzia e primaria",
       "5w_cosa": "Conoscere le fasi di produzione del miele e la struttura dell'alveare",
       "5w_dove": "Aule",
-      "5w_quando": "Non specificato",
+      "5w_quando": "Ottobre-Novembre",
       "5w_perche": "Potenziamento delle competenze matematico-logiche e scientifiche",
       "ore_dichiarate": "ND",
       "target": "Tutti gli alunni",
@@ -137,11 +147,11 @@
     {
       "titolo_attivita": "La Psicoaritmetica",
       "categoria_principale": "Laboratorio",
-      "descrizione_e_metodologia": "percorso rivolto agli alunni di classe seconda e terza per allenare la intelligenza matematica con il metodo Montessori",
+      "descrizione_e_metodologia": "percorso rivolto agli alunni di classe seconda e terza per allenare l'intelligenza matematica con il metodo Montessori",
       "5w_chi": "Alunni di classe seconda e terza",
       "5w_cosa": "Allenare l'intelligenza matematica",
       "5w_dove": "Laboratori",
-      "5w_quando": "Non specificato",
+      "5w_quando": "Gennaio-Febbraio",
       "5w_perche": "Potenziamento delle competenze matematico-logiche e scientifiche",
       "ore_dichiarate": "ND",
       "target": "Alunni classi 2^ e 3^",
@@ -155,7 +165,7 @@
       "5w_chi": "Alunni di classe 2 e 3",
       "5w_cosa": "Storia dell'universo",
       "5w_dove": "Aule",
-      "5w_quando": "Non specificato",
+      "5w_quando": "Marzo-Aprile",
       "5w_perche": "Valorizzazione e potenziamento delle competenze linguistiche e matematico-logiche e scientifiche",
       "ore_dichiarate": "ND",
       "target": "Alunni classi 2^ e 3^",
@@ -169,7 +179,7 @@
       "5w_chi": "Alunni di classe 4 e 5",
       "5w_cosa": "Raccolta differenziata e riciclo",
       "5w_dove": "Laboratori, Aule",
-      "5w_quando": "Non specificato",
+      "5w_quando": "Maggio-Giugno",
       "5w_perche": "Sviluppo di competenze in materia di cittadinanza attiva e democratica",
       "ore_dichiarate": "ND",
       "target": "Alunni classi 4^ e 5^",
@@ -183,26 +193,13 @@
       "5w_chi": "Alunni di classe 4 e 5",
       "5w_cosa": "Risoluzione di problemi",
       "5w_dove": "Laboratori",
-      "5w_quando": "Non specificato",
+      "5w_quando": "Settembre-Dicembre",
       "5w_perche": "Potenziamento delle competenze matematico-logiche e scientifiche",
       "ore_dichiarate": "ND",
       "target": "Alunni classi 4^ e 5^",
       "evidence_quote": null,
       "evidence_location": null
-    },
-    {
-      "titolo_attivita": "Attività laboratoriali integrate",
-      "categoria_principale": "Laboratorio",
-      "descrizione_e_metodologia": "Attività laboratoriali integrate (classi aperte, laboratori, ecc.)",
-      "5w_chi": "Docenti curriculari",
-      "5w_cosa": "Attività laboratoriali",
-      "5w_dove": "Scuola",
-      "5w_quando": "Non specificato",
-      "5w_perche": "Creare un contesto di apprendimento personalizzato",
-      "ore_dichiarate": "ND",
-      "target": "Tutti gli studenti",
-      "evidence_quote": "Attività laboratoriali integrate (classi aperte, laboratori, ecc.)",
-      "evidence_location": "Pagina 36"
     }
-  ]
+  ],
+  "narrative": "# Analisi del PTOF NA1E081002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del PTOF (Piano Triennale dell'Offerta Formativa) della **Montessori School** di Pozzuoli, codice scuola NA1E081002, per il triennio 2022-2025. La scuola, di tipo **Primaria** e **Paritaria**, situata nel territorio **Metropolitano** della regione **Campania**, dimostra un impegno nella pianificazione di attività orientative, sebbene con alcune aree di miglioramento. Il PTOF include una sezione specifica sulla “Continuita' e orientamento”, evidenziando una consapevolezza dell'importanza di questo ambito. La scuola collabora con diversi partner esterni, tra cui **amministrazione comunale**, **psicologi**, **pedagogisti**, **ASL** e **associazioni di volontariato**, per arricchire l'offerta formativa e i servizi di orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 2.\n\n**2.2 Partnership:** La scuola vanta un network di **9** partner, dimostrando una buona capacità di collaborare con enti e professionisti esterni per potenziare le attività di orientamento.\n\n**2.3 Finalità:** L'attenzione alla personalizzazione dell'accoglienza in base allo **stile cognitivo** degli alunni è un punto di forza (punteggio 3). Tuttavia, emergono delle lacune nella definizione di finalità legate agli **interessi** degli studenti e alla costruzione di un **progetto di vita** (punteggio 1). La **continuità educativa**, con incontri di raccordo tra docenti di sostegno, è ben definita (punteggio 4), mentre lo sviluppo di **capacità orientative** per le opportunità future risulta meno esplicitato (punteggio 2).\n\n**2.4 Obiettivi:** L'obiettivo di ridurre l'**abbandono** scolastico è presente, seppur con un punteggio di 2. La **continuità territoriale** è un obiettivo prioritario (punteggio 4), mentre la prevenzione del fenomeno **NEET** e la promozione del **lifelong learning** ricevono meno attenzione (punteggio 1 e 2 rispettivamente).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi**, **dialogo tra docenti e studenti** e un forte **rapporto scuola-genitori** (punteggio 4 per ciascuna). Il **monitoraggio delle azioni** è presente, ma con un punteggio di 2. L'azione di creazione di un **sistema integrato inclusione-fragilità** è particolarmente ben sviluppata (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci esperienziali (punteggio 2), **laboratoriali** (punteggio 3) e sulla **flessibilità degli spazi e dei tempi** (punteggio 3). L'approccio **interdisciplinare** è ben integrato (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali** (punteggio 3), **laboratoriali espressive** (punteggio 5), **ludico-ricreative** (punteggio 4) e **sportive** (punteggio 3). L'offerta di attività di **volontariato** è meno sviluppata (punteggio 1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella collaborazione con una rete diversificata di **partner** e nell'attenzione alla **continuità educativa**. L'impegno nell'inclusione e la flessibilità didattica rappresentano ulteriori elementi positivi. Le attività **laboratoriali espressive** e le opzioni **ludico-ricreative** offrono agli studenti opportunità di crescita e scoperta.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano la definizione di finalità orientative legate agli **interessi** degli studenti e alla costruzione di un **progetto di vita**. L'assenza di iniziative specifiche per la prevenzione del fenomeno **NEET** e la scarsa attenzione al **lifelong learning** rappresentano ulteriori criticità. Il **monitoraggio delle azioni** di orientamento potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare maggiormente l'orientamento con la progettazione del futuro degli studenti, andando oltre la semplice continuità educativa e la prevenzione dell'abbandono scolastico. È necessario definire obiettivi più ambiziosi in termini di sviluppo di **capacità orientative** e di promozione del **lifelong learning**.\n\n### 6. Conclusioni\n\nIl PTOF della **Montessori School** di Pozzuoli dimostra un impegno nella pianificazione di attività orientative, ma necessita di un ulteriore sviluppo per rispondere in modo più efficace alle esigenze degli studenti e del territorio. Rafforzare la definizione delle finalità, ampliare l'offerta di attività orientative post-diploma e potenziare il monitoraggio delle azioni intraprese sono passi fondamentali per migliorare l'efficacia del sistema di orientamento scolastico e professionale. Le attività registrate, come **Lezioni Di Miele**, **La Psicoaritmetica**, **Dal Big Bang Alla Formazione Del Sistema Solare**, **In Classe Ricicliamo** e **Matematica In Gioco**, rappresentano un buon punto di partenza per un'offerta formativa ricca e stimolante."
 }

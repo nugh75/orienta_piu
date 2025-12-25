@@ -30,6 +30,43 @@ def load_data():
 df = load_data()
 
 st.title("🧪 Analisi Sperimentali")
+
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina contiene visualizzazioni **sperimentali** per esplorare i dati con metodologie innovative e meno convenzionali.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **🕸️ Radar Chart Comparativo**
+    - Confronta il **profilo multidimensionale** di una scuola con la media nazionale
+    - Ogni vertice rappresenta una delle 5 dimensioni:
+      - **Finalità**: Chiarezza degli scopi dell'orientamento
+      - **Obiettivi**: Concretezza e misurabilità dei target
+      - **Governance**: Organizzazione e responsabilità
+      - **Didattica**: Integrazione dell'orientamento nella didattica
+      - **Opportunità**: Collegamenti con territorio e mondo del lavoro
+    - L'area colorata della scuola (blu) si sovrappone alla media (grigio)
+    - **Interpretazione**: Se l'area blu sporge oltre il grigio, la scuola eccelle in quella dimensione
+    
+    **🌊 Analisi dei Flussi (Sankey/Sunburst)**
+    - Visualizza le **relazioni gerarchiche** tra caratteristiche
+    - Mostra come regione → tipo scuola → punteggio si collegano
+    - **Spessore delle bande**: Proporzionale al numero di scuole o al valore
+    - Utile per identificare pattern geografici e tipologici
+    
+    **📊 Sunburst Chart**
+    - Visualizzazione gerarchica a "raggiera"
+    - Dal centro verso l'esterno: macro-categoria → sotto-categoria → dettaglio
+    - Clicca su una sezione per "zoomare" su quel livello
+    
+    ### 🔢 Come Interpretare i Radar
+    - **Forma regolare** (pentagono uniforme): Performance equilibrata su tutte le dimensioni
+    - **Forma irregolare**: Punti di forza e debolezza specifici
+    - **Area piccola**: Performance generale bassa
+    - **Area grande**: Performance generale alta
+    """)
+
 st.markdown("""
 Questa pagina contiene visualizzazioni **sperimentali** per esplorare i dati in modo diverso.
 1. **Radar Chart**: Confronta il profilo di una scuola con la media nazionale.
@@ -122,6 +159,14 @@ if selected_school_label:
                 st.write(f"- {d}")
         else:
             st.write("La scuola è allineata alla media nazionale su tutte le dimensioni.")
+        
+        st.info("""
+💡 **A cosa serve**: Confronta visivamente una singola scuola con la media nazionale su tutte le dimensioni.
+
+🔍 **Cosa rileva**: L'area rossa è la scuola selezionata, quella grigia è la media. Dove il rosso "sporge", la scuola eccelle. Dove è "dentro" al grigio, c'è margine di miglioramento.
+
+🎯 **Implicazioni**: Utile per autovalutazione e comunicazione. Puoi mostrare a genitori e stakeholder dove la scuola si distingue e dove sta lavorando per migliorare.
+""")
 
     else:
         st.error("Le colonne delle dimensioni (mean_finalita, etc.) mancano nel dataset.")
@@ -199,6 +244,14 @@ if all(c in df.columns for c in target_cols):
     col1, col2, col3 = st.columns([1, 10, 1])
     with col2:
         st.plotly_chart(fig_flow, use_container_width=False)
+    
+    st.info("""
+💡 **A cosa serve**: Visualizza come le scuole si distribuiscono attraverso diverse categorie (area → tipo → livello di robustezza).
+
+🔍 **Cosa rileva**: I nastri collegano le categorie. Lo spessore indica quante scuole seguono quel "percorso". Es: un nastro spesso da "Sud" a "Professionale" a "Bassa" indica molte scuole con quella combinazione.
+
+🎯 **Implicazioni**: Identifica combinazioni virtuose (nastri che arrivano in "Alta") e critiche (nastri verso "Bassa"). Utile per capire se certe tipologie o aree hanno sistematicamente problemi.
+""")
 
 else:
     st.warning("Dati mancanti per generare il grafico dei flussi (Area, Tipo o Indice).")
@@ -232,6 +285,14 @@ if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Robu
     )
     fig_sun.update_layout(height=700, margin=dict(t=0, l=0, r=0, b=0))
     st.plotly_chart(fig_sun, use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Esplora la struttura gerarchica dei dati (area → tipo → livello) in modo interattivo.
+
+🔍 **Cosa rileva**: Il centro è il totale, ogni anello esterno aggiunge dettaglio. La dimensione delle "fette" è proporzionale al numero di scuole. Clicca per "zoomare" su una sezione.
+
+🎯 **Implicazioni**: Permette di esplorare i dati in modo intuitivo, scoprendo come si compone il campione. Utile per presentazioni e per capire la struttura del sistema scolastico analizzato.
+""")
 else:
     st.info("Dati insufficienti per il Sunburst Chart.")
 
@@ -255,6 +316,14 @@ if all(c in df.columns for c in [col_x, col_y, col_z, col_color]):
     )
     fig_3d.update_layout(height=700, margin=dict(l=0, r=0, b=0, t=0))
     st.plotly_chart(fig_3d, use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Esplora le relazioni tra 3 dimensioni contemporaneamente in uno spazio tridimensionale.
+
+🔍 **Cosa rileva**: Ogni punto è una scuola. Punti raggruppati indicano scuole simili. Ruota il grafico trascinando per vedere da diverse angolazioni. I colori mostrano la categoria selezionata.
+
+🎯 **Implicazioni**: Permette di scoprire cluster "nascosti" che non emergono guardando una dimensione alla volta. Utile per ricerche esplorative e per identificare scuole atipiche.
+""")
 else:
     st.warning("Seleziona colonne valide per generare il grafico 3D.")
 
@@ -307,6 +376,13 @@ if ridge_var in df.columns and ridge_group in df.columns:
         title=f"Distribuzione di {get_label(ridge_var)} per {ridge_group}"
     )
     st.plotly_chart(fig_ridge, use_container_width=True)
-
 else:
     st.warning("Dati insufficienti o colonne mancanti per il Ridgeline Plot.")
+
+st.info("""
+💡 **A cosa serve**: Visualizza la forma delle distribuzioni di punteggio per diverse categorie, permettendo confronti visivi immediati.
+
+🔍 **Cosa rileva**: Ogni "onda" rappresenta la distribuzione di una categoria. Picchi più alti indicano concentrazione di scuole in quella fascia di punteggio. La linea verticale interna mostra la media. Distribuzioni più strette indicano omogeneità.
+
+🎯 **Implicazioni**: Permette di vedere non solo le medie ma la forma complessiva: distribuzioni bimodali, asimmetrie, code. Utile per capire se i gruppi sono omogenei o contengono sottogruppi nascosti.
+""")

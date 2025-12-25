@@ -78,6 +78,45 @@ def load_data():
 
 df = load_data()
 
+st.title("🗺️ Mappa Italia - Analisi Geografica")
+
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina analizza la **distribuzione geografica** della qualità dell'orientamento nei PTOF italiani, permettendo confronti tra regioni e aree.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **📊 Ranking Regionale**
+    - Classifica delle regioni ordinate per **media dell'Indice RO**
+    - Le barre più lunghe indicano regioni con punteggi medi più alti
+    
+    **🧪 Test ANOVA**
+    - Verifica statistica se le **differenze tra regioni sono significative**
+    - **p-value < 0.05**: Le differenze NON sono dovute al caso
+    - **Effect Size (η²)**: Indica quanto le differenze sono rilevanti:
+      - < 0.01: Trascurabile | 0.01-0.06: Piccolo | 0.06-0.14: Medio | > 0.14: Grande
+    
+    **🗺️ Mappa Coropletica**
+    - Colorazione delle regioni in base al punteggio medio
+    - **Verde scuro**: Punteggi alti | **Rosso**: Punteggi bassi
+    - Passa il mouse sopra per vedere i dettagli
+    
+    **📍 Mappa Scuole Virtuose**
+    - Punti sulla mappa che indicano le scuole con i punteggi più alti
+    - Dimensione del punto proporzionale al punteggio
+    
+    **🔍 Post-Hoc Tukey HSD**
+    - Confronti a coppie tra regioni
+    - Mostra quali regioni sono **significativamente diverse** tra loro
+    - Utile per capire se la differenza tra due regioni specifiche è reale
+    
+    ### 🔢 Come Interpretare le Mappe
+    - **Colore**: Intensità del punteggio (gradiente da basso ad alto)
+    - **Dimensione marker**: Numero di scuole o valore del punteggio
+    - **Tooltip**: Passa il mouse per dettagli su ogni elemento
+    """)
+
 st.title("🗺️ Analisi Geografica Italia")
 st.markdown("Visualizzazione della distribuzione territoriale dell'**Indice RO** (Robustezza dell'Orientamento) nei PTOF")
 
@@ -178,6 +217,14 @@ with col2:
         hide_index=True,
         height=450
     )
+
+st.info("""
+💡 **A cosa serve**: Ordina le regioni italiane in base alla qualità media dell'orientamento nei PTOF.
+
+🔍 **Cosa rileva**: Le regioni in alto (barre più lunghe, colore verde) hanno punteggi medi migliori. La colonna "N. Scuole" indica quante scuole sono state analizzate per regione.
+
+🎯 **Implicazioni**: Regioni con punteggi bassi potrebbero beneficiare di programmi di formazione regionali. Attenzione: regioni con pochi dati (N basso) sono meno rappresentative.
+""")
 
 # === ANOVA Test for Regional Differences ===
 st.markdown("### 🔬 Test ANOVA: Differenze tra Regioni")
@@ -453,6 +500,14 @@ if len(map_data) > 0:
     
     fig_map.update_layout(height=600, margin=dict(l=0, r=0, t=40, b=0))
     st.plotly_chart(fig_map, use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Visualizza geograficamente la distribuzione della qualità dell'orientamento sul territorio italiano.
+
+🔍 **Cosa rileva**: I cerchi rappresentano le regioni. Il colore (rosso → verde) indica il punteggio medio, la dimensione è proporzionale al numero di scuole analizzate. Passa il mouse per i dettagli.
+
+🎯 **Implicazioni**: Permette di identificare rapidamente "zone calde" (critiche) e "zone verdi" (virtuose). Utile per pianificare interventi territoriali mirati o per confrontare la propria regione con le altre.
+""")
 else:
     st.info("Dati insufficienti per generare la mappa")
 
@@ -558,6 +613,14 @@ if len(df_valid) > 0 and 'ptof_orientamento_maturity_index' in df_valid.columns:
     top_display = top_display.reset_index(drop=True)
     top_display.index = top_display.index + 1  # Start from 1
     st.dataframe(top_display, use_container_width=True)
+    
+    st.info("""
+💡 **A cosa serve**: Localizza geograficamente le scuole con i migliori punteggi di orientamento in Italia.
+
+🔍 **Cosa rileva**: Ogni punto sulla mappa è una scuola "eccellente". Il colore indica la tipologia (Liceo, Tecnico, ecc.). La tabella sotto mostra i dettagli completi.
+
+🎯 **Implicazioni**: Usa questa mappa per trovare modelli di riferimento vicini alla tua zona. Puoi contattare queste scuole per scambi di buone pratiche o visite di studio.
+""")
 else:
     st.info("Dati insufficienti per la mappa delle scuole virtuose")
 
@@ -731,6 +794,14 @@ if 'tipo_scuola' in df_valid.columns and len(map_data) > 0:
 else:
     st.info("Dati tipo scuola non disponibili")
 
+st.info("""
+💡 **A cosa serve**: Visualizza la distribuzione geografica delle scuole per tipologia (Licei, Tecnici, Professionali, ecc.).
+
+🔍 **Cosa rileva**: La mappa mostra dove si concentrano le diverse tipologie. La dimensione dei cerchi indica il numero di scuole, il colore indica la media dell'Indice RO. Il grafico a barre sottostante ordina le tipologie per punteggio medio.
+
+🎯 **Implicazioni**: Alcune tipologie potrebbero essere più diffuse o performanti in certe aree. Questi pattern aiutano a comprendere le specificità territoriali e tipologiche del sistema scolastico.
+""")
+
 st.markdown("---")
 
 # === 3. NORD vs SUD COMPARISON ===
@@ -817,6 +888,14 @@ if len(df_macro) > 5:
             st.info("Installa scipy per il test statistico")
 else:
     st.info("Dati insufficienti per il confronto macro-aree")
+
+st.info("""
+💡 **A cosa serve**: Confronta le scuole del Nord con quelle del Sud per verificare se esistono differenze significative nella qualità dell'orientamento.
+
+🔍 **Cosa rileva**: Il box plot mostra la distribuzione dei punteggi per ciascuna macro-area. La tabella riporta statistiche descrittive (N, media, dev.std). Il test Kruskal-Wallis verifica se le differenze sono statisticamente significative.
+
+🎯 **Implicazioni**: Una differenza significativa suggerisce disparità territoriali da affrontare con politiche mirate. Se non significativa, l'orientamento è omogeneo a livello nazionale.
+""")
 
 st.markdown("---")
 
@@ -946,6 +1025,14 @@ if 'area_geografica' in df_valid.columns:
 else:
     st.warning("Colonna 'area_geografica' non trovata nel dataset")
 
+st.info("""
+💡 **A cosa serve**: Analizza le differenze tra le 5 aree geografiche italiane (Nord Ovest, Nord Est, Centro, Sud, Isole).
+
+🔍 **Cosa rileva**: Il box plot confronta le distribuzioni dei punteggi per area. Il test Kruskal-Wallis verifica se esistono differenze significative. I confronti post-hoc (Bonferroni) identificano quali coppie di aree differiscono.
+
+🎯 **Implicazioni**: Permette di individuare le aree più performanti e quelle che necessitano maggiore supporto. Il ranking mostra chiaramente la graduatoria.
+""")
+
 st.markdown("---")
 
 # === 3b. METROPOLITANO vs NON METROPOLITANO COMPARISON ===
@@ -1060,6 +1147,14 @@ if 'territorio' in df_valid.columns:
         st.info("Dati insufficienti per il confronto territori")
 else:
     st.warning("Colonna 'territorio' non presente nei dati")
+
+st.info("""
+💡 **A cosa serve**: Confronta le scuole situate in aree metropolitane con quelle non metropolitane.
+
+🔍 **Cosa rileva**: Il box plot visualizza le distribuzioni. Il test Mann-Whitney U verifica se le differenze sono significative. Il Cohen's d misura la dimensione dell'effetto (piccolo, medio, grande).
+
+🎯 **Implicazioni**: Se esiste differenza significativa, potrebbe indicare che le scuole urbane e rurali hanno esigenze diverse o risorse differenti per l'orientamento. Aiuta a orientare interventi specifici.
+""")
 
 st.markdown("---")
 
@@ -1185,6 +1280,14 @@ if 'territorio' in df_valid.columns:
 else:
     st.warning("Colonna 'territorio' non presente nei dati")
 
+st.info("""
+💡 **A cosa serve**: Analizza per ogni regione le differenze tra scuole in area metropolitana e non metropolitana.
+
+🔍 **Cosa rileva**: L'heatmap mostra la media dell'indice RO per ogni combinazione regione-territorio. La tabella calcola Cohen's d e p-value per ogni regione che ha entrambi i tipi di territorio.
+
+🎯 **Implicazioni**: Identifica regioni dove la differenza metropolitano/non-metropolitano è più marcata. Alcune regioni potrebbero non mostrare disparità, altre sì. Utile per interventi territoriali mirati.
+""")
+
 st.markdown("---")
 
 # === 4. GAP ANALYSIS ===
@@ -1237,6 +1340,14 @@ if all(c in df_valid.columns for c in dim_cols) and 'area_geografica' in df_vali
 else:
     st.info("Dati insufficienti per l'analisi dei gap")
 
+st.info("""
+💡 **A cosa serve**: Analizza l'ampiezza del gap (differenza tra punteggio massimo e minimo) per ogni dimensione e area geografica.
+
+🔍 **Cosa rileva**: Gap ampi indicano forte eterogeneità: alcune scuole eccellono mentre altre sono molto indietro. Gap stretti indicano omogeneità. Le tabelle mostrano le combinazioni con gap maggiori e minori.
+
+🎯 **Implicazioni**: Dove i gap sono ampi, esistono modelli di eccellenza da diffondere. Dimensioni con gap stretti potrebbero essere più "standard" o difficili da differenziare.
+""")
+
 st.markdown("---")
 
 # === 5. AREA GEOGRAFICA RADAR ===
@@ -1276,8 +1387,18 @@ if all(c in df_valid.columns for c in dim_cols) and 'area_geografica' in df_vali
         )
         
         st.plotly_chart(fig_radar, use_container_width=True)
+    else:
+        st.info("Dati insufficienti per il radar chart")
 else:
     st.info("Dati insufficienti per il radar chart")
+
+st.info("""
+💡 **A cosa serve**: Confronta il "profilo" delle 5 dimensioni dell'orientamento tra le diverse aree geografiche.
+
+🔍 **Cosa rileva**: Ogni area ha un poligono colorato. Un poligono più ampio indica punteggi più alti. La forma rivela quali dimensioni sono più sviluppate in ogni area.
+
+🎯 **Implicazioni**: Le aree geografiche potrebbero avere "specializzazioni" diverse. Ad esempio, il Nord potrebbe eccellere in Governance mentre il Sud in Didattica. Questa visualizzazione aiuta a identificare buone pratiche regionali da diffondere.
+""")
 
 # Footer
 st.markdown("---")

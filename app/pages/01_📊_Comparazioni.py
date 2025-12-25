@@ -46,6 +46,39 @@ df = load_data()
 
 st.title("📊 Comparazioni tra Gruppi")
 
+with st.expander("📖 Come leggere questa pagina", expanded=False):
+    st.markdown("""
+    ### 🎯 Scopo della Pagina
+    Questa pagina permette di **confrontare le performance** tra diversi gruppi di scuole, evidenziando pattern e differenze significative.
+    
+    ### 📊 Sezioni Disponibili
+    
+    **🔥 Matrice Performance (Heatmap)**
+    - Incrocio tra **Area geografica** (Nord, Centro, Sud) e **Tipo scuola** (Liceo, Tecnico, ecc.)
+    - I colori indicano il punteggio medio:
+      - 🟢 **Verde scuro**: Punteggio alto (> 5)
+      - 🟡 **Giallo**: Punteggio medio (3-5)
+      - 🔴 **Rosso**: Punteggio basso (< 3)
+    - Le celle vuote indicano assenza di dati per quella combinazione
+    
+    **📊 Box Plot Comparativi**
+    - Mostrano la **distribuzione** dei punteggi per ogni gruppo
+    - La **linea centrale** indica la mediana
+    - La **scatola** contiene il 50% centrale dei dati (dal 25° al 75° percentile)
+    - I **baffi** mostrano il range dei valori tipici
+    - I **punti isolati** sono valori anomali (outlier)
+    
+    **📊 Grafico a Barre per Tipologia**
+    - Confronto diretto delle medie per tipo di scuola
+    - Più la barra è alta, migliore è la performance media
+    
+    ### 🔢 Come Interpretare le Heatmap
+    - **Righe**: Tipi di scuola
+    - **Colonne**: Aree geografiche o altre categorie
+    - **Intensità colore**: Livello del punteggio
+    - **Valori numerici**: Valore esatto della cella
+    """)
+
 if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
@@ -96,6 +129,14 @@ if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
             - **Blu/Rosso scuro:** Punteggi alti/bassi (a seconda della scala).
             - **Numeri:** Il punteggio medio del gruppo (1-7).
             """)
+        
+        st.info("""
+💡 **A cosa serve**: Incrocia tipologia scolastica e area geografica per identificare le combinazioni migliori e peggiori.
+
+🔍 **Cosa rileva**: Ogni cella mostra il punteggio medio di quel gruppo. Colori scuri = punteggi estremi (alti o bassi). Celle vuote = nessun dato per quella combinazione.
+
+🎯 **Implicazioni**: Se i Licei del Nord hanno punteggi alti ma quelli del Sud bassi, potrebbe indicare disparità territoriali da affrontare. Utile per politiche educative mirate.
+""")
     else:
         st.info("Dati insufficienti per la Heatmap")
 else:
@@ -160,6 +201,14 @@ if all(c in df.columns for c in radar_cols):
             height=600
         )
         st.plotly_chart(fig, use_container_width=True)
+        
+        st.info("""
+💡 **A cosa serve**: Confronta il "profilo" di diversi gruppi (es. Licei vs Tecnici) sulle 5 dimensioni dell'orientamento.
+
+🔍 **Cosa rileva**: Ogni "petalo" del radar è una dimensione. Più un gruppo si espande verso l'esterno, migliore è in quella area. Gruppi con profili sovrapposti hanno performance simili.
+
+🎯 **Implicazioni**: Se un tipo di scuola ha un profilo "schiacciato" su una dimensione, quella è un'area critica su cui lavorare a livello di sistema per quel tipo di istituto.
+""")
 else:
     st.info("Dati insufficienti per il Radar Chart")
 
@@ -200,6 +249,14 @@ with col2:
         - **Baffi (Linee):** Indicano il range dei valori (esclusi gli outlier).
         """)
 
+st.info("""
+💡 **A cosa serve**: Mostra come si distribuiscono i punteggi all'interno di ogni gruppo, non solo la media.
+
+🔍 **Cosa rileva**: La linea centrale è la mediana (metà delle scuole sta sopra, metà sotto). La "scatola" contiene il 50% centrale. I punti isolati sono scuole eccezionali (positive o negative).
+
+🎯 **Implicazioni**: Scatole "alte" indicano gruppi migliori. Scatole "lunghe" indicano alta variabilità (alcune scuole eccellenti, altre no). I punti isolati meritano attenzione speciale.
+""")
+
 st.markdown("---")
 
 # 4. Grouped Bar I Grado vs II Grado
@@ -224,6 +281,14 @@ if 'ordine_grado' in df.columns:
                      barmode='group', title="Media per Dimensione: I Grado vs II Grado")
         fig.update_layout(xaxis_tickangle=-30)
         st.plotly_chart(fig, use_container_width=True)
+        
+        st.info("""
+💡 **A cosa serve**: Confronta direttamente le scuole di I grado (medie) con quelle di II grado (superiori) su ogni dimensione.
+
+🔍 **Cosa rileva**: Le barre affiancate mostrano le medie per grado. Differenze evidenti tra i colori indicano che un grado performa sistematicamente meglio dell'altro in quella dimensione.
+
+🎯 **Implicazioni**: Se il II grado eccelle in "Opportunità" ma il I grado no, potrebbe indicare che i collegamenti con il mondo del lavoro sono più sviluppati alle superiori. Utile per interventi specifici per fascia d'età.
+""")
 
 st.markdown("---")
 
@@ -255,6 +320,14 @@ if all(c in df.columns for c in gap_cols):
         - **Verde/Blu:** Il punteggio attuale raggiunto.
         - **Rosso/Grigio:** Il gap (distanza) mancante per arrivare a 7.
         """)
+
+st.info("""
+💡 **A cosa serve**: Visualizza quanto manca a ciascuna dimensione per raggiungere l'eccellenza (punteggio massimo 7).
+
+🔍 **Cosa rileva**: La parte verde è il punteggio medio attuale, quella rossa è il "gap" da colmare. Dimensioni con più rosso sono quelle dove c'è maggior margine di miglioramento.
+
+🎯 **Implicazioni**: Concentra gli sforzi sulle dimensioni con gap maggiori. Queste sono le priorità di intervento per migliorare la qualità complessiva dell'orientamento nel sistema.
+""")
 
 # 6. Regional comparison
 st.subheader("🗺️ Confronto Regionale")
@@ -292,6 +365,14 @@ if 'regione' in df.columns:
             )
             fig.update_traces(texttemplate='n=%{text}', textposition='outside')
             st.plotly_chart(fig, use_container_width=True)
+            
+            st.info("""
+💡 **A cosa serve**: Ordina le regioni per punteggio medio, permettendo confronti territoriali immediati.
+
+🔍 **Cosa rileva**: Le regioni in alto hanno punteggi migliori. Il numero "n=" indica quante scuole sono state analizzate. Regioni con n basso hanno dati meno affidabili.
+
+🎯 **Implicazioni**: Le regioni con punteggi bassi potrebbero necessitare di programmi formativi specifici. Confronta la tua regione con le altre per capire il posizionamento.
+""")
         else:
             st.info("Dati regionali insufficienti (servono almeno 3 regioni)")
     else:
