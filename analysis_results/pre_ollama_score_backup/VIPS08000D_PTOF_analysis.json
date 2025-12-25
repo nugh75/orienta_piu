@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "school_id": "VIPS08000D",
+    "denominazione": "L.S. \"Da Vinci\" Arzignano",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Arzignano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Vicenza",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Fortis 3",
+    "cap": "36071",
+    "email": "vips08000d@istruzione.it",
+    "pec": "vips08000d@pec.istruzione.it",
+    "website": "www.chilesotti.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=2, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T22:40:41.305241"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Enti territoriali",
+        "enti culturali",
+        "Università",
+        "MUCE",
+        "British Institutes",
+        "Mater Academy",
+        "Rete Les",
+        "agenzia organizzativa italiana",
+        "scuola partner (Spagna)",
+        "Garage Erasmus Brussels",
+        "istituti partner eTwinning",
+        "Polizia Postale e delle Telecomunicazioni",
+        "Centri esperti del territorio",
+        "Fai",
+        "Associazione Miti & Mete",
+        "Biblioteca “Bedeschi” di Arzignano",
+        "Casa Editrice Einaudi",
+        "Università di Verona",
+        "Istituto Superiore di Scienze Religiose",
+        "Fondazione Centro Produttività del Veneto",
+        "UAT di Vicenza"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzazione delle peculiarità degli studenti",
+        "evidence_location": "Pagina 36"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sostenere e consolidare gli apprendimenti",
+        "evidence_location": "Pagina 36"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "costruendo e realizzando un progetto di vita",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Favorire la maturazione di una scelta consapevole degli studi e del lavoro post-diploma",
+        "evidence_location": "Pagina 230-231, 246-247"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "progetto “Atlante”",
+        "evidence_location": "Pagina 92"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l’orientamento",
+      "5w_chi": "Studenti",
+      "5w_cosa": "PCTO",
+      "5w_dove": "Aziende",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Acquisizione competenze",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "PCTO",
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Visite e viaggi di studio",
+      "categoria_principale": "Visita",
+      "descrizione_e_metodologia": "Visite e viaggi di studio",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Visite e viaggi",
+      "5w_dove": "Luoghi di interesse",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ampliare conoscenze",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Visite e viaggi",
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Progetto STEM YOUR BRAIN",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo competenze STEM e multilinguistiche",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Acquisizione competenze STEM e linguistiche",
+      "5w_dove": "Scuola",
+      "5w_quando": "15/11/2023 - 15/05/2025",
+      "5w_perche": "Potenziare competenze STEM e linguistiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Sviluppo delle nuove competenze e delle nuove opportunità nel campo dell’allenamento fisico",
+      "evidence_location": "Pagina 38"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale scolastico sull'innovazione digitale",
+      "5w_chi": "Personale scolastico",
+      "5w_cosa": "Formazione sull'uso di tecnologie digitali",
+      "5w_dove": "Scuola",
+      "5w_quando": "01/01/2023 - 31/08/2024",
+      "5w_perche": "Potenziare l'innovazione didattica e digitale",
+      "ore_dichiarate": "ND",
+      "target": "20 unità di personale",
+      "evidence_quote": "attività di formazione di personale scolastico",
+      "evidence_location": "Pagina 37"
+    },
+    {
+      "titolo_attivita": "Visita guidata a Verona Romana",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita guidata a Verona Romana",
+      "5w_chi": "Studenti classe 1A",
+      "5w_cosa": "Visita guidata",
+      "5w_dove": "Verona",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ampliare la conoscenza del patrimonio storico-artistico",
+      "ore_dichiarate": "ND",
+      "target": "Classe 1A",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "Visita guidata Archeopark",
+      "categoria_principale": "Visita",
+      "descrizione_e_metodologia": "Visita guidata Archeopark",
+      "5w_chi": "Studenti classi 1D1, 1D2, 1D3, 1C1, 1E",
+      "5w_cosa": "Visita guidata",
+      "5w_dove": "Archeopark",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ampliare la conoscenza del patrimonio storico-artistico",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1D1, 1D2, 1D3, 1C1, 1E",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "Visita guidata a Padova",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita guidata a Padova",
+      "5w_chi": "Studenti classi 1D1, 1D2, 1D3",
+      "5w_cosa": "Visita guidata",
+      "5w_dove": "Padova",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ampliare la conoscenza del patrimonio storico-artistico",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1D1, 1D2, 1D3",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "Visita al comune di Arzignano",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al comune di Arzignano",
+      "5w_chi": "Studenti classi 1F1, 1F2",
+      "5w_cosa": "Visita guidata",
+      "5w_dove": "Comune di Arzignano",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Conoscere l'amministrazione locale",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1F1, 1F2",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "Viaggio d’istruzione a Jesolo",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Viaggio d’istruzione a Jesolo",
+      "5w_chi": "Studenti classi 1F2, 1F3",
+      "5w_cosa": "Viaggio d'istruzione",
+      "5w_dove": "Jesolo",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Attività sportiva",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1F2, 1F3",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "Visita guidata in lingua inglese +attività laboratoriale con MUCE",
+      "categoria_principale": "Uscita Didattica/Laboratorio",
+      "descrizione_e_metodologia": "Visita guidata in lingua inglese e attività laboratoriale",
+      "5w_chi": "Studenti classi II A, II D1, II D2",
+      "5w_cosa": "Visita guidata e laboratorio",
+      "5w_dove": "MUCE",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Potenziamento competenze linguistiche e scientifiche",
+      "ore_dichiarate": "8",
+      "target": "Classi II A, II D1, II D2",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 60"
+    },
+    {
+      "titolo_attivita": "progetto “Atlante”",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Orientamento post diploma",
+      "5w_chi": "Classi IV",
+      "5w_cosa": "Orientamento post diploma",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Orientare gli studenti alle scelte post-diploma",
+      "ore_dichiarate": "51/57",
+      "target": "Classi IV",
+      "evidence_quote": "progetto “Atlante” di Alpha Test",
+      "evidence_location": "Pagina 92"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage in aziende, scuole, all'estero",
+      "5w_chi": "Classi IV e V",
+      "5w_cosa": "Esperienza lavorativa",
+      "5w_dove": "Aziende, scuole, estero",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Acquisire competenze professionali",
+      "ore_dichiarate": "Variabile",
+      "target": "Classi IV e V",
+      "evidence_quote": "Nell'anno 2022/2023 lo stage di classe quarta verrà svolto all'estero",
+      "evidence_location": "Pagina 116"
+    },
+    {
+      "titolo_attivita": "Visita guidata “I luoghi dell’abbandono”",
+      "categoria_principale": "Uscita didattica",
+      "descrizione_e_metodologia": "Visita a luoghi abbandonati",
+      "5w_chi": "Classi IV",
+      "5w_cosa": "Conoscere il territorio e la sua storia",
+      "5w_dove": "Cologna Veneta",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sensibilizzare gli studenti",
+      "ore_dichiarate": "ND",
+      "target": "Classi IV",
+      "evidence_quote": "Nessuna",
+      "evidence_location": "Pagina 92"
+    },
+    {
+      "titolo_attivita": "Potenziamento Fisica e Data Science",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ampliare e sostenere l'offerta formativa attraverso azioni specifiche per potenziare gli apprendimenti e le competenze chiave digitali. Utilizzare metodologie didattiche innovative che valorizzino l'apprendimento attivo e cooperativo.",
+      "5w_chi": "Studenti indirizzo Scienze Applicate",
+      "5w_cosa": "1 ora curriculare settimanale di fisica in compresenza con il docente di informatica",
+      "5w_dove": "Scuola",
+      "5w_quando": "Biennio",
+      "5w_perche": "Potenziare competenze matematico-logiche, scientifiche e digitali",
+      "ore_dichiarate": "1 ora settimanale",
+      "target": "Studenti Biennio Scienze Applicate",
+      "evidence_quote": "potenziamento delle competenze matematico-logiche e scientifiche",
+      "evidence_location": "Pagina 126"
+    },
+    {
+      "titolo_attivita": "Rete Les",
+      "categoria_principale": "Iniziative Territoriali",
+      "descrizione_e_metodologia": "Partecipazione agli incontri della rete, alle iniziative di aggiornamento, ai concorsi indetti dalla Rete. Proporre innovazioni legate alle peculiarità dell’indirizzo: attività e uscite sul territorio differenziate in relazione all’anno di frequenza.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Visite a istituzioni, strutture di volontariato, Senato, ex Manicomio, Università",
+      "5w_dove": "Territorio (Comune, Palazzo Balbi, Senato, Reggio Emilia, Venezia, Università)",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo di comportamenti responsabili, potenziamento metodologie laboratoriali, orientamento",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "valorizzazione della scuola intesa come comunità attiva",
+      "evidence_location": "Pagina 128"
+    },
+    {
+      "titolo_attivita": "Les Sport",
+      "categoria_principale": "Curvatura",
+      "descrizione_e_metodologia": "Aumento delle ore di educazione fisica nel biennio e nel triennio con modulazione diversificata del monte ore e due ore settimanali dedicate a sport nelle strutture del territorio.",
+      "5w_chi": "Studenti interessati",
+      "5w_cosa": "Aumento ore di educazione fisica, attività sportive, approfondimenti su diritto sportivo, alimentazione, primo soccorso, doping.",
+      "5w_dove": "Scuola e strutture sportive del territorio",
+      "5w_quando": "Biennio e Triennio",
+      "5w_perche": "Incrementare l'attività motoria, inclusione scolastica, miglioramento del rendimento scolastico.",
+      "ore_dichiarate": "2 ore settimanali",
+      "target": "Studenti interessati",
+      "evidence_quote": "sviluppo di comportamenti responsabili",
+      "evidence_location": "Pagina 130"
+    },
+    {
+      "titolo_attivita": "Stage alle scuole dell'infanzia e alla scuola primaria",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage di una settimana presso le scuole dell’infanzia (per le classi terze) e stage di tre giorni presso la scuola primaria (per le classi quarte).",
+      "5w_chi": "Classi terze e quarte",
+      "5w_cosa": "Attività di osservazione e animazione presso scuole dell'infanzia e primaria",
+      "5w_dove": "Scuole dell'infanzia e primaria",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Conoscere i contesti educativi, acquisire abilità educative, riflettere sulla realtà educativa.",
+      "ore_dichiarate": "ND",
+      "target": "Classi terze e quarte",
+      "evidence_quote": "potenziamento delle metodologie laboratoriali",
+      "evidence_location": "Pagina 132"
+    },
+    {
+      "titolo_attivita": "Sportello Di Ascolto",
+      "categoria_principale": "Servizio di supporto",
+      "descrizione_e_metodologia": "Ascolto individuale di studenti o di genitori; interventi nelle classi o per piccoli gruppi ; consulenza ai docenti in casi particolari",
+      "5w_chi": "Studenti, genitori, docenti",
+      "5w_cosa": "Supporto psicologico e orientativo",
+      "5w_dove": "Scuola",
+      "5w_quando": "Continuativo",
+      "5w_perche": "Prevenire la dispersione scolastica, il disagio scolastico, sostenere le scelte scolastiche",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Prevenire la dispersione scolastica.",
+      "evidence_location": "Pagina 153"
+    },
+    {
+      "titolo_attivita": "Educational Internet Radio",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Percorso di alfabetizzazione digitale, narrativa; esperienza radiofonica per lavoro sulle narrazioni, comunicazione personale ed emozioni",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Creazione di podcast radiofonici",
+      "5w_dove": "Laboratori",
+      "5w_quando": "ND",
+      "5w_perche": "Sviluppare competenze linguistiche, digitali, comunicative",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": "imparare a gestire i processi comunicativi",
+      "evidence_location": "Pagina 155"
+    },
+    {
+      "titolo_attivita": "Riorientamento",
+      "categoria_principale": "Servizio di supporto",
+      "descrizione_e_metodologia": "Monitoraggio casi di difficoltà, incontri con studenti e famiglie, contatti con altri istituti, stage",
+      "5w_chi": "Studenti con difficoltà, famiglie, docenti",
+      "5w_cosa": "Supporto per superare difficoltà scolastiche e scegliere percorsi alternativi",
+      "5w_dove": "Scuola, altri istituti",
+      "5w_quando": "Continuativo",
+      "5w_perche": "Prevenire l'abbandono scolastico, sostenere le scelte scolastiche",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": "Eventuali contatti con altri Istituti per facilitare l’inserimento di studenti che decidono di cambiare scuola",
+      "evidence_location": "Pagina 157"
+    },
+    {
+      "titolo_attivita": "Biblioteca Scolastica Multimediale Bsm",
+      "categoria_principale": "Servizio",
+      "descrizione_e_metodologia": "Registrazione utenti, prestito libri, progetti di lettura, promozione della lettura",
+      "5w_chi": "Studenti, docenti, personale ATA",
+      "5w_cosa": "Promozione della lettura e accesso alle risorse bibliotecarie",
+      "5w_dove": "Biblioteca",
+      "5w_quando": "Continuativo",
+      "5w_perche": "Promuovere la lettura come pratica sociale",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": "Promozione della lettura come pratica sociale democratica stimolante e condivisa",
+      "evidence_location": "Pagina 159"
+    }
+  ],
+  "narrative": "Il Piano Triennale dell'Offerta Formativa (PTOF) del Liceo \"Da Vinci\" di Arzignano pone una forte enfasi sull'orientamento, come evidenziato dalla presenza di una sezione dedicata e da una vasta gamma di attività correlate. La scuola si avvale di numerose partnership con enti territoriali, culturali, università e altre istituzioni, creando un network di supporto per gli studenti. Le finalità dell'orientamento sono orientate alla valorizzazione delle attitudini, degli interessi e alla costruzione di un progetto di vita consapevole, con particolare attenzione alle transizioni formative e allo sviluppo di capacità orientative utili per affrontare le sfide del mondo del lavoro. Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, il mantenimento del legame con il territorio, il contrasto alla dispersione NEET e la promozione del lifelong learning. Le azioni implementate si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e il monitoraggio delle attività. L'offerta didattica orientativa si basa su esperienze dirette, laboratori, flessibilità degli spazi e dell'interdisciplinarità. L'ampia gamma di opzionali culturali, laboratoriali, sportive e di volontariato offre agli studenti diverse opportunità di approfondimento e sviluppo personale.  Sebbene il PTOF delinei un quadro ambizioso per l'orientamento, una valutazione più approfondita richiederebbe dati sull'efficacia delle attività implementate e un'analisi critica dei risultati ottenuti.  Inoltre, l'attenzione all'inclusione, pur presente nel PTOF, necessita di una sezione dedicata che ne delinei le strategie specifiche, le risorse impiegate e i criteri di valutazione. L'integrazione di queste informazioni completerebbe il quadro e fornirebbe una visione più completa e realistica dell'impegno della scuola verso un'offerta formativa inclusiva e orientata al successo di tutti gli studenti.",
+  "review_notes": "Sono stati ridotti i punteggi estremi per le sezioni che non hanno un capitolo o una sezione esplicitamente intitolata, come richiesto dalle istruzioni.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:40:41.305675",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 13,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
+}

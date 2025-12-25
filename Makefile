@@ -112,7 +112,7 @@ dashboard:
 	$(STREAMLIT) run app/Home.py --server.port 8501
 
 csv:
-	$(PYTHON) src/processing/rebuild_csv_clean.py
+	$(PYTHON) -m src.processing.rebuild_csv_clean
 	$(PYTHON) src/processing/geocode_schools.py
 
 backfill:
@@ -219,15 +219,15 @@ download-reset:
 
 # Slow Review (uso: make review-slow MODEL=google/gemini-2.0-flash-exp:free)
 review-slow:
-	$(PYTHON) src/processing/slow_reviewer.py $(if $(MODEL),--model "$(MODEL)",)
+	$(PYTHON) -m src.processing.slow_reviewer $(if $(MODEL),--model "$(MODEL)",)
 
 # Gemini Review (uso: make review-gemini MODEL=gemini-1.5-pro)
 review-gemini:
-	$(PYTHON) src/processing/gemini_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(WAIT),--wait $(WAIT),)
+	$(PYTHON) -m src.processing.gemini_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(WAIT),--wait $(WAIT),)
 
 # Ollama Report Review (uso: make review-ollama MODEL=qwen3:32b)
 review-ollama:
-	$(PYTHON) src/processing/ollama_report_reviewer.py \
+	$(PYTHON) -m src.processing.ollama_report_reviewer \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(CHUNK_SIZE),--chunk-size $(CHUNK_SIZE),) \
@@ -237,15 +237,15 @@ review-ollama:
 
 # Score Review (uso: make review-scores MODEL=... LOW=2 HIGH=6 TARGET=RMIC8GA002)
 review-scores:
-	$(PYTHON) src/processing/score_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
+	$(PYTHON) -m src.processing.score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
 
 # Score Review (Gemini) (uso: make review-scores-gemini MODEL=gemini-2.0-flash-exp LOW=2 HIGH=6)
 review-scores-gemini:
-	$(PYTHON) src/processing/score_reviewer.py --provider gemini $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
+	$(PYTHON) -m src.processing.score_reviewer --provider gemini $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
 
 # Score Review (Ollama) (uso: make review-scores-ollama MODEL=qwen3:32b LOW=2 HIGH=6)
 review-scores-ollama:
-	$(PYTHON) src/processing/ollama_score_reviewer.py \
+	$(PYTHON) -m src.processing.ollama_score_reviewer \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(CHUNK_SIZE),--chunk-size $(CHUNK_SIZE),) \
@@ -257,7 +257,7 @@ review-scores-ollama:
 
 # Non-PTOF Review (uso: make review-non-ptof TARGET=RMIC8GA002 DRY=1)
 review-non-ptof:
-	$(PYTHON) src/processing/non_ptof_reviewer.py $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),)
+	$(PYTHON) -m src.processing.non_ptof_reviewer $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),)
 
 # ═══════════════════════════════════════════════════════════════════
 # OLLAMA REVIEWERS (locale su 192.168.129.14)
@@ -265,19 +265,19 @@ review-non-ptof:
 
 # Ollama Score Review (uso: make ollama-score-review MODEL=qwen3:32b TARGET=RMIC8GA002)
 ollama-score-review:
-	$(PYTHON) src/processing/ollama_score_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
+	$(PYTHON) -m src.processing.ollama_score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
 
 # Ollama Report Review (uso: make ollama-report-review MODEL=qwen3:32b TARGET=RMIC8GA002)
 ollama-report-review:
-	$(PYTHON) src/processing/ollama_report_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
+	$(PYTHON) -m src.processing.ollama_report_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
 
 # Esegue entrambi i reviewer Ollama in sequenza
 ollama-review-all:
 	@echo "🔍 Fase 1: Revisione Score..."
-	$(PYTHON) src/processing/ollama_score_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
+	$(PYTHON) -m src.processing.ollama_score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
 	@echo ""
 	@echo "✨ Fase 2: Arricchimento Report..."
-	$(PYTHON) src/processing/ollama_report_reviewer.py $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
+	$(PYTHON) -m src.processing.ollama_report_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
 	@echo ""
 	@echo "🏁 Revisione Ollama completata!"
 
@@ -297,7 +297,7 @@ csv-watch:
 
 # Mostra statistiche del registro
 registry-status:
-	$(PYTHON) src/utils/analysis_registry.py --stats
+	$(PYTHON) -m src.utils.analysis_registry --stats
 
 # Lista tutti i file registrati
 registry-list:

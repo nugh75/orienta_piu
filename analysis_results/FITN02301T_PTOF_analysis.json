@@ -314,6 +314,22 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:30:40.035536",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 21,
+        "enrichments_found": 30,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [

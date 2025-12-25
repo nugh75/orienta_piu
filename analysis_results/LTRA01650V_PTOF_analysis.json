@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 1,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=6, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. L’orientamento è trattato in maniera trasversale in diverse parti del PTOF, con particolare enfasi nei moduli formativi di 30 ore per ciascuna classe, dalla prima alla quinta. Questi moduli sono proge (Precedente: score=1, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:19:20.628568"
+      "ollama_review_date": "2025-12-25T00:03:15.175431"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -247,6 +247,22 @@
         "report_created": false,
         "report_enriched": false,
         "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T00:04:29.405280",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 49,
+        "corrections_found": 2,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ]

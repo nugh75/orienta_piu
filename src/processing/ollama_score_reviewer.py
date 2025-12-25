@@ -22,6 +22,11 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Any, List
 
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.utils.file_utils import atomic_write
+
 # Flag per uscita controllata
 EXIT_REQUESTED = False
 
@@ -519,8 +524,7 @@ def main():
                 })
                 
                 # Salva
-                with open(json_path, 'w') as f:
-                    json.dump(updated_json, f, indent=2, ensure_ascii=False)
+                atomic_write(json_path, json.dumps(updated_json, indent=2, ensure_ascii=False), backup=True)
                 
                 logger.info(f"✅ {school_code}: JSON aggiornato")
                 
@@ -548,8 +552,7 @@ def main():
                         "note": "Nessuna modifica necessaria"
                     }
                 })
-                with open(json_path, 'w') as f:
-                    json.dump(json_data, f, indent=2, ensure_ascii=False)
+                atomic_write(json_path, json.dumps(json_data, indent=2, ensure_ascii=False))
                 logger.info(f"✅ {school_code}: Nessuna modifica necessaria (attività registrata)")
                 
                 # Registra nel registro centrale

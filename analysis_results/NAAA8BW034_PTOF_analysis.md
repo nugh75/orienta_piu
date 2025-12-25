@@ -1,0 +1,39 @@
+# Analisi del PTOF NAAA8BW034  
+## Report di Valutazione dell'Orientamento  
+
+### 1. Sintesi Generale  
+Il PTOF dell'IC2 Omero-Mazzini-Donmilani Pom dimostra una sensibilità alle esigenze del territorio e alle aspettative delle famiglie, con un focus particolare sull'inclusione e sulla valorizzazione delle potenzialità individuali degli studenti. Tuttavia, emerge una significativa lacuna: l'assenza di una sezione dedicata all'orientamento scolastico e professionale. Sebbene l'orientamento venga evocato in modo implicito attraverso obiettivi più ampi, come la promozione delle attitudini e degli interessi, non è mai definito in modo esplicito né strutturato in un percorso coerente. L'istituto sembra privilegiare una visione educativa centrata sul presente, trascurando la preparazione degli studenti alle scelte future e alla transizione verso il mondo del lavoro. Questo squilibrio richiede un intervento mirato per integrare l'orientamento nel piano strategico dell'istituzione.  
+
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all'Orientamento  
+Nel PTOF non è presente alcuna sezione dedicata all'orientamento, né un capitolo autonomo che ne tratti le finalità, gli obiettivi o le azioni concrete. L'unica menzione rilevabile si trova nell'Obiettivo 1, dove l'attenzione alla valorizzazione delle potenzialità individuali degli studenti potrebbe essere interpretata come una forma di orientamento precoce. Tuttavia, questa connessione non è mai esplicitata, né accompagnata da un'analisi approfondita delle esigenze del mercato del lavoro o delle traiettorie educative possibili. L'assenza di una progettualità specifica rappresenta un gap strutturale, che limita la capacità dell'istituto di accompagnare gli studenti verso scelte consapevoli e responsabili.  
+
+#### 2.2 Partnership e Reti  
+L'istituto ha instaurato collaborazioni significative con enti locali, servizi sociali, ASL, forze dell'ordine, associazioni culturali e sportive. Queste partnership, però, non sono mai articolate in progetti congiunti né in iniziative che possano essere riconducibili all'orientamento. Non è chiaro, ad esempio, se esistano accordi per stage, laboratori tematici o percorsi di accompagnamento alla scelta professionale. Le collaborazioni appaiono più come un elemento decorativo del PTOF, anziché uno strumento operativo per supportare gli studenti nella loro crescita. Per rendere effettive queste alleanze, sarebbe necessario definire obiettivi condivisi, indicatori di successo e un piano di monitoraggio che ne verifichi l'impatto sull'orientamento.  
+
+#### 2.3 Finalità e Obiettivi  
+Le finalità orientative sono presenti in modo frammentario, integrate in obiettivi più ampi che riguardano l'inclusione e la valorizzazione delle attitudini. Non vi è alcuna menzione esplicita di obiettivi legati alla preparazione al progetto di vita, alla transizione formale o alla lotta al fenomeno dei NEET. L'istituto sembra concentrarsi esclusivamente sul presente, trascurando la dimensione progettuale del futuro. Questo approccio, pur legittimo, non risponde alle esigenze delle famiglie e del territorio, che richiedono un'educazione capace di preparare gli studenti a una società in rapida trasformazione.  
+
+#### 2.4 Governance e Azioni di Sistema  
+L'istituto dimostra una buona capacità di coordinamento tra i diversi servizi, con un sistema integrato per l'inclusione e la gestione delle fragilità. Il dialogo tra docenti e genitori è costante, e le risorse sono utilizzate in modo efficiente. Tuttavia, manca un sistema di governance specifico per l'orientamento. Non è previsto alcun organo di monitoraggio che valuti l'efficacia delle azioni intraprese né un piano di comunicazione che coinvolga le famiglie in modo proattivo. Questa lacuna limita la capacità dell'istituto di adottare un approccio sistemico all'orientamento.  
+
+#### 2.5 Didattica Orientativa  
+La didattica si basa su metodologie laboratoriali e sull'uso delle esperienze degli studenti, ma non sembra tener conto della flessibilità degli spazi e dei tempi, né dell'interdisciplinarità. Queste caratteristiche sono essenziali per realizzare attività di orientamento che simulino contesti reali, come stage simulati o progetti di gruppo. L'assenza di una didattica orientativa strutturata rappresenta un ostacolo per lo sviluppo di competenze trasversali, come il problem-solving e la gestione del cambiamento.  
+
+#### 2.6 Opportunità Formative  
+L'offerta di opzionali è limitata e non specificamente orientata alla preparazione alle scelte future. Sono presenti corsi culturali, laboratoriali ed espressivi, ma mancano opzionali dedicati all'orientamento professionale, al volontariato o alla gestione del progetto di vita. Questa scelta riflette una visione dell'educazione che privilegia l'aspetto formativo rispetto a quello progettuale. Tuttavia, per rispondere alle esigenze del mercato del lavoro, sarebbe necessario introdurre percorsi che combinino conoscenze teoriche con esperienze pratiche.  
+
+#### 2.7 Registro Dettagliato delle Attività  
+Nel PTOF non è presente un registro dettagliato delle attività di orientamento, né un elenco delle iniziative realizzate negli anni precedenti. Questo vuoto rende difficile valutare l'efficacia delle azioni intraprese e replicare le buone pratiche. Un registro articolato, suddiviso per classe, settore e anno scolastico, sarebbe un passo fondamentale per costruire una strategia di orientamento a lungo termine.  
+
+### 3. Punti di Forza  
+Tra i punti di forza dell'istituto vi è la capacità di costruire partnership significative con il territorio, che rappresentano una risorsa potenziale per l'orientamento. Inoltre, il buon livello di coordinamento tra i servizi e l'attenzione all'inclusione dimostrano una sensibilità alle esigenze degli studenti più fragili. Questi elementi, se opportunamente integrati in una progettualità orientativa, potrebbero trasformarsi in leve strategiche per il successo formativo.  
+
+### 4. Aree di Debolezza  
+L'area di debolezza più evidente è l'assenza di una sezione dedicata all'orientamento nel PTOF. Questo vuoto non solo limita la capacità dell'istituto di accompagnare gli studenti verso scelte consapevoli, ma anche di rispondere alle aspettative delle famiglie e del territorio. Inoltre, la mancanza di un sistema di monitoraggio e di un registro dettagliato delle attività rende difficile valutare l'efficacia delle iniziative intraprese.  
+
+### 5. Gap Analysis  
+Il gap principale risiede nella mancanza di una strategia di orientamento strutturata e integrata nel PTOF. Non sono definiti obiettivi specifici, né sono previste azioni concrete per supportare gli studenti nella transizione scolastica e professionale. Inoltre, le partnership esterne non sono mai utilizzate per realizzare progetti di orientamento, e le risorse umane dedicate all'inclusione non sono sufficienti per sostenere interventi personalizzati. Per colmare questi gap, è necessario ridefinire il PTOF con un approccio sistemico, che includa indicatori di successo, un piano di comunicazione e una governance dedicata.  
+
+### 6. Conclusioni  
+L'orientamento nell'IC2 Omero-Mazzini-Donmilani Pom è presente in modo implicito, ma non è sufficientemente sviluppato né strutturato. L'assenza di una sezione dedicata nel PTOF e la mancanza di una progettualità specifica rappresentano un limite per l'istituto, che non riesce a offrire agli studenti un percorso chiaro verso il futuro. Per rispondere alle esigenze del territorio e delle famiglie, è necessario adottare una strategia di orientamento integrata, che valorizzi le partnership esistenti, introduca nuove opportunità formative e preveda un sistema di monitoraggio efficace. Solo attraverso un impegno concreto e una visione a lungo termine, l'istituto potrà trasformare le sue potenzialità in risultati tangibili.

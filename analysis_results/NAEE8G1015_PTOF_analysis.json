@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 4,
-      "note": "La sezione è presente, ma l'orientamento è integrato in temi più ampi (transizione ecologica, educazione civica) piuttosto che trattato in modo specifico e approfondito."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF include l'implementazione di iniziative rivolte alla didattica orientativa, con un approccio educativo e formativo già in essere nella progettazione e nel (Precedente: score=4, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:37:17.303368"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -292,11 +294,69 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:49:47.982772",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 29,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:11:35.287561",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 29,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 4,
+            "reason": "Il documento menziona l'orientamento come priorità strategica e descrive iniziative concrete per l'a"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:38:17.623507",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 29,
+        "enrichments_found": 49,
+        "corrections_found": 29,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T20:59:39.668563",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-25T02:11:35.287574",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

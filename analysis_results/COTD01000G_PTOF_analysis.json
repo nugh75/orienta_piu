@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben definita, con una descrizione dettagliata delle iniziative di ampliamento dell'offerta formativa."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:47:58.206710"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -245,5 +247,67 @@
       "evidence_location": "Pagina 200"
     }
   ],
-  "narrative": "# Analisi del PTOF COTD01000G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF dell'Istituto Tecnico Caio Plinio Secondo (COTD01000G), relativo al triennio 2022-2025, dimostra un’attenzione significativa all’orientamento, come evidenziato dalla presenza di una sezione dedicata e dal punteggio massimo attribuito (5). L’istituto, situato a Como in Lombardia, si impegna a valorizzare percorsi formativi individualizzati e a coinvolgere attivamente gli studenti, con l’obiettivo di supportarli nella costruzione di un personale progetto di vita e nella transizione verso il mondo del lavoro o la prosecuzione degli studi. La scuola, statale, opera in un territorio non metropolitano e si distingue per una rete di **partnership** consolidata con diversi attori del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione specificamente dedicata all'orientamento, valutata con un punteggio di 5, indica un impegno strutturale e una chiara definizione delle iniziative in questo ambito.\n\n**2.2 Partnership:** L’istituto vanta un ampio ventaglio di collaborazioni con enti e aziende del territorio, tra cui **ITS - INTERNATIONAL ACADEMY OF TOURISM AND HOSPITALITY**, **Fondazione del Polo Tecnico e Professionale**, **CPIA (Centro Provinciale per l'Istruzione degli Adulti)**, diverse **imprese del territorio**, l’**Università degli Studi dell’Insubria**, **cooperative sociali**, **agenzie formative**, **Enfapi**, **Clerici Tessuto spa**, **Comofil**, **Ambrogio Pessina srl**, **Fortex** e **T.O.T srl**. Questo elevato numero di partnership (13) suggerisce una forte integrazione con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a valorizzare le attitudini, gli interessi degli studenti, a supportare la costruzione del loro progetto di vita, a facilitare le transizioni formative, con particolare attenzione ai percorsi **PCTO**, e a sviluppare le loro capacità orientative per cogliere le opportunità del mercato del lavoro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e includono la riduzione dell’abbandono scolastico, il rafforzamento del legame con il territorio, il contrasto alla dispersione NEET e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L’istituto implementa azioni di sistema efficaci, come il coordinamento dei servizi di orientamento, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e il monitoraggio delle attività. Particolare attenzione è rivolta all’integrazione e al supporto degli studenti con fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull’esperienza diretta degli studenti, sull’utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e, seppur in misura minore, sull’interdisciplinarità.\n\n**2.7 Offerta Formativa Opzionale:** L’offerta formativa opzionale è ricca e diversificata, con opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti opportunità di approfondimento e di sviluppo dei propri interessi.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all’orientamento sono la presenza di una sezione dedicata ben strutturata, la vasta rete di **partnership** con il territorio, l’attenzione alla valorizzazione delle attitudini e degli interessi degli studenti, la definizione di obiettivi ambiziosi e l’implementazione di azioni di sistema efficaci. L'impegno verso l'inclusione e il supporto agli studenti con fragilità rappresenta un ulteriore elemento distintivo. Le attività come **PCTO** e i **Progetti con CPIA** dimostrano un approccio pratico e inclusivo all'orientamento.\n\n### 4. Aree di Debolezza\n\nSebbene il PTOF presenti numerosi punti di forza, alcune aree potrebbero beneficiare di un ulteriore approfondimento. L’interdisciplinarità nella didattica orientativa, pur presente, potrebbe essere potenziata. L'obiettivo di continuità con il territorio, pur presente, ha ottenuto un punteggio inferiore rispetto agli altri, suggerendo la necessità di rafforzare ulteriormente i legami con il contesto locale.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra una solida base per l’orientamento, ma un’analisi più approfondita potrebbe rivelare la necessità di definire indicatori specifici per misurare l’efficacia delle azioni intraprese e di monitorare costantemente i risultati ottenuti. Inoltre, sarebbe utile prevedere attività di orientamento specifiche per gli studenti con bisogni educativi speciali.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell’Istituto Caio Plinio Secondo presenta un approccio all’orientamento completo e ben strutturato, supportato da una solida rete di **partnership** e da un impegno costante nella valorizzazione degli studenti. Le attività come **STUDENTI PROTAGONISTI**, **Progetto BEN-ESSERE – UNPLUGGED** e **Transizione ecologica e culturale** arricchiscono l'offerta formativa e contribuiscono allo sviluppo di competenze trasversali e di cittadinanza attiva. La formazione del personale, sia docenti che ATA, su temi cruciali come la violenza sulle donne e la digitalizzazione, testimonia l'impegno dell'istituto verso un ambiente scolastico inclusivo e all'avanguardia."
+  "narrative": "# Analisi del PTOF COTD01000G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF dell'Istituto Tecnico Caio Plinio Secondo (COTD01000G), relativo al triennio 2022-2025, dimostra un’attenzione significativa all’orientamento, come evidenziato dalla presenza di una sezione dedicata e dal punteggio massimo attribuito (5). L’istituto, situato a Como in Lombardia, si impegna a valorizzare percorsi formativi individualizzati e a coinvolgere attivamente gli studenti, con l’obiettivo di supportarli nella costruzione di un personale progetto di vita e nella transizione verso il mondo del lavoro o la prosecuzione degli studi. La scuola, statale, opera in un territorio non metropolitano e si distingue per una rete di **partnership** consolidata con diversi attori del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione specificamente dedicata all'orientamento, valutata con un punteggio di 5, indica un impegno strutturale e una chiara definizione delle iniziative in questo ambito.\n\n**2.2 Partnership:** L’istituto vanta un ampio ventaglio di collaborazioni con enti e aziende del territorio, tra cui **ITS - INTERNATIONAL ACADEMY OF TOURISM AND HOSPITALITY**, **Fondazione del Polo Tecnico e Professionale**, **CPIA (Centro Provinciale per l'Istruzione degli Adulti)**, diverse **imprese del territorio**, l’**Università degli Studi dell’Insubria**, **cooperative sociali**, **agenzie formative**, **Enfapi**, **Clerici Tessuto spa**, **Comofil**, **Ambrogio Pessina srl**, **Fortex** e **T.O.T srl**. Questo elevato numero di partnership (13) suggerisce una forte integrazione con il contesto socio-economico locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a valorizzare le attitudini, gli interessi degli studenti, a supportare la costruzione del loro progetto di vita, a facilitare le transizioni formative, con particolare attenzione ai percorsi **PCTO**, e a sviluppare le loro capacità orientative per cogliere le opportunità del mercato del lavoro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e includono la riduzione dell’abbandono scolastico, il rafforzamento del legame con il territorio, il contrasto alla dispersione NEET e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L’istituto implementa azioni di sistema efficaci, come il coordinamento dei servizi di orientamento, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e il monitoraggio delle attività. Particolare attenzione è rivolta all’integrazione e al supporto degli studenti con fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull’esperienza diretta degli studenti, sull’utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e, seppur in misura minore, sull’interdisciplinarità.\n\n**2.7 Offerta Formativa Opzionale:** L’offerta formativa opzionale è ricca e diversificata, con opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti opportunità di approfondimento e di sviluppo dei propri interessi.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all’orientamento sono la presenza di una sezione dedicata ben strutturata, la vasta rete di **partnership** con il territorio, l’attenzione alla valorizzazione delle attitudini e degli interessi degli studenti, la definizione di obiettivi ambiziosi e l’implementazione di azioni di sistema efficaci. L'impegno verso l'inclusione e il supporto agli studenti con fragilità rappresenta un ulteriore elemento distintivo. Le attività come **PCTO** e i **Progetti con CPIA** dimostrano un approccio pratico e inclusivo all'orientamento.\n\n### 4. Aree di Debolezza\n\nSebbene il PTOF presenti numerosi punti di forza, alcune aree potrebbero beneficiare di un ulteriore approfondimento. L’interdisciplinarità nella didattica orientativa, pur presente, potrebbe essere potenziata. L'obiettivo di continuità con il territorio, pur presente, ha ottenuto un punteggio inferiore rispetto agli altri, suggerendo la necessità di rafforzare ulteriormente i legami con il contesto locale.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra una solida base per l’orientamento, ma un’analisi più approfondita potrebbe rivelare la necessità di definire indicatori specifici per misurare l’efficacia delle azioni intraprese e di monitorare costantemente i risultati ottenuti. Inoltre, sarebbe utile prevedere attività di orientamento specifiche per gli studenti con bisogni educativi speciali.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell’Istituto Caio Plinio Secondo presenta un approccio all’orientamento completo e ben strutturato, supportato da una solida rete di **partnership** e da un impegno costante nella valorizzazione degli studenti. Le attività come **STUDENTI PROTAGONISTI**, **Progetto BEN-ESSERE – UNPLUGGED** e **Transizione ecologica e culturale** arricchiscono l'offerta formativa e contribuiscono allo sviluppo di competenze trasversali e di cittadinanza attiva. La formazione del personale, sia docenti che ATA, su temi cruciali come la violenza sulle donne e la digitalizzazione, testimonia l'impegno dell'istituto verso un ambiente scolastico inclusivo e all'avanguardia.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:11:13.007367",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 11,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:13:24.539530",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 12,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il PTOF menziona attività di orientamento in ingresso, in itinere e in uscita, nonché progetti speci"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:48:59.703586",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 11,
+        "enrichments_found": 19,
+        "corrections_found": 12,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:13:24.539556",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

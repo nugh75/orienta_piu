@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 6,
-      "note": "La sezione è ben definita e dettagliata, con una chiara attenzione ai PCTO come strumento di orientamento."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=6, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T21:19:20.628568"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -213,5 +215,39 @@
     }
   ],
   "narrative": "# Analisi del PTOF LTRA01650V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ipa San Benedetto Serale** (codice scuola **LTRA01650V**) per il triennio **2022-2025**. La scuola, di tipo **Tecnico** e operante nel secondo grado, si trova nel territorio **non metropolitano** del comune di **Latina**, in **Lazio**. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e dettagliata, che pone particolare enfasi sui **Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)**. La scuola dimostra una buona capacità di attivare **partnership** con diversi soggetti esterni, tra cui **agenzie interinali**, **ITS**, **università**, **corpi di polizia**, **enti esterni** come la biblioteca, il **Comune di Latina**, **ABC Ambiente** e l'**Ente parco del Circeo**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è considerata un punto di forza, con un punteggio di 6, sottolineando la chiarezza e il dettaglio con cui vengono affrontate le tematiche relative all'orientamento scolastico e professionale.\n\n**2.2 Partnership:** La scuola vanta un numero considerevole di **partnership** (7), dimostrando una buona capacità di collaborare con il territorio e con il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** necessarie per cogliere le opportunità. I punteggi ottenuti per ciascuna finalità (tra 4 e 5) indicano un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sul rafforzamento del legame con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. I punteggi variano tra 4 e 5, suggerendo un buon livello di ambizione e di concretezza.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e l'implementazione di un **sistema integrato di inclusione e fragilità**. I punteggi ottenuti (tra 4 e 5) indicano un buon livello di organizzazione e di efficacia.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. I punteggi elevati (tra 5 e 6) testimoniano l'impegno della scuola verso una didattica innovativa e orientata ai risultati.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. I punteggi variano tra 3 e 4, suggerendo un'offerta diversificata ma con margini di miglioramento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata ben strutturata, la solida rete di **partnership** con il territorio, l'attenzione alle finalità dell'orientamento e l'impegno verso una didattica innovativa e orientata all'esperienza. L'attività **Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)** rappresenta un elemento centrale per la preparazione degli studenti al mondo del lavoro. Il progetto **Eco-Schools** dimostra un impegno verso la cittadinanza attiva e la sostenibilità ambientale.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'offerta di attività opzionali e facoltative, che potrebbe essere ulteriormente ampliata e diversificata. Il monitoraggio delle azioni di orientamento potrebbe essere potenziato per garantire una maggiore efficacia.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra l'offerta formativa e le esigenze del mercato del lavoro, rafforzando la collaborazione con le **agenzie interinali** e le **ITS** per garantire agli studenti una preparazione adeguata alle professioni del futuro.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ipa San Benedetto Serale** dimostra un forte impegno verso l'orientamento, con una sezione dedicata ben definita e una solida rete di **partnership**. Le attività proposte, come gli **stage in azienda**, i **seminari con agenzie interinali** e le **visite aziendali**, sono mirate a fornire agli studenti le competenze necessarie per affrontare il mondo del lavoro e costruire il proprio **progetto di vita**. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per l'orientamento scolastico e professionale degli studenti.",
-  "review_notes": "I punteggi confermati riflettono la presenza di una sezione dedicata all'orientamento e di una didattica ben strutturata."
+  "review_notes": "I punteggi confermati riflettono la presenza di una sezione dedicata all'orientamento e di una didattica ben strutturata.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T17:31:23.256207",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 19,
+        "corrections_found": 0,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-24T21:19:20.628806",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 9,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
 }

@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben definita, con una descrizione dettagliata delle attività di PCTO e orientamento in uscita."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo Filippo Lussana presenta una chiara definizione delle attività di PCTO e orientamento in uscita, con attenzione allo sviluppo di attitudini, int (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T03:44:23.647214"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -254,5 +256,67 @@
       "evidence_location": "Pagina 75"
     }
   ],
-  "narrative": "Il PTOF del Liceo Filippo Lussana presenta una solida sezione dedicata all'orientamento, con una chiara definizione delle attività di PCTO e orientamento in uscita. La scuola vanta una rete di partnership consolidata con diversi attori del territorio, tra cui enti pubblici, aziende e associazioni culturali. Le finalità dell'orientamento sono ben definite, con particolare attenzione allo sviluppo di attitudini, interessi e capacità di orientamento, oltre alla preparazione alle transizioni formative. Gli obiettivi delineati mirano a ridurre l'abbandono scolastico, favorire la continuità territoriale e promuovere il lifelong learning, sebbene l'impegno specifico nella lotta al fenomeno NEET risulti meno marcato. \n\nL'azione del sistema scolastico si concentra sul coordinamento dei servizi, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie, con un'attenzione particolare all'inclusione e alla gestione delle fragilità. La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori e sull'interdisciplinarità, sebbene la flessibilità degli spazi e dei tempi necessiti di ulteriori sviluppi. L'offerta di opzionali culturali, laboratoriali, sportive e di volontariato arricchisce il percorso formativo degli studenti.\n\nUn aspetto cruciale del PTOF è l'attenzione all'inclusione, con procedure specifiche per gli studenti con Bisogni Educativi Speciali (BES). La scuola si impegna a garantire un supporto personalizzato e a promuovere la loro partecipazione attiva alla vita scolastica. Sebbene non siano previsti specifici percorsi PCTO dedicati agli studenti BES, l'istituto si assicura che tutti gli studenti, indipendentemente dalle loro esigenze, abbiano accesso alle opportunità di orientamento e formazione offerte. L'offerta di progetti extracurriculari, come il progetto biomedica, le competizioni linguistiche e le attività dipartimentali, contribuisce ad ampliare l'offerta formativa e a stimolare l'interesse degli studenti verso diverse discipline."
+  "narrative": "Il PTOF del Liceo Filippo Lussana presenta una solida sezione dedicata all'orientamento, con una chiara definizione delle attività di PCTO e orientamento in uscita. La scuola vanta una rete di partnership consolidata con diversi attori del territorio, tra cui enti pubblici, aziende e associazioni culturali. Le finalità dell'orientamento sono ben definite, con particolare attenzione allo sviluppo di attitudini, interessi e capacità di orientamento, oltre alla preparazione alle transizioni formative. Gli obiettivi delineati mirano a ridurre l'abbandono scolastico, favorire la continuità territoriale e promuovere il lifelong learning, sebbene l'impegno specifico nella lotta al fenomeno NEET risulti meno marcato. \n\nL'azione del sistema scolastico si concentra sul coordinamento dei servizi, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie, con un'attenzione particolare all'inclusione e alla gestione delle fragilità. La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori e sull'interdisciplinarità, sebbene la flessibilità degli spazi e dei tempi necessiti di ulteriori sviluppi. L'offerta di opzionali culturali, laboratoriali, sportive e di volontariato arricchisce il percorso formativo degli studenti.\n\nUn aspetto cruciale del PTOF è l'attenzione all'inclusione, con procedure specifiche per gli studenti con Bisogni Educativi Speciali (BES). La scuola si impegna a garantire un supporto personalizzato e a promuovere la loro partecipazione attiva alla vita scolastica. Sebbene non siano previsti specifici percorsi PCTO dedicati agli studenti BES, l'istituto si assicura che tutti gli studenti, indipendentemente dalle loro esigenze, abbiano accesso alle opportunità di orientamento e formazione offerte. L'offerta di progetti extracurriculari, come il progetto biomedica, le competizioni linguistiche e le attività dipartimentali, contribuisce ad ampliare l'offerta formativa e a stimolare l'interesse degli studenti verso diverse discipline.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:30:46.846674",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 8,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:14:27.070582",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 8,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo mostra attività concrete di orientamento universitario e progetti specifici, anche se non c"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:45:42.131466",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 8,
+        "enrichments_found": 7,
+        "corrections_found": 5,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:14:27.070663",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è presente e ben definita, con un'esposizione chiara delle attività e dei progetti di orientamento."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo \"L.Da Vinci\" di Floridia include attività specifiche come l'orientamento in entrata e in uscita, con incontri informativi presso le scuole secon (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:25:43.755702"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -259,6 +261,58 @@
         "orientamento_found": true,
         "changes": []
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:41:07.764717",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 5,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:00:20.962164",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF presenta una sezione dedicata all'orientamento con dettagliate descrizioni di attività, coll"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:26:54.901182",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 5,
+        "enrichments_found": 10,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
@@ -267,6 +321,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 0
+    },
+    {
+      "timestamp": "2025-12-25T02:00:20.962180",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
     }
   ]
 }

@@ -19,8 +19,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "L'indice a pagina 3 conferma la presenza di sezioni specifiche per l'orientamento (Moduli di orientamento formativo, p. 98) e PCTO (p. 103)."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione 'Piano di formazione del personale docente' include un 'Corso Indire sull’Orientamento e sull’utilizzo della piattaforma Unica', che dimostra un impegno specifico verso l’orientamento degli (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T03:51:39.444431"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -134,7 +136,7 @@
         "score": 6
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 4
       },
       "opzionali_volontariato": {
         "score": 4
@@ -231,5 +233,79 @@
     }
   ],
   "review_notes": "Nessuna modifica necessaria.",
-  "narrative": "# Revisione Auditoriale PTOF AGPC010001\n\n## Sintesi della Valutazione\nIl PTOF del **Liceo Classico - Empedocle** di Agrigento delinea un'istituzione storica fortemente radicata nel territorio ma proiettata verso l'innovazione. L'offerta formativa è caratterizzata da una rara ampiezza di 'curvature' (Biomedica, Informatica, Archeologica, Cambridge) che trasformano l'indirizzo classico tradizionale in un percorso multidisciplinare moderno. La fusione con il Liceo Musicale completa un quadro di eccellenza nelle arti e nelle scienze.\n\n## Punti di Forza Rilevati\n- **Diversificazione Curricolare**: La presenza di sei diverse opzioni di studio all'interno dell'unico indirizzo classico è un elemento distintivo di alto valore orientativo.\n- **Rete Territoriale**: Le partnership con enti di rilievo (Parco Archeologico, ASP, AFAM Toscanini) sono operative e integrate nei percorsi di studio (es. curvatura archeologica e biomedica).\n- **Inclusione e Successo Formativo**: Il documento dedica spazio significativo alla personalizzazione dei percorsi per alunni BES e alla collaborazione con i servizi territoriali.\n\n## Criticità e Note dell'Auditor\n- **Documentazione Tronca**: Molte attività citate nell'analisi precedente (come i laboratori per stranieri o i corsi DDI) non erano verificabili nel testo fornito (pagine 1-28) e sono state rimosse per rigore metodologico.\n- **Risorse Professionali**: Si rileva un'età media elevata del corpo docente (>45 anni) e una limitata competenza certificata nel CLIL, nonostante la presenza dell'indirizzo Cambridge, il che potrebbe rappresentare un punto di attenzione per la sostenibilità futura dei progetti internazionali."
+  "narrative": "# Revisione Auditoriale PTOF AGPC010001\n\n## Sintesi della Valutazione\nIl PTOF del **Liceo Classico - Empedocle** di Agrigento delinea un'istituzione storica fortemente radicata nel territorio ma proiettata verso l'innovazione. L'offerta formativa è caratterizzata da una rara ampiezza di 'curvature' (Biomedica, Informatica, Archeologica, Cambridge) che trasformano l'indirizzo classico tradizionale in un percorso multidisciplinare moderno. La fusione con il Liceo Musicale completa un quadro di eccellenza nelle arti e nelle scienze.\n\n## Punti di Forza Rilevati\n- **Diversificazione Curricolare**: La presenza di sei diverse opzioni di studio all'interno dell'unico indirizzo classico è un elemento distintivo di alto valore orientativo.\n- **Rete Territoriale**: Le partnership con enti di rilievo (Parco Archeologico, ASP, AFAM Toscanini) sono operative e integrate nei percorsi di studio (es. curvatura archeologica e biomedica).\n- **Inclusione e Successo Formativo**: Il documento dedica spazio significativo alla personalizzazione dei percorsi per alunni BES e alla collaborazione con i servizi territoriali.\n\n## Criticità e Note dell'Auditor\n- **Documentazione Tronca**: Molte attività citate nell'analisi precedente (come i laboratori per stranieri o i corsi DDI) non erano verificabili nel testo fornito (pagine 1-28) e sono state rimosse per rigore metodologico.\n- **Risorse Professionali**: Si rileva un'età media elevata del corpo docente (>45 anni) e una limitata competenza certificata nel CLIL, nonostante la presenza dell'indirizzo Cambridge, il che potrebbe rappresentare un punto di attenzione per la sostenibilità futura dei progetti internazionali.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:36:27.656118",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 19,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:22:34.461699",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 19,
+        "extreme_scores_checked": 7,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Non c'è una sezione dedicata all'orientamento, ma il documento menziona attività formative per lo sv"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo menziona attività ludiche e ricreative come il 'Progetto Di Dipartimento 'Centro Sportivo S"
+          },
+          {
+            "path": "ptof_section_2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento non menziona esplicitamente attività ludiche o ricreative, ma il punteggio è stato mant"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:52:39.642850",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 19,
+        "enrichments_found": 39,
+        "corrections_found": 19,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:22:34.461721",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
 }

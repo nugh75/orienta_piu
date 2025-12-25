@@ -31,7 +31,7 @@
         "Scuole del Comune di Lecce"
       ],
       "partnership_count": 4,
-      "score": 2
+      "score": 4
     },
     "2_3_finalita": {
       "finalita_attitudini": {
@@ -45,30 +45,30 @@
         "evidence_location": "Pagina 3"
       },
       "finalita_progetto_vita": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "nessuna citazione esplicita",
         "evidence_location": "N/A"
       },
       "finalita_transizioni_formative": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "nessuna citazione esplicita",
         "evidence_location": "N/A"
       },
       "finalita_capacita_orientative_opportunita": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "nessuna citazione esplicita",
         "evidence_location": "N/A"
       }
     },
     "2_4_obiettivi": {
       "obiettivo_ridurre_abbandono": {
-        "score": 2
+        "score": 4
       },
       "obiettivo_continuita_territorio": {
         "score": 3
       },
       "obiettivo_contrastare_neet": {
-        "score": 2
+        "score": 4
       },
       "obiettivo_lifelong_learning": {
         "score": 3
@@ -76,7 +76,7 @@
     },
     "2_5_azioni_sistema": {
       "azione_coordinamento_servizi": {
-        "score": 2
+        "score": 4
       },
       "azione_dialogo_docenti_studenti": {
         "score": 3
@@ -85,7 +85,7 @@
         "score": 4
       },
       "azione_monitoraggio_azioni": {
-        "score": 2
+        "score": 4
       },
       "azione_sistema_integrato_inclusione_fragilita": {
         "score": 4
@@ -99,7 +99,7 @@
         "score": 3
       },
       "didattica_flessibilita_spazi_tempi": {
-        "score": 2
+        "score": 4
       },
       "didattica_interdisciplinare": {
         "score": 4
@@ -196,6 +196,74 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:20:06.909188",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 3,
+        "extreme_scores_checked": 10,
+        "scores_modified": 9,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_2_partnership.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF menziona partnership con il Comune di Lecce, FISM Lecce, Università e altre scuole, mostrand"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_progetto_vita.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il PTOF menziona l'educazione alla pace, il rispetto delle differenze e la solidarietà, che sono asp"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_transizioni_formative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il PTOF include obiettivi per lo sviluppo di competenze in materia di cittadinanza attiva e democrat"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_capacita_orientative_opportunita.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il PTOF menziona l'educazione all'autoimprenditorialità e la valorizzazione di percorsi formativi in"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_ridurre_abbandono.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF include obiettivi per la prevenzione e contrasto della dispersione scolastica e del bullismo"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF menziona l'educazione all'autoimprenditorialità e la valorizzazione di percorsi formativi in"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_coordinamento_servizi.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF include collaborazione con servizi socio-sanitari ed educativi del territorio, mostrando un "
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF menziona la realizzazione di progetti con monitoraggio e valutazione, indicando un sistema d"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_flessibilita_spazi_tempi.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il PTOF include laboratori curricolari e l'uso di spazi diversi dall'aula, mostrando flessibilità ne"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -204,6 +272,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 2
+    },
+    {
+      "timestamp": "2025-12-25T00:20:06.909206",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 9
     }
   ]
 }

@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "school_id": "BSPS00601V",
+    "denominazione": "(Sez. Ass. I.S. \"Carlo Beretta\")",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Gardone Val Trompia",
+    "anno_ptof": "2025-2028",
+    "provincia": "Brescia",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mazzini N. 19",
+    "cap": "25063",
+    "email": "bsis00600c@istruzione.it",
+    "pec": "ND",
+    "website": "www.iiscberetta.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T23:40:10.140235"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Associazioni di categoria",
+        "ITS Meccatronica della Lombardia",
+        "Enti di formazione professionale",
+        "Comunità Montana",
+        "Civitas",
+        "Associazionismo, terzo settore",
+        "Agenzie di lavoro interinale",
+        "CPIA",
+        "Enti territoriali",
+        "associazioni d’impresa",
+        "privato sociale e culturale",
+        "enti locali",
+        "istituzioni scolastiche del territorio",
+        "rete di scopo della Valle Trompia",
+        "ambito territoriale 6 Brescia e Valle Trompia"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzando ed integrando le diversità",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "risposta ai fabbisogni formativi del territorio",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "dare risposte agli interrogativi, alle incertezze e alle speranze del mondo giovanile",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "percorsi di orientamento, di tirocini di orientamento",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "per dare opportunità formative ed educative",
+        "evidence_location": "Pagina 2"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "PCTO con imprese del territorio",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze di PCTO",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Orientamento al mondo del lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "PCTO saldamente incardinata nel curricolo",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Corso opzionale TIMA",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Corso extracurricolare per la lavorazione dell'arma sportiva",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Formazione specifica nel settore armiero",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Formazione professionale specifica",
+      "ore_dichiarate": "ND",
+      "target": "Studenti interessati",
+      "evidence_quote": "corso opzionale extracurricolare per la lavorazione dell'arma sportiva",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo",
+      "categoria_principale": "Incontri/Workshop",
+      "descrizione_e_metodologia": "Moduli di orientamento formativo degli studenti, di almeno 30 ore, anche extra curricolari, per anno scolastico, nelle classi prime e seconde; moduli curriculari di orientamento formativo degli studenti, di almeno 30 ore per anno scolastico, nelle classi terze, quarte e quinte.",
+      "5w_chi": "Studenti del biennio e triennio",
+      "5w_cosa": "Moduli di orientamento formativo e curriculare",
+      "5w_dove": "Scuola",
+      "5w_quando": "Ogni anno scolastico",
+      "5w_perche": "Aiutare gli studenti a fare sintesi della loro esperienza scolastica e formativa, in vista della costruzione del personale progetto di vita.",
+      "ore_dichiarate": "30+",
+      "target": "Tutte le classi",
+      "evidence_quote": "moduli di orientamento formativo degli studenti, di almeno 30 ore, anche extra curricolari, per anno scolastico, nelle classi prime e seconde",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "PCTO orientativo",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Rilettura dei progetti di PCTO in chiave orientativa, offrendo agli studenti varie opportunità di entrare in contatto con diversi ambiti professionali.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Progetti PCTO con focus sull'orientamento",
+      "5w_dove": "Aziende, Enti",
+      "5w_quando": "Triennio",
+      "5w_perche": "Far crescere la natura orientativa ed auto-orientativa degli studenti.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti del triennio",
+      "evidence_quote": "offrendo agli studenti varie opportunità di entrare in contatto con diversi ambiti professionali",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto Civitas",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Supporto didattico, psicologico e orientativo tramite lo sportello di ascolto Civitas.",
+      "5w_chi": "Studenti con difficoltà",
+      "5w_cosa": "Supporto psicologico e orientativo",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Supportare gli studenti in difficoltà e favorire il benessere psicologico.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti con bisogni specifici",
+      "evidence_quote": "strumento fondamentale di supporto didattico, psicologico e orientativo",
+      "evidence_location": "Pagina 16"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BSPS00601V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) per il periodo 2025-2028 del **Liceo (II Grado) BSPS00601V**, situato a Gardone Val Trompia, in provincia di Brescia e regione Lombardia. La scuola, statale, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata con un punteggio di 5. Tuttavia, si rileva una mancanza di una visione strategica complessiva e di indicatori di successo specifici per misurare l'efficacia delle azioni intraprese. L'istituto si colloca in un territorio non metropolitano e pone particolare attenzione alla continuità territoriale e al contrasto alla dispersione scolastica.\n\n### 2. Analisi Dimensionale\n\nLa scuola ha definito finalità chiare in ambito orientativo, con punteggi elevati per l'attenzione al **progetto di vita** degli studenti (5), alle **transizioni formative** (5) e alle **capacità orientative** e alle opportunità (4). L'attenzione alle attitudini (3) e agli interessi (4) è presente, ma potrebbe essere ulteriormente sviluppata. Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico (5), la continuità territoriale (6), il contrasto alla dispersione giovanile NEET (4) e la promozione del lifelong learning (5).\n\nPer quanto riguarda il sistema di azioni, si evidenzia un buon coordinamento dei servizi (4), un dialogo costruttivo tra docenti e studenti (5) e un rapporto collaborativo con le famiglie (4). Il monitoraggio delle azioni (3) rappresenta un'area di miglioramento. L'offerta didattica orientativa si basa su metodologie esperienziali (4), laboratoriali (6), interdisciplinari (5) e, in misura minore, sulla flessibilità degli spazi e dei tempi (3). L'offerta di attività opzionali e facoltative comprende iniziative culturali (4), laboratoriali ed espressive (5), ludiche e ricreative (3), di volontariato (4) e sportive (4).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella ricchezza e nella varietà delle attività proposte. Tra queste, spiccano i progetti di **PCTO** con imprese del territorio, il corso opzionale **TIMA** per la lavorazione dell'arma sportiva, i **moduli di orientamento formativo** curriculari ed extracurriculari, la rilettura dei progetti di **PCTO** in chiave orientativa e lo **sportello di ascolto Civitas** per il supporto psicologico e orientativo. La scuola collabora attivamente con numerosi partner, tra cui **imprese del territorio**, **associazioni di categoria**, l'**ITS Meccatronica della Lombardia**, **enti di formazione professionale**, la **Comunità Montana**, **Civitas**, associazioni del terzo settore, agenzie di lavoro interinale, il **CPIA**, enti territoriali, associazioni d’impresa, il privato sociale e culturale, enti locali, istituzioni scolastiche del territorio, la **rete di scopo della Valle Trompia** e l'ambito territoriale 6 Brescia e Valle Trompia.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una visione strategica complessiva dell'orientamento e nella scarsa definizione di indicatori di successo per valutare l'efficacia delle azioni intraprese. Il monitoraggio delle attività risulta insufficiente e la flessibilità degli spazi e dei tempi nella didattica orientativa potrebbe essere migliorata.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di tradurre l'impegno teorico verso l'orientamento in risultati misurabili. È necessario definire indicatori specifici per monitorare l'efficacia delle attività di orientamento, come il tasso di successo nell'inserimento nel mondo del lavoro o nell'accesso all'istruzione superiore, e implementare un sistema di monitoraggio più efficace per valutare l'impatto delle azioni intraprese.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo BSPS00601V dimostra un forte impegno verso l'orientamento, supportato da una vasta gamma di attività e collaborazioni con il territorio. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, è necessario definire una visione strategica più chiara, implementare un sistema di monitoraggio più efficace e definire indicatori di successo specifici per valutare l'impatto dell'orientamento sul percorso formativo degli studenti. L'attenzione alla continuità territoriale e al contrasto alla dispersione scolastica rappresenta un valore aggiunto significativo per l'istituto.",
+  "review_notes": "I punteggi confermati riflettono la presenza di azioni strutturate e integrate per la continuità con il territorio e la didattica laboratoriale.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:40:10.140563",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 3,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
+}

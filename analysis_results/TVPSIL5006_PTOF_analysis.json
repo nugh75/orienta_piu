@@ -120,13 +120,13 @@
         "score": 6
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 3
       },
       "opzionali_volontariato": {
         "score": 5
       },
       "opzionali_sportive": {
-        "score": 2
+        "score": 3
       }
     }
   },
@@ -327,6 +327,48 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:48:58.100890",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 27,
+        "extreme_scores_checked": 8,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona iniziative mirate al conseguimento di un metodo di studio adeguato, al recupero ed"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_sportive.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona iniziative mirate al conseguimento di un metodo di studio adeguato, al recupero ed"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:00:02.437126",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 27,
+        "enrichments_found": 30,
+        "corrections_found": 8,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
+      }
     }
   ],
   "review_history": [
@@ -335,6 +377,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 4
+    },
+    {
+      "timestamp": "2025-12-25T00:48:58.100904",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
     }
   ]
 }

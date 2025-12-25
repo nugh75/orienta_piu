@@ -6,6 +6,7 @@ import os
 import glob
 import fitz  # PyMuPDF
 import re
+from src.utils.file_utils import atomic_write
 
 PDF_DIR = 'ptof'
 MD_DIR = 'ptof_md'
@@ -39,8 +40,7 @@ def pdf_to_markdown(pdf_path, output_path):
             page_content = "\n".join(formatted_lines)
             md_content += f"## Pagina {i+1}\n\n{page_content}\n\n---\n\n"
             
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(md_content)
+        atomic_write(output_path, md_content)
             
         return True
     except Exception as e:

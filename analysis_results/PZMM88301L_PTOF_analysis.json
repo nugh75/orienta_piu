@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "Sebbene presente una sezione dedicata all'offerta formativa, l'orientamento è integrato in altre aree (STEM, internazionalizzazione) e non ha una trattazione specifica e approfondita."
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. L'orientamento è trattato in due moduli specifici all'interno del PTOF: il Modulo n° 1 per la classe III e il Modulo n° 2 per la classe I della Scuola Secondaria I grado. Questi moduli descrivono in d (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:59:04.029228"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -287,5 +289,67 @@
       "evidence_location": "Pagina 171"
     }
   ],
-  "narrative": "# Analisi del PTOF PZMM88301L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 dell'I Grado \"A.Busciolano\" di Potenza (PZMM88301L). La scuola, statale situata in un territorio non metropolitano della regione Basilicata, dimostra un impegno significativo verso la costruzione di un sistema di orientamento, sebbene quest'ultimo non sia trattato in una sezione specificamente dedicata, ma integrato in altre aree tematiche come STEM e l'internazionalizzazione. L'istituto si distingue per un'ampia rete di **partnership** con enti locali, ospedali, istituti scolastici superiori, università e associazioni del territorio, evidenziando una forte attenzione alla collaborazione esterna e alla continuità formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di un'offerta formativa ben definita, l'orientamento non beneficia di una trattazione autonoma e approfondita all'interno del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (24), che includono **Legambiente**, **Azione Cattolica**, gli ospedali **San Carlo di Potenza** e **Madonna delle Grazie di Matera**, diversi **istituti di II grado** come il **Liceo Gropius**, l'**IIS Stigliani**, il **Liceo classico Orazio Flacco**, e l'**Università degli Studi di Basilicata**. Questa vasta rete testimonia un forte radicamento nel territorio e una volontà di creare sinergie con diversi attori sociali ed educativi.\n\n**2.3 Finalità:** Le finalità del sistema di orientamento si concentrano sulla valorizzazione dei percorsi formativi individualizzati, sull'attenzione alle esigenze di ciascun alunno e sul supporto a studenti e famiglie nella progettazione del futuro scolastico e professionale. Particolarmente rilevante è l'impegno a rendere coerenti gli accordi con i soggetti esterni per migliorare gli esiti in uscita degli studenti, ottenendo un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi, con punteggi elevati per la riduzione dell'**abbandono scolastico** (5) e la garanzia della continuità territoriale (5). L'istituto mira anche a contrastare il fenomeno dei **NEET** (4) e a promuovere il **lifelong learning** (3).\n\n**2.5 Azioni Sistema:** Le azioni messe in campo per implementare il sistema di orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. L'attenzione al rapporto scuola-genitori è particolarmente forte, con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su metodologie innovative e coinvolgenti, come l'apprendimento dall'esperienza, la didattica laboratoriale, la flessibilità degli spazi e dei tempi e l'approccio interdisciplinare.\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, sportive e, in misura minore, ludico-ricreative e di volontariato.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** con il territorio, nell'attenzione alla personalizzazione dei percorsi formativi e nella volontà di promuovere un sistema di orientamento integrato con le altre aree tematiche. L'impegno verso l'inclusione e il supporto agli studenti con fragilità è un ulteriore elemento distintivo. Attività come **Scuola in Ospedale** dimostrano un forte impegno sociale e la volontà di garantire il diritto allo studio a tutti gli alunni. Progetti come **EDUGREEN** e **Il Giardino Didattico** promuovono la consapevolezza ambientale e il senso di comunità.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione specifica dedicata all'orientamento all'interno del PTOF. Sebbene l'orientamento sia integrato in altre aree, la sua trattazione risulta frammentata e non sufficientemente approfondita.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è l'esplicitazione di una strategia di orientamento coerente e organica, con obiettivi, azioni e indicatori di successo chiaramente definiti. È necessario rafforzare la collaborazione con i soggetti esterni per garantire una transizione fluida tra i diversi ordini di scuola e il mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'I Grado \"A.Busciolano\" di Potenza presenta un quadro complessivamente positivo, caratterizzato da un forte impegno verso l'innovazione didattica, l'inclusione e la collaborazione con il territorio. Tuttavia, per massimizzare l'efficacia del sistema di orientamento, è necessario dedicare maggiore attenzione alla sua strutturazione e integrazione all'interno del PTOF, definendo una sezione specifica e obiettivi misurabili. Progetti come **Percorsi CLIL** e i **Percorsi di alfabetizzazione in lingua francese** dimostrano l'impegno verso l'ampliamento delle competenze linguistiche degli studenti. L'attività **Piano Scuola 4 PNRR** evidenzia l'attenzione all'innovazione tecnologica e al potenziamento delle competenze STEM."
+  "narrative": "# Analisi del PTOF PZMM88301L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 dell'I Grado \"A.Busciolano\" di Potenza (PZMM88301L). La scuola, statale situata in un territorio non metropolitano della regione Basilicata, dimostra un impegno significativo verso la costruzione di un sistema di orientamento, sebbene quest'ultimo non sia trattato in una sezione specificamente dedicata, ma integrato in altre aree tematiche come STEM e l'internazionalizzazione. L'istituto si distingue per un'ampia rete di **partnership** con enti locali, ospedali, istituti scolastici superiori, università e associazioni del territorio, evidenziando una forte attenzione alla collaborazione esterna e alla continuità formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di un'offerta formativa ben definita, l'orientamento non beneficia di una trattazione autonoma e approfondita all'interno del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (24), che includono **Legambiente**, **Azione Cattolica**, gli ospedali **San Carlo di Potenza** e **Madonna delle Grazie di Matera**, diversi **istituti di II grado** come il **Liceo Gropius**, l'**IIS Stigliani**, il **Liceo classico Orazio Flacco**, e l'**Università degli Studi di Basilicata**. Questa vasta rete testimonia un forte radicamento nel territorio e una volontà di creare sinergie con diversi attori sociali ed educativi.\n\n**2.3 Finalità:** Le finalità del sistema di orientamento si concentrano sulla valorizzazione dei percorsi formativi individualizzati, sull'attenzione alle esigenze di ciascun alunno e sul supporto a studenti e famiglie nella progettazione del futuro scolastico e professionale. Particolarmente rilevante è l'impegno a rendere coerenti gli accordi con i soggetti esterni per migliorare gli esiti in uscita degli studenti, ottenendo un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi, con punteggi elevati per la riduzione dell'**abbandono scolastico** (5) e la garanzia della continuità territoriale (5). L'istituto mira anche a contrastare il fenomeno dei **NEET** (4) e a promuovere il **lifelong learning** (3).\n\n**2.5 Azioni Sistema:** Le azioni messe in campo per implementare il sistema di orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. L'attenzione al rapporto scuola-genitori è particolarmente forte, con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su metodologie innovative e coinvolgenti, come l'apprendimento dall'esperienza, la didattica laboratoriale, la flessibilità degli spazi e dei tempi e l'approccio interdisciplinare.\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, sportive e, in misura minore, ludico-ricreative e di volontariato.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** con il territorio, nell'attenzione alla personalizzazione dei percorsi formativi e nella volontà di promuovere un sistema di orientamento integrato con le altre aree tematiche. L'impegno verso l'inclusione e il supporto agli studenti con fragilità è un ulteriore elemento distintivo. Attività come **Scuola in Ospedale** dimostrano un forte impegno sociale e la volontà di garantire il diritto allo studio a tutti gli alunni. Progetti come **EDUGREEN** e **Il Giardino Didattico** promuovono la consapevolezza ambientale e il senso di comunità.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione specifica dedicata all'orientamento all'interno del PTOF. Sebbene l'orientamento sia integrato in altre aree, la sua trattazione risulta frammentata e non sufficientemente approfondita.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è l'esplicitazione di una strategia di orientamento coerente e organica, con obiettivi, azioni e indicatori di successo chiaramente definiti. È necessario rafforzare la collaborazione con i soggetti esterni per garantire una transizione fluida tra i diversi ordini di scuola e il mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'I Grado \"A.Busciolano\" di Potenza presenta un quadro complessivamente positivo, caratterizzato da un forte impegno verso l'innovazione didattica, l'inclusione e la collaborazione con il territorio. Tuttavia, per massimizzare l'efficacia del sistema di orientamento, è necessario dedicare maggiore attenzione alla sua strutturazione e integrazione all'interno del PTOF, definendo una sezione specifica e obiettivi misurabili. Progetti come **Percorsi CLIL** e i **Percorsi di alfabetizzazione in lingua francese** dimostrano l'impegno verso l'ampliamento delle competenze linguistiche degli studenti. L'attività **Piano Scuola 4 PNRR** evidenzia l'attenzione all'innovazione tecnologica e al potenziamento delle competenze STEM.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:19:38.637850",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 9,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:25:40.664077",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 9,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il PTOF menziona una rete denominata 'UNA RETE PER ORIENTARE' che include attività di orientamento c"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:00:24.055405",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 21,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:25:40.664103",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

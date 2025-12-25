@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "school_id": "AGPC010001",
+    "denominazione": "Liceo Classico - Empedocle",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Agrigento",
+    "provincia": "Agrigento",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Empedocle 169",
+    "cap": "92100",
+    "email": "agpc010001@istruzione.it",
+    "pec": "agpc010001@pec.istruzione.it",
+    "website": "www.liceoempedocle.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T22:36:27.655712"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Parco Archeologico Valle dei Templi",
+        "Polo Musei Regionali",
+        "Centro Culturale P.P. Pasolini",
+        "Biblioteca Lucchesiana",
+        "C.N. Studi Pirandelliani",
+        "Biblioteca Comunale La Rocca",
+        "Archivio di Stato",
+        "FAI",
+        "ASP Agrigento",
+        "Soprintendenza BBCCAA",
+        "INDA",
+        "Lega Ambiente",
+        "Fondazione Leonardo Sciascia",
+        "Trinity College London",
+        "Cambridge",
+        "I.A.F. Toscanini",
+        "OAS",
+        "O.G. Siciliani",
+        "ECUA",
+        "Rete logoi kai arete",
+        "Rete di ambito 1",
+        "Rete Debate e impegno civile",
+        "Rete Service Learning e cittadinanza",
+        "Rete Nazionale scuole dialogiche",
+        "Rete Regionale licei musicali",
+        "Rete Nazionale dei licei classici",
+        "Ordini Provinciali dei Medici Chirurghi e degli Odontoiatri"
+      ],
+      "partnership_count": 27
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "conducono quest’ultimo lungo la strada più adeguata perché esprima i talenti che possiede",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "operare in base alle esigenze ed alle inclinazioni del singolo studente",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "creazione di un’attitudine al lavoro investendo sul capitale umano come elemento centrale dello sviluppo sociale",
+        "evidence_location": "Pagina 23"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "raggiungimento di una solida base di conoscenze e competenze è requisito indispensabile... per avere la possibilità effettiva di proseguire proficuamente il proprio percorso di istruzione",
+        "evidence_location": "Pagina 11"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "strategie didattiche e sistemi di apprendimento, che riescano ad attrarre e motivare, in una parola ad orientare, i giovani di questo terzo millennio",
+        "evidence_location": "Pagina 19"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastante_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Liceo con curvatura Biomedica",
+      "categoria_principale": "Percorso di studi",
+      "descrizione_e_metodologia": "Potenziamento di Biologia con lezioni tenute da medici e attività pratiche in strutture sanitarie.",
+      "5w_chi": "Studenti delle classi prime liceali (triennio)",
+      "5w_cosa": "Potenziamento di Biologia",
+      "5w_dove": "Scuola e strutture sanitarie/laboratori",
+      "5w_quando": "Triennio, 50 ore annuali",
+      "5w_perche": "Coniugare studi classici con aspirazioni scientifiche e mediche.",
+      "ore_dichiarate": "50",
+      "target": "Studenti triennio",
+      "evidence_quote": "introduzione di un nuovo percorso di studi: il potenziamento di Biologia con curvatura biomedica",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Liceo Internazionale Cambridge",
+      "categoria_principale": "Percorso di studi",
+      "descrizione_e_metodologia": "Studio di discipline curricolari in lingua inglese seguendo i programmi Cambridge Assessment International Education.",
+      "5w_chi": "Studenti del primo biennio",
+      "5w_cosa": "Matematica, biologia, storia e inglese in lingua straniera",
+      "5w_dove": "Sede storica di via Empedocle",
+      "5w_quando": "Primo biennio",
+      "5w_perche": "Internazionalizzazione dell'offerta formativa.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti biennio",
+      "evidence_quote": "studio di alcune discipline (matematica, biologia, storia e inglese) nei due bienni anche in inglese e con i programmi Cambridge",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Liceo con curvatura Informatica (ITE)",
+      "categoria_principale": "Percorso di studi",
+      "descrizione_e_metodologia": "Fornisce competenze ICT per gestione banche dati, programmazione web e app iOS/Android.",
+      "5w_chi": "Studenti del Liceo Classico",
+      "5w_cosa": "Competenze professionali ICT",
+      "5w_dove": "Scuola",
+      "5w_quando": "Percorso liceale",
+      "5w_perche": "Accesso al mondo del lavoro e a facoltà ingegneristiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti Liceo Classico",
+      "evidence_quote": "fornisce competenze professionali di base nel settore ICT (Information and Communications Technology)",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Liceo con curvatura Archeologica",
+      "categoria_principale": "Percorso di studi",
+      "descrizione_e_metodologia": "Studio dell'archeologia con stage di scavo, simulazioni di laboratorio e digitalizzazione.",
+      "5w_chi": "Studenti del Liceo Classico",
+      "5w_cosa": "Archeologia greca, romana e medievale",
+      "5w_dove": "Scuola e Parco Archeologico Valle dei Templi",
+      "5w_quando": "Percorso liceale",
+      "5w_perche": "Valorizzazione del patrimonio locale e pertinenza territoriale.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti Liceo Classico",
+      "evidence_quote": "L'attività curricolare sarà potenziata dallo studio dell'Archeologia come disciplina",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Liceo Musicale",
+      "categoria_principale": "Percorso di studi",
+      "descrizione_e_metodologia": "Apprendimento tecnico-pratico della musica, esecuzione, interpretazione e tecnologie musicali.",
+      "5w_chi": "Studenti del Liceo Musicale",
+      "5w_cosa": "Esecuzione, composizione, storia della musica",
+      "5w_dove": "Sedi di via Quartararo (ECUA e Brunelleschi)",
+      "5w_quando": "Percorso quinquennale",
+      "5w_perche": "Padronanza dei linguaggi musicali e preparazione AFAM.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti Liceo Musicale",
+      "evidence_quote": "percorso di studi finalizzato all’apprendimento tecnico-pratico della musica",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Curricolo per le competenze sociali, civiche e digitali",
+      "categoria_principale": "Laboratorio/Progetto",
+      "descrizione_e_metodologia": "Integrazione delle 8 competenze chiave europee nella didattica disciplinare.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Educazione civica e cittadinanza digitale",
+      "5w_dove": "Scuola",
+      "5w_quando": "Triennio 2022-2025",
+      "5w_perche": "Formazione dell'identità culturale e sociale del cittadino europeo.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "percorso progettuale finalizzato alla costruzione di un curricolo per le competenze civiche, sociali e digitali",
+      "evidence_location": "Pagina 27"
+    }
+  ],
+  "review_notes": "Nessuna modifica necessaria.",
+  "narrative": "# Revisione Auditoriale PTOF AGPC010001\n\n## Sintesi della Valutazione\nIl PTOF del **Liceo Classico - Empedocle** di Agrigento delinea un'istituzione storica fortemente radicata nel territorio ma proiettata verso l'innovazione. L'offerta formativa è caratterizzata da una rara ampiezza di 'curvature' (Biomedica, Informatica, Archeologica, Cambridge) che trasformano l'indirizzo classico tradizionale in un percorso multidisciplinare moderno. La fusione con il Liceo Musicale completa un quadro di eccellenza nelle arti e nelle scienze.\n\n## Punti di Forza Rilevati\n- **Diversificazione Curricolare**: La presenza di sei diverse opzioni di studio all'interno dell'unico indirizzo classico è un elemento distintivo di alto valore orientativo.\n- **Rete Territoriale**: Le partnership con enti di rilievo (Parco Archeologico, ASP, AFAM Toscanini) sono operative e integrate nei percorsi di studio (es. curvatura archeologica e biomedica).\n- **Inclusione e Successo Formativo**: Il documento dedica spazio significativo alla personalizzazione dei percorsi per alunni BES e alla collaborazione con i servizi territoriali.\n\n## Criticità e Note dell'Auditor\n- **Documentazione Tronca**: Molte attività citate nell'analisi precedente (come i laboratori per stranieri o i corsi DDI) non erano verificabili nel testo fornito (pagine 1-28) e sono state rimosse per rigore metodologico.\n- **Risorse Professionali**: Si rileva un'età media elevata del corpo docente (>45 anni) e una limitata competenza certificata nel CLIL, nonostante la presenza dell'indirizzo Cambridge, il che potrebbe rappresentare un punto di attenzione per la sostenibilità futura dei progetti internazionali.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:36:27.656118",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 19,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:22:34.461699",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 19,
+        "extreme_scores_checked": 7,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Non c'è una sezione dedicata all'orientamento, ma il documento menziona attività formative per lo sv"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo menziona attività ludiche e ricreative come il 'Progetto Di Dipartimento 'Centro Sportivo S"
+          },
+          {
+            "path": "ptof_section_2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento non menziona esplicitamente attività ludiche o ricreative, ma il punteggio è stato mant"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:22:34.461721",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
+}

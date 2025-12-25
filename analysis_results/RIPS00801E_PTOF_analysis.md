@@ -1,53 +1,39 @@
-# Analisi del PTOF RIPS00801E
+# Analisi del PTOF [Riis008004]  
+## Report di Valutazione dell'Orientamento  
 
-## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale  
+Il Piano Triennale dell'Offerta Formativa dell'Istituto Istruzione Superiore "Gregorio Da Catino" (Riis008004) presenta una struttura articolata che integra progetti educativi, partnership istituzionali e iniziative di formazione linguistica e interculturale. Tra le iniziative più significative, spiccano il progetto "Insegnamento Italiano Agli Stranieri", dedicato all'integrazione linguistica e sociale di studenti internazionali, e il progetto "Di Castello in Castello", che promuove confronti culturali tra architetture storiche italiane e francesi attraverso viaggi didattici. Queste attività, insieme alle collaborazioni con enti come Sapienza Università di Roma, Gallerie degli Uffizi e Goethe-Institut, riflettono un impegno per l'offerta formativa diversificata e l'orientamento professionale.  
 
-### 1. Sintesi Generale
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all'Orientamento  
+Nel PTOF analizzato non è presente una sezione autonoma dedicata all'orientamento. L'approccio all'orientamento risulta integrato in diverse aree del piano, come progetti specifici (es. "Insegnamento Italiano Agli Stranieri") e collaborazioni con enti esterni. Questo approccio, pur riconoscendo l'importanza dell'orientamento, non garantisce una visione strategica e articolata che potrebbe favorire una programmazione mirata e una valutazione sistematica delle iniziative.  
 
-Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico** di Poggio Mirteto (RIPS00801E), relativo al periodo 2022-2025. L'analisi si basa sui dati forniti, valutando la presenza di una sezione autonoma dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. In generale, l'orientamento viene affrontato in modo integrato all'interno di altre sezioni del PTOF, come i progetti **PCTO** e le attività di continuità, senza una trattazione autonoma e specifica.
+#### 2.2 Partnership e Reti  
+L'istituto ha sviluppato una rete articolata di collaborazioni con enti pubblici e privati, tra cui COTRAL, Sapienza Università di Roma, Gallerie degli Uffizi, WeSchool, Unicredit, Goethe-Institut, Bocconi, Kangourou, Collegio dei Geometri della provincia di Rieti, British Council e DELF. Queste partnership rappresentano un valore aggiunto per l'offerta formativa, permettendo agli studenti di accedere a corsi di lingua straniera certificati, laboratori culturali e opportunità di mobilità internazionale. La collaborazione con il Goethe-Institut, ad esempio, consente la formazione in lingua tedesca con riconoscimenti internazionali, mentre il British Council e il DELF offrono percorsi per le certificazioni in inglese e francese.  
 
-### 2. Analisi Dimensionale
+#### 2.3 Finalità e Obiettivi  
+Gli obiettivi del PTOF si concentrano sull'acquisizione di competenze linguistiche, interculturali e professionali, con particolare attenzione all'integrazione di studenti stranieri e alla promozione di esperienze internazionali. Il progetto Erasmus+, coordinato dal responsabile dedicato, permette agli studenti di partecipare a mobilità per studio e tirocinio, rafforzando le competenze trasversali e la consapevlosità globale.  
 
-**2.1 Orientamento - Sezione Dedicata:**
+#### 2.4 Governance e Azioni di Sistema  
+La governance del piano si basa su una collaborazione tra il corpo docente, il personale ATA e le istituzioni partner. Le azioni di sistema includono la gestione delle reti e convenzioni attivate, nonché la programmazione di attività extracurriculari che integrano le competenze curricolari. Tuttavia, l'assenza di una sezione specifica sull'orientamento limita la visibilità e la coerenza delle strategie adottate.  
 
-L'orientamento non è trattato in una sezione autonoma del PTOF, ottenendo un punteggio di 5. Questo suggerisce un approccio integrato, ma evidenzia la mancanza di una visione strategica specifica per l'orientamento.
+#### 2.5 Didattica Orientativa  
+La didattica orientativa si esprime attraverso progetti tematici e laboratori interdisciplinari. Il progetto "Insegnamento Italiano Agli Stranieri" adotta un approccio personalizzato, con lezioni individualizzate per studenti appena arrivati in Italia. Allo stesso tempo, il progetto "Di Castello in Castello" utilizza l'esperienza del viaggio come strumento per sviluppare competenze critiche e culturali.  
 
-**2.2 Partnership:**
+#### 2.6 Opportunità Formative  
+Le opportunità formative offerte includono corsi di lingua straniera certificati, partecipazione a concorsi accademici (es. Kangourou), stage presso aziende partner (Unicredit, WeSchool) e collaborazioni con musei e istituzioni culturali (Gallerie degli Uffizi). Queste iniziative ampliano le prospettive di carriera e di studio degli studenti, favorendo una crescita personale e professionale.  
 
-Il liceo vanta un numero significativo di partnership, ben 16, tra cui **COTRAL**, diverse **Università** ed **Enti di ricerca**, **Erasmus Coordinator**, **Sapienza Università di Roma**, **Gallerie degli Uffizi**, **WeSchool**, **Unicredit**, **Goethe – Institut**, **Bocconi**, **Kangourou**, **Collegio dei Geometri e G.L. della provincia di Rieti**, **British Council** e **DELF**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e le opportunità di orientamento offerte agli studenti.
+#### 2.7 Registro Dettagliato delle Attività  
+Il registro delle attività evidenzia una programmazione ricca e variegata, con particolare attenzione alla formazione linguistica e alla mobilità internazionale. Tuttavia, l'assenza di una sezione dedicata all'orientamento rende difficile tracciare un percorso unitario e valutare l'impatto complessivo delle iniziative.  
 
-**2.3 Finalità:**
+### 3. Punti di Forza  
+Tra i punti di forza del PTOF si annoverano la partecipazione al progetto Erasmus+, la collaborazione con enti di rilievo internazionale (Goethe-Institut, British Council) e la realizzazione di progetti innovativi come "Di Castello in Castello". Queste iniziative non solo arricchiscono l'offerta formativa, ma rafforzano la reputazione dell'istituto nel contesto regionale e nazionale.  
 
-Le finalità dell'orientamento si concentrano sulla **valorizzazione delle eccellenze** (punteggio 3), sull'attenzione all'**individualità degli alunni** (punteggio 3) e sulla guida degli studenti nella formazione completa e nell'orientamento per le scelte future (punteggio 3). Si evidenzia anche l'importanza di favorire le attività di continuità con le scuole secondarie di primo grado e l'orientamento post-diploma (punteggio 4), nonché la valorizzazione delle eccellenze in funzione di una carriera universitaria (punteggio 3).
+### 4. Aree di Debolezza  
+L'assenza di una sezione autonoma sull'orientamento rappresenta una debolezza significativa. Questo approccio integrato, pur riconoscendo l'importanza dell'orientamento, non permette una programmazione strategica e una valutazione sistematica delle iniziative. Inoltre, la mancanza di una visione articolata limita la capacità dell'istituto di rispondere efficacemente alle esigenze degli studenti e del mercato del lavoro.  
 
-**2.4 Obiettivi:**
+### 5. Gap Analysis  
+Il gap principale risiede nella strutturazione dell'orientamento. Mentre il PTOF include iniziative rilevanti, l'assenza di una sezione dedicata impedisce una gestione coerente e una comunicazione chiara delle strategie adottate. Un piano di orientamento autonomo potrebbe integrare le attività esistenti, definire obiettivi specifici e monitorarne i risultati.  
 
-Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 5), il mantenimento della continuità con il territorio (punteggio 3), il contrasto alla dispersione scolastica NEET (punteggio 4) e la promozione del lifelong learning (punteggio 4).
-
-**2.5 Azioni di Sistema:**
-
-Le azioni di sistema per l'orientamento comprendono il coordinamento dei servizi (punteggio 3), il dialogo tra docenti e studenti (punteggio 3), il rapporto scuola-genitori (punteggio 4), il monitoraggio delle azioni (punteggio 2) e un sistema integrato di inclusione e attenzione alle fragilità (punteggio 5).
-
-**2.6 Didattica Orientativa:**
-
-L'approccio didattico orientativo si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sulla didattica laboratoriale (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'interdisciplinarità (punteggio 4).
-
-**2.7 Opzionali e Facoltative:**
-
-L'offerta di attività opzionali include opzionali culturali (punteggio 3), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 2), di volontariato (punteggio 4) e sportive (punteggio 4).
-
-### 3. Punti di Forza
-
-I punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nell'attenzione all'inclusione e alla gestione delle fragilità, nell'approccio didattico laboratoriale e nell'offerta di attività opzionali diversificate. L'impegno nella riduzione dell'**abbandono scolastico** e nel contrasto alla dispersione NEET rappresenta un elemento positivo. Attività come **Formazione sulla metodologia CLIL**, **Corsi di lingua inglese e certificazioni linguistiche**, **Potenziamento delle attività della biblioteca scolastica**, **Potenziamento delle competenze di base degli alunni** e **Implementazione delle attività per l'apprendimento dell'italiano come L2** sono degne di nota.
-
-### 4. Aree di Debolezza
-
-L'area di debolezza principale è l'assenza di una sezione autonoma dedicata all'orientamento, che potrebbe limitare la capacità di definire una strategia coerente e mirata. Il punteggio relativamente basso del monitoraggio delle azioni (2) suggerisce la necessità di rafforzare i meccanismi di valutazione e controllo.
-
-### 5. Gap Analysis
-
-Il divario principale riguarda la necessità di strutturare un'offerta di orientamento più esplicita e integrata, con obiettivi, azioni e indicatori di performance chiaramente definiti. È necessario potenziare il monitoraggio delle attività e valutare l'efficacia delle partnership attivate.
-
-### 6. Conclusioni
-
-Il PTOF del **Liceo Scientifico** di Poggio Mirteto dimostra un impegno significativo verso l'orientamento, sebbene questo sia affrontato in modo prevalentemente integrato all'interno di altre aree del piano. La ricchezza delle **partnership** e la varietà delle attività proposte rappresentano un valore aggiunto, ma è necessario colmare il divario relativo alla mancanza di una sezione autonoma dedicata all'orientamento per garantire una maggiore coerenza e efficacia delle azioni intraprese. Attività come **Ambasciatori digitali dell'arte**, **Futurità - WeSchool**, **Prevenzione E Contrasto Del Cyberbullismo**, **Liceo Matematico**, **Gare Di Matematica**, **F.I.L. - Fisica In Laboratorio**, **Progetto Centro Scolastico Sportivo (Css)**, **HOW TO MAKE... (CLOTHES) - eTwinning Project**, **Bio-Architecture, Eco-Sustainable Houses - eTwinning Project**, **Il Nostro Olio: Dalla Raccolta Delle Olive Alla Bottiglia**, **Rilievo Topografico Con Droni**, **Cyber Radio, La Web Radio Del Gregorio Da Catino**, **ALFABETIZZAZIONE LINGUA FRANCESE - Corso A.P.I.**, **MODEL UNITED NATIONS - Simulazioni ONU in lingua inglese** e **Corsi di lingua italiana** contribuiscono ad arricchire l'offerta formativa e le opportunità di orientamento per gli studenti.
+### 6. Conclusioni  
+Il PTOF dell'Istituto "Gregorio Da Catino" dimostra un impegno per l'innovazione e la diversificazione dell'offerta formativa, grazie a progetti culturali, partnership internazionali e iniziative di mobilità. Tuttavia, l'assenza di una sezione dedicata all'orientamento rappresenta un limite per una programmazione strategica e una valutazione efficace. Per migliorare il piano, si consiglia di strutturare un capitolo specifico sull'orientamento, integrando le iniziative esistenti in un framework coerente e articolato.

@@ -22,6 +22,11 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Any, List
 
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.utils.file_utils import atomic_write
+
 # Flag per uscita controllata
 EXIT_REQUESTED = False
 
@@ -91,7 +96,8 @@ def call_ollama(prompt: str, model: str, ollama_url: str, json_mode: bool = Fals
         "stream": False,
         "options": {
             "temperature": 0.1,
-            "num_ctx": 8192
+            "num_ctx": 8192,
+            "num_predict": -1
         }
     }
     
@@ -661,8 +667,7 @@ def main():
                     new_report = clean_markdown_response(final_response)
                     
                     if "# Analisi del PTOF" in new_report or "## Report di Valutazione" in new_report:
-                        with open(report_path, 'w') as f:
-                            f.write(new_report)
+                        atomic_write(report_path, new_report, backup=True)
                         logger.info(f"✅ {school_code}: Nuovo report creato!")
                         report_created = True
                     else:
@@ -688,8 +693,7 @@ def main():
                     
                     # Verifica che abbia le sezioni chiave
                     if "# Analisi del PTOF" in enriched_report or "## Report di Valutazione" in enriched_report:
-                        with open(report_path, 'w') as f:
-                            f.write(enriched_report)
+                        atomic_write(report_path, enriched_report, backup=True)
                         logger.info(f"✅ {school_code}: Report arricchito salvato")
                         report_enriched = True
                     else:
@@ -724,8 +728,7 @@ def main():
             })
             
             # Salva JSON aggiornato
-            with open(json_path, 'w') as f:
-                json.dump(json_data, f, indent=2, ensure_ascii=False)
+            atomic_write(json_path, json.dumps(json_data, indent=2, ensure_ascii=False), backup=True)
             
             # Registra nel registro centrale
             register_review(school_code, "ollama_report_review", args.model, activity_status, {
@@ -760,8 +763,7 @@ def main():
                         "error": str(e)
                     }
                 })
-                with open(json_path, 'w') as f:
-                    json.dump(json_data, f, indent=2, ensure_ascii=False)
+                atomic_write(json_path, json.dumps(json_data, indent=2, ensure_ascii=False))
             except:
                 pass
             

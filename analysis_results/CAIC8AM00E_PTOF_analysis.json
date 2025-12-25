@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "È presente una sezione specifica denominata 'Orientamento e Continuità Educativo-Didattica' a pagina 8 e un paragrafo 'Orientamento didattico' a pagina 68 (come da indice). L'orientamento è inoltre citato tra gli obiettivi formativi prioritari a pagina 4."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T00:55:35.737002"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -199,5 +201,23 @@
     }
   ],
   "narrative": "# Analisi Auditoriale PTOF IC Ugo Foscolo - Via Stoccolma\n\n## 1. Sintesi Generale\nL'Istituto Comprensivo 'Ugo Foscolo - Via Stoccolma' di Cagliari presenta un PTOF solido e ben strutturato per il triennio 2025-2028. L'istituzione si configura come una realtà complessa che integra sette plessi tra infanzia, primaria e secondaria. L'orientamento e l'inclusione emergono come pilastri fondamentali dell'offerta formativa, supportati da protocolli chiari e una forte apertura al territorio metropolitano.\n\n## 2. Analisi Dimensionale\n**Orientamento e Continuità:** Contrariamente a analisi precedenti, il documento dedica ampio spazio all'orientamento (Pag. 8, 19, 68), definendolo come un sistema integrato che parte dall'accoglienza e prosegue con la continuità verticale tra i diversi ordini di scuola.\n**Partnership e Territorio:** La scuola sfrutta efficacemente la sua posizione urbana, collaborando con enti di rilievo come il Teatro Lirico e l'Orto Botanico. La rete di partner è coerente con gli obiettivi di potenziamento culturale e scientifico.\n**Didattica e Inclusione:** Il punteggio massimo (7) nell'inclusione è giustificato dalla presenza di protocolli dettagliati per BES, disabilità e alunni migranti. La didattica è dichiaratamente laboratoriale e interdisciplinare, con un uso strategico dell'organico di potenziamento per attività di recupero e sviluppo.\n\n## 3. Punti di Forza\n- **Inclusività:** Protocolli di accoglienza estremamente dettagliati e differenziati.\n- **Flessibilità:** Uso consapevole dell'autonomia organizzativa per creare gruppi mobili e laboratori.\n- **Offerta Musicale:** Presenza di un indirizzo musicale strutturato con 3 ore aggiuntive settimanali.\n\n## 4. Aree di Miglioramento\n- **Monitoraggio NEET:** Sebbene la dispersione sia contrastata, manca un focus specifico sulle strategie post-diploma per prevenire il fenomeno NEET.\n- **Digitalizzazione:** Il Piano Nazionale Scuola Digitale è citato nell'indice ma non approfondito nel corpo del testo analizzato.\n\n## 5. Conclusioni\nIl documento riflette una scuola attiva e consapevole del proprio ruolo sociale. La revisione auditoriale conferma l'elevata qualità della progettazione didattica, suggerendo solo una maggiore esplicitazione delle azioni di monitoraggio degli esiti a lungo termine degli studenti.",
-  "review_notes": "Il documento presenta una struttura completa e dettagliata."
+  "review_notes": "Il documento presenta una struttura completa e dettagliata.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:55:35.737215",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 10,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
 }

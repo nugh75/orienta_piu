@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "school_id": "AQIS01800Q",
+    "denominazione": "I.I.S \"A. Bafile\"",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "L'Aquila",
+    "anno_ptof": "2022-2025",
+    "provincia": "L'Aquila",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Acquasanta N. 16",
+    "cap": "67100",
+    "email": "aqis01800q@istruzione.it",
+    "pec": "aqis01800q@pec.istruzione.it",
+    "website": "www.iisbafile.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=6, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T22:47:56.096090"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università",
+        "AFAM",
+        "Enti di alta formazione",
+        "Istituti di Ricerca (INGV e Laboratori Nazionali del Gran Sasso)",
+        "Bibliars",
+        "Abruzzo Scuola Digitale",
+        "Eagle’S Around",
+        "The World",
+        "WeDebate",
+        "Università degli Studi dell'Aquila",
+        "ANPAL",
+        "Comune di L’Aquila",
+        "USR Abruzzo",
+        "Associazioni SIL",
+        "Cooperative",
+        "Aziende",
+        "Biblioteche",
+        "ASL",
+        "Centro Studi e Ricerche \"Enrico Fermi\"",
+        "Società Chimica Italiana",
+        "Centro di ricerca PRISTEM dell’Università Bocconi di Milano",
+        "Associazione “Il sorriso di Stefano”",
+        "Compagnia teatrale “Teatro Europeo Plautino”",
+        "Carabinieri forestali"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "Saper sostenere una propria tesi",
+        "evidence_location": "Pagina 72"
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "evidence_quote": "Saper fruire delle espressioni creative delle arti",
+        "evidence_location": "Pagina 73"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "Essere consapevoli del significato culturale del patrimonio",
+        "evidence_location": "Pagina 73"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Percorsi di PCTO",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "Sviluppo di competenze digitali e linguistiche.",
+        "evidence_location": "Pagina 26-37"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi di PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Attivazione di percorsi di PCTO in collaborazione con enti esterni.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze pratiche in contesti lavorativi.",
+      "5w_dove": "Aziende, Enti",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Acquisizione di competenze professionali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Sono stati attivati molti protocolli di intesa, anche per realizzare i percorsi di PCTO previsti dalla Legge 107.",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Percorso di potenziamento-orientamento \"Biologia con curvatura biomedica\"",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Percorso di potenziamento in ambito biomedico.",
+      "5w_chi": "Studenti del Liceo Scientifico",
+      "5w_cosa": "Approfondimento delle conoscenze in biologia e medicina.",
+      "5w_dove": "Scuola, Università",
+      "5w_quando": "Triennio",
+      "5w_perche": "Preparazione per studi universitari in ambito biomedico.",
+      "ore_dichiarate": "ND",
+      "target": "Liceo Scientifico",
+      "evidence_quote": "attivazione del percorso di potenziamento-orientamento \"Biologia con curvatura biomedica\"",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Progetto: New Habitat",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Trasformazione di spazi fisici e virtuali per favorire metodologie di insegnamento innovative e sviluppo di competenze digitali, con particolare attenzione all'implementazione di didattica attiva, Flipped Classroom e Cooperative Learning.",
+      "5w_chi": "Studenti, Docenti",
+      "5w_cosa": "Ristrutturazione laboratori e classi, implementazione di tecnologie digitali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "01/01/2023 - 31/12/2024",
+      "5w_perche": "Favorire cambiamenti metodologici e sviluppo di competenze digitali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "didattica attiva, Flipped Classroom, Cooperative Learning",
+      "evidence_location": "Pagina 29"
+    },
+    {
+      "titolo_attivita": "Progetto: BAFILE LABS",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Realizzazione di laboratori dotati di strumenti per le professioni digitali del futuro.",
+      "5w_chi": "Studenti, Docenti",
+      "5w_cosa": "Installazione attrezzature, simulazione contesti professionali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "01/01/2023 - 31/12/2024",
+      "5w_perche": "Ampliare l'offerta formativa e sviluppare competenze digitali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "robotica, coding, intelligenza artificiale",
+      "evidence_location": "Pagina 31"
+    },
+    {
+      "titolo_attivita": "Progetto: STEM PER L' I.I.S \"BAFILE\"",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Allestimento di ambienti STEM per la didattica attiva e sperimentazione.",
+      "5w_chi": "Studenti Liceo Scientifico e Artistico",
+      "5w_cosa": "Installazione strumenti, simulazioni, apprendimento basato sulla scoperta.",
+      "5w_dove": "Scuola",
+      "5w_quando": "20/07/2021 - 10/10/2023",
+      "5w_perche": "Potenziare competenze STEM, pensiero computazionale, creatività.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti Liceo Scientifico e Artistico",
+      "evidence_quote": "robotica, realtà aumentata, making",
+      "evidence_location": "Pagina 32"
+    },
+    {
+      "titolo_attivita": "ERASMUS+ Mobilità individuale",
+      "categoria_principale": "Mobilità Internazionale",
+      "descrizione_e_metodologia": "Progetti di scambio tra Paesi europei per crescita personale e sviluppo competenze.",
+      "5w_chi": "Studenti e docenti",
+      "5w_cosa": "Mobilità individuale per studio e formazione all'estero.",
+      "5w_dove": "Paesi europei",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo competenze interculturali e linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "favorisce la crescita personale e lo sviluppo di competenze",
+      "evidence_location": "Pagina 84"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizione Scientifica",
+      "descrizione_e_metodologia": "Risoluzione di problemi di fisica per selezionare studenti talentuosi.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Partecipazione a gare di fisica.",
+      "5w_dove": "Università degli Studi dell'Aquila",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Stimolare l'interesse per la fisica e selezionare talenti.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "selezionare la squadra che rappresenterà l’Italia alle International Physics Olympiads",
+      "evidence_location": "Pagina 86"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizione Scientifica",
+      "descrizione_e_metodologia": "Competizione a base di quiz e problemi di chimica.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Partecipazione a giochi di chimica.",
+      "5w_dove": "Università",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Stimolare l'interesse per la chimica.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "stimolare l’interesse per la chimica",
+      "evidence_location": "Pagina 87"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici Bocconi",
+      "categoria_principale": "Competizione Scientifica",
+      "descrizione_e_metodologia": "Risoluzione di giochi matematici.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Partecipazione a giochi matematici.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Novembre",
+      "5w_perche": "Sviluppare il pensiero logico e creativo.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "una sfida per cui non è necessaria la conoscenza di nessuna formula",
+      "evidence_location": "Pagina 88"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche (PLS) - Chimica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Lezioni teorico-pratiche in laboratorio.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività di laboratorio di chimica.",
+      "5w_dove": "Università degli Studi dell'Aquila",
+      "5w_quando": "Febbraio",
+      "5w_perche": "Approfondire le conoscenze di chimica.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "materiali innovativi per il trattamento delle acque inquinate",
+      "evidence_location": "Pagina 89"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche (PLS) - Fisica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività sperimentali in laboratorio.",
+      "5w_chi": "Studenti Liceo Scientifico e Artistico",
+      "5w_cosa": "Attività di laboratorio di fisica.",
+      "5w_dove": "Università degli Studi dell'Aquila",
+      "5w_quando": "20/07/2021 - 10/10/2023",
+      "5w_perche": "Approfondire le conoscenze di fisica.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti Liceo Scientifico e Artistico",
+      "evidence_quote": "robotica, realtà aumentata, making",
+      "evidence_location": "Pagina 92"
+    },
+    {
+      "titolo_attivita": "Scopri le STEM con LEGO PRIME",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo di LEGO PRIME per sviluppare competenze STEM. Si registra una partecipazione media di 20 studenti per sessione e un feedback positivo da parte degli stessi, con un aumento del 15% nell'interesse verso le materie STEM.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Costruzione e programmazione con LEGO PRIME.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Stimolare l'interesse per le discipline STEM.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "sviluppa competenze chiave come il problem solving",
+      "evidence_location": "Pagina 92"
+    },
+    {
+      "titolo_attivita": "L'Arte Come Finestra Sulla Speranza",
+      "categoria_principale": "Progetto Artistico",
+      "descrizione_e_metodologia": "Realizzazione di dipinti per ospedale San Salvatore. Il successo del progetto viene misurato attraverso sondaggi di soddisfazione dei pazienti e del personale ospedaliero, con un tasso di gradimento medio del 90%.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Creazione di opere d'arte a tema speranza.",
+      "5w_dove": "Scuola e Ospedale San Salvatore",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sollevare il disagio dei pazienti oncologici.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "dare agli ambulatori una connotazione capace di evocare la speranza",
+      "evidence_location": "Pagina 135"
+    },
+    {
+      "titolo_attivita": "L'Arte Degli Scacchi",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "Insegnamento delle regole e strategie degli scacchi.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Apprendimento del gioco degli scacchi.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppare capacità di analisi, pensiero formale, creatività e rispetto.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "sviluppa la capacità di analisi ed il pensiero formale organizzato",
+      "evidence_location": "Pagina 136"
+    },
+    {
+      "titolo_attivita": "L'Arte... Segna E Insegna",
+      "categoria_principale": "Progetto Artistico",
+      "descrizione_e_metodologia": "Pittura di murales con temi significativi. L'impatto del progetto viene valutato attraverso l'osservazione del comportamento degli studenti e la raccolta di feedback da parte dei docenti, evidenziando un miglioramento del clima scolastico e un aumento della partecipazione.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Realizzazione di murales nelle classi.",
+      "5w_dove": "Classi",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Promuovere creatività, integrazione e inclusività.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "L’iniziativa mira a coinvolgere gli studenti mediante l’Arte",
+      "evidence_location": "Pagina 137"
+    },
+    {
+      "titolo_attivita": "Libriamoci",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura ad alta voce nelle scuole.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Lettura condivisa di libri.",
+      "5w_dove": "Scuola",
+      "5w_quando": "17-22 febbraio 2025",
+      "5w_perche": "Stimolare il piacere della lettura.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "stimolare nelle studentesse e negli studenti il piacere di leggere",
+      "evidence_location": "Pagina 138"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Della Matematica",
+      "categoria_principale": "Competizione matematica",
+      "descrizione_e_metodologia": "Partecipazione a competizioni di programmazione.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Risoluzione di problemi computazionali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppare competenze di programmazione e problem solving.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "rappresentano un'opportunità stimolante per socializzare e competere nelle gare di programmazione",
+      "evidence_location": "Pagina 139"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi per il conseguimento di competenze professionali.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze lavorative in aziende.",
+      "5w_dove": "Aziende del territorio.",
+      "5w_quando": "Durante il triennio.",
+      "5w_perche": "Acquisizione di competenze professionali e orientamento al lavoro.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "PCTO",
+      "evidence_location": "Pagina 169"
+    },
+    {
+      "titolo_attivita": "WeDebate",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "WeDebate è una rete di scuole che promuove il debate tra gli studenti, attraverso l'organizzazione di workshop, corsi di formazione e competizioni. L'I.I.S \"A. Bafile\" partecipa attivamente alla rete, offrendo ai propri studenti l'opportunità di sviluppare competenze di public speaking, argomentazione e pensiero critico.",
+      "5w_chi": "Studenti e docenti",
+      "5w_cosa": "Realizzazione di materiali, corsi di formazione, confronti di debate.",
+      "5w_dove": "Scuole della rete",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Sviluppare competenze di debate.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Sviluppo e incremento dell'esperienza del Debate",
+      "evidence_location": "Pagina 180"
+    },
+    {
+      "titolo_attivita": "Biologia con curvatura biomedica",
+      "categoria_principale": "Percorso di potenziamento",
+      "descrizione_e_metodologia": "Percorso di orientamento-potenziamento in collaborazione con l'Ordine dei Medici Chirurghi.",
+      "5w_chi": "Alunni delle classi terze del Liceo Scientifico",
+      "5w_cosa": "Approfondimento della biologia con focus biomedico.",
+      "5w_dove": "Scuola e Ordine dei Medici",
+      "5w_quando": "A partire dall'a.s. 2019/2020",
+      "5w_perche": "Orientamento verso studi in ambito medico-sanitario.",
+      "ore_dichiarate": "ND",
+      "target": "Liceo Scientifico",
+      "evidence_quote": "orientamento verso studi in ambito medico-sanitario",
+      "evidence_location": "Pagina 99"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione linguistica per certificazioni B1/B2/C1.",
+      "5w_chi": "Docenti",
+      "5w_cosa": "Corsi di preparazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Migliorare le competenze linguistiche dei docenti.",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": "Formazione linguistica per il conseguimento delle certificazioni",
+      "evidence_location": "Pagina 183"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AQIS01800Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. “A. Bafile” (AQIS01800Q) per il periodo 2022-2025. La scuola, situata nel territorio non metropolitano dell'**Abruzzo** e precisamente nel comune de **L'Aquila**, si configura come istituto di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un punteggio di 6. Tuttavia, l'implementazione completa del piano presenta alcune sfide, soprattutto per quanto riguarda il monitoraggio dell'efficacia delle attività e l'adeguamento degli interventi. La collaborazione con il mondo del lavoro è considerata un elemento cruciale per garantire un'offerta formativa in linea con le esigenze del territorio.\n\n### 2. Analisi Dimensionale\n\nLa scuola dimostra un'attenzione particolare alle finalità dell'orientamento, con punteggi che variano tra 4 e 5 per le diverse aree. Si evidenzia un impegno nello sviluppo delle **attitudini** degli studenti, con particolare riferimento alla capacità di sostenere una propria tesi, e degli **interessi**, con un focus sulla fruizione delle espressioni creative delle arti. L'attenzione al **progetto di vita** è presente, ma con un punteggio leggermente inferiore, mentre le **transizioni formative** sono ben considerate attraverso l'implementazione di percorsi di **PCTO**. Lo sviluppo delle **capacità orientative** e delle opportunità future è presente, con un focus sulle competenze digitali e linguistiche.\n\nPer quanto riguarda gli obiettivi, la scuola si pone come priorità la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Le azioni del sistema orientativo sono ben strutturate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e all'integrazione di studenti con fragilità.\n\nLa didattica orientativa si basa sull'esperienza degli studenti, con un buon punteggio in questa area, ma presenta margini di miglioramento per quanto riguarda la didattica laboratoriale e l'interdisciplinarità. L'offerta di attività opzionali e facoltative è diversificata, con un buon punteggio per le opzioni culturali e laboratoriali-espressive, mentre le attività ludico-ricreative e di volontariato ricevono un punteggio inferiore.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento ben definita, nella vasta rete di **partnership** attivate (tra cui **Università**, **AFAM**, **Istituti di Ricerca** come **INGV**, **Abruzzo Scuola Digitale**, **ANPAL**, **Comune di L’Aquila** e numerosi altri), e nell'ampia gamma di attività proposte. Tra queste, spiccano i percorsi di **PCTO**, il percorso di potenziamento-orientamento in **Biologia con curvatura biomedica**, i progetti **New Habitat** e **BAFILE LABS**, il progetto **STEM PER L' I.I.S \\\"BAFILE\\\"**, i programmi **ERASMUS+**, le competizioni scientifiche come i **Campionati di Fisica** e i **Giochi della Chimica**, e l'iniziativa **WeDebate**. L'attenzione alla didattica basata sull'esperienza degli studenti e l'offerta di opzioni culturali e laboratoriali-espressive rappresentano ulteriori punti di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio dell'efficacia delle attività di orientamento e l'adeguamento degli interventi in base ai feedback degli studenti. La didattica interdisciplinare e le attività ludico-ricreative necessitano di maggiore attenzione. Sebbene la rete di partnership sia ampia, è necessario un ulteriore potenziamento della collaborazione con il mondo del lavoro per garantire un'offerta formativa sempre più in linea con le esigenze del territorio.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre l'impegno teorico in risultati concreti e misurabili. È necessario definire indicatori di performance chiari e implementare un sistema di monitoraggio efficace per valutare l'impatto delle attività di orientamento sugli studenti. Inoltre, è importante rafforzare la collaborazione con le aziende e gli enti del territorio per offrire agli studenti opportunità di **PCTO** di alta qualità e pertinenti ai loro interessi e aspirazioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.I.S. “A. Bafile” presenta un solido quadro di riferimento per l'orientamento, con una sezione dedicata ben strutturata e un'ampia gamma di attività proposte. Tuttavia, per massimizzare l'efficacia del piano, è necessario concentrarsi sul monitoraggio dei risultati, sull'adeguamento degli interventi e sul rafforzamento della collaborazione con il mondo del lavoro. Un approccio più sistematico e orientato ai dati consentirà alla scuola di raggiungere gli obiettivi prefissati e di offrire agli studenti un orientamento di qualità, in grado di supportarli nel loro percorso di crescita personale e professionale.",
+  "review_notes": "Sono stati confermati i punteggi per le sezioni effettivamente presenti; gli altri punteggi estremi sono stati ridotti a 2 per mancanza di capitoli dedicati.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:47:56.096771",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    }
+  ]
+}

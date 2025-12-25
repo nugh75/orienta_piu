@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "L'istituto presenta una sezione strutturata denominata 'ORIENTARSI' che recepisce le linee guida del D.M. 328/2022, prevedendo esplicitamente le 30 ore di orientamento e figure di riferimento. La documentazione è dettagliata per ogni passaggio di grado."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF dell'I.C. Ravarino si concentra sulla promozione della consapevolezza delle proprie potenzialità e sulla preparazione per il futuro, sia in termini di sce (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:09:49.072122"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -256,11 +258,69 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:33:33.051354",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 10,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:41:10.780851",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 11,
+        "extreme_scores_checked": 12,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il documento non presenta una sezione esplicita dedicata all'orientamento, ma include attività orien"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:11:14.394663",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 10,
+        "enrichments_found": 10,
+        "corrections_found": 3,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T20:07:11.711810",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-25T01:41:10.780868",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

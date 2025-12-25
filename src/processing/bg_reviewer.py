@@ -5,6 +5,7 @@ import requests
 import time
 from datetime import datetime
 from glob import glob
+from src.utils.file_utils import atomic_write
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -57,8 +58,7 @@ class BackgroundReviewer:
 
     def save_flags(self, flags):
         """Save flags to file."""
-        with open(FLAGS_FILE, 'w') as f:
-            json.dump(flags, f, indent=2)
+        atomic_write(FLAGS_FILE, json.dumps(flags, indent=2))
 
     def call_ollama(self, prompt, system_prompt=""):
         """Call Ollama API."""

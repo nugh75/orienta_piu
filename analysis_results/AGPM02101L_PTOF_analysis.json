@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è presente e ben definita, con un focus sull'orientamento universitario e professionale. Tuttavia, manca una descrizione dettagliata del coordinamento e delle risorse dedicate."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova nel capitolo \"Iniziative previste in relazione alla «Missione 1.4-Istruzione» del PNRR\". Include progetti come il \"Laboratori per le professioni del Futur (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T05:46:34.934373"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -89,7 +91,7 @@
     },
     "2_4_obiettivi": {
       "obiettivo_ridurre_abbandono": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_continuita_territorio": {
         "score": 5
@@ -115,7 +117,7 @@
         "score": 5
       },
       "azione_sistema_integrato_inclusione_fragilita": {
-        "score": 6
+        "score": 5
       }
     },
     "2_6_didattica_orientativa": {
@@ -363,5 +365,79 @@
     }
   ],
   "narrative": "# Analisi del PTOF AGPM02101L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Im Francesco Crispi** (AGPM02101L) per il periodo 2022-2025. La scuola, un **liceo** situato a **Ribera** in provincia di **Agrigento** e regione **Sicilia**, dimostra un impegno significativo verso l'orientamento, con una sezione dedicata valutata con un punteggio di 5. L'istituto si distingue per un'ampia rete di **partnership** con **Università**, **Enti Regionali**, **Enti Nazionali**, **CPIA**, **Imprese**, **Associazioni** e numerosi altri soggetti del territorio, evidenziando una forte volontà di connessione con il mondo esterno. Le finalità dell'orientamento sono ben definite, con particolare attenzione alla valorizzazione delle **competenze trasversali**, allo sviluppo delle opportunità di **inserimento lavorativo**, alla promozione della **consapevolezza civica** e alla preparazione alle **transizioni formative**, in particolare attraverso i percorsi di **alternanza scuola lavoro**.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento del PTOF si articola in diverse dimensioni. Per quanto riguarda le finalità, l'istituto mostra un buon livello di attenzione a tutti gli aspetti chiave, ottenendo punteggi elevati per la valorizzazione delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative. Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Le azioni del sistema sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e, in particolare, all'implementazione di un sistema integrato di inclusione e attenzione alle fragilità.\n\nL'offerta didattica orientativa si basa su metodologie esperienziali, laboratoriali, flessibili e interdisciplinari. L'istituto propone una varietà di **opzionali** che spaziano dalla cultura al volontariato, dallo sport alle attività espressive, offrendo agli studenti diverse opportunità di approfondimento e di scoperta dei propri interessi.\n\n### 3. Punti di Forza\n\nUn punto di forza del PTOF è la vasta gamma di **partnership** attivate, che consentono di offrire agli studenti esperienze concrete e di metterli in contatto con il mondo del lavoro e con le diverse opportunità formative. Le attività registrate, come il **PCTO**, lo **Sportello di Ascolto**, i progetti di innovazione didattica come \"**New environments for future students**\" e \"**Laboratori per le professioni del Futuro**\", e i percorsi di supporto come \"**La scuola di tutti e di ciascuno per il FUTURO**\", dimostrano un impegno concreto nella realizzazione di un'offerta orientativa completa e diversificata. L'introduzione del **Tecnico quadriennale** rappresenta un'iniziativa innovativa volta a rispondere alle nuove esigenze del mercato del lavoro.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, l'analisi evidenzia una lieve area di debolezza nella descrizione dettagliata del coordinamento e delle risorse dedicate alla sezione di orientamento. Sebbene la sezione sia presente e ben definita, sarebbe opportuno specificare in modo più preciso le responsabilità dei diversi attori coinvolti e le risorse finanziarie e umane destinate alle attività di orientamento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rendere più esplicito il legame tra le attività di orientamento e i risultati attesi in termini di riduzione dell'abbandono scolastico, di inserimento lavorativo e di sviluppo delle competenze chiave. Pur essendo presenti numerose attività, sarebbe utile definire indicatori di performance specifici per misurare l'efficacia dell'intervento orientativo e monitorare i progressi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto **Im Francesco Crispi** presenta una solida base per lo sviluppo di un'efficace azione orientativa. La vasta rete di **partnership**, la varietà delle attività proposte e l'attenzione alle diverse esigenze degli studenti rappresentano un valore aggiunto significativo. Per ottimizzare ulteriormente l'intervento orientativo, si raccomanda di definire in modo più preciso il coordinamento delle risorse, di specificare gli indicatori di performance e di monitorare costantemente i risultati ottenuti. L'impegno dell'istituto verso l'orientamento, come dimostrato dalle attività di **PCTO**, dai progetti di innovazione didattica e dai percorsi di supporto, è un elemento chiave per garantire il successo formativo e l'inserimento sociale e lavorativo degli studenti.",
-  "review_notes": "Nessuna sezione \"Orientamento\" esplicitamente intitolata è presente; i punteggi relativi all'orientamento non sono coinvolti."
+  "review_notes": "Nessuna sezione \"Orientamento\" esplicitamente intitolata è presente; i punteggi relativi all'orientamento non sono coinvolti.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:48:57.958805",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 14,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:08:29.833392",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 14,
+        "extreme_scores_checked": 3,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il documento include una sezione dedicata ai PCTO (Percorsi per le Competenze Trasversali e l'Orient"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_ridurre_abbandono.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il documento menziona l'obiettivo di prevenzione e contrasto della dispersione scolastica, ma non fo"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il documento include iniziative per l'inclusione, come il benessere e la resilienza con interventi d"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:48:17.671425",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 14,
+        "enrichments_found": 16,
+        "corrections_found": 13,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T05:08:29.833410",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
 }

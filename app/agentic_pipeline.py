@@ -14,6 +14,7 @@ import time
 import re
 from glob import glob
 from dotenv import load_dotenv
+from src.utils.file_utils import atomic_write, is_valid_markdown, ensure_string_content
 
 # Load environment variables from .env file
 load_dotenv()
@@ -856,19 +857,6 @@ def sanitize_json(text):
     
     return text[start:end+1]
 
-def _looks_like_json(text):
-    if not text:
-        return False
-    raw = str(text).strip()
-    if not raw.startswith("{"):
-        return False
-    try:
-        data = json.loads(raw)
-    except Exception:
-        return False
-    if not isinstance(data, dict):
-        return False
-    return any(key in data for key in ("metadata", "ptof_section2", "activities_register"))
 
 def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, results_dir=RESULTS_DIR, status_callback=None):
     """
@@ -938,8 +926,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     
     # Save Draft JSON (will be enriched AFTER refinement)
     try:
-        with open(final_json_path, 'w') as f:
-            f.write(draft)
+        atomic_write(final_json_path, draft)
     except:
         pass
 
@@ -975,8 +962,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
              refined_json_str = sanitize_json(refined_json_str)
              try:
                  refined_data = json.loads(refined_json_str)
-                 with open(final_json_path, 'w') as f:
-                     f.write(refined_json_str)
+                 atomic_write(final_json_path, refined_json_str)
                  
                  final_output = refined_data.get('narrative', '')
              except Exception as e:
@@ -1004,7 +990,12 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     if narrative_from_json:
         final_output = narrative_from_json
 
-    if not final_output or _looks_like_json(final_output):
+    # Ensure final_output is a string
+    final_output = ensure_string_content(final_output)
+
+    # Check if it's valid markdown (not JSON dump)
+    if not final_output or not is_valid_markdown(final_output):
+        logging.info(f"Output looks like JSON or is empty. Attempting to generate narrative...")
         if analysis_data:
             narrative_agent = NarrativeAgent()
             generated = narrative_agent.generate_narrative(analysis_data, school_code)
@@ -1012,21 +1003,17 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                 final_output = str(generated).strip()
                 analysis_data['narrative'] = final_output
                 try:
-                    with open(final_json_path, 'w') as f:
-                        json.dump(analysis_data, f, ensure_ascii=False, indent=2)
+                    atomic_write(final_json_path, json.dumps(analysis_data, ensure_ascii=False, indent=2))
                 except Exception as e:
                     logging.warning(f"Failed to store narrative in JSON: {e}")
 
-    if not final_output or _looks_like_json(final_output):
+    # Final check
+    final_output = ensure_string_content(final_output)
+    if not final_output or not is_valid_markdown(final_output):
         final_output = "Report narrativo non disponibile. Rigenera l'analisi."
 
     # Save Final MD
-    if not isinstance(final_output, str):
-        logging.warning(f"final_output is not a string (type: {type(final_output)}), converting to string.")
-        final_output = str(final_output)
-
-    with open(final_md_path, 'w') as f:
-        f.write(final_output)
+    atomic_write(final_md_path, final_output)
     
     # Return parsed JSON result
     try:

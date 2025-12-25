@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 5,
       "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
       "ollama_review_date": "2025-12-24T18:33:40.549936"
@@ -102,7 +102,7 @@
         "score": 4
       },
       "azione_sistema_integrato_inclusione_fragilita": {
-        "score": 2
+        "score": 4
       }
     },
     "2_6_didattica_orientativa": {
@@ -402,6 +402,32 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:25:34.217159",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 16,
+        "extreme_scores_checked": 2,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF include una sezione dedicata all'orientamento con dettagli su attività di orientamento in en"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo mostra attività concrete per l'inclusione e la gestione delle fragilità, come l'accoglienza"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -410,6 +436,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1
+    },
+    {
+      "timestamp": "2025-12-25T00:25:34.217301",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
     }
   ]
 }

@@ -80,7 +80,7 @@
         "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 2
+        "score": 3
       },
       "obiettivo_lifelong_learning": {
         "score": 4
@@ -335,11 +335,43 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:26:37.409010",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 1,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento menziona attività di orientamento interno e formazione delle classi in ingresso, che ra"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo mostra attività concrete per lo sviluppo della lettura e della scrittura, come il progetto "
+          }
+        ]
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T18:09:27.433288",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
+    },
+    {
+      "timestamp": "2025-12-25T00:26:37.409031",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 2

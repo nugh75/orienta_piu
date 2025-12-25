@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "Il PTOF include riferimenti all'orientamento all'interno del capitolo sull'inclusione scolastica (pagine 196-201), ma non presenta una sezione dedicata specificamente all'orientamento."
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF descrive iniziative per supportare gli studenti nel loro percorso formativo attraverso laboratori e progetti interdisciplinari.\nL'orientamento è trattato  (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:13:32.640918"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -60,7 +62,7 @@
         "evidence_location": "Pagina 182"
       },
       "finalita_progetto_vita": {
-        "score": 0,
+        "score": 2,
         "evidence_quote": null,
         "evidence_location": null
       },
@@ -70,7 +72,7 @@
         "evidence_location": "Pagina 92"
       },
       "finalita_capacita_orientative_opportunita": {
-        "score": 0,
+        "score": 2,
         "evidence_quote": null,
         "evidence_location": null
       }
@@ -92,7 +94,7 @@
         "evidence_location": null
       },
       "obiettivo_lifelong_learning": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "valorizzazione di percorsi formativi individualizzati",
         "evidence_location": "Pagina 92"
       }
@@ -114,7 +116,7 @@
         "evidence_location": "Pagina 92"
       },
       "azione_monitoraggio_azioni": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": null,
         "evidence_location": null
       },
@@ -141,14 +143,14 @@
         "evidence_location": null
       },
       "didattica_interdisciplinare": {
-        "score": 1,
+        "score": 2,
         "evidence_quote": null,
         "evidence_location": null
       }
     },
     "2_7_opzionali_facoltative": {
       "opzionali_culturali": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "Knitty, lavoro a maglia e uncinetto",
         "evidence_location": "Pagina 98"
       },
@@ -258,6 +260,104 @@
       "target": "Alunni classe terza",
       "evidence_quote": "organizza incontri informativi aperti ai genitori con l'intervento dei docenti delle scuole secondarie di secondo grado",
       "evidence_location": "Pagina 213"
+    }
+  ],
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:51:31.692187",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:46:07.652605",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 12,
+        "extreme_scores_checked": 12,
+        "scores_modified": 7,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il PTOF menziona l'orientamento in diversi capitoli, come il progetto \"Accoglienza: benvenuti\" e il "
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_lifelong_learning.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona 'valorizzazione di percorsi formativi individualizzati' su Pagina 92, indicando un"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_culturali.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona 'Knitty, lavoro a maglia e uncinetto' su Pagina 98, mostrando iniziative culturali"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_progetto_vita.score",
+            "old": 0,
+            "new": 2,
+            "reason": "Il testo menziona l'educazione all'autoimprenditorialità e la consapevolezza dei diritti e doveri, c"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_capacita_orientative_opportunita.score",
+            "old": 0,
+            "new": 2,
+            "reason": "Il testo include attività come il gemellaggio con una scuola tedesca e progetti di lettura, che svil"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo include progetti specifici come il 'Una biblioteca per tutti' e 'Biblioteca a scuola', che "
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_interdisciplinare.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo menziona l'uso di metodologie interdisciplinari come il CLIL (Contenuti e Lingua Straniera "
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:14:36.744083",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 16,
+        "corrections_found": 3,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:46:07.652635",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 7
     }
   ]
 }

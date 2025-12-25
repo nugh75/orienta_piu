@@ -14,6 +14,7 @@ from typing import Any, Dict, List, Optional, Set
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
+from src.utils.file_utils import atomic_write
 from src.validation.ptof_validator import PTOFValidator, ValidationResult
 
 ANALYSIS_DIR = BASE_DIR / "analysis_results"
@@ -55,7 +56,7 @@ def _append_review_log(entry: Dict[str, Any]) -> None:
     items = _load_json_list(REVIEW_LOG)
     items.append(entry)
     REVIEW_LOG.parent.mkdir(parents=True, exist_ok=True)
-    REVIEW_LOG.write_text(json.dumps(items, indent=2))
+    atomic_write(REVIEW_LOG, json.dumps(items, indent=2))
 
 
 def _find_pdf_for_code(code: str) -> Optional[Path]:
@@ -87,7 +88,7 @@ def _remove_csv_row(school_code: str) -> None:
     content = "\n".join(kept)
     if content:
         content += "\n"
-    CSV_FILE.write_text(content)
+    atomic_write(CSV_FILE, content)
 
 
 def _scrub_status_files(school_code: str) -> None:
@@ -107,7 +108,7 @@ def _scrub_status_files(school_code: str) -> None:
                 data[key] = [x for x in data[key] if x != school_code]
                 changed = changed or (len(data[key]) != before)
         if changed:
-            path.write_text(json.dumps(data, indent=2))
+            atomic_write(path, json.dumps(data, indent=2))
 
 
 def _remove_analysis_artifacts(school_code: str) -> List[Path]:

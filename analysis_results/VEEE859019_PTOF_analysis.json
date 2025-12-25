@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 0,
+      "score": 3,
       "note": "Non è presente una sezione dedicata specificamente all'orientamento nel PTOF. I moduli di orientamento formativo sono inclusi all'interno della più ampia sezione 'L'Offerta Formativa' (Pagina 3)."
     },
     "2_2_partnership": {
@@ -108,7 +108,7 @@
         "score": 5
       },
       "didattica_laboratoriale": {
-        "score": 6
+        "score": 5
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 3
@@ -462,6 +462,40 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:11:42.243882",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 16,
+        "extreme_scores_checked": 2,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 0,
+            "new": 3,
+            "reason": "La sezione 'L'Offerta Formativa' (Pagina 3) include moduli di orientamento formativo, indicando una "
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_laboratoriale.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'uso di laboratori didattici per l'orientamento, ma non fornisce dettagli specifi"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T00:11:42.243902",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
     }
   ]
 }

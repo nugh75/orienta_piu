@@ -2,92 +2,43 @@
 ## Report di Valutazione dell'Orientamento  
 
 ### 1. Sintesi Generale  
-Il Liceo Charles Darwin, istituto secondario di secondo grado con sedi a Napoli e Caserta, presenta un Piano Triennale dell'Offerta Formativa (PTOF) incentrato su una visione integrata di formazione, orientamento e sviluppo delle competenze trasversali. Il documento sottolinea un forte impegno verso la sostenibilità, l'innovazione didattica e la collaborazione con il territorio. Il PTOF si distingue per la struttura modulare, con sezioni dedicate all'offerta formativa, ai curricoli, ai percorsi PCTO e all'orientamento.  
+Il Liceo “Charles Darwin” è un istituto di istruzione secondaria di secondo grado con sede principale a Rivoli (Via Viale Papa Giovanni XXIII, 25 – 10098) e una sede staccata a Sangano (Via San Giorgio, 10090). La scuola, accreditata con il codice TOPS10000T, accoglie complessivamente 1 302 alunni, di cui 935 nella sede di Rivoli e 367 nella sede di Sangano, e si avvale di un corpo docente di 134 insegnanti supportato da 39 collaboratori amministrativi e tecnici (ATA). Il Piano Triennale dell’Offerta Formativa (PTOF) 2022‑2025, approvato dal Consiglio di Istituto nella seduta del 16 dicembre 2024 (delibera n. 18), è stato elaborato dal collegio dei docenti il 14 dicembre 2024 sulla base dell’atto di indirizzo del dirigente (prot. 9163 del 30 agosto 2024).  
 
-L'orientamento è trattato come un processo continuo, articolato in tre anni di corso, con attività specifiche per le classi terze, quarte e quinte. Il piano prevede una forte integrazione tra scuola, mondo del lavoro e università, sostenuta da partnership con enti locali, aziende e istituzioni accademiche. Il riferimento al **Next Generation EU** e al **Piano Nazionale per la Scuola Digitale** evidenzia una volontà di allineare l'offerta formativa alle esigenze del mercato del lavoro e alle competenze digitali.  
+Il documento si caratterizza per una visione integrata che coniuga la formazione disciplinare con lo sviluppo di competenze trasversali, la sostenibilità ambientale e l’innovazione digitale. Le due sedi, pur differendo per età dell’edificio – la sede di Rivoli, edificata tra il 1937 e il 1947 come seminario diocesano e riconvertita in scuola negli anni ’70, presenta problemi di manutenzione – e la sede di Sangano, costruita recentemente secondo criteri di basso impatto ambientale – sono entrambe dotate di Lavagne Interattive Multimediali (LIM) in ogni aula, di mini‑PC per ciascuna classe e di laboratori scientifici, linguistici, informatici e artistici.  
 
-Un aspetto peculiare del PTOF è la centralità del **Curricolo di Educazione Civica**, con focus su cittadinanza digitale e sostenibilità, che si interseca con le attività di orientamento. Il piano si colloca in un contesto regionale (Campania) e nazionale, rispondendo alle indicazioni ministeriali per i licei, ma aggiunge una dimensione progettuale specifica, come i laboratori tematici su "Talenti" e "Sviluppo Sostenibile".  
-
----
+Il PTOF prevede una rete articolata di collaborazioni con enti del territorio: convenzioni con il Polo museale di arte contemporanea del Castello di Rivoli, con associazioni musicali locali, con Confindustria per l’alternanza scuola‑lavoro, nonché con il Politecnico di Torino, l’Università degli Studi di Torino e numerose realtà del terzo settore. Il piano si inserisce nel più ampio contesto del PNRR (Missione 1.4 – Istruzione) e del Piano Nazionale Scuola Digitale (PNSD), con investimenti specifici per la trasformazione degli spazi di apprendimento (es. progetto “DARWIN 4.0” con finanziamento di € 253 355,44) e per l’acquisizione di attrezzature avanzate (es. laboratorio di modellizzazione con € 124 044,57).  
 
 ### 2. Analisi Dimensionale  
 
 #### 2.1 Sezione Dedicata all'Orientamento  
-L'orientamento è trattato in modo articolato nel PTOF, con una sezione dedicata ai **Moduli di Orientamento Formativo** (pagine 55-59) e ai **PCTO** (pagine 60-61). Le attività sono organizzate per classe (terza, quarta e quinta) e prevedono un totale di **30 ore curriculari annuali** per ogni anno. Gli obiettivi includono la consapevolezza delle potenzialità personali, l'educazione alla sostenibilità, l'imprenditorialità e la preparazione al mercato del lavoro.  
+Il PTOF dedica una parte consistente alla definizione dei “Moduli di orientamento formativo”, articolati per le classi III, IV e V. Per la classe III sono previste 30 ore curriculari, suddivise tra un’introduzione ai percorsi di orientamento (2 ore), laboratori sul tema dei talenti e della consapevolezza delle proprie potenzialità (6 ore), attività di approfondimento sullo sviluppo sostenibile (6 ore), incontri di educazione civica sull’imprenditorialità e la cultura dell’impresa in chiave di sostenibilità (4 ore), conferenze sulla sostenibilità (4‑5 ore) e attività di orientamento universitario e di didattica orientativa (6‑7 ore). Per la classe IV, sempre 30 ore curriculari, il percorso prevede la presentazione delle piattaforme universitarie (2 ore), laboratori di orientamento professionale (6 ore), il “salone dell’orientamento al Darwin” (6 ore), incontri di educazione civica sul mercato del lavoro e il diritto del lavoro (4 ore), presentazioni dei percorsi ITS Academy (2 ore) e attività di orientamento universitario (10 ore). La classe V, anch’essa con 30 ore curriculari, comprende laboratori di orientamento professionale (6 ore), il “salone dell’orientamento” (6 ore), incontri di educazione civica sull’educazione finanziaria (4 ore), la predisposizione del curriculum e l’analisi dell’atlante delle professioni (2‑4 ore) e attività di orientamento universitario (10‑12 ore).  
 
 #### 2.2 Partnership e Reti  
-Le collaborazioni sono centrali nel PTOF:  
-- **Università**: Partecipazione a iniziative di orientamento universitario e collaborazioni con atenei locali (es. Università di Napoli Federico II).  
-- **Aziende**: Coinvolgimento di professionisti e imprese per laboratori e conferenze (es. "Salone dell'Orientamento al Darwin").  
-- **Enti Locali**: Collaborazione con la **Regione Campania** e il **Consorzio ITS Academy** per percorsi tecnico-professionali.  
-- **Istituzioni Accademiche**: Integrazione con il **Curricolo di Educazione Civica** e il **Piano Nazionale Scuola Digitale**.  
+Le collaborazioni sono molteplici e ben delineate. La scuola è parte della “Rete Scuola Sicura” di Rivoli, della “Rete Licei Economico‑Sociali”, della “Rete per l’inclusione (BES)”, della “Rete WEDEBATE” e della “Rete di scopo tra istituzioni scolastiche per la formazione del personale ATA”. Inoltre, la convenzione con il Castello di Rivoli consente l’attivazione di progetti culturali con il Polo museale di arte contemporanea. La rete “Ambito Territoriale PI06” vede il Liceo Darwin come capofila per la formazione del personale. Altre partnership includono il Politecnico di Torino per corsi di orientamento, la Confindustria per l’alternanza scuola‑lavoro, il Politecnico di Torino e l’Università di Torino per percorsi di preparazione ai test di ammissione, nonché collaborazioni con enti di volontariato (es. OASI) e con il Museo di Arte Contemporanea del Castello di Rivoli per progetti di educazione ambientale.  
 
 #### 2.3 Finalità e Obiettivi  
-Gli obiettivi dell'orientamento si articolano in:  
-1. **Sviluppo di competenze trasversali** (soft skills) come autonomia, imprenditorialità e cittadinanza digitale.  
-2. **Connettività scuola-lavoro**: Esperienze concrete tramite PCTO e stage simulati.  
-3. **Preparazione al mercato del lavoro**: Analisi dell'atlante delle professioni, educazione finanziaria e predisposizione del CV.  
-4. **Sostenibilità**: Laboratori e conferenze tematiche su sviluppo sostenibile e responsabilità sociale.  
+Il documento individua una serie di finalità che connettono l’orientamento alle competenze chiave europee e alle esigenze del territorio. Tra gli obiettivi prioritari vi sono la valorizzazione delle competenze linguistiche (italiano, inglese e altre lingue UE), lo sviluppo delle competenze in materia di cittadinanza attiva e democratica, il potenziamento delle conoscenze giuridiche ed economico‑finanziarie, la promozione dell’autoimprenditorialità, la prevenzione della dispersione scolastica e l’incremento dell’alternanza scuola‑lavoro. Il PTOF prevede inoltre la riduzione di circa 10 punti percentuali della percentuale di studenti non ammessi e di quelli con giudizio sospeso, in linea con le priorità desunte dal Rapporto di Autovalutazione (RAV).  
 
 #### 2.4 Governance e Azioni di Sistema  
-L'orientamento è gestito da una **Commissione Orientamento** che coordina le attività con il supporto di psicologi d'istituto e consulenti esterni. Le azioni sono integrate nei **Consigli di Classe**, che progettano interventi specifici (es. laboratori di didattica orientativa). La piattaforma **Scuola & Territorio** registra tutte le attività PCTO, garantendo tracciabilità e monitoraggio.  
+La gestione dell’orientamento è affidata a una Commissione Orientamento che opera in sinergia con il Collegio dei Docenti, i Consigli di Classe e il personale di supporto (psicologi d’istituto, consulenti esterni). La piattaforma “Scuola & Territorio” registra tutte le attività PCTO, garantendo tracciabilità e monitoraggio. Il modello organizzativo prevede la figura del collaboratore del Dirigente Scolastico (DS) che coordina le attività amministrative e di comunicazione, nonché i responsabili di plesso per le sedi di Rivoli e Sangano, i quali curano la vigilanza delle classi, la gestione delle assenze e il rapporto con le famiglie. Le funzioni strumentali definiscono i programmi annuali, il calendario degli incontri e la documentazione delle attività, mentre i referenti di area (viaggi‑soggiorni‑scambi, orientamento, cultura, sport, PCTO, educazione alla salute‑sicurezza‑ambiente) coordinano le iniziative specifiche.  
 
 #### 2.5 Didattica Orientativa  
-Le metodologie didattiche includono:  
-- **Laboratori esperienziali** (es. "Talenti" e "Sviluppo Sostenibile").  
-- **Conferenze e incontri con professionisti** (es. "Salone dell'Orientamento").  
-- **Didattica universitaria simulata** (es. presentazioni di atenei e percorsi ITS).  
-- **Educazione civica** con focus su cittadinanza digitale e mercato del lavoro.  
+Le metodologie adottate per l’orientamento combinano approcci laboratoriali, esperienziali e digitali. I laboratori “Talenti” e “Sviluppo Sostenibile” utilizzano la didattica laboratoriale e il metodo scientifico della ricerca, mentre le attività di “Salone dell’Orientamento” prevedono presentazioni dirette di università e imprese, con l’uso di piattaforme digitali per la condivisione di contenuti. La scuola adotta la metodologia CLIL (Content and Language Integrated Learning) per l’insegnamento di discipline in lingua straniera, e promuove la cittadinanza digitale attraverso corsi di formazione su sicurezza, uso critico dei social network e cyberbullismo, in collaborazione con la Polizia di Stato. Inoltre, il progetto “Animatore digitale” (finanziamento € 2 000) prevede la formazione di venti unità di personale interno (dirigenti, docenti e ATA) per sostenere la transizione digitale.  
 
 #### 2.6 Opportunità Formative  
-Le opportunità includono:  
-- **PCTO obbligatori** (90 ore triennio), con attività in aziende, enti del terzo settore e istituzioni.  
-- **Stage simulati** e **esperienze laboratoriali** in contesti reali o simulati.  
-- **Certificazioni digitali** e **competenze tecniche** (es. utilizzo di strumenti informatici).  
-- **Progetti di imprenditorialità** e **educazione finanziaria**.  
+Le opportunità offerte agli studenti includono i percorsi PCTO obbligatori (90 ore triennio) con attività in aziende, enti del terzo settore e istituzioni pubbliche, nonché stage simulati (IFS) in ambiti quali educativo‑pedagogico, socio‑assistenziale, medico‑veterinario, economico‑giuridico, sportivo, scientifico‑tecnologico e artistico‑culturale. Il progetto “DARWIN 4.0” (finanziamento € 253 355,44) prevede la trasformazione di 34 aule in ambienti di apprendimento innovativi, dotati di tecnologie avanzate per le competenze trasversali e digitali. Il laboratorio di modellizzazione (finanziamento € 124 044,57) offre attrezzature per la stampa 3D/4D, la realtà virtuale e aumentata, il videomaking e la digital art. Il progetto “Spazi e strumenti digitali per le STEM” (finanziamento € 16 000) fornisce kit didattici per biologia molecolare, microscopia, fisica e matematica, con l’obiettivo di potenziare le competenze STEM. Altri progetti, come “STEM BY STEM” (finanziamento € 69 133,47) e “STEMDays” (sostegno di Fondazione Human+), mirano a promuovere la partecipazione femminile alle discipline scientifiche e tecnologiche.  
 
 #### 2.7 Registro Dettagliato delle Attività  
-Esempi di attività previste:  
-- **Classe III**: Laboratori su "Talenti" (6 ore), conferenze su sostenibilità (6 ore), incontro sull'imprenditorialità (4 ore).  
-- **Classe IV**: "Salone dell'Orientamento" (6 ore), presentazione di percorsi ITS (2 ore), incontri con professionisti (6 ore).  
-- **Classe V**: Laboratori su "Mestieri" (6 ore), educazione finanziaria (4 ore), predisposizione del CV (2-4 ore).  
-
----
+Il PTOF elenca in modo preciso le attività previste per ciascuna classe. Per la classe III, le ore curriculari sono suddivise tra introduzione ai percorsi (2 ore), laboratori sui talenti (6 ore), laboratori di sostenibilità (6 ore), incontri di educazione civica sull’imprenditorialità (4 ore), conferenze sulla sostenibilità (4‑5 ore) e orientamento universitario (6‑7 ore). Per la classe IV, le attività comprendono la presentazione delle piattaforme universitarie (2 ore), laboratori di orientamento professionale (6 ore), il “salone dell’orientamento” (6 ore), incontri di educazione civica sul mercato del lavoro (4 ore), presentazioni dei percorsi ITS (2 ore) e attività di orientamento universitario (10 ore). Per la classe V, le ore sono destinate a laboratori di orientamento professionale (6 ore), al “salone dell’orientamento” (6 ore), incontri di educazione finanziaria (4 ore), alla predisposizione del curriculum e all’analisi dell’atlante delle professioni (2‑4 ore) e a ulteriori attività di orientamento universitario (10‑12 ore). Oltre a queste attività curriculari, la scuola organizza iniziative extracurriculari quali gare di matematica e fisica, Olimpiadi della Matematica, stage di matematica a Bardonecchia, stage di fisica presso l’INFN di Frascati, laboratori di digital art, progetti di peer tutoring, attività di volontariato presso il Banco Alimentare, la Croce Rossa e i canili, nonché progetti di educazione alla salute mentale e al benessere emotivo.  
 
 ### 3. Punti di Forza  
-1. **Integrazione tra orientamento e didattica**: Le attività di orientamento sono strettamente collegate ai curricoli e ai PCTO, garantendo una progettualità coerente.  
-2. **Collaborazioni significative**: Partnership con università, aziende e enti locali rafforzano la concreta esperienza formativa.  
-3. **Focus su sostenibilità e cittadinanza digitale**: Laboratori e conferenze tematiche rispondono a esigenze globali e locali.  
-4. **Strumenti di tracciabilità**: La piattaforma **Scuola & Territorio** garantisce monitoraggio e valutazione delle attività.  
-5. **Struttura modulare**: L'orientamento è articolato in moduli annuali, con obiettivi chiari per ogni classe.  
-
----
+Il PTOF del Liceo Charles Darwin si distingue per la coerenza tra la programmazione dell’orientamento e le esigenze del territorio, la presenza di una rete articolata di partnership con università, imprese e enti culturali, l’investimento significativo in infrastrutture digitali e laboratori avanzati, la capacità di integrare la cittadinanza digitale e la sostenibilità ambientale nei percorsi formativi, e l’uso di una piattaforma digitale (Scuola & Territorio) che garantisce la tracciabilità delle attività PCTO. Inoltre, la definizione di obiettivi quantitativi (riduzione del 10 % di studenti non ammessi e sospesi) e la presenza di un piano di miglioramento con traguardi chiari rafforzano la capacità di monitorare i risultati.  
 
 ### 4. Aree di Debolezza  
-1. **Limitata autonomia studentesca**: Le attività sono prevalentemente strutturate dall'istituto, con scarsa partecipazione attiva degli studenti nella progettazione.  
-2. **Assenza di partnership internazionali**: Non sono previste collaborazioni con istituzioni estere o programmi Erasmus+.  
-3. **Scarso focus su competenze digitali avanzate**: Sebbene siano menzionate le competenze digitali, non sono previste certificazioni specifiche (es. ECDL).  
-4. **Lacune nella valutazione**: Il PTOF non prevede indicatori di successo per misurare l'efficacia delle attività di orientamento.  
-5. **Ore extracurriculari limitate**: Le attività sono quasi esclusivamente curriculari, con poche iniziative extracurriculari per studenti motivati.  
-
----
+Nonostante la ricchezza di proposte, il PTOF evidenzia alcune criticità. La partecipazione attiva degli studenti nella progettazione delle attività di orientamento risulta limitata, con la maggior parte delle iniziative pianificate dal corpo docente. Le collaborazioni internazionali, ad esempio programmi Erasmus+, non sono menzionate, riducendo le opportunità di mobilità all’estero. Le certificazioni digitali specifiche (come ECDL) non sono previste, sebbene siano indicati percorsi di cittadinanza digitale. La valutazione dell’efficacia delle attività di orientamento manca di indicatori di performance (KPI) e di sistemi di feedback sistematico da parte degli studenti. Infine, le ore extracurriculari sono poche rispetto alla mole di attività curriculari, limitando lo spazio per iniziative volontarie o di approfondimento autonomo.  
 
 ### 5. Gap Analysis  
-Rispetto alle linee guida ministeriali e alle best practices:  
-- **Assenza di progetti Erasmus+**: Non sono previsti scambi internazionali o collaborazioni con scuole estere.  
-- **Mancanza di certificazioni digitali**: Non sono indicate certificazioni specifiche per le competenze digitali.  
-- **Scarso coinvolgimento studentesco**: Le attività sono progettate esclusivamente dal corpo docente, senza coinvolgere gli studenti in ruoli attivi.  
-- **Limitata valutazione degli esiti**: Non sono definiti KPI per misurare l'impatto delle iniziative di orientamento.  
-- **Assenza di percorsi di mentoring**: Non sono previsti tutor esterni o mentoring per supportare gli studenti nel percorso formativo.  
-
----
+Confrontando il PTOF con le linee guida ministeriali e le best practice, emergono i seguenti gap: assenza di progetti di mobilità internazionale (Erasmus+ o simili), mancanza di certificazioni digitali riconosciute a livello nazionale o europeo, scarso coinvolgimento studentesco nella fase di progettazione e valutazione delle attività di orientamento, assenza di indicatori di risultato (tassi di ammissione universitaria, inserimento lavorativo, soddisfazione degli studenti) e carenza di programmi di mentoring esterno con professionisti del territorio.  
 
 ### 6. Conclusioni  
-Il PTOF del Liceo Charles Darwin presenta un modello di orientamento strutturato e integrato, con una forte attenzione alla sostenibilità, alle competenze trasversali e alle collaborazioni territoriali. Tuttavia, per allinearsi alle migliori pratiche nazionali e internazionali, l'istituto dovrebbe:  
-1. **Introdurre progetti Erasmus+** per ampliare l'orizzonte internazionale.  
-2. **Prevedere certificazioni digitali** e competenze avanzate.  
-3. **Coinvolgere gli studenti** nella progettazione e valutazione delle attività.  
-4. **Definire indicatori di successo** per misurare l'efficacia dell'orientamento.  
-5. **Potenziare il mentoring** con figure esterne (es. imprenditori, ricercatori).  
-
-Con queste migliorie, il Liceo Darwin potrebbe posizionarsi come riferimento per l'orientamento innovativo nel contesto regionale e nazionale.
+Il PTOF del Liceo Charles Darwin offre un modello di orientamento ben strutturato, con una forte integrazione tra formazione disciplinare, competenze trasversali, sostenibilità e innovazione digitale. Le numerose partnership territoriali, gli investimenti in infrastrutture avanzate e la definizione di obiettivi concreti rappresentano punti di forza significativi. Per avvicinarsi alle migliori pratiche nazionali e internazionali, la scuola dovrebbe considerare l’introduzione di progetti di mobilità europea, l’adozione di certificazioni digitali (es. ECDL), il potenziamento del coinvolgimento studentesco nella progettazione delle attività, la definizione di KPI per la valutazione dell’impatto dell’orientamento e lo sviluppo di programmi di mentoring con esperti esterni. L’attuazione di queste raccomandazioni consentirebbe al Liceo Darwin di consolidare la sua posizione di riferimento per l’orientamento innovativo nel contesto regionale e nazionale.

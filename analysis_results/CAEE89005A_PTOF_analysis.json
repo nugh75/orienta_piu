@@ -254,11 +254,62 @@
         "orientamento_found": true,
         "changes": []
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:30:29.917544",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 6,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:35:51.072243",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 6,
+        "extreme_scores_checked": 5,
+        "scores_modified": 0,
+        "orientamento_found": true,
+        "changes": []
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:06:57.879799",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 6,
+        "enrichments_found": 8,
+        "corrections_found": 3,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T20:00:02.974507",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 0
+    },
+    {
+      "timestamp": "2025-12-25T01:35:51.072268",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 0

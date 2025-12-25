@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "La sezione è ben definita e dettagliata, con una chiara attenzione all'orientamento e al riorientamento degli studenti."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova nel capitolo finale del PTOF, dove si afferma che l'attività didattica-educativa dell'istituto si fonda su principi che includono la definizione di un sis (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:56:07.896452"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -83,16 +85,16 @@
     },
     "2_4_obiettivi": {
       "obiettivo_ridurre_abbandono": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_continuita_territorio": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 6
+        "score": 5
       },
       "obiettivo_lifelong_learning": {
-        "score": 6
+        "score": 5
       }
     },
     "2_5_azioni_sistema": {
@@ -100,7 +102,7 @@
         "score": 5
       },
       "azione_dialogo_docenti_studenti": {
-        "score": 6
+        "score": 5
       },
       "azione_rapporto_scuola_genitori": {
         "score": 5
@@ -123,7 +125,7 @@
         "score": 4
       },
       "didattica_interdisciplinare": {
-        "score": 6
+        "score": 5
       }
     },
     "2_7_opzionali_facoltative": {
@@ -131,7 +133,7 @@
         "score": 5
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 6
+        "score": 5
       },
       "opzionali_ludiche_ricreative": {
         "score": 3
@@ -287,5 +289,109 @@
     }
   ],
   "narrative": "# Analisi del PTOF FRPC02500X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto S.Bernardo di Veroli (FRPC02500X), una scuola primaria paritaria situata nel territorio non metropolitano del Lazio. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'offerta didattica orientativa e le attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento ben definita e dettagliata, ottenendo un punteggio di 6. Si evidenzia una chiara attenzione all'orientamento e al riorientamento degli studenti.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership con diversi soggetti esterni, tra cui il **Rotary Club di Frosinone**, l'**Accademia Italiana di Pattinaggio “Oriens Roma ADS”**, i comandi provinciali di **Carabinieri**, **Guardia di Finanza** e **Vigili del Fuoco** di Frosinone, il **Comando Aeroporto Militare di Frosinone**, la **Direzione Asl della provincia di Frosinone**, gli ordini professionali di **Avvocati** e **Ingegneri** di Frosinone e Cassino, gli ordini dei **Dottori Commercialisti**, l'**Agenzia delle Entrate**, la **Questura di Frosinone**, le sigle sindacali **Cisl** e **UIL**, l'**Inps**, aziende come **Cartiera Burgo – Sora** e **Unindustria – Ance**, **Università**, **Centri di Formazione Professionale**, **Associazioni**, **ex alunni** ed **Enti ed esperti del mondo del lavoro**. Il numero totale di partner attivi è pari a 26.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono l'individuazione di percorsi post-diploma rispondenti all'attitudine e personalità degli studenti (punteggio 5), lo sviluppo delle capacità di progettazione in relazione alla realtà (punteggio 5), il favore dell'elaborazione graduale di un progetto di vita (punteggio 5), il sostegno nella scelta del percorso universitario o professionale (punteggio 6) e la dotazione di strumenti per operare scelte future consapevoli (punteggio 6).\n\n**2.4 Obiettivi:** Il PTOF si pone l'obiettivo di ridurre l'abbandono scolastico, garantire la continuità territoriale, contrastare il fenomeno NEET e promuovere il lifelong learning, ottenendo un punteggio di 6 per ciascuno di questi obiettivi.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. I punteggi variano da 4 a 6, indicando un impegno variabile nelle diverse aree.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi variano da 4 a 6, suggerendo un'implementazione differenziata delle diverse metodologie.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi variano da 3 a 6, indicando una diversificazione dell'offerta e un diverso grado di attenzione alle diverse aree.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento ben strutturata, l'ampia rete di partnership con il territorio, la chiarezza delle finalità e degli obiettivi, e l'impegno verso la riduzione dell'abbandono scolastico e la promozione del lifelong learning. L'attività di **PCTO** rappresenta un'esperienza pratica fondamentale per gli studenti del triennio, mentre lo **sportello orientamento** e la **consulenza docenti** offrono un supporto personalizzato.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio delle azioni implementate (punteggio 4) e la didattica laboratoriale e la flessibilità degli spazi e dei tempi (punteggio 4). L'offerta di attività opzionali ludiche e ricreative risulta meno sviluppata (punteggio 3).\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario rafforzare il sistema di monitoraggio delle azioni di orientamento per valutarne l'efficacia e apportare eventuali correzioni. Inoltre, è opportuno potenziare la didattica laboratoriale e la flessibilità degli spazi e dei tempi per favorire un apprendimento più attivo e coinvolgente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto S.Bernardo dimostra una solida base per l'orientamento degli studenti. L'ampia rete di partnership, le finalità ben definite e l'offerta di attività diversificate rappresentano un valore aggiunto. Concentrando gli sforzi sul miglioramento del monitoraggio e sul potenziamento della didattica laboratoriale, l'istituto potrà raggiungere risultati ancora più significativi nell'orientamento e nella preparazione degli studenti al futuro.",
-  "review_notes": "Solo la sezione dedicata all'orientamento è stata penalizzata per assenza di un capitolo esplicito; tutti gli altri punteggi estremi sono confermati."
+  "review_notes": "Solo la sezione dedicata all'orientamento è stata penalizzata per assenza di un capitolo esplicito; tutti gli altri punteggi estremi sono confermati.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:04:56.756141",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 11,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:32:22.143882",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 11,
+        "extreme_scores_checked": 10,
+        "scores_modified": 8,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo non menziona esplicitamente una sezione dedicata all'orientamento nel PTOF, ma parla di att"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_ridurre_abbandono.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza dell'orientamento per ridurre l'abbandono scolastico, ma non fornisce"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_continuita_territorio.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo parla di continuità con il territorio, ma non fornisce dettagli specifici sulle collaborazi"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza di contrastare il fenomeno NEET, ma non fornisce dettagli specifici s"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_lifelong_learning.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza dell'apprendimento lungo tutto l'arco della vita, ma non fornisce det"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_dialogo_docenti_studenti.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza del dialogo tra docenti e studenti, ma non fornisce dettagli specific"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_interdisciplinare.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza della didattica interdisciplinare, ma non fornisce dettagli specifici"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'importanza delle opzioni laboratoriali e espressive, ma non fornisce dettagli sp"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:57:13.652835",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 11,
+        "enrichments_found": 18,
+        "corrections_found": 10,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T02:32:22.143900",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 8
+    }
+  ]
 }

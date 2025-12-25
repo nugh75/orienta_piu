@@ -20,9 +20,11 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "L'orientamento è integrato sia come priorità strategica (RAV) sia come offerta formativa specifica. Il punteggio è elevato per la presenza di percorsi strutturati in ingresso e uscita citati nell'indice e nel piano di miglioramento.",
-      "review_notes": "Confermato. La sezione è chiaramente identificata nell'indice (pagg. 100, 106) e descritta come asse portante del Piano di Miglioramento (pagg. 30-31)."
+      "score": 5,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF include il Progetto Accoglienza e il Progetto Orientamento, con incontri con esperti e visite aziendali.\nLa sezione dedicata all'orientamento nel PTOF del (Precedente: score=5, has_sezione_dedicata=0)",
+      "review_notes": "Confermato. La sezione è chiaramente identificata nell'indice (pagg. 100, 106) e descritta come asse portante del Piano di Miglioramento (pagg. 30-31).",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:35:18.225851"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -120,7 +122,7 @@
     },
     "2_6_didattica_orientativa": {
       "didattica_da_esperienza_studenti": {
-        "score": 6,
+        "score": 5,
         "review_notes": "Aumentato. Il documento sottolinea esplicitamente la priorità dell'esperienza sulla teoria (Pag. 20)."
       },
       "didattica_laboratoriale": {
@@ -154,7 +156,7 @@
         "review_notes": "Confermato. Adozione studente africano e progetti solidarietà (Pag. 6)."
       },
       "opzionali_sportive": {
-        "score": 6,
+        "score": 5,
         "review_notes": "Aumentato. Protocollo CONI, certificazioni sportive e palestre (Pag. 16, 20)."
       }
     },
@@ -237,5 +239,79 @@
     }
   ],
   "narrative": "# Analisi Auditoriale PTOF CTIS04300B\n\nL'Istituto Marconi-Mangano presenta un'offerta formativa robusta e fortemente orientata al mercato del lavoro e all'internazionalizzazione. \n\n### Punti di Forza\n1. **Infrastruttura Laboratoriale**: Con 38 laboratori totali, la scuola dimostra una coerenza esemplare tra la missione dichiarata (didattica esperienziale) e le risorse materiali disponibili.\n2. **Internazionalizzazione**: L'accreditamento Erasmus+ e i gemellaggi con la Cina (Progetto Il Milione) elevano il profilo della scuola oltre il contesto locale.\n3. **Inclusione e Dispersione**: Il PTOF non si limita a dichiarazioni di intenti, ma fissa obiettivi quantitativi (RAV) per la riduzione della dispersione, specialmente nel plesso Mangano.\n\n### Criticità Rilevate\n1. **Manutenzione Infrastrutturale**: Il documento denuncia gravi carenze nella manutenzione degli edifici (palestra inagibile al Mangano, sbalzi di tensione) che limitano l'efficacia dell'azione didattica.\n2. **Personale**: Si segnala un elevato tasso di assenteismo legato alla Legge 104/92, che impatta sulla continuità didattica.\n\n### Conclusioni dell'Auditor\nL'analisi originale è stata corretta rimuovendo riferimenti a pagine non presenti nel documento fornito e depurando l'elenco dei partner da allucinazioni. Il punteggio complessivo dell'orientamento rimane alto (6/7) grazie alla chiara integrazione tra istruzione tecnica, professionale e certificazioni esterne.",
-  "review_notes": "Solo la sezione dedicata all'orientamento è stata ridotta, poiché non esiste un capitolo esplicitamente intitolato nel documento."
+  "review_notes": "Solo la sezione dedicata all'orientamento è stata ridotta, poiché non esiste un capitolo esplicitamente intitolato nel documento.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:04:15.215432",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 9,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:03:31.430762",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 9,
+        "extreme_scores_checked": 5,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "La sezione dedicata all'orientamento è chiaramente identificata nell'indice (pagg. 100, 106) e descr"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_da_esperienza_studenti.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il documento sottolinea la priorità dell'esperienza sulla teoria, ma non fornisce dettagli specifici"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_sportive.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Sono menzionati protocolli CONI e certificazioni sportive, ma non sono specificati i dettagli delle "
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:36:26.101881",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 20,
+        "corrections_found": 14,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:03:31.430784",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
 }

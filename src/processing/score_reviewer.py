@@ -17,6 +17,11 @@ import requests
 from pathlib import Path
 from typing import Dict, Optional, Any, List, Set
 
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.utils.file_utils import atomic_write
+
 # Flag per uscita controllata
 EXIT_REQUESTED = False
 
@@ -107,8 +112,7 @@ def get_gemini_key() -> Optional[str]:
 def save_status(status: Dict[str, Any]) -> None:
     """Save review status to disk."""
     try:
-        with open(STATUS_FILE, "w") as f:
-            json.dump(status, f, indent=2)
+        atomic_write(STATUS_FILE, json.dumps(status, indent=2))
     except Exception as e:
         logger.error(f"Status save error: {e}")
 
@@ -451,7 +455,8 @@ def main() -> None:
                 continue
 
             shutil.copy2(json_path, BACKUP_DIR / json_path.name)
-
+            # Backup handled by atomic_write now, but keeping this for explicit pre-review backup folder
+            
             prompt = build_extreme_review_prompt(
                 md_content, extreme_items, args.low_threshold, args.high_threshold, args.max_chars
             )
@@ -473,8 +478,7 @@ def main() -> None:
                 if isinstance(review_notes, str) and review_notes.strip():
                     current_json["review_notes"] = review_notes.strip()
 
-                with open(json_path, "w") as f:
-                    json.dump(current_json, f, indent=2, ensure_ascii=False)
+                atomic_write(json_path, json.dumps(current_json, indent=2, ensure_ascii=False), backup=True)
 
                 logger.info(f"{school_code}: applied {applied}/{len(allowed_paths)} updates")
                 status["reviewed"].append(school_code)

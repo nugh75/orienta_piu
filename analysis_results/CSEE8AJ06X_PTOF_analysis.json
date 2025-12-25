@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è presente e ben strutturata, con una descrizione dettagliata delle azioni previste per la didattica digitale integrata. Tuttavia, manca una chiara definizione degli obiettivi specifici dell'orientamento."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. L'orientamento è trattato come parte integrante del curricolo verticale, con un focus sull'acquisizione di competenze per la scelta consapevole del proprio percorso formativo. Il documento menziona ch (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:03:30.510576"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -385,11 +387,69 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:28:41.586026",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:33:27.195067",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 12,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF include una sezione dedicata all'orientamento con dettagli su attività di accompagnamento, p"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:04:28.188735",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 22,
+        "corrections_found": 8,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T19:56:51.838333",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-25T01:33:27.195089",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

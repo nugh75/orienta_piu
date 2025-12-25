@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 3,
-      "note": "L'orientamento è affrontato attraverso diverse aree tematiche (attività, reti, referenti) senza una sezione dedicata e una visione d'insieme chiara. Riferimenti sparsi sono presenti, ad esempio nei 'Percorsi interdisciplinari' (Pagina 177)."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T21:54:45.774021"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -98,7 +100,7 @@
     },
     "2_6_didattica_orientativa": {
       "didattica_da_esperienza_studenti": {
-        "score": 6
+        "score": 5
       },
       "didattica_laboratoriale": {
         "score": 5
@@ -355,5 +357,51 @@
     }
   ],
   "narrative": "# Analisi del PTOF BAAA83103A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **C.Da Trito** (codice scuola **BAAA83103A**) per il triennio **2019/20-2021/22**. L'istituto, di ordine **Infanzia** e situato nel territorio **Metropolitano** della regione **Puglia**, presenta un approccio all'orientamento diffuso, sebbene non formalizzato in una sezione dedicata specifica. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento, sulle partnership attivate e sulle attività registrate nel PTOF.\n\n### 2. Analisi Dimensionale\n\nL'orientamento viene affrontato attraverso diverse aree tematiche, come evidenziato dal punteggio di 3 assegnato alla presenza di una sezione dedicata. Si nota una mancanza di una visione d'insieme chiara, con riferimenti sparsi, ad esempio nei **Percorsi interdisciplinari**. L'istituto vanta un network di **partnership** significativo, con ben 10 partner nominati tra cui l'**Università degli Studi di Urbino Carlo Bo**, i **Servizi sociali**, il **Centro Risorse per le famiglie**, diverse **Associazioni sportive**, l'**ASL**, altre scuole, l'**Associazione culturale 'Euforica'**, l'**Associazione 'Giovanni Paolo II Locorotondo'**, **Moige** e l'**Istituto Sereni di Roma**.\n\nPer quanto riguarda le finalità, l'istituto dimostra un forte impegno nello sviluppo delle **attitudini** degli alunni, con un punteggio di 5, in particolare nello **sviluppare la capacità di partecipare all’esperienza musicale**. Analogamente, si riscontra un'attenzione ai loro **interessi**, con contenuti culturalmente rilevanti e legati alla loro esperienza di vita. L'istituto si propone anche di favorire le **scelte autonome degli studenti** e di promuovere la continuità territoriale. Le capacità orientative e le opportunità di crescita sono ampliate attraverso la competenza collaborativa e interculturale.\n\nGli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la continuità con il territorio e il lifelong learning, mentre l'attenzione al contrasto al fenomeno NEET risulta meno marcata. Le azioni del sistema scolastico si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni intraprese e un sistema integrato di inclusione e attenzione alle fragilità.\n\nLa didattica orientativa si distingue per l'approccio esperienziale, l'utilizzo di laboratori, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. L'offerta formativa include opzionali culturali, laboratoriali ed espressive, sportive e di volontariato, con un'attenzione particolare alle attività ludiche e ricreative.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella ricchezza delle **partnership** attivate, nell'impegno per lo sviluppo delle **attitudini** e degli **interessi** degli alunni, e nell'approccio didattico orientativo basato sull'esperienza e sull'interdisciplinarità. L'istituto dimostra una forte attenzione all'**inclusione** e alla creazione di un ambiente di apprendimento positivo. Le attività registrate, come i **Progetti FESR** per l'adeguamento della sicurezza degli edifici, i laboratori di teatro e le attività sportive, contribuiscono ad ampliare l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che rende difficile avere una visione d'insieme delle azioni intraprese. L'attenzione al contrasto al fenomeno **NEET** è meno sviluppata rispetto ad altri aspetti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare meglio l'orientamento all'interno del PTOF, definendo una sezione dedicata con obiettivi, azioni e indicatori di monitoraggio specifici. Sarebbe opportuno rafforzare le azioni volte al contrasto al fenomeno NEET e a promuovere la transizione verso l'istruzione secondaria.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **C.Da Trito** presenta un approccio all'orientamento solido e ben radicato nella pratica didattica, sebbene manchi una formalizzazione strutturale. Le numerose **partnership** attivate e le attività proposte contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo. La definizione di una sezione dedicata all'orientamento e il rafforzamento delle azioni volte al contrasto al fenomeno NEET potrebbero ulteriormente migliorare l'efficacia del PTOF e garantire un futuro migliore per gli alunni. Tra le attività più rilevanti si segnalano **Didattica Orientante**, **Inclusione A 360°**, **La Scuola Forma E Informa**, **Siamo Tutti Abili**, **Estemporanea Di Arte** e **I-Learn: A Scuola Con L’I-Pad**.",
-  "review_notes": "La documentazione fornisce una visione generale della scuola e dei suoi obiettivi, ma alcuni aspetti richiedono maggiore dettaglio per una valutazione più precisa."
+  "review_notes": "La documentazione fornisce una visione generale della scuola e dei suoi obiettivi, ma alcuni aspetti richiedono maggiore dettaglio per una valutazione più precisa.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T21:05:53.794037",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 13,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_da_esperienza_studenti.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona attività di formazione e collaborazioni, ma non presenta una sezione esplicita ded"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-24T21:54:45.774244",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 13,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-24T21:05:53.794054",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

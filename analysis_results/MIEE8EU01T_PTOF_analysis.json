@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "L'orientamento non è trattato in una sezione autonoma del PTOF, ma è integrato nelle attività di ampliamento dell'offerta formativa, con particolare riferimento al progetto triennale 'Vela'. La descrizione è chiara, anche se manca un dettaglio approfondito sulle metodologie di valutazione."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si intitola 'AZIONE 2: Proviamoci un po’: Orientamento per le classi terze della scuola secondaria di primo grado' e si trova nel CHUNK 4/4 del documento. Essa des (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T06:08:47.127973"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -272,5 +274,67 @@
       "evidence_location": "Pagina 59"
     }
   ],
-  "narrative": "Il Piano Triennale dell'I.C. Breda (2022-2025) delinea una visione chiara dell'orientamento come parte integrante del percorso formativo, pur non essendo presente una sezione dedicata specificamente a questo tema. L'istituto pone l'accento sull'ampliamento dell'offerta formativa, con il progetto 'Vela' che si configura come un'iniziativa chiave per la transizione verso il secondo ciclo di istruzione, coinvolgendo attivamente studenti, docenti e famiglie. Le finalità del PTOF sono ben definite, con un'attenzione particolare allo sviluppo delle attitudini, degli interessi e alla costruzione di un progetto di vita consapevole. Le attività proposte, che spaziano da laboratori esperienziali a visite guidate, mirano a fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e a sviluppare competenze orientative utili per le scelte formative e professionali. La rete di partnership consolidata con enti locali, associazioni e scuole secondarie di secondo grado rappresenta un valore aggiunto per l'istituto, favorendo la creazione di un sistema integrato di servizi per l'orientamento e l'inclusione. Il testo, pur dettagliato nella descrizione delle attività, potrebbe beneficiare di una maggiore focalizzazione sui risultati attesi e sugli indicatori di successo, al fine di rendere più misurabile l'impatto delle azioni intraprese."
+  "narrative": "Il Piano Triennale dell'I.C. Breda (2022-2025) delinea una visione chiara dell'orientamento come parte integrante del percorso formativo, pur non essendo presente una sezione dedicata specificamente a questo tema. L'istituto pone l'accento sull'ampliamento dell'offerta formativa, con il progetto 'Vela' che si configura come un'iniziativa chiave per la transizione verso il secondo ciclo di istruzione, coinvolgendo attivamente studenti, docenti e famiglie. Le finalità del PTOF sono ben definite, con un'attenzione particolare allo sviluppo delle attitudini, degli interessi e alla costruzione di un progetto di vita consapevole. Le attività proposte, che spaziano da laboratori esperienziali a visite guidate, mirano a fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e a sviluppare competenze orientative utili per le scelte formative e professionali. La rete di partnership consolidata con enti locali, associazioni e scuole secondarie di secondo grado rappresenta un valore aggiunto per l'istituto, favorendo la creazione di un sistema integrato di servizi per l'orientamento e l'inclusione. Il testo, pur dettagliato nella descrizione delle attività, potrebbe beneficiare di una maggiore focalizzazione sui risultati attesi e sugli indicatori di successo, al fine di rendere più misurabile l'impatto delle azioni intraprese.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:00:46.908245",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 4,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:27:48.106280",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 4,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il documento presenta una sezione dedicata all'orientamento con dettagliate descrizioni di azioni e "
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T06:10:17.753924",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 4,
+        "enrichments_found": 3,
+        "corrections_found": 1,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T05:27:48.106300",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

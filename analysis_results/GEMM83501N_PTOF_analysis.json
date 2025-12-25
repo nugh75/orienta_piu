@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "Esiste una sezione dedicata all'offerta formativa, che include un paragrafo sui moduli di orientamento formativo (Pagina 39-41). La sezione è ben articolata e descrive le iniziative di orientamento, sebbene manchi una specifica indicazione degli strumenti di monitoraggio e valutazione."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF include una descrizione dettagliata delle iniziative proposte, con un focus sulla riduzione dell'abbandono scolastico, la continuità territoriale, il cont (Precedente: score=4, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T08:09:59.411289"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -317,5 +319,67 @@
       "evidence_location": "Pagina 83"
     }
   ],
-  "narrative": "# Analisi del PTOF GEMM83501N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Pra'-Ex Assarotti (GEMM83501N) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano di Genova, presenta un'attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tal senso. Il PTOF dimostra un impegno nella definizione di finalità orientative, obiettivi e azioni concrete, con un focus sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione formativa e la promozione del lifelong learning. La scuola si avvale di numerose **partnership** con enti, associazioni e istituzioni del territorio, tra cui la Genova British School of English, l'ANPI, il Liceo Lanfranconi, la Fondazione Carige e i Carabinieri della Biodiversità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF include una sezione specifica per l'offerta formativa e l'orientamento, con un'articolata descrizione delle iniziative proposte. Tuttavia, si segnala l'assenza di una chiara indicazione degli strumenti di monitoraggio e valutazione dell'efficacia delle azioni intraprese.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership** (15 in totale), che rappresentano un valore aggiunto per l'offerta formativa e l'orientamento. La collaborazione con diverse realtà del territorio permette di ampliare le opportunità per gli studenti e di promuovere l'integrazione tra scuola e mondo esterno.\n\n**2.3 Finalità:** Le finalità orientative del PTOF si concentrano sulla valorizzazione delle **competenze linguistiche** e digitali, sullo sviluppo del **progetto di vita** degli studenti e sulla facilitazione delle **transizioni formative**. L'istituto mira anche a sviluppare le capacità orientative degli alunni, offrendo loro opportunità per conseguire **certificazioni internazionali**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirati, con particolare attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa e alla promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e fragilità. Il **monitoraggio delle azioni** risulta essere l'area con il punteggio più basso (2 su 5), suggerendo la necessità di rafforzare questo aspetto.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sulla **didattica laboratoriale**, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti un'ampia gamma di opportunità per approfondire i propri interessi e sviluppare le proprie passioni.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio numero di **partnership** attivate, nella chiarezza delle finalità e degli obiettivi, e nella varietà dell'offerta formativa. Progetti come **\"Moduli di orientamento formativo\"**, **\"Piano di Internazionalizzazione\"**, **\"Progetto Lingua Inglese e Competenze Chiave\"** e **\"CONTINUITA': Passo dopo passo nella scoperta di sè\"** dimostrano un impegno concreto nella realizzazione di attività orientative.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il **monitoraggio e la valutazione** delle azioni intraprese, che necessitano di essere potenziati per garantire l'efficacia dell'intervento orientativo. Inoltre, la descrizione delle metodologie dei **\"Moduli di orientamento formativo\"** risulta insufficiente.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di definire indicatori e strumenti di valutazione specifici per misurare l'impatto delle attività orientative sugli studenti. È necessario implementare un sistema di monitoraggio che permetta di raccogliere dati e informazioni utili per migliorare l'offerta formativa e l'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Pra'-Ex Assarotti presenta un approccio proattivo all'orientamento, con un'attenzione particolare alla valorizzazione delle competenze degli studenti e alla loro preparazione per le sfide future. Nonostante alcune aree di debolezza, il PTOF rappresenta un valido strumento per guidare l'azione educativa dell'istituto e per promuovere il successo scolastico e personale degli alunni. L'impegno nella realizzazione di progetti come **\"Un albero per il futuro\"**, **\"Alla scoperta del mare\"** e **\"Quattro passi senza Cartella\"** testimonia l'attenzione dell'istituto verso l'educazione civica, l'educazione ambientale e la conoscenza del territorio."
+  "narrative": "# Analisi del PTOF GEMM83501N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Pra'-Ex Assarotti (GEMM83501N) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano di Genova, presenta un'attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tal senso. Il PTOF dimostra un impegno nella definizione di finalità orientative, obiettivi e azioni concrete, con un focus sulla riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione formativa e la promozione del lifelong learning. La scuola si avvale di numerose **partnership** con enti, associazioni e istituzioni del territorio, tra cui la Genova British School of English, l'ANPI, il Liceo Lanfranconi, la Fondazione Carige e i Carabinieri della Biodiversità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF include una sezione specifica per l'offerta formativa e l'orientamento, con un'articolata descrizione delle iniziative proposte. Tuttavia, si segnala l'assenza di una chiara indicazione degli strumenti di monitoraggio e valutazione dell'efficacia delle azioni intraprese.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership** (15 in totale), che rappresentano un valore aggiunto per l'offerta formativa e l'orientamento. La collaborazione con diverse realtà del territorio permette di ampliare le opportunità per gli studenti e di promuovere l'integrazione tra scuola e mondo esterno.\n\n**2.3 Finalità:** Le finalità orientative del PTOF si concentrano sulla valorizzazione delle **competenze linguistiche** e digitali, sullo sviluppo del **progetto di vita** degli studenti e sulla facilitazione delle **transizioni formative**. L'istituto mira anche a sviluppare le capacità orientative degli alunni, offrendo loro opportunità per conseguire **certificazioni internazionali**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirati, con particolare attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa e alla promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e fragilità. Il **monitoraggio delle azioni** risulta essere l'area con il punteggio più basso (2 su 5), suggerendo la necessità di rafforzare questo aspetto.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sulla **didattica laboratoriale**, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, offrendo agli studenti un'ampia gamma di opportunità per approfondire i propri interessi e sviluppare le proprie passioni.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio numero di **partnership** attivate, nella chiarezza delle finalità e degli obiettivi, e nella varietà dell'offerta formativa. Progetti come **\"Moduli di orientamento formativo\"**, **\"Piano di Internazionalizzazione\"**, **\"Progetto Lingua Inglese e Competenze Chiave\"** e **\"CONTINUITA': Passo dopo passo nella scoperta di sè\"** dimostrano un impegno concreto nella realizzazione di attività orientative.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il **monitoraggio e la valutazione** delle azioni intraprese, che necessitano di essere potenziati per garantire l'efficacia dell'intervento orientativo. Inoltre, la descrizione delle metodologie dei **\"Moduli di orientamento formativo\"** risulta insufficiente.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di definire indicatori e strumenti di valutazione specifici per misurare l'impatto delle attività orientative sugli studenti. È necessario implementare un sistema di monitoraggio che permetta di raccogliere dati e informazioni utili per migliorare l'offerta formativa e l'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Pra'-Ex Assarotti presenta un approccio proattivo all'orientamento, con un'attenzione particolare alla valorizzazione delle competenze degli studenti e alla loro preparazione per le sfide future. Nonostante alcune aree di debolezza, il PTOF rappresenta un valido strumento per guidare l'azione educativa dell'istituto e per promuovere il successo scolastico e personale degli alunni. L'impegno nella realizzazione di progetti come **\"Un albero per il futuro\"**, **\"Alla scoperta del mare\"** e **\"Quattro passi senza Cartella\"** testimonia l'attenzione dell'istituto verso l'educazione civica, l'educazione ambientale e la conoscenza del territorio.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:27:34.310003",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 6,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T06:12:53.949551",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 7,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 4,
+            "reason": "Il documento menziona l'importanza dell'orientamento considerando le caratteristiche dell'alunno, le"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T08:11:37.019786",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 6,
+        "enrichments_found": 10,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T06:12:53.949571",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

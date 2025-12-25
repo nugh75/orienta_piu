@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 3,
       "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
       "ollama_review_date": "2025-12-24T18:21:00.623869"
@@ -365,6 +365,26 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:15:50.121686",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 9,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il PTOF menziona l'orientamento negli studenti in diversi contesti, come nella descrizione delle fun"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -373,6 +393,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 3
+    },
+    {
+      "timestamp": "2025-12-25T00:15:50.121704",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
     }
   ]
 }

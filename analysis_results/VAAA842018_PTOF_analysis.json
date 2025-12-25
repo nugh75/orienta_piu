@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 1,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova nei 'Moduli di orientamento formativo' (pagine 56-58) del PTOF. Questi moduli prevedono per ciascuna classe del primo ciclo un percorso di trenta ore curr (Precedente: score=5, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T20:00:18.403212"
+      "ollama_review_date": "2025-12-25T01:01:49.141917"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -73,7 +73,7 @@
         "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 2
+        "score": 4
       },
       "obiettivo_lifelong_learning": {
         "score": 4
@@ -115,7 +115,7 @@
         "score": 4
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 2
+        "score": 5
       },
       "opzionali_ludiche_ricreative": {
         "score": 5
@@ -298,6 +298,54 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:50:37.064848",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 3,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il testo mostra attività concrete di orientamento, come il 'Percorso migranti di oggi, migranti di i"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo include iniziative come il 'Progetto PIPPI' e il 'Progetto autismo', che mirano a prevenire"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 2,
+            "new": 5,
+            "reason": "Il testo menziona laboratori espressivi come il 'Percorso affettività' e l'uso di una stanza Snoezel"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:03:32.058396",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 5,
+        "enrichments_found": 6,
+        "corrections_found": 1,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
@@ -306,6 +354,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 4
+    },
+    {
+      "timestamp": "2025-12-25T00:50:37.064864",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
     }
   ]
 }

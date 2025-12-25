@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
+      "has_sezione_dedicata": 0,
       "score": 5,
-      "note": "La sezione è presente e ben strutturata, con una descrizione dettagliata dei progetti e delle attività di orientamento."
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T00:29:40.213181"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -116,7 +118,7 @@
         "note": "Pur menzionando attività laboratoriali come Fab-Lab e coding, il documento non fornisce dettagli sufficienti sulla loro implementazione metodologica o frequenza."
       },
       "didattica_flessibilita_spazi_tempi": {
-        "score": 2,
+        "score": 4,
         "note": "La descrizione del 'tempo scuola articolato su 5 giorni' è vaga e non evidenzia una reale flessibilità nell'organizzazione degli spazi e dei tempi didattici."
       },
       "didattica_interdisciplinare": {
@@ -256,5 +258,63 @@
     }
   ],
   "narrative": "# Analisi del PTOF LTIC846006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I. C. “Emma Castelnuovo” (LTIC846006) per il triennio 2025-2028. La scuola, situata nel comune di **Latina**, in **Lazio**, si configura come istituto **statale** di grado **infanzia**. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata e un punteggio di 5. La scuola dimostra una forte attenzione alla continuità formativa e alla transizione tra i diversi gradi scolastici, supportata da numerose **partnership** con enti locali, università e associazioni.\n\n### 2. Analisi Dimensionale\n\nLa sezione 2.1 del PTOF, relativa all'orientamento, risulta particolarmente curata. L'istituto ha stabilito una rete di **partnership** ampia e diversificata, comprendendo il **Comune di Latina**, **Asili Nido del territorio**, **Agenzie esterne psico-pedagogiche**, la **Rete di Latina BPEA**, l'**USR Lazio**, l'**Università “La Sapienza” di Roma**, l'**Associazione Italiana Dislessia (AID)**, la **Fondazione Tim**, **Save the Children Italia**, **Telefono Azzurro**, l'**Università degli Studi di Firenze**, **Skuola.net**, la **Cooperativa E.D.I.**, il **Movimento Difesa del Cittadino**, l'**Agenzia Dire**, l'**ARCL**, il **Liceo scientifico “G.B.Grassi”**, l'**ASL**, i **Centri di Formazione Professionale** e gli **Enti del Terzo Settore** (un totale di 20 partner).\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati per la valorizzazione delle **attitudini** (4), degli **interessi** (4), del **progetto di vita** (4), delle **transizioni formative** (6) e delle **capacità orientative** legate alle opportunità (4). Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (5), la garanzia della **continuità territoriale** (5), un contrasto, seppur meno marcato, al fenomeno **NEET** (3) e la promozione del **lifelong learning** (4).\n\nLe azioni del sistema orientativo si concentrano sul **coordinamento dei servizi** (4), sul **dialogo tra docenti e studenti** (5), sul **rapporto scuola-genitori** (5), sul **monitoraggio delle azioni** (3) e sull'implementazione di un **sistema integrato di inclusione e fragilità** (5).\n\nLa didattica orientativa si basa sull'apprendimento esperienziale (5), sull'utilizzo di **laboratori** (4), sebbene la descrizione delle attività laboratoriali come **Fab-Lab** e **coding** manchi di dettagli metodologici. La flessibilità degli spazi e dei tempi didattici (2) appare poco definita, limitandosi a menzionare un 'tempo scuola articolato su 5 giorni'. L'interdisciplinarità (5) è invece un punto di forza.\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali** (4), **laboratoriali ed espressive** (6), **ludiche e ricreative** (4), di **volontariato** (3) e **sportive** (5).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza degli obiettivi, nella ricchezza delle **partnership** attivate e nella varietà delle attività proposte. Progetti come **Progetto di Continuità Didattica**, **L’app-orto** e **4 C x il Futuro** dimostrano un impegno concreto nella transizione tra i diversi gradi scolastici e nella sensibilizzazione ambientale. L'offerta di **test psico-attitudinali e colloqui** per gli studenti del primo grado è un servizio prezioso per l'orientamento alla scelta della scuola secondaria di secondo grado. L'integrazione di laboratori come **Coding** e **Fab-Lab** rappresenta un'opportunità per sviluppare competenze digitali e creative.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la mancanza di dettagli metodologici in alcune attività, come i laboratori e le attività di monitoraggio. La descrizione della flessibilità degli spazi e dei tempi didattici è vaga e poco incisiva. L'obiettivo di contrastare il fenomeno **NEET** appare meno prioritario rispetto agli altri.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di definire in modo più preciso le metodologie di valutazione dell'efficacia delle attività orientative e di garantire una maggiore flessibilità nell'organizzazione degli spazi e dei tempi didattici. È inoltre auspicabile un maggiore focus sulla prevenzione della dispersione scolastica e sull'orientamento verso il mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I. C. “Emma Castelnuovo” presenta un'impostazione solida e ben strutturata per quanto riguarda l'orientamento. La scuola dimostra un forte impegno verso la continuità formativa, la transizione tra i diversi gradi scolastici e lo sviluppo delle competenze degli studenti. Superando le aree di debolezza individuate, l'istituto potrà rafforzare ulteriormente la sua offerta orientativa e garantire un futuro migliore ai suoi alunni.",
-  "review_notes": "Nessuna sezione \"Orientamento\" è presente come capitolo autonomo; il punteggio alto relativo a orientamento non è presente, quindi la regola speciale non si applica."
+  "review_notes": "Nessuna sezione \"Orientamento\" è presente come capitolo autonomo; il punteggio alto relativo a orientamento non è presente, quindi la regola speciale non si applica.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:29:40.213451",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 7,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T06:16:09.309998",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 7,
+        "extreme_scores_checked": 3,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il testo mostra una sezione dedicata all'orientamento con attività specifiche come il 'tempo scuola "
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_flessibilita_spazi_tempi.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo menziona una 'flessibilità negli spazi e nei tempi didattici' con esempi concreti come l'or"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 6,
+            "new": null,
+            "reason": ""
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T06:16:09.310016",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
 }

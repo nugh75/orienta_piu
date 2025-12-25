@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 5,
-      "note": "La sezione è presente e ben definita, con una descrizione delle azioni per l'orientamento in ingresso e in uscita."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento del PTOF si articola in diverse dimensioni, tra cui finalità, obiettivi, azioni del sistema, didattica orientativa e attività opzionali e facoltative. L'istituto p (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T05:04:46.804396"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -131,7 +133,7 @@
         "score": 4
       },
       "opzionali_sportive": {
-        "score": 6
+        "score": 2
       }
     }
   },
@@ -278,5 +280,73 @@
     }
   ],
   "narrative": "# Analisi del PTOF MIRFHT500U\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Barbara Melzi** (MIRFHT500U) per il triennio 2022-2025. La scuola, situata a **Legnano** in **Lombardia**, è di tipo **Infanzia** e **II Grado** ed è riconosciuta come **Paritaria**. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un punteggio di 5. La scuola dimostra una forte attenzione a guidare gli alunni verso scelte consapevoli e a supportarli nella definizione del proprio **progetto di vita**, con particolare attenzione alle transizioni formative, in particolare verso le discipline **STEM**. L'istituto si avvale di una rete di **partnership** consolidata e diversificata, comprendente enti come **ENAC**, l'**Università Cattolica di Milano** e **Confindustria Alto Milanese**.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento del PTOF si articola in diverse dimensioni. Per quanto riguarda le **finalità**, l'istituto punta a sviluppare le attitudini, gli interessi e le capacità orientative degli studenti, ottenendo punteggi elevati in tutte le aree considerate. Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, il rafforzamento del legame con il territorio, il contrasto alla dispersione scolastica e la promozione del **lifelong learning**. Le azioni implementate prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e un sistema integrato per l'inclusione e la gestione delle fragilità.\n\nL'approccio didattico orientativo si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte valutate positivamente.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento sono evidenti nella presenza di una sezione dedicata ben strutturata, nella solida rete di **partnership** con enti esterni e nella chiarezza delle finalità e degli obiettivi. L'impegno verso l'orientamento **STEM** è particolarmente apprezzabile, così come l'attenzione alla didattica esperienziale e laboratoriale. L'ampia offerta di attività opzionali e facoltative contribuisce a personalizzare l'offerta formativa e a rispondere agli interessi degli studenti. Le attività registrate, come **Polaris** e i **Corsi PNRR**, dimostrano un impegno concreto nell'implementazione di progetti di orientamento innovativi.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree del PTOF potrebbero essere ulteriormente rafforzate. Il monitoraggio delle azioni di orientamento, pur presente, ottiene un punteggio di 3, suggerendo la necessità di implementare sistemi di valutazione più efficaci. L'azione relativa al sistema integrato di inclusione e fragilità, con un punteggio di 4, potrebbe beneficiare di una maggiore integrazione con le altre dimensioni dell'orientamento.\n\n### 5. Gap Analysis\n\nL'analisi dei dati rivela un divario tra l'impegno teorico e la misurazione dell'impatto delle azioni di orientamento. Sebbene la scuola definisca chiaramente le finalità e gli obiettivi, la valutazione dei risultati ottenuti appare meno sistematica. È necessario implementare indicatori di performance specifici per monitorare l'efficacia delle attività di orientamento e per valutare il raggiungimento degli obiettivi prefissati, come la riduzione dell'abbandono scolastico e il contrasto alla dispersione scolastica.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto **Barbara Melzi** dimostra un forte impegno verso l'orientamento, con una sezione dedicata ben definita, una rete di **partnership** consolidata e un'offerta formativa diversificata. I punti di forza superano le aree di debolezza, ma è necessario rafforzare il monitoraggio delle azioni e la valutazione dei risultati per garantire l'efficacia dell'intervento orientativo. Attività come i **Percorsi di tutoraggio**, gli **Open day**, le **Visite ad Atenei**, i **Laboratori di inglese**, le attività di **Karate**, **Minibasket**, il **Laboratorio artistico** e il **Doposcuola** contribuiscono a creare un ambiente scolastico stimolante e orientato al successo degli studenti.",
-  "review_notes": "L'offerta formativa include diverse opzioni per gli studenti."
+  "review_notes": "L'offerta formativa include diverse opzioni per gli studenti.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:23:15.433472",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:32:20.695191",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 13,
+        "extreme_scores_checked": 5,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il PTOF non contiene una sezione esplicita dedicata all'orientamento, ma mostra attività concrete co"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_sportive.score",
+            "old": 6,
+            "new": 2,
+            "reason": "Non sono state trovate evidenze di attività sportive nel testo fornito."
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:05:50.393119",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 31,
+        "corrections_found": 12,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:32:20.695214",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
+    }
+  ]
 }

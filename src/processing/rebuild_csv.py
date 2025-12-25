@@ -6,15 +6,17 @@ import os
 import glob
 import json
 import csv
-import csv
 import pandas as pd
 import sys
 from pathlib import Path
-from src.utils.constants import normalize_area_geografica
+import io
 
 # Fix imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))) # Add root
 sys.path.append(os.path.dirname(__file__)) # Add current dir
+
+from src.utils.file_utils import atomic_write
+from src.utils.constants import normalize_area_geografica
 
 # Now imports should work if analyze_ptofs is in root
 try:
@@ -344,9 +346,10 @@ for school_code, json_file, json_data in selected_entries:
         print(f"✗ {school_code}: {e}")
 
 # Write CSV
-with open(SUMMARY_FILE, 'w', newline='') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=CSV_COLUMNS)
-    writer.writeheader()
-    writer.writerows(rows)
+output = io.StringIO()
+writer = csv.DictWriter(output, fieldnames=CSV_COLUMNS)
+writer.writeheader()
+writer.writerows(rows)
+atomic_write(SUMMARY_FILE, output.getvalue())
 
 print(f"\n✅ Rebuilt {SUMMARY_FILE} with {len(rows)} schools")

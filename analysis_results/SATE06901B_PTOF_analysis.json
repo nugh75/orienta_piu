@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è esplicitamente citata nell'indice (p. 3) con capitoli dedicati ai moduli di orientamento (p. 132) e PCTO (p. 158). La strategia è integrata nelle scelte strategiche (p. 15-20)."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. Il PTOF presenta una sezione dedicata all'orientamento, con un punteggio di 5, che include una buona strutturazione e attenzione all'inclusione e alla personalizzazione. Tuttavia, la descrizione delle (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T03:19:30.209935"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -200,5 +202,67 @@
       "evidence_location": "Pagina 28"
     }
   ],
-  "review_notes": "L'analisi è stata corretta eliminando le attività 'allucinate' (Eipass, Legalità, Sicurezza, Edugreen) che facevano riferimento a pagine non incluse nel testo fornito (p. 132-266), sebbene presenti nell'indice. Sono stati inseriti i progetti PNRR (We Care, STEM, In...Contro) e i percorsi del PDM (L2, Invalsi) che sono ampiamente documentati nelle prime 42 pagine. I punteggi sulla flessibilità didattica sono stati alzati (da 3 a 5) poiché il testo cita esplicitamente l'adesione a 'Scuola 4.0' e l'uso di modelli organizzativi flessibili. La partnership è stata ridotta ai soli soggetti citati nel frammento di testo analizzato."
+  "review_notes": "L'analisi è stata corretta eliminando le attività 'allucinate' (Eipass, Legalità, Sicurezza, Edugreen) che facevano riferimento a pagine non incluse nel testo fornito (p. 132-266), sebbene presenti nell'indice. Sono stati inseriti i progetti PNRR (We Care, STEM, In...Contro) e i percorsi del PDM (L2, Invalsi) che sono ampiamente documentati nelle prime 42 pagine. I punteggi sulla flessibilità didattica sono stati alzati (da 3 a 5) poiché il testo cita esplicitamente l'adesione a 'Scuola 4.0' e l'uso di modelli organizzativi flessibili. La partnership è stata ridotta ai soli soggetti citati nel frammento di testo analizzato.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:19:38.330464",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 17,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:52:57.126327",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 18,
+        "extreme_scores_checked": 9,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF include una sezione dedicata all'orientamento in ingresso, in itinere e in uscita, con rifer"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:20:30.063106",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 17,
+        "enrichments_found": 56,
+        "corrections_found": 20,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T02:52:57.126357",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 6,
-      "note": "La sezione è presente e ben definita, con un focus sull'orientamento trasversale e specifico per le competenze chiave. Tuttavia, l'implementazione completa del piano di orientamento presenta alcune sfide, in particolare per quanto riguarda il monitoraggio dell'efficacia delle attività proposte e l'adeguamento degli interventi in base ai feedback degli studenti. È necessario potenziare la collaborazione con il mondo del lavoro per garantire un'offerta formativa sempre più in linea con le esigenze del territorio."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF include una descrizione dettagliata dei percorsi di PCTO, con informazioni sulla durata (triennale), la metodologia di valutazione e i soggetti coinvolti. (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:08:45.878469"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -112,7 +114,7 @@
     },
     "2_6_didattica_orientativa": {
       "didattica_da_esperienza_studenti": {
-        "score": 2
+        "score": 3
       },
       "didattica_laboratoriale": {
         "score": 4
@@ -129,10 +131,10 @@
         "score": 5
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 2
+        "score": 5
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 3
       },
       "opzionali_volontariato": {
         "score": 4
@@ -439,5 +441,85 @@
     }
   ],
   "narrative": "# Analisi del PTOF AQIS01800Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. “A. Bafile” (AQIS01800Q) per il periodo 2022-2025. La scuola, situata nel territorio non metropolitano dell'**Abruzzo** e precisamente nel comune de **L'Aquila**, si configura come istituto di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un punteggio di 6. Tuttavia, l'implementazione completa del piano presenta alcune sfide, soprattutto per quanto riguarda il monitoraggio dell'efficacia delle attività e l'adeguamento degli interventi. La collaborazione con il mondo del lavoro è considerata un elemento cruciale per garantire un'offerta formativa in linea con le esigenze del territorio.\n\n### 2. Analisi Dimensionale\n\nLa scuola dimostra un'attenzione particolare alle finalità dell'orientamento, con punteggi che variano tra 4 e 5 per le diverse aree. Si evidenzia un impegno nello sviluppo delle **attitudini** degli studenti, con particolare riferimento alla capacità di sostenere una propria tesi, e degli **interessi**, con un focus sulla fruizione delle espressioni creative delle arti. L'attenzione al **progetto di vita** è presente, ma con un punteggio leggermente inferiore, mentre le **transizioni formative** sono ben considerate attraverso l'implementazione di percorsi di **PCTO**. Lo sviluppo delle **capacità orientative** e delle opportunità future è presente, con un focus sulle competenze digitali e linguistiche.\n\nPer quanto riguarda gli obiettivi, la scuola si pone come priorità la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Le azioni del sistema orientativo sono ben strutturate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e all'integrazione di studenti con fragilità.\n\nLa didattica orientativa si basa sull'esperienza degli studenti, con un buon punteggio in questa area, ma presenta margini di miglioramento per quanto riguarda la didattica laboratoriale e l'interdisciplinarità. L'offerta di attività opzionali e facoltative è diversificata, con un buon punteggio per le opzioni culturali e laboratoriali-espressive, mentre le attività ludico-ricreative e di volontariato ricevono un punteggio inferiore.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento ben definita, nella vasta rete di **partnership** attivate (tra cui **Università**, **AFAM**, **Istituti di Ricerca** come **INGV**, **Abruzzo Scuola Digitale**, **ANPAL**, **Comune di L’Aquila** e numerosi altri), e nell'ampia gamma di attività proposte. Tra queste, spiccano i percorsi di **PCTO**, il percorso di potenziamento-orientamento in **Biologia con curvatura biomedica**, i progetti **New Habitat** e **BAFILE LABS**, il progetto **STEM PER L' I.I.S \\\"BAFILE\\\"**, i programmi **ERASMUS+**, le competizioni scientifiche come i **Campionati di Fisica** e i **Giochi della Chimica**, e l'iniziativa **WeDebate**. L'attenzione alla didattica basata sull'esperienza degli studenti e l'offerta di opzioni culturali e laboratoriali-espressive rappresentano ulteriori punti di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente il monitoraggio dell'efficacia delle attività di orientamento e l'adeguamento degli interventi in base ai feedback degli studenti. La didattica interdisciplinare e le attività ludico-ricreative necessitano di maggiore attenzione. Sebbene la rete di partnership sia ampia, è necessario un ulteriore potenziamento della collaborazione con il mondo del lavoro per garantire un'offerta formativa sempre più in linea con le esigenze del territorio.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre l'impegno teorico in risultati concreti e misurabili. È necessario definire indicatori di performance chiari e implementare un sistema di monitoraggio efficace per valutare l'impatto delle attività di orientamento sugli studenti. Inoltre, è importante rafforzare la collaborazione con le aziende e gli enti del territorio per offrire agli studenti opportunità di **PCTO** di alta qualità e pertinenti ai loro interessi e aspirazioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.I.S. “A. Bafile” presenta un solido quadro di riferimento per l'orientamento, con una sezione dedicata ben strutturata e un'ampia gamma di attività proposte. Tuttavia, per massimizzare l'efficacia del piano, è necessario concentrarsi sul monitoraggio dei risultati, sull'adeguamento degli interventi e sul rafforzamento della collaborazione con il mondo del lavoro. Un approccio più sistematico e orientato ai dati consentirà alla scuola di raggiungere gli obiettivi prefissati e di offrire agli studenti un orientamento di qualità, in grado di supportarli nel loro percorso di crescita personale e professionale.",
-  "review_notes": "Sono stati confermati i punteggi per le sezioni effettivamente presenti; gli altri punteggi estremi sono stati ridotti a 2 per mancanza di capitoli dedicati."
+  "review_notes": "Sono stati confermati i punteggi per le sezioni effettivamente presenti; gli altri punteggi estremi sono stati ridotti a 2 per mancanza di capitoli dedicati.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:47:56.096771",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:40:06.980130",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 12,
+        "extreme_scores_checked": 4,
+        "scores_modified": 4,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo mostra attività concrete di orientamento come il progetto 'Operatore Culturale Ambito Cinem"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_da_esperienza_studenti.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona progetti come 'Scopri Le Stem Con Lego Prime' e 'Progetto \"Geometria Biennio\"' che"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 2,
+            "new": 5,
+            "reason": "Sono presenti diversi laboratori e progetti espressivi come 'Street Art Per La Valorizzazione Dell'A"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Attività come 'Scopri Le Stem Con Lego Prime' e 'Progetto \"Geometria Biennio\"' includono elementi lu"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:10:33.209791",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 15,
+        "corrections_found": 11,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:40:06.980148",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 4
+    }
+  ]
 }

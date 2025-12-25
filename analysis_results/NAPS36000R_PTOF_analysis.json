@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "La sezione è presente nell'indice (Moduli di orientamento formativo, p. 100) e richiamata nelle priorità strategiche."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo Scientifico \"Carlo Urbani\" di San Giorgio a Cremano è ben articolata e include una serie di iniziative mirate a favorire la continuità didattica (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:26:54.090547"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -199,5 +201,67 @@
     }
   ],
   "review_notes": "La scuola ha un piano di continuità con il territorio e un piano di azioni per il rapporto con i genitori, entrambi con progetti e azioni specifiche.",
-  "narrative": "# Analisi del PTOF NAPS36000R - Revisione Auditor\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl Liceo \"Carlo Urbani\" di San Giorgio a Cremano presenta un PTOF solido e fortemente proiettato verso l'innovazione metodologica e tecnologica. La scuola gestisce una popolazione scolastica di 753 alunni con un'identità che coniuga sapere scientifico e umanistico. L'orientamento è integrato strategicamente attraverso la rete 'il Tramaglio' per l'ingresso e una forte spinta verso le carriere STEM e l'internazionalizzazione (Erasmus+, e-Twinning) per l'uscita.\n\n### 2. Analisi Dimensionale\nLa scuola eccelle nella pianificazione di ambienti di apprendimento (PNRR Scuole 4.0), con una chiara visione di superamento della didattica frontale a favore di aule-laboratorio tematiche. Le finalità orientative sono ben delineate, specialmente nel supporto al progetto di vita e nella riduzione del gender gap nelle discipline scientifiche. Il coinvolgimento delle famiglie e del territorio è un punto cardine, facilitato dalla collocazione centrale e dai protocolli con il Comune.\n\n### 3. Punti di Forza\n- **Innovazione Infrastrutturale:** I progetti PNRR (URBANI 4.0 e Future Jobs) dimostrano un investimento concreto in tecnologie (robotica, VR, kit STEM) e arredi flessibili.\n- **Internazionalizzazione:** L'adesione a Erasmus+ e la sperimentazione del linguistico quadriennale offrono sbocchi orientativi di respiro europeo.\n- **Rete Territoriale:** L'accordo 'il Tramaglio' garantisce una continuità strutturata con il primo grado.\n\n### 4. Aree di Miglioramento\nSebbene la progettazione sia eccellente, il monitoraggio degli esiti (PdM) si concentra molto sulle prove INVALSI; potrebbe essere utile integrare indicatori specifici sull'efficacia dei nuovi moduli di orientamento formativo introdotti dalle linee guida recenti.\n\n### 5. Conclusioni\nIl Liceo Urbani si configura come un polo formativo avanzato, capace di trasformare i vincoli strutturali (spazi esigui) in opportunità organizzative. La strategia di orientamento è coerente con le sfide della transizione digitale ed ecologica."
+  "narrative": "# Analisi del PTOF NAPS36000R - Revisione Auditor\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl Liceo \"Carlo Urbani\" di San Giorgio a Cremano presenta un PTOF solido e fortemente proiettato verso l'innovazione metodologica e tecnologica. La scuola gestisce una popolazione scolastica di 753 alunni con un'identità che coniuga sapere scientifico e umanistico. L'orientamento è integrato strategicamente attraverso la rete 'il Tramaglio' per l'ingresso e una forte spinta verso le carriere STEM e l'internazionalizzazione (Erasmus+, e-Twinning) per l'uscita.\n\n### 2. Analisi Dimensionale\nLa scuola eccelle nella pianificazione di ambienti di apprendimento (PNRR Scuole 4.0), con una chiara visione di superamento della didattica frontale a favore di aule-laboratorio tematiche. Le finalità orientative sono ben delineate, specialmente nel supporto al progetto di vita e nella riduzione del gender gap nelle discipline scientifiche. Il coinvolgimento delle famiglie e del territorio è un punto cardine, facilitato dalla collocazione centrale e dai protocolli con il Comune.\n\n### 3. Punti di Forza\n- **Innovazione Infrastrutturale:** I progetti PNRR (URBANI 4.0 e Future Jobs) dimostrano un investimento concreto in tecnologie (robotica, VR, kit STEM) e arredi flessibili.\n- **Internazionalizzazione:** L'adesione a Erasmus+ e la sperimentazione del linguistico quadriennale offrono sbocchi orientativi di respiro europeo.\n- **Rete Territoriale:** L'accordo 'il Tramaglio' garantisce una continuità strutturata con il primo grado.\n\n### 4. Aree di Miglioramento\nSebbene la progettazione sia eccellente, il monitoraggio degli esiti (PdM) si concentra molto sulle prove INVALSI; potrebbe essere utile integrare indicatori specifici sull'efficacia dei nuovi moduli di orientamento formativo introdotti dalle linee guida recenti.\n\n### 5. Conclusioni\nIl Liceo Urbani si configura come un polo formativo avanzato, capace di trasformare i vincoli strutturali (spazi esigui) in opportunità organizzative. La strategia di orientamento è coerente con le sfide della transizione digitale ed ecologica.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:59:23.586054",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:57:34.968674",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 13,
+        "extreme_scores_checked": 3,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF include una sezione dedicata all'orientamento con dettagli su attività di orientamento in in"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:27:54.294563",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 16,
+        "corrections_found": 13,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:57:34.968706",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

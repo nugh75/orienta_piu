@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 4,
-      "note": "Sebbene l'orientamento sia integrato in diverse iniziative, la presenza di moduli strutturati dedicati (pag. 117-119) consente di elevare il punteggio. Tuttavia, manca un approccio organico e approfondito che lo renda un pilastro del PTOF."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=4, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T06:45:51.528328"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -383,5 +385,67 @@
     }
   ],
   "narrative": "# Analisi del PTOF SRIC823006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “Pirandello” Carlentini (SRIC823006) per il triennio 2022-2025. La scuola, di ordine **Infanzia**, situata nel territorio non metropolitano della regione **Sicilia**, dimostra un impegno nell'orientamento, sebbene non pienamente strutturato come pilastro centrale del PTOF. L'istituto ha stabilito partnership con diversi soggetti, tra cui il **Comune**, servizi socio-sanitari, **associazioni di settore**, il **PNRR**, l'**ASL**, diverse **Associazioni**, l'**Università degli Studi di Enna “Kore- Catania - Messina”**, scuole polo per l’inclusione territoriale, il privato sociale e il volontariato, e la **C.R.I. Francofonte**. L'attenzione è rivolta alla valorizzazione delle competenze, allo stimolo dell'interesse, alla continuità del processo educativo, alla predisposizione per le transizioni formative e allo sviluppo di capacità per affrontare le sfide future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento è presente con una sezione dedicata, ottenendo un punteggio di 4. Si evidenzia la necessità di un approccio più organico e approfondito per rendere l'orientamento un elemento centrale del PTOF.\n\n**2.2 Partnership:** La scuola vanta un numero significativo di partnership, ben 10, dimostrando una buona capacità di collaborare con il territorio e con diverse realtà.\n\n**2.3 Finalità:** Le finalità del PTOF in termini di orientamento sono ben definite. La valorizzazione delle competenze individuali ottiene un punteggio di 3, mentre l'attenzione agli interessi degli studenti e alla continuità del processo educativo raggiungono un punteggio di 4. La predisposizione per le transizioni formative e lo sviluppo di capacità per affrontare le sfide del futuro ottengono anch'essi un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirati. La riduzione dell'abbandono scolastico raggiunge il punteggio massimo di 5, mentre la continuità territoriale, il contrasto al fenomeno NEET e la promozione del lifelong learning ottengono un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono generalmente ben strutturate, con punteggi di 4 per il coordinamento dei servizi, il dialogo tra docenti e studenti, e il rapporto scuola-genitori. Il monitoraggio delle azioni risulta l'area più debole con un punteggio di 2, mentre il sistema integrato per l'inclusione e la fragilità ottiene il punteggio massimo di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci efficaci come l'apprendimento dall'esperienza, la didattica laboratoriale e l'interdisciplinarità, ottenendo un punteggio di 4 per ciascuna di queste aree. La flessibilità degli spazi e dei tempi didattici, invece, ottiene un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è ampia e diversificata, con punteggi elevati per le opzionali culturali e laboratoriali-espressive (5), e buoni punteggi per quelle ludico-ricreative e sportive (4). Le opzionali legate al volontariato ottengono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di partnership attivate, nella chiarezza delle finalità e degli obiettivi, e nell'impegno verso l'inclusione e la valorizzazione delle competenze. L'offerta di attività extracurriculari, come **MatematicaMente**, le attività di potenziamento delle **lingue straniere**, il progetto **Equità educativa**, i corsi di formazione per i docenti, e le iniziative sportive come **BASKET & SCHOOL TOGETHER**, arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il monitoraggio delle azioni intraprese, che necessita di un rafforzamento. Inoltre, l'orientamento, pur presente, non è ancora pienamente integrato come un pilastro centrale del PTOF. La flessibilità degli spazi e dei tempi didattici potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di trasformare l'orientamento da una serie di iniziative frammentate a un sistema organico e strutturato, con un monitoraggio costante e una valutazione degli impatti. È necessario un maggiore focus sulla transizione tra i diversi ordini scolastici, come evidenziato dal progetto **Progetto Continuità** e dalle visite degli alunni dell'ultimo anno di **Scuola dell’Infanzia** alla **Scuola Primaria**.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. “Pirandello” Carlentini dimostra un impegno significativo verso l'orientamento e la crescita degli studenti. Pur presentando alcune aree di debolezza, la scuola ha gettato solide basi per lo sviluppo di un sistema di orientamento efficace e integrato, con un'attenzione particolare all'inclusione, alla valorizzazione delle competenze e alla collaborazione con il territorio. Progetti come **Codi...amo** e **PN-Programma nazionale** dimostrano l'impegno verso l'innovazione didattica e il potenziamento delle competenze di base.",
-  "review_notes": "Il documento presenta un piano di miglioramento dettagliato con obiettivi e azioni specifiche."
+  "review_notes": "Il documento presenta un piano di miglioramento dettagliato con obiettivi e azioni specifiche.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:11:24.401986",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 10,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:43:57.181916",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 10,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 4,
+            "reason": "Il PTOF include una sezione dedicata all'orientamento con descrizioni di attività specifiche come il"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T06:47:35.127144",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 10,
+        "enrichments_found": 22,
+        "corrections_found": 11,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T05:43:57.181937",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

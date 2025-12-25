@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "school_id": "MIEE8EU01T",
+    "denominazione": "Primaria M.Galli",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Sesto San Giovanni",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Podgora 161",
+    "cap": "20099",
+    "email": "miic8eu00q@istruzione.it",
+    "pec": "miic8eu00q@pec.istruzione.it",
+    "website": "www.icbredasesto.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T00:00:46.908113"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Giocheria",
+        "Associazioni Sportive",
+        "Biblioteca dei Ragazzi",
+        "UNICEF",
+        "Emergency",
+        "Giunti Editore",
+        "Comune di Sesto San Giovanni",
+        "Scuole secondarie di II grado",
+        "Centro per la famiglia",
+        "Spazio MILO"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "scoprendo i talenti nascosti di ognuno",
+        "evidence_location": "Pagina 26"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "stimolando l’intelligenza emotiva e l’empatia",
+        "evidence_location": "Pagina 26"
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "disegnare un progetto di vita",
+        "evidence_location": "Pagina 16"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Rappresentano un ponte tra l’esperienza vissuta prima dell’ingresso alla scuola dell’infanzia e quella alla primaria in un’ottica di curricolo verticale.",
+        "evidence_location": "Pagina 28"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "Conoscenza dei percorsi formativi dopo il primo ciclo di istruzione",
+        "evidence_location": "Pagina 58"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5,
+        "evidence_quote": "didattica flessibile con aggregazione di discipline",
+        "evidence_location": "Pagina 37"
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Attività di ampliamento dell'offerta formativa",
+      "descrizione_e_metodologia": "Attività di orientamento per alunni DVA e NAI",
+      "5w_chi": "Tutti gli studenti (classi prime, seconde e terze)",
+      "5w_cosa": "Accoglienza e supporto",
+      "5w_dove": "Scuola Secondaria",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Accoglienza e supporto",
+      "ore_dichiarate": "ND",
+      "target": "Alunni DVA e NAI",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Giornata Internazionale della Sicurezza nelle scuole",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Evento informativo sulla sicurezza",
+      "5w_chi": "Tutti",
+      "5w_cosa": "Sensibilizzazione sulla sicurezza",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere la sicurezza",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "La giornata ha permesso di sensibilizzare gli alunni sui temi della sicurezza e della prevenzione.",
+      "evidence_location": "Pagina 25"
+    },
+    {
+      "titolo_attivita": "Progetto Orto didattico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Creazione e cura di un orto scolastico",
+      "5w_chi": "Tutti",
+      "5w_cosa": "Apprendimento pratico sull'ambiente",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Educazione ambientale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Il progetto ha coinvolto gli alunni in attività pratiche volte alla conoscenza del ciclo delle piante e al rispetto dell'ambiente.",
+      "evidence_location": "Pagina 30"
+    },
+    {
+      "titolo_attivita": "Attività proposte dalla Giocheria",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratori didattici con esperti",
+      "5w_chi": "Bambini/e di 4 e 5 anni",
+      "5w_cosa": "Attività scientifiche e tecnologiche",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Stimolare la curiosità scientifica",
+      "ore_dichiarate": "ND",
+      "target": "Bambini/e di 4 e 5 anni",
+      "evidence_quote": "nessuna",
+      "evidence_location": "Pagina 31"
+    },
+    {
+      "titolo_attivita": "Progetto ludico motorio “Piccoli eroi a scuola “",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività motorie ludiche",
+      "5w_chi": "Tutti",
+      "5w_cosa": "Sviluppo delle capacità motorie",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere l'attività fisica",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "nessuna",
+      "evidence_location": "Pagina 31"
+    },
+    {
+      "titolo_attivita": "Giornata Internazionale della Pace",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Celebrazione della pace",
+      "5w_chi": "Tutti",
+      "5w_cosa": "Promozione della cultura della pace",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Educazione alla solidarietà",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "nessuna",
+      "evidence_location": "Pagina 32"
+    },
+    {
+      "titolo_attivita": "Vela",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Rete territoriale di servizi per l’orientamento nel passaggio dal 1° al 2° ciclo di istruzione.",
+      "5w_chi": "Studenti, docenti del primo e secondo ciclo, famiglie",
+      "5w_cosa": "Condivisione di linguaggi, procedure, attuazione di interventi, formazione docenti",
+      "5w_dove": "Territorio",
+      "5w_quando": "Triennio 2022-2025",
+      "5w_perche": "Migliorare il successo scolastico nel secondo grado",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Lavoro di questi anni ha favorito una maggiore condivisione...",
+      "evidence_location": "Pagina 57"
+    },
+    {
+      "titolo_attivita": "Modulo 'Gioco, Imparo e Rifletto'",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riflessione sui propri interessi in relazione alle singole realtà scolastiche.",
+      "5w_chi": "Classi prime",
+      "5w_cosa": "Attività didattiche orientative",
+      "5w_dove": "Classe",
+      "5w_quando": "Febbraio-Marzo",
+      "5w_perche": "Conoscere le singole scuole",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime",
+      "evidence_quote": "Riflettere sui propri interessi in relazione alle singole realtà scolastiche",
+      "evidence_location": "Pagina 58"
+    },
+    {
+      "titolo_attivita": "Accendi l'interesse",
+      "categoria_principale": "Campus/Open Day",
+      "descrizione_e_metodologia": "Settimana dell’orientamento e visita a Spazio MILO",
+      "5w_chi": "Classi seconde",
+      "5w_cosa": "Incontri informativi e visita a Spazio MILO",
+      "5w_dove": "Spazio MILO",
+      "5w_quando": "Marzo",
+      "5w_perche": "Consolidare abilità propedeutiche alla scelta",
+      "ore_dichiarate": "ND",
+      "target": "Classi seconde",
+      "evidence_quote": "Consolidare abilità propedeutiche alla scelta",
+      "evidence_location": "Pagina 58"
+    },
+    {
+      "titolo_attivita": "Proviamoci un po'",
+      "categoria_principale": "Visita/Stage",
+      "descrizione_e_metodologia": "Visite a scuole secondarie di secondo grado o centri di formazione professionale",
+      "5w_chi": "Classi terze",
+      "5w_cosa": "Visite e laboratori",
+      "5w_dove": "Scuole secondarie/Centri di formazione",
+      "5w_quando": "Aprile-Maggio",
+      "5w_perche": "Favorire il passaggio alla scuola superiore",
+      "ore_dichiarate": "ND",
+      "target": "Classi terze",
+      "evidence_quote": "Visite in altri istituti",
+      "evidence_location": "Pagina 59"
+    }
+  ],
+  "narrative": "Il Piano Triennale dell'I.C. Breda (2022-2025) delinea una visione chiara dell'orientamento come parte integrante del percorso formativo, pur non essendo presente una sezione dedicata specificamente a questo tema. L'istituto pone l'accento sull'ampliamento dell'offerta formativa, con il progetto 'Vela' che si configura come un'iniziativa chiave per la transizione verso il secondo ciclo di istruzione, coinvolgendo attivamente studenti, docenti e famiglie. Le finalità del PTOF sono ben definite, con un'attenzione particolare allo sviluppo delle attitudini, degli interessi e alla costruzione di un progetto di vita consapevole. Le attività proposte, che spaziano da laboratori esperienziali a visite guidate, mirano a fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e a sviluppare competenze orientative utili per le scelte formative e professionali. La rete di partnership consolidata con enti locali, associazioni e scuole secondarie di secondo grado rappresenta un valore aggiunto per l'istituto, favorendo la creazione di un sistema integrato di servizi per l'orientamento e l'inclusione. Il testo, pur dettagliato nella descrizione delle attività, potrebbe beneficiare di una maggiore focalizzazione sui risultati attesi e sugli indicatori di successo, al fine di rendere più misurabile l'impatto delle azioni intraprese.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:00:46.908245",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 4,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:27:48.106280",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 4,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il documento presenta una sezione dedicata all'orientamento con dettagliate descrizioni di azioni e "
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T05:27:48.106300",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
+}

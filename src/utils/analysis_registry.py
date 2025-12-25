@@ -15,6 +15,13 @@ import logging
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
+import sys
+import os
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.utils.file_utils import atomic_write
 
 logger = logging.getLogger(__name__)
 
@@ -94,8 +101,7 @@ def save_registry(registry: Dict[str, Any]) -> bool:
         
         registry["last_updated"] = datetime.now().isoformat()
         
-        with open(REGISTRY_FILE, "w", encoding="utf-8") as f:
-            json.dump(registry, f, indent=2, ensure_ascii=False)
+        atomic_write(REGISTRY_FILE, json.dumps(registry, indent=2, ensure_ascii=False))
         
         return True
     

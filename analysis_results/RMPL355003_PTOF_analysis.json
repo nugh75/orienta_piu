@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 6,
-      "note": "Sezione ben definita, con riferimenti alle Linee Guida Nazionali e attenzione ai diversi livelli di orientamento."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova nel capitolo 'Orientamento' del PTOF, dove vengono descritte le finalità, gli obiettivi e le azioni previste per supportare gli studenti nella scelta del  (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T04:55:18.551291"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -126,7 +128,7 @@
         "score": 6
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 6
       },
       "opzionali_volontariato": {
         "score": 4
@@ -293,5 +295,73 @@
     }
   ],
   "narrative": "# Analisi del PTOF RMPL355003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **L.Ling. Mons. Tozzi** (RMPL355003) per il triennio 2022-2025. La scuola, un liceo paritario situato a **Roma**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata con un punteggio di 6. L'istituto si concentra sullo sviluppo delle attitudini, degli interessi e delle capacità progettuali degli studenti, con l'obiettivo di promuovere la transizione verso l'istruzione superiore, la formazione e il mondo del lavoro. La rete di **partnership** è ampia e diversificata, includendo **aziende private**, **enti locali**, **associazioni**, **Atenei** e altri soggetti rilevanti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento, valutata con un punteggio di 6, indica un'attenzione strutturata a questo aspetto cruciale del percorso formativo. La sezione è ben definita e si allinea alle **Linee Guida Nazionali**.\n\n**2.2 Partnership:** L'istituto vanta un numero considerevole di **partnership** (17), che spaziano dal mondo del lavoro (**aziende private**, **cooperative**) a quello della ricerca (**Enti di ricerca**) e della cultura (**organizzazioni culturali**). Questa rete di collaborazioni rappresenta una risorsa importante per offrire agli studenti opportunità di **PCTO** e di contatto con il territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e mirano a valorizzare le **attitudini personali** e gli **interessi** degli studenti, supportandoli nell'identificazione delle proprie capacità e nella progettazione del proprio futuro. Particolare attenzione è rivolta alla promozione della **transizione** tra i diversi percorsi formativi e al mondo del lavoro, con un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico**, il rafforzamento del legame con il **territorio**, il contrasto alla dispersione formativa dei **NEET** e la promozione del **lifelong learning**. Quest'ultimo obiettivo, con un punteggio di 6, appare particolarmente rilevante nell'attuale contesto sociale ed economico.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'implementazione dell'orientamento comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il coinvolgimento delle **famiglie**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sull'interdisciplinarità e, in misura minore, sulla flessibilità degli spazi e dei tempi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive** (con un punteggio di 6), **sportive** (con un punteggio di 6), **volontariato** e, in misura minore, attività **ludiche e ricreative**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata ben strutturata, nella vasta rete di **partnership**, nella chiarezza delle finalità e degli obiettivi, e nell'attenzione all'inclusione e al supporto degli studenti con fragilità. L'offerta di attività pratiche come il **PCTO** e i **laboratori** rappresenta un valore aggiunto significativo. Le attività di **tirocinio attivo** per le classi prime sono un ottimo strumento di orientamento in entrata.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la scarsa flessibilità degli spazi e dei tempi nella didattica orientativa e la limitata offerta di attività **ludiche e ricreative**. Inoltre, la mancanza di indicazioni precise sulle ore dedicate alle diverse attività rende difficile valutare l'effettiva implementazione del PTOF.\n\n### 5. Gap Analysis\n\nNonostante l'impegno dimostrato, è necessario rafforzare l'integrazione tra le diverse attività di orientamento e garantire una maggiore flessibilità nella didattica. Sarebbe opportuno ampliare l'offerta di attività **ludiche e ricreative** e definire in modo più preciso le ore dedicate a ciascuna attività.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **L.Ling. Mons. Tozzi** presenta un approccio solido e strutturato all'orientamento, con un'ampia gamma di attività e una forte attenzione alla collaborazione con il territorio. L'istituto dimostra di essere consapevole dell'importanza di supportare gli studenti nella transizione verso il mondo del lavoro e di promuovere il **lifelong learning**. Superando le aree di debolezza individuate, l'istituto potrà ulteriormente migliorare la qualità del proprio servizio di orientamento e garantire un futuro di successo ai propri studenti. Le attività come gli **Open Day**, gli **Incontri con Atenei e Istituti** e i moduli dedicati a **comunicazione**, **danza**, **sport** ed **ecologia** contribuiscono a formare studenti completi e preparati per le sfide del futuro.",
-  "review_notes": "Il documento presenta una buona struttura e coerente con la strategia dell'istituto, ma alcune sezioni potrebbero essere migliorate con maggiori dettagli e specifiche."
+  "review_notes": "Il documento presenta una buona struttura e coerente con la strategia dell'istituto, ma alcune sezioni potrebbero essere migliorate con maggiori dettagli e specifiche.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:16:55.924098",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 5,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:23:10.563927",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 8,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il documento menziona l'orientamento in entrata e in uscita, ma non presenta una sezione dedicata es"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 6,
+            "reason": "Il PTOF menziona l'organizzazione di open day e tirocini attivi come parte delle attività di orienta"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:56:13.547571",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 5,
+        "enrichments_found": 9,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:23:10.563944",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
+    }
+  ]
 }

@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 2,
       "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
       "ollama_review_date": "2025-12-24T18:47:09.602004"
@@ -280,11 +280,37 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:33:02.470009",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 9,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il PTOF include progetti come 'Preparazione al Lavoro' e 'Campionati Italiani di Economia e Finanza'"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T18:12:02.814559",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-25T00:33:02.470027",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

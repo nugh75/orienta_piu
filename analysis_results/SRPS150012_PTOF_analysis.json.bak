@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "school_id": "SRPS150012",
+    "denominazione": "Canicattini Bagni",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Canicattini Bagni",
+    "anno_ptof": "2025-2028",
+    "provincia": "Siracusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Messina N.25",
+    "cap": "96010",
+    "email": "srps150001@istruzione.it",
+    "pec": "ND",
+    "website": "www.liceofloridia.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T21:41:07.764504"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Ordine Provinciale di Siracusa",
+        "istituzioni locali",
+        "aziende",
+        "associazioni culturali",
+        "reti di scuole",
+        "università",
+        "azienda sanitaria locale",
+        "centri di formazione specifica",
+        "CTS",
+        "servizi sociali",
+        "servizi sanitari territoriali",
+        "Comitato 3 ottobre"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "rispettando i diversi stili e tempi di apprendimento di ciascuno studente",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Obiettivo di orientamento in entrata: fornire adeguate informazioni per facilitare la scelta.",
+        "evidence_location": "Pagina 42"
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "evidence_quote": "Aiutare gli allievi a costruire un percorso personale di scelta.",
+        "evidence_location": "Pagina 43"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Orientamento in uscita: conoscenza delle Offerte Formative degli Atenei.",
+        "evidence_location": "Pagina 43"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "Sviluppare competenze per orientare sé stessi, riconoscere il proprio valore.",
+        "evidence_location": "Pagina 43"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso Liceale con curvatura Biomedica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorso triennale con lezioni in aula, laboratori e stage presso strutture sanitarie.",
+      "5w_chi": "Alunni selezionati",
+      "5w_cosa": "Formazione specifica in ambito biomedico",
+      "5w_dove": "Scuola e strutture sanitarie",
+      "5w_quando": "Triennio",
+      "5w_perche": "Orientamento universitario e professionale in ambito biomedico",
+      "ore_dichiarate": "150",
+      "target": "Alunni",
+      "evidence_quote": "formazione personalizzata",
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro per gli alunni del II biennio e dell’ultimo anno.",
+      "5w_chi": "Alunni del II biennio e ultimo anno",
+      "5w_cosa": "Esperienza lavorativa",
+      "5w_dove": "Aziende",
+      "5w_quando": "II biennio e ultimo anno",
+      "5w_perche": "Acquisizione di competenze professionali",
+      "ore_dichiarate": "90",
+      "target": "Alunni",
+      "evidence_quote": "L. 107/2015",
+      "evidence_location": "Pagina 13"
+    },
+    {
+      "titolo_attivita": "Certificazione ECDL",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "acquisizione certificazione ECDL; sviluppo competenze per l’inserimento nel mondo del lavoro o il proseguimento degli studi",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Certificazione ECDL",
+      "5w_dove": "Istituto",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo competenze professionali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "acquisizione certificazione ECDL",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Competenze in lingua inglese livello B1/B2",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "uso della lingua inglese come strumento per migliorare e potenziare le proprie capacità espressive; interazione con i parlanti nativi",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Certificazione linguistica",
+      "5w_dove": "Istituto",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo competenze linguistiche",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "uso della lingua inglese come strumento per migliorare e potenziare le proprie capacità espressive",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Progetto “Dalla scuola al Web: il giornale degli studenti finisce in Rete",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "creazione di slogan, testi, fotografie e video",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Giornalismo digitale",
+      "5w_dove": "Istituto",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo competenze comunicative",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "creazione di slogan, testi, fotografie e video",
+      "evidence_location": "Pagina 27"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro per acquisire competenze professionali.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Esperienze dirette nel mondo del lavoro",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Preparare gli studenti al mondo del lavoro",
+      "ore_dichiarate": "90-210",
+      "target": "Classi terze, quarte e quinte",
+      "evidence_quote": "Percorsi formativi a cui partecipano gli studenti del Triennio",
+      "evidence_location": "Pagina 44"
+    },
+    {
+      "titolo_attivita": "Visita al Tribunale",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visita al Tribunale per affrontare tematiche sulla legalità.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Conoscere il funzionamento del sistema giudiziario",
+      "5w_dove": "Tribunale",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sensibilizzare gli studenti alla legalità",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "La visita al Tribunale diventa occasione per affrontare discussioni e dibattiti su tematiche inerenti alla legalità.",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "Senato per i giovani",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Assistenza a una seduta del Senato.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Approfondire il funzionamento delle Camere",
+      "5w_dove": "Senato",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere la conoscenza delle istituzioni",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Obiettivo è fare assistere a una seduta del Senato che diventa occasione per affrontare discussioni e dibattiti su tematiche inerenti alle funzioni delle Camere",
+      "evidence_location": "Pagina 36"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SRPS150012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) per il **Liceo** di **Canicattini Bagni** (SRPS150012), relativo all'anno scolastico **2025-2028**. La scuola, situata in **Sicilia** e appartenente al territorio **non metropolitano**, dimostra un impegno significativo nell'ambito dell'orientamento, come evidenziato dal punteggio di 5 attribuito alla presenza di una sezione dedicata. L'istituto si avvale di una rete di **partnership** diversificata, comprendendo **Ordine Provinciale di Siracusa**, **istituzioni locali**, **aziende**, **associazioni culturali**, **reti di scuole**, **università**, **azienda sanitaria locale**, **centri di formazione specifica**, **CTS**, **servizi sociali**, **servizi sanitari territoriali** e il **Comitato 3 ottobre**. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi e alla costruzione di un **progetto di vita** per gli studenti, con particolare focus sulle **transizioni formative** e sullo sviluppo di **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\nLa finalità dell'orientamento è ben definita, con punteggi elevati per l'attenzione ai diversi stili di apprendimento, all'orientamento in entrata e in uscita, e allo sviluppo di competenze per l'orientamento personale. Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, il mantenimento di un legame con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Le azioni del sistema orientativo si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori, sul monitoraggio delle azioni e sull'integrazione di percorsi inclusivi per le fragilità.\n\nLa didattica orientativa si caratterizza per l'utilizzo di esperienze dirette degli studenti, laboratori pratici e flessibilità degli spazi e dei tempi. L'offerta di attività opzionali e facoltative è ampia, con punteggi elevati per le opzioni **culturali** e **laboratoriali espressive**, mentre quelle **ludiche ricreative** e di **volontariato** presentano punteggi leggermente inferiori, così come le attività **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella chiarezza e completezza della sezione dedicata all'orientamento, supportata da una solida rete di **partnership** e da una definizione precisa delle finalità e degli obiettivi. L'enfasi sulla didattica esperienziale e laboratoriale, unitamente alla varietà delle opzioni offerte agli studenti, contribuisce a creare un ambiente stimolante e orientato allo sviluppo delle competenze. L'attenzione all'inclusione e alla gestione delle fragilità rappresenta un ulteriore elemento positivo. Attività come il **Percorso Liceale con curvatura Biomedica** e l'**Alternanza Scuola-Lavoro** offrono agli studenti opportunità concrete di orientamento e acquisizione di competenze.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree del PTOF necessitano di maggiore attenzione. Il monitoraggio delle azioni orientative, pur presente, ottiene un punteggio inferiore rispetto ad altri ambiti, suggerendo la necessità di implementare strumenti di valutazione più efficaci. L'interdisciplinarità nella didattica orientativa potrebbe essere ulteriormente sviluppata. Le attività opzionali di volontariato e quelle ludico-ricreative potrebbero beneficiare di una maggiore promozione e integrazione nel programma complessivo.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare il sistema di monitoraggio e valutazione delle attività orientative, al fine di garantire l'efficacia degli interventi e l'allineamento con le esigenze degli studenti e del territorio. Inoltre, è auspicabile una maggiore integrazione tra le diverse attività orientative e una promozione più efficace delle opzioni meno frequentate, come quelle legate al volontariato e alle attività ludiche.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo di Canicattini Bagni** presenta un approccio all'orientamento ben strutturato e completo, con una forte attenzione alle esigenze degli studenti e alle dinamiche del territorio. I numerosi punti di forza, unitamente alla solida rete di **partnership**, pongono le basi per un'offerta formativa di qualità, in grado di preparare gli studenti ad affrontare le sfide del futuro. L'implementazione delle azioni correttive suggerite in questa analisi contribuirà a ottimizzare ulteriormente l'efficacia del PTOF e a garantire un servizio di orientamento sempre più rispondente alle aspettative degli studenti e della comunità scolastica. Attività come la **Certificazione ECDL**, lo sviluppo di **Competenze in lingua inglese livello B1/B2**, il progetto **“Dalla scuola al Web”**, il **PCTO**, la **Visita al Tribunale** e **Senato per i giovani** arricchiscono l'offerta formativa e contribuiscono alla crescita personale e professionale degli studenti.",
+  "review_notes": "Il documento presenta una struttura complessa e articolata, ma non è possibile valutare il punteggio senza ulteriori informazioni.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T20:26:57.700975",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 1,
+        "scores_modified": 0,
+        "orientamento_found": true,
+        "changes": []
+      }
+    },
+    {
+      "timestamp": "2025-12-24T21:41:07.764717",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 5,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:00:20.962164",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 5,
+            "reason": "Il PTOF presenta una sezione dedicata all'orientamento con dettagliate descrizioni di attività, coll"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-24T20:26:57.700993",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 0
+    },
+    {
+      "timestamp": "2025-12-25T02:00:20.962180",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
+}

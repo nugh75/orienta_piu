@@ -197,6 +197,7 @@ class PTOFLauncher(App):
         self.models_cache = {}
         self._pending_cmd = None
         self._current_provider = "openrouter"
+        self.auto_run_on_select = True
     
     def compose(self) -> ComposeResult:
         yield Header(show_clock=True)
@@ -349,6 +350,7 @@ class PTOFLauncher(App):
                     yield Button("🛑 STOP", id="btn-stop", variant="error", disabled=True)
                     yield Button("🧹 CLEAR", id="btn-clear", variant="default")
                     yield Button("📋 BG", id="btn-background", variant="warning")
+                    yield Button("⚡ AUTO: ON", id="btn-auto", variant="default")
         
         yield Footer()
     
@@ -435,11 +437,21 @@ class PTOFLauncher(App):
         if btn_id == "btn-execute":
             if self.current_command:
                 self.execute_command(self.current_command, background=False)
+            else:
+                self.log_message("\n⚠️ Seleziona un comando (tasto verde) prima di eseguire")
             return
         
         if btn_id == "btn-background":
             if self.current_command:
                 self.execute_command(self.current_command, background=True)
+            else:
+                self.log_message("\n⚠️ Seleziona un comando (tasto verde) prima di avviare in BG")
+            return
+
+        if btn_id == "btn-auto":
+            self.auto_run_on_select = not self.auto_run_on_select
+            label = "⚡ AUTO: ON" if self.auto_run_on_select else "⚡ AUTO: OFF"
+            event.button.label = label
             return
         
         # Carica modelli
@@ -458,8 +470,10 @@ class PTOFLauncher(App):
             cmd = btn_id[4:]  # Rimuovi "cmd-"
             self.current_command = cmd
             self.log_message(f"\n📌 Selezionato: {cmd}")
-            self.log_message("   Configura i parametri in alto e premi ▶️ ESEGUI")
-            # self.execute_command(cmd, background=False)
+            if self.auto_run_on_select:
+                self.execute_command(cmd, background=False)
+            else:
+                self.log_message("   Configura i parametri in alto e premi ▶️ ESEGUI")
     
     def load_models(self, provider: str) -> None:
         """Carica modelli da provider."""
@@ -520,12 +534,16 @@ class PTOFLauncher(App):
             if model:
                 args.append(f"MODEL={model}")
         
-        if cmd in ("ollama-score-review", "ollama-report-review", "review-ollama"):
+        if cmd in ("review-ollama", "review-scores-ollama"):
+            if chunk:
+                args.append(f"CHUNK_SIZE={chunk}")
+        if cmd in ("ollama-score-review", "ollama-report-review", "ollama-review-all"):
             if chunk:
                 args.append(f"CHUNK={chunk}")
         
-        if cmd in ("ollama-score-review", "ollama-report-review", "ollama-review-all",
-                   "review-non-ptof", "review-gemini"):
+        if cmd in ("review-ollama", "review-scores", "review-scores-gemini",
+                   "review-scores-ollama", "review-non-ptof", "review-gemini",
+                   "ollama-score-review", "ollama-report-review", "ollama-review-all"):
             if limit:
                 args.append(f"LIMIT={limit}")
         
@@ -536,8 +554,9 @@ class PTOFLauncher(App):
             if high:
                 args.append(f"HIGH={high}")
         
-        if cmd in ("ollama-score-review", "ollama-report-review", "ollama-review-all",
-                   "review-scores", "review-scores-gemini", "review-gemini"):
+        if cmd in ("review-ollama", "review-scores", "review-scores-gemini",
+                   "review-scores-ollama", "review-gemini",
+                   "ollama-score-review", "ollama-report-review", "ollama-review-all"):
             if code:
                 args.append(f"TARGET={code}")
         
@@ -695,4 +714,3 @@ class PTOFLauncher(App):
 if __name__ == "__main__":
     app = PTOFLauncher()
     app.run()
-

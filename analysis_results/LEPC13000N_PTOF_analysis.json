@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "L'orientamento è definito come 'sistema' e attraversa l'intero quinquennio con fasi specifiche (Riorientamento, Potenziamento, Specializzazione). La sezione è estremamente strutturata."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo “Virgilio-Redi” descrive un modello integrato di orientamento con tre fasi: in ingresso, in itinere e in uscita. Il piano prevede l'utilizzo di  (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T05:32:00.136980"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -71,7 +73,7 @@
         "note": "Presenti accordi con scuole medie e università per la programmazione verticale."
       },
       "obiettivo_contrastare_neet": {
-        "score": 2,
+        "score": 3,
         "note": "Non compare il termine NEET, sebbene si parli di inserimento lavorativo."
       },
       "obiettivo_lifelong_learning": {
@@ -129,7 +131,7 @@
         "note": "Teatro, musica e laboratori STEM."
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2,
+        "score": 3,
         "note": "Poco spazio dedicato ad attività puramente ludiche."
       },
       "opzionali_volontariato": {
@@ -187,5 +189,79 @@
     }
   ],
   "review_notes": "Solo la sezione presumibilmente dedicata all'Orientamento è stata declassata per mancanza di un titolo esplicito.",
-  "narrative": "# Analisi del PTOF LEPC13000N - Liceo \"Virgilio-Redi\"\n\n### 1. Sintesi Generale\nIl Liceo “Virgilio-Redi” presenta un PTOF solido e innovativo, centrato sul progetto 'Liceo dei Licei'. L'orientamento non è un'attività accessoria ma il cardine dell'organizzazione scolastica, suddiviso in tre fasi: Riorientamento (I biennio), Potenziamento (II biennio) e Specializzazione (V anno). L'integrazione dei fondi PNRR per la creazione di laboratori 4.0 e moduli di orientamento da 30 ore dimostra una pianificazione tempestiva e coerente con le riforme ministeriali.\n\n### 2. Analisi Dimensionale\nL'istituto eccelle nella **Flessibilità Didattica** e nella **Personalizzazione**, offrendo 10 ambiti di potenziamento che permettono agli studenti di costruire un curriculum su misura. Le **Partnership** sono di alto profilo, coinvolgendo università e ordini professionali, garantendo uno sbocco naturale verso l'istruzione terziaria. La **Governance** è complessa ma ben definita, con ruoli chiari per tutor e orientatori.\n\n### 3. Punti di Forza\n- Modello 'Liceo dei Licei' con tripartizione del percorso quinquennale.\n- 10 ambiti di potenziamento estremamente diversificati.\n- Forte integrazione delle risorse PNRR (Scuola 4.0, Competenze STEM e Linguistiche).\n\n### 4. Aree di Miglioramento\n- Sebbene si parli di monitoraggio, mancano target numerici specifici per la riduzione della dispersione.\n- La rendicontazione sociale è citata come sperimentale; potrebbe essere resa più sistematica.\n\n### 5. Conclusioni\nL'istituto si configura come un'eccellenza nel panorama salentino per quanto riguarda la capacità di orientare gli studenti, fornendo non solo conoscenze ma un vero e proprio metodo di scelta consapevole."
+  "narrative": "# Analisi del PTOF LEPC13000N - Liceo \"Virgilio-Redi\"\n\n### 1. Sintesi Generale\nIl Liceo “Virgilio-Redi” presenta un PTOF solido e innovativo, centrato sul progetto 'Liceo dei Licei'. L'orientamento non è un'attività accessoria ma il cardine dell'organizzazione scolastica, suddiviso in tre fasi: Riorientamento (I biennio), Potenziamento (II biennio) e Specializzazione (V anno). L'integrazione dei fondi PNRR per la creazione di laboratori 4.0 e moduli di orientamento da 30 ore dimostra una pianificazione tempestiva e coerente con le riforme ministeriali.\n\n### 2. Analisi Dimensionale\nL'istituto eccelle nella **Flessibilità Didattica** e nella **Personalizzazione**, offrendo 10 ambiti di potenziamento che permettono agli studenti di costruire un curriculum su misura. Le **Partnership** sono di alto profilo, coinvolgendo università e ordini professionali, garantendo uno sbocco naturale verso l'istruzione terziaria. La **Governance** è complessa ma ben definita, con ruoli chiari per tutor e orientatori.\n\n### 3. Punti di Forza\n- Modello 'Liceo dei Licei' con tripartizione del percorso quinquennale.\n- 10 ambiti di potenziamento estremamente diversificati.\n- Forte integrazione delle risorse PNRR (Scuola 4.0, Competenze STEM e Linguistiche).\n\n### 4. Aree di Miglioramento\n- Sebbene si parli di monitoraggio, mancano target numerici specifici per la riduzione della dispersione.\n- La rendicontazione sociale è citata come sperimentale; potrebbe essere resa più sistematica.\n\n### 5. Conclusioni\nL'istituto si configura come un'eccellenza nel panorama salentino per quanto riguarda la capacità di orientare gli studenti, fornendo non solo conoscenze ma un vero e proprio metodo di scelta consapevole.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:39:13.546121",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 2,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:53:58.911669",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 2,
+        "extreme_scores_checked": 7,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il PTOF menziona esplicitamente l'orientamento in diverse sezioni, incluso il modello organizzativo "
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il PTOF parla di 'inserimento nella vita sociale e nel mondo del lavoro', che può essere considerato"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Sebbene non siano menzionate attività ludiche esplicite, i 10 ambiti di potenziamento potrebbero inc"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:33:13.205771",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 2,
+        "enrichments_found": 10,
+        "corrections_found": 1,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T04:53:58.911696",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
+    }
+  ]
 }

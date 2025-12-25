@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "La sezione è ben definita e strutturata, con numerosi moduli e attività dedicate all'orientamento."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo \"Da Vinci\" di Arzignano presenta una descrizione dettagliata delle finalità, degli obiettivi e delle azioni implementate per supportare gli stud (Precedente: score=2, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T03:59:27.280282"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -101,7 +103,7 @@
         "score": 4
       },
       "azione_monitoraggio_azioni": {
-        "score": 2
+        "score": 3
       },
       "azione_sistema_integrato_inclusione_fragilita": {
         "score": 3
@@ -123,10 +125,10 @@
     },
     "2_7_opzionali_facoltative": {
       "opzionali_culturali": {
-        "score": 2
+        "score": 3
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 2
+        "score": 3
       },
       "opzionali_ludiche_ricreative": {
         "score": 3
@@ -436,5 +438,85 @@
     }
   ],
   "narrative": "Il Piano Triennale dell'Offerta Formativa (PTOF) del Liceo \"Da Vinci\" di Arzignano pone una forte enfasi sull'orientamento, come evidenziato dalla presenza di una sezione dedicata e da una vasta gamma di attività correlate. La scuola si avvale di numerose partnership con enti territoriali, culturali, università e altre istituzioni, creando un network di supporto per gli studenti. Le finalità dell'orientamento sono orientate alla valorizzazione delle attitudini, degli interessi e alla costruzione di un progetto di vita consapevole, con particolare attenzione alle transizioni formative e allo sviluppo di capacità orientative utili per affrontare le sfide del mondo del lavoro. Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, il mantenimento del legame con il territorio, il contrasto alla dispersione NEET e la promozione del lifelong learning. Le azioni implementate si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie e il monitoraggio delle attività. L'offerta didattica orientativa si basa su esperienze dirette, laboratori, flessibilità degli spazi e dell'interdisciplinarità. L'ampia gamma di opzionali culturali, laboratoriali, sportive e di volontariato offre agli studenti diverse opportunità di approfondimento e sviluppo personale.  Sebbene il PTOF delinei un quadro ambizioso per l'orientamento, una valutazione più approfondita richiederebbe dati sull'efficacia delle attività implementate e un'analisi critica dei risultati ottenuti.  Inoltre, l'attenzione all'inclusione, pur presente nel PTOF, necessita di una sezione dedicata che ne delinei le strategie specifiche, le risorse impiegate e i criteri di valutazione. L'integrazione di queste informazioni completerebbe il quadro e fornirebbe una visione più completa e realistica dell'impegno della scuola verso un'offerta formativa inclusiva e orientata al successo di tutti gli studenti.",
-  "review_notes": "Sono stati ridotti i punteggi estremi per le sezioni che non hanno un capitolo o una sezione esplicitamente intitolata, come richiesto dalle istruzioni."
+  "review_notes": "Sono stati ridotti i punteggi estremi per le sezioni che non hanno un capitolo o una sezione esplicitamente intitolata, come richiesto dalle istruzioni.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T22:40:41.305675",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 13,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T03:29:10.765020",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 13,
+        "extreme_scores_checked": 4,
+        "scores_modified": 4,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo mostra attività concrete di orientamento come il piano annuale di inclusione, protocollo di"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona monitoraggio e valutazione dei livelli di inclusività, nonché la raccolta e docume"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_culturali.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo include attività culturali come la promozione della lettura, l'uso dei laboratori per lo sv"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona l'uso dei laboratori per lo sviluppo di attività laboratoriali e espressive, nonch"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T04:00:30.626960",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 13,
+        "enrichments_found": 13,
+        "corrections_found": 11,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T03:29:10.765037",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 4
+    }
+  ]
 }

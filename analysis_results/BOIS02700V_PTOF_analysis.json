@@ -21,7 +21,9 @@
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
       "score": 4,
-      "note": "La sezione è strutturata con una suddivisione dei moduli di orientamento per classe e una descrizione delle attività. Tuttavia, mancano dettagli su metodologie innovative o dati di efficacia che giustifichino un punteggio più alto."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF è ben strutturata e include moduli specifici per ciascuna classe, con un focus su attività come la compilazione di questionari per individuare le caratter (Precedente: score=4, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:14:43.871371"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -395,6 +397,58 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-24T21:37:08.917579",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 12,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 0
+      }
+    },
+    {
+      "timestamp": "2025-12-25T01:45:39.790207",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 12,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 4,
+            "reason": "Il PTOF include una descrizione dettagliata delle attività di orientamento in ingresso, riorientamen"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:15:42.059973",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 16,
+        "corrections_found": 13,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
@@ -403,6 +457,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 4
+    },
+    {
+      "timestamp": "2025-12-25T01:45:39.790231",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
     }
   ]
 }

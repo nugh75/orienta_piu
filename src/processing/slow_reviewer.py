@@ -9,6 +9,7 @@ Strategia:
 """
 
 import os
+import sys
 import json
 import time
 import logging
@@ -19,6 +20,11 @@ import requests
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Optional, Any
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from src.utils.file_utils import atomic_write
 
 # Setup logging
 logging.basicConfig(
@@ -69,13 +75,12 @@ def get_openrouter_key() -> Optional[str]:
     config = load_api_config()
     return config.get("openrouter_api_key")
 
-def save_status(status: Dict):
-    """Salva lo stato delle revisioni"""
-    try:
-        with open(STATUS_FILE, 'w') as f:
-            json.dump(status, f, indent=2)
-    except Exception as e:
-        logger.error(f"Errore salvataggio stato: {e}")
+    def save_status(status: Dict):
+        """Salva lo stato delle revisioni"""
+        try:
+            atomic_write(STATUS_FILE, json.dumps(status, indent=2))
+        except Exception as e:
+            logger.error(f"Errore salvataggio stato: {e}")
 
 def load_status() -> Dict:
     """Carica lo stato delle revisioni"""
@@ -255,8 +260,8 @@ def main():
         logger.info(f"\n✨ Arricchimento {school_code} ({count+1}/{min(len(candidates), args.limit)})")
         
         try:
-            # Backup
-            shutil.copy2(report_path, BACKUP_DIR / report_path.name)
+            # Backup handled by atomic_write now
+            # shutil.copy2(report_path, BACKUP_DIR / report_path.name)
             
             # Read files
             with open(report_path, 'r') as f:
@@ -280,9 +285,8 @@ def main():
                 
                 result_str = result_str.strip()
                 
-                # Save enriched report
-                with open(report_path, 'w') as f:
-                    f.write(result_str)
+                # Save enriched report with backup
+                atomic_write(report_path, result_str, backup=True)
                 
                 logger.info(f"✅ {school_code}: Report arricchito e salvato")
                 status['reviewed'].append(school_code)

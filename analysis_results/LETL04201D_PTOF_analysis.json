@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 3,
-      "note": "La sezione è presente e definita, con dettagli su PCTO e ampliamento dell'offerta formativa. Tuttavia, manca una visione strategica complessiva esplicita e l'esplicitazione di metodologie innovative per l'orientamento."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T07:21:46.976429"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -106,7 +108,7 @@
     },
     "2_6_didattica_orientativa": {
       "didattica_da_esperienza_studenti": {
-        "score": 2
+        "score": 4
       },
       "didattica_laboratoriale": {
         "score": 4
@@ -391,5 +393,73 @@
     }
   ],
   "narrative": "# Analisi del PTOF LETL04201D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.G. \"G. Galilei\" di Lecce (LETL04201D) per il triennio 2022-2025. La scuola, di tipo tecnico e operante nel secondo grado, si trova in un contesto territoriale non metropolitano della regione Puglia. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con una forte attenzione all'inserimento nel mondo del lavoro e allo sviluppo delle competenze degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nLa presenza di una sezione dedicata all'orientamento è confermata, con un punteggio di 3 su 5. Sebbene siano presenti dettagli su **PCTO** e ampliamento dell'offerta formativa, si evidenzia una mancanza di una visione strategica complessiva e di metodologie innovative per l'orientamento.\n\n**2.2 Partnership:**\n\nL'istituto ha sviluppato un'ampia rete di partnership, coinvolgendo ben 18 soggetti tra cui **Ordini e studi professionali**, **enti ed imprese**, **Università** (come l'**Università del Salento** e il **Vito Fazzi**), **piccole e medie imprese**, **enti no profit**, **organizzazioni del terzo settore**, **Centri per l'impiego**, **Comune**, **ASL**, **enti pubblici e privati**, **associazioni**, **scuole polo per l’inclusione territoriale** e il **privato sociale**.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Particolare attenzione è rivolta alle fasi di transizione e allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal mercato del lavoro.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, il rafforzamento della continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico si basa sull'apprendimento esperienziale, con particolare attenzione alla didattica laboratoriale, alla flessibilità degli spazi e dei tempi e all'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta gamma di **partnership** attivate, nella chiarezza delle **finalità** orientative, nell'attenzione alle **transizioni formative** e nella diversificazione dell'offerta didattica, con particolare riferimento alle attività **PCTO**, **STEAM Camp Family**, **i-Startup**, **Scuola di droni**, **Scuola in Ospedale**, **Cybersecurity** e **Condividere Fa Squadra**. L'impegno verso l'inclusione e la valorizzazione delle competenze degli studenti rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una visione strategica complessiva per l'orientamento, nonostante la presenza di una sezione dedicata. L'esplicitazione di metodologie innovative per l'orientamento potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di definire una strategia di orientamento più coerente e integrata, che tenga conto delle specificità del territorio e delle esigenze degli studenti. È auspicabile un maggiore investimento in metodologie innovative e nell'utilizzo di strumenti digitali per l'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.T.G. \"G. Galilei\" di Lecce dimostra un impegno significativo verso l'orientamento, con una solida base di partnership e un'offerta didattica diversificata. Pur riconoscendo alcuni punti di debolezza, il PTOF presenta un quadro complessivamente positivo, con un potenziale di miglioramento attraverso la definizione di una strategia di orientamento più coerente e l'adozione di metodologie innovative. Le attività come **PCTO**, **Incontri con operatori** e **Visite guidate** contribuiscono in modo significativo all'orientamento degli studenti.",
-  "review_notes": "Le modifiche riflettono la presenza limitata di dettagli operativi rispetto ai criteri di punteggio ottimo, e l'assenza di una sezione dedicata all'orientamento."
+  "review_notes": "Le modifiche riflettono la presenza limitata di dettagli operativi rispetto ai criteri di punteggio ottimo, e l'assenza di una sezione dedicata all'orientamento.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-25T00:17:57.868664",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 13,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-25T05:53:37.144877",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 13,
+        "extreme_scores_checked": 2,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il PTOF menziona l'orientamento in diversi contesti, come la sezione dedicata ai percorsi di Educazi"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_da_esperienza_studenti.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo descrive esperienze pratiche degli studenti attraverso stage e collaborazioni con aziende, "
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T07:23:21.498914",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 13,
+        "enrichments_found": 16,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T05:53:37.144894",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
+    }
+  ]
 }

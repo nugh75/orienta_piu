@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "school_id": "RIPS00801E",
+    "denominazione": "Liceo Scientifico",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Poggio Mirteto",
+    "anno_ptof": "2022-2025",
+    "provincia": "Rieti",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giuseppe Felici",
+    "cap": "02047",
+    "email": "riis008004@istruzione.it",
+    "pec": "riis008004@pec.istruzione.it",
+    "website": "www.iisgregoriodacatino.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-24T23:37:05.084295"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "COTRAL",
+        "Università",
+        "Enti di ricerca",
+        "Erasmus Coordinator",
+        "Referente Progetti con l'estero",
+        "Consulenti esterni",
+        "Sapienza Università di Roma",
+        "Gallerie degli Uffizi",
+        "WeSchool",
+        "Unicredit",
+        "Goethe – Institut",
+        "Bocconi",
+        "Kangourou",
+        "Collegio dei Geometri e G.L. della provincia di Rieti",
+        "British Council",
+        "DELF"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzazione delle eccellenze",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "individualità degli alunni",
+        "evidence_location": "Pagina 13"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "Guidare gli studenti nella formazione completa e nell'orientamento, in vista di scelte future.",
+        "evidence_location": "Pagina 113"
+      },
+      "finalita_transizioni_formative": {
+        "score": 4,
+        "evidence_quote": "Favorire attività di continuità con le scuole secondarie di primo grado e di orientamento post-diploma.",
+        "evidence_location": "Pagina 27"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "Valorizzazione delle eccellenze, anche in funzione di una ulteriore carriera universitaria.",
+        "evidence_location": "Pagina 27"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Formazione sulla metodologia CLIL per i docenti in mobilità Erasmus Plus 2020-2027",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione sulla metodologia CLIL per i docenti.",
+      "5w_chi": "Docenti",
+      "5w_cosa": "Formazione CLIL",
+      "5w_dove": "Erasmus",
+      "5w_quando": "8/2027",
+      "5w_perche": "Introduzione di lezioni con metodologia CLIL in classe",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": "Introduzione di lezioni con metodologia CLIL in classe",
+      "evidence_location": "Pagina 32"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua inglese e certificazioni linguistiche per alunni e personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di lingua inglese e certificazioni linguistiche.",
+      "5w_chi": "Docenti, ATA, Studenti",
+      "5w_cosa": "Corsi di lingua e certificazioni",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Implementazione delle competenze linguistiche in inglese",
+      "ore_dichiarate": "ND",
+      "target": "Docenti, ATA, Studenti",
+      "evidence_quote": "Implementazione delle competenze linguistiche in inglese",
+      "evidence_location": "Pagina 32"
+    },
+    {
+      "titolo_attivita": "Potenziamento delle attività della biblioteca scolastica",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Potenziamento delle attività della biblioteca scolastica.",
+      "5w_chi": "Docenti, ATA, Studenti, Genitori",
+      "5w_cosa": "Potenziamento biblioteca",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Miglioramento delle competenze nella lingua madre",
+      "ore_dichiarate": "ND",
+      "target": "Docenti, ATA, Studenti, Genitori",
+      "evidence_quote": "Miglioramento delle competenze nella lingua madre attraverso la sensibilizzazione alla lettura.",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Potenziamento delle competenze di base degli alunni",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento delle competenze di base in italiano e matematica.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Potenziamento competenze base",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Miglioramento dei risultati nelle prove INVALSI e riduzione dell'abbandono scolastico",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Miglioramento nelle prove INVALSI, miglioramento generale",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "Implementazione delle attività per l'apprendimento dell'italiano come L2",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Implementazione delle attività per l'apprendimento dell'italiano come L2.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Apprendimento italiano L2",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Miglioramento delle competenze di base per gli alunni stranieri",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Miglioramento delle competenze di base per gli alunni stranieri",
+      "evidence_location": "Pagina 35"
+    },
+    {
+      "titolo_attivita": "Attività di mentoring e tutoring",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività di mentoring e tutoring.",
+      "5w_chi": "Docenti, Studenti",
+      "5w_cosa": "Mentoring e tutoring",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Riorientamento degli studenti e supporto per il disagio",
+      "ore_dichiarate": "ND",
+      "target": "Docenti, Studenti",
+      "evidence_quote": "Riorientamento degli studenti nell'indirizzo di studio appropriato alle loro potenzialità",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "Ambasciatori digitali dell'arte",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Realizzazione di video sull'arte e l'ambiente.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Creazione di video",
+      "5w_dove": "Online e Gallerie degli Uffizi",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sensibilizzazione all'arte e all'ambiente.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 73"
+    },
+    {
+      "titolo_attivita": "Futurità - WeSchool",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso sull'educazione finanziaria, imprenditoriale e sostenibilità.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Formazione online e project work",
+      "5w_dove": "Online e in classe",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppare competenze finanziarie e imprenditoriali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 74"
+    },
+    {
+      "titolo_attivita": "Potenziamento delle attività della biblioteca scolastica",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Potenziamento delle attività della biblioteca scolastica.",
+      "5w_chi": "Docenti, ATA, Studenti, Genitori",
+      "5w_cosa": "Potenziamento biblioteca",
+      "5w_dove": "Scuola",
+      "5w_quando": "9/2025",
+      "5w_perche": "Miglioramento delle competenze nella lingua madre",
+      "ore_dichiarate": "ND",
+      "target": "Docenti, ATA, Studenti, Genitori",
+      "evidence_quote": "Miglioramento delle competenze nella lingua madre attraverso la sensibilizzazione alla lettura.",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Prevenzione E Contrasto Del Cyberbullismo",
+      "categoria_principale": "Laboratorio/Incontro",
+      "descrizione_e_metodologia": "Laboratori in aula con gli studenti e interventi di psicologi esperti.",
+      "5w_chi": "Tutte le classi del biennio",
+      "5w_cosa": "Presentazione del fenomeno del cyberbullismo e lezione laboratoriale.",
+      "5w_dove": "Aule",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Prevenire e contrastare il cyberbullismo.",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime e seconde",
+      "evidence_quote": "prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione e del bullismo, anche informatico",
+      "evidence_location": "Pagina 83"
+    },
+    {
+      "titolo_attivita": "Liceo Matematico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Aumento delle ore di matematica-fisica con approccio laboratoriale.",
+      "5w_chi": "Classi del liceo scientifico tradizionale e scienze applicate",
+      "5w_cosa": "Potenziamento della disciplina matematica.",
+      "5w_dove": "Laboratori",
+      "5w_quando": "Biennio e triennio",
+      "5w_perche": "Potenziare le competenze matematico-logiche e scientifiche.",
+      "ore_dichiarate": "2 (biennio), 1 (triennio)",
+      "target": "Classi del liceo scientifico",
+      "evidence_quote": "Una visione diversa dello studio della matematica veicolata da un approccio specifico che non si basa solo sull’aumento quantitativo delle ore di lezione ma soprattutto di una metodologia differente",
+      "evidence_location": "Pagina 85"
+    },
+    {
+      "titolo_attivita": "Gare Di Matematica",
+      "categoria_principale": "Competizione",
+      "descrizione_e_metodologia": "Partecipazione a Olimpiadi della Matematica e altre competizioni.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Risoluzione di problemi matematici.",
+      "5w_dove": "Istituti e Cesenatico",
+      "5w_quando": "Autunno, Febbraio",
+      "5w_perche": "Potenziare le competenze matematico-logiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Sviluppo di competenze di problem solving e di collaborazione di gruppo per il raggiungimento di un obiettivo.",
+      "evidence_location": "Pagina 86"
+    },
+    {
+      "titolo_attivita": "F.I.L. - Fisica In Laboratorio",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di laboratorio per stimolare l'interesse per la fisica.",
+      "5w_chi": "Tutte le classi",
+      "5w_cosa": "Realizzazione di esperimenti e creazione di un archivio di esperienze.",
+      "5w_dove": "Laboratorio STEM",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Favorire una formazione scientifica stimolante.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "L’obiettivo principale è quello di favorire una formazione scientifica stimolante",
+      "evidence_location": "Pagina 87"
+    },
+    {
+      "titolo_attivita": "Progetto Centro Scolastico Sportivo (Css)",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a competizioni sportive e organizzazione di tornei.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Pratica di diverse discipline sportive.",
+      "5w_dove": "Palestra",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Favorire la cultura sportiva e la socializzazione.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Favorire la cultura sportiva intesa come ricerca di benessere personale.",
+      "evidence_location": "Pagina 89"
+    },
+    {
+      "titolo_attivita": "HOW TO MAKE... (CLOTHES) - eTwinning Project",
+      "categoria_principale": "Progetto Internazionale",
+      "descrizione_e_metodologia": "Gli alunni svilupperanno le hard skills e le soft skills. Prodotto finale: Realizzazione in laboratorio dell’abito corredato da schede tecniche e spiegazioni in lingua inglese, da spedire ai partner stranieri.",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Realizzazione di un abito con schede tecniche in inglese.",
+      "5w_dove": "Laboratorio",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo di hard e soft skills, competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Gruppi classe",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 107"
+    },
+    {
+      "titolo_attivita": "Bio-Architecture, Eco-Sustainable Houses - eTwinning Project",
+      "categoria_principale": "Progetto Internazionale",
+      "descrizione_e_metodologia": "Il progetto mira alla trattazione del tema dell'ecostenibilità nel settore edile, verrà sviluppato in lingua inglese e porterà alla realizzazione di una casetta ecostenibile (progetto e modellino).",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Realizzazione di un progetto e modellino di casa ecostenibile in inglese.",
+      "5w_dove": "Laboratorio",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo di competenze linguistiche e sulla sostenibilità.",
+      "ore_dichiarate": "ND",
+      "target": "Gruppi classe",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 109"
+    },
+    {
+      "titolo_attivita": "Il Nostro Olio: Dalla Raccolta Delle Olive Alla Bottiglia",
+      "categoria_principale": "Attività Pratica",
+      "descrizione_e_metodologia": "Partecipazione e organizzazione della raccolta delle olive all’interno dell’Istituto.",
+      "5w_chi": "Classi aperte verticali",
+      "5w_cosa": "Raccolta e lavorazione delle olive.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Favorire una cultura alimentare sana, socializzazione, interazione con il territorio.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 111"
+    },
+    {
+      "titolo_attivita": "Rilievo Topografico Con Droni",
+      "categoria_principale": "Corso di Formazione",
+      "descrizione_e_metodologia": "Corso con rilievo topografico con drone, elaborazione dati, restituzione grafica e procedura catastale.",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Rilievo topografico con drone e elaborazione dati.",
+      "5w_dove": "Laboratorio, esterno",
+      "5w_quando": "6 ore",
+      "5w_perche": "Potenziare conoscenze teoriche e pratiche di topografia, acquisire competenze sull'uso dei droni.",
+      "ore_dichiarate": "6",
+      "target": "Gruppi classe",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 113"
+    },
+    {
+      "titolo_attivita": "Cyber Radio, La Web Radio Del Gregorio Da Catino",
+      "categoria_principale": "Progetto Multimediale",
+      "descrizione_e_metodologia": "Web radio scolastica per la creazione di trasmissioni live e podcast.",
+      "5w_chi": "Classi aperte verticali",
+      "5w_cosa": "Creazione e gestione di una web radio.",
+      "5w_dove": "Laboratorio",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo di creatività, lavoro di squadra, diffusione della voce dell'istituto.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 115"
+    },
+    {
+      "titolo_attivita": "ALFABETIZZAZIONE LINGUA FRANCESE - Corso A.P.I.",
+      "categoria_principale": "Corso di Lingua",
+      "descrizione_e_metodologia": "Mini-corso di lingua francese per studenti in scambio con la Francia (Erasmus+).",
+      "5w_chi": "Studenti partecipanti allo scambio",
+      "5w_cosa": "Apprendimento di funzioni linguistiche di base in francese.",
+      "5w_dove": "Aule",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Preparazione allo scambio culturale, integrazione in un contesto linguistico diverso.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 116"
+    },
+    {
+      "titolo_attivita": "MODEL UNITED NATIONS - Simulazioni ONU in lingua inglese",
+      "categoria_principale": "Simulazione",
+      "descrizione_e_metodologia": "Simulazione ONU in inglese, rappresentazione di un paese membro.",
+      "5w_chi": "Classi aperte verticali",
+      "5w_cosa": "Simulazione di dibattiti ONU in inglese.",
+      "5w_dove": "Roma, New York",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo di competenze linguistiche, diplomatiche e di cittadinanza attiva.",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 118"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua italiana",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Corsi di lingua italiana per studenti stranieri per facilitare l’inserimento e la socializzazione.",
+      "5w_chi": "Studenti stranieri",
+      "5w_cosa": "Corsi di lingua italiana",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annualmente",
+      "5w_perche": "Favorire l'integrazione",
+      "ore_dichiarate": "ND",
+      "target": "Studenti stranieri",
+      "evidence_quote": "Corsi di Lingua Italiana per studenti stranieri, vengono organizzati annualmente.",
+      "evidence_location": "Pagina 137"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RIPS00801E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico** di Poggio Mirteto (RIPS00801E), relativo al periodo 2022-2025. L'analisi si basa sui dati forniti, valutando la presenza di una sezione autonoma dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. In generale, l'orientamento viene affrontato in modo integrato all'interno di altre sezioni del PTOF, come i progetti **PCTO** e le attività di continuità, senza una trattazione autonoma e specifica.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento non è trattato in una sezione autonoma del PTOF, ottenendo un punteggio di 5. Questo suggerisce un approccio integrato, ma evidenzia la mancanza di una visione strategica specifica per l'orientamento.\n\n**2.2 Partnership:**\n\nIl liceo vanta un numero significativo di partnership, ben 16, tra cui **COTRAL**, diverse **Università** ed **Enti di ricerca**, **Erasmus Coordinator**, **Sapienza Università di Roma**, **Gallerie degli Uffizi**, **WeSchool**, **Unicredit**, **Goethe – Institut**, **Bocconi**, **Kangourou**, **Collegio dei Geometri e G.L. della provincia di Rieti**, **British Council** e **DELF**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e le opportunità di orientamento offerte agli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento si concentrano sulla **valorizzazione delle eccellenze** (punteggio 3), sull'attenzione all'**individualità degli alunni** (punteggio 3) e sulla guida degli studenti nella formazione completa e nell'orientamento per le scelte future (punteggio 3). Si evidenzia anche l'importanza di favorire le attività di continuità con le scuole secondarie di primo grado e l'orientamento post-diploma (punteggio 4), nonché la valorizzazione delle eccellenze in funzione di una carriera universitaria (punteggio 3).\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 5), il mantenimento della continuità con il territorio (punteggio 3), il contrasto alla dispersione scolastica NEET (punteggio 4) e la promozione del lifelong learning (punteggio 4).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento comprendono il coordinamento dei servizi (punteggio 3), il dialogo tra docenti e studenti (punteggio 3), il rapporto scuola-genitori (punteggio 4), il monitoraggio delle azioni (punteggio 2) e un sistema integrato di inclusione e attenzione alle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico orientativo si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sulla didattica laboratoriale (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'interdisciplinarità (punteggio 4).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include opzionali culturali (punteggio 3), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 2), di volontariato (punteggio 4) e sportive (punteggio 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nell'attenzione all'inclusione e alla gestione delle fragilità, nell'approccio didattico laboratoriale e nell'offerta di attività opzionali diversificate. L'impegno nella riduzione dell'**abbandono scolastico** e nel contrasto alla dispersione NEET rappresenta un elemento positivo. Attività come **Formazione sulla metodologia CLIL**, **Corsi di lingua inglese e certificazioni linguistiche**, **Potenziamento delle attività della biblioteca scolastica**, **Potenziamento delle competenze di base degli alunni** e **Implementazione delle attività per l'apprendimento dell'italiano come L2** sono degne di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione autonoma dedicata all'orientamento, che potrebbe limitare la capacità di definire una strategia coerente e mirata. Il punteggio relativamente basso del monitoraggio delle azioni (2) suggerisce la necessità di rafforzare i meccanismi di valutazione e controllo.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare un'offerta di orientamento più esplicita e integrata, con obiettivi, azioni e indicatori di performance chiaramente definiti. È necessario potenziare il monitoraggio delle attività e valutare l'efficacia delle partnership attivate.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico** di Poggio Mirteto dimostra un impegno significativo verso l'orientamento, sebbene questo sia affrontato in modo prevalentemente integrato all'interno di altre aree del piano. La ricchezza delle **partnership** e la varietà delle attività proposte rappresentano un valore aggiunto, ma è necessario colmare il divario relativo alla mancanza di una sezione autonoma dedicata all'orientamento per garantire una maggiore coerenza e efficacia delle azioni intraprese. Attività come **Ambasciatori digitali dell'arte**, **Futurità - WeSchool**, **Prevenzione E Contrasto Del Cyberbullismo**, **Liceo Matematico**, **Gare Di Matematica**, **F.I.L. - Fisica In Laboratorio**, **Progetto Centro Scolastico Sportivo (Css)**, **HOW TO MAKE... (CLOTHES) - eTwinning Project**, **Bio-Architecture, Eco-Sustainable Houses - eTwinning Project**, **Il Nostro Olio: Dalla Raccolta Delle Olive Alla Bottiglia**, **Rilievo Topografico Con Droni**, **Cyber Radio, La Web Radio Del Gregorio Da Catino**, **ALFABETIZZAZIONE LINGUA FRANCESE - Corso A.P.I.**, **MODEL UNITED NATIONS - Simulazioni ONU in lingua inglese** e **Corsi di lingua italiana** contribuiscono ad arricchire l'offerta formativa e le opportunità di orientamento per gli studenti.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-24T23:37:05.084430",
+      "activity": "ollama_report_review",
+      "model": "google/gemini-2.0-flash-exp:free",
+      "status": "completed",
+      "details": {
+        "action": "check",
+        "chunks_analyzed": 10,
+        "enrichments_found": 0,
+        "corrections_found": 0,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": false,
+        "initial_issues": 1
+      }
+    }
+  ]
+}
