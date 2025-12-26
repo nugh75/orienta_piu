@@ -8,8 +8,11 @@ import glob
 import re
 from collections import Counter
 from datetime import datetime
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Best Practice", page_icon="🧭", layout="wide")
+setup_page("pages/09_💡_Best_Practice.py")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
@@ -646,5 +649,4 @@ with tab_reports:
             """)
             st.code("make best-practice-llm-synth", language="bash")
 
-    st.markdown("---")
-    st.caption("🧭 ORIENTA+ | Best Practice")
+render_footer()

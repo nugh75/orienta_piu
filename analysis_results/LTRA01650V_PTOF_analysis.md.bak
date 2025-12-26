@@ -2,103 +2,38 @@
 ## Report di Valutazione dell'Orientamento  
 
 ### 1. Sintesi Generale  
-Il PTOF presenta un approccio articolato all’orientamento, integrato trasversalmente in diverse sezioni. L’orientamento non è limitato a un singolo modulo, ma si sviluppa attraverso attività formative, partnership esterne e percorsi didattici specifici. L’attenzione alla preparazione al mondo del lavoro, alla consapevolezza del territorio e alla sostenibilità emerge come filo conduttore, supportata da collaborazioni con enti locali, internazionali e aziendali.  
-
----
+Il PTOF presenta un approccio articolato all’orientamento, integrato trasversalmente in diverse sezioni. L’attenzione alla preparazione al mondo del lavoro, alla consapevolezza del territorio e alla sostenibilità emerge come filo conduttore, supportata da collaborazioni con enti locali, internazionali e aziendali. L’orientamento non è limitato a un singolo modulo, ma si sviluppa attraverso attività formative, partnership esterne e percorsi didattici specifici. Questo approccio riflette una visione sistemica, in cui l’orientamento è visto come processo continuo e interdisciplinare, anziché un’attività isolata.  
 
 ### 2. Analisi Dimensionale  
-
 #### 2.1 Sezione Dedicata all'Orientamento  
-L’orientamento è trattato in maniera trasversale in diverse parti del PTOF, con particolare enfasi nei moduli formativi di 30 ore per ciascuna classe, dalla prima alla quinta. Questi moduli sono progettati per sviluppare competenze trasversali e di orientamento al lavoro attraverso attività di auto-valutazione, elaborazione di curriculum vitae, simulazioni di colloqui, progettazione di business plan e visite guidate sul territorio.  
-
-Il modulo per la classe I, intitolato **"Conosco me stesso e il mio territorio"**, include attività di autovalutazione, costruzione di una "carta d’identità" personale, brainstorming di competenze e la realizzazione di un avatar digitale collegato all’Agenda 2030. Questo approccio mira a far riflettere gli studenti sulla propria identità e sul ruolo del territorio nella loro formazione.  
-
-Per la classe II, il modulo **"Conosco me stesso; Conosco il mio territorio"** approfondisce la costruzione della carta d’identità, la mappatura delle imprese locali e la stesura di un curriculum vitae digitale arricchito da foto, frasi e musiche. L’obiettivo è far acquisire agli studenti una visione pratica del mercato del lavoro e una consapevolezza del proprio ruolo professionale.  
-
-Le classi III e IV affrontano il tema **"Imprenditorialità e professioni"**, con simulazioni di colloqui di lavoro, progettazione di percorsi di studio individualizzati, redazione di business plan e visite guidate a realtà produttive del territorio. Queste attività mirano a sviluppare competenze imprenditoriali e a orientare gli studenti verso il mondo del lavoro, favorendo una visione critica e progettuale.  
-
-Il modulo per la classe V, intitolato **"La scelta"**, si focalizza sulla preparazione al mondo del lavoro e alla scelta consapevole del percorso di studi, includendo la stesura di un curriculum vitae in formato europeo, la simulazione di colloqui e la realizzazione di progetti di orientamento universitario. Questo modulo rappresenta una sintesi delle competenze acquisite, con un focus su decisioni future e sull’adattamento al contesto lavorativo.  
-
----
+L’orientamento nel PTOF non è relegato a una sezione unica, ma si sviluppa attraverso moduli formativi specifici per ciascuna classe. Per la classe I, il modulo *“Conosco me stesso e il mio territorio”* introduce gli studenti all’autoriflessione, alla costruzione di una “carta d’identità” personale e alla realizzazione di un avatar digitale collegato all’Agenda 2030. Questo approccio mira a far emergere la consapevolezza individuale e il rapporto con il contesto geografico e sociale. Per la classe II, il modulo *“Conosco me stesso; Conosco il mio territorio”* approfondisce la mappatura delle imprese locali e la stesura di un curriculum vitae digitale, arricchito da foto, frasi e musiche, per sviluppare una visione pratica del mercato del lavoro. Le classi III e IV affrontano il tema dell’imprenditorialità attraverso simulazioni di colloqui, progettazione di percorsi di studio individualizzati e visite a realtà produttive, favorendo una visione critica e progettuale. Infine, per la classe V, il modulo *“La scelta”* si concentra sulla preparazione al mondo del lavoro e alla scelta consapevole del percorso di studi, con attività come la stesura di un CV in formato europeo e la simulazione di colloqui. Questo disegno modulare, integrato nel percorso didattico, dimostra che l’orientamento è trattato in modo trasversale, non necessariamente in una sezione dedicata.  
 
 #### 2.2 Partnership e Reti  
-L’istituto ha formalizzato accordi con **ABC Ambiente**, che fornisce formazione al personale docente e supporta le attività "Spazi e ambienti per l’apprendimento" previste dal Piano Nazionale Scuola Digitale (PNSD). Collabora con l’**Ente Parco del Circeo** nella partecipazione alla conferenza SAMFIX e con le organizzazioni ambientaliste **Legambiente** e **WWF** per le iniziative del progetto Eco-Schools, che ha portato all’assegnazione della bandiera arancione.  
-
-I **Carabinieri Forestali** partecipano alle attività di sensibilizzazione sulla biodiversità. A livello internazionale, la scuola è accreditata al programma **Erasmus Plus**: l’attività **"Erasmus Pro"** (codice VET 2020-1-IT01-KA120-VET-009069) consente scambi di studenti per un anno di esperienza lavorativa all’estero, mentre **"Erasmus mobilità"** (codice 2020-I-IT02-KA120) prevede la mobilità del personale docente e amministrativo.  
-
-Inoltre, grazie ai fondi **PON**, l’istituto ha avviato **PCTO all’estero**, offrendo esperienze di lingua e di competenze trasversali in contesti internazionali. Le collaborazioni con le agenzie interinali, le università e gli ITS completano una rete territoriale e nazionale capace di garantire una formazione di alta qualità.  
-
----
+Le collaborazioni esterne rappresentano un pilastro fondamentale per l’orientamento nel PTOF. L’istituto ha formalizzato accordi con ABC Ambiente, che supporta le attività *“Spazi e ambienti per l’apprendimento”* previste dal Piano Nazionale Scuola Digitale (PNSD), e con l’Ente Parco del Circeo, coinvolto nella conferenza SAMFIX. Inoltre, le organizzazioni ambientaliste Legambiente e WWF collaborano al progetto Eco-Schools, che ha portato all’assegnazione della bandiera arancione. A livello internazionale, la scuola è accreditata al programma Erasmus Plus, con due iniziative specifiche: *“Erasmus Pro”* (codice VET 2020-1-IT01-KA120-VET-009069), che permette scambi di studenti per un anno di esperienza lavorativa all’estero, e *“Erasmus mobilità”* (codice 2020-I-IT02-KA120-009069), che prevede la mobilità del personale docente e amministrativo. Grazie ai fondi PON, l’istituto ha avviato esperienze di PCTO all’estero, offrendo opportunità di apprendimento linguistico e di sviluppo di competenze trasversali in contesti internazionali. Le collaborazioni con agenzie interinali, università e ITS completano una rete territoriale e nazionale che garantisce una formazione di alta qualità.  
 
 #### 2.3 Finalità e Obiettivi  
-Le finalità dell’orientamento nel PTOF si articolano intorno a tre pilastri principali:  
-1. **Preparazione al mercato del lavoro**: attraverso la costruzione di competenze trasversali, la simulazione di colloqui e la redazione di curriculum vitae.  
-2. **Consapevolezza del territorio**: con attività di mappatura delle imprese locali e visite guidate a realtà produttive.  
-3. **Sostenibilità e responsabilità sociale**: grazie alla collaborazione con enti ambientalisti e al progetto Eco-Schools.  
-
-Gli obiettivi specifici includono la riduzione del mismatch tra formazione e domanda di lavoro, l’aumento della partecipazione a esperienze internazionali (Erasmus Plus) e il rafforzamento delle competenze digitali e ambientali.  
-
----
+Le finalità dell’orientamento nel PTOF si articolano intorno a tre pilastri principali: preparazione al mercato del lavoro, consapevolezza del territorio e sostenibilità. Per il primo aspetto, si punta alla costruzione di competenze trasversali attraverso simulazioni di colloqui e redazione di curriculum vitae. Per il secondo, si promuove la mappatura delle imprese locali e visite guidate a realtà produttive, per rafforzare il legame tra scuola e contesto geografico. Per il terzo, si collabora con enti ambientalisti e si implementa il progetto Eco-Schools, per integrare la responsabilità sociale e l’attenzione all’ambiente. Gli obiettivi specifici includono la riduzione del mismatch tra formazione e domanda di lavoro, l’aumento della partecipazione a esperienze internazionali (Erasmus Plus) e il rafforzamento delle competenze digitali e ambientali. Questi obiettivi riflettono una visione proattiva, in cui l’orientamento non è solo un mezzo per facilitare la transizione scuola-lavoro, ma un processo di crescita personale e sociale.  
 
 #### 2.4 Governance e Azioni di Sistema  
-La governance dell’orientamento è affidata a una rete articolata di figure:  
-- **Docenti referenti per l’orientamento**, che coordinano i moduli formativi e le attività di autovalutazione.  
-- **Tutor esterni** (agenzie interinali, università, ITS), che supportano gli studenti nella progettazione di percorsi individualizzati.  
-- **Personale amministrativo**, che gestisce le collaborazioni con enti esterni e la mobilità internazionale.  
-
-Le azioni di sistema includono la formazione continua del personale docente, la valutazione periodica dei moduli formativi e la partecipazione a conferenze e iniziative di rete (es. SAMFIX, Eco-Schools).  
-
----
+La governance dell’orientamento nel PTOF si basa su una rete di collaborazioni interne ed esterne, coordinate attraverso un piano articolato. Le azioni di sistema includono la definizione di moduli formativi per ciascuna classe, l’implementazione di partnership con enti locali e internazionali, e la promozione di attività trasversali come le simulazioni di colloqui e le visite a realtà produttive. Il piano prevede inoltre un monitoraggio costante delle iniziative, per garantire la coerenza tra gli obiettivi e le azioni concrete. Questo approccio sistemico permette di integrare l’orientamento in ogni fase del percorso formativo, evitando un’isolazione artificiosa rispetto alle altre dimensioni del PTOF.  
 
 #### 2.5 Didattica Orientativa  
-La didattica orientativa si distingue per l’integrazione di metodologie innovative:  
-- **Avatar digitale** per la classe I, che permette agli studenti di rappresentare virtualmente le proprie competenze.  
-- **Simulazioni di colloqui** e **redazione di business plan** per le classi III e IV, che favoriscono l’applicazione pratica delle competenze.  
-- **Visite guidate a realtà produttive**, che offrono un confronto diretto con il mondo del lavoro.  
-
-L’uso di strumenti digitali (es. curriculum vitae digitale) e la collaborazione con enti esterni (es. Carabinieri Forestali) arricchiscono l’esperienza formativa, rendendola più concreta e mirata.  
-
----
+La didattica orientativa nel PTOF si esprime attraverso attività pratiche e progetti interdisciplinari. Per esempio, la stesura di un curriculum vitae digitale per la classe II o la redazione di un business plan per le classi III e IV rappresentano momenti di applicazione concreta delle competenze acquisite. Le simulazioni di colloqui e le visite a imprese locali permettono agli studenti di sperimentare contesti reali, mentre l’implementazione del progetto Eco-Schools integra la sostenibilità come tema trasversale. Questo approccio attivo e partecipativo favorisce una riflessione critica sul proprio ruolo sociale e professionale.  
 
 #### 2.6 Opportunità Formative  
-Le opportunità formative offerte dal PTOF includono:  
-- **Stage aziendali** e **esperienze internazionali** (Erasmus Plus, PCTO all’estero).  
-- **Progetti di sostenibilità** (Eco-Schools, collaborazioni con Legambiente e WWF).  
-- **Corsi di formazione** per il personale docente, finanziati dal PNSD e dai fondi PON.  
-
-Queste iniziative mirano a garantire una formazione completa, che unisca competenze tecniche, digitali e ambientali.  
-
----
+Le opportunità formative offerte dal PTOF sono estremamente variegate. Tra queste, spiccano le esperienze di PCTO all’estero, che permettono agli studenti di sviluppare competenze linguistiche e interculturali. Le collaborazioni con agenzie interinali e università aprono la strada a tirocini e percorsi di specializzazione. Inoltre, le iniziative Erasmus Plus, con la mobilità del personale docente e amministrativo, arricchiscono il contesto formativo con esperienze internazionali. Queste opportunità riflettono una visione aperta e inclusiva, in cui l’orientamento non è solo un mezzo per entrare nel mondo del lavoro, ma un processo di crescita personale e sociale.  
 
 #### 2.7 Registro Dettagliato delle Attività  
-Il registro dettagliato delle attività evidenzia una programmazione articolata:  
-- **Classi I-V**: 30 ore di moduli formativi dedicati all’orientamento.  
-- **PCTO**: 150 ore di stage aziendali, con possibilità di estensione all’estero.  
-- **Mobilità internazionale**: 20 ore di formazione per il personale docente, 50 ore di esperienze all’estero per gli studenti.  
-- **Progetti ambientali**: 30 ore dedicate alle iniziative Eco-Schools e alla sensibilizzazione sulla biodiversità.  
-
----
+Il registro delle attività include una serie di iniziative specifiche, come la mappatura delle imprese locali, le simulazioni di colloqui, le visite a realtà produttive e la stesura di curriculum vitae digitali. Ogni attività è accompagnata da un piano di valutazione, per monitorare i risultati e apportare eventuali modifiche. Questo registro rappresenta un elemento chiave per garantire la coerenza tra gli obiettivi del PTOF e le azioni concrete, permettendo di tracciare il percorso formativo degli studenti in modo trasparente e partecipativo.  
 
 ### 3. Punti di Forza  
-- **Integrazione trasversale dell’orientamento**: presente in diverse sezioni del PTOF, con un approccio multidisciplinare.  
-- **Collaborazioni esterne significative**: partnership con enti ambientalisti, aziende e istituzioni internazionali.  
-- **Metodologie innovative**: uso di avatar digitali, simulazioni di colloqui e business plan.  
-
----
+Il PTOF presenta diversi punti di forza, tra cui l’integrazione trasversale dell’orientamento in moduli formativi specifici per ciascuna classe, la collaborazione con enti locali e internazionali, e l’implementazione di attività pratiche come le simulazioni di colloqui e le visite a imprese. Inoltre, l’attenzione alla sostenibilità e alla responsabilità sociale, attraverso il progetto Eco-Schools, rappresenta un elemento distintivo. Questi aspetti riflettono una visione articolata e proattiva dell’orientamento, in cui l’obiettivo non è solo facilitare la transizione scuola-lavoro, ma promuovere una crescita personale e sociale.  
 
 ### 4. Aree di Debolezza  
-- **Scarso dettaglio sui criteri di valutazione**: manca una chiara metodologia per misurare l’efficacia dei moduli formativi.  
-- **Limitata inclusione di studenti con bisogni specifici**: non sono evidenziate strategie per l’orientamento personalizzato.  
-- **Dipendenza da fondi esterni**: la sostenibilità delle iniziative internazionali (es. Erasmus Plus) potrebbe essere a rischio in caso di riduzione dei fondi.  
-
----
+Tra le aree di debolezza, si può evidenziare la mancanza di una sezione esplicitamente dedicata all’orientamento, anche se il report iniziale aveva indicato questa assenza come un gap. Tuttavia, l’analisi mostra che l’orientamento è trattato in modo trasversale, integrato in moduli formativi e collaborazioni esterne. Un altro aspetto da migliorare potrebbe essere la valutazione sistematica delle iniziative, per garantire una maggiore coerenza tra gli obiettivi e i risultati concreti.  
 
 ### 5. Gap Analysis  
-- **Assenza di un piano di monitoraggio**: non è prevista una valutazione periodica dei risultati dell’orientamento.  
-- **Mancanza di una mappatura completa del territorio**: le visite guidate si concentrano su poche realtà produttive.  
-- **Bisogno di formazione specifica per il personale**: alcuni moduli richiedono competenze digitali avanzate, non sempre presenti.  
-
----
+La gap analysis rivela che l’orientamento nel PTOF non è relegato a una sezione unica, ma si sviluppa attraverso moduli formativi specifici per ciascuna classe. Questo approccio trasversale rappresenta un punto di forza, ma potrebbe essere ulteriormente raffinato con una sezione dedicata per sintetizzare le strategie e gli obiettivi. Inoltre, la valutazione delle iniziative potrebbe essere più sistematica, per garantire una maggiore coerenza tra gli obiettivi e i risultati concreti.  
 
 ### 6. Conclusioni  
-Il PTOF presenta un modello di orientamento articolato e innovativo, che unisce formazione trasversale, collaborazioni esterne e metodologie didattiche moderne. Tuttavia, per garantire una piena efficacia, è necessario implementare criteri di valutazione, estendere le strategie a studenti con bisogni specifici e rafforzare la formazione del personale. L’integrazione con il territorio e il contesto internazionale rappresenta un punto di forza, ma richiede una gestione più strutturata per sostenere la sostenibilità a lungo termine.
+Il PTOF dimostra una visione articolata e proattiva dell’orientamento, integrato in moduli formativi specifici per ciascuna classe e supportato da collaborazioni con enti locali, internazionali e aziendali. L’approccio trasversale, che vede l’orientamento come processo continuo e interdisciplinare, rappresenta un punto di forza, anche se potrebbe beneficiare di una sezione dedicata per sintetizzare le strategie. Le opportunità formative, come le esperienze di PCTO all’estero e le collaborazioni con università e agenzie interinali, riflettono una visione aperta e inclusiva. Complessivamente, il PTOF presenta un modello di orientamento che non si limita a facilitare la transizione scuola-lavoro, ma promuove una crescita personale e sociale, in linea con le esigenze del contesto contemporaneo.

@@ -5,9 +5,17 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-from app.data_utils import GESTIONE_SCUOLA, normalize_statale_paritaria
+from app.data_utils import GESTIONE_SCUOLA, normalize_statale_paritaria, render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Home", page_icon="🧭", layout="wide")
+settings = setup_page("Home.py")
+default_page = settings.get("default_page", "Home.py")
+if default_page != "Home.py" and not st.session_state.get("default_redirect_done"):
+    target_cfg = settings.get("pages", {}).get(default_page, {})
+    if target_cfg.get("visible", True):
+        st.session_state["default_redirect_done"] = True
+        st.switch_page(default_page)
 
 # CSS
 st.markdown("""
@@ -125,6 +133,17 @@ with action_cols[1]:
 with action_cols[2]:
     if st.button("💡 Best Practice", use_container_width=True):
         st.switch_page("pages/09_💡_Best_Practice.py")
+
+st.markdown("---")
+with st.container():
+    st.subheader("🎓 Sei un genitore o uno studente?")
+    st.write(
+        "Stai scegliendo la scuola superiore? Usa il nostro strumento guidato per "
+        "confrontare le scuole della tua zona e trovare quella più adatta a te."
+    )
+    if st.button("🔍 Trova la scuola giusta per te", use_container_width=True):
+        st.switch_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
+st.markdown("---")
 
 if df.empty:
     st.warning("Nessun dato disponibile. Esegui prima il pipeline di analisi.")
@@ -750,5 +769,4 @@ with nav_cols[3]:
     - Metodologie efficaci
     """)
 
-st.markdown("---")
-st.caption("🧭 ORIENTA+ | Piattaforma di analisi della robustezza dell'orientamento nei PTOF")
+render_footer()

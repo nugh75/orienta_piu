@@ -572,3 +572,155 @@ def compare_two_schools(school1: pd.Series, school2: pd.Series) -> Dict:
     }
 
     return comparison
+
+
+FAMILY_PREFERENCE_WEIGHTS = {
+    "Orientamento universitario forte": {
+        "mean_finalita": 0.6,
+        "mean_obiettivi": 0.4,
+    },
+    "Preparazione al mondo del lavoro (stage, PCTO)": {
+        "mean_opportunita": 0.6,
+        "partnership_count": 0.4,
+    },
+    "Laboratori e attività pratiche": {
+        "mean_didattica_orientativa": 0.5,
+        "2_6_didattica_laboratoriale_score": 0.5,
+    },
+    "Progetti internazionali e lingue": {
+        "mean_opportunita": 0.5,
+        "activities_count": 0.5,
+    },
+    "Attività extracurriculari (teatro, musica, sport)": {
+        "activities_count": 0.6,
+        "2_7_opzionali_laboratoriali_espressive_score": 0.2,
+        "2_7_opzionali_sportive_score": 0.2,
+    },
+    "Tecnologia e innovazione": {
+        "mean_didattica_orientativa": 0.6,
+        "2_6_didattica_laboratoriale_score": 0.4,
+    },
+    "Attenzione all'inclusione": {
+        "2_5_azione_sistema_integrato_inclusione_fragilita_score": 1.0,
+    },
+}
+
+
+def _normalize_metric(series: pd.Series, min_val: float = 1.0, max_val: float = 7.0) -> pd.Series:
+    denom = max(max_val - min_val, 1e-6)
+    normalized = (series.fillna(min_val) - min_val) / denom
+    return normalized.clip(lower=0.0, upper=1.0)
+
+
+def _normalize_count(series: pd.Series) -> pd.Series:
+    if series.dropna().empty:
+        return pd.Series(0.0, index=series.index)
+    max_val = float(series.quantile(0.95) or 0)
+    if max_val <= 0:
+        return pd.Series(0.0, index=series.index)
+    return (series.fillna(0) / max_val).clip(lower=0.0, upper=1.0)
+
+
+def _score_preference(df: pd.DataFrame, weights: Dict[str, float]) -> pd.Series:
+    total = pd.Series(0.0, index=df.index)
+    weight_sum = 0.0
+    for col, weight in weights.items():
+        if col not in df.columns:
+            continue
+        series = df[col]
+        if col.endswith("_count"):
+            normalized = _normalize_count(series)
+        else:
+            normalized = _normalize_metric(series)
+        total = total + (normalized * weight)
+        weight_sum += weight
+    if weight_sum <= 0:
+        return pd.Series(0.0, index=df.index)
+    return total / weight_sum
+
+
+def _build_strength_tags(df: pd.DataFrame) -> pd.Series:
+    partnership_threshold = float(df.get("partnership_count", pd.Series([0])).quantile(0.75) or 0)
+    activities_threshold = float(df.get("activities_count", pd.Series([0])).quantile(0.75) or 0)
+
+    def tags_for_row(row: pd.Series) -> List[str]:
+        tags = []
+        if float(row.get("ptof_orientamento_maturity_index", 0) or 0) >= 5:
+            tags.append("Orientamento forte")
+        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 5:
+            tags.append("Laboratori")
+        if float(row.get("2_6_didattica_laboratoriale_score", 0) or 0) >= 5:
+            tags.append("Laboratori")
+        if float(row.get("mean_opportunita", 0) or 0) >= 5:
+            tags.append("Stage/PCTO")
+        if float(row.get("partnership_count", 0) or 0) >= partnership_threshold > 0:
+            tags.append("Stage/PCTO")
+        if float(row.get("activities_count", 0) or 0) >= activities_threshold > 0:
+            tags.append("Extra")
+        if float(row.get("2_7_opzionali_sportive_score", 0) or 0) >= 5:
+            tags.append("Sport")
+        if float(row.get("2_7_opzionali_laboratoriali_espressive_score", 0) or 0) >= 5:
+            tags.append("Arte/Musica")
+        if float(row.get("2_5_azione_sistema_integrato_inclusione_fragilita_score", 0) or 0) >= 5:
+            tags.append("Inclusione")
+        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 4.5 and float(row.get("mean_opportunita", 0) or 0) >= 4.5:
+            tags.append("Innovazione")
+        return list(dict.fromkeys(tags))[:4]
+
+    return df.apply(tags_for_row, axis=1)
+
+
+def match_for_families(
+    df: pd.DataFrame,
+    regione: Optional[str] = None,
+    provincia: Optional[str] = None,
+    school_types: Optional[List[str]] = None,
+    preferences: Optional[List[str]] = None,
+    top_n: int = 50,
+) -> pd.DataFrame:
+    working = df.copy()
+
+    if regione and "regione" in working.columns:
+        working = working[working["regione"] == regione]
+    if provincia and "provincia" in working.columns:
+        working = working[working["provincia"] == provincia]
+    if school_types:
+        def match_type(val: object) -> bool:
+            if pd.isna(val):
+                return False
+            current = [item.strip() for item in str(val).split(",") if item.strip()]
+            return not set(school_types).isdisjoint(set(current))
+
+        if "tipo_scuola" in working.columns:
+            working = working[working["tipo_scuola"].apply(match_type)]
+
+    if working.empty:
+        return working
+
+    preferences = preferences or []
+    scores = []
+    for pref in preferences:
+        weights = FAMILY_PREFERENCE_WEIGHTS.get(pref)
+        if not weights:
+            continue
+        scores.append(_score_preference(working, weights))
+
+    if scores:
+        combined = sum(scores) / len(scores)
+        working["compatibility_score"] = (combined * 100).round(1)
+    else:
+        if "ptof_orientamento_maturity_index" in working.columns:
+            base = _normalize_metric(working["ptof_orientamento_maturity_index"])
+            working["compatibility_score"] = (base * 100).round(1)
+        else:
+            working["compatibility_score"] = 0.0
+
+    working["strength_tags"] = _build_strength_tags(working)
+
+    working = working.sort_values(
+        by=["compatibility_score", "ptof_orientamento_maturity_index"],
+        ascending=[False, False],
+        na_position="last",
+    )
+
+    return working.head(top_n)

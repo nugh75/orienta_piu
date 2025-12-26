@@ -7,8 +7,11 @@ import plotly.graph_objects as go
 import os
 import json
 import glob
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | La Mia Scuola", page_icon="🧭", layout="wide")
+setup_page("pages/01_🏠_La_Mia_Scuola.py")
 
 # CSS
 st.markdown("""
@@ -447,5 +450,4 @@ if not peers_df.empty:
 for insight in insights:
     st.markdown(insight)
 
-st.markdown("---")
-st.caption("🏠 La Mia Scuola - Dashboard personalizzato | La selezione viene ricordata durante la sessione")
+render_footer()

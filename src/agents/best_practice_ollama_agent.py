@@ -231,7 +231,8 @@ class BestPracticeOllamaAgent:
     def __init__(self, analysis_dir=ANALYSIS_DIR, output_dir=OUTPUT_DIR,
                  ollama_url=OLLAMA_URL, model=OLLAMA_MODEL,
                  refactor_every=REFACTOR_EVERY, refactor_model=GEMINI_MODEL,
-                 fallback_model=OPENROUTER_FALLBACK_MODEL):
+                 fallback_model=OPENROUTER_FALLBACK_MODEL,
+                 use_ollama_synth=False):
         self.analysis_dir = analysis_dir
         self.output_dir = output_dir
         self.ollama_url = ollama_url
@@ -239,6 +240,9 @@ class BestPracticeOllamaAgent:
         self.current_report = ""
         self.processed_schools = set()
         self.schools_count = 0
+
+        # Flag per usare Ollama anche per sintesi
+        self.use_ollama_synth = use_ollama_synth
 
         # Gemini refactoring settings
         self.refactor_every = refactor_every
@@ -339,29 +343,50 @@ class BestPracticeOllamaAgent:
             with open(output_path, 'r', encoding='utf-8') as f:
                 self.current_report = f.read()
             print(f"📄 Report esistente caricato ({len(self.current_report)} caratteri)")
-        
-        # Carica lista scuole già elaborate
+
+        # Carica lista scuole già elaborate con timestamp
         if os.path.exists(PROGRESS_FILE):
             try:
                 with open(PROGRESS_FILE, 'r') as f:
                     data = json.load(f)
-                    self.processed_schools = set(data.get('processed', []))
+                    # Supporta sia vecchio formato (lista) che nuovo (dict con timestamp)
+                    processed_data = data.get('processed', [])
+                    if isinstance(processed_data, list):
+                        # Vecchio formato: converti a dict senza timestamp
+                        self.processed_schools = {sid: 0 for sid in processed_data}
+                    else:
+                        # Nuovo formato: dict con timestamp
+                        self.processed_schools = processed_data
                     print(f"📂 Scuole già elaborate: {len(self.processed_schools)}")
             except:
-                pass
-    
+                self.processed_schools = {}
+        else:
+            self.processed_schools = {}
+
     def save_progress(self):
-        """Salva il progresso."""
+        """Salva il progresso con timestamp."""
         os.makedirs(self.output_dir, exist_ok=True)
-        
-        # Salva checkpoint
+
+        # Salva checkpoint con timestamp
         with open(PROGRESS_FILE, 'w') as f:
-            json.dump({'processed': list(self.processed_schools)}, f)
-        
+            json.dump({'processed': self.processed_schools}, f, indent=2)
+
         # Salva report
         output_path = os.path.join(self.output_dir, OUTPUT_FILE)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(self.current_report)
+
+    def get_file_mtime(self, school_id):
+        """Ottiene il timestamp di modifica più recente tra JSON e MD."""
+        json_path = os.path.join(self.analysis_dir, f"{school_id}_PTOF_analysis.json")
+        md_path = os.path.join(self.analysis_dir, f"{school_id}_PTOF_analysis.md")
+
+        mtime = 0
+        if os.path.exists(json_path):
+            mtime = max(mtime, os.path.getmtime(json_path))
+        if os.path.exists(md_path):
+            mtime = max(mtime, os.path.getmtime(md_path))
+        return mtime
     
     def load_school_data(self, school_id):
         """Carica i dati di una scuola."""
@@ -909,7 +934,45 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
         cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
         return cleaned.strip()
 
-    def _call_llm_with_retry(self, prompt, validate_fn, stage_label):
+    def call_ollama_synth(self, prompt: str) -> str:
+        """Chiama Ollama API per sintesi (contesto più grande)."""
+        url = f"{self.ollama_url}/api/generate"
+
+        payload = {
+            "model": self.model,
+            "prompt": prompt,
+            "stream": False,
+            "options": {
+                "temperature": 0.2,
+                "num_ctx": 32768,  # Contesto più grande per sintesi
+                "num_predict": -1
+            }
+        }
+
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = requests.post(url, json=payload, timeout=600)  # Timeout più lungo
+
+                if response.status_code == 200:
+                    data = response.json()
+                    return data.get('response', '')
+                else:
+                    print(f"    ❌ Errore Ollama {response.status_code}")
+                    time.sleep(5)
+
+            except requests.exceptions.Timeout:
+                print(f"    ⚠️ Timeout (attempt {attempt+1}/{MAX_RETRIES})")
+                time.sleep(10)
+            except requests.exceptions.ConnectionError:
+                print(f"    ❌ Connessione fallita a {self.ollama_url}")
+                time.sleep(5)
+            except Exception as e:
+                print(f"    ❌ Errore: {e}")
+                time.sleep(5)
+
+        return ""
+
+    def _call_llm_with_retry(self, prompt, validate_fn, stage_label, use_ollama=False):
         """Chiama LLM con retry e fallback, senza avanzare finche non valida."""
         backoff = SYNTH_BACKOFF_START
         attempts = 0
@@ -921,37 +984,50 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
                 return None, attempts, "exit_requested", None
 
             response = None
-            if self.gemini_key:
-                success, response = call_gemini(prompt, self.refactor_model, self.gemini_key)
-                if success and response:
+
+            # Se use_ollama è True, usa solo Ollama
+            if use_ollama:
+                response = self.call_ollama_synth(prompt)
+                if response:
                     response = self._clean_llm_response(response)
                     if validate_fn(response):
-                        return response, attempts, "", "gemini"
-                    last_error = "gemini_invalid"
-                elif not success:
-                    last_error = "gemini_rate_limit"
+                        return response, attempts, "", "ollama"
+                    last_error = "ollama_invalid"
                 else:
-                    last_error = "gemini_error"
-
-            if self.openrouter_key:
+                    last_error = "ollama_error"
+            else:
+                # Usa Gemini/OpenRouter
                 if self.gemini_key:
-                    print(f"      -> {stage_label}: fallback OpenRouter ({self.fallback_model})")
-                success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
-                if success and response:
-                    response = self._clean_llm_response(response)
-                    if validate_fn(response):
-                        if self.gemini_key:
-                            print(f"      OK {stage_label}: fallback OpenRouter riuscito")
-                        return response, attempts, "", "openrouter"
-                    last_error = "openrouter_invalid"
-                elif not success:
-                    last_error = "openrouter_rate_limit"
-                else:
-                    last_error = "openrouter_error"
+                    success, response = call_gemini(prompt, self.refactor_model, self.gemini_key)
+                    if success and response:
+                        response = self._clean_llm_response(response)
+                        if validate_fn(response):
+                            return response, attempts, "", "gemini"
+                        last_error = "gemini_invalid"
+                    elif not success:
+                        last_error = "gemini_rate_limit"
+                    else:
+                        last_error = "gemini_error"
 
-            if not self.gemini_key and not self.openrouter_key:
-                print("❌ Nessuna chiave LLM configurata")
-                return None, attempts, "missing_keys", None
+                if self.openrouter_key:
+                    if self.gemini_key:
+                        print(f"      -> {stage_label}: fallback OpenRouter ({self.fallback_model})")
+                    success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
+                    if success and response:
+                        response = self._clean_llm_response(response)
+                        if validate_fn(response):
+                            if self.gemini_key:
+                                print(f"      OK {stage_label}: fallback OpenRouter riuscito")
+                            return response, attempts, "", "openrouter"
+                        last_error = "openrouter_invalid"
+                    elif not success:
+                        last_error = "openrouter_rate_limit"
+                    else:
+                        last_error = "openrouter_error"
+
+                if not self.gemini_key and not self.openrouter_key:
+                    print("❌ Nessuna chiave LLM configurata (usa --synth-ollama per usare Ollama)")
+                    return None, attempts, "missing_keys", None
 
             wait_time = min(backoff, SYNTH_BACKOFF_MAX)
             print(f"      ⚠️ {stage_label}: {last_error}. Ritento tra {wait_time}s")
@@ -1070,16 +1146,18 @@ Non includere commenti o spiegazioni."""
             print("⚠️ Report troppo corto per la sintesi completa")
             return False
 
-        if not self.gemini_key and not self.openrouter_key:
-            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
+        if not self.use_ollama_synth and not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - usa --synth-ollama per usare Ollama")
             return False
 
-        print(f"\n🔄 SINTESI COMPLETA REPORT ({self.refactor_model})...")
+        model_label = self.model if self.use_ollama_synth else self.refactor_model
+        print(f"\n🔄 SINTESI COMPLETA REPORT ({model_label})...")
         prompt = self.build_full_synth_prompt()
         response, attempts, last_error, provider = self._call_llm_with_retry(
             prompt,
             self._validate_full_synth_response,
-            "Sintesi completa"
+            "Sintesi completa",
+            use_ollama=self.use_ollama_synth
         )
 
         if response is None:
@@ -1110,8 +1188,8 @@ Non includere commenti o spiegazioni."""
 
     def do_section_refactor(self, synth_state=None):
         """Esegue la sintesi sezione per sezione e salva il report sintetico."""
-        if not self.gemini_key and not self.openrouter_key:
-            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
+        if not self.use_ollama_synth and not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - usa --synth-ollama per usare Ollama")
             return False
 
         if not self.current_report or len(self.current_report) < 1000:
@@ -1121,7 +1199,8 @@ Non includere commenti o spiegazioni."""
         synth_state = synth_state or self._load_synth_progress()
         synth_state.setdefault("sections", {})
 
-        print(f"\n🔄 CREAZIONE REPORT SINTETICO per sezioni ({self.refactor_model})...")
+        model_label = self.model if self.use_ollama_synth else self.refactor_model
+        print(f"\n🔄 CREAZIONE REPORT SINTETICO per sezioni ({model_label})...")
 
         sections = self.extract_sections(self.current_report)
         if not sections:
@@ -1177,7 +1256,8 @@ Non includere commenti o spiegazioni."""
             response, attempts, last_error, provider = self._call_llm_with_retry(
                 prompt,
                 lambda text, sn=section_name, sc=section_content: self._validate_section_response(sn, sc, text),
-                f"Sezione {section_name}"
+                f"Sezione {section_name}",
+                use_ollama=self.use_ollama_synth
             )
 
             if response is None:
@@ -1254,7 +1334,8 @@ Non includere commenti o spiegazioni."""
         response, attempts, last_error, provider = self._call_llm_with_retry(
             prompt,
             lambda text, sn=section_name, sc=section_content: self._validate_section_response(sn, sc, text),
-            f"Sezione {section_name}"
+            f"Sezione {section_name}",
+            use_ollama=self.use_ollama_synth
         )
         if response is None:
             return False
@@ -1292,21 +1373,47 @@ Non includere commenti o spiegazioni."""
 
         return True
 
+    def _check_narrativo_modified(self, synth_state):
+        """Controlla se il report narrativo è stato modificato dopo l'ultima sintesi."""
+        narrativo_path = os.path.join(self.output_dir, OUTPUT_FILE)
+        if not os.path.exists(narrativo_path):
+            return False
+
+        narrativo_mtime = os.path.getmtime(narrativo_path)
+        last_synth_time = synth_state.get("narrativo_mtime", 0)
+
+        if narrativo_mtime > last_synth_time:
+            return True
+        return False
+
     def run_synth(self):
         """Esegue sintesi completa e poi sintesi per capitoli."""
         if not self.current_report or len(self.current_report) < 1000:
             print("⚠️ Nessun report narrativo valido trovato. Esegui prima make best-practice-llm")
             return False
 
-        if not self.gemini_key and not self.openrouter_key:
-            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
+        if not self.use_ollama_synth and not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - usa --synth-ollama per usare Ollama")
             return False
 
         synth_state = self._load_synth_progress()
 
+        # Controlla se il report narrativo è stato modificato
+        narrativo_modified = self._check_narrativo_modified(synth_state)
+        if narrativo_modified:
+            print("🔄 Report narrativo modificato dall'ultima sintesi - ri-sintetizzo")
+            # Invalida il progresso
+            synth_state["full_synth_done"] = False
+            synth_state["sections"] = {}
+
         if not synth_state.get("full_synth_done"):
             if not self.do_full_synth(synth_state):
                 return False
+            # Salva il timestamp del report narrativo
+            narrativo_path = os.path.join(self.output_dir, OUTPUT_FILE)
+            if os.path.exists(narrativo_path):
+                synth_state["narrativo_mtime"] = os.path.getmtime(narrativo_path)
+                self._save_synth_progress(synth_state)
         else:
             full_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH_FULL)
             if os.path.exists(full_path):
@@ -1336,24 +1443,60 @@ Non includere commenti o spiegazioni."""
         return True
 
     def get_schools_to_process(self):
-        """Ottiene la lista delle scuole da processare (TUTTE le scuole)."""
+        """Ottiene la lista delle scuole da processare.
+
+        Include:
+        - Scuole mai processate (nuove)
+        - Scuole già processate ma i cui file sono stati modificati (revisionate)
+
+        Ordina per data di modifica file (più vecchi prima).
+        """
         json_files = glob.glob(os.path.join(self.analysis_dir, "*_PTOF_analysis.json"))
-        schools = []
-        
+        schools_new = []
+        schools_updated = []
+
         for f in json_files:
             school_id = os.path.basename(f).replace('_PTOF_analysis.json', '')
-            if school_id in self.processed_schools:
-                continue
-            
-            # Carica dati scuola (analizza TUTTE le scuole)
+
+            # Carica dati scuola
             data = self.load_school_data(school_id)
-            if data['json'] or data['md']:  # Basta che abbia almeno uno dei due
-                index = self.calculate_maturity_index(data['json']) if data['json'] else 0
-                schools.append((school_id, index, data))
-        
-        # Ordina per indice decrescente (scuole migliori prima, ma analizza tutte)
-        schools.sort(key=lambda x: x[1], reverse=True)
-        return schools
+            if not (data['json'] or data['md']):
+                continue
+
+            index = self.calculate_maturity_index(data['json']) if data['json'] else 0
+            file_mtime = self.get_file_mtime(school_id)
+
+            # Controlla se già processata
+            if school_id in self.processed_schools:
+                # Verifica se i file sono stati modificati dopo l'ultima analisi
+                last_processed = self.processed_schools.get(school_id, 0)
+
+                if file_mtime > last_processed:
+                    # File modificato dopo l'ultima analisi -> ri-analizza
+                    # Tupla: (school_id, index, data, is_recheck, file_mtime)
+                    schools_updated.append((school_id, index, data, True, file_mtime))
+            else:
+                # Mai processata -> nuova
+                schools_new.append((school_id, index, data, False, file_mtime))
+
+        # Ordina per data di modifica file (più vecchi prima = mtime crescente)
+        schools_new.sort(key=lambda x: x[4])  # x[4] = file_mtime
+        schools_updated.sort(key=lambda x: x[4])  # x[4] = file_mtime
+
+        # Log statistiche
+        if schools_updated:
+            print(f"🔄 Scuole da ri-analizzare (file modificati): {len(schools_updated)}")
+        if schools_new:
+            print(f"🆕 Scuole nuove da analizzare: {len(schools_new)}")
+
+        # Rimuovi file_mtime dalla tupla prima di restituire (compatibilità)
+        result = []
+        for s in schools_new:
+            result.append((s[0], s[1], s[2], s[3]))  # school_id, index, data, is_recheck
+        for s in schools_updated:
+            result.append((s[0], s[1], s[2], s[3]))
+
+        return result
     
     def run(self):
         """Esegue l'agente in modo incrementale (solo Ollama, senza refactoring Gemini)."""
@@ -1378,39 +1521,52 @@ Non includere commenti o spiegazioni."""
         print()
         
         if not schools:
-            print("✅ Tutte le scuole sono già state elaborate!")
+            print("✅ Tutte le scuole sono aggiornate, nessuna modifica rilevata!")
             return
-        
+
         processed_count = 0
-        for school_id, index, data in schools:
+        recheck_count = 0
+        for school_id, index, data, is_recheck in schools:
             if EXIT_REQUESTED:
                 break
-            
-            print(f"📖 [{processed_count+1}/{len(schools)}] {school_id} (indice: {index:.2f})")
-            
+
+            # Log con indicazione se è un recheck
+            if is_recheck:
+                recheck_count += 1
+                print(f"🔄 [{processed_count+1}/{len(schools)}] {school_id} (indice: {index:.2f}) - RECHECK (file modificato)")
+            else:
+                print(f"🆕 [{processed_count+1}/{len(schools)}] {school_id} (indice: {index:.2f})")
+
             # Estrai contenuto
             content = self.extract_school_content(data)
             if len(content) < 200:
                 print("    ⏭️ Contenuto insufficiente, skip")
-                self.processed_schools.add(school_id)
+                self.processed_schools[school_id] = time.time()
                 self.save_progress()  # Salva subito
                 continue
-            
+
             # Chiama Ollama
-            print("    🤖 Analisi con LLM...")
+            if is_recheck:
+                print("    🤖 Ri-analisi con LLM (file revisionato)...")
+            else:
+                print("    🤖 Analisi con LLM...")
             prompt = self.build_enrichment_prompt(content, len(self.processed_schools))
             response = self.call_ollama(prompt)
-            
+
             if response:
                 added = self.parse_and_integrate(response)
                 if added:
-                    print("    ✅ Report arricchito")
+                    if is_recheck:
+                        print("    ✅ Report aggiornato con nuove informazioni")
+                    else:
+                        print("    ✅ Report arricchito")
                 else:
                     print("    ⏭️ Nessun elemento nuovo")
             else:
                 print("    ⚠️ Nessuna risposta da Ollama")
-            
-            self.processed_schools.add(school_id)
+
+            # Salva timestamp corrente
+            self.processed_schools[school_id] = time.time()
             processed_count += 1
 
             # Salva SEMPRE dopo ogni scuola
@@ -1438,6 +1594,8 @@ Non includere commenti o spiegazioni."""
         print()
         print(f"📄 Report salvato in: {output_path}")
         print(f"✅ Elaborate {processed_count} scuole in questa sessione")
+        if recheck_count > 0:
+            print(f"   ↳ di cui {recheck_count} ri-analizzate (file revisionati)")
         print(f"📊 Totale scuole nel report: {len(self.processed_schools)}")
 
 
@@ -1458,7 +1616,9 @@ def main():
     parser.add_argument('--fallback-model', default=OPENROUTER_FALLBACK_MODEL,
                         help=f'Modello OpenRouter fallback (default: {OPENROUTER_FALLBACK_MODEL})')
     parser.add_argument('--synth', action='store_true',
-                        help='Genera solo il report sintetico dal report narrativo esistente')
+                        help='Genera report sintetico con Gemini/OpenRouter')
+    parser.add_argument('--synth-ollama', action='store_true',
+                        help='Genera report sintetico usando solo Ollama (no Gemini/OpenRouter)')
 
     args = parser.parse_args()
 
@@ -1471,6 +1631,9 @@ def main():
             os.remove(output_path)
         print("🔄 Reset completato")
 
+    # Determina se usare Ollama per la sintesi
+    use_ollama_synth = args.synth_ollama
+
     agent = BestPracticeOllamaAgent(
         analysis_dir=args.analysis_dir,
         output_dir=args.output_dir,
@@ -1478,12 +1641,14 @@ def main():
         model=args.model,
         refactor_every=args.refactor_every,
         refactor_model=args.refactor_model,
-        fallback_model=args.fallback_model
+        fallback_model=args.fallback_model,
+        use_ollama_synth=use_ollama_synth
     )
 
-    # Se richiesto solo report sintetico
-    if args.synth:
-        print("📝 Generazione Report Sintetico...")
+    # Se richiesto report sintetico (con Ollama o Gemini)
+    if args.synth or args.synth_ollama:
+        provider = "Ollama" if use_ollama_synth else "Gemini/OpenRouter"
+        print(f"📝 Generazione Report Sintetico con {provider}...")
         agent.load_progress()  # Carica il report esistente
         if agent.current_report:
             agent.run_synth()

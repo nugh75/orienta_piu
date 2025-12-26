@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 2,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si intitola 'Percorso Accoglienza-Continuità-Orientamento' e si sviluppa in tre fasi sequenziali: Accoglienza in ingresso, Continuità e Orientamento in uscita. Inc (Precedente: score=1, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:16:38.022575"
+      "ollama_review_date": "2025-12-24T23:55:51.960914"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -274,32 +274,20 @@
       }
     },
     {
-      "timestamp": "2025-12-24T23:56:42.156810",
-      "activity": "ollama_score_review",
+      "timestamp": "2025-12-24T23:57:36.414614",
+      "activity": "ollama_report_review",
       "model": "qwen3:32b",
       "status": "completed",
       "details": {
+        "action": "enrich",
         "chunks_analyzed": 12,
-        "extreme_scores_checked": 1,
-        "scores_modified": 1,
+        "enrichments_found": 15,
+        "corrections_found": 1,
         "orientamento_found": true,
-        "changes": [
-          {
-            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
-            "old": 1,
-            "new": 2,
-            "reason": "Il PTOF menziona l'orientamento in diverse sezioni, come la gestione della continuità verticale e l'"
-          }
-        ]
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
-    }
-  ],
-  "review_history": [
-    {
-      "timestamp": "2025-12-24T23:56:42.156830",
-      "reviewer": "ollama/qwen3:32b",
-      "type": "score_review",
-      "changes": 1
     }
   ]
 }

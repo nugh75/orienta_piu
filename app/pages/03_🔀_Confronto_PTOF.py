@@ -6,8 +6,11 @@ import plotly.graph_objects as go
 import os
 import json
 import glob
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Confronto PTOF", page_icon="🧭", layout="wide")
+setup_page("pages/03_🔀_Confronto_PTOF.py")
 
 # CSS
 st.markdown("""
@@ -520,5 +523,4 @@ with report_tab2:
     else:
         st.info("Report non disponibile per questa scuola")
 
-st.markdown("---")
-st.caption("🔀 Confronto PTOF - Analisi comparativa tra scuole | Seleziona due scuole per iniziare")
+render_footer()

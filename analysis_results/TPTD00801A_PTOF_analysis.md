@@ -1,53 +1,39 @@
-# Analisi del PTOF TPTD00801A
+# Analisi del PTOF TPTD00801A  
+## Report di Valutazione dell'Orientamento  
 
-## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale  
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Tecnico A.F.M.Amm. Finanza E Marketing, con codice TPTD00801A. Il documento evidenzia una visione articolata e proattiva, che coniuga tradizione e innovazione attraverso una rete di collaborazioni significative con enti locali, università e organizzazioni nazionali. L'orientamento emerge non solo come strumento per accompagnare gli studenti nel percorso formativo, ma come strategia per costruire un legame duraturo tra scuola, territorio e mondo del lavoro. Tra le iniziative più rilevanti, spiccano progetti come Velammare, Notte Nazionale Dei Licei e Vendemmia in Festa, che integrano la dimensione educativa con la valorizzazione della cultura locale e delle tradizioni siciliane.  
 
-### 1. Sintesi Generale
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all'Orientamento  
+La sezione dedicata all'orientamento si estende su diverse pagine del PTOF, con particolare attenzione all'orientamento in entrata e in uscita. Le attività descritte includono colloqui individuali, assemblee di classe, incontri divulgativi e l'utilizzo del registro elettronico per mantenere una comunicazione costante tra scuola e famiglia. Questo approccio mira a garantire una trasparenza totale e una collaborazione attiva tra le parti coinvolte, rafforzando il ruolo della famiglia come partner educativo.  
 
-Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Tecnico A.F.M.Amm. Finanza E Marketing** di Calatafimi-Segesta (TPTD00801A), relativo al triennio 2022-2025. La scuola, statale e di II grado, opera in un contesto territoriale non metropolitano dell'area geografica delle Isole, precisamente in Sicilia. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'offerta didattica orientativa e le attività registrate. Nel complesso, il PTOF dimostra un impegno verso l'orientamento, sebbene con margini di miglioramento in alcune aree specifiche.
+#### 2.2 Partnership e Reti  
+L'istituto ha attivato collaborazioni significative con enti e organizzazioni locali e nazionali, tra cui l'Associazione Velica LNI, l'Università di Palermo, l'ASP di Castellammare del Golfo, la rivista Egnews vino olio e peperoncino, il CONI e l'Ufficio Scolastico Provinciale. Queste partnership sono fondamentali per progetti come Velammare, Notte Nazionale Dei Licei e Vendemmia in Festa, che rafforzano il legame tra scuola, territorio e mondo del lavoro. Tra le collaborazioni più rilevanti, si segnala la partnership con il Gruppo di Coordinamento Provinciale e l'Ufficio Scolastico Provinciale, che garantisce un supporto istituzionale e una supervisione pedagogica costante.  
 
-### 2. Analisi Dimensionale
+#### 2.3 Finalità e Obiettivi  
+Le finalità dell'orientamento si articolano attorno allo sviluppo di competenze disciplinari e di cittadinanza, alla promozione della capacità di orientamento verso scelte universitarie o lavorative responsabili, e al favorire un collegamento stabile tra scuola, territorio e mondo del lavoro. Questi obiettivi sono concretizzati attraverso iniziative come il progetto "Orientamento e Sport", che mira a promuovere la crescita personale e sociale degli studenti attraverso l'attività sportiva. L'istituto si propone inoltre di ridurre l'abbandono scolastico e di incoraggiare il lifelong learning, anche se nel PTOF non sono presenti dettagli specifici sulle strategie per raggiungere questi obiettivi.  
 
-**2.1 Orientamento - Sezione Dedicata:**
+#### 2.4 Governance e Azioni di Sistema  
+Le azioni di sistema implementate dall'istituto includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Queste iniziative sono fondamentali per garantire un supporto continuo agli studenti e per migliorare la qualità dell'offerta formativa. Il Patto Educativo di Corresponsabilità, condiviso da docenti, studenti e genitori, rappresenta uno strumento di trasparenza e collaborazione per il buon funzionamento del processo educativo.  
 
-Il PTOF prevede una sezione dedicata all'orientamento, valutata con un punteggio di 5. Sebbene presente, la sezione non risulta particolarmente estesa, concentrandosi principalmente sull'orientamento in entrata e in uscita, con una descrizione dettagliata delle attività svolte.
+#### 2.5 Didattica Orientativa  
+La didattica orientativa dell'istituto si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Queste metodologie sono applicate in progetti come "Un Ponte ad Idrogeno", che mira a garantire una continuità del sapere scientifico tra scuola media e superiore attraverso attività laboratoriali. L'approccio esperienziale è ulteriormente rafforzato da iniziative come il progetto "Vendemmia in Festa", che permette agli studenti di vivere esperienze significative legate alla tradizione locale e alla vita agricola.  
 
-**2.2 Partnership:**
+#### 2.6 Opportunità Formative  
+L'offerta di opzionali dell'istituto include attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Queste iniziative, come il progetto "Vendemmia in Festa", permettono agli studenti di vivere esperienze significative legate alla tradizione locale e alla vita agricola. Tra le attività più innovative, si segnala il progetto "Orientamento e Sport", che unisce la dimensione educativa all'attività fisica per promuovere la crescita personale e sociale.  
 
-L'istituto ha sviluppato un network di **17 partner**, tra cui **imprese locali**, **associazioni culturali** e **sociali**, **organizzazioni del terzo settore**, **Enti Locali**, **Facoltà Universitarie**, **LNI**, **Aziende agricole**, **Università**, **Enti formativi**, **CONI**, **Rivista Egnews vino olio e peperoncino**, **ASP**, **Ufficio Scolastico Provinciale**, **Gruppo di Coordinamento Provinciale**, **neuropsichiatri** e **CIC**. Questa vasta rete di collaborazioni rappresenta un punto di forza significativo per l'orientamento e l'inserimento nel mondo del lavoro.
+#### 2.7 Registro Dettagliato delle Attività  
+Il registro elettronico ARGOScuola rappresenta uno strumento centrale per la comunicazione tra scuola e famiglia, permettendo ai genitori di monitorare in tempo reale le assenze e i ritardi dei propri figli. Questo sistema, insieme a colloqui individuali e assemblee di classe, garantisce una trasparenza totale e una collaborazione attiva tra le parti coinvolte.  
 
-**2.3 Finalità:**
+### 3. Punti di Forza  
+Tra i punti di forza del PTOF, emerge la capacità dell'istituto di costruire una rete di collaborazioni estremamente articolata, che include enti locali, università e organizzazioni nazionali. Queste partnership non solo arricchiscono l'offerta formativa, ma rafforzano il legame tra scuola e territorio, come dimostrano progetti come Velammare e Vendemmia in Festa. Un altro aspetto significativo è l'implementazione del Patto Educativo di Corresponsabilità, che rappresenta uno strumento di trasparenza e collaborazione per il buon funzionamento del processo educativo. Inoltre, l'istituto ha dimostrato una sensibilità particolare verso l'inclusione e il supporto alle fragilità, grazie a un sistema integrato di azioni di sistema che coinvolge docenti, studenti e famiglie.  
 
-Le finalità dell'orientamento sono orientate allo **sviluppo delle competenze di cittadinanza e disciplinari** (punteggio 4), allo **sviluppo delle capacità di orientamento** (punteggio 4), all'orientamento degli alunni verso una scelta universitaria o lavorativa responsabile (punteggio 3), al **collegamento stabile scuola-territorio-mondo del lavoro** (punteggio 4) e allo **sviluppo della capacità di orientarsi all’interno della società della conoscenza** (punteggio 4).
+### 4. Aree di Debolezza  
+Nonostante le numerose iniziative, il PTOF presenta alcune aree di debolezza. In primo luogo, la descrizione delle strategie per il monitoraggio e l'analisi dei risultati delle attività di orientamento è insufficientemente dettagliata, rendendo difficile valutare l'efficacia delle iniziative messe in atto. Inoltre, il documento non fornisce dati quantitativi sull'efficacia delle iniziative per ridurre l'abbandono scolastico, né specifica indicatori chiari per misurare il successo delle attività. Infine, il termine "NEET" non è esplicitamente menzionato nel PTOF, anche se si fa riferimento al "contrasto alla dispersione scolastica", rendendo necessario un approfondimento per chiarire le strategie adottate in questo ambito.  
 
-**2.4 Obiettivi:**
+### 5. Gap Analysis  
+Un gap significativo nel PTOF è la scarsa quantificazione delle ore dedicate alle attività di orientamento e la mancanza di un budget specifico assegnato a tali iniziative. Questo limita la capacità di pianificazione e valutazione delle attività, rendendo difficile monitorarne l'efficacia nel lungo termine. Inoltre, la descrizione delle collaborazioni con le università e le organizzazioni locali, pur essendo articolata, manca di dettagli specifici sulle strategie adottate per mantenere una continuità nel rapporto tra scuola e mondo del lavoro. Infine, il documento non include dati quantitativi sull'efficacia delle iniziative per ridurre l'abbandono scolastico, né specifica indicatori chiari per valutare il successo delle attività.  
 
-Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico (punteggio 6), la continuità territoriale (punteggio 5), il contrasto alla dispersione scolastica e al fenomeno NEET (punteggio 3) e la promozione del lifelong learning (punteggio 6).
-
-**2.5 Azioni di Sistema:**
-
-Le azioni di sistema implementate comprendono il coordinamento dei servizi (punteggio 5), il dialogo tra docenti e studenti (punteggio 4), il rapporto scuola-genitori (punteggio 5), il monitoraggio delle azioni (punteggio 4) e la creazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 5).
-
-**2.6 Didattica Orientativa:**
-
-La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 5), sull'utilizzo di laboratori (punteggio 4), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio interdisciplinare (punteggio 4).
-
-**2.7 Offerta di Opzionali:**
-
-L'offerta di opzionali include attività culturali (punteggio 4), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 3), di volontariato (punteggio 4) e sportive (punteggio 4).
-
-### 3. Punti di Forza
-
-I principali punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** attivate, nell'impegno verso la riduzione dell'abbandono scolastico e la promozione del lifelong learning, e nell'utilizzo di metodologie didattiche innovative basate sull'esperienza e sull'interdisciplinarità. L'attività di **screening DSA** per le classi prime rappresenta un'iniziativa proattiva per l'inclusione. Attività come **Velammare**, **Notte Nazionale Dei Licei** e **Vendemmia in Festa** dimostrano un forte legame con il territorio e la comunità locale.
-
-### 4. Aree di Debolezza
-
-L'area di debolezza principale risiede nella limitata estensione della sezione dedicata all'orientamento all'interno del PTOF. L'obiettivo di contrastare il fenomeno NEET, pur presente, risulta meno prioritario rispetto agli altri obiettivi.
-
-### 5. Gap Analysis
-
-Il divario principale riguarda la necessità di ampliare e approfondire la sezione dedicata all'orientamento, fornendo maggiori dettagli sulle strategie, le risorse e gli strumenti utilizzati per raggiungere gli obiettivi prefissati. È inoltre auspicabile un maggiore focus sulla prevenzione della dispersione scolastica e sull'inserimento lavorativo dei giovani.
-
-### 6. Conclusioni
-
-In conclusione, il PTOF dell'Istituto **Tecnico A.F.M.Amm. Finanza E Marketing** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta didattica diversificata. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per lo sviluppo di un sistema di orientamento efficace e in linea con le esigenze del territorio e del mondo del lavoro. L'implementazione di azioni mirate a colmare le lacune identificate consentirà di rafforzare ulteriormente l'impegno dell'istituto verso l'orientamento e la crescita professionale degli studenti.
+### 6. Conclusioni  
+Il PTOF dell'Istituto Tecnico A.F.M.Amm. Finanza E Marketing dimostra una visione articolata e proattiva, che coniuga tradizione e innovazione attraverso una rete di collaborazioni significative. Le iniziative messe in atto, come Velammare e Vendemmia in Festa, rappresentano esempi concreti di come l'orientamento possa diventare uno strumento per costruire un legame duraturo tra scuola, territorio e mondo del lavoro. Tuttavia, il documento presenta alcune aree di miglioramento, in particolare nella descrizione delle strategie per il monitoraggio e l'analisi dei risultati, nonché nella quantificazione delle risorse dedicate alle attività di orientamento. Per rendere il PTOF più efficace, è necessario approfondire la descrizione delle collaborazioni con le università e le organizzazioni locali, fornire dati quantitativi sull'efficacia delle iniziative e chiarire le strategie adottate per contrastare la dispersione scolastica.

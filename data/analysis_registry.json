@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-26T19:28:25.869913",
+  "last_updated": "2025-12-26T22:38:51.943968",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -460,9 +460,21 @@
             "report_enriched": true,
             "initial_issues": 0
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:37:41.151505",
+          "details": {
+            "chunks_analyzed": 9,
+            "extreme_scores_checked": 2,
+            "scores_modified": 0,
+            "orientamento_found": false
+          }
         }
       ],
-      "last_review": "2025-12-24T18:48:20.836987"
+      "last_review": "2025-12-26T22:37:41.151522"
     },
     "VE1M6Q5004": {
       "pdf_hash": "unknown",
@@ -787,7 +799,22 @@
       "analyzed_at": "2025-12-24T23:19:09.548436",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LOTD01050C_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LOTD01050C_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LOTD01050C_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:33:34.621689",
+          "details": {
+            "chunks_analyzed": 3,
+            "extreme_scores_checked": 9,
+            "scores_modified": 0,
+            "orientamento_found": false
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:33:34.621700"
     },
     "CAEE8AN02D": {
       "pdf_hash": "sha256:5b218833c2de7a29c1896ee1120be4b519dc43b470f3c6219afa5d8910f55b66",
@@ -1016,7 +1043,22 @@
       "analyzed_at": "2025-12-25T08:12:01.365102",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TV1A24500D_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TV1A24500D_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TV1A24500D_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:35:12.852167",
+          "details": {
+            "chunks_analyzed": 5,
+            "extreme_scores_checked": 7,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:35:12.852183"
     },
     "RE1E006009": {
       "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
@@ -1407,7 +1449,22 @@
       "analyzed_at": "2025-12-25T12:36:00.714144",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMIC8AP00T_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMIC8AP00T_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMIC8AP00T_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:35:47.230068",
+          "details": {
+            "chunks_analyzed": 2,
+            "extreme_scores_checked": 4,
+            "scores_modified": 4,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:35:47.230090"
     },
     "NOSL010001": {
       "pdf_hash": "sha256:c745014c5ca70e280032d4cfc20c99f505f81ce1d5d253b6a3d3ea10e9134e4f",
@@ -1642,9 +1699,37 @@
             "scores_updated": 14,
             "scores_total": 14
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:16:14.390813",
+          "details": {
+            "chunks_analyzed": 1,
+            "extreme_scores_checked": 14,
+            "scores_modified": 0,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:20:34.355406",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 1,
+            "enrichments_found": 1,
+            "corrections_found": 1,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
         }
       ],
-      "last_review": "2025-12-26T15:02:31.546523"
+      "last_review": "2025-12-26T20:20:34.355412"
     },
     "TO1AFN500B": {
       "pdf_hash": "sha256:55c12e25a091323052c44e31595395d9c5c2e07b07d8f88dad4e17b415008291",
@@ -1890,7 +1975,22 @@
       "analyzed_at": "2025-12-25T17:33:07.023691",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/LT1E00400C_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LT1E00400C_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/LT1E00400C_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:25:26.889711",
+          "details": {
+            "chunks_analyzed": 4,
+            "extreme_scores_checked": 6,
+            "scores_modified": 0,
+            "orientamento_found": false
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:25:26.889724"
     },
     "SA1M012007": {
       "pdf_hash": "sha256:439b1ca5819761d4cd4bd4056436f7d3b448e341f2461d86996ba367a302172e",
@@ -2112,9 +2212,19 @@
             "scores_updated": 1,
             "scores_total": 1
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:19:35.180917",
+          "details": {
+            "note": "Nessuno score estremo da revisionare",
+            "orientamento_issue": false
+          }
         }
       ],
-      "last_review": "2025-12-26T15:08:49.737181"
+      "last_review": "2025-12-26T20:19:35.180928"
     },
     "PARA014021": {
       "pdf_hash": "sha256:a8b73f108a590747761e7b28f6f59bc0a232b9fa8258b277345453fc37b4d302",
@@ -2188,9 +2298,53 @@
             "scores_updated": 5,
             "scores_total": 5
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:19:33.150843",
+          "details": {
+            "chunks_analyzed": 4,
+            "extreme_scores_checked": 4,
+            "scores_modified": 2,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:29:38.486225",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 4,
+            "enrichments_found": 3,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:30:47.840031",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 4,
+            "enrichments_found": 10,
+            "corrections_found": 3,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-26T15:06:53.672253"
+      "last_review": "2025-12-26T20:30:47.840039"
     },
     "TOEE8A5017": {
       "pdf_hash": "sha256:8769e18c56a54b01bd58cd71b3c2500fd0ff1d252961688a23d9dbe503e07e0b",
@@ -2475,9 +2629,53 @@
             "scores_updated": 6,
             "scores_total": 6
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:17:36.492002",
+          "details": {
+            "chunks_analyzed": 5,
+            "extreme_scores_checked": 4,
+            "scores_modified": 3,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:24:48.414019",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 5,
+            "enrichments_found": 11,
+            "corrections_found": 5,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:25:48.530186",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 5,
+            "enrichments_found": 13,
+            "corrections_found": 5,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
         }
       ],
-      "last_review": "2025-12-26T15:04:51.359887"
+      "last_review": "2025-12-26T20:25:48.530194"
     },
     "ORMM810018": {
       "pdf_hash": "sha256:aa7c6c5145cbf1f256f35ded8668593b4a780ed4e10f1e8da2643f369d2ddb6c",
@@ -2587,9 +2785,53 @@
             "scores_updated": 3,
             "scores_total": 3
           }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:15:15.522744",
+          "details": {
+            "chunks_analyzed": 9,
+            "extreme_scores_checked": 3,
+            "scores_modified": 3,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:16:06.861770",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 8,
+            "enrichments_found": 8,
+            "corrections_found": 3,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:19:23.297195",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 8,
+            "enrichments_found": 10,
+            "corrections_found": 6,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
         }
       ],
-      "last_review": "2025-12-26T15:00:17.380075"
+      "last_review": "2025-12-26T20:19:23.297210"
     },
     "ARTD008012": {
       "pdf_hash": "sha256:e2a461e2a839b96e784224f70aafa635389cb178f958fffe6aebca889fcaf50e",
@@ -2718,7 +2960,26 @@
       "analyzed_at": "2025-12-26T04:53:14.129521",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MI1M08000T_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MI1M08000T_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MI1M08000T_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:38:51.943844",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 27,
+            "enrichments_found": 28,
+            "corrections_found": 18,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:38:51.943859"
     },
     "CTMM01300C": {
       "pdf_hash": "sha256:52a591c2afd592ccdbe4a57a49c7bfd6965ef7e007fbd043717790ed78863b72",
@@ -3336,7 +3597,22 @@
       "analyzed_at": "2025-12-26T16:41:38.084139",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TO1A084002_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TO1A084002_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TO1A084002_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T22:24:20.731859",
+          "details": {
+            "chunks_analyzed": 3,
+            "extreme_scores_checked": 8,
+            "scores_modified": 8,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T22:24:20.731884"
     },
     "VEMM87301E": {
       "pdf_hash": "sha256:6ca4531b00e81aa1f357c1ae05c7ecd9aa06423402c93a53b5aabd2e05119e5f",
@@ -3517,6 +3793,107 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BNPS01301P_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BNPS01301P_ptof.md"
+    },
+    "AVEE81805N": {
+      "pdf_hash": "unknown",
+      "pdf_name": "AVEE81805N_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:27:27.673186",
+          "details": {
+            "chunks_analyzed": 10,
+            "extreme_scores_checked": 3,
+            "scores_modified": 3,
+            "orientamento_found": true
+          }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:31:09.210985",
+          "details": {
+            "chunks_analyzed": 10,
+            "extreme_scores_checked": 3,
+            "scores_modified": 2,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T20:31:09.211006"
+    },
+    "AVEE87401T": {
+      "pdf_hash": "unknown",
+      "pdf_name": "AVEE87401T_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:27:29.709617",
+          "details": {
+            "note": "Nessuno score estremo da revisionare",
+            "orientamento_issue": true
+          }
+        },
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:31:11.238136",
+          "details": {
+            "note": "Nessuno score estremo da revisionare",
+            "orientamento_issue": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T20:31:11.238161"
+    },
+    "LTRA01650V": {
+      "pdf_hash": "unknown",
+      "pdf_name": "LTRA01650V_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-26T20:50:58.201444",
+          "details": {
+            "chunks_analyzed": 10,
+            "extreme_scores_checked": 2,
+            "scores_modified": 2,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T20:50:58.201495"
+    },
+    "TO1M00900B": {
+      "pdf_hash": "sha256:1d3b08fc2511f58c27aad4ffb45a01f69e6aaf2a8629c3e84789e7b040c79b29",
+      "pdf_name": "TO1M00900B_PTOF.pdf",
+      "pdf_size": 677441,
+      "analyzed_at": "2025-12-26T21:58:58.920685",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TO1M00900B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TO1M00900B_ptof.md"
+    },
+    "POMM81301X": {
+      "pdf_hash": "sha256:3a40c53cc6b8a7dc337fb44b3015b9cb99660298c34f7950f33828635c351715",
+      "pdf_name": "POMM81301X_PTOF.pdf",
+      "pdf_size": 1986593,
+      "analyzed_at": "2025-12-26T22:24:00.987610",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/POMM81301X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/POMM81301X_ptof.md"
     }
   }
 }

@@ -9,9 +9,11 @@ import numpy as np
 import os
 from io import BytesIO
 from scipy import stats
-from app.data_utils import normalize_statale_paritaria
+from app.data_utils import normalize_statale_paritaria, render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Analisi Territoriale", page_icon="🧭", layout="wide")
+setup_page("pages/04_🗺️_Analisi_Territoriale.py")
 
 # Custom CSS
 st.markdown("""
@@ -2714,6 +2716,4 @@ CONFRONTO CON MEDIA NAZIONALE
     st.markdown("---")
     st.caption("📊 Report Regionali - Dashboard PTOF | Generazione report per Uffici Scolastici Regionali")
 
-# Footer
-st.markdown("---")
-st.caption("🗺️ Analisi Territoriale - Dashboard PTOF | Mappa Italia, Confronti Gruppi e Report Regionali")
+render_footer()

@@ -97,7 +97,7 @@
         "score": 4
       },
       "didattica_flessibilita_spazi_tempi": {
-        "score": 6
+        "score": 4
       },
       "didattica_interdisciplinare": {
         "score": 4
@@ -128,7 +128,7 @@
       "evidence_location": "Pag. 15"
     },
     "valutazione_educazione_civica": {
-      "score": 2,
+      "score": 4,
       "evidence_quote": "promozione della cittadinanza responsabile",
       "evidence_location": "N/A"
     },
@@ -138,7 +138,7 @@
       "evidence_location": "N/A"
     },
     "valutazione_lead": {
-      "score": 1,
+      "score": 2,
       "evidence_quote": "protocollo LEAD",
       "evidence_location": "N/A"
     }
@@ -190,6 +190,46 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:29:14.177720",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 3,
+        "extreme_scores_checked": 11,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_flessibilita_spazi_tempi.score",
+            "old": 6,
+            "new": 4,
+            "reason": "Il testo menziona la flessibilità negli spazi e tempi, ma non fornisce dettagli specifici su come ve"
+          },
+          {
+            "path": "orientamento.valutazione_educazione_civica.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il testo menziona esplicitamente la promozione della cittadinanza responsabile come parte della valu"
+          },
+          {
+            "path": "orientamento.valutazione_lead.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il testo menziona il protocollo LEAD e le attività a distanza, che rappresentano un'attività concret"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T00:29:14.177746",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
     }
   ]
 }

@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "school_id": "TO1M00900B",
+    "denominazione": "Don Bosco",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Cumiana",
+    "anno_ptof": "2025/2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Borgata Cascine Nuove 2",
+    "cap": "10040",
+    "email": "segreteria@donboscocumiana.it",
+    "pec": "cumiana@pec.salesianipiemonte.it",
+    "website": "www.donboscocumiana.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione dedicata all'orientamento è ben definita, con obiettivi e azioni specifiche. Tuttavia, manca una descrizione dettagliata del monitoraggio e della valutazione delle attività."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università del Piemonte Orientale",
+        "Consorzio Istruzione Formazione",
+        "Aziende del territorio",
+        "Centri di Formazione Professionale"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "valorizzare le attitudini e i talenti degli studenti",
+        "evidence_location": "Pagina 14"
+      },
+      "finalita_interessi": {
+        "score": 6,
+        "evidence_quote": "favorire la conoscenza dei propri interessi e delle proprie aspirazioni",
+        "evidence_location": "Pagina 14"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "orientare gli studenti nella costruzione del proprio progetto di vita",
+        "evidence_location": "Pagina 14"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "facilitare le transizioni formative verso l’istruzione superiore e il mondo del lavoro",
+        "evidence_location": "Pagina 14"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "sviluppare le capacità di orientamento e di individuazione delle opportunità formative e professionali",
+        "evidence_location": "Pagina 14"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di formazione in azienda per acquisire competenze pratiche.",
+      "5w_chi": "Tutti gli studenti del triennio",
+      "5w_cosa": "Esperienze lavorative in aziende del settore",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante il triennio, 90 ore minime",
+      "5w_perche": "Acquisire competenze professionali e orientarsi verso il mondo del lavoro",
+      "ore_dichiarate": "90+",
+      "target": "Studenti III, IV, V anno",
+      "evidence_quote": "PCTO",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate presso aziende del territorio.",
+      "5w_chi": "Studenti del biennio",
+      "5w_cosa": "Conoscere da vicino le realtà lavorative",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Orientare gli studenti verso le professioni",
+      "ore_dichiarate": "ND",
+      "target": "Studenti I, II anno",
+      "evidence_quote": "Visite aziendali",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti del settore.",
+      "5w_chi": "Studenti del triennio",
+      "5w_cosa": "Ascoltare testimonianze dirette e ricevere consigli",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Orientare gli studenti verso le professioni",
+      "ore_dichiarate": "ND",
+      "target": "Studenti III, IV, V anno",
+      "evidence_quote": "Incontri con professionisti",
+      "evidence_location": "Pagina 15"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TO1M00900B\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Tecnico Superiore dimostra un buon livello di maturità nell'ambito dell'orientamento, con una sezione dedicata e azioni concrete volte a supportare gli studenti nella costruzione del loro progetto di vita e nella transizione verso l'istruzione superiore e il mondo del lavoro. L'attenzione alla partnership con il territorio e alle esigenze del contesto locale è un punto di forza significativo.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nLa presenza di una sezione dedicata all'orientamento, sebbene ben strutturata, necessiterebbe di una maggiore attenzione al monitoraggio e alla valutazione delle azioni intraprese per misurarne l'efficacia e apportare eventuali correzioni.\n\n#### 2.2 Partnership e Reti\nL'istituto ha sviluppato una rete di partnership con importanti attori del territorio, tra cui l'**Università del Piemonte Orientale**, il **Consorzio Istruzione Formazione**, **aziende** locali e **centri di formazione professionale**. Queste collaborazioni offrono agli studenti opportunità di stage, visite aziendali e incontri con professionisti.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono ben definite e allineate alle Linee Guida nazionali. L'istituto mira a valorizzare le **attitudini** e gli **interessi** degli studenti, a favorire la costruzione del loro **progetto di vita**, a facilitare le **transizioni formative** e a sviluppare le loro **capacità orientative** per individuare le opportunità formative e professionali.\n\n#### 2.4 Governance e Azioni di Sistema\nIl coordinamento dei servizi di orientamento, il dialogo tra docenti e studenti, il rapporto con le famiglie e il monitoraggio delle azioni sono elementi chiave per garantire l'efficacia dell'orientamento. L'istituto dimostra una buona attenzione a questi aspetti, ma potrebbe rafforzare il sistema integrato di inclusione e supporto alla fragilità.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali e sull'interdisciplinarità. L'istituto potrebbe esplorare ulteriormente la flessibilità degli spazi e dei tempi per favorire un apprendimento più personalizzato.\n\n#### 2.6 Opportunità Formative\nL'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. Questo permette agli studenti di esplorare i propri interessi e di sviluppare le proprie passioni.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 PCTO\nIl **PCTO** rappresenta un'attività fondamentale per l'orientamento degli studenti del triennio. Attraverso periodi di formazione in **azienda**, gli studenti acquisiscono **competenze pratiche** e si avvicinano al mondo del lavoro. L'attività si svolge presso **aziende del territorio** durante il triennio, con un impegno minimo di 90 ore. L'obiettivo è fornire agli studenti un'esperienza diretta e concreta che li aiuti a orientarsi verso le professioni.\n\n#### 2.7.2 Visite aziendali\nLe **visite aziendali**, rivolte agli studenti del biennio, offrono l'opportunità di conoscere da vicino le realtà lavorative e di scoprire le diverse professioni. L'attività si svolge presso **aziende del territorio** durante l'anno scolastico. L'obiettivo è stimolare l'interesse degli studenti verso il mondo del lavoro e fornire loro informazioni utili per le future scelte.\n\n#### 2.7.3 Incontri con professionisti\nGli **incontri con professionisti**, rivolti agli studenti del triennio, permettono di ascoltare testimonianze dirette e di ricevere consigli da esperti del settore. L'attività si svolge a **scuola** durante l'anno scolastico. L'obiettivo è orientare gli studenti verso le professioni e fornire loro informazioni utili per la scelta del percorso di studi.\n\n### 3. Punti di Forza\nLa presenza di una sezione dedicata all'orientamento, la rete di partnership con il territorio, l'attenzione alle finalità e agli obiettivi, la didattica orientativa basata sull'esperienza e l'offerta di attività opzionali sono i principali punti di forza del PTOF.\n\n### 4. Aree di Debolezza\nLa mancanza di un sistema di monitoraggio e valutazione delle azioni di orientamento e la scarsa flessibilità degli spazi e dei tempi sono le principali aree di debolezza.\n\n### 5. Gap Analysis\nÈ necessario rafforzare il sistema di monitoraggio e valutazione delle azioni di orientamento, aumentare la flessibilità degli spazi e dei tempi e promuovere l'integrazione dell'orientamento nelle attività didattiche.\n\n### 6. Conclusioni\nIl PTOF dell'Istituto Tecnico Superiore presenta un approccio maturo e strutturato all'orientamento, con azioni concrete e partnership significative. L'istituto dimostra un impegno costante nel supportare gli studenti nella costruzione del loro progetto di vita e nella transizione verso l'istruzione superiore e il mondo del lavoro."
+}

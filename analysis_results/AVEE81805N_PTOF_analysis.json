@@ -65,7 +65,7 @@
         "evidence_location": "Pagina 98"
       },
       "finalita_capacita_orientative_opportunita": {
-        "score": 2,
+        "score": 3,
         "evidence_quote": "Definizione di un sistema di orientamento",
         "evidence_location": "Pagina 94, 97, 98"
       }
@@ -98,7 +98,7 @@
         "score": 4
       },
       "azione_sistema_integrato_inclusione_fragilita": {
-        "score": 2
+        "score": 3
       }
     },
     "2_6_didattica_orientativa": {
@@ -407,11 +407,59 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-26T20:31:09.199555",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 10,
+        "extreme_scores_checked": 3,
+        "scores_modified": 2,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_capacita_orientative_opportunita.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona 'Definizione di un sistema di orientamento' nelle pagine 94, 97, 98, indicando un "
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_sistema_integrato_inclusione_fragilita.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo mostra attività concrete per l'inclusione, suggerendo un livello limitato ma presente."
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T21:02:32.815278",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 10,
+        "enrichments_found": 19,
+        "corrections_found": 3,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
     {
       "timestamp": "2025-12-24T23:52:18.895217",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 2
+    },
+    {
+      "timestamp": "2025-12-26T20:31:09.199575",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 2

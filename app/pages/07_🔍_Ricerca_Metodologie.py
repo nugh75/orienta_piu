@@ -8,8 +8,11 @@ import os
 import glob
 import re
 from collections import Counter
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Ricerca Metodologie", page_icon="🧭", layout="wide")
+setup_page("pages/07_🔍_Ricerca_Metodologie.py")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
@@ -440,4 +443,4 @@ with st.expander("📖 Glossario delle Metodologie", expanded=False):
             st.markdown(f"- **{method}**: {desc}")
         st.markdown("")
 
-st.caption("🧭 ORIENTA+ | Ricerca Metodologie")
+render_footer()

@@ -1,53 +1,43 @@
-# Analisi del PTOF NUEE86703Q
+# Analisi del PTOF NUEE86703Q  
+## Report di Valutazione dell'Orientamento  
 
-## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale  
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 della scuola primaria **Macomer 2 - Padru E Lampadas** (NUEE86703Q). L'istituto, situato in Sardegna e di tipo statale, non presenta una sezione specificamente dedicata all'orientamento, ma integra attività e progetti in altre aree del PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sulla descrizione delle attività registrate, con l'obiettivo di identificare punti di forza, aree di debolezza e possibili gap. La scuola dimostra un impegno nella costruzione di una rete di **partnership** ampia e diversificata, coinvolgendo **enti locali**, **associazioni**, **cooperative**, **CPIA di Nuoro** e numerosi altri soggetti del territorio.  
 
-### 1. Sintesi Generale
+L'Animatore Digitale e il Team Digitale svolgono un ruolo chiave nella diffusione dell'innovazione digitale e nella formazione del personale scolastico, come evidenziato nel PTOF. Questo aspetto, unito alla collaborazione con enti esterni, contribuisce a creare un ambiente formativo dinamico e connesso alle esigenze del contesto locale e globale.  
 
-Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 della scuola primaria **Macomer 2 - Padru E Lampadas** (NUEE86703Q). L'istituto, situato in Sardegna e di tipo statale, non presenta una sezione specificamente dedicata all'orientamento, ma integra attività e progetti in altre aree del PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sulla descrizione delle attività registrate, con l'obiettivo di identificare punti di forza, aree di debolezza e possibili gap. La scuola dimostra un impegno nella costruzione di una rete di **partnership** ampia e diversificata, coinvolgendo **enti locali**, **associazioni**, **cooperative**, **CPIA di Nuoro** e numerosi altri soggetti del territorio.
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all'Orientamento  
+Nel PTOF non è presente una sezione specifica dedicata all'orientamento, come confermato dall'assenza di riferimenti espliciti in questa area. Tuttavia, le attività di orientamento sono integrate in progetti come i **Percorsi di conoscenza del territorio**, l'**Alfabetizzazione alunni NAI** e **Tutti a Iscol@**, che potrebbero contribuire all'orientamento degli studenti. Questo approccio, pur non strutturato in un capitolo autonomo, dimostra una sensibilità all'importanza dell'orientamento come elemento trasversale alla didattica e alla formazione.  
 
-### 2. Analisi Dimensionale
+#### 2.2 Partnership e Reti  
+La scuola vanta un elevato numero di **partnership** (24), dimostrando una forte capacità di collaborare con il territorio e di coinvolgere diversi attori nella realizzazione delle proprie attività. Tra i partner figurano **imprese**, **organizzazioni del terzo settore**, **istituzioni scolastiche** e **enti pubblici**. La collaborazione con il **CPIA di Nuoro** si distingue per la sua rilevanza: permette agli studenti di accedere a percorsi di istruzione e formazione tecnica superiore (PIF), favorendo una transizione fluida verso il mondo del lavoro e rafforzando la continuità tra scuola secondaria e formazione professionale. Questo partenariato, citato alle pagine 100-102 del PTOF, rappresenta un'importante opportunità per gli studenti di esplorare opzioni di studio e lavoro avanzate.  
 
-**2.1 Orientamento - Sezione Dedicata:**
+#### 2.3 Finalità e Obiettivi  
+Le finalità dell'orientamento, come definite nel PTOF, si concentrano sull'acquisizione di consapevlosità delle proprie **attitudini**, **interessi** e capacità, sulla definizione del **progetto di vita** in modo autonomo e responsabile, e sulla conoscenza dei possibili percorsi di studio e delle opportunità lavorative. I punteggi ottenuti (tra 4 e 5) suggeriscono un buon livello di chiarezza e coerenza in questo ambito. Gli obiettivi specifici includono la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. I punteggi variano (da 2 a 5), indicando una maggiore attenzione verso alcuni obiettivi rispetto ad altri. Tuttavia, nel PTOF non sono presenti informazioni specifiche su azioni mirate al contrasto dei NEET, rendendo difficile valutare l'efficacia di questa componente.  
 
-L'assenza di una sezione dedicata all'orientamento, con un punteggio di 6, indica che l'istituto non ha formalizzato un approccio strutturato e specifico per questa area. Tuttavia, le attività di orientamento sono integrate in altre iniziative, come evidenziato alle pagine 100-102 del PTOF.
+#### 2.4 Governance e Azioni di Sistema  
+Le azioni di sistema previste per l'orientamento riguardano il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione di interventi di inclusione e supporto alla fragilità. I punteggi ottenuti (tra 2 e 5) suggeriscono la necessità di rafforzare alcune di queste azioni, in particolare il monitoraggio. La mancanza di un sistema di valutazione strutturato potrebbe limitare la capacità dell'istituto di verificare l'impatto delle sue iniziative.  
 
-**2.2 Partnership:**
+#### 2.5 Didattica Orientativa  
+La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. I punteggi ottenuti (tra 3 e 6) indicano un buon livello di attenzione a questi aspetti, con particolare enfasi sull'interdisciplinarità. L'approccio laboratoriale e l'integrazione di competenze trasversali, come evidenziato in progetti come **Cittadini connessi. La rete siamo noi**, dimostrano un impegno verso una didattica inclusiva e partecipativa.  
 
-La scuola vanta un elevato numero di **partnership** (24), dimostrando una forte capacità di collaborare con il territorio e di coinvolgere diversi attori nella realizzazione delle proprie attività. Tra i partner figurano **imprese**, **organizzazioni del terzo settore**, **istituzioni scolastiche** e **enti pubblici**.
+#### 2.6 Opportunità Formative  
+L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. I punteggi ottenuti (tra 3 e 5) suggeriscono una buona varietà di proposte, ma anche la possibilità di ampliare l'offerta in alcune aree. Progetti come **Letture che stimolino la riflessione su sé stessi**, **Incontri con esperti**, **Il fascino degli scacchi** e **Piccoli programmatori crescono** rappresentano esempi di iniziative positive che contribuiscono allo sviluppo delle competenze orientative degli studenti.  
 
-**2.3 Finalità:**
+#### 2.7 Registro Dettagliato delle Attività  
+Le attività registrate nel PTOF, come i **Percorsi di conoscenza del territorio**, l'**Alfabetizzazione alunni NAI** e **Tutti a Iscol@**, dimostrano un impegno concreto verso l'inclusione e la valorizzazione del contesto locale. L'attività **Cittadini connessi. La rete siamo noi** evidenzia l'attenzione alla formazione digitale, mentre le uscite didattiche a **Laconi** e **Sassari** rappresentano un valido strumento per l'orientamento culturale e professionale.  
 
-Le finalità dell'orientamento, come definite nel PTOF, si concentrano sull'acquisizione di consapevolezza delle proprie **attitudini**, **interessi** e capacità, sulla definizione del **progetto di vita** in modo autonomo e responsabile, e sulla conoscenza dei possibili percorsi di studio e delle opportunità lavorative. I punteggi ottenuti (tra 4 e 5) suggeriscono un buon livello di chiarezza e coerenza in questo ambito.
+### 3. Punti di Forza  
+I principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** con il territorio, la chiarezza delle finalità e l'attenzione alla didattica esperienziale e interdisciplinare. La collaborazione con il **CPIA di Nuoro** si distingue per la sua rilevanza: permette di offrire percorsi di istruzione e formazione tecnica superiore (PIF) e di alfabetizzazione per alunni stranieri, come evidenziato nel progetto **Alfabetizzazione alunni NAI**. Questo dimostra un impegno concreto verso l'inclusione e l'accesso all'istruzione per tutti. Inoltre, il partenariato con il CPIA facilita la continuità formativa tra scuola secondaria di primo grado e secondaria di secondo grado, un aspetto fondamentale per supportare gli studenti nella scelta del percorso formativo successivo.  
 
-**2.4 Obiettivi:**
+Un ulteriore punto di forza è la capacità di integrare l'orientamento in progetti trasversali, come i **Percorsi di conoscenza del territorio**, che combinano apprendimento esperienziale e sensibilizzazione alle opportunità locali. L'attenzione alla formazione digitale, grazie all'Animatore Digitale e al Team Digitale, rappresenta un altro elemento distintivo, in linea con le esigenze della società contemporanea.  
 
-Gli obiettivi specifici dell'orientamento includono la riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. I punteggi variano (da 2 a 5), indicando una maggiore attenzione verso alcuni obiettivi rispetto ad altri.
+### 4. Aree di Debolezza  
+L'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza, in quanto potrebbe limitare la capacità dell'istituto di sviluppare un approccio strategico e coerente in questo ambito. Il punteggio relativamente basso sull'obiettivo di contrastare i **NEET** suggerisce la necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo. Il monitoraggio delle azioni di orientamento appare insufficiente, con una mancanza di indicatori chiari per valutare l'efficacia delle iniziative.  
 
-**2.5 Azioni di Sistema:**
+### 5. Gap Analysis  
+Il gap principale risiede nella mancanza di una pianificazione specifica e strutturata per l'orientamento. Sebbene le attività siano integrate in altre aree del PTOF, sarebbe opportuno definire obiettivi, azioni e indicatori specifici per l'orientamento, al fine di monitorarne l'efficacia e di garantire la continuità nel tempo. Inoltre, l'offerta di attività opzionali e facoltative potrebbe essere ampliata per coprire aree meno rappresentate, come quelle legate alla formazione professionale e al mondo del lavoro.  
 
-Le azioni di sistema previste per l'orientamento riguardano il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione di interventi di inclusione e supporto alla fragilità. I punteggi ottenuti (tra 2 e 5) suggeriscono la necessità di rafforzare alcune di queste azioni, in particolare il monitoraggio.
-
-**2.6 Didattica Orientativa:**
-
-La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. I punteggi ottenuti (tra 3 e 6) indicano un buon livello di attenzione a questi aspetti, con particolare enfasi sull'interdisciplinarità.
-
-**2.7 Opzionali e Facoltative:**
-
-L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. I punteggi ottenuti (tra 3 e 5) suggeriscono una buona varietà di proposte, ma anche la possibilità di ampliare l'offerta in alcune aree.
-
-### 3. Punti di Forza
-
-I principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** con il territorio, la chiarezza delle finalità e l'attenzione alla didattica esperienziale e interdisciplinare. Le attività registrate, come i **Percorsi di conoscenza del territorio**, l'**Alfabetizzazione alunni NAI** e **Tutti a Iscol@**, dimostrano un impegno concreto verso l'inclusione e la valorizzazione del contesto locale. L'attività **Cittadini connessi. La rete siamo noi** evidenzia l'attenzione alla formazione digitale.
-
-### 4. Aree di Debolezza
-
-L'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza, in quanto potrebbe limitare la capacità dell'istituto di sviluppare un approccio strategico e coerente in questo ambito. Il punteggio relativamente basso sull'obiettivo di contrastare i **NEET** suggerisce la necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo. Il monitoraggio delle azioni di orientamento appare insufficiente.
-
-### 5. Gap Analysis
-
-Il gap principale risiede nella mancanza di una pianificazione specifica e strutturata per l'orientamento. Sebbene le attività siano integrate in altre aree del PTOF, sarebbe opportuno definire obiettivi, azioni e indicatori specifici per l'orientamento, al fine di monitorarne l'efficacia e di garantire la continuità nel tempo.
-
-### 6. Conclusioni
-
+### 6. Conclusioni  
 Il PTOF della scuola primaria **Macomer 2 - Padru E Lampadas** dimostra un impegno verso l'orientamento, sebbene questo non sia formalizzato in una sezione dedicata. La vasta rete di **partnership** e l'attenzione alla didattica esperienziale rappresentano punti di forza significativi. Per migliorare l'efficacia dell'orientamento, si raccomanda di definire una pianificazione specifica, di rafforzare il monitoraggio delle azioni e di ampliare l'offerta di attività opzionali e facoltative. Attività come **Letture che stimolino la riflessione su sé stessi**, **Incontri con esperti**, **Il fascino degli scacchi** e **Piccoli programmatori crescono** sono esempi di iniziative positive che contribuiscono allo sviluppo delle competenze orientative degli studenti. Anche le uscite didattiche a **Laconi** e **Sassari** rappresentano un valido strumento per l'orientamento culturale e professionale.

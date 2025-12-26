@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-restore
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -72,15 +72,18 @@ help:
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
+	@echo "  make pipeline-ollama - Analisi + revisione Ollama (scores+report) + CSV refresh"
+	@echo "                         MODEL=X, INTERVAL=300, LOW=2, HIGH=6"
 	@echo ""
 	@echo "📚 REPORT & ANALISI:"
-	@echo "  make best-practice           - Genera report best practice (statistico)"
-	@echo "  make best-practice-llm       - Genera report narrativo con Ollama (incrementale)"
-	@echo "                                 MODEL=X per modello Ollama (default qwen3:32b)"
-	@echo "  make best-practice-llm-reset - Rigenera report narrativo da zero"
-	@echo "  make best-practice-llm-synth - Genera report sintetico (refactoring con Gemini)"
-	@echo "                                 REFACTOR_MODEL=X per modello Gemini"
-	@echo "                                 FALLBACK_MODEL=X per modello OpenRouter fallback"
+	@echo "  make best-practice               - Genera report best practice (statistico)"
+	@echo "  make best-practice-llm           - Genera report narrativo con Ollama (incrementale)"
+	@echo "                                     MODEL=X per modello Ollama (default qwen3:32b)"
+	@echo "  make best-practice-llm-reset     - Rigenera report narrativo da zero"
+	@echo "  make best-practice-llm-synth     - Genera report sintetico con Gemini/OpenRouter"
+	@echo "                                     REFACTOR_MODEL=X per modello Gemini"
+	@echo "  make best-practice-llm-synth-ollama - Genera report sintetico con solo Ollama"
+	@echo "                                        MODEL=X, OLLAMA_URL=X"
 	@echo "  make best-practice-llm-synth-restore - Ripristina report sintetico dal backup"
 	@echo ""
 	@echo "🤖 MODELLI AI:"
@@ -94,6 +97,12 @@ help:
 	@echo ""
 	@echo "🧭 WIZARD:"
 	@echo "  make wizard               - Avvia wizard interattivo per i comandi make"
+	@echo ""
+	@echo "🧹 PULIZIA FILE OBSOLETI:"
+	@echo "  make cleanup-dry          - Mostra cosa verrebbe eliminato (dry-run)"
+	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
+	@echo "  make cleanup-bak          - Elimina obsoleti + file .bak (chiede conferma)"
+	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak più vecchi di N giorni (default 7)"
 
 setup:
 	$(PIP) install -r requirements.txt
@@ -147,8 +156,14 @@ best-practice-llm-reset:
 	@echo "✅ Report narrativo generato in reports/best_practice_orientamento_narrativo.md"
 
 best-practice-llm-synth:
-	@echo "✨ Generazione Report Sintetico (refactoring per sezioni)..."
+	@echo "✨ Generazione Report Sintetico con Gemini/OpenRouter..."
 	$(PYTHON) -m src.agents.best_practice_ollama_agent --synth $(if $(REFACTOR_MODEL),--refactor-model $(REFACTOR_MODEL)) $(if $(FALLBACK_MODEL),--fallback-model $(FALLBACK_MODEL))
+	@echo "✅ Report sintetico generato in reports/best_practice_orientamento_sintetico.md"
+
+# Sintesi con solo Ollama (senza Gemini/OpenRouter)
+best-practice-llm-synth-ollama:
+	@echo "✨ Generazione Report Sintetico con Ollama..."
+	$(PYTHON) -m src.agents.best_practice_ollama_agent --synth-ollama $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL))
 	@echo "✅ Report sintetico generato in reports/best_practice_orientamento_sintetico.md"
 
 best-practice-llm-synth-restore:
@@ -169,6 +184,28 @@ refresh: csv dashboard
 full: run csv dashboard
 
 pipeline: download-sample run csv dashboard
+
+# Pipeline completa: analisi + revisione Ollama (scores + report) + refresh periodico CSV
+# Uso: make pipeline-ollama MODEL=qwen3:32b INTERVAL=300
+# - Avvia analisi PTOF in background
+# - Avvia revisione scores Ollama in background
+# - Avvia revisione report MD Ollama in background
+# - Ogni INTERVAL secondi (default 300 = 5min) rigenera CSV
+pipeline-ollama:
+	@echo "🚀 Avvio pipeline completa (analisi + revisione Ollama scores/report + CSV refresh)"
+	@echo "   Modello: $(or $(MODEL),qwen3:32b)"
+	@echo "   Intervallo refresh: $(or $(INTERVAL),300)s"
+	@echo ""
+	@echo "📊 Avvio analisi PTOF..."
+	@$(PYTHON) workflow_notebook.py &
+	@echo "🎯 Avvio revisione scores Ollama..."
+	@$(PYTHON) -m src.processing.ollama_score_reviewer --model "$(or $(MODEL),qwen3:32b)" $(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) &
+	@echo "📝 Avvio revisione report MD Ollama..."
+	@$(PYTHON) -m src.processing.ollama_report_reviewer --model "$(or $(MODEL),qwen3:32b)" $(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) $(if $(CHUNK_SIZE),--chunk-size $(CHUNK_SIZE),) &
+	@echo ""
+	@echo "✅ Tutti i processi avviati in parallelo!"
+	@echo "💡 Usa 'make csv' per aggiornare il CSV quando vuoi"
+	@echo "💡 Usa 'ps aux | grep python' per vedere i processi attivi"
 
 # ═══════════════════════════════════════════════════════════════════
 # DOWNLOAD PTOF
@@ -411,16 +448,36 @@ models:
 	@echo ""
 
 # ═══════════════════════════════════════════════════════════════════
+# PULIZIA FILE OBSOLETI
+# ═══════════════════════════════════════════════════════════════════
+
+# Mostra cosa verrebbe eliminato (dry-run)
+cleanup-dry:
+	$(PYTHON) cleanup_obsolete.py --dry-run
+
+# Elimina file obsoleti (chiede conferma)
+cleanup:
+	$(PYTHON) cleanup_obsolete.py
+
+# Elimina file obsoleti inclusi .bak (chiede conferma)
+cleanup-bak:
+	$(PYTHON) cleanup_obsolete.py --include-bak
+
+# Elimina solo file .bak più vecchi di N giorni (uso: make cleanup-bak-old DAYS=7)
+cleanup-bak-old:
+	$(PYTHON) cleanup_obsolete.py --bak-only --older-than $(or $(DAYS),7) --force
+
+# ═══════════════════════════════════════════════════════════════════
 # MANUTENZIONE REPORT
 # ═══════════════════════════════════════════════════════════════════
 
 # Trova report MD troncati
 check-truncated:
-	@$(PYTHON) check_truncated.py
+	@$(PYTHON) src/utils/check_truncated.py
 
 # Trova e ripristina SOLO i report troncati dai backup (.bak)
 fix-truncated:
-	@$(PYTHON) restore_from_backup.py
+	@$(PYTHON) src/utils/restore_from_backup.py
 
 # Elenca tutti i file di backup disponibili
 list-backups:

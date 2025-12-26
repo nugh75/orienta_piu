@@ -61,7 +61,7 @@ Inoltre, verifica sempre se il file è già presente in `ptof_processed` o `ptof
 - `make review-scores-gemini`: Revisione automatica dei punteggi estremi con Gemini.
 - `make review-non-ptof`: Rimuove analisi generate da documenti non-PTOF.
 
-Per documentazione completa dei comandi make, vedi [MAKE_REFERENCE.md](MAKE_REFERENCE.md).
+Per documentazione completa dei comandi make, vedi [docs/reference/MAKE_REFERENCE.md](docs/reference/MAKE_REFERENCE.md).
 
 ## �️ Sicurezza e Integrità dei Dati
 

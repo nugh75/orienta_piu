@@ -9,8 +9,11 @@ import os
 import json
 import glob
 import numpy as np
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Dettaglio Scuola", page_icon="🧭", layout="wide")
+setup_page("pages/02_🏫_Dettaglio_Scuola.py")
 
 # CSS
 st.markdown("""
@@ -1413,5 +1416,4 @@ with tab_suggestions:
     st.markdown("---")
     st.caption("💡 Suggerimenti Personalizzati - Impara dalle best practice di scuole simili alla tua")
 
-st.markdown("---")
-st.caption("🏫 Dettaglio Scuola - Analisi completa con Gap Analysis, Confronto Peer e Suggerimenti")
+render_footer()

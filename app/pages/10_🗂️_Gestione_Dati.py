@@ -10,8 +10,11 @@ from src.utils.backup_system import (
     create_backup, list_backups, restore_backup,
     create_backup_zip, restore_from_zip, delete_backup
 )
+from app.data_utils import render_footer
+from app.page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Gestione Dati", page_icon="🧭", layout="wide")
+setup_page("pages/10_🗂️_Gestione_Dati.py")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
@@ -969,3 +972,5 @@ with tab_backup:
                             st.error("Errore cancellazione.")
 
     st.sidebar.info("ℹ️ Il ripristino sovrascrive i dati attuali. Assicurati di fare prima un backup se necessario.")
+
+render_footer()

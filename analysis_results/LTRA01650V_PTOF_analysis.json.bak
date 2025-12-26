@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 5,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=6, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. L’orientamento è trattato in maniera trasversale in diverse parti del PTOF, con particolare enfasi nei moduli formativi di 30 ore per ciascuna classe, dalla prima alla quinta. Questi moduli sono proge (Precedente: score=1, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:19:20.628568"
+      "ollama_review_date": "2025-12-25T00:03:15.175431"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -98,10 +98,10 @@
     },
     "2_6_didattica_orientativa": {
       "didattica_da_esperienza_studenti": {
-        "score": 6
+        "score": 2
       },
       "didattica_laboratoriale": {
-        "score": 6
+        "score": 4
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 5
@@ -250,21 +250,43 @@
       }
     },
     {
-      "timestamp": "2025-12-25T00:03:17.931288",
+      "timestamp": "2025-12-25T00:04:29.405280",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 49,
+        "corrections_found": 2,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    },
+    {
+      "timestamp": "2025-12-26T20:50:58.189701",
       "activity": "ollama_score_review",
       "model": "qwen3:32b",
       "status": "completed",
       "details": {
         "chunks_analyzed": 10,
-        "extreme_scores_checked": 3,
-        "scores_modified": 1,
+        "extreme_scores_checked": 2,
+        "scores_modified": 2,
         "orientamento_found": true,
         "changes": [
           {
-            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
-            "old": 1,
-            "new": 5,
-            "reason": "Il documento include una sezione dedicata all'orientamento con dettagli su attività specifiche come "
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_da_esperienza_studenti.score",
+            "old": 6,
+            "new": 2,
+            "reason": "Il testo non menziona specificamente la didattica basata sull'esperienza degli studenti, ma solo l'i"
+          },
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_laboratoriale.score",
+            "old": 6,
+            "new": 4,
+            "reason": "Il testo menziona 'attività laboratoriali integrate' e 'laboratori inclusivi', ma non fornisce detta"
           }
         ]
       }
@@ -272,10 +294,10 @@
   ],
   "review_history": [
     {
-      "timestamp": "2025-12-25T00:03:17.931343",
+      "timestamp": "2025-12-26T20:50:58.189729",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
-      "changes": 1
+      "changes": 2
     }
   ]
 }

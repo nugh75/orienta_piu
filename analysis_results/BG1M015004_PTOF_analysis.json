@@ -75,7 +75,7 @@
         "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 1
+        "score": 2
       },
       "obiettivo_lifelong_learning": {
         "score": 4
@@ -161,5 +161,51 @@
     }
   ],
   "narrative": "# Analisi del PTOF BG1M015004\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Sacra Famiglia mostra un impegno verso la personalizzazione dell'apprendimento e l'inclusione, ma manca di una sezione dedicata all'orientamento scolastico e professionale. Le finalità educative sono ben definite, con un focus sull'attenzione alla persona e alla collaborazione con le famiglie. Tuttavia, l'orientamento come processo strutturato e finalizzato alla transizione verso i successivi gradi di istruzione o al mondo del lavoro è poco evidenziato.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione dedicata all'orientamento. Questo rappresenta una lacuna significativa, in quanto impedisce una visione d'insieme delle azioni e delle strategie messe in atto per supportare gli studenti nelle loro scelte future.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con diversi partner esterni, tra cui l'**Ospedale Bolognini**, **ASAV**, **Enti di Formazione Professionale**, **Scuole Statali**, **Biblioteche**, **Centri Socio-Culturali**, **Scuole dell'Infanzia paritarie del territorio di Seriate**, **Scuole Secondarie**, **ATS**, **Comitato Genitori**, **associazioni del terzo settore** e **imprese**. Queste collaborazioni potrebbero essere sfruttate per ampliare l'offerta formativa e offrire agli studenti opportunità di orientamento più mirate.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità educative della scuola sono orientate allo sviluppo integrale della persona, con particolare attenzione alle attitudini e agli interessi degli studenti. Tuttavia, mancano obiettivi specifici relativi all'orientamento, come la riduzione dell'abbandono scolastico o il contrasto alla dispersione formativa.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti e al coinvolgimento delle famiglie. Tuttavia, non è presente un sistema di monitoraggio specifico per valutare l'efficacia delle azioni di orientamento.\n\n#### 2.5 Didattica Orientativa\nLa didattica è basata sull'esperienza degli studenti, sull'utilizzo di laboratori e sull'integrazione tra le discipline. Queste metodologie possono contribuire a sviluppare le competenze necessarie per l'orientamento, ma non sono esplicitamente finalizzate a questo obiettivo.\n\n#### 2.6 Opportunità Formative\nLa scuola offre alcune opportunità formative opzionali, come laboratori espressivi e attività sportive. Tuttavia, queste attività non sono specificamente orientate alla scelta del percorso di studi o professionale.\n\n#### 2.7 Registro Dettagliato delle Attività\nNessuna attività specifica di orientamento è stata identificata in questa sezione del PTOF.\n\n### 3. Punti di Forza\nIl punto di forza principale è l'attenzione alla personalizzazione dell'apprendimento e all'inclusione, che possono favorire lo sviluppo delle competenze necessarie per l'orientamento. La collaborazione con diversi partner esterni rappresenta un'opportunità per ampliare l'offerta formativa.\n\n### 4. Aree di Debolezza\nLa principale area di debolezza è l'assenza di una sezione dedicata all'orientamento e di obiettivi specifici in questo ambito. Ciò comporta una mancanza di chiarezza e di coerenza nelle azioni messe in atto.\n\n### 5. Gap Analysis\nIl gap principale è la mancanza di un sistema strutturato di orientamento che supporti gli studenti nelle loro scelte future. È necessario definire obiettivi specifici, azioni concrete e indicatori di monitoraggio per valutare l'efficacia delle attività di orientamento.\n\n### 6. Conclusioni\nL'orientamento scolastico nell'Istituto Sacra Famiglia è presente in modo implicito nelle finalità educative e nelle metodologie didattiche, ma manca di una struttura esplicita e di un sistema di monitoraggio. È necessario colmare questo gap per garantire agli studenti un supporto adeguato nelle loro scelte future.",
-  "review_notes": "La revisione conferma i punteggi bassi in quanto il documento è focalizzato sulla Scuola Primaria e non presenta una sezione dedicata all'orientamento, né affronta tematiche specifiche per gradi scolastici superiori come il contrasto ai NEET."
+  "review_notes": "La revisione conferma i punteggi bassi in quanto il documento è focalizzato sulla Scuola Primaria e non presenta una sezione dedicata all'orientamento, né affronta tematiche specifiche per gradi scolastici superiori come il contrasto ai NEET.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-26T20:55:50.111104",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 5,
+        "scores_modified": 1,
+        "orientamento_found": false,
+        "changes": [
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 1,
+            "new": 2,
+            "reason": "Il documento menziona l'educazione alla legalità e la prevenzione del disagio, che possono essere co"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T21:26:03.876114",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 5,
+        "enrichments_found": 9,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-26T20:55:50.111115",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

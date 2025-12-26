@@ -12,7 +12,9 @@ from app.data_utils import (
     TIPI_SCUOLA,
     explode_school_types,
     explode_school_grades,
+    render_footer,
 )
+from app.page_control import setup_page
 
 # Safe optional imports
 try:
@@ -37,6 +39,7 @@ except ImportError:
     HAS_WORDCLOUD = False
 
 st.set_page_config(page_title="ORIENTA+ | Analytics Avanzati", page_icon="🧭", layout="wide")
+setup_page("pages/06_📈_Analytics_Avanzati.py")
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
 
@@ -1353,8 +1356,10 @@ with tab_visual:
 
     st.info("""
     💡 **A cosa serve**: Visualizza la forma delle distribuzioni di punteggio per diverse categorie, permettendo confronti visivi immediati.
-    
+
     🔍 **Cosa rileva**: Ogni "onda" rappresenta la distribuzione di una categoria. Picchi più alti indicano concentrazione di scuole in quella fascia di punteggio. La linea verticale interna mostra la media. Distribuzioni più strette indicano omogeneità.
-    
+
     🎯 **Implicazioni**: Permette di vedere non solo le medie ma la forma complessiva: distribuzioni bimodali, asimmetrie, code. Utile per capire se i gruppi sono omogenei o contengono sottogruppi nascosti.
     """)
+
+render_footer()
