@@ -37,7 +37,7 @@ MAX_RETRIES = 3
 REQUEST_TIMEOUT = 300
 SYNTH_BACKOFF_START = 30
 SYNTH_BACKOFF_MAX = 60 * 60 * 2
-SYNTH_REFRESH_INTERVAL = 60 * 30
+SYNTH_REFRESH_INTERVAL = 60 * 15
 
 # Gemini refactoring settings
 GEMINI_MODEL = "gemini-3-flash-preview"
@@ -815,10 +815,11 @@ OBIETTIVI:
    - ## Azioni di Sistema e Governance
    - ## Buone Pratiche per l'Inclusione
    - ## Esperienze Territoriali Significative
-3. Mantieni sempre il CODICE e il NOME della scuola in **neretto**
-4. Mantieni sempre i nomi dei PROGETTI in **neretto**
-5. Non inventare informazioni
-6. Stile narrativo, evita elenchi puntati salvo indispensabili
+3. Ogni volta che citi una scuola, includi SEMPRE il codice meccanografico e il nome scuola, entrambi in **neretto**
+4. Mantieni sempre i nomi delle ATTIVITÀ in **neretto**
+5. Mantieni sempre i nomi dei PROGETTI in **neretto**
+6. Non inventare informazioni
+7. Stile narrativo, evita elenchi puntati salvo indispensabili
 
 REPORT ORIGINALE:
 {self.current_report}
@@ -1048,8 +1049,10 @@ REGOLE DI SINTESI:
 1. ELIMINA RIDONDANZE: Unifica concetti ripetuti in un unico paragrafo
 2. UNIFICA SOTTOTITOLI SIMILI: Raggruppa pratiche affini sotto un unico titolo descrittivo
 3. RIDUCI del 30-50% mantenendo le informazioni chiave
-4. MANTIENI il CODICE e il NOME delle scuole in **neretto**
-5. MANTIENI i nomi dei PROGETTI in **neretto**
+4. Ogni esempio DEVE citare **CODICE MECCANOGRAFICO** e **NOME SCUOLA**
+5. MANTIENI il CODICE e il NOME delle scuole in **neretto**
+6. MANTIENI i nomi delle ATTIVITÀ in **neretto**
+7. MANTIENI i nomi dei PROGETTI in **neretto**
 
 REGOLE CRITICHE:
 - NON inventare informazioni

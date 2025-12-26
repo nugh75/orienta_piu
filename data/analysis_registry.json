@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-26T18:38:57.161316",
+  "last_updated": "2025-12-26T18:52:00.521955",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -3133,9 +3133,18 @@
           "details": {
             "error": "no_response"
           }
+        },
+        {
+          "type": "openrouter_score_review",
+          "model": "z-ai/glm-4.5-air:free",
+          "status": "failed",
+          "timestamp": "2025-12-26T18:52:00.521792",
+          "details": {
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          }
         }
       ],
-      "last_review": "2025-12-26T15:35:17.363464"
+      "last_review": "2025-12-26T18:52:00.521825"
     },
     "MIPC09500C": {
       "pdf_hash": "sha256:aa7d9a719e3cec93e57354ce32afb9e29d5d8f691e1212043e3f4462f809e910",
@@ -3472,6 +3481,15 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/POPS9T5004_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/POPS9T5004_ptof.md"
+    },
+    "PAAA8AU04Q": {
+      "pdf_hash": "sha256:020d38d2ae4d15f715d78ab6f441c777b358581f897e83062915614dbb0b95a0",
+      "pdf_name": "PAAA8AU04Q_PTOF.pdf",
+      "pdf_size": 2239456,
+      "analyzed_at": "2025-12-26T18:51:29.001279",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAAA8AU04Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAAA8AU04Q_ptof.md"
     }
   }
 }

@@ -2,7 +2,7 @@
 
 *Modello primario: gemini-3-flash-preview*
 *Basato su 379 scuole analizzate*
-*Generato il: 26/12/2025 18:41*
+*Generato il: 26/12/2025 18:50*
 
 **Provider per sezione (ultimo refactoring):**
 
