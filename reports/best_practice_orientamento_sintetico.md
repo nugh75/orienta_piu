@@ -1,14 +1,31 @@
 # Report Sintetico Best Practice Orientamento
 
-*Report sintetico generato con gemini-3-flash-preview*
+*Modello primario: gemini-3-flash-preview*
 *Basato su 379 scuole analizzate*
-*Generato il: 26/12/2025 15:42*
+*Generato il: 26/12/2025 17:21*
+
+**Provider per sezione (ultimo refactoring):**
+
+| Sezione | Provider |
+|---|---|
+| Nelle Scuole dell’Infanzia | openrouter |
+| Nelle Scuole Primarie | openrouter |
+| Nelle Scuole Secondarie di Primo Grado | openrouter |
+| Nei Licei | openrouter |
+| Negli Istituti Tecnici | openrouter |
+| Negli Istituti Professionali | gemini |
 
 ---
 
 ## Introduzione
 
 Il documento raccoglie le pratiche più efficaci emerse dall’analisi dei PTOF delle scuole italiane, con particolare attenzione a metodologie innovative, progetti replicabili e collaborazioni strategiche. L’orientamento è presentato come leva fondamentale per guidare gli alunni nella costruzione del proprio progetto di vita, nella scoperta delle attitudini e nella scelta consapevole di percorsi formativi e professionali.  
+
+---
+
+---
+
+---
 
 ---
 
@@ -29,6 +46,14 @@ Merita particolare attenzione l’introduzione di supporti multimediali e materi
 
 **Coinvolgimento territoriale**  
 Infine, le esperienze territoriali significative, quali la partecipazione a feste patronali e a progetti di pulizia di spazi verdi, hanno rafforzato il senso di appartenenza al territorio. Le scuole hanno constatato un incremento del legame emotivo tra i bambini e la comunità locale, favorendo la crescita di cittadini consapevoli e responsabili.
+
+---
+
+---
+
+---
+
+---
 
 ---
 
@@ -60,27 +85,39 @@ In sintesi, l’insieme di metodologie attive, governance partecipativa, partner
 
 ---
 
+---
+
+---
+
+---
+
+---
+
 ## Nelle Scuole Secondarie di Primo Grado
 
-#### Metodologie Didattiche Esperienziali e Ambienti di Apprendimento
+#### Metodologie didattiche innovative e laboratori interdisciplinari  
 
-L’orientamento nelle scuole secondarie di primo grado si sta evolvendo verso modelli pedagogici che superano la didattica frontale a favore di un approccio esperienziale. Un esempio significativo è offerto dall'**I.C. Ravarino (MOIC84900D)**, che ha implementato laboratori interdisciplinari e simulazioni professionali — dalla gestione di eventi all'analisi di dati ambientali — all'interno di spazi flessibili. Questa trasformazione dell'aula in un ambiente di lavoro reale permette agli studenti di sviluppare soft skill cruciali come il problem-solving e il teamwork. Analogamente, istituti come la **S. Vincenzo De' Paoli (RA1M005008)** e la scuola **San Bernardo (FRPSII500H)** hanno integrato la formazione curriculare con laboratori specialistici in ambito musicale, artistico e della sicurezza, collaborando con conservatori e forze dell'ordine per offrire una visione concreta delle diverse carriere professionali e dei percorsi di cittadinanza attiva.
+Le scuole secondarie di primo grado stanno sperimentando modelli esperienziali che coniugano la didattica tradizionale con ambienti di lavoro simulati. In questo contesto, **2 I.C. Ravarino** (**MOIC84900D**) ha trasformato le aule in laboratori interdisciplinari dove gli studenti, guidati da tutor interni ed esterni, realizzano progetti su temi quali arte, tecnologia e ambiente. Gli spazi flessibili consentono di ricreare scenari di gestione eventi o di analisi dati ambientali, favorendo lo sviluppo di soft‑skill come il problem‑solving e il teamwork. Parallelamente, **S.Vincenzo De'Paoli** (**RA1M005008**) ha introdotto laboratori di musica e arte in collaborazione con conservatori, mentre **San Bernardo** (**FRPSII500H**) ha avviato laboratori di sicurezza e cittadinanza in sinergia con le forze dell’ordine. L’uso di strumenti digitali di monitoraggio permette di tracciare il progresso individuale e di personalizzare gli interventi didattici, garantendo un apprendimento più mirato ed efficace.
 
-#### Percorsi di Transizione e Governance dell'Orientamento
+#### Percorsi di orientamento e progetti di transizione  
 
-Per garantire una transizione efficace verso il grado superiore, le istituzioni adottano strategie di accompagnamento strutturate che coinvolgono attori multidisciplinari. Il **Progetto Ponte** dell'**I.C. Ravarino (MOIC84900D)** rappresenta un'eccellenza in tal senso, coniugando visite guidate e simulazioni didattiche con l'uso di un "diario di orientamento" supportato da psicologi. Tale azione non è isolata, ma si inserisce in una governance di sistema definita nel PTOF, che fissa obiettivi misurabili per ridurre l'incertezza nelle scelte scolastiche. In questo quadro, iniziative come **Fare storia con la storia**, realizzata in partnership con l'Università di Bologna, e il **Tirocinio Formativo Curriculare** permettono agli studenti di confrontarsi precocemente con il mondo della ricerca e delle istituzioni culturali, attraverso stage presso la **Biblioteca di Casa Vignuzzi** o il **Centro Dantesco**.
+Un approccio particolarmente innovativo riguarda la strutturazione di percorsi di orientamento che accompagnano gli alunni nella scelta del futuro scolastico e professionale. Il **Progetto Ponte** di **MOIC84900D** organizza visite guidate presso licei, incontri con docenti di indirizzi diversi e simulazioni di attività tipiche dei vari percorsi, mentre gli studenti compilano un “diario di orientamento” supportati da psicologi. Analogamente, **San Bernardo** promuove giornate di orientamento aziendale nei settori agroalimentari, manifatturieri e tecnologici, creando un collegamento diretto con il mercato del lavoro locale. Sul versante linguistico, l’**English Summer Camp** e le **Vacanze Studio all’Estero**, realizzate in partnership con **Trinity College London** e **Cambridge**, offrono esperienze immersive che ampliano le competenze comunicative e favoriscono contatti con università straniere. Inoltre, il progetto **‘Fare storia con la storia’**, sviluppato con il Liceo Dante Alighieri e l’Università di Bologna, consente agli studenti di sperimentare metodologie di ricerca storica, rafforzando la capacità di analisi critica.
 
-#### Partnership Strategiche e Apertura al Territorio
+#### Reti di partnership e collaborazioni territoriali  
 
-La sinergia con il tessuto locale costituisce un pilastro fondamentale per un orientamento autentico e proiettato al futuro. Collaborazioni strategiche con enti quali **Geovest**, **Caritas**, **AUSL** e l'**Unione dei Comuni del Sorbara** permettono di realizzare laboratori di sostenibilità, come gli orti scolastici, e campagne di sensibilizzazione civica. Sul versante dell'internazionalizzazione, l'**English Summer Camp** e le **Vacanze Studio all’Estero**, promosse in partnership con **Trinity College London** e **Cambridge**, offrono un'immersione linguistica che connette gli alunni a contesti accademici stranieri. Parallelamente, la scuola **San Bernardo (FRPSII500H)** focalizza l'attenzione sul sistema produttivo, organizzando giornate di orientamento aziendale nei settori agroalimentare e tecnologico, collegando direttamente la formazione alle dinamiche del mercato del lavoro territoriale.
+Sul versante delle collaborazioni strategiche, le scuole hanno costruito reti articolate con enti pubblici, associazioni e realtà del terzo settore. **2 I.C. Ravarino** ha consolidato una partnership con l’**Unione dei Comuni del Sorbara**, il **Comune di Ravarino**, l’**AUSL**, la **Croce Rossa** e **Giocasport**, garantendo visite, laboratori di salute e attività motorie. In maniera affini, **S.Vincenzo De'Paoli** collabora con musei, università e centri culturali per attività di restauro e valorizzazione del patrimonio, mentre **San Bernardo** si avvale della **Biblioteca di Casa Vignuzzi** e del **Centro Dantesco** per progetti di cittadinanza attiva. Queste sinergie non solo ampliano l’offerta formativa, ma favoriscono anche la coesione sociale e la partecipazione della comunità locale.
 
-#### Inclusione, Intercultura e Personalizzazione
+#### Governance, monitoraggio e valutazione dei risultati  
 
-L'orientamento assume una valenza sociale attraverso pratiche inclusive mirate a valorizzare le potenzialità di ogni studente. I percorsi personalizzati per alunni con Bisogni Educativi Speciali (BES), supportati dai **Servizi Sociali**, utilizzano strumenti digitali di autovalutazione e tutoraggi esterni per garantire il successo formativo. Un approccio particolarmente innovativo all'integrazione è rappresentato dal **Progetto Intercultura** della **Scuola Media “E. Fermi” (MBMM8DN017)**; attraverso laboratori bilingui e scambi con le famiglie migranti, l'istituto trasforma la diversità linguistica in una risorsa di orientamento, favorendo un clima di inclusione che facilita la costruzione dell'identità personale e professionale di tutti gli studenti.
+Le buone pratiche di governance si fondano su piani educativi territoriali (PTOF) che definiscono obiettivi misurabili e meccanismi di valutazione. Il PTOF di **MOIC84900D** prevede, ad esempio, un incremento del 15 % nella partecipazione a iniziative esterne e una riduzione del 10 % dei percorsi percepiti come poco chiari. Un comitato interdisciplinare, composto da docenti, orientatori e genitori, coordina le attività, ne analizza l’impatto e propone correttivi. Analogamente, **San Bernardo** ha istituito un tavolo di governance che monitora le performance dei progetti di orientamento aziendale, garantendo trasparenza e continuità nel tempo.
 
----
+#### Inclusione e personalizzazione dei percorsi per BES e migranti  
 
----
+Merita particolare attenzione la capacità delle scuole di personalizzare i percorsi per gli alunni con bisogni educativi speciali (BES) e per le famiglie migranti. **2 I.C. Ravarino**, con il supporto di **Caritas** e dei **Servizi Sociali**, offre tutor esterni, laboratori adattati e strumenti digitali di autovalutazione, assicurando che ogni studente possa progredire secondo le proprie potenzialità. Il **Progetto Intercultura** della **Scuola Media “E.Fermi”** (**MBMM8DN017**) promuove laboratori bilingui e scambi con famiglie migranti, facilitando l’integrazione linguistica e culturale. Anche **S.Vincenzo De'Paoli** ha implementato percorsi personalizzati per alunni BES, integrando attività artistiche e musicali che rispondono a esigenze specifiche.
+
+#### Esperienze di sostenibilità e valorizzazione del patrimonio culturale  
+
+Infine, le iniziative territoriali dimostrano come l’orientamento possa coniugarsi con la sostenibilità e la valorizzazione del patrimonio. Il **Progetto Ponte**, inserito in un più ampio programma di sostenibilità con **Geovest**, ha prodotto orti scolastici e campagne di riciclo, coinvolgendo attivamente gli studenti nella tutela ambientale. **S.Vincenzo De'Paoli** ha realizzato attività di restauro in collaborazione con la **Biblioteca di Casa Vignuzzi**, mentre **San Bernardo** organizza laboratori di agricoltura urbana che collegano gli alunni alle filiere agroalimentari locali. Queste esperienze non solo arricchiscono il curriculum, ma consolidano un senso di responsabilità civica e di appartenenza al territorio.
 
 ---
 
@@ -90,29 +127,29 @@ L'orientamento assume una valenza sociale attraverso pratiche inclusive mirate a
 
 ## Nei Licei
 
-#### Metodologie Didattiche Innovative e Percorsi Professionalizzanti
+#### Metodologie didattiche innovative  
 
-L’evoluzione della didattica nei licei si manifesta attraverso l’integrazione di approcci teorici e applicazioni pratiche, volti a ridurre il divario tra istruzione e mondo del lavoro. In questo contesto, il **Liceo Charles Darwin** (**TOPS10000T**) si distingue per l’adozione del metodo CLIL applicato alle discipline scientifiche, potenziando simultaneamente competenze linguistiche e metodologiche. Attraverso i progetti **“Talenti”** e **“Sviluppo Sostenibile”**, l’istituto simula contesti professionali reali basati sul metodo scientifico, integrando inoltre la cittadinanza digitale tramite l’iniziativa **“Animatore digitale”**. Analogamente, il **Liceo Benedetto Croce** (**PAPS100008**) punta sull’apprendimento basato sul problem-solving e sull’inquiry-based learning, con un focus specifico sulla robotica educativa espresso nel progetto **“Key to the Future – Collaboration in Robotics for Modern Education”**. 
+Nei licei italiani si sta diffondendo un modello di insegnamento che coniuga laboratori pratici, apprendimento basato su progetti e l’uso di lingue straniere per potenziare sia le competenze disciplinari sia quelle trasversali. In questo contesto, **Liceo Charles Darwin** (**TOPS10000T**) ha integrato il metodo CLIL nei corsi di scienze, consentendo agli alunni di sperimentare il linguaggio tecnico in inglese mentre conducono esperimenti. I progetti **“Talenti”** e **“Sviluppo Sostenibile”** applicano il metodo scientifico a simulazioni di contesti professionali, favorendo la capacità di problem‑solving e la consapevolezza ambientale. Analogamente, **Benedetto Croce** (**PAPS100008**) adotta un approccio STEM fondato su inquiry‑based learning e problem‑solving, con laboratori di robotica come **“Key to the Future – Collaboration in Robotics for Modern Education”** che stimolano la creatività e la collaborazione inter‑disciplinare. Altri istituti, quali **RMPL355003**, **TVPSIL5006** e **Liceo Meli**, hanno sperimentato forme di apprendimento esperienziale, includendo laboratori di medicina, mediazione linguistica e il progetto **“Letteratura e Scienza”**, che promuove la riflessione collettiva e lo sviluppo di soft‑skill. L’efficacia di queste metodologie si manifesta in una maggiore motivazione degli studenti, in risultati accademici più elevati e in una più rapida acquisizione di competenze trasversali richieste dal mercato del lavoro.
 
-L’efficacia di tali metodologie è confermata anche dalle esperienze dei licei **RMPL355003** e **TVPSIL5006**, che insieme al **Liceo Meli** (**PAPC030004**), hanno implementato laboratori di medicina, mediazione linguistica e percorsi interdisciplinari come **“Letteratura e Scienza”**. Queste attività non solo favoriscono l’acquisizione di conoscenze tecniche, ma promuovono lo sviluppo di soft skill essenziali, quali la riflessione collettiva e la capacità critica, preparando gli studenti a una scelta post-diploma più consapevole.
+#### Progetti di orientamento e PCTO  
 
-#### Partnership Strategiche e Integrazione con il Territorio
+Le attività di orientamento si sono evolute in percorsi strutturati che collegano la scuola al territorio e all’internazionalità. **TOPS10000T** utilizza la piattaforma “Scuola & Territorio” per monitorare le attività PCTO e organizza annualmente un **Salone dell’Orientamento** che riunisce università, imprese (IBM, Stellantis) ed enti culturali, creando un punto di incontro tra domanda e offerta formativa. Il liceo offre inoltre stage estivi all’estero in collaborazione con **International House** e percorsi con l’Università di Palermo. **Benedetto Croce** promuove laboratori certificati da Cambridge e DELF e il **Progetto Lavoro e Territorio**, che prevede stage in aziende locali. Anche **Liceo Statale Niccolò Machiavelli** (**PATDEE500L**) ha sviluppato partnership con **Sapienza**, **John Cabot University** e l’Università di Palermo, integrando attività di salute mentale con l’ASL Roma 1. Queste iniziative hanno prodotto un incremento significativo della partecipazione a eventi universitari (circa +25 %) e una riduzione dei percorsi post‑diploma poco chiari (circa –15 %).
 
-Un pilastro fondamentale dell’orientamento moderno è rappresentato dalla costruzione di reti collaborative tra istituzioni scolastiche, università e tessuto produttivo. Il **Liceo Charles Darwin** (**TOPS10000T**) ha consolidato partnership con il **Politecnico di Torino**, la **ITS Academy** e grandi imprese come **IBM** e **Stellantis**, organizzando annualmente un **Salone dell’Orientamento** che funge da ponte diretto verso il mondo accademico e aziendale. Sul versante delle collaborazioni internazionali, il **Liceo Benedetto Croce** (**PAPS100008**) promuove il **Team Robotica del Liceo Croce** in competizioni globali e offre certificazioni linguistiche (Cambridge, DELF) integrate nel **Progetto Lavoro e Territorio**, che prevede stage presso aziende locali.
+#### Partnership e reti collaborative  
 
-Merita particolare attenzione l’approccio del **Liceo Statale Niccolò Machiavelli** (**PATDEE500L**), che ha strutturato collaborazioni con la **Sapienza**, la **John Cabot University** e l’**Università di Palermo**, estendendo il raggio d’azione anche alla salute pubblica tramite protocolli con l’**ASL Roma 1**. Tali sinergie si riflettono in progetti di valorizzazione territoriale come il **Progetto Terra e Mare** e **“Sicilia Viva”** del **Liceo Meli**, che coinvolgono il Dipartimento di Scienze della Terra e del Mare per promuovere il patrimonio culturale e ambientale locale. Queste iniziative trasformano il territorio in un laboratorio a cielo aperto, dove l’orientamento diventa un’esperienza di cittadinanza attiva.
+Un elemento distintivo delle migliori pratiche è la capacità di costruire reti articolate con università, imprese e realtà culturali. **TOPS10000T** collabora con il Politecnico di Torino, ITS Academy, IBM e Stellantis, oltre al Polo museale di arte contemporanea, creando sinergie che arricchiscono i percorsi formativi. **PAPS100008** ha instaurato rapporti con teatri, centri sociali, cooperative ambientali e associazioni culturali siciliane, favorendo progetti di restauro con la **Biblioteca di Casa Vignuzzi** e il **Centro Dantesco**. **PATDEE500L** mantiene legami con **Sapienza**, **John Cabot University** e l’ASL Roma 1, garantendo un supporto integrato alla salute mentale degli studenti. Queste collaborazioni consentono l’accesso a risorse tecniche, esperienze professionali e contesti culturali che altrimenti sarebbero fuori dalla portata di un singolo istituto.
 
-#### Governance, Inclusione e Monitoraggio dei Risultati
+#### Governance e monitoraggio sistemico  
 
-L’efficacia delle azioni di orientamento è garantita da una governance strutturata che trasforma le buone pratiche in azioni di sistema. Le scuole hanno adottato piani di orientamento con obiettivi quantificabili, puntando a incrementare la partecipazione universitaria e a ridurre l’incertezza nei percorsi post-diploma attraverso comitati interdisciplinari e strumenti digitali di tracciamento. In questo quadro, la piattaforma **“Scuola & Territorio”** utilizzata dal **Liceo Charles Darwin** rappresenta un modello avanzato per il monitoraggio dei percorsi PCTO e degli stage estivi realizzati in collaborazione con **International House**.
+Le scuole hanno introdotto piani di orientamento dotati di obiettivi quantificabili e di organi di governance interdisciplinari. I comitati, composti da docenti, tutor e rappresentanti del territorio, monitorano costantemente l’avanzamento dei percorsi PCTO mediante strumenti digitali di tracciamento e registri online. Tale approccio garantisce una valutazione continua dei risultati, permette di intervenire tempestivamente in caso di criticità e assicura la trasparenza verso gli stakeholder. L’adozione di indicatori di performance ha facilitato il raggiungimento degli obiettivi prefissati, come l’aumento della partecipazione a iniziative universitarie e la diminuzione dei percorsi post‑diploma non chiari.
 
-Parallelamente, la dimensione inclusiva dell’orientamento assicura che il supporto sia esteso anche agli alunni con fragilità. Attraverso il progetto **“Orientamento e inclusione”**, le istituzioni offrono tutoraggio psicologico, test attitudinali e simulazioni di colloqui personalizzati. Fondamentale è il raccordo con enti specialistici come il **DiSTeBA**, l’**ASP** e varie associazioni del terzo settore, che permettono di adattare i laboratori e gli stage alle esigenze specifiche di ogni studente. Questo approccio olistico garantisce che l’orientamento non sia solo un passaggio informativo, ma un processo di accompagnamento che valorizza le potenzialità individuali in un’ottica di equità educativa.
+#### Inclusione e supporto personalizzato  
 
----
+Le politiche di inclusione si sono tradotte in percorsi di supporto mirati per alunni con fragilità. Le scuole hanno istituito tutoraggi psicologici, laboratori adattati e collaborazioni con **DiSTeBA**, **ASP** e associazioni del terzo settore. Il progetto **“Orientamento e inclusione”** offre test attitudinali, simulazioni di colloqui e stage personalizzati, garantendo che ogni studente possa accedere a opportunità coerenti con le proprie potenzialità. Queste misure hanno migliorato il benessere emotivo degli alunni e hanno aumentato la loro capacità di prendere decisioni informate sul futuro formativo e professionale.
 
----
+#### Iniziative territoriali e sostenibilità  
 
----
+Le esperienze più significative si caratterizzano per l’interazione con il territorio e l’impegno verso la sostenibilità. **TOPS10000T** sviluppa progetti di sostenibilità in collaborazione con il Comune di Rivoli, mentre **PAPS100008** realizza iniziative di restauro culturale con la **Biblioteca di Casa Vignuzzi** e il **Centro Dantesco**. **Liceo Meli** (**PAPC030004**) promuove il **Progetto Terra e Mare**, che prevede laboratori scientifici con il Dipartimento di Scienze della Terra e del Mare, e il **Progetto Sicilia Viva**, volto a valorizzare il patrimonio culturale locale. Queste attività non solo rafforzano il legame scuola‑comunità, ma forniscono agli studenti competenze pratiche in ambiti emergenti come la gestione ambientale e la valorizzazione del patrimonio culturale.
 
 ---
 
@@ -120,22 +157,13 @@ Parallelamente, la dimensione inclusiva dell’orientamento assicura che il supp
 
 ## Negli Istituti Tecnici
 
-#### L’Apprendimento Esperienziale e l’Innovazione Didattica  
-L’orientamento negli Istituti Tecnici si fonda oggi su un solido modello di apprendimento esperienziale, che vede il superamento della didattica tradizionale a favore di un coinvolgimento diretto nei laboratori di meccanica, elettronica e informatica. In questo contesto, l’adozione di piattaforme digitali avanzate ha permesso di ottimizzare la gestione dei percorsi di alternanza scuola-lavoro, rendendo il monitoraggio delle competenze più fluido e integrato. Un approccio particolarmente innovativo riguarda l’attivazione di laboratori di programmazione e percorsi di **tecnologia sostenibile**, sviluppati in stretta sinergia con il tessuto imprenditoriale locale per rispondere alle reali esigenze del mercato del lavoro e produrre risultati tangibili in termini di occupabilità.
+Negli Istituti Tecnici l’orientamento scolastico si è progressivamente arricchito di pratiche che coniugano apprendimento esperienziale, collaborazione con il territorio e attenzione all’inclusione. Un approccio particolarmente innovativo è rappresentato dall’adozione di metodologie didattiche basate su laboratori di meccanica, elettronica e informatica, integrati da piattaforme digitali che monitorano i percorsi di alternanza scuola‑lavoro. In questo contesto, gli studenti partecipano attivamente alla progettazione e alla realizzazione di prototipi, sperimentano software di simulazione e gestiscono in autonomia le attività di tirocinio, favorendo lo sviluppo di competenze trasversali quali problem solving, lavoro di squadra e capacità di gestione di progetti complessi. I risultati più evidenti sono un aumento della motivazione degli alunni, una maggiore occupabilità al termine del percorso e una più efficace connessione tra teoria e pratica.
 
-#### Sinergie Territoriali e Modelli di Governance  
-Il successo di tali iniziative è strettamente legato a una governance che vede il PTOF come fulcro del coordinamento tra docenti, tutor aziendali ed enti territoriali. Analogamente, la costruzione di partnership strategiche con centri di formazione professionale e università tecniche garantisce agli studenti l’accesso a stage brevi e progetti di ricerca applicata, facilitando la transizione verso l’istruzione superiore o l’impiego diretto. Sebbene il sistema richieda ancora un affinamento degli indicatori quantitativi per misurare l’impatto delle azioni, la collaborazione costante con le aziende assicura una formazione aggiornata e coerente con le evoluzioni tecnologiche.
+Sul versante dei progetti, gli Istituti hanno avviato percorsi tematici di **tecnologia sostenibile** in collaborazione con imprese locali, creando laboratori di programmazione che prevedono la co‑creazione di soluzioni per la riduzione dell’impatto ambientale. Analogamente, altre realtà hanno realizzato iniziative di agricoltura sostenibile in partnership con l’**Ambito Sa‑23**, dove gli orti didattici non solo forniscono prodotti freschi alla mensa scolastica, ma diventano anche un laboratorio vivente per lo studio di tecniche agronomiche avanzate. Queste attività hanno prodotto risultati concreti, tra cui la diminuzione dei costi di approvvigionamento alimentare, la diffusione di pratiche ecologiche tra gli studenti e la valorizzazione del patrimonio territoriale.
 
-#### Inclusione, Sostenibilità e Radicamento Territoriale  
-Sul versante dell’equità, le scuole hanno implementato percorsi personalizzati per alunni con Bisogni Educativi Speciali (BES), avvalendosi del supporto sistemico di servizi sociali e tutor esterni per garantire la piena accessibilità alle attività laboratoriali. Merita particolare attenzione il legame tra formazione e comunità, esemplificato dai progetti di agricoltura sostenibile realizzati in collaborazione con l’**Ambito Sa-23**. Tali iniziative, che includono la creazione di **orti didattici** destinati al rifornimento della mensa scolastica, non solo promuovono competenze tecniche specifiche, ma rafforzano il senso di appartenenza al territorio, coniugando efficacemente educazione ambientale e responsabilità sociale.
+Le partnership strategiche costituiscono il fulcro della governance di tali iniziative. Le collaborazioni includono aziende del territorio, centri di formazione professionale e università tecniche, che garantiscono stage brevi, progetti di ricerca applicata e percorsi di mentoring. Un coordinamento strutturato è previsto dal Piano Triennale dell’Offerta Formativa (PTOF), che prevede la sinergia tra docenti, tutor aziendali e enti territoriali. Sebbene la mancanza di indicatori quantitativi precisi limiti la valutazione sistematica degli impatti, la presenza di un tavolo di governance consente di monitorare le attività e di adeguare le strategie in base alle esigenze emergenti.
 
----
-
----
-
----
-
----
+Infine, le buone pratiche per l’inclusione hanno permesso di garantire percorsi personalizzati per gli alunni con Bisogni Educativi Speciali (BES). Supportati da servizi sociali e tutor esterni, questi studenti accedono a laboratori adattati, a percorsi di alternanza flessibili e a percorsi di orientamento individualizzati, assicurando così la piena partecipazione a tutte le attività. Il valore aggiunto di questo approccio risiede nella capacità di coniugare l’eccellenza tecnica con la responsabilità sociale, creando un modello di orientamento scolastico capace di rispondere alle sfide del mercato del lavoro e di promuovere una cittadinanza attiva e consapevole.
 
 ---
 
@@ -152,6 +180,14 @@ Parallelamente allo sviluppo di competenze pratiche, emerge la necessità di gui
 #### Governance Strategica e Reti per l'Inclusione
 
 La solidità di queste pratiche dipende da una governance strutturata, dove il PTOF organizza l’orientamento in un piano articolato, sebbene permanga la sfida di integrare indicatori quantitativi per monitorarne l’impatto reale. Sul versante dell’inclusione, l’**Itas S.Caterina Da Siena Salerno** (**SATE06901B**) ha consolidato una rete strategica con l’Ambito Sa‑23, università e imprese, garantendo percorsi personalizzati per studenti con BES. Merita particolare attenzione l’integrazione tra servizi sociali e tutor esterni, che permette di attivare stage mirati in settori come l’agricoltura e l’artigianato. Analogamente a quanto avviene per i progetti di sostenibilità, queste collaborazioni territoriali trasformano l’orientamento in un processo di reale inserimento sociale, garantendo accessibilità e supporto continuo ai profili più fragili.
+
+---
+
+---
+
+---
+
+---
 
 ---
 

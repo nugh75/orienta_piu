@@ -934,13 +934,13 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
 
             if self.openrouter_key:
                 if self.gemini_key:
-                    print(f"      ↪️ {stage_label}: fallback OpenRouter ({self.fallback_model})")
+                    print(f"      -> {stage_label}: fallback OpenRouter ({self.fallback_model})")
                 success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
                 if success and response:
                     response = self._clean_llm_response(response)
                     if validate_fn(response):
                         if self.gemini_key:
-                            print(f"      ✅ {stage_label}: fallback OpenRouter riuscito")
+                            print(f"      OK {stage_label}: fallback OpenRouter riuscito")
                         return response, attempts, "", "openrouter"
                     last_error = "openrouter_invalid"
                 elif not success:
@@ -1151,16 +1151,6 @@ Non includere commenti o spiegazioni."""
                 else:
                     completed.pop(section_name, None)
 
-        header = f"""# Report Sintetico Best Practice Orientamento
-
-*Report sintetico generato con {self.refactor_model}*
-*Basato su {len(self.processed_schools)} scuole analizzate*
-*Generato il: {datetime.now().strftime('%d/%m/%Y %H:%M')}*
-
----
-
-"""
-
         if os.path.exists(synth_path):
             backup_path = synth_path + '.bak'
             import shutil
@@ -1202,10 +1192,12 @@ Non includere commenti o spiegazioni."""
             }
             self._save_synth_progress(synth_state)
 
+            header = self._build_synth_header(sections, synth_state)
             synth_report = self._build_synth_report(header, sections, refactored_sections)
             with open(synth_path, 'w', encoding='utf-8') as f:
                 f.write(synth_report)
 
+        header = self._build_synth_header(sections, synth_state)
         synth_report = self._build_synth_report(header, sections, refactored_sections)
         with open(synth_path, 'w', encoding='utf-8') as f:
             f.write(synth_report)
@@ -1278,20 +1270,6 @@ Non includere commenti o spiegazioni."""
             refactored_sections[name] = existing_sections.get(name, content)
         refactored_sections[section_name] = response
 
-        header = f"""# Report Sintetico Best Practice Orientamento
-
-*Report sintetico generato con {self.refactor_model}*
-*Basato su {len(self.processed_schools)} scuole analizzate*
-*Generato il: {datetime.now().strftime('%d/%m/%Y %H:%M')}*
-
----
-
-"""
-
-        synth_report = self._build_synth_report(header, sections, refactored_sections)
-        with open(synth_path, 'w', encoding='utf-8') as f:
-            f.write(synth_report)
-
         synth_state.setdefault("sections", {})
         synth_state["sections"][section_name] = {
             "status": "refreshed",
@@ -1303,6 +1281,11 @@ Non includere commenti o spiegazioni."""
         synth_state["refresh_index"] = (refresh_index + 1) % len(section_names)
         synth_state["last_refresh"] = datetime.now().isoformat()
         self._save_synth_progress(synth_state)
+
+        header = self._build_synth_header(sections, synth_state)
+        synth_report = self._build_synth_report(header, sections, refactored_sections)
+        with open(synth_path, 'w', encoding='utf-8') as f:
+            f.write(synth_report)
 
         return True
 
