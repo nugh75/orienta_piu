@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "L'orientamento è menzionato in diversi punti del documento, ma non esiste una sezione dedicata specifica con un titolo esplicito. L'assenza di una struttura dedicata non giustifica un punteggio più alto."
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-26T23:26:24.777856"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -80,7 +82,7 @@
         "score": 5
       },
       "azione_dialogo_docenti_studenti": {
-        "score": 6
+        "score": 2
       },
       "azione_rapporto_scuola_genitori": {
         "score": 5
@@ -210,5 +212,51 @@
       "evidence_location": "Pagina 80"
     }
   ],
-  "narrative": "# Analisi del PTOF RMEE8DM01Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Via Coni Zugna\" (RMEE8DM01Q) per il triennio 2022-2025. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'offerta didattica e le attività opzionali. Il PTOF dimostra un impegno nell'orientamento, sebbene manchi una sezione specificamente dedicata e strutturata. Le finalità orientative sono ben definite, con particolare attenzione allo sviluppo delle attitudini, degli interessi e alla preparazione alle transizioni formative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento, pur presente nel documento, non beneficia di una sezione dedicata con un titolo esplicito, ottenendo un punteggio di 3. Questo suggerisce una mancanza di focalizzazione strutturale sull'orientamento come area tematica autonoma.\n\n**2.2 Partnership:**\n\nLa scuola ha stabilito partnership con diversi soggetti esterni, tra cui **Agenzia del Lavoro**, **Confcommercio**, **Centri di Formazione Professionale**, **Centri per l'impiego**, **ITS** e **Aziende locali**. Questo network di collaborazioni, composto da 6 partner, rappresenta un punto di forza per l'orientamento, offrendo opportunità di contatto con il mondo del lavoro.\n\n**2.3 Finalità:**\n\nLe finalità orientative sono chiaramente definite. La scuola si impegna a promuovere la conoscenza delle proprie **attitudini** e **potenzialità**, a sviluppare l'interesse per i diversi ambiti del sapere e del mondo del lavoro, ad aiutare gli alunni a progettare il proprio futuro, a supportare gli studenti nelle **transizioni formative** e a sviluppare la capacità di cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi stabiliti includono la riduzione dell'**abbandono** scolastico, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Sebbene alcuni obiettivi siano più ambiziosi di altri, l'insieme riflette una visione olistica dell'orientamento.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nella presenza di un network di partnership con il mondo del lavoro e nell'impegno a promuovere un approccio didattico esperienziale e interdisciplinare. Le attività proposte, come le **visite alle scuole secondarie di secondo grado** e gli **incontri con professionisti**, sono concrete e mirate a fornire agli studenti informazioni utili per l'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questa mancanza di strutturazione potrebbe limitare la visibilità e l'efficacia delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come area tematica autonoma all'interno del PTOF, definendo obiettivi specifici, azioni mirate e indicatori di monitoraggio. Questo consentirebbe di rafforzare l'impegno della scuola verso l'orientamento e di garantire una maggiore coerenza tra le diverse iniziative.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria \"Via Coni Zugna\" dimostra un'attenzione all'orientamento, sebbene con alcune lacune strutturali. Le partnership attivate, le finalità ben definite e le attività proposte rappresentano un buon punto di partenza. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario creare una sezione dedicata all'interno del PTOF, definendo obiettivi specifici e indicatori di monitoraggio. Le attività come le **visite guidate alle aziende locali** e gli **incontri con esperti** sono da incentivare e potenziare."
+  "narrative": "# Analisi del PTOF RMEE8DM01Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Via Coni Zugna\" (RMEE8DM01Q) per il triennio 2022-2025. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'offerta didattica e le attività opzionali. Il PTOF dimostra un impegno nell'orientamento, sebbene manchi una sezione specificamente dedicata e strutturata. Le finalità orientative sono ben definite, con particolare attenzione allo sviluppo delle attitudini, degli interessi e alla preparazione alle transizioni formative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento, pur presente nel documento, non beneficia di una sezione dedicata con un titolo esplicito, ottenendo un punteggio di 3. Questo suggerisce una mancanza di focalizzazione strutturale sull'orientamento come area tematica autonoma.\n\n**2.2 Partnership:**\n\nLa scuola ha stabilito partnership con diversi soggetti esterni, tra cui **Agenzia del Lavoro**, **Confcommercio**, **Centri di Formazione Professionale**, **Centri per l'impiego**, **ITS** e **Aziende locali**. Questo network di collaborazioni, composto da 6 partner, rappresenta un punto di forza per l'orientamento, offrendo opportunità di contatto con il mondo del lavoro.\n\n**2.3 Finalità:**\n\nLe finalità orientative sono chiaramente definite. La scuola si impegna a promuovere la conoscenza delle proprie **attitudini** e **potenzialità**, a sviluppare l'interesse per i diversi ambiti del sapere e del mondo del lavoro, ad aiutare gli alunni a progettare il proprio futuro, a supportare gli studenti nelle **transizioni formative** e a sviluppare la capacità di cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi stabiliti includono la riduzione dell'**abbandono** scolastico, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Sebbene alcuni obiettivi siano più ambiziosi di altri, l'insieme riflette una visione olistica dell'orientamento.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nella presenza di un network di partnership con il mondo del lavoro e nell'impegno a promuovere un approccio didattico esperienziale e interdisciplinare. Le attività proposte, come le **visite alle scuole secondarie di secondo grado** e gli **incontri con professionisti**, sono concrete e mirate a fornire agli studenti informazioni utili per l'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questa mancanza di strutturazione potrebbe limitare la visibilità e l'efficacia delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come area tematica autonoma all'interno del PTOF, definendo obiettivi specifici, azioni mirate e indicatori di monitoraggio. Questo consentirebbe di rafforzare l'impegno della scuola verso l'orientamento e di garantire una maggiore coerenza tra le diverse iniziative.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria \"Via Coni Zugna\" dimostra un'attenzione all'orientamento, sebbene con alcune lacune strutturali. Le partnership attivate, le finalità ben definite e le attività proposte rappresentano un buon punto di partenza. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario creare una sezione dedicata all'interno del PTOF, definendo obiettivi specifici e indicatori di monitoraggio. Le attività come le **visite guidate alle aziende locali** e gli **incontri con esperti** sono da incentivare e potenziare.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-26T22:56:09.224506",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 10,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": false,
+        "changes": [
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_dialogo_docenti_studenti.score",
+            "old": 6,
+            "new": 2,
+            "reason": "Il testo mostra descrizioni molto generiche delle attività didattiche senza evidenze specifiche di a"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T23:27:22.710139",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 10,
+        "enrichments_found": 36,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-26T22:56:09.224523",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    }
+  ]
 }

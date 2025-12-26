@@ -78,7 +78,7 @@
         "score": 5
       },
       "obiettivo_lifelong_learning": {
-        "score": 6
+        "score": 5
       }
     },
     "2_5_azioni_sistema": {
@@ -86,13 +86,13 @@
         "score": 5
       },
       "azione_dialogo_docenti_studenti": {
-        "score": 6
+        "score": 5
       },
       "azione_rapporto_scuola_genitori": {
         "score": 5
       },
       "azione_monitoraggio_azioni": {
-        "score": 6
+        "score": 5
       },
       "azione_sistema_integrato_inclusione_fragilita": {
         "score": 5
@@ -106,7 +106,7 @@
         "score": 3
       },
       "didattica_flessibilita_spazi_tempi": {
-        "score": 6
+        "score": 5
       },
       "didattica_interdisciplinare": {
         "score": 5
@@ -117,7 +117,7 @@
         "score": 3
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 6
+        "score": 5
       },
       "opzionali_ludiche_ricreative": {
         "score": 3
@@ -369,6 +369,50 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-26T23:30:22.314727",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 27,
+        "extreme_scores_checked": 6,
+        "scores_modified": 5,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_6_didattica_orientativa.didattica_flessibilita_spazi_tempi.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non menziona esplicitamente la flessibilità negli spazi e nei tempi per supportare l'orient"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_laboratoriali_espressive.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona laboratori esperienziali per alunni stranieri, ma non esplicita una gamma ampia di"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_lifelong_learning.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'accompagnamento alla scelta futura e alla vita professionale, ma non esplicita u"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_dialogo_docenti_studenti.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona il dialogo psicopedagogico e l'ascolto, ma non fornisce dettagli specifici su mecc"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo non menziona esplicitamente un sistema di monitoraggio delle azioni di orientamento o di al"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -383,6 +427,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 2
+    },
+    {
+      "timestamp": "2025-12-26T23:30:22.314745",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 5
     }
   ]
 }

@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 5,
-      "note": "Non è presente una sezione dedicata all'orientamento. L'orientamento è affrontato in modo frammentario all'interno di altre sezioni del PTOF, come 'Reti e Convenzioni attivate' (pag. 204-210) e 'Piano di formazione del personale docente' (pag. 219-221)."
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-26T23:09:39.163847"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -492,6 +494,22 @@
             "reason": "Il testo menziona iniziative per ridurre i casi di insuccesso e disagio scolastico, corsi di recuper"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T23:10:47.287763",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 13,
+        "enrichments_found": 25,
+        "corrections_found": 14,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

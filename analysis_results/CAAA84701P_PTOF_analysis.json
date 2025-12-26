@@ -20,10 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 4,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=4, has_sezione_dedicata=1)",
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=4, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-25T00:12:19.066480"
+      "ollama_review_date": "2025-12-26T23:13:35.631969"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -381,6 +381,22 @@
             "reason": "Il Piano dell'Orientamento prevede il controllo e monitoraggio della dispersione scolastica e contin"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T23:14:49.946519",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 7,
+        "enrichments_found": 16,
+        "corrections_found": 6,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

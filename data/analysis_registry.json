@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-26T22:52:36.167455",
+  "last_updated": "2025-12-27T00:13:18.552684",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -385,9 +385,25 @@
             "scores_modified": 4,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-27T00:11:54.058540",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 29,
+            "enrichments_found": 70,
+            "corrections_found": 20,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
         }
       ],
-      "last_review": "2025-12-24T18:33:30.310799"
+      "last_review": "2025-12-27T00:11:54.058549"
     },
     "BNTD022019": {
       "pdf_hash": "unknown",
@@ -485,19 +501,9 @@
             "report_enriched": true,
             "initial_issues": 1
           }
-        },
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:45:19.528685",
-          "details": {
-            "note": "Nessuno score estremo da revisionare",
-            "orientamento_issue": false
-          }
         }
       ],
-      "last_review": "2025-12-26T22:45:19.528691"
+      "last_review": "2025-12-24T18:50:54.623099"
     },
     "TAEE80501N": {
       "pdf_hash": "unknown",
@@ -725,26 +731,7 @@
       "analyzed_at": "2025-12-24T22:45:32.059508",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/SSMM84601B_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/SSMM84601B_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_report_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:44:11.002019",
-          "details": {
-            "action": "enrich",
-            "chunks_analyzed": 4,
-            "enrichments_found": 6,
-            "corrections_found": 4,
-            "orientamento_found": false,
-            "report_created": false,
-            "report_enriched": true,
-            "initial_issues": 1
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:44:11.002026"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/SSMM84601B_ptof.md"
     },
     "NAAA8BW034": {
       "pdf_hash": "sha256:ce44d3efd4a6cf97342474d4bee92cfe819486276878879882c6110fe73fd0cf",
@@ -852,20 +839,7 @@
       "analyzed_at": "2025-12-24T23:34:01.014243",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CAAA84701P_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CAAA84701P_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:45:19.520052",
-          "details": {
-            "note": "Nessuno score estremo da revisionare",
-            "orientamento_issue": false
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:45:19.520060"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CAAA84701P_ptof.md"
     },
     "RMRH06001X": {
       "pdf_hash": "sha256:4cd51ba9a7c5a31d74cdb10825d96af295eee4b2a3c8a840e02befb1038a9356",
@@ -1049,22 +1023,7 @@
       "analyzed_at": "2025-12-25T08:01:40.224081",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAMM8AP018_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAMM8AP018_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:47:21.374204",
-          "details": {
-            "chunks_analyzed": 3,
-            "extreme_scores_checked": 15,
-            "scores_modified": 9,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:47:21.374215"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAMM8AP018_ptof.md"
     },
     "TV1A24500D": {
       "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
@@ -1670,7 +1629,26 @@
       "analyzed_at": "2025-12-25T14:39:51.762415",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NA1E23700N_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1E23700N_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NA1E23700N_ptof.md",
+      "reviews": [
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-27T00:13:18.552559",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 2,
+            "enrichments_found": 4,
+            "corrections_found": 2,
+            "orientamento_found": false,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 1
+          }
+        }
+      ],
+      "last_review": "2025-12-27T00:13:18.552570"
     },
     "LTEE805023": {
       "pdf_hash": "sha256:79dc3ded8cebfbf01d867981481024bb287f1f82b4ce8240b4540fb9a7e64d87",
@@ -1773,22 +1751,7 @@
       "analyzed_at": "2025-12-25T15:35:45.268017",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CA1A03800D_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CA1A03800D_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:52:36.167387",
-          "details": {
-            "chunks_analyzed": 8,
-            "extreme_scores_checked": 9,
-            "scores_modified": 5,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:52:36.167398"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CA1A03800D_ptof.md"
     },
     "MIIC895002": {
       "pdf_hash": "sha256:d3eea9830b02194f5ee5921953d61777e6d2f7f2e11b3c50c4fc86b70d0e9d7c",
@@ -2973,22 +2936,7 @@
       "analyzed_at": "2025-12-26T06:30:51.413440",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NAAA8HH019_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NAAA8HH019_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:47:52.722545",
-          "details": {
-            "chunks_analyzed": 1,
-            "extreme_scores_checked": 13,
-            "scores_modified": 0,
-            "orientamento_found": false
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:47:52.722560"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NAAA8HH019_ptof.md"
     },
     "NA1E20200P": {
       "pdf_hash": "sha256:b6bfd4319a1c6372af59d54af6e6a43cf702428c25d6e1f708c544745039f8a2",
@@ -3159,26 +3107,7 @@
       "analyzed_at": "2025-12-26T08:12:33.535743",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/NAIC850002_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NAIC850002_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_report_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:49:56.121966",
-          "details": {
-            "action": "enrich",
-            "chunks_analyzed": 9,
-            "enrichments_found": 18,
-            "corrections_found": 2,
-            "orientamento_found": false,
-            "report_created": false,
-            "report_enriched": true,
-            "initial_issues": 1
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:49:56.121976"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/NAIC850002_ptof.md"
     },
     "CSTD07701N": {
       "pdf_hash": "sha256:98d6fabdc598f7b00a8692cbe963aa41d873966db7d724725ec53581b658729a",
@@ -3463,22 +3392,7 @@
       "analyzed_at": "2025-12-26T16:54:00.012328",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/VEMM87301E_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEMM87301E_ptof.md",
-      "reviews": [
-        {
-          "type": "ollama_score_review",
-          "model": "qwen3:32b",
-          "status": "completed",
-          "timestamp": "2025-12-26T22:45:17.498897",
-          "details": {
-            "chunks_analyzed": 14,
-            "extreme_scores_checked": 3,
-            "scores_modified": 4,
-            "orientamento_found": true
-          }
-        }
-      ],
-      "last_review": "2025-12-26T22:45:17.498912"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/VEMM87301E_ptof.md"
     },
     "CT1M02300G": {
       "pdf_hash": "sha256:72158ef3abb1c3a1cfef004e9e2114523481af0ce31197beb0d0242e288839b3",
@@ -3668,6 +3582,15 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PDEE87406E_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PDEE87406E_ptof.md"
+    },
+    "GEPS17000A": {
+      "pdf_hash": "sha256:e68510d6a731a9f487925c61e0a5db85af4ca933c5f138ce519e24958936a160",
+      "pdf_name": "GEPS17000A_PTOF.pdf",
+      "pdf_size": 2151854,
+      "analyzed_at": "2025-12-27T00:10:01.776153",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/GEPS17000A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/GEPS17000A_ptof.md"
     }
   }
 }

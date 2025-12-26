@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 4,
       "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=4, has_sezione_dedicata=1)",
       "ollama_reviewed": true,
       "ollama_review_date": "2025-12-25T00:12:19.066480"
@@ -65,7 +65,7 @@
         "evidence_location": "Pag. 69"
       },
       "finalita_progetto_vita": {
-        "score": 2,
+        "score": 4,
         "evidence_quote": null,
         "evidence_location": null
       },
@@ -88,7 +88,7 @@
         "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 2
+        "score": 3
       },
       "obiettivo_lifelong_learning": {
         "score": 3
@@ -105,7 +105,7 @@
         "score": 4
       },
       "azione_monitoraggio_azioni": {
-        "score": 2
+        "score": 4
       },
       "azione_sistema_integrato_inclusione_fragilita": {
         "score": 5
@@ -344,6 +344,52 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:37:07.610767",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 7,
+        "extreme_scores_checked": 4,
+        "scores_modified": 4,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 4,
+            "reason": "Il testo mostra attività concrete di orientamento come il Piano dell'Orientamento che coinvolge i tr"
+          },
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_progetto_vita.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il Piano dell'Orientamento ha finalità chiare come lo sviluppo della conoscenza del sé, l'imparare a"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento menziona l'integrazione giovanile e l'acquisizione di competenze trasversali, che posso"
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il Piano dell'Orientamento prevede il controllo e monitoraggio della dispersione scolastica e contin"
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T00:37:07.610782",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 4
     }
   ]
 }

@@ -20,7 +20,7 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 1,
+      "score": 2,
       "note": "L'orientamento è menzionato all'interno di altri capitoli, con attività integrate in moduli come \"Modelli di orientamento\" (Pagina 28) e \"Cittadini della Magna Grecia\" (Pagina 61). Tuttavia, non esiste una sezione dedicata esplicitamente all'orientamento."
     },
     "2_2_partnership": {
@@ -77,7 +77,7 @@
         "score": 5
       },
       "obiettivo_contrastare_neet": {
-        "score": 1
+        "score": 3
       },
       "obiettivo_lifelong_learning": {
         "score": 4
@@ -94,7 +94,7 @@
         "score": 4
       },
       "azione_monitoraggio_azioni": {
-        "score": 2
+        "score": 4
       },
       "azione_sistema_integrato_inclusione_fragilita": {
         "score": 5
@@ -125,7 +125,7 @@
         "score": 3
       },
       "opzionali_volontariato": {
-        "score": 2
+        "score": 3
       },
       "opzionali_sportive": {
         "score": 4
@@ -302,5 +302,69 @@
       "evidence_location": "Pagina 85"
     }
   ],
-  "narrative": "Il Piano Triennale dell'Istituto Comprensivo Lipari (2022-2025) si configura come un documento organico e coerente, volto a delineare una visione educativa inclusiva e orientata al futuro. L'analisi delle finalità, degli obiettivi e delle azioni previste evidenzia un impegno significativo verso lo sviluppo integrale degli alunni, con particolare attenzione alle attitudini, agli interessi e alla progettazione del proprio percorso di vita. \n\nLa scuola dimostra una forte capacità di collaborare con il territorio, stringendo partnership con enti locali, associazioni e istituzioni diverse (Servizi Sociali, Marevivo, ASL, ecc.). Queste collaborazioni si traducono in progetti concreti, come \"All Inclusive\" e \"Mercatino solidale\", che mirano a contrastare la dispersione scolastica, promuovere la cittadinanza attiva e la sostenibilità ambientale. Le attività laboratoriali, pur non configurando un modello didattico strutturale, arricchiscono l'offerta formativa e stimolano l'apprendimento esperienziale, come dimostrano iniziative come \"Quando il nonno è rock\" e \"Cinema In Classe\".\n\nUn punto di forza del PTOF è l'attenzione all'inclusione scolastica, con azioni mirate a supportare gli alunni con fragilità e a garantire pari opportunità di apprendimento (Pag. 103-111).  Si evidenzia, inoltre, un impegno crescente verso il lifelong learning, con progetti come \"Lettura sostenibile\" e \"Club di scrittura creativa\" che incentivano la curiosità intellettuale e l'apprendimento continuo.  \n\nNonostante l'assenza di una sezione dedicata all'orientamento, il PTOF integra attività orientative all'interno di altri moduli, riconoscendo l'importanza di accompagnare gli alunni nelle scelte formative e professionali.  L'organizzazione delle attività, la chiarezza degli obiettivi e la coerenza tra finalità e azioni testimoniano l'impegno dell'Istituto Comprensivo Lipari nel promuovere una scuola aperta, inclusiva e orientata al successo formativo di tutti gli alunni."
+  "narrative": "Il Piano Triennale dell'Istituto Comprensivo Lipari (2022-2025) si configura come un documento organico e coerente, volto a delineare una visione educativa inclusiva e orientata al futuro. L'analisi delle finalità, degli obiettivi e delle azioni previste evidenzia un impegno significativo verso lo sviluppo integrale degli alunni, con particolare attenzione alle attitudini, agli interessi e alla progettazione del proprio percorso di vita. \n\nLa scuola dimostra una forte capacità di collaborare con il territorio, stringendo partnership con enti locali, associazioni e istituzioni diverse (Servizi Sociali, Marevivo, ASL, ecc.). Queste collaborazioni si traducono in progetti concreti, come \"All Inclusive\" e \"Mercatino solidale\", che mirano a contrastare la dispersione scolastica, promuovere la cittadinanza attiva e la sostenibilità ambientale. Le attività laboratoriali, pur non configurando un modello didattico strutturale, arricchiscono l'offerta formativa e stimolano l'apprendimento esperienziale, come dimostrano iniziative come \"Quando il nonno è rock\" e \"Cinema In Classe\".\n\nUn punto di forza del PTOF è l'attenzione all'inclusione scolastica, con azioni mirate a supportare gli alunni con fragilità e a garantire pari opportunità di apprendimento (Pag. 103-111).  Si evidenzia, inoltre, un impegno crescente verso il lifelong learning, con progetti come \"Lettura sostenibile\" e \"Club di scrittura creativa\" che incentivano la curiosità intellettuale e l'apprendimento continuo.  \n\nNonostante l'assenza di una sezione dedicata all'orientamento, il PTOF integra attività orientative all'interno di altri moduli, riconoscendo l'importanza di accompagnare gli alunni nelle scelte formative e professionali.  L'organizzazione delle attività, la chiarezza degli obiettivi e la coerenza tra finalità e azioni testimoniano l'impegno dell'Istituto Comprensivo Lipari nel promuovere una scuola aperta, inclusiva e orientata al successo formativo di tutti gli alunni.",
+  "processing_history": [
+    {
+      "timestamp": "2025-12-26T23:09:45.162490",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 6,
+        "extreme_scores_checked": 4,
+        "scores_modified": 4,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+            "old": 1,
+            "new": 2,
+            "reason": "L'orientamento è menzionato in diversi moduli come \"Modelli di orientamento\" e \"Cittadini della Magn"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 1,
+            "new": 3,
+            "reason": "Il documento menziona attività di orientamento e progetti per il successo formativo, che potrebbero "
+          },
+          {
+            "path": "ptof_section2.2_5_azioni_sistema.azione_monitoraggio_azioni.score",
+            "old": 2,
+            "new": 4,
+            "reason": "Il documento include obiettivi strategici e traguardi attesi, che implicano un certo livello di moni"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_volontariato.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento menziona attività didattiche ed informative finalizzate all’acquisizione di comportamen"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-12-27T00:02:02.294605",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 6,
+        "enrichments_found": 11,
+        "corrections_found": 1,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-26T23:09:45.162509",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 4
+    }
+  ]
 }

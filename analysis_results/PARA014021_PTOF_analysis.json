@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "Esiste una sezione dedicata all'orientamento, sebbene integrata con la continuità. La descrizione è buona, ma manca una visione strategica a lungo termine."
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF è integrata con la continuità didattica e si sviluppa attraverso una serie di azioni specifiche, tra cui la collaborazione con Enti e Associazioni del ter (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-26T22:54:16.575665"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -295,6 +297,22 @@
             "reason": "Il documento menziona l'inclusione in modo generico (es. 'educazione alla legalità', 'riduzione dell"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T22:55:24.604373",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 19,
+        "corrections_found": 10,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],
