@@ -13,7 +13,7 @@ from typing import Dict, List, Optional, Tuple
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 MODEL_LISTER = BASE_DIR / "src" / "utils" / "list_models.py"
 
-DEFAULT_OPENROUTER_MODEL = "google/gemini-3-flash-preview:free"
+DEFAULT_OPENROUTER_MODEL = "z-ai/glm-4.5-air:free"
 DEFAULT_GEMINI_MODEL = "gemini-3-flash-preview"
 DEFAULT_OLLAMA_MODEL = "qwen3:32b"
 DEFAULT_OLLAMA_URL = "http://192.168.129.14:11434"

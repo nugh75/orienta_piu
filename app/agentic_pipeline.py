@@ -101,6 +101,9 @@ RESULTS_DIR = "analysis_results"
 # Chunking configuration
 CHUNK_SIZE = PIPELINE_CONFIG['chunking']['chunk_size']       # Max chars per chunk for Ollama (smaller context)
 LONG_DOC_THRESHOLD = PIPELINE_CONFIG['chunking']['long_doc_threshold']  # Use chunking for docs longer than this
+CHUNK_RETRY_MAX = int(os.environ.get("PTOF_CHUNK_RETRY_MAX", "5"))
+CHUNK_RETRY_BASE_WAIT = int(os.environ.get("PTOF_CHUNK_RETRY_WAIT", "10"))
+CHUNK_RETRY_MAX_WAIT = int(os.environ.get("PTOF_CHUNK_RETRY_MAX_WAIT", "120"))
 
 # Import chunker and utilities
 try:
@@ -890,16 +893,53 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         # Analyze each chunk
         partial_results = []
         for i, chunk in enumerate(chunks):
-            if status_callback: status_callback(f"Analyst: Chunk {i+1}/{len(chunks)}...")
-            
-            chunk_draft = analyst.draft_chunk(chunk, i+1, len(chunks))
-            if chunk_draft:
+            if status_callback:
+                status_callback(f"Analyst: Chunk {i+1}/{len(chunks)}...")
+
+            attempt = 0
+            while True:
+                chunk_draft = analyst.draft_chunk(chunk, i+1, len(chunks))
+                if not chunk_draft or not str(chunk_draft).strip():
+                    attempt += 1
+                    if attempt >= CHUNK_RETRY_MAX:
+                        msg = f"[Pipeline] Chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (empty response)."
+                        logging.error(msg)
+                        if status_callback:
+                            status_callback(f"{msg} Stop.")
+                        return None
+                    wait_time = min(CHUNK_RETRY_BASE_WAIT * (2 ** (attempt - 1)), CHUNK_RETRY_MAX_WAIT)
+                    logging.warning(
+                        f"[Pipeline] Chunk {i+1} empty response. Retry {attempt}/{CHUNK_RETRY_MAX} in {wait_time}s."
+                    )
+                    if status_callback:
+                        status_callback(
+                            f"Retry chunk {i+1}: empty response ({attempt}/{CHUNK_RETRY_MAX})."
+                        )
+                    time.sleep(wait_time)
+                    continue
+
                 chunk_draft = sanitize_json(chunk_draft)
                 try:
                     partial_json = json.loads(chunk_draft)
                     partial_results.append(partial_json)
-                except:
-                    logging.warning(f"[Pipeline] Chunk {i+1} parse failed")
+                    break
+                except Exception as e:
+                    attempt += 1
+                    if attempt >= CHUNK_RETRY_MAX:
+                        msg = f"[Pipeline] Chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (parse error)."
+                        logging.error(f"{msg} Last error: {e}")
+                        if status_callback:
+                            status_callback(f"{msg} Stop.")
+                        return None
+                    wait_time = min(CHUNK_RETRY_BASE_WAIT * (2 ** (attempt - 1)), CHUNK_RETRY_MAX_WAIT)
+                    logging.warning(
+                        f"[Pipeline] Chunk {i+1} parse failed. Retry {attempt}/{CHUNK_RETRY_MAX} in {wait_time}s."
+                    )
+                    if status_callback:
+                        status_callback(
+                            f"Retry chunk {i+1}: parse failed ({attempt}/{CHUNK_RETRY_MAX})."
+                        )
+                    time.sleep(wait_time)
         
         if not partial_results:
             logging.error("[Pipeline] No valid chunk results")

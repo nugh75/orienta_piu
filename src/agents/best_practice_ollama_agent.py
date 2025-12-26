@@ -933,10 +933,14 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
                     last_error = "gemini_error"
 
             if self.openrouter_key:
+                if self.gemini_key:
+                    print(f"      ↪️ {stage_label}: fallback OpenRouter ({self.fallback_model})")
                 success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
                 if success and response:
                     response = self._clean_llm_response(response)
                     if validate_fn(response):
+                        if self.gemini_key:
+                            print(f"      ✅ {stage_label}: fallback OpenRouter riuscito")
                         return response, attempts, "", "openrouter"
                     last_error = "openrouter_invalid"
                 elif not success:
@@ -960,6 +964,35 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
             content = refactored_sections.get(section_name, section_content)
             synth_report += f"## {section_name}\n\n{content}\n\n---\n\n"
         return synth_report
+
+    def _build_provider_summary(self, sections, synth_state):
+        """Costruisce una tabella provider per sezione (ultimo refactoring)."""
+        if not synth_state:
+            return ""
+        section_states = synth_state.get("sections", {})
+        rows = []
+        for section_name in sections.keys():
+            if section_name == "Introduzione":
+                continue
+            provider = section_states.get(section_name, {}).get("provider") or "N/D"
+            rows.append(f"| {section_name} | {provider} |")
+        if not rows:
+            return ""
+        table = "\n".join(["| Sezione | Provider |", "|---|---|"] + rows)
+        return f"\n**Provider per sezione (ultimo refactoring):**\n\n{table}\n"
+
+    def _build_synth_header(self, sections, synth_state):
+        """Header per il report sintetico con provider effettivi."""
+        provider_note = self._build_provider_summary(sections, synth_state)
+        return f"""# Report Sintetico Best Practice Orientamento
+
+*Modello primario: {self.refactor_model}*
+*Basato su {len(self.processed_schools)} scuole analizzate*
+*Generato il: {datetime.now().strftime('%d/%m/%Y %H:%M')}*
+{provider_note}
+---
+
+"""
 
     def extract_sections(self, report_text):
         """Estrae le sezioni principali dal report."""

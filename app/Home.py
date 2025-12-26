@@ -160,8 +160,7 @@ with kpi_cols[5]:
     n_tipi = df['tipo_scuola'].nunique() if 'tipo_scuola' in df.columns else 0
     st.metric("📚 Tipologie Scuola", n_tipi)
 
-st.markdown(
-    """
+tipologie_canoniche_md = """
 **Tipologie scuola canoniche (6):**
 - Infanzia
 - Primaria
@@ -169,9 +168,11 @@ st.markdown(
 - Liceo
 - Tecnico
 - Professionale
-
-_Nota: il KPI “Tipologie Scuola” può risultare >6 perché il campo `tipo_scuola` nel CSV contiene combinazioni di più ordini (es. "Infanzia, Primaria, I Grado")._
 """
+
+tipologie_note_md = (
+    "_Nota: il KPI “Tipologie Scuola” può risultare >6 perché il campo `tipo_scuola` nel "
+    'dataset contiene combinazioni di più ordini (es. "Infanzia, Primaria, I Grado")._'
 )
 
 if 'tipo_scuola' in df.columns:
@@ -180,8 +181,16 @@ if 'tipo_scuola' in df.columns:
     if not tipo_series.empty:
         tipo_counts = tipo_series.value_counts().reset_index()
         tipo_counts.columns = ['Tipologia (combinazioni)', 'N. Scuole']
-        with st.expander("Toplist tipologie (combinazioni presenti nel CSV)"):
+        with st.expander("Toplist tipologie (combinazioni presenti nel dataset)"):
+            st.markdown(tipologie_canoniche_md)
+            st.markdown(tipologie_note_md)
             st.dataframe(tipo_counts, use_container_width=True, hide_index=True)
+    else:
+        st.markdown(tipologie_canoniche_md)
+        st.markdown(tipologie_note_md)
+else:
+    st.markdown(tipologie_canoniche_md)
+    st.markdown(tipologie_note_md)
 
 st.markdown("---")
 

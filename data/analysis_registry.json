@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-26T15:18:48.903687",
+  "last_updated": "2025-12-26T15:42:23.686625",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -185,9 +185,18 @@
             "report_enriched": true,
             "initial_issues": 1
           }
+        },
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:33:28.116558",
+          "details": {
+            "error": "no_response"
+          }
         }
       ],
-      "last_review": "2025-12-24T18:28:19.436409"
+      "last_review": "2025-12-26T15:33:28.116584"
     },
     "CAEE89005A": {
       "pdf_hash": "sha256:4a15ea83bdc360da1e4c1b8480c3e1e027a18d1d4f100e829f4463c97879be1f",
@@ -249,9 +258,19 @@
             "report_enriched": true,
             "initial_issues": 1
           }
+        },
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "completed",
+          "timestamp": "2025-12-26T15:27:17.272870",
+          "details": {
+            "scores_updated": 0,
+            "no_extreme_scores": true
+          }
         }
       ],
-      "last_review": "2025-12-24T18:15:27.243323"
+      "last_review": "2025-12-26T15:27:17.272906"
     },
     "RAMM81301P": {
       "pdf_hash": "sha256:43daac952e99d5a164762c951b6dda3d12184aa18bdf8b22bf5005fe95a61589",
@@ -1114,7 +1133,20 @@
       "analyzed_at": "2025-12-25T09:40:39.525282",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/MIPMU4500Z_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MIPMU4500Z_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/MIPMU4500Z_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "completed",
+          "timestamp": "2025-12-26T15:23:11.506640",
+          "details": {
+            "scores_updated": 9,
+            "scores_total": 9
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:23:11.506657"
     },
     "GEIS018003": {
       "pdf_hash": "sha256:4df6062e816771f7da3ca5406878233f9c27ff43bfa204ac6519405f8e624176",
@@ -1828,7 +1860,28 @@
       "analyzed_at": "2025-12-25T17:27:58.536259",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAIC89900Q_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAIC89900Q_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAIC89900Q_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:27:17.912066",
+          "details": {
+            "error": "no_response"
+          }
+        },
+        {
+          "type": "openrouter_score_review",
+          "model": "google/gemini-3-flash-preview:free",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:37:53.227072",
+          "details": {
+            "error": "no_response"
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:37:53.227114"
     },
     "LT1E00400C": {
       "pdf_hash": "sha256:a2ecb8d978ad7db5e3e7c9624efd191f45c2c9ceb4633d062d387ae209aa2ec5",
@@ -2164,7 +2217,20 @@
       "analyzed_at": "2025-12-25T21:04:24.750924",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BSRC00901V_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BSRC00901V_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BSRC00901V_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "completed",
+          "timestamp": "2025-12-26T15:31:25.624761",
+          "details": {
+            "scores_updated": 0,
+            "no_extreme_scores": true
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:31:25.624830"
     },
     "PAEE8A8026": {
       "pdf_hash": "sha256:f3b83831a7d9e9a28db0fce262069dd2b5ee6289be8b48208a769b0d5fab06b0",
@@ -2586,7 +2652,19 @@
       "analyzed_at": "2025-12-26T04:05:42.200650",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/TOMM8A6012_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TOMM8A6012_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/TOMM8A6012_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:31:26.470565",
+          "details": {
+            "error": "no_response"
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:31:26.470584"
     },
     "CZEE87401N": {
       "pdf_hash": "sha256:f25914d8ec9c342d1087b7d82bbd5f49dc56cbb9bf197edb7a4783e94f703dd1",
@@ -3036,7 +3114,37 @@
       "analyzed_at": "2025-12-26T08:35:08.974026",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/CNIS01100D_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CNIS01100D_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/CNIS01100D_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:25:06.247431",
+          "details": {
+            "error": "no_response"
+          }
+        },
+        {
+          "type": "openrouter_score_review",
+          "model": "google/gemini-3-flash-preview:free",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:35:17.363435",
+          "details": {
+            "error": "no_response"
+          }
+        },
+        {
+          "type": "openrouter_score_review",
+          "model": "z-ai/glm-4.5-air:free",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:42:23.686487",
+          "details": {
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:42:23.686517"
     },
     "MIPC09500C": {
       "pdf_hash": "sha256:aa7d9a719e3cec93e57354ce32afb9e29d5d8f691e1212043e3f4462f809e910",
@@ -3072,7 +3180,19 @@
       "analyzed_at": "2025-12-26T08:53:48.981529",
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PDPS035006_PTOF_analysis.json",
       "workflow_version": "1.0",
-      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PDPS035006_ptof.md"
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PDPS035006_ptof.md",
+      "reviews": [
+        {
+          "type": "gemini_score_review",
+          "model": "gemini-3-flash-preview",
+          "status": "failed",
+          "timestamp": "2025-12-26T15:29:31.596729",
+          "details": {
+            "error": "no_response"
+          }
+        }
+      ],
+      "last_review": "2025-12-26T15:29:31.596764"
     },
     "FIMM825016": {
       "pdf_hash": "sha256:992063bf97926b16b133e1611edbefa8f29f8438c9607fd0d8708aacdd5185ba",

@@ -2,7 +2,7 @@
 """
 Slow Reviewer - Revisione PTOF con modelli OpenRouter Free
 Strategia:
-- Usa modelli potenti ma gratuiti (es. gemini-3-flash-preview:free)
+- Usa modelli potenti ma gratuiti (es. z-ai/glm-4.5-air:free)
 - Attesa lunga tra le chiamate per evitare rate limit
 - Backoff esponenziale in caso di errore
 - Persistenza dello stato per riprendere l'esecuzione
@@ -51,7 +51,7 @@ STATUS_FILE = BASE_DIR / "data" / "review_status.json"
 API_CONFIG_FILE = BASE_DIR / "data" / "api_config.json"
 
 # Default settings
-DEFAULT_MODEL = "google/gemini-3-flash-preview:free"  # Aggiornato Dic 2025
+DEFAULT_MODEL = "z-ai/glm-4.5-air:free"  # Aggiornato Dic 2025
 DEFAULT_WAIT = 120  # secondi
 MAX_RETRIES = 3
 

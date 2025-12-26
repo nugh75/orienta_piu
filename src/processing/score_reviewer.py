@@ -64,7 +64,7 @@ API_CONFIG_FILE = BASE_DIR / "data" / "api_config.json"
 
 # Defaults
 DEFAULT_PROVIDER = "openrouter"
-DEFAULT_OPENROUTER_MODEL = "google/gemini-3-flash-preview:free"
+DEFAULT_OPENROUTER_MODEL = "z-ai/glm-4.5-air:free"
 DEFAULT_GEMINI_MODEL = "gemini-3-flash-preview"
 DEFAULT_WAIT = 120  # seconds
 DEFAULT_LOW_THRESHOLD = 2

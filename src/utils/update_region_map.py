@@ -148,7 +148,7 @@ Rispondi SOLO con il JSON, senza markdown o altro testo."""
                 "HTTP-Referer": "https://github.com/LIste-PTOF"
             },
             json={
-                "model": "google/gemini-3-flash-preview:free",
+                "model": "z-ai/glm-4.5-air:free",
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.1
             },

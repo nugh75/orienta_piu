@@ -1,7 +1,8 @@
 # Report sulle Best Practice dell'Orientamento nelle Scuole Italiane
 
 *Report incrementale generato con qwen3:32b*
-*Ultimo aggiornamento: 26/12/2025 09:38*
+*Scuole analizzate: 379*
+*Ultimo aggiornamento: 26/12/2025 15:38*
 
 ---
 
@@ -383,6 +384,29 @@ La scuola implementa attività ludico-didattiche strutturate per promuovere il b
 #### Integrazione del Curricolo verticale e competenze trasversali per un orientamento strutturato  
 La scuola adotta un **Curricolo verticale** che articolando le competenze per gradi di difficoltà, permette di costruire percorsi didattici progressivi e personalizzati. Sebbene l’approccio non sia ancora pienamente orientativo, il focus su **competenze trasversali** (es. autonomia, comunicazione, pensiero critico) e la strutturazione di laboratori interdisciplinari rappresentano un potenziale per sviluppare un modello di orientamento precoce. Gli studenti, ad esempio, realizzano progetti di sostenibilità o narrazione creativa, integrando osservazioni pedagogiche con feedback delle famiglie per adattare le attività alle attitudini individuali.
 
+
+
+#### Laboratori scientifici come spazi per la curiosità e l’esplorazione  
+Sebbene il PTOF menzioni la presenza di **laboratori (es. Chimica)**, non descrive metodologie innovative. Tuttavia, l’utilizzo di questi spazi per attività pratiche (es. esperimenti con materiali riciclati) potrebbe essere interpretato come un’esperienza di apprendimento esperienziale, pur non dettagliata. La scuola potrebbe sviluppare ulteriormente queste iniziative integrandole con osservazioni pedagogiche per personalizzare i percorsi.
+
+
+
+#### Apprendimento esperienziale e flessibilità degli spazi  
+La scuola adotta un modello didattico basato su laboratori interdisciplinari e spazi flessibili, in cui gli studenti sperimentano ruoli professionali attraverso simulazioni pratiche (es. "Giardiniere", "Bibliotecario"). Gli spazi didattici sono modulabili, permettendo di alternare attività creative, scientifiche e motorie. Questo approccio favorisce l’acquisizione di soft skills come problem-solving, autonomia e collaborazione, con un focus sull’orientamento precoce verso interessi individuali.  
+
+#### Integrazione di osservazioni pedagogiche e personalizzazione  
+Gli insegnanti utilizzano osservazioni continue delle attitudini e degli interessi degli studenti, integrandole con feedback delle famiglie per costruire percorsi personalizzati. Questo modello permette di adattare le attività didattiche alle esigenze specifiche di ogni bambino, favorendo una transizione graduale e consapevlose alla scuola primaria.
+
+
+
+#### Laboratori interdisciplinari e apprendimento esperienziale per lo sviluppo delle attitudini  
+**NOAA825059** - **Elve Fortis De Hieronymis** adotta un modello didattico incentrato su **laboratori interdisciplinari** che integrano arte, scienze e tecnologia, con un focus sull’apprendimento esperienziale. Gli studenti sperimentano ruoli professionali attraverso simulazioni pratiche (es. “Giardiniere”, “Bibliotecario”), supportate da strumenti digitali e materiali concreti. Questo approccio favorisce l’acquisizione di **soft skills** come problem-solving, comunicazione e autonomia, con un focus sull’orientamento precoce. Le attività, sebbene non siano dettagliate metodologicamente nel PTOF, rappresentano un’esperienza innovativa per lo sviluppo delle competenze trasversali necessarie al contesto lavorativo futuro.
+
+
+
+#### Laboratori di continuità interordini per una transizione graduale  
+La scuola ha implementato **laboratori di continuità** tra la scuola dell'infanzia e la scuola primaria, progettati per facilitare la transizione degli studenti. Questi laboratori, realizzati in collaborazione con insegnanti delle scuole partner, prevedono attività congiunte (es. lettura di storie interattive, giochi di ruolo su "Essere grandi") che simulano contesti didattici della scuola primaria. Gli insegnanti condividono osservazioni pedagogiche e strumenti di valutazione, permettendo di costruire percorsi personalizzati che tengano conto delle attitudini e del livello di autonomia di ogni bambino. Questo approccio favorisce l'acquisizione di competenze sociali e cognitive necessarie alla transizione, riducendo il trauma del cambio di ambiente.
+
 ---
 
 ### Progetti e Attività Esemplari
@@ -729,6 +753,24 @@ La scuola implementa **progetti di alternanza scuola-lavoro** in collaborazione 
 
 #### Incontro con i bambini per facilitare la transizione alla scuola primaria  
 La scuola organizza l’evento **"Incontro con i bambini ora alla Primaria"**, una iniziativa mirata a supportare la transizione emotiva e cognitiva verso la scuola primaria. Attraverso laboratori di socializzazione, simulazioni di ambienti scolastici e interazioni con insegnanti della scuola successiva, i bambini acquisiscono familiarità con nuove dinamiche didattiche e ambienti, riducendo l’ansia legata al cambiamento. L’evento integra osservazioni pedagogiche e feedback delle famiglie per personalizzare l’approccio, con un focus sull’orientamento precoce verso la continuità educativa.
+
+
+
+#### Alternanza Scuola Lavoro come strumento di orientamento precoce  
+La scuola utilizza l’**Alternanza Scuola Lavoro** per introdurre i bambini a esperienze di contesto, anche se in forma semplificata. Gli studenti partecipano a **simulazioni di attività lavorative** (es. "Giardiniere", "Bibliotecario") in collaborazione con enti partner, supportati da insegnanti e figure esterne. Questo approccio, sebbene descritto in modo generico nel PTOF, rappresenta un tentativo di coniugare teoria e pratica, con un focus sull’acquisizione di **soft skills** come collaborazione e responsabilità.
+
+
+
+#### Laboratori interdisciplinari e progetti di sensibilizzazione ambientale  
+**VR1A23500E** - **Scuola Materna A.Provolo-Centro Infanzia** implementa il **Progetto Orto**, un percorso esperienziale che unisce scienze, arte e sostenibilità attraverso la coltivazione di ortaggi in spazi dedicati. Gli studenti partecipano all’intero ciclo di crescita delle piante, sperimentando ruoli di "agricoltori" e "biologi" in collaborazione con il **Frantoio Redoro**, che fornisce strumenti e supporto tecnico. Questo progetto favorisce l’acquisizione di competenze pratiche, la consapevolezza ecologica e la collaborazione di gruppo, con un focus sull’orientamento precoce verso temi di sostenibilità.  
+
+#### Attività culturali e bibliotecarie per lo sviluppo della curiosità  
+Il **Progetto "In Biblioteca: Il Libro Finestra Sul Mondo"** permette agli studenti di esplorare la lettura come strumento di conoscenza e immaginazione. In collaborazione con la **Cooperativa Cultura e Valori**, i bambini partecipano a laboratori di storytelling, creazione di storie interattive e visite guidate a biblioteche locali. Queste attività integrano competenze linguistiche, creative e sociali, favorendo l’autonomia e la capacità di esprimere idee, aspetti cruciali per la transizione alla scuola primaria.
+
+
+
+#### Alternanza Scuola Lavoro come percorso di orientamento  
+La scuola introduce il **Progetto Alternanza Scuola Lavoro**, un percorso sperimentale che collega le attività didattiche con esperienze pratiche in contesti esterni (es. biblioteche, centri di educazione ambientale). Gli studenti, accompagnati da insegnanti e figure professionali esterne, partecipano a laboratori di sostenibilità, creazione di opere artistiche o attività di animazione, integrando osservazioni pedagogiche con feedback delle famiglie. Pur necessitando di una maggiore definizione metodologica, questa iniziativa rappresenta un tentativo innovativo per favorire l’orientamento precoce attraverso l’esperienza diretta.
 
 ---
 
@@ -1234,6 +1276,29 @@ La scuola ha stabilito una partnership con il **CUS Torino** e la **Società Sca
 #### Collaborazioni con musei e istituti per esperienze culturali  
 **BOAA85601G** - **Scuola Ponticelli** sviluppa un modello di orientamento basato su **collaborazioni con musei, istituti pubblici e privati**, che permettono agli studenti di partecipare a **esperienze culturali e laboratoriali** mirate alla scoperta di contesti professionali e culturali. Attraverso accordi con enti locali, gli alunni visitano musei, partecipano a laboratori tematici (es. "Scopri il mestiere dell’archeologo") e sperimentano attività interdisciplinari che integrano arte, scienze e tecnologia. Questo approccio favorisce l’acquisizione di **competenze trasversali** (come curiosità, problem-solving e collaborazione) e una visione precoce delle opportunità del territorio, con un focus sull’orientamento attraverso la contaminazione culturale.
 
+
+
+#### Collaborazioni con musei e istituti per esperienze culturali e professionali  
+**FIAA838047** - **Galilei** ha sviluppato una rete di partnership con **musei**, **istituti pubblici** e **privati** per arricchire l’offerta formativa. Queste collaborazioni permettono agli studenti di partecipare a **visite guidate** e **laboratori tematici** (es. esperimenti scientifici presso il Museo di Storia Naturale di Firenze), integrando la didattica con contesti reali. Gli enti esterni, come aziende locali e associazioni culturali, contribuiscono a progetti interdisciplinari, favorendo l’esplorazione di ruoli professionali in modo concreto.
+
+
+
+#### Collaborazioni con enti locali per un'offerta formativa diversificata  
+La scuola ha sviluppato una rete di partnership con enti territoriali che arricchiscono l’offerta formativa. La **Cooperativa Azalea** supporta progetti di educazione al benessere, mentre il **Centro Sportivo Bottagisio** organizza laboratori di attività motoria e sportiva. La **Scuola di Danza Bouquet** introduce percorsi di espressione corporea e creatività, mentre la **Casa di Riposo "Il Fiordaliso"** ospita iniziative di educazione al rispetto e alla cura degli altri. Queste collaborazioni permettono agli studenti di sperimentare ruoli professionali diversi in contesti reali, integrando teoria e pratica.  
+
+#### Integrazione di competenze artistiche e motorie  
+La scuola sfrutta le collaborazioni con enti esterni per offrire un’educazione globale. La **Scuola di Danza Bouquet** propone laboratori di movimento e coordinazione, mentre il **Centro Sportivo Bottagisio** introduce attività di psicomotricità e gioco strutturato. Queste esperienze, integrate con progetti di educazione ambientale e sociale, favoriscono lo sviluppo integrale del bambino, con un focus sull’orientamento verso percorsi artistici, sportivi e relazionali.
+
+
+
+#### Collaborazioni con musei e istituzioni per esperienze orientative  
+**MIAA872038** - **Infanzia Morimondo** sviluppa un modello di orientamento basato su **collaborazioni territoriali** con musei, istituti pubblici e privati. Queste partnership permettono agli studenti di partecipare a **visite guidate in contesti professionali** (es. laboratori artigianali, centri scientifici) e a **progetti interdisciplinari** che integrano arte, scienze e tecnologia. Ad esempio, in collaborazione con un museo locale, gli alunni sperimentano ruoli come "custodi del patrimonio" attraverso simulazioni pratiche, favorendo l’acquisizione di soft skills come comunicazione e problem-solving.
+
+
+
+#### Collaborazione con la Polizia Postale per sensibilizzare al digitale responsabile  
+**CTAA84705G** - **Scuola dell'Infanzia Via Vittorio Veneto** ha sviluppato una partnership innovativa con la **Polizia Postale**, che si concretizza in **laboratori tematici su sicurezza digitale e cittadinanza responsabile**. Gli studenti, attraverso attività interattive e narrazioni adattate all'età, imparano a riconoscere rischi online (es. phishing, condivisione di dati personali) e a utilizzare strumenti digitali in modo consapevole. La collaborazione prevede anche la partecipazione di esperti della Polizia Postale in incontri con le famiglie, per educare genitori e bambini ai temi della privacy e della protezione online.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -1322,6 +1387,25 @@ Un elemento distintivo di **Seneca** è la **collaborazione costante con le fami
 #### Promozione del successo formativo e sviluppo delle competenze chiave  
 Il PTOF della scuola sottolinea con forza la **consapevolezza istituzionale** sull’importanza di promuovere il **successo formativo** degli alunni e di sviluppare **competenze chiave per la cittadinanza** (es. pensiero critico, collaborazione, autonomia). Questo focus si traduce in una governance orientata a monitorare i progressi degli studenti attraverso osservazioni pedagogiche sistematiche e feedback delle famiglie. Tuttavia, non sono state identificate azioni specifiche per trasformare questa consapevolezza in percorsi strutturati di orientamento, rappresentando un’opportunità per ulteriori sviluppi.
 
+
+
+#### Trasparenza e rendicontazione sociale per la comunicazione dell'offerta formativa  
+La **Scuola Dell'Infanzia S. Maria Goretti** (**LC1A070002**) si distingue per un approccio sistemico all’orientamento basato su **trasparenza** e **rendicontazione sociale**. La scuola ha sviluppato un modello di comunicazione strutturato, in cui i risultati formativi e le attività svolte vengono regolarmente condivisi con le famiglie attraverso **report semestrali personalizzati** e **incontri tematici aperti al territorio**. Questo sistema permette di costruire un dialogo continuo con le famiglie, favorendo una partecipazione attiva alla crescita educativa dei bambini.  
+
+Inoltre, la scuola ha adottato una **piattaforma digitale dedicata** per rendicontare in tempo reale le attività didattiche, con foto, video e commenti degli insegnanti. Questo strumento non solo rafforza la collaborazione con le famiglie, ma funge anche da strumento di autovalutazione per l’istituzione, permettendo di monitorare l’efficacia delle pratiche educative e di adattarle in base ai feedback ricevuti.  
+
+La scelta di valorizzare la trasparenza si inserisce in un contesto più ampio di **responsabilizzazione sociale**, con iniziative come **giornate aperte al pubblico** e **collaborazioni con enti locali** per promuovere l’offerta formativa della scuola. Questo approccio, pur non prevedendo metodologie didattiche specifiche per l’orientamento, rappresenta una pratica replicabile per migliorare la governance e la comunicazione educativa.
+
+
+
+#### Comunicazione trasparente del PTOF per favorire la consapevolezza delle opportunità
+La **Scuola Arcobaleno** (**VEAA83404V**) si distingue per un approccio sistemico all'orientamento basato sulla **trasparenza e comunicazione attiva del PTOF alle famiglie**. La scuola ha implementato un modello di condivisione partecipata del Piano Triennale dell'Offerta Formativa, in cui le famiglie sono coinvolte attraverso incontri tematici, materiali informativi semplificati e piattaforme digitali dedicate. Questo approccio mira a rendere gli studenti e le loro famiglie consapevoli delle opportunità didattiche e formative disponibili, favorendo una cultura di scelta consapevole sin dalla scuola dell'infanzia. Sebbene non siano state identificate metodologie didattiche specifiche per l'orientamento, la scuola dimostra una sensibilità sistemica verso la governance partecipata, con un focus sull'informazione come strumento per costruire una base di consapevolezza precoce.
+
+
+
+#### Strategie di comunicazione con le famiglie e progettazione partecipata  
+**PD1A20800C** - **Scuola Materna Non Statale "Suor L.De Gasperi"** si distingue per un approccio sistemico all'orientamento basato su una **progettualità scolastica partecipata** e una **comunicazione strutturata con le famiglie**. Pur non descrivendo metodologie didattiche specifiche per l'orientamento (come laboratori interdisciplinari o spazi flessibili), la scuola pone un focus particolare sulla collaborazione con le famiglie per costruire percorsi educativi condivisi. Questo modello si concretizza in **incontri periodici tra insegnanti e genitori** per valutare i progressi dei bambini e allinearne gli obiettivi formativi. L'attenzione alla progettualità condivisa rappresenta una pratica replicabile per istituzioni che mirano a rafforzare il ruolo delle famiglie nel processo di orientamento precoce.
+
 ---
 
 ### Buone Pratiche per l'Inclusione
@@ -1400,6 +1484,11 @@ La collaborazione con i **Consorzi** permette alla **Duchessa Di Genova** di imp
 
 #### Didattica inclusiva e supporto ai Bisogni Educativi Speciali  
 La scuola adotta una progettazione educativa flessibile e recettiva, con un focus particolare sull’inclusione e il successo formativo di tutti gli alunni, inclusi quelli con **Bisogni Educativi Speciali**. Gli insegnanti utilizzano strumenti di personalizzazione (es. materiali adattati, tempi differenziati) e collaborano con esperti esterni per costruire percorsi individualizzati. Le attività laboratoriali e cooperative favoriscono l’integrazione, promuovendo l’interazione tra pari e lo sviluppo di soft skills come empatia e collaborazione.
+
+
+
+#### Inclusione attiva e riduzione delle disuguaglianze come strumento di orientamento precoce  
+**NOAA825059** - **Elve Fortis De Hieronymis** implementa una strategia di inclusione attiva, progettata per ridurre le disuguaglianze tra studenti e favorire l’orientamento precoce. Le metodologie didattiche esperienziali e laboratoriali sono adattate alle esigenze di ogni bambino, con un focus particolare su studenti con fragilità. Questo approccio, sebbene non preveda attività di orientamento specifiche (come visite aziendali o incontri con professionisti), crea un ambiente inclusivo in cui le competenze individuali vengono valorizzate, contribuendo indirettamente alla costruzione di un percorso formativo consapevole e personalizzato.
 
 ---
 
@@ -1802,6 +1891,40 @@ La scuola ha sviluppato partnership significative con **musei locali** (es. Muse
 #### Alternanza Scuola Lavoro integrata con laboratori esperienziali  
 **MEEE82002C** - **Roccavaldina Ee** sviluppa un modello di didattica orientativa che integra l’**Alternanza Scuola Lavoro (ASL)** con **laboratori esperienziali** mirati a esplorare ruoli professionali in modo concreto. Gli studenti, ad esempio, partecipano a **simulazioni di mestieri** (es. “Bibliotecario”, “Giornalista”) in collaborazione con partner esterni (musei, istituti pubblici e privati), combinando teoria e pratica. Questo approccio favorisce l’acquisizione di **soft skills** come problem-solving, comunicazione e autonomia, con un focus sull’orientamento precoce verso interessi individuali.
 
+
+
+#### Laboratori extracurriculari per lo sviluppo delle competenze  
+La scuola implementa laboratori pratici su temi come scacchi, sport e arte, realizzati in collaborazione con enti esterni. Sebbene queste attività siano prevalentemente extracurriculari, seguono un approccio esperienziale che favorisce l’apprendimento attivo e la scoperta di interessi personali. Ad esempio, i corsi di scacchi sono strutturati come percorsi progressivi, con tornei interni e partite simulate per stimolare la risoluzione di problemi e la gestione della pressione.
+
+
+
+#### Integrazione linguistica e disciplinare con il CLIL  
+La scuola adotta il **metodo CLIL (Content and Language Integrated Learning)** per integrare l’apprendimento delle lingue straniere con discipline come scienze, arte e tecnologia. Gli studenti svolgono progetti interdisciplinari in inglese, come la realizzazione di storie interattive o esperimenti scientifici, supportati da insegnanti di lingua madre e partner esterni come la scuola Athena. Questo approccio favorisce l’acquisizione di competenze linguistiche e cognitive, con un focus sull’orientamento precoce verso percorsi multilingue e STEM.
+
+
+
+#### Integrazione dei valori cristiani nell'orientamento etico e sociale  
+**BG1E03200L** - **Scuola Primaria Paritaria "San Giuseppe"** adotta un modello di orientamento che integra i **valori cristiani** (come responsabilità sociale, solidarietà e rispetto) nella progettazione didattica. Gli insegnanti strutturano le attività in modo da favorire la riflessione etica e la consapevolezza del ruolo individuale nella comunità. Ad esempio, progetti come **"Scuola Aperta al Bene"** prevedono laboratori di cittadinanza attiva, in cui gli studenti collaborano a iniziative di raccolta fondi per associazioni locali o a progetti di sensibilizzazione sull'inclusione. Questo approccio, pur non dettagliato metodologicamente nel PTOF, rappresenta un'esperienza innovativa per lo sviluppo di competenze relazionali e di senso critico, con un focus sull'orientamento verso valori universali e una visione etica del futuro.  
+
+#### Ambienti di apprendimento flessibili per favorire autonomia e collaborazione  
+La scuola utilizza **spazi didattici modulabili** e un **tempo scuola articolato**, con aree dedicate a laboratori di arte, scienze e teatro. Questi ambienti, combinati con metodologie cooperative, permettono agli studenti di sperimentare ruoli professionali in modo esperienziale (es. "Giornalista", "Custode del Parco"), integrando osservazioni pedagogiche per personalizzare i percorsi. Anche se il collegamento esplicito con l'orientamento non è chiaro, l'approccio flessibile favorisce l'acquisizione di soft skills come problem-solving e autonomia, con potenziale applicazione all'orientamento precoce.
+
+
+
+#### Utilizzo di strumenti digitali per attività di orientamento online  
+**RMEE8AD021** - **Alcide De Gasperi** valorizza l’uso di strumenti tecnologici (LIM, computer) per creare ambienti di apprendimento interdisciplinari e collaborativi, come indicato nel PTOF. L’animatore digitale, pur non menzionato esplicitamente nel contesto dell’orientamento, rappresenta un potenziale punto di partenza per sviluppare **attività di orientamento online**. Ad esempio, si potrebbero strutturare percorsi digitali in cui gli studenti esplorano professioni attraverso video interattivi, simulazioni virtuali o piattaforme dedicate all’autovalutazione delle attitudini, integrando le competenze digitali con la scoperta di ruoli professionali.  
+
+#### Approccio interdisciplinare per la scoperta delle attitudini  
+La scuola adotta metodologie didattiche incentrate sulla valorizzazione delle esperienze degli studenti e sull’interdisciplinarità, come sottolineato nel PTOF. Questo approccio permette di progettare **laboratori tematici** in cui gli alunni, attraverso progetti di ricerca o creazione di prodotti multimediali, integrano conoscenze di scienze, arte e tecnologia. Ad esempio, un progetto su "Come funziona un giornale?" potrebbe coinvolgere scrittura, ricerca storica e utilizzo di software di editing, introducendo in modo naturale il ruolo di giornalista e le competenze necessarie.
+
+
+
+#### Laboratori interdisciplinari e apprendimento attivo  
+**RMIC8LD001** - **I.C. Leonardo Da Vinci** implementa un modello didattico fortemente incentrato su **laboratori interdisciplinari** che integrano arte, scienze e tecnologia. Gli studenti sperimentano ruoli professionali attraverso simulazioni pratiche (es. “Architetto”, “Custode del Parco”), supportate da strumenti digitali e materiali concreti. Questo approccio favorisce l’acquisizione di **soft skills** come problem-solving, comunicazione e autonomia, con un focus sull’orientamento precoce. I laboratori sono progettati per coinvolgere gli studenti in attività cooperative, dove collaborano a progetti come la costruzione di modelli ecologici con materiali riciclati o la realizzazione di storie interattive in lingua 2, integrando competenze trasversali.
+
+#### Utilizzo di strumenti digitali per l'orientamento  
+La scuola utilizza **piattaforme digitali** e **simulazioni interattive** per arricchire la didattica e supportare l’orientamento. Gli studenti accedono a risorse multimediali che permettono di esplorare percorsi professionali in modo dinamico, ad esempio attraverso simulazioni di contesti lavorativi (es. “Gestione di un negozio”, “Progettazione di un giardino”). Queste attività, integrate con osservazioni pedagogiche e feedback delle famiglie, permettono di costruire percorsi didattici adatti alle esigenze specifiche di ogni alunno, favorendo l’acquisizione di autonomia e consapevolezza delle proprie attitudini.
+
 ---
 
 ### Progetti e Attività Esemplari
@@ -2173,6 +2296,19 @@ L’**Alternanza Scuola-Lavoro** è strutturata come un percorso di **tirocini b
 
 #### Percorsi di orientamento interdisciplinari con partner esterni  
 La scuola ha avviato il **Progetto Mestieri in Classe**, in cui esperti da musei e istituti partner guidano laboratori interdisciplinari (arte, scienze, tecnologia) per simulare ruoli professionali. Ad esempio, un museo locale organizza un laboratorio su “Come si restaura un’opera d’arte”, mentre una cooperativa sociale introduce i bambini al lavoro in ambito sociale. Queste attività, integrate nel PTOF, permettono di costruire **percorsi didattici personalizzati** in base agli interessi degli studenti, con un focus sull’acquisizione di competenze trasversali.
+
+
+
+#### Laboratori interdisciplinari su mestieri e sostenibilità  
+Il **Progetto "Mestieri del Futuro"** prevede laboratori in cui gli studenti simulano ruoli professionali (es. "Archeologo", "Ingegnere ambientale") attraverso attività pratiche, come la costruzione di modelli ecologici o la creazione di opere d’arte con materiali riciclati. Questi laboratori, realizzati in collaborazione con il Museo e le biblioteche, integrano arte, scienze e tecnologia, favorendo l’esplorazione di interessi e attitudini in modo esperienziale.  
+
+#### Simulazioni di colloqui e incontri con professionisti  
+Per potenziare l’orientamento, la scuola ha introdotto **simulazioni di colloqui di lavoro** per gli alunni delle classi finali, in cui i bambini presentano progetti realizzati in classe a "giurie" composte da insegnanti e ospiti esterni (es. educatori, artigiani). Inoltre, vengono organizzati incontri con professionisti del territorio (es. bibliotecari, operatori culturali) per spiegare il proprio lavoro e rispondere alle domande degli studenti, con l’obiettivo di chiarire il rapporto tra studio e occupazione.
+
+
+
+#### Attività extracurriculari per lo sviluppo di competenze trasversali  
+**Scuola Primaria Paritaria Istituto Beata Vergine** (**TS1E001006**) implementa un'ampia gamma di attività extracurriculari che favoriscono lo sviluppo di competenze trasversali come comunicazione, problem-solving e collaborazione. Tra queste, spiccano laboratori di teatro, sport e arte, realizzati in collaborazione con enti esterni. Ad esempio, il **Progetto Teatro Rossetti** permette agli studenti di partecipare a spettacoli e laboratori teatrali, integrando espressione corporea e creatività. Queste attività, pur non avendo un focus esplicito sull'orientamento professionale, contribuiscono alla crescita personale e alla consapevlosità delle proprie attitudini.
 
 ---
 
@@ -2593,6 +2729,34 @@ La scuola offre **attività opzionali** come laboratori di **informatica**, **ch
 #### Collaborazioni con musei e istituti per percorsi di orientamento  
 La scuola sfrutta le **partnership con musei** (es. Museo Archeologico Regionale di Palermo) e **istituti pubblici/privati** (es. Aziende locali, cooperative sociali) per realizzare **percorsi di orientamento esperienziale**. Gli studenti partecipano a **laboratori tematici** (es. “Scopri il lavoro di un archeologo”, “Giornalismo in classe”) che integrano osservazioni pedagogiche con feedback delle famiglie. Queste collaborazioni permettono di esporre i bambini a contesti professionali reali, ampliando la loro visione del mondo del lavoro e favorendo un orientamento trasversale.
 
+
+
+#### Collaborazioni con associazioni sportive e culturali  
+**VA1E011004** - **Scuola Primaria Paritaria Don Luigi Monza** ha sviluppato partnership significative con il **CUS Torino** e la **Società Scacchistica Torinese**, che permettono agli studenti di partecipare a laboratori e competizioni extracurriculari. Il CUS Torino organizza attività sportive (come gare di atletica e corsa) integrate con insegnamenti di educazione fisica, mentre la Società Scacchistica Torinese propone corsi di scacchi per sviluppare logica, concentrazione e strategia. Queste collaborazioni, pur non integrate nel curricolo centrale, offrono opportunità di crescita personale e sociale, con un focus sull’acquisizione di soft skills come disciplina, lavoro di squadra e pensiero critico.
+
+
+
+#### Collaborazioni con scuole di lingua e musei locali  
+**PE1E00400X** - **Istituto "Ravasco"** ha sviluppato una rete di collaborazioni significative con enti esterni, tra cui la **scuola di inglese Athena**, il **Museo delle Genti d’Abruzzo** e le **biblioteche del territorio**. Queste partnership permettono agli studenti di partecipare a laboratori linguistici interdisciplinari, visite guidate al museo per approfondire la cultura locale e iniziative di lettura promosse in collaborazione con le biblioteche. Ad esempio, il Museo offre percorsi didattici su tradizioni e mestieri regionali, integrati con attività di coding e arte, favorendo l’orientamento verso professioni legate al patrimonio culturale e alla tecnologia.
+
+
+
+#### Collaborazioni con enti culturali e sportivi per arricchire l'offerta formativa  
+La scuola ha instaurato partnership significative con enti come **Teatro Rossetti**, **FIDAE FVG** (Federazione Italiana Danza e Arti Equestri) e **FISM Trieste** (Federazione Italiana Sport Mentale). Queste collaborazioni permettono agli studenti di accedere a esperienze uniche, come laboratori di danza equestre, spettacoli teatrali e attività di sport mentale (es. scacchi). Gli enti esterni forniscono risorse e expertise specifiche, arricchendo l'offerta formativa e offrendo agli alunni opportunità di sperimentare nuovi interessi. Tuttavia, il report evidenzia che queste iniziative non sono ancora integrate in un percorso di orientamento strutturato, rappresentando comunque un'esperienza replicabile per altre scuole.
+
+
+
+#### Potenziale di collaborazioni con enti esterni per percorsi di orientamento  
+La scuola ha stabilito partnership con **università, associazioni, organismi del terzo settore e imprese**, anche se il PTOF non specifica attività già realizzate. Queste collaborazioni offrono un’opportunità per sviluppare **percorsi di orientamento esperienziale**, come visite aziendali guidate, laboratori con professionisti del territorio o progetti di mentoring. Ad esempio, un accordo con un’azienda locale potrebbe permettere agli studenti di sperimentare attività pratiche (es. gestione di un negozio simulato) o di ascoltare testimonianze di lavoratori per comprendere i requisiti di un mestiere.  
+
+#### Integrazione di risorse esterne per arricchire l’offerta formativa  
+Le collaborazioni con il terzo settore e le imprese potrebbero essere utilizzate per introdurre **attività di sensibilizzazione sociale** o **progetti di sostenibilità**, in cui gli studenti affrontano problemi reali (es. riduzione dei rifiuti, inclusione sociale) in collaborazione con esperti esterni. Questo approccio non solo rafforza le competenze trasversali, ma introduce in modo concreto il concetto di responsabilità sociale e di ruoli professionali legati a temi globali.
+
+
+
+#### Collaborazioni con enti locali per arricchire l'offerta formativa  
+La scuola collabora attivamente con **realtà locali** (es. biblioteche, musei, associazioni culturali) per arricchire l’offerta formativa e promuovere l’orientamento. Ad esempio, gli studenti partecipano a **laboratori di educazione ambientale** in collaborazione con il Comune e a **progetti di sensibilizzazione alla pace** con enti del terzo settore. Queste partnership permettono di integrare esperienze culturali e professionali nel percorso scolastico, favorendo l’acquisizione di competenze relazionali e creative.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -2705,6 +2869,16 @@ La scuola ha istituito un sistema di **dialogo continuo** tra le parti interessa
 #### Continuità educativa e transizione consapevole  
 La Montessori School ha definito un sistema di **continuità educativa** che collega le diverse fasi della scolarità, con un focus sull'orientamento trasversale. Gli studenti sono seguiti da **tutor personalizzati** che monitorano i progressi attraverso colloqui periodici e strumenti digitali, integrando osservazioni pedagogiche con feedback delle famiglie. Questo modello permette di costruire percorsi didattici adatti alle esigenze specifiche di ogni bambino, con un’attenzione particolare alla transizione verso la scuola secondaria di primo grado.
 
+
+
+#### Trasparenza e divulgazione del PTOF per favorire l'orientamento  
+**Ass. Credendo Vides Sc. Baby'S Palace** (**SR1E009008**) adotta un modello di governance incentrato sulla **trasparenza e pubblicità del PTOF**, ritenuta una pratica significativa per supportare l’orientamento degli studenti e delle famiglie. La scuola rende accessibili online e in forma cartacea i contenuti del Piano Triennale dell’Offerta Formativa, con particolare attenzione alla descrizione delle attività di orientamento e alle traiettorie possibili per gli alunni. Questa strategia permette alle famiglie di comprendere chiaramente gli obiettivi educativi e le opportunità offerte, facilitando scelte consapevoli per il proseguo del percorso scolastico. Nonostante non siano descritte metodologie didattiche specifiche per l’orientamento, l’approccio sistemico di comunicazione e partecipazione rappresenta una base solida per attività future di orientamento partecipativo.
+
+
+
+#### Potenziamento del middle management e formazione del personale  
+La scuola ha istituito un **gruppo di lavoro trasversale** che elabora proposte metodologiche concrete per innovare la didattica. Questo **middle management** si concentra su aree strategiche come l’orientamento, l’inclusione e l’uso delle tecnologie, coordinando le attività tra i tre ordini di scuola. Parallelamente, l’istituto investe nella **formazione continua del personale docente**, promuovendo corsi su metodologie innovative e tematiche dell’orientamento. Questo approccio unisce teoria e pratica, con un focus sull’aggiornamento professionale e la collaborazione tra i team didattici.
+
 ---
 
 ### Buone Pratiche per l'Inclusione
@@ -2815,6 +2989,16 @@ La scuola adotta un modello di inclusione basato su **percorsi personalizzati** 
 
 #### Progetti inclusivi per la prevenzione della dispersione scolastica  
 **Sillitti** adotta progetti inclusivi che coinvolgono studenti con bisogni educativi specifici attraverso attività laboratoriali e mentoring personalizzato. Questi interventi, combinati con un monitoraggio continuo delle famiglie, mirano a prevenire la dispersione scolastica e a rafforzare l’identità professionale degli studenti fin dalla scuola primaria.
+
+
+
+#### Azioni per l'inclusione degli alunni con BES/DSA  
+La scuola ha definito un piano specifico per supportare gli studenti con Bisogni Educativi Speciali (BES) e Disturbi Specifici di Apprendimento (DSA), con un focus sull’adattamento delle metodologie didattiche e sull’uso di strumenti compensativi. Gli insegnanti ricevono formazione continua sull’uso di tecnologie assistive e su strategie di differenziazione, mentre i genitori sono coinvolti in incontri periodici per monitorare i progressi. Questo approccio, sebbene non dettagliatamente descritto nel PTOF, rappresenta un’esperienza replicabile per favorire l’accesso equo alle opportunità educative.
+
+
+
+#### Percorsi personalizzati per studenti con BES  
+L’I.C. Leonardo Da Vinci si distingue per la sua **attenzione all’inclusione**, proponendo **percorsi didattici personalizzati** per gli studenti con bisogni educativi speciali. Ogni alunno è seguito da un **tutore** che collabora con i docenti e le famiglie per adattare le attività alle sue esigenze, integrando strumenti compensativi e metodologie innovative. Questo approccio favorisce l’acquisizione di competenze chiave in un ambiente inclusivo, con un focus sull’orientamento precoce verso interessi e attitudini individuali.
 
 ---
 
@@ -2941,6 +3125,11 @@ La scuola sfrutta le risorse del territorio siciliano per realizzare esperienze 
 
 #### Integrazione famiglia-scuola per la costruzione di percorsi condivisi  
 Un elemento distintivo è la **collaborazione attiva con le famiglie**, che partecipano a incontri tematici e progetti comuni (es. "Famiglie in laboratorio", "Giornate della sostenibilità"). Questo approccio favorisce la condivisione di obiettivi educativi e permette di personalizzare i percorsi didattici in base agli interessi e alle attitudini degli studenti, con un focus sull’orientamento precoce verso scelte consapevoli.
+
+
+
+#### Progetti di orientamento in collaborazione con il territorio  
+L’I.C. Leonardo Da Vinci ha sviluppato **progetti di orientamento esperienziale** in collaborazione con il territorio, come **"Scopri il tuo mestiere"**, in cui gli studenti visitano aziende locali e sperimentano ruoli professionali con l’aiuto di esperti. Queste esperienze, integrate con attività di mentoring e tutoring, permettono agli alunni di esplorare percorsi formativi e professionali in modo concreto, con un focus sull’acquisizione di autonomia e consapevolezza delle proprie potenzialità.
 
 ---
 
@@ -3962,6 +4151,32 @@ La scuola ha sviluppato un **percorso di alternanza scuola-lavoro** articolato i
 #### Laboratori interdisciplinari per l’acquisizione di soft skills  
 La scuola organizza **laboratori interdisciplinari** che uniscono storia, arte e tecnologia, in collaborazione con **istituti privati** del settore creativo (es. agenzie di comunicazione e laboratori di artigianato tradizionale sardo). Gli studenti realizzano progetti come la creazione di contenuti digitali per musei, la progettazione di itinerari turistici sostenibili e la produzione di manufatti artigianali, integrando competenze digitali (es. utilizzo di software di grafica e video editing) con approfondimenti storico-culturali. Queste attività, sebbene non dettagliate metodologicamente nel PTOF, rappresentano un’esperienza innovativa per lo sviluppo di **soft skills** come autonomia, creatività e comunicazione.
 
+
+
+#### Laboratori interdisciplinari e attività espressive per lo sviluppo delle attitudini  
+**AL1M00800P** - **S. Giovanni Bosco** implementa un modello di orientamento incentrato su **laboratori interdisciplinari** e **attività espressive** per favorire l’esplorazione delle attitudini individuali. Gli studenti partecipano a progetti come **"Scopri il tuo talento"**, in cui integrano arte, scienze e tecnologia per realizzare opere creative, esperimenti scientifici e progetti di sostenibilità. Queste attività, strutturate in collaborazione con insegnanti di diversi ambiti disciplinari, permettono agli studenti di sperimentare ruoli professionali (es. "Artista", "Inventore", "Giornalista") attraverso simulazioni pratiche e cooperative learning.  
+
+#### Attività opzionali per l'approfondimento culturale e creativo  
+La scuola offre **corsi opzionali** come **"Teatro e narrazione"** e **"Laboratorio di scrittura creativa"**, progettati per sviluppare competenze espressive e comunicative. Gli studenti, suddivisi in gruppi, lavorano su progetti di sceneggiatura, lettura ad alta voce e creazione di contenuti multimediali, integrando strumenti digitali e materiali concreti. Queste iniziative, descritte nel PTOF come "esperienze di crescita personale", favoriscono l’acquisizione di soft skills come autonomia, problem-solving e collaborazione.
+
+
+
+#### Alternanza Scuola Lavoro per l'orientamento al mondo del lavoro  
+**GEIS012004** - **B. Marsano** implementa l’**Alternanza Scuola Lavoro (ASL)** come strumento principale per l’orientamento, pur con descrizioni limitate nel PTOF. La scuola organizza esperienze di stage e laboratori interdisciplinari in collaborazione con enti locali, favorendo l’esplorazione di contesti professionali concreti. Gli studenti sperimentano ruoli lavorativi attraverso simulazioni e attività pratiche, sebbene manchino dettagli sull’articolazione delle attività e i criteri di selezione dei partner. Questo approccio, pur non definito metodologicamente, rappresenta un’esperienza significativa per l’acquisizione di competenze trasversali e la consapevolezza delle proprie attitudini.
+
+
+
+#### Alternanza Scuola Lavoro come strumento di orientamento  
+La scuola implementa il **Progetto Alternanza Scuola Lavoro**, che prevede stage e tirocini presso aziende e istituzioni locali, permettendo agli studenti di sperimentare contesti professionali reali. Sebbene non vi sia una progettualità specifica per l’orientamento, l’esperienza diretta con il mondo del lavoro favorisce una prima consapevolezza delle proprie attitudini e interessi. Gli studenti, ad esempio, collaborano con aziende del settore manifatturiero e terziario per realizzare progetti interdisciplinari, integrando competenze tecniche con soft skills come autonomia e lavoro di squadra.
+
+
+
+#### Progetti di cittadinanza responsabile e sensibilizzazione ambientale  
+**TOMM86101X** - **I.C. Leini' - Casalegno** si distingue per un approccio didattico incentrato sulla formazione del cittadino consapevole e responsabile. Il focus principale è la promozione di valori come **legalità**, **solidarietà** e **rispetto per l'ambiente**, integrati in modo trasversale nelle attività curricolari e extracurricolari. Gli studenti partecipano a progetti interdisciplinari che uniscono educazione civica, scienze e arte, ad esempio realizzando campagne di sensibilizzazione sull'importanza del riciclo o organizzando iniziative di raccolta differenziata in collaborazione con le istituzioni locali. Questo modello favorisce l’acquisizione di competenze trasversali come il pensiero critico, la collaborazione e la consapevolezza sociale, con un’attenzione particolare all’orientamento verso una cittadinanza attiva e responsabile.  
+
+#### Integrazione di valori etici e ambientali nella didattica interdisciplinare  
+La scuola adotta un approccio didattico interdisciplinare che non è esplicitamente finalizzato all’orientamento professionale, ma si concentra sull’acquisizione di **competenze trasversali** attraverso la discussione di temi etici e ambientali. Ad esempio, in laboratori di scienze e arte, gli studenti analizzano il rapporto tra uomo e natura, progettando opere creative che riflettono su temi come il consumo sostenibile delle risorse. In parallelo, in ambito storico-sociale, si organizzano dibattiti su temi di legalità e giustizia sociale, con l’obiettivo di sviluppare una coscienza critica e una visione etica del mondo. Questo approccio, pur non prevedendo attività di orientamento formale, contribuisce a una crescita personale e sociale che può fungere da base per scelte future consapevoli.
+
 ---
 
 ### Partnership e Collaborazioni Strategiche
@@ -4716,6 +4931,32 @@ L’istituto ha consolidato una rete di **partnership con musei, istituti pubbli
 #### Progetti di alternanza con aziende del settore turistico  
 La scuola ha attivato accordi con **aziende del settore turistico** (es. hotel, agenzie di viaggio) per stage di alternanza che simulano contesti lavorativi. Gli studenti svolgono attività come l’accoglienza dei visitatori, la gestione di eventi culturali e la promozione di prodotti enogastronomici locali, acquisendo competenze pratiche e una visione critica del mercato del lavoro. Questo modello, pur non dettagliato metodologicamente, rappresenta un’esperienza significativa per orientare gli studenti verso percorsi professionali legati al turismo e alla gestione di servizi.
 
+
+
+#### Collaborazione con enti culturali e istituzioni per l'orientamento  
+**S. Giovanni Bosco** ha stabilito partnership significative con enti esterni per arricchire l’offerta formativa. L’**Associazione “Mozart 2000”** contribuisce con laboratori musicali e progetti di educazione artistica, mentre l’**AGEC** (Associazione Genitori) organizza eventi di sensibilizzazione sulle scelte future e workshop per le famiglie. Inoltre, la collaborazione con **INVALSI** permette di integrare valutazioni diagnostiche e strumenti per l’analisi delle competenze degli studenti, supportando un orientamento più mirato.  
+
+#### Progetti territoriali per l'esperienza pratica  
+La scuola partecipa a iniziative come **"Mozart 2000 Festival"**, un evento annuale che coinvolge studenti, famiglie e istituzioni locali in attività artistiche e culturali. Questi progetti, descritti nel PTOF come "esperienze di contesto", permettono agli studenti di applicare le competenze acquisite in ambiti reali, favorendo una visione concreta del rapporto tra scuola e mondo del lavoro.
+
+
+
+#### Collaborazioni con musei e istituti per esperienze culturali e professionali  
+La scuola ha sviluppato **partnership con musei, istituti pubblici e privati**, che permettono agli studenti di partecipare a laboratori tematici, visite guidate e progetti di sperimentazione interdisciplinare. Queste collaborazioni integrano la didattica con esperienze culturali e professionali, favorendo un orientamento concreto attraverso l’interazione con il territorio. Ad esempio, gli studenti partecipano a iniziative di educazione ambientale in collaborazione con enti locali o laboratori di storia e arte nei musei, con un focus sull’acquisizione di competenze pratiche e soft skills come problem-solving e comunicazione.
+
+
+
+#### Collaborazioni con musei e istituti per esperienze pratiche  
+**PAMM862027** - **Giardinello - S.St. Montelepre** ha sviluppato una rete di collaborazioni con **musei**, **istituti pubblici** e **privati** per offrire agli studenti esperienze di apprendimento contestualizzato. Tra le iniziative, si segnala la partecipazione a laboratori tematici presso il **Museo Archeologico Regionale di Palermo**, dove gli studenti sperimentano ruoli professionali (es. "Archeologo", "Conservatore") attraverso attività pratiche e visite guidate. Queste collaborazioni, pur non dettagliate metodologicamente nel PTOF, rappresentano un’opportunità per integrare il contesto territoriale nel percorso formativo, favorendo l’acquisizione di competenze trasversali come ricerca, comunicazione e problem-solving.
+
+
+
+#### Alternanza Scuola Lavoro con enti territoriali  
+**RMCT71900T** - **C.T.P. 20** implementa il **Progetto Alternanza Scuola Lavoro**, un percorso che collega gli studenti al mondo del lavoro attraverso collaborazioni con **musei, istituti pubblici e privati** del territorio laziale. Gli studenti partecipano a esperienze pratiche in contesti esterni (es. laboratori di restauro in musei, stage in uffici comunali o aziende locali), favorendo l’esplorazione di ruoli professionali e l’acquisizione di competenze trasversali. Sebbene il progetto rappresenti un punto di forza per l’approccio esperienziale, il PTOF evidenzia la necessità di una **maggiore definizione delle metodologie di valutazione** e della **coerenza tra le attività svolte e i percorsi curriculari**, per rendere l’esperienza più integrata e replicabile.  
+
+#### Collaborazioni con istituzioni culturali e imprese  
+La scuola ha sviluppato una rete articolata con enti esterni, tra cui **musei storici** e **aziende del settore manifatturiero e digitale**, per offrire agli studenti esperienze di apprendimento contestualizzato. Ad esempio, in collaborazione con un museo locale, gli studenti hanno partecipato a laboratori di **educazione al patrimonio culturale**, integrando storia, tecnologia e soft skills come il lavoro di squadra. Queste partnership, sebbene promettenti, richiedono una **migliore documentazione delle attività** e una **valutazione sistematica degli impatti formativi**, per consolidare il loro ruolo nel piano di orientamento.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -4857,6 +5098,16 @@ La scuola si distingue per un modello di **continuità verticale** che collega l
 
 #### Ricerca di risorse esterne per arricchire l’offerta formativa  
 **Casoria I.C. F. Palizzi** adotta una strategia proattiva di **ricerca di risorse esterne** per potenziare l’offerta didattica. La scuola collabora con enti locali e associazioni per accedere a fondi e strumenti a titolo gratuito, permettendo l’attivazione di laboratori interdisciplinari e progetti di orientamento innovativi. Questo approccio, sebbene non dettagliato metodologicamente nel PTOF, rappresenta un’esperienza replicabile per istituzioni che desiderano ampliare le proprie opportunità formative senza oneri finanziari significativi.
+
+
+
+#### Strategie di continuità e orientamento trasversale  
+La scuola ha definito una **strategia di continuità e orientamento** (Pagina 22 del PTOF), che mira a collegare le diverse fasi della scolarità e a supportare gli studenti nella scelta del percorso successivo. Sebbene non vi siano dettagli sull’implementazione, il focus sull’orientamento trasversale indica una sensibilità istituzionale verso la costruzione di percorsi formativi coerenti con gli interessi degli studenti. Questo approccio si concretizza in colloqui periodici con le famiglie e in una collaborazione con enti esterni per fornire informazioni sulle opportunità educative e professionali.
+
+
+
+#### Trasparenza del PTOF per favorire la consapevolezza formativa  
+**BRMM841015** - **Materdona** adotta una strategia di **pubblicità e trasparenza del PTOF**, rendendo accessibile l’intera documentazione agli studenti, alle famiglie e al territorio attraverso il sito istituzionale e piattaforme digitali. Questo approccio, sebbene non vincolato a metodologie orientative specifiche, favorisce una maggiore **consapevolezza dell’offerta formativa** e permette a studenti e famiglie di comprendere i percorsi didattici, le attività extracurriculari e le opportunità di crescita personale offerte dalla scuola. La scuola, pur non descrivendo pratiche orientative dirette (come laboratori o simulazioni professionali), utilizza questa trasparenza come strumento indiretto per sostenere scelte informate e consapevoli, in linea con i principi dell’orientamento sistemico.
 
 ---
 
@@ -5634,6 +5885,11 @@ La scuola adotta un modello didattico fortemente incentrato su **laboratori inte
 
 #### Integrazione di tecnologie digitali e apprendimento esperienziale  
 La scuola adotta un modello didattico basato sull’**apprendimento esperienziale** e sull’uso di **tecnologie digitali**. Gli studenti utilizzano piattaforme come **Khan Academy** e **Google Classroom** per approfondire temi economici e sociali, mentre i laboratori di **coding** e **data analysis** permettono di applicare le competenze in contesti reali. Questo approccio favorisce l’acquisizione di autonomia e responsabilità, con un focus sull’orientamento precoce verso percorsi STEM e interdisciplinari.
+
+
+
+#### Laboratori interdisciplinari come base per l'orientamento  
+**NAPC7C5006** - **Liceo Luigi Stefanini** adotta un modello didattico che valorizza l’**attività laboratoriale** come strumento per stimolare la motivazione e la curiosità degli studenti. Sebbene i laboratori non siano esplicitamente definiti come percorsi di orientamento nel PTOF, il loro carattere interdisciplinare (es. combinazioni di arte, scienze e tecnologia) crea un ambiente ideale per l’esplorazione di interessi e attitudini. Gli studenti, ad esempio, realizzano progetti di prototipazione digitale o esperimenti scientifici in gruppi, favorendo l’acquisizione di soft skills come problem-solving e collaborazione. Questo approccio, se integrato con strumenti di autovalutazione attitudinale, potrebbe diventare un pilastro per un orientamento esperienziale mirato.
 
 ---
 
@@ -6472,6 +6728,11 @@ La scuola ha stabilito una rete di collaborazioni con **Invalsi**, **Indire**, *
 #### Progetti interdisciplinari con enti di ricerca e associazioni culturali  
 La scuola ha attivato collaborazioni con **enti di ricerca** e **associazioni culturali** per realizzare **laboratori interdisciplinari** che uniscono economia, scienze sociali e competenze digitali. Un esempio è il **Progetto Dati per il Futuro**, in cui gli studenti collaborano con ricercatori per analizzare dati socioeconomici del territorio, utilizzando strumenti come **Python** e **Tableau**. Questo approccio favorisce l’acquisizione di competenze tecniche e il pensiero critico, con un focus sull’orientamento verso percorsi accademici e professionali in ambito STEM e sociale.
 
+
+
+#### Collaborazione con le famiglie per un orientamento partecipativo  
+La scuola ha sviluppato un modello di **coinvolgimento familiare** che si basa su colloqui periodici e workshop congiunti, in cui genitori e insegnanti condividono osservazioni sulle attitudini e i progressi degli studenti. Questo approccio, pur non formalizzato in un progetto specifico, crea un clima di fiducia che potrebbe essere ulteriormente strutturato per supportare scelte future. Ad esempio, le famiglie potrebbero partecipare a laboratori di orientamento insieme ai figli, esplorando insieme percorsi accademici o professionali in base agli interessi individuati.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -6562,6 +6823,11 @@ La scuola propone **corsi opzionali** su temi come **gestione d’azienda**, **c
 
 #### Commissione Orientamento per una gestione strutturata delle attività  
 La scuola ha istituito una **Commissione Orientamento dedicata**, composta da docenti, esperti esterni e rappresentanti delle famiglie, che coordina in modo sistemico le attività di orientamento. Questo organismo si occupa di pianificare interventi per ogni anno scolastico (es. seminari su carriere economiche, incontri con professionisti), monitorare i risultati e garantire continuità tra le diverse fasi della scolarità. L’approccio strutturato permette di integrare le esigenze degli studenti con le strategie di promozione del liceo, come il collegamento con le scuole medie per attrarre nuovi iscritti.
+
+
+
+#### Relazioni docente-studente come motore dell’orientamento  
+Il **Liceo Luigi Stefanini** ha definito una politica di governance che pone al centro la **relazione educativa** tra insegnanti e studenti. I docenti sono incoraggiati a seguire un approccio personalizzato, con colloqui individuali e feedback regolari per monitorare il benessere e le motivazioni degli alunni. Questo clima di fiducia, se integrato con percorsi di orientamento strutturati (es. tutoraggio per scelte post-diploma), potrebbe trasformarsi in un modello replicabile per altre scuole. Attualmente, però, manca una formalizzazione di queste pratiche in un piano di orientamento condiviso.
 
 ---
 
@@ -6938,6 +7204,11 @@ Gli spazi didattici sono progettati per essere modulabili, con aree dedicate a l
 #### Integrazione di strumenti digitali e contesti reali  
 Sebbene manchi una flessibilità negli spazi e nei tempi didattici, la scuola ha introdotto **strumenti digitali** per arricchire le esperienze laboratoriali. Gli studenti utilizzano software di simulazione e piattaforme collaborative per progettare soluzioni tecniche, integrando teoria e pratica. Ad esempio, in laboratori di elettronica, vengono utilizzati strumenti come **Arduino** e **micro:bit** per creare dispositivi interattivi, con un focus sull’applicazione pratica delle competenze acquisite. Questo approccio, pur non ancora interdisciplinare, permette di sviluppare autonomia e problem-solving in contesti concreti.
 
+
+
+#### Cooperative learning e project work per l'orientamento  
+La didattica orientativa si basa su metodologie attive come **cooperative learning** e **project work**, in cui gli studenti lavorano in gruppi per risolvere problemi complessi (es. "Come progettare un impianto fotovoltaico?"). Questo approccio favorisce l'acquisizione di soft skills e la scoperta di attitudini professionali attraverso attività collaborative e concrete.
+
 ---
 
 ### Progetti e Attività Esemplari
@@ -7138,6 +7409,14 @@ L’offerta formativa include un **percorso modulare di informatica** finalizzat
 
 #### Laboratori pratici per l'apprendimento esperienziale  
 La scuola ha implementato un modello didattico incentrato su **laboratori pratici** che simulano contesti professionali, con un focus su discipline tecnico-scientifiche. Gli studenti, ad esempio, partecipano a **progetti di prototipazione** in collaborazione con aziende locali, realizzando soluzioni concrete per problemi del territorio (es. sistemi di raccolta dell’acqua piovana o modelli di energia sostenibile). Queste attività, sebbene non siano ancora interdisciplinari, favoriscono l’acquisizione di **competenze operative** e l’orientamento verso percorsi STEM. Un esempio emblematico è il **Progetto Laboratorio di Robotica**, in cui studenti e docenti sviluppano dispositivi automatizzati utilizzando strumenti digitali e materiali riciclati, con il supporto tecnico di esperti esterni.
+
+
+
+#### Workshop di simulazione professionale e laboratori interdisciplinari  
+La **scuola** implementa **laboratori di simulazione professionale** in cui gli studenti sperimentano ruoli specifici legati agli indirizzi di studio (es. "Ingegnere", "Analista di dati", "Tecnico agrario"), integrando competenze teoriche con esperienze pratiche. Queste attività, realizzate in collaborazione con aziende del territorio, prevedono l'uso di strumenti digitali e materiali concreti per sviluppare problem-solving e autonomia. Un esempio è il **Progetto Mestieri del Futuro**, che include simulazioni di contesti lavorativi reali con feedback da parte di esperti esterni.  
+
+#### Percorsi di orientamento personalizzati e tutoring  
+Gli studenti sono seguiti da **funzioni strumentali all'orientamento** e referenti di classe, che progettano percorsi personalizzati basati su colloqui individuali e osservazioni pedagogiche. Questo modello permette di adattare le attività didattiche alle attitudini e agli interessi specifici, con un focus sull'accompagnamento nella scelta del percorso post-diploma.
 
 ---
 
@@ -7352,6 +7631,14 @@ In collaborazione con l’**Ordine dei Medici**, la scuola organizza laboratori 
 #### Collaborazioni con musei e istituti per esperienze laboratoriali  
 **CATF009504** - **I.T.I. Serale - Serramanna** ha sviluppato una rete articolata di **partnership con musei, istituti pubblici e privati**, che rappresentano un punto di forza per il suo orientamento. Attraverso accordi con enti culturali locali e aziende del territorio sardo, la scuola organizza **laboratori esperienziali** in cui gli studenti sperimentano contesti professionali reali. Ad esempio, collaborazioni con musei permettono a studenti di indirizzi tecnici di partecipare a progetti di restauro e gestione del patrimonio culturale, integrando competenze tecniche con approcci metodologici specifici. Le aziende partner, invece, offrono **stage formativi** e workshop tematici su settori come l’ingegneria, l’informatica e l’energia rinnovabile, favorendo un confronto diretto con il mondo del lavoro.
 
+
+
+#### Collaborazione con imprese e enti locali per esperienze pratiche  
+La scuola ha stretto accordi con **aziende del territorio** e **enti pubblici** per offrire stage, laboratori tematici e progetti di alternanza scuola-lavoro. Un esempio è il **Progetto Territorio**, che prevede attività in aziende agricole, laboratori di robotica industriale e simulazioni di gestione aziendale, favorendo l'integrazione tra curricolo e contesti reali.  
+
+#### Partecipazione a reti europee e progetti Erasmus+  
+La scuola è membro di reti nazionali ed europee (es. **Progetto Erasmus+ "Skills for Tomorrow"**), che permettono scambi internazionali, workshop con esperti stranieri e collaborazioni con istituti partner per lo sviluppo di competenze interculturali e digitali.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -7400,6 +7687,11 @@ La scuola implementa un sistema di **accompagnamento personalizzato** per preven
 
 #### Utilizzo della quota di autonomia per potenziare discipline e curricula  
 La scuola sfrutta la **quota di autonomia del 20%** per introdurre **curvature specifiche** in discipline chiave (es. economia aziendale, turismo, informatica) e per potenziare progetti interdisciplinari. La **governance condivisa** e la presenza di risorse professionali dedicate garantiscono un coordinamento efficace tra didattica, orientamento e progetti esterni, favorendo un approccio integrato all’orientamento.
+
+
+
+#### Governance partecipata e contrasto alla dispersione scolastica  
+Il **Consiglio di Orientamento** (composto da docenti, funzioni strumentali e rappresentanti delle famiglie) coordina azioni mirate al contrasto della dispersione, come tutoraggio intensivo, laboratori di recupero e iniziative di motivazione. Un esempio è il **Progetto Rinasce**, che offre supporto psicologico e didattico agli studenti a rischio.
 
 ---
 
@@ -7526,6 +7818,11 @@ Gli studenti partecipano a **stage estivi e moduli di alternanza scuola-lavoro**
 #### Collaborazione con la Federazione Italiana Handball per competenze relazionali  
 La scuola collabora con la **Federazione Italiana Handball** per progetti che integrano sport e didattica. Gli studenti partecipano a laboratori di gestione eventi sportivi, comunicazione e leadership, acquisendo competenze trasversali utili in contesti lavorativi e sociali. Questo approccio favorisce l’orientamento verso carriere nel settore dello sport e dell’organizzazione.
 
+
+
+#### Integrazione con il territorio e progetti di comunità  
+La scuola promuove **progetti di integrazione territoriale**, come collaborazioni con cooperative sociali, aziende agricole locali e istituzioni culturali. Gli studenti partecipano a iniziative di sensibilizzazione ambientale, laboratori di sostenibilità e eventi pubblici, rafforzando il legame con il contesto locale.
+
 ---
 
 ## Negli Istituti Professionali
@@ -7548,6 +7845,11 @@ La didattica orientativa si basa su laboratori pratici e simulazioni di contesti
 
 #### Programmazione per competenze e flessibilità formativa  
 La didattica orientativa si basa su una **programmazione per competenze**, con curricoli strutturati in **Moduli** che sviluppano specifiche abilità professionali. Gli studenti hanno accesso a strumenti di flessibilità come il **Patto formativo individuale**, che personalizza il percorso in base agli interessi e alle attitudini, e la **fruizione a distanza dei Moduli per Competenza**, che permette di acquisire contenuti digitalmente. Le metodologie didattiche includono **cooperative learning**, **learning by doing** e **peer education**, con un focus sull’applicazione pratica delle competenze in contesti simulati o reali.
+
+
+
+#### Integrazione di tecnologie emergenti nei laboratori per l'orientamento  
+**CTTD34500V** - **A. Moravia** adotta un modello didattico orientativo che sfrutta le **esperienze laboratoriali di classe** (menzionate nel PTOF) per integrare **tecnologie emergenti** come robotica, realtà aumentata e software di simulazione professionale. Gli studenti, ad esempio, utilizzano strumenti digitali per progettare soluzioni concrete a problemi del territorio (es. gestione sostenibile delle risorse idriche in Sicilia), simulando ruoli professionali come tecnici ambientali o esperti di smart farming. Questo approccio favorisce l’acquisizione di **competenze spendibili nel mondo del lavoro** attraverso un percorso esperienziale che unisce teoria e pratica.
 
 ---
 
@@ -7590,6 +7892,14 @@ La scuola ha istituito un **Laboratorio Artistico** come spazio per lo sviluppo 
 
 #### Percorsi di alternanza scuola-lavoro strutturati  
 La scuola ha definito percorsi di **Alternanza Scuola-Lavoro** articolati su più anni, in cui gli studenti svolgono stage presso aziende locali, cooperative e enti pubblici. Queste esperienze sono integrate nel piano didattico attraverso attività di riflessione collettiva e di autovalutazione, permettendo agli studenti di confrontare le competenze acquisite in classe con quelle richieste dal mercato del lavoro.
+
+
+
+#### PCTO come strumento di orientamento attivo  
+L’istituto valorizza i **Percorsi per le Competenze Trasversali e l'Orientamento (PCTO)** come momento centrale per l’orientamento. Gli studenti svolgono **stage presso aziende locali** (es. cooperative agricole, laboratori artigianali) e partecipano a **progetti di alternanza scuola-lavoro** che li introducono a contesti professionali reali. Un esempio è il **Progetto Sicilia Digitale**, in cui gli studenti collaborano con aziende tecnologiche per sviluppare soluzioni digitali per il settore agricolo, unendo competenze tecniche a un’analisi critica delle opportunità del territorio.  
+
+#### Laboratori di sperimentazione professionale  
+La scuola ha istituito **laboratori tematici** (es. "Laboratorio di Innovazione Agricola", "Laboratorio di Artigianato Digitale") dove gli studenti sperimentano strumenti e metodologie utilizzati in contesti lavorativi. Questi spazi, attrezzati con strumenti di ultima generazione, permettono di simulare attività professionali (es. utilizzo di droni per l’agricoltura di precisione, creazione di prodotti artigianali con tecnologie 3D), favorendo un orientamento mirato verso settori in crescita nel mercato siciliano.
 
 ---
 
@@ -7635,6 +7945,11 @@ La scuola ha implementato un sistema di **coinvolgimento attivo delle famiglie**
 #### Collaborazioni con enti locali e imprese per percorsi di orientamento  
 L’**Istituto Omnicomprensivo "A. Giordano"** (**ISIS003002**) ha stabilito partnership significative con enti locali, università, associazioni del terzo settore, imprese, Camere di commercio e organizzazioni agricole. Queste collaborazioni, sebbene non siano esplicitamente dettagliate nel PTOF in relazione all’orientamento, rappresentano un potenziale per lo sviluppo di attività di orientamento pratico, come **stage, tirocini e laboratori tematici** in collaborazione con il tessuto produttivo del Molise. Ad esempio, le relazioni con le Camere di commercio potrebbero favorire l’organizzazione di **visite aziendali** o **simulazioni di contesti lavorativi**, mentre le associazioni del terzo settore potrebbero supportare progetti di **educazione al lavoro sociale** o **sviluppo di competenze trasversali**. Le collaborazioni con le università, inoltre, potrebbero aprire a percorsi di **orientamento universitario** o a iniziative di **mentoring intergenerazionale** con studenti universitari.
 
+
+
+#### Collaborazione con professionisti per esperienze pratiche  
+La scuola ha sviluppato una **partnership con professionisti del settore** (PRF), che coinvolge esperti di agricoltura, artigianato e tecnologie digitali in attività di mentoring e laboratori pratici. Gli studenti partecipano a **workshop di orientamento** in cui i professionisti guidano simulazioni di contesti lavorativi reali (es. gestione di un’azienda agricola, creazione di un prodotto artigianale), integrando competenze tecniche con soft skills come problem-solving e comunicazione. Questo modello permette agli studenti di esplorare percorsi professionali in modo concreto, con un focus sull’adattamento alle esigenze del mercato siciliano.
+
 ---
 
 ### Azioni di Sistema e Governance
@@ -7645,6 +7960,11 @@ L’**Istituto Omnicomprensivo "A. Giordano"** (**ISIS003002**) ha stabilito par
 
 #### Struttura articolata del PTOF per l’orientamento  
 Il **PTOF** della scuola presenta una struttura organizzata sull’orientamento, con un piano articolato che integra le esigenze del territorio campano e le opportunità offerte dalle collaborazioni con enti locali e università. Tuttavia, mancano indicatori quantitativi specifici per monitorare l’impatto delle attività di orientamento, un aspetto che potrebbe essere migliorato per garantire una valutazione più precisa dei risultati.
+
+
+
+#### Trasparenza del PTOF e comunicazione scuola-famiglia per un orientamento partecipato  
+**SRRI01601V** - **I.P.S.I.A. Noto** implementa un modello di governance incentrato sulla **trasparenza del Piano Triennale dell'Offerta Formativa (PTOF)** e sulla **comunicazione attiva con le famiglie**. Questo approccio, sebbene non preveda metodologie didattiche specifiche per l'orientamento, crea un contesto istituzionale favorevole alla costruzione di percorsi formativi condivisi. La scuola organizza regolarmente **incontri informativi per le famiglie** e rende accessibili online le tracce dei progetti didattici, permettendo agli studenti e ai genitori di comprendere chiaramente gli obiettivi formativi e le opportunità professionali legate ai percorsi di studio. Questa pratica, pur non esplicitamente orientativa, favorisce una **cultura di partecipazione** che può fungere da base per un orientamento più strutturato nel lungo termine.
 
 ---
 
