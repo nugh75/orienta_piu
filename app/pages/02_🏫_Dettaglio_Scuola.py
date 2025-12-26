@@ -9,8 +9,8 @@ import os
 import json
 import glob
 import numpy as np
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Dettaglio Scuola", page_icon="🧭", layout="wide")
 setup_page("pages/02_🏫_Dettaglio_Scuola.py")
@@ -690,7 +690,7 @@ with tab_profilo:
     pdf_path = None
     search_dirs = ["ptof_processed", "ptof_inbox"]
     try:
-        from app.data_utils import find_pdf_for_school
+        from data_utils import find_pdf_for_school
         pdf_path = find_pdf_for_school(school_id, base_dirs=search_dirs)
     except Exception:
         pdf_patterns = []
@@ -1085,7 +1085,7 @@ with tab_matching:
 
     # Import del match engine
     try:
-        from app.match_engine import (
+        from match_engine import (
             advanced_peer_matching,
             DIMENSION_LABELS,
             compare_two_schools
@@ -1249,7 +1249,7 @@ with tab_suggestions:
     """)
 
     try:
-        from app.match_engine import (
+        from match_engine import (
             advanced_peer_matching,
             get_improvement_suggestions,
             DIMENSIONS as MATCH_DIMENSIONS,

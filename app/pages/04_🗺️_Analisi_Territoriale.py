@@ -9,8 +9,8 @@ import numpy as np
 import os
 from io import BytesIO
 from scipy import stats
-from app.data_utils import normalize_statale_paritaria, render_footer
-from app.page_control import setup_page
+from data_utils import normalize_statale_paritaria, render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Analisi Territoriale", page_icon="🧭", layout="wide")
 setup_page("pages/04_🗺️_Analisi_Territoriale.py")
@@ -1731,7 +1731,7 @@ with tab_confronti:
 
     if 'tipo_scuola' in df.columns and 'area_geografica' in df.columns:
         try:
-            from app.data_utils import explode_school_types
+            from data_utils import explode_school_types
             df_pivot = explode_school_types(df)
         except Exception:
             df_pivot = df.copy()
@@ -1854,7 +1854,7 @@ with tab_confronti:
             df_radar = df.copy()
             if radar_group == 'tipo_scuola':
                 try:
-                    from app.data_utils import explode_school_types
+                    from data_utils import explode_school_types
                     df_radar = explode_school_types(df)
                 except Exception:
                     pass
@@ -1862,7 +1862,7 @@ with tab_confronti:
                 df_radar = df_radar[df_radar['tipo_scuola'].isin(TIPI_SCUOLA)]
             elif radar_group == 'ordine_grado':
                 try:
-                    from app.data_utils import explode_school_grades
+                    from data_utils import explode_school_grades
                     df_radar = explode_school_grades(df)
                 except Exception:
                     pass
@@ -1918,7 +1918,7 @@ with tab_confronti:
     with col2:
         if 'ordine_grado' in df.columns:
             try:
-                from app.data_utils import explode_school_grades
+                from data_utils import explode_school_grades
                 df_box = explode_school_grades(df)
             except Exception:
                 df_box = df.copy()
@@ -1990,7 +1990,7 @@ with tab_confronti:
         st.markdown("#### Confronto I Grado vs II Grado")
         if 'ordine_grado' in df.columns:
             try:
-                from app.data_utils import explode_school_grades
+                from data_utils import explode_school_grades
                 df_stat = explode_school_grades(df)
             except Exception:
                 df_stat = df.copy()
@@ -2101,7 +2101,7 @@ with tab_confronti:
         dim_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
         if all(c in df.columns for c in dim_cols):
             try:
-                from app.data_utils import explode_school_grades
+                from data_utils import explode_school_grades
                 df_bar = explode_school_grades(df)
             except Exception:
                 df_bar = df.copy()
@@ -2451,7 +2451,7 @@ with tab_report:
 
             if 'tipo_scuola' in df_region.columns:
                 try:
-                    from app.data_utils import TIPI_SCUOLA, explode_school_types
+                    from data_utils import TIPI_SCUOLA, explode_school_types
                     df_region_exploded = explode_school_types(df_region.copy(), 'tipo_scuola')
                     df_region_exploded = df_region_exploded[df_region_exploded['tipo_scuola'].isin(TIPI_SCUOLA)]
 

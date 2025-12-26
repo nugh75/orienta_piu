@@ -7,9 +7,9 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from app.match_engine import FAMILY_PREFERENCE_WEIGHTS, match_for_families
-from app.page_control import setup_page
-from app.data_utils import render_footer
+from match_engine import FAMILY_PREFERENCE_WEIGHTS, match_for_families
+from page_control import setup_page
+from data_utils import render_footer
 
 st.set_page_config(page_title="ORIENTA+ | Scegli la Tua Scuola", page_icon="🎓", layout="wide")
 setup_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")

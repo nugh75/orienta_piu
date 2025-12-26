@@ -3,8 +3,8 @@
 from pathlib import Path
 
 import streamlit as st
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 PROMPTS_FILE = BASE_DIR / "config" / "prompts.md"

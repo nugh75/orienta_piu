@@ -8,8 +8,8 @@ import glob
 import re
 from collections import Counter
 from datetime import datetime
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Best Practice", page_icon="🧭", layout="wide")
 setup_page("pages/09_💡_Best_Practice.py")

@@ -55,7 +55,7 @@
         "evidence_location": "Pagina 8"
       },
       "finalita_transizioni_formative": {
-        "score": 6,
+        "score": 5,
         "evidence_quote": "per una scelta più consapevole del proprio futuro nella formazione universitaria e nel mondo del lavoro",
         "evidence_location": "Pagina 17"
       },
@@ -265,6 +265,26 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-27T00:19:10.054372",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 68,
+        "extreme_scores_checked": 2,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_3_finalita.finalita_transizioni_formative.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo indica l'obiettivo di una scelta più consapevole del futuro, ma non fornisce dettagli speci"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -273,6 +293,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 10
+    },
+    {
+      "timestamp": "2025-12-27T00:19:10.054393",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
     }
   ]
 }

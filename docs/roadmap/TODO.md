@@ -8,6 +8,10 @@
 - [ ] CI/CD per test automatici
 - [ ] Deploy automatico
 
+### Windows / WSL
+
+- [ ] Avvio automatico Streamlit su Windows (vedi `docs/roadmap/DEPLOY_WSL_AUTOSTART.md`)
+
 ### Mail List
 
 - [X] Sistema automatizzato per ricevere PTOF dalle scuole via email

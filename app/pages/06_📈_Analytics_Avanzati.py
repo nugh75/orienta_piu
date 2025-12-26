@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import os
 import glob
 from collections import Counter
-from app.data_utils import (
+from data_utils import (
     get_label,
     LABEL_MAP_SHORT as LABEL_MAP,
     TIPI_SCUOLA,
@@ -14,7 +14,7 @@ from app.data_utils import (
     explode_school_grades,
     render_footer,
 )
-from app.page_control import setup_page
+from page_control import setup_page
 
 # Safe optional imports
 try:

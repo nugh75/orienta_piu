@@ -5,8 +5,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-from app.data_utils import GESTIONE_SCUOLA, normalize_statale_paritaria, render_footer
-from app.page_control import setup_page
+from data_utils import GESTIONE_SCUOLA, normalize_statale_paritaria, render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Home", page_icon="🧭", layout="wide")
 settings = setup_page("Home.py")
@@ -347,7 +347,7 @@ st.subheader("📊 Media per Tipologia")
 
 if 'tipo_scuola' in df.columns:
     try:
-        from app.data_utils import TIPI_SCUOLA, explode_school_types
+        from data_utils import TIPI_SCUOLA, explode_school_types
         df_tipo = explode_school_types(df)
         df_tipo = df_tipo[df_tipo['tipo_scuola'].isin(TIPI_SCUOLA)]
     except Exception:
@@ -623,7 +623,7 @@ st.caption("Indice RO normalizzato per tipologia: ogni tipo pesa allo stesso mod
 
 if 'regione' in df.columns:
     try:
-        from app.data_utils import TIPI_SCUOLA
+        from data_utils import TIPI_SCUOLA
     except Exception:
         TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-27T00:13:18.552684",
+  "last_updated": "2025-12-27T00:25:56.612762",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -31,9 +31,25 @@
             "scores_modified": 7,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-27T00:20:41.517020",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 21,
+            "enrichments_found": 31,
+            "corrections_found": 13,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 2
+          }
         }
       ],
-      "last_review": "2025-12-24T18:49:14.124447"
+      "last_review": "2025-12-27T00:20:41.517033"
     },
     "OREE82805P": {
       "pdf_hash": "sha256:bd8da2a3fe1f0f5d3a4baf737a61af45bdbfcf5ff25093c9d12a526de5cef608",
@@ -522,9 +538,25 @@
             "scores_modified": 2,
             "orientamento_found": true
           }
+        },
+        {
+          "type": "ollama_report_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-27T00:25:56.612624",
+          "details": {
+            "action": "enrich",
+            "chunks_analyzed": 8,
+            "enrichments_found": 16,
+            "corrections_found": 0,
+            "orientamento_found": true,
+            "report_created": false,
+            "report_enriched": true,
+            "initial_issues": 0
+          }
         }
       ],
-      "last_review": "2025-12-24T18:54:12.925644"
+      "last_review": "2025-12-27T00:25:56.612635"
     },
     "TPTD00802B": {
       "pdf_hash": "unknown",
@@ -3591,6 +3623,27 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/GEPS17000A_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/GEPS17000A_ptof.md"
+    },
+    "PATDEE500L": {
+      "pdf_hash": "unknown",
+      "pdf_name": "PATDEE500L_ptof.pdf",
+      "analyzed_at": "unknown",
+      "json_path": "",
+      "reviews": [
+        {
+          "type": "ollama_score_review",
+          "model": "qwen3:32b",
+          "status": "completed",
+          "timestamp": "2025-12-27T00:19:10.063090",
+          "details": {
+            "chunks_analyzed": 68,
+            "extreme_scores_checked": 2,
+            "scores_modified": 1,
+            "orientamento_found": true
+          }
+        }
+      ],
+      "last_review": "2025-12-27T00:19:10.063107"
     }
   }
 }

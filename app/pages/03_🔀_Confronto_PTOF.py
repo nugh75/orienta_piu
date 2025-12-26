@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 import os
 import json
 import glob
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Confronto PTOF", page_icon="🧭", layout="wide")
 setup_page("pages/03_🔀_Confronto_PTOF.py")

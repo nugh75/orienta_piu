@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from app.page_control import get_page_settings, save_page_settings, setup_page
+from page_control import get_page_settings, save_page_settings, setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Amministrazione", page_icon="🧭", layout="wide")
 setup_page("pages/13_🛠️_Amministrazione.py")

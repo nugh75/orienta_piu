@@ -9,8 +9,8 @@ import os
 import glob
 import re
 from scipy import stats
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Impatto Metodologie", page_icon="🧭", layout="wide")
 setup_page("pages/08_📊_Impatto_Metodologie.py")

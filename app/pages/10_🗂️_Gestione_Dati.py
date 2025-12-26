@@ -10,8 +10,8 @@ from src.utils.backup_system import (
     create_backup, list_backups, restore_backup,
     create_backup_zip, restore_from_zip, delete_backup
 )
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Gestione Dati", page_icon="🧭", layout="wide")
 setup_page("pages/10_🗂️_Gestione_Dati.py")
@@ -49,7 +49,7 @@ def display_pdf(school_id, height=600):
     import base64
 
     try:
-        from app.data_utils import find_pdf_for_school
+        from data_utils import find_pdf_for_school
         pdf_path = find_pdf_for_school(school_id, base_dirs=PTOF_SEARCH_DIRS)
     except Exception:
         pdf_path = None

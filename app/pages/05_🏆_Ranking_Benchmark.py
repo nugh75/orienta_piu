@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 import numpy as np
 import os
 from scipy import stats
-from app.data_utils import GESTIONE_SCUOLA, TIPI_SCUOLA, normalize_statale_paritaria, render_footer
-from app.page_control import setup_page
+from data_utils import GESTIONE_SCUOLA, TIPI_SCUOLA, normalize_statale_paritaria, render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Ranking & Benchmark", page_icon="🧭", layout="wide")
 setup_page("pages/05_🏆_Ranking_Benchmark.py")

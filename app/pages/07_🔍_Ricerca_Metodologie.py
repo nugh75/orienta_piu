@@ -8,8 +8,8 @@ import os
 import glob
 import re
 from collections import Counter
-from app.data_utils import render_footer
-from app.page_control import setup_page
+from data_utils import render_footer
+from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Ricerca Metodologie", page_icon="🧭", layout="wide")
 setup_page("pages/07_🔍_Ricerca_Metodologie.py")

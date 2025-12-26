@@ -251,16 +251,19 @@
       }
     },
     {
-      "timestamp": "2025-12-25T01:16:59.474803",
-      "activity": "ollama_score_review",
+      "timestamp": "2025-12-25T01:45:08.204139",
+      "activity": "ollama_report_review",
       "model": "qwen3:32b",
       "status": "completed",
       "details": {
+        "action": "enrich",
         "chunks_analyzed": 68,
-        "extreme_scores_checked": 2,
-        "scores_modified": 0,
+        "enrichments_found": 195,
+        "corrections_found": 90,
         "orientamento_found": true,
-        "changes": []
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
       }
     }
   ],
@@ -270,12 +273,6 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 10
-    },
-    {
-      "timestamp": "2025-12-25T01:16:59.474828",
-      "reviewer": "ollama/qwen3:32b",
-      "type": "score_review",
-      "changes": 0
     }
   ]
 }
