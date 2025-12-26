@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "school_id": "PIPS02500D",
+    "denominazione": "Istituto Arcivescovile Santa Caterina",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Pisa",
+    "anno_ptof": "2022-2025",
+    "provincia": "Pisa",
+    "regione": "Toscana",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Santa Caterina N. 4",
+    "cap": "56127",
+    "email": "info@scaterina-pisa.it",
+    "pec": "segamm@pec.scaterina-pisa.it",
+    "website": "www.scaterina-pisa.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato in diversi paragrafi, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università di Pisa",
+        "Scuola Normale",
+        "Scuola Superiore Sant'Anna",
+        "CNR",
+        "Azienda Ospedaliera",
+        "Palazzo Blu",
+        "Musei dell’Università di Pisa"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "promuovere vari aspetti di una persona",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "incoraggiare e incuriosire i bambini",
+        "evidence_location": "Pagina 25"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "educazione e la promozione della persona nella sua integralità",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "acquisire strumenti di interpretazione e giudizio",
+        "evidence_location": "Pagina 26"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corso di Teatro in Lingua Inglese",
+      "categoria_principale": "Attività Extrascolastica",
+      "descrizione_e_metodologia": "Corso di teatro con approccio linguistico.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Corso di teatro",
+      "5w_dove": "Istituto",
+      "5w_quando": "Orario extrascolastico",
+      "5w_perche": "Sviluppo competenze linguistiche e teatrali",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Corso Cambridge",
+      "categoria_principale": "Attività Extrascolastica",
+      "descrizione_e_metodologia": "Corso di preparazione alla certificazione Cambridge.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Corso di lingua inglese",
+      "5w_dove": "Istituto",
+      "5w_quando": "Orario extrascolastico",
+      "5w_perche": "Certificazione linguistica",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Coro di Voci Bianche del Santa Caterina",
+      "categoria_principale": "Attività Extrascolastica",
+      "descrizione_e_metodologia": "Attività corale.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Coro",
+      "5w_dove": "Istituto",
+      "5w_quando": "Orario extrascolastico",
+      "5w_perche": "Sviluppo competenze musicali",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Attività Sportive Polidisciplinari",
+      "categoria_principale": "Attività Extrascolastica",
+      "descrizione_e_metodologia": "Attività sportive varie.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Sport",
+      "5w_dove": "Istituto",
+      "5w_quando": "Orario extrascolastico",
+      "5w_perche": "Sviluppo competenze motorie",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Visite a Palazzo Blu e Musei dell’Università di Pisa",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visite guidate con laboratori didattici mirati e coinvolgenti.",
+      "5w_chi": "Bambini a partire dalla classe I",
+      "5w_cosa": "Approfondimento e consolidamento delle conoscenze acquisite in classe.",
+      "5w_dove": "Palazzo Blu, Musei dell’Università di Pisa",
+      "5w_quando": "Annualmente",
+      "5w_perche": "Esperienze concrete per consolidare le conoscenze.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Sin dalla classe I, i bambini vengono accompagnati dai docenti presso Palazzo Blu… e nei Musei dell’Università di Pisa",
+      "evidence_location": "Pagina 26"
+    }
+  ],
+  "narrative": "## Analisi del PTOF PIPS02500D_PTOF.pdf\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Arcivescovile Paritario Santa Caterina presenta un approccio all'orientamento piuttosto implicito e frammentato. Pur evidenziando l'importanza della formazione integrale della persona e della collaborazione con le famiglie, manca una sezione dedicata all'orientamento scolastico e professionale. Le attività proposte, principalmente extrascolastiche, offrono alcune opportunità di sviluppo di competenze trasversali, ma non sono esplicitamente orientate alla scelta del percorso formativo futuro.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione dedicata all'orientamento nel PTOF. L'orientamento è menzionato in diversi paragrafi, ma in modo generico e non sistematico. Questo rappresenta una lacuna significativa, in quanto impedisce di definire una strategia coerente e mirata per l'orientamento degli studenti.\n\n#### 2.2 Partnership e Reti\nL'istituto vanta collaborazioni con diverse realtà del territorio, tra cui l'**Università di Pisa**, la **Scuola Normale**, la **Scuola Superiore Sant'Anna**, il **CNR** e l'**Azienda Ospedaliera**. Queste partnership potrebbero essere sfruttate per offrire agli studenti opportunità di orientamento e di contatto con il mondo del lavoro, ma non è chiaro come queste collaborazioni vengano concretizzate in termini di orientamento.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità formative dell'istituto sono orientate allo sviluppo di vari aspetti della persona, tra cui le attitudini e gli interessi degli studenti. Tuttavia, manca un riferimento esplicito alla progettazione della vita e alle transizioni formative. Gli obiettivi specifici per l'orientamento sono assenti.\n\n#### 2.4 Governance e Azioni di Sistema\nIl rapporto scuola-genitori è considerato un elemento fondamentale per il successo formativo degli studenti. Il coordinamento dei servizi e il monitoraggio delle azioni sono presenti, ma non specificamente orientati all'orientamento scolastico e professionale.\n\n#### 2.5 Didattica Orientativa\nLa didattica laboratoriale e l'attenzione alle esperienze degli studenti sono considerate importanti. Tuttavia, manca un approccio didattico esplicitamente orientato all'esplorazione delle professioni e alla consapevolezza delle proprie competenze.\n\n#### 2.6 Opportunità Formative\nSono offerti diversi corsi extrascolastici, tra cui un **corso di teatro in lingua inglese**, un **corso Cambridge**, un **coro di voci bianche** e **attività sportive polidisciplinari**. Queste attività possono contribuire allo sviluppo di competenze trasversali, ma non sono specificamente orientate alla scelta del percorso formativo futuro.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Corso di Teatro in Lingua Inglese\nIl **Corso di Teatro in Lingua Inglese** è un'attività extrascolastica rivolta agli alunni, che mira a sviluppare competenze linguistiche e teatrali attraverso un approccio pratico e creativo. Si svolge presso l'istituto durante l'orario extrascolastico, offrendo agli studenti un'opportunità di apprendimento stimolante e coinvolgente.\n\n#### 2.7.2 Corso Cambridge\nIl **Corso Cambridge** è un'attività extrascolastica rivolta agli alunni, che mira alla preparazione alla certificazione di lingua inglese. Si svolge presso l'istituto durante l'orario extrascolastico, offrendo agli studenti un'opportunità di acquisire competenze linguistiche riconosciute a livello internazionale.\n\n#### 2.7.3 Coro di Voci Bianche del Santa Caterina\nIl **Coro di Voci Bianche del Santa Caterina** è un'attività extrascolastica rivolta agli alunni, che mira allo sviluppo di competenze musicali e alla promozione del senso di appartenenza alla comunità scolastica. Si svolge presso l'istituto durante l'orario extrascolastico, offrendo agli studenti un'opportunità di espressione artistica e di socializzazione.\n\n#### 2.7.4 Attività Sportive Polidisciplinari\nLe **Attività Sportive Polidisciplinari** sono attività extrascolastiche rivolte agli alunni, che mirano allo sviluppo di competenze motorie e alla promozione di uno stile di vita sano e attivo. Si svolgono presso l'istituto durante l'orario extrascolastico, offrendo agli studenti un'opportunità di praticare diverse discipline sportive e di migliorare la propria forma fisica.\n\n### 3. Punti di Forza\nIl punto di forza principale è la presenza di partnership con realtà del territorio che potrebbero essere sfruttate per potenziare l'offerta orientativa. L'attenzione alla formazione integrale della persona e al rapporto scuola-genitori rappresenta un altro elemento positivo.\n\n### 4. Aree di Debolezza\nLa principale area di debolezza è l'assenza di una sezione dedicata all'orientamento nel PTOF. Questo impedisce di definire una strategia coerente e mirata per l'orientamento degli studenti. Inoltre, le attività proposte sono principalmente extrascolastiche e non sono esplicitamente orientate alla scelta del percorso formativo futuro.\n\n### 5. Gap Analysis\nIl gap principale è la mancanza di un approccio sistemico all'orientamento. È necessario definire obiettivi specifici, azioni concrete e indicatori di monitoraggio per valutare l'efficacia delle attività orientative.\n\n### 6. Conclusioni\nL'orientamento nel PTOF dell'Istituto Arcivescovile Paritario Santa Caterina è ancora in una fase embrionale. È necessario un maggiore impegno per sviluppare una strategia coerente e mirata, che coinvolga tutti gli attori della comunità scolastica e che sia in grado di supportare gli studenti nella scelta del proprio percorso formativo."
+}

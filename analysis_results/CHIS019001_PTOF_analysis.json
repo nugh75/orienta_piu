@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "school_id": "CHIS019001",
+    "denominazione": "Iis \"De Titta - Fermi\" - Lanciano",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Lanciano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Chieti",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Marconi 14",
+    "cap": "66034",
+    "email": "chis019001@istruzione.it",
+    "pec": "chis019001@pec.istruzione.it",
+    "website": "http://erasmusplus.altervista.org/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non è presente una sezione dedicata specificamente all'orientamento. L'attenzione è focalizzata sulla valutazione degli apprendimenti e sull'implementazione di PCTO e PEI per studenti con disabilità (pagina 228). Manca un piano orientativo generale."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Comune di Lanciano",
+        "Università",
+        "soggetti privati",
+        "associazioni",
+        "cooperative",
+        "Ordini professionali",
+        "A.S.L.",
+        "Procura della Repubblica",
+        "Tribunale",
+        "Casa Circondariale di Lanciano",
+        "Enti Locali",
+        "Ente Privato (EPV)",
+        "ITS Turismo e Cultura Teramo",
+        "Università D'Annunzio di Pescara",
+        "Agenzie di Traduzione e Interpretariato",
+        "Associazione \"I colori dell'iride\"",
+        "Enti e aziende del territorio",
+        "GLIR/GIT/Scuole polo per l’inclusione territoriale"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 2,
+        "evidence_quote": "promuovere l’integrazione...di attività volti a sviluppare le competenze STEM",
+        "evidence_location": "Pagina 86"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Percorsi di orientamento con il coinvolgimento delle famiglie",
+        "evidence_location": "Pagina 193"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "prevenzione e contrasto della dispersione scolastica",
+        "evidence_location": "Pagina 188"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Nel PEI, come indicato nel DLgs 66/2017, sono definiti gli strumenti per l'effettivo svolgimento dei PCTO",
+        "evidence_location": "Pagina 227"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "PCTO",
+        "evidence_location": "Pagina 228"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sportello CIC",
+      "categoria_principale": "Servizio di orientamento",
+      "descrizione_e_metodologia": "Servizio di prevenzione della dispersione scolastica, informazione, sostegno, consulenza e orientamento in itinere.",
+      "5w_chi": "Tutti gli alunni",
+      "5w_cosa": "Accoglienza, sostegno, orientamento, valorizzazione delle competenze individuali.",
+      "5w_dove": "Istituto",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Favorire la crescita e l'affermazione di sé, creare un clima solidale.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Progetto “Porte aperte”",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorsi di mentoring e orientamento, percorsi di potenziamento delle competenze di base, di motivazione e accompagnamento, percorsi di orientamento per le famiglie, percorsi formativi e laboratoriali co-curricolari.",
+      "5w_chi": "Alunni con fragilità",
+      "5w_cosa": "Percorsi di mentoring, potenziamento competenze, orientamento famiglie.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2023-2024 e 2024-2025",
+      "5w_perche": "Favorire la crescita e l'affermazione di sé, creare un clima solidale.",
+      "ore_dichiarate": "ND",
+      "target": "Alunni con fragilità",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l’orientamento, con esperienze in azienda o in ambienti scolastici simulati (pagina 227).",
+      "5w_chi": "Studenti con disabilità",
+      "5w_cosa": "Esperienza lavorativa",
+      "5w_dove": "Azienda o scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo competenze e transizione scuola-lavoro",
+      "ore_dichiarate": "ND",
+      "target": "Alunni con disabilità",
+      "evidence_quote": "Nel PEI, come indicato nel DLgs 66/2017, sono definiti gli strumenti per l'effettivo svolgimento dei PCTO",
+      "evidence_location": "Pagina 227"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CHIS019001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Iis \\\"De Titta - Fermi\\\" - Lanciano** (CHIS019001) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano di **Lanciano** (provincia di **Chieti**, regione **Abruzzo**), è un istituto statale che offre diversi gradi di istruzione. L'analisi evidenzia un impegno verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata. L'attenzione si concentra su **PCTO**, **PEI** per studenti con disabilità e attività di prevenzione della dispersione scolastica. La scuola vanta una rete di **partnership** consolidata con diversi enti e istituzioni del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione dedicata specificamente all'orientamento, ottenendo un punteggio di 2. Si rileva una mancanza di un piano orientativo generale, con l'attenzione focalizzata su aspetti specifici come la valutazione degli apprendimenti.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di **partnership** con ben 18 soggetti, tra cui il **Comune di Lanciano**, diverse **Università** (tra cui l'**Università D'Annunzio di Pescara**), **soggetti privati**, **associazioni**, **cooperative**, **Ordini professionali**, l'**A.S.L.**, la **Procura della Repubblica**, il **Tribunale**, la **Casa Circondariale di Lanciano**, **Enti Locali**, **Enti Privati (EPV)**, l'**ITS Turismo e Cultura Teramo**, **Agenzie di Traduzione e Interpretariato**, l'**Associazione \\\"I colori dell'iride\\\"**, e i **GLIR/GIT/Scuole polo per l’inclusione territoriale**.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono orientate allo sviluppo di **attitudini** (punteggio 2), degli **interessi** degli studenti (punteggio 4), alla progettazione del **progetto di vita** (punteggio 4), alla gestione delle **transizioni formative** (punteggio 5) e allo sviluppo delle **capacità orientative** e delle **opportunità** (punteggio 4).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono focalizzati sulla riduzione dell'**abbandono** scolastico (punteggio 6), sulla continuità territoriale (punteggio 5), sul contrasto al fenomeno **NEET** (punteggio 2) e sulla promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate prevedono il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 5), il rapporto **scuola-genitori** (punteggio 6), il **monitoraggio delle azioni** intraprese (punteggio 4) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 4) e **sportive** (punteggio 4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella consolidata rete di **partnership** con il territorio, nell'attenzione alla prevenzione della dispersione scolastica e nell'impegno verso l'inclusione degli studenti con disabilità, come dimostrato dall'implementazione dei **PEI** e dei **PCTO**. Il forte coinvolgimento delle famiglie è un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Manca un piano orientativo generale e una visione strategica integrata delle attività di orientamento. L'attenzione è frammentata e focalizzata su aspetti specifici.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una pianificazione strategica dell'orientamento. Sebbene siano presenti diverse attività e progetti, questi non sono coordinati all'interno di un piano organico e coerente. È necessario definire obiettivi specifici, indicatori di performance e azioni concrete per migliorare l'efficacia dell'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Iis \\\"De Titta - Fermi\\\" - Lanciano** dimostra un impegno verso l'orientamento, sebbene necessiti di una maggiore strutturazione e pianificazione. L'istituto può rafforzare la sua offerta formativa integrando l'orientamento in un piano strategico coerente, definendo obiettivi chiari e monitorando i risultati ottenuti. Lo sfruttamento delle numerose **partnership** e l'attenzione alle esigenze degli studenti con disabilità rappresentano un solido punto di partenza per migliorare l'efficacia dell'orientamento e favorire la transizione scuola-lavoro. Attività come lo **Sportello CIC** e il progetto **“Porte aperte”** sono esempi positivi di iniziative concrete che contribuiscono a raggiungere gli obiettivi prefissati."
+}

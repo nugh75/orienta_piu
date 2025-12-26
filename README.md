@@ -161,55 +161,79 @@ make review-non-ptof TARGET=RMIC8GA002
 
 ## 📚 Report Best Practice con LLM
 
-Il sistema genera un report narrativo sulle best practice dell'orientamento analizzando tutti i PTOF.
+Il sistema genera report sulle best practice dell'orientamento analizzando tutti i PTOF.
 
-### Architettura a due livelli
+### Tre tipologie di Report
 
-| Fase | Modello | Ruolo |
-|------|---------|-------|
-| Incremento | Ollama (qwen3:32b) | Legge ogni scuola e arricchisce il report |
-| Refactoring | Gemini 3 Flash | Ogni N scuole riorganizza e elimina ridondanze |
+| Report | Comando | Descrizione |
+|--------|---------|-------------|
+| **Statistico** | `make best-practice` | Dati aggregati, classifiche, tabelle (algoritmi) |
+| **Narrativo** | `make best-practice-llm` | Analisi discorsiva completa (Ollama) |
+| **Sintetico** | `make best-practice-llm-synth` | Versione condensata del narrativo (Gemini) |
 
-### Funzionamento
+### Architettura
 
-1. **Fase incrementale (Ollama)**: Per ogni scuola, estrae le best practice e le aggiunge al report esistente
-2. **Fase refactoring (Gemini)**: Ogni 10 scuole (configurabile), Gemini riorganizza il report:
-   - Elimina ridondanze e ripetizioni
-   - Unifica sottotitoli simili
-   - Migliora la narrazione con connettivi
-   - Preserva tutte le informazioni e i riferimenti alle scuole
+| Fase | Modello | Comando |
+|------|---------|---------|
+| Report Narrativo | Ollama (qwen3:32b) | `make best-practice-llm` |
+| Report Sintetico | Gemini 3 Flash + OpenRouter fallback | `make best-practice-llm-synth` |
+
+### Struttura del Report Narrativo
+
+Il report è organizzato per:
+- **Sezioni principali** (##): Metodologie, Progetti, Partnership, Governance, Inclusione, Territorio
+- **Sottotitoli specifici** (####): Descrivono l'attività concreta (es. "Visite ai campus universitari")
+- **Tipologia scuola** (#####): Divisione per ordine e grado
+
+Le 6 tipologie di scuola:
+1. Scuole dell'Infanzia
+2. Scuole Primarie
+3. Scuole Secondarie di Primo Grado
+4. Licei
+5. Istituti Tecnici
+6. Istituti Professionali
 
 ### Formattazione automatica
 
-Il report usa la formattazione **neretto** per:
-- **Codice meccanografico** e **Nome scuola** (es: **RMIC8GA002** - **I.C. Via Roma**)
-- **Nomi dei progetti** (es: **Progetto Futuro**)
+- **Codice meccanografico** e **Nome scuola** in neretto (es: **RMIC8GA002** - **I.C. Via Roma**)
+- **Nomi dei progetti** in neretto (es: **Progetto Futuro**)
+- Stile narrativo, no elenchi puntati
 
 ### Comandi
 
 ```bash
-# Generazione incrementale (default: refactoring ogni 10 scuole)
+# Report statistico (algoritmi)
+make best-practice
+
+# Report narrativo con Ollama (incrementale)
 make best-practice-llm
 
-# Refactoring ogni 5 scuole con modello specifico
-make best-practice-llm REFACTOR_EVERY=5 REFACTOR_MODEL=gemini-3-pro-preview
-
-# Ricomincia da zero
+# Ricomincia report narrativo da zero
 make best-practice-llm-reset
 
-# Senza refactoring automatico
-make best-practice-llm REFACTOR_EVERY=9999
+# Report sintetico (refactoring con Gemini)
+make best-practice-llm-synth
+
+# Report sintetico con modello specifico
+make best-practice-llm-synth REFACTOR_MODEL=gemini-2.5-flash
+
+# Ripristina report sintetico dal backup
+make best-practice-llm-synth-restore
 ```
 
 ### Gestione errori
 
-- **Rate limit Gemini (429)**: Il sistema salta il refactoring e riprova automaticamente dopo altre N scuole
-- **Interruzione (Ctrl+C)**: Salvataggio sicuro del progresso, ripresa dalla prossima esecuzione
-- **Report troppo corto**: Se Gemini restituisce un report ridotto >50%, mantiene l'originale
+- **Rate limit Gemini (429)**: Fallback automatico a OpenRouter (GPT OSS 120B)
+- **Interruzione (Ctrl+C)**: Salvataggio sicuro del progresso
+- **Sezione troppo corta**: Mantiene l'originale se riduzione >80%
 
 ### Output
 
-Il report viene salvato in: `reports/best_practice_orientamento_narrativo.md`
+| Report | File |
+|--------|------|
+| Statistico | `reports/best_practice_orientamento.md` |
+| Narrativo | `reports/best_practice_orientamento_narrativo.md` |
+| Sintetico | `reports/best_practice_orientamento_sintetico.md` |
 
 ## 📓 Notebook
 

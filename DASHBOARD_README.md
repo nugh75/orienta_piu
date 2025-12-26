@@ -10,7 +10,7 @@ La dashboard Streamlit è **pienamente funzionante** con tutti i componenti veri
 - ✅ File dati (91 scuole, 43 colonne)
 - ✅ Integrità CSV (indice medio: 2.99)
 - ✅ Moduli custom (data_utils, data_manager)
-- ✅ 15 pagine dashboard
+- ✅ 16 pagine dashboard
 - ✅ Sintassi corretta in tutti i file
 
 ## Avvio Rapido
@@ -146,37 +146,78 @@ base = "light"
 - **data/analysis_summary.csv** - Dataset principale (91 scuole)
 - **analysis_results/*.json** - File analisi JSON per scuola
 - **analysis_results/*.md** - Report analisi in markdown
-- **reports/best_practice_orientamento_narrativo.md** - Report best practice generato con LLM
+- **reports/best_practice_orientamento.md** - Report statistico (algoritmi)
+- **reports/best_practice_orientamento_narrativo.md** - Report narrativo (Ollama LLM)
+- **reports/best_practice_orientamento_sintetico.md** - Report sintetico (Gemini refactoring)
 
 ## Metodologia Report Best Practice LLM
 
-Il report narrativo sulle best practice viene generato con un'architettura a due livelli:
+Il sistema genera tre tipologie di report sulle best practice dell'orientamento:
 
-### Fase 1: Incremento (Ollama)
-Per ogni scuola analizzata:
+| Report | Comando | Descrizione |
+|--------|---------|-------------|
+| **Statistico** | `make best-practice` | Dati aggregati, classifiche, tabelle (algoritmi) |
+| **Narrativo** | `make best-practice-llm` | Analisi discorsiva completa (Ollama) |
+| **Sintetico** | `make best-practice-llm-synth` | Versione condensata del narrativo (Gemini) |
+
+### Fase 1: Report Narrativo (Ollama)
+
+Per ogni scuola analizzata, il modello qwen3:32b:
 1. Estrae punti di forza, didattica orientativa, opportunità formative
 2. Identifica progetti, partnership e azioni di sistema
 3. Arricchisce il report esistente con le nuove informazioni
-4. Formatta automaticamente **codice** e **nome scuola** in neretto
+4. Divide il contenuto per **tipologia di scuola** (da CSV)
+5. Formatta automaticamente **codice** e **nome scuola** in neretto
 
-### Fase 2: Refactoring (Gemini 3)
-Ogni N scuole (default: 10), Gemini riorganizza il report:
-- Elimina ridondanze e ripetizioni
-- Unifica sottotitoli simili sotto categorie più ampie
-- Migliora la fluidità narrativa con connettivi
-- Preserva tutti i riferimenti specifici alle scuole
+#### Struttura del Report Narrativo
 
-### Gestione Rate Limit
-Se Gemini risponde con errore 429 (rate limit), il sistema:
-1. Salta il refactoring corrente
-2. Continua con le prossime N scuole
-3. Riprova automaticamente al prossimo ciclo
+Il report è organizzato per:
+- **Sezioni principali** (##): Metodologie, Progetti, Partnership, Governance, Inclusione, Territorio
+- **Sottotitoli specifici** (####): Descrivono l'attività concreta (es. "Visite ai campus universitari")
+- **Tipologia scuola** (#####): Divisione per ordine e grado
+
+Le 6 tipologie di scuola (dal campo `tipo_scuola` del CSV):
+1. Scuole dell'Infanzia
+2. Scuole Primarie
+3. Scuole Secondarie di Primo Grado
+4. Licei
+5. Istituti Tecnici
+6. Istituti Professionali
+
+### Fase 2: Report Sintetico (Gemini)
+
+Comando separato che processa il report narrativo **sezione per sezione**:
+- Estrae ogni sezione `##` dal report narrativo
+- Invia ogni sezione a Gemini per il refactoring
+- Elimina ridondanze mantenendo tutti i riferimenti alle scuole
+- Unifica contenuti simili sotto categorie più ampie
+- Riduce la lunghezza del 30-50%
+
+#### Gestione Rate Limit
+- **Errore 429 Gemini**: Fallback automatico a OpenRouter (GPT OSS 120B)
+- **Backup automatico**: Creazione di `.bak` prima di sovrascrivere
+- **Sezione troppo corta**: Mantiene l'originale se riduzione >80%
 
 ### Comandi
+
 ```bash
-make best-practice-llm                    # Default (refactoring ogni 10 scuole)
-make best-practice-llm REFACTOR_EVERY=5   # Refactoring ogni 5 scuole
-make best-practice-llm-reset              # Ricomincia da zero
+# Report statistico (algoritmi)
+make best-practice
+
+# Report narrativo con Ollama (incrementale)
+make best-practice-llm
+
+# Ricomincia report narrativo da zero
+make best-practice-llm-reset
+
+# Report sintetico (refactoring con Gemini)
+make best-practice-llm-synth
+
+# Report sintetico con modello specifico
+make best-practice-llm-synth REFACTOR_MODEL=gemini-2.5-flash
+
+# Ripristina report sintetico dal backup
+make best-practice-llm-synth-restore
 ```
 
 ## Supporto

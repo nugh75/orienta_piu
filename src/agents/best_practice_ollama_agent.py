@@ -26,13 +26,18 @@ ANALYSIS_DIR = 'analysis_results'
 OUTPUT_DIR = 'reports'
 OUTPUT_FILE = 'best_practice_orientamento_narrativo.md'
 OUTPUT_FILE_SYNTH = 'best_practice_orientamento_sintetico.md'
+OUTPUT_FILE_SYNTH_FULL = 'best_practice_orientamento_sintetico_full.md'
 PROGRESS_FILE = 'reports/.best_practice_progress.json'
+SYNTH_PROGRESS_FILE = 'reports/.best_practice_synth_progress.json'
 
 # Ollama settings
 OLLAMA_URL = os.environ.get('OLLAMA_URL', "http://192.168.129.14:11434")
 OLLAMA_MODEL = os.environ.get('MODEL', "qwen3:32b")
 MAX_RETRIES = 3
 REQUEST_TIMEOUT = 300
+SYNTH_BACKOFF_START = 30
+SYNTH_BACKOFF_MAX = 60 * 60 * 2
+SYNTH_REFRESH_INTERVAL = 60 * 60 * 2
 
 # Gemini refactoring settings
 GEMINI_MODEL = "gemini-3-flash-preview"
@@ -391,11 +396,11 @@ class BestPracticeOllamaAgent:
         
         for key, value in sec2.items():
             if isinstance(value, dict):
-                if 'score' in value:
+                if 'score' in value and value['score'] is not None:
                     scores.append(value['score'])
                 else:
                     for subval in value.values():
-                        if isinstance(subval, dict) and 'score' in subval:
+                        if isinstance(subval, dict) and 'score' in subval and subval['score'] is not None:
                             scores.append(subval['score'])
         
         return sum(scores) / len(scores) if scores else 0
@@ -460,9 +465,29 @@ class BestPracticeOllamaAgent:
         
         return '\n'.join(content)
     
+    # Tipologie di scuola per la struttura del report
+    TIPOLOGIE_REPORT = [
+        "Nelle Scuole dell'Infanzia",
+        "Nelle Scuole Primarie",
+        "Nelle Scuole Secondarie di Primo Grado",
+        "Nei Licei",
+        "Negli Istituti Tecnici",
+        "Negli Istituti Professionali",
+    ]
+
+    # Categorie di best practice
+    CATEGORIE_REPORT = [
+        ("Metodologie Didattiche Innovative", "metodologie didattiche più efficaci"),
+        ("Progetti e Attività Esemplari", "progetti concreti e attività di orientamento"),
+        ("Partnership e Collaborazioni Strategiche", "collaborazioni con enti esterni, università, imprese"),
+        ("Azioni di Sistema e Governance", "coordinamento e azioni sistemiche"),
+        ("Buone Pratiche per l'Inclusione", "orientamento inclusivo, attento alle fragilità"),
+        ("Esperienze Territoriali Significative", "legame con il territorio e specificità locali"),
+    ]
+
     def build_initial_report(self):
-        """Crea la struttura iniziale del report."""
-        return f"""# Report sulle Best Practice dell'Orientamento nelle Scuole Italiane
+        """Crea la struttura iniziale del report organizzata per tipologia di scuola."""
+        report = f"""# Report sulle Best Practice dell'Orientamento nelle Scuole Italiane
 
 *Report incrementale generato con {self.model}*
 *Ultimo aggiornamento: {datetime.now().strftime('%d/%m/%Y %H:%M')}*
@@ -475,56 +500,32 @@ Questo documento raccoglie le migliori pratiche sull'orientamento scolastico eme
 
 L'orientamento scolastico rappresenta oggi una dimensione fondamentale dell'offerta formativa, chiamata a guidare gli studenti nella costruzione del proprio progetto di vita, nella scoperta delle proprie attitudini e nella scelta consapevole del percorso formativo e professionale.
 
----
-
-## Metodologie Didattiche Innovative
-
-In questa sezione vengono descritte le metodologie didattiche più efficaci adottate dalle scuole per l'orientamento.
-
----
-
-## Progetti e Attività Esemplari
-
-Raccolta di progetti concreti e attività di orientamento che si distinguono per efficacia e innovatività.
-
----
-
-## Partnership e Collaborazioni Strategiche
-
-Le collaborazioni con enti esterni, università, imprese e territorio rappresentano un elemento chiave per un orientamento efficace.
-
----
-
-## Azioni di Sistema e Governance
-
-Organizzazione, coordinamento e azioni sistemiche per garantire un orientamento strutturato e continuo.
-
----
-
-## Buone Pratiche per l'Inclusione
-
-Approcci e azioni specifiche per garantire un orientamento inclusivo, attento alle fragilità e alle diverse esigenze.
-
----
-
-## Esperienze Territoriali Significative
-
-Iniziative che valorizzano il legame con il territorio e le specificità locali.
+Il report è organizzato per tipologia di scuola, permettendo di confrontare le pratiche specifiche di ogni ordine e grado.
 
 ---
 
 """
+        # Genera sezioni per ogni tipologia di scuola
+        for tipologia in self.TIPOLOGIE_REPORT:
+            report += f"## {tipologia}\n\n"
+            for categoria, descrizione in self.CATEGORIE_REPORT:
+                report += f"### {categoria}\n\n"
+                report += f"*{descrizione.capitalize()}.*\n\n"
+                report += "---\n\n"
+
+        return report
     
     def build_enrichment_prompt(self, school_content, current_section_count):
         """Costruisce il prompt per arricchire il report."""
-        
+
         # Limita il report corrente per non superare il contesto
         report_excerpt = self.current_report[:12000] if len(self.current_report) > 12000 else self.current_report
-        
+
         return f"""/no_think
 SEI UN ESPERTO DI POLITICHE EDUCATIVE E ORIENTAMENTO SCOLASTICO.
 
-HAI UN REPORT ESISTENTE sulle best practice dell'orientamento. Devi ARRICCHIRLO con le informazioni di una nuova scuola.
+HAI UN REPORT ESISTENTE sulle best practice dell'orientamento, ORGANIZZATO PER TIPOLOGIA DI SCUOLA.
+Devi ARRICCHIRLO con le informazioni di una nuova scuola.
 
 REPORT ESISTENTE (estratto):
 {report_excerpt}
@@ -539,73 +540,23 @@ NUOVA SCUOLA DA ANALIZZARE:
 COMPITO:
 Analizza la nuova scuola e ARRICCHISCI il report esistente.
 
-REGOLE FONDAMENTALI:
-1. NON riscrivere tutto il report, restituisci SOLO LE AGGIUNTE o MODIFICHE
-2. I nomi dei PROGETTI devono essere sempre in **neretto** (es: **Progetto Futuro**)
-3. Il CODICE MECCANOGRAFICO e il NOME della scuola devono essere SEMPRE in **neretto** (es: **RMIC8GA002** - **I.C. Via Roma**)
-4. RAGGRUPPA pratiche simili sotto SOTTOTITOLI SPECIFICI (usa #### per i sottotitoli)
-5. I SOTTOTITOLI devono essere SPECIFICI e DESCRITTIVI dell'attività, non generici!
-   - SBAGLIATO: "#### Orientamento Universitario" (troppo generico)
-   - CORRETTO: "#### Visite ai campus e incontri con docenti universitari"
-   - CORRETTO: "#### Simulazioni di test d'ingresso e preparazione ai concorsi"
-   - CORRETTO: "#### Stage estivi presso aziende del territorio"
-   - CORRETTO: "#### Laboratori di autobiografia e scoperta delle attitudini"
-6. Se nel report esistente c'è già un sottotitolo che descrive la stessa attività, aggiungi sotto quello
-7. Se trovi una NUOVA TIPOLOGIA di attività, CREA UN NUOVO SOTTOTITOLO specifico
-8. NON fare elenchi puntati - scrivi in modo NARRATIVO e DISCORSIVO
-9. Spiega COME funzionano le pratiche, non solo cosa sono
-10. Cita SEMPRE il CODICE e il NOME della scuola in **neretto** quando descrivi una pratica specifica
-11. Se una pratica è simile a una già presente, collegale narrativamente
-12. IGNORA informazioni generiche o poco significative
-13. Se non ci sono elementi nuovi degni di nota, rispondi solo: "NESSUNA AGGIUNTA"
+STRUTTURA DEL REPORT:
+Il report è organizzato per TIPOLOGIA DI SCUOLA (## sezione principale), poi per CATEGORIA (### sottosezione):
 
-DIVISIONE PER TIPO DI SCUOLA (OBBLIGATORIA):
-All'interno di ogni sottotitolo (####), ORGANIZZA il contenuto per TIPO DI SCUOLA usando ##### come intestazione.
+## [Tipologia Scuola]
+### [Categoria]
+#### [Sottotitolo Specifico]
+[Contenuto narrativo]
 
-IMPORTANTE: La TIPOLOGIA SCUOLA è indicata nei dati della scuola (es: "TIPOLOGIA SCUOLA: Nei Licei").
-USA ESATTAMENTE quella tipologia come intestazione ##### per inserire il contenuto nella sezione corretta.
+Le 6 TIPOLOGIE DI SCUOLA (sezioni ##) sono:
+- Nelle Scuole dell'Infanzia
+- Nelle Scuole Primarie
+- Nelle Scuole Secondarie di Primo Grado
+- Nei Licei
+- Negli Istituti Tecnici
+- Negli Istituti Professionali
 
-Le 6 tipologie possibili sono:
-- ##### Nelle Scuole dell'Infanzia
-- ##### Nelle Scuole Primarie
-- ##### Nelle Scuole Secondarie di Primo Grado
-- ##### Nei Licei
-- ##### Negli Istituti Tecnici
-- ##### Negli Istituti Professionali
-
-Questo permette di confrontare come la stessa pratica viene declinata nei diversi ordini e gradi di scuola.
-
-ESEMPI DI SOTTOTITOLI SPECIFICI (creane di simili):
-- #### Visite ai campus universitari e open day
-- #### Simulazioni di colloqui di lavoro
-- #### Stage e tirocini presso aziende locali
-- #### Laboratori di scoperta delle attitudini personali
-- #### Mentoring tra studenti di anni diversi
-- #### Incontri con professionisti e testimonianze
-- #### Percorsi di orientamento narrativo e autobiografico
-- #### Certificazioni linguistiche e informatiche
-- #### Sportelli di ascolto e supporto psicologico
-- #### Progetti ponte con la scuola secondaria di primo grado
-- #### Collaborazioni con ITS e formazione professionale
-- (CREA NUOVI sottotitoli specifici per ogni nuova tipologia di attività!)
-
-STILE:
-- Paragrafi articolati e collegati
-- Connettivi logici (inoltre, analogamente, in particolare, d'altra parte)
-- Progetti in **neretto**
-- Sottotitoli SPECIFICI con #### che descrivono l'attività concreta
-- Sotto-sottotitoli ##### per tipo di scuola
-- Spiegazioni dettagliate di COME si realizzano le pratiche
-
-FORMATO OUTPUT:
-Restituisci le aggiunte nel formato:
-
-### [SEZIONE] ###
-#### [Sottotitolo Specifico che descrive l'attività]
-##### [Tipo di Scuola]
-[Testo da aggiungere, in forma narrativa]
-
-Le sezioni principali sono:
+Le 6 CATEGORIE (sottosezioni ###) sono:
 - Metodologie Didattiche Innovative
 - Progetti e Attività Esemplari
 - Partnership e Collaborazioni Strategiche
@@ -613,84 +564,157 @@ Le sezioni principali sono:
 - Buone Pratiche per l'Inclusione
 - Esperienze Territoriali Significative
 
-Esempio corretto:
+REGOLE FONDAMENTALI:
+1. NON riscrivere tutto il report, restituisci SOLO LE AGGIUNTE
+2. LEGGI la TIPOLOGIA SCUOLA nei dati (es: "TIPOLOGIA SCUOLA: Nei Licei") per sapere in quale sezione ## inserire
+3. I nomi dei PROGETTI devono essere sempre in **neretto** (es: **Progetto Futuro**)
+4. **CRITICO**: OGNI attività/progetto DEVE includere SEMPRE il CODICE MECCANOGRAFICO e il NOME della scuola in **neretto**!
+   - Formato: **CODICE** - **Nome Scuola**
+   - Esempio: **RMIC8GA002** - **I.C. Via Roma**
+   - QUESTO È OBBLIGATORIO per OGNI paragrafo che descrive un'attività!
+5. RAGGRUPPA pratiche simili sotto SOTTOTITOLI SPECIFICI (usa #### per i sottotitoli)
+6. I SOTTOTITOLI devono essere SPECIFICI e DESCRITTIVI dell'attività, non generici!
+   - SBAGLIATO: "#### Orientamento Universitario" (troppo generico)
+   - CORRETTO: "#### Visite ai campus e incontri con docenti universitari"
+   - CORRETTO: "#### Stage estivi presso aziende del territorio"
+7. NON fare elenchi puntati - scrivi in modo NARRATIVO e DISCORSIVO
+8. Spiega COME funzionano le pratiche, non solo cosa sono
+9. IGNORA informazioni generiche o poco significative
+10. Se non ci sono elementi nuovi degni di nota, rispondi solo: "NESSUNA AGGIUNTA"
+
+IMPORTANTE - TRACCIABILITÀ:
+Ogni pratica DEVE essere attribuita alla scuola che la realizza.
+Il lettore deve poter identificare SUBITO quale scuola implementa ogni attività.
+NON scrivere MAI un'attività senza indicare la scuola e il suo codice meccanografico.
+
+FORMATO OUTPUT:
+Restituisci le aggiunte nel formato:
+
+## [Tipologia Scuola] ##
+### [Categoria] ###
+#### [Sottotitolo Specifico che descrive l'attività]
+[Testo da aggiungere, in forma narrativa]
+
+Esempio corretto per un LICEO:
+## Nei Licei ##
 ### Progetti e Attività Esemplari ###
 #### Visite ai campus universitari e preparazione ai test d'ingresso
-##### Nei Licei
 Particolarmente significativa è l'esperienza del **Progetto Ponte** di **RMPC030007** - **Liceo Virgilio**, che prevede un percorso strutturato di accompagnamento degli studenti del quinto anno attraverso visite guidate ai campus universitari, incontri con docenti delle varie facoltà e sessioni di simulazione dei test d'ingresso.
 
-##### Negli Istituti Tecnici
-Il **Progetto Futuro Prossimo** di **TOTF030517** - **I.T.I.S. Galilei** propone stage estivi presso le facoltà universitarie, con particolare enfasi sulle lauree STEM e ingegneria.
-
-##### Negli Istituti Professionali
-L'**I.P.S.I.A. Fermi** (**NARI030005**) integra l'orientamento universitario con percorsi verso gli ITS, proponendo visite sia agli atenei che agli Istituti Tecnici Superiori del territorio.
-
 #### Laboratori di scoperta delle attitudini personali
-##### Nelle Scuole Secondarie di Primo Grado
-La **Scuola Media Mazzini** (**ROMM8GA002**) propone il **Progetto Scopri Te Stesso**, un percorso triennale che accompagna gli studenti nella scoperta delle proprie attitudini attraverso questionari, colloqui individuali e attività laboratoriali.
+Il **Liceo Scientifico Galilei** (**TOPS010203**) propone il **Progetto Scopri Te Stesso**, un percorso di auto-orientamento attraverso questionari attitudinali e colloqui individuali con psicologi dell'orientamento.
 
-##### Nelle Scuole Primarie
+Esempio corretto per una SCUOLA PRIMARIA:
+## Nelle Scuole Primarie ##
+### Metodologie Didattiche Innovative ###
+#### Giochi di ruolo sui mestieri
 La **Scuola Primaria Rodari** (**ROEE8GA001**) introduce già nella classe quinta attività ludico-didattiche per esplorare i diversi mestieri e professioni attraverso il gioco di ruolo.
-
-##### Nelle Scuole dell'Infanzia
-La **Scuola dell'Infanzia Montessori** (**ROAA8GA003**) propone attività di esplorazione sensoriale e gioco simbolico che gettano le basi per la futura consapevolezza delle proprie inclinazioni.
 
 Se non ci sono elementi significativi, rispondi SOLO:
 NESSUNA AGGIUNTA"""
 
     def parse_and_integrate(self, response):
-        """Integra le aggiunte nel report."""
+        """Integra le aggiunte nel report organizzato per tipologia."""
         if not response or 'NESSUNA AGGIUNTA' in response.upper():
             return False
-        
+
         import re
-        
-        # Trova le sezioni da aggiungere
-        sections = re.findall(r'###\s*([^#]+?)\s*###\s*\n(.*?)(?=###|\Z)', response, re.DOTALL)
-        
+
+        cleaned = response.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r'^```[a-zA-Z]*\s*', '', cleaned)
+            cleaned = re.sub(r'\s*```$', '', cleaned)
+            cleaned = cleaned.strip()
+
+        # Pattern per tipologia di scuola (solo ## non ### o ####)
+        tipologia_pattern = r'^##\s+([^#\n]+?)(?:\s*##)?\s*$'
+        # Pattern per categoria (solo ### non ####)
+        categoria_pattern = r'^###\s+([^#\n]+?)(?:\s*###)?\s*$'
+
+        # Trova tutte le tipologie nell'output
+        tipologia_matches = list(re.finditer(tipologia_pattern, cleaned, re.MULTILINE))
+
+        if not tipologia_matches:
+            print("    ⚠️ Nessuna tipologia riconosciuta dall'output Ollama")
+            return False
+
         added = False
-        for section_name, content in sections:
-            section_name = section_name.strip()
-            content = content.strip()
-            
-            if not content or len(content) < 50:
+
+        for i, tipo_match in enumerate(tipologia_matches):
+            tipologia_name = tipo_match.group(1).strip()
+
+            # Estrai il blocco di contenuto per questa tipologia
+            start = tipo_match.end()
+            end = tipologia_matches[i + 1].start() if i + 1 < len(tipologia_matches) else len(cleaned)
+            tipologia_block = cleaned[start:end]
+
+            # Trova la tipologia corrispondente nel report
+            tipologia_header = None
+            for tipo in self.TIPOLOGIE_REPORT:
+                if tipo.lower() in tipologia_name.lower() or tipologia_name.lower() in tipo.lower():
+                    tipologia_header = f"## {tipo}"
+                    break
+
+            if not tipologia_header:
                 continue
-            
-            # Trova la sezione nel report e aggiungi il contenuto
-            section_patterns = [
-                ('Metodologie Didattiche', '## Metodologie Didattiche Innovative'),
-                ('Progetti', '## Progetti e Attività Esemplari'),
-                ('Partnership', '## Partnership e Collaborazioni Strategiche'),
-                ('Azioni di Sistema', '## Azioni di Sistema e Governance'),
-                ('Governance', '## Azioni di Sistema e Governance'),
-                ('Inclusione', '## Buone Pratiche per l\'Inclusione'),
-                ('Territoriali', '## Esperienze Territoriali Significative'),
-            ]
-            
-            for pattern, header in section_patterns:
-                if pattern.lower() in section_name.lower():
-                    # Trova la posizione della sezione
-                    idx = self.current_report.find(header)
-                    if idx != -1:
-                        # Trova la fine della sezione (prossimo ## o fine)
-                        next_section = self.current_report.find('\n## ', idx + len(header))
-                        if next_section == -1:
-                            next_section = len(self.current_report)
-                        
-                        # Inserisci prima del prossimo ---
-                        insert_pos = self.current_report.rfind('---', idx, next_section)
-                        if insert_pos == -1:
-                            insert_pos = next_section
-                        
-                        # Aggiungi il contenuto
-                        self.current_report = (
-                            self.current_report[:insert_pos] + 
-                            f"\n\n{content}\n\n" + 
-                            self.current_report[insert_pos:]
-                        )
-                        added = True
+
+            # Trova le categorie in questo blocco
+            categoria_matches = list(re.finditer(categoria_pattern, tipologia_block, re.MULTILINE))
+
+            for j, cat_match in enumerate(categoria_matches):
+                categoria_name = cat_match.group(1).strip()
+
+                # Estrai il contenuto per questa categoria
+                cat_start = cat_match.end()
+                cat_end = categoria_matches[j + 1].start() if j + 1 < len(categoria_matches) else len(tipologia_block)
+                content = tipologia_block[cat_start:cat_end].strip()
+
+                if not content or len(content) < 50:
+                    continue
+
+                # Trova la categoria corrispondente nel report
+                categoria_header = None
+                for cat_name, _ in self.CATEGORIE_REPORT:
+                    if cat_name.lower() in categoria_name.lower() or categoria_name.lower() in cat_name.lower():
+                        categoria_header = f"### {cat_name}"
                         break
-        
+
+                if not categoria_header:
+                    continue
+
+                # Trova la posizione esatta nel report: tipologia + categoria
+                tipo_idx = self.current_report.find(tipologia_header)
+                if tipo_idx == -1:
+                    continue
+
+                # Trova la prossima tipologia (## )
+                next_tipo_idx = self.current_report.find('\n## ', tipo_idx + len(tipologia_header))
+                if next_tipo_idx == -1:
+                    next_tipo_idx = len(self.current_report)
+
+                # Cerca la categoria dentro questa tipologia
+                cat_idx = self.current_report.find(categoria_header, tipo_idx, next_tipo_idx)
+                if cat_idx == -1:
+                    continue
+
+                # Trova la prossima categoria (### ) o la prossima tipologia
+                next_cat_idx = self.current_report.find('\n### ', cat_idx + len(categoria_header))
+                if next_cat_idx == -1 or next_cat_idx > next_tipo_idx:
+                    next_cat_idx = next_tipo_idx
+
+                # Trova dove inserire (prima del ---)
+                insert_pos = self.current_report.rfind('---', cat_idx, next_cat_idx)
+                if insert_pos == -1:
+                    insert_pos = next_cat_idx
+
+                # Aggiungi il contenuto
+                self.current_report = (
+                    self.current_report[:insert_pos] +
+                    f"\n\n{content}\n\n" +
+                    self.current_report[insert_pos:]
+                )
+                added = True
+
         return added
 
     def build_refactor_prompt(self):
@@ -698,6 +722,16 @@ NESSUNA AGGIUNTA"""
         return f"""Sei un editor esperto di documenti educativi.
 
 HAI UN REPORT sulle best practice dell'orientamento scolastico che è stato costruito INCREMENTALMENTE analizzando diverse scuole. Il report può avere ridondanze, ripetizioni e sottotitoli duplicati.
+
+STRUTTURA DEL REPORT:
+Il report è organizzato per TIPOLOGIA DI SCUOLA (## sezione principale), poi per CATEGORIA (### sottosezione):
+- ## Nelle Scuole dell'Infanzia / Primarie / Secondarie di Primo Grado / Licei / Istituti Tecnici / Professionali
+  - ### Metodologie Didattiche Innovative
+  - ### Progetti e Attività Esemplari
+  - ### Partnership e Collaborazioni Strategiche
+  - ### Azioni di Sistema e Governance
+  - ### Buone Pratiche per l'Inclusione
+  - ### Esperienze Territoriali Significative
 
 IL REPORT DA RIORGANIZZARE:
 {self.current_report}
@@ -713,7 +747,7 @@ Riorganizza e migliora questo report mantenendo TUTTO il contenuto informativo m
 4. MANTIENI SEMPRE il CODICE e il NOME delle scuole in **neretto** (es: **RMIC8GA002** - **I.C. Via Roma**)
 5. MANTIENI SEMPRE i nomi dei PROGETTI in **neretto** (es: **Progetto Futuro**)
 6. NON ELIMINARE informazioni o esempi specifici - solo unificali e riorganizzali
-7. MANTIENI LA STRUTTURA delle sezioni principali (## Metodologie, ## Progetti, etc.)
+7. MANTIENI LA STRUTTURA GERARCHICA: ## per tipologie di scuola, ### per categorie
 
 REGOLE CRITICHE:
 - NON inventare nuove informazioni
@@ -765,6 +799,168 @@ Non includere commenti o spiegazioni, solo il report."""
             print("    ⚠️ Nessuna risposta da Gemini - mantengo report originale")
             return False
 
+    def build_full_synth_prompt(self):
+        """Costruisce il prompt per la sintesi completa del report."""
+        return f"""Sei un editor esperto di documenti educativi.
+
+HAI UN REPORT COMPLETO sulle best practice dell'orientamento scolastico. Devi creare una SINTESI COMPLETA mantenendo la struttura e le informazioni chiave.
+
+OBIETTIVI:
+1. Riduci il testo del 30-50% eliminando ridondanze e ripetizioni
+2. Mantieni la struttura delle sezioni principali:
+   - ## Introduzione
+   - ## Metodologie Didattiche Innovative
+   - ## Progetti e Attività Esemplari
+   - ## Partnership e Collaborazioni Strategiche
+   - ## Azioni di Sistema e Governance
+   - ## Buone Pratiche per l'Inclusione
+   - ## Esperienze Territoriali Significative
+3. Mantieni sempre il CODICE e il NOME della scuola in **neretto**
+4. Mantieni sempre i nomi dei PROGETTI in **neretto**
+5. Non inventare informazioni
+6. Stile narrativo, evita elenchi puntati salvo indispensabili
+
+REPORT ORIGINALE:
+{self.current_report}
+
+OUTPUT:
+Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
+
+    def _load_synth_progress(self):
+        """Carica il progresso della sintesi per capitoli."""
+        data = {"full_synth_done": False, "sections": {}}
+        if os.path.exists(SYNTH_PROGRESS_FILE):
+            try:
+                with open(SYNTH_PROGRESS_FILE, 'r') as f:
+                    stored = json.load(f)
+                if isinstance(stored, dict):
+                    data.update(stored)
+            except Exception:
+                pass
+        return data
+
+    def _save_synth_progress(self, data):
+        """Salva il progresso della sintesi per capitoli."""
+        os.makedirs(self.output_dir, exist_ok=True)
+        with open(SYNTH_PROGRESS_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
+
+    def _clean_llm_response(self, text):
+        """Pulisce eventuali code blocks e spazi."""
+        import re
+        if not text:
+            return ""
+        cleaned = text.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r'^```[a-zA-Z]*\s*', '', cleaned)
+            cleaned = re.sub(r'\s*```$', '', cleaned)
+            cleaned = cleaned.strip()
+        return cleaned
+
+    def _is_refusal_response(self, text):
+        """Rileva rifiuti o risposte non operative."""
+        if not text:
+            return True
+        lowered = text.lower()
+        refusal_markers = [
+            "non posso",
+            "non sono in grado",
+            "mi dispiace",
+            "non posso aiutare",
+            "non posso assistere",
+            "non posso soddisfare",
+            "cannot",
+            "can't",
+            "i'm sorry",
+            "as an ai",
+            "unable to",
+        ]
+        return any(marker in lowered for marker in refusal_markers)
+
+    def _validate_full_synth_response(self, text):
+        """Valida la sintesi completa."""
+        import re
+        cleaned = text.strip()
+        if self._is_refusal_response(cleaned):
+            return False
+        if not cleaned.startswith("#"):
+            return False
+        min_len = max(1200, int(len(self.current_report) * 0.2))
+        if len(cleaned) < min_len:
+            return False
+        if len(re.findall(r'^##\s+', cleaned, re.MULTILINE)) < 3:
+            return False
+        return True
+
+    def _validate_section_response(self, section_name, original, text):
+        """Valida la sintesi di una singola sezione."""
+        cleaned = text.strip()
+        if self._is_refusal_response(cleaned):
+            return False
+        min_len = max(150, int(len(original) * 0.2))
+        return len(cleaned) >= min_len
+
+    def _strip_section_title(self, section_name, text):
+        """Rimuove un titolo di sezione duplicato se presente."""
+        import re
+        cleaned = text.strip()
+        pattern = rf'^##+\s*{re.escape(section_name)}\s*\n+'
+        cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+        return cleaned.strip()
+
+    def _call_llm_with_retry(self, prompt, validate_fn, stage_label):
+        """Chiama LLM con retry e fallback, senza avanzare finche non valida."""
+        backoff = SYNTH_BACKOFF_START
+        attempts = 0
+        last_error = ""
+
+        while True:
+            attempts += 1
+            if EXIT_REQUESTED:
+                return None, attempts, "exit_requested", None
+
+            response = None
+            if self.gemini_key:
+                success, response = call_gemini(prompt, self.refactor_model, self.gemini_key)
+                if success and response:
+                    response = self._clean_llm_response(response)
+                    if validate_fn(response):
+                        return response, attempts, "", "gemini"
+                    last_error = "gemini_invalid"
+                elif not success:
+                    last_error = "gemini_rate_limit"
+                else:
+                    last_error = "gemini_error"
+
+            if self.openrouter_key:
+                success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
+                if success and response:
+                    response = self._clean_llm_response(response)
+                    if validate_fn(response):
+                        return response, attempts, "", "openrouter"
+                    last_error = "openrouter_invalid"
+                elif not success:
+                    last_error = "openrouter_rate_limit"
+                else:
+                    last_error = "openrouter_error"
+
+            if not self.gemini_key and not self.openrouter_key:
+                print("❌ Nessuna chiave LLM configurata")
+                return None, attempts, "missing_keys", None
+
+            wait_time = min(backoff, SYNTH_BACKOFF_MAX)
+            print(f"      ⚠️ {stage_label}: {last_error}. Ritento tra {wait_time}s")
+            time.sleep(wait_time)
+            backoff = min(backoff * 2, SYNTH_BACKOFF_MAX)
+
+    def _build_synth_report(self, header, sections, refactored_sections):
+        """Ricostruisce il report sintetico includendo tutte le sezioni."""
+        synth_report = header
+        for section_name, section_content in sections.items():
+            content = refactored_sections.get(section_name, section_content)
+            synth_report += f"## {section_name}\n\n{content}\n\n---\n\n"
+        return synth_report
+
     def extract_sections(self, report_text):
         """Estrae le sezioni principali dal report."""
         import re
@@ -780,8 +976,8 @@ Non includere commenti o spiegazioni, solo il report."""
             end = matches[i + 1].start() if i + 1 < len(matches) else len(report_text)
             content = report_text[start:end].strip()
 
-            # Ignora sezioni vuote o troppo corte
-            if len(content) > 100:
+            # Ignora sezioni vuote o troppo corte (mantieni sempre l'introduzione)
+            if section_name == "Introduzione" or len(content) > 100:
                 sections[section_name] = content
 
         return sections
@@ -832,89 +1028,97 @@ OUTPUT:
 Restituisci SOLO la sezione riscritta in Markdown (senza il titolo ##).
 Non includere commenti o spiegazioni."""
 
-    def do_section_refactor(self):
-        """Esegue il refactoring sezione per sezione e salva il report sintetico."""
-        if not self.gemini_key:
-            print("⚠️ Chiave Gemini non configurata - impossibile creare report sintetico")
+    def do_full_synth(self, synth_state):
+        """Esegue la sintesi completa del report e salva il file full."""
+        if not self.current_report or len(self.current_report) < 1000:
+            print("⚠️ Report troppo corto per la sintesi completa")
+            return False
+
+        if not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
+            return False
+
+        print(f"\n🔄 SINTESI COMPLETA REPORT ({self.refactor_model})...")
+        prompt = self.build_full_synth_prompt()
+        response, attempts, last_error, provider = self._call_llm_with_retry(
+            prompt,
+            self._validate_full_synth_response,
+            "Sintesi completa"
+        )
+
+        if response is None:
+            return False
+
+        self.current_report = response
+        os.makedirs(self.output_dir, exist_ok=True)
+        full_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH_FULL)
+
+        if os.path.exists(full_path):
+            backup_path = full_path + '.bak'
+            import shutil
+            shutil.copy2(full_path, backup_path)
+            print(f"   💾 Backup creato: {backup_path}")
+
+        with open(full_path, 'w', encoding='utf-8') as f:
+            f.write(self.current_report)
+
+        synth_state["full_synth_done"] = True
+        synth_state["full_synth_attempts"] = attempts
+        synth_state["full_synth_provider"] = provider or ""
+        synth_state["full_synth_updated"] = datetime.now().isoformat()
+        synth_state["full_synth_last_error"] = last_error
+        self._save_synth_progress(synth_state)
+
+        print(f"✅ Report sintetico completo salvato in: {full_path}")
+        return True
+
+    def do_section_refactor(self, synth_state=None):
+        """Esegue la sintesi sezione per sezione e salva il report sintetico."""
+        if not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
             return False
 
         if not self.current_report or len(self.current_report) < 1000:
             print("⚠️ Report troppo corto per il refactoring")
             return False
 
-        print(f"\n🔄 CREAZIONE REPORT SINTETICO per sezioni con Gemini ({self.refactor_model})...")
+        synth_state = synth_state or self._load_synth_progress()
+        synth_state.setdefault("sections", {})
 
-        # Estrai l'header (titolo, intro, metadata)
-        import re
-        intro_match = re.search(r'^(# .+?)\n---\n\n## Introduzione\n\n(.+?)\n\n---',
-                                self.current_report, re.DOTALL)
-        if intro_match:
-            header = intro_match.group(0)
-        else:
-            header = "# Report Sintetico Best Practice Orientamento\n\n---\n\n"
+        print(f"\n🔄 CREAZIONE REPORT SINTETICO per sezioni ({self.refactor_model})...")
 
-        # Estrai le sezioni
         sections = self.extract_sections(self.current_report)
-
         if not sections:
             print("⚠️ Nessuna sezione trovata nel report")
             return False
 
         print(f"   📑 Trovate {len(sections)} sezioni da processare")
 
-        # Refactora ogni sezione
+        synth_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH)
+        existing_sections = {}
+        if os.path.exists(synth_path):
+            try:
+                with open(synth_path, 'r', encoding='utf-8') as f:
+                    existing_text = f.read()
+                existing_sections = self.extract_sections(existing_text)
+            except Exception:
+                existing_sections = {}
+
         refactored_sections = {}
-        for i, (section_name, section_content) in enumerate(sections.items()):
+        completed = synth_state["sections"]
+
+        for section_name, section_content in sections.items():
             if section_name == "Introduzione":
-                # L'introduzione la teniamo com'è
                 refactored_sections[section_name] = section_content
                 continue
 
-            print(f"   [{i+1}/{len(sections)}] Refactoring: {section_name[:40]}...")
-
-            prompt = self.build_section_refactor_prompt(section_name, section_content)
-
-            # Prova prima Gemini
-            success, response = call_gemini(prompt, self.refactor_model, self.gemini_key)
-
-            # Se Gemini ha rate limit, prova OpenRouter come fallback
-            if not success and self.openrouter_key:
-                print(f"      🔄 Fallback a OpenRouter ({self.fallback_model})...")
-                time.sleep(2)
-                success, response = call_openrouter(prompt, self.fallback_model, self.openrouter_key)
-
-            if not success:
-                print(f"      ⚠️ Rate limit su entrambi - mantengo sezione originale")
-                refactored_sections[section_name] = section_content
-                time.sleep(5)  # Pausa prima della prossima chiamata
-                continue
-
-            if response:
-                # Pulisci eventuali code blocks
-                if response.startswith("```markdown"):
-                    response = response.replace("```markdown", "", 1)
-                if response.startswith("```"):
-                    response = response.replace("```", "", 1)
-                if response.endswith("```"):
-                    response = response[:-3]
-                response = response.strip()
-
-                # Verifica che non sia troppo corto
-                if len(response) < len(section_content) * 0.2:
-                    print(f"      ⚠️ Sezione troppo corta - mantengo originale")
-                    refactored_sections[section_name] = section_content
+            if completed.get(section_name, {}).get("status") == "completed":
+                if section_name in existing_sections:
+                    refactored_sections[section_name] = existing_sections[section_name]
                 else:
-                    refactored_sections[section_name] = response
-                    reduction = (1 - len(response) / len(section_content)) * 100
-                    print(f"      ✅ Riduzione: {reduction:.0f}%")
-            else:
-                print(f"      ⚠️ Nessuna risposta - mantengo originale")
-                refactored_sections[section_name] = section_content
+                    completed.pop(section_name, None)
 
-            time.sleep(2)  # Pausa tra le chiamate
-
-        # Ricostruisci il report sintetico
-        synth_report = f"""# Report Sintetico Best Practice Orientamento
+        header = f"""# Report Sintetico Best Practice Orientamento
 
 *Report sintetico generato con {self.refactor_model}*
 *Basato su {len(self.processed_schools)} scuole analizzate*
@@ -923,19 +1127,53 @@ Non includere commenti o spiegazioni."""
 ---
 
 """
-        for section_name, section_content in refactored_sections.items():
-            synth_report += f"## {section_name}\n\n{section_content}\n\n---\n\n"
 
-        # Salva il report sintetico (con backup se esiste già)
-        synth_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH)
-
-        # Crea backup se esiste già un report sintetico
         if os.path.exists(synth_path):
             backup_path = synth_path + '.bak'
             import shutil
             shutil.copy2(synth_path, backup_path)
             print(f"   💾 Backup creato: {backup_path}")
 
+        sections_list = list(sections.items())
+        total_sections = len(sections_list)
+
+        for i, (section_name, section_content) in enumerate(sections_list, start=1):
+            if section_name == "Introduzione":
+                continue
+
+            if section_name in refactored_sections:
+                print(f"   [{i}/{total_sections}] Sezione gia completata: {section_name[:40]}")
+                continue
+
+            print(f"   [{i}/{total_sections}] Refactoring: {section_name[:40]}...")
+
+            prompt = self.build_section_refactor_prompt(section_name, section_content)
+            response, attempts, last_error, provider = self._call_llm_with_retry(
+                prompt,
+                lambda text, sn=section_name, sc=section_content: self._validate_section_response(sn, sc, text),
+                f"Sezione {section_name}"
+            )
+
+            if response is None:
+                return False
+
+            response = self._strip_section_title(section_name, response)
+            refactored_sections[section_name] = response
+
+            synth_state["sections"][section_name] = {
+                "status": "completed",
+                "attempts": attempts,
+                "provider": provider or "",
+                "last_error": last_error,
+                "updated": datetime.now().isoformat()
+            }
+            self._save_synth_progress(synth_state)
+
+            synth_report = self._build_synth_report(header, sections, refactored_sections)
+            with open(synth_path, 'w', encoding='utf-8') as f:
+                f.write(synth_report)
+
+        synth_report = self._build_synth_report(header, sections, refactored_sections)
         with open(synth_path, 'w', encoding='utf-8') as f:
             f.write(synth_report)
 
@@ -943,6 +1181,134 @@ Non includere commenti o spiegazioni."""
         print(f"   📊 Dimensione originale: {len(self.current_report):,} caratteri")
         print(f"   📊 Dimensione sintetico: {len(synth_report):,} caratteri")
         print(f"   📊 Riduzione totale: {(1 - len(synth_report) / len(self.current_report)) * 100:.0f}%")
+
+        return True
+
+    def _load_full_synth_for_refresh(self, synth_state):
+        """Carica il report sintetico completo o lo rigenera se mancante."""
+        full_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH_FULL)
+        if os.path.exists(full_path):
+            with open(full_path, 'r', encoding='utf-8') as f:
+                self.current_report = f.read()
+            return True
+
+        print("⚠️ Report sintetico completo non trovato, rigenero")
+        synth_state["full_synth_done"] = False
+        return self.do_full_synth(synth_state)
+
+    def refresh_one_section(self, synth_state):
+        """Rigenera la sintesi di un capitolo in modo ciclico."""
+        if not self._load_full_synth_for_refresh(synth_state):
+            return False
+
+        sections = self.extract_sections(self.current_report)
+        if not sections:
+            print("⚠️ Nessuna sezione trovata nel report completo")
+            return False
+
+        section_names = [name for name in sections.keys() if name != "Introduzione"]
+        if not section_names:
+            print("⚠️ Nessun capitolo disponibile per il refresh")
+            return False
+
+        refresh_index = synth_state.get("refresh_index", 0) % len(section_names)
+        section_name = section_names[refresh_index]
+        section_content = sections[section_name]
+
+        synth_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH)
+        if not os.path.exists(synth_path):
+            print("⚠️ Report sintetico mancante, rigenero tutte le sezioni")
+            return self.do_section_refactor(synth_state)
+
+        print(f"🔁 Refresh capitolo: {section_name}")
+
+        prompt = self.build_section_refactor_prompt(section_name, section_content)
+        response, attempts, last_error, provider = self._call_llm_with_retry(
+            prompt,
+            lambda text, sn=section_name, sc=section_content: self._validate_section_response(sn, sc, text),
+            f"Sezione {section_name}"
+        )
+        if response is None:
+            return False
+
+        response = self._strip_section_title(section_name, response)
+
+        try:
+            with open(synth_path, 'r', encoding='utf-8') as f:
+                existing_text = f.read()
+            existing_sections = self.extract_sections(existing_text)
+        except Exception:
+            existing_sections = {}
+
+        refactored_sections = {}
+        for name, content in sections.items():
+            refactored_sections[name] = existing_sections.get(name, content)
+        refactored_sections[section_name] = response
+
+        header = f"""# Report Sintetico Best Practice Orientamento
+
+*Report sintetico generato con {self.refactor_model}*
+*Basato su {len(self.processed_schools)} scuole analizzate*
+*Generato il: {datetime.now().strftime('%d/%m/%Y %H:%M')}*
+
+---
+
+"""
+
+        synth_report = self._build_synth_report(header, sections, refactored_sections)
+        with open(synth_path, 'w', encoding='utf-8') as f:
+            f.write(synth_report)
+
+        synth_state.setdefault("sections", {})
+        synth_state["sections"][section_name] = {
+            "status": "refreshed",
+            "attempts": attempts,
+            "provider": provider or "",
+            "last_error": last_error,
+            "updated": datetime.now().isoformat()
+        }
+        synth_state["refresh_index"] = (refresh_index + 1) % len(section_names)
+        synth_state["last_refresh"] = datetime.now().isoformat()
+        self._save_synth_progress(synth_state)
+
+        return True
+
+    def run_synth(self):
+        """Esegue sintesi completa e poi sintesi per capitoli."""
+        if not self.current_report or len(self.current_report) < 1000:
+            print("⚠️ Nessun report narrativo valido trovato. Esegui prima make best-practice-llm")
+            return False
+
+        if not self.gemini_key and not self.openrouter_key:
+            print("⚠️ Nessuna chiave LLM configurata - impossibile creare report sintetico")
+            return False
+
+        synth_state = self._load_synth_progress()
+
+        if not synth_state.get("full_synth_done"):
+            if not self.do_full_synth(synth_state):
+                return False
+        else:
+            full_path = os.path.join(self.output_dir, OUTPUT_FILE_SYNTH_FULL)
+            if os.path.exists(full_path):
+                with open(full_path, 'r', encoding='utf-8') as f:
+                    self.current_report = f.read()
+            else:
+                print("⚠️ Report sintetico completo non trovato, rigenero")
+                synth_state["full_synth_done"] = False
+                if not self.do_full_synth(synth_state):
+                    return False
+
+        if not self.do_section_refactor(synth_state):
+            return False
+
+        print(f"🔁 Loop attivo: aggiorno un capitolo ogni {SYNTH_REFRESH_INTERVAL // 3600} ore")
+        while not EXIT_REQUESTED:
+            time.sleep(SYNTH_REFRESH_INTERVAL)
+            if EXIT_REQUESTED:
+                break
+            if not self.refresh_one_section(synth_state):
+                return False
 
         return True
 
@@ -1097,7 +1463,7 @@ def main():
         print("📝 Generazione Report Sintetico...")
         agent.load_progress()  # Carica il report esistente
         if agent.current_report:
-            agent.do_section_refactor()
+            agent.run_synth()
         else:
             print("❌ Nessun report narrativo trovato. Esegui prima make best-practice-llm")
     else:

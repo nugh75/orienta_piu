@@ -578,6 +578,115 @@ with st.expander("Review punteggi estremi (OpenRouter/Gemini/Ollama) - prompt"):
 
 st.markdown("---")
 
+st.header("Report Best Practice LLM")
+st.markdown(
+    """
+Il sistema genera **tre tipologie di report** sulle best practice dell'orientamento,
+ciascuna con caratteristiche e scopi specifici.
+
+| Report | Comando | Descrizione |
+|--------|---------|-------------|
+| **Statistico** | `make best-practice` | Dati aggregati, classifiche e tabelle generate con algoritmi |
+| **Narrativo** | `make best-practice-llm` | Analisi discorsiva completa, generata con Ollama (qwen3:32b) |
+| **Sintetico** | `make best-practice-llm-synth` | Versione condensata del narrativo, refactoring con Gemini |
+"""
+)
+
+st.subheader("Report Narrativo (Ollama)")
+st.markdown(
+    """
+Il report narrativo viene costruito in modo **incrementale**: per ogni scuola analizzata,
+l'agente Ollama estrae punti di forza, didattica orientativa, opportunità formative,
+progetti, partnership e azioni di sistema. Il contenuto viene integrato nel report
+esistente, arricchendolo progressivamente.
+
+### Struttura del Report
+
+Il report è organizzato su tre livelli gerarchici:
+
+- **Sezioni principali** (`##`): Metodologie Didattiche Innovative, Progetti e Attività Esemplari,
+  Partnership e Collaborazioni Strategiche, Azioni di Sistema e Governance, Buone Pratiche per
+  l'Inclusione, Esperienze Territoriali Significative
+
+- **Sottotitoli specifici** (`####`): Descrivono l'attività concreta (es. "Visite ai campus universitari",
+  "Laboratori di scoperta delle attitudini personali", "Stage presso aziende locali")
+
+- **Tipologia scuola** (`#####`): Divisione per ordine e grado, con contenuti organizzati per
+  tipo di istituto
+
+### Le 6 tipologie di scuola
+
+Il sistema legge il campo `tipo_scuola` dal CSV per categorizzare correttamente ogni scuola:
+
+1. **Nelle Scuole dell'Infanzia**
+2. **Nelle Scuole Primarie**
+3. **Nelle Scuole Secondarie di Primo Grado**
+4. **Nei Licei**
+5. **Negli Istituti Tecnici**
+6. **Negli Istituti Professionali**
+
+### Formattazione automatica
+
+- **Codice meccanografico** e **Nome scuola** sempre in neretto (es: **RMIC8GA002** - **I.C. Via Roma**)
+- **Nomi dei progetti** in neretto (es: **Progetto Futuro**)
+- Stile narrativo e discorsivo, senza elenchi puntati
+- Spiegazioni dettagliate di come funzionano le pratiche, non solo cosa sono
+"""
+)
+
+st.subheader("Report Sintetico (Gemini)")
+st.markdown(
+    """
+Il report sintetico è generato con un **comando separato** che processa il report narrativo
+**sezione per sezione**:
+
+1. Estrae ogni sezione `##` dal report narrativo
+2. Invia ogni sezione a Gemini per il refactoring
+3. Elimina ridondanze mantenendo tutti i riferimenti alle scuole
+4. Unifica contenuti simili sotto categorie più ampie
+5. Riduce la lunghezza del 30-50%
+
+### Gestione errori e fallback
+
+- **Rate limit Gemini (429)**: Fallback automatico a OpenRouter (GPT OSS 120B)
+- **Backup automatico**: Prima di sovrascrivere viene creato un file `.bak`
+- **Sezione troppo corta**: Se la riduzione supera l'80%, mantiene l'originale
+- **Interruzione (Ctrl+C)**: Salvataggio sicuro del progresso
+
+### Comandi disponibili
+
+```bash
+# Report statistico (algoritmi)
+make best-practice
+
+# Report narrativo con Ollama (incrementale)
+make best-practice-llm
+
+# Ricomincia report narrativo da zero
+make best-practice-llm-reset
+
+# Report sintetico (refactoring con Gemini)
+make best-practice-llm-synth
+
+# Report sintetico con modello specifico
+make best-practice-llm-synth REFACTOR_MODEL=gemini-2.5-flash
+
+# Ripristina report sintetico dal backup
+make best-practice-llm-synth-restore
+```
+
+### File di output
+
+| Report | File |
+|--------|------|
+| Statistico | `reports/best_practice_orientamento.md` |
+| Narrativo | `reports/best_practice_orientamento_narrativo.md` |
+| Sintetico | `reports/best_practice_orientamento_sintetico.md` |
+"""
+)
+
+st.markdown("---")
+
 st.header("Avvertenze e Buone Pratiche")
 
 st.warning(
