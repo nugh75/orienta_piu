@@ -134,7 +134,6 @@ with action_cols[2]:
     if st.button("💡 Best Practice", use_container_width=True):
         st.switch_page("pages/09_💡_Best_Practice.py")
 
-st.markdown("---")
 with st.container():
     st.subheader("🎓 Sei un genitore o uno studente?")
     st.write(
@@ -143,7 +142,6 @@ with st.container():
     )
     if st.button("🔍 Trova la scuola giusta per te", use_container_width=True):
         st.switch_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
-st.markdown("---")
 
 if df.empty:
     st.warning("Nessun dato disponibile. Esegui prima il pipeline di analisi.")
@@ -154,8 +152,6 @@ numeric_cols = ['ptof_orientamento_maturity_index'] + list(DIMENSIONS.keys())
 for col in numeric_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
-
-st.markdown("---")
 
 # === KPI PRINCIPALI ===
 st.subheader("📊 KPI Principali")
@@ -290,8 +286,6 @@ with extra_cols[3]:
     else:
         st.metric("Partnership medie", "N/D")
 
-st.markdown("---")
-
 # === GRAFICI PRINCIPALI ===
 col1, col2 = st.columns(2)
 
@@ -338,8 +332,6 @@ with col2:
         )
         st.plotly_chart(fig_radar, use_container_width=True)
 
-st.markdown("---")
-
 st.subheader("🎯 Gap Analysis")
 gap_cols = st.columns(len(DIMENSIONS))
 for idx, (col_key, col_name) in enumerate(DIMENSIONS.items()):
@@ -350,8 +342,6 @@ for idx, (col_key, col_name) in enumerate(DIMENSIONS.items()):
             st.metric(col_name, f"{val:.2f}/7", f"Gap: {gap:.2f}")
         else:
             st.metric(col_name, "N/D")
-
-st.markdown("---")
 
 st.subheader("📊 Media per Tipologia")
 
@@ -450,8 +440,6 @@ if 'tipo_scuola' in df.columns:
 else:
     st.markdown(tipologie_canoniche_md)
     st.markdown(tipologie_note_md)
-
-st.markdown("---")
 
 # === STATALE / PARITARIA ===
 st.subheader("🏛️ Statali vs Paritarie")
@@ -629,8 +617,6 @@ if 'territorio' in df.columns:
 else:
     st.info("Colonna 'territorio' non disponibile nel dataset.")
 
-st.markdown("---")
-
 # === MAPPA RAPIDA ===
 st.subheader("🗺️ Panoramica Regionale")
 st.caption("Indice RO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
@@ -710,8 +696,6 @@ if 'regione' in df.columns:
         else:
             st.info("Statistiche normalizzate non disponibili.")
 
-st.markdown("---")
-
 st.subheader("🏆 Top 5 Scuole")
 
 top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[
@@ -721,8 +705,6 @@ top5.columns = ['Scuola', 'Regione', 'Indice RO']
 top5['Indice RO'] = top5['Indice RO'].round(2)
 top5.insert(0, 'Pos', ['🥇', '🥈', '🥉', '4°', '5°'])
 st.dataframe(top5, use_container_width=True, hide_index=True)
-
-st.markdown("---")
 
 # === NAVIGAZIONE RAPIDA ===
 st.subheader("🧭 Navigazione Rapida")

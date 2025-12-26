@@ -1,0 +1,89 @@
+{
+  "default_page": "Home.py",
+  "pages": {
+    "Home.py": {
+      "label": "Home",
+      "visible": true,
+      "locked": false,
+      "order": 0
+    },
+    "pages/01_🏠_La_Mia_Scuola.py": {
+      "label": "🏠 La Mia Scuola",
+      "visible": true,
+      "locked": false,
+      "order": 1
+    },
+    "pages/02_🏫_Dettaglio_Scuola.py": {
+      "label": "🏫 Dettaglio Scuola",
+      "visible": true,
+      "locked": false,
+      "order": 2
+    },
+    "pages/03_🔀_Confronto_PTOF.py": {
+      "label": "🔀 Confronto PTOF",
+      "visible": true,
+      "locked": false,
+      "order": 3
+    },
+    "pages/04_🗺️_Analisi_Territoriale.py": {
+      "label": "🗺️ Analisi Territoriale",
+      "visible": true,
+      "locked": false,
+      "order": 4
+    },
+    "pages/05_🏆_Ranking_Benchmark.py": {
+      "label": "🏆 Ranking Benchmark",
+      "visible": true,
+      "locked": false,
+      "order": 5
+    },
+    "pages/06_📈_Analytics_Avanzati.py": {
+      "label": "📈 Analytics Avanzati",
+      "visible": true,
+      "locked": false,
+      "order": 6
+    },
+    "pages/07_🔍_Ricerca_Metodologie.py": {
+      "label": "🔍 Ricerca Metodologie",
+      "visible": true,
+      "locked": false,
+      "order": 7
+    },
+    "pages/08_📊_Impatto_Metodologie.py": {
+      "label": "📊 Impatto Metodologie",
+      "visible": true,
+      "locked": false,
+      "order": 8
+    },
+    "pages/09_💡_Best_Practice.py": {
+      "label": "💡 Best Practice",
+      "visible": true,
+      "locked": false,
+      "order": 9
+    },
+    "pages/10_🗂️_Gestione_Dati.py": {
+      "label": "🗂️ Gestione Dati",
+      "visible": true,
+      "locked": false,
+      "order": 10
+    },
+    "pages/11_🎓_Scegli_la_Tua_Scuola.py": {
+      "label": "🎓 Scegli la Tua Scuola",
+      "visible": true,
+      "locked": false,
+      "order": 11
+    },
+    "pages/12_ℹ️_Documentazione.py": {
+      "label": "ℹ️ Documentazione",
+      "visible": true,
+      "locked": false,
+      "order": 12
+    },
+    "pages/13_🛠️_Amministrazione.py": {
+      "label": "🛠️ Amministrazione",
+      "visible": true,
+      "locked": false,
+      "order": 13
+    }
+  }
+}

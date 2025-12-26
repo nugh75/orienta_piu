@@ -1,53 +1,41 @@
-# Analisi del PTOF NAIC850002
+# Analisi del PTOF NAIC850002  
+## Report di Valutazione dell'Orientamento  
 
-## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale  
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 dell'Istituto Comprensivo Cercola - Ic Custra (NAIC850002). La scuola, situata nel territorio metropolitano di Cercola, in provincia di Napoli e regione Campania, è un istituto statale che offre diversi gradi di istruzione, dall'infanzia alla scuola secondaria di primo e secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'offerta didattica e l'attenzione all'inclusione.  
 
-### 1. Sintesi Generale
+L'analisi del PTOF rivela un impegno significativo da parte dell'Istituto Comprensivo Cercola - Ic Custra nel promuovere l'orientamento attraverso una serie di iniziative e collaborazioni. Il progetto *Orientalife*, ad esempio, rappresenta un esempio concreto di come la scuola si impegni a fornire un supporto mirato agli studenti, garantendo un passaggio sereno tra i diversi ordini di scuola. Inoltre, il progetto *Continuità*, che coinvolge diverse classi e attività, dimostra un approccio integrato e strutturato all'orientamento.  
 
-Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 dell'Istituto Comprensivo Cercola - Ic Custra (NAIC850002). La scuola, situata nel territorio metropolitano di Cercola, in provincia di Napoli e regione Campania, è un istituto statale che offre diversi gradi di istruzione, dall'infanzia alla scuola secondaria di primo e secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'offerta didattica e l'attenzione all'inclusione.
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all'Orientamento  
+L'orientamento non è trattato all'interno di una sezione dedicata specifica nel PTOF, ma viene affrontato come parte integrante della sezione dedicata alla continuità e alle strategie di orientamento formativo e lavorativo. Questo approccio, sebbene presente, risulta meno strutturato rispetto a una sezione autonoma. Nonostante l'assenza di un capitolo specifico, l'orientamento emerge chiaramente come parte integrante del Piano di Formazione del Personale Docente, con progetti come il *Progetto Stem* e l'attivazione di percorsi formativi per gli animatori digitali. Questi iniziative rafforzano l'approccio esperienziale e laboratoriale all'orientamento, evidenziando un'attenzione alle competenze digitali e all'innovazione metodologica.  
 
-### 2. Analisi Dimensionale
+#### 2.2 Partnership e Reti  
+L'istituto ha sviluppato un'ampia rete di partnership con numerosi soggetti esterni, tra cui il Comune di Cercola, l'ASL, altre scuole del territorio, istituzioni educative e politico-aziendali, lo Sportello Aid, l'Ufficio Scolastico Regionale per la Campania, l'Assessorato alla Scuola della Regione Campania, Anpal Servizi, Confindustria Campania, INAIL Campania, Sviluppo Campania, l'Arma dei Carabinieri, la Polizia di Stato, la Polizia Postale, la Guardia di Finanza, diverse associazioni ed enti di formazione accreditati. Queste collaborazioni supportano iniziative di orientamento e formazione, offrendo agli studenti opportunità concrete per esplorare percorsi professionali e responsabilità civiche. La collaborazione con enti come l'ASL, l'Ufficio Scolastico Regionale e Confindustria Campania permette di ampliare la gamma di opportunità formative, mentre l'Arma dei Carabinieri e la Polizia di Stato contribuiscono a fornire informazioni sulle opportunità professionali.  
 
-**2.1 Orientamento come Sezione Dedicata:**
+#### 2.3 Finalità e Obiettivi  
+Il PTOF sottolinea l'importanza di valutare le attitudini degli studenti e di valorizzare percorsi formativi individualizzati, con un coinvolgimento attivo degli studenti nel processo di orientamento. L'attenzione alla valutazione delle attitudini degli alunni e alla valorizzazione di percorsi formativi individualizzati, con un coinvolgimento attivo degli studenti, rappresenta un elemento centrale. Tuttavia, manca un riferimento esplicito a progetti di *progetto di vita*, che potrebbero integrare l'offerta esistente. Gli obiettivi stabiliti evidenziano un punteggio elevato per la continuità territoriale, mentre l'obiettivo di ridurre l'abbandono scolastico è valutato con un punteggio medio. Non sono presenti obiettivi specifici per contrastare il fenomeno dei NEET o per promuovere il lifelong learning, limitando la visione a lungo termine dell'orientamento.  
 
-L'orientamento non è trattato all'interno di una sezione dedicata specifica nel PTOF, ma viene affrontato come parte integrante della sezione dedicata alla continuità e alle strategie di orientamento formativo e lavorativo. Questo approccio, sebbene presente, risulta meno strutturato rispetto a una sezione autonoma.
+#### 2.4 Governance e Azioni di Sistema  
+Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e l'implementazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Questo approccio mira a garantire una coerenza tra le strategie di orientamento e le esigenze degli studenti, favorendo un ambiente scolastico inclusivo e partecipativo.  
 
-**2.2 Partnership:**
+#### 2.5 Didattica Orientativa  
+L'offerta didattica orientativa si basa su metodologie esperienziali, laboratoriali e, in misura minore, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Nonostante le numerose iniziative, il PTOF presenta una carenza nella descrizione dettagliata delle metodologie didattiche utilizzate per l'orientamento, con un punteggio medio per la didattica laboratoriale e la flessibilità degli spazi e dei tempi. Questo aspetto potrebbe limitare l'efficacia delle azioni intraprese.  
 
-L'istituto ha sviluppato un'ampia rete di **partnership** con numerosi soggetti esterni, tra cui il **Comune di Cercola**, l'**ASL**, altre scuole del territorio, istituzioni educative e politico-aziendali, lo **Sportello Aid**, l'**Ufficio Scolastico Regionale per la Campania**, l'**Assessorato alla Scuola della Regione Campania**, **Anpal Servizi**, **Confindustria Campania**, **INAIL Campania**, **Sviluppo Campania**, l'**Arma dei Carabinieri**, la **Polizia di Stato**, la **Polizia Postale**, la **Guardia di Finanza**, diverse **associazioni** ed **enti di formazione accreditati**. Il numero totale di partner attivi è di 17.
+#### 2.6 Opportunità Formative  
+L'istituto offre opzionali in ambito culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando l'offerta formativa e rispondendo agli interessi degli studenti. Un ulteriore punto di forza è la partecipazione al progetto *Europe Code Week*, che ha riconosciuto l'istituto come *CodeWeek School*, evidenziando l'impegno nella diffusione di attività di coding e robotica tra gli studenti. Questo progetto, citato nel PTOF, rappresenta un esempio concreto di come l'istituto integri l'orientamento tecnologico e STEM nella sua offerta formativa.  
 
-**2.3 Finalità:**
+#### 2.7 Registro Dettagliato delle Attività  
+Il registro dettagliato delle attività non include dati quantitativi specifici riguardanti il numero di ore dedicate ai progetti di orientamento, il budget allocato, o la percentuale di studenti coinvolti. Questo limite rende difficile valutare l'impatto effettivo delle iniziative svolte.  
 
-Il PTOF evidenzia un'attenzione alla valutazione delle **attitudini** degli alunni e alla valorizzazione di percorsi formativi individualizzati, con un coinvolgimento attivo degli studenti. Si riscontra un forte impegno per garantire un passaggio sereno e consapevole tra i diversi ordini di scuola, e per lo sviluppo di un sistema di orientamento efficace. Tuttavia, manca un riferimento esplicito a progetti di **progetto di vita**.
+### 3. Punti di Forza  
+I punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di partnership attivate, nell'attenzione alla valutazione delle attitudini degli studenti e nella promozione della continuità tra i diversi ordini di scuola. L'approccio inclusivo e l'offerta di attività opzionali rappresentano ulteriori elementi positivi. Progetti come *Orientalife* e *Progetto Continuità* dimostrano un impegno concreto nell'orientamento degli studenti. Un ulteriore punto di forza è la collaborazione con enti esterni come l'Arma dei Carabinieri, la Polizia di Stato, la Polizia Postale e la Guardia di Finanza, che contribuiscono a fornire agli studenti un'ampia prospettiva sulle opportunità professionali disponibili. Inoltre, la partecipazione al progetto *Orientalife*, che mira a sviluppare competenze di orientamento attraverso attività esperienziali e laboratoriali, rappresenta un esempio concreto di come l'istituto integri l'orientamento nella sua offerta formativa.  
 
-**2.4 Obiettivi:**
+### 4. Aree di Debolezza  
+L'assenza di una sezione dedicata specificamente all'orientamento e la mancanza di riferimenti a progetti di *progetto di vita* costituiscono le principali aree di debolezza. Inoltre, l'assenza di obiettivi specifici per contrastare il fenomeno dei NEET e promuovere il lifelong learning limita la visione a lungo termine dell'orientamento. Un'area di debolezza rilevata è l'assenza di dati quantitativi specifici riguardanti il numero di ore dedicate ai progetti di orientamento, il budget allocato, o la percentuale di studenti coinvolti. Questo limite rende difficile valutare l'impatto effettivo delle iniziative svolte.  
 
-Tra gli obiettivi stabiliti, si evidenzia un punteggio elevato per la **continuità territoriale**, mentre l'obiettivo di ridurre l'**abbandono scolastico** è stato valutato con un punteggio medio. Non sono presenti obiettivi specifici per contrastare il fenomeno dei **NEET** o per promuovere il **lifelong learning**.
+### 5. Gap Analysis  
+Il divario principale risiede nella necessità di strutturare meglio l'offerta di orientamento, attraverso la creazione di una sezione dedicata nel PTOF e l'inserimento di obiettivi specifici per il contrasto alla dispersione scolastica e la promozione del lifelong learning. Un gap rilevante è rappresentato dall'assenza di una descrizione dettagliata delle metodologie didattiche utilizzate per l'orientamento, con un punteggio medio per la didattica laboratoriale e la flessibilità degli spazi e dei tempi. Questo aspetto potrebbe limitare l'efficacia delle azioni intraprese.  
 
-**2.5 Azioni di Sistema:**
-
-Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e l'implementazione di un sistema integrato per l'inclusione e la gestione delle fragilità.
-
-**2.6 Didattica Orientativa:**
-
-L'offerta didattica orientativa si basa su metodologie esperienziali, laboratoriali e, in misura minore, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità.
-
-**2.7 Offerta Formativa Opzionali/Facoltative:**
-
-L'istituto offre opzionali in ambito culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando l'offerta formativa e rispondendo agli interessi degli studenti.
-
-### 3. Punti di Forza
-
-I punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** attivate, nell'attenzione alla valutazione delle **attitudini** degli studenti e nella promozione della **continuità** tra i diversi ordini di scuola. L'approccio inclusivo e l'offerta di attività opzionali rappresentano ulteriori elementi positivi. Progetti come **Orientalife** e **Progetto Continuità** dimostrano un impegno concreto nell'orientamento degli studenti.
-
-### 4. Aree di Debolezza
-
-L'assenza di una sezione dedicata specificamente all'orientamento e la mancanza di riferimenti a progetti di **progetto di vita** costituiscono le principali aree di debolezza. Inoltre, l'assenza di obiettivi specifici per contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning** limita la visione a lungo termine dell'orientamento.
-
-### 5. Gap Analysis
-
-Il divario principale risiede nella necessità di strutturare meglio l'offerta di orientamento, attraverso la creazione di una sezione dedicata nel PTOF e l'inserimento di obiettivi specifici per il contrasto alla dispersione scolastica e la promozione dell'apprendimento permanente. È inoltre auspicabile un maggiore focus sulla progettazione di percorsi di **progetto di vita** per gli studenti.
-
-### 6. Conclusioni
-
-Il PTOF dell'Istituto Comprensivo Cercola - Ic Custra dimostra un impegno significativo nell'ambito dell'orientamento, supportato da una solida rete di **partnership** e da un'offerta didattica diversificata. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario strutturare meglio l'offerta di orientamento, definire obiettivi più specifici e ampliare la visione a lungo termine, includendo il **lifelong learning** e il **progetto di vita** come elementi centrali. Progetti come **Didattica Orientativa** e **Linea alla Scuola** rappresentano un valido punto di partenza per un ulteriore sviluppo dell'orientamento all'interno dell'istituto.
+### 6. Conclusioni  
+In conclusione, il Piano di Formazione del Personale Docente del PTOF 2022-2025 dimostra un impegno significativo nell'orientamento attraverso l'implementazione di progetti innovativi e la collaborazione con enti esterni. Tuttavia, per migliorare l'efficacia complessiva, è necessario approfondire la descrizione delle metodologie didattiche e strutturare meglio l'offerta di orientamento. Progetti come *Progetto Stem* e *Didattica per Competenze e Innovazione* rappresentano iniziative innovative per l'orientamento, ma richiedono una maggiore integrazione nel piano complessivo. L'assenza di una sezione dedicata all'orientamento e la mancanza di dati quantitativi rappresentano criticità da affrontare per garantire una visione strategica e sostenibile.

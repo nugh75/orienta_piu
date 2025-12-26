@@ -77,7 +77,7 @@
         "score": 4
       },
       "obiettivo_contrastare_neet": {
-        "score": 2
+        "score": 3
       },
       "obiettivo_lifelong_learning": {
         "score": 3
@@ -116,13 +116,13 @@
     },
     "2_7_opzionali_facoltative": {
       "opzionali_culturali": {
-        "score": 2
+        "score": 3
       },
       "opzionali_laboratoriali_espressive": {
         "score": 4
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 3
       },
       "opzionali_volontariato": {
         "score": 3
@@ -207,6 +207,46 @@
         "report_enriched": true,
         "initial_issues": 0
       }
+    },
+    {
+      "timestamp": "2025-12-25T00:28:27.266207",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 4,
+        "extreme_scores_checked": 3,
+        "scores_modified": 3,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_culturali.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il documento menziona progetti di cittadinanza finalizzati all'educazione alla tolleranza, dialogo i"
+          },
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona l'utilizzo di nuove tecnologie, metodologie basate sull'apprendimento attivo e coo"
+          },
+          {
+            "path": "ptof_section2.2_4_obiettivi.obiettivo_contrastare_neet.score",
+            "old": 2,
+            "new": 3,
+            "reason": "Il testo menziona l'importanza della motivazione, della partecipazione e dell'integrazione di tutti "
+          }
+        ]
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "timestamp": "2025-12-25T00:28:27.266232",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 3
     }
   ]
 }

@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "L'orientamento è affrontato come parte integrante della sezione dedicata alla continuità e alle strategie di orientamento formativo e lavorativo (Pagina 127). Non è presente una sezione dedicata specifica."
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-26T22:48:34.203039"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -305,6 +307,22 @@
             "reason": "Il testo menziona l'integrazione di competenze trasversali e una visione multidisciplinare, suggeren"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-26T22:49:56.114854",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 9,
+        "enrichments_found": 18,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],
