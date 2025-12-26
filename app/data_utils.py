@@ -10,6 +10,11 @@ TIPI_SCUOLA = [
     "Professionale"
 ]
 
+GESTIONE_SCUOLA = [
+    "Statale",
+    "Paritaria"
+]
+
 # Mapping centralizzato per etichette colonne (evita duplicazione nelle pagine)
 LABEL_MAP = {
     'mean_finalita': 'Media Finalità',
@@ -38,6 +43,22 @@ def get_label(col: str, short: bool = False) -> str:
     """Restituisce l'etichetta leggibile per una colonna."""
     label_dict = LABEL_MAP_SHORT if short else LABEL_MAP
     return label_dict.get(col, col.replace('_', ' ').title())
+
+def normalize_statale_paritaria(value: object) -> str:
+    """Normalizza il campo statale_paritaria in Statale/Paritaria/ND/Altro."""
+    if pd.isna(value):
+        return "ND"
+    raw = str(value).strip()
+    if not raw or raw.lower() in ("nd", "n/d", "nan"):
+        return "ND"
+    lower = raw.lower()
+    if "paritaria" in lower or "non statale" in lower:
+        return "Paritaria"
+    if "statale" in lower:
+        return "Statale"
+    if raw in GESTIONE_SCUOLA:
+        return raw
+    return "Altro"
 
 def split_multi_value(value):
     if pd.isna(value):

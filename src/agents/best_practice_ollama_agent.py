@@ -37,7 +37,7 @@ MAX_RETRIES = 3
 REQUEST_TIMEOUT = 300
 SYNTH_BACKOFF_START = 30
 SYNTH_BACKOFF_MAX = 60 * 60 * 2
-SYNTH_REFRESH_INTERVAL = 60 * 60 * 2
+SYNTH_REFRESH_INTERVAL = 60 * 30
 
 # Gemini refactoring settings
 GEMINI_MODEL = "gemini-3-flash-preview"
@@ -1302,7 +1302,11 @@ Non includere commenti o spiegazioni."""
         if not self.do_section_refactor(synth_state):
             return False
 
-        print(f"🔁 Loop attivo: aggiorno un capitolo ogni {SYNTH_REFRESH_INTERVAL // 3600} ore")
+        if SYNTH_REFRESH_INTERVAL % 3600 == 0:
+            interval_label = f"{SYNTH_REFRESH_INTERVAL // 3600} ore"
+        else:
+            interval_label = f"{SYNTH_REFRESH_INTERVAL // 60} minuti"
+        print(f"🔁 Loop attivo: aggiorno un capitolo ogni {interval_label}")
         while not EXIT_REQUESTED:
             time.sleep(SYNTH_REFRESH_INTERVAL)
             if EXIT_REQUESTED:
