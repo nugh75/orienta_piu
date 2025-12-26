@@ -22,8 +22,8 @@ make dashboard
 
 ### 🔑 API Keys (solo per revisioni con LLM cloud)
 Per usare i reviewer cloud:
-- `OPENROUTER_API_KEY` per `make review-slow` / `make review-scores`
-- `GEMINI_API_KEY` per `make review-gemini` / `make review-scores-gemini`
+- `OPENROUTER_API_KEY` per `make review-report-openrouter` / `make review-scores-openrouter`
+- `GEMINI_API_KEY` per `make review-report-gemini` / `make review-scores-gemini`
 
 Puoi metterle in `.env` o in `data/api_config.json`.
 
@@ -56,9 +56,12 @@ Inoltre, verifica sempre se il file è già presente in `ptof_processed` o `ptof
 - `make refresh`: Rigenera il CSV dai JSON e avvia la dashboard (utile dopo modifiche manuali).
 - `make full`: Esegue tutto il ciclo (Analisi -> CSV -> Dashboard).
 - `make help`: Mostra tutti i comandi disponibili.
-- `make review-scores`: Revisione automatica dei punteggi estremi (solo JSON).
-- `make review-scores-gemini`: Come sopra, ma con Google Gemini.
+- `make wizard`: Avvia wizard interattivo per i comandi make.
+- `make review-scores-openrouter`: Revisione automatica dei punteggi estremi con OpenRouter.
+- `make review-scores-gemini`: Revisione automatica dei punteggi estremi con Gemini.
 - `make review-non-ptof`: Rimuove analisi generate da documenti non-PTOF.
+
+Per documentazione completa dei comandi make, vedi [MAKE_REFERENCE.md](MAKE_REFERENCE.md).
 
 ## �️ Sicurezza e Integrità dei Dati
 
@@ -136,14 +139,17 @@ python src/processing/non_ptof_reviewer.py --dry-run
 ## ✅ Esempi (Review punteggi estremi)
 
 ```bash
-# OpenRouter (default), batch completo
-make review-scores MODEL="meta-llama/llama-3.3-70b-instruct:free" LOW=2 HIGH=6
+# OpenRouter, batch completo
+make review-scores-openrouter MODEL="meta-llama/llama-3.3-70b-instruct:free" LOW=2 HIGH=6
 
 # OpenRouter su una singola scuola
-make review-scores TARGET=RMIC8GA002
+make review-scores-openrouter TARGET=RMIC8GA002
 
 # Gemini su una singola scuola
 make review-scores-gemini MODEL="gemini-2.0-flash-exp" TARGET=RMIC8GA002
+
+# Ollama locale
+make review-scores-ollama MODEL=qwen3:32b LOW=2 HIGH=6
 
 # CLI diretto con provider Gemini
 python src/processing/score_reviewer.py --provider gemini --model "gemini-2.0-flash-exp" --low-threshold 2 --high-threshold 6 --target RMIC8GA002

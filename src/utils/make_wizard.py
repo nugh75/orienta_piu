@@ -255,30 +255,37 @@ def menu_workflow() -> None:
 
 def menu_review() -> None:
     options = [
-        ("Review slow (OpenRouter)", "review-slow"),
-        ("Review gemini", "review-gemini"),
-        ("Review ollama (report)", "review-ollama"),
-        ("Review scores (OpenRouter)", "review-scores"),
-        ("Review scores gemini", "review-scores-gemini"),
-        ("Review scores ollama", "review-scores-ollama"),
-        ("Review non-ptof", "review-non-ptof"),
+        ("📝 Report OpenRouter", "review-report-openrouter"),
+        ("📝 Report Gemini", "review-report-gemini"),
+        ("📝 Report Ollama", "review-report-ollama"),
+        ("🎯 Scores OpenRouter", "review-scores-openrouter"),
+        ("🎯 Scores Gemini", "review-scores-gemini"),
+        ("🎯 Scores Ollama", "review-scores-ollama"),
+        ("🔍 Review non-ptof", "review-non-ptof"),
     ]
     choice = prompt_choice("Review - scegli operazione", options)
     if not choice:
         return
 
-    if choice == "review-slow":
+    # Report reviews
+    if choice == "review-report-openrouter":
         free_only = prompt_yes_no("Solo modelli free?", default=True)
         model = prompt_model_choice("openrouter", DEFAULT_OPENROUTER_MODEL, free_only)
-        run_make(choice, {"MODEL": model})
+        target = prompt_text("Target codice (opzionale)")
+        limit = prompt_int("Limite file (opzionale)")
+        wait = prompt_int("Attesa secondi tra richieste (opzionale)")
+        run_make(choice, {"MODEL": model, "TARGET": target, "LIMIT": limit, "WAIT": wait})
         return
 
-    if choice == "review-gemini":
+    if choice == "review-report-gemini":
         model = prompt_model_choice("gemini", DEFAULT_GEMINI_MODEL)
-        run_make(choice, {"MODEL": model})
+        target = prompt_text("Target codice (opzionale)")
+        limit = prompt_int("Limite file (opzionale)")
+        wait = prompt_int("Attesa secondi tra richieste (opzionale)")
+        run_make(choice, {"MODEL": model, "TARGET": target, "LIMIT": limit, "WAIT": wait})
         return
 
-    if choice == "review-ollama":
+    if choice == "review-report-ollama":
         model = prompt_model_choice("ollama", DEFAULT_OLLAMA_MODEL)
         ollama_url = prompt_text("URL Ollama", default=DEFAULT_OLLAMA_URL)
         chunk_size = prompt_int("Chunk size", default=DEFAULT_OLLAMA_CHUNK_SIZE)
@@ -298,8 +305,9 @@ def menu_review() -> None:
         )
         return
 
-    if choice in {"review-scores", "review-scores-gemini"}:
-        if choice == "review-scores":
+    # Score reviews
+    if choice in {"review-scores-openrouter", "review-scores-gemini"}:
+        if choice == "review-scores-openrouter":
             free_only = prompt_yes_no("Solo modelli free?", default=True)
             model = prompt_model_choice("openrouter", DEFAULT_OPENROUTER_MODEL, free_only)
         else:

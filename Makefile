@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow review-gemini review-ollama review-scores review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-restore
+.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-restore
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -25,19 +25,20 @@ help:
 	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
 	@echo "🤖 ANALISI & REVISIONE:"
-	@echo "  make run                   - Esegue analisi sui PDF in ptof_inbox/"
-	@echo "  make review-slow           - Revisione lenta con modelli free (usa MODEL=... per cambiare)"
-	@echo "  make review-gemini         - Revisione con Google Gemini (usa MODEL=... per cambiare)"
-	@echo "  make review-scores         - Revisione punteggi estremi (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
-	@echo "  make review-scores-gemini  - Revisione punteggi estremi con Google (MODEL=..., LOW=2, HIGH=6, TARGET=...)"
-	@echo "  make review-ollama         - Revisione report con Ollama locale (MODEL=..., OLLAMA_URL=..., CHUNK_SIZE=..., WAIT=..., LIMIT=..., TARGET=...)"
-	@echo "  make review-scores-ollama  - Revisione punteggi estremi con Ollama locale (MODEL=..., OLLAMA_URL=..., CHUNK_SIZE=..., LOW=2, HIGH=6, WAIT=..., LIMIT=..., TARGET=...)"
-	@echo "  make review-non-ptof       - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1, MAX_SCORE=2.0)"
+	@echo "  make run                     - Esegue analisi sui PDF in ptof_inbox/"
 	@echo ""
-	@echo "🦙 OLLAMA REVIEWERS (chunking, server 192.168.129.14):"
-	@echo "  make ollama-score-review   - Revisione score JSON (MODEL=..., TARGET=..., LOW=2, HIGH=6)"
-	@echo "  make ollama-report-review  - Arricchimento report MD (MODEL=..., TARGET=..., CHUNK=30000)"
-	@echo "  make ollama-review-all     - Esegue entrambi in sequenza"
+	@echo "  📝 REVISIONE REPORT (arricchimento MD):"
+	@echo "  make review-report-openrouter - Revisione report con OpenRouter (MODEL=...)"
+	@echo "  make review-report-gemini     - Revisione report con Gemini (MODEL=...)"
+	@echo "  make review-report-ollama     - Revisione report con Ollama (MODEL=..., OLLAMA_URL=...)"
+	@echo ""
+	@echo "  🎯 REVISIONE SCORES (JSON punteggi estremi):"
+	@echo "  make review-scores-openrouter - Revisione scores con OpenRouter (MODEL=..., LOW=2, HIGH=6)"
+	@echo "  make review-scores-gemini     - Revisione scores con Gemini (MODEL=..., LOW=2, HIGH=6)"
+	@echo "  make review-scores-ollama     - Revisione scores con Ollama (MODEL=..., LOW=2, HIGH=6)"
+	@echo ""
+	@echo "  🔍 VALIDAZIONE:"
+	@echo "  make review-non-ptof          - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
 	@echo ""
 	@echo "📬 OUTREACH PTOF:"
 	@echo "  make outreach-portal       - Avvia portale upload PTOF (PORT=8502)"
@@ -257,16 +258,20 @@ download-reset:
 	rm -f src/downloaders/download_state.json
 	@echo "Stato download resettato."
 
-# Slow Review (uso: make review-slow MODEL=google/gemini-2.0-flash-exp:free)
-review-slow:
-	$(PYTHON) -m src.processing.slow_reviewer $(if $(MODEL),--model "$(MODEL)",)
+# ═══════════════════════════════════════════════════════════════════
+# REVISIONE REPORT (arricchimento MD)
+# ═══════════════════════════════════════════════════════════════════
 
-# Gemini Review (uso: make review-gemini MODEL=gemini-1.5-pro)
-review-gemini:
+# Report Review con OpenRouter (uso: make review-report-openrouter MODEL=google/gemini-2.0-flash-exp:free)
+review-report-openrouter:
+	$(PYTHON) -m src.processing.slow_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(WAIT),--wait $(WAIT),)
+
+# Report Review con Gemini (uso: make review-report-gemini MODEL=gemini-1.5-pro)
+review-report-gemini:
 	$(PYTHON) -m src.processing.gemini_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(WAIT),--wait $(WAIT),)
 
-# Ollama Report Review (uso: make review-ollama MODEL=qwen3:32b)
-review-ollama:
+# Report Review con Ollama (uso: make review-report-ollama MODEL=qwen3:32b)
+review-report-ollama:
 	$(PYTHON) -m src.processing.ollama_report_reviewer \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
@@ -275,15 +280,19 @@ review-ollama:
 		$(if $(LIMIT),--limit $(LIMIT),) \
 		$(if $(TARGET),--target "$(TARGET)",)
 
-# Score Review (uso: make review-scores MODEL=... LOW=2 HIGH=6 TARGET=RMIC8GA002)
-review-scores:
-	$(PYTHON) -m src.processing.score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
+# ═══════════════════════════════════════════════════════════════════
+# REVISIONE SCORES (punteggi estremi JSON)
+# ═══════════════════════════════════════════════════════════════════
 
-# Score Review (Gemini) (uso: make review-scores-gemini MODEL=gemini-2.0-flash-exp LOW=2 HIGH=6)
+# Score Review con OpenRouter (uso: make review-scores-openrouter MODEL=... LOW=2 HIGH=6)
+review-scores-openrouter:
+	$(PYTHON) -m src.processing.score_reviewer --provider openrouter $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
+
+# Score Review con Gemini (uso: make review-scores-gemini MODEL=gemini-2.0-flash-exp LOW=2 HIGH=6)
 review-scores-gemini:
 	$(PYTHON) -m src.processing.score_reviewer --provider gemini $(if $(MODEL),--model "$(MODEL)",) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(TARGET),--target "$(TARGET)",) $(if $(WAIT),--wait $(WAIT),) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_CHARS),--max-chars $(MAX_CHARS),)
 
-# Score Review (Ollama) (uso: make review-scores-ollama MODEL=qwen3:32b LOW=2 HIGH=6)
+# Score Review con Ollama (uso: make review-scores-ollama MODEL=qwen3:32b LOW=2 HIGH=6)
 review-scores-ollama:
 	$(PYTHON) -m src.processing.ollama_score_reviewer \
 		$(if $(MODEL),--model "$(MODEL)",) \
@@ -298,28 +307,6 @@ review-scores-ollama:
 # Non-PTOF Review (uso: make review-non-ptof TARGET=RMIC8GA002 DRY=1)
 review-non-ptof:
 	$(PYTHON) -m src.processing.non_ptof_reviewer $(if $(TARGET),--target "$(TARGET)",) $(if $(DRY),--dry-run,) $(if $(NO_LLM),--no-llm,) $(if $(NO_MOVE),--no-move-pdf,) $(if $(LIMIT),--limit $(LIMIT),) $(if $(MAX_SCORE),--max-score $(MAX_SCORE),)
-
-# ═══════════════════════════════════════════════════════════════════
-# OLLAMA REVIEWERS (locale su 192.168.129.14)
-# ═══════════════════════════════════════════════════════════════════
-
-# Ollama Score Review (uso: make ollama-score-review MODEL=qwen3:32b TARGET=RMIC8GA002)
-ollama-score-review:
-	$(PYTHON) -m src.processing.ollama_score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(LOW),--low-threshold $(LOW),) $(if $(HIGH),--high-threshold $(HIGH),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
-
-# Ollama Report Review (uso: make ollama-report-review MODEL=qwen3:32b TARGET=RMIC8GA002)
-ollama-report-review:
-	$(PYTHON) -m src.processing.ollama_report_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),) $(if $(CHUNK),--chunk-size $(CHUNK),) $(if $(WAIT),--wait $(WAIT),)
-
-# Esegue entrambi i reviewer Ollama in sequenza
-ollama-review-all:
-	@echo "🔍 Fase 1: Revisione Score..."
-	$(PYTHON) -m src.processing.ollama_score_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
-	@echo ""
-	@echo "✨ Fase 2: Arricchimento Report..."
-	$(PYTHON) -m src.processing.ollama_report_reviewer $(if $(MODEL),--model "$(MODEL)",) $(if $(TARGET),--target "$(TARGET)",) $(if $(LIMIT),--limit $(LIMIT),)
-	@echo ""
-	@echo "🏁 Revisione Ollama completata!"
 
 # Watch CSV: rigenera il CSV ogni N secondi (default 300s = 5min)
 # Uso: make csv-watch INTERVAL=60

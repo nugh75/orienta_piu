@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-26T18:52:00.521955",
+  "last_updated": "2025-12-26T19:28:25.869913",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -3133,18 +3133,9 @@
           "details": {
             "error": "no_response"
           }
-        },
-        {
-          "type": "openrouter_score_review",
-          "model": "z-ai/glm-4.5-air:free",
-          "status": "failed",
-          "timestamp": "2025-12-26T18:52:00.521792",
-          "details": {
-            "error": "Expecting value: line 1 column 1 (char 0)"
-          }
         }
       ],
-      "last_review": "2025-12-26T18:52:00.521825"
+      "last_review": "2025-12-26T15:35:17.363464"
     },
     "MIPC09500C": {
       "pdf_hash": "sha256:aa7d9a719e3cec93e57354ce32afb9e29d5d8f691e1212043e3f4462f809e910",
@@ -3490,6 +3481,42 @@
       "json_path": "/Users/danieledragoni/git/LIste/analysis_results/PAAA8AU04Q_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/LIste/ptof_md/PAAA8AU04Q_ptof.md"
+    },
+    "FOPS00401X": {
+      "pdf_hash": "sha256:72073e5f88b4202674e04edacefe56bc43cdf8f35c927d05c8c4bf3dc2d315d0",
+      "pdf_name": "FOPS00401X_PTOF.pdf",
+      "pdf_size": 205771,
+      "analyzed_at": "2025-12-26T18:53:56.047313",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/FOPS00401X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/FOPS00401X_ptof.md"
+    },
+    "RGIC83000C": {
+      "pdf_hash": "sha256:781550c52d49e198d0cfe2d6dd9570bdf7eb4ef07751262e6fcb071747032444",
+      "pdf_name": "RGIC83000C_PTOF.pdf",
+      "pdf_size": 2059535,
+      "analyzed_at": "2025-12-26T19:03:49.148190",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RGIC83000C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RGIC83000C_ptof.md"
+    },
+    "RMTD67500X": {
+      "pdf_hash": "sha256:7d305483df6172891dde860f65bb181152c59fe359a81514a6082669cb928050",
+      "pdf_name": "RMTD67500X_PTOF.pdf",
+      "pdf_size": 3076210,
+      "analyzed_at": "2025-12-26T19:13:09.277270",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/RMTD67500X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/RMTD67500X_ptof.md"
+    },
+    "BNPS01301P": {
+      "pdf_hash": "sha256:9f6624e786b277af9ec6c72d1b2285a14678083ff8bbf0940ee711548d53f7c7",
+      "pdf_name": "BNPS01301P_PTOF.pdf",
+      "pdf_size": 2348635,
+      "analyzed_at": "2025-12-26T19:28:25.869791",
+      "json_path": "/Users/danieledragoni/git/LIste/analysis_results/BNPS01301P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/LIste/ptof_md/BNPS01301P_ptof.md"
     }
   }
 }

@@ -174,7 +174,11 @@ def call_openrouter(prompt: str, model: str, api_key: str) -> Optional[str]:
                 timeout=120
             )
             if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
+                resp_json = response.json()
+                content = resp_json.get("choices", [{}])[0].get("message", {}).get("content", "")
+                if not content:
+                    logger.warning(f"OpenRouter returned 200 but empty content. Full response: {resp_json}")
+                return content
             
             if response.status_code == 429:
                 rate_limit_retries += 1
@@ -274,9 +278,12 @@ def call_gemini(prompt: str, model: str, api_key: str) -> Optional[str]:
             if response.status_code == 200:
                 result = response.json()
                 try:
-                    return result["candidates"][0]["content"]["parts"][0]["text"]
+                    content = result["candidates"][0]["content"]["parts"][0]["text"]
+                    if not content:
+                        logger.warning(f"Gemini returned 200 but empty content. Full response: {result}")
+                    return content
                 except (KeyError, IndexError):
-                    logger.error(f"Unexpected Gemini response: {result}")
+                    logger.error(f"Unexpected Gemini response structure: {result}")
                     return None
             
             if response.status_code == 429:
@@ -413,12 +420,21 @@ REGOLE:
 
 def extract_json_block(text: str) -> str:
     cleaned = text.strip()
+    # Rimuovi blocco ```json ... ``` o ``` ... ```
     if "```json" in cleaned:
+        # Prendi tutto dopo ```json
         cleaned = cleaned.split("```json", 1)[1]
-    if "```" in cleaned:
-        cleaned = cleaned.split("```", 1)[1]
-    if "```" in cleaned:
-        cleaned = cleaned.split("```", 1)[0]
+        # Prendi tutto prima del prossimo ```
+        if "```" in cleaned:
+            cleaned = cleaned.split("```", 1)[0]
+    elif "```" in cleaned:
+        # Blocco ``` senza json
+        parts = cleaned.split("```")
+        if len(parts) >= 3:
+            # Prendi il contenuto tra il primo e secondo ```
+            cleaned = parts[1]
+        elif len(parts) == 2:
+            cleaned = parts[1]
     cleaned = cleaned.strip()
     start = cleaned.find("{")
     end = cleaned.rfind("}")
@@ -576,8 +592,26 @@ def main() -> None:
             result_str = call_llm(prompt, model_name, api_key)
 
             if result_str:
+                # Debug logging per diagnosi errori JSON
+                logger.debug(f"{school_code}: API response length: {len(result_str)} chars")
+                logger.debug(f"{school_code}: API response preview: {result_str[:500]}...")
+
                 cleaned = extract_json_block(result_str)
-                parsed = json.loads(cleaned)
+
+                if not cleaned:
+                    logger.error(f"{school_code}: extract_json_block returned empty string")
+                    logger.error(f"{school_code}: Raw response was: {result_str[:1000]}")
+                    raise ValueError("Empty JSON after extraction - API returned non-JSON response")
+
+                logger.debug(f"{school_code}: Cleaned JSON length: {len(cleaned)} chars")
+
+                try:
+                    parsed = json.loads(cleaned)
+                except json.JSONDecodeError as je:
+                    logger.error(f"{school_code}: JSON parse error: {je}")
+                    logger.error(f"{school_code}: Cleaned string was: {cleaned[:1000]}")
+                    logger.error(f"{school_code}: Raw API response was: {result_str[:1000]}")
+                    raise
 
                 updates = parsed.get("score_updates")
                 if not isinstance(updates, list):
