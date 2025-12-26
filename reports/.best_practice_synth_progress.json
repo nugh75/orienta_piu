@@ -6,7 +6,7 @@
       "attempts": 1,
       "provider": "openrouter",
       "last_error": "",
-      "updated": "2025-12-26T15:42:21.687202"
+      "updated": "2025-12-26T18:40:02.581218"
     },
     "Nelle Scuole Primarie": {
       "status": "completed",
@@ -16,38 +16,38 @@
       "updated": "2025-12-26T15:42:39.336250"
     },
     "Nelle Scuole Secondarie di Primo Grado": {
-      "status": "refreshed",
+      "status": "completed",
       "attempts": 1,
       "provider": "openrouter",
       "last_error": "",
-      "updated": "2025-12-26T16:21:12.620331"
+      "updated": "2025-12-26T18:40:24.776738"
     },
     "Nei Licei": {
-      "status": "refreshed",
+      "status": "completed",
       "attempts": 1,
       "provider": "openrouter",
       "last_error": "",
-      "updated": "2025-12-26T16:51:31.599297"
+      "updated": "2025-12-26T18:40:43.158669"
     },
     "Negli Istituti Tecnici": {
-      "status": "refreshed",
+      "status": "completed",
       "attempts": 1,
       "provider": "openrouter",
       "last_error": "",
-      "updated": "2025-12-26T17:21:47.244368"
+      "updated": "2025-12-26T18:40:57.448203"
     },
     "Negli Istituti Professionali": {
       "status": "completed",
       "attempts": 1,
-      "provider": "gemini",
+      "provider": "openrouter",
       "last_error": "",
-      "updated": "2025-12-26T10:06:30.250402"
+      "updated": "2025-12-26T18:41:12.622031"
     }
   },
   "full_synth_attempts": 2,
   "full_synth_provider": "openrouter",
   "full_synth_updated": "2025-12-26T10:05:05.274311",
   "full_synth_last_error": "",
-  "refresh_index": 5,
-  "last_refresh": "2025-12-26T17:21:47.244428"
+  "refresh_index": 1,
+  "last_refresh": "2025-12-26T18:22:24.539508"
 }

@@ -1098,8 +1098,8 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                 if os.path.exists(final_md_path): os.remove(final_md_path)
                 
                 # Also delete legacy files if any
-                legacy_json = os.path.join(output_dir, f"{school_code}_analysis.json")
-                legacy_md = os.path.join(output_dir, f"{school_code}_analysis.md")
+                legacy_json = os.path.join(results_dir, f"{school_code}_analysis.json")
+                legacy_md = os.path.join(results_dir, f"{school_code}_analysis.md")
                 if os.path.exists(legacy_json): os.remove(legacy_json)
                 if os.path.exists(legacy_md): os.remove(legacy_md)
                 

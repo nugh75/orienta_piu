@@ -149,7 +149,7 @@ def call_gemini(prompt: str, model: str, api_key: str):
 
         elif response.status_code == 429:
             # Rate limit - segnala di riprovare dopo
-            print(f"    ⚠️ Gemini rate limit (429) - riproverò dopo altre {REFACTOR_EVERY} scuole")
+            print("    ⚠️ Gemini rate limit (429) - riprovero piu tardi")
             return (False, None)
 
         else:
@@ -962,7 +962,7 @@ Restituisci il report completo in Markdown, senza commenti o spiegazioni."""
         synth_report = header
         for section_name, section_content in sections.items():
             content = refactored_sections.get(section_name, section_content)
-            synth_report += f"## {section_name}\n\n{content}\n\n---\n\n"
+            synth_report += f"## {section_name}\n\n{content}\n\n"
         return synth_report
 
     def _build_provider_summary(self, sections, synth_state):

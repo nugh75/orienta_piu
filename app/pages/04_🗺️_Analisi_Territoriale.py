@@ -93,6 +93,9 @@ REGION_ISO = {
 REGION_NORMALIZATION = {
     'Emilia Romagna': 'Emilia-Romagna',
     'Friuli-Venezia Giulia': 'Friuli Venezia Giulia',
+    'Friuli-Venezia G.': 'Friuli Venezia Giulia',
+    'Friuli Venezia G.': 'Friuli Venezia Giulia',
+    'Friuli Venezia G': 'Friuli Venezia Giulia',
     'Trentino Alto Adige': 'Trentino-Alto Adige',
     'Valle D\'Aosta': 'Valle d\'Aosta',
     'Valle d Aosta': 'Valle d\'Aosta',
@@ -417,6 +420,15 @@ with tab_mappa:
         with col2:
             st.markdown("### 📊 Statistiche Regionali (normalizzate)")
             st.dataframe(regional_stats.reset_index(drop=True), use_container_width=True, hide_index=True, height=450)
+            all_regions = sorted(REGION_ISO.keys())
+            present_regions = set(regional_stats['Regione'].dropna().tolist())
+            missing_regions = [r for r in all_regions if r not in present_regions]
+            if missing_regions:
+                st.warning(
+                    f"Regioni mancanti ({len(missing_regions)}): {', '.join(missing_regions)}"
+                )
+            else:
+                st.success("Copertura completa: tutte le regioni presenti.")
 
         st.info("""
 💡 **A cosa serve**: Confronta le regioni usando un indice normalizzato per tipologia, riducendo l'effetto della composizione delle scuole.
