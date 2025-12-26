@@ -2,6 +2,7 @@ import os
 import requests
 import json
 import logging
+import time
 
 def _normalize_model_name(model):
     if not model:
@@ -82,13 +83,28 @@ class LLMClient:
             }
         }
         
-        try:
-            response = requests.post(url, json=payload, timeout=300)
-            response.raise_for_status()
-            return response.json().get("response", "")
-        except Exception as e:
-            logging.error(f"Ollama error: {e}")
-            return ""
+        retry_max = int(os.environ.get("PTOF_OLLAMA_RETRY_MAX", "-1"))
+        retry_base_wait = int(os.environ.get("PTOF_OLLAMA_RETRY_WAIT", "10"))
+        retry_max_wait = int(os.environ.get("PTOF_OLLAMA_RETRY_MAX_WAIT", "300"))
+
+        attempt = 0
+        while True:
+            try:
+                response = requests.post(url, json=payload, timeout=300)
+                response.raise_for_status()
+                return response.json().get("response", "")
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                attempt += 1
+                if retry_max >= 0 and attempt > retry_max:
+                    logging.error(f"Ollama error: {e} (max retries reached)")
+                    return ""
+                wait_time = min(retry_base_wait * (2 ** (attempt - 1)), retry_max_wait)
+                retry_label = f"{attempt}" if retry_max < 0 else f"{attempt}/{retry_max}"
+                logging.error(f"Ollama error: {e} (retry {retry_label} in {wait_time}s)")
+                time.sleep(wait_time)
+            except Exception as e:
+                logging.error(f"Ollama error: {e}")
+                return ""
 
     def _generate_openai_compatible(self, model, prompt, system_prompt, temperature, max_tokens, config=None):
         # Resolve config from specific call config or preset
