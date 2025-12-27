@@ -1,0 +1,39 @@
+{
+  "by_token": {
+    "ROpjEbem5xrTEnBq5625kg": {
+      "school_code": "TEST001",
+      "denominazione": "Scuola Test Daniele",
+      "comune": "Roma",
+      "email": "daniele.dragoni@gmail.com",
+      "pec": "",
+      "created_at": "2025-12-27T10:00:00.228067",
+      "last_sent_at": "2025-12-27T10:00:12.942609",
+      "used_at": "2025-12-27T10:01:53.687720",
+      "uploads": [
+        {
+          "uploaded_at": "2025-12-27T10:01:53.687720",
+          "source_name": "prova ptof.pdf",
+          "stored_path": "/Users/danieledragoni/git/LIste/ptof_inbox/TEST001_PTOF.pdf",
+          "size": 7440210
+        }
+      ],
+      "last_sent_to": "daniele.dragoni@gmail.com"
+    },
+    "5YVkztcqQwOuXtA-QiIs4g": {
+      "school_code": "TEST002",
+      "denominazione": "Scuola Test AI4EDU",
+      "comune": "Milano",
+      "email": "ai4edcu@gmail.com",
+      "pec": "",
+      "created_at": "2025-12-27T10:00:00.228831",
+      "last_sent_at": "2025-12-27T10:00:15.219820",
+      "used_at": null,
+      "uploads": [],
+      "last_sent_to": "ai4edcu@gmail.com"
+    }
+  },
+  "by_code": {
+    "TEST001": "ROpjEbem5xrTEnBq5625kg",
+    "TEST002": "5YVkztcqQwOuXtA-QiIs4g"
+  }
+}

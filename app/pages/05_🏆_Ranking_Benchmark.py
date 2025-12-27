@@ -858,24 +858,24 @@ with tab_statistiche:
     with col1:
         if 'has_sezione_dedicata' in df_valid.columns:
             sez_pct = df_valid['has_sezione_dedicata'].sum() / len(df_valid) * 100
-            st.metric("% Sez. Dedicata", f"{sez_pct:.0f}%")
+            st.metric("% Sez. Dedicata", f"{sez_pct:.1f}%")
         else:
             st.metric("% Sez. Dedicata", "N/D")
 
     with col2:
         if 'partnership_count' in df_valid.columns:
             has_partner = (df_valid['partnership_count'] > 0).sum() / len(df_valid) * 100
-            st.metric("% Con Partnership", f"{has_partner:.0f}%")
+            st.metric("% Con Partnership", f"{has_partner:.1f}%")
         else:
             st.metric("% Con Partnership", "N/D")
 
     with col3:
         above_mid = (df_valid['ptof_orientamento_maturity_index'] > 4).sum() / len(df_valid) * 100
-        st.metric("% Sopra Sufficienza", f"{above_mid:.0f}%")
+        st.metric("% Sopra Sufficienza", f"{above_mid:.1f}%")
 
     with col4:
         excellence = (df_valid['ptof_orientamento_maturity_index'] >= 5).sum() / len(df_valid) * 100
-        st.metric("% Eccellenza (≥5)", f"{excellence:.0f}%")
+        st.metric("% Eccellenza (≥5)", f"{excellence:.1f}%")
 
     st.info("""
 💡 **A cosa serve**: Fornisce una panoramica sintetica delle statistiche principali sull'Indice di Robustezza dell'Orientamento (RO) delle scuole analizzate.
@@ -1042,7 +1042,7 @@ with tab_statistiche:
                         x='Importanza Relativa', y='Dimensione',
                         orientation='h',
                         color='Importanza Relativa',
-                        color_continuous_scale='Blues',
+                        color_continuous_scale=px.colors.sequential.Blues[5:],
                         title="Importanza Relativa delle Dimensioni",
                         text='Importanza Relativa'
                     )
