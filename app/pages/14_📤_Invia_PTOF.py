@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
 Pagina per l'invio del PTOF.
-Supporta:
-1. Upload con token (link ricevuto via email)
-2. Upload spontaneo con compilazione dati scuola
+Supporta l'upload con compilazione dati scuola.
 """
 
 import json
@@ -16,12 +14,11 @@ import pandas as pd
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
-TOKENS_FILE = DATA_DIR / "ptof_upload_tokens.json"
 SPONTANEOUS_LOG = DATA_DIR / "spontaneous_uploads.json"
 
 # Local storage
-PTOF_INBOX_DIR = BASE_DIR / "ptof_inbox"
-PTOF_INBOX_BACKUP_DIR = BASE_DIR / "ptof_inbox_backup"
+PTOF_INVIATI_DIR = BASE_DIR / "ptof_inviati"
+PTOF_INVIATI_BACKUP_DIR = BASE_DIR / "ptof_inviati_backup"
 
 # Liste per i dropdown
 REGIONI = [
@@ -68,54 +65,20 @@ def relative_path(path: Path) -> str:
 def save_ptof_file(data: bytes, filename: str) -> Optional[Path]:
     """Save PTOF PDF locally. Returns the saved path or None."""
     try:
-        ensure_dir(PTOF_INBOX_DIR)
-        target_path = PTOF_INBOX_DIR / filename
+        ensure_dir(PTOF_INVIATI_DIR)
+        target_path = PTOF_INVIATI_DIR / filename
 
         if target_path.exists():
-            ensure_dir(PTOF_INBOX_BACKUP_DIR)
+            ensure_dir(PTOF_INVIATI_BACKUP_DIR)
             stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
             backup_name = f"{target_path.stem}_{stamp}{target_path.suffix}"
-            target_path.replace(PTOF_INBOX_BACKUP_DIR / backup_name)
+            target_path.replace(PTOF_INVIATI_BACKUP_DIR / backup_name)
 
         target_path.write_bytes(data)
         return target_path
     except Exception as e:
         st.error(f"Errore salvataggio file: {e}")
         return None
-
-
-def load_tokens() -> Dict:
-    """Load tokens from file."""
-    try:
-        if hasattr(st, 'secrets') and 'ptof_tokens' in st.secrets:
-            data = dict(st.secrets['ptof_tokens'])
-            data.setdefault("by_token", {})
-            data.setdefault("by_code", {})
-            return data
-    except Exception:
-        pass
-
-    if TOKENS_FILE.exists():
-        try:
-            data = json.loads(TOKENS_FILE.read_text(encoding="utf-8"))
-        except Exception:
-            data = {}
-    else:
-        data = {}
-    data.setdefault("by_token", {})
-    data.setdefault("by_code", {})
-    return data
-
-
-def save_tokens(data: Dict) -> None:
-    """Save tokens."""
-    try:
-        TOKENS_FILE.parent.mkdir(parents=True, exist_ok=True)
-        tmp_path = TOKENS_FILE.with_suffix(TOKENS_FILE.suffix + ".tmp")
-        tmp_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-        tmp_path.replace(TOKENS_FILE)
-    except Exception:
-        pass
 
 
 def log_spontaneous_upload(school_data: Dict, stored_path: str, filename: str, size: int) -> None:
@@ -131,28 +94,13 @@ def log_spontaneous_upload(school_data: Dict, stored_path: str, filename: str, s
             "school_data": school_data,
             "stored_path": stored_path,
             "filename": filename,
-            "size": size
+            "size": size,
+            "stato": "inviato"
         })
 
         SPONTANEOUS_LOG.write_text(json.dumps(logs, indent=2, ensure_ascii=False), encoding="utf-8")
     except Exception:
         pass
-
-
-def update_token_entry(tokens: Dict, token: str, upload_name: str, size: int, stored_path: str) -> None:
-    """Update token with upload info."""
-    entry = tokens["by_token"].get(token, {})
-    entry.setdefault("uploads", [])
-    now = datetime.utcnow().isoformat()
-    entry["used_at"] = now
-    entry["uploads"].append({
-        "uploaded_at": now,
-        "source_name": upload_name,
-        "stored_path": stored_path,
-        "size": size,
-    })
-    tokens["by_token"][token] = entry
-    save_tokens(tokens)
 
 
 def sanitize_code(code: str) -> str:
@@ -169,68 +117,6 @@ def get_province_for_region(regione: str) -> list:
         return sorted(provinces.tolist())
     except Exception:
         return []
-
-
-def render_token_upload():
-    """Render upload form for token-based access."""
-    st.subheader("Upload con Codice Invito")
-
-    token = st.query_params.get("token", "")
-    if not token:
-        token = st.text_input("Inserisci il codice ricevuto via email:", key="token_input")
-
-    if not token:
-        st.info("Inserisci il codice ricevuto via email per procedere.")
-        return
-
-    tokens = load_tokens()
-    entry = tokens.get("by_token", {}).get(token)
-
-    if not entry:
-        st.error("Codice non valido o scaduto.")
-        return
-
-    school_code = sanitize_code(entry.get("school_code", ""))
-    if not school_code:
-        st.error("Codice non valido.")
-        return
-
-    # Show school info
-    st.success("Codice valido!")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown(f"**Scuola:** {entry.get('denominazione', 'N/D')}")
-    with col2:
-        st.markdown(f"**Comune:** {entry.get('comune', 'N/D')}")
-
-    st.markdown("---")
-
-    uploaded = st.file_uploader("Seleziona il file PTOF (PDF)", type=["pdf"], key="token_upload")
-
-    if st.button("Carica PTOF", type="primary", key="token_submit"):
-        if not uploaded:
-            st.error("Seleziona un file PDF.")
-            return
-
-        data = uploaded.getbuffer()
-        if not data:
-            st.error("File vuoto.")
-            return
-
-        if not bytes(data[:4]) == b"%PDF":
-            st.error("Il file non sembra un PDF valido.")
-            return
-
-        with st.spinner("Caricamento in corso..."):
-            filename = f"{school_code}_PTOF.pdf"
-            stored_path = save_ptof_file(bytes(data), filename)
-
-        if stored_path:
-            update_token_entry(tokens, token, uploaded.name, len(data), relative_path(stored_path))
-            st.success("Caricamento completato con successo! Grazie per aver inviato il PTOF.")
-            st.balloons()
-        else:
-            st.error("Errore durante il caricamento. Riprova.")
 
 
 def render_spontaneous_upload():
@@ -309,7 +195,11 @@ def render_spontaneous_upload():
 
         st.markdown("---")
 
-        uploaded = st.file_uploader("Seleziona il file PTOF (PDF) *", type=["pdf"])
+        uploaded = st.file_uploader(
+            "Seleziona il file PTOF (PDF) *",
+            type=["pdf"],
+            help="Il file verrà rinominato automaticamente in CODICEMECCANOGRAFICO_PTOF.pdf per uniformità con gli altri PTOF"
+        )
 
         submitted = st.form_submit_button("Invia PTOF", type="primary", use_container_width=True)
 
@@ -388,25 +278,11 @@ def main():
     st.write("Carica il Piano Triennale dell'Offerta Formativa della tua scuola.")
 
     # Ensure local storage is ready
-    ensure_dir(PTOF_INBOX_DIR)
+    ensure_dir(PTOF_INVIATI_DIR)
 
     st.markdown("---")
 
-    # Check if token in URL
-    token = st.query_params.get("token", "")
-
-    if token:
-        # Token mode
-        render_token_upload()
-    else:
-        # Tabs for different modes
-        tab1, tab2 = st.tabs(["📝 Invio Spontaneo", "🔑 Ho un Codice Invito"])
-
-        with tab1:
-            render_spontaneous_upload()
-
-        with tab2:
-            render_token_upload()
+    render_spontaneous_upload()
 
     # Footer
     st.markdown("---")

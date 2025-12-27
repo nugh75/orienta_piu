@@ -1,9 +1,14 @@
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List
 
 import streamlit as st
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 
 PAGE_SETTINGS_PATH = Path("config/page_settings.json")
 ADMIN_PASSWORD = "Lagom192"
@@ -57,6 +62,23 @@ def load_page_settings() -> Dict:
     return {"default_page": "Home.py", "pages": {}}
 
 
+def is_admin_logged_in() -> bool:
+    """Check if admin is currently logged in."""
+    return st.session_state.get("admin_logged_in", False)
+
+
+def admin_login() -> bool:
+    """Handle admin login. Returns True if logged in."""
+    if is_admin_logged_in():
+        return True
+    return False
+
+
+def admin_logout() -> None:
+    """Logout admin."""
+    st.session_state.pop("admin_logged_in", None)
+
+
 def get_page_settings() -> Dict:
     settings = load_page_settings()
     discovered = discover_pages()
@@ -67,15 +89,14 @@ def get_page_settings() -> Dict:
         page_id = page["id"]
         cfg = pages_config.get(page_id, {})
         visible = cfg.get("visible", True)
-        locked = cfg.get("locked", False)
 
+        # Amministrazione sempre visibile
         if page_id.endswith("_Amministrazione.py"):
             visible = True
 
         merged[page_id] = {
             "label": cfg.get("label", page["label"]),
             "visible": visible,
-            "locked": locked,
             "order": cfg.get("order", page["order"]),
         }
 
@@ -108,10 +129,10 @@ def hide_streamlit_nav() -> None:
     )
 
 
-def _render_nav_button(label: str, page_id: str, current_page: str, locked: bool) -> None:
+def _render_nav_button(label: str, page_id: str, current_page: str, admin_only: bool = False) -> None:
     display = label
-    if locked:
-        display = f"{label} (locked)"
+    if admin_only:
+        display = f"{label} (admin)"
     if page_id == current_page:
         st.sidebar.markdown(f"**{display}**")
         return
@@ -123,39 +144,55 @@ def _render_nav_button(label: str, page_id: str, current_page: str, locked: bool
 def render_sidebar_nav(current_page: str, settings: Dict) -> None:
     st.sidebar.markdown("### Navigazione")
     pages = settings.get("pages", {})
-    visible_pages = [
-        (pid, cfg) for pid, cfg in pages.items() if cfg.get("visible", True)
-    ]
+    admin_logged = is_admin_logged_in()
+
+    # Filtra pagine: visibili a tutti + invisibili solo se admin
+    visible_pages = []
+    for pid, cfg in pages.items():
+        is_visible = cfg.get("visible", True)
+        if is_visible:
+            visible_pages.append((pid, cfg, False))  # False = non admin-only
+        elif admin_logged:
+            visible_pages.append((pid, cfg, True))   # True = admin-only (mostrata perche' admin)
+
     visible_pages.sort(key=lambda item: item[1].get("order", 999))
 
-    for page_id, cfg in visible_pages:
-        _render_nav_button(cfg.get("label", page_id), page_id, current_page, cfg.get("locked", False))
+    for page_id, cfg, admin_only in visible_pages:
+        _render_nav_button(cfg.get("label", page_id), page_id, current_page, admin_only)
 
-    if st.session_state.get("page_access_granted"):
-        st.sidebar.caption("Accesso sbloccato per questa sessione")
+    # Mostra stato admin
+    if admin_logged:
+        st.sidebar.markdown("---")
+        st.sidebar.success("Admin connesso")
 
 
-def _require_password() -> bool:
-    st.info("Pagina protetta. Inserisci la password per continuare.")
-    password = st.text_input("Password", type="password", key="page_password")
-    if st.button("Sblocca", use_container_width=True):
-        if password == ADMIN_PASSWORD:
-            st.session_state["page_access_granted"] = True
-            st.success("Accesso sbloccato.")
+def render_admin_login_sidebar() -> None:
+    """Render admin login form in sidebar."""
+    if is_admin_logged_in():
+        if st.sidebar.button("Logout Admin", use_container_width=True):
+            admin_logout()
             st.rerun()
-        else:
-            st.error("Password errata.")
-    return False
+    else:
+        st.sidebar.markdown("---")
+        st.sidebar.markdown("**Login Admin**")
+        password = st.sidebar.text_input("Password", type="password", key="admin_pwd")
+        if st.sidebar.button("Accedi", use_container_width=True):
+            if password == ADMIN_PASSWORD:
+                st.session_state["admin_logged_in"] = True
+                st.rerun()
+            else:
+                st.sidebar.error("Password errata")
 
 
 def enforce_page_access(page_id: str, settings: Dict) -> None:
+    """Enforce page access. Invisible pages require admin login."""
     cfg = settings.get("pages", {}).get(page_id, {})
-    if not cfg.get("visible", True):
-        st.warning("Questa pagina non e' attiva.")
-        st.stop()
+    is_visible = cfg.get("visible", True)
 
-    if cfg.get("locked", False) and not st.session_state.get("page_access_granted"):
-        _require_password()
+    # Se la pagina non e' visibile, solo admin puo' accedere
+    if not is_visible and not is_admin_logged_in():
+        st.warning("Questa pagina e' riservata all'amministratore.")
+        st.info("Effettua il login come admin dalla sidebar per accedere.")
         st.stop()
 
 
@@ -165,4 +202,5 @@ def setup_page(page_id: str, show_nav: bool = True) -> Dict:
     enforce_page_access(page_id, settings)
     if show_nav:
         render_sidebar_nav(page_id, settings)
+        render_admin_login_sidebar()
     return settings

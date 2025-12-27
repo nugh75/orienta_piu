@@ -147,24 +147,28 @@ while True:
         print("[workflow] 🔍 STEP -1: Validazione PTOF (pre-analisi)", flush=True)
         print("="*70, flush=True)
 
-        try:
-            from src.validation.ptof_validator import validate_inbox
-            validation_results = validate_inbox(move_invalid=True, use_registry=True)
-            stats = validation_results.get("stats", {})
-            if stats:
-                skipped = stats.get('skipped_already_valid', 0)
-                msg = (
-                    f"   ✅ Validi: {stats.get('valid', 0)} | "
-                    f"❌ Non PTOF: {stats.get('not_ptof', 0)} | "
-                    f"📄 Troppo corti: {stats.get('too_short', 0)} | "
-                    f"💔 Corrotti: {stats.get('corrupted', 0)} | "
-                    f"❓ Ambigui: {stats.get('ambiguous', 0)}"
-                )
-                if skipped > 0:
-                    msg += f" | ⏭️ Già validati: {skipped}"
-                print(msg, flush=True)
-        except Exception as e:
-            print(f"⚠️ Validazione PTOF fallita: {e}", flush=True)
+        # Salta validazione se è stato specificato --force-code (l'utente sa che è valido)
+        if FORCE_CODE:
+            print(f"⏭️ Validazione saltata: --force-code {FORCE_CODE} specificato", flush=True)
+        else:
+            try:
+                from src.validation.ptof_validator import validate_inbox
+                validation_results = validate_inbox(move_invalid=True, use_registry=True)
+                stats = validation_results.get("stats", {})
+                if stats:
+                    skipped = stats.get('skipped_already_valid', 0)
+                    msg = (
+                        f"   ✅ Validi: {stats.get('valid', 0)} | "
+                        f"❌ Non PTOF: {stats.get('not_ptof', 0)} | "
+                        f"📄 Troppo corti: {stats.get('too_short', 0)} | "
+                        f"💔 Corrotti: {stats.get('corrupted', 0)} | "
+                        f"❓ Ambigui: {stats.get('ambiguous', 0)}"
+                    )
+                    if skipped > 0:
+                        msg += f" | ⏭️ Già validati: {skipped}"
+                    print(msg, flush=True)
+            except Exception as e:
+                print(f"⚠️ Validazione PTOF fallita: {e}", flush=True)
 
         # Refresh inbox after validation
         inbox_pdfs = list(INBOX_DIR.glob("*.pdf"))

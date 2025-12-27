@@ -39,7 +39,7 @@ def main():
     )
 
     # Questo apre il browser per l'autenticazione
-    creds = flow.run_local_server(port=8080)
+    creds = flow.run_local_server(port=8090)
 
     # Salva il token
     token_data = {

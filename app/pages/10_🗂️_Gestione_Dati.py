@@ -23,8 +23,9 @@ SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
 PTOF_PROCESSED_DIR = 'ptof_processed'
 PTOF_INBOX_DIR = 'ptof_inbox'
+PTOF_INVIATI_DIR = 'ptof_inviati'
 PTOF_DISCARDED_DIR = 'ptof_discarded'
-PTOF_SEARCH_DIRS = [PTOF_PROCESSED_DIR, PTOF_INBOX_DIR]
+PTOF_SEARCH_DIRS = [PTOF_PROCESSED_DIR, PTOF_INBOX_DIR, PTOF_INVIATI_DIR]
 PTOF_MD_DIR = 'ptof_md'
 
 
@@ -93,7 +94,7 @@ def display_pdf(school_id, height=600):
             return None, None
     else:
         st.info(f"PDF non trovato per {school_id}")
-        st.caption("Cartelle cercate: ptof_processed/, ptof_inbox/")
+        st.caption("Cartelle cercate: ptof_processed/, ptof_inbox/, ptof_inviati/")
         return None, None
 
 

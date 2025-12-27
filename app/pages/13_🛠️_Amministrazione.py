@@ -2,34 +2,38 @@
 
 import streamlit as st
 
-from page_control import get_page_settings, save_page_settings, setup_page
+from page_control import get_page_settings, save_page_settings, setup_page, is_admin_logged_in
 
 st.set_page_config(page_title="ORIENTA+ | Amministrazione", page_icon="🧭", layout="wide")
 setup_page("pages/13_🛠️_Amministrazione.py")
 
 st.title("Amministrazione Pagine")
 st.markdown(
-    "Gestisci quali pagine sono visibili, quali richiedono la password e quale pagina è la predefinita."
+    "Gestisci quali pagine sono visibili agli utenti e quale pagina è la predefinita."
 )
-st.caption("Password per pagine protette: Lagom192")
+
+# Mostra stato admin
+if is_admin_logged_in():
+    st.success("Sei connesso come amministratore")
+else:
+    st.warning("Effettua il login come admin dalla sidebar per modificare le impostazioni")
+    st.stop()
 
 settings = get_page_settings()
 pages = settings.get("pages", {})
 
 sorted_pages = sorted(pages.items(), key=lambda item: item[1].get("order", 999))
 
-if st.button("Revoca accesso sbloccato", use_container_width=True):
-    st.session_state.pop("page_access_granted", None)
-    st.success("Accesso revocato per questa sessione.")
-
 st.markdown("---")
+
+st.info("Le pagine **non visibili** saranno accessibili solo all'amministratore dopo il login.")
 
 with st.form("page_settings_form"):
     st.subheader("Pagine")
     updated_pages = {}
 
     for page_id, cfg in sorted_pages:
-        cols = st.columns([3, 2, 1, 1])
+        cols = st.columns([3, 2, 1])
         cols[0].markdown(f"`{page_id}`")
         label = cols[1].text_input(
             "Etichetta",
@@ -42,17 +46,12 @@ with st.form("page_settings_form"):
             value=cfg.get("visible", True),
             key=f"visible_{page_id}",
             disabled=visible_disabled,
-        )
-        locked = cols[3].checkbox(
-            "Protetta",
-            value=cfg.get("locked", False),
-            key=f"locked_{page_id}",
+            help="Se disattivato, la pagina sarà visibile solo all'admin"
         )
 
         updated_pages[page_id] = {
             "label": label,
             "visible": visible if not visible_disabled else True,
-            "locked": locked,
             "order": cfg.get("order", 999),
         }
 

@@ -10,8 +10,8 @@ Esempio (porta dedicata diversa dalla dashboard):
 streamlit run src/portal/ptof_upload_portal.py --server.port 8502
 ```
 
-Il link pubblico usato nelle email deve puntare a questa app, ad esempio:
-`https://example.org/?token=...`
+Il link pubblico usato nelle email deve puntare alla pagina di upload, ad esempio:
+`https://orientamento-prin.streamlit.app/Invia_PTOF`
 
 ## 2) Invio email alle scuole
 
@@ -31,18 +31,17 @@ SMTP_USE_STARTTLS (opzionale)
 Esempio di invio (dry-run di default):
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://example.org" --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --limit 10
 ```
 
 Esempio di invio reale:
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://example.org" --send --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --send --limit 10
 ```
 
 ## Output
 
-- I token e lo stato sono salvati in `data/ptof_upload_tokens.json`
-- I PDF caricati finiscono in `ptof_inbox/{CODICE}_PTOF.pdf`
-- Se esiste gia un file, viene spostato in `ptof_inbox_backup/`
-
+- Lo stato invii email è salvato in `data/ptof_upload_registry.json`
+- I PDF caricati finiscono in `ptof_inviati/{CODICE}_PTOF.pdf`
+- Se esiste gia un file, viene spostato in `ptof_inviati_backup/`

@@ -72,7 +72,7 @@ def find_pdf_for_school(school_id, base_dirs=None):
     if not school_id:
         return None
 
-    base_dirs = base_dirs or ["ptof_processed", "ptof_inbox"]
+    base_dirs = base_dirs or ["ptof_processed", "ptof_inbox", "ptof_inviati"]
     patterns = []
     for base in base_dirs:
         patterns.extend([

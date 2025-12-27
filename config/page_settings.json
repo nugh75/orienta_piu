@@ -82,8 +82,26 @@
     "pages/13_🛠️_Amministrazione.py": {
       "label": "🛠️ Amministrazione",
       "visible": true,
-      "locked": false,
+      "locked": true,
       "order": 13
+    },
+    "pages/14_📤_Invia_PTOF.py": {
+      "label": "📤 Invia PTOF",
+      "visible": true,
+      "locked": false,
+      "order": 14
+    },
+    "pages/15_🔎_Verifica_Invio.py": {
+      "label": "🔎 Verifica Invio",
+      "visible": true,
+      "locked": false,
+      "order": 15
+    },
+    "pages/16_📥_Gestione_Invii.py": {
+      "label": "📥 Gestione Invii",
+      "visible": false,
+      "locked": true,
+      "order": 16
     }
   }
 }

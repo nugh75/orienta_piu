@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PTOF Emailer
-Send request emails to schools with a unique upload link.
+Send request emails to schools with an upload link.
 """
 
 import argparse
@@ -9,7 +9,6 @@ import csv
 import json
 import logging
 import os
-import secrets
 import smtplib
 import ssl
 import time
@@ -18,7 +17,6 @@ from datetime import datetime
 from email.message import EmailMessage
 from pathlib import Path
 from typing import Dict, Iterable, Optional, Tuple
-from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 try:
     from dotenv import load_dotenv
@@ -31,7 +29,7 @@ DATA_DIR = BASE_DIR / "data"
 LOG_DIR = BASE_DIR / "logs"
 
 DEFAULT_CSV = DATA_DIR / "SCUANAGRAFESTAT20252620250901.csv"
-TOKENS_FILE = DATA_DIR / "ptof_upload_tokens.json"
+REGISTRY_FILE = DATA_DIR / "ptof_upload_registry.json"
 
 DEFAULT_SUBJECT = "Richiesta PTOF"
 DEFAULT_TEMPLATE = (
@@ -103,23 +101,22 @@ def resolve_path(path_str: str) -> Path:
     return path if path.is_absolute() else BASE_DIR / path
 
 
-def load_tokens(path: Path) -> Dict:
+def load_registry(path: Path) -> Dict:
     if path.exists():
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
         except Exception as exc:
-            logger.warning("Failed to read tokens file: %s", exc)
+            logger.warning("Failed to read registry file: %s", exc)
             data = {}
     else:
         data = {}
     if not isinstance(data, dict):
         data = {}
-    data.setdefault("by_token", {})
     data.setdefault("by_code", {})
     return data
 
 
-def save_tokens(path: Path, data: Dict) -> None:
+def save_registry(path: Path, data: Dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp_path = path.with_suffix(path.suffix + ".tmp")
     tmp_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
@@ -158,20 +155,10 @@ def select_recipient(school: SchoolContact, use_pec: bool) -> str:
     return ""
 
 
-def build_upload_link(base_url: str, token: str) -> str:
-    parsed = urlparse(base_url)
-    query = dict(parse_qsl(parsed.query))
-    query["token"] = token
-    new_query = urlencode(query)
-    return urlunparse(parsed._replace(query=new_query))
-
-
-def get_or_create_token(tokens: Dict, school: SchoolContact) -> Tuple[str, Dict, bool]:
-    by_code = tokens.get("by_code", {})
-    by_token = tokens.get("by_token", {})
-    existing_token = by_code.get(school.code)
-    if existing_token and existing_token in by_token:
-        entry = by_token[existing_token]
+def get_or_create_entry(registry: Dict, school: SchoolContact) -> Tuple[Dict, bool]:
+    by_code = registry.get("by_code", {})
+    entry = by_code.get(school.code)
+    if entry:
         updated = False
         if school.name and entry.get("denominazione") != school.name:
             entry["denominazione"] = school.name
@@ -185,9 +172,8 @@ def get_or_create_token(tokens: Dict, school: SchoolContact) -> Tuple[str, Dict,
         if school.pec and entry.get("pec") != school.pec:
             entry["pec"] = school.pec
             updated = True
-        return existing_token, entry, updated
+        return entry, updated
 
-    token = secrets.token_urlsafe(16)
     entry = {
         "school_code": school.code,
         "denominazione": school.name,
@@ -196,14 +182,11 @@ def get_or_create_token(tokens: Dict, school: SchoolContact) -> Tuple[str, Dict,
         "pec": school.pec,
         "created_at": datetime.utcnow().isoformat(),
         "last_sent_at": None,
-        "used_at": None,
-        "uploads": [],
+        "last_sent_to": None,
     }
-    by_token[token] = entry
-    by_code[school.code] = token
-    tokens["by_token"] = by_token
-    tokens["by_code"] = by_code
-    return token, entry, True
+    by_code[school.code] = entry
+    registry["by_code"] = by_code
+    return entry, True
 
 
 def load_template(path: Optional[str]) -> str:
@@ -308,7 +291,10 @@ def smtp_connect(config: Dict) -> smtplib.SMTP:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Send PTOF request emails with upload link.")
     parser.add_argument("--csv", action="append", help="CSV path(s) for schools.")
-    parser.add_argument("--base-url", default=os.getenv("PTOF_UPLOAD_BASE_URL", "http://localhost:8502"))
+    parser.add_argument(
+        "--base-url",
+        default=os.getenv("PTOF_UPLOAD_BASE_URL", "https://orientamento-prin.streamlit.app/Invia_PTOF")
+    )
     parser.add_argument("--template", help="Path to custom email template.")
     parser.add_argument("--subject", default=DEFAULT_SUBJECT)
     parser.add_argument("--signature", default=os.getenv("PTOF_EMAIL_SIGNATURE", "Team PTOF"))
@@ -331,7 +317,7 @@ def main() -> None:
     csv_paths = args.csv or [str(DEFAULT_CSV)]
     csv_paths = [resolve_path(path) for path in csv_paths]
 
-    tokens = load_tokens(TOKENS_FILE)
+    registry = load_registry(REGISTRY_FILE)
     template = load_template(args.template)
     subject = args.subject
     signature = args.signature
@@ -363,15 +349,15 @@ def main() -> None:
                 invalid += 1
                 continue
 
-            token, entry, updated = get_or_create_token(tokens, school)
+            entry, updated = get_or_create_entry(registry, school)
             if updated:
-                save_tokens(TOKENS_FILE, tokens)
+                save_registry(REGISTRY_FILE, registry)
 
             if entry.get("last_sent_at") and not args.resend:
                 skipped += 1
                 continue
 
-            upload_link = build_upload_link(base_url, token)
+            upload_link = base_url
             context = {
                 "upload_link": upload_link,
                 "codice": school.code,
@@ -392,7 +378,7 @@ def main() -> None:
                 server.send_message(message)
                 entry["last_sent_at"] = datetime.utcnow().isoformat()
                 entry["last_sent_to"] = recipient
-                save_tokens(TOKENS_FILE, tokens)
+                save_registry(REGISTRY_FILE, registry)
                 sent += 1
                 logger.info("Sent -> %s (%s)", school.code, recipient)
             except Exception as exc:
