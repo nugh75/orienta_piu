@@ -8,7 +8,7 @@ Supports both local mode and Streamlit Cloud with secrets.
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Optional, Tuple
+from typing import Dict, Optional
 import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent

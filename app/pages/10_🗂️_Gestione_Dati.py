@@ -5,6 +5,9 @@ import os
 import glob
 import json
 import time
+from datetime import datetime
+from pathlib import Path
+from typing import Optional
 
 from src.utils.backup_system import (
     create_backup, list_backups, restore_backup,
@@ -20,6 +23,7 @@ SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
 PTOF_PROCESSED_DIR = 'ptof_processed'
 PTOF_INBOX_DIR = 'ptof_inbox'
+PTOF_DISCARDED_DIR = 'ptof_discarded'
 PTOF_SEARCH_DIRS = [PTOF_PROCESSED_DIR, PTOF_INBOX_DIR]
 PTOF_MD_DIR = 'ptof_md'
 
@@ -45,7 +49,7 @@ def load_data_cached():
 
 
 def display_pdf(school_id, height=600):
-    """Display PDF for a given school_id"""
+    """Display PDF for a given school_id. Returns (path, bytes) when available."""
     import base64
 
     try:
@@ -83,14 +87,29 @@ def display_pdf(school_id, height=600):
             base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
             st.markdown(f"**📄 PDF:** `{os.path.basename(pdf_path)}`")
             st.markdown(f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="{height}" type="application/pdf"></iframe>', unsafe_allow_html=True)
-            return True
+            return pdf_path, pdf_bytes
         except Exception as e:
             st.warning(f"Impossibile visualizzare PDF: {e}")
-            return False
+            return None, None
     else:
         st.info(f"PDF non trovato per {school_id}")
         st.caption("Cartelle cercate: ptof_processed/, ptof_inbox/")
-        return False
+        return None, None
+
+
+def discard_pdf(pdf_path: str) -> Optional[str]:
+    """Move a PTOF PDF to the discarded folder. Returns new path or None."""
+    try:
+        target = Path(pdf_path)
+        discard_dir = Path(PTOF_DISCARDED_DIR)
+        discard_dir.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        dest = discard_dir / f"{target.stem}_{stamp}{target.suffix}"
+        target.replace(dest)
+        return str(dest)
+    except Exception as e:
+        st.error(f"Impossibile eliminare il PDF: {e}")
+        return None
 
 
 st.title("🗂️ Gestione Dati")
@@ -547,7 +566,7 @@ with tab_edit:
 
             with pdf_col:
                 st.subheader("📄 PDF PTOF")
-                display_pdf(school_id, height=800)
+                pdf_path, pdf_bytes = display_pdf(school_id, height=800)
 
             with actions_col:
                 # School info
@@ -563,6 +582,28 @@ with tab_edit:
                 
                 st.write(f"**Indice:** {school_row.get('ptof_orientamento_maturity_index', 'N/D'):.2f}/7" if pd.notna(school_row.get('ptof_orientamento_maturity_index')) else "**Indice:** N/D")
                 
+                st.markdown("---")
+                st.markdown("### 📁 Gestione PTOF")
+                if pdf_path and pdf_bytes:
+                    st.download_button(
+                        "⬇️ Scarica PTOF",
+                        data=pdf_bytes,
+                        file_name=os.path.basename(pdf_path),
+                        mime="application/pdf",
+                        use_container_width=True
+                    )
+                    st.caption(f"L'eliminazione sposta il file in `{PTOF_DISCARDED_DIR}`.")
+                    confirm_key = f"confirm_delete_ptof_{school_id}"
+                    delete_key = f"delete_ptof_{school_id}"
+                    confirm_delete = st.checkbox("Confermo di voler eliminare il PTOF", key=confirm_key)
+                    if st.button("🗑️ Elimina PTOF", key=delete_key, disabled=not confirm_delete, use_container_width=True):
+                        new_path = discard_pdf(pdf_path)
+                        if new_path:
+                            st.success(f"PTOF spostato in `{new_path}`")
+                            st.rerun()
+                else:
+                    st.info("Nessun PTOF disponibile per questa scuola.")
+
                 # Contatti (se disponibili)
                 email = school_row.get('email', '')
                 pec = school_row.get('pec', '')
