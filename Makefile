@@ -1,4 +1,4 @@
-.PHONY: setup run workflow dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
+.PHONY: setup run workflow workflow-force dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard config config-show models-ollama models-ollama-pull best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -25,9 +25,14 @@ help:
 	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
 	@echo "🤖 ANALISI & REVISIONE:"
-	@echo "  make run                     - Esegue analisi PTOF (ferma altri processi, una scuola alla volta)"
-	@echo "  make run-force               - Ri-analizza tutti i file (ignora registro)"
+	@echo "  make run                     - Esegue analisi PTOF (può coesistere con altri processi)"
+	@echo "  make run CONF=1              - Come sopra, ma con wizard configurazione"
+	@echo "  make workflow                - Analisi PTOF pulita (ferma altri processi, una scuola alla volta)"
+	@echo "  make workflow CONF=1         - Come sopra, ma con wizard configurazione"
+	@echo "  make workflow-force          - Come workflow ma ri-analizza tutto"
 	@echo "  make run-force-code CODE=X   - Ri-analizza una scuola specifica"
+	@echo "  make config                  - Wizard configurazione pipeline (modelli, chunking)"
+	@echo "  make config-show             - Mostra configurazione attuale"
 	@echo ""
 	@echo "  📝 REVISIONE REPORT (arricchimento MD):"
 	@echo "  make review-report-openrouter - Revisione report con OpenRouter (MODEL=...)"
@@ -86,6 +91,8 @@ help:
 	@echo ""
 	@echo "🤖 MODELLI AI:"
 	@echo "  make models                  - Mostra tutti i modelli disponibili"
+	@echo "  make models-ollama           - Lista modelli Ollama scaricati (OLLAMA_HOST=X)"
+	@echo "  make models-ollama-pull MODEL=X - Scarica/aggiorna un modello Ollama"
 	@echo "  make list-models             - Lista modelli dai preset"
 	@echo "  make list-models-openrouter  - Lista modelli OpenRouter (FREE_ONLY=1 per limitare)"
 	@echo "  make list-models-gemini      - Lista modelli Gemini (richiede GEMINI_API_KEY)"
@@ -108,8 +115,42 @@ setup:
 wizard:
 	$(PYTHON) src/utils/make_wizard.py
 
-# Ferma eventuali processi di analisi in corso prima di avviare
+# Configurazione pipeline (wizard interattivo)
+config:
+	$(PYTHON) src/utils/pipeline_wizard.py
+
+# Mostra configurazione corrente
+config-show:
+	@$(PYTHON) src/utils/pipeline_wizard.py --show
+
 run:
+ifdef CONF
+	@$(PYTHON) src/utils/pipeline_wizard.py
+endif
+	$(PYTHON) workflow_notebook.py
+
+run-force:
+ifdef CONF
+	@$(PYTHON) src/utils/pipeline_wizard.py
+endif
+	$(PYTHON) workflow_notebook.py --force
+
+run-force-code:
+ifndef CODE
+	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
+	@echo "   Esempio: make run-force-code CODE=RMIC8GA002"
+else
+ifdef CONF
+	@$(PYTHON) src/utils/pipeline_wizard.py
+endif
+	$(PYTHON) workflow_notebook.py --force-code $(CODE)
+endif
+
+# Workflow pulito: ferma altri processi e analizza una scuola alla volta
+workflow:
+ifdef CONF
+	@$(PYTHON) src/utils/pipeline_wizard.py
+endif
 	@echo "🛑 Arresto eventuali processi di analisi in corso..."
 	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
 	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
@@ -118,7 +159,10 @@ run:
 	@echo "🚀 Avvio analisi PTOF (una scuola alla volta)..."
 	$(PYTHON) workflow_notebook.py
 
-run-force:
+workflow-force:
+ifdef CONF
+	@$(PYTHON) src/utils/pipeline_wizard.py
+endif
 	@echo "🛑 Arresto eventuali processi di analisi in corso..."
 	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
 	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
@@ -126,22 +170,6 @@ run-force:
 	@sleep 1
 	@echo "🚀 Avvio analisi PTOF (FORCE - ri-analizza tutto)..."
 	$(PYTHON) workflow_notebook.py --force
-
-run-force-code:
-ifndef CODE
-	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
-	@echo "   Esempio: make run-force-code CODE=RMIC8GA002"
-else
-	@echo "🛑 Arresto eventuali processi di analisi in corso..."
-	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
-	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
-	-@pkill -f "ollama_score_reviewer" 2>/dev/null || true
-	@sleep 1
-	@echo "🚀 Avvio analisi PTOF per $(CODE)..."
-	$(PYTHON) workflow_notebook.py --force-code $(CODE)
-endif
-
-workflow: run
 
 dashboard:
 	@echo "🛑 Arresto eventuali istanze precedenti..."
@@ -456,13 +484,48 @@ models:
 	@echo "   gemini-2.5-pro             ← 2M token context, production"
 	@echo "   gemini-2.5-flash-lite-preview ← Ultra-light, high throughput"
 	@echo ""
-	@echo "🦙 OLLAMA (locale - modelli consigliati):"
-	@echo "   qwen3:32b"
-	@echo "   qwen3:14b"
-	@echo "   llama3.3:70b"
-	@echo "   deepseek-r1:32b"
-	@echo "   gemma2:27b"
+	@echo "🦙 OLLAMA (locale):"
+	@echo "   Usa 'make models-ollama' per vedere i modelli scaricati"
 	@echo ""
+
+# Lista modelli Ollama scaricati (via curl)
+OLLAMA_HOST ?= 192.168.129.14
+OLLAMA_PORT ?= 11434
+
+models-ollama:
+	@echo ""
+	@echo "🦙 MODELLI OLLAMA SCARICATI ($(OLLAMA_HOST):$(OLLAMA_PORT))"
+	@echo "════════════════════════════════════════════════════════════"
+	@curl -s http://$(OLLAMA_HOST):$(OLLAMA_PORT)/api/tags 2>/dev/null | \
+		python3 -c "import sys,json; \
+		data=json.load(sys.stdin); \
+		models=data.get('models',[]); \
+		print(f'\n  Totale: {len(models)} modelli\n') if models else print('\n  ⚠️ Nessun modello o Ollama non raggiungibile\n'); \
+		[print(f\"  • {m['name']:30} {m['size']/1e9:.1f}GB\") for m in sorted(models, key=lambda x: x['name'])]" \
+		2>/dev/null || echo "  ⚠️ Impossibile connettersi a Ollama ($(OLLAMA_HOST):$(OLLAMA_PORT))"
+	@echo ""
+
+# Aggiorna/pull un modello Ollama
+models-ollama-pull:
+ifndef MODEL
+	@echo "❌ Specificare il modello con MODEL=nome_modello"
+	@echo "   Esempio: make models-ollama-pull MODEL=gemma3:27b"
+	@echo ""
+	@echo "   Modelli consigliati:"
+	@echo "   - gemma3:27b     (analisi PTOF)"
+	@echo "   - qwen3:32b      (review critico)"
+	@echo "   - llama3.3:70b   (alta qualità)"
+	@echo "   - deepseek-r1:32b (ragionamento)"
+else
+	@echo "📥 Pulling $(MODEL) da Ollama..."
+	@curl -X POST http://$(OLLAMA_HOST):$(OLLAMA_PORT)/api/pull \
+		-H "Content-Type: application/json" \
+		-d '{"name": "$(MODEL)"}' 2>/dev/null | \
+		python3 -c "import sys,json; \
+		[print(json.loads(line).get('status','')) for line in sys.stdin if line.strip()]" \
+		|| echo "  ⚠️ Errore durante il pull"
+	@echo ""
+endif
 
 # ═══════════════════════════════════════════════════════════════════
 # PULIZIA FILE OBSOLETI

@@ -13,8 +13,8 @@ make setup
 # 2. Copia i PDF nella cartella di input
 cp /path/to/*.pdf ptof_inbox/
 
-# 3. Esegui l'analisi completa
-make run
+# 3. Esegui l'analisi completa (una scuola alla volta)
+make run    # Ferma automaticamente altri processi di analisi
 
 # 4. Avvia la Dashboard
 make dashboard

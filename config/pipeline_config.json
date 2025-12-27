@@ -176,7 +176,7 @@
     }
   },
   "chunking": {
-    "chunk_size": 40000,
-    "long_doc_threshold": 60000
+    "chunk_size": 30000,
+    "long_doc_threshold": 50000
   }
 }
