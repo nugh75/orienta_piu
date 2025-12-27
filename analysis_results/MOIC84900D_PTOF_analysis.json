@@ -310,6 +310,19 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-27T01:11:56.157843",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 11,
+        "extreme_scores_checked": 11,
+        "scores_modified": 0,
+        "orientamento_found": true,
+        "changes": []
+      }
     }
   ],
   "review_history": [
@@ -324,6 +337,12 @@
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1
+    },
+    {
+      "timestamp": "2025-12-27T01:11:56.157873",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 0
     }
   ]
 }

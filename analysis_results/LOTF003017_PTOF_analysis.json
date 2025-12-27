@@ -118,7 +118,7 @@
         "score": 3
       },
       "opzionali_ludiche_ricreative": {
-        "score": 2
+        "score": 3
       },
       "opzionali_volontariato": {
         "score": 3
@@ -316,6 +316,26 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-27T01:35:53.752414",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 8,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_ludiche_ricreative.score",
+            "old": 2,
+            "new": 3,
+            "reason": "L'educazione allo sport e all'aggregazione ludica è menzionata esplicitamente come parte delle inizi"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -327,6 +347,12 @@
     },
     {
       "timestamp": "2025-12-25T01:57:59.615942",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-27T01:35:53.752437",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

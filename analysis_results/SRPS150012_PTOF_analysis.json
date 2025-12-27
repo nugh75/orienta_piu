@@ -116,7 +116,7 @@
     },
     "2_7_opzionali_facoltative": {
       "opzionali_culturali": {
-        "score": 6
+        "score": 5
       },
       "opzionali_laboratoriali_espressive": {
         "score": 5
@@ -313,6 +313,26 @@
         "report_enriched": true,
         "initial_issues": 1
       }
+    },
+    {
+      "timestamp": "2025-12-27T01:37:49.233071",
+      "activity": "ollama_score_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "chunks_analyzed": 5,
+        "extreme_scores_checked": 1,
+        "scores_modified": 1,
+        "orientamento_found": true,
+        "changes": [
+          {
+            "path": "ptof_section2.2_7_opzionali_facoltative.opzionali_culturali.score",
+            "old": 6,
+            "new": 5,
+            "reason": "Il testo menziona l'orientamento in entrata, in itinere e in uscita, ma non presenta una sezione ded"
+          }
+        ]
+      }
     }
   ],
   "review_history": [
@@ -324,6 +344,12 @@
     },
     {
       "timestamp": "2025-12-25T02:00:20.962180",
+      "reviewer": "ollama/qwen3:32b",
+      "type": "score_review",
+      "changes": 1
+    },
+    {
+      "timestamp": "2025-12-27T01:37:49.233099",
       "reviewer": "ollama/qwen3:32b",
       "type": "score_review",
       "changes": 1

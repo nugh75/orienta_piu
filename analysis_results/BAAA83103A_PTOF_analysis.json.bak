@@ -20,10 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=1)",
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:54:45.774021"
+      "ollama_review_date": "2025-12-25T02:48:03.084909"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -413,6 +413,22 @@
             "reason": "Il PTOF include una sezione dedicata all'orientamento, con particolare attenzione agli studenti con "
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:49:06.064193",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 13,
+        "enrichments_found": 18,
+        "corrections_found": 11,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

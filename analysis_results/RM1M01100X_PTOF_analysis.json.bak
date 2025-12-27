@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "Esiste una sezione dedicata all'orientamento (pagina 11), sebbene non sia particolarmente dettagliata o strutturata. La presenza di una sezione specifica è un elemento positivo, ma necessita di un approfondimento."
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione sull'orientamento (pagina 11) sottolinea l'importanza di questa dimensione come condizione strutturale della formazione, con particolare attenzione ai passaggi tra istruzione generale e for (Precedente: score=2, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:42:42.708128"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -162,6 +164,22 @@
         "scores_modified": 0,
         "orientamento_found": true,
         "changes": []
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:43:51.202142",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 4,
+        "enrichments_found": 8,
+        "corrections_found": 0,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
       }
     }
   ],

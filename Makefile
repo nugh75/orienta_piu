@@ -25,7 +25,9 @@ help:
 	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
 	@echo "🤖 ANALISI & REVISIONE:"
-	@echo "  make run                     - Esegue analisi sui PDF in ptof_inbox/"
+	@echo "  make run                     - Esegue analisi PTOF (ferma altri processi, una scuola alla volta)"
+	@echo "  make run-force               - Ri-analizza tutti i file (ignora registro)"
+	@echo "  make run-force-code CODE=X   - Ri-analizza una scuola specifica"
 	@echo ""
 	@echo "  📝 REVISIONE REPORT (arricchimento MD):"
 	@echo "  make review-report-openrouter - Revisione report con OpenRouter (MODEL=...)"
@@ -44,12 +46,8 @@ help:
 	@echo "  make outreach-portal       - Avvia portale upload PTOF (PORT=8502)"
 	@echo "  make outreach-email        - Invia email PTOF (BASE_URL=..., LIMIT=..., SEND=1, CSV=\"... ...\")"
 	@echo ""
-	@echo "🔄 WORKFLOW ANALISI:"
+	@echo "🔄 WORKFLOW & UTILITÀ:"
 	@echo "  make setup          - Installa le dipendenze"
-	@echo "  make run            - Esegue il workflow completo (workflow_notebook.py)"
-	@echo "  make run-force      - Forza ri-analisi di tutti i file"
-	@echo "  make run-force-code CODE=X - Forza ri-analisi di un codice specifico"
-	@echo "  make workflow       - Alias di run (workflow_notebook.py)"
 	@echo "  make dashboard      - Avvia la dashboard Streamlit"
 	@echo "  make csv            - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
 	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
@@ -110,10 +108,23 @@ setup:
 wizard:
 	$(PYTHON) src/utils/make_wizard.py
 
+# Ferma eventuali processi di analisi in corso prima di avviare
 run:
+	@echo "🛑 Arresto eventuali processi di analisi in corso..."
+	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
+	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
+	-@pkill -f "ollama_score_reviewer" 2>/dev/null || true
+	@sleep 1
+	@echo "🚀 Avvio analisi PTOF (una scuola alla volta)..."
 	$(PYTHON) workflow_notebook.py
 
 run-force:
+	@echo "🛑 Arresto eventuali processi di analisi in corso..."
+	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
+	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
+	-@pkill -f "ollama_score_reviewer" 2>/dev/null || true
+	@sleep 1
+	@echo "🚀 Avvio analisi PTOF (FORCE - ri-analizza tutto)..."
 	$(PYTHON) workflow_notebook.py --force
 
 run-force-code:
@@ -121,6 +132,12 @@ ifndef CODE
 	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
 	@echo "   Esempio: make run-force-code CODE=RMIC8GA002"
 else
+	@echo "🛑 Arresto eventuali processi di analisi in corso..."
+	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
+	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
+	-@pkill -f "ollama_score_reviewer" 2>/dev/null || true
+	@sleep 1
+	@echo "🚀 Avvio analisi PTOF per $(CODE)..."
 	$(PYTHON) workflow_notebook.py --force-code $(CODE)
 endif
 

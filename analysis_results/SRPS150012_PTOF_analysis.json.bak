@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
+      "has_sezione_dedicata": 1,
       "score": 5,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF del Liceo \"L.Da Vinci\" di Floridia include attività specifiche come l'orientamento in entrata e in uscita, con incontri informativi presso le scuole secon (Precedente: score=5, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:41:07.764504"
+      "ollama_review_date": "2025-12-25T02:25:43.755702"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -296,6 +296,22 @@
             "reason": "Il PTOF presenta una sezione dedicata all'orientamento con dettagliate descrizioni di attività, coll"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:26:54.901182",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 5,
+        "enrichments_found": 10,
+        "corrections_found": 6,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

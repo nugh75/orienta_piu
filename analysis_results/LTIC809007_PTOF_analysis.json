@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "school_id": "LTIC809007",
+    "denominazione": "I.C.Giulio Cesare",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Sabaudia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Conte Verde Snc",
+    "cap": "04016",
+    "email": "ltic809007@istruzione.it",
+    "pec": "ltic809007@pec.istruzione.it",
+    "website": "www.copernico.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "La sezione dedicata all'orientamento è assente come capitolo autonomo. Le attività di orientamento sono integrate in altre sezioni del PTOF, come i percorsi PCTO e le attività di transizione ecologica."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Scienza Under 18",
+        "Rete Clil della Provincia di Pavia",
+        "Rete provinciale per l'Alternanza Scuola Lavoro",
+        "Rete di Ambito 29",
+        "Unicredit",
+        "Fondazione I.R.C.C.S. Policlinico San Matteo",
+        "ATS",
+        "DIESSE Firenze e Toscana"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "Sviluppo delle competenze digitali degli alunni",
+        "evidence_location": "Pagina 100"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Sviluppo delle competenze digitali degli alunni",
+        "evidence_location": "Pagina 100"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "Si fa riferimento alla necessità di sviluppare le competenze personali e disciplinari",
+        "evidence_location": "Pagina 100"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Attività di orientamento in uscita e stages/PCTO",
+        "evidence_location": "Pagina 104"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "Monitoraggio delle dotazioni informatiche per garantire l'accesso alle attività di DDI",
+        "evidence_location": "Pagina 99"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4,
+        "evidence_quote": "Attività di PCTO e collaborazione con il territorio",
+        "evidence_location": "Pagina 104"
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "evidence_quote": "Si sottolinea l'importanza della formazione continua del personale",
+        "evidence_location": "Pagina 103"
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3,
+        "evidence_quote": "Non esplicitamente menzionato",
+        "evidence_location": "N/A"
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4,
+        "evidence_quote": "Rapporti scuola-famiglia tramite registro elettronico e colloqui",
+        "evidence_location": "Pagina 107"
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4,
+        "evidence_quote": "Rapporti scuola-famiglia tramite registro elettronico e colloqui",
+        "evidence_location": "Pagina 107"
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3,
+        "evidence_quote": "Monitoraggio delle dotazioni informatiche",
+        "evidence_location": "Pagina 99"
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4,
+        "evidence_quote": "Attenzione agli studenti con disabilità, disturbi specifici dell’apprendimento e con bisogni educativi speciali",
+        "evidence_location": "Pagina 106"
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3,
+        "evidence_quote": "Utilizzo di laboratori per la gestione di materiali",
+        "evidence_location": "Pagina 108"
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4,
+        "evidence_quote": "Rimodulazione del tempo scuola per la DDI",
+        "evidence_location": "Pagina 105"
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso Biomedicale Ippocrate",
+      "categoria_principale": "Percorso di studio",
+      "descrizione_e_metodologia": "Potenziamento delle scienze naturali, collaborazione con strutture sanitarie. Prevede lezioni teoriche, esercitazioni pratiche e stage presso ospedali e laboratori convenzionati.",
+      "5w_chi": "Studenti del liceo scientifico",
+      "5w_cosa": "Studio approfondito delle scienze biomediche, stage in strutture sanitarie.",
+      "5w_dove": "Liceo e strutture sanitarie convenzionate",
+      "5w_quando": "Triennio",
+      "5w_perche": "Preparare gli studenti per facoltà mediche e sanitarie.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti del liceo scientifico",
+      "evidence_quote": "attivazione del Percorso Biomedicale Ippocrate",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Liceo Cambridge",
+      "categoria_principale": "Percorso di studio",
+      "descrizione_e_metodologia": "Insegnamento in lingua inglese, preparazione esami IGCSE. Il percorso prevede lezioni in inglese, attività didattiche mirate e simulazioni d'esame.",
+      "5w_chi": "Studenti del liceo scientifico",
+      "5w_cosa": "Studio di materie in inglese, preparazione esami Cambridge.",
+      "5w_dove": "Liceo",
+      "5w_quando": "Tutti e quattro gli anni",
+      "5w_perche": "Offrire un percorso internazionale e preparare gli studenti per università straniere.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti del liceo scientifico",
+      "evidence_quote": "attivazione del Liceo Cambridge",
+      "evidence_location": "Pagina 5"
+    },
+    {
+      "titolo_attivita": "Start up your life",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto biennale in collaborazione con Unicredit per l'alfabetizzazione economica e finanziaria. Gli studenti partecipano a workshop, simulazioni di impresa e visite aziendali.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Alfabetizzazione economica e finanziaria, sviluppo del pensiero imprenditoriale.",
+      "5w_dove": "Struttura ospitante (Unicredit)",
+      "5w_quando": "Biennale",
+      "5w_perche": "Acquisire competenze economiche e finanziarie.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "alfabetizzazione in ambito economico e finanziario",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Eni learning",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Ciclo di video lezioni su dinamiche aziendali ed energia. Gli studenti analizzano casi studio, partecipano a discussioni guidate e approfondiscono tematiche specifiche.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Conoscenza del settore energetico e delle dinamiche aziendali.",
+      "5w_dove": "Struttura ospitante",
+      "5w_quando": "Annuale",
+      "5w_perche": "Potenziamento della capacità di lavoro di gruppo e gestione degli spazi.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "ciclo di video lezioni che affrontano differenti tematiche",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "ATS incidenti sul lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Collaborazione con ATS per sensibilizzare sulla sicurezza sul lavoro. Gli studenti realizzano materiali informativi, video e campagne di sensibilizzazione.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Creazione di prodotti multimediali sulla sicurezza sul lavoro.",
+      "5w_dove": "ATS",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sensibilizzazione sulla sicurezza sul lavoro.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "creare una serie di prodotti (multimediali e non solo)",
+      "evidence_location": "Pagina 35"
+    },
+    {
+      "titolo_attivita": "Z-lab Banca Intesasanpaolo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto triennale per l'alfabetizzazione economica e finanziaria. Gli studenti partecipano a laboratori pratici, simulazioni di mercato e incontri con esperti del settore.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Alfabetizzazione finanziaria, sviluppo del pensiero imprenditoriale, sviluppo di soft skills.",
+      "5w_dove": "Struttura ospitante",
+      "5w_quando": "Annuale",
+      "5w_perche": "Acquisire competenze economiche e finanziarie.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "fornire un'alfabetizzazione in ambito economico e finanziario",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "Un'esperienza alla Provincia pavese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Partecipazione alle attività di redazione di un quotidiano locale. Gli studenti affiancano giornalisti esperti, scrivono articoli e imparano le tecniche di comunicazione.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienza pratica nel giornalismo.",
+      "5w_dove": "Provincia di Pavia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo di competenze comunicative e giornalistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "partecipare ad alcune delle attività svolte nella redazione di un importante quotidiano locale",
+      "evidence_location": "Pagina 37"
+    },
+    {
+      "titolo_attivita": "Progetto volley Copernico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Torneo di pallavolo tra le classi. L'attività promuove il lavoro di squadra, il rispetto delle regole e l'inclusione sociale, contribuendo al benessere psicofisico degli studenti.",
+      "5w_chi": "Classi del liceo",
+      "5w_cosa": "Torneo di pallavolo",
+      "5w_dove": "Palestra",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Benessere, salute e sport",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "Area benessere, salute e sport",
+      "evidence_location": "Pagina 62"
+    },
+    {
+      "titolo_attivita": "Scienze Under 18",
+      "categoria_principale": "Evento Scientifico",
+      "descrizione_e_metodologia": "Organizzazione di una manifestazione con exhibit scientifici. Gli studenti allestiscono stand interattivi, presentano esperimenti e comunicano la scienza al pubblico.",
+      "5w_chi": "Scuole coinvolte, studenti",
+      "5w_cosa": "Manifestazione scientifica",
+      "5w_dove": "Castello",
+      "5w_quando": "Maggio",
+      "5w_perche": "Potenziamento asse scientifico-tecnologico",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Area potenziamento dell'asse scientifico-tecnologico",
+      "evidence_location": "Pagina 63"
+    },
+    {
+      "titolo_attivita": "History Walks",
+      "categoria_principale": "Visita Guidata",
+      "descrizione_e_metodologia": "Visite guidate in inglese con partecipazione attiva degli studenti. Le visite si svolgono nel centro storico di Pavia, con focus su monumenti e luoghi di interesse culturale.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Visite guidate",
+      "5w_dove": "Centro storico di Pavia",
+      "5w_quando": "N/A",
+      "5w_perche": "Potenziamento competenze linguistiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Area potenziamento dell'asse dei linguaggi",
+      "evidence_location": "Pagina 64"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Supporto a studenti, docenti e genitori. Il servizio offre colloqui individuali, orientamento scolastico e sostegno emotivo.",
+      "5w_chi": "Studenti, docenti, genitori",
+      "5w_cosa": "Supporto psicologico",
+      "5w_dove": "Sportello",
+      "5w_quando": "N/A",
+      "5w_perche": "Benessere psicofisico",
+      "ore_dichiarate": "ND",
+      "target": "Studenti, docenti, genitori",
+      "evidence_quote": "Area benessere, salute e sport",
+      "evidence_location": "Pagina 65"
+    },
+    {
+      "titolo_attivita": "Attività di preparazione ai test d'ammissione",
+      "categoria_principale": "Preparazione Universitaria",
+      "descrizione_e_metodologia": "Attività di preparazione ai test d'ammissione. Il programma prevede lezioni frontali, simulazioni d'esame e tutoring personalizzato.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Preparazione test",
+      "5w_dove": "N/A",
+      "5w_quando": "N/A",
+      "5w_perche": "Orientamento e accoglienza",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Area orientamento e accoglienza",
+      "evidence_location": "Pagina 66"
+    },
+    {
+      "titolo_attivita": "Premio Asimov",
+      "categoria_principale": "Lettura e Recensione",
+      "descrizione_e_metodologia": "Lettura e recensione di opere scientifiche. Gli studenti leggono libri di divulgazione scientifica, scrivono recensioni e partecipano a dibattiti.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Lettura e recensione",
+      "5w_dove": "N/A",
+      "5w_quando": "N/A",
+      "5w_perche": "Potenziamento competenze scientifiche e linguistiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Aree potenziamento dell'asse scientifico-tecnologico, potenziamento dell'asse dei linguaggi",
+      "evidence_location": "Pagina 67"
+    },
+    {
+      "titolo_attivita": "Piano Lauree Scientifiche",
+      "categoria_principale": "Laboratorio Universitario",
+      "descrizione_e_metodologia": "Partecipazione a laboratori e seminari all'Università di Pavia. Gli studenti svolgono attività pratiche, apprendono tecniche di ricerca e interagiscono con esperti del settore.",
+      "5w_chi": "Studenti e docenti",
+      "5w_cosa": "Laboratori e seminari",
+      "5w_dove": "Università di Pavia",
+      "5w_quando": "N/A",
+      "5w_perche": "Potenziamento competenze scientifiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Area potenziamento dell'asse matematico",
+      "evidence_location": "Pagina 68"
+    },
+    {
+      "titolo_attivita": "Scaccopernico",
+      "categoria_principale": "Attività Ludica",
+      "descrizione_e_metodologia": "Insegnamento degli scacchi. Gli studenti imparano le regole del gioco, sviluppano strategie e migliorano le capacità di problem solving.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Insegnamento degli scacchi",
+      "5w_dove": "N/A",
+      "5w_quando": "N/A",
+      "5w_perche": "Potenziamento competenze matematico-logiche",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Aree potenziamento dell'asse matematico",
+      "evidence_location": "Pagina 69"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi per le Competenze Trasversali e l'Orientamento. Gli studenti svolgono stage presso aziende, enti e istituzioni, acquisendo competenze pratiche e orientandosi verso il mondo del lavoro.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze pratiche in contesti lavorativi",
+      "5w_dove": "Aziende, enti, istituzioni",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare competenze trasversali e orientare alla scelta del percorso post-diploma",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Attività di orientamento in uscita",
+      "evidence_location": "Pagina 104"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LTIC809007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **I.C.Giulio Cesare** (LTIC809007) per il periodo 2022-2025. La scuola, un liceo situato nel territorio non metropolitano di Sabaudia, in provincia di Latina e regione Lazio, presenta un PTOF che, pur non includendo una sezione dedicata specificamente all'orientamento, integra attività in questo ambito all'interno di altre aree programmatiche. L'istituto dimostra un impegno nella collaborazione con diversi partner esterni e nella definizione di finalità orientate allo sviluppo delle competenze degli studenti e alla loro transizione formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento come Sezione Dedicata:**\n\nL'analisi evidenzia l'assenza di una sezione autonoma dedicata all'orientamento nel PTOF, ottenendo un punteggio di 5. Tuttavia, le attività di orientamento sono integrate in altre sezioni, come i percorsi **PCTO** e le attività di transizione ecologica.\n\n**2.2 Partnership:**\n\nLa scuola vanta una rete di **partnership** consolidata, che include **Scienza Under 18**, la **Rete Clil della Provincia di Pavia**, la **Rete provinciale per l'Alternanza Scuola Lavoro**, la **Rete di Ambito 29**, **Unicredit**, la **Fondazione I.R.C.C.S. Policlinico San Matteo**, **ATS** e **DIESSE Firenze e Toscana**. Il numero di partner attivi è pari a 8, indicando un buon livello di collaborazione esterna.\n\n**2.3 Finalità:**\n\nLe finalità del PTOF, in relazione all'orientamento, mostrano un punteggio di 4 per lo sviluppo delle **attitudini** e degli **interessi** degli alunni, con evidenza dello sviluppo delle **competenze digitali**. Anche la finalità relativa al **progetto di vita** degli studenti ottiene un punteggio di 4, sottolineando la necessità di sviluppare competenze personali e disciplinari. Un punteggio di 5 viene attribuito alle finalità legate alle **transizioni formative**, grazie alla presenza di attività di orientamento in uscita e agli stage/percorsi **PCTO**. Infine, la capacità di orientare gli studenti verso le opportunità future ottiene un punteggio di 4, con riferimento al monitoraggio delle dotazioni informatiche per la didattica digitale.\n\n**2.4 Obiettivi:**\n\nL'obiettivo di ridurre l'**abbandono scolastico** ottiene un punteggio di 3. Un punteggio di 4 viene assegnato all'obiettivo di garantire la continuità territoriale, grazie alle attività di **PCTO** e alla collaborazione con il territorio. L'obiettivo di contrastare il fenomeno **NEET** riceve un punteggio di 2, mentre l'obiettivo di promuovere il **lifelong learning** ottiene il punteggio massimo di 5, evidenziando l'importanza attribuita alla formazione continua del personale.\n\n**2.5 Azioni di Sistema:**\n\nIl coordinamento dei servizi di orientamento ottiene un punteggio di 3, in quanto non esplicitamente menzionato nel PTOF. Il dialogo tra docenti e studenti, così come il rapporto scuola-genitori, raggiungono un punteggio di 4, grazie all'utilizzo del registro elettronico e ai colloqui. Il monitoraggio delle azioni di orientamento ottiene un punteggio di 3, con riferimento al monitoraggio delle dotazioni informatiche. L'attenzione agli studenti con fragilità e bisogni educativi speciali riceve un punteggio di 4.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica basata sull'esperienza degli studenti ottiene un punteggio di 4. La didattica laboratoriale, sebbene presente, riceve un punteggio di 3, con riferimento all'utilizzo dei laboratori per la gestione di materiali. La flessibilità degli spazi e dei tempi didattici ottiene un punteggio di 4, grazie alla rimodulazione del tempo scuola per la didattica digitale. La didattica interdisciplinare riceve un punteggio di 3.\n\n**2.7 Offerta Formativa Opzionale:**\n\nLe opzionali culturali e laboratoriali-espressive ottengono un punteggio di 4. Le opzionali ludico-ricreative, di volontariato e sportive ricevono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella consolidata rete di **partnership** con enti e aziende del territorio, nell'attenzione alla transizione formativa degli studenti attraverso i percorsi **PCTO** e nell'impegno per la formazione continua del personale. L'istituto offre diverse attività extracurriculari, come il **Percorso Biomedicale Ippocrate**, il **Liceo Cambridge**, **Start up your life**, **Eni learning**, **ATS incidenti sul lavoro**, **Z-lab Banca Intesasanpaolo**, **Un'esperienza alla Provincia pavese**, **Progetto volley Copernico**, **Scienze Under 18**, **History Walks**, **Sportello d'ascolto**, **Attività di preparazione ai test d'ammissione** e **Premio Asimov**, che contribuiscono ad ampliare l'offerta formativa e a sviluppare le competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata specificamente all'orientamento nel PTOF. Inoltre, alcuni obiettivi, come la riduzione dell'**abbandono scolastico** e il contrasto al fenomeno **NEET**, ricevono punteggi inferiori rispetto ad altri, suggerendo la necessità di un maggiore focus su questi aspetti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che dovrebbe essere esplicitata in una sezione dedicata del PTOF. È necessario rafforzare le azioni di coordinamento dei servizi di orientamento e monitorare in modo più efficace l'impatto delle attività svolte.\n\n### 6. Conclusioni\n\nIl PTOF del **I.C.Giulio Cesare** dimostra un impegno significativo nell'offrire agli studenti opportunità di crescita e di orientamento, sebbene manchi una sezione dedicata a quest'ultimo aspetto. L'integrazione delle attività di orientamento in altre aree programmatiche e la collaborazione con partner esterni rappresentano un punto di forza. Per migliorare l'efficacia del PTOF, si raccomanda di definire una sezione specifica per l'orientamento, di rafforzare gli obiettivi relativi alla prevenzione dell'abbandono scolastico e del fenomeno **NEET** e di monitorare in modo più sistematico l'impatto delle attività svolte."
+}

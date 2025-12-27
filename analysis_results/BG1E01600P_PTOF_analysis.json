@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "school_id": "BG1E01600P",
+    "denominazione": "Scuola Primaria Paritaria \"Sacra Famiglia\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Seriate",
+    "anno_ptof": "2025-2028",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Luigia Corti N. 6",
+    "cap": "24068",
+    "email": "scuola@istitutosacrafamigliabg.it",
+    "pec": "ND",
+    "website": "www.scuolasacrafamigliabg.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato in diversi punti, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Ospedale Bolognini",
+        "ASAV",
+        "Enti di Formazione Professionale",
+        "Scuole statali e non",
+        "associazioni del terzo settore",
+        "imprese",
+        "Scuole dell'Infanzia paritarie del territorio di Seriate",
+        "Scuole Secondarie",
+        "ATS",
+        "Polizia Municipale"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "personalizzazione degli interventi secondo l’indole e le capacità di ciascuno",
+        "evidence_location": "Pagina 7"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "promuovere la formazione dell’uomo",
+        "evidence_location": "Pagina 11"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna evidenza diretta",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Progetto Continuità",
+        "evidence_location": "Pagina 32"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "personalizzazione dei percorsi",
+        "evidence_location": "Pagina 25"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Scuola-Famiglia",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Collaborazione con le famiglie per un servizio didattico regolare ed efficiente.",
+      "5w_chi": "Genitori, Docenti",
+      "5w_cosa": "Incontri, comunicazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Collaborazione educativa",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 30"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Accoglienza degli alunni",
+      "5w_chi": "Alunni, Docenti",
+      "5w_cosa": "Attività di accoglienza",
+      "5w_dove": "Scuola",
+      "5w_quando": "Inizio anno scolastico",
+      "5w_perche": "Favorire l'integrazione",
+      "ore_dichiarate": "ND",
+      "target": "Nuovi alunni",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 31"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Visita/Incontro",
+      "descrizione_e_metodologia": "Incontri con scuole dell'infanzia per passaggio informazioni e conoscenza reciproca. Visite alla scuola secondaria.",
+      "5w_chi": "Alunni classi prime e insegnanti, scuole dell'infanzia, scuole secondarie",
+      "5w_cosa": "Scambio informazioni, conoscenza reciproca, preparazione al passaggio",
+      "5w_dove": "Scuole coinvolte",
+      "5w_quando": "Maggio (per infanzia), durante l'anno (per secondaria)",
+      "5w_perche": "Favorire una transizione serena e consapevole",
+      "ore_dichiarate": "ND",
+      "target": "Alunni classi prime e genitori",
+      "evidence_quote": "costruiscono momenti di lavoro comune",
+      "evidence_location": "Pagina 32"
+    },
+    {
+      "titolo_attivita": "Progetto Sicurezza",
+      "categoria_principale": "Formazione/Simulazione",
+      "descrizione_e_metodologia": "Presentazione del piano di evacuazione e simulazione pratica.",
+      "5w_chi": "Tutti gli alunni e docenti",
+      "5w_cosa": "Conoscenza delle procedure di sicurezza e simulazione di evacuazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annualmente",
+      "5w_perche": "Aumentare la consapevolezza e la preparazione in caso di emergenza",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli alunni",
+      "evidence_quote": "effettuazione annuale del suddetto Piano di evacuazione",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Life Skills Training Program",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorso pluriennale per lo sviluppo di competenze sociali e di vita.",
+      "5w_chi": "Alunni classi terze, quarte e quinte",
+      "5w_cosa": "Sviluppo di abilità sociali, gestione della rabbia, resistenza alla pressione dei pari",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pluriennale",
+      "5w_perche": "Sviluppare competenze protettive contro dipendenze e bullismo",
+      "ore_dichiarate": "ND",
+      "target": "Alunni classi terze, quarte e quinte",
+      "evidence_quote": "sviluppare le abilità di vita",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "Progetto Madrelingua",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Potenziamento della lingua inglese con insegnante madrelingua.",
+      "5w_chi": "Studenti classi terze, quarte e quinte",
+      "5w_cosa": "Lezioni di inglese con madrelingua.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Fine anno scolastico",
+      "5w_perche": "Potenziare le competenze comunicative in inglese.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Potenziamento della lingua inglese nella Scuola Primaria, aumentando il monte ore a disposizione ed introducendo gradualmente l'insegnamento di madrelingua inglese.",
+      "evidence_location": "Pagina 40"
+    },
+    {
+      "titolo_attivita": "Outdoor Education",
+      "categoria_principale": "Didattica all'aperto",
+      "descrizione_e_metodologia": "Valorizzazione delle esperienze basate sull'ambiente esterno.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività didattiche all'aperto (orto, visite, sport, coding).",
+      "5w_dove": "Ambienti esterni (orto, fattorie, parchi, etc.)",
+      "5w_quando": "Fine anno scolastico",
+      "5w_perche": "Sviluppare competenze sociali, civiche e rispetto per l'ambiente.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Crescente utilizzo della didattica all’aperto che, a partire dai tempi di ricreazione e di educazione motoria, estesa ad altre discipline.",
+      "evidence_location": "Pagina 40"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BG1E01600P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Paritaria “Sacra Famiglia”** di Seriate (BG), per il triennio 2025-2028. La scuola, situata in un contesto territoriale non metropolitano della regione Lombardia, dimostra un impegno verso l'orientamento, sebbene non esista una sezione specificamente dedicata. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate. Il PTOF evidenzia una forte attenzione alla collaborazione con diversi partner e all'implementazione di metodologie didattiche innovative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'orientamento è presente nel PTOF, ma in modo diffuso e non concentrato in una sezione specifica, ottenendo un punteggio di 2.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo l'**Ospedale Bolognini**, l'**ASAV**, **Enti di Formazione Professionale**, **Scuole statali e non**, **associazioni del terzo settore**, **imprese**, le **Scuole dell'Infanzia paritarie del territorio di Seriate**, le **Scuole Secondarie**, l'**ATS** e la **Polizia Municipale**. Questo elevato numero di collaborazioni (10 partner) rappresenta un punto di forza significativo.\n\n**2.3 Finalità:** Il PTOF dimostra un forte orientamento verso la **personalizzazione degli interventi** in base alle attitudini e capacità individuali degli studenti, con un punteggio di 3. Si evidenzia anche l'impegno nella **promozione della formazione dell’uomo** (punteggio 3), mentre l'attenzione al **progetto di vita** risulta meno esplicita (punteggio 2). Le **transizioni formative** sono ben considerate, come dimostra il **Progetto Continuità** (punteggio 5), e viene riconosciuta l'importanza di sviluppare le **capacità orientative** per cogliere le opportunità (punteggio 3).\n\n**2.4 Obiettivi:** La scuola si pone l'obiettivo di ridurre l'**abbandono scolastico** (punteggio 3), di favorire la **continuità territoriale** (punteggio 5), di contrastare la dispersione scolastica e il fenomeno **NEET** (punteggio 1) e di promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 4), di **dialogo tra docenti e studenti** (punteggio 4), di forte **rapporto scuola-genitori** (punteggio 5), un monitoraggio delle azioni (punteggio 2) e un sistema integrato per l'inclusione e la gestione delle fragilità (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica è fortemente orientata all'apprendimento dall'**esperienza degli studenti** (punteggio 5), all'utilizzo di **laboratori** (punteggio 5), all'interdisciplinarità (punteggio 4) e, in misura minore, alla flessibilità degli spazi e dei tempi (punteggio 3).\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali espressive**, **ludiche ricreative** e **sportive** (tutte con punteggio 4), oltre ad attività di **volontariato** (punteggio 3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nell'attenzione alla **personalizzazione dei percorsi** formativi, nella forte collaborazione con le famiglie e nell'implementazione di metodologie didattiche innovative come l'apprendimento esperienziale e l'utilizzo di **laboratori**. Il **Progetto Continuità** rappresenta un'eccellenza nel facilitare le **transizioni formative** degli studenti. L'iniziativa **Life Skills Training Program** dimostra un impegno nello sviluppo di competenze sociali e di vita fondamentali.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Il punteggio relativamente basso sull'obiettivo di contrastare il fenomeno **NEET** suggerisce la necessità di approfondire questo aspetto. Il monitoraggio delle azioni implementate necessita di essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduce in una dispersione degli interventi. Sebbene le singole attività siano valide, manca un coordinamento complessivo che le integri in un sistema coerente.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Primaria Paritaria “Sacra Famiglia”** dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente strutturato in una sezione dedicata. La scuola si distingue per la sua capacità di collaborare con diversi partner, di personalizzare i percorsi formativi e di implementare metodologie didattiche innovative. Per migliorare ulteriormente l'efficacia dell'orientamento, si suggerisce di definire una sezione specifica nel PTOF, di potenziare il monitoraggio delle azioni e di approfondire l'attenzione al contrasto della dispersione scolastica e del fenomeno **NEET**."
+}

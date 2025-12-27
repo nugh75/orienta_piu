@@ -20,8 +20,10 @@
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
       "has_sezione_dedicata": 0,
-      "score": 5,
-      "note": "Non è presente un capitolo esplicitamente intitolato 'Orientamento'. La trattazione dell'orientamento è integrata nella sezione 'L'Offerta Formativa' e risulta dettagliata e strutturata, ma manca una sezione autonoma dedicata."
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:19:13.892175"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -398,6 +400,22 @@
             "reason": "Il testo menziona attività ludiche e ricreative come gite e laboratori, che rappresentano un inizio "
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:20:21.071479",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 12,
+        "enrichments_found": 30,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

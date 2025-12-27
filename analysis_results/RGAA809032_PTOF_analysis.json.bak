@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 2,
-      "note": "Il PTOF non prevede una sezione autonoma dedicata all'orientamento, tuttavia il tema è esplicitamente menzionato nei 'Principi Generali Per L'Elaborazione Del PTOF' con obiettivi quali guidare l'alunno a compiere scelte consapevoli."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=2, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-25T02:27:32.786724"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -197,6 +199,22 @@
             "reason": "Il tema dell'orientamento è menzionato nei 'Principi Generali Per L'Elaborazione Del PTOF' con obiet"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:28:30.463921",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 2,
+        "enrichments_found": 3,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

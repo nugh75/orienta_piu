@@ -1,50 +1,40 @@
-## Analisi del PTOF Scuola Primaria Davide Fregonese
+# Analisi del PTOF Scuola Primaria Davide Fregonese  
+## Report di Valutazione dell'Orientamento  
 
-### 1. Sintesi Generale
-Il PTOF della Scuola Primaria Davide Fregonese presenta un approccio all'orientamento prevalentemente implicito, non strutturato in una sezione dedicata. Sebbene siano presenti diverse attività extracurriculari e laboratori che contribuiscono allo sviluppo di competenze trasversali e all'esplorazione di interessi, manca una visione strategica e sistematica dell'orientamento come processo continuo e integrato nel curriculum scolastico. L'attenzione è rivolta principalmente alla formazione integrale della persona e allo sviluppo di competenze di base, con un focus sulla personalizzazione dell'apprendimento.
+### 1. Sintesi Generale  
+Il PTOF della Scuola Primaria Davide Fregonese presenta un approccio all'orientamento prevalentemente implicito, non strutturato in una sezione dedicata. Sebbene siano presenti diverse attività extracurriculari e laboratori che contribuiscono allo sviluppo di competenze trasversali e all'esplorazione di interessi, manca una visione strategica e sistematica dell'orientamento come processo continuo e integrato nel curriculum scolastico. L'attenzione è rivolta principalmente alla formazione integrale della persona e allo sviluppo di competenze di base, con un focus sulla personalizzazione dell'apprendimento. Questo approccio, pur ricco di potenzialità, non riesce a cogliere appieno le esigenze di un orientamento proattivo e strutturato, necessario per accompagnare gli alunni nel loro percorso formativo futuro.  
 
-### 2. Analisi Dimensionale
+### 2. Analisi Dimensionale  
 
-#### 2.1 Sezione Dedicata all'Orientamento
-Il PTOF non include una sezione specificamente dedicata all'orientamento. Questo rappresenta una lacuna significativa, in quanto l'orientamento è trattato in modo frammentario all'interno di altri capitoli, come l'offerta formativa e le attività extracurriculari. L'assenza di una sezione dedicata rende difficile valutare la coerenza e la sistematicità dell'approccio all'orientamento.
+#### 2.1 Sezione Dedicata all'Orientamento  
+Il PTOF non include una sezione specificamente dedicata all'orientamento. Questo rappresenta una lacuna significativa, in quanto l'orientamento è trattato in modo frammentario all'interno di altri capitoli, come l'offerta formativa e le attività extracurriculari. L'assenza di una sezione dedicata rende difficile valutare la coerenza e la sistematicità dell'approccio all'orientamento. Nonostante le attività presenti siano utili per lo sviluppo delle competenze, l'assenza di un disegno unitario e articolato rende l'orientamento un elemento secondario rispetto a una visione più ampia e integrata.  
 
-#### 2.2 Partnership e Reti
-La scuola collabora con il **CUS Torino** per l'attività di Hip Hop e con la **Società Scacchistica Torinese** per il laboratorio di scacchi. Queste partnership rappresentano un valore aggiunto per l'offerta formativa, in quanto offrono agli alunni opportunità di apprendimento pratico e di contatto con esperti esterni.
+#### 2.2 Partnership e Reti  
+La scuola collabora con il **CUS Torino** per l'attività di Hip Hop e con la **Società Scacchistica Torinese** per il laboratorio di scacchi. Queste partnership rappresentano un valore aggiunto per l'offerta formativa, in quanto offrono agli alunni opportunità di apprendimento pratico e di contatto con esperti esterni. Le collaborazioni esterne non solo arricchiscono l'esperienza educativa, ma favoriscono anche la socializzazione e l'acquisizione di competenze specifiche, come il pensiero strategico negli scacchi o l'espressione corporea nel Hip Hop. Tuttavia, queste iniziative, pur significative, non sono ancora collegate a un progetto orientativo più ampio, limitandone l'impatto sulle scelte future degli studenti.  
 
-#### 2.3 Finalità e Obiettivi
-Le finalità educative della scuola sono orientate alla formazione integrale della persona, allo sviluppo delle capacità di interazione con il mondo e all'orientamento al senso cristiano della vita. Il PTOF include esempi concreti di attività (laboratori, attività extracurriculari) che supportano tali finalità, sebbene non siano esplicitamente orientate alla scelta del percorso formativo futuro. Gli obiettivi formativi, pur essendo generali, sono supportati da azioni concrete.
+#### 2.3 Finalità e Obiettivi  
+Le finalità educative della scuola sono orientate alla formazione integrale della persona, allo sviluppo delle capacità di interazione con il mondo e all'orientamento al senso cristiano della vita. Il PTOF sottolinea l'importanza della formazione integrale e armonica della persona, come evidenziato nel testo: *“formazione integrale della persona, allo sviluppo delle capacità di interazione con il mondo e all'orientamento al senso cristiano della vita”*. Il documento include esempi concreti di attività (laboratori, attività extracurriculari) che supportano tali finalità, sebbene non siano esplicitamente orientate alla scelta del percorso formativo futuro. Gli obiettivi formativi, pur essendo generali, sono supportati da azioni concrete, ma manca una prospettiva che leghi le competenze acquisite alle scelte educative e professionali degli alunni.  
 
-#### 2.4 Governance e Azioni di Sistema
-Il PTOF prevede elementi di governance come il “Patto formativo” e il “Rapporto con il territorio”, che contribuiscono alle azioni di sistema. Il punteggio è stato elevato a 4 per riflettere la presenza di questi elementi, sebbene non siano specificamente orientativi. Manca un sistema integrato per l'inclusione e la gestione delle fragilità, che potrebbe rappresentare un ostacolo per l'orientamento degli alunni con bisogni educativi speciali.
+#### 2.4 Governance e Azioni di Sistema  
+Il PTOF prevede elementi di governance come il “Patto formativo” e il “Rapporto con il territorio”, che contribuiscono alle azioni di sistema. Il punteggio è stato elevato a 4 per riflettere la presenza di questi elementi, sebbene non siano specificamente orientativi. Manca un sistema integrato per l'inclusione e la gestione delle fragilità, che potrebbe rappresentare un ostacolo per l'orientamento degli alunni con bisogni educativi speciali. Le collaborazioni con enti esterni, come il CUS Torino e la Società Scacchistica Torinese, rappresentano partnership significative per l'offerta formativa. Queste collaborazioni esterne permettono agli alunni di interagire con esperti del settore e di partecipare a attività di alto livello, contribuendo a una governance più dinamica e connessa al territorio. Tuttavia, l'assenza di un piano articolato per l'orientamento riduce la capacità di trasformare queste iniziative in strumenti di supporto per le scelte future degli studenti.  
 
-#### 2.5 Didattica Orientativa
-La scuola promuove l'utilizzo di metodologie didattiche innovative, come i laboratori e la didattica interdisciplinare. Tuttavia, manca un approccio esplicitamente orientativo, che metta al centro l'esperienza degli studenti e la loro capacità di riflettere sui propri interessi, attitudini e progetti di vita. Il punteggio è stato abbassato a 3 per riflettere questa assenza.
+#### 2.5 Didattica Orientativa  
+La scuola promuove l'utilizzo di metodologie didattiche innovative, come i laboratori e la didattica interdisciplinare. Tuttavia, manca un approccio esplicitamente orientativo, che metta al centro l'esperienza degli studenti e la loro capacità di riflettere sui propri interessi, attitudini e progetti di vita. Il punteggio è stato abbassato a 3 per riflettere questa assenza. Le attività didattiche, pur ricche di potenzialità, non sono ancora progettate per favorire un percorso di autoconsapevolezza e di scelta consapevole, che è il cuore dell'orientamento. Questo limite impedisce di trasformare le competenze acquisite in strumenti utili per le decisioni future.  
 
-#### 2.6 Opportunità Formative
-La scuola offre una varietà di attività opzionali, tra cui laboratori espressivi, attività ludiche e sportive. Queste attività rappresentano un'opportunità per gli alunni di esplorare i propri interessi e sviluppare le proprie competenze, ma non sono esplicitamente orientate alla scelta del percorso formativo futuro.
+#### 2.6 Opportunità Formative  
+La scuola offre una varietà di attività opzionali, tra cui laboratori espressivi, attività ludiche e sportive. Queste attività rappresentano un'opportunità per gli alunni di esplorare i propri interessi e sviluppare le proprie competenze, ma non sono esplicitamente orientate alla scelta del percorso formativo futuro. L'assenza di un collegamento tra le opportunità formative e le scelte educative degli studenti riduce il loro impatto sull'orientamento. Per esempio, il laboratorio di scacchi sviluppa il pensiero logico, ma non è progettato per guidare gli alunni verso percorsi specifici; lo stesso vale per l'attività in piscina o il laboratorio musicale.  
 
-#### 2.7 Registro Dettagliato delle Attività
+#### 2.7 Registro Dettagliato delle Attività  
+Il laboratorio di scacchi, tenuto da istruttori qualificati, mira a sviluppare il pensiero logico e strategico degli alunni attraverso il gioco degli scacchi. L'attività coinvolge tutti gli alunni della scuola primaria e si svolge durante l'anno scolastico. L'obiettivo è quello di stimolare la competizione intellettuale e la socializzazione. L'attività curriculare in piscina, invece, coinvolge tutti gli alunni e si svolge durante l'anno scolastico, con l'obiettivo di sviluppare le competenze motorie, l'autonomia e la sicurezza in acqua. L'attività extracurricolare di Hip Hop, condotta in collaborazione con il CUS Torino, promuove l'espressione corporea e la socializzazione, offrendo agli alunni un'esperienza creativa e inclusiva. Infine, il laboratorio di musica offre agli alunni l'opportunità di sviluppare la sensibilità musicale e le competenze artistiche, contribuendo alla crescita espressiva e culturale.  
 
-#### 2.7.1 Laboratorio Scacchi
-Il laboratorio di scacchi, tenuto da istruttori qualificati, mira a sviluppare il pensiero logico e strategico degli alunni attraverso il gioco degli scacchi. L'attività coinvolge tutti gli alunni della scuola primaria e si svolge durante l'anno scolastico. L'obiettivo è quello di stimolare la competizione intellettuale e la socializzazione.
+### 3. Punti di Forza  
+I punti di forza del PTOF sono la varietà di attività extracurriculari e laboratori offerti agli alunni, la collaborazione con partner esterni e l'attenzione alla formazione integrale della persona. Le iniziative come il laboratorio di scacchi, l'attività in piscina e il laboratorio musicale dimostrano una volontà di arricchire l'offerta formativa con esperienze pratiche e creative. Le partnership con enti esterni, come il CUS Torino e la Società Scacchistica Torinese, rappresentano un elemento distintivo, poiché permettono agli alunni di interagire con esperti e di partecipare a attività di alto livello. Tuttavia, è importante considerare che l'efficacia di queste attività non è esplicitamente valutata nel PTOF, il che limita la possibilità di migliorarle in base ai risultati ottenuti.  
 
-#### 2.7.2 Attività Curriculare Piscina
-L'attività curriculare in piscina coinvolge tutti gli alunni della scuola primaria e si svolge durante l'anno scolastico. L'obiettivo è quello di sviluppare le competenze motorie, l'autonomia e la sicurezza in acqua.
+### 4. Aree di Debolezza  
+Le principali aree di debolezza sono l'assenza di una sezione dedicata all'orientamento, la mancanza di una visione strategica e sistematica dell'orientamento e la scarsa attenzione allo sviluppo delle competenze orientative. L'approccio all'orientamento, pur presente in forma implicita, non è mai esplicitamente progettato o valutato. Questo rende difficile creare un percorso continuo e integrato che accompagni gli alunni nel loro sviluppo personale e formativo. Inoltre, l'assenza di un sistema integrato per l'inclusione e la gestione delle fragilità rappresenta un ostacolo per l'orientamento degli alunni con bisogni educativi speciali, che richiedono un supporto mirato e personalizzato.  
 
-#### 2.7.3 Attività Extracurricolare Hip Hop
-L'attività extracurricolare di Hip Hop, condotta in collaborazione con il CUS Torino, mira a promuovere l'espressione corporea e la socializzazione degli alunni. L'attività coinvolge tutti gli alunni della scuola primaria e si svolge durante l'anno scolastico.
+### 5. Gap Analysis  
+Il principale gap è la mancanza di un approccio integrato all'orientamento, che coinvolga tutti gli attori della comunità scolastica e che sia finalizzato a supportare gli alunni nella scelta del percorso formativo futuro. L'assenza di una sezione dedicata all'orientamento nel PTOF impedisce di articolare un piano articolato e condiviso, che tenga conto delle esigenze degli alunni, delle famiglie e del territorio. Inoltre, le attività extracurriculari, pur significative, non sono ancora collegate a un progetto orientativo più ampio, limitandone l'impatto sulle scelte future degli studenti.  
 
-#### 2.7.4 Laboratorio Musica
-Il laboratorio di musica offre agli alunni l'opportunità di sviluppare la sensibilità musicale e le competenze artistiche. L'attività coinvolge tutti gli alunni della scuola primaria e si svolge durante l'anno scolastico.
-
-### 3. Punti di Forza
-I punti di forza del PTOF sono la varietà di attività extracurriculari e laboratori offerti agli alunni, la collaborazione con partner esterni e l'attenzione alla formazione integrale della persona. Tuttavia, è importante considerare che l'efficacia di queste attività non è esplicitamente valutata nel PTOF.
-
-### 4. Aree di Debolezza
-Le principali aree di debolezza sono l'assenza di una sezione dedicata all'orientamento, la mancanza di una visione strategica e sistematica dell'orientamento e la scarsa attenzione allo sviluppo delle competenze orientative.
-
-### 5. Gap Analysis
-Il principale gap è la mancanza di un approccio integrato all'orientamento, che coinvolga tutti gli attori della comunità scolastica e che sia finalizzato a supportare gli alunni nella scelta del percorso formativo futuro.
-
-### 6. Conclusioni
-Il PTOF della Scuola Primaria Davide Fregonese presenta un'offerta formativa ricca e diversificata, ma manca di una chiara strategia di orientamento. Per migliorare la qualità dell'orientamento, è necessario definire una sezione dedicata all'orientamento, sviluppare un approccio sistematico e integrato, coinvolgere tutti gli attori della comunità scolastica e considerare come le azioni di inclusione scolastica, come quelle delineate nel Piano Annuale dell'Inclusività, possano supportare l'orientamento degli alunni.
+### 6. Conclusioni  
+Il PTOF della Scuola Primaria Davide Fregonese presenta un'offerta formativa ricca e diversificata, ma manca di una chiara strategia di orientamento. Per migliorare la qualità dell'orientamento, è necessario definire una sezione dedicata all'orientamento, sviluppare un approccio sistematico e integrato, coinvolgere tutti gli attori della comunità scolastica e considerare come le azioni di inclusione scolastica, come quelle delineate nel Piano Annuale dell'Inclusività, possano supportare l'orientamento degli alunni. Solo attraverso una progettazione articolata e una valutazione continua sarà possibile trasformare le potenzialità del PTOF in un percorso di orientamento efficace e sostenibile.

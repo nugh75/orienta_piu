@@ -1,39 +1,39 @@
-# Analisi del PTOF CNAA84803V
+# Analisi del PTOF [CODICE]  
+## Report di Valutazione dell'Orientamento  
 
-## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale  
+L’analisi del PTOF rivela un impegno significativo verso l’orientamento, pur non essendovi una sezione autonoma dedicata. L’approccio si fonda sull’integrazione dell’orientamento nelle strategie di inclusione scolastica, supportato da una rete di partnership esterne che arricchisce l’offerta formativa. Tra le iniziative più rilevanti figurano progetti come *Nontiscordardimé*, *Riciclo Materiali*, *Educazione Ambientale*, *Laboratori didattici Farm to Fork*, *Pari e Dispari*, *CostellAzioni*, *Parole per crescere* e *Incontri tra docenti e genitori*. Queste attività, unite a collaborazioni con enti locali come il Comune di Cuneo, le Forze dell’Ordine e l’ASL, dimostrano una volontà di creare un ambiente educativo multidisciplinare e partecipativo. Tuttavia, emerge la necessità di strutturare meglio l’orientamento come percorso autonomo, soprattutto per gli studenti non appartenenti alle categorie con BES.  
 
-### 1. Sintesi Generale
+### 2. Analisi Dimensionale  
+#### 2.1 Sezione Dedicata all’Orientamento  
+Nel PTOF originale non è stata identificata una sezione autonoma dedicata all’orientamento. L’approccio adottato si basa sull’integrazione dell’orientamento all’interno delle strategie di inclusione scolastica, con particolare attenzione agli alunni con Bisogni Educativi Specifici (BES). Questo modello, pur riconoscendo l’importanza dell’orientamento, presenta limiti nella sua applicazione a tutti gli studenti. Nonostante siano menzionate iniziative come laboratori interdisciplinari e apprendimento esperienziale, manca una progettualità specifica per l’esplorazione delle professioni o il supporto alle scelte educative e professionali.  
 
-Il presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Confreria** (CNAA84803V), scuola dell'infanzia situata nel territorio non metropolitano di **Cuneo**, in **Piemonte**. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutandone l'integrazione all'interno del PTOF 2022-2025. Il PTOF dimostra un impegno significativo verso l'inclusione scolastica, con l'orientamento trattato come parte integrante di questo approccio piuttosto che come una sezione autonoma. L'istituto vanta una rete di **partnership** ampia e diversificata, comprendendo **enti locali**, **associazioni**, **scuole paritarie**, fondazioni come **Apice** e **Fondazione CRC**, e collaborazioni con il **Comune di Cuneo**, le **Forze dell’Ordine** e l'**ASL**.
+#### 2.2 Partnership e Reti  
+L’istituto vanta una rete di partnership estremamente articolata, che include enti locali, associazioni, scuole paritarie, fondazioni come Apice e Fondazione CRC, nonché collaborazioni con il Comune di Cuneo, le Forze dell’Ordine e l’ASL. Queste alleanze permettono di offrire un supporto multidisciplinare agli studenti e alle loro famiglie, integrando risorse esterne per arricchire l’offerta formativa. Tra le iniziative più significative, la partecipazione a reti di scuole sull’inclusione e progetti come *Pari e Dispari*, *CostellAzioni* e *Parole per crescere*, che mirano a migliorare l’inclusione e il supporto agli alunni con BES.  
 
-### 2. Analisi Dimensionale
+#### 2.3 Finalità e Obiettivi  
+Gli obiettivi del PTOF si concentrano sull’implementazione di metodologie innovative per potenziare l’apprendimento e lo sviluppo di competenze cognitive, sociali ed emotive di tutti gli alunni. L’orientamento, pur non essendo un obiettivo autonomo, è inteso come strumento per favorire l’inclusione e il successo formativo. Tuttavia, il documento non esplicita una finalità specifica per il contrasto al fenomeno dei NEET, rendendo problematico l’attribuzione di un punteggio a tale proposito.  
 
-**2.1 Orientamento Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'inclusione scolastica, all'interno della quale l'orientamento è affrontato specificamente per gli alunni con **BES**, ottenendo un punteggio di 3.
+#### 2.4 Governance e Azioni di Sistema  
+Le azioni di sistema si basano su un coordinamento efficace tra docenti, genitori e partner esterni, con particolare attenzione al dialogo e alla collaborazione. Il piano prevede momenti di recupero in piccolo gruppo per gli alunni con difficoltà, ma le proposte per gli studenti con eccellenze risultano poco sviluppate. La valutazione dei risultati raggiunti dalle azioni di recupero non è chiaramente definita, il che potrebbe limitare l’efficacia delle strategie adottate.  
 
-**2.2 Partnership:** L'istituto ha stabilito ben 28 **partnership**, dimostrando una forte attenzione alla collaborazione esterna per arricchire l'offerta formativa e supportare gli studenti.
+#### 2.5 Didattica Orientativa  
+La didattica orientativa si fonda sull’apprendimento esperienziale, l’utilizzo di laboratori, l’interdisciplinarità e la flessibilità degli spazi e dei tempi. Questo approccio favorisce un’educazione dinamica e personalizzata, ma manca una progettualità specifica per l’orientamento professionale. Le metodologie sperimentate, come quelle legate all’innovazione degli ambienti di apprendimento, sono promettenti, ma non sono state estese a percorsi strutturati per l’esplorazione delle opportunità future.  
 
-**2.3 Finalità:** Le finalità del PTOF sono orientate alla costruzione dell'identità personale degli alunni, valorizzando le loro attitudini, interessi e capacità progettuali. Particolare rilievo viene dato alle finalità relative alle **transizioni formative**, con l'obiettivo di creare pratiche di passaggio efficaci tra i diversi ordini di scuola.
+#### 2.6 Opportunità Formative  
+L’offerta formativa si distingue per la sua ricchezza e diversificazione, con attività come *Competenze Trasversali e Soft Skills*, *Competenze Linguistiche*, *Formazione e Attività in Rete*, *Scrittorincittà*, *Laboratori di lettura con Anna Maria Dalmasso ed Ermanno Giraudo*, *Città dei talenti*, *Ri-costruirsi*, *Piùsport@scuola*, *Nontiscordardimé*, *Riciclo Materiali*, *Educazione Ambientale*, *Laboratori didattici Farm to Fork*, *Pari e Dispari*, *CostellAzioni*, *Parole per crescere* e *Incontri tra docenti e genitori*. Queste iniziative testimoniano una volontà di integrare l’orientamento nelle strategie educative, ma non sempre in modo mirato alle scelte professionali.  
 
-**2.4 Obiettivi:** Tra gli obiettivi del PTOF spiccano la riduzione dell'abbandono scolastico, la continuità territoriale, il lifelong learning e, in misura minore, il contrasto al fenomeno dei **NEET**.
+#### 2.7 Registro Dettagliato delle Attività  
+Il registro delle attività evidenzia una partecipazione attiva all’organizzazione di eventi culturali e sportivi, come la collaborazione con la Fondazione CRC per iniziative di promozione sociale e sportiva. Queste attività rafforzano il senso di comunità e l’identità scolastica, ma non sempre sono collegate a percorsi di orientamento strutturati.  
 
-**2.5 Azioni di Sistema:** Le azioni di sistema sono ben strutturate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori e all'implementazione di un sistema integrato per l'inclusione e la gestione delle fragilità.
+### 3. Punti di Forza  
+Un punto di forza del PTOF è la forte integrazione dell’orientamento all’interno delle strategie di inclusione scolastica, supportata da una rete di partnership esterne che arricchisce l’offerta formativa. La collaborazione con enti locali e associazioni permette di offrire un supporto multidisciplinare agli studenti e alle loro famiglie. Inoltre, la partecipazione a reti di scuole sull’inclusione e a progetti come *Pari e Dispari*, *CostellAzioni* e *Parole per crescere* dimostra un impegno concreto verso la collaborazione tra istituzioni e l’implementazione di strategie innovative.  
 
-**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sull'interdisciplinarità e sulla flessibilità degli spazi e dei tempi.
+### 4. Aree di Debolezza  
+Un’area di debolezza rilevata nel PTOF è la mancanza di una sezione autonoma dedicata all’orientamento, che potrebbe limitare la sua visibilità e specificità all’interno del piano. Nonostante l’orientamento sia integrato nelle strategie di inclusione, una sezione dedicata permetterebbe un approfondimento più mirato. Inoltre, le proposte per gli alunni che evidenziano eccellenze in alcune o tutte le discipline risultano poco adeguate, e le azioni per il recupero degli alunni con difficoltà sono spesso generalizzate.  
 
-**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, comprendendo opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive.
+### 5. Gap Analysis  
+Un gap significativo nel PTOF è la mancanza di specificità nelle attività dedicate all’orientamento vero e proprio, inteso come preparazione alle scelte future. Il documento non menziona progetti strutturati per l’esplorazione delle professioni o per il supporto alle scelte educative e professionali, nonostante l’orientamento sia integrato nelle strategie di inclusione. Potrebbe essere utile sviluppare percorsi più strutturati, ad esempio attraverso l’implementazione di progetti di alternanza scuola-lavoro o collaborazioni con aziende locali.  
 
-### 3. Punti di Forza
-
-Un punto di forza del PTOF è la forte integrazione dell'orientamento all'interno delle strategie di inclusione scolastica. L'ampia rete di **partnership** rappresenta un valore aggiunto significativo, consentendo all'istituto di accedere a risorse e competenze esterne. L'attenzione alle **transizioni formative** e alla costruzione dell'identità personale degli alunni dimostra una visione olistica dell'educazione. L'impegno verso il coordinamento dei servizi e il rapporto scuola-genitori favorisce un clima di collaborazione e partecipazione.
-
-### 4. Aree di Debolezza
-
-L'orientamento, pur presente, non è trattato come una sezione autonoma del PTOF, ma come parte integrante dell'inclusione. Questo potrebbe limitare la sua visibilità e la sua specificità. L'obiettivo di contrastare il fenomeno dei **NEET** riceve un punteggio basso, suggerendo la necessità di rafforzare le azioni in questa direzione.
-
-### 5. Gap Analysis
-
-Nonostante l'impegno verso l'orientamento, si rileva una mancanza di specificità nelle attività dedicate all'orientamento vero e proprio, inteso come preparazione alle scelte future. Potrebbe essere utile sviluppare percorsi più strutturati per l'esplorazione delle professioni e delle opportunità formative.
-
-### 6. Conclusioni
-
-Il PTOF dell'istituto **Confreria** presenta un quadro complessivamente positivo, con un forte impegno verso l'inclusione, la collaborazione e lo sviluppo integrale degli alunni. L'orientamento è ben integrato nelle strategie educative, ma potrebbe beneficiare di una maggiore specificità e di un'attenzione più mirata alla preparazione alle scelte future. Le numerose attività proposte, come **Competenze Trasversali e Soft Skills**, **Competenze Linguistiche**, **Formazione e Attività in Rete**, **Scrittorincittà**, **Laboratori di lettura con Anna Maria Dalmasso ed Ermanno Giraudo**, **Città dei talenti**, **Ri-costruirsi**, **Piùsport@scuola**, **Nontiscordardimé**, **Riciclo Materiali**, **Educazione Ambientale**, **Laboratori didattici Farm to Fork**, **Pari e Dispari**, **CostellAzioni**, **Parole per crescere** e **Incontri tra docenti e genitori**, dimostrano un'offerta formativa ricca e diversificata.
+### 6. Conclusioni  
+Il PTOF dell’istituto Confreria presenta un quadro complessivamente positivo, con un forte impegno verso l’inclusione, la collaborazione e lo sviluppo integrale degli alunni. L’orientamento, pur non essendo una sezione autonoma, è ben integrato nelle strategie educative, ma potrebbe beneficiare di una maggiore specificità e di un’attenzione più mirata alla preparazione alle scelte future. Le numerose attività proposte, come *Competenze Trasversali e Soft Skills*, *Competenze Linguistiche*, *Formazione e Attività in Rete*, *Scrittorincittà*, *Laboratori di lettura con Anna Maria Dalmasso ed Ermanno Giraudo*, *Città dei talenti*, *Ri-costruirsi*, *Piùsport@scuola*, *Nontiscordardimé*, *Riciclo Materiali*, *Educazione Ambientale*, *Laboratori didattici Farm to Fork*, *Pari e Dispari*, *CostellAzioni*, *Parole per crescere* e *Incontri tra docenti e genitori*, dimostrano un’offerta formativa ricca e diversificata. Tuttavia, per rendere l’orientamento più efficace, è necessario strutturarlo come percorso autonomo e articolarlo in modo da rispondere alle esigenze di tutti gli studenti.

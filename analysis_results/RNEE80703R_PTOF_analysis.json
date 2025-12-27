@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 3,
-      "note": "Non è presente una sezione autonoma dedicata all'orientamento. Le azioni di orientamento (3.2.3) sono integrate in un capitolo più ampio, senza una visione strategica dettagliata e specifica."
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento si trova in 3.2.3 del PTOF, intitolata 'Orientamento'. In questa sezione, l'istituto descrive le sue strategie per lo sviluppo completo del potenziale degli studen (Precedente: score=3, has_sezione_dedicata=0)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-27T01:07:18.701220"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -327,6 +329,22 @@
             "reason": "Il testo non menziona in modo specifico attività sportive opzionali o facoltative. Il punteggio 6 no"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-27T01:08:35.387927",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 6,
+        "enrichments_found": 19,
+        "corrections_found": 2,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

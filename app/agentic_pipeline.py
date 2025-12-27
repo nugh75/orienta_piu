@@ -875,7 +875,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     final_md_path = os.path.join(results_dir, f"{output_base}_analysis.md")
     final_json_path = os.path.join(results_dir, f"{output_base}_analysis.json")
     
-    if status_callback: status_callback(f"{process_tag} start")
+    if status_callback: status_callback(f"{process_tag} start ({os.path.basename(md_file)})")
     
     with open(md_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -891,6 +891,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         chunks = smart_split(content, CHUNK_SIZE)
         info = get_chunk_info(chunks)
         logging.info(f"[Pipeline] Split into {info['count']} chunks")
+        if status_callback: status_callback(f"{process_tag} chunks total {len(chunks)}")
         
         # Analyze each chunk
         partial_results = []
@@ -950,12 +951,20 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         if not partial_results:
             logging.error("[Pipeline] No valid chunk results")
             return None
+        if len(partial_results) != len(chunks):
+            logging.error("[Pipeline] Chunk analysis incomplete")
+            if status_callback:
+                status_callback(f"{process_tag} chunk analysis incomplete ({len(partial_results)}/{len(chunks)})")
+            return None
+        if status_callback:
+            status_callback(f"{process_tag} chunks analyzed {len(partial_results)}/{len(chunks)}")
         
         # Synthesize if we have a synthesizer
         if synthesizer and len(partial_results) > 1:
             if status_callback: status_callback(f"{process_tag} synthesizer combine")
             draft = synthesizer.synthesize(partial_results)
             draft = sanitize_json(draft)
+            if status_callback: status_callback(f"{process_tag} synthesizer done")
         elif len(partial_results) == 1:
             draft = json.dumps(partial_results[0])
         else:

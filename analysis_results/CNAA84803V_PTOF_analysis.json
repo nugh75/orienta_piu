@@ -19,9 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 1,
-      "score": 3,
-      "note": "La sezione è dedicata all'inclusione scolastica e contiene un sottoparagrafo sull'orientamento, con dettagli su attività di continuità e di orientamento specifiche per alunni con BES. L'orientamento è trattato come parte integrante dell'inclusione e non come sezione autonoma."
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=3, has_sezione_dedicata=1)",
+      "ollama_reviewed": true,
+      "ollama_review_date": "2025-12-27T03:37:41.228811"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -420,6 +422,22 @@
             "reason": "Il documento parla di didattica inclusiva e supporto alle fasce deboli, ma non descrive un sistema i"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-27T03:40:51.821614",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 11,
+        "enrichments_found": 31,
+        "corrections_found": 3,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 0
       }
     }
   ],

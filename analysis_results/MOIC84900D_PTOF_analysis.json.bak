@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 2,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=2, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF dell'I.C. Ravarino si concentra sulla promozione della consapevolezza delle proprie potenzialità e sulla preparazione per il futuro, sia in termini di sce (Precedente: score=2, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:33:33.050896"
+      "ollama_review_date": "2025-12-25T02:09:49.072122"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -293,6 +293,22 @@
             "reason": "Il documento non presenta una sezione esplicita dedicata all'orientamento, ma include attività orien"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:11:14.394663",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 10,
+        "enrichments_found": 10,
+        "corrections_found": 3,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

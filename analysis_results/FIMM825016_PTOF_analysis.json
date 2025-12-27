@@ -241,6 +241,22 @@
           }
         ]
       }
+    },
+    {
+      "timestamp": "2025-12-27T09:08:47.417852",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 4,
+        "enrichments_found": 10,
+        "corrections_found": 2,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [

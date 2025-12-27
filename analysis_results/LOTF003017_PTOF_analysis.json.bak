@@ -19,11 +19,11 @@
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 2,
-      "note": "Revisione Ollama: nessuna sezione dedicata all'orientamento trovata nel PTOF. (Precedente: score=5, has_sezione_dedicata=1)",
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Revisione Ollama: sezione dedicata all'orientamento TROVATA. La sezione dedicata all'orientamento nel PTOF descrive le finalità dell’orientamento in ingresso e in uscita, inclusi eventi come giornate di scuola attiva, Open Day e presentazioni degli indirizzi di (Precedente: score=2, has_sezione_dedicata=0)",
       "ollama_reviewed": true,
-      "ollama_review_date": "2025-12-24T21:39:36.259118"
+      "ollama_review_date": "2025-12-25T02:22:52.348886"
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -299,6 +299,22 @@
             "reason": "Il testo mostra attività concrete di orientamento come la settimana dedicata all'orientamento e l'of"
           }
         ]
+      }
+    },
+    {
+      "timestamp": "2025-12-25T02:23:59.879343",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 8,
+        "enrichments_found": 8,
+        "corrections_found": 1,
+        "orientamento_found": true,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
       }
     }
   ],

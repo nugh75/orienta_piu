@@ -302,6 +302,23 @@ while True:
             if new_stat.st_size != current_stat.st_size:
                 return new_path if new_stat.st_size > current_stat.st_size else current_path
             return current_path
+
+        def get_priority(status, skip_reason):
+            if skip_reason == 'new':
+                return 0, 'new'
+            if skip_reason == 'missing_json':
+                return 1, 'missing_json'
+            if status == 'empty':
+                return 2, 'empty_json'
+            if status == 'invalid':
+                return 2, 'invalid_json'
+            if skip_reason == 'modified':
+                return 3, 'modified_pdf'
+            if skip_reason == 'forced':
+                return 4, 'forced'
+            if skip_reason == 'hash_error':
+                return 4, 'hash_error'
+            return 5, skip_reason or status
     
         for pdf_path in inbox_pdfs:
             # Controllo uscita richiesta
@@ -357,16 +374,32 @@ while True:
                 kept = choose_preferred_pdf(process_pdfs[school_code][0], pdf_path)
                 if kept == pdf_path:
                     print(f"⚠️ Duplicato {school_code}: tengo {pdf_path.name}, scarto {process_pdfs[school_code][0].name}", flush=True)
-                    process_pdfs[school_code] = (pdf_path, school_code, miur_data)
+                    priority_value, priority_label = get_priority(status, skip_reason)
+                    process_pdfs[school_code] = (pdf_path, school_code, miur_data, priority_value, priority_label)
                 else:
                     print(f"⚠️ Duplicato {school_code}: tengo {process_pdfs[school_code][0].name}, scarto {pdf_path.name}", flush=True)
                 continue
         
-            process_pdfs[school_code] = (pdf_path, school_code, miur_data)
+            priority_value, priority_label = get_priority(status, skip_reason)
+            process_pdfs[school_code] = (pdf_path, school_code, miur_data, priority_value, priority_label)
     
-        process_pdfs = list(process_pdfs.values())
+        process_pdfs = sorted(process_pdfs.values(), key=lambda item: (item[3], item[0].name))
         print(f"\n📋 PDF riconosciuti: {len(recognized_pdfs)}", flush=True)
         print(f"📋 PDF da processare (deduplicati): {len(process_pdfs)}", flush=True)
+        if process_pdfs:
+            priority_counts = {}
+            for _, _, _, _, reason in process_pdfs:
+                priority_counts[reason] = priority_counts.get(reason, 0) + 1
+            priority_order = [
+                'new', 'missing_json', 'empty_json', 'invalid_json',
+                'modified_pdf', 'forced', 'hash_error'
+            ]
+            ordered = sorted(
+                priority_counts.items(),
+                key=lambda item: priority_order.index(item[0]) if item[0] in priority_order else len(priority_order)
+            )
+            print("[workflow] Priorita analisi: new -> missing_json -> empty/invalid -> modified -> forced -> other", flush=True)
+            print("[workflow] Coda per priorita: " + ", ".join(f"{key}={val}" for key, val in ordered), flush=True)
     
         # =====================================================
         # STEP 1: CONVERSIONE PDF → MARKDOWN
@@ -379,7 +412,7 @@ while True:
     
         converted = []
     
-        for pdf_path, school_code, miur_data in process_pdfs:
+        for pdf_path, school_code, miur_data, _, _ in process_pdfs:
             # Controllo uscita richiesta
             if EXIT_REQUESTED:
                 save_and_exit()
@@ -427,24 +460,24 @@ while True:
             synthesizer = SynthesizerAgent()
         
             analyzed = []
-        
+
             for pdf_path, school_code, miur_data in converted:
                 # Controllo uscita richiesta
                 if EXIT_REQUESTED:
                     save_and_exit()
-                
+
                 md_file = MD_DIR / f"{school_code}_ptof.md"
-            
+
                 if not md_file.exists():
                     print(f"⚠️ MD non trovato: {school_code}", flush=True)
                     continue
-            
+
                 print(f"\n📝 Analizzando: {school_code}", flush=True)
-            
+
                 try:
                     def status_cb(msg):
                         print(f"   {msg}", flush=True)
-                
+
                     # process_single_ptof salva JSON già arricchito (con enrich_json_metadata)
                     result = process_single_ptof(
                         str(md_file),
@@ -455,7 +488,7 @@ while True:
                         str(ANALYSIS_DIR),
                         status_callback=status_cb
                     )
-                
+
                     if result:
                         analyzed.append(school_code)
                         # Leggi metadati dal JSON salvato per feedback
@@ -467,7 +500,7 @@ while True:
                             print("   ⚠️ Report MD mancante o vuoto (narrativa non generata)", flush=True)
                         meta = data.get('metadata', {})
                         print(f"   ✅ Salvato - {meta.get('provincia', 'ND')}, {meta.get('regione', 'ND')}", flush=True)
-                        
+
                         # Registra nel registro analisi
                         ANALYSIS_REGISTRY = register_analysis(
                             school_code=school_code,
@@ -480,12 +513,12 @@ while True:
                         print(f"   📝 Registrato nel registro analisi", flush=True)
                     else:
                         print(f"   ⚠️ Nessun risultato", flush=True)
-                
+
                 except Exception as e:
                     print(f"   ❌ Errore analisi: {e}", flush=True)
                     import traceback
                     traceback.print_exc()
-        
+
             print(f"\n📊 Analizzati: {len(analyzed)} file", flush=True)
     
     # =====================================================
