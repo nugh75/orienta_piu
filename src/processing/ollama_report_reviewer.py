@@ -558,7 +558,7 @@ def main():
             # Chunka il PTOF
             chunks = smart_split(ptof_content, max_chars=args.chunk_size)
             chunk_info = get_chunk_info(chunks)
-            logger.info(f"   📄 PTOF diviso in {chunk_info['count']} chunks")
+            logger.info(f"   📄 [report:{school_code}] PTOF diviso in {chunk_info['count']} chunks")
             
             # Analizza ogni chunk per trovare info e orientamento
             all_enrichments = []
@@ -567,7 +567,7 @@ def main():
             orientamento_details = ""
             
             for i, chunk in enumerate(chunks, 1):
-                logger.info(f"   🔄 Analisi chunk {i}/{len(chunks)}...")
+                logger.info(f"   🔄 [report:{school_code}] chunk {i}/{len(chunks)}")
                 
                 prompt = build_chunk_enrichment_prompt(
                     chunk, current_report if report_exists else "[REPORT DA CREARE]", 
@@ -585,11 +585,11 @@ def main():
                             orientamento_found = True
                             if parsed.get("orientamento_details"):
                                 orientamento_details += parsed.get("orientamento_details") + "\n"
-                            logger.info(f"      ✅ Sezione orientamento trovata in chunk {i}")
+                            logger.info(f"      ✅ [report:{school_code}] sezione orientamento trovata in chunk {i}")
                     else:
-                        logger.warning(f"   ⚠️ Chunk {i}: risposta non parsabile")
+                        logger.warning(f"   ⚠️ [report:{school_code}] chunk {i}: risposta non parsabile")
                 else:
-                    logger.warning(f"   ⚠️ Chunk {i}: nessuna risposta")
+                    logger.warning(f"   ⚠️ [report:{school_code}] chunk {i}: nessuna risposta")
                 
                 time.sleep(args.wait)
             

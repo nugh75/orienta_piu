@@ -481,6 +481,7 @@ def _apply_metadata_sync(meta, school_code):
 
 
 def fill_missing_metadata_with_llm(json_path, md_path, school_code, status_callback=None):
+    process_tag = f"[pipeline:{school_code}]"
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -525,7 +526,7 @@ def fill_missing_metadata_with_llm(json_path, md_path, school_code, status_callb
         context = _build_llm_context(md_text, llm_fields)
         if context:
             if status_callback:
-                status_callback("LLM metadata scan: extracting missing fields...")
+                status_callback(f"{process_tag} metadata scan (LLM): extracting missing fields")
             llm_data = _call_metadata_llm(context, llm_fields)
             if isinstance(llm_data, dict):
                 for field in llm_fields:
@@ -869,11 +870,12 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     """
     md_stem = os.path.splitext(os.path.basename(md_file))[0]
     school_code = extract_canonical_code(md_stem)
+    process_tag = f"[pipeline:{school_code}]"
     output_base = f"{school_code}_PTOF"
     final_md_path = os.path.join(results_dir, f"{output_base}_analysis.md")
     final_json_path = os.path.join(results_dir, f"{output_base}_analysis.json")
     
-    if status_callback: status_callback(f"Processing {school_code}...")
+    if status_callback: status_callback(f"{process_tag} start")
     
     with open(md_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -883,7 +885,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     # Check if we need chunked analysis
     if content_size > LONG_DOC_THRESHOLD:
         logging.info(f"[Pipeline] Long document ({content_size} chars) - using chunked analysis")
-        if status_callback: status_callback(f"Long doc ({content_size//1000}k chars) - chunking...")
+        if status_callback: status_callback(f"{process_tag} analyst chunking ({content_size//1000}k chars)")
         
         # Split document
         chunks = smart_split(content, CHUNK_SIZE)
@@ -894,7 +896,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         partial_results = []
         for i, chunk in enumerate(chunks):
             if status_callback:
-                status_callback(f"Analyst: Chunk {i+1}/{len(chunks)}...")
+                status_callback(f"{process_tag} analyst chunk {i+1}/{len(chunks)}")
 
             attempt = 0
             while True:
@@ -905,7 +907,9 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                         msg = f"[Pipeline] Chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (empty response)."
                         logging.error(msg)
                         if status_callback:
-                            status_callback(f"{msg} Stop.")
+                            status_callback(
+                                f"{process_tag} analyst chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (empty response)"
+                            )
                         return None
                     wait_time = min(CHUNK_RETRY_BASE_WAIT * (2 ** (attempt - 1)), CHUNK_RETRY_MAX_WAIT)
                     logging.warning(
@@ -913,7 +917,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                     )
                     if status_callback:
                         status_callback(
-                            f"Retry chunk {i+1}: empty response ({attempt}/{CHUNK_RETRY_MAX})."
+                            f"{process_tag} retry chunk {i+1}: empty response ({attempt}/{CHUNK_RETRY_MAX})"
                         )
                     time.sleep(wait_time)
                     continue
@@ -929,7 +933,9 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                         msg = f"[Pipeline] Chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (parse error)."
                         logging.error(f"{msg} Last error: {e}")
                         if status_callback:
-                            status_callback(f"{msg} Stop.")
+                            status_callback(
+                                f"{process_tag} analyst chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (parse error)"
+                            )
                         return None
                     wait_time = min(CHUNK_RETRY_BASE_WAIT * (2 ** (attempt - 1)), CHUNK_RETRY_MAX_WAIT)
                     logging.warning(
@@ -937,7 +943,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                     )
                     if status_callback:
                         status_callback(
-                            f"Retry chunk {i+1}: parse failed ({attempt}/{CHUNK_RETRY_MAX})."
+                            f"{process_tag} retry chunk {i+1}: parse failed ({attempt}/{CHUNK_RETRY_MAX})"
                         )
                     time.sleep(wait_time)
         
@@ -947,7 +953,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         
         # Synthesize if we have a synthesizer
         if synthesizer and len(partial_results) > 1:
-            if status_callback: status_callback("Synthesizer: Combining results...")
+            if status_callback: status_callback(f"{process_tag} synthesizer combine")
             draft = synthesizer.synthesize(partial_results)
             draft = sanitize_json(draft)
         elif len(partial_results) == 1:
@@ -959,7 +965,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
             draft = json.dumps(merged)
     else:
         # Standard single-pass analysis
-        if status_callback: status_callback("Analyst: Drafting report...")
+        if status_callback: status_callback(f"{process_tag} analyst draft")
         draft = analyst.draft_report(content)
         if not draft: return None
         draft = sanitize_json(draft)
@@ -982,7 +988,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         pass
 
     # 2. Critique
-    if status_callback: status_callback("Reviewer: Critiquing...")
+    if status_callback: status_callback(f"{process_tag} reviewer critique")
     critique = reviewer.critique_report(content, narrative_for_review)
     
     if critique:
@@ -995,7 +1001,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     final_output = narrative_text
     refined_json_str = None
     if critique and "APPROVATO" not in critique.upper() and len(critique) > 10:
-         if status_callback: status_callback("Refiner: Improving report...")
+         if status_callback: status_callback(f"{process_tag} refiner refine")
          refined_json_str = refiner.refine_report(draft, critique)
          
          if refined_json_str:
@@ -1014,7 +1020,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
 
     # CRITICAL: Enrich JSON with MIUR metadata AFTER all LLM processing is complete
     # This ensures metadata is not overwritten by Refiner output
-    if status_callback: status_callback("Enriching metadata from MIUR database...")
+    if status_callback: status_callback(f"{process_tag} metadata enrich (MIUR+LLM)")
     enrich_json_metadata(final_json_path, school_code, force_school_id=True, md_path=md_file)
     fill_missing_metadata_with_llm(final_json_path, md_file, school_code, status_callback=status_callback)
 
@@ -1118,6 +1124,7 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
     if not final_output or not is_valid_markdown(final_output):
         logging.info(f"Output looks like JSON or is empty. Attempting to generate narrative...")
         if analysis_data:
+            if status_callback: status_callback(f"{process_tag} narrative generate")
             narrative_agent = NarrativeAgent()
             generated = narrative_agent.generate_narrative(analysis_data, school_code)
             if generated and str(generated).strip():
@@ -1135,12 +1142,15 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
 
     # Save Final MD
     atomic_write(final_md_path, final_output)
+    if status_callback: status_callback(f"{process_tag} saved report/json")
     
     # Return parsed JSON result
     try:
         with open(final_json_path, 'r') as f:
+             if status_callback: status_callback(f"{process_tag} done")
              return json.load(f)
     except:
+        if status_callback: status_callback(f"{process_tag} done")
         return {}
 
 def run_pipeline():

@@ -417,7 +417,7 @@ def main():
             # Check orientamento
             orient_check = check_orientamento_section(json_data, full_content)
             if orient_check["has_issue"]:
-                logger.warning(f"⚠️ Incongruenza orientamento: {orient_check['recommendation']}")
+                logger.warning(f"⚠️ [scores:{school_code}] incongruenza orientamento: {orient_check['recommendation']}")
             
             # Estrai e filtra score estremi
             all_scores = extract_score_items(json_data)
@@ -433,17 +433,17 @@ def main():
                 count += 1
                 continue
             
-            logger.info(f"   📊 Score estremi da verificare: {len(extreme_scores)}")
+            logger.info(f"   📊 [scores:{school_code}] score estremi da verificare: {len(extreme_scores)}")
             
             # Chunka il documento
             chunks = smart_split(full_content, max_chars=args.chunk_size)
             chunk_info = get_chunk_info(chunks)
-            logger.info(f"   📄 Documento diviso in {chunk_info['count']} chunks")
+            logger.info(f"   📄 [scores:{school_code}] documento diviso in {chunk_info['count']} chunks")
             
             # Analizza ogni chunk
             chunk_results = []
             for i, chunk in enumerate(chunks, 1):
-                logger.info(f"   🔄 Analisi chunk {i}/{len(chunks)}...")
+                logger.info(f"   🔄 [scores:{school_code}] chunk {i}/{len(chunks)}")
                 
                 prompt = build_chunk_review_prompt(
                     chunk, extreme_scores, i, len(chunks),
@@ -457,9 +457,9 @@ def main():
                     if parsed:
                         chunk_results.append(parsed)
                     else:
-                        logger.warning(f"   ⚠️ Chunk {i}: risposta non parsabile")
+                        logger.warning(f"   ⚠️ [scores:{school_code}] chunk {i}: risposta non parsabile")
                 else:
-                    logger.warning(f"   ⚠️ Chunk {i}: nessuna risposta")
+                    logger.warning(f"   ⚠️ [scores:{school_code}] chunk {i}: nessuna risposta")
                 
                 time.sleep(args.wait)
             

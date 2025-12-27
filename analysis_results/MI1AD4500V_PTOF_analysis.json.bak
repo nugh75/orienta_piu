@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "school_id": "MI1AD4500V",
+    "denominazione": "Scuola Dell'Infanzia Montessori Bilingue",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2025-2028",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Palmieri 72/4",
+    "cap": "20141",
+    "email": "-segreteria@montessoribilingue.it",
+    "pec": "ND",
+    "website": "www.montessoribilingue.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non è trattato in una sezione dedicata. È menzionato in relazione alla transizione alla scuola media, ma in modo generico."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "AMI (Association Montessori Internationale)",
+        "Aquamore Bocconi Sport Center",
+        "Associazione sportiva Airone Bianco"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "Il metodo Montessori, attento alle esigenze di ogni singolo bambino",
+        "evidence_location": "Pag. 7"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Il bambino è invitato a mantenere l’ordine dell’ambiente, a rispettare i compagni",
+        "evidence_location": "Pag. 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "Nessuna evidenza diretta",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "facilitiamo il passaggio alla scuola media",
+        "evidence_location": "Pag. 4"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "Nessuna evidenza diretta",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4,
+        "note": "Pur essendo presente una varietà di laboratori (arte, circo, karate), manca un'esplicita integrazione con percorsi di orientamento professionale o di sviluppo di competenze trasversali rilevanti per il futuro."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corso di nuoto",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso di nuoto presso la piscina Aquamore Bocconi Sport Center.",
+      "5w_chi": "Alunni della scuola primaria",
+      "5w_cosa": "Lezioni di nuoto",
+      "5w_dove": "Piscina Aquamore Bocconi Sport Center",
+      "5w_quando": "Settimanalmente",
+      "5w_perche": "Sviluppo delle capacità motorie",
+      "ore_dichiarate": "ND",
+      "target": "Alunni della scuola primaria",
+      "evidence_quote": "Una volta alla settimana gli allievi vengono accompagnati con un pullman privato presso la piscina del Aquamore Bocconi Sport Center",
+      "evidence_location": "Pag. 21"
+    },
+    {
+      "titolo_attivita": "Giocoleria e Arti Circensi",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività ludiche e tecniche di giocoleria, preacrobatica e clownerie.",
+      "5w_chi": "Bambini della scuola primaria",
+      "5w_cosa": "Sviluppo della coordinazione, fiducia in sé stessi e creatività",
+      "5w_dove": "Scuola",
+      "5w_quando": "Monosettimanale, 1 ora",
+      "5w_perche": "Sviluppo fisico, emotivo e relazionale",
+      "ore_dichiarate": "30",
+      "target": "Bambini della scuola primaria",
+      "evidence_quote": "Un modo di fare attività diverso e completo sotto tutti i punti di vista",
+      "evidence_location": "Pag. 22"
+    },
+    {
+      "titolo_attivita": "Karate",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Lezioni di karate focalizzate sullo sviluppo fisico e mentale.",
+      "5w_chi": "Ragazzi della scuola primaria",
+      "5w_cosa": "Apprendimento delle tecniche del karate",
+      "5w_dove": "Scuola",
+      "5w_quando": "Monosettimanale, 55 minuti",
+      "5w_perche": "Sviluppo della fiducia in sé stessi e disciplina",
+      "ore_dichiarate": "30",
+      "target": "Ragazzi della scuola primaria",
+      "evidence_quote": "Mente, spirito e cuore per crescere insieme",
+      "evidence_location": "Pag. 23"
+    }
+  ],
+  "narrative": "## Analisi del PTOF MI1AD4500V\n\n### 1. Sintesi Generale\nIl PTOF della Scuola Montessori Bilingue di Milano presenta un approccio pedagogico solido e ben definito, centrato sul metodo Montessori e sul bilinguismo. Tuttavia, l'orientamento in uscita risulta essere un aspetto poco sviluppato e non sistematico. Sebbene siano presenti attività extracurricolari che contribuiscono allo sviluppo delle competenze degli alunni, manca una visione strategica e una sezione dedicata all'orientamento scolastico e professionale.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nIl PTOF non include una sezione dedicata all'orientamento, rappresentando una lacuna significativa. L'orientamento è un elemento cruciale per la crescita e lo sviluppo degli alunni, e la sua assenza in una sezione specifica denota una mancanza di attenzione strategica.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con diverse realtà esterne, tra cui Opera Nazionale Montessori, AMI, Aquamore Bocconi Sport Center e l'Associazione sportiva Airone Bianco. Il punteggio di partnership è stato rivisto a 3, in quanto queste collaborazioni, pur offrendo opportunità di arricchimento, non sono esplicitamente finalizzate a percorsi di orientamento professionale o all'esplorazione di opportunità formative.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'azione educativa sono orientate allo sviluppo delle attitudini, degli interessi e della crescita personale degli alunni. Tuttavia, manca una chiara definizione degli obiettivi specifici relativi all'orientamento, come la consapevolezza delle proprie capacità e l'esplorazione delle opportunità formative e professionali.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti e il rapporto scuola-genitori. L'analisi della governance rivela l'assenza di ruoli specifici dedicati all'orientamento, come tutor o coordinatori, né di una struttura organizzativa che supporti la progettazione e l'implementazione di un sistema di orientamento integrato. Questo rappresenta un limite nella capacità della scuola di affrontare in modo sistematico le esigenze orientative degli alunni.\n\n#### 2.5 Didattica Orientativa\nLa didattica è improntata all'esperienza, alla laboratorialità, alla flessibilità degli spazi e dei tempi e all'interdisciplinarità. Queste metodologie favoriscono lo sviluppo delle competenze degli alunni e la loro capacità di apprendere in modo autonomo. Il punteggio relativo alla didattica laboratoriale è stato rivisto a 4, poiché, sebbene i laboratori siano presenti, manca un'esplicita integrazione con percorsi di orientamento o lo sviluppo di competenze trasversali rilevanti per il futuro.\n\n#### 2.6 Opportunità Formative\nLa scuola offre diverse attività opzionali, tra cui laboratori artistici, attività sportive e corsi di lingua inglese. Queste attività contribuiscono ad ampliare gli interessi degli alunni e a sviluppare le loro competenze. Tuttavia, non sono presenti attività specifiche di orientamento professionale.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Corso di nuoto\nIl corso di nuoto, tenuto presso la piscina Aquamore Bocconi Sport Center, offre agli alunni della scuola primaria l'opportunità di sviluppare le proprie capacità motorie e di acquisire competenze acquatiche. L'attività si svolge settimanalmente e mira a promuovere il benessere fisico e la salute degli alunni.\n\n#### 2.7.2 Giocoleria e Arti Circensi\nIl laboratorio di giocoleria e arti circensi, rivolto ai bambini della scuola primaria, stimola la creatività, la coordinazione e la fiducia in sé stessi. L'attività si svolge settimanalmente e prevede l'apprendimento di tecniche di giocoleria, preacrobatica e clownerie.\n\n#### 2.7.3 Karate\nIl corso di karate, destinato ai ragazzi della scuola primaria, promuove lo sviluppo fisico, mentale e spirituale degli alunni. L'attività si svolge settimanalmente e prevede l'apprendimento delle tecniche del karate, con un focus sulla disciplina, il rispetto e l'autocontrollo.\n\n### 3. Punti di Forza\nIl punto di forza principale del PTOF è l'approccio pedagogico innovativo e centrato sullo studente, basato sul metodo Montessori e sul bilinguismo. Le attività extracurricolari offrono agli alunni opportunità di arricchimento e di apprendimento esperienziale.\n\n### 4. Aree di Debolezza\nL'area di debolezza principale è la mancanza di una sezione dedicata all'orientamento e di una visione strategica per lo sviluppo delle competenze orientative degli alunni.\n\n### 5. Gap Analysis\nIl gap principale è l'assenza di un sistema di orientamento integrato che coinvolga tutti gli attori della comunità scolastica e che offra agli alunni opportunità di esplorazione delle proprie attitudini, interessi e del mondo del lavoro.\n\n### 6. Conclusioni\nIl PTOF della Scuola Montessori Bilingue di Milano presenta un'offerta formativa di qualità, ma necessita di un maggiore focus sull'orientamento in uscita. L'inserimento di una sezione dedicata all'orientamento e la definizione di obiettivi specifici in questo ambito contribuirebbero a migliorare la preparazione degli alunni per il futuro. È inoltre necessario considerare l'integrazione di percorsi di orientamento personalizzati per alunni con bisogni educativi speciali, valorizzando i progetti esistenti per l'inclusione e l'autonomia."
+}

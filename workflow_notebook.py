@@ -90,7 +90,7 @@ for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 print("="*70, flush=True)
-print("🚀 WORKFLOW COMPLETO ANALISI PTOF", flush=True)
+print("[workflow] 🚀 WORKFLOW COMPLETO ANALISI PTOF", flush=True)
 print(f"🕐 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", flush=True)
 print("💡 Premi Ctrl+C per uscita controllata con salvataggio", flush=True)
 print("="*70, flush=True)
@@ -144,7 +144,7 @@ while True:
         # STEP -1: VALIDAZIONE PTOF (PRE-ANALISI)
         # =====================================================
         print("\n" + "="*70, flush=True)
-        print("🔍 STEP -1: Validazione PTOF (pre-analisi)", flush=True)
+        print("[workflow] 🔍 STEP -1: Validazione PTOF (pre-analisi)", flush=True)
         print("="*70, flush=True)
 
         try:
@@ -182,7 +182,7 @@ while True:
         # STEP 0: VALIDAZIONE PRE-ANALISI
         # =====================================================
         print("\n" + "="*70, flush=True)
-        print("🔍 STEP 0: Validazione codici meccanografici", flush=True)
+        print("[workflow] 🔍 STEP 0: Validazione codici meccanografici", flush=True)
         print("="*70, flush=True)
     
         recognized_pdfs = []
@@ -372,7 +372,7 @@ while True:
         # STEP 1: CONVERSIONE PDF → MARKDOWN
         # =====================================================
         print("\n" + "="*70, flush=True)
-        print("📝 STEP 1: Conversione PDF → Markdown", flush=True)
+        print("[workflow] 📝 STEP 1: Conversione PDF → Markdown", flush=True)
         print("="*70, flush=True)
     
         from src.processing.convert_pdfs_to_md import pdf_to_markdown
@@ -410,7 +410,7 @@ while True:
             # STEP 2: ANALISI MULTI-AGENTE
             # =====================================================
             print("\n" + "="*70, flush=True)
-            print("🤖 STEP 2: Analisi Multi-Agente", flush=True)
+            print("[workflow] 🤖 STEP 2: Analisi Multi-Agente", flush=True)
             print("="*70, flush=True)
         
             # Forza reload del modulo pipeline
@@ -492,7 +492,7 @@ while True:
     # STEP 2.5: AUTO-FILL REGIONI DA COMUNI
     # =====================================================
     print("\n" + "="*70, flush=True)
-    print("🧭 STEP 2.5: Auto-fill regioni da comuni", flush=True)
+    print("[workflow] 🧭 STEP 2.5: Auto-fill regioni da comuni", flush=True)
     print("="*70, flush=True)
     
     result = subprocess.run(
@@ -507,7 +507,7 @@ while True:
     # STEP 3: REBUILD CSV DA JSON
     # =====================================================
     print("\n" + "="*70, flush=True)
-    print("📊 STEP 3: Rebuild CSV da JSON", flush=True)
+    print("[workflow] 📊 STEP 3: Rebuild CSV da JSON", flush=True)
     print("="*70, flush=True)
     
     # Esegui rebuild_csv_clean.py
@@ -523,7 +523,7 @@ while True:
     # STEP 4: VERIFICA CSV FINALE
     # =====================================================
     print("\n" + "="*70, flush=True)
-    print("📊 STEP 4: Verifica CSV", flush=True)
+    print("[workflow] 📊 STEP 4: Verifica CSV", flush=True)
     print("="*70, flush=True)
     
     if CSV_FILE.exists():
@@ -539,7 +539,7 @@ while True:
     # STEP 5: SPOSTA PDF PROCESSATI
     # =====================================================
     print("\n" + "="*70, flush=True)
-    print("📦 STEP 5: Organizzazione file processati", flush=True)
+    print("[workflow] 📦 STEP 5: Organizzazione file processati", flush=True)
     print("="*70, flush=True)
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -563,7 +563,7 @@ while True:
     # RIEPILOGO FINALE
     # =====================================================
     print("\n" + "="*70, flush=True)
-    print("📊 RIEPILOGO FINALE", flush=True)
+    print("[workflow] 📊 RIEPILOGO FINALE", flush=True)
     print("="*70, flush=True)
     
     final_count = len(list(ANALYSIS_DIR.glob("*_analysis.json")))

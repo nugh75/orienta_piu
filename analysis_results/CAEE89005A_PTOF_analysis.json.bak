@@ -283,6 +283,22 @@
         "orientamento_found": true,
         "changes": []
       }
+    },
+    {
+      "timestamp": "2025-12-25T02:06:57.879799",
+      "activity": "ollama_report_review",
+      "model": "qwen3:32b",
+      "status": "completed",
+      "details": {
+        "action": "enrich",
+        "chunks_analyzed": 6,
+        "enrichments_found": 8,
+        "corrections_found": 3,
+        "orientamento_found": false,
+        "report_created": false,
+        "report_enriched": true,
+        "initial_issues": 1
+      }
     }
   ],
   "review_history": [
