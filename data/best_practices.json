@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T18:19:43.389544",
+  "last_updated": "2025-12-28T18:39:11.724741",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1475,
-  "schools_processed": 27,
+  "total_practices": 1534,
+  "schools_processed": 29,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -83292,6 +83292,3267 @@
         "model_used": "qwen3:32b",
         "source_file": "PVIS01600V_ptof.md",
         "chunk_source": 14
+      }
+    },
+    {
+      "id": "3b808748-0f51-404c-8e30-94b21270d789",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Indirizzo Musicale nella Scuola Secondaria",
+        "descrizione": "Attivazione di un indirizzo musicale nella Scuola Secondaria di Primo Grado, coinvolgendo le classi prime e terze. L'iniziativa prevede percorsi specifici di formazione musicale integrati nel curricolo.",
+        "metodologia": "Integrazione di attività musicali nel piano di studio con laboratori specifici e collaborazione con esperti esterni.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Arte e Creatività"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Orientamento"
+        ],
+        "target": "Studenti della Scuola Secondaria di Primo Grado (classi prime e terze)",
+        "citazione_ptof": "Nell'a.s. in corso prosegue l'indirizzo musicale nella Scuola Sec. di 1°, coinvolge le classi prime e terze.",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:20:55.566362",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "9e1c55d2-0a56-49f1-bb94-32ccce4ddc50",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Digitale Integrata per Alunni Fragili",
+        "descrizione": "Utilizzo di dispositivi digitali (LIM, Smart Board, PC/Tablet) per realizzare percorsi di didattica a distanza personalizzati, garantendo inclusione e continuità didattica per alunni con bisogni educativi speciali.",
+        "metodologia": "Implementazione di strumenti digitali e piattaforme per attività sincronizzate con la classe, con supporto personalizzato.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Inclusione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Alunni con Bisogni Educativi Speciali",
+        "citazione_ptof": "La buona dotazione informatica... funzionali alla logica dell'inclusione e alla realizzazione di percorsi per l'apprendimento.",
+        "pagina_evidenza": "Pagina 8"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:20:55.566431",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3a99d69c-4646-47f9-94bd-353c751535e5",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curricolo di Educazione Civica",
+        "descrizione": "Progettazione di un curricolo organico e sistematico di Educazione Civica, con focus su Costituzione, Agenda 2030, Cittadinanza Digitale e competenze chiave europee.",
+        "metodologia": "Integrazione di contenuti civici in tutte le discipline e attività interdisciplinari con metodologie partecipative.",
+        "tipologie_metodologia": [
+          "Educazione Civica",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Tutti gli studenti dell'istituto",
+        "citazione_ptof": "Sviluppare la competenza sociale e civica... attuare in modo organico e sistematico il Curricolo di Educazione Civica.",
+        "pagina_evidenza": "Pagina 16"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:20:55.566458",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "cc6aea77-b74f-4611-ab18-1649a43ea105",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Metodologia CLIL per Lingue Straniere",
+        "descrizione": "Applicazione della metodologia Content and Language Integrated Learning (CLIL) per potenziare competenze linguistiche in italiano, inglese e altre lingue europee.",
+        "metodologia": "Insegnamento di contenuti disciplinari attraverso l'uso della lingua straniera come veicolo comunicativo.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Lettura e Scrittura"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti di tutte le età",
+        "citazione_ptof": "Valorizzare e potenziare le competenze linguistiche... mediante l'utilizzo della metodologia Content Language Integrated Learning (CLIL).",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:20:55.566484",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b5a21e55-d8bf-492e-b7c9-02146f6e5e3c",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Nuovo Regolamento Indirizzo Musicale",
+        "descrizione": "Strutturazione di un percorso musicale conforme al D.M. 176/2022 per rendere fruibile l'indirizzo musicale e stimolare l'interesse sin dalla scuola primaria. Include attività di orientamento e integrazione tra ordini di scuola.",
+        "metodologia": "Sviluppo di un regolamento specifico per l'indirizzo musicale, con attività di orientamento e integrazione verticale tra scuola primaria e secondaria.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti, docenti, genitori",
+        "citazione_ptof": "La formulazione, adozione e applicazione del nuovo Regolamento dei Percorsi ordinamentali a indirizzo musicale...",
+        "pagina_evidenza": "Pagina 26"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:22:57.707708",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "0939c888-85cd-41c4-ba66-382131cf38af",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Orientamento Musicale",
+        "descrizione": "Attività per migliorare l'orientamento verso l'indirizzo musicale, con focus sull'inclusività e integrazione tra scuola primaria e secondaria. Coinvolge docenti, studenti e genitori.",
+        "metodologia": "Progettazione di percorsi verticali e orizzontali per favorire l'accesso all'indirizzo musicale sin dalla scuola primaria.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti, docenti, genitori",
+        "citazione_ptof": "Realizzare attività di orientamento in uscita dalla scuola secondaria di contrasto alla dispersione scolastica...",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:22:57.707848",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "190d4c32-9946-461a-9218-be682ddffb5b",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto INSIEME CON LE STEM",
+        "descrizione": "Implementazione di strumenti STEM (robotica, elettronica, microscopi) in tutti i plessi per rinnovare la didattica digitale e sviluppare competenze scientifiche e tecnologiche.",
+        "metodologia": "Acquisto di strumenti STEM e integrazione in aule e laboratori per attività pratiche e sperimentali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti (infanzia, primaria, secondaria), docenti",
+        "citazione_ptof": "Tutti i plessi dell'I.C. 'Massa 6' vedranno implementate le strumentazioni funzionali al rinnovamento della didattica digitale...",
+        "pagina_evidenza": "Pagina 40"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:22:57.707869",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "7ee96722-a946-4d1d-adf4-d8db75ecf820",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione MASSA 6",
+        "descrizione": "Programma di formazione per il personale scolastico sulla transizione digitale, con corsi su metodologie innovative, tecnologie per l'inclusione e digitalizzazione amministrativa.",
+        "metodologia": "Corsi annuali e laboratori pratici per aggiornare docenti e ATA sulle nuove tecnologie e metodologie didattiche.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti, personale ATA",
+        "citazione_ptof": "Il progetto prevede lo svolgimento di attività di animazione digitale all'interno della scuola, consistenti in attività di formazione di personale scolastico...",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:22:57.707903",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "767e9c22-f1cc-4d5d-bed6-cf70f3df9505",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi STEM e Digitali per Studenti",
+        "descrizione": "Attività strutturate per potenziare competenze STEM, digitali e di innovazione attraverso interventi specifici (ATT-827-E-1, E-2, E-3) con data di inizio e fine definite. Obiettivo: ridurre divari territoriali e migliorare apprendimenti.",
+        "metodologia": "Implementazione di laboratori STEM, corsi di coding e utilizzo di strumenti digitali in contesti didattici interdisciplinari.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Percorsi di orientamento e formazione per il potenziamento delle competenze STEM, digitali e di innovazione (ATT-827-E-1, E-2, E-3) in corso fino al 24/06/2024.",
+        "pagina_evidenza": "Pagina 49"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:25:07.138935",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "e28f3b13-13ee-4f4d-9552-8dc771382ce1",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "MIND THE GAP - Riduzione Divari Apprendimento",
+        "descrizione": "Progetto finanziato con €80.614,07 per prevenire dispersione scolastica, potenziare apertura pomeridiana e offrire tutoraggio. Obiettivo: coinvolgere 97 studenti con attività di formazione e socializzazione.",
+        "metodologia": "Tutoraggio personalizzato, estensione oraria pomeridiana e attività di gruppo per migliorare competenze e integrazione.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti a rischio dispersione",
+        "citazione_ptof": "Progetto MIND THE GAP: prevenire disagio e dispersione scolastica con attività di tutoraggio e apertura pomeridiana (D.M. 19/2024).",
+        "pagina_evidenza": "Pagina 50"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:25:07.139017",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "3d9d3e6f-e7c5-4231-b863-60c24d504197",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Ambienti Didattici Innovativi",
+        "descrizione": "Creazione di spazi didattici rinnovati in tutti gli ordini di scuola per favorire apprendimento attivo e collaborativo. Obiettivo: migliorare l'efficacia delle lezioni attraverso ambienti flessibili e tecnologici.",
+        "metodologia": "Riorganizzazione fisica delle aule, integrazione di strumenti digitali e metodologie laboratoriali interdisciplinari.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Sono stati allestiti AMBIENTI DIDATTICI INNOVATIVI in tutti gli ordini di scuola.",
+        "pagina_evidenza": "Pagina 50"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:25:07.139039",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "719c7470-f3b1-4e0c-8032-33e8a6ce8e5b",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Progetto Accoglienza Pre-scuola",
+        "descrizione": "Iniziativa per permettere l'ingresso anticipato degli alunni alle ore 7:50 su richiesta delle famiglie. Obiettivo: migliorare l'organizzazione e l'accoglienza.",
+        "metodologia": "Gestione flessibile dell'orario scolastico con accordi personalizzati con le famiglie.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Su richiesta delle famiglie è possibile attivare il progetto accoglienza pre-scuola con ingresso anticipato alle ore 7:50.",
+        "pagina_evidenza": "Pagina 52"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:25:07.139078",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "9b0c6987-75bb-4c69-b72e-cd54728298d5",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Educazione alla cittadinanza digitale responsabile",
+        "descrizione": "Il curricolo prevede l'insegnamento trasversale dell'uso consapevole delle tecnologie digitali, con focus su sicurezza, identità digitale e prevenzione del cyberbullismo. Gli studenti imparano a distinguere informazioni veritiere da false e a utilizzare strumenti digitali in modo etico.",
+        "metodologia": "Integrazione di obiettivi digitali in tutte le discipline, utilizzo di piattaforme didattiche e attività pratiche con dispositivi digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti delle classi IV e V della scuola primaria",
+        "citazione_ptof": "Riconoscere semplici fonti di informazioni digitali. Utilizzare le tecnologie per elaborare semplici prodotti digitali.",
+        "pagina_evidenza": "Pagina 83"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:27:04.350202",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "4f845dc6-dcc1-4212-ac52-ec780b4421b9",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Approccio interdisciplinare all'educazione civica",
+        "descrizione": "L'educazione civica viene insegnata in modo trasversale in tutte le discipline (Arte, Geografia, Scienze, ecc.), con obiettivi specifici come la tutela del patrimonio culturale e la gestione responsabile delle risorse naturali.",
+        "metodologia": "Coordinamento tra docenti di diverse discipline per sviluppare competenze civiche attraverso progetti integrati.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti di tutte le classi della scuola primaria",
+        "citazione_ptof": "Identificare nel proprio ambiente di vita gli elementi che costituiscono il patrimonio artistico e culturale.",
+        "pagina_evidenza": "Pagina 78"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:27:04.350262",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "06682afe-e52e-4113-816d-706bcbd45ddb",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Prevenzione del bullismo e cyberbullismo",
+        "descrizione": "Il curricolo include obiettivi specifici per riconoscere, evitare e contrastare forme di violenza e cyberbullismo, con attività educative integrate in tutte le discipline.",
+        "metodologia": "Discussione di casi concreti, simulazioni di interazione digitale e laboratori di relazione interpersonale.",
+        "tipologie_metodologia": [
+          "Debate",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti delle classi IV e V della scuola primaria",
+        "citazione_ptof": "Riconoscere, evitare e contrastare le varie forme di bullismo e cyberbullismo.",
+        "pagina_evidenza": "Pagina 88"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:27:04.350286",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "63c9bcd5-6c54-4b7d-adc1-adc86ab204a7",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione finanziaria per la scuola primaria",
+        "descrizione": "Gli studenti imparano a gestire piccole risorse economiche, comprendendo concetti come spesa, risparmio e ricavo attraverso attività pratiche e simulazioni.",
+        "metodologia": "Utilizzo di giochi di ruolo e progetti di budgeting in contesti reali.",
+        "tipologie_metodologia": [
+          "Gamification",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti di tutte le classi della scuola primaria",
+        "citazione_ptof": "Conoscere e spiegare il valore, la funzione e le semplici regole di uso del denaro nella vita quotidiana.",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:27:04.350306",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "da6281a7-9972-4fa6-bb6c-cc76f341b8e0",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Conoscenza e partecipazione alla comunità locale",
+        "descrizione": "Gli studenti approfondiscono la storia e le istituzioni locali (bandiere, inno, enti comunali) e partecipano a iniziative di rappresentanza studentesca.",
+        "metodologia": "Visite guidate, ricerca documentale e collaborazione con enti locali per progetti di cittadinanza attiva.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti delle classi I, II e III della scuola secondaria di I grado",
+        "citazione_ptof": "Conoscere il valore e il significato della appartenenza alla comunità locale e a quella nazionale.",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:27:04.350328",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "fe392bb1-314e-4322-a944-e0a296943073",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto 'Diversi ma Uguali - Il nostro il vostro orto'",
+        "descrizione": "Iniziativa inclusiva che coinvolge bambini e persone diversamente abili in attività di orticoltura, compostaggio e riciclo, promuovendo rispetto per l'ambiente e l'accoglienza delle diversità.",
+        "metodologia": "Lavoro pratico in orto con attività sensoriali e cooperative, supportato da uscite didattiche e manipolazione di materiali organici.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Scuola dell'infanzia",
+        "citazione_ptof": "Competenze che è possibile sviluppare grazie all'iniziativa: Promuovere il rispetto per la terra e l'ambiente in generale.",
+        "pagina_evidenza": "Pagina 120"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:28:06.624904",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "d5934dda-4f9a-4daf-9e87-7def3fb7c634",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Curricolo Verticale Integrato",
+        "descrizione": "Struttura curricolare che facilita il passaggio tra ordini di scuola, con integrazione dell'educazione civica e progetti di continuità tra infanzia, primaria e secondaria.",
+        "metodologia": "Coordinamento interdisciplinare e interordini con documentazione allegata (allegato 7_CURRICOLO VERTICALE).",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Educazione Civica"
+        ],
+        "target": "Studenti e docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Il curricolo verticale è funzionale a facilitare il percorso dell'alunno all'interno dell'istituto.",
+        "pagina_evidenza": "Pagina 113"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:28:06.624952",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "d6884ab2-f43d-4357-951a-f05cf905e5b5",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori del Sapere Scientifico",
+        "descrizione": "Progetti STEM che uniscono scienze, tecnologia e sensibilizzazione ambientale, con attività sperimentali e uscite didattiche (es. osservazione del mare e monti).",
+        "metodologia": "Approccio laboratoriale con manipolazione di materiali e ipotesi scientifiche, supportato da uscite sul territorio.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Scuola dell'infanzia e primaria",
+        "citazione_ptof": "L’iniziativa seguirà i parametri e la metodologia dei laboratori del sapere scientifico.",
+        "pagina_evidenza": "Pagina 118"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:28:06.624971",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "5c4bc2ab-e661-4874-bf3d-cb8b93ed278f",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio STEM con Tinkering e Coding",
+        "descrizione": "Attività laboratoriali interdisciplinari che integrano STEM, coding unplugged, sperimentazione con strumenti digitali e materiali fisici, favorendo problem solving e pensiero computazionale in contesti ludici.",
+        "metodologia": "Utilizzo di metodologie come Tinkering, Coding (plugged/unplugged), Problem Based Learning e Cooperative Learning in ambienti di apprendimento innovativi.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Coding e Pensiero Computazionale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti Scuola Primaria e Secondaria",
+        "citazione_ptof": "L'azione si svilupperà per progetti affinchè l'apprendimento sia cooperativo, basato sulla risoluzione di problemi (Problem Based Learning)...",
+        "pagina_evidenza": "Pagina 137"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:29:25.504046",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "79e939f0-f08e-4608-929f-a2127bf127e3",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Podcasting Educativo Multidisciplinare",
+        "descrizione": "Produzione di podcast come strumento per potenziare competenze comunicative, creative e digitali, integrando storytelling e tecnologie in ambiti disciplinari diversi.",
+        "metodologia": "Applicazione di metodologie basate sull'esperienza, utilizzo critico delle tecnologie e attività laboratoriali per sviluppare competenze STEM e digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Storytelling",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Lettura e Scrittura",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti Scuola Primaria e Secondaria",
+        "citazione_ptof": "Produrre podcast a scuola offre la possibilità di attivare esperienze educative e formative nei diversi ambiti disciplinari...",
+        "pagina_evidenza": "Pagina 142"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:29:25.504137",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c8ceddd8-fae9-4cd9-9522-7ab4df77741d",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Robotica Educativa per Pensiero Computazionale",
+        "descrizione": "Percorsi multidisciplinari che utilizzano kit di robotica per sviluppare competenze STEM, progettazione collaborativa e risoluzione di problemi in contesti significativi.",
+        "metodologia": "Implementazione di metodologie laboratoriali, cooperative learning e coding unplugged per stimolare creatività e analisi logica.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Coding e Pensiero Computazionale",
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti Scuola Primaria e Secondaria",
+        "citazione_ptof": "Imparare a progettare, condividere, collaborare e comunicare attraverso l’utilizzo di kit di robotica educativa...",
+        "pagina_evidenza": "Pagina 144"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:29:25.504166",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "29c44058-fb72-4dfd-a9b3-95a936fe4d38",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Astronomia come Apprendimento Basato sui Problemi",
+        "descrizione": "Progetti interdisciplinari che applicano concetti STEM all'esplorazione astronomica, favorendo collaborazione e soluzione di problemi reali.",
+        "metodologia": "Utilizzo di metodologie basate sull'esperienza, attività laboratoriali e approccio interdisciplinare per contesti STEM.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Problem Based Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Orientamento",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti Scuola Secondaria",
+        "citazione_ptof": "Gli studenti lavoreranno su sfide del mondo reale applicando conoscenze STEM per trovare soluzioni...",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:29:25.504195",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "be77e401-54c4-48b8-982b-15f6ca447378",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Debate e Cooperative Learning per STEM",
+        "descrizione": "Attività di confronto argomentativo e lavoro di gruppo per sviluppare competenze logiche, comunicative e collaborative in contesti STEM.",
+        "metodologia": "Applicazione di metodologie cooperative e di problem solving attraverso dibattiti strutturati e progetti di gruppo.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Debate",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti Scuola Primaria",
+        "citazione_ptof": "Debate (confronto fra squadre che argomentano tesi contrapposte su specifiche tematiche)...",
+        "pagina_evidenza": "Pagina 135"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:29:25.504221",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "a99865d4-2e16-4a2e-8d58-b18b3cac60a7",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratori STEM con Materiali Poveri",
+        "descrizione": "Attività pratiche in laboratorio di scienze, geometria e arti creative utilizzando materiali poveri per sviluppare competenze tecniche e creative. Esempi: costruzione di modellini del sistema solare, cartapesta, street art.",
+        "metodologia": "Didattica laboratoriale con approccio sperimentale e uso di strumenti accessibili per stimolare la creatività e il pensiero scientifico.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Attività nel laboratorio di scienze (costruzione di bilance, realizzazione di modellini sul sistema solare...)",
+        "pagina_evidenza": "Pagina 156"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:31:09.803082",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "611ca27c-ed31-4313-b3be-a51269eedad0",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazione Lingua Inglese Trinity",
+        "descrizione": "Progetto per acquisire competenze comunicative in inglese attraverso musica, teatro e storytelling, culminante in certificazioni Trinity. Include attività di ascolto, role play e simulazioni d'esame.",
+        "metodologia": "Metodologia CLIL integrata con approccio ludico e attività orali strutturate.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti scuola primaria e secondaria di primo grado",
+        "citazione_ptof": "Certificazione L2 a.s. 2024-2025 con esami Trinity e attività di ascolto, role play...",
+        "pagina_evidenza": "Pagina 163"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:31:09.803135",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "6107653d-7579-4b57-a633-7f707f580435",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Orto Inclusivo per Diversamente Abili",
+        "descrizione": "Progetto di coltivazione dell'orto per favorire l'inclusione di studenti diversamente abili e normodotati. Include attività sensoriali, riconoscimento semi e lavori di cura del terreno.",
+        "metodologia": "Service Learning con approccio multisensoriale e collaborativo.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti scuola dell'infanzia e primaria",
+        "citazione_ptof": "IL NOSTRO IL VOSTRO ORTO: esperienze inclusive con persone diversabili...",
+        "pagina_evidenza": "Pagina 170"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:31:09.803188",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ef20aac9-1e70-400c-b963-69857027a8fb",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Giochi Matematici Tetrapyramis",
+        "descrizione": "Competizioni matematiche con allenamenti strutturati, gare eliminatorie via Google Meet e finale a Bologna. Coinvolge studenti della secondaria di primo grado.",
+        "metodologia": "Problem Based Learning con attività di formazione e gare competitive.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Matematica e Logica",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti scuola secondaria di primo grado",
+        "citazione_ptof": "GIOCHI MATEMATICI a.s. 2024-2025 con allenamenti e gare eliminatorie...",
+        "pagina_evidenza": "Pagina 167"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:31:09.803208",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "b5b36701-bb8d-4a0b-af6d-b8b4341a0ab6",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio Teatrale Interculturale",
+        "descrizione": "Progetto di teatro e drammatizzazione per sviluppare competenze espressive, interculturali e di cittadinanza. Include rappresentazioni finali e lezioni aperte in contesti sociali.",
+        "metodologia": "Didattica laboratoriale integrata con metodologie artistiche e interculturali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti scuola secondaria di primo grado",
+        "citazione_ptof": "PALCOSCENICO: lezioni aperte teatrali e rappresentazioni finali con coinvolgimento di RSA e strutture sanitarie.",
+        "pagina_evidenza": "Pagina 172"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:31:09.803228",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "c8b09dc5-3526-46a1-82ea-0cb8e80b16fd",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Galleria d'Arte Studentesca",
+        "descrizione": "Allestimento di una mostra permanente con opere degli alunni, culminante in una giornata di presentazione alle famiglie dove gli studenti spiegano tecniche artistiche e realizzano laboratori condivisi.",
+        "metodologia": "Integrazione di produzione artistica, presentazione pubblica e collaborazione intergenerazionale",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Giornata conclusiva con l’ingresso a Scuola delle famiglie per visitare la 'Galleria d’arte'",
+        "pagina_evidenza": "Pagina 174"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:32:23.481328",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "dc77f6ba-c82d-4686-bf55-76916523783f",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Arte en Plein Air",
+        "descrizione": "Uscita didattica sul territorio per disegno dal vivo, con focus sullo sviluppo di abilità sociali, cognitive e creative in ambiente naturale.",
+        "metodologia": "Apprendimento esperienziale in contesto esterno con attività di gruppo",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Arte 'en plein air'; è prevista per gli alunni, un’uscita sul territorio per esperire il disegno dal vivo",
+        "pagina_evidenza": "Pagina 174"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:32:23.481423",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "cf097a6d-8587-40b1-a0a7-8cf8b2907522",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Mare - Habitat e Abitanti",
+        "descrizione": "Attività scientifiche basate sulle fasi LSS (Esplorazione, Rielaborazione, Verifica) con strumenti multimediali e creazione di mini-ecosistemi in classe.",
+        "metodologia": "Metodologia LSS integrata con strumenti digitali e sperimentazione pratica",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Il progetto intende portare i bambini alla conoscenza dell'ambiente circostante attraverso la metodologia dei Laboratori del Sapere Scientifico (LSS)",
+        "pagina_evidenza": "Pagina 175"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:32:23.481462",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "f5c34e86-2999-4d20-8911-68eea3afec28",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Biblioteca di Classe",
+        "descrizione": "Creazione di una biblioteca gestita dagli studenti con catalogazione per genere, letture guidate e iniziative di donazione di libri.",
+        "metodologia": "Gestione autonoma da parte degli studenti con attività di catalogazione e promozione della lettura",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Allestito un angolo biblioteca con libri donati, catalogazione per genere e attività di lettura guidata",
+        "pagina_evidenza": "Pagina 182"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:32:23.481497",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "4ab0ec98-86f5-47d1-bc5e-cf58e6e1f5ae",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Presepe in Famiglia",
+        "descrizione": "Concorso di presepi realizzati a casa con valutazione critica da parte dei ragazzi, promuovendo creatività e apprezzamento del lavoro altrui.",
+        "metodologia": "Attività di creazione artistica seguita da analisi critica e giudizio partecipativo",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Concorso per votare il miglior presepe familiare, con focus sull'apprezzamento del lavoro altrui",
+        "pagina_evidenza": "Pagina 182"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:32:23.481530",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9cd925fc-d07f-4d1d-8613-9b0f728def35",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "S.O.S. TERRA - Educazione Ambientale",
+        "descrizione": "Progetto per promuovere atteggiamenti rispettosi verso l'ambiente attraverso attività grafico-pittoriche, letture tematiche, uscite sul territorio e drammatizzazioni. Collegato a competenze scientifiche e sostenibilità.",
+        "metodologia": "Attività laboratoriali, uscite didattiche, drammatizzazioni e coinvolgimento delle famiglie in lezioni aperte.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della scuola primaria e secondaria",
+        "citazione_ptof": "Il progetto intende favorire atteggiamenti e comportamenti rispettosi verso la natura e tutte le forme per conoscere e rispettare l’ambiente.",
+        "pagina_evidenza": "Pagina 201"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:33:39.975720",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "334f1826-319d-4869-a1ac-df33652ff227",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "SMONTA IL BULLO - Prevenzione Bullismo",
+        "descrizione": "Progetto per contrastare il bullismo attraverso attività di riconoscimento emotivo, simulazioni, letture e drammatizzazioni. Obiettivo: costruire interrelazioni positive e promuovere la cittadinanza attiva.",
+        "metodologia": "Brainstorming, role-playing, analisi di testi letterari e produzione di canovacci teatrali.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Storytelling",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "Il progetto mira a costruire interrelazioni positive attraverso il riconoscimento delle emozioni, delle differenze fra prepotenze e bullismo.",
+        "pagina_evidenza": "Pagina 204"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:33:39.975821",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "884472fc-2f18-42b4-ac48-21595aec48cd",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "ATELIER CREATIVI - Competenze Digitali",
+        "descrizione": "Laboratori multifunzionali per sviluppare competenze digitali, pensiero computazionale e prototipazione (robotica educativa, stampa 3D). Obiettivo: inclusione e cittadinanza digitale.",
+        "metodologia": "Progettazione in realtà virtuale, stampa 3D, utilizzo di software dedicati e laboratori tematici.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Imprenditorialità",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di scuola primaria e secondaria",
+        "citazione_ptof": "Il progetto intende sviluppare le competenze di cittadinanza digitale e favorire l'inclusione.",
+        "pagina_evidenza": "Pagina 219"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:33:39.975840",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "7b430c7e-c77b-419e-8ba2-0decc7678216",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "UN ARCOBALENO DI EMOZIONI - Autostima",
+        "descrizione": "Progetto per rafforzare autostima e capacità espressive attraverso teatro, canto, movimenti coreografici e scrittura creativa. Risultato: spettacoli natalizi e finali.",
+        "metodologia": "Esercizi di espressione corporea, drammatizzazioni, scrittura di canovacci e collaborazione interclasse.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Arte e Teatro",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Il progetto intende promuovere la fiducia in se stessi e l’autostima attraverso la sperimentazione di linguaggi espressivi diversi.",
+        "pagina_evidenza": "Pagina 206"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:33:39.975856",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "6877f5ab-072c-4657-8769-0095ed815b91",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "PARINI NEWS - Lingue Straniere",
+        "descrizione": "Progetto per sviluppare competenze comunicative in inglese e francese attraverso la produzione di un giornalino bilingue. Obiettivo: migliorare l'autostima e la collaborazione.",
+        "metodologia": "Ricerca tematica, scrittura di articoli, impaginazione digitale e condivisione su piattaforme online.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Imprenditorialità",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Il progetto intende rafforzare le conoscenze e le abilità in inglese e in francese attraverso un approccio pratico e laboratoriale.",
+        "pagina_evidenza": "Pagina 212"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:33:39.975870",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "fec53510-3cfc-400a-b20c-70ec746deb9c",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto Ponte per Alunni con Disabilità",
+        "descrizione": "Attività di transizione scolastica per alunni con disabilità tra ordini di scuola, con visite guidate e progettazione congiunta tra scuole e famiglie per facilitare il passaggio e prevenire la dispersione.",
+        "metodologia": "Co-progettazione con famiglie e scuole di destinazione, modulistica personalizzata, collaborazione con figure specialistiche (FS continuità, FS inclusione).",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Collaborative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Alunni con disabilità e famiglie",
+        "citazione_ptof": "Progetto ponte di raccordo scuola precedente e scuola di destinazione per accompagnare gli alunni con disabilità.",
+        "pagina_evidenza": "Pagina 229"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:35:00.320153",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "dc769916-dfa9-4657-9d6f-3a4b5f0356b2",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corsa Contro la Fame",
+        "descrizione": "Iniziativa che unisce sport e solidarietà per sviluppare cittadinanza attiva, con eventi conclusivi, testimonianze di sportivi e raccolta fondi per cause umanitarie.",
+        "metodologia": "Webinar formativi, attività di ricerca e sensibilizzazione in classe, collaborazione con esperti di Azione contro la Fame.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sport e Benessere"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Realizzazione di un evento conclusivo che coinvolga tutti gli alunni dell'Istituto come momento finale di un percorso volto alla solidarietà.",
+        "pagina_evidenza": "Pagina 227"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:35:00.320281",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "02eed108-8988-489c-ac95-53e8dd3454ec",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Pronto Soccorso Informatico",
+        "descrizione": "Supporto tecnico e formazione per docenti sull'utilizzo di strumenti digitali, con interventi di manutenzione e corsi personalizzati su richiesta.",
+        "metodologia": "Assistenza diretta su hardware/software, formazione modulare richiesta dai docenti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Agevolare i docenti nell'utilizzo degli ausili digitali attraverso supporto tecnico e formazione.",
+        "pagina_evidenza": "Pagina 231"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:35:00.320327",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "bff4e60d-8b00-4f14-a291-3ed4ddb3901a",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Edugreen - Giardini Didattici Sostenibili",
+        "descrizione": "Creazione di orti didattici nei plessi scolastici per insegnare sostenibilità, ecologia e consumo responsabile attraverso esperienze pratiche.",
+        "metodologia": "Laboratori di agricoltura urbana, integrazione con curricolo trasversale di educazione civica e curricoli STEM.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Educazione Civica"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Allestimento di giardini e orti didattici innovativi e sostenibili per migliorare competenze trasversali.",
+        "pagina_evidenza": "Pagina 234"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:35:00.320349",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "4bad259e-de05-4b29-ab2b-c994835a7ac0",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Formazione Digitale con Strumenti STEM",
+        "descrizione": "Corsi per docenti sull'utilizzo di strumenti STEM (robotica, coding, stampanti 3D) e software didattici (Geogebra, Scratch) per potenziare competenze digitali e pensiero computazionale.",
+        "metodologia": "Formazione modulare con corsi specifici per grado scolastico e strumenti tecnologici.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Formazione su strumenti STEM e software specifici per migliorare competenze digitali dei docenti.",
+        "pagina_evidenza": "Pagina 239"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:35:00.320367",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "3d71d03f-1e24-4896-8b0c-8cddcf96f353",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Gruppi di lavoro integrati con esperti e genitori",
+        "descrizione": "Costituzione di gruppi di lavoro con esperti esterni e genitori per gestire alunni con BES/disabilità. Coinvolgimento costante del Collegio Docenti nel monitoraggio quantitativo dei PDP/PEI.",
+        "metodologia": "Collaborazione interdisciplinare tra scuola, famiglie e professionisti esterni per definire strategie personalizzate e condividere dati sull'efficacia degli interventi.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Alunni con BES/disabilità, docenti, genitori",
+        "citazione_ptof": "la costituzione di gruppi di lavoro integrati con esperti esterni e genitori; la nomina di FF.S.S. coordinatrici di differenti commissioni...",
+        "pagina_evidenza": "Pagina 247"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:36:26.535494",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "88801d40-e340-45a2-8233-e19db6cc5cb0",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Monitoraggio quantitativo PDP/PEI",
+        "descrizione": "Analisi sistematica della situazione BES/alunni stranieri con monitoraggio dei PDP/PEI in presenza/assenza di certificazione sanitaria, con coinvolgimento del Collegio Docenti.",
+        "metodologia": "Utilizzo di strumenti di raccolta dati standardizzati per valutare l'efficacia degli interventi e adattarli in base ai risultati.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Alunni con BES, docenti",
+        "citazione_ptof": "Viene realizzato un monitoraggio quantitativo della situazione BES/alunni stranieri e dei relativi PEI e PDP...",
+        "pagina_evidenza": "Pagina 248"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:36:26.535606",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "6874a297-86da-48bb-b565-e8724dafa800",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione permanente docenti e personale ATA",
+        "descrizione": "Programmi di aggiornamento continuo per docenti e personale ATA, con focus su strumenti multimediali e software specifici per l'inclusione.",
+        "metodologia": "Corsi di formazione mirati all'uso di tecnologie didattiche e metodologie inclusive, con valutazione dell'efficacia.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Docenti, personale ATA",
+        "citazione_ptof": "Viene promossa la formazione permanente dei docenti e del personale ATA e si rileva una particolare attenzione nell'arricchire la dotazione di sussidi multimediali...",
+        "pagina_evidenza": "Pagina 247"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:36:26.535625",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "a46b7eb5-bcc0-4d76-90ed-6b0fc7949f1e",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti di potenziamento disciplinare",
+        "descrizione": "Attivazione di progetti per il potenziamento della lingua inglese (Madrelingua, Trinity) e dei Saperi Scientifici (LSS), con monitoraggio dei risultati in piattaforme digitali.",
+        "metodologia": "Progetti curricolari integrati con valutazione continua attraverso registri online e relazioni di classe.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Scienze e Ricerca"
+        ],
+        "target": "Alunni con attitudini o difficoltà disciplinari",
+        "citazione_ptof": "-Progetti d'Istituto per il potenziamento della lingua inglese (Madrelingua, Trinity) e dei Saperi Scientifici (LSS)...",
+        "pagina_evidenza": "Pagina 248"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:36:26.535641",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "b82e900c-d042-43d2-ac95-acf0e380827c",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Sportelli di consulenza psicopedagogica",
+        "descrizione": "Attivazione di sportelli per supporto psicopedagogico a alunni, genitori e docenti, con coinvolgimento di esperti esterni.",
+        "metodologia": "Servizio di consulenza personalizzato per affrontare bisogni educativi specifici e migliorare la collaborazione scuola-famiglia.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Prevenzione Disagio"
+        ],
+        "target": "Alunni, genitori, docenti",
+        "citazione_ptof": "Vengono inoltre attivati sportelli di consulenza psicopedagogica per alunni, genitori, docenti.",
+        "pagina_evidenza": "Pagina 248"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:36:26.535655",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "7baa9206-4951-4ce0-ade3-808dfc945d17",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Potenziamento e Sostegno per BES e Disabilità",
+        "descrizione": "Progetto di potenziamento mirato a ridurre le difficoltà di apprendimento in aree linguistiche, logico-matematiche e disciplinari, con supporto personalizzato per alunni con bisogni educativi speciali o disabilità.",
+        "metodologia": "Interventi individualizzati basati su osservazione e rilevazione delle abilità, con progettazione di percorsi adatti alle esigenze specifiche degli studenti.",
+        "tipologie_metodologia": [
+          "Didattica Personalizzata",
+          "Supporto Individualizzato"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Alunni con difficoltà di apprendimento e BES",
+        "citazione_ptof": "Le ore di potenziamento progettate sono finalizzate a rendere la scuola 'adatta' a tutti gli allievi... supporto a situazioni contingenti dei bisogni educativi speciali e delle disabilità.",
+        "pagina_evidenza": "Pagina 259"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:37:49.570987",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "93f5a548-75df-4b16-96c2-f1fe7982b2c9",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Rete di Ambito XVI per Formazione Personale Scolastico",
+        "descrizione": "Collaborazione con altre scuole e università per la formazione del personale, con focus su aggiornamenti metodologici e digitali.",
+        "metodologia": "Attività di formazione condivise e progetti di rete per migliorare le competenze del corpo docente.",
+        "tipologie_metodologia": [
+          "Formazione Collaborativa"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Digitalizzazione"
+        ],
+        "target": "Personale docente",
+        "citazione_ptof": "Denominazione della rete: Rete di Ambito XVI per la formazione del personale scolastico... Partner rete di ambito.",
+        "pagina_evidenza": "Pagina 263"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:37:49.571122",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "8a05117b-abb1-4803-9180-108dff9f85de",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Formazione Docenti su Strumenti STEM e Digitali",
+        "descrizione": "Corsi di formazione per docenti su utilizzo di strumenti STEM (es. stampanti 3D, software educativi) e metodologie digitali per l'insegnamento.",
+        "metodologia": "Lezioni pratiche e laboratori per acquisire competenze su tecnologie digitali e metodologie innovative.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti impegnati in innovazioni didattiche",
+        "citazione_ptof": "Formazione STEM: il corso... strumentazione STEM acquistata con fondi PON... Formazione STAMPANTE 3D (9 ore).",
+        "pagina_evidenza": "Pagina 270"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:37:49.571163",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "8df3d571-cd25-4555-b05a-c1a554dfc39d",
+      "school": {
+        "codice_meccanografico": "MSIC81200D",
+        "nome": "I.C. \"Massa 6\" Loc. Romagnano",
+        "tipo_scuola": "I Grado, Infanzia, Primaria",
+        "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+        "regione": "Toscana",
+        "provincia": "Massa-Carrara",
+        "comune": "Massa",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Convenzione con Università di Pisa per Tirocinanti",
+        "descrizione": "Collaborazione con l'Università di Pisa per l'accoglienza di tirocinanti, favorendo l'integrazione tra istruzione superiore e scuola.",
+        "metodologia": "Attività di mentoring e supervisione di studenti universitari durante tirocini formativi.",
+        "tipologie_metodologia": [
+          "Mentoring",
+          "Cooperazione Istituzionale"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Orientamento"
+        ],
+        "target": "Studenti universitari e personale scolastico",
+        "citazione_ptof": "Denominazione della rete: Convenzione con Università di Pisa per accoglienza tirocinanti.",
+        "pagina_evidenza": "Pagina 263"
+      },
+      "contesto": {
+        "maturity_index": 4.03,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università di Pisa"
+        ],
+        "attivita_correlate": [
+          "Recupero e Potenziamento",
+          "Moduli di orientamento formativo (Classi I, II, III)",
+          "Certificazione L2",
+          "Progetto FS Continuità-Orientamento",
+          "Laboratori del Sapere Scientifico (Rete LSS)",
+          "Rete delle Scuole che promuovono la salute"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:37:49.571183",
+        "model_used": "qwen3:32b",
+        "source_file": "MSIC81200D_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "f01a82ba-345a-405d-918e-1128a120c097",
+      "school": {
+        "codice_meccanografico": "ALTF080003",
+        "nome": "Ascanio Sobrero",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Piemonte",
+        "provincia": "Alessandria",
+        "comune": "Casale Monferrato",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con aziende locali per PCTO",
+        "descrizione": "Collaborazione con oltre 700 aziende del territorio per esperienze di PCTO, progetti di impresa simulata, confronti con esperti del mondo del lavoro e attività formative sul tema della sicurezza e cultura d'impresa.",
+        "metodologia": "Implementata attraverso progetti di potenziamento, stage aziendali e attività laboratoriali con aziende, università e enti locali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti di tutti gli indirizzi",
+        "citazione_ptof": "collaborazione con un ampio ventaglio di aziende del territorio (più di 700)... progetti di ampliamento dell’Offerta Formativa e di PCTO",
+        "pagina_evidenza": "Pagina 2"
+      },
+      "contesto": {
+        "maturity_index": 2.82,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Genova",
+          "Federazioni sportive",
+          "Palestre"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Certificazioni Cambridge",
+          "Progetto FAST"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:39:11.714169",
+        "model_used": "qwen3:32b",
+        "source_file": "ALTF080003_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "a1e3564d-36e6-4500-9820-8cfcaa771eb8",
+      "school": {
+        "codice_meccanografico": "ALTF080003",
+        "nome": "Ascanio Sobrero",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Piemonte",
+        "provincia": "Alessandria",
+        "comune": "Casale Monferrato",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorso Cambridge per certificazioni internazionali",
+        "descrizione": "Corso di Liceo Scientifico Internazionale con insegnamento in lingua inglese per esami IGCSE in materie scientifiche, con docenti madrelingua e formazione specifica per Cambridge Assessment.",
+        "metodologia": "Didattica in lingua straniera (CLIL) con integrazione di contenuti curriculari e certificazioni internazionali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti del Liceo Scientifico Internazionale",
+        "citazione_ptof": "preparazione alle certificazioni IGSCE... insegnamento in lingua straniera secondo i parametri di Cambridge Assessment",
+        "pagina_evidenza": "Pagina 4"
+      },
+      "contesto": {
+        "maturity_index": 2.82,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Genova",
+          "Federazioni sportive",
+          "Palestre"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Certificazioni Cambridge",
+          "Progetto FAST"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:39:11.714323",
+        "model_used": "qwen3:32b",
+        "source_file": "ALTF080003_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "c2881792-69cc-488d-bb01-741ef44c0b06",
+      "school": {
+        "codice_meccanografico": "ALTF080003",
+        "nome": "Ascanio Sobrero",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Piemonte",
+        "provincia": "Alessandria",
+        "comune": "Casale Monferrato",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Moduli di Intelligenza Artificiale etica e applicativa",
+        "descrizione": "Inserimento di moduli curriculari sull'IA con approfondimenti tecnici, etici e sociali, gestiti da docenti esperti e test pratici per sviluppare competenze consapevoli.",
+        "metodologia": "Progetti interdisciplinari con analisi critica e applicazioni concrete in laboratorio.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e personale docente",
+        "citazione_ptof": "moduli che trattano l'argomento sotto diversi profili: tecnico, etico, sociale, di pratica applicazione",
+        "pagina_evidenza": "Pagina 3"
+      },
+      "contesto": {
+        "maturity_index": 2.82,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Genova",
+          "Federazioni sportive",
+          "Palestre"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Certificazioni Cambridge",
+          "Progetto FAST"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:39:11.714350",
+        "model_used": "qwen3:32b",
+        "source_file": "ALTF080003_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b0a790ce-41db-4870-8b86-016fcfec11b2",
+      "school": {
+        "codice_meccanografico": "ALTF080003",
+        "nome": "Ascanio Sobrero",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Piemonte",
+        "provincia": "Alessandria",
+        "comune": "Casale Monferrato",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Liceo Scientifico Sportivo Quadriennale con università e federazioni",
+        "descrizione": "Percorso quadriennale con stage, tirocini e collaborazioni con università, enti sportivi e professionisti per integrare cultura sportiva e competenze scientifiche.",
+        "metodologia": "Interdisciplinarietà con progetti di microlingua sportiva, brevetti professionali e attività con esperti federativi.",
+        "tipologie_metodologia": [
+          "Interdisciplinarietà",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Orientamento"
+        ],
+        "target": "Studenti del Liceo Sportivo Quadriennale",
+        "citazione_ptof": "collaborazione con il Dipartimento di Medicina dell’Università di Genova e con le Facoltà tecnico-scientifiche del Territorio",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 2.82,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Genova",
+          "Federazioni sportive",
+          "Palestre"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Certificazioni Cambridge",
+          "Progetto FAST"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:39:11.714391",
+        "model_used": "qwen3:32b",
+        "source_file": "ALTF080003_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3e77438f-dfcb-4aab-b2a1-bcf1c8d13680",
+      "school": {
+        "codice_meccanografico": "ALTF080003",
+        "nome": "Ascanio Sobrero",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Piemonte",
+        "provincia": "Alessandria",
+        "comune": "Casale Monferrato",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica laboratoriale con metodologie attive",
+        "descrizione": "Apprendimento centrato sul laboratorio come spazio di sperimentazione con metodi come learning by doing, inquiry based learning e cooperative learning.",
+        "metodologia": "Attività pratiche in laboratorio con focus su pensiero critico, autonomia e rigore scientifico.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Orientamento"
+        ],
+        "target": "Studenti di tutti gli indirizzi",
+        "citazione_ptof": "Il laboratorio... applicazione dei metodi didattici: learning by doing, inquiry based learning, cooperative learning",
+        "pagina_evidenza": "Pagina 2"
+      },
+      "contesto": {
+        "maturity_index": 2.82,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Genova",
+          "Federazioni sportive",
+          "Palestre"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Certificazioni Cambridge",
+          "Progetto FAST"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:39:11.714410",
+        "model_used": "qwen3:32b",
+        "source_file": "ALTF080003_ptof.md",
+        "chunk_source": 1
       }
     }
   ]
