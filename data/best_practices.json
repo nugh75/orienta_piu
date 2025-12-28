@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:14:33.871738",
+  "last_updated": "2025-12-28T17:27:59.119387",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1298,
-  "schools_processed": 23,
+  "total_practices": 1341,
+  "schools_processed": 24,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -72865,6 +72865,2528 @@
         "extracted_at": "2025-12-28T17:14:33.769054",
         "model_used": "qwen3:32b",
         "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "ad5f60ee-a6e7-4909-9b48-00e3626ad70b",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Applicazione della metodologia CLIL",
+        "descrizione": "Valorizzazione delle competenze linguistiche con riferimento all'italiano, inglese e altre lingue UE, utilizzando la metodologia Content and Language Integrated Learning (CLIL).",
+        "metodologia": "Integrazione di contenuti disciplinari e lingua straniera in un'unica metodologia didattica.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento all'italiano nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante l'utilizzo della metodologia Content language integrated learning.",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:16:04.773656",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "22520e4d-694d-41b3-86f8-c690e50ca909",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Simulazioni periodiche Invalsi",
+        "descrizione": "Esercitazioni e simulazioni periodiche simili alle prove Invalsi per migliorare competenze linguistico-espressive e logico-matematiche, con quiz digitalizzati e autocorrezione.",
+        "metodologia": "Creazione di test digitali con autovalutazione per studenti e docenti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Creare quiz con le prove invalsi degli anni passati, per disciplina, per la scuola primaria e per la scuola secondaria, digitalizzati e con autocorrezione, in modo che ogni alunno possa sfidarsi a scuola e a casa in autonomia.",
+        "pagina_evidenza": "Pagina 27"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:16:04.773752",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "21eb5ec7-7ae8-447a-b67d-b8875937a805",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi individualizzati per BES",
+        "descrizione": "Percorsi personalizzati per alunni con bisogni educativi speciali, con collaborazione tra docenti, insegnanti di sostegno e educatori professionali.",
+        "metodologia": "Progettazione di interventi differenziati con supporto multidisciplinare.",
+        "tipologie_metodologia": [
+          "Inclusione e differenziazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con BES",
+        "citazione_ptof": "Il clima educativo dell’Istituto si distingue per l’accoglienza, l’inclusione e l’attenzione ai bisogni individuali, grazie a un’efficace collaborazione tra docenti curricolari, insegnanti di sostegno ed educatori professionali.",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:16:04.773772",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1a307a40-d29b-450e-8c2f-169205b4793a",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Incontri di continuità tra scuole",
+        "descrizione": "Favorire incontri tra quinte della primaria e classi prime della secondaria per garantire continuità educativa e ridurre la dispersione.",
+        "metodologia": "Attività di accoglienza e condivisione tra studenti di diversi ordini di scuola.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Favorire incontri di continuità tra le quinte della scuola primaria e le classi prime della scuola secondaria di I grado.",
+        "pagina_evidenza": "Pagina 27"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:16:04.773798",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1ef2a289-b6dc-4bce-a9da-489f210d82b6",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Aule Flessibili e Laboratori Innovativi",
+        "descrizione": "Creazione di ambienti di apprendimento modulabili con arredi mobili e tecnologici, laboratori scientifici, tecnologici, artistici e linguistici per favorire didattica laboratoriale e apprendimento attivo.",
+        "metodologia": "Utilizzo di spazi fisici e virtuali flessibili, dispositivi digitali per tutti e connessione stabile per attività interdisciplinari e cooperative.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Arte e Creatività"
+        ],
+        "target": "Tutti i docenti e studenti",
+        "citazione_ptof": "Aule flessibili, modulabili, con arredi mobili e tecnologici. Laboratori innovativi (scientifici, tecnologici, artistici, musicali, linguistici).",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:18:32.990294",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "c1153101-fdcc-407f-b19c-836f4e7794fa",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Sostenibilità e Spazi Verdi",
+        "descrizione": "Implementazione di edifici efficienti, spazi verdi e comfort acustico/luminoso per promuovere sostenibilità ambientale e benessere degli studenti.",
+        "metodologia": "Progettazione di infrastrutture eco-sostenibili e integrazione di temi ambientali nel curricolo.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Sostenibilità: edifici efficienti, spazi verdi, comfort acustico e luminoso.",
+        "pagina_evidenza": "Pagina 30"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:18:32.990392",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "a0a57d9e-a869-44b7-8e5d-9dcdc5d675c7",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Internazionalizzazione tramite eTwinning e Erasmus+",
+        "descrizione": "Collaborazioni con scuole europee attraverso progetti eTwinning, mobilità studentesca e certificazioni linguistiche per sviluppare competenze interculturali.",
+        "metodologia": "Utilizzo di piattaforme internazionali e partenariati strategici per scambi culturali e didattica multilingue.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Partecipazione a programmi europei (eTwinning, Erasmus+) e collaborazioni con scuole partner.",
+        "pagina_evidenza": "Pagina 50"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:18:32.990410",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "fd647aec-f7e0-495e-b9cd-4189a5360792",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio STEM 'Scopro, Costruisco, Programmo'",
+        "descrizione": "Attività di manipolazione, esplorazione e coding per sviluppare competenze STEM attraverso problem solving e tecnologie semplici.",
+        "metodologia": "Ambienti di apprendimento flessibili con attività di tinkering, robotica educativa e coding unplugged.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di scuola primaria e secondaria",
+        "citazione_ptof": "Progetto 'Scopro, Costruisco, Programmo' con manipolazione, problem solving e tecnologie semplici.",
+        "pagina_evidenza": "Pagina 54"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:18:32.990426",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8ceb93ac-dd6c-4d84-bcdf-bee2f0b90967",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Progetto 'A Scuola di Curiosità' per STEM",
+        "descrizione": "Attività di osservazione scientifica, sperimentazione e raccolta dati per sviluppare pensiero logico, matematico e computazionale.",
+        "metodologia": "Metodologie attive (IBL, PBL) e cooperative learning con focus su inclusione e cittadinanza digitale.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Matematica e Logica",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di scuola primaria e secondaria",
+        "citazione_ptof": "Progetto 'A Scuola di Curiosità' con osservazione scientifica, sperimentazione e coding.",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:18:32.990441",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "41658b5e-986e-4870-9f73-9dfcdb183860",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Modulo di Orientamento Formativo",
+        "descrizione": "Percorso strutturato per accompagnare gli studenti della Scuola Secondaria di I grado alla scelta consapevole della scuola secondaria di II grado, con focus su conoscenza di sé, contesto sociale e opportunità formative.",
+        "metodologia": "Attività graduate come 'Le scuole della felicità', 'Teatrando', uscite sul territorio e open day presso istituti secondari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della Scuola Secondaria di I grado",
+        "citazione_ptof": "accompagna gli alunni fino ai 14 anni nello sviluppo di competenze personali, sociali e decisionali attraverso percorsi graduali e mirati.",
+        "pagina_evidenza": "Pagina 62"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:19:58.725006",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "17b084c8-a906-400d-b82e-5fca099c065e",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "L’Albero dei Desideri",
+        "descrizione": "Progetto natalizio per la Scuola dell'Infanzia che promuove valori di pace, condivisione e creatività attraverso spettacoli e realizzazione di un albero simbolico.",
+        "metodologia": "Attività laboratoriale con canti, danze e costruzione di un albero realizzato dagli alunni.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Scuola dell'Infanzia",
+        "citazione_ptof": "Manifestazione natalizia con la partecipazione di tutti gli alunni... costruiranno un albero speciale.",
+        "pagina_evidenza": "Pagina 64"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:19:58.725104",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "227d6234-1c9e-454c-9494-f4f3a6d1a292",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Mercatino di Natale: L’Angolo dell’Impegno Creativo",
+        "descrizione": "Progetto di autoimprenditorialità dove gli studenti progettano, producono e vendono manufatti natalizi, promuovendo sostenibilità e solidarietà.",
+        "metodologia": "Didattica laboratoriale, apprendimento cooperativo e interdisciplinare con coinvolgimento delle famiglie.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale",
+          "Apprendimento Cooperativo"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Scuola Secondaria",
+        "citazione_ptof": "Pianificare e organizzare un evento; Ideare, progettare e realizzare un manufatto natalizio...",
+        "pagina_evidenza": "Pagina 67"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:19:58.725124",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "25c143d9-a49f-4658-b6d5-a3abb8c7bca7",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Teatrando",
+        "descrizione": "Attività teatrale per sviluppare espressione corporea, creatività e collaborazione, integrata con uscite sportive e visite a istituti secondari.",
+        "metodologia": "Utilizzo del teatro come strumento di apprendimento cooperativo e di conoscenza del sé.",
+        "tipologie_metodologia": [
+          "Teatro e Musica",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Orientamento"
+        ],
+        "target": "Studenti della Scuola Secondaria di I grado",
+        "citazione_ptof": "Teatrando: Avvio allo studio del latino, Quae manent, Giochi sportivi, Open day presso gli istituti di scuola secondaria.",
+        "pagina_evidenza": "Pagina 63"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:19:58.725138",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "fee996aa-f351-45eb-a078-6fd086188135",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Tutti a Bordo: Si parte per la Scuola Secondaria",
+        "descrizione": "Progetto di continuità per facilitare il passaggio dalla Scuola Primaria alla Secondaria, riducendo l’ansia legata al cambiamento.",
+        "metodologia": "Attività interdisciplinari e laboratoriali per promuovere una visione positiva del futuro scolastico.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti in transizione da Primaria a Secondaria",
+        "citazione_ptof": "Promuovere nel bambino uno sguardo sereno e curioso verso il futuro...",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:19:58.725199",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "4a565fc8-7f60-4b23-b76c-8564715496a0",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Comunicazione Ordinata",
+        "descrizione": "Progetto strutturato per sviluppare competenze comunicative attraverso attività laboratoriali (paletta-mano), simulazioni di ruolo, circle time e proiezioni educative. Obiettivo: promuovere rispetto dei turni di parola, empatia e inclusione.",
+        "metodologia": "Implementato con learning by doing, cooperative learning e didattica attiva, con attività differenziate per fasce di età e bisogni specifici.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Inclusione e BES",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della scuola primaria e secondaria di I grado",
+        "citazione_ptof": "Approccio simbolico-laboratoriale e realizzazione della paletta-mano... circle time per parlare delle difficoltà incontrate e dei progressi.",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:21:02.160150",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "64fa7d96-e00a-4bd5-ba5f-cc99fbfd99be",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto 'Le Nostre Radici'",
+        "descrizione": "Iniziativa interdisciplinare che unisce ricerca etnografica, laboratori creativi e sensibilizzazione ambientale. Include stazioni di lavoro differenziate per alunni BES con strumenti visivi e feedback immediati.",
+        "metodologia": "Didattica per competenze con cooperative learning, ruoli differenziati e apprendimento attivo. Inclusione attiva di alunni con bisogni educativi speciali.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Laboratoriale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Sostenibilità e Ambiente",
+          "Orientamento"
+        ],
+        "target": "Classe 2F scuola primaria",
+        "citazione_ptof": "Supporti visivi, timer e checklist per inclusione... ruoli di responsabilità che canalizzano l'energia e sviluppano consapevolezza.",
+        "pagina_evidenza": "Pagina 80"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:21:02.160458",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "29a482bc-8057-4c13-81ca-8b04d94d84ee",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Happy English! - Apprendimento Ludico",
+        "descrizione": "Progetto per la scuola dell'infanzia che utilizza canzoni, giochi strutturati e laboratori creativi per introdurre l'apprendimento della lingua inglese in modo interattivo.",
+        "metodologia": "Metodologia CLIL integrata con approccio ludico e attività multisensoriali adattate alle fasce di età.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Gamification",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Inclusione e BES",
+          "Arte e Creatività"
+        ],
+        "target": "Bambini della scuola dell'infanzia",
+        "citazione_ptof": "Conversazioni a tema; Lavori di gruppo; Gioco strutturato; Ascolto di canzoni; Elaborati grafico-pittorici.",
+        "pagina_evidenza": "Pagina 82"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:21:02.160951",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "5dce97f9-dcd0-467d-b085-f745c6b56b46",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Bellezza e Natura del Territorio",
+        "descrizione": "Laboratorio cosmetico sostenibile che coniuga scienze, educazione ambientale e valorizzazione del territorio. Include osservazione diretta di piante, realizzazione di prodotti naturali e comunicazione dei risultati.",
+        "metodologia": "Didattica laboratoriale e outdoor learning con problem solving, peer to peer e autovalutazione. Integrazione di scienze, matematica e educazione civica.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Outdoor Education",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca",
+          "Inclusione e BES"
+        ],
+        "target": "Scuola primaria di Castelluccio",
+        "citazione_ptof": "Realizzazione in sicurezza di una semplice crema naturale... Educazione alla cura e al rispetto dell’ambiente.",
+        "pagina_evidenza": "Pagina 87"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:21:02.160974",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "f7749efc-9d39-484a-9d3d-e70ff338efe0",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Il Postino di Babbo Natale",
+        "descrizione": "Progetto natalizio per la scuola dell'infanzia che promuove valori di solidarietà e collaborazione attraverso attività laboratoriali, drammatizzazioni e momenti di narrazione collettiva.",
+        "metodologia": "Approccio esperienziale con laboratori creativi e drammatizzazione, adatto alle fasce di età più giovani.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Storytelling",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Arte e Creatività",
+          "Inclusione e BES"
+        ],
+        "target": "Scuola dell'infanzia di via Castello",
+        "citazione_ptof": "Sensibilizzare i bambini ai valori dell’accoglienza, pace, solidarietà... Cogliere la sequenzialità di un racconto.",
+        "pagina_evidenza": "Pagina 78"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:21:02.160999",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "61f0f0a6-408a-4f61-8a84-d22d211c9835",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Conoscersi per stare insieme'",
+        "descrizione": "Progetto per classi 1B e 4C secondaria che utilizza metodologie laboratoriali, role-playing e attività di gestione emotiva per sviluppare autostima, empatia e relazioni positive. Include esercizi di ascolto attivo, brainstorming e creazione di strumenti come 'la bussola per stare bene'.",
+        "metodologia": "Attività cooperative, role-playing, circle time, schede di lavoro per gestire emozioni negative, e discussioni guidate su bullismo e relazioni interpersonali.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Project Work",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti delle classi 1B e 4C secondaria",
+        "citazione_ptof": "OBIETTIVI FORMATIVI Acquisire la capacità di osservare se stessi per imparare a riconoscere le proprie emozioni... METODOLOGIE Esperienza laboratoriale di ricerca comune e di ascolto reciproco...",
+        "pagina_evidenza": "Pagina 98"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:22:19.495102",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "f7754b86-40cb-48b9-9321-907bba934899",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Energia ed Ambiente'",
+        "descrizione": "Progetto interdisciplinare per scuola primaria e secondaria che promuove apprendimento laboratoriale attivo, osservazioni sul campo e metodologia scientifica. Include raccolta dati, analisi e creazione di materiali didattici multimediali.",
+        "metodologia": "Didattica laboratoriale con osservazione diretta, formulazione di ipotesi, raccolta dati (foto, misurazioni), e schede di lavoro per guidare l'analisi.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Problem Based Learning",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti scuola primaria e secondaria",
+        "citazione_ptof": "Didattica laboratoriale attiva: la scuola diventa laboratorio, gli studenti protagonisti dell’apprendimento attraverso l’esperienza concreta...",
+        "pagina_evidenza": "Pagina 101"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:22:19.495233",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "9f9c5352-35ee-4ca3-a5c2-dfad44e0795f",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Il Magico Mondo delle Api'",
+        "descrizione": "Progetto per scuola dell'infanzia che combina racconti, manualità e uscite didattiche presso un apiario per insegnare rispetto per l'ambiente e organizzazione sociale. Include creazione di cartelloni e attività creative.",
+        "metodologia": "Metodologie laboratoriali con racconti, video, lavoretti manuali e uscite didattiche per connettere teoria e pratica.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Arte e Creatività",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti scuola dell'infanzia",
+        "citazione_ptof": "OBIETTIVI FORMATIVI Conoscere il mondo delle api; Imparare e rispettare l’ambiente; Imparare e interpretare ruoli e situazioni...",
+        "pagina_evidenza": "Pagina 104"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:22:19.495250",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "3c6b736f-801f-486c-83cb-b3caa4dd8b63",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Il Gioiello Dentro Me'",
+        "descrizione": "Progetto di continuità tra scuola dell'infanzia e primaria che utilizza storytelling e attività creative per rafforzare autostima e consapevolezza emotiva. Include percorsi ad ostacoli e creazione di oggetti simbolici.",
+        "metodologia": "Lettura di testi, riflessioni guidate, percorso ad ostacoli, creazione di poster e oggetti di transizione con materiali di recupero.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Storytelling",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Prevenzione Disagio",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti scuola dell'infanzia e classe prima",
+        "citazione_ptof": "OBIETTIVI FORMATIVI Rafforzare l’autostima, aiutando gli alunni a sviluppare un’immagine positiva di se... METODOLOGIE E/O FASI OPERATIVE 1° INCONTRO Conoscenza tra i bambini...",
+        "pagina_evidenza": "Pagina 101"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:22:19.495264",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "2737c5eb-1d3d-480c-8353-0ce6de4a98cb",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'INSIEME SI CRESCE MEGLIO'",
+        "descrizione": "Progetto di continuità tra scuola primaria e secondaria che include visite, moduli didattici congiunti e lezioni dei docenti della secondaria per facilitare il passaggio scolastico e rafforzare la motivazione.",
+        "metodologia": "Visite didattiche, moduli in continuità con incontri congiunti, e partecipazione a lezioni della secondaria per familiarizzare con il nuovo ambiente.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Classi quinte primaria e studenti secondaria",
+        "citazione_ptof": "OBIETTIVI FORMATIVI Promuovere esperienze di interazione didattica con principi di continuità... METODOLOGIE Visita degli alunni delle classi quinte presso la scuola Secondaria...",
+        "pagina_evidenza": "Pagina 108"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:22:19.495278",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "cfb76ef3-e0b2-450b-b74a-d7682eb3c313",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Curricolare 'Il Diario della Felicità'",
+        "descrizione": "Progetto che promuove la scrittura di un diario personale per migliorare l'autostima e la gestione delle emozioni. Include attività creative come disegni, canzoni e biglietti, con focus su temi come l'orientamento e la gratitudine. Si sviluppa in fasi annuali con attività specifiche per ogni classe.",
+        "metodologia": "Utilizza letture emotive, brainstorming, circle time e laboratori di scrittura. Gli studenti producono diari personali con elementi iconici e riflessioni guidate.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Cittadinanza e Legalità",
+          "Lettura e Scrittura"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Il diario della gratitudine sarà steso quotidianamente con quattro regole definite per sviluppare autonomia e benessere.",
+        "pagina_evidenza": "Pagina 110"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:23:47.878709",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c46c5375-fa12-4769-8d4a-a2416c005198",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Alle Origini dell’Uomo'",
+        "descrizione": "Progetto interdisciplinare che unisce storia e scienze per esplorare l'evoluzione umana. Include analisi di reperti, creazione di linee del tempo, visione di documentari e produzione di podcast o mostre virtuali.",
+        "metodologia": "Didattica laboratoriale, flipped classroom e storytelling. Gli studenti lavorano in gruppo su analisi scientifiche e progetti multimediali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Flipped Classroom",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Storia",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Produzione di testi o podcast divulgativi e visione di documentari come BBC Human Evolution.",
+        "pagina_evidenza": "Pagina 115"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:23:47.878802",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "912d38a2-896a-4c07-86d2-80230d59badb",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto 'Semi di Uguaglianze'",
+        "descrizione": "Iniziativa per facilitare l'inserimento di studenti neoarrivati e promuovere l'inclusione. Utilizza attività di accoglienza, laboratori interculturali e momenti di condivisione per contrastare discriminazioni e bullismo.",
+        "metodologia": "Cooperative learning e circle time per favorire relazioni positive. Attività verticali tra classi prime e terze.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Classi prime e terze della scuola secondaria",
+        "citazione_ptof": "Obiettivi: educare alla diversità come valore e contrastare fenomeni di esclusione.",
+        "pagina_evidenza": "Pagina 120"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:23:47.878823",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "13f1aff4-aa1e-4b13-8964-6cc770b795b2",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Leggiamo, Riflettiamo'",
+        "descrizione": "Iniziativa basata sulla lettura del romanzo 'Io, capitano' per riflettere su migrazioni e accoglienza. Include analisi testuale, scrittura creativa e visione del film adattamento.",
+        "metodologia": "Apprendimento cooperativo e laboratori di scrittura. Gli studenti producono rielaborazioni creative e partecipano a discussioni guidate.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Project Work",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Intercultura",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Realizzazione di prodotti finali e condivisione dopo la visione del film 'Io, capitano'.",
+        "pagina_evidenza": "Pagina 118"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:23:47.878836",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "256a8bf3-55bb-41e4-aa99-d9079df24d8b",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Teatrando - Riscrittura creativa e spettacolo teatrale",
+        "descrizione": "Progetto che coinvolge studenti di classi parallele nella riscrittura creativa del finale di un'opera letteraria, seguita da una messa in scena teatrale. Obiettivi: sviluppo competenze linguistiche, collaborazione interclasse, sensibilizzazione a temi civici e inclusione di studenti meno motivati.",
+        "metodologia": "Fasi di laboratorio di scrittura creativa, drammatizzazione e spettacolo finale. Utilizzo di gruppi misti e coinvolgimento della comunità esterna.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità",
+          "Inclusione e BES"
+        ],
+        "target": "Classi seconde e terze scuola secondaria",
+        "citazione_ptof": "Riscrittura creativa del finale dell’opera... coinvolgimento della comunità in un luogo pubblico",
+        "pagina_evidenza": "Pagina 134"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:25:17.868979",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "fb89e55a-6ddf-45b8-8ec9-61a5469ec6df",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Scienza in Azione - Laboratorio di Chimica e Fisica",
+        "descrizione": "Progetto di didattica laboratoriale per promuovere interesse per le scienze sperimentali attraverso esperimenti pratici. Obiettivi: sviluppo pensiero critico, competenze scientifiche di base e collaborazione tra pari.",
+        "metodologia": "Didattica laboratoriale attiva con schede guida, lavoro di gruppo e documentazione degli esperimenti.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Matematica e Logica"
+        ],
+        "target": "Classe 3H scuola secondaria",
+        "citazione_ptof": "Promuovere l’interesse verso le scienze sperimentali attraverso l’esperienza diretta",
+        "pagina_evidenza": "Pagina 132"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:25:17.869098",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "57682afe-f321-494f-bd52-d1259c4d5a86",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Abitare la Felicità - Sviluppo soft skills",
+        "descrizione": "Progetto per acquisire competenze emotive e relazionali attraverso tecniche di PNL e psicologia positiva. Obiettivi: gestione emozioni, resilienza, miglioramento relazioni familiari e prevenzione abbandono scolastico.",
+        "metodologia": "Full immersion con role playing, gamification e team building. Approccio interdisciplinare con esercizi fisici e laboratori.",
+        "tipologie_metodologia": [
+          "Gamification",
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Prevenzione Disagio",
+          "Orientamento"
+        ],
+        "target": "Classi 2A, 3B, 2C, 1G scuola secondaria",
+        "citazione_ptof": "Acquisizione soft skills per miglioramento psicofisico e prevenzione abbandono scolastico",
+        "pagina_evidenza": "Pagina 138"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:25:17.869131",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "80a5ea62-0124-4abb-ad3e-a69c3abd118e",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Avvio allo Studio del Latino",
+        "descrizione": "Progetto per introdurre i rudimenti del latino a studenti preorientati a indirizzi liceali. Obiettivi: comprensione evoluzione linguistica, acquisizione competenze traduttive e riflessione sul patrimonio culturale.",
+        "metodologia": "Didattica laboratoriale con LIM, lavoro in gruppo e versioni di frasi. Approccio graduale con dizionari e esercizi interattivi.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Classi terze scuola secondaria",
+        "citazione_ptof": "Acquisire identità storico-culturale e competenze linguistiche basilari del latino",
+        "pagina_evidenza": "Pagina 140"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:25:17.869146",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "9bfc6c67-f0b3-452b-a3ec-dead06106012",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Il Nostro Territorio... In Gioco! - Continuità scolastica",
+        "descrizione": "Progetto di continuità tra scuola primaria e secondaria attraverso la creazione di un gioco basato sul territorio. Obiettivi: conoscenza reciproca tra studenti, rafforzamento senso di appartenenza e potenziamento competenze trasversali.",
+        "metodologia": "Didattica outdoor con osservazione del territorio, cooperative learning e realizzazione di un gioco collaborativo.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Continuità e Accoglienza",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti scuola primaria e secondaria",
+        "citazione_ptof": "Promuovere conoscenza reciproca tra alunni di diversi ordini scolastici e senso di appartenenza al territorio",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:25:17.869197",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "63fcb63f-4004-4e62-b06f-eef7ecea9591",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto di Corrispondenza Interculturale",
+        "descrizione": "Iniziativa che unisce scrittura creativa, inclusione linguistica e tecnologia. I bambini producono lettere, biglietti, disegni e utilizzano strumenti digitali (email, Padlet, AI) per connettersi con pari in altre regioni. Integra dialetti e lingue di origine, promuovendo scambio culturale e competenze digitali.",
+        "metodologia": "Corrispondenza tradizionale e digitale, attività ludico-creative (xeropoesia, enigmi), integrazione di strumenti 4.0 (AI, blog). Fasi di riflessione e condivisione collettiva.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Digitale",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Lettura e Scrittura",
+          "Digitalizzazione"
+        ],
+        "target": "Scuola primaria",
+        "citazione_ptof": "Il progetto integra strumenti digitali... mostra un approccio '4.0' con occasioni di scambio a distanza e incontri sincroni.",
+        "pagina_evidenza": "Pagina 147"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:26:38.469995",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9ef9c72c-66b6-4007-b976-f785d6a9fe14",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Scrittura come Processo Creativo",
+        "descrizione": "Approccio che trasforma la scrittura in un'attività ludica e espressiva. Gli alunni esprimono emozioni e immaginazione attraverso lettere, disegni, giochi di parole e collaborazioni creative (libro collettivo).",
+        "metodologia": "Contesto ludico con attività varie (disegno, indovinelli), enfasi sulla spontaneità e riflessione metacognitiva.",
+        "tipologie_metodologia": [
+          "Gamification",
+          "Learning by Doing",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Arte e Creatività"
+        ],
+        "target": "Scuola primaria",
+        "citazione_ptof": "La scrittura viene presentata come processo creativo... esprimere il proprio universo affettivo.",
+        "pagina_evidenza": "Pagina 147"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:26:38.470059",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "2dd246d5-a3e0-41ec-bbe6-951eba828573",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Calcio Per Tutti - Progetto Sportivo Inclusivo",
+        "descrizione": "Iniziativa regionale che promuove sport, parità di genere e stili di vita sani. Include Open Day, incontri con esperti (nutrizionisti, atleti) e un torneo interscolastico per coinvolgere comunità locali e bambini svantaggiati.",
+        "metodologia": "Fasi strutturate (Open Day, sensibilizzazione, torneo), collaborazione con enti sportivi e territoriali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Scuola primaria e secondaria",
+        "citazione_ptof": "Favorire l’accesso allo sport per tutti... creando un modello educativo condiviso e sostenibile.",
+        "pagina_evidenza": "Pagina 148"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:26:38.470079",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "83ed2e22-0b22-4141-875e-d77d4e14ee35",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Parlami Di Te - Progetto di Pensiero Critico",
+        "descrizione": "Attività audiovisiva per sviluppare competenze emotive e critiche. Le classi producono filmati su giudizi e pregiudizi, con eventi conclusivi di condivisione e premiazione.",
+        "metodologia": "Produzione di contenuti audiovisivi, lavoro di gruppo e riflessione su temi sociali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Scuola secondaria",
+        "citazione_ptof": "Promuovere consapevolezza su giudizi... con proiezione di filmati e premiazione.",
+        "pagina_evidenza": "Pagina 151"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:26:38.470122",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9fc230f8-1e17-4d95-9990-240431089d63",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Sindaco e Consiglio Comunale dei Ragazzi",
+        "descrizione": "Simulazione di governance locale per educare alla partecipazione democratica. Include formazione, elezioni e sedute consiliari con discussione di ordini del giorno.",
+        "metodologia": "Fasi di formazione, elezioni e gestione di attività amministrative simulate.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Scuola primaria e secondaria",
+        "citazione_ptof": "Familiarizzare con vita pubblica... con discussione di ordine del giorno.",
+        "pagina_evidenza": "Pagina 153"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:26:38.470141",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fd9e8ebc-7c9f-494d-91c9-5266b0c6fa34",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piano Educativo Individualizzato (PEI) concoinvolgimento multidisciplinare",
+        "descrizione": "Il PEI è redatto collaborativamente da docenti, famiglie, operatori ASL e studenti, basandosi sul Profilo di Funzionamento (ICF). Include obiettivi personalizzati, strategie di supporto e monitoraggio regolare, garantendo un percorso inclusivo e adattivo alle esigenze specifiche.",
+        "metodologia": "Coinvolgimento di un Gruppo di Lavoro per l'Inclusione (GLI) con partecipazione di docenti curricolari, di sostegno, famiglie e specialisti esterni. Utilizzo di strumenti come il Profilo di Funzionamento e revisioni cicliche del piano.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Personalizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con disabilità e BES",
+        "citazione_ptof": "Il PEI è il documento che definisce il progetto educativo e didattico personalizzato per l’alunno con disabilità certificata...",
+        "pagina_evidenza": "Pagina 163"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:27:59.014816",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "a08b6b24-ea3a-4017-86fc-d84d035c1ff9",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Attività laboratoriali integrate e uso di tecnologie digitali",
+        "descrizione": "Progetti didattici che prevedono laboratori interdisciplinari e l'uso di strumenti digitali per favorire l'apprendimento personalizzato e l'inclusione. Gli alunni partecipano a attività pratiche e creative, supportate da tecnologie innovative.",
+        "metodologia": "Implementazione di laboratori aperti, utilizzo di piattaforme digitali e strumenti tecnologici (es. BYOD, coding) in contesti didattici collaborativi.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Tutti gli studenti, con focus su BES/DSA",
+        "citazione_ptof": "Attività laboratoriali integrate... Attività che prevedano l’uso di nuove tecnologie e strumenti digitali...",
+        "pagina_evidenza": "Pagina 166"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:27:59.014935",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "3c593627-443f-4876-a77c-c595c4a20d65",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Gestione flessibile dell'Organico dell'Autonomia",
+        "descrizione": "Utilizzo dell'Organico dell'Autonomia per assegnare risorse professionali in modo flessibile, coprendo supplenze brevi, supportando classi con BES/DSA e realizzando interventi di potenziamento. Garantisce equilibrio tra posti comuni e potenziamento.",
+        "metodologia": "Assegnazione di docenti alle classi e discipline in base al PTOF, gestione delle cattedre e attività di potenziamento mirate.",
+        "tipologie_metodologia": [
+          "Didattica Personalizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "L’Organico dell’Autonomia è lo strumento attraverso cui l’istituto può gestire in modo flessibile le risorse professionali...",
+        "pagina_evidenza": "Pagina 168"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:27:59.014961",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "e7d5c3c2-5fa7-4506-bd08-257da4c1ec78",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Peer tutoring e mentoring per l'inclusione",
+        "descrizione": "Strategie di apprendimento collaborativo dove studenti più esperti supportano i compagni con bisogni specifici, promuovendo autonomia e integrazione sociale.",
+        "metodologia": "Attività strutturate in cui studenti tutorati guidano i pari in compiti specifici, con supervisione dei docenti.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con BES e DSA",
+        "citazione_ptof": "Peer tutoring... Mentoring...",
+        "pagina_evidenza": "Pagina 166"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:27:59.014976",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "d1d50a19-eccc-4ee5-b28a-4189cb4c1a24",
+      "school": {
+        "codice_meccanografico": "FGAA85802N",
+        "nome": "Via Ponte Capo'",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Puglia",
+        "provincia": "Foggia",
+        "comune": "Orsara Di Puglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione continua del personale su sicurezza e didattica inclusiva",
+        "descrizione": "Percorsi formativi obbligatori per docenti e personale ATA su gestione emergenze, primo soccorso e metodologie inclusive, garantendo sicurezza e adattamento alle esigenze diverse.",
+        "metodologia": "Formazione in presenza e online, con laboratori e simulazioni pratiche.",
+        "tipologie_metodologia": [
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Sicurezza",
+          "Inclusione e BES"
+        ],
+        "target": "Docenti e personale ATA",
+        "citazione_ptof": "Formazione di Scuola/Rete... Partecipazione alla gestione dell'emergenza e del primo soccorso...",
+        "pagina_evidenza": "Pagina 178"
+      },
+      "contesto": {
+        "maturity_index": 4.15,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "ASL",
+          "Famiglie"
+        ],
+        "attivita_correlate": [
+          "SCUOLA APERTA AL MONDO",
+          "AMPLIARE ORIZZONTI",
+          "Progetto Lettura - Classe 2A",
+          "La cura di sé e dell’ambiente - Plesso Scuola Primaria di Castelluccio",
+          "PENSO POSITIVO…CHE FILOSOFIA! - Classe 3A e 3B",
+          "Sulle Ali Dell'Avventura - Volare Per Salvare La NATURA",
+          "TEATRANDO - Progetto Extracurricolare",
+          "Sindaco E Consiglio Comunale Dei Ragazzi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:27:59.014991",
+        "model_used": "qwen3:32b",
+        "source_file": "FGAA85802N_ptof.md",
         "chunk_source": 9
       }
     }

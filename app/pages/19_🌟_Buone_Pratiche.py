@@ -481,9 +481,9 @@ def residuals_from_table(observed, expected):
 # === MAIN PAGE ===
 st.title("🌟 Catalogo Buone Pratiche")
 
-st.markdown(
-    """
-### Legenda emoji (categorie)
+with st.expander("Legenda emoji (categorie)", expanded=False):
+    st.markdown(
+        """
 - 📚 Metodologie Didattiche Innovative
 - 🎯 Progetti e Attività Esemplari
 - 🤝 Partnership e Collaborazioni Strategiche
@@ -491,7 +491,7 @@ st.markdown(
 - 🌈 Buone Pratiche per l'Inclusione
 - 🗺️ Esperienze Territoriali Significative
 """
-)
+    )
 
 # Carica dati
 data = load_practices()
