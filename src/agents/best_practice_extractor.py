@@ -73,6 +73,82 @@ CATEGORIE = [
     "Esperienze Territoriali Significative"
 ]
 
+# Tipologie di metodologia didattica
+TIPOLOGIE_METODOLOGIA = [
+    "STEM/STEAM",
+    "Coding e Pensiero Computazionale",
+    "Flipped Classroom",
+    "Peer Education/Tutoring",
+    "Problem Based Learning",
+    "Cooperative Learning",
+    "Gamification",
+    "Debate",
+    "Service Learning",
+    "Outdoor Education",
+    "Didattica Laboratoriale",
+    "Didattica Digitale",
+    "CLIL",
+    "Storytelling",
+    "Project Work",
+    "Learning by Doing",
+    "Mentoring",
+    "Altro"
+]
+
+# Ambiti di attività
+AMBITI_ATTIVITA = [
+    "Orientamento",
+    "Inclusione e BES",
+    "PCTO/Alternanza",
+    "Cittadinanza e Legalità",
+    "Educazione Civica",
+    "Sostenibilità e Ambiente",
+    "Digitalizzazione",
+    "Lingue Straniere",
+    "Arte e Creatività",
+    "Musica e Teatro",
+    "Sport e Benessere",
+    "Scienze e Ricerca",
+    "Lettura e Scrittura",
+    "Matematica e Logica",
+    "Imprenditorialità",
+    "Intercultura",
+    "Prevenzione Disagio",
+    "Continuità e Accoglienza",
+    "Valutazione e Autovalutazione",
+    "Formazione Docenti",
+    "Rapporti con Famiglie",
+    "Altro"
+]
+
+# Tipologie di istituto
+TIPOLOGIE_ISTITUTO = [
+    "Liceo Classico",
+    "Liceo Scientifico",
+    "Liceo Linguistico",
+    "Liceo Artistico",
+    "Liceo Musicale e Coreutico",
+    "Liceo delle Scienze Umane",
+    "Istituto Tecnico",
+    "Istituto Professionale",
+    "Istituto Comprensivo",
+    "Circolo Didattico",
+    "Scuola Secondaria I Grado",
+    "Scuola Primaria",
+    "Scuola dell'Infanzia",
+    "CPIA",
+    "Convitto/Educandato",
+    "Altro"
+]
+
+# Ordine e grado
+ORDINI_GRADO = [
+    "Infanzia",
+    "Primaria",
+    "Secondaria I Grado",
+    "Secondaria II Grado"
+]
+
 # Flag per uscita controllata
 EXIT_REQUESTED = False
 
@@ -335,6 +411,9 @@ class BestPracticeExtractor:
 
     def build_extraction_prompt(self, chunk: str, chunk_num: int, total_chunks: int, school_code: str) -> str:
         """Costruisce il prompt per l'estrazione delle buone pratiche."""
+        metodologie_str = ", ".join(TIPOLOGIE_METODOLOGIA[:-1])  # Escludi "Altro"
+        ambiti_str = ", ".join(AMBITI_ATTIVITA[:-1])  # Escludi "Altro"
+
         return f"""/no_think
 SEI UN ESPERTO DI PRATICHE EDUCATIVE E ORIENTAMENTO SCOLASTICO.
 
@@ -349,18 +428,26 @@ TESTO DA ANALIZZARE:
 ---
 
 CATEGORIE DISPONIBILI (usa ESATTAMENTE questi nomi):
-1. "Metodologie Didattiche Innovative" - tecniche didattiche avanzate, approcci pedagogici innovativi (es: flipped classroom, peer tutoring, coding, STEM)
-2. "Progetti e Attività Esemplari" - progetti strutturati, attività significative documentate con nome specifico
+1. "Metodologie Didattiche Innovative" - tecniche didattiche avanzate, approcci pedagogici innovativi
+2. "Progetti e Attività Esemplari" - progetti strutturati, attività significative documentate
 3. "Partnership e Collaborazioni Strategiche" - accordi con enti, università, imprese, associazioni
-4. "Azioni di Sistema e Governance" - coordinamento, monitoraggio, strutture organizzative, figure dedicate
-5. "Buone Pratiche per l'Inclusione" - BES, DSA, disabilità, integrazione stranieri, fragilità
-6. "Esperienze Territoriali Significative" - legame col territorio, PCTO, stage, specificità locali
+4. "Azioni di Sistema e Governance" - coordinamento, monitoraggio, strutture organizzative
+5. "Buone Pratiche per l'Inclusione" - BES, DSA, disabilità, integrazione stranieri
+6. "Esperienze Territoriali Significative" - legame col territorio, PCTO, stage
+
+TIPOLOGIE DI METODOLOGIA (scegli UNA o PIU tra queste, oppure "Altro"):
+{metodologie_str}
+
+AMBITI DI ATTIVITA (scegli UNO o PIU tra questi, oppure "Altro"):
+{ambiti_str}
 
 PER OGNI BUONA PRATICA IDENTIFICATA, ESTRAI:
 - "categoria": una delle 6 categorie sopra (ESATTAMENTE come scritto)
 - "titolo": nome sintetico della pratica (max 100 caratteri)
 - "descrizione": descrizione dettagliata di cosa consiste e come funziona (200-500 caratteri)
-- "metodologia": come viene implementata concretamente (se applicabile)
+- "metodologia_desc": come viene implementata concretamente (testo libero)
+- "tipologie_metodologia": ARRAY di tipologie metodologiche applicabili (es: ["STEM/STEAM", "Didattica Laboratoriale"])
+- "ambiti_attivita": ARRAY di ambiti di attività (es: ["Orientamento", "Digitalizzazione"])
 - "target": a chi è rivolta (studenti, docenti, famiglie, classi specifiche)
 - "citazione_ptof": citazione testuale rilevante dal documento (max 200 caratteri)
 - "pagina_evidenza": numero di pagina se menzionato (es: "Pagina 15") o "Non specificata"
@@ -373,6 +460,7 @@ REGOLE FONDAMENTALI:
 4. Se non trovi pratiche significative in questo chunk, rispondi con array vuoto
 5. MAX 5 pratiche per chunk (seleziona le piu significative)
 6. Il titolo deve essere SPECIFICO (es: "Laboratorio di Robotica Educativa", non "Attivita di laboratorio")
+7. tipologie_metodologia e ambiti_attivita devono essere ARRAY di stringhe (anche se c'è un solo elemento)
 
 RISPONDI SOLO con JSON valido (nessun testo prima o dopo):
 {{
@@ -381,7 +469,9 @@ RISPONDI SOLO con JSON valido (nessun testo prima o dopo):
       "categoria": "Nome Categoria Esatto",
       "titolo": "Nome Specifico Pratica",
       "descrizione": "Descrizione dettagliata...",
-      "metodologia": "Come viene implementata...",
+      "metodologia_desc": "Come viene implementata...",
+      "tipologie_metodologia": ["STEM/STEAM", "Didattica Laboratoriale"],
+      "ambiti_attivita": ["Orientamento", "Digitalizzazione"],
       "target": "A chi è rivolta",
       "citazione_ptof": "Citazione dal documento...",
       "pagina_evidenza": "Pagina X",
@@ -593,6 +683,16 @@ Se non trovi pratiche significative:
 
                 for practice in practices:
                     if self.validate_practice(practice):
+                        # Normalizza tipologie_metodologia come array
+                        tipologie_met = practice.get('tipologie_metodologia', [])
+                        if isinstance(tipologie_met, str):
+                            tipologie_met = [tipologie_met] if tipologie_met else []
+
+                        # Normalizza ambiti_attivita come array
+                        ambiti = practice.get('ambiti_attivita', [])
+                        if isinstance(ambiti, str):
+                            ambiti = [ambiti] if ambiti else []
+
                         # Costruisci oggetto completo
                         full_practice = {
                             "id": str(uuid.uuid4()),
@@ -601,7 +701,9 @@ Se non trovi pratiche significative:
                                 "categoria": practice.get('categoria', ''),
                                 "titolo": practice.get('titolo', ''),
                                 "descrizione": practice.get('descrizione', ''),
-                                "metodologia": practice.get('metodologia', ''),
+                                "metodologia": practice.get('metodologia_desc', practice.get('metodologia', '')),
+                                "tipologie_metodologia": tipologie_met,
+                                "ambiti_attivita": ambiti,
                                 "target": practice.get('target', ''),
                                 "citazione_ptof": practice.get('citazione_ptof', ''),
                                 "pagina_evidenza": practice.get('pagina_evidenza', '')

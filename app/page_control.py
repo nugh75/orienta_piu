@@ -206,6 +206,7 @@ def get_page_settings() -> Dict:
     settings = load_page_settings()
     discovered = discover_pages()
     pages_config = settings.get("pages", {})
+    sections = settings.get("sections", [])
 
     merged = {}
     for page in discovered:
@@ -221,6 +222,7 @@ def get_page_settings() -> Dict:
             "label": cfg.get("label", page["label"]),
             "visible": visible,
             "order": cfg.get("order", page["order"]),
+            "section": cfg.get("section", "other"),
         }
 
     default_page = settings.get("default_page", "Home.py")
@@ -229,6 +231,7 @@ def get_page_settings() -> Dict:
 
     return {
         "default_page": default_page,
+        "sections": sections,
         "pages": merged,
     }
 
@@ -257,7 +260,22 @@ def _render_nav_button(label: str, page_id: str, current_page: str, admin_only: 
     if admin_only:
         display = f"{label} (admin)"
     if page_id == current_page:
-        st.sidebar.markdown(f"**{display}**")
+        # Pulsante verde tenue con testo nero per pagina corrente
+        st.sidebar.markdown(
+            f"""
+            <div style="
+                background-color: #d4edda;
+                border: 1px solid #c3e6cb;
+                border-radius: 0.5rem;
+                padding: 0.5rem 1rem;
+                margin: 0.25rem 0;
+                text-align: center;
+                color: #1a1a1a;
+                font-weight: 500;
+            ">▸ {display}</div>
+            """,
+            unsafe_allow_html=True
+        )
         return
 
     if st.sidebar.button(display, key=f"nav_{page_id}", use_container_width=True):
@@ -272,7 +290,12 @@ def switch_page(page_id: str) -> None:
 def render_sidebar_nav(current_page: str, settings: Dict) -> None:
     st.sidebar.markdown("### Navigazione")
     pages = settings.get("pages", {})
+    sections = settings.get("sections", [])
     admin_logged = is_admin_logged_in()
+
+    # Crea mappa sezioni per ordine
+    section_order = {s["id"]: i for i, s in enumerate(sections)}
+    section_labels = {s["id"]: s["label"] for s in sections}
 
     # Filtra pagine: visibili a tutti + invisibili solo se admin
     visible_pages = []
@@ -283,9 +306,29 @@ def render_sidebar_nav(current_page: str, settings: Dict) -> None:
         elif admin_logged:
             visible_pages.append((pid, cfg, True))   # True = admin-only (mostrata perche' admin)
 
-    visible_pages.sort(key=lambda item: item[1].get("order", 999))
+    # Ordina per sezione, poi per order interno
+    def sort_key(item):
+        pid, cfg, admin_only = item
+        section = cfg.get("section", "other")
+        sec_ord = section_order.get(section, 999)
+        page_ord = cfg.get("order", 999)
+        return (sec_ord, page_ord)
 
+    visible_pages.sort(key=sort_key)
+
+    # Raggruppa per sezione e renderizza
+    current_section = None
     for page_id, cfg, admin_only in visible_pages:
+        section = cfg.get("section", "other")
+
+        # Se cambia sezione, mostra intestazione
+        if section != current_section:
+            current_section = section
+            section_label = section_labels.get(section, "")
+            if section_label:  # Non mostrare intestazione vuota (es. per Home)
+                st.sidebar.markdown("---")
+                st.sidebar.markdown(f"**{section_label}**")
+
         _render_nav_button(cfg.get("label", page_id), page_id, current_page, admin_only)
 
     # Mostra stato admin

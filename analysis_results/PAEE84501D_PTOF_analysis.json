@@ -1,19 +1,27 @@
 {
   "metadata": {
     "school_id": "PAEE84501D",
-    "denominazione": "I.C. Gangi - F. P. Polizzano",
-    "tipo_scuola": "Infanzia, Primaria, I Grado",
-    "ordine_grado": "Comprensivo",
-    "area_geografica": "Sud",
-    "territorio": "Non Metropolitano",
+    "denominazione": "I.C. Gangi - G. Vazzano",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
     "comune": "Gangi",
-    "anno_ptof": "2019/20-2021/22"
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Palermo",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Castello 1",
+    "cap": "90024",
+    "email": "paic84500b@istruzione.it",
+    "pec": "paic84500b@pec.istruzione.it",
+    "website": "www.icpolizzano.edu.it"
   },
   "ptof_section2": {
     "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0,
-      "score": 2,
-      "note": "L'orientamento è presente come tema trasversale all'interno della proposta formativa, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Esiste una sezione dedicata all'orientamento, intitolata \"Conoscersi…..Conoscere Per Scegliere – Orientamento\" (pagina 29), che delinea attività e obiettivi specifici per l'orientamento scolastico e professionale."
     },
     "2_2_partnership": {
       "partner_nominati": [
@@ -33,7 +41,7 @@
         "Avanguardie Educative",
         "Ctrh"
       ],
-      "partnership_count": 15
+      "partnership_count": 14
     },
     "2_3_finalita": {
       "finalita_attitudini": {
@@ -57,9 +65,9 @@
         "evidence_location": "Pagina 47"
       },
       "finalita_capacita_orientative_opportunita": {
-        "score": 2,
-        "evidence_quote": null,
-        "evidence_location": null
+        "score": 4,
+        "evidence_quote": "Attività di orientamento come test attitudinali, analisi di testi e giornata dell’orientamento.",
+        "evidence_location": "Pagina 29"
       }
     },
     "2_4_obiettivi": {
@@ -98,13 +106,15 @@
         "score": 4
       },
       "didattica_laboratoriale": {
-        "score": 5
+        "score": 4,
+        "note": "Evidenza limitata di metodologie e risultati specifici."
       },
       "didattica_flessibilita_spazi_tempi": {
         "score": 4
       },
       "didattica_interdisciplinare": {
-        "score": 5
+        "score": 4,
+        "note": "Evidenza limitata di metodologie e risultati specifici."
       }
     },
     "2_7_opzionali_facoltative": {
@@ -112,7 +122,8 @@
         "score": 5
       },
       "opzionali_laboratoriali_espressive": {
-        "score": 6
+        "score": 4,
+        "note": "Evidenza limitata di frequenza, partecipazione e impatto."
       },
       "opzionali_ludiche_ricreative": {
         "score": 4
@@ -142,7 +153,7 @@
     },
     {
       "titolo_attivita": "Progetto Flauto magico consort",
-      "categoria_principale": "Laboratorio",
+      "categoria_principale": "Progetto",
       "descrizione_e_metodologia": "Selezioni, prove orchestrali, partecipazione a concerti",
       "5w_chi": "Alunni scuola secondaria di 1° grado",
       "5w_cosa": "Sviluppo competenze musicali e artistiche",
@@ -170,7 +181,7 @@
     },
     {
       "titolo_attivita": "Progetto con il Comune di Gangi",
-      "categoria_principale": "Consulenza",
+      "categoria_principale": "Progetto",
       "descrizione_e_metodologia": "Consulenza e intervento di una logopedista",
       "5w_chi": "Studenti con BES",
       "5w_cosa": "Supporto logopedico",
@@ -184,7 +195,7 @@
     },
     {
       "titolo_attivita": "Orchestra dei Flauti Dolci",
-      "categoria_principale": "Attività Extracurricolare",
+      "categoria_principale": "Progetto",
       "descrizione_e_metodologia": "Partecipazione a concorsi a livello nazionale",
       "5w_chi": "Alunni",
       "5w_cosa": "Esecuzione di brani musicali",
@@ -193,7 +204,7 @@
       "5w_perche": "Favorire il potenziamento degli studenti con particolari attitudini",
       "ore_dichiarate": "ND",
       "target": "Alunni",
-      "evidence_quote": "Particolare rilievo assume l'Orchestra dei Flauti Dolci che da oltre un decennio si classifica al primo posto in concorsi a livello nazionale.",
+      "evidence_quote": "Particolare rilievo assume l'Orchestra dei Flauti Dolci che da oltre un decennio si classifica ai primi posti in concorsi a livello nazionale.",
       "evidence_location": "Pagina 44"
     },
     {
@@ -210,5 +221,23 @@
       "evidence_quote": "Da quest'anno è stato avviato un progetto in rete con il CSR di Nicosia che prevede una collaborazione con docenti curriculari e di sostegno.",
       "evidence_location": "Pagina 44"
     }
-  ]
+  ],
+  "ptof_inclusione": {
+    "inclusione_approccio": {
+      "score": 4,
+      "evidence_quote": "L'istituto promuove un approccio inclusivo attraverso la progettazione di percorsi didattici personalizzati e la collaborazione con servizi esterni.",
+      "evidence_location": "Pagina 43"
+    },
+    "inclusione_risorse": {
+      "score": 3,
+      "evidence_quote": "Sono presenti risorse dedicate all'inclusione, come il personale ATA e i docenti di sostegno.",
+      "evidence_location": "Pagina 45"
+    },
+    "inclusione_formazione": {
+      "score": 2,
+      "evidence_quote": "Si segnala la partecipazione dei docenti a corsi di formazione sull'inclusione.",
+      "evidence_location": "Pagina 46"
+    }
+  },
+  "narrative": "# Analisi del PTOF PAEE84501D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Gangi - G. Vazzano (PAEE84501D) per il triennio 2019/20-2021/22. L'istituto, situato in Sicilia e afferente all'area geografica delle Isole e al territorio metropolitano, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tale ambito. L'analisi si concentra sulle finalità, gli obiettivi, le azioni messe in atto e le attività specifiche, al fine di identificare punti di forza, aree di debolezza e possibili gap da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:**\n\nIl PTOF presenta una sezione specificamente dedicata all'orientamento, intitolata “Conoscersi…..Conoscere Per Scegliere – Orientamento”, che delinea chiaramente attività e obiettivi in questo ambito.\n\n**2.2 Partnership:**\n\nL'istituto vanta un network di **14 partner**, tra cui **RESMA rete scolastica Madonie**, il **Comune di Gangi**, la **Banca di Credito Cooperativa**, diverse **associazioni locali**, l'**Istituzione Gianbecchina**, l'**Accademia di Teatro OtqA**, l'**Accademia degli Industriosi**, **Ars Musicae**, **SiciliAntica**, **Associazioni sportive**, il **CONI**, **Piccole Scuole - Trame Sociali In Rete**, **Avanguardie Educative** e il **Ctrh**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento si concentrano sulla **valorizzazione della persona** e sulla realizzazione degli aspetti peculiari di ogni studente. Si evidenzia un impegno verso **percorsi formativi individualizzati** e un'attenzione particolare all'accoglienza, con progetti di continuità ben strutturati. Le **capacità orientative** e l'opportunità di esplorare diverse possibilità sono promosse attraverso attività come test attitudinali, analisi di testi e giornate dedicate all'orientamento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, la promozione della continuità territoriale e lo sviluppo del **lifelong learning**. L'attenzione verso il contrasto alla dispersione scolastica giovanile (NEET) risulta meno marcata.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto punta su azioni di coordinamento tra i diversi servizi, sul dialogo tra docenti e studenti e sul rapporto scuola-genitori. Il monitoraggio delle azioni intraprese è presente, sebbene con un punteggio inferiore rispetto ad altre aree. Un'attenzione particolare è rivolta all'integrazione e al supporto per gli studenti con fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali e sulla flessibilità degli spazi e dei tempi. L'approccio interdisciplinare è presente, sebbene l'evidenza specifica in merito sia limitata.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali è diversificata e comprende opzionali culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Particolarmente apprezzata l'offerta di attività sportive, mentre la frequenza, la partecipazione e l'impatto delle opzionali laboratoriali ed espressive necessiterebbero di maggiore evidenza.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella ricchezza del network di partner, nell'attenzione alla valorizzazione della persona e nella diversificazione dell'offerta formativa, con particolare riferimento alle attività sportive e culturali. Il progetto **\"Progetto minisindaco\"** e l'**\"Orchestra dei Flauti Dolci\"** sono esempi concreti di iniziative che promuovono la partecipazione attiva degli studenti e lo sviluppo di competenze specifiche.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la necessità di rafforzare l'attenzione verso il contrasto alla dispersione scolastica giovanile (NEET), di fornire maggiore evidenza sull'efficacia delle metodologie interdisciplinari e dei risultati delle attività opzionali, e di potenziare il monitoraggio delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi dichiarati in azioni concrete e misurabili, con un focus specifico sulla prevenzione della dispersione scolastica e sull'orientamento verso il mondo del lavoro. È inoltre auspicabile una maggiore integrazione tra le diverse attività e progetti, al fine di creare un sistema coerente e sinergico.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Gangi - G. Vazzano dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un potenziale di sviluppo notevole. Attraverso un'attenta analisi delle aree di debolezza e un'implementazione mirata delle azioni necessarie, l'istituto può ulteriormente migliorare la sua offerta formativa e garantire un futuro di successo per i propri studenti. La collaborazione con partner come **RESMA** e il **Comune di Gangi**, insieme a progetti come **\"Progetto con il Comune di Gangi\"** e **\"Progetto in rete con il CSR di Nicosia\"**, rappresentano un valore aggiunto per la comunità scolastica."
 }

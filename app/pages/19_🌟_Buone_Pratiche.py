@@ -58,6 +58,81 @@ CATEGORIA_ICONS = {
     "Esperienze Territoriali Significative": "🗺️"
 }
 
+# Tipologie di metodologia didattica
+TIPOLOGIE_METODOLOGIA = [
+    "STEM/STEAM",
+    "Coding e Pensiero Computazionale",
+    "Flipped Classroom",
+    "Peer Education/Tutoring",
+    "Problem Based Learning",
+    "Cooperative Learning",
+    "Gamification",
+    "Debate",
+    "Service Learning",
+    "Outdoor Education",
+    "Didattica Laboratoriale",
+    "Didattica Digitale",
+    "CLIL",
+    "Storytelling",
+    "Project Work",
+    "Learning by Doing",
+    "Mentoring",
+    "Altro"
+]
+
+# Ambiti di attività
+AMBITI_ATTIVITA = [
+    "Orientamento",
+    "Inclusione e BES",
+    "PCTO/Alternanza",
+    "Cittadinanza e Legalità",
+    "Educazione Civica",
+    "Sostenibilità e Ambiente",
+    "Digitalizzazione",
+    "Lingue Straniere",
+    "Arte e Creatività",
+    "Musica e Teatro",
+    "Sport e Benessere",
+    "Scienze e Ricerca",
+    "Lettura e Scrittura",
+    "Matematica e Logica",
+    "Imprenditorialità",
+    "Intercultura",
+    "Prevenzione Disagio",
+    "Continuità e Accoglienza",
+    "Valutazione e Autovalutazione",
+    "Formazione Docenti",
+    "Rapporti con Famiglie",
+    "Altro"
+]
+
+# Tipologie di istituto
+TIPOLOGIE_ISTITUTO = [
+    "Liceo Classico",
+    "Liceo Scientifico",
+    "Liceo Linguistico",
+    "Liceo Artistico",
+    "Liceo Musicale e Coreutico",
+    "Liceo delle Scienze Umane",
+    "Istituto Tecnico",
+    "Istituto Professionale",
+    "Istituto Comprensivo",
+    "Circolo Didattico",
+    "Scuola Secondaria I Grado",
+    "Scuola Primaria",
+    "Scuola dell'Infanzia",
+    "CPIA",
+    "Convitto/Educandato"
+]
+
+# Ordine e grado
+ORDINI_GRADO = [
+    "Infanzia",
+    "Primaria",
+    "Secondaria I Grado",
+    "Secondaria II Grado"
+]
+
 REGION_COORDS = {
     'Piemonte': (45.0703, 7.6869), 'Valle d\'Aosta': (45.7388, 7.4262),
     'Lombardia': (45.4668, 9.1905), 'Trentino-Alto Adige': (46.4993, 11.3548),
@@ -95,6 +170,8 @@ def refresh_data():
 
 def filter_practices(practices, categoria=None, regioni=None, tipi_scuola=None,
                      aree_geo=None, province=None, targets=None,
+                     tipologie_metodologia=None, ambiti_attivita=None,
+                     tipologie_istituto=None, ordini_grado=None,
                      maturity_range=None, search_text=None):
     """Filtra le pratiche in base ai criteri selezionati."""
     filtered = practices
@@ -123,6 +200,42 @@ def filter_practices(practices, categoria=None, regioni=None, tipi_scuola=None,
             return any(t.lower() in target_text for t in targets)
         filtered = [p for p in filtered if has_target(p)]
 
+    # Filtro per tipologie di metodologia
+    if tipologie_metodologia and len(tipologie_metodologia) > 0:
+        def has_metodologia(p):
+            met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
+            if isinstance(met_list, str):
+                met_list = [met_list]
+            return any(m in met_list for m in tipologie_metodologia)
+        filtered = [p for p in filtered if has_metodologia(p)]
+
+    # Filtro per ambiti di attività
+    if ambiti_attivita and len(ambiti_attivita) > 0:
+        def has_ambito(p):
+            amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
+            if isinstance(amb_list, str):
+                amb_list = [amb_list]
+            return any(a in amb_list for a in ambiti_attivita)
+        filtered = [p for p in filtered if has_ambito(p)]
+
+    # Filtro per tipologia istituto
+    if tipologie_istituto and len(tipologie_istituto) > 0:
+        def has_tipologia_istituto(p):
+            tipo = p.get("school", {}).get("tipo_scuola", "")
+            nome = p.get("school", {}).get("nome", "")
+            combined = f"{tipo} {nome}".lower()
+            return any(t.lower() in combined for t in tipologie_istituto)
+        filtered = [p for p in filtered if has_tipologia_istituto(p)]
+
+    # Filtro per ordine/grado
+    if ordini_grado and len(ordini_grado) > 0:
+        def has_ordine(p):
+            ordine = p.get("school", {}).get("ordine_grado", "")
+            tipo = p.get("school", {}).get("tipo_scuola", "")
+            combined = f"{ordine} {tipo}".lower()
+            return any(o.lower() in combined for o in ordini_grado)
+        filtered = [p for p in filtered if has_ordine(p)]
+
     if maturity_range and len(maturity_range) == 2:
         min_val, max_val = maturity_range
         def in_maturity_range(p):
@@ -142,13 +255,18 @@ def filter_practices(practices, categoria=None, regioni=None, tipi_scuola=None,
             nome_scuola = p.get("school", {}).get("nome", "").lower()
             codice = p.get("school", {}).get("codice_meccanografico", "").lower()
             comune = p.get("school", {}).get("comune", "").lower()
+            # Cerca anche in tipologie e ambiti
+            tipologie = " ".join(p.get("pratica", {}).get("tipologie_metodologia", [])).lower()
+            ambiti = " ".join(p.get("pratica", {}).get("ambiti_attivita", [])).lower()
             return (search_lower in titolo or
                     search_lower in descrizione or
                     search_lower in metodologia or
                     search_lower in target or
                     search_lower in nome_scuola or
                     search_lower in codice or
-                    search_lower in comune)
+                    search_lower in comune or
+                    search_lower in tipologie or
+                    search_lower in ambiti)
         filtered = [p for p in filtered if matches_search(p)]
 
     return filtered
@@ -160,22 +278,66 @@ def group_practices(practices, group_by="categoria"):
     for p in practices:
         if group_by == "categoria":
             key = p.get("pratica", {}).get("categoria", "Altro")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         elif group_by == "regione":
             key = p.get("school", {}).get("regione", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         elif group_by == "scuola":
             key = p.get("school", {}).get("nome", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         elif group_by == "provincia":
             key = p.get("school", {}).get("provincia", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         elif group_by == "tipo_scuola":
             key = p.get("school", {}).get("tipo_scuola", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         elif group_by == "area_geografica":
             key = p.get("school", {}).get("area_geografica", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
+        elif group_by == "tipologia_metodologia":
+            # Una pratica può apparire in più gruppi se ha più metodologie
+            met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
+            if isinstance(met_list, str):
+                met_list = [met_list] if met_list else ["N/D"]
+            if not met_list:
+                met_list = ["N/D"]
+            for met in met_list:
+                if met not in groups:
+                    groups[met] = []
+                groups[met].append(p)
+        elif group_by == "ambito_attivita":
+            # Una pratica può apparire in più gruppi se ha più ambiti
+            amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
+            if isinstance(amb_list, str):
+                amb_list = [amb_list] if amb_list else ["N/D"]
+            if not amb_list:
+                amb_list = ["N/D"]
+            for amb in amb_list:
+                if amb not in groups:
+                    groups[amb] = []
+                groups[amb].append(p)
+        elif group_by == "ordine_grado":
+            key = p.get("school", {}).get("ordine_grado", "N/D")
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
         else:
             key = "Tutte"
-
-        if key not in groups:
-            groups[key] = []
-        groups[key].append(p)
+            if key not in groups:
+                groups[key] = []
+            groups[key].append(p)
 
     # Ordina gruppi per numero di pratiche (decrescente)
     return dict(sorted(groups.items(), key=lambda x: -len(x[1])))
@@ -234,42 +396,86 @@ if not practices:
     render_footer()
     st.stop()
 
-# === SIDEBAR FILTRI ===
-with st.sidebar:
-    st.header("🔍 Filtri")
+# === SEZIONE FILTRI NELLA PAGINA PRINCIPALE ===
 
-    # Ricerca testuale in alto per visibilita
-    search = st.text_input("🔎 Ricerca testuale", placeholder="Cerca in titolo, descrizione, scuola, comune...")
+# === BARRA DI RICERCA ===
+search = st.text_input("🔎 Cerca", placeholder="Cerca in titolo, descrizione, metodologia, scuola...", label_visibility="collapsed")
 
-    st.markdown("---")
+# === FILTRI PRINCIPALI (sempre visibili) ===
+st.markdown("##### 🔍 Filtri")
 
-    # Categoria
+# Prima riga: Categoria, Ambito, Metodologia
+col_f1, col_f2, col_f3 = st.columns(3)
+
+with col_f1:
     categorie_opzioni = ["Tutte"] + CATEGORIE
-    sel_categoria = st.selectbox("Categoria", categorie_opzioni)
+    sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni)
 
-    # Target (multiselect)
-    st.markdown("**Target**")
-    target_options = ["Studenti", "Docenti", "Famiglie", "Primaria", "Secondaria", "Infanzia"]
-    sel_targets = st.multiselect("Destinatari", target_options, label_visibility="collapsed")
+with col_f2:
+    # Ambito Attività - estrai dalle pratiche esistenti
+    ambiti_disponibili = set()
+    for p in practices:
+        amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
+        if isinstance(amb_list, list):
+            ambiti_disponibili.update(amb_list)
+        elif amb_list:
+            ambiti_disponibili.add(amb_list)
+    ambiti_disponibili = sorted([a for a in ambiti_disponibili if a])
+    if not ambiti_disponibili:
+        ambiti_disponibili = AMBITI_ATTIVITA
+    sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili)
 
-    # Expander per filtri geografici
-    with st.expander("📍 Filtri Geografici", expanded=False):
+with col_f3:
+    # Tipologia Metodologia - estrai dalle pratiche esistenti
+    metodologie_disponibili = set()
+    for p in practices:
+        met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
+        if isinstance(met_list, list):
+            metodologie_disponibili.update(met_list)
+        elif met_list:
+            metodologie_disponibili.add(met_list)
+    metodologie_disponibili = sorted([m for m in metodologie_disponibili if m])
+    if not metodologie_disponibili:
+        metodologie_disponibili = TIPOLOGIE_METODOLOGIA
+    sel_metodologie = st.multiselect("📚 Tipologia Metodologia", metodologie_disponibili)
+
+# Seconda riga: Tipologia Istituto, Ordine/Grado, Target
+col_f4, col_f5, col_f6 = st.columns(3)
+
+with col_f4:
+    sel_tipologie_istituto = st.multiselect("🏫 Tipologia Istituto", TIPOLOGIE_ISTITUTO)
+
+with col_f5:
+    sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO)
+
+with col_f6:
+    target_options = ["Studenti", "Docenti", "Famiglie"]
+    sel_targets = st.multiselect("👥 Target", target_options)
+
+# === FILTRI AVANZATI (expander) ===
+with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice Maturità)", expanded=False):
+    # Riga filtri geografici
+    col_g1, col_g2, col_g3, col_g4 = st.columns(4)
+
+    with col_g1:
         # Area geografica
         aree_disponibili = sorted(set(
             p.get("school", {}).get("area_geografica", "")
             for p in practices
             if p.get("school", {}).get("area_geografica")
         ))
-        sel_aree = st.multiselect("Area Geografica", aree_disponibili)
+        sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili)
 
+    with col_g2:
         # Regione (multiselect)
         regioni_disponibili = sorted(set(
             p.get("school", {}).get("regione", "")
             for p in practices
             if p.get("school", {}).get("regione")
         ))
-        sel_regioni = st.multiselect("Regione", regioni_disponibili)
+        sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili)
 
+    with col_g3:
         # Provincia (multiselect) - filtrata per regioni selezionate
         if sel_regioni:
             province_disponibili = sorted(set(
@@ -283,11 +489,10 @@ with st.sidebar:
                 for p in practices
                 if p.get("school", {}).get("provincia")
             ))
-        sel_province = st.multiselect("Provincia", province_disponibili)
+        sel_province = st.multiselect("🏙️ Provincia", province_disponibili)
 
-    # Expander per filtri scuola
-    with st.expander("🏫 Filtri Scuola", expanded=False):
-        # Tipo scuola (multiselect)
+    with col_g4:
+        # Tipo scuola legacy
         tipi_set = set()
         for p in practices:
             tipo = p.get("school", {}).get("tipo_scuola", "")
@@ -296,10 +501,13 @@ with st.sidebar:
                 if t:
                     tipi_set.add(t)
         tipi_disponibili = sorted(tipi_set)
-        sel_tipi = st.multiselect("Tipo Scuola", tipi_disponibili)
+        sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili)
 
-        # Range Maturity Index
-        st.markdown("**Indice Maturita RO**")
+    # Riga per maturity index
+    col_m1, col_m2 = st.columns([1, 3])
+    with col_m1:
+        st.markdown("**📊 Indice Maturità RO**")
+    with col_m2:
         maturity_values = [
             p.get("contesto", {}).get("maturity_index")
             for p in practices
@@ -308,32 +516,42 @@ with st.sidebar:
         if maturity_values:
             min_mi = min(maturity_values)
             max_mi = max(maturity_values)
-            sel_maturity = st.slider(
-                "Range Indice",
-                min_value=float(min_mi),
-                max_value=float(max_mi),
-                value=(float(min_mi), float(max_mi)),
-                step=0.1,
-                label_visibility="collapsed"
-            )
+            if min_mi < max_mi:
+                sel_maturity = st.slider(
+                    "Range Indice Maturità",
+                    min_value=float(min_mi),
+                    max_value=float(max_mi),
+                    value=(float(min_mi), float(max_mi)),
+                    step=0.1,
+                    label_visibility="collapsed"
+                )
+            else:
+                st.caption(f"Indice unico: {min_mi:.2f}")
+                sel_maturity = None
         else:
+            st.caption("Nessun dato disponibile")
             sel_maturity = None
 
-    st.markdown("---")
-
-    # Info dataset
+# === INFO DATASET E PULSANTI ===
+col_info1, col_info2, col_info3, col_info4, col_info5 = st.columns(5)
+with col_info1:
     st.caption(f"📅 Aggiornamento: {data.get('last_updated', 'N/D')[:10] if data.get('last_updated') else 'N/D'}")
+with col_info2:
     st.caption(f"🤖 Modello: {data.get('extraction_model', 'N/D')}")
+with col_info3:
     st.caption(f"🏫 Scuole: {data.get('schools_processed', 0)}")
-    st.caption(f"📋 Pratiche: {data.get('total_practices', 0)}")
+with col_info4:
+    st.caption(f"📋 Pratiche totali: {data.get('total_practices', 0)}")
+with col_info5:
+    col_btn1, col_btn2 = st.columns(2)
+    with col_btn1:
+        if st.button("🔄", help="Aggiorna dati"):
+            refresh_data()
+    with col_btn2:
+        if st.button("🗑️", help="Reset filtri"):
+            st.rerun()
 
-    # Pulsante refresh
-    if st.button("🔄 Aggiorna dati", use_container_width=True):
-        refresh_data()
-
-    # Reset filtri
-    if st.button("🗑️ Reset filtri", use_container_width=True):
-        st.rerun()
+st.markdown("---")
 
 # Applica filtri
 filtered = filter_practices(
@@ -344,6 +562,10 @@ filtered = filter_practices(
     aree_geo=sel_aree if sel_aree else None,
     province=sel_province if sel_province else None,
     targets=sel_targets if sel_targets else None,
+    tipologie_metodologia=sel_metodologie if sel_metodologie else None,
+    ambiti_attivita=sel_ambiti if sel_ambiti else None,
+    tipologie_istituto=sel_tipologie_istituto if sel_tipologie_istituto else None,
+    ordini_grado=sel_ordini if sel_ordini else None,
     maturity_range=sel_maturity if sel_maturity else None,
     search_text=search if search else None
 )
@@ -373,65 +595,152 @@ with tab_catalogo:
 
     st.markdown("---")
 
-    # Ordinamento
-    sort_options = ["Categoria", "Regione", "Scuola", "Titolo"]
-    sort_by = st.selectbox("Ordina per", sort_options, key="sort_catalogo")
+    # Opzioni visualizzazione
+    col_view1, col_view2, col_view3 = st.columns([1, 1, 2])
 
-    if sort_by == "Categoria":
-        filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("categoria", ""))
-    elif sort_by == "Regione":
-        filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("regione", ""))
-    elif sort_by == "Scuola":
-        filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("nome", ""))
+    with col_view1:
+        view_mode = st.radio(
+            "Visualizzazione",
+            ["Lista", "Raggruppata", "Tabella"],
+            horizontal=True,
+            label_visibility="collapsed"
+        )
+
+    with col_view2:
+        if view_mode == "Raggruppata":
+            group_options = {
+                "Categoria": "categoria",
+                "Regione": "regione",
+                "Scuola": "scuola",
+                "Provincia": "provincia",
+                "Tipo Scuola": "tipo_scuola",
+                "Area Geografica": "area_geografica"
+            }
+            sel_group = st.selectbox("Raggruppa per", list(group_options.keys()), key="group_by")
+            group_by_field = group_options[sel_group]
+        else:
+            group_by_field = None
+
+    with col_view3:
+        if view_mode == "Lista":
+            sort_options = ["Categoria", "Regione", "Scuola", "Titolo"]
+            sort_by = st.selectbox("Ordina per", sort_options, key="sort_catalogo")
+        else:
+            sort_by = "Categoria"
+
+    st.markdown("---")
+
+    # === VISTA LISTA ===
+    if view_mode == "Lista":
+        if sort_by == "Categoria":
+            filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("categoria", ""))
+        elif sort_by == "Regione":
+            filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("regione", ""))
+        elif sort_by == "Scuola":
+            filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("nome", ""))
+        else:
+            filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("titolo", ""))
+
+        # Lista pratiche con expander
+        for i, pratica in enumerate(filtered_sorted):
+            school = pratica.get("school", {})
+            prat = pratica.get("pratica", {})
+            contesto = pratica.get("contesto", {})
+
+            categoria = prat.get("categoria", "")
+            icon = CATEGORIA_ICONS.get(categoria, "📌")
+
+            with st.expander(
+                f"{icon} {prat.get('titolo', 'Senza titolo')} | "
+                f"{school.get('nome', 'Scuola N/D')} ({school.get('regione', 'N/D')})"
+            ):
+                col1, col2 = st.columns([2, 1])
+
+                with col1:
+                    st.markdown(f"**Categoria:** {categoria}")
+                    st.markdown(f"**Descrizione:** {prat.get('descrizione', 'N/D')}")
+
+                    if prat.get('metodologia'):
+                        st.markdown(f"**Metodologia:** {prat.get('metodologia')}")
+
+                    if prat.get('target'):
+                        st.markdown(f"**Target:** {prat.get('target')}")
+
+                    if prat.get('citazione_ptof'):
+                        st.info(f"📝 *\"{prat.get('citazione_ptof')}\"*")
+
+                    if prat.get('pagina_evidenza') and prat.get('pagina_evidenza') != "Non specificata":
+                        st.caption(f"📄 {prat.get('pagina_evidenza')}")
+
+                with col2:
+                    st.markdown("**📍 Scuola:**")
+                    st.markdown(f"**{school.get('nome', 'N/D')}**")
+                    st.markdown(f"Codice: `{school.get('codice_meccanografico', 'N/D')}`")
+                    st.markdown(f"{school.get('comune', '')}, {school.get('provincia', '')}")
+                    st.markdown(f"{school.get('tipo_scuola', 'N/D')}")
+
+                    if contesto.get('maturity_index'):
+                        st.metric("Indice RO", f"{contesto['maturity_index']:.2f}")
+
+                    # Partnership se presenti
+                    if contesto.get('partnership_coinvolte'):
+                        st.markdown("**🤝 Partnership:**")
+                        for partner in contesto['partnership_coinvolte'][:5]:
+                            st.markdown(f"- {partner}")
+
+    # === VISTA RAGGRUPPATA ===
+    elif view_mode == "Raggruppata":
+        grouped = group_practices(filtered, group_by_field)
+
+        for group_name, group_practices_list in grouped.items():
+            group_icon = CATEGORIA_ICONS.get(group_name, "📁") if group_by_field == "categoria" else "📁"
+
+            with st.expander(f"{group_icon} **{group_name}** ({len(group_practices_list)} pratiche)", expanded=False):
+                for pratica in group_practices_list:
+                    school = pratica.get("school", {})
+                    prat = pratica.get("pratica", {})
+                    contesto = pratica.get("contesto", {})
+
+                    categoria = prat.get("categoria", "")
+                    prat_icon = CATEGORIA_ICONS.get(categoria, "📌")
+
+                    st.markdown(f"""
+                    **{prat_icon} {prat.get('titolo', 'Senza titolo')}**
+                    - 🏫 {school.get('nome', 'N/D')} ({school.get('comune', '')}, {school.get('provincia', '')})
+                    - 📂 {categoria}
+                    - 📝 {prat.get('descrizione', 'N/D')}
+                    """)
+
+                    if prat.get('target'):
+                        st.caption(f"🎯 Target: {prat.get('target')}")
+
+                    st.markdown("---")
+
+    # === VISTA TABELLA ===
     else:
-        filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("titolo", ""))
+        df_table = practices_to_dataframe(filtered)
 
-    # Lista pratiche con expander
-    for i, pratica in enumerate(filtered_sorted):
-        school = pratica.get("school", {})
-        prat = pratica.get("pratica", {})
-        contesto = pratica.get("contesto", {})
+        if not df_table.empty:
+            # Colonne da mostrare
+            display_cols = ['titolo', 'categoria', 'nome_scuola', 'regione', 'provincia', 'tipo_scuola', 'target']
+            available_cols = [c for c in display_cols if c in df_table.columns]
 
-        categoria = prat.get("categoria", "")
-        icon = CATEGORIA_ICONS.get(categoria, "📌")
-
-        with st.expander(
-            f"{icon} {prat.get('titolo', 'Senza titolo')} | "
-            f"{school.get('nome', 'Scuola N/D')} ({school.get('regione', 'N/D')})"
-        ):
-            col1, col2 = st.columns([2, 1])
-
-            with col1:
-                st.markdown(f"**Categoria:** {categoria}")
-                st.markdown(f"**Descrizione:** {prat.get('descrizione', 'N/D')}")
-
-                if prat.get('metodologia'):
-                    st.markdown(f"**Metodologia:** {prat.get('metodologia')}")
-
-                if prat.get('target'):
-                    st.markdown(f"**Target:** {prat.get('target')}")
-
-                if prat.get('citazione_ptof'):
-                    st.info(f"📝 *\"{prat.get('citazione_ptof')}\"*")
-
-                if prat.get('pagina_evidenza') and prat.get('pagina_evidenza') != "Non specificata":
-                    st.caption(f"📄 {prat.get('pagina_evidenza')}")
-
-            with col2:
-                st.markdown("**📍 Scuola:**")
-                st.markdown(f"**{school.get('nome', 'N/D')}**")
-                st.markdown(f"Codice: `{school.get('codice_meccanografico', 'N/D')}`")
-                st.markdown(f"{school.get('comune', '')}, {school.get('provincia', '')}")
-                st.markdown(f"{school.get('tipo_scuola', 'N/D')}")
-
-                if contesto.get('maturity_index'):
-                    st.metric("Indice RO", f"{contesto['maturity_index']:.2f}")
-
-                # Partnership se presenti
-                if contesto.get('partnership_coinvolte'):
-                    st.markdown("**🤝 Partnership:**")
-                    for partner in contesto['partnership_coinvolte'][:5]:
-                        st.markdown(f"- {partner}")
+            st.dataframe(
+                df_table[available_cols],
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "titolo": st.column_config.TextColumn("Titolo", width="large"),
+                    "categoria": st.column_config.TextColumn("Categoria", width="medium"),
+                    "nome_scuola": st.column_config.TextColumn("Scuola", width="medium"),
+                    "regione": st.column_config.TextColumn("Regione", width="small"),
+                    "provincia": st.column_config.TextColumn("Prov.", width="small"),
+                    "tipo_scuola": st.column_config.TextColumn("Tipo", width="small"),
+                    "target": st.column_config.TextColumn("Target", width="medium"),
+                }
+            )
+        else:
+            st.info("Nessuna pratica da visualizzare.")
 
 # === TAB MAPPA ===
 with tab_mappa:
@@ -594,8 +903,11 @@ with tab_export:
                 "filters_applied": {
                     "categoria": sel_categoria if sel_categoria != "Tutte" else None,
                     "regioni": sel_regioni if sel_regioni else None,
+                    "province": sel_province if sel_province else None,
                     "tipi_scuola": sel_tipi if sel_tipi else None,
                     "aree_geografiche": sel_aree if sel_aree else None,
+                    "targets": sel_targets if sel_targets else None,
+                    "maturity_range": list(sel_maturity) if sel_maturity else None,
                     "search_text": search if search else None
                 },
                 "total_practices": len(filtered),
