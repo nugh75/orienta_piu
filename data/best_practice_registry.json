@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T20:11:47.438006",
+  "last_updated": "2025-12-28T23:56:10.723608",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -228,6 +228,24 @@
       "file_hash": "sha256:edab32aa6dd6818aabbeb11d1d9e5527985507aea8648c35539410a118d35a58",
       "processed_at": "2025-12-28T20:11:47.437988",
       "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "AGMM841017": {
+      "file_hash": "sha256:84ae161fd3e13a101aebbe309e3467f8d89cd941dbb49c4c21f8cbe7f46a53b6",
+      "processed_at": "2025-12-28T23:46:17.833942",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "AGAA805076": {
+      "file_hash": "sha256:2f7fd50ed18b6a4b2565211f55d9e45d643d0e600fa7df2b60e8baabec8a0959",
+      "processed_at": "2025-12-28T23:51:15.572795",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "AGMM818016": {
+      "file_hash": "sha256:2598e5a3678956ea1b6c5fe750d323fcdc9e05286396698a829f2e15fc644374",
+      "processed_at": "2025-12-28T23:56:10.723604",
+      "practices_count": 19,
       "model_used": "qwen3:32b"
     }
   }

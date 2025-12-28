@@ -1172,19 +1172,23 @@ with tab_grafici:
             ]
 
             if len(valid_groups) >= 2:
-                h_stat, p_kw = stats.kruskal(*valid_groups)
-                n_kw = sum(len(g) for g in valid_groups)
-                k_kw = len(valid_groups)
-                eps = epsilon_squared(h_stat, k_kw, n_kw)
-                eps_label = interpret_epsilon_squared(eps) if eps is not None else "n/d"
+                try:
+                    h_stat, p_kw = stats.kruskal(*valid_groups)
+                    n_kw = sum(len(g) for g in valid_groups)
+                    k_kw = len(valid_groups)
+                    eps = epsilon_squared(h_stat, k_kw, n_kw)
+                    eps_label = interpret_epsilon_squared(eps) if eps is not None else "n/d"
 
-                st.markdown(
-                    f"**Test:** Kruskal-Wallis | p-value = {p_kw:.4f} | k = {k_kw}"
-                )
-                if eps is not None:
-                    st.markdown(f"**Effetto (epsilon^2):** {eps:.2f} ({eps_label})")
-                else:
-                    st.markdown("**Effetto (epsilon^2):** n/d")
+                    st.markdown(
+                        f"**Test:** Kruskal-Wallis | p-value = {p_kw:.4f} | k = {k_kw}"
+                    )
+                    if eps is not None:
+                        st.markdown(f"**Effetto (epsilon^2):** {eps:.2f} ({eps_label})")
+                    else:
+                        st.markdown("**Effetto (epsilon^2):** n/d")
+                except ValueError:
+                    p_kw = 1.0
+                    st.markdown("**Test:** Kruskal-Wallis non applicabile (valori identici)")
 
                 if p_kw < alpha and not med_df.empty:
                     top_row = med_df.iloc[0]

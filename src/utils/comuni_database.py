@@ -31,7 +31,6 @@ class ComuniDatabase:
         possible_paths = [
             Path(__file__).parent.parent.parent / "data" / "comuni_italiani.json",
             Path("data/comuni_italiani.json"),
-            Path("/Users/danieledragoni/git/LIste/data/comuni_italiani.json")
         ]
         
         db_path = None

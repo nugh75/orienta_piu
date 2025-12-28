@@ -6960,6 +6960,48 @@
         "reason": "Score 1.98 too low (<= 2.0)"
       },
       "timestamp": "2025-12-26T10:35:53.237490"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/RMTEST001_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/corrupted/RMTEST001_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/RMTEST001_PTOF.pdf",
+        "file_name": "RMTEST001_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-28T21:39:57.332033",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-28T21:39:57.332504"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/RMTEST002_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/corrupted/RMTEST002_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/RMTEST002_PTOF.pdf",
+        "file_name": "RMTEST002_PTOF.pdf",
+        "result": "corrupted",
+        "confidence": 1.0,
+        "phase": "extraction",
+        "page_count": 0,
+        "char_count": 0,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2025-12-28T21:39:58.646776",
+        "reason": "Impossibile leggere PDF"
+      },
+      "timestamp": "2025-12-28T21:39:58.646981"
     }
   ]
 }

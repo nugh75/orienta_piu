@@ -4763,7 +4763,19 @@
       "result": "valid_ptof",
       "confidence": 1.0,
       "validated_at": "2025-12-27T20:34:38.112697"
+    },
+    "RMTEST001_PTOF.pdf": {
+      "hash": "c6cbcdd6e5f7bf52c6aaee171122808dd9eda4ad3c76da559e51b24fe9a45923",
+      "result": "corrupted",
+      "confidence": 1.0,
+      "validated_at": "2025-12-28T21:39:57.332057"
+    },
+    "RMTEST002_PTOF.pdf": {
+      "hash": "ff1e078dcb449aff87d0d587df0918fdd8399f502747f32e16fa8272e0846a77",
+      "result": "corrupted",
+      "confidence": 1.0,
+      "validated_at": "2025-12-28T21:39:58.646796"
     }
   },
-  "last_updated": "2025-12-27T22:08:44.194669"
+  "last_updated": "2025-12-28T23:41:37.986647"
 }

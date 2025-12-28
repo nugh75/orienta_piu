@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T20:11:47.439188",
+  "last_updated": "2025-12-28T23:56:10.723908",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1794,
-  "schools_processed": 38,
+  "total_practices": 1836,
+  "schools_processed": 41,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -101867,6 +101867,2278 @@
         "model_used": "qwen3:32b",
         "source_file": "BOIS02700V_ptof.md",
         "chunk_source": 9
+      }
+    },
+    {
+      "id": "9374488b-fe08-4710-bce4-d0ae730486ba",
+      "school": {
+        "codice_meccanografico": "AGMM841017",
+        "nome": "A.Manzoni",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Ravanusa",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progettazione di segmenti di curricolo in continuità interordini",
+        "descrizione": "Collaborazione tra docenti di ordini/gradi scolastici diversi per garantire continuità didattica e trasversalità delle competenze. Coinvolge programmazioni congiunte per ambiti disciplinari e classi parallele.",
+        "metodologia": "Coordinamento tra scuole primarie e secondarie attraverso incontri periodici e condivisione di strumenti didattici.",
+        "tipologie_metodologia": [
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti e docenti di scuola primaria e secondaria",
+        "citazione_ptof": "la previsione di progettazione di segmenti di curricolo in continuità con i docenti di ordini/gradi di scuola successivi/precedenti",
+        "pagina_evidenza": "Pagina 3"
+      },
+      "contesto": {
+        "maturity_index": 2.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Enti Locali",
+          "Servizio sociosanitari",
+          "associazioni",
+          "Forze di polizia"
+        ],
+        "attivita_correlate": []
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:46:17.831151",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM841017_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "0dbe5ace-99d4-4233-b0ed-1ca8e003ae59",
+      "school": {
+        "codice_meccanografico": "AGMM841017",
+        "nome": "A.Manzoni",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Ravanusa",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Inserimento di percorsi musicali nel curricolo",
+        "descrizione": "Aggiornamento del curricolo con nuovi percorsi musicali, avviati con strumenti specifici, per sviluppare competenze artistiche e creative.",
+        "metodologia": "Attività laboratoriali con strumenti musicali e progetti interdisciplinari.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "aggiornare il curricolo con l’inserimento dei nuovi percorsi musicali",
+        "pagina_evidenza": "Pagina 3"
+      },
+      "contesto": {
+        "maturity_index": 2.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Enti Locali",
+          "Servizio sociosanitari",
+          "associazioni",
+          "Forze di polizia"
+        ],
+        "attivita_correlate": []
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:46:17.831168",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM841017_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b93b75eb-a1c6-4f3c-ac24-2d3d37dbff55",
+      "school": {
+        "codice_meccanografico": "AGMM841017",
+        "nome": "A.Manzoni",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Ravanusa",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione motoria con docenti specializzati",
+        "descrizione": "Attività di Educazione Motoria nelle classi quarte e quinte della scuola primaria gestite da docenti con titolo specifico, in conformità alla Legge 234/2021.",
+        "metodologia": "Lezioni strutturate con metodologie attive e personalizzate per sviluppare competenze motorie.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere"
+        ],
+        "target": "Studenti di scuola primaria (classi IV e V)",
+        "citazione_ptof": "l’adeguamento orario previsto in relazione alle attività dei docenti specialisti forniti di idoneo titolo di studio",
+        "pagina_evidenza": "Pagina 4"
+      },
+      "contesto": {
+        "maturity_index": 2.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Enti Locali",
+          "Servizio sociosanitari",
+          "associazioni",
+          "Forze di polizia"
+        ],
+        "attivita_correlate": []
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:46:17.831174",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM841017_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "257578da-75f0-4db1-bb5f-cc8fa3aa5924",
+      "school": {
+        "codice_meccanografico": "AGMM841017",
+        "nome": "A.Manzoni",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Ravanusa",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Campagna di sensibilizzazione sull’uso corretto degli smartphone",
+        "descrizione": "Iniziativa per educare studenti all’utilizzo consapevole degli smartphone, in linea con le indicazioni della Circolare MIM n. 5274/2024.",
+        "metodologia": "Attività di formazione e discussione in classe, con coinvolgimento delle famiglie.",
+        "tipologie_metodologia": [
+          "Cittadinanza e Legalità"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "promozione di una campagna di sensibilizzazione per un uso corretto degli smartphone",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 2.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Enti Locali",
+          "Servizio sociosanitari",
+          "associazioni",
+          "Forze di polizia"
+        ],
+        "attivita_correlate": []
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:46:17.831179",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM841017_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "07e7a5aa-0fe8-475b-ba46-71cfe457e753",
+      "school": {
+        "codice_meccanografico": "AGMM841017",
+        "nome": "A.Manzoni",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Ravanusa",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Monitoraggio e riflessione sulle attività del PTOF",
+        "descrizione": "Attività di valutazione periodica e momenti di riflessione per verificare l’efficacia delle iniziative previste nel PTOF e introdurre miglioramenti.",
+        "metodologia": "Analisi dati, focus group e report trimestrali per raccogliere feedback e ridefinire strategie.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "la previsione di attività di monitoraggio e di momenti di riflessione sullo sviluppo delle attività previste",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 2.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Enti Locali",
+          "Servizio sociosanitari",
+          "associazioni",
+          "Forze di polizia"
+        ],
+        "attivita_correlate": []
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:46:17.831183",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM841017_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "29b4f438-feaf-4d2a-a60b-97fd2b90c25f",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Indirizzo Musicale con Corsi Strumentali",
+        "descrizione": "L'indirizzo musicale prevede corsi di strumento (pianoforte, chitarra, flauto traverso, oboe) in orario aggiuntivo, con insegnanti specializzati. Gli studenti partecipano a concorsi musicali regionali e provinciali, ottenendo riconoscimenti significativi.",
+        "metodologia": "Attività extracurricolari strutturate in 2 ore settimanali, con focus su pratica strumentale e partecipazione a eventi competitivi.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Arte e Creatività"
+        ],
+        "ambiti_attivita": [
+          "Musica e Teatro",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Dall’anno scolastico 2014/2015 la scuola secondaria di Raffadali ha una sezione ad indirizzo musicale. Ad oggi sono attivi i seguenti corsi: Pianoforte, Chitarra, Flauto Traverso, Oboe.",
+        "pagina_evidenza": "Pagina 14-15"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:47:30.269384",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "a1cd101a-5648-43be-9bba-0e591ff7dec7",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento Competenze Digitali con Pensiero Computazionale",
+        "descrizione": "Progetti per sviluppare competenze digitali attraverso l'uso di LIM, PC e tablet, con focus su pensiero computazionale e utilizzo critico dei social network. Si prevede la realizzazione di ambienti di apprendimento interattivi e formazione docenti.",
+        "metodologia": "Integrazione di tecnologie digitali in percorsi didattici, utilizzo di metodologie attive e collaborazione tra docenti per condividere esperienze.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Potenziamento delle competenze digitali degli alunni, con particolare riguardo al pensiero computazionale e all’utilizzo critico e consapevole dei social network e dei media.",
+        "pagina_evidenza": "Pagina 18"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:47:30.269399",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3250f8b1-8c24-42a8-8169-5d7735e97342",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti Verticali per Competenze Sociali e Civiche",
+        "descrizione": "Collaborazione con risorse territoriali per sviluppare progetti interclassi che promuovano la cultura della legalità, il rispetto delle differenze e la collaborazione, dalla scuola dell'infanzia alla secondaria di I grado.",
+        "metodologia": "Attività interdisciplinari e partecipative, coinvolgendo enti locali e associazioni per realizzare iniziative di educazione civica.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Promuovere progetti verticali in collaborazione con le risorse del territorio per potenziare la cultura del rispetto, della collaborazione e della legalità.",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:47:30.269404",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3b14d360-bd18-4684-a9e8-a16b82478885",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione Linguistica con CLIL",
+        "descrizione": "Applicazione della metodologia CLIL (Content and Language Integrated Learning) per valorizzare le competenze linguistiche in italiano, inglese e altre lingue europee, integrando contenuti disciplinari e lingua straniera.",
+        "metodologia": "Lezioni bilingue in cui argomenti disciplinari vengono insegnati in lingua straniera, favorendo l'apprendimento contestualizzato.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento all'italiano nonché alla lingua inglese e ad altre lingue dell'Unione europea, anche mediante l'utilizzo della metodologia CLIL.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:47:30.269407",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "77509bfe-eac8-47c6-ab3e-732e7864af80",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Curricolo Verticale per Competenze",
+        "descrizione": "Elaborazione di un curricolo verticale per competenze, con prove comuni in entrata per classi parallele, al fine di garantire una progettualità didattica coerente e articolata su tutto il percorso scolastico.",
+        "metodologia": "Coordinamento tra docenti di diversi ordini di scuola per definire traguardi comuni e strumenti di valutazione condivisi.",
+        "tipologie_metodologia": [
+          "Didattica per Competenze"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Elaborazione di un curricolo verticale per competenze. Elaborazione, per classi parallele, di prove strutturate comuni in entrata.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:47:30.269411",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "2f33b510-62ef-4f73-8288-b3bf08aef560",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Laboratoriale Integrata con Tecnologie Digitali",
+        "descrizione": "Implementazione di ambienti di apprendimento laboratoriale che coniugano tradizione e innovazione, utilizzando tecnologie digitali per sviluppare competenze autentiche negli studenti. Include l'uso di strumenti digitali per didattica attiva e metodologie innovative.",
+        "metodologia": "Attività laboratoriali interdisciplinari con integrazione di strumenti digitali (registro elettronico, classi virtuali) e approcci metodologici innovativi.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti da scuola dell'infanzia a secondaria di primo grado",
+        "citazione_ptof": "La scuola attua una didattica laboratoriale che consente l'acquisizione di competenze autentiche con l'ausilio delle nuove tecnologie.",
+        "pagina_evidenza": "Pagina 30"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:48:42.485452",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "f849b8a1-e1fa-40b7-b52d-4f6a306e515f",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piano Rigenerazione Scuola per Sostenibilità Ambientale",
+        "descrizione": "Progetto basato sull'articolo 10 del D-L 196/2021 per promuovere consumi responsabili e abitudini di vita ecosostenibili. Include attività educative per sensibilizzare studenti su problematiche ambientali.",
+        "metodologia": "Attività laboratoriali e progetti interdisciplinari per trasformare abitudini in chiave sostenibile.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Il Piano prevede attività per promuovere consapevolezza e conoscenza delle problematiche legate all'ambiente.",
+        "pagina_evidenza": "Pagina 30"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:48:42.485471",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "c001da7e-383c-4816-ab30-e27d20217ffc",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione Civica Trasversale con UDA Pluridisciplinari",
+        "descrizione": "Realizzazione di Unità di Apprendimento (UDA) pluridisciplinari per sviluppare competenze di cittadinanza, sostenibilità e legalità. Include produzione di prodotti finali e prove esperte per valutazione.",
+        "metodologia": "Progetti interdisciplinari con valutazione basata su griglie specifiche e autovalutazione.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti da scuola primaria a secondaria di primo grado",
+        "citazione_ptof": "I consigli di classe sviluppano due UDA trasversali pluridisciplinari per quadrimestre con valutazione finale.",
+        "pagina_evidenza": "Pagina 33"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:48:42.485476",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "d2e63d11-256d-4b1f-8886-2d52cdd2c5e0",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piano Didattico Personalizzato (PdP) per BES",
+        "descrizione": "Progettazione di percorsi individualizzati per studenti con Bisogni Educativi Speciali (BES), con metodologie, strumenti compensativi e misure dispensative ad hoc. Coinvolge famiglie e specialisti.",
+        "metodologia": "Collaborazione tra insegnanti, famiglie e specialisti per redigere piani personalizzati.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Didattica Personalizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con BES",
+        "citazione_ptof": "Il PdP è redatto con la collaborazione della famiglia e garantisce didattica funzionale al modo di apprendere dell'alunno.",
+        "pagina_evidenza": "Pagina 34"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:48:42.485479",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "f1c7bedc-da27-4893-a509-b9b236ae6b7c",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Accoglienza con Continuità Verticale",
+        "descrizione": "Iniziativa per facilitare il passaggio tra scuola dell'infanzia e primaria, utilizzando storie e attività laboratoriali per ridurre l'ansia e promuovere la motivazione. Coinvolge classi aperte verticali.",
+        "metodologia": "Attività narrative e laboratoriali con coinvolgimento di studenti di età diverse.",
+        "tipologie_metodologia": [
+          "Storytelling",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti di scuola dell'infanzia e primaria",
+        "citazione_ptof": "Progetto accoglienza con coinvolgimento di bambini del terzo anno dell'infanzia e classi prime della primaria.",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:48:42.485483",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "2a828cff-2041-48ec-b50b-99a1c8b4a93a",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Informatica 'TUTTO con un CLICK'",
+        "descrizione": "Progetto extracurricolare per bambini di 5 anni che sviluppa competenze digitali attraverso attività ludiche, promuovendo media literacy e responsabilità nell'uso delle tecnologie.",
+        "metodologia": "Utilizzo di strumenti informatici in contesti interattivi e collaborativi, con focus su esperienze pratiche e riflessione critica sui rischi digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Scuola dell'Infanzia",
+        "citazione_ptof": "Far conoscere ai bambini un nuovo strumento informatico rispetto a cui renderli fruitori attivi.",
+        "pagina_evidenza": "Pagina 52"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:50:14.979338",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "cbbde66f-97c3-4457-8260-b626df865923",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Potenziamento Scienze Matematiche",
+        "descrizione": "Corso di recupero extracurricolare per studenti con difficoltà, mirato a colmare lacune e sviluppare competenze matematiche attraverso interventi differenziati.",
+        "metodologia": "Approccio compensativo con attività di recupero personalizzate e collaborazione tra docenti per supportare apprendimenti arretrati.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Matematica e Logica",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con difficoltà di apprendimento",
+        "citazione_ptof": "Intervento di una funzione compensativa per dare di più a chi ha meno e dare meglio a tutti.",
+        "pagina_evidenza": "Pagina 53"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:50:14.979351",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "cbfc3229-0a2c-4b71-a90b-6865b770286a",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Murale 'Peace NO War'",
+        "descrizione": "Laboratorio artistico per creare murales ispirati alla Street Art, promuovendo collaborazione, senso di appartenenza e sensibilizzazione ambientale.",
+        "metodologia": "Didattica laboratoriale con analisi di stili artistici, creazione collettiva e riflessione sul ruolo sociale dell'arte.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Gruppi classe",
+        "citazione_ptof": "Favorire l’apprendimento di abilità e conoscenze con una modalità stimolante; promuovere dinamiche collaborative.",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:50:14.979355",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "70372e04-8a18-417c-99b7-6e479aa0b18c",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "English Plus: Percorso Trinity",
+        "descrizione": "Programma curricolare/extracurricolare per certificazione linguistica Trinity, con focus su competenze comunicative e grammaticali in lingua inglese.",
+        "metodologia": "Metodologia CLIL integrata con simulazioni d'esame e attività interdisciplinari per sviluppare competenze linguistiche autentiche.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Classi aperte verticali",
+        "citazione_ptof": "Offrire strumenti efficaci per una maggiore conoscenza della lingua inglese, offrire strumenti per comunicare in lingua inglese.",
+        "pagina_evidenza": "Pagina 54"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:50:14.979358",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "ba6b1479-e30f-4702-8b4c-c8692a79fdcb",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetto 'Quando l'Agenda 2030 e il piano RiGenerazione incontrano la prima D e F'",
+        "descrizione": "Iniziativa di rigenerazione ecologica che coinvolge studenti, famiglie e territorio nel recupero di spazi verdi e sensibilizzazione al rispetto ambientale.",
+        "metodologia": "Learning by Doing con attività pratiche (piantumazione, riciclo), integrazione interdisciplinare e coinvolgimento delle famiglie.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti, famiglie, personale scolastico",
+        "citazione_ptof": "Abituare i ragazzi a comportamenti virtuosi nei confronti della natura, rigenerare materiali in disuso.",
+        "pagina_evidenza": "Pagina 61"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:50:14.979361",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "c584405d-bc2f-4097-bb5c-89b4443e45c6",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Animatore Digitale per la Formazione Interna",
+        "descrizione": "L'animatore digitale organizza laboratori formativi per diffondere il Piano Nazionale Scuola Digitale, coinvolgendo studenti, famiglie e attori territoriali in workshop e attività di sensibilizzazione alla cultura digitale.",
+        "metodologia": "Implementazione tramite laboratori formativi interni, coinvolgimento attivo degli studenti in progetti di coding e collaborazione con esperti esterni per attività di innovazione didattica.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Didattica Laboratoriale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità",
+          "Formazione Docenti"
+        ],
+        "target": "Studenti, docenti, famiglie e soggetti territoriali",
+        "citazione_ptof": "L’animatore digitale cura la formazione interna attraverso laboratori formativi e favorisce il protagonismo degli studenti nell’organizzazione di workshop.",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:51:15.565536",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "fad0e578-7920-40c7-9b92-55f14f9c6f27",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Coordinamento Educazione Civica con Progetti Territoriali",
+        "descrizione": "Il coordinatore dell'educazione civica promuove concorsi, convegni e collaborazioni con enti culturali per realizzare percorsi trasversali di 33 ore, integrando temi costituzionali e sostenibilità con attività didattiche innovative.",
+        "metodologia": "Progettazione di percorsi interdisciplinari, organizzazione di eventi partecipativi e monitoraggio delle attività in collaborazione con soggetti esterni (autori, associazioni).",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti della scuola secondaria e primaria",
+        "citazione_ptof": "Coordinare le fasi di progettazione e realizzazione dei percorsi di Educazione Civica attraverso concorsi, convegni e collaborazioni con soggetti culturali.",
+        "pagina_evidenza": "Pagina 77"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:51:15.565551",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "4bb8ecca-8aae-4634-9118-3f43c1597451",
+      "school": {
+        "codice_meccanografico": "AGAA805076",
+        "nome": "Garibaldi",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "Raffadali",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio di Coding per Tutti gli Studenti",
+        "descrizione": "L'animatore digitale promuove un laboratorio di coding accessibile a tutti gli studenti, in collaborazione con esperti interni e risorse del Piano Nazionale Scuola Digitale, per sviluppare competenze digitali e metodologie innovative.",
+        "metodologia": "Attività laboratoriale con approccio hands-on, utilizzo di strumenti digitali e integrazione con progetti didattici curricolari.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti di tutte le età",
+        "citazione_ptof": "Individuare soluzioni metodologiche e tecnologiche sostenibili, come un laboratorio di coding per tutti gli studenti.",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 2.27,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Comune"
+        ],
+        "attivita_correlate": [
+          "Progetto Accoglienza",
+          "Progetto di educazione civica: Noi e l'ambiente",
+          "Progetto lettura: Nati per leggere",
+          "Progetto di rigenerazione degli spazi verdi"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:51:15.565556",
+        "model_used": "qwen3:32b",
+        "source_file": "AGAA805076_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "50117bc3-3b45-4790-9a87-6abdef597b7d",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Multidisciplinari Strutturati",
+        "descrizione": "La scuola dispone di laboratori dedicati (informatica, musica, arte, teatro) con attrezzature specifiche e spazi comuni per attività interdisciplinari. Ogni classe ha una LIM con collegamento Wi-Fi e accesso settimanale alla biblioteca. Gli spazi sono utilizzati per progetti didattici e momenti di espressione creativa.",
+        "metodologia": "Didattica laboratoriale con utilizzo di strumenti tecnologici e spazi dedicati per attività pratiche e creative.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Digitalizzazione",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti di Scuola Primaria",
+        "citazione_ptof": "All’interno della scuola si trovano... un laboratorio d’Informatica attrezzato con 14 computer, un laboratorio di Musica... una biblioteca... un ampio salone per le attività di gioco.",
+        "pagina_evidenza": "Pagina 16"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:52:29.007377",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "2b94a6ee-e27c-4f74-a886-fa36179f923c",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Collaborazione con Centro Diocesano per la Famiglia",
+        "descrizione": "La scuola attiva progetti con il Centro di Consulenza per la Famiglia della Diocesi per supportare genitori e studenti. Organizza incontri formativi a tema sull'educazione e collabora con enti locali per migliorare l'offerta formativa.",
+        "metodologia": "Collaborazione con enti esterni per attività formative e di supporto alla comunità scolastica.",
+        "tipologie_metodologia": [
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Rapporti con Famiglie",
+          "Intercultura"
+        ],
+        "target": "Genitori e studenti",
+        "citazione_ptof": "Sono stati attivati alcuni progetti per gli alunni e per i genitori con il Centro di Consulenza per la Famiglia della Diocesi.",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:52:29.007391",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "df431249-a7d8-4c34-8c5e-88530aafe205",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Struttura di Comunicazione con le Famiglie",
+        "descrizione": "La scuola organizza 4 ricevimenti bimestrali, colloqui quindicinali, assemblee di classe e consigli di classe per informare i genitori sull'andamento scolastico. Sono previsti incontri formativi tematici in collaborazione con enti esterni.",
+        "metodologia": "Organizzazione di eventi strutturati per garantire un dialogo continuo tra scuola e famiglie.",
+        "tipologie_metodologia": [
+          "Rapporti con Famiglie"
+        ],
+        "ambiti_attivita": [
+          "Rapporti con Famiglie"
+        ],
+        "target": "Genitori e docenti",
+        "citazione_ptof": "4 ricevimenti bimestrali... Colloqui individuali programmati a cadenza quindicinale... Consigli di classe... Incontri formativi a tema per genitori.",
+        "pagina_evidenza": "Pagina 14"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:52:29.007395",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3d583721-8511-45f7-b7fd-9cd122969a6b",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Partecipazione a Bandi di Fondazioni e Società Sportive",
+        "descrizione": "La scuola partecipa a bandi esterni per accedere a risorse finanziarie e migliorare l'offerta formativa. Collabora con fondazioni e società sportive per progetti specifici.",
+        "metodologia": "Utilizzo di risorse esterne per potenziare attività educative e infrastrutturali.",
+        "tipologie_metodologia": [
+          "Progetti e Attività Esemplari"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e scuola",
+        "citazione_ptof": "La scuola partecipa a diversi bandi indetti da Fondazioni e società sportive per potere migliorare l'Offerta Formativa.",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:52:29.007401",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "0aaa05a9-be29-4da9-bd76-ea86960d4d1c",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Accoglienza e Continuità Educativa",
+        "descrizione": "L'accoglienza è strutturata per valorizzare le potenzialità di ogni bambino, con particolare attenzione ai nuovi iscritti e a coloro con bisogni specifici. Si promuove la continuità tra le classi attraverso progetti articolati.",
+        "metodologia": "Progetti di accoglienza e continuità educativa personalizzati per ogni studente.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "L'accoglienza rappresenta un momento di reciproca conoscenza... per il quale ci si adopera allo sviluppo delle sue potenzialità.",
+        "pagina_evidenza": "Pagina 9"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:52:29.007405",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "84fa47a9-69e5-4c44-aa5b-3aa37a865d41",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto di Compresenza per Alunni in Difficoltà",
+        "descrizione": "Attivazione di ore di compresenza per alunni con difficoltà, con gruppi ristretti e verifiche bimestrali per monitorare progressi. Obiettivo: personalizzare il ritmo di apprendimento e migliorare l'autostima.",
+        "metodologia": "Co-teaching con gruppi omogenei, osservazione sistematica e prove oggettive per valutare competenze.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Alunni in difficoltà di tutte le classi",
+        "citazione_ptof": "Rendere continuativo il progetto di compresenza... prove di tipo empirico e oggettivo.",
+        "pagina_evidenza": "Pagina 24"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:53:36.366241",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8615b82d-1cb5-49e7-a1ce-7c4c475a8b18",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Prove Interne Allineate alle Prove Nazionali",
+        "descrizione": "Sviluppo di verifiche interne con item simili alle prove standardizzate nazionali, promuovendo strategie di risoluzione alternative per migliorare le prestazioni.",
+        "metodologia": "Prove interne con item mirati e analisi di strategie non convenzionali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Matematica e Logica"
+        ],
+        "target": "Tutti gli alunni",
+        "citazione_ptof": "Prove interne di verifica contenenti anche, e non solo, item allineati con le richieste delle Prove Nazionali.",
+        "pagina_evidenza": "Pagina 21"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:53:36.366255",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "4c6fe8f3-79f0-496b-9210-8bcb513d25d6",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Sportello d'Ascolto Psicologico 'INsiemeAscuola'",
+        "descrizione": "Collaborazione con il Centro di Consulenza per la Famiglia della Diocesi di Modena per supportare docenti e famiglie attraverso colloqui psicologici e consulenze educative.",
+        "metodologia": "Colloqui individuali e genitoriali con psicologhe specializzate, in collaborazione con l'istituto scolastico.",
+        "tipologie_metodologia": [
+          "Prevenzione Disagio",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Docenti, genitori e personale non docente",
+        "citazione_ptof": "Realizzato in collaborazione con il 'Centro di Consulenza per la Famiglia' della Diocesi di Modena.",
+        "pagina_evidenza": "Pagina 28"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:53:36.366259",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "56b82a13-b92a-47c0-a713-c7ee2e983742",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Costruzione del Curricolo Verticale",
+        "descrizione": "Elaborazione di un curricolo verticale condiviso tra scuola dell'Infanzia e Primaria per garantire continuità didattica e migliorare i risultati a distanza.",
+        "metodologia": "Incontri calendarizzati con formazione docenti e stesura collettiva del curricolo.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti dell'intero istituto",
+        "citazione_ptof": "Elaborazione del Curricolo Verticale da parte di tutti i docenti dell'Istituto.",
+        "pagina_evidenza": "Pagina 27"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:53:36.366263",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "ba03949d-9575-42e7-941e-1ec4a137b7a4",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto di Rinforzo Didattico Personalizzato",
+        "descrizione": "Percorso di recupero con programmazioni personalizzate, ascolto attivo e apprendimento collaborativo per alunni in difficoltà.",
+        "metodologia": "Gruppi ristretti, compresenza docenti e verifiche bimestrali per monitorare progressi.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Alunni in difficoltà di tutte le classi",
+        "citazione_ptof": "Offrire agli alunni in difficoltà l’opportunità di svolgere un percorso formativo/didattico personalizzato.",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:53:36.366266",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "76dd53c5-3da5-4a6d-92c8-3fcdc57aa1ee",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Continuità Infanzia-Primaria",
+        "descrizione": "Attivazione di un percorso di continuità tra la sezione dei 5 anni della scuola dell'Infanzia e la prima classe Primaria attraverso incontri coordinati tra insegnanti e alunni per facilitare il passaggio scolastico.",
+        "metodologia": "Incontri strutturati tra insegnanti e studenti, condivisione di informazioni pedagogiche e didattiche, osservazione reciproca delle esperienze.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Alunni 5 anni (Infanzia) e classe prima Primaria",
+        "citazione_ptof": "realizzare il 'Progetto Continuità' tra gli alunni e le insegnanti della sezione dei 5 anni della scuola dell’Infanzia e la prima classe della scuola Primaria",
+        "pagina_evidenza": "Pagina 39"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:55:05.254323",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "01039c34-ce07-4d73-935f-11ea3a0e0584",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Teatro in Inglese con Action Theatre",
+        "descrizione": "Progetto linguistico-teatrale con compagnia esterna per apprendere l'inglese attraverso attività interattive e spettacoli, coinvolgendo tutte le classi.",
+        "metodologia": "Didattica laboratoriale, metodologia CLIL, interazione diretta con esperti esterni, approccio multisensoriale.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Musica e Teatro"
+        ],
+        "target": "Tutte le classi Primaria",
+        "citazione_ptof": "Teatro in Inglese con la compagnia 'Action Theatre': Apprendere la lingua Inglese in modo interattivo e teatrale",
+        "pagina_evidenza": "Pagina 40"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:55:05.254340",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "4e61641e-1f98-40dc-86a4-aa75eb02be03",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto di Recupero Didattico per DSA",
+        "descrizione": "Interventi personalizzati per alunni con Disturbi Specifici di Apprendimento, con utilizzo di strumenti compensativi (LIM, mappe concettuali) e metodologie differenziate (cooperative learning, tutoraggio).",
+        "metodologia": "Percorsi individualizzati, strumenti compensativi, lavoro a coppie, problem solving, tutoraggio tra pari.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Tutoring",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Alunni con DSA",
+        "citazione_ptof": "interventi differenziati che rientrano nel 'Progetto di recupero e rinforzo didattico' con l'attivazione di interventi rivolti all'acquisizione di un efficace metodo di studio",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:55:05.254346",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "4828270f-e349-4d38-bc3f-1cdcb436ecbe",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Laboratoriale Multidisciplinare",
+        "descrizione": "Approccio didattico basato su laboratori per sperimentare, agire e costruire conoscenze attraverso prospettive multidisciplinari e ripetizione di argomenti da diversi punti di vista.",
+        "metodologia": "Attività pratiche in laboratori, ripetizione di contenuti con angoli di analisi diversi, integrazione di discipline.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Lettura e Scrittura"
+        ],
+        "target": "Tutti gli alunni",
+        "citazione_ptof": "Valorizzazione dell’azione, mediante la didattica laboratoriale, per fornire al bambino occasioni di sperimentare, agire, esprimere e costruire",
+        "pagina_evidenza": "Pagina 40"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:55:05.254349",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "3556898b-8b5c-41d7-bd29-5fe6ce98e9c1",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Screening Letto-Scrittura Classi Prime",
+        "descrizione": "Somministrazione di test standardizzati da insegnante specializzata in logopedia per identificare precocemente difficoltà di lettoscrittura e attivare interventi mirati.",
+        "metodologia": "Prove diagnostiche strutturate, analisi delle pre-conoscenze, collaborazione con specialisti esterni (logopedia).",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Classi prime e seconde",
+        "citazione_ptof": "Progetto screening della letto-scrittura: agli alunni delle classi prima e seconda verranno somministrate prove standardizzate per l’individuazione precoce delle difficoltà",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:55:05.254353",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "77f52219-accc-4124-b5ca-5442d7d11e35",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Curricolo Verticale per Competenze Infanzia-Primaria",
+        "descrizione": "Progetto di costruzione di un curricolo verticale per competenze che integra le fasi educative dell'Infanzia e della Primaria, con focus sulla continuità didattica e la definizione condivisa di competenze. Obiettivo: rafforzare la didattica partecipata e personalizzata attraverso laboratori e mappatura delle competenze.",
+        "metodologia": "Implementato attraverso laboratori di formazione, mappatura delle competenze e collaborazione tra scuole della rete. Si utilizza un approccio partecipativo con coinvolgimento diretto dei docenti.",
+        "tipologie_metodologia": [
+          "Didattica per competenze",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Didattica per competenze",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Docenti della scuola Primaria",
+        "citazione_ptof": "Creare il Curricolo verticale Infanzia-Primaria per competenze... Contenuti: il Curricolo come percorso Insegnamento/Apprendimento.",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:56:10.715457",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "f0e74538-07f9-4ba8-99df-2a41b532d9ca",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Corso di Formazione sui Disturbi Specifici dell'Apprendimento (DSA)",
+        "descrizione": "Corso di 20 ore dedicato ai DSA, finalizzato a potenziare le competenze dei docenti nell'individuazione e supporto degli alunni con bisogni educativi speciali. Incluso nel piano di formazione nazionale e periferico.",
+        "metodologia": "Formazione teorico-pratica con focus su strumenti didattici inclusivi e nuove tecnologie multimediali.",
+        "tipologie_metodologia": [
+          "Didattica Inclusiva"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "I disturbi specifici dell’apprendimento (DSA) - corso di formazione di 20 ore",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:56:10.715472",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "826a7001-1f9c-4f5c-a8a2-0d16613fc22c",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Modello di Rete Informale e Collaborativo",
+        "descrizione": "Collaborazione informale con enti locali, associazioni e istituzioni (Fidae, Fism, Comune di Modena, ecc.) per progetti educativi e formativi. La scuola assume il ruolo di partner attivo nella rete di scopo.",
+        "metodologia": "Costruzione di relazioni basate su condivisione e collaborazione, con attività congiunte e scambio di risorse professionali.",
+        "tipologie_metodologia": [
+          "Altro"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Inclusione e BES"
+        ],
+        "target": "Scuola e partner esterni",
+        "citazione_ptof": "La nostra scuola ha relazioni e collabora con: Fidae, Fism, Parrocchia San Faustino, Comune di Modena...",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:56:10.715477",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "d0d9720a-0868-47ce-bc77-ca6d7efc35ab",
+      "school": {
+        "codice_meccanografico": "AGMM818016",
+        "nome": "M.Martorana",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Sicilia",
+        "provincia": "Agrigento",
+        "comune": "San Giovanni Gemini",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione del Personale ATA su Sicurezza e Igiene",
+        "descrizione": "Programma di aggiornamento obbligatorio per il personale non docente (inservienti, assistenti) in materia di normative igienico-sanitarie e sicurezza, conforme alla vigente normativa.",
+        "metodologia": "Formazione strutturata in base a linee guida legislative, con focus su procedure operative e prevenzione rischi.",
+        "tipologie_metodologia": [
+          "Altro"
+        ],
+        "ambiti_attivita": [
+          "Sicurezza"
+        ],
+        "target": "Personale ATA",
+        "citazione_ptof": "Tutto il personale... viene formato secondo la normativa vigente riguardo alle questioni igienico-sanitarie e al tema della sicurezza.",
+        "pagina_evidenza": "Pagina 59"
+      },
+      "contesto": {
+        "maturity_index": 2.85,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fidae",
+          "Fism",
+          "Parrocchia San Faustino",
+          "Comune di Modena",
+          "Fondazione Cassa di Risparmio",
+          "Bper"
+        ],
+        "attivita_correlate": [
+          "Progetto di rinforzo didattico per alunni in difficoltà",
+          "Sportello d’Ascolto Psicologico: “INsiemeAscuola”",
+          "Progetto di screening della letto-scrittura"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T23:56:10.715481",
+        "model_used": "qwen3:32b",
+        "source_file": "AGMM818016_ptof.md",
+        "chunk_source": 4
       }
     }
   ]
