@@ -15,6 +15,7 @@
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
 	check-truncated fix-truncated list-backups git-watch \
+	git-push \
 	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch
 
 PYTHON = .venv/bin/python
@@ -105,6 +106,7 @@ help:
 	@echo "  make fix-truncated    - Trova troncati e ripristina SOLO quelli dai backup"
 	@echo "  make list-backups     - Elenca tutti i file di backup disponibili"
 	@echo "  make git-watch        - Aggiorna repository ogni 15 min (INTERVAL=900)"
+	@echo "  make git-push         - Fa push verso il remoto"
 	@echo "  make clean            - Pulisce file temporanei e cache"
 	@echo ""
 	@echo "COMBINAZIONI:"
@@ -439,6 +441,11 @@ git-watch:
 		echo "💤 Attesa $(or $(INTERVAL),900)s..."; \
 		sleep $(or $(INTERVAL),900); \
 	done
+
+# Git push: invia i commit locali al remoto
+git-push:
+	@echo "📤 git push"
+	@git push
 
 # ═══════════════════════════════════════════════════════════════════
 # REGISTRO ANALISI
