@@ -14,7 +14,8 @@
 	outreach-portal outreach-email \
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
-	check-truncated fix-truncated list-backups
+	check-truncated fix-truncated list-backups \
+	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -77,6 +78,16 @@ help:
 	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
 	@echo "  make best-practice-extract-reset - Reset e ri-estrazione completa"
 	@echo "  make best-practice-extract-stats - Mostra statistiche estrazione"
+	@echo ""
+	@echo "META REPORT (Best Practices):"
+	@echo "  make meta-status              - Stato dei report (pending/current/stale)"
+	@echo "  make meta-school CODE=X       - Genera report singola scuola"
+	@echo "  make meta-regional REGION=X   - Genera report regionale"
+	@echo "  make meta-national            - Genera report nazionale"
+	@echo "  make meta-thematic DIM=X      - Genera report tematico (governance, didattica...)"
+	@echo "  make meta-next                - Genera prossimo report pendente"
+	@echo "  make meta-batch N=5           - Genera N report pendenti"
+	@echo "  Provider: PROVIDER=gemini|openrouter|ollama (default: auto)"
 	@echo ""
 	@echo "OUTREACH PTOF:"
 	@echo "  make outreach-portal       - Avvia portale upload PTOF (PORT=8502)"
@@ -581,3 +592,80 @@ list-backups:
 	@echo "📦 File .bak in analysis_results/:"
 	@ls -la analysis_results/*.bak 2>/dev/null | wc -l | xargs -I {} echo "   Totale: {} file"
 	@ls analysis_results/*.bak 2>/dev/null | head -20 || echo "   (nessun backup trovato)"
+
+# ═══════════════════════════════════════════════════════════════════
+# META REPORT - Best Practices Reports
+# ═══════════════════════════════════════════════════════════════════
+
+META_CLI = src/agents/meta_report/cli.py
+
+# Mostra stato dei report
+meta-status:
+	@$(PYTHON) $(META_CLI) status
+
+# Report singola scuola (uso: make meta-school CODE=RMIS001 PROVIDER=gemini)
+meta-school:
+ifndef CODE
+	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
+	@echo "   Esempio: make meta-school CODE=RMIS001"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+else
+	$(PYTHON) $(META_CLI) school --code $(CODE) \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(FORCE),--force,)
+endif
+
+# Report regionale (uso: make meta-regional REGION=Lazio PROVIDER=ollama)
+meta-regional:
+ifndef REGION
+	@echo "❌ Specificare la regione con REGION=NOME"
+	@echo "   Esempio: make meta-regional REGION=Lazio"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+else
+	$(PYTHON) $(META_CLI) regional --region "$(REGION)" \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(FORCE),--force,)
+endif
+
+# Report nazionale
+meta-national:
+	$(PYTHON) $(META_CLI) national \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(FORCE),--force,)
+
+# Report tematico (uso: make meta-thematic DIM=governance)
+meta-thematic:
+ifndef DIM
+	@echo "❌ Specificare la dimensione con DIM=NOME"
+	@echo ""
+	@echo "   DIMENSIONI STRUTTURALI:"
+	@echo "     finalita, obiettivi, governance, didattica, partnership"
+	@echo ""
+	@echo "   DIMENSIONI OPPORTUNITÀ (granulari):"
+	@echo "     pcto        - PCTO e Alternanza Scuola-Lavoro"
+	@echo "     stage       - Stage e Tirocini"
+	@echo "     openday     - Open Day e Orientamento in Entrata"
+	@echo "     visite      - Visite Aziendali e Universitarie"
+	@echo "     laboratori  - Laboratori Orientativi e Simulazioni"
+	@echo "     testimonianze - Testimonianze e Incontri con Esperti"
+	@echo "     counseling  - Counseling e Percorsi Individualizzati"
+	@echo "     alumni      - Rete Alumni e Mentoring"
+	@echo ""
+	@echo "   Esempio: make meta-thematic DIM=pcto"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+else
+	$(PYTHON) $(META_CLI) thematic --dim $(DIM) \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(FORCE),--force,)
+endif
+
+# Genera prossimo report pendente
+meta-next:
+	$(PYTHON) $(META_CLI) next \
+		$(if $(PROVIDER),--provider $(PROVIDER),)
+
+# Genera N report pendenti (uso: make meta-batch N=10)
+meta-batch:
+	$(PYTHON) $(META_CLI) batch \
+		--count $(or $(N),5) \
+		$(if $(PROVIDER),--provider $(PROVIDER),)

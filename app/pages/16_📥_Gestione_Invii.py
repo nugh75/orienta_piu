@@ -477,7 +477,6 @@ def main():
                 st.success("Template ripristinato ai valori di default!")
                 st.rerun()
 
-        st.markdown("---")
         st.caption("Il template viene usato da `ptof_emailer.py` per le email di outreach.")
 
     uploads = load_uploads()
@@ -495,58 +494,54 @@ def main():
     if "select_all_flag" not in st.session_state:
         st.session_state.select_all_flag = None
 
-    # Filters section
-    st.markdown("---")
-    st.subheader("Filtri")
+    # Filters section in expander
+    with st.expander("🔍 Filtri", expanded=False):
+        col_filter1, col_filter2, col_filter3 = st.columns([2, 2, 2])
 
-    col_filter1, col_filter2, col_filter3 = st.columns([2, 2, 2])
+        with col_filter1:
+            status_filter = st.selectbox(
+                "Filtra per stato",
+                options=["Tutti", "inviato", "in_lavorazione", "lavorato"]
+            )
 
-    with col_filter1:
-        status_filter = st.selectbox(
-            "Filtra per stato",
-            options=["Tutti", "inviato", "in_lavorazione", "lavorato"]
-        )
+        with col_filter2:
+            search_code = st.text_input("Cerca codice", placeholder="RMIC...")
 
-    with col_filter2:
-        search_code = st.text_input("Cerca codice", placeholder="RMIC...")
+        with col_filter3:
+            download_filter = st.selectbox(
+                "Filtra per download",
+                options=["Tutti", "Mai scaricati", "Gia' scaricati"]
+            )
 
-    with col_filter3:
-        download_filter = st.selectbox(
-            "Filtra per download",
-            options=["Tutti", "Mai scaricati", "Gia' scaricati"]
-        )
+        # Date range filter
+        col_date1, col_date2, col_date3 = st.columns([2, 2, 2])
 
-    # Date range filter
-    col_date1, col_date2, col_date3 = st.columns([2, 2, 2])
+        # Get min/max dates from uploads
+        all_dates = [parse_date(u.get("uploaded_at", "")) for u in uploads]
+        all_dates = [d for d in all_dates if d is not None]
+        min_date = min(all_dates) if all_dates else date.today()
+        max_date = max(all_dates) if all_dates else date.today()
 
-    # Get min/max dates from uploads
-    all_dates = [parse_date(u.get("uploaded_at", "")) for u in uploads]
-    all_dates = [d for d in all_dates if d is not None]
-    min_date = min(all_dates) if all_dates else date.today()
-    max_date = max(all_dates) if all_dates else date.today()
+        with col_date1:
+            date_from = st.date_input(
+                "Data da",
+                value=min_date,
+                min_value=min_date,
+                max_value=max_date
+            )
 
-    with col_date1:
-        date_from = st.date_input(
-            "Data da",
-            value=min_date,
-            min_value=min_date,
-            max_value=max_date
-        )
+        with col_date2:
+            date_to = st.date_input(
+                "Data a",
+                value=max_date,
+                min_value=min_date,
+                max_value=max_date
+            )
 
-    with col_date2:
-        date_to = st.date_input(
-            "Data a",
-            value=max_date,
-            min_value=min_date,
-            max_value=max_date
-        )
-
-    with col_date3:
-        st.write("")
-        if st.button("Aggiorna", use_container_width=True):
-            st.rerun()
-
-    st.markdown("---")
+        with col_date3:
+            st.write("")
+            if st.button("Aggiorna", use_container_width=True):
+                st.rerun()
 
     # Process and filter uploads
     processed_uploads = []
@@ -589,62 +584,66 @@ def main():
         reverse=True
     )
 
-    # Stats
-    stats_col1, stats_col2, stats_col3, stats_col4, stats_col5 = st.columns(5)
+    # Stats row with action button
     all_statuses = [get_effective_status(u, analyzed_codes) for u in uploads]
     downloaded_count = sum(1 for u in uploads if len(u.get("downloads", [])) > 0)
+    pending_count = all_statuses.count("inviato") + all_statuses.count("in_lavorazione")
 
-    with stats_col1:
-        st.metric("Totale", len(uploads))
-    with stats_col2:
-        st.metric("Inviati", all_statuses.count("inviato"))
-    with stats_col3:
-        st.metric("In Lavorazione", all_statuses.count("in_lavorazione"))
-    with stats_col4:
-        st.metric("Lavorati", all_statuses.count("lavorato"))
-    with stats_col5:
-        st.metric("Scaricati", downloaded_count)
+    col_stats, col_action_btn = st.columns([5, 1])
 
-    st.markdown("---")
+    with col_stats:
+        stats_col1, stats_col2, stats_col3, stats_col4, stats_col5 = st.columns(5)
+        with stats_col1:
+            st.metric("Totale", len(uploads))
+        with stats_col2:
+            st.metric("Inviati", all_statuses.count("inviato"))
+        with stats_col3:
+            st.metric("In Lavorazione", all_statuses.count("in_lavorazione"))
+        with stats_col4:
+            st.metric("Lavorati", all_statuses.count("lavorato"))
+        with stats_col5:
+            st.metric("Scaricati", downloaded_count)
+
+    with col_action_btn:
+        st.write("")  # Spacer
+        if pending_count > 0:
+            if st.button(f"📂 Inbox ({pending_count})", use_container_width=True, help="Sposta tutti i file pendenti in ptof_inbox"):
+                moved, total = move_all_pending_to_inbox()
+                if moved > 0:
+                    st.success(f"Spostati {moved}/{total} in inbox")
+                else:
+                    st.info("Gia' tutti in inbox")
+                st.rerun()
 
     if not processed_uploads:
         st.warning("Nessun invio corrisponde ai filtri selezionati.")
         return
 
-    # Selection and mass actions
-    st.subheader("Selezione e Azioni di Massa")
-
-    # Select all / deselect all
-    col_sel1, col_sel2, col_sel3, col_sel4 = st.columns([1, 1, 2, 2])
-
+    # Selection toolbar
     all_codes_in_view = [item["codice"] for item in processed_uploads]
+    selected_in_view = [c for c in st.session_state.selected_codes if c in all_codes_in_view]
+
+    col_sel1, col_sel2, col_count, col_action1, col_action2, col_action3 = st.columns([1, 1, 1, 2, 2, 1])
 
     with col_sel1:
-        if st.button("Seleziona tutti", use_container_width=True):
-            st.session_state.select_all_flag = "select"
+        if st.button("✓ Tutti", use_container_width=True):
+            for code in all_codes_in_view:
+                st.session_state[f"chk_{code}"] = True
+            st.session_state.selected_codes = set(all_codes_in_view)
             st.rerun()
 
     with col_sel2:
-        if st.button("Deseleziona tutti", use_container_width=True):
-            st.session_state.select_all_flag = "deselect"
+        if st.button("✗ Nessuno", use_container_width=True):
+            for code in all_codes_in_view:
+                st.session_state[f"chk_{code}"] = False
+            st.session_state.selected_codes = set()
             st.rerun()
 
-    # Apply select all / deselect all before rendering checkboxes
-    if st.session_state.select_all_flag == "select":
-        st.session_state.selected_codes = set(all_codes_in_view)
-        st.session_state.select_all_flag = None
-    elif st.session_state.select_all_flag == "deselect":
-        st.session_state.selected_codes = set()
-        st.session_state.select_all_flag = None
+    with col_count:
+        st.caption(f"**{len(selected_in_view)}** sel.")
 
-    # Count selected
-    selected_in_view = [c for c in st.session_state.selected_codes if c in all_codes_in_view]
-    st.info(f"**{len(selected_in_view)}** documenti selezionati")
-
-    # Mass actions for selected
+    # Mass actions (only show if items selected)
     if selected_in_view:
-        col_action1, col_action2, col_action3 = st.columns([2, 2, 2])
-
         with col_action1:
             # Download selected as ZIP
             zip_buffer = io.BytesIO()
@@ -666,7 +665,7 @@ def main():
             if files_added > 0:
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 downloaded = st.download_button(
-                    label=f"📦 Scarica selezionati ({files_added} file)",
+                    label=f"📦 Scarica ({files_added})",
                     data=zip_buffer.getvalue(),
                     file_name=f"PTOF_selezionati_{timestamp}.zip",
                     mime="application/zip",
@@ -674,45 +673,34 @@ def main():
                 )
 
                 if downloaded:
-                    # Mark as downloaded
                     mark_as_downloaded(codes_in_zip)
-                    # Update status: inviato -> in_lavorazione
                     inviato_codes = [item["codice"] for item in processed_uploads
                                     if item["codice"] in codes_in_zip and item["effective_status"] == "inviato"]
                     if inviato_codes:
                         update_multiple_status(inviato_codes, "in_lavorazione")
-                    # Clear selection
                     st.session_state.selected_codes.clear()
                     st.rerun()
 
         with col_action2:
             new_mass_status = st.selectbox(
-                "Cambia stato a:",
-                options=["-- Seleziona --", "inviato", "in_lavorazione"],
-                key="mass_status_change"
+                "Stato",
+                options=["--", "inviato", "in_lavorazione"],
+                key="mass_status_change",
+                label_visibility="collapsed"
             )
 
         with col_action3:
-            # Only change non-lavorato items from selected
             changeable = [item["codice"] for item in processed_uploads
                          if item["codice"] in selected_in_view and item["effective_status"] != "lavorato"]
-
-            st.write("")  # Spacer for alignment
-            if new_mass_status != "-- Seleziona --" and changeable:
-                if st.button(f"Applica stato ({len(changeable)})", use_container_width=True):
+            if new_mass_status != "--" and changeable:
+                if st.button("Applica", use_container_width=True):
                     updated = update_multiple_status(changeable, new_mass_status)
-                    st.success(f"Aggiornati {updated} invii")
+                    st.toast(f"Aggiornati {updated} invii")
                     st.session_state.selected_codes.clear()
                     st.rerun()
-            elif changeable:
-                st.caption(f"{len(changeable)} modificabili")
-            else:
-                st.caption("Nessuno modificabile")
-
-    st.markdown("---")
 
     # Display uploads with checkboxes
-    st.subheader(f"Invii ({len(processed_uploads)} risultati)")
+    st.subheader(f"Invii ({len(processed_uploads)})")
 
     for item in processed_uploads:
         upload = item["upload"]
@@ -739,20 +727,25 @@ def main():
         col_check, col_content = st.columns([0.5, 9.5])
 
         with col_check:
+            # Sync checkbox with selected_codes
+            checkbox_key = f"chk_{codice}"
             is_selected = codice in st.session_state.selected_codes
-            # Use on_change callback to update selected_codes
-            def toggle_selection(code=codice):
-                if code in st.session_state.selected_codes:
-                    st.session_state.selected_codes.discard(code)
-                else:
+
+            # Initialize checkbox state if not set
+            if checkbox_key not in st.session_state:
+                st.session_state[checkbox_key] = is_selected
+
+            def sync_selection(code=codice, key=checkbox_key):
+                if st.session_state[key]:
                     st.session_state.selected_codes.add(code)
+                else:
+                    st.session_state.selected_codes.discard(code)
 
             st.checkbox(
                 "",
-                value=is_selected,
-                key=f"chk_{codice}",
+                key=checkbox_key,
                 label_visibility="collapsed",
-                on_change=toggle_selection
+                on_change=sync_selection
             )
 
         with col_content:
@@ -816,23 +809,22 @@ def main():
 
                     # Manual status change (only if not "lavorato")
                     if effective_status != "lavorato":
-                        st.markdown("---")
                         new_status = st.selectbox(
-                            "Cambia stato",
+                            "Stato",
                             options=["inviato", "in_lavorazione"],
                             index=0 if effective_status == "inviato" else 1,
-                            key=f"status_{codice}"
+                            key=f"status_{codice}",
+                            label_visibility="collapsed"
                         )
-                        if st.button("Aggiorna stato", key=f"update_{codice}", use_container_width=True):
+                        if st.button("Aggiorna", key=f"update_{codice}", use_container_width=True):
                             if update_upload_status(codice, new_status):
-                                st.success("Stato aggiornato")
+                                st.toast("Stato aggiornato")
                                 st.rerun()
                     else:
-                        st.success("Nel CSV analisi")
+                        st.success("Analizzato")
 
     # Footer
-    st.markdown("---")
-    st.caption("Stato 'lavorato': il codice meccanografico e' presente in analysis_summary.csv")
+    st.caption("Stato 'lavorato' = codice presente in analysis_summary.csv")
 
 
 if __name__ == "__main__":

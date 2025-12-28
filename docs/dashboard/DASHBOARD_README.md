@@ -54,19 +54,56 @@ La sidebar offre filtri per:
 - Ordine Grado (Infanzia, Primaria, I Grado, II Grado)
 - Range Indice Robustezza (1.0 - 7.0)
 
-## Indicatori principali
+## Framework Metodologico
 
-### Indice di Robustezza (1-7)
-Media delle 5 dimensioni di orientamento:
-- Finalita: Attitudini, Interessi, Progetto di vita
-- Obiettivi: Abbandono, NEET, Lifelong learning
-- Governance: Coordinamento, Monitoraggio
-- Didattica: Laboratoriale, Interdisciplinare
-- Opportunita: Culturali, Espressive, Sportive
+Il framework traduce la qualità dell'orientamento in criteri osservabili. La valutazione
+si basa su evidenze testuali: ciò che è scritto nel PTOF conta più delle intenzioni
+dichiarate a parole. Ogni dimensione è composta da sotto‑indicatori che alimentano
+un indice sintetico, l'Indice RO.
 
-### Scala Likert
+### Principi di lettura
+- Evidenza testuale: ogni valutazione deve essere riconducibile al testo del PTOF.
+- Specificità: contano nomi di progetti, tempi, ruoli e responsabilità esplicite.
+- Coerenza: obiettivi, azioni e governance devono parlare la stessa lingua.
+- Sistemicità: si premiano percorsi strutturati, non iniziative isolate.
+- Inclusione: l'orientamento deve adattarsi a bisogni diversi e contesti reali.
+
+### Struttura di valutazione
+
+#### Indicatori strutturali
+- **Sezione dedicata**: presenza nel sommario con titolo esplicito, strumenti e responsabilità dichiarati.
+- **Partnership**: partner nominati, attività concrete, ruoli chiari e ricadute formative.
+
+#### Macro‑dimensioni (Indice RO)
+- **Finalità**: attitudini, interessi, progetto di vita, transizioni formative.
+- **Obiettivi**: contrasto dispersione e NEET, continuità territoriale, lifelong learning.
+- **Governance**: coordinamento, monitoraggio, coinvolgimento famiglie e inclusione.
+- **Didattica orientativa**: laboratori, interdisciplinarità, esperienze sul campo.
+- **Opportunità formative**: attività culturali, sportive, espressive e di volontariato.
+
+### Indice RO (Robustezza Orientamento)
+L'Indice RO sintetizza la solidità complessiva dell'orientamento.
+
+```
+Indice RO = (Finalita + Obiettivi + Governance + Didattica + Opportunita) / 5
+```
+
+| Range | Interpretazione |
+|-------|-----------------|
+| **1.0 - 2.0** | Sistema assente o gravemente carente |
+| **2.1 - 3.5** | Sistema basilare, interventi necessari |
+| **3.6 - 4.5** | Sistema sufficiente, in evoluzione |
+| **4.6 - 5.5** | **Buono**, ben strutturato |
+| **5.6 - 7.0** | **Eccellente**, benchmark di riferimento |
+
+### Scala di Valutazione (Likert 1-7)
+Ogni sottodimensione viene valutata con una scala a 7 livelli.
 - 1: Assente
+- 2: Generico
+- 3: Limitato
 - 4: Sufficiente
+- 5: Buono
+- 6: Ottimo
 - 7: Eccellente
 
 ## Dati usati
@@ -76,6 +113,52 @@ Media delle 5 dimensioni di orientamento:
 - analysis_results/*.md
 - data/best_practices.json
 - data/best_practice_registry.json
+
+## Agenti automatici (panoramica narrativa)
+
+Qui la pipeline viene raccontata come una redazione: ogni agente ha un ruolo chiaro,
+così anche chi non è tecnico capisce cosa succede e perché.
+
+### Analisi PTOF (flusso principale)
+Flow: PDF → Validazione PTOF → Markdown → Lettore → Sintetizzatore → Critico → Editor → Report + JSON → Registro
+
+Il **Lettore** entra nel documento e costruisce la prima bozza con punteggi ed evidenze.
+Se il PTOF è lungo, il **Sintetizzatore** unisce le parti in una visione coerente.
+Il **Critico** controlla incoerenze e passaggi deboli, l'**Editor** stabilizza i risultati.
+Quando serve, il **Narratore** completa la parte testuale del report.
+
+### Revisione narrativa (arricchimento report)
+Flow: PTOF + Report → Arricchitore Narrativo → Report arricchito → Registro
+
+L'**Arricchitore Narrativo** rilegge il PTOF e inserisce dettagli concreti nel report,
+così la narrazione resta aderente alle evidenze.
+
+### Revisione punteggi estremi
+Flow: PTOF + JSON punteggi → Revisore dei Punteggi → Aggiornamenti → JSON aggiornato → Status
+
+Il **Revisore dei Punteggi** controlla solo i valori troppo alti o troppo bassi per
+ridurre distorsioni e mantenere coerenza tra numeri e testo.
+
+### Filtro documenti non-PTOF
+Flow: Documento → Filtro Non‑PTOF → Scarto e pulizia → Log
+
+Il **Filtro Non‑PTOF** scarta i documenti non pertinenti o troppo deboli, mantenendo
+il dataset pulito.
+
+### Catalogo Buone Pratiche
+Flow: PTOF in Markdown → Estrattore Pratiche → Dataset + Registro
+
+L'**Estrattore Pratiche** individua attività concrete, le classifica e costruisce
+il catalogo per esplorazioni e confronti.
+
+### Metadati e orchestrazione
+Flow: JSON incompleti → Completa Metadati → JSON completi
+
+Il **Completa Metadati** aggiunge informazioni mancanti utili per confronti affidabili.
+
+Flow: Analisi principale + Revisione report + Revisione punteggi → Orchestratore → Dataset allineati
+
+L'**Orchestratore** coordina i passaggi e sincronizza le revisioni quando necessario.
 
 ## Catalogo Buone Pratiche
 

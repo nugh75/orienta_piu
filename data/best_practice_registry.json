@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T13:55:19.832659",
+  "last_updated": "2025-12-28T15:26:21.318088",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -66,6 +66,42 @@
       "file_hash": "sha256:92e7dab2783f346f44340b02902c9b69409f6b00dbcad987b43a66e3d9992c77",
       "processed_at": "2025-12-28T13:55:19.832643",
       "practices_count": 33,
+      "model_used": "qwen3:32b"
+    },
+    "SATE06901B": {
+      "file_hash": "sha256:d46c499b437390375754cdb81a0599ec8fc2bdab28a0c75922f5b6ec6c59e2f6",
+      "processed_at": "2025-12-28T14:17:55.313985",
+      "practices_count": 71,
+      "model_used": "qwen3:32b"
+    },
+    "TPAA807022": {
+      "file_hash": "sha256:29cf5bb6c33070d01745938d8d0d523f2af7953a0e6aa3343ae5f5e1d46841bf",
+      "processed_at": "2025-12-28T14:33:49.877225",
+      "practices_count": 49,
+      "model_used": "qwen3:32b"
+    },
+    "BAAA83103A": {
+      "file_hash": "sha256:460e771196f79236313667016fdacb9d8497eed9c4371c3e3d72040302a3554b",
+      "processed_at": "2025-12-28T14:51:51.099393",
+      "practices_count": 54,
+      "model_used": "qwen3:32b"
+    },
+    "SRPS150012": {
+      "file_hash": "sha256:46fe5a9b5eba95f8610e692c726fbec2d41db70fa3f443594fa22f81dc857e81",
+      "processed_at": "2025-12-28T14:57:17.962017",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "CSEE8AJ06X": {
+      "file_hash": "sha256:480184859bd6ff3ffa0e17ea5ec30a79bfdab62c5dd5fcb6ff16a1ab27bd03f8",
+      "processed_at": "2025-12-28T15:16:10.155556",
+      "practices_count": 54,
+      "model_used": "qwen3:32b"
+    },
+    "TAEE80501N": {
+      "file_hash": "sha256:56b8f7248d0a67666a5547aaf15d49017fb33d3404060d5e57a0b090f2093774",
+      "processed_at": "2025-12-28T15:26:21.318076",
+      "practices_count": 32,
       "model_used": "qwen3:32b"
     }
   }
