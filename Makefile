@@ -1,4 +1,4 @@
-.PHONY: setup run workflow workflow-force dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard config config-show models-ollama models-ollama-pull best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
+.PHONY: setup run workflow workflow-force dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard config config-show models-ollama models-ollama-pull best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore best-practice-extract best-practice-extract-reset best-practice-extract-stats pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -88,6 +88,12 @@ help:
 	@echo "  make best-practice-llm-synth-ollama - Genera report sintetico con solo Ollama"
 	@echo "                                        MODEL=X, OLLAMA_URL=X"
 	@echo "  make best-practice-llm-synth-restore - Ripristina report sintetico dal backup"
+	@echo ""
+	@echo "🌟 ESTRAZIONE BUONE PRATICHE (da PDF):"
+	@echo "  make best-practice-extract       - Estrae buone pratiche dai PDF PTOF"
+	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
+	@echo "  make best-practice-extract-reset - Reset e ri-estrazione completa"
+	@echo "  make best-practice-extract-stats - Mostra statistiche estrazione"
 	@echo ""
 	@echo "🤖 MODELLI AI:"
 	@echo "  make models                  - Mostra tutti i modelli disponibili"
@@ -217,6 +223,51 @@ best-practice-llm-synth-restore:
 		echo "✅ Report sintetico ripristinato dal backup"; \
 	else \
 		echo "❌ Nessun backup trovato"; \
+	fi
+
+# ═══════════════════════════════════════════════════════════════════
+# ESTRAZIONE BUONE PRATICHE DA PDF
+# ═══════════════════════════════════════════════════════════════════
+
+# Estrae buone pratiche dai PDF originali con Ollama
+# Uso: make best-practice-extract MODEL=qwen3:32b LIMIT=10
+best-practice-extract:
+	@echo "🌟 Estrazione Buone Pratiche dai PDF PTOF..."
+	$(PYTHON) -m src.agents.best_practice_extractor \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
+		$(if $(LIMIT),--limit $(LIMIT),) \
+		$(if $(WAIT),--wait $(WAIT),) \
+		$(if $(FORCE),--force,) \
+		$(if $(TARGET),--target "$(TARGET)",)
+	@echo "✅ Buone pratiche salvate in data/best_practices.json"
+
+# Reset e ri-estrazione completa
+best-practice-extract-reset:
+	@echo "🔄 Reset e ri-estrazione buone pratiche..."
+	rm -f data/.best_practice_extraction_progress.json
+	rm -f data/best_practice_registry.json
+	$(PYTHON) -m src.agents.best_practice_extractor --force \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
+	@echo "✅ Ri-estrazione completata"
+
+# Statistiche estrazione
+best-practice-extract-stats:
+	@if [ -f data/best_practices.json ]; then \
+		$(PYTHON) -c "import json; \
+d=json.load(open('data/best_practices.json')); \
+print(f'📊 Statistiche Buone Pratiche'); \
+print(f'   Pratiche totali: {d.get(\"total_practices\", 0)}'); \
+print(f'   Scuole processate: {d.get(\"schools_processed\", 0)}'); \
+print(f'   Modello: {d.get(\"extraction_model\", \"N/D\")}'); \
+print(f'   Ultimo aggiornamento: {d.get(\"last_updated\", \"N/D\")[:19]}'); \
+cats={}; \
+[cats.update({p[\"pratica\"][\"categoria\"]: cats.get(p[\"pratica\"][\"categoria\"], 0)+1}) for p in d.get(\"practices\", [])]; \
+print(f'\\n📋 Per categoria:'); \
+[print(f'   {k}: {v}') for k,v in sorted(cats.items(), key=lambda x: -x[1])]"; \
+	else \
+		echo "❌ File data/best_practices.json non trovato. Esegui prima: make best-practice-extract"; \
 	fi
 
 clean:

@@ -1,0 +1,1430 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-28T10:03:32.219209",
+  "extraction_model": "qwen3:32b",
+  "total_practices": 29,
+  "schools_processed": 1,
+  "practices": [
+    {
+      "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazioni Internazionali Studenti",
+        "descrizione": "La scuola offre a studenti titoli extrascolastici riconosciuti globalmente (Cambridge, DELE, DELF, EIPASS) attraverso iniziative didattiche integrate. Queste certificazioni sono ottenute tramite percorsi specifici che combinano insegnamento linguistico e digitale.",
+        "metodologia": "Integrazione di corsi linguistici e digitali con esami esterni riconosciuti. Collaborazione con enti certificatori internazionali.",
+        "target": "Studenti desiderosi di acquisire competenze riconosciute a livello internazionale",
+        "citazione_ptof": "L'ampliamento dell'offerta formativa permette agli studenti di conseguire titoli extrascolastici riconosciuti anche all'estero (Cambridge, DELE, DELF, EIPASS etc.).",
+        "pagina_evidenza": "Pagina 3"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:56:39.621999",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1f5a4945-e226-4995-b055-de878786e2c5",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Percorsi Pluridisciplinari e Documenti Comuni",
+        "descrizione": "Implementazione di percorsi didattici interdisciplinari nelle classi quinte e utilizzo di format comuni per programmazioni e documenti di esame. Riduce il gap tra classi parallele e standardizza la valutazione.",
+        "metodologia": "Lavoro di squadra tra docenti, utilizzo di template condivisi e verifiche comuni. Monitoraggio continuo dei risultati.",
+        "target": "Studenti di classe quinta e corpo docente",
+        "citazione_ptof": "I PERCORSI PLURIDISCIPLINARI... e le programmazioni di tutte le classi elaborate a novembre anch'esse su format comune...",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:56:39.622115",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "ce6cc344-bc9e-4bf0-992c-3b5dea424b09",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione Civica Strutturata",
+        "descrizione": "Indicazione di indicatori standardizzati per la valutazione delle competenze in Educazione Civica, con percorsi specifici su schede dedicate. Favorisce la cittadinanza attiva e la consapevolezza dei diritti.",
+        "metodologia": "Schede di progettazione specifiche, valutazione basata su criteri definiti e integrazione con altre discipline.",
+        "target": "Studenti e corpo docente",
+        "citazione_ptof": "Lavoro già avviato in relazione all'EDUCAZIONE CIVICA... indicatori meglio definiti e più standardizzati.",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:56:39.622138",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "eab9d7f1-8e2f-4a89-b208-b5471aea1013",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Content and Language Integrated Learning (CLIL)",
+        "descrizione": "Metodologia didattica che integra l'insegnamento di materie curricolari con lingue straniere, con particolare attenzione all'inglese e ad altre lingue dell'UE. Potenzia competenze linguistiche e disciplinari.",
+        "metodologia": "Lezioni bilingue, materiali didattici in lingua straniera, valutazione integrata di contenuti e competenze linguistiche.",
+        "target": "Studenti e docenti di materie linguistiche",
+        "citazione_ptof": "valorizzazione e potenziamento delle competenze linguistiche... mediante l'utilizzo della metodologia Content language integrated learning",
+        "pagina_evidenza": "Pagina 15"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:56:39.622156",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "dcdf11ab-a7af-48b3-9540-ea17fe3a0978",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Monitoraggio e Valutazione Standardizzata",
+        "descrizione": "Implementazione di format comuni per programmazioni didattiche e verifiche, con focus su monitoraggio continuo e valutazione standardizzata. Migliora la coerenza tra classi e dipartimenti.",
+        "metodologia": "Utilizzo di template condivisi, analisi comparativa dei risultati, riunioni di dipartimento per confronto e miglioramento.",
+        "target": "Corpo docente e studenti",
+        "citazione_ptof": "I vari dipartimenti dovranno affinare una progettazione curricolare che preveda il confronto attraverso lo svolgimento di verifiche comuni.",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:56:39.622175",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b22e0589-492c-4b7c-8cbf-a9f35251f6c7",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Liceo Coding e Big Data",
+        "descrizione": "Percorso curricolare che integra programmazione, analisi dati e metodologie interdisciplinari. Include laboratori di coding, attività PCTO con università e certificazioni ICT avanzate (EIPASS, Eipass coding). Obiettivo: sviluppo del pensiero computazionale e competenze spendibili nel mercato del lavoro.",
+        "metodologia": "Lezioni teoriche integrate con laboratori pratici, collaborazioni universitarie, certificazioni progressive (EIPASS 7 moduli nel biennio, estensioni nel triennio).",
+        "target": "Studenti del Liceo Scientifico interessati a informatica e big data",
+        "citazione_ptof": "Il percorso con curvatura Coding e Big Data affianca alle discipline di Matematica, Fisica e Scienze naturali, la programmazione e lo studio dell’analisi dei dati.",
+        "pagina_evidenza": "Pagina 25"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:57:51.309854",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "88d55fb9-ff85-4781-8e0f-dd7a9838b89d",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Università Sapienza, Tor Vergata e Roma 3",
+        "descrizione": "Protocollo di intesa per il Liceo Matematico e il percorso Coding e Big Data. Docenti partecipano a formazione universitaria, studenti seguono lezioni da docenti universitari e accedono a PCTO congiunti.",
+        "metodologia": "Formazione docenti in università, lezioni tenute da docenti universitari, organizzazione PCTO congiunti.",
+        "target": "Studenti e docenti del Liceo Scientifico",
+        "citazione_ptof": "Protocollo di intesa con Università “Sapienza” – Roma. Coinvolgimento anche delle altre due Università romane (“Tor Vergata” e “Roma 3”)",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:57:51.309961",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8200380d-875c-4cad-9285-89ca63d550ea",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Certificazione EIPASS 7 moduli",
+        "descrizione": "Percorso di certificazione informatica obbligatorio nel Liceo Scientifico. Include moduli su ICT, sicurezza, Office e programmazione, con esami progressivi e certificazioni avanzate (Eipass CAD, IT Security).",
+        "metodologia": "Lezioni laboratoriali integrate nel curricolo, esami modulati per biennio/triennio, certificazioni riconosciute a livello internazionale.",
+        "target": "Studenti del Liceo Scientifico",
+        "citazione_ptof": "Dall’anno scolastico 2025/2026 verrà affrontato... il percorso di certificazione informatica EIPASS 7 moduli user.",
+        "pagina_evidenza": "Pagina 24"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:57:51.309981",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "51a76294-75d3-446a-bb6f-831ae1844fb4",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Liceo Scientifico con potenziamento matematico",
+        "descrizione": "Sperimentazione con incremento di ore di matematica/fisica (2 ore biennio, 1 triennio) e didattica laboratoriale. Collaborazione con università per test di ingresso e lezioni specialistiche.",
+        "metodologia": "Potenziamento orario curricolare, laboratori interdisciplinari, coinvolgimento universitario in test e didattica.",
+        "target": "Studenti del Liceo Scientifico",
+        "citazione_ptof": "Incremento di due ore settimanali di Matematica/Fisica al biennio; una al triennio... Alcune lezioni tenute a scuola da docenti universitari.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:57:51.309996",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "4168d933-c4b9-4f81-9b3e-904cc2d31697",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Premio Aimati per Eccellenza in Matematica",
+        "descrizione": "Assegnazione di due borse di studio annuali (€500 ciascuna) agli studenti più meritevoli in Matematica delle classi prime e seconde del Liceo Scientifico, con criteri di selezione basati su performance accademiche e partecipazione a iniziative specifiche.",
+        "metodologia": "Selezione pubblica con valutazione di prove matematiche e partecipazione a progetti STEM, documentata tramite link al sito istituzionale.",
+        "target": "Studenti delle classi prime e seconde del Liceo Scientifico",
+        "citazione_ptof": "Il premio consiste nell’assegnazione di due borse di studi di € 500 ciascuna ai due studenti più meritevoli in Matematica...",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:59:04.964678",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "2620d335-d4dd-47e4-aba5-03d95ee61332",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Università e Centri di Ricerca per PCTO",
+        "descrizione": "Implementazione di percorsi di Alternanza Scuola-Lavoro con partner come università, centri di ricerca, enti locali e soggetti del Registro Nazionale ASL, per attività di 90 ore annue (30 ore/cadenzata) in classi terze, quarte e quinte.",
+        "metodologia": "Convenzioni annuali con soggetti selezionati per attinenza con i curricula e capacità organizzative, con priorità a simulazioni di contesti lavorativi.",
+        "target": "Studenti delle classi terze, quarte e quinte",
+        "citazione_ptof": "Partners: 1. Università; 2. Centri di ricerca; 3. Centri di orientamento lavorativo ed universitario...",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:59:04.964832",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "cb440aba-5a21-47e6-9b4c-041931b057dc",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Impresa Formativa Simulata in PCTO",
+        "descrizione": "Attività di Alternanza Scuola-Lavoro basate su simulazioni di contesti lavorativi (es. start-up, parlamenti) per sviluppare competenze trasversali, svolte in orario scolastico e parzialmente a scuola.",
+        "metodologia": "Progettazione di simulazioni interdisciplinari con coinvolgimento diretto degli studenti in ruoli attivi, integrate con attività curricolari.",
+        "target": "Studenti delle classi terze, quarte e quinte",
+        "citazione_ptof": "Si intende fare ricorso alla modalità dell’impresa formativa simulata (es.: simulazioni parlamentari, di start-up etc.)...",
+        "pagina_evidenza": "Pagina 36"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:59:04.964858",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "019d7884-9bec-4176-b1f1-08dc2f2f323b",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Piano Nazionale Scuola Digitale (PNSD)",
+        "descrizione": "Implementazione di un piano triennale per lo sviluppo delle competenze digitali, con formazione docenti su strumenti tecnologici (Registro Elettronico, Digital Board), adozione di testi digitali e creazione di comunità online con famiglie.",
+        "metodologia": "Formazione continua su strumenti digitali, adozione di piattaforme collaborative (GSuite) e integrazione di contenuti digitali nei curricula.",
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Il PIANO triennale dell'O.F. recepisce il PNSD adottato con DM n. 851 del 27 ottobre 2015...",
+        "pagina_evidenza": "Pagina 37"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:59:04.964880",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "c92e4847-a440-40d7-81ad-c55cefe08f4e",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Scuola Digitale 2026 (PNRR)",
+        "descrizione": "Trasformazione di almeno la metà delle aule in ambienti innovativi di apprendimento e creazione di laboratori per professioni digitali (robotica, intelligenza artificiale), con finanziamenti PNRR per €325.238,59.",
+        "metodologia": "Progettazione di spazi fisici e digitali, acquisto di attrezzature tecnologiche e formazione docenti per l'uso innovativo degli ambienti.",
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Azione 1 - La trasformazione delle aule in ambienti innovativi di apprendimento (€ 201.194,02)...",
+        "pagina_evidenza": "Pagina 39"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T09:59:04.964899",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "55d20bba-adf8-4f5b-84d1-3aa8dc8abdb2",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Distribuzione Materiale Orientamento Universitario",
+        "descrizione": "Fornitura di materiale cartaceo e digitale per supportare gli studenti nella scelta e iscrizione universitaria, incluso testi di preparazione ai test di ingresso.",
+        "metodologia": "Raccolta e selezione di risorse da fonti accademiche e editoriali, distribuzione tramite canali scolastici e piattaforme digitali.",
+        "target": "Studenti delle classi quinte",
+        "citazione_ptof": "□ Reperimento e distribuzione di materiale cartaceo e informatico di orientamento all’iscrizione universitaria.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:00:20.735600",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "d42ead1f-befa-4752-ba34-2599fbaa54cb",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Atenei romani e non",
+        "descrizione": "Attività congiunte con università pubbliche e private per progetti sperimentali di ricerca, stage e riconoscimento crediti.",
+        "metodologia": "Accordi formali con atenei, organizzazione di eventi congiunti e partecipazione a iniziative accademiche.",
+        "target": "Studenti, corpo docente",
+        "citazione_ptof": "□ Proseguimento attività collaborativa con Atenei romani e non (pubblici e privati), avente per oggetto progetti sperimentali di ricerca promossi dalle varie facoltà.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:00:20.735682",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "b096ee9a-eb2e-4557-800d-46f6e082a023",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Incontri con Alumni Universitari",
+        "descrizione": "Scambio di esperienze tra studenti del quinto anno e ex studenti iscritti a varie facoltà universitarie per orientamento post-diploma.",
+        "metodologia": "Organizzazione di eventi tematici con testimonianze e discussioni guidate da tutor scolastici.",
+        "target": "Studenti delle classi quinte",
+        "citazione_ptof": "□ Organizzazione di un incontro tra studenti del quinto anno ed ex studenti iscritti presso varie facoltà universitarie, per uno scambio di esperienze ed informazioni.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:00:20.735696",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "ab24110f-9799-4390-9418-7f8254d9e191",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Conferenze con Professionisti del Territorio",
+        "descrizione": "Incontri con esperti di settori lavorativi per informare gli studenti sulle opportunità professionali e le esigenze del mercato.",
+        "metodologia": "Invito a professionisti locali, gestione di sessioni di domande e risposte, collaborazione con enti come Lazio Innova.",
+        "target": "Studenti, genitori",
+        "citazione_ptof": "□ Incontri presso l’Istituto con professionisti dei vari settori per uno scambio di informazioni sulla situazione lavorativa dei settori di loro appartenenza.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:00:20.735706",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "374fd223-c651-405e-bdd7-cc86834b9df7",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Centro di Orientamento Scolastico",
+        "descrizione": "Struttura dedicata all'interno dell'istituto per raccogliere e gestire richieste di orientamento da parte degli studenti.",
+        "metodologia": "Creazione di un punto fisso con personale specializzato, integrazione con strumenti digitali e banche dati.",
+        "target": "Studenti, corpo docente",
+        "citazione_ptof": "□ Realizzazione di un centro di orientamento presso l’Istituto al fine di raccogliere richieste di carattere orientativo da parte degli studenti.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:00:20.735717",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "26ab8fb8-e60a-4e9b-a35c-0f841d14a6f0",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Gestione organizzativa del Laboratorio",
+        "descrizione": "Coordinamento strutturato del laboratorio didattico con controllo dell'inventario, manutenzione, turni di utilizzo e registro delle presenze. Vengono segnalate anomalie e richieste di interventi tecnici per garantire sicurezza e funzionalità.",
+        "metodologia": "Collaborazione con l'assistente tecnico per inventari annuali, ispezioni periodiche e gestione del registro di presenza. Integrazione con la Presidenza per interventi urgenti.",
+        "target": "Studenti, personale docente e tecnico",
+        "citazione_ptof": "coordinare l’adozione dei libri di testo... curare l’utilizzo dell’apposito registro di presenza... segnalando alla Presidenza gli eventuali interventi da effettuare...",
+        "pagina_evidenza": "Pagina 62"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:02:14.870881",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "158d5f7f-94e4-42a0-9910-f8858a47bc6a",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Ruolo dei Coordinatori di Classe",
+        "descrizione": "Gestione organizzativa delle classi con responsabilità di coordinamento didattico, relazioni con famiglie, programmazione formativa e gestione delle assenze. Include la stesura del Documento del Consiglio di Classe per le quinte.",
+        "metodologia": "Riunioni strutturate con il Segretario, utilizzo di moduli standardizzati per programmazione e uscite didattiche, monitoraggio continuo delle presenze.",
+        "target": "Studenti, docenti, famiglie",
+        "citazione_ptof": "I Coordinatori di Classe dovranno: presiedere i Consigli... curare la stesura del Documento del Consiglio di Classe...",
+        "pagina_evidenza": "Pagina 62"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:02:14.871003",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8210c738-b3da-45d4-b65b-2a28b00de9ca",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curriculum dello Studente",
+        "descrizione": "Documento integrativo del percorso scolastico che include certificazioni, attività extracurriculari, risultati INVALSI e PCTO. Allegato al diploma e utilizzato per l'orientamento post-diploma.",
+        "metodologia": "Aggiornamento annuale con dati provenienti da attività formali e non formali, integrazione con il sistema di valutazione e orientamento.",
+        "target": "Studenti del II ciclo",
+        "citazione_ptof": "Il Curriculum è un documento rappresentativo... allegato al Diploma conseguito al termine dell’esame di Stato...",
+        "pagina_evidenza": "Pagina 71"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:02:14.871022",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "9386223a-8f4a-4ad0-93e1-71b89425836d",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione docenti su priorità strategiche",
+        "descrizione": "Piano triennale di formazione con focus su competenze digitali, prevenzione del disagio, lingue straniere e valutazione. Riconoscimento di attività formative svolte in autonomia o in rete.",
+        "metodologia": "Questionari per identificare bisogni, integrazione con priorità nazionali, riconoscimento di attività documentate (corsi, sperimentazioni, progetti).",
+        "target": "Docenti",
+        "citazione_ptof": "Le priorità di formazione... competenze digitali e nuovi ambienti di apprendimento... valutazione e miglioramento.",
+        "pagina_evidenza": "Pagina 65"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:02:14.871038",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8df685fd-8dcd-4066-9adc-656a2ca17d46",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Commissione Elettorale strutturata",
+        "descrizione": "Organizzazione e gestione del processo elettorale con liste degli elettori, valutazione ricorsi e proclamazione degli eletti, garantendo trasparenza e regolarità.",
+        "metodologia": "Procedura standardizzata con ricevuta delle liste, valutazione formale dei ricorsi e pubblicazione ufficiale dei risultati.",
+        "target": "Personale scolastico e rappresentanti",
+        "citazione_ptof": "Predispone le liste degli elettori... proclama gli eletti.",
+        "pagina_evidenza": "Pagina 63"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:02:14.871052",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "21f19c0e-72ea-4350-8f7d-d71b402af0d1",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Criteri di Valutazione Disciplinare Strutturati",
+        "descrizione": "Il PTOF definisce criteri chiari per la valutazione disciplinare, distinguendo tra 'note' non disciplinari e provvedimenti formali (ammonizione/sospensione). Vengono stabiliti parametri specifici per l'attribuzione dei voti in base alla gravità delle infrazioni e al contesto, con valutazione caso per caso.",
+        "metodologia": "Analisi documentale e valutazione da parte del Consiglio di classe, considerando elementi come la gravità, il ravvedimento e l'impegno sociale.",
+        "target": "Studenti, Consigli di classe",
+        "citazione_ptof": "Le 'note' sul registro di classe non precludono voti superiori al 7. L'allontanamento fino a 15 giorni comporta voto 7/6, con possibilità di 8 in base a circostanze.",
+        "pagina_evidenza": "Pagina 73"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:03:32.146501",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "f2e9e1c1-fcfe-4f7d-880e-06d13232b202",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Recupero In Itinere con Articolazione per Livelli",
+        "descrizione": "Attività di recupero immediate e strutturate in gruppi per livello, con priorità a discipline come matematica e italiano. Include corsi di recupero estivi e studio autonomo con indicazioni del docente.",
+        "metodologia": "Articolazione della classe in gruppi per livello, corsi di recupero mirati, studio autonomo supervisionato.",
+        "target": "Studenti con insufficienze gravi o lievi",
+        "citazione_ptof": "Recupero 'in itinere' con gruppi per livello; corsi di recupero per insufficienze gravi; studio autonomo per lievi.",
+        "pagina_evidenza": "Pagina 74"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:03:32.146667",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "8a9ff775-23a5-4372-9d2d-7f80cb17ed17",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Carriera Alias per Studenti in Transizione di Genere",
+        "descrizione": "Regolamento dedicato per supportare studenti in transizione di genere, garantendo un ambiente scolastico inclusivo e rispettoso delle loro identità.",
+        "metodologia": "Applicazione di un regolamento specifico con linee guida per l'uso del nome e il rispetto delle identità di genere.",
+        "target": "Studenti in transizione di genere",
+        "citazione_ptof": "La scuola si è dotata del regolamento 'Carriera Alias' per venire incontro alle esigenze degli studenti in transizione di genere.",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:03:32.146689",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "9bc102cf-c19f-4108-b487-442b72925b9e",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Moduli Interdipartimentali di Orientamento",
+        "descrizione": "Programmazione di moduli orientativi interdisciplinari, collegando competenze europee a temi di autoconoscenza e progettazione futura, con attività come storytelling, laboratori creativi e dibattiti.",
+        "metodologia": "Integrazione di competenze europee con metodologie attive (flipped classroom, laboratori, incontri con esperti).",
+        "target": "Studenti delle classi 1e-5e",
+        "citazione_ptof": "Moduli orientativi interdipartimentali con attività come storytelling, laboratori e dibattiti, calibrati sulle competenze europee.",
+        "pagina_evidenza": "Pagina 77"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:03:32.146709",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "cf17f9dd-cd6f-4d93-becd-6d2a0f75e657",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istruzione Superiore Via Delle Scienze",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Colleferro",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Settimana Corta con Orario Ridotto",
+        "descrizione": "Introduzione di una settimana scolastica ridotta a 5 giorni (chiusura il sabato) con orario modulato, a partire dall'a.s. 2025/2026, per migliorare l'efficienza didattica.",
+        "metodologia": "Riorganizzazione dell'orario scolastico e riduzione del carico settimanale.",
+        "target": "Tutti gli studenti",
+        "citazione_ptof": "A partire dall’a.s. 2025/2026 verrà istituita la 'settimana corta' con chiusura il sabato.",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 4.42,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Lazio Innova - Incubatore di imprese"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "PCTO",
+          "Visite guidate e viaggi di istruzione",
+          "Organizzazione della partecipazione a manifestazioni universitarie",
+          "Incontri con ex alunni",
+          "Orientamento in entrata - Presentazione O.F. e Open day",
+          "Orientamento in uscita - Orientamento universitario e lavorativo",
+          "Viaggi di istruzione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T10:03:32.146730",
+        "model_used": "qwen3:32b",
+        "source_file": "RMIS02400L_ptof.md",
+        "chunk_source": 6
+      }
+    }
+  ]
+}
