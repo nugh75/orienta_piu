@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:47:09.773462",
+  "last_updated": "2025-12-28T19:58:06.869063",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -216,6 +216,12 @@
       "file_hash": "sha256:fe117cdf0e4e672842f2d965c28ca90be2d3ee7b404f1e2427e0421931fa9c72",
       "processed_at": "2025-12-28T19:47:09.773450",
       "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "TRMM045005": {
+      "file_hash": "sha256:95c507c480d858145651be051702568133d5c21ad9e73b2269e31adb5841d7a4",
+      "processed_at": "2025-12-28T19:58:06.869052",
+      "practices_count": 33,
       "model_used": "qwen3:32b"
     }
   }

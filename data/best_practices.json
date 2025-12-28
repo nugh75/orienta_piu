@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:47:09.775036",
+  "last_updated": "2025-12-28T19:58:06.870383",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1721,
-  "schools_processed": 36,
+  "total_practices": 1754,
+  "schools_processed": 37,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -97559,6 +97559,1944 @@
         "model_used": "qwen3:32b",
         "source_file": "RMMM856011_ptof.md",
         "chunk_source": 3
+      }
+    },
+    {
+      "id": "305a06b3-85db-4cc9-944b-0c3399956730",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Utilizzo di tecnologie interattive e laboratori per apprendimento cooperativo",
+        "descrizione": "La scuola promuove l'uso di monitor interattivi e pratiche laboratoriali per favorire l'apprendimento cooperativo, permettendo agli studenti di scoprire la complessità del reale attraverso relazioni interpersonali e collaborazione costruttiva.",
+        "metodologia": "Implementazione di tecnologie digitali (monitor interattivi) e attività laboratoriali in discipline come latino, lingue, scienze e arte, con focus su apprendimento cooperativo e problem solving.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "l’utilizzo di monitor interattivi e di pratiche laboratoriali per promuovere l’unità della persona e della cultura, per imparare a scoprire in maniera cooperativa la complessità del reale attraverso la relazione interpersonale e la collaborazione costruttiva",
+        "pagina_evidenza": "Pagina 8"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:48:22.376942",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b83f8b23-1ddb-469b-be79-3f64bd0b3f80",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con enti esterni per progetti di inclusione e formazione",
+        "descrizione": "La scuola collabora con EE.LL., centri di formazione, Confartigianato, Dipartimenti sanitari e Università per progetti di inclusione, prevenzione del disagio e ampliamento dell'offerta formativa, organizzando esperienze in biblioteche, musei e aree naturali.",
+        "metodologia": "Partnership con enti locali e istituzionali per realizzare progetti di continuità, accoglienza, orientamento e formazione pratica attraverso visite, stage e laboratori interdisciplinari.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "PCTO/Alternanza",
+          "Intercultura"
+        ],
+        "target": "Studenti, famiglie e territorio",
+        "citazione_ptof": "collabora con: EE.LL., centri di formazione, Confartigianato, Dipartimento di Neuropsichiatria Infantile, Università... organizzando per le classi esperienze formative in: biblioteche, musei, teatri, cinema, aree archeologiche, parchi naturali",
+        "pagina_evidenza": "Pagina 11"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:48:22.377129",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "0eefb720-659f-452f-a443-ab00a71aa57a",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Progetti di continuità e orientamento con scuole primarie e secondarie",
+        "descrizione": "L'istituto implementa un organico progetto di continuità, accoglienza e orientamento con scuole primarie e secondarie di secondo grado, garantendo un percorso formativo coerente e integrato.",
+        "metodologia": "Attività strutturate di continuità verticale e orizzontale, con momenti di accoglienza, orientamento e condivisione di metodologie didattiche tra scuole diverse.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti, docenti e famiglie",
+        "citazione_ptof": "interagisce strettamente... con le scuole primarie e secondarie di secondo grado... grazie ad un organico progetto di attività di continuità, accoglienza ed orientamento",
+        "pagina_evidenza": "Pagina 11"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:48:22.377183",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "89a11096-4bd2-41a5-b56c-0f3e1c5f771d",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Implementazione di Cooperative Learning e Flipped Classroom",
+        "descrizione": "Utilizzo di metodologie come cooperative learning, flipped classroom e Service Design Thinking per creare un ambiente di apprendimento innovativo, integrando tecnologie digitali (TIC e piattaforme) con tradizione didattica.",
+        "metodologia": "Applicazione di cooperative learning per favorire il lavoro di gruppo, flipped classroom per invertire il ruolo di lezione e studio domestico, e Service Design Thinking per progetti interdisciplinari.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Flipped Classroom",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Lettura e Scrittura",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Le attività e i Progetti [...] utilizzano cooperative learning, flipped classroom, Service Design Thinking e tecnologie digitali.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:49:35.937683",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "41b5b793-de7c-4961-8719-56d27e917225",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Sportello Help per supporto gratuito a compiti",
+        "descrizione": "Servizio pomeridiano gratuito di aiuto ai compiti aperto a tutti gli studenti, con corsi di alfabetizzazione linguistica per alunni stranieri.",
+        "metodologia": "Supporto individuale e di gruppo in orario extracurricolare, con focus su potenziamento linguistico e consolidamento disciplinare.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studenti in difficoltà e alunni stranieri",
+        "citazione_ptof": "Lo Sportello Help permette un aiuto compiti gratuito [...] corsi di alfabetizzazione per alunni stranieri.",
+        "pagina_evidenza": ""
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:49:35.937828",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "a32fb2a9-d2b3-497e-96bf-4720ce1a211d",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corsi di potenziamento linguistico per certificazioni internazionali",
+        "descrizione": "Corsi di inglese e francese mirati all'acquisizione di certificazioni internazionali, con docenti specializzati e metodologie CLIL.",
+        "metodologia": "Didattica CLIL (Contenuti e Lingua Straniera) integrata con laboratori pomeridiani e preparazione a certificazioni linguistiche.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Tutte le classi della scuola secondaria",
+        "citazione_ptof": "Corsi di potenziamento per Inglese e Francese volti all’acquisizione di certificazioni internazionali.",
+        "pagina_evidenza": "Pagina 25"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:49:35.937858",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "817aa500-1159-4d61-87ca-b408de23fab7",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Lettura con incontri con autori e BCT",
+        "descrizione": "Attività di potenziamento delle competenze letterarie attraverso letture, incontri con autori, partecipazione a eventi della Biblioteca Civica Ternana (BCT) e avviamento al latino/greco.",
+        "metodologia": "Progetti interdisciplinari con laboratori di lettura, ospitalità di autori e integrazione con percorsi del Liceo Classico.",
+        "tipologie_metodologia": [
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Orientamento"
+        ],
+        "target": "Studenti delle classi terze",
+        "citazione_ptof": "Progetto Lettura, incontri con l'autore, partecipazione ad attività della BCT e avviamento al latino e al greco.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:49:35.937879",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "fb1cad5f-1ada-425c-ba96-c7af5e586746",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Integrazione di TIC e piattaforme digitali",
+        "descrizione": "Utilizzo di lavagne interattive multimediali (LIM), piattaforme eTwinning e Google Workspace for Education per attività didattiche digitali e laboratori di coding.",
+        "metodologia": "Didattica digitale con strumenti come LIM, eTwinning e Google Workspace, inclusi laboratori di coding e pensiero computazionale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "L’offerta dell’Istituto [...] include laboratori sul Coding e utilizzo di piattaforme eTwinning e Google Workspace.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:49:35.937901",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "dd9c31f1-7866-42da-87b8-ecadec678c9b",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Scienze Esperienziale",
+        "descrizione": "Strutturazione di un laboratorio di scienze per implementare competenze tramite analisi empirica dei fenomeni, con attività pratiche e sperimentali. Obiettivo: migliorare l'apprendimento attraverso l'esperienza diretta.",
+        "metodologia": "Didattica laboratoriale con sperimentazione empirica, utilizzo di strumenti scientifici e analisi di fenomeni concreti.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Strutturazione laboratorio di scienze. Implementazione delle competenze degli studenti attraverso l’analisi empirica dei fenomeni studiati.",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:51:39.606350",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "334a2d1b-2a79-481b-ae22-10da6a13a4e3",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Università Bocconi per Giochi Matematici",
+        "descrizione": "Partecipazione agli eventi matematici promossi dall'Università Bocconi, con attività competitive e formative per studenti e docenti. Obiettivo: migliorare le competenze matematiche e il confronto interistituzionale.",
+        "metodologia": "Collaborazione accademica con attività competitive e laboratori didattici.",
+        "tipologie_metodologia": [
+          "Gamification",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Matematica e Logica",
+          "Formazione Docenti"
+        ],
+        "target": "Studenti e docenti di matematica",
+        "citazione_ptof": "Partecipazione ai Giochi Matematici in collaborazione con l‘Università Bocconi di Milano.",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:51:39.606515",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "d6d543d2-aa93-4f0e-94f1-a2de13786157",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto Adolescenza per Prevenzione Disagio",
+        "descrizione": "Percorso curricolare per promuovere crescita armonica, prevenire devianza e sviluppare competenze sociali ed emotive. Obiettivo: sensibilizzare su bullismo e cyberbullismo con attività interdisciplinari.",
+        "metodologia": "Didattica interdisciplinare con focus su competenze trasversali e formazione docenti.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Progetto Adolescenza in orario curricolare per prevenire il disagio e la devianza.",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:51:39.606559",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "c9b018d1-2fbd-48ef-a4a6-45e28ab3034f",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Digitale con Innovative Design Thinking",
+        "descrizione": "Utilizzo di metodologie aziendali adattate alla didattica (Innovative Design Thinking) per coinvolgere studenti e docenti nella coprogettazione di attività digitali. Obiettivo: migliorare l'interazione e l'apprendimento con tecnologie innovative.",
+        "metodologia": "Co-progettazione di attività con studenti, utilizzo di strumenti digitali e metodologie aziendali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Design Thinking"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Formazione e disseminazione interne relative all’Innovative Design Thinking, metodologia di progettazione aziendale adattata alla didattica.",
+        "pagina_evidenza": "Pagina 32"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:51:39.606581",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "9a35428c-c0c6-49e3-acde-beec6ca05b27",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione alla Salute con Enti Territoriali",
+        "descrizione": "Progetto interdisciplinare per individuare comportamenti a rischio e sensibilizzare su salute fisica e mentale, in collaborazione con enti locali. Obiettivo: promuovere stili di vita sani e prevenire dipendenze.",
+        "metodologia": "Collaborazione con enti territoriali, attività interdisciplinari e monitoraggio comportamentale.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Il Progetto di Educazione alla Salute, in collaborazione con gli Enti Territoriali, è finalizzato all’individuazione di comportamenti a rischio.",
+        "pagina_evidenza": "Pagina 31"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:51:39.606600",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "ee93a835-fe37-4ee6-800c-28028b47f7e2",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio di Coding",
+        "descrizione": "Attività dedicate all'insegnamento del coding per sviluppare competenze digitali e pensiero computazionale, integrate nel piano triennale del PNSD. Il laboratorio favorisce l'apprendimento attivo e la creatività tecnologica.",
+        "metodologia": "Implementato attraverso sessioni pratiche in classe, utilizzo di strumenti digitali e collaborazione tra studenti. Coinvolge metodologie laboratoriali e didattica digitale.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "laboratorio di coding.",
+        "pagina_evidenza": "Pagina 47"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:53:02.704655",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "dcdc1960-4f5f-42f6-a18f-3d345c834e4a",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Adolescenza (Lions Quest)",
+        "descrizione": "Iniziativa mirata a migliorare l'autostima e l'apprendimento degli studenti attraverso interventi educativi strutturati. Favorisce l'integrazione e il superamento delle difficoltà di apprendimento.",
+        "metodologia": "Attività organizzate in classi con bisogni specifici, utilizzando approcci pedagogici personalizzati e collaborativi.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Educazione Civica"
+        ],
+        "target": "Studenti con difficoltà di apprendimento",
+        "citazione_ptof": "Un valido strumento per favorire l’integrazione... Progetto Adolescenza (Lions Quest).",
+        "pagina_evidenza": "Pagina 47"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:53:02.704804",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "01a164c0-392d-4187-9eae-a73b73fa7c3c",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Digitale con Google Workspace",
+        "descrizione": "Utilizzo della piattaforma Google Workspace for Education per condividere materiali, collaborare su progetti e personalizzare l'apprendimento. Favorisce la dematerializzazione e l'accesso a risorse digitali.",
+        "metodologia": "Implementato attraverso l'uso di strumenti cloud (Google Docs, Classroom) e attività sincrone/asincrone. Coinvolge docenti e studenti in processi di apprendimento interattivo.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Flipped Classroom"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "implementazione dell’utilizzo di metodologie didattiche innovative... Google Workspace for Education.",
+        "pagina_evidenza": "Pagina 48"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:53:02.704830",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "60065faf-044c-4db4-ba57-24d6789db614",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica a Distanza (DAD) con Netiquette",
+        "descrizione": "Linee guida per l'uso corretto delle tecnologie in DAD, con focus su puntualità, rispetto del turno di parola e norme di privacy. Promuove una partecipazione attiva e responsabile.",
+        "metodologia": "Implementato attraverso criteri valutativi specifici (puntualità, uso corretto della telecamera) e attività sincrone/asincrone. Coinvolge studenti e docenti in contesti digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Educazione Civica"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Conoscenza delle regole che normano l’attività in Dad... rispetto della netiquette.",
+        "pagina_evidenza": "Pagina 45"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:53:02.704882",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "70252fa6-90db-499a-bb03-84bf2c1d8222",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Animatore Digitale per la Diffusione dell'Innovazione",
+        "descrizione": "Inserimento di un 'animatore digitale' incaricato di diffondere le strategie del PNSD all'interno della scuola, promuovere la collaborazione con partner esterni e trasformare il monitoraggio digitale in strumento strategico. L'animatore lavora con il dirigente scolastico e il team per implementare innovazioni didattiche e territoriali.",
+        "metodologia": "Coordinamento di iniziative digitali, gestione di accordi territoriali e stakeholder club, creazione di una galleria di pratiche condivise.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione"
+        ],
+        "target": "Personale scolastico e partner esterni",
+        "citazione_ptof": "Un 'animatore digitale' che, insieme al dirigente scolastico e al Team, avrà il compito di diffondere l'innovazione contenute nel PNSD.",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:54:08.826767",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "b46a3470-f327-4d75-b43c-77ce8baaf105",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Protocollo Strutturato per Alunni BES",
+        "descrizione": "Implementazione di un protocollo condiviso per l'inclusione di alunni con Bisogni Educativi Speciali, con procedure standardizzate per la rilevazione dei bisogni, la definizione di criteri di intervento, la stesura di piani didattici personalizzati (PDP BES) e il monitoraggio continuo. Include coinvolgimento famiglia e servizi territoriali.",
+        "metodologia": "Collaborazione tra Consiglio di Classe, famiglia e servizi esterni; utilizzo di schede di individuazione, dichiarazioni di adesione e modelli strutturati per il PDP.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Personalizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Alunni BES e loro famiglie",
+        "citazione_ptof": "La scuola ha adottato un protocollo per gli alunni con BES, per definire ed implementare pratiche condivise e comuni tra tutti i docenti.",
+        "pagina_evidenza": "Pagina 56"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:54:08.826850",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "ecf8d705-1999-4112-88a9-437d69df6756",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Aggiornamento del Curricolo Tecnologia con Focus Digitale",
+        "descrizione": "Rinnovo del curricolo di Tecnologia per la scuola secondaria di primo grado, con l'obiettivo di colmare il divario digitale e promuovere competenze tecnologiche. Inclusione di attività STEAM e imprenditorialità digitale.",
+        "metodologia": "Integrazione di contenuti digitali, metodologie attive e progetti interdisciplinari in ambito STEAM.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Aggiornare il curricolo di 'Tecnologia' alla scuola secondaria di primo grado. Colmare il divario digitale, sia in termini di competenze che occupazioni.",
+        "pagina_evidenza": "Pagina 54"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:54:08.826867",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8ac1deb4-2cb4-4114-ab12-76122fe320fa",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto ICF per l'Inclusione Scolastica",
+        "descrizione": "Collaborazione con servizi socio-sanitari e reti territoriali per implementare il Progetto ICF (International Classification of Functioning Disability and Health), finalizzato a migliorare l'inclusione attraverso una progettazione biopsicosociale e l'individuazione di facilitatori/barriere ambientali.",
+        "metodologia": "Analisi congiunta di fattori ambientali, definizione di strumenti di supporto e integrazione di figure professionali esterne.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Educazione Civica"
+        ],
+        "target": "Alunni con disabilità e BES",
+        "citazione_ptof": "La scuola nell’a.s. 2011/2012 ha aderito all’accordo di rete per il 'Progetto ICF', 'Scuola, territorio e servizi: la rete per l’inclusione'.",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:54:08.826883",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "52426b19-64cf-4c56-9b46-c57d49cb07c7",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Promozione di Risorse Educative Aperte (OER)",
+        "descrizione": "Incentivo alla produzione e condivisione di contenuti didattici digitali di qualità, con linee guida per l'autoproduzione e l'interoperabilità degli ambienti online. Obiettivo: bilanciare qualità e apertura dei materiali didattici.",
+        "metodologia": "Utilizzo di piattaforme digitali, formazione del personale su OER e standard di interoperabilità.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Promozione delle Risorse Educative aperte (OER) e linee guida su autoproduzione dei contenuti didattici.",
+        "pagina_evidenza": "Pagina 54"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:54:08.826901",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "4b96a4e9-bbd1-4c01-9337-34accdc4b78d",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Standardizzazione delle verifiche interclasse",
+        "descrizione": "La scuola utilizza prove strutturate concordate collegialmente per classi parallele, con criteri comuni di valutazione in tutte le discipline. Questo garantisce uniformità e trasparenza nei processi di verifica.",
+        "metodologia": "Le verifiche sono progettate in collaborazione tra i docenti, con rubriche condivise e prove comuni a tutte le classi. I risultati sono monitorati e discussi nei dipartimenti disciplinari.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Si utilizzano prove strutturate per classi parallele... concordate per tutte le discipline e per tutte le classi, collegialmente dai docenti...",
+        "pagina_evidenza": "Pagina 72"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:55:36.387975",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "0f4361a6-bb3b-406c-b94c-270bd068308a",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Griglie di valutazione comportamentale differenziate",
+        "descrizione": "La scuola utilizza griglie specifiche per valutare il comportamento, suddividendo indicatori come rispetto delle regole, relazioni, interesse e impegno in livelli di valutazione (Pienamente Adeguato, Parzialmente Adeguato, ecc.).",
+        "metodologia": "Le griglie sono applicate in modo sistematico durante i Consigli di Classe, con criteri condivisi per garantire equità e trasparenza.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "La valutazione del comportamento... ha valenza formativa in quanto considera atteggiamenti, correttezza e coerenza...",
+        "pagina_evidenza": "Pagina 70"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:55:36.388127",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "8c9768f5-0175-456c-b11a-e276df7d40f2",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Monitoraggio e condivisione dei dati di valutazione",
+        "descrizione": "I dati delle verifiche sono monitorati, elaborati e resi disponibili ai genitori tramite il sito scolastico, con analisi nei dipartimenti disciplinari e nei Consigli di Istituto.",
+        "metodologia": "I risultati sono discussi in contesti collegiali (dipartimenti, C.d.D., C.d.I.) e condivisi con le famiglie attraverso canali digitali.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, genitori, docenti",
+        "citazione_ptof": "I dati emersi, monitorati ed elaborati, sono oggetto di condivisione... resi disponibile ai genitori tramite il sito della scuola.",
+        "pagina_evidenza": "Pagina 72"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:55:36.388165",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "5fe47991-d7fd-4a82-bcf1-5da16e71ed44",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Curricolo Digitale",
+        "descrizione": "Sviluppo di traguardi per la competenza digitale nel primo ciclo, allineati al framework europeo DigComp 2.1. Collaborazione con scuole umbre per definire indicatori in 5 aree (dati, comunicazione, creazione contenuti, sicurezza, problem solving).",
+        "metodologia": "Costruzione di competenze digitali attraverso attività didattiche strutturate in base agli indicatori europei, con focus su ricerca, valutazione e gestione di contenuti digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola primaria e secondaria di primo grado",
+        "citazione_ptof": "Il nostro Istituto ha partecipato alla stesura dei 'Traguardi per la competenza digitale nel primo ciclo' basati su DigComp 2.1.",
+        "pagina_evidenza": "Pagina 87"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:56:55.383509",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "8cb90f1a-88eb-414f-8d1f-2d280505d9ae",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Attività di Continuità con Scuole Primarie",
+        "descrizione": "Programmazione di laboratori e lezioni congiunte con scuole primarie locali, incontri con genitori e open day per facilitare il passaggio al primo ciclo. Festa d'accoglienza per nuovi studenti con partecipazione di classi superiori.",
+        "metodologia": "Attività laboratoriali e metodologie interattive per favorire la transizione scolastica, con coinvolgimento diretto di studenti e famiglie.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Orientamento"
+        ],
+        "target": "Studenti delle classi quinte e nuovi iscritti",
+        "citazione_ptof": "La scuola organizza incontri con alunni e genitori delle classi quinte e una festa d'accoglienza per nuovi studenti.",
+        "pagina_evidenza": "Pagina 91"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:56:55.383673",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "32ed6ac9-9c75-44ce-b9f8-bef5ccfdd2a0",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Istituti Superiori e Associazioni",
+        "descrizione": "Percorsi di orientamento con licei locali, Confartigianato e progetti regionali (Percorsi, Alternanza Scuola/Lavoro). Utilizzo di software S.OR.PRENDO per orientamento e incontri con rappresentanti di istituti superiori.",
+        "metodologia": "Attività di orientamento strutturate in collaborazione con enti esterni, con laboratori tematici e condivisione di esperienze professionali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti terze medie e famiglie",
+        "citazione_ptof": "La scuola realizza attività di orientamento con licei locali, Confartigianato e progetti regionali.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:56:55.383694",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "468cba2a-a005-4508-837a-b78631a7fd90",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Monitoraggio Esiti Studenti",
+        "descrizione": "Analisi quantitativa e qualitativa dei risultati scolastici degli studenti al termine del primo anno di scuola superiore, con condivisione di dati in formato grafico e valutazione dell'efficacia dei consigli orientativi.",
+        "metodologia": "Utilizzo di strumenti di valutazione e monitoraggio per tracciare il percorso formativo e adattare le strategie educative.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti e famiglie",
+        "citazione_ptof": "L'80% degli studenti mantiene i risultati nel percorso successivo e i dati vengono condivisi collegialmente.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:56:55.383714",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "54b81df6-fd26-46fc-9cd3-4dfd265f8079",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Università e Enti per Prevenzione Dispersione",
+        "descrizione": "Lavoro con il prof. Federico Batini dell'Università di Perugia, Provincia e Regione per monitorare e prevenire la dispersione scolastica attraverso interventi mirati.",
+        "metodologia": "Interventi congiunti con esperti esterni per analizzare criticità e progettare soluzioni personalizzate.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti a rischio e docenti",
+        "citazione_ptof": "Collaboriamo con il prof. Batini dell'Università di Perugia, Provincia e Regione per prevenire la dispersione scolastica.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:56:55.383756",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "c8b8ece2-f48f-4adf-81e6-0a0e48b63725",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Formazione di classi disomogenee per potenziare l'inclusione",
+        "descrizione": "La scuola organizza le classi con una distribuzione equilibrata di eccellenze, alunni in difficoltà, stranieri, DSA/disabilità, maschi/femmine. Questo approccio mira a valorizzare l'eterogeneità come risorsa per favorire l'apprendimento collaborativo e la differenziazione didattica.",
+        "metodologia": "Le classi vengono strutturate con criteri di disomogeneità interna, garantendo una rappresentanza equilibrata di profili diversi. I docenti adottano strategie di differenziazione e cooperative learning per gestire le diverse esigenze.",
+        "tipologie_metodologia": [
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Educazione Civica"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Sarà privilegiata la disomogeneità interna a ciascun gruppo classe, dove dovranno essere equamente distribuiti eccellenze, alunni in difficoltà, stranieri, maschi, femmine...",
+        "pagina_evidenza": "Pagina 106"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:58:06.764548",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "e3c61f27-72d1-4b3c-b53b-986b9bd25baa",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Insegnamento interdisciplinare per competenze trasversali",
+        "descrizione": "La scuola promuove l'integrazione tra discipline per sviluppare competenze complesse, utilizzando l'Educazione Civica come strumento per connettere argomenti di cittadinanza, legalità e digitalizzazione. L'obiettivo è rendere significativo il sapere in contesti reali.",
+        "metodologia": "I docenti progettano unità didattiche interdisciplinari che uniscono contenuti di Educazione Civica con altre materie, adottando metodologie come il Project Work e la didattica per competenze.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica per competenze"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "L’esigenza di promuovere un approccio interdisciplinare... per formare persone e cittadini autonomi e responsabili...",
+        "pagina_evidenza": "Pagina 106"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:58:06.764684",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9097bbe4-3e23-4b3f-97e2-7002c87b867b",
+      "school": {
+        "codice_meccanografico": "TRMM045005",
+        "nome": "Terni \"L. Da Vinci E O. Nucula\"",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Umbria",
+        "provincia": "Terni",
+        "comune": "Terni",
+        "area_geografica": "Centro",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Prove comuni di valutazione quadrimestrale",
+        "descrizione": "La scuola implementa prove strutturate uniformi per tutte le classi, ispirate al modello Invalsi, per monitorare i progressi delle competenze e ridefinire interventi mirati. Questo permette un confronto sistematico dei dati e una governance basata su evidenze.",
+        "metodologia": "I dipartimenti curriculari progettano prove standardizzate che vengono somministrate in modo uniforme. I risultati sono analizzati per identificare aree di miglioramento e adottare azioni correttive.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Diventa pertanto fondamentale misurare le competenze raggiunte con prove strutturate in itinere sul modello Invalsi elaborate dai dipartimenti...",
+        "pagina_evidenza": "Pagina 106"
+      },
+      "contesto": {
+        "maturity_index": 4.23,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia",
+          "Provincia",
+          "Regione"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Giochi matematici",
+          "Soggiorni studio all'estero",
+          "Progetto Adolescenza",
+          "Attività di Orientamento",
+          "Incontri con Istituti superiori",
+          "Progetto Continuità",
+          "Monitoraggio esiti studenti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:58:06.764704",
+        "model_used": "qwen3:32b",
+        "source_file": "TRMM045005_ptof.md",
+        "chunk_source": 8
       }
     }
   ]
