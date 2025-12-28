@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "school_id": "REIS00200T",
+    "denominazione": "Istituto Istruzione Superiore Cattaneo-Dall'Aglio",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord",
+    "territorio": "Non Metropolitano",
+    "comune": "Reggio Emilia",
+    "anno_ptof": "2022-2025"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione è dedicata all'offerta formativa e all'orientamento, con dettagli sui moduli e le attività. Tuttavia, manca una visione strategica complessiva e un quadro di monitoraggio."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Parco Nazionale dell’Appennino tosco emiliano",
+        "Comuni dell’Appennino Reggiano",
+        "Comuni del modenese e del parmense",
+        "Servizi socio-sanitari",
+        "Organizzazioni del terzo settore",
+        "Imprese",
+        "CERN",
+        "Deutsch in Franken",
+        "Impact Hub",
+        "Confcooperative Emilia Romagna",
+        "Elettric 80",
+        "Obiettivo Lingua",
+        "Eurodesk",
+        "UNIMORE",
+        "IFOA",
+        "Appennino Hub",
+        "Centro sociale \"insieme\" di Castelnovo ne' Monti",
+        "Gazzetta di Reggio",
+        "E80 Group",
+        "Istituto ISTORECO",
+        "Politecnico di Milano",
+        "Syracuse University",
+        "CAME",
+        "Arcispedale Santa Maria Nuova",
+        "Tecnopolo e Parco dell’Innovazione di Reggio Emilia",
+        "Iren"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "sviluppo delle competenze in materia di cittadinanza attiva e democratica",
+        "evidence_location": "Pagina 126"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "sviluppo della passione per la lettura",
+        "evidence_location": "Pagina 143"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "Recuperare la socialità",
+        "evidence_location": "Pagina 192"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "collegamento con i PCTO",
+        "evidence_location": "Pagina 43"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "sviluppo delle competenze digitali",
+        "evidence_location": "Pagina 162"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "A scuola di STEM",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Rafforzamento delle competenze tecnico-scientifiche integrando una dimensione multidisciplinare.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Sviluppo abilità STEM e digitali con metodologie attive.",
+      "5w_dove": "Scuola",
+      "5w_quando": "2022-2025",
+      "5w_perche": "Sviluppare pensiero scientifico, creatività e competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "superamento di una didattica trasmissiva",
+      "evidence_location": "Pagina 37"
+    },
+    {
+      "titolo_attivita": "Erasmus +",
+      "categoria_principale": "Mobilità",
+      "descrizione_e_metodologia": "Mobilità individuale ai fini dell’apprendimento.",
+      "5w_chi": "Docenti e Studenti",
+      "5w_cosa": "Partecipazione a programmi di scambio.",
+      "5w_dove": "Estero",
+      "5w_quando": "2021/27",
+      "5w_perche": "Internazionalizzazione e sviluppo competenze.",
+      "ore_dichiarate": "ND",
+      "target": "Docenti e Studenti",
+      "evidence_quote": "Erasmus plus 2021/27",
+      "evidence_location": "Pagina 42"
+    },
+    {
+      "titolo_attivita": "Stage Linguistico in Inghilterra",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage per migliorare le competenze linguistiche.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Immersione linguistica e culturale.",
+      "5w_dove": "Inghilterra",
+      "5w_quando": "ND",
+      "5w_perche": "Potenziare competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Stage Linguistico In Inghilterra",
+      "evidence_location": "Pagina 43"
+    },
+    {
+      "titolo_attivita": "PCTO - Fisica Oggi",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratori d’Eccellenza e Centri di ricerca.",
+      "5w_chi": "Classi 4°I, 4°P, 5°I, 5°P, studenti Liceo scientifico",
+      "5w_cosa": "Visite a laboratori, comprensione della ricerca scientifica.",
+      "5w_dove": "CERN e altri laboratori",
+      "5w_quando": "Annuale",
+      "5w_perche": "Conoscere la fisica delle particelle e le sue applicazioni.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "FISICA OGGI: Laboratori d’Eccellenza e Centri di ricerca",
+      "evidence_location": "Pagina 54"
+    },
+    {
+      "titolo_attivita": "PCTO - Stage in Germania",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage linguistico e culturale.",
+      "5w_chi": "Classi 3°Q e 4°Q LL",
+      "5w_cosa": "Corso di lingua, attività culturali.",
+      "5w_dove": "Bamberga, Germania",
+      "5w_quando": "Annuale",
+      "5w_perche": "Potenziare competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Stage Linguistico In Inghilterra",
+      "evidence_location": "Pagina 42"
+    },
+    {
+      "titolo_attivita": "Orientamento Scienze Della Formazione Primaria E Scienze Dell’Educazione",
+      "categoria_principale": "Incontro/Visita",
+      "descrizione_e_metodologia": "Chiarire le differenze tra i due corsi di laurea e gli sbocchi occupazionali, con 'immersione' nella vita della facoltà universitaria.",
+      "5w_chi": "Classe 4°M (ed eventuali studenti interessati)",
+      "5w_cosa": "Informazioni su corsi di laurea, piano di studi, esami",
+      "5w_dove": "Università degli studi di Modena e Reggio Emilia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Supportare gli studenti e le studentesse a intraprendere il percorso universitario con maggiore consapevolezza.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "supportare gli studenti e le studentesse a intraprendere il percorso universitario con maggiore consapevolezza",
+      "evidence_location": "Pagina 63"
+    },
+    {
+      "titolo_attivita": "Orientamento Unimore E Ifoa",
+      "categoria_principale": "Visita/Incontro",
+      "descrizione_e_metodologia": "Incontro con esperti e 'immersione' nella vita di alcune facoltà universitarie.",
+      "5w_chi": "5°M",
+      "5w_cosa": "Informazioni su facoltà di Scienze dell’Educazione, Scienze e tecniche psicologiche, Economia, IFOA.",
+      "5w_dove": "UNIMORE e IFOA",
+      "5w_quando": "Annuale",
+      "5w_perche": "Supportare gli studenti a scegliere e intraprendere il percorso universitario.",
+      "ore_dichiarate": "Circa 5 ore per incontro",
+      "target": "Studenti",
+      "evidence_quote": "supportare gli studenti e le studentesse a scegliere e intraprendere il percorso universitario con maggiore consapevolezza",
+      "evidence_location": "Pagina 64"
+    },
+    {
+      "titolo_attivita": "De Rerum Natura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Lettura di romanzi, visione di film, dibattiti, incontro con eco-narratore.",
+      "5w_chi": "Classi 1°Q e 1°R LL",
+      "5w_cosa": "Approfondimento della narrazione della natura, osservazione e rispetto dell'ambiente.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppo delle competenze linguistiche, rispetto ambientale, alfabetizzazione artistica.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1°Q e 1°R LL",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 139"
+    },
+    {
+      "titolo_attivita": "Frammenti Medievali A Padova-Arquà",
+      "categoria_principale": "Visita Guidata",
+      "descrizione_e_metodologia": "Visite guidate o drammatizzate, passeggiata nel centro universitario di Padova.",
+      "5w_chi": "Classi 3°Q e 3°R LL",
+      "5w_cosa": "Approfondimento della cultura e storia medievale.",
+      "5w_dove": "Padova e Arquà",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppare rispetto del patrimonio culturale, alfabetizzazione artistica.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 3°Q e 3°R LL",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 140"
+    },
+    {
+      "titolo_attivita": "Potenziamento Delle Competenze Di Base",
+      "categoria_principale": "Attività curricolare",
+      "descrizione_e_metodologia": "Aumento dell'orario annuale per il potenziamento delle competenze linguistiche e matematiche.",
+      "5w_chi": "Classi del 1° Biennio del Liceo Scienze Umane",
+      "5w_cosa": "Miglioramento delle competenze di base in preparazione alle prove INVALSI.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Preparazione alle prove INVALSI, potenziamento delle competenze.",
+      "ore_dichiarate": "2",
+      "target": "Classi del 1° Biennio del Liceo Scienze Umane",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 141"
+    },
+    {
+      "titolo_attivita": "Tra Poesia E Logos – Percorsi Letterari E Non Solo",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Viaggio letterario, filosofico e creativo in ambiente naturale.",
+      "5w_chi": "Classe 3°M; classe 4°M LES",
+      "5w_cosa": "Stimolare la capacità di osservazione e traduzione in linguaggio poetico.",
+      "5w_dove": "Ambiente naturale",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppare capacità di osservazione, espressione poetica.",
+      "ore_dichiarate": "ND",
+      "target": "Classe 3°M; classe 4°M LES",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 142"
+    },
+    {
+      "titolo_attivita": "Colloqui Fiorentini 2025",
+      "categoria_principale": "Convegno",
+      "descrizione_e_metodologia": "Studio e analisi di testi, partecipazione a convegno su Pier Paolo Pasolini.",
+      "5w_chi": "Classi 2°Q, 2°R, 3°M, 4°I e 4°P",
+      "5w_cosa": "Sviluppo di competenze argomentative e comunicative.",
+      "5w_dove": "Firenze",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppare competenze linguistiche, critiche, capacità di argomentazione.",
+      "ore_dichiarate": "35",
+      "target": "Classi 2°Q, 2°R, 3°M, 4°I e 4°P",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 143"
+    },
+    {
+      "titolo_attivita": "ORIENTAMENTO UNIMORE e IFOA",
+      "categoria_principale": "Incontro/Visita",
+      "descrizione_e_metodologia": "Incontri con esperti e visita a facoltà universitarie.",
+      "5w_chi": "Classe 5°M",
+      "5w_cosa": "Supportare la scelta del percorso universitario.",
+      "5w_dove": "UNIMORE, IFOA",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Fornire informazioni sui corsi universitari e orientare gli studenti.",
+      "ore_dichiarate": "15",
+      "target": "Classe 5°M",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 146"
+    },
+    {
+      "titolo_attivita": "Conferenze Di Matematica",
+      "categoria_principale": "Conferenza",
+      "descrizione_e_metodologia": "Conferenze su argomenti non contemplati nella programmazione didattica.",
+      "5w_chi": "2°I, 2°P; 3°I, 3°P, 4°I, 4°P, 5°I e 5°P",
+      "5w_cosa": "Conferenze di due ore con docente esterno.",
+      "5w_dove": "Aula magna dell’Istituto",
+      "5w_quando": "Nel corso dell’anno",
+      "5w_perche": "Aprire una finestra su argomenti non contemplati nella programmazione didattica e offrire diverse e accattivanti prospettive di approccio alla materia.",
+      "ore_dichiarate": "2",
+      "target": "Classi seconde, terze, quarte e quinte",
+      "evidence_quote": "aprire una finestra su argomenti non contemplati",
+      "evidence_location": "Pagina 156"
+    },
+    {
+      "titolo_attivita": "Un Giorno In Parlamento (Pcto)",
+      "categoria_principale": "Visita Guidata",
+      "descrizione_e_metodologia": "Visita al Parlamento Italiano e partecipazione a una seduta.",
+      "5w_chi": "classe 4°A AFM e 4°M LES",
+      "5w_cosa": "Visita al Parlamento e ai luoghi simbolo di Roma.",
+      "5w_dove": "Parlamento Italiano, Roma",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Conoscere le Istituzioni politiche del Paese.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 4°A AFM e 4°M LES",
+      "evidence_quote": "fare conoscere da vicino le Istituzioni politiche",
+      "evidence_location": "Pagina 157"
+    },
+    {
+      "titolo_attivita": "Il Bullismo, Questo (S)Conosciuto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Lettura del romanzo “Quattro bravi ragazzi” e visione di film sul tema.",
+      "5w_chi": "classi 1°I e 1°P",
+      "5w_cosa": "Riconoscere il bullismo e agire di conseguenza.",
+      "5w_dove": "Aule",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Promuovere la consapevolezza del fenomeno del bullismo.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1°I e 1°P",
+      "evidence_quote": "promuovere la consapevolezza del fenomeno del bullismo",
+      "evidence_location": "Pagina 158"
+    },
+    {
+      "titolo_attivita": "Scorpione: Laboratorio Teatrale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio teatrale sull'Otello di Shakespeare.",
+      "5w_chi": "classi 2°Q e 2°R",
+      "5w_cosa": "Lettura autonoma dell'Otello e laboratorio teatrale.",
+      "5w_dove": "Aula Magna",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Riflettere sul peso delle parole e sulla comunicazione.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 2°Q e 2°R",
+      "evidence_quote": "riflettere sul peso delle parole",
+      "evidence_location": "Pagina 160"
+    },
+    {
+      "titolo_attivita": "Pellegrinaggi Letterari E Non Solo",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visite a Ferrara e Milano.",
+      "5w_chi": "classi 4°I e 4°P",
+      "5w_cosa": "Approfondire la civiltà storica e artistico-letteraria.",
+      "5w_dove": "Ferrara, Milano",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ancorare l’immaginario prodotto dall’incontro con autori e con i loro testi.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 4°I e 4°P",
+      "evidence_quote": "ancorare ad un’esperienza concreta di paesaggio l’immaginario",
+      "evidence_location": "Pagina 161"
+    },
+    {
+      "titolo_attivita": "Infrastruttura Di Rete Laboratori",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Realizzazione del cablaggio strutturato dell’infrastruttura di rete.",
+      "5w_chi": "classi 4°G e 4°G1",
+      "5w_cosa": "Progettazione e realizzazione di un impianto di illuminazione automatizzato.",
+      "5w_dove": "Laboratori",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Potenziamento delle competenze matematico-logiche e scientifiche.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 4°G e 4°G1",
+      "evidence_quote": "realizzazione del cablaggio strutturato",
+      "evidence_location": "Pagina 162"
+    },
+    {
+      "titolo_attivita": "C’È Silenzio E Silenzio",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Lettura e riflessione sul silenzio.",
+      "5w_chi": "classi 1°I e 1°P LS; 3°M, 3°N e 4°M LES",
+      "5w_cosa": "Riconoscere i valori del silenzio.",
+      "5w_dove": "Aule",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Promuovere la consapevolezza del fenomeno del bullismo.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 1°I e 1°P LS; 3°M, 3°N e 4°M LES",
+      "evidence_quote": "promuovere la consapevolezza della diffusione del fenomeno del bullismo",
+      "evidence_location": "Pagina 163"
+    },
+    {
+      "titolo_attivita": "Conversazione Con Docente Madrelingua",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Conversazione con docente madrelingua.",
+      "5w_chi": "classi 3°M e 3° N, 4°M e 5°M LES",
+      "5w_cosa": "Sviluppare le competenze comunicative in lingua straniera.",
+      "5w_dove": "Laboratori",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Aumentare l’interesse e la curiosità nei confronti dell’apprendimento della lingua straniera.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 3°M e 3° N, 4°M e 5°M LES",
+      "evidence_quote": "sviluppare le competenze comunicative",
+      "evidence_location": "Pagina 165"
+    },
+    {
+      "titolo_attivita": "LA CONTABILITÀ GENERALE DIGITALIZZATA: e-BRIDGE",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo del software gestionale E-bridge.",
+      "5w_chi": "classi 3°A, 3°B, 4°A e 5°A",
+      "5w_cosa": "Comprensione delle scritture in P.D. della CO.GE.",
+      "5w_dove": "Laboratori",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Far acquisire competenze pratiche nell’utilizzo del software.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 3°A, 3°B, 4°A e 5°A",
+      "evidence_quote": "comprensione delle varie scritture in P.D. della CO.GE.",
+      "evidence_location": "Pagina 166"
+    },
+    {
+      "titolo_attivita": "Studenti Attivi In Sicurezza (Pcto)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione degli studenti in materia di sicurezza a scuola.",
+      "5w_chi": "classi 3°D, 3°F, 3°G, 3°G1, 3°H; 4°D, 4°F e 4°G",
+      "5w_cosa": "Formazione e peer tutoring sulla sicurezza.",
+      "5w_dove": "Aule",
+      "5w_quando": "A.s. 2023-2024 e 2024-2025",
+      "5w_perche": "Formare una “squadra” di allievi attenti agli aspetti della sicurezza.",
+      "ore_dichiarate": "ND",
+      "target": "Classi 3°D, 3°F, 3°G, 3°G1, 3°H; 4°D, 4°F e 4°G",
+      "evidence_quote": "formare una “squadra” di allievi sempre attenti agli aspetti che riguardano la sicurezza a scuola",
+      "evidence_location": "Pagina 167"
+    },
+    {
+      "titolo_attivita": "Differenziata Con Iren (Pcto)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita presso Iren per comprendere il ciclo dei rifiuti e l'economia circolare.",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Visita guidata e attività di riflessione sull'impatto ambientale.",
+      "5w_dove": "Iren",
+      "5w_quando": "Triennale",
+      "5w_perche": "Sensibilizzare alla raccolta differenziata e all'economia circolare.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Recuperare la socialità, abbandonare la cultura dello scarto.",
+      "evidence_location": "Pagina 192"
+    },
+    {
+      "titolo_attivita": "La Piccola Odissea",
+      "categoria_principale": "Spettacolo Teatrale",
+      "descrizione_e_metodologia": "Spettacolo teatrale sul riciclo e la sostenibilità.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Visione di uno spettacolo teatrale con materiali di recupero.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sensibilizzare alla sostenibilità ambientale e al riciclo.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Sensibilizzare alla sostenibilità ambientale.",
+      "evidence_location": "Pagina 194"
+    },
+    {
+      "titolo_attivita": "Erbe Vagabonde",
+      "categoria_principale": "Escursione/Laboratorio",
+      "descrizione_e_metodologia": "Lezioni colloquio con esperto botanico per scoprire erbe e piante autoctone.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Escursioni e approfondimenti di etnobotanica.",
+      "5w_dove": "Aree territoriali",
+      "5w_quando": "Annuale",
+      "5w_perche": "Conoscere la biodiversità del territorio e le proprietà delle piante.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Far conoscere agli studenti la straordinaria biodiversità del nostro territorio.",
+      "evidence_location": "Pagina 197"
+    },
+    {
+      "titolo_attivita": "Eco-Polis: Le Nostre Azioni A Sostegno Del Ciclo Del Carbonio",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto sulla conoscenza del ciclo del carbonio e la riduzione dei rifiuti.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività di comunicazione e sensibilizzazione.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Aumentare la consapevolezza del peso delle proprie azioni.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Coinvolgimento attivo degli studenti sulle problematiche ambientali.",
+      "evidence_location": "Pagina 199"
+    },
+    {
+      "titolo_attivita": "Formazione per i docenti neoassunti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori organizzati a livello di rete provinciale sulle principali tematiche didattico-metodologiche.",
+      "5w_chi": "Docenti neo-assunti",
+      "5w_cosa": "Laboratori",
+      "5w_dove": "Rete provinciale",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppare competenze metodologiche",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 233"
+    },
+    {
+      "titolo_attivita": "Formazione tecnica tra peer A040 B015",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Allineamento delle conoscenze di base tra i docenti di area tecnica.",
+      "5w_chi": "Docenti A040 e B015",
+      "5w_cosa": "Laboratori",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Uso strumenti informatici",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 234"
+    },
+    {
+      "titolo_attivita": "Pannelli “Elettro-Didattici”",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Rivisitare e aggiornare i pannelli didattici del laboratorio di Elettrotecnica.",
+      "5w_chi": "ITP e docenti B015 e A040",
+      "5w_cosa": "Aggiornamento pannelli didattici",
+      "5w_dove": "Laboratorio",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppare materiale didattico",
+      "ore_dichiarate": "ND",
+      "target": "Docenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 234"
+    }
+  ]
+}

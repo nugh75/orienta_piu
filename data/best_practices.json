@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:43:43.852754",
+  "last_updated": "2025-12-28T17:55:53.315544",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1377,
-  "schools_processed": 25,
+  "total_practices": 1415,
+  "schools_processed": 26,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -77578,6 +77578,2178 @@
         "extracted_at": "2025-12-28T17:43:43.761151",
         "model_used": "qwen3:32b",
         "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "66b75cf3-27bf-4658-88e0-9cdf77068063",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Accordi di partenariato con enti locali e aziende",
+        "descrizione": "L'Istituto ha stipulato accordi con Comuni, Associazioni di professionisti, Enti locali e aziende del territorio per progetti PON e attività PCTO, favorendo collaborazioni strutturate con il tessuto produttivo locale.",
+        "metodologia": "Collaborazioni formali attraverso accordi di rete e partenariati per progetti formativi e di alternanza scuola-lavoro.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "PCTO/Alternanza"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Esperienze Territoriali"
+        ],
+        "target": "Studenti, Enti locali, Aziende",
+        "citazione_ptof": "L'Istituto ha stipulato accordi di partenariato con Comuni, Associazioni di professionisti, Enti locali ed aziende del territorio per la realizzazione di progetti PON e per l'attività di PCTO.",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:45:16.956941",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "4409c0a2-2e82-400d-8c08-87e950251700",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento linguistico con metodologie innovative",
+        "descrizione": "Attività come 'Linguistica.....Mente' e 'ENGLISH IN Progress' mirano a rafforzare competenze linguistiche attraverso didattiche innovative, certificazioni linguistiche e approccio interculturale.",
+        "metodologia": "Utilizzo di CLIL, progetti tematici e strumenti compensativi per migliorare la comunicazione in lingua straniera e consolidare competenze disciplinari.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti del primo e secondo biennio",
+        "citazione_ptof": "L'attività è tesa a: 1) rafforzare le abilità linguistiche in vista del conseguimento di certificazioni di livello A2, B1.2, B2.1 del CEFR; 2) favorire lo sviluppo di competenze trasversali, sociali e civiche.",
+        "pagina_evidenza": "Pagina 21"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:45:16.957028",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "5f4b0285-1459-4074-88ac-a42921374f27",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Digitalizzazione delle infrastrutture e didattica",
+        "descrizione": "L'Istituto ha realizzato interventi di digitalizzazione tramite finanziamenti FESR, inclusi laboratori innovativi, reti wireless sicure e attrezzature per la didattica digitale integrata.",
+        "metodologia": "Progetti finanziati con fondi europei (FESR) per cablaggio strutturato, laboratori digitali e formazione del personale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti, Studenti",
+        "citazione_ptof": "La scuola ha partecipato a bandi per finanziamenti europei e ha realizzato interventi per l’ampliamento e l’adeguamento delle infrastrutture di rete LAN/WLAN.",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:45:16.957057",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "525477f7-d7f0-4161-a481-10baa81c12b6",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Percorsi serali per il diploma di geometra",
+        "descrizione": "Collaborazione con il CPIA di Salerno per offrire percorsi serali biennali di secondo livello, accessibili dagli studenti a partire dalla quarta classe, per il conseguimento del diploma di geometra.",
+        "metodologia": "Erogazione di corsi serali in rete con CPIA, adattati alle esigenze di studenti con impegni lavorativi o familiari.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Esperienze Territoriali",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con esigenze di conciliazione lavoro-studio",
+        "citazione_ptof": "L'Istituto ospita un percorso di secondo livello con lezioni serali gestito in rete dal CPIA di Salerno, di durata biennale, a partire dalla quarta classe, per il conseguimento del diploma di geometra.",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:45:16.957072",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "b9725880-8f68-41db-a097-8543984d70fa",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Team digitale e animatore digitale",
+        "descrizione": "L'animatore digitale, coadiuvato da un team, promuove l'uso di pratiche didattiche innovative e la diffusione di strumenti tecnologici tra i docenti.",
+        "metodologia": "Formazione e supporto continuo al personale docente per l'integrazione di tecnologie digitali nella didattica.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "L'animatore digitale, coadiuvato dal team digitale, ha diffuso ed incentivato l'utilizzo di pratiche didattiche sempre più innovative.",
+        "pagina_evidenza": "Pagina 14"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:45:16.957086",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "9ed72c36-2c10-42b6-bf85-53650c233feb",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Sportello Disciplinare per Recupero e Potenziamento",
+        "descrizione": "Attività strutturata con corsi zero, interventi di recupero e potenziamento curricolare/extracurricolare, gestiti da docenti referenti e Consigli di Classe. Destinata a studenti in difficoltà con monitoraggio post-valutazioni quadrimestrali.",
+        "metodologia": "Collaborazione tra docenti disciplinari, potenziamento mirato, sportelli di ascolto e recupero personalizzato.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti in difficoltà, classi prime e successive",
+        "citazione_ptof": "Corsi zero rivolti agli alunni delle classi prime - Interventi di recupero e/o potenziamento curricolare ed extracurricolare dopo le valutazioni quadrimestrali",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:46:49.962274",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "cf6b3e95-91af-46b0-9760-33afa95b4431",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Prove Classi Parallele con Monitoraggio Trimestrale",
+        "descrizione": "Somministrazione di prove comuni parallele in classi prime e terze, con rubriche condivise e monitoraggio puntuale a cura del NIV. Obiettivo: uniformità di valutazione e identificazione precoce delle difficoltà.",
+        "metodologia": "Standardizzazione delle prove, collaborazione tra dipartimenti, utilizzo di rubriche condivise e analisi dati trimestrali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti, docenti, dipartimenti",
+        "citazione_ptof": "Strutturazione di rubriche di valutazione relative alle prove parallele... Monitoraggio puntuale con cadenza trimestrale a cura del NIV",
+        "pagina_evidenza": "Pagina 31"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:46:49.962438",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "9cb86273-6479-4809-9fa7-e52e16d042f8",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Laboratoriale e Apprendimento Cooperativo",
+        "descrizione": "Sperimentazione di laboratori didattici, cooperative learning e flipped classroom per migliorare l'acquisizione di competenze chiave. Inclusione di tecnologie multimediali e problem posing/solving.",
+        "metodologia": "Utilizzo di laboratori, apprendimento cooperativo, didattica capovolta e strumenti digitali per contestualizzare gli apprendimenti.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning",
+          "Flipped Classroom"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Diffusione della didattica laboratoriale (learning by doing), cooperative learning, flipped classroom e utilizzo delle tecnologie multimediali",
+        "pagina_evidenza": "Pagina 34"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:46:49.962459",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e429dbb9-4577-4364-aa34-a8619093892f",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Potenziamento Invalsi con Prove Strutturate",
+        "descrizione": "Programma mirato per migliorare i risultati nelle prove INVALSI, con prove intermedie e finali in formato computer-based e analisi condivise dei dati. Coinvolgimento di docenti di Italiano, Matematica e Inglese.",
+        "metodologia": "Prove standardizzate, analisi dati condivise, interventi didattici calibrati sugli esiti.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Elevare i livelli di competenza degli alunni nelle prove INVALSI attraverso prove intermedie e finali in modalità computer-based",
+        "pagina_evidenza": "Pagina 30"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:46:49.962478",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "d11a452a-78c6-4a36-a95b-737afff73ded",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Repository Digitale di Materiali Didattici",
+        "descrizione": "Piattaforma digitale per condividere materiali didattici creati da studenti e docenti, con accesso esclusivo ai docenti. Obiettivo: arricchire l'offerta formativa e facilitare la collaborazione.",
+        "metodologia": "Utilizzo di registro elettronico per condividere contenuti, esperienze e competenze.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti, studenti",
+        "citazione_ptof": "Predisposizione di un repository di materiali didattici... condivisi su piattaforma digitale all'interno del registro elettronico",
+        "pagina_evidenza": "Pagina 34"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:46:49.962497",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "817f1e2f-19f6-4f34-8c03-1161ea13863a",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Integrazione di tre lingue straniere in contesti professionali",
+        "descrizione": "Nell'articolazione 'Relazioni internazionali per il marketing', gli studenti utilizzano tre lingue straniere (inglese, spagnolo, francese) e strumenti tecnologici per gestire comunicazioni aziendali internazionali e rapporti con contesti geografici diversi.",
+        "metodologia": "Lavoro su casi reali di comunicazione aziendale, simulazioni di negoziazioni internazionali e utilizzo di piattaforme digitali per la collaborazione interculturale.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Studenti dell'indirizzo Relazioni Internazionali per il Marketing",
+        "citazione_ptof": "Nell'articolazione 'Relazioni internazionali per il marketing', il profilo si caratterizza per il riferimento sia all'ambito della comunicazione aziendale con l'utilizzo di tre lingue straniere...",
+        "pagina_evidenza": "Pagina 49"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:48:12.321520",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "9224f4ca-7dcc-44bd-96ce-18d12c04d493",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gestione di sistemi informativi aziendali per migliorare l'efficienza",
+        "descrizione": "Nell'articolazione 'Sistemi informativi aziendali', gli studenti valutano, scelgono e adattano software applicativi per ottimizzare procedure aziendali, con focus su archiviazione, comunicazione in rete e sicurezza informatica.",
+        "metodologia": "Analisi di casi aziendali, progettazione di nuove procedure informatiche e simulazioni di implementazione di sistemi di gestione.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti dell'indirizzo Sistemi Informativi Aziendali",
+        "citazione_ptof": "Nell'articolazione 'Sistemi informativi aziendali', il profilo si caratterizza per il riferimento sia all'ambito della gestione del sistema informativo aziendale...",
+        "pagina_evidenza": "Pagina 51"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:48:12.321581",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "7f070a64-e0e2-41ff-abd5-a09d36f096fe",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Produzione di documenti di rendicontazione sociale e ambientale",
+        "descrizione": "Gli studenti analizzano e producono documenti di rendicontazione sociale e ambientale seguendo criteri di responsabilità sociale d'impresa, con applicazioni a contesti aziendali specifici.",
+        "metodologia": "Lavoro su casi aziendali reali, ricerca di dati e indicatori di sostenibilità, redazione di report con strumenti digitali e collaborazione con enti locali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutti gli indirizzi economici",
+        "citazione_ptof": "- analizzare e produrre i documenti relativi alla rendicontazione sociale e ambientale, alla luce dei criteri sulla responsabilità sociale d'impresa.",
+        "pagina_evidenza": "Pagina 44"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:48:12.321604",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "3ee15130-26f2-4193-9b92-7a8de7d7d25d",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Certificato delle Competenze di Base",
+        "descrizione": "Certificazione standardizzata che valuta le competenze degli studenti al termine del primo biennio, espressa in livelli (non raggiunto, base, medio, avanzato) invece che in voti. Include indicatori specifici come frequenza, partecipazione e collaborazione.",
+        "metodologia": "Valutazione basata su indicatori predefiniti e contestualizzata rispetto al percorso scolastico e alle prove di accertamento. Coinvolge scrutinio finale congiunto alla compilazione delle pagelle.",
+        "tipologie_metodologia": [
+          "Valutazione Competenziale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti del primo biennio della scuola secondaria di secondo grado",
+        "citazione_ptof": "La valutazione non è espressa in voti, bensì in livelli: competenza non raggiunta, competenza a livello base, medio ed avanzato.",
+        "pagina_evidenza": "Pagina 65"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:49:50.576326",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "a5ff795f-ecf2-4059-acfa-4acf9fee3534",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curricolo di Educazione Civica Trasversale",
+        "descrizione": "Curricolo verticale che integra temi come democrazia, sostenibilità e cittadinanza digitale in tutte le classi, con nuclei tematici specifici per ogni anno e coinvolgimento di diverse discipline (diritto, informatica, storia).",
+        "metodologia": "Approccio interdisciplinare con progetti annuali articolati in macro-aree (Costituzione, sviluppo sostenibile, cittadinanza digitale) e attività didattiche integrate nei curricoli.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Interdisciplinare"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di tutte le classi della scuola secondaria di secondo grado",
+        "citazione_ptof": "La proposta verte sugli obiettivi dell’Agenda ONU 2030 per lo Sviluppo Sostenibile, includendo le macro aree 1 e 3 in un’ottica trasversale.",
+        "pagina_evidenza": "Pagina 79"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:49:50.576419",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "7109744d-e3ed-4443-957a-cb31e04faf98",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "PCTO Territorio e Modellazione",
+        "descrizione": "Progetto annuale che combina orientamento universitario e occupazionale con attività pratiche su stampanti 3D e partecipazione a workshop sul cambiamento climatico, svolto in collaborazione con enti pubblici.",
+        "metodologia": "Alternanza scuola-lavoro con formazione teorica e attività operative in contesti reali, produzione di report e verifiche di valutazione.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Sostenibilità e Ambiente",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti delle classi IV e V",
+        "citazione_ptof": "Il progetto prevede lo sviluppo del progetto sulla stampante 3D e la partecipazione al progetto 'School Workshop on Climate Change'.",
+        "pagina_evidenza": "Pagina 87"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:49:50.576444",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "cec56617-e859-416a-8e4c-0e18445e3380",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Insegnamenti Opzionali Alternativi all'IRC",
+        "descrizione": "Progetti curriculari alternativi all'insegnamento della Religione Cattolica, come 'Educazione alla Legalità' e 'Sostenibilità – Riciclare-Rigenerare', svolti da docenti interni con focus su temi sociali e ambientali.",
+        "metodologia": "Attività didattiche progettate per sviluppare competenze trasversali attraverso temi interculturali, legalità e sostenibilità ambientale.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Educazione alla Legalità"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente",
+          "Intercultura"
+        ],
+        "target": "Studenti che non seguono l'insegnamento della Religione Cattolica",
+        "citazione_ptof": "Titolo Progetto: 'Educazione alla Legalità' e 'Sostenibilità – Riciclare-Rigenerare'.",
+        "pagina_evidenza": "Pagina 83"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:49:50.576465",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "970d32b2-ed35-4431-9c34-e16375d71dac",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Integrazione Competenze Europee nei Curricoli",
+        "descrizione": "Inserimento delle otto competenze chiave dell'Unione Europea (alfabetizzazione, digitale, cittadinanza, ecc.) nelle Unità di Apprendimento (UdA) e nei progetti PON, con monitoraggio annuale.",
+        "metodologia": "Strategia sistemica per allineare l'offerta formativa ai quadri europei, con verifica attraverso progetti e attività didattiche integrate.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Didattica Interdisciplinare"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti di tutte le classi",
+        "citazione_ptof": "L'Istituto ha recepito le competenze chiave per l'apprendimento permanente inserendole nell'elaborazione delle UdA e nella realizzazione di progetti PON.",
+        "pagina_evidenza": "Pagina 81"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:49:50.576483",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "172d3f3b-1bc7-4bf1-96b7-c73af4830362",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto di Analisi Linguistica con Unisa-Sa",
+        "descrizione": "Collaborazione con il DISES UNISA per valutare l'uso delle lingue in contesti sociali e culturali attraverso attività laboratoriale. Obiettivo: analisi applicativa delle competenze linguistiche in diversi ambiti.",
+        "metodologia": "Attività laboratoriale con coinvolgimento diretto degli studenti in analisi empiriche e discussioni interculturali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "un’attività laboratoriale con l’Unisa-SA orientata a valutare la dimensione e l’importanza dell'uso delle lingue nei diversi contesti sociali e culturali",
+        "pagina_evidenza": "Pagina 93"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:51:14.157146",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "9da123bc-6224-4fda-a4f0-b093dff4cd5c",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Viaggio alla Scoperta di Paestum",
+        "descrizione": "Progetto PCTO in due fasi: formazione su sicurezza, marketing e patrimonio artistico, seguita da un viaggio culturale per esplorare i templi di Paestum e valutare il ruolo economico del turismo archeologico.",
+        "metodologia": "Approccio esperienziale con lezioni teoriche e visita sul campo integrata con analisi critica del contesto economico-culturale.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "la fase operativa consente agli alunni di effettuare un viaggio nell’arte e nella cultura della Magna Grecia per conoscere i templi di Paestum",
+        "pagina_evidenza": "Pagina 94"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:51:14.157236",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "ef2d9709-c1c3-486d-824a-73fdc56722f7",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Educazione Finanziaria con Banca d'Italia",
+        "descrizione": "Progetto PCTO in collaborazione con Banca d'Italia per insegnare nozioni di tutela dei clienti e gestione finanziaria, con attività presso la struttura ospitante.",
+        "metodologia": "Lezioni frontali e simulazioni pratiche guidate da esperti del settore finanziario.",
+        "tipologie_metodologia": [
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Educazione Finanziaria - Tutela Dei Clienti Da definire con il Partner esterno (Banca d’Italia)",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:51:14.157276",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "ac170c85-2136-43d6-9b53-14939268b7b6",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Prima Alfabetizzazione per Alunni Stranieri",
+        "descrizione": "Progetto per potenziare le competenze linguistiche degli studenti stranieri, con focus sull'italiano L2 e metodologie CLIL, coinvolgendo famiglie e comunità di origine.",
+        "metodologia": "Approccio comunicativo integrato con attività laboratoriali e collaborazione con mediatori culturali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti stranieri",
+        "citazione_ptof": "Il progetto si focalizzerà non solo sull'approccio comunicativo, sulla motivazione, sugli stili cognitivi...",
+        "pagina_evidenza": "Pagina 97"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:51:14.157313",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "e2c18d47-f46a-4a9a-afb9-05cb64452f9f",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Giornale 'Spiffero' Online",
+        "descrizione": "Progetto di scrittura collaborativa per realizzare un giornale online, potenziando competenze linguistiche, digitali e di cittadinanza attiva, con possibilità di ottenere il patentino di giornalista.",
+        "metodologia": "Cooperative learning con produzione multimediale e attività di editing guidate da tutor interni.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti motivati",
+        "citazione_ptof": "realizzare il giornale 'Spiffero' online - offrire la possibilità agli studenti di acquisire il patentino di giornalista",
+        "pagina_evidenza": "Pagina 100"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:51:14.157348",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "a46d0384-a2c4-40f0-8fb0-51b131d21852",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'L'Edificio Che Vorrei'",
+        "descrizione": "Progetto che coinvolge studenti in un percorso di analisi storica, rilievo topografico e progettazione di interventi di recupero edilizio, integrando competenze tecniche e metodologie laboratoriali.",
+        "metodologia": "Attività laboratoriale con analisi storica, rilievi e progettazione partecipata, favorendo l'apprendimento significativo e l'inclusione.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti classi quinte indirizzo CAT",
+        "citazione_ptof": "Il progetto è teso a favorire l'acquisizione di saperi tecnici e professionali... integrando efficacemente le competenze acquisite negli anni precedenti.",
+        "pagina_evidenza": "Pagina 123"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:53:12.168201",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "6b92a350-b83d-4bd2-bddc-820d6405be30",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazione ICDL Standard",
+        "descrizione": "Percorso di certificazione digitale per sviluppare competenze informatiche, con focus su pensiero computazionale e utilizzo consapevole delle tecnologie.",
+        "metodologia": "Attività strutturate in laboratori informatici con simulazioni e prove di certificazione, integrate nel curricolo.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti classi verticali",
+        "citazione_ptof": "Il percorso, finalizzato al recupero delle competenze informatiche... prevede la certificazione ICDL.",
+        "pagina_evidenza": "Pagina 124"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:53:12.168304",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "23f248fe-d99e-4c33-bfe0-18dd84599253",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Sos Clima'",
+        "descrizione": "Iniziativa per sensibilizzare alla transizione ecologica attraverso piantumazione di alberi, dibattiti e campagne di educazione ambientale, con collegamento agli obiettivi dell'Agenda 2030.",
+        "metodologia": "Metodi partecipativi e laboratoriali, con coinvolgimento della comunità scolastica e territoriale in attività concrete di rigenerazione ambientale.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Sostenere la piantumazione di nuovi alberi... Favorire esperienze di confronto e di socialità che portino al riconoscimento delle risorse ambientali.",
+        "pagina_evidenza": "Pagina 127"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:53:12.168328",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "5f9cc53a-1312-4b1a-92ee-b794fa70cd58",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione 'PENSIAMO DIGITALE'",
+        "descrizione": "Percorso di formazione per il personale docente e non docente sulle competenze digitali, con focus su dematerializzazione, sicurezza informatica e didattica innovativa.",
+        "metodologia": "Workshop e moduli differenziati per gruppi di interesse, con contenuti specifici per docenti, assistenti tecnici e amministrativi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale scolastico",
+        "citazione_ptof": "La formazione del personale della scuola è un momento centrale... Contenuti proposti: dematerializzazione, sicurezza informatica, Google Workspace.",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:53:12.168349",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "f6aafc3f-9153-482b-b351-630af7b5f9e7",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'UNA RETE PER TUTTI' (BYOD)",
+        "descrizione": "Iniziativa per integrare dispositivi personali (BYOD) nella didattica, con cablaggio degli spazi e formazione al uso appropriato delle tecnologie.",
+        "metodologia": "Strategie di didattica digitale con utilizzo di dispositivi personali, supportate da infrastrutture tecnologiche e linee guida per l'uso consapevole.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Flipped Classroom"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti e personale scolastico",
+        "citazione_ptof": "Linee guida per politiche attive di BYOD... strategie per l'apprendimento pratico nei laboratori.",
+        "pagina_evidenza": "Pagina 130"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:53:12.168363",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c7b8179c-d41a-41fa-af9b-26f238807ee1",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Unità di Valutazione Multidisciplinare",
+        "descrizione": "Struttura dedicata alla definizione di progetti individualizzati per alunni con disabilità o disagio, attraverso analisi del profilo funzionale e procedure condivise con ASL, famiglie e associazioni di riferimento.",
+        "metodologia": "Coinvolge equipe multidisciplinari (docenti, specialisti, famiglie) in incontri strutturati per valutare bisogni specifici e progettare interventi personalizzati.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Alunni con disabilità, DSA e disagio",
+        "citazione_ptof": "Unità di valutazione multidisciplinare - Analisi del profilo di funzionamento per la definizione del Progetto individuale",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:54:32.173831",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "1c4f2158-3b82-43b7-b55f-5e3fd6c9018f",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Piano Didattica Digitale Integrata",
+        "descrizione": "Implementazione di strumenti digitali per facilitare apprendimenti curricolari, con formazione del personale e utilizzo delle TIC come strumento pedagogico, sviluppato durante l'emergenza sanitaria.",
+        "metodologia": "Integrazione di piattaforme digitali, corsi di formazione per docenti e utilizzo di strumenti compensativi per studenti con bisogni specifici.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Personale docente e studenti",
+        "citazione_ptof": "Il Piano per la DDI individua le modalità di attuazione della Didattica Digitale Integrata, che prevede l’apprendimento attraverso le TIC",
+        "pagina_evidenza": "Pagina 145"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:54:32.173889",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "7c775dcd-2a03-4211-937f-c88641fdd97e",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetti Territoriali Integrati",
+        "descrizione": "Collaborazioni con GLIR/GIT, scuole polo per l'inclusione e privato sociale per realizzare interventi condivisi su disabilità, disagio e orientamento, con protocolli di intesa formali.",
+        "metodologia": "Accordi istituzionali e progetti congiunti con enti territoriali e associazioni per rispondere a bisogni educativi complessi.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Progetti territoriali integrati - Rapporti con GLIR/GIT/Scuole polo per l’inclusione territoriale",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:54:32.173919",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "bf71511f-d472-4792-8833-2e026417e3fc",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Team Inclusione e Funzioni Strumentali",
+        "descrizione": "Struttura organizzativa dedicata con 17 referenti per supportare il Collegio dei Docenti nella realizzazione del Piano per l'Inclusione, monitorando il grado di inclusività dell'istituto.",
+        "metodologia": "Coordinamento di gruppi operativi, rilevazione dati e definizione di interventi mirati attraverso incontri periodici e analisi di contesto.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Gestione di Istituto"
+        ],
+        "target": "Personale docente e ATA",
+        "citazione_ptof": "Team Inclusione - Supporto al CdD nella definizione e realizzazione del Piano per l'Inclusione",
+        "pagina_evidenza": "Pagina 151"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:54:32.173946",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "4b36d5c4-db07-45d1-bdc5-ad4021e302bf",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Commissione PCTO e Attività Laboratoriali",
+        "descrizione": "Progettazione e gestione di Percorsi per le Competenze Trasversali e l'Orientamento (PCTO) con laboratori integrati (classi aperte, laboratori protetti) per favorire apprendimenti esperienziali.",
+        "metodologia": "Attività di laboratorio con metodologie attive e collaborazione con enti esterni per esperienze pratiche legate al mondo del lavoro.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Orientamento"
+        ],
+        "target": "Studenti del triennio",
+        "citazione_ptof": "Attività laboratoriali integrate (classi aperte, laboratori protetti, ecc.) - Progetti integrati a livello di singola scuola",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:54:32.173972",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "c387ead3-e3ab-4dcd-af08-d785b8f243eb",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi Innovativi PCTO",
+        "descrizione": "Progetto che promuove competenze in scrittura, problem solving, storytelling e team working attraverso attività laboratoriali in collaborazione con enti esterni (TOP INFORMATICA, MEDAARC, UNISA, ENI). Include utilizzo di tecnologie come stampante 3D e software Passepartout.",
+        "metodologia": "Attività laboratoriali strutturate in convenzione con enti esterni, con focus su metodologie pratiche e cooperative.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "I percorsi prevedono attività laboratoriali in convenzione con TOP INFORMATICA, MEDAARC, UNISA, ENI CORPORATE UNIVERSITY...",
+        "pagina_evidenza": "Pagina 163"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:55:53.232550",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "a4fd373b-418f-49af-ac9d-3aa8fa31409a",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Formazione STEM per Docenti",
+        "descrizione": "Percorso formativo per docenti sulle discipline STEM, con focus su nuove tecnologie e transizione digitale. Include laboratori e ricerca-azione per migliorare competenze digitali e didattiche.",
+        "metodologia": "Laboratori pratici e ricerca-azione per implementare metodologie STEM integrate alle tecnologie digitali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale",
+          "Ricerca-Azione"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Il percorso formativo favorisce nuovi approcci metodologici per implementare competenze digitali e didattiche.",
+        "pagina_evidenza": "Pagina 164"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:55:53.232594",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fe6ced2b-684c-4817-af82-ff5aa16e7701",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Educazione Civica",
+        "descrizione": "Iniziativa per integrare temi dell'Agenda 2030 nel curriculum, con focus su cittadinanza globale e sostenibilità. Coinvolge docenti in comunità di pratiche per sviluppare competenze interdisciplinari.",
+        "metodologia": "Comunità di pratiche e laboratori per progettare attività interdisciplinari legate a sostenibilità e cittadinanza.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "CLIL",
+          "Comunità di Pratiche"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Il percorso integra temi dell'Agenda 2030 alle discipline, affinando competenze per azioni educative su cittadinanza e sostenibilità.",
+        "pagina_evidenza": "Pagina 165"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:55:53.232617",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "f723d955-0146-4870-8d70-176ffce4c560",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Formazione Somministrazione Farmaci",
+        "descrizione": "Percorso formativo per docenti e personale ATA sulla somministrazione di farmaci salvavita, con focus su gestione emergenze e primo soccorso.",
+        "metodologia": "Formazione pratica e teorica in laboratori per acquisire competenze specifiche in ambito sanitario.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Sicurezza"
+        ],
+        "target": "Docenti e Personale ATA",
+        "citazione_ptof": "Formazione per somministrazione di farmaci salvavita, con focus su gestione emergenze e primo soccorso.",
+        "pagina_evidenza": "Pagina 165"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:55:53.232636",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "21cf956c-86a1-4bc0-a0b5-ef84aba0d784",
+      "school": {
+        "codice_meccanografico": "SATD034011",
+        "nome": "Ite F.Besta Battipaglia",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Campania",
+        "provincia": "Salerno",
+        "comune": "Battipaglia",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con UNISA per Formazione IT",
+        "descrizione": "Convenzione con il Dipartimento di Informatica di UNISA per formare studenti su competenze spendibili nel mondo del lavoro, con focus su tecnologie digitali.",
+        "metodologia": "Attività in convenzione con università per progetti formativi specifici su tecnologie e competenze professionali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "UNISA - Dipartimento di Informatica per formazione su competenze spendibili nel mondo del lavoro.",
+        "pagina_evidenza": "Pagina 163"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "UNISA - Dipartimento di Informatica"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Chiavi Di Lettura Dell’Economia E Del Territorio",
+          "Sos Clima",
+          "Campionati Italiani Di Economia E Finanza",
+          "Acqua-Ambiente-Citta’",
+          "Misure E Rilievo",
+          "Territorio E Modellazione",
+          "Progetti territoriali integrati"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:55:53.232655",
+        "model_used": "qwen3:32b",
+        "source_file": "SATD034011_ptof.md",
         "chunk_source": 8
       }
     }
