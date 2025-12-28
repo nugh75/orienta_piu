@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:19:03.676766",
+  "last_updated": "2025-12-28T19:29:26.527903",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1630,
-  "schools_processed": 32,
+  "total_practices": 1668,
+  "schools_processed": 33,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -92130,6 +92130,2253 @@
         "model_used": "qwen3:32b",
         "source_file": "PAPS3Q5009_ptof.md",
         "chunk_source": 2
+      }
+    },
+    {
+      "id": "9000618c-65e4-446a-9533-9edae5affadf",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Comitato Tecnico Scientifico (CTS)",
+        "descrizione": "Struttura che coinvolge rappresentanti di aziende, associazioni, università e istituzioni locali per analizzare le esigenze del mercato e formulare proposte didattiche. Collabora con il Collegio dei Docenti per orientare i percorsi formativi verso le competenze richieste dal territorio agroalimentare.",
+        "metodologia": "Riunioni periodiche con esperti esterni e rappresentanti del settore per condividere dati sul mercato del lavoro e progettare interventi curricolari e extracurricolari.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Inclusione e BES"
+        ],
+        "target": "Docenti, studenti, aziende del territorio",
+        "citazione_ptof": "Il C.T.S. analizza l'evoluzione dell'offerta di lavoro e formula proposte per la didattica curricolare e progetti di interazione con il mondo del lavoro.",
+        "pagina_evidenza": "Pagina 4"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:20:15.369663",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "cebd1f67-4a89-45dc-b3dc-7d38c2fedcc6",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Food Farm 4.0 - Laboratorio Territoriale per l'Occupabilità",
+        "descrizione": "Azienda agroalimentare integrata nella scuola, dotata di linee di produzione 4.0 (caseificio, bakery, trasformazione frutta/pomodoro). Gli studenti svolgono attività di produzione, controllo qualità, marketing e gestione aziendale, acquisendo competenze tecniche e imprenditoriali.",
+        "metodologia": "Alternanza scuola-lavoro con stage in azienda simulata, utilizzo di tecnologie avanzate (PLC, software gestionale) e collaborazione con esperti del settore.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Imprenditorialità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti ITAS e ITIS",
+        "citazione_ptof": "Il Food Farm è un'azienda agroalimentare altamente tecnologica, con linee di trasformazione e laboratorio chimico per il controllo qualità.",
+        "pagina_evidenza": "Pagina 8"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:20:15.369879",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1554bbaf-0997-4fa6-84d0-d00cc9b9bf55",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "ITS Tech&Food - Istituto Tecnico Superiore",
+        "descrizione": "Collaborazione con la Fondazione ITS Tech&Food per corsi biennali di alta specializzazione nel settore agroalimentare. Gli studenti svolgono 800 ore di stage in aziende locali e internazionali, acquisendo competenze tecniche e trasversali.",
+        "metodologia": "Alternanza scuola-lavoro intensiva con stage in aziende, formazione teorica e pratica su tecnologie alimentari, packaging e commercializzazione.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Imprenditorialità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti ITS",
+        "citazione_ptof": "La Fondazione ITS Tech&Food forma tecnici superiori con percorsi biennali e 800 ore di stage in aziende italiane e straniere.",
+        "pagina_evidenza": "Pagina 11"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:20:15.369910",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "15f904c6-4e54-4a13-b94a-9e07c60b132e",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Digitale Integrata con Tablet e Laboratori 4.0",
+        "descrizione": "Dotazione di 50 tablet portatili per l'ITIS e laboratori con tecnologie avanzate (robotica, PLC touch screen). Gli studenti utilizzano dispositivi multimediali e software per attività in presenza e a distanza, favorendo l'apprendimento personalizzato.",
+        "metodologia": "Utilizzo di dispositivi mobili e strumenti digitali per attività interattive, simulazioni e collaborazione in classe e a distanza.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti ITIS e ITAS",
+        "citazione_ptof": "L'ITIS ha un laboratorio portatile con 50 tablet e due nuovi laboratori con robot per competenze in robotica.",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:20:15.369932",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "47a55ade-b9b0-469f-a18f-0fad2730a6af",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Aziende Agrarie e Serre Didattiche",
+        "descrizione": "Gestione di due aziende agrarie (San Pancrazio e Fraore) con frutteti, serre e vigneti. Gli studenti partecipano a coltivazioni, analisi di mercato e produzione di prodotti a km 0, integrando teoria e pratica in contesti reali.",
+        "metodologia": "Attività pratiche in aziende agrarie con supervisione di docenti e tecnici, alternanza con lezioni teoriche e stage.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti ITAS",
+        "citazione_ptof": "Le aziende agrarie sono utilizzate per esercitazioni agrarie e produzione di prodotti venduti in scuole e mercati.",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:20:15.369963",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "8cd79763-b94d-411e-a291-aea4ccca69cd",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Verifiche comuni per classi parallele",
+        "descrizione": "Attuazione di prove di verifica standardizzate per tutte le discipline, con criteri di valutazione omogenei, per classi parallele. Obiettivo: migliorare la coerenza didattica e monitorare i risultati.",
+        "metodologia": "Le prove vengono predisposte in riunioni per materia, con contenuti diversi ma criteri di valutazione uniformi. Implementate nel secondo quadrimestre da ogni docente.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Didattica Digitale"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Effettuare le prove di verifica comune per classi parallele per tutte le discipline (Attività 1)",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:21:26.348408",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "2090261b-c42b-4557-b4bc-36462504f3fa",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori di Robotica e Agricoltura 4.0",
+        "descrizione": "Creazione di laboratori innovativi per robotica e agricoltura 4.0, con strumenti tecnologici avanzati (braccio robotico, stampanti 3D) e spazi rinnovati. Obiettivo: sviluppare competenze STEM e digitali.",
+        "metodologia": "Progetti laboratoriali con attrezzature moderne, collaborazione con enti locali per infrastrutture. Attività svolte in orario curricolare e extracurricolare.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti degli indirizzi tecnici",
+        "citazione_ptof": "Laboratorio di robotica con braccio robotico e laboratori di agricoltura 4.0",
+        "pagina_evidenza": "Pagina 25"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:21:26.348582",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "156d11a6-10e1-4d44-b4ee-7e97263200f7",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Percorsi estivi di aggregazione sociale",
+        "descrizione": "Attività durante le vacanze estive (piscina, teatro, musica, laboratori aziendali) per favorire inclusione, socialità e apprendimento. Obiettivo: contrastare dispersione e promuovere integrazione.",
+        "metodologia": "Laboratori tematici e attività ricreative organizzati in collaborazione con enti locali. Partecipazione volontaria con focus su aggregazione e competenze trasversali.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Sport e Benessere",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti in difficoltà o con potenzialità non valorizzate",
+        "citazione_ptof": "Corso in piscina, laboratori in azienda agraria, laboratori di teatro e musica",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:21:26.348607",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8fe5abf5-aa27-4b8a-83af-a2b2a427801e",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Next Generation Classroom",
+        "descrizione": "Trasformazione di aule in spazi polifunzionali con tecnologie digitali (Digital Board, laboratori STEM) e arredi innovativi. Obiettivo: migliorare l'efficacia didattica e l'accessibilità.",
+        "metodologia": "Riqualificazione fisica e metodologica degli ambienti, con focus su pedagogie innovative e integrazione tecnologica. Collaborazione con enti territoriali per infrastrutture.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti e docenti di entrambe le sedi",
+        "citazione_ptof": "Digitalizzazione di aule con Digital Board e creazione di laboratori polifunzionali",
+        "pagina_evidenza": "Pagina 24"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:21:26.348627",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "4243ee7a-cc95-49f9-a8e8-67ac08adebad",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazioni linguistiche e laboratori espressivi",
+        "descrizione": "Attività per sviluppare competenze linguistiche (certificazioni) e creatività (teatro, musica, giornalismo). Obiettivo: potenziare le competenze trasversali e l'orientamento.",
+        "metodologia": "Laboratori tematici con esperti esterni e progetti curricolari. Inclusione di metodologie CLIL e approcci interdisciplinari.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Arte e Creatività",
+          "Orientamento"
+        ],
+        "target": "Studenti di tutti gli indirizzi",
+        "citazione_ptof": "Certificazioni linguistiche, laboratori teatrali e giornalismo (web radio)",
+        "pagina_evidenza": "Pagina 24"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:21:26.348649",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "4a5db4e6-7a84-4f08-9589-76454d86c816",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Coordinamento Educazione Civica con 33 ore minime annuali",
+        "descrizione": "L'istituto garantisce 33 ore annue minime di Educazione Civica, con coordinamento affidato a docenti abilitati in discipline giuridiche. I Consigli di Classe programmano attività interdisciplinari e moduli trasversali per sviluppare competenze su Costituzione, sostenibilità e cittadinanza digitale.",
+        "metodologia": "Coordinamento centralizzato con programmazione articolata in unità didattiche condivise e interdisciplinari, documentazione oraria obbligatoria.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Interdisciplinare"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutti gli indirizzi del secondo ciclo",
+        "citazione_ptof": "La legge prevede che all’insegnamento dell’Educazione civica siano dedicate non meno di 33 ore per ciascun anno scolastico.",
+        "pagina_evidenza": "Pagina 42"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:22:32.442269",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "1904fb0c-d212-4465-96bf-feb6ca29b57d",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Moduli Curriculari di Orientamento (30 ore annuali)",
+        "descrizione": "I Consigli di Classe progettano moduli di almeno 30 ore integrate con PCTO e iniziative universitarie. Gli studenti sviluppano E-Portfolio, simulazioni di colloqui e collaborazioni con ITS, università e imprese per orientamento professionale.",
+        "metodologia": "Attività laboratoriali, simulazioni, collaborazioni esterne e integrazione con percorsi formativi superiori.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Imprenditorialità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti delle classi terze, quarte e quinte",
+        "citazione_ptof": "moduli curriculari di orientamento formativo degli studenti, di almeno 30 ore per anno scolastico, nelle classi terze, quarte e quinte.",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:22:32.442349",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "48a375a9-b7da-48ab-90c8-0e899c5346bd",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "E-Portfolio e Piattaforma Unica per l'Orientamento",
+        "descrizione": "Gli studenti utilizzano l'E-Portfolio per documentare competenze e progetti formativi, integrato con la piattaforma digitale Unica. I tutor e orientatori gestiscono dati territoriali e nazionali per supportare scelte educative.",
+        "metodologia": "Didattica digitale con strumenti di autovalutazione e integrazione di dati esterni per personalizzare percorsi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "l’E-Portfolio dello studente rappresenta un’innovazione tecnica e metodologica... la piattaforma digitale Unica per l’orientamento.",
+        "pagina_evidenza": "Pagina 44"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:22:32.442373",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "1c915334-fa98-43f2-9998-f78b812d944c",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Impresa Formativa Simulata",
+        "descrizione": "Progetto di azienda virtuale gestita dagli studenti con modello reale, utilizzando metodologie come problem solving, learning by doing e cooperative learning per sviluppare competenze imprenditoriali.",
+        "metodologia": "Coinvolge studenti in attività pratiche di gestione aziendale, con supporto di docenti e aziende tutor. Include 33^ ora settimanale e ore extracurricolari.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti del triennio",
+        "citazione_ptof": "Una delle modalità di realizzazione dei Pcto è attuata mediante la costituzione di un’azienda virtuale animata dagli studenti...",
+        "pagina_evidenza": "Pagina 60"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:23:46.968975",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "c2df89b2-ec00-4ebf-b3a7-6ac1534567cd",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "PCTO con aziende locali e laboratori",
+        "descrizione": "Attività di 150 ore obbligatorie in aziende o laboratori, con flessibilità oraria e stagionalità, per sviluppare competenze trasversali e tecniche legate al territorio.",
+        "metodologia": "Alternanza scuola-lavoro con progetti triennali definiti dai Consigli di Classe, integrati con attività in orario curricolare e extracurricolare.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti di tutti gli indirizzi",
+        "citazione_ptof": "Le attività programmate nell’ambito dei percorsi Pcto si effettuano nel periodo di svolgimento dell’attività didattica...",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:23:46.969023",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "1c6854b0-35ae-4df4-936b-5e71b2e78024",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Procedure di passaggio tra istituti",
+        "descrizione": "Processo strutturato per il trasferimento di studenti tra scuole, con colloqui preliminari, valutazione del percorso pregresso e interventi didattici integrativi.",
+        "metodologia": "Coinvolge famiglie, Presidenza e Dipartimenti di indirizzo per valutare la compatibilità e progettare interventi di supporto.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "Sono richiesti colloqui preliminari con le famiglie e con gli studenti per valutare la motivazione della domanda di trasferimento...",
+        "pagina_evidenza": "Pagina 51"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:23:46.969038",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "844a6a81-e576-42e0-9f93-a00ce2c127f7",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Accoglienza e integrazione studenti NAI",
+        "descrizione": "Strategie per studenti neo-arrivati in Italia, con osservazione iniziale, colloqui con famiglie e spostamento in classe precedente se necessario.",
+        "metodologia": "Inserimento basato sull’età anagrafica, seguito da valutazione delle competenze e interventi personalizzati.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri",
+        "citazione_ptof": "Alla luce di quanto descritto sopra... la nostra scuola opera nel seguente modo: inserisce l’alunno/a in una classe in base all’età anagrafica...",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:23:46.969052",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "4d0f8ea5-0268-4f4e-bfbc-4c9cd408a05b",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Curricolo verticale con flessibilità di scelta",
+        "descrizione": "Offerta formativa differenziata con possibilità di cambio indirizzo nel biennio, supportata da colloqui individuali e orientamento.",
+        "metodologia": "Coinvolge studenti nel biennio in riflessioni sulla scelta del percorso, con supporto per il passaggio tra indirizzi.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Orientamento"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti del biennio",
+        "citazione_ptof": "Nel corso del biennio gli studenti, anche attraverso incontri individuali, sono invitati a riflettere sulla propria scelta e possono eventualmente passare ad altro indirizzo.",
+        "pagina_evidenza": "Pagina 51"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:23:46.969069",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "40cf9a4b-4f03-4618-910b-6379e9ecd79b",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Food Farm 4.0 - Laboratorio Agroalimentare",
+        "descrizione": "Progetto strutturato con tre linee di produzione (trasformazione pomodoro/frutta, panificazione, lattiero-casearia) che permette agli studenti di acquisire competenze in tecnologie agroalimentari, blockchain, Industry 4.0 e sostenibilità. Include laboratori di controllo qualità e integra studenti di diversi indirizzi (agricolo, amministrativo, informatico).",
+        "metodologia": "Attività pratiche in laboratorio con approccio hands-on, integrazione di competenze trasversali e settoriali, simulazione di processi aziendali reali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Sostenibilità e Ambiente",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti di indirizzi agrario, amministrativo e informatico",
+        "citazione_ptof": "Gli studenti svolgono attività suddivise in tre linee di produzione... e sviluppare competenze trasversali come il saper fare, il risolvere problemi...",
+        "pagina_evidenza": "Pagina 65"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:25:01.070351",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "22f39156-807e-4ac2-b439-e81005b1f245",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto Erasmus+ SOStenibile",
+        "descrizione": "Mobilità internazionale per 105 neodiplomati in agricoltura, con tirocini di 4 mesi in Spagna, Malta, Portogallo e UK. Obiettivo: acquisire competenze professionali, confrontare tecniche agricole e promuovere buone pratiche formative transnazionali.",
+        "metodologia": "Tirocini internazionali con attività di supporto linguistico e culturale, monitoraggio delle competenze acquisite e trasferimento di metodologie didattiche innovative.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Intercultura",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Neodiplomati di istituti tecnici agrari",
+        "citazione_ptof": "Il progetto SOStenibile... prevede un’esperienza di tirocinio internazionale... per acquisire conoscenze e abilità dell’area professionale...",
+        "pagina_evidenza": "Pagina 74"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:25:01.070498",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "f964707b-dcd1-4581-b9f6-2de4d0199f85",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Stage Linguistico e Mobilità Internazionale",
+        "descrizione": "Programma di mobilità all’estero con corsi linguistici e attività presso istituzioni culturali, finalizzato a migliorare le competenze comunicative, favorire l’adattamento a contesti stranieri e sviluppare uno spirito europeo.",
+        "metodologia": "Apprendimento linguistico in situazione, esperienze immersive in contesti culturali diversi, residenza presso famiglie locali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura",
+          "Orientamento"
+        ],
+        "target": "Studenti partecipanti a progetti Erasmus",
+        "citazione_ptof": "Gli stage all'estero... prevedono la frequenza di corsi linguistici e/o svolgimento di attività presso realtà produttive o istituzioni pubbliche...",
+        "pagina_evidenza": "Pagina 66"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:25:01.070524",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "4ac2ee2b-f937-4ffc-87c1-bddd528ae590",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Attività Progettuali di Indirizzo",
+        "descrizione": "Progetti simulati di aziende reali svolti in collaborazione con enti esterni, dove gli studenti realizzano prodotti/servizi seguendo metodologie come problem solving e learning by doing. Include collaborazioni con aziende per studi/progetti ambientali e agricoli.",
+        "metodologia": "Simulazione di contesti aziendali, lavoro di gruppo su progetti reali, integrazione di competenze tecniche e trasversali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Learning by Doing",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Orientamento",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti di indirizzi tecnici e agrari",
+        "citazione_ptof": "I progetti di indirizzo... riproducono una o più fasi aziendali... mediante metodologie del problem solving e del learning by doing...",
+        "pagina_evidenza": "Pagina 67"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:25:01.070557",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "ccb37d4a-2e6c-46db-a33f-c57e42e398e6",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Attività Propedeutiche ai PCTO",
+        "descrizione": "Corsi di sicurezza, visite aziendali e seminari organizzati per preparare gli studenti alle esperienze di alternanza scuola-lavoro. Include formazione su normative, tecnologie digitali e gestione delle risorse umane.",
+        "metodologia": "Lezioni frontali e laboratoriali, attività di orientamento, collaborazione con esperti esterni (AUSL, associazioni, imprese).",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Sicurezza",
+          "Digitalizzazione"
+        ],
+        "target": "Tutti gli studenti",
+        "citazione_ptof": "Lezioni Fuori Sede, Visite Aziendali, Corso Sicurezza... rientrano in questa categoria per preparare gli studenti ai percorsi PCTO.",
+        "pagina_evidenza": "Pagina 68"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:25:01.070579",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8d2d84ed-4ae4-47e9-ab7f-ff7c03f2c958",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Biblioteca Piazza Galilei",
+        "descrizione": "Biblioteca innovativa con risorse digitali (MLOL), collaborazione con reti nazionali (Biblòh!) e iniziative di promozione della lettura. Obiettivo: sviluppo di competenze linguistiche e culturali attraverso la lettura e l'accesso a contenuti multimediali.",
+        "metodologia": "Integrazione di risorse digitali e tradizionali, collaborazione con enti territoriali, attività di promozione della lettura.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Dall'anno scolastico 2021-22 l'ITIS Galilei dispone di una biblioteca innovativa che associa al tradizionale prestito e consultazione di libri e/o riviste, uno spazio virtuale tramite il quale, tramite il portale MLOL, è possibile fruire di testi in digitale...",
+        "pagina_evidenza": "Pagina 77"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:26:26.695729",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "840a4a75-a7cd-46b8-8912-22f4caccf686",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Rete Nazionale delle Scuole di Pace",
+        "descrizione": "Partecipazione a una rete di oltre 700 scuole per promuovere l'educazione alla pace, diritti umani e cittadinanza attiva. Inserimento di contenuti interculturali nei programmi scolastici e realizzazione di iniziative di sensibilizzazione.",
+        "metodologia": "Attività interdisciplinari, progetti di cittadinanza attiva, collaborazione con enti del terzo settore.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti e staff scolastico",
+        "citazione_ptof": "La Rete Nazionale delle Scuole della Pace è un coordinamento che riunisce oltre 700 istituzioni scolastiche... Realizzazione di una scuola aperta, quale laboratorio permanente di educazione alla cittadinanza attiva.",
+        "pagina_evidenza": "Pagina 79"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:26:26.695857",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "bc118c8b-d16a-4a8b-a2c4-42d5a08dfb22",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti Teatrali e Laboratori Creativi",
+        "descrizione": "Laboratori extracurriculari di teatro e arte con esiti pubblici (spettacoli, mostre). Coinvolgimento di studenti di ogni anno, inclusi diversamente abili, in attività di espressione creativa e collaborativa.",
+        "metodologia": "Lavoro di gruppo, progettazione partecipata, utilizzo di linguaggi artistici diversificati.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti (dalla prima alla quinta)",
+        "citazione_ptof": "Nei nostri istituti, da qualche anno, sono attivi dei laboratori teatrali e artistico-espressivi extracurricolari... prevedendo, di norma, anche esiti restitutivi finali pubblici.",
+        "pagina_evidenza": "Pagina 80"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:26:26.695901",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "eba9948b-02c3-4753-8f0e-7e2723bdfae9",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Centro Sportivo Scolastico (CSS)",
+        "descrizione": "Programma di attività sportive pomeridiane per sviluppare competenze motorie, autostima e stili di vita sani. Collaborazione con esperti esterni e attenzione alla tutela degli studenti sportivi agonistici.",
+        "metodologia": "Attività laboratoriali, tutoraggio personalizzato, integrazione con le discipline curricolari.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "La scuola mette a disposizione i propri spazi e le risorse professionali di docenti ed esperti esterni per offrire agli studenti la possibilità di sviluppare competenze personali migliorando autostima, autonomia e gesti sportivi...",
+        "pagina_evidenza": "Pagina 82"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:26:26.695929",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "b0de54c3-3b4f-4a28-bd4d-faf612b4adbb",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Apprendistato Duale",
+        "descrizione": "Modello di formazione integrata tra scuola e azienda per studenti del quarto e quinto anno. Obiettivo: ridurre il divario tra formazione e mercato del lavoro attraverso esperienze pratiche in azienda.",
+        "metodologia": "Alternanza scuola-lavoro strutturata con tutoraggio scolastico e aziendale, valutazione periodica delle competenze.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti del quarto e quinto anno",
+        "citazione_ptof": "L'apprendistato duale ha lo scopo di: favorire l'acquisizione di competenze tecnico-professionali direttamente sul posto di lavoro, integrate con la formazione teorica scolastica...",
+        "pagina_evidenza": "Pagina 85"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:26:26.695947",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c32db39c-ba21-4278-bef9-f784085b3582",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Griglia di Valutazione Standardizzata",
+        "descrizione": "Utilizzo di una griglia comune per la valutazione in decimi, condivisa tra tutti i docenti e allegata al PTOF. Garantisce trasparenza e uniformità nella valutazione degli apprendimenti.",
+        "metodologia": "Implementata attraverso la condivisione obbligatoria della griglia (All1-GRIGLIA DI VALUTAZIONE IN DECIMI.pdf) e l'obbligo di utilizzare l'intera gamma dei voti (1-10) in sede di scrutinio.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "In sede di scrutinio ogni insegnante presenta la propria valutazione espressa in numero intero, utilizzando l’intera gamma dei voti dall’uno al dieci, come da griglia allegata.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:27:50.381973",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "5608d2f1-1441-405b-b7c2-ce65278875eb",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Valutazione dell'Educazione Civica Strutturata",
+        "descrizione": "Valutazione periodica e finale dell'Educazione Civica con scheda di rilevazione condivisa dal Collegio dei Docenti. Il voto concorre all'ammissione e al credito scolastico.",
+        "metodologia": "Utilizzo di una rubrica specifica (All2-RUBRICA VALUTAZIONE ED_CIVICA.pdf) e valutazione collegiale del coordinatore con il CdC.",
+        "tipologie_metodologia": [
+          "Educazione Civica",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "La valutazione viene effettuata dai CdC sulla base della scheda di rilevazione delle competenze formulate dalla commissione d’istituto e condivisa con il Collegio dei Docenti.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:27:50.382060",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "7bf74511-4c73-40e0-bcc2-b3c36c5737e6",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi di Inclusione per Studenti Stranieri",
+        "descrizione": "Laboratori di italiano L2 con livelli basati sul QCER, progettati per Neo Arrivati in Italia (NAI). Obiettivo: ridurre il rischio di dispersione e favorire l'integrazione linguistica.",
+        "metodologia": "Attività individualizzate e laboratori differenziati, con attenzione alla lingua come strumento di apprendimento e alla comunicazione quotidiana.",
+        "tipologie_metodologia": [
+          "Inclusione e BES"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri",
+        "citazione_ptof": "L’accoglienza di studenti di origine migratoria comporta l’individuazione di tipologie d’intervento adatte... laboratori di italiano come L2 di diversi livelli, riferiti al QCER per le lingue.",
+        "pagina_evidenza": "Pagina 98"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:27:50.382076",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ef10dfe3-30cd-4bcb-9fb4-c7ecb0ee3ae2",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Criteri di Ammissione con Recupero Strutturato",
+        "descrizione": "Processo decisionale del Consiglio di Classe per l'ammissione, con valutazione di insufficienze e possibilità di sospensione del giudizio fino a 3 discipline. Inclusione di criteri socio-culturali.",
+        "metodologia": "Deliberazione collegiale con valutazione di elementi come corsi di recupero, attività parascolastiche e contesto socio-culturale.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Il Consiglio di Classe, negli scrutini di fine anno... decide autonomamente sulla AMMISSIONE o NON AMMISSIONE alla classe successiva.",
+        "pagina_evidenza": "Pagina 94"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:27:50.382091",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "6e9db7f0-8786-441e-ac1d-399156d74539",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Valutazione del Percorso ASL/PCTO",
+        "descrizione": "Documentazione e valutazione delle competenze acquisite attraverso Alternanza Scuola-Lavoro (PCTO), con ricaduta sulla valutazione finale e sul voto di condotta.",
+        "metodologia": "Compilazione della sezione Scuola&Territorio del registro elettronico e valutazione integrata da parte del CdC.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "La valutazione della ricaduta sugli apprendimenti disciplinari delle competenze acquisite nei percorsi Pcto... è parte integrante della valutazione finale dello studente.",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:27:50.382105",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ac7d0f50-1af6-416b-8fcb-fd40adfdbb7b",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso Digital Board",
+        "descrizione": "Corso per l'acquisizione delle conoscenze di base sull'uso delle lavagne digitali, rivolto a docenti neo assunti e interessati. Include laboratori e peer review per migliorare le competenze digitali.",
+        "metodologia": "Attività laboratoriale con peer review e formazione di rete per favorire l'apprendimento collaborativo e l'uso pratico delle tecnologie.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti neo assunti e interessati",
+        "citazione_ptof": "Corso per l'acquisizione delle conoscenze di base finalizzate all'uso delle lavagne digitali.",
+        "pagina_evidenza": "Pagina 103"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:29:26.446484",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "218b3758-6d7d-4015-a769-4dcf05d62546",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso Registro Elettronico",
+        "descrizione": "Formazione avanzata sull'utilizzo del registro elettronico e delle sue applicazioni, mirata a potenziare l'autonomia didattica e organizzativa dei docenti.",
+        "metodologia": "Laboratori e formazione di rete per approfondire funzionalità digitali e ottimizzare la gestione didattica.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti neo assunti e interessati",
+        "citazione_ptof": "Uso avanzato del registro elettronico e delle sue applicazioni.",
+        "pagina_evidenza": "Pagina 103"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:29:26.446610",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "f9c160d0-9a4d-4942-9fd3-472b7b1d6084",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto PRONTI, PARTENZA... VIA!",
+        "descrizione": "Iniziativa finanziata con D.M. 66/2023 per la formazione del personale scolastico sulla transizione digitale, in collaborazione con il PNRR. Offre corsi progettati per docenti e ATA.",
+        "metodologia": "Progetto strutturato con finanziamenti pubblici e collaborazione istituzionale per implementare percorsi di digitalizzazione.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente e ATA",
+        "citazione_ptof": "Formazione del personale scolastico per la transizione digitale - finanziato con D.M. 66/2023.",
+        "pagina_evidenza": "Pagina 105"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:29:26.446628",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fb699ca3-a861-42bf-aa3f-c67aebb2029d",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Formazione Personale ATA",
+        "descrizione": "Corsi specifici per il personale amministrativo e collaborativo su temi come privacy, fatturazione elettronica, sanificazione ambientale e assistenza agli alunni con disabilità.",
+        "metodologia": "Formazione modulare e pratica per aggiornare competenze tecniche e gestionali del personale non docente.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Personale ATA",
+        "citazione_ptof": "Corsi in tema di e-payment, fatturazione elettronica, sanificazione ambientale e assistenza alunni DA.",
+        "pagina_evidenza": "Pagina 106"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:29:26.446644",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "16c01cf8-d4a8-4d1b-b23f-0789f74ec6c7",
+      "school": {
+        "codice_meccanografico": "PRIS00200Q",
+        "nome": "I.S.I.S.S. \"Galilei-Bocchialini\"",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Parma",
+        "comune": "San Secondo Parmense",
+        "area_geografica": "Nord Est",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso G Suite for Education",
+        "descrizione": "Formazione avanzata sull'utilizzo di G Suite for Education e sue applicazioni, finalizzata a potenziare gli ambienti di apprendimento digitale.",
+        "metodologia": "Laboratori e formazione di rete per sviluppare competenze nell'uso di strumenti digitali collaborativi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti interessati",
+        "citazione_ptof": "Uso avanzato di G Suite for Education e di tutte le sue applicazioni.",
+        "pagina_evidenza": "Pagina 104"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "PNRR"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Food Farm 4.0",
+          "Prove di verifica comuni",
+          "Programmazione orizzontale e verticale",
+          "Percorsi di recupero",
+          "Progetti e laboratori",
+          "Giornate di scuola aperta",
+          "Laboratori per classi in visita",
+          "Mini-stage",
+          "Impresa Formativa Simulata"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:29:26.446658",
+        "model_used": "qwen3:32b",
+        "source_file": "PRIS00200Q_ptof.md",
+        "chunk_source": 8
       }
     }
   ]
