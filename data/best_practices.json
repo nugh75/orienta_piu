@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:55:53.315544",
+  "last_updated": "2025-12-28T18:19:43.389544",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1415,
-  "schools_processed": 26,
+  "total_practices": 1475,
+  "schools_processed": 27,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -79751,6 +79751,3547 @@
         "model_used": "qwen3:32b",
         "source_file": "SATD034011_ptof.md",
         "chunk_source": 8
+      }
+    },
+    {
+      "id": "4a58748d-c253-4e51-9f73-b8600537a0d4",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Imprese e Università per PCTO",
+        "descrizione": "La scuola collabora con imprese, enti, associazioni e l'Università di Pavia per attività di orientamento, PCTO e alternanza scuola-lavoro, favorendo l'inserimento professionale degli studenti.",
+        "metodologia": "Collaborazioni strutturate con soggetti territoriali per progetti di alternanza e orientamento.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Orientamento"
+        ],
+        "target": "Studenti, in particolare della sezione professionale",
+        "citazione_ptof": "L'Istituto collabora fattivamente con Imprese, Enti, Aziende, Associazioni del territorio, professionisti e con l'Universita' di Pavia soprattutto nell'ambito delle azioni di orientamento, dei PCTO...",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:57:20.938491",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "fb47e0a8-57da-4f37-9c81-8bc0db0f68d3",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio Fab&story per Creatività Digitale",
+        "descrizione": "Spazio didattico flessibile con stampanti 3D, kit Arduino e laboratorio mobile per attività di robotica, programmazione e grafica digitale, stimolando la creatività tecnologica degli studenti.",
+        "metodologia": "Didattica laboratoriale e innovativa con strumenti digitali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della sezione liceale",
+        "citazione_ptof": "Nell'aula Fab&story Lab è stato realizzato uno spazio didattico flessibile per stimolare la creatività digitale degli studenti: due spazi che si possono utilizzare insieme o separatamente per attività di robotica, programmazione, stampa 3D, grafica digitale.",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:57:20.938578",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "472bb346-aece-4bfc-b276-1a499b8e1822",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Piano di Miglioramento per Esiti Scolastici",
+        "descrizione": "Strategie per ridurre le sospensioni del giudizio e migliorare gli esiti INVALSI, con corsi di formazione docenti su didattica inclusiva e recupero per studenti in difficoltà.",
+        "metodologia": "Formazione docenti e interventi mirati su studenti fragili.",
+        "tipologie_metodologia": [
+          "Didattica Inclusiva",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con fragilità, docenti",
+        "citazione_ptof": "Per migliorare gli esiti scolastici e quelli delle prove standardizzate nazionali l'Istituto considera prioritarie (1) una progressiva adozione da parte dei docenti di una didattica inclusiva che faccia uso di metodologie innovative e (2) un'azione efficace di recupero degli studenti in difficoltà...",
+        "pagina_evidenza": "Pagina 21"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:57:20.938619",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "d15aae00-6059-4899-b2e0-55ffa7fccb9d",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Metodologia CLIL per Lingue Straniere",
+        "descrizione": "Insegnamento di discipline in lingua inglese (sezione Cambridge IGCSE) per potenziare competenze linguistiche e interculturali.",
+        "metodologia": "Integrazione di contenuti disciplinari e lingua straniera (CLIL).",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Studenti della sezione liceale",
+        "citazione_ptof": "Dall'anno scolastico 2021/22 è stata attivata una sezione del liceo scientifico Cambridge IGCSE che prevede l’insegnamento di tre discipline in lingua inglese e la certificazione Cambridge IGCSE...",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:57:20.938633",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "ced3d873-50f2-4c61-8085-bf2df3d3f50f",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio Innovativo Professionale",
+        "descrizione": "Laboratorio attrezzato per multimedia, stampa 3D e robotica nella sezione professionale, con Smartboard e strumenti tecnologici per attività pratiche.",
+        "metodologia": "Didattica laboratoriale e utilizzo di tecnologie avanzate.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti della sezione professionale",
+        "citazione_ptof": "Recentemente sono state acquistate Smartboard per tutte le aule e quasi tutti i laboratori ed è stato realizzato un laboratorio innovativo attrezzato per multimedialità, stampa 3D, robotica.",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:57:20.938652",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "de4eae7b-8595-4ca0-b1d8-a251da977537",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione docenti su competenze orientative",
+        "descrizione": "Corsi di formazione per docenti sulle tematiche orientative, organizzati dalla Dirigente Scolastica con esperti esterni e risorse del Piano di formazione d'Ambito. Obiettivo: sviluppo di competenze per supportare gli studenti nel lifelong learning.",
+        "metodologia": "Formazione in presenza e online, utilizzo di esperti esterni e docenti già formati, promozione di corsi esistenti.",
+        "tipologie_metodologia": [
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Responsabile dell'attività di formazione dei dipendenti è la DS, che organizzerà corsi di formazione rivolti ai docenti sulle tematiche orientative.",
+        "pagina_evidenza": "Pagina 25"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:00:25.933141",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "43837c53-f2c6-4a98-8562-b5e16d8352d7",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Multilevel Learning (Scuola 4.0)",
+        "descrizione": "Trasformazione delle classi in ambienti di apprendimento innovativi a tre livelli (base, intermedio, avanzato) con tecnologie digitali (smartboard, notebook, software disciplinari) e metodologie attive (PBL, cooperative learning).",
+        "metodologia": "Implementazione di strumenti digitali e metodologie laboratoriali in contesti di apprendimento collaborativo e interattivo.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Didattica Laboratoriale",
+          "Cooperative Learning",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "L'obiettivo principe è la realizzazione di ambienti di apprendimento che promuovano la partecipazione attiva degli studenti.",
+        "pagina_evidenza": "Pagina 29-30"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:00:25.933262",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "d3a9fc2f-673a-4bcc-b535-33f0212d4fa1",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto EploriAmo (STEM e Outdoor Education)",
+        "descrizione": "Didattica STEM applicata in tre ambienti: laboratorio fisso, laboratorio mobile e laboratorio da campo. Attività di analisi fisico-chimica di elementi naturali e sperimentazione in contesti reali.",
+        "metodologia": "Integrazione di kit STEM, microscopi e analisi sul campo con metodologie come challenge-based learning e problem solving.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Outdoor Education",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Il progetto prevede una didattica STEM applicata a 3 tipologie di ambiente di apprendimento distinte ed integrate.",
+        "pagina_evidenza": "Pagina 34-35"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:00:25.933318",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "062652ca-21b8-4989-8700-08aa90fe05f6",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione digitale del personale (Progetto 'Lo sviluppo delle professionalità nell'era digitale')",
+        "descrizione": "Corsi di formazione per docenti e personale amministrativo sulle competenze digitali (DigCompEdu), sicurezza online e integrazione tecnologica nella didattica.",
+        "metodologia": "Formazione personalizzata con sperimentazione in classe e utilizzo della piattaforma 'Scuola Futura'.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e personale amministrativo",
+        "citazione_ptof": "Il progetto è finalizzato a fornire ai docenti le competenze pedagogico-didattico e digitali necessarie per integrare le tecnologie in modo efficace nella didattica.",
+        "pagina_evidenza": "Pagina 37-38"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:00:25.933347",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "984992f0-abc1-429f-bdb6-03cdcc2f0378",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi di Mentoring Individuali",
+        "descrizione": "Interventi personalizzati di accompagnamento e motivazione per studenti fragili, con 20 ore di supporto individuale per superare difficoltà nello studio e migliorare la motivazione.",
+        "metodologia": "Supporto mirato su singoli allievi attraverso incontri strutturati e personalizzati, con focus su alfabetizzazione, studio e motivazione.",
+        "tipologie_metodologia": [
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti a rischio di abbandono",
+        "citazione_ptof": "35 percorsi di mentoring e orientamento individuali della durata di 20 ore, 1 solo allievo alla volta",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:02:35.799889",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "3b2e560d-9867-4af3-95a4-ecde7a190658",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Potenziamento Competenze di Base",
+        "descrizione": "Corsi di recupero in piccoli gruppi (minimo 3 studenti) per colmare lacune in matematica e italiano, con 12 ore di attività mirate.",
+        "metodologia": "Didattica a piccoli gruppi con focus su discipline di base, utilizzando approcci attivi per migliorare apprendimenti essenziali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti con lacune disciplinari",
+        "citazione_ptof": "23 percorsi di potenziamento delle competenze di base (corsi di potenziamento/recupero) della durata di 12 ore a piccoli gruppi",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:02:35.799992",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "996e9c25-c81c-42b1-b320-0db7483aca16",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi di Orientamento con Famiglie",
+        "descrizione": "3 sessioni di orientamento collettivo (3 ore ciascuna) coinvolgendo studenti e genitori, per rafforzare il rapporto famiglia-scuola e promuovere il benessere.",
+        "metodologia": "Attività partecipative con famiglie e studenti, mirate a migliorare la collaborazione educativa e la conoscenza reciproca.",
+        "tipologie_metodologia": [
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "3 percorsi di orientamento con il coinvolgimento delle famiglie della durata di 3 ore ciascuno",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:02:35.800009",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "0398bfd9-7797-4b1e-a224-a1c88b1bce20",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Co-curricolari Pomeridiani",
+        "descrizione": "7 percorsi formativi laboratoriali (20 ore ciascuno) in orario pomeridiano, con almeno 9 studenti per gruppo, per favorire inclusione e motivazione.",
+        "metodologia": "Didattica laboratoriale innovativa in orario pomeridiano, con approccio coinvolgente e interdisciplinare.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studenti dell'Istituto",
+        "citazione_ptof": "7 percorsi formativi e laboratoriali co-curricolari (laboratori in orario pomeridiano) rivolti alle studentesse e agli studenti",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:02:35.800024",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "706ba736-297d-442b-a7c4-81af8eca8555",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Programma Cambridge IGCSE con CLIL",
+        "descrizione": "Integrazione della lingua inglese come strumento di insegnamento per discipline non linguistiche, con focus su competenze interculturali e scientifiche. Include valutazioni pratiche e prove scritte per sviluppare autonomia e riflessività.",
+        "metodologia": "Utilizzo della metodologia CLIL (Content and Language Integrated Learning) per insegnare contenuti disciplinari in lingua inglese, combinando apprendimento linguistico e cognitivo.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Scienze e Ricerca",
+          "Intercultura"
+        ],
+        "target": "Studenti del Liceo Scientifico Cambridge (14-16 anni)",
+        "citazione_ptof": "La valutazione si svolge a fine corso, e offre agli studenti vari modi per dimostrare il loro apprendimento, tra cui prove scritte, orali, lavori svolti durante il corso e valutazioni pratiche.",
+        "pagina_evidenza": "Pagina 67"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:05:25.751273",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "9e5b1c14-2ec6-4985-9712-85795ca099b0",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curvatura Giuridico-Economica nel Liceo Classico",
+        "descrizione": "Integrazione di Diritto ed Economia nel percorso classico, con focus su riflessione interdisciplinare sui diritti, norme e dinamiche socio-economiche. Coinvolge moduli aggiuntivi nel primo biennio e strutturali nel triennio.",
+        "metodologia": "Attività interdisciplinari che collegano storia, filosofia e scienze umane con temi giuridici ed economici, valorizzando l'educazione civica.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica",
+          "Orientamento"
+        ],
+        "target": "Studenti del Liceo Classico (primo biennio e triennio)",
+        "citazione_ptof": "Il corso si propone non solo come avviamento agli studi universitari in ambito giuridico e socioeconomico, ma anche come strumento utile alla comprensione critica delle dinamiche giuridiche ed economiche.",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:05:25.751345",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "5774e301-85fe-42ff-b365-c20e4766ccd4",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Percorso Servizi per la Sanità e l’Assistenza Sociale",
+        "descrizione": "Formazione pratica per gestire progetti socio-sanitari, facilitare comunicazione interculturale e supportare utenti fragili. Include competenze in autonomia, sicurezza e utilizzo di ausili tecnologici.",
+        "metodologia": "Attività laboratoriali e cooperative in equipe multidisciplinari, con focus su simulazioni di contesti reali e gestione di dati utente.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Inclusione e BES",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti del percorso professionale quinquennale",
+        "citazione_ptof": "Collaborare nella gestione di progetti e attività dei servizi sociali, socio-sanitari e socio-educativi, rivolti a bambini e adolescenti, persone con disabilità, anziani...",
+        "pagina_evidenza": "Pagina 56"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:05:25.751373",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "38bac788-355a-4d43-a40e-bb804307b0fd",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento Informatica nel Liceo Scientifico",
+        "descrizione": "Avviamento alla programmazione e certificazioni informatiche (ICDL, CAD 2D) integrate nel curriculum, con focus su strumenti digitali per lo studio matematico e scientifico.",
+        "metodologia": "Didattica digitale con laboratori informatici e certificazioni internazionali, combinando teoria e applicazioni pratiche.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Matematica e Logica",
+          "Orientamento"
+        ],
+        "target": "Studenti del Liceo Scientifico (1° e 2° biennio)",
+        "citazione_ptof": "Ad ampliamento dell'offerta curricolare del liceo scientifico di ordinamento, il potenziamento si propone l'avviamento alla programmazione e all’utilizzo di strumenti informatici a supporto dello studio matematico.",
+        "pagina_evidenza": "Pagina 66"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:05:25.751393",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "bff8b8d0-857b-4b58-ada5-e6e0455a1581",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Operatore/Tecnico Riparatore di Veicoli a Motore",
+        "descrizione": "Formazione pratica per manutenzione e riparazione veicolare, con competenze tecniche e gestionali. Include accoglienza clienti, diagnosi e pianificazione operativa.",
+        "metodologia": "Laboratori tecnici e simulazioni di officina, con focus su sicurezza e utilizzo di strumenti diagnostici moderni.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "PCTO/Alternanza",
+          "Imprenditorialità",
+          "Sport e Benessere"
+        ],
+        "target": "Studenti del percorso professionale triennale/quadriennale",
+        "citazione_ptof": "L’Operatore/tecnico riparatore di veicoli a motore è responsabile della manutenzione e della meccanica leggera dell’auto, identificando eventuali problemi e intervenendo per risolverli.",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:05:25.751411",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "6cc58dd6-5d93-42d4-9b59-3e8e330f5de6",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Analisi Comparata delle Costituzioni",
+        "descrizione": "Attività interdisciplinare che confronta la Costituzione italiana con testi storici (es. Statuto Albertino) e internazionali, integrando storia, diritto e riflessioni etiche. Obiettivo: sviluppare consapevolezza costituzionale e capacità di analisi critica.",
+        "metodologia": "Ricerche documentali, confronti tematici, discussioni in classe e laboratori interdisciplinari con coinvolgimento di discipline come Storia, Diritto e Filosofia.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi (I-V)",
+        "citazione_ptof": "Sarà analizzata la Costituzione italiana... ricordando gli eventi storici e le motivazioni che hanno portato alla sua formulazione.",
+        "pagina_evidenza": "Pagina 87"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:06:32.136829",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "e5e600b3-3457-4d56-b9a5-79c680aaaf77",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Tutoraggio tra pari per solidarietà",
+        "descrizione": "Programma di supporto reciproco tra studenti per favorire l'inclusione e il rispetto dei diritti. Include attività di service learning e collaborazioni con associazioni di volontariato locali.",
+        "metodologia": "Organizzazione di gruppi di tutoraggio, progetti di service learning e incontri con enti del terzo settore per attività di solidarietà.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi (I-V)",
+        "citazione_ptof": "Saranno organizzati incontri con Enti ed Associazioni di volontariato... per solidarietà sociale e di utilità collettiva.",
+        "pagina_evidenza": "Pagina 93"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:06:32.136946",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "52310e4d-20b3-49ed-9a3a-d7eafa6e4bdc",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Educazione alla cittadinanza europea",
+        "descrizione": "Programma che ricostruisce la formazione dell'Unione Europea, analizzando trattati chiave (es. Maastricht) e il ruolo delle istituzioni internazionali. Obiettivo: promuovere consapevolezza globale e partecipazione democratica.",
+        "metodologia": "Lezioni interdisciplinari (Storia, Geografia, Diritto), simulazioni di dibattiti e analisi di casi concreti di cooperazione internazionale.",
+        "tipologie_metodologia": [
+          "Debate",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti di tutte le classi (I-V)",
+        "citazione_ptof": "Sarà descritto il processo di formazione dell'Unione Europea... con particolare riferimento alla CEE e alla nascita dell'UE.",
+        "pagina_evidenza": "Pagina 98"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:06:32.136965",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "96d960b3-2be5-45cc-a209-e41c8fe922fc",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione alla sicurezza scolastica",
+        "descrizione": "Corsi obbligatori per studenti e staff su salute e sicurezza (D.Lgs 81/2008), gestione dei rischi e norme di prevenzione. Integra teoria e pratica con simulazioni di emergenza.",
+        "metodologia": "Lezioni frontali, esercitazioni pratiche, simulazioni di evacuazione e formazione su procedure di emergenza.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti (II-V) e personale scolastico",
+        "citazione_ptof": "Tematiche affrontate: decreto legislativo 81/2008... Attività previste: corsi di formazione sulla sicurezza.",
+        "pagina_evidenza": "Pagina 101"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:06:32.136980",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "1438ce2b-96cf-4a9c-8ea2-e39e37e348fa",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Esercizi di cittadinanza attiva",
+        "descrizione": "Attività partecipative per promuovere la rappresentanza studentesca (OO.CC., Consulta) e la partecipazione democratica. Include simulazioni di elezioni e dibattiti su temi sociali.",
+        "metodologia": "Simulazioni di elezioni, dibattiti in classe, collaborazione con rappresentanti studenteschi per progetti di partecipazione.",
+        "tipologie_metodologia": [
+          "Debate",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Orientamento"
+        ],
+        "target": "Studenti di tutte le classi (I-V)",
+        "citazione_ptof": "In occasione delle elezioni della componente studentesca... saranno svolti interventi per sottolineare l'importanza della rappresentanza.",
+        "pagina_evidenza": "Pagina 91"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:06:32.136994",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "0fe0cb50-040a-4a65-841c-0f26b1d25628",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetti di riduzione dell'impatto ecologico",
+        "descrizione": "Attività concrete per ridurre il consumo di acqua ed energia a scuola, con focus su modelli sostenibili di consumo. Gli studenti analizzano dati e propongono azioni di tutela ambientale.",
+        "metodologia": "Implementato attraverso progetti interdisciplinari che coinvolgono Geografia, Fisica e Scienze, con analisi di dati reali e sperimentazione di soluzioni eco-sostenibili.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Educazione Civica"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Individuare e attuare azioni di riduzione dell’impatto ecologico nei comportamenti quotidiani... con un focus specifico su acqua ed energia.",
+        "pagina_evidenza": "Pagina 102"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:07:52.105852",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c88e3aeb-bee0-407a-91d6-179dd6b377ab",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Analisi di rischi ambientali e collaborazione con Protezione Civile",
+        "descrizione": "Gli studenti analizzano dati su rischi sismici e idrogeologici del territorio, collaborando con enti locali per promuovere comportamenti responsabili in emergenza.",
+        "metodologia": "Approccio interdisciplinare con Geografia e Scienze Naturali, utilizzando dati istituzionali e simulazioni di scenari reali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Analizzare le varie situazioni di rischio nel proprio territorio... in collaborazione con la Protezione civile.",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:07:52.105912",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "b593023e-52bf-482f-824e-2c16cc1e0f77",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Educazione alla salute e prevenzione dei disturbi alimentari",
+        "descrizione": "Programma per promuovere stili di vita sani attraverso alimentazione corretta, attività fisica e prevenzione di comportamenti a rischio (es. disturbi alimentari).",
+        "metodologia": "Attività integrate con Scienze Motorie, Scienze e Filosofia, con laboratori pratici e discussione di casi reali.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Educazione Civica"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Sarà affrontato il tema dei disturbi alimentari, incoraggiando comportamenti salutari e stili di vita positivi.",
+        "pagina_evidenza": "Pagina 102"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:07:52.105979",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "06d40630-3ee9-4753-acdd-004f9e6167eb",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti di salvaguardia del patrimonio culturale con tecnologie digitali",
+        "descrizione": "Studenti ideano iniziative per proteggere beni artistici e culturali locali, utilizzando realtà virtuale e tecnologie digitali per la promozione.",
+        "metodologia": "Collaborazione tra Storia dell'Arte, Discipline Grafiche e Tecnologie Informatiche, con creazione di contenuti digitali e progetti partecipativi.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Educazione Civica"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Individuare progetti e azioni di salvaguardia... anche attraverso tecnologie digitali e realtà virtuali.",
+        "pagina_evidenza": "Pagina 110"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:07:52.106052",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "db513531-0449-42d2-a2bd-3f4bad8ca17f",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione alla Privacy Digitale",
+        "descrizione": "Attività interdisciplinari per insegnare agli studenti il rispetto della privacy online, con focus sul Regolamento UE GDPR. Vengono analizzate le policy dei servizi digitali e si adottano strategie per proteggersi da rischi psico-fisici legati all'uso delle tecnologie.",
+        "metodologia": "Lezioni integrate in Diritto, Informatica e Tecnologie dell'informazione, con attività pratiche di analisi di privacy policy e simulazioni di scenari di rischio digitale.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti delle classi I-V della Scuola Secondaria II grado",
+        "citazione_ptof": "Saranno descritte le modalità per utilizzare e condividere informazioni personali in sicurezza. Competenza e obiettivo di apprendimento 5: Conoscere l’importanza del Regolamento sulla privacy (Privacy Policy)...",
+        "pagina_evidenza": "Pagina 130"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:09:42.811942",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ca75ee95-f750-4747-af85-d0f39d232567",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Prevenzione Cyberbullismo e Devianza Digitale",
+        "descrizione": "Iniziative interdisciplinari per prevenire comportamenti devianti online, con analisi degli effetti sulla salute psicofisica e promozione di un uso responsabile della rete. Coinvolge Filosofia, Scienze Motorie e Tecnologie dell'informazione.",
+        "metodologia": "Discussione di casi studio, laboratori di autocontrollo emotivo e simulazioni di interazione digitale sicura.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sport e Benessere"
+        ],
+        "target": "Studenti delle classi I-V",
+        "citazione_ptof": "Saranno trattati i temi della dipendenza dalla rete e dei comportamenti devianti... evidenziandone gli effetti sulla salute e il benessere psicofisico.",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:09:42.812070",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "d88871f0-811d-4f00-823e-40bead44fd56",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Impatto Ambientale delle Tecnologie Digitali",
+        "descrizione": "Analisi interdisciplinare (Fisica, Geografia, Scienze Naturali) degli effetti ambientali delle tecnologie digitali, con focus su consumo energetico, inquinamento e smaltimento RAEE.",
+        "metodologia": "Progetti di ricerca di classe con raccolta dati, visite a centri di smaltimento e creazione di campagne di sensibilizzazione.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti delle classi I-V",
+        "citazione_ptof": "Sarà affrontata la tematica degli impatti ambientali delle tecnologie digitali... (consumo di energia e inquinamento ambientale durante l'utilizzo, smaltimento dei RAEE).",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:09:42.812095",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "eea57eff-e501-4e49-a1cf-82314feacaa5",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione alla Responsabilità Digitale sui Social",
+        "descrizione": "Attività interdisciplinari (Italiano, Inglese, Informatica) per insegnare agli studenti a pubblicare contenuti attendibili e rispettosi della privacy e del benessere altrui sui social media.",
+        "metodologia": "Creazione di contenuti digitali etici in gruppo, peer review e analisi di casi reali di fake news.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti delle classi I-V",
+        "citazione_ptof": "Assumersi la responsabilità dei contenuti che si pubblicano nei social media... rispetto alla attendibilità delle informazioni, alla sicurezza dei dati...",
+        "pagina_evidenza": "Pagina 132"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:09:42.812117",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "dd67d9be-1b73-4919-97f3-238376e520f5",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Curricolo di Educazione alla Legalità",
+        "descrizione": "Programma strutturato per promuovere la legalità e la cittadinanza attiva attraverso iniziative teoriche e pratiche, con focus sulla conoscenza del territorio e sulla partecipazione sociale.",
+        "metodologia": "Attività di riflessione teorica, laboratori di cittadinanza attiva e collaborazioni con enti locali per progetti di mappatura sociale.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti e personale scolastico",
+        "citazione_ptof": "Come Centro di Promozione della Legalità... si persegue la finalità di offrire agli studenti opportunità di educazione alla legalità e alla cittadinanza attiva...",
+        "pagina_evidenza": "Pagina 133"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:09:42.812166",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "10f8ff29-66c1-4c3e-a883-e36ee26c6582",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi di riallineamento per studenti non madrelingua",
+        "descrizione": "Percorsi individualizzati o in piccoli gruppi per studenti non italofoni, con adattamento di contenuti e metodologie ai bisogni specifici, finalizzati a prevenire l'abbandono e facilitare il successo scolastico.",
+        "metodologia": "Attività individualizzate e di piccoli gruppi con adattamento didattico personalizzato",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti non madrelingua e di recente immigrazione",
+        "citazione_ptof": "I corsi di alfabetizzazione e/o di riallineamento sono individualizzati o organizzati per piccoli gruppi. I contenuti e la metodologia verranno adattati ai bisogni specifici dei ragazzi e delle ragazze.",
+        "pagina_evidenza": "Pagina 149"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:11:04.594947",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9f7c2106-3b79-4f93-9066-52a3edab6c44",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazioni con ENEL e ASM Voghera",
+        "descrizione": "Incontri con aziende locali (ENEL e ASM Voghera) per illustrare opportunità di impiego, formazione e carriera per diplomati in manutenzione e assistenza tecnica, con focus sul settore elettrico.",
+        "metodologia": "Incontri diretti con rappresentanti aziendali e professionisti del settore",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti delle classi III, IV e V professionali",
+        "citazione_ptof": "Incontri con ENEL e ASM Voghera per conoscere le possibilità di impiego, formazione e carriera per diplomati in manutenzione ed assistenza tecnica nel settore elettrico.",
+        "pagina_evidenza": "Pagina 150"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:11:04.595010",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "2c0fb0a6-1b96-47ce-be8d-956e91e5b7cf",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Corso di Team Building basato sulle competenze UE",
+        "descrizione": "Attività laboratoriali per sviluppare capacità di lavoro di squadra, con focus sulle competenze trasversali proposte dall'Unione Europea, coinvolgendo studenti in attività pratiche e cooperative.",
+        "metodologia": "Approccio laboratoriale con attività pratiche e cooperative",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Intercultura"
+        ],
+        "target": "Studenti delle classi III liceo",
+        "citazione_ptof": "Prendendo spunto dalle competenze trasversali proposte dall'UE, il corso svilupperà la capacità di lavorare in gruppo e di costruire un team funzionale al raggiungimento di un obiettivo. Le attività saranno prevalentemente laboratoriali.",
+        "pagina_evidenza": "Pagina 154"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:11:04.595033",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "b2fe3651-f9d6-4ee2-88ff-540c8bea36b3",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Microbiologia 'Micromondo'",
+        "descrizione": "Corso che esplora batteri, virus e parassiti attraverso storia, casi di studio e metodologie di prevenzione, con focus su scoperte scientifiche e ruolo delle donne nel campo.",
+        "metodologia": "Approccio interdisciplinare con laboratori e analisi di casi reali",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Orientamento"
+        ],
+        "target": "Studenti della sede Grattoni",
+        "citazione_ptof": "Il corso si prefigge come obiettivo di fornire agli studenti conoscenze e competenze nel campo della microbiologia e parassitologia... parleremo dei metodi di prevenzione e cura.",
+        "pagina_evidenza": "Pagina 152"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:11:04.595051",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "9af78a52-0996-44a5-b698-070158a5b44b",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Sportello informativo per docenti, studenti e famiglie",
+        "descrizione": "Attività di supporto per fornire informazioni su normativa, buone pratiche d'inclusione, contenuti disciplinari e metodi di studio, con coinvolgimento di famiglie e studenti.",
+        "metodologia": "Servizio di consulenza e informazione personalizzato",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Docenti, studenti e genitori",
+        "citazione_ptof": "Durante l’anno scolastico, viene realizzata un’attività di sportello per docenti, studenti e genitori per fornire informazioni su normativa, buone pratiche d’inclusione, contenuti disciplinari, metodo di studio.",
+        "pagina_evidenza": "Pagina 149"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:11:04.595070",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "6cfe4b46-8849-4662-a946-3ba8b8728564",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Preparazione Test Professioni Sanitarie (Matematica e Fisica)",
+        "descrizione": "Corso strutturato per la preparazione ai test d'ingresso alle professioni sanitarie, con focus su matematica e fisica. Gli studenti svolgono esercizi tratti da prove dell'Università di Pavia.",
+        "metodologia": "Utilizzo di simulazioni e analisi di quesiti storici, con approccio laboratoriale per consolidare competenze specifiche.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti delle classi finali del triennio (Sede Galilei)",
+        "citazione_ptof": "Svolgimento dei quesiti di matematica e fisica dei test d'ingresso a professioni sanitarie dell'Università di Pavia.",
+        "pagina_evidenza": "Pagina 165"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:12:31.758130",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "9cd06cdb-5ff9-4c24-a6ee-c144b239a500",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Podcast come Strumento Didattico STEM",
+        "descrizione": "Corso che insegna la produzione di podcast, integrando aspetti tecnici e comunicativi. Gli studenti sperimentano la pratica nel 'Galipodcast group'.",
+        "metodologia": "Approccio pratico e collaborativo, con focus su storytelling e utilizzo di strumenti digitali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti (Sede Galilei)",
+        "citazione_ptof": "Un corso per imparare tutto quello che serve per fare bene un podcast, dagli aspetti tecnici a quelli di comunicazione.",
+        "pagina_evidenza": "Pagina 169"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:12:31.758227",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "b3492cf2-69ef-4597-92bb-5258b9404090",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Robotica",
+        "descrizione": "Attività pratica di robotica con 30 ore di formazione curricolare per studenti di quarta e quinta. Obiettivo: sviluppare competenze tecnologiche e di problem-solving.",
+        "metodologia": "Didattica laboratoriale con progetti hands-on e sperimentazione di tecnologie.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti classe IV e V (Sede Galilei)",
+        "citazione_ptof": "Laboratorio di robotica. Numero di ore complessive: Classe IV 30 ore curriculari.",
+        "pagina_evidenza": "Pagina 165"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:12:31.758266",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "c33db833-df4c-414c-914c-6a36aed5ac62",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio Filosofico sui 'Vizi Capitali'",
+        "descrizione": "Corso interdisciplinare che analizza i vizi capitali in contesto storico e contemporaneo, con approccio psicologico e laboratoriale per riflettere sulle emozioni moderne.",
+        "metodologia": "Metodo progettuale con discussione critica e analisi di casi di studio.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Lettura e Scrittura"
+        ],
+        "target": "Studenti (Sedi Galilei e Grattoni)",
+        "citazione_ptof": "Il corso affronterà i 'sette vizi capitali'... con riferimenti alle virtù cardinali e teologali.",
+        "pagina_evidenza": "Pagina 170"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:12:31.758303",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "57077934-d7c2-4ebf-a5d3-9e83f635d5f8",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Introduzione alla Climatologia",
+        "descrizione": "Corso che introduce alla fisica dell'atmosfera, storia della meteorologia e cambiamenti climatici, con focus su CO2 e radiazione solare.",
+        "metodologia": "Didattica laboratoriale e studio di casi con approccio interdisciplinare.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti (Sedi Galilei e Grattoni)",
+        "citazione_ptof": "Si propone agli studenti un corso che introduca alle basi della fisica dell'atmosfera.",
+        "pagina_evidenza": "Pagina 171"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:12:31.758339",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "21eb860e-58b0-48c6-9a5f-527b0ea4b723",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gruppo Sportivo Scolastico Multisport",
+        "descrizione": "Attività sportive strutturate in atletica, tennis, nuoto, pallavolo e calcetto con preparazione ai campionati studenteschi e tornei d'istituto. Collaborazione con club locali per iniziative come 'Racchette in classe' e 'Gali Rookies Cup'.",
+        "metodologia": "Attività competitive e cooperative con focus su inclusione e salute. Utilizzo di impianti scolastici e territoriali per allenamenti e gare.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti di tutte le classi, con attenzione agli studenti praticanti sport agonistico",
+        "citazione_ptof": "Gruppo Sportivo Scolastico (atletica, corsa campestre, sci, tennis, nuoto, ping pong, calcetto, pallavolo, ecc.) preparazione ai campionati studenteschi...",
+        "pagina_evidenza": "Pagina 191"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:13:55.586121",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "dabc8ef0-63df-4d7e-98cf-d1c3cde6deba",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione alla Legalità e Cittadinanza",
+        "descrizione": "Laboratori di educazione civica digitale, progetti di giustizia riparativa, collaborazione con Testimoni di Legalità e iniziative come 'La valigia della legalità' per contrastare mafie e violenza sulle donne.",
+        "metodologia": "Approccio interdisciplinare con metodologie partecipative e cooperative. Utilizzo di strumenti multimediali e documentari.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti di tutte le classi, con focus su temi di genere e antimafia",
+        "citazione_ptof": "Promozione della Legalità: cittadini monitoranti, Laboratori di Educazione Civica Digitale, Progetti di Giustizia riparativa...",
+        "pagina_evidenza": "Pagina 195"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:13:55.586212",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "fa67bbde-e2e6-4784-b3f6-5d25b2fda44c",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Scuola Fuori dall'Aula - Viaggi Culturali",
+        "descrizione": "Viaggi d'istruzione a Ginevra, Vienna, Firenze, Parigi e altri luoghi per esperienze culturali e linguistiche. Collaborazione con scuole internazionali per scambi linguistici.",
+        "metodologia": "Apprendimento esperienziale con integrazione di lingue straniere e contesti storico-culturali. Utilizzo di metodologie CLIL.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di classi specifiche (es. 4AS, 5ASP, 3AL)",
+        "citazione_ptof": "Viaggi di istruzione a: Ginevra, Strasburgo /4AS, 4BS, 4CS; Vienna, Mauthausen, Monaco 5 ASP, 5BS; Firenze, Coverciano /4SP...",
+        "pagina_evidenza": "Pagina 204"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:13:55.586233",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "7e3647ea-ba54-4c3f-9f64-c4931f2a511a",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratori Scientifici e Tecnologici",
+        "descrizione": "Attività laboratoriali in biologia, chimica e fisica con partecipazione attiva degli studenti. Collaborazione con ricercatori e professionisti per progetti come 'Macchine sicure' e 'Pi greco day'.",
+        "metodologia": "Didattica laboratoriale con integrazione di tecnologie e approccio problem-based. Utilizzo di strumenti avanzati e collaborazioni esterne.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di indirizzi scientifici (es. 4MA, 5MA)",
+        "citazione_ptof": "LaboratoriAMO: esperienze laboratoriali con attrezzature di biologia, chimica... SperimentiAMO: attività con ricercatori e professionisti...",
+        "pagina_evidenza": "Pagina 198"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:13:55.586252",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "22559013-2690-4338-8f2c-b91a8b622307",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Lettura e Cultura Umanistica",
+        "descrizione": "Iniziative come 'Libriamoci 2025', conferenze 'Auctores', 'Notte Nazionale del Liceo Classico' e laboratori teatrali per promuovere la lettura e la cultura umanistica.",
+        "metodologia": "Metodologie narrative e cooperative con integrazione di arte e teatro. Approccio interdisciplinare con focus su espressione creativa.",
+        "tipologie_metodologia": [
+          "Storytelling",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di licei classici e linguistici (es. 1BS, 2CSUM)",
+        "citazione_ptof": "Progetto Lettura: 'Libriamoci 2025', ClassicaMente: corso di Greco zero, Notte Nazionale del Liceo Classico...",
+        "pagina_evidenza": "Pagina 196"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:13:55.586271",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "0dc0c25e-3344-47b9-9b01-31398fc59f82",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Spettacoli Teatrali Multilingua",
+        "descrizione": "Organizzazione di spettacoli teatrali in lingua francese, inglese e italiana per classi specifiche, come 'Notre-Dame de Paris' e 'Jekyll & Hyde', con l'obiettivo di potenziare competenze linguistiche e artistiche attraverso l'esperienza teatrale.",
+        "metodologia": "Utilizzo di metodologie CLIL (Content and Language Integrated Learning) per integrare apprendimento linguistico e culturale attraverso lo spettacolo teatrale.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Arte e Creatività"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti delle classi 3AL, 4BL, 5MA e quinte indirizzi liceali",
+        "citazione_ptof": "Spettacolo teatrale scientifico-Scienza e Società (3 AS, 4BS, 4CS, 5BS, 5ASP, 5AS, 5AL, 5BL, 5CL, 5CS); --- Teatro in lingua inglese « Jekyll & Hyde»",
+        "pagina_evidenza": "Pagina 213"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:15:42.327112",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "865f55ca-298e-4524-866b-1f5c9a47c7a0",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Laboratorio di Scienze Edu-green",
+        "descrizione": "Spazio all'avanguardia per analisi di processi ecologici, valutazione dell'impatto ambientale e sviluppo di soluzioni sostenibili, con collegamento agli obiettivi dell'Agenda 2030 (Obiettivi 2, 3, 7, 8, 11, 12, 13, 15).",
+        "metodologia": "Approccio laboratoriale e progettuale per promuovere competenze green, bioeconomia e cultura circolare attraverso attività pratiche e riflessioni sistemiche.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Laboratorio di Scienze Edu-green... collegamento con gli obiettivi dell'Agenda 2030",
+        "pagina_evidenza": "Pagina 217"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:15:42.327238",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "d57aa8ed-9689-4927-ab0a-a48c80f65e1a",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Programma 'B Corp School'",
+        "descrizione": "Iniziativa per promuovere imprenditorialità responsabile e sostenibile, con creazione di imprese innovative in linea con i principi delle B Corp, coinvolgendo studenti in progetti di impatto sociale.",
+        "metodologia": "Metodologia progettuale e collaborativa per sviluppare competenze green e imprenditoriali attraverso la realizzazione di attività economiche circolari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Programma 'B Corp School'... promuovendo l'imprenditorialità responsabile e l'impatto sociale positivo.",
+        "pagina_evidenza": "Pagina 220"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:15:42.327283",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "001793f8-1c3b-4c43-a916-731e76550718",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Digitale Integrata",
+        "descrizione": "Implementazione di strumenti digitali (aule virtuali, piattaforme collaborative) e formazione docenti per migliorare l'uso delle tecnologie in classe, con focus su coding, robotica e pensiero computazionale.",
+        "metodologia": "Utilizzo di metodologie digitali e blended learning per potenziare competenze tecnologiche e didattiche, con attività di formazione continua per il personale docente.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Didattica digitale integrata... potenziamento di aule virtuali e diffusione di repository.",
+        "pagina_evidenza": "Pagina 224"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:15:42.327323",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "b0321b15-ca96-41a8-b4fe-a00e4221c826",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Teatro Fuori Porta",
+        "descrizione": "Ciclo di spettacoli teatrali in contesti non tradizionali (es. Amleto, Cassandra), con coinvolgimento di classi specifiche per sviluppare competenze artistiche e culturali attraverso l'esperienza teatrale.",
+        "metodologia": "Approccio esperienziale e interdisciplinare per integrare arte, storia e lingua straniera in contesti reali.",
+        "tipologie_metodologia": [
+          "Arte e Creatività",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti delle classi 3BS, 4ASUM, 4BS, 1CS, 2AS, 2CS, 3CS, 3AL, 5BS, 5BSUM",
+        "citazione_ptof": "Teatro Fuori Porta (Piccolo Teatro): 4 spettacoli in aula Amleto (3BS,4ASUM,4BS), Cassandra (1CS)...",
+        "pagina_evidenza": "Pagina 213"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:15:42.327361",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "e8780087-347c-4a1d-8e3c-8e61b8af318b",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piani Educativi Individualizzati (PEI) multidisciplinari",
+        "descrizione": "I PEI per studenti con disabilità vengono elaborati congiuntamente da docenti, specialisti ASL, famiglie e studenti, con aggiornamenti periodici e adattamenti alle esigenze individuali. Include strumenti compensativi e adattamenti per prove INVALSI ed esame di Stato.",
+        "metodologia": "Collaborazione tra team multidisciplinare (medici, terapisti, docenti) e coinvolgimento attivo delle famiglie. Monitoraggio continuo e ridefinizione dei piani in base alle esigenze emergenti.",
+        "tipologie_metodologia": [
+          "Didattica Personalizzata",
+          "Collaborative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con disabilità e loro famiglie",
+        "citazione_ptof": "Il PEI è elaborato dai docenti di sostegno, contitolari dell’allievo, e comunque dall'intero Consiglio di Classe con la partecipazione delle famiglie e delle figure professionali...",
+        "pagina_evidenza": "Pagina 235"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:17:11.755989",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "149aa35b-c31a-4f04-a423-9588b9f5485e",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Crediti scolastici con criteri trasparenti e partecipazione estesa",
+        "descrizione": "Assegnazione di crediti scolastici fino a 40 punti, con criteri basati su media voti e attività integrative (frequenza, impegno, PCTO). Coinvolgono tutti i docenti, inclusi quelli di religione e opzionali.",
+        "metodologia": "Valutazione collegiale del Consiglio di Classe con parametri definiti (assenze, partecipazione a eventi culturali, certificazioni esterne). Applicazione di una tabella normativa (Allegato A D.L. 62/2017).",
+        "tipologie_metodologia": [
+          "Valutazione Formativa",
+          "Collaborative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti degli ultimi tre anni",
+        "citazione_ptof": "Con la tabella di cui all'allegato A del Decreto Legislativo 13 aprile 2017 n. 62 è stabilita la corrispondenza tra la media dei voti e la fascia di attribuzione del credito scolastico.",
+        "pagina_evidenza": "Pagina 227"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:17:11.756051",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "3b75ead2-6db1-4477-9d9c-9f1245fc4370",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Convenzione con Università di Perugia per certificazioni linguistiche",
+        "descrizione": "Collaborazione con l'Università di Perugia per corsi di preparazione agli esami DILS e CELI, con sede scolastica come centro d'esame. Supporta studenti e personale nella certificazione della lingua italiana.",
+        "metodologia": "Attivazione di accordi formali per erogazione di corsi e gestione di esami esterni. Utilizzo di risorse accademiche esterne per potenziare competenze linguistiche.",
+        "tipologie_metodologia": [
+          "Formazione Continua",
+          "Collaborative Learning"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e personale scolastico",
+        "citazione_ptof": "La scuola ha attivato una convenzione con l'Università di Perugia per l'organizzazione di corsi di preparazione agli esami DILS, per il personale scolastico, e agli esami di certificazione di lingua italiana (CELI).",
+        "pagina_evidenza": "Pagina 229"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:17:11.756079",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "65999d55-a643-48e2-81db-e77c1e0fac6a",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Strumenti compensativi e misure dispensative per DSA",
+        "descrizione": "Fornitura di strumenti digitali (software di sintesi vocale, correttori ortografici) e misure dispensative (tempo aggiuntivo, esonero da compiti mnemonici) per studenti con DSA, con adattamento delle prove INVALSI e dell'esame di Stato.",
+        "metodologia": "Applicazione di strumenti tecnologici e metodologie didattiche personalizzate, in base al Piano Didattico Personalizzato (PDP) condiviso con famiglie e specialisti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Didattica Personalizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti con DSA",
+        "citazione_ptof": "Esempi di strumenti compensativi: computer con software per la videoscrittura, sintesi vocale, calcolatrice. Esempi di misure dispensative: dispensa da copiare alla lavagna, esonero da compiti mnemonici.",
+        "pagina_evidenza": "Pagina 241"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:17:11.756100",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "5a2fc90c-843f-4838-b0f1-89b9d28b78f8",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Coinvolgimento esteso nel Consiglio di Classe",
+        "descrizione": "Tutti i docenti (compresi quelli di religione e opzionali) partecipano ai Consigli di Classe per l'attribuzione del credito scolastico, garantendo una visione completa del percorso formativo dello studente.",
+        "metodologia": "Struttura organizzativa che include tutti i soggetti coinvolti nel percorso educativo, con decisioni collettive basate su criteri trasparenti e condivisi.",
+        "tipologie_metodologia": [
+          "Collaborative Learning",
+          "Governance"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Orientamento"
+        ],
+        "target": "Studenti e corpo docente",
+        "citazione_ptof": "Partecipano al Consiglio tutti i docenti che svolgono attività e insegnamenti per tutte le studentesse e tutti gli studenti o per gruppi degli stessi, compresi gli insegnanti di religione cattolica...",
+        "pagina_evidenza": "Pagina 227"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:17:11.756118",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 12
+      }
+    },
+    {
+      "id": "3ebce22a-2461-472f-bb76-d32580a3112c",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Dematerializzazione degli atti e procedimenti amministrativi",
+        "descrizione": "Formazione sulle nuove normative per la digitalizzazione completa degli atti e procedimenti, con focus su fatturazione elettronica, identità digitale, conservazione digitale e vantaggi organizzativi. Obiettivo: migliorare efficienza e trasparenza.",
+        "metodologia": "Formazione online e di rete, con moduli teorico-pratici su strumenti digitali e procedure dematerializzate.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "DSGA e personale amministrativo",
+        "citazione_ptof": "Dematerializzazione degli atti e dei procedimenti amministrativi introdotta dal Codice dell’Amministrazione digitale (D.Lgs. n. 82/2005)",
+        "pagina_evidenza": "Pagina 276"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:19:43.178321",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 14
+      }
+    },
+    {
+      "id": "422c4256-967a-4f14-9ab9-03ac951fddf1",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione sul nuovo Codice dei contratti pubblici (D.Lgs 36/2023)",
+        "descrizione": "Aggiornamento sulle novità legislative per il personale amministrativo, con analisi delle differenze rispetto alla normativa precedente e focus su periodo transitorio e abrogazioni.",
+        "metodologia": "Formazione online con moduli tematici e confronto tra normative vecchie e nuove.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "DSGA e personale amministrativo",
+        "citazione_ptof": "Formazione sulle novità del nuovo Codice dei contratti pubblici (D.Lgs. 36/2023)",
+        "pagina_evidenza": "Pagina 276"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:19:43.178442",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 14
+      }
+    },
+    {
+      "id": "78f39aa7-c0de-4726-9ff3-ec117a6b3199",
+      "school": {
+        "codice_meccanografico": "PVIS01600V",
+        "nome": "Iis Galilei Voghera",
+        "tipo_scuola": "Liceo, Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Pavia",
+        "comune": "Voghera",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione su anticorruzione e trasparenza (Legge 190/2012)",
+        "descrizione": "Corso per il personale amministrativo sulle normative di prevenzione della corruzione, con focus su codice di comportamento, trasparenza e gestione degli incarichi.",
+        "metodologia": "Formazione online con analisi di casi pratici e normative applicative.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione"
+        ],
+        "target": "DSGA e personale amministrativo",
+        "citazione_ptof": "Formazione sulle tematiche di anticorruzione e trasparenza in base alla Legge 190-2012 e D.lgs. 97-2016",
+        "pagina_evidenza": "Pagina 277"
+      },
+      "contesto": {
+        "maturity_index": 4.53,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 5
+        },
+        "partnership_coinvolte": [
+          "Università di Perugia"
+        ],
+        "attivita_correlate": [
+          "Visite aziendali",
+          "Incontri con professionisti",
+          "GALILAB",
+          "EploriAmo dentro e fuori da scuola",
+          "Animatore digitale: formazione del personale interno",
+          "Lo sviluppo delle professionalità nell'era digitale",
+          "Dalle STEM alle STEAM: lingue e linguaggi per il futuro",
+          "Antidispersione al Galilei",
+          "Tecnologie E Robotica",
+          "PCTO presso strutture ospitanti"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:19:43.178488",
+        "model_used": "qwen3:32b",
+        "source_file": "PVIS01600V_ptof.md",
+        "chunk_source": 14
       }
     }
   ]
