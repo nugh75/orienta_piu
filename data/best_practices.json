@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T18:39:11.724741",
+  "last_updated": "2025-12-28T18:56:15.069409",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1534,
-  "schools_processed": 29,
+  "total_practices": 1579,
+  "schools_processed": 30,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -86553,6 +86553,2747 @@
         "model_used": "qwen3:32b",
         "source_file": "ALTF080003_ptof.md",
         "chunk_source": 1
+      }
+    },
+    {
+      "id": "d6ba8327-7721-430d-a38f-2e7e08d0de68",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto STEM e Multilingue 2024-2025",
+        "descrizione": "Progetto verticale che integra competenze STEM e multilinguistiche attraverso corsi extracurriculari per studenti e docenti, con metodologie laboratoriali e CLIL. Include 5 percorsi STEM (genetica, statistica, matematica) e corsi linguistici per livelli A1-B2+.",
+        "metodologia": "Attività laboratoriali, journal club, CLIL, approccio Inquiry-Based Learning e Project-Based Learning. Corsi pomeridiani di 20 ore con focus su contesti reali e interdisciplinarietà.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Lingue Straniere",
+          "Formazione Docenti"
+        ],
+        "target": "Studenti (scuola primaria, secondaria I e II grado) e docenti non linguistici",
+        "citazione_ptof": "Progetto 'Promuovere le competenze STEM e multilinguistiche per comprendere il presente e pensare il futuro' con finanziamento PNRR (€61.234,85)",
+        "pagina_evidenza": "Pagina 28-33"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:42:16.604709",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "09db16d5-7853-4a3b-b9f0-0f15a3c51b07",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Laboratoriale STEM Verticale",
+        "descrizione": "Applicazione di metodologie STEM in contesti reali attraverso laboratori verticali che collegano scuola dell'infanzia, primaria e secondaria. Focus su genetica, statistica e matematica con attività esperienziali e interdisciplinari.",
+        "metodologia": "Laboratori pratici, Inquiry-Based Learning, integrazione di contenuti STEM con contesti quotidiani. Adattamento per fasce d'età (es. 20 ore per scuola secondaria vs. 20 ore per primaria).",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Inquiry-Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti di tutte le fasce scolastiche",
+        "citazione_ptof": "La diversificazione dei contenuti non impedisce una continuità metodologica e pedagogica che possiamo riassumere nel concetto di realismo",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:42:16.604784",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "dfa78bc9-4261-4655-bb42-6198bc4acd05",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione Erasmus+ con Consorzio Canossa Campus",
+        "descrizione": "Mobilità per studenti e staff nell'ambito del progetto Erasmus+, con scambio di esperienze e integrazione di metodologie innovative. Obiettivo: migliorare l'offerta formativa attraverso sinergie territoriali.",
+        "metodologia": "Attività di networking, progetti di ampio respiro, miglioramento della comunicazione istituzionale e visibilità sui social.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e staff",
+        "citazione_ptof": "Attivazione delle mobilità per studenti e staff nell'ambito del progetto Erasmus+ in collaborazione con il Consorzio Canossa Campus di Brescia",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:42:16.604806",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "d0e0e12f-6802-48ea-a148-618749b84b11",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Metodologia CLIL per Docenti Non Linguistici",
+        "descrizione": "Formazione extracurricolare per docenti non linguistici per acquisire competenze CLIL (Contenuti e Lingua Straniera Insegnata). Obiettivo: integrare lingue straniere in discipline non linguistiche con focus su comunicazione orale e tolleranza degli errori.",
+        "metodologia": "Corsi pomeridiani di 20 ore con approccio CLIL, utilizzo di materiali visivi, gestualità e limitazione della lingua scritta. Coinvolgimento di docenti di diritto, economia, scienze umane.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti non linguistici",
+        "citazione_ptof": "Docenti non linguistici acquisiscono competenza linguistica B1 e metodologia CLIL per insegnare in lingua straniera",
+        "pagina_evidenza": "Pagina 32"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:42:16.604825",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "fea93e8e-2f3b-4b77-9611-1768e197196f",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazioni Linguistiche Multilingue",
+        "descrizione": "Percorsi per ottenere certificazioni linguistiche (QCER) in inglese, francese, tedesco e spagnolo, con livelli A1-B2+. Integrazione con esperienze Erasmus+ e approccio esperienziale per studenti di tutte le età.",
+        "metodologia": "Corsi pomeridiani di 20 ore con focus su competenze comunicative, attività laboratoriali e preparazione a certificazioni internazionali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Studenti (scuola primaria, secondaria I e II grado)",
+        "citazione_ptof": "Percorsi linguistici-comunicativi con certificazione QCER per lingua spagnola (B1) e 'Real English' (B2+)",
+        "pagina_evidenza": "Pagina 31"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:42:16.604842",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "cabcc347-b38a-480d-b760-2c632a1d2f14",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Giornate Internazionali a Tema",
+        "descrizione": "Iniziative annuali come 'Christmas Workshop', 'Election day' e 'Lago di Comabbio, Un calcio al razzismo' per promuovere cittadinanza attiva e interculturalità. Progetti specifici per classi (es. 'Dialoghi nel buio', 'Street Art contro le mafie') con collaborazioni esterne.",
+        "metodologia": "Attività laboratoriali, workshop tematici e progetti interdisciplinari con coinvolgimento di esperti esterni e organizzazioni.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Giornate internazionali a tema: Christmas Workshop, Election day... Progetto Immigrazione, Le 7 meraviglie del mondo...",
+        "pagina_evidenza": "Pagina 56"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:43:42.760136",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "5975909c-92c2-4478-8a0d-5c1f64c5fd5f",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Gruppo della Trasgressione",
+        "descrizione": "Progetto 'Denaro falso' per classi terze, in collaborazione con il Gruppo della Trasgressione, per educare alla legalità e alla consapevolezza economica.",
+        "metodologia": "Attività interdisciplinari con esperti esterni e simulazioni di contesti reali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Classi terze: testimonianze PCTO e Progetto 'Denaro falso' in collaborazione con il Gruppo della Trasgressione",
+        "pagina_evidenza": "Pagina 52"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:43:42.760373",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "6f67b12a-92e4-4dea-81e1-e1358baff59b",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Educazione Civica Interculturale",
+        "descrizione": "Attività per promuovere rispetto reciproco e dialogo tra culture diverse, come 'Un calcio al razzismo' e 'Lago di Comabbio', con focus su identità, diversità e integrazione.",
+        "metodologia": "Metodi partecipativi, laboratori interculturali e approccio inclusivo in contesti educativi.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Lago di Comabbio, Un calcio al razzismo e Siti UNESCO/FAI... sviluppo del rispetto di sé e degli altri",
+        "pagina_evidenza": "Pagina 56"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:43:42.760419",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "07d6dccf-5bc2-47c2-be29-5abbe7c1cdb3",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Cittadinanza Digitale Strutturata",
+        "descrizione": "Programma per insegnare valutazione critica di informazioni online, privacy e prevenzione cyberbullismo, con attività progressive per età e contesti educativi.",
+        "metodologia": "Didattica digitale integrata con simulazioni e analisi di casi reali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Aiutare gli studenti a valutare criticamente dati e notizie in rete... prevenire e contrastare attività di cyberbullismo",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:43:42.760446",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "94f77ec3-cd7e-4fd5-8bf7-bf893af236b6",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti Territoriali per Sostenibilità",
+        "descrizione": "Iniziative come 'L'oro azzurro' (acqua) e 'Sviluppo sostenibile e UE' per educare all'ambiente e alla responsabilità sociale, con attività pratiche e collaborazioni locali.",
+        "metodologia": "Approccio interdisciplinare con laboratori e progetti di sensibilizzazione ambientale.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Classi prime: L'oro azzurro... Classi seconde: sviluppo sostenibile e UE",
+        "pagina_evidenza": "Pagina 52"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:43:42.760470",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "d828d495-376b-4510-a74e-874a2abb2b19",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto 'Manifesto per la Giustizia'",
+        "descrizione": "Percorso interdisciplinare che prevede la lettura di un racconto di Tolstòj, l'elaborazione di un manifesto collettivo, un incontro in carcere con detenuti e familiari delle vittime della criminalità organizzata, e una serata pubblica di restituzione. Obiettivo: riflettere su temi di giustizia sociale e legalità.",
+        "metodologia": "Approccio progettuale con fasi di analisi testuale, lavoro di gruppo, esperienza diretta in carcere e condivisione pubblica.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della classe II della scuola secondaria di II grado",
+        "citazione_ptof": "Un percorso da proporre tra gennaio e maggio 2025 (a partire dalla lettura, come gruppo classe, del racconto di Tolstòj...)",
+        "pagina_evidenza": "Pagina 62"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:45:02.846702",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "0742ae62-eecc-4bb2-9346-403e83d4b491",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piani Educativi Personalizzati per Studenti Talenti",
+        "descrizione": "Progettazione di piani educativi e di studio personalizzati per studenti ad alto potenziale intellettivo, con attività differenziate e concorsi disciplinari per valorizzare le eccellenze.",
+        "metodologia": "Individuazione precoce delle potenzialità, progettazione didattica personalizzata e partecipazione a concorsi specifici.",
+        "tipologie_metodologia": [
+          "Differentiated Instruction",
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola primaria con doti particolari",
+        "citazione_ptof": "Educare Al Talento... attraverso la progettazione di piani educativi e di studio personalizzati...",
+        "pagina_evidenza": "Pagina 72"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:45:02.846761",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "c0f929f5-b380-459a-84c2-bc49c91846c1",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Auguri alla Città",
+        "descrizione": "Iniziativa in cui bambini della scuola dell'infanzia consegnano biglietti di auguri ai cittadini durante le festività natalizie, promuovendo empatia e consapevolezza sociale.",
+        "metodologia": "Attività esperienziale con interazione diretta con il contesto urbano e la comunità locale.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Bambini della scuola dell'infanzia",
+        "citazione_ptof": "Ogni anno le insegnanti... consegnare i biglietti di auguri ai propri cittadini.",
+        "pagina_evidenza": "Pagina 69"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:45:02.846790",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "aed8e5e0-0b7c-4634-90cb-db4d1d14e538",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Iniziativa 'Buona Lettura' con la Biblioteca",
+        "descrizione": "Visita guidata alla biblioteca cittadina per sensibilizzare i bambini alla lettura, con spiegazioni sul funzionamento della biblioteca e lettura di storie da parte delle bibliotecarie.",
+        "metodologia": "Attività esperienziale con interazione diretta con il servizio bibliotecario e coinvolgimento familiare (ogni bambino riceve un libro da leggere con i genitori).",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Bambini della scuola dell'infanzia",
+        "citazione_ptof": "I bambini della scuola dell'Infanzia... per conoscere questa realtà che non tutti frequentano.",
+        "pagina_evidenza": "Pagina 70"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:45:02.846831",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "66fedcdf-7475-459e-b7d7-ea7e81dbecc4",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Election Day per rappresentanti di classe",
+        "descrizione": "Attività di elezione democratica per responsabilizzare gli studenti attraverso la partecipazione alla vita scolastica. Gli studenti partecipano al processo decisionale e alla definizione delle regole della classe.",
+        "metodologia": "Implementata attraverso simulazioni di elezioni, dibattiti e discussioni in classe, con coinvolgimento diretto degli studenti nella gestione delle norme scolastiche.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola secondaria di I grado (classi I-III)",
+        "citazione_ptof": "L'elezione dei rappresentanti di classe non è un atto dovuto, ma una scelta che nasce dalla volontà di responsabilizzare gli studenti attraverso processi di partecipazione democratica alla vita della scuola.",
+        "pagina_evidenza": "Pagina 94"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:46:35.768964",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8ef3fca8-4543-464b-b1cd-625313492be0",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Uscita didattica a Strasburgo e Parlamento europeo",
+        "descrizione": "Attività di approfondimento storico-politico sulle origini della comunità europea, con visita al Parlamento europeo. Gli studenti analizzano costituzioni e ruoli dei parlamenti in contesti storici.",
+        "metodologia": "Realizzata tramite visite guidate, analisi documentale e confronto tra testi costituzionali, con focus su prospettive giusnaturaliste.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola secondaria di II grado (classe IV)",
+        "citazione_ptof": "Uscita didattica a Strasburgo e Parlamento europeo 'Chi sono gli Europei', 6/2/25. Alle origini della comunità europea.",
+        "pagina_evidenza": "Pagina 98"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:46:35.769075",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "0efdd9b9-5bf4-4768-a919-064110f3ea7c",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Mostra 'Cento passi per essere Libera' e laboratorio antropologia mafiosa",
+        "descrizione": "Iniziativa per contrastare la violenza di genere e la cultura mafiosa, con mostra tematica e laboratori di sensibilizzazione. Include visite a luoghi simbolo come il carcere di Opera.",
+        "metodologia": "Attività interdisciplinare con approccio laboratoriale, testimonianze di esperti e analisi critica di fenomeni sociali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti della scuola secondaria di II grado (classe V)",
+        "citazione_ptof": "Mostra 'Cento passi per essere Libera'. Antropologia della cultura mafiosa. Uscita al carcere di Opera. Preparazione laboratorio openday.",
+        "pagina_evidenza": "Pagina 101"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:46:35.769095",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "b8932638-7dea-451f-a927-c7f047b9da4e",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione alla cittadinanza digitale con tecnologie",
+        "descrizione": "Programma per sviluppare competenze digitali critiche, come ricerca di informazioni veritiere, utilizzo consapevole di strumenti digitali e gestione della sicurezza online.",
+        "metodologia": "Lezioni integrate con attività pratiche su tablet e computer, simulazioni di rischi digitali e creazione di prodotti digitali autonomi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola primaria (classi III-V)",
+        "citazione_ptof": "Utilizzare le tecnologie per elaborare semplici prodotti digitali. Riconoscere fonti di informazioni digitali. Interagire con strumenti di comunicazione digitale.",
+        "pagina_evidenza": "Pagina 88"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:46:35.769110",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "0fb487ba-c6d6-4b1b-b4c2-c9be6c2288b4",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Uscita alla diga del Panperduto per riflessione sull'acqua",
+        "descrizione": "Attività interdisciplinare per analizzare l'importanza dell'acqua come bene primario, con focus su equilibri ambientali, economici e sociali.",
+        "metodologia": "Visita sul campo integrata con analisi di grafici, discussione di temi ambientali e progetti di sostenibilità.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola secondaria di II grado (classe I)",
+        "citazione_ptof": "Uscita alla diga del Panperduto. Riflettere sull’importanza del bene primario 'acqua' e sui conseguenti equilibri ambientali, economici e sociali.",
+        "pagina_evidenza": "Pagina 103"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:46:35.769125",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "f6fb9e96-9235-4a65-984c-f8a42afac753",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Testimonianze di esperti e corsi di primo soccorso",
+        "descrizione": "Attività che coinvolge testimoni privilegiati della società civile e corsi pratici di sicurezza e primo soccorso per sviluppare competenze civiche e di protezione. Strutturata in classe III con discipline trasversali come Diritto ed economia, Italiano e Scienze umane.",
+        "metodologia": "Approccio esperienziale con testimonianze esterne e formazione pratica",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti classe III",
+        "citazione_ptof": "Testimonianze di testimoni privilegiati della società civile, corsi sulla sicurezza e sul primo soccorso",
+        "pagina_evidenza": "Pagina 105"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:48:40.412567",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "3dc69f55-f438-4358-a46d-8edcd381e2dd",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Visita alla Diga del Panperduto",
+        "descrizione": "Attività didattica in classe I per analizzare l'acqua come risorsa naturale e fonte di energia. La visita permette di collegare teoria e pratica sull'ambiente e sostenibilità.",
+        "metodologia": "Apprendimento per progetti con visita sul campo",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Educazione Civica"
+        ],
+        "target": "Studenti classe I",
+        "citazione_ptof": "Visita alla Diga del Panperduto",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:48:40.412743",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "55f8b849-06a7-4ca9-8658-881a7f39b31d",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto Erasmus+ sull'immigrazione",
+        "descrizione": "Collaborazione internazionale con Paesi come Olanda, Portogallo e Norvegia per analizzare temi migratori. Coinvolge studenti e docenti in attività di mobilità e cooperazione.",
+        "metodologia": "Metodologia CLIL e progetti internazionali",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Orientamento"
+        ],
+        "target": "Studenti classe III e IV",
+        "citazione_ptof": "Partecipazione ai bandi dedicati alle classi di III nell'ambito di un progetto internazionale (Olanda, Portogallo, Norvegia e Italia) sul tema dell'immigrazione",
+        "pagina_evidenza": "Pagina 118"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:48:40.412796",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "4b38de2b-e389-4e44-9704-0545d1f69c80",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Polaris per competenze STEM",
+        "descrizione": "Iniziativa biennale per studenti delle classi II-V che include laboratori immersivi, codocenze e collaborazioni con enti come la Casa dell'Agricoltura. Promuove ricerca e orientamento scientifico.",
+        "metodologia": "Apprendimento attivo e collaborativo con laboratori e spettacoli teatrali",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti classi II-V",
+        "citazione_ptof": "Azione n° 1: Polaris - Attività biennale di formazione e orientamento in area STEM",
+        "pagina_evidenza": "Pagina 119"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:48:40.412828",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "869c61fc-7f93-4416-8d8e-bbb953a7a4f8",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Genetica Applicata",
+        "descrizione": "Percorso di 20 ore per studenti di Scuola Secondaria di I e II grado che approfondisce la genetica e le biotecnologie attraverso attività laboratoriali e discussione di casi reali, con obiettivo di collegare teoria e applicazioni pratiche.",
+        "metodologia": "Attività laboratoriali integrate con lezioni teoriche, utilizzo di strumenti tecnologici e discussione di casi di studio.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Orientamento"
+        ],
+        "target": "Studenti Scuola Secondaria I e II grado",
+        "citazione_ptof": "Un primo percorso mira ad avvicinare gli studenti al mondo della genetica... con 2 edizioni di 20 ore l’una per gli alunni della Scuola Secondaria di I grado e 1 edizione per II grado.",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:50:48.676090",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "9fca74a8-0fdf-45a8-a886-42f97d5b0c02",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Journal Club Scientifico",
+        "descrizione": "Iniziativa di 20 ore per studenti di II grado che analizza articoli scientifici per sviluppare capacità di critica e rielaborazione dei dati, con focus su interpretazione di risultati e discussione collettiva.",
+        "metodologia": "Metodi attivi di discussione guidata, lavoro di gruppo e analisi critica di testi scientifici.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Orientamento"
+        ],
+        "target": "Studenti Scuola Secondaria II grado",
+        "citazione_ptof": "Un secondo percorso ha lo scopo di avvicinare gli studenti al mondo della letteratura scientifica mediante journal club su diverse tematiche.",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:50:48.676158",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "f70c6099-2ec1-449e-8b63-6ccabd443a2b",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Visite Aziendali e Universitarie STEM",
+        "descrizione": "Attività di 10 ore per studenti di II grado che prevede visite a aziende del territorio (meccatronica, prototipazione) e collaborazioni con Politecnico di Milano e Università degli Studi di Milano per confronti con professionisti.",
+        "metodologia": "Visite guidate, testimonianze dirette di esperti e interazioni con laboratori universitari.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti Scuola Secondaria II grado",
+        "citazione_ptof": "Incontri-testimonianze con professionisti STEM e visite a realtà aziendali grazie alla collaborazione con Confindustria Alto Milanese e Politecnico di Milano.",
+        "pagina_evidenza": "Pagina 132"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:50:48.676184",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "43d47271-df0b-453f-98a5-5d0a734edaac",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Promozione Femminile in STEM",
+        "descrizione": "Strategia mirata a coinvolgere le studentesse attraverso testimonianze di donne in ruoli STEM e attività formative specificamente progettate per contrastare stereotipi di genere.",
+        "metodologia": "Disseminazione mirata, testimonianze di donne esperte e attività didattiche inclusivi.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studentesse Scuola Secondaria I e II grado",
+        "citazione_ptof": "Sul fronte dell’offerta sono privilegiate testimonianze di donne che hanno fatto delle discipline STEM il loro lavoro... disseminazione targetizzata alle studentesse.",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:50:48.676204",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "b29ba51f-3e86-4059-ad15-ecfa6e37c5cb",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Teatro - Infanzia",
+        "descrizione": "Attività teatrale per bambini con esercizi corporei, giochi di coordinazione e ritmo. Utilizza tecniche teatrali ludiche per sviluppare creatività e apprendimento attraverso il gioco. Obiettivo: migliorare attenzione, ascolto e conoscenza degli strumenti musicali.",
+        "metodologia": "Implementato attraverso laboratori teatrali interattivi con esperti esterni, attività di esplorazione spaziale e gestione di oggetti.",
+        "tipologie_metodologia": [
+          "Gamification",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Gruppi classe di scuola dell'infanzia",
+        "citazione_ptof": "Esercizi sul corpo, giochi di coordinamento, ritmo, esplorazione dello spazio e gestione degli oggetti; tecniche teatrali come elemento ludico.",
+        "pagina_evidenza": "Pagina 153"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:52:43.921811",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "92cb97aa-8fc1-466a-b94f-c510ed08ecd6",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Progetto Continuità - Infanzia/Primaria",
+        "descrizione": "Collaborazione tra insegnanti per facilitare il passaggio tra sezioni e ordini di scuola. Obiettivo: garantire continuità educativa e ridurre ansie legate al cambiamento.",
+        "metodologia": "Lavoro coordinato tra docenti di sezioni diverse con attività mirate durante l'intero anno scolastico.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Orientamento"
+        ],
+        "target": "Classi aperte verticali",
+        "citazione_ptof": "Collaborazione tra docenti per un passaggio graduale tra sezioni e ordini di scuola.",
+        "pagina_evidenza": "Pagina 156"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:52:43.921894",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "db34e0ca-d917-42de-8795-a180cd45dcce",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio Artistico - Infanzia",
+        "descrizione": "Attività creative con materiali artistici per sviluppare espressione non verbale. Obiettivo: promuovere la creatività attraverso disegno, riciclo e manipolazione di materiali.",
+        "metodologia": "Laboratori pratici con esperti esterni e utilizzo di materiali diversificati per stimolare la propedeutica all'arte.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Inclusione e BES"
+        ],
+        "target": "Bambini di scuola dell'infanzia",
+        "citazione_ptof": "Lezioni d’arte legate alla 'propedeutica alla creatività'; attività semplici e ludiche per esprimersi attraverso il linguaggio non verbale.",
+        "pagina_evidenza": "Pagina 157"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:52:43.921903",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "74c221f6-1de2-4b50-aab9-cd31a4767e50",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento competenze linguistiche con CLIL",
+        "descrizione": "Utilizzo della metodologia CLIL (Content and Language Integrated Learning) per integrare insegnamento disciplinare e acquisizione di competenze linguistiche in italiano, inglese e altre lingue europee. Coinvolge gruppi classe con attività interdisciplinari.",
+        "metodologia": "Integrazione di contenuti disciplinari e lingua straniera in contesti reali di apprendimento.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Gruppi classe di scuola secondaria",
+        "citazione_ptof": "valorizzazione e potenziamento delle competenze linguistiche... mediante l'utilizzo della metodologia Content language integrated learning",
+        "pagina_evidenza": "Pagina 179"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:53:41.873566",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "d34c6666-8f29-4967-81c3-3f0df55af546",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso di lingua francese per competenze multilingue",
+        "descrizione": "Corso di 20 ore di francese per studenti della scuola secondaria I grado, finanziato dal bando M4C1I3.1-2023-1202-P-29610, mirante a introdurre cultura e lingua francese come parte dell'offerta formativa.",
+        "metodologia": "Attività laboratoriale con approccio interdisciplinare e metodologia CLIL.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti scuola secondaria I grado",
+        "citazione_ptof": "Corso di 20 ore di francese per un primo approccio alla cultura e alla lingua francese",
+        "pagina_evidenza": "Pagina 180"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:53:41.873629",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "b9d1693b-97b9-4a48-8b50-9053c46c4b0a",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gioco di squadra, gioco vincente",
+        "descrizione": "Iniziativa sportiva per promuovere valori di collaborazione, solidarietà e rispetto delle regole attraverso attività di squadra, con focus sull'educazione fisica e prevenzione del disagio.",
+        "metodologia": "Attività pratica in strutture sportive con metodologia laboratoriale e cooperative learning.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Classi aperte verticali",
+        "citazione_ptof": "Sport rappresenta la terza agenzia educativa... strumenti per costruire competenze trasferibili",
+        "pagina_evidenza": "Pagina 182"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:53:41.873649",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "6c454823-2aaa-4da5-a8e3-89a2714f7823",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "SCRIVERE LA VITA, RACCONTARE IL MONDO",
+        "descrizione": "Laboratorio di scrittura creativa per sviluppare competenze linguistiche e critiche attraverso attività di lettura, scrittura e lavoro di squadra, con personalizzazione degli interventi.",
+        "metodologia": "Didattica laboratoriale con attività di scrittura creativa e storytelling.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti scuola secondaria I grado",
+        "citazione_ptof": "Attività laboratoriali dove accanto al lavoro di squadra sarà possibile personalizzare gli interventi",
+        "pagina_evidenza": "Pagina 185"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:53:41.873665",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "ae3c75e9-a957-4fe8-a26c-d2127e12da1e",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "IMPOLLINATORI e BIODIVERSITA'",
+        "descrizione": "Progetto annuale per sensibilizzare studenti alla tutela degli impollinatori attraverso semina di piante mellifere, allestimento di Bug Hotel e monitoraggio della biodiversità nel territorio circostante.",
+        "metodologia": "Attività laboratoriale e outdoor con coinvolgimento di esperti esterni (LIPU, WWF).",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti e personale scolastico",
+        "citazione_ptof": "Realizzare azioni per incrementare la presenza di insetti impollinatori nel territorio",
+        "pagina_evidenza": "Pagina 193"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:53:41.873683",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "fab2198b-b7df-420b-a1cc-4078a87302db",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Sospensione del giudizio con piano di recupero personalizzato",
+        "descrizione": "Gli studenti con fino a 3 insufficienze hanno il giudizio sospeso e vengono sottoposti a interventi di recupero mirati. La scuola comunica alle famiglie le carenze specifiche, i voti e le modalità di recupero, richiedendo una comunicazione scritta in caso di rifiuto degli interventi.",
+        "metodologia": "Implementato attraverso Consigli di Classe che definiscono piani di recupero personalizzati, con verifiche strutturate e tempi definiti. Coinvolgimento attivo delle famiglie nella decisione e nel monitoraggio.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con insufficienze non gravi",
+        "citazione_ptof": "C) SOSPENSIONE DEL GIUDIZIO per gli alunni che in sede di scrutinio finale presentino insufficienze, in una o più discipline (non più di tre)...",
+        "pagina_evidenza": "Pagina 201"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:54:57.481610",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "29a6341f-db82-4178-813f-2eb7c2eb4648",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Sistema di credito scolastico per l'Esame di Stato",
+        "descrizione": "Assegnazione di un massimo di 40 punti di credito scolastico basati su media voti, assenza di debiti, profilo generale e progetti PCTO. Il credito influenza il punteggio finale dell'Esame di Stato con criteri trasparenti e standardizzati.",
+        "metodologia": "Calcolo automatizzato in sede di scrutinio finale, con attribuzione di punti per assenza di debiti (1 punto), note positive (1 punto), progetti PCTO (1-2 punti).",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti delle classi III-V",
+        "citazione_ptof": "Il credito scolastico è attribuito in base alla media aritmetica dei voti conseguiti nello scrutinio finale, secondo quanto previsto dall'art. 15 D.lgs. n. 62, 13 aprile 2017.",
+        "pagina_evidenza": "Pagina 202"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:54:57.481667",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "07c4c6f0-bacc-48aa-8a91-8e5cd7d971ea",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Gruppi di Lavoro per l'Inclusione (GLI e GLO)",
+        "descrizione": "Strutturazione di GLI istituzionali e GLO operativi per studenti con BES, DSA o disabilità. Collaborazione tra insegnanti, famiglie e esperti esterni per definire Piani Educativi Individualizzati (PEI) e monitorarne l'attuazione.",
+        "metodologia": "Coinvolgimento obbligatorio di genitori, insegnanti di sostegno e professionisti esterni (psicologi, neuropsichiatri) in incontri periodici per aggiornare i PEI e garantire il benessere dello studente.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Studenti con bisogni educativi speciali",
+        "citazione_ptof": "I singoli Pei sono stilati dai rispettivi GLO... con genitori, dall'alunno stesso e da eventuali professionisti esterni.",
+        "pagina_evidenza": "Pagina 211"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:54:57.481686",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "3583c482-dd20-4ef5-91ab-ac77def92c69",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Recupero strutturato in itinere e peer tutoring",
+        "descrizione": "Attività di recupero organizzate in orario curricolare e pomeridiano, con sportelli di supporto e peer tutoring. Verifiche finali per valutare l'efficacia degli interventi.",
+        "metodologia": "Implementazione di laboratori di recupero interclassi, peer tutoring tra studenti, e interventi pomeridiani per lo svolgimento dei compiti. Monitoraggio tramite verifiche scritte/orali.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Recupero e Potenziamento",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con difficoltà di apprendimento",
+        "citazione_ptof": "Per rispondere alle difficoltà di apprendimento... talvolta si attivano azioni di peer tutoring.",
+        "pagina_evidenza": "Pagina 209"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:54:57.481701",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "d13b7194-646e-48f8-9e55-349209a1880a",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Valutazione descrittiva in scuola primaria",
+        "descrizione": "Utilizzo di livelli descrittivi (Avanzato, Intermedio, Base) per la valutazione finale, basati su autonomia, contesto, risorse mobilitate e continuità delle competenze, con certificazione finale.",
+        "metodologia": "Valutazione basata su quattro dimensioni (autonomia, contesto, risorse, continuità) con giudizi descrittivi invece di voti numerici, certificando i livelli di competenza raggiunti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Lettura e Scrittura"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "I docenti della scuola primaria esprimono la valutazione finale come indicato e descritto dai seguenti quattro livelli...",
+        "pagina_evidenza": "Pagina 211"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:54:57.481714",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "8608914e-aa02-47ec-bacf-3eeaa7271966",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Approfondimenti tematici in lingua straniera",
+        "descrizione": "Sviluppo di contenuti disciplinari in lingua straniera per migliorare le competenze linguistiche e culturali degli studenti.",
+        "metodologia": "Integrazione di contenuti curriculari con l'apprendimento linguistico attraverso attività didattiche mirate.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "approfondimenti tematici (ad esempio, sviluppo una tantum di contenuti delle discipline di indirizzo in lingua straniera)",
+        "pagina_evidenza": "Pagina 215"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:56:14.949121",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "acaf067b-2d80-4cbe-8f47-08c2193a7e40",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Peer tutoring",
+        "descrizione": "Coinvolgimento di studenti come tutor per supportare i compagni in attività di apprendimento collaborativo.",
+        "metodologia": "Utilizzo di studenti esperti per guidare i pari in contesti di apprendimento strutturati.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "coinvolgimento nelle attività di peer tutoring in qualità di tutor",
+        "pagina_evidenza": "Pagina 215"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:56:14.949295",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "85c86ac2-87b4-40e2-be9a-00aea0df7d8f",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Open day e incontri con studenti delle medie",
+        "descrizione": "Attività di accoglienza e orientamento per studenti in entrata, con colloqui personali e incontri tematici.",
+        "metodologia": "Organizzazione di eventi partecipativi e momenti di confronto diretto con studenti e famiglie.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti delle classi III medie",
+        "citazione_ptof": "Incontri con i ragazzi attraverso open day o incontri specifici nella scuola di provenienza",
+        "pagina_evidenza": "Pagina 215"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:56:14.949344",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "8b356921-3013-4041-8079-c73c8d21c4e0",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con università e professionisti",
+        "descrizione": "Incontri con docenti universitari, professionisti e ex alunni per orientare gli studenti verso percorsi universitari e lavorativi.",
+        "metodologia": "Coinvolgimento di esperti esterni in attività informative e di confronto con gli studenti.",
+        "tipologie_metodologia": [
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento"
+        ],
+        "target": "Studenti delle classi IV e V",
+        "citazione_ptof": "incontri con docenti universitari e professionisti del mondo del lavoro, incontri con ex alunni",
+        "pagina_evidenza": "Pagina 216"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:56:14.949371",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "e0291a18-173e-46e1-b3b7-c41ee1cc2a3a",
+      "school": {
+        "codice_meccanografico": "MIRFHT500U",
+        "nome": "Barbara Melzi",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale",
+        "ordine_grado": "II Grado",
+        "regione": "Lombardia",
+        "provincia": "Milano",
+        "comune": "Legnano",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Formazione docenti su didattica innovativa e STEM",
+        "descrizione": "Laboratori e workshop per docenti sulle metodologie STEM e l'apprendimento attivo.",
+        "metodologia": "Attività di formazione pratica e teorica per implementare metodologie innovative in classe.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Flipped Classroom"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Digitalizzazione"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Titolo attività di formazione: Didattica innovativa e STEM... Modalità di lavoro: Laboratori, Workshop",
+        "pagina_evidenza": "Pagina 237"
+      },
+      "contesto": {
+        "maturity_index": 4.48,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Enti di formazione",
+          "Aziende"
+        ],
+        "attivita_correlate": [
+          "Polaris",
+          "Corsi PNRR",
+          "Percorsi di tutoraggio",
+          "Open day",
+          "Visite ad Atenei",
+          "Laboratori di inglese",
+          "Karate",
+          "Minibasket",
+          "Laboratorio artistico",
+          "Doposcuola"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:56:14.949402",
+        "model_used": "qwen3:32b",
+        "source_file": "MIRFHT500U_ptof.md",
+        "chunk_source": 11
       }
     }
   ]
