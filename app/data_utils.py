@@ -296,24 +296,24 @@ def render_footer():
     """
     st.markdown("---")
     st.markdown("""
-<div style="text-align: center; padding: 20px 0; color: #666; font-size: 0.85rem;">
-    <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 5px;">
+<div style="text-align: center; padding: 18px 0; color: #666; font-size: 0.85rem;">
+    <div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 6px;">
         🧭 ORIENTA+
-    </p>
-    <p style="margin: 5px 0;">
-        Piattaforma di Analisi della Robustezza dell'Orientamento nei PTOF
-    </p>
-    <p style="margin: 10px 0; font-size: 0.8rem;">
-        Sviluppato da <strong>Daniele Dragoni</strong><br>
-        Dottorando - Università Roma Tre<br>
+    </div>
+    <div style="margin: 4px 0;">
+        Piattaforma di Analisi della Robustezza dell'Orientamento nei PTOF •
+        Sviluppato da <strong>Daniele Dragoni</strong> — Dottorando, Università Roma Tre •
         📧 <a href="mailto:daniele.dragoni@uniroma3.it">daniele.dragoni@uniroma3.it</a>
-    </p>
-    <p style="margin: 15px 0; font-size: 0.75rem; color: #888;">
+    </div>
+    <div style="margin: 8px 0 4px; font-size: 0.75rem; color: #888;">
         <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" style="color: #888;">
-            <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="CC BY-NC-ND 4.0" style="vertical-align: middle; margin-right: 5px;">
-        </a><br>
-        Quest'opera è distribuita con Licenza <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it" target="_blank" style="color: #666;">Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a><br>
+            <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="CC BY-NC-ND 4.0" style="vertical-align: middle;">
+        </a>
+    </div>
+    <div style="margin: 4px 0; font-size: 0.75rem; color: #888;">
+        Quest'opera è distribuita con Licenza
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it" target="_blank" style="color: #666;">Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a> •
         <strong>ORIENTA+</strong> è un marchio registrato.
-    </p>
+    </div>
 </div>
     """, unsafe_allow_html=True)

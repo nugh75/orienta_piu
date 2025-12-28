@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:27:59.119387",
+  "last_updated": "2025-12-28T17:43:43.852754",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1341,
-  "schools_processed": 24,
+  "total_practices": 1377,
+  "schools_processed": 25,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -75388,6 +75388,2197 @@
         "model_used": "qwen3:32b",
         "source_file": "FGAA85802N_ptof.md",
         "chunk_source": 9
+      }
+    },
+    {
+      "id": "1543988d-afa9-4fe1-9817-6c2cbb00d346",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Multimediali e di Arte",
+        "descrizione": "La scuola dispone di laboratori informatici, linguistici, scientifici, di arte e musica, con strumentazioni tecnologiche (View Board, PC) e spazi alternativi all'apprendimento come l'anfiteatro esterno. Alcuni plessi hanno aule adibite a laboratori con dotazioni aggiornate.",
+        "metodologia": "Utilizzo di laboratori per attività didattiche interdisciplinari e cooperative, con focus su apprendimento esperienziale e integrazione di tecnologie digitali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di Scuola Primaria e Secondaria",
+        "citazione_ptof": "Tutti i plessi di scuola Primaria e Secondaria I grado sono forniti di strumentazioni informatiche (View Board e PC). Alcune aule sono adibite a laboratori (informatico, linguistico, scientifico, di arte, di musica).",
+        "pagina_evidenza": "Pagina 13"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:29:18.147933",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "0a8e867f-d371-4572-a632-5bb9047100f9",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Associazioni e Enti Locali",
+        "descrizione": "La scuola collabora con associazioni sportive, culturali e di protezione civile per iniziative legate a legalità, memoria storica e interculturalità. Il Comune ha patrocinato eventi come la Giornata della Memoria e la Giornata contro le Mafie.",
+        "metodologia": "Progetti di cittadinanza attiva e sensibilizzazione sociale attraverso eventi e percorsi formativi con enti esterni.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cittadinanza e Legalità"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti e Comunità Locale",
+        "citazione_ptof": "Con la maggior parte di esse la scuola ha instaurato rapporti di collaborazione finalizzati alla promozione di iniziative culturali... rilevante è stata la collaborazione con i Volontari della Protezione Civile.",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:29:18.147985",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "c9277506-e050-46d9-9e9c-e455bb4ef513",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Anfiteatro Esterno per Attività Didattiche",
+        "descrizione": "Il plesso di Scuola Secondaria I grado dispone di un anfiteatro esterno di medie dimensioni, utilizzato per attività didattiche e culturali in contesto naturale.",
+        "metodologia": "Apprendimento in ambiente aperto per favorire interazione sociale e approccio esperienziale ai contenuti.",
+        "tipologie_metodologia": [
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di Scuola Secondaria",
+        "citazione_ptof": "Il plesso di scuola secondaria I grado... ha un anfiteatro esterno di medie dimensioni.",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:29:18.148010",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "c96d7efe-2692-4e24-bce5-c22e25aa6242",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione alle pari opportunità interdisciplinare",
+        "descrizione": "Integrazione curricolare dell'educazione alle pari opportunità e prevenzione della violenza di genere, realizzata come area interdisciplinare ad opera di tutti gli insegnanti della classe o plesso, nell'ambito dell'Ed. civica.",
+        "metodologia": "Approccio interdisciplinare con coinvolgimento di tutti gli insegnanti del plesso, attività laboratoriali e progetti di cittadinanza attiva.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Educazione Civica"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Educazione alle pari opportunità... curricularmente come area integrata interdisciplinare ad opera di tutti gli insegnanti della classe o del plesso.",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:30:34.566702",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "1599b802-41ea-46c1-9b72-675ff34155c0",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Recupero Italiano e Matematica",
+        "descrizione": "Progetti di recupero per consolidare le competenze linguistiche e matematiche, con attività mirate a migliorare la comprensione testuale, il calcolo e la risoluzione di problemi.",
+        "metodologia": "Strategie di rinforzo differenziate, esercizi graduati per livelli di difficoltà, utilizzo di strumenti compensativi e laboratori di apprendimento.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti con lacune in Italiano e Matematica",
+        "citazione_ptof": "Attivazione di un percorso di ampliamento curriculare... recupero e consolidamento degli apprendimenti di base.",
+        "pagina_evidenza": "Pagina 31"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:30:34.566743",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "976d709c-5d13-4a2c-ae13-482d123fb858",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione docenti per innovazione didattica",
+        "descrizione": "Potenziamento delle competenze digitali e metodologiche dei docenti attraverso percorsi di formazione mirati all'uso consapevole delle tecnologie e alla didattica laboratoriale.",
+        "metodologia": "Corsi di formazione interni, sperimentazione di metodologie innovative (es. CLIL, coding), utilizzo di piattaforme digitali come Scuola Futura.",
+        "tipologie_metodologia": [
+          "Formazione Docenti",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente",
+        "citazione_ptof": "Formazione dei docenti per l'innovazione didattica e lo sviluppo della cultura digitale.",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:30:34.566763",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e0c4d1ea-0c39-40d7-8dfb-a57e22d0d70a",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori di orientamento precoce",
+        "descrizione": "Attività verticali per scoprire le vocazioni personali sin dalla scuola primaria, con laboratori creativi e percorsi di mentoring tra studenti.",
+        "metodologia": "Progetti cogestiti dagli studenti, laboratori di musica, arte, media e digitale, tutoraggio tra pari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti della scuola primaria e secondaria",
+        "citazione_ptof": "Laboratori di orientamento precoce e attitudinale... per valorizzare i talenti e il protagonismo giovanile.",
+        "pagina_evidenza": "Pagina 35"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:30:34.566783",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "6e4ebf39-c0ff-4941-a221-9902060a2dca",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Future Class - Ambienti di apprendimento innovativi",
+        "descrizione": "Riqualificazione degli spazi didattici con arredi modulari, tecnologie interattive e metodologie attive per favorire l'apprendimento collaborativo e digitale.",
+        "metodologia": "Utilizzo di monitor interattivi, dispositivi personali, ambienti virtuali e metodologie STEM/STEAM integrate.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Spazi innovativi per il primo ciclo... con ottimizzazione dei monitor interattivi e dispositivi digitali.",
+        "pagina_evidenza": "Pagina 37"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:30:34.566800",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "abf4bc6e-50b4-4350-8640-6283098d965a",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Coding e Robotica PNRR",
+        "descrizione": "Progetto finanziato con fondi PNRR per implementare competenze STEM attraverso attività di coding e robotica in tutte le scuole dell'infanzia, primaria e secondaria. Coinvolge studenti in percorsi laboratoriali innovativi.",
+        "metodologia": "Attività hands-on in laboratori attrezzati con strumenti digitali, metodologia learning by doing e problem solving.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti di scuola dell'infanzia, primaria e secondaria di I grado",
+        "citazione_ptof": "Coding e Robotica nella scuola dell’Infanzia- Intervento PNRR; Coding - Intervento PNRR",
+        "pagina_evidenza": "Pagina 48, Pagina 50"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:32:15.195724",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "0ecd72e7-05f8-4b7b-940c-1af1886e84d7",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Next Generation Classrooms",
+        "descrizione": "Trasformazione di ambienti tradizionali in spazi ibridi con arredi flessibili, tecnologie avanzate e didattica collaborativa. Promuove peer learning, problem solving e inclusione.",
+        "metodologia": "Riorganizzazione fisica e virtuale degli spazi con metodologie attive e utilizzo di tecnologie digitali integrate.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti e docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Realizzazione di 'Next Generation Classrooms' con spazi ibridi e tecnologie avanzate",
+        "pagina_evidenza": "Pagina 46"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:32:15.195800",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "192e7dea-0577-4223-9dc1-b9a6037635ce",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Uscite Didattiche Territoriali",
+        "descrizione": "Attività di visita guidata e spettacoli teatrali per studenti di ogni ordine di scuola, con focus su cultura locale (es. Museo di Biologia Marina, Parco Archeologico Okra).",
+        "metodologia": "Apprendimento esperienziale con integrazione di contenuti curriculari e contesti reali.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Lettura e Scrittura"
+        ],
+        "target": "Studenti di scuola dell'infanzia, primaria e secondaria",
+        "citazione_ptof": "Museo di Biologia marina (Porto Cesareo); Parco archeologico OKRA (Otranto)",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:32:15.195822",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "2439b66a-7e21-47e4-8e1b-7b9909ce2fc8",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "E-Portfolio per l'Orientamento",
+        "descrizione": "Implementazione di un portafolio digitale per documentare il percorso formativo e supportare le scelte future degli studenti, integrato con il consiglio di orientamento.",
+        "metodologia": "Utilizzo di piattaforme digitali per la raccolta di prove di apprendimento e riflessioni personali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Consiglio di orientamento contenuto in una sezione dell’E-Portfolio a partire dal 2024/2025",
+        "pagina_evidenza": "Pagina 56"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:32:15.195841",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "fb34d1c7-6179-43f8-a797-25380e188cbc",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio Motorio e Corporeità",
+        "descrizione": "Attività strutturate per sviluppare autonomia, salute e consapevolezza corporea nei bambini della scuola dell'infanzia attraverso giochi motori, schemi posturali e interazione con l'ambiente.",
+        "metodologia": "Utilizzo di giochi individuali e di gruppo con attrezzi, adattamento alle situazioni ambientali e valutazione del rischio durante le attività motorie.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sport e Benessere"
+        ],
+        "target": "Scuola dell'infanzia",
+        "citazione_ptof": "Il bambino vive pienamente la propria corporeità... interagisce con gli altri nei giochi di movimento...",
+        "pagina_evidenza": "Pagina 64"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:38:20.865611",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "1b8fc613-3571-4870-9a4a-7e9e017f555e",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Internazionalizzazione con Erasmus+ e CLIL",
+        "descrizione": "Progetto per sviluppare competenze interculturali e linguistiche attraverso formazione docenti, certificazioni linguistiche e metodologia CLIL, con partenariati europei.",
+        "metodologia": "Formazione linguistica, certificazioni internazionali (Cambridge, DELF) e implementazione di CLIL in contesti didattici.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Formazione dei docenti su progettazione europea... Introduzione della metodologia CLIL...",
+        "pagina_evidenza": "Pagina 73"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:38:20.865783",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "f9eb04cc-5f0d-48a9-8465-14216ab4b755",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio STEM Multidisciplinare",
+        "descrizione": "Attività laboratoriali per promuovere pensiero scientifico e computazionale, con esperti esterni (biologi, archeologi) e strumenti digitali (Scratch, coding unplugged).",
+        "metodologia": "Approccio interdisciplinare con laboratori pratici, sperimentazione in aula e utilizzo di risorse digitali per problemi reali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Scuola Primaria",
+        "citazione_ptof": "L’apprendimento esperienziale attraverso attività pratiche... utilizzo di risorse digitali e programmazione (coding unplugged e Scratch)...",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:38:20.865807",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "1568bed6-163d-410d-b375-3823c455cdfe",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Modulo di Orientamento 'Alla scoperta di sé'",
+        "descrizione": "Iniziativa per le classi prime della scuola secondaria per promuovere consapevolezza personale e scelte future attraverso attività di autoanalisi e progettazione.",
+        "metodologia": "Attività di gruppo e laboratori per esplorare interessi, competenze e progetti di vita, con 197 ore curriculari e 261 extracurriculari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Imprenditorialità"
+        ],
+        "target": "Classi Prime Scuola Secondaria",
+        "citazione_ptof": "L'obiettivo principale dell'azione orientativa è promuovere la consapevolezza della persona rispetto alla propria carriera lavorativa...",
+        "pagina_evidenza": "Pagina 81"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:38:20.865829",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "827fbe43-79e2-4229-aa82-acd1d05b3688",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto CyberBelli - Prevenzione Cyberbullismo",
+        "descrizione": "Iniziativa per contrastare il cyberbullismo attraverso incontri formativi, laboratori e collaborazione con associazioni (ADOC) e polizia postale.",
+        "metodologia": "Ciclo di incontri con alunni e genitori, attività informative e laboratoriali in collaborazione con enti esterni.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti e famiglie",
+        "citazione_ptof": "L’Istituto avvia un progetto per il contrasto al Cyberbullismo... in collaborazione con l’associazione ADOC e la polizia postale.",
+        "pagina_evidenza": "Pagina 85"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:38:20.865849",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "00c83fcb-a06d-462c-ab8d-6309aa81594b",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Ecologia e Benessere",
+        "descrizione": "Progetto interdisciplinare che unisce sostenibilità ambientale, dieta mediterranea e rigenerazione degli scarti, con collaborazioni con FAI e Heraclea. Include compostaggio, tutela del territorio e riscoperta di tradizioni locali.",
+        "metodologia": "Implementato attraverso attività laboratoriali, collaborazioni con enti esterni e approccio interdisciplinare, con focus su Service Learning e Project Work.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Educazione Civica"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Il progetto Ecologia e benessere... promozione di pratiche e comportamenti che valorizzino: 1. La tutela del territorio... 3. Scoperta del ciclo di rigenerazione degli scarti (dalla cucina al compost)...",
+        "pagina_evidenza": "Pagina 93"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:39:28.994296",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "edc54575-6da7-49f5-a9a6-717ee65e3332",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con FAI per 'Luoghi del Cuore'",
+        "descrizione": "Attività di valorizzazione del territorio e identità locale in collaborazione con il Fondo Ambiente Italiano (FAI), focalizzata sulla riscoperta di aree culturalmente significative.",
+        "metodologia": "Realizzata attraverso visite guidate, progetti di restauro partecipativo e attività didattiche integrate con il curricolo.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Valorizzazione del territorio e dell'identità (a partire dalla riscoperta dei 'luoghi del cuore' in collaborazione con il FAI)",
+        "pagina_evidenza": "Pagina 93"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:39:28.994346",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "1f64e5b6-81c3-42de-8fda-8c2dc6aaec70",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curricolo Verticale Consapevolezza Digitale e STEM",
+        "descrizione": "Progetto triennale per introdurre il pensiero computazionale nella scuola primaria, con standard di interoperabilità e contenuti digitali integrati nel curricolo.",
+        "metodologia": "Implementato attraverso percorsi verticali, formazione del personale e utilizzo di strumenti digitali interoperabili.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti e Personale Scolastico",
+        "citazione_ptof": "Costruzione curricolo verticale per la consapevolezza digitale e le STEM... Portare il pensiero computazionale a tutta la scuola primaria",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:39:28.994370",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "4a222a1f-a9fc-4fe4-bd0d-a47dc3c738b7",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Animatore Digitale in Ogni Scuola",
+        "descrizione": "Iniziativa per dotare ogni scuola di un referente digitale che supporti l'implementazione delle tecnologie e la formazione del personale.",
+        "metodologia": "Realizzata attraverso formazione continua, accompagnamento tecnico e gestione di progetti digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale Scolastico",
+        "citazione_ptof": "Un animatore digitale in ogni scuola... Descrizione sintetica dei destinatari e dei risultati attesi",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:39:28.994391",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "440d2b71-2252-4889-afb1-d76888752aa6",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Valutazione Formativa con Rubriche Descrittive",
+        "descrizione": "Sistema di valutazione basato su rubriche descrittive per gli studenti della scuola primaria, con feedback specifico e focus sull'autoregolazione.",
+        "metodologia": "Implementato attraverso verifiche in itinere, osservazioni sistematiche e adattamento ai bisogni individuali.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti e Personale Scolastico",
+        "citazione_ptof": "La valutazione formativa... può consentire agli studenti di identificare i propri punti di forza e le aree di miglioramento",
+        "pagina_evidenza": "Pagina 97"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:39:28.994411",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "24e32d07-f5ff-489f-83ec-4bf72cfa7271",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Criteri Strutturati per l'Ammissione alla Classe Successiva",
+        "descrizione": "La scuola adotta criteri chiari e documentati per l'ammissione alla classe successiva, richiedendo un voto minimo di 6/10 in tutte le discipline e comportamento. La non ammissione è deliberata all'unanimità solo dopo interventi di recupero documentati.",
+        "metodologia": "Decisioni collettive dei docenti con documentazione di interventi di recupero, adottando un approccio sistemico e trasparente.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "La non ammissione è comunque possibile dopo che siano stati adottati e documentati interventi di recupero che non abbiano dato risultati produttivi.",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:40:49.665855",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "efe4d656-f8ea-42b7-974e-8f265e38914e",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi di Recupero in Orario Curricolare",
+        "descrizione": "La scuola attua percorsi di recupero/potenziamento in orario curricolare per italiano e matematica, specialmente nelle classi a tempo prolungato, per supportare studenti con difficoltà.",
+        "metodologia": "Attività strutturate in gruppi di livello, con monitoraggio degli esiti e collaborazione tra docenti curricolari e di sostegno.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti con BES, DSA, difficoltà di apprendimento",
+        "citazione_ptof": "Nella scuola Secondaria, nelle classi a tempo prolungato, è stato attuato un percorso di recupero/potenziamento in orario curricolare per il potenziamento di italiano e matematica.",
+        "pagina_evidenza": "Pagina 117"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:40:49.665979",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "3a44f1b4-2b1b-478c-83c0-57b8df7a4330",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Certificazione delle Competenze con Livelli Definiti",
+        "descrizione": "La scuola certifica le competenze degli studenti al termine del primo ciclo, utilizzando livelli (A-D) basati su competenze chiave europee e un processo di valutazione globale del percorso scolastico.",
+        "metodologia": "Descrizione formale delle competenze acquisite, con riferimento a indicatori esplicativi e collaborazione tra insegnanti e Dirigente Scolastico.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti, genitori",
+        "citazione_ptof": "Il documento di certificazione delle competenze viene consegnato ai genitori degli alunni insieme con il Documento di valutazione della classe V e al Diploma di Licenza di scuola secondaria di I grado.",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:40:49.666000",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "9efd093a-df9e-4a1b-9e62-a4dfab832693",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Gruppo di Lavoro per l'Inclusione (GLI) Multidisciplinare",
+        "descrizione": "Il GLI include Dirigente Scolastico, docenti, famiglie e specialisti ASL per definire Piani Educativi Individualizzati (PEI) e garantire un'adattamento efficace degli studenti con BES.",
+        "metodologia": "Collaborazione tra team educativo, sanitario e familiare, con socializzazione dei PEI nel GLO e monitoraggio continuo.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti con BES, disabilità, DSA",
+        "citazione_ptof": "Il GLI opera in maniera efficace ed è composto da docenti, genitori, rappresentanti dell'Ente Locale e della sanità.",
+        "pagina_evidenza": "Pagina 117"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:40:49.666016",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c3caedd0-700c-448b-8d4a-005f54123d07",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetto 'Cittadinando insieme verso il futuro'",
+        "descrizione": "Iniziativa per promuovere rispetto delle differenze culturali e integrazione, coinvolgendo studenti stranieri e progetti di inclusione extrascolastica.",
+        "metodologia": "Attività interculturali e progetti di ampliamento dell'Offerta Formativa, con protocolli d'accoglienza e percorsi di recupero linguistico.",
+        "tipologie_metodologia": [
+          "Intercultura",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti stranieri, classe intera",
+        "citazione_ptof": "La scuola promuove il rispetto delle differenze e della diversità culturale attraverso progetti di ampliamento dell'Offerta formativa afferenti al Progetto di Istituto 'Cittadinando insieme verso il futuro'.",
+        "pagina_evidenza": "Pagina 117"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:40:49.666034",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "882a9916-7427-4c05-804a-f7ed24cd66e5",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piani Educativi e Didattici Personalizzati per BES",
+        "descrizione": "Redazione di Piani Educativi Individualizzati (PEI) e Piani Didattici Personalizzati (PDP) per studenti con disabilità, DSA e BES, con obiettivi specifici e trasversali come l'accoglienza socio-affettiva e didattica inclusiva. Gli strumenti compensativi (testi digitali, sintesi vocale) e le verifiche graduate sono implementati in base ai piani.",
+        "metodologia": "Costruzione collaborativa in C.d.C. con obiettivi didattici e di sistema. Utilizzo di strumenti compensativi e adattamenti metodologici (verifiche orali, riduzione quantitativa).",
+        "tipologie_metodologia": [
+          "Didattica Inclusiva",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con disabilità, DSA e BES",
+        "citazione_ptof": "Piani Educativi Individualizzati ex art. 12 L. 104/1992 e Piani Didattici Personalizzati ex DM 5669/2011 con obiettivi di sistema come accoglienza e comunicazione inclusiva.",
+        "pagina_evidenza": "Pagina 117"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:42:12.555202",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ae6670a8-49fd-4d2b-9992-87ca841dc503",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Valutazione Differenziata per Studenti con Disabilità",
+        "descrizione": "Quattro modalità di valutazione adattate alle esigenze: analoga alla classe, settoriale, relativa a percorsi personalizzati e differenziata. La valutazione si basa esclusivamente sugli obiettivi del PEI, con flessibilità nella programmazione e modifica in itinere.",
+        "metodologia": "Definizione di criteri specifici nel PEI e relazioni annuali. Valutazione dei processi piuttosto che della performance.",
+        "tipologie_metodologia": [
+          "Valutazione Formativa"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con disabilità",
+        "citazione_ptof": "Modalità di valutazione differenziata rapportata agli obiettivi formativi del PEI, con flessibilità e modifica in itinere.",
+        "pagina_evidenza": "Pagina 118"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:42:12.555365",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "3e60693f-5158-4a26-b8dd-e9f84b33df50",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Strumenti Compensativi per Studenti con DSA",
+        "descrizione": "Utilizzo di strumenti compensativi (registrazione lezioni, testi digitali, sintesi vocale) e adattamenti metodologici (verifiche graduate, riduzione quantitativa, valutazione dei contenuti). Si privilegia la comprensione rispetto alla forma e si evita la mortificazione con errori evidenziati in rosso.",
+        "metodologia": "Implementazione di strumenti tecnologici e adattamenti didattici in classe, con focus sull'autovalutazione e progressi dell'alunno.",
+        "tipologie_metodologia": [
+          "Didattica Inclusiva",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con DSA",
+        "citazione_ptof": "Strumenti compensativi come registrazione lezioni e testi digitali, con verifiche graduate e valutazione dei contenuti piuttosto che della forma.",
+        "pagina_evidenza": "Pagina 119"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:42:12.555386",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "c7062385-306c-40f4-bc38-4a50fb60642b",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Organizzazione Funzionigramma e Referenti Tematici",
+        "descrizione": "Struttura organizzativa con funzionigramma dettagliato, referenti per aree specifiche (inclusione, salute, cyberbullismo) e gruppi di lavoro tematici (curricolo verticale, recupero e potenziamento). Definizione di responsabilità e collaborazione interdipartimentale.",
+        "metodologia": "Pianificazione partecipata con delibere e assegnazione di ruoli specifici per garantire efficienza e trasparenza.",
+        "tipologie_metodologia": [
+          "Gestione di Progetti"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti, staff e studenti",
+        "citazione_ptof": "Funzionigramma con referenti per inclusione, salute, cyberbullismo e gruppi di lavoro tematici (curricolo verticale, recupero).",
+        "pagina_evidenza": "Pagina 127"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:42:12.555406",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "0b0f6422-238a-411c-96a9-514d08854101",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Protocollo Istruzione Domiciliare",
+        "descrizione": "Attivazione di un protocollo strutturato per l'istruzione domiciliare con moduli specifici (richiesta genitori, relazione finale, registro interventi) e certificazione medica. Monitoraggio continuo con documentazione dettagliata.",
+        "metodologia": "Procedura standardizzata con modelli predefiniti e collaborazione tra famiglia, scuola e servizi sanitari.",
+        "tipologie_metodologia": [
+          "Gestione di Progetti"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti impossibilitati a frequentare",
+        "citazione_ptof": "Documentazione necessaria per l'istruzione domiciliare (Mod. A-F) e attivazione in qualsiasi momento dell'anno scolastico.",
+        "pagina_evidenza": "Pagina 121"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:42:12.555429",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "8664851d-cc90-4a05-8d37-209a0d6aa2da",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Coordinamento azioni di continuità interordini",
+        "descrizione": "Progettazione e realizzazione di raccordi disciplinari e per ambiti tra infanzia, primaria e secondaria. Definizione di appuntamenti per il passaggio di informazioni e esperienze tra i diversi ordini di scuola.",
+        "metodologia": "Attività di coordinamento tra docenti di diversi ordini, con definizione di griglie di osservazione e momenti di confronto strutturati.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti, docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Coordinamento azioni di continuità: passaggio informazioni classi, definizione appuntamenti per raccordi disciplinari...",
+        "pagina_evidenza": "Pagina 141"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:43:43.761021",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "0084feed-8eed-44d4-a1d4-def3b54a2fd0",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Utilizzo della piattaforma COSMI per il PEI",
+        "descrizione": "Implementazione di una piattaforma digitale per la redazione del Piano Educativo Individualizzato (PEI) basato sull'ICF. Consente condivisione con famiglie, definizione di obiettivi e monitoraggio collaborativo tra docenti, genitori e specialisti.",
+        "metodologia": "Integrazione di strumenti digitali per la personalizzazione dell'apprendimento e la collaborazione interprofessionale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti con bisogni educativi speciali, famiglie, equipe educativa",
+        "citazione_ptof": "L'Istituto utilizza la piattaforma COSMI per la redazione del PEI (Piano Educativo Individualizzato) su base ICF...",
+        "pagina_evidenza": "Pagina 159"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:43:43.761091",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "95bb8352-2f24-4679-a81c-c7b2c6911e6b",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Commissione formazione classi",
+        "descrizione": "Coordinamento e partecipazione alla progettazione delle classi, con focus sull'organizzazione didattica e la gestione delle risorse umane.",
+        "metodologia": "Lavoro di gruppo strutturato con coordinatori e docenti per definire criteri di formazione e gestione delle classi.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti, studenti",
+        "citazione_ptof": "Coordinamento e partecipazione ai lavori della Commissione formazione classi.",
+        "pagina_evidenza": "Pagina 141"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:43:43.761114",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "eae57e31-eb91-442f-8f99-b5d509d06ca5",
+      "school": {
+        "codice_meccanografico": "BRMM82401B",
+        "nome": "Sms- A.Manzoni-S.Pancrazio",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Brindisi",
+        "comune": "San Pancrazio Salentino",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Gruppo Curricolo Verticale",
+        "descrizione": "Coordinamento tra infanzia, primaria e secondaria per l'armonizzazione dei curricoli e la progettazione didattica congiunta.",
+        "metodologia": "Lavoro di rete tra docenti di diversi ordini con analisi congiunta dei percorsi disciplinari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Gruppo Curricolo verticale (infanzia-primaria-secondaria); Italiano: Ripa Vita Antonia, Spinelli Lorenza...",
+        "pagina_evidenza": "Pagina 145"
+      },
+      "contesto": {
+        "maturity_index": 4.25,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Fatti di carta",
+          "L'ambiente che vorrei",
+          "Laboratorio Donna"
+        ],
+        "attivita_correlate": [
+          "Laboratori di orientamento precoce e attitudinale",
+          "Tutoraggio tra pari",
+          "Sanpa’s Got Talent",
+          "Uscite didattiche scuola dell'infanzia",
+          "Uscite didattiche scuola primaria",
+          "Uscite didattiche scuola secondaria di I grado",
+          "Valorizziamoci",
+          "Sogni e progetti di vita",
+          "CyberBelli",
+          "IN_GRANO"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:43:43.761151",
+        "model_used": "qwen3:32b",
+        "source_file": "BRMM82401B_ptof.md",
+        "chunk_source": 8
       }
     }
   ]
