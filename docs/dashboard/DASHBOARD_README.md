@@ -1,97 +1,573 @@
 # Dashboard Analisi PTOF - Guida Rapida
 
-## Stato del Sistema ✅
+Per la mappa documentazione vedi [MAP](../MAP.md).
+Per lo stato e i test vedi [DASHBOARD_STATUS](DASHBOARD_STATUS.md).
 
-La dashboard Streamlit è **pienamente funzionante** con tutti i componenti verificati.
+## Avvio rapido
 
-### Test Eseguiti (25/12/2025)
+### Metodo 1: Makefile (consigliato)
+```bash
+make dashboard
+```
 
-- ✅ Moduli Python (streamlit, plotly, pandas, numpy)
-- ✅ File dati (91 scuole, 43 colonne)
-- ✅ Integrità CSV (indice medio: 2.99)
-- ✅ Moduli custom (data_utils, data_manager)
-- ✅ 16 pagine dashboard
-- ✅ Sintassi corretta in tutti i file
-
-## Avvio Rapido
-
-### Metodo 1: Script di Avvio (Consigliato)
-
+### Metodo 2: Script di avvio
 ```bash
 ./start_dashboard.sh
 ```
 
-### Metodo 2: Comando Diretto
-
+### Metodo 3: Comando diretto
 ```bash
 streamlit run app/Home.py
 ```
 
-### Metodo 3: Modulo Python
-
+### Metodo 4: Modulo Python
 ```bash
 python -m streamlit run app/Home.py
 ```
 
-## Accesso alla Dashboard
+## Accesso alla dashboard
 
-Una volta avviata, la dashboard sarà disponibile su:
+- Locale: http://localhost:8501
+- Rete: http://192.168.4.117:8501 (se accessibile da rete locale)
 
-- **Locale**: http://localhost:8501
-- **Rete**: http://192.168.4.117:8501 (se accessibile da rete locale)
+## Sezioni della dashboard (stato attuale)
 
-## Struttura Dashboard
+- Panoramica (Home): indicatori sintetici e distribuzioni nazionali.
+- Dettaglio Scuola: profilo scuola, report MD/PDF, best practice collegate, gap analysis e confronto con peer (radar per tipologia/area/nazionale).
+- Confronto PTOF: analisi comparativa tra scuole.
+- Analisi territoriale: mappe, confronti geografici e report regionali.
+- Ranking e Benchmark: classifiche, posizionamento e confronti multidimensionali.
+- Analytics avanzati: analisi statistiche, correlazioni e visualizzazioni esplorative.
+- Ricerca / Impatto metodologie: esplorazione di approcci didattici e relativi esiti.
+- Catalogo Buone Pratiche: estrazione, filtri, incroci categoria e analisi statistiche (significativita ed effetto).
+- Orientamento Scuola: percorso guidato per famiglie/studenti con matching scuole.
+- Gestione dati (area amministrativa): qualita, filtri e allineamento metadati.
+- Contribuisci: Invia PTOF, Verifica Invio, Richiedi Revisione.
+- Documentazione: metodologia e guida.
 
-### Homepage (Home.py)
-- 📈 Indicatori chiave (scuole, indice medio, sezioni dedicate, partnership)
-- 📊 Distribuzione per territorio, grado e area
-- 🧩 Medie per dimensione (Finalità, Obiettivi, Governance, Didattica, Opportunità)
-- 📋 Classifica completa
-
-### Pagine Disponibili
-
-1. **📊 Confronti Gruppi** - Comparazioni statistiche tra gruppi di scuole
-2. **🗺️ Mappa Italia** - Visualizzazione geografica, analisi regionale e **hotspot geografici**
-3. **🏆 Benchmark** - Classifiche e posizionamento relativo
-4. **📈 Indicatori Statistici** - Test statistici, KPI e **confronto Statale vs Paritaria**
-5. **🔬 Clustering e Correlazioni** - Cluster, correlazioni, word cloud e **debolezze sistemiche**
-6. **🕸️ Visualizzazioni Avanzate** - Radar chart, Sankey, Sunburst
-7. **🏫 Dettaglio Scuola** - Scheda approfondita singola scuola + **export PDF**
-8. **📋 Esplora Dati** - Dati grezzi, statistiche descrittive e **filtri con export avanzato**
-9. **ℹ️ Documentazione** - Metodologia e guida al sistema
-10. **✏️ Modifica Metadati** - Revisione e modifica dati scuole
-11. **🛡️ Backup** - Gestione backup e ripristino
-12. **🎯 Gap Analysis** - Distanza da best-in-class e raccomandazioni automatiche
-13. **👥 Confronto Peer** - Matching e confronto con scuole simili
-14. **💡 Best Practice** - Text mining dai report delle scuole eccellenti
-15. **📊 Report Regionali** - Sintesi per USR con export Excel/CSV
-16. **📚 Report Best Practice LLM** - Report narrativo generato con AI (Ollama + Gemini)
-
-## Filtri Globali
+## Filtri globali
 
 La sidebar offre filtri per:
-- 🌍 Area Geografica (Nord Ovest, Nord Est, Centro, Sud, Isole)
-- 🏫 Tipo Scuola (Liceo, Tecnico, Professionale, ecc.)
-- 🗺️ Territorio (Metropolitano, Non Metropolitano)
-- 📚 Ordine Grado (Infanzia, Primaria, I Grado, II Grado)
-- 📊 Range Indice Robustezza (1.0 - 7.0)
+- Area Geografica (Nord Ovest, Nord Est, Centro, Sud, Isole)
+- Tipo Scuola (Liceo, Tecnico, Professionale, ecc.)
+- Territorio (Metropolitano, Non metropolitano)
+- Ordine Grado (Infanzia, Primaria, I Grado, II Grado)
+- Range Indice Robustezza (1.0 - 7.0)
 
-## Indicatori Principali
+## Indicatori principali
 
 ### Indice di Robustezza (1-7)
 Media delle 5 dimensioni di orientamento:
-- **Finalità**: Attitudini, Interessi, Progetto di vita
-- **Obiettivi**: Abbandono, NEET, Lifelong learning
-- **Governance**: Coordinamento, Monitoraggio
-- **Didattica**: Laboratoriale, Interdisciplinare
-- **Opportunità**: Culturali, Espressive, Sportive
+- Finalita: Attitudini, Interessi, Progetto di vita
+- Obiettivi: Abbandono, NEET, Lifelong learning
+- Governance: Coordinamento, Monitoraggio
+- Didattica: Laboratoriale, Interdisciplinare
+- Opportunita: Culturali, Espressive, Sportive
 
 ### Scala Likert
 - 1: Assente
 - 4: Sufficiente
 - 7: Eccellente
 
-## Risoluzione Problemi
+## Dati usati
+
+- data/analysis_summary.csv
+- analysis_results/*.json
+- analysis_results/*.md
+- data/best_practices.json
+- data/best_practice_registry.json
+
+## Catalogo Buone Pratiche
+
+Il catalogo raccoglie pratiche concrete estratte dai PTOF e le rende esplorabili
+per categoria, territorio, tipo scuola, target e metodologie.
+
+Funzioni principali:
+- Lista, vista raggruppata o tabellare con dettagli e citazioni.
+- Mappa di distribuzione geografica e dettaglio per regione.
+- Grafici di distribuzione (categoria, regione, tipo scuola).
+- Incroci categoria x dimensione con conteggi e percentuali.
+- Analisi statistiche con significativita ed effetto.
+- Export dei dati filtrati in JSON e CSV.
+
+## Trasparenza: prompt e dati
+
+### Criteri catalogo buone pratiche
+
+Il catalogo e costruito da estrazioni automatiche su testi PTOF.
+Le specifiche operative sono:
+
+- Categorie obbligatorie (6): Metodologie Didattiche Innovative, Progetti e Attivita Esemplari,
+  Partnership e Collaborazioni Strategiche, Azioni di Sistema e Governance,
+  Buone Pratiche per l'Inclusione, Esperienze Territoriali Significative.
+- Tipologie metodologia: elenco predefinito (es. STEM/STEAM, Flipped Classroom, PBL, Cooperative Learning, ecc.).
+- Ambiti di attivita: elenco predefinito (es. Orientamento, Inclusione, PCTO, Cittadinanza, ecc.).
+- Criterio di selezione: solo pratiche concrete e specifiche con evidenza testuale nel PTOF;
+  sono escluse formulazioni generiche.
+- Limite estrazione: massimo 5 pratiche per chunk di testo.
+- Campi richiesti per pratica: titolo, descrizione, metodologia, target, categoria, tipologie_metodologia,
+  ambiti_attivita, citazione_ptof, pagina_evidenza (se presente), partnership_coinvolte (solo per categoria partnership).
+
+### Prompt - Codice
+
+Prompt base (config/prompts.md): vedi file per il dettaglio completo.
+
+#### Review report (OpenRouter/Gemini) - prompt
+```text
+SEI UN EDITOR SCOLASTICO ESPERTO E METICOLOSO.
+Il tuo compito e ARRICCHIRE il report di analisi esistente (Markdown) integrando
+dettagli specifici estratti dal documento originale (PTOF), SENZA stravolgere la
+struttura del report.
+
+DOCUMENTO ORIGINALE (PTOF - Fonte di verita):
+[TESTO PTOF TRONCATO]
+
+REPORT ATTUALE (Bozza da arricchire):
+[REPORT ATTUALE]
+
+ISTRUZIONI OPERATIVE:
+1. Confronta il report attuale con il PTOF originale.
+2. Identifica informazioni di valore presenti nel PTOF ma mancanti nel report:
+   - Nomi specifici di progetti.
+   - Dati quantitativi (ore, budget, percentuali).
+   - Metodologie didattiche particolari.
+   - Collaborazioni con enti specifici.
+3. Integra le informazioni nelle sezioni esistenti, con stile narrativo.
+4. Non cancellare sezioni, mantieni titoli e struttura.
+5. Non inventare nulla.
+6. Se il report e generico, rendilo piu specifico citando il testo.
+7. Se nel PTOF NON esiste un capitolo dedicato all'Orientamento, non inventarlo.
+
+STRUTTURA OBBLIGATORIA DA PRESERVARE:
+# Analisi del PTOF [CODICE]
+## Report di Valutazione dell'Orientamento
+### 1. Sintesi Generale
+### 2. Analisi Dimensionale
+#### 2.1 Sezione Dedicata all'Orientamento
+#### 2.2 Partnership e Reti
+#### 2.3 Finalita e Obiettivi
+#### 2.4 Governance e Azioni di Sistema
+#### 2.5 Didattica Orientativa
+#### 2.6 Opportunita Formative
+#### 2.7 Registro Dettagliato delle Attivita
+### 3. Punti di Forza
+### 4. Aree di Debolezza
+### 5. Gap Analysis
+### 6. Conclusioni
+
+OUTPUT RICHIESTO:
+Restituisci il contenuto Markdown del report arricchito, senza commenti extra.
+```
+
+#### Review report Ollama - prompt chunk
+```text
+SEI UN EDITOR SCOLASTICO ESPERTO.
+Stai analizzando un CHUNK del documento PTOF originale.
+
+COMPITO: Trova informazioni utili per ARRICCHIRE il report esistente.
+CHUNK DEL PTOF ORIGINALE:
+[TESTO CHUNK PTOF]
+
+REPORT ATTUALE (da arricchire):
+[REPORT ATTUALE - TRONCATO]
+
+RIEPILOGO SCORE JSON:
+[RIEPILOGO SCORE]
+
+ISTRUZIONI:
+1. Cerca informazioni specifiche mancanti nel report.
+2. Verifica se esiste una sezione dedicata all'orientamento.
+3. Segnala incongruenze tra report e PTOF.
+4. Non inventare nulla.
+
+RISPONDI con JSON:
+{
+  "enrichments": [
+    {
+      "section": "sezione report da arricchire",
+      "addition": "testo narrativo da aggiungere",
+      "source_quote": "citazione breve dal PTOF"
+    }
+  ],
+  "orientamento_section_found": true/false,
+  "orientamento_details": "descrizione sezione orientamento",
+  "corrections": [
+    {
+      "issue": "cosa va corretto",
+      "reason": "perche"
+    }
+  ]
+}
+```
+
+#### Review report Ollama - prompt finale
+```text
+SEI UN EDITOR SCOLASTICO ESPERTO.
+Devi produrre la versione finale ARRICCHITA del report.
+
+REPORT ATTUALE:
+[REPORT ATTUALE]
+
+ARRICCHIMENTI DA INTEGRARE:
+[JSON ARRICCHIMENTI]
+
+CORREZIONI DA APPLICARE:
+[JSON CORREZIONI]
+
+ISTRUZIONI CRITICHE:
+1. Integra gli arricchimenti nelle sezioni appropriate.
+2. Usa sempre stile narrativo e discorsivo.
+3. Applica le correzioni segnalate.
+4. Mantieni la struttura esistente del report.
+5. Non rimuovere sezioni.
+
+OUTPUT: restituisci solo il report Markdown completo arricchito.
+```
+
+#### Review punteggi estremi - prompt
+```text
+SEI UN REVISORE CRITICO. Devi verificare SOLO i punteggi estremi.
+Conferma o modifica i punteggi usando il testo come fonte di verita.
+
+ISTRUZIONE SPECIALE - SEZIONE ORIENTAMENTO:
+Verifica con estrema attenzione se esiste un capitolo esplicito di Orientamento.
+Se la sezione dedicata e alta ma nel testo non c'e un capitolo specifico,
+abbassa il punteggio.
+
+DOCUMENTO ORIGINALE (estratto):
+[TESTO PTOF]
+
+PUNTEGGI DA REVISIONARE (JSON):
+[JSON PUNTEGGI]
+
+CRITERI PUNTEGGIO (1-7):
+1 = Assente
+2 = Generico
+3 = Limitato
+4 = Sufficiente
+5 = Buono
+6 = Ottimo
+7 = Eccellente
+
+FORMATO OUTPUT (solo JSON valido):
+{
+  "score_updates": [
+    {
+      "path": "...",
+      "old_score": 2,
+      "new_score": 3,
+      "action": "modify",
+      "reason": "Spiega in breve."
+    }
+  ],
+  "review_notes": "Nota generale opzionale."
+}
+
+REGOLE:
+- Includi un elemento per ogni path ricevuto.
+- Se confermi: new_score = old_score e action = "confirm".
+- Nessun testo extra, solo JSON.
+```
+
+#### Estrazione buone pratiche - prompt
+```text
+/no_think
+SEI UN ESPERTO DI PRATICHE EDUCATIVE E ORIENTAMENTO SCOLASTICO.
+
+ANALIZZA questo estratto di PTOF scolastico e IDENTIFICA le BUONE PRATICHE concrete.
+
+SCUOLA: {school_code}
+CHUNK: {chunk_num}/{total_chunks}
+
+TESTO DA ANALIZZARE:
+{chunk[:25000]}
+
+---
+
+CATEGORIE DISPONIBILI (usa ESATTAMENTE questi nomi):
+1. "Metodologie Didattiche Innovative" - tecniche didattiche avanzate, approcci pedagogici innovativi
+2. "Progetti e Attivita Esemplari" - progetti strutturati, attivita significative documentate
+3. "Partnership e Collaborazioni Strategiche" - accordi con enti, universita, imprese, associazioni
+4. "Azioni di Sistema e Governance" - coordinamento, monitoraggio, strutture organizzative
+5. "Buone Pratiche per l'Inclusione" - BES, DSA, disabilita, integrazione stranieri
+6. "Esperienze Territoriali Significative" - legame col territorio, PCTO, stage
+
+TIPOLOGIE DI METODOLOGIA (scegli UNA o PIU tra queste, oppure "Altro"):
+STEM/STEAM, Coding e Pensiero Computazionale, Flipped Classroom, Peer Education/Tutoring,
+Problem Based Learning, Cooperative Learning, Gamification, Debate, Service Learning,
+Outdoor Education, Didattica Laboratoriale, Didattica Digitale, CLIL, Storytelling,
+Project Work, Learning by Doing, Mentoring
+
+AMBITI DI ATTIVITA (scegli UNO o PIU tra queste, oppure "Altro"):
+Orientamento, Inclusione e BES, PCTO/Alternanza, Cittadinanza e Legalita, Educazione Civica,
+Sostenibilita e Ambiente, Digitalizzazione, Lingue Straniere, Arte e Creativita,
+Musica e Teatro, Sport e Benessere, Scienze e Ricerca, Lettura e Scrittura,
+Matematica e Logica, Imprenditorialita, Intercultura, Prevenzione Disagio,
+Continuita e Accoglienza, Valutazione e Autovalutazione, Formazione Docenti,
+Rapporti con Famiglie
+
+PER OGNI BUONA PRATICA IDENTIFICATA, ESTRAI:
+- "categoria": una delle 6 categorie sopra (ESATTAMENTE come scritto)
+- "titolo": nome sintetico della pratica (max 100 caratteri)
+- "descrizione": descrizione dettagliata di cosa consiste e come funziona (200-500 caratteri)
+- "metodologia_desc": come viene implementata concretamente (testo libero)
+- "tipologie_metodologia": ARRAY di tipologie metodologiche applicabili (es: ["STEM/STEAM", "Didattica Laboratoriale"])
+- "ambiti_attivita": ARRAY di ambiti di attivita (es: ["Orientamento", "Digitalizzazione"])
+- "target": a chi e rivolta (studenti, docenti, famiglie, classi specifiche)
+- "citazione_ptof": citazione testuale rilevante dal documento (max 200 caratteri)
+- "pagina_evidenza": numero di pagina se menzionato (es: "Pagina 15") o "Non specificata"
+- "partnership_coinvolte": lista di partner nominati se categoria e Partnership, altrimenti array vuoto
+
+REGOLE FONDAMENTALI:
+1. Estrai SOLO pratiche CONCRETE e SPECIFICHE con un nome o una descrizione chiara
+2. IGNORA dichiarazioni generiche tipo "la scuola promuove l'orientamento"
+3. Ogni pratica DEVE avere evidenze testuali nel documento
+4. Se non trovi pratiche significative in questo chunk, rispondi con array vuoto
+5. MAX 5 pratiche per chunk (seleziona le piu significative)
+6. Il titolo deve essere SPECIFICO (es: "Laboratorio di Robotica Educativa", non "Attivita di laboratorio")
+7. tipologie_metodologia e ambiti_attivita devono essere ARRAY di stringhe (anche se c'e un solo elemento)
+
+RISPONDI SOLO con JSON valido (nessun testo prima o dopo):
+{
+  "pratiche": [
+    {
+      "categoria": "Nome Categoria Esatto",
+      "titolo": "Nome Specifico Pratica",
+      "descrizione": "Descrizione dettagliata...",
+      "metodologia_desc": "Come viene implementata...",
+      "tipologie_metodologia": ["STEM/STEAM", "Didattica Laboratoriale"],
+      "ambiti_attivita": ["Orientamento", "Digitalizzazione"],
+      "target": "A chi e rivolta",
+      "citazione_ptof": "Citazione dal documento...",
+      "pagina_evidenza": "Pagina X",
+      "partnership_coinvolte": []
+    }
+  ]
+}
+
+Se non trovi pratiche significative:
+{"pratiche": []}
+```
+
+### Prompt - Tabella
+
+| Prompt | Uso | Input | Output |
+|-------|-----|-------|--------|
+| Prompt base pipeline (config/prompts.md) | Prompt base pipeline | Testo PTOF / contesto | JSON o testo (vedi codice) |
+| Review report (OpenRouter/Gemini) | Arricchisce report MD con dettagli dal PTOF | Testo PTOF, report MD | Markdown report arricchito |
+| Review report Ollama - chunk | Estrae arricchimenti da chunk PTOF | Chunk PTOF, report MD, riepilogo score | JSON arricchimenti/correzioni |
+| Review report Ollama - finale | Compone report finale | Report attuale, arricchimenti, correzioni | Markdown finale |
+| Review punteggi estremi | Rivede punteggi troppo alti o bassi | Testo PTOF, JSON punteggi | JSON aggiornamenti |
+| Estrazione buone pratiche | Estrae pratiche concrete dal PTOF | Chunk PTOF | JSON pratiche |
+
+### JSON - Codice
+
+#### Analisi PTOF - output JSON
+```json
+{
+  "metadata": {
+    "school_id": "MIIS08900V",
+    "denominazione": "...",
+    "ordine_grado": "I Grado|II Grado",
+    "tipo_scuola": "Liceo|Tecnico|Professionale|I Grado",
+    "statale_paritaria": "Statale|Paritaria",
+    "area_geografica": "Nord Ovest|Nord Est|Centro|Sud|Isole"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "..."
+    },
+    "2_2_partnership": {
+      "partner_nominati": ["..."],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": { "score": 1 },
+      "finalita_interessi": { "score": 1 },
+      "finalita_progetto_vita": { "score": 1 }
+    }
+  },
+  "narrative": "Report markdown..."
+}
+```
+
+#### Review punteggi estremi - output JSON
+```json
+{
+  "score_updates": [
+    {
+      "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+      "old_score": 2,
+      "new_score": 3,
+      "action": "modify",
+      "reason": "Spiega in breve."
+    }
+  ],
+  "review_notes": "Nota generale opzionale."
+}
+```
+
+#### Review report Ollama - output JSON (chunk)
+```json
+{
+  "enrichments": [
+    {
+      "section": "sezione report da arricchire",
+      "addition": "testo narrativo da aggiungere",
+      "source_quote": "citazione breve dal PTOF"
+    }
+  ],
+  "orientamento_section_found": true,
+  "orientamento_details": "descrizione sezione orientamento",
+  "corrections": [
+    {
+      "issue": "cosa va corretto",
+      "reason": "perche"
+    }
+  ]
+}
+```
+
+#### Catalogo buone pratiche - output prompt
+```json
+{
+  "pratiche": [
+    {
+      "categoria": "Nome Categoria Esatto",
+      "titolo": "Nome Specifico Pratica",
+      "descrizione": "Descrizione dettagliata...",
+      "metodologia_desc": "Come viene implementata...",
+      "tipologie_metodologia": ["STEM/STEAM", "Didattica Laboratoriale"],
+      "ambiti_attivita": ["Orientamento", "Digitalizzazione"],
+      "target": "A chi e rivolta",
+      "citazione_ptof": "Citazione dal documento...",
+      "pagina_evidenza": "Pagina X",
+      "partnership_coinvolte": []
+    }
+  ]
+}
+```
+
+#### Catalogo buone pratiche - dataset (data/best_practices.json)
+```json
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01T12:00:00",
+  "extraction_model": "qwen3:32b",
+  "schools_processed": 120,
+  "total_practices": 560,
+  "practices": [
+    {
+      "id": "uuid",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istituto ...",
+        "tipo_scuola": "Liceo Scientifico",
+        "ordine_grado": "Secondaria II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio di Robotica Educativa",
+        "descrizione": "...",
+        "metodologia": "...",
+        "tipologie_metodologia": ["STEM/STEAM"],
+        "ambiti_attivita": ["Orientamento"],
+        "target": "Studenti",
+        "citazione_ptof": "...",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.6,
+        "punteggi_dimensionali": {},
+        "partnership_coinvolte": [],
+        "attivita_correlate": []
+      },
+      "metadata": {}
+    }
+  ]
+}
+```
+
+#### Catalogo buone pratiche - registry (data/best_practice_registry.json)
+```json
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01T12:00:00",
+  "processed_files": {
+    "RMIS02400L": {
+      "file_hash": "sha256:...",
+      "processed_at": "2025-01-01T12:00:00",
+      "practices_count": 12,
+      "model_used": "qwen3:32b"
+    }
+  }
+}
+```
+
+#### Anagrafica comuni (data/comuni_italiani.json)
+```json
+[
+  {
+    "nome": "Abano Terme",
+    "codice": "028001",
+    "zona": { "codice": "2", "nome": "Nord-est" },
+    "regione": { "codice": "05", "nome": "Veneto" },
+    "provincia": { "codice": "028", "nome": "Padova" },
+    "sigla": "PD",
+    "codiceCatastale": "A001",
+    "cap": "35031",
+    "popolazione": 0
+  }
+]
+```
+
+### JSON - Tabella
+
+| JSON | Dove | Scopo | Chiavi principali |
+|------|------|-------|------------------|
+| analysis_results/{CODICE}_analysis.json | Output analisi PTOF | Risultati strutturati + report | metadata, ptof_section2, narrative |
+| score_review_output.json (prompt) | Review punteggi | Correzioni punteggi estremi | score_updates[], review_notes |
+| ollama_chunk_output.json (prompt) | Review report chunk | Arricchimenti e correzioni | enrichments[], corrections[], orientamento_* |
+| best_practice_extraction_output.json (prompt) | Estrazione buone pratiche | Pratiche estratte per chunk | pratiche[] |
+| data/best_practices.json | Dataset catalogo | Dataset pratiche estratte | version, last_updated, extraction_model, schools_processed, total_practices, practices[] |
+| data/best_practice_registry.json | Registro estrazione | Stato e avanzamento | version, last_updated, processed_files{} |
+| data/comuni_italiani.json | Anagrafica territori | Normalizzazione comuni/province/regioni | nome, codice, zona{}, regione{}, provincia{}, sigla, cap, popolazione |
+
+#### Struttura pratica (tabellare)
+
+| Campo | Descrizione |
+|------|-------------|
+| id | Identificativo pratica |
+| school.* | Metadati scuola (codice, nome, tipo, area, territorio) |
+| pratica.categoria | Categoria assegnata (6 macro categorie) |
+| pratica.titolo | Titolo sintetico della pratica |
+| pratica.descrizione | Descrizione dettagliata (200-500 caratteri) |
+| pratica.metodologia | Metodologia descritta nel PTOF |
+| pratica.tipologie_metodologia | Lista di tipologie metodologia |
+| pratica.ambiti_attivita | Lista di ambiti di attivita |
+| pratica.target | Destinatari della pratica |
+| pratica.citazione_ptof | Citazione testuale dal PTOF |
+| pratica.pagina_evidenza | Pagina evidenza (se presente) |
+| contesto.* | Contesto (maturity_index, punteggi, partnership, attivita) |
+
+#### Registro estrazione (tabellare)
+
+| Campo | Descrizione |
+|------|-------------|
+| processed_files{codice}.file_hash | Hash file sorgente |
+| processed_files{codice}.processed_at | Timestamp elaborazione |
+| processed_files{codice}.practices_count | Numero pratiche estratte |
+| processed_files{codice}.model_used | Modello usato in estrazione |
+
+## Troubleshooting
 
 ### La dashboard non si avvia
 
@@ -112,13 +588,13 @@ streamlit run app/Home.py --logger.level=debug
 
 ### Dati non aggiornati
 
-Usa il pulsante "🔄 Aggiorna Dati" nella sidebar oppure:
+Usa il pulsante "Aggiorna Dati" nella sidebar oppure:
 
 ```bash
 python3 -c "from src.data.data_manager import update_index_safe; update_index_safe()"
 ```
 
-### Porta 8501 già in uso
+### Porta 8501 gia in uso
 
 ```bash
 streamlit run app/Home.py --server.port=8502
@@ -134,100 +610,16 @@ pip install watchdog
 
 ## Configurazione
 
-La configurazione si trova in [.streamlit/config.toml](.streamlit/config.toml):
+La configurazione si trova in .streamlit/config.toml:
 
 ```toml
 [theme]
 base = "light"
 ```
 
-## File Dati
-
-- **data/analysis_summary.csv** - Dataset principale (91 scuole)
-- **analysis_results/*.json** - File analisi JSON per scuola
-- **analysis_results/*.md** - Report analisi in markdown
-- **reports/best_practice_orientamento.md** - Report statistico (algoritmi)
-- **reports/best_practice_orientamento_narrativo.md** - Report narrativo (Ollama LLM)
-- **reports/best_practice_orientamento_sintetico.md** - Report sintetico (Gemini refactoring)
-
-## Metodologia Report Best Practice LLM
-
-Il sistema genera tre tipologie di report sulle best practice dell'orientamento:
-
-| Report | Comando | Descrizione |
-|--------|---------|-------------|
-| **Statistico** | `make best-practice` | Dati aggregati, classifiche, tabelle (algoritmi) |
-| **Narrativo** | `make best-practice-llm` | Analisi discorsiva completa (Ollama) |
-| **Sintetico** | `make best-practice-llm-synth` | Versione condensata del narrativo (Gemini) |
-
-### Fase 1: Report Narrativo (Ollama)
-
-Per ogni scuola analizzata, il modello qwen3:32b:
-1. Estrae punti di forza, didattica orientativa, opportunità formative
-2. Identifica progetti, partnership e azioni di sistema
-3. Arricchisce il report esistente con le nuove informazioni
-4. Divide il contenuto per **tipologia di scuola** (da CSV)
-5. Formatta automaticamente **codice** e **nome scuola** in neretto
-
-#### Struttura del Report Narrativo
-
-Il report è organizzato per:
-- **Sezioni principali** (##): Metodologie, Progetti, Partnership, Governance, Inclusione, Territorio
-- **Sottotitoli specifici** (####): Descrivono l'attività concreta (es. "Visite ai campus universitari")
-- **Tipologia scuola** (#####): Divisione per ordine e grado
-
-Le 6 tipologie di scuola (dal campo `tipo_scuola` del CSV):
-1. Scuole dell'Infanzia
-2. Scuole Primarie
-3. Scuole Secondarie di Primo Grado
-4. Licei
-5. Istituti Tecnici
-6. Istituti Professionali
-
-### Fase 2: Report Sintetico (Gemini)
-
-Comando separato che processa il report narrativo **sezione per sezione**:
-- Estrae ogni sezione `##` dal report narrativo
-- Invia ogni sezione a Gemini per il refactoring
-- Elimina ridondanze mantenendo tutti i riferimenti alle scuole
-- Unifica contenuti simili sotto categorie più ampie
-- Riduce la lunghezza del 30-50%
-
-#### Gestione Rate Limit
-- **Errore 429 Gemini**: Fallback automatico a OpenRouter (GPT OSS 120B)
-- **Backup automatico**: Creazione di `.bak` prima di sovrascrivere
-- **Sezione troppo corta**: Mantiene l'originale se riduzione >80%
-
-### Comandi
-
-```bash
-# Report statistico (algoritmi)
-make best-practice
-
-# Report narrativo con Ollama (incrementale)
-make best-practice-llm
-
-# Ricomincia report narrativo da zero
-make best-practice-llm-reset
-
-# Report sintetico (refactoring con Gemini)
-make best-practice-llm-synth
-
-# Report sintetico con modello specifico
-make best-practice-llm-synth REFACTOR_MODEL=gemini-2.5-flash
-
-# Ripristina report sintetico dal backup
-make best-practice-llm-synth-restore
-```
-
 ## Supporto
 
 Per problemi o domande:
-1. Verifica questo README
-2. Esegui lo script di test: vedi sezione "Test Eseguiti"
+1. Verifica questa guida
+2. Consulta docs/operations/TROUBLESHOOTING.md
 3. Controlla i log di Streamlit
-
----
-
-**Dashboard PTOF - PRIN 2022**
-*Sistema di analisi automatizzata dei Piani Triennali dell'Offerta Formativa*

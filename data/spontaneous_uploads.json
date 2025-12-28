@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "school_data": {
+      "codice_meccanografico": "RMTEST001",
+      "denominazione": "Liceo Scientifico Test Roma 1",
+      "regione": "Lazio",
+      "provincia": "Roma",
+      "comune": "Roma",
+      "tipo_scuola": "SCUOLA SECONDARIA DI II GRADO",
+      "ordine_grado": "LICEO SCIENTIFICO",
+      "email": "rmtest001@istruzione.it"
+    },
+    "stored_path": "ptof_inbox/RMTEST001_PTOF.pdf",
+    "uploaded_at": "2024-12-28T10:00:00",
+    "size": 1024000,
+    "stato": "in_lavorazione"
+  },
+  {
+    "school_data": {
+      "codice_meccanografico": "RMTEST002",
+      "denominazione": "Istituto Comprensivo Test Roma 2",
+      "regione": "Lazio",
+      "provincia": "Roma",
+      "comune": "Roma",
+      "tipo_scuola": "SCUOLA PRIMARIA",
+      "ordine_grado": "ISTITUTO COMPRENSIVO",
+      "email": "rmtest002@istruzione.it"
+    },
+    "stored_path": "ptof_inbox/RMTEST002_PTOF.pdf",
+    "uploaded_at": "2024-12-28T11:30:00",
+    "size": 2048000,
+    "stato": "in_lavorazione"
+  }
+]

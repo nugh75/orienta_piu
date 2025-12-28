@@ -6,6 +6,7 @@ Permette di visualizzare, scaricare e aggiornare lo stato degli invii.
 
 import io
 import json
+import shutil
 import zipfile
 from datetime import datetime, date
 from pathlib import Path
@@ -21,6 +22,7 @@ CONFIG_DIR = BASE_DIR / "config"
 SPONTANEOUS_LOG = DATA_DIR / "spontaneous_uploads.json"
 ANALYSIS_SUMMARY_CSV = DATA_DIR / "analysis_summary.csv"
 PTOF_INVIATI_DIR = BASE_DIR / "ptof_inviati"
+PTOF_INBOX_DIR = BASE_DIR / "ptof_inbox"
 OUTREACH_LINKS_FILE = CONFIG_DIR / "outreach_links.json"
 EMAIL_TEMPLATE_FILE = CONFIG_DIR / "email_template.txt"
 EMAIL_SUBJECT_FILE = CONFIG_DIR / "email_subject.txt"
@@ -173,6 +175,38 @@ def load_analyzed_codes() -> set:
         return set()
 
 
+def move_file_to_inbox(upload: dict) -> bool:
+    """Move file from ptof_inviati to ptof_inbox. Returns True if successful."""
+    stored_path = upload.get("stored_path", "")
+    if not stored_path:
+        return False
+
+    source_path = BASE_DIR / stored_path
+    if not source_path.exists():
+        return False
+
+    # Create inbox directory if needed
+    PTOF_INBOX_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Build destination path
+    dest_path = PTOF_INBOX_DIR / source_path.name
+
+    # If file already exists in inbox, add timestamp
+    if dest_path.exists():
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        stem = dest_path.stem
+        suffix = dest_path.suffix
+        dest_path = PTOF_INBOX_DIR / f"{stem}_{timestamp}{suffix}"
+
+    try:
+        shutil.move(str(source_path), str(dest_path))
+        # Update stored_path in upload record
+        upload["stored_path"] = str(dest_path.relative_to(BASE_DIR))
+        return True
+    except Exception:
+        return False
+
+
 def update_upload_status(codice: str, new_status: str) -> bool:
     """Update the status of an upload by school code."""
     uploads = load_uploads()
@@ -181,6 +215,9 @@ def update_upload_status(codice: str, new_status: str) -> bool:
     for upload in uploads:
         school_data = upload.get("school_data", {})
         if school_data.get("codice_meccanografico", "").upper() == codice_upper:
+            # Move file to inbox if status is changing to in_lavorazione
+            if new_status == "in_lavorazione":
+                move_file_to_inbox(upload)
             upload["stato"] = new_status
             save_uploads(uploads)
             return True
@@ -197,12 +234,38 @@ def update_multiple_status(codici: list, new_status: str) -> int:
         school_data = upload.get("school_data", {})
         codice = school_data.get("codice_meccanografico", "").upper()
         if codice in codici_upper:
+            # Move file to inbox if status is changing to in_lavorazione
+            if new_status == "in_lavorazione":
+                move_file_to_inbox(upload)
             upload["stato"] = new_status
             updated += 1
 
     if updated > 0:
         save_uploads(uploads)
     return updated
+
+
+def move_all_pending_to_inbox() -> tuple[int, int]:
+    """Move all files with status 'inviato' or 'in_lavorazione' to inbox.
+    Returns (moved_count, total_pending)."""
+    uploads = load_uploads()
+    moved = 0
+    pending = 0
+
+    for upload in uploads:
+        status = upload.get("stato", "inviato")
+        if status in ("inviato", "in_lavorazione"):
+            pending += 1
+            if move_file_to_inbox(upload):
+                moved += 1
+            # Set status to in_lavorazione if it was inviato
+            if status == "inviato":
+                upload["stato"] = "in_lavorazione"
+
+    if moved > 0 or pending > 0:
+        save_uploads(uploads)
+
+    return moved, pending
 
 
 def mark_as_downloaded(codici: list) -> None:

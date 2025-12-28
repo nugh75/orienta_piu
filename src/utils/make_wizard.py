@@ -415,31 +415,6 @@ def menu_outreach() -> None:
         )
 
 
-def menu_report() -> None:
-    """Menu per report e analisi best practice."""
-    options = [
-        ("Best Practice (statistico)", "best-practice"),
-        ("Best Practice con LLM (incrementale)", "best-practice-llm"),
-        ("Best Practice con LLM (reset e rigenera)", "best-practice-llm-reset"),
-    ]
-    choice = prompt_choice("Report & Analisi - scegli operazione", options)
-    if not choice:
-        return
-
-    if choice in ("best-practice-llm", "best-practice-llm-reset"):
-        model = prompt_model_choice("ollama", DEFAULT_OLLAMA_MODEL)
-        ollama_url = prompt_text("URL Ollama", default=DEFAULT_OLLAMA_URL)
-        run_make(
-            choice,
-            {
-                "MODEL": model,
-                "OLLAMA_URL": ollama_url,
-            },
-        )
-    else:
-        run_make(choice)
-
-
 def menu_registry() -> None:
     options = [
         ("Stato registro", "registry-status"),
@@ -510,7 +485,6 @@ def main() -> None:
                 ("Download PTOF", "download"),
                 ("Workflow", "workflow"),
                 ("Review", "review"),
-                ("Report & Analisi", "report"),
                 ("Outreach PTOF", "outreach"),
                 ("Registro analisi", "registry"),
                 ("Manutenzione report", "manutenzione"),
@@ -523,8 +497,6 @@ def main() -> None:
                 menu_workflow()
             elif choice == "review":
                 menu_review()
-            elif choice == "report":
-                menu_report()
             elif choice == "outreach":
                 menu_outreach()
             elif choice == "registry":

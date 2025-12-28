@@ -6,6 +6,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import numpy as np
+from scipy import stats
 import json
 import os
 from datetime import datetime
@@ -360,16 +362,120 @@ def practices_to_dataframe(practices):
             "provincia": school.get("provincia", ""),
             "comune": school.get("comune", ""),
             "area_geografica": school.get("area_geografica", ""),
+            "territorio": school.get("territorio", ""),
+            "statale_paritaria": school.get("statale_paritaria", ""),
+            "ordine_grado": school.get("ordine_grado", ""),
             "categoria": pratica.get("categoria", ""),
             "titolo": pratica.get("titolo", ""),
             "descrizione": pratica.get("descrizione", ""),
             "metodologia": pratica.get("metodologia", ""),
             "target": pratica.get("target", ""),
+            "ambiti_attivita": pratica.get("ambiti_attivita", []),
+            "tipologie_metodologia": pratica.get("tipologie_metodologia", []),
             "citazione_ptof": pratica.get("citazione_ptof", ""),
             "maturity_index": contesto.get("maturity_index")
         })
 
     return pd.DataFrame(rows)
+
+
+INVALID_VALUES = {"", "N/D", "ND", "NAN", "NONE"}
+
+
+def _normalize_text(value):
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def _is_valid_value(value):
+    text = _normalize_text(value)
+    if not text:
+        return False
+    return text.upper() not in INVALID_VALUES
+
+
+def _listify(value):
+    if isinstance(value, list):
+        items = value
+    elif value is None:
+        items = []
+    else:
+        items = [value]
+
+    cleaned = []
+    for item in items:
+        text = _normalize_text(item)
+        if _is_valid_value(text):
+            cleaned.append(text)
+    return cleaned
+
+
+def _split_comma(value):
+    if not _is_valid_value(value):
+        return []
+    return [part.strip() for part in str(value).split(",") if _is_valid_value(part)]
+
+
+def prepare_cross_dataframe(df, dimension):
+    if df.empty or dimension not in df.columns:
+        return pd.DataFrame(columns=["categoria", "dimension_value"])
+
+    base = df[["categoria", dimension]].copy()
+
+    if dimension in ["ambiti_attivita", "tipologie_metodologia"]:
+        base[dimension] = base[dimension].apply(_listify)
+        base = base.explode(dimension)
+    elif dimension == "tipo_scuola":
+        base[dimension] = base[dimension].apply(_split_comma)
+        base = base.explode(dimension)
+    else:
+        base[dimension] = base[dimension].apply(_normalize_text)
+
+    base = base[base["categoria"].apply(_is_valid_value)]
+    base = base[base[dimension].apply(_is_valid_value)]
+    base = base.rename(columns={dimension: "dimension_value"})
+    return base
+
+
+def compute_cramers_v(chi2, n, rows, cols):
+    denom = n * (min(rows - 1, cols - 1))
+    if denom <= 0:
+        return 0.0
+    return np.sqrt(chi2 / denom)
+
+
+def interpret_cramers_v(value):
+    if value < 0.1:
+        return "trascurabile"
+    if value < 0.3:
+        return "piccolo"
+    if value < 0.5:
+        return "medio"
+    return "grande"
+
+
+def epsilon_squared(h_stat, k, n):
+    if n <= k:
+        return None
+    return max(0.0, (h_stat - k + 1) / (n - k))
+
+
+def interpret_epsilon_squared(value):
+    if value is None:
+        return "n/d"
+    if value < 0.01:
+        return "trascurabile"
+    if value < 0.08:
+        return "piccolo"
+    if value < 0.26:
+        return "medio"
+    return "grande"
+
+
+def residuals_from_table(observed, expected):
+    expected = expected.replace(0, np.nan)
+    return (observed - expected) / np.sqrt(expected)
 
 
 # === MAIN PAGE ===
@@ -881,6 +987,205 @@ with tab_grafici:
                 )
                 fig_heat.update_layout(height=max(400, len(pivot_table) * 25))
                 st.plotly_chart(fig_heat, use_container_width=True)
+
+        st.markdown("---")
+        st.subheader("🧪 Analisi Incrociata Categoria x Dimensione")
+
+        dimension_options = {
+            "Area Geografica": "area_geografica",
+            "Regione": "regione",
+            "Provincia": "provincia",
+            "Territorio": "territorio",
+            "Statale/Paritaria": "statale_paritaria",
+            "Ordine/Grado": "ordine_grado",
+            "Tipo Scuola": "tipo_scuola",
+            "Ambito Attivita": "ambiti_attivita",
+            "Tipologia Metodologia": "tipologie_metodologia",
+            "Target": "target"
+        }
+
+        dim_label = st.selectbox("Dimensione di confronto", list(dimension_options.keys()), index=0)
+        dim_key = dimension_options[dim_label]
+
+        col_cfg1, col_cfg2 = st.columns([2, 1])
+        with col_cfg1:
+            top_n = st.slider("Top tipologie per occorrenze", 5, 20, 10)
+        with col_cfg2:
+            alpha = st.slider("Soglia significativita", 0.01, 0.10, 0.05, step=0.01)
+
+        cross_df = prepare_cross_dataframe(df_filtered, dim_key)
+
+        if cross_df.empty:
+            st.info("Dati insufficienti per l'incrocio selezionato.")
+        else:
+            if dim_key in ["ambiti_attivita", "tipologie_metodologia", "tipo_scuola"]:
+                st.caption("Nota: per dimensioni multi-valore, le occorrenze contano ogni assegnazione.")
+
+            dim_counts = cross_df["dimension_value"].value_counts()
+            total_occ = int(dim_counts.sum())
+
+            if len(dim_counts) > top_n:
+                dim_counts = dim_counts.head(top_n)
+                cross_df = cross_df[cross_df["dimension_value"].isin(dim_counts.index)]
+                st.caption("Mostrate solo le tipologie con maggiori occorrenze.")
+
+            occ_df = pd.DataFrame({
+                "Tipologia": dim_counts.index,
+                "Occorrenze": dim_counts.values,
+                "Percentuale": (dim_counts.values / max(total_occ, 1) * 100).round(1)
+            })
+            st.subheader("📌 Occorrenze per tipologia")
+            st.dataframe(occ_df, use_container_width=True, hide_index=True)
+
+            ctab = pd.crosstab(cross_df["categoria"], cross_df["dimension_value"])
+            ctab = ctab.reindex(columns=dim_counts.index, fill_value=0)
+
+            categoria_order = [c for c in CATEGORIE if c in ctab.index]
+            categoria_extra = [c for c in ctab.index if c not in categoria_order]
+            ctab = ctab.reindex(categoria_order + categoria_extra, fill_value=0)
+
+            st.subheader("📊 Tabella incrociata (occorrenze)")
+            st.dataframe(ctab, use_container_width=True)
+
+            plot_df = ctab.reset_index().melt(
+                id_vars="categoria",
+                var_name=dim_label,
+                value_name="Occorrenze"
+            )
+            plot_df["Percentuale"] = plot_df.groupby("categoria")["Occorrenze"].transform(
+                lambda x: (x / x.sum() * 100) if x.sum() else 0
+            )
+
+            fig_stack = px.bar(
+                plot_df,
+                x="categoria",
+                y="Percentuale",
+                color=dim_label,
+                title=f"Composizione per categoria - {dim_label}",
+                hover_data={"Occorrenze": True, "Percentuale": ":.1f"}
+            )
+            fig_stack.update_layout(
+                barmode="stack",
+                yaxis_title="Percentuale",
+                xaxis_title="Categoria"
+            )
+            st.plotly_chart(fig_stack, use_container_width=True)
+
+            if ctab.shape[0] > 1 and ctab.shape[1] > 1:
+                st.subheader("🔥 Heatmap Categoria x Dimensione")
+                fig_heat2 = px.imshow(
+                    ctab,
+                    labels=dict(x=dim_label, y="Categoria", color="Occorrenze"),
+                    aspect="auto",
+                    color_continuous_scale="YlGnBu",
+                    text_auto=True
+                )
+                fig_heat2.update_layout(height=max(350, len(ctab) * 35))
+                st.plotly_chart(fig_heat2, use_container_width=True)
+
+            st.subheader("🧮 Significativita e Effetti")
+            if ctab.shape[0] >= 2 and ctab.shape[1] >= 2:
+                chi2, p_value, dof, expected = stats.chi2_contingency(ctab, correction=False)
+                expected_df = pd.DataFrame(expected, index=ctab.index, columns=ctab.columns)
+                n = int(ctab.values.sum())
+                cramer_v = compute_cramers_v(chi2, n, ctab.shape[0], ctab.shape[1])
+                min_expected = expected_df.min().min()
+
+                use_fisher = ctab.shape == (2, 2) and min_expected < 5
+                fisher_p = None
+                odds_ratio = None
+                if use_fisher:
+                    odds_ratio, fisher_p = stats.fisher_exact(ctab.values)
+                    p_value = fisher_p
+
+                st.markdown(
+                    f"**Test:** {'Fisher exact' if use_fisher else 'Chi-quadrato'} | p-value = {p_value:.4f} | dof = {dof}"
+                )
+                st.markdown(
+                    f"**Effetto (Cramer's V):** {cramer_v:.2f} ({interpret_cramers_v(cramer_v)})"
+                )
+                if use_fisher and odds_ratio is not None:
+                    st.markdown(f"**Odds ratio:** {odds_ratio:.2f}")
+
+                if min_expected < 5:
+                    st.warning("Attenzione: alcune frequenze attese sono < 5, i risultati vanno interpretati con cautela.")
+
+                if p_value < alpha:
+                    residuals = residuals_from_table(ctab.astype(float), expected_df)
+                    residuals_stack = residuals.stack().sort_values(ascending=False)
+                    top_cells = residuals_stack.head(3)
+                    st.markdown("**A favore di (sovra-rappresentazione):**")
+                    for (cat, dim), val in top_cells.items():
+                        st.markdown(f"- {cat} / {dim}: residuo +{val:.2f}")
+                else:
+                    st.info("Nessuna associazione significativa alla soglia selezionata.")
+            else:
+                st.info("Tabella troppo piccola per test di significativita.")
+
+        st.markdown("---")
+        st.subheader("📈 Categoria e Indice di Maturita")
+
+        mi_df = df_filtered[["categoria", "maturity_index"]].copy()
+        mi_df["maturity_index"] = pd.to_numeric(mi_df["maturity_index"], errors="coerce")
+        mi_df = mi_df.dropna(subset=["categoria", "maturity_index"])
+
+        if mi_df.empty:
+            st.info("Nessun dato di maturita disponibile.")
+        else:
+            fig_mi = px.box(
+                mi_df,
+                x="categoria",
+                y="maturity_index",
+                points="all",
+                title="Distribuzione Indice Maturita per Categoria"
+            )
+            fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="Indice Maturita")
+            st.plotly_chart(fig_mi, use_container_width=True)
+
+            med_df = (
+                mi_df.groupby("categoria")["maturity_index"]
+                .agg(["count", "median", "mean"])
+                .reset_index()
+                .sort_values("median", ascending=False)
+            )
+            med_df["median"] = med_df["median"].round(2)
+            med_df["mean"] = med_df["mean"].round(2)
+            st.subheader("📊 Statistiche per Categoria (Maturita)")
+            st.dataframe(med_df, use_container_width=True, hide_index=True)
+
+            valid_groups = [
+                grp["maturity_index"].values
+                for _, grp in mi_df.groupby("categoria")
+                if len(grp) >= 2
+            ]
+
+            if len(valid_groups) >= 2:
+                h_stat, p_kw = stats.kruskal(*valid_groups)
+                n_kw = sum(len(g) for g in valid_groups)
+                k_kw = len(valid_groups)
+                eps = epsilon_squared(h_stat, k_kw, n_kw)
+                eps_label = interpret_epsilon_squared(eps) if eps is not None else "n/d"
+
+                st.markdown(
+                    f"**Test:** Kruskal-Wallis | p-value = {p_kw:.4f} | k = {k_kw}"
+                )
+                if eps is not None:
+                    st.markdown(f"**Effetto (epsilon^2):** {eps:.2f} ({eps_label})")
+                else:
+                    st.markdown("**Effetto (epsilon^2):** n/d")
+
+                if p_kw < alpha and not med_df.empty:
+                    top_row = med_df.iloc[0]
+                    bottom_row = med_df.iloc[-1]
+                    st.markdown(
+                        f"**A favore di:** {top_row['categoria']} (mediana {top_row['median']:.2f})"
+                    )
+                    if top_row['categoria'] != bottom_row['categoria']:
+                        st.markdown(
+                            f"**Sotto la media:** {bottom_row['categoria']} (mediana {bottom_row['median']:.2f})"
+                        )
+            else:
+                st.info("Servono almeno 2 categorie con >= 2 osservazioni per il test.")
 
     else:
         st.info("Nessun dato disponibile per i grafici.")

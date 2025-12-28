@@ -162,6 +162,245 @@ ISTRUZIONI CRITICHE:
 OUTPUT: restituisci solo il report Markdown completo arricchito.
 """
 
+BEST_PRACTICE_EXTRACTION_PROMPT = """
+/no_think
+SEI UN ESPERTO DI PRATICHE EDUCATIVE E ORIENTAMENTO SCOLASTICO.
+
+ANALIZZA questo estratto di PTOF scolastico e IDENTIFICA le BUONE PRATICHE concrete.
+
+SCUOLA: {school_code}
+CHUNK: {chunk_num}/{total_chunks}
+
+TESTO DA ANALIZZARE:
+{chunk[:25000]}
+
+---
+
+CATEGORIE DISPONIBILI (usa ESATTAMENTE questi nomi):
+1. "Metodologie Didattiche Innovative" - tecniche didattiche avanzate, approcci pedagogici innovativi
+2. "Progetti e Attivita Esemplari" - progetti strutturati, attivita significative documentate
+3. "Partnership e Collaborazioni Strategiche" - accordi con enti, universita, imprese, associazioni
+4. "Azioni di Sistema e Governance" - coordinamento, monitoraggio, strutture organizzative
+5. "Buone Pratiche per l'Inclusione" - BES, DSA, disabilita, integrazione stranieri
+6. "Esperienze Territoriali Significative" - legame col territorio, PCTO, stage
+
+TIPOLOGIE DI METODOLOGIA (scegli UNA o PIU tra queste, oppure "Altro"):
+STEM/STEAM, Coding e Pensiero Computazionale, Flipped Classroom, Peer Education/Tutoring,
+Problem Based Learning, Cooperative Learning, Gamification, Debate, Service Learning,
+Outdoor Education, Didattica Laboratoriale, Didattica Digitale, CLIL, Storytelling,
+Project Work, Learning by Doing, Mentoring
+
+AMBITI DI ATTIVITA (scegli UNO o PIU tra questi, oppure "Altro"):
+Orientamento, Inclusione e BES, PCTO/Alternanza, Cittadinanza e Legalita, Educazione Civica,
+Sostenibilita e Ambiente, Digitalizzazione, Lingue Straniere, Arte e Creativita,
+Musica e Teatro, Sport e Benessere, Scienze e Ricerca, Lettura e Scrittura,
+Matematica e Logica, Imprenditorialita, Intercultura, Prevenzione Disagio,
+Continuita e Accoglienza, Valutazione e Autovalutazione, Formazione Docenti,
+Rapporti con Famiglie
+
+PER OGNI BUONA PRATICA IDENTIFICATA, ESTRAI:
+- "categoria": una delle 6 categorie sopra (ESATTAMENTE come scritto)
+- "titolo": nome sintetico della pratica (max 100 caratteri)
+- "descrizione": descrizione dettagliata di cosa consiste e come funziona (200-500 caratteri)
+- "metodologia_desc": come viene implementata concretamente (testo libero)
+- "tipologie_metodologia": ARRAY di tipologie metodologiche applicabili (es: ["STEM/STEAM", "Didattica Laboratoriale"])
+- "ambiti_attivita": ARRAY di ambiti di attivita (es: ["Orientamento", "Digitalizzazione"])
+- "target": a chi e rivolta (studenti, docenti, famiglie, classi specifiche)
+- "citazione_ptof": citazione testuale rilevante dal documento (max 200 caratteri)
+- "pagina_evidenza": numero di pagina se menzionato (es: "Pagina 15") o "Non specificata"
+- "partnership_coinvolte": lista di partner nominati se categoria e Partnership, altrimenti array vuoto
+
+REGOLE FONDAMENTALI:
+1. Estrai SOLO pratiche CONCRETE e SPECIFICHE con un nome o una descrizione chiara
+2. IGNORA dichiarazioni generiche tipo "la scuola promuove l'orientamento"
+3. Ogni pratica DEVE avere evidenze testuali nel documento
+4. Se non trovi pratiche significative in questo chunk, rispondi con array vuoto
+5. MAX 5 pratiche per chunk (seleziona le piu significative)
+6. Il titolo deve essere SPECIFICO (es: "Laboratorio di Robotica Educativa", non "Attivita di laboratorio")
+7. tipologie_metodologia e ambiti_attivita devono essere ARRAY di stringhe (anche se c'e un solo elemento)
+
+RISPONDI SOLO con JSON valido (nessun testo prima o dopo):
+{
+  "pratiche": [
+    {
+      "categoria": "Nome Categoria Esatto",
+      "titolo": "Nome Specifico Pratica",
+      "descrizione": "Descrizione dettagliata...",
+      "metodologia_desc": "Come viene implementata...",
+      "tipologie_metodologia": ["STEM/STEAM", "Didattica Laboratoriale"],
+      "ambiti_attivita": ["Orientamento", "Digitalizzazione"],
+      "target": "A chi e rivolta",
+      "citazione_ptof": "Citazione dal documento...",
+      "pagina_evidenza": "Pagina X",
+      "partnership_coinvolte": []
+    }
+  ]
+}
+
+Se non trovi pratiche significative:
+{"pratiche": []}
+"""
+
+BEST_PRACTICE_EXTRACTION_JSON = """
+{
+  "pratiche": [
+    {
+      "categoria": "Nome Categoria Esatto",
+      "titolo": "Nome Specifico Pratica",
+      "descrizione": "Descrizione dettagliata...",
+      "metodologia_desc": "Come viene implementata...",
+      "tipologie_metodologia": ["STEM/STEAM", "Didattica Laboratoriale"],
+      "ambiti_attivita": ["Orientamento", "Digitalizzazione"],
+      "target": "A chi e rivolta",
+      "citazione_ptof": "Citazione dal documento...",
+      "pagina_evidenza": "Pagina X",
+      "partnership_coinvolte": []
+    }
+  ]
+}
+"""
+
+ANALYSIS_OUTPUT_SCHEMA_JSON = """
+{
+  "metadata": {
+    "school_id": "MIIS08900V",
+    "denominazione": "...",
+    "ordine_grado": "I Grado|II Grado",
+    "tipo_scuola": "Liceo|Tecnico|Professionale|I Grado",
+    "statale_paritaria": "Statale|Paritaria",
+    "area_geografica": "Nord Ovest|Nord Est|Centro|Sud|Isole"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "..."
+    },
+    "2_2_partnership": {
+      "partner_nominati": ["..."],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": { "score": 1 },
+      "finalita_interessi": { "score": 1 },
+      "finalita_progetto_vita": { "score": 1 }
+    }
+  },
+  "narrative": "Report markdown..."
+}
+"""
+
+SCORE_REVIEW_OUTPUT_JSON = """
+{
+  "score_updates": [
+    {
+      "path": "ptof_section2.2_1_ptof_orientamento_sezione_dedicata.score",
+      "old_score": 2,
+      "new_score": 3,
+      "action": "modify",
+      "reason": "Spiega in breve."
+    }
+  ],
+  "review_notes": "Nota generale opzionale."
+}
+"""
+
+OLLAMA_CHUNK_OUTPUT_JSON = """
+{
+  "enrichments": [
+    {
+      "section": "sezione report da arricchire",
+      "addition": "testo narrativo da aggiungere",
+      "source_quote": "citazione breve dal PTOF"
+    }
+  ],
+  "orientamento_section_found": true,
+  "orientamento_details": "descrizione sezione orientamento",
+  "corrections": [
+    {
+      "issue": "cosa va corretto",
+      "reason": "perche"
+    }
+  ]
+}
+"""
+
+BEST_PRACTICES_DATASET_JSON = """
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01T12:00:00",
+  "extraction_model": "qwen3:32b",
+  "schools_processed": 120,
+  "total_practices": 560,
+  "practices": [
+    {
+      "id": "uuid",
+      "school": {
+        "codice_meccanografico": "RMIS02400L",
+        "nome": "Istituto ...",
+        "tipo_scuola": "Liceo Scientifico",
+        "ordine_grado": "Secondaria II Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio di Robotica Educativa",
+        "descrizione": "...",
+        "metodologia": "...",
+        "tipologie_metodologia": ["STEM/STEAM"],
+        "ambiti_attivita": ["Orientamento"],
+        "target": "Studenti",
+        "citazione_ptof": "...",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.6,
+        "punteggi_dimensionali": {},
+        "partnership_coinvolte": [],
+        "attivita_correlate": []
+      },
+      "metadata": {}
+    }
+  ]
+}
+"""
+
+BEST_PRACTICE_REGISTRY_JSON = """
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01T12:00:00",
+  "processed_files": {
+    "RMIS02400L": {
+      "file_hash": "sha256:...",
+      "processed_at": "2025-01-01T12:00:00",
+      "practices_count": 12,
+      "model_used": "qwen3:32b"
+    }
+  }
+}
+"""
+
+COMUNI_ITALIANI_JSON = """
+[
+  {
+    "nome": "Abano Terme",
+    "codice": "028001",
+    "zona": { "codice": "2", "nome": "Nord-est" },
+    "regione": { "codice": "05", "nome": "Veneto" },
+    "provincia": { "codice": "028", "nome": "Padova" },
+    "sigla": "PD",
+    "codiceCatastale": "A001",
+    "cap": "35031",
+    "popolazione": 0
+  }
+]
+"""
+
 
 def load_prompt_sections(path: Path):
     if not path.exists():
@@ -228,18 +467,21 @@ testuali dei documenti.
 """
 )
 
-st.subheader("Sezioni della dashboard")
+st.subheader("Sezioni della dashboard (stato attuale)")
 st.markdown(
     """
-- **Panoramica**: indicatori sintetici e distribuzioni nazionali.
-- **La mia scuola / Dettaglio scuola**: profilo, gap analysis e confronto con pari.
-- **Confronto PTOF**: analisi comparativa tra scuole.
-- **Analisi territoriale**: mappe, confronti geografici e report regionali.
-- **Ranking & Benchmark**: classifiche, posizionamento e confronti multidimensionali.
-- **Analytics avanzati**: analisi statistiche, correlazioni e visualizzazioni esplorative.
-- **Ricerca / Impatto metodologie**: esplorazione di approcci didattici e relativi esiti.
-- **Best practice**: estrazione e sintesi delle pratiche più efficaci.
-- **Gestione dati**: qualità, filtri e allineamento dei metadati.
+- Panoramica (Home): indicatori sintetici e distribuzioni nazionali.
+- Dettaglio Scuola: profilo scuola, report MD/PDF, best practice collegate, gap analysis e confronto con peer (radar per tipologia/area/nazionale).
+- Confronto PTOF: analisi comparativa tra scuole.
+- Analisi territoriale: mappe, confronti geografici e report regionali.
+- Ranking e Benchmark: classifiche, posizionamento e confronti multidimensionali.
+- Analytics avanzati: analisi statistiche, correlazioni e visualizzazioni esplorative.
+- Ricerca / Impatto metodologie: esplorazione di approcci didattici e relativi esiti.
+- Catalogo Buone Pratiche: estrazione, filtri, incroci categoria e analisi statistiche (significativita ed effetto).
+- Orientamento Scuola: percorso guidato per famiglie/studenti con matching scuole.
+- Gestione dati (area amministrativa): qualita, filtri e allineamento metadati.
+- Contribuisci: Invia PTOF, Verifica Invio, Richiedi Revisione.
+- Documentazione: metodologia e guida.
 """
 )
 
@@ -579,109 +821,288 @@ applicando correzioni prudenti quando emergono anomalie.
 
 st.markdown("---")
 
-st.header("Trasparenza: prompt e criteri")
-
+st.header("Catalogo Buone Pratiche")
 st.markdown(
     """
-Per trasparenza, riportiamo i prompt utilizzati nelle diverse fasi. Sono mostrati
-integralmente, con segnaposto dove viene inserito il testo del PTOF o del report.
+Il catalogo raccoglie pratiche concrete estratte dai PTOF e le rende esplorabili
+per categoria, territorio, tipo scuola, target e metodologie.
+
+Funzioni principali:
+- Lista, vista raggruppata o tabellare con dettagli e citazioni.
+- Mappa di distribuzione geografica e dettaglio per regione.
+- Grafici di distribuzione (categoria, regione, tipo scuola).
+- Incroci categoria x dimensione con conteggi e percentuali.
+- Analisi statistiche con significativita ed effetto.
+- Export dei dati filtrati in JSON e CSV.
+"""
+)
+
+st.subheader("File JSON del catalogo")
+st.markdown(
+    """
+I file JSON del catalogo sono la base dati su cui lavora la dashboard.
+Sono consultabili anche in forma tabellare:
+"""
+)
+st.dataframe(
+    [
+        {
+            "File": "data/best_practices.json",
+            "Contenuto": "Dataset pratiche estratte",
+            "Chiavi principali": "version, last_updated, extraction_model, schools_processed, total_practices, practices[]",
+        },
+        {
+            "File": "data/best_practice_registry.json",
+            "Contenuto": "Registro avanzamento estrazione",
+            "Chiavi principali": "version, last_updated, processed_files{}",
+        },
+    ],
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.subheader("Struttura pratica (tabellare)")
+st.dataframe(
+    [
+        {"Campo": "id", "Descrizione": "Identificativo pratica"},
+        {"Campo": "school.*", "Descrizione": "Metadati scuola (codice, nome, tipo, area, territorio)"},
+        {"Campo": "pratica.categoria", "Descrizione": "Categoria assegnata (6 macro categorie)"},
+        {"Campo": "pratica.titolo", "Descrizione": "Titolo sintetico della pratica"},
+        {"Campo": "pratica.descrizione", "Descrizione": "Descrizione dettagliata (200-500 caratteri)"},
+        {"Campo": "pratica.metodologia", "Descrizione": "Metodologia descritta nel PTOF"},
+        {"Campo": "pratica.tipologie_metodologia", "Descrizione": "Lista di tipologie metodologia"},
+        {"Campo": "pratica.ambiti_attivita", "Descrizione": "Lista di ambiti di attivita"},
+        {"Campo": "pratica.target", "Descrizione": "Destinatari della pratica"},
+        {"Campo": "pratica.citazione_ptof", "Descrizione": "Citazione testuale dal PTOF"},
+        {"Campo": "pratica.pagina_evidenza", "Descrizione": "Pagina evidenza (se presente)"},
+        {"Campo": "contesto.*", "Descrizione": "Contesto (maturity_index, punteggi, partnership, attivita)"},
+    ],
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.subheader("Registro estrazione (tabellare)")
+st.dataframe(
+    [
+        {"Campo": "processed_files{codice}.file_hash", "Descrizione": "Hash file sorgente"},
+        {"Campo": "processed_files{codice}.processed_at", "Descrizione": "Timestamp elaborazione"},
+        {"Campo": "processed_files{codice}.practices_count", "Descrizione": "Numero pratiche estratte"},
+        {"Campo": "processed_files{codice}.model_used", "Descrizione": "Modello usato in estrazione"},
+    ],
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.markdown("---")
+
+st.header("Trasparenza: prompt e dati")
+
+st.subheader("Criteri catalogo buone pratiche")
+st.markdown(
+    """
+Il catalogo e costruito da estrazioni automatiche su testi PTOF.
+Le specifiche operative sono:
+
+- Categorie obbligatorie (6): Metodologie Didattiche Innovative, Progetti e Attivita Esemplari,
+  Partnership e Collaborazioni Strategiche, Azioni di Sistema e Governance,
+  Buone Pratiche per l'Inclusione, Esperienze Territoriali Significative.
+- Tipologie metodologia: elenco predefinito (es. STEM/STEAM, Flipped Classroom, PBL, Cooperative Learning, ecc.).
+- Ambiti di attivita: elenco predefinito (es. Orientamento, Inclusione, PCTO, Cittadinanza, ecc.).
+- Criterio di selezione: solo pratiche concrete e specifiche con evidenza testuale nel PTOF;
+  sono escluse formulazioni generiche.
+- Limite estrazione: massimo 5 pratiche per chunk di testo.
+- Campi richiesti per pratica: titolo, descrizione, metodologia, target, categoria, tipologie_metodologia,
+  ambiti_attivita, citazione_ptof, pagina_evidenza (se presente), partnership_coinvolte (solo per categoria partnership).
 """
 )
 
 sections = label_prompt_sections(load_prompt_sections(PROMPTS_FILE))
-if not sections:
-    st.info("Prompts non disponibili: file config/prompts.md non trovato.")
-else:
-    for title, content in sections:
-        with st.expander(title):
-            st.code(content, language="text")
 
-with st.expander("Review report (OpenRouter/Gemini) - prompt"):
-    st.code(REPORT_REVIEW_PROMPT.strip(), language="text")
+prompt_tabs = st.tabs(["Prompt - Codice", "Prompt - Tabella"])
+with prompt_tabs[0]:
+    st.markdown("Prompt base (config/prompts.md)")
+    if not sections:
+        st.info("Prompts non disponibili: file config/prompts.md non trovato.")
+    else:
+        for title, content in sections:
+            with st.expander(title):
+                st.code(content, language="text")
 
-with st.expander("Review report Ollama - prompt chunk"):
-    st.code(OLLAMA_CHUNK_PROMPT.strip(), language="text")
+    with st.expander("Review report (OpenRouter/Gemini) - prompt"):
+        st.code(REPORT_REVIEW_PROMPT.strip(), language="text")
 
-with st.expander("Review report Ollama - prompt finale"):
-    st.code(OLLAMA_FINAL_PROMPT.strip(), language="text")
+    with st.expander("Review report Ollama - prompt chunk"):
+        st.code(OLLAMA_CHUNK_PROMPT.strip(), language="text")
 
-with st.expander("Review punteggi estremi (OpenRouter/Gemini/Ollama) - prompt"):
-    st.code(SCORE_REVIEW_PROMPT.strip(), language="text")
+    with st.expander("Review report Ollama - prompt finale"):
+        st.code(OLLAMA_FINAL_PROMPT.strip(), language="text")
 
-st.markdown("---")
+    with st.expander("Review punteggi estremi (OpenRouter/Gemini/Ollama) - prompt"):
+        st.code(SCORE_REVIEW_PROMPT.strip(), language="text")
 
-st.header("Report Best Practice LLM")
-st.markdown(
-    """
-Il sistema genera **tre tipologie di report** sulle best practice dell'orientamento,
-ciascuna con caratteristiche e scopi specifici.
+    with st.expander("Estrazione buone pratiche - prompt"):
+        st.code(BEST_PRACTICE_EXTRACTION_PROMPT.strip(), language="text")
 
-| Report | Descrizione |
-|--------|-------------|
-| **Statistico** | Dati aggregati, classifiche e tabelle generate con algoritmi |
-| **Narrativo** | Analisi discorsiva completa, generata con LLM locale (Ollama) |
-| **Sintetico** | Versione condensata del narrativo, rifinita con LLM |
-"""
-)
+with prompt_tabs[1]:
+    prompt_rows = []
+    if sections:
+        prompt_rows.append(
+            {
+                "Prompt": f"Prompt base pipeline (config/prompts.md) - {len(sections)} sezioni",
+                "Uso": "Prompt base pipeline",
+                "Input": "Testo PTOF / contesto",
+                "Output": "JSON o testo (vedi codice)",
+            }
+        )
+    else:
+        prompt_rows.append(
+            {
+                "Prompt": "Prompt base pipeline (config/prompts.md)",
+                "Uso": "Prompt base pipeline",
+                "Input": "Testo PTOF / contesto",
+                "Output": "JSON o testo (vedi codice)",
+            }
+        )
 
-st.subheader("Report Narrativo (Ollama)")
-st.markdown(
-    """
-Il report narrativo viene costruito in modo **incrementale**: per ogni scuola analizzata,
-l'agente Ollama estrae punti di forza, didattica orientativa, opportunità formative,
-progetti, partnership e azioni di sistema. Il contenuto viene integrato nel report
-esistente, arricchendolo progressivamente.
+    prompt_rows.extend(
+        [
+            {
+                "Prompt": "Review report (OpenRouter/Gemini)",
+                "Uso": "Arricchisce report MD con dettagli dal PTOF",
+                "Input": "Testo PTOF, report MD",
+                "Output": "Markdown report arricchito",
+            },
+            {
+                "Prompt": "Review report Ollama - chunk",
+                "Uso": "Estrae arricchimenti da chunk PTOF",
+                "Input": "Chunk PTOF, report MD, riepilogo score",
+                "Output": "JSON arricchimenti/correzioni",
+            },
+            {
+                "Prompt": "Review report Ollama - finale",
+                "Uso": "Compone report finale",
+                "Input": "Report attuale, arricchimenti, correzioni",
+                "Output": "Markdown finale",
+            },
+            {
+                "Prompt": "Review punteggi estremi",
+                "Uso": "Rivede punteggi troppo alti o bassi",
+                "Input": "Testo PTOF, JSON punteggi",
+                "Output": "JSON aggiornamenti",
+            },
+            {
+                "Prompt": "Estrazione buone pratiche",
+                "Uso": "Estrae pratiche concrete dal PTOF",
+                "Input": "Chunk PTOF",
+                "Output": "JSON pratiche",
+            },
+        ]
+    )
 
-### Struttura del Report
+    st.dataframe(prompt_rows, use_container_width=True, hide_index=True)
 
-Il report è organizzato su tre livelli gerarchici:
+json_tabs = st.tabs(["JSON - Codice", "JSON - Tabella"])
+with json_tabs[0]:
+    st.markdown("Analisi PTOF - output JSON")
+    st.code(ANALYSIS_OUTPUT_SCHEMA_JSON.strip(), language="json")
 
-- **Sezioni principali** (`##`): Metodologie Didattiche Innovative, Progetti e Attività Esemplari,
-  Partnership e Collaborazioni Strategiche, Azioni di Sistema e Governance, Buone Pratiche per
-  l'Inclusione, Esperienze Territoriali Significative
+    st.markdown("Review punteggi estremi - output JSON")
+    st.code(SCORE_REVIEW_OUTPUT_JSON.strip(), language="json")
 
-- **Sottotitoli specifici** (`####`): Descrivono l'attività concreta (es. "Visite ai campus universitari",
-  "Laboratori di scoperta delle attitudini personali", "Stage presso aziende locali")
+    st.markdown("Review report Ollama - output JSON (chunk)")
+    st.code(OLLAMA_CHUNK_OUTPUT_JSON.strip(), language="json")
 
-- **Tipologia scuola** (`#####`): Divisione per ordine e grado, con contenuti organizzati per
-  tipologia di istituto quando disponibile
+    st.markdown("Catalogo buone pratiche - output prompt")
+    st.code(BEST_PRACTICE_EXTRACTION_JSON.strip(), language="json")
 
-### Formattazione automatica
+    st.markdown("Catalogo buone pratiche - dataset (data/best_practices.json)")
+    st.code(BEST_PRACTICES_DATASET_JSON.strip(), language="json")
 
-- **Codice meccanografico** e **Nome scuola** sempre in neretto (es: **RMIC8GA002** - **I.C. Via Roma**)
-- **Nomi dei progetti** in neretto (es: **Progetto Futuro**)
-- Stile narrativo e discorsivo, senza elenchi puntati
-- Spiegazioni dettagliate di come funzionano le pratiche, non solo cosa sono
-"""
-)
+    st.markdown("Catalogo buone pratiche - registry (data/best_practice_registry.json)")
+    st.code(BEST_PRACTICE_REGISTRY_JSON.strip(), language="json")
 
-st.subheader("Report Sintetico (Gemini)")
-st.markdown(
-    """
-Il report sintetico nasce dal narrativo e viene rifattorizzato **sezione per sezione**:
+    st.markdown("Anagrafica comuni (data/comuni_italiani.json)")
+    st.code(COMUNI_ITALIANI_JSON.strip(), language="json")
 
-1. Estrae ogni sezione `##` dal report narrativo
-2. Invia ogni sezione a Gemini per il refactoring
-3. Elimina ridondanze mantenendo tutti i riferimenti alle scuole
-4. Unifica contenuti simili sotto categorie più ampie
-5. Riduce la lunghezza del 30-50%
+with json_tabs[1]:
+    json_rows = [
+        {
+            "JSON": "analysis_results/{CODICE}_analysis.json",
+            "Dove": "Output analisi PTOF",
+            "Scopo": "Risultati strutturati + report",
+            "Chiavi principali": "metadata, ptof_section2, narrative",
+        },
+        {
+            "JSON": "score_review_output.json (prompt)",
+            "Dove": "Review punteggi",
+            "Scopo": "Correzioni punteggi estremi",
+            "Chiavi principali": "score_updates[], review_notes",
+        },
+        {
+            "JSON": "ollama_chunk_output.json (prompt)",
+            "Dove": "Review report chunk",
+            "Scopo": "Arricchimenti e correzioni",
+            "Chiavi principali": "enrichments[], corrections[], orientamento_*",
+        },
+        {
+            "JSON": "best_practice_extraction_output.json (prompt)",
+            "Dove": "Estrazione buone pratiche",
+            "Scopo": "Pratiche estratte per chunk",
+            "Chiavi principali": "pratiche[]",
+        },
+        {
+            "JSON": "data/best_practices.json",
+            "Dove": "Dataset catalogo",
+            "Scopo": "Dataset pratiche estratte",
+            "Chiavi principali": "version, last_updated, extraction_model, schools_processed, total_practices, practices[]",
+        },
+        {
+            "JSON": "data/best_practice_registry.json",
+            "Dove": "Registro estrazione",
+            "Scopo": "Stato e avanzamento",
+            "Chiavi principali": "version, last_updated, processed_files{}",
+        },
+        {
+            "JSON": "data/comuni_italiani.json",
+            "Dove": "Anagrafica territori",
+            "Scopo": "Normalizzazione comuni/province/regioni",
+            "Chiavi principali": "nome, codice, zona{}, regione{}, provincia{}, sigla, cap, popolazione",
+        },
+    ]
 
-### Gestione errori e fallback
+    st.dataframe(json_rows, use_container_width=True, hide_index=True)
 
-- **Rate limit Gemini (429)**: Fallback automatico a OpenRouter (GPT OSS 120B)
-- **Backup automatico**: Prima di sovrascrivere viene creato un file `.bak`
-- **Sezione troppo corta**: Se la riduzione supera l'80%, mantiene l'originale
-- **Interruzione (Ctrl+C)**: Salvataggio sicuro del progresso
+    st.markdown("Struttura pratica (tabellare)")
+    st.dataframe(
+        [
+            {"Campo": "id", "Descrizione": "Identificativo pratica"},
+            {"Campo": "school.*", "Descrizione": "Metadati scuola (codice, nome, tipo, area, territorio)"},
+            {"Campo": "pratica.categoria", "Descrizione": "Categoria assegnata (6 macro categorie)"},
+            {"Campo": "pratica.titolo", "Descrizione": "Titolo sintetico della pratica"},
+            {"Campo": "pratica.descrizione", "Descrizione": "Descrizione dettagliata (200-500 caratteri)"},
+            {"Campo": "pratica.metodologia", "Descrizione": "Metodologia descritta nel PTOF"},
+            {"Campo": "pratica.tipologie_metodologia", "Descrizione": "Lista di tipologie metodologia"},
+            {"Campo": "pratica.ambiti_attivita", "Descrizione": "Lista di ambiti di attivita"},
+            {"Campo": "pratica.target", "Descrizione": "Destinatari della pratica"},
+            {"Campo": "pratica.citazione_ptof", "Descrizione": "Citazione testuale dal PTOF"},
+            {"Campo": "pratica.pagina_evidenza", "Descrizione": "Pagina evidenza (se presente)"},
+            {"Campo": "contesto.*", "Descrizione": "Contesto (maturity_index, punteggi, partnership, attivita)"},
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
 
-### File di output
-
-| Report | File |
-|--------|------|
-| Statistico | `reports/best_practice_orientamento.md` |
-| Narrativo | `reports/best_practice_orientamento_narrativo.md` |
-| Sintetico | `reports/best_practice_orientamento_sintetico.md` |
-"""
-)
+    st.markdown("Registro estrazione (tabellare)")
+    st.dataframe(
+        [
+            {"Campo": "processed_files{codice}.file_hash", "Descrizione": "Hash file sorgente"},
+            {"Campo": "processed_files{codice}.processed_at", "Descrizione": "Timestamp elaborazione"},
+            {"Campo": "processed_files{codice}.practices_count", "Descrizione": "Numero pratiche estratte"},
+            {"Campo": "processed_files{codice}.model_used", "Descrizione": "Modello usato in estrazione"},
+        ],
+        use_container_width=True,
+        hide_index=True,
+    )
 
 st.markdown("---")
 
@@ -732,44 +1153,10 @@ st.markdown(
 | Fonte | Descrizione | Utilizzo |
 |-------|-------------|----------|
 | **metadata_enrichment.csv** | Anagrafica MIUR | Denominazione, Comune, Tipo scuola |
-| **comuni_italiani.json** | Elenco comuni/province | Normalizzazione geografica |
 | **PTOF Documents** | Documenti scolastici | Analisi testuale |
 """
 )
 
-with st.expander("Schema JSON Output"):
-    st.code(
-        """
-{
-  "metadata": {
-    "school_id": "MIIS08900V",
-    "denominazione": "...",
-    "ordine_grado": "I Grado|II Grado",
-    "tipo_scuola": "Liceo|Tecnico|Professionale|I Grado",
-    "statale_paritaria": "Statale|Paritaria",
-    "area_geografica": "Nord Ovest|Nord Est|Centro|Sud|Isole"
-  },
-  "ptof_section2": {
-    "2_1_ptof_orientamento_sezione_dedicata": {
-      "has_sezione_dedicata": 0|1,
-      "score": 1-7,
-      "note": "..."
-    },
-    "2_2_partnership": {
-      "partner_nominati": ["..."],
-      "partnership_count": N
-    },
-    "2_3_finalita": {
-      "finalita_attitudini": { "score": 1-7 },
-      ...
-    },
-    ...
-  },
-  "narrative": "Report markdown..."
-}
-        """,
-        language="json",
-    )
 
 with st.expander("Riferimenti Normativi"):
     st.markdown(

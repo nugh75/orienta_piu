@@ -1,4 +1,20 @@
-.PHONY: setup run workflow workflow-force dashboard csv backfill clean help download download-sample download-strato download-dry review-slow-openrouter review-slow-gemini review-report-ollama review-scores-openrouter review-scores-gemini review-scores-ollama review-non-ptof outreach-portal outreach-email list-models list-models-openrouter list-models-gemini recover-not-ptof wizard config config-show models-ollama models-ollama-pull best-practice best-practice-llm best-practice-llm-synth best-practice-llm-synth-ollama best-practice-llm-synth-restore best-practice-extract best-practice-extract-reset best-practice-extract-stats pipeline-ollama cleanup cleanup-dry cleanup-bak cleanup-bak-old
+.PHONY: \
+	help setup wizard config config-show \
+	run run-force run-force-code workflow workflow-force \
+	dashboard csv csv-watch backfill clean \
+	refresh full pipeline pipeline-ollama \
+	download download-sample download-strato download-statali download-paritarie \
+	download-regione download-metro download-non-metro download-grado download-area download-reset \
+	review-report-openrouter review-report-gemini review-report-ollama \
+	review-scores-openrouter review-scores-gemini review-scores-ollama \
+	review-non-ptof \
+	best-practice-extract best-practice-extract-reset best-practice-extract-stats \
+	registry-status registry-list registry-clear registry-remove \
+	recover-not-ptof \
+	outreach-portal outreach-email \
+	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
+	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
+	check-truncated fix-truncated list-backups
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -10,9 +26,17 @@ MODEL_LISTER = src/utils/list_models.py
 
 help:
 	@echo "Comandi disponibili:"
+	@echo "Guida completa: docs/MAP.md e docs/reference/MAKE_REFERENCE.md"
 	@echo ""
-	@echo "📥 DOWNLOAD PTOF:"
-	@echo "  make download              - Scarica PTOF (dry-run, mostra stratificazione)"
+	@echo "SETUP E CONFIG:"
+	@echo "  make setup                - Installa le dipendenze"
+	@echo "  make help                 - Mostra questo elenco"
+	@echo "  make wizard               - Wizard interattivo per i comandi make"
+	@echo "  make config               - Wizard configurazione pipeline (modelli, chunking)"
+	@echo "  make config-show          - Mostra configurazione attuale"
+	@echo ""
+	@echo "DOWNLOAD PTOF:"
+	@echo "  make download              - Dry-run: mostra stratificazione senza scaricare"
 	@echo "  make download-sample       - Scarica campione stratificato (5 per strato)"
 	@echo "  make download-strato N=X   - Scarica X scuole per ogni strato (es: N=20)"
 	@echo "  make download-statali      - Scarica tutte le scuole statali"
@@ -24,78 +48,61 @@ help:
 	@echo "  make download-area A=X     - Scarica per area geografica (A=NORD OVEST/SUD/ISOLE...)"
 	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
-	@echo "🤖 ANALISI & REVISIONE:"
-	@echo "  make run                     - Esegue analisi PTOF (può coesistere con altri processi)"
+	@echo "ANALISI E WORKFLOW:"
+	@echo "  make run                     - Esegue analisi PTOF (puo coesistere con altri processi)"
 	@echo "  make run CONF=1              - Come sopra, ma con wizard configurazione"
+	@echo "  make run-force               - Forza ri-analisi di tutti i file"
+	@echo "  make run-force-code CODE=X   - Ri-analizza una scuola specifica"
 	@echo "  make workflow                - Analisi PTOF pulita (ferma altri processi, una scuola alla volta)"
 	@echo "  make workflow CONF=1         - Come sopra, ma con wizard configurazione"
 	@echo "  make workflow-force          - Come workflow ma ri-analizza tutto"
-	@echo "  make run-force-code CODE=X   - Ri-analizza una scuola specifica"
-	@echo "  make config                  - Wizard configurazione pipeline (modelli, chunking)"
-	@echo "  make config-show             - Mostra configurazione attuale"
 	@echo ""
-	@echo "  📝 REVISIONE REPORT (arricchimento MD):"
+	@echo "REVISIONE:"
 	@echo "  make review-report-openrouter - Revisione report con OpenRouter (MODEL=...)"
 	@echo "  make review-report-gemini     - Revisione report con Gemini (MODEL=...)"
 	@echo "  make review-report-ollama     - Revisione report con Ollama (MODEL=..., OLLAMA_URL=...)"
-	@echo ""
-	@echo "  🎯 REVISIONE SCORES (JSON punteggi estremi):"
 	@echo "  make review-scores-openrouter - Revisione scores con OpenRouter (MODEL=..., LOW=2, HIGH=6)"
 	@echo "  make review-scores-gemini     - Revisione scores con Gemini (MODEL=..., LOW=2, HIGH=6)"
 	@echo "  make review-scores-ollama     - Revisione scores con Ollama (MODEL=..., LOW=2, HIGH=6)"
-	@echo ""
-	@echo "  🔍 VALIDAZIONE:"
 	@echo "  make review-non-ptof          - Rimuove analisi per documenti non-PTOF (TARGET=..., DRY=1)"
 	@echo ""
-	@echo "📬 OUTREACH PTOF:"
+	@echo "DASHBOARD E DATI:"
+	@echo "  make dashboard      - Avvia la dashboard Streamlit"
+	@echo "  make csv            - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
+	@echo "  make csv-watch       - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
+	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
+	@echo ""
+	@echo "CATALOGO BUONE PRATICHE:"
+	@echo "  make best-practice-extract       - Estrae buone pratiche dai PDF PTOF"
+	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
+	@echo "  make best-practice-extract-reset - Reset e ri-estrazione completa"
+	@echo "  make best-practice-extract-stats - Mostra statistiche estrazione"
+	@echo ""
+	@echo "OUTREACH PTOF:"
 	@echo "  make outreach-portal       - Avvia portale upload PTOF (PORT=8502)"
 	@echo "  make outreach-email        - Invia email PTOF (BASE_URL=..., LIMIT=..., SEND=1, CSV=\"... ...\")"
 	@echo ""
-	@echo "🔄 WORKFLOW & UTILITÀ:"
-	@echo "  make setup          - Installa le dipendenze"
-	@echo "  make dashboard      - Avvia la dashboard Streamlit"
-	@echo "  make csv            - Rigenera il CSV dai file JSON (rebuild_csv_clean.py)"
-	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
-	@echo "  make clean          - Pulisce file temporanei e cache"
-	@echo ""
-	@echo "📋 REGISTRO ANALISI:"
+	@echo "REGISTRO ANALISI:"
 	@echo "  make registry-status - Mostra stato del registro analisi"
 	@echo "  make registry-list   - Lista tutti i file registrati"
 	@echo "  make registry-clear  - Pulisce il registro (forza ri-analisi di tutto)"
+	@echo "  make registry-remove CODE=X - Rimuove una entry specifica"
 	@echo ""
-	@echo "♻️ RECOVERY PTOF:"
+	@echo "RECOVERY E MANUTENZIONE:"
 	@echo "  make recover-not-ptof - Recupera solo i PDF con suffisso _ok in ptof_discarded/not_ptof"
-	@echo ""
-	@echo "� MANUTENZIONE REPORT:"
 	@echo "  make check-truncated  - Trova report MD troncati"
 	@echo "  make fix-truncated    - Trova troncati e ripristina SOLO quelli dai backup"
 	@echo "  make list-backups     - Elenca tutti i file di backup disponibili"
+	@echo "  make clean            - Pulisce file temporanei e cache"
 	@echo ""
-	@echo "🔗 COMBINAZIONI:"
+	@echo "COMBINAZIONI:"
 	@echo "  make refresh    - Rigenera CSV e avvia dashboard"
 	@echo "  make full       - Esegue run, rigenera CSV e avvia dashboard"
 	@echo "  make pipeline   - Download sample + run + csv + dashboard"
 	@echo "  make pipeline-ollama - Analisi + revisione Ollama (scores+report) + CSV refresh"
 	@echo "                         MODEL=X, INTERVAL=300, LOW=2, HIGH=6"
 	@echo ""
-	@echo "📚 REPORT & ANALISI:"
-	@echo "  make best-practice               - Genera report best practice (statistico)"
-	@echo "  make best-practice-llm           - Genera report narrativo con Ollama (incrementale)"
-	@echo "                                     MODEL=X per modello Ollama (default qwen3:32b)"
-	@echo "  make best-practice-llm-reset     - Rigenera report narrativo da zero"
-	@echo "  make best-practice-llm-synth     - Genera report sintetico con Gemini/OpenRouter"
-	@echo "                                     REFACTOR_MODEL=X per modello Gemini"
-	@echo "  make best-practice-llm-synth-ollama - Genera report sintetico con solo Ollama"
-	@echo "                                        MODEL=X, OLLAMA_URL=X"
-	@echo "  make best-practice-llm-synth-restore - Ripristina report sintetico dal backup"
-	@echo ""
-	@echo "🌟 ESTRAZIONE BUONE PRATICHE (da PDF):"
-	@echo "  make best-practice-extract       - Estrae buone pratiche dai PDF PTOF"
-	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
-	@echo "  make best-practice-extract-reset - Reset e ri-estrazione completa"
-	@echo "  make best-practice-extract-stats - Mostra statistiche estrazione"
-	@echo ""
-	@echo "🤖 MODELLI AI:"
+	@echo "MODELLI AI:"
 	@echo "  make models                  - Mostra tutti i modelli disponibili"
 	@echo "  make models-ollama           - Lista modelli Ollama scaricati (OLLAMA_HOST=X)"
 	@echo "  make models-ollama-pull MODEL=X - Scarica/aggiorna un modello Ollama"
@@ -103,17 +110,11 @@ help:
 	@echo "  make list-models-openrouter  - Lista modelli OpenRouter (FREE_ONLY=1 per limitare)"
 	@echo "  make list-models-gemini      - Lista modelli Gemini (richiede GEMINI_API_KEY)"
 	@echo ""
-	@echo "⏰ AUTOMAZIONE:"
-	@echo "  make csv-watch             - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
-	@echo ""
-	@echo "🧭 WIZARD:"
-	@echo "  make wizard               - Avvia wizard interattivo per i comandi make"
-	@echo ""
-	@echo "🧹 PULIZIA FILE OBSOLETI:"
+	@echo "PULIZIA FILE OBSOLETI:"
 	@echo "  make cleanup-dry          - Mostra cosa verrebbe eliminato (dry-run)"
 	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
 	@echo "  make cleanup-bak          - Elimina obsoleti + file .bak (chiede conferma)"
-	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak più vecchi di N giorni (default 7)"
+	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak piu vecchi di N giorni (default 7)"
 
 setup:
 	$(PIP) install -r requirements.txt
@@ -189,41 +190,6 @@ csv:
 
 backfill:
 	$(PYTHON) src/processing/backfill_metadata_llm.py
-
-best-practice:
-	@echo "📚 Generazione report Best Practice Orientamento..."
-	$(PYTHON) -m src.agents.best_practice_agent
-	@echo "✅ Report generato in reports/best_practice_orientamento.md"
-
-best-practice-llm:
-	@echo "🤖 Generazione report Best Practice con Ollama LLM (incrementale)..."
-	$(PYTHON) -m src.agents.best_practice_ollama_agent $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL)) $(if $(RESET),--reset)
-	@echo "✅ Report narrativo generato in reports/best_practice_orientamento_narrativo.md"
-	@echo "💡 Per creare il report sintetico: make best-practice-llm-synth"
-
-best-practice-llm-reset:
-	@echo "🔄 Reset e rigenerazione report Best Practice con Ollama LLM..."
-	$(PYTHON) -m src.agents.best_practice_ollama_agent --reset $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL))
-	@echo "✅ Report narrativo generato in reports/best_practice_orientamento_narrativo.md"
-
-best-practice-llm-synth:
-	@echo "✨ Generazione Report Sintetico con Gemini/OpenRouter..."
-	$(PYTHON) -m src.agents.best_practice_ollama_agent --synth $(if $(REFACTOR_MODEL),--refactor-model $(REFACTOR_MODEL)) $(if $(FALLBACK_MODEL),--fallback-model $(FALLBACK_MODEL))
-	@echo "✅ Report sintetico generato in reports/best_practice_orientamento_sintetico.md"
-
-# Sintesi con solo Ollama (senza Gemini/OpenRouter)
-best-practice-llm-synth-ollama:
-	@echo "✨ Generazione Report Sintetico con Ollama..."
-	$(PYTHON) -m src.agents.best_practice_ollama_agent --synth-ollama $(if $(MODEL),--model $(MODEL)) $(if $(OLLAMA_URL),--url $(OLLAMA_URL))
-	@echo "✅ Report sintetico generato in reports/best_practice_orientamento_sintetico.md"
-
-best-practice-llm-synth-restore:
-	@if [ -f reports/best_practice_orientamento_sintetico.md.bak ]; then \
-		cp reports/best_practice_orientamento_sintetico.md.bak reports/best_practice_orientamento_sintetico.md; \
-		echo "✅ Report sintetico ripristinato dal backup"; \
-	else \
-		echo "❌ Nessun backup trovato"; \
-	fi
 
 # ═══════════════════════════════════════════════════════════════════
 # ESTRAZIONE BUONE PRATICHE DA PDF

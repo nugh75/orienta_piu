@@ -71,15 +71,15 @@ with st.sidebar:
                 if pd.notna(ro):
                     st.metric("Indice RO", f"{ro:.2f}/7")
 
-        if st.button("📊 Vai alla Mia Scuola", use_container_width=True):
-            switch_page("pages/01_🏠_La_Mia_Scuola.py")
+        if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
+            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
 
         if st.button("🔄 Cambia scuola", use_container_width=True):
-            switch_page("pages/01_🏠_La_Mia_Scuola.py")
+            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
     else:
         st.info("Nessuna scuola selezionata")
         if st.button("➕ Seleziona la tua scuola", use_container_width=True):
-            switch_page("pages/01_🏠_La_Mia_Scuola.py")
+            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
 
     st.markdown("---")
 
@@ -126,13 +126,13 @@ st.subheader("⚡ Azioni rapide")
 action_cols = st.columns(3)
 with action_cols[0]:
     if st.button("🏫 Dettaglio Scuola", use_container_width=True):
-        switch_page("pages/01_🏠_La_Mia_Scuola.py")
+        switch_page("pages/02_🏫_Dettaglio_Scuola.py")
 with action_cols[1]:
     if st.button("🗺️ Analisi Territoriale", use_container_width=True):
         switch_page("pages/04_🗺️_Analisi_Territoriale.py")
 with action_cols[2]:
-    if st.button("💡 Best Practice", use_container_width=True):
-        switch_page("pages/09_💡_Best_Practice.py")
+    if st.button("🌟 Catalogo Pratiche", use_container_width=True):
+        switch_page("pages/19_🌟_Buone_Pratiche.py")
 
 with st.container():
     st.subheader("🎓 Sei un genitore o uno studente?")
@@ -743,12 +743,12 @@ with nav_cols[2]:
 
 with nav_cols[3]:
     st.info("""
-    **💡 Best Practice**
+    **🌟 Catalogo Pratiche**
 
-    Analisi qualitativa:
-    - Mining progetti
-    - Report narrativi
-    - Metodologie efficaci
+    Esplora e filtra:
+    - Buone pratiche per categoria
+    - Metodologie e ambiti
+    - Distribuzioni e analisi
     """)
 
 render_footer()

@@ -1,11 +1,71 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T10:03:32.218303",
+  "last_updated": "2025-12-28T13:55:19.832659",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
       "processed_at": "2025-12-28T10:03:32.218290",
       "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "NAPS36000R": {
+      "file_hash": "sha256:4630c17b1d88338b4222b594aad0b9dff5a4def533b36a87e4fc17e067d5a74f",
+      "processed_at": "2025-12-28T10:49:14.276281",
+      "practices_count": 57,
+      "model_used": "qwen3:32b"
+    },
+    "AGPC010001": {
+      "file_hash": "sha256:8ef83e3f91fd233cef42ece237dfe7f01659b77d9e44a628e06ca1d6424b1058",
+      "processed_at": "2025-12-28T11:13:41.820350",
+      "practices_count": 73,
+      "model_used": "qwen3:32b"
+    },
+    "CTIS04300B": {
+      "file_hash": "sha256:64040d97082ad494c38ad1c401f1c327d2b856f782d74921728d9716107460e3",
+      "processed_at": "2025-12-28T11:26:56.270909",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "MOIC84900D": {
+      "file_hash": "sha256:83d9fcde2c790f5114313667e339c186be2d7d2354a382a20d5278b363b01302",
+      "processed_at": "2025-12-28T11:41:14.013735",
+      "practices_count": 48,
+      "model_used": "qwen3:32b"
+    },
+    "PATDEE500L": {
+      "file_hash": "sha256:4aacc18e7255720ccf3ca8b8239ba2d049052b95dd744c1c7231cacd2c9c9f68",
+      "processed_at": "2025-12-28T13:09:00.585122",
+      "practices_count": 254,
+      "model_used": "qwen3:32b"
+    },
+    "RMIS01600N": {
+      "file_hash": "sha256:35b6d5a3e4f025c73fbe0e5b578357c7b2213c03fa8178a7c2fe95c71e88a6d6",
+      "processed_at": "2025-12-28T13:20:15.304670",
+      "practices_count": 47,
+      "model_used": "qwen3:32b"
+    },
+    "CAIC8AM00E": {
+      "file_hash": "sha256:c24f800c8339217b2fd8f74e00052d01d1a2cf54ad652b3bad2d58cf17b3b68e",
+      "processed_at": "2025-12-28T13:32:03.763080",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "LEPC13000N": {
+      "file_hash": "sha256:918f76edaf35adbbc27c721151e7349edbe1afdf3a2d685ac9f4fb529bfabf7c",
+      "processed_at": "2025-12-28T13:34:33.296658",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8GA002": {
+      "file_hash": "sha256:264b8d00aa184f1560d81da8a7544a6588f8b81fc02396c60cb2601280c1b867",
+      "processed_at": "2025-12-28T13:45:43.528884",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "TOPS10000T": {
+      "file_hash": "sha256:92e7dab2783f346f44340b02902c9b69409f6b00dbcad987b43a66e3d9992c77",
+      "processed_at": "2025-12-28T13:55:19.832643",
+      "practices_count": 33,
       "model_used": "qwen3:32b"
     }
   }

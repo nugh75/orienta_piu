@@ -4,6 +4,8 @@
 
 Questo documento descrive in dettaglio il sistema di analisi automatica dei Piani Triennali dell'Offerta Formativa (PTOF) per la valutazione delle pratiche di orientamento scolastico. L'obiettivo è fotografare oggettivamente come le scuole italiane integrano l'orientamento nei loro documenti programmatici.
 
+Per la mappa documentazione vedi [MAP](../MAP.md).
+
 ---
 
 ## 1. Processo di Analisi
@@ -222,21 +224,21 @@ Parametri:
 | `LOW` | 2 | Soglia minima revisione scores |
 | `HIGH` | 6 | Soglia massima revisione scores |
 
-### 8.2 Report Best Practice
+### 8.2 Catalogo Buone Pratiche
 
-**Generazione report narrativo (incrementale):**
+**Estrazione dataset (Catalogo Pratiche):**
 ```bash
-make best-practice-llm MODEL=qwen3:32b
+make best-practice-extract MODEL=qwen3:32b
 ```
 
-**Generazione report sintetico con Ollama:**
+**Reset e rielaborazione completa:**
 ```bash
-make best-practice-llm-synth-ollama MODEL=qwen3:32b
+make best-practice-extract-reset
 ```
 
-**Generazione report sintetico con Gemini/OpenRouter:**
+**Statistiche rapide:**
 ```bash
-make best-practice-llm-synth REFACTOR_MODEL=gemini-3-flash-preview
+make best-practice-extract-stats
 ```
 
 ### 8.3 Comandi Makefile Principali
@@ -247,8 +249,7 @@ make best-practice-llm-synth REFACTOR_MODEL=gemini-3-flash-preview
 | `make csv` | Rigenera CSV dai JSON |
 | `make dashboard` | Avvia dashboard Streamlit |
 | `make pipeline-ollama` | Analisi + revisione parallela |
-| `make best-practice-llm` | Report narrativo best practice |
-| `make best-practice-llm-synth-ollama` | Report sintetico (solo Ollama) |
+| `make best-practice-extract` | Estrazione buone pratiche (catalogo) |
 | `make help` | Mostra tutti i comandi disponibili |
 
 ---

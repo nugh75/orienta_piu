@@ -2,6 +2,9 @@
 
 Guida completa a tutti i comandi `make` disponibili nel progetto.
 
+Per una lista rapida dei comandi vedi [MAKE_COMMANDS](MAKE_COMMANDS.md).
+Per la mappa documentazione vedi [MAP](../MAP.md).
+
 ## Indice
 
 - [Quick Start](#quick-start)
@@ -11,7 +14,7 @@ Guida completa a tutti i comandi `make` disponibili nel progetto.
   - [Revisione Scores (JSON)](#-revisione-scores-punteggi-estremi-json)
   - [Validazione](#-validazione)
 - [Workflow](#-workflow-analisi)
-- [Report & Best Practice](#-report--analisi)
+- [Catalogo Buone Pratiche](#-catalogo-buone-pratiche)
 - [Outreach](#-outreach-ptof)
 - [Registro Analisi](#-registro-analisi)
 - [Manutenzione](#-manutenzione-report)
@@ -250,29 +253,27 @@ make csv-watch INTERVAL=60
 
 ---
 
-## 📚 Report & Analisi
+## 🌟 Catalogo Buone Pratiche
 
-### Best Practice
+### Estrazione buone pratiche
 
 | Comando | Descrizione |
 |---------|-------------|
-| `make best-practice` | Report statistico (algoritmi) |
-| `make best-practice-llm` | Report narrativo con Ollama (incrementale) |
-| `make best-practice-llm-reset` | Rigenera report narrativo da zero |
-| `make best-practice-llm-synth` | Report sintetico (refactoring con Gemini) |
-| `make best-practice-llm-synth-restore` | Ripristina report sintetico dal backup |
+| `make best-practice-extract` | Estrae e aggiorna il dataset dal PTOF |
+| `make best-practice-extract-reset` | Reset e rielaborazione completa |
+| `make best-practice-extract-stats` | Statistiche rapide sul dataset |
 
 #### Parametri
 
 ```bash
-# Report narrativo con modello specifico
-make best-practice-llm MODEL=qwen3:32b
+# Estrazione con modello specifico
+make best-practice-extract MODEL=qwen3:32b
 
-# Report sintetico con modello Gemini specifico
-make best-practice-llm-synth REFACTOR_MODEL=gemini-2.5-flash
+# Limita il numero di PDF
+make best-practice-extract LIMIT=10
 
-# Con fallback OpenRouter
-make best-practice-llm-synth FALLBACK_MODEL=gpt-oss-120b
+# Forza rielaborazione completa
+make best-practice-extract FORCE=1
 ```
 
 ---
@@ -446,15 +447,16 @@ ptof_processed/      # PDF archiviati dopo analisi
 ptof_discarded/      # PDF scartati (non-PTOF, duplicati)
 ptof_md/             # Markdown estratti dai PDF
 analysis_results/    # JSON con risultati analisi
-reports/             # Report best practice
+reports/             # Output legacy o manuali
 logs/                # File di log
-data/                # Configurazioni e dati
+data/                # Configurazioni e dati (analysis_summary.csv, best_practices.json)
 ```
 
 ---
 
 ## 🔗 Link Utili
 
-- [README principale](README.md)
+- [README principale](../../README.md)
+- [Mappa documentazione](../MAP.md)
 - [Dashboard Streamlit](http://localhost:8501) (dopo `make dashboard`)
 - [Portale Upload](http://localhost:8502) (dopo `make outreach-portal`)

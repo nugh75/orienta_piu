@@ -1,6 +1,8 @@
 README - Workflow PTOF con Cartelle Separate
 ==========================================
 
+Per la mappa documentazione vedi [MAP](../MAP.md).
+
 ## ✅ Implementato!
 
 Il sistema ora usa due cartelle separate:
@@ -75,47 +77,16 @@ make csv
 
 ---
 
-## 📚 Report Best Practice
-
-### Generazione Report Narrativo (solo Ollama)
+## 🌟 Catalogo Buone Pratiche
 
 ```bash
-make best-practice-llm MODEL=qwen3:32b
+# Estrazione buone pratiche dal PTOF
+make best-practice-extract
 ```
 
-Genera un report incrementale analizzando tutte le scuole e arricchendo progressivamente il documento.
-
-**Rilevamento automatico modifiche:** L'agente rileva automaticamente se i file JSON/MD sono stati modificati (es. dopo una revisione con `ollama_score_reviewer` o `ollama_report_reviewer`) e ri-analizza solo le scuole i cui file sono cambiati. Nel log vedrai:
-- `🆕` per scuole nuove
-- `🔄 RECHECK` per scuole ri-analizzate
-
-### Generazione Report Sintetico
-
-**Con solo Ollama (consigliato per uso locale):**
-```bash
-make best-practice-llm-synth-ollama MODEL=qwen3:32b
-```
-
-**Con Gemini/OpenRouter (richiede API key):**
-```bash
-make best-practice-llm-synth REFACTOR_MODEL=gemini-3-flash-preview
-```
-
-**Rilevamento automatico modifiche:** Anche la sintesi rileva automaticamente se il report narrativo è stato modificato e ri-sintetizza tutto da zero. Nel log vedrai:
-- `🔄 Report narrativo modificato dall'ultima sintesi - ri-sintetizzo`
-
-### Flusso Completo Solo Ollama
-```bash
-# 1. Genera report narrativo
-make best-practice-llm MODEL=qwen3:32b
-
-# 2. Genera report sintetico
-make best-practice-llm-synth-ollama MODEL=qwen3:32b
-```
-
-### Altri Comandi Best Practice
-- `make best-practice-llm-reset` - Rigenera da zero il report narrativo
-- `make best-practice-llm-synth-restore` - Ripristina report sintetico da backup
+Comandi utili:
+- `make best-practice-extract-reset` - Reset e rielaborazione completa
+- `make best-practice-extract-stats` - Statistiche rapide sul dataset
 
 ## 🔁 Cosa Succede nel Workflow
 
@@ -136,6 +107,7 @@ make best-practice-llm-synth-ollama MODEL=qwen3:32b
 - **Script workflow**: [`workflow_notebook.py`](../../workflow_notebook.py)
 - **Guida completa**: [`docs/architecture/DIRECTORY_STRUCTURE.md`](../architecture/DIRECTORY_STRUCTURE.md)
 - **Esempi Jupyter**: [`docs/CLI_Examples.ipynb`](../CLI_Examples.ipynb)
+- **Mappa docs**: [`docs/MAP.md`](../MAP.md)
 
 ## 🔧 File Creati
 

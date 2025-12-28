@@ -10,7 +10,7 @@ import json
 import glob
 import numpy as np
 from data_utils import render_footer
-from page_control import setup_page
+from page_control import setup_page, switch_page
 
 st.set_page_config(page_title="ORIENTA+ | Dettaglio Scuola", page_icon="🧭", layout="wide")
 setup_page("pages/02_🏫_Dettaglio_Scuola.py")
@@ -27,6 +27,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
+BEST_PRACTICES_FILE = 'data/best_practices.json'
 
 DIMENSIONS = {
     'mean_finalita': 'Finalita',
@@ -122,7 +123,95 @@ def load_data():
         return df
     return pd.DataFrame()
 
+@st.cache_data(ttl=60)
+def load_best_practices():
+    if os.path.exists(BEST_PRACTICES_FILE):
+        try:
+            with open(BEST_PRACTICES_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            practices = data.get('practices', [])
+            if isinstance(practices, list):
+                return practices
+        except Exception:
+            return []
+    return []
+
 # === FUNZIONI HELPER ===
+
+def get_radar_benchmark(df, school_data, comparison_mode):
+    if comparison_mode == "Media per Tipologia":
+        tipo = str(school_data.get('tipo_scuola', '')).split(',')[0].strip()
+        if tipo:
+            filtered = df[df['tipo_scuola'].str.contains(tipo, na=False, case=False)]
+            label = f"Media Tipologia: {tipo}"
+        else:
+            filtered = df
+            label = "Media Nazionale"
+    elif comparison_mode == "Media per Area Geografica":
+        area = str(school_data.get('area_geografica', '')).strip()
+        if area and area.lower() not in ['nd', 'nan', 'none']:
+            filtered = df[df['area_geografica'] == area]
+            label = f"Media Area: {area}"
+        else:
+            filtered = df
+            label = "Media Nazionale"
+    else:
+        filtered = df
+        label = "Media Nazionale"
+
+    if filtered.empty:
+        return df, "Media Nazionale", True
+    return filtered, label, False
+
+
+def get_school_practices(practices, school_id):
+    return [
+        p for p in practices
+        if p.get('school', {}).get('codice_meccanografico') == school_id
+    ]
+
+
+def _normalize_text(value):
+    return str(value or "").strip().lower()
+
+
+def _practice_similarity_score(practice, school_data):
+    score = 0
+    school_tipo = _normalize_text(school_data.get('tipo_scuola'))
+    school_area = _normalize_text(school_data.get('area_geografica'))
+    school_regione = _normalize_text(school_data.get('regione'))
+
+    practice_school = practice.get('school', {})
+    practice_tipo = _normalize_text(practice_school.get('tipo_scuola'))
+    practice_area = _normalize_text(practice_school.get('area_geografica'))
+    practice_regione = _normalize_text(practice_school.get('regione'))
+
+    if school_tipo:
+        school_types = [t.strip() for t in school_tipo.split(',') if t.strip()]
+        if any(t in practice_tipo for t in school_types):
+            score += 2
+    if school_area and school_area == practice_area:
+        score += 1
+    if school_regione and school_regione == practice_regione:
+        score += 1
+    return score
+
+
+def get_similar_practices(practices, school_data, max_items=5):
+    ranked = []
+    for practice in practices:
+        score = _practice_similarity_score(practice, school_data)
+        if score > 0:
+            ranked.append((score, practice))
+    ranked.sort(
+        key=lambda item: (
+            item[0],
+            item[1].get('contesto', {}).get('maturity_index') or 0
+        ),
+        reverse=True
+    )
+    return [item[1] for item in ranked[:max_items]]
+
 
 def get_best_in_class(df, tipo_scuola=None, ordine_grado=None):
     filtered = df.copy()
@@ -245,8 +334,13 @@ with st.expander("📖 Come leggere questa pagina", expanded=False):
 
     **📊 Profilo**
     - Dati generali, radar delle 5 dimensioni e punteggi dettagliati
-    - Dettaglio dal report JSON, posizione in classifica, export PDF
-    - Documento PTOF originale (se disponibile)
+    - Posizione in classifica e confronto sintetico
+
+    **📄 Report Scuola**
+    - Report MD/JSON, export PDF e documento PTOF originale
+
+    **🌟 Best Practice**
+    - Pratiche della scuola e suggerimenti da scuole simili
 
     **🎯 Gap Analysis**
     - Confronto con benchmark (best-in-class, media nazionale, top 10%)
@@ -282,8 +376,21 @@ if not school_options:
     st.warning("Nessuna scuola trovata con questo filtro")
     st.stop()
 
+saved_school_id = st.session_state.get('my_school_id')
+saved_school_name = st.session_state.get('my_school_name')
+preferred_school = None
+if saved_school_id:
+    saved_match = df[df['school_id'] == saved_school_id]
+    if not saved_match.empty:
+        preferred_school = saved_match.iloc[0]['denominazione']
+if saved_school_name and saved_school_name in school_options:
+    preferred_school = saved_school_name
+
 if 'selected_school_name' not in st.session_state or st.session_state.selected_school_name not in school_options:
-    st.session_state.selected_school_name = school_options[0]
+    if preferred_school and preferred_school in school_options:
+        st.session_state.selected_school_name = preferred_school
+    else:
+        st.session_state.selected_school_name = school_options[0]
 
 current_index = school_options.index(st.session_state.selected_school_name)
 
@@ -314,6 +421,20 @@ if not selected_school:
     st.stop()
 
 school_data = df[df['denominazione'] == selected_school].iloc[0]
+
+# Azioni "Mia Scuola"
+action_cols = st.columns([1, 1])
+with action_cols[0]:
+    if st.button("⭐ Imposta come Mia Scuola", use_container_width=True):
+        st.session_state['my_school_id'] = school_data.get('school_id')
+        st.session_state['my_school_name'] = selected_school
+        st.success(f"'{selected_school}' impostata come tua scuola.")
+with action_cols[1]:
+    if saved_school_name:
+        if st.button("🗑️ Rimuovi Mia Scuola", use_container_width=True):
+            st.session_state.pop('my_school_id', None)
+            st.session_state.pop('my_school_name', None)
+            st.info("Selezione rimossa.")
 
 # === INFO GENERALI ===
 st.subheader("📋 Informazioni Generali")
@@ -387,56 +508,58 @@ st.info("""
 st.markdown("---")
 
 # === TABS PRINCIPALI ===
-tab_profilo, tab_gap, tab_peer, tab_matching, tab_suggestions = st.tabs([
-    "📊 Profilo", "🎯 Gap Analysis", "👥 Confronto Peer", "🔍 Matching Avanzato", "💡 Suggerimenti"
+radar_cols = list(DIMENSIONS.keys())
+
+tab_profilo, tab_report, tab_practices, tab_gap, tab_peer, tab_matching, tab_suggestions = st.tabs([
+    "📊 Profilo", "📄 Report Scuola", "🌟 Best Practice", "🎯 Gap Analysis",
+    "👥 Confronto Peer", "🔍 Matching Avanzato", "💡 Suggerimenti"
 ])
 
 # === TAB PROFILO ===
 with tab_profilo:
-    radar_cols = list(DIMENSIONS.keys())
+    comparison_options = ["Media per Tipologia", "Media per Area Geografica", "Media Nazionale"]
+    comparison_mode = st.selectbox("Confronto Radar", comparison_options, index=0, key="radar_comparison_mode")
+    benchmark_df, benchmark_label, fallback_used = get_radar_benchmark(df, school_data, comparison_mode)
+    benchmark_means = {col: benchmark_df[col].mean() for col in radar_cols}
+
+    if fallback_used:
+        st.info("Confronto specifico non disponibile, mostrata la media nazionale.")
+
     col1, col2 = st.columns(2)
 
     with col1:
         st.subheader("🕸️ Profilo Radar")
         if all(c in df.columns for c in radar_cols):
             school_vals = [school_data.get(c, 0) if pd.notna(school_data.get(c)) else 0 for c in radar_cols]
-            avg_vals = [df[c].mean() for c in radar_cols]
+            benchmark_vals = [benchmark_means.get(c, 0) for c in radar_cols]
             labels = list(DIMENSIONS.values())
 
             fig = go.Figure()
             fig.add_trace(go.Scatterpolar(r=school_vals + [school_vals[0]], theta=labels + [labels[0]],
                                            fill='toself', name=selected_school[:25],
                                            line_color='#1f77b4'))
-            fig.add_trace(go.Scatterpolar(r=avg_vals + [avg_vals[0]], theta=labels + [labels[0]],
-                                           fill='toself', name='Media Campione', opacity=0.5,
+            fig.add_trace(go.Scatterpolar(r=benchmark_vals + [benchmark_vals[0]], theta=labels + [labels[0]],
+                                           fill='toself', name=benchmark_label, opacity=0.5,
                                            line_color='#ff7f0e'))
             fig.update_layout(polar=dict(radialaxis=dict(range=[0, 7])), showlegend=True, height=400)
             st.plotly_chart(fig, use_container_width=True)
 
-            st.info("""
-💡 **A cosa serve**: Mostra il "profilo" della scuola sulle 5 dimensioni dell'orientamento, confrontato con la media nazionale.
+            st.info(f"""
+💡 **A cosa serve**: Mostra il "profilo" della scuola sulle 5 dimensioni dell'orientamento, confrontato con **{benchmark_label}**.
 
-🔍 **Cosa rileva**: L'area blu è la scuola, quella arancione è la media del campione. Dove il blu "esce" dall'arancione, la scuola eccelle. Dove è "dentro", c'è margine di miglioramento.
+🔍 **Cosa rileva**: L'area blu è la scuola, quella arancione è {benchmark_label}. Dove il blu "esce" dall'arancione, la scuola eccelle. Dove è "dentro", c'è margine di miglioramento.
 
 🎯 **Implicazioni**: Identifica rapidamente punti di forza (da valorizzare nella comunicazione) e aree critiche (dove investire in formazione o risorse).
 """)
 
     with col2:
         st.subheader("📊 Punteggi Dimensionali")
+        st.caption(f"Confronto: {benchmark_label}")
         for col_key, col_name in DIMENSIONS.items():
             val = school_data.get(col_key, 0) or 0
-            mean_val = df[col_key].mean()
+            mean_val = benchmark_means.get(col_key, 0)
             delta = val - mean_val
-            st.metric(col_name, f"{val:.2f}/7", f"{delta:+.2f} vs media", delta_color="normal")
-
-    # Report MD
-    school_id = school_data.get('school_id')
-    if school_id:
-        md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
-        if md_files:
-            with st.expander("📝 Report Analisi Completo", expanded=False):
-                with open(md_files[0], 'r') as f:
-                    st.markdown(f.read())
+            st.metric(col_name, f"{val:.2f}/7", f"{delta:+.2f}", delta_color="normal")
 
     # Punteggi dettagliati
     st.subheader("📊 Punteggi Dettagliati")
@@ -459,55 +582,6 @@ with tab_profilo:
 
 🎯 **Implicazioni**: Usa questa vista per identificare esattamente QUALI aspetti migliorare nel PTOF. Gli indicatori in rosso sono le priorità di intervento concrete.
 """)
-
-    st.markdown("---")
-
-    # Dettaglio dal report JSON
-    st.subheader("📄 Dettaglio dal Report")
-    school_id = school_data.get('school_id', '')
-    json_files = glob.glob(f'analysis_results/*{school_id}*_analysis.json')
-
-    if json_files:
-        try:
-            with open(json_files[0], 'r') as f:
-                json_data = json.load(f)
-
-            sec2 = json_data.get('ptof_section2', {})
-
-            col1, col2 = st.columns(2)
-            with col1:
-                st.markdown("### 🤝 Partnership")
-                partnerships = sec2.get('2_2_partnership', {})
-                partners = partnerships.get('partner_nominati', [])
-                if partners:
-                    st.write(f"**Numero Partner:** {len(partners)}")
-                    for p in partners:
-                        st.write(f"- {p}")
-                else:
-                    st.write("Nessuna partnership nominata")
-
-            with col2:
-                st.markdown("### 📋 Sezione Orientamento")
-                s21 = sec2.get('2_1_ptof_orientamento_sezione_dedicata', {})
-                has_sez = "✅ Sì" if s21.get('has_sezione_dedicata') else "❌ No"
-                st.write(f"**Sezione dedicata:** {has_sez}")
-                st.write(f"**Punteggio:** {s21.get('score', 'N/D')}/7")
-                if s21.get('note'):
-                    st.caption(s21.get('note'))
-
-            st.markdown("---")
-
-            st.markdown("### 🎯 Finalita (dettaglio)")
-            finalita = sec2.get('2_3_finalita', {})
-            for key, val in finalita.items():
-                if isinstance(val, dict):
-                    score = val.get('score', 0)
-                    st.write(f"**{get_label(key)}:** {score}/7")
-
-        except Exception as e:
-            st.error(f"Errore caricamento JSON: {e}")
-    else:
-        st.info("Report JSON non ancora disponibile per questa scuola")
 
     st.markdown("---")
 
@@ -537,12 +611,72 @@ with tab_profilo:
 🎯 **Implicazioni**: Un dato utile per la comunicazione esterna ("Siamo nel top 20%"). Permette anche di fissare obiettivi concreti ("Vogliamo passare dal 60° al 75° percentile").
 """)
 
+
+# === TAB REPORT SCUOLA ===
+with tab_report:
+    st.subheader("📄 Report Scuola")
+    school_id = school_data.get('school_id', '')
+
+    md_files = glob.glob(f'analysis_results/*{school_id}*_analysis.md')
+    if md_files:
+        with st.expander("📝 Report Analisi Completo", expanded=True):
+            with open(md_files[0], 'r') as f:
+                st.markdown(f.read())
+    else:
+        st.info("Report MD non disponibile per questa scuola.")
+
     st.markdown("---")
 
-    # Export scheda scuola PDF
-    st.subheader("📥 Esporta Scheda Scuola")
+    st.subheader("🧾 Dettaglio dal Report (JSON)")
+    json_files = glob.glob(f'analysis_results/*{school_id}*_analysis.json')
 
-    def generate_school_pdf(school_data, radar_cols, df):
+    if json_files:
+        try:
+            with open(json_files[0], 'r') as f:
+                json_data = json.load(f)
+
+            sec2 = json_data.get('ptof_section2', {})
+
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown("### 🤝 Partnership")
+                partnerships = sec2.get('2_2_partnership', {})
+                partners = partnerships.get('partner_nominati', [])
+                if partners:
+                    st.write(f"**Numero Partner:** {len(partners)}")
+                    for p in partners:
+                        st.write(f"- {p}")
+                else:
+                    st.write("Nessuna partnership nominata")
+
+            with col2:
+                st.markdown("### 📋 Sezione Orientamento")
+                s21 = sec2.get('2_1_ptof_orientamento_sezione_dedicata', {})
+                has_sez = "✅ Si" if s21.get('has_sezione_dedicata') else "❌ No"
+                st.write(f"**Sezione dedicata:** {has_sez}")
+                st.write(f"**Punteggio:** {s21.get('score', 'N/D')}/7")
+                if s21.get('note'):
+                    st.caption(s21.get('note'))
+
+            st.markdown("---")
+
+            st.markdown("### 🎯 Finalita (dettaglio)")
+            finalita = sec2.get('2_3_finalita', {})
+            for key, val in finalita.items():
+                if isinstance(val, dict):
+                    score = val.get('score', 0)
+                    st.write(f"**{get_label(key)}:** {score}/7")
+
+        except Exception as e:
+            st.error(f"Errore caricamento JSON: {e}")
+    else:
+        st.info("Report JSON non ancora disponibile per questa scuola")
+
+    st.markdown("---")
+
+    st.subheader("📥 Report Scuola PDF")
+
+    def generate_school_report_pdf(school_data, radar_cols, df):
         try:
             from reportlab.lib import colors
             from reportlab.lib.pagesizes import A4
@@ -565,7 +699,7 @@ with tab_profilo:
 
             story = []
 
-            story.append(Paragraph("📋 Scheda Scuola", title_style))
+            story.append(Paragraph("📋 Report Scuola", title_style))
             story.append(Paragraph(f"<b>{school_data.get('denominazione', 'N/D')}</b>", heading_style))
             story.append(Spacer(1, 12))
 
@@ -660,22 +794,22 @@ with tab_profilo:
             return None
 
     try:
-        pdf_bytes = generate_school_pdf(school_data, radar_cols, df)
+        pdf_bytes = generate_school_report_pdf(school_data, radar_cols, df)
 
         if pdf_bytes:
             col_pdf1, col_pdf2 = st.columns([1, 2])
             with col_pdf1:
                 st.download_button(
-                    label="📥 Scarica Scheda PDF",
+                    label="📥 Scarica Report PDF",
                     data=pdf_bytes,
-                    file_name=f"scheda_{school_data.get('school_id', 'scuola')}.pdf",
+                    file_name=f"report_scuola_{school_data.get('school_id', 'scuola')}.pdf",
                     mime="application/pdf",
-                    help="Scarica la scheda completa della scuola in formato PDF"
+                    help="Scarica il report completo della scuola in formato PDF"
                 )
             with col_pdf2:
-                st.caption("La scheda PDF include: dati anagrafici, punteggi per dimensione, posizione in classifica.")
+                st.caption("Il report PDF include: dati anagrafici, punteggi per dimensione, posizione in classifica.")
         else:
-            st.warning("⚠️ Per generare PDF installa reportlab: `pip install reportlab`")
+            st.warning("⚠️ Per generare il PDF installa reportlab: `pip install reportlab`")
 
     except Exception as e:
         st.warning(f"Export PDF non disponibile: {e}")
@@ -683,9 +817,7 @@ with tab_profilo:
 
     st.markdown("---")
 
-    # PDF PTOF originale
     st.subheader("📄 Documento PTOF Originale")
-    school_id = school_data.get('school_id', '')
 
     pdf_path = None
     search_dirs = ["ptof_processed", "ptof_inbox"]
@@ -730,11 +862,11 @@ with tab_profilo:
 
             base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
 
-            pdf_display = f'''
+            pdf_display = f"""
                 <iframe src="data:application/pdf;base64,{base64_pdf}"
                         width="100%" height="800" type="application/pdf">
                 </iframe>
-            '''
+            """
             st.markdown(pdf_display, unsafe_allow_html=True)
 
             st.download_button(
@@ -759,6 +891,92 @@ with tab_profilo:
         st.info(f"📂 PDF non trovato per {school_id}. Verifica che il file sia in `ptof/` o `ptof_processed/`.")
         st.caption("Cartelle cercate: ptof/, ptof_processed/, ptof_inbox/")
 
+# === TAB BEST PRACTICE ===
+with tab_practices:
+    st.subheader("🌟 Best Practice della Scuola")
+
+    practices = load_best_practices()
+    school_id = school_data.get('school_id', '')
+
+    if not practices:
+        st.info("Catalogo pratiche non disponibile. Verifica `data/best_practices.json`.")
+    else:
+        school_practices = get_school_practices(practices, school_id)
+
+        if school_practices:
+            st.caption(f"Trovate {len(school_practices)} pratiche nel catalogo.")
+            for practice in school_practices:
+                pratica = practice.get('pratica', {})
+                title = pratica.get('titolo', 'Pratica')
+                category = pratica.get('categoria', 'Categoria')
+                header = f"{category} - {title}"
+
+                with st.expander(header, expanded=False):
+                    descrizione = pratica.get('descrizione')
+                    if descrizione:
+                        st.markdown(f"**Descrizione:** {descrizione}")
+                    metodologia = pratica.get('metodologia')
+                    if metodologia:
+                        st.markdown(f"**Metodologia:** {metodologia}")
+                    target = pratica.get('target')
+                    if target:
+                        st.markdown(f"**Target:** {target}")
+
+                    citazione = pratica.get('citazione_ptof')
+                    pagina = pratica.get('pagina_evidenza')
+                    if citazione:
+                        st.markdown("**Evidenza dal PTOF:**")
+                        st.markdown(f"> {citazione}")
+                        if pagina:
+                            st.caption(f"Evidenza: {pagina}")
+
+                    contesto = practice.get('contesto', {})
+                    maturity = contesto.get('maturity_index')
+                    if maturity is not None:
+                        st.caption(f"Indice maturita contesto: {maturity:.2f}")
+                    partnerships = contesto.get('partnership_coinvolte', [])
+                    if partnerships:
+                        st.markdown("**Partnership coinvolte:** " + ", ".join(partnerships[:5]) +
+                                    (" ..." if len(partnerships) > 5 else ""))
+                    attivita = contesto.get('attivita_correlate', [])
+                    if attivita:
+                        st.markdown("**Attivita correlate:** " + ", ".join(attivita[:5]) +
+                                    (" ..." if len(attivita) > 5 else ""))
+        else:
+            st.info("Nessuna pratica catalogata per questa scuola.")
+            similar_practices = get_similar_practices(practices, school_data, max_items=5)
+            if similar_practices:
+                st.subheader("🔍 Buone pratiche da scuole simili")
+                for practice in similar_practices:
+                    pratica = practice.get('pratica', {})
+                    school_info = practice.get('school', {})
+                    title = pratica.get('titolo', 'Pratica')
+                    category = pratica.get('categoria', 'Categoria')
+                    school_name = school_info.get('nome', 'Scuola')
+                    header = f"{category} - {title} - {school_name}"
+
+                    with st.expander(header, expanded=False):
+                        school_tag = " | ".join(filter(None, [
+                            school_info.get('tipo_scuola'),
+                            school_info.get('area_geografica'),
+                            school_info.get('regione')
+                        ]))
+                        if school_tag:
+                            st.caption(school_tag)
+                        descrizione = pratica.get('descrizione')
+                        if descrizione:
+                            st.markdown(f"**Descrizione:** {descrizione}")
+                        metodologia = pratica.get('metodologia')
+                        if metodologia:
+                            st.markdown(f"**Metodologia:** {metodologia}")
+                        target = pratica.get('target')
+                        if target:
+                            st.markdown(f"**Target:** {target}")
+            else:
+                st.caption("Non ci sono pratiche simili disponibili nel catalogo.")
+
+    if st.button("🌟 Vai al Catalogo Pratiche", use_container_width=True):
+        switch_page("pages/19_🌟_Buone_Pratiche.py")
 # === TAB GAP ANALYSIS ===
 with tab_gap:
     st.subheader("🎯 Analisi Gap e Raccomandazioni")

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "school_id": "STRUTTURA5",
+    "denominazione": "Liceo San Benedetto",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Piacenza",
+    "anno_ptof": "Non specificato",
+    "provincia": "Piacenza",
+    "regione": "Emilia-Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Vittorio Emanuele, 158 – Piacenza",
+    "cap": "ND",
+    "email": "info@sbenedetto.it",
+    "pec": "ND",
+    "website": "www.sbenedetto.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 3,
+      "note": "L'orientamento è affrontato in modo frammentario all'interno di altre sezioni del PTOF (es. pag. 23, 27, 49-51), senza una sezione dedicata specifica. Si evidenziano riferimenti all'orientamento in uscita legati all'alternanza scuola-lavoro e all'orientamento universitario."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università Cattolica di Piacenza",
+        "Società sportive",
+        "Enti del territorio",
+        "AUSL",
+        "Servizi sociali",
+        "Servizi educativi",
+        "Società Canottieri Vittorino da Feltre",
+        "Libreria Mondadori",
+        "Università Cattolica del Sacro Cuore",
+        "CONI"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzazione massima delle positività dei singoli sia in termini di competenze disciplinari che di competenze legate a specifici interessi",
+        "evidence_location": "Pagina 23"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "valorizzazione massima delle positività dei singoli sia in termini di competenze disciplinari che di competenze legate a specifici interessi",
+        "evidence_location": "Pagina 23"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "costruire e/o ricostruire il senso di appartenenza alla comunità scolastica e alla più ampia comunità sociale",
+        "evidence_location": "Pagina 23"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "Alternanza scuola/lavoro",
+        "evidence_location": "Pagina 50"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "Percorsi ad hoc per comprendere interessi e prospettive universitarie",
+        "evidence_location": "Pagina 50"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PROGETTO ARTE sul territorio",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorso progettuale di storia dell’Arte legato al territorio di Piacenza, con raccolta documentazione, uscite didattiche, incontri con professionisti e produzione di un lavoro di analisi ed esposizione interdisciplinare.",
+      "5w_chi": "Classi del triennio",
+      "5w_cosa": "Studio del territorio e produzione di un progetto artistico.",
+      "5w_dove": "Piacenza e archivi cittadini",
+      "5w_quando": "Orario curricolare",
+      "5w_perche": "Conoscere il patrimonio culturale locale e sviluppare competenze artistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Classi III-V",
+      "evidence_quote": "studio del territorio",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Convenzioni con società sportive locali per offrire opportunità di alternanza scuola-lavoro.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Esperienze pratiche in ambito sportivo.",
+      "5w_dove": "Società sportive del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Collegare la scuola al mondo del lavoro e sviluppare competenze pratiche.",
+      "ore_dichiarate": "ND",
+      "target": "Tutte le classi",
+      "evidence_quote": "opportunità capace di sfruttare le risorse che il nostro territorio porta in dote",
+      "evidence_location": "Pagina 25"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio teatrale per potenziare le abilità comunicative ed espressive, con possibilità di preparazione di uno spettacolo teatrale.",
+      "5w_chi": "Tutte le classi (esclusa la quinta)",
+      "5w_cosa": "Esercitazioni teatrali e preparazione di uno spettacolo.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare competenze comunicative ed espressive.",
+      "ore_dichiarate": "ND",
+      "target": "Classi I-IV",
+      "evidence_quote": "abilità comunicative ed espressive",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Visita a Società Canottieri Vittorino da Feltre",
+      "categoria_principale": "Stage/Laboratorio",
+      "descrizione_e_metodologia": "Possibilità per i ragazzi del liceo sportivo di avvicinarsi alle discipline sportive con istruttori CONI.",
+      "5w_chi": "Ragazzi del liceo sportivo",
+      "5w_cosa": "Avvicinamento a discipline sportive",
+      "5w_dove": "Società Canottieri Vittorino da Feltre",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere la pratica sportiva",
+      "ore_dichiarate": "ND",
+      "target": "Liceo Sportivo",
+      "evidence_quote": "la Società Canottieri Vittorino da Feltre, dove i ragazzi del nostro liceo Sportivo",
+      "evidence_location": "Pagina 49"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Libreria Mondadori",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Progetti di sensibilizzazione alla lettura: letture teatrali, incontri con autori.",
+      "5w_chi": "Tutta la scuola",
+      "5w_cosa": "Sensibilizzazione alla lettura",
+      "5w_dove": "Libreria Mondadori",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere la lettura",
+      "ore_dichiarate": "ND",
+      "target": "Tutta la scuola",
+      "evidence_quote": "La Libreria Mondadori è disponibile alla collaborazione con la scuola per progetti di sensibilizzazione alla lettura",
+      "evidence_location": "Pagina 49"
+    },
+    {
+      "titolo_attivita": "Settimana d’accoglienza a Ferriere",
+      "categoria_principale": "Laboratorio/Esperienza",
+      "descrizione_e_metodologia": "Ospitalità al Ferriere Sport Camp per promuovere la conoscenza e la socializzazione.",
+      "5w_chi": "Classe prima",
+      "5w_cosa": "Conoscenza e socializzazione",
+      "5w_dove": "Ferriere Sport Camp",
+      "5w_quando": "Prime settimane dell’anno scolastico",
+      "5w_perche": "Promuovere la socializzazione",
+      "ore_dichiarate": "ND",
+      "target": "Classe Prima",
+      "evidence_quote": "Settimana d’accoglienza a Ferriere",
+      "evidence_location": "Pagina 49"
+    },
+    {
+      "titolo_attivita": "Visita a Università Cattolica del Sacro Cuore",
+      "categoria_principale": "Incontro/Orientamento",
+      "descrizione_e_metodologia": "Visite e partecipazione a giornate di orientamento.",
+      "5w_chi": "Studenti V",
+      "5w_cosa": "Orientamento universitario",
+      "5w_dove": "Università Cattolica del Sacro Cuore",
+      "5w_quando": "Annuale",
+      "5w_perche": "Presentazione percorsi formativi",
+      "ore_dichiarate": "ND",
+      "target": "Studenti V",
+      "evidence_quote": "I ragazzi di V visitano i diversi atenei seguendo interventi dei vari responsabili in loco e partecipano alle giornate di orientamento provinciale.",
+      "evidence_location": "Pagina 51"
+    }
+  ],
+  "narrative": "# Analisi del PTOF STRUTTURA5\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo San Benedetto** di **Piacenza**, una scuola **statale** di secondo grado situata in **Emilia-Romagna**. L'analisi evidenzia un approccio all'orientamento che, pur presente, risulta frammentario e non supportato da una sezione dedicata specifica nel PTOF. Si riscontra un impegno nella valorizzazione delle attitudini e degli interessi degli studenti, con un focus sulla costruzione del senso di appartenenza alla comunità scolastica e sociale, e sulla preparazione alle transizioni formative, in particolare attraverso l'**alternanza scuola/lavoro** e l'orientamento universitario.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** L'orientamento non è trattato in una sezione autonoma del PTOF, ottenendo un punteggio di 3. L'analisi indica che l'orientamento è integrato in altre aree del piano, con riferimenti specifici all'orientamento in uscita.\n\n**2.2 Partnership:** Il **Liceo San Benedetto** vanta un network di **10 partner**, tra cui l'**Università Cattolica di Piacenza**, **società sportive**, **enti del territorio**, l'**AUSL**, **servizi sociali** ed educativi, la **Società Canottieri Vittorino da Feltre**, la **Libreria Mondadori**, l'**Università Cattolica del Sacro Cuore** e il **CONI**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per le opportunità di orientamento offerte agli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono orientate alla valorizzazione delle attitudini e degli interessi degli studenti (punteggio 3), alla costruzione del senso di appartenenza (punteggio 4), alla preparazione alle transizioni formative (punteggio 3) e allo sviluppo di capacità orientative (punteggio 3).\n\n**2.4 Obiettivi:** Il PTOF pone particolare attenzione alla riduzione dell'abbandono scolastico (punteggio 5) e alla continuità territoriale (punteggio 6). L'obiettivo di contrastare la dispersione scolastica e il fenomeno NEET risulta meno prioritario (punteggio 0), mentre l'attenzione al lifelong learning è moderata (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul coordinamento dei servizi (punteggio 5), sul dialogo tra docenti e studenti (punteggio 4), sul rapporto scuola-genitori (punteggio 5), sul monitoraggio delle azioni (punteggio 3) e sull'integrazione tra inclusione e fragilità (punteggio 6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale (punteggio 4), sulla laboratorialità (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 5) e sull'interdisciplinarità (punteggio 5).\n\n**2.7 Offerta di Opzionali:** L'offerta di opzionali include attività culturali (punteggio 5), laboratoriali ed espressive (punteggio 5), sportive (punteggio 5) e di volontariato (punteggio 3), mentre le attività ludiche e ricreative ricevono un punteggio inferiore (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in ambito orientativo risiedono nella solida rete di **partnership** con enti e istituzioni del territorio, nell'attenzione alla valorizzazione delle attitudini e degli interessi degli studenti, nella didattica orientativa basata sull'esperienza e sulla laboratorialità, e nell'offerta di opzionali diversificata. Attività come il progetto **\"PROGETTO ARTE sul territorio\"**, l'**\"Alternanza scuola/lavoro\"** con società sportive, il **\"Progetto Teatro\"**, la visita alla **Società Canottieri Vittorino da Feltre**, la collaborazione con la **Libreria Mondadori**, la **\"Settimana d’accoglienza a Ferriere\"** e la visita all'**Università Cattolica del Sacro Cuore** rappresentano esempi concreti di iniziative orientative attive nella scuola.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento nel PTOF, che ne frammenta l'approccio e ne limita la visibilità. L'obiettivo di contrastare il fenomeno NEET appare poco prioritario, e il monitoraggio delle azioni orientative potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più organico e sistematico all'orientamento, attraverso la definizione di una sezione dedicata nel PTOF, la chiara identificazione di obiettivi specifici per il contrasto alla dispersione scolastica e al fenomeno NEET, e l'implementazione di un sistema di monitoraggio efficace delle azioni orientative.\n\n### 6. Conclusioni\n\nIl **Liceo San Benedetto** dimostra un impegno significativo nell'orientamento, supportato da una rete di partnership consolidata e da un'offerta formativa diversificata. Tuttavia, per massimizzare l'efficacia delle azioni orientative, è necessario superare la frammentazione attuale e strutturare un approccio più organico e sistematico, con una sezione dedicata nel PTOF e obiettivi specifici per il contrasto alla dispersione scolastica e al fenomeno NEET."
+}

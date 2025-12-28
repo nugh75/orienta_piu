@@ -154,7 +154,7 @@ def main():
         if status_label == "Lavorato":
             st.markdown("---")
             st.success("Il PTOF della tua scuola è stato analizzato!")
-            st.info("Puoi visualizzare i risultati nella pagina 'La Mia Scuola' della dashboard.")
+            st.info("Puoi visualizzare i risultati nella pagina 'Dettaglio Scuola' della dashboard.")
 
     # Footer
     st.markdown("---")
