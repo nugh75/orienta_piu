@@ -15,7 +15,8 @@
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
 	check-truncated fix-truncated list-backups git-auto \
-	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch
+	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch \
+	docker-up docker-down docker-build docker-logs docker-status docker-shell venv
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -687,3 +688,37 @@ meta-batch:
 	$(PYTHON) $(META_CLI) batch \
 		--count $(or $(N),5) \
 		$(if $(PROVIDER),--provider $(PROVIDER),)
+
+# ===== DOCKER (solo dashboard) =====
+
+## Avvia dashboard Docker
+docker-up:
+	docker compose up -d
+
+## Ferma dashboard Docker
+docker-down:
+	docker compose down
+
+## Ricostruisci immagine Docker
+docker-build:
+	docker compose build --no-cache
+
+## Log dashboard Docker
+docker-logs:
+	docker compose logs -f dashboard
+
+## Stato container Docker
+docker-status:
+	docker compose ps
+
+## Shell nel container Docker
+docker-shell:
+	docker exec -it orienta-dashboard /bin/bash
+
+# ===== SETUP LOCALE =====
+
+## Crea virtual environment
+venv:
+	python3 -m venv .venv
+	@echo "Attiva con: source .venv/bin/activate"
+	@echo "Poi esegui: make setup"

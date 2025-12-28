@@ -1,0 +1,30 @@
+# Virtual environment (locale)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dati (montati come volumi)
+ptof_inbox/
+ptof_md/
+ptof/
+ptof_discarded/
+analysis_results/
+data/
+logs/
+backups/
+
+# Git e IDE
+.git/
+.idea/
+.vscode/
+
+# File sensibili
+.env
+
+# Non necessari nel container
+Makefile
+*.md
+*.sh
+workflow_notebook.py
+DOCKER_PLAN.md
