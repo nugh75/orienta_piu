@@ -14,8 +14,7 @@
 	outreach-portal outreach-email \
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
-	check-truncated fix-truncated list-backups git-watch \
-	git-push \
+	check-truncated fix-truncated list-backups git-auto \
 	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch
 
 PYTHON = .venv/bin/python
@@ -105,8 +104,7 @@ help:
 	@echo "  make check-truncated  - Trova report MD troncati"
 	@echo "  make fix-truncated    - Trova troncati e ripristina SOLO quelli dai backup"
 	@echo "  make list-backups     - Elenca tutti i file di backup disponibili"
-	@echo "  make git-watch        - Aggiorna repository ogni 15 min (INTERVAL=900)"
-	@echo "  make git-push         - Fa push verso il remoto"
+	@echo "  make git-auto         - Add/commit/push ogni 10 min (INTERVAL=600)"
 	@echo "  make clean            - Pulisce file temporanei e cache"
 	@echo ""
 	@echo "COMBINAZIONI:"
@@ -431,21 +429,22 @@ csv-watch:
 		sleep $(or $(INTERVAL),300); \
 	done
 
-# Watch Git: aggiorna il repository ogni N secondi (default 900s = 15min)
-# Uso: make git-watch INTERVAL=900
-git-watch:
-	@echo "🔄 Avvio watch Git (intervallo: $(or $(INTERVAL),900)s)..."
+# Git auto: add/commit/push ogni N secondi (default 600s = 10min)
+# Uso: make git-auto INTERVAL=600
+git-auto:
+	@echo "🔄 Avvio auto Git (intervallo: $(or $(INTERVAL),600)s)..."
 	@while true; do \
-		echo "📥 git pull --ff-only"; \
-		git pull --ff-only || echo "⚠️ git pull fallito: verifica modifiche locali o conflitti"; \
-		echo "💤 Attesa $(or $(INTERVAL),900)s..."; \
-		sleep $(or $(INTERVAL),900); \
+		git add -A; \
+		if git diff --cached --quiet; then \
+			echo "✅ Nessuna modifica da committare"; \
+		else \
+			TS=$$(date "+%Y-%m-%d %H:%M"); \
+			echo "📦 Commit automatico: $$TS"; \
+			git commit -m "Auto update $$TS" && git push; \
+		fi; \
+		echo "💤 Attesa $(or $(INTERVAL),600)s..."; \
+		sleep $(or $(INTERVAL),600); \
 	done
-
-# Git push: invia i commit locali al remoto
-git-push:
-	@echo "📤 git push"
-	@git push
 
 # ═══════════════════════════════════════════════════════════════════
 # REGISTRO ANALISI
