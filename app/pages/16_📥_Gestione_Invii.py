@@ -17,9 +17,131 @@ from page_control import setup_page
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
+CONFIG_DIR = BASE_DIR / "config"
 SPONTANEOUS_LOG = DATA_DIR / "spontaneous_uploads.json"
 ANALYSIS_SUMMARY_CSV = DATA_DIR / "analysis_summary.csv"
 PTOF_INVIATI_DIR = BASE_DIR / "ptof_inviati"
+OUTREACH_LINKS_FILE = CONFIG_DIR / "outreach_links.json"
+EMAIL_TEMPLATE_FILE = CONFIG_DIR / "email_template.txt"
+EMAIL_SUBJECT_FILE = CONFIG_DIR / "email_subject.txt"
+
+# Default links
+DEFAULT_LINKS = {
+    "dashboard_url": "https://orientapiu.it",
+    "invia_ptof_url": "https://orientapiu.it/Invia_PTOF",
+    "verifica_invio_url": "https://orientapiu.it/Verifica_Invio",
+    "richiedi_revisione_url": "https://orientapiu.it/Richiedi_Revisione",
+    "metodologia_url": "https://github.com/ddragoni/orientapiu",
+    "documentazione_url": "https://github.com/ddragoni/orientapiu",
+    "email_contatto": "orienta.piu@gmail.com"
+}
+
+DEFAULT_SUBJECT = "ORIENTA+ - Analisi gratuita del PTOF della vostra scuola"
+
+DEFAULT_TEMPLATE = """Gentile Dirigente Scolastico,
+
+mi chiamo Daniele Dragoni e sono dottorando impegnato nello sviluppo di ORIENTA+, un progetto di ricerca dedicato all'orientamento scolastico in Italia.
+Questa richiesta rientra nella mia ricerca di dottorato.
+
+L'obiettivo di ORIENTA+ e' analizzare i Piani Triennali dell'Offerta Formativa per individuare azioni, pratiche e strategie di orientamento presenti nel documento. L'analisi non esprime giudizi di valore sulla scuola: mira esclusivamente a descrivere e rendere visibili gli elementi che caratterizzano l'offerta formativa relativa all'orientamento.
+
+Perche' puo' essere utile alla sua scuola:
+- verificare quali pratiche di orientamento emergono dal PTOF;
+- confrontare il profilo della scuola con istituti simili del territorio;
+- individuare buone pratiche diffuse a livello nazionale o regionale.
+
+Se possibile, Le chiedo cortesemente di caricare il PTOF aggiornato (PDF) al seguente link:
+{upload_link}
+
+Dati della scuola:
+- Codice meccanografico: {codice}
+- Denominazione: {denominazione}
+- Comune: {comune}
+
+Una volta completata l'analisi, utilizzando il codice meccanografico sara' possibile:
+- consultare la pagina dedicata alla sua scuola: {dashboard_url}
+- consultare i risultati dell'indagine con statistiche e altri documenti: {dashboard_url}
+- verificare lo stato dell'elaborazione del PTOF: {verifica_invio_url}
+- richiedere una revisione: {richiedi_revisione_url}
+
+Indici utilizzati nell'analisi:
+- Indice RO (Robustezza dell'Orientamento): sintesi complessiva delle dimensioni valutate;
+- Finalita': chiarezza e coerenza delle finalita' orientative;
+- Obiettivi: definizione di obiettivi e risultati attesi;
+- Governance: organizzazione, ruoli e responsabilita' dell'orientamento;
+- Didattica orientativa: integrazione dell'orientamento nelle attivita' didattiche;
+- Opportunita' e percorsi: esperienze e iniziative rivolte agli studenti;
+- Partnership e attivita': collaborazioni e iniziative con enti esterni.
+
+Il PTOF e' un documento pubblico e l'analisi non comporta raccolta di dati personali ne' oneri per l'istituto.
+
+Metodologia: {metodologia_url}
+Codice e ulteriori informazioni: {documentazione_url}
+
+La prego di non rispondere a questa email con allegati: Le chiedo di caricare il PTOF esclusivamente tramite il modulo indicato sopra.
+
+Per qualsiasi chiarimento: {email_contatto}
+
+La ringrazio per l'attenzione e per la collaborazione.
+
+Cordiali saluti,
+{signature}
+"""
+
+
+def load_outreach_links() -> dict:
+    """Load outreach links configuration."""
+    if not OUTREACH_LINKS_FILE.exists():
+        return DEFAULT_LINKS.copy()
+    try:
+        data = json.loads(OUTREACH_LINKS_FILE.read_text(encoding="utf-8"))
+        # Merge with defaults to ensure all keys exist
+        result = DEFAULT_LINKS.copy()
+        result.update(data)
+        return result
+    except Exception:
+        return DEFAULT_LINKS.copy()
+
+
+def save_outreach_links(links: dict) -> None:
+    """Save outreach links configuration."""
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    OUTREACH_LINKS_FILE.write_text(
+        json.dumps(links, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
+
+
+def load_email_template() -> str:
+    """Load email template from file or return default."""
+    if EMAIL_TEMPLATE_FILE.exists():
+        try:
+            return EMAIL_TEMPLATE_FILE.read_text(encoding="utf-8")
+        except Exception:
+            pass
+    return DEFAULT_TEMPLATE
+
+
+def save_email_template(template: str) -> None:
+    """Save email template to file."""
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    EMAIL_TEMPLATE_FILE.write_text(template, encoding="utf-8")
+
+
+def load_email_subject() -> str:
+    """Load email subject from file or return default."""
+    if EMAIL_SUBJECT_FILE.exists():
+        try:
+            return EMAIL_SUBJECT_FILE.read_text(encoding="utf-8").strip()
+        except Exception:
+            pass
+    return DEFAULT_SUBJECT
+
+
+def save_email_subject(subject: str) -> None:
+    """Save email subject to file."""
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    EMAIL_SUBJECT_FILE.write_text(subject, encoding="utf-8")
 
 
 def load_uploads() -> list:
@@ -147,6 +269,153 @@ def main():
 
     st.title("📥 Gestione Invii PTOF")
     st.write("Gestisci gli invii PTOF ricevuti dalle scuole.")
+
+    # Configurable links section
+    with st.expander("⚙️ Configurazione Link Email", expanded=False):
+        st.write("Configura i link che verranno utilizzati nelle email di outreach.")
+
+        links = load_outreach_links()
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            new_dashboard = st.text_input(
+                "URL Dashboard",
+                value=links.get("dashboard_url", ""),
+                key="link_dashboard"
+            )
+            new_invia = st.text_input(
+                "URL Invia PTOF",
+                value=links.get("invia_ptof_url", ""),
+                key="link_invia"
+            )
+            new_verifica = st.text_input(
+                "URL Verifica Invio",
+                value=links.get("verifica_invio_url", ""),
+                key="link_verifica"
+            )
+
+        with col2:
+            new_revisione = st.text_input(
+                "URL Richiedi Revisione",
+                value=links.get("richiedi_revisione_url", ""),
+                key="link_revisione"
+            )
+            new_metodo = st.text_input(
+                "URL Metodologia",
+                value=links.get("metodologia_url", ""),
+                key="link_metodo"
+            )
+            new_docs = st.text_input(
+                "URL Documentazione/GitHub",
+                value=links.get("documentazione_url", ""),
+                key="link_docs"
+            )
+            new_email = st.text_input(
+                "Email di contatto",
+                value=links.get("email_contatto", ""),
+                key="link_email"
+            )
+
+        if st.button("💾 Salva configurazione link", use_container_width=True):
+            new_links = {
+                "dashboard_url": new_dashboard,
+                "invia_ptof_url": new_invia,
+                "verifica_invio_url": new_verifica,
+                "richiedi_revisione_url": new_revisione,
+                "metodologia_url": new_metodo,
+                "documentazione_url": new_docs,
+                "email_contatto": new_email
+            }
+            save_outreach_links(new_links)
+            st.success("Configurazione salvata!")
+            st.rerun()
+
+        st.markdown("---")
+        st.caption("Questi link vengono usati nel template email di `ptof_emailer.py`")
+
+    # Quick links section
+    with st.expander("🔗 Link Rapidi", expanded=False):
+        links = load_outreach_links()
+        col_link1, col_link2, col_link3 = st.columns(3)
+        with col_link1:
+            st.markdown("**Pagine Pubbliche**")
+            st.markdown(f"- [Dashboard]({links['dashboard_url']})")
+            st.markdown("- [Invia PTOF](/Invia_PTOF)")
+            st.markdown("- [Verifica Invio](/Verifica_Invio)")
+            st.markdown("- [Richiedi Revisione](/Richiedi_Revisione)")
+        with col_link2:
+            st.markdown("**Documentazione**")
+            st.markdown(f"- [Metodologia]({links['metodologia_url']})")
+            st.markdown(f"- [GitHub]({links['documentazione_url']})")
+        with col_link3:
+            st.markdown("**Pagine Admin**")
+            st.markdown("- [Gestione Dati](/Gestione_Dati)")
+            st.markdown("- [Gestione Revisioni](/Gestione_Revisioni)")
+
+    # Email template editing section
+    with st.expander("📧 Template Email", expanded=False):
+        st.write("Modifica il template email utilizzato per le comunicazioni alle scuole.")
+
+        # Load current values
+        current_subject = load_email_subject()
+        current_template = load_email_template()
+
+        # Subject input
+        new_subject = st.text_input(
+            "Oggetto email",
+            value=current_subject,
+            key="email_subject_input",
+            help="L'oggetto dell'email inviata alle scuole"
+        )
+
+        # Template text area
+        new_template = st.text_area(
+            "Corpo email",
+            value=current_template,
+            height=400,
+            key="email_template_input",
+            help="Il testo dell'email. Usa i placeholder tra parentesi graffe."
+        )
+
+        # Placeholder help
+        st.markdown("**Placeholder disponibili:**")
+        st.markdown("""
+        - `{upload_link}` - Link per caricare il PTOF
+        - `{codice}` - Codice meccanografico della scuola
+        - `{denominazione}` - Nome della scuola
+        - `{comune}` - Comune della scuola
+        - `{signature}` - Firma dell'email
+        - `{dashboard_url}` - URL dashboard (da config link)
+        - `{invia_ptof_url}` - URL pagina invio PTOF
+        - `{verifica_invio_url}` - URL pagina verifica invio
+        - `{richiedi_revisione_url}` - URL pagina richiesta revisione
+        - `{metodologia_url}` - URL metodologia
+        - `{documentazione_url}` - URL documentazione
+        - `{email_contatto}` - Email di contatto
+        """)
+
+        col_save, col_reset = st.columns(2)
+
+        with col_save:
+            if st.button("💾 Salva template", use_container_width=True):
+                save_email_subject(new_subject)
+                save_email_template(new_template)
+                st.success("Template salvato!")
+                st.rerun()
+
+        with col_reset:
+            if st.button("🔄 Ripristina default", use_container_width=True):
+                # Delete custom files to revert to defaults
+                if EMAIL_TEMPLATE_FILE.exists():
+                    EMAIL_TEMPLATE_FILE.unlink()
+                if EMAIL_SUBJECT_FILE.exists():
+                    EMAIL_SUBJECT_FILE.unlink()
+                st.success("Template ripristinato ai valori di default!")
+                st.rerun()
+
+        st.markdown("---")
+        st.caption("Il template viene usato da `ptof_emailer.py` per le email di outreach.")
 
     uploads = load_uploads()
     analyzed_codes = load_analyzed_codes()

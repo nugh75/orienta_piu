@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "school_id": "MIEE8EA01A",
+    "denominazione": "Primaria G. Carducci",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Legnano",
+    "anno_ptof": "2024-2028",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Xx Settembre 2",
+    "cap": "20025",
+    "email": "miic8ea008@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccarduccilegnano.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato in diversi punti, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "enti pubblici",
+        "privati",
+        "associazioni",
+        "istituti superiori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzazione del merito e delle eccellenze",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "programmazione e la progettazione dell’istituto devono prendere in considerazione le reali necessità formative degli alunni",
+        "evidence_location": "Pagina 4"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "orientamento formativo e scolastico",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "programmazioni di classe che prevedano esperienze e contenuti volte all’autonomia di scelta e alla capacità di orientamento degli alunni - affiancandovi azioni progettuali strutturate per la continuità educativa per tutti gli alunni, in particolare per gli studenti delle classi “ponte”",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna citazione esplicita",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti STEM",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Implementazione di progetti STEM per potenziare le competenze scientifiche e digitali.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività pratiche e laboratoriali legate alle discipline STEM.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare competenze STEM e digitali.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "prevedere progetti che implementino lo studio delle discipline STEM",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Percorsi per le Lingue Straniere",
+      "categoria_principale": "Attività Didattica",
+      "descrizione_e_metodologia": "Percorsi progettuali per l'implementazione dello studio delle lingue straniere.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività didattiche e laboratoriali per l'apprendimento delle lingue straniere.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziare le competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "prevedere percorsi progettuali che implementino lo studio delle LINGUE STRANIERE",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Orientamento Scolastico",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività di orientamento per il passaggio alla scuola secondaria di secondo grado.",
+      "5w_chi": "Studenti delle classi finali",
+      "5w_cosa": "Incontri con istituti superiori, visite guidate, colloqui individuali.",
+      "5w_dove": "Scuola, Istituti Superiori",
+      "5w_quando": "Classi finali",
+      "5w_perche": "Favorire scelte consapevoli per il futuro scolastico.",
+      "ore_dichiarate": "ND",
+      "target": "Classi finali",
+      "evidence_quote": "implementare e aggiornare il curricolo verticale di istituto e costruire pratiche valutative che abbiano legami tra i due ordini di scuola presenti nell’istituto",
+      "evidence_location": "Pagina 5"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIIC8EA008\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Comprensivo Carducci integra l'orientamento in diverse aree del documento, pur non prevedendo una sezione dedicata. L'orientamento è concepito come parte di un processo più ampio di inclusione, successo formativo e continuità didattica. Il livello di strutturazione dell'orientamento è sufficiente, ma necessita di un'azione di focalizzazione e di monitoraggio dei risultati.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione specificamente dedicata all'orientamento. Sebbene l'orientamento sia menzionato in diversi punti del documento, in particolare all'interno degli 'Indirizzi per le Attività della Scuola' (pagina 5), questa presenza è frammentata e non consente una visione strategica unitaria.\n\n#### 2.2 Partnership e Reti\nIl PTOF prevede collaborazioni con **enti pubblici**, **privati**, **associazioni** e **istituti superiori**. Queste partnership rappresentano un'opportunità potenziale per arricchire l'offerta formativa e offrire agli studenti esperienze di orientamento più concrete. Tuttavia, il documento non specifica criteri di selezione dei partner né definisce risultati attesi da tali collaborazioni.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate alla valorizzazione delle **attitudini** e degli **interessi** degli studenti, nonché alla preparazione per le **transizioni formative**. Manca, tuttavia, una definizione precisa degli obiettivi specifici dell'orientamento e delle competenze che si intende sviluppare negli studenti.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di **coordinamento** tra i servizi scolastici, di **dialogo** tra docenti e studenti e di coinvolgimento dei **genitori**. Sebbene queste azioni siano importanti per creare un clima di collaborazione, il documento non descrive meccanismi concreti (calendari, ruoli, responsabili) per garantirne l'effettiva implementazione e governance.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'utilizzo di metodologie attive e partecipative, come la **didattica laboratoriale** e l'apprendimento basato sull'esperienza. Tuttavia, le descrizioni delle strategie didattiche specifiche per l'orientamento sono limitate e non sufficientemente dettagliate.\n\n#### 2.6 Opportunità Formative\nL'istituto offre diverse **opportunità formative** extracurricolari, come progetti STEM, percorsi per le lingue straniere e attività sportive. Queste attività possono contribuire allo sviluppo delle competenze degli studenti e all'ampliamento dei loro orizzonti.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Progetti STEM\nL'istituto prevede l'implementazione di **progetti STEM** rivolti a tutti gli studenti, con l'obiettivo di sviluppare competenze scientifiche e digitali. Le attività si svolgono all'interno della scuola durante l'anno scolastico e prevedono approcci pratici e laboratoriali.\n\n#### 2.7.2 Percorsi per le Lingue Straniere\nIl PTOF prevede percorsi progettuali per l'implementazione dello studio delle **lingue straniere**, rivolti a tutti gli studenti. Queste attività si integrano nell'offerta didattica e prevedono approcci laboratoriali.\n\n#### 2.7.3 Orientamento Scolastico\nL'istituto prevede attività di **orientamento** per gli studenti delle classi finali, con l'obiettivo di favorire scelte consapevoli per il futuro scolastico. Le attività includono incontri con istituti superiori, visite guidate e colloqui individuali.\n\n### 3. Punti di Forza\nI punti di forza del PTOF sono la presenza di partnership con enti esterni e l'attenzione all'inclusione e al successo formativo degli studenti.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e la mancanza di indicatori misurabili per valutare l'efficacia delle azioni rappresentano le principali aree di debolezza.\n\n### 5. Gap Analysis\nIl gap principale è la mancanza di una visione strategica dell'orientamento, che si traduce in azioni frammentate e poco coordinate. È necessario definire obiettivi specifici, individuare indicatori di performance e monitorare i risultati per valutare l'efficacia delle azioni intraprese.\n\n### 6. Conclusioni\nIl PTOF dell'Istituto Comprensivo Carducci presenta un approccio all'orientamento che, pur non essendo esplicitamente strutturato, è integrato in diverse aree del documento. È necessario colmare il gap rappresentato dall'assenza di una sezione dedicata all'orientamento, definire una strategia chiara e coerente e introdurre indicatori misurabili per valutare l'efficacia delle azioni intraprese."
+}

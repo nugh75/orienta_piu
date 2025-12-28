@@ -61,47 +61,59 @@
       "locked": false,
       "order": 9
     },
-    "pages/10_🗂️_Gestione_Dati.py": {
-      "label": "🗂️ Gestione Dati",
-      "visible": true,
-      "locked": false,
-      "order": 10
-    },
     "pages/11_🎓_Scegli_la_Tua_Scuola.py": {
       "label": "🎓 Scegli la Tua Scuola",
       "visible": true,
       "locked": false,
-      "order": 11
+      "order": 10
     },
     "pages/12_ℹ️_Documentazione.py": {
       "label": "ℹ️ Documentazione",
       "visible": true,
       "locked": false,
-      "order": 12
-    },
-    "pages/13_🛠️_Amministrazione.py": {
-      "label": "🛠️ Amministrazione",
-      "visible": true,
-      "locked": true,
-      "order": 13
+      "order": 11
     },
     "pages/14_📤_Invia_PTOF.py": {
       "label": "📤 Invia PTOF",
       "visible": true,
       "locked": false,
-      "order": 14
+      "order": 12
     },
     "pages/15_🔎_Verifica_Invio.py": {
       "label": "🔎 Verifica Invio",
       "visible": true,
       "locked": false,
-      "order": 15
+      "order": 13
+    },
+    "pages/17_📝_Richiedi_Revisione.py": {
+      "label": "📝 Richiedi Revisione",
+      "visible": true,
+      "locked": false,
+      "order": 14
+    },
+    "pages/10_🗂️_Gestione_Dati.py": {
+      "label": "🗂️ Gestione Dati",
+      "visible": false,
+      "locked": true,
+      "order": 100
+    },
+    "pages/13_🛠️_Amministrazione.py": {
+      "label": "🛠️ Amministrazione",
+      "visible": false,
+      "locked": true,
+      "order": 101
     },
     "pages/16_📥_Gestione_Invii.py": {
       "label": "📥 Gestione Invii",
       "visible": false,
       "locked": true,
-      "order": 16
+      "order": 102
+    },
+    "pages/18_📋_Gestione_Revisioni.py": {
+      "label": "📋 Gestione Revisioni",
+      "visible": false,
+      "locked": true,
+      "order": 103
     }
   }
 }

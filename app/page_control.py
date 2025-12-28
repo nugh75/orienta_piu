@@ -1,8 +1,12 @@
+import hmac
 import json
+import os
 import re
 import sys
+import time
+from hashlib import sha256
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import streamlit as st
 
@@ -10,8 +14,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
+# Load .env from project root
+try:
+    from dotenv import load_dotenv
+    load_dotenv(BASE_DIR / ".env")
+except Exception:
+    pass
+
 PAGE_SETTINGS_PATH = Path("config/page_settings.json")
-ADMIN_PASSWORD = "Lagom192"
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin")
+ADMIN_TOKEN_PARAM = "admin_token"
+ADMIN_SESSION_TTL_SECONDS = int(os.getenv("ADMIN_SESSION_TTL_SECONDS", "43200"))
+ADMIN_TOKEN_SECRET = os.getenv("ADMIN_TOKEN_SECRET") or ADMIN_PASSWORD
 
 
 def _order_from_filename(name: str) -> int:
@@ -77,6 +91,115 @@ def admin_login() -> bool:
 def admin_logout() -> None:
     """Logout admin."""
     st.session_state.pop("admin_logged_in", None)
+    st.session_state.pop("admin_login_at", None)
+    st.session_state.pop("admin_token", None)
+    _remove_query_param(ADMIN_TOKEN_PARAM)
+
+
+def _normalize_query_value(value: object) -> object:
+    if isinstance(value, (list, tuple)):
+        return [str(v) for v in value if v is not None]
+    if value is None:
+        return ""
+    return str(value)
+
+
+def _get_query_params() -> Dict[str, object]:
+    try:
+        params = dict(st.query_params)
+    except Exception:
+        params = st.experimental_get_query_params()
+    result = {}
+    for key, value in params.items():
+        if key == "page":
+            continue
+        result[key] = _normalize_query_value(value)
+    return result
+
+
+def _set_query_params(params: Dict[str, object]) -> None:
+    try:
+        st.query_params.clear()
+        for key, value in params.items():
+            st.query_params[key] = value
+    except Exception:
+        st.experimental_set_query_params(**params)
+
+
+def _set_query_param(key: str, value: str) -> None:
+    params = _get_query_params()
+    params[key] = value
+    _set_query_params(params)
+
+
+def _remove_query_param(key: str) -> None:
+    params = _get_query_params()
+    if key in params:
+        params.pop(key, None)
+        _set_query_params(params)
+
+
+def _get_query_param(key: str) -> str:
+    params = _get_query_params()
+    value = params.get(key, "")
+    if isinstance(value, list):
+        return value[0] if value else ""
+    return str(value or "")
+
+
+def _sign_admin_token(ts: int) -> str:
+    payload = str(ts).encode("utf-8")
+    sig = hmac.new(ADMIN_TOKEN_SECRET.encode("utf-8"), payload, sha256).hexdigest()
+    return f"{ts}:{sig}"
+
+
+def _parse_admin_token(token: str) -> Optional[int]:
+    try:
+        ts_str, sig = token.split(":", 1)
+        ts = int(ts_str)
+    except Exception:
+        return None
+    expected = hmac.new(ADMIN_TOKEN_SECRET.encode("utf-8"), ts_str.encode("utf-8"), sha256).hexdigest()
+    if not hmac.compare_digest(sig, expected):
+        return None
+    if time.time() - ts > ADMIN_SESSION_TTL_SECONDS:
+        return None
+    return ts
+
+
+def _remember_admin_login() -> None:
+    now = int(time.time())
+    token = st.session_state.get("admin_token")
+    login_at = st.session_state.get("admin_login_at")
+    if token and login_at and (time.time() - login_at) <= ADMIN_SESSION_TTL_SECONDS:
+        if _get_query_param(ADMIN_TOKEN_PARAM) != token:
+            _set_query_param(ADMIN_TOKEN_PARAM, token)
+        return
+    token = _sign_admin_token(now)
+    st.session_state["admin_logged_in"] = True
+    st.session_state["admin_login_at"] = now
+    st.session_state["admin_token"] = token
+    if _get_query_param(ADMIN_TOKEN_PARAM) != token:
+        _set_query_param(ADMIN_TOKEN_PARAM, token)
+
+
+def _restore_admin_login() -> None:
+    if is_admin_logged_in():
+        login_at = st.session_state.get("admin_login_at", 0)
+        if login_at and (time.time() - login_at) <= ADMIN_SESSION_TTL_SECONDS:
+            return
+        admin_logout()
+        return
+    token = _get_query_param(ADMIN_TOKEN_PARAM)
+    if not token:
+        return
+    ts = _parse_admin_token(token)
+    if not ts:
+        _remove_query_param(ADMIN_TOKEN_PARAM)
+        return
+    st.session_state["admin_logged_in"] = True
+    st.session_state["admin_login_at"] = ts
+    st.session_state["admin_token"] = token
 
 
 def get_page_settings() -> Dict:
@@ -138,7 +261,12 @@ def _render_nav_button(label: str, page_id: str, current_page: str, admin_only: 
         return
 
     if st.sidebar.button(display, key=f"nav_{page_id}", use_container_width=True):
-        st.switch_page(page_id)
+        st.switch_page(page_id, query_params=_get_query_params())
+
+
+def switch_page(page_id: str) -> None:
+    """Switch page while preserving query params."""
+    st.switch_page(page_id, query_params=_get_query_params())
 
 
 def render_sidebar_nav(current_page: str, settings: Dict) -> None:
@@ -178,7 +306,7 @@ def render_admin_login_sidebar() -> None:
         password = st.sidebar.text_input("Password", type="password", key="admin_pwd")
         if st.sidebar.button("Accedi", use_container_width=True):
             if password == ADMIN_PASSWORD:
-                st.session_state["admin_logged_in"] = True
+                _remember_admin_login()
                 st.rerun()
             else:
                 st.sidebar.error("Password errata")
@@ -198,6 +326,7 @@ def enforce_page_access(page_id: str, settings: Dict) -> None:
 
 def setup_page(page_id: str, show_nav: bool = True) -> Dict:
     hide_streamlit_nav()
+    _restore_admin_login()
     settings = get_page_settings()
     enforce_page_access(page_id, settings)
     if show_nav:

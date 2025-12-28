@@ -1,0 +1,27 @@
+# Analisi del PTOF MEIC89100B
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il PTOF dell'I.C. N. 1 Tortorici (MEIC89100B), relativo al triennio 2022-2025, presenta un'attenzione all'orientamento e alla continuità, come evidenziato dalla presenza di una sezione dedicata e dal raggiungimento di un punteggio di 5 su 5 in tal senso. L'istituto dimostra un impegno nella costruzione di **partnership** significative con il **Comune di Tortorici**, l'**ITET Giuseppe Tomasi Lampedusa di S. Agata Militello**, diverse **associazioni culturali, sportive, musicali e del volontariato**, l'**Università di Messina**, i **servizi socio-sanitari ed educativi del territorio**, **associazioni di settore**, **aziende agricole**, **esperti d'arte e storia locali**, **professionisti esterni** e l'**Associazione Nautilus**. Le finalità orientative sono orientate alla valorizzazione delle **attitudini** e delle **eccellenze**, alla promozione della conoscenza del **patrimonio storico, artistico e culturale del territorio**, alla garanzia di un percorso formativo sereno e alla preparazione alle **transizioni formative** e alla scelta consapevole della **scuola secondaria di secondo grado**.
+
+### 2. Analisi Dimensionale
+
+L'analisi delle diverse dimensioni del PTOF rivela un quadro complessivamente positivo. Per quanto riguarda le **finalità**, l'attenzione al **progetto di vita** degli studenti è ben definita (punteggio 4), così come la gestione delle **transizioni formative** (punteggio 5). Le finalità relative alla valorizzazione delle **attitudini** e degli **interessi** degli studenti, e lo sviluppo delle **capacità orientative** ricevono un punteggio di 3. Gli **obiettivi** del PTOF includono la riduzione dell'**abbandono scolastico** e il rafforzamento della **continuità territoriale** (entrambi con punteggio 5), mentre l'attenzione al contrasto al fenomeno **NEET** e alla promozione del **lifelong learning** risulta meno marcata (punteggi rispettivamente 1 e 3). Le **azioni** implementate mostrano un buon coordinamento con i **servizi** del territorio (punteggio 4), un'adeguata attenzione al rapporto **scuola-genitori** (punteggio 5) e un sistema integrato per l'**inclusione** e la gestione delle **fragilità** (punteggio 5). La **didattica orientativa** si basa su esperienze dirette degli studenti (punteggio 4), sull'utilizzo di **laboratori** (punteggio 5) e sull'interdisciplinarità (punteggio 4), sebbene la flessibilità degli spazi e dei tempi risulti meno sviluppata (punteggio 3). Infine, l'offerta di **opzionali** e attività facoltative comprende ambiti **culturali**, **laboratoriali espressivi** e **sportivi** (punteggi elevati), ma anche attività **ludico-ricreative** e di **volontariato** (punteggi più contenuti).
+
+### 3. Punti di Forza
+
+I punti di forza del PTOF risiedono nella chiara definizione di una sezione dedicata all'orientamento, nella solida rete di **partnership** con il territorio e nella particolare attenzione alle **transizioni formative** e alla costruzione di un percorso formativo coerente per gli studenti. L'impegno nella promozione di attività **laboratoriali** e nell'utilizzo di metodologie didattiche basate sull'esperienza diretta degli studenti rappresenta un ulteriore elemento positivo. L'attenzione all'inclusione e alla gestione delle fragilità, unitamente al forte rapporto scuola-genitori, contribuiscono a creare un ambiente scolastico accogliente e supportivo.
+
+### 4. Aree di Debolezza
+
+L'area di debolezza principale risiede nella mancanza di un sistema di monitoraggio e valutazione dell'efficacia delle azioni di orientamento. Inoltre, l'attenzione al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning** appare meno sviluppata rispetto ad altri aspetti del PTOF. La flessibilità degli spazi e dei tempi nella didattica orientativa potrebbe essere ulteriormente potenziata.
+
+### 5. Gap Analysis
+
+Il divario principale riguarda la necessità di implementare un sistema di monitoraggio e valutazione delle attività di orientamento, al fine di verificarne l'efficacia e apportare eventuali correzioni. È inoltre necessario rafforzare l'attenzione alla prevenzione della dispersione scolastica e alla promozione del **lifelong learning**, attraverso azioni mirate e la collaborazione con gli attori del territorio.
+
+### 6. Conclusioni
+
+Il PTOF dell'I.C. N. 1 Tortorici si presenta come un documento ben strutturato e coerente, che pone al centro l'orientamento e la continuità formativa degli studenti. La solida rete di **partnership** e l'attenzione alle **transizioni formative** rappresentano elementi distintivi. L'implementazione di un sistema di monitoraggio e valutazione delle attività di orientamento e il rafforzamento dell'attenzione alla prevenzione della dispersione scolastica e alla promozione del **lifelong learning** consentirebbero di migliorare ulteriormente l'efficacia del PTOF e di garantire un futuro migliore per gli studenti. Tra le attività registrate, si evidenziano progetti come "**Conosco il mio paese**", "**Pronti per l'Invalsi**", "**Are you ready?**" e "**Elezione Baby Sindaco**", che contribuiscono a raggiungere gli obiettivi prefissati. Il **tirocinio ASACOM** e il corso **BLSD** sull'uso del defibrillatore semiautomatico DAE rappresentano un valore aggiunto per la comunità scolastica.

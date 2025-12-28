@@ -11,7 +11,7 @@ streamlit run src/portal/ptof_upload_portal.py --server.port 8502
 ```
 
 Il link pubblico usato nelle email deve puntare alla pagina di upload, ad esempio:
-`https://orientamento-prin.streamlit.app/Invia_PTOF`
+`https://orientapiu.it/Invia_PTOF`
 
 ## 2) Invio email alle scuole
 
@@ -31,13 +31,13 @@ SMTP_USE_STARTTLS (opzionale)
 Esempio di invio (dry-run di default):
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientapiu.it/Invia_PTOF" --limit 10
 ```
 
 Esempio di invio reale:
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --send --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientapiu.it/Invia_PTOF" --send --limit 10
 ```
 
 ## Output

@@ -31,13 +31,13 @@ SMTP_USE_STARTTLS (optional)
 3) Send emails (dry-run by default):
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientapiu.it/Invia_PTOF" --limit 10
 ```
 
 4) Send for real:
 
 ```bash
-python src/outreach/ptof_emailer.py --base-url "https://orientamento-prin.streamlit.app/Invia_PTOF" --send --limit 10
+python src/outreach/ptof_emailer.py --base-url "https://orientapiu.it/Invia_PTOF" --send --limit 10
 ```
 
 ## Data flow

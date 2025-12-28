@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "school_id": "MEAA81703C",
+    "denominazione": "Pianoconte",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Lipari",
+    "anno_ptof": "2022-2025",
+    "provincia": "Messina",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Stradale Pianoconte",
+    "cap": "98055",
+    "email": "meic81700d@istruzione.it",
+    "pec": "meic81700d@pec.istruzione.it",
+    "website": "www.iclipari.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "La sezione 'Le Scelte Strategiche' include un focus sull'orientamento, con obiettivi, traguardi e attività specifiche. Tuttavia, manca una visione strategica complessiva e un sistema di valutazione definito."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Consulenti esterni",
+        "Associazioni",
+        "Indire",
+        "Marevivo",
+        "associazioni del territorio",
+        "forze dell'ordine"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4,
+        "evidence_quote": "valorizzandone le naturali inclinazioni",
+        "evidence_location": "Pagina 25"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "Favorire la realizzazione di sè come persona e come studente",
+        "evidence_location": "Pagina 25"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "Si parla di fornire strumenti per le scelte personali e il progetto di vita (pag. 11).",
+        "evidence_location": "Pagina 11"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "Guidare i ragazzi nel rafforzamento della propria autostima",
+        "evidence_location": "Pagina 25"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "orientare in modo appropriato le proprie scelte future",
+        "evidence_location": "Pagina 27"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5,
+        "evidence_quote": "Prevenzione e contrasto della dispersione scolastica (pag. 11).",
+        "evidence_location": "Pagina 11"
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1,
+        "evidence_quote": "Nessuna evidenza.",
+        "evidence_location": "N/A"
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "evidence_quote": "Formare per l'incertezza e la mutevolezza degli scenari (pag. 11).",
+        "evidence_location": "Pagina 11"
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3,
+        "evidence_quote": "GLI",
+        "evidence_location": "Pagina 107"
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5,
+        "evidence_quote": "Si menziona il supporto all'azione educativa delle famiglie (pag. 7).",
+        "evidence_location": "Pagina 7"
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4,
+        "evidence_quote": "Inclusione alunni con fragilità (pag. 6-7).",
+        "evidence_location": "Pagina 6-7"
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "didattica_laboratoriale": {
+        "score": 6,
+        "evidence_quote": "Promozione di modelli didattici laboratoriali (pag. 12).",
+        "evidence_location": "Pagina 12"
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "didattica_interdisciplinare": {
+        "score": 6,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_volontariato": {
+        "score": 3,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "opzionali_sportive": {
+        "score": 4,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orienta-menti",
+      "categoria_principale": "Progetto/Laboratorio",
+      "descrizione_e_metodologia": "Didattica orientativa, attività laboratoriali con scuole superiori (peer to peer), attività interattiva sulla piattaforma FUTURI, formazione docenti.",
+      "5w_chi": "Docenti, studenti, genitori",
+      "5w_cosa": "Attività di orientamento e formazione.",
+      "5w_dove": "Scuola, scuole superiori, piattaforma FUTURI",
+      "5w_quando": "Entro febbraio 2024",
+      "5w_perche": "Rafforzare autostima, inclinazioni, metodo di studio, preparazione alle scelte future.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti, docenti",
+      "evidence_quote": "didattica orientativa attività laboratoriali con studenti delle scuole superiori del territorio (peer to peer)",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "A Scuola con le STEM",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Potenziare l'uso consapevole e finalizzato degli strumenti digitali per l'acquisizione delle competenze STEM.",
+      "5w_chi": "Primaria",
+      "5w_cosa": "Attività STEM",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo competenze STEM",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Stimolare l’apprendimento delle materie STEM attraverso modalità innovative",
+      "evidence_location": "Pagina 47"
+    },
+    {
+      "titolo_attivita": "Fare per imparare",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Setting di apprendimento che predispongano alla conoscenza per tentativi ed errori.",
+      "5w_chi": "Infanzia",
+      "5w_cosa": "Attività di esplorazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo competenze STEM",
+      "ore_dichiarate": "ND",
+      "target": "Infanzia",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 48"
+    },
+    {
+      "titolo_attivita": "Potenziamento delle competenze logico-matematiche",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Implementare l'uso di nuove metodologie: coding, cooperative learning, learning by doing.",
+      "5w_chi": "Tutti",
+      "5w_cosa": "Attività di coding e problem solving",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo competenze logico-matematiche",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Prediligere la promozione delle strategie di problem solving",
+      "evidence_location": "Pagina 49"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo (Classe II)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di debate, mentoring, piattaforma FUTURI",
+      "5w_chi": "Classe II",
+      "5w_cosa": "Orientamento",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Conoscenza di sé e delle proprie potenzialità",
+      "ore_dichiarate": "30",
+      "target": "Classe II",
+      "evidence_quote": "Attività di debate per orientare alla maggiore conoscenza di se stessi e delle proprie potenzialità",
+      "evidence_location": "Pagina 52"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo (Classe III)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Didattica orientativa, questionari, debate, visite a scuole superiori",
+      "5w_chi": "Classe III",
+      "5w_cosa": "Orientamento",
+      "5w_dove": "Scuola, Istituti Superiori",
+      "5w_quando": "Annuale",
+      "5w_perche": "Conoscenza delle opportunità formative",
+      "ore_dichiarate": "30",
+      "target": "Classe III",
+      "evidence_quote": "Attività laboratoriali presso le scuole secondarie di II grado del territorio per conoscere pienamente le proposte formative",
+      "evidence_location": "Pagina 53"
+    },
+    {
+      "titolo_attivita": "Frutta nelle scuole",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Aumentare il consumo di frutta e verdura da parte dei bambini e attuare iniziative che supportino più corrette abitudini alimentari.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Iniziative per abitudini alimentari corrette",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Promuovere una nutrizione equilibrata",
+      "ore_dichiarate": "ND",
+      "target": "Bambini",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 64"
+    },
+    {
+      "titolo_attivita": "\"Mito da favola\"",
+      "categoria_principale": "Percorso di lettura",
+      "descrizione_e_metodologia": "Percorso di lettura per conoscere il racconto fantastico dei Miti.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Comprensione di opere letterarie e divulgazione scientifica",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Fornire strumenti per comprendere opere letterarie",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 65"
+    },
+    {
+      "titolo_attivita": "Scuola attiva kids",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Favorire la consapevolezza di sé e delle proprie azioni in un contesto di gruppo.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Sviluppo della personalità e integrazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Maturazione armonica della personalità",
+      "ore_dichiarate": "ND",
+      "target": "Bambini",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 65"
+    },
+    {
+      "titolo_attivita": "Dai semi alle farine",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Conoscenza del ciclo del grano e produzione di pane e pasta.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Conoscere l'origine del cibo",
+      "5w_dove": "Fattoria",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Educazione alimentare",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 66"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale \"Asterix e Obelix ai tempi di Gesù\"",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Promuovere la crescita umana e sociale attraverso il teatro.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Sviluppo di competenze sociali e inclusive",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Formazione globale e inclusione",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 67"
+    },
+    {
+      "titolo_attivita": "Lo sport e salute a scuola",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Valorizzare l'educazione fisica e sportiva per stili di vita sani.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Promozione di stili di vita sani",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Educazione fisica e sport",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "Io leggo perché, Libriamoci",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Creare e arricchire le biblioteche scolastiche.",
+      "5w_chi": "Studenti e famiglie",
+      "5w_cosa": "Promuovere la lettura",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Educare al piacere della lettura",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "...",
+      "evidence_location": "Pagina 72"
+    },
+    {
+      "titolo_attivita": "Club di scrittura creativa",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Migliorare la padronanza della lingua, rafforzare la comprensione della grammatica, dell'ortografia e della sintassi attraverso l'attività di scrittura; Stimolare la creatività e potenziare le capacità di scrittura; Promuovere la condivisione e la discussione delle opere scritte tra i membri del club.",
+      "5w_chi": "Classi aperte verticali, Classi aperte parallele",
+      "5w_cosa": "Attività di scrittura creativa e condivisione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Potenziamento competenze linguistiche e creative",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali, Classi aperte parallele",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 82"
+    },
+    {
+      "titolo_attivita": "Sopra e sotto il mare",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Conoscere l'ambiente marino, promuovendo atteggiamenti di tutela e valorizzazione del territorio.",
+      "5w_chi": "Classi aperte verticali, Classi aperte parallele",
+      "5w_cosa": "Conoscenza e tutela dell'ambiente marino",
+      "5w_dove": "Territorio",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo comportamenti responsabili e rispetto della legalità",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte verticali, Classi aperte parallele",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 83"
+    },
+    {
+      "titolo_attivita": "Cinema In Classe/Cineforum",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriale a supporto di percorsi educativi multidisciplinari attraverso la fruizione delle risorse della Piattaforma \"Cinemainclasse\".",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Fruizione e analisi di film a scopo educativo",
+      "5w_dove": "Aule, Magna",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo competenze linguistiche, cittadinanza attiva, pensiero critico",
+      "ore_dichiarate": "ND",
+      "target": "Classi aperte parallele",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 85"
+    },
+    {
+      "titolo_attivita": "Progetto Mare vivo",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto di Educazione ambientale con supporto dell'Associazione \"Marevivo\".",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività di sensibilizzazione e rispetto dell'ambiente marino",
+      "5w_dove": "Territorio",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sensibilizzazione ambientale, tutela del territorio",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 88"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MEIC81700D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Comprensivo Lipari presenta un approccio all'orientamento frammentato, con diverse iniziative sparse ma senza una sezione dedicata o una visione strategica unitaria. Le attività proposte si concentrano principalmente sullo sviluppo di competenze linguistiche, ambientali e civiche, ma l'orientamento verso le scelte future e la transizione tra i diversi gradi di istruzione è scarsamente affrontato.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione dedicata all'orientamento nel PTOF. Questo denota una mancanza di centralità di questa tematica all'interno del PTOF. Le azioni e le finalità legate all'orientamento sono disperse in diverse sezioni, rendendo difficile una valutazione complessiva.\n\n#### 2.2 Partnership e Reti\nL'istituto collabora con Indire, Marevivo, associazioni del territorio e forze dell'ordine, offrendo opportunità di apprendimento esperienziale e sensibilizzazione su temi ambientali e sociali.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità riguardanti l'individuazione di attitudini e interessi sono presenti, ma in modo generico. Mancano obiettivi specifici legati all'orientamento scolastico e professionale, alla riduzione dell'abbandono scolastico e alla promozione del lifelong learning.\n\n#### 2.4 Governance e Azioni di Sistema\nIl Gruppo di Lavoro per l'Inclusione (GLI) potrebbe essere coinvolto in attività di orientamento, ma non è esplicitamente indicato. Il rapporto con le famiglie è considerato importante, ma non vengono descritte azioni specifiche per l'orientamento.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa principalmente su attività esperienziali e laboratoriali, come il club di scrittura creativa e il progetto “Sopra e sotto il mare”, che promuovono lo sviluppo di competenze trasversali utili per l'orientamento.\n\n#### 2.6 Opportunità Formative\nNon sono previste attività opzionali o facoltative specifiche per l'orientamento.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n### 3. Punti di Forza\nI punti di forza del PTOF sono la presenza di attività laboratoriali e progetti che promuovono lo sviluppo di competenze linguistiche, creative e ambientali. La collaborazione con partner esterni offre agli studenti opportunità di apprendimento esperienziale e sensibilizzazione su temi importanti.\n\n### 4. Aree di Debolezza\nLa principale area di debolezza è l'assenza di una sezione dedicata all'orientamento e di obiettivi specifici in tal senso. Mancano partnership con agenzie formative e attività didattiche esplicitamente orientative.\n\n### 5. Gap Analysis\nIl gap principale è la mancanza di una strategia di orientamento integrata e sistematica, che coinvolga tutti gli attori della comunità scolastica e del territorio.\n\n### 6. Conclusioni\nL'orientamento nel PTOF dell'I.C. Lipari-Santa Lucia è un aspetto trascurato, che necessita di maggiore attenzione e di un piano di sviluppo specifico."
+}

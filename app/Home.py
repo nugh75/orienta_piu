@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 from data_utils import GESTIONE_SCUOLA, normalize_statale_paritaria, render_footer
-from page_control import setup_page
+from page_control import setup_page, switch_page
 
 st.set_page_config(page_title="ORIENTA+ | Home", page_icon="🧭", layout="wide")
 settings = setup_page("Home.py")
@@ -15,7 +15,7 @@ if default_page != "Home.py" and not st.session_state.get("default_redirect_done
     target_cfg = settings.get("pages", {}).get(default_page, {})
     if target_cfg.get("visible", True):
         st.session_state["default_redirect_done"] = True
-        st.switch_page(default_page)
+        switch_page(default_page)
 
 # CSS
 st.markdown("""
@@ -72,14 +72,14 @@ with st.sidebar:
                     st.metric("Indice RO", f"{ro:.2f}/7")
 
         if st.button("📊 Vai alla Mia Scuola", use_container_width=True):
-            st.switch_page("pages/01_🏠_La_Mia_Scuola.py")
+            switch_page("pages/01_🏠_La_Mia_Scuola.py")
 
         if st.button("🔄 Cambia scuola", use_container_width=True):
-            st.switch_page("pages/01_🏠_La_Mia_Scuola.py")
+            switch_page("pages/01_🏠_La_Mia_Scuola.py")
     else:
         st.info("Nessuna scuola selezionata")
         if st.button("➕ Seleziona la tua scuola", use_container_width=True):
-            st.switch_page("pages/01_🏠_La_Mia_Scuola.py")
+            switch_page("pages/01_🏠_La_Mia_Scuola.py")
 
     st.markdown("---")
 
@@ -126,13 +126,13 @@ st.subheader("⚡ Azioni rapide")
 action_cols = st.columns(3)
 with action_cols[0]:
     if st.button("🏫 Dettaglio Scuola", use_container_width=True):
-        st.switch_page("pages/01_🏠_La_Mia_Scuola.py")
+        switch_page("pages/01_🏠_La_Mia_Scuola.py")
 with action_cols[1]:
     if st.button("🗺️ Analisi Territoriale", use_container_width=True):
-        st.switch_page("pages/04_🗺️_Analisi_Territoriale.py")
+        switch_page("pages/04_🗺️_Analisi_Territoriale.py")
 with action_cols[2]:
     if st.button("💡 Best Practice", use_container_width=True):
-        st.switch_page("pages/09_💡_Best_Practice.py")
+        switch_page("pages/09_💡_Best_Practice.py")
 
 with st.container():
     st.subheader("🎓 Sei un genitore o uno studente?")
@@ -141,7 +141,7 @@ with st.container():
         "confrontare le scuole della tua zona e trovare quella più adatta a te."
     )
     if st.button("🔍 Trova la scuola giusta per te", use_container_width=True):
-        st.switch_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
+        switch_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
 
 if df.empty:
     st.warning("Nessun dato disponibile. Esegui prima il pipeline di analisi.")

@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "school_id": "MO1E00300C",
+    "denominazione": "\"Casa Famiglia\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Modena",
+    "anno_ptof": "2019-2021",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Tamburini 78",
+    "cap": "41124",
+    "email": "segreteria@casafamiglia.it",
+    "pec": "segreteriamodena@pec.suoreadoratrici.it",
+    "website": "www.casafamiglia.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato all'interno di sezioni più ampie, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Polizia Municipale di Magenta",
+        "Consultorio di Magenta",
+        "Piscina Comunale",
+        "Enti del territorio",
+        "Agenzie del territorio"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "Promuovere la consapevolezza della propria identità",
+        "evidence_location": "Pagina 15"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "Promuovere la consapevolezza della propria identità",
+        "evidence_location": "Pagina 15"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "favorire il passaggio sereno e graduale dalla Scuola dell’Infanzia alla Scuola Primaria",
+        "evidence_location": "Pagina 33"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4,
+        "evidence_quote": "guidare il bambino a sentirsi parte del processo educativo continuo",
+        "evidence_location": "Pagina 33"
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3,
+        "evidence_quote": "collaborazione con Polizia Municipale, Consultorio, Piscina",
+        "evidence_location": "Pagina 34-35"
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3,
+        "evidence_quote": "rilevazione DSA",
+        "evidence_location": "Pagina 34"
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3,
+        "evidence_quote": "laboratori di teatro, informatica, inglese",
+        "evidence_location": "Pagina 33-34"
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3,
+        "evidence_quote": "orienteering",
+        "evidence_location": "Pagina 35"
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3,
+        "evidence_quote": "spettacoli teatrali/cinematografici",
+        "evidence_location": "Pagina 36"
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4,
+        "evidence_quote": "laboratorio di scienze",
+        "evidence_location": "Pagina 35"
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4,
+        "evidence_quote": "corso di nuoto, pallavolo",
+        "evidence_location": "Pagina 34-35"
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di continuità con la scuola primaria",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Incontri tra bambini dell'ultimo anno della scuola dell'infanzia e alunni di classe IV della primaria, affido simbolico, gioco e dialogo con gli insegnanti.",
+      "5w_chi": "Bambini ultimo anno infanzia, alunni classe IV primaria, insegnanti",
+      "5w_cosa": "Incontri di conoscenza e socializzazione",
+      "5w_dove": "Scuola",
+      "5w_quando": "Due incontri",
+      "5w_perche": "Favorire un passaggio sereno e graduale alla scuola primaria",
+      "ore_dichiarate": "ND",
+      "target": "Bambini ultimo anno infanzia",
+      "evidence_quote": "favorire il passaggio sereno e graduale",
+      "evidence_location": "Pagina 33"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriale su progetto della Polizia Municipale.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Laboratorio di educazione stradale",
+      "5w_dove": "Scuola",
+      "5w_quando": "Secondo quadrimestre",
+      "5w_perche": "Sensibilizzare alla sicurezza stradale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli alunni",
+      "evidence_quote": "Attività laboratoriale su progetto",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "Educazione all'affettività",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriale su progetto del Consultorio di Magenta.",
+      "5w_chi": "Alunni classe quinta",
+      "5w_cosa": "Laboratorio di educazione all'affettività",
+      "5w_dove": "Scuola",
+      "5w_quando": "Per la classe quinta",
+      "5w_perche": "Affrontare e comprendere il tema dell'affettività",
+      "ore_dichiarate": "ND",
+      "target": "Alunni classe quinta",
+      "evidence_quote": "Attività laboratoriale su progetto",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "Laboratorio madre lingua inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Insegnante madrelingua a supporto dell'insegnante di classe per approfondire l'apprendimento dell'inglese.",
+      "5w_chi": "Alunni di tutte le classi",
+      "5w_cosa": "Approfondimento della lingua inglese",
+      "5w_dove": "Scuola",
+      "5w_quando": "Secondo quadrimestre, 10 ore totali",
+      "5w_perche": "Rinforzare e supportare gli apprendimenti",
+      "ore_dichiarate": "10",
+      "target": "Tutti gli alunni",
+      "evidence_quote": "approfondire, rinforzare e supportare gli apprendimenti",
+      "evidence_location": "Pagina 34"
+    },
+    {
+      "titolo_attivita": "Corso di nuoto",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso di nuoto in collaborazione con la piscina comunale.",
+      "5w_chi": "Alunni classi 4^ e 5^",
+      "5w_cosa": "Corso di nuoto",
+      "5w_dove": "Piscina comunale",
+      "5w_quando": "ND",
+      "5w_perche": "Imparare a nuotare",
+      "ore_dichiarate": "ND",
+      "target": "Alunni classi 4^ e 5^",
+      "evidence_quote": "In collaborazione con la piscina comunale",
+      "evidence_location": "Pagina 34"
+    }
+  ],
+  "narrative": "# Analisi del PTOF Terzaghi\n\n### 1. Sintesi Generale\nIl PTOF della Scuola Paritaria M. Anna Terzaghi presenta un approccio all'orientamento frammentato e non sistemico. Sebbene siano presenti diverse attività e collaborazioni esterne che toccano aspetti dell'orientamento, manca una visione strategica e una sezione dedicata che ne delinei finalità, obiettivi e azioni in modo coerente. L'orientamento è principalmente inteso come transizione scuola-scuola, con un focus sulla continuità tra infanzia e primaria.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nNon è presente una sezione dedicata all'orientamento nel PTOF. L'orientamento è affrontato in modo dispersivo all'interno di altre sezioni, come la descrizione delle attività della scuola primaria. Questo limita la chiarezza e la visibilità delle iniziative orientative.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con diversi partner esterni, tra cui la Polizia Municipale, il Consultorio di Magenta e la piscina comunale. Queste collaborazioni sono positive e offrono opportunità di arricchimento dell'offerta formativa, ma non sono esplicitamente orientate alla progettazione di percorsi di orientamento strutturati.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono principalmente legate alla transizione scuola-scuola, con l'obiettivo di favorire un passaggio sereno e graduale alla scuola primaria. Manca una chiara definizione di finalità più ampie, come lo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF non descrive un sistema di governance dedicato all'orientamento. Manca un coordinamento tra i diversi servizi e attori coinvolti, e non sono previsti meccanismi di monitoraggio e valutazione delle azioni intraprese.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa è presente attraverso laboratori e attività pratiche, come il teatro, l'informatica e l'inglese. Tuttavia, queste attività non sono esplicitamente orientate allo sviluppo delle competenze necessarie per l'orientamento, come l'auto-conoscenza, l'esplorazione delle opportunità e la pianificazione del futuro.\n\n#### 2.6 Opportunità Formative\nLa scuola offre diverse opportunità formative opzionali, come il corso di scienze, il corso di nuoto e la pallavolo. Queste attività possono contribuire allo sviluppo delle competenze degli studenti, ma non sono specificamente orientate alla scelta del percorso formativo o professionale.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Attività di continuità con la scuola primaria\nL'attività di continuità tra scuola dell'infanzia e primaria prevede incontri tra bambini delle due scuole, affido simbolico e momenti di gioco e dialogo con gli insegnanti. Questa attività mira a favorire un passaggio sereno e graduale alla scuola primaria, creando un clima di fiducia e collaborazione.\n\n#### 2.7.2 Educazione stradale\nIl laboratorio di educazione stradale, condotto dalla Polizia Municipale, sensibilizza gli alunni alla sicurezza stradale attraverso attività pratiche e teoriche.\n\n#### 2.7.3 Educazione all'affettività\nIl laboratorio di educazione all'affettività, condotto dal Consultorio di Magenta, affronta il tema dell'affettività con gli alunni di classe quinta, aiutandoli a comprendere e gestire le proprie emozioni.\n\n#### 2.7.4 Laboratorio madre lingua inglese\nIl laboratorio di inglese, condotto da un insegnante madrelingua, approfondisce l'apprendimento della lingua inglese, rinforzando le competenze acquisite in classe.\n\n#### 2.7.5 Corso di nuoto\nIl corso di nuoto, in collaborazione con la piscina comunale, offre agli alunni di classe quarta e quinta l'opportunità di imparare a nuotare.\n\n### 3. Punti di Forza\nLa collaborazione con partner esterni e l'offerta di laboratori e attività pratiche rappresentano i principali punti di forza del PTOF in termini di orientamento.\n\n### 4. Aree di Debolezza\nLa mancanza di una sezione dedicata all'orientamento, di una visione strategica e di un sistema di governance rappresentano le principali aree di debolezza del PTOF.\n\n### 5. Gap Analysis\nIl PTOF presenta un gap significativo in termini di orientamento, in quanto manca una progettazione sistematica e integrata delle attività orientative. È necessario definire finalità, obiettivi e azioni chiare, coinvolgere tutti gli attori coinvolti e monitorare i risultati ottenuti. Da segnalare, inoltre, la presenza di un progetto di orientamento per la scuola secondaria di primo grado (pagina 35), promosso dal Consultorio Familiare, che pur non costituendo una sezione autonoma, rappresenta un'iniziativa positiva in tale direzione.\n\n### 6. Conclusioni\nL'orientamento nella Scuola Paritaria M. Anna Terzaghi è un aspetto trascurato del PTOF. Sebbene siano presenti alcune iniziative positive, manca una visione strategica e un sistema di governance che ne garantiscano l'efficacia e la sostenibilità."
+}

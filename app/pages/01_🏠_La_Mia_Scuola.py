@@ -8,7 +8,7 @@ import os
 import json
 import glob
 from data_utils import render_footer
-from page_control import setup_page
+from page_control import setup_page, switch_page
 
 st.set_page_config(page_title="ORIENTA+ | La Mia Scuola", page_icon="🧭", layout="wide")
 setup_page("pages/01_🏠_La_Mia_Scuola.py")
@@ -398,20 +398,20 @@ action_cols = st.columns(4)
 with action_cols[0]:
     if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
         st.session_state['selected_school_name'] = saved_school_name
-        st.switch_page("pages/02_🏫_Dettaglio_Scuola.py")
+        switch_page("pages/02_🏫_Dettaglio_Scuola.py")
 
 with action_cols[1]:
     if st.button("🔍 Trova Scuole Simili", use_container_width=True):
         st.session_state['selected_school_name'] = saved_school_name
-        st.switch_page("pages/02_🏫_Dettaglio_Scuola.py")
+        switch_page("pages/02_🏫_Dettaglio_Scuola.py")
 
 with action_cols[2]:
     if st.button("🔀 Confronta con altra Scuola", use_container_width=True):
-        st.switch_page("pages/09_🔀_Confronto_PTOF.py")
+        switch_page("pages/09_🔀_Confronto_PTOF.py")
 
 with action_cols[3]:
     if st.button("💡 Cerca Best Practice", use_container_width=True):
-        st.switch_page("pages/10_🔍_Ricerca_Metodologie.py")
+        switch_page("pages/10_🔍_Ricerca_Metodologie.py")
 
 st.markdown("---")
 

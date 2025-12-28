@@ -10,6 +10,8 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 
+from page_control import setup_page
+
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -87,6 +89,7 @@ def main():
         page_icon="🔎",
         layout="centered"
     )
+    setup_page("pages/15_🔎_Verifica_Invio.py")
 
     st.title("🔎 Verifica Stato Invio")
     st.write("Inserisci il codice meccanografico della tua scuola per verificare lo stato del PTOF inviato.")

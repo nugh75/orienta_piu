@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "school_id": "CTPC08500Q",
+    "denominazione": "S.Giuseppe",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Catania",
+    "anno_ptof": "2022-2025",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.G.B.De La Salle 7",
+    "cap": "95125",
+    "email": "segreteria@istitutoparitariosangiuseppe.org",
+    "pec": "segreteriasangiuseppe@pec-legal.it",
+    "website": "www.istitutoparitariosangiuseppe.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "L'orientamento è affrontato in modo integrato con l'inclusione scolastica e le attività progettuali, con una trattazione sufficientemente chiara ma non approfondita."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università",
+        "Enti Locali",
+        "Terzo Settore",
+        "ASL",
+        "Unità di valutazione multidisciplinare",
+        "Associazioni di riferimento"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzando l’identità della Scuola",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "valorizzando l’identità della Scuola",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "aiutare l’alunno a intraprendere un percorso personale di sintesi",
+        "evidence_location": "Pagina 61"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "Definizione di un sistema di orientamento",
+        "evidence_location": "Pagina 26"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "cittadini responsabili e partecipi",
+        "evidence_location": "Pagina 82"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Lezioni di pianoforte",
+      "categoria_principale": "Opzionale",
+      "descrizione_e_metodologia": "Lezioni individuali di pianoforte volte all'ampliamento dell'offerta formativa e allo sviluppo di competenze musicali negli studenti.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Lezioni di pianoforte",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Ampliare l'offerta formativa",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "lezioni di pianoforte",
+      "evidence_location": "Pagina 6"
+    },
+    {
+      "titolo_attivita": "Corsi Cambridge Esol",
+      "categoria_principale": "Opzionale",
+      "descrizione_e_metodologia": "Corsi preparatori per le certificazioni linguistiche Cambridge Esol, con l'obiettivo di attestare il livello di competenza in lingua inglese degli studenti.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Corsi di inglese",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pomeriggio",
+      "5w_perche": "Certificazione linguistica",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "corsi \"Cambridge Esol\"",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Miglioramento del servizio educativo didattico",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Monitoraggio continuo del profitto didattico degli alunni, attraverso l'analisi dei dati e l'implementazione di strategie di intervento mirate per migliorare i risultati scolastici.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Monitoraggio e miglioramento del profitto didattico",
+      "5w_dove": "Istituto",
+      "5w_quando": "6/2019",
+      "5w_perche": "Migliorare il profitto didattico",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Migliorare il profitto didattico degli alunni, attraverso monitoraggio continuo e costante degli stessi",
+      "evidence_location": "Pagina 27"
+    },
+    {
+      "titolo_attivita": "Cittadinanza e Legalità",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Promozione della partecipazione attiva alla vita della scuola e della comunità locale, con particolare attenzione allo sviluppo della consapevolezza della diversità e del rispetto delle regole.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Partecipazione alla vita della scuola e della comunità",
+      "5w_dove": "Scuola, comunità locale",
+      "5w_quando": "6/2019",
+      "5w_perche": "Sviluppare la consapevolezza della diversità e il rispetto.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Sviluppare la consapevolezze della diversità come valore",
+      "evidence_location": "Pagina 28"
+    },
+    {
+      "titolo_attivita": "Didattica Innovativa",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo di applicazioni web e strumenti digitali per la didattica, con l'obiettivo di fornire agli studenti competenze digitali e promuovere un apprendimento più interattivo e coinvolgente.",
+      "5w_chi": "Studenti, Docenti",
+      "5w_cosa": "Utilizzo di applicazioni web",
+      "5w_dove": "Istituto",
+      "5w_quando": "5/2019",
+      "5w_perche": "Fornire agli studenti competenze digitali.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "Costruire, programmare e controllare il movimento di un Robot",
+      "evidence_location": "Pagina 28"
+    },
+    {
+      "titolo_attivita": "San Giuseppe News",
+      "categoria_principale": "Progetto Laboratoriale",
+      "descrizione_e_metodologia": "Percorso laboratoriale finalizzato alla realizzazione di una testata giornalistica scolastica, per sviluppare competenze di scrittura, comunicazione e lavoro di gruppo.",
+      "5w_chi": "Alunni della scuola secondaria di I grado",
+      "5w_cosa": "Realizzazione di una testata giornalistica",
+      "5w_dove": "Scuola",
+      "5w_quando": "Aprile - Giugno 2021",
+      "5w_perche": "Favorire il successo formativo e accrescere l’interesse",
+      "ore_dichiarate": "ND",
+      "target": "Secondaria I grado",
+      "evidence_quote": "San Giuseppe News rivolto agli alunni della scuola secondaria di I grado come percorso laboratoriale finalizzato alla realizzazione di una testata giornalistica.",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "Il mondo che vorrei",
+      "categoria_principale": "Progetto Laboratoriale",
+      "descrizione_e_metodologia": "Percorso didattico volto all'acquisizione di conoscenze sulla Costituzione Italiana e sull'Agenda 2030 per lo sviluppo sostenibile, per promuovere la cittadinanza attiva e responsabile.",
+      "5w_chi": "Alunni del secondo ciclo della scuola primaria",
+      "5w_cosa": "Conoscenza della Costituzione e Agenda 2030",
+      "5w_dove": "Scuola",
+      "5w_quando": "Aprile - Giugno 2021",
+      "5w_perche": "Favorire il successo formativo e accrescere l’interesse",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Il mondo che vorrei rivolto agli alunni del secondo ciclo della scuola primaria e finalizzato alla conoscenza della Costituzione e allo studio dell'Agenda 2030 per lo sviluppo sostenibile.",
+      "evidence_location": "Pagina 36"
+    },
+    {
+      "titolo_attivita": "Pre-scuola",
+      "categoria_principale": "Servizio",
+      "descrizione_e_metodologia": "Servizio di accoglienza mattutina per gli alunni della scuola dell'infanzia, volto a facilitare l'ingresso a scuola e a creare un ambiente accogliente e stimolante.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Accoglienza",
+      "5w_dove": "Scuola",
+      "5w_quando": "Mattina",
+      "5w_perche": "Accoglienza",
+      "ore_dichiarate": "ND",
+      "target": "Infanzia",
+      "evidence_quote": "È il servizio quotidiano di accoglienza degli alunni",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Corsi di lingua inglese pomeridiani per tutti gli ordini e gradi di istruzione, con la possibilità di conseguire certificazioni linguistiche riconosciute.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Corsi di lingua",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pomeriggio",
+      "5w_perche": "Certificazione",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i gradi",
+      "evidence_quote": "Corsi pomeridiani di lingua inglese per ogni ordine e grado con possibilità di certificazione presso enti accreditati",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "Mensa e ricreazione assistita",
+      "categoria_principale": "Servizio",
+      "descrizione_e_metodologia": "Servizio di mensa e ricreazione assistita per gli alunni della scuola primaria e del primo grado, garantito da una ditta esterna e da personale scolastico.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Mensa",
+      "5w_dove": "Scuola",
+      "5w_quando": "Orario mensa",
+      "5w_perche": "Servizio",
+      "ore_dichiarate": "ND",
+      "target": "Primaria, I Grado",
+      "evidence_quote": "Il servizio Mensa viene espletato da una ditta esterna",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "Doposcuola/studio assistito",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Servizio di studio assistito pomeridiano per gli alunni della scuola primaria e del primo grado, volto a fornire supporto didattico e a favorire l'autonomia nello studio.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Studio",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pomeriggio",
+      "5w_perche": "Supporto",
+      "ore_dichiarate": "ND",
+      "target": "Primaria, I Grado",
+      "evidence_quote": "Dopo la ricreazione assistita si svolge l’attività di studio, affidato a docenti appositi",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "Studio Assistito",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Servizio di studio assistito pomeridiano per gli alunni del primo e secondo grado, volto a fornire supporto didattico e a favorire l'autonomia nello studio.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Studio",
+      "5w_dove": "Scuola",
+      "5w_quando": "Pomeriggio",
+      "5w_perche": "Supporto",
+      "ore_dichiarate": "ND",
+      "target": "I e II Grado",
+      "evidence_quote": "Il progetto prevede due pomeriggi a settimana durante i quali gli allievi del primo, secondo e terzo anno possano recarsi a scuola per studiare con l’assistenza dei docenti.",
+      "evidence_location": "Pagina 71"
+    },
+    {
+      "titolo_attivita": "ALTERNANZA SCUOLA LAVORO: TRIBUNALE di Catania",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Attività di alternanza scuola-lavoro presso il Tribunale di Catania, per avvicinare gli studenti al mondo della giustizia e far conoscere i principi fondamentali del sistema giudiziario.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Visita al tribunale, conoscenza del sistema giudiziario.",
+      "5w_dove": "Tribunale di Catania",
+      "5w_quando": "Durante i periodi di sospensione dell'attività didattica",
+      "5w_perche": "Avvicinare gli studenti al mondo della giustizia.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "avviare un contatto tra la macchina giudiziaria, che solitamente i cittadini avvertono come un comparto lontano, e la scuola",
+      "evidence_location": "Pagina 104"
+    },
+    {
+      "titolo_attivita": "I Beni Culturali Nella Provincia Di Catania",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di laboratorio per la valorizzazione del patrimonio artistico-culturale locale, con l'obiettivo di promuovere lo sviluppo economico del territorio.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Conoscenza dei beni culturali, applicazione di competenze di tutela.",
+      "5w_dove": "Territorio provinciale",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere lo sviluppo economico del territorio.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "rendere noto il comprensorio cittadino che, pur essendo ricco di patrimonio artistico-culturale, è spesso sottostimato e trascurato",
+      "evidence_location": "Pagina 105"
+    },
+    {
+      "titolo_attivita": "OACT - Osservatorio Astrofisico Di Catania",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Collaborazione con l'Osservatorio Astrofisico di Catania per coinvolgere gli studenti in progetti di ricerca scientifica e sviluppare competenze in ambito astronomico.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Approccio alla ricerca scientifica, collaborazione con esperti.",
+      "5w_dove": "Osservatorio Astrofisico di Catania",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppare competenze scientifiche e vocazioni.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "promuovono lo sviluppo delle competenze trasversali, esaltano il valore formativo dell’orientamento",
+      "evidence_location": "Pagina 106"
+    },
+    {
+      "titolo_attivita": "La Permacultura E L’Agricoltura Biologica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio pratico per l'apprendimento dei principi della permacultura e dell'agricoltura biologica, con l'obiettivo di promuovere la responsabilità ambientale e uno stile di vita sostenibile.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Apprendimento di pratiche sostenibili.",
+      "5w_dove": "LAD Onlus",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere la responsabilità ambientale.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "trasformazione dell’uomo da semplice consumatore a responsabile produttore",
+      "evidence_location": "Pagina 107"
+    },
+    {
+      "titolo_attivita": "Catania Film Festival",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Partecipazione come giuria al Catania Film Festival, per sviluppare capacità di analisi critica e apprezzamento del cinema europeo e italiano indipendente.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Visione di film, valutazione, dibattito.",
+      "5w_dove": "Catania Film Festival",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppare capacità di analisi e critica.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": "valorizza il cinema europeo e italiano indipendente",
+      "evidence_location": "Pagina 108"
+    },
+    {
+      "titolo_attivita": "Progetto Madre Lingua In Classe",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Presenza di docenti madre lingua e specializzati che affiancano le docenti curriculari per costruire i \"cittadini del mondo\" attraverso l'immersione linguistica e culturale.",
+      "5w_chi": "Classi aperte verticali",
+      "5w_cosa": "Potenziamento competenze in lingua inglese",
+      "5w_dove": "Scuola",
+      "5w_quando": "Orario scolastico",
+      "5w_perche": "Costruire i \"cittadini del mondo\"",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Il progetto prevede l'inserimento di docenti madrelingua per favorire l'apprendimento della lingua inglese in un contesto autentico.",
+      "evidence_location": "Pagina 112"
+    },
+    {
+      "titolo_attivita": "LISTO PARA EL MUNDO",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Lezioni di lingua spagnola basate su un approccio comunicativo, per affrontare situazioni reali e favorire l'approccio a un contesto socio-culturale diverso.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Studio della lingua spagnola",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Sviluppo di una coscienza multiculturale",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Il progetto mira a sviluppare competenze comunicative in lingua spagnola e a promuovere la consapevolezza interculturale.",
+      "evidence_location": "Pagina 113"
+    },
+    {
+      "titolo_attivita": "San Giuseppe Times: Primary Giornalist 2.0",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Creazione di un giornalino scolastico in lingua inglese con l'uso del laboratorio d'informatica, per sviluppare competenze di scrittura, editing e comunicazione digitale.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Realizzazione di un giornalino scolastico",
+      "5w_dove": "Laboratorio d'informatica",
+      "5w_quando": "ND",
+      "5w_perche": "Padroneggiare diversi tipi di linguaggio mediale in inglese",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Il progetto si propone di sviluppare le competenze linguistiche e digitali degli studenti attraverso la realizzazione di un giornalino scolastico.",
+      "evidence_location": "Pagina 114"
+    },
+    {
+      "titolo_attivita": "COMICS",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Realizzazione di un fumetto in lingua inglese, per promuovere la comprensione della lingua e lo sviluppo di capacità cognitive e comunicative attraverso un linguaggio visivo.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Creazione di un fumetto",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Promuovere la comprensione e lo sviluppo di capacità cognitive e comunicative",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Il progetto mira a stimolare la creatività e l'espressione artistica degli studenti attraverso la realizzazione di un fumetto in lingua inglese.",
+      "evidence_location": "Pagina 115"
+    },
+    {
+      "titolo_attivita": "IL MONDO CHE VORREI",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorso didattico per l'acquisizione di valori e comportamenti ispirati ai principi della Costituzione Italiana, con l'obiettivo di formare cittadini consapevoli e responsabili.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Educazione alla cittadinanza",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Formare cittadini italiani ed europei",
+      "ore_dichiarate": "ND",
+      "target": "Primaria",
+      "evidence_quote": "Il progetto si propone di educare i bambini ai valori della Costituzione Italiana e a promuovere la cittadinanza attiva.",
+      "evidence_location": "Pagina 117"
+    },
+    {
+      "titolo_attivita": "MUSICAL 2.0",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Coinvolgimento degli studenti in un percorso di teatro, musica e danza culminante nella realizzazione di uno spettacolo, per migliorare le competenze chiave e implementare una didattica creativa.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Realizzazione di uno spettacolo musicale",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Migliorare le competenze chiave e implementare una didattica creativa",
+      "ore_dichiarate": "ND",
+      "target": "Secondaria I grado",
+      "evidence_quote": "Il progetto mira a sviluppare le competenze artistiche e espressive degli studenti attraverso la realizzazione di uno spettacolo musicale.",
+      "evidence_location": "Pagina 118"
+    },
+    {
+      "titolo_attivita": "SAN GIUSEPPE NEWS",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Realizzazione di una testata giornalistica digitale, per sviluppare competenze di scrittura, editing e comunicazione digitale.",
+      "5w_chi": "Classi aperte parallele",
+      "5w_cosa": "Creazione di un giornale digitale",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Sviluppare le competenze di comprensione e scrittura",
+      "ore_dichiarate": "ND",
+      "target": "Secondaria I grado",
+      "evidence_quote": "Il progetto si propone di sviluppare le competenze giornalistiche e digitali degli studenti attraverso la realizzazione di un giornale online.",
+      "evidence_location": "Pagina 119"
+    },
+    {
+      "titolo_attivita": "Un Giornale E' Un Giornale: Professione REPORTER",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorso di lettura, scrittura e analisi di articoli giornalistici, per rafforzare le abilità di comprensione, produzione testuale e pensiero critico.",
+      "5w_chi": "Gruppi classe",
+      "5w_cosa": "Realizzazione di articoli giornalistici",
+      "5w_dove": "Scuola",
+      "5w_quando": "ND",
+      "5w_perche": "Rafforzare le abilità di lettura, scrittura e analisi",
+      "ore_dichiarate": "ND",
+      "target": "Secondaria II grado",
+      "evidence_quote": "Il progetto mira a sviluppare le competenze giornalistiche e a promuovere la consapevolezza critica dei media.",
+      "evidence_location": "Pagina 121"
+    },
+    {
+      "titolo_attivita": "Protocollo di Continuità",
+      "categoria_principale": "Incontro/Protocollo",
+      "descrizione_e_metodologia": "Definizione di pratiche condivise tra scuole di diverso ordine e grado per facilitare l'ingresso e l'adattamento degli alunni disabili, garantendo la continuità del loro percorso scolastico.",
+      "5w_chi": "Alunni disabili e famiglie",
+      "5w_cosa": "Definizione di pratiche di continuità",
+      "5w_dove": "Scuole dell'Infanzia, Primaria, Secondaria",
+      "5w_quando": "Periodico",
+      "5w_perche": "Garantire la continuità del percorso scolastico",
+      "ore_dichiarate": "ND",
+      "target": "Alunni disabili",
+      "evidence_quote": "Definire pratiche condivise tra tutto il personale per garantire una transizione fluida e positiva per gli alunni disabili.",
+      "evidence_location": "Pagina 150"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CTPC08500Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto S.Giuseppe (CTPC08500Q), scuola paritaria situata a Catania, Sicilia. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento, le partnership, gli obiettivi, le azioni intraprese e le attività proposte. Il PTOF dimostra un impegno verso l'orientamento, sebbene questo sia affrontato in modo integrato con altre aree, come l'inclusione scolastica e le attività progettuali, piuttosto che attraverso una sezione dedicata specifica. L'istituto collabora con diversi partner esterni, tra cui **Università**, **Enti Locali**, **Terzo Settore**, **ASL**, **Unità di valutazione multidisciplinare** e **Associazioni di riferimento**, per arricchire l'offerta formativa e orientare gli studenti verso percorsi di vita e professionali adeguati.\n\n### 2. Analisi Dimensionale\n\nL'orientamento, nel PTOF, si articola su diverse dimensioni. Per quanto riguarda le finalità, l'istituto punta a valorizzare l'identità della scuola e ad aiutare l’alunno a intraprendere un percorso personale di sintesi, definendo un sistema di orientamento e promuovendo la formazione di cittadini responsabili. Gli obiettivi delineati includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del lifelong learning. Le azioni intraprese si concentrano sul coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione tra inclusione e fragilità.\n\nLa didattica orientativa si caratterizza per l'importanza attribuita all'esperienza degli studenti, alla didattica laboratoriale, alla flessibilità degli spazi e dei tempi e all'approccio interdisciplinare. L'offerta formativa si completa con attività opzionali, tra cui opzionali culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nUn punto di forza del PTOF è la varietà delle attività proposte, che spaziano da **lezioni di pianoforte** e **corsi Cambridge Esol** a progetti come \"**Miglioramento del servizio educativo didattico**\" e \"**Cittadinanza e Legalità**\". L'istituto investe anche in **didattica innovativa**, con l'utilizzo di applicazioni web e strumenti digitali. Particolarmente rilevanti sono i progetti laboratoriali \"**San Giuseppe News**\" e \"**Il mondo che vorrei**\", che coinvolgono attivamente gli studenti in attività pratiche e formative. Il servizio di **pre-scuola**, insieme ai corsi di lingua e ai servizi di mensa, studio assistito, rappresentano un supporto importante per gli studenti e le famiglie. Le collaborazioni con enti esterni, come il **Tribunale di Catania**, l'**OACT - Osservatorio Astrofisico Di Catania** e il **LAD Onlus**, ampliano l'offerta formativa e offrono agli studenti opportunità di apprendimento uniche.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, l'orientamento nel PTOF non è trattato in modo approfondito in una sezione dedicata. L'analisi evidenzia un punteggio di 5 su una scala non specificata, suggerendo che, sebbene l'orientamento sia presente, necessita di maggiore attenzione e strutturazione. Il monitoraggio delle azioni risulta essere un'area di debolezza, con un punteggio di 2, indicando la necessità di implementare sistemi di valutazione più efficaci. Alcune opzionali, come quelle ludico-ricreative e di volontariato, ricevono un punteggio inferiore, suggerendo la necessità di rivedere la loro offerta e il loro impatto.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una sezione specifica dedicata all'orientamento nel PTOF. Sebbene l'orientamento sia integrato in altre aree, la sua centralità e specificità rischiano di essere diluite. È necessario definire obiettivi più chiari e misurabili, implementare sistemi di monitoraggio efficaci e potenziare le attività opzionali, in particolare quelle che promuovono l'orientamento professionale e la transizione verso l'istruzione superiore.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto S.Giuseppe dimostra un impegno verso l'orientamento, supportato da una vasta gamma di attività e collaborazioni esterne. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario dedicare maggiore attenzione a questa area, definendo una sezione specifica nel PTOF, implementando sistemi di monitoraggio più efficaci e potenziando le attività opzionali. Un approccio più strutturato e mirato all'orientamento contribuirà a formare cittadini consapevoli, responsabili e preparati ad affrontare le sfide del futuro."
+}
