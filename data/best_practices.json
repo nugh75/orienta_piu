@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T18:56:15.069409",
+  "last_updated": "2025-12-28T19:19:03.676766",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1579,
-  "schools_processed": 30,
+  "total_practices": 1630,
+  "schools_processed": 32,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -89294,6 +89294,2842 @@
         "model_used": "qwen3:32b",
         "source_file": "MIRFHT500U_ptof.md",
         "chunk_source": 11
+      }
+    },
+    {
+      "id": "bd3aadea-3f20-405e-b4c9-112b9a029bbb",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Enti Locali e Pro Loco",
+        "descrizione": "La scuola collabora con Amministrazioni Comunali, Pro Loco e Associazioni locali per organizzare attività culturali e manifestazioni, favorendo il legame con il territorio e l'arricchimento formativo degli alunni.",
+        "metodologia": "Coinvolgimento diretto di enti territoriali in progetti congiunti, utilizzo di risorse locali per iniziative educative e culturali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Esperienze Territoriali Significative"
+        ],
+        "target": "Studenti, famiglie, comunità locale",
+        "citazione_ptof": "Un discorso di collaborazione comincia ad intravvedersi... in collaborazione con Pro Loco ed Amministrazioni Comunali.",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:57:24.210138",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "94beae83-df72-4c30-b985-91d69e0a7388",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso Musicale con Orchestra",
+        "descrizione": "Nel Comune di Vallata è attivo un corso ad indirizzo musicale con un'orchestra/banda musicale, coinvolgendo parte degli alunni della scuola secondaria.",
+        "metodologia": "Attività laboratoriale e formativa musicale integrata nel curricolo, con prove orchestrali e spettacoli pubblici.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Arte e Creatività"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Nel Comune di Vallata c'è un'orchestra/banda musicale... del corso ad indirizzo musicale della scuola secondaria.",
+        "pagina_evidenza": "Pagina 8"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:57:24.210260",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "72c24934-2fae-436f-895e-8e52bad22801",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Utilizzo organico potenziamento per sdoppiamento classi",
+        "descrizione": "Impiego del personale dell'organico del potenziamento per sdoppiare classi in presenza di bisogni educativi speciali, pluriclassi o situazioni di disagio. Il docente di potenziamento (A001 - Arte) supporta alunni con bisogni particolari e gestisce sostituzioni brevi.",
+        "metodologia": "Attuazione di gruppi di lavoro differenziati e interventi mirati per studenti con BES, con utilizzo di metodologie laboratoriali e cooperative learning.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con bisogni educativi speciali e situazioni di disagio",
+        "citazione_ptof": "L’organico del potenziamento... per sdoppiamento classi e gruppi di alunni in presenza di particolari necessità legate alla presenza di bisogni educativi speciali...",
+        "pagina_evidenza": "Pagina 32"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:58:38.619973",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8e186494-11cf-4940-92b2-2f7d7bd45fe6",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Progettazione di compiti di realtà e valutazione condivisa",
+        "descrizione": "Realizzazione di compiti di realtà e definizione di criteri di valutazione comuni per migliorare gli esiti scolastici, in particolare in italiano, matematica e inglese. Utilizzo di prove periodiche per monitorare i progressi.",
+        "metodologia": "Applicazione di problem-based learning e project work con valutazione basata su rubriche condivise tra docenti.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Prove per la rilevazione periodica degli esiti e compiti di realtà... Introdurre elementi di verifica e valutazione comuni concordati.",
+        "pagina_evidenza": "Pagina 38"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:58:38.620052",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "944aad4f-bebb-4d1e-94f5-e3c16f64cf2b",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento competenze digitali e pensiero computazionale",
+        "descrizione": "Sviluppo di competenze digitali attraverso attività STEM/STEAM, coding e utilizzo consapevole dei social network. Integrazione di strumenti digitali per supportare nuovi modi di apprendere.",
+        "metodologia": "Implementazione di laboratori STEM e attività di coding, con approccio didattico digitale e laboratoriale.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Sviluppo delle competenze digitali... con particolare riguardo al pensiero computazionale, all'utilizzo critico e consapevole dei social network...",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:58:38.620076",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8a66d00e-ea0b-4309-a097-5565a27156bf",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Definizione di un sistema di orientamento",
+        "descrizione": "Progettazione di un sistema di orientamento per supportare gli studenti nel percorso formativo, con continuità tra i gradi di istruzione e collaborazione con istituti superiori.",
+        "metodologia": "Attuazione di percorsi di orientamento strutturati, con mentoring e attività di continuità tra scuole.",
+        "tipologie_metodologia": [
+          "Mentoring",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Definizione di un sistema di orientamento... con continuità all’interno dell’istituto e con gli istituti superiori.",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:58:38.620097",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "9e8600c6-90b8-4122-b745-348e110d3217",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi individualizzati e personalizzati per BES",
+        "descrizione": "Implementazione di percorsi educativi personalizzati per alunni con bisogni educativi speciali, con supporto dei servizi socio-sanitari e collaborazione con associazioni del territorio.",
+        "metodologia": "Applicazione di service learning e cooperative learning per favorire l'inclusione e l'accesso al diritto allo studio.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti con BES",
+        "citazione_ptof": "Potenziamento dell'inclusione scolastica... attraverso percorsi individualizzati e personalizzati con il supporto dei servizi socio-sanitari...",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:58:38.620116",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "1160761c-9179-43ae-8232-a697d6750332",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Indirizzo Musicale Strutturato",
+        "descrizione": "Percorso triennale di studio musicale con insegnamento strumentale (clarinetto, sassofono, tromba, percussioni) e pratica d'insieme, organizzato con orari pomeridiani dedicati e attività di valorizzazione pubblica (concerti, concorsi). Include orientamento precoce e collaborazioni con bande locali.",
+        "metodologia": "Integrazione di lezioni individuali e collettive, musica d'insieme, teoria musicale e progetti di esibizione. Coinvolge studenti delle classi prime, seconde e terze con 3 ore settimanali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Arte e Creatività"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della Scuola Secondaria di 1° grado",
+        "citazione_ptof": "L’indirizzo musicale nella Scuola Secondaria di 1°grado... prevede esibizione pubblica diretta a tutta la comunità.",
+        "pagina_evidenza": "Pagina 51-53"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:59:57.868660",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "99f8b151-332a-4ea7-aef5-19d27c973a5e",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazioni Trasversali Interdisciplinari",
+        "descrizione": "Approccio metodologico che integra discipline per affrontare problemi sociali (sviluppo sostenibile, interculturalità, legalità) attraverso progetti di ricerca-azione, lavori di gruppo e metodologie non verbali (drammatizzazioni, giochi di ruolo).",
+        "metodologia": "Utilizzo di problem-based learning e cooperative learning per sviluppare competenze critiche e cooperative, con attenzione alla didattica progettuale e alla collaborazione con il territorio.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Le Educazioni Trasversali... permettono di andare oltre gli steccati del sistema scolastico.",
+        "pagina_evidenza": "Pagina 55-56"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:59:57.868801",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "71ae29a7-8906-47f0-85dc-f1363f428f9c",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Digitalizzazione della Didattica",
+        "descrizione": "Implementazione di strumenti digitali (monitor interattivi, stampanti 3D, laboratori STEM) e formazione del personale per innovare gli ambienti di apprendimento e migliorare le competenze digitali degli studenti.",
+        "metodologia": "Acquisto di tecnologie e realizzazione di ambienti di apprendimento innovativi, con finanziamenti PNSD e FESR. Formazione docenti su metodologie digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "La scuola ha partecipato e ottenuto finanziamenti per ambienti di apprendimento innovativi dotati di stampante 3D e monitor interattivi.",
+        "pagina_evidenza": "Pagina 58-59"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:59:57.868841",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "5f3b83d9-0fa6-46d5-98a4-6afc71cf093a",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Team Digitale e Formazione Docenti",
+        "descrizione": "Costituzione di un Team Digitale e individuazione di un Animatore Digitale per supportare l'innovazione didattica e organizzativa. Percorsi formativi per docenti su tecnologie e metodologie innovative.",
+        "metodologia": "Formazione continua e supporto tecnico per implementare strumenti digitali e metodologie innovative, con monitoraggio delle attività.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente e non docente",
+        "citazione_ptof": "Individuazione del Team dell’innovazione e del pronto soccorso tecnico... Formazione per l’innovazione didattica e organizzativa del personale scolastico.",
+        "pagina_evidenza": "Pagina 57-58"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T18:59:57.868914",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "8c701a7d-c628-4c2a-ba2b-86c50efd2a9c",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento STEM con Eventi Territoriali",
+        "descrizione": "Potenziamento delle discipline scientifiche attraverso l'integrazione STEM e organizzazione di eventi aperti al territorio per favorire la collaborazione con la comunità locale.",
+        "metodologia": "Integrazione di attività STEM (Scienze, Tecnologia, Ingegneria, Matematica) con eventi partecipativi che coinvolgono esperti esterni e risorse locali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Potenziamento delle discipline scientifiche attraverso le STEM. Eventi aperti al territorio.",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:01:08.718404",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "42352050-f1bf-4e85-8188-f2784c8f31a5",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Aggiornamento Repository Didattico",
+        "descrizione": "Creazione e aggiornamento di un repository istituzionale per condividere materiali didattici e video disciplinari prodotti o selezionati dalla comunità docenti.",
+        "metodologia": "Sistema di condivisione digitale centralizzato con aggiornamenti periodici e selezione partecipativa da parte del corpo docente.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Creazione / Aggiornamento di un repository d’Istituto per discipline d’insegnamento... Creazione di repository disciplinari di video per la didattica.",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:01:08.718457",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "1e5bb886-3fe9-4c5e-b300-cc0137e874e5",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Alfabetizzazione Civica Digitale",
+        "descrizione": "Attività per sviluppare la consapevolezza del cittadino digitale, con focus su etica, sicurezza e responsabilità nell'uso delle tecnologie.",
+        "metodologia": "Progetti interdisciplinari, workshop e collaborazioni con esperti del settore per educare agli aspetti civici della digitalizzazione.",
+        "tipologie_metodologia": [
+          "Educazione Civica",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Sviluppo di attività di alfabetizzazione civica del cittadino digitale.",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:01:08.718487",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "931bbb03-3716-43de-88b3-6dc7e23434cf",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Aggiornamento Curricoli Verticali",
+        "descrizione": "Revisione dei curricoli verticali per integrare competenze digitali trasversali e disciplinari, garantendo coerenza tra ordini di scuola.",
+        "metodologia": "Lavoro di rete tra docenti di diversi ordini di scuola per allineare obiettivi e metodologie didattiche digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Aggiornamento dei curricoli verticali per la costruzione di competenze digitali, soprattutto trasversali o calate nelle discipline.",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:01:08.718500",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "f03135ea-5cc2-4be3-aafa-57b2668753b8",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Utilizzo di Risorse Digitali in Storia",
+        "descrizione": "Gli studenti utilizzano risorse digitali per analizzare testi storici e ricostruire eventi storici, sviluppando un metodo di studio autonomo e critico. L'approccio favorisce l'indagine storica attraverso fonti digitali e la capacità di argomentare riflessioni storiche.",
+        "metodologia": "Integrazione di strumenti digitali (piattaforme, archivi online) per l'analisi di fonti storiche e la realizzazione di elaborati digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Lettura e Scrittura"
+        ],
+        "target": "Studenti della Scuola Secondaria di primo grado",
+        "citazione_ptof": "Si informa in modo autonomo su fatti e problemi storici anche mediante l’uso di risorse digitali; Espone oralmente e con scritture, anche digitali, le conoscenze storiche acquisite...",
+        "pagina_evidenza": "Pagina 84"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:02:39.061844",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "6664290b-39eb-408b-a42c-05209c66b630",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Sviluppo di Etica della Responsabilità in Educazione Civica",
+        "descrizione": "Gli alunni sviluppano un senso di legalità e responsabilità attraverso l'apprendimento dei principi costituzionali e la pratica del dialogo per prevenire conflitti. L'approccio promuove la convivenza civile e la gestione delle differenze.",
+        "metodologia": "Attività di discussione e negoziazione in classe, con focus su casi concreti e riflessioni etiche.",
+        "tipologie_metodologia": [
+          "Debate",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della Scuola Primaria e Secondaria",
+        "citazione_ptof": "Sviluppa il senso di legalità e un’etica della responsabilità; Attraverso il dialogo, impara a negoziare per prevenire e regolare i conflitti...",
+        "pagina_evidenza": "Pagina 84"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:02:39.062035",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "76fad08b-e9b1-4627-9f62-058318dab6c5",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Analisi dei Paesaggi Territoriali in Geografia",
+        "descrizione": "Gli studenti analizzano paesaggi italiani e mondiali, riconoscendone elementi fisici e antropici, e valutano l'impatto umano sui sistemi territoriali. L'approccio include l'uso di carte geografiche e dati statistici.",
+        "metodologia": "Lavoro su carte tematiche, analisi di dati territoriali e confronti tra paesaggi diversi.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti della Scuola Secondaria di primo grado",
+        "citazione_ptof": "Osserva, legge e analizza sistemi territoriali vicini e lontani, nello spazio e nel tempo, e valuta gli effetti di azioni dell’uomo sui sistemi territoriali...",
+        "pagina_evidenza": "Pagina 85"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:02:39.062062",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "8f416c41-8d2c-4d53-8b41-2e8636993068",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Progetto Musicale Strumentale e Collettivo",
+        "descrizione": "Gli studenti partecipano a esperienze musicali collettive, sviluppando competenze strumentali e improvvisative. L'approccio favorisce l'intersoggettività e l'integrazione attraverso la musica.",
+        "metodologia": "Lezioni collettive, orchestre di classe e progetti di composizione musicale collaborativa.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti della Scuola Secondaria di primo grado",
+        "citazione_ptof": "Partecipa in modo attivo alla realizzazione di esperienze musicali attraverso l’esecuzione e l’interpretazione di brani strumentali e vocali...",
+        "pagina_evidenza": "Pagina 91"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:02:39.062082",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "485f09ae-c059-4f23-9bae-2bd9e3b007e9",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Cl@Ssedigitale",
+        "descrizione": "Iniziativa per sviluppare competenze digitali e pensiero computazionale negli studenti, con attività STEM e transizione digitale. Coinvolge scuola primaria, secondaria e ultimi anni dell'infanzia.",
+        "metodologia": "Utilizzo di coding, laboratori digitali e metodologie attive per integrare tecnologie nell'apprendimento.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Coding e Pensiero Computazionale",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti scuola primaria, secondaria e ultimi anni dell'infanzia",
+        "citazione_ptof": "Il progetto coinvolge gli alunni della scuola primaria e della scuola secondaria di 1°grado e mira al consolidamento delle competenze digitali.",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:04:15.737718",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "cac3e569-9a70-408c-9353-09c72831cf96",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Trinity",
+        "descrizione": "Potenziamento della lingua inglese con certificazione Trinity, utilizzando metodologie CLIL e attività laboratoriali per migliorare competenze linguistiche.",
+        "metodologia": "Applicazione di Content Language Integrated Learning (CLIL) e laboratori linguistici interdisciplinari.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti scuola secondaria di primo grado",
+        "citazione_ptof": "Progetto di potenziamento della lingua inglese rivolto agli studenti della scuola secondaria di 1°grado, finalizzato all'esame per il conseguimento della certificazione Trinity.",
+        "pagina_evidenza": "Pagina 108"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:04:15.737870",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "b33c2e6b-3d26-402a-9e09-4dc5a8acf52f",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorso ACCOGLIENZA-CONTINUITA' ORIENTAMENTO",
+        "descrizione": "Programma triennale per facilitare il passaggio tra ordini di scuola (infanzia-primaria-sec. di I grado) attraverso attività di accoglienza, continuità e orientamento.",
+        "metodologia": "Attività verticali con classi aperte, progetti interdisciplinari e collaborazione tra docenti di diversi ordini di scuola.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Orientamento"
+        ],
+        "target": "Tutti gli alunni dell'istituto",
+        "citazione_ptof": "Il percorso sintetizza tutte le attività di accoglienza-continuità-orientamento, a partire dalla scuola dell'infanzia fino all'ultimo anno della scuola secondaria di primo grado.",
+        "pagina_evidenza": "Pagina 109"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:04:15.737892",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "92a3e4f9-903e-44c6-8523-8a866296c774",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto attività sportive e 'Scuola Attiva Kids'",
+        "descrizione": "Programma di alfabetizzazione motoria e promozione dello sport per favorire uno stile di vita sano e inclusivo, con attività per classi prime/seconde e quarte/quinte.",
+        "metodologia": "Attività motorie strutturate, giochi cooperativi e laboratori sportivi.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti scuola primaria",
+        "citazione_ptof": "Il percorso è finalizzato alla realizzazione: 1. del progetto 'Scuola Attiva Kids' per le classi quarte e quinte... 2. del progetto di alfabetizzazione motoria per gli alunni delle classi prime e seconde.",
+        "pagina_evidenza": "Pagina 116"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:04:15.737948",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "8ee34410-cb57-4bd7-afee-7b8439647d5c",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Lettura con metodologia CLIL",
+        "descrizione": "Iniziativa per promuovere la lettura e l'amore per il libro, con focus su competenze linguistiche in italiano e inglese attraverso la metodologia CLIL (Content and Language Integrated Learning). Obiettivo: migliorare i risultati INVALSI in inglese e ridurre la variabilità tra classi.",
+        "metodologia": "Integrazione di contenuti disciplinari e lingua straniera, con attività laboratoriali e approccio interdisciplinare.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Lingue Straniere"
+        ],
+        "target": "Tutti gli studenti dell'Istituto",
+        "citazione_ptof": "Attività per la sensibilizzazione degli alunni verso la lettura... mediante l'utilizzo della metodologia Content language integrated learning",
+        "pagina_evidenza": "Pagina 122"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:05:49.412357",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "a42fbeea-f54b-4393-8498-a81157328565",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorso Inclusione con supporto territoriale",
+        "descrizione": "Progettualità per prevenire il disagio, contrastare il bullismo e garantire inclusione scolastica, con collaborazione di servizi socio-sanitari, associazioni e linee ministeriali per studenti adottati.",
+        "metodologia": "Percorsi individualizzati e personalizzati, con interventi precoce e integrazione di alunni stranieri.",
+        "tipologie_metodologia": [
+          "Didattica Individualizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Prevenzione Disagio"
+        ],
+        "target": "Gruppi classe e alunni con bisogni educativi speciali",
+        "citazione_ptof": "Potenziamento dell'inclusione scolastica... con il supporto dei servizi socio-sanitari ed educativi del territorio",
+        "pagina_evidenza": "Pagina 124"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:05:49.412492",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "b69620cb-d4e0-4fdb-873d-3536cf6cc1d5",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetto Orto Scolastico",
+        "descrizione": "Realizzazione di un orto scolastico per educare alla salute, sostenibilità e corretta alimentazione, con attività di gruppo e sviluppo di competenze progettuali.",
+        "metodologia": "Lavoro di gruppo, outdoor education e integrazione con temi ambientali.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Sport e Benessere"
+        ],
+        "target": "Alunni della scuola primaria",
+        "citazione_ptof": "Realizzazione di un orto scolastico... sviluppo di una coscienza ambientale e consolidamento di stili di vita sani",
+        "pagina_evidenza": "Pagina 126"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:05:49.412516",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ecc1b9fd-a5ef-4849-b9e8-0988164aef64",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Coding e Pensiero Computazionale",
+        "descrizione": "Attività laboratoriali di programmazione visuale (Scratch) per introdurre il pensiero computazionale, con metodologie peer tutoring e partecipazione a Code Week.",
+        "metodologia": "Uso di piattaforme digitali e metodologie attive come problem solving e peer tutoring.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Tutti gli studenti dell'Istituto",
+        "citazione_ptof": "Attività laboratoriali di programmazione visuale a blocchi... per introdurre il pensiero computazionale",
+        "pagina_evidenza": "Pagina 131"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:05:49.412535",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "e084e136-d395-43f9-b3ab-828a4f405ae4",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorso Recupero/Consolidamento",
+        "descrizione": "Iniziative di recupero per ridurre il divario tra studenti di alto livello e quelli con risultati accettabili, con focus su riduzione delle insufficienze e miglioramento dei risultati INVALSI.",
+        "metodologia": "Percorsi individualizzati e interventi mirati per garantire successo scolastico.",
+        "tipologie_metodologia": [
+          "Didattica Individualizzata"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Gruppi classe",
+        "citazione_ptof": "Diminuire il divario negli esiti scolastici... Ridurre le insufficienze negli esiti delle valutazioni scolastiche",
+        "pagina_evidenza": "Pagina 123"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:05:49.412553",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "d73ff19c-8410-488f-a66f-ed5924d83e34",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Criteri strutturati per voto di ammissione all'esame",
+        "descrizione": "Il voto di ammissione all'Esame di Stato è calcolato con una media ponderata (25% primo anno, 25% secondo anno, 50% terzo anno) e include bonus per comportamento e progressi. Il consiglio di classe decide gli arrotondamenti considerando assiduità e partecipazione.",
+        "metodologia": "Applicazione di criteri definiti dal Collegio Docenti con ponderazione triennale e valutazione qualitativa.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "Media aritmetica ponderata delle valutazioni finali nei tre anni di scuola secondaria di 1°grado, con incidenza 1°anno 25%; 2°anno 25%; 3°anno 50%.",
+        "pagina_evidenza": "Pagina 141"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:07:12.141817",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "ee944680-9470-404c-969f-462b707f6a3b",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Protocollo di accoglienza per studenti stranieri",
+        "descrizione": "Il protocollo prevede fasi di accoglienza, attività di facilitazione linguistica e integrazione sociale, con coinvolgimento di famiglie e territorio. Include una Commissione Accoglienza per gestire il processo.",
+        "metodologia": "Implementazione di un protocollo articolato con ruoli definiti per insegnanti, personale ATA e mediatori culturali.",
+        "tipologie_metodologia": [
+          "Intercultura",
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri e loro famiglie",
+        "citazione_ptof": "Il protocollo contiene criteri, principi, indicazioni riguardanti l'iscrizione e l'inserimento degli alunni immigrati.",
+        "pagina_evidenza": "Pagina 151"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:07:12.141929",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "af59c7f7-d4d9-4d02-8225-e2c573f15875",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piani Educativi Individualizzati (PEI) multidisciplinari",
+        "descrizione": "I PEI sono definiti da un Gruppo di Lavoro Operativo composto da docenti, specialisti ASL, servizi sociali e famiglie. Vengono aggiornati regolarmente e monitorati per garantire continuità formativa.",
+        "metodologia": "Collaborazione tra equipe multidisciplinari e famiglie per progettare interventi personalizzati.",
+        "tipologie_metodologia": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione"
+        ],
+        "target": "Studenti con disabilità e BES",
+        "citazione_ptof": "Il PEI viene predisposto dal Gruppo di Lavoro Operativo, costituito dal consiglio di classe interessato, dagli specialisti dell'Unità Multidisciplinare, dai genitori.",
+        "pagina_evidenza": "Pagina 143"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:07:12.141945",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "d4be9927-6cec-4ecd-b0d0-f0d8a7699cb2",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Utilizzo di peer tutoring e lavoro di gruppo",
+        "descrizione": "Le azioni di recupero e potenziamento avvengono all'interno delle classi attraverso strategie come peer tutoring, lavori di gruppo e attività progettuali, coinvolgendo anche genitori.",
+        "metodologia": "Applicazione di metodologie cooperative e di tutoraggio tra pari per supportare apprendimenti.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Studenti con difficoltà di apprendimento",
+        "citazione_ptof": "Le azioni di recupero, soprattutto per la scuola secondaria vengono coinvolti anche i genitori.",
+        "pagina_evidenza": "Pagina 142"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:07:12.141959",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "92b4c7fb-ed51-4822-82c4-d54f88908af5",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Monitoraggio e aggiornamento regolare dei PEI/PDP",
+        "descrizione": "I PEI e PDP vengono aggiornati con regolarità e il loro raggiungimento viene monitorato. Il PAI (Piano Annuale per l'Inclusività) è predisposto nei tempi previsti.",
+        "metodologia": "Sistema di monitoraggio continuo e aggiornamento periodico dei piani educativi.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Gestione del Personale"
+        ],
+        "target": "Studenti con disabilità e BES",
+        "citazione_ptof": "I PEI e PDP sono aggiornati con regolarità. La scuola predispone regolarmente il PAI nei tempi previsti.",
+        "pagina_evidenza": "Pagina 142"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:07:12.141973",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "160550e0-edff-4a1c-a1d8-8e6b64af2503",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Modello organizzativo orizzontale con responsabili di plesso",
+        "descrizione": "L'istituto adotta un'organizzazione orizzontale con punti di riferimento stabili in ciascun plesso, valorizzando la collaborazione tra le professionalità e ottimizzando le risorse umane per garantire una gestione agile e coerente con il Piano di Miglioramento.",
+        "metodologia": "Struttura organizzativa consolidata ma flessibile, con riadattamenti annuali in base all'autoanalisi e alle esigenze progettuali. Coinvolgimento attivo dei responsabili di plesso e dei coordinatori disciplinari.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Gestione Risorse Umane",
+          "Organizzazione Scolastica"
+        ],
+        "target": "Personale docente e non docente, studenti",
+        "citazione_ptof": "La struttura organizzativa interna è consolidata e durevole nel tempo... ma di anno in anno viene riadattata ai bisogni che scaturiscono dalla progettualità...",
+        "pagina_evidenza": "Pagina 151"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:13:23.363718",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "09792429-6b6f-46e0-9aca-f1a59c125693",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Unità di Apprendimento interdisciplinari",
+        "descrizione": "Progettazione di Unità di Apprendimento che integrano saperi disciplinari e valori educativi, con approcci transdisciplinari e laboratoriali per favorire l'acquisizione di competenze complesse e il metodo scientifico.",
+        "metodologia": "Utilizzo di metodologie come il lavoro per gruppi, l'interdisciplinarietà e l'approccio graduale dal concreto all'astratto, con verifica di contenuti attraverso strumenti diversificati.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Learning by Doing",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Scienze e Ricerca",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "L’insieme delle Unità di Apprendimento dà origine al Piano di Studio Personalizzato... con indicazioni metodologiche, mezzi e strumenti d’uso, prove e strumenti di verifica.",
+        "pagina_evidenza": "Pagina 155"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:13:23.363813",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "72e0b223-353a-4479-9f4c-22a207f4b7e6",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Dipartimenti disciplinari con funzione di ricerca educativa",
+        "descrizione": "I Dipartimenti disciplinari (es. linguaggi, storico-sociale, matematica-tecnologica) coordinano le scelte didattiche, definiscono standard comuni e promuovono la ricerca educativa, con verbalizzazione delle sedute e condivisione di criteri di valutazione.",
+        "metodologia": "Lavoro collegiale per concordare obiettivi trasversali, strumenti di valutazione e strategie didattiche, con analisi delle esigenze specifiche (DSA, BES) e progettazione di interventi di recupero.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Inclusione e BES"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Il dipartimento costituisce il cuore della didattica... ha compiti di ricerca educativa e definisce azioni di integrazione per gli alunni disabili e DSA.",
+        "pagina_evidenza": "Pagina 152"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:13:23.363836",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "67e11b32-a83f-4df9-b875-484f042af024",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Collaboratore del Dirigente Scolastico con ruolo operativo",
+        "descrizione": "Il Collaboratore del DS gestisce attività organizzative (orario, vigilanza, archivio didattico), sostituisce il DS in assenza, coordina i responsabili di plesso e supporta la realizzazione del PTOF e del Piano di Miglioramento.",
+        "metodologia": "Gestione quotidiana delle funzioni amministrative e didattiche, con verifica periodica dei plessi e collaborazione con organi collegiali e terzi (esperti, enti locali).",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Organizzazione Scolastica",
+          "Gestione Risorse Umane"
+        ],
+        "target": "Personale scolastico e terzi",
+        "citazione_ptof": "Collaborazione nella realizzazione giornaliera dell’organizzazione interna... verifica periodica della situazione nei vari plessi... sostituzione del Dirigente Scolastico in caso di assenza.",
+        "pagina_evidenza": "Pagina 160"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:13:23.363855",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "e1f6ae85-2018-4848-ae32-7e8a2e422650",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progettazione differenziata per alunni con BES e DSA",
+        "descrizione": "I Dipartimenti disciplinari definiscono linee comuni per prove di ingresso e valutazione, con azioni di integrazione e programmazioni differenziate per alunni con Bisogni Educativi Specifici e Disturbi Specifici di Apprendimento.",
+        "metodologia": "Condivisione di criteri di valutazione e strumenti didattici adatti alle esigenze specifiche, con monitoraggio continuo e adattamento delle strategie metodologiche.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con BES/DSA",
+        "citazione_ptof": "Definire azioni di integrazione e definizione di massima delle programmazioni per obiettivi minimi e/o differenziati per gli alunni disabili e DSA.",
+        "pagina_evidenza": "Pagina 152"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:13:23.363873",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "587b1a3a-4d3d-45a9-bdac-8758655f8e6e",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Coordinamento intersezione e documentazione",
+        "descrizione": "Il coordinatore di intersezione organizza riunioni interclasse, gestisce la documentazione (verbali, report mensili) e coordina l'orario scolastico in caso di assenze. Si occupa anche di manutenzione e gestione sussidi didattici.",
+        "metodologia": "Coordinamento strutturato di riunioni, gestione documentale e logistica scolastica.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente e non docente",
+        "citazione_ptof": "Coordinamento delle attività organizzative: • Fa rispettare il Regolamento d’Istituto; • Appronta l’orario di lezione... • Compila il report mensile sull’andamento nel plesso...",
+        "pagina_evidenza": "Pagina 164-165"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:15:25.911141",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "f68c1daf-c655-437d-b831-76ea98ddb2bc",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Gestione salute e sicurezza",
+        "descrizione": "Il responsabile di plesso ricopre il ruolo di Preposto per la sicurezza, organizza prove di evacuazione, monitora l'ingresso/uscita degli alunni e gestisce il rispetto delle norme emergenziali (Covid).",
+        "metodologia": "Attuazione di protocolli di sicurezza e gestione emergenze con collaborazione con RSPP.",
+        "tipologie_metodologia": [
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti, personale scolastico",
+        "citazione_ptof": "Coordinamento 'Salute e Sicurezza': • Ricopre il ruolo di Preposto ai sensi del D.Lgs 81/2008; • Collabora all'aggiornamento del piano di emergenza... • Vigila sul rispetto delle disposizioni emergenziali...",
+        "pagina_evidenza": "Pagina 164-165"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:15:25.911204",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 10
+      }
+    },
+    {
+      "id": "353e7464-4d23-4dab-abc1-324b0a0ba272",
+      "school": {
+        "codice_meccanografico": "AVEE87401T",
+        "nome": "Capoluogo-Vallata",
+        "tipo_scuola": "Primaria",
+        "ordine_grado": "Primaria",
+        "regione": "Campania",
+        "provincia": "Avellino",
+        "comune": "Vallata",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Formazione su Disabilità e Inclusione con Promozione di Coordinatori",
+        "descrizione": "Corsi di formazione per docenti sui temi della disabilità e dell'inclusione, con focus sulla promozione di figure di coordinamento per gestire efficacemente le esigenze educative speciali. La formazione si svolge in presenza e online, aderendo a reti di ambito e iniziative del MIUR.",
+        "metodologia": "Corsi organizzati in collaborazione con reti di ambito, MIUR e istituzioni esterne, con moduli in presenza e online. Inclusi relatori esperti e attività di autoaggiornamento interno.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "- Formazione in servizio per docenti sui temi della disabilità e dell’inclusione, anche per la promozione di figure di coordinamento;",
+        "pagina_evidenza": "Pagina 189"
+      },
+      "contesto": {
+        "maturity_index": 3.74,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "MIUR",
+          "Rete di Ambito AV0003"
+        ],
+        "attivita_correlate": [
+          "Progetti ponte per la transizione",
+          "Orto Scolastico",
+          "Sviluppo competenze digitali",
+          "Potenziamento competenze linguistiche",
+          "Visite guidate e viaggi di istruzione",
+          "Formazione sul nuovo curricolo di Educazione Civica",
+          "Formazione sulla valutazione nella Scuola Primaria"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:16:53.221614",
+        "model_used": "qwen3:32b",
+        "source_file": "AVEE87401T_ptof.md",
+        "chunk_source": 11
+      }
+    },
+    {
+      "id": "11b77edf-af65-4099-8f95-1c01ebdbbe5e",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Diploma International Baccalaureate",
+        "descrizione": "Offerta unica nel sud Italia di un percorso di diploma riconosciuto a livello internazionale, integrato nel campus educativo Gonzaga. Fornisce una formazione interdisciplinare e interculturale con focus su competenze globali.",
+        "metodologia": "Integrazione di curricula accademici internazionali con attività extracurriculari e progetti di ricerca multidisciplinari.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "unica ad avere il diploma International Baccalaureate nel sud Italia",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:17:55.231051",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "86237154-f8a8-4e8d-a83e-6d796af9bb5d",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Paradigma Pedagogico Ignaziano (PPI)",
+        "descrizione": "Metodo didattico basato su cinque fasi (Esperienza, Riflessione, Azione, Valutazione) che promuove l'apprendimento significativo e l'interiorizzazione delle competenze attraverso strategie attive e riflessive.",
+        "metodologia": "Utilizzo di praelectio (coinvolgimento esperienziale), lectio (trasmissione strutturata) e repetitio (consolidamento personale) in ogni fase didattica.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Tutti i livelli scolastici",
+        "citazione_ptof": "Esperienza, Riflessione, Azione, Valutazione: il processo mette al centro l’apprendimento dell’alunno",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:17:55.231402",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "3beef305-7147-45b9-9926-a45cc1c9616f",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gonzaga Campus Integrato",
+        "descrizione": "Struttura multidisciplinare che unisce scuola italiana, internazionale, polisportiva e pastorale, con spazi condivisi e attività interattive per favorire integrazione e crescita olistica.",
+        "metodologia": "Organizzazione di spazi e tempi pomeridiani per attività sportive, artistiche e di volontariato, con sinergie tra le diverse componenti del campus.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Outdoor Education"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Intercultura"
+        ],
+        "target": "Studenti di tutte le età",
+        "citazione_ptof": "Il Gonzaga Campus si è dotato di un piano strategico... maggiore integrazione della parte sportiva",
+        "pagina_evidenza": "Pagina 8"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:17:55.231427",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "7fec0836-ab89-4b62-9cae-a6540faf7a1c",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Modello di Governance Collegiale",
+        "descrizione": "Struttura organizzativa con Consiglio di Amministrazione gesuitico-laico, Direttore Generale e Organo di Controllo, per garantire trasparenza e coerenza con la missione educativa.",
+        "metodologia": "Divisione chiara tra funzioni strategiche (Consiglio di Amministrazione) e operative (Direttore Generale), con controllo esterno da parte di revisori legali.",
+        "tipologie_metodologia": [
+          "Altro"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Personale dirigente e collaboratori",
+        "citazione_ptof": "Il Consiglio di amministrazione... e il Direttore generale, di nomina del Padre Provinciale",
+        "pagina_evidenza": "Pagina 14"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:17:55.231468",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "f404da73-1995-42e4-ad3e-d6a104586a27",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Nido e Liceo Scienze Umane",
+        "descrizione": "Espansione dell'offerta formativa con un nido per l'infanzia precoce e un liceo che unisce tradizione umanistica gesuita a competenze moderne di cura e relazione.",
+        "metodologia": "Progettazione di percorsi specifici per l'età prescolare e integrazione di discipline umanistiche con attività pratiche di servizio sociale.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Orientamento"
+        ],
+        "target": "Bambini di età precoce e studenti della scuola secondaria",
+        "citazione_ptof": "con il Nido si realizza una proposta di accompagnamento... Le scienze umane riprendono la tradizione umanista",
+        "pagina_evidenza": "Pagina 13"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:17:55.231504",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "a571931b-42b0-4dc4-81d2-0aaea9e347c9",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Comunicazione Scuola-Famiglia Integrata",
+        "descrizione": "Utilizzo di registri elettronici, mail scolastiche e piattaforme digitali (Google Workspace) per informare quotidianamente le famiglie sull'andamento scolastico e gestire comunicazioni formali. Inclusione di orari di ricevimento settimanali e assemblee di classe per il confronto.",
+        "metodologia": "Implementazione di strumenti digitali e canali strutturati per la comunicazione tra scuola e famiglie.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Rapporti con Famiglie",
+          "Digitalizzazione"
+        ],
+        "target": "Famiglie, studenti, docenti",
+        "citazione_ptof": "Le comunicazioni avvengono attraverso il registro elettronico, mail scolastiche e piattaforme digitali (Google Workspace).",
+        "pagina_evidenza": "Pagina 18"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:19:03.656515",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "f96959ff-dce7-4ab1-9def-f03964e23069",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Organismi di Partecipazione Strutturati",
+        "descrizione": "Attivazione di Consigli di classe, Assemblee di classe, Consiglio dei genitori e rappresentanze studentesche per garantire la partecipazione attiva di tutte le componenti della comunità educativa.",
+        "metodologia": "Organizzazione di organismi collegiali e rappresentativi per la gestione partecipata delle decisioni.",
+        "tipologie_metodologia": [],
+        "ambiti_attivita": [
+          "Governance"
+        ],
+        "target": "Genitori, studenti, docenti",
+        "citazione_ptof": "Gli organismi in funzione sono: Consiglio Generale, Collegio dei docenti, Consigli di classe, Consiglio dei genitori, Assemblee di classe degli alunni.",
+        "pagina_evidenza": "Pagina 18"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:19:03.656676",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "17acb092-c4c6-4ff8-9734-a005b92c0e54",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Policy per la Protezione dei Minori",
+        "descrizione": "Adozione di una policy specifica per prevenire e gestire abusi sui minori, con procedure trasparenti e formazione del personale, attivata dal 1° settembre 2024.",
+        "metodologia": "Implementazione di protocolli di sicurezza e formazione obbligatoria per il personale.",
+        "tipologie_metodologia": [],
+        "ambiti_attivita": [
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti, personale scolastico",
+        "citazione_ptof": "L’Istituto ha adottato una Policy per la protezione dei propri alunni dal rischio di abusi a partire dal 1° settembre 2024.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:19:03.656695",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "c8e11fbc-a77c-4b13-94a4-273a52f73ae2",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Commissione Mensa con Partecipazione Genitori",
+        "descrizione": "Istituzione annuale di una Commissione mensa composta da genitori per monitorare la qualità del servizio e garantire trasparenza.",
+        "metodologia": "Coinvolgimento diretto delle famiglie nella gestione e valutazione del servizio mensa.",
+        "tipologie_metodologia": [],
+        "ambiti_attivita": [
+          "Governance"
+        ],
+        "target": "Genitori, scuola",
+        "citazione_ptof": "Annualmente è istituita una Commissione mensa, composta da genitori, per verificare la qualità del servizio.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:19:03.656712",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "a1794103-5da5-4322-919f-6a36130e9b6d",
+      "school": {
+        "codice_meccanografico": "PAPS3Q5009",
+        "nome": "Istituto Gonzaga",
+        "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Palermo",
+        "comune": "Palermo",
+        "area_geografica": "Isole",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Paritaria"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Utilizzo di Piattaforme Digitali per Lezioni a Distanza",
+        "descrizione": "Svolgimento di attività didattiche a distanza tramite Google Workspace, con accesso alle mail scolastiche per condivisione di materiali e gestione del calendario.",
+        "metodologia": "Integrazione di piattaforme digitali per didattica a distanza e collaborazione tra studenti e docenti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Svolgimento di attività di lezione a distanza attraverso le piattaforme digitali cui aderisce la scuola (Google Workspace).",
+        "pagina_evidenza": "Pagina 18"
+      },
+      "contesto": {
+        "maturity_index": 3.07,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 2
+        },
+        "partnership_coinvolte": [
+          "Istituto Arrupe",
+          "Centro Astalli"
+        ],
+        "attivita_correlate": [
+          "Attività della pastorale",
+          "Attività della Polisportiva Gonzaga"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:19:03.656728",
+        "model_used": "qwen3:32b",
+        "source_file": "PAPS3Q5009_ptof.md",
+        "chunk_source": 2
       }
     }
   ]
