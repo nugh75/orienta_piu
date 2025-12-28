@@ -173,6 +173,17 @@ Funzioni principali:
 - Analisi statistiche con significativita ed effetto.
 - Export dei dati filtrati in JSON e CSV.
 
+### Legenda emoji (categorie)
+
+Le emoji aiutano a riconoscere subito la categoria di una pratica.
+
+- 📚 Metodologie Didattiche Innovative
+- 🎯 Progetti e Attivita Esemplari
+- 🤝 Partnership e Collaborazioni Strategiche
+- ⚙️ Azioni di Sistema e Governance
+- 🌈 Buone Pratiche per l'Inclusione
+- 🗺️ Esperienze Territoriali Significative
+
 ## Trasparenza: prompt e dati
 
 ### Criteri catalogo buone pratiche

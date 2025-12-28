@@ -837,6 +837,20 @@ Funzioni principali:
 """
 )
 
+st.subheader("Legenda emoji (categorie)")
+st.markdown(
+    """
+Le emoji aiutano a riconoscere subito la categoria di una pratica.
+
+- 📚 Metodologie Didattiche Innovative
+- 🎯 Progetti e Attivita Esemplari
+- 🤝 Partnership e Collaborazioni Strategiche
+- ⚙️ Azioni di Sistema e Governance
+- 🌈 Buone Pratiche per l'Inclusione
+- 🗺️ Esperienze Territoriali Significative
+"""
+)
+
 st.subheader("File JSON del catalogo")
 st.markdown(
     """

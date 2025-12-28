@@ -255,6 +255,14 @@ make csv-watch INTERVAL=60
 
 ## 🌟 Catalogo Buone Pratiche
 
+**Legenda emoji (categorie):**
+- 📚 Metodologie Didattiche Innovative
+- 🎯 Progetti e Attività Esemplari
+- 🤝 Partnership e Collaborazioni Strategiche
+- ⚙️ Azioni di Sistema e Governance
+- 🌈 Buone Pratiche per l'Inclusione
+- 🗺️ Esperienze Territoriali Significative
+
 ### Estrazione buone pratiche
 
 | Comando | Descrizione |

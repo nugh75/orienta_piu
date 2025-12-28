@@ -226,6 +226,14 @@ Parametri:
 
 ### 8.2 Catalogo Buone Pratiche
 
+**Legenda emoji (categorie):**
+- 📚 Metodologie Didattiche Innovative
+- 🎯 Progetti e Attività Esemplari
+- 🤝 Partnership e Collaborazioni Strategiche
+- ⚙️ Azioni di Sistema e Governance
+- 🌈 Buone Pratiche per l'Inclusione
+- 🗺️ Esperienze Territoriali Significative
+
 **Estrazione dataset (Catalogo Pratiche):**
 ```bash
 make best-practice-extract MODEL=qwen3:32b

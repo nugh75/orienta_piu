@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:02:54.696574",
+  "last_updated": "2025-12-28T17:14:33.871738",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1256,
-  "schools_processed": 22,
+  "total_practices": 1298,
+  "schools_processed": 23,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -70397,6 +70397,2475 @@
         "model_used": "qwen3:32b",
         "source_file": "AVAA81003Q_ptof.md",
         "chunk_source": 7
+      }
+    },
+    {
+      "id": "a653c936-9d6a-4c9f-a7e4-c7f17986c6f0",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Protocollo di Accoglienza per Studenti Stranieri",
+        "descrizione": "La scuola ha redatto un protocollo specifico per pianificare modalità di accoglienza e inserimento degli studenti stranieri, considerando la loro mobilità temporanea legata a centri di accoglienza.",
+        "metodologia": "Procedura strutturata con linee guida per l'integrazione linguistica e sociale, adattabile alle esigenze individuali degli studenti.",
+        "tipologie_metodologia": [
+          "Continuità e Accoglienza"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri e loro famiglie",
+        "citazione_ptof": "La scuola ha redatto un protocollo di accoglienza per alunni stranieri, allo scopo di pianificare adeguate modalità di accoglienza e di inserimento.",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:04:06.880043",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "62cee91c-f1b0-483d-a651-0f8252b54d0c",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Robotica con Finanziamento PNRR",
+        "descrizione": "Realizzazione di un laboratorio di robotica presso la scuola secondaria di Otranto, finanziato dal PNSD Azione #7, per attività didattiche innovative e interdisciplinari.",
+        "metodologia": "Attività laboratoriale con strumenti tecnologici, incentrata su progetti STEM e apprendimento collaborativo.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "La scuola ha realizzato un laboratorio di robotica con finanziamento ottenuto nell'ambito di un progetto previsto dal PNSD Azione #7.",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:04:06.880181",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "fff444b0-3a88-4a5b-baab-b41872457440",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Utilizzo della Piattaforma G-Suite for Education",
+        "descrizione": "Implementazione della piattaforma G-Suite per favorire la comunicazione tra docenti, scuola e famiglie, nonché la gestione del registro elettronico e delle attività didattiche.",
+        "metodologia": "Integrazione di strumenti digitali per la didattica a distanza e la collaborazione tra studenti e insegnanti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti, studenti e famiglie",
+        "citazione_ptof": "La scuola prosegue nell'utilizzo della piattaforma G-Suite for Education.",
+        "pagina_evidenza": "Pagina 12"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:04:06.880204",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "04eb589f-475d-4ff8-81d6-1488bbda5d8d",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento Competenze Digitali e Lingue Straniere",
+        "descrizione": "Azioni mirate per migliorare le competenze digitali e nella lingua inglese, con formazione docenti e studenti, e integrazione di metodologie CLIL.",
+        "metodologia": "Approccio interdisciplinare (CLIL) e utilizzo di strumenti tecnologici per lo studio delle lingue.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Migliorare le competenze digitali e di lingua inglese. Aumentare il numero di alunni e docenti formati.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:04:06.880224",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1e597bc9-77fe-461a-9feb-29fdf1d92bd0",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Prove Strutturate per Classi Parallele",
+        "descrizione": "Implementazione di prove standardizzate per classi parallele per monitorare gli esiti e guidare l'insegnamento con una rotta comune basata sul curricolo verticale. Obiettivo: ridurre disparità tra classi e plessi.",
+        "metodologia": "Progettazione di test condivisi tra docenti, analisi comparativa dei risultati e adozione di strategie didattiche comuni per migliorare l'omogeneità degli esiti.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione",
+          "Didattica per Competenze"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Valutazione"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Saranno progettate prove strutturate per classi parallele per avere il controllo degli esiti degli studenti...",
+        "pagina_evidenza": "Pagina 24"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:05:23.410632",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "f604a55c-43a0-4198-9e36-c22ff9400a49",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratorio di Pensiero Computazionale e Certificazione Digitale",
+        "descrizione": "Avvio al coding e conseguimento di certificazioni informatiche per studenti, con formazione docenti su metodologie digitali. Obiettivo: migliorare competenze digitali e motivazione.",
+        "metodologia": "Attività laboratoriali con strumenti digitali, corsi di formazione per docenti e collaborazione con consulenti esterni per validare le competenze.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "- Avvio al pensiero computazionale (CODING) e al conseguimento della certificazione informatica...",
+        "pagina_evidenza": "Pagina 32"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:05:23.410802",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e2ee6877-b744-42a6-9a3a-6d078fad606e",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Enti Territoriali per Sostenibilità",
+        "descrizione": "Progetti interdisciplinari con ATS, polizia, associazioni locali per educare alla sostenibilità, legalità e cultura del territorio. Obiettivo: integrare risorse esterne per attività formative.",
+        "metodologia": "Coinvolgimento di operatori sanitari, forze dell'ordine e associazioni in laboratori e progetti curriculari, con focus su temi ambientali e sociali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti, famiglie, enti locali",
+        "citazione_ptof": "Collaborano, inoltre, per la buona riuscita del macro-progetto d’Istituto enti ed associazioni locali, operatori sanitari dell’ATS...",
+        "pagina_evidenza": "Pagina 34"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:05:23.410842",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "36ea38ea-acde-456c-8236-b19d0bad6bc4",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione Docenti su Didattica per Competenze",
+        "descrizione": "Corsi di aggiornamento per docenti sulle metodologie per competenze e inclusione, in linea con D.Lgs 66/17. Obiettivo: migliorare l'efficacia didattica e l'equità formativa.",
+        "metodologia": "Workshop e moduli formativi organizzati da consulenti esterni e team interni, con focus su progettazione curricolare e strumenti per BES.",
+        "tipologie_metodologia": [
+          "Didattica per Competenze",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Realizzazione di un corso di formazione per docenti sulla didattica per competenze...",
+        "pagina_evidenza": "Pagina 26"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:05:23.410880",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "f7ef8627-6b46-4a0e-81e9-14f665d9068b",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti di Cittadinanza Globale e Legalità",
+        "descrizione": "Attività interdisciplinari su diritti umani, parità di genere e non violenza, con coinvolgimento di studenti e famiglie. Obiettivo: promuovere valori di inclusione e solidarietà.",
+        "metodologia": "Laboratori tematici, progetti di service learning e momenti di riflessione collettiva con partecipazione di esperti esterni.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Studenti, famiglie",
+        "citazione_ptof": "L’azione formativa è orientata all’integrazione degli apprendimenti... promuove stili di vita sostenibili, diritti umani, parità di genere...",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:05:23.410900",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "5dc03b32-dc40-414b-932f-53b9464957d4",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Continuità tra ordini di scuola",
+        "descrizione": "Iniziativa per facilitare il passaggio tra ordini di scuola attraverso anelli di congiunzione che promuovono dialogo tra docenti e integrazione degli apprendimenti formali e non formali.",
+        "metodologia": "Strutturazione di percorsi interdisciplinari con attività collaborative e momenti di confronto tra insegnanti per creare continuità orizzontale e verticale.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza",
+          "Formazione Docenti"
+        ],
+        "target": "Studenti e docenti di tutti gli ordini di scuola",
+        "citazione_ptof": "allestire un progetto 'Continuità' in grado di concretizzare il curricolo d’Istituto con anelli di congiunzione che creino opportunità di dialogo e confronto tra i docenti",
+        "pagina_evidenza": "Pagina 42"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:06:56.516418",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "12c68fa0-cd91-4d30-b815-4e07f854cbdb",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Potenziamento delle competenze linguistiche",
+        "descrizione": "Avvio precoce dell'insegnamento della lingua inglese nella scuola dell'infanzia e approfondimento in quelle primarie e secondarie, con priorità alla certificazione linguistica.",
+        "metodologia": "Corsi strutturati per livelli di età, attività immersive e valutazione tramite certificazioni riconosciute.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti di scuola dell'infanzia, primaria e secondaria",
+        "citazione_ptof": "priorità del PDM della scuola è anche quello di incrementare il numero di studenti con certificazione linguistica",
+        "pagina_evidenza": "Pagina 42"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:06:56.516591",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "6b7129ae-277d-43d3-9ae4-54400da5eeda",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Implementazione del modello DADA",
+        "descrizione": "Sostituzione del modello didattico tradizionale con aule tematiche che immersano gli studenti in ambienti specifici per ogni disciplina, eliminando la struttura tradizionale delle aule.",
+        "metodologia": "Didattica per ambienti di apprendimento (DADA) con spazi tematizzati e attività laboratoriali interdisciplinari.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "allestimento di specifiche aule tematiche senza più ricorrere al concetto tradizionale di aula",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:06:56.516614",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "defd9909-a928-48f8-9f28-4fe16bb08750",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Sezioni Montessori nella scuola dell'infanzia",
+        "descrizione": "Attivazione di sezioni a differenziazione montessoriana per favorire l'apprendimento autonomo e lo sviluppo delle competenze attraverso materiali strutturati e metodologie attive.",
+        "metodologia": "Applicazione del metodo Montessori con materiali didattici specifici e spazi organizzati per favorire l'esplorazione autonoma.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola dell'infanzia",
+        "citazione_ptof": "messa in opera di tutte le soluzioni didattiche e strutturali per l'attivazione della sezione a differenziazione montessoriana",
+        "pagina_evidenza": "Pagina 43"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:06:56.516634",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "caa6e807-5aae-4972-8903-4fec785543f4",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Potenziamento del pensiero computazionale",
+        "descrizione": "Introduzione del pensiero computazionale nelle discipline curricolari per sviluppare competenze logico-matematiche e digitali attraverso attività di coding e problem solving.",
+        "metodologia": "Integrazione di attività di coding e progetti interdisciplinari che utilizzano strumenti digitali e metodologie STEM.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Coding e Pensiero Computazionale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "potenziare l’azione didattica curriculare della scuola primaria con il Pensiero computazionale veicolato nelle varie discipline",
+        "pagina_evidenza": "Pagina 46"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:06:56.516657",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "0325f0d8-e8b9-4974-93bc-3fb8f55a0db3",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Curricolo Verticale Integrale",
+        "descrizione": "Strumento metodologico che collega i tre ordini di scuola attraverso progettazione condivisa, monitoraggio periodico e coordinamento interdisciplinare. I dipartimenti disciplinari individuano criticità e migliorano il successo formativo.",
+        "metodologia": "Coordinamento tra docenti, incontri periodici per valutare percorsi didattici, integrazione di obiettivi curricolari ed extra-curricolari.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Docenti e studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Il curricolo verticale è lo strumento metodologico che affianca il progetto educativo... fondamentale importanza rivestono i dipartimenti disciplinari...",
+        "pagina_evidenza": "Pagina 65"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:08:21.671431",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "050a603b-bd73-4eee-88fd-6c9cd9fe0d4e",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Musicali Strumentali e Corali",
+        "descrizione": "Iniziative per avviare studenti alla pratica musicale strumentale e corale, promuovendo creatività e collaborazione. Inclusi in attività curricolari e progetti di ampliamento.",
+        "metodologia": "Approccio laboratoriale con strumenti musicali, esercitazioni collettive e progetti di ensemble.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti di Scuola Primaria e Secondaria",
+        "citazione_ptof": "laboratori musicali di avviamento alla pratica strumentale e corale...",
+        "pagina_evidenza": "Pagina 67"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:08:21.671812",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "8f7c050e-b2b0-462d-8a51-de7dc0b7ed8f",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Cittadinanza Digitale Strutturata",
+        "descrizione": "Progetto con 33 ore annuali dedicate all'educazione digitale, navigazione sicura e consapevolezza dell'identità online. Attività differenziate per ordini di scuola.",
+        "metodologia": "Lezioni pratiche su strumenti tecnologici, simulazioni di navigazione sicura e discussione di casi concreti.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di Scuola Primaria e Secondaria",
+        "citazione_ptof": "Monte ore annuali... 33 ore... Iniziative di sensibilizzazione alla cittadinanza responsabile...",
+        "pagina_evidenza": "Pagina 62"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:08:21.671830",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "03a3c1fa-c01d-46d2-9e7e-4a98308a46ab",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetti di Salvaguardia del Territorio",
+        "descrizione": "Iniziative per conoscere e valorizzare il territorio, promuovere sviluppo sostenibile e coscienza ecologica. Include attività di educazione ambientale e riflessione su Agenda 2030.",
+        "metodologia": "Attività laboratoriali, uscite didattiche, progetti di monitoraggio ambientale e collaborazione con enti locali.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di Scuola Primaria e Secondaria",
+        "citazione_ptof": "Orientare le proprie azioni allo sviluppo sostenibile... Formare cittadini attivi dotati di una coscienza ecologica.",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:08:21.671846",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "730a708e-fad2-447f-8622-a6e6d57f34a1",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Teatro: Che Passione!",
+        "descrizione": "Progetto teatrale per sviluppare comunicazione, autonomia, collaborazione e consapevolezza emotiva. Include lettura espressiva, drammatizzazione e produzione di spettacoli.",
+        "metodologia": "Metodologia laboratoriale con esercizi di improvvisazione, analisi testuale e creazione di sceneggiature.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti di Scuola Primaria e Secondaria",
+        "citazione_ptof": "Le attività mirano a sviluppare le capacità di comunicare, collaborare, assumersi responsabilità...",
+        "pagina_evidenza": "Pagina 71"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:08:21.671860",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "9bed88bd-aaab-4f58-972d-85130d593d1f",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Cyberbullismo",
+        "descrizione": "Iniziativa per prevenire cyberbullismo attraverso questionari iniziali e finali, promozione di comunicazione emotiva e collaborazione con tutor esterni. Obiettivo: sviluppare consapevolezza sui rischi del disagio relazionale.",
+        "metodologia": "Utilizzo di questionari di autovalutazione e coinvolgimento di esperti esterni per attività di sensibilizzazione.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Diffondere una cultura della prevenzione... Verrà somministrato un questionario iniziale ed uno finale.",
+        "pagina_evidenza": "Pagina 77"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:09:27.553160",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "0679e8f1-5ee1-4fe8-8c51-9e81810ca4c4",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Sport di classe con Tutor Scolastico",
+        "descrizione": "Progetto in Scuola Primaria che coinvolge un tutor sportivo esterno per attività motorie e promozione del benessere fisico. Utilizzo di strutture sportive e palestre.",
+        "metodologia": "Attività laboratoriali con esperti esterni e utilizzo di spazi dedicati.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Sport e Benessere",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti Scuola Primaria",
+        "citazione_ptof": "Nella Scuola Primaria... coinvolgimento del Tutor sportivo scolastico.",
+        "pagina_evidenza": "Pagina 77"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:09:27.553267",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "88365a5b-1902-427c-b56e-d1646239aff1",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Web Radio e Web TV",
+        "descrizione": "Progetto multimediale per sviluppare competenze digitali e comunicative attraverso produzione di contenuti audiovisivi. Obiettivo: migliorare la fluenza linguistica e l'uso consapevole dei media.",
+        "metodologia": "Produzione di contenuti con strumenti digitali e attività di gruppo.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti Scuola Secondaria",
+        "citazione_ptof": "L'attività di web radio e web TV... uso di strumentazioni vicine al mondo dei ragazzi.",
+        "pagina_evidenza": "Pagina 90"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:09:27.553285",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "2f8f8eec-5a66-481e-ba50-4063bd799ea0",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Edugreen: Laboratori di Sostenibilità",
+        "descrizione": "Iniziativa per promuovere sostenibilità ambientale attraverso orti didattici, monitoraggio del terreno e sistemi di energia rinnovabile. Collegamento agli obiettivi Agenda 2030.",
+        "metodologia": "Attività pratiche in giardini scolastici con strumenti di misurazione e tecnologie eco-friendly.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutti i cicli",
+        "citazione_ptof": "Realizzazione/ampliamento di giardini e orti didattici... posa in opera di sistemi di energia rinnovabile.",
+        "pagina_evidenza": "Pagina 96"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:09:27.553311",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "1b31502f-2ae7-41b1-b047-73f53caae20e",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Bello Studiare Anche in Convalescenza",
+        "descrizione": "Progetto per supportare studenti con patologie gravi attraverso istruzione domiciliare e collaborazione con la Scuola in Ospedale. Obiettivo: garantire continuità didattica.",
+        "metodologia": "Didattica personalizzata a distanza e integrazione con servizi sanitari.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con patologie gravi",
+        "citazione_ptof": "Il progetto di istruzione domiciliare... supportare la fase di ricovero degli allievi.",
+        "pagina_evidenza": "Pagina 92"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:09:27.553338",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "1d9a75b2-6bf4-488d-a813-0499a20fccd0",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Workshop Digitali con Famiglie e Territorio",
+        "descrizione": "L'istituzione organizza eventi e workshop aperti alle famiglie e al territorio, con partecipazione attiva degli studenti, per promuovere una cultura digitale condivisa. Include iniziative come Codeweek e Ora del Codice, con sperimentazione di nuove tecnologie e creazione di prodotti digitali studenteschi.",
+        "metodologia": "Attività strutturate su tutto l'anno scolastico, con coinvolgimento diretto degli studenti nell'organizzazione e nella sperimentazione didattica. Utilizzo di strumenti digitali e collaborazione con il territorio.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti, famiglie, attori territoriali",
+        "citazione_ptof": "L'Istituzione scolastica offre eventi e workshop aperti alle famiglie e al territorio con la partecipazione attiva degli studenti sui temi promossi dal PNSD.",
+        "pagina_evidenza": "Pagina 105"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:10:56.656910",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "f749ae52-1d7c-4988-9d96-ed67da1bcf58",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Biblioteca come Terzo Spazio",
+        "descrizione": "La biblioteca scolastica è promossa come luogo di incontro tra saperi, con attività trasversali che integrano competenze disciplinari e culturali. Favorisce l'alfabetizzazione, l'information literacy e la conoscenza reciproca tra culture diverse.",
+        "metodologia": "Attività interdisciplinari e laboratoriali, con focus su lettura critica, creazione di prodotti digitali e integrazione culturale. Coinvolgimento di studenti di tutte le età.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Intercultura"
+        ],
+        "target": "Studenti di tutte le età",
+        "citazione_ptof": "La Biblioteca si configura come luogo di incontro delle culture... favorendo la conoscenza reciproca.",
+        "pagina_evidenza": "Pagina 106"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:10:56.657050",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "bd672ab8-7b50-4c32-bc30-40b2247d7d59",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Animatore Digitale Interno",
+        "descrizione": "Un docente interno svolge il ruolo di animatore digitale, coordinando la formazione interna, promuovendo una cultura digitale condivisa e realizzando soluzioni innovative. Collabora con il DSA e il Dirigente per implementare il PNSD.",
+        "metodologia": "Coordinamento di corsi di formazione, utilizzo di strumenti digitali (Google Apps, Edmodo), partecipazione a progetti nazionali e community di riferimento.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente e studenti",
+        "citazione_ptof": "L’animatore digitale non viene individuato come professionista esterno... svolge funzioni di coordinamento e innovazione.",
+        "pagina_evidenza": "Pagina 108"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:10:56.657099",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "c27527db-813d-47fc-8899-ee326fc4df76",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Partecipazione a Codeweek e Ora del Codice",
+        "descrizione": "Iniziative annuali per promuovere il coding e il pensiero computazionale, con attività aperte al territorio e sperimentazione di tecnologie innovative nella didattica.",
+        "metodologia": "Eventi strutturati su Codeweek, laboratori di coding, creazione di prodotti digitali studenteschi, collaborazione con enti esterni.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti e comunità locale",
+        "citazione_ptof": "L'azione si articola in attività che coinvolgono gli alunni... con iniziative aperte al territorio e la sperimentazione di nuove tecnologie.",
+        "pagina_evidenza": "Pagina 105"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:10:56.657141",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "30769d9d-bd60-4271-be0d-3c04e5eb3823",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Valutazione Quadrimestrale Strutturata",
+        "descrizione": "Implementazione di una valutazione periodica quadrimestrale con 4 livelli di acquisizione obiettivi, conforme all'OM 172/4. Standardizzazione delle prove in ingresso, in itinere e finali per monitorare l'evoluzione degli apprendimenti.",
+        "metodologia": "Utilizzo di prove standardizzate e rubriche valutative condivise tra i docenti, deliberati in Collegio. Monitoraggio continuo con scadenze definite.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "Dopo aver deliberato in sede di Collegio la valutazione con scadenza quadrimestrale, sono stati predisposti i 4 livelli che indicano l'acquisizione dei singoli obiettivi di apprendimento.",
+        "pagina_evidenza": "Pagina 115"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:12:11.315201",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "475d23fe-842f-4a68-80aa-c4361a941635",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Valutazione del Comportamento basata su Competenze di Cittadinanza",
+        "descrizione": "Attribuzione collegiale del giudizio comportamentale con riferimento allo Statuto studentesco e al Patto educativo. Valutazione sintetica che considera lo sviluppo delle competenze di cittadinanza.",
+        "metodologia": "Coinvolgimento del Consiglio di Interclasse e utilizzo di rubriche valutative condivise, in linea con il D. lgs 62/2017.",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Educazione Civica"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "La valutazione del comportamento degli studenti viene attribuita collegialmente dai docenti del Consiglio di Interclasse, essa è espressa da un giudizio sintetico riportato nel documento di valutazione.",
+        "pagina_evidenza": "Pagina 116"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:12:11.315362",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "9906380c-6ad1-43c9-8150-f4b0bd8b1348",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piano Educativo Individualizzato (PEI) Multidisciplinare",
+        "descrizione": "Redazione di PEI unico per i tre ordini di scuola, realizzato in collaborazione tra docenti specializzati e curricolari. Inclusione di misure di sostegno, risorse e tempi personalizzati, con aggiornamenti periodici.",
+        "metodologia": "Coinvolgimento del GLO (Gruppo di Lavoro Operativo) con genitori, specialisti ASL e rappresentanti esterni. Documento dinamico con verifica continua.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con disabilità, DSA, BES",
+        "citazione_ptof": "Il PEI è redatto entro il primo bimestre, con caratteristiche di fattibilità, flessibilità e fruibilità, e periodicamente verificato.",
+        "pagina_evidenza": "Pagina 121"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:12:11.315388",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "af6e4ac2-a021-4ff1-89b3-4131ef583476",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Recupero e Potenziamento con Cooperative Learning",
+        "descrizione": "Attività di recupero e potenziamento in gruppi omogenei/eterogenei, utilizzando cooperative learning, tutoring e semplificazione dei contenuti. Monitoraggio dei risultati con corsi pomeridiani.",
+        "metodologia": "Apprendimento collaborativo in classe e laboratori integrati, con analisi di situazioni vicine ai vissuti degli studenti.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti con lacune di base e con attitudini disciplinari",
+        "citazione_ptof": "Le attività di recupero utilizzano il tutoring, il cooperative Learning, la semplificazione dei contenuti e l'analisi di situazioni vicine ai vissuti quotidiani.",
+        "pagina_evidenza": "Pagina 118"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:12:11.315409",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "a2539baa-d8bf-47e7-bef0-7c619f495329",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piano Annuale per l'Inclusione (PAI)",
+        "descrizione": "Documento che valuta i bisogni educativi degli studenti, organizza interventi personalizzati e monitora i risultati. Include piani educativi individualizzati e collaborazione con le famiglie per garantire continuità didattica.",
+        "metodologia": "Implementato attraverso la definizione di criteri educativi condivisi con le famiglie e la raccolta di piani individualizzati per studenti con BES o disabilità.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con bisogni educativi speciali e loro famiglie",
+        "citazione_ptof": "Il PAI è un documento che assicura l'attuazione di un approccio didattico-educativo unilaterale e permette di monitorare l’efficacia degli strumenti messi in atto.",
+        "pagina_evidenza": "Pagina 134"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:13:26.442071",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "e4571cf2-26b6-432e-a571-6066dfbc0c74",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piano per la Didattica Digitale Integrata (DDI)",
+        "descrizione": "Strutturato seguendo le Linee guida del MIUR, prevede l'uso di strumenti digitali per migliorare l'apprendimento e garantire flessibilità didattica, con attenzione all'emergenza sanitaria.",
+        "metodologia": "Implementato attraverso l'adeguamento degli ambienti di apprendimento e la formazione dei docenti sull'uso delle tecnologie digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Tutti gli studenti e il personale docente",
+        "citazione_ptof": "Il Piano Scolastico per la Didattica Digitale Integrata viene delineato seguendo le disposizioni del D.M. 7 agosto 2020, n. 89.",
+        "pagina_evidenza": "Pagina 135"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:13:26.442200",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "8543ea2a-22ab-4496-b7d3-9c547c974d6a",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Organizzazione delle Funzioni Strumentali",
+        "descrizione": "Struttura organizzativa con 5 aree di intervento (Inclusione, Valutazione, Continuità, Progettualità) gestite da Funzioni Strumentali per coordinare attività didattiche e gestionali.",
+        "metodologia": "Coordinamento centralizzato delle aree tematiche attraverso Funzioni Strumentali nominate annualmente dal Collegio dei Docenti.",
+        "tipologie_metodologia": [
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione",
+          "Progetti e Attività Esemplari"
+        ],
+        "target": "Personale docente e non docente",
+        "citazione_ptof": "Il Collegio dei Docenti ha individuato 5 aree di intervento per le Funzioni Strumentali al Piano dell’Offerta Formativa.",
+        "pagina_evidenza": "Pagina 136"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:13:26.442223",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fcd89064-a832-48d4-9d92-56d0dfebaa18",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Gruppo di Lavoro per l'Inclusione (GLI)",
+        "descrizione": "Gruppo dedicato a coordinare attività di integrazione e inclusione scolastica, con focus su studenti stranieri e con disabilità, attraverso protocolli di accoglienza e formazione del personale.",
+        "metodologia": "Attività di formazione del personale e definizione di pratiche condivise per l'accoglienza e l'educazione interculturale.",
+        "tipologie_metodologia": [
+          "Intercultura"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri e con disabilità",
+        "citazione_ptof": "Il GLI opera su tematiche specifiche come l'integrazione e l'inclusione scolastica.",
+        "pagina_evidenza": "Pagina 136"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:13:26.442243",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "26dea81f-712f-4711-91f2-d6e23645a11e",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Team Digitale per il PNSD",
+        "descrizione": "Gruppo che supporta l'Animatore Digitale nell'attuazione del Piano Nazionale Scuola Digitale, con focus sull'innovazione tecnologica e la formazione dei docenti.",
+        "metodologia": "Collaborazione tra team digitale e animatore digitale per implementare strumenti tecnologici e promuovere workshop formativi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Personale docente e studenti",
+        "citazione_ptof": "Il team digitale coadiuva l'animatore digitale nell'attuazione delle indicazioni del PNSD.",
+        "pagina_evidenza": "Pagina 140"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:13:26.442262",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "6a3b7d49-337f-47e5-b59b-cca9d8f7039d",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Rete 'Per Una Scuola Possibile' con Istituto di Aradeo",
+        "descrizione": "Collaborazione con scuole per sperimentare percorsi didattici inclusivi e formazione su metodologie per alunni disabili e BES. Progettazione di ambienti di apprendimento inclusivi.",
+        "metodologia": "Sperimentazione di approcci didattici centrati sull'inclusione, corsi di formazione per docenti, progettazione partecipata di spazi educativi.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica per Competenze"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Finalità: sperimentazione di percorsi didattici per l’inclusione e programmazione di corsi di formazione sulle metodologie per alunni disabili e BES.",
+        "pagina_evidenza": "Pagina 153"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:14:33.768801",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "a17c9685-074a-45c0-9aec-c350880d7ecd",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Convenzione con Università del Salento",
+        "descrizione": "Collaborazione per tirocini formativi, ricerche su bullismo e cyberbullismo, e progetti di educazione ambientale. Inclusione di studenti universitari in attività scolastiche.",
+        "metodologia": "Attivazione di tirocini, partecipazione a ricerche quantitative, integrazione di contenuti scientifici in progetti educativi.",
+        "tipologie_metodologia": [
+          "Research-Action",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti universitari e alunni",
+        "citazione_ptof": "Finalità: realizzazione di tirocini formativi, partecipazione a questionari su bullismo e collaborazione in progetti PON FSE.",
+        "pagina_evidenza": "Pagina 154"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:14:33.768973",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "27d08b82-cc52-4c70-aa70-76124ec102ea",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Progetto 'A scuola di robotica'",
+        "descrizione": "Formazione docenti su pensiero computazionale e logica elaborativa attraverso robot e coding. Integrazione di strumenti digitali in attività didattiche.",
+        "metodologia": "Laboratori pratici con robot, attività di coding unplugged e plugged, peer review tra docenti per condivisione di esperienze.",
+        "tipologie_metodologia": [
+          "Coding e Pensiero Computazionale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Formazione su dinamiche del pensiero computazionale e logica elaborativa con robot e coding.",
+        "pagina_evidenza": "Pagina 166"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:14:33.769004",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "2b02e6cd-ee4c-451a-9be9-539c9d744b59",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto 'Davide' per alunni in contesti familiari disagiati",
+        "descrizione": "Supporto psicosociale e didattico a studenti con fragilità familiari o sociali. Creazione di relazioni rispettose delle differenze e superamento di stereotipi.",
+        "metodologia": "Interventi di ascolto psicologico, attività di gruppo per costruzione identitaria, collaborazione con enti territoriali per risorse specifiche.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Alunni in contesti familiari disagiati",
+        "citazione_ptof": "Progetto a sostegno di alunni provenienti da ambienti familiari e/o sociali disagiati.",
+        "pagina_evidenza": "Pagina 162"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:14:33.769037",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "4a68caf5-ca54-4dc7-b660-88850c7e75f9",
+      "school": {
+        "codice_meccanografico": "LEMM84302E",
+        "nome": "G. Macchi Giurdignano",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Puglia",
+        "provincia": "Lecce",
+        "comune": "Giurdignano",
+        "area_geografica": "Sud",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Convenzione con Comuni di Uggiano, Otranto e Giurdignano",
+        "descrizione": "Collaborazione per progetti sugli edifici scolastici, sportelli di psicologia e realizzazione di progetti PON FSE. Integrazione di risorse territoriali.",
+        "metodologia": "Progettazione congiunta di interventi infrastrutturali e sociali, utilizzo di fondi europei per attività educative.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti e staff scolastico",
+        "citazione_ptof": "Finalità: realizzazione di progetti sugli edifici scolastici e sportello di ascolto di psicologia.",
+        "pagina_evidenza": "Pagina 155"
+      },
+      "contesto": {
+        "maturity_index": 4.13,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Comuni di Uggiano La Chiesa, Otranto, Giurdignano"
+        ],
+        "attivita_correlate": [
+          "Progetti di ampliamento dell'offerta formativa per le competenze di cittadinanza",
+          "Prenditi e vola - La forza dei giorni a colori (bullismo e cyberbullismo)",
+          "Io Riesco - Personalizzazione degli ambienti di apprendimento e della didattica",
+          "Corso di approfondimento sulla storia del territorio",
+          "Concerti, Saggi, Concorsi, Manifestazioni",
+          "Progetti di Educazione alla Cittadinanza Globale",
+          "Tutti insieme per lo Sport",
+          "Progetto Cyberbullismo",
+          "Sportello di ascolto e Progetti di Educazione all’affettività",
+          "Formazione sulle Biblioteche scolastiche"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T17:14:33.769054",
+        "model_used": "qwen3:32b",
+        "source_file": "LEMM84302E_ptof.md",
+        "chunk_source": 9
       }
     }
   ]

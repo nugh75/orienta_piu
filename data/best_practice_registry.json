@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T17:02:54.694478",
+  "last_updated": "2025-12-28T17:14:33.870387",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -132,6 +132,12 @@
       "file_hash": "sha256:086ddf3735dd872a5012f5c69f211e0910c11db613d538c11c6bf7a408900551",
       "processed_at": "2025-12-28T17:02:54.694469",
       "practices_count": 34,
+      "model_used": "qwen3:32b"
+    },
+    "LEMM84302E": {
+      "file_hash": "sha256:ef34929ac7759439523157b6d7ffab03c80920862b3bab15f122d33b041384b6",
+      "processed_at": "2025-12-28T17:14:33.870378",
+      "practices_count": 42,
       "model_used": "qwen3:32b"
     }
   }

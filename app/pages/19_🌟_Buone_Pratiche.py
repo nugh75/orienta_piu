@@ -481,6 +481,18 @@ def residuals_from_table(observed, expected):
 # === MAIN PAGE ===
 st.title("🌟 Catalogo Buone Pratiche")
 
+st.markdown(
+    """
+### Legenda emoji (categorie)
+- 📚 Metodologie Didattiche Innovative
+- 🎯 Progetti e Attività Esemplari
+- 🤝 Partnership e Collaborazioni Strategiche
+- ⚙️ Azioni di Sistema e Governance
+- 🌈 Buone Pratiche per l'Inclusione
+- 🗺️ Esperienze Territoriali Significative
+"""
+)
+
 # Carica dati
 data = load_practices()
 practices = data.get("practices", [])
