@@ -9,7 +9,7 @@ import streamlit as st
 
 from match_engine import FAMILY_PREFERENCE_WEIGHTS, match_for_families
 from page_control import setup_page
-from data_utils import render_footer
+from data_utils import render_footer, TIPI_SCUOLA
 
 st.set_page_config(page_title="ORIENTA+ | Scegli la Tua Scuola", page_icon="🎓", layout="wide")
 setup_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
@@ -138,7 +138,7 @@ def step_one(df: pd.DataFrame) -> None:
     st.write("Rispondi a poche domande: ti guideremo verso le scuole più adatte.")
 
     regioni = sorted([r for r in df.get("regione", pd.Series(dtype=str)).dropna().unique() if str(r) not in ("", "ND")])
-    tipo_scuola_options = ["Liceo", "Tecnico", "Professionale"]
+    tipo_scuola_options = list(TIPI_SCUOLA)
     preferenze = list(FAMILY_PREFERENCE_WEIGHTS.keys())
 
     with st.form("family_step_one"):
