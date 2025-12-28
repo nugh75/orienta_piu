@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:29:26.526916",
+  "last_updated": "2025-12-28T19:41:07.603032",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -198,6 +198,18 @@
       "file_hash": "sha256:0133c100790c56ab5e78a5bd06fe9784753d45b89263efd1fa5a72caefd7b8e8",
       "processed_at": "2025-12-28T19:29:26.526907",
       "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "TPTD00251R": {
+      "file_hash": "sha256:3d41240a4bab7ffe6639d7d8498e08227138b537d31513939c604edadff5d946",
+      "processed_at": "2025-12-28T19:35:46.082936",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "COAA81301E": {
+      "file_hash": "sha256:4b448264f26ace0c8058320c5592d601832f0fcd3f5c9e6518db6735cd3889db",
+      "processed_at": "2025-12-28T19:41:07.603021",
+      "practices_count": 18,
       "model_used": "qwen3:32b"
     }
   }

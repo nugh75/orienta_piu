@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:29:26.527903",
+  "last_updated": "2025-12-28T19:41:07.605029",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1668,
-  "schools_processed": 33,
+  "total_practices": 1706,
+  "schools_processed": 35,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -94377,6 +94377,2294 @@
         "model_used": "qwen3:32b",
         "source_file": "PRIS00200Q_ptof.md",
         "chunk_source": 8
+      }
+    },
+    {
+      "id": "99dc6809-1130-4230-86e5-fcd4a9da4c8f",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Comune di Partanna e Fablab G55",
+        "descrizione": "Attività di seminari e percorsi formativi sulle nuove professioni e autoimprenditorialità, realizzati in collaborazione con il Comune di Partanna e il coworking Fablab G55. Obiettivo: avvicinare i giovani al mondo del lavoro e alla creazione di start-up.",
+        "metodologia": "Seminari tematici, laboratori pratici e progetti di autoimprenditorialità con coinvolgimento diretto di enti locali e imprese.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Orientamento"
+        ],
+        "target": "Studenti del territorio",
+        "citazione_ptof": "Con il Comune di Partanna, attraverso le attività del coworking fablab G55, sono state realizzate una serie di iniziative e seminari sulle nuove professioni del futuro...",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:30:58.695692",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "5605b5b9-e06c-4e76-9956-cd2d00a58117",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso per adulti in Amministrazione, Finanza e Marketing",
+        "descrizione": "Percorso di istruzione di secondo livello per adulti, attivo dal 2018-2019, che permette di conseguire un diploma di scuola superiore in ambito economico. Risponde ai bisogni di coloro che desiderano riprendere gli studi.",
+        "metodologia": "Didattica modulare e personalizzata, con focus su competenze pratiche e applicazioni concrete.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti adulti",
+        "citazione_ptof": "Dall’anno scolastico 2018-2019, è in atto il percorso di istruzione di secondo livello per adulti in Amministrazione, Finanza e Marketing...",
+        "pagina_evidenza": "Pagina 6"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:30:58.695844",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "9086b10f-e643-4327-a3fc-57a017a7f378",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Implementazione di metodologie attive e laboratoriali",
+        "descrizione": "Adozione di metodologie come flipped classroom, cooperative learning e peer-to-peer per potenziare competenze linguistiche, STEM e digitali. Inclusione di prove comuni e laboratori didattici per simulazioni di prove Invalsi.",
+        "metodologia": "Progettazione didattica interdisciplinare con attività di gruppo, utilizzo di piattaforme digitali e laboratori pratici.",
+        "tipologie_metodologia": [
+          "Flipped Classroom",
+          "Cooperative Learning",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Matematica e Logica",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Individuazione nella programmazione didattica di metodologie didattiche innovative (flipped class, cooperative learning, peer to peer)...",
+        "pagina_evidenza": "Pagina 20"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:30:58.695868",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "4026e011-5643-4b1f-a564-e4e4ab9b95e8",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Utilizzo di piattaforme didattiche dedicate",
+        "descrizione": "Implementazione di piattaforme digitali per la gestione dell'apprendimento, la condivisione di risorse e la valutazione continua degli studenti.",
+        "metodologia": "Integrazione di strumenti digitali nella didattica quotidiana, con monitoraggio e feedback in tempo reale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Utilizzo di piattaforme didattiche dedicate",
+        "pagina_evidenza": "Pagina 23"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:30:58.695925",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "bf604c18-73d9-4d57-9748-00950525e5fa",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Stage Linguistici per Certificazione",
+        "descrizione": "Attivazione di stage linguistici finalizzati alla certificazione prioritariamente per la lingua inglese, con focus su competenze linguistiche avanzate e riconoscimento formale.",
+        "metodologia": "Implementazione di percorsi formativi mirati con valutazione finale attraverso certificazioni riconosciute.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Attivazione di stage linguistici finalizzati alla certificazione prioritariamente per la lingua inglese.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:32:26.439522",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e62cc878-4100-4f6f-9397-ef4877adacbd",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratori STEM Innovativi",
+        "descrizione": "Potenziamento delle discipline STEM attraverso laboratori innovativi e spazi digitali dedicati, con strumenti tecnologici per migliorare l'apprendimento pratico.",
+        "metodologia": "Utilizzo di laboratori interdisciplinari e strumenti digitali per attività hands-on e problem solving.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Potenziamento delle discipline STEM attraverso l'implementazione e la realizzazione di laboratori innovativi e di spazi e strumenti digitali dedicati.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:32:26.439676",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "40b37d62-8edf-4d43-bf1d-ad639eb6d9dd",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazioni Informatiche Miur",
+        "descrizione": "Potenziamento dei percorsi per il conseguimento di certificazioni informatiche riconosciute dal Miur, con focus su competenze digitali rilevanti per il mercato del lavoro.",
+        "metodologia": "Percorsi formativi strutturati con valutazione finale attraverso certificazioni ufficiali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Potenziamento dei percorsi per il conseguimento delle certificazioni informatiche riconosciute dal Miur.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:32:26.439704",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e45d6016-6728-4f4e-8c85-bdfe6736a564",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piattaforme per Prevenzione Cyberbullismo",
+        "descrizione": "Fruizione di piattaforme digitali per il contrasto alla dispersione scolastica e al cyberbullismo, con interventi educativi mirati.",
+        "metodologia": "Utilizzo di strumenti digitali per monitorare e prevenire fenomeni di disagio sociale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Cittadinanza e Legalità"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Fruizione piattaforme digitali per il contrasto alla dispersione scolastica e al cyberbullismo.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:32:26.439725",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "e65d0078-cb66-4dea-9c70-bb53b404a18f",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piattaforme per Educazione Civica",
+        "descrizione": "Fruizione di piattaforme per la progettazione di percorsi di Educazione Civica e potenziamento delle competenze di base, con focus su cittadinanza attiva.",
+        "metodologia": "Implementazione di percorsi interdisciplinari attraverso strumenti digitali e attività partecipative.",
+        "tipologie_metodologia": [
+          "Educazione Civica",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Fruizione di piattaforme per la progettazione di percorsi di Educazione Civica e per il potenziamento delle competenze di base.",
+        "pagina_evidenza": "Pagina 22"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:32:26.439745",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "003d895c-0aad-4768-88fe-0e801f16f96e",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso Sicurezza Lavorativa Miur",
+        "descrizione": "Percorso formativo annuale in modalità telematica sulla sicurezza nei luoghi di lavoro, con certificazione rilasciata. Coinvolge enti pubblici e prevede valutazione strutturata.",
+        "metodologia": "Formazione a distanza con moduli teorico-pratici e certificazione finale",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti della scuola secondaria di II grado",
+        "citazione_ptof": "Corso Sulla Sicurezza Miur: percorso base relativo alla sicurezza nei luoghi di lavoro con certificazione",
+        "pagina_evidenza": "Pagina 74"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:33:41.705493",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "251d9964-1542-45fd-a3ee-ee2e95c64b9e",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Orientamento In Uscita con Esperti",
+        "descrizione": "Incontri annuali con esperti del mondo del lavoro, università e forze dell'ordine in modalità telematica o in presenza per orientare gli studenti",
+        "metodologia": "Attività di confronto e condivisione esperienziale con professionisti",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti ultimi anni della scuola secondaria",
+        "citazione_ptof": "Incontri con esperti del mondo del lavoro, dell'università e delle forze dell'ordine",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:33:41.705651",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "3fad8d31-073f-418d-ba18-a8d8ef21d4b3",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Sportello Energia e Sostenibilità",
+        "descrizione": "Progetto di 35 ore che analizza abitudini energetiche delle famiglie e promuove efficientamento energetico attraverso indagini sul territorio",
+        "metodologia": "Indagine partecipativa e formazione e-learning con focus sulle buone pratiche domestiche",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Sportello energia (35 ore): analisi sulle abitudini delle famiglie in tema di efficientamento energetico",
+        "pagina_evidenza": "Pagina 75"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:33:41.705698",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "06bfa4f3-7fae-4e20-90b6-d76927527112",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Mentor Me - Formazione Tecnica",
+        "descrizione": "Percorso di 25 ore in e-learning per sviluppare competenze in climatizzazione, automazione industriale e meccatronica con attività operative",
+        "metodologia": "Apprendimento basato su simulazioni virtuali e progetti di orientamento tecnico",
+        "tipologie_metodologia": [
+          "Mentoring",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "STEM/STEAM",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti interessati a settori tecnico-industriali",
+        "citazione_ptof": "Mentor Me (25 ore): percorso formativo per sviluppo competenze tecniche in climatizzazione e meccatronica",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:33:41.705719",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "78798335-76f7-439b-a246-cab90da69342",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gocce di Sostenibilità",
+        "descrizione": "Percorso di 25 ore per acquisire conoscenze su sostenibilità ambientale ispirato al movimento climatico globale",
+        "metodologia": "Formazione interdisciplinare con approccio rivoluzionario alla sensibilizzazione ambientale",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Storytelling"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Gocce di sostenibilità (25 ore): percorso formativo ispirato al moto di rivoluzione del pianeta",
+        "pagina_evidenza": "Pagina 76"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:33:41.705747",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "a9636635-2915-46ee-8f16-b672210b8f34",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi Laboratoriali STEM",
+        "descrizione": "5 percorsi di attività laboratoriali per sviluppare competenze scientifiche, matematiche e informatiche. Utilizzano laboratori di chimica, fisica, informatica e aule dotate di internet. Obiettivo: ridurre il 10% degli alunni con sospensione del giudizio in STEM.",
+        "metodologia": "Attività esperienziali in laboratori con metodologie attive e cooperative, supportate da strumenti digitali.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Scienze e Ricerca",
+          "Matematica e Logica"
+        ],
+        "target": "Gruppi classe",
+        "citazione_ptof": "N. 5 percorsi di attività laboratoriali ed esperenziali per lo sviluppo delle competenze in ambito scientifico, matematico ed informatico",
+        "pagina_evidenza": "Pagina 82"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:34:56.128539",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "79370cb7-963a-4e4d-a683-e78a7eeafe84",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi di Cittadinanza Attiva",
+        "descrizione": "9 percorsi tematici con esperti su parità di genere, bullismo, ambiente e patrimonio culturale. Obiettivo: sviluppare competenze in cittadinanza democratica e prevenzione del disagio.",
+        "metodologia": "Incontri con esperti, seminari e riflessioni interculturali, con metodologie partecipative.",
+        "tipologie_metodologia": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Intercultura"
+        ],
+        "target": "Gruppi classe",
+        "citazione_ptof": "N. 9 percorsi con approfondimenti tematici, incontri e seminari con esperti sulle tematiche di cittadinanza attiva",
+        "pagina_evidenza": "Pagina 83"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:34:56.128694",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "bd1cd11b-f599-42c8-8084-e4f0843ee3c6",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Istruzione Domiciliare per Alunni Fragili",
+        "descrizione": "Progetto per alunni con patologie che richiedono ospedalizzazione o terapie domiciliari, con percorsi individualizzati e collaborazione con servizi socio-sanitari.",
+        "metodologia": "Didattica personalizzata a distanza, con supporto di esperti esterni e risorse digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Alunni con patologie",
+        "citazione_ptof": "Progetto di didattica per alunni fragili con certificate patologie che prevedono l'ospedalizzazione o terapie domiciliari",
+        "pagina_evidenza": "Pagina 87"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:34:56.128739",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "ff5b9c28-9d83-41b1-8277-ccdccecfce13",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Green con Serra Idroponica",
+        "descrizione": "Costruzione di una serra idroponica controllata tramite domotica per insegnare sostenibilità, bioeconomia e competenze green. Collegamento con l'Agenda 2030.",
+        "metodologia": "Progetto interdisciplinare con attività pratiche in laboratorio e didattica esperienziale.",
+        "tipologie_metodologia": [
+          "Sostenibilità e Ambiente",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Creazione di una serra di coltivazione idroponica controllata attraverso la domotica",
+        "pagina_evidenza": "Pagina 91"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:34:56.128760",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "1cc39db5-0a6c-4c6a-81ba-ffcb2696109c",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorsi di Approfondimento Disciplinare",
+        "descrizione": "5 percorsi per potenziare le competenze nelle discipline di indirizzo, con focus su lingue straniere (CLIL) e STEM. Obiettivo: migliorare i risultati scolastici e ridurre sospensioni del giudizio.",
+        "metodologia": "Metodologie integrate (CLIL) e laboratoriali, con attività di potenziamento mirate.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Scienze e Ricerca"
+        ],
+        "target": "Gruppi classe",
+        "citazione_ptof": "N. 5 percorsi per l'approfondimento delle discipline di indirizzo dei corsi di studio",
+        "pagina_evidenza": "Pagina 84"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:34:56.128778",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "31b31c0b-3d4a-4be9-b81d-d535bdc52c79",
+      "school": {
+        "codice_meccanografico": "TPTD00251R",
+        "nome": "Ist.Tec. Econ. -Perc. Ii Livello -Salemi",
+        "tipo_scuola": "Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Sicilia",
+        "provincia": "Trapani",
+        "comune": "Salemi",
+        "area_geografica": "Isole",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Partnership con Università e Altre Scuole",
+        "descrizione": "La scuola partecipa a reti di scopo collaborando con università e altre scuole, assumendo il ruolo di partner per sviluppare progetti congiunti e condividere risorse educative.",
+        "metodologia": "Collaborazione strutturata attraverso accordi formali per progetti educativi e scambio di competenze.",
+        "tipologie_metodologia": [],
+        "ambiti_attivita": [],
+        "target": "Scuola, studenti, docenti",
+        "citazione_ptof": "Ruolo assunto dalla scuola nella rete: Partner rete di scopo",
+        "pagina_evidenza": "Pagina 109"
+      },
+      "contesto": {
+        "maturity_index": 3.33,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 1
+        },
+        "partnership_coinvolte": [
+          "Università",
+          "Altre scuole"
+        ],
+        "attivita_correlate": [
+          "PCTO con enti locali",
+          "Seminari autoimprenditorialità",
+          "Corso Sulla Sicurezza Miur",
+          "Orientamento In Uscita",
+          "Agenda 2030 - Sostenibilita' Ed Economia",
+          "Mentor Me",
+          "A2A - Viaggio nel mondo della transizione energetica",
+          "Chimica farmaceutica e biochimica industriale",
+          "Unicredit - startup your life",
+          "Laboratori Green, Sostenibili E Innovativi Per Le Scuole Del Secondo Ciclo"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:35:46.052989",
+        "model_used": "qwen3:32b",
+        "source_file": "TPTD00251R_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "133b6d1d-6089-48ed-bcbb-fc4bcb8f2768",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Definizione di rubriche per la valutazione delle competenze",
+        "descrizione": "Elaborazione di rubriche specifiche per valutare le competenze degli alunni in uscita da scuola dell'infanzia, primaria e secondaria di primo grado, in base ai modelli sperimentali MIUR. Obiettivo: standardizzare la valutazione e migliorare la qualità degli apprendimenti.",
+        "metodologia": "Sviluppo collaborativo tra docenti, utilizzo di criteri MIUR, adattamento alle esigenze locali e applicazione nelle classi terminali (classe V primaria, classe III secondaria).",
+        "tipologie_metodologia": [
+          "Valutazione e Autovalutazione"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Orientamento"
+        ],
+        "target": "Alunni di scuola primaria e secondaria",
+        "citazione_ptof": "Sperimentazione del modello di valutazione delle competenze MIUR per la SP e SS I gr. Elaborazione di rubriche per la valutazione delle competenze per SI, SP, SS I gr.",
+        "pagina_evidenza": "Pagina 13"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:37:02.621004",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1878728e-f891-4457-a5b6-5a5581a25451",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Piano di formazione del personale docente e ATA",
+        "descrizione": "Strutturazione di un piano formativo triennale per il personale docente e non docente, con obiettivi di aggiornamento metodologico, tecnologico e organizzativo. Inclusione di questionari di ricaduta per monitorare l'efficacia.",
+        "metodologia": "Erogazione di corsi tematici, workshop, e analisi quantitativa/qualitativa dei risultati attraverso indicatori (partecipazione, soddisfazione, applicazione pratica).",
+        "tipologie_metodologia": [
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Digitalizzazione"
+        ],
+        "target": "Personale docente e ATA",
+        "citazione_ptof": "Presentazione del Piano di formazione del personale docente al CdD. Elaborazione di un questionario di ricaduta ed efficacia delle iniziative di formazione.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:37:02.621137",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "d8e8ca98-3e6e-4ea6-a0be-7e56fa94ebb0",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Monitoraggio personalizzato dei PDP per alunni con BES",
+        "descrizione": "Implementazione di una checklist per verificare la realizzazione dei Piani Didattici Personalizzati (PDP) degli alunni con Bisogni Educativi Speciali. Incontro periodico tra docenti di sostegno, specialisti e famiglie per valutare l'efficacia delle misure adottate.",
+        "metodologia": "Utilizzo di strumenti di tracciamento (checklist), analisi qualitativa delle attività svolte, coinvolgimento delle famiglie in incontri strutturati.",
+        "tipologie_metodologia": [
+          "Inclusione e BES"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Alunni con BES e loro famiglie",
+        "citazione_ptof": "Elaborazione di una check list per monitorare la realizzazione dei PDP. Almeno 1 incontro di verifica del PEI degli alunni tra docenti di sostegno e genitori/specialisti.",
+        "pagina_evidenza": "Pagina 17"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:37:02.621155",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "acb66631-580f-4b6e-9b10-66b6a815d270",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curricolo d'Istituto in chiave orientativa",
+        "descrizione": "Definizione di un curricolo trasversale che integri obiettivi formativi per facilitare il passaggio tra scuola primaria e secondaria di primo grado, riducendo il tasso di insuccesso nel primo anno della secondaria di secondo grado.",
+        "metodologia": "Progettazione partecipata del curricolo, analisi dei bisogni educativi, integrazione di attività di orientamento nel percorso didattico.",
+        "tipologie_metodologia": [
+          "Orientamento"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Alunni in transizione tra scuola primaria e secondaria",
+        "citazione_ptof": "Sviluppare un curricolo d'Istituto in chiave orientativa per abbassare il tasso di insuccesso nel primo anno della SS II tendenzialmente sotto il 27%.",
+        "pagina_evidenza": "Pagina 11"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:37:02.621171",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "55a81e8e-23c1-423e-96c4-2b55d2e653fb",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Educazione Civica con Macroaree Tematiche",
+        "descrizione": "Progetto strutturato intorno a tre macroaree (Cittadinanza e Istituzioni, Ambiente e Territorio, Orientamento) con attività interdisciplinari integrate nel curricolo. Include approfondimenti su Costituzione, istituzioni europee, Agenda 2030, legalità e cittadinanza digitale.",
+        "metodologia": "Progettazione interdisciplinare con divisione flessibile delle ore, coinvolgimento di esperti e progetti esistenti (educazione ambientale, legalità).",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Educazione Civica",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti della scuola secondaria di I grado",
+        "citazione_ptof": "Per l'anno scolastico in corso... sono state individuate tre MACROAREE di riferimento: Cittadinanza e Istituzioni, Ambiente e Territorio, Orientamento.",
+        "pagina_evidenza": "Pagina 30-31"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:38:27.593986",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "b46021e8-57d0-44cb-a2bc-7bc5ffa4bc2d",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Lettura Verticale e Multiforme",
+        "descrizione": "Iniziativa che collega scuola dell'infanzia, primaria e secondaria attraverso attività come biblioteche animate, gare di lettura, laboratori di scrittura, incontri con autori e progetti intergenerazionali (es. peer education con fiabe). Include concorsi e donazioni di libri.",
+        "metodologia": "Approccio verticale con attività differenziate per età, peer education e collaborazione con biblioteche e famiglie.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Project Work",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Lettura e Scrittura",
+          "Arte e Creatività",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti di tutte le età e famiglie",
+        "citazione_ptof": "Il progetto parte nella scuola dell’infanzia... laboratori di lettura, scambi epistolari con altre scuole, incontri con autori.",
+        "pagina_evidenza": "Pagina 33-35"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:38:27.594131",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "1efe0b82-5a49-4a97-8dc9-648525ff1cb3",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Legalità con Consiglio Comunale dei Ragazzi",
+        "descrizione": "Iniziativa che include la creazione di un consiglio comunale studentesco, progetti partecipati (es. costruzione di uno stagno), e incontri con esperti (es. Davide Calella su mafia). Promuove la consapevolezza civica e sociale.",
+        "metodologia": "Metodi partecipativi con progettazione studentesca e coinvolgimento di figure esterne.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Prevenzione Disagio"
+        ],
+        "target": "Studenti della scuola secondaria",
+        "citazione_ptof": "Si prevedono le seguenti attività: consiglio comunale dei ragazzi, progettazione partecipata... incontro con Davide Calella sulla Mafia.",
+        "pagina_evidenza": "Pagina 39-40"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:38:27.594158",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "c0c203d0-17d6-4be0-a09a-59d09d92d066",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Progetto Generazione Connesse con MIUR",
+        "descrizione": "Collaborazione con il MIUR per implementare una policy di e-safety partecipata, prevenzione cyberbullismo e integrazione delle TIC nella didattica. Include aggiornamenti periodici e coinvolgimento della comunità scolastica.",
+        "metodologia": "Costruzione di una policy condivisa con la comunità scolastica e formazione su temi digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti, docenti e famiglie",
+        "citazione_ptof": "Il progetto 'Generazioni connesse'... dotarsi di una e-policy d’istituto per l’utilizzo consapevole della rete.",
+        "pagina_evidenza": "Pagina 35-37"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:38:27.594179",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "8240c1d8-578f-4bd5-9985-854a07b4dd23",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Life Skills Training per Prevenzione Sostanze",
+        "descrizione": "Programma scientificamente validato per prevenire l'abuso di sostanze, sviluppando competenze personali, sociali e di resistenza. Include gestione dello stress, comunicazione efficace e resistenza alle pressioni sociali.",
+        "metodologia": "Metodi basati su attività interattive e role-playing per sviluppare abilità trasversali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Gamification"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Benessere e Salute"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "Il programma agisce sulle tre componenti... competenze personali, abilità sociali, abilità di resistenza all’uso di sostanze.",
+        "pagina_evidenza": "Pagina 36"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:38:27.594203",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "d1a9ccfa-1db3-44da-a2c9-90bfc6f97e31",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazione ECDL per Competenze Digitali",
+        "descrizione": "Il progetto ECDL media prevede attività curricolari integrate con il Syllabus ECDL e corsi pomeridiani per la certificazione europea, con moduli su competenze digitali di base (Computer Essentials, Word Processing, ecc.).",
+        "metodologia": "Integrazione curricolare e training pomeridiano con test automatizzati per valutare competenze digitali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento"
+        ],
+        "target": "Studenti della scuola secondaria di primo grado",
+        "citazione_ptof": "L’istituto aderisce al Progetto ECDL media con attività curricolari e corsi pomeridiani per la certificazione europea.",
+        "pagina_evidenza": "Pagina 41-43"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:39:51.719495",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "74f411e8-0c3f-44e1-a598-b1293ea71f0a",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Corso Potenziamento Lingua Inglese con Trinity",
+        "descrizione": "Corsi di 30 ore con insegnante madrelingua e curricolare, mirati a migliorare competenze orali e comprensione, non solo alla certificazione internazionale.",
+        "metodologia": "Interazione con madrelingua e attività di produzione orale in contesti reali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti delle classi 3-5 primaria e secondaria",
+        "citazione_ptof": "Corsi di potenziamento con madrelingua per migliorare abilità di comunicazione e comprensione in inglese.",
+        "pagina_evidenza": "Pagina 42-44"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:39:51.719642",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "a69ace5f-1c57-4c7f-bdca-1c6ce7299deb",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Progetto Educazione Ambientale con Parco Spina Verde",
+        "descrizione": "Percorsi annuali per tutte le classi (dall'infanzia alla secondaria) sul territorio lariano, con attività su sostenibilità, riciclo e conservazione ambientale.",
+        "metodologia": "Lavoro sul campo con esperti del Parco e progetti di cittadinanza attiva come 'Cortile pulito'.",
+        "tipologie_metodologia": [
+          "Outdoor Education",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Tutti gli studenti del comprensivo",
+        "citazione_ptof": "Percorsi annuali per sensibilizzare alla conservazione del Parco Spina Verde e alla sostenibilità.",
+        "pagina_evidenza": "Pagina 43-45"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:39:51.719680",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "fae3bdbb-f87d-4b1f-b9c5-8068d6217aa6",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Corso di Alfabetizzazione per Alunni NAI",
+        "descrizione": "Attività per studenti non italiani (NAI) per acquisire competenze linguistiche orali e scritte in contesti quotidiani, facilitando l'integrazione scolastica.",
+        "metodologia": "Approccio comunicativo con focus su situazioni reali di vita quotidiana.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Intercultura"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Alunni NAI",
+        "citazione_ptof": "Corso per facilitare l’apprendimento dell’italiano orale e scritto in contesti quotidiani.",
+        "pagina_evidenza": "Pagina 45-47"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:39:51.719700",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "4d7bab28-fea9-4689-9e0e-c81d10e57ce7",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Counseling Psicologico Scolastico",
+        "descrizione": "Supporto psicologico per studenti con difficoltà relazionali o emozionali, gestito da psicologi esterni per promuovere il benessere e prevenire il disagio.",
+        "metodologia": "Ascolto attivo e interventi mirati per affrontare problematiche legate alla crescita adolescenziale.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Prevenzione Disagio"
+        ],
+        "ambiti_attivita": [
+          "Prevenzione Disagio",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti della secondaria di primo grado",
+        "citazione_ptof": "Progetto per prevenire il disagio e supportare il benessere scolastico con psicologi esterni.",
+        "pagina_evidenza": "Pagina 44-46"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:39:51.719719",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "51747b6c-8159-401c-bbec-e980ae8c7166",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piano Educativo Individualizzato (PEI) strutturato",
+        "descrizione": "Redazione annuale del PEI con obiettivi, metodi e criteri di valutazione definiti in collaborazione con equipe psico-socio-sanitaria, famiglia e scuola. Include progetti terapeutici, di socializzazione e didattici, con verifiche intermedie e finali.",
+        "metodologia": "Collaborazione tra scuola, servizi esterni e famiglie; definizione di obiettivi personalizzati e attività specifiche con tempi di stesura definiti (30 novembre, metà anno, fine maggio).",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Didattica Individualizzata"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti con disabilità e BES, famiglie, equipe educativa",
+        "citazione_ptof": "Il PEI viene redatto congiuntamente dalla scuola e dai Servizi (Equipe Psico-Sociosanitaria) con la collaborazione della Famiglia.",
+        "pagina_evidenza": "Pagina 55"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:41:07.566561",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "e43e49b4-7e36-470d-88f1-35fb69b8d9cd",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Coinvolgimento attivo delle famiglie",
+        "descrizione": "Famiglie coinvolte nella definizione degli obiettivi e strategie del PEI, con attività di formazione su genitorialità e partecipazione a progetti di inclusione e promozione della comunità educante.",
+        "metodologia": "Incontri strutturati tra scuola, famiglie e equipe; formazione tematica e partecipazione a progetti inclusivi.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Rapporti con Famiglie"
+        ],
+        "target": "Famiglie di studenti con disabilità, studenti BES",
+        "citazione_ptof": "Coinvolgimento in progetti di inclusione e attività di promozione della comunità educante.",
+        "pagina_evidenza": "Pagina 57"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:41:07.566717",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "48a01759-e250-4017-bf5c-a7de767c5612",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Unità di Valutazione Multidisciplinare",
+        "descrizione": "Interventi condivisi con equipe multidisciplinari per la definizione di progetti individuali e procedure standardizzate per disabilità e disagio, in collaborazione con associazioni e scuole polo.",
+        "metodologia": "Procedure condivise e analisi del profilo di funzionamento; progetti integrati a livello territoriale e scolastico.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti con disabilità, equipe educative, enti territoriali",
+        "citazione_ptof": "Procedure condivise di intervento sulla disabilità e progetti territoriali integrati.",
+        "pagina_evidenza": "Pagina 58"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:41:07.566757",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 4
+      }
+    },
+    {
+      "id": "2eb652f7-ad51-4b4b-95b6-e5017f5aa7fb",
+      "school": {
+        "codice_meccanografico": "COAA81301E",
+        "nome": "Como/Prestino",
+        "tipo_scuola": "Infanzia",
+        "ordine_grado": "Infanzia",
+        "regione": "Lombardia",
+        "provincia": "Como",
+        "comune": "Como",
+        "area_geografica": "Nord Ovest",
+        "territorio": "Non Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Piano Didattica Digitale Integrata",
+        "descrizione": "Sviluppo di linee guida per l'uso sostenibile della didattica digitale, basate sull'esperienza della pandemia e su un quadro pedagogico condiviso, con focus su strumenti tecnologici e metodologie innovative.",
+        "metodologia": "Analisi dei bisogni e definizione di assi portanti per l'agire didattico, con integrazione tecnologica e formazione del personale.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti, studenti, personale scolastico",
+        "citazione_ptof": "Il piano per la didattica integrata del nostro istituto nasce dopo ampia e condivisa riflessione sull'uso e la sostenibilità della didattica digitale integrata.",
+        "pagina_evidenza": "Pagina 59"
+      },
+      "contesto": {
+        "maturity_index": 3.84,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 3
+        },
+        "partnership_coinvolte": [
+          "Unità di valutazione multidisciplinare",
+          "Associazioni di riferimento",
+          "GLIR/GIT/Scuole polo"
+        ],
+        "attivita_correlate": [
+          "Progetto Lettura",
+          "Progetto Educazione in Movimento",
+          "Progetto Generazione Connesse",
+          "Progetto Primo Soccorso",
+          "Progetto Orientamento",
+          "Coloriamo Il Nostro Futuro",
+          "Scuole Che Promuovono Salute",
+          "Rete Contro Il Cyberbullismo",
+          "Competenze: Provalo",
+          "Rete Provinciale Legalità"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:41:07.566777",
+        "model_used": "qwen3:32b",
+        "source_file": "COAA81301E_ptof.md",
+        "chunk_source": 4
       }
     }
   ]
