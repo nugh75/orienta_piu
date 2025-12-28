@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:41:07.605029",
+  "last_updated": "2025-12-28T19:47:09.775036",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1706,
-  "schools_processed": 35,
+  "total_practices": 1721,
+  "schools_processed": 36,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -96665,6 +96665,900 @@
         "model_used": "qwen3:32b",
         "source_file": "COAA81301E_ptof.md",
         "chunk_source": 4
+      }
+    },
+    {
+      "id": "67952643-0b47-4534-9c76-0707b22b87bb",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Implementazione di metodologie CLIL e cooperative learning",
+        "descrizione": "La scuola adotta metodologie didattiche innovative come CLIL (Content and Language Integrated Learning), cooperative learning, flipped classroom e peer to peer per migliorare l'apprendimento e le competenze degli studenti.",
+        "metodologia": "Le metodologie vengono integrate nelle unità di apprendimento condivise, utilizzando strumenti di valutazione come rubriche e prove di realtà.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Cooperative Learning",
+          "Flipped Classroom",
+          "Peer Education/Tutoring"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Diffusione e condivisione di didattica innovativa (metodologia CLIL, cooperative learning, classe capovolta, peer to peer).",
+        "pagina_evidenza": "Pagina 10"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:43:08.170763",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "2f3181ad-8058-43ac-b3b7-fa931030b05d",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Ready for Europe con certificazioni Trinity e Cambridge",
+        "descrizione": "Il progetto prevede corsi extracurriculari per la preparazione alle certificazioni linguistiche Trinity College London e Cambridge English, con gruppi trasversali di studenti e docenti madrelingua.",
+        "metodologia": "Corsi di potenziamento linguistico in orario extracurricolare, con monitoraggio iniziale, in itinere e finale per valutare i risultati.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti da terza primaria a terza secondaria",
+        "citazione_ptof": "L’attività è tesa al potenziamento delle abilità orali e comunicative... con esami finali a fine maggio/inizio giugno.",
+        "pagina_evidenza": "Pagina 18-19"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:43:08.170907",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "ee069241-6abe-4cd4-ab25-39039c51b255",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Laboratori di Italiano L2 per studenti stranieri",
+        "descrizione": "Attivazione di laboratori curriculari ed extracurriculari per il recupero e il potenziamento della lingua italiana, con focus sull'integrazione sociale e culturale.",
+        "metodologia": "Laboratori a classi aperte e di sostegno diffuso, con attività mirate alla comprensione testuale e alla comunicazione.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Intercultura"
+        ],
+        "target": "Studenti stranieri e di seconda generazione",
+        "citazione_ptof": "Attivazione di laboratori di Italiano L2 in orario curricolare o extracurricolare... per favorirne l’inclusione sociale.",
+        "pagina_evidenza": "Pagina 17"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:43:08.170962",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "1d5cee28-9b40-42cd-89df-82f09173a6ba",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Curricolo di Educazione Civica con focus sostenibilità e cittadinanza digitale",
+        "descrizione": "Progettazione di unità di apprendimento interdisciplinari per promuovere la cittadinanza globale, lo sviluppo sostenibile e l'uso consapevole delle tecnologie.",
+        "metodologia": "Costruzione di unità di apprendimento con rubriche di valutazione e compiti di realtà, coinvolgendo più discipline.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti di tutti gli ordini di scuola",
+        "citazione_ptof": "Costruzione di unità di apprendimento per classi parallele... con focus su Costituzione, sviluppo sostenibile e cittadinanza digitale.",
+        "pagina_evidenza": "Pagina 15-16"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:43:08.170987",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "8d7406ab-dd67-4de0-90ff-2756efe37203",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Utilizzo di piattaforme digitali per didattica inclusiva",
+        "descrizione": "Impiego di Google Workspace e software SupermappeX per supportare la didattica inclusiva e la gestione delle competenze degli studenti.",
+        "metodologia": "Piattaforma didattica gratuita con risorse multimediali e strumenti per studenti con bisogni educativi speciali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "La connettività è distribuita tramite LAM e VLAN... Software specialistico per la didattica inclusiva SupermappeX.",
+        "pagina_evidenza": "Pagina 9"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:43:08.171007",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "7cadfbb4-c9c9-4adb-867e-a1f1c5f85313",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Aggiornamento Curricolo Verticale Europeo",
+        "descrizione": "Aggiornamento del curricolo verticale in base alle competenze chiave europee 2018, con ridefinizione di competenze come 'Alfabetica funzionale' e 'Cittadinanza'.",
+        "metodologia": "Lavoro di gruppi interdisciplinari coordinati da FS area 1, con integrazione di competenze metodologiche e disciplinari.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Digitalizzazione"
+        ],
+        "target": "Docenti e studenti di entrambi gli ordini di scuola",
+        "citazione_ptof": "aggiornamento del Curricolo verticale... ridefinite alcune competenze e ne vengono ridisegnati gli ambiti",
+        "pagina_evidenza": "Pagina 25"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:44:24.762928",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "17b333e2-c764-4514-bcec-2298be0ffded",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Europa Incanto (Musica Lirica)",
+        "descrizione": "Percorso di apprendimento musicale con laboratori lirici, kit didattico e spettacolo teatrale per avvicinare studenti e famiglie all'opera lirica.",
+        "metodologia": "Laboratori in classe con cantanti lirici, utilizzo di APP e libro didattico, coinvolgimento famiglie nel finale teatrale.",
+        "tipologie_metodologia": [
+          "Storytelling",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Musica e Teatro"
+        ],
+        "target": "Studenti scuola primaria e famiglie",
+        "citazione_ptof": "percorso di apprendimento si sviluppa con un primo momento dedicato alla formazione dei docenti... concludersi con un coinvolgente spettacolo in Teatro",
+        "pagina_evidenza": "Pagina 28"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:44:24.763027",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "34645e1e-b065-450e-bd5e-8ce176520ae2",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Accreditamento Erasmus Plus KA121",
+        "descrizione": "Accreditamento per formazione docenti all'estero con disseminazione di buone pratiche attraverso attività SOFT CLIL e piattaforma eTwinning.",
+        "metodologia": "Collaborazione internazionale con scuole europee, utilizzo di metodologie CLIL e digitali per progetti interculturali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Intercultura",
+          "Lingue Straniere"
+        ],
+        "target": "Docenti e studenti",
+        "citazione_ptof": "Monitorare la disseminazione e la condivisione delle buone pratiche... attraverso la piattaforma eTwinning",
+        "pagina_evidenza": "Pagina 27"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:44:24.763052",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "a519e98f-3ad7-49a1-9591-d15868d354cd",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Progetto Istruzione Domiciliare",
+        "descrizione": "Percorsi personalizzati per studenti con patologie gravi, con didattica a distanza e piano didattico adattato alle esigenze sanitarie.",
+        "metodologia": "Piani didattici individualizzati, utilizzo di tecnologie digitali e collaborazione tra scuola, famiglie e strutture sanitarie.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti con patologie gravi",
+        "citazione_ptof": "garantire a tutti la possibilità reale di fruizione del diritto-dovere all’istruzione... con l’uso delle tecnologie e di un’efficace didattica a distanza",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:44:24.763074",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "36dba276-eeb2-4fac-aea0-69f9a1a1dc57",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Certificazione Linguistica Trinity/Cambridge",
+        "descrizione": "Corsi extracurriculari per preparazione agli esami GESE e KEY, con docenti madrelingua e monitoraggio continuo dei risultati.",
+        "metodologia": "Corsi in orario extracurricolare con focus su abilità orali, valutazione finale con esami certificati e feedback continuo.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti da terza primaria a terza secondaria",
+        "citazione_ptof": "corsi di potenziamento di lingua inglese in preparazione agli esami GESE e l’esame KEY",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:44:24.763095",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "509e53a6-a68d-4e97-9432-ceee07b91271",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Valutazione descrittiva a quattro livelli",
+        "descrizione": "La scuola primaria utilizza un sistema di valutazione basato su quattro livelli (avanzato, intermedio, base, in via di prima acquisizione) con giudizi descrittivi, evitando voti numerici. Questo permette di rappresentare in modo trasparente i processi cognitivi e sociali degli studenti.",
+        "metodologia": "I docenti valutano il livello di acquisizione degli obiettivi annuali in base a quattro dimensioni: autonomia, risorse, tipologia di situazione e continuità, come definito nelle Linee guida ministeriali.",
+        "tipologie_metodologia": [
+          "Valutazione per l'apprendimento"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Studenti della scuola primaria",
+        "citazione_ptof": "I docenti valutano, per ciascun alunno, il livello di acquisizione dei singoli obiettivi... sono individuati quattro livelli di apprendimento: avanzato; intermedio; base; in via di prima acquisizione.",
+        "pagina_evidenza": "Pagina 41"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:45:40.921734",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "e0876ec2-7dcd-4ebf-9f79-3aaee64e7f7a",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Strategie di supporto per studenti in difficoltà",
+        "descrizione": "La scuola secondaria adotta strategie personalizzate per gli alunni con livelli parzialmente raggiunti, considerando l’interesse, l’impegno e i progressi rispetto alla situazione iniziale, anche per studenti con disabilità.",
+        "metodologia": "La valutazione integra il voto decimale con una descrizione del processo, tenendo conto di elementi qualitativi come la partecipazione e i progressi minimi.",
+        "tipologie_metodologia": [
+          "Valutazione per l'apprendimento"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES"
+        ],
+        "target": "Studenti con difficoltà e diversamente abili",
+        "citazione_ptof": "La valutazione, soprattutto per gli alunni maggiormente in difficoltà, tiene conto dell’interesse e della partecipazione... e dei progressi anche minimi rispetto alla situazione di partenza.",
+        "pagina_evidenza": "Pagina 42"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:45:40.921899",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "b5ba2d1a-3d1a-44d3-8786-23d8aa6f68a7",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Autoformazione docenti per prove efficaci",
+        "descrizione": "I docenti partecipano a percorsi di autoformazione per migliorare la qualità delle prove di valutazione, includendo strumenti tradizionali e autentici per misurare conoscenze, abilità e competenze.",
+        "metodologia": "Collaborazione tra docenti per progettare e testare nuove metodologie di valutazione, con focus su prove autentiche e contestualizzate.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Valutazione autentica"
+        ],
+        "ambiti_attivita": [
+          "Formazione Docenti",
+          "Valutazione e Autovalutazione"
+        ],
+        "target": "Docenti di scuola primaria e secondaria",
+        "citazione_ptof": "I docenti sono coinvolti in percorsi di autoformazione per la definizione e il miglioramento della qualità delle prove da somministrare (valutazioni tradizionali e autentiche / valutazione di conoscenze e abilità e competenze).",
+        "pagina_evidenza": "Pagina 42"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:45:40.921920",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "7b8738f2-ac90-4a8e-9ca5-130978e98be3",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Certificazione competenze europee",
+        "descrizione": "L’istituto implementa un modello di certificazione delle competenze basato sulle otto competenze-chiave dell’Unione Europea, con focus su connessioni interdisciplinari e sviluppo sostenibile.",
+        "metodologia": "Integrazione delle competenze europee nel curricolo, con valutazione finale che certifica l’acquisizione di abilità come cittadinanza, imprenditorialità e consapevolezza culturale.",
+        "tipologie_metodologia": [
+          "Curricolo verticale"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti del primo ciclo",
+        "citazione_ptof": "La scuola finalizza il curricolo alla maturazione delle competenze previste nel profilo dello studente al termine del primo ciclo di istruzione, competenze che sono fondamentali per la crescita personale e per la partecipazione sociale.",
+        "pagina_evidenza": "Pagina 47"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:45:40.921939",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "6a667253-0e38-40f7-8c45-fc2029909f1c",
+      "school": {
+        "codice_meccanografico": "RMMM856011",
+        "nome": "Cervi F.Lli",
+        "tipo_scuola": "I Grado",
+        "ordine_grado": "I Grado",
+        "regione": "Lazio",
+        "provincia": "Roma",
+        "comune": "Roma",
+        "area_geografica": "Centro",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Ammissione progressiva con strategie di recupero",
+        "descrizione": "La scuola primaria e secondaria ammette gli studenti alla classe successiva anche con livelli parzialmente raggiunti, attivando interventi mirati per colmare le lacune.",
+        "metodologia": "Comunicazione tempestiva alle famiglie e attivazione di piani di recupero personalizzati, con monitoraggio continuo del progresso.",
+        "tipologie_metodologia": [
+          "Monitoraggio e feedback"
+        ],
+        "ambiti_attivita": [
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti di scuola primaria e secondaria",
+        "citazione_ptof": "Gli alunni della scuola primaria sono ammessi alla classe successiva... La scuola adotta specifiche strategie di intervento al fine di migliorare i livelli di apprendimento.",
+        "pagina_evidenza": "Pagina 41"
+      },
+      "contesto": {
+        "maturity_index": 4.19,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Trinity College London",
+          "Cambridge English",
+          "Associazione Incontralaltro"
+        ],
+        "attivita_correlate": [
+          "Certificazione Trinity College London",
+          "Progetto Erasmus Plus",
+          "Progetto Musica MIUR",
+          "Ready For Europe",
+          "Progetto Istruzione Domiciliare",
+          "Educazione Civica",
+          "Corsi di potenziamento di lingua inglese",
+          "Corsi di ceramica",
+          "Corso di lettura e dizione"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:45:40.921957",
+        "model_used": "qwen3:32b",
+        "source_file": "RMMM856011_ptof.md",
+        "chunk_source": 3
       }
     }
   ]
