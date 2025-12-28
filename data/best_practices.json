@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-28T19:58:06.870383",
+  "last_updated": "2025-12-28T20:11:47.439188",
   "extraction_model": "qwen3:32b",
-  "total_practices": 1754,
-  "schools_processed": 37,
+  "total_practices": 1794,
+  "schools_processed": 38,
   "practices": [
     {
       "id": "ba94c9c0-38df-4bff-87ae-a6bfcd07f91e",
@@ -99497,6 +99497,2376 @@
         "model_used": "qwen3:32b",
         "source_file": "TRMM045005_ptof.md",
         "chunk_source": 8
+      }
+    },
+    {
+      "id": "2d8c3c30-bc05-428e-a36e-fe6842ef6976",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Rete di Collaborazioni con Enti Territoriali",
+        "descrizione": "La scuola ha intessuto una rete di rapporti con enti territoriali (Comune, Regione, ASL), università (Alma Mater Studiorum), associazioni culturali e professionali, favorendo un'offerta formativa integrata con il contesto socioeconomico.",
+        "metodologia": "Collaborazioni strutturate attraverso accordi istituzionali e progetti congiunti con enti locali, università e associazioni culturali.",
+        "tipologie_metodologia": [
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti, docenti, enti territoriali",
+        "citazione_ptof": "Con queste realtà l’Istituto ha intessuto una rete di rapporti e collaborazioni che contribuiscono ad insediare profondamente l’offerta formativa nel contesto in cui la scuola vive.",
+        "pagina_evidenza": "Pagina 5"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:59:54.065583",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "767229ee-dbd5-48fc-bfb2-f1105500f0eb",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Laboratori Multimediali e Scientifici",
+        "descrizione": "Dotazione di laboratori avanzati (fisica, chimica, informatica, lingue) e aule multimediali con LIM, videoproiettori e strumenti tecnologici per favorire un apprendimento interattivo e pratico.",
+        "metodologia": "Utilizzo di laboratori attrezzati e tecnologie digitali per attività didattiche sperimentali e cooperative.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Numerosi e moderni laboratori: di lingue, fisica, chimica, scienze, topografia, costruzioni e informatica, oltre ad aule multimediali con lavagne interattive.",
+        "pagina_evidenza": "Pagina 7"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:59:54.065749",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "e7e69d67-8bc3-46d5-823b-bad00044b409",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Unità di Apprendimento Interdisciplinari",
+        "descrizione": "Progettazione di unità di apprendimento interdisciplinari per migliorare competenze di base (matematica, italiano, inglese) e favorire un apprendimento significativo.",
+        "metodologia": "Sviluppo di percorsi didattici integrati tra discipline, con focus su strategie di insegnamento allineate ai processi cognitivi degli studenti.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Matematica e Logica"
+        ],
+        "target": "Studenti del biennio",
+        "citazione_ptof": "Progettare Unità di Apprendimento interdisciplinari; utilizzare strategie didattiche di insegnamento maggiormente in linea con i processi di apprendimento.",
+        "pagina_evidenza": "Pagina 18"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:59:54.065802",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "f7db7da5-6920-4f81-89ae-fdeace4f6172",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Metodologia CLIL nel Triennio",
+        "descrizione": "Applicazione della metodologia CLIL (Content and Language Integrated Learning) per insegnare materie curricolari in lingua straniera, migliorando competenze linguistiche e disciplinari.",
+        "metodologia": "Integrazione di contenuti disciplinari e lingua straniera in contesti didattici reali, con focus su comunicazione e pensiero critico.",
+        "tipologie_metodologia": [
+          "CLIL"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti del triennio",
+        "citazione_ptof": "Incoraggiare la pratica della lingua straniera attraverso la diffusione della metodologia CLIL nel triennio.",
+        "pagina_evidenza": "Pagina 14"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:59:54.065825",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "23bfd133-657d-4134-8546-f507215ad0f9",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Didattica Digitale per Studenti con BES",
+        "descrizione": "Utilizzo di strumenti tecnologici e didattica personalizzata per supportare studenti con bisogni educativi speciali, valorizzando le loro potenzialità attraverso percorsi individualizzati.",
+        "metodologia": "Implementazione di tecnologie assistive e attività didattiche adattate alle esigenze specifiche, con coinvolgimento di tutor e servizi territoriali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Mentoring"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti con BES",
+        "citazione_ptof": "Favorire tramite la didattica digitale l'inclusione degli alunni con bisogni specifici di apprendimento, valorizzando le potenzialità di ogni studente.",
+        "pagina_evidenza": "Pagina 19"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T19:59:54.065865",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 1
+      }
+    },
+    {
+      "id": "d1c640f9-07fe-48bb-af30-172f617e2c28",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Integrazione metodologie attive nei curricula",
+        "descrizione": "La scuola implementa metodologie attive (problem-based learning, project-based learning) nei curricula tradizionali, rafforzando la condivisione di pratiche comuni tra docenti e migliorando l'apprendimento inclusivo per studenti a rischio dispersione.",
+        "metodologia": "Le metodologie vengono integrate nella programmazione curricolare attraverso laboratori, lavori di gruppo e approcci work-based learning, con focus su competenze trasversali e digitali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Project Work",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "L’utilizzo delle metodologie attive nella programmazione dei curricula rappresentano strumenti aggiuntivi alle metodologie tradizionali.",
+        "pagina_evidenza": "Pagina 27"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:00:56.478049",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "89574001-ee32-4bf1-a360-bc2e7d924160",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Piano Scuola 4.0 - Next Generation Classroom",
+        "descrizione": "Trasformazione delle aule tradizionali in ambienti innovativi di apprendimento inclusivi e flessibili, integrando tecnologie e pedagogie innovative per migliorare l’offerta formativa e le competenze digitali degli studenti.",
+        "metodologia": "Progettazione di spazi flessibili con tecnologie digitali, laboratori interdisciplinari e approcci pedagogici centrati sull’apprendimento attivo.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Project Work",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Orientamento",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Azione 1-Next generation classroom: progettazione di classi come ambienti innovativi di apprendimento inclusivi e flessibili.",
+        "pagina_evidenza": "Pagina 28"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:00:56.478203",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "24367ef3-4964-4c91-94f8-0da06808618e",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Next Generation Labs per Professioni Digitali",
+        "descrizione": "Realizzazione di laboratori dedicati alle professioni digitali future, con focus su competenze specifiche e trasversali attraverso osservazione diretta, lavori di gruppo e realizzazione di prodotti/servizi.",
+        "metodologia": "Attività laboratoriali basate su project-based learning e work-based learning, con utilizzo di strumenti tecnologici e collaborazione tra studenti.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Work Based Learning",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Imprenditorialità",
+          "Orientamento"
+        ],
+        "target": "Studenti",
+        "citazione_ptof": "Azione 2-Next generation labs: realizzazione di laboratori per le professioni digitali del futuro.",
+        "pagina_evidenza": "Pagina 28"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:00:56.478226",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "c835a508-d6cf-48cc-a1bb-b722a31922c4",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Competenze STEM e Multilinguistiche",
+        "descrizione": "Potenziamento delle competenze STEM e linguistiche attraverso corsi di approfondimento, con focus su problem-solving, tecnologie innovative e parità di genere, finanziato dal D.M. 65/2023.",
+        "metodologia": "Corsi extracurriculari e attività interdisciplinari che combinano metodologie STEM con approccio CLIL (Content and Language Integrated Learning).",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "CLIL",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Lingue Straniere",
+          "Orientamento"
+        ],
+        "target": "Studenti, docenti",
+        "citazione_ptof": "Progetto: Competenze STEM e di linguaggio: insieme verso nuove 'teste ben fatte'.",
+        "pagina_evidenza": "Pagina 29"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:00:56.478247",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "ebc3bf81-88f6-455d-9efa-131bd9ed8fd4",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Formazione docenti alla didattica digitale",
+        "descrizione": "Attività di formazione per il personale scolastico finalizzate alla transizione digitale, con coinvolgimento della comunità scolastica per potenziare l’innovazione didattica e digitale.",
+        "metodologia": "Workshop e corsi di formazione mirati all’uso consapevole delle tecnologie e all’applicazione di metodologie innovative in classe.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Formazione Docenti"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Formazione Docenti"
+        ],
+        "target": "Docenti",
+        "citazione_ptof": "Promuovere azioni formative per il raggiungimento dei target dell'investimento 2.1 'Didattica digitale integrata'.",
+        "pagina_evidenza": "Pagina 30"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:00:56.478288",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 2
+      }
+    },
+    {
+      "id": "27508f07-fab9-4540-816e-d31a1ac7182f",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetti di Animazione Sociale Inclusiva",
+        "descrizione": "Realizzazione di attività educative, ludiche e culturali personalizzate per bambini, anziani e persone con disabilità, promuovendo autonomia e integrazione sociale attraverso metodologie partecipative e cooperative.",
+        "metodologia": "Attività strutturate in collaborazione con equipe multidisciplinari, utilizzando approcci laboratoriali e progettuali per rispondere a bisogni specifici delle utenze fragili.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità",
+          "Sport e Benessere"
+        ],
+        "target": "Studenti dei corsi di Servizi Sociali e Sanitari",
+        "citazione_ptof": "realizzare, in autonomia o in collaborazione con altre figure professionali, attività educative, di animazione sociale, ludiche e culturali adeguate ai diversi contesti e ai diversi bisogni",
+        "pagina_evidenza": "Pagina 45"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:02:09.579644",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "89a2b48d-2e9b-4c1a-83e1-faf0880630b0",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Percorsi di Autonomia Residuale",
+        "descrizione": "Interventi mirati per potenziare le capacità residue di persone con disabilità o non autosufficienza, attraverso l'allestimento personalizzato dell'ambiente di vita e l'uso di ausili tecnologici.",
+        "metodologia": "Applicazione di tecniche di adattamento ambientale e dispositivi di supporto, con valutazione continua delle esigenze individuali.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti in formazione socio-assistenziale",
+        "citazione_ptof": "curare l'allestimento dell'ambiente di vita della persona in difficoltà con riferimento alle misure per la salvaguardia della sua sicurezza e incolumità",
+        "pagina_evidenza": "Pagina 45"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:02:09.579702",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "2ef04540-043a-4cb3-b503-8deadc094ef8",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Gestione di Reti Territoriali Sociali",
+        "descrizione": "Coordinamento di reti formali e informali per l'assistenza a minori a rischio, persone con disagio psicosociale e soggetti svantaggiati, integrando risorse locali e servizi pubblici/privati.",
+        "metodologia": "Utilizzo di strumenti di mappatura territoriale e collaborazione interistituzionale per progettare interventi mirati.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti del settore Servizi Sociali",
+        "citazione_ptof": "gestire azioni di informazione e di orientamento dell'utente per facilitare l'accessibilità e la fruizione autonoma dei servizi pubblici e privati presenti sul territorio",
+        "pagina_evidenza": "Pagina 45"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:02:09.579723",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "1048289e-969e-4037-9177-a9f205643eb1",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Interdisciplinare per Educazione Civica",
+        "descrizione": "Implementazione di un curricolo trasversale di Educazione Civica, con coinvolgimento di docenti di diverse discipline per sviluppare competenze di cittadinanza attiva attraverso progetti interdisciplinari.",
+        "metodologia": "Coordinamento di attività da parte di un docente specializzato, con integrazione di contenuti da discipline giuridiche, storiche e sociali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Interdisciplinarietà"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Tutti gli studenti del secondo ciclo",
+        "citazione_ptof": "il curricolo di istituto di Educazione Civica... prevede un’impostazione interdisciplinare, coinvolgendo i Docenti di quasi tutte le discipline del consiglio di classe",
+        "pagina_evidenza": "Pagina 63"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:02:09.579741",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "7b9c77fe-b714-415f-8f4b-5f695665ccb7",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Monitoraggio e Valutazione con Strumenti Informativi",
+        "descrizione": "Utilizzo di piattaforme digitali per raccogliere, conservare e analizzare dati professionali, garantendo sicurezza e affidabilità delle fonti per la valutazione degli interventi socio-assistenziali.",
+        "metodologia": "Formazione specifica sull'uso di strumenti informatici e metodologie di analisi dati, con applicazione pratica in contesti reali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti del settore Servizi Sociali",
+        "citazione_ptof": "raccogliere, conservare, elaborare e trasmettere dati relativi alle attività professionali svolte ai fini del monitoraggio e della valutazione degli interventi",
+        "pagina_evidenza": "Pagina 45"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:02:09.579760",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 3
+      }
+    },
+    {
+      "id": "30d639ab-c646-4239-9711-250010b5b380",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione alla salute interdisciplinare",
+        "descrizione": "Integrazione di Diritto, Scienze e Italiano per insegnare gli effetti delle sostanze illecite e promuovere stili di vita sani. Utilizzo di dati scientifici e esperienze di volontariato sanitario.",
+        "metodologia": "Approccio interdisciplinare con laboratori pratici e analisi di casi reali, coinvolgendo scienze biologiche e fisiche per spiegare gli impatti sulla salute.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Sport e Benessere"
+        ],
+        "target": "Studenti delle classi I-V",
+        "citazione_ptof": "Conoscere i disturbi alimentari e adottare comportamenti salutari... partecipare a esperienze di volontariato nella assistenza sanitaria.",
+        "pagina_evidenza": "Pagina 82"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:04:49.205999",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "6615009e-5725-4a35-983a-c7e580a64c5d",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Analisi di politiche ambientali sostenibili",
+        "descrizione": "Coinvolgimento di Geografia, Economia e Scienze per studiare politiche di sviluppo sostenibile e ridurre l'impatto ecologico. Focus su consumo responsabile di acqua ed energia.",
+        "metodologia": "Progetti di ricerca con dati territoriali e simulazioni di modelli di consumo sostenibile, integrando tecnologie digitali per monitorare l'efficienza energetica.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti delle classi I-III",
+        "citazione_ptof": "Individuare azioni di riduzione dell’impatto ecologico... con un focus specifico su acqua ed energia.",
+        "pagina_evidenza": "Pagina 83"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:04:49.206155",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "155fe922-70c9-49a4-979e-98ccabd4b8c1",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Cittadinanza digitale critica",
+        "descrizione": "Formazione su gestione dell'identità digitale, protezione dei dati e rischi online (bullismo, cyberbullismo). Integrazione di Informatica e Diritto per insegnare normative sulla privacy.",
+        "metodologia": "Simulazioni di scenari digitali e analisi di casi concreti, utilizzando strumenti di coding per comprendere vulnerabilità tecnologiche.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti delle classi III-V",
+        "citazione_ptof": "Conoscere l’importanza del ‘Regolamento sulla privacy’... adottare misure di sicurezza per proteggere dati personali.",
+        "pagina_evidenza": "Pagina 95"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:04:49.206182",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "71dd3daa-c50c-496e-aef1-34771dbfe41f",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Tutela del patrimonio culturale locale",
+        "descrizione": "Progetti di salvaguardia del patrimonio artistico e ambientale attraverso tecnologie digitali (realtà virtuale) e partecipazione attiva (volontariato, ricerca).",
+        "metodologia": "Collaborazioni con enti locali per documentare beni culturali e creare contenuti digitali, coinvolgendo studenti in attività di mappatura e promozione.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Sostenibilità e Ambiente"
+        ],
+        "target": "Studenti della classe V",
+        "citazione_ptof": "Individuare progetti di salvaguardia del patrimonio... attraverso tecnologie digitali e realtà virtuali.",
+        "pagina_evidenza": "Pagina 88"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:04:49.206204",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "83543072-763a-47aa-b80e-5b28c3f594d3",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Educazione economica e finanziaria",
+        "descrizione": "Analisi di monete, investimenti e rischi finanziari con Diritto, Economia e Matematica. Sviluppo di competenze per gestire risorse personali e comprendere il ruolo delle banche.",
+        "metodologia": "Simulazioni di mercati finanziari e case study su inflazione, tassi d'interesse e strategie di investimento, integrando strumenti matematici e legali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Didattica Digitale"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti delle classi I-V",
+        "citazione_ptof": "Analizzare forme, funzioni e modalità d’impiego delle monete... valutare opportunità e rischi di investimenti.",
+        "pagina_evidenza": "Pagina 89"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:04:49.206223",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 5
+      }
+    },
+    {
+      "id": "4d0b9a6c-90a5-4950-b248-c807358dbc49",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Percorso Erasmus+ Mobilità Individuale",
+        "descrizione": "Programma di mobilità individuale Erasmus+ (KA1) per studenti e docenti, finalizzato all'apprendimento linguistico e alla crescita professionale attraverso esperienze internazionali.",
+        "metodologia": "Coinvolge studenti e docenti in esperienze di apprendimento all'estero, con focus su competenze linguistiche e interculturali.",
+        "tipologie_metodologia": [
+          "CLIL",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Lingue Straniere",
+          "Intercultura"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "Erasmus plus 2021/27 - Mobilità individuale ai fini dell’apprendimento (KA1)",
+        "pagina_evidenza": "Pagina 97"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:06:11.120842",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "8b796e40-d679-4ef9-a309-5de5de9e1cbb",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Laboratorio STEM con Arduino e Lego Strike",
+        "descrizione": "Attività laboratoriale integrata STEM utilizzando Arduino e Lego Strike per insegnare programmazione, fisica e matematica in modo interdisciplinare e coinvolgente.",
+        "metodologia": "Impiega strumenti tecnologici e metodologie attive (cooperative learning, problem solving) per sviluppare competenze STEM attraverso progetti pratici.",
+        "tipologie_metodologia": [
+          "STEM/STEAM",
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti delle classi seconde e terze",
+        "citazione_ptof": "Studiare attività legate all’utilizzo di 'Arduino' nella didattica della fisica e dell’informatica",
+        "pagina_evidenza": "Pagina 100"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:06:11.121026",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "2cabeccd-0b36-4eb8-81ad-6b9685367b98",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Modulo di Orientamento con Peer Education",
+        "descrizione": "Attività di orientamento per studenti del biennio gestite da tutor del triennio, con laboratori teatrali, educazione alla salute e stradale, e peer tutoring.",
+        "metodologia": "Utilizza la peer education per promuovere competenze sociali e di autovalutazione attraverso interazioni tra studenti di diverse classi.",
+        "tipologie_metodologia": [
+          "Peer Education/Tutoring",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Educazione Civica"
+        ],
+        "target": "Studenti delle classi prime e seconde",
+        "citazione_ptof": "Laboratori teatrali, Didattica orientativa, Educazione alla salute (incontri sulle dipendenze e sulla sessualità)",
+        "pagina_evidenza": "Pagina 104"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:06:11.121056",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "bb132226-e6ae-4373-9687-3a6cb77fc3b5",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Didattica Fenomenica con Simulazioni Sociali",
+        "descrizione": "Approccio didattico basato su situazioni problematiche reali (sanitarie, sociali) risolte dagli studenti attraverso ricerca e decision-making collaborativo.",
+        "metodologia": "Impiega lezioni fenomeniche e cooperative learning per sviluppare pensiero critico e competenze trasversali.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti delle classi quarte e quinte",
+        "citazione_ptof": "Presentazione di situazioni problematiche di stampo sociale e sanitario attraverso lezioni fenomeniche",
+        "pagina_evidenza": "Pagina 115"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:06:11.121078",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "a3519528-76d5-4b6f-927d-e1456c524356",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Collaborazione con Almaorienta e Almadiploma",
+        "descrizione": "Progetti di orientamento in collaborazione con Almaorienta e Almadiploma per supportare gli studenti nella scelta del percorso post-diploma.",
+        "metodologia": "Eventi informativi e webinar per guidare gli studenti verso opportunità universitarie, ITS e percorsi professionali.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Imprenditorialità"
+        ],
+        "target": "Studenti delle classi quinte",
+        "citazione_ptof": "Webinar Almaorienta - UniBo, corso di Orientamento attivo Università, ITS, IFTS, AFAM - UniBo",
+        "pagina_evidenza": "Pagina 107"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:06:11.121098",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 6
+      }
+    },
+    {
+      "id": "327cf150-0e04-48c2-963e-07155b8dac6a",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Business Game per Business Plan",
+        "descrizione": "Progetto in cui gli studenti creano un business plan per un'azienda scelta da loro, promuovendo competenze imprenditoriali e progettuali.",
+        "metodologia": "Attività laboratoriale con produzione di piani d'azienda, supervisione di esperti e simulazione di contesti reali.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Learning by Doing"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Orientamento"
+        ],
+        "target": "Studenti di classe V (5AFM/RIM-5SIA)",
+        "citazione_ptof": "Progetto ordine dottori commercialisti di Bologna in cui gli alunni produrranno un business plan su una azienda indicata da loro.",
+        "pagina_evidenza": "Pagina 128"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:07:51.718583",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "e16095a7-59c2-4485-8393-ca8b6ec4fc59",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Giornate Almaorienta dell'Università",
+        "descrizione": "Incontri di orientamento universitario organizzati dall'Alma Mater Studiorum per guidare gli studenti verso percorsi accademici.",
+        "metodologia": "Eventi strutturati con presentazioni, workshop e interazioni con rappresentanti accademici.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Università"
+        ],
+        "target": "Studenti di classe V (5AFM/RIM-5SIA)",
+        "citazione_ptof": "Giornate di orientamento di Ateneo organizzate dall’Alma Mater Studiorum.",
+        "pagina_evidenza": "Pagina 128"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:07:51.718758",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "ef3d11e3-7433-4828-8737-45cf40417c3b",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Esperienze Territoriali Significative",
+        "titolo": "Simulimpresa per Competenze Lavorative",
+        "descrizione": "Progetto di simulazione aziendale in classe terza per acquisire competenze organizzative e operative in contesti simulati.",
+        "metodologia": "Creazione di un'impresa simulata con ruoli definiti, gestione di attività quotidiane e valutazione delle competenze acquisite.",
+        "tipologie_metodologia": [
+          "Learning by Doing",
+          "Didattica Laboratoriale"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "PCTO/Alternanza"
+        ],
+        "target": "Studenti di classe III (AFM)",
+        "citazione_ptof": "Simulimpresa: costituzione e gestione di un’impresa simulata, solitamente svolto nella terza classe AFM.",
+        "pagina_evidenza": "Pagina 141"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:07:51.718795",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "be834450-6357-4dba-bc5d-183434e93f04",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Compilazione e-portfolio per Orientamento",
+        "descrizione": "Sviluppo di un portafolio digitale per riflettere su competenze, esperienze e progetti personali, facilitando l'autovalutazione e l'orientamento.",
+        "metodologia": "Utilizzo di strumenti tecnologici per documentare e analizzare progressi e obiettivi formativi.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Digitalizzazione"
+        ],
+        "target": "Studenti di classe V e III (5AFM/RIM-5SIA, 3BC-3CC-3AL)",
+        "citazione_ptof": "Sviluppo, attraverso la scrittura e l'utilizzo degli strumenti tecnologici, di processi riflessivi e auto-riflessivi, orientativi e auto-orientativi.",
+        "pagina_evidenza": "Pagina 130"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:07:51.718820",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "b61e9ea8-e2df-42f6-968d-27320edf344b",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Partnership e Collaborazioni Strategiche",
+        "titolo": "Iniziativa Camera di Commercio su Competenze Richieste",
+        "descrizione": "Progetto per illustrare ai studenti le competenze tecniche e soft skills richieste dal mercato del lavoro locale.",
+        "metodologia": "Lezioni e discussioni con rappresentanti dell'industria e della Camera di Commercio su tendenze occupazionali.",
+        "tipologie_metodologia": [
+          "Debate",
+          "Problem Based Learning"
+        ],
+        "ambiti_attivita": [
+          "Orientamento",
+          "Inclusione e BES"
+        ],
+        "target": "Studenti di classe V (5AFM/RIM-5SIA)",
+        "citazione_ptof": "Iniziativa della Camera di Commercio volta ad illustrare ai ragazzi i diplomi, le lauree e le soft skills richieste dalle imprese.",
+        "pagina_evidenza": "Pagina 130"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:07:51.718841",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 7
+      }
+    },
+    {
+      "id": "fed7e9e8-9a54-4225-9e6d-a03660ad0eab",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Rete Teatrale per l'Educazione Artistica",
+        "descrizione": "Progetto di ricerca-azione teatrale per approfondire il patrimonio artistico e letterario, coinvolgendo le classi in attività laboratoriali e spettacoli. Obiettivo: sviluppare competenze espressive e culturali attraverso il teatro.",
+        "metodologia": "Attività laboratoriali in classe con metodologie di ricerca-azione, collaborazione con esperti teatrali e produzione di spettacoli.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Arte e Creatività",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti delle classi partecipanti",
+        "citazione_ptof": "A) 'La scuola che educa - la rete teatrale' una rete a cui l'Istituto aderisce ed è partner con attività di ricerca-azione legate al teatro nelle classi...",
+        "pagina_evidenza": "Pagina 152"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:09:58.787403",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fd329265-e243-4b99-87fb-9f4a3b2db7d4",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Laboratorio Teatrale Inclusivo per Studenti con Disabilità",
+        "descrizione": "Progetto 'Per finta - per davvero' che utilizza il teatro come strumento di socializzazione e inclusione per studenti con disabilità, promuovendo l'integrazione attraverso attività creative e cooperative.",
+        "metodologia": "Attività laboratoriali teatrali adattate alle esigenze degli studenti, con supporto di docenti specializzati e peer tutoring.",
+        "tipologie_metodologia": [
+          "Didattica Laboratoriale",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti con disabilità",
+        "citazione_ptof": "A) Attività legate al Teatro, alla musica, alla socializzazione e alla inclusione: - 'Per finta - per davvero' con esperienze di laboratorio teatrale inclusivo dedicato a studenti con disabilità;",
+        "pagina_evidenza": "Pagina 153"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:09:58.787499",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "8968fac0-4a95-4f83-a38d-a7bc31bc71f2",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Progetto Cinema per Cittadinanza e Memoria",
+        "descrizione": "Visione e analisi di film per approfondire temi come cittadinanza, legalità e memoria, con uscite didattiche, cineforum e partecipazione a bandi. Obiettivo: sviluppare competenze critiche e senso di responsabilità sociale.",
+        "metodologia": "Visione di film seguita da dibattiti, laboratori di analisi cinematografica e progetti di partecipazione a concorsi.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Cittadinanza e Legalità",
+          "Arte e Creatività"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "F) 'Progetto cinema' la visione di film per l’approfondimento di tematiche centrali come cittadinanza, memoria, legalità con uscite didattiche, cineforum, partecipazione a bandi e progetti;",
+        "pagina_evidenza": "Pagina 152"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:09:58.787510",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "a721e524-017b-4491-b989-bbfa774e7a10",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Next Generation Classroom - Ambienti di Apprendimento Innovativi",
+        "descrizione": "Trasformazione di aule in ambienti digitali con arredi modulari, digital board e laboratori STEM per favorire didattica interattiva e inclusiva. Obiettivo: migliorare gli apprendimenti attraverso tecnologie avanzate.",
+        "metodologia": "Utilizzo di tecnologie digitali integrate (digital board, laboratori mobili) e spazi flessibili per attività collaborative e progettuali.",
+        "tipologie_metodologia": [
+          "Didattica Digitale",
+          "STEM/STEAM"
+        ],
+        "ambiti_attivita": [
+          "Digitalizzazione",
+          "Scienze e Ricerca"
+        ],
+        "target": "Studenti e docenti",
+        "citazione_ptof": "D) 'Next Generation Classroom - Ambienti di apprendimento innovativi'... dotare la scuola di molteplici ambienti ed attrezzature, quali: alcune zone filtro... aula STEM con sedute e tavoli ad isola modulari...",
+        "pagina_evidenza": "Pagina 159"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:09:58.787519",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "fbb3a91d-9822-4bf6-81eb-bb16670ce3bc",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione allo Sviluppo Sostenibile",
+        "descrizione": "Attività curricolari e progetti interdisciplinari per promuovere consapevolezza ambientale, consumo responsabile e azioni per il clima, in linea con gli Obiettivi dell'Agenda 2030. Obiettivo: formare cittadini consapevoli del legame tra ambiente e società.",
+        "metodologia": "Lezioni interdisciplinari, laboratori di sostenibilità, collaborazione con enti territoriali e progetti di monitoraggio ambientale.",
+        "tipologie_metodologia": [
+          "Project Work",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Sostenibilità e Ambiente",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Nell’ambito dell’Educazione allo sviluppo sostenibile sono previste attività didattiche svolte dai docenti disciplinari e progetti svolti in collaborazione con enti presenti sul territorio.",
+        "pagina_evidenza": "Pagina 164"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:09:58.787527",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 8
+      }
+    },
+    {
+      "id": "c9cdbcf9-a3c3-46e5-9b16-08935d0fbd74",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Metodologie Didattiche Innovative",
+        "titolo": "Valutazione basata su competenze complesse",
+        "descrizione": "La valutazione degli studenti si basa non solo sulle conoscenze, ma anche su competenze come il pensiero critico, la risoluzione di problemi, il lavoro di gruppo e l'apprendimento continuo. Vengono considerati elementi come l'impegno, la partecipazione, il miglioramento rispetto al livello iniziale e il rispetto delle norme.",
+        "metodologia": "Utilizzo di criteri di valutazione che integrano processi cognitivi avanzati e comportamenti positivi, con focus su compiti applicativi e collaborativi.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Cooperative Learning"
+        ],
+        "ambiti_attivita": [
+          "Valutazione e Autovalutazione",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Le pratiche valutative sono orientate verso un approccio costruttivo... utilizzare processi mentali più complessi: ad esempio, pensare criticamente, risolvere problemi, essere meta-cognitivi, lavorare in gruppo...",
+        "pagina_evidenza": "Pagina 171"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:11:45.336317",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "a143d9c7-b46e-4696-8dd0-be13abe65ba1",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Buone Pratiche per l'Inclusione",
+        "titolo": "Piani Personalizzati per studenti con BES",
+        "descrizione": "Per gli alunni con Bisogni Educativi Speciali (BES), vengono predisposti Piani Personalizzati (PDP, PEI, PEP) con misure compensative e dispensative, condivisi con famiglie e specialisti. I piani sono verificati e aggiornati durante l'anno scolastico.",
+        "metodologia": "Collaborazione tra docenti, famiglie, referenti AUSL e personale educativo per adattare l'offerta formativa alle esigenze specifiche.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con BES, DSA, disabilità e NAI",
+        "citazione_ptof": "Per tali studenti vengono predisposti dei Piani Personalizzati (PDP, PEI, PEP)... sottoposti a verifica ed eventuale ridefinizione/integrazione nel corso dell’anno scolastico.",
+        "pagina_evidenza": "Pagina 178"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:11:45.336428",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "c60fdb9b-e845-46ca-8458-79b930619fbf",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Credito scolastico basato su attività extracurricolari",
+        "descrizione": "Il credito scolastico considera non solo i voti, ma anche partecipazione a attività sportive, volontariato, corsi di lingue straniere, ECDL e progetti extracurricolari. Sono richiesti attestati e documentazione per validare le competenze acquisite.",
+        "metodologia": "Integrazione di criteri non accademici nel calcolo del credito, con valutazione di competenze trasversali attraverso documentazione esterna.",
+        "tipologie_metodologia": [
+          "Service Learning",
+          "Project Work"
+        ],
+        "ambiti_attivita": [
+          "Imprenditorialità",
+          "Sport e Benessere",
+          "Lingue Straniere"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "Il Consiglio di Classe potrà integrare il credito scolastico tenendo conto... partecipazione ad attività complementari, integrative ed extracurricolari...",
+        "pagina_evidenza": "Pagina 176"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:11:45.336460",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "2fc78721-d488-4de4-a97a-0e5cf9fd9774",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Azioni di Sistema e Governance",
+        "titolo": "Gruppo di Lavoro per l'Inclusione (GLI)",
+        "descrizione": "Il GLI, composto da dirigenti, docenti, famiglie e specialisti, elabora il Piano Annuale di Inclusione (PAI) e coordina le strategie per studenti con BES. Si riunisce periodicamente per condividere problematiche e interventi.",
+        "metodologia": "Struttura organizzativa partecipativa che coinvolge diverse figure professionali e famiglie per gestire l'inclusione in modo integrato.",
+        "tipologie_metodologia": [
+          "Cooperative Learning",
+          "Service Learning"
+        ],
+        "ambiti_attivita": [
+          "Inclusione e BES",
+          "Continuità e Accoglienza"
+        ],
+        "target": "Studenti con BES, docenti, famiglie",
+        "citazione_ptof": "Il lavoro condiviso dei diversi Referenti e con la supervisione del Dirigente Scolastico porta all’elaborazione del PAI... condivisione di problematiche e strategie di intervento.",
+        "pagina_evidenza": "Pagina 178"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:11:45.336475",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 9
+      }
+    },
+    {
+      "id": "8d2d1bb6-4ab2-4122-9959-a80e658b7064",
+      "school": {
+        "codice_meccanografico": "BOIS02700V",
+        "nome": "I.I.S. Crescenzi-Pacinotti-Sirani",
+        "tipo_scuola": "Professionale, Tecnico",
+        "ordine_grado": "II Grado",
+        "regione": "Emilia Romagna",
+        "provincia": "Bologna",
+        "comune": "Bologna",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "statale_paritaria": "Statale"
+      },
+      "pratica": {
+        "categoria": "Progetti e Attività Esemplari",
+        "titolo": "Educazione Civica con criteri interdisciplinari",
+        "descrizione": "L'insegnamento trasversale di Educazione Civica valuta conoscenze teoriche, partecipazione, tolleranza e pensiero critico. Vengono utilizzati indicatori specifici per misurare competenze come il confronto interdisciplinare e l'espressione in lingua straniera.",
+        "metodologia": "Integrazione di criteri di valutazione che uniscono conoscenze teoriche a comportamenti positivi, con focus su attività collaborative e riflessione critica.",
+        "tipologie_metodologia": [
+          "Problem Based Learning",
+          "Debate"
+        ],
+        "ambiti_attivita": [
+          "Educazione Civica",
+          "Cittadinanza e Legalità"
+        ],
+        "target": "Studenti di tutte le classi",
+        "citazione_ptof": "L’insegnamento trasversale dell'Educazione Civica ha l'obiettivo di creare un cittadino a tutto tondo... dotato di pensiero critico...",
+        "pagina_evidenza": "Pagina 172"
+      },
+      "contesto": {
+        "maturity_index": 4.34,
+        "punteggi_dimensionali": {
+          "1 ptof orientamento sezione dedicata": 4
+        },
+        "partnership_coinvolte": [
+          "Camera di Commercio di Bologna"
+        ],
+        "attivita_correlate": [
+          "PCTO",
+          "Piano Scuola 4.0 - Trasformazione aule",
+          "Piano Scuola 4.0 - Laboratori digitali",
+          "Investimento 1.4 - Riduzione divari territoriali",
+          "Potenziamento 'DESIGN LAB' e 'SURVEY LAB'",
+          "Corso Operatore Socio Sanitario (OSS)",
+          "Simulimpresa 3AFM",
+          "CUBO: I mercati finanziari",
+          "Compilazione e-portfolio",
+          "Economia del teatro"
+        ]
+      },
+      "metadata": {
+        "extracted_at": "2025-12-28T20:11:45.336489",
+        "model_used": "qwen3:32b",
+        "source_file": "BOIS02700V_ptof.md",
+        "chunk_source": 9
       }
     }
   ]
