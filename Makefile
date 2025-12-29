@@ -2,6 +2,7 @@
 	help setup wizard config config-show \
 	run run-force run-force-code workflow workflow-force \
 	dashboard csv csv-watch backfill clean \
+	logs \
 	refresh full pipeline pipeline-ollama \
 	download download-sample download-strato download-statali download-paritarie \
 	download-regione download-metro download-non-metro download-grado download-area download-reset \
@@ -23,7 +24,9 @@ STREAMLIT = streamlit
 DOWNLOADER = src/downloaders/ptof_downloader.py
 UPLOAD_PORTAL = src/portal/ptof_upload_portal.py
 EMAILER = src/outreach/ptof_emailer.py
+EMAILER = src/outreach/ptof_emailer.py
 MODEL_LISTER = src/utils/list_models.py
+LOG_VIEWER = scripts/log_viewer.py
 
 help:
 	@echo "Comandi disponibili:"
@@ -35,6 +38,7 @@ help:
 	@echo "  make wizard               - Wizard interattivo per i comandi make"
 	@echo "  make config               - Wizard configurazione pipeline (modelli, chunking)"
 	@echo "  make config-show          - Mostra configurazione attuale"
+	@echo "  make logs                 - Visualizzatore interattivo log"
 	@echo ""
 	@echo "DOWNLOAD PTOF:"
 	@echo "  make download              - Dry-run: mostra stratificazione senza scaricare"
@@ -610,6 +614,14 @@ list-backups:
 	@echo "📦 File .bak in analysis_results/:"
 	@ls -la analysis_results/*.bak 2>/dev/null | wc -l | xargs -I {} echo "   Totale: {} file"
 	@ls analysis_results/*.bak 2>/dev/null | head -20 || echo "   (nessun backup trovato)"
+
+# ═══════════════════════════════════════════════════════════════════
+# LOGS & DEBUGGING
+# ═══════════════════════════════════════════════════════════════════
+
+# Visualizzatore log interattivo (uso: make logs [LINES=50])
+logs:
+	$(PYTHON) $(LOG_VIEWER) $(if $(LINES),--lines $(LINES),)
 
 # ═══════════════════════════════════════════════════════════════════
 # META REPORT - Best Practices Reports

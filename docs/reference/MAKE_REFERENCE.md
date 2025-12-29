@@ -434,6 +434,18 @@ make list-backups
    make review-scores-ollama OLLAMA_URL=http://192.168.129.14:11434
    ```
 
+### Debugging e Log
+Visualizza i log di sistema in tempo reale per diagnosticare problemi.
+
+```bash
+# Apri visualizzatore interattivo
+make logs
+
+# Visualizza ultime 100 righe di un log specifico (selezionandolo dal menu)
+make logs LINES=100
+```
+
+
 ### Analisi bloccata su un file
 
 ```bash
