@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Catalogo Attività - Esplorazione e analisi delle attività di orientamento estratte dai PTOF
+Attività - Esplorazione e analisi delle attività di orientamento estratte dai PTOF
 """
 import streamlit as st
 import pandas as pd
@@ -243,6 +243,34 @@ def normalize_ordini_grado(ordine_value, tipo_value=None):
     return labels
 
 
+FILTER_DEFAULTS = {
+    "filter_search": "",
+    "filter_categoria": "Tutte",
+    "filter_ambiti": [],
+    "filter_metodologie": [],
+    "filter_tipologie_istituto": [],
+    "filter_ordini": [],
+    "filter_targets": [],
+    "filter_aree": [],
+    "filter_regioni": [],
+    "filter_province": [],
+    "filter_tipi": []
+}
+
+
+def reset_filters(default_maturity_range):
+    for key, value in FILTER_DEFAULTS.items():
+        st.session_state[key] = value
+
+    if default_maturity_range is None:
+        st.session_state.pop("filter_maturity", None)
+    else:
+        st.session_state["filter_maturity"] = default_maturity_range
+
+    st.session_state["filters_signature"] = None
+    st.session_state["catalog_limit"] = st.session_state.get("catalog_page_size", 50)
+
+
 def filter_practices(df, categoria=None, regioni=None, tipi_scuola=None,
                      aree_geo=None, province=None, targets=None,
                      tipologie_metodologia=None, ambiti_attivita=None,
@@ -460,7 +488,7 @@ def residuals_from_table(observed, expected):
 
 
 # === MAIN PAGE ===
-st.title("🌟 Catalogo Attività")
+st.title("🌟 Attività")
 
 with st.expander("Legenda emoji (categorie)", expanded=False):
     st.markdown(
@@ -496,113 +524,130 @@ if df_activities.empty:
     st.stop()
 
 # === SEZIONE FILTRI NELLA PAGINA PRINCIPALE ===
+with st.form("filters_form"):
+    # === BARRA DI RICERCA ===
+    search = st.text_input(
+        "🔎 Cerca",
+        placeholder="Cerca in titolo, descrizione, metodologia, scuola...",
+        label_visibility="collapsed",
+        key="filter_search"
+    )
 
-# === BARRA DI RICERCA ===
-search = st.text_input("🔎 Cerca", placeholder="Cerca in titolo, descrizione, metodologia, scuola...", label_visibility="collapsed")
+    # === FILTRI PRINCIPALI (sempre visibili) ===
+    st.markdown("##### 🔍 Filtri")
 
-# === FILTRI PRINCIPALI (sempre visibili) ===
-st.markdown("##### 🔍 Filtri")
+    # Prima riga: Categoria, Ambito, Metodologia
+    col_f1, col_f2, col_f3 = st.columns(3)
 
-# Prima riga: Categoria, Ambito, Metodologia
-col_f1, col_f2, col_f3 = st.columns(3)
+    with col_f1:
+        categorie_opzioni = ["Tutte"] + CATEGORIE
+        sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni, key="filter_categoria")
 
-with col_f1:
-    categorie_opzioni = ["Tutte"] + CATEGORIE
-    sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni)
-
-with col_f2:
-    # Ambito Attività - estrai dal CSV (campo con |)
-    ambiti_disponibili = sorted(set(
-        a.strip() for a in df_activities['ambiti_attivita'].dropna().str.split('|').explode()
-        if a.strip()
-    ))
-    if not ambiti_disponibili:
-        ambiti_disponibili = AMBITI_ATTIVITA
-    sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili)
-
-with col_f3:
-    # Tipologia Metodologia - estrai dal CSV (campo con |)
-    metodologie_disponibili = sorted(set(
-        m.strip() for m in df_activities['tipologie_metodologia'].dropna().str.split('|').explode()
-        if m.strip()
-    ))
-    if not metodologie_disponibili:
-        metodologie_disponibili = TIPOLOGIE_METODOLOGIA
-    sel_metodologie = st.multiselect("📚 Tipologia Metodologia", metodologie_disponibili)
-
-# Seconda riga: Tipologia Istituto, Ordine/Grado, Target
-col_f4, col_f5, col_f6 = st.columns(3)
-
-with col_f4:
-    sel_tipologie_istituto = st.multiselect("🏫 Tipologia Istituto", TIPOLOGIE_ISTITUTO)
-
-with col_f5:
-    sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO)
-
-with col_f6:
-    target_options = ["Studenti", "Docenti", "Famiglie"]
-    sel_targets = st.multiselect("👥 Target", target_options)
-
-# === FILTRI AVANZATI (expander) ===
-with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
-    # Riga filtri geografici
-    col_g1, col_g2, col_g3, col_g4 = st.columns(4)
-
-    with col_g1:
-        # Area geografica
-        aree_disponibili = sorted(df_activities['area_geografica'].dropna().unique().tolist())
-        sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili)
-
-    with col_g2:
-        # Regione (multiselect)
-        regioni_disponibili = sorted(df_activities['regione'].dropna().unique().tolist())
-        sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili)
-
-    with col_g3:
-        # Provincia (multiselect) - filtrata per regioni selezionate
-        if sel_regioni:
-            province_disponibili = sorted(
-                df_activities[df_activities['regione'].isin(sel_regioni)]['provincia'].dropna().unique().tolist()
-            )
-        else:
-            province_disponibili = sorted(df_activities['provincia'].dropna().unique().tolist())
-        sel_province = st.multiselect("🏙️ Provincia", province_disponibili)
-
-    with col_g4:
-        # Tipo scuola legacy
-        tipi_disponibili = sorted(set(
-            t.strip() for t in df_activities['tipo_scuola'].dropna().str.split(',').explode()
-            if t.strip()
+    with col_f2:
+        # Ambito Attività - estrai dal CSV (campo con |)
+        ambiti_disponibili = sorted(set(
+            a.strip() for a in df_activities['ambiti_attivita'].dropna().str.split('|').explode()
+            if a.strip()
         ))
-        sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili)
+        if not ambiti_disponibili:
+            ambiti_disponibili = AMBITI_ATTIVITA
+        sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili, key="filter_ambiti")
 
-    # Riga per maturity index
-    col_m1, col_m2 = st.columns([1, 3])
-    with col_m1:
-        st.markdown("**📊 Indice RO (Robustezza Orientamento)**")
-    with col_m2:
-        maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
-        maturity_values = maturity_col.dropna()
-        if len(maturity_values) > 0:
-            min_mi = maturity_values.min()
-            max_mi = maturity_values.max()
-            if min_mi < max_mi:
-                sel_maturity = st.slider(
-                    "Range Indice RO",
-                    min_value=float(min_mi),
-                    max_value=float(max_mi),
-                    value=(float(min_mi), float(max_mi)),
-                    step=0.1,
-                    label_visibility="collapsed"
-                )
-            else:
-                st.caption(f"Indice unico: {min_mi:.2f}")
-                sel_maturity = None
-        else:
-            st.caption("Nessun dato disponibile")
+    with col_f3:
+        # Tipologia Metodologia - estrai dal CSV (campo con |)
+        metodologie_disponibili = sorted(set(
+            m.strip() for m in df_activities['tipologie_metodologia'].dropna().str.split('|').explode()
+            if m.strip()
+        ))
+        if not metodologie_disponibili:
+            metodologie_disponibili = TIPOLOGIE_METODOLOGIA
+        sel_metodologie = st.multiselect(
+            "📚 Tipologia Metodologia",
+            metodologie_disponibili,
+            key="filter_metodologie"
+        )
+
+    # Seconda riga: Tipologia Istituto, Ordine/Grado, Target
+    col_f4, col_f5, col_f6 = st.columns(3)
+
+    with col_f4:
+        sel_tipologie_istituto = st.multiselect(
+            "🏫 Tipologia Istituto",
+            TIPOLOGIE_ISTITUTO,
+            key="filter_tipologie_istituto"
+        )
+
+    with col_f5:
+        sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO, key="filter_ordini")
+
+    with col_f6:
+        target_options = ["Studenti", "Docenti", "Famiglie"]
+        sel_targets = st.multiselect("👥 Target", target_options, key="filter_targets")
+
+    # === FILTRI AVANZATI (expander) ===
+    with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
+        # Riga filtri geografici
+        col_g1, col_g2, col_g3, col_g4 = st.columns(4)
+
+        with col_g1:
+            # Area geografica
+            aree_disponibili = sorted(df_activities['area_geografica'].dropna().unique().tolist())
+            sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili, key="filter_aree")
+
+        with col_g2:
+            # Regione (multiselect)
+            regioni_disponibili = sorted(df_activities['regione'].dropna().unique().tolist())
+            sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili, key="filter_regioni")
+
+        with col_g3:
+            # Provincia (multiselect)
+            province_disponibili = sorted(df_activities['provincia'].dropna().unique().tolist())
+            sel_province = st.multiselect("🏙️ Provincia", province_disponibili, key="filter_province")
+
+        with col_g4:
+            # Tipo scuola legacy
+            tipi_disponibili = sorted(set(
+                t.strip() for t in df_activities['tipo_scuola'].dropna().str.split(',').explode()
+                if t.strip()
+            ))
+            sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili, key="filter_tipi")
+
+        # Riga per maturity index
+        col_m1, col_m2 = st.columns([1, 3])
+        with col_m1:
+            st.markdown("**📊 Indice RO (Robustezza Orientamento)**")
+        with col_m2:
             sel_maturity = None
+            maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
+            maturity_values = maturity_col.dropna()
+            if len(maturity_values) > 0:
+                min_mi = maturity_values.min()
+                max_mi = maturity_values.max()
+                if min_mi < max_mi:
+                    default_maturity_range = (float(min_mi), float(max_mi))
+                    st.session_state["maturity_default_range"] = default_maturity_range
+                    sel_maturity = st.slider(
+                        "Range Indice RO",
+                        min_value=float(min_mi),
+                        max_value=float(max_mi),
+                        value=default_maturity_range,
+                        step=0.1,
+                        label_visibility="collapsed",
+                        key="filter_maturity"
+                    )
+                else:
+                    st.session_state["maturity_default_range"] = None
+                    st.caption(f"Indice unico: {min_mi:.2f}")
+                    sel_maturity = None
+            else:
+                st.session_state["maturity_default_range"] = None
+                st.caption("Nessun dato disponibile")
+                sel_maturity = None
+
+    apply_filters = st.form_submit_button("Applica filtri")
 
 # === INFO DATASET E PULSANTI ===
+default_maturity_range = st.session_state.get("maturity_default_range")
 col_info1, col_info2, col_info3, col_info4, col_info5 = st.columns(5)
 with col_info1:
     st.caption(f"📅 Aggiornamento: {data.get('last_updated', 'N/D')[:10] if data.get('last_updated') else 'N/D'}")
@@ -619,9 +664,30 @@ with col_info5:
             refresh_data()
     with col_btn2:
         if st.button("🗑️", help="Reset filtri"):
+            reset_filters(default_maturity_range)
             st.rerun()
 
 st.markdown("---")
+
+# Aggiorna paginazione se i filtri sono cambiati (solo dopo submit)
+filter_signature = (
+    sel_categoria,
+    tuple(sorted(sel_ambiti)),
+    tuple(sorted(sel_metodologie)),
+    tuple(sorted(sel_tipologie_istituto)),
+    tuple(sorted(sel_ordini)),
+    tuple(sorted(sel_targets)),
+    tuple(sorted(sel_aree)),
+    tuple(sorted(sel_regioni)),
+    tuple(sorted(sel_province)),
+    tuple(sorted(sel_tipi)),
+    tuple(sel_maturity) if sel_maturity else None,
+    search
+)
+prev_signature = st.session_state.get("filters_signature")
+if filter_signature != prev_signature:
+    st.session_state["filters_signature"] = filter_signature
+    st.session_state["catalog_limit"] = st.session_state.get("catalog_page_size", 50)
 
 # Applica filtri
 df_filtered = filter_practices(
@@ -640,13 +706,17 @@ df_filtered = filter_practices(
     search_text=search if search else None
 )
 
-# === TAB LAYOUT ===
-tab_catalogo, tab_mappa, tab_grafici, tab_export = st.tabs([
-    "📋 Catalogo", "🗺️ Mappa", "📊 Grafici", "📥 Export"
-])
+# === SEZIONE ===
+section = st.radio(
+    "Sezione",
+    ["📋 Attività", "🗺️ Mappa", "📊 Grafici", "📥 Export"],
+    horizontal=True,
+    label_visibility="collapsed",
+    key="section_select"
+)
 
-# === TAB CATALOGO ===
-with tab_catalogo:
+# === SEZIONE CATALOGO ===
+if section == "📋 Attività":
     st.subheader(f"📋 {len(df_filtered)} Attività Trovate")
 
     # Metriche
@@ -665,8 +735,13 @@ with tab_catalogo:
 
     st.markdown("---")
 
+    if "catalog_page_size_prev" not in st.session_state:
+        st.session_state["catalog_page_size_prev"] = st.session_state.get("catalog_page_size", 50)
+    if "catalog_limit" not in st.session_state:
+        st.session_state["catalog_limit"] = st.session_state.get("catalog_page_size", 50)
+
     # Opzioni visualizzazione
-    col_view1, col_view2, col_view3 = st.columns([1, 1, 2])
+    col_view1, col_view2, col_view3, col_view4 = st.columns([1, 1, 2, 1])
 
     with col_view1:
         view_mode = st.radio(
@@ -698,6 +773,22 @@ with tab_catalogo:
         else:
             sort_by = "Categoria"
 
+    with col_view4:
+        if view_mode == "Lista":
+            page_size = st.selectbox(
+                "Risultati",
+                [25, 50, 100],
+                index=1,
+                key="catalog_page_size"
+            )
+            if st.session_state.get("catalog_page_size_prev") != page_size:
+                st.session_state["catalog_page_size_prev"] = page_size
+                st.session_state["catalog_limit"] = page_size
+            elif st.session_state["catalog_limit"] < page_size:
+                st.session_state["catalog_limit"] = page_size
+        else:
+            page_size = st.session_state.get("catalog_page_size", 50)
+
     st.markdown("---")
 
     # === VISTA LISTA ===
@@ -712,8 +803,13 @@ with tab_catalogo:
         sort_col = sort_col_map.get(sort_by, "categoria")
         df_sorted = df_filtered.sort_values(by=sort_col, na_position='last')
 
+        total_rows = len(df_sorted)
+        limit = min(st.session_state.get("catalog_limit", page_size), total_rows)
+        df_page = df_sorted.head(limit)
+        st.caption(f"Mostrate {limit} di {total_rows} attività")
+
         # Lista pratiche con expander
-        for i, row in df_sorted.iterrows():
+        for i, row in df_page.iterrows():
             categoria = row.get("categoria", "")
             icon = CATEGORIA_ICONS.get(categoria, "📌")
 
@@ -758,6 +854,11 @@ with tab_catalogo:
                             st.markdown("**🤝 Partnership:**")
                             for partner in partners[:5]:
                                 st.markdown(f"- {partner}")
+
+        if limit < total_rows:
+            if st.button(f"Mostra altre {page_size}", key="catalog_load_more"):
+                st.session_state["catalog_limit"] = min(total_rows, limit + page_size)
+                st.rerun()
 
     # === VISTA RAGGRUPPATA ===
     elif view_mode == "Raggruppata":
@@ -807,8 +908,8 @@ with tab_catalogo:
         else:
             st.info("Nessuna pratica da visualizzare.")
 
-# === TAB MAPPA ===
-with tab_mappa:
+# === SEZIONE MAPPA ===
+elif section == "🗺️ Mappa":
     st.subheader("🗺️ Distribuzione Geografica delle Attività")
 
     # Calcola distribuzione per regione usando DataFrame
@@ -860,8 +961,8 @@ with tab_mappa:
     else:
         st.info("Nessun dato geografico disponibile per le pratiche filtrate.")
 
-# === TAB GRAFICI ===
-with tab_grafici:
+# === SEZIONE GRAFICI ===
+elif section == "📊 Grafici":
     st.subheader("📊 Analisi Distribuzione Attività")
 
     if not df_filtered.empty:
@@ -1147,8 +1248,8 @@ with tab_grafici:
     else:
         st.info("Nessun dato disponibile per i grafici.")
 
-# === TAB EXPORT ===
-with tab_export:
+# === SEZIONE EXPORT ===
+elif section == "📥 Export":
     st.subheader("📥 Esporta Dati")
 
     st.markdown(f"**{len(df_filtered)} pratiche** pronte per l'esportazione (filtrate)")

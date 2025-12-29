@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-29T15:26:18.653683",
+  "last_updated": "2025-12-29T18:30:22.523917",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -834,6 +834,210 @@
       "file_hash": "sha256:32e67e2c909989db60ea692e182f003965943a9aabb67b7c7a5945370cf71a81",
       "processed_at": "2025-12-29T15:26:18.653680",
       "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CBAA82709C": {
+      "file_hash": "sha256:c09e75b3f2437611c29061a2a8bb1c78ff9f6e39b510aabd0712666ca69ecb6c",
+      "processed_at": "2025-12-29T16:07:59.771873",
+      "practices_count": 128,
+      "model_used": "qwen3:32b"
+    },
+    "CAMM82804L": {
+      "file_hash": "sha256:5ea9c24bfadbdea2b5d9a0244127df60f60af16ed72109a81d9a7c481ed329ff",
+      "processed_at": "2025-12-29T16:09:26.347277",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CETD02951E": {
+      "file_hash": "sha256:55b8a39e47b5c8b5254b2ba5cc03a16bef2739a14d5377c6f96736e78e9335bf",
+      "processed_at": "2025-12-29T16:12:10.978401",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CHTF01101V": {
+      "file_hash": "sha256:5d25bdeea3efd92741a3c152e9c8cf30ddf9cc8dc9f9f1ad2599e91334f5b7da",
+      "processed_at": "2025-12-29T16:13:21.842200",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CETD047514": {
+      "file_hash": "sha256:3165ebeb878ec2d82a919aaaf0a712f507423b1c53152b08708a045026ef4675",
+      "processed_at": "2025-12-29T16:16:59.013048",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "CETF046015": {
+      "file_hash": "sha256:b485e22ba146aa17e533c2ed2a44814f45379aa4a13db5ad7c0032dd94a127ec",
+      "processed_at": "2025-12-29T16:33:39.365222",
+      "practices_count": 57,
+      "model_used": "qwen3:32b"
+    },
+    "CHIC80700E": {
+      "file_hash": "sha256:4715689ffb206cd4eca42d40c273888866f628e3be39786a6e70e871f4d23415",
+      "processed_at": "2025-12-29T16:41:52.637183",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "CEPS875001": {
+      "file_hash": "sha256:32dd51ec92cbc876d4bd58b4c92d9ad57e482ec791fe3a3e6b4d94bbfed24946",
+      "processed_at": "2025-12-29T16:45:12.278803",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "CHIS019001": {
+      "file_hash": "sha256:2ce6e8b978a4b7bc84417948a12cdd8f9f3fa1b794c5f0bbfab7bd74d34f4463",
+      "processed_at": "2025-12-29T16:54:44.703216",
+      "practices_count": 65,
+      "model_used": "qwen3:32b"
+    },
+    "CLTD01651N": {
+      "file_hash": "sha256:6fb3d7a8be02e2b1380b104a98c86a5dc3adcbfb3b0b824fe041e88f82826ce7",
+      "processed_at": "2025-12-29T17:02:07.892438",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "CLMM82001E": {
+      "file_hash": "sha256:2e1b97dcdbfa490b59b9a7e06fd73fd8387352c21af969824f1c92195e0fd35e",
+      "processed_at": "2025-12-29T17:03:46.923117",
+      "practices_count": 13,
+      "model_used": "qwen3:32b"
+    },
+    "CLRI01601N": {
+      "file_hash": "sha256:7758c1818c9553956f78c83ae04e14540635b0d8663eae438a0c42a9a68b8c2b",
+      "processed_at": "2025-12-29T17:11:00.306736",
+      "practices_count": 49,
+      "model_used": "qwen3:32b"
+    },
+    "CLAA81801A": {
+      "file_hash": "sha256:76854e008f4a6cb2ba06e0c1e3b8fe8b38508b5797e19fc2bc916ecd04a7f385",
+      "processed_at": "2025-12-29T17:22:53.122978",
+      "practices_count": 76,
+      "model_used": "qwen3:32b"
+    },
+    "CLEE82001G": {
+      "file_hash": "sha256:34a66cc12c2e08f930924771b7924654c4d0a064930b5852bbf4ea4e8bd3c6ed",
+      "processed_at": "2025-12-29T17:24:49.998458",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "CNEE80301C": {
+      "file_hash": "sha256:31a6cce27b70d3022837e1af9883340406e9a70386efda0a4e66c6959294fbaa",
+      "processed_at": "2025-12-29T17:28:23.728539",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "CNAA84803V": {
+      "file_hash": "sha256:d9bda48654a37b7be373753325b7fb124100cb2221ddf49e67811bef2433d384",
+      "processed_at": "2025-12-29T17:35:04.319928",
+      "practices_count": 47,
+      "model_used": "qwen3:32b"
+    },
+    "CNMM85901B": {
+      "file_hash": "sha256:d7f5c73de1540bc02c972a4d0515e047e6f01549b57c595d7e778907e92850ea",
+      "processed_at": "2025-12-29T17:38:39.846376",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "CNIS01100D": {
+      "file_hash": "sha256:d1cf8df1a55556bebfd3c5bd8b7f048e9806c55f3a98a4dde1f2d6530bfc3611",
+      "processed_at": "2025-12-29T17:43:36.477001",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "CN1E001003": {
+      "file_hash": "sha256:5e67bb58f1fbfb9694e8477c6cffbd74c9f7ee8e4e20073c37418e31e289ea12",
+      "processed_at": "2025-12-29T17:45:57.844365",
+      "practices_count": 11,
+      "model_used": "qwen3:32b"
+    },
+    "CNAA81303X": {
+      "file_hash": "sha256:27bea57ee4000fd5c03e9ed479dc550bccf15d09f9fe140df46856c4b1c34157",
+      "processed_at": "2025-12-29T17:47:28.998400",
+      "practices_count": 12,
+      "model_used": "qwen3:32b"
+    },
+    "COIC817001": {
+      "file_hash": "sha256:f74c6243ccd437d8284f33a17778218e27d0466e512d4b59ea03513a979ddc8c",
+      "processed_at": "2025-12-29T17:52:29.010255",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "CS1M00100G": {
+      "file_hash": "sha256:b86d336194f64ca105e1716ac4d30255879f0c32bfe927e050600c0b8fa481da",
+      "processed_at": "2025-12-29T17:53:49.637357",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CSAA87405R": {
+      "file_hash": "sha256:f464d4f9a409e1d22f5b79b1b20f04ddd0acd96f007b15efeb98d7a5a5be43ce",
+      "processed_at": "2025-12-29T17:55:06.728217",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CS1A137004": {
+      "file_hash": "sha256:008a4c1b395c8f2c66bc9c99793d2018b720e6bae1d17807e71f836906b0c378",
+      "processed_at": "2025-12-29T17:56:23.468891",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CNTD02951A": {
+      "file_hash": "sha256:6bbf34b6295b3112367db8fd8bc3b6dcc254bd1687b9521eabf9d9469faefb32",
+      "processed_at": "2025-12-29T18:03:01.118211",
+      "practices_count": 48,
+      "model_used": "qwen3:32b"
+    },
+    "COAA80402R": {
+      "file_hash": "sha256:c34b0fe050d03e37fd7d58b4d21d80078d17cf5eb36cb2a839be2fb9120b4139",
+      "processed_at": "2025-12-29T18:04:19.115475",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "COIC84900C": {
+      "file_hash": "sha256:cc5324a854c962b62a80ca932d9e86a548edad9cb0edd883733aba15327fe4b8",
+      "processed_at": "2025-12-29T18:07:25.488202",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "CRPC02000A": {
+      "file_hash": "sha256:e9499590609e7b68f285dbf178f7a5135f425e18b0ff558de81a31e7201f1899",
+      "processed_at": "2025-12-29T18:09:04.158224",
+      "practices_count": 11,
+      "model_used": "qwen3:32b"
+    },
+    "COTD01000G": {
+      "file_hash": "sha256:cbcdfa51be50f85394eaeab9003e5cc8f3704110ea3ffaea3723a670fc51f43f",
+      "processed_at": "2025-12-29T18:15:45.894238",
+      "practices_count": 48,
+      "model_used": "qwen3:32b"
+    },
+    "CSTD07701N": {
+      "file_hash": "sha256:14f88fd7acc64a2efcde21d5cbf7b5ec43f3cb53be6f0c812a149cf63c7f82a6",
+      "processed_at": "2025-12-29T18:17:00.686396",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "CT1E054002": {
+      "file_hash": "sha256:0c8b1b2bc99637456913669f70cf128b0c3080e9d82f7de67b4391261e83cbca",
+      "processed_at": "2025-12-29T18:19:24.305684",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "CSMM8AT019": {
+      "file_hash": "sha256:8fc0d2f151e2fb44046d771b31e39702fa20f0fc1471ca306847920783f19219",
+      "processed_at": "2025-12-29T18:19:59.833885",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CSRC068511": {
+      "file_hash": "sha256:47e214205fa4b5e92326c2b8b2f0f9ae5c170534305051ff3d08373fb07b1c8a",
+      "processed_at": "2025-12-29T18:24:04.119872",
+      "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "CT1M02300G": {
+      "file_hash": "sha256:e16a4eb4f878f0f2c8f74121c11e4f4c3456079d5dacfcb358e3d98b8755e41b",
+      "processed_at": "2025-12-29T18:30:22.523913",
+      "practices_count": 44,
       "model_used": "qwen3:32b"
     }
   }

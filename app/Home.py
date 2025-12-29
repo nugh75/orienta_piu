@@ -131,7 +131,7 @@ with action_cols[1]:
     if st.button("🗺️ Analisi Territoriale", use_container_width=True):
         switch_page("pages/04_🗺️_Analisi_Territoriale.py")
 with action_cols[2]:
-    if st.button("🌟 Catalogo Attività", use_container_width=True):
+    if st.button("🌟 Attività", use_container_width=True):
         switch_page("pages/19_🌟_Attivita.py")
 
 with st.container():
