@@ -14,7 +14,8 @@
 	outreach-portal outreach-email \
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
-	check-truncated fix-truncated list-backups git-auto \
+	check-truncated fix-truncated list-backups \
+	git-auto git-status git-pull git-push git-commit \
 	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch \
 	docker-up docker-down docker-build docker-logs docker-status docker-shell venv
 
@@ -453,6 +454,29 @@ git-auto:
 		echo "💤 Attesa $(or $(INTERVAL),600)s..."; \
 		sleep $(or $(INTERVAL),600); \
 	done
+
+# Mostra stato git
+git-status:
+	@git status
+
+# Pull dal remote
+git-pull:
+	@git pull
+
+# Push al remote
+git-push:
+	@git push
+
+# Commit con messaggio (uso: make git-commit MSG="fix bug")
+git-commit:
+ifndef MSG
+	@echo "❌ Specificare il messaggio con MSG=\"...\""
+	@echo "   Esempio: make git-commit MSG=\"fix: risolto bug login\""
+else
+	@git add -A
+	@git commit -m "$(MSG)"
+	@echo "✅ Commit creato. Usa 'make git-push' per pushare."
+endif
 
 # ═══════════════════════════════════════════════════════════════════
 # REGISTRO ANALISI
