@@ -1,58 +1,123 @@
 {
-"metadata": {
-"school_id": "BG1M00500D",
-"denominazione": "Non specificato",
-"tipo_scuola": "Non specificato",
-"ordine_grado": "Non specificato",
-"area_geografica": "Nord",
-"territorio": "Non Metropolitano",
-"comune": "Non specificato",
-"anno_ptof": "2019/2022"
-},
-"ptof_section2": {
-"2_1_ptof_orientamento_sezione_dedicata": {
-"has_sezione_dedicata": 0,
-"score": 1,
-"note": "Nessuna sezione dedicata all'orientamento. L'orientamento è menzionato solo come parte del PTOF generale e della rendicontazione sociale."
-},
-"2_2_partnership": {
-"partner_nominati": [],
-"partnership_count": 0
-},
-"2_3_finalita": {
-"finalita_attitudini": {"score": 1, "evidence_quote": null, "evidence_location": null},
-"finalita_interessi": {"score": 1, "evidence_quote": null, "evidence_location": null},
-"finalita_progetto_vita": {"score": 1, "evidence_quote": null, "evidence_location": null},
-"finalita_transizioni_formative": {"score": 1, "evidence_quote": null, "evidence_location": null},
-"finalita_capacita_orientative_opportunita": {"score": 1, "evidence_quote": null, "evidence_location": null}
-},
-"2_4_obiettivi": {
-"obiettivo_ridurre_abbandono": {"score": 1},
-"obiettivo_continuita_territorio": {"score": 1},
-"obiettivo_contrastare_neet": {"score": 1},
-"obiettivo_lifelong_learning": {"score": 1}
-},
-"2_5_azioni_sistema": {
-"azione_coordinamento_servizi": {"score": 1},
-"azione_dialogo_docenti_studenti": {"score": 1},
-"azione_rapporto_scuola_genitori": {"score": 1},
-"azione_monitoraggio_azioni": {"score": 1},
-"azione_sistema_integrato_inclusione_fragilita": {"score": 1}
-},
-"2_6_didattica_orientativa": {
-"didattica_da_esperienza_studenti": {"score": 1},
-"didattica_laboratoriale": {"score": 1},
-"didattica_flessibilita_spazi_tempi": {"score": 1},
-"didattica_interdisciplinare": {"score": 1}
-},
-"2_7_opzionali_facoltative": {
-"opzionali_culturali": {"score": 1},
-"opzionali_laboratoriali_espressive": {"score": 1},
-"opzionali_ludiche_ricreative": {"score": 1},
-"opzionali_volontariato": {"score": 1},
-"opzionali_sportive": {"score": 1}
-}
-},
-"activities_register": [],
-"narrative": "# Analisi del PTOF BG1M00500D\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl documento analizzato, relativo al PTOF 2019/2022, non presenta una sezione dedicata all'orientamento scolastico. L'orientamento è menzionato in termini generali come parte integrante del processo di progettazione del PTOF e della rendicontazione sociale, ma manca una trattazione specifica e strutturata. Il livello di maturità dell'orientamento appare quindi minimo, con una scarsa attenzione alle azioni concrete e alle strategie per supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione dedicata all'orientamento rappresenta una lacuna significativa. Ciò indica una mancanza di consapevolezza dell'importanza strategica dell'orientamento come elemento centrale del PTOF e della progettazione educativa.\n\n#### 2.2 Partnership e Reti\nNon vengono menzionate partnership o collaborazioni con enti esterni, aziende o professionisti del settore per potenziare l'offerta orientativa.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento non sono esplicitate nel documento. Non si individuano obiettivi specifici legati allo sviluppo delle attitudini, degli interessi, del progetto di vita degli studenti, alla facilitazione delle transizioni formative o al potenziamento delle loro capacità orientative e alla consapevolezza delle opportunità.\n\n#### 2.4 Governance e Azioni di Sistema\nNon sono previste azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie o il monitoraggio delle attività orientative.\n\n#### 2.5 Didattica Orientativa\nNon si fa riferimento a metodologie didattiche specifiche per l'orientamento, come l'apprendimento basato sull'esperienza, le attività laboratoriali, la flessibilità degli spazi e dei tempi o l'approccio interdisciplinare.\n\n#### 2.6 Opportunità Formative\nNon sono previste attività opzionali o facoltative dedicate all'orientamento, come laboratori, seminari, visite aziendali o progetti di volontariato.\n\n#### 2.7 Registro Dettagliato delle Attività\nNon sono presenti attività specifiche relative all'orientamento da analizzare.\n\n### 3. Punti di Forza\nIl documento riconosce l'importanza del PTOF come strumento di progettazione e rendicontazione, che può essere utilizzato per integrare l'orientamento come parte del processo educativo.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento, la mancanza di obiettivi specifici, di azioni concrete e di partnership esterne rappresentano le principali aree di debolezza.\n\n### 5. Gap Analysis\nIl divario tra le Linee Guida sull'orientamento e le azioni descritte nel PTOF è significativo. È necessario un ripensamento complessivo della strategia orientativa della scuola, con l'obiettivo di integrare l'orientamento come elemento trasversale del PTOF e di garantire un'offerta formativa completa e personalizzata per gli studenti.\n\n### 6. Conclusioni\nL'analisi del PTOF evidenzia una scarsa attenzione all'orientamento scolastico. È necessario un impegno maggiore per sviluppare una strategia orientativa efficace, che coinvolga tutti gli attori della comunità scolastica e che sia in grado di supportare gli studenti nelle loro scelte formative e professionali."
+  "metadata": {
+    "school_id": "BG1M00500D",
+    "denominazione": "Non specificato",
+    "tipo_scuola": "Non specificato",
+    "ordine_grado": "Non specificato",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Nord",
+    "comune": "Non specificato",
+    "anno_ptof": "2019/2022",
+    "provincia": "Bergamo",
+    "regione": "Lombardia",
+    "tipo_scuola_dettaglio": "Scuola Sec. Primo Grado Non Statale",
+    "indirizzo": "Via Mons. Balduzzi N. 11",
+    "cap": "24022",
+    "email": "segreteria@scuolapaolosestoalzano.it",
+    "pec": "scuolapaolovi@pec.confcooperative.it",
+    "website": "www.scuolapaolosestoalzano.it",
+    "statale_paritaria": "Paritaria"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata all'orientamento. L'orientamento è menzionato solo come parte del PTOF generale e della rendicontazione sociale."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_interessi": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_progetto_vita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 1
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 1
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [],
+  "narrative": "# Analisi del PTOF BG1M00500D\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl documento analizzato, relativo al PTOF 2019/2022, non presenta una sezione dedicata all'orientamento scolastico. L'orientamento è menzionato in termini generali come parte integrante del processo di progettazione del PTOF e della rendicontazione sociale, ma manca una trattazione specifica e strutturata. Il livello di maturità dell'orientamento appare quindi minimo, con una scarsa attenzione alle azioni concrete e alle strategie per supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione dedicata all'orientamento rappresenta una lacuna significativa. Ciò indica una mancanza di consapevolezza dell'importanza strategica dell'orientamento come elemento centrale del PTOF e della progettazione educativa.\n\n#### 2.2 Partnership e Reti\nNon vengono menzionate partnership o collaborazioni con enti esterni, aziende o professionisti del settore per potenziare l'offerta orientativa.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento non sono esplicitate nel documento. Non si individuano obiettivi specifici legati allo sviluppo delle attitudini, degli interessi, del progetto di vita degli studenti, alla facilitazione delle transizioni formative o al potenziamento delle loro capacità orientative e alla consapevolezza delle opportunità.\n\n#### 2.4 Governance e Azioni di Sistema\nNon sono previste azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti, il coinvolgimento delle famiglie o il monitoraggio delle attività orientative.\n\n#### 2.5 Didattica Orientativa\nNon si fa riferimento a metodologie didattiche specifiche per l'orientamento, come l'apprendimento basato sull'esperienza, le attività laboratoriali, la flessibilità degli spazi e dei tempi o l'approccio interdisciplinare.\n\n#### 2.6 Opportunità Formative\nNon sono previste attività opzionali o facoltative dedicate all'orientamento, come laboratori, seminari, visite aziendali o progetti di volontariato.\n\n#### 2.7 Registro Dettagliato delle Attività\nNon sono presenti attività specifiche relative all'orientamento da analizzare.\n\n### 3. Punti di Forza\nIl documento riconosce l'importanza del PTOF come strumento di progettazione e rendicontazione, che può essere utilizzato per integrare l'orientamento come parte del processo educativo.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento, la mancanza di obiettivi specifici, di azioni concrete e di partnership esterne rappresentano le principali aree di debolezza.\n\n### 5. Gap Analysis\nIl divario tra le Linee Guida sull'orientamento e le azioni descritte nel PTOF è significativo. È necessario un ripensamento complessivo della strategia orientativa della scuola, con l'obiettivo di integrare l'orientamento come elemento trasversale del PTOF e di garantire un'offerta formativa completa e personalizzata per gli studenti.\n\n### 6. Conclusioni\nL'analisi del PTOF evidenzia una scarsa attenzione all'orientamento scolastico. È necessario un impegno maggiore per sviluppare una strategia orientativa efficace, che coinvolga tutti gli attori della comunità scolastica e che sia in grado di supportare gli studenti nelle loro scelte formative e professionali."
 }

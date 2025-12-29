@@ -42,7 +42,7 @@ SUMMARY_FILE = 'data/analysis_summary.csv'
 
 CSV_COLUMNS = [
     'school_id', 'denominazione', 'comune', 'provincia', 'regione', 'area_geografica',
-    'tipo_scuola', 'territorio', 'ordine_grado', 'indirizzo', 'cap', 'email', 'pec', 'website',
+    'tipo_scuola', 'tipo_scuola_dettaglio', 'territorio', 'ordine_grado', 'indirizzo', 'cap', 'email', 'pec', 'website',
     'statale_paritaria', 'extraction_status', 'analysis_file',
 
     'has_sezione_dedicata', '2_1_score',
@@ -131,6 +131,7 @@ for school_code, json_file, json_data in selected_entries:
             provincia_sigla=school_code[:2]
         )
         summary_data['tipo_scuola'] = json_meta.get('tipo_scuola', 'ND')
+        summary_data['tipo_scuola_dettaglio'] = json_meta.get('tipo_scuola_dettaglio', 'ND')
         summary_data['territorio'] = json_meta.get('territorio', 'ND')
         summary_data['ordine_grado'] = json_meta.get('ordine_grado', 'ND')
         summary_data['indirizzo'] = json_meta.get('indirizzo', 'ND')

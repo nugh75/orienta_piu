@@ -19,11 +19,26 @@ Uso:
 import os
 import shutil
 import argparse
+import logging
 from pathlib import Path
 from datetime import datetime, timedelta
 
 # Directory base del progetto
 BASE_DIR = Path(__file__).parent
+
+# Setup logging
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'cleanup.log', encoding='utf-8')
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # =============================================================================
 # DEFINIZIONE FILE/DIRECTORY DA ELIMINARE

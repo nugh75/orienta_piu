@@ -181,6 +181,8 @@ def enrich_json_file(json_path, caches):
         )
         data['metadata']['ordine_grado'] = get_value('ordine_grado')
         data['metadata']['tipo_scuola'] = get_value('tipo_scuola')
+        # Dettaglio tipologia (es. Liceo Classico, Scientifico, ecc.) dal campo MIUR
+        data['metadata']['tipo_scuola_dettaglio'] = get_value('tipo_scuola_dettaglio', db_field='tipo_istruzione_raw')
         if str(data['metadata'].get('tipo_scuola', '')).strip().lower() == 'istituto superiore':
             data['metadata']['tipo_scuola'] = 'ND'
         data['metadata']['indirizzo'] = get_value('indirizzo')

@@ -30,7 +30,18 @@ sys.path.insert(0, str(BASE_DIR))
 import requests
 from pypdf import PdfReader
 
-# Configurazione logging
+# Setup logging
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'ptof_validator.log', encoding='utf-8')
+    ]
+)
 logger = logging.getLogger(__name__)
 
 # =====================================================

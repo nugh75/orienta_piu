@@ -235,6 +235,7 @@ class BestPracticeExtractor:
                             self.schools_metadata[school_id] = {
                                 'denominazione': row.get('denominazione', ''),
                                 'tipo_scuola': row.get('tipo_scuola', ''),
+                                'tipo_scuola_dettaglio': row.get('tipo_scuola_dettaglio', ''),
                                 'ordine_grado': row.get('ordine_grado', ''),
                                 'regione': row.get('regione', ''),
                                 'provincia': row.get('provincia', ''),
@@ -254,6 +255,7 @@ class BestPracticeExtractor:
             "codice_meccanografico": school_code,
             "nome": "",
             "tipo_scuola": "",
+            "tipo_scuola_dettaglio": "",
             "ordine_grado": "",
             "regione": "",
             "provincia": "",
@@ -269,6 +271,7 @@ class BestPracticeExtractor:
             metadata.update({
                 "nome": csv_data.get('denominazione', ''),
                 "tipo_scuola": csv_data.get('tipo_scuola', ''),
+                "tipo_scuola_dettaglio": csv_data.get('tipo_scuola_dettaglio', ''),
                 "ordine_grado": csv_data.get('ordine_grado', ''),
                 "regione": csv_data.get('regione', ''),
                 "provincia": csv_data.get('provincia', ''),
@@ -289,6 +292,7 @@ class BestPracticeExtractor:
                     metadata.update({
                         "nome": meta.get('denominazione', ''),
                         "tipo_scuola": meta.get('tipo_scuola', ''),
+                        "tipo_scuola_dettaglio": meta.get('tipo_scuola_dettaglio', ''),
                         "ordine_grado": meta.get('ordine_grado', ''),
                         "regione": meta.get('regione', ''),
                         "provincia": meta.get('provincia', ''),
