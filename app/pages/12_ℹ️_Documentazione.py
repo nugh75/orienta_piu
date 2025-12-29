@@ -477,7 +477,7 @@ st.markdown(
 - Ranking e Benchmark: classifiche, posizionamento e confronti multidimensionali.
 - Analytics avanzati: analisi statistiche, correlazioni e visualizzazioni esplorative.
 - Ricerca / Impatto metodologie: esplorazione di approcci didattici e relativi esiti.
-- Catalogo Buone Pratiche: estrazione, filtri, incroci categoria e analisi statistiche (significativita ed effetto).
+- Catalogo Attività: estrazione, filtri, incroci categoria e analisi statistiche (significativita ed effetto).
 - Orientamento Scuola: percorso guidato per famiglie/studenti con matching scuole.
 - Gestione dati (area amministrativa): qualita, filtri e allineamento metadati.
 - Contribuisci: Invia PTOF, Verifica Invio, Richiedi Revisione.
@@ -821,7 +821,7 @@ applicando correzioni prudenti quando emergono anomalie.
 
 st.markdown("---")
 
-st.header("Catalogo Buone Pratiche")
+st.header("Catalogo Attività")
 st.markdown(
     """
 Il catalogo raccoglie pratiche concrete estratte dai PTOF e le rende esplorabili
@@ -861,12 +861,12 @@ Sono consultabili anche in forma tabellare:
 st.dataframe(
     [
         {
-            "File": "data/best_practices.json",
+            "File": "data/attivita.json",
             "Contenuto": "Dataset pratiche estratte",
             "Chiavi principali": "version, last_updated, extraction_model, schools_processed, total_practices, practices[]",
         },
         {
-            "File": "data/best_practice_registry.json",
+            "File": "data/activity_registry.json",
             "Contenuto": "Registro avanzamento estrazione",
             "Chiavi principali": "version, last_updated, processed_files{}",
         },
@@ -1026,13 +1026,13 @@ with json_tabs[0]:
     st.markdown("Review report Ollama - output JSON (chunk)")
     st.code(OLLAMA_CHUNK_OUTPUT_JSON.strip(), language="json")
 
-    st.markdown("Catalogo buone pratiche - output prompt")
+    st.markdown("Catalogo attività - output prompt")
     st.code(BEST_PRACTICE_EXTRACTION_JSON.strip(), language="json")
 
-    st.markdown("Catalogo buone pratiche - dataset (data/best_practices.json)")
+    st.markdown("Catalogo attività - dataset (data/attivita.json)")
     st.code(BEST_PRACTICES_DATASET_JSON.strip(), language="json")
 
-    st.markdown("Catalogo buone pratiche - registry (data/best_practice_registry.json)")
+    st.markdown("Catalogo attività - registry (data/activity_registry.json)")
     st.code(BEST_PRACTICE_REGISTRY_JSON.strip(), language="json")
 
     st.markdown("Anagrafica comuni (data/comuni_italiani.json)")
@@ -1059,19 +1059,19 @@ with json_tabs[1]:
             "Chiavi principali": "enrichments[], corrections[], orientamento_*",
         },
         {
-            "JSON": "best_practice_extraction_output.json (prompt)",
-            "Dove": "Estrazione buone pratiche",
-            "Scopo": "Pratiche estratte per chunk",
+            "JSON": "activity_extraction_output.json (prompt)",
+            "Dove": "Estrazione attività",
+            "Scopo": "Attività estratte per chunk",
             "Chiavi principali": "pratiche[]",
         },
         {
-            "JSON": "data/best_practices.json",
+            "JSON": "data/attivita.json",
             "Dove": "Dataset catalogo",
-            "Scopo": "Dataset pratiche estratte",
+            "Scopo": "Dataset attività estratte",
             "Chiavi principali": "version, last_updated, extraction_model, schools_processed, total_practices, practices[]",
         },
         {
-            "JSON": "data/best_practice_registry.json",
+            "JSON": "data/activity_registry.json",
             "Dove": "Registro estrazione",
             "Scopo": "Stato e avanzamento",
             "Chiavi principali": "version, last_updated, processed_files{}",

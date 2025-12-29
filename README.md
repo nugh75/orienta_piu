@@ -96,8 +96,8 @@ make best-practice-extract-stats
 ```
 
 Output:
-- data/best_practices.json
-- data/best_practice_registry.json
+- data/attivita.json
+- data/activity_registry.json
 
 ## Pipeline multi agente (sintesi)
 

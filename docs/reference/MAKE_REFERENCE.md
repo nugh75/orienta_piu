@@ -267,21 +267,21 @@ make csv-watch INTERVAL=60
 
 | Comando | Descrizione |
 |---------|-------------|
-| `make best-practice-extract` | Estrae e aggiorna il dataset dal PTOF |
-| `make best-practice-extract-reset` | Reset e rielaborazione completa |
-| `make best-practice-extract-stats` | Statistiche rapide sul dataset |
+| `make activity-extract` | Estrae e aggiorna il dataset dal PTOF |
+| `make activity-extract-reset` | Reset e rielaborazione completa |
+| `make activity-extract-stats` | Statistiche rapide sul dataset |
 
 #### Parametri
 
 ```bash
 # Estrazione con modello specifico
-make best-practice-extract MODEL=qwen3:32b
+make activity-extract MODEL=qwen3:32b
 
 # Limita il numero di PDF
-make best-practice-extract LIMIT=10
+make activity-extract LIMIT=10
 
 # Forza rielaborazione completa
-make best-practice-extract FORCE=1
+make activity-extract FORCE=1
 ```
 
 ---
@@ -469,7 +469,7 @@ ptof_md/             # Markdown estratti dai PDF
 analysis_results/    # JSON con risultati analisi
 reports/             # Output legacy o manuali
 logs/                # File di log
-data/                # Configurazioni e dati (analysis_summary.csv, best_practices.json)
+data/                # Configurazioni e dati (analysis_summary.csv, attivita.json)
 ```
 
 ---

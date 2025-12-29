@@ -236,17 +236,17 @@ Parametri:
 
 **Estrazione dataset (Catalogo Pratiche):**
 ```bash
-make best-practice-extract MODEL=qwen3:32b
+make activity-extract MODEL=qwen3:32b
 ```
 
 **Reset e rielaborazione completa:**
 ```bash
-make best-practice-extract-reset
+make activity-extract-reset
 ```
 
 **Statistiche rapide:**
 ```bash
-make best-practice-extract-stats
+make activity-extract-stats
 ```
 
 ### 8.3 Comandi Makefile Principali
@@ -257,7 +257,7 @@ make best-practice-extract-stats
 | `make csv` | Rigenera CSV dai JSON |
 | `make dashboard` | Avvia dashboard Streamlit |
 | `make pipeline-ollama` | Analisi + revisione parallela |
-| `make best-practice-extract` | Estrazione buone pratiche (catalogo) |
+| `make activity-extract` | Estrazione attività (catalogo) |
 | `make help` | Mostra tutti i comandi disponibili |
 
 ---

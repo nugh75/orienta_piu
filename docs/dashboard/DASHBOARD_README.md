@@ -111,8 +111,8 @@ Ogni sottodimensione viene valutata con una scala a 7 livelli.
 - data/analysis_summary.csv
 - analysis_results/*.json
 - analysis_results/*.md
-- data/best_practices.json
-- data/best_practice_registry.json
+- data/attivita.json
+- data/activity_registry.json
 
 ## Agenti automatici (panoramica narrativa)
 
@@ -544,7 +544,7 @@ Se non trovi pratiche significative:
 }
 ```
 
-#### Catalogo buone pratiche - dataset (data/best_practices.json)
+#### Catalogo attività - dataset (data/attivita.json)
 ```json
 {
   "version": "1.0",
@@ -590,7 +590,7 @@ Se non trovi pratiche significative:
 }
 ```
 
-#### Catalogo buone pratiche - registry (data/best_practice_registry.json)
+#### Catalogo attività - registry (data/activity_registry.json)
 ```json
 {
   "version": "1.0",
@@ -630,9 +630,9 @@ Se non trovi pratiche significative:
 | analysis_results/{CODICE}_analysis.json | Output analisi PTOF | Risultati strutturati + report | metadata, ptof_section2, narrative |
 | score_review_output.json (prompt) | Review punteggi | Correzioni punteggi estremi | score_updates[], review_notes |
 | ollama_chunk_output.json (prompt) | Review report chunk | Arricchimenti e correzioni | enrichments[], corrections[], orientamento_* |
-| best_practice_extraction_output.json (prompt) | Estrazione buone pratiche | Pratiche estratte per chunk | pratiche[] |
-| data/best_practices.json | Dataset catalogo | Dataset pratiche estratte | version, last_updated, extraction_model, schools_processed, total_practices, practices[] |
-| data/best_practice_registry.json | Registro estrazione | Stato e avanzamento | version, last_updated, processed_files{} |
+| activity_extraction_output.json (prompt) | Estrazione attività | Pratiche/attività estratte per chunk | pratiche[] |
+| data/attivita.json | Dataset catalogo | Dataset attività estratte | version, last_updated, extraction_model, schools_processed, total_practices, practices[] |
+| data/activity_registry.json | Registro estrazione | Stato e avanzamento | version, last_updated, processed_files{} |
 | data/comuni_italiani.json | Anagrafica territori | Normalizzazione comuni/province/regioni | nome, codice, zona{}, regione{}, provincia{}, sigla, cap, popolazione |
 
 #### Struttura pratica (tabellare)

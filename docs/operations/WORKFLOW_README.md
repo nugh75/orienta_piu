@@ -89,12 +89,12 @@ make csv
 
 ```bash
 # Estrazione buone pratiche dal PTOF
-make best-practice-extract
+make activity-extract
 ```
 
 Comandi utili:
-- `make best-practice-extract-reset` - Reset e rielaborazione completa
-- `make best-practice-extract-stats` - Statistiche rapide sul dataset
+- `make activity-extract-reset` - Reset e rielaborazione completa
+- `make activity-extract-stats` - Statistiche rapide sul dataset
 
 ## 🔁 Cosa Succede nel Workflow
 

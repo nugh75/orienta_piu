@@ -9,6 +9,7 @@ import os
 import json
 import glob
 import numpy as np
+import csv
 from data_utils import render_footer
 from page_control import setup_page, switch_page
 
@@ -27,7 +28,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
-BEST_PRACTICES_FILE = 'data/best_practices.json'
+BEST_PRACTICES_FILE = 'data/attivita.json'
+BEST_PRACTICES_CSV = 'data/attivita.csv'
 
 DIMENSIONS = {
     'mean_finalita': 'Finalita',
@@ -125,15 +127,73 @@ def load_data():
 
 @st.cache_data(ttl=60)
 def load_best_practices():
+    # Prova JSON (solo se contiene ancora l'array pratiche)
     if os.path.exists(BEST_PRACTICES_FILE):
         try:
             with open(BEST_PRACTICES_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             practices = data.get('practices', [])
-            if isinstance(practices, list):
+            if isinstance(practices, list) and practices:
                 return practices
         except Exception:
-            return []
+            pass
+
+    # Fallback CSV (formato attuale)
+    if os.path.exists(BEST_PRACTICES_CSV):
+        try:
+            def pipe_to_list(val):
+                if not val:
+                    return []
+                return [v.strip() for v in str(val).split('|') if v.strip()]
+
+            practices = []
+            with open(BEST_PRACTICES_CSV, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    maturity = row.get('maturity_index')
+                    try:
+                        maturity = float(maturity) if maturity else None
+                    except (ValueError, TypeError):
+                        maturity = None
+
+                    practices.append({
+                        'id': row.get('id', ''),
+                        'school': {
+                            'codice_meccanografico': row.get('codice_meccanografico', ''),
+                            'nome': row.get('nome_scuola', ''),
+                            'tipo_scuola': row.get('tipo_scuola', ''),
+                            'ordine_grado': row.get('ordine_grado', ''),
+                            'regione': row.get('regione', ''),
+                            'provincia': row.get('provincia', ''),
+                            'comune': row.get('comune', ''),
+                            'area_geografica': row.get('area_geografica', ''),
+                            'territorio': row.get('territorio', ''),
+                            'statale_paritaria': row.get('statale_paritaria', ''),
+                        },
+                        'pratica': {
+                            'categoria': row.get('categoria', ''),
+                            'titolo': row.get('titolo', ''),
+                            'descrizione': row.get('descrizione', ''),
+                            'metodologia': row.get('metodologia', ''),
+                            'tipologie_metodologia': pipe_to_list(row.get('tipologie_metodologia', '')),
+                            'ambiti_attivita': pipe_to_list(row.get('ambiti_attivita', '')),
+                            'target': row.get('target', ''),
+                            'citazione_ptof': row.get('citazione_ptof', ''),
+                            'pagina_evidenza': row.get('pagina_evidenza', ''),
+                        },
+                        'contesto': {
+                            'maturity_index': maturity,
+                            'partnership_coinvolte': pipe_to_list(row.get('partnership_coinvolte', '')),
+                        },
+                        'metadata': {
+                            'extracted_at': row.get('extracted_at', ''),
+                            'model_used': row.get('model_used', ''),
+                            'source_file': row.get('source_file', ''),
+                        },
+                    })
+            return practices
+        except Exception:
+            pass
     return []
 
 # === FUNZIONI HELPER ===
@@ -899,7 +959,7 @@ with tab_practices:
     school_id = school_data.get('school_id', '')
 
     if not practices:
-        st.info("Catalogo pratiche non disponibile. Verifica `data/best_practices.json`.")
+        st.info("Catalogo pratiche non disponibile. Verifica `data/attivita.json`.")
     else:
         school_practices = get_school_practices(practices, school_id)
 

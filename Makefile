@@ -10,6 +10,7 @@
 	review-scores-openrouter review-scores-gemini review-scores-ollama \
 	review-non-ptof \
 	best-practice-extract best-practice-extract-reset best-practice-extract-stats \
+	activity-extract activity-extract-reset activity-extract-stats \
 	registry-status registry-list registry-clear registry-remove \
 	recover-not-ptof \
 	outreach-portal outreach-email \
@@ -80,11 +81,11 @@ help:
 	@echo "  make csv-watch       - Rigenera CSV ogni 5 min (INTERVAL=X per cambiare)"
 	@echo "  make backfill       - Backfill metadati mancanti con scan LLM mirata"
 	@echo ""
-	@echo "CATALOGO BUONE PRATICHE:"
-	@echo "  make best-practice-extract       - Estrae buone pratiche dai PDF PTOF"
+	@echo "CATALOGO ATTIVITÀ (ex buone pratiche):"
+	@echo "  make activity-extract            - Estrae attività dai PDF PTOF"
 	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
-	@echo "  make best-practice-extract-reset - Reset e ri-estrazione completa"
-	@echo "  make best-practice-extract-stats - Mostra statistiche estrazione"
+	@echo "  make activity-extract-reset      - Reset e ri-estrazione completa"
+	@echo "  make activity-extract-stats      - Mostra statistiche estrazione"
 	@echo ""
 	@echo "META REPORT (Best Practices):"
 	@echo "  make meta-status              - Stato dei report (pending/current/stale)"
@@ -221,46 +222,51 @@ backfill:
 # ESTRAZIONE BUONE PRATICHE DA PDF
 # ═══════════════════════════════════════════════════════════════════
 
-# Estrae buone pratiche dai PDF originali con Ollama
-# Uso: make best-practice-extract MODEL=qwen3:32b LIMIT=10
-best-practice-extract:
-	@echo "🌟 Estrazione Buone Pratiche dai PDF PTOF..."
-	$(PYTHON) -m src.agents.best_practice_extractor \
+# Estrae attività dai PDF originali con Ollama
+# Uso: make activity-extract MODEL=qwen3:32b LIMIT=10
+activity-extract:
+	@echo "🌟 Estrazione Attività dai PDF PTOF..."
+	$(PYTHON) -m src.agents.activity_extractor \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(LIMIT),--limit $(LIMIT),) \
 		$(if $(WAIT),--wait $(WAIT),) \
 		$(if $(FORCE),--force,) \
 		$(if $(TARGET),--target "$(TARGET)",)
-	@echo "✅ Buone pratiche salvate in data/best_practices.json"
+	@echo "✅ Attività salvate in data/attivita.json e data/attivita.csv"
 
 # Reset e ri-estrazione completa
-best-practice-extract-reset:
-	@echo "🔄 Reset e ri-estrazione buone pratiche..."
-	rm -f data/.best_practice_extraction_progress.json
-	rm -f data/best_practice_registry.json
-	$(PYTHON) -m src.agents.best_practice_extractor --force \
+activity-extract-reset:
+	@echo "🔄 Reset e ri-estrazione attività..."
+	rm -f data/.best_practice_extraction_progress.json data/activity_registry.json data/attivita.json data/attivita.csv
+	$(PYTHON) -m src.agents.activity_extractor --force \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
 	@echo "✅ Ri-estrazione completata"
 
 # Statistiche estrazione
-best-practice-extract-stats:
-	@if [ -f data/best_practices.json ]; then \
+activity-extract-stats:
+	@if [ -f data/attivita.json ]; then \
 		$(PYTHON) -c "import json; \
-d=json.load(open('data/best_practices.json')); \
-print(f'📊 Statistiche Buone Pratiche'); \
-print(f'   Pratiche totali: {d.get(\"total_practices\", 0)}'); \
+d=json.load(open('data/attivita.json')); \
+print(f'📊 Statistiche Attività'); \
+print(f'   Attività totali: {d.get(\"total_practices\", 0)}'); \
 print(f'   Scuole processate: {d.get(\"schools_processed\", 0)}'); \
 print(f'   Modello: {d.get(\"extraction_model\", \"N/D\")}'); \
-print(f'   Ultimo aggiornamento: {d.get(\"last_updated\", \"N/D\")[:19]}'); \
-cats={}; \
-[cats.update({p[\"pratica\"][\"categoria\"]: cats.get(p[\"pratica\"][\"categoria\"], 0)+1}) for p in d.get(\"practices\", [])]; \
-print(f'\\n📋 Per categoria:'); \
-[print(f'   {k}: {v}') for k,v in sorted(cats.items(), key=lambda x: -x[1])]"; \
+print(f'   Ultimo aggiornamento: {d.get(\"last_updated\", \"N/D\")[:19]}')"; \
 	else \
-		echo "❌ File data/best_practices.json non trovato. Esegui prima: make best-practice-extract"; \
+		echo "❌ File data/attivita.json non trovato. Esegui prima: make activity-extract"; \
 	fi
+
+# Alias retrocompatibili
+best-practice-extract: activity-extract
+	@echo "ℹ️  Alias: usa make activity-extract"
+
+best-practice-extract-reset: activity-extract-reset
+	@echo "ℹ️  Alias: usa make activity-extract-reset"
+
+best-practice-extract-stats: activity-extract-stats
+	@echo "ℹ️  Alias: usa make activity-extract-stats"
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
@@ -668,7 +674,7 @@ logs-live:
 		lnav logs; \
 	elif command -v multitail >/dev/null 2>&1; then \
 		echo "🔎 Aprendo multitail su log principali (q per uscire)"; \
-		multitail logs/analysis_debug.log logs/dashboard_run.log logs/best_practice_extractor.log; \
+		multitail logs/analysis_debug.log logs/dashboard_run.log logs/activity_extractor.log; \
 	else \
 		echo "ℹ️ lnav/multitail non trovati: fallback su tail -F logs/*.log (Ctrl+C per uscire)"; \
 		tail -F logs/*.log; \

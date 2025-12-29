@@ -4,7 +4,7 @@
     {"id": "home", "label": ""},
     {"id": "esplora", "label": "📊 Esplora Scuole"},
     {"id": "analisi", "label": "📈 Analisi e Benchmark"},
-    {"id": "pratiche", "label": "🌟 Buone Pratiche"},
+    {"id": "pratiche", "label": "🌟 Attività"},
     {"id": "contribuisci", "label": "📤 Contribuisci"},
     {"id": "info", "label": "ℹ️ Info"},
     {"id": "admin", "label": "🛠️ Amministrazione"}
@@ -73,8 +73,8 @@
       "order": 13,
       "section": "analisi"
     },
-    "pages/19_🌟_Buone_Pratiche.py": {
-      "label": "🌟 Catalogo Pratiche",
+    "pages/19_🌟_Attivita.py": {
+      "label": "🌟 Catalogo Attività",
       "visible": true,
       "locked": false,
       "order": 21,

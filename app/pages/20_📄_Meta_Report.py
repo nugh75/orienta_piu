@@ -31,7 +31,7 @@ st.markdown("""
 # === CONSTANTS ===
 META_REPORTS_DIR = Path("reports/meta")
 
-# Titoli comprensibili per le dimensioni (basati su best_practices.json)
+# Titoli comprensibili per le dimensioni (basati su attivita.json)
 DIM_TITLES = {
     # Categorie principali
     "metodologie": "Metodologie Didattiche Innovative",

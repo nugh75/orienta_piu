@@ -1,4 +1,4 @@
-"""Thematic report generator (by dimension) - reads from best_practices.json."""
+"""Thematic report generator (by dimension) - reads from attivita.json."""
 
 import json
 from collections import defaultdict
@@ -8,9 +8,9 @@ from typing import Optional
 from .base import BaseReporter
 
 
-# Dimension names mapping - basato sulle categorie in best_practices.json
+# Dimension names mapping - basato sulle categorie in attivita.json
 DIMENSIONS = {
-    # Categorie principali da best_practices
+    # Categorie principali da attivita
     "metodologie": "Metodologie Didattiche Innovative",
     "progetti": "Progetti e Attività Esemplari",
     "inclusione": "Inclusione e Supporto",
@@ -47,13 +47,13 @@ ACTIVITY_KEYWORDS = {
 
 
 class ThematicReporter(BaseReporter):
-    """Generate thematic report for a specific dimension from best_practices.json."""
+    """Generate thematic report for a specific dimension from attivita.json."""
 
     report_type = "thematic"
 
     def __init__(self, provider, base_dir: Optional[Path] = None):
         super().__init__(provider, base_dir)
-        self.best_practices_file = self.base_dir / "data" / "best_practices.json"
+        self.best_practices_file = self.base_dir / "data" / "attivita.json"
 
     def get_output_path(self, dimension: str, **kwargs) -> Path:
         """Get output path for thematic report."""

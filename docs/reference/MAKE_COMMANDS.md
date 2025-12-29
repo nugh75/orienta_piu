@@ -35,9 +35,9 @@ make workflow
 
 ## Catalogo buone pratiche
 ```bash
-make best-practice-extract
-make best-practice-extract-reset
-make best-practice-extract-stats
+make activity-extract
+make activity-extract-reset
+make activity-extract-stats
 ```
 
 ## Note
