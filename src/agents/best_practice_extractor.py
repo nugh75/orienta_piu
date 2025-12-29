@@ -5,13 +5,14 @@ Best Practice Extractor - Estrae e cataloga buone pratiche dai file MD dei PTOF.
 Strategia:
 1. Legge i file MD da ptof_md/ (testo già estratto dai PDF)
 2. Usa Ollama per estrarre e categorizzare le buone pratiche
-3. Salva in data/best_practices.json con struttura completa
+3. Salva in data/best_practices.csv (dati) e best_practices.json (metadata)
 4. Traccia il progresso per evitare ri-elaborazioni
 """
 
 import os
 import sys
 import json
+import csv
 import uuid
 import time
 import signal
@@ -36,9 +37,18 @@ DATA_DIR = BASE_DIR / "data"
 LOG_DIR = BASE_DIR / "logs"
 
 # Output files
-OUTPUT_FILE = DATA_DIR / "best_practices.json"
-PROGRESS_FILE = DATA_DIR / ".best_practice_extraction_progress.json"
+OUTPUT_CSV = DATA_DIR / "best_practices.csv"
+OUTPUT_JSON = DATA_DIR / "best_practices.json"  # Solo metadata
 REGISTRY_FILE = DATA_DIR / "best_practice_registry.json"
+
+# Colonne CSV
+CSV_COLUMNS = [
+    'id', 'codice_meccanografico', 'nome_scuola', 'tipo_scuola', 'ordine_grado',
+    'regione', 'provincia', 'comune', 'area_geografica', 'territorio', 'statale_paritaria',
+    'categoria', 'titolo', 'descrizione', 'metodologia', 'tipologie_metodologia',
+    'ambiti_attivita', 'target', 'citazione_ptof', 'pagina_evidenza',
+    'maturity_index', 'partnership_coinvolte', 'extracted_at', 'model_used', 'source_file'
+]
 
 # Ensure directories exist
 LOG_DIR.mkdir(exist_ok=True)
@@ -741,6 +751,99 @@ Se non trovi pratiche significative:
 
         return all_practices
 
+    def _list_to_pipe(self, value):
+        """Converte lista in stringa separata da |."""
+        if isinstance(value, list):
+            return '|'.join(str(v) for v in value if v)
+        elif value:
+            return str(value)
+        return ''
+
+    def _pipe_to_list(self, value):
+        """Converte stringa separata da | in lista."""
+        if not value or value == '':
+            return []
+        return [v.strip() for v in str(value).split('|') if v.strip()]
+
+    def _practice_to_row(self, practice: Dict) -> Dict:
+        """Converte una pratica nested in una riga flat per CSV."""
+        school = practice.get('school', {})
+        pratica = practice.get('pratica', {})
+        contesto = practice.get('contesto', {})
+        metadata = practice.get('metadata', {})
+
+        return {
+            'id': practice.get('id', ''),
+            'codice_meccanografico': school.get('codice_meccanografico', ''),
+            'nome_scuola': school.get('nome', ''),
+            'tipo_scuola': school.get('tipo_scuola', ''),
+            'ordine_grado': school.get('ordine_grado', ''),
+            'regione': school.get('regione', ''),
+            'provincia': school.get('provincia', ''),
+            'comune': school.get('comune', ''),
+            'area_geografica': school.get('area_geografica', ''),
+            'territorio': school.get('territorio', ''),
+            'statale_paritaria': school.get('statale_paritaria', ''),
+            'categoria': pratica.get('categoria', ''),
+            'titolo': pratica.get('titolo', ''),
+            'descrizione': pratica.get('descrizione', ''),
+            'metodologia': pratica.get('metodologia', ''),
+            'tipologie_metodologia': self._list_to_pipe(pratica.get('tipologie_metodologia', [])),
+            'ambiti_attivita': self._list_to_pipe(pratica.get('ambiti_attivita', [])),
+            'target': pratica.get('target', ''),
+            'citazione_ptof': pratica.get('citazione_ptof', ''),
+            'pagina_evidenza': pratica.get('pagina_evidenza', ''),
+            'maturity_index': contesto.get('maturity_index', ''),
+            'partnership_coinvolte': self._list_to_pipe(contesto.get('partnership_coinvolte', [])),
+            'extracted_at': metadata.get('extracted_at', ''),
+            'model_used': metadata.get('model_used', ''),
+            'source_file': metadata.get('source_file', '')
+        }
+
+    def _row_to_practice(self, row: Dict) -> Dict:
+        """Converte una riga CSV in struttura pratica nested."""
+        maturity = row.get('maturity_index', '')
+        try:
+            maturity = float(maturity) if maturity else None
+        except (ValueError, TypeError):
+            maturity = None
+
+        return {
+            'id': row.get('id', ''),
+            'school': {
+                'codice_meccanografico': row.get('codice_meccanografico', ''),
+                'nome': row.get('nome_scuola', ''),
+                'tipo_scuola': row.get('tipo_scuola', ''),
+                'ordine_grado': row.get('ordine_grado', ''),
+                'regione': row.get('regione', ''),
+                'provincia': row.get('provincia', ''),
+                'comune': row.get('comune', ''),
+                'area_geografica': row.get('area_geografica', ''),
+                'territorio': row.get('territorio', ''),
+                'statale_paritaria': row.get('statale_paritaria', '')
+            },
+            'pratica': {
+                'categoria': row.get('categoria', ''),
+                'titolo': row.get('titolo', ''),
+                'descrizione': row.get('descrizione', ''),
+                'metodologia': row.get('metodologia', ''),
+                'tipologie_metodologia': self._pipe_to_list(row.get('tipologie_metodologia', '')),
+                'ambiti_attivita': self._pipe_to_list(row.get('ambiti_attivita', '')),
+                'target': row.get('target', ''),
+                'citazione_ptof': row.get('citazione_ptof', ''),
+                'pagina_evidenza': row.get('pagina_evidenza', '')
+            },
+            'contesto': {
+                'maturity_index': maturity,
+                'partnership_coinvolte': self._pipe_to_list(row.get('partnership_coinvolte', ''))
+            },
+            'metadata': {
+                'extracted_at': row.get('extracted_at', ''),
+                'model_used': row.get('model_used', ''),
+                'source_file': row.get('source_file', '')
+            }
+        }
+
     def load_progress(self):
         """Carica il progresso e le pratiche esistenti."""
         # Carica registry
@@ -753,15 +856,15 @@ Se non trovi pratiche significative:
             except Exception as e:
                 logger.warning(f"Errore caricamento registry: {e}")
 
-        # Carica pratiche esistenti
-        if OUTPUT_FILE.exists():
+        # Carica pratiche esistenti da CSV
+        if OUTPUT_CSV.exists():
             try:
-                with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    self.practices = data.get('practices', [])
-                logger.info(f"Pratiche esistenti caricate: {len(self.practices)}")
+                with open(OUTPUT_CSV, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    self.practices = [self._row_to_practice(row) for row in reader]
+                logger.info(f"Pratiche esistenti caricate da CSV: {len(self.practices)}")
             except Exception as e:
-                logger.warning(f"Errore caricamento pratiche: {e}")
+                logger.warning(f"Errore caricamento pratiche CSV: {e}")
 
     def save_progress(self):
         """Salva il progresso e le pratiche."""
@@ -774,19 +877,28 @@ Se non trovi pratiche significative:
         with open(REGISTRY_FILE, 'w') as f:
             json.dump(registry_data, f, indent=2)
 
-        # Salva pratiche
-        output_data = {
-            "version": "1.0",
+        # Salva pratiche in CSV
+        rows = [self._practice_to_row(p) for p in self.practices]
+        with open(OUTPUT_CSV, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS, quoting=csv.QUOTE_ALL)
+            writer.writeheader()
+            writer.writerows(rows)
+
+        # Salva metadata in JSON (senza le pratiche)
+        schools_processed = len(set(p['school']['codice_meccanografico'] for p in self.practices))
+        metadata = {
+            "version": "2.0",
+            "format": "csv",
+            "csv_file": "best_practices.csv",
             "last_updated": datetime.now().isoformat(),
             "extraction_model": self.model,
             "total_practices": len(self.practices),
-            "schools_processed": len(set(p['school']['codice_meccanografico'] for p in self.practices)),
-            "practices": self.practices
+            "schools_processed": schools_processed
         }
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, ensure_ascii=False, indent=2)
 
-        logger.info(f"Salvate {len(self.practices)} pratiche")
+        logger.info(f"Salvate {len(self.practices)} pratiche in CSV")
 
     def get_md_files_to_process(self, force: bool = False, target: str = None) -> List[Path]:
         """Ottiene la lista dei file MD da processare."""

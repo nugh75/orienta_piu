@@ -2,7 +2,7 @@
 	help setup wizard config config-show \
 	run run-force run-force-code workflow workflow-force \
 	dashboard csv csv-watch backfill clean \
-	logs \
+	logs logs-live \
 	refresh full pipeline pipeline-ollama \
 	download download-sample download-strato download-statali download-paritarie \
 	download-regione download-metro download-non-metro download-grado download-area download-reset \
@@ -40,7 +40,8 @@ help:
 	@echo "  make wizard               - Wizard interattivo per i comandi make"
 	@echo "  make config               - Wizard configurazione pipeline (modelli, chunking)"
 	@echo "  make config-show          - Mostra configurazione attuale"
-	@echo "  make logs                 - Visualizzatore interattivo log"
+	@echo "  make logs                 - Visualizzatore interattivo log (lnav se installato)"
+	@echo "  make logs-live            - Segui i log in tempo reale (lnav/multitail/tail)"
 	@echo ""
 	@echo "DOWNLOAD PTOF:"
 	@echo "  make download              - Dry-run: mostra stratificazione senza scaricare"
@@ -653,7 +654,25 @@ list-backups:
 
 # Visualizzatore log interattivo (uso: make logs [LINES=50])
 logs:
-	$(PYTHON) $(LOG_VIEWER) $(if $(LINES),--lines $(LINES),)
+	@if command -v lnav >/dev/null 2>&1; then \
+		echo "🔎 Aprendo lnav su logs/ (q per uscire)"; \
+		lnav logs; \
+	else \
+		$(PYTHON) $(LOG_VIEWER) $(if $(LINES),--lines $(LINES),); \
+	fi
+
+# Visualizzazione live multi-log (lnav > multitail > tail -F)
+logs-live:
+	@if command -v lnav >/dev/null 2>&1; then \
+		echo "🔎 Aprendo lnav su logs/ (q per uscire)"; \
+		lnav logs; \
+	elif command -v multitail >/dev/null 2>&1; then \
+		echo "🔎 Aprendo multitail su log principali (q per uscire)"; \
+		multitail logs/analysis_debug.log logs/dashboard_run.log logs/best_practice_extractor.log; \
+	else \
+		echo "ℹ️ lnav/multitail non trovati: fallback su tail -F logs/*.log (Ctrl+C per uscire)"; \
+		tail -F logs/*.log; \
+	fi
 
 # ═══════════════════════════════════════════════════════════════════
 # META REPORT - Best Practices Reports

@@ -11,6 +11,7 @@ Aggiornala quando si spostano o si aggiungono documenti.
 - [Makefile reference](reference/MAKE_REFERENCE.md)
 - [Make quick start](reference/MAKE_COMMANDS.md)
 - [Dashboard](dashboard/DASHBOARD_README.md)
+- [Log & tmux (rapida)](LOGS_TMUX.md)
 
 ### Analisi e metodologia
 - [Documentazione analisi](analysis/DOCUMENTAZIONE_ANALISI.md)

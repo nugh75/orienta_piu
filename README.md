@@ -27,6 +27,7 @@ make dashboard
 - [Makefile reference](docs/reference/MAKE_REFERENCE.md)
 - [Dashboard](docs/dashboard/DASHBOARD_README.md)
 - [Documentazione analisi](docs/analysis/DOCUMENTAZIONE_ANALISI.md)
+- [Log & tmux (rapida)](docs/LOGS_TMUX.md)
 
 ## API keys (solo per review con LLM cloud)
 

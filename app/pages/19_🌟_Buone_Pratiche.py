@@ -40,7 +40,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === CONSTANTS ===
-BEST_PRACTICES_FILE = 'data/best_practices.json'
+BEST_PRACTICES_CSV = 'data/best_practices.csv'
+BEST_PRACTICES_JSON = 'data/best_practices.json'  # Solo metadata
 
 CATEGORIE = [
     "Metodologie Didattiche Innovative",
@@ -152,16 +153,43 @@ REGION_COORDS = {
 # === CARICAMENTO DATI ===
 @st.cache_data(ttl=30)
 def load_practices():
-    """Carica le buone pratiche dal file JSON."""
-    if os.path.exists(BEST_PRACTICES_FILE):
+    """Carica le buone pratiche dal CSV e metadata dal JSON."""
+    result = {
+        "df": pd.DataFrame(),
+        "total_practices": 0,
+        "schools_processed": 0,
+        "last_updated": None,
+        "extraction_model": None
+    }
+
+    # Carica dati da CSV
+    if os.path.exists(BEST_PRACTICES_CSV):
         try:
-            with open(BEST_PRACTICES_FILE, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data
+            df = pd.read_csv(BEST_PRACTICES_CSV)
+            result["df"] = df
+            result["total_practices"] = len(df)
+            result["schools_processed"] = df['codice_meccanografico'].nunique()
         except Exception as e:
-            st.error(f"Errore caricamento dati: {e}")
-            return {"practices": [], "total_practices": 0, "schools_processed": 0}
-    return {"practices": [], "total_practices": 0, "schools_processed": 0}
+            st.error(f"Errore caricamento CSV: {e}")
+
+    # Carica metadata da JSON
+    if os.path.exists(BEST_PRACTICES_JSON):
+        try:
+            with open(BEST_PRACTICES_JSON, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+                result["last_updated"] = metadata.get("last_updated")
+                result["extraction_model"] = metadata.get("extraction_model")
+        except Exception:
+            pass
+
+    return result
+
+
+def pipe_to_list(value):
+    """Converte stringa separata da | in lista."""
+    if pd.isna(value) or value == '':
+        return []
+    return [v.strip() for v in str(value).split('|') if v.strip()]
 
 
 def refresh_data():
@@ -170,213 +198,118 @@ def refresh_data():
     st.rerun()
 
 
-def filter_practices(practices, categoria=None, regioni=None, tipi_scuola=None,
+def filter_practices(df, categoria=None, regioni=None, tipi_scuola=None,
                      aree_geo=None, province=None, targets=None,
                      tipologie_metodologia=None, ambiti_attivita=None,
                      tipologie_istituto=None, ordini_grado=None,
                      maturity_range=None, search_text=None):
-    """Filtra le pratiche in base ai criteri selezionati."""
-    filtered = practices
+    """Filtra le pratiche usando operazioni pandas vettorizzate."""
+    if df.empty:
+        return df
+
+    mask = pd.Series(True, index=df.index)
 
     if categoria and categoria != "Tutte":
-        filtered = [p for p in filtered if p.get("pratica", {}).get("categoria") == categoria]
+        mask &= df['categoria'] == categoria
 
     if regioni and len(regioni) > 0:
-        filtered = [p for p in filtered if p.get("school", {}).get("regione") in regioni]
+        mask &= df['regione'].isin(regioni)
 
     if tipi_scuola and len(tipi_scuola) > 0:
-        def has_type(p):
-            tipo = p.get("school", {}).get("tipo_scuola", "")
-            return any(t in tipo for t in tipi_scuola)
-        filtered = [p for p in filtered if has_type(p)]
+        pattern = '|'.join(tipi_scuola)
+        mask &= df['tipo_scuola'].str.contains(pattern, case=False, na=False)
 
     if aree_geo and len(aree_geo) > 0:
-        filtered = [p for p in filtered if p.get("school", {}).get("area_geografica") in aree_geo]
+        mask &= df['area_geografica'].isin(aree_geo)
 
     if province and len(province) > 0:
-        filtered = [p for p in filtered if p.get("school", {}).get("provincia") in province]
+        mask &= df['provincia'].isin(province)
 
     if targets and len(targets) > 0:
-        def has_target(p):
-            target_text = p.get("pratica", {}).get("target", "").lower()
-            return any(t.lower() in target_text for t in targets)
-        filtered = [p for p in filtered if has_target(p)]
+        pattern = '|'.join(targets)
+        mask &= df['target'].str.contains(pattern, case=False, na=False)
 
-    # Filtro per tipologie di metodologia
+    # Filtro per tipologie di metodologia (campo con |)
     if tipologie_metodologia and len(tipologie_metodologia) > 0:
-        def has_metodologia(p):
-            met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
-            if isinstance(met_list, str):
-                met_list = [met_list]
-            return any(m in met_list for m in tipologie_metodologia)
-        filtered = [p for p in filtered if has_metodologia(p)]
+        pattern = '|'.join(tipologie_metodologia)
+        mask &= df['tipologie_metodologia'].str.contains(pattern, case=False, na=False)
 
-    # Filtro per ambiti di attività
+    # Filtro per ambiti di attività (campo con |)
     if ambiti_attivita and len(ambiti_attivita) > 0:
-        def has_ambito(p):
-            amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
-            if isinstance(amb_list, str):
-                amb_list = [amb_list]
-            return any(a in amb_list for a in ambiti_attivita)
-        filtered = [p for p in filtered if has_ambito(p)]
+        pattern = '|'.join(ambiti_attivita)
+        mask &= df['ambiti_attivita'].str.contains(pattern, case=False, na=False)
 
     # Filtro per tipologia istituto
     if tipologie_istituto and len(tipologie_istituto) > 0:
-        def has_tipologia_istituto(p):
-            tipo = p.get("school", {}).get("tipo_scuola", "")
-            nome = p.get("school", {}).get("nome", "")
-            combined = f"{tipo} {nome}".lower()
-            return any(t.lower() in combined for t in tipologie_istituto)
-        filtered = [p for p in filtered if has_tipologia_istituto(p)]
+        pattern = '|'.join(tipologie_istituto)
+        combined = df['tipo_scuola'].fillna('') + ' ' + df['nome_scuola'].fillna('')
+        mask &= combined.str.contains(pattern, case=False, na=False)
 
     # Filtro per ordine/grado
     if ordini_grado and len(ordini_grado) > 0:
-        def has_ordine(p):
-            ordine = p.get("school", {}).get("ordine_grado", "")
-            tipo = p.get("school", {}).get("tipo_scuola", "")
-            combined = f"{ordine} {tipo}".lower()
-            return any(o.lower() in combined for o in ordini_grado)
-        filtered = [p for p in filtered if has_ordine(p)]
+        pattern = '|'.join(ordini_grado)
+        combined = df['ordine_grado'].fillna('') + ' ' + df['tipo_scuola'].fillna('')
+        mask &= combined.str.contains(pattern, case=False, na=False)
 
     if maturity_range and len(maturity_range) == 2:
         min_val, max_val = maturity_range
-        def in_maturity_range(p):
-            mi = p.get("contesto", {}).get("maturity_index")
-            if mi is None:
-                return True  # Includi pratiche senza indice
-            return min_val <= mi <= max_val
-        filtered = [p for p in filtered if in_maturity_range(p)]
+        mi = pd.to_numeric(df['maturity_index'], errors='coerce')
+        mask &= (mi.isna()) | ((mi >= min_val) & (mi <= max_val))
 
     if search_text:
         search_lower = search_text.lower()
-        def matches_search(p):
-            titolo = p.get("pratica", {}).get("titolo", "").lower()
-            descrizione = p.get("pratica", {}).get("descrizione", "").lower()
-            metodologia = p.get("pratica", {}).get("metodologia", "").lower()
-            target = p.get("pratica", {}).get("target", "").lower()
-            nome_scuola = p.get("school", {}).get("nome", "").lower()
-            codice = p.get("school", {}).get("codice_meccanografico", "").lower()
-            comune = p.get("school", {}).get("comune", "").lower()
-            # Cerca anche in tipologie e ambiti
-            tipologie = " ".join(p.get("pratica", {}).get("tipologie_metodologia", [])).lower()
-            ambiti = " ".join(p.get("pratica", {}).get("ambiti_attivita", [])).lower()
-            return (search_lower in titolo or
-                    search_lower in descrizione or
-                    search_lower in metodologia or
-                    search_lower in target or
-                    search_lower in nome_scuola or
-                    search_lower in codice or
-                    search_lower in comune or
-                    search_lower in tipologie or
-                    search_lower in ambiti)
-        filtered = [p for p in filtered if matches_search(p)]
+        search_cols = ['titolo', 'descrizione', 'metodologia', 'target',
+                       'nome_scuola', 'codice_meccanografico', 'comune',
+                       'tipologie_metodologia', 'ambiti_attivita']
+        search_mask = pd.Series(False, index=df.index)
+        for col in search_cols:
+            if col in df.columns:
+                search_mask |= df[col].fillna('').str.lower().str.contains(search_lower, na=False)
+        mask &= search_mask
 
-    return filtered
+    return df[mask]
 
 
-def group_practices(practices, group_by="categoria"):
-    """Raggruppa le pratiche per un campo specifico."""
-    groups = {}
-    for p in practices:
-        if group_by == "categoria":
-            key = p.get("pratica", {}).get("categoria", "Altro")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "regione":
-            key = p.get("school", {}).get("regione", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "scuola":
-            key = p.get("school", {}).get("nome", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "provincia":
-            key = p.get("school", {}).get("provincia", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "tipo_scuola":
-            key = p.get("school", {}).get("tipo_scuola", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "area_geografica":
-            key = p.get("school", {}).get("area_geografica", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        elif group_by == "tipologia_metodologia":
-            # Una pratica può apparire in più gruppi se ha più metodologie
-            met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
-            if isinstance(met_list, str):
-                met_list = [met_list] if met_list else ["N/D"]
-            if not met_list:
-                met_list = ["N/D"]
-            for met in met_list:
-                if met not in groups:
-                    groups[met] = []
-                groups[met].append(p)
-        elif group_by == "ambito_attivita":
-            # Una pratica può apparire in più gruppi se ha più ambiti
-            amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
-            if isinstance(amb_list, str):
-                amb_list = [amb_list] if amb_list else ["N/D"]
-            if not amb_list:
-                amb_list = ["N/D"]
-            for amb in amb_list:
-                if amb not in groups:
-                    groups[amb] = []
-                groups[amb].append(p)
-        elif group_by == "ordine_grado":
-            key = p.get("school", {}).get("ordine_grado", "N/D")
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
-        else:
-            key = "Tutte"
-            if key not in groups:
-                groups[key] = []
-            groups[key].append(p)
+def group_practices(df, group_by="categoria"):
+    """Raggruppa le pratiche per un campo specifico usando pandas."""
+    if df.empty:
+        return {}
+
+    # Mapping dei nomi dei campi
+    field_map = {
+        "categoria": "categoria",
+        "regione": "regione",
+        "scuola": "nome_scuola",
+        "provincia": "provincia",
+        "tipo_scuola": "tipo_scuola",
+        "area_geografica": "area_geografica",
+        "ordine_grado": "ordine_grado"
+    }
+
+    # Per campi con | (liste), usiamo explode
+    if group_by in ["tipologia_metodologia", "ambito_attivita"]:
+        col = "tipologie_metodologia" if group_by == "tipologia_metodologia" else "ambiti_attivita"
+        # Crea copia e esplodi
+        temp = df.copy()
+        temp[col] = temp[col].fillna('N/D').apply(lambda x: x.split('|') if x else ['N/D'])
+        temp = temp.explode(col)
+        temp[col] = temp[col].str.strip()
+        temp = temp[temp[col] != '']
+        # Raggruppa
+        groups = {}
+        for key in temp[col].unique():
+            groups[key] = temp[temp[col] == key].to_dict('records')
+    else:
+        col = field_map.get(group_by, "categoria")
+        if col not in df.columns:
+            return {"Tutte": df.to_dict('records')}
+        # Raggruppa
+        groups = {}
+        for key in df[col].fillna('N/D').unique():
+            groups[key] = df[df[col].fillna('N/D') == key].to_dict('records')
 
     # Ordina gruppi per numero di pratiche (decrescente)
     return dict(sorted(groups.items(), key=lambda x: -len(x[1])))
-
-
-def practices_to_dataframe(practices):
-    """Converte le pratiche in DataFrame per elaborazioni."""
-    rows = []
-    for p in practices:
-        school = p.get("school", {})
-        pratica = p.get("pratica", {})
-        contesto = p.get("contesto", {})
-
-        rows.append({
-            "id": p.get("id", ""),
-            "codice": school.get("codice_meccanografico", ""),
-            "nome_scuola": school.get("nome", ""),
-            "tipo_scuola": school.get("tipo_scuola", ""),
-            "regione": school.get("regione", ""),
-            "provincia": school.get("provincia", ""),
-            "comune": school.get("comune", ""),
-            "area_geografica": school.get("area_geografica", ""),
-            "territorio": school.get("territorio", ""),
-            "statale_paritaria": school.get("statale_paritaria", ""),
-            "ordine_grado": school.get("ordine_grado", ""),
-            "categoria": pratica.get("categoria", ""),
-            "titolo": pratica.get("titolo", ""),
-            "descrizione": pratica.get("descrizione", ""),
-            "metodologia": pratica.get("metodologia", ""),
-            "target": pratica.get("target", ""),
-            "ambiti_attivita": pratica.get("ambiti_attivita", []),
-            "tipologie_metodologia": pratica.get("tipologie_metodologia", []),
-            "citazione_ptof": pratica.get("citazione_ptof", ""),
-            "maturity_index": contesto.get("maturity_index")
-        })
-
-    return pd.DataFrame(rows)
 
 
 INVALID_VALUES = {"", "N/D", "ND", "NAN", "NONE"}
@@ -495,9 +428,9 @@ with st.expander("Legenda emoji (categorie)", expanded=False):
 
 # Carica dati
 data = load_practices()
-practices = data.get("practices", [])
+df_practices = data.get("df", pd.DataFrame())
 
-if not practices:
+if df_practices.empty:
     st.warning("Nessuna buona pratica trovata. Esegui prima `make best-practice-extract` per estrarre le pratiche dai PDF.")
     st.info("""
     **Come estrarre le buone pratiche:**
@@ -530,29 +463,21 @@ with col_f1:
     sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni)
 
 with col_f2:
-    # Ambito Attività - estrai dalle pratiche esistenti
-    ambiti_disponibili = set()
-    for p in practices:
-        amb_list = p.get("pratica", {}).get("ambiti_attivita", [])
-        if isinstance(amb_list, list):
-            ambiti_disponibili.update(amb_list)
-        elif amb_list:
-            ambiti_disponibili.add(amb_list)
-    ambiti_disponibili = sorted([a for a in ambiti_disponibili if a])
+    # Ambito Attività - estrai dal CSV (campo con |)
+    ambiti_disponibili = sorted(set(
+        a.strip() for a in df_practices['ambiti_attivita'].dropna().str.split('|').explode()
+        if a.strip()
+    ))
     if not ambiti_disponibili:
         ambiti_disponibili = AMBITI_ATTIVITA
     sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili)
 
 with col_f3:
-    # Tipologia Metodologia - estrai dalle pratiche esistenti
-    metodologie_disponibili = set()
-    for p in practices:
-        met_list = p.get("pratica", {}).get("tipologie_metodologia", [])
-        if isinstance(met_list, list):
-            metodologie_disponibili.update(met_list)
-        elif met_list:
-            metodologie_disponibili.add(met_list)
-    metodologie_disponibili = sorted([m for m in metodologie_disponibili if m])
+    # Tipologia Metodologia - estrai dal CSV (campo con |)
+    metodologie_disponibili = sorted(set(
+        m.strip() for m in df_practices['tipologie_metodologia'].dropna().str.split('|').explode()
+        if m.strip()
+    ))
     if not metodologie_disponibili:
         metodologie_disponibili = TIPOLOGIE_METODOLOGIA
     sel_metodologie = st.multiselect("📚 Tipologia Metodologia", metodologie_disponibili)
@@ -571,72 +496,51 @@ with col_f6:
     sel_targets = st.multiselect("👥 Target", target_options)
 
 # === FILTRI AVANZATI (expander) ===
-with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice Maturità)", expanded=False):
+with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
     # Riga filtri geografici
     col_g1, col_g2, col_g3, col_g4 = st.columns(4)
 
     with col_g1:
         # Area geografica
-        aree_disponibili = sorted(set(
-            p.get("school", {}).get("area_geografica", "")
-            for p in practices
-            if p.get("school", {}).get("area_geografica")
-        ))
+        aree_disponibili = sorted(df_practices['area_geografica'].dropna().unique().tolist())
         sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili)
 
     with col_g2:
         # Regione (multiselect)
-        regioni_disponibili = sorted(set(
-            p.get("school", {}).get("regione", "")
-            for p in practices
-            if p.get("school", {}).get("regione")
-        ))
+        regioni_disponibili = sorted(df_practices['regione'].dropna().unique().tolist())
         sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili)
 
     with col_g3:
         # Provincia (multiselect) - filtrata per regioni selezionate
         if sel_regioni:
-            province_disponibili = sorted(set(
-                p.get("school", {}).get("provincia", "")
-                for p in practices
-                if p.get("school", {}).get("provincia") and p.get("school", {}).get("regione") in sel_regioni
-            ))
+            province_disponibili = sorted(
+                df_practices[df_practices['regione'].isin(sel_regioni)]['provincia'].dropna().unique().tolist()
+            )
         else:
-            province_disponibili = sorted(set(
-                p.get("school", {}).get("provincia", "")
-                for p in practices
-                if p.get("school", {}).get("provincia")
-            ))
+            province_disponibili = sorted(df_practices['provincia'].dropna().unique().tolist())
         sel_province = st.multiselect("🏙️ Provincia", province_disponibili)
 
     with col_g4:
         # Tipo scuola legacy
-        tipi_set = set()
-        for p in practices:
-            tipo = p.get("school", {}).get("tipo_scuola", "")
-            for t in tipo.split(","):
-                t = t.strip()
-                if t:
-                    tipi_set.add(t)
-        tipi_disponibili = sorted(tipi_set)
+        tipi_disponibili = sorted(set(
+            t.strip() for t in df_practices['tipo_scuola'].dropna().str.split(',').explode()
+            if t.strip()
+        ))
         sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili)
 
     # Riga per maturity index
     col_m1, col_m2 = st.columns([1, 3])
     with col_m1:
-        st.markdown("**📊 Indice Maturità RO**")
+        st.markdown("**📊 Indice RO (Robustezza Orientamento)**")
     with col_m2:
-        maturity_values = [
-            p.get("contesto", {}).get("maturity_index")
-            for p in practices
-            if p.get("contesto", {}).get("maturity_index") is not None
-        ]
-        if maturity_values:
-            min_mi = min(maturity_values)
-            max_mi = max(maturity_values)
+        maturity_col = pd.to_numeric(df_practices['maturity_index'], errors='coerce')
+        maturity_values = maturity_col.dropna()
+        if len(maturity_values) > 0:
+            min_mi = maturity_values.min()
+            max_mi = maturity_values.max()
             if min_mi < max_mi:
                 sel_maturity = st.slider(
-                    "Range Indice Maturità",
+                    "Range Indice RO",
                     min_value=float(min_mi),
                     max_value=float(max_mi),
                     value=(float(min_mi), float(max_mi)),
@@ -672,8 +576,8 @@ with col_info5:
 st.markdown("---")
 
 # Applica filtri
-filtered = filter_practices(
-    practices,
+df_filtered = filter_practices(
+    df_practices,
     categoria=sel_categoria,
     regioni=sel_regioni if sel_regioni else None,
     tipi_scuola=sel_tipi if sel_tipi else None,
@@ -695,20 +599,20 @@ tab_catalogo, tab_mappa, tab_grafici, tab_export = st.tabs([
 
 # === TAB CATALOGO ===
 with tab_catalogo:
-    st.subheader(f"📋 {len(filtered)} Buone Pratiche Trovate")
+    st.subheader(f"📋 {len(df_filtered)} Buone Pratiche Trovate")
 
     # Metriche
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("Pratiche", len(filtered))
+        st.metric("Pratiche", len(df_filtered))
     with col2:
-        scuole_uniche = len(set(p.get("school", {}).get("codice_meccanografico", "") for p in filtered))
+        scuole_uniche = df_filtered['codice_meccanografico'].nunique()
         st.metric("Scuole", scuole_uniche)
     with col3:
-        cat_uniche = len(set(p.get("pratica", {}).get("categoria", "") for p in filtered))
+        cat_uniche = df_filtered['categoria'].nunique()
         st.metric("Categorie", cat_uniche)
     with col4:
-        regioni_uniche = len(set(p.get("school", {}).get("regione", "") for p in filtered if p.get("school", {}).get("regione")))
+        regioni_uniche = df_filtered['regione'].nunique()
         st.metric("Regioni", regioni_uniche)
 
     st.markdown("---")
@@ -750,101 +654,96 @@ with tab_catalogo:
 
     # === VISTA LISTA ===
     if view_mode == "Lista":
-        if sort_by == "Categoria":
-            filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("categoria", ""))
-        elif sort_by == "Regione":
-            filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("regione", ""))
-        elif sort_by == "Scuola":
-            filtered_sorted = sorted(filtered, key=lambda p: p.get("school", {}).get("nome", ""))
-        else:
-            filtered_sorted = sorted(filtered, key=lambda p: p.get("pratica", {}).get("titolo", ""))
+        # Ordina DataFrame
+        sort_col_map = {
+            "Categoria": "categoria",
+            "Regione": "regione",
+            "Scuola": "nome_scuola",
+            "Titolo": "titolo"
+        }
+        sort_col = sort_col_map.get(sort_by, "categoria")
+        df_sorted = df_filtered.sort_values(by=sort_col, na_position='last')
 
         # Lista pratiche con expander
-        for i, pratica in enumerate(filtered_sorted):
-            school = pratica.get("school", {})
-            prat = pratica.get("pratica", {})
-            contesto = pratica.get("contesto", {})
-
-            categoria = prat.get("categoria", "")
+        for i, row in df_sorted.iterrows():
+            categoria = row.get("categoria", "")
             icon = CATEGORIA_ICONS.get(categoria, "📌")
 
             with st.expander(
-                f"{icon} {prat.get('titolo', 'Senza titolo')} | "
-                f"{school.get('nome', 'Scuola N/D')} ({school.get('regione', 'N/D')})"
+                f"{icon} {row.get('titolo', 'Senza titolo')} | "
+                f"{row.get('nome_scuola', 'Scuola N/D')} ({row.get('regione', 'N/D')})"
             ):
                 col1, col2 = st.columns([2, 1])
 
                 with col1:
                     st.markdown(f"**Categoria:** {categoria}")
-                    st.markdown(f"**Descrizione:** {prat.get('descrizione', 'N/D')}")
+                    st.markdown(f"**Descrizione:** {row.get('descrizione', 'N/D')}")
 
-                    if prat.get('metodologia'):
-                        st.markdown(f"**Metodologia:** {prat.get('metodologia')}")
+                    if row.get('metodologia'):
+                        st.markdown(f"**Metodologia:** {row.get('metodologia')}")
 
-                    if prat.get('target'):
-                        st.markdown(f"**Target:** {prat.get('target')}")
+                    if row.get('target'):
+                        st.markdown(f"**Target:** {row.get('target')}")
 
-                    if prat.get('citazione_ptof'):
-                        st.info(f"📝 *\"{prat.get('citazione_ptof')}\"*")
+                    if row.get('citazione_ptof'):
+                        st.info(f"📝 *\"{row.get('citazione_ptof')}\"*")
 
-                    if prat.get('pagina_evidenza') and prat.get('pagina_evidenza') != "Non specificata":
-                        st.caption(f"📄 {prat.get('pagina_evidenza')}")
+                    if row.get('pagina_evidenza') and row.get('pagina_evidenza') != "Non specificata":
+                        st.caption(f"📄 {row.get('pagina_evidenza')}")
 
                 with col2:
                     st.markdown("**📍 Scuola:**")
-                    st.markdown(f"**{school.get('nome', 'N/D')}**")
-                    st.markdown(f"Codice: `{school.get('codice_meccanografico', 'N/D')}`")
-                    st.markdown(f"{school.get('comune', '')}, {school.get('provincia', '')}")
-                    st.markdown(f"{school.get('tipo_scuola', 'N/D')}")
+                    st.markdown(f"**{row.get('nome_scuola', 'N/D')}**")
+                    st.markdown(f"Codice: `{row.get('codice_meccanografico', 'N/D')}`")
+                    st.markdown(f"{row.get('comune', '')}, {row.get('provincia', '')}")
+                    st.markdown(f"{row.get('tipo_scuola', 'N/D')}")
 
-                    if contesto.get('maturity_index'):
-                        st.metric("Indice RO", f"{contesto['maturity_index']:.2f}")
+                    mi = row.get('maturity_index')
+                    if pd.notna(mi):
+                        st.metric("Indice RO", f"{float(mi):.2f}")
 
                     # Partnership se presenti
-                    if contesto.get('partnership_coinvolte'):
-                        st.markdown("**🤝 Partnership:**")
-                        for partner in contesto['partnership_coinvolte'][:5]:
-                            st.markdown(f"- {partner}")
+                    partnership = row.get('partnership_coinvolte', '')
+                    if partnership:
+                        partners = [p.strip() for p in str(partnership).split('|') if p.strip()]
+                        if partners:
+                            st.markdown("**🤝 Partnership:**")
+                            for partner in partners[:5]:
+                                st.markdown(f"- {partner}")
 
     # === VISTA RAGGRUPPATA ===
     elif view_mode == "Raggruppata":
-        grouped = group_practices(filtered, group_by_field)
+        grouped = group_practices(df_filtered, group_by_field)
 
         for group_name, group_practices_list in grouped.items():
             group_icon = CATEGORIA_ICONS.get(group_name, "📁") if group_by_field == "categoria" else "📁"
 
             with st.expander(f"{group_icon} **{group_name}** ({len(group_practices_list)} pratiche)", expanded=False):
                 for pratica in group_practices_list:
-                    school = pratica.get("school", {})
-                    prat = pratica.get("pratica", {})
-                    contesto = pratica.get("contesto", {})
-
-                    categoria = prat.get("categoria", "")
+                    categoria = pratica.get("categoria", "")
                     prat_icon = CATEGORIA_ICONS.get(categoria, "📌")
 
                     st.markdown(f"""
-                    **{prat_icon} {prat.get('titolo', 'Senza titolo')}**
-                    - 🏫 {school.get('nome', 'N/D')} ({school.get('comune', '')}, {school.get('provincia', '')})
+                    **{prat_icon} {pratica.get('titolo', 'Senza titolo')}**
+                    - 🏫 {pratica.get('nome_scuola', 'N/D')} ({pratica.get('comune', '')}, {pratica.get('provincia', '')})
                     - 📂 {categoria}
-                    - 📝 {prat.get('descrizione', 'N/D')}
+                    - 📝 {pratica.get('descrizione', 'N/D')}
                     """)
 
-                    if prat.get('target'):
-                        st.caption(f"🎯 Target: {prat.get('target')}")
+                    if pratica.get('target'):
+                        st.caption(f"🎯 Target: {pratica.get('target')}")
 
                     st.markdown("---")
 
     # === VISTA TABELLA ===
     else:
-        df_table = practices_to_dataframe(filtered)
-
-        if not df_table.empty:
+        if not df_filtered.empty:
             # Colonne da mostrare
             display_cols = ['titolo', 'categoria', 'nome_scuola', 'regione', 'provincia', 'tipo_scuola', 'target']
-            available_cols = [c for c in display_cols if c in df_table.columns]
+            available_cols = [c for c in display_cols if c in df_filtered.columns]
 
             st.dataframe(
-                df_table[available_cols],
+                df_filtered[available_cols],
                 use_container_width=True,
                 hide_index=True,
                 column_config={
@@ -864,12 +763,8 @@ with tab_catalogo:
 with tab_mappa:
     st.subheader("🗺️ Distribuzione Geografica delle Buone Pratiche")
 
-    # Calcola distribuzione per regione
-    reg_counts = {}
-    for p in filtered:
-        regione = p.get("school", {}).get("regione", "")
-        if regione:
-            reg_counts[regione] = reg_counts.get(regione, 0) + 1
+    # Calcola distribuzione per regione usando DataFrame
+    reg_counts = df_filtered['regione'].value_counts().to_dict()
 
     if reg_counts:
         # Prepara dati per la mappa
@@ -920,8 +815,6 @@ with tab_mappa:
 # === TAB GRAFICI ===
 with tab_grafici:
     st.subheader("📊 Analisi Distribuzione Buone Pratiche")
-
-    df_filtered = practices_to_dataframe(filtered)
 
     if not df_filtered.empty:
         col1, col2 = st.columns(2)
@@ -1135,23 +1028,23 @@ with tab_grafici:
                 st.info("Tabella troppo piccola per test di significativita.")
 
         st.markdown("---")
-        st.subheader("📈 Categoria e Indice di Maturita")
+        st.subheader("📈 Categoria e Indice RO")
 
         mi_df = df_filtered[["categoria", "maturity_index"]].copy()
         mi_df["maturity_index"] = pd.to_numeric(mi_df["maturity_index"], errors="coerce")
         mi_df = mi_df.dropna(subset=["categoria", "maturity_index"])
 
         if mi_df.empty:
-            st.info("Nessun dato di maturita disponibile.")
+            st.info("Nessun dato Indice RO disponibile.")
         else:
             fig_mi = px.box(
                 mi_df,
                 x="categoria",
                 y="maturity_index",
                 points="all",
-                title="Distribuzione Indice Maturita per Categoria"
+                title="Distribuzione Indice RO per Categoria"
             )
-            fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="Indice Maturita")
+            fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="Indice RO")
             st.plotly_chart(fig_mi, use_container_width=True)
 
             med_df = (
@@ -1162,7 +1055,7 @@ with tab_grafici:
             )
             med_df["median"] = med_df["median"].round(2)
             med_df["mean"] = med_df["mean"].round(2)
-            st.subheader("📊 Statistiche per Categoria (Maturita)")
+            st.subheader("📊 Statistiche per Categoria (Indice RO)")
             st.dataframe(med_df, use_container_width=True, hide_index=True)
 
             valid_groups = [
@@ -1210,13 +1103,16 @@ with tab_grafici:
 with tab_export:
     st.subheader("📥 Esporta Dati")
 
-    st.markdown(f"**{len(filtered)} pratiche** pronte per l'esportazione (filtrate)")
+    st.markdown(f"**{len(df_filtered)} pratiche** pronte per l'esportazione (filtrate)")
 
     col1, col2 = st.columns(2)
 
     with col1:
         st.markdown("### 📄 Formato JSON")
         st.markdown("Esporta i dati completi in formato JSON.")
+
+        # Converti DataFrame in lista di dict per JSON
+        practices_list = df_filtered.to_dict('records')
 
         json_data = json.dumps(
             {
@@ -1231,8 +1127,8 @@ with tab_export:
                     "maturity_range": list(sel_maturity) if sel_maturity else None,
                     "search_text": search if search else None
                 },
-                "total_practices": len(filtered),
-                "practices": filtered
+                "total_practices": len(df_filtered),
+                "practices": practices_list
             },
             ensure_ascii=False,
             indent=2
@@ -1249,10 +1145,8 @@ with tab_export:
         st.markdown("### 📊 Formato CSV")
         st.markdown("Esporta un riepilogo tabellare in formato CSV.")
 
-        df_export = practices_to_dataframe(filtered)
-
-        if not df_export.empty:
-            csv_data = df_export.to_csv(index=False)
+        if not df_filtered.empty:
+            csv_data = df_filtered.to_csv(index=False)
 
             st.download_button(
                 "📥 Scarica CSV",
@@ -1265,9 +1159,11 @@ with tab_export:
 
     # Anteprima tabella
     st.markdown("### 👁️ Anteprima Dati")
-    if not df_export.empty:
+    if not df_filtered.empty:
+        preview_cols = ['titolo', 'categoria', 'nome_scuola', 'regione', 'tipo_scuola']
+        available_preview = [c for c in preview_cols if c in df_filtered.columns]
         st.dataframe(
-            df_export[['titolo', 'categoria', 'nome_scuola', 'regione', 'tipo_scuola']].head(20),
+            df_filtered[available_preview].head(20),
             use_container_width=True,
             hide_index=True
         )
