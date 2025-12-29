@@ -16,7 +16,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')
 sys.path.append(os.path.dirname(__file__)) # Add current dir
 
 from src.utils.file_utils import atomic_write
-from src.utils.constants import normalize_area_geografica
+from src.utils.constants import normalize_area_geografica, get_territorio
 
 # Now imports should work if analyze_ptofs is in root
 try:
@@ -191,8 +191,9 @@ for school_code, json_file, json_data in selected_entries:
         # Allow multi-values if comma present
         tipo_scuola = json_meta.get('tipo_scuola', 'ND')
         
-        # Territorio: JSON (LLM) > 'ND'
-        summary_data['territorio'] = json_meta.get('territorio', 'ND')
+        # Territorio: calcolato dalla provincia (Metropolitano/Non Metropolitano)
+        provincia = json_meta.get('provincia') or enrich_data.get('provincia') or 'ND'
+        summary_data['territorio'] = get_territorio(provincia)
         
         # Grado: Enrichment > JSON (LLM) Inferred
         # We need to be careful: if JSON has "I Grado, II Grado" (richer info), we might want to prefer it over "Comprensivo" or single value in enrichment.

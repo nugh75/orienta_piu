@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 from src.utils.file_utils import atomic_write
 
 from src.utils.school_code_parser import extract_canonical_code
-from src.utils.constants import normalize_area_geografica
+from src.utils.constants import normalize_area_geografica, get_territorio
 
 RESULTS_DIR = 'analysis_results'
 SUMMARY_FILE = 'data/analysis_summary.csv'
@@ -132,7 +132,9 @@ for school_code, json_file, json_data in selected_entries:
         )
         summary_data['tipo_scuola'] = json_meta.get('tipo_scuola', 'ND')
         summary_data['tipo_scuola_dettaglio'] = json_meta.get('tipo_scuola_dettaglio', 'ND')
-        summary_data['territorio'] = json_meta.get('territorio', 'ND')
+        # Calcola territorio dalla provincia (Metropolitano/Non Metropolitano)
+        provincia = json_meta.get('provincia', 'ND')
+        summary_data['territorio'] = get_territorio(provincia)
         summary_data['ordine_grado'] = json_meta.get('ordine_grado', 'ND')
         summary_data['indirizzo'] = json_meta.get('indirizzo', 'ND')
         summary_data['cap'] = json_meta.get('cap', 'ND')
