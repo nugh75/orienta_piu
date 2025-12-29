@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "school_id": "RMPSII500C",
+    "denominazione": "G. D'Annunzio",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via O. Panvinio 11/13",
+    "cap": "00162",
+    "email": "info@istitutogabrieledannunzio.it",
+    "pec": "ND",
+    "website": "www.istitutogabrieledannunzio.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non è trattato in una sezione dedicata. Viene menzionato implicitamente nel contesto del miglioramento dei risultati scolastici e della prevenzione della dispersione, ma senza un focus specifico."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "famiglie",
+        "mediatori culturali"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "supportare gli studenti nel personale percorso di crescita e di apprendimento",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "supportare gli studenti nel personale percorso di crescita e di apprendimento",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4,
+        "note": "Il punteggio è stato ridotto a 4 in quanto le attività descritte si concentrano sull'alternanza scuola-lavoro e l'interazione con il territorio, senza specificare metodologie laboratoriali avanzate. Si segnala inoltre un'errata attribuzione di un 'sistema di orientamento' a questa sezione, che risulta invece descritto nell'Obiettivo di Processo."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potenziamento Linguistico",
+      "categoria_principale": "Percorso Formativo",
+      "descrizione_e_metodologia": "Valorizzazione e potenziamento delle competenze linguistiche, con particolare riferimento all'Italiano, al Latino, all'inglese e ad altre lingue dell'Unione europea, anche mediante l'utilizzo della metodologia Content language integrated learning.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività di potenziamento linguistico",
+      "5w_dove": "Scuola",
+      "5w_quando": "Triennio 2022-2025",
+      "5w_perche": "Migliorare le competenze linguistiche degli studenti",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "valorizzazione e potenziamento delle competenze linguistiche",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Potenziamento Scientifico",
+      "categoria_principale": "Percorso Formativo",
+      "descrizione_e_metodologia": "Potenziamento delle competenze matematico-logiche e scientifico, apertura pomeridiana delle scuole e potenziamento del tempo scolastico.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività di potenziamento scientifico",
+      "5w_dove": "Scuola",
+      "5w_quando": "Triennio 2022-2025",
+      "5w_perche": "Migliorare le competenze scientifiche degli studenti",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "potenziamento delle competenze matematico-logiche e scientifico",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Potenziamento Laboratoriale",
+      "categoria_principale": "Percorso Formativo",
+      "descrizione_e_metodologia": "Valorizzazione della scuola intesa come comunità attiva, aperta al territorio e in grado di sviluppare e aumentare l'interazione con le famiglie e con la comunità locale, comprese le organizzazioni del terzo settore; incremento dell'alternanza scuola-lavoro.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività di potenziamento laboratoriale e alternanza scuola-lavoro",
+      "5w_dove": "Scuola, aziende, territorio",
+      "5w_quando": "Triennio 2022-2025",
+      "5w_perche": "Sviluppare competenze pratiche e relazionali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "valorizzazione della scuola intesa come comunità attiva",
+      "evidence_location": "Pagina 3"
+    }
+  ],
+  "narrative": "## Analisi del PTOF RMPSII500C\n\n### 1. Sintesi Generale\n\nIl PTOF dell'Istituto Paritario “G. D’Annunzio” presenta un approccio all'orientamento che si configura come implicito e trasversale, piuttosto che esplicitamente strutturato. L'attenzione è focalizzata sul miglioramento dei risultati scolastici, sulla riduzione dell'abbandono e sul supporto agli studenti in difficoltà, ma manca una sezione dedicata all'orientamento in senso stretto. L'orientamento è integrato nelle strategie didattiche e organizzative, ma non emerge come un'area prioritaria autonoma. Si rileva che il PTOF menziona la definizione di un sistema di orientamento nell'ambito degli obiettivi di processo, sebbene non si concretizzi in un'area di intervento specifica.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\n\nIl PTOF non prevede una sezione dedicata all'orientamento. Questo rappresenta una lacuna significativa, in quanto l'orientamento non viene trattato come un elemento distintivo e sistematico dell'offerta formativa. Le azioni di orientamento sono disperse all'interno di altri capitoli, rendendo difficile una valutazione complessiva.\n\n#### 2.2 Partnership e Reti\n\nLa scuola dimostra una buona apertura verso il territorio, collaborando con enti locali, il terzo settore, le comunità di origine, le famiglie e i mediatori culturali. Tuttavia, le modalità di queste collaborazioni rimangono generiche, senza specificare accordi formali, progetti congiunti o indicatori di successo. È necessario definire un quadro più preciso per valutare l'efficacia di queste partnership.\n\n#### 2.3 Finalità e Obiettivi\n\nLe finalità dell'azione educativa sono orientate al supporto degli studenti nel loro percorso di crescita e apprendimento. Tuttavia, l'attenzione è prevalentemente focalizzata sugli aspetti cognitivi e sulle competenze di base, mentre le finalità legate all'orientamento, come la scoperta delle proprie attitudini, degli interessi e la progettazione del proprio progetto di vita, risultano meno esplicite.\n\n#### 2.4 Governance e Azioni di Sistema\n\nLe azioni di sistema previste dal PTOF, come il coordinamento dei servizi, il dialogo tra docenti e studenti e il rapporto scuola-genitori, possono contribuire indirettamente all'orientamento. Tuttavia, manca una figura specifica responsabile dell'orientamento e un coordinamento delle diverse iniziative.\n\n#### 2.5 Didattica Orientativa\n\nLa didattica orientativa si basa sull'utilizzo di metodologie attive e partecipative, come l'apprendimento basato sull'esperienza e il lavoro di gruppo. Il potenziamento laboratoriale rappresenta un'opportunità per sviluppare competenze pratiche e relazionali, utili per l'orientamento.\n\n#### 2.6 Opportunità Formative\n\nIl PTOF prevede diverse opportunità formative, come i potenziamenti linguistici, scientifici e laboratoriali. Queste attività possono contribuire ad ampliare gli interessi degli studenti e a sviluppare le loro competenze, ma non sono specificamente orientate alla scelta del percorso di studi o professionale.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Potenziamento Linguistico\n\nIl **Potenziamento Linguistico** è un'attività rivolta a tutti gli studenti, volta a migliorare le loro competenze linguistiche attraverso l'utilizzo di metodologie innovative come il Content Language Integrated Learning. Si svolge presso la scuola durante il triennio 2022-2025 e mira a fornire agli studenti gli strumenti necessari per affrontare con successo gli studi universitari o il mondo del lavoro.\n\n#### 2.7.2 Potenziamento Scientifico\n\nIl **Potenziamento Scientifico** è un'attività rivolta a tutti gli studenti, volta a migliorare le loro competenze matematico-logiche e scientifiche. Si svolge presso la scuola durante il triennio 2022-2025 e prevede l'apertura pomeridiana della scuola e il potenziamento del tempo scolastico.\n\n#### 2.7.3 Potenziamento Laboratoriale\n\nIl **Potenziamento Laboratoriale** è un'attività rivolta a tutti gli studenti, volta a sviluppare competenze pratiche e relazionali attraverso l'interazione con il territorio e le organizzazioni del terzo settore. Si svolge presso la scuola, le aziende e il territorio durante il triennio 2022-2025 e prevede l'incremento dell'alternanza scuola-lavoro.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF sono l'attenzione alla prevenzione della dispersione scolastica, l'apertura verso il territorio e la valorizzazione delle competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento e la mancanza di una figura specifica responsabile dell'orientamento. Si segnala inoltre l'assenza di criteri trasparenti per l'assegnazione delle borse di studio, che rappresentano una forma di incentivazione allo studio.\n\n### 5. Gap Analysis\n\nIl gap principale è la mancanza di un approccio sistematico e integrato all'orientamento, che consenta di supportare gli studenti nella scelta del percorso di studi o professionale.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Paritario “G. D’Annunzio” presenta un orientamento implicito e trasversale, che si integra nelle strategie didattiche e organizzative. Il “Potenziamento Umanistico” include azioni di prevenzione della dispersione scolastica, ma non costituisce un'area di orientamento autonoma. Tuttavia, per migliorare l'efficacia dell'orientamento, è necessario creare una sezione dedicata, nominare un responsabile e sviluppare un piano di azione specifico."
+}

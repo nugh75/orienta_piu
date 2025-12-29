@@ -35,7 +35,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configurazione
-BASE_DIR = Path('/Users/danieledragoni/git/LIste')
+BASE_DIR = Path(__file__).resolve().parent
 os.chdir(BASE_DIR)
 sys.path.insert(0, str(BASE_DIR))
 

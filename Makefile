@@ -15,8 +15,10 @@
 	outreach-portal outreach-email \
 	list-models list-models-openrouter list-models-gemini models models-ollama models-ollama-pull \
 	cleanup-dry cleanup cleanup-bak cleanup-bak-old \
-	check-truncated fix-truncated list-backups git-auto \
-	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch
+	check-truncated fix-truncated list-backups \
+	git-auto git-status git-pull git-push git-commit \
+	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch \
+	docker-up docker-down docker-build docker-logs docker-status docker-shell venv
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -131,6 +133,13 @@ help:
 	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
 	@echo "  make cleanup-bak          - Elimina obsoleti + file .bak (chiede conferma)"
 	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak piu vecchi di N giorni (default 7)"
+	@echo ""
+	@echo "GIT:"
+	@echo "  make git-auto             - Add/commit/push automatico ogni 10 min (INTERVAL=600)"
+	@echo "  make git-status           - Mostra stato git"
+	@echo "  make git-pull             - Pull dal remote"
+	@echo "  make git-push             - Push al remote"
+	@echo "  make git-commit MSG=\"...\" - Commit con messaggio personalizzato"
 
 setup:
 	$(PIP) install -r requirements.txt
@@ -450,6 +459,29 @@ git-auto:
 		sleep $(or $(INTERVAL),600); \
 	done
 
+# Mostra stato git
+git-status:
+	@git status
+
+# Pull dal remote
+git-pull:
+	@git pull
+
+# Push al remote
+git-push:
+	@git push
+
+# Commit con messaggio (uso: make git-commit MSG="fix bug")
+git-commit:
+ifndef MSG
+	@echo "❌ Specificare il messaggio con MSG=\"...\""
+	@echo "   Esempio: make git-commit MSG=\"fix: risolto bug login\""
+else
+	@git add -A
+	@git commit -m "$(MSG)"
+	@echo "✅ Commit creato. Usa 'make git-push' per pushare."
+endif
+
 # ═══════════════════════════════════════════════════════════════════
 # REGISTRO ANALISI
 # ═══════════════════════════════════════════════════════════════════
@@ -699,3 +731,37 @@ meta-batch:
 	$(PYTHON) $(META_CLI) batch \
 		--count $(or $(N),5) \
 		$(if $(PROVIDER),--provider $(PROVIDER),)
+
+# ===== DOCKER (solo dashboard) =====
+
+## Avvia dashboard Docker
+docker-up:
+	docker compose up -d
+
+## Ferma dashboard Docker
+docker-down:
+	docker compose down
+
+## Ricostruisci immagine Docker
+docker-build:
+	docker compose build --no-cache
+
+## Log dashboard Docker
+docker-logs:
+	docker compose logs -f dashboard
+
+## Stato container Docker
+docker-status:
+	docker compose ps
+
+## Shell nel container Docker
+docker-shell:
+	docker exec -it orienta-dashboard /bin/bash
+
+# ===== SETUP LOCALE =====
+
+## Crea virtual environment
+venv:
+	python3 -m venv .venv
+	@echo "Attiva con: source .venv/bin/activate"
+	@echo "Poi esegui: make setup"
