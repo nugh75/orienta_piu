@@ -11,11 +11,26 @@ import sys
 import glob
 import json
 import csv
+import logging
 from pathlib import Path
 import io
 
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Setup logging
+LOG_DIR = Path(__file__).resolve().parent.parent.parent / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'csv_rebuild.log', encoding='utf-8')
+    ]
+)
+logger = logging.getLogger(__name__)
 
 from src.utils.file_utils import atomic_write
 

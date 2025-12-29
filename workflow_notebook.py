@@ -27,10 +27,16 @@ FORCE_REANALYSIS = args.force
 FORCE_CODE = args.force_code
 
 # Setup logging
+LOG_DIR = Path(__file__).resolve().parent / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.StreamHandler()]
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'workflow.log', encoding='utf-8')
+    ]
 )
 logger = logging.getLogger(__name__)
 

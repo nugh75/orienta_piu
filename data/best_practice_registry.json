@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-29T06:41:55.340521",
+  "last_updated": "2025-12-29T07:05:33.596572",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -456,6 +456,12 @@
       "file_hash": "sha256:9c812bacd325b9f43d0125f21b8879073b5bbabf34addd083d1aaae119e72c43",
       "processed_at": "2025-12-29T06:41:55.340517",
       "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "BATL07000T": {
+      "file_hash": "sha256:aa20484d125004b69c59c77fce439c2b286017a1d16c4a1541d88c4cba149358",
+      "processed_at": "2025-12-29T07:05:33.596562",
+      "practices_count": 61,
       "model_used": "qwen3:32b"
     }
   }

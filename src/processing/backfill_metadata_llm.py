@@ -5,10 +5,26 @@ Backfill missing metadata in analysis JSONs using MIUR + targeted LLM scan.
 import os
 import sys
 import glob
+import logging
+from pathlib import Path
 
 # Ensure project root on path
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, BASE_DIR)
+
+# Setup logging
+LOG_DIR = Path(BASE_DIR) / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'backfill.log', encoding='utf-8')
+    ]
+)
+logger = logging.getLogger(__name__)
 
 from app.agentic_pipeline import enrich_json_metadata, fill_missing_metadata_with_llm
 from src.utils.school_code_parser import extract_canonical_code
