@@ -128,6 +128,13 @@ help:
 	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
 	@echo "  make cleanup-bak          - Elimina obsoleti + file .bak (chiede conferma)"
 	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak piu vecchi di N giorni (default 7)"
+	@echo ""
+	@echo "GIT:"
+	@echo "  make git-auto             - Add/commit/push automatico ogni 10 min (INTERVAL=600)"
+	@echo "  make git-status           - Mostra stato git"
+	@echo "  make git-pull             - Pull dal remote"
+	@echo "  make git-push             - Push al remote"
+	@echo "  make git-commit MSG=\"...\" - Commit con messaggio personalizzato"
 
 setup:
 	$(PIP) install -r requirements.txt
