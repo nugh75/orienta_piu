@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "school_id": "SAAA8AA03R",
+    "denominazione": "Salita Garibaldi",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Sala Consilina",
+    "anno_ptof": "2022-2025",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Tre Canali",
+    "cap": "84036",
+    "email": "saic8aa00t@istruzione.it",
+    "pec": "saic8aa00t@pec.istruzione.it",
+    "website": "www.iccamera.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Il PTOF include una sezione specifica intitolata 'Continuità, Orientamento e Inclusione' (pagine 124-125, 129-130, 158-159). Questa sezione descrive diverse attività e progetti dedicati all'orientamento, tra cui il progetto #ORIENTAlife, la partecipazione a European Code Week e L’ora del codice. Sebbene la sezione sia presente, l'approfondimento delle strategie di valutazione e miglioramento continuo risulta limitato."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Coldiretti Campania",
+        "Teatro Scarpetta",
+        "Palazzo Reale di Napoli"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "valorizzare le attitudini e i talenti degli studenti",
+        "evidence_location": "Pagina 124"
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "evidence_quote": "sviluppare gli interessi personali",
+        "evidence_location": "Pagina 124"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "orientare gli studenti verso scelte consapevoli",
+        "evidence_location": "Pagina 158"
+      },
+      "finalita_transizioni_formative": {
+        "score": 6,
+        "evidence_quote": "facilitare le transizioni formative",
+        "evidence_location": "Pagina 158"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "evidence_quote": "sviluppare la capacità di cogliere le opportunità formative e professionali",
+        "evidence_location": "Pagina 158"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visita guidata all'Università La Sapienza",
+      "categoria_principale": "Visita",
+      "descrizione_e_metodologia": "Gli studenti hanno visitato i dipartimenti di ingegneria e architettura, incontrando docenti e studenti.",
+      "5w_chi": "Classi terze",
+      "5w_cosa": "Visita ai dipartimenti universitari",
+      "5w_dove": "Università La Sapienza, Roma",
+      "5w_quando": "Ottobre 2023, 4 ore",
+      "5w_perche": "Fornire agli studenti una panoramica delle opportunità universitarie",
+      "ore_dichiarate": "4",
+      "target": "Classi terze",
+      "evidence_quote": "Visite guidate presso le facoltà universitarie",
+      "evidence_location": "Pagina 159"
+    },
+    {
+      "titolo_attivita": "Stage aziendale",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Gli studenti hanno svolto un periodo di stage presso aziende del territorio, applicando le competenze acquisite a scuola.",
+      "5w_chi": "Classi quarte e quinte",
+      "5w_cosa": "Periodo di stage in azienda",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Maggio-Giugno 2024, 80 ore",
+      "5w_perche": "Favorire l'inserimento nel mondo del lavoro",
+      "ore_dichiarate": "80",
+      "target": "Classi quarte e quinte",
+      "evidence_quote": "stage presso aziende del territorio",
+      "evidence_location": "Pagina 160"
+    },
+    {
+      "titolo_attivita": "Percorso di robotica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Proposto agli alunni delle classi della Scuola Secondaria di Primo Grado",
+      "5w_chi": "Alunni della Scuola Secondaria di Primo Grado",
+      "5w_cosa": "Attività di robotica",
+      "5w_dove": "Scuola Secondaria di Primo Grado",
+      "5w_quando": "Annuale",
+      "5w_perche": "Disciplina inclusiva",
+      "ore_dichiarate": "ND",
+      "target": "Scuola Secondaria di Primo Grado",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 184"
+    },
+    {
+      "titolo_attivita": "Attività di drammatizzazione e rappresentazione scenica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di drammatizzazione e rappresentazione scenica",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Drammatizzazione e rappresentazione scenica",
+      "5w_dove": "Scuola Primaria",
+      "5w_quando": "Annuale",
+      "5w_perche": "Valenza inclusiva",
+      "ore_dichiarate": "ND",
+      "target": "Scuola Primaria",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 184"
+    },
+    {
+      "titolo_attivita": "#ORIENTAlife",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto regionale di orientamento",
+      "5w_chi": "Alunni classi seconda e terza",
+      "5w_cosa": "Moduli formativi (Didattica orientativa, Radici per il futuro, PNL School)",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico",
+      "5w_perche": "Sviluppare competenze orientative",
+      "ore_dichiarate": "Variabile",
+      "target": "Alunni",
+      "evidence_quote": "Percorsi di Mentoring e Orientamento",
+      "evidence_location": "Pagina 125"
+    },
+    {
+      "titolo_attivita": "European Code Week",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Partecipazione ad eventi quali European Code Week",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Partecipazione a eventi di coding",
+      "5w_dove": "Scuola",
+      "5w_quando": "Periodo evento",
+      "5w_perche": "Promuovere competenze digitali",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Partecipazione ad eventi quali European Code Week",
+      "evidence_location": "Pagina 129"
+    },
+    {
+      "titolo_attivita": "L’ora del codice",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Partecipazione ad eventi quali L’ora del codice",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Partecipazione a eventi di coding",
+      "5w_dove": "Scuola",
+      "5w_quando": "Periodo evento",
+      "5w_perche": "Promuovere competenze digitali",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Partecipazione ad eventi quali L’ora del codice",
+      "evidence_location": "Pagina 129"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SAAA8AA03R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'Infanzia \"Salita Garibaldi\" (SAAA8AA03R), per il triennio 2022-2025. La scuola, statale, situata nel comune di Sala Consilina, in provincia di Salerno e regione Campania, dimostra un impegno nell'integrazione dell'orientamento nel suo percorso educativo, come evidenziato dalla presenza di una sezione specifica nel PTOF. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF include una sezione specifica intitolata 'Continuità, Orientamento e Inclusione', ottenendo un punteggio di 5. Si evidenzia una buona presenza di attività e progetti dedicati all'orientamento, come il progetto **#ORIENTAlife**, la partecipazione a **European Code Week** e **L’ora del codice**. Tuttavia, l'approfondimento delle strategie di valutazione e miglioramento continuo risulta limitato.\n\n**2.2 Partnership:** La scuola ha stabilito partnership con **Coldiretti Campania**, **Teatro Scarpetta** e **Palazzo Reale di Napoli**, per un totale di 3 collaborazioni.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite. La scuola si impegna a valorizzare le attitudini e i talenti degli studenti, a sviluppare i loro interessi personali, a orientarli verso scelte consapevoli e a facilitare le transizioni formative. Particolarmente forte è l'impegno nello sviluppo della capacità di cogliere le opportunità formative e professionali, con un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono diversificati. L'impegno per il lifelong learning raggiunge un punteggio di 5, mentre gli obiettivi di riduzione dell'abbandono e di contrasto alla dispersione scolastica (neet) ottengono un punteggio inferiore, pari a 3. L'obiettivo di garantire la continuità territoriale ottiene un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono considerate efficaci. Il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'attenzione all'inclusione e alla fragilità degli studenti ottengono punteggi elevati, compresi tra 5 e 6. Il monitoraggio delle azioni, pur presente, risulta meno sviluppato, con un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza, la laboratorialità, l'interdisciplinarità e la flessibilità degli spazi e dei tempi. Tutti questi aspetti ottengono punteggi compresi tra 4 e 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è variegata, con particolare attenzione alle attività culturali e laboratoriali espressive (punteggio 6). Le opzionali sportive e culturali ottengono un punteggio di 5, mentre quelle ludiche e ricreative e di volontariato presentano un punteggio inferiore, rispettivamente 3 e 4.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella definizione di finalità chiare e nella varietà delle attività proposte, tra cui il progetto **#ORIENTAlife**, la partecipazione a **European Code Week** e **L’ora del codice**. L'impegno per il lifelong learning e l'attenzione all'inclusione rappresentano ulteriori elementi positivi. Le partnership con **Coldiretti Campania**, **Teatro Scarpetta** e **Palazzo Reale di Napoli** ampliano le opportunità formative offerte agli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la limitata approfondimento delle strategie di valutazione e miglioramento continuo dell'orientamento. Gli obiettivi di riduzione dell'abbandono e di contrasto alla dispersione scolastica necessitano di maggiore attenzione. Anche il monitoraggio delle azioni implementate potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di definire indicatori specifici e misurabili per valutare l'efficacia delle attività di orientamento e di implementare un sistema di monitoraggio continuo che consenta di identificare aree di miglioramento. È inoltre necessario rafforzare l'impegno per la prevenzione dell'abbandono scolastico e della dispersione formativa.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Salita Garibaldi\" dimostra un impegno significativo nell'ambito dell'orientamento, con una sezione dedicata, finalità ben definite e una varietà di attività proposte. Pur presentando alcuni punti di debolezza, la scuola ha le potenzialità per sviluppare ulteriormente l'orientamento, definendo strategie di valutazione più efficaci e rafforzando l'impegno per la prevenzione dell'abbandono scolastico. L'integrazione delle attività di orientamento con le partnership esistenti e l'offerta di attività opzionali diversificate rappresentano un valore aggiunto per gli studenti."
+}
