@@ -1036,7 +1036,7 @@ with tab_practices:
                 st.caption("Non ci sono pratiche simili disponibili nel catalogo.")
 
     if st.button("🌟 Vai al Catalogo Pratiche", use_container_width=True):
-        switch_page("pages/19_🌟_Buone_Pratiche.py")
+        switch_page("pages/19_🌟_Attivita.py")
 # === TAB GAP ANALYSIS ===
 with tab_gap:
     st.subheader("🎯 Analisi Gap e Raccomandazioni")
