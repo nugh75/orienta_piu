@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-29T18:30:22.523917",
+  "last_updated": "2025-12-29T20:44:34.921022",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -1038,6 +1038,150 @@
       "file_hash": "sha256:e16a4eb4f878f0f2c8f74121c11e4f4c3456079d5dacfcb358e3d98b8755e41b",
       "processed_at": "2025-12-29T18:30:22.523913",
       "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "CTAA85802V": {
+      "file_hash": "sha256:bf7627b4518a97cb99f0c115516dd97dad1222eb916cf16017fb8156b157d758",
+      "processed_at": "2025-12-29T18:33:30.415784",
+      "practices_count": 22,
+      "model_used": "qwen3:32b"
+    },
+    "CTAA806015": {
+      "file_hash": "sha256:a725324110708433a99709bc0f6432f726ea6a8354c34f53b68537420ed6e3b7",
+      "processed_at": "2025-12-29T18:40:12.256586",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "CTEE825083": {
+      "file_hash": "sha256:7117770974f8831a0ad11cdcda17795fddb3e95749ea0b42034f6c965107f12d",
+      "processed_at": "2025-12-29T18:43:22.422915",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "CTAA8A5021": {
+      "file_hash": "sha256:ef01a8b6ff55405863be14dc49c3cd44695b9951cf7e4140ef3339bb1d028e3c",
+      "processed_at": "2025-12-29T18:44:36.738753",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CTCT71000R": {
+      "file_hash": "sha256:520a8651b925402ca586ef29e2028eab97678be0babba39a047ce994d09614d0",
+      "processed_at": "2025-12-29T18:49:38.121145",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "CTAA84702C": {
+      "file_hash": "sha256:3a1cfdd77fe0335c5a23c4dc90be0ccc6408665399ad16376c33c8cf14394617",
+      "processed_at": "2025-12-29T18:52:20.652147",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "CTEE8AS02P": {
+      "file_hash": "sha256:06a7e145ef2f128e502e66ca37cc3d361003f4d091540d2b1a6b4654626222e9",
+      "processed_at": "2025-12-29T18:58:54.621545",
+      "practices_count": 48,
+      "model_used": "qwen3:32b"
+    },
+    "CTEE88301Q": {
+      "file_hash": "sha256:85fa7ca12911029f4c596a32b82989ff16228b967aea4c64afa18119a42fff2c",
+      "processed_at": "2025-12-29T19:07:50.813850",
+      "practices_count": 67,
+      "model_used": "qwen3:32b"
+    },
+    "CTEE8BG01B": {
+      "file_hash": "sha256:122fe788ccb95b5604eda5d477d909e1e38faa8dd19d291901efa13306e573e5",
+      "processed_at": "2025-12-29T19:15:57.487800",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "CTIC823002": {
+      "file_hash": "sha256:e24ef3cadfb5b504b37731b3415a071546a91f77cf4c12ffadbea117adfc5c9f",
+      "processed_at": "2025-12-29T19:24:02.896200",
+      "practices_count": 58,
+      "model_used": "qwen3:32b"
+    },
+    "CTIC86100R": {
+      "file_hash": "sha256:379a45cea2ffd63bc51cc68a3fcf4a09590e37e731362e9cf79ce8b75756d741",
+      "processed_at": "2025-12-29T19:42:08.994301",
+      "practices_count": 116,
+      "model_used": "qwen3:32b"
+    },
+    "CTIS01200Q": {
+      "file_hash": "sha256:ebcb082fa1dde76f54dc82392b151ff89f624bf49f85b791fa4ec3822b520c84",
+      "processed_at": "2025-12-29T19:42:43.673950",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CTIC8BC002": {
+      "file_hash": "sha256:b87fa331baf0bbf7dc06aaeb763d2e5117f03cdfe94076a7ed329d04f581a52c",
+      "processed_at": "2025-12-29T19:50:12.824867",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "CTMM880017": {
+      "file_hash": "sha256:0ac1cd3953ae02469b7446f75a8e15a9777e50dfd0b00bd61087f3117e2305de",
+      "processed_at": "2025-12-29T19:50:48.589819",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CTPC00102N": {
+      "file_hash": "sha256:1a0924f21dbc297d6a808f20bf5f3ccee90ccf6f1f38f8c8769c6e1fb90f6c8d",
+      "processed_at": "2025-12-29T20:00:26.523500",
+      "practices_count": 73,
+      "model_used": "qwen3:32b"
+    },
+    "CTMM8BK017": {
+      "file_hash": "sha256:479b896953dc029c1d4109a6fbb16f37c8cb0715bc8b94538532e1de6f193574",
+      "processed_at": "2025-12-29T20:07:58.633332",
+      "practices_count": 56,
+      "model_used": "qwen3:32b"
+    },
+    "CTMM01300C": {
+      "file_hash": "sha256:6fa7fb15f0d936dce4d8c09a7d334ade3e379bd3d4ceaca08e501554e7e3e0f2",
+      "processed_at": "2025-12-29T20:15:42.629987",
+      "practices_count": 50,
+      "model_used": "qwen3:32b"
+    },
+    "CTMM710014": {
+      "file_hash": "sha256:258c5e8ca2b45e766a285933b8b8ba45fdce4a1bbe92c93fdd924491b0b3763b",
+      "processed_at": "2025-12-29T20:20:41.685633",
+      "practices_count": 39,
+      "model_used": "qwen3:32b"
+    },
+    "CTTF030517": {
+      "file_hash": "sha256:c8957c04e7d0f75a4ec63751be2fb280e92148a6eb1186c45187cfd0f3be4aef",
+      "processed_at": "2025-12-29T20:25:13.457225",
+      "practices_count": 31,
+      "model_used": "qwen3:32b"
+    },
+    "CTRF043014": {
+      "file_hash": "sha256:3905a448399b1842915e02436b6cdf1f206a9ec880bd8ad3b0e869ef62c365cf",
+      "processed_at": "2025-12-29T20:30:34.370025",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "CTPS10500V": {
+      "file_hash": "sha256:9cd69c5246ca8076b78fabc119116cd9b39f7b65ed8cff50913c4cc0716a5e90",
+      "processed_at": "2025-12-29T20:31:49.393936",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CTPS026014": {
+      "file_hash": "sha256:6d2cb0c36caa0bf32bc647167a03a4ed7be284fb0db7f6989c1f4a6fcd11a69a",
+      "processed_at": "2025-12-29T20:38:28.234259",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "CTTD34500V": {
+      "file_hash": "sha256:dfd086e5e914d2246d2b881a976af32b34606a4fc04512a259592803c6d05a30",
+      "processed_at": "2025-12-29T20:40:43.698102",
+      "practices_count": 16,
+      "model_used": "qwen3:32b"
+    },
+    "CTPC08500Q": {
+      "file_hash": "sha256:6f61ad888289b40864c7f44e253d7c00f88aa48f721fc2d46d2c4787afd51a54",
+      "processed_at": "2025-12-29T20:44:34.921016",
+      "practices_count": 29,
       "model_used": "qwen3:32b"
     }
   }

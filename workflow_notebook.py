@@ -52,6 +52,12 @@ ANALYSIS_DIR = BASE_DIR / "analysis_results"
 CSV_FILE = BASE_DIR / "data" / "analysis_summary.csv"
 DOWNLOAD_LOCK = INBOX_DIR / ".download_in_progress"
 WAIT_SECONDS = int(os.environ.get("PTOF_DOWNLOAD_WAIT_SECONDS", "10"))
+DISCARDED_DIRS = [
+    BASE_DIR / "ptof_discarded" / "not_ptof",
+    BASE_DIR / "ptof_discarded" / "too_short",
+    BASE_DIR / "ptof_discarded" / "corrupted",
+]
+CODE_PATTERN = re.compile(r'([A-Z]{2}[A-Z0-9]{2}[A-Z0-9]{6})', re.IGNORECASE)
 
 # Flag per uscita controllata
 EXIT_REQUESTED = False
@@ -90,6 +96,135 @@ def save_and_exit():
     
     print("\n✅ Uscita completata. I risultati parziali sono stati salvati.", flush=True)
     sys.exit(0)
+
+
+def _extract_code_from_name(file_name):
+    candidates = CODE_PATTERN.findall(str(file_name).upper())
+    candidates = [c for c in candidates if any(ch.isdigit() for ch in c)]
+    return candidates[0] if candidates else None
+
+
+def _remove_pdf_by_name(file_name):
+    stem = Path(file_name).stem
+    search_dirs = [INBOX_DIR] + [d for d in DISCARDED_DIRS if d.exists()]
+    for base in search_dirs:
+        for path in base.glob(f"{stem}*.pdf"):
+            try:
+                path.unlink()
+                print(f"🗑️ Rimosso PDF: {path}", flush=True)
+            except Exception as exc:
+                print(f"⚠️ Errore rimozione PDF {path}: {exc}", flush=True)
+
+
+def _remove_md_for_code(school_code):
+    if not school_code:
+        return
+    md_path = MD_DIR / f"{school_code}_ptof.md"
+    if md_path.exists():
+        try:
+            md_path.unlink()
+            print(f"🗑️ Rimosso MD: {md_path}", flush=True)
+        except Exception as exc:
+            print(f"⚠️ Errore rimozione MD {md_path}: {exc}", flush=True)
+
+
+def _remove_analysis_artifacts(school_code):
+    if not school_code:
+        return
+    targets = [
+        ANALYSIS_DIR / f"{school_code}_PTOF_analysis.json",
+        ANALYSIS_DIR / f"{school_code}_PTOF_analysis.md",
+        ANALYSIS_DIR / f"{school_code}_analysis.json",
+        ANALYSIS_DIR / f"{school_code}_analysis.md",
+    ]
+    for path in targets:
+        if path.exists():
+            try:
+                path.unlink()
+                print(f"🗑️ Rimosso output analisi: {path.name}", flush=True)
+            except Exception as exc:
+                print(f"⚠️ Errore rimozione output {path.name}: {exc}", flush=True)
+
+
+def cleanup_invalid_validation(report):
+    if isinstance(report, dict):
+        file_name = report.get("file_name") or report.get("file") or ""
+        school_code = report.get("school_code_found") or _extract_code_from_name(file_name)
+        reason = report.get("result", "invalid")
+    else:
+        file_name = getattr(report, "file_name", "") or ""
+        school_code = getattr(report, "school_code_found", None) or _extract_code_from_name(file_name)
+        reason = getattr(report, "result", "invalid")
+
+    print(f"🗑️ Scarto validazione {file_name}: {reason}", flush=True)
+    if file_name:
+        _remove_pdf_by_name(file_name)
+    _remove_md_for_code(school_code)
+    _remove_analysis_artifacts(school_code)
+
+
+def cleanup_invalid_analysis(pdf_path, school_code, reason):
+    print(f"🗑️ Scarto analisi {school_code or 'ND'}: {reason}", flush=True)
+    _remove_analysis_artifacts(school_code)
+    _remove_md_for_code(school_code)
+    if pdf_path and pdf_path.exists():
+        try:
+            pdf_path.unlink()
+            print(f"🗑️ Rimosso PDF: {pdf_path}", flush=True)
+        except Exception as exc:
+            print(f"⚠️ Errore rimozione PDF {pdf_path}: {exc}", flush=True)
+
+
+def compute_maturity_index(analysis_data):
+    sec2 = analysis_data.get('ptof_section2', {}) if analysis_data else {}
+
+    def get_score(section_key, field_key):
+        return sec2.get(section_key, {}).get(field_key, {}).get('score', 0) or 0
+
+    def calc_avg(scores):
+        valid = [s for s in scores if s > 0]
+        return sum(valid) / len(valid) if valid else 0
+
+    finalita_scores = [
+        get_score('2_3_finalita', 'finalita_attitudini'),
+        get_score('2_3_finalita', 'finalita_interessi'),
+        get_score('2_3_finalita', 'finalita_progetto_vita'),
+        get_score('2_3_finalita', 'finalita_transizioni_formative'),
+        get_score('2_3_finalita', 'finalita_capacita_orientative_opportunita'),
+    ]
+    obiettivi_scores = [
+        get_score('2_4_obiettivi', 'obiettivo_ridurre_abbandono'),
+        get_score('2_4_obiettivi', 'obiettivo_continuita_territorio'),
+        get_score('2_4_obiettivi', 'obiettivo_contrastare_neet'),
+        get_score('2_4_obiettivi', 'obiettivo_lifelong_learning'),
+    ]
+    governance_scores = [
+        get_score('2_5_azioni_sistema', 'azione_coordinamento_servizi'),
+        get_score('2_5_azioni_sistema', 'azione_dialogo_docenti_studenti'),
+        get_score('2_5_azioni_sistema', 'azione_rapporto_scuola_genitori'),
+        get_score('2_5_azioni_sistema', 'azione_monitoraggio_azioni'),
+        get_score('2_5_azioni_sistema', 'azione_sistema_integrato_inclusione_fragilita'),
+    ]
+    didattica_scores = [
+        get_score('2_6_didattica_orientativa', 'didattica_da_esperienza_studenti'),
+        get_score('2_6_didattica_orientativa', 'didattica_laboratoriale'),
+        get_score('2_6_didattica_orientativa', 'didattica_flessibilita_spazi_tempi'),
+        get_score('2_6_didattica_orientativa', 'didattica_interdisciplinare'),
+    ]
+    opportunita_scores = [
+        get_score('2_7_opzionali_facoltative', 'opzionali_culturali'),
+        get_score('2_7_opzionali_facoltative', 'opzionali_laboratoriali_espressive'),
+        get_score('2_7_opzionali_facoltative', 'opzionali_ludiche_ricreative'),
+        get_score('2_7_opzionali_facoltative', 'opzionali_volontariato'),
+        get_score('2_7_opzionali_facoltative', 'opzionali_sportive'),
+    ]
+
+    mean_finalita = calc_avg(finalita_scores)
+    mean_obiettivi = calc_avg(obiettivi_scores)
+    mean_governance = calc_avg(governance_scores)
+    mean_didattica = calc_avg(didattica_scores)
+    mean_opportunita = calc_avg(opportunita_scores)
+    return calc_avg([mean_finalita, mean_obiettivi, mean_governance, mean_didattica, mean_opportunita])
 
 # Crea directory
 for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
@@ -173,6 +308,11 @@ while True:
                     if skipped > 0:
                         msg += f" | ⏭️ Già validati: {skipped}"
                     print(msg, flush=True)
+                invalid_reports = []
+                for key in ("not_ptof", "too_short", "corrupted", "ambiguous"):
+                    invalid_reports.extend(validation_results.get(key, []))
+                for report in invalid_reports:
+                    cleanup_invalid_validation(report)
             except Exception as e:
                 print(f"⚠️ Validazione PTOF fallita: {e}", flush=True)
 
@@ -500,6 +640,10 @@ while True:
                     )
 
                     if result:
+                        ro_index = compute_maturity_index(result)
+                        if ro_index is not None and ro_index < 2.0:
+                            cleanup_invalid_analysis(pdf_path, school_code, f"RO Index {ro_index:.2f}")
+                            continue
                         analyzed.append(school_code)
                         # Leggi metadati dal JSON salvato per feedback
                         json_path = ANALYSIS_DIR / f"{school_code}_PTOF_analysis.json"
@@ -591,6 +735,9 @@ while True:
     
     processed_count = 0
     for pdf_path, school_code, _ in recognized_pdfs:
+        if not pdf_path.exists():
+            print(f"⚠️ PDF mancante, salto: {pdf_path.name}", flush=True)
+            continue
         analysis_path, status = get_analysis_status(school_code)
         if status == 'valid':
             dest = batch_dir / pdf_path.name

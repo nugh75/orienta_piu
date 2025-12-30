@@ -6,6 +6,7 @@
 	refresh full pipeline pipeline-ollama \
 	download download-sample download-strato download-statali download-paritarie \
 	download-regione download-metro download-non-metro download-grado download-area download-reset \
+	strata-cycle \
 	review-report-openrouter review-report-gemini review-report-ollama \
 	review-scores-openrouter review-scores-gemini review-scores-ollama \
 	review-non-ptof \
@@ -48,6 +49,8 @@ help:
 	@echo "  make download              - Dry-run: mostra stratificazione senza scaricare"
 	@echo "  make download-sample       - Scarica campione stratificato (5 per strato)"
 	@echo "  make download-strato N=X   - Scarica X scuole per ogni strato (es: N=20)"
+	@echo "  make strata-cycle          - Ciclo incrementale stratificato (target MIUR proporzionale)"
+	@echo "                             - Usa MAX_DOWNLOADS=50 per limitare il ciclo"
 	@echo "  make download-statali      - Scarica tutte le scuole statali"
 	@echo "  make download-paritarie    - Scarica tutte le scuole paritarie"
 	@echo "  make download-regione R=X  - Scarica scuole di una regione (es: R=LAZIO)"
@@ -238,7 +241,7 @@ activity-extract:
 # Reset e ri-estrazione completa
 activity-extract-reset:
 	@echo "🔄 Reset e ri-estrazione attività..."
-	rm -f data/.best_practice_extraction_progress.json data/activity_registry.json data/attivita.json data/attivita.csv
+	rm -f data/activity_registry.json data/attivita.json data/attivita.csv
 	$(PYTHON) -m src.agents.activity_extractor --force \
 		$(if $(MODEL),--model "$(MODEL)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
@@ -383,6 +386,27 @@ ifndef A
 else
 	$(PYTHON) $(DOWNLOADER) --tutte --aree "$(A)"
 endif
+
+# Ciclo incrementale stratificato (target proporzionale MIUR)
+TARGET_TOTAL ?= 6000
+TARGET_STEP ?= 300
+STRATO_STEP ?= 3
+SEED ?= 42
+MAX_CYCLES ?= 1
+YIELD_GLOBAL ?= 0.6
+MAX_DOWNLOADS ?=
+SKIP_ANALYSIS ?=
+
+strata-cycle:
+	$(PYTHON) -m src.processing.strata_cycle \
+		--target-total $(TARGET_TOTAL) \
+		--target-step $(TARGET_STEP) \
+		--per-strato-step $(STRATO_STEP) \
+		--yield-global $(YIELD_GLOBAL) \
+		--max-cycles $(MAX_CYCLES) \
+		$(if $(MAX_DOWNLOADS),--max-downloads $(MAX_DOWNLOADS),) \
+		--seed $(SEED) \
+		$(if $(SKIP_ANALYSIS),--skip-analysis,)
 
 # Reset stato download e ricomincia
 download-reset:

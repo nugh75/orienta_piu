@@ -195,7 +195,7 @@ def pipe_to_list(value):
 
 def refresh_data():
     """Forza il refresh dei dati pulendo la cache."""
-    load_practices.clear()
+    load_activities.clear()
     st.rerun()
 
 

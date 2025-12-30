@@ -14,6 +14,7 @@ import csv
 import logging
 from pathlib import Path
 import io
+import math
 
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
@@ -63,9 +64,23 @@ CSV_COLUMNS = [
 ]
 
 
+def score_or_zero(value):
+    try:
+        val = float(value)
+    except (TypeError, ValueError):
+        return 0
+    if math.isnan(val):
+        return 0
+    return val
+
+
 def calc_avg(scores):
     """Calculate average of non-zero scores"""
-    valid = [s for s in scores if s > 0]
+    valid = []
+    for value in scores:
+        val = score_or_zero(value)
+        if val > 0:
+            valid.append(val)
     return sum(valid) / len(valid) if valid else 0
 
 # Process all JSON files (deduplicate by school code)
@@ -151,46 +166,46 @@ for school_code, json_file, json_data in selected_entries:
         
         # Sezione dedicata
         sez_ded = sec2.get('2_1_ptof_orientamento_sezione_dedicata', {})
-        summary_data['has_sezione_dedicata'] = sez_ded.get('has_sezione_dedicata', 0)
-        summary_data['2_1_score'] = sez_ded.get('score', 0)
+        summary_data['has_sezione_dedicata'] = score_or_zero(sez_ded.get('has_sezione_dedicata', 0))
+        summary_data['2_1_score'] = score_or_zero(sez_ded.get('score', 0))
         
         # Finalità
         fin = sec2.get('2_3_finalita', {})
-        summary_data['2_3_finalita_attitudini_score'] = fin.get('finalita_attitudini', {}).get('score', 0)
-        summary_data['2_3_finalita_interessi_score'] = fin.get('finalita_interessi', {}).get('score', 0)
-        summary_data['2_3_finalita_progetto_vita_score'] = fin.get('finalita_progetto_vita', {}).get('score', 0)
-        summary_data['2_3_finalita_transizioni_formative_score'] = fin.get('finalita_transizioni_formative', {}).get('score', 0)
-        summary_data['2_3_finalita_capacita_orientative_opportunita_score'] = fin.get('finalita_capacita_orientative_opportunita', {}).get('score', 0)
+        summary_data['2_3_finalita_attitudini_score'] = score_or_zero(fin.get('finalita_attitudini', {}).get('score', 0))
+        summary_data['2_3_finalita_interessi_score'] = score_or_zero(fin.get('finalita_interessi', {}).get('score', 0))
+        summary_data['2_3_finalita_progetto_vita_score'] = score_or_zero(fin.get('finalita_progetto_vita', {}).get('score', 0))
+        summary_data['2_3_finalita_transizioni_formative_score'] = score_or_zero(fin.get('finalita_transizioni_formative', {}).get('score', 0))
+        summary_data['2_3_finalita_capacita_orientative_opportunita_score'] = score_or_zero(fin.get('finalita_capacita_orientative_opportunita', {}).get('score', 0))
         
         # Obiettivi
         obi = sec2.get('2_4_obiettivi', {})
-        summary_data['2_4_obiettivo_ridurre_abbandono_score'] = obi.get('obiettivo_ridurre_abbandono', {}).get('score', 0)
-        summary_data['2_4_obiettivo_continuita_territorio_score'] = obi.get('obiettivo_continuita_territorio', {}).get('score', 0)
-        summary_data['2_4_obiettivo_contrastare_neet_score'] = obi.get('obiettivo_contrastare_neet', {}).get('score', 0)
-        summary_data['2_4_obiettivo_lifelong_learning_score'] = obi.get('obiettivo_lifelong_learning', {}).get('score', 0)
+        summary_data['2_4_obiettivo_ridurre_abbandono_score'] = score_or_zero(obi.get('obiettivo_ridurre_abbandono', {}).get('score', 0))
+        summary_data['2_4_obiettivo_continuita_territorio_score'] = score_or_zero(obi.get('obiettivo_continuita_territorio', {}).get('score', 0))
+        summary_data['2_4_obiettivo_contrastare_neet_score'] = score_or_zero(obi.get('obiettivo_contrastare_neet', {}).get('score', 0))
+        summary_data['2_4_obiettivo_lifelong_learning_score'] = score_or_zero(obi.get('obiettivo_lifelong_learning', {}).get('score', 0))
         
         # Governance
         gov = sec2.get('2_5_azioni_sistema', {})
-        summary_data['2_5_azione_coordinamento_servizi_score'] = gov.get('azione_coordinamento_servizi', {}).get('score', 0)
-        summary_data['2_5_azione_dialogo_docenti_studenti_score'] = gov.get('azione_dialogo_docenti_studenti', {}).get('score', 0)
-        summary_data['2_5_azione_rapporto_scuola_genitori_score'] = gov.get('azione_rapporto_scuola_genitori', {}).get('score', 0)
-        summary_data['2_5_azione_monitoraggio_azioni_score'] = gov.get('azione_monitoraggio_azioni', {}).get('score', 0)
-        summary_data['2_5_azione_sistema_integrato_inclusione_fragilita_score'] = gov.get('azione_sistema_integrato_inclusione_fragilita', {}).get('score', 0)
+        summary_data['2_5_azione_coordinamento_servizi_score'] = score_or_zero(gov.get('azione_coordinamento_servizi', {}).get('score', 0))
+        summary_data['2_5_azione_dialogo_docenti_studenti_score'] = score_or_zero(gov.get('azione_dialogo_docenti_studenti', {}).get('score', 0))
+        summary_data['2_5_azione_rapporto_scuola_genitori_score'] = score_or_zero(gov.get('azione_rapporto_scuola_genitori', {}).get('score', 0))
+        summary_data['2_5_azione_monitoraggio_azioni_score'] = score_or_zero(gov.get('azione_monitoraggio_azioni', {}).get('score', 0))
+        summary_data['2_5_azione_sistema_integrato_inclusione_fragilita_score'] = score_or_zero(gov.get('azione_sistema_integrato_inclusione_fragilita', {}).get('score', 0))
         
         # Didattica
         did = sec2.get('2_6_didattica_orientativa', {})
-        summary_data['2_6_didattica_da_esperienza_studenti_score'] = did.get('didattica_da_esperienza_studenti', {}).get('score', 0)
-        summary_data['2_6_didattica_laboratoriale_score'] = did.get('didattica_laboratoriale', {}).get('score', 0)
-        summary_data['2_6_didattica_flessibilita_spazi_tempi_score'] = did.get('didattica_flessibilita_spazi_tempi', {}).get('score', 0)
-        summary_data['2_6_didattica_interdisciplinare_score'] = did.get('didattica_interdisciplinare', {}).get('score', 0)
+        summary_data['2_6_didattica_da_esperienza_studenti_score'] = score_or_zero(did.get('didattica_da_esperienza_studenti', {}).get('score', 0))
+        summary_data['2_6_didattica_laboratoriale_score'] = score_or_zero(did.get('didattica_laboratoriale', {}).get('score', 0))
+        summary_data['2_6_didattica_flessibilita_spazi_tempi_score'] = score_or_zero(did.get('didattica_flessibilita_spazi_tempi', {}).get('score', 0))
+        summary_data['2_6_didattica_interdisciplinare_score'] = score_or_zero(did.get('didattica_interdisciplinare', {}).get('score', 0))
         
         # Opportunità
         opp = sec2.get('2_7_opzionali_facoltative', {})
-        summary_data['2_7_opzionali_culturali_score'] = opp.get('opzionali_culturali', {}).get('score', 0)
-        summary_data['2_7_opzionali_laboratoriali_espressive_score'] = opp.get('opzionali_laboratoriali_espressive', {}).get('score', 0)
-        summary_data['2_7_opzionali_ludiche_ricreative_score'] = opp.get('opzionali_ludiche_ricreative', {}).get('score', 0)
-        summary_data['2_7_opzionali_volontariato_score'] = opp.get('opzionali_volontariato', {}).get('score', 0)
-        summary_data['2_7_opzionali_sportive_score'] = opp.get('opzionali_sportive', {}).get('score', 0)
+        summary_data['2_7_opzionali_culturali_score'] = score_or_zero(opp.get('opzionali_culturali', {}).get('score', 0))
+        summary_data['2_7_opzionali_laboratoriali_espressive_score'] = score_or_zero(opp.get('opzionali_laboratoriali_espressive', {}).get('score', 0))
+        summary_data['2_7_opzionali_ludiche_ricreative_score'] = score_or_zero(opp.get('opzionali_ludiche_ricreative', {}).get('score', 0))
+        summary_data['2_7_opzionali_volontariato_score'] = score_or_zero(opp.get('opzionali_volontariato', {}).get('score', 0))
+        summary_data['2_7_opzionali_sportive_score'] = score_or_zero(opp.get('opzionali_sportive', {}).get('score', 0))
         
         # ===== CALCULATE MEANS =====
         finalita_scores = [

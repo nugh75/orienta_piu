@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "school_id": "FIMM85601T",
+    "denominazione": "Rosai",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Firenze",
+    "anno_ptof": "2022-2025",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Arcovata 4/6",
+    "cap": "50127",
+    "email": "fiic85600r@istruzione.it",
+    "pec": "ND",
+    "website": "www.comprensivorosai.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. Il tema è affrontato in modo generico all'interno di altri paragrafi, come l'educazione civica e la descrizione del curricolo."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Agenzia Formativa esterna",
+        "Pediatra di Scuola",
+        "Cuochi"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzare le potenzialità delle bambine e dei bambini",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "alla base del pensiero montessoriano c’è la centralità della persona",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "Il passaggio dal nido alla Scuola dell’infanzia e primaria è un momento molto delicato",
+        "evidence_location": "Pagina 19"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "sviluppare l’autonomia secondo la capacità di auto-educarsi",
+        "evidence_location": "Pagina 14"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Musica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Spazio dedicato alla musica",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Attività musicali",
+      "5w_dove": "Laboratorio di musica",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo musicale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Educazione Motoria",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di movimento",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Attività motorie",
+      "5w_dove": "Spazio dedicato",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo motorio",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività scientifiche",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Esperimenti scientifici",
+      "5w_dove": "Laboratorio di Scienze",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo scientifico",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Orto Didattico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di giardinaggio",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Coltivazione piante",
+      "5w_dove": "Orto Didattico",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo ambientale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio con spazio e docente specificatamente assegnati",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Attività musicali e movimento",
+      "5w_dove": "Spazio dedicato",
+      "5w_quando": "Cadenza settimanale",
+      "5w_perche": "Sviluppo delle competenze motorie e musicali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Laboratorio di Musica in movimento (con spazio e Docente specificatamente assegnati)",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "5w_chi": "Tutti i bambini",
+      "5w_cosa": "Attività scientifiche",
+      "5w_dove": "Spazio dedicato",
+      "5w_quando": "Cadenza settimanale",
+      "5w_perche": "Sviluppo delle competenze scientifiche",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Laboratorio di Scienze (c.s.)",
+      "evidence_location": "Pagina 15"
+    },
+    {
+      "titolo_attivita": "Visite didattiche",
+      "categoria_principale": "Uscita didattica",
+      "descrizione_e_metodologia": "Visite guidate",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Esplorazione del territorio",
+      "5w_dove": "Luoghi di interesse",
+      "5w_quando": "Programmate all'inizio dell'anno",
+      "5w_perche": "Conoscenza dell'ambiente",
+      "ore_dichiarate": "ND",
+      "target": "Tutti",
+      "evidence_quote": "Affinché queste esperienze abbiano un’effettiva valenza formativa, sono programmate all’inizio dell’anno",
+      "evidence_location": "Pagina 18"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FIMM85601T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Rosai** (FIMM85601T) per il triennio 2022-2025. La scuola, di I Grado, situata a Firenze, si configura come un istituto statale inserito in un contesto territoriale metropolitano. L'analisi evidenzia un approccio all'orientamento diffuso, integrato in diverse aree del curricolo, ma privo di una sezione specificamente dedicata. Si riscontrano buone pratiche nell'ambito delle attività didattiche e dei rapporti con le famiglie, mentre permangono margini di miglioramento nella definizione di obiettivi specifici e nella strutturazione di azioni mirate a ridurre l'abbandono scolastico e favorire la transizione verso i successivi gradi di istruzione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione dedicata all'orientamento, ottenendo un punteggio di 2. Il tema viene affrontato in maniera trasversale, integrato in ambiti quali l'educazione civica e la descrizione del curricolo.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** con diversi soggetti esterni, tra cui **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, un'**Agenzia Formativa esterna**, il **Pediatra di Scuola** e i **Cuochi**. Questo network, composto da 6 partner, rappresenta un valore aggiunto per l'offerta formativa e per l'ampliamento delle opportunità di apprendimento.\n\n**2.3 Finalità:** Le finalità del PTOF pongono l'accento sulla **valorizzazione delle potenzialità** degli studenti (punteggio 3), sulla centralità della persona (punteggio 4) e sullo sviluppo dell'**autonomia** (punteggio 3). Particolare attenzione è rivolta alle **transizioni formative** (punteggio 3), con un riconoscimento della delicatezza del passaggio dal nido alla Scuola dell'infanzia e primaria. La finalità relativa al **progetto di vita** risulta meno definita (punteggio 2).\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, si evidenzia un forte impegno per il **lifelong learning** (punteggio 4) e per la continuità territoriale (punteggio 3). Gli obiettivi di riduzione dell'abbandono scolastico (punteggio 1) e di contrasto alla dispersione scolastica (neet) (punteggio 1) appaiono meno prioritari.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema si concentrano sul **coordinamento dei servizi** (punteggio 3), sul **dialogo tra docenti e studenti** (punteggio 4), sul **rapporto scuola-genitori** (punteggio 5) e sul **monitoraggio delle azioni** (punteggio 3). Particolarmente efficace è il sistema integrato di inclusione e fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa sull'apprendimento dall'esperienza (punteggio 5), sull'utilizzo di **laboratori** (punteggio 4), sulla flessibilità degli spazi e dei tempi (punteggio 5) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali (punteggio 3), laboratoriali ed espressive (punteggio 5), ludiche e ricreative (punteggio 4) e sportive (punteggio 4). Le attività di **volontariato** risultano meno sviluppate (punteggio 1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione alla centralità dello studente, nella valorizzazione delle sue potenzialità e nello sviluppo dell'autonomia. L'ampia offerta di attività laboratoriali, come il **Laboratorio di Musica**, l'**Educazione Motoria**, il **Laboratorio di Scienze** e l'**Orto Didattico**, rappresenta un elemento distintivo. Il solido rapporto con le famiglie e l'efficace sistema di inclusione completano il quadro positivo. L'attività di **Laboratorio di Musica in movimento** e il **Laboratorio di Scienze** con spazi dedicati sono particolarmente degni di nota. Le **Visite didattiche** programmate all'inizio dell'anno contribuiscono all'ampliamento degli orizzonti culturali degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Inoltre, gli obiettivi di riduzione dell'abbandono scolastico e di contrasto alla dispersione scolastica appaiono poco definiti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strategia organica e strutturata per l'orientamento, che integri le diverse iniziative esistenti e le finalizzi alla definizione di percorsi formativi personalizzati e alla preparazione degli studenti per le scelte future.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Rosai** presenta un quadro complessivamente positivo, con un forte impegno per la valorizzazione dello studente e lo sviluppo delle sue competenze. Tuttavia, per rendere l'azione orientativa più efficace, è necessario colmare il divario esistente attraverso la definizione di una sezione dedicata, la formulazione di obiettivi specifici e la strutturazione di azioni mirate a ridurre l'abbandono scolastico e favorire la transizione verso i successivi gradi di istruzione."
+}

@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "school_id": "CA1A06200A",
+    "denominazione": "Scuola Dell'Infanzia Babylandia",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Iglesias",
+    "anno_ptof": "2019/2022",
+    "provincia": "Sud Sardegna",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cattaneo N 28",
+    "cap": "09016",
+    "email": "sgbosco.scuolainfanzia@gmail.com",
+    "pec": "babylandia@mypec.eu",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è implicito nella descrizione del curricolo e dei modelli pedagogici."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "FISM",
+        "Fism Vicenza",
+        "Comune di Grisignano di Zocco",
+        "Regione Veneto",
+        "Istituto Superiore di Sanità",
+        "Associazione Aquilone",
+        "Pianeta Sport",
+        "Associazione Alinsieme",
+        "Biblioteca del Comune di Grisignano di Zocco",
+        "Vigili del Fuoco",
+        "Croce Rossa",
+        "Esercito",
+        "studi dentistici e oculistici locali",
+        "ASL",
+        "neuropsichiatri infantili",
+        "psicologi",
+        "assessori all'istruzione",
+        "assistenti sociali",
+        "volontari"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzare il loro apprendimento",
+        "evidence_location": "Pagina 36"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "scoprendo gli stili di apprendimento",
+        "evidence_location": "Pagina 36"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "collaborano alla costruzione del proprio percorso/progetto di vita",
+        "evidence_location": "Pagina 35"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "garantire un approccio educativo unitario e una certa continuità tra nido integrato e scuola dell'infanzia",
+        "evidence_location": "Pagina 37"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 0,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di educazione motoria",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività motoria tenuta da un'associazione sportiva.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Attività motorie",
+      "5w_dove": "Scuola",
+      "5w_quando": "6 ore settimanali, Ottobre-Maggio",
+      "5w_perche": "Promuovere l'attività motoria",
+      "ore_dichiarate": "6",
+      "target": "Tutti i bambini",
+      "evidence_quote": "tenuto da un insegnante appartenente all’Associazione “Pianeta Sport”",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Laboratorio di musica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio di musica",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Attività musicali",
+      "5w_dove": "Scuola",
+      "5w_quando": "Non specificato",
+      "5w_perche": "Sviluppo musicale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Laboratorio di musica",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Corso di nuoto",
+      "categoria_principale": "Corso",
+      "descrizione_e_metodologia": "Corso di nuoto in piscina",
+      "5w_chi": "Bambini e genitori",
+      "5w_cosa": "Lezioni di nuoto",
+      "5w_dove": "Piscine di Viale Ferrarin a Vicenza",
+      "5w_quando": "Marzo-Maggio",
+      "5w_perche": "Imparare a nuotare",
+      "ore_dichiarate": "10",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Corso di nuoto presso le piscine di Viale Ferrarin a Vicenza",
+      "evidence_location": "Pagina 26"
+    },
+    {
+      "titolo_attivita": "Visite a Vigili del Fuoco, Croce Rossa, Esercito",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Visite presso sedi di enti di soccorso",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Conoscere enti di soccorso",
+      "5w_dove": "Sedi enti",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Educazione alla sicurezza",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "visite presso la caserma dei Vigili del Fuoco, la sede della Croce Rossa, la caserma dell’Esercito",
+      "evidence_location": "Pagina 28"
+    },
+    {
+      "titolo_attivita": "Progetto Salute: Visite mediche gratuite",
+      "categoria_principale": "Servizio",
+      "descrizione_e_metodologia": "Visite odontoiatriche e oculistiche gratuite per i bambini.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Visite mediche",
+      "5w_dove": "Presso la scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere la salute",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Servizio di visite mediche gratuite a cura di studi dentistici e oculistici locali",
+      "evidence_location": "Pagina 29"
+    }
+  ],
+  "narrative": "Il PTOF della Scuola dell'Infanzia – Asilo Nido Integrato “San Giovanni Bosco” non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio di 2 attribuito alla sezione 2.1. Tuttavia, l'analisi approfondita del documento rivela che l'orientamento è integrato in altre aree programmatiche, in particolare nella continuità tra nido e scuola dell'infanzia (punteggio 5 per finalita_transizioni_formative) e nella collaborazione con le famiglie.  L'assenza di un punteggio per 'finalita_capacita_orientative_opportunita' (ora corretto a 0) riflette la mancanza di riferimenti espliciti a questo aspetto nel PTOF.  \n\nLa sezione dedicata agli obiettivi (2.4) mostra una debole attenzione alla prevenzione dell'abbandono scolastico (punteggio 1) e al contrasto alla dispersione formativa (punteggio 1), mentre l'obiettivo di promuovere la continuità territoriale riceve un punteggio più elevato (4).  Le azioni del sistema (2.5) evidenziano un forte impegno nel coordinamento dei servizi (punteggio 4) e nel rapporto scuola-genitori (punteggio 5), elementi che indirettamente contribuiscono all'orientamento e alla costruzione del progetto di vita del bambino. \n\nPer quanto riguarda la didattica (2.6), i laboratori (punteggio ridotto a 4) rappresentano un'opportunità per stimolare l'interesse e le attitudini dei bambini, ma la descrizione delle metodologie didattiche utilizzate risulta limitata.  Le attività extracurricolari (2.7) offrono un'ampia gamma di opportunità, con particolare attenzione alle attività sportive (punteggio 5) e laboratoriali espressive (punteggio 5). L'aggiunta del 'Progetto Salute' al registro delle attività sottolinea l'impegno dell'istituto per il benessere dei bambini e delle loro famiglie."
+}

@@ -35,6 +35,7 @@ PTOF_MD_DIR = BASE_DIR / "ptof_md"
 ANALYSIS_DIR = BASE_DIR / "analysis_results"
 DATA_DIR = BASE_DIR / "data"
 LOG_DIR = BASE_DIR / "logs"
+ANALYSIS_SUMMARY_FILE = DATA_DIR / "analysis_summary.csv"
 
 # Output files
 OUTPUT_CSV = DATA_DIR / "attivita.csv"
@@ -900,8 +901,39 @@ Se non trovi pratiche significative:
 
         logger.info(f"Salvate {len(self.practices)} pratiche in CSV")
 
+    def load_allowed_school_codes(self) -> Optional[set]:
+        """Carica i codici scuola dal CSV principale, se disponibile."""
+        if not ANALYSIS_SUMMARY_FILE.exists():
+            logger.error("CSV principale non trovato: impossibile continuare l'estrazione.")
+            raise SystemExit(1)
+
+        code_columns = ["school_id", "codice_meccanografico", "codice_scuola", "codice"]
+        try:
+            with open(ANALYSIS_SUMMARY_FILE, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                if reader.fieldnames is None:
+                    logger.error("CSV principale senza header: impossibile determinare i codici scuola.")
+                    raise SystemExit(1)
+
+                col = next((c for c in code_columns if c in reader.fieldnames), None)
+                if not col:
+                    logger.error("CSV principale senza colonna codice scuola: impossibile continuare.")
+                    raise SystemExit(1)
+
+                codes = {row.get(col, "").strip().upper() for row in reader if row.get(col)}
+                codes = {c for c in codes if c}
+                if not codes:
+                    logger.error("CSV principale senza codici scuola validi: estrazione bloccata.")
+                    raise SystemExit(1)
+                logger.info(f"Codici scuole dal CSV principale: {len(codes)}")
+                return codes
+        except Exception as exc:
+            logger.warning(f"Errore lettura CSV principale: {exc}")
+            return None
+
     def get_md_files_to_process(self, force: bool = False, target: str = None) -> List[Path]:
         """Ottiene la lista dei file MD da processare."""
+        allowed_codes = self.load_allowed_school_codes()
         md_files = []
 
         # Cerca nella directory ptof_md
@@ -913,6 +945,10 @@ Se non trovi pratiche significative:
 
                 # Se target specificato, processa solo quello
                 if target and school_code.upper() != target.upper():
+                    continue
+
+                # Filtra per scuole presenti nel CSV principale
+                if allowed_codes is not None and school_code.upper() not in allowed_codes:
                     continue
 
                 # Se force, processa tutti
