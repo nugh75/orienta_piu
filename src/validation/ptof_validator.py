@@ -48,8 +48,8 @@ logger = logging.getLogger(__name__)
 # CONFIGURAZIONE
 # =====================================================
 
-OLLAMA_URL = "http://192.168.129.14:11434/api/generate"
-OLLAMA_MODEL = "qwen3:32b"  # Modello per validazione
+OLLAMA_URL = os.environ.get("PTOF_OLLAMA_URL", "http://localhost:11434/api/generate")
+OLLAMA_MODEL = os.environ.get("PTOF_MODEL", "qwen3:32b")  # Modello per validazione
 
 # Directory
 DISCARDED_DIR = BASE_DIR / "ptof_discarded"

@@ -92,7 +92,26 @@ class LLMClient:
             try:
                 response = requests.post(url, json=payload, timeout=300)
                 response.raise_for_status()
-                return response.json().get("response", "")
+                data = response.json()
+                
+                # Log usage (Ollama style)
+                try:
+                    prompt_eval_count = data.get("prompt_eval_count", 0)
+                    eval_count = data.get("eval_count", 0)
+                    if prompt_eval_count or eval_count:
+                        usage = {
+                            "prompt_tokens": prompt_eval_count,
+                            "completion_tokens": eval_count,
+                            "total_tokens": prompt_eval_count + eval_count
+                        }
+                        from src.llm.cost_tracker import COST_TRACKER
+                        COST_TRACKER.log_usage(model, "ollama", usage)
+                except ImportError:
+                    pass
+                except Exception as e:
+                    logging.warning(f"Error logging Ollama usage: {e}")
+
+                return data.get("response", "")
             except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
                 attempt += 1
                 if retry_max >= 0 and attempt > retry_max:
@@ -154,9 +173,35 @@ class LLMClient:
         try:
             response = requests.post(base_url, headers=headers, json=payload, timeout=300)
             response.raise_for_status()
-            return response.json()['choices'][0]['message']['content']
+            data = response.json()
+            
+            # Log usage
+            usage = data.get('usage')
+            if usage:
+                try:
+                    from src.llm.cost_tracker import COST_TRACKER
+                    provider_tag = "openrouter" if "openrouter" in str(base_url) else "openai"
+                    COST_TRACKER.log_usage(model, provider_tag, usage)
+                    
+                    # Immediate Feedback
+                    cost = COST_TRACKER._calculate_cost(model, provider_tag, usage)
+                    if cost > 0:
+                        logging.info(f"💰 [Usage] {usage.get('total_tokens', 0)} toks | Cost: ${cost:.6f}")
+                except ImportError:
+                    pass
+                except Exception as e:
+                    logging.warning(f"Error logging cost: {e}")
+
+            content = data['choices'][0]['message']['content']
+            if not content:
+                choice = data['choices'][0]
+                finish_reason = choice.get('finish_reason')
+                logging.warning(f"⚠️ [OpenRouter] Empty content received. Finish reason: {finish_reason}")
+                logging.warning(f"Full choice obj: {choice}")
+                
+            return content
         except Exception as e:
             logging.error(f"API error ({base_url}): {e}")
             if 'response' in locals():
-                logging.error(f"Response: {response.text}")
+                 logging.error(f"Response text: {response.text}")
             return ""

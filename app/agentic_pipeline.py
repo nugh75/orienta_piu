@@ -79,6 +79,77 @@ def load_pipeline_config():
             logging.warning(f"Error loading config file {CONFIG_FILE}: {e}")
     else:
         logging.info(f"Config file not found at {CONFIG_FILE}, using defaults")
+
+    # ENV OVERRIDES (Critical for Make Workflow)
+    active = str(default_config.get('active_preset', '0'))
+    
+    # 1. Preset Override (High Priority)
+    env_preset = os.environ.get("PTOF_PRESET")
+    if env_preset and env_preset in default_config.get('presets', {}):
+        active = env_preset
+        default_config['active_preset'] = active
+        logging.info(f"Override Active Preset from ENV: {active} ({default_config['presets'][active]['name']})")
+    
+    if 'presets' in default_config and active in default_config['presets']:
+        preset = default_config['presets'][active]
+        
+        # Override URL & Provider
+        env_url = os.environ.get("PTOF_OLLAMA_URL") or os.environ.get("OLLAMA_HOST")
+        env_provider = os.environ.get("PTOF_PROVIDER", "").lower()
+
+        # Auto-detect OpenRouter
+        if env_url and "openrouter" in env_url:
+            env_provider = "openrouter"
+
+        if env_provider in ["openai", "openrouter"]:
+            preset['type'] = "openai"
+            # For OpenAI/OpenRouter, 'ollama_url' is confusing but LLMClient might use base_url
+            preset['base_url'] = env_url
+            # Default API key env vars if not set
+            if env_provider == "openrouter":
+                preset['api_key_env'] = "OPENROUTER_API_KEY"
+            else:
+                 preset['api_key_env'] = "OPENAI_API_KEY"
+            logging.info(f"Override Provider from ENV: {env_provider} (URL: {env_url})")
+        
+        elif env_url:
+             # Default Ollama behavior
+            preset['ollama_url'] = env_url
+            if not env_url.endswith("/api/generate"):
+                 preset['ollama_url'] = f"{env_url}/api/generate"
+            logging.info(f"Override Ollama URL from ENV: {preset['ollama_url']}")
+
+        # Override Models (Granular or Global)
+        env_model = os.environ.get("PTOF_MODEL")
+        if env_model:
+            preset['models'] = {
+                "analyst": env_model,
+                "reviewer": env_model,
+                "refiner": env_model,
+                "synthesizer": env_model
+            }
+            logging.info(f"Override Models from ENV (Global): {env_model}")
+        
+        # Granular overrides (take precedence)
+        env_analyst = os.environ.get("PTOF_MODEL_ANALYST")
+        if env_analyst:
+            preset['models']['analyst'] = env_analyst
+            logging.info(f"Override Analyst from ENV: {env_analyst}")
+            
+        env_reviewer = os.environ.get("PTOF_MODEL_REVIEWER")
+        if env_reviewer:
+            preset['models']['reviewer'] = env_reviewer
+            logging.info(f"Override Reviewer from ENV: {env_reviewer}")
+            
+        env_refiner = os.environ.get("PTOF_MODEL_REFINER")
+        if env_refiner:
+            preset['models']['refiner'] = env_refiner
+            logging.info(f"Override Refiner from ENV: {env_refiner}")
+            
+        env_synthesizer = os.environ.get("PTOF_MODEL_SYNTHESIZER")
+        if env_synthesizer:
+            preset['models']['synthesizer'] = env_synthesizer
+            logging.info(f"Override Synthesizer from ENV: {env_synthesizer}")
             
     return default_config
 
@@ -707,7 +778,7 @@ class BaseAgent:
                 prompt=user_prompt,
                 system_prompt=system_prompt,
                 temperature=0.2,
-                max_tokens=16000
+                max_tokens=8192
             )
             return response
         except Exception as e:
@@ -728,16 +799,20 @@ class AnalystAgent(BaseAgent):
         return self.call_llm(prompt_template, context=ptof_text)
     
     def draft_chunk(self, chunk_text, chunk_num, total_chunks):
-        """Analyze a single chunk of the document."""
+        """Analyze a single chunk of the document using compact prompt."""
         logging.info(f"[{self.model}] Drafting chunk {chunk_num}/{total_chunks}...")
-        prompt_template = PROMPTS.get("Analyst", "")
+        # Use compact AnalystChunk prompt (no narrative, smaller output)
+        prompt_template = PROMPTS.get("AnalystChunk", "")
+        if not prompt_template:
+            # Fallback to full Analyst if AnalystChunk not found
+            prompt_template = PROMPTS.get("Analyst", "")
         if not prompt_template:
             return ""
         
         chunk_prompt = f"""{prompt_template}
 
 NOTA: Questa è la SEZIONE {chunk_num} di {total_chunks} del documento PTOF.
-Analizza SOLO questa sezione e restituisci i punteggi trovati."""
+Analizza SOLO questa sezione. Output JSON compatto."""
         
         return self.call_llm(chunk_prompt, context=chunk_text)
 
@@ -849,7 +924,7 @@ def sanitize_json(text):
     
     # Find matching closing brace
     depth = 0
-    end = start
+    end = -1
     for i, char in enumerate(text[start:], start):
         if char == '{':
             depth += 1
@@ -859,7 +934,16 @@ def sanitize_json(text):
                 end = i
                 break
     
-    return text[start:end+1]
+    # Remove control characters (e.g. from bad LLM tokenization)
+    import re
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+
+    # If we found a valid end, return the block. 
+    # If not (end == -1), it means JSON is truncated/incomplete. Return everything from start.
+    if end != -1:
+        return text[start:end+1]
+    
+    return text[start:]
 
 
 def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, results_dir=RESULTS_DIR, status_callback=None):
@@ -930,6 +1014,11 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                     break
                 except Exception as e:
                     attempt += 1
+                    # Debug logging for parse failures
+                    snippet = chunk_draft[:500] + "..." if len(chunk_draft) > 500 else chunk_draft
+                    logging.warning(f"[Pipeline Debug] JSON Parse Failed. Snippet: {snippet}")
+                    logging.warning(f"[Pipeline Debug] Error: {e}")
+
                     if attempt >= CHUNK_RETRY_MAX:
                         msg = f"[Pipeline] Chunk {i+1} failed after {CHUNK_RETRY_MAX} attempts (parse error)."
                         logging.error(f"{msg} Last error: {e}")

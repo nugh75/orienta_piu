@@ -21,10 +21,37 @@ import argparse
 parser = argparse.ArgumentParser(description="Workflow analisi PTOF")
 parser.add_argument("--force", action="store_true", help="Forza ri-analisi di tutti i file (ignora registro)")
 parser.add_argument("--force-code", type=str, help="Forza ri-analisi di un codice specifico")
+parser.add_argument("--model", type=str, help="Modello Ollama da usare per TUTTI (override generico)")
+parser.add_argument("--analyst", type=str, help="Modello per analista (es. gemma3:27b)")
+parser.add_argument("--reviewer", type=str, help="Modello per revisore (es. qwen3:32b)")
+parser.add_argument("--refiner", type=str, help="Modello per refiner (es. gemma3:27b)")
+parser.add_argument("--synthesizer", type=str, help="Modello per synthesizer (es. gemma3:27b)")
+parser.add_argument("--ollama-url", type=str, default="http://localhost:11434", help="URL server Ollama")
+parser.add_argument("--provider", type=str, help="Provider LLM (ollama, openai, openrouter)")
+parser.add_argument("--preset", type=str, help="ID Preset da usare (es. 8 per Gemini Lite)")
 args, _ = parser.parse_known_args()
 
 FORCE_REANALYSIS = args.force
 FORCE_CODE = args.force_code
+# Override env vars if args present (so subprocesses see them)
+if args.model:
+    os.environ["PTOF_MODEL"] = args.model
+if args.analyst:
+    os.environ["PTOF_MODEL_ANALYST"] = args.analyst
+if args.reviewer:
+    os.environ["PTOF_MODEL_REVIEWER"] = args.reviewer
+if args.refiner:
+    os.environ["PTOF_MODEL_REFINER"] = args.refiner
+if args.synthesizer:
+    os.environ["PTOF_MODEL_SYNTHESIZER"] = args.synthesizer
+if args.ollama_url:
+    os.environ["PTOF_OLLAMA_URL"] = args.ollama_url
+    os.environ["OLLAMA_HOST"] = args.ollama_url # Compatibility
+if args.provider:
+    os.environ["PTOF_PROVIDER"] = args.provider
+if args.preset:
+    os.environ["PTOF_PRESET"] = args.preset
+
 
 # Setup logging
 LOG_DIR = Path(__file__).resolve().parent / "logs"
@@ -76,8 +103,19 @@ def graceful_exit_handler(signum, frame):
 # Registra handler per SIGINT (Ctrl+C)
 signal.signal(signal.SIGINT, graceful_exit_handler)
 
+
+def print_session_cost():
+    """Stampa il costo stimato della sessione."""
+    try:
+        from src.llm.cost_tracker import COST_TRACKER
+        print("\n💰 Costo stimato sessione: (Vedi logs/usage_costs.jsonl)")
+        # TODO: Implement real-time session accumulation in CostTracker
+    except ImportError:
+        pass
+
 def save_and_exit():
     """Salva tutti i dati e esce in modo pulito."""
+    print_session_cost()
     print("\n📝 Salvataggio registro analisi...", flush=True)
     try:
         from src.utils.analysis_registry import save_registry, load_registry
@@ -86,6 +124,9 @@ def save_and_exit():
         print("   ✅ Registro salvato", flush=True)
     except Exception as e:
         print(f"   ⚠️ Errore salvataggio registro: {e}", flush=True)
+
+    print("✅ Stato salvato.")
+    sys.exit(0)
     
     print("\n📊 Rigenerazione CSV...", flush=True)
     try:

@@ -70,10 +70,26 @@
       "type": "mixed",
       "description": "Analisi locale (privacy/costo 0) + Revisione DeepSeek (economica).",
       "models": {
-        "analyst": { "provider": "ollama", "model": "gemma3:27b" },
-        "reviewer": { "provider": "openai", "base_url": "https://openrouter.ai/api/v1/chat/completions", "api_key_env": "OPENROUTER_API_KEY", "model": "deepseek/deepseek-chat" },
-        "refiner": { "provider": "openai", "base_url": "https://openrouter.ai/api/v1/chat/completions", "api_key_env": "OPENROUTER_API_KEY", "model": "deepseek/deepseek-chat" },
-        "synthesizer": { "provider": "ollama", "model": "gemma3:27b" }
+        "analyst": {
+          "provider": "ollama",
+          "model": "gemma3:27b"
+        },
+        "reviewer": {
+          "provider": "openai",
+          "base_url": "https://openrouter.ai/api/v1/chat/completions",
+          "api_key_env": "OPENROUTER_API_KEY",
+          "model": "deepseek/deepseek-chat"
+        },
+        "refiner": {
+          "provider": "openai",
+          "base_url": "https://openrouter.ai/api/v1/chat/completions",
+          "api_key_env": "OPENROUTER_API_KEY",
+          "model": "deepseek/deepseek-chat"
+        },
+        "synthesizer": {
+          "provider": "ollama",
+          "model": "gemma3:27b"
+        }
       },
       "ollama_url": "http://192.168.129.14:11434/api/generate"
     },
@@ -82,10 +98,26 @@
       "type": "mixed",
       "description": "Analisi locale + Refiner GPT-5 Mini per JSON perfetto.",
       "models": {
-        "analyst": { "provider": "ollama", "model": "gemma3:27b" },
-        "reviewer": { "provider": "ollama", "model": "qwen3:32b" },
-        "refiner": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" },
-        "synthesizer": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" }
+        "analyst": {
+          "provider": "ollama",
+          "model": "gemma3:27b"
+        },
+        "reviewer": {
+          "provider": "ollama",
+          "model": "qwen3:32b"
+        },
+        "refiner": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        },
+        "synthesizer": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        }
       },
       "ollama_url": "http://192.168.129.14:11434/api/generate"
     },
@@ -94,10 +126,30 @@
       "type": "mixed",
       "description": "Analisi con GPT-5 Mini, Revisione con Gemini 2.0 Flash.",
       "models": {
-        "analyst": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" },
-        "reviewer": { "provider": "openai", "base_url": "https://openrouter.ai/api/v1/chat/completions", "api_key_env": "OPENROUTER_API_KEY", "model": "google/gemini-2.0-flash-001" },
-        "refiner": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" },
-        "synthesizer": { "provider": "openai", "base_url": "https://openrouter.ai/api/v1/chat/completions", "api_key_env": "OPENROUTER_API_KEY", "model": "google/gemini-2.0-flash-001" }
+        "analyst": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        },
+        "reviewer": {
+          "provider": "openai",
+          "base_url": "https://openrouter.ai/api/v1/chat/completions",
+          "api_key_env": "OPENROUTER_API_KEY",
+          "model": "google/gemini-2.0-flash-001"
+        },
+        "refiner": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        },
+        "synthesizer": {
+          "provider": "openai",
+          "base_url": "https://openrouter.ai/api/v1/chat/completions",
+          "api_key_env": "OPENROUTER_API_KEY",
+          "model": "google/gemini-2.0-flash-001"
+        }
       }
     },
     "8": {
@@ -107,10 +159,10 @@
       "base_url": "https://openrouter.ai/api/v1/chat/completions",
       "api_key_env": "OPENROUTER_API_KEY",
       "models": {
-        "analyst": "google/gemini-2.5-flash-lite-001",
-        "reviewer": "google/gemini-2.5-flash-lite-001",
-        "refiner": "google/gemini-2.5-flash-lite-001",
-        "synthesizer": "google/gemini-2.5-flash-lite-001"
+        "analyst": "google/gemini-2.5-flash-lite",
+        "reviewer": "google/gemini-2.5-flash-lite",
+        "refiner": "google/gemini-2.5-flash-lite",
+        "synthesizer": "google/gemini-2.5-flash-lite"
       }
     },
     "9": {
@@ -120,10 +172,10 @@
       "base_url": "https://openrouter.ai/api/v1/chat/completions",
       "api_key_env": "OPENROUTER_API_KEY",
       "models": {
-        "analyst": "google/gemini-2.5-flash-001",
-        "reviewer": "google/gemini-2.5-flash-001",
-        "refiner": "google/gemini-2.5-flash-001",
-        "synthesizer": "google/gemini-2.5-flash-001"
+        "analyst": "google/gemini-2.5-flash",
+        "reviewer": "google/gemini-2.5-flash",
+        "refiner": "google/gemini-2.5-flash",
+        "synthesizer": "google/gemini-2.5-flash"
       }
     },
     "10": {
@@ -155,10 +207,26 @@
       "type": "mixed",
       "description": "Analisi locale con Gemma 3, Refiner e Synthesizer con GPT-5 Mini.",
       "models": {
-        "analyst": { "provider": "ollama", "model": "gemma3:27b" },
-        "reviewer": { "provider": "ollama", "model": "gemma3:27b" },
-        "refiner": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" },
-        "synthesizer": { "provider": "openai", "base_url": "https://api.openai.com/v1/chat/completions", "api_key_env": "OPENAI_API_KEY", "model": "gpt-5-mini" }
+        "analyst": {
+          "provider": "ollama",
+          "model": "gemma3:27b"
+        },
+        "reviewer": {
+          "provider": "ollama",
+          "model": "gemma3:27b"
+        },
+        "refiner": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        },
+        "synthesizer": {
+          "provider": "openai",
+          "base_url": "https://api.openai.com/v1/chat/completions",
+          "api_key_env": "OPENAI_API_KEY",
+          "model": "gpt-5-mini"
+        }
       },
       "ollama_url": "http://192.168.129.14:11434/api/generate"
     },
@@ -173,10 +241,23 @@
         "synthesizer": "llama3.2:3b"
       },
       "ollama_url": "http://192.168.129.14:11434/api/generate"
+    },
+    "14": {
+      "name": "OpenRouter Qwen 2.5 72B Instruct",
+      "type": "openai",
+      "description": "Usa Qwen 2.5 72B Instruct via OpenRouter.",
+      "base_url": "https://openrouter.ai/api/v1/chat/completions",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "models": {
+        "analyst": "qwen/qwen-2.5-72b-instruct",
+        "reviewer": "qwen/qwen-2.5-72b-instruct",
+        "refiner": "qwen/qwen-2.5-72b-instruct",
+        "synthesizer": "qwen/qwen-2.5-72b-instruct"
+      }
     }
   },
   "chunking": {
-    "chunk_size": 30000,
-    "long_doc_threshold": 50000
+    "chunk_size": 7500,
+    "long_doc_threshold": 12500
   }
 }

@@ -131,8 +131,10 @@ help:
 	@echo "  make models-ollama           - Lista modelli Ollama scaricati (OLLAMA_HOST=X)"
 	@echo "  make models-ollama-pull MODEL=X - Scarica/aggiorna un modello Ollama"
 	@echo "  make list-models             - Lista modelli dai preset"
-	@echo "  make list-models-openrouter  - Lista modelli OpenRouter (FREE_ONLY=1 per limitare)"
-	@echo "  make list-models-gemini      - Lista modelli Gemini (richiede GEMINI_API_KEY)"
+	@echo ""
+	@echo "WORKFLOW AVANZATO (Ruoli):"
+	@echo "  make workflow ANALYST=gemma3:27b REVIEWER=qwen3:32b REFINER=... SYNTHESIZER=..."
+	@echo "  make workflow OLLAMA_URL=http://localhost:11434 MODEL=..."
 	@echo ""
 	@echo "PULIZIA FILE OBSOLETI:"
 	@echo "  make cleanup-dry          - Mostra cosa verrebbe eliminato (dry-run)"
@@ -195,7 +197,15 @@ endif
 	-@pkill -f "ollama_score_reviewer" 2>/dev/null || true
 	@sleep 1
 	@echo "🚀 Avvio analisi PTOF (una scuola alla volta)..."
-	$(PYTHON) workflow_notebook.py
+	$(PYTHON) workflow_notebook.py \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(ANALYST),--analyst "$(ANALYST)",) \
+		$(if $(REVIEWER),--reviewer "$(REVIEWER)",) \
+		$(if $(REFINER),--refiner "$(REFINER)",) \
+		$(if $(SYNTHESIZER),--synthesizer "$(SYNTHESIZER)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(PRESET),--preset "$(PRESET)",)
 
 workflow-force:
 ifdef CONF
@@ -247,6 +257,10 @@ activity-extract:
 report-costs:
 	@echo "💰 Generazione Report Costi API..."
 	$(PYTHON) src/utils/cost_reporter.py
+
+# Check crediti OpenRouter (Live API)
+check-credits:
+	@$(PYTHON) src/utils/check_openrouter_credits.py
 
 # Reset e ri-estrazione completa
 activity-extract-reset:

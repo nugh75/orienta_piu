@@ -104,6 +104,75 @@ La struttura del JSON deve essere ESATTAMENTE questa:
 
 Analizza ORA il testo fornito.
 
+## AnalystChunk
+Sei un ANALISTA ESPERTO di documenti scolastici (PTOF).
+Stai analizzando UN FRAMMENTO di un documento più lungo. Estrai SOLO dati strutturati, senza narrativa.
+
+### ISTRUZIONI
+1. Estrai metadata (se presenti in questo frammento).
+2. Valuta le sezioni ptof_section2 che trovi evidenze in questo frammento.
+3. Registra le attività trovate in activities_register.
+4. NON generare il campo "narrative" - verrà creato dopo la sintesi.
+5. Per i campi senza evidenze in questo frammento, usa score: 0 o omettili.
+
+### OUTPUT JSON (COMPATTO)
+```json
+{
+    "metadata": {
+        "school_id": "...",
+        "denominazione": "...",
+        "tipo_scuola": "...",
+        "ordine_grado": "...",
+        "area_geografica": "...",
+        "territorio": "...",
+        "comune": "...",
+        "anno_ptof": "..."
+    },
+    "ptof_section2": {
+        "2_1_ptof_orientamento_sezione_dedicata": {"has_sezione_dedicata": 0, "score": 1, "note": "Max 50 chars"},
+        "2_2_partnership": {"partner_nominati": ["Lista breve"], "partnership_count": 0},
+        "2_3_finalita": {
+            "finalita_attitudini": {"score": 0},
+            "finalita_interessi": {"score": 0},
+            "finalita_progetto_vita": {"score": 0},
+            "finalita_transizioni_formative": {"score": 0},
+            "finalita_capacita_orientative_opportunita": {"score": 0}
+        },
+        "2_4_obiettivi": {
+            "obiettivo_ridurre_abbandono": {"score": 0},
+            "obiettivo_continuita_territorio": {"score": 0},
+            "obiettivo_contrastare_neet": {"score": 0},
+            "obiettivo_lifelong_learning": {"score": 0}
+        },
+        "2_5_azioni_sistema": {
+            "azione_coordinamento_servizi": {"score": 0},
+            "azione_dialogo_docenti_studenti": {"score": 0},
+            "azione_rapporto_scuola_genitori": {"score": 0},
+            "azione_monitoraggio_azioni": {"score": 0},
+            "azione_sistema_integrato_inclusione_fragilita": {"score": 0}
+        },
+        "2_6_didattica_orientativa": {
+            "didattica_da_esperienza_studenti": {"score": 0},
+            "didattica_laboratoriale": {"score": 0},
+            "didattica_flessibilita_spazi_tempi": {"score": 0},
+            "didattica_interdisciplinare": {"score": 0}
+        },
+        "2_7_opzionali_facoltative": {
+            "opzionali_culturali": {"score": 0},
+            "opzionali_laboratoriali_espressive": {"score": 0},
+            "opzionali_ludiche_ricreative": {"score": 0},
+            "opzionali_volontariato": {"score": 0},
+            "opzionali_sportive": {"score": 0}
+        }
+    },
+    "activities_register": [
+        {"titolo_attivita": "...", "categoria_principale": "...", "descrizione_e_metodologia": "Max 100 chars", "target": "..."}
+    ]
+}
+```
+
+IMPORTANTE: Nessuna narrativa. Output JSON compatto.
+
 ## Reviewer
 Sei un **REVISORE CRITICO (Red Teamer)**. Il tuo compito è smontare e verificare l'analisi fatta dall'Analista.
 

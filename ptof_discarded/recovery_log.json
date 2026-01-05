@@ -7086,6 +7086,48 @@
         "reason": "Rifiutato da LLM (circolare: Il testo analizzato è un atto d'indirizzo del dirigente scolastico per l'aggiornamento del PTOF, non il PTOF stesso. Manca la struttura articolata e i contenuti essenziali del piano triennale dell'offerta formativa.)"
       },
       "timestamp": "2025-12-29T23:15:31.778660"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/orienta_piu/ptof_inbox/IMMM81001R_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/orienta_piu/ptof_discarded/too_short/IMMM81001R_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/orienta_piu/ptof_inbox/IMMM81001R_PTOF.pdf",
+        "file_name": "IMMM81001R_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 9591,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2026-01-05T16:37:13.704409",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2026-01-05T16:37:13.706238"
+    },
+    {
+      "original_path": "/Users/danieledragoni/git/orienta_piu/ptof_inbox/AGPS00101A_PTOF.pdf",
+      "discarded_path": "/Users/danieledragoni/git/orienta_piu/ptof_discarded/not_ptof/AGPS00101A_PTOF.pdf",
+      "report": {
+        "file_path": "/Users/danieledragoni/git/orienta_piu/ptof_inbox/AGPS00101A_PTOF.pdf",
+        "file_name": "AGPS00101A_PTOF.pdf",
+        "result": "not_ptof",
+        "confidence": 0.38,
+        "phase": "llm",
+        "page_count": 7,
+        "char_count": 17346,
+        "ptof_keywords_found": 11,
+        "exclusion_keywords_found": 6,
+        "school_code_found": null,
+        "llm_analysis": "Errore analisi LLM",
+        "llm_confidence": 0.5,
+        "timestamp": "2026-01-05T16:37:34.007188",
+        "reason": "Rifiutato da LLM (Errore analisi LLM)"
+      },
+      "timestamp": "2026-01-05T16:37:41.062392"
     }
   ]
 }

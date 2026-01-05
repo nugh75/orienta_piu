@@ -1,0 +1,1278 @@
+{
+  "cycle_id": 1,
+  "target_total": 6000,
+  "yield_global": 0.36,
+  "yield_by_strato": {
+    "STAT_CALABRIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_TOSCANA_METRO_SEC_PRIMO": 0.216,
+    "STAT_CAMPANIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_VENETO_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_CAMPANIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_LIGURIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_SICILIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_TOSCANA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_SICILIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_LOMBARDIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_PUGLIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_LAZIO_METRO_SEC_PRIMO": 0.216,
+    "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_ABRUZZO_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_MARCHE_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_LAZIO_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_CALABRIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO": 0.216,
+    "STAT_UMBRIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_PIEMONTE_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_LOMBARDIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_SARDEGNA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_PIEMONTE_METRO_SEC_PRIMO": 0.216,
+    "STAT_PUGLIA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_BASILICATA_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_LIGURIA_METRO_SEC_PRIMO": 0.216,
+    "STAT_MOLISE_NON_METRO_SEC_PRIMO": 0.216,
+    "STAT_SARDEGNA_METRO_SEC_PRIMO": 0.216,
+    "STAT_VENETO_METRO_SEC_PRIMO": 0.216,
+    "PAR_CAMPANIA_METRO_SEC_PRIMO": 0.216,
+    "PAR_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_VENETO_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_CAMPANIA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_PIEMONTE_METRO_SEC_PRIMO": 0.216,
+    "PAR_LIGURIA_METRO_SEC_PRIMO": 0.216,
+    "PAR_LAZIO_METRO_SEC_PRIMO": 0.216,
+    "PAR_LOMBARDIA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_SICILIA_METRO_SEC_PRIMO": 0.216,
+    "PAR_LAZIO_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_PIEMONTE_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_PUGLIA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_LOMBARDIA_METRO_SEC_PRIMO": 0.216,
+    "PAR_CALABRIA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_TOSCANA_METRO_SEC_PRIMO": 0.216,
+    "PAR_EMILIA_ROMAGNA_METRO_SEC_PRIMO": 0.216,
+    "PAR_TOSCANA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_LIGURIA_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_ABRUZZO_NON_METRO_SEC_PRIMO": 0.216,
+    "PAR_VENETO_METRO_SEC_PRIMO": 0.216
+  },
+  "failures": {
+    "CZMM86701D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "FIMM809029": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "FIMM863022": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "FIMM85801D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "BNMM814011": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "AVMM70401N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "SAMM81801N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "CEMM85409R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "REMM81101D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "FEMM807019": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "FEMM810015": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "VIMM869016": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "VIMM84403X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "BLMM82502T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "TVMM70601V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "NAMM8F3015": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "NAMM8FJ01D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "SVMM80701E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "SVMM812023": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "SRMM86401D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SICILIA_NON_METRO_SEC_PRIMO"
+    },
+    "MSMM81101P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "SIMM81202D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "SIMM81303A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "PIMM823019": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "MEMM84705E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SICILIA_METRO_SEC_PRIMO"
+    },
+    "CTMM8BM01V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SICILIA_METRO_SEC_PRIMO"
+    },
+    "MEMM8AF01P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SICILIA_METRO_SEC_PRIMO"
+    },
+    "MIMM8FC01G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MIMM80901V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MIMM8B502T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MIMM8GG01D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "BAMM81301V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "BAMM80801B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "BAMM888018": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "BAMM825015": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "RMMM89402R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_METRO_SEC_PRIMO"
+    },
+    "UDMM84504T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "PNMM836021": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UDMM86001R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UDMM827015": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UDMM00800Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "CHMM80601Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "AQMM845011": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "TEMM83002R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "PSMM84002X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "MCMM80201G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "ANMM82301V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "VTMM81203B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_NON_METRO_SEC_PRIMO"
+    },
+    "VTMM822043": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_NON_METRO_SEC_PRIMO"
+    },
+    "LTMM840018": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_NON_METRO_SEC_PRIMO"
+    },
+    "LTMM83501R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_NON_METRO_SEC_PRIMO"
+    },
+    "RCMM813021": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "RCMM85001V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "RCMM82901D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "RCMM82908R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "RCMM85203L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "BOMM83501P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BOMM832028": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BOMM365005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BOMM87701R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BOMM853029": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "PGMM83801A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "TRMM02200C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "ALMM816037": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "ATMM80502R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "ALMM811034": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "ALMM823029": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "LCMM806019": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "BGMM85201E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "BSMM81601X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "PVMM806037": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "CAMM82103R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_NON_METRO_SEC_PRIMO"
+    },
+    "ORMM82701N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_NON_METRO_SEC_PRIMO"
+    },
+    "CAMM84204V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_NON_METRO_SEC_PRIMO"
+    },
+    "SSMM80302E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_NON_METRO_SEC_PRIMO"
+    },
+    "CAMM875024": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_NON_METRO_SEC_PRIMO"
+    },
+    "TOMM807039": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TOMM8B501R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TOMM32500B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TOMM858014": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "LEMM81903P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "LEMM85701B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "LEMM895016": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "PZMM885018": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_PRIMO"
+    },
+    "MTMM83404N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_PRIMO"
+    },
+    "MTMM81802N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_PRIMO"
+    },
+    "PZMM886014": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_PRIMO"
+    },
+    "GEMM86902T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GEMM81503E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GEMM84302N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GEMM86602A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GEMM181008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "CBMM85401L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_MOLISE_NON_METRO_SEC_PRIMO"
+    },
+    "CBMM85501C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_MOLISE_NON_METRO_SEC_PRIMO"
+    },
+    "CAMM00600L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "CAMM8AM01G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "CAMM8AN01B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "CAMM89801Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "VEMM86401Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_METRO_SEC_PRIMO"
+    },
+    "VEMM824019": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_METRO_SEC_PRIMO"
+    },
+    "VEMM86901V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_METRO_SEC_PRIMO"
+    },
+    "VEMM87101V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_VENETO_METRO_SEC_PRIMO"
+    },
+    "NA1MT6500T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "NA1M015008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "NA1MPT5003": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "NA1M00600D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_METRO_SEC_PRIMO"
+    },
+    "RE1M00400V": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "PR1M00500L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "RE1M8H500D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "RN1M02000L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "TV1M00800X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "VR1M92500T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "TV1M01000X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "TV1M014007": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "BL1M00100R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_NON_METRO_SEC_PRIMO"
+    },
+    "CE1ME85005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "SA1MR95005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "BN1M4D5009": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CAMPANIA_NON_METRO_SEC_PRIMO"
+    },
+    "TO1M01000G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TO1M042003": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TO1M04500E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "TO1M02300N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_METRO_SEC_PRIMO"
+    },
+    "GE1M00800T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GE1M014005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GE1M015001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GE1M03300E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "GE1M027007": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_METRO_SEC_PRIMO"
+    },
+    "RM1M09800G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LAZIO_METRO_SEC_PRIMO"
+    },
+    "RM1MHD500Z": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LAZIO_METRO_SEC_PRIMO"
+    },
+    "RM1M5A5006": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LAZIO_METRO_SEC_PRIMO"
+    },
+    "RM1M04300B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LAZIO_METRO_SEC_PRIMO"
+    },
+    "VA1M005002": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "PV1M00600N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "CR1M00200X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_NON_METRO_SEC_PRIMO"
+    },
+    "CT1M01600C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SICILIA_METRO_SEC_PRIMO"
+    },
+    "PA1M02400X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SICILIA_METRO_SEC_PRIMO"
+    },
+    "ME1M004001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SICILIA_METRO_SEC_PRIMO"
+    },
+    "ME1MU5500F": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SICILIA_METRO_SEC_PRIMO"
+    },
+    "LT1M001006": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LAZIO_NON_METRO_SEC_PRIMO"
+    },
+    "NO1M00900X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "CN1M001008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "NO1M001009": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "AT1MS75008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "AT1M00200R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PIEMONTE_NON_METRO_SEC_PRIMO"
+    },
+    "TA1M00300D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "FG1M002009": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "FG1MS1500L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "LE1M00400B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "LE1MO05005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_NON_METRO_SEC_PRIMO"
+    },
+    "MI1M097007": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MI1M04000B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MI1M00700Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "MI1M07300P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LOMBARDIA_METRO_SEC_PRIMO"
+    },
+    "CS1MUP500H": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "CZ1M00100B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "CZ1M002007": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "CZ1MBR5002": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "CS1MT95008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_NON_METRO_SEC_PRIMO"
+    },
+    "GO1MGQ500P": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UD1M00100D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UD1M00700C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "UD1M002009": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "PN1M002009": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "FI1M00500D": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "FI1M015004": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "FI1M008001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "FI1M010001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_METRO_SEC_PRIMO"
+    },
+    "BO1M007003": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BO1M00300Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "BO1M01300A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_EMILIA_ROMAGNA_METRO_SEC_PRIMO"
+    },
+    "PO1M02000G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "SI1M00200A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "LI1M00600A": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "GR1M00200E": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_TOSCANA_NON_METRO_SEC_PRIMO"
+    },
+    "MC1M8S500G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "AP1MUM500N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "AP1M001005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "MC1MIF5001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_MARCHE_NON_METRO_SEC_PRIMO"
+    },
+    "BA1MDT500L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "BA1M006008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_PUGLIA_METRO_SEC_PRIMO"
+    },
+    "IM1M00500T": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "SV1M00200X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "SV1M00400G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "SV1M00500B": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_LIGURIA_NON_METRO_SEC_PRIMO"
+    },
+    "CA1M01000R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "CA1M01100L": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "CA1M01200C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_SARDEGNA_METRO_SEC_PRIMO"
+    },
+    "PE1M00100N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "AQ1M00200G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "PE1M004005": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "PE1M00800C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "PE1M5C500R": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_ABRUZZO_NON_METRO_SEC_PRIMO"
+    },
+    "RC1M00400N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "TR1M00100X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "PG1M001008": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "PG1M00500G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "PG1MB2500Q": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_UMBRIA_NON_METRO_SEC_PRIMO"
+    },
+    "IS1MS7500N": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_MOLISE_NON_METRO_SEC_PRIMO"
+    },
+    "VE1M00500C": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_METRO_SEC_PRIMO"
+    },
+    "VE1M01200G": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_METRO_SEC_PRIMO"
+    },
+    "VE1M01000X": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_METRO_SEC_PRIMO"
+    },
+    "VE1M007004": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_METRO_SEC_PRIMO"
+    },
+    "VE1M002001": {
+      "attempts": 1,
+      "last_cycle": 1,
+      "last_reason": "PTOF non trovato",
+      "strato": "PAR_VENETO_METRO_SEC_PRIMO"
+    }
+  }
+}
