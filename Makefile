@@ -86,9 +86,10 @@ help:
 	@echo ""
 	@echo "CATALOGO ATTIVITÀ (ex buone pratiche):"
 	@echo "  make activity-extract            - Estrae attività dai PDF PTOF"
-	@echo "                                     MODEL=X, OLLAMA_URL=X, LIMIT=N, FORCE=1"
+	@echo "                                     Opzioni: PROVIDER=openrouter, MODEL=..., LIMIT=..., MAX_COST=..."
 	@echo "  make activity-extract-reset      - Reset e ri-estrazione completa"
 	@echo "  make activity-extract-stats      - Mostra statistiche estrazione"
+	@echo "  make report-costs                - Genera report costi API (CSM/MD) in data/"
 	@echo ""
 	@echo "META REPORT (Best Practices):"
 	@echo "  make meta-status              - Stato dei report (pending/current/stale)"
@@ -234,9 +235,18 @@ activity-extract:
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(LIMIT),--limit $(LIMIT),) \
 		$(if $(WAIT),--wait $(WAIT),) \
+		$(if $(BATCH_SIZE),--batch-size $(BATCH_SIZE),) \
+		$(if $(BATCH_WAIT),--batch-wait $(BATCH_WAIT),) \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(SHARD),--shard "$(SHARD)",) \
+		$(if $(MAX_COST),--max-cost $(MAX_COST),) \
 		$(if $(FORCE),--force,) \
 		$(if $(TARGET),--target "$(TARGET)",)
 	@echo "✅ Attività salvate in data/attivita.json e data/attivita.csv"
+
+report-costs:
+	@echo "💰 Generazione Report Costi API..."
+	$(PYTHON) src/utils/cost_reporter.py
 
 # Reset e ri-estrazione completa
 activity-extract-reset:
@@ -406,7 +416,9 @@ strata-cycle:
 		--max-cycles $(MAX_CYCLES) \
 		$(if $(MAX_DOWNLOADS),--max-downloads $(MAX_DOWNLOADS),) \
 		--seed $(SEED) \
-		$(if $(SKIP_ANALYSIS),--skip-analysis,)
+		$(if $(SKIP_ANALYSIS),--skip-analysis,) \
+		$(if $(G),--grado "$(G)",) \
+		$(if $(R),--regione "$(R)",)
 
 # Reset stato download e ricomincia
 download-reset:

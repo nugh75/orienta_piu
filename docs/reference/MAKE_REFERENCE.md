@@ -280,6 +280,13 @@ make activity-extract MODEL=qwen3:32b
 # Limita il numero di PDF
 make activity-extract LIMIT=10
 
+# Gestione rate limit avanzata (Batch Wait)
+# Esegue 10 richieste poi si ferma per 300 secondi (5 minuti)
+make activity-extract BATCH_SIZE=10 BATCH_WAIT=300
+
+# Pausa tra ogni singola richiesta (es. 10 secondi)
+make activity-extract WAIT=10
+
 # Forza rielaborazione completa
 make activity-extract FORCE=1
 ```

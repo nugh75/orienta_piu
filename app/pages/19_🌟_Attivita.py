@@ -652,11 +652,16 @@ col_info1, col_info2, col_info3, col_info4, col_info5 = st.columns(5)
 with col_info1:
     st.caption(f"📅 Aggiornamento: {data.get('last_updated', 'N/D')[:10] if data.get('last_updated') else 'N/D'}")
 with col_info2:
-    st.caption(f"🤖 Modello: {data.get('extraction_model', 'N/D')}")
+    models = data.get('extraction_models')
+    if not models:
+         models = data.get('extraction_model', 'N/D')
+    elif isinstance(models, list):
+         models = ", ".join(models)
+    st.caption(f"🤖 Modelli: {models}")
 with col_info3:
     st.caption(f"🏫 Scuole: {data.get('schools_processed', 0)}")
 with col_info4:
-    st.caption(f"📋 Pratiche totali: {data.get('total_practices', 0)}")
+    st.caption(f"📋 Pratiche totali: {data.get('total_activities', 0)}")
 with col_info5:
     col_btn1, col_btn2 = st.columns(2)
     with col_btn1:

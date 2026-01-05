@@ -139,7 +139,42 @@ python workflow_notebook.py
 python app/agentic_pipeline.py
 python src/processing/autofill_region_from_comuni.py
 python src/processing/score_reviewer.py --provider openrouter --model "meta-llama/llama-3.3-70b-instruct:free"
+python src/processing/score_reviewer.py --provider openrouter --model "meta-llama/llama-3.3-70b-instruct:free"
 python src/processing/non_ptof_reviewer.py --dry-run
+```
+
+## Estrazione Attività (Avanzato)
+
+Il comando `make activity-extract` supporta diverse opzioni avanzate per scalabilità e controllo costi:
+
+### 1. Supporto OpenRouter
+Usa modelli cloud invece di Ollama locale (richiede `OPENROUTER_API_KEY` in `.env`):
+```bash
+make activity-extract PROVIDER=openrouter MODEL="google/gemini-2.5-flash-lite"
+```
+
+### 2. Monitoraggio Costi
+Il sistema traccia automaticamente i costi per i provider a pagamento.
+Genera un report CSV/Markdown (in `data/api_costs.md`):
+```bash
+make report-costs
+```
+
+### 3. Limite di Budget (Safety Cap)
+Ferma l'esecuzione se il costo della sessione supera un limite:
+```bash
+# Si ferma se spende più di 5 dollari
+make activity-extract PROVIDER=openrouter MAX_COST=5.0
+```
+
+### 4. Sharding (Parallelismo)
+Dividi il lavoro su più terminali/macchine:
+```bash
+# Terminale 1 (processa metà file)
+make activity-extract SHARD="1/2"
+
+# Terminale 2 (processa l'altra metà)
+make activity-extract SHARD="2/2"
 ```
 
 ## Notebook

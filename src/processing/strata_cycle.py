@@ -125,6 +125,15 @@ def append_failures(rows: List[Dict[str, str]]) -> None:
             writer.writerow(row)
 
 
+def normalize_regione(value: str) -> Optional[str]:
+    if not value:
+        return None
+    v = value.strip().upper()
+    v = v.replace("FRIULI-VENEZIA GIULIA", "FRIULI_VENEZIA_GIULIA") # Fix comune
+    v = v.replace("-", "_").replace(" ", "_")
+    return v
+
+
 def normalize_area(value: str) -> Optional[str]:
     if not value:
         return None
@@ -181,12 +190,12 @@ def normalize_grado(value: str) -> Optional[str]:
 
 def row_to_strato(row: Dict[str, str]) -> Optional[str]:
     tipo = normalize_tipo(row.get("statale_paritaria", ""))
-    area = normalize_area(row.get("area_geografica", ""))
+    regione = normalize_regione(row.get("regione", ""))
     territorio = normalize_territorio(row.get("territorio", ""))
     grado = normalize_grado(row.get("ordine_grado", "") or row.get("tipo_scuola", ""))
-    if not tipo or not area or not territorio or not grado:
+    if not tipo or not regione or not territorio or not grado:
         return None
-    return f"{tipo}_{area}_{territorio}_{grado}"
+    return f"{tipo}_{regione}_{territorio}_{grado}"
 
 
 def load_analysis_counts() -> Tuple[Dict[str, int], set[str], int]:
@@ -329,6 +338,8 @@ def main() -> int:
     parser.add_argument("--max-downloads", type=int, default=0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--skip-analysis", action="store_true", help="Salta workflow e rebuild CSV")
+    parser.add_argument("--grado", type=str, help="Filtra per grado (es. SEC_SECONDO)")
+    parser.add_argument("--regione", type=str, help="Filtra per regione (es. LAZIO)")
     args = parser.parse_args()
 
     logger = setup_logging(LOG_DIR)
@@ -351,6 +362,26 @@ def main() -> int:
         logger.error(f"ERROR file mancante: {dl.ANAGRAFE_PAR}")
     if not schools:
         logger.error("ERROR nessuna scuola MIUR caricata.")
+        return 1
+
+    # Filtro opzionale per grado
+    if args.grado:
+        target_grado = normalize_grado(args.grado)
+        logger.info(f"FILTER grado: {args.grado} -> {target_grado}")
+        before_len = len(schools)
+        schools = [s for s in schools if s.grado_normalizzato == target_grado]
+        logger.info(f"Schools kept: {len(schools)}/{before_len}")
+
+    # Filtro opzionale per regione
+    if args.regione:
+        target_regione = args.regione.strip().upper()
+        logger.info(f"FILTER regione: {target_regione}")
+        before_len = len(schools)
+        schools = [s for s in schools if s.regione.upper() == target_regione]
+        logger.info(f"Schools kept: {len(schools)}/{before_len}")
+
+    if not schools:
+        logger.error("ERROR nessuna scuola rimasta dopo i filtri.")
         return 1
 
     strata_all = dl.stratify_schools(schools)

@@ -220,10 +220,12 @@ class SchoolRecord:
     
     @property
     def strato(self) -> str:
-        """Chiave di stratificazione univoca."""
+        """Chiave di stratificazione univoca (basata su REGIONE)."""
         tipo = 'STAT' if self.is_statale else 'PAR'
         metro = 'METRO' if self.is_metropolitana else 'NON_METRO'
-        return f"{tipo}_{self.area_geografica}_{metro}_{self.grado_normalizzato}"
+        # Normalizza regione: 'EMILIA ROMAGNA' -> 'EMILIA_ROMAGNA'
+        reg_norm = self.regione.upper().replace(' ', '_').replace('-', '_')
+        return f"{tipo}_{reg_norm}_{metro}_{self.grado_normalizzato}"
     
     def __repr__(self):
         return f"School({self.codice}, {self.denominazione[:30]}, {self.strato})"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-30T09:34:37.792958",
+  "last_updated": "2026-01-05T15:32:37.738474",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -1171,6 +1171,756 @@
       "processed_at": "2025-12-30T09:34:37.792954",
       "practices_count": 9,
       "model_used": "qwen3:32b"
+    },
+    "ARIC82900L": {
+      "file_hash": "sha256:5011430fd21a742ad03d026616d572054e8dccbb086fed40c82f5591ad710f8b",
+      "processed_at": "2026-01-05T12:56:38.228096",
+      "practices_count": 0,
+      "model_used": "gpt-oss:120b-cloud"
+    },
+    "AVPM040007": {
+      "file_hash": "sha256:01dba57ce9808c8094921d9ec4e3599ab166fa1fe5dcdf2d3fde7dc15fb3cc2e",
+      "processed_at": "2026-01-05T13:00:16.766555",
+      "practices_count": 15,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "BGPM024011": {
+      "file_hash": "sha256:ad312c320689c5db6bd5921e55d7b1e0034a53bd9f9eead1e48d30989da47bb1",
+      "processed_at": "2026-01-05T13:00:36.997684",
+      "practices_count": 10,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "BITD006518": {
+      "file_hash": "sha256:93a4bb50a28b2159a72999611800d6eb0aad8f0ec346ff59a74a352449090938",
+      "processed_at": "2026-01-05T13:01:18.642066",
+      "practices_count": 19,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "BLPS00701R": {
+      "file_hash": "sha256:2c756a5c547396f1804d4d8e8243f2f1e2f1f93b2d3a4ae8acb6e279bfc74aa4",
+      "processed_at": "2026-01-05T13:01:47.752294",
+      "practices_count": 14,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "BOEE81502G": {
+      "file_hash": "sha256:1badd89b5d06142ef492f4536ea4bf5560a74e0e649387a34080f960ab21566d",
+      "processed_at": "2026-01-05T13:02:09.181717",
+      "practices_count": 10,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "BTTD05601V": {
+      "file_hash": "sha256:7bcfce0deb2990cf5df32148e8bf2f86fec0f9d480d1515501d619ca4f1f59da",
+      "processed_at": "2026-01-05T13:02:31.575013",
+      "practices_count": 10,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CA1A06200A": {
+      "file_hash": "sha256:75789958dbbfe2d41b804b90029bf144db6da3836c5ffb34021cbba744f19a2a",
+      "processed_at": "2026-01-05T13:03:14.306551",
+      "practices_count": 17,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CHMM820012": {
+      "file_hash": "sha256:baa972a10e6adc4e88817ed897fde3423d1c47feb3bda44a4d81f16994dc4654",
+      "processed_at": "2026-01-05T13:03:56.159617",
+      "practices_count": 20,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CHMM838017": {
+      "file_hash": "sha256:52277b8a8a699ef260a2ffe303b2895e97858966c88b769e9cc240dc9f75ba7a",
+      "processed_at": "2026-01-05T13:04:57.577968",
+      "practices_count": 29,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CNAA832017": {
+      "file_hash": "sha256:9ad74a1518443485ff47c0a88551436ba1dee499af7719e0655920c88587e0c4",
+      "processed_at": "2026-01-05T13:05:17.580442",
+      "practices_count": 10,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CSAA88307N": {
+      "file_hash": "sha256:8c5fa1a92e553985bae68adaf04c971ccf2cf5bda075513a7c17cc5476c680f4",
+      "processed_at": "2026-01-05T13:06:21.051565",
+      "practices_count": 5,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CSEE86103T": {
+      "file_hash": "sha256:70b46edbffc19bc5ab4035fb51de9ddce0322aa502a4b1c0b3a1b84589270567",
+      "processed_at": "2026-01-05T13:06:39.059879",
+      "practices_count": 0,
+      "model_used": "qwen3-coder:480b-cloud"
+    },
+    "CSIS06700R": {
+      "file_hash": "sha256:5ec9e92dbaad7db89180fc78749a8a9ea3cfa6116355a649ec0839294511d58d",
+      "processed_at": "2026-01-05T14:05:33.110435",
+      "practices_count": 43,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "CTAA816061": {
+      "file_hash": "sha256:bddec8c8f98121175221a57fc491c4a434c4455d863143dee0c618ee8500c1f1",
+      "processed_at": "2026-01-05T14:06:40.265325",
+      "practices_count": 40,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ENRH00801G": {
+      "file_hash": "sha256:4a8110ba23f3f73e722e2846ec2046383cd6d7e0e70ac741641592eac1406a5a",
+      "processed_at": "2026-01-05T14:08:04.987258",
+      "practices_count": 47,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FEAA81904E": {
+      "file_hash": "sha256:225d330fda0aaf40357265c38febb3f1941c65444ab5c0be4079d69151e5b30a",
+      "processed_at": "2026-01-05T14:08:28.125332",
+      "practices_count": 14,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FGEE00501A": {
+      "file_hash": "sha256:a52214359fff98c7224f059e31841f03deb31718f8e75afbd0e7a7614f7311e8",
+      "processed_at": "2026-01-05T14:08:45.379805",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FGIC85900G": {
+      "file_hash": "sha256:c4241b3ae549658661ded41120511767a2894e644bfcc0786d6847d5cde89293",
+      "processed_at": "2026-01-05T14:09:51.029860",
+      "practices_count": 37,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FGIC877005": {
+      "file_hash": "sha256:ce56b9f91cf5f702f0388a3ed6c3d8b108398bdd9b752ea26f2dde96dd9470cb",
+      "processed_at": "2026-01-05T14:09:58.829178",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FI1A11700D": {
+      "file_hash": "sha256:5083a82afd5823d7c2a9cae5d54ea5d7ea3b30b0de22d05a59473c1665e4ba01",
+      "processed_at": "2026-01-05T14:10:05.976331",
+      "practices_count": 4,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FI1M02000G": {
+      "file_hash": "sha256:93881603c3e72b83c8a916f1c2b9a003711a8e126d906359efaf05e1c27c162f",
+      "processed_at": "2026-01-05T14:10:23.349053",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIAA838047": {
+      "file_hash": "sha256:2dc0e26c29375a63565633a4b02b51506d210020cb92944dc70272b876d8054d",
+      "processed_at": "2026-01-05T14:10:30.514565",
+      "practices_count": 4,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIAA876097": {
+      "file_hash": "sha256:15d40edd41b440ad246350e4722e20a9cf6b6fb9d0f0e6478a390b4d0fe8abf8",
+      "processed_at": "2026-01-05T14:10:38.650225",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIIC83600G": {
+      "file_hash": "sha256:f0afb0d15f1dc929573d3f59ce62ccda5d11049fe8627944c2573d73b349c5c0",
+      "processed_at": "2026-01-05T14:11:03.650830",
+      "practices_count": 9,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIMM83001N": {
+      "file_hash": "sha256:c92f7e6b4ae1431091c0b36d91c133ae01ed273f414c1231ef0cb2e293893132",
+      "processed_at": "2026-01-05T14:11:30.160820",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIMM85301A": {
+      "file_hash": "sha256:ed422eec7fb1f0038776a25d64d90fe087c599cfa5834c46bd74180972a3264a",
+      "processed_at": "2026-01-05T14:11:56.829634",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FIRI023019": {
+      "file_hash": "sha256:51fb62ebe1d89b9dd312dd1e2f8325ad8a410018cee9a2559970d9411c9a630c",
+      "processed_at": "2026-01-05T14:14:34.732821",
+      "practices_count": 90,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FOPS00401X": {
+      "file_hash": "sha256:e2fd7f17279a22a1038ecfea4fd650c7d67489eabcb0371d2a42335e5daed9dd",
+      "processed_at": "2026-01-05T14:14:42.308570",
+      "practices_count": 4,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FREE81203G": {
+      "file_hash": "sha256:e6d992c7e03716fb48424853614e29cb6a28b1a63d8b054c7c5e986d3098f557",
+      "processed_at": "2026-01-05T14:14:57.847235",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "FRPC02500X": {
+      "file_hash": "sha256:9a318ff75746d2b5099365ec6486ebaccf9f4df36e9dc35aabfa743c7027abf1",
+      "processed_at": "2026-01-05T14:16:19.107253",
+      "practices_count": 50,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GE1A01100E": {
+      "file_hash": "sha256:4a0edf1da66ace98233bb179fca2622eae296bd31ccf1197271610b8bf8e7a31",
+      "processed_at": "2026-01-05T14:16:59.788326",
+      "practices_count": 24,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GEEE86603C": {
+      "file_hash": "sha256:c4cae81038fac1755992c8efd368d320109a900be2e54604ecc4c388270b9cd1",
+      "processed_at": "2026-01-05T14:17:16.643092",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GEIS01400Q": {
+      "file_hash": "sha256:8a8910dc3aeca4f2d7c26ae791f689548d06e1322af2fc255403f32e2c4c106d",
+      "processed_at": "2026-01-05T14:18:36.138649",
+      "practices_count": 36,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GEMM83501N": {
+      "file_hash": "sha256:97aa9ca33dfd8abd520f953ab3431033ad6009f8fc610a1c90a47c0652ae638b",
+      "processed_at": "2026-01-05T14:19:21.956367",
+      "practices_count": 22,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GEPS17000A": {
+      "file_hash": "sha256:40458a5e9989cbf83e5c21bd4a176790397f33315235f6a75de2cc338f52c389",
+      "processed_at": "2026-01-05T14:20:00.732147",
+      "practices_count": 22,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "GERI020503": {
+      "file_hash": "sha256:08c98398122b106d629dbd48dce4bbb6a0105191a57a53925b7f3cf0309cc1f2",
+      "processed_at": "2026-01-05T14:20:16.095685",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "IMIS007004": {
+      "file_hash": "sha256:7c17b4854b0380289e370e1e4d792474b103d65a7e06798176d5b15d472a4e49",
+      "processed_at": "2026-01-05T14:20:23.492578",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ISAA829086": {
+      "file_hash": "sha256:3cb44b0df3a615705b994d1c195cf3698fc1a890a1da8b9d17d289736ec06f13",
+      "processed_at": "2026-01-05T14:20:47.163053",
+      "practices_count": 13,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ISIS003002": {
+      "file_hash": "sha256:8d07c0f2d9b8e61e1a635fdb134f3e7a1213078809e72c87fbb787358471d376",
+      "processed_at": "2026-01-05T14:21:07.590527",
+      "practices_count": 13,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ISPS01601E": {
+      "file_hash": "sha256:f08d76308405c8f1dec05b6426bd599a95287573a28ce0c9cd5ab114e23adf9f",
+      "processed_at": "2026-01-05T14:21:30.918206",
+      "practices_count": 14,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "KRIS00400C": {
+      "file_hash": "sha256:0c065de44dd0f4080b4e01de79bb8e176b958b5d9840893498b667508bf93221",
+      "processed_at": "2026-01-05T14:23:21.385484",
+      "practices_count": 50,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEAA853021": {
+      "file_hash": "sha256:ff4a25ec3271cd6a27c48a3f39468f1ef8776edd5e09d4b42d84688a719ab9b3",
+      "processed_at": "2026-01-05T14:30:17.565360",
+      "practices_count": 43,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEEE86401G": {
+      "file_hash": "sha256:02bcfbebc28f9adb2f7ea6a8122d45109fe2eb9cffdaa6dd14d0fdbae7e01c1c",
+      "processed_at": "2026-01-05T14:31:31.177049",
+      "practices_count": 39,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEIC887006": {
+      "file_hash": "sha256:96baa2aa27d02540f304075a819196e388b43aae83532021b8f229dca33165f1",
+      "processed_at": "2026-01-05T14:31:46.304265",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEIS04700X": {
+      "file_hash": "sha256:7aaab9cffd730be00ad959e62144a8cc42de007a3020819d9baf22e73ad6ad5f",
+      "processed_at": "2026-01-05T14:32:17.268064",
+      "practices_count": 19,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEMM31000R": {
+      "file_hash": "sha256:c110ff99686e740281e89c3068b0758be215db43075a60fba10da090680ef8f3",
+      "processed_at": "2026-01-05T14:32:25.775976",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LEMM853025": {
+      "file_hash": "sha256:ecc1be8c7310794b866523daba8e2509c4c83fcfbb0d6e4f482ebd53c4d2af9a",
+      "processed_at": "2026-01-05T14:33:42.030887",
+      "practices_count": 42,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LIMM70301D": {
+      "file_hash": "sha256:fd112257346a63bcf2fc7657db697245dadf4530edd230ebf41c751a2f93fcbb",
+      "processed_at": "2026-01-05T14:33:50.202294",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LOIS00300P": {
+      "file_hash": "sha256:702afa15a8e108e59635889c21cc6861d22063f03850dfc9417f0a633764ca55",
+      "processed_at": "2026-01-05T14:34:46.949277",
+      "practices_count": 35,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LOTF003017": {
+      "file_hash": "sha256:02c6f3849992a95a2c1029cb645b69e38d354ed03856b18b044ec0f69db7404a",
+      "processed_at": "2026-01-05T14:35:51.302500",
+      "practices_count": 34,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LTAA84504A": {
+      "file_hash": "sha256:c35437d8df185a622fe7e8a973fda56425633de391cb833abe2bb675c7b72783",
+      "processed_at": "2026-01-05T14:36:25.697685",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LTIC809007": {
+      "file_hash": "sha256:e74bc1b30087db1f6ea29a6b17727f8213659b99dbd776c13b2335b705c138af",
+      "processed_at": "2026-01-05T14:37:03.578332",
+      "practices_count": 23,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LTIC81500E": {
+      "file_hash": "sha256:3eff68f62793bbf2282503eff2ed0f912f7ef99701396945f2df46ac3a4cb6be",
+      "processed_at": "2026-01-05T14:37:46.890278",
+      "practices_count": 22,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LTRA01650V": {
+      "file_hash": "sha256:bb417b332c79788d6403fbde796ee621c486b9392245f226bd23be1ef3f3c04e",
+      "processed_at": "2026-01-05T14:39:07.238723",
+      "practices_count": 42,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LUMM84201B": {
+      "file_hash": "sha256:bcf2c1acb25914c6fc0b7a060550a5ed515e4533a9075baaf618032bebfd6714",
+      "processed_at": "2026-01-05T14:39:34.316680",
+      "practices_count": 14,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "LURI01601N": {
+      "file_hash": "sha256:78eb46172993a0d98d4007d2953d8104e35db223148736f1417bfeef2d5e7f7b",
+      "processed_at": "2026-01-05T14:39:50.517789",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MBAA8EX03X": {
+      "file_hash": "sha256:fce3e1732bdaf3432e0942ac3e72568379acb7fe2cf0dd432409e668108c2392",
+      "processed_at": "2026-01-05T14:40:37.732477",
+      "practices_count": 23,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MBIC8AM00E": {
+      "file_hash": "sha256:1c09bb7fab64cf4c1a8d5f436ea4e6124f1c90d430e2b00e4ccca2a8db686400",
+      "processed_at": "2026-01-05T14:41:56.929238",
+      "practices_count": 45,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MBPS05301B": {
+      "file_hash": "sha256:5ae352668a4c8c0f9f599ad4b1c29c040d9cd2e1ccd3b516b5bfb0d39e10e5bb",
+      "processed_at": "2026-01-05T14:42:20.882966",
+      "practices_count": 14,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MCAA82901B": {
+      "file_hash": "sha256:e1642f269ed56111bb138e9921adf82df68b89c665ca5dd2a701bf9fe35e8836",
+      "processed_at": "2026-01-05T14:42:37.978840",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MCEE819023": {
+      "file_hash": "sha256:ad884511b09a8621a0672621a3301698b9bec5f492a6a534f995107eca658b8d",
+      "processed_at": "2026-01-05T14:42:53.360798",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ME1A14100N": {
+      "file_hash": "sha256:03aaa260d3a498f1a3704e44e200af8a28323473bd69f57a386f09ce74c1fd9a",
+      "processed_at": "2026-01-05T14:44:38.307309",
+      "practices_count": 59,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEAA81703C": {
+      "file_hash": "sha256:c6c7b17b136968a58578d070981d9c9a9386dc5cc18b26b9e9c6b90be49376d0",
+      "processed_at": "2026-01-05T14:45:35.571027",
+      "practices_count": 28,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEAA83703N": {
+      "file_hash": "sha256:07f310fbae9cb49cc85767c4636076a53affdf0ff08b60b188ea4a6aacbd4929",
+      "processed_at": "2026-01-05T14:46:05.458201",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEEE82508T": {
+      "file_hash": "sha256:a6bb868e79eb52196d5281be9a97f628fac41cf036fcd461bf507b7f5db594c6",
+      "processed_at": "2026-01-05T14:47:46.971919",
+      "practices_count": 56,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEEE8AC03A": {
+      "file_hash": "sha256:3cd22cf23972d4909dc34304e2c3dd3bb97fb286dae5e4449c15d32725389ef8",
+      "processed_at": "2026-01-05T14:48:59.050399",
+      "practices_count": 42,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEIS02900X": {
+      "file_hash": "sha256:27bba2f83346bb107cddad01a5a4bbf33f338120e833431b7cf40f265e79bff8",
+      "processed_at": "2026-01-05T14:49:46.045590",
+      "practices_count": 27,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEMM82003C": {
+      "file_hash": "sha256:015e4f2ab1510e8ce14e99e62501aa0a83d8b9e0ba23e9a39402a78533956194",
+      "processed_at": "2026-01-05T14:49:54.015722",
+      "practices_count": 4,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MEPM010009": {
+      "file_hash": "sha256:8677a0c2de351f40855f276ed85d1dbed909c88c7f9e77b5d035316d1d046ba1",
+      "processed_at": "2026-01-05T14:50:31.038439",
+      "practices_count": 18,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "METD03751E": {
+      "file_hash": "sha256:f9317f24aa8504f5b704efd081352f92315ee75abce4e07e65b497c8eebfa844",
+      "processed_at": "2026-01-05T14:51:15.200947",
+      "practices_count": 23,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MI1A464008": {
+      "file_hash": "sha256:2e3df97a41afbcd2de602a0528f57eec99abb313db4c54c3c2da6849e4472570",
+      "processed_at": "2026-01-05T14:51:32.494012",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MI1E00200B": {
+      "file_hash": "sha256:ae903b8129726ec97cf76bd16f8f90a276a563253277594e66d11feed4817383",
+      "processed_at": "2026-01-05T14:52:14.212806",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MI1E09300P": {
+      "file_hash": "sha256:e5dcdee4932338eae15def673845ed623abd123e88095a25ec87b8358862aed4",
+      "processed_at": "2026-01-05T14:52:46.198559",
+      "practices_count": 17,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MI1M03700G": {
+      "file_hash": "sha256:2a66d359866eb70bc40db1581e8cb4928fe71cd40ff9ed3094278fe90f612cf1",
+      "processed_at": "2026-01-05T14:52:54.380925",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MI1M098003": {
+      "file_hash": "sha256:a5b3f800cb07a0647b7cd5e32306b432cacd3cdc0e47583c6402b110cabaa844",
+      "processed_at": "2026-01-05T14:54:40.891159",
+      "practices_count": 57,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIAA872038": {
+      "file_hash": "sha256:be2f8e127c0534c135bd5cbb62e9420e3bf67c5ab78265fbe171026072e55ddc",
+      "processed_at": "2026-01-05T14:54:50.503213",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIAA8EL03V": {
+      "file_hash": "sha256:39276306391d38183cd6b4e0784236a884c075ebb5b9d4c7937aa0e5d8bf39fa",
+      "processed_at": "2026-01-05T14:55:25.384869",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIEE8EA01A": {
+      "file_hash": "sha256:b83daba90d6087f1ed0eb13b974f423c31e7b73cb61639b3212356334eb5c6d3",
+      "processed_at": "2026-01-05T14:55:34.085252",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIEE8EU01T": {
+      "file_hash": "sha256:b40d9a61b20d46ad19b6ebb8a0ca118f84ca1289627471d1f6302edb059554e3",
+      "processed_at": "2026-01-05T14:56:05.645999",
+      "practices_count": 19,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIIC81700R": {
+      "file_hash": "sha256:c46507a71a5a9a3e1ada415aba4a93672cad47b4cf17c42dbd18546f67c17021",
+      "processed_at": "2026-01-05T14:56:22.126395",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIIC895002": {
+      "file_hash": "sha256:0ee0f539941fe99c6b80baa421b377b59aa0923a24fc63eec5afa941f2c1c4ba",
+      "processed_at": "2026-01-05T14:57:02.405533",
+      "practices_count": 27,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIIC8B9003": {
+      "file_hash": "sha256:7e34d73140ebde2bf2e6cd6f35ca74196c7a7b01b8fa68c2d5ec0ea5cdad9a56",
+      "processed_at": "2026-01-05T14:57:11.125886",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIIS08900V": {
+      "file_hash": "sha256:0d4bd53c279defcac4300d6aaf441473a2b6ecb8d5e5a83012c3a3ddd780a825",
+      "processed_at": "2026-01-05T14:58:36.557852",
+      "practices_count": 38,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIMM823015": {
+      "file_hash": "sha256:64b8cc389462316eca886a706279a2b98f841056ae0e420fbfbcece1f6d44ff9",
+      "processed_at": "2026-01-05T15:00:03.784594",
+      "practices_count": 42,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIMM8CW014": {
+      "file_hash": "sha256:656bc54fcdbf22cd4858d47b747f47d8a7fbdc4e26cbfc4c410c963f4ef7049f",
+      "processed_at": "2026-01-05T15:01:18.070773",
+      "practices_count": 40,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIPC03000N": {
+      "file_hash": "sha256:13bfd1bb87047079efdbf0c7ae264b8e801849f985b87f205620d4df592edf69",
+      "processed_at": "2026-01-05T15:02:02.578693",
+      "practices_count": 24,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIPC10500T": {
+      "file_hash": "sha256:7b3811346adb08569bd62c8e9045ac3a7c5838fb4ad44de28170db605d7a0300",
+      "processed_at": "2026-01-05T15:08:37.041683",
+      "practices_count": 98,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIPMU4500Z": {
+      "file_hash": "sha256:9667e9122d437ae5aef1fbda63aa48ed184b779caf65141066803b03ca36cab7",
+      "processed_at": "2026-01-05T15:08:54.380373",
+      "practices_count": 9,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIPSEA5006": {
+      "file_hash": "sha256:39d657316467d997d5536fcd40a5cbe30d542343c175b236d80ad5455adda89e",
+      "processed_at": "2026-01-05T15:09:12.721484",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MIRF6M5002": {
+      "file_hash": "sha256:b91477fe228898d48d80588ffa6f18c86c06838db3200dc48b9422aeb27b6630",
+      "processed_at": "2026-01-05T15:09:48.624926",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MITF19000B": {
+      "file_hash": "sha256:45241c88237ff7aece72c79fc061db14205d173ef6db704a402c68991a1f5a36",
+      "processed_at": "2026-01-05T15:10:17.832388",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MN1M001009": {
+      "file_hash": "sha256:d1ea70889ad99742458ce7f2986d8a2b70184686329522d122fcf0f15970938a",
+      "processed_at": "2026-01-05T15:10:56.957028",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MNPS00500L": {
+      "file_hash": "sha256:323d82ded9215d356066d2fe82737bdd3e75dbe11f6d792f9c9149d8a5002d89",
+      "processed_at": "2026-01-05T15:11:41.017376",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MO1E00300C": {
+      "file_hash": "sha256:4b032e80a9f53283d5cd05ba2ff33dc5284a29c82c3408855911c55ae98a1061",
+      "processed_at": "2026-01-05T15:12:24.866905",
+      "practices_count": 15,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MOIC84800N": {
+      "file_hash": "sha256:2bc9829b5f0d90174d76ceda8f525348b10773ced2d7b90211771eebee78fed9",
+      "processed_at": "2026-01-05T15:12:59.237146",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "MTEE83503D": {
+      "file_hash": "sha256:8c5d680419a49c321a2a99efdc328936e008d743ad169ed55544a33b64daa2a8",
+      "processed_at": "2026-01-05T15:13:15.583682",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NA1E05400N": {
+      "file_hash": "sha256:f76a63c6e7e2a9519f65885cef269581167e89bf69ef4541ebdb9c84101623f6",
+      "processed_at": "2026-01-05T15:13:31.894285",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NA1E20200P": {
+      "file_hash": "sha256:f94e56303ebf6ef944a45708e8c4034e93c74e905447b2dee4a6c33b7ca9cce2",
+      "processed_at": "2026-01-05T15:14:13.496185",
+      "practices_count": 23,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NA1M023007": {
+      "file_hash": "sha256:9f8322e9049b8b04af360c2e11c80c2a57cb16c1b43b18ef99cb9f32622cea14",
+      "processed_at": "2026-01-05T15:14:30.091526",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NA1M03500D": {
+      "file_hash": "sha256:220ba19139e785fa90f65beadc307bab74e76b19dac2262a93de91b125d55dd8",
+      "processed_at": "2026-01-05T15:14:46.876396",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAAA218041": {
+      "file_hash": "sha256:57a7feaab7f1dc382a68f6b4c8077acaa0a65e6880e80e51dd8fe92e0652f085",
+      "processed_at": "2026-01-05T15:15:51.727907",
+      "practices_count": 26,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAAA8BW034": {
+      "file_hash": "sha256:eccc46383cf8d654ff7b8b36bc55571436fe6b6be8852d49f5308cec86445eb6",
+      "processed_at": "2026-01-05T15:15:59.300457",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAAA8FG018": {
+      "file_hash": "sha256:8c317581d9db8f8b144b778573626b75aa1d4b000f2973b35ed37fcae9c2044c",
+      "processed_at": "2026-01-05T15:16:06.733700",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAAA8G903L": {
+      "file_hash": "sha256:520c89a2049bc5605c8ed98d9c24d9fe6960feb6e859b273a3600a6c0e956cc4",
+      "processed_at": "2026-01-05T15:16:24.643148",
+      "practices_count": 10,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAEE177034": {
+      "file_hash": "sha256:b69ddf04fb44f041651b1d04ca1037f32a2bbd83607f3b551143bcc766519648",
+      "processed_at": "2026-01-05T15:17:58.888596",
+      "practices_count": 42,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAIC80800G": {
+      "file_hash": "sha256:8b7164dda1977c3e0172ec865f3238372c9476a3efa311064c2913984ca70957",
+      "processed_at": "2026-01-05T15:18:31.864808",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAIC8D400P": {
+      "file_hash": "sha256:9541ad74007b798de9e6f85c61e930fafabbdb346d0209cd9e6abec449af0d2c",
+      "processed_at": "2026-01-05T15:19:54.523988",
+      "practices_count": 35,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAIS00700X": {
+      "file_hash": "sha256:a2e2fabcafd9a910983a7be807da236116eee1af7345d446dc1020263a93ee33",
+      "processed_at": "2026-01-05T15:20:42.056163",
+      "practices_count": 28,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAMM29500A": {
+      "file_hash": "sha256:4ef22ca9b873308f839c5a220c6180166e725a6837eafc17a82eafdd25b29c35",
+      "processed_at": "2026-01-05T15:21:12.623597",
+      "practices_count": 17,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAMM8EV016": {
+      "file_hash": "sha256:9fb4b2c4af8c5a603794a585f357521b8ca3bdb5f7dd51751201b406b1b44a4e",
+      "processed_at": "2026-01-05T15:21:21.085875",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NAPC7C5006": {
+      "file_hash": "sha256:8a323d5c998c21e0e52d483ef03cda96d54dc84d5aa8285ab10100f31086a165",
+      "processed_at": "2026-01-05T15:22:14.208386",
+      "practices_count": 27,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NARA06350L": {
+      "file_hash": "sha256:b898e9552bc35a3065b5e7ae7833855fe8194bacfe3900b3eaeddbf083629741",
+      "processed_at": "2026-01-05T15:22:26.769184",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NATD00601A": {
+      "file_hash": "sha256:d5cf5fba364afcdb772dff8e509309e7d4c3d3aa0ac50d718f8d3adafc0de352",
+      "processed_at": "2026-01-05T15:24:19.302122",
+      "practices_count": 65,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NATF09201R": {
+      "file_hash": "sha256:91229a01afc5187fb90e82cdcca83c3488b84b346b6c63d44a2985aa3409949b",
+      "processed_at": "2026-01-05T15:25:27.024065",
+      "practices_count": 32,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NATF34500R": {
+      "file_hash": "sha256:43f82e9dcdbcca6524eb11f09829ea97b889296faf6424a7e97943ae0ae475d9",
+      "processed_at": "2026-01-05T15:26:15.866512",
+      "practices_count": 30,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NATHE15007": {
+      "file_hash": "sha256:ec1822ebf2d81aa0682c8b38cc95fc1d2a2725844de205095248a92bb3fdb14d",
+      "processed_at": "2026-01-05T15:27:06.417362",
+      "practices_count": 26,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NOAA833036": {
+      "file_hash": "sha256:6bc56ac7d5dc2dc6629f10c191598bd5cc26da4ec03c99f241685d1e8cd66e26",
+      "processed_at": "2026-01-05T15:27:55.619267",
+      "practices_count": 29,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NOSL010001": {
+      "file_hash": "sha256:e45518480c311b1b6797658b44833901891519957f6e29e97a5b472eaccbe02e",
+      "processed_at": "2026-01-05T15:28:39.295317",
+      "practices_count": 23,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NUAA87003A": {
+      "file_hash": "sha256:3ac075f2a33ccf281e1fb2152f830ccc077988062c1db263c3865de5c35fa9c4",
+      "processed_at": "2026-01-05T15:29:12.223728",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NUEE879021": {
+      "file_hash": "sha256:1015ddffb6c10185d0c93d83234f620a6a16d70fcb5910714ec5a7e8bce9e00c",
+      "processed_at": "2026-01-05T15:29:46.329518",
+      "practices_count": 20,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "NUMM87901V": {
+      "file_hash": "sha256:a15382384fbd303cb88f49a0764c904e930ec669314627ef51fa2b50e5c96fd7",
+      "processed_at": "2026-01-05T15:30:18.497481",
+      "practices_count": 19,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "OREE82805P": {
+      "file_hash": "sha256:0d983855b0cf90eed285ae4d5f93544841325f77980aa1ef9fbfc3d3ef847acf",
+      "processed_at": "2026-01-05T15:30:28.246114",
+      "practices_count": 5,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ORMM810018": {
+      "file_hash": "sha256:b6828f8095eef3618d6c99986a70bbc6544a2de1ae3fb54e980690eaa5da8549",
+      "processed_at": "2026-01-05T15:32:21.647576",
+      "practices_count": 51,
+      "model_used": "google/gemini-2.5-flash-lite"
+    },
+    "ORMM81401G": {
+      "file_hash": "sha256:9bc108234e7c8bbee4ab419cc5adb4bf90298c928adebc2e201a489ad0f5ee22",
+      "processed_at": "2026-01-05T15:32:37.738458",
+      "practices_count": 9,
+      "model_used": "google/gemini-2.5-flash-lite"
     }
   }
 }

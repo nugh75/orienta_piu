@@ -216,12 +216,28 @@ class BestPracticeExtractor:
         ollama_url: str = DEFAULT_OLLAMA_URL,
         model: str = DEFAULT_MODEL,
         wait_time: int = DEFAULT_WAIT,
-        chunk_size: int = DEFAULT_CHUNK_SIZE
+        chunk_size: int = DEFAULT_CHUNK_SIZE,
+        batch_size: int = 10,
+        batch_wait: int = 300,
+        provider: str = "ollama",
+        api_key: str = None,
+        max_cost: float = None  # Limite di budget opzionale ($)
     ):
         self.ollama_url = ollama_url
         self.model = model
         self.wait_time = wait_time
         self.chunk_size = chunk_size
+        self.batch_size = batch_size
+        self.batch_wait = batch_wait
+        self.provider = provider
+        self.api_key = api_key
+        self.max_cost = max_cost
+        self.api_call_count = 0
+        
+        # Accounting
+        self.total_cost = 0.0
+        self.total_input_tokens = 0
+        self.total_output_tokens = 0
 
         # Dati
         self.practices: List[Dict] = []
@@ -498,8 +514,9 @@ RISPONDI SOLO con JSON valido (nessun testo prima o dopo):
 Se non trovi pratiche significative:
 {{"pratiche": []}}"""
 
+
     def call_ollama(self, prompt: str) -> Optional[str]:
-        """Chiama Ollama API con retry."""
+        """Chiama Ollama API con retry robusto e backoff esponenziale per 429."""
         url = f"{self.ollama_url}/api/generate"
 
         payload = {
@@ -509,32 +526,190 @@ Se non trovi pratiche significative:
             "options": {
                 "temperature": 0.1,
                 "num_ctx": 16384,
-                "num_predict": -1
+                "num_predict": 4096
             }
         }
 
-        for attempt in range(MAX_RETRIES):
+        # Gestione Batch Wait
+        self.api_call_count += 1
+        if self.batch_size > 0 and self.api_call_count % self.batch_size == 0:
+            logger.info(f"⏸️ Batch limit raggiunto ({self.api_call_count} chiamate). Pausa di {self.batch_wait}s...")
+            time.sleep(self.batch_wait)
+
+        # Costanti rate limit (locali per questo metodo o classe, ma qui per chiarezza)
+        RATE_LIMIT_MAX_RETRIES = 50  # Molto alto, quasi "infinito" per processi lunghi
+        RATE_LIMIT_BASE_WAIT = 60    # 1 minuto base
+        RATE_LIMIT_MAX_WAIT = 1200   # Max 20 minuti
+
+        retries = 0
+        rate_limit_retries = 0
+
+        while retries < MAX_RETRIES or rate_limit_retries < RATE_LIMIT_MAX_RETRIES:
             try:
                 response = requests.post(url, json=payload, timeout=REQUEST_TIMEOUT)
 
                 if response.status_code == 200:
                     data = response.json()
+                    
+                    # Accounting Ollama (Costo 0)
+                    if 'prompt_eval_count' in data and 'eval_count' in data:
+                        p_in = data.get('prompt_eval_count', 0)
+                        p_out = data.get('eval_count', 0)
+                        self.total_input_tokens += p_in
+                        self.total_output_tokens += p_out
+                        logger.info(f"💰 Usage: [{self.provider}::{self.model}] In {p_in}, Out {p_out} | Costo: $0.000000 (Tot: ${self.total_cost:.6f})")
+
                     return data.get('response', '')
+
+                elif response.status_code == 429:
+                    # Gestione Rate Limit
+                    rate_limit_retries += 1
+                    
+                    if rate_limit_retries > RATE_LIMIT_MAX_RETRIES:
+                        logger.error(f"❌ Troppi rate limit consecutivi ({rate_limit_retries}). Interrompo.")
+                        return None
+
+                    # Backoff esponenziale
+                    import random
+                    wait_time = min(RATE_LIMIT_BASE_WAIT * (2 ** (rate_limit_retries - 1)), RATE_LIMIT_MAX_WAIT)
+                    # Jitter causale per evitare thundering herd (+/- 10%)
+                    jitter = random.randint(-int(wait_time*0.1), int(wait_time*0.1))
+                    wait_time = max(30, wait_time + jitter)
+
+                    logger.warning(f"⚠️ Rate limit Ollama (429). Retry {rate_limit_retries}/{RATE_LIMIT_MAX_RETRIES}. Attesa {wait_time}s...")
+                    time.sleep(wait_time)
+                    continue # Riprova senza incrementare 'retries' generico
+
                 else:
-                    logger.warning(f"Errore Ollama {response.status_code}")
-                    time.sleep(5)
+                    logger.warning(f"Errore Ollama {response.status_code}: {response.text}")
+                    retries += 1
+                    time.sleep(10)
 
             except requests.exceptions.Timeout:
-                logger.warning(f"Timeout Ollama (attempt {attempt+1}/{MAX_RETRIES})")
-                time.sleep(10)
+                logger.warning(f"Timeout Ollama (attempt {retries+1})")
+                retries += 1
+                time.sleep(30)
             except requests.exceptions.ConnectionError:
                 logger.error(f"Connessione fallita a {self.ollama_url}")
-                time.sleep(5)
+                retries += 1
+                time.sleep(30)
             except Exception as e:
                 logger.error(f"Errore chiamata Ollama: {e}")
-                time.sleep(5)
+                retries += 1
+                time.sleep(10)
+            
+            if retries >= MAX_RETRIES:
+                break
 
         return None
+
+    def call_openrouter(self, prompt: str) -> Optional[str]:
+        """Chiama OpenRouter API con gestione rate limit (429) e backoff."""
+        if not self.api_key:
+            logger.error("API Key OpenRouter mancante!")
+            return None
+
+        # Gestione Batch Wait
+        self.api_call_count += 1
+        if self.batch_size > 0 and self.api_call_count % self.batch_size == 0:
+            logger.info(f"⏸️ Batch limit raggiunto ({self.api_call_count} chiamate). Pausa di {self.batch_wait}s...")
+            time.sleep(self.batch_wait)
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "HTTP-Referer": "https://github.com/nugh75/LIste",
+            "X-Title": "PTOF Analysis Extractor",
+            "Content-Type": "application/json"
+        }
+        
+        data = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.1
+        }
+
+        # Costanti rate limit
+        RATE_LIMIT_MAX_RETRIES = 50
+        RATE_LIMIT_BASE_WAIT = 60
+        RATE_LIMIT_MAX_WAIT = 1200
+
+        retries = 0
+        rate_limit_retries = 0
+
+        while retries < MAX_RETRIES or rate_limit_retries < RATE_LIMIT_MAX_RETRIES:
+            try:
+                response = requests.post(
+                    "https://openrouter.ai/api/v1/chat/completions",
+                    headers=headers,
+                    json=data,
+                    timeout=REQUEST_TIMEOUT
+                )
+
+                if response.status_code == 200:
+                    try:
+                        resp_json = response.json()
+                        content = resp_json['choices'][0]['message']['content']
+                        
+                        # Accounting
+                        usage = resp_json.get('usage', {})
+                        prompt_tokens = usage.get('prompt_tokens', 0)
+                        completion_tokens = usage.get('completion_tokens', 0)
+                        
+                        # Costi Gemini Flash Lite: Input $0.10/M, Output $0.40/M
+                        cost_input = (prompt_tokens / 1_000_000) * 0.10
+                        cost_output = (completion_tokens / 1_000_000) * 0.40
+                        total_cost = cost_input + cost_output
+                        
+                        self.total_input_tokens += prompt_tokens
+                        self.total_output_tokens += completion_tokens
+                        self.total_cost += total_cost
+                        
+                        logger.info(f"💰 Usage: [{self.provider}::{self.model}] In {prompt_tokens}, Out {completion_tokens} | Costo: ${total_cost:.6f} (Tot: ${self.total_cost:.6f})")
+
+                        return content
+                    except (KeyError, IndexError, json.JSONDecodeError) as e:
+                        logger.error(f"Errore parsing risposta OpenRouter: {e}")
+                        logger.error(f"Risposta raw: {response.text}")
+                        return None
+                
+                elif response.status_code == 429:
+                    rate_limit_retries += 1
+                    
+                    if rate_limit_retries > RATE_LIMIT_MAX_RETRIES:
+                        logger.error(f"❌ Troppi rate limit consecutivi ({rate_limit_retries}). Interrompo.")
+                        return None
+                    
+                    # Backoff esponenziale
+                    import random
+                    wait_time = min(RATE_LIMIT_BASE_WAIT * (2 ** (rate_limit_retries - 1)), RATE_LIMIT_MAX_WAIT)
+                    jitter = random.randint(-int(wait_time*0.1), int(wait_time*0.1))
+                    wait_time = max(30, wait_time + jitter)
+
+                    logger.warning(f"⚠️ Rate limit OpenRouter (429). Retry {rate_limit_retries}/{RATE_LIMIT_MAX_RETRIES}. Attesa {wait_time}s...")
+                    time.sleep(wait_time)
+                    continue
+
+                else:
+                    logger.error(f"Errore API OpenRouter {response.status_code}: {response.text}")
+                    retries += 1
+                    time.sleep(10)
+
+            except Exception as e:
+                logger.error(f"Eccezione chiamata OpenRouter: {e}")
+                retries += 1
+                time.sleep(10)
+            
+            if retries >= MAX_RETRIES:
+                break
+        
+        return None
+
+    def call_llm(self, prompt: str) -> Optional[str]:
+        """Wrapper per chiamare il provider configurato."""
+        if self.provider == "openrouter":
+            return self.call_openrouter(prompt)
+        # Default su Ollama
+        return self.call_ollama(prompt)
 
     def parse_practices_response(self, response: str) -> List[Dict]:
         """Parsa la risposta JSON da Ollama."""
@@ -691,7 +866,7 @@ Se non trovi pratiche significative:
             logger.info(f"  Chunk {i}/{len(chunks)}...")
 
             prompt = self.build_extraction_prompt(chunk, i, len(chunks), school_code)
-            response = self.call_ollama(prompt)
+            response = self.call_llm(prompt)
 
             if response:
                 practices = self.parse_practices_response(response)
@@ -887,13 +1062,33 @@ Se non trovi pratiche significative:
 
         # Salva metadata in JSON (senza le pratiche)
         schools_processed = len(set(p['school']['codice_meccanografico'] for p in self.practices))
+        
+        # Gestione Multi-Modello
+        current_model_full = f"{self.provider}/{self.model}"
+        models_used = []
+        
+        # Tenta di caricare i modelli precedenti se il file esiste
+        if OUTPUT_JSON.exists():
+            try:
+                with open(OUTPUT_JSON, 'r', encoding='utf-8') as f:
+                     old_meta = json.load(f)
+                     models_used = old_meta.get('extraction_models', [])
+                     if isinstance(models_used, str):
+                         models_used = [models_used]
+            except:
+                pass
+        
+        if current_model_full not in models_used:
+            models_used.append(current_model_full)
+
         metadata = {
-            "version": "2.0",
+            "version": "2.1",
             "format": "csv",
             "csv_file": "attivita.csv",
             "last_updated": datetime.now().isoformat(),
-            "extraction_model": self.model,
-            "total_practices": len(self.practices),
+            "extraction_model": current_model_full, # Backward compat
+            "extraction_models": models_used,       # Nuova lista
+            "total_activities": len(self.practices),
             "schools_processed": schools_processed
         }
         with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
@@ -931,8 +1126,8 @@ Se non trovi pratiche significative:
             logger.warning(f"Errore lettura CSV principale: {exc}")
             return None
 
-    def get_md_files_to_process(self, force: bool = False, target: str = None) -> List[Path]:
-        """Ottiene la lista dei file MD da processare."""
+    def get_md_files_to_process(self, force: bool = False, target: str = None, shard: str = None) -> List[Path]:
+        """Ottiene la lista dei file MD da processare, con supporto sharding."""
         allowed_codes = self.load_allowed_school_codes()
         md_files = []
 
@@ -965,24 +1160,40 @@ Se non trovi pratiche significative:
 
                 md_files.append(md_file)
 
-        # Ordina per data di modifica
+        # Ordina per data di modifica (cruciale per sharding deterministico)
         md_files.sort(key=lambda p: p.stat().st_mtime)
+
+        # Applica Sharding
+        if shard:
+            try:
+                shard_idx, shard_total = map(int, shard.split('/'))
+                if shard_total < 1 or shard_idx < 1 or shard_idx > shard_total:
+                    raise ValueError
+                
+                # Filtra: tieni solo i file dove (index % total) + 1 == shard_idx
+                # Usa enumerate 1-based per semplicità
+                md_files = [f for i, f in enumerate(md_files, 1) if (i % shard_total) + 1 == shard_idx]
+                logger.info(f"Sharding attivo: {shard} -> {len(md_files)} file assegnati a questo worker")
+            except (ValueError, AttributeError):
+                logger.error(f"Formato shard non valido: {shard}. Usa '1/2', '2/2', ecc. Ignorato.")
 
         return md_files
 
-    def run(self, limit: int = None, force: bool = False, target: str = None):
+    def run(self, limit: int = None, force: bool = False, target: str = None, shard: str = None):
         """Esegue l'estrazione delle attivita."""
         logger.info("Avvio Activity Extractor")
         logger.info(f"  Modello: {self.model}")
         logger.info(f"  Ollama URL: {self.ollama_url}")
         logger.info(f"  Chunk size: {self.chunk_size}")
         logger.info(f"  Directory MD: {PTOF_MD_DIR}")
+        if shard:
+            logger.info(f"  Shard: {shard}")
 
         # Carica progresso
         self.load_progress()
 
         # Ottieni file MD da processare
-        md_files = self.get_md_files_to_process(force=force, target=target)
+        md_files = self.get_md_files_to_process(force=force, target=target, shard=shard)
 
         if limit:
             md_files = md_files[:limit]
@@ -997,6 +1208,16 @@ Se non trovi pratiche significative:
 
         for i, md_file in enumerate(md_files, 1):
             if EXIT_REQUESTED:
+                break
+                
+            school_code = extract_school_code_from_filename(md_file.name)
+            
+            # Controllo Budget
+            if self.max_cost is not None and self.total_cost >= self.max_cost:
+                logger.warning(f"🛑 BUDGET LIMIT RAGGIUNTO (${self.max_cost:.2f}). Interrompo esecuzione.")
+                logger.info(f"💰 Costo finale: ${self.total_cost:.4f}")
+                self.save_progress()
+                break
                 break
 
             school_code = extract_school_code_from_filename(md_file.name)
@@ -1057,20 +1278,43 @@ def main():
     parser.add_argument('--chunk-size', type=int, default=DEFAULT_CHUNK_SIZE, help=f'Dimensione chunk (default: {DEFAULT_CHUNK_SIZE})')
     parser.add_argument('--force', action='store_true', help='Forza ri-elaborazione di tutti i PDF')
     parser.add_argument('--target', help='Processa solo questo codice meccanografico')
+    parser.add_argument('--batch-size', type=int, default=10, help='Numero di chiamate prima della pausa batch (default: 10)')
+    parser.add_argument('--batch-wait', type=int, default=300, help='Secondi di pausa batch (default: 300)')
+    parser.add_argument('--provider', default="ollama", choices=["ollama", "openrouter"], help='Provider AI (ollama, openrouter)')
+    parser.add_argument('--shard', help='Sharding del workload (es. 1/2, 2/5)')
+    parser.add_argument('--max-cost', type=float, help='Limite massimo di costo in $ (es. 5.0)')
 
     args = parser.parse_args()
+
+    # Recupera API Key da ENV se non passata (todo: aggiungere arg --api-key se serve)
+    api_key = os.getenv("OPENROUTER_API_KEY") if args.provider == "openrouter" else None
+
+    # Load from .env if needed
+    if args.provider == "openrouter" and not api_key:
+        try:
+            from dotenv import load_dotenv
+            load_dotenv()
+            api_key = os.getenv("OPENROUTER_API_KEY")
+        except ImportError:
+            pass
 
     extractor = BestPracticeExtractor(
         ollama_url=args.ollama_url,
         model=args.model,
         wait_time=args.wait,
-        chunk_size=args.chunk_size
+        chunk_size=args.chunk_size,
+        batch_size=args.batch_size,
+        batch_wait=args.batch_wait,
+        provider=args.provider,
+        api_key=api_key,
+        max_cost=args.max_cost
     )
 
     extractor.run(
         limit=args.limit,
         force=args.force,
-        target=args.target
+        target=args.target,
+        shard=args.shard
     )
 
 
