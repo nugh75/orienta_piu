@@ -9,7 +9,7 @@ import numpy as np
 import os
 from io import BytesIO
 from scipy import stats
-from data_utils import normalize_statale_paritaria, render_footer
+from data_utils import normalize_statale_paritaria, render_footer, scale_to_pct, format_pct
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Analisi Territoriale", page_icon="🧭", layout="wide")
@@ -353,9 +353,9 @@ with tab_mappa:
         Analizza la **distribuzione geografica** della qualità dell'orientamento nei PTOF italiani.
 
         ### 📊 Sezioni
-        - **Confronto Regionale**: Media dell'Indice RO normalizzata per tipologia
+        - **Confronto Regionale**: Media dell'Indice di Completezza normalizzata per tipologia
         - **Test ANOVA**: Verifica statistica se le differenze tra regioni sono significative
-        - **Mappa Coropletica**: Visualizzazione geografica dell'Indice RO
+        - **Mappa Coropletica**: Visualizzazione geografica della completezza
         - **Mappa Scuole Virtuose**: Localizza le scuole con i punteggi più alti
         - **Confronto Nord vs Sud**: Analisi delle macro-aree
         """)
@@ -388,7 +388,7 @@ with tab_mappa:
 
     # === 1. REGIONAL COMPARISON (NORMALIZED) ===
     st.subheader("📊 Confronto Regionale (normalizzato)")
-    st.caption("Indice RO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
+    st.caption("Indice di Completezza normalizzato per tipologia: ogni tipo pesa allo stesso modo")
 
     df_region_norm = add_type_normalized_score(df_valid)
     regional_stats = pd.DataFrame()
@@ -402,6 +402,10 @@ with tab_mappa:
         regional_stats = regional_stats.reset_index()
         regional_stats.columns = ['Regione', 'Media Normalizzata', 'N. Scuole', 'Tipi Coperti']
         regional_stats = regional_stats[regional_stats['Regione'] != 'Non Specificato']
+        
+        # Convert to percentage
+        regional_stats['Media Normalizzata'] = regional_stats['Media Normalizzata'].apply(scale_to_pct)
+        
         regional_stats = regional_stats.sort_values('Media Normalizzata', ascending=False)
 
         col1, col2 = st.columns([2, 1])
@@ -411,12 +415,12 @@ with tab_mappa:
                 regional_stats.sort_values('Media Normalizzata', ascending=True),
                 x='Media Normalizzata', y='Regione', orientation='h',
                 color='Media Normalizzata', color_continuous_scale='RdYlGn',
-                range_x=[0, 7], range_color=[1, 7],
-                title="Indice RO Normalizzato per Regione",
+                range_x=[0, 100], range_color=[0, 100],
+                title="Indice di Completezza Normalizzato per Regione (%)",
                 text='N. Scuole'
             )
             fig_ranking.update_traces(texttemplate='n=%{text}', textposition='outside')
-            fig_ranking.update_layout(height=500)
+            fig_ranking.update_layout(height=500, xaxis_title="Completezza (%)")
             st.plotly_chart(fig_ranking, use_container_width=True)
 
         with col2:
@@ -488,6 +492,9 @@ with tab_mappa:
             grouped = grouped[grouped['Regione'].isin(valid_regions)]
 
             if not grouped.empty:
+                # Convert mean to percentage
+                grouped['Media'] = grouped['Media'].apply(scale_to_pct)
+
                 fig_sp = px.bar(
                     grouped,
                     x='Regione',
@@ -495,10 +502,10 @@ with tab_mappa:
                     color='Gestione',
                     barmode='group',
                     text='N. Scuole',
-                    labels={'Media': 'Indice RO', 'Gestione': 'Gestione'}
+                    labels={'Media': 'Completezza (%)', 'Gestione': 'Gestione'}
                 )
                 fig_sp.update_traces(texttemplate='n=%{text}', textposition='outside')
-                fig_sp.update_layout(height=450, yaxis_range=[0, 7])
+                fig_sp.update_layout(height=450, yaxis_range=[0, 100])
                 st.plotly_chart(fig_sp, use_container_width=True)
 
                 st.dataframe(
@@ -515,7 +522,7 @@ with tab_mappa:
 
     # === ANOVA Test ===
     st.markdown("### 🔬 Test ANOVA: Differenze tra Regioni")
-    st.caption("Verifica statistica se esistono differenze significative nell'Indice RO normalizzato tra le regioni")
+    st.caption("Verifica statistica se esistono differenze significative nell'Indice di Completezza normalizzato tra le regioni")
 
     try:
         region_groups = []
@@ -614,12 +621,16 @@ with tab_mappa:
                                 favored = region_names[j]
                                 unfavored = region_names[i]
 
+                            mean_i_pct = scale_to_pct(mean_i)
+                            mean_j_pct = scale_to_pct(mean_j)
+                            diff_pct = abs(mean_i_pct - mean_j_pct)
+
                             pair_info = {
                                 'Regione 1': region_names[i],
-                                'Media 1': f"{mean_i:.2f}",
+                                'Media 1': f"{mean_i_pct:.1f}%",
                                 'Regione 2': region_names[j],
-                                'Media 2': f"{mean_j:.2f}",
-                                'Differenza': f"{abs(diff):.2f}",
+                                'Media 2': f"{mean_j_pct:.1f}%",
+                                'Differenza': f"{diff_pct:.1f}%",
                                 'p-value adj.': f"{p_adj:.4f}",
                                 'Significativo': '✅' if p_adj < 0.05 else '❌',
                                 'A favore di': favored if p_adj < 0.05 else '-'
@@ -629,9 +640,9 @@ with tab_mappa:
                             if p_adj < 0.05:
                                 significant_pairs.append({
                                     'Confronto': f"{favored} vs {unfavored}",
-                                    'Media superiore': f"{favored} ({max(mean_i, mean_j):.2f})",
-                                    'Media inferiore': f"{unfavored} ({min(mean_i, mean_j):.2f})",
-                                    'Differenza': f"{abs(diff):.2f}",
+                                    'Media superiore': f"{favored} ({max(mean_i_pct, mean_j_pct):.1f}%)",
+                                    'Media inferiore': f"{unfavored} ({min(mean_i_pct, mean_j_pct):.1f}%)",
+                                    'Differenza': f"{diff_pct:.1f}%",
                                     'p-value': f"{p_adj:.4f}"
                                 })
 
@@ -664,7 +675,7 @@ with tab_mappa:
 
                     st.markdown("##### 📊 Medie Regionali (normalizzate)")
                     ranking_df = pd.DataFrame([
-                        {'Regione': reg, 'Media Normalizzata': f"{mean:.2f}"}
+                        {'Regione': reg, 'Media Normalizzata': f"{scale_to_pct(mean):.1f}%"}
                         for reg, mean in sorted_regions
                     ])
                     st.dataframe(ranking_df, use_container_width=True, hide_index=True)
@@ -679,7 +690,7 @@ with tab_mappa:
 
     # === 2. CHOROPLETH MAP ===
     st.subheader("🗺️ Mappa Coropletica")
-    st.caption("Visualizzazione geografica dell'Indice RO normalizzato per regione")
+    st.caption("Visualizzazione geografica dell'Indice di Completezza normalizzato per regione")
 
     map_data = regional_stats.copy()
     if map_data.empty:
@@ -697,11 +708,11 @@ with tab_mappa:
                 size='N. Scuole',
                 color='Media Normalizzata',
                 hover_name='Regione',
-                hover_data={'Media Normalizzata': ':.2f', 'N. Scuole': True, 'lat': False, 'lon': False},
+                hover_data={'Media Normalizzata': ':.1f', 'N. Scuole': True, 'lat': False, 'lon': False},
                 color_continuous_scale='RdYlGn',
-                range_color=[1, 7],
+                range_color=[0, 100],
                 size_max=50,
-                title="Distribuzione Geografica Indice RO Normalizzato"
+                title="Distribuzione Geografica Indice di Completezza Normalizzato"
             )
             fig_map.update_geos(
                 scope='europe',
@@ -727,8 +738,8 @@ with tab_mappa:
     st.markdown("---")
 
     # === 3. TOP PERFORMERS MAP ===
-    st.subheader("🏆 Mappa Scuole più Virtuose")
-    st.caption("Le scuole con gli indici di robustezza più alti, colorate per tipologia")
+    st.subheader("🏆 Mappa Scuole con PTOF Completi")
+    st.caption("Le scuole con gli indici di completezza più alti, colorate per tipologia")
 
     if len(df_valid) > 0:
         n_top = st.slider("Numero di scuole da visualizzare", min_value=5, max_value=min(30, len(df_valid)), value=10, step=5)
@@ -768,19 +779,23 @@ with tab_mappa:
         if top_schools.empty:
             st.info("Nessuna scuola con tipologia canonica disponibile")
         else:
+            # Pre-calculate percentage for hover
+            top_schools['pct_val'] = top_schools['ptof_orientamento_maturity_index'].apply(scale_to_pct)
+            
             fig_top = px.scatter_geo(
                 top_schools,
                 lat='lat', lon='lon',
                 color='tipo_primario',
                 hover_name='denominazione',
                 hover_data={
-                    'ptof_orientamento_maturity_index': ':.2f',
+                    'ptof_orientamento_maturity_index': False, # Hide raw index
+                    'pct_val': ':.1f', # Show percentage
                     'comune': True,
                     'regione': True,
                     'tipo_primario': True,
                     'lat': False, 'lon': False
                 },
-                title=f"🏆 Top {n_top} Scuole per Indice RO",
+                title=f"🏆 Top {n_top} Scuole per Completezza PTOF",
                 color_discrete_sequence=px.colors.qualitative.Bold
             )
             fig_top.update_traces(marker=dict(size=12, line=dict(width=1, color='white')))
@@ -1154,7 +1169,7 @@ with tab_mappa:
 
                             col_rank1, col_rank2 = st.columns(2)
                             with col_rank1:
-                                st.markdown("**🏆 Ranking:**")
+                                st.markdown("**📊 Risultati:**")
                                 for i, (grp, mean) in enumerate(sorted_groups_area, 1):
                                     medal = "🥇" if i == 1 else ("🥈" if i == 2 else ("🥉" if i == 3 else f"{i}."))
                                     st.markdown(f"{medal} **{grp}**: {mean:.2f}")

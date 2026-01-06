@@ -6,7 +6,14 @@ import plotly.graph_objects as go
 import os
 import json
 import glob
-from data_utils import render_footer
+import glob
+from data_utils import (
+    render_footer,
+    load_summary_data,
+    DIMENSIONS,
+    scale_to_pct,
+    format_pct
+)
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Confronto PTOF", page_icon="🧭", layout="wide")
@@ -43,26 +50,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-SUMMARY_FILE = 'data/analysis_summary.csv'
-
-DIMENSIONS = {
-    'mean_finalita': 'Finalità',
-    'mean_obiettivi': 'Obiettivi',
-    'mean_governance': 'Governance',
-    'mean_didattica_orientativa': 'Didattica Orientativa',
-    'mean_opportunita': 'Opportunità'
-}
-
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
-        for col in num_cols:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-        return df
-    return pd.DataFrame()
+    df = load_summary_data()
+    num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
+    for col in num_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    return df
 
 
 def load_school_json(school_id):
@@ -209,9 +204,9 @@ with col_h1:
             {school1.get('regione', 'N/D')} | {school1.get('tipo_scuola', 'N/D')[:25]}
         </div>
         <div style="font-size: 2.5em; font-weight: bold; margin: 15px 0;">
-            {ro1:.2f}/7
+            {format_pct(ro1)}
         </div>
-        <div style="font-size: 0.9em;">Indice RO</div>
+        <div style="font-size: 0.9em;">Indice Completezza</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -234,20 +229,23 @@ with col_h2:
             {school2.get('regione', 'N/D')} | {school2.get('tipo_scuola', 'N/D')[:25]}
         </div>
         <div style="font-size: 2.5em; font-weight: bold; margin: 15px 0;">
-            {ro2:.2f}/7
+            {format_pct(ro2)}
         </div>
-        <div style="font-size: 0.9em;">Indice RO</div>
+        <div style="font-size: 0.9em;">Indice Completezza</div>
     </div>
     """, unsafe_allow_html=True)
 
 # Differenza RO
-diff_ro = ro1 - ro2
-if abs(diff_ro) < 0.3:
-    st.info(f"📊 Le due scuole hanno un Indice RO molto simile (differenza: {abs(diff_ro):.2f})")
-elif diff_ro > 0:
-    st.success(f"📈 **{school1['denominazione'][:30]}** ha un Indice RO superiore di **{diff_ro:.2f}** punti")
+pct1 = scale_to_pct(ro1)
+pct2 = scale_to_pct(ro2)
+diff_pct = pct1 - pct2
+
+if abs(diff_pct) < 5.0:
+    st.info(f"📊 Le due scuole hanno un Indice di Completezza molto simile (differenza: {abs(diff_pct):.1f}%)")
+elif diff_pct > 0:
+    st.success(f"📈 **{school1['denominazione'][:30]}** ha un Indice di Completezza superiore di **{diff_pct:.1f}%**")
 else:
-    st.success(f"📈 **{school2['denominazione'][:30]}** ha un Indice RO superiore di **{abs(diff_ro):.2f}** punti")
+    st.success(f"📈 **{school2['denominazione'][:30]}** ha un Indice di Completezza superiore di **{abs(diff_pct):.1f}%**")
 
 st.markdown("---")
 
@@ -257,9 +255,9 @@ st.subheader("🕸️ Confronto Dimensionale")
 col_radar, col_table = st.columns([2, 1])
 
 with col_radar:
-    # Prepara dati
-    vals1 = [school1.get(d, 0) or 0 for d in DIMENSIONS.keys()]
-    vals2 = [school2.get(d, 0) or 0 for d in DIMENSIONS.keys()]
+    # Prepara dati (percentuali)
+    vals1 = [scale_to_pct(school1.get(d, 0) or 0) for d in DIMENSIONS.keys()]
+    vals2 = [scale_to_pct(school2.get(d, 0) or 0) for d in DIMENSIONS.keys()]
     labels = list(DIMENSIONS.values())
 
     fig = go.Figure()
@@ -283,7 +281,7 @@ with col_radar:
     ))
 
     fig.update_layout(
-        polar=dict(radialaxis=dict(visible=True, range=[0, 7])),
+        polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
         showlegend=True,
         height=450,
         legend=dict(orientation="h", yanchor="bottom", y=-0.2)
@@ -295,22 +293,22 @@ with col_table:
 
     comparison_data = []
     for dim_col, dim_label in DIMENSIONS.items():
-        v1 = school1.get(dim_col, 0) or 0
-        v2 = school2.get(dim_col, 0) or 0
+        v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
+        v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
         diff = v1 - v2
 
-        if diff > 0.3:
+        if diff > 5.0:
             winner = "🔵"
-        elif diff < -0.3:
+        elif diff < -5.0:
             winner = "🟢"
         else:
             winner = "="
 
         comparison_data.append({
             'Dimensione': dim_label,
-            'Scuola 1': f"{v1:.1f}",
-            'Scuola 2': f"{v2:.1f}",
-            'Δ': f"{diff:+.1f}",
+            'Scuola 1': f"{v1:.1f}%",
+            'Scuola 2': f"{v2:.1f}%",
+            'Δ': f"{diff:+.1f}%",
             'Migliore': winner
         })
 
@@ -429,8 +427,8 @@ st.subheader("📊 Confronto Visivo per Dimensione")
 
 bar_data = []
 for dim_col, dim_label in DIMENSIONS.items():
-    v1 = school1.get(dim_col, 0) or 0
-    v2 = school2.get(dim_col, 0) or 0
+    v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
+    v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
     bar_data.append({'Dimensione': dim_label, 'Scuola 1': v1, 'Scuola 2': v2})
 
 bar_df = pd.DataFrame(bar_data)
@@ -451,7 +449,7 @@ fig_bar.add_trace(go.Bar(
 
 fig_bar.update_layout(
     barmode='group',
-    yaxis_range=[0, 7],
+    yaxis_range=[0, 100],
     height=400,
     legend=dict(orientation="h", yanchor="bottom", y=-0.2)
 )
@@ -465,20 +463,20 @@ st.subheader("💡 Insights dal Confronto")
 insights = []
 
 # Insight su RO
-if abs(diff_ro) >= 1:
-    if diff_ro > 0:
-        insights.append(f"📈 **Differenza significativa:** {school1['denominazione'][:25]} supera {school2['denominazione'][:25]} di {diff_ro:.1f} punti nell'Indice RO")
+if abs(diff_pct) >= 10.0:
+    if diff_pct > 0:
+        insights.append(f"📈 **Differenza significativa:** {school1['denominazione'][:25]} supera {school2['denominazione'][:25]} di {diff_pct:.1f}% nell'Indice di Completezza")
     else:
-        insights.append(f"📈 **Differenza significativa:** {school2['denominazione'][:25]} supera {school1['denominazione'][:25]} di {abs(diff_ro):.1f} punti nell'Indice RO")
+        insights.append(f"📈 **Differenza significativa:** {school2['denominazione'][:25]} supera {school1['denominazione'][:25]} di {abs(diff_pct):.1f}% nell'Indice di Completezza")
 
 # Insight sulle dimensioni
 for dim_col, dim_label in DIMENSIONS.items():
-    v1 = school1.get(dim_col, 0) or 0
-    v2 = school2.get(dim_col, 0) or 0
+    v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
+    v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
     diff = abs(v1 - v2)
-    if diff >= 1.5:
+    if diff >= 15.0:
         better = school1['denominazione'][:25] if v1 > v2 else school2['denominazione'][:25]
-        insights.append(f"🎯 **{dim_label}:** Differenza marcata ({diff:.1f} punti). {better} eccelle in questa dimensione")
+        insights.append(f"🎯 **{dim_label}:** Differenza marcata ({diff:.1f}%). {better} eccelle in questa dimensione")
 
 # Insight su partnership
 p1 = int(school1.get('partnership_count', 0) or 0)

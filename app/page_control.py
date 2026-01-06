@@ -279,12 +279,16 @@ def _render_nav_button(label: str, page_id: str, current_page: str, admin_only: 
         return
 
     if st.sidebar.button(display, key=f"nav_{page_id}", use_container_width=True):
-        st.switch_page(page_id, query_params=_get_query_params())
+        st.query_params.update(_get_query_params())
+
+        st.switch_page(page_id)
 
 
 def switch_page(page_id: str) -> None:
     """Switch page while preserving query params."""
-    st.switch_page(page_id, query_params=_get_query_params())
+    st.query_params.update(_get_query_params())
+
+    st.switch_page(page_id)
 
 
 def render_sidebar_nav(current_page: str, settings: Dict) -> None:

@@ -12,7 +12,7 @@ import json
 import os
 import re
 from datetime import datetime
-from data_utils import render_footer
+from data_utils import render_footer, scale_to_pct
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Attività", page_icon="🧭", layout="wide")
@@ -328,9 +328,13 @@ def filter_practices(df, categoria=None, regioni=None, tipi_scuola=None,
         mask &= normalized.apply(lambda labels: bool(labels & selected))
 
     if maturity_range and len(maturity_range) == 2:
-        min_val, max_val = maturity_range
+        # Convert range from % back to 1-7 scale for filtering
+        min_pct, max_pct = maturity_range
+        min_ro = 1 + (min_pct * 6 / 100)
+        max_ro = 1 + (max_pct * 6 / 100)
+        
         mi = pd.to_numeric(df['maturity_index'], errors='coerce')
-        mask &= (mi.isna()) | ((mi >= min_val) & (mi <= max_val))
+        mask &= (mi.isna()) | ((mi >= min_ro) & (mi <= max_ro))
 
     if search_text:
         search_lower = search_text.lower()
@@ -615,29 +619,42 @@ with st.form("filters_form"):
         # Riga per maturity index
         col_m1, col_m2 = st.columns([1, 3])
         with col_m1:
-            st.markdown("**📊 Indice RO (Robustezza Orientamento)**")
+            st.markdown("**📊 Indice Completezza**")
         with col_m2:
             sel_maturity = None
             maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
             maturity_values = maturity_col.dropna()
+            
             if len(maturity_values) > 0:
-                min_mi = maturity_values.min()
-                max_mi = maturity_values.max()
-                if min_mi < max_mi:
-                    default_maturity_range = (float(min_mi), float(max_mi))
-                    st.session_state["maturity_default_range"] = default_maturity_range
+                min_mi_val = maturity_values.min()
+                max_mi_val = maturity_values.max()
+                
+                # Convert to pct
+                min_pct = int(scale_to_pct(min_mi_val))
+                max_pct = int(scale_to_pct(max_mi_val))
+                
+                if min_pct < max_pct:
+                    default_range_pct = (float(min_pct), float(max_pct))
+                    
+                    # If stored range is in old scale (approx <= 7), reset it
+                    stored = st.session_state.get("maturity_default_range")
+                    if stored and isinstance(stored, (list, tuple)) and max(stored) <= 7.0:
+                         default_range_pct = (float(min_pct), float(max_pct))
+
+                    st.session_state["maturity_default_range"] = default_range_pct
+                    
                     sel_maturity = st.slider(
-                        "Range Indice RO",
-                        min_value=float(min_mi),
-                        max_value=float(max_mi),
-                        value=default_maturity_range,
-                        step=0.1,
+                        "Range Indice Completezza (%)",
+                        min_value=0.0,
+                        max_value=100.0,
+                        value=default_range_pct,
+                        step=1.0,
                         label_visibility="collapsed",
                         key="filter_maturity"
                     )
                 else:
                     st.session_state["maturity_default_range"] = None
-                    st.caption(f"Indice unico: {min_mi:.2f}")
+                    st.caption(f"Indice unico: {min_pct}%")
                     sel_maturity = None
             else:
                 st.session_state["maturity_default_range"] = None

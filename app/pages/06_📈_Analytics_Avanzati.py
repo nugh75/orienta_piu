@@ -13,6 +13,8 @@ from data_utils import (
     explode_school_types,
     explode_school_grades,
     render_footer,
+    scale_to_pct,
+    format_pct,
 )
 from page_control import setup_page
 
@@ -54,11 +56,13 @@ def load_data():
 def categorize_maturity(val):
     if pd.isna(val):
         return "ND"
-    if val < 3.5:
-        return "Bassa (<3.5)"
+    # Convert thresholds (roughly): 3.5->42%, 5.5->75%
+    # Using aligned thresholds: <4 (50%) = Bassa, 4-5.5 (50-75%) = Media, >5.5 (75%) = Alta
+    if val < 4.0:
+        return "Bassa (<50%)"
     if val <= 5.5:
-        return "Media (3.5-5.5)"
-    return "Alta (>5.5)"
+        return "Media (50-75%)"
+    return "Alta (>75%)"
 
 
 df = load_data()
@@ -279,8 +283,8 @@ with tab_cluster:
                     cluster_means = df_clust.groupby('Cluster')[cluster_cols].mean()
                     cluster_means.columns = [get_label(c) for c in cluster_cols]
                     
-                    fig_heat = px.imshow(cluster_means, text_auto='.1f', color_continuous_scale='Viridis',
-                                       title="Punteggi Medi", aspect="auto")
+                    fig_heat = px.imshow(cluster_means.applymap(scale_to_pct), text_auto='.1f', color_continuous_scale='Viridis',
+                                       title="Punteggi Medi (%)", aspect="auto", zmin=0, zmax=100)
                     st.plotly_chart(fig_heat, use_container_width=True)
                     
                 with st.expander("📘 Guida alla lettura: Clustering e PCA", expanded=False):
@@ -430,7 +434,7 @@ with tab_cluster:
                             col_rank, col_sig = st.columns([1, 2])
                             
                             with col_rank:
-                                st.markdown("**🏆 Ranking Gruppi:**")
+                                st.markdown("**📊 Risultati Gruppi:**")
                                 for i, (grp, mean) in enumerate(sorted_groups, 1):
                                     medal = "🥇" if i == 1 else ("🥈" if i == 2 else ("🥉" if i == 3 else f"{i}."))
                                     st.markdown(f"{medal} **{grp}**: {mean:.2f}")
@@ -461,7 +465,7 @@ with tab_cluster:
                             # Fallback: mostra solo ranking
                             group_means = {group_names[i]: np.mean(groups[i]) for i in range(len(group_names))}
                             sorted_groups = sorted(group_means.items(), key=lambda x: x[1], reverse=True)
-                            st.markdown("**📊 Ranking dei Gruppi:**")
+                            st.markdown("**📊 Risultati Gruppi:**")
                             for i, (grp, mean) in enumerate(sorted_groups, 1):
                                 st.markdown(f"{i}. **{grp}**: {mean:.2f}")
                         except Exception as e:
@@ -504,12 +508,16 @@ with tab_cluster:
         df_violin = df_violin[df_violin['tipo_scuola'].isin(TIPI_SCUOLA)]
 
         if not df_violin.empty:
+            # Convert to percentage
+            df_violin['maturity_pct'] = df_violin['ptof_orientamento_maturity_index'].apply(scale_to_pct)
+            
             fig = px.violin(
-                df_violin, x='tipo_scuola', y='ptof_orientamento_maturity_index',
+                df_violin, x='tipo_scuola', y='maturity_pct',
                 color='tipo_scuola', box=True, points='all',
-                title="Violin Plot Maturity Index"
+                title="Violin Plot Completezza (%)",
+                range_y=[0, 100]
             )
-            fig.update_layout(showlegend=False)
+            fig.update_layout(showlegend=False, yaxis_title="Completezza (%)")
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("Nessun dato valido per le tipologie canoniche")
@@ -540,11 +548,13 @@ with tab_cluster:
         with col1:
             st.markdown("### 🥇 Top 5")
             top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
+            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: format_pct(x))
             top5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(top5.reset_index(drop=True), use_container_width=True)
         with col2:
             st.markdown("### 🔻 Bottom 5")
             bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
+            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: format_pct(x))
             bottom5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
 
@@ -707,8 +717,8 @@ with tab_cluster:
 
     st.markdown("---")
 
-    # 7. Word Cloud (Markdown - Top/Bottom)
-    st.subheader("📚 Analisi Lessicale dai Report (Top vs Bottom Performers)")
+    # 7. Word Cloud (Markdown - High/Low Completeness)
+    st.subheader("📚 Analisi Lessicale dai Report (Alta vs Bassa Completezza)")
     st.caption("Confronto delle parole più frequenti nei PTOF delle scuole con punteggi alti vs bassi.")
 
     if HAS_WORDCLOUD:
@@ -785,7 +795,7 @@ with tab_cluster:
                         
                         col1, col2 = st.columns(2)
                         with col1:
-                            st.markdown("### Top Performers")
+                            st.markdown("### Alta Completezza")
                             if t_top:
                                 wc = WordCloud(width=400, height=300, background_color='white', stopwords=stopwords_it).generate(t_top)
                                 fig, ax = plt.subplots()
@@ -796,7 +806,7 @@ with tab_cluster:
                                 st.warning("No text for Top")
                         
                         with col2:
-                            st.markdown("### Bottom Performers")
+                            st.markdown("### Bassa Completezza")
                             if t_bot:
                                 wc = WordCloud(width=400, height=300, background_color='white', stopwords=stopwords_it).generate(t_bot)
                                 fig, ax = plt.subplots()

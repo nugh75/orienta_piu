@@ -474,7 +474,7 @@ st.markdown(
 - Dettaglio Scuola: profilo scuola, report MD/PDF, best practice collegate, gap analysis e confronto con peer (radar per tipologia/area/nazionale).
 - Confronto PTOF: analisi comparativa tra scuole.
 - Analisi territoriale: mappe, confronti geografici e report regionali.
-- Ranking e Benchmark: classifiche, posizionamento e confronti multidimensionali.
+
 - Analytics avanzati: analisi statistiche, correlazioni e visualizzazioni esplorative.
 - Ricerca / Impatto metodologie: esplorazione di approcci didattici e relativi esiti.
 - Catalogo Attività: estrazione, filtri, incroci categoria e analisi statistiche (significativita ed effetto).
@@ -498,10 +498,10 @@ azioni descritte e solidità delle evidenze, così che numeri e testo si rinforz
 a vicenda e consentano confronti affidabili senza perdere il contesto di ciascuna scuola.
 
 Il report non nasce “a sentimento”: segue un prompt strutturato che impone una sequenza
-precisa (Sintesi generale, Analisi dimensionale, Punti di forza, Aree di debolezza,
+precise (Sintesi generale, Analisi dimensionale, Punti di forza, Aree di debolezza,
 Gap analysis, Conclusioni). In questa sezione trovi come vengono definite le dimensioni,
-come si assegnano i punteggi e come nasce il report finale, fino all'**Indice RO**
-che sintetizza la qualità complessiva dell'orientamento.
+come si assegnano i punteggi e come nasce il report finale, fino all'**Indice di Completezza**
+che sintetizza la ricchezza informativa dell'orientamento.
 """
 )
 
@@ -585,45 +585,33 @@ di queste opportunità, non solo la loro presenza nominale.
 """
 )
 
-st.subheader("Scala di Punteggio (Likert 1-7)")
+st.subheader("Scala di Completezza (0-100%)")
 st.markdown(
     """
-Ogni sottodimensione è valutata su una scala Likert a 7 punti. La scala non è un giudizio
-morale, ma una misura di quanto il PTOF riesce a trasformare le intenzioni in azioni
-concrete, documentate e coerenti.
+Ogni dimensione è valutata rispetto alla sua **completezza informativa**. La percentuale (0-100%) indica
+quanto il PTOF riesce a trasformare le intenzioni in azioni concrete, documentate e coerenti.
 """
 )
 
 scale_data = {
-    "Punteggio": [1, 2, 3, 4, 5, 6, 7],
-    "Livello": [
-        "Assente",
-        "Minimo",
-        "Basilare",
-        "Sufficiente",
-        "Buono",
-        "Molto buono",
-        "Eccellente",
-    ],
+    "Completezza": ["0% - 20%", "21% - 40%", "41% - 60%", "61% - 80%", "81% - 100%"],
     "Descrizione": [
-        "Nessun riferimento nel documento",
-        "Accenni generici o indiretti",
-        "Menzione esplicita ma non sviluppata",
-        "Azioni presenti ma basilari, non strutturate",
-        "Azioni strutturate e descritte con dettaglio",
-        "Sistema integrato con azioni interconnesse",
-        "Sistema eccellente, monitorato e con evidenze di impatto",
-    ],
+        "Nessun riferimento o accenni minimi",
+        "Riferimenti generici, poco strutturati",
+        "Presenza di azioni basilari ma non coordinate",
+        "Sistema strutturato, buona copertura delle dimensioni",
+        "Sistema eccellente, dettagliato e monitorato"
+    ]
 }
 
 st.dataframe(scale_data, use_container_width=True, hide_index=True)
 
-st.subheader("Indice RO")
+st.subheader("Indice Completezza PTOF")
 st.markdown(
     """
-L'**Indice RO** (Robustezza dell'Orientamento) sintetizza la solidità
-complessiva del sistema di orientamento della scuola. Non sostituisce i punteggi
-analitici, ma offre una misura sintetica utile per confronti rapidi tra istituti.
+L'**Indice di Completezza** (ex Indice RO) misura quanto il PTOF sia completo e informativo
+rispetto alle tematiche dell'orientamento. Non è una classifica di qualità, ma un indicatore
+di maturità documentale.
 
 ```
 Indice RO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didattica + Media_Opportunità) / 5
@@ -633,11 +621,12 @@ Indice RO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didatt
 
 | Range | Interpretazione |
 |-------|-----------------|
-| 1.0 - 2.0 | Sistema assente o gravemente carente |
-| 2.1 - 3.5 | Sistema basilare, richiede interventi significativi |
-| 3.6 - 4.5 | Sistema sufficiente, margini di miglioramento |
-| 4.6 - 5.5 | Sistema buono, ben strutturato |
-| 5.6 - 7.0 | Sistema eccellente, benchmark di riferimento |
+| Range | Interpretazione |
+|-------|-----------------|
+| 0% - 30% | Copertura assente o marginale |
+| 30% - 50% | Copertura parziale, elementi basilari |
+| 50% - 75% | Buona copertura, sistema strutturato |
+| 75% - 100% | Copertura eccellente, best practice |
 """
 )
 

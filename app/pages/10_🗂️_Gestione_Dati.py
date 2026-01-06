@@ -229,15 +229,32 @@ with tab_explore:
             with filter_cols[3]:
                 # Indice RO range filter
                 if 'ptof_orientamento_maturity_index' in df.columns:
+                    # Convert to pct for display/filtering logic if needed, but here we filter on raw values
+                    # If we want to filter by %, we should convert limits.
+                    # Let's keep filter on raw values but maybe label it better or convert?
+                    # The filter is on the raw column. Let's just update label to "Indice Compl"
+                    # But wait, raw values are 1-7. If user sees "Indice Compl" they expect %.
+                    # It's better to show % range slider and convert to 1-7 for filtering.
                     min_val = float(df['ptof_orientamento_maturity_index'].min())
                     max_val = float(df['ptof_orientamento_maturity_index'].max())
-                    ro_range = st.slider("Indice RO", min_val, max_val, (min_val, max_val), 0.1, key="filter_ro")
-                    if ro_range != (min_val, max_val):
+                    
+                    # Convert min/max to pct for slider
+                    from data_utils import scale_to_pct
+                    min_pct = int(scale_to_pct(min_val))
+                    max_pct = int(scale_to_pct(max_val))
+
+                    ro_range_pct = st.slider("Indice Completezza (%)", 0, 100, (min_pct, max_pct), 5, key="filter_ro")
+                    
+                    # Convert back to 1-7
+                    min_ro = 1 + (ro_range_pct[0] * 6 / 100)
+                    max_ro = 1 + (ro_range_pct[1] * 6 / 100)
+
+                    if ro_range_pct != (min_pct, max_pct):
                         df_filtered = df_filtered[
-                            (df_filtered['ptof_orientamento_maturity_index'] >= ro_range[0]) &
-                            (df_filtered['ptof_orientamento_maturity_index'] <= ro_range[1])
+                            (df_filtered['ptof_orientamento_maturity_index'] >= min_ro) &
+                            (df_filtered['ptof_orientamento_maturity_index'] <= max_ro)
                         ]
-                        active_filters.append(f"Indice RO: {ro_range[0]:.1f}-{ro_range[1]:.1f}")
+                        active_filters.append(f"Indice: {ro_range_pct[0]}%-{ro_range_pct[1]}%")
 
         # Show filter results
         if active_filters:
@@ -581,7 +598,9 @@ with tab_edit:
                 statale = school_row.get('statale_paritaria', 'N/D')
                 st.write(f"**Regione:** {regione if regione and regione != 'ND' else 'N/D'} | **Provincia:** {provincia if provincia and provincia != 'ND' else 'N/D'} | **Stato:** {statale if statale and statale != 'ND' else 'N/D'}")
                 
-                st.write(f"**Indice:** {school_row.get('ptof_orientamento_maturity_index', 'N/D'):.2f}/7" if pd.notna(school_row.get('ptof_orientamento_maturity_index')) else "**Indice:** N/D")
+                from data_utils import format_pct
+                val_ro = school_row.get('ptof_orientamento_maturity_index', 'N/D')
+                st.write(f"**Indice:** {format_pct(val_ro)}" if pd.notna(val_ro) and val_ro != 'N/D' else "**Indice:** N/D")
                 
                 st.markdown("---")
                 st.markdown("### 📁 Gestione PTOF")

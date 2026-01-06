@@ -8,22 +8,19 @@ import os
 import glob
 import re
 from collections import Counter
-from data_utils import render_footer
+from data_utils import (
+    render_footer,
+    load_summary_data,
+    DIMENSIONS,
+    scale_to_pct,
+    format_pct
+)
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Ricerca Metodologie", page_icon="🧭", layout="wide")
 setup_page("pages/07_🔍_Ricerca_Metodologie.py")
 
-SUMMARY_FILE = 'data/analysis_summary.csv'
 ANALYSIS_DIR = 'analysis_results'
-
-DIMENSIONS = {
-    'mean_finalita': 'Finalità',
-    'mean_obiettivi': 'Obiettivi',
-    'mean_governance': 'Governance',
-    'mean_didattica_orientativa': 'Didattica Orientativa',
-    'mean_opportunita': 'Opportunità'
-}
 
 # Glossario metodologie con descrizioni
 METHODOLOGY_GLOSSARY = {
@@ -81,14 +78,12 @@ ALL_METHODOLOGIES = [m for methods in METHODOLOGIES_BY_CATEGORY.values() for m i
 
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
-        for col in num_cols:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-        return df
-    return pd.DataFrame()
+    df = load_summary_data()
+    num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
+    for col in num_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    return df
 
 
 @st.cache_data(ttl=300)
@@ -208,8 +203,8 @@ if selected_keyword:
         # === STATISTICHE ===
         n_schools = len(results)
         pct = n_schools / len(df) * 100
-        mean_ro = results['ptof_orientamento_maturity_index'].mean()
-        overall_mean = df['ptof_orientamento_maturity_index'].mean()
+        mean_ro = results['ptof_orientamento_maturity_index'].apply(scale_to_pct).mean()
+        overall_mean = df['ptof_orientamento_maturity_index'].apply(scale_to_pct).mean()
 
         stat_cols = st.columns(4)
         with stat_cols[0]:
@@ -217,16 +212,18 @@ if selected_keyword:
         with stat_cols[1]:
             st.metric("% del campione", f"{pct:.1f}%")
         with stat_cols[2]:
-            st.metric("Indice RO medio", f"{mean_ro:.2f}/7")
+            st.metric("Indice Completezza medio", f"{mean_ro:.1f}%")
         with stat_cols[3]:
             delta = mean_ro - overall_mean
-            st.metric("vs Media nazionale", f"{overall_mean:.2f}", f"{delta:+.2f}")
+            st.metric("vs Media nazionale", f"{overall_mean:.1f}%", f"{delta:+.1f}%")
 
         # Insight
-        if delta > 0.3:
-            st.success(f"💡 Le scuole che usano '{selected_keyword}' hanno un Indice RO superiore alla media!")
-        elif delta < -0.3:
-            st.info(f"📊 Le scuole che usano '{selected_keyword}' hanno un Indice RO nella media.")
+        if delta > 5.0:
+            st.success(f"💡 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza superiore alla media!")
+        elif delta < -5.0:
+            st.info(f"📊 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza nella media o inferiore.")
+        else:
+            st.info(f"📊 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza in linea con la media.")
 
         st.markdown("---")
 
@@ -264,11 +261,12 @@ if selected_keyword:
         st.subheader("🏫 Scuole che usano questa metodologia")
 
         for i, (idx, row) in enumerate(filtered_results.head(15).iterrows()):
-            ro = row['ptof_orientamento_maturity_index']
-            ro_color = "🟢" if ro >= 5 else "🟡" if ro >= 3.5 else "🔴"
+            ro_val = row['ptof_orientamento_maturity_index']
+            ro_pct = scale_to_pct(ro_val)
+            ro_color = "🟢" if ro_pct >= 66 else "🟡" if ro_pct >= 33 else "🔴"
 
             with st.expander(
-                f"{ro_color} **{row['denominazione']}** — {row['regione']} | RO: {ro:.2f} | {row['match_count']} menzioni",
+                f"{ro_color} **{row['denominazione']}** — {row['regione']} | Compl.: {ro_pct:.1f}% | {row['match_count']} menzioni",
                 expanded=(i < 3)
             ):
                 col_info, col_radar = st.columns([3, 2])
@@ -279,13 +277,13 @@ if selected_keyword:
                     - **Tipo:** {row['tipo_scuola']}
                     - **Provincia:** {row.get('provincia', 'N/D')}
                     - **Regione:** {row['regione']}
-                    - **Indice RO:** {ro:.2f}/7
+                    - **Indice Completezza:** {format_pct(ro_val)}
                     - **Menzioni di "{selected_keyword}":** {row['match_count']}
                     """)
 
 
                 with col_radar:
-                    vals = [row.get(d, 0) or 0 for d in DIMENSIONS.keys()]
+                    vals = [scale_to_pct(row.get(d, 0) or 0) for d in DIMENSIONS.keys()]
                     labels = list(DIMENSIONS.values())
 
                     fig = go.Figure()
@@ -296,7 +294,7 @@ if selected_keyword:
                         line_color='#3498db'
                     ))
                     fig.update_layout(
-                        polar=dict(radialaxis=dict(range=[0, 7], showticklabels=False)),
+                        polar=dict(radialaxis=dict(range=[0, 100], showticklabels=False)),
                         showlegend=False,
                         height=200,
                         margin=dict(l=30, r=30, t=20, b=20)
@@ -343,8 +341,8 @@ if selected_keyword:
 
         comparison_data = []
         for dim_col, dim_label in DIMENSIONS.items():
-            with_method = filtered_results[dim_col].mean() if dim_col in filtered_results.columns else 0
-            overall = df[dim_col].mean() if dim_col in df.columns else 0
+            with_method = filtered_results[dim_col].apply(scale_to_pct).mean() if dim_col in filtered_results.columns else 0
+            overall = df[dim_col].apply(scale_to_pct).mean() if dim_col in df.columns else 0
             comparison_data.append({
                 'Dimensione': dim_label,
                 f'Con "{selected_keyword}"': with_method,
@@ -366,7 +364,7 @@ if selected_keyword:
             y=comp_df['Media nazionale'],
             marker_color='#bdc3c7'
         ))
-        fig_comp.update_layout(barmode='group', yaxis_range=[0, 7], height=350)
+        fig_comp.update_layout(barmode='group', yaxis_range=[0, 100], height=350)
         st.plotly_chart(fig_comp, use_container_width=True)
 
         st.markdown("---")
@@ -376,8 +374,8 @@ if selected_keyword:
 
         export_df = filtered_results[['denominazione', 'regione', 'provincia', 'tipo_scuola',
                                       'ptof_orientamento_maturity_index', 'match_count']].copy()
-        export_df.columns = ['Scuola', 'Regione', 'Provincia', 'Tipo', 'Indice RO', 'Menzioni']
-        export_df['Indice RO'] = export_df['Indice RO'].round(2)
+        export_df.columns = ['Scuola', 'Regione', 'Provincia', 'Tipo', 'Indice Completezza', 'Menzioni']
+        export_df['Indice Completezza'] = export_df['Indice Completezza'].apply(lambda x: format_pct(x))
 
         st.dataframe(export_df, use_container_width=True, hide_index=True)
 

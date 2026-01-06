@@ -60,7 +60,7 @@ CSV_COLUMNS = [
     '2_7_opzionali_ludiche_ricreative_score', '2_7_opzionali_volontariato_score',
     '2_7_opzionali_sportive_score',
     'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
-    'partnership_count', 'activities_count', 'ptof_orientamento_maturity_index'
+    'partnership_count', 'activities_count', 'ptof_orientamento_maturity_index', 'has_complete_ptof'
 ]
 
 
@@ -258,6 +258,9 @@ for school_code, json_file, json_data in selected_entries:
         all_means = [mean_finalita, mean_obiettivi, mean_governance, mean_didattica, mean_opportunita]
         robustness_index = calc_avg(all_means)
         summary_data['ptof_orientamento_maturity_index'] = round(robustness_index, 2)
+        
+        # has_complete_ptof (>= 5 means Complete)
+        summary_data['has_complete_ptof'] = 1 if robustness_index >= 5.0 else 0
         
         # ===== COUNTS FROM JSON =====
         partnership_data = sec2.get('2_2_partnership', {})

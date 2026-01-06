@@ -9,7 +9,12 @@ import os
 import glob
 import re
 from scipy import stats
-from data_utils import render_footer
+from data_utils import (
+    render_footer,
+    load_summary_data,
+    scale_to_pct,
+    format_pct
+)
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Impatto Metodologie", page_icon="🧭", layout="wide")
@@ -57,14 +62,12 @@ ALL_METHODOLOGIES = list(METHODOLOGY_GLOSSARY.keys())
 
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        if 'ptof_orientamento_maturity_index' in df.columns:
-            df['ptof_orientamento_maturity_index'] = pd.to_numeric(
-                df['ptof_orientamento_maturity_index'], errors='coerce'
-            )
-        return df
-    return pd.DataFrame()
+    df = load_summary_data()
+    if 'ptof_orientamento_maturity_index' in df.columns:
+        df['ptof_orientamento_maturity_index'] = pd.to_numeric(
+            df['ptof_orientamento_maturity_index'], errors='coerce'
+        )
+    return df
 
 
 @st.cache_data(ttl=600)
@@ -91,7 +94,7 @@ def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
 
                 school_methods[school_id] = {
                     'methods': methods_used,
-                    'ro': row.get('ptof_orientamento_maturity_index', np.nan)
+                    'ro': scale_to_pct(row.get('ptof_orientamento_maturity_index', np.nan))
                 }
             except Exception:
                 pass
@@ -173,22 +176,22 @@ def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
 # === MAIN ===
 df = load_data()
 
-st.title("📊 Impatto delle Metodologie sull'Indice RO")
+st.title("📊 Impatto delle Metodologie sull'Indice di Completezza")
 
 if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
 
 st.markdown("""
-Questa pagina analizza **l'impatto statistico** di ciascuna metodologia didattica sull'Indice di Maturità
-dell'Orientamento (RO). Per ogni metodologia confrontiamo le scuole che la utilizzano con quelle che non la utilizzano.
+Questa pagina analizza **l'impatto statistico** di ciascuna metodologia didattica sull'Indice di Completezza
+PTOF. Per ogni metodologia confrontiamo le scuole che la utilizzano con quelle che non la utilizzano.
 """)
 
 # Legenda
 with st.expander("📖 Come leggere i risultati", expanded=False):
     st.markdown("""
     **Metriche statistiche:**
-    - **Differenza**: differenza media dell'Indice RO tra scuole che usano e non usano la metodologia
+    - **Differenza**: differenza media dell'Indice di Completezza (%) tra scuole che usano e non usano la metodologia
     - **p-value**: probabilità che la differenza sia dovuta al caso (< 0.05 = significativo)
     - **Cohen's d**: dimensione dell'effetto (quanto è grande la differenza in termini pratici)
 
@@ -236,7 +239,7 @@ with col4:
 st.markdown("---")
 
 # === GRAFICO PRINCIPALE ===
-st.subheader("📈 Impatto delle Metodologie sull'Indice RO")
+st.subheader("📈 Impatto delle Metodologie sull'Indice di Completezza")
 
 # Prepara dati per il grafico
 chart_df = impact_df.copy()
@@ -265,7 +268,7 @@ fig = px.bar(
 fig.update_layout(
     height=700,
     yaxis={'categoryorder': 'total ascending'},
-    xaxis_title='Differenza Indice RO (Con vs Senza metodologia)',
+    xaxis_title='Differenza Indice Completezza % (Con vs Senza)',
     yaxis_title='',
     legend_title='Significatività',
     showlegend=True
@@ -289,7 +292,7 @@ if not top_positive.empty:
         sig_color = "🟢" if row['p_value'] < 0.05 else "⚪"
 
         with st.expander(
-            f"{i+1}. {sig_color} **{row['Metodologia']}** — +{row['Differenza']:.3f} RO {sig_stars}",
+            f"{i+1}. {sig_color} **{row['Metodologia']}** — +{row['Differenza']:.1f}% Completezza {sig_stars}",
             expanded=(i < 3)
         ):
             col1, col2 = st.columns([2, 1])
@@ -301,9 +304,9 @@ if not top_positive.empty:
                 |---------|--------|
                 | Scuole che la usano | {row['N_Con']} |
                 | Scuole che NON la usano | {row['N_Senza']} |
-                | Media RO (con) | {row['Media_Con']:.3f} |
-                | Media RO (senza) | {row['Media_Senza']:.3f} |
-                | **Differenza** | **+{row['Differenza']:.3f}** ({row['Differenza_Pct']:+.1f}%) |
+                | Media RO (con) | {row['Media_Con']:.1f}% |
+                | Media RO (senza) | {row['Media_Senza']:.1f}% |
+                | **Differenza** | **+{row['Differenza']:.1f}%** |
                 | p-value | {row['p_value']:.4f} |
                 | Cohen's d | {row['Cohens_d']:.3f} |
                 | Significatività | {row['Sig_Text']} |
@@ -317,13 +320,13 @@ if not top_positive.empty:
                     x=['Con', 'Senza'],
                     y=[row['Media_Con'], row['Media_Senza']],
                     marker_color=['#27ae60', '#95a5a6'],
-                    text=[f"{row['Media_Con']:.2f}", f"{row['Media_Senza']:.2f}"],
+                    text=[f"{row['Media_Con']:.1f}%", f"{row['Media_Senza']:.1f}%"],
                     textposition='outside'
                 ))
                 fig_mini.update_layout(
                     height=200,
                     margin=dict(l=20, r=20, t=20, b=20),
-                    yaxis_range=[0, 7],
+                    yaxis_range=[0, 100],
                     showlegend=False
                 )
                 st.plotly_chart(fig_mini, use_container_width=True)
@@ -344,9 +347,9 @@ display_df.columns = [
 ]
 
 # Formatta numeri
-display_df['Media Con'] = display_df['Media Con'].round(3)
-display_df['Media Senza'] = display_df['Media Senza'].round(3)
-display_df['Differenza'] = display_df['Differenza'].round(3)
+display_df['Media Con'] = display_df['Media Con'].map('{:.1f}%'.format)
+display_df['Media Senza'] = display_df['Media Senza'].map('{:.1f}%'.format)
+display_df['Differenza'] = display_df['Differenza'].map('{:+.1f}%'.format)
 display_df['p-value'] = display_df['p-value'].apply(lambda x: f"{x:.4f}" if x >= 0.0001 else "<0.0001")
 display_df["Cohen's d"] = display_df["Cohen's d"].round(3)
 
@@ -364,7 +367,7 @@ st.download_button(
 st.markdown("---")
 
 # === ANALISI CORRELAZIONI ===
-st.subheader("🔗 Correlazione tra Numero di Metodologie e Indice RO")
+st.subheader("🔗 Correlazione tra Numero di Metodologie e Indice di Completezza")
 
 # Conta metodologie per scuola
 method_counts = []
@@ -384,7 +387,7 @@ for idx, row in df.iterrows():
                 method_counts.append({
                     'school_id': school_id,
                     'n_methods': count,
-                    'ro': ro
+                    'ro': scale_to_pct(ro)
                 })
         except Exception:
             pass
@@ -403,7 +406,7 @@ if method_counts:
             x='n_methods',
             y='ro',
             trendline='ols',
-            labels={'n_methods': 'Numero di Metodologie', 'ro': 'Indice RO'},
+            labels={'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (%)'},
             opacity=0.6
         )
         fig_corr.update_layout(height=400)

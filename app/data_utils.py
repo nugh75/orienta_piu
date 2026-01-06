@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import os
 
 TIPI_SCUOLA = [
     "Infanzia",
@@ -14,6 +15,16 @@ GESTIONE_SCUOLA = [
     "Statale",
     "Paritaria"
 ]
+
+SUMMARY_FILE = 'data/analysis_summary.csv'
+
+DIMENSIONS = {
+    'mean_finalita': 'Finalita',
+    'mean_obiettivi': 'Obiettivi',
+    'mean_governance': 'Governance',
+    'mean_didattica_orientativa': 'Didattica',
+    'mean_opportunita': 'Opportunita'
+}
 
 # Mapping centralizzato per etichette colonne (evita duplicazione nelle pagine)
 LABEL_MAP = {
@@ -60,10 +71,35 @@ def normalize_statale_paritaria(value: object) -> str:
         return raw
     return "Altro"
 
+def scale_to_pct(score: float) -> float:
+    """
+    Converte punteggio 1-7 in percentuale 0-100.
+    Formula: (score - 1) / 6 * 100
+    """
+    if pd.isna(score):
+        return 0.0
+    return max(0.0, min(100.0, (score - 1.0) / 6.0 * 100.0))
+
+def format_pct(score: float, decimals: int = 1) -> str:
+    """
+    Formatta punteggio 1-7 in stringa percentuale (es: '83.3%').
+    """
+    if pd.isna(score):
+        return "N/D"
+    pct = scale_to_pct(score)
+    return f"{pct:.{decimals}f}%"
+
 def split_multi_value(value):
     if pd.isna(value):
         return []
     return [part.strip() for part in str(value).split(',') if part.strip()]
+
+
+
+def load_summary_data():
+    if os.path.exists(SUMMARY_FILE):
+        return pd.read_csv(SUMMARY_FILE)
+    return pd.DataFrame()
 
 def find_pdf_for_school(school_id, base_dirs=None):
     import glob

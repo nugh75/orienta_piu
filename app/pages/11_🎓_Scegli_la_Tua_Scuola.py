@@ -9,12 +9,16 @@ import streamlit as st
 
 from match_engine import FAMILY_PREFERENCE_WEIGHTS, match_for_families
 from page_control import setup_page
-from data_utils import render_footer, TIPI_SCUOLA
+from data_utils import (
+    render_footer,
+    TIPI_SCUOLA,
+    load_summary_data,
+    scale_to_pct,
+    format_pct
+)
 
 st.set_page_config(page_title="ORIENTA+ | Scegli la Tua Scuola", page_icon="🎓", layout="wide")
 setup_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
-
-SUMMARY_FILE = "data/analysis_summary.csv"
 
 st.markdown(
     """
@@ -42,22 +46,20 @@ st.markdown(
 
 @st.cache_data(ttl=60)
 def load_data() -> pd.DataFrame:
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        for col in [
-            "mean_finalita",
-            "mean_obiettivi",
-            "mean_governance",
-            "mean_didattica_orientativa",
-            "mean_opportunita",
-            "ptof_orientamento_maturity_index",
-            "partnership_count",
-            "activities_count",
-        ]:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors="coerce")
-        return df
-    return pd.DataFrame()
+    df = load_summary_data()
+    for col in [
+        "mean_finalita",
+        "mean_obiettivi",
+        "mean_governance",
+        "mean_didattica_orientativa",
+        "mean_opportunita",
+        "ptof_orientamento_maturity_index",
+        "partnership_count",
+        "activities_count",
+    ]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+    return df
 
 
 def to_stars(score: float) -> str:
@@ -86,20 +88,23 @@ def format_location(row: pd.Series) -> str:
 
 def build_summary(row: pd.Series) -> str:
     ro = float(row.get("ptof_orientamento_maturity_index", 0) or 0)
+    ro_pct = scale_to_pct(ro)
     did = float(row.get("mean_didattica_orientativa", 0) or 0)
+    did_pct = scale_to_pct(did)
     opp = float(row.get("mean_opportunita", 0) or 0)
+    opp_pct = scale_to_pct(opp)
 
-    if ro >= 5:
+    if ro_pct >= 70:
         base = "Profilo molto solido"
-    elif ro >= 4:
+    elif ro_pct >= 50:
         base = "Profilo equilibrato"
     else:
         base = "Profilo da rafforzare"
 
     focus = []
-    if did >= 5:
+    if did_pct >= 70:
         focus.append("didattica orientativa forte")
-    if opp >= 5:
+    if opp_pct >= 70:
         focus.append("buone collaborazioni esterne")
 
     if focus:
@@ -203,7 +208,8 @@ def step_two(df: pd.DataFrame) -> None:
             st.subheader(row.get("denominazione", "Scuola"))
             st.caption(format_location(row))
             st.write(f"Compatibilità: **{row.get('compatibility_score', 0)} / 100**")
-            st.write(f"Indice di orientamento: **{to_stars(row.get('ptof_orientamento_maturity_index'))}**")
+            ro_val = row.get('ptof_orientamento_maturity_index')
+            st.write(f"Indice Completezza: **{format_pct(ro_val)} {to_stars(ro_val)}**")
             render_tags(row.get("strength_tags", []))
 
             col1, col2 = st.columns(2)
@@ -270,11 +276,16 @@ def step_three(df: pd.DataFrame) -> None:
     ].copy()
     table.columns = [
         "Scuola",
-        "Preparazione al futuro",
-        "Collaborazioni esterne",
-        "Organizzazione e progetti",
-        "Indice orientamento",
+        "Preparazione al futuro (%)",
+        "Collaborazioni esterne (%)",
+        "Organizzazione e progetti (%)",
+        "Indice Completezza (%)",
     ]
+
+    # Convert numeric columns to percentages for display
+    for col in table.columns[1:]:
+        table[col] = table[col].apply(lambda x: format_pct(x) if pd.notna(x) else "N/D")
+    
     st.dataframe(table, use_container_width=True)
 
     st.subheader("Radar semplificato")
@@ -289,11 +300,11 @@ def step_three(df: pd.DataFrame) -> None:
     fig = go.Figure()
     for _, row in selected.iterrows():
         values = [
-            float(row.get("mean_finalita", 0) or 0),
-            float(row.get("mean_obiettivi", 0) or 0),
-            float(row.get("mean_didattica_orientativa", 0) or 0),
-            float(row.get("mean_opportunita", 0) or 0),
-            float(row.get("mean_governance", 0) or 0),
+            scale_to_pct(float(row.get("mean_finalita", 0) or 0)),
+            scale_to_pct(float(row.get("mean_obiettivi", 0) or 0)),
+            scale_to_pct(float(row.get("mean_didattica_orientativa", 0) or 0)),
+            scale_to_pct(float(row.get("mean_opportunita", 0) or 0)),
+            scale_to_pct(float(row.get("mean_governance", 0) or 0)),
         ]
         values.append(values[0])
         fig.add_trace(
@@ -305,7 +316,7 @@ def step_three(df: pd.DataFrame) -> None:
             )
         )
 
-    fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 7])), showlegend=True)
+    fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 100])), showlegend=True)
     st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("Pro e contro")
