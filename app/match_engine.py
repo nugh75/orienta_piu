@@ -124,8 +124,8 @@ def score_dimensional_similarity(school1: pd.Series, school2: pd.Series) -> Tupl
     v1 = get_school_vector(school1)
     v2 = get_school_vector(school2)
 
-    # Distanza euclidea normalizzata (max distanza teorica = sqrt(5 * 6^2) = ~13.4)
-    max_dist = np.sqrt(5 * 36)  # 5 dimensioni, range 1-7 = diff max 6
+    # Distanza euclidea normalizzata (max distanza teorica = sqrt(5 * 100^2) = ~223.6)
+    max_dist = np.sqrt(5 * 10000)  # 5 dimensioni, range 0-100 = diff max 100
     dist = euclidean_distance(v1, v2)
     similarity = 1 - (dist / max_dist)
 
@@ -163,7 +163,7 @@ def score_profile_similarity(school1: pd.Series, school2: pd.Series) -> Tuple[fl
     return cos_sim * 100, details
 
 
-def score_complementarity(school1: pd.Series, school2: pd.Series, gap_threshold: float = 2.0) -> Tuple[float, Dict]:
+def score_complementarity(school1: pd.Series, school2: pd.Series, gap_threshold: float = 30.0) -> Tuple[float, Dict]:
     """
     Calcola quanto school2 è complementare a school1.
     Alta complementarità = school2 è forte dove school1 è debole.
@@ -182,10 +182,10 @@ def score_complementarity(school1: pd.Series, school2: pd.Series, gap_threshold:
     complements = []
 
     for i, dim in enumerate(DIMENSIONS):
-        gap1 = 7 - v1[i]
+        gap1 = 100 - v1[i]
         if gap1 >= gap_threshold:  # school1 è debole qui
             weaknesses.append(dim)
-            if v2[i] >= 5:  # school2 è forte qui (>=5)
+            if v2[i] >= 67.0:  # school2 è forte qui (>= ~67 equiv a 5/7)
                 complements.append({
                     'dimension': dim,
                     'school1_score': v1[i],
@@ -208,7 +208,7 @@ def score_complementarity(school1: pd.Series, school2: pd.Series, gap_threshold:
     return score, details
 
 
-def score_adjacency(school1: pd.Series, school2: pd.Series, margin: float = 1.0) -> Tuple[float, Dict]:
+def score_adjacency(school1: pd.Series, school2: pd.Series, margin: float = 15.0) -> Tuple[float, Dict]:
     """
     Calcola quanto school2 è "adiacente" a school1 (leggermente migliore).
     Utile per trovare modelli raggiungibili.
@@ -222,24 +222,24 @@ def score_adjacency(school1: pd.Series, school2: pd.Series, margin: float = 1.0)
     ro1 = float(school1.get('ptof_orientamento_maturity_index', 0) or 0)
     ro2 = float(school2.get('ptof_orientamento_maturity_index', 0) or 0)
 
-    # Ideale: school2 ha RO leggermente superiore (tra 0.5 e 2 punti in più)
+    # Ideale: school2 ha RO leggermente superiore (tra 5 e 33 punti in più)
     diff = ro2 - ro1
 
-    if 0.3 <= diff <= 2.0:
+    if 5.0 <= diff <= 33.0:
         # Perfetto range di adiacenza
-        score = 100 - abs(diff - margin) * 30
-    elif diff > 2.0:
+        score = 100 - abs(diff - margin) * 6
+    elif diff > 33.0:
         # Troppo avanti
-        score = max(0, 50 - (diff - 2) * 20)
+        score = max(0, 50 - (diff - 33) * 4)
     else:
         # Indietro o uguale
-        score = max(0, 50 + diff * 25)
+        score = max(0, 50 + diff * 5)
 
     details = {
         'ro_school1': ro1,
         'ro_school2': ro2,
         'difference': diff,
-        'is_adjacent': 0.3 <= diff <= 2.0
+        'is_adjacent': 5.0 <= diff <= 33.0
     }
 
     return max(0, min(100, score)), details
@@ -352,12 +352,12 @@ def get_improvement_suggestions(
     weak_dimensions = []
 
     for i, dim in enumerate(DIMENSIONS):
-        if target_vector[i] < 4:  # Sotto la sufficienza
+        if target_vector[i] < 50.0:  # Sotto la sufficienza (< 4/7 approx 50%)
             weak_dimensions.append({
                 'dimension': dim,
                 'label': DIMENSION_LABELS.get(dim, dim),
                 'score': target_vector[i],
-                'gap': 7 - target_vector[i]
+                'gap': 100 - target_vector[i]
             })
 
     # Per ogni dimensione debole, cerca peer che eccellono
@@ -365,7 +365,7 @@ def get_improvement_suggestions(
         dim = weakness['dimension']
 
         # Trova peer forti in questa dimensione
-        strong_peers = peers_df[peers_df[dim] >= 5].head(3)
+        strong_peers = peers_df[peers_df[dim] >= 67.0].head(3)
 
         for _, peer in strong_peers.iterrows():
             # Prova a caricare il JSON della scuola peer
@@ -547,12 +547,12 @@ def compare_two_schools(school1: pd.Series, school2: pd.Series) -> Dict:
         diff = v1[i] - v2[i]
         comparison['differences'][dim] = {
             'value': diff,
-            'school1_better': diff > 0.5,
-            'school2_better': diff < -0.5,
-            'similar': abs(diff) <= 0.5
+            'school1_better': diff > 8.0,  # was 0.5
+            'school2_better': diff < -8.0, # was -0.5
+            'similar': abs(diff) <= 8.0
         }
 
-        if abs(diff) <= 0.5:
+        if abs(diff) <= 8.0:
             comparison['similarities'].append(DIMENSION_LABELS.get(dim, dim))
         elif diff > 0:
             comparison['winner_by_dimension'][dim] = 'school1'
@@ -606,7 +606,7 @@ FAMILY_PREFERENCE_WEIGHTS = {
 }
 
 
-def _normalize_metric(series: pd.Series, min_val: float = 1.0, max_val: float = 7.0) -> pd.Series:
+def _normalize_metric(series: pd.Series, min_val: float = 0.0, max_val: float = 100.0) -> pd.Series:
     denom = max(max_val - min_val, 1e-6)
     normalized = (series.fillna(min_val) - min_val) / denom
     return normalized.clip(lower=0.0, upper=1.0)
@@ -645,25 +645,25 @@ def _build_strength_tags(df: pd.DataFrame) -> pd.Series:
 
     def tags_for_row(row: pd.Series) -> List[str]:
         tags = []
-        if float(row.get("ptof_orientamento_maturity_index", 0) or 0) >= 5:
+        if float(row.get("ptof_orientamento_maturity_index", 0) or 0) >= 67.0:
             tags.append("Orientamento forte")
-        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 5:
+        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 67.0:
             tags.append("Laboratori")
-        if float(row.get("2_6_didattica_laboratoriale_score", 0) or 0) >= 5:
+        if float(row.get("2_6_didattica_laboratoriale_score", 0) or 0) >= 67.0:
             tags.append("Laboratori")
-        if float(row.get("mean_opportunita", 0) or 0) >= 5:
+        if float(row.get("mean_opportunita", 0) or 0) >= 67.0:
             tags.append("Stage/PCTO")
         if float(row.get("partnership_count", 0) or 0) >= partnership_threshold > 0:
             tags.append("Stage/PCTO")
         if float(row.get("activities_count", 0) or 0) >= activities_threshold > 0:
             tags.append("Extra")
-        if float(row.get("2_7_opzionali_sportive_score", 0) or 0) >= 5:
+        if float(row.get("2_7_opzionali_sportive_score", 0) or 0) >= 67.0:
             tags.append("Sport")
-        if float(row.get("2_7_opzionali_laboratoriali_espressive_score", 0) or 0) >= 5:
+        if float(row.get("2_7_opzionali_laboratoriali_espressive_score", 0) or 0) >= 67.0:
             tags.append("Arte/Musica")
-        if float(row.get("2_5_azione_sistema_integrato_inclusione_fragilita_score", 0) or 0) >= 5:
+        if float(row.get("2_5_azione_sistema_integrato_inclusione_fragilita_score", 0) or 0) >= 67.0:
             tags.append("Inclusione")
-        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 4.5 and float(row.get("mean_opportunita", 0) or 0) >= 4.5:
+        if float(row.get("mean_didattica_orientativa", 0) or 0) >= 58.0 and float(row.get("mean_opportunita", 0) or 0) >= 58.0:
             tags.append("Innovazione")
         return list(dict.fromkeys(tags))[:4]
 

@@ -124,10 +124,17 @@ def load_data():
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
         
-        # Calcolo Completezza (Logica provvisoria: > 4.0 = Completo)
+        # Convert scores to percentage [0-100]
+        # Includes maturity_index and dimensions
+        score_cols = [c for c in df.columns if '_score' in c or 'mean_' in c or 'index' in c.lower()]
+        for col in score_cols:
+            if pd.api.types.is_numeric_dtype(df[col]):
+                df[col] = df[col].apply(scale_to_pct)
+
+        # Calcolo Completezza (Logica provvisoria: >= 67% = Completo, >= 50% = Parziale)
         if 'ptof_orientamento_maturity_index' in df.columns:
             df['completeness_status'] = df['ptof_orientamento_maturity_index'].apply(
-                lambda x: 'Completo' if x >= 5.0 else ('Parziale' if x >= 3.0 else 'Incompleto')
+                lambda x: 'Completo' if x >= 66.7 else ('Parziale' if x >= 50.0 else 'Incompleto')
             )
         return df
     return pd.DataFrame()
@@ -160,6 +167,9 @@ def load_best_practices():
                     maturity = row.get('maturity_index')
                     try:
                         maturity = float(maturity) if maturity else None
+                        # Convert to percentage if in 1-7 range
+                        if maturity is not None and maturity <= 7.0:
+                             maturity = scale_to_pct(maturity)
                     except (ValueError, TypeError):
                         maturity = None
 
@@ -543,12 +553,10 @@ with info_cols2[3]:
 
 info_cols3 = st.columns(2)
 with info_cols3[0]:
-    status = school_data.get('completeness_status', 'N/D')
-    color = "off"
-    if status == 'Completo': color = "normal" 
-    elif status == 'Parziale': color = "off"
-    else: color = "inverse"
-    st.metric("Stato Completezza", status)
+    # Use percentage instead of text status as requested
+    idx_val = school_data.get('ptof_orientamento_maturity_index', 0)
+    pct_str = format_pct(idx_val)
+    st.metric("Stato Completezza", pct_str)
 with info_cols3[1]:
     st.metric("Partnership", int(school_data.get('partnership_count', 0) or 0))
 
@@ -1666,7 +1674,7 @@ with tab_suggestions:
 
                     for i, sugg in enumerate(dim_suggestions[:3]):
                         with st.expander(
-                            f"**{sugg['peer_name']}** — {sugg['peer_region']} | Score: {sugg['peer_score']:.1f}/7",
+                            f"**{sugg['peer_name']}** — {sugg['peer_region']} | Score: {sugg['peer_score']:.1f}%",
                             expanded=(i == 0)
                         ):
                             col_left, col_right = st.columns([2, 1])

@@ -57,10 +57,10 @@ def categorize_maturity(val):
     if pd.isna(val):
         return "ND"
     # Convert thresholds (roughly): 3.5->42%, 5.5->75%
-    # Using aligned thresholds: <4 (50%) = Bassa, 4-5.5 (50-75%) = Media, >5.5 (75%) = Alta
-    if val < 4.0:
+    # Using aligned thresholds: <50% = Bassa, 50-75% = Media, >75% = Alta
+    if val < 50.0:
         return "Bassa (<50%)"
-    if val <= 5.5:
+    if val <= 75.0:
         return "Media (50-75%)"
     return "Alta (>75%)"
 
@@ -73,15 +73,31 @@ if df.empty:
     st.warning("Nessun dato disponibile")
     st.stop()
 
-# Standardize numeric columns (handle 'ND')
+# Standardize numeric columns (handle 'ND') first
 numeric_cols = [
     'ptof_orientamento_maturity_index',
     'mean_finalita', 'mean_obiettivi',
     'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita'
 ]
-for col in numeric_cols:
+# Add granularity columns for complete conversion
+granularity_cols = [c for c in df.columns if c.startswith('2_') and 'score' in c]
+all_score_cols = list(set(numeric_cols + granularity_cols))
+
+for col in all_score_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
+
+# --- CONVERSION TO PERCENTAGE (0-100) ---
+# We assume source data is 1-7. We convert everything to 0-100% scale here.
+def convert_val_to_pct(x):
+    return scale_to_pct(x)
+
+# Apply to all score columns
+for col in all_score_cols:
+    if col in df.columns:
+        # Check if it looks like 1-7 scale (max < 8 usually) to avoid double conversion if run twice
+        # But here we just assume source is raw. 'scale_to_pct' handles NaN.
+        df[col] = df[col].apply(convert_val_to_pct)
 
 tab_cluster, tab_visual = st.tabs(["🔬 Clustering e Correlazioni", "🕸️ Visualizzazioni Avanzate"])
 
@@ -200,6 +216,9 @@ with tab_cluster:
     # Filter columns that actually exist in df and have numeric data
     target_cols = [c for c in target_cols if c in df.columns]
 
+    # Filter columns that actually exist in df and have numeric data
+    target_cols = [c for c in target_cols if c in df.columns]
+
     if len(target_cols) >= 2 and len(df) >= 5:
         # Cleanup labels
         sub_labels = [clean_sub_label(c) for c in target_cols]
@@ -283,7 +302,7 @@ with tab_cluster:
                     cluster_means = df_clust.groupby('Cluster')[cluster_cols].mean()
                     cluster_means.columns = [get_label(c) for c in cluster_cols]
                     
-                    fig_heat = px.imshow(cluster_means.applymap(scale_to_pct), text_auto='.1f', color_continuous_scale='Viridis',
+                    fig_heat = px.imshow(cluster_means, text_auto='.1f', color_continuous_scale='Viridis',
                                        title="Punteggi Medi (%)", aspect="auto", zmin=0, zmax=100)
                     st.plotly_chart(fig_heat, use_container_width=True)
                     
@@ -508,8 +527,8 @@ with tab_cluster:
         df_violin = df_violin[df_violin['tipo_scuola'].isin(TIPI_SCUOLA)]
 
         if not df_violin.empty:
-            # Convert to percentage
-            df_violin['maturity_pct'] = df_violin['ptof_orientamento_maturity_index'].apply(scale_to_pct)
+            # Rename for display (already percentage)
+            df_violin['maturity_pct'] = df_violin['ptof_orientamento_maturity_index']
             
             fig = px.violin(
                 df_violin, x='tipo_scuola', y='maturity_pct',
@@ -548,13 +567,13 @@ with tab_cluster:
         with col1:
             st.markdown("### 🥇 Top 5")
             top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: format_pct(x))
+            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}%")
             top5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(top5.reset_index(drop=True), use_container_width=True)
         with col2:
             st.markdown("### 🔻 Bottom 5")
             bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: format_pct(x))
+            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}%")
             bottom5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
 
@@ -1110,7 +1129,7 @@ with tab_visual:
                 polar=dict(
                     radialaxis=dict(
                         visible=True,
-                        range=[0, 5]  # Assuming scale 1-5
+                        range=[0, 100]  # Assuming scale 0-100%
                     )
                 ),
                 showlegend=True,
@@ -1124,10 +1143,10 @@ with tab_visual:
             diffs = []
             for d, v_school, v_avg in zip(dims_labels, school_vals, avg_vals):
                 delta = v_school - v_avg
-                if delta > 0.5:
-                    diffs.append(f"**{d}**: +{delta:.2f} sopra la media")
-                elif delta < -0.5:
-                    diffs.append(f"**{d}**: {delta:.2f} sotto la media")
+                if delta > 5.0:
+                    diffs.append(f"**{d}**: +{delta:.2f}% sopra la media")
+                elif delta < -5.0:
+                    diffs.append(f"**{d}**: {delta:.2f}% sotto la media")
             
             if diffs:
                 for d in diffs:

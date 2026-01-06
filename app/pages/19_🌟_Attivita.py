@@ -167,6 +167,15 @@ def load_activities():
     if os.path.exists(ACTIVITIES_CSV):
         try:
             df = pd.read_csv(ACTIVITIES_CSV)
+            
+            # Convert maturity_index to percentage if in 1-7 scale
+            if 'maturity_index' in df.columns:
+                # Ensure numeric first
+                df['maturity_index'] = pd.to_numeric(df['maturity_index'], errors='coerce')
+                # Check if scale is likely 1-7 (max <= 7.0)
+                if df['maturity_index'].max() <= 7.5: # 7.5 margin for floating point
+                    df['maturity_index'] = df['maturity_index'].apply(scale_to_pct)
+
             result["df"] = df
             result["total_activities"] = len(df)
             result["schools_processed"] = df['codice_meccanografico'].nunique()
@@ -328,13 +337,11 @@ def filter_practices(df, categoria=None, regioni=None, tipi_scuola=None,
         mask &= normalized.apply(lambda labels: bool(labels & selected))
 
     if maturity_range and len(maturity_range) == 2:
-        # Convert range from % back to 1-7 scale for filtering
+        # Filter directly on percentage data
         min_pct, max_pct = maturity_range
-        min_ro = 1 + (min_pct * 6 / 100)
-        max_ro = 1 + (max_pct * 6 / 100)
         
         mi = pd.to_numeric(df['maturity_index'], errors='coerce')
-        mask &= (mi.isna()) | ((mi >= min_ro) & (mi <= max_ro))
+        mask &= (mi.isna()) | ((mi >= min_pct) & (mi <= max_pct))
 
     if search_text:
         search_lower = search_text.lower()

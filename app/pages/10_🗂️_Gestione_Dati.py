@@ -240,20 +240,23 @@ with tab_explore:
                     
                     # Convert min/max to pct for slider
                     from data_utils import scale_to_pct
-                    min_pct = int(scale_to_pct(min_val))
-                    max_pct = int(scale_to_pct(max_val))
 
-                    ro_range_pct = st.slider("Indice Completezza (%)", 0, 100, (min_pct, max_pct), 5, key="filter_ro")
+                    # Convert the maturity index column to percentage for filtering and display
+                    # Create a temporary column for filtering to avoid modifying the original df_filtered column
+                    # if it's needed in its raw form elsewhere or for saving.
+                    df_filtered_with_pct = df_filtered.copy()
+                    df_filtered_with_pct['ptof_orientamento_maturity_index_pct'] = df_filtered_with_pct['ptof_orientamento_maturity_index'].apply(scale_to_pct)
+
+                    min_val_pct = int(df_filtered_with_pct['ptof_orientamento_maturity_index_pct'].min())
+                    max_val_pct = int(df_filtered_with_pct['ptof_orientamento_maturity_index_pct'].max())
+
+                    ro_range_pct = st.slider("Indice Completezza (%)", 0, 100, (min_val_pct, max_val_pct), 5, key="filter_ro")
                     
-                    # Convert back to 1-7
-                    min_ro = 1 + (ro_range_pct[0] * 6 / 100)
-                    max_ro = 1 + (ro_range_pct[1] * 6 / 100)
-
-                    if ro_range_pct != (min_pct, max_pct):
-                        df_filtered = df_filtered[
-                            (df_filtered['ptof_orientamento_maturity_index'] >= min_ro) &
-                            (df_filtered['ptof_orientamento_maturity_index'] <= max_ro)
-                        ]
+                    if ro_range_pct != (min_val_pct, max_val_pct):
+                        df_filtered = df_filtered_with_pct[
+                            (df_filtered_with_pct['ptof_orientamento_maturity_index_pct'] >= ro_range_pct[0]) &
+                            (df_filtered_with_pct['ptof_orientamento_maturity_index_pct'] <= ro_range_pct[1])
+                        ].drop(columns=['ptof_orientamento_maturity_index_pct']) # Drop temp column after filtering
                         active_filters.append(f"Indice: {ro_range_pct[0]}%-{ro_range_pct[1]}%")
 
         # Show filter results

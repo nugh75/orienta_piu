@@ -9,6 +9,11 @@ import os
 import glob
 import re
 from scipy import stats
+try:
+    import statsmodels.api as sm
+    HAS_STATSMODELS = True
+except ImportError:
+    HAS_STATSMODELS = False
 from data_utils import (
     render_footer,
     load_summary_data,
@@ -401,14 +406,18 @@ if method_counts:
     col1, col2 = st.columns([2, 1])
 
     with col1:
-        fig_corr = px.scatter(
-            corr_df,
-            x='n_methods',
-            y='ro',
-            trendline='ols',
-            labels={'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (%)'},
-            opacity=0.6
-        )
+        plot_args = {
+            'data_frame': corr_df,
+            'x': 'n_methods',
+            'y': 'ro',
+            'labels': {'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (%)'},
+            'opacity': 0.6
+        }
+        
+        if HAS_STATSMODELS:
+            plot_args['trendline'] = 'ols'
+            
+        fig_corr = px.scatter(**plot_args)
         fig_corr.update_layout(height=400)
         st.plotly_chart(fig_corr, use_container_width=True)
 
@@ -427,5 +436,8 @@ if method_counts:
                 st.warning("Correlazione negativa")
         else:
             st.info("Correlazione non statisticamente significativa")
+            
+        if not HAS_STATSMODELS:
+            st.caption("Nota: Installa 'statsmodels' per vedere la linea di tendenza (trendline).")
 
 render_footer()
