@@ -241,6 +241,28 @@ make review-non-ptof MAX_SCORE=1.5
 | `make full` | run + csv + dashboard |
 | `make pipeline` | download-sample + run + csv + dashboard |
 
+### Parametri Workflow
+
+| Parametro | Descrizione | Esempio |
+|-----------|-------------|---------|
+| `PRESET` | ID configurazione LLM (vedi `config/pipeline_config.json`) | `PRESET=8` |
+| `FORCE_CODE` | ⚡ Ri-analizza SOLO una scuola (fast-track: skip Step 0,1) | `FORCE_CODE=BA1MD7500G` |
+| `SKIP_VALIDATION` | Salta validazione PTOF (Step -1) | `SKIP_VALIDATION=1` |
+| `PROVIDER` | Provider LLM (ollama, openai, openrouter) | `PROVIDER=openrouter` |
+| `MODEL` | Modello da usare per tutti gli agenti | `MODEL=gemma3:27b` |
+
+**Esempi:**
+```bash
+# OpenRouter con Gemini 2.5
+make workflow PRESET=8
+
+# ⚡ Fast-track singola scuola
+make workflow PRESET=8 FORCE_CODE=BA1MD7500G
+
+# Batch senza validazione
+make workflow PRESET=8 SKIP_VALIDATION=1
+```
+
 ### Watch mode
 
 ```bash

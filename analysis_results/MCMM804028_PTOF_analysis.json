@@ -1,0 +1,772 @@
+{
+  "metadata": {
+    "school_id": "MCMM804028",
+    "denominazione": "Via Vittorio Veneto",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Gualdo",
+    "anno_ptof": "2025/26-2027/2028",
+    "provincia": "Macerata",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Vittorio Veneto 16",
+    "cap": "62020",
+    "email": "mcic804006@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.icsarnano.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non è presente una sezione chiaramente dedicata e intitolata 'Orientamento' nell'indice o nel corpo del PTOF. L'orientamento è trattato in modo frammentato all'interno di altre sezioni, senza un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università di Cambridge",
+        "partner esterni (campo estivo)",
+        "associazioni sportive",
+        "federazioni sportive",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "London Business School",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "La European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "St. Andrews University",
+        "Luiss Roma",
+        "Banca d’Italia",
+        "centro giovanile Ufo Saronno",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 22,
+      "note": "La lista dei partner include enti certificatori, categorie generiche e riferimenti vaghi. Sarebbe opportuno affinare la lista per includere solo collaborazioni strutturate e nominare specificamente gli enti con cui vi sono progetti concreti. La collaborazione con la Polizia Cantonale per il progetto 'Gruppo Visione Giovani' merita maggiore enfasi."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "note": "Il PTOF menziona obiettivi legati alla formazione personale, ma manca un'analisi approfondita e specifica che giustifichi un punteggio massimo per lo sviluppo delle attitudini."
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "note": "Il PTOF descrive attività che possono stimolare gli interessi, ma non presenta un'analisi dettagliata o strategie specifiche per la valorizzazione e lo sviluppo degli interessi degli studenti."
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "note": "Sebbene l'orientamento sia presente, manca un'analisi approfondita su come il PTOF supporti concretamente la costruzione del progetto di vita degli studenti."
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "note": "Le attività di orientamento e le partnership con università suggeriscono un supporto alle transizioni formative, ma manca un'analisi specifica e dettagliata delle strategie adottate."
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "note": "Il PTOF elenca diverse attività di orientamento, ma non vi è un'analisi approfondita delle capacità orientative sviluppate né delle opportunità concrete offerte agli studenti."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3,
+        "note": "Il PTOF non presenta dati specifici sull'abbandono scolastico né strategie dettagliate e misurabili per la sua riduzione. Le attività di supporto allo studio e recupero non sono esplicitamente collegate a questo obiettivo."
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3,
+        "note": "Sebbene vi siano collaborazioni con enti locali e università, il PTOF non approfondisce in modo sistematico la continuità con il territorio come obiettivo prioritario e strutturato."
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3,
+        "note": "Il PTOF non menziona esplicitamente gli NEET né strategie mirate per contrastarli. Le attività di orientamento e potenziamento delle competenze potrebbero indirettamente contribuire, ma non è un obiettivo esplicitamente dichiarato o analizzato."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "note": "L'ampia offerta di corsi di potenziamento, attività extracurricolari e la promozione di competenze trasversali supportano efficacemente l'obiettivo del lifelong learning."
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4,
+        "note": "Il PTOF descrive le figure organizzative e le loro funzioni, ma non presenta un'analisi dettagliata del 'sistema' di coordinamento dei servizi né una valutazione della sua efficacia."
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3,
+        "note": "Si menzionano funzioni tutoriali e sportelli d'ascolto, ma manca un'analisi strutturata del 'dialogo docenti-studenti' come azione sistemica e valutata."
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3,
+        "note": "Il PTOF menziona comunicazioni e colloqui, ma non approfondisce la strategia sistemica e la valutazione del rapporto scuola-genitori."
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3,
+        "note": "Il PTOF descrive attività di monitoraggio puntuali (es. PdP), ma non delinea un sistema di monitoraggio complessivo delle azioni del PTOF né una loro valutazione sistematica."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4,
+        "note": "Sono presenti numerose attività per l'inclusione, ma manca un'analisi chiara di un 'sistema integrato' e una valutazione della sua efficacia complessiva."
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3,
+        "note": "Il PTOF sottolinea l'importanza dell'approccio attivo, ma non descrive in modo approfondito come la didattica sia sistematicamente basata sull'esperienza degli studenti o come questa venga valorizzata in modo strutturato."
+      },
+      "didattica_laboratoriale": {
+        "score": 5,
+        "note": "Il PTOF menziona attività laboratoriali e la presenza di laboratori, ma la descrizione delle metodologie è generica."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5,
+        "note": "La flessibilità degli spazi e dei tempi è implicitamente supportata dalla varietà di attività proposte e dalla menzione di approcci innovativi."
+      },
+      "didattica_interdisciplinare": {
+        "score": 5,
+        "note": "La presenza di dipartimenti e la menzione di unità di lavoro interdisciplinari indicano un approccio che favorisce l'interdisciplinarità."
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5,
+        "note": "L'ampia offerta di corsi di lingua, musica, arte, teatro e attività culturali dimostra una forte presenza di opzionali culturali."
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5,
+        "note": "Corsi di pittura, teatro, musica e attività legate alle competenze digitali (Premiere, After Effects, Photoshop) confermano un'ampia offerta espressiva e laboratoriale."
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0,
+        "note": "Non sono presenti attività specificamente ludico-ricreative descritte come opzionali."
+      },
+      "opzionali_volontariato": {
+        "score": 5,
+        "note": "La menzione di 'Attività extrascolastiche per crediti scolastici' che includono 'volontariato, della solidarietà, della cooperazione' indica una chiara offerta in questo ambito."
+      },
+      "opzionali_sportive": {
+        "score": 3,
+        "note": "Sono menzionate 'Attività sportive extracurricolari', il progetto 'Studente-atleta di alto livello' e la partecipazione ad attività sportive tra le visite d'istruzione, indicando una presenza, seppur non predominante, di opzionali sportive."
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività laboratoriali",
+      "categoria_principale": "Didattica Laboratoriale",
+      "descrizione_e_metodologia": "Proposte agli studenti in collaborazione con enti e associazioni locali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi extracurricolari per il potenziamento delle competenze linguistiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di musica",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi extracurricolari per lo sviluppo delle abilità musicali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di cucina",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi extracurricolari di natura culinaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di pittura",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi extracurricolari di espressione artistica pittorica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di teatro",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi extracurricolari di recitazione e arte scenica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto al metodo di studio",
+      "categoria_principale": "Supporto Didattico",
+      "descrizione_e_metodologia": "Supporto specializzato per alunni BES/DSA.",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Lezioni individuali",
+      "categoria_principale": "Supporto Didattico",
+      "descrizione_e_metodologia": "Lezioni personalizzate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sport",
+      "categoria_principale": "Attività Sportive",
+      "descrizione_e_metodologia": "Attività sportive extracurricolari.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Della Seconda Lingua (Francese/Tedesco)",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Studio della seconda lingua straniera (francese o tedesco) per 3 anni, con 4 ore settimanali per raggiungere il livello B2. Certificazione tramite esami ufficiali (DELF, GOETHE) o esame di stato.",
+      "target": "Studenti Secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento Della Lingua Inglese",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Potenziamento competenze in inglese per accesso a scuole/università straniere. CLIL: insegnamento di una disciplina non linguistica in inglese. Sede esami Cambridge.",
+      "target": "Studenti Secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Studio Pomeridiano Assistito",
+      "categoria_principale": "Supporto allo Studio",
+      "descrizione_e_metodologia": "Compiti guidati e sorvegliati da insegnanti, organizzati per aree (matematica, umanistica, linguistica). Gruppi ristretti per affrontare problemi disciplinari in modo diverso e rinforzare metodologia di studio.",
+      "target": "Studenti Secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Corsi di Recupero",
+      "categoria_principale": "Supporto allo Studio",
+      "descrizione_e_metodologia": "Attività di recupero mirate a rafforzare la metodologia di studio e colmare carenze evidenziate dopo scrutinio infraquadrimestrale. Pianificazione da parte dei consigli di classe.",
+      "target": "Studenti Secondaria di II grado con difficoltà"
+    },
+    {
+      "titolo_attivita": "Funzioni del Docente Coordinatore di classe",
+      "categoria_principale": "Organizzazione Didattica",
+      "descrizione_e_metodologia": "Svolge funzioni tutoriali, cura relazioni con famiglie, documenta percorso formativo, stende relazione di classe, ricerca e organizza unità di lavoro interdisciplinari.",
+      "target": "Allievi, Famiglie"
+    },
+    {
+      "titolo_attivita": "Funzioni del Docente Coordinatore Scuola Secondaria di II grado",
+      "categoria_principale": "Organizzazione Didattica",
+      "descrizione_e_metodologia": "Convocare riunioni, stabilire ordine del giorno, redigere verbali, essere portavoce, coordinare attività, concordare percorsi in continuità.",
+      "target": "Docenti, Direzione, Coordinatori altri ordini"
+    },
+    {
+      "titolo_attivita": "Assistente Tecnico di informatica",
+      "categoria_principale": "Supporto Tecnico",
+      "descrizione_e_metodologia": "Gestione innovazione tecnologica, registri elettronici, e-board, laboratori informatici, pronto intervento.",
+      "target": "Docenti, Allievi"
+    },
+    {
+      "titolo_attivita": "Consiglio di classe",
+      "categoria_principale": "Organi Collegiali",
+      "descrizione_e_metodologia": "Costituito da insegnanti, redige Piani didattici formativi, coordina lavoro docenti, armonizza progetto didattico, calendario verifiche, compiti, didattica inclusiva.",
+      "target": "Docenti, Allievi"
+    },
+    {
+      "titolo_attivita": "Collegio docenti",
+      "categoria_principale": "Organi Collegiali",
+      "descrizione_e_metodologia": "Stabilisce programmazione educativa, discute organizzazione didattica, definisce obiettivi, stabilisce libri di testo, affronta problematiche.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Commissioni di lavoro",
+      "categoria_principale": "Organi Collegiali",
+      "descrizione_e_metodologia": "Articolazioni del Collegio docenti per ottimizzare azioni PTOF e sostenere organizzazione didattico-culturale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Dipartimenti (Scienze umane, Matematiche, Lingue, Arte/Musica/Sport)",
+      "categoria_principale": "Organizzazione Didattica",
+      "descrizione_e_metodologia": "Definizione linee comuni programmazioni, standard minimi apprendimento, prove comuni, griglie valutazione, revisione PTOF, adozione libri, proposte progetti, attività extracurricolari, formazione docenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso di informatica (ECDL)",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Corso mirato al conseguimento della certificazione ECDL CORE, articolato in sette moduli.",
+      "target": "Allievi Liceo"
+    },
+    {
+      "titolo_attivita": "Corso di Premiere-PRO base e intermedio",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Formazione su software di montaggio video.",
+      "target": "Allievi Liceo"
+    },
+    {
+      "titolo_attivita": "Corso di After Effects Base",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Formazione su software di motion graphics.",
+      "target": "Allievi Liceo"
+    },
+    {
+      "titolo_attivita": "Corso Photoshop completo",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Formazione su software di fotoritocco e grafica.",
+      "target": "Allievi Liceo"
+    },
+    {
+      "titolo_attivita": "Corso su come organizzare siti dinamici",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Formazione sulla creazione e gestione di siti web dinamici.",
+      "target": "Allievi Liceo"
+    },
+    {
+      "titolo_attivita": "Corsi di certificazione ADOBE",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Corsi pomeridiani con esame finale di certificazione ADOBE con validità internazionale.",
+      "target": "Ragazzi"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera (Inglese)",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi pomeridiani di due ore settimanali su quattro livelli, preparano Cambridge Examinations (IELTS, FCE). Tenuti da madrelingua.",
+      "target": "Studenti del Liceo"
+    },
+    {
+      "titolo_attivita": "Campo estivo in Inghilterra",
+      "categoria_principale": "Lingue/Esperienze",
+      "descrizione_e_metodologia": "Organizzato in collaborazione con partner esterni per immersione linguistica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di strumento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Corsi pomeridiani di strumento musicale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto didattico: “Studente-atleta di alto livello”",
+      "categoria_principale": "Sport/Orientamento",
+      "descrizione_e_metodologia": "Permette a studenti-atleti di conciliare percorso scolastico e agonistico attraverso un Progetto Formativo Personalizzato (PFP).",
+      "target": "Studenti-atleti di rilevo nazionale"
+    },
+    {
+      "titolo_attivita": "Visite e viaggi d'istruzione",
+      "categoria_principale": "Culturale/Esperienze",
+      "descrizione_e_metodologia": "Attività didattica che include visite a mostre, musei, luoghi d'arte, naturalistici, sedi universitarie, conferenze.",
+      "target": "Studenti della Scuola secondaria di secondo grado"
+    },
+    {
+      "titolo_attivita": "Prevenzione mirata e monitoraggio disagio giovanile",
+      "categoria_principale": "Orientamento e Benessere",
+      "descrizione_e_metodologia": "Lezioni informative e di confronto con le classi su temi come abuso alcol/cannabis, dipendenze, violenza, furti, danneggiamenti, graffiti, rischi online e social network. Misure di protezione dati.",
+      "target": "Studenti I e II liceo"
+    },
+    {
+      "titolo_attivita": "Formazione Docenti su Metodologie Didattiche Innovative",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Gruppi di lavoro per materie e trasversali su metodo di studio, valutazione, didattica digitale e innovativa, con focus su Intelligenza Artificiale.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Sviluppo Competenze Digitali e Robotica",
+      "categoria_principale": "Didattica Digitale e Innovazione",
+      "descrizione_e_metodologia": "Implementazione approccio digitale per docenti e allievi, formazione docenti, progetto di robotica per allievi del liceo.",
+      "target": "Docenti e allievi del liceo"
+    },
+    {
+      "titolo_attivita": "Integrazione con il Territorio",
+      "categoria_principale": "Partnership e Territorio",
+      "descrizione_e_metodologia": "Attività di integrazione con il territorio, sviluppo rete di collaborazione con aziende e istituzioni locali.",
+      "target": "Comunità scolastica e territorio"
+    },
+    {
+      "titolo_attivita": "Percorso ‘MiOriento’",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Introduzione al percorso tramite fascicolo inviato via e-mail alle famiglie.",
+      "target": "Classe I (secondo quadrimestre)"
+    },
+    {
+      "titolo_attivita": "Percorso sulla piattaforma MiAssumo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Avvio del percorso sulla piattaforma dedicata agli studenti delle Scuole Superiori.",
+      "target": "Classe II (secondo quadrimestre)"
+    },
+    {
+      "titolo_attivita": "Ripresa attività piattaforma MiAssumo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ripresa in autonomia delle attività sulla piattaforma MiAssumo, con profilo già completato.",
+      "target": "Classe III (secondo quadrimestre)"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali e Orientamento con Banca d’Italia",
+      "categoria_principale": "Competenze Trasversali e Orientamento",
+      "descrizione_e_metodologia": "20 ore di attività.",
+      "target": "Classe III (dal 24 al 28 marzo 2025)"
+    },
+    {
+      "titolo_attivita": "Attivazione Curriculum dello Studente Ministeriale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione informazioni MiAssumo e percorso individuale per preparazione fascicolo Esame di Stato.",
+      "target": "Classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento in Teams",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Segnalazione di attività di Orientamento del Territorio o da Università Straniere.",
+      "target": "Classi III e IV (dal novembre 2024)"
+    },
+    {
+      "titolo_attivita": "Eventi presso la sede Leonardo da Vinci: Imprenditorialità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Competenze di imprenditorialità / autoimprenditorialità nella ricerca del percorso personale e professionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Eventi presso la sede Leonardo da Vinci: Reti imprenditoriali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Importanza delle reti imprenditoriali e associative nella costruzione del profilo professionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Eventi presso la sede Leonardo da Vinci: Piattaforma Europass",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "La piattaforma Europass ed il CV europeo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Eventi presso la sede Leonardo da Vinci: LinkedIn",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Impostazione del proprio profilo professionale su LinkedIn.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Eventi presso la sede Leonardo da Vinci: Contatto con il territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Costruire e rafforzare il contatto con Università, Imprese e Servizi per l’Orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso di formazione verticale dalla primaria alla IV Liceo, con approccio trasversale tra le discipline.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Settimana della lingua italiana nel mondo",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Laboratori, conferenze per promuovere la lingua italiana.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visite a luoghi d'arte, mostre, anche all'estero.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Esperienze teatrali per arricchimento culturale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Iniziative di sensibilizzazione",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Sensibilizzazione su temi di contemporaneità e memoria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formativi cittadinanza digitale",
+      "categoria_principale": "Cittadinanza Digitale",
+      "descrizione_e_metodologia": "Focus su 'Social network. Opportunità e rischio'.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento personale e universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esponenti di università italiane, svizzere e anglosassoni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Installazione OS, ambiente di lavoro, web-server AI, Google Dialogflow, codice Python, assemblaggio informatico e fisico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Gruppo Visione Giovani",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con Polizia Cantonale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, sia in autoaggiornamento, sia in presenza di tutor esterni o interni, autonomamente progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione informatica e applicazione multimedialità alla didattica",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sviluppo delle competenze professionali dei docenti, con particolare riferimento al rinnovamento metodologico-didattico, da realizzare anche attraverso l'alfabetizzazione informatica e l'applicazione della multimedialità alla didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Strategie didattiche per alunni in difficoltà",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sviluppo delle competenze professionali degli insegnanti e potenziamento dei processi di apprendimento, con particolare attenzione alle strategie didattiche da attivare con gli alunni in difficoltà.",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Formazione annuale registro elettronico e LIM",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione annuale del registro elettronico e LIM.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sviluppo delle competenze professionali dei docenti, in relazione alla didattica per competenze.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Raccordo figure professionali ed esperti esterni",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Raccordo fra le diverse figure professionali presenti nell'istituzione scolastica e con esperti esterni che, anche per compiti istituzionali, saranno chiamati a rendere forme di consulenza e di assistenza tecnica.",
+      "target": "Personale scolastico, esperti esterni"
+    },
+    {
+      "titolo_attivita": "Prove di ingresso",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Somministrazione di prove all'inizio dell'anno scolastico per accertare conoscenze e abilità degli studenti da utilizzare in fase di programmazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Verifica apprendimento argomenti",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Verifica al termine della trattazione di ciascun argomento del grado di apprendimento per consentire all'insegnante di adeguare la propria azione alle necessità degli alunni.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Valorizzazione punti di forza e traguardi raggiunti",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Particolare importanza data alla valorizzazione dei punti di forza dell'allievo e dei traguardi progressivamente raggiunti.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Attività di recupero e di sostegno",
+      "categoria_principale": "Recupero e Potenziamento",
+      "descrizione_e_metodologia": "Attività previste durante l'anno per colmare lacune e rafforzare apprendimenti.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Comunicazione andamento didattico (foglio informativo)",
+      "categoria_principale": "Comunicazione Scuola-Famiglia",
+      "descrizione_e_metodologia": "Comunicazione periodica sull'andamento didattico tramite foglio informativo.",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Informazione genitori su difficoltà alunni",
+      "categoria_principale": "Comunicazione Scuola-Famiglia",
+      "descrizione_e_metodologia": "Informazione periodica ai genitori da parte del Coordinatore Didattico dopo valutazione Consiglio di classe.",
+      "target": "Genitori alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Certificazione delle competenze",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Dichiarazione di ciò che lo studente sa e sa fare, rilasciata al termine del primo biennio e dell'intero percorso.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione cultura della legalità e cittadinanza attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Iniziative volte a promuovere la cultura della legalità e la cittadinanza attiva.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Patto Educativo di Corresponsabilità",
+      "categoria_principale": "Relazioni Scuola-Famiglia",
+      "descrizione_e_metodologia": "Accordo tra scuola e famiglia per la promozione e valorizzazione dei comportamenti positivi.",
+      "target": "Scuola, Famiglie"
+    },
+    {
+      "titolo_attivita": "Comunicazioni tempestive con le famiglie",
+      "categoria_principale": "Comunicazione Scuola-Famiglia",
+      "descrizione_e_metodologia": "Comunicazioni relative ad assenze, ritardi, apprendimenti e comportamenti inadeguati.",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centri territoriali per supporto DSA",
+      "categoria_principale": "Inclusione e Supporto",
+      "descrizione_e_metodologia": "Attivazione di collaborazioni con centri per ascolto e supporto psicologico e didattico per alunni con DSA.",
+      "target": "Alunni con DSA, Famiglie"
+    },
+    {
+      "titolo_attivita": "Valutazione e validazione anno scolastico all'estero",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esame documentazione istituto straniero, colloquio studente, definizione credito scolastico, valorizzazione competenze acquisite.",
+      "target": "Studenti con esperienza di mobilità internazionale"
+    },
+    {
+      "titolo_attivita": "Supporto alla mobilità internazionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Consulenza pre-partenza, contatto con coordinatore di classe durante l'esperienza, supporto nelle scelte didattiche.",
+      "target": "Studenti e famiglie interessati alla mobilità internazionale"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto all’allievo e ai docenti",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sportello diretto da un esperto nei processi di apprendimento, finalizzato a favorire una didattica inclusiva.",
+      "target": "Allievi e docenti"
+    },
+    {
+      "titolo_attivita": "Attività extrascolastiche per crediti scolastici",
+      "categoria_principale": "Crediti Scolastici",
+      "descrizione_e_metodologia": "Attività del volontariato, della solidarietà, della cooperazione; attività sportive (partecipazione a gare a livello agonistico); partecipazione ad attività culturali extra curricolari documentabili; partecipazione ad attività extra curricolari proposte dalla scuola.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Colloquio conoscitivo famiglia/alunno BES/DSA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Primo colloquio per conoscere famiglia e alunno con certificazione BES/DSA.",
+      "target": "Alunni con BES/DSA in nuovo ingresso"
+    },
+    {
+      "titolo_attivita": "Colloquio individuale alunni DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Successivo colloquio individuale con alunni DSA/BES, anche con Coordinatore di Istituto.",
+      "target": "Alunni con DSA/BES"
+    },
+    {
+      "titolo_attivita": "Predisposizione bozza Piano Didattico Personalizzato (PdP)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione di una prima bozza di PdP per alunni con BES/DSA.",
+      "target": "Alunni con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Approvazione PdP da parte del Consiglio di Classe",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Presentazione e approvazione del PdP da parte del Consiglio di Classe, con possibilità di integrazioni/modifiche.",
+      "target": "Alunni con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio PdP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Monitoraggio dell'andamento del PdP in collaborazione con il Coordinatore di Classe.",
+      "target": "Alunni con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Interfaccia con alunni/famiglie per problematicità didattiche",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interfaccia con alunni e famiglie per problematicità didattiche, coinvolgendo il Coordinatore di Classe.",
+      "target": "Alunni con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Coordinamento progetti DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento dei progetti inerenti gli studenti con Disturbi Specifici di Apprendimento (DSA) e Bisogni educativi speciali (BES).",
+      "target": "Alunni con DSA/BES"
+    },
+    {
+      "titolo_attivita": "Raccordo e consulenza con specialisti esterni",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di raccordo e consulenza con specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra).",
+      "target": "Alunni con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Coordinamento progetti clima e relazione di classe",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento progetti relativi al clima e alla relazione di classe.",
+      "target": "Tutta la classe"
+    },
+    {
+      "titolo_attivita": "Consulenza docenti processi di apprendimento",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Disponibilità per i docenti per consulenze relative ai processi di apprendimento.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Interventi mirati per alunni stranieri/non madrelingua",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi mirati messi in atto dai singoli Consigli di classe per favorire l'integrazione scolastica.",
+      "target": "Alunni stranieri/non madrelingua"
+    },
+    {
+      "titolo_attivita": "Stesura PdP per alunni stranieri con difficoltà linguistiche",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione di un PdP per BES per alunni con accertate difficoltà linguistiche, con strumenti dispensativi e compensativi.",
+      "target": "Alunni stranieri/non madrelingua con difficoltà linguistiche"
+    },
+    {
+      "titolo_attivita": "Promozione cultura dell'inclusione e rimozione ostacoli apprendimento",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire accoglienza, partecipazione, promozione potenzialità, clima relazionale positivo, autonomia, autovalutazione, autostima, strategie inclusive, interventi mirati, metodologie differenziate.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Redazione Piano Didattico Personalizzato (P.D.P.)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programmazione interventi per inclusione alunni con disturbi specifici, svantaggio linguistico/culturale, con misure compensative/dispensative.",
+      "target": "Alunni con DSA, svantaggio linguistico/culturale"
+    },
+    {
+      "titolo_attivita": "Individuazione misure dispensative/compensative per DSA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Individuazione misure adatte a permettere piena inclusione, offrendo opportunità formative e flessibilità senza abbassare obiettivi di apprendimento.",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Esperienze linguistiche per apprendimento italiano",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Organizzazione di esperienze linguistiche per apprendimento intensivo della lingua italiana a vari livelli (ascolto, parlato, lettura, scrittura).",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Acquisire conoscenze e competenze utili al miglioramento del rapporto educativo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Acquisire conoscenze e competenze utili alla facilitazione degli apprendimenti",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Favorire il rinforzo della motivazione personale e della responsabilità professionale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Approfondire, sperimentare ed implementare conoscenze e competenze a supporto della didattica con l'utilizzo delle nuove tecnologie informatiche",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Sostenere la ricerca didattico-pedagogica in riferimento alle innovazioni di struttura, di ordinamento e del processo valutativo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Favorire l'accoglienza e l'inserimento dei nuovi docenti nominati presso l’ Istituto",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Sviluppo delle competenze professionali dei docenti (rinnovamento metodologico-didattico, alfabetizzazione informatica, multimedialità)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Sviluppo delle competenze professionali degli insegnanti e potenziamento dei processi di apprendimento (strategie didattiche per alunni in difficoltà)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Sviluppo delle competenze professionali dei docenti (didattica per competenze)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Raccordo fra le diverse figure professionali e con esperti esterni (consulenza e assistenza tecnica)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Interventi formativi, autoaggiornamento, tutor esterni/interni, progettati e realizzati dalla scuola a supporto dei progetti di Istituto.",
+      "target": "Personale scolastico, esperti esterni"
+    }
+  ],
+  "narrative": "# Report di Analisi PTOF - Istituto Leonardo Da Vinci\n\n## 1. Sintesi\n\nL'Istituto Leonardo Da Vinci presenta un Piano Triennale dell'Offerta Formativa (PTOF) per il periodo 2025/26-2027/28 che dimostra un impegno significativo nell'offrire un percorso educativo completo e orientato al futuro. L'istituto, un Liceo Scientifico situato a Lugano, si distingue per un'ampia gamma di attività extracurricolari, un forte orientamento verso le competenze linguistiche e digitali, e un'attenzione crescente all'inclusione degli studenti con Bisogni Educativi Speciali (BES) e Disturbi Specifici dell'Apprendimento (DSA). Le partnership con enti esterni e università sono numerose, sebbene la loro specificità e strutturazione possano essere ulteriormente definite. L'analisi evidenzia punti di forza nell'offerta formativa e nelle attività di supporto, ma anche aree di miglioramento relative alla strutturazione di alcune sezioni del PTOF, all'analisi approfondita delle finalità e degli obiettivi, e alla sistematizzazione di alcune azioni a livello di sistema.\n\n## 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:**\n\n*   **Score: 2/5**\n*   **Note:** Non è stata individuata una sezione chiaramente dedicata e intitolata \"Orientamento\" nell'indice o nel corpo del PTOF. Le attività relative all'orientamento sono frammentate e distribuite in diverse parti del documento (es. \"Ampliamento dell'Offerta Formativa Extracurricolare\", \"Le Scelte Strategiche\", \"Traguardi Attesi in Uscita\"), senza un capitolo specifico che ne delinei in modo organico le strategie, gli obiettivi e le metodologie. La presenza di attività di orientamento non equivale a una sezione dedicata e strutturata.\n\n**2.2 Partnership:**\n\n*   **Partnership Count: 22**\n*   **Note:** Il PTOF elenca un numero considerevole di collaborazioni con università, enti e associazioni. Tuttavia, la lista dei `partner_nominati` include elementi che non rappresentano vere e proprie partnership strutturate (es. enti certificatori come l'Università di Cambridge, categorie generiche come \"associazioni sportive\", o riferimenti vaghi come \"partner esterni\"). Sarebbe opportuno affinare questa lista per includere solo collaborazioni concrete e nominare specificamente gli enti con cui sono attivi progetti o scambi. La collaborazione con la Polizia Cantonale per il progetto \"Gruppo Visione Giovani\" merita una maggiore enfasi, così come la partnership con specialisti esterni per il supporto agli alunni con BES/DSA.\n\n**2.3 Finalità:**\n\n*   **Finalità Attitudini:** Score 3/5. Il PTOF menziona l'importanza della valorizzazione della personalità e delle attitudini individuali, ma manca un'analisi approfondita e specifica che giustifichi un punteggio massimo. Le strategie per lo sviluppo sistematico delle attitudini non sono dettagliate.\n*   **Finalità Interessi:** Score 3/5. Sebbene l'ampia offerta di attività extracurricolari possa stimolare gli interessi, il documento non presenta un'analisi dettagliata o strategie specifiche per la valorizzazione e lo sviluppo degli interessi degli studenti in modo strutturato.\n*   **Finalità Progetto di Vita:** Score 3/5. Le attività di orientamento e le partnership con università e mondo del lavoro suggeriscono un supporto alla costruzione del progetto di vita, ma manca un'analisi approfondita su come il PTOF supporti concretamente questo percorso.\n*   **Finalità Transizioni Formative:** Score 3/5. Le numerose collaborazioni con istituzioni formative superiori e le attività di orientamento indicano un'attenzione alle transizioni, ma il PTOF non approfondisce le strategie specifiche adottate per facilitare questi passaggi.\n*   **Finalità Capacità Orientative e Opportunità:** Score 3/5. Il PTOF elenca diverse attività di orientamento (es. piattaforme online, incontri informativi), ma non vi è un'analisi approfondita delle capacità orientative sviluppate negli studenti né delle opportunità concrete offerte per il loro futuro percorso formativo e professionale.\n\n**2.4 Obiettivi:**\n\n*   **Obiettivo Ridurre Abbandono:** Score 3/5. Il PTOF non presenta dati specifici sull'abbandono scolastico né strategie dettagliate e misurabili per la sua riduzione. Le attività di supporto allo studio e recupero, pur utili, non sono esplicitamente collegate a questo obiettivo in modo quantificabile.\n*   **Obiettivo Continuità Territorio:** Score 3/5. Nonostante le numerose collaborazioni con enti locali e università, il PTOF non approfondisce in modo sistematico la continuità con il territorio come obiettivo prioritario e strutturato, limitandosi a elencare le partnership.\n*   **Obiettivo Contrastare NEET:** Score 3/5. Il PTOF non menziona esplicitamente gli NEET né strategie mirate per contrastare questo fenomeno. Le attività di orientamento e potenziamento delle competenze potrebbero indirettamente contribuire, ma non vi è un obiettivo esplicitamente dichiarato o analizzato in tal senso.\n*   **Obiettivo Lifelong Learning:** Score 5/5. L'ampia offerta di corsi di potenziamento linguistico e digitale, attività extracurricolari diversificate e la promozione di competenze trasversali supportano efficacemente l'obiettivo del lifelong learning, preparando gli studenti a un apprendimento continuo.\n\n**2.5 Azioni di Sistema:**\n\n*   **Azione Coordinamento Servizi:** Score 4/5. Il PTOF descrive le figure organizzative (es. Coordinatore Didattico, Staff DS) e le loro funzioni, delineando un quadro organizzativo. Tuttavia, manca un'analisi dettagliata del \"sistema\" di coordinamento dei servizi e una valutazione della sua effettiva efficacia operativa.\n*   **Azione Dialogo Docenti-Studenti:** Score 3/5. Vengono menzionate funzioni tutoriali del coordinatore di classe e l'esistenza di sportelli d'ascolto, ma manca un'analisi strutturata del \"dialogo docenti-studenti\" come azione sistemica e valutata, limitandosi a descrivere strumenti puntuali.\n*   **Azione Rapporto Scuola-Genitori:** Score 3/5. Il PTOF indica modalità di comunicazione (es. registro elettronico, colloqui, fogli informativi), ma non approfondisce la strategia sistemica e la valutazione dell'efficacia del rapporto scuola-genitori.\n*   **Azione Monitoraggio Azioni:** Score 3/5. Il PTOF descrive attività di monitoraggio puntuali (es. monitoraggio PdP, verbali dei consigli di classe), ma non delinea un sistema di monitoraggio complessivo delle azioni del PTOF né una loro valutazione sistematica e periodica.\n*   **Azione Sistema Integrato Inclusione Fragilità:** Score 4/5. L'istituto offre un'ampia gamma di attività e supporti per l'inclusione (BES, DSA, stranieri, sportello d'ascolto). Tuttavia, manca un'analisi chiara di un \"sistema integrato\" che ne descriva le interconnessioni e una valutazione complessiva della sua efficacia.\n\n**2.6 Didattica Orientativa:**\n\n*   **Didattica da Esperienza Studenti:** Score 3/5. Il PTOF sottolinea l'importanza della valorizzazione della personalità dello studente e l'approccio attivo, ma non descrive in modo approfondito come la didattica sia sistematicamente basata sull'esperienza degli studenti o come questa venga valorizzata in modo strutturato.\n*   **Didattica Laboratoriale:** Score 5/5. Il PTOF menziona esplicitamente \"Attività laboratoriali\" e la presenza di laboratori (informatica, biologia, fisica, microscopia), indicando un forte orientamento verso la didattica pratica. La descrizione delle metodologie, tuttavia, rimane generica.\n*   **Didattica Flessibilità Spazi e Tempi:** Score 5/5. La varietà di attività proposte, i corsi pomeridiani e l'approccio modulare di alcune iniziative suggeriscono una flessibilità negli spazi e nei tempi, sebbene non esplicitamente dettagliata.\n*   **Didattica Interdisciplinare:** Score 5/5. La presenza di Dipartimenti disciplinari e la menzione di \"unità di lavoro interdisciplinari\" da parte dei docenti coordinatori indicano un approccio che favorisce l'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:**\n\n*   **Opzionali Culturali:** Score 5/5. L'ampia offerta di corsi di lingua, musica, arte, teatro, eventi culturali e visite didattiche dimostra una forte presenza e varietà di opzionali culturali.\n*   **Opzionali Laboratoriali/Espressive:** Score 5/5. Corsi di pittura, teatro, musica, corsi legati alle competenze digitali (Premiere, After Effects, Photoshop) e laboratori specifici confermano un'ampia offerta espressiva e laboratoriale.\n*   **Opzionali Ludiche/Ricreative:** Score 0/5. Non sono presenti attività specificamente ludico-ricreative descritte come opzionali nel PTOF.\n*   **Opzionali Volontariato:** Score 5/5. La menzione di \"Attività extrascolastiche per crediti scolastici\" che includono \"volontariato, della solidarietà, della cooperazione\" indica una chiara offerta in questo ambito, promuovendo la cittadinanza attiva.\n*   **Opzionali Sportive:** Score 3/5. Sono menzionate \"Attività sportive extracurricolari\", il progetto \"Studente-atleta di alto livello\" e la partecipazione ad attività sportive tra le visite d'istruzione. Sebbene non siano il focus principale, vi è una presenza di opzionali sportive che giustifica un punteggio superiore a 1.\n\n## 3. Punti di Forza\n\nL'Istituto Leonardo Da Vinci eccelle nell'offrire un **ampio e diversificato ventaglio di attività extracurricolari**, che spaziano dalle competenze linguistiche e digitali (corsi di lingue, certificazioni Adobe, software di editing video) alle discipline artistiche e musicali. La **forte enfasi posta sul potenziamento delle competenze linguistiche**, in particolare l'inglese, con la possibilità di sostenere esami Cambridge e l'uso del CLIL, rappresenta un valore aggiunto significativo per gli studenti che aspirano a percorsi internazionali. L'istituto dimostra inoltre un **impegno concreto verso l'inclusione**, con una serie di attività e supporti dedicati agli studenti con BES/DSA, inclusa la collaborazione con specialisti esterni. La **promozione del lifelong learning** è ben supportata da un'offerta formativa continua e diversificata. La **didattica laboratoriale** è chiaramente valorizzata, così come l'approccio interdisciplinare, supportato dalla struttura dipartimentale. Infine, la **rete di partnership**, sebbene da affinare, è estesa e copre ambiti accademici, professionali e sociali.\n\n## 4. Debolezze\n\nLa principale debolezza riscontrata riguarda la **frammentazione e la mancanza di una sezione dedicata all'orientamento** nel PTOF. Le attività sono presenti ma non organicamente presentate, rendendo difficile una visione d'insieme delle strategie orientative. Inoltre, i **punteggi massimi assegnati ad alcune finalità e obiettivi appaiono eccessivamente ottimistici** e non pienamente supportati da analisi approfondite o dati specifici nel documento. Ad esempio, la riduzione dell'abbandono scolastico e il contrasto agli NEET sono obiettivi poco esplicitati e analizzati. La **descrizione delle partnership necessita di maggiore specificità**, distinguendo tra collaborazioni strutturate e semplici menzioni. Alcune azioni di sistema, come il monitoraggio complessivo delle azioni del PTOF o il dialogo strutturato docenti-studenti, mancano di un'analisi approfondita della loro implementazione e efficacia.\n\n## 5. Gap Analysis\n\nIl PTOF presenta un divario tra l'ampiezza delle attività proposte e la profondità dell'analisi strategica e valutativa. Se da un lato l'offerta formativa è ricca e diversificata, dall'altro lato manca una chiara strutturazione della sezione orientamento e un'analisi più critica delle finalità e degli obiettivi dichiarati. Il gap maggiore si riscontra nella **mancanza di una sezione dedicata all'orientamento**, che dovrebbe essere un pilastro per un liceo scientifico proiettato verso il futuro. Inoltre, vi è un gap tra l'elenco delle partnership e la loro effettiva descrizione come collaborazioni concrete e misurabili. Infine, il PTOF potrebbe beneficiare di una maggiore sistematizzazione e valutazione delle azioni a livello di sistema, in particolare per quanto riguarda il monitoraggio e il dialogo scuola-famiglia-studente.\n\n## 6. Conclusioni\n\nL'Istituto Leonardo Da Vinci ha sviluppato un PTOF solido, caratterizzato da un'offerta formativa ricca, un forte orientamento alle competenze chiave (linguistiche, digitali) e un'attenzione significativa all'inclusione. I punti di forza risiedono nell'ampiezza delle attività extracurricolari e nella rete di collaborazioni. Tuttavia, per raggiungere l'eccellenza, l'istituto dovrebbe concentrarsi sulla **creazione di una sezione dedicata all'orientamento**, sull'approfondimento dell'analisi delle finalità e degli obiettivi, sulla specificazione delle partnership e sulla sistematizzazione delle azioni di sistema, in particolare per quanto concerne il monitoraggio e la valutazione. Un'ulteriore valorizzazione delle esperienze degli studenti nella didattica e una maggiore chiarezza nella descrizione delle metodologie potrebbero elevare ulteriormente la qualità del piano."
+}

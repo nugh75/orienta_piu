@@ -1,0 +1,233 @@
+{
+    "metadata": {
+        "school_id": "BG1M02500P",
+        "denominazione": "Istituto G. Parini",
+        "tipo_scuola": "Liceo Scientifico, Liceo Linguistico",
+        "ordine_grado": "II Grado",
+        "area_geografica": "Nord Est",
+        "territorio": "Metropolitano",
+        "comune": "Venezia Mestre",
+        "provincia": "VE",
+        "regione": "Veneto",
+        "indirizzo": "Via G. Parini",
+        "cap": "30170",
+        "email": "segreteria@parini.ve.it",
+        "pec": "ND",
+        "website": "www.parini.ve.it",
+        "statale_paritaria": "Paritaria",
+        "anno_ptof": "2022-2025"
+    },
+    "ptof_section2": {
+        "2_1_ptof_orientamento_sezione_dedicata": {
+            "has_sezione_dedicata": 1,
+            "score": 5,
+            "note": "Sezione 'L'Orientamento' presente a pag. 112."
+        },
+        "2_2_partnership": {
+            "partner_nominati": [
+                "FAI - Fondo Ambiente Italiano",
+                "Legambiente",
+                "S.S.P. Reyer Venezia s.r.l.",
+                "CUS Padova",
+                "Comune di Venezia - Servizi Educativi",
+                "Università Ca' Foscari Venezia",
+                "Libreria Ubik",
+                "Venezia Calcio",
+                "SSML Padova",
+                "Società Polisportiva Terraglio",
+                "Biennale di Venezia"
+            ],
+            "partnership_count": 6
+        },
+        "2_3_finalita": {
+            "finalita_attitudini": {
+                "score": 6,
+                "evidence_quote": "favorire l'orientamento dei giovani per valorizzarne le vocazioni personali, gli interessi e gli stili di apprendimento individuali",
+                "evidence_location": "Pagina 127"
+            },
+            "finalita_interessi": {
+                "score": 5,
+                "evidence_quote": "promuovere lo sviluppo equilibrato della personalità, la coscienza della propria identità e della propria unicità, attraverso la valorizzazione dei talenti",
+                "evidence_location": "Pagina 13"
+            },
+            "finalita_progetto_vita": {
+                "score": 5,
+                "evidence_quote": "consentire allo studente una sempre più profonda consapevolezza di sé e delle proprie scelte per il futuro",
+                "evidence_location": "Pagina 123"
+            },
+            "finalita_transizioni_formative": {
+                "score": 5,
+                "evidence_quote": "i PCTO si trasformano in un percorso personalizzato di orientamento universitario sulla base delle offerte provenienti dalle Università",
+                "evidence_location": "Pagina 127"
+            },
+            "finalita_capacita_orientative_opportunita": {
+                "score": 5,
+                "evidence_quote": "acquisizione dell’indispensabile strumento dell’autonomia, che il Parini si impegna a promuovere favorendo lo sviluppo delle potenzialità",
+                "evidence_location": "Pagina 13"
+            }
+        },
+        "2_4_obiettivi": {
+            "obiettivo_ridurre_abbandono": {
+                "score": 5
+            },
+            "obiettivo_continuita_territorio": {
+                "score": 6
+            },
+            "obiettivo_contrastare_neet": {
+                "score": 4
+            },
+            "obiettivo_lifelong_learning": {
+                "score": 5
+            }
+        },
+        "2_5_azioni_sistema": {
+            "azione_coordinamento_servizi": {
+                "score": 5
+            },
+            "azione_dialogo_docenti_studenti": {
+                "score": 6
+            },
+            "azione_rapporto_scuola_genitori": {
+                "score": 5
+            },
+            "azione_monitoraggio_azioni": {
+                "score": 4
+            },
+            "azione_sistema_integrato_inclusione_fragilita": {
+                "score": 6
+            }
+        },
+        "2_6_didattica_orientativa": {
+            "didattica_da_esperienza_studenti": {
+                "score": 6
+            },
+            "didattica_laboratoriale": {
+                "score": 6
+            },
+            "didattica_flessibilita_spazi_tempi": {
+                "score": 5
+            },
+            "didattica_interdisciplinare": {
+                "score": 6
+            }
+        },
+        "2_7_opzionali_facoltative": {
+            "opzionali_culturali": {
+                "score": 6
+            },
+            "opzionali_laboratoriali_espressive": {
+                "score": 6
+            },
+            "opzionali_ludiche_ricreative": {
+                "score": 4
+            },
+            "opzionali_volontariato": {
+                "score": 4
+            },
+            "opzionali_sportive": {
+                "score": 7
+            }
+        }
+    },
+    "activities_register": [
+        {
+            "titolo_attivita": "PCTO Liceo Scientifico",
+            "categoria_principale": "PCTO",
+            "descrizione_e_metodologia": "Percorsi in vari ambiti (Cultura, Ambiente, Pedagogia, Medicina) con partner esterni.",
+            "5w_chi": "Classi III e IV del Liceo Scientifico",
+            "5w_cosa": "Stage e attività di apprendimento pratico in realtà produttive del territorio",
+            "5w_dove": "Scuola e sedi aziendali/enti",
+            "5w_quando": "Triennio finale, durata annuale",
+            "5w_perche": "Sviluppare competenze trasversali e orientamento post-diploma",
+            "ore_dichiarate": "ND",
+            "target": "Classi III e IV",
+            "evidence_quote": "La nostra scuola coinvolge nei PCTO tutte le classi terze e quarte.",
+            "evidence_location": "Pagina 127"
+        },
+        {
+            "titolo_attivita": "Orientamento Universitario Personalizzato",
+            "categoria_principale": "Orientamento in uscita",
+            "descrizione_e_metodologia": "Percorsi personalizzati basati sulle offerte degli Atenei e istituzioni culturali.",
+            "5w_chi": "Classi quinte",
+            "5w_cosa": "Attività di orientamento universitario",
+            "5w_dove": "Scuola / Università",
+            "5w_quando": "Classe Quinta",
+            "5w_perche": "Accompagnare la scelta post-diploma",
+            "ore_dichiarate": "ND",
+            "target": "Classe Quinta",
+            "evidence_quote": "Per le classi quinte, in generale, i PCTO si trasformano in un percorso personalizzato di orientamento universitario.",
+            "evidence_location": "Pagina 127"
+        },
+        {
+            "titolo_attivita": "Studio Guidato",
+            "categoria_principale": "Potenziamento didattico",
+            "descrizione_e_metodologia": "Supporto tutoring per acquisizione metodo di studio e gestione tempo.",
+            "5w_chi": "Gruppi classe",
+            "5w_cosa": "Tutoring formativo pomeridiano",
+            "5w_dove": "Aule scolastiche",
+            "5w_quando": "Annuale / Pomeridiano",
+            "5w_perche": "Prevenzione dispersione e autonomia metodologica",
+            "ore_dichiarate": "ND",
+            "target": "Studenti con bisogni specifici",
+            "evidence_quote": "Il tutor formativo sosterrà gli alunni per l’acquisizione di un efficace metodo di studio.",
+            "evidence_location": "Pagina 131"
+        },
+        {
+            "titolo_attivita": "Potenziamento Lingua Inglese",
+            "categoria_principale": "Certificazioni",
+            "descrizione_e_metodologia": "Preparazione agli esami B1/B2 con metodologia CLIL.",
+            "5w_chi": "Gruppi classe",
+            "5w_cosa": "Corsi di preparazione linguistica",
+            "5w_dove": "Laboratori linguistici",
+            "5w_quando": "Annuale / Pomeridiano",
+            "5w_perche": "Valorizzazione competenze linguistiche",
+            "ore_dichiarate": "ND",
+            "target": "Studenti iscritti",
+            "evidence_quote": "Il corso si prefigge di preparare gli studenti a sostenere gli esami di lingua Inglese per i livelli B1, B2.",
+            "evidence_location": "Pagina 132"
+        },
+        {
+            "titolo_attivita": "Book Club",
+            "categoria_principale": "Cultura",
+            "descrizione_e_metodologia": "Lettura di libri scelti in collaborazione con la Libreria UBIK.",
+            "5w_chi": "Studenti iscritti",
+            "5w_cosa": "Attività di lettura e discussione",
+            "5w_dove": "Biblioteche scolastiche",
+            "5w_quando": "Extra-curricolare",
+            "5w_perche": "Sviluppo amore per la lettura e competenze linguistiche",
+            "ore_dichiarate": "ND",
+            "target": "Gruppi classe interdisciplinari",
+            "evidence_quote": "Lettura di libri scelti dai ragazzi iscritti al Club In collaborazione con la Liberia UBIK.",
+            "evidence_location": "Pagina 136"
+        },
+        {
+            "titolo_attivita": "Redazione Web - Apprendisti Giornalisti",
+            "categoria_principale": "Comunicazione",
+            "descrizione_e_metodologia": "Gestione del sito scolastico e social media per documentare attività.",
+            "5w_chi": "Studenti interessati",
+            "5w_cosa": "Creazione contenuti web e copywriting",
+            "5w_dove": "Laboratori informatici/multimediali",
+            "5w_quando": "Annuale",
+            "5w_perche": "Sviluppo competenze digitali e legami con il mondo del lavoro",
+            "ore_dichiarate": "ND",
+            "target": "Gruppi classe",
+            "evidence_quote": "tengono aggiornato il sito della scuola inserendo i loro articoli e foto per documentare le attività.",
+            "evidence_location": "Pagina 137"
+        },
+        {
+            "titolo_attivita": "Progetto Sportivo Atletica Leggera",
+            "categoria_principale": "Sport",
+            "descrizione_e_metodologia": "Collaborazione con Tecnici Federali G.A. COIN presso impianto Athlon S. Giuliano.",
+            "5w_chi": "Gruppi classe",
+            "5w_cosa": "Attività di atletica leggera",
+            "5w_dove": "Impianto sportivo esterno",
+            "5w_quando": "Annuale",
+            "5w_perche": "Promuovere stili di vita sani e cultura del movimento",
+            "ore_dichiarate": "ND",
+            "target": "Tutti gli studenti",
+            "evidence_quote": "Attività sportiva progettata in collaborazione con i Tecnici Federali delle società G.A. COIN.",
+            "evidence_location": "Pagina 143"
+        }
+    ],
+    "narrative": "# Analisi del PTOF BG1M02500P\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nL'**Istituto G. Parini** presenta una strategia di orientamento strutturata e multiforme, profondamente integrata nel tessuto socio-economico del territorio veneziano. La proposta formativa si distingue per una forte enfasi sulla personalizzazione dei percorsi, specialmente nelle fasi di transizione verso l'università e il mondo del lavoro. Il sistema si basa su una pedagogia dell'autonomia che mira a trasformare le conoscenze teoriche in competenze applicate, supportata da una rete di **partnership** eccellenti e da un'offerta extra-curricolare ricca di laboratori creativi e sportivi.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nIl documento dedica una sezione specifica all'orientamento all'interno del capitolo sull'offerta formativa, esplicitando il valore dei **PCTO** non solo come obbligo normativo ma come opportunità formativa centrale. La struttura è chiara e delinea ruoli precisi per la **Commissione PCTO** e i **Consigli di Classe**.\n\n#### 2.2 Partnership e Reti\nL'istituto vanta collaborazioni di alto profilo con enti culturali come la **Biennale di Venezia**, il **FAI** e **Legambiente**, nonché partnership sportive significative con la **Umana Reyer** e il **Venezia Calcio**. Il legame con il mondo universitario è garantito da accordi con l'**Università Ca' Foscari** e la **SSML di Padova**, che facilitano l'orientamento in uscita.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dichiarate pongono al centro il **progetto di vita** dello studente e lo sviluppo delle **attitudini personali**. Gli obiettivi sono allineati alle Linee Guida nazionali, puntando con decisione sulla prevenzione della dispersione scolastica attraverso il monitoraggio costante e il potenziamento del metodo di studio.\n\n#### 2.4 Governance e Azioni di Sistema\nLa governance dell'orientamento è affidata a figure di coordinamento che gestiscono il flusso di informazioni tra scuola, famiglie e territorio. Si nota un'attenzione particolare all'**inclusione scolastica** e al supporto degli alunni con **bisogni educativi speciali**, integrando i servizi socio-sanitari nelle azioni di sistema.\n\n#### 2.5 Didattica Orientativa\nLa didattica è dichiaratamente **laboratoriale** e orientativa, con un ampio ricorso alla **Didattica Digitale Integrata** come strumento di flessibilità. Le metodologie come il **debate**, la **flipped classroom** e l'**apprendimento cooperativo** sono citate come basi per lo sviluppo di competenze trasversali.\n\n#### 2.6 Opportunità Formative\nL'offerta è ampliata da numerose iniziative pomeridiane che spaziano dalle certificazioni linguistiche (**B1, B2**) a quelle informatiche (**ICDL**), includendo anche laboratori di **Interior Design**, **Fumetto** e **Scrittura Creativa**, che permettono agli studenti di esplorare ambiti professionali diversi.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 PCTO Liceo Scientifico\nIl percorso coinvolge le classi terze e quarte in attività di stage e formazione pratica presso realtà produttive del territorio. Gli ambiti variano dalla **cultura** alla **pedagogia** e alla **medicina**, con l'obiettivo di favorire la scoperta di sé e lo sviluppo di capacità relazionali in contesti lavorativi reali.\n\n#### 2.7.2 Orientamento Universitario Personalizzato\nPer gli studenti del quinto anno, i PCTO si evolvono in un percorso di orientamento universitario su misura. L'attività prevede il confronto diretto con le offerte degli Atenei e di altre istituzioni culturali, aiutando i diplomandi a compiere una scelta post-diploma consapevole e coerente con i propri interessi.\n\n#### 2.7.3 Studio Guidato\nSi tratta di un servizio pomeridiano di tutoring focalizzato non solo sul recupero disciplinare, ma soprattutto sull'acquisizione di un efficace **metodo di studio** e sulla gestione del tempo. L'iniziativa mira a rafforzare l'autonomia dello studente e a contrastare fenomeni di fragilità scolastica.\n\n#### 2.7.4 Potenziamento Lingua Inglese\nIl progetto prepara gli studenti al conseguimento delle certificazioni internazionali di livello **B1** e **B2**. Attraverso l'uso di laboratori linguistici e metodologie innovative, si potenzia la padronanza di una seconda lingua come strumento fondamentale per l'accesso a percorsi accademici internazionali.\n\n#### 2.7.5 Book Club\nIn collaborazione con la **Libreria UBIK**, questa attività promuove la lettura libera e il confronto critico tra gli studenti. Partecipando alla scelta dei testi, i ragazzi sviluppano competenze comunicative e una maggiore sensibilità culturale in un ambiente informale e stimolante.\n\n#### 2.7.6 Redazione Web - Apprendisti Giornalisti\nGli studenti gestiscono attivamente il sito web della scuola, occupandosi di cronaca scolastica, fotografia e **copywriting**. L'attività permette di acquisire competenze digitali avanzate e rudimenti di **strategie di marketing**, lavorando sulla precisione e correttezza dei messaggi.\n\n#### 2.7.7 Progetto Sportivo Atletica Leggera\nSvolto presso l'impianto **Athlon S. Giuliano** con tecnici federali, il progetto mira alla diffusione della cultura del movimento e di stili di vita attivi. Gli studenti praticano varie discipline dell'atletica leggera, unendo l'educazione fisica allo sviluppo del benessere personale.\n\n### 3. Punti di Forza\nL'istituto dimostra una capacità eccellente di fare rete con il territorio, offrendo partnership di prestigio in settori diversificati. La ricchezza dei laboratori pomeridiani e la chiara distinzione dei percorsi PCTO per diversi indirizzi costituiscono un valore aggiunto significativo per la personalizzazione dell'offerta.\n\n### 4. Aree di Debolezza\nNonostante la ricchezza delle attività, il documento non specifica sempre il monte ore dedicato alle singole iniziative extra-curricolari, rendendo talvolta difficile valutare l'intensità temporale di alcuni laboratori. Il monitoraggio dell'efficacia a lungo termine delle azioni di orientamento è menzionato ma non descritto in modo dettagliato.\n\n### 5. Gap Analysis\nSi riscontra una carenza di informazioni relative ad azioni specifiche per contrastare il fenomeno dei **NEET** in modo diretto, sebbene le azioni di prevenzione della dispersione scolastica possano parzialmente coprire questo aspetto. Sarebbe utile integrare dati più precisi sul follow-up dei diplomati.\n\n### 6. Conclusioni\nL'orientamento presso l'**Istituto G. Parini** appare come un sistema maturo e integrato, che sfrutta efficacemente l'autonomia scolastica per offrire percorsi completi. La transizione tra i gradi di istruzione è ben presidiata, garantendo continuità e supporto costante agli studenti nel loro percorso di crescita umana e professionale."
+}

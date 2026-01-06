@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-05T18:37:30.008466",
+  "last_updated": "2026-01-06T10:44:59.586842",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -6703,6 +6703,1419 @@
       "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/ATTF010529_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/ATTF010529_ptof.md"
+    },
+    "APTFOR5004": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "APTFOR5004_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2026-01-05T19:40:37.700606",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/APTFOR5004_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/APTFOR5004_ptof.md"
+    },
+    "BAMM87901D": {
+      "pdf_hash": "sha256:93972dcfced2f57a4c831166c6d0b5b43a87b072859987707ffb333d6ecca96e",
+      "pdf_name": "BAMM87901D_PTOF.pdf",
+      "pdf_size": 2709273,
+      "analyzed_at": "2026-01-05T19:51:28.855518",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BAMM87901D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BAMM87901D_ptof.md"
+    },
+    "BA1MD7500G": {
+      "pdf_hash": "sha256:edcec2eec2acfd12edf1e42a4b42b4844223759e74c8297579ab94652c97281f",
+      "pdf_name": "BA1MD7500G_PTOF.pdf",
+      "pdf_size": 1787535,
+      "analyzed_at": "2026-01-05T20:21:43.203779",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BA1MD7500G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BA1MD7500G_ptof.md"
+    },
+    "APTE016017": {
+      "pdf_hash": "sha256:a0f1ddfc835b5bdacd37cb8a53823f6ed5b54ad086cba06fe134dd4c76c04874",
+      "pdf_name": "APTE016017_PTOF.pdf",
+      "pdf_size": 2036844,
+      "analyzed_at": "2026-01-05T20:34:31.457115",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/APTE016017_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/APTE016017_ptof.md"
+    },
+    "BAPS029012": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "BAPS029012_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T20:40:34.909816",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BAPS029012_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BAPS029012_ptof.md"
+    },
+    "BATD071018": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "BATD071018_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T20:45:11.466560",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BATD071018_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BATD071018_ptof.md"
+    },
+    "BAPM02000G": {
+      "pdf_hash": "sha256:eb3ba91de18ed9941c1b499a42af099b2539b37e100915b301949f4014a6114e",
+      "pdf_name": "BAPM02000G_PTOF.pdf",
+      "pdf_size": 1837625,
+      "analyzed_at": "2026-01-05T21:07:37.537079",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BAPM02000G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BAPM02000G_ptof.md"
+    },
+    "BAPSV85002": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "BAPSV85002_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T21:11:09.710361",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BAPSV85002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BAPSV85002_ptof.md"
+    },
+    "BATD105005": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "BATD105005_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T21:15:09.986481",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BATD105005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BATD105005_ptof.md"
+    },
+    "BATD665005": {
+      "pdf_hash": "sha256:1d9d523aa28e67da72f066a608a78f797a45f37dff5db561b555887f4fa906a4",
+      "pdf_name": "BATD665005_PTOF.pdf",
+      "pdf_size": 1721241,
+      "analyzed_at": "2026-01-05T21:17:45.531447",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BATD665005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BATD665005_ptof.md"
+    },
+    "BG1E01800A": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "BG1E01800A_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-05T21:18:32.274648",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BG1E01800A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BG1E01800A_ptof.md"
+    },
+    "BGMM818013": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "BGMM818013_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T21:30:31.062733",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BGMM818013_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BGMM818013_ptof.md"
+    },
+    "BNPC008014": {
+      "pdf_hash": "sha256:f8080eec572b107bf2c77b14dcb167478bd6e1afbcf45493b74001d16477a555",
+      "pdf_name": "BNPC008014_PTOF.pdf",
+      "pdf_size": 2560740,
+      "analyzed_at": "2026-01-05T21:42:42.383658",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BNPC008014_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BNPC008014_ptof.md"
+    },
+    "BO1M01200E": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "BO1M01200E_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2026-01-05T21:48:01.367836",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BO1M01200E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BO1M01200E_ptof.md"
+    },
+    "BO1MUE500U": {
+      "pdf_hash": "sha256:85d985785ff84beba0d9f9a2f32036f52570774d9b8e2aa57dfc240fd50e06fd",
+      "pdf_name": "BO1MUE500U_PTOF.pdf",
+      "pdf_size": 1432836,
+      "analyzed_at": "2026-01-05T21:49:28.828174",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BO1MUE500U_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BO1MUE500U_ptof.md"
+    },
+    "BOAA844019": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "BOAA844019_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-05T21:50:54.634643",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BOAA844019_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BOAA844019_ptof.md"
+    },
+    "BOPSHR500B": {
+      "pdf_hash": "sha256:85d985785ff84beba0d9f9a2f32036f52570774d9b8e2aa57dfc240fd50e06fd",
+      "pdf_name": "BOPSHR500B_PTOF.pdf",
+      "pdf_size": 1432836,
+      "analyzed_at": "2026-01-05T21:52:24.258620",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BOPSHR500B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BOPSHR500B_ptof.md"
+    },
+    "BOTD00901G": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "BOTD00901G_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-05T22:00:06.433517",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BOTD00901G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BOTD00901G_ptof.md"
+    },
+    "BRPS00301X": {
+      "pdf_hash": "sha256:076f3cad89a22d258c39d19c6b4feeaf18f86c5b8a57e4bd9dea873bad46c6d1",
+      "pdf_name": "BRPS00301X_PTOF.pdf",
+      "pdf_size": 1611072,
+      "analyzed_at": "2026-01-05T22:01:47.926473",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BRPS00301X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BRPS00301X_ptof.md"
+    },
+    "BTIS05600L": {
+      "pdf_hash": "sha256:f99f0948faf5fe57c086d377dab899ba2c868a6cd1b4ebcb4342fd6615de2e01",
+      "pdf_name": "BTIS05600L_PTOF.pdf",
+      "pdf_size": 6916497,
+      "analyzed_at": "2026-01-05T22:03:08.920033",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BTIS05600L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BTIS05600L_ptof.md"
+    },
+    "BTPS390004": {
+      "pdf_hash": "sha256:3d0949c7574339aee82a5640257c426d57cb34040f71349a7c55373171402a28",
+      "pdf_name": "BTPS390004_PTOF.pdf",
+      "pdf_size": 1848913,
+      "analyzed_at": "2026-01-05T22:10:36.311347",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/BTPS390004_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/BTPS390004_ptof.md"
+    },
+    "CAMM890015": {
+      "pdf_hash": "sha256:988b0602c79e146d0712d563d87cf4f5bb2605cbc3bdb8cbf65c3ef040c60292",
+      "pdf_name": "CAMM890015_PTOF.pdf",
+      "pdf_size": 1525386,
+      "analyzed_at": "2026-01-05T22:15:07.455296",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CAMM890015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CAMM890015_ptof.md"
+    },
+    "CBMM849015": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CBMM849015_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T22:26:14.364334",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CBMM849015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CBMM849015_ptof.md"
+    },
+    "CBMM851015": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CBMM851015_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T22:29:21.598966",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CBMM851015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CBMM851015_ptof.md"
+    },
+    "CBMM853051": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CBMM853051_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T22:32:42.792263",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CBMM853051_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CBMM853051_ptof.md"
+    },
+    "CETB015007": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CETB015007_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T22:35:58.850244",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CETB015007_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CETB015007_ptof.md"
+    },
+    "CHMM812024": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CHMM812024_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T22:38:38.253496",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CHMM812024_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CHMM812024_ptof.md"
+    },
+    "CA1A09600D": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "CA1A09600D_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-05T22:58:51.355536",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CA1A09600D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CA1A09600D_ptof.md"
+    },
+    "CHTD035004": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "CHTD035004_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T23:11:23.086760",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CHTD035004_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CHTD035004_ptof.md"
+    },
+    "CNAA81004D": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "CNAA81004D_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-05T23:12:06.892499",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CNAA81004D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CNAA81004D_ptof.md"
+    },
+    "CNMM86601E": {
+      "pdf_hash": "sha256:1d8f92ada2247ebc56c8028dc9b27d21a9e4c6ed1311a218add9a31d56d253fb",
+      "pdf_name": "CNMM86601E_PTOF.pdf",
+      "pdf_size": 1892730,
+      "analyzed_at": "2026-01-05T23:16:57.801787",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CNMM86601E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CNMM86601E_ptof.md"
+    },
+    "CSMM849036": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "CSMM849036_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-05T23:20:06.028733",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CSMM849036_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CSMM849036_ptof.md"
+    },
+    "CSMM864049": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "CSMM864049_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-05T23:20:43.595872",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CSMM864049_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CSMM864049_ptof.md"
+    },
+    "CSPMMV500S": {
+      "pdf_hash": "sha256:36ef34eadcdcdf9bfea858edcd95571d00ac26cb66b5db512757b225b3aa15e6",
+      "pdf_name": "CSPMMV500S_PTOF.pdf",
+      "pdf_size": 1136813,
+      "analyzed_at": "2026-01-05T23:22:41.837770",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CSPMMV500S_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CSPMMV500S_ptof.md"
+    },
+    "CTMM835019": {
+      "pdf_hash": "sha256:0bd82eb4a95a4146de8c118984d5714b9b43f5a46e50bc33512fbc53b06bffd0",
+      "pdf_name": "CTMM835019_PTOF.pdf",
+      "pdf_size": 2188775,
+      "analyzed_at": "2026-01-05T23:30:46.792707",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/CTMM835019_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/CTMM835019_ptof.md"
+    },
+    "FEIS004001": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "FEIS004001_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-05T23:56:45.048052",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FEIS004001_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FEIS004001_ptof.md"
+    },
+    "FGMM70401G": {
+      "pdf_hash": "sha256:9e2fbbd7af8eabfff9c64f363f1f03ca6f4b60473e945311f0910a2094d339a2",
+      "pdf_name": "FGMM70401G_PTOF.pdf",
+      "pdf_size": 2859387,
+      "analyzed_at": "2026-01-05T23:59:52.725284",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FGMM70401G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FGMM70401G_ptof.md"
+    },
+    "FGMM85801R": {
+      "pdf_hash": "sha256:35244c3f149e5e761faa9f71707f88744f5fe0b4afb11050e21085076b49cc8f",
+      "pdf_name": "FGMM85801R_PTOF.pdf",
+      "pdf_size": 2464948,
+      "analyzed_at": "2026-01-06T00:06:51.078709",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FGMM85801R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FGMM85801R_ptof.md"
+    },
+    "FGRHSR500L": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "FGRHSR500L_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T00:17:24.357720",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FGRHSR500L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FGRHSR500L_ptof.md"
+    },
+    "FI1M02600E": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "FI1M02600E_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2026-01-06T00:23:00.781955",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FI1M02600E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FI1M02600E_ptof.md"
+    },
+    "FIMM86401R": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "FIMM86401R_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-06T00:23:57.516599",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FIMM86401R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FIMM86401R_ptof.md"
+    },
+    "FIPM69500H": {
+      "pdf_hash": "sha256:44c4a95327675fd37339d81bec885af03a11ffe91b95542ffe21ce5a7d0ee35a",
+      "pdf_name": "FIPM69500H_PTOF.pdf",
+      "pdf_size": 6134020,
+      "analyzed_at": "2026-01-06T00:31:09.274264",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FIPM69500H_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FIPM69500H_ptof.md"
+    },
+    "FOPS010028": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "FOPS010028_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T00:33:21.858252",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FOPS010028_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FOPS010028_ptof.md"
+    },
+    "FR1M00100E": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "FR1M00100E_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T00:41:19.636679",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FR1M00100E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FR1M00100E_ptof.md"
+    },
+    "FR1M00200A": {
+      "pdf_hash": "sha256:f896bee994c32404ade05c44e76d31ea24e39fe67da38ec08612b643108bd190",
+      "pdf_name": "FR1M00200A_PTOF.pdf",
+      "pdf_size": 703153,
+      "analyzed_at": "2026-01-06T00:43:33.578803",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FR1M00200A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FR1M00200A_ptof.md"
+    },
+    "FRPS1T500V": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "FRPS1T500V_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T00:52:36.395962",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/FRPS1T500V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/FRPS1T500V_ptof.md"
+    },
+    "GEPMAH500O": {
+      "pdf_hash": "sha256:940e10f92ef3161f8f33bec69d1f44365f8ac52400f7f171a9a2d0bdf0d28d5f",
+      "pdf_name": "GEPMAH500O_PTOF.pdf",
+      "pdf_size": 1817476,
+      "analyzed_at": "2026-01-06T01:02:56.745840",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/GEPMAH500O_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/GEPMAH500O_ptof.md"
+    },
+    "GOTD006511": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "GOTD006511_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T01:19:43.821645",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/GOTD006511_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/GOTD006511_ptof.md"
+    },
+    "IMMM702011": {
+      "pdf_hash": "sha256:0a882b53d2039156e6f1b62754a71c7b18424644fb1ad1d64f2b583827a9eee8",
+      "pdf_name": "IMMM702011_PTOF.pdf",
+      "pdf_size": 1882050,
+      "analyzed_at": "2026-01-06T01:23:17.655729",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/IMMM702011_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/IMMM702011_ptof.md"
+    },
+    "ISTF01601L": {
+      "pdf_hash": "sha256:f074c685f3f210e7f1e0b198bb56fcd3160b7be4cd2ba775e0115fefe5f2adb1",
+      "pdf_name": "ISTF01601L_PTOF.pdf",
+      "pdf_size": 2418878,
+      "analyzed_at": "2026-01-06T01:26:46.475065",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/ISTF01601L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/ISTF01601L_ptof.md"
+    },
+    "LC1M05000X": {
+      "pdf_hash": "sha256:f896bee994c32404ade05c44e76d31ea24e39fe67da38ec08612b643108bd190",
+      "pdf_name": "LC1M05000X_PTOF.pdf",
+      "pdf_size": 703153,
+      "analyzed_at": "2026-01-06T01:29:56.234181",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/LC1M05000X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/LC1M05000X_ptof.md"
+    },
+    "LT1MZZ500E": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "LT1MZZ500E_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T01:37:43.010176",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/LT1MZZ500E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/LT1MZZ500E_ptof.md"
+    },
+    "LU1A011005": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "LU1A011005_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T01:38:16.852972",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/LU1A011005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/LU1A011005_ptof.md"
+    },
+    "MCMM804028": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "MCMM804028_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T01:52:22.978000",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/MCMM804028_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/MCMM804028_ptof.md"
+    },
+    "MCMM812016": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "MCMM812016_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T01:54:24.412278",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/MCMM812016_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/MCMM812016_ptof.md"
+    },
+    "MIMM8FQ02Q": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "MIMM8FQ02Q_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T02:05:38.024424",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/MIMM8FQ02Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/MIMM8FQ02Q_ptof.md"
+    },
+    "MIPC110009": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "MIPC110009_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T02:08:40.811491",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/MIPC110009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/MIPC110009_ptof.md"
+    },
+    "MOTD04500G": {
+      "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
+      "pdf_name": "MOTD04500G_PTOF.pdf",
+      "pdf_size": 1609560,
+      "analyzed_at": "2026-01-06T02:30:46.312858",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/MOTD04500G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/MOTD04500G_ptof.md"
+    },
+    "NA1E21600L": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "NA1E21600L_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T02:32:09.971470",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NA1E21600L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NA1E21600L_ptof.md"
+    },
+    "NA1M26500L": {
+      "pdf_hash": "sha256:144f934b5b9b1d3b077e461890dfe4c2c2f17ebea7825d079d9f0b8e54f5aa64",
+      "pdf_name": "NA1M26500L_PTOF.pdf",
+      "pdf_size": 1691909,
+      "analyzed_at": "2026-01-06T02:34:19.620077",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NA1M26500L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NA1M26500L_ptof.md"
+    },
+    "NAIS10200N": {
+      "pdf_hash": "sha256:26ae53308f9689dbee19ad4b9f3c325ed87eccd9ae9b352cdc653cb8f5046f76",
+      "pdf_name": "NAIS10200N_PTOF.pdf",
+      "pdf_size": 932284,
+      "analyzed_at": "2026-01-06T02:37:17.314750",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAIS10200N_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAIS10200N_ptof.md"
+    },
+    "NAMM8BX012": {
+      "pdf_hash": "sha256:f3a6f4f76787b68d7f1860c254e5195d72bda2f91bc6649be808576ea0b3832b",
+      "pdf_name": "NAMM8BX012_PTOF.pdf",
+      "pdf_size": 1432222,
+      "analyzed_at": "2026-01-06T02:39:22.337704",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAMM8BX012_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAMM8BX012_ptof.md"
+    },
+    "NAMM8E301E": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "NAMM8E301E_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2026-01-06T02:44:51.655044",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAMM8E301E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAMM8E301E_ptof.md"
+    },
+    "NAMM8HN012": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "NAMM8HN012_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2026-01-06T02:45:39.259860",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAMM8HN012_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAMM8HN012_ptof.md"
+    },
+    "NAPS032013": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "NAPS032013_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T02:48:25.286966",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAPS032013_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAPS032013_ptof.md"
+    },
+    "NAPS110002": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "NAPS110002_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T02:50:41.348356",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NAPS110002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NAPS110002_ptof.md"
+    },
+    "NARFA35009": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "NARFA35009_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T02:53:05.831006",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NARFA35009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NARFA35009_ptof.md"
+    },
+    "NATD022018": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "NATD022018_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T02:55:51.260376",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/NATD022018_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/NATD022018_ptof.md"
+    },
+    "PA1MQ8500S": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "PA1MQ8500S_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T03:11:05.681140",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PA1MQ8500S_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PA1MQ8500S_ptof.md"
+    },
+    "PAPC07500N": {
+      "pdf_hash": "sha256:8d7b5a6a5ca83d579bed4ae4f6cd1ca82e33b89e1eb913479c7c8d0886d92811",
+      "pdf_name": "PAPC07500N_PTOF.pdf",
+      "pdf_size": 3048925,
+      "analyzed_at": "2026-01-06T03:19:53.381750",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PAPC07500N_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PAPC07500N_ptof.md"
+    },
+    "PAPLE05003": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "PAPLE05003_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T03:22:27.672939",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PAPLE05003_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PAPLE05003_ptof.md"
+    },
+    "PCMM819037": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "PCMM819037_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T03:24:11.786842",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PCMM819037_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PCMM819037_ptof.md"
+    },
+    "PDAA890012": {
+      "pdf_hash": "sha256:51a9741680d34149ebf7ff767e12005bfa68b1390df3bce6955ae064afbf5827",
+      "pdf_name": "PDAA890012_PTOF.pdf",
+      "pdf_size": 453047,
+      "analyzed_at": "2026-01-06T03:25:50.253608",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PDAA890012_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PDAA890012_ptof.md"
+    },
+    "PDIC890005": {
+      "pdf_hash": "sha256:51a9741680d34149ebf7ff767e12005bfa68b1390df3bce6955ae064afbf5827",
+      "pdf_name": "PDIC890005_PTOF.pdf",
+      "pdf_size": 453047,
+      "analyzed_at": "2026-01-06T03:27:42.148648",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PDIC890005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PDIC890005_ptof.md"
+    },
+    "PEEE807059": {
+      "pdf_hash": "sha256:69c52c6adddd9305e24618141616548d18611cc9d4307c63cf8eb0e20200b584",
+      "pdf_name": "PEEE807059_PTOF.pdf",
+      "pdf_size": 2266006,
+      "analyzed_at": "2026-01-06T03:40:39.423730",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PEEE807059_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PEEE807059_ptof.md"
+    },
+    "PEMM822027": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "PEMM822027_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T03:43:10.122287",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PEMM822027_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PEMM822027_ptof.md"
+    },
+    "PEPS004016": {
+      "pdf_hash": "sha256:e80206d5c2b146cf4e02f426f45e2c88449d32ccbaa3f7685e6b237052716ef1",
+      "pdf_name": "PEPS004016_PTOF.pdf",
+      "pdf_size": 676316,
+      "analyzed_at": "2026-01-06T03:44:53.149099",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PEPS004016_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PEPS004016_ptof.md"
+    },
+    "PETF005003": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "PETF005003_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T03:47:10.542589",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PETF005003_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PETF005003_ptof.md"
+    },
+    "PGMM85801G": {
+      "pdf_hash": "sha256:0864e658d869098ef5dc5ee95baad244bb215308c1653472c969e230bdb3d933",
+      "pdf_name": "PGMM85801G_PTOF.pdf",
+      "pdf_size": 4068141,
+      "analyzed_at": "2026-01-06T04:07:42.713413",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PGMM85801G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PGMM85801G_ptof.md"
+    },
+    "PGPMCG500I": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "PGPMCG500I_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T04:10:33.396096",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PGPMCG500I_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PGPMCG500I_ptof.md"
+    },
+    "POEE820025": {
+      "pdf_hash": "sha256:435d56bbbfbf9ea97c6eeae195b31c78a53011140798d9bebb07299ace306279",
+      "pdf_name": "POEE820025_PTOF.pdf",
+      "pdf_size": 1827883,
+      "analyzed_at": "2026-01-06T04:22:58.366040",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/POEE820025_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/POEE820025_ptof.md"
+    },
+    "POIS00600X": {
+      "pdf_hash": "sha256:20da244100126b026b83e3162c224342b1134f69f0e77338eca6830488ab7110",
+      "pdf_name": "POIS00600X_PTOF.pdf",
+      "pdf_size": 1918604,
+      "analyzed_at": "2026-01-06T04:32:28.234074",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/POIS00600X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/POIS00600X_ptof.md"
+    },
+    "PR1M00900X": {
+      "pdf_hash": "sha256:f896bee994c32404ade05c44e76d31ea24e39fe67da38ec08612b643108bd190",
+      "pdf_name": "PR1M00900X_PTOF.pdf",
+      "pdf_size": 703153,
+      "analyzed_at": "2026-01-06T04:42:53.535181",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PR1M00900X_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PR1M00900X_ptof.md"
+    },
+    "PS1A00200D": {
+      "pdf_hash": "sha256:6c93bcf67f7e91b32cfda2634ba39a7b5a59a247d30af8d511892a41c4dcc648",
+      "pdf_name": "PS1A00200D_PTOF.pdf",
+      "pdf_size": 514470,
+      "analyzed_at": "2026-01-06T04:46:29.418668",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PS1A00200D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PS1A00200D_ptof.md"
+    },
+    "PTIC81900G": {
+      "pdf_hash": "sha256:f2e81c4ac59ae3163782ac6751ec7958873f19db52721d44985dda4f3e569aea",
+      "pdf_name": "PTIC81900G_PTOF.pdf",
+      "pdf_size": 1616022,
+      "analyzed_at": "2026-01-06T04:47:55.850587",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PTIC81900G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PTIC81900G_ptof.md"
+    },
+    "PVAA80403B": {
+      "pdf_hash": "sha256:5adcb39c92ad7f4a497d5fff17693b7cb4b2f7338bbd36212b548bf6d21c1cb0",
+      "pdf_name": "PVAA80403B_PTOF.pdf",
+      "pdf_size": 1480992,
+      "analyzed_at": "2026-01-06T04:57:43.350921",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PVAA80403B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PVAA80403B_ptof.md"
+    },
+    "PZMM85504G": {
+      "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
+      "pdf_name": "PZMM85504G_PTOF.pdf",
+      "pdf_size": 1609560,
+      "analyzed_at": "2026-01-06T04:59:58.694523",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PZMM85504G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PZMM85504G_ptof.md"
+    },
+    "PZSL02701P": {
+      "pdf_hash": "sha256:32d041477ab122e65d58b8abfa6119f9a03d964918e75f51ab739f33c1a15be1",
+      "pdf_name": "PZSL02701P_PTOF.pdf",
+      "pdf_size": 2268901,
+      "analyzed_at": "2026-01-06T05:08:40.388395",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/PZSL02701P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/PZSL02701P_ptof.md"
+    },
+    "RAAA81301E": {
+      "pdf_hash": "sha256:f99f0948faf5fe57c086d377dab899ba2c868a6cd1b4ebcb4342fd6615de2e01",
+      "pdf_name": "RAAA81301E_PTOF.pdf",
+      "pdf_size": 6916497,
+      "analyzed_at": "2026-01-06T05:23:51.600654",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RAAA81301E_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RAAA81301E_ptof.md"
+    },
+    "RAMM82801C": {
+      "pdf_hash": "sha256:2e2a07d2c1e2bcfcb1a5da4223037f924bd7af093423792c2fa879066885f10f",
+      "pdf_name": "RAMM82801C_PTOF.pdf",
+      "pdf_size": 1602809,
+      "analyzed_at": "2026-01-06T05:25:56.724000",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RAMM82801C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RAMM82801C_ptof.md"
+    },
+    "RC1M00300T": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RC1M00300T_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T05:28:21.944205",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RC1M00300T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RC1M00300T_ptof.md"
+    },
+    "RCPC02500G": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "RCPC02500G_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T05:36:30.066781",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RCPC02500G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RCPC02500G_ptof.md"
+    },
+    "RCPM02000L": {
+      "pdf_hash": "sha256:579f0164d129b351bc7c5da4f84efd2245c57903026e799ced0862e3e9663778",
+      "pdf_name": "RCPM02000L_PTOF.pdf",
+      "pdf_size": 1407790,
+      "analyzed_at": "2026-01-06T05:36:58.924770",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RCPM02000L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RCPM02000L_ptof.md"
+    },
+    "RCPM036017": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "RCPM036017_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T05:39:19.869672",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RCPM036017_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RCPM036017_ptof.md"
+    },
+    "RCRH6N5009": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "RCRH6N5009_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T05:47:12.903037",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RCRH6N5009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RCRH6N5009_ptof.md"
+    },
+    "RCTN042017": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "RCTN042017_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T05:50:02.303778",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RCTN042017_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RCTN042017_ptof.md"
+    },
+    "RETDVV500C": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "RETDVV500C_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T05:58:15.136488",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RETDVV500C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RETDVV500C_ptof.md"
+    },
+    "RGAA81801P": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "RGAA81801P_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T05:58:53.769527",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RGAA81801P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RGAA81801P_ptof.md"
+    },
+    "RGEE812011": {
+      "pdf_hash": "sha256:68c06299dd7c0fe0de4fcda21ebd997833aec1be43ccb6d162a5db2cd7418f77",
+      "pdf_name": "RGEE812011_PTOF.pdf",
+      "pdf_size": 538057,
+      "analyzed_at": "2026-01-06T05:59:54.943706",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RGEE812011_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RGEE812011_ptof.md"
+    },
+    "RGIC83600B": {
+      "pdf_hash": "sha256:f2e81c4ac59ae3163782ac6751ec7958873f19db52721d44985dda4f3e569aea",
+      "pdf_name": "RGIC83600B_PTOF.pdf",
+      "pdf_size": 1616022,
+      "analyzed_at": "2026-01-06T06:01:40.019086",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RGIC83600B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RGIC83600B_ptof.md"
+    },
+    "RGIS018002": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "RGIS018002_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T06:03:50.542866",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RGIS018002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RGIS018002_ptof.md"
+    },
+    "RGMM81301Q": {
+      "pdf_hash": "sha256:d3eea9830b02194f5ee5921953d61777e6d2f7f2e11b3c50c4fc86b70d0e9d7c",
+      "pdf_name": "RGMM81301Q_PTOF.pdf",
+      "pdf_size": 1408647,
+      "analyzed_at": "2026-01-06T06:07:24.475560",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RGMM81301Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RGMM81301Q_ptof.md"
+    },
+    "RM1A36000L": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "RM1A36000L_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T06:08:03.688431",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RM1A36000L_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RM1A36000L_ptof.md"
+    },
+    "RM1E11600P": {
+      "pdf_hash": "sha256:98d6fabdc598f7b00a8692cbe963aa41d873966db7d724725ec53581b658729a",
+      "pdf_name": "RM1E11600P_PTOF.pdf",
+      "pdf_size": 425002,
+      "analyzed_at": "2026-01-06T06:09:44.678360",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RM1E11600P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RM1E11600P_ptof.md"
+    },
+    "RM1M03900Q": {
+      "pdf_hash": "sha256:144f934b5b9b1d3b077e461890dfe4c2c2f17ebea7825d079d9f0b8e54f5aa64",
+      "pdf_name": "RM1M03900Q_PTOF.pdf",
+      "pdf_size": 1691909,
+      "analyzed_at": "2026-01-06T06:12:14.267420",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RM1M03900Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RM1M03900Q_ptof.md"
+    },
+    "RMAA812035": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "RMAA812035_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T06:12:49.651765",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMAA812035_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMAA812035_ptof.md"
+    },
+    "RMMM848012": {
+      "pdf_hash": "sha256:e57692ca0fde29b81cd2cffc39860cbb5c72277d4694068e1065fe0558da1cac",
+      "pdf_name": "RMMM848012_PTOF.pdf",
+      "pdf_size": 412545,
+      "analyzed_at": "2026-01-06T06:25:23.419806",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMMM848012_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMMM848012_ptof.md"
+    },
+    "RMMM8A8016": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RMMM8A8016_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T06:27:25.316145",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMMM8A8016_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMMM8A8016_ptof.md"
+    },
+    "RMMM8BZ01D": {
+      "pdf_hash": "sha256:4fd80bc01319d2d88fb782b9c51108a99c0b914c92459ff4f551cf80294d6a6c",
+      "pdf_name": "RMMM8BZ01D_PTOF.pdf",
+      "pdf_size": 1525392,
+      "analyzed_at": "2026-01-06T06:37:46.457067",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMMM8BZ01D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMMM8BZ01D_ptof.md"
+    },
+    "RMMM8GC01P": {
+      "pdf_hash": "sha256:4fd80bc01319d2d88fb782b9c51108a99c0b914c92459ff4f551cf80294d6a6c",
+      "pdf_name": "RMMM8GC01P_PTOF.pdf",
+      "pdf_size": 1525392,
+      "analyzed_at": "2026-01-06T06:38:30.742016",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMMM8GC01P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMMM8GC01P_ptof.md"
+    },
+    "RMMM8GE01A": {
+      "pdf_hash": "sha256:4fd80bc01319d2d88fb782b9c51108a99c0b914c92459ff4f551cf80294d6a6c",
+      "pdf_name": "RMMM8GE01A_PTOF.pdf",
+      "pdf_size": 1525392,
+      "analyzed_at": "2026-01-06T06:39:17.100403",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMMM8GE01A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMMM8GE01A_ptof.md"
+    },
+    "RMPC31000G": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "RMPC31000G_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T06:41:53.966168",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMPC31000G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMPC31000G_ptof.md"
+    },
+    "RMTAPV5005": {
+      "pdf_hash": "sha256:7d305483df6172891dde860f65bb181152c59fe359a81514a6082669cb928050",
+      "pdf_name": "RMTAPV5005_PTOF.pdf",
+      "pdf_size": 3076210,
+      "analyzed_at": "2026-01-06T06:58:51.172570",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/RMTAPV5005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/RMTAPV5005_ptof.md"
+    },
+    "ROTD013013": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "ROTD013013_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T07:01:00.363158",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/ROTD013013_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/ROTD013013_ptof.md"
+    },
+    "SA1E016009": {
+      "pdf_hash": "sha256:67514a63a0128c3e6ed9d9b1f9d316ab1ebcc52b101a5728f254d96d1c1b444f",
+      "pdf_name": "SA1E016009_PTOF.pdf",
+      "pdf_size": 862155,
+      "analyzed_at": "2026-01-06T07:03:03.977374",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SA1E016009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SA1E016009_ptof.md"
+    },
+    "SA1M0B500F": {
+      "pdf_hash": "sha256:f2e81c4ac59ae3163782ac6751ec7958873f19db52721d44985dda4f3e569aea",
+      "pdf_name": "SA1M0B500F_PTOF.pdf",
+      "pdf_size": 1616022,
+      "analyzed_at": "2026-01-06T07:04:34.706979",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SA1M0B500F_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SA1M0B500F_ptof.md"
+    },
+    "SAAA8AA04T": {
+      "pdf_hash": "sha256:cf4bfb34d700f10d4fdee3a4b3be68de858c464fc9124a847db51298abf03739",
+      "pdf_name": "SAAA8AA04T_PTOF.pdf",
+      "pdf_size": 3853932,
+      "analyzed_at": "2026-01-06T07:19:13.087519",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SAAA8AA04T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SAAA8AA04T_ptof.md"
+    },
+    "SAAA8BX04B": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "SAAA8BX04B_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T07:22:26.785034",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SAAA8BX04B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SAAA8BX04B_ptof.md"
+    },
+    "SAMM816034": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "SAMM816034_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T07:31:47.864166",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SAMM816034_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SAMM816034_ptof.md"
+    },
+    "SAMM8CJ036": {
+      "pdf_hash": "sha256:55d7ee2a3f74b386288be0397d52f03c1b89714bb6f388b2379c4cdf62c26025",
+      "pdf_name": "SAMM8CJ036_PTOF.pdf",
+      "pdf_size": 6008849,
+      "analyzed_at": "2026-01-06T07:34:17.629871",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SAMM8CJ036_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SAMM8CJ036_ptof.md"
+    },
+    "SATFIP5005": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "SATFIP5005_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T07:36:21.275514",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SATFIP5005_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SATFIP5005_ptof.md"
+    },
+    "SP1M00200D": {
+      "pdf_hash": "sha256:144f934b5b9b1d3b077e461890dfe4c2c2f17ebea7825d079d9f0b8e54f5aa64",
+      "pdf_name": "SP1M00200D_PTOF.pdf",
+      "pdf_size": 1691909,
+      "analyzed_at": "2026-01-06T07:38:41.933858",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SP1M00200D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SP1M00200D_ptof.md"
+    },
+    "SPIS01100V": {
+      "pdf_hash": "sha256:f99f0948faf5fe57c086d377dab899ba2c868a6cd1b4ebcb4342fd6615de2e01",
+      "pdf_name": "SPIS01100V_PTOF.pdf",
+      "pdf_size": 6916497,
+      "analyzed_at": "2026-01-06T07:39:46.714871",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SPIS01100V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SPIS01100V_ptof.md"
+    },
+    "SPMM82101A": {
+      "pdf_hash": "sha256:96b4ae61685937c4aeba0627660652d3ba3f692cbcf1f0b667a7d4572e547b07",
+      "pdf_name": "SPMM82101A_PTOF.pdf",
+      "pdf_size": 2046335,
+      "analyzed_at": "2026-01-06T07:46:28.464509",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SPMM82101A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SPMM82101A_ptof.md"
+    },
+    "SSPM9L500Q": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "SSPM9L500Q_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T08:04:27.733680",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SSPM9L500Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SSPM9L500Q_ptof.md"
+    },
+    "SSTD09000T": {
+      "pdf_hash": "sha256:6c24abd857385775289188757df7450c14bc3d2551734c0923bc09410eeac59a",
+      "pdf_name": "SSTD09000T_PTOF.pdf",
+      "pdf_size": 1197058,
+      "analyzed_at": "2026-01-06T08:19:15.016292",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SSTD09000T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SSTD09000T_ptof.md"
+    },
+    "SVIS00100P": {
+      "pdf_hash": "sha256:8a15daaeafd2bcc5d8fe3efd0863115f500aac9e84fc3a4b4693ba1ad47fb63b",
+      "pdf_name": "SVIS00100P_PTOF.pdf",
+      "pdf_size": 1904856,
+      "analyzed_at": "2026-01-06T08:25:22.722986",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SVIS00100P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SVIS00100P_ptof.md"
+    },
+    "SVIS00300A": {
+      "pdf_hash": "sha256:e80206d5c2b146cf4e02f426f45e2c88449d32ccbaa3f7685e6b237052716ef1",
+      "pdf_name": "SVIS00300A_PTOF.pdf",
+      "pdf_size": 676316,
+      "analyzed_at": "2026-01-06T08:27:18.955911",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SVIS00300A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SVIS00300A_ptof.md"
+    },
+    "SVPS001015": {
+      "pdf_hash": "sha256:8a15daaeafd2bcc5d8fe3efd0863115f500aac9e84fc3a4b4693ba1ad47fb63b",
+      "pdf_name": "SVPS001015_PTOF.pdf",
+      "pdf_size": 1904856,
+      "analyzed_at": "2026-01-06T08:33:35.091587",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SVPS001015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SVPS001015_ptof.md"
+    },
+    "SVPS030004": {
+      "pdf_hash": "sha256:6217ea76fd8ca2212544f9cbe014bf14c4e3e6f3b887ac927c071a41d5b83b60",
+      "pdf_name": "SVPS030004_PTOF.pdf",
+      "pdf_size": 1856468,
+      "analyzed_at": "2026-01-06T08:36:04.392240",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SVPS030004_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SVPS030004_ptof.md"
+    },
+    "SVTF00301V": {
+      "pdf_hash": "sha256:d3eea9830b02194f5ee5921953d61777e6d2f7f2e11b3c50c4fc86b70d0e9d7c",
+      "pdf_name": "SVTF00301V_PTOF.pdf",
+      "pdf_size": 1408647,
+      "analyzed_at": "2026-01-06T08:39:13.171336",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/SVTF00301V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/SVTF00301V_ptof.md"
+    },
+    "TAPM020008": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "TAPM020008_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-06T08:47:20.116236",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TAPM020008_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TAPM020008_ptof.md"
+    },
+    "TEEE84506Q": {
+      "pdf_hash": "sha256:56cb6f1a39a6af770f12f8d4d88815d2228197945d223fb1e3eba8cfa73f850b",
+      "pdf_name": "TEEE84506Q_PTOF.pdf",
+      "pdf_size": 974944,
+      "analyzed_at": "2026-01-06T08:49:46.917355",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TEEE84506Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TEEE84506Q_ptof.md"
+    },
+    "TO1E05000R": {
+      "pdf_hash": "sha256:185083358dc05de2d497b1d705ee225f24274b3cef91adb53e6e0ab49aebf358",
+      "pdf_name": "TO1E05000R_PTOF.pdf",
+      "pdf_size": 398327,
+      "analyzed_at": "2026-01-06T08:50:22.762310",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TO1E05000R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TO1E05000R_ptof.md"
+    },
+    "TO1M05700R": {
+      "pdf_hash": "sha256:0146141051e8d0f9dd417ac2959ea028cbf1142b4f2e20715d5574c6975e9e81",
+      "pdf_name": "TO1M05700R_PTOF.pdf",
+      "pdf_size": 5489043,
+      "analyzed_at": "2026-01-06T08:59:49.723136",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TO1M05700R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TO1M05700R_ptof.md"
+    },
+    "TOIC830007": {
+      "pdf_hash": "sha256:cccd25a5326a82ebeaa9f2ed8936d786c23279502862d8881e493a3cc147b28e",
+      "pdf_name": "TOIC830007_PTOF.pdf",
+      "pdf_size": 2524668,
+      "analyzed_at": "2026-01-06T09:12:30.305662",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TOIC830007_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TOIC830007_ptof.md"
+    },
+    "TOIS038002": {
+      "pdf_hash": "sha256:d40e6e5e1bba4d71755b735de6315e27f1638bb217c4efe1d970b2e4bb6c8672",
+      "pdf_name": "TOIS038002_PTOF.pdf",
+      "pdf_size": 5065539,
+      "analyzed_at": "2026-01-06T09:19:37.338321",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TOIS038002_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TOIS038002_ptof.md"
+    },
+    "TOMM80601B": {
+      "pdf_hash": "sha256:4589350cb68affc11c526fa7af374c0b8920b3da40cd9f0cdc6d484c06821604",
+      "pdf_name": "TOMM80601B_PTOF.pdf",
+      "pdf_size": 2069780,
+      "analyzed_at": "2026-01-06T09:26:37.288424",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TOMM80601B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TOMM80601B_ptof.md"
+    },
+    "TPAA842029": {
+      "pdf_hash": "sha256:1373c3c2bfd64c9d0a678b2d91958e2980cd3b0fd05691cc9f60fa89ef49189f",
+      "pdf_name": "TPAA842029_PTOF.pdf",
+      "pdf_size": 1827361,
+      "analyzed_at": "2026-01-06T09:33:30.875484",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TPAA842029_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TPAA842029_ptof.md"
+    },
+    "TPEE83304T": {
+      "pdf_hash": "sha256:8428939417f41de71321bf80d08761e6b15f18cbc3106f0f1cc471db72fcac3b",
+      "pdf_name": "TPEE83304T_PTOF_ok.pdf",
+      "pdf_size": 1561904,
+      "analyzed_at": "2026-01-06T09:34:23.445224",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TPEE83304T_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TPEE83304T_ptof.md"
+    },
+    "TPMM83301N": {
+      "pdf_hash": "sha256:8428939417f41de71321bf80d08761e6b15f18cbc3106f0f1cc471db72fcac3b",
+      "pdf_name": "TPMM83301N_PTOF.pdf",
+      "pdf_size": 1561904,
+      "analyzed_at": "2026-01-06T09:35:26.707806",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TPMM83301N_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TPMM83301N_ptof.md"
+    },
+    "TPTD075004": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "TPTD075004_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T09:38:00.478226",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TPTD075004_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TPTD075004_ptof.md"
+    },
+    "TRMM816015": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "TRMM816015_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T09:40:41.787366",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TRMM816015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TRMM816015_ptof.md"
+    },
+    "TRPS020009": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "TRPS020009_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T09:43:21.893396",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TRPS020009_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TRPS020009_ptof.md"
+    },
+    "TVAA88001D": {
+      "pdf_hash": "sha256:a0040c0ceb8e6becc354ce38cd77b7dce257cb720ad652a48d97fd23635ea63b",
+      "pdf_name": "TVAA88001D_PTOF.pdf",
+      "pdf_size": 1911081,
+      "analyzed_at": "2026-01-06T09:48:36.893777",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TVAA88001D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TVAA88001D_ptof.md"
+    },
+    "TVPC021018": {
+      "pdf_hash": "sha256:c08e48166d8730357411b45ddf1a0a034a671d030c940cb644251770448391f6",
+      "pdf_name": "TVPC021018_PTOF.pdf",
+      "pdf_size": 1912275,
+      "analyzed_at": "2026-01-06T09:53:34.431765",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TVPC021018_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TVPC021018_ptof.md"
+    },
+    "TVPM4Q500B": {
+      "pdf_hash": "sha256:78a7b90b9084c9a61b5a25350902543863dd7392147173713c9507c2a53cf42a",
+      "pdf_name": "TVPM4Q500B_PTOF.pdf",
+      "pdf_size": 1006688,
+      "analyzed_at": "2026-01-06T09:56:30.501893",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TVPM4Q500B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TVPM4Q500B_ptof.md"
+    },
+    "TVTF023015": {
+      "pdf_hash": "sha256:f2e81c4ac59ae3163782ac6751ec7958873f19db52721d44985dda4f3e569aea",
+      "pdf_name": "TVTF023015_PTOF.pdf",
+      "pdf_size": 1616022,
+      "analyzed_at": "2026-01-06T09:58:08.984287",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/TVTF023015_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/TVTF023015_ptof.md"
+    },
+    "VBSLCH500S": {
+      "pdf_hash": "sha256:b3d96c5aa520564ecf9893b9bee7a6e396aea5a68b5e66d82073fb8d42257214",
+      "pdf_name": "VBSLCH500S_PTOF.pdf",
+      "pdf_size": 921464,
+      "analyzed_at": "2026-01-06T10:03:10.181992",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VBSLCH500S_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VBSLCH500S_ptof.md"
+    },
+    "VEMM839013": {
+      "pdf_hash": "sha256:bca17dd52dff5d56ec457561d7415eeb2f95332ed827b797dc1ab9e84e4f630b",
+      "pdf_name": "VEMM839013_PTOF.pdf",
+      "pdf_size": 1807216,
+      "analyzed_at": "2026-01-06T10:07:20.659701",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VEMM839013_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VEMM839013_ptof.md"
+    },
+    "VEIC81400N": {
+      "pdf_hash": "sha256:24b0f39420008e19c8ad4a2e93901d3f7bf9594adcdc989eee21b8d49568e8b7",
+      "pdf_name": "VENEZIA_VEIC81400N_20251224_134442.pdf",
+      "pdf_size": 193465,
+      "analyzed_at": "2026-01-06T10:08:21.156061",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VEIC81400N_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VEIC81400N_ptof.md"
+    },
+    "VEPC050007": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "VEPC050007_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T10:10:38.020104",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VEPC050007_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VEPC050007_ptof.md"
+    },
+    "VEPS00500C": {
+      "pdf_hash": "sha256:0cb2b88ecfadd67f35ff0f4148af3403ea05a10f279c3939b05b67d966ed86c0",
+      "pdf_name": "VEPS00500C_PTOF.pdf",
+      "pdf_size": 1887539,
+      "analyzed_at": "2026-01-06T10:23:50.758388",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VEPS00500C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VEPS00500C_ptof.md"
+    },
+    "VEPS04000Q": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "VEPS04000Q_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T10:32:13.006153",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VEPS04000Q_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VEPS04000Q_ptof.md"
+    },
+    "VRTF00701V": {
+      "pdf_hash": "sha256:7ecb2c67667e8137bf3ceea4ed37d80b822e27d2642097fe6d42bc31dc4b8ad0",
+      "pdf_name": "VRTF00701V_PTOF.pdf",
+      "pdf_size": 1070973,
+      "analyzed_at": "2026-01-06T10:34:49.314701",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VRTF00701V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VRTF00701V_ptof.md"
+    },
+    "VT1M00500P": {
+      "pdf_hash": "sha256:dd8280f9837ce65e4441c03839eaf4d760157191a57bb3b647330f615d89aeaf",
+      "pdf_name": "VT1M00500P_PTOF.pdf",
+      "pdf_size": 2965759,
+      "analyzed_at": "2026-01-06T10:43:36.336255",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VT1M00500P_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VT1M00500P_ptof.md"
+    },
+    "VTMM81001N": {
+      "pdf_hash": "sha256:850a4e0f3d89d0ab0d683b8486149d0b9958483d776d95774a0c9a7892199c5e",
+      "pdf_name": "VTMM81001N_PTOF.pdf",
+      "pdf_size": 412536,
+      "analyzed_at": "2026-01-06T10:44:59.586795",
+      "json_path": "/Users/danieledragoni/git/orienta_piu/analysis_results/VTMM81001N_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/Users/danieledragoni/git/orienta_piu/ptof_md/VTMM81001N_ptof.md"
     }
   }
 }

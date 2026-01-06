@@ -62,6 +62,28 @@ make download-strato N=5
 make workflow
 ```
 
+### Parametri workflow
+
+| Parametro | Descrizione | Esempio |
+|-----------|-------------|---------|
+| `PRESET` | ID configurazione LLM (vedi pipeline_config.json) | `PRESET=8` |
+| `FORCE_CODE` | Ri-analizza SOLO una scuola specifica (skip Step 0,1) | `FORCE_CODE=BA1MD7500G` |
+| `SKIP_VALIDATION` | Salta validazione PTOF (Step -1) | `SKIP_VALIDATION=1` |
+| `PROVIDER` | Provider LLM (ollama, openai, openrouter) | `PROVIDER=openrouter` |
+| `MODEL` | Modello da usare per tutti gli agenti | `MODEL=gemma3:27b` |
+
+**Esempi:**
+```bash
+# Analisi con OpenRouter Gemini
+make workflow PRESET=8
+
+# Ri-analisi singola scuola (più veloce)
+make workflow PRESET=8 FORCE_CODE=BA1MD7500G
+
+# Skip validazione per batch veloce
+make workflow PRESET=8 SKIP_VALIDATION=1
+```
+
 Il workflow aspetta se trova ptof_inbox/.download_in_progress.
 Per cambiare il polling: PTOF_DOWNLOAD_WAIT_SECONDS=10.
 

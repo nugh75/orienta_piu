@@ -767,7 +767,7 @@ class BaseAgent:
         self.model = model_name
         self.role = role
 
-    def call_llm(self, prompt, context=""):
+    def call_llm(self, prompt, context="", max_tokens=8192):
         # Construct system prompt and user prompt separately for better compatibility
         system_prompt = f"Sei un {self.role}."
         user_prompt = f"Context: {context}\nUser: {prompt}"
@@ -778,7 +778,7 @@ class BaseAgent:
                 prompt=user_prompt,
                 system_prompt=system_prompt,
                 temperature=0.2,
-                max_tokens=8192
+                max_tokens=max_tokens
             )
             return response
         except Exception as e:
@@ -841,7 +841,7 @@ ANALISI PARZIALI:
 
 JSON UNIFICATO:"""
         
-        return self.call_llm(synthesis_prompt)
+        return self.call_llm(synthesis_prompt, max_tokens=1000000)
 
 class ReviewerAgent(BaseAgent):
     def __init__(self):
@@ -882,7 +882,7 @@ class RefinerAgent(BaseAgent):
             return None
         
         prompt = prompt_template.replace("{{DRAFT_REPORT}}", str(draft_report)).replace("{{CRITIQUE}}", str(critique))
-        return self.call_llm(prompt)
+        return self.call_llm(prompt, max_tokens=1000000)
 
 class NarrativeAgent(BaseAgent):
     def __init__(self):
@@ -901,7 +901,7 @@ class NarrativeAgent(BaseAgent):
                 "Titolo: # Analisi del PTOF {{SCHOOL_CODE}}."
             )
         prompt = prompt_template.replace("{{SCHOOL_CODE}}", str(school_code))
-        return self.call_llm(prompt, context=json.dumps(analysis_json, ensure_ascii=False, indent=2))
+        return self.call_llm(prompt, context=json.dumps(analysis_json, ensure_ascii=False, indent=2), max_tokens=1000000)
 
 
 def sanitize_json(text):
@@ -1082,7 +1082,8 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         narrative_text = draft_json.get('narrative', '') or ""
         if narrative_text:
             narrative_for_review = narrative_text
-    except Exception:
+    except Exception as e:
+        logging.warning(f"[Pipeline] Draft JSON parsing failed (possibly truncated): {e}")
         pass
 
     # 2. Critique

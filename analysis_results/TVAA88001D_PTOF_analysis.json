@@ -1,0 +1,1283 @@
+{
+  "metadata": {
+    "school_id": "TVAA88001D",
+    "denominazione": "Scuola Dell'Infanzia Chiarano",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Chiarano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Treviso",
+    "regione": "Veneto",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via G. Marconi 16",
+    "cap": "31040",
+    "email": "tvic88000l@istruzione.it",
+    "pec": "tvic88000l@pec.istruzione.it",
+    "website": "www.icgorgo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Non è presente una sezione specificamente dedicata all'Orientamento. L'argomento è trattato in modo trasversale in diverse parti del PTOF, tra cui il Piano di Miglioramento, le iniziative di ampliamento dell'offerta formativa e la valutazione degli apprendimenti, ma manca un capitolo autonomo."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Enti Locali",
+        "ProgettoPedibus - Scuola Primaria di Mansuè",
+        "associazioni sportive",
+        "associazioni musicali",
+        "pro loco",
+        "Protezione Civile",
+        "comitati e gruppi spontanei di genitori",
+        "scuole dell'infanzia paritarie",
+        "Rete di Ambito 14 “Treviso Est”",
+        "Rete di coordinamento interscolastico",
+        "Rete inclusione alunni stranieri e con disagio socio-culturale",
+        "Rete C.T.I. San Polo di Piave",
+        "Rete C.T.I. Treviso Nord",
+        "Rete Orient For - I.C. San Polo di Piave",
+        "Rete DPO - Istituto capofila I.T. \"J. Sansovino\"",
+        "Biblioteche comunali",
+        "Società sportive del territorio",
+        "ULSS 2",
+        "Avis",
+        "Polizia locale",
+        "Associazioni del territorio",
+        "servizi socio-sanitari ed educativi del territorio",
+        "associazioni del settore",
+        "GLIR/GIT/Scuole polo per l’inclusione territoriale"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "note": "Valorizzare le potenzialità di alunni con particolari attitudini attraverso attività mirate e il riconoscimento delle eccellenze."
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "note": "Considerazione delle potenzialità e delle difficoltà del soggetto, promuovendo lo sviluppo degli apprendimenti attraverso la comunicazione, la socializzazione e la relazione interpersonale, con un'attenzione specifica agli interessi individuali."
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "note": "Elaborazione di un'ipotesi di progetto di vita compatibile con le potenzialità e le difficoltà proprie del soggetto, orientando le scelte future."
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "note": "Implementazione di un curricolo verticale per garantire un percorso formativo unitario, graduale e coerente dai tre ai 14 anni, facilitando le transizioni tra i diversi ordini di scuola."
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "note": "Definizione e attuazione di un sistema di orientamento efficace, volto a supportare gli studenti nelle scelte consapevoli del proprio percorso formativo e professionale."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5,
+        "note": "Attivazione di strategie mirate alla prevenzione e al contrasto della dispersione scolastica, con l'obiettivo di ridurre significativamente i tassi di abbandono."
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5,
+        "note": "Garantire la continuità educativa attraverso un curricolo verticale che assicuri un percorso formativo unitario e coerente dai tre ai 14 anni, in sinergia con il territorio."
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0,
+        "note": "Non sono state individuate azioni specifiche o obiettivi dedicati al contrasto del fenomeno NEET (Not in Education, Employment, or Training)."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5,
+        "note": "Stimolare negli studenti la curiosità e la motivazione ad approfondire, recuperare, consolidare conoscenze e sviluppare capacità di ricerca autonoma, promuovendo un approccio all'apprendimento continuo e permanente."
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5,
+        "note": "Promozione di un'azione congiunta e integrata tra le diverse componenti della comunità scolastica e con i servizi territoriali, basata su obiettivi, procedure e modalità operative condivise."
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5,
+        "note": "Implementazione di un dialogo costruttivo tra docenti e studenti, caratterizzato da feedback tempestivi sulle prestazioni, comunicazione efficace (via mail/telefonica) e promozione della partecipazione attiva degli studenti alla definizione dei propri percorsi di apprendimento."
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5,
+        "note": "Rafforzamento del rapporto scuola-famiglia attraverso il coinvolgimento attivo dei genitori nella valutazione e nei percorsi educativi (PEI/PDP), una comunicazione costante (via mail/telefonica) e la segnalazione tempestiva di criticità o progressi."
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5,
+        "note": "Utilizzo sistematico di strumenti di osservazione e monitoraggio dei processi di apprendimento e delle azioni didattiche per valutarne l'efficacia e apportare eventuali correzioni."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5,
+        "note": "Attuazione di un sistema integrato per l'inclusione e il supporto alle fragilità, attraverso progetti specifici per l'inclusione scolastica, l'istruzione domiciliare, il contrasto al bullismo/cyberbullismo, il potenziamento delle competenze e il supporto agli studenti con difficoltà."
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5,
+        "note": "Valorizzazione delle esperienze pregresse degli studenti, tenendo conto delle risorse umane e tecniche disponibili anche a livello familiare, per costruire percorsi di apprendimento significativi."
+      },
+      "didattica_laboratoriale": {
+        "score": 5,
+        "note": "Ampio utilizzo di metodologie laboratoriali (es. Disegno, Informatica, Musica) e di spazi dedicati come l'Aula Polifunzionale per promuovere un apprendimento attivo e pratico."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4,
+        "note": "Promozione della personalizzazione e flessibilità dei percorsi formativi, con un'attenzione crescente alla riconfigurazione degli spazi di apprendimento e alla gestione flessibile dei tempi didattici per rispondere alle esigenze individuali."
+      },
+      "didattica_interdisciplinare": {
+        "score": 5,
+        "note": "Attuazione sistematica di unità di apprendimento verticali e interdisciplinari per favorire una visione organica dei saperi e sviluppare competenze trasversali."
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5,
+        "note": "Offerta diversificata di attività culturali, tra cui potenziamento umanistico, socio-economico e per la legalità, educazione interculturale, alla pace, alla solidarietà, cura dei beni comuni, rispetto della legalità, sostenibilità ambientale e valorizzazione del patrimonio culturale."
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5,
+        "note": "Proposte laboratoriali focalizzate sulle discipline artistiche ed espressive, come Disegno e Musica, per lo sviluppo della creatività e delle abilità pratiche."
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2,
+        "note": "Presenza di attività con valenza ludico-ricreativa, come la 'Maratona della lettura' e le 'Letture Animate', spesso in collaborazione con le biblioteche comunali, sebbene non strutturate come opzionali specifici."
+      },
+      "opzionali_volontariato": {
+        "score": 2,
+        "note": "Inclusione di iniziative legate al volontariato, come il 'ProgettoPedibus' della Scuola Primaria di Mansuè, che evidenzia una collaborazione con enti locali per servizi alla comunità."
+      },
+      "opzionali_sportive": {
+        "score": 3,
+        "note": "Attività sportive promosse attraverso il potenziamento motorio e la collaborazione con le società sportive del territorio, che offrono accesso a strutture sportive comunali e attività propedeutiche."
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "ProgettoPedibus",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Iniziativa di volontariato promossa in collaborazione con gli Enti Locali per garantire il trasporto scolastico degli alunni della Scuola Primaria di Mansuè, promuovendo la mobilità sostenibile e la sicurezza.",
+      "target": "Studenti Scuola Primaria di Mansuè"
+    },
+    {
+      "titolo_attivita": "Progetto di “Istruzione Domiciliare”",
+      "categoria_principale": "Supporto agli studenti",
+      "descrizione_e_metodologia": "Attivazione di percorsi didattici personalizzati per alunni impossibilitati a frequentare la scuola in presenza a causa di particolari situazioni di disagio fisico o socio-sanitario, garantendo il diritto allo studio.",
+      "target": "Alunni con particolari situazioni di disagio"
+    },
+    {
+      "titolo_attivita": "Avviso Pon “Reti cablate e wireless nelle scuole”",
+      "categoria_principale": "Innovazione tecnologica",
+      "descrizione_e_metodologia": "Adesione a bando PON per il miglioramento e l'ammodernamento delle infrastrutture di rete (cablaggio LAN e connettività wireless) al fine di potenziare l'accesso alle risorse digitali e supportare la didattica innovativa.",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Avviso Pon “Monitor Interattivi”",
+      "categoria_principale": "Innovazione tecnologica",
+      "descrizione_e_metodologia": "Adesione a bando PON per l'acquisizione di monitor interattivi da installare nelle aule, al fine di rendere la didattica più coinvolgente, interattiva e multimediale.",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Avviso Pon “Ambienti Didattici Innovativi per la scuola dell’Infanzia”",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Adesione a bando PON finalizzato alla creazione e all'allestimento di ambienti di apprendimento innovativi e flessibili all'interno della Scuola dell'Infanzia, promuovendo metodologie didattiche attive.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Avviso PON Edugreen",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Adesione a bando PON per la realizzazione di progetti di educazione ambientale, volti a sensibilizzare gli studenti sull'importanza della sostenibilità, del rispetto per l'ambiente e della cittadinanza ecologica.",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Bando Stem",
+      "categoria_principale": "Didattica STEM",
+      "descrizione_e_metodologia": "Adesione a bando ministeriale per promuovere l'insegnamento e l'apprendimento delle discipline STEM (Scienza, Tecnologia, Ingegneria, Matematica) attraverso attività didattiche innovative e laboratoriali.",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Miglioramento risultati scolastici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Obiettivo di ridurre la percentuale di studenti con votazione medio-bassa e incrementare quella degli studenti con votazione medio-alta, attraverso interventi mirati di recupero e potenziamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Allineamento risultati prove standardizzate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ridurre la varianza dei punteggi ottenuti nelle prove standardizzate tra le diverse classi, allineandoli al punteggio medio regionale, al fine di garantire equità formativa.",
+      "target": "Classi"
+    },
+    {
+      "titolo_attivita": "Monitoraggio percorso scolastico successivo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Implementazione di una rete di comunicazione tra scuola primaria, secondaria di primo grado e istituti superiori per monitorare l'efficacia del consiglio orientativo e incrementare la corrispondenza tra le scelte degli studenti e il loro percorso scolastico successivo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aggiornamento del curricolo d'Istituto in funzione delle finalità previste dal Piano Scuola 4.0",
+      "categoria_principale": "Curricolo, progettazione e valutazione",
+      "descrizione_e_metodologia": "Revisione e aggiornamento del Curricolo d'Istituto in linea con i principi del DigComp 2 e le direttive del Piano Scuola 4.0, coinvolgendo docenti e commissioni per integrare le competenze digitali e le metodologie innovative.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di ambienti di apprendimento innovativi",
+      "categoria_principale": "Ambiente di apprendimento",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di spazi didattici flessibili e tecnologicamente attrezzati, che integrino pedagogia, tecnologia e design per favorire metodologie didattiche attive e collaborative.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione e utilizzo di strumenti per la valutazione e l’autovalutazione formativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo e impiego di strumenti diversificati per la valutazione formativa (es. compiti autentici, prove di realtà, rubriche, schede di autovalutazione) al fine di monitorare i progressi degli studenti e promuovere la consapevolezza del proprio apprendimento.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Strutturazione dell'orario in funzione degli interventi di recupero, consolidamento e di potenziamento per classi aperte o per gruppi di alunni.",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Riorganizzazione dell'orario scolastico per consentire interventi mirati di recupero, consolidamento e potenziamento, attraverso la creazione di classi aperte o gruppi di lavoro flessibili.",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Organizzazione di attività finalizzate alla rilevazione precoce degli alunni con BES.",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Implementazione di procedure per l'individuazione precoce degli alunni con Bisogni Educativi Speciali (BES), seguita dalla progettazione di moduli di recupero/potenziamento e dall'adozione di metodologie didattiche inclusive come l'apprendimento collaborativo e la laboratorialità.",
+      "target": "Studenti, Docenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Interventi di prevenzione del bullismo e del cyberbullismo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di programmi e attività specifiche per la prevenzione e il contrasto dei fenomeni di bullismo e cyberbullismo, coinvolgendo attivamente studenti, docenti, personale ATA e famiglie.",
+      "target": "Docenti, ATA, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Monitoraggio percorso scolastico successivo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione di una rete di comunicazione efficace tra scuola primaria, secondaria di primo grado e istituti superiori per monitorare il percorso scolastico degli studenti dopo il primo ciclo, al fine di migliorare l'orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica orientante delle discipline",
+      "categoria_principale": "Didattica Orientativa",
+      "descrizione_e_metodologia": "Promozione di una didattica che espliciti la valenza orientativa intrinseca delle discipline, integrata in progettazioni interdisciplinari e valorizzata da una valutazione formativa.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale scolastico",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Organizzazione di percorsi formativi mirati per il personale docente e ATA, finalizzati al miglioramento delle competenze professionali e all'efficacia dell'azione educativa dell'intera comunità scolastica.",
+      "target": "Docenti, ATA, Genitori"
+    },
+    {
+      "titolo_attivita": "Unità di apprendimento verticali e interdisciplinari",
+      "categoria_principale": "Didattica Orientativa",
+      "descrizione_e_metodologia": "Sviluppo e attuazione di unità di apprendimento che attraversano i diversi segmenti scolastici (verticali) e le discipline (interdisciplinari), con l'obiettivo di diffondere la cultura dell'orientamento e della valutazione formativa.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Enti Locali e realtà territoriali",
+      "categoria_principale": "Integrazione Territoriale",
+      "descrizione_e_metodologia": "Intensificazione della collaborazione con gli Enti Locali e le diverse realtà del territorio per creare sinergie efficaci e sviluppare un'offerta formativa rispondente alle esigenze della comunità.",
+      "target": "Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Profilo delle competenze al termine del primo ciclo di istruzione",
+      "categoria_principale": "Profilo Competenze",
+      "descrizione_e_metodologia": "Definizione del profilo dello studente al termine del primo ciclo, evidenziando la sua capacità di affrontare autonomamente le sfide della vita, di riflettere sulla propria identità, di interagire con gli altri nel rispetto delle diversità, di interpretare la realtà e di contribuire al bene comune.",
+      "target": "Studenti del primo ciclo di istruzione"
+    },
+    {
+      "titolo_attivita": "Curricolo d'Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione del Curricolo d'Istituto che delinea i percorsi didattico-formativi in coerenza con le Indicazioni Nazionali, focalizzandosi sul raggiungimento dei traguardi per lo sviluppo delle competenze chiave.",
+      "target": "Alunni della Scuola dell'Infanzia e del primo ciclo d'istruzione"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di un Curricolo Verticale di istituto per assicurare un percorso formativo unitario, graduale e progressivo dai 3 ai 14 anni, definendo nuclei tematici e traguardi specifici per ogni segmento scolastico.",
+      "target": "Alunni dai 3 ai 14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Promozione attiva del senso di legalità e di un'etica della responsabilità, incoraggiando gli studenti a elaborare idee e azioni concrete per il miglioramento del proprio contesto di vita, a partire dalla scuola.",
+      "target": "Alunni della scuola dell'infanzia e del primo ciclo d'istruzione"
+    },
+    {
+      "titolo_attivita": "Curricolo implicito - scuola dell'infanzia",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Valorizzazione dell'organizzazione degli spazi e dei tempi come strumento educativo implicito, volto a promuovere esperienze e esplorazioni che guidino l'azione educativo-didattica in modo organico.",
+      "target": "Bambini della scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Curricolo d'Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Definizione dei percorsi didattico-formativi in linea con le Indicazioni Nazionali 2012, con un focus sulla selezione di informazioni essenziali e sulla creazione di ambienti di apprendimento stimolanti per la cittadinanza attiva.",
+      "target": "Alunni Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Curricolo Verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di un percorso formativo unitario, graduale e coerente dai 3 ai 14 anni, che colleghi i campi di esperienza della scuola dell'infanzia alle discipline dei cicli successivi, definendo traguardi chiari.",
+      "target": "Alunni dai 3 ai 14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Sviluppo del senso di legalità e di un'etica della responsabilità, incoraggiando gli studenti a elaborare idee e a promuovere azioni per migliorare il proprio contesto di vita.",
+      "target": "Alunni Scuola dell'Infanzia e primo ciclo"
+    },
+    {
+      "titolo_attivita": "Curricolo implicito - Scuola dell'Infanzia",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Sfruttamento del valore educativo dell'organizzazione degli spazi e dei tempi per favorire un apprendimento derivante dall'esperienza in un ambiente strutturato e stimolante.",
+      "target": "Alunni Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione del Curricolo d’Istituto basato sulle Indicazioni Nazionali 2012 e sui nuovi scenari educativi, con particolare attenzione alla cittadinanza attiva e alle competenze chiave europee.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale di istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Definizione di un percorso formativo unitario (3-14 anni), graduale e coerente, allineato alle Indicazioni Nazionali 2012 e alle Competenze chiave europee, strutturato per nuclei tematici e traguardi specifici.",
+      "target": "Alunni Scuola dell'Infanzia, Primaria, Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Formazione di cittadini responsabili e attivi attraverso lo sviluppo del senso di legalità e un'etica della responsabilità, con focus sul miglioramento del contesto scolastico e personale.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano - Lingua 2 (per alunni stranieri)",
+      "categoria_principale": "Lingua Italiana L2",
+      "descrizione_e_metodologia": "Progettazione di interventi didattici personalizzati e individualizzati per studenti non italofoni, basati su traguardi di competenza, strutture linguistiche e abilità definite per i livelli A1-A2.",
+      "target": "Alunni stranieri non italofoni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curricolo d'Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione del Curricolo d’Istituto in linea con le Indicazioni Nazionali 2012, con enfasi sulla cittadinanza attiva e sul raggiungimento dei traguardi per lo sviluppo delle competenze.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di un percorso formativo unitario, graduale e coerente dai 3 ai 14 anni, allineato alle Indicazioni Nazionali 2012 e alle Competenze chiave europee.",
+      "target": "Alunni Scuola dell'Infanzia, Primaria, Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Costruzione del senso di legalità e sviluppo di un'etica della responsabilità per formare cittadini consapevoli e attivi.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2",
+      "categoria_principale": "Integrazione Linguistica",
+      "descrizione_e_metodologia": "Sviluppo di percorsi formativi efficaci per studenti non italofoni, declinati per traguardi di competenza, strutture linguistiche e abilità (livelli A1 e A2).",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo di scuola",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Elaborazione del Curricolo d’Istituto focalizzato sui percorsi didattico-formativi in linea con le Indicazioni Nazionali, con attenzione alla selezione di informazioni essenziali e alla creazione di ambienti di apprendimento per la cittadinanza attiva.",
+      "target": "Alunni scuola dell'infanzia e primo ciclo d'istruzione"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di un Curricolo Verticale di istituto per garantire un percorso formativo unitario, graduale e progressivo dai 3 ai 14 anni, definendo nuclei tematici e traguardi specifici per ogni segmento scolastico.",
+      "target": "Alunni dai 3 ai 14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Sviluppo del senso di legalità e di un'etica della responsabilità, incoraggiando gli studenti a elaborare idee e a promuovere azioni finalizzate al miglioramento del proprio contesto di vita.",
+      "target": "Alunni scuola dell'infanzia e primo ciclo d'istruzione"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2 (L2)",
+      "categoria_principale": "Lingua Italiana L2",
+      "descrizione_e_metodologia": "Elaborazione di un 'Curricolo per alunni stranieri' declinato per traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2, per interventi didattici mirati ai bisogni formativi degli studenti non italofoni.",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Percorsi didattico-formativi correlati alle finalità e agli indirizzi delle Indicazioni Nazionali 2012, con focus sulla cittadinanza attiva e sui traguardi per lo sviluppo delle competenze, rivolti agli alunni della Scuola Secondaria di I Grado.",
+      "target": "Alunni Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo dell'insegnamento trasversale di educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Implementazione dell'insegnamento trasversale di Educazione Civica, con un monte ore annuale dedicato (33 ore per le classi I, II, III della Scuola Secondaria di I Grado).",
+      "target": "Alunni Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo Verticale",
+      "descrizione_e_metodologia": "Garantire un percorso formativo unitario dai tre ai 14 anni, graduale e coerente, attraverso la progettazione dai campi di esperienza alle discipline, con nuclei tematici e traguardi definiti per ogni segmento scolastico.",
+      "target": "Alunni Scuola dell'Infanzia, Primaria e Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Cittadinanza e Costituzione",
+      "descrizione_e_metodologia": "Costruzione del senso di legalità e sviluppo di un'etica della responsabilità, volta ad aiutare gli studenti a interiorizzare le norme e a impegnarsi per il loro miglioramento.",
+      "target": "Alunni Scuola dell'Infanzia e Primo Ciclo"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2",
+      "categoria_principale": "Italiano L2",
+      "descrizione_e_metodologia": "Individualizzazione e personalizzazione degli interventi didattici per rispondere ai bisogni formativi degli studenti non italofoni, con percorsi declinati per traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo Verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Assicurare un percorso formativo unitario, graduale, coerente, continuo e progressivo dai 3 ai 14 anni, in riferimento alle competenze da acquisire e ai traguardi attesi.",
+      "target": "Alunni dai 3 ai 14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Sviluppo del senso di legalità e di un'etica della responsabilità, incoraggiando gli studenti a elaborare idee e a promuovere azioni per il miglioramento del proprio contesto di vita.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2",
+      "categoria_principale": "Integrazione Linguistica",
+      "descrizione_e_metodologia": "Attuazione di interventi didattici mirati ai bisogni formativi degli studenti non italofoni, con percorsi declinati per traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo Scuola Secondaria I Grado",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di percorsi didattico-educativi flessibili e condivisi, in linea con le Indicazioni Nazionali 2012 e i nuovi scenari educativi.",
+      "target": "Studenti Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Garantire un percorso formativo unitario dai 3 ai 14 anni, graduale, coerente, continuo e progressivo, definendo nuclei tematici e traguardi per ogni segmento scolastico.",
+      "target": "Alunni 3-14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Costruzione del senso di legalità e sviluppo di un'etica della responsabilità, promuovendo azioni consapevoli per il miglioramento del contesto di vita scolastico e personale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2 (L2)",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Interventi didattici personalizzati e individualizzati per studenti non italofoni, basati su traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo d’Istituto",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Percorsi didattico-formativi in linea con le Indicazioni Nazionali 2012, con focus sulla cittadinanza attiva e sui traguardi per lo sviluppo delle competenze, rivolti agli alunni della Scuola Secondaria di I Grado.",
+      "target": "Alunni Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo dell'insegnamento trasversale di educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Monte ore annuale dedicato all'insegnamento trasversale di Educazione Civica (33 ore per le classi I, II, III della Scuola Secondaria di I Grado).",
+      "target": "Alunni Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo Verticale",
+      "descrizione_e_metodologia": "Garantire un percorso formativo unitario dai tre ai 14 anni, graduale e coerente, progettando dai campi di esperienza alle discipline, con nuclei tematici e traguardi per ogni segmento scolastico.",
+      "target": "Alunni Scuola dell'Infanzia, Primaria e Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Cittadinanza e Costituzione",
+      "descrizione_e_metodologia": "Costruzione del senso di legalità e sviluppo di un'etica della responsabilità, aiutando gli studenti a interiorizzare le norme e a impegnarsi per migliorarle.",
+      "target": "Alunni Scuola dell'Infanzia e Primo Ciclo"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2",
+      "categoria_principale": "Italiano L2",
+      "descrizione_e_metodologia": "Individualizzazione e personalizzazione degli interventi didattici per studenti non italofoni, con percorsi declinati per traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo Verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Assicurare un percorso formativo unitario, graduale, coerente, continuo e progressivo dai 3 ai 14 anni, in riferimento alle competenze da acquisire e ai traguardi attesi.",
+      "target": "Alunni dai 3 ai 14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Sviluppo del senso di legalità e di un'etica della responsabilità, incoraggiando gli studenti a elaborare idee e a promuovere azioni per il miglioramento del proprio contesto di vita.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2",
+      "categoria_principale": "Integrazione Linguistica",
+      "descrizione_e_metodologia": "Attuazione di interventi didattici mirati ai bisogni formativi degli studenti non italofoni, con percorsi declinati per traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Curricolo Scuola Secondaria I Grado",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione di percorsi didattico-educativi flessibili e condivisi, in linea con le Indicazioni Nazionali 2012 e i nuovi scenari educativi.",
+      "target": "Studenti Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Garantire un percorso formativo unitario dai 3 ai 14 anni, graduale, coerente, continuo e progressivo, definendo nuclei tematici e traguardi per ogni segmento scolastico.",
+      "target": "Alunni 3-14 anni"
+    },
+    {
+      "titolo_attivita": "Curricolo delle competenze chiave di cittadinanza",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Costruzione del senso di legalità e sviluppo di un'etica della responsabilità, promuovendo azioni consapevoli per il miglioramento del contesto di vita scolastico e personale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Curricolo Italiano-Lingua 2 (L2)",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Interventi didattici personalizzati e individualizzati per studenti non italofoni, basati su traguardi di competenza, strutture linguistiche e abilità nei livelli A1 e A2.",
+      "target": "Alunni stranieri non italofoni"
+    },
+    {
+      "titolo_attivita": "Potenziamento Umanistico Socio-economico e per la legalità",
+      "categoria_principale": "Cittadinanza e Legalità",
+      "descrizione_e_metodologia": "Sviluppo di competenze di cittadinanza attiva, educazione interculturale, alla pace e alla solidarietà, con focus sulla cura dei beni comuni, il rispetto dei diritti/doveri e delle differenze, la prevenzione della dispersione e del bullismo, l'inclusione degli alunni BES e la promozione di comportamenti responsabili in ambito legale, ambientale e di sicurezza.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Linguistico",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Valorizzazione e potenziamento delle competenze linguistiche (italiano, inglese, altre lingue UE), inclusa l'alfabetizzazione e il perfezionamento dell'italiano L2 per studenti non madrelingua, in collaborazione con enti locali, comunità e famiglie.",
+      "target": "Tutti gli studenti, studenti non madrelingua"
+    },
+    {
+      "titolo_attivita": "Definizione di un sistema di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Implementazione di un sistema strutturato di orientamento volto a supportare gli studenti nelle scelte consapevoli del proprio percorso formativo e professionale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi individualizzati e personalizzati per alunni con bisogni educativi speciali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Offerta di supporto e percorsi personalizzati per alunni con Bisogni Educativi Speciali (BES), in stretta collaborazione con servizi socio-sanitari, educativi e associazioni di settore, e applicazione delle linee guida per il diritto allo studio degli alunni adottati.",
+      "target": "Alunni con bisogni educativi speciali, alunni adottati"
+    },
+    {
+      "titolo_attivita": "Supporto all'istruzione domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attivazione di azioni di supporto mirate a garantire il diritto all'istruzione per gli studenti che necessitano di istruzione domiciliare.",
+      "target": "Studenti in istruzione domiciliare"
+    },
+    {
+      "titolo_attivita": "Individuazione precoce difficoltà di apprendimento",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Predisposizione di percorsi e interventi specifici per l'individuazione precoce e il supporto agli studenti che manifestano difficoltà di apprendimento.",
+      "target": "Studenti con difficoltà di apprendimento"
+    },
+    {
+      "titolo_attivita": "Utilizzo di strumenti e strategie per compensare difficoltà di apprendimento",
+      "categoria_principale": "Supporto all'apprendimento",
+      "descrizione_e_metodologia": "Implementazione di strumenti compensativi e strategie didattiche efficaci per aiutare gli studenti a superare gli ostacoli nell'apprendimento.",
+      "target": "Studenti con difficoltà di apprendimento"
+    },
+    {
+      "titolo_attivita": "Promozione della partecipazione attiva al processo di crescita",
+      "categoria_principale": "Sviluppo personale",
+      "descrizione_e_metodologia": "Incoraggiare e sostenere gli studenti affinché diventino protagonisti attivi del proprio percorso formativo e della propria crescita personale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Conoscenza dei rischi connessi all'uso delle tecnologie della comunicazione",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione ed educazione sui rischi legati all'uso di Internet e delle tecnologie digitali, promuovendo un utilizzo consapevole e sicuro.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Rispetto delle norme per la sicurezza e la tutela della salute",
+      "categoria_principale": "Educazione alla Salute e Sicurezza",
+      "descrizione_e_metodologia": "Promozione di comportamenti responsabili e consapevoli in materia di sicurezza personale e collettiva, e di tutela della salute propria e altrui.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Rispetto delle norme per la salvaguardia dell'ambiente",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Sensibilizzazione e promozione di comportamenti attenti e responsabili verso la salvaguardia dell'ambiente e la sostenibilità ecologica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Valorizzazione delle potenzialità di alunni con particolari attitudini",
+      "categoria_principale": "Sviluppo Talenti",
+      "descrizione_e_metodologia": "Attività mirate al riconoscimento, alla valorizzazione e al potenziamento delle eccellenze e delle particolari attitudini degli studenti in ambito disciplinare e sociale.",
+      "target": "Alunni con particolari attitudini"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti multimediali per esprimersi e comunicare",
+      "categoria_principale": "Competenze digitali e linguistiche",
+      "descrizione_e_metodologia": "Sviluppo della capacità di utilizzare strumenti multimediali per esprimersi e comunicare efficacemente in lingua italiana e/o lingue comunitarie.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Scrittura creativa con strumenti tecnologici",
+      "categoria_principale": "Competenze digitali e linguistiche",
+      "descrizione_e_metodologia": "Stimolare la creatività nella scrittura attraverso l'uso di diverse forme espressive e strumenti tecnologici, in lingua italiana e/o lingue comunitarie.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Ricerca, organizzazione e rielaborazione informazioni con hardware/software",
+      "categoria_principale": "Competenze digitali e linguistiche",
+      "descrizione_e_metodologia": "Acquisizione di competenze nella ricerca, organizzazione e rielaborazione di informazioni mediante l'uso di hardware e software, in lingua italiana e/o lingue comunitarie.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Ascolto e comprensione brani in lingua italiana/comunitaria",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Sviluppo delle capacità di ascolto e comprensione di brani in lingua italiana e/o nelle lingue comunitarie.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Lettura e comprensione in lingua italiana/comunitaria",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Potenziamento delle abilità di lettura e comprensione del testo in lingua italiana e/o nelle lingue comunitarie.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Percorsi laboratoriali scientifici",
+      "categoria_principale": "Potenziamento scientifico",
+      "descrizione_e_metodologia": "Stimolare la scoperta scientifica e l'educazione alla scienza attraverso percorsi laboratoriali interattivi.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Attività per stimolare curiosità e interesse per discipline matematico-scientifiche",
+      "categoria_principale": "Potenziamento scientifico",
+      "descrizione_e_metodologia": "Attività volte a coltivare la curiosità e l'interesse degli studenti per le discipline matematico-scientifiche.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Attività per recuperare il senso della sfida intellettuale",
+      "categoria_principale": "Potenziamento scientifico",
+      "descrizione_e_metodologia": "Proposte didattiche finalizzate a recuperare il senso della sfida intellettuale e del problem solving, in particolare nelle discipline scientifiche.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Supporto studenti per giochi matematici",
+      "categoria_principale": "Potenziamento scientifico",
+      "descrizione_e_metodologia": "Sostegno agli studenti che desiderano partecipare a competizioni e giochi matematici, promuovendo l'approccio ludico alla disciplina.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Attività per superare timore/inadeguatezza verso la matematica",
+      "categoria_principale": "Potenziamento scientifico",
+      "descrizione_e_metodologia": "Interventi mirati a superare il timore e il senso di inadeguatezza che alcuni alunni provano nei confronti della matematica, attraverso metodologie didattiche innovative e di supporto.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze pratica e cultura musicale",
+      "categoria_principale": "Potenziamento artistico e musicale",
+      "descrizione_e_metodologia": "Sviluppo delle competenze pratiche e della cultura musicale attraverso attività di apprendimento e approfondimento.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze arte e storia dell'arte",
+      "categoria_principale": "Potenziamento artistico e musicale",
+      "descrizione_e_metodologia": "Potenziamento delle competenze nell'ambito artistico e della storia dell'arte, attraverso lo studio e l'analisi di opere e correnti artistiche.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze cinema",
+      "categoria_principale": "Potenziamento artistico e musicale",
+      "descrizione_e_metodologia": "Sviluppo delle competenze relative al linguaggio cinematografico, all'analisi e alla produzione di contenuti audiovisivi.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Potenziamento tecniche e media produzione/diffusione immagini e suoni",
+      "categoria_principale": "Potenziamento artistico e musicale",
+      "descrizione_e_metodologia": "Acquisizione di competenze nelle tecniche e nell'uso dei media per la produzione e la diffusione di immagini e suoni.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione all'arte, tecniche e media produzione/diffusione immagini",
+      "categoria_principale": "Potenziamento artistico e musicale",
+      "descrizione_e_metodologia": "Introduzione all'arte, alle tecniche artistiche e ai media di produzione e diffusione delle immagini.",
+      "target": "Gruppi classe, Classi aperte verticali, Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "SCUOLA FUTURA E",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione specifici per docenti, focalizzati sullo sviluppo di competenze nell'ambito delle metodologie collaborative e sull'uso efficace delle Tecnologie dell'Informazione e della Comunicazione (TIC).",
+      "target": "Docenti di tutto l'Istituto"
+    },
+    {
+      "titolo_attivita": "Valutazione degli apprendimenti",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione degli apprendimenti nella Scuola Secondaria di primo grado, integrata dalla descrizione del processo e del livello globale di sviluppo raggiunto, con attenzione ai progressi, all'autonomia, all'elaborazione delle informazioni e alla risoluzione dei problemi.",
+      "target": "Studenti Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Valutazione dell'insegnamento trasversale di Educazione Civica",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione periodica e finale dell'Educazione Civica, integrata nei criteri disciplinari, con proposta del docente coordinatore basata sugli elementi raccolti dai docenti del team/Consiglio di Classe e sull'uso di rubriche e griglie di osservazione per percorsi interdisciplinari.",
+      "target": "Studenti Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Valutazione del comportamento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Espressione di un giudizio sintetico collegiale sul comportamento degli studenti, riferito all'adesione alle regole, al rispetto di sé, degli altri e dell'ambiente, alla partecipazione al lavoro comune e all'impegno per il benessere collettivo.",
+      "target": "Studenti Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Criteri per l'ammissione/non ammissione alla classe successiva",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Definizione dei criteri per l'ammissione alla classe successiva nella Scuola Secondaria di primo grado, inclusa la possibilità di ammissione anche con valutazioni inferiori a sei decimi in singole discipline, previa valutazione complessiva.",
+      "target": "Studenti Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Criteri per l’ammissione/non ammissione all’esame di Stato",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Definizione dei criteri per l'ammissione all'esame di Stato conclusivo del primo ciclo di istruzione, considerando la frequenza minima e la possibilità di non ammissione in casi di difficoltà rilevanti o percorsi personalizzati non conclusivi.",
+      "target": "Studenti Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Criteri per la valutazione nella Didattica a Distanza",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri di valutazione specifici per la Didattica a Distanza (DaD), con enfasi sulla valutazione formativa, feedback tempestivo, valorizzazione delle risorse familiari, personalizzazione, monitoraggio dei processi e bilanciamento tra presenza e DaD, con riferimento ai PDP/PEI per BES.",
+      "target": "Studenti Scuola Secondaria di primo grado in DaD"
+    },
+    {
+      "titolo_attivita": "Criteri per il monitoraggio e la valutazione (Scuola Primaria e Secondaria di Primo Grado)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri di valutazione basati su presenza, partecipazione, organizzazione del lavoro, comunicazione, completezza del lavoro e progressi nelle conoscenze, abilità e competenze. Per alunni con BES, difficoltà o immigrazione, si considera principalmente la partecipazione e il coinvolgimento.",
+      "target": "Alunni Scuola Primaria e Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione (Scuola dell'Infanzia)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione nella Scuola dell'Infanzia, anche in modalità DaD, basata sulla relazione educativa, documentazione tramite portfolio, partecipazione a videoincontri, svolgimento delle attività e qualità dei prodotti.",
+      "target": "Alunni Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione DaD (PTOF 2022-2025)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri di valutazione per la Didattica a Distanza che includono lo svolgimento delle attività, la qualità del prodotto restituito e la comunicazione, con particolare attenzione al linguaggio utilizzato.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Modalità di richiamo in caso di non partecipazione alla DaD",
+      "categoria_principale": "Monitoraggio e Recupero",
+      "descrizione_e_metodologia": "Procedura strutturata in tre fasi (comunicazione docenti, comunicazione segreteria, intervento Dirigente Scolastica) per gestire la non partecipazione degli alunni alla Didattica a Distanza.",
+      "target": "Alunni non partecipanti alla DaD"
+    },
+    {
+      "titolo_attivita": "Modalità di restituzione agli alunni e alle famiglie",
+      "categoria_principale": "Feedback",
+      "descrizione_e_metodologia": "Sistema di feedback sul percorso di apprendimento fornito agli alunni e alle famiglie tramite comunicazione via mail e restituzione dei lavori valutati con giudizio descrittivo o voto.",
+      "target": "Alunni e Famiglie"
+    },
+    {
+      "titolo_attivita": "Strumenti per la verifica (modalità asincrona)",
+      "categoria_principale": "Verifica e Valutazione",
+      "descrizione_e_metodologia": "Utilizzo di strumenti per la verifica in modalità asincrona, quali restituzione di elaborati (scritti, audio, video), prove pratiche (audio/video) e questionari/test online (es. Google Moduli), con valutazione positiva focalizzata sul processo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Strumenti per la verifica (modalità sincrona)",
+      "categoria_principale": "Verifica e Valutazione",
+      "descrizione_e_metodologia": "Impiego di strumenti per la verifica in modalità sincrona, come esposizioni orali (individuali/gruppo), esercitazioni pratiche e compilazione di questionari/test a tempo, con valutazione positiva focalizzata sul processo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione comuni (Scuola Primaria)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri di valutazione comuni per la Scuola Primaria, integrata da descrizione del processo e del livello di apprendimento. Si considerano progressi, autonomia, elaborazione informazioni e risoluzione problemi.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Valutazione periodica e finale Scuola Primaria",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Espressione di giudizi descrittivi periodici e finali nella Scuola Primaria, riferiti agli obiettivi di apprendimento del curricolo d'Istituto, con livelli di competenza: avanzato, intermedio, base, in via di prima acquisizione.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di screening: “Scrivo, leggo bene”",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di screening per la rilevazione precoce dei disturbi specifici d'apprendimento (DSA) relativi alla letto-scrittura nella Scuola Primaria.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi di prima alfabetizzazione e approfondimento linguistico",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Offerta di percorsi di supporto linguistico per studenti di recente immigrazione (italiano L2) e alunni di origine non italofona.",
+      "target": "Studenti di recente immigrazione"
+    },
+    {
+      "titolo_attivita": "Attività su temi interculturali e valorizzazione delle diversità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promozione di attività volte a valorizzare la diversità culturale come risorsa per il confronto e lo stimolo reciproco.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Monitoraggio e valutazione studenti con difficoltà",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Utilizzo degli strumenti previsti dal PEI, PDP e/o PPT per monitorare e valutare i progressi degli studenti con maggiori difficoltà.",
+      "target": "Studenti con maggiori difficoltà"
+    },
+    {
+      "titolo_attivita": "Potenziamento studenti con particolari attitudini disciplinari in lingua inglese",
+      "categoria_principale": "Didattica Orientativa",
+      "descrizione_e_metodologia": "Organizzazione di corsi pomeridiani per il conseguimento della certificazione A2 KEY in lingua inglese, tenuti da esperti esterni madrelingua.",
+      "target": "Studenti classi terze Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Interventi individualizzati (PEI, PPT, PDP)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progettazione educativo-didattica basata sulla personalizzazione e flessibilità dei percorsi formativi, in accordo con i Piani Educativi Individualizzati (PEI), Piani Terapeutico-Pedagogici (PPT) e Piani Didattici Personalizzati (PDP).",
+      "target": "Studenti con bisogni educativi specifici"
+    },
+    {
+      "titolo_attivita": "Progetti per l'inclusione scolastica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di progetti trasversali ai tre ordini scolastici, focalizzati su istruzione domiciliare, contrasto al bullismo/cyberbullismo, consolidamento della lingua italiana, potenziamento delle abilità logico-matematiche e della lingua inglese.",
+      "target": "Studenti dei tre ordini scolastici"
+    },
+    {
+      "titolo_attivita": "Percorsi per l'accoglienza degli studenti stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Predisposizione di materiali e attività specifiche per l'accoglienza e l'integrazione degli studenti stranieri di recente immigrazione, subordinata alla disponibilità di risorse umane e finanziarie.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Percorsi di lingua italiana per stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attivazione di interventi di potenziamento della lingua italiana per studenti stranieri, in base alle risorse disponibili e ai tempi di erogazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Attività interculturali per studenti stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di attività interculturali mirate per studenti stranieri di recente immigrazione, in base alla disponibilità di risorse e tempi.",
+      "target": "Studenti stranieri di recente immigrazione"
+    },
+    {
+      "titolo_attivita": "Supporto studenti con maggiori difficoltà",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Implementazione di azioni efficaci per supportare gli studenti con maggiori difficoltà, con l'obiettivo di incrementare l'offerta per rispondere alle esigenze del contesto, in particolare in aree svantaggiate.",
+      "target": "Studenti con maggiori difficoltà"
+    },
+    {
+      "titolo_attivita": "Interventi individualizzati (PDP/PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progettazione di interventi individualizzati (PDP/PEI) che richiedono il coinvolgimento attivo dell'intero gruppo classe per garantire un ambiente di apprendimento inclusivo.",
+      "target": "Studenti con bisogni educativi specifici"
+    },
+    {
+      "titolo_attivita": "Classi aperte di consolidamento e potenziamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività di 'classi aperte' per il consolidamento e il potenziamento delle competenze, non realizzate a causa della pandemia, ma che avrebbero contribuito alla valorizzazione delle eccellenze e al recupero delle criticità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Predisposizione del Piano Educativo Individualizzato (PEI) per favorire l'integrazione degli alunni diversamente abili, basato su accordi di programma e azione congiunta su obiettivi, procedure, tempi e modalità.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Attività individualizzate e di piccolo gruppo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Gestione di attività didattiche individualizzate e in piccolo gruppo da parte di docenti di sostegno e assistenti alla comunicazione.",
+      "target": "Studenti con bisogni specifici"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate (classi aperte, laboratori protetti)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Realizzazione di attività laboratoriali integrate, incluse classi aperte e laboratori protetti, gestite da docenti di sostegno e assistenti alla comunicazione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Assistenza alunni disabili",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Fornitura di assistenza agli alunni disabili da parte del personale ATA.",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Analisi del profilo di funzionamento per la definizione del Progetto individuale",
+      "categoria_principale": "Valutazione/Pianificazione",
+      "descrizione_e_metodologia": "Effettuazione dell'analisi del profilo di funzionamento da parte dell'Unità di Valutazione Multidisciplinare per la definizione del Progetto Individuale.",
+      "target": "Soggetti con disabilità/disagio"
+    },
+    {
+      "titolo_attivita": "Procedure condivise di intervento sulla disabilità",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Definizione di procedure condivise di intervento sulla disabilità da parte dell'Unità di Valutazione Multidisciplinare.",
+      "target": "Soggetti con disabilità"
+    },
+    {
+      "titolo_attivita": "Procedure condivise di intervento su disagio e simili",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Definizione di procedure condivise di intervento per situazioni di disagio da parte dell'Unità di Valutazione Multidisciplinare.",
+      "target": "Soggetti con disagio"
+    },
+    {
+      "titolo_attivita": "Procedure condivise di intervento per il Progetto individuale",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Definizione di procedure condivise per la realizzazione del Progetto Individuale da parte delle Associazioni di riferimento.",
+      "target": "Soggetti con bisogni specifici"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Realizzazione di progetti territoriali integrati da parte delle Associazioni di riferimento, in collaborazione con la comunità.",
+      "target": "Comunità territoriale"
+    },
+    {
+      "titolo_attivita": "Accordi di programma/protocolli di intesa formalizzati sulla disabilità",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Stipula di accordi di programma e protocolli d'intesa sulla disabilità con GLIR/GIT/Scuole Polo per l'inclusione territoriale.",
+      "target": "Sistema scolastico e territoriale per l'inclusione"
+    },
+    {
+      "titolo_attivita": "Valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Verifica continua dell'intervento didattico per operare flessibilmente sul PEI, calibrando le richieste in base alle potenzialità e ai livelli iniziali degli alunni.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Continuità e orientamento formativo/lavorativo per studenti con disabilità",
+      "categoria_principale": "Inclusione/Orientamento",
+      "descrizione_e_metodologia": "Affrontare precocemente le problematiche relative alla continuità e all'orientamento formativo/lavorativo per studenti con disabilità, definendo progetti di accoglienza, azioni di tutoraggio e inclusione in collaborazione con le scuole del territorio.",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Percorso didattico personalizzato per DSA",
+      "categoria_principale": "Inclusione/DSA",
+      "descrizione_e_metodologia": "Condivisione e attuazione di percorsi didattici personalizzati per studenti con Disturbi Specifici dell'Apprendimento (DSA), utilizzando strumenti compensativi e misure dispensative per creare un ambiente di apprendimento flessibile.",
+      "target": "Studenti con DSA"
+    },
+    {
+      "titolo_attivita": "Vademecum ruoli, compiti e azioni della comunità educante",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione chiara di ruoli, compiti e azioni all'interno della comunità educante, finalizzati a valorizzare la diversità come opportunità di crescita per tutti.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata (DDI)",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Individuazione di criteri e modalità operative per riprogettare l'attività didattica in modalità DDI, garantendo l'inclusione e rispondendo alle esigenze di tutti gli alunni.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Organigramma e Funzionigramma",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Aggiornamento e integrazione annuale dell'organigramma e del funzionigramma per definire ruoli e funzioni del personale scolastico.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Staff del DS",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Attività dello Staff del Dirigente Scolastico per l'adozione delle azioni previste dal PTOF, la pianificazione della pubblicizzazione dell'offerta formativa e il monitoraggio del Piano di Miglioramento.",
+      "target": "Dirigente Scolastico e Staff"
+    },
+    {
+      "titolo_attivita": "Area coordinamento PTOF",
+      "categoria_principale": "Organizzazione/PTOF",
+      "descrizione_e_metodologia": "Collaborazione al monitoraggio del PTOF e proposta di integrazioni e modifiche da parte dell'Area di Coordinamento PTOF.",
+      "target": "Dirigente Scolastico e Staff"
+    },
+    {
+      "titolo_attivita": "Area prevenzione disagio/inclusione",
+      "categoria_principale": "Organizzazione/Inclusione",
+      "descrizione_e_metodologia": "Coordinamento dei docenti di sostegno nella progettazione e realizzazione di interventi per l'inclusione e l'orientamento degli alunni.",
+      "target": "Docenti di sostegno e alunni"
+    },
+    {
+      "titolo_attivita": "Organico di potenziamento - Scuola primaria",
+      "categoria_principale": "Organico",
+      "descrizione_e_metodologia": "Utilizzo dell'organico di potenziamento nella Scuola Primaria per supportare il Dirigente Scolastico, docenti, progetti di potenziamento linguistico/logico-matematico, diritto allo studio, progetti BES, supporto alle classi (piccolo gruppo/livello) e sostituzione docenti assenti.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Organico di potenziamento - Scuola secondaria di primo grado",
+      "categoria_principale": "Organico",
+      "descrizione_e_metodologia": "Impiego dell'organico di potenziamento nella Scuola Secondaria di primo grado per docenza, progetti di potenziamento linguistico, diritto allo studio, progetti BES, supporto alle classi (piccolo gruppo/livello) e sostituzione docenti assenti.",
+      "target": "Alunni scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Compiti del DSGA",
+      "categoria_principale": "Organizzazione Uffici",
+      "descrizione_e_metodologia": "Gestione delle attività amministrative e contabili di rilevante complessità, sovrintendenza del personale ATA, gestione finanziaria dei progetti, redazione di documenti contabili e inventariali, e altre funzioni delegate.",
+      "target": "Personale scolastico, utenza"
+    },
+    {
+      "titolo_attivita": "Compiti Ufficio Protocollo",
+      "categoria_principale": "Organizzazione Uffici",
+      "descrizione_e_metodologia": "Gestione del protocollo informatico, smistamento della corrispondenza, comunicazione delle scadenze, gestione dei rapporti con i comuni, pubblicazione documentale sul sito web e gestione dell'Albo Istituto.",
+      "target": "Personale scolastico, utenza"
+    },
+    {
+      "titolo_attivita": "Compiti Ufficio Acquisti",
+      "categoria_principale": "Organizzazione Uffici",
+      "descrizione_e_metodologia": "Gestione delle pratiche relative ai viaggi d'istruzione, adempimenti contabili dei progetti PTOF, acquisizione di beni e servizi, gestione dei contratti, emissione di buoni d'ordine e incarichi, gestione dell'inventario e collaborazione contabile con il DSGA.",
+      "target": "Personale scolastico, fornitori"
+    },
+    {
+      "titolo_attivita": "Compiti Ufficio Didattica",
+      "categoria_principale": "Organizzazione Uffici",
+      "descrizione_e_metodologia": "Gestione amministrativa degli alunni (iscrizioni, frequenza, obbligo scolastico, formazione classi), adozione libri di testo, rilascio certificati, gestione fascicoli alunni, corrispondenza con le famiglie e gestione degli esami.",
+      "target": "Alunni, famiglie, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Sviluppo di processi cognitivi, metacognitivi, socio-relazionali ed emotivo-motivazionali attraverso le discipline, utilizzando metodologie come la ricerca-azione e le comunità di pratiche.",
+      "target": "Docenti di scuola primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Cittadinanza digitale e cyberbullismo",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Acquisizione di strumenti per la gestione del bullismo/cyberbullismo e progettazione di percorsi di prevenzione, attraverso laboratori e comunità di pratiche.",
+      "target": "Docenti di scuola primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Sviluppo del pensiero computazionale nei 3 ordini di scuola - il coding",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Costruzione di percorsi didattici per stimolare il problem solving attraverso il coding e il pensiero computazionale, applicabili nei tre ordini di scuola.",
+      "target": "Docenti di scuola infanzia, primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Competenze digitali ed ambienti di apprendimento per una didattica inclusiva",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Potenziamento dell'uso delle tecnologie digitali per la realizzazione di percorsi didattici inclusivi.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Misurare e valutare conoscenze, abilità e competenze",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Costruzione di strumenti per migliorare i processi di insegnamento-apprendimento, attraverso laboratori, social networking e formazione di scuola/rete.",
+      "target": "Docenti di scuola infanzia, primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "L'inclusione scolastica degli alunni con BES: continuità ed orientamento nei percorsi scolastici",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Sviluppo di una comunità di pratiche per l'accompagnamento degli alunni con BES nel loro percorso scolastico, attraverso laboratori, ricerca-azione e formazione di scuola/rete.",
+      "target": "Docenti di scuola infanzia, primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Cittadinanza globale e sviluppo sostenibile",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Progettazione di percorsi educativo-didattici per promuovere competenze di cittadinanza globale e di educazione civica fondate sulla Costituzione, sulla sostenibilità e sulla competenza digitale, in coerenza con l'Agenda 2030.",
+      "target": "Docenti di scuola infanzia, primaria e secondaria di 1° grado"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione della Segreteria",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione sull'utilizzo dei programmi web per la dematerializzazione dei processi amministrativi della segreteria.",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Aggiornamento dei nuovi processi Amministrativo/Contabili",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione sui contratti, le procedure amministrativo-contabili e i controlli aggiornati.",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Aggiornamento dei nuovi processi Amministrativo/Contabili",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione sui contratti, le procedure amministrativo-contabili e i controlli aggiornati per il DSGA.",
+      "target": "Dsga"
+    },
+    {
+      "titolo_attivita": "Formazione specifica sull'assistenza degli alunni",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione specifica per il personale collaboratore scolastico sull'assistenza agli alunni con diverso grado di abilità.",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Formazione per addetti antincendio e primo soccorso",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Formazione per il personale collaboratore scolastico sulla partecipazione alla gestione dell'emergenza e del primo soccorso.",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Classi aperte verticali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di 'classi aperte' che favoriscono la collaborazione tra segmenti scolastici per monitorare il percorso degli studenti e promuovere la continuità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte parallele",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di 'classi aperte' volte a favorire la corrispondenza tra il consiglio orientativo e la scelta della scuola di secondo grado.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Sperimentazione e utilizzo creativo di tecniche artistiche e materiali vari, inclusa la tecnica del fumetto, per la realizzazione di prodotti grafici, plastici e pittorici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori musicali",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Utilizzo della voce, degli strumenti e delle nuove tecnologie per lo studio della musica, con conoscenza e utilizzo di strumenti musicali etnici e esecuzione di brani con strumentario Orff, flauto dolce e tastiera.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento motorio",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti legati a uno stile di vita sano (alimentazione, educazione fisica, sport) e tutela del diritto allo studio per studenti sportivi agonisti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Una LIM per ogni classe",
+      "categoria_principale": "PNSD - Strumenti",
+      "descrizione_e_metodologia": "Installazione di Lavagne Interattive Multimediali (LIM) in ogni classe, con cablaggio interno LAN/W-Lan, per trasformare le aule in laboratori integrati che associano innovazione e creatività.",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Segreteria digitale",
+      "categoria_principale": "PNSD - Amministrazione Digitale",
+      "descrizione_e_metodologia": "Digitalizzazione dei processi amministrativi della segreteria per migliorare l'efficienza e la qualità dei servizi digitali offerti a studenti, famiglie, personale e territorio.",
+      "target": "Territorio, famiglie, studenti, personale"
+    },
+    {
+      "titolo_attivita": "Coding per tutti",
+      "categoria_principale": "PNSD - Competenze e contenuti",
+      "descrizione_e_metodologia": "Implementazione di un percorso didattico focalizzato sulla logica e sul pensiero computazionale attraverso il coding, rivolto a tutti gli alunni della scuola primaria.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Valutazione dell'insegnamento trasversale di educazione civica",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione periodica e finale dell'Educazione Civica secondo la normativa vigente (D. Lgs. 62/2017, DPR 122/2009), con proposta del docente coordinatore basata sugli elementi raccolti dai docenti del team/Consiglio di Classe e sull'uso di rubriche e griglie per percorsi interdisciplinari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Valutazione del comportamento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Giudizio sintetico collegiale sul comportamento degli alunni, basato su adesione alle regole, rispetto per sé, gli altri e l'ambiente, partecipazione al lavoro comune e impegno per il benessere collettivo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Criteri per l’ammissione/non ammissione alla classe successiva (Scuola Primaria)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri per l'ammissione alla classe successiva nella Scuola Primaria, che prevedono l'ammissione anche in presenza di livelli parzialmente raggiunti o in via di acquisizione, e la non ammissione solo in casi eccezionali debitamente motivati.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Criteri la valutazione nella Didattica a Distanza",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Criteri di valutazione per la Didattica a Distanza conformi alla normativa vigente (DPR 122/2009, D.Lgs 62/2017) e alle note ministeriali relative all'emergenza sanitaria.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Valutazione degli apprendimenti nella DaD",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione formativa e sommativa degli apprendimenti nella DaD, con strumenti di osservazione, feedback tempestivo, valorizzazione degli sforzi, personalizzazione, monitoraggio dei processi e bilanciamento tra presenza e DaD.",
+      "target": "Alunni, Famiglie"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione Scuola Primaria e Secondaria I grado",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Criteri di valutazione basati su presenza/partecipazione e apprendimenti, considerando organizzazione del lavoro, comunicazione, partecipazione alla vita scolastica, completezza del lavoro e progressi.",
+      "target": "Alunni Scuola Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione alunni con BES, difficoltà apprendimento, immigrazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione degli alunni con BES, difficoltà di apprendimento o immigrazione, con focus sulla partecipazione e sul grado di coinvolgimento alle attività proposte.",
+      "target": "Alunni con BES, difficoltà apprendimento, immigrazione"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione Scuola dell'Infanzia nella DaD",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione nella Scuola dell'Infanzia in DaD basata sulla relazione educativa, portfolio, partecipazione a videoincontri, svolgimento attività, qualità del prodotto e comunicazione.",
+      "target": "Alunni Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Modalità di richiamo in caso di non partecipazione alla DaD",
+      "categoria_principale": "Monitoraggio e Recupero",
+      "descrizione_e_metodologia": "Procedure di richiamo in caso di non partecipazione alla DaD tramite comunicazione via mail/telefonica, segnalazione alla segreteria e intervento del Dirigente Scolastico.",
+      "target": "Alunni non partecipanti"
+    },
+    {
+      "titolo_attivita": "Modalità di restituzione agli alunni e alle famiglie",
+      "categoria_principale": "Feedback",
+      "descrizione_e_metodologia": "Comunicazione via mail e restituzione dei lavori valutati con giudizio/voto per fornire feedback sul percorso di apprendimento agli alunni e alle famiglie.",
+      "target": "Alunni, Famiglie"
+    },
+    {
+      "titolo_attivita": "Strumenti per la verifica in modalità asincrona",
+      "categoria_principale": "Verifica",
+      "descrizione_e_metodologia": "Utilizzo di elaborati/materiali (scritti, audio, video), prove pratiche (audio/video) e questionari/test (Google Moduli) per la verifica in modalità asincrona, con valutazione positiva focalizzata sul processo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Strumenti per la verifica in modalità sincrona",
+      "categoria_principale": "Verifica",
+      "descrizione_e_metodologia": "Impiego di esposizioni orali (individuali/gruppo), esercitazioni e questionari/test a tempo per la verifica in modalità sincrona, con valutazione positiva focalizzata sul processo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Area Continuità",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Promozione della continuità del percorso formativo attraverso percorsi di accoglienza e coordinamento delle Unità di Apprendimento (UDA) per gli anni ponte.",
+      "target": "Alunni, studenti"
+    },
+    {
+      "titolo_attivita": "Area Valutazione",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Analisi degli esiti delle prove di valutazione per proporre interventi educativo-didattici coerenti con il Piano di Miglioramento (PdM).",
+      "target": "Docenti, alunni"
+    },
+    {
+      "titolo_attivita": "Referente di sede",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Funzioni del referente di sede per la gestione dei contatti tra sede e presidenza, comunicazioni interne, controllo firme, presidenza consigli, vigilanza, collaborazione nella gestione di scioperi ed evacuazioni, raccolta esigenze materiali e gestione sussidi.",
+      "target": "Docenti, collaboratori scolastici, studenti, famiglie, Dirigente Scolastico, DSGA, personale esterno"
+    },
+    {
+      "titolo_attivita": "Responsabile di plesso",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Svolgimento dei compiti del referente di sede a livello di plesso.",
+      "target": "Docenti, collaboratori scolastici, studenti, famiglie, Dirigente Scolastico, DSGA, personale esterno"
+    },
+    {
+      "titolo_attivita": "Responsabile di laboratorio di informatica",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Gestione del laboratorio di informatica, inclusa la manutenzione delle attrezzature, il controllo dell'uso, la scansione antivirus, la predisposizione dei PC per le prove INVALSI e la comunicazione di eventuali danni.",
+      "target": "Docenti, studenti, Dirigente Scolastico, DSGA"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Ruolo dell'Animatore Digitale per la formazione interna sul PNSD, il coinvolgimento della comunità scolastica e la ricerca di soluzioni innovative.",
+      "target": "Comunità scolastica (docenti, studenti, famiglie), attori del territorio"
+    },
+    {
+      "titolo_attivita": "Team digitale",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Attività del Team Digitale per la digitalizzazione della scuola, la diffusione delle politiche di innovazione didattica, la promozione dell'uso consapevole dei social network, iniziative per l'inclusione digitale e la partecipazione a bandi PNRR.",
+      "target": "Scuola, docenti, genitori, studenti, enti"
+    },
+    {
+      "titolo_attivita": "Commissione sicurezza",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Partecipazione della Commissione Sicurezza alle riunioni periodiche e compilazione della documentazione relativa alla sicurezza, in collaborazione con il Dirigente Scolastico e il RSPP.",
+      "target": "Dirigente Scolastico, RSPP"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TVAA88001D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia Chiarano** per il triennio 2022-2025 presenta un quadro articolato di finalità, obiettivi e azioni volte a promuovere un percorso formativo completo e orientato al futuro degli studenti. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, l'argomento viene trattato in modo trasversale attraverso diverse iniziative e strategie. La scuola dimostra una forte propensione alla collaborazione con un ampio numero di **partner** territoriali e istituzionali, elemento che arricchisce l'offerta formativa e supporta le transizioni tra i diversi ordini di scuola. Le finalità dichiarate pongono un'enfasi significativa sullo sviluppo delle potenzialità individuali, sulla costruzione di un **progetto di vita** e sulla facilitazione delle **transizioni formative**. Gli obiettivi mirano a ridurre l'abbandono scolastico, garantire la **continuità educativa** e promuovere il **lifelong learning**. Le azioni implementate si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-famiglia e sul monitoraggio delle attività. La didattica valorizza l'esperienza degli studenti, l'approccio laboratoriale e l'interdisciplinarità.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 PTOF Orientamento Sezione Dedicata\n\nNon è presente una sezione specificamente dedicata all'Orientamento. L'argomento è trattato in modo trasversale in diverse parti del PTOF, tra cui il Piano di Miglioramento, le iniziative di ampliamento dell'offerta formativa e la valutazione degli apprendimenti, ma manca un capitolo autonomo.\n\n#### 2.2 Partnership\n\nLa **Scuola Dell'Infanzia Chiarano** vanta una rete di collaborazioni estesa che include **Enti Locali**, il **ProgettoPedibus - Scuola Primaria di Mansuè**, **associazioni sportive**, **associazioni musicali**, **pro loco**, la **Protezione Civile**, **comitati e gruppi spontanei di genitori**, **scuole dell'infanzia paritarie**, la **Rete di Ambito 14 “Treviso Est”**, la **Rete di coordinamento interscolastico**, la **Rete inclusione alunni stranieri e con disagio socio-culturale**, la **Rete C.T.I. San Polo di Piave**, la **Rete C.T.I. Treviso Nord**, la **Rete Orient For - I.C. San Sansovino**, la **Rete DPO - Istituto capofila I.T. \\\"J. Sansovino\\\"**, **Biblioteche comunali**, **Società sportive del territorio**, **ULSS 2**, **Avis**, **Polizia locale**, **Associazioni del territorio**, **servizi socio-sanitari ed educativi del territorio**, **associazioni del settore** e **GLIR/GIT/Scuole polo per l’inclusione territoriale**. Questa vasta rete di **partnership** testimonia un forte radicamento nel territorio e una volontà di creare sinergie per il successo formativo degli studenti.\n\n#### 2.3 Finalità\n\nLe finalità del PTOF sono orientate a valorizzare le potenzialità individuali e a preparare gli studenti al futuro. La **valorizzazione delle potenzialità di alunni con particolari attitudini** attraverso attività mirate e il riconoscimento delle eccellenze ottiene un punteggio elevato, così come l'**implementazione di un curricolo verticale per garantire un percorso formativo unitario, graduale e coerente dai tre ai 14 anni, facilitando le transizioni tra i diversi ordini di scuola**. Anche la **definizione e attuazione di un sistema di orientamento efficace, volto a supportare gli studenti nelle scelte consapevoli del proprio percorso formativo e professionale** riceve un punteggio massimo. La **considerazione delle potenzialità e delle difficoltà del soggetto, promuovendo lo sviluppo degli apprendimenti attraverso la comunicazione, la socializzazione e la relazione interpersonale, con un'attenzione specifica agli interessi individuali** è ben considerata, sebbene con un punteggio leggermente inferiore. L'elaborazione di un'ipotesi di **progetto di vita compatibile con le potenzialità e le difficoltà proprie del soggetto, orientando le scelte future** è una finalità pienamente raggiunta.\n\n#### 2.4 Obiettivi\n\nGli obiettivi prefissati sono ambiziosi e mirano a un miglioramento continuo del sistema scolastico. L'**attivazione di strategie mirate alla prevenzione e al contrasto della dispersione scolastica, con l'obiettivo di ridurre significativamente i tassi di abbandono** è un obiettivo pienamente raggiunto. Allo stesso modo, garantire la **continuità educativa attraverso un curricolo verticale che assicuri un percorso formativo unitario e coerente dai tre ai 14 anni, in sinergia con il territorio** è un obiettivo pienamente soddisfatto. Lo **stimolare negli studenti la curiosità e la motivazione ad approfondire, recuperare, consolidare conoscenze e sviluppare capacità di ricerca autonoma, promuovendo un approccio all'apprendimento continuo e permanente** è un altro obiettivo pienamente raggiunto. Tuttavia, non sono state individuate azioni specifiche o obiettivi dedicati al contrasto del fenomeno **NEET (Not in Education, Employment, or Training)**.\n\n#### 2.5 Azioni del Sistema\n\nLe azioni intraprese per realizzare gli obiettivi sono ben strutturate e mirano a un approccio sistemico. La **promozione di un'azione congiunta e integrata tra le diverse componenti della comunità scolastica e con i servizi territoriali, basata su obiettivi, procedure e modalità operative condivise** è un punto di forza. L'**implementazione di un dialogo costruttivo tra docenti e studenti, caratterizzato da feedback tempestivi sulle prestazioni, comunicazione efficace (via mail/telefonica) e promozione della partecipazione attiva degli studenti alla definizione dei propri percorsi di apprendimento** è pienamente realizzata. Il **rafforzamento del rapporto scuola-famiglia attraverso il coinvolgimento attivo dei genitori nella valutazione e nei percorsi educativi (PEI/PDP), una comunicazione costante (via mail/telefonica) e la segnalazione tempestiva di criticità o progressi** è un altro elemento di successo. L'**utilizzo sistematico di strumenti di osservazione e monitoraggio dei processi di apprendimento e delle azioni didattiche per valutarne l'efficacia e apportare eventuali correzioni** è pienamente attuato. Infine, l'**attuazione di un sistema integrato per l'inclusione e il supporto alle fragilità, attraverso progetti specifici per l'inclusione scolastica, l'istruzione domiciliare, il contrasto al bullismo/cyberbullismo, il potenziamento delle competenze e il supporto agli studenti con difficoltà** rappresenta un'azione fondamentale e pienamente realizzata.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica adottata è fortemente orientata all'apprendimento attivo e personalizzato. La **valorizzazione delle esperienze pregresse degli studenti, tenendo conto delle risorse umane e tecniche disponibili anche a livello familiare, per costruire percorsi di apprendimento significativi** è un elemento di eccellenza. L'**ampio utilizzo di metodologie laboratoriali (es. Disegno, Informatica, Musica) e di spazi dedicati come l'Aula Polifunzionale per promuovere un apprendimento attivo e pratico** è pienamente implementato. La **promozione della personalizzazione e flessibilità dei percorsi formativi, con un'attenzione crescente alla riconfigurazione degli spazi di apprendimento e alla gestione flessibile dei tempi didattici per rispondere alle esigenze individuali** è un punto di forza, sebbene con un punteggio leggermente inferiore. L'**attuazione sistematica di unità di apprendimento verticali e interdisciplinari per favorire una visione organica dei saperi e sviluppare competenze trasversali** è un altro aspetto di grande valore.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative è diversificata e mira a coprire diverse aree di interesse. L'**offerta diversificata di attività culturali, tra cui potenziamento umanistico, socio-economico e per la legalità, educazione interculturale, alla pace, alla solidarietà, cura dei beni comuni, rispetto della legalità, sostenibilità ambientale e valorizzazione del patrimonio culturale** è un punto di forza. Le **proposte laboratoriali focalizzate sulle discipline artistiche ed espressive, come Disegno e Musica, per lo sviluppo della creatività e delle abilità pratiche** sono pienamente valorizzate. La presenza di attività con valenza ludico-ricreativa, come la **\"Maratona della lettura\"** e le **\"Letture Animate\"**, spesso in collaborazione con le biblioteche comunali, sebbene non strutturate come opzionali specifici, contribuisce all'offerta. L'inclusione di iniziative legate al volontariato, come il **\"ProgettoPedibus\"** della Scuola Primaria di Mansuè, che evidenzia una collaborazione con enti locali per servizi alla comunità, è un aspetto positivo. Le **attività sportive promosse attraverso il potenziamento motorio e la collaborazione con le società sportive del territorio, che offrono accesso a strutture sportive comunali e attività propedeutiche** sono presenti, ma con un punteggio leggermente inferiore.\n\n### 3. Punti di Forza\n\nLa **Scuola Dell'Infanzia Chiarano** eccelle nella sua capacità di creare una **rete di partnership** solida e diversificata con il territorio, che supporta attivamente le finalità educative. La **didattica orientativa**, con una forte enfasi sulla **valorizzazione delle esperienze pregresse** e sull'uso di **metodologie laboratoriali**, rappresenta un pilastro fondamentale. Le **finalità** dichiarate sono coerenti con un approccio centrato sullo studente, con particolare attenzione alla costruzione del **progetto di vita** e alla facilitazione delle **transizioni formative**. Gli **obiettivi** di riduzione dell'abbandono e di promozione del **lifelong learning** sono ben definiti e supportati da **azioni del sistema** mirate al coordinamento, al dialogo e al coinvolgimento della comunità scolastica. L'offerta di **opzionali culturali** e **laboratoriali espressive** arricchisce ulteriormente il percorso formativo.\n\n### 4. Aree di Debolezza\n\nLa principale area di debolezza identificata è la **mancanza di una sezione specificamente dedicata all'Orientamento** nel PTOF. Sebbene l'orientamento sia trattato trasversalmente, una sezione autonoma avrebbe potuto conferire maggiore centralità e strutturazione a questo aspetto cruciale. Inoltre, l'assenza di obiettivi specifici dedicati al contrasto del fenomeno **NEET** potrebbe rappresentare un'area di miglioramento futuro. Alcune attività opzionali, come quelle **ludico-ricreative** e **sportive**, pur presenti, potrebbero beneficiare di una maggiore strutturazione o di un punteggio più elevato per riflettere pienamente il loro potenziale.\n\n### 5. Gap Analysis\n\nIl PTOF evidenzia una buona coerenza tra le finalità e gli obiettivi prefissati, con un'implementazione efficace delle azioni del sistema. La didattica orientativa è ben integrata nelle pratiche quotidiane. Tuttavia, il \"gap\" principale risiede nella formalizzazione dell'orientamento come disciplina o area di intervento autonoma. La vasta rete di **partnership** è un punto di forza, ma potrebbe essere ulteriormente sfruttata per colmare la lacuna relativa al contrasto del fenomeno **NEET**, attraverso collaborazioni mirate con enti e servizi territoriali specializzati. L'integrazione tra le diverse attività opzionali e facoltative potrebbe essere potenziata per creare percorsi ancora più coesi e orientati alle scelte future degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia Chiarano** dimostra un impegno significativo verso un'educazione completa e orientata al futuro. La scuola eccelle nella costruzione di relazioni con il territorio e nell'adozione di metodologie didattiche innovative. Per rafforzare ulteriormente la sua azione, si raccomanda di considerare l'introduzione di una sezione dedicata all'orientamento nel PTOF, di sviluppare obiettivi specifici per il contrasto al fenomeno **NEET** e di valorizzare ulteriormente le attività opzionali e facoltative, in particolare quelle ludico-ricreative e sportive, per offrire un percorso formativo sempre più completo e proattivo verso le sfide future degli studenti."
+}

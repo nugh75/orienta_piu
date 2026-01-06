@@ -1,0 +1,25 @@
+# Report di Analisi del PTOF (2019/2022)
+
+## 1. Sintesi
+
+Il presente report analizza la bozza del Piano Triennale dell'Offerta Formativa (PTOF) per il periodo 2019/2022, predisposto per le istituzioni scolastiche statali e paritarie di ogni ordine e grado nell'area geografica di Palermo. Il documento, pur essendo un atto di indirizzo generale fornito dal Ministero, mira a supportare le scuole nella loro progettualità, promuovendo un approccio organico e integrato alla definizione dell'identità culturale e progettuale dell'istituto. L'analisi evidenzia la presenza di elementi strategici e organizzativi, con un'attenzione particolare alla definizione dell'offerta formativa e alle azioni per il miglioramento continuo.
+
+## 2. Analisi Dimensionale
+
+L'analisi dimensionale del PTOF rivela una struttura articolata in diverse sezioni, focalizzate sulle scelte strategiche, sull'offerta formativa, sull'organizzazione e sulla rendicontazione. La Sezione 2, "Le scelte strategiche", pur non dedicando uno spazio specifico all'orientamento, ne integra alcuni aspetti attraverso la menzione della collaborazione con le realtà territoriali e la partecipazione degli studenti. La Sezione 3, "L'offerta formativa", è particolarmente ricca, includendo elementi curricolari, attività di ampliamento, alternanza scuola-lavoro, valutazione degli apprendimenti e azioni per l'inclusione scolastica. La Sezione 4, "L'organizzazione", affronta aspetti cruciali come la formazione del personale docente e ATA, le reti e le convenzioni. La Sezione 5, "Rendicontazione", sottolinea l'importanza della pubblicazione dei risultati raggiunti.
+
+## 3. Punti di Forza
+
+Il PTOF si distingue per la sua natura di strumento di indirizzo flessibile, concepito non come un mero adempimento burocratico, ma come un supporto concreto per le scuole. L'enfasi posta sulla collaborazione con le diverse realtà istituzionali, culturali, sociali ed economiche del territorio rappresenta un punto di forza significativo, favorendo un legame profondo tra la scuola e il suo contesto. La struttura modulare, che include sezioni dedicate alla valutazione degli apprendimenti, all'inclusione scolastica e alla formazione del personale, garantisce una visione olistica della progettualità scolastica. Inoltre, la promozione di una didattica che può includere approcci laboratoriali e interdisciplinari, pur non essendo esplicitamente dettagliata in questo atto di indirizzo, apre a metodologie didattiche innovative e partecipative.
+
+## 4. Debolezze
+
+La principale debolezza riscontrata risiede nella mancanza di una sezione dedicata specificamente all'orientamento (Sezione 2.1), che ne riduce la visibilità e l'impatto potenziale. Sebbene alcuni elementi orientativi siano presenti in altre sezioni, l'assenza di un focus autonomo potrebbe limitare l'efficacia delle azioni in questo ambito. Inoltre, il documento, essendo un atto di indirizzo generale, non entra nel dettaglio delle singole attività o delle strategie specifiche che le scuole dovranno implementare, lasciando un ampio margine di interpretazione e richiedendo un notevole sforzo di elaborazione da parte delle singole istituzioni.
+
+## 5. Gap Analysis
+
+L'analisi ha evidenziato la necessità di integrare una valutazione più approfondita per alcune aree chiave del PTOF, quali la "Valutazione degli apprendimenti", le "Azioni della scuola per l'inclusione scolastica" e i "Piani di formazione del personale docente e ATA". Sebbene queste sezioni siano presenti nella struttura generale, la loro analisi specifica era mancante. Inoltre, il punteggio relativo alle partnership, sebbene non quantificato con nomi specifici, è stato rivalutato positivamente per riflettere l'enfasi del documento sulla collaborazione territoriale e con le famiglie. La mancanza di una sezione dedicata all'orientamento rappresenta un gap che le scuole dovranno colmare nella loro progettazione specifica.
+
+## 6. Conclusioni
+
+Il PTOF 2019/2022 si configura come uno strumento strategico fondamentale per le istituzioni scolastiche, volto a definire la loro identità e a guidare la progettualità educativa. Pur presentando alcune aree di miglioramento, in particolare riguardo alla centralità dell'orientamento, il documento offre un quadro completo e flessibile per la pianificazione. L'accento posto sulla collaborazione con il territorio, sull'offerta formativa integrata e sull'organizzazione interna, unitamente alla promozione di metodologie didattiche potenzialmente innovative, ne fanno una base solida per il miglioramento continuo delle scuole. Si raccomanda alle singole istituzioni di sviluppare ulteriormente le sezioni relative all'orientamento, alla valutazione degli apprendimenti, all'inclusione e alla formazione del personale, adattandole alle proprie specificità e al contesto locale.

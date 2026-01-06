@@ -89,7 +89,10 @@ help:
 	@echo "                                     Opzioni: PROVIDER=openrouter, MODEL=..., LIMIT=..., MAX_COST=..."
 	@echo "  make activity-extract-reset      - Reset e ri-estrazione completa"
 	@echo "  make activity-extract-stats      - Mostra statistiche estrazione"
-	@echo "  make report-costs                - Genera report costi API (CSM/MD) in data/"
+	@echo ""
+	@echo "COSTI E CREDITI:"
+	@echo "  make report-costs                - Genera report costi API (CSV/MD) in data/"
+	@echo "  make check-credits               - Verifica credito residuo OpenRouter"
 	@echo ""
 	@echo "META REPORT (Best Practices):"
 	@echo "  make meta-status              - Stato dei report (pending/current/stale)"
@@ -205,7 +208,9 @@ endif
 		$(if $(SYNTHESIZER),--synthesizer "$(SYNTHESIZER)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
-		$(if $(PRESET),--preset "$(PRESET)",)
+		$(if $(PRESET),--preset "$(PRESET)",) \
+		$(if $(FORCE_CODE),--force-code "$(FORCE_CODE)",) \
+		$(if $(SKIP_VALIDATION),--skip-validation,)
 
 workflow-force:
 ifdef CONF

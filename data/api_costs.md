@@ -1,68 +1,68 @@
 # 💰 Report Costi API LLM
 
-**Ultimo aggiornamento:** 2026-01-05 19:36:40
+**Ultimo aggiornamento:** 2026-01-05 23:53:59
 
 ## 📊 Riepilogo per Contesto e Modello
 
 | Contesto | Provider | Modello | Chiamate | Token In | Token Out | Costo ($) |
 |---|---|---|---|---|---|---|
-| **activity_extraction** | openrouter | google/gemini-2.5-flash-lite | 2923 | 21,852,139 | 5,031,439 | $4.1979 |
+| **activity_extraction** | openrouter | google/gemini-2.5-flash-lite | 4125 | 30,912,508 | 7,009,116 | $5.8950 |
 | **workflow** | openrouter | google/gemini-2.0-flash-lite-001 | 18 | 189,704 | 76,444 | $0.0393 |
-| **workflow** | openrouter | google/gemini-2.5-flash-lite | 98 | 1,345,878 | 845,653 | $0.3546 |
+| **workflow** | openrouter | google/gemini-2.5-flash-lite | 1477 | 10,904,675 | 4,696,354 | $2.2267 |
 | **workflow** | openrouter | qwen/qwen-2.5-72b-instruct | 8 | 51,330 | 4,134 | $0.0078 |
-| **TOTALE** | | | **3047** | **23,439,051** | **5,957,670** | **$4.5995** |
+| **TOTALE** | | | **5628** | **42,058,217** | **11,786,048** | **$8.1688** |
 
 ## 📝 Dettaglio Ultime 50 Chiamate
 
 | Timestamp | Contesto | Modello | In | Out | $
 |---|---|---|---|---|---|
-| 2026-01-05 19:36:39 | workflow | google/gemini-2.5-flash-lite | 3002 | 1641 | $0.000717 |
-| 2026-01-05 19:36:37 | activity_extraction | google/gemini-2.5-flash-lite | 8257 | 1740 | $0.001522 |
-| 2026-01-05 19:36:32 | workflow | google/gemini-2.5-flash-lite | 3393 | 1899 | $0.000824 |
-| 2026-01-05 19:36:27 | activity_extraction | google/gemini-2.5-flash-lite | 5855 | 1561 | $0.00121 |
-| 2026-01-05 19:36:24 | workflow | google/gemini-2.5-flash-lite | 2820 | 1509 | $0.000664 |
-| 2026-01-05 19:36:17 | workflow | google/gemini-2.5-flash-lite | 3287 | 1078 | $0.00057 |
-| 2026-01-05 19:36:17 | activity_extraction | google/gemini-2.5-flash-lite | 7582 | 1448 | $0.001337 |
-| 2026-01-05 19:36:13 | workflow | google/gemini-2.5-flash-lite | 3753 | 5831 | $0.002031 |
-| 2026-01-05 19:36:09 | activity_extraction | google/gemini-2.5-flash-lite | 7820 | 1968 | $0.001569 |
-| 2026-01-05 19:35:59 | activity_extraction | google/gemini-2.5-flash-lite | 8186 | 1838 | $0.001554 |
-| 2026-01-05 19:35:56 | workflow | google/gemini-2.5-flash-lite | 3805 | 860 | $0.000543 |
-| 2026-01-05 19:35:51 | workflow | google/gemini-2.5-flash-lite | 3827 | 1090 | $0.000614 |
-| 2026-01-05 19:35:49 | activity_extraction | google/gemini-2.5-flash-lite | 7639 | 1767 | $0.001471 |
-| 2026-01-05 19:35:47 | workflow | google/gemini-2.5-flash-lite | 3760 | 863 | $0.000541 |
-| 2026-01-05 19:35:43 | workflow | google/gemini-2.5-flash-lite | 3076 | 1727 | $0.000749 |
-| 2026-01-05 19:35:38 | activity_extraction | google/gemini-2.5-flash-lite | 7963 | 1657 | $0.001459 |
-| 2026-01-05 19:35:37 | workflow | google/gemini-2.5-flash-lite | 2830 | 2820 | $0.001058 |
-| 2026-01-05 19:35:29 | activity_extraction | google/gemini-2.5-flash-lite | 8850 | 1578 | $0.001516 |
-| 2026-01-05 19:35:27 | workflow | google/gemini-2.5-flash-lite | 3357 | 1265 | $0.000631 |
-| 2026-01-05 19:35:23 | workflow | google/gemini-2.5-flash-lite | 3393 | 974 | $0.000547 |
-| 2026-01-05 19:35:20 | activity_extraction | google/gemini-2.5-flash-lite | 8527 | 1421 | $0.001421 |
-| 2026-01-05 19:35:12 | activity_extraction | google/gemini-2.5-flash-lite | 7511 | 1659 | $0.001415 |
-| 2026-01-05 19:35:03 | activity_extraction | google/gemini-2.5-flash-lite | 7506 | 2007 | $0.001553 |
-| 2026-01-05 19:34:53 | activity_extraction | google/gemini-2.5-flash-lite | 7989 | 1535 | $0.001413 |
-| 2026-01-05 19:34:45 | activity_extraction | google/gemini-2.5-flash-lite | 6763 | 1969 | $0.001464 |
-| 2026-01-05 19:34:23 | activity_extraction | google/gemini-2.5-flash-lite | 2362 | 1686 | $0.000911 |
-| 2026-01-05 19:34:14 | activity_extraction | google/gemini-2.5-flash-lite | 7705 | 1645 | $0.001429 |
-| 2026-01-05 19:34:05 | activity_extraction | google/gemini-2.5-flash-lite | 7327 | 1736 | $0.001427 |
-| 2026-01-05 19:33:55 | activity_extraction | google/gemini-2.5-flash-lite | 7565 | 1536 | $0.001371 |
-| 2026-01-05 19:33:47 | activity_extraction | google/gemini-2.5-flash-lite | 7978 | 1549 | $0.001417 |
-| 2026-01-05 19:33:39 | activity_extraction | google/gemini-2.5-flash-lite | 8117 | 1544 | $0.001429 |
-| 2026-01-05 19:33:29 | activity_extraction | google/gemini-2.5-flash-lite | 7172 | 1789 | $0.001433 |
-| 2026-01-05 19:33:19 | activity_extraction | google/gemini-2.5-flash-lite | 6981 | 1366 | $0.001245 |
-| 2026-01-05 19:33:12 | activity_extraction | google/gemini-2.5-flash-lite | 7434 | 1858 | $0.001487 |
-| 2026-01-05 19:33:01 | activity_extraction | google/gemini-2.5-flash-lite | 7069 | 1492 | $0.001304 |
-| 2026-01-05 19:32:53 | activity_extraction | google/gemini-2.5-flash-lite | 7330 | 1775 | $0.001443 |
-| 2026-01-05 19:32:44 | activity_extraction | google/gemini-2.5-flash-lite | 7856 | 1399 | $0.001345 |
-| 2026-01-05 19:32:36 | activity_extraction | google/gemini-2.5-flash-lite | 6888 | 1694 | $0.001366 |
-| 2026-01-05 19:32:27 | activity_extraction | google/gemini-2.5-flash-lite | 6999 | 2028 | $0.001511 |
-| 2026-01-05 19:32:17 | activity_extraction | google/gemini-2.5-flash-lite | 7055 | 1518 | $0.001313 |
-| 2026-01-05 19:32:09 | activity_extraction | google/gemini-2.5-flash-lite | 7256 | 1687 | $0.0014 |
-| 2026-01-05 19:32:00 | activity_extraction | google/gemini-2.5-flash-lite | 6904 | 1517 | $0.001297 |
-| 2026-01-05 19:31:53 | activity_extraction | google/gemini-2.5-flash-lite | 7300 | 1763 | $0.001435 |
-| 2026-01-05 19:31:42 | activity_extraction | google/gemini-2.5-flash-lite | 7545 | 1663 | $0.00142 |
-| 2026-01-05 19:31:33 | activity_extraction | google/gemini-2.5-flash-lite | 7982 | 1680 | $0.00147 |
-| 2026-01-05 19:31:22 | activity_extraction | google/gemini-2.5-flash-lite | 5644 | 1557 | $0.001187 |
-| 2026-01-05 19:31:13 | activity_extraction | google/gemini-2.5-flash-lite | 7137 | 1840 | $0.00145 |
-| 2026-01-05 19:31:04 | activity_extraction | google/gemini-2.5-flash-lite | 7587 | 1623 | $0.001408 |
-| 2026-01-05 19:30:56 | activity_extraction | google/gemini-2.5-flash-lite | 7742 | 1686 | $0.001449 |
-| 2026-01-05 19:30:47 | activity_extraction | google/gemini-2.5-flash-lite | 7793 | 1769 | $0.001487 |
+| 2026-01-05 23:53:54 | workflow | google/gemini-2.5-flash-lite | 2868 | 1502 | $0.000666 |
+| 2026-01-05 23:53:49 | workflow | google/gemini-2.5-flash-lite | 4225 | 4958 | $0.001804 |
+| 2026-01-05 23:53:32 | workflow | google/gemini-2.5-flash-lite | 7992 | 1141 | $0.000942 |
+| 2026-01-05 23:53:32 | activity_extraction | google/gemini-2.5-flash-lite | 7315 | 1543 | $0.001349 |
+| 2026-01-05 23:53:26 | workflow | google/gemini-2.5-flash-lite | 4652 | 2844 | $0.001202 |
+| 2026-01-05 23:53:24 | activity_extraction | google/gemini-2.5-flash-lite | 7719 | 1728 | $0.001463 |
+| 2026-01-05 23:53:16 | workflow | google/gemini-2.5-flash-lite | 2436 | 1111 | $0.000516 |
+| 2026-01-05 23:53:12 | workflow | google/gemini-2.5-flash-lite | 3423 | 2182 | $0.000911 |
+| 2026-01-05 23:53:11 | activity_extraction | google/gemini-2.5-flash-lite | 5351 | 1663 | $0.0012 |
+| 2026-01-05 23:47:50 | workflow | google/gemini-2.5-flash-lite | 3344 | 1220 | $0.000617 |
+| 2026-01-05 23:47:47 | activity_extraction | google/gemini-2.5-flash-lite | 7626 | 1795 | $0.001481 |
+| 2026-01-05 23:47:45 | workflow | google/gemini-2.5-flash-lite | 70037 | 65535 | $0.024913 |
+| 2026-01-05 23:47:39 | activity_extraction | google/gemini-2.5-flash-lite | 7468 | 1943 | $0.001524 |
+| 2026-01-05 23:47:30 | activity_extraction | google/gemini-2.5-flash-lite | 8398 | 2014 | $0.001645 |
+| 2026-01-05 23:47:19 | activity_extraction | google/gemini-2.5-flash-lite | 6357 | 1652 | $0.001296 |
+| 2026-01-05 23:47:11 | activity_extraction | google/gemini-2.5-flash-lite | 7867 | 1669 | $0.001454 |
+| 2026-01-05 23:47:03 | activity_extraction | google/gemini-2.5-flash-lite | 8146 | 1727 | $0.001505 |
+| 2026-01-05 23:46:55 | activity_extraction | google/gemini-2.5-flash-lite | 8357 | 1805 | $0.001558 |
+| 2026-01-05 23:45:00 | workflow | google/gemini-2.5-flash-lite | 155600 | 4261 | $0.012948 |
+| 2026-01-05 23:44:39 | workflow | google/gemini-2.5-flash-lite | 94674 | 65535 | $0.026761 |
+| 2026-01-05 23:41:58 | workflow | google/gemini-2.5-flash-lite | 2995 | 2400 | $0.000945 |
+| 2026-01-05 23:41:50 | workflow | google/gemini-2.5-flash-lite | 2876 | 1861 | $0.000774 |
+| 2026-01-05 23:41:45 | activity_extraction | google/gemini-2.5-flash-lite | 7242 | 1675 | $0.001394 |
+| 2026-01-05 23:41:43 | workflow | google/gemini-2.5-flash-lite | 3436 | 2142 | $0.0009 |
+| 2026-01-05 23:41:36 | workflow | google/gemini-2.5-flash-lite | 3378 | 1669 | $0.000754 |
+| 2026-01-05 23:41:36 | activity_extraction | google/gemini-2.5-flash-lite | 8133 | 1763 | $0.001518 |
+| 2026-01-05 23:41:31 | workflow | google/gemini-2.5-flash-lite | 3047 | 1344 | $0.000632 |
+| 2026-01-05 23:41:28 | activity_extraction | google/gemini-2.5-flash-lite | 7743 | 1505 | $0.001376 |
+| 2026-01-05 23:41:26 | workflow | google/gemini-2.5-flash-lite | 2800 | 1962 | $0.000799 |
+| 2026-01-05 23:41:20 | activity_extraction | google/gemini-2.5-flash-lite | 8445 | 2492 | $0.001841 |
+| 2026-01-05 23:41:18 | workflow | google/gemini-2.5-flash-lite | 3086 | 5833 | $0.001981 |
+| 2026-01-05 23:41:09 | activity_extraction | google/gemini-2.5-flash-lite | 3196 | 1683 | $0.000993 |
+| 2026-01-05 23:41:01 | workflow | google/gemini-2.5-flash-lite | 2599 | 1973 | $0.000787 |
+| 2026-01-05 23:41:00 | activity_extraction | google/gemini-2.5-flash-lite | 8140 | 1524 | $0.001424 |
+| 2026-01-05 23:40:55 | workflow | google/gemini-2.5-flash-lite | 2994 | 2274 | $0.000907 |
+| 2026-01-05 23:40:52 | activity_extraction | google/gemini-2.5-flash-lite | 7490 | 1628 | $0.0014 |
+| 2026-01-05 23:40:46 | workflow | google/gemini-2.5-flash-lite | 2935 | 2325 | $0.000918 |
+| 2026-01-05 23:40:44 | activity_extraction | google/gemini-2.5-flash-lite | 8217 | 1806 | $0.001544 |
+| 2026-01-05 23:40:39 | workflow | google/gemini-2.5-flash-lite | 2772 | 1453 | $0.000644 |
+| 2026-01-05 23:40:34 | workflow | google/gemini-2.5-flash-lite | 3215 | 1552 | $0.000707 |
+| 2026-01-05 23:40:33 | activity_extraction | google/gemini-2.5-flash-lite | 8688 | 1755 | $0.001571 |
+| 2026-01-05 23:40:28 | workflow | google/gemini-2.5-flash-lite | 2799 | 1351 | $0.000615 |
+| 2026-01-05 23:40:24 | activity_extraction | google/gemini-2.5-flash-lite | 7750 | 1547 | $0.001394 |
+| 2026-01-05 23:40:22 | workflow | google/gemini-2.5-flash-lite | 2894 | 1338 | $0.000618 |
+| 2026-01-05 23:40:18 | workflow | google/gemini-2.5-flash-lite | 2832 | 1209 | $0.000575 |
+| 2026-01-05 23:40:13 | workflow | google/gemini-2.5-flash-lite | 2941 | 1211 | $0.000584 |
+| 2026-01-05 23:40:08 | workflow | google/gemini-2.5-flash-lite | 3805 | 2929 | $0.001164 |
+| 2026-01-05 23:39:58 | workflow | google/gemini-2.5-flash-lite | 3076 | 1289 | $0.000617 |
+| 2026-01-05 23:39:53 | workflow | google/gemini-2.5-flash-lite | 3062 | 1112 | $0.000563 |
+| 2026-01-05 23:39:49 | workflow | google/gemini-2.5-flash-lite | 3358 | 1078 | $0.000575 |

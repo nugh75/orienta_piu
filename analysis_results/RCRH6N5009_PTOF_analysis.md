@@ -1,0 +1,35 @@
+# 1. Sintesi
+
+L'Istituto G. Parini - Liceo Scientifico, situato a Venezia Mestre, si presenta come un'istituzione scolastica di secondo grado impegnata nell'offerta di un percorso liceale scientifico. Il Piano Triennale dell'Offerta Formativa (PTOF) per il periodo 2022-2025 delinea una strategia articolata volta a promuovere lo sviluppo integrale degli studenti, con un'attenzione particolare all'orientamento, alla valorizzazione delle attitudini individuali e alla preparazione per le future transizioni formative e professionali. L'istituto si distingue per un'ampia rete di partnership con enti locali, università, imprese e associazioni del territorio, finalizzata a creare un ecosistema formativo dinamico e rispondente alle esigenze del contesto socio-economico.
+
+## 2. Analisi Dimensionale
+
+**2.1 Orientamento:** Nonostante la presenza di numerose attività che supportano l'orientamento degli studenti (PCTO, obiettivi formativi, figure professionali dedicate), il PTOF non dedica una sezione specifica o un capitolo autonomo a questo tema. L'orientamento è, pertanto, integrato in diverse aree del piano, ma manca una trattazione organica che ne definisca in modo esplicito e strutturato le strategie e le metodologie.
+
+**2.2 Partnership:** L'istituto vanta un numero considerevole di collaborazioni (53 partner nominati) con una vasta gamma di attori del territorio, tra cui enti locali, università, associazioni culturali e sportive, ordini professionali e imprese. Questa estesa rete di partnership testimonia un forte radicamento nel contesto locale e un impegno concreto nel creare opportunità formative concrete per gli studenti.
+
+**2.3 Finalità:** Le finalità dichiarate sono pienamente allineate con gli obiettivi di un liceo scientifico moderno: lo sviluppo delle attitudini e degli interessi degli studenti, la costruzione di un progetto di vita consapevole, la facilitazione delle transizioni formative e il potenziamento delle capacità orientative in relazione alle opportunità future. I punteggi massimi assegnati riflettono una chiara definizione di questi obiettivi.
+
+**2.4 Obiettivi:** Gli obiettivi strategici includono la riduzione dell'abbandono scolastico (punteggio 4), la promozione della continuità con il territorio (punteggio 5), il contrasto al fenomeno NEET (punteggio 3) e la promozione del lifelong learning (punteggio 5). Sebbene la maggior parte degli obiettivi sia ben definita e valutata positivamente, l'obiettivo di contrastare i NEET potrebbe beneficiare di azioni più mirate e quantificabili.
+
+**2.5 Azioni del Sistema:** Le azioni previste per il funzionamento del sistema scolastico sono valutate positivamente (punteggio 5) per quanto riguarda il coordinamento dei servizi, il dialogo docenti-studenti e il rapporto scuola-genitori. Tuttavia, il monitoraggio delle azioni e l'integrazione del sistema per l'inclusione e la gestione delle fragilità ricevono un punteggio di 4, indicando aree di potenziale miglioramento nella specificità delle metodologie di monitoraggio e nella descrizione di un sistema inclusivo pienamente integrato.
+
+**2.6 Didattica Orientativa:** La didattica è orientata all'esperienza dello studente, all'approccio laboratoriale, alla flessibilità di spazi e tempi e all'interdisciplinarità, con punteggi massimi (5) in tutte le categorie. Questo indica un approccio pedagogico moderno e centrato sullo studente.
+
+**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, coprendo ambiti culturali, laboratoriali, espressivi e sportivi (punteggio 5). L'unica area con un punteggio inferiore (3) riguarda le attività ludico-ricreative, che tuttavia beneficiano di un aumento del punteggio a 5, considerando la ricchezza di proposte sportive e di svago che, pur non etichettate esplicitamente, ne condividono la finalità.
+
+## 3. Punti di Forza
+
+L'Istituto G. Parini si distingue per la sua **ampia e consolidata rete di partnership territoriali**, che rappresenta un asset fondamentale per l'arricchimento dell'offerta formativa e per la creazione di opportunità concrete per gli studenti. La **forte attenzione alle finalità educative**, che spaziano dallo sviluppo delle attitudini alla costruzione del progetto di vita, dimostra una visione olistica dell'apprendimento. La **didattica orientativa**, con un focus sull'esperienza studentesca, sull'approccio laboratoriale e sull'interdisciplinarità, costituisce un ulteriore punto di forza, promuovendo un apprendimento attivo e significativo. L'**offerta diversificata di attività opzionali e facoltative**, che include anche un'ampia gamma di proposte sportive e ricreative, contribuisce a uno sviluppo equilibrato della personalità degli studenti.
+
+## 4. Debolezze
+
+Una delle principali aree di miglioramento identificate riguarda la **mancanza di una sezione dedicata all'orientamento** nel PTOF. Sebbene le attività orientative siano presenti, la loro frammentazione in diverse parti del documento non consente una visione organica e strutturata delle strategie adottate. Inoltre, sebbene il monitoraggio delle azioni e l'integrazione dei sistemi di inclusione siano valutati positivamente, emergono margini di miglioramento nella **specificità delle metodologie di monitoraggio** e nella descrizione di un **sistema inclusivo pienamente integrato e proattivo**.
+
+## 5. Gap Analysis
+
+Il gap principale riscontrato riguarda la **strutturazione e la visibilità delle attività di orientamento**. La loro integrazione in diverse sezioni del PTOF, pur garantendo la loro presenza, ne riduce l'impatto e la chiarezza strategica. Sarebbe auspicabile dedicare uno spazio specifico all'orientamento, delineando in modo più esplicito le metodologie, gli strumenti e i percorsi offerti agli studenti per supportare le loro scelte future. Un altro gap si evidenzia nella **descrizione delle azioni di monitoraggio e di sistema per l'inclusione**: sebbene presenti, necessitano di una maggiore specificità per garantire una piena comprensione della loro efficacia e integrazione. Infine, sebbene non sia un gap strutturale, la **narrativa eccessivamente promozionale** potrebbe essere bilanciata da un'analisi più critica e quantitativa dei risultati ottenuti.
+
+## 6. Conclusioni
+
+L'Istituto G. Parini dimostra un solido impegno nella definizione di un'offerta formativa completa e orientata allo sviluppo degli studenti, supportata da una vasta rete di collaborazioni territoriali. I punti di forza risiedono nella chiarezza delle finalità educative, nella didattica orientata all'esperienza e nella ricchezza delle attività opzionali. Le aree di miglioramento si concentrano sulla necessità di una maggiore strutturazione e visibilità delle strategie di orientamento, sulla specificazione delle metodologie di monitoraggio e sull'integrazione dei sistemi di inclusione. Affrontare questi aspetti permetterà all'istituto di consolidare ulteriormente la sua proposta educativa, garantendo un percorso formativo ancora più efficace e rispondente alle esigenze degli studenti e del territorio.

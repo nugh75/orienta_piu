@@ -21,6 +21,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Workflow analisi PTOF")
 parser.add_argument("--force", action="store_true", help="Forza ri-analisi di tutti i file (ignora registro)")
 parser.add_argument("--force-code", type=str, help="Forza ri-analisi di un codice specifico")
+parser.add_argument("--skip-validation", action="store_true", help="Salta la validazione PTOF (Step -1)")
 parser.add_argument("--model", type=str, help="Modello Ollama da usare per TUTTI (override generico)")
 parser.add_argument("--analyst", type=str, help="Modello per analista (es. gemma3:27b)")
 parser.add_argument("--reviewer", type=str, help="Modello per revisore (es. qwen3:32b)")
@@ -329,9 +330,11 @@ while True:
         print("[workflow] 🔍 STEP -1: Validazione PTOF (pre-analisi)", flush=True)
         print("="*70, flush=True)
 
-        # Salta validazione se è stato specificato --force-code (l'utente sa che è valido)
-        if FORCE_CODE:
-            print(f"⏭️ Validazione saltata: --force-code {FORCE_CODE} specificato", flush=True)
+        # Salta validazione se è stato specificato --force-code o --skip-validation
+        SKIP_VALIDATION = args.skip_validation
+        if FORCE_CODE or SKIP_VALIDATION:
+            reason = f"--force-code {FORCE_CODE}" if FORCE_CODE else "--skip-validation"
+            print(f"⏭️ Validazione saltata: {reason} specificato", flush=True)
         else:
             try:
                 from src.validation.ptof_validator import validate_inbox
@@ -370,11 +373,56 @@ while True:
             continue
 
         # =====================================================
-        # STEP 0: VALIDAZIONE PRE-ANALISI
+        # FAST-TRACK MODE: Se FORCE_CODE è specificato, salta Step 0 e 1
         # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("[workflow] 🔍 STEP 0: Validazione codici meccanografici", flush=True)
-        print("="*70, flush=True)
+        if FORCE_CODE:
+            print("\n" + "="*70, flush=True)
+            print(f"[workflow] ⚡ FAST-TRACK MODE: Solo {FORCE_CODE}", flush=True)
+            print("="*70, flush=True)
+            
+            # Cerca il file MD esistente o il PDF per questo codice
+            target_md = MD_DIR / f"{FORCE_CODE}_ptof.md"
+            target_pdf = None
+            
+            # Cerca PDF corrispondente
+            for pdf in inbox_pdfs:
+                if FORCE_CODE.upper() in pdf.stem.upper():
+                    target_pdf = pdf
+                    break
+            
+            if not target_md.exists() and target_pdf:
+                # Converti solo questo PDF
+                print(f"📝 Conversione: {target_pdf.name} → {target_md.name}", flush=True)
+                from src.processing.convert_pdfs_to_md import pdf_to_markdown
+                pdf_to_markdown(target_pdf, target_md)
+            
+            if target_md.exists():
+                # Salta direttamente a Step 2 (Analisi)
+                print(f"✅ File MD trovato: {target_md.name}", flush=True)
+                print("⏭️ Saltando Step 0 e Step 1, diretto a Step 2...", flush=True)
+                
+                # Crea un process_pdfs fittizio con solo questo file
+                process_pdfs = [(target_pdf or Path(), FORCE_CODE, None, 0, 'forced')]
+                # Fix: converted deve contenere tuple (pdf_path, school_code, miur_data)
+                converted = [(target_pdf or Path(), FORCE_CODE, None)]
+                
+                # Salta a Step 2 (il resto del codice sotto non verrà eseguito)
+                # -- NOTA: il goto non esiste in Python, quindi usiamo una flag --
+                FAST_TRACK_TO_ANALYSIS = True
+            else:
+                print(f"❌ File MD non trovato per {FORCE_CODE}", flush=True)
+                print(f"💡 Assicurati che esista {target_md} o un PDF con quel codice in ptof_inbox/", flush=True)
+                continue
+        else:
+            FAST_TRACK_TO_ANALYSIS = False
+
+        # =====================================================
+        # STEP 0: VALIDAZIONE PRE-ANALISI (saltato in FAST-TRACK)
+        # =====================================================
+        if not FAST_TRACK_TO_ANALYSIS:
+            print("\n" + "="*70, flush=True)
+            print("[workflow] 🔍 STEP 0: Validazione codici meccanografici", flush=True)
+            print("="*70, flush=True)
     
         recognized_pdfs = []
         process_pdfs = {}
@@ -593,41 +641,43 @@ while True:
             print("[workflow] Coda per priorita: " + ", ".join(f"{key}={val}" for key, val in ordered), flush=True)
     
         # =====================================================
-        # STEP 1: CONVERSIONE PDF → MARKDOWN
+        # STEP 1: CONVERSIONE PDF → MARKDOWN (saltato in FAST-TRACK)
         # =====================================================
-        print("\n" + "="*70, flush=True)
-        print("[workflow] 📝 STEP 1: Conversione PDF → Markdown", flush=True)
-        print("="*70, flush=True)
+        if not FAST_TRACK_TO_ANALYSIS:
+            print("\n" + "="*70, flush=True)
+            print("[workflow] 📝 STEP 1: Conversione PDF → Markdown", flush=True)
+            print("="*70, flush=True)
     
-        from src.processing.convert_pdfs_to_md import pdf_to_markdown
-    
-        converted = []
-    
-        for pdf_path, school_code, miur_data, _, _ in process_pdfs:
-            # Controllo uscita richiesta
-            if EXIT_REQUESTED:
-                save_and_exit()
+        if not FAST_TRACK_TO_ANALYSIS:
+            from src.processing.convert_pdfs_to_md import pdf_to_markdown
+        
+            converted = []
+        
+            for pdf_path, school_code, miur_data, _, _ in process_pdfs:
+                # Controllo uscita richiesta
+                if EXIT_REQUESTED:
+                    save_and_exit()
+                
+                md_output = MD_DIR / f"{school_code}_ptof.md"
             
-            md_output = MD_DIR / f"{school_code}_ptof.md"
+                # Verifica se già analizzato
+                analysis_path, status = get_analysis_status(school_code)
+                if status == 'valid':
+                    print(f"⏭️ Già analizzato: {school_code} ({analysis_path.name})", flush=True)
+                    continue
+            
+                print(f"🔄 Convertendo: {pdf_path.name} → {school_code}_ptof.md", flush=True)
+            
+                try:
+                    if pdf_to_markdown(str(pdf_path), str(md_output)):
+                        converted.append((pdf_path, school_code, miur_data))
+                        print(f"   ✅ Convertito!", flush=True)
+                    else:
+                        print(f"   ❌ Errore conversione", flush=True)
+                except Exception as e:
+                    print(f"   ❌ Errore: {e}", flush=True)
         
-            # Verifica se già analizzato
-            analysis_path, status = get_analysis_status(school_code)
-            if status == 'valid':
-                print(f"⏭️ Già analizzato: {school_code} ({analysis_path.name})", flush=True)
-                continue
-        
-            print(f"🔄 Convertendo: {pdf_path.name} → {school_code}_ptof.md", flush=True)
-        
-            try:
-                if pdf_to_markdown(str(pdf_path), str(md_output)):
-                    converted.append((pdf_path, school_code, miur_data))
-                    print(f"   ✅ Convertito!", flush=True)
-                else:
-                    print(f"   ❌ Errore conversione", flush=True)
-            except Exception as e:
-                print(f"   ❌ Errore: {e}", flush=True)
-    
-        print(f"\n📊 Convertiti: {len(converted)} file", flush=True)
+            print(f"\n📊 Convertiti: {len(converted)} file", flush=True)
     
         if converted:
             # =====================================================

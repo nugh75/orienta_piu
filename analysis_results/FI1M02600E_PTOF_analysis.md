@@ -1,0 +1,53 @@
+# Analisi del PTOF FI1M02600E
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto "Santa Marta" per il periodo 2016-2019 presenta un quadro ricco di iniziative e collaborazioni, con un'attenzione particolare alla **partnership** e allo sviluppo di **finalità** educative diversificate. Sebbene non sia presente una sezione dedicata specificamente all'**orientamento**, le attività e gli obiettivi delineati nel documento suggeriscono un approccio integrato volto a preparare gli studenti per le transizioni formative e per la vita futura. L'istituto dimostra una notevole apertura verso il territorio e una capacità di costruire una rete estesa di collaborazioni.
+
+### 2. Analisi Dimensionale
+
+#### 2.1 PTOF Orientamento Sezione Dedicata
+
+Non è stata individuata una sezione specifica dedicata all'**orientamento** all'interno del PTOF. Le attività relative all'orientamento in entrata e in uscita sono trattate in modo trasversale, integrate in altre sezioni del piano e nel **Piano di Miglioramento**. Questa assenza di una sezione organica e strutturata sull'orientamento rappresenta una lacuna, nonostante la presenza di sezioni dedicate ai diversi cicli di studio e all'alternanza scuola-lavoro.
+
+#### 2.2 Partnership
+
+L'istituto vanta un numero considerevole di **partnership**, ben 31, con una vasta gamma di **Enti Locali**, **realtà produttive del territorio**, **istituzioni scolastiche**, **Associazioni**, **Ordini e Collegi professionali**, e **Università** come l'Università Ca' Foscari di Venezia (tramite il Centro GLOBES). Sono inoltre citate **Aziende**, **Enti pubblici e privati**, **Studi professionali**, la **Camera di Commercio**, l'**Ufficio Scolastico Provinciale**, le **Province**, e specifiche realtà come **Mater Academy**, il **Museo di Storia Naturale di Verona**, il **FAI**, e molte altre. Questa estesa rete di collaborazioni testimonia una forte apertura verso l'esterno e la capacità di integrare risorse e competenze esterne nel percorso formativo degli studenti.
+
+#### 2.3 Finalità
+
+Le **finalità** relative allo sviluppo delle **attitudini** sono ben definite, con un punteggio elevato, ponendo enfasi sulla maturazione di competenze, una formazione culturale equilibrata e la padronanza dei linguaggi disciplinari. Il profilo in uscita per i diversi indirizzi delinea chiaramente le competenze attese, sebbene l'enfasi sia prevalentemente sull'acquisizione di conoscenze e abilità piuttosto che sulla promozione esplicita delle attitudini individuali al di fuori del curricolo. Le **finalità** legate agli **interessi** degli studenti sono orientate a stimolare la curiosità scientifica e tecnologica e a promuovere una comprensione critica delle implicazioni etiche delle scoperte, mirando a formare studenti capaci di seguire l'evoluzione della ricerca. Le **finalità** relative al **progetto di vita** sono formulate in termini di acquisizione di padronanza linguistica, metodologica e di problem-solving, con un accenno all'orientamento universitario o settoriale per l'indirizzo sportivo. L'approccio sembra più focalizzato sulla preparazione accademica e professionale che su un supporto integrato alla costruzione di un progetto di vita complessivo. Le **finalità** relative alle **transizioni formative** sono chiaramente orientate a facilitare il passaggio verso l'università o ulteriori percorsi di specializzazione, con enfasi sullo sviluppo di competenze avanzate e sulla preparazione accademica. Le **capacità orientative** sono evidenziate soprattutto per l'indirizzo sportivo, ma le finalità generali del profilo in uscita implicano lo sviluppo di capacità che supportano scelte future informate.
+
+#### 2.4 Obiettivi
+
+L'**obiettivo** di **ridurre l'abbandono** scolastico è menzionato in relazione all'**Area PAI**, ma la nota è sintetica e non fornisce dettagli sulle strategie concrete. L'**obiettivo** di **continuità con il territorio** è pienamente perseguito e documentato dall'ampio elenco di **partnership**, dimostrando un forte radicamento e impegno nel costruire legami duraturi. L'**obiettivo** di **contrastare il fenomeno dei NEET** è indicato, ma la nota è estremamente sintetica e non specifica le azioni intraprese. L'**obiettivo** del **lifelong learning** è promosso attraverso l'enfasi sullo sviluppo della ricerca scientifica e tecnologica e sull'individuazione delle interazioni tra diverse forme del sapere, supportato da attività opzionali e un'offerta formativa diversificata.
+
+#### 2.5 Azioni di Sistema
+
+L'**azione** di **coordinamento dei servizi** è descritta come finalizzata all'ottimizzazione di tempi e risorse, con un approccio strutturato suggerito dal sistema integrato di gestione e monitoraggio (**RAV** e **PdM**). L'**azione** di **dialogo tra docenti e studenti** è menzionata, ma la nota è estremamente sintetica e non offre indicazioni sulle modalità o l'efficacia di tale dialogo. L'**azione** di **rapporto scuola-genitori** è ben identificata, con attività come colloqui settimanali e generali che contribuiscono a un rapporto costruttivo. L'**azione** di **monitoraggio delle azioni** formative è assicurata attraverso strumenti come il **RAV** e il **PdM**, indicando un processo continuo di verifica dell'efficacia. L'**azione** di creare un **sistema integrato per l'inclusione delle fragilità** è ben supportata dall'**Area PAI** e dall'adozione di una **didattica inclusiva**, dimostrando un'attenzione specifica verso studenti con **DSA/BES**.
+
+#### 2.6 Didattica Orientativa
+
+La **didattica da esperienza degli studenti** è valorizzata attraverso le **attività opzionali pomeridiane**, presentate come occasioni di crescita e incontro con il proprio talento, promuovendo un approccio più esperienziale. La **didattica laboratoriale** è esplicitamente menzionata per il Liceo Scientifico e l'Opzione Scienze Applicate, con un focus sulla pratica e sulla ricerca scientifica. La **didattica con flessibilità di spazi e tempi** è dimostrata dalle **attività opzionali pomeridiane**, che si svolgono con un calendario autonomo, mostrando adattabilità dell'offerta formativa. La **didattica interdisciplinare** è promossa attraverso il nesso tra cultura scientifica e umanistica e l'individuazione di interazioni tra diverse forme del sapere.
+
+#### 2.7 Opzionali Facoltative
+
+L'offerta di **opzionali culturali** è ricca e diversificata, includendo attività come il **Book club** e il **Cineclub**, che arricchiscono il percorso formativo degli studenti. Gli **opzionali laboratoriali ed espressivi** sono ampi e spaziano dalla redazione web alla fotografia, dal fumetto al laboratorio teatrale, fino a corsi di strumento musicale e progettazione assistita. Non vi è una categoria esplicita di **attività ludico-ricreative**, sebbene alcune opzionali possano avere una componente ludica. Il **volontariato** è menzionato come attività opzionale, ma la nota è sintetica. L'offerta **sportiva** è particolarmente sviluppata, soprattutto attraverso l'Indirizzo Sportivo, ma anche con numerosi progetti sportivi offerti a tutti gli indirizzi.
+
+### 3. Punti di Forza
+
+L'istituto "Santa Marta" eccelle nella costruzione di un vasto e solido network di **partnership** con una molteplicità di attori del territorio, che spaziano dal mondo accademico e professionale a quello culturale e sociale. Questo ampio raggio di collaborazioni testimonia una forte apertura e una capacità di integrare risorse esterne. Le **finalità** educative sono ben definite, con particolare attenzione allo sviluppo delle **attitudini** e degli **interessi** degli studenti, promuovendo una formazione culturale equilibrata e stimolando la curiosità scientifica. L'istituto dimostra un forte impegno nel **lifelong learning** e nella **continuità con il territorio**. L'offerta di **opzionali facoltative**, in particolare quelle culturali e laboratoriali/espressive, è notevolmente ricca e diversificata, rispondendo a molteplici interessi degli studenti. La **didattica laboratoriale** e l'approccio **interdisciplinare** sono elementi distintivi.
+
+### 4. Aree di Debolezza
+
+La principale area di debolezza riscontrata è la **mancanza di una sezione dedicata specificamente all'orientamento** nel PTOF. Sebbene le attività orientative siano presenti in modo trasversale, l'assenza di un capitolo organico potrebbe limitare la strutturazione e la visibilità di tali percorsi. Le note relative agli **obiettivi** di **ridurre l'abbandono** e **contrastare i NEET** sono sintetiche e non forniscono dettagli sulle strategie concrete. Il **dialogo docenti-studenti** è menzionato come azione di sistema, ma la sua effettiva implementazione e efficacia non sono chiaramente descritte. L'enfasi sulle **finalità del progetto di vita** sembra più orientata alla preparazione accademica e professionale che a un supporto integrato alla costruzione di un progetto di vita complessivo.
+
+### 5. Gap Analysis
+
+Il PTOF evidenzia un divario tra l'ampia rete di **partnership** e la potenziale integrazione di queste collaborazioni nel curriculum formativo, che potrebbe essere ulteriormente esplicitata. Esiste un gap tra la definizione delle **finalità** relative al **progetto di vita** e la loro traduzione in azioni concrete di supporto integrato alla costruzione di un percorso di vita complessivo per gli studenti. La mancanza di una sezione dedicata all'**orientamento** rappresenta un gap significativo rispetto alle migliori pratiche, nonostante le attività orientative siano presenti in modo diffuso. Le informazioni sugli **obiettivi** di contrasto alla dispersione scolastica e ai NEET necessitano di un approfondimento strategico e operativo.
+
+### 6. Conclusioni
+
+Il PTOF dell'istituto "Santa Marta" delinea un quadro di eccellenza per quanto concerne le **partnership**, la ricchezza dell'offerta formativa opzionale e l'approccio didattico. L'istituto dimostra una forte vocazione all'apertura e all'integrazione con il territorio. Tuttavia, per rafforzare ulteriormente la preparazione degli studenti verso il futuro, sarebbe auspicabile una maggiore strutturazione e visibilità delle attività di **orientamento**, con la creazione di una sezione dedicata nel PTOF. Un approfondimento delle strategie concrete per il raggiungimento degli **obiettivi** di contrasto alla dispersione scolastica e ai NEET, unitamente a una maggiore esplicitazione delle modalità di **dialogo docenti-studenti**, contribuirebbe a rendere il piano ancora più completo ed efficace.

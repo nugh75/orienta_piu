@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "school_id": "SPIS01100V",
+    "denominazione": "\"Parentucelli-Arzela'\"",
+    "tipo_scuola": "II Grado",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Sarzana",
+    "anno_ptof": "2020",
+    "provincia": "La Spezia",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Ricchetti",
+    "cap": "19038",
+    "email": "spis01100v@istruzione.it",
+    "pec": "spis01100v@pec.istruzione.it",
+    "website": "www.parentucelli-arzela.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non è presente una sezione esplicitamente dedicata all'orientamento. Sebbene vi siano riferimenti all'orientamento all'interno di altre sezioni (es. PCTO, Inclusione), manca una trattazione organica e autonoma che ne definisca le finalità, le strategie e le azioni in modo specifico e separato."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [],
+      "partnership_count": 0,
+      "note": "Non sono state individuate partnership esplicitamente nominate nel documento analizzato."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 2
+      },
+      "finalita_interessi": {
+        "score": 2
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      },
+      "note": "Sebbene non vi siano sezioni etichettate come 'Finalità', le 'Priorità desunte dal RAV' (3.2.1) e gli 'Obiettivi formativi prioritari' (3.2.2) delineano le direzioni strategiche e gli scopi dell'istituto, che riflettono implicitamente le finalità educative e orientative. Il punteggio è stato adeguato per riconoscere questa sovrapposizione concettuale."
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      },
+      "note": "Le sezioni 'Priorità e traguardi del RAV' (3.5.4) e 'Obiettivi formativi' (3.5.5) descrivono chiaramente obiettivi e traguardi perseguiti dall'istituto. Questi elementi, pur non essendo esplicitamente categorizzati come 'obiettivi formativi prioritari' nella struttura del JSON, sono presenti nel contenuto e giustificano un punteggio superiore allo zero."
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      },
+      "note": "La sezione 'Azioni per l'inclusione scolastica' (3.3.8) e 'Reti e convenzioni attivate' (3.4.3) descrivono azioni concrete che implicano coordinamento di servizi, dialogo con le famiglie e monitoraggio, allineandosi con le voci di questo punteggio. Vi è quindi una chiara evidenza di azioni sistemiche."
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 2
+      },
+      "note": "Le 'Iniziative di ampliamento curricolare' (3.3.5) e le attività descritte nel 'Piano di miglioramento' (3.2.3) suggeriscono l'implementazione di metodologie didattiche attive e potenzialmente laboratoriali. Anche i PCTO (3.3.4) implicano attività pratiche. Sebbene non esplicitamente etichettate come 'didattica orientativa', queste attività contribuiscono a tale approccio."
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      },
+      "note": "Le 'Iniziative di ampliamento curricolare' (3.3.5) e le 'Attività in relazione al PNSD' (3.3.6) possono includere, a seconda della loro specifica attuazione da parte dell'istituto, attività che rientrano nelle categorie di opzionali culturali, laboratoriali, ludiche o sportive. Il punteggio riflette questa potenziale inclusione."
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Priorità desunte dal RAV",
+      "categoria_principale": "Scelte strategiche",
+      "descrizione_e_metodologia": "Definizione delle priorità strategiche e dei relativi traguardi rispetto agli esiti, modificabili e aggiungibili.",
+      "target": "Istituto"
+    },
+    {
+      "titolo_attivita": "Obiettivi formativi prioritari",
+      "categoria_principale": "Scelte strategiche",
+      "descrizione_e_metodologia": "Selezione degli obiettivi formativi previsti dalla legge 107/15 e possibilità di aggiungere obiettivi personalizzati.",
+      "target": "Istituto"
+    },
+    {
+      "titolo_attivita": "Piano di miglioramento",
+      "categoria_principale": "Scelte strategiche",
+      "descrizione_e_metodologia": "Inserimento e gestione di percorsi di miglioramento tramite schede dettagliate.",
+      "target": "Istituto"
+    },
+    {
+      "titolo_attivita": "Titolo del percorso di miglioramento",
+      "categoria_principale": "Percorso di miglioramento",
+      "descrizione_e_metodologia": null,
+      "target": null
+    },
+    {
+      "titolo_attivita": "Titolo dell'attività",
+      "categoria_principale": "Attività",
+      "descrizione_e_metodologia": null,
+      "target": null
+    },
+    {
+      "titolo_attivita": "Titolo e didascalia dell'area di innovazione",
+      "categoria_principale": "Area di innovazione",
+      "descrizione_e_metodologia": "Descrizione dell’area di innovazione",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Titolo nuova area di innovazione",
+      "categoria_principale": "Area di innovazione aggiunta",
+      "descrizione_e_metodologia": "Descrizione della nuova area di innovazione",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e per l'orientamento (PCTO)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Gestione e inserimento di progetti PCTO per scuole secondarie di secondo grado.",
+      "target": "Studenti scuole secondarie di secondo grado"
+    },
+    {
+      "titolo_attivita": "Progetto PCTO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Titolo, descrizione e modalità obbligatori. Campi rimanenti facoltativi.",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Ampliamento curricolare",
+      "categoria_principale": "Ampliamento curricolare",
+      "descrizione_e_metodologia": "Titolo e descrizione obbligatori. Campi rimanenti facoltativi. Possibilità di indicare risorse materiali e professionali.",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Attività PNSD",
+      "categoria_principale": "PNSD",
+      "descrizione_e_metodologia": "Titolo obbligatorio. Associazione di un'unica azione tra quelle proposte.",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Valutazione degli apprendimenti",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Campi di testo libero con possibilità di aggiungerne di nuovi e inserire allegati.",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Azioni per l'inclusione scolastica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Analisi del contesto, definizione progetti individuali (campi obbligatori), modalità coinvolgimento famiglie (campi obbligatori), valutazione, continuità e orientamento (campo testo libero ed eventuale allegato).",
+      "target": null
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "Didattica Digitale Integrata",
+      "descrizione_e_metodologia": "Esplicitazione delle modalità di organizzazione della DDI, metodologie didattiche, strumenti di verifica e valutazione, con attenzione agli alunni con bisogni educativi speciali.",
+      "target": "Alunni con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Modello organizzativo",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Selezione periodo didattico (trimestre, quadrimestre, altro), modifica voci relative a Figure e Funzioni organizzative e Modalità di utilizzo organico dell'autonomia.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Figure e Funzioni organizzative",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Selezione Figura, indicazione unità attive e compilazione funzioni assegnate.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Modalità di utilizzo organico dell'autonomia",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Compilazione Ordine scuola, Classe di concorso, Numero unità attive e Descrizione dell’attività.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Organizzazione uffici e modalità di rapporto con l’utenza",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Gestione organizzazione uffici amministrativi e servizi attivati per la dematerializzazione dell’attività amministrativa.",
+      "target": "Utenza scolastica"
+    },
+    {
+      "titolo_attivita": "Organizzazione uffici amministrativi",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Compilazione obbligatoria del campo funzioni per ogni responsabile/ufficio selezionato.",
+      "target": "Personale amministrativo"
+    },
+    {
+      "titolo_attivita": "Servizi attivati per la dematerializzazione dell'attività amministrativa",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Valorizzazione obbligatoria del campo \"Servizio Offerto\" tramite menù a tendina. Facoltativo inserimento link al servizio.",
+      "target": "Personale amministrativo"
+    },
+    {
+      "titolo_attivita": "Reti e convenzioni attivate",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Compilazione obbligatoria del campo \"Denominazione della Rete\". Valorizzazione di almeno una voce tra \"Azioni da Realizzare\" ed \"Eventuali Risorse Condivise\". Campi \"Soggetti coinvolti\" e \"Ruolo assunto dalla scuola\" obbligatori.",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Piano di formazione del personale docente",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Inserimento obbligatorio del titolo e della descrizione dell'attività. Altri campi facoltativi.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Piano di formazione del personale ATA",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Inserimento obbligatorio del titolo e della descrizione dell'attività di formazione. Altri campi facoltativi.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Attività svolte per il conseguimento dell'obiettivo formativo",
+      "categoria_principale": "Obiettivi formativi",
+      "descrizione_e_metodologia": "Descrizione delle attività svolte per il conseguimento dell'obiettivo formativo.",
+      "target": "Obiettivi formativi prioritari"
+    },
+    {
+      "titolo_attivita": "Iniziative di ampliamento curricolare collegate all'obiettivo",
+      "categoria_principale": "Obiettivi formativi",
+      "descrizione_e_metodologia": "Elenco delle iniziative di ampliamento curricolare selezionate come collegate all'obiettivo formativo.",
+      "target": "Obiettivi formativi prioritari"
+    },
+    {
+      "titolo_attivita": "Risultati raggiunti per il conseguimento dell'obiettivo formativo",
+      "categoria_principale": "Obiettivi formativi",
+      "descrizione_e_metodologia": "Descrizione dei risultati raggiunti per il conseguimento dell'obiettivo formativo.",
+      "target": "Obiettivi formativi prioritari"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl presente report analizza la Sezione 2 del PTOF dell'istituto scolastico SPIS01100V per l'anno 2020, focalizzandosi sulle scelte strategiche e sugli obiettivi formativi. L'analisi evidenzia la presenza di una sezione dedicata all'orientamento, sebbene la sua estensione e specificità siano state oggetto di revisione critica. Sono state valutate le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali/facoltative, riscontrando aree di miglioramento nella valorizzazione del contenuto effettivo rispetto alla mera etichettatura delle sezioni.\n\n## 2. Analisi Dimensionale\n\nL'analisi dimensionale della Sezione 2 del PTOF rivela una struttura che, pur toccando aspetti fondamentali, necessita di un approfondimento e di una maggiore esplicitazione in alcune aree chiave:\n\n*   **Orientamento:** La valutazione iniziale indicava la presenza di una sezione dedicata all'orientamento con un punteggio elevato. Tuttavia, una revisione più attenta ha evidenziato l'assenza di una sezione autonoma e specificamente intitolata \"Orientamento\". Sebbene i Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO) e altri riferimenti all'orientamento siano presenti in altre parti del documento, manca una trattazione organica che definisca in modo completo le strategie e le azioni in questo ambito. Il punteggio è stato pertanto ridimensionato per riflettere questa mancanza di una sezione dedicata e autonoma.\n*   **Finalità, Obiettivi, Azioni di Sistema, Didattica Orientativa e Opzionali/Facoltative:** Inizialmente valutati con punteggio zero, questi ambiti sono stati oggetto di una rivalutazione. Le sezioni \"Priorità desunte dal RAV\" e \"Obiettivi formativi prioritari\", unitamente alle azioni descritte per l'inclusione e alle iniziative di ampliamento curricolare, dimostrano una chiara intenzione e un'attività concreta che si allineano concettualmente con le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali/facoltative. I punteggi sono stati adeguati per riconoscere la presenza di contenuti pertinenti, anche se non esplicitamente etichettati secondo le categorie del JSON.\n\n## 3. Punti di Forza\n\n*   **Presenza di Scelte Strategiche:** Il documento evidenzia la definizione di priorità strategiche e obiettivi formativi, desunti dal RAV e dalla normativa vigente, che forniscono una direzione chiara all'azione educativa dell'istituto.\n*   **Attenzione all'Inclusione e al Miglioramento:** La pianificazione di azioni per l'inclusione scolastica e l'esistenza di un \"Piano di miglioramento\" dimostrano un impegno verso il benessere e la crescita di tutti gli studenti.\n*   **Integrazione con il Territorio e le Reti:** La menzione di \"Reti e convenzioni attivate\" suggerisce una volontà di collaborazione e integrazione con il contesto esterno, fondamentale per un'offerta formativa completa.\n*   **Strumenti di Gestione e Organizzazione:** Il registro delle attività mostra la presenza di moduli per la gestione di aspetti organizzativi, amministrativi e di formazione del personale, indicando un'attenzione alla struttura e al funzionamento dell'istituto.\n\n## 4. Debolezze\n\n*   **Mancanza di una Sezione Dedicata all'Orientamento:** L'assenza di una sezione autonoma e completa sull'orientamento rappresenta una lacuna significativa, limitando la chiarezza e la coerenza delle strategie in questo ambito cruciale.\n*   **Sovrapposizione tra Contenuti e Categorie JSON:** Alcuni contenuti rilevanti sono presenti nel documento ma non sono stati pienamente valorizzati a causa di una mancata corrispondenza con le categorie specifiche del JSON (es. finalità, obiettivi, didattica orientativa). Questo suggerisce una potenziale rigidità nell'analisi o una necessità di maggiore flessibilità nell'interpretazione dei contenuti.\n*   **Analisi Incompleta del PTOF:** Il JSON si concentra principalmente sulla Sezione 2 e sul registro delle attività, tralasciando un'analisi approfondita delle altre sezioni del PTOF (La scuola e il suo contesto, L'offerta formativa), limitando la visione d'insieme.\n*   **Mancanza di Dettaglio Contestuale:** I metadati relativi all'identificazione dell'istituto (denominazione, tipo scuola, area geografica, ecc.) sono incompleti, rendendo più difficile una contestualizzazione precisa dell'analisi.\n\n## 5. Gap Analysis\n\nIl principale gap riscontrato riguarda la **mancanza di una sezione organica e dedicata all'orientamento**. Sebbene i temi correlati siano trattati in diverse parti del PTOF, l'assenza di un'area specifica dedicata impedisce una visione completa e strategica di questo aspetto fondamentale del percorso formativo dello studente. Un altro gap significativo è la **limitata analisi delle sezioni 3.1 \"La scuola e il suo contesto\" e 3.3 \"L'offerta formativa\"** nel JSON fornito. L'integrazione di queste sezioni nell'analisi JSON permetterebbe una valutazione più olistica del PTOF. Infine, vi è un gap nella **valorizzazione completa dei contenuti presenti nel registro delle attività** rispetto ai punteggi assegnati, in particolare per quanto concerne finalità, obiettivi e azioni di sistema, che sono implicitamente presenti ma non sempre esplicitamente categorizzati.\n\n## 6. Conclusioni\n\nL'analisi della Sezione 2 del PTOF dell'istituto SPIS01100V per l'anno 2020 evidenzia un impegno nella definizione di scelte strategiche e obiettivi formativi, con una particolare attenzione all'inclusione e al miglioramento continuo. Tuttavia, emerge una criticità significativa nella **mancanza di una sezione dedicata all'orientamento**, che necessita di essere affrontata per garantire una pianificazione più strutturata e completa. È altresì raccomandato un approccio analitico più flessibile, capace di cogliere la pertinenza dei contenuti anche quando non perfettamente allineati alle categorie predefinite, come dimostrato dalla rivalutazione dei punteggi relativi a finalità, obiettivi e azioni di sistema. Per una valutazione esaustiva, sarebbe opportuno estendere l'analisi JSON alle restanti sezioni del PTOF e completare i metadati contestuali dell'istituto. L'integrazione di queste raccomandazioni permetterà di ottenere un quadro più completo e accurato dell'offerta formativa e delle strategie dell'istituto."
+}

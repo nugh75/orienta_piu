@@ -39,6 +39,28 @@ Alias equivalente:
 make workflow
 ```
 
+### Parametri Workflow
+
+| Parametro | Descrizione | Esempio |
+|-----------|-------------|---------|
+| `PRESET` | ID configurazione LLM (vedi `config/pipeline_config.json`) | `PRESET=8` |
+| `FORCE_CODE` | Ri-analizza SOLO una scuola specifica (⚡ fast-track: skip Step 0,1) | `FORCE_CODE=BA1MD7500G` |
+| `SKIP_VALIDATION` | Salta validazione PTOF (Step -1) | `SKIP_VALIDATION=1` |
+| `PROVIDER` | Provider LLM (ollama, openai, openrouter) | `PROVIDER=openrouter` |
+| `MODEL` | Modello da usare per tutti gli agenti | `MODEL=gemma3:27b` |
+
+**Esempi avanzati:**
+```bash
+# Analisi con OpenRouter Gemini 2.5
+make workflow PRESET=8
+
+# Ri-analisi singola scuola (⚡ FAST-TRACK: ~10sec vs 5min)
+make workflow PRESET=8 FORCE_CODE=BA1MD7500G
+
+# Batch veloce senza validazione
+make workflow PRESET=8 SKIP_VALIDATION=1
+```
+
 ### 3. Visualizza Risultati
 ```bash
 make dashboard

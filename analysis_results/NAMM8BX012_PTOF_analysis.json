@@ -1,0 +1,819 @@
+{
+  "metadata": {
+    "school_id": "NAMM8BX012",
+    "denominazione": "Sms B. Croce - 18' C.D.Napoli-",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via A. De Gasperis 15",
+    "cap": "80137",
+    "email": "naic8bx001@istruzione.it",
+    "pec": "con.parigi.scuolaitaliana@cert.esteri.it",
+    "website": "www.volinocrocearcoleo.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 3,
+      "note": "Non esiste una sezione autonoma dedicata all'orientamento nel PTOF. Tuttavia, le priorità strategiche e formative (p. 10) e diverse attività specifiche (es. Percorsi per l’orientamento/P.C.T.O., p. 17-18) affrontano in modo approfondito questo tema, dimostrando una forte attenzione alla guida degli studenti nelle loro scelte formative e professionali."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Consolato Generale d’Italia a Parigi",
+        "AGEM (Associazione Genitori École Maternelle)",
+        "Ministero dell’Istruzione e del Merito (M.I.M.)",
+        "Ministero degli Affari Esteri e della Cooperazione Internazionale (M.A.E.C.I.)",
+        "Ministère de l’Éducation Nationale francese",
+        "Associazione Le biblioteche di Camilla",
+        "Università francesi",
+        "Università italiane",
+        "Aziende francesi",
+        "Aziende italo-francesi",
+        "Osservatorio Giovani-Editori",
+        "Istituto Italiano di Cultura",
+        "Società Dante Alighieri",
+        "associazioni",
+        "fondazioni",
+        "scuole locali",
+        "comune di Parigi"
+      ],
+      "partnership_count": 17,
+      "note": "La lista dei partner è stata revisionata per includere solo entità con cui l'istituto intrattiene collaborazioni esplicite e documentate nel PTOF, escludendo ripetizioni, enti di riferimento generici o figure non partner. Sono state mantenute le collaborazioni con istituzioni, associazioni, università e aziende che supportano le attività formative e di orientamento."
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "note": "L'istituto mira a supportare gli studenti nel loro percorso di crescita culturale e nell'assunzione di un ruolo attivo nella società, promuovendo lo sviluppo di attitudini e competenze necessarie per diventare cittadini consapevoli e partecipi."
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "note": "Il PTOF dedica una notevole attenzione all'orientamento universitario e professionale, come evidenziato dalle pagine 17-18 che descrivono dettagliatamente incontri con esperti, l'uso di piattaforme come Parcoursup e l'organizzazione di stage. Queste azioni mirano a fornire agli studenti gli strumenti per scelte informate e consapevoli."
+      },
+      "finalita_progetto_vita": {
+        "score": 5,
+        "note": "L'istituto si impegna a guidare gli studenti nella definizione del proprio progetto di vita, supportandoli nelle scelte scolastiche e professionali future attraverso un percorso di orientamento strutturato e personalizzato."
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "note": "Viene posta particolare enfasi sulla facilitazione dell'inserimento degli studenti che provengono da sistemi scolastici diversi (italiano e francese), garantendo un passaggio fluido e un'integrazione efficace nel nuovo contesto educativo."
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5,
+        "note": "L'istituto conferma e rafforza il suo ruolo di polo formativo e culturale di riferimento per la comunità italiana e italofona a Parigi, offrendo opportunità educative e culturali che rispondono alle esigenze della comunità."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3,
+        "note": "Sono previsti percorsi di recupero delle insufficienze e supporto individualizzato per contrastare la dispersione scolastica, con particolare attenzione ai bisogni specifici degli studenti."
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5,
+        "note": "La continuità educativa tra i diversi ordini di scuola (infanzia, primaria, secondaria di I e II grado) è un obiettivo centrale, promosso attraverso progetti di accoglienza, orientamento e un curricolo verticale che assicura coerenza e progressione nell'apprendimento."
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1,
+        "note": "Sebbene non esplicitamente menzionato come obiettivo primario, le attività di orientamento professionale e l'enfasi sulla formazione continua contribuiscono indirettamente a ridurre il rischio di NEET."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4,
+        "note": "L'istituto promuove attivamente la formazione continua del personale docente e ATA, riconoscendo l'importanza dell'aggiornamento professionale per garantire un'offerta formativa di qualità e al passo con le evoluzioni pedagogiche e tecnologiche."
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4,
+        "note": "L'istituto implementa azioni mirate per garantire un percorso scolastico proficuo e un ambiente di crescita sereno agli studenti con bisogni educativi speciali, attraverso percorsi individualizzati, supporto dedicato e un'attenta pianificazione degli interventi."
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4,
+        "note": "I colloqui individuali e le attività di tutoraggio sono strumenti fondamentali per l'orientamento degli studenti, permettendo un dialogo costante sulle loro aspirazioni, difficoltà e percorsi formativi."
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5,
+        "note": "La promozione della collaborazione tra tutte le componenti della comunità scolastica, inclusi genitori e famiglie, è un pilastro dell'azione educativa, volta a creare un ambiente di supporto condiviso per il successo formativo degli studenti."
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5,
+        "note": "La verifica e la valutazione periodica dei Piani Educativi Individualizzati (PEI) e dei Piani Didattici Personalizzati (PDP) assicurano l'efficacia degli interventi a favore degli studenti con Bisogni Educativi Speciali e monitorano il progresso verso gli obiettivi prefissati."
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4,
+        "note": "Vengono attivati percorsi individualizzati di recupero, adeguamento per i nuovi iscritti e supporto specifico per studenti con BES, DSA e disabilità, integrando le risorse della scuola per rispondere efficacemente alle fragilità."
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4,
+        "note": "L'istituto promuove un approccio didattico che valorizza l'esperienza degli studenti, coniugando l'identità culturale italiana e francese attraverso l'innovazione pedagogica e l'integrazione di metodologie attive."
+      },
+      "didattica_laboratoriale": {
+        "score": 5,
+        "note": "Il potenziamento dell'approccio laboratoriale, inclusa l'attività con il Banco Scientifico Mobile, è una priorità per favorire l'apprendimento pratico e l'acquisizione di competenze concrete in diverse discipline."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3,
+        "note": "La flessibilità nella gestione degli spazi e dei tempi è evidente attraverso l'organizzazione in quadrimestri/pentamestri, l'alternanza di attività curricolari ed extrascolastiche, e l'adattamento delle metodologie alle esigenze degli studenti, sebbene non sia l'elemento più dettagliato del PTOF."
+      },
+      "didattica_interdisciplinare": {
+        "score": 5,
+        "note": "L'approccio interdisciplinare è promosso a tutti i livelli: dalla primaria con collegamenti tra discipline, alla secondaria di I grado con la capacità di creare connessioni, fino al liceo scientifico EsaBac con l'integrazione tra materie scientifiche, umanistiche e lingue."
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5,
+        "note": "Un'ampia gamma di attività culturali arricchisce l'offerta formativa: visite guidate, spettacoli, conferenze, partecipazione a eventi come il Dantedì, la Settimana della Lingua Italiana e la Giornata della Memoria."
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4,
+        "note": "Le attività laboratoriali ed espressive includono sport, teatro, arte, musica e la redazione giornalistica, offrendo agli studenti opportunità per sviluppare talenti e interessi in diverse aree."
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3,
+        "note": "Attività come scacchi, giochi da tavolo e Libro Game stimolano il pensiero strategico e la creatività, integrando l'apprendimento in un contesto ludico."
+      },
+      "opzionali_volontariato": {
+        "score": 4,
+        "note": "Il coinvolgimento dei genitori volontari nella gestione della biblioteca scolastica, supportata dall'Associazione Le biblioteche di Camilla, rappresenta un esempio significativo di volontariato e partecipazione attiva della comunità."
+      },
+      "opzionali_sportive": {
+        "score": 5,
+        "note": "Le attività sportive, sia curricolari che extrascolastiche, sono ampiamente promosse per favorire il benessere fisico e lo spirito di squadra degli studenti."
+      }
+    },
+    "2_8_organizzazione": {
+      "dirigente_scolastico": {
+        "score": 5,
+        "note": "La figura del Dirigente Scolastico è centrale nella guida strategica dell'istituto, nella definizione del Piano Triennale dell'Offerta Formativa e nella promozione di un ambiente di apprendimento inclusivo e stimolante."
+      },
+      "dsga_personale_ata": {
+        "score": 4,
+        "note": "Il Direttore dei Servizi Generali e Amministrativi (DSGA) e il personale ATA svolgono un ruolo fondamentale nel supporto organizzativo, amministrativo e tecnico, garantendo il buon funzionamento della scuola e la gestione dei servizi."
+      },
+      "funzioni_strumentali": {
+        "score": 5,
+        "note": "Le Funzioni Strumentali (Area 3a Tecnologia e Area 3b Comunicazione) sono attivamente coinvolte nella progettazione e realizzazione di attività formative per i docenti e nel supporto al personale ATA, dimostrando un'organizzazione efficiente e orientata all'innovazione."
+      },
+      "servizi_dematerializzazione": {
+        "score": 4,
+        "note": "L'istituto utilizza il registro elettronico AXIOS e mette a disposizione modulistica sul sito istituzionale per la dematerializzazione delle attività organizzative, ottimizzando i processi e migliorando l'efficienza comunicativa con il personale scolastico e le famiglie."
+      },
+      "formazione_sicurezza": {
+        "score": 4,
+        "note": "Vengono erogate formazioni periodiche sulla sicurezza per il personale docente e ATA, garantendo un ambiente di lavoro sicuro e la conformità alle normative vigenti."
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corso di francese per principianti (F.L.E. Français Langue Étrangère)",
+      "categoria_principale": "Inclusione Linguistica",
+      "descrizione_e_metodologia": "Corso extrascolastico volto a fornire agli studenti non francofoni le competenze linguistiche necessarie per un proficuo inserimento nel contesto scolastico e sociale.",
+      "target": "Studenti non francofoni"
+    },
+    {
+      "titolo_attivita": "Potenziamento del ruolo formativo e culturale",
+      "categoria_principale": "Identità e Riferimento",
+      "descrizione_e_metodologia": "Mantenimento e rafforzamento della posizione dell'istituto come centro formativo e culturale di riferimento per la comunità italiana e italofona a Parigi, attraverso un'offerta didattica e culturale mirata.",
+      "target": "Comunità italiana e italofona a Parigi"
+    },
+    {
+      "titolo_attivita": "Innovazione didattica per l'integrazione culturale",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Utilizzo di metodologie didattiche innovative per integrare e valorizzare l'identità culturale italiana e francese nel percorso formativo degli studenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sinergia con istituzioni italiane e francesi",
+      "categoria_principale": "Partnership Istituzionali",
+      "descrizione_e_metodologia": "Sviluppo e mantenimento di collaborazioni strategiche con istituzioni italiane e francesi presenti sul territorio per arricchire l'offerta formativa e le opportunità per gli studenti.",
+      "target": "Istituzioni italiane e francesi"
+    },
+    {
+      "titolo_attivita": "Valorizzazione del curricolo verticale",
+      "categoria_principale": "Continuità Didattica",
+      "descrizione_e_metodologia": "Promozione dell'interazione e della coerenza tra i diversi ordini di scuola (primaria, media, liceo scientifico EsaBac) per garantire un percorso formativo unitario e progressivo.",
+      "target": "Studenti (Primaria, Media, Liceo)"
+    },
+    {
+      "titolo_attivita": "Formazione alla cittadinanza attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Guida degli studenti nel loro percorso formativo per sviluppare competenze e consapevolezza necessarie all'assunzione di un ruolo attivo e responsabile nella società.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione del benessere e stili di vita sani",
+      "categoria_principale": "Benessere Studenti",
+      "descrizione_e_metodologia": "Attività volte a favorire il benessere psicofisico degli studenti e a promuovere l'adozione di abitudini salutari nel quotidiano.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Supporto agli studenti con bisogni educativi speciali",
+      "categoria_principale": "Inclusione Scolastica",
+      "descrizione_e_metodologia": "Garanzia di un percorso scolastico proficuo e di un ambiente sereno per gli studenti con Bisogni Educativi Speciali, attraverso interventi mirati e personalizzati.",
+      "target": "Studenti con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Collaborazione della comunità scolastica",
+      "categoria_principale": "Comunità Scolastica",
+      "descrizione_e_metodologia": "Incoraggiamento della cooperazione e del dialogo tra docenti, personale ATA, studenti e famiglie per creare un ecosistema educativo coeso e partecipativo.",
+      "target": "Docenti, ATA, Studenti, Famiglie"
+    },
+    {
+      "titolo_attivita": "Orientamento scolastico e professionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto agli studenti nella scelta consapevole del percorso scolastico e professionale, attraverso attività informative, consulenza e percorsi personalizzati.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Facilitazione dell'inserimento di studenti da sistemi diversi",
+      "categoria_principale": "Integrazione Scolastica",
+      "descrizione_e_metodologia": "Attività volte a facilitare l'integrazione degli studenti provenienti da scuole italiane e francesi, promuovendo un inserimento armonioso e proficuo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione di comportamenti ecosostenibili",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Incentivazione di pratiche e comportamenti ecosostenibili all'interno della vita scolastica, con l'obiettivo di sensibilizzare l'intera comunità.",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Promozione di esperienze di solidarietà e legalità",
+      "categoria_principale": "Educazione Civica e Sociale",
+      "descrizione_e_metodologia": "Proposte di attività educative volte a promuovere valori quali solidarietà, legalità, rispetto reciproco e senso civico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione continua del personale",
+      "categoria_principale": "Sviluppo Professionale",
+      "descrizione_e_metodologia": "Offerta di opportunità di aggiornamento e sviluppo professionale per docenti e personale ATA, al fine di migliorare le competenze e l'efficacia dell'azione educativa.",
+      "target": "Personale docente e ATA"
+    },
+    {
+      "titolo_attivita": "Sviluppo di una rete di relazioni",
+      "categoria_principale": "Networking",
+      "descrizione_e_metodologia": "Costruzione e mantenimento di connessioni significative con realtà locali, italiane e internazionali, per ampliare le opportunità formative e culturali.",
+      "target": "Istituto, Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Attività di sperimentazione scientifica",
+      "categoria_principale": "Didattica Laboratoriale STEM",
+      "descrizione_e_metodologia": "Utilizzo del Banco Scientifico Mobile per attività pratiche di Biologia, Chimica e Fisica, volte a stimolare l'interesse per le discipline scientifiche.",
+      "target": "Studenti del Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Gestione della biblioteca da parte di volontari",
+      "categoria_principale": "Volontariato e Comunità",
+      "descrizione_e_metodologia": "Coinvolgimento attivo di genitori volontari nella gestione del prestito e della catalogazione bibliotecaria, supportati dall'Associazione Le biblioteche di Camilla.",
+      "target": "Studenti, Famiglie, Volontari"
+    },
+    {
+      "titolo_attivita": "Potenziamento didattica lingue straniere (Francese e Inglese)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Attività curricolari ed extracurricolari, preparazione per certificazioni linguistiche, volte al potenziamento delle competenze in lingua francese e inglese.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Valorizzazione delle eccellenze",
+      "categoria_principale": "Didattica per Eccellenze",
+      "descrizione_e_metodologia": "Partecipazione a concorsi, olimpiadi e progetti a livello nazionale e internazionale per stimolare e riconoscere le capacità degli studenti.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Percorsi individualizzati di recupero e supporto",
+      "categoria_principale": "Inclusione e Recupero",
+      "descrizione_e_metodologia": "Attivazione di percorsi specifici per il recupero delle insufficienze, l'adeguamento per i nuovi iscritti e il supporto a studenti con BES, DSA e disabilità.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento approccio laboratoriale",
+      "categoria_principale": "Metodologie Didattiche Attive",
+      "descrizione_e_metodologia": "Applicazione sistematica di metodologie didattiche attive e partecipative per favorire un apprendimento esperienziale e significativo.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Offerta formativa extrascolastica",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Proposta di corsi di recupero/potenziamento, attività sportive, teatrali, artistiche, musicali e redazione giornalistica per ampliare l'offerta formativa.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Salute e Benessere",
+      "descrizione_e_metodologia": "Sviluppo di percorsi specifici dedicati all'educazione alla salute e alla promozione di stili di vita sani.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Formazione al primo soccorso",
+      "categoria_principale": "Sicurezza e Primo Soccorso",
+      "descrizione_e_metodologia": "Erogazione di corsi di formazione sulle procedure di primo soccorso per preparare la comunità scolastica a gestire emergenze.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Sviluppo competenze digitali",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Integrazione di attività volte al potenziamento delle competenze digitali degli studenti, fondamentali nel mondo contemporaneo.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Integrazione competenze disciplinari e trasversali",
+      "categoria_principale": "Didattica Trasversale",
+      "descrizione_e_metodologia": "Attività didattiche finalizzate a connettere le diverse aree del sapere e a sviluppare competenze trasversali applicabili in contesti diversi.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Arricchimento didattico esperienziale",
+      "categoria_principale": "Attività Didattiche Integrative",
+      "descrizione_e_metodologia": "Organizzazione di visite didattiche, conferenze, spettacoli, laboratori e viaggi di istruzione per arricchire l'esperienza formativa degli studenti.",
+      "target": "Tutti gli ordini di grado"
+    },
+    {
+      "titolo_attivita": "Acquisizione autonomia e organizzazione (Primaria)",
+      "categoria_principale": "Autonomia e Organizzazione",
+      "descrizione_e_metodologia": "Attività mirate allo sviluppo dell'autonomia nella gestione dei materiali e nell'organizzazione del proprio lavoro scolastico.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Sviluppo relazioni costruttive (Primaria)",
+      "categoria_principale": "Competenze Relazionali",
+      "descrizione_e_metodologia": "Attività volte a favorire l'instaurazione di relazioni positive e costruttive tra pari e con gli adulti.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Acquisizione metodologia di studio (Primaria)",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "Introduzione a strategie di apprendimento efficaci e all'acquisizione di un metodo di studio personale.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Metodologie didattiche diversificate (Primaria)",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Applicazione di un approccio didattico attivo, partecipativo, che promuove il senso critico e l'apprendimento significativo.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Approccio interdisciplinare (Primaria)",
+      "categoria_principale": "Didattica Interdisciplinare",
+      "descrizione_e_metodologia": "Attività volte a creare collegamenti significativi tra le diverse discipline, favorendo una visione olistica del sapere.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Consolidamento autonomia e organizzazione (Media)",
+      "categoria_principale": "Autonomia e Organizzazione",
+      "descrizione_e_metodologia": "Attività per consolidare la capacità di gestione dei materiali e l'organizzazione del proprio percorso di studio.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Gestione delle relazioni (Media)",
+      "categoria_principale": "Competenze Relazionali",
+      "descrizione_e_metodologia": "Sviluppo della capacità di gestire relazioni costruttive e collaborative con compagni e adulti.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Metodologie di studio specifiche (Media)",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "Acquisizione di strategie di apprendimento mirate alle specificità delle diverse discipline.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento esposizione orale (Media)",
+      "categoria_principale": "Competenze Comunicative",
+      "descrizione_e_metodologia": "Sviluppo della capacità di presentare oralmente contenuti in modo chiaro, efficace e argomentato.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Comprensione testi specifici (Media)",
+      "categoria_principale": "Competenze Linguistiche e Disciplinari",
+      "descrizione_e_metodologia": "Miglioramento della comprensione di testi disciplinari e dell'uso di linguaggi tecnici specifici.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Collegamenti interdisciplinari (Media)",
+      "categoria_principale": "Didattica Interdisciplinare",
+      "descrizione_e_metodologia": "Sviluppo della capacità di creare connessioni e sinergie tra diverse materie di studio.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento materie artistiche (Media)",
+      "categoria_principale": "Discipline Artistiche",
+      "descrizione_e_metodologia": "Valorizzazione dell'insegnamento artistico attraverso attività specifiche e progetti dedicati.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Supporto all'inserimento (Liceo)",
+      "categoria_principale": "Orientamento e Transizione",
+      "descrizione_e_metodologia": "Attività di supporto mirate agli studenti che provengono da altri indirizzi, per facilitare il loro inserimento nel percorso del Liceo Scientifico EsaBac.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Interdisciplinarità (Liceo)",
+      "categoria_principale": "Didattica Interdisciplinare",
+      "descrizione_e_metodologia": "Promozione di collegamenti tra materie scientifiche, umanistiche e lingue, in linea con il percorso EsaBac.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Potenziamento STEM (Liceo)",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Focus potenziato sulle materie scientifiche, tecnologiche, ingegneristiche e matematiche per preparare gli studenti alle sfide future.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Valorizzazione didattica Latino (Liceo)",
+      "categoria_principale": "Discipline Umanistiche",
+      "descrizione_e_metodologia": "Approfondimento dell'insegnamento della lingua e della cultura latina come strumento per la comprensione del pensiero occidentale.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Valorizzazione Storia dell'Arte e discipline artistiche (Liceo)",
+      "categoria_principale": "Discipline Artistiche",
+      "descrizione_e_metodologia": "Approfondimento dell'insegnamento di Storia dell'Arte e altre discipline artistiche per sviluppare sensibilità estetica e critica.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Consolidamento metodologia studio (Liceo)",
+      "categoria_principale": "Metodologie di Studio",
+      "descrizione_e_metodologia": "Rafforzamento delle strategie di apprendimento e di studio autonomo degli allievi, in preparazione agli studi universitari.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Insegnamento lingua francese (Primaria)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnamento della lingua francese affidato a docente madrelingua, secondo il modello pedagogico francese.",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Insegnamento lingua francese (Media)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Integrazione di tre ore settimanali di lingua francese nel curricolo della scuola secondaria di I grado.",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Insegnamento lingua francese (Liceo)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnamento della lingua francese curato da un docente del Ministère de l’Éducation Nationale francese.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Percorso EsaBac",
+      "categoria_principale": "Percorsi Bilingue/Biculturale",
+      "descrizione_e_metodologia": "Percorso di eccellenza che garantisce l'equivalenza del diploma italiano e francese, facilitando l'iscrizione universitaria e promuovendo una dimensione bilingue e biculturale.",
+      "target": "Scuola secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Langue et Littérature françaises (EsaBac)",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Ore settimanali dedicate allo studio approfondito della lingua e letteratura francese nel quadro del percorso EsaBac.",
+      "target": "Scuola secondaria di II grado (EsaBac)"
+    },
+    {
+      "titolo_attivita": "Histoire (EsaBac)",
+      "categoria_principale": "Storia Biculturale",
+      "descrizione_e_metodologia": "Programma di Storia svolto in lingua francese, integrando contenuti e metodologie dell'insegnamento francese.",
+      "target": "Scuola secondaria di II grado (EsaBac)"
+    },
+    {
+      "titolo_attivita": "Dimensione biculturale EsaBac",
+      "categoria_principale": "Cultura Biculturale",
+      "descrizione_e_metodologia": "Integrazione della dimensione biculturale in tutte le aree disciplinari per un'esperienza formativa completa.",
+      "target": "Scuola secondaria di II grado (EsaBac)"
+    },
+    {
+      "titolo_attivita": "Insegnamento Educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Insegnamento pluridisciplinare dell'Educazione civica, in coerenza con le Linee Guida ministeriali.",
+      "target": "Scuola primaria, Scuola secondaria di I grado, Liceo"
+    },
+    {
+      "titolo_attivita": "Orientamento alla scelta della scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri informativi per studenti e genitori sulle opzioni della scuola secondaria di II grado italiana, il sistema francese e gli studi post-diploma.",
+      "target": "Studenti III media e genitori"
+    },
+    {
+      "titolo_attivita": "Orientamento universitario e professionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti universitari e professionali, presentazione di Parcoursup e colloqui individuali per guidare gli studenti nelle scelte post-liceo.",
+      "target": "Studenti III e IV liceo scientifico EsaBac"
+    },
+    {
+      "titolo_attivita": "Stage di orientamento e introduzione alla professione (PCTO)",
+      "categoria_principale": "PCTO (Percorsi per le Competenze Trasversali e per l'Orientamento)",
+      "descrizione_e_metodologia": "Stage di una settimana (35-40 ore) in aziende francesi e italo-francesi, volto a fornire un'esperienza pratica e orientativa nel mondo del lavoro.",
+      "target": "Studenti III liceo scientifico EsaBac"
+    },
+    {
+      "titolo_attivita": "Stage formativo",
+      "categoria_principale": "Orientamento e Esperienza Lavorativa",
+      "descrizione_e_metodologia": "Affiancamento a tutor, illustrazione di attività e figure professionali, coinvolgimento in compiti operativi, con rilascio di attestato e valutazione finale (Rapport de stage in francese).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività culturali ed esperienziali",
+      "categoria_principale": "Culturale/Esperienziale",
+      "descrizione_e_metodologia": "Visite guidate, viaggi di istruzione, spettacoli teatrali, proiezioni cinematografiche, conferenze, laboratori, visite a musei e mostre, progetti e concorsi, parte integrante dell'approccio pedagogico per la partecipazione attiva e il potenziamento delle competenze.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento lingua inglese e francese (Primaria)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Attività specifiche per il potenziamento della lingua inglese e francese rivolte a gruppi selezionati di alunni.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Accoglienza e continuità tra ordini di scuola",
+      "categoria_principale": "Orientamento/Inclusione",
+      "descrizione_e_metodologia": "Progetti e attività mirate a garantire un'efficace accoglienza e continuità tra scuola dell'infanzia, primaria e secondaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Metodologia C.L.I.L.",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Applicazione del Content and Language Integrated Learning (CLIL) per integrare l'apprendimento di contenuti disciplinari con l'uso di una lingua straniera.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Coro della scuola primaria",
+      "categoria_principale": "Artistico/Musicale",
+      "descrizione_e_metodologia": "Attività corale con la partecipazione di un docente esperto esterno.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto editoriale 'Perdindirindina! Alcune storie facili'",
+      "categoria_principale": "Editoriale/Linguistico",
+      "descrizione_e_metodologia": "Progetto di pubblicazione realizzato dalla Piccola Stamperia Da Vinci, che coinvolge gli studenti in attività editoriali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto eTwinning 'Postcards from the world'",
+      "categoria_principale": "Internazionale/Digitale",
+      "descrizione_e_metodologia": "Partecipazione a un progetto eTwinning per promuovere la collaborazione e lo scambio culturale a livello europeo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scacchi e giochi da tavolo",
+      "categoria_principale": "Ludico/Cognitivo",
+      "descrizione_e_metodologia": "Attività ludica volta al potenziamento delle capacità cognitive, strategiche e di problem solving.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto letterario 'Calvino'",
+      "categoria_principale": "Culturale/Letterario",
+      "descrizione_e_metodologia": "Percorso di approfondimento dedicato all'opera e al pensiero di Italo Calvino.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto 'Libro Game'",
+      "categoria_principale": "Ludico/Letterario",
+      "descrizione_e_metodologia": "Attività didattica basata sul formato interattivo del Libro Game, per stimolare la lettura e la creatività.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione del bilinguismo",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Progetti specifici volti a promuovere e consolidare le competenze bilingui degli studenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità e convivenza civile",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Interventi educativi mirati a promuovere la conoscenza e l'adesione ai principi di legalità e convivenza civile.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Interventi di recupero e potenziamento extracurricolari",
+      "categoria_principale": "Supporto Didattico",
+      "descrizione_e_metodologia": "Attività di supporto didattico e approfondimento offerte al di fuori dell'orario curricolare.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a progetti e iniziative nazionali e internazionali",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Coinvolgimento degli studenti in progetti e iniziative che ampliano la prospettiva educativa a livello nazionale e internazionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Coro didattico della scuola media",
+      "categoria_principale": "Artistico/Musicale",
+      "descrizione_e_metodologia": "Attività corale che coinvolge gli studenti della scuola media, con collaborazioni con studenti del liceo, protagonista di eventi come il concerto di Natale e di fine anno.",
+      "target": "Studenti Scuola Media"
+    },
+    {
+      "titolo_attivita": "Progetto cinematografico 'Collège au cinéma'",
+      "categoria_principale": "Culturale/Cinematografico",
+      "descrizione_e_metodologia": "Progetto dedicato alla promozione della cultura cinematografica per gli studenti della scuola media e del liceo EsaBac.",
+      "target": "Studenti Scuola Media, Liceo EsaBac"
+    },
+    {
+      "titolo_attivita": "Giornata dello sport (Scuola Media)",
+      "categoria_principale": "Sportivo",
+      "descrizione_e_metodologia": "Evento annuale dedicato alla promozione dell'attività sportiva e del benessere fisico.",
+      "target": "Studenti Scuola Media"
+    },
+    {
+      "titolo_attivita": "Iniziative di valorizzazione delle eccellenze",
+      "categoria_principale": "Competizioni/Olimpiadi",
+      "descrizione_e_metodologia": "Partecipazione a concorsi (es. C’era una svolta, Olimpiadi di Italiano, Olimpiadi di Fisica) per stimolare e riconoscere le capacità degli studenti.",
+      "target": "Studenti Liceo EsaBac"
+    },
+    {
+      "titolo_attivita": "Progetto 'Il quotidiano in classe'",
+      "categoria_principale": "Educazione Civica/Giornalismo",
+      "descrizione_e_metodologia": "Progetto dell'Osservatorio Giovani-Editori per promuovere la lettura critica dell'informazione e la comprensione del contesto socio-culturale.",
+      "target": "Studenti Liceo EsaBac"
+    },
+    {
+      "titolo_attivita": "Corso di logica per test universitari",
+      "categoria_principale": "Orientamento/Preparazione",
+      "descrizione_e_metodologia": "Corso mirato alla preparazione degli studenti per affrontare con successo i test di ammissione universitari.",
+      "target": "Studenti Liceo EsaBac"
+    },
+    {
+      "titolo_attivita": "Progetto teatrale 'Otis – Oltreconfini Il Teatro Incontra la Scuola'",
+      "categoria_principale": "Artistico/Teatrale",
+      "descrizione_e_metodologia": "Partecipazione a una rete di scuole e laboratori teatrali scolastici per promuovere l'espressione artistica e la collaborazione.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Dantedì",
+      "categoria_principale": "Culturale/Letterario",
+      "descrizione_e_metodologia": "Celebrazione della giornata dedicata a Dante Alighieri, con attività didattiche e culturali.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Settimana della Lingua Italiana nel mondo",
+      "categoria_principale": "Linguistico/Culturale",
+      "descrizione_e_metodologia": "Iniziative promosse per la valorizzazione e la diffusione della lingua italiana.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Iniziativa culturale 'Italissimo'",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a iniziative culturali volte a promuovere la cultura italiana.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Giornata della Memoria",
+      "categoria_principale": "Educazione Civica/Storico",
+      "descrizione_e_metodologia": "Commemorazione della Giornata della Memoria attraverso attività didattiche e riflessive.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corso di primo soccorso",
+      "categoria_principale": "Sicurezza/Salute",
+      "descrizione_e_metodologia": "Formazione pratica sulle procedure di primo soccorso per garantire la sicurezza della comunità scolastica.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Incontri di Educazione alla Salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri informativi e formativi dedicati all'educazione alla salute e alla prevenzione.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corale stabile 'Leonardo da Vinci'",
+      "categoria_principale": "Artistico/Musicale",
+      "descrizione_e_metodologia": "Attività corale aperta ad alunni, insegnanti, genitori e amici della scuola, promuovendo la partecipazione e l'espressione musicale.",
+      "target": "Alunni, Insegnanti, Genitori, Amici"
+    },
+    {
+      "titolo_attivita": "Progetti e rassegne artistiche",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Organizzazione e partecipazione a progetti e rassegne artistiche per valorizzare la creatività degli studenti.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Rassegne cinematografiche",
+      "categoria_principale": "Culturale/Cinematografico",
+      "descrizione_e_metodologia": "Organizzazione di rassegne cinematografiche per promuovere la cultura del cinema e stimolare la riflessione critica.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Redazione giornalistica scolastica",
+      "categoria_principale": "Giornalismo/Comunicazione",
+      "descrizione_e_metodologia": "Attività di redazione giornalistica per sviluppare competenze di scrittura, comunicazione e analisi dell'attualità.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Progetto sport",
+      "categoria_principale": "Sportivo",
+      "descrizione_e_metodologia": "Partecipazione a tornei, manifestazioni sportive locali e attività scolastiche per promuovere la pratica sportiva.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua per certificazioni linguistiche",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Corsi mirati alla preparazione degli studenti per il conseguimento di certificazioni linguistiche riconosciute.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Corso di F.L.E. (Français Langue Étrangère)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Due livelli (débutants e renforcement) offerti in orario extrascolastico, con insegnante madrelingua e coordinamento con i docenti di francese.",
+      "target": "Studenti Scuola Primaria, Media, Liceo"
+    },
+    {
+      "titolo_attivita": "Valutazione scuola primaria",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Utilizzo di giudizi descrittivi riferiti a quattro livelli (Avanzato, Intermedio, Base, In via di) per valutare gli apprendimenti degli alunni.",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Criteri di valutazione scuola secondaria I e II grado",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Valutazione basata su interesse, impegno, partecipazione, preparazione, competenze, abilità e progressi, con griglie che considerano conoscenze, esposizione e applicazione.",
+      "target": "Studenti scuola secondaria I e II grado"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto",
+      "categoria_principale": "Inclusione Scolastica e Supporto Psicologico",
+      "descrizione_e_metodologia": "Servizio gestito da psicologo, rivolto ad alunni, genitori e insegnanti per offrire supporto su problematiche familiari, scolastiche, di studio e relazionali.",
+      "target": "Alunni, Genitori, Insegnanti"
+    },
+    {
+      "titolo_attivita": "Screening DSA (Disturbi Specifici dell'Apprendimento)",
+      "categoria_principale": "Inclusione Scolastica e Supporto Precoce",
+      "descrizione_e_metodologia": "Progetto per l'individuazione precoce di difficoltà di apprendimento (scrittura/lettura) nelle classi I e II primaria, con adozione di strategie efficaci.",
+      "target": "Alunni scuola primaria (classi I e II)"
+    },
+    {
+      "titolo_attivita": "Contrasto del disagio scolastico",
+      "categoria_principale": "Inclusione Scolastica e Supporto Psico-sociale",
+      "descrizione_e_metodologia": "Monitoraggio continuo del disagio scolastico, segnalazione delle criticità e interventi di prevenzione/cura del disagio psico-sociale, in rete con classe, famiglie e psicologo.",
+      "target": "Alunni, Famiglie"
+    },
+    {
+      "titolo_attivita": "Definizione dei progetti individuali (PEI)",
+      "categoria_principale": "Inclusione Scolastica e Pianificazione Individualizzata",
+      "descrizione_e_metodologia": "Predisposizione di progetti didattico-educativi individualizzati (PEI) basati su PDF o referti ufficiali, includendo programmazione, attività, interventi e valutazione.",
+      "target": "Alunni con Bisogni Educativi Speciali"
+    },
+    {
+      "titolo_attivita": "Valutazione, continuità e orientamento per alunni BES",
+      "categoria_principale": "Orientamento e Inclusione",
+      "descrizione_e_metodologia": "Criteri e modalità di valutazione specifici per alunni BES (PEI/PDP), progetti di accoglienza e orientamento per facilitare l'ingresso nel sistema scolastico e la continuità tra ordini di scuola.",
+      "target": "Alunni, Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata (DDI)",
+      "categoria_principale": "Didattica Digitale Integrata",
+      "descrizione_e_metodologia": "Metodologia innovativa, sincrona o asincrona, che affianca o sostituisce la didattica in presenza, personalizzando percorsi, recuperando apprendimenti e offrendo approfondimenti disciplinari/interdisciplinari.",
+      "target": "Tutti gli studenti, studenti con esigenze particolari (salute, ospedalizzazione, terapie, famiglia, sport alto livello), studenti con BES."
+    },
+    {
+      "titolo_attivita": "Utilizzo piattaforma Teams per DDI",
+      "categoria_principale": "Tecnologia Didattica",
+      "descrizione_e_metodologia": "Utilizzo della piattaforma Ministeriale Teams per la Didattica Digitale Integrata, garantendo sicurezza e fruibilità da diversi dispositivi.",
+      "target": "Docenti e studenti."
+    },
+    {
+      "titolo_attivita": "Comodato d'uso dispositivi digitali",
+      "categoria_principale": "Supporto Tecnologico e Inclusione Digitale",
+      "descrizione_e_metodologia": "Fornitura di PC o altri dispositivi digitali alle famiglie che ne fanno richiesta, per garantire la partecipazione alle attività a distanza.",
+      "target": "Studenti le cui famiglie ne fanno richiesta."
+    },
+    {
+      "titolo_attivita": "Formazione docenti su metodologie digitali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Percorsi formativi dedicati ai docenti sulle metodologie di insegnamento e apprendimento tramite piattaforme digitali.",
+      "target": "Personale docente."
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione digitale e potenziamento studenti",
+      "categoria_principale": "Formazione Studenti",
+      "descrizione_e_metodologia": "Attività specifiche per migliorare le competenze digitali degli studenti, rendendoli autonomi e competenti nell'uso delle tecnologie.",
+      "target": "Studenti."
+    },
+    {
+      "titolo_attivita": "Registro elettronico AXIOS",
+      "categoria_principale": "Servizi Organizzativi Digitali",
+      "descrizione_e_metodologia": "Utilizzo del registro elettronico AXIOS per la dematerializzazione dell'attività organizzativa e la gestione delle comunicazioni scolastiche.",
+      "target": "Personale scolastico."
+    },
+    {
+      "titolo_attivita": "Modulistica online sul sito istituzionale",
+      "categoria_principale": "Servizi Organizzativi Digitali",
+      "descrizione_e_metodologia": "Disponibilità della modulistica necessaria sul sito istituzionale per facilitare le procedure amministrative e organizzative.",
+      "target": "Personale scolastico, famiglie."
+    },
+    {
+      "titolo_attivita": "Formazione personale su sicurezza",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Formazioni periodiche obbligatorie sulla sicurezza per tutto il personale docente e ATA, in conformità con le normative vigenti.",
+      "target": "Personale docente e ATA."
+    },
+    {
+      "titolo_attivita": "Ruolo delle Funzioni Strumentali (Area 3a e 3b)",
+      "categoria_principale": "Organizzazione e Supporto Tecnologico/Comunicativo",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di attività di formazione docenti su Teams e supporto al personale ATA per l'archiviazione degli atti, gestite dalle Funzioni Strumentali.",
+      "target": "Personale docente e ATA."
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAMM8BX012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nL'Istituto Sms B. Croce - 18' C.D.Napoli-, situato a Napoli, presenta un Piano Triennale dell'Offerta Formativa (PTOF) per il triennio 2022-2025 che dimostra una solida attenzione all'orientamento degli studenti, pur non disponendo di una sezione autonoma dedicata. Le priorità strategiche e le numerose attività specifiche evidenziano un impegno concreto nel guidare gli studenti verso scelte formative e professionali consapevoli. L'istituto si distingue per la sua capacità di creare una **rete di partnership** estesa e diversificata, fondamentale per arricchire l'offerta formativa e supportare i percorsi degli studenti. Le finalità dichiarate nel PTOF sono ambiziose e mirano a promuovere la crescita culturale, lo sviluppo di attitudini, la definizione del **progetto di vita** e la gestione delle **transizioni formative**, con un occhio di riguardo per gli studenti che provengono da sistemi scolastici differenti. Gli obiettivi prefissati, sebbene con alcune aree di miglioramento, puntano a ridurre l'abbandono scolastico, garantire la **continuità educativa** e promuovere il **lifelong learning**. Le azioni implementate dall'istituto si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori e sul monitoraggio delle azioni, creando un sistema integrato volto all'inclusione e al supporto delle fragilità. La didattica orientativa si manifesta attraverso approcci esperienziali, laboratoriali e interdisciplinari, mentre l'offerta di attività opzionali e facoltative copre un ampio spettro di interessi culturali, espressivi e sportivi. L'organizzazione interna, guidata dal **Dirigente Scolastico** e supportata dal **DSGA e personale ATA**, si avvale di **Funzioni Strumentali** efficienti e di strumenti digitali per la dematerializzazione e la comunicazione.\n\n### 2. Analisi Dimensionale\n\n#### 2.1. Orientamento\n\nSebbene non esista una sezione autonoma dedicata all'orientamento, il PTOF di Sms B. Croce - 18' C.D.Napoli- affronta questo tema in modo approfondito attraverso le **priorità strategiche** e diverse attività specifiche, come i **Percorsi per l’orientamento/P.C.T.O.**, dimostrando una forte attenzione alla guida degli studenti nelle loro scelte formative e professionali.\n\n#### 2.2. Partnership\n\nL'istituto vanta una notevole rete di collaborazioni con **17 partner** nominati, tra cui spiccano il **Consolato Generale d’Italia a Parigi**, il **Ministero dell’Istruzione e del Merito (M.I.M.)**, il **Ministero degli Affari Esteri e della Cooperazione Internazionale (M.A.E.C.I.)**, il **Ministère de l’Éducation Nationale francese**, diverse **Università francesi e italiane**, **Aziende francesi e italo-francesi**, l'**Osservatorio Giovani-Editori**, l'**Istituto Italiano di Cultura** e la **Società Dante Alighieri**. Queste collaborazioni sono fondamentali per arricchire l'offerta formativa e le opportunità per gli studenti.\n\n#### 2.3. Finalità\n\nLe finalità dell'istituto sono molteplici e ben definite. Si mira a supportare gli studenti nel loro percorso di crescita culturale e nell'assunzione di un ruolo attivo nella società, promuovendo lo sviluppo di **attitudini** e competenze necessarie per diventare cittadini consapevoli e partecipi. Viene posta una notevole attenzione all'orientamento universitario e professionale, fornendo agli studenti gli strumenti per scelte informate e consapevoli, supportandoli nella definizione del proprio **progetto di vita**. Particolare enfasi è posta sulla facilitazione dell'inserimento degli studenti che provengono da sistemi scolastici diversi, garantendo un passaggio fluido e un'integrazione efficace. L'istituto conferma e rafforza il suo ruolo di polo formativo e culturale di riferimento per la comunità italiana e italofona a Parigi, offrendo opportunità educative e culturali che rispondono alle esigenze della comunità.\n\n#### 2.4. Obiettivi\n\nGli obiettivi strategici includono percorsi di recupero delle insufficienze e supporto individualizzato per contrastare la **dispersione scolastica**, con particolare attenzione ai bisogni specifici degli studenti. La **continuità educativa** tra i diversi ordini di scuola è un obiettivo centrale, promosso attraverso progetti di accoglienza, orientamento e un curricolo verticale. Sebbene non esplicitamente menzionato, le attività di orientamento professionale contribuiscono indirettamente a contrastare il fenomeno dei **NEET**. L'istituto promuove attivamente la **formazione continua del personale** docente e ATA, riconoscendo l'importanza dell'aggiornamento professionale per garantire un'offerta formativa di qualità.\n\n#### 2.5. Azioni di Sistema\n\nLe azioni implementate dall'istituto mirano a garantire un percorso scolastico proficuo e un ambiente di crescita sereno agli studenti con **bisogni educativi speciali**, attraverso percorsi individualizzati e supporto dedicato. I **colloqui individuali** e le attività di **tutoraggio** sono strumenti fondamentali per l'orientamento degli studenti, permettendo un dialogo costante sulle loro aspirazioni e difficoltà. La promozione della **collaborazione tra tutte le componenti della comunità scolastica**, inclusi genitori e famiglie, è un pilastro dell'azione educativa. La verifica e la valutazione periodica dei **Piani Educativi Individualizzati (PEI)** e dei **Piani Didattici Personalizzati (PDP)** assicurano l'efficacia degli interventi a favore degli studenti con Bisogni Educativi Speciali. Vengono attivati percorsi individualizzati di recupero, adeguamento per i nuovi iscritti e supporto specifico per studenti con BES, DSA e disabilità, integrando le risorse della scuola per rispondere efficacemente alle fragilità.\n\n#### 2.6. Didattica Orientativa\n\nL'istituto promuove un approccio didattico che valorizza l'esperienza degli studenti, coniugando l'identità culturale italiana e francese attraverso l'**innovazione pedagogica** e l'integrazione di **metodologie attive**. Il potenziamento dell'approccio **laboratoriale**, inclusa l'attività con il **Banco Scientifico Mobile**, è una priorità per favorire l'apprendimento pratico. La flessibilità nella gestione degli spazi e dei tempi è evidente attraverso l'organizzazione in quadrimestri/pentamestri e l'alternanza di attività curricolari ed extrascolastiche. L'approccio **interdisciplinare** è promosso a tutti i livelli, dalla primaria fino al liceo scientifico EsaBac, con l'integrazione tra materie scientifiche, umanistiche e lingue.\n\n#### 2.7. Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative è ricca e diversificata. Un'ampia gamma di **attività culturali** arricchisce l'offerta formativa, tra cui visite guidate, spettacoli, conferenze e partecipazione a eventi come il **Dantedì** e la **Settimana della Lingua Italiana**. Le **attività laboratoriali ed espressive** includono sport, teatro, arte, musica e la redazione giornalistica. Attività ludiche come **scacchi** e giochi da tavolo stimolano il pensiero strategico. Il coinvolgimento dei genitori volontari nella gestione della biblioteca scolastica rappresenta un esempio significativo di **volontariato**. Le **attività sportive** sono ampiamente promosse per favorire il benessere fisico e lo spirito di squadra.\n\n### 3. Punti di Forza\n\nL'istituto eccelle nella costruzione di una **rete di partnership** solida e diversificata, che include istituzioni nazionali e internazionali, università e aziende, elementi cruciali per l'arricchimento dell'offerta formativa e le opportunità di orientamento. Le **finalità** dichiarate sono fortemente orientate alla crescita dello studente come cittadino attivo e alla definizione del suo **progetto di vita**, con un'attenzione particolare alla gestione delle **transizioni formative**, soprattutto per gli studenti provenienti da sistemi scolastici differenti. L'approccio **interdisciplinare** e l'enfasi sulla **didattica laboratoriale** rappresentano punti di forza significativi per un apprendimento esperienziale e completo. L'ampia offerta di **attività opzionali e facoltative**, che spaziano dalla cultura allo sport, passando per le arti e il volontariato, contribuisce a un'educazione a tutto tondo. L'organizzazione interna, con il ruolo centrale del **Dirigente Scolastico** e il supporto delle **Funzioni Strumentali**, dimostra una gestione efficiente e proattiva.\n\n### 4. Aree di Debolezza\n\nUna delle aree di potenziale miglioramento riguarda la mancanza di una **sezione autonoma dedicata all'orientamento** nel PTOF, sebbene il tema sia trattato in modo approfondito attraverso altre sezioni. L'obiettivo di **contrastare i NEET** non è esplicitamente menzionato come priorità, pur essendo indirettamente affrontato dalle attività di orientamento. La flessibilità nella gestione degli spazi e dei tempi, pur presente, non risulta essere l'elemento più dettagliato nel PTOF.\n\n### 5. Gap Analysis\n\nIl PTOF di Sms B. Croce - 18' C.D.Napoli- presenta un quadro positivo per quanto riguarda l'orientamento, con una forte enfasi sulla definizione del **progetto di vita** e sulla gestione delle **transizioni formative**. Tuttavia, un gap potrebbe essere colmato attraverso una maggiore esplicitazione degli obiettivi e delle azioni volte a contrastare il fenomeno dei **NEET**, rendendolo un punto focale del piano. L'integrazione di una sezione dedicata all'orientamento potrebbe ulteriormente rafforzare la percezione di questo aspetto come pilastro strategico dell'istituto.\n\n### 6. Conclusioni\n\nL'Istituto Sms B. Croce - 18' C.D.Napoli- dimostra con il suo PTOF un impegno concreto e strutturato nel supportare gli studenti nel loro percorso di crescita e orientamento. La ricchezza delle **partnership**, la chiarezza delle **finalità** e la varietà delle **azioni di sistema** e delle **attività didattiche** creano un ambiente educativo stimolante e inclusivo. Nonostante la mancanza di una sezione dedicata all'orientamento, l'istituto riesce a integrare efficacemente questo aspetto in tutte le sue dimensioni, dalla didattica alle attività extracurricolari. Le aree di miglioramento individuate, come la maggiore enfasi sul contrasto ai NEET, rappresentano opportunità per un ulteriore consolidamento di un piano già solido e orientato al futuro degli studenti."
+}
