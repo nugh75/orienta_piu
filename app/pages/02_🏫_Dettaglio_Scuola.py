@@ -124,17 +124,10 @@ def load_data():
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
         
-        # Convert scores to percentage [0-100]
-        # Includes maturity_index and dimensions
-        score_cols = [c for c in df.columns if '_score' in c or 'mean_' in c or 'index' in c.lower()]
-        for col in score_cols:
-            if pd.api.types.is_numeric_dtype(df[col]):
-                df[col] = df[col].apply(scale_to_pct)
-
         # Calcolo Completezza (Logica provvisoria: >= 67% = Completo, >= 50% = Parziale)
         if 'ptof_orientamento_maturity_index' in df.columns:
             df['completeness_status'] = df['ptof_orientamento_maturity_index'].apply(
-                lambda x: 'Completo' if x >= 66.7 else ('Parziale' if x >= 50.0 else 'Incompleto')
+                lambda x: 'Completo' if scale_to_pct(x) >= 66.7 else ('Parziale' if scale_to_pct(x) >= 50.0 else 'Incompleto')
             )
         return df
     return pd.DataFrame()
@@ -479,11 +472,11 @@ if 'selected_school_name' not in st.session_state or st.session_state.selected_s
 current_index = school_options.index(st.session_state.selected_school_name)
 
 def prev_school():
-    new_index = (current_index - 1) % len(school_options)
+    new_index = int((current_index - 1) % len(school_options))
     st.session_state.selected_school_name = school_options[new_index]
 
 def next_school():
-    new_index = (current_index + 1) % len(school_options)
+    new_index = int((current_index + 1) % len(school_options))
     st.session_state.selected_school_name = school_options[new_index]
 
 col_prev, col_sel, col_next = st.columns([1, 10, 1])
