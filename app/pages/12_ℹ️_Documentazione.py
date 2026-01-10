@@ -70,7 +70,7 @@ DOCUMENTO ORIGINALE (estratto):
 PUNTEGGI DA REVISIONARE (JSON):
 [JSON PUNTEGGI]
 
-CRITERI PUNTEGGIO (0-100%):
+CRITERI PUNTEGGIO (scala 1-7):
 1 = Assente
 2 = Generico
 3 = Limitato
@@ -585,16 +585,16 @@ di queste opportunità, non solo la loro presenza nominale.
 """
 )
 
-st.subheader("Scala di Completezza (0-100%)")
+st.subheader("Scala di Completezza (1-7)")
 st.markdown(
     """
-Ogni dimensione è valutata rispetto alla sua **completezza informativa**. La percentuale (0-100%) indica
+Ogni dimensione è valutata rispetto alla sua **completezza informativa**. Il punteggio in scala 1-7 indica
 quanto il PTOF riesce a trasformare le intenzioni in azioni concrete, documentate e coerenti.
 """
 )
 
 scale_data = {
-    "Completezza": ["0% - 20%", "21% - 40%", "41% - 60%", "61% - 80%", "81% - 100%"],
+    "Completezza": ["1.0 - 2.2", "2.3 - 3.4", "3.5 - 4.6", "4.7 - 5.8", "5.9 - 7.0"],
     "Descrizione": [
         "Nessun riferimento o accenni minimi",
         "Riferimenti generici, poco strutturati",
@@ -623,10 +623,10 @@ Indice RO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didatt
 |-------|-----------------|
 | Range | Interpretazione |
 |-------|-----------------|
-| 0% - 30% | Copertura assente o marginale |
-| 30% - 50% | Copertura parziale, elementi basilari |
-| 50% - 75% | Buona copertura, sistema strutturato |
-| 75% - 100% | Copertura eccellente, best practice |
+| 1.0 - 2.8 | Copertura assente o marginale |
+| 2.8 - 4.0 | Copertura parziale, elementi basilari |
+| 4.0 - 5.5 | Buona copertura, sistema strutturato |
+| 5.5 - 7.0 | Copertura eccellente, best practice |
 """
 )
 

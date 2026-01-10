@@ -64,7 +64,7 @@ with st.sidebar:
                 my_school = my_school_data.iloc[0]
                 ro = my_school.get('ptof_orientamento_maturity_index', 0)
                 if pd.notna(ro):
-                    st.metric("Indice Completezza", f"{scale_to_pct(ro):.1f}%")
+                    st.metric("Indice Completezza", f"{ro:.1f}/7")
 
         if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
             switch_page("pages/02_🏫_Dettaglio_Scuola.py")
@@ -147,8 +147,6 @@ numeric_cols = ['ptof_orientamento_maturity_index'] + list(DIMENSIONS.keys())
 for col in numeric_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
-        # Convert to percentage (0-100) immediately
-        df[col] = df[col].apply(scale_to_pct)
 
 # === KPI PRINCIPALI ===
 st.subheader("📊 KPI Principali")
@@ -159,9 +157,9 @@ mean_ro = ro_series.mean() if not ro_series.empty else float("nan")
 median_ro = ro_series.median() if not ro_series.empty else None
 p25 = ro_series.quantile(0.25) if not ro_series.empty else None
 p75 = ro_series.quantile(0.75) if not ro_series.empty else None
-pct_ge_4 = (ro_series >= 50.0).mean() * 100 if not ro_series.empty else None
-pct_lt_3 = (ro_series < 33.3).mean() * 100 if not ro_series.empty else None
-excellent = int((ro_series >= 66.7).sum()) if not ro_series.empty else 0
+pct_ge_4 = (ro_series >= 4.0).mean() * 100 if not ro_series.empty else None  # >= 4/7 (sufficienza)
+pct_lt_3 = (ro_series < 3.0).mean() * 100 if not ro_series.empty else None   # < 3/7 (insufficiente)
+excellent = int((ro_series >= 5.0).sum()) if not ro_series.empty else 0       # >= 5/7 (eccellente)
 pct_excellent = (excellent / n_scuole * 100) if n_scuole > 0 else 0
 
 row1 = st.columns(4)
@@ -169,23 +167,23 @@ with row1[0]:
     st.metric("🏫 Scuole Analizzate", f"{n_scuole:,}")
 with row1[1]:
     if pd.notna(mean_ro):
-        st.metric("📈 Compl. Media", f"{mean_ro:.1f}%")
+        st.metric("📈 Compl. Media", f"{mean_ro:.1f}/7")
     else:
         st.metric("📈 Compl. Media", "N/D")
 with row1[2]:
     if median_ro is not None:
-        st.metric("📌 Mediana", f"{median_ro:.1f}%")
+        st.metric("📌 Mediana", f"{median_ro:.1f}/7")
     else:
         st.metric("📌 Mediana", "N/D")
 with row1[3]:
     if pct_ge_4 is not None:
-        st.metric("✅ Completi (>= 50%)", f"{pct_ge_4:.1f}%")
+        st.metric("✅ Completi (>= 4/7)", f"{pct_ge_4:.1f}%")
     else:
-        st.metric("✅ Completi (>= 50%)", "N/D")
+        st.metric("✅ Completi (>= 4/7)", "N/D")
 
 row2 = st.columns(4)
 with row2[0]:
-    st.metric("🏆 Eccellenti (>= 67%)", f"{excellent} ({pct_excellent:.1f}%)")
+    st.metric("🏆 Eccellenti (>= 5/7)", f"{excellent} ({pct_excellent:.1f}%)")
 with row2[1]:
     if 'has_sezione_dedicata' in df.columns:
         sezione_vals = pd.to_numeric(df['has_sezione_dedicata'], errors='coerce').fillna(0)
@@ -204,14 +202,14 @@ st.markdown("#### 📌 Distribuzione Completezza")
 dist_cols = st.columns(2)
 with dist_cols[0]:
     if p25 is not None and p75 is not None:
-        st.metric("P25-P75", f"{p25:.1f}% - {p75:.1f}%")
+        st.metric("P25-P75", f"{p25:.1f}/7 - {p75:.1f}/7")
     else:
         st.metric("P25-P75", "N/D")
 with dist_cols[1]:
     if pct_lt_3 is not None:
-        st.metric("Compl. < 33%", f"{pct_lt_3:.1f}%")
+        st.metric("Compl. < 3/7", f"{pct_lt_3:.1f}%")
     else:
-        st.metric("Compl. < 33%", "N/D")
+        st.metric("Compl. < 3/7", "N/D")
 
 with st.expander("Esempi distribuzione (P25-P75)"):
     if ro_series.empty or p25 is None or p75 is None:
@@ -221,9 +219,9 @@ with st.expander("Esempi distribuzione (P25-P75)"):
             ro_series,
             bins=[-float("inf"), p25, p75, float("inf")],
             labels=[
-                f"<= P25 ({p25:.1f}%)",
-                f"P25-P75 ({p25:.1f}%-{p75:.1f}%)",
-                f">= P75 ({p75:.1f}%)"
+                f"<= P25 ({p25:.1f}/7)",
+                f"P25-P75 ({p25:.1f}/7-{p75:.1f}/7)",
+                f">= P75 ({p75:.1f}/7)"
             ],
             include_lowest=True
         )
@@ -238,12 +236,12 @@ with st.expander("Esempi distribuzione (P25-P75)"):
         top_quartile = top_quartile.dropna(subset=['ptof_orientamento_maturity_index'])
         top_quartile = top_quartile.sort_values('ptof_orientamento_maturity_index', ascending=False)
         top_quartile = top_quartile.head(20)
-        top_quartile['Completezza'] = top_quartile['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.1f}%")
+        top_quartile['Completezza'] = top_quartile['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.1f}/7")
         top_quartile = top_quartile[['denominazione', 'regione', 'Completezza']]
         top_quartile.columns = ['Scuola', 'Regione', 'Completezza']
 
         if not top_quartile.empty:
-            st.caption(f"Toplist scuole in fascia >= P75 ({p75:.1f}%) - prime 20")
+            st.caption(f"Toplist scuole in fascia >= P75 ({p75:.1f}/7) - prime 20")
             st.dataframe(top_quartile, use_container_width=True, hide_index=True)
         else:
             st.info("Nessuna scuola disponibile nella fascia P75.")
@@ -290,26 +288,22 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("📊 Distribuzione Indice Completezza")
 
-    # Already converted to percentage
-    df['pct_completeness'] = df['ptof_orientamento_maturity_index']
-
     fig_hist = px.histogram(
-        df, x='pct_completeness',
-        nbins=20,
+        df, x='ptof_orientamento_maturity_index',
+        nbins=14,  # 14 bin per scala 1-7 (0.5 per bin)
         color_discrete_sequence=['#4e73df'],
-        labels={'pct_completeness': 'Completezza (%)'}
+        labels={'ptof_orientamento_maturity_index': 'Completezza (1-7)'}
     )
     fig_hist.update_layout(
         showlegend=False,
-        xaxis_title="Indice Completezza (0-100%)",
+        xaxis_title="Indice Completezza (1-7)",
         yaxis_title="N. Scuole",
         height=350,
-        xaxis_range=[0, 100]
+        xaxis_range=[1, 7]
     )
     if pd.notna(mean_ro):
-        mean_pct = mean_ro
-        fig_hist.add_vline(x=mean_pct, line_dash="dash", line_color="red",
-                           annotation_text=f"Media: {mean_pct:.1f}%")
+        fig_hist.add_vline(x=mean_ro, line_dash="dash", line_color="red",
+                           annotation_text=f"Media: {mean_ro:.1f}/7")
     st.plotly_chart(fig_hist, use_container_width=True)
 
 with col2:
@@ -329,7 +323,7 @@ with col2:
             fillcolor='rgba(78, 115, 223, 0.3)'
         ))
         fig_radar.update_layout(
-            polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+            polar=dict(radialaxis=dict(visible=True, range=[1, 7])),
             showlegend=False,
             height=350
         )
@@ -341,9 +335,8 @@ for idx, (col_key, col_name) in enumerate(DIMENSIONS.items()):
     with gap_cols[idx]:
         if col_key in df.columns:
             val = df[col_key].mean()
-            val_pct = val  # Already converted
-            gap_pct = 100.0 - val_pct
-            st.metric(col_name, f"{val_pct:.1f}%", f"Gap: {gap_pct:.1f}%")
+            gap = 7.0 - val  # Gap dal massimo (7)
+            st.metric(col_name, f"{val:.1f}/7", f"Gap: {gap:.1f}")
         else:
             st.metric(col_name, "N/D")
 
@@ -385,13 +378,13 @@ if 'tipo_scuola' in df.columns:
                 orientation='h',
                 color='Media',
                 color_continuous_scale='RdYlGn',
-                range_color=[0, 100],
+                range_color=[1, 7],
                 category_orders={"Tipologia": TIPI_SCUOLA}
             )
             fig_tipo.update_layout(
                 showlegend=False,
                 height=300,
-                xaxis_range=[0, 100]
+                xaxis_range=[1, 7]
             )
             st.plotly_chart(fig_tipo, use_container_width=True)
         else:
@@ -538,7 +531,7 @@ with geo_cols[0]:
                 if not row.empty:
                     mean_val = row.iloc[0]['Media']
                     count_val = int(row.iloc[0]['N. Scuole'])
-                    st.metric(area, f"{mean_val:.1f}%", f"n={count_val}")
+                    st.metric(area, f"{mean_val:.1f}/7", f"n={count_val}")
                 else:
                     st.metric(area, "N/D")
 
@@ -549,12 +542,12 @@ with geo_cols[0]:
                 orientation='h',
                 color='Media',
                 color_continuous_scale='RdYlGn',
-                range_color=[0, 100]
+                range_color=[1, 7]
             )
             fig_area.update_layout(
                 showlegend=False,
                 height=260,
-                xaxis_range=[0, 100],
+                xaxis_range=[1, 7],
                 yaxis=dict(categoryorder="array", categoryarray=["Nord", "Centro", "Sud"])
             )
             st.plotly_chart(fig_area, use_container_width=True)
@@ -595,7 +588,7 @@ if 'territorio' in df.columns:
             if not row.empty:
                 mean_val = row.iloc[0]['Media']
                 count_val = int(row.iloc[0]['N. Scuole'])
-                st.metric(label, f"{mean_val:.1f}%", f"n={count_val}")
+                st.metric(label, f"{mean_val:.1f}/7", f"n={count_val}")
             else:
                 st.metric(label, "N/D")
 
@@ -606,10 +599,10 @@ if 'territorio' in df.columns:
             orientation='h',
             color='Media',
             color_continuous_scale='RdYlGn',
-            range_color=[0, 100],
+            range_color=[1, 7],
             category_orders={"Territorio": valid_terr}
         )
-        fig_terr.update_layout(showlegend=False, height=260, xaxis_range=[0, 100])
+        fig_terr.update_layout(showlegend=False, height=260, xaxis_range=[1, 7])
         st.plotly_chart(fig_terr, use_container_width=True)
 
         fig_terr_pie = px.pie(
@@ -685,11 +678,11 @@ if 'regione' in df.columns:
                 orientation='h',
                 color='Media Normalizzata',
                 color_continuous_scale='RdYlGn',
-                range_color=[0, 100],
+                range_color=[1, 7],
                 text='N. Scuole'
             )
             fig_region.update_traces(texttemplate='n=%{text}', textposition='outside')
-            fig_region.update_layout(height=500, xaxis_range=[0, 100])
+            fig_region.update_layout(height=500, xaxis_range=[1, 7])
             st.plotly_chart(fig_region, use_container_width=True)
         else:
             st.info("Dati insufficienti per il confronto regionale normalizzato.")
@@ -702,7 +695,7 @@ if 'regione' in df.columns:
             median_types = region_stats['Tipi Coperti'].median()
             full_coverage = (region_stats['Tipi Coperti'] == len(TIPI_SCUOLA)).sum()
 
-            st.metric("Media Normalizzata (regioni)", f"{mean_norm:.1f}%")
+            st.metric("Media Normalizzata (regioni)", f"{mean_norm:.1f}/7")
             st.metric("Copertura Tipi (mediana)", f"{median_types:.0f}/6")
             st.metric("Regioni con copertura completa", f"{full_coverage}/{len(region_stats)}")
             st.caption("Normalizzazione: media per tipologia con peso uguale.")

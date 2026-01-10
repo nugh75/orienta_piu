@@ -203,8 +203,8 @@ if selected_keyword:
         # === STATISTICHE ===
         n_schools = len(results)
         pct = n_schools / len(df) * 100
-        mean_ro = results['ptof_orientamento_maturity_index'].apply(scale_to_pct).mean()
-        overall_mean = df['ptof_orientamento_maturity_index'].apply(scale_to_pct).mean()
+        mean_ro = results['ptof_orientamento_maturity_index'].mean()
+        overall_mean = df['ptof_orientamento_maturity_index'].mean()
 
         stat_cols = st.columns(4)
         with stat_cols[0]:
@@ -212,15 +212,15 @@ if selected_keyword:
         with stat_cols[1]:
             st.metric("% del campione", f"{pct:.1f}%")
         with stat_cols[2]:
-            st.metric("Indice Completezza medio", f"{mean_ro:.1f}%")
+            st.metric("Indice Completezza medio", f"{mean_ro:.1f}/7")
         with stat_cols[3]:
             delta = mean_ro - overall_mean
-            st.metric("vs Media nazionale", f"{overall_mean:.1f}%", f"{delta:+.1f}%")
+            st.metric("vs Media nazionale", f"{overall_mean:.1f}/7", f"{delta:+.1f}")
 
         # Insight
-        if delta > 5.0:
+        if delta > 0.5:
             st.success(f"💡 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza superiore alla media!")
-        elif delta < -5.0:
+        elif delta < -0.5:
             st.info(f"📊 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza nella media o inferiore.")
         else:
             st.info(f"📊 Le scuole che usano '{selected_keyword}' hanno un Indice di Completezza in linea con la media.")
@@ -262,11 +262,10 @@ if selected_keyword:
 
         for i, (idx, row) in enumerate(filtered_results.head(15).iterrows()):
             ro_val = row['ptof_orientamento_maturity_index']
-            ro_pct = scale_to_pct(ro_val)
-            ro_color = "🟢" if ro_pct >= 66 else "🟡" if ro_pct >= 33 else "🔴"
+            ro_color = "🟢" if ro_val >= 5 else "🟡" if ro_val >= 3 else "🔴"
 
             with st.expander(
-                f"{ro_color} **{row['denominazione']}** — {row['regione']} | Compl.: {ro_pct:.1f}% | {row['match_count']} menzioni",
+                f"{ro_color} **{row['denominazione']}** — {row['regione']} | Compl.: {ro_val:.1f}/7 | {row['match_count']} menzioni",
                 expanded=(i < 3)
             ):
                 col_info, col_radar = st.columns([3, 2])
@@ -283,7 +282,7 @@ if selected_keyword:
 
 
                 with col_radar:
-                    vals = [scale_to_pct(row.get(d, 0) or 0) for d in DIMENSIONS.keys()]
+                    vals = [float(row.get(d, 0) or 0) for d in DIMENSIONS.keys()]
                     labels = list(DIMENSIONS.values())
 
                     fig = go.Figure()
@@ -294,7 +293,7 @@ if selected_keyword:
                         line_color='#3498db'
                     ))
                     fig.update_layout(
-                        polar=dict(radialaxis=dict(range=[0, 100], showticklabels=False)),
+                        polar=dict(radialaxis=dict(range=[1, 7], showticklabels=False)),
                         showlegend=False,
                         height=200,
                         margin=dict(l=30, r=30, t=20, b=20)
@@ -341,8 +340,8 @@ if selected_keyword:
 
         comparison_data = []
         for dim_col, dim_label in DIMENSIONS.items():
-            with_method = filtered_results[dim_col].apply(scale_to_pct).mean() if dim_col in filtered_results.columns else 0
-            overall = df[dim_col].apply(scale_to_pct).mean() if dim_col in df.columns else 0
+            with_method = filtered_results[dim_col].mean() if dim_col in filtered_results.columns else 0
+            overall = df[dim_col].mean() if dim_col in df.columns else 0
             comparison_data.append({
                 'Dimensione': dim_label,
                 f'Con "{selected_keyword}"': with_method,
@@ -364,7 +363,7 @@ if selected_keyword:
             y=comp_df['Media nazionale'],
             marker_color='#bdc3c7'
         ))
-        fig_comp.update_layout(barmode='group', yaxis_range=[0, 100], height=350)
+        fig_comp.update_layout(barmode='group', yaxis_range=[1, 7], height=350)
         st.plotly_chart(fig_comp, use_container_width=True)
 
         st.markdown("---")

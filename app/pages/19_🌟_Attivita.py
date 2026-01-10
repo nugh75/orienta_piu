@@ -168,13 +168,9 @@ def load_activities():
         try:
             df = pd.read_csv(ACTIVITIES_CSV)
             
-            # Convert maturity_index to percentage if in 1-7 scale
+            # Ensure maturity_index is numeric (scala 1-7)
             if 'maturity_index' in df.columns:
-                # Ensure numeric first
                 df['maturity_index'] = pd.to_numeric(df['maturity_index'], errors='coerce')
-                # Check if scale is likely 1-7 (max <= 7.0)
-                if df['maturity_index'].max() <= 7.5: # 7.5 margin for floating point
-                    df['maturity_index'] = df['maturity_index'].apply(scale_to_pct)
 
             result["df"] = df
             result["total_activities"] = len(df)
@@ -631,37 +627,32 @@ with st.form("filters_form"):
             sel_maturity = None
             maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
             maturity_values = maturity_col.dropna()
-            
+
             if len(maturity_values) > 0:
                 min_mi_val = maturity_values.min()
                 max_mi_val = maturity_values.max()
-                
-                # Convert to pct
-                min_pct = int(scale_to_pct(min_mi_val))
-                max_pct = int(scale_to_pct(max_mi_val))
-                
-                if min_pct < max_pct:
-                    default_range_pct = (float(min_pct), float(max_pct))
-                    
-                    # If stored range is in old scale (approx <= 7), reset it
-                    stored = st.session_state.get("maturity_default_range")
-                    if stored and isinstance(stored, (list, tuple)) and max(stored) <= 7.0:
-                         default_range_pct = (float(min_pct), float(max_pct))
 
-                    st.session_state["maturity_default_range"] = default_range_pct
-                    
+                # Slider in scala 1-7
+                min_val = max(1.0, float(min_mi_val))
+                max_val = min(7.0, float(max_mi_val))
+
+                if min_val < max_val:
+                    default_range = (min_val, max_val)
+
+                    st.session_state["maturity_default_range"] = default_range
+
                     sel_maturity = st.slider(
-                        "Range Indice Completezza (%)",
-                        min_value=0.0,
-                        max_value=100.0,
-                        value=default_range_pct,
-                        step=1.0,
+                        "Range Indice Completezza (1-7)",
+                        min_value=1.0,
+                        max_value=7.0,
+                        value=default_range,
+                        step=0.5,
                         label_visibility="collapsed",
                         key="filter_maturity"
                     )
                 else:
                     st.session_state["maturity_default_range"] = None
-                    st.caption(f"Indice unico: {min_pct}%")
+                    st.caption(f"Indice unico: {min_val:.1f}/7")
                     sel_maturity = None
             else:
                 st.session_state["maturity_default_range"] = None

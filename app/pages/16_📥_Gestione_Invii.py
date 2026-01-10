@@ -67,7 +67,7 @@ Una volta completata l'analisi, utilizzando il codice meccanografico sara' possi
 - richiedere una revisione: {richiedi_revisione_url}
 
 Indici utilizzati nell'analisi:
-- Indice di Completezza: sintesi complessiva delle dimensioni valutate (0-100%);
+- Indice di Completezza: sintesi complessiva delle dimensioni valutate (scala 1-7);
 - Finalita': chiarezza e coerenza delle finalita' orientative;
 - Obiettivi: definizione di obiettivi e risultati attesi;
 - Governance: organizzazione, ruoli e responsabilita' dell'orientamento;

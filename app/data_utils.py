@@ -73,21 +73,20 @@ def normalize_statale_paritaria(value: object) -> str:
 
 def scale_to_pct(score: float) -> float:
     """
-    Converte punteggio 1-7 in percentuale 0-100.
-    Formula: (score - 1) / 6 * 100
+    Restituisce il punteggio nella scala originale 1-7.
+    Funzione identità per retrocompatibilità.
     """
     if pd.isna(score):
         return 0.0
-    return max(0.0, min(100.0, (score - 1.0) / 6.0 * 100.0))
+    return float(score)
 
 def format_pct(score: float, decimals: int = 1) -> str:
     """
-    Formatta punteggio 1-7 in stringa percentuale (es: '83.3%').
+    Formatta punteggio in scala 1-7 (es: '5.0/7').
     """
     if pd.isna(score):
         return "N/D"
-    pct = scale_to_pct(score)
-    return f"{pct:.{decimals}f}%"
+    return f"{float(score):.{decimals}f}/7"
 
 def split_multi_value(value):
     if pd.isna(value):

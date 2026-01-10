@@ -124,10 +124,10 @@ def load_data():
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
         
-        # Calcolo Completezza (Logica provvisoria: >= 67% = Completo, >= 50% = Parziale)
+        # Calcolo Completezza (Logica: >= 5/7 = Completo, >= 4/7 = Parziale)
         if 'ptof_orientamento_maturity_index' in df.columns:
             df['completeness_status'] = df['ptof_orientamento_maturity_index'].apply(
-                lambda x: 'Completo' if scale_to_pct(x) >= 66.7 else ('Parziale' if scale_to_pct(x) >= 50.0 else 'Incompleto')
+                lambda x: 'Completo' if x >= 5.0 else ('Parziale' if x >= 4.0 else 'Incompleto')
             )
         return df
     return pd.DataFrame()
@@ -160,9 +160,6 @@ def load_best_practices():
                     maturity = row.get('maturity_index')
                     try:
                         maturity = float(maturity) if maturity else None
-                        # Convert to percentage if in 1-7 range
-                        if maturity is not None and maturity <= 7.0:
-                             maturity = scale_to_pct(maturity)
                     except (ValueError, TypeError):
                         maturity = None
 
@@ -296,13 +293,13 @@ def get_best_in_class(df, tipo_scuola=None, ordine_grado=None):
 def calculate_gap(school, benchmark):
     gaps = {}
     for col, name in DIMENSIONS.items():
-        school_val = scale_to_pct(school.get(col, 0) or 0)
-        bench_val = scale_to_pct(benchmark.get(col, 0) or 0)
+        school_val = float(school.get(col, 0) or 0)
+        bench_val = float(benchmark.get(col, 0) or 0)
         gaps[name] = {
             'school': school_val,
             'benchmark': bench_val,
             'gap': bench_val - school_val,
-            'gap_pct': 0 # not needed as gap is already in % points
+            'gap_pct': 0 # not needed as gap is already in punti
         }
     return gaps
 
@@ -311,8 +308,8 @@ def get_priority_areas(school, df, top_n=3):
     for dim_col, dim_name in DIMENSIONS.items():
         if dim_name in SUB_INDICATORS:
             for sub_col, sub_name in SUB_INDICATORS[dim_name].items():
-                sub_val = scale_to_pct(school.get(sub_col, 0) or 0)
-                sub_mean = scale_to_pct(df[sub_col].mean() if sub_col in df.columns else 4)
+                sub_val = float(school.get(sub_col, 0) or 0)
+                sub_mean = float(df[sub_col].mean() if sub_col in df.columns else 4)
                 if sub_val < sub_mean:
                     priorities.append({
                         'dimension': dim_name,
@@ -370,11 +367,11 @@ def find_peer_schools(target_school, df, top_n=10):
 def get_peer_statistics(target_school, peers_df):
     stats = {}
     target_index_raw = target_school.get('ptof_orientamento_maturity_index', 0)
-    target_index = scale_to_pct(target_index_raw)
+    target_index = float(target_index_raw)
     
     # Calculate peer indices in percentage
     peer_indices_raw = peers_df['indice_ro'].values
-    peer_indices = np.array([scale_to_pct(v) for v in peer_indices_raw])
+    peer_indices = np.array([float(v) for v in peer_indices_raw])
 
     stats['peer_mean'] = np.mean(peer_indices)
     stats['peer_std'] = np.std(peer_indices)
@@ -388,8 +385,8 @@ def get_peer_statistics(target_school, peers_df):
     stats['percentile_in_peers'] = stats['rank_in_peers'] / stats['total_peers'] * 100
 
     for col, name in DIMENSIONS.items():
-        target_val = scale_to_pct(target_school.get(col, 0) or 0)
-        peer_vals = [scale_to_pct(v) for v in peers_df[col].values]
+        target_val = float(target_school.get(col, 0) or 0)
+        peer_vals = [float(v) for v in peers_df[col].values]
         
         stats[f'{name}_target'] = target_val
         stats[f'{name}_peer_mean'] = np.mean(peer_vals)
@@ -580,9 +577,9 @@ if has_contacts:
 st.info("""
 💡 **A cosa serve**: Fornisce una panoramica della scuola con i dati identificativi e il livello di completezza del PTOF sull'orientamento.
 
-🔍 **Cosa rileva**: L'**Indice di Completezza** (0-100%) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
+🔍 **Cosa rileva**: L'**Indice di Completezza** (scala 1-7) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
 
-🎯 **Implicazioni**: Un valore vicino al 100% indica un documento ben strutturato. Valori bassi suggeriscono che mancano sezioni fondamentali o dettagli sulle attività di orientamento.
+🎯 **Implicazioni**: Un valore vicino a 7 indica un documento ben strutturato. Valori bassi (vicini a 1) suggeriscono che mancano sezioni fondamentali o dettagli sulle attività di orientamento.
 """)
 
 st.markdown("---")
@@ -610,8 +607,8 @@ with tab_profilo:
     with col1:
         st.subheader("🕸️ Profilo Radar")
         if all(c in df.columns for c in radar_cols):
-            school_vals = [scale_to_pct(school_data.get(c, 0)) if pd.notna(school_data.get(c)) else 0 for c in radar_cols]
-            benchmark_vals = [scale_to_pct(benchmark_means.get(c, 0)) for c in radar_cols]
+            school_vals = [float(school_data.get(c, 0)) if pd.notna(school_data.get(c)) else 0 for c in radar_cols]
+            benchmark_vals = [float(benchmark_means.get(c, 0)) for c in radar_cols]
             labels = list(DIMENSIONS.values())
 
             fig = go.Figure()
@@ -621,7 +618,7 @@ with tab_profilo:
             fig.add_trace(go.Scatterpolar(r=benchmark_vals + [benchmark_vals[0]], theta=labels + [labels[0]],
                                            fill='toself', name=benchmark_label, opacity=0.5,
                                            line_color='#ff7f0e'))
-            fig.update_layout(polar=dict(radialaxis=dict(range=[0, 100])), showlegend=True, height=400)
+            fig.update_layout(polar=dict(radialaxis=dict(range=[1, 7])), showlegend=True, height=400)
             st.plotly_chart(fig, use_container_width=True)
 
             st.info(f"""
@@ -636,8 +633,8 @@ with tab_profilo:
         st.subheader("📊 Punteggi Dimensionali")
         st.caption(f"Confronto: {benchmark_label}")
         for col_key, col_name in DIMENSIONS.items():
-            val = scale_to_pct(school_data.get(col_key, 0) or 0)
-            mean_val = scale_to_pct(benchmark_means.get(col_key, 0) or 0)
+            val = float(school_data.get(col_key, 0) or 0)
+            mean_val = float(benchmark_means.get(col_key, 0) or 0)
             delta = val - mean_val
             st.metric(col_name, f"{val:.1f}%", f"{delta:+.1f}%", delta_color="normal")
 
@@ -645,13 +642,13 @@ with tab_profilo:
     st.subheader("📊 Punteggi Dettagliati")
     score_cols = [c for c in df.columns if '_score' in c]
     if score_cols:
-        scores = {get_label(c): scale_to_pct(school_data.get(c, 0)) for c in score_cols if pd.notna(school_data.get(c))}
+        scores = {get_label(c): float(school_data.get(c, 0) or 0) for c in score_cols if pd.notna(school_data.get(c))}
         if scores:
             score_df = pd.DataFrame({'Dimensione': list(scores.keys()), 'Punteggio': list(scores.values())})
             score_df = score_df.sort_values('Punteggio', ascending=True)
             fig = px.bar(score_df, x='Punteggio', y='Dimensione', orientation='h',
                         color='Punteggio', color_continuous_scale='RdYlGn',
-                        range_x=[0, 100], range_color=[0, 100])
+                        range_x=[1, 7], range_color=[1, 7])
             fig.update_layout(height=600)
             st.plotly_chart(fig, use_container_width=True)
 
@@ -744,7 +741,7 @@ with tab_report:
                 s21 = sec2.get('2_1_ptof_orientamento_sezione_dedicata', {})
                 has_sez = "✅ Si" if s21.get('has_sezione_dedicata') else "❌ No"
                 st.write(f"**Sezione dedicata:** {has_sez}")
-                s21_score = scale_to_pct(s21.get('score', 0))
+                s21_score = float(s21.get('score', 0) or 0)
                 st.write(f"**Punteggio:** {s21_score:.1f}%")
                 if s21.get('note'):
                     st.caption(s21.get('note'))
@@ -755,7 +752,7 @@ with tab_report:
             finalita = sec2.get('2_3_finalita', {})
             for key, val in finalita.items():
                 if isinstance(val, dict):
-                    score = scale_to_pct(val.get('score', 0))
+                    score = float(val.get('score', 0) or 0)
                     st.write(f"**{get_label(key)}:** {score:.1f}%")
 
         except Exception as e:
@@ -1042,7 +1039,7 @@ with tab_practices:
                     contesto = practice.get('contesto', {})
                     maturity = contesto.get('maturity_index')
                     if maturity is not None:
-                        st.caption(f"Indice maturita contesto: {scale_to_pct(maturity):.1f}%")
+                        st.caption(f"Indice maturita contesto: {maturity:.1f}/7")
                     partnerships = contesto.get('partnership_coinvolte', [])
                     if partnerships:
                         st.markdown("**Partnership coinvolte:** " + ", ".join(partnerships[:5]) +
@@ -1134,7 +1131,7 @@ with tab_gap:
                 theta=categories, fill='toself',
                 name=bench_label, line_color='green'
             ))
-            fig.update_layout(polar=dict(radialaxis=dict(range=[0, 100])), height=400)
+            fig.update_layout(polar=dict(radialaxis=dict(range=[1, 7])), height=400)
             st.plotly_chart(fig, use_container_width=True)
 
         with col2:
@@ -1202,7 +1199,7 @@ with tab_gap:
             st.subheader("🚀 Impatto Stimato")
 
             current_index_raw = school_data.get('ptof_orientamento_maturity_index', 0) or 0
-            current_index = scale_to_pct(current_index_raw)
+            current_index = float(current_index_raw)
             current_percentile = (df['ptof_orientamento_maturity_index'] < current_index_raw).mean() * 100 if pd.notna(current_index_raw) else 0
             # gap is already in % points
             potential_gain = sum([min(30, p['gap']) for p in priorities[:3]]) / 5
@@ -1276,9 +1273,9 @@ with tab_peer:
         with stat_cols[1]:
             st.metric("Percentile Peer", f"{stats['percentile_in_peers']:.0f}°")
         with stat_cols[2]:
-            st.metric("vs Media Peer", format_pct(school_data['ptof_orientamento_maturity_index']), f"{stats['target_vs_mean']:+.1f}%")
+            st.metric("vs Media Peer", format_pct(school_data['ptof_orientamento_maturity_index']), f"{stats['target_vs_mean']:+.2f}")
         with stat_cols[3]:
-            st.metric("Range Peer", f"{stats['peer_min']:.1f}% - {stats['peer_max']:.1f}%")
+            st.metric("Range Peer", f"{stats['peer_min']:.1f}/7 - {stats['peer_max']:.1f}/7")
 
         st.markdown("---")
         col1, col2 = st.columns([3, 2])
@@ -1286,23 +1283,23 @@ with tab_peer:
         with col1:
             st.subheader("📈 Confronto Dimensionale")
             categories = list(DIMENSIONS.values())
-            target_values = [scale_to_pct(school_data.get(col, 0) or 0) for col in DIMENSIONS.keys()]
-            peer_mean_values = [scale_to_pct(peers_df[col].mean()) for col in DIMENSIONS.keys()]
-            peer_max_values = [scale_to_pct(peers_df[col].max()) for col in DIMENSIONS.keys()]
+            target_values = [float(school_data.get(col, 0) or 0) for col in DIMENSIONS.keys()]
+            peer_mean_values = [float(peers_df[col].mean()) for col in DIMENSIONS.keys()]
+            peer_max_values = [float(peers_df[col].max()) for col in DIMENSIONS.keys()]
 
             fig = go.Figure()
             fig.add_trace(go.Scatterpolar(r=target_values, theta=categories, fill='toself', name='Scuola Selezionata', line_color='blue'))
             fig.add_trace(go.Scatterpolar(r=peer_mean_values, theta=categories, fill='toself', name='Media Peer', line_color='orange'))
             fig.add_trace(go.Scatterpolar(r=peer_max_values, theta=categories, fill='none', name='Best Peer', line_color='green', line_dash='dash'))
-            fig.update_layout(polar=dict(radialaxis=dict(range=[0, 100])), height=400)
+            fig.update_layout(polar=dict(radialaxis=dict(range=[1, 7])), height=400)
             st.plotly_chart(fig, use_container_width=True)
 
         with col2:
             st.subheader("📊 Δ per Dimensione")
             diff_data = []
             for col, name in DIMENSIONS.items():
-                target_val = scale_to_pct(school_data.get(col, 0) or 0)
-                peer_mean = scale_to_pct(peers_df[col].mean())
+                target_val = float(school_data.get(col, 0) or 0)
+                peer_mean = float(peers_df[col].mean())
                 diff = target_val - peer_mean
                 diff_data.append({'Dimensione': name, 'Differenza': diff})
 
@@ -1327,7 +1324,7 @@ with tab_peer:
         display_df = peers_df[['denominazione', 'comune', 'regione', 'tipo_scuola', 'indice_ro', 'similarity_score']].copy()
         display_df.columns = ['Scuola', 'Comune', 'Regione', 'Tipo', 'Indice Compl', 'Similarita %']
         display_df['Similarita %'] = display_df['Similarita %'].round(0).astype(int)
-        display_df['Indice Compl'] = display_df['Indice Compl'].apply(lambda x: f"{scale_to_pct(x):.1f}%")
+        display_df['Indice Compl'] = display_df['Indice Compl'].apply(lambda x: f"{x:.1f}/7")
 
         def color_index(val):
             # For simpler coloring, let's just highlight rows, but here we are coloring a string column now...
@@ -1346,8 +1343,8 @@ with tab_peer:
 
         fig_dist = go.Figure()
         
-        peer_indices_pct = [scale_to_pct(x) for x in peers_df['indice_ro']]
-        target_index_pct = scale_to_pct(school_data['ptof_orientamento_maturity_index'])
+        peer_indices_pct = [float(x) for x in peers_df['indice_ro']]
+        target_index_pct = float(school_data['ptof_orientamento_maturity_index'])
         
         fig_dist.add_trace(go.Histogram(
             x=peer_indices_pct,
@@ -1370,7 +1367,7 @@ with tab_peer:
             annotation_position="bottom"
         )
         fig_dist.update_layout(
-            xaxis_title="Indice Completezza (%)",
+            xaxis_title="Indice Completezza (1-7)",
             yaxis_title="N. Scuole",
             showlegend=False,
             height=300
@@ -1502,7 +1499,7 @@ with tab_matching:
 
                 for i, (idx, match) in enumerate(matches.iterrows()):
                     with st.expander(
-                        f"**{i+1}. {match['denominazione']}** — Score: {match['final_score']:.0f}/100 | Compl: {scale_to_pct(match['ptof_orientamento_maturity_index']):.1f}%",
+                        f"**{i+1}. {match['denominazione']}** — Score: {match['final_score']:.0f}/100 | Compl: {match['ptof_orientamento_maturity_index']:.1f}/7",
                         expanded=(i < 3)
                     ):
                         col_info, col_scores = st.columns([1, 1])
@@ -1512,7 +1509,7 @@ with tab_matching:
                             - **Regione:** {match['regione']}
                             - **Provincia:** {match.get('provincia', 'N/D')}
                             - **Tipo:** {match['tipo_scuola']}
-                            - **Indice Compl:** {scale_to_pct(match['ptof_orientamento_maturity_index']):.1f}%
+                            - **Indice Compl:** {match['ptof_orientamento_maturity_index']:.1f}/7
                             """)
                             st.caption(f"💡 {match['explanation']}")
 
@@ -1521,8 +1518,8 @@ with tab_matching:
                             fig_mini = go.Figure()
 
                             # Scuola target
-                            target_vals = [scale_to_pct(school_data.get(d, 0) or 0) for d in DIMENSION_LABELS.keys()]
-                            match_vals = [scale_to_pct(match.get(d, 0) or 0) for d in DIMENSION_LABELS.keys()]
+                            target_vals = [float(school_data.get(d, 0) or 0) for d in DIMENSION_LABELS.keys()]
+                            match_vals = [float(match.get(d, 0) or 0) for d in DIMENSION_LABELS.keys()]
                             labels = list(DIMENSION_LABELS.values())
 
                             fig_mini.add_trace(go.Scatterpolar(
@@ -1538,7 +1535,7 @@ with tab_matching:
                                 line_color='green', opacity=0.6
                             ))
                             fig_mini.update_layout(
-                                polar=dict(radialaxis=dict(range=[0, 100], showticklabels=False)),
+                                polar=dict(radialaxis=dict(range=[1, 7], showticklabels=False)),
                                 showlegend=True,
                                 height=250,
                                 margin=dict(l=20, r=20, t=20, b=20)
@@ -1551,8 +1548,8 @@ with tab_matching:
                             for comp in match['complements'][:3]:
                                 dim_label = DIMENSION_LABELS.get(comp['dimension'], comp['dimension'])
                                 st.markdown(
-                                    f"- **{dim_label}**: Tu {scale_to_pct(comp['school1_score']):.1f}% → Lei {scale_to_pct(comp['school2_score']):.1f}% "
-                                    f"(+{scale_to_pct(comp['gap_covered']):.1f})%"
+                                    f"- **{dim_label}**: Tu {comp['school1_score']:.1f}/7 → Lei {comp['school2_score']:.1f}/7 "
+                                    f"(+{comp['gap_covered']:.1f})"
                                 )
 
                 # Tabella riepilogativa
@@ -1564,7 +1561,7 @@ with tab_matching:
                                           'ptof_orientamento_maturity_index', 'final_score']].copy()
                 display_matches.columns = ['Scuola', 'Regione', 'Tipo', 'Indice Compl', 'Score Match']
                 display_matches['Score Match'] = display_matches['Score Match'].round(0).astype(int)
-                display_matches['Indice Compl'] = display_matches['Indice Compl'].apply(lambda x: f"{scale_to_pct(x):.1f}%")
+                display_matches['Indice Compl'] = display_matches['Indice Compl'].apply(lambda x: f"{x:.1f}/7")
 
                 st.dataframe(display_matches, use_container_width=True, hide_index=True)
 
@@ -1625,8 +1622,8 @@ with tab_suggestions:
                     <div style="background: {color}; padding: 15px; border-radius: 10px;
                                 color: white; text-align: center;">
                         <h4 style="margin:0;">{area['label']}</h4>
-                        <p style="margin:5px 0; font-size: 2em; font-weight: bold;">{scale_to_pct(area['score']):.1f}%</p>
-                        <p style="margin:0;">Gap: {scale_to_pct(area['gap']):.1f}%</p>
+                        <p style="margin:5px 0; font-size: 2em; font-weight: bold;">{area['score']:.1f}/7</p>
+                        <p style="margin:0;">Gap: {area['gap']:.1f}</p>
                     </div>
                     """, unsafe_allow_html=True)
 
@@ -1676,7 +1673,7 @@ with tab_suggestions:
                                 st.markdown(f"""
                                 **Perché questa scuola:**
                                 - Tipo: {sugg['peer_type']}
-                                - Punteggio in {dim_label}: **{scale_to_pct(sugg['peer_score']):.1f}%** (tu: {scale_to_pct(sugg['your_score']):.1f}%)
+                                - Punteggio in {dim_label}: **{sugg['peer_score']:.1f}/7** (tu: {sugg['your_score']:.1f}/7)
                                 - Similarità strutturale: {sugg['similarity_score']:.0f}%
 
                                 **Raccomandazione:**
@@ -1697,14 +1694,14 @@ with tab_suggestions:
                                 fig_compare = go.Figure()
                                 fig_compare.add_trace(go.Bar(
                                     x=['Tu', 'Loro'],
-                                    y=[scale_to_pct(your_score), scale_to_pct(their_score)],
+                                    y=[your_score, their_score],
                                     marker_color=['#3498db', '#2ecc71'],
-                                    text=[f'{your_score:.1f}', f'{their_score:.1f}'],
+                                    text=[f'{your_score:.1f}/7', f'{their_score:.1f}/7'],
                                     textposition='outside'
                                 ))
                                 fig_compare.update_layout(
                                     height=200,
-                                    yaxis_range=[0, 100],
+                                    yaxis_range=[1, 7],
                                     showlegend=False,
                                     margin=dict(l=20, r=20, t=20, b=20)
                                 )
@@ -1733,9 +1730,9 @@ with tab_suggestions:
                             if sub_val < 4:
                                 sub_recs.extend([(sub_name, r) for r in RECOMMENDATIONS[sub_col][:1]])
 
-                with st.expander(f"**{i}. Migliora {dim_label}** (attuale: {scale_to_pct(area['score']):.1f}%)", expanded=(i == 1)):
+                with st.expander(f"**{i}. Migliora {dim_label}** (attuale: {area['score']:.1f}/7)", expanded=(i == 1)):
                     st.markdown(f"""
-                    **Obiettivo:** Portare {dim_label} da {scale_to_pct(area['score']):.1f}% a {min(100, scale_to_pct(area['score']) + 30):.1f}%
+                    **Obiettivo:** Portare {dim_label} da {area['score']:.1f}/7 a {min(7, area['score'] + 2):.1f}/7
 
                     **Azioni concrete:**
                     """)

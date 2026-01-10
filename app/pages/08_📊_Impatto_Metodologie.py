@@ -99,7 +99,7 @@ def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
 
                 school_methods[school_id] = {
                     'methods': methods_used,
-                    'ro': scale_to_pct(row.get('ptof_orientamento_maturity_index', np.nan))
+                    'ro': float(row.get('ptof_orientamento_maturity_index', np.nan))
                 }
             except Exception:
                 pass
@@ -196,7 +196,7 @@ PTOF. Per ogni metodologia confrontiamo le scuole che la utilizzano con quelle c
 with st.expander("📖 Come leggere i risultati", expanded=False):
     st.markdown("""
     **Metriche statistiche:**
-    - **Differenza**: differenza media dell'Indice di Completezza (%) tra scuole che usano e non usano la metodologia
+    - **Differenza**: differenza media dell'Indice di Completezza (punti, scala 1-7) tra scuole che usano e non usano la metodologia
     - **p-value**: probabilità che la differenza sia dovuta al caso (< 0.05 = significativo)
     - **Cohen's d**: dimensione dell'effetto (quanto è grande la differenza in termini pratici)
 
@@ -273,7 +273,7 @@ fig = px.bar(
 fig.update_layout(
     height=700,
     yaxis={'categoryorder': 'total ascending'},
-    xaxis_title='Differenza Indice Completezza % (Con vs Senza)',
+    xaxis_title='Differenza Indice Completezza (punti, con vs senza)',
     yaxis_title='',
     legend_title='Significatività',
     showlegend=True
@@ -297,7 +297,7 @@ if not top_positive.empty:
         sig_color = "🟢" if row['p_value'] < 0.05 else "⚪"
 
         with st.expander(
-            f"{i+1}. {sig_color} **{row['Metodologia']}** — +{row['Differenza']:.1f}% Completezza {sig_stars}",
+            f"{i+1}. {sig_color} **{row['Metodologia']}** — +{row['Differenza']:.1f} punti {sig_stars}",
             expanded=(i < 3)
         ):
             col1, col2 = st.columns([2, 1])
@@ -309,9 +309,9 @@ if not top_positive.empty:
                 |---------|--------|
                 | Scuole che la usano | {row['N_Con']} |
                 | Scuole che NON la usano | {row['N_Senza']} |
-                | Media RO (con) | {row['Media_Con']:.1f}% |
-                | Media RO (senza) | {row['Media_Senza']:.1f}% |
-                | **Differenza** | **+{row['Differenza']:.1f}%** |
+                | Media RO (con) | {row['Media_Con']:.1f}/7 |
+                | Media RO (senza) | {row['Media_Senza']:.1f}/7 |
+                | **Differenza** | **+{row['Differenza']:.1f}** |
                 | p-value | {row['p_value']:.4f} |
                 | Cohen's d | {row['Cohens_d']:.3f} |
                 | Significatività | {row['Sig_Text']} |
@@ -325,13 +325,13 @@ if not top_positive.empty:
                     x=['Con', 'Senza'],
                     y=[row['Media_Con'], row['Media_Senza']],
                     marker_color=['#27ae60', '#95a5a6'],
-                    text=[f"{row['Media_Con']:.1f}%", f"{row['Media_Senza']:.1f}%"],
+                    text=[f"{row['Media_Con']:.1f}/7", f"{row['Media_Senza']:.1f}/7"],
                     textposition='outside'
                 ))
                 fig_mini.update_layout(
                     height=200,
                     margin=dict(l=20, r=20, t=20, b=20),
-                    yaxis_range=[0, 100],
+                    yaxis_range=[1, 7],
                     showlegend=False
                 )
                 st.plotly_chart(fig_mini, use_container_width=True)
@@ -352,9 +352,9 @@ display_df.columns = [
 ]
 
 # Formatta numeri
-display_df['Media Con'] = display_df['Media Con'].map('{:.1f}%'.format)
-display_df['Media Senza'] = display_df['Media Senza'].map('{:.1f}%'.format)
-display_df['Differenza'] = display_df['Differenza'].map('{:+.1f}%'.format)
+display_df['Media Con'] = display_df['Media Con'].map('{:.1f}/7'.format)
+display_df['Media Senza'] = display_df['Media Senza'].map('{:.1f}/7'.format)
+display_df['Differenza'] = display_df['Differenza'].map('{:+.2f}'.format)
 display_df['p-value'] = display_df['p-value'].apply(lambda x: f"{x:.4f}" if x >= 0.0001 else "<0.0001")
 display_df["Cohen's d"] = display_df["Cohen's d"].round(3)
 
@@ -392,7 +392,7 @@ for idx, row in df.iterrows():
                 method_counts.append({
                     'school_id': school_id,
                     'n_methods': count,
-                    'ro': scale_to_pct(ro)
+                    'ro': float(ro)
                 })
         except Exception:
             pass
@@ -410,7 +410,7 @@ if method_counts:
             'data_frame': corr_df,
             'x': 'n_methods',
             'y': 'ro',
-            'labels': {'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (%)'},
+            'labels': {'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (1-7)'},
             'opacity': 0.6
         }
         

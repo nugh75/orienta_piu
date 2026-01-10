@@ -298,8 +298,6 @@ def load_data():
         for col in all_score_cols:
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
-                # Convert to percentage (0-100) immediately
-                df[col] = df[col].apply(scale_to_pct)
         return df
     return pd.DataFrame()
 
@@ -410,7 +408,7 @@ with tab_mappa:
         regional_stats.columns = ['Regione', 'Media Normalizzata', 'N. Scuole', 'Tipi Coperti']
         regional_stats = regional_stats[regional_stats['Regione'] != 'Non Specificato']
         
-        # Already converted to percentage in load_data
+        # Already in scala 1-7 in load_data
         # regional_stats['Media Normalizzata'] = regional_stats['Media Normalizzata'].apply(scale_to_pct)
         
         regional_stats = regional_stats.sort_values('Media Normalizzata', ascending=False)
@@ -422,12 +420,12 @@ with tab_mappa:
                 regional_stats.sort_values('Media Normalizzata', ascending=True),
                 x='Media Normalizzata', y='Regione', orientation='h',
                 color='Media Normalizzata', color_continuous_scale='RdYlGn',
-                range_x=[0, 100], range_color=[0, 100],
-                title="Indice di Completezza Normalizzato per Regione (%)",
+                range_x=[1, 7], range_color=[1, 7],
+                title="Indice di Completezza Normalizzato per Regione (1-7)",
                 text='N. Scuole'
             )
             fig_ranking.update_traces(texttemplate='n=%{text}', textposition='outside')
-            fig_ranking.update_layout(height=500, xaxis_title="Completezza (%)")
+            fig_ranking.update_layout(height=500, xaxis_title="Completezza (1-7)")
             st.plotly_chart(fig_ranking, use_container_width=True)
 
         with col2:
@@ -499,7 +497,7 @@ with tab_mappa:
             grouped = grouped[grouped['Regione'].isin(valid_regions)]
 
             if not grouped.empty:
-                # Already in percentage
+                # Already in scala 1-7
                 # grouped['Media'] = grouped['Media'].apply(scale_to_pct)
 
                 fig_sp = px.bar(
@@ -509,10 +507,10 @@ with tab_mappa:
                     color='Gestione',
                     barmode='group',
                     text='N. Scuole',
-                    labels={'Media': 'Completezza (%)', 'Gestione': 'Gestione'}
+                    labels={'Media': 'Completezza (1-7)', 'Gestione': 'Gestione'}
                 )
                 fig_sp.update_traces(texttemplate='n=%{text}', textposition='outside')
-                fig_sp.update_layout(height=450, yaxis_range=[0, 100])
+                fig_sp.update_layout(height=450, yaxis_range=[1, 7])
                 st.plotly_chart(fig_sp, use_container_width=True)
 
                 st.dataframe(
@@ -634,10 +632,10 @@ with tab_mappa:
 
                             pair_info = {
                                 'Regione 1': region_names[i],
-                                'Media 1': f"{mean_i_pct:.1f}%",
+                                'Media 1': f"{mean_i_pct:.1f}/7",
                                 'Regione 2': region_names[j],
-                                'Media 2': f"{mean_j_pct:.1f}%",
-                                'Differenza': f"{diff_pct:.1f}%",
+                                'Media 2': f"{mean_j_pct:.1f}/7",
+                                'Differenza': f"{diff_pct:.2f}",
                                 'p-value adj.': f"{p_adj:.4f}",
                                 'Significativo': '✅' if p_adj < 0.05 else '❌',
                                 'A favore di': favored if p_adj < 0.05 else '-'
@@ -647,9 +645,9 @@ with tab_mappa:
                             if p_adj < 0.05:
                                 significant_pairs.append({
                                     'Confronto': f"{favored} vs {unfavored}",
-                                    'Media superiore': f"{favored} ({max(mean_i_pct, mean_j_pct):.1f}%)",
-                                    'Media inferiore': f"{unfavored} ({min(mean_i_pct, mean_j_pct):.1f}%)",
-                                    'Differenza': f"{diff_pct:.1f}%",
+                                    'Media superiore': f"{favored} ({max(mean_i_pct, mean_j_pct):.1f}/7)",
+                                    'Media inferiore': f"{unfavored} ({min(mean_i_pct, mean_j_pct):.1f}/7)",
+                                    'Differenza': f"{diff_pct:.2f}",
                                     'p-value': f"{p_adj:.4f}"
                                 })
 
@@ -717,7 +715,7 @@ with tab_mappa:
                 hover_name='Regione',
                 hover_data={'Media Normalizzata': ':.1f', 'N. Scuole': True, 'lat': False, 'lon': False},
                 color_continuous_scale='RdYlGn',
-                range_color=[0, 100],
+                range_color=[1, 7],
                 size_max=50,
                 title="Distribuzione Geografica Indice di Completezza Normalizzato"
             )
@@ -960,7 +958,7 @@ with tab_mappa:
                         hover_name='Regione',
                         hover_data={'Media': ':.2f', 'N. Scuole': True, 'lat': False, 'lon': False},
                         color_continuous_scale='RdYlGn',
-                        range_color=[0, 100],
+                        range_color=[1, 7],
                         size_max=50,
                         title=f"Distribuzione {selected_tipo} per Regione"
                     )
@@ -998,7 +996,7 @@ with tab_mappa:
                 tipo_comparison,
                 x='Media', y='Tipologia', orientation='h',
                 color='Media', color_continuous_scale='RdYlGn',
-                range_x=[0, 100], range_color=[0, 100],
+                range_x=[1, 7], range_color=[1, 7],
                 text='N. Scuole',
                 title="Indice RO Medio per Tipologia Scolastica"
             )
@@ -1563,7 +1561,7 @@ with tab_mappa:
                 ))
 
             fig_radar.update_layout(
-                polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+                polar=dict(radialaxis=dict(visible=True, range=[1, 7])),
                 showlegend=True,
                 title="Confronto Dimensioni per Area Geografica",
                 height=500
@@ -1770,7 +1768,7 @@ with tab_confronti:
         if not pivot.empty:
             fig = px.imshow(
                 pivot, text_auto='.2f', color_continuous_scale='RdBu',
-                zmin=0, zmax=100, title="Indice RO Medio per Tipo e Area"
+                zmin=1, zmax=7, title="Indice RO Medio per Tipo e Area"
             )
             st.plotly_chart(fig, use_container_width=True)
 
@@ -1779,7 +1777,7 @@ with tab_confronti:
                 **Cosa mostra?**
                 Incrocia il **Tipo di Scuola** con l'**Area Geografica** per vedere chi performa meglio.
                 - **Blu/Rosso scuro:** Punteggi alti/bassi (a seconda della scala).
-                - **Numeri:** Il punteggio medio del gruppo (0-100%).
+                - **Numeri:** Il punteggio medio del gruppo (scala 1-7).
                 """)
 
             st.info("""
@@ -1905,7 +1903,7 @@ with tab_confronti:
                 ))
 
             fig.update_layout(
-                polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+                polar=dict(radialaxis=dict(visible=True, range=[1, 7])),
                 showlegend=True,
                 title=f"Confronto Profili per {radar_group.replace('_', ' ').title()}",
                 height=600
@@ -2191,38 +2189,38 @@ with tab_confronti:
     st.markdown("---")
 
     # === 5. GAP ANALYSIS ===
-    st.subheader("🎯 Gap Analysis: Distanza dal Ottimo (100%)")
+    st.subheader("🎯 Gap Analysis: Distanza dall'Ottimo (7/7)")
 
     gap_cols = ['mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
     if all(c in df.columns for c in gap_cols):
         gap_means = df[gap_cols].mean()
-        gap_values = 100.0 - gap_means
+        gap_values = 7.0 - gap_means
 
         gap_df = pd.DataFrame({
             'Dimensione': [get_label(c) for c in gap_cols],
             'Punteggio Attuale': gap_means.values,
-            'Gap da 100': gap_values.values
+            'Gap da 7': gap_values.values
         })
 
         fig = go.Figure()
         fig.add_trace(go.Bar(x=gap_df['Dimensione'], y=gap_df['Punteggio Attuale'],
                              name='Attuale', marker_color='#00CC96'))
-        fig.add_trace(go.Bar(x=gap_df['Dimensione'], y=gap_df['Gap da 100'],
+        fig.add_trace(go.Bar(x=gap_df['Dimensione'], y=gap_df['Gap da 7'],
                              name='Gap', marker_color='#EF553B'))
-        fig.update_layout(barmode='stack', yaxis=dict(range=[0, 100]))
+        fig.update_layout(barmode='stack', yaxis=dict(range=[0, 7]))
         st.plotly_chart(fig, use_container_width=True)
 
         with st.expander("📘 Guida alla lettura: Gap Analysis"):
             st.markdown("""
             **Cosa significa?**
-            Visualizza quanto manca per raggiungere l'eccellenza (100%).
+            Visualizza quanto manca per raggiungere l'eccellenza (7/7).
             - **Verde/Blu:** Il punteggio attuale raggiunto.
-            - **Rosso/Grigio:** Il gap (distanza) mancante per arrivare a 100%.
+            - **Rosso/Grigio:** Il gap (distanza) mancante per arrivare a 7.
             """)
 
         with st.expander("📈 Analisi Statistica: Quanto siamo lontani dall'eccellenza?", expanded=False):
             st.markdown("""
-            Verifica se i punteggi medi sono significativamente diversi dal valore teorico ottimo (100).
+            Verifica se i punteggi medi sono significativamente diversi dal valore teorico ottimo (7).
             Utilizziamo un **t-test one-sample** per ogni dimensione.
             """)
 
@@ -2230,19 +2228,19 @@ with tab_confronti:
             for gap_col in gap_cols:
                 values = df[gap_col].dropna()
                 if len(values) >= 3:
-                    t_stat, p_value = stats.ttest_1samp(values, 100)
+                    t_stat, p_value = stats.ttest_1samp(values, 7)
                     mean_val = values.mean()
                     std_val = values.std()
-                    gap = 100 - mean_val
+                    gap = 7 - mean_val
 
-                    d_one = (mean_val - 100) / std_val if std_val > 0 else np.nan
+                    d_one = (mean_val - 7) / std_val if std_val > 0 else np.nan
                     d_interp, d_emoji = interpret_cohens_d(d_one)
                     p_interp, p_emoji = interpret_pvalue(p_value)
 
                     results_gap.append({
                         'Dimensione': get_label(gap_col),
                         'Media': f"{mean_val:.2f}",
-                        'Gap da 100': f"{gap:.2f}",
+                        'Gap da 7': f"{gap:.2f}",
                         'DS': f"{std_val:.2f}",
                         't': f"{t_stat:.2f}",
                         'p-value': f"{p_value:.4f}",
@@ -2255,14 +2253,15 @@ with tab_confronti:
                 st.dataframe(pd.DataFrame(results_gap), use_container_width=True, hide_index=True)
 
                 st.markdown("### 🎯 Priorità di Intervento")
-                sorted_gaps = sorted(results_gap, key=lambda x: float(x['Gap da 100']), reverse=True)
+                sorted_gaps = sorted(results_gap, key=lambda x: float(x['Gap da 7']), reverse=True)
                 for i, r in enumerate(sorted_gaps, 1):
-                    emoji = "🔴" if float(r['Gap da 100']) > 20 else "🟠" if float(r['Gap da 100']) > 10 else "🟡"
+                    gap_val = float(r['Gap da 7'])
+                    emoji = "🔴" if gap_val > 1.2 else "🟠" if gap_val > 0.6 else "🟡"
                     entita = r['Entità Gap'].split()[1] if len(r['Entità Gap'].split()) > 1 else 'N/D'
-                    st.markdown(f"{i}. {emoji} **{r['Dimensione']}**: gap di {r['Gap da 100']} punti ({entita})")
+                    st.markdown(f"{i}. {emoji} **{r['Dimensione']}**: gap di {r['Gap da 7']} punti ({entita})")
 
     st.info("""
-💡 **A cosa serve**: Visualizza quanto manca a ciascuna dimensione per raggiungere l'eccellenza (punteggio massimo 100%).
+💡 **A cosa serve**: Visualizza quanto manca a ciascuna dimensione per raggiungere l'eccellenza (punteggio massimo 7).
 
 🔍 **Cosa rileva**: La parte verde è il punteggio medio attuale, quella rossa è il "gap" da colmare. Dimensioni con più rosso sono quelle dove c'è maggior margine di miglioramento.
 
@@ -2297,7 +2296,7 @@ with tab_confronti:
                     orientation='h',
                     color='Indice RO Normalizzato',
                     color_continuous_scale='RdYlGn',
-                    range_color=[0, 100],
+                    range_color=[1, 7],
                     text='N. Scuole',
                     title="Indice RO Normalizzato per Regione"
                 )
@@ -2453,7 +2452,7 @@ with tab_report:
                         barmode='group',
                         title=f"Confronto {selected_region} vs Media Nazionale",
                         yaxis_title="Punteggio",
-                        yaxis_range=[0, 100]
+                        yaxis_range=[1, 7]
                     )
                     st.plotly_chart(fig, use_container_width=True)
 
@@ -2506,7 +2505,7 @@ with tab_report:
                                 tipo_stats.sort_values('Media', ascending=True),
                                 x='Media', y='Tipologia', orientation='h',
                                 color='Media', color_continuous_scale='RdYlGn',
-                                range_x=[0, 100], title="Indice RO per Tipologia"
+                                range_x=[1, 7], title="Indice RO per Tipologia"
                             )
                             st.plotly_chart(fig_tipo, use_container_width=True)
 
@@ -2719,7 +2718,7 @@ CONFRONTO CON MEDIA NAZIONALE
                         ))
 
                     fig_radar.update_layout(
-                        polar=dict(radialaxis=dict(range=[0, 100])),
+                        polar=dict(radialaxis=dict(range=[1, 7])),
                         title="Confronto Profilo Dimensionale",
                         height=500
                     )
@@ -2732,7 +2731,7 @@ CONFRONTO CON MEDIA NAZIONALE
                     color='regione',
                     title="Distribuzione Indice RO per Regione"
                 )
-                fig_box.update_layout(showlegend=False, yaxis_range=[0, 100])
+                fig_box.update_layout(showlegend=False, yaxis_range=[1, 7])
                 st.plotly_chart(fig_box, use_container_width=True)
 
     st.markdown("---")

@@ -88,23 +88,20 @@ def format_location(row: pd.Series) -> str:
 
 def build_summary(row: pd.Series) -> str:
     ro = float(row.get("ptof_orientamento_maturity_index", 0) or 0)
-    ro_pct = scale_to_pct(ro)
     did = float(row.get("mean_didattica_orientativa", 0) or 0)
-    did_pct = scale_to_pct(did)
     opp = float(row.get("mean_opportunita", 0) or 0)
-    opp_pct = scale_to_pct(opp)
 
-    if ro_pct >= 70:
+    if ro >= 5.0:
         base = "Profilo molto solido"
-    elif ro_pct >= 50:
+    elif ro >= 4.0:
         base = "Profilo equilibrato"
     else:
         base = "Profilo da rafforzare"
 
     focus = []
-    if did_pct >= 70:
+    if did >= 5.0:
         focus.append("didattica orientativa forte")
-    if opp_pct >= 70:
+    if opp >= 5.0:
         focus.append("buone collaborazioni esterne")
 
     if focus:
@@ -276,13 +273,13 @@ def step_three(df: pd.DataFrame) -> None:
     ].copy()
     table.columns = [
         "Scuola",
-        "Preparazione al futuro (%)",
-        "Collaborazioni esterne (%)",
-        "Organizzazione e progetti (%)",
-        "Indice Completezza (%)",
+        "Preparazione al futuro (1-7)",
+        "Collaborazioni esterne (1-7)",
+        "Organizzazione e progetti (1-7)",
+        "Indice Completezza (1-7)",
     ]
 
-    # Convert numeric columns to percentages for display
+    # Format numeric columns for display
     for col in table.columns[1:]:
         table[col] = table[col].apply(lambda x: format_pct(x) if pd.notna(x) else "N/D")
     
@@ -300,11 +297,11 @@ def step_three(df: pd.DataFrame) -> None:
     fig = go.Figure()
     for _, row in selected.iterrows():
         values = [
-            scale_to_pct(float(row.get("mean_finalita", 0) or 0)),
-            scale_to_pct(float(row.get("mean_obiettivi", 0) or 0)),
-            scale_to_pct(float(row.get("mean_didattica_orientativa", 0) or 0)),
-            scale_to_pct(float(row.get("mean_opportunita", 0) or 0)),
-            scale_to_pct(float(row.get("mean_governance", 0) or 0)),
+            float(row.get("mean_finalita", 0) or 0),
+            float(row.get("mean_obiettivi", 0) or 0),
+            float(row.get("mean_didattica_orientativa", 0) or 0),
+            float(row.get("mean_opportunita", 0) or 0),
+            float(row.get("mean_governance", 0) or 0),
         ]
         values.append(values[0])
         fig.add_trace(
@@ -316,7 +313,7 @@ def step_three(df: pd.DataFrame) -> None:
             )
         )
 
-    fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 100])), showlegend=True)
+    fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[1, 7])), showlegend=True)
     st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("Pro e contro")

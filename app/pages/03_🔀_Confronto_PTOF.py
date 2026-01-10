@@ -236,16 +236,14 @@ with col_h2:
     """, unsafe_allow_html=True)
 
 # Differenza RO
-pct1 = scale_to_pct(ro1)
-pct2 = scale_to_pct(ro2)
-diff_pct = pct1 - pct2
+diff_ro = ro1 - ro2
 
-if abs(diff_pct) < 5.0:
-    st.info(f"📊 Le due scuole hanno un Indice di Completezza molto simile (differenza: {abs(diff_pct):.1f}%)")
-elif diff_pct > 0:
-    st.success(f"📈 **{school1['denominazione'][:30]}** ha un Indice di Completezza superiore di **{diff_pct:.1f}%**")
+if abs(diff_ro) < 0.5:
+    st.info(f"📊 Le due scuole hanno un Indice di Completezza molto simile (differenza: {abs(diff_ro):.1f})")
+elif diff_ro > 0:
+    st.success(f"📈 **{school1['denominazione'][:30]}** ha un Indice di Completezza superiore di **{diff_ro:.1f}**")
 else:
-    st.success(f"📈 **{school2['denominazione'][:30]}** ha un Indice di Completezza superiore di **{abs(diff_pct):.1f}%**")
+    st.success(f"📈 **{school2['denominazione'][:30]}** ha un Indice di Completezza superiore di **{abs(diff_ro):.1f}**")
 
 st.markdown("---")
 
@@ -255,9 +253,9 @@ st.subheader("🕸️ Confronto Dimensionale")
 col_radar, col_table = st.columns([2, 1])
 
 with col_radar:
-    # Prepara dati (percentuali)
-    vals1 = [scale_to_pct(school1.get(d, 0) or 0) for d in DIMENSIONS.keys()]
-    vals2 = [scale_to_pct(school2.get(d, 0) or 0) for d in DIMENSIONS.keys()]
+    # Prepara dati (scala 1-7)
+    vals1 = [float(school1.get(d, 0) or 0) for d in DIMENSIONS.keys()]
+    vals2 = [float(school2.get(d, 0) or 0) for d in DIMENSIONS.keys()]
     labels = list(DIMENSIONS.values())
 
     fig = go.Figure()
@@ -281,7 +279,7 @@ with col_radar:
     ))
 
     fig.update_layout(
-        polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+        polar=dict(radialaxis=dict(visible=True, range=[1, 7])),
         showlegend=True,
         height=450,
         legend=dict(orientation="h", yanchor="bottom", y=-0.2)
@@ -293,22 +291,22 @@ with col_table:
 
     comparison_data = []
     for dim_col, dim_label in DIMENSIONS.items():
-        v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
-        v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
+        v1 = float(school1.get(dim_col, 0) or 0)
+        v2 = float(school2.get(dim_col, 0) or 0)
         diff = v1 - v2
 
-        if diff > 5.0:
+        if diff > 0.5:
             winner = "🔵"
-        elif diff < -5.0:
+        elif diff < -0.5:
             winner = "🟢"
         else:
             winner = "="
 
         comparison_data.append({
             'Dimensione': dim_label,
-            'Scuola 1': f"{v1:.1f}%",
-            'Scuola 2': f"{v2:.1f}%",
-            'Δ': f"{diff:+.1f}%",
+            'Scuola 1': f"{v1:.1f}/7",
+            'Scuola 2': f"{v2:.1f}/7",
+            'Δ': f"{diff:+.1f}",
             'Migliore': winner
         })
 
@@ -427,8 +425,8 @@ st.subheader("📊 Confronto Visivo per Dimensione")
 
 bar_data = []
 for dim_col, dim_label in DIMENSIONS.items():
-    v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
-    v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
+    v1 = float(school1.get(dim_col, 0) or 0)
+    v2 = float(school2.get(dim_col, 0) or 0)
     bar_data.append({'Dimensione': dim_label, 'Scuola 1': v1, 'Scuola 2': v2})
 
 bar_df = pd.DataFrame(bar_data)
@@ -449,7 +447,7 @@ fig_bar.add_trace(go.Bar(
 
 fig_bar.update_layout(
     barmode='group',
-    yaxis_range=[0, 100],
+    yaxis_range=[1, 7],
     height=400,
     legend=dict(orientation="h", yanchor="bottom", y=-0.2)
 )
@@ -463,20 +461,20 @@ st.subheader("💡 Insights dal Confronto")
 insights = []
 
 # Insight su RO
-if abs(diff_pct) >= 10.0:
-    if diff_pct > 0:
-        insights.append(f"📈 **Differenza significativa:** {school1['denominazione'][:25]} supera {school2['denominazione'][:25]} di {diff_pct:.1f}% nell'Indice di Completezza")
+if abs(diff_ro) >= 1.0:
+    if diff_ro > 0:
+        insights.append(f"📈 **Differenza significativa:** {school1['denominazione'][:25]} supera {school2['denominazione'][:25]} di {diff_ro:.1f} nell'Indice di Completezza")
     else:
-        insights.append(f"📈 **Differenza significativa:** {school2['denominazione'][:25]} supera {school1['denominazione'][:25]} di {abs(diff_pct):.1f}% nell'Indice di Completezza")
+        insights.append(f"📈 **Differenza significativa:** {school2['denominazione'][:25]} supera {school1['denominazione'][:25]} di {abs(diff_ro):.1f} nell'Indice di Completezza")
 
 # Insight sulle dimensioni
 for dim_col, dim_label in DIMENSIONS.items():
-    v1 = scale_to_pct(school1.get(dim_col, 0) or 0)
-    v2 = scale_to_pct(school2.get(dim_col, 0) or 0)
+    v1 = float(school1.get(dim_col, 0) or 0)
+    v2 = float(school2.get(dim_col, 0) or 0)
     diff = abs(v1 - v2)
-    if diff >= 15.0:
+    if diff >= 1.0:
         better = school1['denominazione'][:25] if v1 > v2 else school2['denominazione'][:25]
-        insights.append(f"🎯 **{dim_label}:** Differenza marcata ({diff:.1f}%). {better} eccelle in questa dimensione")
+        insights.append(f"🎯 **{dim_label}:** Differenza marcata ({diff:.1f}). {better} eccelle in questa dimensione")
 
 # Insight su partnership
 p1 = int(school1.get('partnership_count', 0) or 0)

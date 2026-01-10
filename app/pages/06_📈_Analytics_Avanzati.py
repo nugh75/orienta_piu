@@ -13,8 +13,6 @@ from data_utils import (
     explode_school_types,
     explode_school_grades,
     render_footer,
-    scale_to_pct,
-    format_pct,
 )
 from page_control import setup_page
 
@@ -56,13 +54,12 @@ def load_data():
 def categorize_maturity(val):
     if pd.isna(val):
         return "ND"
-    # Convert thresholds (roughly): 3.5->42%, 5.5->75%
-    # Using aligned thresholds: <50% = Bassa, 50-75% = Media, >75% = Alta
-    if val < 50.0:
-        return "Bassa (<50%)"
-    if val <= 75.0:
-        return "Media (50-75%)"
-    return "Alta (>75%)"
+    # Scala 1-7: <4 = Bassa, 4-5 = Media, >5 = Alta
+    if val < 4.0:
+        return "Bassa (<4/7)"
+    if val <= 5.0:
+        return "Media (4-5/7)"
+    return "Alta (>5/7)"
 
 
 df = load_data()
@@ -87,17 +84,7 @@ for col in all_score_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# --- CONVERSION TO PERCENTAGE (0-100) ---
-# We assume source data is 1-7. We convert everything to 0-100% scale here.
-def convert_val_to_pct(x):
-    return scale_to_pct(x)
-
-# Apply to all score columns
-for col in all_score_cols:
-    if col in df.columns:
-        # Check if it looks like 1-7 scale (max < 8 usually) to avoid double conversion if run twice
-        # But here we just assume source is raw. 'scale_to_pct' handles NaN.
-        df[col] = df[col].apply(convert_val_to_pct)
+# I dati sono già in scala 1-7, nessuna conversione necessaria
 
 tab_cluster, tab_visual = st.tabs(["🔬 Clustering e Correlazioni", "🕸️ Visualizzazioni Avanzate"])
 
@@ -303,7 +290,7 @@ with tab_cluster:
                     cluster_means.columns = [get_label(c) for c in cluster_cols]
                     
                     fig_heat = px.imshow(cluster_means, text_auto='.1f', color_continuous_scale='Viridis',
-                                       title="Punteggi Medi (%)", aspect="auto", zmin=0, zmax=100)
+                                       title="Punteggi Medi (1-7)", aspect="auto", zmin=1, zmax=7)
                     st.plotly_chart(fig_heat, use_container_width=True)
                     
                 with st.expander("📘 Guida alla lettura: Clustering e PCA", expanded=False):
@@ -533,10 +520,10 @@ with tab_cluster:
             fig = px.violin(
                 df_violin, x='tipo_scuola', y='maturity_pct',
                 color='tipo_scuola', box=True, points='all',
-                title="Violin Plot Completezza (%)",
-                range_y=[0, 100]
+                title="Violin Plot Indice RO (scala 1-7)",
+                range_y=[1, 7]
             )
-            fig.update_layout(showlegend=False, yaxis_title="Completezza (%)")
+            fig.update_layout(showlegend=False, yaxis_title="Indice RO (1-7)")
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("Nessun dato valido per le tipologie canoniche")
@@ -567,13 +554,13 @@ with tab_cluster:
         with col1:
             st.markdown("### 🥇 Top 5")
             top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}%")
+            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}/7")
             top5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(top5.reset_index(drop=True), use_container_width=True)
         with col2:
             st.markdown("### 🔻 Bottom 5")
             bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}%")
+            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}/7")
             bottom5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
 
@@ -1129,7 +1116,7 @@ with tab_visual:
                 polar=dict(
                     radialaxis=dict(
                         visible=True,
-                        range=[0, 100]  # Assuming scale 0-100%
+                        range=[1, 7]  # Scala 1-7
                     )
                 ),
                 showlegend=True,
@@ -1143,10 +1130,10 @@ with tab_visual:
             diffs = []
             for d, v_school, v_avg in zip(dims_labels, school_vals, avg_vals):
                 delta = v_school - v_avg
-                if delta > 5.0:
-                    diffs.append(f"**{d}**: +{delta:.2f}% sopra la media")
-                elif delta < -5.0:
-                    diffs.append(f"**{d}**: {delta:.2f}% sotto la media")
+                if delta > 0.3:
+                    diffs.append(f"**{d}**: +{delta:.2f} punti sopra la media")
+                elif delta < -0.3:
+                    diffs.append(f"**{d}**: {delta:.2f} punti sotto la media")
             
             if diffs:
                 for d in diffs:
