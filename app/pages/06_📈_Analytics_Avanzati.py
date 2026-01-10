@@ -718,7 +718,7 @@ with tab_cluster:
     
     🔍 **Cosa rileva**: I grafici a barre mostrano le categorie di attività e i partner più citati. Le Word Cloud visualizzano le parole più frequenti nei titoli delle attività e nei nomi dei partner.
     
-    🎯 **Implicazioni**: Identifica pattern comuni nelle collaborazioni e nelle attività. Partner ricorrenti potrebbero essere best practice da replicare. Categorie poco presenti potrebbero indicare aree da sviluppare.
+    🎯 **Implicazioni**: Identifica pattern comuni nelle collaborazioni e nelle attività. Partner ricorrenti potrebbero indicare attività replicabili. Categorie poco presenti potrebbero indicare aree da sviluppare.
     """)
 
     st.markdown("---")

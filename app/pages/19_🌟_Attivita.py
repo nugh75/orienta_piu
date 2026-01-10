@@ -49,7 +49,7 @@ CATEGORIE = [
     "Progetti e Attività Esemplari",
     "Partnership e Collaborazioni Strategiche",
     "Azioni di Sistema e Governance",
-    "Attività per l'Inclusione",
+    "Buone Pratiche per l'Inclusione",
     "Esperienze Territoriali Significative"
 ]
 
@@ -58,7 +58,7 @@ CATEGORIA_ICONS = {
     "Progetti e Attività Esemplari": "🎯",
     "Partnership e Collaborazioni Strategiche": "🤝",
     "Azioni di Sistema e Governance": "⚙️",
-    "Attività per l'Inclusione": "🌈",
+    "Buone Pratiche per l'Inclusione": "🌈",
     "Esperienze Territoriali Significative": "🗺️"
 }
 

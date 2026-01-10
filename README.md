@@ -199,6 +199,26 @@ make activity-extract SHARD="1/2"
 make activity-extract SHARD="2/2"
 ```
 
+## Meta Report (Tematici)
+
+Generazione report tematici sulle attivita estratte.
+
+```bash
+make meta-thematic DIM=orientamento PROVIDER=ollama
+```
+
+Opzione per includere sezioni regionali (default: disattivo):
+```bash
+META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=orientamento
+```
+
+Consiglio chunking (bilanciamento costo/qualita):
+```bash
+META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-thematic DIM=orientamento
+```
+
+Output: `reports/meta/thematic/{DIM}_attivita.md`
+
 ## Notebook
 
 [docs/CLI_Examples.ipynb](docs/CLI_Examples.ipynb)

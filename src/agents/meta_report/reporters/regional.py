@@ -12,12 +12,25 @@ class RegionalReporter(BaseReporter):
 
     report_type = "regional"
 
-    def get_output_path(self, region: str, **kwargs) -> Path:
+    def get_output_path(
+        self,
+        region: str,
+        filters: Optional[dict] = None,
+        prompt_profile: Optional[str] = None,
+        **kwargs
+    ) -> Path:
         """Get output path for regional report."""
         safe_region = region.replace(" ", "_").replace("'", "")
-        return self.reports_dir / "regional" / f"{safe_region}_best_practices.md"
+        suffix = self._build_report_suffix(filters or {}, prompt_profile)
+        return self.reports_dir / "regional" / f"{safe_region}{suffix}_attivita.md"
 
-    def generate(self, region: str, force: bool = False) -> Optional[Path]:
+    def generate(
+        self,
+        region: str,
+        force: bool = False,
+        filters: Optional[dict] = None,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate report for a region.
 
         Args:
@@ -27,17 +40,23 @@ class RegionalReporter(BaseReporter):
         Returns:
             Path to generated report, or None if failed
         """
-        output_path = self.get_output_path(region)
+        filters = self._normalize_filters(filters)
+        output_path = self.get_output_path(region, filters=filters, prompt_profile=prompt_profile)
 
         if output_path.exists() and not force:
             return output_path
 
         # Load all analyses for region
         all_analyses = self.load_all_analyses()
-        regional_analyses = [
-            a for a in all_analyses
-            if a.get("school_info", {}).get("region", "").lower() == region.lower()
-        ]
+        regional_analyses = []
+        for analysis in all_analyses:
+            school_row = self._get_school_filters_row(analysis)
+            row_region = (school_row.get("regione") or "").lower()
+            if row_region != region.lower():
+                continue
+            if filters and not self._matches_filters(school_row, filters):
+                continue
+            regional_analyses.append(analysis)
 
         if not regional_analyses:
             print(f"[regional] No analyses found for region: {region}")
@@ -48,13 +67,22 @@ class RegionalReporter(BaseReporter):
 
         # Generate report
         print(f"[regional] Generating report for {region} ({len(regional_analyses)} schools)...")
-        response = self.provider.generate_best_practices(report_data, "regional")
+        if filters:
+            report_data["filters"] = filters
+        response = self.provider.generate_best_practices(
+            report_data,
+            "regional",
+            prompt_profile=prompt_profile
+        )
 
         # Write report
         metadata = {
             "region": region,
             "schools_count": len(regional_analyses),
         }
+        if filters:
+            metadata["filters"] = self._format_filters(filters)
+        metadata["prompt_profile"] = prompt_profile
 
         self.write_report(response.content, output_path, metadata)
         print(f"[regional] Report saved: {output_path}")

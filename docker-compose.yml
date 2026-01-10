@@ -8,6 +8,7 @@ services:
       # === DATI (read-only per la dashboard) ===
       - ./data:/app/data:ro                        # CSV, registry (sola lettura)
       - ./analysis_results:/app/analysis_results:ro # Report JSON/MD (sola lettura)
+      - ./reports:/app/reports:ro                   # Meta report (sola lettura)
 
       # === DATI (read-write per funzionalita admin) ===
       - ./ptof_inbox:/app/ptof_inbox               # Upload PTOF

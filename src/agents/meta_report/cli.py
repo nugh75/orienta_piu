@@ -41,6 +41,15 @@ def main():
     parser.add_argument("--provider", "-p", default="auto",
                        choices=["auto", "gemini", "openrouter", "ollama"],
                        help="LLM provider to use")
+    parser.add_argument("--prompt-profile", default="overview",
+                       choices=["overview", "innovative", "comparative", "impact", "operational"],
+                       help="Prompt profile to use")
+    parser.add_argument("--tipo-scuola", help="Filtro tipo scuola (comma-separated)")
+    parser.add_argument("--ordine-grado", help="Filtro ordine/grado (comma-separated)")
+    parser.add_argument("--provincia", help="Filtro provincia (comma-separated)")
+    parser.add_argument("--area-geografica", help="Filtro area geografica (comma-separated)")
+    parser.add_argument("--statale-paritaria", help="Filtro statale/paritaria (comma-separated)")
+    parser.add_argument("--territorio", help="Filtro territorio (comma-separated)")
     parser.add_argument("--force", "-f", action="store_true",
                        help="Force regeneration even if report exists")
     parser.add_argument("--count", "-n", type=int, default=5,
@@ -54,6 +63,16 @@ def main():
         print(f"Error initializing: {e}")
         sys.exit(1)
 
+    filters = {
+        "tipo_scuola": args.tipo_scuola,
+        "ordine_grado": args.ordine_grado,
+        "regione": args.region,
+        "provincia": args.provincia,
+        "area_geografica": args.area_geografica,
+        "statale_paritaria": args.statale_paritaria,
+        "territorio": args.territorio,
+    }
+
     if args.command == "status":
         orchestrator.print_status()
 
@@ -61,7 +80,11 @@ def main():
         if not args.code:
             print("Error: --code required for school report")
             sys.exit(1)
-        result = orchestrator.generate_school(args.code, force=args.force)
+        result = orchestrator.generate_school(
+            args.code,
+            force=args.force,
+            prompt_profile=args.prompt_profile
+        )
         if result:
             print(f"Generated: {result}")
         else:
@@ -72,7 +95,12 @@ def main():
         if not args.region:
             print("Error: --region required for regional report")
             sys.exit(1)
-        result = orchestrator.generate_regional(args.region, force=args.force)
+        result = orchestrator.generate_regional(
+            args.region,
+            force=args.force,
+            filters=filters,
+            prompt_profile=args.prompt_profile
+        )
         if result:
             print(f"Generated: {result}")
         else:
@@ -80,7 +108,11 @@ def main():
             sys.exit(1)
 
     elif args.command == "national":
-        result = orchestrator.generate_national(force=args.force)
+        result = orchestrator.generate_national(
+            force=args.force,
+            filters=filters,
+            prompt_profile=args.prompt_profile
+        )
         if result:
             print(f"Generated: {result}")
         else:
@@ -90,9 +122,14 @@ def main():
     elif args.command == "thematic":
         if not args.dim:
             print("Error: --dim required for thematic report")
-            print("Available: finalita, obiettivi, governance, didattica, opportunita, partnership")
+            print("Available: metodologie, progetti, inclusione, orientamento, partnership, pcto, openday, universita, visite, exalunni, certificazioni")
             sys.exit(1)
-        result = orchestrator.generate_thematic(args.dim, force=args.force)
+        result = orchestrator.generate_thematic(
+            args.dim,
+            force=args.force,
+            filters=filters,
+            prompt_profile=args.prompt_profile
+        )
         if result:
             print(f"Generated: {result}")
         else:

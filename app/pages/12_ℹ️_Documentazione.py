@@ -471,7 +471,7 @@ st.subheader("Sezioni della dashboard (stato attuale)")
 st.markdown(
     """
 - Panoramica (Home): indicatori sintetici e distribuzioni nazionali.
-- Dettaglio Scuola: profilo scuola, report MD/PDF, best practice collegate, gap analysis e confronto con peer (radar per tipologia/area/nazionale).
+- Dettaglio Scuola: profilo scuola, report MD/PDF, attività collegate, gap analysis e confronto con peer (radar per tipologia/area/nazionale).
 - Confronto PTOF: analisi comparativa tra scuole.
 - Analisi territoriale: mappe, confronti geografici e report regionali.
 
@@ -626,7 +626,7 @@ Indice RO = (Media_Finalità + Media_Obiettivi + Media_Governance + Media_Didatt
 | 1.0 - 2.8 | Copertura assente o marginale |
 | 2.8 - 4.0 | Copertura parziale, elementi basilari |
 | 4.0 - 5.5 | Buona copertura, sistema strutturato |
-| 5.5 - 7.0 | Copertura eccellente, best practice |
+| 5.5 - 7.0 | Copertura eccellente, attività |
 """
 )
 

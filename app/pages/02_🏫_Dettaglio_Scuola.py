@@ -29,8 +29,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 SUMMARY_FILE = 'data/analysis_summary.csv'
-BEST_PRACTICES_FILE = 'data/attivita.json'
-BEST_PRACTICES_CSV = 'data/attivita.csv'
+ACTIVITIES_META_FILE = 'data/attivita.json'
+ACTIVITIES_CSV = 'data/attivita.csv'
 
 DIMENSIONS = {
     'mean_finalita': 'Finalita',
@@ -133,11 +133,11 @@ def load_data():
     return pd.DataFrame()
 
 @st.cache_data(ttl=60)
-def load_best_practices():
+def load_activities():
     # Prova JSON (solo se contiene ancora l'array pratiche)
-    if os.path.exists(BEST_PRACTICES_FILE):
+    if os.path.exists(ACTIVITIES_META_FILE):
         try:
-            with open(BEST_PRACTICES_FILE, 'r', encoding='utf-8') as f:
+            with open(ACTIVITIES_META_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             practices = data.get('practices', [])
             if isinstance(practices, list) and practices:
@@ -146,7 +146,7 @@ def load_best_practices():
             pass
 
     # Fallback CSV (formato attuale)
-    if os.path.exists(BEST_PRACTICES_CSV):
+    if os.path.exists(ACTIVITIES_CSV):
         try:
             def pipe_to_list(val):
                 if not val:
@@ -154,7 +154,7 @@ def load_best_practices():
                 return [v.strip() for v in str(val).split('|') if v.strip()]
 
             practices = []
-            with open(BEST_PRACTICES_CSV, 'r', encoding='utf-8') as f:
+            with open(ACTIVITIES_CSV, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
                     maturity = row.get('maturity_index')
@@ -413,8 +413,8 @@ with st.expander("📖 Come leggere questa pagina", expanded=False):
     **📄 Report Scuola**
     - Report MD/JSON, export PDF e documento PTOF originale
 
-    **🌟 Best Practice**
-    - Pratiche della scuola e suggerimenti da scuole simili
+    **🌟 Attività**
+    - Attività della scuola e suggerimenti da scuole simili
 
     **🎯 Gap Analysis**
     - Confronto con benchmark (best-in-class, media nazionale, top 10%)
@@ -588,7 +588,7 @@ st.markdown("---")
 radar_cols = list(DIMENSIONS.keys())
 
 tab_profilo, tab_report, tab_practices, tab_gap, tab_peer, tab_matching, tab_suggestions = st.tabs([
-    "📊 Profilo", "📄 Report Scuola", "🌟 Best Practice", "🎯 Gap Analysis",
+    "📊 Profilo", "📄 Report Scuola", "🌟 Attività", "🎯 Gap Analysis",
     "👥 Confronto Peer", "🔍 Matching Avanzato", "💡 Suggerimenti"
 ])
 
@@ -997,15 +997,15 @@ with tab_report:
         st.info(f"📂 PDF non trovato per {school_id}. Verifica che il file sia in `ptof/` o `ptof_processed/`.")
         st.caption("Cartelle cercate: ptof/, ptof_processed/, ptof_inbox/")
 
-# === TAB BEST PRACTICE ===
+# === TAB ATTIVITA ===
 with tab_practices:
-    st.subheader("🌟 Best Practice della Scuola")
+    st.subheader("🌟 Attività della Scuola")
 
-    practices = load_best_practices()
+    practices = load_activities()
     school_id = school_data.get('school_id', '')
 
     if not practices:
-        st.info("Catalogo pratiche non disponibile. Verifica `data/attivita.json`.")
+        st.info("Catalogo attività non disponibile. Verifica `data/attivita.json`.")
     else:
         school_practices = get_school_practices(practices, school_id)
 
@@ -1453,7 +1453,7 @@ with tab_matching:
                 """,
                 "complementary": """
                 **Scuole Complementari**: Trova scuole forti nelle aree dove tu sei debole.
-                Utile per: imparare best practice, trovare mentor, colmare gap specifici.
+                Utile per: imparare dalle attività, trovare mentor, colmare gap specifici.
                 """,
                 "adjacent": """
                 **Modelli Raggiungibili**: Trova scuole leggermente migliori di te.
@@ -1569,7 +1569,7 @@ with tab_matching:
                 st.session_state['last_matches'] = matches
 
     st.markdown("---")
-    st.caption("🔍 Matching Avanzato - Trova scuole per creare reti e imparare dalle best practice")
+    st.caption("🔍 Matching Avanzato - Trova scuole per creare reti e imparare dalle attività")
 
 # === TAB SUGGERIMENTI PERSONALIZZATI ===
 with tab_suggestions:
@@ -1746,6 +1746,6 @@ with tab_suggestions:
                         st.markdown("- Definisci indicatori di monitoraggio specifici")
 
     st.markdown("---")
-    st.caption("💡 Suggerimenti Personalizzati - Impara dalle best practice di scuole simili alla tua")
+    st.caption("💡 Suggerimenti Personalizzati - Impara dalle attività di scuole simili alla tua")
 
 render_footer()

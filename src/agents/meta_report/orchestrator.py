@@ -22,19 +22,39 @@ class MetaReportOrchestrator:
         self.national_reporter = NationalReporter(self.provider, self.base_dir)
         self.thematic_reporter = ThematicReporter(self.provider, self.base_dir)
 
-    def generate_school(self, school_code: str, force: bool = False) -> Optional[Path]:
+    def generate_school(
+        self,
+        school_code: str,
+        force: bool = False,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate report for a single school."""
-        result = self.school_reporter.generate(school_code, force=force)
+        result = self.school_reporter.generate(
+            school_code,
+            force=force,
+            prompt_profile=prompt_profile
+        )
         if result:
             self.registry.mark_school_generated(school_code)
             # Mark regional as stale
             self._mark_region_stale_for_school(school_code)
         return result
 
-    def generate_regional(self, region: str, force: bool = False) -> Optional[Path]:
+    def generate_regional(
+        self,
+        region: str,
+        force: bool = False,
+        filters: Optional[dict] = None,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate report for a region."""
-        result = self.regional_reporter.generate(region, force=force)
-        if result:
+        result = self.regional_reporter.generate(
+            region,
+            force=force,
+            filters=filters,
+            prompt_profile=prompt_profile
+        )
+        if result and not filters:
             # Count schools in region
             all_analyses = self.regional_reporter.load_all_analyses()
             count = sum(1 for a in all_analyses
@@ -44,18 +64,38 @@ class MetaReportOrchestrator:
             self.registry.mark_national_stale(f"region updated: {region}")
         return result
 
-    def generate_national(self, force: bool = False) -> Optional[Path]:
+    def generate_national(
+        self,
+        force: bool = False,
+        filters: Optional[dict] = None,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate national report."""
-        result = self.national_reporter.generate(force=force)
-        if result:
+        result = self.national_reporter.generate(
+            force=force,
+            filters=filters,
+            prompt_profile=prompt_profile
+        )
+        if result and not filters:
             all_analyses = self.national_reporter.load_all_analyses()
             self.registry.mark_national_generated(len(all_analyses))
         return result
 
-    def generate_thematic(self, dimension: str, force: bool = False) -> Optional[Path]:
+    def generate_thematic(
+        self,
+        dimension: str,
+        force: bool = False,
+        filters: Optional[dict] = None,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate thematic report for a dimension."""
-        result = self.thematic_reporter.generate(dimension, force=force)
-        if result:
+        result = self.thematic_reporter.generate(
+            dimension,
+            force=force,
+            filters=filters,
+            prompt_profile=prompt_profile
+        )
+        if result and not filters:
             self.registry.mark_thematic_generated(dimension)
         return result
 

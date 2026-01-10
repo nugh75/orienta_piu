@@ -281,8 +281,9 @@ activity-extract-stats:
 	@if [ -f data/attivita.json ]; then \
 		$(PYTHON) -c "import json; \
 d=json.load(open('data/attivita.json')); \
-print(f'📊 Statistiche Attività'); \
-print(f'   Attività totali: {d.get(\"total_practices\", 0)}'); \
+total=d.get('total_activities', d.get('total_practices', 0)); \
+print('📊 Statistiche Attività'); \
+print(f'   Attività totali: {total}'); \
 print(f'   Scuole processate: {d.get(\"schools_processed\", 0)}'); \
 print(f'   Modello: {d.get(\"extraction_model\", \"N/D\")}'); \
 print(f'   Ultimo aggiornamento: {d.get(\"last_updated\", \"N/D\")[:19]}')"; \
@@ -751,10 +752,12 @@ ifndef CODE
 	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
 	@echo "   Esempio: make meta-school CODE=RMIS001"
 	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
 	$(PYTHON) $(META_CLI) school --code $(CODE) \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,)
+		$(if $(FORCE),--force,) \
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",)
 endif
 
 # Report regionale (uso: make meta-regional REGION=Lazio PROVIDER=ollama)
@@ -763,42 +766,73 @@ ifndef REGION
 	@echo "❌ Specificare la regione con REGION=NOME"
 	@echo "   Esempio: make meta-regional REGION=Lazio"
 	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Filtri: TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
+	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
 	$(PYTHON) $(META_CLI) regional --region "$(REGION)" \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,)
+		$(if $(FORCE),--force,) \
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
+		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
+		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
+		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
+		$(if $(AREA),--area-geografica "$(AREA)",) \
+		$(if $(STATO),--statale-paritaria "$(STATO)",) \
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
 endif
 
 # Report nazionale
 meta-national:
 	$(PYTHON) $(META_CLI) national \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,)
+		$(if $(FORCE),--force,) \
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
+		$(if $(REGIONE),--region "$(REGIONE)",) \
+		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
+		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
+		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
+		$(if $(AREA),--area-geografica "$(AREA)",) \
+		$(if $(STATO),--statale-paritaria "$(STATO)",) \
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
 
 # Report tematico (uso: make meta-thematic DIM=governance)
 meta-thematic:
 ifndef DIM
 	@echo "❌ Specificare la dimensione con DIM=NOME"
 	@echo ""
-	@echo "   DIMENSIONI STRUTTURALI:"
-	@echo "     finalita, obiettivi, governance, didattica, partnership"
+	@echo "   DIMENSIONI CATEGORIE:"
+	@echo "     metodologie - Metodologie Didattiche Innovative"
+	@echo "     progetti    - Progetti e Attività Esemplari"
+	@echo "     inclusione  - Buone Pratiche per l'Inclusione"
+	@echo "     partnership - Partnership e Collaborazioni Strategiche"
 	@echo ""
-	@echo "   DIMENSIONI OPPORTUNITÀ (granulari):"
-	@echo "     pcto        - PCTO e Alternanza Scuola-Lavoro"
-	@echo "     stage       - Stage e Tirocini"
-	@echo "     openday     - Open Day e Orientamento in Entrata"
-	@echo "     visite      - Visite Aziendali e Universitarie"
-	@echo "     laboratori  - Laboratori Orientativi e Simulazioni"
-	@echo "     testimonianze - Testimonianze e Incontri con Esperti"
-	@echo "     counseling  - Counseling e Percorsi Individualizzati"
-	@echo "     alumni      - Rete Alumni e Mentoring"
+	@echo "   DIMENSIONI AMBITI:"
+	@echo "     orientamento - Orientamento"
+	@echo "     pcto         - PCTO/Alternanza"
+	@echo "     openday      - Open Day"
+	@echo "     universita   - Orientamento Universitario"
+	@echo "     visite       - Visite Guidate e Viaggi di Istruzione"
+	@echo "     exalunni     - Rete Alumni e Mentoring"
+	@echo "     certificazioni - Certificazioni e Competenze"
 	@echo ""
 	@echo "   Esempio: make meta-thematic DIM=pcto"
 	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Regioni: META_REPORT_INCLUDE_REGIONS=1 (default: 0)"
+	@echo "   Chunk temi: META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160"
+	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
+	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
 	$(PYTHON) $(META_CLI) thematic --dim $(DIM) \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,)
+		$(if $(FORCE),--force,) \
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
+		$(if $(REGIONE),--region "$(REGIONE)",) \
+		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
+		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
+		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
+		$(if $(AREA),--area-geografica "$(AREA)",) \
+		$(if $(STATO),--statale-paritaria "$(STATO)",) \
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
 endif
 
 # Genera prossimo report pendente

@@ -12,11 +12,22 @@ class NationalReporter(BaseReporter):
 
     report_type = "national"
 
-    def get_output_path(self, **kwargs) -> Path:
+    def get_output_path(
+        self,
+        filters: Optional[dict] = None,
+        prompt_profile: Optional[str] = None,
+        **kwargs
+    ) -> Path:
         """Get output path for national report."""
-        return self.reports_dir / "national" / "national_best_practices.md"
+        suffix = self._build_report_suffix(filters or {}, prompt_profile)
+        return self.reports_dir / "national" / f"national{suffix}_attivita.md"
 
-    def generate(self, force: bool = False) -> Optional[Path]:
+    def generate(
+        self,
+        force: bool = False,
+        filters: Optional[dict] = None,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate national report.
 
         Args:
@@ -25,13 +36,19 @@ class NationalReporter(BaseReporter):
         Returns:
             Path to generated report, or None if failed
         """
-        output_path = self.get_output_path()
+        filters = self._normalize_filters(filters)
+        output_path = self.get_output_path(filters=filters, prompt_profile=prompt_profile)
 
         if output_path.exists() and not force:
             return output_path
 
         # Load all analyses
         all_analyses = self.load_all_analyses()
+        if filters:
+            all_analyses = [
+                a for a in all_analyses
+                if self._matches_filters(self._get_school_filters_row(a), filters)
+            ]
 
         if not all_analyses:
             print("[national] No analyses found")
@@ -42,13 +59,22 @@ class NationalReporter(BaseReporter):
 
         # Generate report
         print(f"[national] Generating national report ({len(all_analyses)} schools)...")
-        response = self.provider.generate_best_practices(report_data, "national")
+        if filters:
+            report_data["filters"] = filters
+        response = self.provider.generate_best_practices(
+            report_data,
+            "national",
+            prompt_profile=prompt_profile
+        )
 
         # Write report
         metadata = {
             "total_schools": len(all_analyses),
             "regions_count": len(report_data["by_region"]),
         }
+        if filters:
+            metadata["filters"] = self._format_filters(filters)
+        metadata["prompt_profile"] = prompt_profile
 
         self.write_report(response.content, output_path, metadata)
         print(f"[national] Report saved: {output_path}")

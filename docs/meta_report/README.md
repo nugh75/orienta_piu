@@ -123,7 +123,7 @@ make meta-school CODE=RMIS001 PROVIDER=ollama
 make meta-school CODE=RMIS001 FORCE=1
 ```
 
-**Output**: `reports/meta/schools/RMIS001_best_practices.md`
+**Output**: `reports/meta/schools/RMIS001_attivita.md`
 
 ### Report Regionale
 
@@ -134,7 +134,7 @@ make meta-regional REGION="Emilia Romagna"
 make meta-regional REGION=Lombardia PROVIDER=gemini FORCE=1
 ```
 
-**Output**: `reports/meta/regional/Lazio_best_practices.md`
+**Output**: `reports/meta/regional/Lazio_attivita.md`
 
 ### Report Nazionale
 
@@ -144,7 +144,7 @@ make meta-national
 make meta-national PROVIDER=ollama FORCE=1
 ```
 
-**Output**: `reports/meta/national/national_best_practices.md`
+**Output**: `reports/meta/national/national_attivita.md`
 
 ### Report Tematici
 
@@ -171,7 +171,23 @@ make meta-thematic DIM=counseling    # Counseling individuale
 make meta-thematic DIM=alumni        # Rete alumni e mentoring
 ```
 
-**Output**: `reports/meta/thematic/{DIM}_best_practices.md`
+**Output**: `reports/meta/thematic/{DIM}_attivita.md`
+
+Opzioni aggiuntive:
+
+```bash
+# Include anche le sezioni per regione (default: disattivo)
+META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=orientamento
+```
+
+Consiglio chunking (bilanciamento costo/qualita):
+
+```bash
+META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-thematic DIM=orientamento
+```
+
+Nota: per ogni report tematico viene salvato anche un file
+`reports/meta/thematic/{DIM}_attivita.activities.csv` con la tabella delle attivita usate.
 
 ### Elaborazione Automatica
 
@@ -219,16 +235,16 @@ I report vengono salvati in `reports/meta/`:
 ```
 reports/meta/
 ├── schools/
-│   ├── RMIS001_best_practices.md
-│   └── MIIS002_best_practices.md
+│   ├── RMIS001_attivita.md
+│   └── MIIS002_attivita.md
 ├── regional/
-│   ├── Lazio_best_practices.md
-│   └── Lombardia_best_practices.md
+│   ├── Lazio_attivita.md
+│   └── Lombardia_attivita.md
 ├── national/
-│   └── national_best_practices.md
+│   └── national_attivita.md
 ├── thematic/
-│   ├── governance_best_practices.md
-│   └── didattica_best_practices.md
+│   ├── governance_attivita.md
+│   └── didattica_attivita.md
 └── meta_registry.json
 ```
 

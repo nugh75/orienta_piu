@@ -11,11 +11,22 @@ class SchoolReporter(BaseReporter):
 
     report_type = "school"
 
-    def get_output_path(self, school_code: str, **kwargs) -> Path:
+    def get_output_path(
+        self,
+        school_code: str,
+        prompt_profile: Optional[str] = None,
+        **kwargs
+    ) -> Path:
         """Get output path for school report."""
-        return self.reports_dir / "schools" / f"{school_code}_best_practices.md"
+        suffix = self._build_report_suffix({}, prompt_profile)
+        return self.reports_dir / "schools" / f"{school_code}{suffix}_attivita.md"
 
-    def generate(self, school_code: str, force: bool = False) -> Optional[Path]:
+    def generate(
+        self,
+        school_code: str,
+        force: bool = False,
+        prompt_profile: str = "overview"
+    ) -> Optional[Path]:
         """Generate report for a single school.
 
         Args:
@@ -25,7 +36,7 @@ class SchoolReporter(BaseReporter):
         Returns:
             Path to generated report, or None if failed
         """
-        output_path = self.get_output_path(school_code)
+        output_path = self.get_output_path(school_code, prompt_profile=prompt_profile)
 
         # Check if already exists
         if output_path.exists() and not force:
@@ -42,7 +53,11 @@ class SchoolReporter(BaseReporter):
 
         # Generate report
         print(f"[school] Generating report for {school_code}...")
-        response = self.provider.generate_best_practices(report_data, "school")
+        response = self.provider.generate_best_practices(
+            report_data,
+            "school",
+            prompt_profile=prompt_profile
+        )
 
         # Write report
         metadata = {
@@ -50,6 +65,7 @@ class SchoolReporter(BaseReporter):
             "school_name": analysis.get("school_info", {}).get("name", "N/D"),
             "region": analysis.get("school_info", {}).get("region", "N/D"),
         }
+        metadata["prompt_profile"] = prompt_profile
 
         self.write_report(response.content, output_path, metadata)
         print(f"[school] Report saved: {output_path}")
