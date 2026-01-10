@@ -11,6 +11,9 @@ from typing import Optional
 from .base import BaseReporter
 
 
+# Soglia minima casi per generare sezione tema dedicata (configurabile via env)
+MIN_THEME_CASES = int(os.getenv("META_REPORT_MIN_THEME_CASES", "5"))
+
 # Dimension names mapping - basato sulle categorie/ambiti in attivita.csv
 DIMENSIONS = {
     # Categorie principali da attivita
@@ -46,6 +49,46 @@ ACTIVITY_KEYWORDS = {
     "visite": ["visite guidate", "viaggi di istruzione", "uscite didattiche"],
     "exalunni": ["ex alunni", "ex-alunni", "alumni", "diplomati"],
     "certificazioni": ["certificazion", "cambridge", "dele", "delf", "eipass"],
+}
+
+# Mapping per raggruppare temi affini (normalizzazione)
+THEME_ALIASES = {
+    # Salute e benessere
+    "salute": "Salute e Benessere",
+    "benessere": "Salute e Benessere",
+    "salute e benessere": "Salute e Benessere",
+    "sport e benessere": "Sport e Benessere",
+    # STEM
+    "stem": "STEM e Ricerca",
+    "steam": "STEM e Ricerca",
+    "stem/steam": "STEM e Ricerca",
+    "stem e ricerca": "STEM e Ricerca",
+    "scienze e ricerca": "STEM e Ricerca",
+    # Digitalizzazione
+    "digitale": "Digitalizzazione",
+    "digitalizzazione": "Digitalizzazione",
+    "competenze digitali": "Digitalizzazione",
+    # Inclusione
+    "inclusione": "Inclusione e BES",
+    "bes": "Inclusione e BES",
+    "inclusione e bes": "Inclusione e BES",
+    "buone pratiche per l'inclusione": "Inclusione e BES",
+    # Cittadinanza
+    "cittadinanza": "Cittadinanza e Legalità",
+    "legalità": "Cittadinanza e Legalità",
+    "cittadinanza e legalità": "Cittadinanza e Legalità",
+    "educazione civica": "Cittadinanza e Legalità",
+    # Lingue
+    "lingue": "Lingue Straniere",
+    "lingue straniere": "Lingue Straniere",
+    "intercultura": "Intercultura e Lingue",
+    # Arte
+    "arte": "Arte e Creatività",
+    "creatività": "Arte e Creatività",
+    "arte e creatività": "Arte e Creatività",
+    "musica": "Arte e Creatività",
+    "teatro": "Arte e Creatività",
+    "musica e teatro": "Arte e Creatività",
 }
 
 
@@ -226,14 +269,31 @@ class ThematicReporter(BaseReporter):
             pratica.get("titolo") or "",
         )
 
+    def _normalize_theme(self, theme: str) -> str:
+        """Normalize theme name using aliases."""
+        if not theme:
+            return "Altre attività"
+        theme_lower = theme.strip().lower()
+        return THEME_ALIASES.get(theme_lower, theme.strip())
+
     def _extract_themes(self, case: dict) -> list[str]:
         pratica = case.get("pratica", {})
-        themes = [t.strip() for t in pratica.get("ambiti_attivita", []) if t and t.strip()]
-        if not themes:
+        raw_themes = [t.strip() for t in pratica.get("ambiti_attivita", []) if t and t.strip()]
+        if not raw_themes:
             categoria = pratica.get("categoria")
             if categoria:
-                themes = [categoria.strip()]
-        return themes or ["Altre attivita"]
+                raw_themes = [categoria.strip()]
+        if not raw_themes:
+            return ["Altre attività"]
+        # Normalizza e deduplica
+        normalized = []
+        seen = set()
+        for t in raw_themes:
+            norm = self._normalize_theme(t)
+            if norm.lower() not in seen:
+                seen.add(norm.lower())
+                normalized.append(norm)
+        return normalized or ["Altre attività"]
 
     def _group_cases_by_theme(self, cases: list[dict]) -> dict:
         grouped = defaultdict(list)
@@ -280,36 +340,78 @@ class ThematicReporter(BaseReporter):
         if not content:
             return ""
         allowed_h2 = {
+            "Panoramica temi",
             "Analisi per tematiche",
             "Sintesi delle analisi tematiche",
             "Analisi per regione",
+            "Altri temi emergenti",
         }
         lines = []
         seen_h1 = False
+        prev_heading = None
+
         for line in content.splitlines():
-            match = re.match(r"^(#{1,6})\s+(.*)$", line.strip())
+            stripped = line.strip()
+
+            # Rimuovi righe che sembrano titoli duplicati (testo in grassetto che ripete il tema)
+            if stripped.startswith("**") and stripped.endswith("**"):
+                # Potrebbe essere un titolo in grassetto generato dal modello
+                inner = stripped[2:-2].strip()
+                # Se il titolo precedente era simile, salta
+                if prev_heading and inner.lower() in prev_heading.lower():
+                    continue
+                # Altrimenti converti in testo normale
+                lines.append(inner)
+                continue
+
+            match = re.match(r"^(#{1,6})\s+(.*)$", stripped)
             if not match:
                 lines.append(line)
                 continue
+
             level = len(match.group(1))
             text = match.group(2).strip()
+
+            # Rimuovi prefissi come "Sintesi Analitica:" o "Sintesi narrativa:"
+            text = re.sub(r"^(Sintesi\s+(Analitica|narrativa|Narrativa)\s*:\s*)", "", text).strip()
+
+            # Salta heading vuoti
+            if not text:
+                continue
+
+            # Evita duplicati consecutivi
+            if prev_heading and text.lower() == prev_heading.lower():
+                continue
+
             if level == 1:
                 if not seen_h1:
                     seen_h1 = True
                     lines.append(f"# {text}")
+                    prev_heading = text
                 else:
-                    lines.append(text)
+                    # H1 duplicato: converti in paragrafo
+                    lines.append(f"\n{text}\n")
                 continue
+
             if level == 2:
                 if text in allowed_h2:
                     lines.append(f"## {text}")
+                    prev_heading = text
                 else:
-                    lines.append(text)
+                    # H2 non consentito: converti in paragrafo o H3
+                    lines.append(f"### {text}")
+                    prev_heading = text
                 continue
+
             # Keep theme headings, demote overly deep levels
             level = min(level, 4)
             lines.append(f"{'#' * level} {text}")
-        return "\n".join(lines).strip()
+            prev_heading = text
+
+        # Post-process: rimuovi linee vuote multiple consecutive
+        result = "\n".join(lines)
+        result = re.sub(r"\n{3,}", "\n\n", result)
+        return result.strip()
 
     def _sample_case_labels(
         self,
@@ -388,6 +490,74 @@ class ThematicReporter(BaseReporter):
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)
+
+    def _build_summary_table(
+        self,
+        theme_counts: dict,
+        theme_groups: dict,
+        min_cases: int
+    ) -> str:
+        """Build markdown summary table for themes."""
+        lines = [
+            "| Tema | Casi | Scuole | Regioni principali |",
+            "|------|------|--------|-------------------|",
+        ]
+        for theme in sorted(theme_counts.keys(), key=lambda t: theme_counts[t], reverse=True):
+            count = theme_counts[theme]
+            cases = theme_groups.get(theme, [])
+            schools = set()
+            region_counts = defaultdict(int)
+            for case in cases:
+                scuola = case.get("scuola", {})
+                code = scuola.get("codice") or scuola.get("codice_meccanografico") or ""
+                if code:
+                    schools.add(code)
+                region = scuola.get("regione") or "N/D"
+                region_counts[region] += 1
+            top_regions = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)[:3]
+            regions_str = ", ".join(f"{r} ({c})" for r, c in top_regions)
+            # Marca temi sotto soglia
+            marker = "" if count >= min_cases else " *"
+            lines.append(f"| {theme}{marker} | {count} | {len(schools)} | {regions_str} |")
+        lines.append("")
+        lines.append(f"*Temi con meno di {min_cases} casi sono aggregati in 'Altri temi emergenti'*")
+        return "\n".join(lines)
+
+    def _build_minor_themes_section(
+        self,
+        minor_themes: dict[str, list],
+        theme_counts: dict
+    ) -> str:
+        """Build a compact section for themes with few cases."""
+        if not minor_themes:
+            return ""
+
+        lines = ["I seguenti temi emergenti presentano un numero limitato di casi ma meritano menzione:\n"]
+
+        for theme in sorted(minor_themes.keys(), key=lambda t: theme_counts.get(t, 0), reverse=True):
+            cases = minor_themes[theme]
+            count = len(cases)
+            # Estrai info sintetiche
+            schools = set()
+            regions = set()
+            examples = []
+            for case in cases[:3]:  # Max 3 esempi
+                scuola = case.get("scuola", {})
+                pratica = case.get("pratica", {})
+                code = scuola.get("codice") or scuola.get("codice_meccanografico") or ""
+                nome = scuola.get("nome") or "Scuola"
+                if code:
+                    schools.add(code)
+                    examples.append(f"{nome} ({code})")
+                region = scuola.get("regione")
+                if region:
+                    regions.add(region)
+
+            regions_str = ", ".join(sorted(regions)[:3])
+            examples_str = "; ".join(examples[:2])
+            lines.append(f"- **{theme}** ({count} casi, {len(schools)} scuole): {regions_str}. Es: {examples_str}")
+
+        return "\n".join(lines)
 
     def _generate_theme_summary(
         self,
@@ -526,9 +696,22 @@ class ThematicReporter(BaseReporter):
         theme_counts = {theme: len(group) for theme, group in theme_groups.items()}
         theme_order = sorted(theme_counts.keys(), key=lambda t: theme_counts[t], reverse=True)
 
+        # Configura soglia minima (da env o default)
+        min_theme_cases = int(os.getenv("META_REPORT_MIN_THEME_CASES", str(MIN_THEME_CASES)))
+
+        # Separa temi maggiori da minori
+        major_themes = [t for t in theme_order if theme_counts[t] >= min_theme_cases]
+        minor_themes = {t: theme_groups[t] for t in theme_order if theme_counts[t] < min_theme_cases}
+
+        print(f"[thematic] Major themes (>={min_theme_cases} cases): {len(major_themes)}")
+        print(f"[thematic] Minor themes (<{min_theme_cases} cases): {len(minor_themes)}")
+
+        # Genera tabella riepilogativa
+        summary_table = self._build_summary_table(theme_counts, theme_groups, min_theme_cases)
+
         theme_summaries = {}
-        print("[thematic] Avvio analisi temi")
-        for theme in theme_order:
+        print("[thematic] Avvio analisi temi maggiori")
+        for theme in major_themes:
             print(f"[thematic] Analisi tema: {theme} ({theme_counts[theme]} casi)")
             theme_summaries[theme] = self._generate_theme_summary(
                 dimension,
@@ -539,13 +722,17 @@ class ThematicReporter(BaseReporter):
                 filters=filters
             )
 
+        # Sezione per temi minori (senza chiamata LLM, solo elencazione)
+        minor_themes_section = self._build_minor_themes_section(minor_themes, theme_counts)
+
         print("[thematic] Sintesi temi (merge)")
         summary_data = {
             "dimension": dimension,
             "dimension_name": DIMENSIONS[dimension],
-            "themes": theme_order,
-            "theme_counts": theme_counts,
+            "themes": major_themes,  # Solo temi maggiori nella sintesi
+            "theme_counts": {t: theme_counts[t] for t in major_themes},
             "theme_summaries": theme_summaries,
+            "minor_themes_count": len(minor_themes),
             "scope": "national",
         }
         if filters:
@@ -605,10 +792,21 @@ class ThematicReporter(BaseReporter):
             print("[thematic] Analisi per regione disattivata (META_REPORT_INCLUDE_REGIONS=0)")
 
         content_parts = [f"# {DIMENSIONS[dimension]}"]
+
+        # Tabella riepilogativa all'inizio
+        content_parts.append("## Panoramica temi")
+        content_parts.append(summary_table)
+
+        # Analisi temi maggiori
         content_parts.append("## Analisi per tematiche")
-        for theme in theme_order:
+        for theme in major_themes:
             content_parts.append(f"### {theme}")
             content_parts.append(theme_summaries[theme])
+
+        # Sezione temi minori (se presenti)
+        if minor_themes_section:
+            content_parts.append("## Altri temi emergenti")
+            content_parts.append(minor_themes_section)
 
         content_parts.append("## Sintesi delle analisi tematiche")
         content_parts.append(summary_response.content)

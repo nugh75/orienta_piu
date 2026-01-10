@@ -53,26 +53,45 @@ class BaseProvider(ABC):
             "Scrivi in italiano con stile accademico, registro formale e lessico metodologico. "
             "Produci report analitici e sintetici sulle attivita di orientamento, con argomentazioni chiare e coerenti. "
             "Evita toni celebrativi e superlativi. "
-            "NON usare blocchi di codice (```) nel report. Scrivi in markdown semplice con titoli (#, ##, ###)."
+            "NON usare blocchi di codice (```) nel report. Scrivi in markdown semplice con titoli (#, ##, ###).\n\n"
+            "REGOLE CITAZIONI:\n"
+            "- Cita SOLO scuole presenti nei dati forniti (sample_cases o chunk_notes)\n"
+            "- Usa SEMPRE il formato: Nome Scuola (CODICE) - es: Liceo Galilei (RMPS12345X)\n"
+            "- NON inventare codici meccanografici: se non hai il codice, non citare la scuola\n"
+            "- I codici italiani hanno formato: 2 lettere regione + 2 lettere tipo + 5-6 caratteri alfanumerici"
         )
 
         specifics = {
             "school": (
-                "Genera un report sulle attivita di orientamento per una singola scuola. "
-                "Evidenzia cosa funziona, quali iniziative sono interessanti e in che modo supportano gli studenti. "
-                "Includi citazioni dal PTOF per dare concretezza."
+                "Genera un report sulle attivita di orientamento per una singola scuola.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) CONTESTO: tipo scuola, territorio, caratteristiche distintive\n"
+                "2) PUNTI DI FORZA: iniziative efficaci, metodologie innovative, partnership attive\n"
+                "3) AREE DI SVILUPPO: cosa potrebbe essere potenziato (senza toni critici)\n"
+                "4) CONCLUSIONI: sintesi del profilo orientativo della scuola\n\n"
+                "Includi citazioni dal PTOF per dare concretezza. "
+                "Se mancano dati per una sezione, indica 'Dati non disponibili' senza inventare."
             ),
             "regional": (
-                "Genera un report sulle attivita di orientamento a livello regionale. "
-                "Descrivi il panorama dell'orientamento nella regione: quali sono le tendenze dominanti, "
-                "quali scuole presentano attivita interessanti e perche, come il territorio influenza le attivita. "
-                "Usa esempi concreti per illustrare i pattern."
+                "Genera un report sulle attivita di orientamento a livello regionale.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) PANORAMA REGIONALE: caratteristiche del territorio e del sistema scolastico\n"
+                "2) CONFRONTO TRA PROVINCE: differenze significative, aree di eccellenza\n"
+                "3) SCUOLE DI RIFERIMENTO: 3-5 esempi concreti con Nome (Codice) e motivazione\n"
+                "4) TREND E INNOVAZIONI: pratiche emergenti, collaborazioni territoriali\n"
+                "5) RACCOMANDAZIONI REGIONALI: 2-3 suggerimenti per policy maker locali\n\n"
+                "Usa dati quantitativi quando disponibili (N scuole, % distribuzione)."
             ),
             "national": (
-                "Genera un report sulle attivita di orientamento a livello nazionale. "
-                "Offri una panoramica del sistema italiano dell'orientamento: cosa funziona bene, "
-                "quali innovazioni stanno emergendo, come variano le attivita tra Nord, Centro e Sud. "
-                "Racconta attivita interessanti con esempi concreti."
+                "Genera un report sulle attivita di orientamento a livello nazionale.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) QUADRO GENERALE: stato dell'orientamento in Italia, numeri chiave\n"
+                "2) ANALISI TERRITORIALE: differenze Nord/Centro/Sud, regioni virtuose\n"
+                "3) GAP ANALYSIS: divari territoriali, aree sottorappresentate\n"
+                "4) BEST PRACTICES NAZIONALI: 5-7 esempi eccellenti con Nome (Codice)\n"
+                "5) TREND EMERGENTI: innovazioni, nuove metodologie, temi in crescita\n"
+                "6) RACCOMANDAZIONI SISTEMICHE: 3-4 suggerimenti per policy maker nazionali\n\n"
+                "Mantieni equilibrio tra analisi critica e valorizzazione delle eccellenze."
             ),
             "thematic": (
                 "Genera un report su una specifica dimensione dell'orientamento. "
@@ -100,9 +119,14 @@ class BaseProvider(ABC):
                 "Evita inventari o liste estese."
             ),
             "thematic_summary_merge": (
-                "Sintetizza le analisi dei temi in un quadro unitario. "
-                "Evidenzia i temi principali e le differenze territoriali senza elenchi lunghi. "
-                "Se citi una scuola, usa sempre Nome Scuola (Codice)."
+                "Sintetizza le analisi dei temi in un quadro unitario strutturato.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) TREND PRINCIPALI: 3-5 tendenze chiave emerse dall'analisi\n"
+                "2) DIFFERENZE TERRITORIALI: variazioni Nord/Centro/Sud, regioni di eccellenza\n"
+                "3) TEMI CONSOLIDATI vs EMERGENTI: quali pratiche sono mature, quali in sviluppo\n"
+                "4) RACCOMANDAZIONI: 2-3 suggerimenti operativi per policy maker o scuole\n\n"
+                "Scrivi in modo discorsivo, evita elenchi puntati lunghi. "
+                "Se citi una scuola, usa sempre Nome Scuola (Codice) dai dati forniti."
             ),
             "regional_summary_merge": (
                 "Sintetizza le analisi tematiche per una regione. "

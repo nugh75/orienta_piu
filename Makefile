@@ -819,6 +819,7 @@ ifndef DIM
 	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
 	@echo "   Regioni: META_REPORT_INCLUDE_REGIONS=1 (default: 0)"
 	@echo "   Chunk temi: META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160"
+	@echo "   Soglia temi: META_REPORT_MIN_THEME_CASES=5 (temi con meno casi vanno in 'Altri temi')"
 	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
 	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
