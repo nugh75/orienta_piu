@@ -14,7 +14,7 @@ PTOF_DIR = 'ptof'
 CHUNKS_DIR = 'ptof_chunks'
 OUTPUT_FILE = 'data/validated_ptofs.csv'
 OLLAMA_URL = 'http://192.168.129.14:11434/api/generate'
-OLLAMA_MODEL = 'qwen3:latest' # Configurable model
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3:32b")  # Default: qwen3:32b
 LOG_FILE = 'validation.log'
 
 # Setup Logging

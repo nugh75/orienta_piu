@@ -33,32 +33,33 @@ Il sistema supporta tre provider LLM:
 
 | Provider | Configurazione | Uso |
 |----------|---------------|-----|
-| **Gemini** | `GEMINI_API_KEY` | Default API, veloce, gratuito |
+| **Ollama** | `OLLAMA_HOST`, `OLLAMA_MODEL` | **Default**, locale, no costi |
+| **Gemini** | `GEMINI_API_KEY` | API cloud, veloce |
 | **OpenRouter** | `OPENROUTER_API_KEY` | Multi-modello, fallback |
-| **Ollama** | `OLLAMA_HOST` | Locale, no costi, batch grandi |
 
 ### Selezione Provider
 
 ```bash
-# Auto (prova in ordine: gemini > openrouter > ollama)
+# Auto (prova in ordine: ollama > gemini > openrouter)
 make meta-school CODE=RMIS001
 
 # Provider specifico
-make meta-school CODE=RMIS001 PROVIDER=ollama
-make meta-regional REGION=Lazio PROVIDER=gemini
+make meta-school CODE=RMIS001 PROVIDER=gemini
+make meta-regional REGION=Lazio PROVIDER=openrouter
 ```
 
 ### Configurazione
 
 ```bash
-# Gemini (default)
+# Ollama (default) - modello: qwen3:32b
+export OLLAMA_HOST=http://192.168.129.14:11434  # server Ollama remoto
+export OLLAMA_MODEL=qwen3:32b  # opzionale, è il default
+
+# Gemini
 export GEMINI_API_KEY=your_key
 
 # OpenRouter
 export OPENROUTER_API_KEY=your_key
-
-# Ollama (locale)
-export OLLAMA_HOST=http://localhost:11434
 ```
 
 ## Comandi Make
@@ -173,21 +174,87 @@ make meta-thematic DIM=alumni        # Rete alumni e mentoring
 
 **Output**: `reports/meta/thematic/{DIM}_attivita.md`
 
-Opzioni aggiuntive:
+#### Opzioni Aggiuntive
+
+| Variabile env | Descrizione | Default |
+|---------------|-------------|---------|
+| `META_REPORT_INCLUDE_REGIONS` | Include sezioni per regione | `0` (disattivo) |
+| `META_REPORT_MIN_THEME_CASES` | Soglia minima casi per tema | `5` |
+| `META_REPORT_THEME_CHUNK_SIZE` | Casi per chunk | `30` |
+| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking | `60` |
 
 ```bash
-# Include anche le sezioni per regione (default: disattivo)
-META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=orientamento
+# Include anche le sezioni per regione
+META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=pcto
+
+# Soglia minima casi per tema (temi con meno casi vanno in "Altri temi emergenti")
+META_REPORT_MIN_THEME_CASES=5 make meta-thematic DIM=pcto
+
+# Chunking (bilanciamento costo/qualità)
+META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-thematic DIM=pcto
 ```
 
-Consiglio chunking (bilanciamento costo/qualita):
+#### Profili di Analisi
+
+Il profilo determina il focus narrativo del report. Specificalo con `PROMPT=`:
+
+| Profilo | Descrizione |
+|---------|-------------|
+| `overview` | Quadro complessivo (default) |
+| `innovative` | Focus su pratiche innovative e originali |
+| `comparative` | Confronti territoriali dettagliati |
+| `impact` | Valutazione efficacia e impatto |
+| `operational` | Raccomandazioni operative concrete |
 
 ```bash
-META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-thematic DIM=orientamento
+make meta-thematic DIM=pcto PROMPT=overview
+make meta-thematic DIM=pcto PROMPT=innovative
+make meta-thematic DIM=pcto PROMPT=comparative
+make meta-thematic DIM=pcto PROMPT=impact
+make meta-thematic DIM=pcto PROMPT=operational
 ```
 
-Nota: per ogni report tematico viene salvato anche un file
-`reports/meta/thematic/{DIM}_attivita.activities.csv` con la tabella delle attivita usate.
+#### Filtri Disponibili
+
+Puoi filtrare i dati per specifici attributi delle scuole:
+
+| Filtro | Parametro Make | Descrizione |
+|--------|----------------|-------------|
+| Regione | `REGIONE` | Es: Lazio, Lombardia |
+| Tipo scuola | `TIPO` | Es: Liceo, Istituto Tecnico |
+| Ordine/grado | `ORDINE` | Es: ii-grado, i-grado |
+| Provincia | `PROVINCIA` | Es: RM, MI |
+| Area geografica | `AREA` | Es: Nord, Centro, Sud |
+| Stato | `STATO` | statale, paritaria |
+| Territorio | `TERRITORIO` | Es: urbano, rurale |
+
+```bash
+# Filtro singolo
+make meta-thematic DIM=pcto ORDINE=ii-grado
+
+# Filtri multipli
+make meta-thematic DIM=pcto REGIONE=Lazio TIPO=Liceo
+
+# Combinazione filtri + profilo
+make meta-thematic DIM=pcto REGIONE=Lombardia ORDINE=ii-grado PROMPT=comparative
+```
+
+#### Naming dei File Output
+
+Il nome del file di output riflette filtri e profilo applicati:
+
+```
+{DIM}[__{filtri}][__profile={profilo}]_attivita.md
+```
+
+Esempi:
+- `pcto_attivita.md` - nessun filtro, profilo default
+- `pcto__ordine_grado=ii-grado_attivita.md` - filtro ordine/grado
+- `pcto__ordine_grado=ii-grado__profile=overview_attivita.md` - filtro + profilo
+- `pcto__regione=Lazio__tipo_scuola=Liceo_attivita.md` - filtri multipli
+
+Per ogni report tematico viene salvato anche un file CSV con la tabella delle attività:
+`reports/meta/thematic/{DIM}[__{filtri}]_attivita.activities.csv`
 
 ### Elaborazione Automatica
 
@@ -250,7 +317,9 @@ reports/meta/
 
 ### Formato Report
 
-Ogni report include:
+Ogni report include header YAML con metadati e contenuto strutturato.
+
+#### Report Scuola
 
 ```markdown
 ---
@@ -260,19 +329,53 @@ report_type: school
 school_code: RMIS001
 ---
 
-# Best Practices - Liceo Scientifico Roma 1
+# Liceo Scientifico Roma 1
 
-## Executive Summary
-[Sintesi 2-3 frasi]
+## Contesto
+[Tipo scuola, territorio, caratteristiche]
 
-## Pratiche di Eccellenza
-[Con citazioni dal PTOF]
+## Punti di Forza
+[Iniziative efficaci, metodologie innovative]
 
-## Punti di Forza per Dimensione
-[Analisi per area]
+## Aree di Sviluppo
+[Cosa potrebbe essere potenziato]
 
-## Raccomandazioni
-[Suggerimenti]
+## Conclusioni
+[Sintesi profilo orientativo]
+```
+
+#### Report Tematico (nuova struttura)
+
+```markdown
+---
+dimension: orientamento
+practices_analyzed: 2391
+schools_involved: 263
+filters: ordine_grado=ii-grado
+prompt_profile: overview
+---
+
+# Orientamento
+
+## Panoramica temi
+| Tema | Casi | Scuole | Regioni principali |
+|------|------|--------|-------------------|
+| PCTO | 450 | 120 | Lombardia (80), Lazio (65) |
+| Open Day | 320 | 95 | Veneto (45), Piemonte (40) |
+...
+
+## Analisi per tematiche
+### PCTO
+[Analisi narrativa con esempi Nome Scuola (Codice)]
+
+### Open Day
+[...]
+
+## Altri temi emergenti
+[Temi con < 5 casi elencati in modo compatto]
+
+## Sintesi delle analisi tematiche
+[Trend principali, differenze territoriali, raccomandazioni]
 ```
 
 ## Flusso Incrementale

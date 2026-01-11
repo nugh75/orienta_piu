@@ -16,8 +16,8 @@ class OllamaProvider(BaseProvider):
         host: Optional[str] = None,
         model: Optional[str] = None,
     ):
-        self.host = host or os.getenv("OLLAMA_HOST", "http://localhost:11434")
-        self.model = model or os.getenv("OLLAMA_MODEL", "qwen3:latest")
+        self.host = host or os.getenv("OLLAMA_HOST", "http://192.168.129.14:11434")
+        self.model = model or os.getenv("OLLAMA_MODEL", "qwen3:32b")
 
     def is_available(self) -> bool:
         """Check if Ollama is running."""

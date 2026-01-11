@@ -114,9 +114,13 @@ class BaseProvider(ABC):
                 "Non generare inventari o liste lunghe."
             ),
             "thematic_group_merge": (
-                "Integra note parziali e dati aggregati in una sintesi narrativa del tema. "
-                "Se citi una scuola, usa sempre Nome Scuola (Codice). "
-                "Evita inventari o liste estese."
+                "Integra note parziali e dati aggregati in una sintesi narrativa del tema.\n"
+                "STRUTTURA PARAGRAFO (2-3 paragrafi totali):\n"
+                "1) INTRODUZIONE CONTESTUALE: cosa caratterizza questo tema, perché è rilevante\n"
+                "2) ANALISI DEI PATTERN: come le scuole affrontano il tema, approcci ricorrenti\n"
+                "3) ESEMPI SIGNIFICATIVI: 2-3 casi concreti con Nome Scuola (Codice)\n\n"
+                "Scrivi in modo discorsivo e fluido, evita elenchi puntati. "
+                "NON iniziare con titoli o intestazioni markdown."
             ),
             "thematic_summary_merge": (
                 "Sintetizza le analisi dei temi in un quadro unitario strutturato.\n"
@@ -128,10 +132,25 @@ class BaseProvider(ABC):
                 "Scrivi in modo discorsivo, evita elenchi puntati lunghi. "
                 "Se citi una scuola, usa sempre Nome Scuola (Codice) dai dati forniti."
             ),
+            "thematic_summary_merge_regional": (
+                "Sintetizza le analisi dei temi per una SINGOLA REGIONE.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) TREND REGIONALI: 3-5 tendenze chiave nella regione analizzata\n"
+                "2) DIFFERENZE PROVINCIALI: variazioni tra province, aree di eccellenza locale\n"
+                "3) TEMI CONSOLIDATI vs EMERGENTI: quali pratiche sono mature, quali in sviluppo\n"
+                "4) RACCOMANDAZIONI REGIONALI: 2-3 suggerimenti per USR e scuole della regione\n\n"
+                "IMPORTANTE: NON fare confronti con altre regioni (i dati sono solo di questa regione). "
+                "Concentrati sulle differenze INTERNE alla regione (tra province, tipi di scuola). "
+                "Scrivi in modo discorsivo. Se citi una scuola, usa Nome Scuola (Codice)."
+            ),
             "regional_summary_merge": (
-                "Sintetizza le analisi tematiche per una regione. "
-                "Metti in luce i temi dominanti e i tratti distintivi regionali. "
-                "Se citi una scuola, usa sempre Nome Scuola (Codice)."
+                "Sintetizza le analisi tematiche per una regione.\n"
+                "STRUTTURA OBBLIGATORIA:\n"
+                "1) IDENTITÀ REGIONALE: cosa caratterizza l'orientamento in questa regione\n"
+                "2) TEMI DOMINANTI: quali ambiti sono più sviluppati e perché\n"
+                "3) PUNTI DI FORZA: eccellenze regionali con esempi Nome (Codice)\n"
+                "4) AREE DI SVILUPPO: temi meno presenti, opportunità di crescita\n\n"
+                "Scrivi in modo discorsivo, evita elenchi. NON usare titoli markdown."
             ),
         }
 
@@ -142,11 +161,40 @@ class BaseProvider(ABC):
         import json
 
         profile_focus = {
-            "overview": "Offrire un quadro complessivo e bilanciato, senza inventari completi.",
-            "innovative": "Evidenziare pratiche interessanti e innovative, spiegando perche lo sono.",
-            "comparative": "Mettere in luce differenze, variabilita e pattern ricorrenti.",
-            "impact": "Valutare impatto e fattibilita delle pratiche interessanti.",
-            "operational": "Fornire una sintesi operativa e raccomandazioni realistiche.",
+            "overview": (
+                "FOCUS OVERVIEW: Quadro complessivo e bilanciato.\n"
+                "- Copri tutti gli aspetti principali senza approfondire troppo\n"
+                "- Bilancia punti di forza e aree di sviluppo\n"
+                "- Adatto a: dirigenti, stakeholder generici"
+            ),
+            "innovative": (
+                "FOCUS INNOVAZIONE: Evidenzia solo le pratiche più originali.\n"
+                "- Cerca approcci non convenzionali, sperimentazioni, primi in Italia\n"
+                "- Spiega PERCHÉ sono innovative (cosa cambia rispetto alla prassi)\n"
+                "- Ignora pratiche standard anche se ben fatte\n"
+                "- Adatto a: ricercatori, policy maker, scuole che vogliono innovare"
+            ),
+            "comparative": (
+                "FOCUS COMPARATIVO: Analizza differenze e pattern.\n"
+                "- Confronta tra regioni, tipi di scuola, ordini scolastici\n"
+                "- Identifica cluster e outlier\n"
+                "- Usa dati quantitativi per supportare i confronti\n"
+                "- Adatto a: analisti, uffici scolastici regionali"
+            ),
+            "impact": (
+                "FOCUS IMPATTO: Valuta efficacia e sostenibilità.\n"
+                "- Cerca evidenze di risultati (anche indiretti)\n"
+                "- Valuta risorse necessarie vs benefici\n"
+                "- Identifica pratiche replicabili vs contesto-specifiche\n"
+                "- Adatto a: valutatori, enti finanziatori"
+            ),
+            "operational": (
+                "FOCUS OPERATIVO: Sintesi per l'azione immediata.\n"
+                "- Raccomandazioni concrete e realizzabili\n"
+                "- Prioritizza per urgenza/impatto\n"
+                "- Indica risorse, tempi, prerequisiti\n"
+                "- Adatto a: dirigenti scolastici, docenti referenti"
+            ),
         }
 
         focus_line = profile_focus.get(prompt_profile, profile_focus["overview"])
@@ -155,22 +203,36 @@ class BaseProvider(ABC):
 
         structure = (
             "Struttura obbligatoria:\n"
-            "1) Sintesi\n"
-            "2) Analisi (perche sono interessanti/innovative)\n"
-            "3) Sezione narrativa (casi distinti, raggruppati in gruppi coerenti)\n"
-            "4) Sezione numerica (quanti casi, dove ricorrono, frequenze)\n"
-            "5) Conclusioni\n"
-            "Se i dati disponibili non consentono 50 casi, dichiara il limite senza inventare."
+            "1) SINTESI INIZIALE: 2-3 frasi che catturano l'essenza\n"
+            "2) ANALISI: perché le pratiche sono interessanti/innovative\n"
+            "3) NARRAZIONE: casi distinti raggruppati per tema o territorio\n"
+            "4) DATI: statistiche chiave (N scuole, distribuzione, frequenze)\n"
+            "5) CONCLUSIONI: implicazioni e raccomandazioni\n\n"
+            "IMPORTANTE: Basa l'analisi SOLO sui dati forniti. "
+            "Se i dati sono limitati, indica chiaramente il perimetro senza inventare."
         )
 
         thematic_structure = (
             "Struttura obbligatoria:\n"
-            "1) Sintesi\n"
-            "2) Quadro tematico (sotto-temi, approcci ricorrenti, perche conta)\n"
-            "3) Lettura territoriale (differenze tra regioni/aree, fattori contestuali)\n"
-            "4) Evidenze quantitative sintetiche (conteggi per regioni/categorie)\n"
-            "5) Conclusioni operative\n"
-            "Nota: NON creare inventari completi o elenchi lunghi; il dettaglio attivita e in tabella separata."
+            "1) SINTESI: cosa emerge complessivamente su questo tema\n"
+            "2) QUADRO TEMATICO: sotto-temi, approcci ricorrenti, perché questo tema conta\n"
+            "3) LETTURA TERRITORIALE: differenze Nord/Centro/Sud, regioni di eccellenza\n"
+            "4) DATI CHIAVE: N scuole coinvolte, distribuzione per regione/tipo\n"
+            "5) CONCLUSIONI OPERATIVE: cosa si può imparare, raccomandazioni\n\n"
+            "IMPORTANTE: Scrivi in modo narrativo e discorsivo. "
+            "NON creare inventari o elenchi lunghi. Il dettaglio attività è in tabella CSV separata."
+        )
+
+        thematic_structure_regional = (
+            "Struttura obbligatoria (ANALISI REGIONALE):\n"
+            "1) SINTESI REGIONALE: cosa emerge su questo tema nella regione\n"
+            "2) QUADRO TEMATICO: sotto-temi, approcci ricorrenti, specificità locali\n"
+            "3) LETTURA PROVINCIALE: differenze tra province, aree di eccellenza\n"
+            "4) DATI CHIAVE: N scuole coinvolte, distribuzione per provincia/tipo\n"
+            "5) CONCLUSIONI OPERATIVE: cosa si può imparare, raccomandazioni per la regione\n\n"
+            "IMPORTANTE: I dati sono di UNA SOLA REGIONE. NON fare confronti con altre regioni. "
+            "Concentrati sulle differenze INTERNE (tra province, tipi di scuola, ordini). "
+            "NON creare inventari o elenchi lunghi."
         )
 
         if report_type == "thematic_chunk":
@@ -194,6 +256,9 @@ IMPORTANTE: non creare inventari o liste estese di casi.
 
         if report_type == "thematic_chunk_merge":
             dimension_name = analysis_data.get("dimension_name", "questa dimensione")
+            # Usa struttura regionale se c'è filtro regione
+            is_regional = bool(filters.get("regione"))
+            active_structure = thematic_structure_regional if is_regional else thematic_structure
             return f"""Integra le note dei chunk e i dati aggregati per produrre il report finale sulla dimensione "{dimension_name}":
 
 Profilo: {prompt_profile}
@@ -207,7 +272,7 @@ Scrivi un report NARRATIVO e DISCORSIVO (non una lista di punti) che includa:
 
 # {dimension_name}
 
-{thematic_structure}
+{active_structure}
 
 IMPORTANTE: Scrivi in modo narrativo e coinvolgente, come un articolo di approfondimento. Evita elenchi puntati lunghi.
 NON includere inventari completi: il dettaglio attivita e in tabella separata.
@@ -218,7 +283,15 @@ NON includere inventari completi: il dettaglio attivita e in tabella separata.
             theme = analysis_data.get("theme", "tema")
             scope = analysis_data.get("scope", "national")
             region = analysis_data.get("region")
-            scope_line = f"Ambito: regionale ({region})" if scope == "region" and region else "Ambito: nazionale"
+            # Determina se è regionale da scope O da filtro regione
+            is_regional = (scope == "region" and region) or bool(filters.get("regione"))
+            if is_regional:
+                region_name = region or filters.get("regione", "questa regione")
+                scope_line = f"Ambito: regionale ({region_name})"
+                territorial_note = "Differenze tra PROVINCE (i dati sono di una sola regione)"
+            else:
+                scope_line = "Ambito: nazionale"
+                territorial_note = "Differenze territoriali rilevanti (se presenti)"
             return f"""Analizza il seguente sottoinsieme di casi per il tema "{theme}" nella dimensione "{dimension_name}":
 
 Profilo: {prompt_profile}
@@ -231,7 +304,7 @@ DATI CHUNK:
 
 Output richiesto (note sintetiche, NON report finale):
 - Pattern ricorrenti e come si manifestano nelle scuole
-- Differenze territoriali rilevanti (se presenti)
+- {territorial_note}
 - 2-4 esempi puntuali citando sempre Nome Scuola (Codice)
 IMPORTANTE: non creare inventari o liste lunghe. Non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
 """
@@ -241,7 +314,15 @@ IMPORTANTE: non creare inventari o liste lunghe. Non usare titoli Markdown (#, #
             theme = analysis_data.get("theme", "tema")
             scope = analysis_data.get("scope", "national")
             region = analysis_data.get("region")
-            scope_line = f"Ambito: regionale ({region})" if scope == "region" and region else "Ambito: nazionale"
+            # Determina se è regionale da scope O da filtro regione
+            is_regional = (scope == "region" and region) or bool(filters.get("regione"))
+            if is_regional:
+                region_name = region or filters.get("regione", "questa regione")
+                scope_line = f"Ambito: regionale ({region_name})"
+                territorial_note = "Analizza differenze tra PROVINCE, NON tra regioni (i dati sono di una sola regione)."
+            else:
+                scope_line = "Ambito: nazionale"
+                territorial_note = "Analizza differenze territoriali tra regioni se rilevanti."
             return f"""Integra note e dati aggregati per produrre una sintesi narrativa del tema "{theme}" nella dimensione "{dimension_name}":
 
 Profilo: {prompt_profile}
@@ -255,11 +336,28 @@ DATI TEMATICI:
 Output richiesto:
 - 1-2 paragrafi discorsivi, senza elenchi lunghi
 - Se citi una scuola, usa sempre Nome Scuola (Codice)
+- {territorial_note}
 Nota: non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
 """
 
         if report_type == "thematic_summary_merge":
             dimension_name = analysis_data.get("dimension_name", "questa dimensione")
+            # Usa istruzioni diverse per scope regionale vs nazionale
+            is_regional = bool(filters.get("regione"))
+            if is_regional:
+                region_name = filters.get("regione", "questa regione")
+                output_instructions = (
+                    f"Output richiesto (ANALISI REGIONALE per {region_name}):\n"
+                    "- 1-2 paragrafi di sintesi, senza elenchi lunghi\n"
+                    "- Evidenzia temi dominanti e differenze tra PROVINCE (NON tra regioni)\n"
+                    "- NON fare confronti con altre regioni, i dati sono solo di questa regione"
+                )
+            else:
+                output_instructions = (
+                    "Output richiesto:\n"
+                    "- 1-2 paragrafi di sintesi, senza elenchi lunghi\n"
+                    "- Evidenzia temi dominanti e differenze territoriali (Nord/Centro/Sud)"
+                )
             return f"""Sintetizza le analisi tematiche della dimensione "{dimension_name}":
 
 Profilo: {prompt_profile}
@@ -269,9 +367,7 @@ Focus: {focus_line}
 DATI TEMATICI:
 {json.dumps(analysis_data, indent=2, ensure_ascii=False)}
 
-Output richiesto:
-- 1-2 paragrafi di sintesi, senza elenchi lunghi
-- Evidenzia temi dominanti e differenze territoriali
+{output_instructions}
 Nota: non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
 """
 

@@ -14,41 +14,95 @@ from .base import BaseReporter
 # Soglia minima casi per generare sezione tema dedicata (configurabile via env)
 MIN_THEME_CASES = int(os.getenv("META_REPORT_MIN_THEME_CASES", "5"))
 
-# Dimension names mapping - basato sulle categorie/ambiti in attivita.csv
+# Dimension names mapping - allineato con README
 DIMENSIONS = {
-    # Categorie principali da attivita
-    "metodologie": "Metodologie Didattiche Innovative",
-    "progetti": "Progetti e Attività Esemplari",
-    "inclusione": "Buone Pratiche per l'Inclusione",
-    "partnership": "Partnership e Collaborazioni Strategiche",
+    # Dimensioni Strutturali
+    "finalita": "Finalità Orientative",
+    "obiettivi": "Obiettivi e Risultati Attesi",
+    "governance": "Governance e Organizzazione",
+    "didattica": "Didattica Orientativa",
+    "partnership": "Partnership e Reti",
 
-    # Ambiti/attività correlate
-    "orientamento": "Orientamento",
-    "pcto": "PCTO/Alternanza",
+    # Dimensioni Opportunità (Granulari)
+    "pcto": "PCTO e Alternanza",
+    "stage": "Stage e Tirocini",
     "openday": "Open Day",
-    "universita": "Orientamento Universitario",
-    "visite": "Visite Guidate e Viaggi di Istruzione",
-    "exalunni": "Rete Alumni e Mentoring",
-    "certificazioni": "Certificazioni e Competenze",
+    "visite": "Visite Aziendali e Universitarie",
+    "laboratori": "Laboratori Orientativi e Simulazioni",
+    "testimonianze": "Testimonianze e Incontri con Esperti",
+    "counseling": "Counseling e Percorsi Individualizzati",
+    "alumni": "Rete Alumni e Mentoring",
+
+    # Dimensioni Tematiche (per analisi specifiche)
+    "valutazione": "Valutazione e Autovalutazione",
+    "formazione_docenti": "Formazione Docenti",
+    "cittadinanza": "Cittadinanza e Legalità",
+    "digitalizzazione": "Digitalizzazione",
+    "inclusione": "Inclusione e BES",
+    "continuita": "Continuità e Accoglienza",
+    "famiglie": "Rapporti con Famiglie",
+    "lettura": "Lettura e Scrittura",
+    "orientamento": "Orientamento",
+    "arte": "Arte e Creatività",
+    "lingue": "Lingue Straniere",
+    "stem": "STEM e Ricerca",
+    "matematica": "Matematica e Logica",
+    "disagio": "Prevenzione Disagio",
+    "intercultura": "Intercultura e Lingue",
+    "sostenibilita": "Sostenibilità e Ambiente",
+    "sport": "Sport e Benessere",
+    "imprenditorialita": "Imprenditorialità",
+    "sistema": "Azioni di Sistema e Governance",
 }
 
-# Mapping categorie -> dimension key
+# Mapping categorie -> dimension key (per dimensioni strutturali)
 CATEGORY_TO_DIM = {
-    "Metodologie Didattiche Innovative": "metodologie",
-    "Progetti e Attività Esemplari": "progetti",
-    "Buone Pratiche per l'Inclusione": "inclusione",
-    "Partnership e Collaborazioni Strategiche": "partnership",
+    "Finalità Orientative": "finalita",
+    "Obiettivi e Risultati Attesi": "obiettivi",
+    "Governance e Organizzazione": "governance",
+    "Didattica Orientativa": "didattica",
+    "Partnership e Reti": "partnership",
+    "Partnership e Collaborazioni Strategiche": "partnership",  # alias legacy
 }
 
 # Keywords per cercare nelle attività correlate
 ACTIVITY_KEYWORDS = {
-    "orientamento": ["orientamento"],
+    # Dimensioni Strutturali
+    "finalita": ["finalità", "mission", "scopo orientativo", "obiettivo formativo", "vision"],
+    "obiettivi": ["obiettivi", "risultati attesi", "traguardi", "competenze in uscita", "esiti"],
+    "governance": ["governance", "organizzazione", "coordinamento", "referente", "commissione", "gruppo di lavoro"],
+    "didattica": ["didattica orientativa", "orientamento didattico", "competenze orientative", "modulo orientativo", "UDA orientativ"],
+
+    # Dimensioni Opportunità (Granulari)
     "pcto": ["pcto", "alternanza", "scuola-lavoro", "scuola lavoro"],
-    "openday": ["open day", "orientamento in entrata", "accoglienza"],
-    "universita": ["universit", "manifestazioni universitarie", "orientamento in uscita"],
-    "visite": ["visite guidate", "viaggi di istruzione", "uscite didattiche"],
-    "exalunni": ["ex alunni", "ex-alunni", "alumni", "diplomati"],
-    "certificazioni": ["certificazion", "cambridge", "dele", "delf", "eipass"],
+    "stage": ["stage", "tirocinio", "tirocini", "esperienza lavorativa"],
+    "openday": ["open day", "orientamento in entrata", "accoglienza", "presentazione scuola"],
+    "visite": ["visite guidate", "visite aziendali", "visita universit", "viaggi di istruzione", "uscite didattiche"],
+    "laboratori": ["laboratori orientativi", "simulazione", "job shadowing", "role playing", "laboratorio pratico"],
+    "testimonianze": ["testimonianze", "incontri con esperti", "professionisti", "imprenditori", "testimonial"],
+    "counseling": ["counseling", "orientamento individuale", "colloquio orientativo", "percorso personalizzato", "bilancio competenze"],
+    "alumni": ["ex alunni", "ex-alunni", "alumni", "diplomati", "mentoring", "rete diplomati"],
+
+    # Dimensioni Tematiche
+    "valutazione": ["valutazione", "autovalutazione", "invalsi", "verifiche", "monitoraggio apprendimenti", "rubriche valutative"],
+    "formazione_docenti": ["formazione docenti", "aggiornamento professionale", "formazione insegnanti", "sviluppo professionale", "corso docenti"],
+    "cittadinanza": ["cittadinanza", "legalità", "educazione civica", "costituzione", "diritti", "doveri", "democrazia"],
+    "digitalizzazione": ["digitale", "digitalizzazione", "competenze digitali", "coding", "robotica", "informatica", "tecnologie"],
+    "inclusione": ["inclusione", "bes", "bisogni educativi speciali", "disabilità", "dsa", "sostegno", "integrazione"],
+    "continuita": ["continuità", "accoglienza", "passaggio", "raccordo", "verticale", "orizzontale", "inserimento"],
+    "famiglie": ["famiglie", "genitori", "rapporti scuola-famiglia", "coinvolgimento genitori", "patto educativo"],
+    "lettura": ["lettura", "scrittura", "biblioteca", "letteratura", "comprensione testo", "produzione scritta"],
+    "orientamento": ["orientamento", "scelta scolastica", "percorso formativo", "consapevolezza", "progetto di vita"],
+    "arte": ["arte", "creatività", "musica", "teatro", "espressione artistica", "educazione estetica"],
+    "lingue": ["lingue straniere", "inglese", "francese", "spagnolo", "tedesco", "certificazioni linguistiche", "clil"],
+    "stem": ["stem", "steam", "scienze", "ricerca", "sperimentazione", "metodo scientifico", "laboratorio scientifico"],
+    "matematica": ["matematica", "logica", "problem solving", "calcolo", "geometria", "algebra", "giochi matematici"],
+    "disagio": ["disagio", "prevenzione", "bullismo", "cyberbullismo", "dispersione", "abbandono scolastico", "sportello ascolto"],
+    "intercultura": ["intercultura", "multiculturalità", "integrazione stranieri", "mediazione culturale", "alfabetizzazione"],
+    "sostenibilita": ["sostenibilità", "ambiente", "ecologia", "educazione ambientale", "sviluppo sostenibile", "agenda 2030"],
+    "sport": ["sport", "benessere", "educazione fisica", "motoria", "salute", "alimentazione", "stili di vita"],
+    "imprenditorialita": ["imprenditorialità", "impresa", "autoimprenditorialità", "start up", "business", "economia"],
+    "sistema": ["azioni di sistema", "governance", "organigramma", "funzioni strumentali", "coordinamento", "piano triennale"],
 }
 
 # Mapping per raggruppare temi affini (normalizzazione)
@@ -846,39 +900,44 @@ class ThematicReporter(BaseReporter):
         """Extract dimension-specific data from best practices."""
         dimension_name = DIMENSIONS[dimension]
 
-        # Filter practices by dimension
+        # Filter practices by dimension using keyword matching
+        # NOTE: The CSV categories (e.g., "Progetti e Attività Esemplari") differ from
+        # the dimension names, so we always use keyword-based matching for all dimensions.
         filtered_practices = []
+        keywords = ACTIVITY_KEYWORDS.get(dimension, [])
+        
+        if not keywords:
+            print(f"[thematic] Warning: No keywords defined for dimension: {dimension}")
+            return {
+                "dimension": dimension,
+                "dimension_name": dimension_name,
+                "practices_count": 0,
+                "schools_count": 0,
+                "regional_distribution": {},
+                "top_regions": [],
+                "practices": [],
+                "case_groups": {},
+                "inventory_groups": {},
+            }
+        
+        for p in practices:
+            # Search in ambiti/attivita correlate
+            ambiti = (
+                p.get("pratica", {}).get("ambiti_attivita", [])
+                or p.get("contesto", {}).get("attivita_correlate", [])
+            )
+            ambiti_text = " ".join(ambiti).lower()
 
-        # Check if this is a category-based dimension
-        dim_to_category = {v: k for k, v in CATEGORY_TO_DIM.items()}
-        if dimension in dim_to_category:
-            # Filter by pratica.categoria
-            target_category = dim_to_category[dimension]
-            for p in practices:
-                categoria = p.get("pratica", {}).get("categoria", "")
-                if categoria == target_category:
-                    filtered_practices.append(p)
-        else:
-            # Filter by activity keywords (pcto, openday, etc.)
-            keywords = ACTIVITY_KEYWORDS.get(dimension, [])
-            for p in practices:
-                # Search in ambiti/attivita correlate
-                ambiti = (
-                    p.get("pratica", {}).get("ambiti_attivita", [])
-                    or p.get("contesto", {}).get("attivita_correlate", [])
-                )
-                ambiti_text = " ".join(ambiti).lower()
+            # Also search in title and description
+            titolo = p.get("pratica", {}).get("titolo", "").lower()
+            descrizione = p.get("pratica", {}).get("descrizione", "").lower()
+            metodologia = p.get("pratica", {}).get("metodologia", "").lower()
+            categoria = p.get("pratica", {}).get("categoria", "").lower()
 
-                # Also search in title and description
-                titolo = p.get("pratica", {}).get("titolo", "").lower()
-                descrizione = p.get("pratica", {}).get("descrizione", "").lower()
-                metodologia = p.get("pratica", {}).get("metodologia", "").lower()
-                categoria = p.get("pratica", {}).get("categoria", "").lower()
+            search_text = f"{ambiti_text} {titolo} {descrizione} {metodologia} {categoria}"
 
-                search_text = f"{ambiti_text} {titolo} {descrizione} {metodologia} {categoria}"
-
-                if any(kw in search_text for kw in keywords):
-                    filtered_practices.append(p)
+            if any(kw in search_text for kw in keywords):
+                filtered_practices.append(p)
 
         # Deduplicate by school + title
         seen = set()

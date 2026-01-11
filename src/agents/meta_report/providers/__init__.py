@@ -6,7 +6,7 @@ from .openrouter import OpenRouterProvider
 from .ollama import OllamaProvider
 
 def get_provider(name: str = "auto") -> BaseProvider:
-    """Get a provider by name. 'auto' tries ollama first, then gemini, openrouter."""
+    """Get a provider by name. 'auto' tries ollama first, then gemini, then openrouter."""
     providers = {
         "gemini": GeminiProvider,
         "openrouter": OpenRouterProvider,
@@ -14,7 +14,7 @@ def get_provider(name: str = "auto") -> BaseProvider:
     }
 
     if name == "auto":
-        # Ollama first as default
+        # Ordine: ollama > gemini > openrouter (ollama locale come default)
         for provider_name in ["ollama", "gemini", "openrouter"]:
             try:
                 provider = providers[provider_name]()

@@ -181,8 +181,8 @@ Rispondi SOLO con il JSON, senza markdown o altro testo."""
 
 
 # Ollama Configuration
-OLLAMA_URL = "http://192.168.129.14:11434/api/generate"
-OLLAMA_MODEL = "gpt-oss:20b"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://192.168.129.14:11434/api/generate")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3:32b")
 
 def call_ollama_api(comuni: List[str]) -> Optional[Dict[str, str]]:
     """
