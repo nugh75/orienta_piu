@@ -531,7 +531,7 @@ class ThematicReporter(BaseReporter):
 
         return [self._format_case_label(c, include_description=True) for c in samples]
 
-    def _summarize_cases(self, cases: list[dict]) -> dict:
+    def _summarize_cases(self, cases: list[dict], disable_sampling: bool = False) -> dict:
         region_counts = defaultdict(int)
         province_counts = defaultdict(int)
         category_counts = defaultdict(int)
@@ -552,25 +552,30 @@ class ThematicReporter(BaseReporter):
 
         n_cases = len(cases)
         
-        # Logica dinamica per il sampling e livello dettaglio
-        if n_cases < 10:
-            per_region = 3
-            max_total = 10
-            detail_level = "sintetico (pochi casi)"
-        elif n_cases < 50:
-            per_region = 5
-            max_total = 25
-            detail_level = "medio (alcuni esempi rappresentativi)"
-        elif n_cases < 100:
-            per_region = 10
-            max_total = 50
-            detail_level = "approfondito (molti esempi e cluster)"
+        if disable_sampling:
+            # Analisi chunk: prendi TUUUTTI i casi
+            sample_cases = [self._format_case_label(c, include_description=True) for c in cases]
+            detail_level = "chunk_completo (analisi approfondita di ogni singolo caso)"
         else:
-            per_region = 20
-            max_total = 80
-            detail_level = "molto dettagliato (ampia varieta di esempi e cluster)"
+            # Logica dinamica per il sampling e livello dettaglio
+            if n_cases < 10:
+                per_region = 3
+                max_total = 10
+                detail_level = "sintetico (pochi casi)"
+            elif n_cases < 50:
+                per_region = 5
+                max_total = 25
+                detail_level = "medio (alcuni esempi rappresentativi)"
+            elif n_cases < 100:
+                per_region = 10
+                max_total = 50
+                detail_level = "approfondito (molti esempi e cluster)"
+            else:
+                per_region = 20
+                max_total = 80
+                detail_level = "molto dettagliato (ampia varieta di esempi e cluster)"
 
-        sample_cases = self._sample_case_labels(cases, per_region=per_region, max_total=max_total)
+            sample_cases = self._sample_case_labels(cases, per_region=per_region, max_total=max_total)
         top_regions = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)[:5]
         top_provinces = sorted(province_counts.items(), key=lambda x: x[1], reverse=True)[:10]
 
@@ -705,14 +710,16 @@ class ThematicReporter(BaseReporter):
         })
 
         chunk_size = max(8, int(os.getenv("META_REPORT_THEME_CHUNK_SIZE", "30")))
-        chunk_threshold = int(os.getenv("META_REPORT_THEME_CHUNK_THRESHOLD", str(chunk_size * 2)))
+        # Abbassiamo la soglia a 35 per forzare il chunking anche su temi medi
+        chunk_threshold = int(os.getenv("META_REPORT_THEME_CHUNK_THRESHOLD", "35"))
         use_chunking = len(cases) >= chunk_threshold
 
         if use_chunking:
             chunks = self._chunk_cases(cases, chunk_size)
             chunk_notes = []
             for idx, chunk in enumerate(chunks, 1):
-                chunk_summary = self._summarize_cases(chunk)
+                # Per i chunk, disabilitiamo il sampling: vogliamo che l'LLM veda tutto
+                chunk_summary = self._summarize_cases(chunk, disable_sampling=True)
                 chunk_data = {
                     "dimension": dimension,
                     "dimension_name": dimension_name,
