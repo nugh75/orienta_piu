@@ -11,7 +11,17 @@ from scipy import stats
 import json
 import os
 import re
+import sys
 from datetime import datetime
+from pathlib import Path
+
+# Aggiungi la root del progetto al path per importare src
+current_dir = Path(__file__).resolve().parent
+project_root = current_dir.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.append(str(project_root))
+
+from src.utils.constants import REGIONE_TO_AREA
 from data_utils import render_footer, scale_to_pct
 from page_control import setup_page
 
@@ -246,6 +256,108 @@ def normalize_ordini_grado(ordine_value, tipo_value=None):
     _parse(ordine_value)
     _parse(tipo_value)
     return labels
+
+
+def normalize_multivalue_field(
+    series: pd.Series,
+    separator: str = '|',
+    canonical_map: dict[str, str] | None = None
+) -> list[str]:
+    """
+    Normalizza un campo multi-valore eliminando duplicati case-insensitive.
+
+    Args:
+        series: Serie pandas con valori separati da separator
+        separator: Carattere separatore (default: '|')
+        canonical_map: Dizionario opzionale lowercase -> forma canonica
+
+    Returns:
+        Lista ordinata di valori unici normalizzati
+    """
+    if series.empty:
+        return []
+
+    values = series.dropna().astype(str).str.split(separator).explode()
+
+    canonical = {}
+    
+    MANUAL_MAP = {
+        "alternanza scuola-lavoro": "Alternanza Scuola Lavoro",
+        "peer education": "Peer Education",
+        "peer tutoring": "Peer Tutoring", 
+        "problem based learning": "Problem Based Learning",
+        "service learning": "Service Learning",
+        "debate": "Debate",
+    }
+    import re
+
+    for v in values:
+        v_stripped = v.strip()
+        if not v_stripped:
+            continue
+        # Chiave normalizzata: lowercase e rimuovi tutto ciò che non è alfanumerico
+        key_clean = re.sub(r'[^a-z0-9]', '', v_stripped.lower())
+        key_lower = v_stripped.lower()
+
+        if key_clean not in canonical:
+            # Step 1: Check manual map
+            if key_lower in MANUAL_MAP:
+                canonical[key_clean] = MANUAL_MAP[key_lower]
+                continue
+                
+            # Step 2: Check canonical map arg
+            if canonical_map and key_lower in canonical_map:
+                canonical[key_clean] = canonical_map[key_lower]
+                continue
+            
+            # Step 3: Default
+            val_title = v_stripped
+            if val_title.islower() or val_title.isupper():
+                val_title = val_title.title()
+            canonical[key_clean] = val_title
+        else:
+            current = canonical[key_clean]
+            if "-" in current and "-" not in v_stripped:
+                canonical[key_clean] = v_stripped.title()
+
+    return sorted(canonical.values())
+
+
+def build_geo_hierarchy(df: pd.DataFrame) -> dict:
+    """
+    Costruisce la gerarchia geografica Area → Regioni → Province dai dati effettivi.
+    
+    Returns:
+        Dict con 'area_to_regioni' e 'regione_to_province'
+    """
+    hierarchy = {
+        "area_to_regioni": {},    # Area → [Regioni]
+        "regione_to_province": {} # Regione → [Province]
+    }
+    
+    if df.empty:
+        return hierarchy
+
+    # --- Area -> Regioni ---
+    # Raggruppa per area e raccogli regioni uniche
+    if 'area_geografica' in df.columns and 'regione' in df.columns:
+        # Crea df temporaneo unico per coppia area-regione
+        area_reg = df[['area_geografica', 'regione']].dropna().drop_duplicates()
+        
+        for area in area_reg['area_geografica'].unique():
+            regioni = sorted(area_reg[area_reg['area_geografica'] == area]['regione'].unique().tolist())
+            hierarchy["area_to_regioni"][area] = regioni
+
+    # --- Regione -> Province ---
+    if 'regione' in df.columns and 'provincia' in df.columns:
+        # Crea df temporaneo unico per coppia regione-provincia
+        reg_prov = df[['regione', 'provincia']].dropna().drop_duplicates()
+        
+        for regione in reg_prov['regione'].unique():
+            province = sorted(reg_prov[reg_prov['regione'] == regione]['provincia'].unique().tolist())
+            hierarchy["regione_to_province"][regione] = province
+
+    return hierarchy
 
 
 FILTER_DEFAULTS = {
@@ -513,6 +625,21 @@ with st.expander("Legenda emoji (categorie)", expanded=False):
 data = load_activities()
 df_activities = data.get("df", pd.DataFrame())
 
+# Normalizzazione Regioni e Province (Runtime)
+if not df_activities.empty:
+    if 'regione' in df_activities.columns:
+        # Title Case standard (es. "LOMBARDIA" -> "Lombardia")
+        df_activities['regione'] = df_activities['regione'].astype(str).str.title().str.strip()
+        # Fix specifici
+        df_activities['regione'] = df_activities['regione'].replace({
+            "Emilia Romagna": "Emilia-Romagna",
+            "Friuli Venezia Giulia": "Friuli-Venezia Giulia",
+            "Trentino Alto Adige": "Trentino-Alto Adige"
+        })
+    if 'provincia' in df_activities.columns:
+        # Uppercase standard per sigle provincia (es. "mi" -> "MI")
+        df_activities['provincia'] = df_activities['provincia'].astype(str).str.upper().str.strip()
+
 if df_activities.empty:
     st.warning("Nessuna attività trovata. Esegui prima `make activity-extract` per estrarre le attività dai PDF.")
     st.info("""
@@ -531,135 +658,159 @@ if df_activities.empty:
     st.stop()
 
 # === SEZIONE FILTRI NELLA PAGINA PRINCIPALE ===
-with st.form("filters_form"):
-    # === BARRA DI RICERCA ===
-    search = st.text_input(
-        "🔎 Cerca",
-        placeholder="Cerca in titolo, descrizione, metodologia, scuola...",
-        label_visibility="collapsed",
-        key="filter_search"
+# === BARRA DI RICERCA ===
+search = st.text_input(
+    "🔎 Cerca",
+    placeholder="Cerca in titolo, descrizione, metodologia, scuola...",
+    label_visibility="collapsed",
+    key="filter_search"
+)
+
+# Costruzione gerarchia geografica dai dati
+geo_hierarchy = build_geo_hierarchy(df_activities)
+
+# === FILTRI PRINCIPALI (sempre visibili) ===
+st.markdown("##### 🔍 Filtri")
+
+# Prima riga: Categoria, Ambito, Metodologia
+col_f1, col_f2, col_f3 = st.columns(3)
+
+with col_f1:
+    categorie_opzioni = ["Tutte"] + CATEGORIE
+    sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni, key="filter_categoria")
+
+with col_f2:
+    # Ambito Attività - normalizzato
+    ambiti_disponibili = normalize_multivalue_field(df_activities['ambiti_attivita'])
+    if not ambiti_disponibili:
+        ambiti_disponibili = sorted(AMBITI_ATTIVITA)
+        
+    sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili, key="filter_ambiti")
+
+with col_f3:
+    # Tipologia Metodologia - normalizzato
+    metodologie_disponibili = normalize_multivalue_field(df_activities['tipologie_metodologia'])
+    if not metodologie_disponibili:
+        metodologie_disponibili = sorted(TIPOLOGIE_METODOLOGIA)
+        
+    sel_metodologie = st.multiselect(
+        "📚 Tipologia Metodologia",
+        metodologie_disponibili,
+        key="filter_metodologie"
     )
 
-    # === FILTRI PRINCIPALI (sempre visibili) ===
-    st.markdown("##### 🔍 Filtri")
+# Seconda riga: Tipologia Istituto, Ordine/Grado, Target
+col_f4, col_f5, col_f6 = st.columns(3)
 
-    # Prima riga: Categoria, Ambito, Metodologia
-    col_f1, col_f2, col_f3 = st.columns(3)
+with col_f4:
+    sel_tipologie_istituto = st.multiselect(
+        "🏫 Tipologia Istituto",
+        TIPOLOGIE_ISTITUTO,
+        key="filter_tipologie_istituto"
+    )
 
-    with col_f1:
-        categorie_opzioni = ["Tutte"] + CATEGORIE
-        sel_categoria = st.selectbox("📂 Categoria", categorie_opzioni, key="filter_categoria")
+with col_f5:
+    sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO, key="filter_ordini")
 
-    with col_f2:
-        # Ambito Attività - estrai dal CSV (campo con |)
-        ambiti_disponibili = sorted(set(
-            a.strip() for a in df_activities['ambiti_attivita'].dropna().str.split('|').explode()
-            if a.strip()
+with col_f6:
+    target_options = ["Studenti", "Docenti", "Famiglie"]
+    sel_targets = st.multiselect("👥 Target", target_options, key="filter_targets")
+
+# === FILTRI AVANZATI (expander) ===
+with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
+    # Riga filtri geografici - CASCADING
+    col_g1, col_g2, col_g3, col_g4 = st.columns(4)
+
+    with col_g1:
+        # Area geografica - tutte le opzioni sempre disponibili
+        aree_disponibili = sorted(df_activities['area_geografica'].dropna().unique().tolist()) if not df_activities.empty else []
+        sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili, key="filter_aree")
+
+    with col_g2:
+        # Regione - filtrata in base alle aree selezionate
+        if sel_aree:
+            # Solo regioni delle aree selezionate
+            regioni_disponibili = []
+            for area in sel_aree:
+                regioni_disponibili.extend(geo_hierarchy["area_to_regioni"].get(area, []))
+            regioni_disponibili = sorted(set(regioni_disponibili))
+        else:
+            # Tutte le regioni se nessuna area selezionata
+            regioni_disponibili = sorted(df_activities['regione'].dropna().unique().tolist()) if not df_activities.empty else []
+
+        sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili, key="filter_regioni")
+
+    with col_g3:
+        # Provincia - filtrata in base alle regioni o aree selezionate
+        province_disponibili = []
+        
+        if sel_regioni:
+            # Solo province delle regioni selezionate
+            for regione in sel_regioni:
+                province_disponibili.extend(geo_hierarchy["regione_to_province"].get(regione, []))
+        elif sel_aree:
+            # Province delle aree selezionate (indirettamente via regioni)
+            regioni_in_aree = []
+            for area in sel_aree:
+                regioni_in_aree.extend(geo_hierarchy["area_to_regioni"].get(area, []))
+            
+            for regione in regioni_in_aree:
+                province_disponibili.extend(geo_hierarchy["regione_to_province"].get(regione, []))
+        else:
+            # Tutte le province
+            province_disponibili = sorted(df_activities['provincia'].dropna().unique().tolist()) if not df_activities.empty else []
+        
+        province_disponibili = sorted(set(province_disponibili))
+
+        sel_province = st.multiselect("🏙️ Provincia", province_disponibili, key="filter_province")
+
+    with col_g4:
+        # Tipo scuola legacy
+        tipi_disponibili = sorted(set(
+            t.strip() for t in df_activities['tipo_scuola'].dropna().str.split(',').explode()
+            if t.strip()
         ))
-        if not ambiti_disponibili:
-            ambiti_disponibili = AMBITI_ATTIVITA
-        sel_ambiti = st.multiselect("🎯 Ambito Attività", ambiti_disponibili, key="filter_ambiti")
+        sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili, key="filter_tipi")
 
-    with col_f3:
-        # Tipologia Metodologia - estrai dal CSV (campo con |)
-        metodologie_disponibili = sorted(set(
-            m.strip() for m in df_activities['tipologie_metodologia'].dropna().str.split('|').explode()
-            if m.strip()
-        ))
-        if not metodologie_disponibili:
-            metodologie_disponibili = TIPOLOGIE_METODOLOGIA
-        sel_metodologie = st.multiselect(
-            "📚 Tipologia Metodologia",
-            metodologie_disponibili,
-            key="filter_metodologie"
-        )
+    # Riga per maturity index
+    col_m1, col_m2 = st.columns([1, 3])
+    with col_m1:
+        st.markdown("**📊 Indice Completezza**")
+    with col_m2:
+        sel_maturity = None
+        maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
+        maturity_values = maturity_col.dropna()
 
-    # Seconda riga: Tipologia Istituto, Ordine/Grado, Target
-    col_f4, col_f5, col_f6 = st.columns(3)
+        if len(maturity_values) > 0:
+            min_mi_val = maturity_values.min()
+            max_mi_val = maturity_values.max()
 
-    with col_f4:
-        sel_tipologie_istituto = st.multiselect(
-            "🏫 Tipologia Istituto",
-            TIPOLOGIE_ISTITUTO,
-            key="filter_tipologie_istituto"
-        )
+            # Slider in scala 1-7
+            min_val = max(1.0, float(min_mi_val))
+            max_val = min(7.0, float(max_mi_val))
 
-    with col_f5:
-        sel_ordini = st.multiselect("📖 Ordine/Grado", ORDINI_GRADO, key="filter_ordini")
+            if min_val < max_val:
+                default_range = (min_val, max_val)
 
-    with col_f6:
-        target_options = ["Studenti", "Docenti", "Famiglie"]
-        sel_targets = st.multiselect("👥 Target", target_options, key="filter_targets")
+                st.session_state["maturity_default_range"] = default_range
 
-    # === FILTRI AVANZATI (expander) ===
-    with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
-        # Riga filtri geografici
-        col_g1, col_g2, col_g3, col_g4 = st.columns(4)
-
-        with col_g1:
-            # Area geografica
-            aree_disponibili = sorted(df_activities['area_geografica'].dropna().unique().tolist())
-            sel_aree = st.multiselect("📍 Area Geografica", aree_disponibili, key="filter_aree")
-
-        with col_g2:
-            # Regione (multiselect)
-            regioni_disponibili = sorted(df_activities['regione'].dropna().unique().tolist())
-            sel_regioni = st.multiselect("🗺️ Regione", regioni_disponibili, key="filter_regioni")
-
-        with col_g3:
-            # Provincia (multiselect)
-            province_disponibili = sorted(df_activities['provincia'].dropna().unique().tolist())
-            sel_province = st.multiselect("🏙️ Provincia", province_disponibili, key="filter_province")
-
-        with col_g4:
-            # Tipo scuola legacy
-            tipi_disponibili = sorted(set(
-                t.strip() for t in df_activities['tipo_scuola'].dropna().str.split(',').explode()
-                if t.strip()
-            ))
-            sel_tipi = st.multiselect("🏫 Tipo Scuola (legacy)", tipi_disponibili, key="filter_tipi")
-
-        # Riga per maturity index
-        col_m1, col_m2 = st.columns([1, 3])
-        with col_m1:
-            st.markdown("**📊 Indice Completezza**")
-        with col_m2:
-            sel_maturity = None
-            maturity_col = pd.to_numeric(df_activities['maturity_index'], errors='coerce')
-            maturity_values = maturity_col.dropna()
-
-            if len(maturity_values) > 0:
-                min_mi_val = maturity_values.min()
-                max_mi_val = maturity_values.max()
-
-                # Slider in scala 1-7
-                min_val = max(1.0, float(min_mi_val))
-                max_val = min(7.0, float(max_mi_val))
-
-                if min_val < max_val:
-                    default_range = (min_val, max_val)
-
-                    st.session_state["maturity_default_range"] = default_range
-
-                    sel_maturity = st.slider(
-                        "Range Indice Completezza (1-7)",
-                        min_value=1.0,
-                        max_value=7.0,
-                        value=default_range,
-                        step=0.5,
-                        label_visibility="collapsed",
-                        key="filter_maturity"
-                    )
-                else:
-                    st.session_state["maturity_default_range"] = None
-                    st.caption(f"Indice unico: {min_val:.1f}/7")
-                    sel_maturity = None
+                sel_maturity = st.slider(
+                    "Range Indice Completezza (1-7)",
+                    min_value=1.0,
+                    max_value=7.0,
+                    value=default_range,
+                    step=0.5,
+                    label_visibility="collapsed",
+                    key="filter_maturity"
+                )
             else:
                 st.session_state["maturity_default_range"] = None
-                st.caption("Nessun dato disponibile")
+                st.caption(f"Indice unico: {min_val:.1f}/7")
                 sel_maturity = None
-
-    apply_filters = st.form_submit_button("Applica filtri")
+        else:
+            st.session_state["maturity_default_range"] = None
+            st.caption("Nessun dato disponibile")
+            sel_maturity = None
 
 # === INFO DATASET E PULSANTI ===
 default_maturity_range = st.session_state.get("maturity_default_range")
@@ -708,6 +859,16 @@ prev_signature = st.session_state.get("filters_signature")
 if filter_signature != prev_signature:
     st.session_state["filters_signature"] = filter_signature
     st.session_state["catalog_limit"] = st.session_state.get("catalog_page_size", 50)
+
+# Applica filtri
+# Reset filtri non validi (UX improvement)
+# Se l'utente cambia Area, e aveva selezionato regioni non pertinenti, le rimuoviamo "logicamente" dal filtro applicato
+# Nota: st.multiselect mantiene lo stato interno, quindi qui stiamo solo pulendo *prima* di filtrare il DF.
+# Nella UI rimarranno selezionati finché l'utente non interagisce o non ricarichiamo la pagina forzatamente,
+# ma almeno il risultato sarà coerente (insieme vuoto se selezione invalida, oppure filtrato correttamente).
+# Tuttavia, per una UX perfetta, bisognerebbe usare callback sui widget, ma Streamlit forms lo rendono complesso.
+# Procediamo a filtrare con i valori selezionati; se l'utente ha selezionato "Nord Ovest" e "Sicilia", 
+# otterrà risultato vuoto (corretto poiché intersezione).
 
 # Applica filtri
 df_filtered = filter_practices(

@@ -33,7 +33,7 @@ from src.agents.meta_report.orchestrator import MetaReportOrchestrator
 
 def main():
     parser = argparse.ArgumentParser(description="Meta Report Generator - Best Practices from PTOF analyses")
-    parser.add_argument("command", choices=["status", "school", "regional", "national", "thematic", "next", "batch"],
+    parser.add_argument("command", choices=["status", "school", "regional", "national", "thematic", "thematic-v2", "next", "batch"],
                        help="Command to execute")
     parser.add_argument("--code", "-c", help="School code for school report")
     parser.add_argument("--region", "-r", help="Region name for regional report")
@@ -132,6 +132,30 @@ def main():
         )
         if result:
             print(f"Generated: {result}")
+        else:
+            print("Failed to generate report")
+            sys.exit(1)
+
+    elif args.command == "thematic-v2":
+        # Versione V2: analisi scuola per scuola
+        if not args.dim:
+            print("Error: --dim required for thematic-v2 report")
+            sys.exit(1)
+
+        from src.agents.meta_report.reporters.thematic_v2 import ThematicReporterV2
+        reporter = ThematicReporterV2(orchestrator.provider)
+
+        # Costruisci filtri puliti
+        clean_filters = {k: v for k, v in filters.items() if v}
+
+        result = reporter.generate(
+            args.dim,
+            filters=clean_filters if clean_filters else None,
+            prompt_profile=args.prompt_profile,
+            force=args.force
+        )
+        if result:
+            print(f"Generated (V2): {result}")
         else:
             print("Failed to generate report")
             sys.exit(1)

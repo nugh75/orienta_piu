@@ -10,6 +10,9 @@ class OpenRouterProvider(BaseProvider):
     """OpenRouter API provider."""
 
     name = "openrouter"
+    
+    # Recommended chunk size for this provider
+    recommended_chunk_size = 40
 
     def __init__(
         self,

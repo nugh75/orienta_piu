@@ -10,6 +10,12 @@ services:
       - ./analysis_results:/app/analysis_results:ro # Report JSON/MD (sola lettura)
       - ./reports:/app/reports:ro                   # Meta report (sola lettura)
 
+      # === CODICE (hot-reload) ===
+      - ./app:/app/app:ro
+      - ./src:/app/src:ro
+      - ./config:/app/config:ro
+      - ./.streamlit:/app/.streamlit:ro
+
       # === DATI (read-write per funzionalita admin) ===
       - ./ptof_inbox:/app/ptof_inbox               # Upload PTOF
       - ./logs:/app/logs                           # Log dashboard

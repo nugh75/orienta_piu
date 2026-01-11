@@ -1,8 +1,17 @@
 """Base provider interface for LLM calls."""
 
+import re
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
+
+# Fase 2.1, 2.2, 2.3: Import componenti modulari
+try:
+    from ..prompts.examples import get_example_block
+    from ..prompts.components import get_profile_instructions, PROFILE_STRUCTURES, REPORT_STRUCTURES
+    PROMPTS_AVAILABLE = True
+except ImportError:
+    PROMPTS_AVAILABLE = False
 
 
 class ProviderError(Exception):
@@ -18,12 +27,18 @@ class LLMResponse:
     provider: str
     tokens_used: Optional[int] = None
     cost: Optional[float] = None
+    # Fase 1.1: Tracking codici validati
+    invalid_codes: list[str] = field(default_factory=list)
+    validation_applied: bool = False
 
 
 class BaseProvider(ABC):
     """Abstract base class for LLM providers."""
 
     name: str = "base"
+    
+    # Default recommended chunk size (subclasses can override)
+    recommended_chunk_size: int = 30
 
     @abstractmethod
     def is_available(self) -> bool:
@@ -39,26 +54,174 @@ class BaseProvider(ABC):
         self,
         analysis_data: dict,
         report_type: str = "school",
-        prompt_profile: str = "overview"
+        prompt_profile: str = "overview",
+        valid_school_codes: Optional[set[str]] = None
     ) -> LLMResponse:
-        """Generate activities report from analysis data."""
+        """Generate activities report from analysis data.
+
+        Args:
+            analysis_data: Data to analyze
+            report_type: Type of report to generate
+            prompt_profile: Focus profile for the report
+            valid_school_codes: Optional set of valid school codes for validation
+
+        Returns:
+            LLMResponse with content and validation info
+        """
         system_prompt = self._get_system_prompt(report_type, prompt_profile)
         user_prompt = self._format_analysis_prompt(analysis_data, report_type, prompt_profile)
-        return self.generate(user_prompt, system_prompt)
+        response = self.generate(user_prompt, system_prompt)
+
+        # Fase 1.1: Validazione post-generazione dei codici scuola
+        if valid_school_codes:
+            validated_content, invalid_codes = self.validate_school_codes(
+                response.content,
+                valid_school_codes
+            )
+            response.content = validated_content
+            response.invalid_codes = invalid_codes
+            response.validation_applied = True
+
+            if invalid_codes:
+                print(f"[validation] Found {len(invalid_codes)} invalid school codes: {invalid_codes[:5]}...")
+
+        return response
+
+    def validate_school_codes(
+        self,
+        content: str,
+        valid_codes: set[str]
+    ) -> tuple[str, list[str]]:
+        """Validate and flag invalid school codes in the report.
+
+        Fase 1.1: Post-generation validation to catch hallucinated codes.
+
+        Args:
+            content: Generated report content
+            valid_codes: Set of valid school codes from the data
+
+        Returns:
+            Tuple of (cleaned content, list of invalid codes found)
+        """
+        # Pattern per codici meccanografici italiani:
+        # 2 lettere regione + 2 lettere tipo istituto + 5-6 caratteri alfanumerici
+        # Es: RMPS12345X, MIIS00900T, TOPS01000B
+        pattern = r'\b([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6})\b'
+
+        found_codes = set(re.findall(pattern, content))
+        invalid_codes = [code for code in found_codes if code not in valid_codes]
+
+        if invalid_codes:
+            for code in invalid_codes:
+                # Sostituisci con segnalazione visibile
+                content = content.replace(
+                    f"({code})",
+                    f"(~~{code}~~ [codice non verificato])"
+                )
+
+        return content, invalid_codes
+
+    def extract_valid_codes_from_data(self, analysis_data: dict) -> set[str]:
+        """Extract valid school codes from analysis data.
+
+        Helper method to build the set of valid codes from the input data.
+
+        Args:
+            analysis_data: The analysis data passed to generate_best_practices
+
+        Returns:
+            Set of valid school codes found in the data
+        """
+        valid_codes = set()
+
+        # Estrai da sample_cases
+        for case in analysis_data.get("sample_cases", []):
+            # Cerca codice in vari formati possibili
+            if "(" in case and ")" in case:
+                # Estrai da formato "Nome Scuola (CODICE)"
+                match = re.search(r'\(([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6})\)', case)
+                if match:
+                    valid_codes.add(match.group(1))
+
+        # Estrai da practices/casi strutturati
+        for practice in analysis_data.get("practices", []):
+            if isinstance(practice, dict):
+                school = practice.get("scuola", {}) or practice.get("school", {})
+                code = (
+                    school.get("codice") or
+                    school.get("codice_meccanografico") or
+                    school.get("code")
+                )
+                if code:
+                    valid_codes.add(code)
+
+        # Estrai da school_info
+        school_info = analysis_data.get("school_info", {})
+        if school_info:
+            code = school_info.get("code") or school_info.get("codice_meccanografico")
+            if code:
+                valid_codes.add(code)
+
+        # Estrai da school_code diretto
+        if analysis_data.get("school_code"):
+            valid_codes.add(analysis_data["school_code"])
+
+        # Estrai da top_schools_by_province
+        for province_schools in analysis_data.get("top_schools_by_province", {}).values():
+            for school in province_schools:
+                if isinstance(school, dict) and school.get("code"):
+                    valid_codes.add(school["code"])
+
+        # Estrai da top_10_schools
+        for school in analysis_data.get("top_10_schools", []):
+            if isinstance(school, dict) and school.get("code"):
+                valid_codes.add(school["code"])
+
+        return valid_codes
 
     def _get_system_prompt(self, report_type: str, prompt_profile: str) -> str:
         """Get system prompt based on report type."""
+        # Fase 1.3: Chiarimento istruzioni Markdown per tipo di report
+        # Report completi (standalone) -> usano titoli Markdown
+        # Chunk parziali (da integrare) -> NO titoli Markdown
+        report_types_with_headers = {
+            "school", "regional", "national", "thematic",
+            "thematic_chunk_merge", "thematic_group_merge"
+        }
+        report_types_without_headers = {
+            "thematic_chunk", "thematic_group_chunk",
+            "thematic_summary_merge", "regional_summary_merge"
+        }
+
+        if report_type in report_types_with_headers:
+            markdown_instruction = (
+                "FORMATO: Usa titoli Markdown per strutturare il report:\n"
+                "- # per il titolo principale\n"
+                "- ## per sezioni maggiori\n"
+                "- ### per sottosezioni\n"
+                "NON usare blocchi di codice (```)."
+            )
+        elif report_type in report_types_without_headers:
+            markdown_instruction = (
+                "FORMATO: Questo è un output PARZIALE che verrà integrato.\n"
+                "- NON usare titoli Markdown (#, ##, ###)\n"
+                "- NON usare righe in grassetto che fungono da titoli\n"
+                "- Scrivi paragrafi continui e discorsivi\n"
+                "- NON usare blocchi di codice (```)."
+            )
+        else:
+            markdown_instruction = "NON usare blocchi di codice (```)."
+
+        # System prompt condensato per ottimizzare token (modelli locali 27B)
         base = (
-            "Sei un esperto di orientamento scolastico italiano. "
-            "Scrivi in italiano con stile accademico, registro formale e lessico metodologico. "
-            "Produci report analitici e sintetici sulle attivita di orientamento, con argomentazioni chiare e coerenti. "
-            "Evita toni celebrativi e superlativi. "
-            "NON usare blocchi di codice (```) nel report. Scrivi in markdown semplice con titoli (#, ##, ###).\n\n"
-            "REGOLE CITAZIONI:\n"
-            "- Cita SOLO scuole presenti nei dati forniti (sample_cases o chunk_notes)\n"
-            "- Usa SEMPRE il formato: Nome Scuola (CODICE) - es: Liceo Galilei (RMPS12345X)\n"
-            "- NON inventare codici meccanografici: se non hai il codice, non citare la scuola\n"
-            "- I codici italiani hanno formato: 2 lettere regione + 2 lettere tipo + 5-6 caratteri alfanumerici"
+            "Analista orientamento scolastico italiano. Stile: accademico, formale, conciso.\n\n"
+            f"{markdown_instruction}\n\n"
+            "REGOLE:\n"
+            "- Solo prosa narrativa (MAI elenchi puntati/numerati nel corpo)\n"
+            "- Citazioni: Nome Scuola (CODICE) - es: Liceo Volta (RMPS12345X)\n"
+            "- Cita SOLO scuole nei dati forniti, NO invenzioni\n"
+            "- Connettivi: inoltre, tuttavia, in particolare, analogamente\n"
+            "- NO superlativi, NO ripetizioni"
         )
 
         specifics = {
@@ -108,26 +271,24 @@ class BaseProvider(ABC):
                 "Integra note parziali e dati aggregati in un report finale coerente e accademico. "
                 "Evidenzia pattern comuni, segnali quantitativi ricorrenti e implicazioni operative."
             ),
+            # Prompt per modelli locali 27B - mantiene struttura ma riduce verbosità
             "thematic_group_chunk": (
-                "Analizza questo gruppo di attività per estrarre dettagli significativi. "
-                "Scrivi dei PARAGRAFI DENSI E NARRATIVI che descrivano cosa fanno le scuole, citando esempi specifici con Nome Scuola (Codice). "
-                "VIETATO USARE ELENCHI PUNTATI. "
-                "Focalizzati su: metodologie originali, partnership, impatto sugli studenti. "
-                "Questo testo servirà come base per un capitolo approfondito."
+                "Analizza le attività e identifica pattern chiave. "
+                "Scrivi 3-4 paragrafi narrativi densi. "
+                "Cita 3-5 scuole con Nome (Codice). "
+                "Max 500 parole. NO elenchi puntati."
             ),
             "thematic_group_merge": (
-                "Usa le note parziali (chunk) per scrivere un SAGGIO APPROFONDITO E ARTICOLATO sul tema.\\n\\n"
-                "STRUTTURA OBBLIGATORIA (8-12 paragrafi):\\n\\n"
-                "1) INTRODUZIONE ESTESA: Contesto e rilevanza del tema.\\n"
-                "2) ANALISI DEI CLUSTER (corpo centrale): Sviluppa un discorso fluido che colleghi le varie esperienze. Raggruppa per affinità semantica.\\n"
-                "3) APPROFONDIMENTI: Dedica paragrafi specifici ai progetti più innovativi citati nelle note.\\n"
-                "4) CONCLUSIONI RAGIONATE.\\n\\n"
-                "REGOLE FERREE:\\n"
-                "- VIETATO USARE ELENCHI PUNTATI O NUMERATI (tranne per i titoli dei paragrafi).\\n"
-                "- Scrivi tutto in forma discorsiva, usando connettivi logici (inoltre, tuttavia, in particolare...).\\n"
-                "- Cita MOLTISSIME scuole (Nome Scuola - CODICE) per dare concretezza.\\n"
-                "- Non usare le categorie amministrative come nomi dei cluster.\\n"
-                "- Lunghezza minima: 1000 parole."
+                "Scrivi un REPORT MONOGRAFICO completo integrando le analisi parziali.\n\n"
+                "STRUTTURA OBBLIGATORIA (usa ### per i titoli):\n"
+                "### Executive Summary (100 parole)\n"
+                "### Direttrici Strategiche (200 parole, cita 5+ scuole)\n"
+                "### Intersezioni Multidisciplinari (150 parole)\n"
+                "### Metodologie e Strumenti (150 parole)\n"
+                "### Casi Rilevanti (200 parole, cita esempi specifici)\n"
+                "### Analisi Territoriale (150 parole per provincia)\n"
+                "### Sintesi (150 parole)\n\n"
+                "REGOLE: Prosa narrativa, grassetto per **Scuole**, **Province**, **Regioni**. NO elenchi puntati."
             ),
             "thematic_summary_merge": (
                 "Sintetizza le analisi dei temi in un quadro unitario strutturato.\n"
@@ -161,50 +322,64 @@ class BaseProvider(ABC):
             ),
         }
 
-        return f"{base}\n\n{specifics.get(report_type, specifics['school'])}"
+        # Componi il prompt finale
+        specific = specifics.get(report_type, specifics['school'])
+        prompt = f"{base}\n\n{specific}"
+
+        # Fase 2.1: Aggiungi few-shot examples se disponibili
+        if PROMPTS_AVAILABLE:
+            example_block = get_example_block(report_type)
+            if example_block:
+                prompt += example_block
+
+        return prompt
 
     def _format_analysis_prompt(self, analysis_data: dict, report_type: str, prompt_profile: str) -> str:
         """Format analysis data into a prompt."""
         import json
 
-        profile_focus = {
-            "overview": (
-                "FOCUS OVERVIEW: Quadro complessivo e bilanciato.\n"
-                "- Copri tutti gli aspetti principali senza approfondire troppo\n"
-                "- Bilancia punti di forza e aree di sviluppo\n"
-                "- Adatto a: dirigenti, stakeholder generici"
-            ),
-            "innovative": (
-                "FOCUS INNOVAZIONE: Evidenzia solo le pratiche più originali.\n"
-                "- Cerca approcci non convenzionali, sperimentazioni, primi in Italia\n"
-                "- Spiega PERCHÉ sono innovative (cosa cambia rispetto alla prassi)\n"
-                "- Ignora pratiche standard anche se ben fatte\n"
-                "- Adatto a: ricercatori, policy maker, scuole che vogliono innovare"
-            ),
-            "comparative": (
-                "FOCUS COMPARATIVO: Analizza differenze e pattern.\n"
-                "- Confronta tra regioni, tipi di scuola, ordini scolastici\n"
-                "- Identifica cluster e outlier\n"
-                "- Usa dati quantitativi per supportare i confronti\n"
-                "- Adatto a: analisti, uffici scolastici regionali"
-            ),
-            "impact": (
-                "FOCUS IMPATTO: Valuta efficacia e sostenibilità.\n"
-                "- Cerca evidenze di risultati (anche indiretti)\n"
-                "- Valuta risorse necessarie vs benefici\n"
-                "- Identifica pratiche replicabili vs contesto-specifiche\n"
-                "- Adatto a: valutatori, enti finanziatori"
-            ),
-            "operational": (
-                "FOCUS OPERATIVO: Sintesi per l'azione immediata.\n"
-                "- Raccomandazioni concrete e realizzabili\n"
-                "- Prioritizza per urgenza/impatto\n"
-                "- Indica risorse, tempi, prerequisiti\n"
-                "- Adatto a: dirigenti scolastici, docenti referenti"
-            ),
-        }
-
-        focus_line = profile_focus.get(prompt_profile, profile_focus["overview"])
+        # Fase 2.2: Usa istruzioni potenziate se disponibili
+        if PROMPTS_AVAILABLE:
+            focus_line = get_profile_instructions(prompt_profile)
+        else:
+            # Fallback alle istruzioni base
+            profile_focus = {
+                "overview": (
+                    "FOCUS OVERVIEW: Quadro complessivo e bilanciato.\n"
+                    "- Copri tutti gli aspetti principali senza approfondire troppo\n"
+                    "- Bilancia punti di forza e aree di sviluppo\n"
+                    "- Adatto a: dirigenti, stakeholder generici"
+                ),
+                "innovative": (
+                    "FOCUS INNOVAZIONE: Evidenzia solo le pratiche più originali.\n"
+                    "- Cerca approcci non convenzionali, sperimentazioni, primi in Italia\n"
+                    "- Spiega PERCHÉ sono innovative (cosa cambia rispetto alla prassi)\n"
+                    "- Ignora pratiche standard anche se ben fatte\n"
+                    "- Adatto a: ricercatori, policy maker, scuole che vogliono innovare"
+                ),
+                "comparative": (
+                    "FOCUS COMPARATIVO: Analizza differenze e pattern.\n"
+                    "- Confronta tra regioni, tipi di scuola, ordini scolastici\n"
+                    "- Identifica cluster e outlier\n"
+                    "- Usa dati quantitativi per supportare i confronti\n"
+                    "- Adatto a: analisti, uffici scolastici regionali"
+                ),
+                "impact": (
+                    "FOCUS IMPATTO: Valuta efficacia e sostenibilità.\n"
+                    "- Cerca evidenze di risultati (anche indiretti)\n"
+                    "- Valuta risorse necessarie vs benefici\n"
+                    "- Identifica pratiche replicabili vs contesto-specifiche\n"
+                    "- Adatto a: valutatori, enti finanziatori"
+                ),
+                "operational": (
+                    "FOCUS OPERATIVO: Sintesi per l'azione immediata.\n"
+                    "- Raccomandazioni concrete e realizzabili\n"
+                    "- Prioritizza per urgenza/impatto\n"
+                    "- Indica risorse, tempi, prerequisiti\n"
+                    "- Adatto a: dirigenti scolastici, docenti referenti"
+                ),
+            }
+            focus_line = profile_focus.get(prompt_profile, profile_focus["overview"])
         filters = analysis_data.get("filters") or {}
         filters_line = f"Filtri attivi: {filters}" if filters else "Filtri attivi: nessuno"
 
@@ -299,21 +474,20 @@ NON includere inventari completi: il dettaglio attivita e in tabella separata.
             else:
                 scope_line = "Ambito: nazionale"
                 territorial_note = "Differenze territoriali rilevanti (se presenti)"
-            return f"""Analizza il seguente sottoinsieme di casi per il tema "{theme}" nella dimensione "{dimension_name}":
+            # Prompt condensato per modelli locali - usa dati compressi se disponibili
+            compressed_data = analysis_data.get("sample_cases", "")
+            if isinstance(compressed_data, list):
+                compressed_data = "\n".join(str(c)[:200] for c in compressed_data[:20])
 
-Profilo: {prompt_profile}
-{filters_line}
-Focus: {focus_line}
+            return f"""TEMA: {dimension_name} - {theme}
 {scope_line}
+CASI: {analysis_data.get('cases_count', 0)}
 
-DATI CHUNK:
-{json.dumps(analysis_data, indent=2, ensure_ascii=False)}
+DATI:
+{compressed_data}
 
-Output richiesto (note sintetiche, NON report finale):
-- Pattern ricorrenti e come si manifestano nelle scuole
-- {territorial_note}
-- 2-4 esempi puntuali citando sempre Nome Scuola (Codice)
-IMPORTANTE: non creare inventari o liste lunghe. Non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
+COMPITO: Identifica 3 pattern chiave e 2-3 scuole virtuose (con codice).
+FORMATO: 3 paragrafi narrativi (4-5 frasi). Max 400 parole. NO elenchi.
 """
 
         if report_type == "thematic_group_merge":
@@ -335,75 +509,104 @@ IMPORTANTE: non creare inventari o liste lunghe. Non usare titoli Markdown (#, #
                 scope_line = "Ambito: nazionale"
                 territorial_note = "Indica la provenienza geografica delle attività citate."
             
-            return f"""Produci un'analisi DETTAGLIATA e COMPLETA del tema "{theme}" nella dimensione "{dimension_name}":
+            # Usa la struttura definita centralmente in components.py (Monografica AI-Driven)
+            # Nota: Recuperiamo 'thematic' perché 'thematic_group_merge' è solo un alias
+            structure_template = REPORT_STRUCTURES.get("thematic", "")
+            
+            # Calcolo percentuale citazione dinamica
+            if schools_count <= 20:
+                citation_pct = "100%"
+                citation_note = "CITA TUTTE LE SCUOLE SENZA ECCEZIONI."
+            elif schools_count <= 30:
+                citation_pct = "90%"
+                citation_note = f"CITA ALMENO IL 90% DELLE SCUOLE (minimo {int(schools_count * 0.9)} su {schools_count})."
+            elif schools_count <= 50:
+                citation_pct = "80%"
+                citation_note = f"CITA ALMENO L'80% DELLE SCUOLE (minimo {int(schools_count * 0.8)} su {schools_count})."
+            elif schools_count <= 100:
+                citation_pct = "70%"
+                citation_note = f"CITA ALMENO IL 70% DELLE SCUOLE (minimo {int(schools_count * 0.7)} su {schools_count})."
+            else:
+                citation_pct = "50%"
+                citation_note = "Cita un'ampia rappresentanza di scuole (almeno il 50%)."
 
-Profilo: {prompt_profile}
-{filters_line}
-Focus: {focus_line}
+            # Prompt per merge - struttura completa per report monografico
+            chunk_notes = analysis_data.get("chunk_notes", [])
+            chunk_text = "\n\n---\n\n".join(chunk_notes) if chunk_notes else "Nessuna nota disponibile"
+
+            # Calcola quante scuole citare (proporzionale)
+            min_citations = max(8, min(schools_count, int(schools_count * 0.6)))
+
+            return f"""REPORT MONOGRAFICO: {dimension_name} nel {region_name if is_regional else 'territorio nazionale'}
 {scope_line}
+Statistiche: {cases_count} attività, {schools_count} scuole
 
-STATISTICHE TOTALI: {cases_count} attività in {schools_count} scuole
-CAMPIONE ANALIZZATO: I dati seguenti sono un campione sistematico (1 caso ogni 5, ~20%) delle attività totali.
-LIVELLO DETTAGLIO RICHIESTO: {detail_level}
+ANALISI PARZIALI DA INTEGRARE:
+{chunk_text}
 
-DATI DEL CAMPIONE:
-{json.dumps(analysis_data, indent=2, ensure_ascii=False)}
+COMPITO: Scrivi un REPORT MONOGRAFICO completo con la seguente struttura.
 
-OUTPUT RICHIESTO:
+STRUTTURA OBBLIGATORIA (usa ### per i titoli):
+### Executive Summary
+Sintesi di 100 parole con i trend principali.
 
-1) INTRODUZIONE:
-   - Importanza del tema e numeri chiave.
-   - Disclaimer: "L'analisi si basa su un campione rappresentativo delle attività censite nel PTOF."
+### Direttrici Strategiche
+Descrive le strategie dominanti (200 parole). Cita almeno 5 scuole con **Nome Scuola** (Codice).
 
-2) CLUSTER DI ATTIVITÀ (adatta la lunghezza al livello di dettaglio richiesto):
-   - Raggruppa le attività per similarità di CONTENUTO e METODOLOGIA.
-   - ATTENZIONE: I cluster NON devono corrispondere alle categorie amministrative ("Progetti Esemplari", "Inclusione", ecc.), ma riflettere cosa fanno concretamente le scuole (es. "Laboratori STEM", "Orientamento Universitario", "Orto didattico").
-   - Per ogni cluster: descrivi pattern + cita ESEMPI CONCRETI (Nome Scuola - Codice).
-   - Se livello "molto dettagliato": crea 4-5 cluster e cita 10-15 esempi totali.
-   - Se livello "sintetico": bastano 1 cluster e 2-3 esempi.
+### Intersezioni Multidisciplinari
+Come l'orientamento si integra con altre discipline (150 parole).
 
-3) DISTRIBUZIONE GEOGRAFICA (Nel campione):
-   - {territorial_note}
-   - EVITA categoricamente confronti del tipo "La provincia X è più virtuosa di Y" o "C'è un gap territoriale", poiché i dati sono parziali e relativi al solo campione disponibile. Limitati a descrivere il campione.
+### Metodologie e Strumenti
+Approcci pedagogici e tecnologie utilizzate (150 parole).
 
-4) CONCLUSIONI: Pattern emergenti e spunti di interesse, senza generalizzazioni statistiche eccessive.
+### Casi Rilevanti
+Descrivi 4-6 progetti esemplari con dettagli (200 parole). Usa **grassetto** per i nomi.
 
-IMPORTANTE:
-- Cita SEMPRE le scuole nel formato Nome Scuola (CODICE).
-- Scrivi in modo discorsivo.
-- NON usare titoli Markdown (#, ##, ###).
-- NON usare le categorie amministrative come nomi dei cluster.
+### Analisi Territoriale
+Distribuisci l'analisi per provincia, evidenziando differenze (150 parole).
+
+### Sintesi
+Conclusioni e raccomandazioni (150 parole).
+
+REGOLE:
+- Prosa narrativa fluida, NO elenchi puntati nel corpo del testo
+- Usa **grassetto** per Scuole, Province, Regioni
+- Cita almeno {min_citations} scuole con Nome (Codice)
+- Totale: 1000-1200 parole
 """
 
         if report_type == "thematic_summary_merge":
             dimension_name = analysis_data.get("dimension_name", "questa dimensione")
-            # Usa istruzioni diverse per scope regionale vs nazionale
+            structure_template = REPORT_STRUCTURES.get("thematic", "")
+            
+            # Istruzioni differenziate per region vs national
             is_regional = bool(filters.get("regione"))
-            if is_regional:
-                region_name = filters.get("regione", "questa regione")
-                output_instructions = (
-                    f"Output richiesto (ANALISI REGIONALE per {region_name}):\n"
-                    "- 1-2 paragrafi di sintesi, senza elenchi lunghi\n"
-                    "- Evidenzia temi dominanti e differenze tra PROVINCE (NON tra regioni)\n"
-                    "- NON fare confronti con altre regioni, i dati sono solo di questa regione"
-                )
-            else:
-                output_instructions = (
-                    "Output richiesto:\n"
-                    "- 1-2 paragrafi di sintesi, senza elenchi lunghi\n"
-                    "- Evidenzia temi dominanti e differenze territoriali (Nord/Centro/Sud)"
-                )
-            return f"""Sintetizza le analisi tematiche della dimensione "{dimension_name}":
+            territorial_instruction = (
+                "evidenziando specificità provinciali." if is_regional 
+                else "evidenziando differenze regionali (Nord/Centro/Sud)."
+            )
+
+            return f"""Redigi un EXECUTIVE SUMMARY conclusivo per il report sulla dimensione "{dimension_name}".
 
 Profilo: {prompt_profile}
 {filters_line}
-Focus: {focus_line}
 
-DATI TEMATICI:
+DATI (Analisi Tematiche):
 {json.dumps(analysis_data, indent=2, ensure_ascii=False)}
 
-{output_instructions}
-Nota: non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
+OBIETTIVO:
+Fornire una visione d'insieme strategica e concisa (max 1-2 pagine).
+Non ripetere i dettagli dei singoli progetti (già presenti nell'analisi), ma sintetizza i TREND e le LINEE GUIDA emerse, {territorial_instruction}.
+
+STRUTTURA (Semplificata):
+1. Visione d'Insieme (Trend principali)
+2. Punti di Forza e Criticità
+3. Raccomandazioni Strategiche
+
+FORMATO:
+- Prosa narrativa concisa.
+- Niente elenchi puntati.
+- Grassetto per entità geografiche.
 """
 
         if report_type == "regional_summary_merge":

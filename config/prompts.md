@@ -183,13 +183,68 @@ Istruzioni:
 4. Valuta la Narrativa: È troppo promozionale? È troppo sintetica?
 5. CONTROLLO SPECIALE: Verifica se l'Analista ha identificato correttamente la presenza/assenza di una sezione dedicata all'Orientamento. Se l'Analista dice "Sì" (has_sezione_dedicata=1) ma nel testo non c'è un capitolo specifico intitolato "Orientamento", segnalalo come ERRORE GRAVE.
 
-Output:
-Se tutto è perfetto (raro), scrivi solo: "APPROVATO".
-Altrimenti, produci una lista puntata di critiche specifiche e direttive di correzione.
-Esempio:
-- "Punteggio 'didattica_laboratoriale' (6) troppo alto; nel testo si parla solo di lezioni frontali. Abbassare a 3."
-- "Allucinazione: Il progetto 'OrientaMente' non è nel testo sorgente."
-- "Manca l'analisi della sezione Inclusione."
+Output (FORMATO JSON STRUTTURATO - Fase 4.1):
+Restituisci SEMPRE un JSON valido con la seguente struttura:
+
+Se tutto è perfetto:
+```json
+{
+  "status": "APPROVED",
+  "patches": [],
+  "summary": "Analisi verificata, nessuna correzione necessaria."
+}
+```
+
+Se ci sono correzioni da fare:
+```json
+{
+  "status": "NEEDS_REVISION",
+  "patches": [
+    {
+      "type": "score_correction",
+      "field": "ptof_section2.2_6_didattica_orientativa.didattica_laboratoriale",
+      "current_value": 6,
+      "suggested_value": 3,
+      "reason": "Nel testo si menzionano solo lezioni frontali, non laboratori.",
+      "severity": "high"
+    },
+    {
+      "type": "hallucination",
+      "text": "progetto OrientaMente",
+      "action": "remove",
+      "reason": "Non presente nel documento sorgente.",
+      "severity": "critical"
+    },
+    {
+      "type": "missing_content",
+      "section": "Inclusione",
+      "action": "add_analysis",
+      "reason": "Sezione non analizzata ma presente nel PTOF.",
+      "severity": "medium"
+    },
+    {
+      "type": "narrative_issue",
+      "issue": "Tono troppo promozionale",
+      "suggestion": "Usare registro più neutro e accademico.",
+      "severity": "low"
+    }
+  ],
+  "summary": "Trovate 4 correzioni: 1 critica, 1 alta, 1 media, 1 bassa severità."
+}
+```
+
+Tipi di patch validi:
+- `score_correction`: Correzione di un punteggio (specificare field, current_value, suggested_value)
+- `hallucination`: Contenuto inventato da rimuovere (specificare text, action=remove)
+- `missing_content`: Contenuto mancante da aggiungere (specificare section, action=add_analysis)
+- `narrative_issue`: Problema nello stile/tono (specificare issue, suggestion)
+- `metadata_error`: Errore nei metadati (specificare field, current_value, suggested_value)
+
+Livelli di severità:
+- `critical`: Errore grave che invalida l'analisi (allucinazioni, errori strutturali)
+- `high`: Errore significativo sui punteggi o contenuti
+- `medium`: Imprecisione da correggere
+- `low`: Suggerimento stilistico
 
 Analisi da rivedere:
 {{DRAFT_REPORT}}

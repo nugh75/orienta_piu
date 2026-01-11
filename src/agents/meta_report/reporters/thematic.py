@@ -1,6 +1,7 @@
 """Thematic report generator (by dimension) - reads from attivita.csv/json."""
 
 import csv
+import hashlib
 import json
 import os
 import re
@@ -15,20 +16,34 @@ from .base import BaseReporter
 # Soglia minima casi per generare sezione tema dedicata (configurabile via env)
 MIN_THEME_CASES = int(os.getenv("META_REPORT_MIN_THEME_CASES", "5"))
 
+# Fase 1.2: Abilita/disabilita caching dei chunk (default: attivo)
+ENABLE_CHUNK_CACHE = os.getenv("META_REPORT_CHUNK_CACHE", "1").strip().lower() in ("1", "true", "yes")
+
+# Fase 3.1: Abilita chunking semantico (default: attivo)
+ENABLE_SEMANTIC_CHUNKING = os.getenv("META_REPORT_SEMANTIC_CHUNKING", "1").strip().lower() in ("1", "true", "yes")
+
+# Fase 3.1: Strategia di chunking semantico (region, tipo_scuola, mixed)
+SEMANTIC_CHUNKING_STRATEGY = os.getenv("META_REPORT_CHUNKING_STRATEGY", "region")
+
+# Fase 3.2: Abilita contesto cumulativo tra chunk (default: attivo)
+ENABLE_CUMULATIVE_CONTEXT = os.getenv("META_REPORT_CUMULATIVE_CONTEXT", "1").strip().lower() in ("1", "true", "yes")
+
 # Nota metodologica da inserire all'inizio di ogni report tematico
 METHODOLOGY_SECTION = """
-## Nota Metodologica
+### Nota Metodologica
 
-Questo report analizza le **attività di orientamento** estratte dai PTOF delle scuole italiane e catalogate nel file `attivita.csv`. Le attività sono classificate in **sei categorie**:
+Il presente report offre un'analisi monografica delle attività di orientamento estratte dai PTOF (Piani Triennali dell'Offerta Formativa) degli istituti scolastici italiani, catalogate nel dataset `attivita.csv`. L'elaborazione si basa su un'analisi qualitativa automatizzata supportata da modelli linguistici avanzati (LLM), che hanno classificato ogni iniziativa secondo una tassonomia standardizzata in **sei categorie chiave**:
 
-| Categoria | Descrizione |
-|-----------|-------------|
-| 🎯 **Progetti e Attività Esemplari** | Iniziative innovative, replicabili e di impatto |
-| 📚 **Metodologie Didattiche Innovative** | Approcci pedagogici originali e sperimentali |
-| 🤝 **Partnership e Collaborazioni Strategiche** | Accordi con università, aziende, enti territoriali |
-| ⚙️ **Azioni di Sistema e Governance** | Coordinamento, organigramma, referenti |
-| 🌈 **Buone Pratiche per l'Inclusione** | Interventi per studenti con BES, DSA, disabilità |
-| 🗺️ **Esperienze Territoriali Significative** | Attività radicate nel contesto locale |
+| Categoria | Descrizione e Obiettivi |
+|-----------|-------------------------|
+| 🎯 **Progetti e Attività Esemplari** | Iniziative di eccellenza, innovative e ad alto impatto, potenzialmente replicabili in altri contesti. |
+| 📚 **Metodologie Didattiche Innovative** | Adozione di nuovi approcci pedagogici (es. debate, peer tutoring, gamification) per rendere l'orientamento attivo e coinvolgente. |
+| 🤝 **Partnership e Collaborazioni** | Reti strategiche con Università, ITS, aziende ed enti territoriali per connettere scuola e mondo del lavoro. |
+| ⚙️ **Azioni di Sistema** | Interventi strutturali di governance, coordinamento dei dipartimenti e formazione dedicata ai docenti referenti. |
+| 🌈 **Inclusione e BES** | Strategie specifiche per garantire l'accessibilità dei percorsi orientativi a studenti con BES, DSA e disabilità. |
+| 🗺️ **Esperienze Territoriali** | Progetti radicati nel tessuto socio-economico locale che valorizzano le specificità geografiche e culturali. |
+
+L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco di attività, ma evidenzi le **direttrici strategiche**, le **interconnessioni multidisciplinari** e le **specificità territoriali**, fornendo ai decisori una base informativa solida per la valutazione e la pianificazione di interventi futuri.
 
 ### Come leggere questo report
 
@@ -40,17 +55,20 @@ Questo report analizza le **attività di orientamento** estratte dai PTOF delle 
 I dati sono analizzati per **distribuzione geografica** (regione e provincia) quando disponibili i filtri.
 """
 
-# Dimension names mapping - allineato con README
-DIMENSIONS = {
-    # Dimensioni Strutturali
+# Importa temi canonici da config centrale
+from src.config.themes import DIMENSIONS as _BASE_DIMENSIONS, normalize_theme, normalize_themes_string
+
+# Dimension names mapping - estende config centrale con dimensioni legacy
+DIMENSIONS = dict(_BASE_DIMENSIONS)
+DIMENSIONS.update({
+    # Dimensioni Strutturali (non nei temi canonici)
     "finalita": "Finalità Orientative",
     "obiettivi": "Obiettivi e Risultati Attesi",
     "governance": "Governance e Organizzazione",
     "didattica": "Didattica Orientativa",
     "partnership": "Partnership e Reti",
 
-    # Dimensioni Opportunità (Granulari)
-    "pcto": "PCTO e Alternanza",
+    # Dimensioni Opportunità (legacy)
     "stage": "Stage e Tirocini",
     "openday": "Open Day",
     "visite": "Visite Aziendali e Universitarie",
@@ -58,28 +76,7 @@ DIMENSIONS = {
     "testimonianze": "Testimonianze e Incontri con Esperti",
     "counseling": "Counseling e Percorsi Individualizzati",
     "alumni": "Rete Alumni e Mentoring",
-
-    # Dimensioni Tematiche (per analisi specifiche)
-    "valutazione": "Valutazione e Autovalutazione",
-    "formazione_docenti": "Formazione Docenti",
-    "cittadinanza": "Cittadinanza e Legalità",
-    "digitalizzazione": "Digitalizzazione",
-    "inclusione": "Inclusione e BES",
-    "continuita": "Continuità e Accoglienza",
-    "famiglie": "Rapporti con Famiglie",
-    "lettura": "Lettura e Scrittura",
-    "orientamento": "Orientamento",
-    "arte": "Arte e Creatività",
-    "lingue": "Lingue Straniere",
-    "stem": "STEM e Ricerca",
-    "matematica": "Matematica e Logica",
-    "disagio": "Prevenzione Disagio",
-    "intercultura": "Intercultura e Lingue",
-    "sostenibilita": "Sostenibilità e Ambiente",
-    "sport": "Sport e Benessere",
-    "imprenditorialita": "Imprenditorialità",
-    "sistema": "Azioni di Sistema e Governance",
-}
+})
 
 # Mapping categorie -> dimension key (per dimensioni strutturali)
 CATEGORY_TO_DIM = {
@@ -338,11 +335,23 @@ class ThematicReporter(BaseReporter):
         return label
 
     def _group_labels_by_region(self, cases: list[dict]) -> dict:
-        """Group case labels by region."""
+        """Group case labels by region (or province if single region)."""
+        # First pass to detect unique regions
+        regions = set()
+        for case in cases:
+            r = case.get("scuola", {}).get("regione")
+            if r: regions.add(r)
+        
+        use_province = len(regions) == 1
+        
         grouped = defaultdict(list)
         for case in cases:
-            region = case.get("scuola", {}).get("regione") or "Non specificata"
-            grouped[region].append(self._format_case_label(case))
+            if use_province:
+                key = case.get("scuola", {}).get("provincia") or "Provincia Non specificata"
+            else:
+                key = case.get("scuola", {}).get("regione") or "Regione Non specificata"
+            
+            grouped[key].append(self._format_case_label(case))
         return grouped
 
     def _group_labels_by_category(self, cases: list[dict]) -> dict:
@@ -409,6 +418,110 @@ class ThematicReporter(BaseReporter):
     def _chunk_cases(self, cases: list[dict], chunk_size: int) -> list[list[dict]]:
         """Split cases into chunks."""
         return [cases[i:i + chunk_size] for i in range(0, len(cases), chunk_size)]
+
+    # =========================================================================
+    # Fase 3.1: Chunking Semantico
+    # =========================================================================
+
+    def _semantic_chunk_cases(
+        self,
+        cases: list[dict],
+        chunk_size: int = 30,
+        strategy: str = "region"
+    ) -> list[list[dict]]:
+        """Chunking semantico che preserva cluster significativi.
+
+        Fase 3.1: Invece di spezzare i casi numericamente, li raggruppa
+        prima per regione (o altro criterio) per mantenere la coerenza
+        territoriale nell'analisi.
+
+        Args:
+            cases: Lista di casi da raggruppare
+            chunk_size: Dimensione massima di ogni chunk
+            strategy: Strategia di raggruppamento ("region", "tipo_scuola", "mixed")
+
+        Returns:
+            Lista di chunk, ognuno contenente casi semanticamente correlati
+        """
+        if strategy == "region":
+            # Raggruppa per regione
+            by_region = defaultdict(list)
+            for case in cases:
+                region = case.get("scuola", {}).get("regione", "Altro") or "Altro"
+                by_region[region].append(case)
+
+            chunks = []
+            current_chunk = []
+            current_chunk_regions = []
+
+            # Ordina le regioni per numero di casi (decrescente) per bilanciare
+            sorted_regions = sorted(by_region.keys(), key=lambda r: len(by_region[r]), reverse=True)
+
+            for region in sorted_regions:
+                region_cases = by_region[region]
+
+                # Se la regione intera sta nel chunk corrente, aggiungila
+                if len(current_chunk) + len(region_cases) <= chunk_size:
+                    current_chunk.extend(region_cases)
+                    current_chunk_regions.append(region)
+                else:
+                    # Chiudi chunk corrente se non vuoto
+                    if current_chunk:
+                        chunks.append(current_chunk)
+
+                    # Se la regione è troppo grande, spezzala
+                    if len(region_cases) > chunk_size:
+                        for i in range(0, len(region_cases), chunk_size):
+                            chunks.append(region_cases[i:i + chunk_size])
+                        current_chunk = []
+                        current_chunk_regions = []
+                    else:
+                        current_chunk = region_cases
+                        current_chunk_regions = [region]
+
+            # Aggiungi l'ultimo chunk se non vuoto
+            if current_chunk:
+                chunks.append(current_chunk)
+
+            return chunks
+
+        elif strategy == "tipo_scuola":
+            # Raggruppa per tipo scuola
+            by_type = defaultdict(list)
+            for case in cases:
+                tipo = case.get("scuola", {}).get("tipo_scuola", "Altro") or "Altro"
+                by_type[tipo].append(case)
+
+            chunks = []
+            for tipo in sorted(by_type.keys()):
+                type_cases = by_type[tipo]
+                # Spezza se necessario
+                for i in range(0, len(type_cases), chunk_size):
+                    chunks.append(type_cases[i:i + chunk_size])
+
+            return chunks
+
+        elif strategy == "mixed":
+            # Strategia mista: prima per regione, poi bilancia
+            by_region = defaultdict(list)
+            for case in cases:
+                region = case.get("scuola", {}).get("regione", "Altro") or "Altro"
+                by_region[region].append(case)
+
+            # Crea chunk bilanciati alternando regioni
+            all_cases_sorted = []
+            max_len = max(len(cases) for cases in by_region.values()) if by_region else 0
+
+            for i in range(max_len):
+                for region in sorted(by_region.keys()):
+                    if i < len(by_region[region]):
+                        all_cases_sorted.append(by_region[region][i])
+
+            # Chunking standard sulla lista ordinata
+            return self._chunk_cases(all_cases_sorted, chunk_size)
+
+        # Fallback a chunking numerico
+        return self._chunk_cases(cases, chunk_size)
 
     def _render_inventory(self, inventory_groups: dict) -> str:
         """Render full inventory in markdown."""
@@ -517,7 +630,7 @@ class ThematicReporter(BaseReporter):
 
         # Ordina per regione e codice scuola per garantire distribuzione uniforme
         sorted_cases = sorted(cases, key=lambda x: (
-            x.get("scuola", {}).get("regione", ""), 
+            x.get("scuola", {}).get("regione", ""),
             x.get("scuola", {}).get("codice", "")
         ))
 
@@ -530,6 +643,112 @@ class ThematicReporter(BaseReporter):
             samples = sorted_cases[::5]
 
         return [self._format_case_label(c, include_description=True) for c in samples]
+
+    # =========================================================================
+    # Fase 3.3: Sampling Stratificato
+    # =========================================================================
+
+    def _stratified_sample(
+        self,
+        cases: list[dict],
+        min_per_stratum: int = 2,
+        max_total: int = 80,
+        stratify_by: str = "regione"
+    ) -> list[dict]:
+        """Campionamento stratificato con minimo garantito per strato.
+
+        Fase 3.3: Garantisce che ogni regione/strato sia rappresentata
+        nel campione, evitando di perdere informazioni su territori
+        con pochi casi.
+
+        Args:
+            cases: Lista completa di casi
+            min_per_stratum: Numero minimo di casi per strato
+            max_total: Numero massimo totale di casi nel campione
+            stratify_by: Campo per la stratificazione ("regione", "tipo_scuola", "provincia")
+
+        Returns:
+            Lista di casi campionati con rappresentatività garantita
+        """
+        if not cases:
+            return []
+
+        if len(cases) <= max_total:
+            return cases
+
+        # Raggruppa per strato
+        strata = defaultdict(list)
+        for case in cases:
+            if stratify_by == "regione":
+                key = case.get("scuola", {}).get("regione", "Altro") or "Altro"
+            elif stratify_by == "tipo_scuola":
+                key = case.get("scuola", {}).get("tipo_scuola", "Altro") or "Altro"
+            elif stratify_by == "provincia":
+                key = case.get("scuola", {}).get("provincia", "Altro") or "Altro"
+            else:
+                key = "Altro"
+            strata[key].append(case)
+
+        sampled = []
+        remaining_quota = max_total
+
+        # Prima passata: minimo garantito per strato
+        for stratum_name in sorted(strata.keys()):
+            stratum_cases = strata[stratum_name]
+            take = min(min_per_stratum, len(stratum_cases), remaining_quota)
+            sampled.extend(stratum_cases[:take])
+            remaining_quota -= take
+            if remaining_quota <= 0:
+                break
+
+        # Seconda passata: proporzionale con quota rimanente
+        if remaining_quota > 0:
+            # Raccogli tutti i casi non ancora selezionati
+            all_remaining = []
+            for stratum_name, stratum_cases in strata.items():
+                # Prendi i casi oltre il minimo già selezionato
+                all_remaining.extend(stratum_cases[min_per_stratum:])
+
+            if all_remaining:
+                # Campionamento sistematico sul resto
+                step = max(1, len(all_remaining) // remaining_quota)
+                additional = all_remaining[::step][:remaining_quota]
+                sampled.extend(additional)
+
+        return sampled
+
+    def _get_sample_with_coverage(
+        self,
+        cases: list[dict],
+        max_total: int = 80
+    ) -> tuple[list[dict], dict]:
+        """Get stratified sample with coverage statistics.
+
+        Args:
+            cases: Lista completa di casi
+            max_total: Numero massimo di casi
+
+        Returns:
+            Tuple di (casi campionati, statistiche di copertura)
+        """
+        # Prima prova stratificato per regione
+        sampled = self._stratified_sample(cases, min_per_stratum=2, max_total=max_total)
+
+        # Calcola copertura
+        original_regions = set(c.get("scuola", {}).get("regione", "Altro") for c in cases)
+        sampled_regions = set(c.get("scuola", {}).get("regione", "Altro") for c in sampled)
+
+        coverage = {
+            "total_cases": len(cases),
+            "sampled_cases": len(sampled),
+            "sample_rate": round(len(sampled) / len(cases) * 100, 1) if cases else 0,
+            "total_regions": len(original_regions),
+            "covered_regions": len(sampled_regions),
+            "region_coverage": round(len(sampled_regions) / len(original_regions) * 100, 1) if original_regions else 0,
+            "missing_regions": sorted(original_regions - sampled_regions)
+        }
+
+        return sampled, coverage
 
     def _summarize_cases(self, cases: list[dict], disable_sampling: bool = False) -> dict:
         region_counts = defaultdict(int)
@@ -553,9 +772,11 @@ class ThematicReporter(BaseReporter):
         n_cases = len(cases)
         
         if disable_sampling:
-            # Analisi chunk: prendi TUUUTTI i casi
-            sample_cases = [self._format_case_label(c, include_description=True) for c in cases]
-            detail_level = "chunk_completo (analisi approfondita di ogni singolo caso)"
+            # Analisi chunk: usa formato compresso per ridurre token
+            # Ottimizzazione per modelli locali 27B
+            max_chars = int(os.getenv("META_REPORT_MAX_CHUNK_CHARS", "6000"))
+            sample_cases = self._compress_cases_for_prompt(cases, max_chars=max_chars)
+            detail_level = "chunk_compresso (formato ottimizzato per modelli locali)"
         else:
             # Logica dinamica per il sampling e livello dettaglio
             if n_cases < 10:
@@ -590,6 +811,48 @@ class ThematicReporter(BaseReporter):
             "sample_cases": sample_cases,
             "detail_level": detail_level,
         }
+
+    def _compress_cases_for_prompt(self, cases: list[dict], max_chars: int = 6000) -> str:
+        """Crea sommario compatto dei casi per il prompt (riduce token).
+
+        Ottimizzazione per modelli locali 27B: invece di passare JSON completo,
+        crea un elenco lineare compatto che preserva le info essenziali.
+
+        Args:
+            cases: Lista di casi da comprimere
+            max_chars: Limite massimo caratteri output
+
+        Returns:
+            Stringa compressa con un caso per riga
+        """
+        lines = []
+        for c in cases:
+            scuola = c.get("scuola", {})
+            pratica = c.get("pratica", {})
+            # Una riga compatta per caso: Nome (Codice): Titolo [Categoria]
+            nome = scuola.get("nome", "ND")[:40]
+            codice = scuola.get("codice") or scuola.get("codice_meccanografico") or "ND"
+            titolo = (pratica.get("titolo") or "")[:80]
+            categoria = (pratica.get("categoria") or "")[:30]
+            regione = scuola.get("regione") or ""
+            provincia = scuola.get("provincia") or ""
+
+            line = f"• {nome} ({codice}): {titolo}"
+            if categoria:
+                line += f" [{categoria}]"
+            if provincia:
+                line += f" - {provincia}"
+            elif regione:
+                line += f" - {regione}"
+
+            lines.append(line[:180])
+
+        compressed = "\n".join(lines)
+        if len(compressed) > max_chars:
+            # Tronca e indica quanti casi totali
+            truncated = compressed[:max_chars].rsplit("\n", 1)[0]
+            compressed = truncated + f"\n[...{len(cases)} casi totali, alcuni omessi per brevità]"
+        return compressed
 
     def _build_activity_rows(self, cases: list[dict]) -> list[dict]:
         rows = []
@@ -690,6 +953,134 @@ class ThematicReporter(BaseReporter):
 
         return "\n".join(lines)
 
+    # =========================================================================
+    # Fase 1.2: Caching dei risultati intermedi
+    # =========================================================================
+
+    def _get_cache_dir(self) -> Path:
+        """Get the cache directory for chunk results."""
+        cache_dir = self.base_dir / ".cache" / "meta_report_chunks"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        return cache_dir
+
+    def _get_cache_key(
+        self,
+        dimension: str,
+        theme: str,
+        chunk_index: int,
+        chunk_data: dict,
+        prompt_profile: str
+    ) -> str:
+        """Generate a unique cache key for a chunk.
+
+        The key is based on the content hash to ensure cache invalidation
+        when data changes.
+        """
+        # Crea un hash basato sui dati rilevanti
+        key_data = {
+            "dimension": dimension,
+            "theme": theme,
+            "chunk_index": chunk_index,
+            "prompt_profile": prompt_profile,
+            "cases_count": chunk_data.get("cases_count", 0),
+            "sample_cases": chunk_data.get("sample_cases", [])[:3],  # Prime 3 per variazione
+        }
+        key_str = json.dumps(key_data, sort_keys=True, ensure_ascii=False)
+        return hashlib.md5(key_str.encode()).hexdigest()[:12]
+
+    def _get_chunk_cache_path(
+        self,
+        dimension: str,
+        theme: str,
+        prompt_profile: str
+    ) -> Path:
+        """Get the cache file path for a dimension/theme combination."""
+        safe_theme = re.sub(r"[^a-zA-Z0-9_-]", "_", theme)[:50]
+        return self._get_cache_dir() / f"{dimension}_{safe_theme}_{prompt_profile}_chunks.json"
+
+    def _load_chunk_cache(self, cache_path: Path) -> dict:
+        """Load cached chunk notes from file."""
+        if not cache_path.exists():
+            return {}
+        try:
+            return json.loads(cache_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"[cache] Warning: Could not load cache {cache_path}: {e}")
+            return {}
+
+    def _save_chunk_cache(self, cache_path: Path, cache_data: dict) -> None:
+        """Save chunk notes to cache file."""
+        try:
+            cache_path.write_text(
+                json.dumps(cache_data, ensure_ascii=False, indent=2),
+                encoding="utf-8"
+            )
+        except OSError as e:
+            print(f"[cache] Warning: Could not save cache {cache_path}: {e}")
+
+    def _clear_chunk_cache(self, cache_path: Path) -> None:
+        """Clear the cache file after successful generation."""
+        try:
+            if cache_path.exists():
+                cache_path.unlink()
+        except OSError:
+            pass
+
+    # =========================================================================
+    # Fase 3.2: Estrazione pattern per contesto cumulativo
+    # =========================================================================
+
+    def _extract_patterns_from_chunk(self, chunk_content: str) -> list[str]:
+        """Extract key patterns from chunk content for cumulative context.
+
+        Fase 3.2: Analizza il contenuto del chunk per identificare pattern
+        chiave da passare ai chunk successivi.
+
+        Args:
+            chunk_content: Contenuto testuale del chunk generato
+
+        Returns:
+            Lista di pattern identificati (max 3)
+        """
+        patterns = []
+
+        # Pattern 1: Cerca frasi che iniziano con pattern indicator
+        pattern_indicators = [
+            "emerge", "si nota", "pattern", "tendenza",
+            "approccio", "modello", "pratica comune",
+            "frequente", "diffuso", "ricorrente"
+        ]
+
+        sentences = chunk_content.replace("\n", " ").split(".")
+        for sentence in sentences:
+            sentence_lower = sentence.lower().strip()
+            if any(ind in sentence_lower for ind in pattern_indicators):
+                # Estrai una versione breve della frase
+                if len(sentence.strip()) > 20:
+                    # Prendi le prime parole significative
+                    words = sentence.strip().split()[:15]
+                    pattern = " ".join(words)
+                    if pattern and pattern not in patterns:
+                        patterns.append(pattern.strip())
+                        if len(patterns) >= 3:
+                            break
+
+        # Pattern 2: Se non abbiamo trovato abbastanza, cerca scuole menzionate
+        if len(patterns) < 2:
+            # Cerca nomi di scuole con codice
+            school_pattern = r'([A-Z][a-zA-Z\s]+)\s*\([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6}\)'
+            matches = re.findall(school_pattern, chunk_content)
+            for match in matches[:2]:
+                school_name = match.strip()
+                if school_name and len(school_name) > 5:
+                    patterns.append(f"Esempio: {school_name}")
+                    if len(patterns) >= 3:
+                        break
+
+        return patterns[:3]
+
+    # =========================================================================
+
     def _generate_theme_summary(
         self,
         dimension: str,
@@ -709,14 +1100,46 @@ class ThematicReporter(BaseReporter):
             "region": region,
         })
 
-        chunk_size = max(8, int(os.getenv("META_REPORT_THEME_CHUNK_SIZE", "30")))
+        # Chunk size dinamico ottimizzato per modelli locali
+        default_base_chunk_size = int(os.getenv("META_REPORT_THEME_CHUNK_SIZE", "30"))
+        base_chunk = getattr(self.provider, "recommended_chunk_size", default_base_chunk_size)
+
+        # Rilevamento modello locale per chunk size adattivo
+        model_name = getattr(self.provider, 'model', '').lower()
+        is_local_small = any(x in model_name for x in ['27b', '14b', '8b', '7b', 'gemma', 'llama', 'qwen'])
+
+        if is_local_small:
+            # Modelli locali: chunk più piccoli per migliore qualità
+            local_chunk_size = int(os.getenv("META_REPORT_LOCAL_CHUNK_SIZE", "12"))
+            chunk_size = max(8, min(local_chunk_size, int(base_chunk * 0.5)))
+            print(f"[thematic] Local model detected ({model_name}): using smaller chunks ({chunk_size})")
+        else:
+            # Modelli cloud: chunk più grandi per efficienza
+            chunk_size = max(20, int(base_chunk * 1.2))
+            print(f"[thematic] Cloud model: using larger chunks ({chunk_size})")
         # Abbassiamo la soglia a 35 per forzare il chunking anche su temi medi
         chunk_threshold = int(os.getenv("META_REPORT_THEME_CHUNK_THRESHOLD", "35"))
         use_chunking = len(cases) >= chunk_threshold
 
         if use_chunking:
-            chunks = self._chunk_cases(cases, chunk_size)
+            # Fase 3.1: Usa chunking semantico se abilitato
+            if ENABLE_SEMANTIC_CHUNKING:
+                chunks = self._semantic_chunk_cases(cases, chunk_size, SEMANTIC_CHUNKING_STRATEGY)
+                print(f"[thematic] Using semantic chunking (strategy: {SEMANTIC_CHUNKING_STRATEGY})")
+            else:
+                chunks = self._chunk_cases(cases, chunk_size)
+
             chunk_notes = []
+
+            # Fase 1.2: Setup caching
+            cache_path = self._get_chunk_cache_path(dimension, theme, prompt_profile)
+            cached_notes = self._load_chunk_cache(cache_path) if ENABLE_CHUNK_CACHE else {}
+            cache_hits = 0
+            cache_misses = 0
+
+            # Fase 3.2: Pattern cumulativi per contesto tra chunk
+            cumulative_patterns = []
+
             for idx, chunk in enumerate(chunks, 1):
                 # Per i chunk, disabilitiamo il sampling: vogliamo che l'LLM veda tutto
                 chunk_summary = self._summarize_cases(chunk, disable_sampling=True)
@@ -732,12 +1155,48 @@ class ThematicReporter(BaseReporter):
                 }
                 if filters:
                     chunk_data["filters"] = filters
-                chunk_response = self.provider.generate_best_practices(
-                    chunk_data,
-                    "thematic_group_chunk",
-                    prompt_profile=prompt_profile
-                )
-                chunk_notes.append(chunk_response.content)
+
+                # Fase 3.2: Aggiungi contesto dei chunk precedenti
+                if ENABLE_CUMULATIVE_CONTEXT and cumulative_patterns:
+                    # Passa gli ultimi 3 pattern identificati per evitare ridondanze
+                    chunk_data["previous_patterns"] = cumulative_patterns[-3:]
+                    chunk_data["context_instruction"] = (
+                        "NOTA: I seguenti pattern sono già stati identificati nei chunk precedenti. "
+                        "Evita di ripeterli e cerca elementi NUOVI o COMPLEMENTARI:\n" +
+                        "\n".join(f"- {p}" for p in cumulative_patterns[-3:])
+                    )
+
+                # Fase 1.2: Check cache
+                cache_key = self._get_cache_key(dimension, theme, idx, chunk_data, prompt_profile)
+
+                if ENABLE_CHUNK_CACHE and cache_key in cached_notes:
+                    # Cache hit - riusa il risultato precedente
+                    chunk_notes.append(cached_notes[cache_key])
+                    cache_hits += 1
+                    print(f"[cache] Chunk {idx}/{len(chunks)} loaded from cache")
+                else:
+                    # Cache miss - genera e salva
+                    chunk_response = self.provider.generate_best_practices(
+                        chunk_data,
+                        "thematic_group_chunk",
+                        prompt_profile=prompt_profile
+                    )
+                    chunk_notes.append(chunk_response.content)
+                    cache_misses += 1
+
+                    # Salva in cache dopo ogni chunk (checkpoint)
+                    if ENABLE_CHUNK_CACHE:
+                        cached_notes[cache_key] = chunk_response.content
+                        self._save_chunk_cache(cache_path, cached_notes)
+                        print(f"[cache] Chunk {idx}/{len(chunks)} saved to cache")
+
+                # Fase 3.2: Estrai pattern dal chunk corrente per il contesto cumulativo
+                if ENABLE_CUMULATIVE_CONTEXT:
+                    new_patterns = self._extract_patterns_from_chunk(chunk_notes[-1])
+                    cumulative_patterns.extend(new_patterns)
+
+            if ENABLE_CHUNK_CACHE and (cache_hits > 0 or cache_misses > 0):
+                print(f"[cache] Summary: {cache_hits} hits, {cache_misses} misses")
 
             merge_data = dict(theme_summary)
             merge_data["chunk_count"] = len(chunks)
@@ -749,6 +1208,11 @@ class ThematicReporter(BaseReporter):
                 "thematic_group_merge",
                 prompt_profile=prompt_profile
             )
+
+            # Fase 1.2: Clear cache after successful merge
+            if ENABLE_CHUNK_CACHE:
+                self._clear_chunk_cache(cache_path)
+
             return response.content
 
         if filters:
@@ -759,6 +1223,89 @@ class ThematicReporter(BaseReporter):
             prompt_profile=prompt_profile
         )
         return response.content
+
+    def _build_methodology_section(self, is_single_theme: bool, is_regional: bool) -> str:
+        """Build dynamic methodology section based on report context."""
+        
+        intro = "Il presente report offre un'analisi monografica" if is_single_theme else "Il presente report offre un'analisi tematica comparata"
+        scope_text = "analizzando le specificità territoriali a livello provinciale." if is_regional else "confrontando i diversi approcci a livello regionale e nazionale."
+        
+        return f"""### Nota Metodologica
+
+{intro} delle attività di orientamento estratte dai PTOF (Piani Triennali dell'Offerta Formativa) degli istituti scolastici, catalogate nel dataset `attivita.csv`. L'elaborazione si basa su un'analisi qualitativa automatizzata supportata da modelli linguistici avanzati (LLM), che hanno classificato ogni iniziativa secondo una tassonomia standardizzata in **sei categorie chiave**:
+
+| Categoria | Descrizione e Obiettivi |
+|-----------|-------------------------|
+| 🎯 **Progetti e Attività Esemplari** | Iniziative di eccellenza, innovative e ad alto impatto, potenzialmente replicabili in altri contesti. |
+| 📚 **Metodologie Didattiche Innovative** | Adozione di nuovi approcci pedagogici (es. debate, peer tutoring, gamification) per rendere l'orientamento attivo e coinvolgente. |
+| 🤝 **Partnership e Collaborazioni** | Reti strategiche con Università, ITS, aziende ed enti territoriali per connettere scuola e mondo del lavoro. |
+| ⚙️ **Azioni di Sistema** | Interventi strutturali di governance, coordinamento dei dipartimenti e formazione dedicata ai docenti referenti. |
+| 🌈 **Inclusione e BES** | Strategie specifiche per garantire l'accessibilità dei percorsi orientativi a studenti con BES, DSA e disabilità. |
+| 🗺️ **Esperienze Territoriali** | Progetti radicati nel tessuto socio-economico locale, {scope_text} |
+
+L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco di attività, ma evidenzi le **direttrici strategiche**, le **interconnessioni multidisciplinari** e le **specificità territoriali**.
+
+### Come leggere questo report
+
+- **Panoramica Territoriale**: Distribuzione delle attività per area (Regioni o Province).
+- **Analisi Monografica**: Approfondimento strutturato sulle direttrici strategiche e operative.
+- **Sintesi Executive**: Visione d'insieme per i decisori con raccomandazioni finali.
+"""
+
+    def _build_territorial_table(self, cases: list[dict], is_regional: bool, filters: dict) -> str:
+        """Build a territorial distribution table for single-theme reports."""
+        region_counts = defaultdict(int)
+        province_counts = defaultdict(int)
+        
+        current_region = filters.get("regione") if filters else None
+
+        for case in cases:
+            scuola = case.get("scuola", {})
+            reg = scuola.get("regione") or "ND"
+            prov = scuola.get("provincia") or "ND"
+            region_counts[reg] += 1
+            province_counts[prov] += 1
+            
+        lines = []
+        if is_regional and current_region:
+            lines.append(f"## Panoramica Territoriale: {current_region}")
+            lines.append("")
+            lines.append("| Provincia | Casi | Scuole Coinvolte |")
+            lines.append("|-----------|------|------------------|")
+            
+            # Group schools by province to count unique schools
+            prov_schools = defaultdict(set)
+            for case in cases:
+                scuola = case.get("scuola", {})
+                p = scuola.get("provincia") or "ND"
+                c = scuola.get("codice")
+                if c: prov_schools[p].add(c)
+
+            sorted_provs = sorted(province_counts.items(), key=lambda x: x[1], reverse=True)
+            for prov, count in sorted_provs:
+                n_schools = len(prov_schools[prov])
+                lines.append(f"| **{prov}** | {count} | {n_schools} |")
+                
+        else:
+            lines.append("## Panoramica Territoriale")
+            lines.append("")
+            lines.append("| Regione | Casi | Scuole Coinvolte |")
+            lines.append("|---------|------|------------------|")
+            
+            # Group schools by region
+            reg_schools = defaultdict(set)
+            for case in cases:
+                scuola = case.get("scuola", {})
+                r = scuola.get("regione") or "ND"
+                c = scuola.get("codice")
+                if c: reg_schools[r].add(c)
+
+            sorted_regs = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)
+            for reg, count in sorted_regs:
+                n_schools = len(reg_schools[reg])
+                lines.append(f"| **{reg}** | {count} | {n_schools} |")
+                
+        return "\n".join(lines)
 
     def generate(
         self,
@@ -831,27 +1378,66 @@ class ThematicReporter(BaseReporter):
         if filters:
             report_data["filters"] = filters
 
-        print(f"[thematic] Themes detected: {len(theme_groups)}")
-        theme_counts = {theme: len(group) for theme, group in theme_groups.items()}
-        theme_order = sorted(theme_counts.keys(), key=lambda t: theme_counts[t], reverse=True)
+        if dimension:
+            # Raggruppamento AI-Driven: se c'è una dimensione specifica, 
+            # crea un UNICO gruppo contenente TUTTI i casi filtrati.
+            # L'LLM gestirà autonomamente i cluster interni.
+            dim_name = DIMENSIONS.get(dimension, dimension)
+            theme_groups = {dim_name: cases}
+            theme_counts = {dim_name: len(cases)}
+            theme_order = [dim_name]
+            print(f"[thematic] Single-group mode for '{dim_name}': {len(cases)} cases")
+        else:
+            # Raggruppamento per tag (legacy/multi-dimensione)
+            theme_groups = self._group_cases_by_theme(cases)
+            theme_counts = {t: len(g) for t, g in theme_groups.items()}
+            theme_order = sorted(theme_counts.keys(), key=lambda t: theme_counts[t], reverse=True)
 
-        # Configura soglia minima (da env o default)
-        min_theme_cases = int(os.getenv("META_REPORT_MIN_THEME_CASES", str(MIN_THEME_CASES)))
+        print(f"[thematic] Themes detected: {len(theme_counts)}")
+
+        # Calcola soglia dinamica basata sul numero di scuole
+        total_schools = len(set(
+            c.get("scuola", {}).get("codice") for c in cases if c.get("scuola", {}).get("codice")
+        ))
+        
+        if total_schools < 5:
+            dynamic_threshold = 1  # Soglia bassissima per contesti piccoli
+        elif total_schools < 10:
+            dynamic_threshold = 2
+        elif total_schools < 30:
+            dynamic_threshold = 3
+        elif total_schools < 50:
+            dynamic_threshold = 4
+        else:
+            dynamic_threshold = 5
+        
+        # Consenti override da env var, altrimenti usa soglia dinamica
+        env_threshold = os.getenv("META_REPORT_MIN_THEME_CASES")
+        if env_threshold:
+            min_theme_cases = int(env_threshold)
+            print(f"[thematic] Using env threshold: {min_theme_cases} (override)")
+        else:
+            min_theme_cases = dynamic_threshold
+            print(f"[thematic] Using dynamic threshold: {min_theme_cases} (based on {total_schools} schools)")
 
         # Separa temi maggiori da minori
         major_themes = [t for t in theme_order if theme_counts[t] >= min_theme_cases]
         minor_themes = {t: theme_groups[t] for t in theme_order if theme_counts[t] < min_theme_cases}
 
-        print(f"[thematic] Major themes (>={min_theme_cases} cases): {len(major_themes)}")
-        print(f"[thematic] Minor themes (<{min_theme_cases} cases): {len(minor_themes)}")
-
+        if not dimension:
+            print(f"[thematic] Major themes (>={min_theme_cases} cases): {len(major_themes)}")
+            print(f"[thematic] Minor themes (<{min_theme_cases} cases): {len(minor_themes)}")
+        
         # Genera tabella riepilogativa
         summary_table = self._build_summary_table(theme_counts, theme_groups, min_theme_cases)
 
         theme_summaries = {}
-        print("[thematic] Avvio analisi temi maggiori")
+        if not dimension:
+            print("[thematic] Avvio analisi temi maggiori")
+        
         for theme in major_themes:
-            print(f"[thematic] Analisi tema: {theme} ({theme_counts[theme]} casi)")
+            if not dimension:
+                print(f"[thematic] Analisi tema: {theme} ({theme_counts[theme]} casi)")
             theme_summaries[theme] = self._generate_theme_summary(
                 dimension,
                 DIMENSIONS[dimension],
@@ -861,8 +1447,10 @@ class ThematicReporter(BaseReporter):
                 filters=filters
             )
 
-        # Sezione per temi minori (senza chiamata LLM, solo elencazione)
-        minor_themes_section = self._build_minor_themes_section(minor_themes, theme_counts)
+        # Sezione per temi minori (solo se non siamo in modalità single-dimension)
+        minor_themes_section = None # Initialize to None
+        if not dimension:
+            minor_themes_section = self._build_minor_themes_section(minor_themes, theme_counts)
 
         print("[thematic] Sintesi temi (merge)")
         summary_data = {
@@ -932,17 +1520,34 @@ class ThematicReporter(BaseReporter):
 
         content_parts = [f"# {DIMENSIONS[dimension]}"]
 
-        # Nota metodologica all'inizio
-        content_parts.append(METHODOLOGY_SECTION)
+        # Nota metodologica all'inizio (dinamica)
+        is_single_theme = bool(dimension)
+        is_regional = bool(filters and filters.get("regione"))
+        methodology_content = self._build_methodology_section(is_single_theme, is_regional)
+        
+        content_parts.append(methodology_content)
 
         # Tabella riepilogativa all'inizio
-        content_parts.append("## Panoramica temi")
-        content_parts.append(summary_table)
+        # Se siamo in single-theme, la tabella "Panoramica Temi" è ridondante se mostra solo 1 riga
+        # La trasformiamo in "Panoramica Territoriale"
+        
+        if is_single_theme:
+             # Genera tabella territoriale
+             territory_table = self._build_territorial_table(theme_groups[DIMENSIONS[dimension]], is_regional, filters)
+             content_parts.append(territory_table)
+        else:
+             content_parts.append("## Panoramica temi")
+             summary_table = self._build_summary_table(theme_counts, theme_groups, min_theme_cases, is_regional)
+             content_parts.append(summary_table)
 
         # Analisi temi maggiori
-        content_parts.append("## Analisi per tematiche")
+        if not dimension:
+            content_parts.append("## Analisi per tematiche")
+            
         for theme in major_themes:
-            content_parts.append(f"### {theme}")
+            # In modalità single dimension, il titolo del tema è già nel report o non serve ridondanza
+            if not dimension:
+                content_parts.append(f"### {theme}")
             content_parts.append(theme_summaries[theme])
 
         # Sezione temi minori (se presenti)
@@ -950,7 +1555,7 @@ class ThematicReporter(BaseReporter):
             content_parts.append("## Altri temi emergenti")
             content_parts.append(minor_themes_section)
 
-        content_parts.append("## Sintesi delle analisi tematiche")
+        content_parts.append("## Sintesi")
         content_parts.append(summary_response.content)
 
         if include_regions:
@@ -963,6 +1568,15 @@ class ThematicReporter(BaseReporter):
                     content_parts.append(section["theme_summaries"][theme])
                 content_parts.append("#### Sintesi regionale")
                 content_parts.append(section["summary"])
+
+        # Appendice: Inventario completo (opzionale - ridondante col CSV)
+        # Per modelli locali, disabilitato di default per ridurre output
+        include_inventory = os.getenv("META_REPORT_INCLUDE_INVENTORY", "0").strip().lower() in ("1", "true", "yes")
+        if include_inventory and inventory_groups:
+            content_parts.append(self._render_inventory(inventory_groups))
+        elif inventory_groups:
+            content_parts.append("\n*Inventario completo disponibile nel file `.activities.csv` allegato.*")
+
 
         # Appendice con riferimento al file CSV
         appendix_lines = [
@@ -994,6 +1608,14 @@ class ThematicReporter(BaseReporter):
         self.write_report(content, output_path, metadata)
         self._write_activity_table(output_path, activities_rows)
         print(f"[thematic] Report saved: {output_path}")
+
+        # Postprocessing automatico per correggere codici e formattazione
+        try:
+            from src.agents.meta_report.postprocess import postprocess_report
+            print("[thematic] Applying postprocessor...")
+            postprocess_report(output_path)
+        except Exception as e:
+            print(f"[thematic] Postprocessor warning: {e}")
 
         return output_path
 

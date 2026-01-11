@@ -36,34 +36,8 @@ DEFAULT_OLLAMA_URL = os.getenv("OLLAMA_HOST", "http://192.168.129.14:11434")
 DEFAULT_MODEL = os.getenv("OLLAMA_MODEL", "qwen3:32b")
 MAX_RETRIES = 3
 
-# Lista temi validi (da fornire al LLM per consistenza)
-VALID_THEMES = [
-    "Orientamento",
-    "Cittadinanza e Legalità",
-    "Valutazione e Autovalutazione",
-    "PCTO/Alternanza",
-    "Inclusione e BES",
-    "STEM e Ricerca",
-    "Digitalizzazione",
-    "Lingue Straniere",
-    "Continuità e Accoglienza",
-    "Sostenibilità e Ambiente",
-    "Imprenditorialità",
-    "Intercultura e Lingue",
-    "Rapporti con Famiglie",
-    "Arte e Creatività",
-    "Prevenzione Disagio",
-    "Formazione Docenti",
-    "Matematica e Logica",
-    "Sport e Benessere",
-    "Lettura e Scrittura",
-    "Geografia",
-    "Storia",
-    "Filosofia",
-    "Comunicazione",
-    "Salute e Benessere",
-    "Tecnologia",
-]
+# Lista temi validi - importata da config centrale
+from src.config.themes import CANONICAL_THEMES as VALID_THEMES, normalize_theme
 
 
 def call_ollama(prompt: str, model: str, ollama_url: str) -> Optional[str]:
@@ -136,22 +110,14 @@ def infer_theme(row: dict, model: str, ollama_url: str) -> Optional[str]:
     if not response:
         return None
     
-    # Pulisci la risposta
+    # Pulisci e normalizza la risposta usando config centrale
     theme = response.strip().strip('"').strip("'").strip()
+    normalized = normalize_theme(theme)
     
-    # Verifica che sia un tema valido
-    theme_lower = theme.lower()
-    for valid_theme in VALID_THEMES:
-        if valid_theme.lower() == theme_lower or valid_theme.lower() in theme_lower:
-            return valid_theme
+    if normalized == "Altro" and theme.lower() != "altro":
+        logger.warning(f"⚠️ Tema normalizzato a 'Altro': '{theme}' per '{titolo[:50]}...'")
     
-    # Se non trova corrispondenza esatta, cerca parziale
-    for valid_theme in VALID_THEMES:
-        if any(word.lower() in theme_lower for word in valid_theme.split()):
-            return valid_theme
-    
-    logger.warning(f"⚠️ Tema non riconosciuto: '{theme}' per '{titolo[:50]}...'")
-    return theme  # Ritorna comunque il tema inferito
+    return normalized
 
 
 def main():
