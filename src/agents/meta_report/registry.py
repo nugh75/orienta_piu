@@ -47,6 +47,67 @@ class MetaReportRegistry:
             "thematic": {},
         }
 
+    def sync_with_filesystem(self) -> None:
+        """Sync registry with actual files on disk.
+        
+        Removes registry entries for reports that no longer exist.
+        """
+        data = self._load()
+        reports_dir = self.base_dir / "reports" / "meta"
+        modified = False
+
+        # Sync thematic reports
+        thematic_dir = reports_dir / "thematic"
+        existing_thematic = set()
+        if thematic_dir.exists():
+            for f in thematic_dir.glob("*_attivita.md"):
+                # Extract dimension from filename (e.g., "pcto__regione=lazio__profile=overview_attivita.md" -> "pcto")
+                dim = f.stem.split("__")[0]
+                if dim.endswith("_attivita"):
+                    dim = dim[:-9]  # Remove "_attivita" suffix
+                existing_thematic.add(dim)
+        
+        # Remove registry entries for missing thematic files
+        for dim in list(data["thematic"].keys()):
+            if dim not in existing_thematic:
+                del data["thematic"][dim]
+                modified = True
+
+        # Sync school reports
+        schools_dir = reports_dir / "schools"
+        existing_schools = set()
+        if schools_dir.exists():
+            for f in schools_dir.glob("*_attivita.md"):
+                code = f.stem.replace("_attivita", "")
+                existing_schools.add(code)
+        
+        for code in list(data["schools"].keys()):
+            if code not in existing_schools:
+                del data["schools"][code]
+                modified = True
+
+        # Sync regional reports
+        regional_dir = reports_dir / "regional"
+        existing_regional = set()
+        if regional_dir.exists():
+            for f in regional_dir.glob("*_attivita.md"):
+                region = f.stem.replace("_attivita", "")
+                existing_regional.add(region)
+        
+        for region in list(data["regional"].keys()):
+            if region not in existing_regional:
+                del data["regional"][region]
+                modified = True
+
+        # Sync national report
+        national_file = reports_dir / "national" / "national_attivita.md"
+        if not national_file.exists() and data["national"].get("status") == "current":
+            data["national"] = {"status": "missing"}
+            modified = True
+
+        if modified:
+            self._save()
+
     def get_analysis_timestamp(self, school_code: str) -> Optional[str]:
         """Get modification time of analysis file."""
         analysis_file = self.analysis_dir / f"{school_code}_PTOF_analysis.json"
@@ -201,6 +262,10 @@ class MetaReportRegistry:
             "finalita", "obiettivi", "governance", "didattica", "partnership",
             # Granular opportunity dimensions
             "pcto", "stage", "openday", "visite", "laboratori", "testimonianze", "counseling", "alumni",
+            # Thematic dimensions
+            "valutazione", "formazione_docenti", "cittadinanza", "digitalizzazione", "inclusione",
+            "continuita", "famiglie", "lettura", "orientamento", "arte", "lingue", "stem",
+            "matematica", "disagio", "intercultura", "sostenibilita", "sport", "imprenditorialita", "sistema",
         ]
 
         stale = []
@@ -216,6 +281,7 @@ class MetaReportRegistry:
 
     def get_status(self) -> dict:
         """Get overall status summary."""
+        self.sync_with_filesystem()  # Sync with actual files before reporting status
         data = self._load()
         all_schools = self.get_all_analyzed_schools()
         all_regions = self.get_all_regions()
@@ -224,6 +290,10 @@ class MetaReportRegistry:
             "finalita", "obiettivi", "governance", "didattica", "partnership",
             # Granular opportunity dimensions
             "pcto", "stage", "openday", "visite", "laboratori", "testimonianze", "counseling", "alumni",
+            # Thematic dimensions
+            "valutazione", "formazione_docenti", "cittadinanza", "digitalizzazione", "inclusione",
+            "continuita", "famiglie", "lettura", "orientamento", "arte", "lingue", "stem",
+            "matematica", "disagio", "intercultura", "sostenibilita", "sport", "imprenditorialita", "sistema",
         ]
 
         schools_current = sum(1 for c in all_schools if c in data["schools"] and data["schools"][c].get("status") == "current")

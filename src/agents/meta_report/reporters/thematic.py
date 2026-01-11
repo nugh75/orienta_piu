@@ -4,6 +4,7 @@ import csv
 import json
 import os
 import re
+from datetime import datetime
 from collections import defaultdict
 from pathlib import Path
 from typing import Optional
@@ -13,6 +14,31 @@ from .base import BaseReporter
 
 # Soglia minima casi per generare sezione tema dedicata (configurabile via env)
 MIN_THEME_CASES = int(os.getenv("META_REPORT_MIN_THEME_CASES", "5"))
+
+# Nota metodologica da inserire all'inizio di ogni report tematico
+METHODOLOGY_SECTION = """
+## Nota Metodologica
+
+Questo report analizza le **attività di orientamento** estratte dai PTOF delle scuole italiane e catalogate nel file `attivita.csv`. Le attività sono classificate in **sei categorie**:
+
+| Categoria | Descrizione |
+|-----------|-------------|
+| 🎯 **Progetti e Attività Esemplari** | Iniziative innovative, replicabili e di impatto |
+| 📚 **Metodologie Didattiche Innovative** | Approcci pedagogici originali e sperimentali |
+| 🤝 **Partnership e Collaborazioni Strategiche** | Accordi con università, aziende, enti territoriali |
+| ⚙️ **Azioni di Sistema e Governance** | Coordinamento, organigramma, referenti |
+| 🌈 **Buone Pratiche per l'Inclusione** | Interventi per studenti con BES, DSA, disabilità |
+| 🗺️ **Esperienze Territoriali Significative** | Attività radicate nel contesto locale |
+
+### Come leggere questo report
+
+- **Panoramica temi**: Tabella riassuntiva con conteggi per tema
+- **Analisi per tematiche**: Sintesi narrativa per ogni tema principale (≥5 casi)
+- **Altri temi emergenti**: Temi minori elencati in forma compatta
+- **Sintesi finale**: Raccomandazioni e trend principali
+
+I dati sono analizzati per **distribuzione geografica** (regione e provincia) quando disponibili i filtri.
+"""
 
 # Dimension names mapping - allineato con README
 DIMENSIONS = {
@@ -278,7 +304,7 @@ class ThematicReporter(BaseReporter):
             },
         }
 
-    def _format_case_label(self, case: dict) -> str:
+    def _format_case_label(self, case: dict, include_description: bool = True) -> str:
         """Build a compact label for inventory listings."""
         scuola = case.get("scuola", {})
         pratica = case.get("pratica", {})
@@ -286,6 +312,16 @@ class ThematicReporter(BaseReporter):
         nome = scuola.get("nome") or "Scuola"
         codice = scuola.get("codice") or scuola.get("codice_meccanografico") or "ND"
         titolo = pratica.get("titolo") or "Attivita"
+        descrizione = pratica.get("descrizione") or ""
+        
+        # Tronca descrizione a 150 caratteri
+        if include_description and descrizione:
+            descrizione_breve = descrizione[:150].strip()
+            if len(descrizione) > 150:
+                descrizione_breve += "..."
+        else:
+            descrizione_breve = ""
+            
         meta_parts = [
             scuola.get("provincia"),
             scuola.get("regione"),
@@ -296,7 +332,9 @@ class ThematicReporter(BaseReporter):
         meta = ", ".join([p for p in meta_parts if p])
         label = f"{nome} ({codice}) - {titolo}"
         if meta:
-            return f"{label} ({meta})"
+            label = f"{label} [{meta}]"
+        if descrizione_breve:
+            label = f"{label}: {descrizione_breve}"
         return label
 
     def _group_labels_by_region(self, cases: list[dict]) -> dict:
@@ -470,24 +508,32 @@ class ThematicReporter(BaseReporter):
     def _sample_case_labels(
         self,
         cases: list[dict],
-        per_region: int = 2,
-        max_total: int = 20
+        per_region: int = 5,
+        max_total: int = 50
     ) -> list[str]:
-        """Pick a small sample of case labels for narrative anchoring."""
+        """Pick a sample of case labels using systematic sampling (1 in 5)."""
         if not cases:
             return []
 
-        grouped = self._group_cases_by_region(cases)
-        samples: list[str] = []
-        for region in sorted(grouped.keys()):
-            for case in grouped[region][:per_region]:
-                samples.append(self._format_case_label(case))
-                if len(samples) >= max_total:
-                    return samples
-        return samples
+        # Ordina per regione e codice scuola per garantire distribuzione uniforme
+        sorted_cases = sorted(cases, key=lambda x: (
+            x.get("scuola", {}).get("regione", ""), 
+            x.get("scuola", {}).get("codice", "")
+        ))
+
+        n = len(cases)
+        if n < 10:
+            # Se pochi casi, prendili tutti
+            samples = sorted_cases
+        else:
+            # Campionamento sistematico 1 su 5 (20%)
+            samples = sorted_cases[::5]
+
+        return [self._format_case_label(c, include_description=True) for c in samples]
 
     def _summarize_cases(self, cases: list[dict]) -> dict:
         region_counts = defaultdict(int)
+        province_counts = defaultdict(int)
         category_counts = defaultdict(int)
         schools = set()
 
@@ -495,23 +541,49 @@ class ThematicReporter(BaseReporter):
             scuola = case.get("scuola", {})
             pratica = case.get("pratica", {})
             region = scuola.get("regione") or "Non specificata"
+            province = scuola.get("provincia") or "Non specificata"
             category = pratica.get("categoria") or "Altre attivita"
             region_counts[region] += 1
+            province_counts[province] += 1
             category_counts[category] += 1
             code = scuola.get("codice") or scuola.get("codice_meccanografico") or ""
             if code:
                 schools.add(code)
 
-        sample_cases = self._sample_case_labels(cases)
+        n_cases = len(cases)
+        
+        # Logica dinamica per il sampling e livello dettaglio
+        if n_cases < 10:
+            per_region = 3
+            max_total = 10
+            detail_level = "sintetico (pochi casi)"
+        elif n_cases < 50:
+            per_region = 5
+            max_total = 25
+            detail_level = "medio (alcuni esempi rappresentativi)"
+        elif n_cases < 100:
+            per_region = 10
+            max_total = 50
+            detail_level = "approfondito (molti esempi e cluster)"
+        else:
+            per_region = 20
+            max_total = 80
+            detail_level = "molto dettagliato (ampia varieta di esempi e cluster)"
+
+        sample_cases = self._sample_case_labels(cases, per_region=per_region, max_total=max_total)
         top_regions = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+        top_provinces = sorted(province_counts.items(), key=lambda x: x[1], reverse=True)[:10]
 
         return {
-            "cases_count": len(cases),
+            "cases_count": n_cases,
             "schools_count": len(schools),
             "region_counts": dict(region_counts),
+            "province_counts": dict(province_counts),
             "category_counts": dict(category_counts),
             "top_regions": top_regions,
+            "top_provinces": top_provinces,
             "sample_cases": sample_cases,
+            "detail_level": detail_level,
         }
 
     def _build_activity_rows(self, cases: list[dict]) -> list[dict]:
@@ -705,7 +777,13 @@ class ThematicReporter(BaseReporter):
         filters = self._normalize_filters(filters)
         output_path = self.get_output_path(dimension, filters=filters, prompt_profile=prompt_profile)
 
+        # Aggiungi timestamp per non sovrascrivere
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_path = output_path.with_name(f"{output_path.stem}_{timestamp}{output_path.suffix}")
+
+        # Force diventa irrilevante per esistenza file, ma manteniamo la firma
         if output_path.exists() and not force:
+             # Improbabile col timestamp, ma per sicurezza
             print(f"[thematic] Report already exists: {output_path}")
             return output_path
 
@@ -847,6 +925,9 @@ class ThematicReporter(BaseReporter):
 
         content_parts = [f"# {DIMENSIONS[dimension]}"]
 
+        # Nota metodologica all'inizio
+        content_parts.append(METHODOLOGY_SECTION)
+
         # Tabella riepilogativa all'inizio
         content_parts.append("## Panoramica temi")
         content_parts.append(summary_table)
@@ -875,6 +956,19 @@ class ThematicReporter(BaseReporter):
                     content_parts.append(section["theme_summaries"][theme])
                 content_parts.append("#### Sintesi regionale")
                 content_parts.append(section["summary"])
+
+        # Appendice con riferimento al file CSV
+        appendix_lines = [
+            "## Appendice: Elenco completo attività",
+            "",
+            f"📊 **Statistiche**: {report_data['practices_count']} attività da {report_data['schools_count']} scuole",
+            "",
+            f"Il file CSV completo con tutte le attività è disponibile in:",
+            f"`{output_path.stem}.activities.csv`",
+            "",
+            "Il file contiene: codice scuola, nome scuola, regione, provincia, tipo scuola, categoria, titolo, ambiti attività.",
+        ]
+        content_parts.append("\n".join(appendix_lines))
 
         content = "\n\n".join(content_parts)
         content = self._normalize_report_headings(content)

@@ -291,6 +291,16 @@ print(f'   Ultimo aggiornamento: {d.get(\"last_updated\", \"N/D\")[:19]}')"; \
 		echo "❌ File data/attivita.json non trovato. Esegui prima: make activity-extract"; \
 	fi
 
+# Backfill temi mancanti usando LLM (uso: make activity-theme-backfill)
+activity-theme-backfill:
+	@echo "🎯 Backfill temi mancanti in attivita.csv..."
+	$(PYTHON) -m src.processing.theme_backfill \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
+		$(if $(LIMIT),--limit $(LIMIT),) \
+		$(if $(DRY),--dry-run,)
+	@echo "✅ Backfill completato"
+
 # Alias retrocompatibili
 best-practice-extract: activity-extract
 	@echo "ℹ️  Alias: usa make activity-extract"

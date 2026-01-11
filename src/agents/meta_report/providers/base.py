@@ -109,18 +109,35 @@ class BaseProvider(ABC):
                 "Evidenzia pattern comuni, segnali quantitativi ricorrenti e implicazioni operative."
             ),
             "thematic_group_chunk": (
-                "Analizza un sottoinsieme di casi per un tema specifico. "
-                "Sii conciso, descrivi pattern e segnala esempi mirati citando sempre Nome Scuola (Codice). "
-                "Non generare inventari o liste lunghe."
+                "Analizza TUTTE le attività fornite per questo tema. "
+                "Per ogni gruppo di attività simili:\\n"
+                "- Identifica il pattern comune (cosa hanno in comune)\\n"
+                "- Descrivi l'approccio tipico e le metodologie utilizzate\\n"
+                "- Cita 2-3 scuole come esempi con Nome Scuola (Codice)\\n\\n"
+                "Raggruppa le attività per: tipo di intervento, target (classi), metodologia, partnership.\\n"
+                "Sii esaustivo: analizza TUTTE le attività, non solo un campione."
             ),
             "thematic_group_merge": (
-                "Integra note parziali e dati aggregati in una sintesi narrativa del tema.\n"
-                "STRUTTURA PARAGRAFO (2-3 paragrafi totali):\n"
-                "1) INTRODUZIONE CONTESTUALE: cosa caratterizza questo tema, perché è rilevante\n"
-                "2) ANALISI DEI PATTERN: come le scuole affrontano il tema, approcci ricorrenti\n"
-                "3) ESEMPI SIGNIFICATIVI: 2-3 casi concreti con Nome Scuola (Codice)\n\n"
-                "Scrivi in modo discorsivo e fluido, evita elenchi puntati. "
-                "NON iniziare con titoli o intestazioni markdown."
+                "Integra le note e produci un'analisi DETTAGLIATA e COMPLETA del tema.\\n\\n"
+                "STRUTTURA OBBLIGATORIA (5-8 paragrafi articolati):\\n\\n"
+                "1) INTRODUZIONE AL TEMA (1 paragrafo):\\n"
+                "   - Perché questo tema è rilevante nell'orientamento scolastico\\n"
+                "   - Quante attività e scuole sono coinvolte\\n\\n"
+                "2) CLUSTER DI ATTIVITÀ (2-4 paragrafi, uno per cluster):\\n"
+                "   Per ogni gruppo di attività simili identifica:\\n"
+                "   - Nome descrittivo del cluster (es. 'Orientamento universitario', 'PCTO con aziende')\\n"
+                "   - Quante attività appartengono a questo cluster\\n"
+                "   - Cosa caratterizza queste attività: obiettivi, metodologie, target\\n"
+                "   - 2-3 esempi concreti: Nome Attività - Scuola (Codice): breve descrizione\\n\\n"
+                "3) DISTRIBUZIONE TERRITORIALE (1 paragrafo):\\n"
+                "   - Differenze tra province (se regionali) o regioni (se nazionale)\\n"
+                "   - Aree di eccellenza e aree meno rappresentate\\n\\n"
+                "4) CONCLUSIONI E PATTERN EMERGENTI (1 paragrafo):\\n"
+                "   - Tendenze principali, approcci innovativi, raccomandazioni\\n\\n"
+                "IMPORTANTE: Scrivi in modo discorsivo e informativo. "
+                "NON fare elenchi puntati lunghi, integra le informazioni nel testo. "
+                "Cita SEMPRE le scuole nel formato Nome Scuola (CODICE). "
+                "NON iniziare con titoli markdown."
             ),
             "thematic_summary_merge": (
                 "Sintetizza le analisi dei temi in un quadro unitario strutturato.\n"
@@ -313,31 +330,59 @@ IMPORTANTE: non creare inventari o liste lunghe. Non usare titoli Markdown (#, #
             dimension_name = analysis_data.get("dimension_name", "questa dimensione")
             theme = analysis_data.get("theme", "tema")
             scope = analysis_data.get("scope", "national")
+            cases_count = analysis_data.get("cases_count", 0)
+            schools_count = analysis_data.get("schools_count", 0)
+            detail_level = analysis_data.get("detail_level", "medio")
             region = analysis_data.get("region")
+
             # Determina se è regionale da scope O da filtro regione
             is_regional = (scope == "region" and region) or bool(filters.get("regione"))
             if is_regional:
                 region_name = region or filters.get("regione", "questa regione")
                 scope_line = f"Ambito: regionale ({region_name})"
-                territorial_note = "Analizza differenze tra PROVINCE, NON tra regioni (i dati sono di una sola regione)."
+                territorial_note = "Indica dove sono localizzate le attività emerse nel campione."
             else:
                 scope_line = "Ambito: nazionale"
-                territorial_note = "Analizza differenze territoriali tra regioni se rilevanti."
-            return f"""Integra note e dati aggregati per produrre una sintesi narrativa del tema "{theme}" nella dimensione "{dimension_name}":
+                territorial_note = "Indica la provenienza geografica delle attività citate."
+            
+            return f"""Produci un'analisi DETTAGLIATA e COMPLETA del tema "{theme}" nella dimensione "{dimension_name}":
 
 Profilo: {prompt_profile}
 {filters_line}
 Focus: {focus_line}
 {scope_line}
 
-DATI TEMATICI:
+STATISTICHE TOTALI: {cases_count} attività in {schools_count} scuole
+CAMPIONE ANALIZZATO: I dati seguenti sono un campione sistematico (1 caso ogni 5, ~20%) delle attività totali.
+LIVELLO DETTAGLIO RICHIESTO: {detail_level}
+
+DATI DEL CAMPIONE:
 {json.dumps(analysis_data, indent=2, ensure_ascii=False)}
 
-Output richiesto:
-- 1-2 paragrafi discorsivi, senza elenchi lunghi
-- Se citi una scuola, usa sempre Nome Scuola (Codice)
-- {territorial_note}
-Nota: non usare titoli Markdown (#, ##, ###) o righe in grassetto che fungono da titoli.
+OUTPUT RICHIESTO:
+
+1) INTRODUZIONE:
+   - Importanza del tema e numeri chiave.
+   - Disclaimer: "L'analisi si basa su un campione rappresentativo delle attività censite nel PTOF."
+
+2) CLUSTER DI ATTIVITÀ (adatta la lunghezza al livello di dettaglio richiesto):
+   - Raggruppa le attività per similarità di CONTENUTO e METODOLOGIA.
+   - ATTENZIONE: I cluster NON devono corrispondere alle categorie amministrative ("Progetti Esemplari", "Inclusione", ecc.), ma riflettere cosa fanno concretamente le scuole (es. "Laboratori STEM", "Orientamento Universitario", "Orto didattico").
+   - Per ogni cluster: descrivi pattern + cita ESEMPI CONCRETI (Nome Scuola - Codice).
+   - Se livello "molto dettagliato": crea 4-5 cluster e cita 10-15 esempi totali.
+   - Se livello "sintetico": bastano 1 cluster e 2-3 esempi.
+
+3) DISTRIBUZIONE GEOGRAFICA (Nel campione):
+   - {territorial_note}
+   - EVITA categoricamente confronti del tipo "La provincia X è più virtuosa di Y" o "C'è un gap territoriale", poiché i dati sono parziali e relativi al solo campione disponibile. Limitati a descrivere il campione.
+
+4) CONCLUSIONI: Pattern emergenti e spunti di interesse, senza generalizzazioni statistiche eccessive.
+
+IMPORTANTE:
+- Cita SEMPRE le scuole nel formato Nome Scuola (CODICE).
+- Scrivi in modo discorsivo.
+- NON usare titoli Markdown (#, ##, ###).
+- NON usare le categorie amministrative come nomi dei cluster.
 """
 
         if report_type == "thematic_summary_merge":

@@ -1,10 +1,10 @@
-# Meta Report - Best Practices Reporter
+# Meta Report - Attività Reporter
 
-Sistema di generazione incrementale di report sulle buone pratiche di orientamento estratte dalle analisi PTOF.
+Sistema di generazione incrementale di report sulle attività di orientamento estratte dalle analisi PTOF.
 
 ## Panoramica
 
-Il Meta Report Agent analizza i JSON delle analisi PTOF e genera report markdown sulle buone pratiche, a diversi livelli di granularità:
+Il Meta Report Agent analizza i dati dal file `attivita.csv` e genera report markdown sulle attività di orientamento, a diversi livelli di granularità:
 
 - **School**: Report per singola scuola
 - **Regional**: Report aggregato per regione
@@ -31,11 +31,11 @@ make meta-batch N=5
 
 Il sistema supporta tre provider LLM:
 
-| Provider | Configurazione | Uso |
-|----------|---------------|-----|
-| **Ollama** | `OLLAMA_HOST`, `OLLAMA_MODEL` | **Default**, locale, no costi |
-| **Gemini** | `GEMINI_API_KEY` | API cloud, veloce |
-| **OpenRouter** | `OPENROUTER_API_KEY` | Multi-modello, fallback |
+| Provider       | Configurazione                | Uso                           |
+| -------------- | ----------------------------- | ----------------------------- |
+| **Ollama**     | `OLLAMA_HOST`, `OLLAMA_MODEL` | **Default**, locale, no costi |
+| **Gemini**     | `GEMINI_API_KEY`              | API cloud, veloce             |
+| **OpenRouter** | `OPENROUTER_API_KEY`          | Multi-modello, fallback       |
 
 ### Selezione Provider
 
@@ -66,22 +66,22 @@ export OPENROUTER_API_KEY=your_key
 
 ### Riepilogo Completo
 
-| Comando | Descrizione | Opzioni |
-|---------|-------------|---------|
-| `make meta-status` | Mostra stato di tutti i report | - |
-| `make meta-school CODE=X` | Report singola scuola | `PROVIDER`, `FORCE` |
-| `make meta-regional REGION=X` | Report aggregato regione | `PROVIDER`, `FORCE` |
-| `make meta-national` | Report nazionale | `PROVIDER`, `FORCE` |
-| `make meta-thematic DIM=X` | Report tematico | `PROVIDER`, `FORCE` |
-| `make meta-next` | Genera prossimo pendente | `PROVIDER` |
-| `make meta-batch N=X` | Genera N report pendenti | `PROVIDER` |
+| Comando                       | Descrizione                    | Opzioni             |
+| ----------------------------- | ------------------------------ | ------------------- |
+| `make meta-status`            | Mostra stato di tutti i report | -                   |
+| `make meta-school CODE=X`     | Report singola scuola          | `PROVIDER`, `FORCE` |
+| `make meta-regional REGION=X` | Report aggregato regione       | `PROVIDER`, `FORCE` |
+| `make meta-national`          | Report nazionale               | `PROVIDER`, `FORCE` |
+| `make meta-thematic DIM=X`    | Report tematico                | `PROVIDER`, `FORCE` |
+| `make meta-next`              | Genera prossimo pendente       | `PROVIDER`          |
+| `make meta-batch N=X`         | Genera N report pendenti       | `PROVIDER`          |
 
 ### Opzioni Globali
 
-| Opzione | Valori | Default |
-|---------|--------|---------|
-| `PROVIDER` | `gemini`, `openrouter`, `ollama` | `auto` |
-| `FORCE` | `1` | non impostato (skip se esiste) |
+| Opzione    | Valori                           | Default                        |
+| ---------- | -------------------------------- | ------------------------------ |
+| `PROVIDER` | `gemini`, `openrouter`, `ollama` | `auto`                         |
+| `FORCE`    | `1`                              | non impostato (skip se esiste) |
 
 ### Stato e Monitoraggio
 
@@ -90,6 +90,7 @@ make meta-status
 ```
 
 Output esempio:
+
 ```
 === META REPORT STATUS ===
 
@@ -176,12 +177,12 @@ make meta-thematic DIM=alumni        # Rete alumni e mentoring
 
 #### Opzioni Aggiuntive
 
-| Variabile env | Descrizione | Default |
-|---------------|-------------|---------|
-| `META_REPORT_INCLUDE_REGIONS` | Include sezioni per regione | `0` (disattivo) |
-| `META_REPORT_MIN_THEME_CASES` | Soglia minima casi per tema | `5` |
-| `META_REPORT_THEME_CHUNK_SIZE` | Casi per chunk | `30` |
-| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking | `60` |
+| Variabile env                       | Descrizione                  | Default         |
+| ----------------------------------- | ---------------------------- | --------------- |
+| `META_REPORT_INCLUDE_REGIONS`       | Include sezioni per regione  | `0` (disattivo) |
+| `META_REPORT_MIN_THEME_CASES`       | Soglia minima casi per tema  | `5`             |
+| `META_REPORT_THEME_CHUNK_SIZE`      | Casi per chunk               | `30`            |
+| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking | `60`            |
 
 ```bash
 # Include anche le sezioni per regione
@@ -198,13 +199,13 @@ META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-
 
 Il profilo determina il focus narrativo del report. Specificalo con `PROMPT=`:
 
-| Profilo | Descrizione |
-|---------|-------------|
-| `overview` | Quadro complessivo (default) |
-| `innovative` | Focus su pratiche innovative e originali |
-| `comparative` | Confronti territoriali dettagliati |
-| `impact` | Valutazione efficacia e impatto |
-| `operational` | Raccomandazioni operative concrete |
+| Profilo       | Descrizione                              |
+| ------------- | ---------------------------------------- |
+| `overview`    | Quadro complessivo (default)             |
+| `innovative`  | Focus su pratiche innovative e originali |
+| `comparative` | Confronti territoriali dettagliati       |
+| `impact`      | Valutazione efficacia e impatto          |
+| `operational` | Raccomandazioni operative concrete       |
 
 ```bash
 make meta-thematic DIM=pcto PROMPT=overview
@@ -218,15 +219,15 @@ make meta-thematic DIM=pcto PROMPT=operational
 
 Puoi filtrare i dati per specifici attributi delle scuole:
 
-| Filtro | Parametro Make | Descrizione |
-|--------|----------------|-------------|
-| Regione | `REGIONE` | Es: Lazio, Lombardia |
-| Tipo scuola | `TIPO` | Es: Liceo, Istituto Tecnico |
-| Ordine/grado | `ORDINE` | Es: ii-grado, i-grado |
-| Provincia | `PROVINCIA` | Es: RM, MI |
-| Area geografica | `AREA` | Es: Nord, Centro, Sud |
-| Stato | `STATO` | statale, paritaria |
-| Territorio | `TERRITORIO` | Es: urbano, rurale |
+| Filtro          | Parametro Make | Descrizione                 |
+| --------------- | -------------- | --------------------------- |
+| Regione         | `REGIONE`      | Es: Lazio, Lombardia        |
+| Tipo scuola     | `TIPO`         | Es: Liceo, Istituto Tecnico |
+| Ordine/grado    | `ORDINE`       | Es: ii-grado, i-grado       |
+| Provincia       | `PROVINCIA`    | Es: RM, MI                  |
+| Area geografica | `AREA`         | Es: Nord, Centro, Sud       |
+| Stato           | `STATO`        | statale, paritaria          |
+| Territorio      | `TERRITORIO`   | Es: urbano, rurale          |
 
 ```bash
 # Filtro singolo
@@ -248,6 +249,7 @@ Il nome del file di output riflette filtri e profilo applicati:
 ```
 
 Esempi:
+
 - `pcto_attivita.md` - nessun filtro, profilo default
 - `pcto__ordine_grado=ii-grado_attivita.md` - filtro ordine/grado
 - `pcto__ordine_grado=ii-grado__profile=overview_attivita.md` - filtro + profilo
@@ -272,28 +274,62 @@ make meta-batch N=20 PROVIDER=ollama
 
 ### Dimensioni Strutturali
 
-| Dimensione | Descrizione |
-|------------|-------------|
-| `finalita` | Chiarezza delle finalità orientative |
-| `obiettivi` | Definizione obiettivi e risultati attesi |
-| `governance` | Organizzazione, ruoli e responsabilità |
-| `didattica` | Integrazione orientamento nelle attività didattiche |
-| `partnership` | Collaborazioni con enti esterni |
+| Dimensione    | Descrizione                                         |
+| ------------- | --------------------------------------------------- |
+| `finalita`    | Chiarezza delle finalità orientative                |
+| `obiettivi`   | Definizione obiettivi e risultati attesi            |
+| `governance`  | Organizzazione, ruoli e responsabilità              |
+| `didattica`   | Integrazione orientamento nelle attività didattiche |
+| `partnership` | Collaborazioni con enti esterni                     |
 
 ### Dimensioni Opportunità (Granulari)
 
-| Dimensione | Descrizione |
-|------------|-------------|
-| `pcto` | PCTO e Alternanza Scuola-Lavoro |
-| `stage` | Stage e Tirocini formativi |
-| `openday` | Open Day e Orientamento in Entrata |
-| `visite` | Visite Aziendali e Universitarie |
-| `laboratori` | Laboratori Orientativi, Simulazioni, Job Shadowing |
+| Dimensione      | Descrizione                                         |
+| --------------- | --------------------------------------------------- |
+| `pcto`          | PCTO e Alternanza Scuola-Lavoro                     |
+| `stage`         | Stage e Tirocini formativi                          |
+| `openday`       | Open Day e Orientamento in Entrata                  |
+| `visite`        | Visite Aziendali e Universitarie                    |
+| `laboratori`    | Laboratori Orientativi, Simulazioni, Job Shadowing  |
 | `testimonianze` | Testimonianze e Incontri con Esperti/Professionisti |
-| `counseling` | Counseling e Percorsi Individualizzati |
-| `alumni` | Rete Alumni e Mentoring |
+| `counseling`    | Counseling e Percorsi Individualizzati              |
+| `alumni`        | Rete Alumni e Mentoring                             |
 
-Le dimensioni granulari estraggono contenuti specifici cercando keywords nelle analisi PTOF esistenti.
+### Dimensioni Tematiche (Analisi Specifica)
+
+Queste dimensioni permettono di analizzare temi specifici trasversalmente a tutte le scuole:
+
+| Dimensione           | Descrizione                    | Keywords                                                |
+| -------------------- | ------------------------------ | ------------------------------------------------------- |
+| `valutazione`        | Valutazione e Autovalutazione  | valutazione, autovalutazione, invalsi, verifiche        |
+| `formazione_docenti` | Formazione Docenti             | formazione docenti, aggiornamento professionale         |
+| `cittadinanza`       | Cittadinanza e Legalità        | cittadinanza, legalità, educazione civica, costituzione |
+| `digitalizzazione`   | Digitalizzazione               | digitale, coding, robotica, informatica, tecnologie     |
+| `inclusione`         | Inclusione e BES               | inclusione, bes, disabilità, dsa, sostegno              |
+| `continuita`         | Continuità e Accoglienza       | continuità, accoglienza, passaggio, raccordo            |
+| `famiglie`           | Rapporti con Famiglie          | famiglie, genitori, patto educativo                     |
+| `lettura`            | Lettura e Scrittura            | lettura, scrittura, biblioteca, letteratura             |
+| `orientamento`       | Orientamento                   | orientamento, scelta scolastica, progetto di vita       |
+| `arte`               | Arte e Creatività              | arte, creatività, musica, teatro                        |
+| `lingue`             | Lingue Straniere               | lingue straniere, inglese, clil, certificazioni         |
+| `stem`               | STEM e Ricerca                 | stem, steam, scienze, sperimentazione                   |
+| `matematica`         | Matematica e Logica            | matematica, logica, problem solving, geometria          |
+| `disagio`            | Prevenzione Disagio            | disagio, bullismo, cyberbullismo, dispersione           |
+| `intercultura`       | Intercultura e Lingue          | intercultura, multiculturalità, integrazione stranieri  |
+| `sostenibilita`      | Sostenibilità e Ambiente       | sostenibilità, ambiente, ecologia, agenda 2030          |
+| `sport`              | Sport e Benessere              | sport, benessere, educazione fisica, salute             |
+| `imprenditorialita`  | Imprenditorialità              | imprenditorialità, impresa, start up, business          |
+| `sistema`            | Azioni di Sistema e Governance | azioni di sistema, organigramma, funzioni strumentali   |
+
+**Esempi:**
+
+```bash
+make meta-thematic DIM=orientamento REGIONE=Lazio FORCE=1
+make meta-thematic DIM=digitalizzazione FORCE=1
+make meta-thematic DIM=inclusione ORDINE=ii-grado
+```
+
+Le dimensioni tematiche estraggono contenuti specifici cercando keywords nelle analisi PTOF esistenti.
 
 ## Output
 
@@ -332,15 +368,19 @@ school_code: RMIS001
 # Liceo Scientifico Roma 1
 
 ## Contesto
+
 [Tipo scuola, territorio, caratteristiche]
 
 ## Punti di Forza
+
 [Iniziative efficaci, metodologie innovative]
 
 ## Aree di Sviluppo
+
 [Cosa potrebbe essere potenziato]
 
 ## Conclusioni
+
 [Sintesi profilo orientativo]
 ```
 
@@ -358,23 +398,30 @@ prompt_profile: overview
 # Orientamento
 
 ## Panoramica temi
-| Tema | Casi | Scuole | Regioni principali |
-|------|------|--------|-------------------|
-| PCTO | 450 | 120 | Lombardia (80), Lazio (65) |
-| Open Day | 320 | 95 | Veneto (45), Piemonte (40) |
+
+| Tema     | Casi | Scuole | Regioni principali         |
+| -------- | ---- | ------ | -------------------------- |
+| PCTO     | 450  | 120    | Lombardia (80), Lazio (65) |
+| Open Day | 320  | 95     | Veneto (45), Piemonte (40) |
+
 ...
 
 ## Analisi per tematiche
+
 ### PCTO
+
 [Analisi narrativa con esempi Nome Scuola (Codice)]
 
 ### Open Day
+
 [...]
 
 ## Altri temi emergenti
+
 [Temi con < 5 casi elencati in modo compatto]
 
 ## Sintesi delle analisi tematiche
+
 [Trend principali, differenze territoriali, raccomandazioni]
 ```
 
@@ -438,7 +485,7 @@ while make meta-next; do
 done
 ```
 
-## Best Practices
+## Raccomandazioni Operative
 
 ### 1. Usa Ollama per Batch Grandi
 
@@ -487,6 +534,7 @@ Error: No LLM provider available
 ```
 
 **Soluzione**: Configura almeno un provider:
+
 ```bash
 export GEMINI_API_KEY=your_key
 # oppure
@@ -510,6 +558,7 @@ export OLLAMA_HOST=http://localhost:11434
 ```
 
 **Soluzione**:
+
 ```bash
 # Verifica che Ollama sia attivo
 curl http://localhost:11434/api/tags
