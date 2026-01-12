@@ -31,9 +31,20 @@ load_dotenv(PROJECT_ROOT / ".env")
 from src.agents.meta_report.orchestrator import MetaReportOrchestrator
 
 
+def _apply_refine(report_path, provider_name: str = "auto"):
+    """Apply LLM-based refinement to a generated report."""
+    from src.agents.meta_report.refine import refine_report
+    print(f"Applying refinement to: {report_path}")
+    try:
+        refine_report(report_path, provider_name=provider_name if provider_name != "auto" else "ollama")
+        print("Refinement complete.")
+    except Exception as e:
+        print(f"Warning: Refinement failed: {e}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Meta Report Generator - Best Practices from PTOF analyses")
-    parser.add_argument("command", choices=["status", "school", "regional", "national", "thematic", "thematic-v2", "next", "batch"],
+    parser.add_argument("command", choices=["status", "school", "regional", "national", "thematic", "thematic-v2", "skeleton", "next", "batch"],
                        help="Command to execute")
     parser.add_argument("--code", "-c", help="School code for school report")
     parser.add_argument("--region", "-r", help="Region name for regional report")
@@ -41,6 +52,16 @@ def main():
     parser.add_argument("--provider", "-p", default="auto",
                        choices=["auto", "gemini", "openrouter", "ollama"],
                        help="LLM provider to use")
+    parser.add_argument("--provider-school", default="ollama",
+                       choices=["ollama", "openrouter", "gemini"],
+                       help="Provider for school-level analysis (skeleton mode)")
+    parser.add_argument("--provider-synthesis", default="openrouter",
+                       choices=["ollama", "openrouter", "gemini"],
+                       help="Provider for synthesis calls (skeleton mode)")
+    parser.add_argument("--model-school", default=None,
+                       help="Model for school-level analysis (e.g., gemma3:27b)")
+    parser.add_argument("--model-synthesis", default=None,
+                       help="Model for synthesis (e.g., google/gemini-2.0-flash-lite-001)")
     parser.add_argument("--prompt-profile", default="overview",
                        choices=["overview", "innovative", "comparative", "impact", "operational"],
                        help="Prompt profile to use")
@@ -52,6 +73,8 @@ def main():
     parser.add_argument("--territorio", help="Filtro territorio (comma-separated)")
     parser.add_argument("--force", "-f", action="store_true",
                        help="Force regeneration even if report exists")
+    parser.add_argument("--refine", action="store_true",
+                       help="Apply LLM-based refinement after generation")
     parser.add_argument("--count", "-n", type=int, default=5,
                        help="Number of reports for batch command")
 
@@ -87,6 +110,8 @@ def main():
         )
         if result:
             print(f"Generated: {result}")
+            if args.refine:
+                _apply_refine(result, args.provider)
         else:
             print("Failed to generate report")
             sys.exit(1)
@@ -103,6 +128,8 @@ def main():
         )
         if result:
             print(f"Generated: {result}")
+            if args.refine:
+                _apply_refine(result, args.provider)
         else:
             print("Failed to generate report")
             sys.exit(1)
@@ -115,6 +142,8 @@ def main():
         )
         if result:
             print(f"Generated: {result}")
+            if args.refine:
+                _apply_refine(result, args.provider)
         else:
             print("Failed to generate report")
             sys.exit(1)
@@ -132,9 +161,83 @@ def main():
         )
         if result:
             print(f"Generated: {result}")
+            if args.refine:
+                _apply_refine(result, args.provider)
         else:
             print("Failed to generate report")
             sys.exit(1)
+
+    elif args.command == "skeleton":
+        # Skeleton-first architecture with dual providers
+        if not args.dim:
+            print("Error: --dim required for skeleton report")
+            sys.exit(1)
+        
+        from pathlib import Path
+        from src.agents.meta_report.skeleton import SkeletonBuilder, load_activities_from_csv
+        from src.agents.meta_report.slot_filler import SlotFiller, SlotFillerConfig
+        
+        # Load activities
+        csv_path = PROJECT_ROOT / "data" / "attivita.csv"
+        clean_filters = {k: v for k, v in filters.items() if v}
+        activities = load_activities_from_csv(csv_path, clean_filters)
+        
+        if not activities:
+            print(f"No activities found with filters: {clean_filters}")
+            sys.exit(1)
+        
+        print(f"[skeleton] Loaded {len(activities)} activities")
+        
+        # Build skeleton
+        builder = SkeletonBuilder(activities, clean_filters, args.dim)
+        builder.build_structure()
+        builder.compute_cross_links()
+        
+        print(f"[skeleton] Found {len(builder.schools)} schools, {len(builder.categories)} categories")
+        
+        # Determine output path - build suffix locally
+        import re
+        def build_filter_suffix(filters: dict) -> str:
+            if not filters:
+                return ""
+            parts = []
+            for key in sorted(filters.keys()):
+                values = filters[key]
+                if isinstance(values, str):
+                    values = [values]
+                if not values:
+                    continue
+                normalized_values = [re.sub(r"\\s+", "-", v.strip()) for v in values]
+                value = "+".join(normalized_values)
+                slug = re.sub(r"[^a-z0-9+-]+", "-", value.lower()).strip("-")
+                parts.append(f"{key}={slug}")
+            return f"__{'__'.join(parts)}" if parts else ""
+        
+        suffix = build_filter_suffix(clean_filters)
+        output_dir = PROJECT_ROOT / "reports" / "meta" / "thematic"
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"{args.dim}{suffix}_skeleton.md"
+        
+        # Configure slot filler
+        region = args.region if args.region else "Italia"
+        config = SlotFillerConfig(
+            provider_school=args.provider_school,
+            provider_synthesis=args.provider_synthesis,
+            model_school=args.model_school,
+            model_synthesis=args.model_synthesis,
+            dim=args.dim,
+            region=region,
+        )
+        
+        print(f"[skeleton] Provider school: {args.provider_school} ({args.model_school or 'default'})")
+        print(f"[skeleton] Provider synthesis: {args.provider_synthesis} ({args.model_synthesis or 'default'})")
+        
+        # Fill slots
+        filler = SlotFiller(builder, config, output_path)
+        result = filler.fill_all_slots()
+        
+        print(f"\nGenerated: {output_path}")
+        print(f"Length: {len(result)} chars")
 
     elif args.command == "thematic-v2":
         # Versione V2: analisi scuola per scuola
@@ -156,6 +259,8 @@ def main():
         )
         if result:
             print(f"Generated (V2): {result}")
+            if args.refine:
+                _apply_refine(result, args.provider)
         else:
             print("Failed to generate report")
             sys.exit(1)

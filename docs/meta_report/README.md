@@ -177,16 +177,26 @@ make meta-thematic DIM=alumni        # Rete alumni e mentoring
 
 #### Opzioni Aggiuntive
 
-| Variabile env                       | Descrizione                  | Default         |
-| ----------------------------------- | ---------------------------- | --------------- |
-| `META_REPORT_INCLUDE_REGIONS`       | Include sezioni per regione  | `0` (disattivo) |
-| `META_REPORT_MIN_THEME_CASES`       | Soglia minima casi per tema  | `5`             |
-| `META_REPORT_THEME_CHUNK_SIZE`      | Casi per chunk               | `30`            |
-| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking | `60`            |
+| Variabile env                       | Descrizione                    | Default         |
+| ----------------------------------- | ------------------------------ | --------------- |
+| `META_REPORT_INCLUDE_REGIONS`       | Include sezioni per regione    | `0` (disattivo) |
+| `META_REPORT_MIN_THEME_CASES`       | Soglia minima casi per tema    | `5`             |
+| `META_REPORT_THEME_CHUNK_SIZE`      | Casi per chunk                 | `30`            |
+| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking   | `60`            |
+| `META_REPORT_CHUNK_CACHE`           | Abilita cache dei chunk        | `1` (attivo)    |
+| `META_REPORT_SEMANTIC_CHUNKING`     | Chunking semantico per gruppo  | `1` (attivo)    |
+| `META_REPORT_CHUNKING_STRATEGY`     | Strategia: region/tipo_scuola/mixed | `region`   |
+| `META_REPORT_CUMULATIVE_CONTEXT`    | Contesto cumulativo tra chunk  | `1` (attivo)    |
 
 ```bash
 # Include anche le sezioni per regione
 META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=pcto
+
+# Disabilita chunking semantico
+META_REPORT_SEMANTIC_CHUNKING=0 make meta-thematic DIM=pcto
+
+# Usa strategia di chunking per tipo di scuola
+META_REPORT_CHUNKING_STRATEGY=tipo_scuola make meta-thematic DIM=pcto
 
 # Soglia minima casi per tema (temi con meno casi vanno in "Altri temi emergenti")
 META_REPORT_MIN_THEME_CASES=5 make meta-thematic DIM=pcto
@@ -214,6 +224,26 @@ make meta-thematic DIM=pcto PROMPT=comparative
 make meta-thematic DIM=pcto PROMPT=impact
 make meta-thematic DIM=pcto PROMPT=operational
 ```
+
+#### Report Tematico V2 (Analisi Scuola per Scuola)
+
+Il comando `thematic-v2` offre un approccio alternativo che analizza ogni scuola singolarmente prima di aggregare i risultati. Utile per analisi più dettagliate su dataset ridotti.
+
+```bash
+# Analisi scuola per scuola
+make meta-thematic-v2 DIM=orientamento
+
+# Con filtri
+make meta-thematic-v2 DIM=orientamento REGIONE=Lazio ORDINE="ii-grado"
+
+# Con raffinamento
+make meta-thematic-v2 DIM=pcto REFINE=1
+```
+
+**Differenze rispetto a `meta-thematic`:**
+- Analizza ogni scuola individualmente prima dell'aggregazione
+- Migliore granularità per dataset piccoli
+- Tempo di esecuzione maggiore su dataset grandi
 
 #### Filtri Disponibili
 

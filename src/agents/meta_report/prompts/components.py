@@ -35,13 +35,14 @@ STILE NARRATIVO OBBLIGATORIO:
 - NON usare MAI elenchi puntati (-, *, •)
 - NON usare MAI elenchi numerati (1., 2., 3.)
 - Usa connettivi logici: inoltre, tuttavia, in particolare, analogamente, similmente
-- Metti in **grassetto** nomi di scuole, partner, progetti chiave
+- NON usare grassetto (**) in nessun caso
 - Costruisci paragrafi coesi di 4-6 frasi
 
 VIETATO CATEGORICAMENTE:
 - Creare liste di qualsiasi tipo
 - Usare ":" seguito da elenchi
 - Strutturare il testo come bullet points mascherati
+- Usare doppi asterischi per grassetto
 """
 
 # =============================================================================
@@ -76,7 +77,7 @@ PROFILE_STRUCTURES = {
         "description": "Copri tutti gli aspetti principali senza approfondire troppo. Bilancia punti di forza e aree di sviluppo.",
         "target_audience": "dirigenti, stakeholder generici",
         "word_count": "800-1200 parole",
-        "sections": ["Sintesi", "Analisi", "Punti di Forza", "Aree di Sviluppo", "Conclusioni"],
+        "sections": ["Sintesi", "Analisi", "Punti di Forza", "Conclusioni"],
         "requirements": []
     },
     "innovative": {
@@ -248,9 +249,9 @@ STRUTTURA MONOGRAFICA AI-DRIVEN (OBBLIGATORIA):
 
 FORMATO NARRATIVO OBBLIGATORIO:
 Scrivi in modo narrativo e discorsivo. Collega le idee con connettivi logici.
-METTI SEMPRE IN GRASSETTO:
-- Regioni e Province (es. **Lazio**, **provincia di Viterbo**)
-- Nomi delle Scuole e relativi codici (es. **Liceo Fermi (RMPC0000)**)
+REGOLE FORMATTAZIONE:
+- NON usare grassetto (**) in nessun caso
+- Scrivi i codici meccanografici normalmente tra parentesi (es. Liceo Fermi (RMPC0000))
 DIVIETO ASSOLUTO: NON creare elenchi puntati o numerati nel corpo del testo.
 Nessuna lista. Nessun bullet point. Solo prosa narrativa continua.
 """,
@@ -269,6 +270,14 @@ STRUTTURA OBBLIGATORIA (ANALISI REGIONALE):
 IMPORTANTE: I dati sono di UNA SOLA REGIONE. NON fare confronti con altre regioni.
 Concentrati sulle differenze INTERNE (tra province, tipi di scuola, ordini).
 """,
+
+    "thematic_category_type_synthesis": """
+STRUTTURA SINTESI SOTTO-CATEGORIA:
+- Scrivi SOLO 2-3 paragrafi discorsivi per sintetizzare i contenuti forniti.
+- NON usare titoli o sottotitoli (Nessun #, ##, ###).
+- NON ripetere il nome della categoria o del tipo di scuola come titolo.
+- Inizia direttamente con l'analisi: "I Licei mostrano una tendenza..."
+""",
 }
 
 
@@ -285,3 +294,173 @@ def get_report_structure(report_type: str, is_regional: bool = False) -> str:
     if report_type == "thematic" and is_regional:
         return REPORT_STRUCTURES.get("thematic_regional", "")
     return REPORT_STRUCTURES.get(report_type, "")
+
+
+# =============================================================================
+# Skeleton-First Prompts (per slot individuali)
+# =============================================================================
+
+SLOT_PROMPTS = {
+    "school_analysis": """
+Analizza le seguenti {n_activities} attività di {dim} della scuola {school_name} ({code}) 
+per la categoria "{category}". La scuola si trova in {region}.
+
+ATTIVITÀ:
+{activities_text}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 2-3 paragrafi narrativi e discorsivi
+- Concentrati su come queste attività contribuiscono al {dim}
+- NON usare titoli (nessun #, ##, ###)
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- La scuola è già intestata nel documento, non ripetere il nome come titolo
+- Cita le attività specifiche e le pagine PTOF se disponibili
+- Usa connettivi: inoltre, analogamente, in particolare, similmente
+- Inizia direttamente con l'analisi del contenuto
+""",
+
+    "category_intro": """
+Scrivi un'introduzione strutturata per la sezione "{category}" del report di {dim} nella regione {region}.
+
+DATI DISPONIBILI:
+- {n_schools} scuole coinvolte in questa categoria nella regione {region}
+- {n_activities} attività di {dim} totali
+- Province: {provinces}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 2-3 paragrafi strutturati che introducono la sezione
+- Presenta il panorama generale in relazione al tema {dim} nella regione
+- Anticipa le tendenze che emergeranno
+- NON usare titoli (nessun #, ##, ###)
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- Usa un tono accademico e formale
+- Inizia direttamente con la presentazione della sezione
+""",
+
+    "synthesis": """
+Sintetizza le attività di {dim} per i {school_type} nella categoria "{category}" della regione {region}.
+
+TESTI DELLE SCUOLE DA SINTETIZZARE:
+{school_texts}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 2-3 paragrafi strutturati che sintetizzano le tendenze comuni nel {dim}
+- Identifica pattern ricorrenti e peculiarità distintive
+- NON usare titoli (nessun #, ##, ###) - il titolo è già nel documento
+- NON ripetere "{school_type}" come intestazione
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- Inizia direttamente con l'analisi: "Le scuole di questo tipo mostrano..."
+""",
+
+    "comparison": """
+Analizza le somiglianze tra le scuole nella categoria "{category}" per il tema {dim} nella regione {region}.
+
+SCUOLE E LORO FOCUS:
+{schools_focus}
+
+ISTRUZIONI TASSATIVE:
+- Identifica 2-4 raggruppamenti tematici di scuole con approcci simili al {dim}
+- Per ogni raggruppamento, indica il focus comune e le scuole coinvolte
+- Scrivi in forma narrativa continua, NON come lista
+- NON usare titoli (nessun #, ##, ###)
+- NON usare elenchi puntati o numerati  
+- NON usare grassetto (**)
+- Usa connettivi per collegare i raggruppamenti
+- Esempio: "Un primo gruppo di scuole, tra cui X e Y, condivide un focus su... Analogamente, Z e W si distinguono per..."
+""",
+
+    "intro_generale": """
+Scrivi l'introduzione generale del report sul tema "{dim}" per la regione {region}.
+
+IMPORTANTE: Questo report analizza specificamente le attività di {dim} delle scuole della regione {region}.
+Il tema centrale è {dim} - fai in modo che l'introduzione ruoti attorno a questo argomento.
+
+DATI:
+- {n_schools} scuole della {region} analizzate
+- {n_activities} attività di {dim} totali
+- Categorie: {categories}
+- Province: {provinces}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 3-4 paragrafi strutturati che introducono il report sul {dim} nella {region}
+- Presenta il contesto territoriale della {region} e gli obiettivi dell'analisi del {dim}
+- Spiega cosa significa {dim} nel contesto scolastico e perché è importante
+- Anticipa i temi principali che emergeranno
+- NON usare titoli (nessun #, ##, ###) - il titolo è già nel documento
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- Usa un tono accademico e formale
+""",
+
+    "territorial": """
+Analizza le differenze territoriali tra le province della {region} per il tema {dim}.
+
+DATI PER PROVINCIA:
+{province_data}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 2-3 paragrafi che analizzano le specificità provinciali nel {dim} nella {region}
+- Evidenzia quali province della {region} eccellono in quali categorie di {dim}
+- Identifica pattern geografici se presenti
+- NON usare titoli (nessun #, ##, ###)
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- NON ripetere i dati della tabella (segue nel documento)
+""",
+
+    "conclusion": """
+Scrivi le conclusioni del report sul tema "{dim}" per la regione {region}.
+
+SINTESI:
+- {n_schools} scuole della {region} analizzate
+- {n_activities} attività di {dim} totali
+- Categorie analizzate: {categories}
+
+ISTRUZIONI TASSATIVE:
+- Scrivi 3-4 paragrafi strutturati che concludono l'analisi del {dim} nella {region}
+- Sintetizza i principali pattern emersi nelle strategie di {dim} delle scuole marchigiane
+- Evidenzia i punti di forza del territorio nel {dim}
+- Suggerisci possibili direzioni di sviluppo per il {dim} nella {region}
+- NON usare titoli (nessun #, ##, ###)
+- NON usare elenchi puntati o numerati
+- NON usare grassetto (**)
+- Chiudi con una riflessione prospettica sul futuro del {dim} nelle scuole della {region}
+""",
+}
+
+
+def get_slot_prompt(slot_type: str) -> str:
+    """Get the prompt template for a specific slot type.
+    
+    Args:
+        slot_type: Type of slot (school_analysis, category_intro, synthesis, etc.)
+        
+    Returns:
+        Prompt template string
+    """
+    return SLOT_PROMPTS.get(slot_type, "")
+
+
+def format_slot_prompt(slot_type: str, **kwargs) -> str:
+    """Format a slot prompt with the given context.
+    
+    Args:
+        slot_type: Type of slot
+        **kwargs: Context variables to format into the prompt
+        
+    Returns:
+        Formatted prompt string
+    """
+    template = get_slot_prompt(slot_type)
+    if not template:
+        return ""
+    
+    try:
+        return template.format(**kwargs)
+    except KeyError as e:
+        # Return template with missing keys noted
+        return f"[MISSING KEY: {e}]\n{template}"
+

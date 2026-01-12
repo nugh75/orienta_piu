@@ -761,13 +761,14 @@ meta-school:
 ifndef CODE
 	@echo "❌ Specificare il codice con CODE=CODICE_MECCANOGRAFICO"
 	@echo "   Esempio: make meta-school CODE=RMIS001"
-	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1 REFINE=1"
 	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
 	$(PYTHON) $(META_CLI) school --code $(CODE) \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
 		$(if $(FORCE),--force,) \
-		$(if $(PROMPT),--prompt-profile "$(PROMPT)",)
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
+		$(if $(REFINE),--refine,)
 endif
 
 # Report regionale (uso: make meta-regional REGION=Lazio PROVIDER=ollama)
@@ -775,7 +776,7 @@ meta-regional:
 ifndef REGION
 	@echo "❌ Specificare la regione con REGION=NOME"
 	@echo "   Esempio: make meta-regional REGION=Lazio"
-	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1 REFINE=1"
 	@echo "   Filtri: TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
 	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
 else
@@ -788,7 +789,8 @@ else
 		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
 		$(if $(AREA),--area-geografica "$(AREA)",) \
 		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
+		$(if $(REFINE),--refine,)
 endif
 
 # Report nazionale
@@ -803,7 +805,8 @@ meta-national:
 		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
 		$(if $(AREA),--area-geografica "$(AREA)",) \
 		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
+		$(if $(REFINE),--refine,)
 
 # Report tematico (uso: make meta-thematic DIM=governance)
 meta-thematic:
@@ -828,14 +831,15 @@ ifndef DIM
 	@echo "     alumni       - Rete alumni e mentoring"
 	@echo ""
 	@echo "   Esempio: make meta-thematic DIM=pcto"
-	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1 REFINE=1"
 	@echo "   Regioni: META_REPORT_INCLUDE_REGIONS=1 (default: 0)"
 	@echo "   Chunk temi: META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160"
 	@echo "   Soglia temi: META_REPORT_MIN_THEME_CASES=5 (temi con meno casi vanno in 'Altri temi')"
 	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
 	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
+	@echo "   Raffinamento: REFINE=1 per applicare agente raffinatore alla fine"
 else
-	$(PYTHON) $(META_CLI) thematic --dim $(DIM) \
+	META_REPORT_REFINE=$(or $(REFINE),0) $(PYTHON) $(META_CLI) thematic --dim $(DIM) \
 		$(if $(PROVIDER),--provider $(PROVIDER),) \
 		$(if $(FORCE),--force,) \
 		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
@@ -845,7 +849,30 @@ else
 		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
 		$(if $(AREA),--area-geografica "$(AREA)",) \
 		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",)
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
+		$(if $(REFINE),--refine,)
+endif
+
+# Genera report tematico V2 (analisi scuola per scuola)
+meta-thematic-v2:
+ifndef DIM
+	@echo "❌ Specificare la dimensione con DIM=NOME"
+	@echo "   Usa: make meta-thematic-v2 DIM=orientamento"
+	@echo "   Differenza con thematic: analizza ogni scuola singolarmente"
+	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... etc."
+else
+	$(PYTHON) $(META_CLI) thematic-v2 --dim $(DIM) \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(FORCE),--force,) \
+		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
+		$(if $(REGIONE),--region "$(REGIONE)",) \
+		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
+		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
+		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
+		$(if $(AREA),--area-geografica "$(AREA)",) \
+		$(if $(STATO),--statale-paritaria "$(STATO)",) \
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
+		$(if $(REFINE),--refine,)
 endif
 
 # Genera prossimo report pendente
@@ -858,6 +885,57 @@ meta-batch:
 	$(PYTHON) $(META_CLI) batch \
 		--count $(or $(N),5) \
 		$(if $(PROVIDER),--provider $(PROVIDER),)
+
+# Raffina formattazione report (uso: make meta-refine REPORT=path/to/report.md)
+meta-refine:
+ifeq ($(REPORT),)
+	@echo "❌ Specificare il report con REPORT=path/to/report.md"
+	@echo "   Esempio: make meta-refine REPORT=reports/meta/thematic/example.md"
+	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama DRY_RUN=1"
+else
+	$(PYTHON) -m src.agents.meta_report.refine $(REPORT) \
+		$(if $(PROVIDER),--provider $(PROVIDER),) \
+		$(if $(DRY_RUN),--dry-run,)
+endif
+
+# === SKELETON-FIRST ARCHITECTURE ===
+# Genera report con architettura skeleton-first e dual provider
+# Variabili: PROVIDER_SCHOOL (ollama), PROVIDER_SYNTHESIS (openrouter)
+#            MODEL_SCHOOL (gemma3:27b), MODEL_SYNTHESIS (google/gemini-2.0-flash-lite-001)
+PROVIDER_SCHOOL ?= ollama
+PROVIDER_SYNTHESIS ?= openrouter
+MODEL_SCHOOL ?= 
+MODEL_SYNTHESIS ?= 
+
+meta-skeleton:
+ifndef DIM
+	@echo "❌ Specificare la dimensione con DIM=NOME"
+	@echo ""
+	@echo "   Uso: make meta-skeleton DIM=orientamento REGIONE=Marche ORDINE='II Grado'"
+	@echo ""
+	@echo "   PROVIDER (dual mode):"
+	@echo "     PROVIDER_SCHOOL=ollama         - Per analisi singole scuole (default: ollama)"
+	@echo "     PROVIDER_SYNTHESIS=openrouter  - Per sintesi e conclusioni (default: openrouter)"
+	@echo "     MODEL_SCHOOL=gemma3:27b        - Modello per scuole"
+	@echo "     MODEL_SYNTHESIS=google/gemini-2.0-flash-lite-001  - Modello per sintesi"
+	@echo ""
+	@echo "   Filtri: REGIONE=... ORDINE=... TIPO=... PROVINCIA=... etc."
+else
+	$(PYTHON) $(META_CLI) skeleton --dim $(DIM) \
+		--provider-school $(PROVIDER_SCHOOL) \
+		--provider-synthesis $(PROVIDER_SYNTHESIS) \
+		$(if $(MODEL_SCHOOL),--model-school "$(MODEL_SCHOOL)",) \
+		$(if $(MODEL_SYNTHESIS),--model-synthesis "$(MODEL_SYNTHESIS)",) \
+		$(if $(REGIONE),--region "$(REGIONE)",) \
+		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
+		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
+		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
+		$(if $(AREA),--area-geografica "$(AREA)",) \
+		$(if $(STATO),--statale-paritaria "$(STATO)",) \
+		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
+		$(if $(FORCE),--force,)
+endif
+
 
 # ===== DOCKER (solo dashboard) =====
 

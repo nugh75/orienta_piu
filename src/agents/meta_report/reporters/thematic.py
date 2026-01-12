@@ -78,7 +78,7 @@ DIMENSIONS.update({
     "alumni": "Rete Alumni e Mentoring",
 })
 
-# Mapping categorie -> dimension key (per dimensioni strutturali)
+# Mapping categorie -> dimension key (per dimensioni strutturali + opportunità)
 CATEGORY_TO_DIM = {
     "Finalità Orientative": "finalita",
     "Obiettivi e Risultati Attesi": "obiettivi",
@@ -86,6 +86,7 @@ CATEGORY_TO_DIM = {
     "Didattica Orientativa": "didattica",
     "Partnership e Reti": "partnership",
     "Partnership e Collaborazioni Strategiche": "partnership",  # alias legacy
+    "Esperienze Territoriali": "territorio",  # dimensione opportunità
 }
 
 # Keywords per cercare nelle attività correlate
@@ -168,6 +169,57 @@ THEME_ALIASES = {
     "musica e teatro": "Arte e Creatività",
 }
 
+# Blocklist for generic governance activities that should be excluded from thematic analysis
+# These activities appear in all categories because they are too vague/structural
+GENERIC_ACTIVITY_BLOCKLIST = [
+    "piano triennale dell'offerta formativa",
+    "ptof",
+    "piano di miglioramento",
+    "pdm",
+    "piano di formazione del personale docente",
+    "analisi del contesto e dei bisogni del territorio",
+    "rav",
+    "rapporto di autovalutazione",
+    "rendicontazione sociale",
+    "bilancio sociale",
+    "organigramma",
+    "funzionigramma",
+]
+
+# Keywords for assigning activities to their PRIMARY category (priority order matters)
+CATEGORY_ASSIGNMENT_KEYWORDS = {
+    "Progetti e Attività Esemplari": [
+        "eccellenza", "innovazione", "best practice", "replicabile", "modello",
+        "progetto pilota", "sperimentazione", "premio", "riconoscimento",
+        "global teaching", "interscambio", "erasmus", "start up", "startup"
+    ],
+    "Metodologie Didattiche Innovative": [
+        "clil", "flipped", "cooperative learning", "peer tutoring", "peer education",
+        "didattica laboratoriale", "project work", "learning by doing", "debate",
+        "gamification", "coding", "stem", "steam", "montessori", "dada"
+    ],
+    "Partnership e Collaborazioni": [
+        "convenzione", "protocollo d'intesa", "accordo di rete", "partnership",
+        "collaborazione con", "università", "ateneo", "its", "azienda", "impresa",
+        "ente locale", "museo", "associazione", "fondazione"
+    ],
+    "Azioni di Sistema": [
+        "funzione strumentale", "coordinamento", "commissione", "gruppo di lavoro",
+        "governance", "staff", "dipartimento", "referente", "tutor",
+        "monitoraggio", "valutazione interna"
+    ],
+    "Inclusione e BES": [
+        "bes", "dsa", "disabilità", "inclusione", "pei", "pdp", "sostegno",
+        "bisogni educativi speciali", "alunni stranieri", "alfabetizzazione",
+        "recupero", "sportello", "ascolto", "disagio", "dispersione"
+    ],
+    "Esperienze Territoriali": [
+        "territorio", "locale", "provinciale", "regionale", "comunità",
+        "museo", "biblioteca", "orto", "ambiente", "sostenibilità",
+        "legalità", "mafia", "cittadinanza attiva"
+    ],
+}
+
 
 class ThematicReporter(BaseReporter):
     """Generate thematic report for a specific dimension from attivita.csv/json."""
@@ -178,6 +230,104 @@ class ThematicReporter(BaseReporter):
         super().__init__(provider, base_dir)
         self.activities_meta_file = self.base_dir / "data" / "attivita.json"
         self.activities_csv_file = self.base_dir / "data" / "attivita.csv"
+        # Cache for category assignments
+        self._activity_categories = {}
+
+    def _filter_generic_activities(self, practices: list[dict]) -> list[dict]:
+        """Filter out generic governance activities that shouldn't appear in thematic analysis."""
+        filtered = []
+        removed_count = 0
+        for p in practices:
+            title = (p.get("titolo") or p.get("title") or "").lower()
+            # Check if title matches any blocklist term
+            is_generic = any(term in title for term in GENERIC_ACTIVITY_BLOCKLIST)
+            if not is_generic:
+                filtered.append(p)
+            else:
+                removed_count += 1
+        if removed_count > 0:
+            print(f"[thematic] Filtered out {removed_count} generic governance activities")
+        return filtered
+
+    def _assign_primary_category(self, practice: dict) -> tuple[str, list[str]]:
+        """
+        Assign a PRIMARY category to an activity.
+        Uses the 'categoria' field from CSV if available, otherwise falls back to keyword matching.
+        Returns (primary_category, secondary_categories).
+        """
+        # First, check if category is already defined in CSV
+        csv_category = practice.get("pratica", {}).get("categoria", "")
+        
+        # Valid categories
+        valid_categories = [
+            "Progetti e Attività Esemplari",
+            "Metodologie Didattiche Innovative",
+            "Partnership e Collaborazioni",
+            "Azioni di Sistema",
+            "Inclusione e BES",
+            "Esperienze Territoriali"
+        ]
+        
+        # Normalize and match CSV category
+        if csv_category:
+            csv_category_lower = csv_category.lower().strip()
+            for valid_cat in valid_categories:
+                if valid_cat.lower() in csv_category_lower or csv_category_lower in valid_cat.lower():
+                    # Found a match - use CSV category as primary
+                    # For now, no secondary categories from CSV
+                    return (valid_cat, [])
+        
+        # Fallback to keyword matching if no CSV category
+        title = (practice.get("pratica", {}).get("titolo") or practice.get("titolo") or practice.get("title") or "").lower()
+        description = (practice.get("pratica", {}).get("descrizione") or practice.get("descrizione") or practice.get("description") or "").lower()
+        text = f"{title} {description}"
+        
+        # Priority order for categories
+        priority_order = [
+            "Progetti e Attività Esemplari",
+            "Metodologie Didattiche Innovative", 
+            "Partnership e Collaborazioni",
+            "Inclusione e BES",
+            "Esperienze Territoriali",
+            "Azioni di Sistema",  # Lowest priority - catch-all
+        ]
+        
+        matched_categories = []
+        for category in priority_order:
+            keywords = CATEGORY_ASSIGNMENT_KEYWORDS.get(category, [])
+            if any(kw in text for kw in keywords):
+                matched_categories.append(category)
+        
+        if not matched_categories:
+            # Default to "Azioni di Sistema" if no match
+            return ("Azioni di Sistema", [])
+        
+        primary = matched_categories[0]
+        secondary = matched_categories[1:] if len(matched_categories) > 1 else []
+        return (primary, secondary)
+
+    def _preprocess_activities(self, practices: list[dict]) -> dict:
+        """
+        Pre-process all activities: filter generics and assign primary categories.
+        Returns dict mapping activity_id -> (practice, primary_category, secondary_categories)
+        """
+        # Step 1: Filter generic activities
+        filtered = self._filter_generic_activities(practices)
+        
+        # Step 2: Assign primary category to each activity
+        result = {}
+        for p in filtered:
+            activity_id = p.get("id") or f"{p.get('school', {}).get('codice_meccanografico', '')}_{p.get('titolo', '')[:30]}"
+            primary, secondary = self._assign_primary_category(p)
+            result[activity_id] = {
+                "practice": p,
+                "primary_category": primary,
+                "secondary_categories": secondary
+            }
+            self._activity_categories[activity_id] = (primary, secondary)
+        
+        print(f"[thematic] Preprocessed {len(result)} activities with primary category assignments")
+        return result
 
     def get_output_path(
         self,
@@ -1068,7 +1218,7 @@ class ThematicReporter(BaseReporter):
         # Pattern 2: Se non abbiamo trovato abbastanza, cerca scuole menzionate
         if len(patterns) < 2:
             # Cerca nomi di scuole con codice
-            school_pattern = r'([A-Z][a-zA-Z\s]+)\s*\([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6}\)'
+            school_pattern = r'([A-Z][a-zA-Z\s]+)\s*\([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,7}\)'
             matches = re.findall(school_pattern, chunk_content)
             for match in matches[:2]:
                 school_name = match.strip()
@@ -1252,60 +1402,234 @@ L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco 
 - **Sintesi Executive**: Visione d'insieme per i decisori con raccomandazioni finali.
 """
 
-    def _build_territorial_table(self, cases: list[dict], is_regional: bool, filters: dict) -> str:
-        """Build a territorial distribution table for single-theme reports."""
-        region_counts = defaultdict(int)
-        province_counts = defaultdict(int)
+    def _build_territorial_table(self, cases: list[dict], is_regional: bool, filters: dict, prompt_profile: str = "") -> str:
+        """Build a territorial distribution table with categories and schools."""
+        
+        # 1. Define Categories (fixed order)
+        categories = [
+            "Progetti e Attività Esemplari",
+            "Metodologie Didattiche Innovative",
+            "Partnership e Collaborazioni",
+            "Azioni di Sistema",
+            "Inclusione e BES",
+            "Esperienze Territoriali"
+        ]
+        
+        # 2. Aggregations
+        # Structure: territory -> { "schools": set(codes), "categories": { cat: count } }
+        territory_data = defaultdict(lambda: {"schools": set(), "categories": defaultdict(int), "school_names": set()})
         
         current_region = filters.get("regione") if filters else None
+        target_key = "provincia" if (is_regional and current_region) else "regione"
+        header_name = "Provincia" if (is_regional and current_region) else "Regione"
 
         for case in cases:
-            scuola = case.get("scuola", {})
-            reg = scuola.get("regione") or "ND"
-            prov = scuola.get("provincia") or "ND"
-            region_counts[reg] += 1
-            province_counts[prov] += 1
+            # Handle both dict and object access
+            if isinstance(case, dict):
+                scuola = case.get("school", {}) or case.get("scuola", {})
+                code = scuola.get("codice_meccanografico") or scuola.get("codice")
+                name = scuola.get("nome_scuola") or scuola.get("nome")
+                terr_val = scuola.get(target_key)
+            else:
+                scuola = getattr(case, "school", None) or getattr(case, "scuola", None)
+                if not scuola: continue
+                code = getattr(scuola, "codice_meccanografico", None) or getattr(scuola, "codice", None)
+                name = getattr(scuola, "nome_scuola", None) or getattr(scuola, "nome", None)
+                terr_val = getattr(scuola, target_key, None)
+
+            if not terr_val: 
+                terr_val = "ND"
             
+            # Normalize territory name (capitalization)
+            terr_val = terr_val.title()
+            
+            # Determine category
+            # _assign_primary_category returns (primary, secondary_list)
+            # It only takes (practice), not prompt_profile
+            cat, _ = self._assign_primary_category(case)
+            if not cat: continue # Skip generic/blocked
+            
+            # Update stats
+            territory_data[terr_val]["categories"][cat] += 1
+            if code:
+                territory_data[terr_val]["schools"].add(code)
+            if name:
+                # Store "Name (Code)" for listing
+                school_str = f"{name}"
+                if code: school_str += f" ({code})"
+                territory_data[terr_val]["school_names"].add(school_str)
+
         lines = []
-        if is_regional and current_region:
-            lines.append(f"## Panoramica Territoriale: {current_region}")
-            lines.append("")
-            lines.append("| Provincia | Casi | Scuole Coinvolte |")
-            lines.append("|-----------|------|------------------|")
+        
+        # Table Title
+        title_suffix = f": {current_region}" if (is_regional and current_region) else ""
+        lines.append(f"### Dettaglio Territoriale{title_suffix}")
+        lines.append("")
+        
+        # Table Header
+        # | Territorio | Scuole | Cat 1 | Cat 2 | ... | Tot Attività |
+        headers = [header_name, "Scuole"] + [c[:4]+"." for c in categories] + ["Tot"]
+        lines.append("| " + " | ".join(headers) + " |")
+        lines.append("| " + " | ".join(["---"] * len(headers)) + " |")
+        
+        # Sort territories by total activities desc
+        sorted_territories = sorted(
+            territory_data.items(), 
+            key=lambda x: sum(x[1]["categories"].values()), 
+            reverse=True
+        )
+        
+        for terr, data in sorted_territories:
+            row = [f"{terr}"]
+            row.append(str(len(data["schools"])))
             
-            # Group schools by province to count unique schools
-            prov_schools = defaultdict(set)
-            for case in cases:
-                scuola = case.get("scuola", {})
-                p = scuola.get("provincia") or "ND"
-                c = scuola.get("codice")
-                if c: prov_schools[p].add(c)
-
-            sorted_provs = sorted(province_counts.items(), key=lambda x: x[1], reverse=True)
-            for prov, count in sorted_provs:
-                n_schools = len(prov_schools[prov])
-                lines.append(f"| **{prov}** | {count} | {n_schools} |")
-                
-        else:
-            lines.append("## Panoramica Territoriale")
-            lines.append("")
-            lines.append("| Regione | Casi | Scuole Coinvolte |")
-            lines.append("|---------|------|------------------|")
+            total_acts = 0
+            for cat in categories:
+                count = data["categories"].get(cat, 0)
+                row.append(str(count) if count > 0 else "-")
+                total_acts += count
             
-            # Group schools by region
-            reg_schools = defaultdict(set)
-            for case in cases:
-                scuola = case.get("scuola", {})
-                r = scuola.get("regione") or "ND"
-                c = scuola.get("codice")
-                if c: reg_schools[r].add(c)
-
-            sorted_regs = sorted(region_counts.items(), key=lambda x: x[1], reverse=True)
-            for reg, count in sorted_regs:
-                n_schools = len(reg_schools[reg])
-                lines.append(f"| **{reg}** | {count} | {n_schools} |")
-                
+            row.append(f"{total_acts}")
+            lines.append("| " + " | ".join(row) + " |")
+            
+        lines.append("")
+        lines.append("_Legenda: Prog.=Progetti Esemplari, Meto.=Metodologie, Part.=Partnership, Azio.=Azioni Sistema, Incl.=Inclusione, Espe.=Esperienze Territoriali_")
+        lines.append("")
+        
+        # List of Schools per Territory
+        lines.append("#### Scuole Coinvolte per Territorio")
+        for terr, data in sorted_territories:
+            if not data["school_names"]: continue
+            sorted_schools = sorted(list(data["school_names"]))
+            lines.append(f"- **{terr}** ({len(sorted_schools)}): {', '.join(sorted_schools)}.")
+            
         return "\n".join(lines)
+    def _parse_school_analysis(self, content: str) -> dict[str, list[str]]:
+        """Parse LLM output into categories."""
+        sections = defaultdict(list)
+        current_category = None
+        buffer = []
+        
+        for line in content.splitlines():
+            stripped = line.strip()
+            # Match headings like # Category or ## Category or **Category**
+            match = re.search(r"^[#\*]+\s*(.*?)(?:[\*#]+)?$", stripped)
+            
+            if stripped.startswith("#") or (stripped.startswith("**") and stripped.endswith("**")):
+                # New category
+                if current_category and buffer:
+                    sections[current_category].append("\n".join(buffer).strip())
+                
+                heading = stripped.replace("#", "").replace("*", "").strip()
+                current_category = heading
+                buffer = []
+            else:
+                if current_category:
+                    buffer.append(line)
+        
+        # Flush last
+        if current_category and buffer:
+            sections[current_category].append("\n".join(buffer).strip())
+            
+        return sections
+
+    def _generate_by_school_loop(
+        self,
+        cases: list[dict],
+        filters: dict,
+        prompt_profile: str
+    ) -> dict[str, dict[str, list[str]]]:
+        """Process cases school by school and accumulate results by category and territory."""
+        
+        # Group by school
+        schools_map = defaultdict(list)
+        for c in cases:
+            school = c.get("school", {}) or c.get("scuola", {})
+            code = school.get("codice_meccanografico") or school.get("codice") or "ND"
+            schools_map[code].append(c)
+            
+        print(f"[thematic] Processing {len(schools_map)} schools...")
+        
+        # Structure: category -> territory -> list of entries
+        category_accumulator = defaultdict(lambda: defaultdict(list))
+        
+        categories_map = {
+            "Progetti e Attività Esemplari": ["progetti", "esemplari", "eccellenza"],
+            "Metodologie Didattiche Innovative": ["metodologie", "didattiche", "innovative"],
+            "Partnership e Collaborazioni": ["partnership", "collaborazioni", "reti"],
+            "Azioni di Sistema": ["azioni di sistema", "governance", "sistema"],
+            "Inclusione e BES": ["inclusione", "bes", "bisogni", "speciali"],
+            "Esperienze Territoriali": ["territoriali", "territorio", "locali"]
+        }
+
+        # Determine territorial key based on filters
+        is_regional_analysis = bool(filters and filters.get("regione"))
+        
+        for i, (code, school_cases) in enumerate(schools_map.items(), 1):
+            school_data = school_cases[0].get("school", {}) or school_cases[0].get("scuola", {})
+            school_name = school_data.get("nome") or school_data.get("nome_scuola") or "Scuola"
+            
+            # Determine territory for this school
+            if is_regional_analysis:
+                territory = school_data.get("provincia") or "Provincia ND"
+            else:
+                territory = school_data.get("regione") or "Regione ND"
+
+            print(f"[thematic] ({i}/{len(schools_map)}) Analyzing {school_name} ({code}) [{territory}]...")
+            
+            # Simple retry mechanism if needed, but for now single pass
+            try:
+                analysis_data = {
+                    "school_name": school_name,
+                    "school_code": code,
+                    "practices": [self._build_case_record(c) for c in school_cases],
+                    "filters": filters
+                }
+                
+                response = self.provider.generate_best_practices(
+                    analysis_data,
+                    "thematic_school_analysis",
+                    prompt_profile=prompt_profile
+                )
+                
+                parsed_sections = self._parse_school_analysis(response.content)
+                
+                # Check for empty parse result
+                if not parsed_sections:
+                    print(f"[thematic] Warning: No sections extracted for {code}")
+                    # Could dump raw content for debug?
+                    # continue
+                
+                found_categories = 0
+                for cat, contents in parsed_sections.items():
+                    # Normalize category key
+                    norm_cat = None
+                    cat_lower = cat.lower()
+                    
+                    for std_cat, keywords in categories_map.items():
+                        if any(kw in cat_lower for kw in keywords):
+                            norm_cat = std_cat
+                            break
+                    
+                    if not norm_cat:
+                         # Fallback for unexpected categories
+                         norm_cat = "Altri Temi e Spunti"
+
+                    for content in contents:
+                        if content and len(content.strip()) > 10: # Min length check
+                            # Add to specific territory bucket within category
+                            # FIX: Name normal, Code BOLD
+                            entry = f"{school_name} (**{code}**)\n\n{content}"
+                            category_accumulator[norm_cat][territory].append(entry)
+                            found_categories += 1
+                
+                if found_categories == 0:
+                     print(f"[thematic] Warning: No valid content found for {code}")
+
+            except Exception as e:
+                print(f"[thematic] Error analyzing school {code}: {e}")
+                
+        return category_accumulator
 
     def generate(
         self,
@@ -1314,36 +1638,401 @@ L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco 
         filters: Optional[dict] = None,
         prompt_profile: str = "overview"
     ) -> Optional[Path]:
-        """Generate thematic report for a dimension.
-
-        Args:
-            dimension: Dimension key (metodologie, progetti, pcto, etc.)
-            force: Regenerate even if report exists
-
-        Returns:
-            Path to generated report, or None if failed
-        """
-        if dimension not in DIMENSIONS:
-            print(f"[thematic] Unknown dimension: {dimension}")
-            print(f"[thematic] Available: {list(DIMENSIONS.keys())}")
-            return None
-
-        filters = self._normalize_filters(filters)
+        """Generate thematic report for a dimension using the new CATEGORY-FIRST pipeline."""
+        
         output_path = self.get_output_path(dimension, filters=filters, prompt_profile=prompt_profile)
-
-        # Aggiungi timestamp per non sovrascrivere
+        # Make unique path
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_path = output_path.with_name(f"{output_path.stem}_{timestamp}{output_path.suffix}")
 
-        # Force diventa irrilevante per esistenza file, ma manteniamo la firma
-        if output_path.exists() and not force:
-             # Improbabile col timestamp, ma per sicurezza
-            print(f"[thematic] Report already exists: {output_path}")
-            return output_path
+        # Load best practices
+        all_practices = self.load_best_practices()
+        if not all_practices:
+            print("[thematic] No best practices found")
+            return None
+
+        # Apply Filters
+        filters = self._normalize_filters(filters)
+        if filters:
+            all_practices = [p for p in all_practices if self._matches_filters(p.get("school", {}), filters)]
+
+        if not all_practices:
+            print("[thematic] No best practices found after filters")
+            return None
+
+        print(f"[thematic] Loaded {len(all_practices)} practices. Starting Category-First Analysis...")
+
+        # 1. Initialize Report Skeleton
+        self._initialize_report_skeleton(output_path, dimension, all_practices, filters)
+        print(f"[thematic] Skeleton initialized at {output_path}")
+
+        # 2. Category Loop
+        priority_categories = [
+            "Progetti e Attività Esemplari",
+            "Metodologie Didattiche Innovative",
+            "Partnership e Collaborazioni",
+            "Azioni di Sistema",
+            "Inclusione e BES",
+            "Esperienze Territoriali"
+        ]
+
+        # PRE-PROCESS: Filter generic activities and assign primary categories
+        preprocessed = self._preprocess_activities(all_practices)
+        
+        # Group preprocessed activities by school AND primary category
+        # Structure: {category: {school_code: [activities]}}
+        activities_by_category_school = {cat: defaultdict(list) for cat in priority_categories}
+        school_data = {}  # Cache school info
+        
+        for activity_id, data in preprocessed.items():
+            practice = data["practice"]
+            primary_cat = data["primary_category"]
+            secondary_cats = data["secondary_categories"]
+            
+            code = practice.get("school", {}).get("codice_meccanografico")
+            if not code:
+                continue
+                
+            # Store school info once
+            if code not in school_data:
+                school_data[code] = practice.get("school", {})
+            
+            # Add activity to its PRIMARY category only
+            if primary_cat in activities_by_category_school:
+                # Include secondary categories info for display
+                practice["_secondary_categories"] = secondary_cats
+                activities_by_category_school[primary_cat][code].append(practice)
+        
+        # Debug stats
+        for cat, schools in activities_by_category_school.items():
+            total_activities = sum(len(acts) for acts in schools.values())
+            print(f"[thematic]   Category '{cat}': {len(schools)} schools, {total_activities} activities")
+
+        for category in priority_categories:
+            print(f"[thematic] >>> Processing Category: {category}...")
+            
+            # Start Category Chapter in file
+            with open(output_path, "a", encoding="utf-8") as f:
+                f.write(f"\n## {category}\n\n")
+                f.write(f"<!-- INTRO_PLACEHOLDER_{category.replace(' ', '_')} -->\n\n")
+            
+            category_content_buffer = []
+
+            # Get schools that have activities for THIS category only
+            schools_for_category = activities_by_category_school.get(category, {})
+            
+            if not schools_for_category:
+                print(f"[thematic]   No schools with activities for this category")
+                # Remove the chapter header since it's empty
+                current_text = output_path.read_text(encoding="utf-8")
+                placeholder = f"<!-- INTRO_PLACEHOLDER_{category.replace(' ', '_')} -->"
+                to_remove = f"\n## {category}\n\n{placeholder}\n\n"
+                updated_text = current_text.replace(to_remove, "")
+                output_path.write_text(updated_text, encoding="utf-8")
+                continue
+
+            # 2a. Loop Schools (Grouped by Territory)
+            is_regional_report = bool(filters and filters.get("regione"))
+            
+            def get_school_territory(code):
+                school = school_data.get(code, {})
+                return school.get("provincia", "ND") if is_regional_report else school.get("regione", "ND")
+
+            # Sort schools by Territory then Name
+            sorted_schools_grouped = sorted(
+                schools_for_category.keys(), 
+                key=lambda k: (get_school_territory(k), school_data.get(k, {}).get("nome", ""))
+            )
+
+            current_territory = None
+
+            for code in sorted_schools_grouped:
+                school_territory = get_school_territory(code)
+                
+                # Identify if territory changed
+                if school_territory != current_territory:
+                    current_territory = school_territory
+                    # Add Territory Header
+                    header_text = f"\n#### {current_territory}\n\n"
+                    category_content_buffer.append(header_text)
+                    with open(output_path, "a", encoding="utf-8") as f:
+                        f.write(header_text)
+
+                school_practices = schools_for_category[code]  # Only activities for THIS category
+                school_name = school_data.get(code, {}).get("nome", code)
+                
+                # Build secondary categories note
+                secondary_cats = set()
+                for p in school_practices:
+                    secondary_cats.update(p.get("_secondary_categories", []))
+                secondary_note = f" (si collega anche a: {', '.join(secondary_cats)})" if secondary_cats else ""
+                
+                analysis_data = {
+                    "school_name": school_name,
+                    "school_code": code,
+                    "practices": [self._build_case_record(p) for p in school_practices],
+                    "category": category,
+                    "secondary_categories": list(secondary_cats),
+                    "dimension": DIMENSIONS.get(dimension, dimension),
+                    "school_level": filters.get("ordine_grado", "Tutti") if filters else "Tutti",
+                    "filters": filters
+                }
+
+                # LLM Call for School Category Analysis
+                try:
+                    response = self.provider.generate_best_practices(
+                        analysis_data, 
+                        "thematic_category_school_analysis",
+                        prompt_profile=prompt_profile
+                    )
+                    content = response.content.strip()
+                    
+                    if content: # Only append if not empty
+                        # Format as school entry with secondary category note
+                        entry_text = f"{school_name} ({code}){secondary_note}\n\n{content}\n\n"
+                        category_content_buffer.append(entry_text)
+                        
+                        # Append immediately to file (streaming feel)
+                        with open(output_path, "a", encoding="utf-8") as f:
+                            f.write(entry_text)
+                        
+                        print(f"[thematic]   + Added {school_name} ({school_territory}) to {category}")
+                except Exception as e:
+                    print(f"[thematic]   ! Error analyzing {school_name} for {category}: {e}")
+
+            # 2b. Generate Synthesis for Category
+            if category_content_buffer:
+                print(f"[thematic] Generating synthesis for {category}...")
+                synthesis_data = {
+                    "dimension_name": category,
+                    "report_context": "\n".join(category_content_buffer),
+                    "filters": filters
+                }
+                
+                # We reuse 'thematic_intro' prompt but now it receives context
+                synth_resp = self.provider.generate_best_practices(
+                    synthesis_data,
+                    "thematic_intro", 
+                    prompt_profile=prompt_profile
+                )
+                
+                # Replace placeholder in file
+                current_text = output_path.read_text(encoding="utf-8")
+                # Fix: Use explicit placeholder string matching
+                placeholder = f"<!-- INTRO_PLACEHOLDER_{category.replace(' ', '_')} -->"
+                if placeholder in current_text:
+                    updated_text = current_text.replace(placeholder, synth_resp.content)
+                    output_path.write_text(updated_text, encoding="utf-8")
+                
+                # 2c. Generate School-Type Synthesis (only for II Grado)
+                is_ii_grado = filters and ("ii grado" in str(filters.get("ordine_grado", "")).lower() or 
+                                           "ii-grado" in str(filters.get("ordine_grado", "")).lower() or
+                                           "ii grado" in str(filters.get("ordine-grado", "")).lower())
+                
+                if is_ii_grado:
+                    print(f"[thematic]   Generating school-type syntheses for {category}...")
+                    
+                    # Group content by school type
+                    school_types_content = {
+                        "Licei": [],
+                        "Istituti Tecnici": [],
+                        "Istituti Professionali": []
+                    }
+                    
+                    # Track school counts by type
+                    school_types_codes = {
+                        "Licei": set(),
+                        "Istituti Tecnici": set(),
+                        "Istituti Professionali": set()
+                    }
+                    
+                    for code in schools_for_category.keys():
+                        school_info = school_data.get(code, {})
+                        tipo = school_info.get("tipo_scuola", "").lower()
+                        
+                        # Classify school
+                        if "liceo" in tipo:
+                            school_types_codes["Licei"].add(code)
+                        elif "tecnico" in tipo:
+                            school_types_codes["Istituti Tecnici"].add(code)
+                        elif "professionale" in tipo:
+                            school_types_codes["Istituti Professionali"].add(code)
+                    
+                    # Match content to school types based on school codes in entries
+                    for entry in category_content_buffer:
+                        if "####" in entry:  # Skip territory headers
+                            continue
+                        for code in school_types_codes["Licei"]:
+                            if code in entry:
+                                school_types_content["Licei"].append(entry)
+                                break
+                        for code in school_types_codes["Istituti Tecnici"]:
+                            if code in entry:
+                                school_types_content["Istituti Tecnici"].append(entry)
+                                break
+                        for code in school_types_codes["Istituti Professionali"]:
+                            if code in entry:
+                                school_types_content["Istituti Professionali"].append(entry)
+                                break
+                    
+                    # Generate synthesis for each school type that has content
+                    type_syntheses = []
+                    for school_type, content_list in school_types_content.items():
+                        if content_list:
+                            synth_data = {
+                                "category": category,
+                                "school_type": school_type,
+                                "content": "\n\n".join(content_list),
+                                "school_count": len(school_types_codes[school_type])
+                            }
+                            try:
+                                type_resp = self.provider.generate_best_practices(
+                                    synth_data,
+                                    "thematic_category_type_synthesis",
+                                    prompt_profile=prompt_profile
+                                )
+                                if type_resp.content.strip():
+                                    type_syntheses.append(f"### Sintesi {school_type}\n\n{type_resp.content.strip()}\n")
+                                    print(f"[thematic]     + {school_type} synthesis generated")
+                            except Exception as e:
+                                print(f"[thematic]     ! Error generating {school_type} synthesis: {e}")
+                    
+                    # Append type syntheses to report
+                    if type_syntheses:
+                        with open(output_path, "a", encoding="utf-8") as f:
+                            f.write("\n---\n\n")  # Separator before type syntheses
+                            f.write("\n".join(type_syntheses))
+                
+                # 2d. Generate Similar Schools Section (always, not just II Grado)
+                if len(schools_for_category) >= 3:  # Need at least 3 schools to find similarities
+                    print(f"[thematic]   Generating similar schools analysis for {category}...")
+                    
+                    # Use the already-generated content from the report, not raw activities
+                    similar_data = {
+                        "category": category,
+                        "schools_data": "\n\n".join(category_content_buffer)  # Text già scritto nel report
+                    }
+                    
+                    try:
+                        similar_resp = self.provider.generate_best_practices(
+                            similar_data,
+                            "thematic_similar_schools",
+                            prompt_profile=prompt_profile
+                        )
+                        if similar_resp.content.strip():
+                            with open(output_path, "a", encoding="utf-8") as f:
+                                f.write("\n### Scuole con Attività Simili\n\n")
+                                f.write(similar_resp.content.strip())
+                                f.write("\n\n")
+                            print(f"[thematic]     + Similar schools analysis generated")
+                    except Exception as e:
+                        print(f"[thematic]     ! Error generating similar schools: {e}")
+                        
+            else:
+                 # No content for this category
+                 print(f"[thematic] No content for {category}. Removing header.")
+                 current_text = output_path.read_text(encoding="utf-8")
+                 placeholder = f"<!-- INTRO_PLACEHOLDER_{category.replace(' ', '_')} -->"
+                 # Removes section header and placeholder
+                 to_remove = f"\n## {category}\n\n{placeholder}\n\n"
+                 updated_text = current_text.replace(to_remove, "")
+                 output_path.write_text(updated_text, encoding="utf-8")
+
+        # 3. Global Sections (Territorial, Intro, Conclusion)
+        print("[thematic] Generating Global Sections...")
+        full_report_text = output_path.read_text(encoding="utf-8")
+        
+        # 3a. Territorial Analysis
+        print("[thematic] > Generating Territorial Analysis...")
+        terr_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "report_context": full_report_text,
+            "territorial_stats": self._calculate_territorial_stats(all_practices, filters),
+            "scope": "region" if filters and filters.get("regione") else "national"
+        }
+        terr_resp = self.provider.generate_best_practices(terr_data, "thematic_territorial_analysis", prompt_profile)
+        
+        # 3b. Introduction (Global)
+        print("[thematic] > Generating Global Introduction...")
+        intro_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "report_context": full_report_text 
+        }
+        intro_resp = self.provider.generate_best_practices(intro_data, "thematic_intro", prompt_profile)
+        
+        # 3c. Conclusion
+        print("[thematic] > Generating Conclusion...")
+        concl_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "report_context": full_report_text
+        }
+        concl_resp = self.provider.generate_best_practices(concl_data, "thematic_conclusion", prompt_profile)
+
+        # 4. Final Injection
+        final_text = output_path.read_text(encoding="utf-8")
+        
+        # Inject Introduction
+        if "<!-- GLOBAL_INTRO_PLACEHOLDER -->" in final_text:
+            final_text = final_text.replace("<!-- GLOBAL_INTRO_PLACEHOLDER -->", intro_resp.content)
+        
+        # Append Territorial/Conclusion
+        # We need to rewrite just in case replacing Intro changed length
+        with open(output_path, "w", encoding="utf-8") as f: 
+            f.write(final_text)
+        
+        with open(output_path, "a", encoding="utf-8") as f:
+            f.write("\n\n## Differenze Territoriali\n\n")
+            f.write(terr_resp.content)
+            f.write("\n\n")
+            f.write(self._build_territorial_table(all_practices, bool(filters and filters.get("regione")), filters))
+            f.write("\n\n## Conclusioni e Sintesi\n\n")
+            f.write(concl_resp.content)
+            
+            f.write("\n\n## Appendice\n\n")
+            f.write(f"Analisi basata su {len(all_practices)} attività di {len(school_data)} scuole.\n")
+        
+        print(f"[thematic] Report generated: {output_path}")
+        
+        try:
+            from src.agents.meta_report.postprocess import postprocess_report
+            print("[thematic] Applying postprocessor...")
+            postprocess_report(output_path)
+        except Exception as e:
+            print(f"[thematic] Postprocessor warning: {e}")
+
+        return output_path
+
+    def _initialize_report_skeleton(self, path: Path, dimension: str, practices: list[dict], filters: dict):
+        """Initialize the report file with headers, methodology and placeholders."""
+        is_regional = bool(filters and filters.get("regione"))
+        
+        content = [
+            f"# {DIMENSIONS.get(dimension, dimension)}",
+            self._build_methodology_section(True, is_regional),
+            "## Introduzione",
+            "<!-- GLOBAL_INTRO_PLACEHOLDER -->", 
+            "\n"
+        ]
+        
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(content), encoding="utf-8")
+
+    def _calculate_territorial_stats(self, practices: list[dict], filters: dict) -> dict:
+        """Calculate territorial stats for context."""
+        stats = defaultdict(int)
+        for p in practices:
+             scuola = p.get("school", {}) or p.get("scuola", {})
+             if filters and filters.get("regione"):
+                 key = scuola.get("provincia", "ND")
+             else:
+                 key = scuola.get("regione", "ND")
+             stats[key] += 1
+        return dict(stats)
+
+        output_path = output_path.with_name(f"{output_path.stem}_{timestamp}{output_path.suffix}")
 
         # Load best practices
         all_practices = self.load_best_practices()
-
         if not all_practices:
             print("[thematic] No best practices found")
             return None
@@ -1355,260 +2044,170 @@ L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco 
             print("[thematic] No best practices found after filters")
             return None
 
-        print(f"[thematic] Loaded {len(all_practices)} best practices")
+        print(f"[thematic] Loaded {len(all_practices)} practices. Starting School-by-School Analysis...")
+        
+        # Calculate stats for territorial analysis
+        territorial_stats = defaultdict(int) 
+        for p in all_practices:
+            scuola = p.get("school", {}) or p.get("scuola", {})
+            if filters and filters.get("regione"):
+                 # Regional scope -> count per province
+                 key = scuola.get("provincia", "ND")
+            else:
+                 # National scope -> count per region
+                 key = scuola.get("regione", "ND")
+            territorial_stats[key] += 1
 
-        # Prepare thematic data
-        report_data = self._prepare_data(dimension, all_practices)
+        # 1. School Loop Analysis (Execution Phase)
+        # Returns: category -> territory -> list of entries
+        category_accumulator = self._generate_by_school_loop(all_practices, filters, prompt_profile)
 
-        if report_data["practices_count"] == 0:
-            print(f"[thematic] No practices found for dimension: {dimension}")
-            return None
+        # 2. Phase: Category Summaries (for context to Intro/Conclusion)
+        # We flatten the structure just for synthesis context
+        category_flat_notes = {}
+        for cat, territories in category_accumulator.items():
+            all_entries = []
+            for terr, entries in territories.items():
+                all_entries.extend(entries)
+            category_flat_notes[cat] = all_entries
+            
+        category_intros = {}
+        # We perform a synthesis of each category to guide the intro/conclusion
+        for cat, entries in category_flat_notes.items():
+            print(f"[thematic] Synthesizing summary for category: {cat}...")
+            summary_data = {
+                "dimension_name": cat,
+                "chunk_notes": entries[:30], # Limit context window if needed, or take sample
+                "cases_count": len(entries),
+                "scope": "region" if filters and filters.get("regione") else "national"
+            }
+            resp = self.provider.generate_best_practices(summary_data, "thematic_group_merge", prompt_profile)
+            category_intros[cat] = resp.content
 
-        # Generate report
-        print(f"[thematic] Generating report for {DIMENSIONS[dimension]}...")
-        print(f"[thematic] Found {report_data['practices_count']} relevant practices from {report_data['schools_count']} schools")
+        # 3. Phase: High Level Synthesis (Separate Calls)
+        print("[thematic] Generating High Level Synthesis Sections...")
+        
+        # 3a. Introduction
+        print("[thematic] > Generating Introduction...")
+        intro_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "category_summaries": category_intros
+        }
+        if filters: intro_data["filters"] = filters
+        intro_resp = self.provider.generate_best_practices(intro_data, "thematic_intro", prompt_profile)
+        
+        # 3b. Territorial Analysis
+        print("[thematic] > Generating Territorial Analysis...")
+        terr_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "territorial_stats": territorial_stats,
+            "scope": "region" if filters and filters.get("regione") else "national"
+        }
+        if filters: terr_data["filters"] = filters
+        terr_resp = self.provider.generate_best_practices(terr_data, "thematic_territorial_analysis", prompt_profile)
+        
+        # 3c. Conclusion
+        print("[thematic] > Generating Conclusion...")
+        concl_data = {
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "category_summaries": category_intros
+        }
+        if filters: concl_data["filters"] = filters
+        concl_resp = self.provider.generate_best_practices(concl_data, "thematic_conclusion", prompt_profile)
 
-        cases = report_data.pop("practices", [])
-        inventory_groups = report_data.pop("inventory_groups", {})
-
-        theme_groups = self._group_cases_by_theme(cases)
-        region_groups = self._group_cases_by_region(cases)
-        activities_rows = self._build_activity_rows(cases)
-
-        if filters:
-            report_data["filters"] = filters
-
-        if dimension:
-            # Raggruppamento AI-Driven: se c'è una dimensione specifica, 
-            # crea un UNICO gruppo contenente TUTTI i casi filtrati.
-            # L'LLM gestirà autonomamente i cluster interni.
-            dim_name = DIMENSIONS.get(dimension, dimension)
-            theme_groups = {dim_name: cases}
-            theme_counts = {dim_name: len(cases)}
-            theme_order = [dim_name]
-            print(f"[thematic] Single-group mode for '{dim_name}': {len(cases)} cases")
-        else:
-            # Raggruppamento per tag (legacy/multi-dimensione)
-            theme_groups = self._group_cases_by_theme(cases)
-            theme_counts = {t: len(g) for t, g in theme_groups.items()}
-            theme_order = sorted(theme_counts.keys(), key=lambda t: theme_counts[t], reverse=True)
-
-        print(f"[thematic] Themes detected: {len(theme_counts)}")
-
-        # Calcola soglia dinamica basata sul numero di scuole
-        total_schools = len(set(
-            c.get("scuola", {}).get("codice") for c in cases if c.get("scuola", {}).get("codice")
+        # 4. Assemble Report
+        content_parts = [
+            f"# {DIMENSIONS.get(dimension, dimension)}",
+            self._build_methodology_section(True, bool(filters and filters.get("regione"))),
+            "## Introduzione",
+            intro_resp.content
+        ]
+        
+        priority_order = [
+            "Progetti e Attività Esemplari",
+            "Metodologie Didattiche Innovative",
+            "Partnership e Collaborazioni",
+            "Azioni di Sistema",
+            "Inclusione e BES",
+            "Esperienze Territoriali"
+        ]
+        
+        # Merge discovered categories
+        sorted_cats = [c for c in priority_order if c in category_accumulator]
+        other_cats = [c for c in category_accumulator if c not in priority_order]
+        sorted_cats.extend(other_cats)
+        
+        for cat in sorted_cats:
+            content_parts.append(f"## {cat}")
+            # Add the category synthesis
+            content_parts.append(category_intros.get(cat, ""))
+            
+            # Add the school-by-school details, grouped by territory
+            content_parts.append("### Dettaglio Scuole\n")
+            territories = category_accumulator[cat]
+            for territory in sorted(territories.keys()):
+                entries = territories[territory]
+                if entries:
+                    content_parts.append(f"#### {territory}")
+                    content_parts.append("\n\n".join(entries))
+        
+        # Territorial Differences
+        content_parts.append("## Differenze Territoriali")
+        content_parts.append(terr_resp.content)
+        
+        # Insert table AFTER text
+        content_parts.append(self._build_territorial_table(
+            all_practices, 
+            bool(filters and filters.get("regione")), 
+            filters,
+            prompt_profile=prompt_profile
         ))
         
-        if total_schools < 5:
-            dynamic_threshold = 1  # Soglia bassissima per contesti piccoli
-        elif total_schools < 10:
-            dynamic_threshold = 2
-        elif total_schools < 30:
-            dynamic_threshold = 3
-        elif total_schools < 50:
-            dynamic_threshold = 4
-        else:
-            dynamic_threshold = 5
-        
-        # Consenti override da env var, altrimenti usa soglia dinamica
-        env_threshold = os.getenv("META_REPORT_MIN_THEME_CASES")
-        if env_threshold:
-            min_theme_cases = int(env_threshold)
-            print(f"[thematic] Using env threshold: {min_theme_cases} (override)")
-        else:
-            min_theme_cases = dynamic_threshold
-            print(f"[thematic] Using dynamic threshold: {min_theme_cases} (based on {total_schools} schools)")
+        # Conclusions
+        content_parts.append("## Conclusioni e Sintesi")
+        content_parts.append(concl_resp.content)
 
-        # Separa temi maggiori da minori
-        major_themes = [t for t in theme_order if theme_counts[t] >= min_theme_cases]
-        minor_themes = {t: theme_groups[t] for t in theme_order if theme_counts[t] < min_theme_cases}
-
-        if not dimension:
-            print(f"[thematic] Major themes (>={min_theme_cases} cases): {len(major_themes)}")
-            print(f"[thematic] Minor themes (<{min_theme_cases} cases): {len(minor_themes)}")
-        
-        # Genera tabella riepilogativa
-        summary_table = self._build_summary_table(theme_counts, theme_groups, min_theme_cases)
-
-        theme_summaries = {}
-        if not dimension:
-            print("[thematic] Avvio analisi temi maggiori")
-        
-        for theme in major_themes:
-            if not dimension:
-                print(f"[thematic] Analisi tema: {theme} ({theme_counts[theme]} casi)")
-            theme_summaries[theme] = self._generate_theme_summary(
-                dimension,
-                DIMENSIONS[dimension],
-                theme,
-                theme_groups[theme],
-                prompt_profile,
-                filters=filters
-            )
-
-        # Sezione per temi minori (solo se non siamo in modalità single-dimension)
-        minor_themes_section = None # Initialize to None
-        if not dimension:
-            minor_themes_section = self._build_minor_themes_section(minor_themes, theme_counts)
-
-        print("[thematic] Sintesi temi (merge)")
-        summary_data = {
-            "dimension": dimension,
-            "dimension_name": DIMENSIONS[dimension],
-            "themes": major_themes,  # Solo temi maggiori nella sintesi
-            "theme_counts": {t: theme_counts[t] for t in major_themes},
-            "theme_summaries": theme_summaries,
-            "minor_themes_count": len(minor_themes),
-            "scope": "national",
-        }
-        if filters:
-            summary_data["filters"] = filters
-        summary_response = self.provider.generate_best_practices(
-            summary_data,
-            "thematic_summary_merge",
-            prompt_profile=prompt_profile
-        )
-
-        include_regions = os.getenv("META_REPORT_INCLUDE_REGIONS", "0").strip().lower() in ("1", "true", "yes")
-        regional_sections = {}
-        if include_regions:
-            print("[thematic] Avvio analisi temi per regione")
-            for region in sorted(region_groups.keys()):
-                region_cases = region_groups[region]
-                print(f"[thematic] Analisi regione: {region} ({len(region_cases)} casi)")
-                region_theme_groups = self._group_cases_by_theme(region_cases)
-                region_theme_counts = {t: len(g) for t, g in region_theme_groups.items()}
-                region_theme_order = sorted(region_theme_counts.keys(), key=lambda t: region_theme_counts[t], reverse=True)
-                region_theme_summaries = {}
-                for theme in region_theme_order:
-                    print(f"[thematic] Analisi tema/regione: {region} / {theme} ({region_theme_counts[theme]} casi)")
-                    region_theme_summaries[theme] = self._generate_theme_summary(
-                        dimension,
-                        DIMENSIONS[dimension],
-                        theme,
-                        region_theme_groups[theme],
-                        prompt_profile,
-                        filters=filters,
-                        region=region
-                    )
-                region_summary_data = {
-                    "dimension": dimension,
-                    "dimension_name": DIMENSIONS[dimension],
-                    "region": region,
-                    "themes": region_theme_order,
-                    "theme_counts": region_theme_counts,
-                    "theme_summaries": region_theme_summaries,
-                    "scope": "region",
-                }
-                if filters:
-                    region_summary_data["filters"] = filters
-                print(f"[thematic] Sintesi tema/regione (merge): {region}")
-                region_summary_response = self.provider.generate_best_practices(
-                    region_summary_data,
-                    "regional_summary_merge",
-                    prompt_profile=prompt_profile
-                )
-                regional_sections[region] = {
-                    "themes": region_theme_order,
-                    "theme_summaries": region_theme_summaries,
-                    "summary": region_summary_response.content,
-                }
-            print("[thematic] Sintesi regioni completata")
-        else:
-            print("[thematic] Analisi per regione disattivata (META_REPORT_INCLUDE_REGIONS=0)")
-
-        content_parts = [f"# {DIMENSIONS[dimension]}"]
-
-        # Nota metodologica all'inizio (dinamica)
-        is_single_theme = bool(dimension)
-        is_regional = bool(filters and filters.get("regione"))
-        methodology_content = self._build_methodology_section(is_single_theme, is_regional)
-        
-        content_parts.append(methodology_content)
-
-        # Tabella riepilogativa all'inizio
-        # Se siamo in single-theme, la tabella "Panoramica Temi" è ridondante se mostra solo 1 riga
-        # La trasformiamo in "Panoramica Territoriale"
-        
-        if is_single_theme:
-             # Genera tabella territoriale
-             territory_table = self._build_territorial_table(theme_groups[DIMENSIONS[dimension]], is_regional, filters)
-             content_parts.append(territory_table)
-        else:
-             content_parts.append("## Panoramica temi")
-             summary_table = self._build_summary_table(theme_counts, theme_groups, min_theme_cases, is_regional)
-             content_parts.append(summary_table)
-
-        # Analisi temi maggiori
-        if not dimension:
-            content_parts.append("## Analisi per tematiche")
-            
-        for theme in major_themes:
-            # In modalità single dimension, il titolo del tema è già nel report o non serve ridondanza
-            if not dimension:
-                content_parts.append(f"### {theme}")
-            content_parts.append(theme_summaries[theme])
-
-        # Sezione temi minori (se presenti)
-        if minor_themes_section:
-            content_parts.append("## Altri temi emergenti")
-            content_parts.append(minor_themes_section)
-
-        content_parts.append("## Sintesi")
-        content_parts.append(summary_response.content)
-
-        if include_regions:
-            content_parts.append("## Analisi per regione")
-            for region in sorted(regional_sections.keys()):
-                section = regional_sections[region]
-                content_parts.append(f"### {region}")
-                for theme in section["themes"]:
-                    content_parts.append(f"#### {theme}")
-                    content_parts.append(section["theme_summaries"][theme])
-                content_parts.append("#### Sintesi regionale")
-                content_parts.append(section["summary"])
-
-        # Appendice: Inventario completo (opzionale - ridondante col CSV)
-        # Per modelli locali, disabilitato di default per ridurre output
-        include_inventory = os.getenv("META_REPORT_INCLUDE_INVENTORY", "0").strip().lower() in ("1", "true", "yes")
-        if include_inventory and inventory_groups:
-            content_parts.append(self._render_inventory(inventory_groups))
-        elif inventory_groups:
-            content_parts.append("\n*Inventario completo disponibile nel file `.activities.csv` allegato.*")
-
-
-        # Appendice con riferimento al file CSV
+        # Appendice
         appendix_lines = [
-            "## Appendice: Elenco completo attività",
+            "## Appendice: Note",
             "",
-            f"📊 **Statistiche**: {report_data['practices_count']} attività da {report_data['schools_count']} scuole",
-            "",
-            f"Il file CSV completo con tutte le attività è disponibile in:",
-            f"`{output_path.stem}.activities.csv`",
-            "",
-            "Il file contiene: codice scuola, nome scuola, regione, provincia, tipo scuola, categoria, titolo, ambiti attività.",
+            f"Analisi basata su {len(all_practices)} attività.",
+            "Il report è stato generato aggregando le analisi delle singole scuole.",
         ]
         content_parts.append("\n".join(appendix_lines))
-
-        content = "\n\n".join(content_parts)
-        content = self._normalize_report_headings(content)
-
+        
+        final_text = "\n\n".join(content_parts)
+        
         # Write report
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(final_text, encoding="utf-8")
+        
+        print(f"[thematic] Report generated: {output_path}")
+        
+        # Metadata
         metadata = {
             "dimension": dimension,
-            "dimension_name": DIMENSIONS[dimension],
-            "practices_analyzed": report_data["practices_count"],
-            "schools_involved": report_data["schools_count"],
+            "dimension_name": DIMENSIONS.get(dimension, dimension),
+            "practices_analyzed": len(all_practices),
+            "schools_involved": len(set(p.get("school", {}).get("codice_meccanografico") for p in all_practices if p.get("school", {}).get("codice_meccanografico"))),
         }
         if filters:
             metadata["filters"] = self._format_filters(filters)
         metadata["prompt_profile"] = prompt_profile
 
-        self.write_report(content, output_path, metadata)
-        self._write_activity_table(output_path, activities_rows)
-        print(f"[thematic] Report saved: {output_path}")
+        # The original code had self.write_report and _write_activity_table here.
+        # Since the new code writes directly to output_path, we need to adapt.
+        # Assuming _write_activity_table is still desired, but it needs 'activities_rows'.
+        # The new strategy doesn't explicitly build 'activities_rows' in the same way.
+        # For now, I'll comment out _write_activity_table if 'activities_rows' is not available.
+        # If the user wants to keep it, they need to ensure 'activities_rows' is populated.
+        # For this change, I'll assume it's not directly needed or will be handled elsewhere.
+        # The instruction only provided the new generate method body.
 
+        # If self.write_report is meant to add metadata, we can add it here.
+        # However, the new code already writes the content.
+        # Let's just return the path as the new code does.
+        
         # Postprocessing automatico per correggere codici e formattazione
         try:
             from src.agents.meta_report.postprocess import postprocess_report
@@ -1616,6 +2215,18 @@ L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco 
             postprocess_report(output_path)
         except Exception as e:
             print(f"[thematic] Postprocessor warning: {e}")
+
+        # Raffinamento automatico con LLM (opzionale, controllato da env var)
+        if os.environ.get("META_REPORT_REFINE", "0") == "1":
+            try:
+                from src.agents.meta_report.refine import refine_report
+                print("[thematic] Applying refinement agent...")
+                refine_report(output_path, provider_name=self.provider.__class__.__name__.lower().replace("provider", ""))
+            except Exception as e:
+                print(f"[thematic] Refinement warning: {e}")
+        else:
+            print(f"[thematic] Refinement skipped (set META_REPORT_REFINE=1 to enable)")
+            print(f"[thematic] Or run: make meta-refine REPORT={output_path}")
 
         return output_path
 

@@ -104,9 +104,9 @@ class BaseProvider(ABC):
             Tuple of (cleaned content, list of invalid codes found)
         """
         # Pattern per codici meccanografici italiani:
-        # 2 lettere regione + 2 lettere tipo istituto + 5-6 caratteri alfanumerici
+        # 2 lettere regione + 2 lettere tipo istituto + 5-7 caratteri alfanumerici
         # Es: RMPS12345X, MIIS00900T, TOPS01000B
-        pattern = r'\b([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6})\b'
+        pattern = r'\b([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,7})\b'
 
         found_codes = set(re.findall(pattern, content))
         invalid_codes = [code for code in found_codes if code not in valid_codes]
@@ -139,7 +139,7 @@ class BaseProvider(ABC):
             # Cerca codice in vari formati possibili
             if "(" in case and ")" in case:
                 # Estrai da formato "Nome Scuola (CODICE)"
-                match = re.search(r'\(([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,6})\)', case)
+                match = re.search(r'\(([A-Z]{2}[A-Z]{2}[A-Z0-9]{5,7})\)', case)
                 if match:
                     valid_codes.add(match.group(1))
 
@@ -186,7 +186,10 @@ class BaseProvider(ABC):
         # Chunk parziali (da integrare) -> NO titoli Markdown
         report_types_with_headers = {
             "school", "regional", "national", "thematic",
-            "thematic_chunk_merge", "thematic_group_merge"
+            "thematic_chunk_merge", "thematic_group_merge",
+            "thematic_school_analysis",
+            "thematic_intro", "thematic_territorial_analysis", "thematic_conclusion",
+            "thematic_category_type_synthesis", "thematic_similar_schools"
         }
         report_types_without_headers = {
             "thematic_chunk", "thematic_group_chunk",
@@ -544,35 +547,14 @@ Statistiche: {cases_count} attività, {schools_count} scuole
 ANALISI PARZIALI DA INTEGRARE:
 {chunk_text}
 
-COMPITO: Scrivi un REPORT MONOGRAFICO completo con la seguente struttura.
-
-STRUTTURA OBBLIGATORIA (usa ### per i titoli):
-### Executive Summary
-Sintesi di 100 parole con i trend principali.
-
-### Direttrici Strategiche
-Descrive le strategie dominanti (200 parole). Cita almeno 5 scuole con **Nome Scuola** (Codice).
-
-### Intersezioni Multidisciplinari
-Come l'orientamento si integra con altre discipline (150 parole).
-
-### Metodologie e Strumenti
-Approcci pedagogici e tecnologie utilizzate (150 parole).
-
-### Casi Rilevanti
-Descrivi 4-6 progetti esemplari con dettagli (200 parole). Usa **grassetto** per i nomi.
-
-### Analisi Territoriale
-Distribuisci l'analisi per provincia, evidenziando differenze (150 parole).
-
-### Sintesi
-Conclusioni e raccomandazioni (150 parole).
+COMPITO: Scrivi UN SOLO PARAGRAFO introduttivo (max 80-100 parole) che riassuma concretamente di cosa trattano le attività in questa categoria.
 
 REGOLE:
-- Prosa narrativa fluida, NO elenchi puntati nel corpo del testo
-- Usa **grassetto** per Scuole, Province, Regioni
-- Cita almeno {min_citations} scuole con Nome (Codice)
-- Totale: 1000-1200 parole
+- Sii specifico e basati SOLO sui dati forniti.
+- NON usare titoli o sottotitoli.
+- NON usare elenchi puntati.
+- NON usare frasi generiche o "fluff" (es. "L'analisi rivela...", "scenario in evoluzione").
+- Vai dritto al punto: "Le scuole si concentrano su...", "I progetti principali riguardano...".
 """
 
         if report_type == "thematic_summary_merge":
@@ -666,13 +648,158 @@ DATI NAZIONALI:
 {structure}
 """
 
+        if report_type == "thematic_category_school_analysis":
+            school_name = analysis_data.get("school_name", "Scuola")
+            category = analysis_data.get("category", "Categoria")
+            dimension = analysis_data.get("dimension", "Dimensione")
+            school_level = analysis_data.get("school_level", "Ordine")
+
+            return f"""Analizza le attività della scuola "{school_name}" per la categoria: "{category}".
+
+Profilo: {prompt_profile}
+Filtri Attivi: Dimensione="{dimension}", Ordine="{school_level}"
+
+DATI ATTIVITÀ (Grezzi):
+{json.dumps(analysis_data.get("practices", []), indent=2, ensure_ascii=False)}
+
+COMPITO:
+1. Identifica SOLO le attività pertinenti alla categoria "{category}" E alla dimensione "{dimension}" (escludi altri ordini scolastici se specificato).
+2. Scrivi un breve paragrafo narrativo che descriva queste attività.
+3. Se un'attività appartiene ANCHE ad altre categorie (es. "{dimension}" e "BES/Inclusione"), DEVI ESPLICITARE questa connessione nel testo. Spiega il legame.
+
+REGOLE:
+- Se NON ci sono attività pertinenti per questa categoria, restituisci UNA STRINGA VUOTA.
+- NON usare titoli Markdown (saranno aggiunti esternamente).
+- Cita i titoli delle attività tra virgolette.
+- Stile conciso e diretto.
+"""
+
+        if report_type == "thematic_intro":
+            dimension_name = analysis_data.get("dimension_name", "questa dimensione")
+            # Analysis data now contains the full text of the report so far or specific context
+            report_context = analysis_data.get("report_context", "")
+            return f"""Scrivi l'INTRODUZIONE per il report sulla dimensione "{dimension_name}".
+
+Profilo: {prompt_profile}
+{filters_line}
+
+CONTESTO REPORT (Bozza parziale):
+{report_context[:4000]}... (troncato per brevità)
+
+COMPITO:
+Scrivi un'introduzione di alto livello (max 300 parole).
+- Anticipa i temi chiave emersi nel report.
+- Stile narrativo e coinvolgente.
+- NON inventare dati non presenti nel contesto.
+"""
+
+        if report_type == "thematic_territorial_analysis":
+            dimension_name = analysis_data.get("dimension_name", "questa dimensione")
+            scope = analysis_data.get("scope", "national")
+            report_context = analysis_data.get("report_context", "")
+            return f"""Scrivi l'ANALISI TERRITORIALE per il report sulla dimensione "{dimension_name}".
+
+Profilo: {prompt_profile}
+Ambito: {scope}
+{filters_line}
+
+CONTESTO REPORT (Bozza parziale):
+{report_context[:8000]}... (troncato)
+
+STATISTICHE TERRITORIALI:
+{json.dumps(analysis_data.get("territorial_stats", {}), indent=2, ensure_ascii=False)}
+
+COMPITO:
+Analizza le differenze territoriali basandoti SU QUANTO GIA SCRITTO nel report.
+- Dove si concentrano le eccellenze?
+- Ci sono specificità provinciali/regionali evidenti nel testo?
+- Max 400 parole.
+"""
+
+        if report_type == "thematic_conclusion":
+            dimension_name = analysis_data.get("dimension_name", "questa dimensione")
+            report_context = analysis_data.get("report_context", "")
+            return f"""Scrivi le CONCLUSIONI per il report sulla dimensione "{dimension_name}".
+
+Profilo: {prompt_profile}
+{filters_line}
+
+CONTESTO REPORT (Completo):
+{report_context[:8000]}... (troncato)
+
+COMPITO:
+Scrivi una sintesi finale descrittiva (max 300 parole).
+- Basati interamente su quanto emerso nel report.
+- Riassumi le tendenze principali osservate.
+- Evidenzia i pattern comuni e le peculiarità emerse.
+
+IMPORTANTE:
+- Questa è un'analisi ESPLORATIVA e DESCRITTIVA.
+- NON dare giudizi di valore, valutazioni o raccomandazioni.
+- NON suggerire miglioramenti o azioni da intraprendere.
+- Limitati a descrivere ciò che è emerso dall'analisi.
+"""
+
+        elif report_type == "thematic_category_type_synthesis":
+            category = analysis_data.get("category", "")
+            school_type = analysis_data.get("school_type", "")
+            content = analysis_data.get("content", "")
+            school_count = analysis_data.get("school_count", 0)
+            
+            return f"""Sintetizza le attività di orientamento per gli istituti **{school_type}** nella categoria "{category}".
+
+Numero di scuole {school_type}: {school_count}
+
+CONTENUTO DA SINTETIZZARE:
+{content[:6000]}
+
+COMPITO:
+Genera un paragrafo di sintesi (max 120 parole) che evidenzi:
+1. Caratteristiche distintive dell'approccio di questi istituti
+2. Tendenze comuni tra le scuole
+3. Punti di forza specifici del tipo di istituto
+
+IMPORTANTE:
+- Scrivi in modo narrativo, NON usare elenchi puntati.
+- Fai riferimento a esempi concreti dal contenuto.
+- Non citare codici meccanografici, usa solo nomi di scuole se necessario.
+- NON dare raccomandazioni o giudizi, solo descrizione.
+"""
+
+        elif report_type == "thematic_similar_schools":
+            category = analysis_data.get("category", "")
+            schools_data = analysis_data.get("schools_data", "")
+            
+            return f"""Identifica gruppi di scuole con attività simili nella categoria "{category}".
+
+CONTENUTO DEL REPORT (già scritto):
+{schools_data[:8000]}
+
+COMPITO:
+Basandoti sul contenuto già scritto nel report, identifica gruppi di scuole che presentano approcci o focus simili (max 200 parole).
+
+Per ogni gruppo identificato, scrivi:
+- Il tema/focus comune che accomuna le scuole
+- L'elenco delle scuole che condividono questo approccio
+
+Esempio di formato:
+**Focus su [tema]**: [Scuola A], [Scuola B], [Scuola C] condividono un approccio orientato a [descrizione breve].
+
+IMPORTANTE:
+- Identifica 2-4 gruppi significativi di scuole con affinità.
+- Descrivi SOLO le similarità osservate, non suggerire collaborazioni.
+- Usa nomi delle scuole, non codici meccanografici.
+- Scrivi in modo descrittivo e oggettivo.
+- NON dare raccomandazioni o suggerimenti operativi.
+"""
+
         else:  # thematic
             dimension_name = analysis_data.get("dimension_name", "questa dimensione")
             return f"""Analizza i seguenti dati sulla dimensione "{dimension_name}":
 
-Profilo: {prompt_profile}
+{prompt_profile}
 {filters_line}
-Focus: {focus_line}
+{focus_line}
 
 DATI TEMATICI:
 {json.dumps(analysis_data, indent=2, ensure_ascii=False)}
@@ -683,6 +810,5 @@ Scrivi un report NARRATIVO e DISCORSIVO (non una lista di punti) che includa:
 
 {thematic_structure}
 
-IMPORTANTE: Scrivi in modo narrativo e coinvolgente, come un articolo di approfondimento. Evita elenchi puntati lunghi.
-NON includere inventari completi: il dettaglio attivita e in tabella separata.
+IMPORTANTE: Scrivi in modo narrativo e coinvolgente.
 """

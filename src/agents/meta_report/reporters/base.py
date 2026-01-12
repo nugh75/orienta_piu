@@ -147,10 +147,14 @@ class BaseReporter(ABC):
         parts = []
         for key in sorted(filters.keys()):
             values = filters[key]
+            if isinstance(values, str):
+                values = [values]
             if not values:
                 continue
-            value = "+".join(values)
-            slug = re.sub(r"[^a-z0-9+]+", "-", value.lower()).strip("-")
+            # Normalize each value: replace spaces with hyphens, then join with +
+            normalized_values = [re.sub(r"\s+", "-", v.strip()) for v in values]
+            value = "+".join(normalized_values)
+            slug = re.sub(r"[^a-z0-9+-]+", "-", value.lower()).strip("-")
             parts.append(f"{key}={slug}")
 
         return f"__{'__'.join(parts)}" if parts else ""
@@ -191,8 +195,15 @@ class BaseReporter(ABC):
             "territorio": school_info.get("territorio"),
         }
 
-    def write_report(self, content: str, output_path: Path, metadata: dict) -> Path:
-        """Write report to file with metadata header."""
+    def write_report(self, content: str, output_path: Path, metadata: dict, postprocess: bool = True) -> Path:
+        """Write report to file with metadata header.
+
+        Args:
+            content: Report content
+            output_path: Path to write the report
+            metadata: Metadata dict for YAML header
+            postprocess: If True, apply postprocessing to fix formatting issues
+        """
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         header = f"""---
@@ -205,4 +216,13 @@ report_type: {self.report_type}
         header += "---\n\n"
 
         output_path.write_text(header + content, encoding="utf-8")
+
+        # Apply postprocessing to fix common formatting issues
+        if postprocess:
+            try:
+                from ..postprocess import postprocess_report
+                postprocess_report(output_path, dry_run=False)
+            except Exception as e:
+                print(f"[warning] Postprocess failed: {e}")
+
         return output_path
