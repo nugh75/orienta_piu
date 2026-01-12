@@ -30,19 +30,12 @@ REGOLE CITAZIONI:
 """
 
 NARRATIVE_STYLE = """
-STILE NARRATIVO OBBLIGATORIO:
-- Scrivi ESCLUSIVAMENTE in prosa fluida e discorsiva
-- NON usare MAI elenchi puntati (-, *, •)
-- NON usare MAI elenchi numerati (1., 2., 3.)
+STILE NARRATIVO:
+- Scrivi in prosa fluida e discorsiva come default
+- Usa elenchi puntati SOLO se richiesto esplicitamente per liste di attività o dati
 - Usa connettivi logici: inoltre, tuttavia, in particolare, analogamente, similmente
-- NON usare grassetto (**) in nessun caso
-- Costruisci paragrafi coesi di 4-6 frasi
-
-VIETATO CATEGORICAMENTE:
-- Creare liste di qualsiasi tipo
-- Usare ":" seguito da elenchi
-- Strutturare il testo come bullet points mascherati
-- Usare doppi asterischi per grassetto
+- NON usare grassetto (**) eccetto per i titoli Markdown
+- Costruisci paragrafi coesi
 """
 
 # =============================================================================
@@ -77,7 +70,7 @@ PROFILE_STRUCTURES = {
         "description": "Copri tutti gli aspetti principali senza approfondire troppo. Bilancia punti di forza e aree di sviluppo.",
         "target_audience": "dirigenti, stakeholder generici",
         "word_count": "800-1200 parole",
-        "sections": ["Sintesi", "Analisi", "Punti di Forza", "Conclusioni"],
+        "sections": [],
         "requirements": []
     },
     "innovative": {

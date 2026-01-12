@@ -15,6 +15,7 @@ Per la mappa documentazione vedi [MAP](../MAP.md).
   - [Validazione](#-validazione)
 - [Workflow](#-workflow-analisi)
 - [Catalogo Buone Pratiche](#-catalogo-buone-pratiche)
+- [Meta Report](#-meta-report-best-practices)
 - [Outreach](#-outreach-ptof)
 - [Registro Analisi](#-registro-analisi)
 - [Manutenzione](#-manutenzione-report)
@@ -42,24 +43,24 @@ make help
 
 ### Comandi base
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make download` | Dry-run: mostra stratificazione senza scaricare |
-| `make download-sample` | Scarica 5 scuole per ogni strato |
-| `make download-strato N=X` | Scarica X scuole per ogni strato |
-| `make download-reset` | Reset stato download e ricomincia |
+| Comando                    | Descrizione                                     |
+| -------------------------- | ----------------------------------------------- |
+| `make download`            | Dry-run: mostra stratificazione senza scaricare |
+| `make download-sample`     | Scarica 5 scuole per ogni strato                |
+| `make download-strato N=X` | Scarica X scuole per ogni strato                |
+| `make download-reset`      | Reset stato download e ricomincia               |
 
 ### Filtri specifici
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make download-statali` | Solo scuole statali |
-| `make download-paritarie` | Solo scuole paritarie |
-| `make download-regione R=LAZIO` | Scuole di una regione |
-| `make download-metro` | Solo province metropolitane |
-| `make download-non-metro` | Solo province NON metropolitane |
-| `make download-grado G=SEC_SECONDO` | Per grado scolastico |
-| `make download-area A=SUD` | Per area geografica |
+| Comando                             | Descrizione                     |
+| ----------------------------------- | ------------------------------- |
+| `make download-statali`             | Solo scuole statali             |
+| `make download-paritarie`           | Solo scuole paritarie           |
+| `make download-regione R=LAZIO`     | Scuole di una regione           |
+| `make download-metro`               | Solo province metropolitane     |
+| `make download-non-metro`           | Solo province NON metropolitane |
+| `make download-grado G=SEC_SECONDO` | Per grado scolastico            |
+| `make download-area A=SUD`          | Per area geografica             |
 
 ### Esempi d'uso
 
@@ -81,12 +82,15 @@ make download-area A=ISOLE
 ### Valori ammessi
 
 **Gradi (G=)**:
+
 - `INFANZIA`, `PRIMARIA`, `SEC_PRIMO`, `SEC_SECONDO`, `ALTRO`
 
 **Aree (A=)**:
+
 - `NORD OVEST`, `NORD EST`, `CENTRO`, `SUD`, `ISOLE`
 
 **Regioni (R=)**:
+
 - `ABRUZZO`, `BASILICATA`, `CALABRIA`, `CAMPANIA`, `EMILIA ROMAGNA`
 - `FRIULI-VENEZIA G.`, `LAZIO`, `LIGURIA`, `LOMBARDIA`, `MARCHE`
 - `MOLISE`, `PIEMONTE`, `PUGLIA`, `SARDEGNA`, `SICILIA`
@@ -98,10 +102,10 @@ make download-area A=ISOLE
 
 ### Workflow principale
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make run` | Esegue analisi sui PDF in `ptof_inbox/` |
-| `make run-force` | Forza ri-analisi di tutti i file |
+| Comando                      | Descrizione                             |
+| ---------------------------- | --------------------------------------- |
+| `make run`                   | Esegue analisi sui PDF in `ptof_inbox/` |
+| `make run-force`             | Forza ri-analisi di tutti i file        |
 | `make run-force-code CODE=X` | Forza ri-analisi di un codice specifico |
 
 ---
@@ -110,27 +114,27 @@ make download-area A=ISOLE
 
 Arricchisce i report Markdown con dettagli estratti dal PTOF originale.
 
-| Comando | Provider | API Key |
-|---------|----------|---------|
-| `make review-report-openrouter` | OpenRouter | `OPENROUTER_API_KEY` |
-| `make review-report-gemini` | Google Gemini | `GEMINI_API_KEY` |
-| `make review-report-ollama` | Ollama locale | Nessuna |
+| Comando                         | Provider      | API Key              |
+| ------------------------------- | ------------- | -------------------- |
+| `make review-report-openrouter` | OpenRouter    | `OPENROUTER_API_KEY` |
+| `make review-report-gemini`     | Google Gemini | `GEMINI_API_KEY`     |
+| `make review-report-ollama`     | Ollama locale | Nessuna              |
 
 #### Parametri comuni
 
-| Parametro | Descrizione | Default |
-|-----------|-------------|---------|
-| `MODEL=X` | Nome del modello | Varia per provider |
-| `TARGET=X` | Codice scuola specifico | Tutti |
-| `LIMIT=X` | Numero max di file | 100 |
-| `WAIT=X` | Secondi tra chiamate | 120 |
+| Parametro  | Descrizione             | Default            |
+| ---------- | ----------------------- | ------------------ |
+| `MODEL=X`  | Nome del modello        | Varia per provider |
+| `TARGET=X` | Codice scuola specifico | Tutti              |
+| `LIMIT=X`  | Numero max di file      | 100                |
+| `WAIT=X`   | Secondi tra chiamate    | 120                |
 
 #### Parametri Ollama aggiuntivi
 
-| Parametro | Descrizione | Default |
-|-----------|-------------|---------|
+| Parametro      | Descrizione       | Default                       |
+| -------------- | ----------------- | ----------------------------- |
 | `OLLAMA_URL=X` | URL server Ollama | `http://192.168.129.14:11434` |
-| `CHUNK_SIZE=X` | Dimensione chunk | 30000 |
+| `CHUNK_SIZE=X` | Dimensione chunk  | 30000                         |
 
 #### Esempi
 
@@ -151,19 +155,19 @@ make review-report-ollama MODEL=qwen3:32b OLLAMA_URL=http://localhost:11434
 
 Rivede e corregge i punteggi estremi (troppo alti o troppo bassi) nei file JSON.
 
-| Comando | Provider | API Key |
-|---------|----------|---------|
-| `make review-scores-openrouter` | OpenRouter | `OPENROUTER_API_KEY` |
-| `make review-scores-gemini` | Google Gemini | `GEMINI_API_KEY` |
-| `make review-scores-ollama` | Ollama locale | Nessuna |
+| Comando                         | Provider      | API Key              |
+| ------------------------------- | ------------- | -------------------- |
+| `make review-scores-openrouter` | OpenRouter    | `OPENROUTER_API_KEY` |
+| `make review-scores-gemini`     | Google Gemini | `GEMINI_API_KEY`     |
+| `make review-scores-ollama`     | Ollama locale | Nessuna              |
 
 #### Parametri specifici
 
-| Parametro | Descrizione | Default |
-|-----------|-------------|---------|
-| `LOW=X` | Soglia bassa (<=) | 2 |
-| `HIGH=X` | Soglia alta (>=) | 6 |
-| `MAX_CHARS=X` | Max caratteri nel prompt | 60000 |
+| Parametro     | Descrizione              | Default |
+| ------------- | ------------------------ | ------- |
+| `LOW=X`       | Soglia bassa (<=)        | 2       |
+| `HIGH=X`      | Soglia alta (>=)         | 6       |
+| `MAX_CHARS=X` | Max caratteri nel prompt | 60000   |
 
 #### Come funziona
 
@@ -192,20 +196,20 @@ make review-scores-ollama MODEL=qwen3:32b LOW=2 HIGH=6
 
 ### 🔍 Validazione
 
-| Comando | Descrizione |
-|---------|-------------|
+| Comando                | Descrizione                            |
+| ---------------------- | -------------------------------------- |
 | `make review-non-ptof` | Rimuove analisi per documenti non-PTOF |
 
 #### Parametri
 
-| Parametro | Descrizione | Default |
-|-----------|-------------|---------|
-| `TARGET=X` | Codice scuola specifico | Tutti |
-| `DRY=1` | Dry-run (mostra senza eseguire) | No |
-| `NO_LLM=1` | Non usare LLM per validazione | No |
-| `NO_MOVE=1` | Non spostare PDF | No |
-| `LIMIT=X` | Numero max di file | Tutti |
-| `MAX_SCORE=X` | Soglia massima punteggio | 2.0 |
+| Parametro     | Descrizione                     | Default |
+| ------------- | ------------------------------- | ------- |
+| `TARGET=X`    | Codice scuola specifico         | Tutti   |
+| `DRY=1`       | Dry-run (mostra senza eseguire) | No      |
+| `NO_LLM=1`    | Non usare LLM per validazione   | No      |
+| `NO_MOVE=1`   | Non spostare PDF                | No      |
+| `LIMIT=X`     | Numero max di file              | Tutti   |
+| `MAX_SCORE=X` | Soglia massima punteggio        | 2.0     |
 
 #### Esempi
 
@@ -224,34 +228,35 @@ make review-non-ptof MAX_SCORE=1.5
 
 ## 🔄 Workflow Analisi
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make setup` | Installa le dipendenze |
-| `make run` | Esegue il workflow completo |
-| `make dashboard` | Avvia la dashboard Streamlit |
-| `make csv` | Rigenera il CSV dai file JSON |
-| `make backfill` | Backfill metadati mancanti con LLM |
-| `make clean` | Pulisce file temporanei e cache |
+| Comando          | Descrizione                        |
+| ---------------- | ---------------------------------- |
+| `make setup`     | Installa le dipendenze             |
+| `make run`       | Esegue il workflow completo        |
+| `make dashboard` | Avvia la dashboard Streamlit       |
+| `make csv`       | Rigenera il CSV dai file JSON      |
+| `make backfill`  | Backfill metadati mancanti con LLM |
+| `make clean`     | Pulisce file temporanei e cache    |
 
 ### Combinazioni
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make refresh` | csv + dashboard |
-| `make full` | run + csv + dashboard |
+| Comando         | Descrizione                             |
+| --------------- | --------------------------------------- |
+| `make refresh`  | csv + dashboard                         |
+| `make full`     | run + csv + dashboard                   |
 | `make pipeline` | download-sample + run + csv + dashboard |
 
 ### Parametri Workflow
 
-| Parametro | Descrizione | Esempio |
-|-----------|-------------|---------|
-| `PRESET` | ID configurazione LLM (vedi `config/pipeline_config.json`) | `PRESET=8` |
-| `FORCE_CODE` | ⚡ Ri-analizza SOLO una scuola (fast-track: skip Step 0,1) | `FORCE_CODE=BA1MD7500G` |
-| `SKIP_VALIDATION` | Salta validazione PTOF (Step -1) | `SKIP_VALIDATION=1` |
-| `PROVIDER` | Provider LLM (ollama, openai, openrouter) | `PROVIDER=openrouter` |
-| `MODEL` | Modello da usare per tutti gli agenti | `MODEL=gemma3:27b` |
+| Parametro         | Descrizione                                                | Esempio                 |
+| ----------------- | ---------------------------------------------------------- | ----------------------- |
+| `PRESET`          | ID configurazione LLM (vedi `config/pipeline_config.json`) | `PRESET=8`              |
+| `FORCE_CODE`      | ⚡ Ri-analizza SOLO una scuola (fast-track: skip Step 0,1) | `FORCE_CODE=BA1MD7500G` |
+| `SKIP_VALIDATION` | Salta validazione PTOF (Step -1)                           | `SKIP_VALIDATION=1`     |
+| `PROVIDER`        | Provider LLM (ollama, openai, openrouter)                  | `PROVIDER=openrouter`   |
+| `MODEL`           | Modello da usare per tutti gli agenti                      | `MODEL=gemma3:27b`      |
 
 **Esempi:**
+
 ```bash
 # OpenRouter con Gemini 2.5
 make workflow PRESET=8
@@ -278,6 +283,7 @@ make csv-watch INTERVAL=60
 ## 🌟 Catalogo Buone Pratiche
 
 **Legenda emoji (categorie):**
+
 - 📚 Metodologie Didattiche Innovative
 - 🎯 Progetti e Attività Esemplari
 - 🤝 Partnership e Collaborazioni Strategiche
@@ -287,11 +293,11 @@ make csv-watch INTERVAL=60
 
 ### Estrazione buone pratiche
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make activity-extract` | Estrae e aggiorna il dataset dal PTOF |
-| `make activity-extract-reset` | Reset e rielaborazione completa |
-| `make activity-extract-stats` | Statistiche rapide sul dataset |
+| Comando                       | Descrizione                           |
+| ----------------------------- | ------------------------------------- |
+| `make activity-extract`       | Estrae e aggiorna il dataset dal PTOF |
+| `make activity-extract-reset` | Reset e rielaborazione completa       |
+| `make activity-extract-stats` | Statistiche rapide sul dataset        |
 
 #### Parametri
 
@@ -315,63 +321,113 @@ make activity-extract FORCE=1
 
 ---
 
+## 📊 Meta Report (Best Practices)
+
+Report aggregati sulle buone pratiche estratte dai PTOF.
+
+### Report Skeleton-First (Raccomandato)
+
+Il nuovo approccio **skeleton-first** offre struttura deterministica e LLM solo per contenuto narrativo.
+
+| Comando                    | Descrizione                    |
+| -------------------------- | ------------------------------ |
+| `make meta-skeleton DIM=X` | Report tematico skeleton-first |
+
+#### Opzioni
+
+| Parametro            | Descrizione                          | Default      |
+| -------------------- | ------------------------------------ | ------------ |
+| `DIM`                | Dimensione tematica (obbligatorio)   | -            |
+| `REGIONE`            | Filtro regione                       | -            |
+| `ORDINE`             | Filtro ordine/grado (es: "II Grado") | -            |
+| `PROVINCIA`          | Filtro provincia                     | -            |
+| `PROVIDER_SCHOOL`    | Provider per analisi scuole          | `ollama`     |
+| `PROVIDER_SYNTHESIS` | Provider per sintesi                 | `openrouter` |
+
+#### Esempi
+
+```bash
+# Report tematico con filtri
+make meta-skeleton DIM=orientamento REGIONE=Marche ORDINE="II Grado"
+
+# Solo Ollama (locale, no costi)
+make meta-skeleton DIM=orientamento REGIONE=Marche \
+    PROVIDER_SCHOOL=ollama PROVIDER_SYNTHESIS=ollama
+
+# Dual provider (default)
+make meta-skeleton DIM=orientamento REGIONE=Marche \
+    PROVIDER_SCHOOL=ollama PROVIDER_SYNTHESIS=openrouter
+```
+
+### Altri Report
+
+| Comando                   | Descrizione                              |
+| ------------------------- | ---------------------------------------- |
+| `make meta-status`        | Stato dei report (pending/current/stale) |
+| `make meta-school CODE=X` | Report singola scuola                    |
+
+| `make meta-next` | Genera prossimo report pendente |
+| `make meta-batch N=5` | Genera N report pendenti |
+
+---
+
 ## 📬 Outreach PTOF
 
-| Comando | Descrizione |
-|---------|-------------|
+| Comando                | Descrizione               |
+| ---------------------- | ------------------------- |
 | `make outreach-portal` | Avvia portale upload PTOF |
-| `make outreach-email` | Invia email PTOF |
+| `make outreach-email`  | Invia email PTOF          |
 
 #### Parametri outreach-portal
 
 | Parametro | Default |
-|-----------|---------|
-| `PORT=X` | 8502 |
+| --------- | ------- |
+| `PORT=X`  | 8502    |
 
 #### Parametri outreach-email
 
-| Parametro | Descrizione |
-|-----------|-------------|
-| `BASE_URL=X` | URL base del portale |
-| `LIMIT=X` | Limite invii |
-| `SEND=1` | Invio reale (senza: dry-run) |
-| `USE_PEC=1` | Usa PEC se email assente |
-| `TEMPLATE=X` | Template email |
-| `SUBJECT=X` | Oggetto email |
-| `CSV="file1.csv file2.csv"` | File CSV con liste scuole |
+| Parametro                   | Descrizione                  |
+| --------------------------- | ---------------------------- |
+| `BASE_URL=X`                | URL base del portale         |
+| `LIMIT=X`                   | Limite invii                 |
+| `SEND=1`                    | Invio reale (senza: dry-run) |
+| `USE_PEC=1`                 | Usa PEC se email assente     |
+| `TEMPLATE=X`                | Template email               |
+| `SUBJECT=X`                 | Oggetto email                |
+| `CSV="file1.csv file2.csv"` | File CSV con liste scuole    |
 
 ---
 
 ## 📋 Registro Analisi
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make registry-status` | Mostra statistiche del registro |
-| `make registry-list` | Lista tutti i file registrati |
-| `make registry-clear` | Pulisce il registro (forza ri-analisi) |
-| `make registry-remove CODE=X` | Rimuove una entry specifica |
+| Comando                       | Descrizione                            |
+| ----------------------------- | -------------------------------------- |
+| `make registry-status`        | Mostra statistiche del registro        |
+| `make registry-list`          | Lista tutti i file registrati          |
+| `make registry-clear`         | Pulisce il registro (forza ri-analisi) |
+| `make registry-remove CODE=X` | Rimuove una entry specifica            |
 
 ---
 
 ## 🔧 Manutenzione Report
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make check-truncated` | Trova report MD troncati |
-| `make fix-truncated` | Ripristina troncati dai backup |
-| `make list-backups` | Elenca file di backup disponibili |
+| Comando                 | Descrizione                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| `make check-truncated`  | Trova report MD troncati                                     |
+| `make fix-truncated`    | Ripristina troncati dai backup                               |
+| `make list-backups`     | Elenca file di backup disponibili                            |
 | `make recover-not-ptof` | Recupera PDF con suffisso `_ok` da `ptof_discarded/not_ptof` |
 
 ---
 
 ## 🤖 Modelli AI
 
-| Comando | Descrizione |
-|---------|-------------|
-| `make models` | Mostra TUTTI i modelli disponibili |
-| `make list-models` | Lista modelli dai preset |
-| `make list-models-openrouter` | Lista modelli OpenRouter |
-| `make list-models-gemini` | Lista modelli Gemini |
+| Comando                       | Descrizione                        |
+| ----------------------------- | ---------------------------------- |
+| `make models`                 | Mostra TUTTI i modelli disponibili |
+| `make list-models`            | Lista modelli dai preset           |
+| `make list-models-openrouter` | Lista modelli OpenRouter           |
+| `make list-models-gemini`     | Lista modelli Gemini               |
 
 ```bash
 # Solo modelli free di OpenRouter
@@ -408,6 +464,7 @@ make list-models-openrouter FREE_ONLY=1
 **Causa**: L'API ha restituito una risposta vuota o non-JSON.
 
 **Soluzioni**:
+
 1. Controlla i log per vedere la risposta raw
 2. Verifica lo stato dell'account API (quota/crediti)
 3. Aumenta il tempo di attesa: `WAIT=180`
@@ -418,6 +475,7 @@ make list-models-openrouter FREE_ONLY=1
 **Causa**: Troppe richieste in poco tempo.
 
 **Soluzioni**:
+
 1. Il sistema riprova automaticamente con backoff esponenziale
 2. Aumenta `WAIT=180` o più
 3. Usa un modello diverso
@@ -426,6 +484,7 @@ make list-models-openrouter FREE_ONLY=1
 ### Errore: API Key non trovata
 
 **Soluzioni**:
+
 1. Crea file `.env` nella root del progetto:
    ```
    OPENROUTER_API_KEY=sk-or-...
@@ -464,6 +523,7 @@ make list-backups
    ```
 
 ### Debugging e Log
+
 Visualizza i log di sistema in tempo reale per diagnosticare problemi.
 
 ```bash
@@ -473,7 +533,6 @@ make logs
 # Visualizza ultime 100 righe di un log specifico (selezionandolo dal menu)
 make logs LINES=100
 ```
-
 
 ### Analisi bloccata su un file
 

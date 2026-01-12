@@ -95,11 +95,12 @@ help:
 	@echo "  make check-credits               - Verifica credito residuo OpenRouter"
 	@echo ""
 	@echo "META REPORT (Best Practices):"
+	@echo "  make meta-skeleton DIM=X      - Report tematico skeleton-first (RACCOMANDATO)"
+	@echo "                                  Opzioni: REGIONE, ORDINE, PROVIDER_SCHOOL, PROVIDER_SYNTHESIS"
 	@echo "  make meta-status              - Stato dei report (pending/current/stale)"
 	@echo "  make meta-school CODE=X       - Genera report singola scuola"
-	@echo "  make meta-regional REGION=X   - Genera report regionale"
-	@echo "  make meta-national            - Genera report nazionale"
-	@echo "  make meta-thematic DIM=X      - Genera report tematico (governance, didattica...)"
+
+
 	@echo "  make meta-next                - Genera prossimo report pendente"
 	@echo "  make meta-batch N=5           - Genera N report pendenti"
 	@echo "  Provider: PROVIDER=gemini|openrouter|ollama (default: auto)"
@@ -771,109 +772,7 @@ else
 		$(if $(REFINE),--refine,)
 endif
 
-# Report regionale (uso: make meta-regional REGION=Lazio PROVIDER=ollama)
-meta-regional:
-ifndef REGION
-	@echo "❌ Specificare la regione con REGION=NOME"
-	@echo "   Esempio: make meta-regional REGION=Lazio"
-	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1 REFINE=1"
-	@echo "   Filtri: TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
-	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
-else
-	$(PYTHON) $(META_CLI) regional --region "$(REGION)" \
-		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,) \
-		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
-		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
-		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
-		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
-		$(if $(AREA),--area-geografica "$(AREA)",) \
-		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
-		$(if $(REFINE),--refine,)
-endif
 
-# Report nazionale
-meta-national:
-	$(PYTHON) $(META_CLI) national \
-		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,) \
-		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
-		$(if $(REGIONE),--region "$(REGIONE)",) \
-		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
-		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
-		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
-		$(if $(AREA),--area-geografica "$(AREA)",) \
-		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
-		$(if $(REFINE),--refine,)
-
-# Report tematico (uso: make meta-thematic DIM=governance)
-meta-thematic:
-ifndef DIM
-	@echo "❌ Specificare la dimensione con DIM=NOME"
-	@echo ""
-	@echo "   DIMENSIONI STRUTTURALI:"
-	@echo "     finalita    - Finalità orientative"
-	@echo "     obiettivi   - Obiettivi e risultati attesi"
-	@echo "     governance  - Governance e organizzazione"
-	@echo "     didattica   - Didattica orientativa"
-	@echo "     partnership - Partnership e reti"
-	@echo ""
-	@echo "   DIMENSIONI OPPORTUNITÀ (Granulari):"
-	@echo "     pcto         - PCTO e Alternanza"
-	@echo "     stage        - Stage e Tirocini"
-	@echo "     openday      - Open Day"
-	@echo "     visite       - Visite aziendali/universitarie"
-	@echo "     laboratori   - Laboratori e simulazioni"
-	@echo "     testimonianze - Incontri con esperti"
-	@echo "     counseling   - Counseling individuale"
-	@echo "     alumni       - Rete alumni e mentoring"
-	@echo ""
-	@echo "   Esempio: make meta-thematic DIM=pcto"
-	@echo "   Opzioni: PROVIDER=gemini|openrouter|ollama FORCE=1 REFINE=1"
-	@echo "   Regioni: META_REPORT_INCLUDE_REGIONS=1 (default: 0)"
-	@echo "   Chunk temi: META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160"
-	@echo "   Soglia temi: META_REPORT_MIN_THEME_CASES=5 (temi con meno casi vanno in 'Altri temi')"
-	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... PROVINCIA=... AREA=... STATO=... TERRITORIO=..."
-	@echo "   Prompt: PROMPT=overview|innovative|comparative|impact|operational"
-	@echo "   Raffinamento: REFINE=1 per applicare agente raffinatore alla fine"
-else
-	META_REPORT_REFINE=$(or $(REFINE),0) $(PYTHON) $(META_CLI) thematic --dim $(DIM) \
-		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,) \
-		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
-		$(if $(REGIONE),--region "$(REGIONE)",) \
-		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
-		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
-		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
-		$(if $(AREA),--area-geografica "$(AREA)",) \
-		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
-		$(if $(REFINE),--refine,)
-endif
-
-# Genera report tematico V2 (analisi scuola per scuola)
-meta-thematic-v2:
-ifndef DIM
-	@echo "❌ Specificare la dimensione con DIM=NOME"
-	@echo "   Usa: make meta-thematic-v2 DIM=orientamento"
-	@echo "   Differenza con thematic: analizza ogni scuola singolarmente"
-	@echo "   Filtri: REGIONE=... TIPO=... ORDINE=... etc."
-else
-	$(PYTHON) $(META_CLI) thematic-v2 --dim $(DIM) \
-		$(if $(PROVIDER),--provider $(PROVIDER),) \
-		$(if $(FORCE),--force,) \
-		$(if $(PROMPT),--prompt-profile "$(PROMPT)",) \
-		$(if $(REGIONE),--region "$(REGIONE)",) \
-		$(if $(TIPO),--tipo-scuola "$(TIPO)",) \
-		$(if $(ORDINE),--ordine-grado "$(ORDINE)",) \
-		$(if $(PROVINCIA),--provincia "$(PROVINCIA)",) \
-		$(if $(AREA),--area-geografica "$(AREA)",) \
-		$(if $(STATO),--statale-paritaria "$(STATO)",) \
-		$(if $(TERRITORIO),--territorio "$(TERRITORIO)",) \
-		$(if $(REFINE),--refine,)
-endif
 
 # Genera prossimo report pendente
 meta-next:

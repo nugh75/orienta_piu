@@ -30,54 +30,44 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === CONSTANTS ===
-REPORTS_DIR = Path("reports")
+# Fix path resolution: resolve relative to this file's position (app/pages/20_...)
+# __file__ -> app/pages/20_...py
+# parents[0] -> app/pages
+# parents[1] -> app
+# parents[2] -> PROJECT_ROOT
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+REPORTS_DIR = PROJECT_ROOT / "reports"
 META_REPORTS_DIR = REPORTS_DIR / "meta"
-REPORT_SUFFIXES = ("_best_practices", "_attivita")
+REPORT_SUFFIXES = ("_best_practices", "_attivita", "_skeleton")
 
 # Titoli comprensibili per le dimensioni (basati su attivita.json)
+# Titoli ufficiali delle 6 Dimensioni (basati su skeleton.py)
 DIM_TITLES = {
-    # Categorie principali
+    "azioni": "Azioni di Sistema e Governance",
+    "inclusione": "Buone Pratiche per l'Inclusione",
+    "esperienze": "Esperienze Territoriali Significative",
     "metodologie": "Metodologie Didattiche Innovative",
-    "progetti": "Progetti e Attivita Esemplari",
-    "inclusione": "Inclusione e Supporto",
-    "orientamento": "Orientamento e Accompagnamento",
-    "partnership": "Partnership e Collaborazioni",
-    # Attivita specifiche
-    "pcto": "Percorsi per le Competenze (PCTO)",
-    "openday": "Giornate di Orientamento (Open Day)",
-    "universita": "Orientamento Universitario",
-    "visite": "Visite Guidate e Viaggi di Istruzione",
-    "exalunni": "La Rete degli Ex-Studenti",
-    "certificazioni": "Certificazioni e Competenze"
+    "partnership": "Partnership e Collaborazioni Strategiche",
+    "progetti": "Progetti e Attività Esemplari",
 }
 
 # Descrizioni per ogni dimensione
 DIM_DESCRIPTIONS = {
-    "metodologie": "Le metodologie innovative usate per orientare e formare gli studenti",
-    "progetti": "I progetti e le attivita esemplari che distinguono le scuole",
-    "inclusione": "Come le scuole supportano tutti gli studenti nel loro percorso",
-    "orientamento": "Le pratiche di accompagnamento verso le scelte future",
-    "partnership": "Le collaborazioni con aziende, universita e territorio",
-    "pcto": "I percorsi di alternanza scuola-lavoro e competenze trasversali",
-    "openday": "Le iniziative per far conoscere la scuola a studenti e famiglie",
-    "universita": "L'orientamento verso il mondo universitario",
-    "visite": "Le uscite didattiche presso aziende e atenei",
-    "exalunni": "Il coinvolgimento degli ex-studenti come mentori",
-    "certificazioni": "Le certificazioni linguistiche, digitali e professionali"
+    "azioni": "Strategie organizzative, reti di scuole, formazione docenti e coordinamento.",
+    "inclusione": "Supporto a BES/DSA, integrazione studenti stranieri e contrasto alla dispersione.",
+    "esperienze": "Attività di PCTO, uscite didattiche, Service Learning e legame col territorio.",
+    "metodologie": "Didattica laboratoriale, digitale, CLIL, Debate e spazi innovativi.",
+    "partnership": "Accordi e collaborazioni con Università, ITS, Aziende ed Enti del Terzo Settore.",
+    "progetti": "Iniziative di eccellenza, premi, gare e percorsi distintivi.",
 }
 
 DIM_ICONS = {
-    "metodologie": "📚",
-    "progetti": "🌟",
+    "azioni": "⚙️",
     "inclusione": "🤗",
-    "orientamento": "🧭",
+    "esperienze": "🌍",
+    "metodologie": "💡",
     "partnership": "🤝",
-    "pcto": "🏭",
-    "openday": "🚪",
-    "universita": "🎓",
-    "visite": "🏢",
-    "exalunni": "👥",
-    "certificazioni": "📜"
+    "progetti": "🏆",
 }
 
 
@@ -134,33 +124,9 @@ def get_available_reports():
             })
 
     # Regional reports
-    regional_dir = META_REPORTS_DIR / "regional"
-    if regional_dir.exists():
-        for f in regional_dir.rglob("*.md"):
-            report_id = f.stem
-            region, filters, profile = split_report_filters(report_id)
-            reports["regional"].append({
-                "region": region,
-                "id": report_id,
-                "filters": filters,
-                "profile": profile,
-                "path": str(f),
-                "mtime": f.stat().st_mtime
-            })
-
-    # National reports
-    national_dir = META_REPORTS_DIR / "national"
-    if national_dir.exists():
-        for f in national_dir.rglob("*.md"):
-            report_id = f.stem
-            _, filters, profile = split_report_filters(report_id)
-            reports["national"].append({
-                "path": str(f),
-                "id": report_id,
-                "filters": filters,
-                "profile": profile,
-                "mtime": f.stat().st_mtime
-            })
+    # Legacy folders removed (regional/national)
+    reports["regional"] = []
+    reports["national"] = []
 
     # Thematic reports
     thematic_dir = META_REPORTS_DIR / "thematic"
@@ -222,10 +188,46 @@ PROFILE_LABELS = {
 }
 
 
+def strip_report_suffix(stem: str) -> str:
+    # Remove common suffixes first
+    for suffix in REPORT_SUFFIXES:
+        if stem.endswith(suffix):
+            stem = stem[: -len(suffix)]
+    return stem
+
+
 def split_report_filters(identifier: str) -> tuple[str, dict, str]:
+    """
+    Parse report identifier.
+    Supports legacy formats:
+      - thematic: orientamento__filter=val
+      - school: RMIS01600N__filter=val
+    Supports new timestamped format:
+      - 20260113_1200__Tema_orientamento__filter=val
+      - 20260113_1200__Scuola_RMIS01600N__filter=val
+    
+    Returns: (base_id, filters, profile)
+    """
     clean_id = strip_report_suffix(identifier)
-    parts = clean_id.split("__")
-    base = parts[0]
+    
+    # Check for timestamp prefix (YYYYMMDD_HHMM__)
+    # Regex: optional timestamp group, then the rest
+    match = re.match(r"^(?P<ts>\d{8}_\d{4}__)?(?P<rest>.*)$", clean_id)
+    if not match:
+        base = clean_id
+    else:
+        rest = match.group("rest")
+        # Ensure we strip known prefixes if present in new format
+        if rest.startswith("Tema_"):
+            rest = rest[5:]
+        elif rest.startswith("Scuola_"):
+            rest = rest[7:]
+        base = rest
+
+    # Now parse standard parts
+    parts = base.split("__")
+    core_id = parts[0]
+    
     filters = {}
     profile = ""
     for part in parts[1:]:
@@ -237,7 +239,8 @@ def split_report_filters(identifier: str) -> tuple[str, dict, str]:
             continue
         label = value.replace("+", ", ").replace("-", " ")
         filters[key] = label
-    return base, filters, profile
+        
+    return core_id, filters, profile
 
 
 def format_filters_label(filters: dict, profile: str = "") -> str:
@@ -342,394 +345,173 @@ def render_report_inline(expected_type: str, expected_id: str = None, key_suffix
 
 
 # === MAIN PAGE ===
-st.title("📄 Sintesi delle Attivita")
+st.title("📄 Sintesi delle Attività")
 
 st.markdown("""
-Questa sezione raccoglie le **sintesi delle attivita di orientamento**
-emerse dall'analisi dei PTOF delle scuole italiane. I report sono organizzati
-per tema, territorio e singola scuola, offrendo una panoramica completa delle
-esperienze piu significative nel campo dell'orientamento scolastico.
+Questa sezione raccoglie le **sintesi delle attività di orientamento**
+emerse dall'analisi dei PTOF delle scuole italiane. 
+I report sono organizzati per **Dimensione Tematica** (le 6 categorie del framework) e per **Singola Scuola**.
 """)
 
 # Carica dati
 available_reports = get_available_reports()
 
 # === METRICHE ===
-col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
+col1, col2, col4 = st.columns([1, 1, 2])
 
-with col_m1:
+with col1:
     school_count = len(available_reports["schools"])
     st.metric("Scuole Analizzate", school_count)
 
-with col_m2:
-    regional_count = len(available_reports["regional"])
-    st.metric("Report Regionali", regional_count)
-
-with col_m3:
-    national_status = "Disponibile" if available_reports["national"] else "—"
-    st.metric("Report Italia", national_status)
-
-with col_m4:
+with col2:
     thematic_count = len(available_reports["thematic"])
-    st.metric("Approfondimenti", thematic_count)
+    st.metric("Report Dimensionali", thematic_count)
 
-with col_m5:
+# Removed Metric as requested
+
+with col4:
     if st.button("🔄 Aggiorna"):
         refresh_data()
 
 st.markdown("---")
 
 # === TABS ===
-tab_tematici, tab_regionali, tab_scuole, tab_nazionale, tab_generali, tab_info = st.tabs([
-    "🎯 Per Tema", "🗺️ Per Regione", "🏫 Per Scuola", "🇮🇹 Italia", "📚 Tutti i Report", "ℹ️ Info"
+tab_tematici, tab_scuole, tab_generali, tab_info = st.tabs([
+    "📊 Per Dimensione", "🏫 Per Scuola", "📚 Tutti i Report", "ℹ️ Info"
 ])
 
 # === TAB TEMATICI ===
 with tab_tematici:
-    st.subheader("🎯 Approfondimenti Tematici")
+    st.subheader("📊 Report per Dimensione")
 
     st.markdown("""
-    Esplora le attivita organizzate per **area tematica**. Ogni report analizza
-    come le scuole italiane affrontano uno specifico aspetto dell'orientamento,
-    evidenziando le esperienze piu innovative e replicabili.
+    Esplora le attività organizzate secondo le **6 Dimensioni Fondamentali** dell'orientamento.
+    Ogni report aggrega le migliori pratiche riscontrate nelle scuole.
     """)
 
     if available_reports["thematic"]:
-        search_thematic = st.text_input(
-            "🔎 Cerca temi",
-            key="search_thematic",
-            placeholder="Es. orientamento, didattica, inclusione"
-        )
-        dim_options = sorted({r["dimension"] for r in available_reports["thematic"]})
-        dim_label_map = {DIM_TITLES.get(d, d.title()): d for d in dim_options}
-        dim_labels = list(dim_label_map.keys())
-        selected_dim_labels = st.multiselect(
-            "Filtra dimensioni",
-            options=dim_labels,
-            default=dim_labels,
-            key="filter_thematic_dims"
-        )
-        selected_dims = {dim_label_map[label] for label in selected_dim_labels}
-        profile_options = sorted({r.get("profile") for r in available_reports["thematic"] if r.get("profile")})
-        selected_profiles = set()
-        if profile_options:
-            profile_label_map = {PROFILE_LABELS.get(p, p): p for p in profile_options}
-            profile_labels = list(profile_label_map.keys())
-            selected_profile_labels = st.multiselect(
-                "Filtra profilo",
-                options=profile_labels,
-                default=profile_labels,
-                key="filter_thematic_profiles"
-            )
-            selected_profiles = {profile_label_map[label] for label in selected_profile_labels}
-
-        filtered_reports = []
+        # Raggruppa report per dimensione (DIM dinamico)
+        reports_by_dim = {}
         for r in available_reports["thematic"]:
             dim = r["dimension"]
-            if selected_dims and dim not in selected_dims:
-                continue
-            if selected_profiles and r.get("profile") not in selected_profiles:
-                continue
-            title = DIM_TITLES.get(dim, dim.title())
-            desc = DIM_DESCRIPTIONS.get(dim, "")
-            filters_label = format_filters_label(r.get("filters", {}), r.get("profile", ""))
-            text_blob = f"{dim} {title} {desc} {filters_label}".lower()
-            if search_thematic and search_thematic.lower() not in text_blob:
-                continue
-            filtered_reports.append(r)
+            if dim not in reports_by_dim:
+                reports_by_dim[dim] = []
+            reports_by_dim[dim].append(r)
 
-        st.caption(f"{len(filtered_reports)} risultati su {len(available_reports['thematic'])}")
-
-        if not filtered_reports:
-            st.info("Nessun report corrisponde ai filtri selezionati.")
-        else:
-            # Organizza per categoria
-            structural = []
-            opportunity = []
-            other = []
-
-            structural_dims = [
-                "finalita", "obiettivi", "governance", "didattica", "partnership",
-                "metodologie", "progetti", "inclusione"
-            ]
-            opportunity_dims = ["orientamento", "pcto", "stage", "openday", "visite", "laboratori", "testimonianze", "counseling", "alumni"]
-
-            for r in filtered_reports:
-                dim = r["dimension"]
-                if dim in structural_dims:
-                    structural.append(r)
-                elif dim in opportunity_dims:
-                    opportunity.append(r)
-                else:
-                    other.append(r)
-
+        # Itera su tutte le dimensioni trovate
+        found_dims = sorted(reports_by_dim.keys())
+        
+        for dim_key in found_dims:
+            icon = DIM_ICONS.get(dim_key, "📄")
+            title = DIM_TITLES.get(dim_key, dim_key.title())
+            desc = DIM_DESCRIPTIONS.get(dim_key, "")
+            
+            st.markdown(f"### {icon} {title}")
+            if desc:
+                st.caption(desc)
+            
+            reports = reports_by_dim.get(dim_key, [])
+            
+            if not reports:
+                st.info(f"Nessun report disponibile per {title}")
+            else:
+                for r in reports:
+                    filters_label = format_filters_label(r.get("filters", {}), r.get("profile", ""))
+                    mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
+                    
+                    col1, col2 = st.columns([4, 1])
+                    with col1:
+                        btn_label = f"📄 Report {title} {filters_label}"
+                        if st.button(btn_label, key=f"btn_dim_{r['id']}", use_container_width=True):
+                            st.session_state["selected_report"] = r["path"]
+                            st.session_state["selected_report_title"] = title + filters_label
+                            st.session_state["selected_report_type"] = "thematic"
+                            st.session_state["selected_report_id"] = r["id"]
+                    with col2:
+                        st.caption(f"Agg. {mtime}")
+                    
+                    render_report_inline("thematic", expected_id=r["id"], key_suffix=f"dim_{r['id']}")
+            
             st.markdown("---")
 
-            # Dimensioni Strutturali
-            if structural:
-                st.markdown("### 📋 Aspetti Organizzativi e Strategici")
-                st.caption("Come le scuole pianificano e gestiscono l'orientamento")
-
-                for r in structural:
-                    dim = r["dimension"]
-                    icon = DIM_ICONS.get(dim, "📄")
-                    title = DIM_TITLES.get(dim, dim.title())
-                    desc = DIM_DESCRIPTIONS.get(dim, "") + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                    mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
-
-                    col1, col2 = st.columns([4, 1])
-                    with col1:
-                        if st.button(f"{icon} {title}", key=f"btn_struct_{r['id']}", use_container_width=True):
-                            st.session_state["selected_report"] = r["path"]
-                            st.session_state["selected_report_title"] = title + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                            st.session_state["selected_report_type"] = "thematic"
-                            st.session_state["selected_report_id"] = r["id"]
-                        st.caption(desc)
-                    with col2:
-                        st.caption(f"Agg. {mtime}")
-
-                    render_report_inline("thematic", expected_id=r["id"], key_suffix=f"struct_{r['id']}")
-
-            st.markdown("---")
-
-            # Dimensioni Opportunita
-            if opportunity:
-                st.markdown("### 🚀 Attivita e Opportunita per gli Studenti")
-                st.caption("Le esperienze concrete offerte agli studenti")
-
-                for r in opportunity:
-                    dim = r["dimension"]
-                    icon = DIM_ICONS.get(dim, "📄")
-                    title = DIM_TITLES.get(dim, dim.title())
-                    desc = DIM_DESCRIPTIONS.get(dim, "") + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                    mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
-
-                    col1, col2 = st.columns([4, 1])
-                    with col1:
-                        if st.button(f"{icon} {title}", key=f"btn_opp_{r['id']}", use_container_width=True):
-                            st.session_state["selected_report"] = r["path"]
-                            st.session_state["selected_report_title"] = title + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                            st.session_state["selected_report_type"] = "thematic"
-                            st.session_state["selected_report_id"] = r["id"]
-                        st.caption(desc)
-                    with col2:
-                        st.caption(f"Agg. {mtime}")
-
-                    render_report_inline("thematic", expected_id=r["id"], key_suffix=f"opp_{r['id']}")
-
-            # Altre dimensioni
-            if other:
-                st.markdown("---")
-                st.markdown("### 📎 Altri Temi")
-                st.caption("Report tematici non ancora classificati nelle sezioni principali")
-
-                for r in other:
-                    dim = r["dimension"]
-                    icon = DIM_ICONS.get(dim, "📄")
-                    title = DIM_TITLES.get(dim, dim.title())
-                    desc = DIM_DESCRIPTIONS.get(dim, "") + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                    mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
-
-                    col1, col2 = st.columns([4, 1])
-                    with col1:
-                        if st.button(f"{icon} {title}", key=f"btn_other_{r['id']}", use_container_width=True):
-                            st.session_state["selected_report"] = r["path"]
-                            st.session_state["selected_report_title"] = title + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                            st.session_state["selected_report_type"] = "thematic"
-                            st.session_state["selected_report_id"] = r["id"]
-                        st.caption(desc)
-                    with col2:
-                        st.caption(f"Agg. {mtime}")
-
-                    render_report_inline("thematic", expected_id=r["id"], key_suffix=f"other_{r['id']}")
-
     else:
-        st.info("I report tematici saranno disponibili a breve. Stiamo elaborando le analisi delle scuole.")
+        st.info("I report dimensionali saranno disponibili a breve.")
 
-# === TAB REGIONALI ===
-with tab_regionali:
-    st.subheader("🗺️ Attivita per Regione")
-
-    st.markdown("""
-    Scopri le **attivita di orientamento** suddivise per territorio.
-    Ogni report regionale presenta una sintesi delle esperienze piu significative
-    delle scuole di quella regione.
-    """)
-
-    if available_reports["regional"]:
-        search_regional = st.text_input(
-            "🔎 Cerca regione",
-            key="search_regional",
-            placeholder="Es. Lazio, Lombardia"
-        )
-        region_options = sorted({r["region"] for r in available_reports["regional"]})
-        region_label_map = {r.title(): r for r in region_options}
-        region_labels = list(region_label_map.keys())
-        selected_region_labels = st.multiselect(
-            "Filtra regioni",
-            options=region_labels,
-            default=region_labels,
-            key="filter_regional_regions"
-        )
-        selected_regions = {region_label_map[label] for label in selected_region_labels}
-        profile_options = sorted({r.get("profile") for r in available_reports["regional"] if r.get("profile")})
-        selected_profiles = set()
-        if profile_options:
-            profile_label_map = {PROFILE_LABELS.get(p, p): p for p in profile_options}
-            profile_labels = list(profile_label_map.keys())
-            selected_profile_labels = st.multiselect(
-                "Filtra profilo",
-                options=profile_labels,
-                default=profile_labels,
-                key="filter_regional_profiles"
-            )
-            selected_profiles = {profile_label_map[label] for label in selected_profile_labels}
-
-        filtered_reports = []
-        for r in available_reports["regional"]:
-            region = r["region"]
-            if selected_regions and region not in selected_regions:
-                continue
-            if selected_profiles and r.get("profile") not in selected_profiles:
-                continue
-            region_label = region.title()
-            filters_label = format_filters_label(r.get("filters", {}), r.get("profile", ""))
-            if search_regional and search_regional.lower() not in f"{region_label} {filters_label}".lower():
-                continue
-            filtered_reports.append(r)
-
-        st.caption(f"{len(filtered_reports)} risultati su {len(available_reports['regional'])}")
-
-        st.markdown("---")
-
-        # Ordina per regione
-        sorted_reports = sorted(filtered_reports, key=lambda x: x["region"])
-
-        if not sorted_reports:
-            st.info("Nessun report corrisponde ai filtri selezionati.")
-        else:
-            for r in sorted_reports:
-                region = r["region"].title()
-                mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
-
-                col1, col2 = st.columns([4, 1])
-                with col1:
-                    label = f"🗺️ {region}{format_filters_label(r.get('filters', {}), r.get('profile', ''))}"
-                    if st.button(label, key=f"btn_reg_{r['id']}", use_container_width=True):
-                        st.session_state["selected_report"] = r["path"]
-                        st.session_state["selected_report_title"] = f"Le Attivita in {region}{format_filters_label(r.get('filters', {}), r.get('profile', ''))}"
-                        st.session_state["selected_report_type"] = "regional"
-                        st.session_state["selected_report_id"] = r["id"]
-                with col2:
-                    st.caption(f"Aggiornato: {mtime}")
-
-                render_report_inline("regional", expected_id=r["id"], key_suffix=r["id"])
-    else:
-        st.info("I report regionali saranno disponibili a breve.")
+@st.cache_data(ttl=3600)
+def load_school_names():
+    """Carica mappa codice -> nome scuola dal CSV."""
+    names = {}
+    csv_path = PROJECT_ROOT / "data" / "attivita.csv"
+    if csv_path.exists():
+        try:
+            with open(csv_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row.get("codice_meccanografico") and row.get("nome_scuola"):
+                        names[row["codice_meccanografico"]] = row["nome_scuola"]
+        except Exception:
+            pass
+    return names
 
 # === TAB SCUOLE ===
 with tab_scuole:
-    st.subheader("🏫 Analisi per Singola Scuola")
+    st.subheader("🏫 Report per Scuola")
 
     st.markdown("""
-    Consulta l'**analisi dettagliata** delle pratiche di orientamento
-    di una specifica scuola. Inserisci il codice meccanografico per trovare il report.
+    Cerca il report di una scuola specifica inserendo il **Codice Meccanografico** o il **Nome**.
     """)
 
     if available_reports["schools"]:
-        # Cerca scuola
+        school_names = load_school_names()
+        
         search_school = st.text_input(
-            "🔎 Cerca per codice scuola",
-            placeholder="Inserisci il codice meccanografico (es: RMIS09400V)",
-            help="Il codice meccanografico e l'identificativo unico della scuola"
+            "🔎 Cerca Scuola",
+            key="search_school",
+            placeholder="Es. RMIS01600N o Istruzione Superiore..."
         )
-        profile_options = sorted({r.get("profile") for r in available_reports["schools"] if r.get("profile")})
-        selected_profiles = set()
-        if profile_options:
-            profile_label_map = {PROFILE_LABELS.get(p, p): p for p in profile_options}
-            profile_labels = list(profile_label_map.keys())
-            selected_profile_labels = st.multiselect(
-                "Filtra profilo",
-                options=profile_labels,
-                default=profile_labels,
-                key="filter_school_profiles"
-            )
-            selected_profiles = {profile_label_map[label] for label in selected_profile_labels}
-        max_results = st.slider(
-            "Numero massimo risultati",
-            min_value=10,
-            max_value=200,
-            value=30,
-            step=10,
-            key="filter_school_limit"
-        )
+        
+        school_reports = available_reports["schools"]
+        
+        # Arricchisci con nome
+        for r in school_reports:
+            r["name"] = school_names.get(r["code"], r["code"])
 
-        # Filtra
-        filtered_schools = available_reports["schools"]
         if search_school:
-            filtered_schools = [r for r in filtered_schools if search_school.upper() in r["code"].upper()]
-        if selected_profiles:
-            filtered_schools = [r for r in filtered_schools if r.get("profile") in selected_profiles]
+            q = search_school.lower()
+            school_reports = [
+                r for r in school_reports
+                if q in r['code'].lower() or q in r['name'].lower()
+            ]
 
-        # Ordina per codice
-        sorted_reports = sorted(filtered_schools, key=lambda x: x["code"])
+        # Ordina per nome scuola
+        school_reports = sorted(school_reports, key=lambda x: x["name"])
 
-        st.markdown(f"**{len(sorted_reports)} scuole** con report disponibile")
+        st.caption(f"{len(school_reports)} scuole trovate")
 
-        st.markdown("---")
-
-        # Mostra lista
-        for r in sorted_reports[:max_results]:
-            code = r["code"]
-            mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
-
-            col1, col2, col3 = st.columns([3, 1, 1])
-            with col1:
-                st.markdown(f"**{code}**")
+        if not school_reports:
+            st.info("Nessuna scuola corrisponde alla ricerca.")
+        else:
+            for r in school_reports:
+                mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y")
                 filters_label = format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                if filters_label:
-                    st.caption(filters_label.strip())
-            with col2:
-                st.caption(f"Agg. {mtime}")
-            with col3:
-                if st.button("📄 Leggi", key=f"btn_school_{r['id']}"):
-                    st.session_state["selected_report"] = r["path"]
-                    st.session_state["selected_report_title"] = f"Analisi Scuola {code}{format_filters_label(r.get('filters', {}), r.get('profile', ''))}"
-                    st.session_state["selected_report_type"] = "school"
-                    st.session_state["selected_report_id"] = r["id"]
-            render_report_inline("school", expected_id=r["id"], key_suffix=r["id"])
+                
+                school_label = f"{r['name']} ({r['code']})"
+                
+                col1, col2 = st.columns([4, 1])
+                with col1:
+                    btn_label = f"🏫 {school_label} {filters_label}"
+                    if st.button(btn_label, key=f"btn_school_{r['id']}", use_container_width=True):
+                        st.session_state["selected_report"] = r["path"]
+                        st.session_state["selected_report_title"] = school_label
+                        st.session_state["selected_report_type"] = "school"
+                        st.session_state["selected_report_id"] = r["id"]
+                with col2:
+                    st.caption(f"Agg. {mtime}")
 
-        if len(sorted_reports) > max_results:
-            st.info(f"Mostrate le prime {max_results} scuole. Usa la ricerca per trovare una scuola specifica.")
-
+                render_report_inline("school", expected_id=r["id"], key_suffix=r["id"])
     else:
-        st.info("I report delle singole scuole saranno disponibili a breve.")
+        st.info("Nessun report scolastico disponibile al momento.")
 
-# === TAB NAZIONALE ===
-with tab_nazionale:
-    st.subheader("🇮🇹 Panorama Nazionale")
-
-    st.markdown("""
-    Una **visione d'insieme** delle attivita di orientamento
-    a livello nazionale. Questo report sintetizza le tendenze, i punti di forza
-    e le aree di miglioramento emerse dall'analisi di tutte le scuole italiane.
-    """)
-
-    if available_reports["national"]:
-        for r in available_reports["national"]:
-            mtime = datetime.fromtimestamp(r["mtime"]).strftime("%d/%m/%Y alle %H:%M")
-            filters_label = format_filters_label(r.get("filters", {}), r.get("profile", ""))
-
-            st.success(f"Report nazionale disponibile - Ultimo aggiornamento: {mtime}{filters_label}")
-
-            if st.button("📄 Leggi il Report Nazionale", key=f"btn_national_{r['id']}", use_container_width=True):
-                st.session_state["selected_report"] = r["path"]
-                st.session_state["selected_report_title"] = "Panorama Nazionale delle Attivita" + format_filters_label(r.get("filters", {}), r.get("profile", ""))
-                st.session_state["selected_report_type"] = "national"
-                st.session_state["selected_report_id"] = r["id"]
-            render_report_inline("national", expected_id=r["id"], key_suffix=r["id"])
-    else:
-        st.info("Il report nazionale sara disponibile a breve, una volta completata l'analisi delle scuole.")
 
 # === TAB GENERALI ===
 with tab_generali:
@@ -781,40 +563,27 @@ with tab_info:
     st.markdown("""
     ### Cosa sono questi report?
 
-    I report di sintesi sono **documenti generati automaticamente** che raccolgono e
-    analizzano le attivita di orientamento emerse dai PTOF (Piano Triennale
+    I report di sintesi sono documenti generati automaticamente che raccolgono e
+    analizzano le attività di orientamento emerse dai PTOF (Piano Triennale
     dell'Offerta Formativa) delle scuole italiane.
 
-    ### Come vengono generati?
+    ### Come usare questa dashboard
 
-    Un sistema di intelligenza artificiale analizza i dati strutturati estratti dai PTOF
-    e produce sintesi ragionate che evidenziano:
+    La dashboard offre due viste principali:
 
-    - **Attivita innovative** adottate dalle scuole
-    - **Pattern comuni** nelle strategie di orientamento
-    - **Punti di forza** da valorizzare
-    - **Suggerimenti** per il miglioramento
+    1.  **📊 Per Dimensione**: Esplora le attività raggruppate per tema (es. Orientamento, Inclusione). Utile per trovare idee e modelli da replicare.
+    2.  **🏫 Per Scuola**: Cerca una scuola specifica per vedere l'analisi completa del suo ecosistema di orientamento.
 
-    ### Tipi di report disponibili
+    ### Tipi di Report
 
     | Tipo | Contenuto |
     |------|-----------|
-    | **Tematici** | Approfondimento su un aspetto specifico dell'orientamento (es. PCTO, stage, counseling) |
-    | **Regionali** | Sintesi delle attivita di una regione |
-    | **Per Scuola** | Analisi dettagliata di una singola istituzione |
-    | **Nazionale** | Panoramica complessiva delle attivita italiane |
+    | **Report Dimensionale** | Analisi trasversale di un tema specifico (es. "Metodologie Innovative") che aggrega le migliori pratiche di più scuole. |
+    | **Report Scuola** | Analisi dettagliata di un singolo istituto che mappa tutte le attività di orientamento nelle 6 categorie del framework. |
 
-    ### Frequenza di aggiornamento
+    ### Metodologia
 
-    I report vengono rigenerati periodicamente per includere le nuove analisi.
-    La data di ultimo aggiornamento e indicata accanto a ogni report.
-
-    ### Come utilizzare questi report
-
-    - **Dirigenti scolastici**: per confrontare le proprie pratiche con quelle di altre scuole
-    - **Docenti**: per scoprire metodologie innovative da adottare
-    - **Famiglie e studenti**: per conoscere le opportunita offerte dalle scuole
-    - **Ricercatori**: per analizzare le tendenze nell'orientamento scolastico italiano
+    I report sono generati utilizzando un approccio "Skeleton-First" che garantisce una struttura rigorosa e comparabile, arricchita dall'analisi semantica dell'Intelligenza Artificiale sui testi originali dei PTOF.
     """)
 
 render_footer()

@@ -44,7 +44,7 @@ def _apply_refine(report_path, provider_name: str = "auto"):
 
 def main():
     parser = argparse.ArgumentParser(description="Meta Report Generator - Best Practices from PTOF analyses")
-    parser.add_argument("command", choices=["status", "school", "regional", "national", "thematic", "thematic-v2", "skeleton", "next", "batch"],
+    parser.add_argument("command", choices=["status", "school", "skeleton", "next", "batch"],
                        help="Command to execute")
     parser.add_argument("--code", "-c", help="School code for school report")
     parser.add_argument("--region", "-r", help="Region name for regional report")
@@ -116,56 +116,9 @@ def main():
             print("Failed to generate report")
             sys.exit(1)
 
-    elif args.command == "regional":
-        if not args.region:
-            print("Error: --region required for regional report")
-            sys.exit(1)
-        result = orchestrator.generate_regional(
-            args.region,
-            force=args.force,
-            filters=filters,
-            prompt_profile=args.prompt_profile
-        )
-        if result:
-            print(f"Generated: {result}")
-            if args.refine:
-                _apply_refine(result, args.provider)
-        else:
-            print("Failed to generate report")
-            sys.exit(1)
 
-    elif args.command == "national":
-        result = orchestrator.generate_national(
-            force=args.force,
-            filters=filters,
-            prompt_profile=args.prompt_profile
-        )
-        if result:
-            print(f"Generated: {result}")
-            if args.refine:
-                _apply_refine(result, args.provider)
-        else:
-            print("Failed to generate report")
-            sys.exit(1)
 
-    elif args.command == "thematic":
-        if not args.dim:
-            print("Error: --dim required for thematic report")
-            print("Available: metodologie, progetti, inclusione, orientamento, partnership, pcto, openday, universita, visite, exalunni, certificazioni")
-            sys.exit(1)
-        result = orchestrator.generate_thematic(
-            args.dim,
-            force=args.force,
-            filters=filters,
-            prompt_profile=args.prompt_profile
-        )
-        if result:
-            print(f"Generated: {result}")
-            if args.refine:
-                _apply_refine(result, args.provider)
-        else:
-            print("Failed to generate report")
-            sys.exit(1)
+
 
     elif args.command == "skeleton":
         # Skeleton-first architecture with dual providers
@@ -216,7 +169,10 @@ def main():
         suffix = build_filter_suffix(clean_filters)
         output_dir = PROJECT_ROOT / "reports" / "meta" / "thematic"
         output_dir.mkdir(parents=True, exist_ok=True)
-        output_path = output_dir / f"{args.dim}{suffix}_skeleton.md"
+        
+        from datetime import datetime
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        output_path = output_dir / f"{timestamp}__Tema_{args.dim}{suffix}_skeleton.md"
         
         # Configure slot filler
         region = args.region if args.region else "Italia"
@@ -239,31 +195,7 @@ def main():
         print(f"\nGenerated: {output_path}")
         print(f"Length: {len(result)} chars")
 
-    elif args.command == "thematic-v2":
-        # Versione V2: analisi scuola per scuola
-        if not args.dim:
-            print("Error: --dim required for thematic-v2 report")
-            sys.exit(1)
 
-        from src.agents.meta_report.reporters.thematic_v2 import ThematicReporterV2
-        reporter = ThematicReporterV2(orchestrator.provider)
-
-        # Costruisci filtri puliti
-        clean_filters = {k: v for k, v in filters.items() if v}
-
-        result = reporter.generate(
-            args.dim,
-            filters=clean_filters if clean_filters else None,
-            prompt_profile=args.prompt_profile,
-            force=args.force
-        )
-        if result:
-            print(f"Generated (V2): {result}")
-            if args.refine:
-                _apply_refine(result, args.provider)
-        else:
-            print("Failed to generate report")
-            sys.exit(1)
 
     elif args.command == "next":
         result = orchestrator.generate_next()

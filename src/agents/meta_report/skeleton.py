@@ -6,7 +6,7 @@ determined here, not by the LLM.
 """
 
 import csv
-from collections import defaultdict
+from collections import defaultdict, Counter
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
@@ -185,6 +185,10 @@ class SkeletonBuilder:
         lines.append(self._generate_methodology_note())
         lines.append("")
         
+        # Data overview (descriptive statistics)
+        lines.append(self._generate_data_overview())
+        lines.append("")
+        
         # Introduction
         lines.append("## Introduzione")
         lines.append("")
@@ -245,6 +249,125 @@ L'obiettivo è restituire una narrazione coerente che non si limiti a un elenco 
 - Analisi Monografica: Approfondimento strutturato sulle direttrici strategiche e operative.
 - Sintesi Executive: Visione d'insieme per i decisori con raccomandazioni finali.
 """
+    
+    def _generate_data_overview(self) -> str:
+        """Generate descriptive statistics overview from the data."""
+        lines = []
+        
+        # Calculate statistics
+        total_activities = len(self.activities)
+        total_schools = len(self.schools)
+        provinces = sorted(set(s.province for s in self.schools.values()))
+        comuni = sorted(set(row.get("comune", "") for row in self.activities if row.get("comune")))
+        
+        # Category distribution
+        cat_counts = {}
+        for cat_name in CATEGORY_ORDER:
+            cat = self.categories.get(cat_name)
+            if cat:
+                cat_counts[cat_name] = cat.total_activities()
+        
+        # Target distribution
+        target_counter = Counter()
+        for row in self.activities:
+            target = row.get("target", "").strip()
+            if target:
+                # Normalize common targets
+                if "studenti" in target.lower() and "docenti" in target.lower():
+                    target_counter["Studenti e Docenti"] += 1
+                elif "studenti" in target.lower():
+                    target_counter["Studenti"] += 1
+                elif "docenti" in target.lower():
+                    target_counter["Docenti"] += 1
+                elif "famiglie" in target.lower():
+                    target_counter["Famiglie"] += 1
+                else:
+                    target_counter["Altro"] += 1
+            else:
+                target_counter["Non specificato"] += 1
+        
+        # Methodology types
+        meto_counter = Counter()
+        for row in self.activities:
+            tipo = row.get("tipologie_metodologia", "").strip()
+            if tipo:
+                # Split pipe-separated values
+                for t in tipo.split("|"):
+                    t = t.strip()
+                    if t and t != "Altro":
+                        meto_counter[t] += 1
+        
+        # Activity areas
+        ambiti_counter = Counter()
+        for row in self.activities:
+            ambiti = row.get("ambiti_attivita", "").strip()
+            if ambiti:
+                for a in ambiti.split("|"):
+                    a = a.strip()
+                    if a:
+                        ambiti_counter[a] += 1
+        
+        # Build output
+        lines.append("## Panoramica Dati")
+        lines.append("")
+        lines.append("### Campione Analizzato")
+        lines.append("")
+        lines.append("| Indicatore | Valore |")
+        lines.append("|------------|--------|")
+        lines.append(f"| **Attività totali** | {total_activities} |")
+        lines.append(f"| **Scuole coinvolte** | {total_schools} |")
+        lines.append(f"| **Province** | {len(provinces)} ({', '.join(provinces)}) |")
+        lines.append(f"| **Comuni** | {len(comuni)} |")
+        lines.append("")
+        
+        # Category distribution
+        lines.append("### Distribuzione per Categoria")
+        lines.append("")
+        lines.append("| Categoria | N. | % |")
+        lines.append("|-----------|-----|-----|")
+        for cat_name in CATEGORY_ORDER:
+            count = cat_counts.get(cat_name, 0)
+            if count > 0:
+                pct = round(100 * count / total_activities)
+                # Short name for table
+                short_name = cat_name.replace("e Attività Esemplari", "Esemplari")
+                short_name = short_name.replace("Didattiche Innovative", "Innovative")
+                short_name = short_name.replace("e Collaborazioni", "")
+                lines.append(f"| {short_name} | {count} | {pct}% |")
+        lines.append("")
+        
+        # Target distribution
+        if target_counter:
+            lines.append("### Target delle Attività")
+            lines.append("")
+            lines.append("| Target | N. | % |")
+            lines.append("|--------|-----|-----|")
+            for target, count in target_counter.most_common(5):
+                pct = round(100 * count / total_activities)
+                lines.append(f"| {target} | {count} | {pct}% |")
+            lines.append("")
+        
+        # Methodology types
+        if meto_counter:
+            lines.append("### Metodologie Didattiche Prevalenti")
+            lines.append("")
+            lines.append("| Tipologia | N. |")
+            lines.append("|-----------|-----|")
+            for tipo, count in meto_counter.most_common(6):
+                lines.append(f"| {tipo} | {count} |")
+            lines.append("")
+        
+        # Activity areas  
+        if ambiti_counter:
+            lines.append("### Ambiti di Attività")
+            lines.append("")
+            lines.append("| Ambito | N. |")
+            lines.append("|--------|-----|")
+            for ambito, count in ambiti_counter.most_common(6):
+                lines.append(f"| {ambito} | {count} |")
+            lines.append("")
+        
+        return "\n".join(lines)
     
     def _generate_category_section(self, cat: CategoryStructure) -> list[str]:
         """Generate a category section with all schools and synthesis slots."""

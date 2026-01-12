@@ -7,8 +7,7 @@ Sistema di generazione incrementale di report sulle attività di orientamento es
 Il Meta Report Agent analizza i dati dal file `attivita.csv` e genera report markdown sulle attività di orientamento, a diversi livelli di granularità:
 
 - **School**: Report per singola scuola
-- **Regional**: Report aggregato per regione
-- **National**: Report nazionale con trend e confronti
+
 - **Thematic**: Report per dimensione (governance, didattica, etc.)
 
 ## Quick Start
@@ -16,6 +15,9 @@ Il Meta Report Agent analizza i dati dal file `attivita.csv` e genera report mar
 ```bash
 # Verifica stato report
 make meta-status
+
+# Genera report tematico con architettura skeleton-first (raccomandato)
+make meta-skeleton DIM=orientamento REGIONE=Marche ORDINE="II Grado"
 
 # Genera report per una scuola
 make meta-school CODE=RMIS001
@@ -44,8 +46,8 @@ Il sistema supporta tre provider LLM:
 make meta-school CODE=RMIS001
 
 # Provider specifico
+# Provider specifico
 make meta-school CODE=RMIS001 PROVIDER=gemini
-make meta-regional REGION=Lazio PROVIDER=openrouter
 ```
 
 ### Configurazione
@@ -66,15 +68,13 @@ export OPENROUTER_API_KEY=your_key
 
 ### Riepilogo Completo
 
-| Comando                       | Descrizione                    | Opzioni             |
-| ----------------------------- | ------------------------------ | ------------------- |
-| `make meta-status`            | Mostra stato di tutti i report | -                   |
-| `make meta-school CODE=X`     | Report singola scuola          | `PROVIDER`, `FORCE` |
-| `make meta-regional REGION=X` | Report aggregato regione       | `PROVIDER`, `FORCE` |
-| `make meta-national`          | Report nazionale               | `PROVIDER`, `FORCE` |
-| `make meta-thematic DIM=X`    | Report tematico                | `PROVIDER`, `FORCE` |
-| `make meta-next`              | Genera prossimo pendente       | `PROVIDER`          |
-| `make meta-batch N=X`         | Genera N report pendenti       | `PROVIDER`          |
+| Comando                    | Descrizione                        | Opzioni                                                      |
+| -------------------------- | ---------------------------------- | ------------------------------------------------------------ |
+| `make meta-status`         | Mostra stato di tutti i report     | -                                                            |
+| `make meta-skeleton DIM=X` | **Report tematico skeleton-first** | `REGIONE`, `ORDINE`, `PROVIDER_SCHOOL`, `PROVIDER_SYNTHESIS` |
+| `make meta-school CODE=X`  | Report singola scuola              | `PROVIDER`, `FORCE`                                          |
+| `make meta-next`           | Genera prossimo pendente           | `PROVIDER`                                                   |
+| `make meta-batch N=X`      | Genera N report pendenti           | `PROVIDER`                                                   |
 
 ### Opzioni Globali
 
@@ -127,123 +127,100 @@ make meta-school CODE=RMIS001 FORCE=1
 
 **Output**: `reports/meta/schools/RMIS001_attivita.md`
 
-### Report Regionale
+### Report Skeleton-First (Raccomandato)
+
+Il comando `meta-skeleton` offre un approccio migliorato per report tematici con **struttura deterministica** e **LLM solo per contenuto narrativo**.
+
+#### Vantaggi
+
+| Aspetto       | Skeleton-First        | Thematic Legacy    |
+| ------------- | --------------------- | ------------------ |
+| Struttura     | Fissa, controllata    | LLM decide         |
+| Formattazione | Nessun errore         | Possibili problemi |
+| Statistiche   | Sezione dedicata      | Sparse nel testo   |
+| Dual Provider | ✅ Sì                 | ❌ No              |
+| Velocità      | ~5 min (192 attività) | ~15 min            |
+
+#### Utilizzo Base
 
 ```bash
-# Report aggregato per regione
-make meta-regional REGION=Lazio
-make meta-regional REGION="Emilia Romagna"
-make meta-regional REGION=Lombardia PROVIDER=gemini FORCE=1
+# Report tematico con filtri
+make meta-skeleton DIM=orientamento REGIONE=Marche ORDINE="II Grado"
+
+# Solo con Ollama (locale, no costi)
+make meta-skeleton DIM=orientamento REGIONE=Marche PROVIDER_SCHOOL=ollama PROVIDER_SYNTHESIS=ollama
 ```
 
-**Output**: `reports/meta/regional/Lazio_attivita.md`
+#### Dimensioni Supportate (Categorie)
 
-### Report Nazionale
+Il parametro `DIM` accetta una delle seguenti 6 dimensioni fondamentali (che corrispondono alle categorie di analisi):
+
+1.  **`"Azioni di Sistema e Governance"`**: Strategie organizzative, reti di scuole, formazione docenti.
+2.  **`"Buone Pratiche per l'Inclusione"`**: Supporto BES/DSA, intercultura, contrasto dispersione.
+3.  **`"Esperienze Territoriali Significative"`**: PCTO, uscite didattiche, Service Learning.
+4.  **`"Metodologie Didattiche Innovative"`**: Laboratori digitali, CLIL, Debate, spazi innovativi.
+5.  **`"Partnership e Collaborazioni Strategiche"`**: Accordi con Università, ITS, Aziende, Terzo Settore.
+6.  **`"Progetti e Attività Esemplari"`**: Iniziative di eccellenza, premi, gare.
+
+Puoi anche usare `DIM=tutte` (se supportato) o generare report separati per ogni dimensione.
+
+#### Dual Provider
+
+Il skeleton-first supporta **provider separati** per ottimizzare costi e qualità:
+
+| Task                                | Provider Consigliato | Motivo                        |
+| ----------------------------------- | -------------------- | ----------------------------- |
+| Analisi scuole (28 chiamate)        | `ollama`             | Volume alto, locale, no costi |
+| Sintesi e conclusioni (10 chiamate) | `openrouter`         | Qualità superiore             |
 
 ```bash
-# Report complessivo nazionale
-make meta-national
-make meta-national PROVIDER=ollama FORCE=1
+# Dual provider (default)
+make meta-skeleton DIM=orientamento REGIONE=Marche \
+    PROVIDER_SCHOOL=ollama \
+    PROVIDER_SYNTHESIS=openrouter
+
+# Tutto locale
+make meta-skeleton DIM=orientamento REGIONE=Marche \
+    PROVIDER_SCHOOL=ollama \
+    PROVIDER_SYNTHESIS=ollama
 ```
 
-**Output**: `reports/meta/national/national_attivita.md`
+#### Struttura Output
 
-### Report Tematici
+Il report generato include:
 
-#### Dimensioni Strutturali
+1. **Nota Metodologica** - Fissa, descrive le 6 categorie
+2. **Panoramica Dati** - Statistiche automatiche dal CSV:
+   - Campione analizzato (scuole, province, comuni)
+   - Distribuzione per categoria
+   - Target delle attività
+   - Metodologie didattiche prevalenti
+   - Ambiti di attività
+3. **Introduzione** - Generata da LLM con focus su DIM e regione
+4. **Categorie** - Per ciascuna delle 6 categorie:
+   - Intro categoria
+   - Analisi per scuola (raggruppate per provincia)
+   - Sintesi per tipo scuola (Licei, Tecnici, Professionali)
+   - Scuole con attività simili
+5. **Differenze Territoriali** - Analisi + tabella province
+6. **Conclusioni** - Generata da LLM
 
-```bash
-make meta-thematic DIM=finalita      # Finalità orientative
-make meta-thematic DIM=obiettivi     # Obiettivi e risultati attesi
-make meta-thematic DIM=governance    # Governance e organizzazione
-make meta-thematic DIM=didattica     # Didattica orientativa
-make meta-thematic DIM=partnership   # Partnership e reti
-```
+#### Opzioni
 
-#### Dimensioni Opportunità (Granulari)
+| Variabile            | Descrizione                          | Default          |
+| -------------------- | ------------------------------------ | ---------------- |
+| `DIM`                | Dimensione tematica (obbligatorio)   | -                |
+| `REGIONE`            | Filtro regione                       | -                |
+| `ORDINE`             | Filtro ordine/grado (es: "II Grado") | -                |
+| `PROVINCIA`          | Filtro provincia                     | -                |
+| `PROVIDER_SCHOOL`    | Provider per analisi scuole          | `ollama`         |
+| `PROVIDER_SYNTHESIS` | Provider per sintesi                 | `openrouter`     |
+| `MODEL_SCHOOL`       | Modello specifico per scuole         | default provider |
+| `MODEL_SYNTHESIS`    | Modello specifico per sintesi        | default provider |
 
-```bash
-make meta-thematic DIM=pcto          # PCTO e Alternanza
-make meta-thematic DIM=stage         # Stage e Tirocini
-make meta-thematic DIM=openday       # Open Day
-make meta-thematic DIM=visite        # Visite aziendali/universitarie
-make meta-thematic DIM=laboratori    # Laboratori e simulazioni
-make meta-thematic DIM=testimonianze # Incontri con esperti
-make meta-thematic DIM=counseling    # Counseling individuale
-make meta-thematic DIM=alumni        # Rete alumni e mentoring
-```
+**Output**: `reports/meta/thematic/{DIM}__{filtri}_skeleton.md`
 
-**Output**: `reports/meta/thematic/{DIM}_attivita.md`
-
-#### Opzioni Aggiuntive
-
-| Variabile env                       | Descrizione                    | Default         |
-| ----------------------------------- | ------------------------------ | --------------- |
-| `META_REPORT_INCLUDE_REGIONS`       | Include sezioni per regione    | `0` (disattivo) |
-| `META_REPORT_MIN_THEME_CASES`       | Soglia minima casi per tema    | `5`             |
-| `META_REPORT_THEME_CHUNK_SIZE`      | Casi per chunk                 | `30`            |
-| `META_REPORT_THEME_CHUNK_THRESHOLD` | Soglia per attivare chunking   | `60`            |
-| `META_REPORT_CHUNK_CACHE`           | Abilita cache dei chunk        | `1` (attivo)    |
-| `META_REPORT_SEMANTIC_CHUNKING`     | Chunking semantico per gruppo  | `1` (attivo)    |
-| `META_REPORT_CHUNKING_STRATEGY`     | Strategia: region/tipo_scuola/mixed | `region`   |
-| `META_REPORT_CUMULATIVE_CONTEXT`    | Contesto cumulativo tra chunk  | `1` (attivo)    |
-
-```bash
-# Include anche le sezioni per regione
-META_REPORT_INCLUDE_REGIONS=1 make meta-thematic DIM=pcto
-
-# Disabilita chunking semantico
-META_REPORT_SEMANTIC_CHUNKING=0 make meta-thematic DIM=pcto
-
-# Usa strategia di chunking per tipo di scuola
-META_REPORT_CHUNKING_STRATEGY=tipo_scuola make meta-thematic DIM=pcto
-
-# Soglia minima casi per tema (temi con meno casi vanno in "Altri temi emergenti")
-META_REPORT_MIN_THEME_CASES=5 make meta-thematic DIM=pcto
-
-# Chunking (bilanciamento costo/qualità)
-META_REPORT_THEME_CHUNK_SIZE=80 META_REPORT_THEME_CHUNK_THRESHOLD=160 make meta-thematic DIM=pcto
-```
-
-#### Profili di Analisi
-
-Il profilo determina il focus narrativo del report. Specificalo con `PROMPT=`:
-
-| Profilo       | Descrizione                              |
-| ------------- | ---------------------------------------- |
-| `overview`    | Quadro complessivo (default)             |
-| `innovative`  | Focus su pratiche innovative e originali |
-| `comparative` | Confronti territoriali dettagliati       |
-| `impact`      | Valutazione efficacia e impatto          |
-| `operational` | Raccomandazioni operative concrete       |
-
-```bash
-make meta-thematic DIM=pcto PROMPT=overview
-make meta-thematic DIM=pcto PROMPT=innovative
-make meta-thematic DIM=pcto PROMPT=comparative
-make meta-thematic DIM=pcto PROMPT=impact
-make meta-thematic DIM=pcto PROMPT=operational
-```
-
-#### Report Tematico V2 (Analisi Scuola per Scuola)
-
-Il comando `thematic-v2` offre un approccio alternativo che analizza ogni scuola singolarmente prima di aggregare i risultati. Utile per analisi più dettagliate su dataset ridotti.
-
-```bash
-# Analisi scuola per scuola
-make meta-thematic-v2 DIM=orientamento
-
-# Con filtri
-make meta-thematic-v2 DIM=orientamento REGIONE=Lazio ORDINE="ii-grado"
-
-# Con raffinamento
-make meta-thematic-v2 DIM=pcto REFINE=1
-```
-
-**Differenze rispetto a `meta-thematic`:**
-- Analizza ogni scuola individualmente prima dell'aggregazione
-- Migliore granularità per dataset piccoli
-- Tempo di esecuzione maggiore su dataset grandi
+---
 
 #### Filtri Disponibili
 
@@ -261,13 +238,10 @@ Puoi filtrare i dati per specifici attributi delle scuole:
 
 ```bash
 # Filtro singolo
-make meta-thematic DIM=pcto ORDINE=ii-grado
+make meta-skeleton DIM=orientamento ORDINE="II Grado"
 
 # Filtri multipli
-make meta-thematic DIM=pcto REGIONE=Lazio TIPO=Liceo
-
-# Combinazione filtri + profilo
-make meta-thematic DIM=pcto REGIONE=Lombardia ORDINE=ii-grado PROMPT=comparative
+make meta-skeleton DIM=orientamento REGIONE=Lazio ORDINE="II Grado"
 ```
 
 #### Naming dei File Output
