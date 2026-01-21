@@ -85,6 +85,18 @@ def load_data():
     for col in num_cols:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
+    
+    # Normalizza nomi regioni
+    if 'regione' in df.columns:
+        df['regione'] = df['regione'].replace({
+            'Emilia Romagna': 'Emilia-Romagna',
+            'Friuli-Venezia G.': 'Friuli-Venezia Giulia',
+            'Friuli Venezia G.': 'Friuli-Venezia Giulia',
+            'Friuli Venezia G': 'Friuli-Venezia Giulia',
+            'Trentino Alto Adige': 'Trentino-Alto Adige',
+            "Valle D'Aosta": "Valle d'Aosta",
+        })
+    
     return df
 
 

@@ -1,5 +1,5 @@
 {
-  "cycle_id": 1,
+  "cycle_id": 2,
   "target_total": 6000,
   "yield_global": 0.36,
   "yield_by_strato": {
@@ -1274,5 +1274,8 @@
       "last_reason": "PTOF non trovato",
       "strato": "PAR_VENETO_METRO_SEC_PRIMO"
     }
-  }
+  },
+  "status": "completed",
+  "completed_at": "2026-01-21T13:44:49.402645",
+  "note": "Ciclo chiuso manualmente - analisi Ollama da completare separatamente"
 }

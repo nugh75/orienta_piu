@@ -436,7 +436,7 @@ SEED ?= 42
 MAX_CYCLES ?= 1
 YIELD_GLOBAL ?= 0.6
 MAX_DOWNLOADS ?=
-SKIP_ANALYSIS ?=
+SKIP_ANALYSIS ?= 1
 
 strata-cycle:
 	$(PYTHON) -m src.processing.strata_cycle \
@@ -447,7 +447,7 @@ strata-cycle:
 		--max-cycles $(MAX_CYCLES) \
 		$(if $(MAX_DOWNLOADS),--max-downloads $(MAX_DOWNLOADS),) \
 		--seed $(SEED) \
-		$(if $(SKIP_ANALYSIS),--skip-analysis,) \
+		$(if $(filter 1,$(SKIP_ANALYSIS)),--skip-analysis,) \
 		$(if $(G),--grado "$(G)",) \
 		$(if $(R),--regione "$(R)",)
 

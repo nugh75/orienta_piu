@@ -7128,6 +7128,48 @@
         "reason": "Rifiutato da LLM (Errore analisi LLM)"
       },
       "timestamp": "2026-01-05T16:37:41.062392"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/GEPS02000C_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/too_short/GEPS02000C_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/GEPS02000C_PTOF.pdf",
+        "file_name": "GEPS02000C_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 6180,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2026-01-21T13:32:26.372273",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2026-01-21T13:32:26.372757"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/BOPL57500R_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/too_short/BOPL57500R_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/BOPL57500R_PTOF.pdf",
+        "file_name": "BOPL57500R_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 10566,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2026-01-21T13:32:28.356687",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2026-01-21T13:32:28.357211"
     }
   ]
 }

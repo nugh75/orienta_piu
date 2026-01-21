@@ -27,13 +27,28 @@ parser.add_argument("--analyst", type=str, help="Modello per analista (es. gemma
 parser.add_argument("--reviewer", type=str, help="Modello per revisore (es. qwen3:32b)")
 parser.add_argument("--refiner", type=str, help="Modello per refiner (es. gemma3:27b)")
 parser.add_argument("--synthesizer", type=str, help="Modello per synthesizer (es. gemma3:27b)")
-parser.add_argument("--ollama-url", type=str, default="http://localhost:11434", help="URL server Ollama")
+parser.add_argument("--ollama-url", type=str, help="URL server Ollama (default: auto-detect per provider)")
 parser.add_argument("--provider", type=str, help="Provider LLM (ollama, openai, openrouter)")
 parser.add_argument("--preset", type=str, help="ID Preset da usare (es. 8 per Gemini Lite)")
 args, _ = parser.parse_known_args()
 
 FORCE_REANALYSIS = args.force
 FORCE_CODE = args.force_code
+
+# Determine correct base URL based on provider
+def get_provider_url(provider: str, explicit_url: str = None) -> str:
+    """Get the correct API URL for a provider."""
+    if explicit_url:
+        return explicit_url
+    provider = (provider or "").lower()
+    if provider == "openrouter":
+        return "https://openrouter.ai/api/v1/chat/completions"
+    elif provider == "openai":
+        return "https://api.openai.com/v1/chat/completions"
+    else:
+        # Default Ollama
+        return os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+
 # Override env vars if args present (so subprocesses see them)
 if args.model:
     os.environ["PTOF_MODEL"] = args.model
@@ -45,11 +60,12 @@ if args.refiner:
     os.environ["PTOF_MODEL_REFINER"] = args.refiner
 if args.synthesizer:
     os.environ["PTOF_MODEL_SYNTHESIZER"] = args.synthesizer
-if args.ollama_url:
-    os.environ["PTOF_OLLAMA_URL"] = args.ollama_url
-    os.environ["OLLAMA_HOST"] = args.ollama_url # Compatibility
 if args.provider:
     os.environ["PTOF_PROVIDER"] = args.provider
+# Set correct URL based on provider
+api_url = get_provider_url(args.provider, args.ollama_url)
+os.environ["PTOF_OLLAMA_URL"] = api_url
+os.environ["OLLAMA_HOST"] = api_url
 if args.preset:
     os.environ["PTOF_PRESET"] = args.preset
 
