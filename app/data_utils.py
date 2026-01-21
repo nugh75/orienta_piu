@@ -47,8 +47,33 @@ LABEL_MAP_SHORT = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO'
+    'ptof_orientamento_maturity_index': 'Indice RO',
+    'weighted_index': 'Indice RO (Pesato)'
 }
+
+# Colonna indice da usare (pesata se disponibile)
+INDEX_COL = 'weighted_index'
+INDEX_COL_FALLBACK = 'ptof_orientamento_maturity_index'
+
+
+def get_index_column(df: pd.DataFrame) -> str:
+    """
+    Restituisce il nome della colonna indice da usare.
+    Preferisce weighted_index se disponibile, altrimenti fallback.
+    """
+    if INDEX_COL in df.columns:
+        return INDEX_COL
+    return INDEX_COL_FALLBACK
+
+
+def get_index_series(df: pd.DataFrame) -> pd.Series:
+    """
+    Restituisce la serie dell'indice da usare (pesato o originale).
+    Converte a numeric e gestisce valori mancanti.
+    """
+    col = get_index_column(df)
+    return pd.to_numeric(df[col], errors='coerce')
+
 
 def get_label(col: str, short: bool = False) -> str:
     """Restituisce l'etichetta leggibile per una colonna."""
@@ -94,11 +119,52 @@ def split_multi_value(value):
     return [part.strip() for part in str(value).split(',') if part.strip()]
 
 
+# Cache per il DataFrame pesato - invalida se cambia weights_config.json
+_weighted_df_cache = {"df": None, "mtime": None}
 
-def load_summary_data():
-    if os.path.exists(SUMMARY_FILE):
-        return pd.read_csv(SUMMARY_FILE)
-    return pd.DataFrame()
+def load_summary_data(apply_weights: bool = True):
+    """
+    Carica il DataFrame summary con opzionale applicazione dei pesi.
+    
+    Args:
+        apply_weights: Se True, applica i pesi configurati e aggiunge
+                       le colonne weighted_index e weighted_mean_*
+    
+    Returns:
+        DataFrame con dati summary (e colonne pesate se apply_weights=True)
+    """
+    import sys
+    from pathlib import Path
+    
+    if not os.path.exists(SUMMARY_FILE):
+        return pd.DataFrame()
+    
+    df = pd.read_csv(SUMMARY_FILE)
+    
+    if not apply_weights:
+        return df
+    
+    # Controlla se i pesi sono cambiati
+    weights_path = Path(__file__).resolve().parent.parent / "config" / "weights_config.json"
+    current_mtime = None
+    if weights_path.exists():
+        current_mtime = weights_path.stat().st_mtime
+    
+    # Usa cache se valida
+    global _weighted_df_cache
+    if (_weighted_df_cache["df"] is not None and 
+        _weighted_df_cache["mtime"] == current_mtime and
+        len(_weighted_df_cache["df"]) == len(df)):
+        return _weighted_df_cache["df"].copy()
+    
+    # Applica pesi
+    df = apply_weighted_columns(df)
+    
+    # Aggiorna cache
+    _weighted_df_cache["df"] = df.copy()
+    _weighted_df_cache["mtime"] = current_mtime
+    
+    return df
 
 def find_pdf_for_school(school_id, base_dirs=None):
     import glob
@@ -352,3 +418,197 @@ def render_footer():
     </div>
 </div>
     """, unsafe_allow_html=True)
+
+
+def recalculate_weighted_index(school_data: dict, dim_weights: dict = None, ind_weights: dict = None) -> dict:
+    """
+    Ricalcola l'indice di maturita per una scuola con pesi personalizzati.
+    Utile per anteprima dinamica senza modificare il CSV.
+
+    Args:
+        school_data: dict o pd.Series con i dati della scuola
+        dim_weights: dict con pesi dimensioni (se None, usa config)
+        ind_weights: dict con pesi indicatori per dimensione (se None, usa config)
+
+    Returns:
+        dict con:
+        - weighted_index: indice pesato
+        - dimension_means: medie pesate per ogni dimensione
+        - original_index: indice originale dal CSV
+    """
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+    try:
+        from src.utils.weights_manager import (
+            get_dimension_weights,
+            get_indicator_weights,
+            INDICATOR_TO_COLUMN,
+            DIMENSION_COLUMNS
+        )
+    except ImportError:
+        # Fallback se weights_manager non disponibile
+        return {
+            "weighted_index": school_data.get('ptof_orientamento_maturity_index', 0),
+            "dimension_means": {},
+            "original_index": school_data.get('ptof_orientamento_maturity_index', 0)
+        }
+
+    # Carica pesi se non forniti
+    if dim_weights is None:
+        dim_weights = get_dimension_weights()
+
+    # Calcola medie pesate per ogni dimensione
+    dimension_means = {}
+
+    for dim_key in INDICATOR_TO_COLUMN.keys():
+        if ind_weights:
+            dim_ind_weights = ind_weights.get(dim_key, {})
+        else:
+            dim_ind_weights = get_indicator_weights(dim_key)
+
+        col_map = INDICATOR_TO_COLUMN.get(dim_key, {})
+
+        scores = []
+        weights = []
+        for ind_key, col_name in col_map.items():
+            score = school_data.get(col_name, 0)
+            # Converti a float e gestisci valori non validi
+            try:
+                score = float(score) if score and not pd.isna(score) else 0
+            except (ValueError, TypeError):
+                score = 0
+
+            if score > 0:
+                default_weight = 1.0 / len(col_map)
+                weight = dim_ind_weights.get(ind_key, default_weight)
+                scores.append(score)
+                weights.append(weight)
+
+        if scores and sum(weights) > 0:
+            dimension_means[dim_key] = sum(s * w for s, w in zip(scores, weights)) / sum(weights)
+        else:
+            dimension_means[dim_key] = 0
+
+    # Calcola indice finale pesato
+    final_scores = []
+    final_weights = []
+    for dim_key, mean_val in dimension_means.items():
+        if mean_val > 0:
+            final_scores.append(mean_val)
+            final_weights.append(dim_weights.get(dim_key, 0.2))
+
+    if final_scores and sum(final_weights) > 0:
+        weighted_index = sum(s * w for s, w in zip(final_scores, final_weights)) / sum(final_weights)
+    else:
+        weighted_index = 0
+
+    # Indice originale dal CSV
+    original_index = school_data.get('ptof_orientamento_maturity_index', 0)
+    try:
+        original_index = float(original_index) if original_index and not pd.isna(original_index) else 0
+    except (ValueError, TypeError):
+        original_index = 0
+
+    return {
+        "weighted_index": round(weighted_index, 2),
+        "dimension_means": {k: round(v, 2) for k, v in dimension_means.items()},
+        "original_index": round(original_index, 2)
+    }
+
+
+def apply_weighted_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Applica i pesi configurati a tutto il DataFrame, aggiungendo colonne pesate.
+    
+    Aggiunge le seguenti colonne:
+    - weighted_index: indice di maturità ricalcolato con i pesi
+    - weighted_mean_finalita, weighted_mean_obiettivi, etc.: medie dimensionali pesate
+    
+    Le colonne originali (ptof_orientamento_maturity_index, mean_*) rimangono invariate.
+    
+    Questa funzione è ottimizzata per essere usata una sola volta dopo il caricamento
+    del DataFrame, evitando ricalcoli ripetuti.
+    """
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    
+    try:
+        from src.utils.weights_manager import (
+            get_dimension_weights,
+            get_indicator_weights,
+            INDICATOR_TO_COLUMN,
+            DIMENSION_COLUMNS
+        )
+    except ImportError:
+        # Fallback: ritorna df invariato
+        if 'weighted_index' not in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
+            df['weighted_index'] = df['ptof_orientamento_maturity_index']
+        return df
+    
+    # Se già calcolate, ritorna
+    if 'weighted_index' in df.columns:
+        return df
+    
+    df = df.copy()
+    
+    # Carica pesi una sola volta
+    dim_weights = get_dimension_weights()
+    ind_weights_all = {dim: get_indicator_weights(dim) for dim in INDICATOR_TO_COLUMN.keys()}
+    
+    # Inizializza colonne
+    for dim_key in INDICATOR_TO_COLUMN.keys():
+        df[f'weighted_mean_{dim_key}'] = 0.0
+    df['weighted_index'] = 0.0
+    
+    # Calcola per ogni riga
+    for idx in df.index:
+        row = df.loc[idx]
+        dimension_means = {}
+        
+        # Calcola medie pesate per ogni dimensione
+        for dim_key in INDICATOR_TO_COLUMN.keys():
+            col_map = INDICATOR_TO_COLUMN[dim_key]
+            dim_ind_weights = ind_weights_all[dim_key]
+            
+            scores = []
+            weights = []
+            for ind_key, col_name in col_map.items():
+                if col_name in df.columns:
+                    score = row.get(col_name, 0)
+                    try:
+                        score = float(score) if score and not pd.isna(score) else 0
+                    except (ValueError, TypeError):
+                        score = 0
+                    
+                    if score > 0:
+                        weight = dim_ind_weights.get(ind_key, 1.0 / len(col_map))
+                        scores.append(score)
+                        weights.append(weight)
+            
+            if scores and sum(weights) > 0:
+                dim_mean = sum(s * w for s, w in zip(scores, weights)) / sum(weights)
+            else:
+                dim_mean = 0
+            
+            dimension_means[dim_key] = dim_mean
+            df.at[idx, f'weighted_mean_{dim_key}'] = round(dim_mean, 2)
+        
+        # Calcola indice finale pesato
+        final_scores = []
+        final_weights = []
+        for dim_key, mean_val in dimension_means.items():
+            if mean_val > 0:
+                final_scores.append(mean_val)
+                final_weights.append(dim_weights.get(dim_key, 0.2))
+        
+        if final_scores and sum(final_weights) > 0:
+            weighted_idx = sum(s * w for s, w in zip(final_scores, final_weights)) / sum(final_weights)
+        else:
+            weighted_idx = 0
+        
+        df.at[idx, 'weighted_index'] = round(weighted_idx, 2)
+    
+    return df

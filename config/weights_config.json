@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "last_modified": "2026-01-21T11:00:41.728278Z",
+  "modified_by": "admin",
+  "dimension_weights": {
+    "finalita": 0.35,
+    "obiettivi": 0.1,
+    "governance": 0.25,
+    "didattica": 0.15,
+    "opportunita": 0.15
+  },
+  "indicator_weights": {
+    "finalita": {
+      "attitudini": 0.05,
+      "interessi": 0.15,
+      "progetto_vita": 0.35,
+      "transizioni": 0.1,
+      "capacita_orientative": 0.35
+    },
+    "obiettivi": {
+      "ridurre_abbandono": 0.25,
+      "continuita_territorio": 0.25,
+      "contrastare_neet": 0.25,
+      "lifelong_learning": 0.25
+    },
+    "governance": {
+      "coordinamento": 0.15,
+      "dialogo": 0.25,
+      "rapporto_genitori": 0.2,
+      "monitoraggio": 0.25,
+      "inclusione": 0.15
+    },
+    "didattica": {
+      "esperienza_studenti": 0.25,
+      "laboratoriale": 0.25,
+      "flessibilita": 0.25,
+      "interdisciplinare": 0.25
+    },
+    "opportunita": {
+      "culturali": 0.2,
+      "laboratoriali": 0.2,
+      "ludiche": 0.2,
+      "volontariato": 0.2,
+      "sportive": 0.2
+    }
+  },
+  "presets": {
+    "equal": {
+      "name": "Pesi Uguali (Default)",
+      "description": "Tutti gli indicatori e le dimensioni hanno lo stesso peso",
+      "dimension_weights": {
+        "finalita": 0.2,
+        "obiettivi": 0.2,
+        "governance": 0.2,
+        "didattica": 0.2,
+        "opportunita": 0.2
+      }
+    },
+    "didattica_focus": {
+      "name": "Focus Didattica",
+      "description": "Enfasi su didattica orientativa e governance",
+      "dimension_weights": {
+        "finalita": 0.15,
+        "obiettivi": 0.15,
+        "governance": 0.25,
+        "didattica": 0.3,
+        "opportunita": 0.15
+      }
+    },
+    "transizioni": {
+      "name": "Focus Transizioni",
+      "description": "Enfasi su obiettivi e opportunita per le transizioni formative",
+      "dimension_weights": {
+        "finalita": 0.2,
+        "obiettivi": 0.25,
+        "governance": 0.15,
+        "didattica": 0.15,
+        "opportunita": 0.25
+      }
+    }
+  }
+}

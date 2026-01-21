@@ -13,7 +13,8 @@ from data_utils import (
     load_summary_data,
     DIMENSIONS,
     scale_to_pct,
-    format_pct
+    format_pct,
+    get_index_column
 )
 from page_control import setup_page
 
@@ -78,8 +79,9 @@ ALL_METHODOLOGIES = [m for methods in METHODOLOGIES_BY_CATEGORY.values() for m i
 
 @st.cache_data(ttl=60)
 def load_data():
-    df = load_summary_data()
-    num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
+    df = load_summary_data(apply_weights=True)
+    idx_col = get_index_column(df) if not df.empty else 'weighted_index'
+    num_cols = list(DIMENSIONS.keys()) + [idx_col]
     for col in num_cols:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
@@ -87,7 +89,7 @@ def load_data():
 
 
 @st.cache_data(ttl=300)
-def search_methodology(keyword: str, df: pd.DataFrame) -> pd.DataFrame:
+def search_methodology(keyword: str, df: pd.DataFrame, index_col: str = 'weighted_index') -> pd.DataFrame:
     """Cerca una keyword in tutti i report markdown."""
     results = []
     keyword_lower = keyword.lower()
@@ -111,7 +113,7 @@ def search_methodology(keyword: str, df: pd.DataFrame) -> pd.DataFrame:
                         'regione': row.get('regione'),
                         'provincia': row.get('provincia'),
                         'tipo_scuola': row.get('tipo_scuola'),
-                        'ptof_orientamento_maturity_index': row.get('ptof_orientamento_maturity_index'),
+                        'ro_index': row.get(index_col),
                         'match_count': match_count,
                         **{col: row.get(col) for col in DIMENSIONS.keys()}
                     })
@@ -121,7 +123,7 @@ def search_methodology(keyword: str, df: pd.DataFrame) -> pd.DataFrame:
     results_df = pd.DataFrame(results)
     if not results_df.empty:
         results_df = results_df.sort_values(
-            ['match_count', 'ptof_orientamento_maturity_index'],
+            ['match_count', 'ro_index'],
             ascending=[False, False]
         )
 
@@ -130,6 +132,7 @@ def search_methodology(keyword: str, df: pd.DataFrame) -> pd.DataFrame:
 
 # === CARICAMENTO DATI ===
 df = load_data()
+INDEX_COL = get_index_column(df) if not df.empty else 'weighted_index'
 
 st.title("🔍 Ricerca Metodologie e Progetti")
 
@@ -194,7 +197,7 @@ if selected_keyword:
     st.subheader(f"2️⃣ Risultati per \"{selected_keyword}\"")
 
     with st.spinner(f"Cercando '{selected_keyword}' nei PTOF..."):
-        results = search_methodology(selected_keyword, df)
+        results = search_methodology(selected_keyword, df, INDEX_COL)
 
     if results.empty:
         st.warning(f"Nessuna scuola trovata con '{selected_keyword}' nel proprio PTOF.")
@@ -203,8 +206,8 @@ if selected_keyword:
         # === STATISTICHE ===
         n_schools = len(results)
         pct = n_schools / len(df) * 100
-        mean_ro = results['ptof_orientamento_maturity_index'].mean()
-        overall_mean = df['ptof_orientamento_maturity_index'].mean()
+        mean_ro = results['ro_index'].mean()
+        overall_mean = df[INDEX_COL].mean()
 
         stat_cols = st.columns(4)
         with stat_cols[0]:
@@ -261,7 +264,7 @@ if selected_keyword:
         st.subheader("🏫 Scuole che usano questa metodologia")
 
         for i, (idx, row) in enumerate(filtered_results.head(15).iterrows()):
-            ro_val = row['ptof_orientamento_maturity_index']
+            ro_val = row['ro_index']
             ro_color = "🟢" if ro_val >= 5 else "🟡" if ro_val >= 3 else "🔴"
 
             with st.expander(
@@ -372,7 +375,7 @@ if selected_keyword:
         st.subheader("📋 Tabella Completa")
 
         export_df = filtered_results[['denominazione', 'regione', 'provincia', 'tipo_scuola',
-                                      'ptof_orientamento_maturity_index', 'match_count']].copy()
+                                      'ro_index', 'match_count']].copy()
         export_df.columns = ['Scuola', 'Regione', 'Provincia', 'Tipo', 'Indice Completezza', 'Menzioni']
         export_df['Indice Completezza'] = export_df['Indice Completezza'].apply(lambda x: format_pct(x))
 

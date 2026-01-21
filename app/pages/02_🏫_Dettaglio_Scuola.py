@@ -10,8 +10,14 @@ import json
 import glob
 import numpy as np
 import csv
-import csv
-from data_utils import render_footer, scale_to_pct, format_pct
+from data_utils import (
+    render_footer,
+    scale_to_pct,
+    format_pct,
+    recalculate_weighted_index,
+    load_summary_data,
+    get_index_column
+)
 from page_control import setup_page, switch_page
 
 st.set_page_config(page_title="ORIENTA+ | Dettaglio Scuola", page_icon="🧭", layout="wide")
@@ -117,20 +123,22 @@ def get_label(col):
 
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index', 'partnership_count', 'activities_count']
-        for col in num_cols:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-        
-        # Calcolo Completezza (Logica: >= 5/7 = Completo, >= 4/7 = Parziale)
-        if 'ptof_orientamento_maturity_index' in df.columns:
-            df['completeness_status'] = df['ptof_orientamento_maturity_index'].apply(
-                lambda x: 'Completo' if x >= 5.0 else ('Parziale' if x >= 4.0 else 'Incompleto')
-            )
-        return df
-    return pd.DataFrame()
+    df = load_summary_data(apply_weights=True)
+    if df.empty:
+        return pd.DataFrame()
+    
+    idx_col = get_index_column(df)
+    num_cols = list(DIMENSIONS.keys()) + [idx_col, 'partnership_count', 'activities_count']
+    for col in num_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    
+    # Calcolo Completezza (Logica: >= 5/7 = Completo, >= 4/7 = Parziale)
+    if idx_col in df.columns:
+        df['completeness_status'] = df[idx_col].apply(
+            lambda x: 'Completo' if x >= 5.0 else ('Parziale' if x >= 4.0 else 'Incompleto')
+        )
+    return df
 
 @st.cache_data(ttl=60)
 def load_activities():
@@ -288,7 +296,7 @@ def get_best_in_class(df, tipo_scuola=None, ordine_grado=None):
         filtered = filtered[filtered['ordine_grado'].str.contains(ordine_grado, na=False, case=False)]
     if filtered.empty:
         return None
-    return filtered.loc[filtered['ptof_orientamento_maturity_index'].idxmax()]
+    return filtered.loc[filtered[INDEX_COL].idxmax()]
 
 def calculate_gap(school, benchmark):
     gaps = {}
@@ -358,7 +366,7 @@ def find_peer_schools(target_school, df, top_n=10):
             'comune': school.get('comune', ''),
             'regione': school.get('regione', ''),
             'tipo_scuola': school.get('tipo_scuola', ''),
-            'indice_ro': school.get('ptof_orientamento_maturity_index', 0),
+            'indice_ro': school.get(INDEX_COL, 0),
             'similarity_score': similarity,
             **{col: school.get(col, 0) for col in DIMENSIONS.keys()}
         })
@@ -366,7 +374,7 @@ def find_peer_schools(target_school, df, top_n=10):
 
 def get_peer_statistics(target_school, peers_df):
     stats = {}
-    target_index_raw = target_school.get('ptof_orientamento_maturity_index', 0)
+    target_index_raw = target_school.get(INDEX_COL, 0)
     target_index = float(target_index_raw)
     
     # Calculate peer indices in percentage
@@ -396,6 +404,7 @@ def get_peer_statistics(target_school, peers_df):
 
 # === CARICAMENTO DATI ===
 df = load_data()
+INDEX_COL = get_index_column(df) if not df.empty else 'weighted_index'
 
 st.title("🏫 Dettaglio Scuola")
 
@@ -514,8 +523,8 @@ with action_cols[1]:
 st.subheader("📋 Informazioni Generali")
 st.markdown(f"**{school_data['denominazione']}**")
 
-idx = school_data.get('ptof_orientamento_maturity_index', 0)
-overall_percentile = (df['ptof_orientamento_maturity_index'] < idx).mean() * 100 if pd.notna(idx) else 0
+idx = school_data.get(INDEX_COL, 0)
+overall_percentile = (df[INDEX_COL] < idx).mean() * 100 if pd.notna(idx) else 0
 
 info_cols = st.columns(4)
 with info_cols[0]:
@@ -544,7 +553,7 @@ with info_cols2[3]:
 info_cols3 = st.columns(2)
 with info_cols3[0]:
     # Use percentage instead of text status as requested
-    idx_val = school_data.get('ptof_orientamento_maturity_index', 0)
+    idx_val = school_data.get(INDEX_COL, 0)
     pct_str = format_pct(idx_val)
     st.metric("Stato Completezza", pct_str)
 with info_cols3[1]:
@@ -638,26 +647,159 @@ with tab_profilo:
             delta = val - mean_val
             st.metric(col_name, f"{val:.1f}%", f"{delta:+.1f}%", delta_color="normal")
 
-    # Punteggi dettagliati
-    st.subheader("📊 Punteggi Dettagliati")
-    score_cols = [c for c in df.columns if '_score' in c]
-    if score_cols:
-        scores = {get_label(c): float(school_data.get(c, 0) or 0) for c in score_cols if pd.notna(school_data.get(c))}
-        if scores:
-            score_df = pd.DataFrame({'Dimensione': list(scores.keys()), 'Punteggio': list(scores.values())})
-            score_df = score_df.sort_values('Punteggio', ascending=True)
-            fig = px.bar(score_df, x='Punteggio', y='Dimensione', orientation='h',
-                        color='Punteggio', color_continuous_scale='RdYlGn',
-                        range_x=[1, 7], range_color=[1, 7])
-            fig.update_layout(height=600)
-            st.plotly_chart(fig, use_container_width=True)
+    # Punteggi dettagliati per dimensione (Cards con Gauge)
+    st.subheader("📊 Punteggi Dettagliati per Dimensione")
 
-            st.info("""
-💡 **A cosa serve**: Mostra il punteggio di ogni singolo indicatore valutato nel PTOF.
+    # Calcolo indice pesato
+    weighted_result = recalculate_weighted_index(school_data)
+    original_idx = weighted_result["original_index"]
+    weighted_idx = weighted_result["weighted_index"]
+    idx_diff = weighted_idx - original_idx
 
-🔍 **Cosa rileva**: Ogni barra è un indicatore specifico. Verde = punteggio alto (buono), Rosso = punteggio basso (critico). Le barre più corte indicano le aree prioritarie.
+    # Mostra confronto indice originale vs pesato
+    if abs(idx_diff) > 0.01:
+        idx_cols = st.columns([1, 1, 1])
+        with idx_cols[0]:
+            st.metric("Indice Originale (CSV)", f"{original_idx:.2f}/7")
+        with idx_cols[1]:
+            delta_color = "normal" if idx_diff >= 0 else "inverse"
+            st.metric("Indice Pesato", f"{weighted_idx:.2f}/7", f"{idx_diff:+.2f}", delta_color=delta_color)
+        with idx_cols[2]:
+            st.info("⚖️ I pesi sono configurabili dalla pagina **Gestione Pesi** (admin)")
+        st.markdown("")
 
-🎯 **Implicazioni**: Usa questa vista per identificare esattamente QUALI aspetti migliorare nel PTOF. Gli indicatori in rosso sono le priorità di intervento concrete.
+    # Funzione per creare gauge
+    def create_gauge(value, title):
+        # Colore basato sul valore
+        if value >= 5:
+            bar_color = "#2ecc71"  # Verde
+        elif value >= 3.5:
+            bar_color = "#f39c12"  # Giallo/Arancione
+        else:
+            bar_color = "#e74c3c"  # Rosso
+
+        fig = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=value,
+            number={'suffix': '/7', 'font': {'size': 24}},
+            gauge={
+                'axis': {'range': [1, 7], 'tickwidth': 1},
+                'bar': {'color': bar_color},
+                'bgcolor': "white",
+                'steps': [
+                    {'range': [1, 3], 'color': '#fadbd8'},
+                    {'range': [3, 5], 'color': '#fef9e7'},
+                    {'range': [5, 7], 'color': '#d5f5e3'}
+                ],
+                'threshold': {
+                    'line': {'color': "black", 'width': 2},
+                    'thickness': 0.75,
+                    'value': value
+                }
+            }
+        ))
+        fig.update_layout(
+            height=150,
+            margin=dict(l=20, r=20, t=30, b=10),
+            font={'size': 12}
+        )
+        return fig
+
+    # Funzione per colore barra di progresso
+    def get_score_color(score):
+        if score >= 5:
+            return "#2ecc71"
+        elif score >= 3.5:
+            return "#f39c12"
+        else:
+            return "#e74c3c"
+
+    # Prima riga: Finalità, Obiettivi, Governance
+    row1_cols = st.columns(3)
+    dims_row1 = ['Finalita', 'Obiettivi', 'Governance']
+    dim_icons = {'Finalita': '🎯', 'Obiettivi': '📌', 'Governance': '🏛️', 'Didattica': '📚', 'Opportunita': '🌟'}
+
+    for col, dim_name in zip(row1_cols, dims_row1):
+        with col:
+            dim_col = [k for k, v in DIMENSIONS.items() if v == dim_name]
+            mean_val = float(school_data.get(dim_col[0], 0) or 0) if dim_col else 0
+
+            st.markdown(f"#### {dim_icons.get(dim_name, '')} {dim_name}")
+            st.plotly_chart(create_gauge(mean_val, dim_name), use_container_width=True, key=f"gauge_{dim_name}")
+
+            # Sotto-indicatori
+            if dim_name in SUB_INDICATORS:
+                for sub_col, sub_name in SUB_INDICATORS[dim_name].items():
+                    sub_val = float(school_data.get(sub_col, 0) or 0)
+                    color = get_score_color(sub_val)
+                    pct = (sub_val - 1) / 6 * 100  # Normalizza 1-7 a 0-100%
+                    st.markdown(f"""
+                    <div style="margin-bottom: 8px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
+                            <span>{sub_name}</span>
+                            <span style="font-weight: bold; color: {color};">{sub_val:.1f}</span>
+                        </div>
+                        <div style="background: #eee; border-radius: 4px; height: 8px; overflow: hidden;">
+                            <div style="background: {color}; width: {pct}%; height: 100%;"></div>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+    # Seconda riga: Didattica, Opportunità
+    row2_cols = st.columns([1, 1, 1])
+    dims_row2 = ['Didattica', 'Opportunita']
+
+    for idx, dim_name in enumerate(dims_row2):
+        with row2_cols[idx]:
+            dim_col = [k for k, v in DIMENSIONS.items() if v == dim_name]
+            mean_val = float(school_data.get(dim_col[0], 0) or 0) if dim_col else 0
+
+            st.markdown(f"#### {dim_icons.get(dim_name, '')} {dim_name}")
+            st.plotly_chart(create_gauge(mean_val, dim_name), use_container_width=True, key=f"gauge_{dim_name}")
+
+            # Sotto-indicatori
+            if dim_name in SUB_INDICATORS:
+                for sub_col, sub_name in SUB_INDICATORS[dim_name].items():
+                    sub_val = float(school_data.get(sub_col, 0) or 0)
+                    color = get_score_color(sub_val)
+                    pct = (sub_val - 1) / 6 * 100
+                    st.markdown(f"""
+                    <div style="margin-bottom: 8px;">
+                        <div style="display: flex; justify-content: space-between; font-size: 0.85em;">
+                            <span>{sub_name}</span>
+                            <span style="font-weight: bold; color: {color};">{sub_val:.1f}</span>
+                        </div>
+                        <div style="background: #eee; border-radius: 4px; height: 8px; overflow: hidden;">
+                            <div style="background: {color}; width: {pct}%; height: 100%;"></div>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+    # Legenda
+    with row2_cols[2]:
+        st.markdown("#### 📖 Legenda")
+        st.markdown("""
+        <div style="padding: 10px; background: #f8f9fa; border-radius: 8px; font-size: 0.85em;">
+            <div style="margin-bottom: 8px;">
+                <span style="display: inline-block; width: 12px; height: 12px; background: #2ecc71; border-radius: 2px; margin-right: 8px;"></span>
+                <strong>5-7:</strong> Ampiamente documentato
+            </div>
+            <div style="margin-bottom: 8px;">
+                <span style="display: inline-block; width: 12px; height: 12px; background: #f39c12; border-radius: 2px; margin-right: 8px;"></span>
+                <strong>3.5-5:</strong> Parzialmente documentato
+            </div>
+            <div>
+                <span style="display: inline-block; width: 12px; height: 12px; background: #e74c3c; border-radius: 2px; margin-right: 8px;"></span>
+                <strong>1-3.5:</strong> Poco documentato
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        st.markdown("")
+        st.info("""
+**Cosa mostrano le cards:**
+Ogni dimensione ha un gauge con la media e le barre mostrano i singoli indicatori.
+Rosso = priorità di intervento.
 """)
 
     st.markdown("---")
@@ -816,7 +958,7 @@ with tab_report:
             story.append(Spacer(1, 20))
 
             # === INDICE SCORES ===
-            ro_idx = school_data.get('ptof_orientamento_maturity_index', 0)
+            ro_idx = school_data.get(INDEX_COL, 0)
             ro_pct = format_pct(ro_idx)
             status = school_data.get('completeness_status', 'N/D')
             
@@ -1099,7 +1241,7 @@ with tab_gap:
         benchmark = get_best_in_class(df, ordine_grado=grado)
         bench_label = f"Migliore {grado}" if grado else "Migliore assoluta"
     elif benchmark_type == "Top 10%":
-        top_10 = df.nlargest(max(1, len(df)//10), 'ptof_orientamento_maturity_index')
+        top_10 = df.nlargest(max(1, len(df)//10), INDEX_COL)
         benchmark = top_10.mean(numeric_only=True)
         benchmark['denominazione'] = "Media Top 10%"
         bench_label = "Media Top 10%"
@@ -1198,16 +1340,16 @@ with tab_gap:
             st.markdown("---")
             st.subheader("🚀 Impatto Stimato")
 
-            current_index_raw = school_data.get('ptof_orientamento_maturity_index', 0) or 0
+            current_index_raw = school_data.get(INDEX_COL, 0) or 0
             current_index = float(current_index_raw)
-            current_percentile = (df['ptof_orientamento_maturity_index'] < current_index_raw).mean() * 100 if pd.notna(current_index_raw) else 0
+            current_percentile = (df[INDEX_COL] < current_index_raw).mean() * 100 if pd.notna(current_index_raw) else 0
             # gap is already in % points
             potential_gain = sum([min(30, p['gap']) for p in priorities[:3]]) / 5
             projected_index = min(100.0, current_index + potential_gain)
             
             # Estimate projected raw index for percentile calc
             projected_index_raw = 1 + (projected_index * 6 / 100)
-            new_percentile = (df['ptof_orientamento_maturity_index'] < projected_index_raw).mean() * 100
+            new_percentile = (df[INDEX_COL] < projected_index_raw).mean() * 100
 
             impact_cols = st.columns(3)
             with impact_cols[0]:
@@ -1229,7 +1371,7 @@ with tab_peer:
     st.subheader(f"📋 {school_data['denominazione']}")
     info_cols = st.columns(5)
     with info_cols[0]:
-        st.metric("Indice Completezza", format_pct(school_data['ptof_orientamento_maturity_index']))
+        st.metric("Indice Completezza", format_pct(school_data[INDEX_COL]))
     with info_cols[1]:
         st.metric("Tipo", str(school_data.get('tipo_scuola', 'N/D'))[:20])
     with info_cols[2]:
@@ -1273,7 +1415,7 @@ with tab_peer:
         with stat_cols[1]:
             st.metric("Percentile Peer", f"{stats['percentile_in_peers']:.0f}°")
         with stat_cols[2]:
-            st.metric("vs Media Peer", format_pct(school_data['ptof_orientamento_maturity_index']), f"{stats['target_vs_mean']:+.2f}")
+            st.metric("vs Media Peer", format_pct(school_data[INDEX_COL]), f"{stats['target_vs_mean']:+.2f}")
         with stat_cols[3]:
             st.metric("Range Peer", f"{stats['peer_min']:.1f}/7 - {stats['peer_max']:.1f}/7")
 
@@ -1344,7 +1486,7 @@ with tab_peer:
         fig_dist = go.Figure()
         
         peer_indices_pct = [float(x) for x in peers_df['indice_ro']]
-        target_index_pct = float(school_data['ptof_orientamento_maturity_index'])
+        target_index_pct = float(school_data[INDEX_COL])
         
         fig_dist.add_trace(go.Histogram(
             x=peer_indices_pct,
@@ -1396,7 +1538,7 @@ with tab_peer:
             insights.append(f"📉 **Area critica rispetto ai peer:** {max_weakness['Dimensione']} ({max_weakness['Differenza']:.1f} vs peer)")
 
         best_peer = peers_df.loc[peers_df['indice_ro'].idxmax()]
-        if best_peer['indice_ro'] > school_data['ptof_orientamento_maturity_index'] + 0.5:
+        if best_peer['indice_ro'] > school_data[INDEX_COL] + 0.5:
             insights.append(f"🎯 **Benchmark suggerito:** {best_peer['denominazione']} (Indice: {best_peer['indice_ro']:.2f})")
 
         for insight in insights:
@@ -1499,7 +1641,7 @@ with tab_matching:
 
                 for i, (idx, match) in enumerate(matches.iterrows()):
                     with st.expander(
-                        f"**{i+1}. {match['denominazione']}** — Score: {match['final_score']:.0f}/100 | Compl: {match['ptof_orientamento_maturity_index']:.1f}/7",
+                        f"**{i+1}. {match['denominazione']}** — Score: {match['final_score']:.0f}/100 | Compl: {match[INDEX_COL]:.1f}/7",
                         expanded=(i < 3)
                     ):
                         col_info, col_scores = st.columns([1, 1])
@@ -1509,7 +1651,7 @@ with tab_matching:
                             - **Regione:** {match['regione']}
                             - **Provincia:** {match.get('provincia', 'N/D')}
                             - **Tipo:** {match['tipo_scuola']}
-                            - **Indice Compl:** {match['ptof_orientamento_maturity_index']:.1f}/7
+                            - **Indice Compl:** {match[INDEX_COL]:.1f}/7
                             """)
                             st.caption(f"💡 {match['explanation']}")
 
@@ -1558,7 +1700,7 @@ with tab_matching:
                 st.subheader("📊 Tabella Riepilogativa")
 
                 display_matches = matches[['denominazione', 'regione', 'tipo_scuola',
-                                          'ptof_orientamento_maturity_index', 'final_score']].copy()
+                                          INDEX_COL, 'final_score']].copy()
                 display_matches.columns = ['Scuola', 'Regione', 'Tipo', 'Indice Compl', 'Score Match']
                 display_matches['Score Match'] = display_matches['Score Match'].round(0).astype(int)
                 display_matches['Indice Compl'] = display_matches['Indice Compl'].apply(lambda x: f"{x:.1f}/7")

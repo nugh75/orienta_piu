@@ -13,11 +13,13 @@ services:
       # === CODICE (hot-reload) ===
       - ./app:/app/app:ro
       - ./src:/app/src:ro
-      - ./config:/app/config:ro
+      - ./config:/app/config                      # RW per salvare pesi
       - ./.streamlit:/app/.streamlit:ro
 
       # === DATI (read-write per funzionalita admin) ===
       - ./ptof_inbox:/app/ptof_inbox               # Upload PTOF
+      - ./ptof_processed:/app/ptof_processed:ro    # PDF elaborati (visualizzazione)
+      - ./ptof_inviati:/app/ptof_inviati           # PDF inviati spontaneamente
       - ./logs:/app/logs                           # Log dashboard
 
       # === CONFIGURAZIONE ===

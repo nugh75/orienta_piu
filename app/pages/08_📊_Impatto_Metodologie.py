@@ -17,6 +17,7 @@ except ImportError:
 from data_utils import (
     render_footer,
     load_summary_data,
+    get_index_column,
     scale_to_pct,
     format_pct
 )
@@ -67,16 +68,17 @@ ALL_METHODOLOGIES = list(METHODOLOGY_GLOSSARY.keys())
 
 @st.cache_data(ttl=60)
 def load_data():
-    df = load_summary_data()
-    if 'ptof_orientamento_maturity_index' in df.columns:
-        df['ptof_orientamento_maturity_index'] = pd.to_numeric(
-            df['ptof_orientamento_maturity_index'], errors='coerce'
+    df = load_summary_data(apply_weights=True)
+    INDEX_COL = get_index_column(df)
+    if INDEX_COL in df.columns:
+        df[INDEX_COL] = pd.to_numeric(
+            df[INDEX_COL], errors='coerce'
         )
-    return df
+    return df, INDEX_COL
 
 
 @st.cache_data(ttl=600)
-def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
+def analyze_methodology_impact(df: pd.DataFrame, index_col: str) -> pd.DataFrame:
     """Analizza l'impatto di ogni metodologia sull'Indice RO."""
     results = []
 
@@ -99,7 +101,7 @@ def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
 
                 school_methods[school_id] = {
                     'methods': methods_used,
-                    'ro': float(row.get('ptof_orientamento_maturity_index', np.nan))
+                    'ro': float(row.get(index_col, np.nan))
                 }
             except Exception:
                 pass
@@ -179,7 +181,7 @@ def analyze_methodology_impact(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # === MAIN ===
-df = load_data()
+df, INDEX_COL = load_data()
 
 st.title("📊 Impatto delle Metodologie sull'Indice di Completezza")
 
@@ -217,7 +219,7 @@ st.markdown("---")
 
 # Analisi
 with st.spinner("Analisi statistica in corso..."):
-    impact_df = analyze_methodology_impact(df)
+    impact_df = analyze_methodology_impact(df, INDEX_COL)
 
 if impact_df.empty:
     st.warning("Dati insufficienti per l'analisi statistica.")
@@ -386,7 +388,7 @@ for idx, row in df.iterrows():
                 content = f.read().upper()
 
             count = sum(1 for method in ALL_METHODOLOGIES if method.upper() in content)
-            ro = row.get('ptof_orientamento_maturity_index', np.nan)
+            ro = row.get(INDEX_COL, np.nan)
 
             if pd.notna(ro):
                 method_counts.append({

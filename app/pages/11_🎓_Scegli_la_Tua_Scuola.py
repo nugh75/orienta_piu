@@ -13,6 +13,7 @@ from data_utils import (
     render_footer,
     TIPI_SCUOLA,
     load_summary_data,
+    get_index_column,
     scale_to_pct,
     format_pct
 )
@@ -45,21 +46,22 @@ st.markdown(
 
 
 @st.cache_data(ttl=60)
-def load_data() -> pd.DataFrame:
-    df = load_summary_data()
+def load_data():
+    df = load_summary_data(apply_weights=True)
+    INDEX_COL = get_index_column(df)
     for col in [
         "mean_finalita",
         "mean_obiettivi",
         "mean_governance",
         "mean_didattica_orientativa",
         "mean_opportunita",
-        "ptof_orientamento_maturity_index",
+        INDEX_COL,
         "partnership_count",
         "activities_count",
     ]:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
-    return df
+    return df, INDEX_COL
 
 
 def to_stars(score: float) -> str:
@@ -86,8 +88,8 @@ def format_location(row: pd.Series) -> str:
     return f"{comune} ({provincia}) - {regione}".strip(" -")
 
 
-def build_summary(row: pd.Series) -> str:
-    ro = float(row.get("ptof_orientamento_maturity_index", 0) or 0)
+def build_summary(row: pd.Series, index_col: str) -> str:
+    ro = float(row.get(index_col, 0) or 0)
     did = float(row.get("mean_didattica_orientativa", 0) or 0)
     opp = float(row.get("mean_opportunita", 0) or 0)
 
@@ -166,7 +168,7 @@ def step_one(df: pd.DataFrame) -> None:
         st.rerun()
 
 
-def step_two(df: pd.DataFrame) -> None:
+def step_two(df: pd.DataFrame, index_col: str) -> None:
     render_step_indicator(2)
     st.header("Ecco le scuole per te")
 
@@ -205,7 +207,7 @@ def step_two(df: pd.DataFrame) -> None:
             st.subheader(row.get("denominazione", "Scuola"))
             st.caption(format_location(row))
             st.write(f"Compatibilità: **{row.get('compatibility_score', 0)} / 100**")
-            ro_val = row.get('ptof_orientamento_maturity_index')
+            ro_val = row.get(index_col)
             st.write(f"Indice Completezza: **{format_pct(ro_val)} {to_stars(ro_val)}**")
             render_tags(row.get("strength_tags", []))
 
@@ -241,7 +243,7 @@ def step_two(df: pd.DataFrame) -> None:
                 st.warning("Seleziona almeno 2 scuole per il confronto.")
 
 
-def step_three(df: pd.DataFrame) -> None:
+def step_three(df: pd.DataFrame, index_col: str) -> None:
     render_step_indicator(3)
     st.header("Confronta le tue scuole preferite")
 
@@ -268,7 +270,7 @@ def step_three(df: pd.DataFrame) -> None:
             "mean_didattica_orientativa",
             "mean_opportunita",
             "mean_governance",
-            "ptof_orientamento_maturity_index",
+            index_col,
         ]
     ].copy()
     table.columns = [
@@ -333,7 +335,7 @@ def step_three(df: pd.DataFrame) -> None:
         bottom = label_map[sorted_dims[-1][0]] if sorted_dims else ""
         st.write(f"Punti di forza: {', '.join(top)}")
         st.write(f"Da rafforzare: {bottom}")
-        st.write(f"Cosa dicono i dati: {build_summary(row)}")
+        st.write(f"Cosa dicono i dati: {build_summary(row, index_col)}")
         st.markdown("---")
 
     nav_cols = st.columns(2)
@@ -349,7 +351,7 @@ def step_three(df: pd.DataFrame) -> None:
 
 
 def main() -> None:
-    df = load_data()
+    df, INDEX_COL = load_data()
     init_state()
 
     if df.empty:
@@ -359,9 +361,9 @@ def main() -> None:
     if st.session_state.family_step == 1:
         step_one(df)
     elif st.session_state.family_step == 2:
-        step_two(df)
+        step_two(df, INDEX_COL)
     else:
-        step_three(df)
+        step_three(df, INDEX_COL)
 
     render_footer()
 

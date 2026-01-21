@@ -13,6 +13,8 @@ from data_utils import (
     explode_school_types,
     explode_school_grades,
     render_footer,
+    load_summary_data,
+    get_index_column
 )
 from page_control import setup_page
 
@@ -46,9 +48,7 @@ SUMMARY_FILE = 'data/analysis_summary.csv'
 
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        return pd.read_csv(SUMMARY_FILE)
-    return pd.DataFrame()
+    return load_summary_data(apply_weights=True)
 
 
 def categorize_maturity(val):
@@ -63,6 +63,7 @@ def categorize_maturity(val):
 
 
 df = load_data()
+INDEX_COL = get_index_column(df) if not df.empty else 'weighted_index'
 
 st.title("📈 Analytics Avanzati")
 
@@ -72,7 +73,7 @@ if df.empty:
 
 # Standardize numeric columns (handle 'ND') first
 numeric_cols = [
-    'ptof_orientamento_maturity_index',
+    INDEX_COL,
     'mean_finalita', 'mean_obiettivi',
     'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita'
 ]
@@ -346,11 +347,11 @@ with tab_cluster:
             else:
                 target_df = df
             
-            if col in target_df.columns and 'ptof_orientamento_maturity_index' in target_df.columns:
+            if col in target_df.columns and INDEX_COL in target_df.columns:
                 groups = []
                 group_names = []
                 for name, g in target_df.groupby(col):
-                    vals = g['ptof_orientamento_maturity_index'].dropna().values
+                    vals = g[INDEX_COL].dropna().values
                     if len(vals) >= 2:
                         groups.append(vals)
                         group_names.append(str(name))
@@ -515,7 +516,7 @@ with tab_cluster:
 
         if not df_violin.empty:
             # Rename for display (already percentage)
-            df_violin['maturity_pct'] = df_violin['ptof_orientamento_maturity_index']
+            df_violin['maturity_pct'] = df_violin[INDEX_COL]
             
             fig = px.violin(
                 df_violin, x='tipo_scuola', y='maturity_pct',
@@ -549,18 +550,18 @@ with tab_cluster:
 
     # 5. Top/Bottom Performers
     st.subheader("🏅 Top 5 e Bottom 5")
-    if 'ptof_orientamento_maturity_index' in df.columns:
+    if INDEX_COL in df.columns:
         col1, col2 = st.columns(2)
         with col1:
             st.markdown("### 🥇 Top 5")
-            top5 = df.nlargest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            top5['ptof_orientamento_maturity_index'] = top5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}/7")
+            top5 = df.nlargest(5, INDEX_COL)[['denominazione', 'tipo_scuola', INDEX_COL]]
+            top5[INDEX_COL] = top5[INDEX_COL].apply(lambda x: f"{x:.2f}/7")
             top5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(top5.reset_index(drop=True), use_container_width=True)
         with col2:
             st.markdown("### 🔻 Bottom 5")
-            bottom5 = df.nsmallest(5, 'ptof_orientamento_maturity_index')[['denominazione', 'tipo_scuola', 'ptof_orientamento_maturity_index']]
-            bottom5['ptof_orientamento_maturity_index'] = bottom5['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.2f}/7")
+            bottom5 = df.nsmallest(5, INDEX_COL)[['denominazione', 'tipo_scuola', INDEX_COL]]
+            bottom5[INDEX_COL] = bottom5[INDEX_COL].apply(lambda x: f"{x:.2f}/7")
             bottom5.columns = ['Scuola', 'Tipo', 'Indice']
             st.dataframe(bottom5.reset_index(drop=True), use_container_width=True)
 
@@ -729,13 +730,13 @@ with tab_cluster:
 
     if HAS_WORDCLOUD:
         try:
-            if 'ptof_orientamento_maturity_index' in df.columns and 'school_id' in df.columns:
-                q_high = df['ptof_orientamento_maturity_index'].quantile(0.80)
-                q_low = df['ptof_orientamento_maturity_index'].quantile(0.20)
+            if INDEX_COL in df.columns and 'school_id' in df.columns:
+                q_high = df[INDEX_COL].quantile(0.80)
+                q_low = df[INDEX_COL].quantile(0.20)
                 
                 # Use school_id instead of analysis_file
-                top_ids = df[df['ptof_orientamento_maturity_index'] >= q_high]['school_id'].dropna().tolist()
-                bottom_ids = df[df['ptof_orientamento_maturity_index'] <= q_low]['school_id'].dropna().tolist()
+                top_ids = df[df[INDEX_COL] >= q_high]['school_id'].dropna().tolist()
+                bottom_ids = df[df[INDEX_COL] <= q_low]['school_id'].dropna().tolist()
                 
                 st.write(f"Confronto: {len(top_ids)} Top vs {len(bottom_ids)} Bottom files.")
                 
@@ -1170,11 +1171,11 @@ with tab_visual:
         - Esempio: Se vedi un grosso nastro che va da "Sud" a "Liceo" e poi finisce in "Alta", significa che molti Licei del Sud hanno un punteggio alto.
         """)
 
-    target_cols = ['area_geografica', 'tipo_scuola', 'ptof_orientamento_maturity_index']
+    target_cols = ['area_geografica', 'tipo_scuola', INDEX_COL]
 
     if all(c in df.columns for c in target_cols):
         # Binning Maturity Index
-        df['Livello Robustezza'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
+        df['Livello Robustezza'] = df[INDEX_COL].apply(categorize_maturity)
         
         # Prepare dataframe for plotting
         # We remove rows with critical missing values for cleaner viz
@@ -1240,8 +1241,8 @@ with tab_visual:
     st.caption("Esplora la distribuzione gerarchica: Area Geografica → Tipo Scuola → Livello Robustezza.")
 
     # Ensure 'Livello Robustezza' exists if not created above
-    if 'Livello Robustezza' not in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
-        df['Livello Robustezza'] = df['ptof_orientamento_maturity_index'].apply(categorize_maturity)
+    if 'Livello Robustezza' not in df.columns and INDEX_COL in df.columns:
+        df['Livello Robustezza'] = df[INDEX_COL].apply(categorize_maturity)
 
     if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Robustezza']):
         # Filter out ND or empty
@@ -1280,7 +1281,7 @@ with tab_visual:
 
     col_x = st.selectbox("Asse X", ['mean_finalita', 'mean_obiettivi', 'mean_governance'], index=0)
     col_y = st.selectbox("Asse Y", ['mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa'], index=2)
-    col_z = st.selectbox("Asse Z", ['mean_didattica_orientativa', 'mean_opportunita', 'ptof_orientamento_maturity_index'], index=1)
+    col_z = st.selectbox("Asse Z", ['mean_didattica_orientativa', 'mean_opportunita', INDEX_COL], index=1)
     col_color = st.selectbox("Colore", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
 
     if all(c in df.columns for c in [col_x, col_y, col_z, col_color]):
@@ -1320,7 +1321,7 @@ with tab_visual:
     st.caption("Confronta la forma delle distribuzioni dei punteggi tra diverse categorie.")
 
     # Select Variable and Group
-    ridge_var = st.selectbox("Variabile (Punteggio)", ['ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi', 'mean_didattica_orientativa'], index=0)
+    ridge_var = st.selectbox("Variabile (Punteggio)", [INDEX_COL, 'mean_finalita', 'mean_obiettivi', 'mean_didattica_orientativa'], index=0)
     ridge_group = st.selectbox("Raggruppa per", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
 
     if ridge_var in df.columns and ridge_group in df.columns:

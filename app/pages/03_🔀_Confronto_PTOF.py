@@ -10,6 +10,7 @@ import glob
 from data_utils import (
     render_footer,
     load_summary_data,
+    get_index_column,
     DIMENSIONS,
     scale_to_pct,
     format_pct
@@ -52,12 +53,13 @@ st.markdown("""
 
 @st.cache_data(ttl=60)
 def load_data():
-    df = load_summary_data()
-    num_cols = list(DIMENSIONS.keys()) + ['ptof_orientamento_maturity_index']
+    df = load_summary_data(apply_weights=True)
+    INDEX_COL = get_index_column(df)
+    num_cols = list(DIMENSIONS.keys()) + [INDEX_COL]
     for col in num_cols:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
-    return df
+    return df, INDEX_COL
 
 
 def load_school_json(school_id):
@@ -119,7 +121,7 @@ def extract_methodologies(text):
 
 
 # === CARICAMENTO DATI ===
-df = load_data()
+df, INDEX_COL = load_data()
 
 st.title("🔀 Confronto PTOF")
 st.markdown("Confronta due scuole fianco a fianco per analizzare differenze e somiglianze")
@@ -193,7 +195,7 @@ st.subheader("📊 Panoramica")
 col_h1, col_vs, col_h2 = st.columns([5, 1, 5])
 
 with col_h1:
-    ro1 = school1.get('ptof_orientamento_maturity_index', 0) or 0
+    ro1 = school1.get(INDEX_COL, 0) or 0
     st.markdown(f"""
     <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
                 padding: 20px; border-radius: 15px; color: white; text-align: center;">
@@ -218,7 +220,7 @@ with col_vs:
     """, unsafe_allow_html=True)
 
 with col_h2:
-    ro2 = school2.get('ptof_orientamento_maturity_index', 0) or 0
+    ro2 = school2.get(INDEX_COL, 0) or 0
     st.markdown(f"""
     <div style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
                 padding: 20px; border-radius: 15px; color: white; text-align: center;">

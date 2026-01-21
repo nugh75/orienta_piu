@@ -9,7 +9,14 @@ import numpy as np
 import os
 from io import BytesIO
 from scipy import stats
-from data_utils import normalize_statale_paritaria, render_footer, scale_to_pct, format_pct
+from data_utils import (
+    normalize_statale_paritaria,
+    render_footer,
+    scale_to_pct,
+    format_pct,
+    load_summary_data,
+    get_index_column
+)
 from page_control import setup_page
 
 st.set_page_config(page_title="ORIENTA+ | Analisi Territoriale", page_icon="🧭", layout="wide")
@@ -39,7 +46,8 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO'
+    'ptof_orientamento_maturity_index': 'Indice RO',
+    'weighted_index': 'Indice RO'
 }
 
 TIPI_SCUOLA = [
@@ -68,7 +76,9 @@ def get_primary_type(tipo):
             return t
     return None
 
-def add_type_normalized_score(df, score_col='ptof_orientamento_maturity_index'):
+def add_type_normalized_score(df, score_col=None):
+    if score_col is None:
+        score_col = get_index_column(df)
     if score_col not in df.columns or 'tipo_scuola' not in df.columns:
         return df.copy()
     df_norm = df.copy()
@@ -286,22 +296,27 @@ def format_significance(p_value):
 # === DATA LOADING ===
 @st.cache_data(ttl=60)
 def load_data():
-    if os.path.exists(SUMMARY_FILE):
-        df = pd.read_csv(SUMMARY_FILE)
-        numeric_cols = ['ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi',
-                        'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
-        
-        # Identify granualar score columns too
-        granular_cols = [c for c in df.columns if c.startswith('2_') and 'score' in c]
-        all_score_cols = list(set(numeric_cols + granular_cols))
+    df = load_summary_data(apply_weights=True)
+    if df.empty:
+        return pd.DataFrame()
+    
+    # Get index column name
+    idx_col = get_index_column(df)
+    
+    numeric_cols = [idx_col, 'mean_finalita', 'mean_obiettivi',
+                    'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita']
+    
+    # Identify granular score columns too
+    granular_cols = [c for c in df.columns if c.startswith('2_') and 'score' in c]
+    all_score_cols = list(set(numeric_cols + granular_cols))
 
-        for col in all_score_cols:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-        return df
-    return pd.DataFrame()
+    for col in all_score_cols:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    return df
 
 df = load_data()
+INDEX_COL = get_index_column(df) if not df.empty else 'weighted_index'
 
 # === PAGE HEADER ===
 st.title("🗺️ Analisi Territoriale")
@@ -341,7 +356,7 @@ else:
     df['regione'] = 'Non Specificato'
 
 df['macro_area'] = df['regione'].map(MACRO_AREA).fillna('Non Specificato')
-df_valid = df[df['ptof_orientamento_maturity_index'].notna()].copy()
+df_valid = df[df[INDEX_COL].notna()].copy()
 
 # === TABS ===
 tab_mappa, tab_confronti, tab_report = st.tabs(["🗺️ Mappa Italia", "📊 Confronti Gruppi", "📋 Report Regionali"])
@@ -483,7 +498,7 @@ with tab_mappa:
             score_col = 'score_norm'
         else:
             df_sp = df_sp_base
-            score_col = 'ptof_orientamento_maturity_index'
+            score_col = INDEX_COL
 
         if not df_sp.empty:
             grouped = df_sp.groupby(['regione', 'gestione'])[score_col].agg(['mean', 'count']).reset_index()
@@ -748,7 +763,7 @@ with tab_mappa:
 
     if len(df_valid) > 0:
         n_top = st.slider("Numero di scuole da visualizzare", min_value=5, max_value=min(30, len(df_valid)), value=10, step=5)
-        top_schools = df_valid.nlargest(n_top, 'ptof_orientamento_maturity_index').copy()
+        top_schools = df_valid.nlargest(n_top, INDEX_COL).copy()
 
         # Assign coordinates
         if 'lat' in top_schools.columns and 'lon' in top_schools.columns:
@@ -785,7 +800,7 @@ with tab_mappa:
             st.info("Nessuna scuola con tipologia canonica disponibile")
         else:
             # Already percentage
-            top_schools['pct_val'] = top_schools['ptof_orientamento_maturity_index']
+            top_schools['pct_val'] = top_schools[INDEX_COL]
             
             fig_top = px.scatter_geo(
                 top_schools,
@@ -793,7 +808,7 @@ with tab_mappa:
                 color='tipo_primario',
                 hover_name='denominazione',
                 hover_data={
-                    'ptof_orientamento_maturity_index': False, # Hide raw index
+                    INDEX_COL: False, # Hide raw index
                     'pct_val': ':.1f', # Show percentage
                     'comune': True,
                     'regione': True,
@@ -828,7 +843,7 @@ with tab_mappa:
 
         # Table
         st.markdown("### 📋 Dettaglio Scuole Top Performers")
-        display_cols = ['denominazione', 'comune', 'regione', 'tipo_primario', 'ptof_orientamento_maturity_index']
+        display_cols = ['denominazione', 'comune', 'regione', 'tipo_primario', INDEX_COL]
         display_cols = [c for c in display_cols if c in top_schools.columns]
         top_display = top_schools[display_cols].copy()
         top_display.columns = ['Scuola', 'Comune', 'Regione', 'Tipo', 'Indice'][:len(display_cols)]
@@ -887,7 +902,7 @@ with tab_mappa:
 
             if view_mode == "Tutti i tipi":
                 tipo_region_stats = df_tipo_map.groupby(['regione', 'tipo_primario']).agg({
-                    'ptof_orientamento_maturity_index': 'mean',
+                    INDEX_COL: 'mean',
                     'school_id': 'count'
                 }).reset_index()
                 tipo_region_stats.columns = ['Regione', 'Tipo', 'Media', 'N. Scuole']
@@ -935,7 +950,7 @@ with tab_mappa:
                     st.plotly_chart(fig_tipo_map, use_container_width=True)
             else:
                 tipo_stats = df_tipo_map.groupby('regione').agg({
-                    'ptof_orientamento_maturity_index': ['mean', 'count']
+                    INDEX_COL: ['mean', 'count']
                 }).round(2)
                 tipo_stats.columns = ['Media', 'N. Scuole']
                 tipo_stats = tipo_stats.reset_index()
@@ -977,14 +992,14 @@ with tab_mappa:
 
                     st.markdown(
                         f"**{selected_tipo}**: {df_tipo_map['school_id'].nunique()} scuole in {len(tipo_stats)} regioni | "
-                        f"Media: {df_tipo_map['ptof_orientamento_maturity_index'].mean():.2f}"
+                        f"Media: {df_tipo_map[INDEX_COL].mean():.2f}"
                     )
                 else:
                     st.info(f"Nessun dato disponibile per {selected_tipo}")
 
             st.markdown("### 📊 Confronto Indice per Tipologia")
             tipo_comparison = df_tipo_base.groupby('tipo_primario').agg({
-                'ptof_orientamento_maturity_index': ['mean', 'std', 'count']
+                INDEX_COL: ['mean', 'std', 'count']
             }).round(2)
             tipo_comparison.columns = ['Media', 'Dev.Std', 'N. Scuole']
             tipo_comparison = tipo_comparison.reset_index()
@@ -1029,18 +1044,18 @@ with tab_mappa:
 
         with col1:
             fig_box = px.box(
-                df_macro, x='macro_area', y='ptof_orientamento_maturity_index',
+                df_macro, x='macro_area', y=INDEX_COL,
                 color='macro_area',
                 color_discrete_map={'Nord': '#3498db', 'Sud': '#e74c3c'},
                 title="Distribuzione Indice RO per Macro-Area",
-                labels={'macro_area': 'Macro-Area', 'ptof_orientamento_maturity_index': 'Indice RO'},
+                labels={'macro_area': 'Macro-Area', INDEX_COL: 'Indice RO'},
                 points='all'
             )
             fig_box.update_layout(showlegend=False, height=450)
             st.plotly_chart(fig_box, use_container_width=True)
 
         with col2:
-            macro_stats = df_macro.groupby('macro_area')['ptof_orientamento_maturity_index'].agg([
+            macro_stats = df_macro.groupby('macro_area')[INDEX_COL].agg([
                 'count', 'mean', 'std', 'min', 'max'
             ]).round(2)
             macro_stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Max']
@@ -1054,7 +1069,7 @@ with tab_mappa:
                 valid_groups = []
                 excluded_groups = []
                 for name, group in df_macro.groupby('macro_area'):
-                    values = group['ptof_orientamento_maturity_index'].dropna().values
+                    values = group[INDEX_COL].dropna().values
                     if len(values) >= 3:
                         valid_groups.append(values)
                     else:
@@ -1074,7 +1089,7 @@ with tab_mappa:
                         group_names = []
                         group_values = []
                         for name, group in df_macro.groupby('macro_area'):
-                            values = group['ptof_orientamento_maturity_index'].dropna().values
+                            values = group[INDEX_COL].dropna().values
                             if len(values) >= 3:
                                 group_names.append(name)
                                 group_values.append(values)
@@ -1118,10 +1133,10 @@ with tab_mappa:
 
             with col1:
                 fig_box_area = px.box(
-                    df_area, x='area_geografica', y='ptof_orientamento_maturity_index',
+                    df_area, x='area_geografica', y=INDEX_COL,
                     color='area_geografica',
                     title="Distribuzione Indice RO per Area Geografica",
-                    labels={'area_geografica': 'Area', 'ptof_orientamento_maturity_index': 'Indice RO'},
+                    labels={'area_geografica': 'Area', INDEX_COL: 'Indice RO'},
                     points='all',
                     category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
                 )
@@ -1129,7 +1144,7 @@ with tab_mappa:
                 st.plotly_chart(fig_box_area, use_container_width=True)
 
             with col2:
-                area_stats = df_area.groupby('area_geografica')['ptof_orientamento_maturity_index'].agg([
+                area_stats = df_area.groupby('area_geografica')[INDEX_COL].agg([
                     'count', 'mean', 'std', 'min', 'max'
                 ]).round(2)
                 area_stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Max']
@@ -1142,7 +1157,7 @@ with tab_mappa:
                     valid_groups = []
                     excluded_groups = []
                     for name, group in df_area.groupby('area_geografica'):
-                        values = group['ptof_orientamento_maturity_index'].dropna().values
+                        values = group[INDEX_COL].dropna().values
                         if len(values) >= 3:
                             valid_groups.append(values)
                         else:
@@ -1162,7 +1177,7 @@ with tab_mappa:
                             group_names_area = []
                             group_values_area = []
                             for name, group in df_area.groupby('area_geografica'):
-                                values = group['ptof_orientamento_maturity_index'].dropna().values
+                                values = group[INDEX_COL].dropna().values
                                 if len(values) >= 3:
                                     group_names_area.append(name)
                                     group_values_area.append(values)
@@ -1246,18 +1261,18 @@ with tab_mappa:
 
             with col1:
                 fig_box_terr = px.box(
-                    df_territorio, x='territorio', y='ptof_orientamento_maturity_index',
+                    df_territorio, x='territorio', y=INDEX_COL,
                     color='territorio',
                     color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
                     title="Distribuzione Indice RO per Territorio",
-                    labels={'territorio': 'Territorio', 'ptof_orientamento_maturity_index': 'Indice RO'},
+                    labels={'territorio': 'Territorio', INDEX_COL: 'Indice RO'},
                     points='all'
                 )
                 fig_box_terr.update_layout(showlegend=False, height=450)
                 st.plotly_chart(fig_box_terr, use_container_width=True)
 
             with col2:
-                terr_stats = df_territorio.groupby('territorio')['ptof_orientamento_maturity_index'].agg([
+                terr_stats = df_territorio.groupby('territorio')[INDEX_COL].agg([
                     'count', 'mean', 'std', 'min', 'max'
                 ]).round(2)
                 terr_stats.columns = ['N', 'Media', 'Dev.Std', 'Min', 'Max']
@@ -1268,8 +1283,8 @@ with tab_mappa:
                 st.dataframe(terr_stats, use_container_width=True, hide_index=True)
 
                 try:
-                    metro = df_territorio[df_territorio['territorio'] == 'Metropolitano']['ptof_orientamento_maturity_index'].dropna().values
-                    non_metro = df_territorio[df_territorio['territorio'] == 'Non Metropolitano']['ptof_orientamento_maturity_index'].dropna().values
+                    metro = df_territorio[df_territorio['territorio'] == 'Metropolitano'][INDEX_COL].dropna().values
+                    non_metro = df_territorio[df_territorio['territorio'] == 'Non Metropolitano'][INDEX_COL].dropna().values
 
                     if len(metro) >= 3 and len(non_metro) >= 3:
                         stat_mw, p_val_mw = stats.mannwhitneyu(metro, non_metro, alternative='two-sided')
@@ -1359,7 +1374,7 @@ with tab_mappa:
 
         if len(df_reg_terr) > 0:
             reg_terr_stats = df_reg_terr.groupby(['regione', 'territorio']).agg({
-                'ptof_orientamento_maturity_index': ['mean', 'count', 'std']
+                INDEX_COL: ['mean', 'count', 'std']
             }).round(2)
             reg_terr_stats.columns = ['Media', 'N', 'Dev.Std']
             reg_terr_stats = reg_terr_stats.reset_index()
@@ -1393,11 +1408,11 @@ with tab_mappa:
                         metro_vals = df_reg_terr[
                             (df_reg_terr['regione'] == region) &
                             (df_reg_terr['territorio'] == 'Metropolitano')
-                        ]['ptof_orientamento_maturity_index'].dropna().values
+                        ][INDEX_COL].dropna().values
                         non_metro_vals = df_reg_terr[
                             (df_reg_terr['regione'] == region) &
                             (df_reg_terr['territorio'] == 'Non Metropolitano')
-                        ]['ptof_orientamento_maturity_index'].dropna().values
+                        ][INDEX_COL].dropna().values
 
                         if len(metro_vals) >= 2 and len(non_metro_vals) >= 2:
                             n1, n2 = len(metro_vals), len(non_metro_vals)
@@ -1588,17 +1603,17 @@ with tab_mappa:
     st.caption("Identificazione di cluster territoriali con concentrazione di scuole eccellenti")
 
     if 'lat' in df_valid.columns and 'lon' in df_valid.columns:
-        df_geo = df_valid[['lat', 'lon', 'ptof_orientamento_maturity_index', 'denominazione', 'comune', 'regione']].copy()
+        df_geo = df_valid[['lat', 'lon', INDEX_COL, 'denominazione', 'comune', 'regione']].copy()
         df_geo['lat'] = pd.to_numeric(df_geo['lat'], errors='coerce')
         df_geo['lon'] = pd.to_numeric(df_geo['lon'], errors='coerce')
-        df_geo = df_geo.dropna(subset=['lat', 'lon', 'ptof_orientamento_maturity_index'])
+        df_geo = df_geo.dropna(subset=['lat', 'lon', INDEX_COL])
 
         if len(df_geo) >= 10:
             try:
                 from sklearn.cluster import DBSCAN
 
-                threshold = df_geo['ptof_orientamento_maturity_index'].quantile(0.70)
-                top_performers = df_geo[df_geo['ptof_orientamento_maturity_index'] >= threshold].copy()
+                threshold = df_geo[INDEX_COL].quantile(0.70)
+                top_performers = df_geo[df_geo[INDEX_COL] >= threshold].copy()
 
                 if len(top_performers) >= 5:
                     col_h1, col_h2 = st.columns([1, 3])
@@ -1641,7 +1656,7 @@ with tab_mappa:
                             lat='lat', lon='lon',
                             color='cluster_label',
                             hover_name='denominazione',
-                            hover_data={'ptof_orientamento_maturity_index': ':.2f', 'comune': True, 'regione': True, 'lat': False, 'lon': False},
+                            hover_data={INDEX_COL: ':.2f', 'comune': True, 'regione': True, 'lat': False, 'lon': False},
                             title="Hotspot di Eccellenza (Scuole Top 30%)"
                         )
                         fig_hotspot.update_traces(marker=dict(size=10, line=dict(width=1, color='white')))
@@ -1664,7 +1679,7 @@ with tab_mappa:
                             cluster_schools = top_performers[top_performers['cluster'] == cluster_id]
                             center_lat = cluster_schools['lat'].mean()
                             center_lon = cluster_schools['lon'].mean()
-                            mean_score = cluster_schools['ptof_orientamento_maturity_index'].mean()
+                            mean_score = cluster_schools[INDEX_COL].mean()
 
                             main_region = cluster_schools['regione'].mode().iloc[0] if len(cluster_schools) > 0 else "N/D"
 
@@ -1683,7 +1698,7 @@ with tab_mappa:
                                 for _, school in cluster_schools.iterrows():
                                     st.write(
                                         f"- {school['denominazione']} ({school['comune']}) - "
-                                        f"Indice: {school['ptof_orientamento_maturity_index']:.2f}"
+                                        f"Indice: {school[INDEX_COL]:.2f}"
                                     )
                     else:
                         st.info("ℹ️ Nessun hotspot identificato con questi parametri. Prova ad aumentare il raggio o diminuire il minimo scuole.")
@@ -1761,7 +1776,7 @@ with tab_confronti:
         pivot = df_pivot.pivot_table(
             index='tipo_scuola',
             columns='area_geografica',
-            values='ptof_orientamento_maturity_index',
+            values=INDEX_COL,
             aggfunc='mean'
         )
 
@@ -1795,7 +1810,7 @@ with tab_confronti:
                 sull'Indice RO.
                 """)
 
-                tipo_groups = df_pivot.groupby('tipo_scuola')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+                tipo_groups = df_pivot.groupby('tipo_scuola')[INDEX_COL].apply(list).to_dict()
                 valid_tipo = {k: pd.Series(v).dropna() for k, v in tipo_groups.items() if len(pd.Series(v).dropna()) >= 3}
 
                 col_stat1, col_stat2 = st.columns(2)
@@ -1816,7 +1831,7 @@ with tab_confronti:
                 with col_stat2:
                     st.markdown("#### 🗺️ Effetto Area Geografica")
                     if 'area_geografica' in df_pivot.columns:
-                        area_groups = df_pivot.groupby('area_geografica')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+                        area_groups = df_pivot.groupby('area_geografica')[INDEX_COL].apply(list).to_dict()
                         valid_area = {k: pd.Series(v).dropna() for k, v in area_groups.items() if len(pd.Series(v).dropna()) >= 3}
                         if len(valid_area) >= 2:
                             f_area, p_area = stats.f_oneway(*[v for v in valid_area.values()])
@@ -1930,7 +1945,7 @@ with tab_confronti:
 
     with col1:
         if 'territorio' in df.columns:
-            fig = px.box(df, x='territorio', y='ptof_orientamento_maturity_index',
+            fig = px.box(df, x='territorio', y=INDEX_COL,
                          points="all", color='territorio',
                          title="Distribuzione per Territorio")
             st.plotly_chart(fig, use_container_width=True)
@@ -1944,7 +1959,7 @@ with tab_confronti:
                 df_box = df.copy()
             df_box = explode_multi_value(df_box, 'ordine_grado')
 
-            fig = px.box(df_box, x='ordine_grado', y='ptof_orientamento_maturity_index',
+            fig = px.box(df_box, x='ordine_grado', y=INDEX_COL,
                          points="all", color='ordine_grado',
                          title="Distribuzione per Grado")
             st.plotly_chart(fig, use_container_width=True)
@@ -1977,7 +1992,7 @@ with tab_confronti:
     with stat_tab1:
         st.markdown("#### Confronto Metropolitano vs Non Metropolitano")
         if 'territorio' in df.columns:
-            terr_groups = df.groupby('territorio')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+            terr_groups = df.groupby('territorio')[INDEX_COL].apply(list).to_dict()
             if len(terr_groups) >= 2:
                 terr_names = list(terr_groups.keys())
                 results_terr = []
@@ -2016,7 +2031,7 @@ with tab_confronti:
                 df_stat = df.copy()
             df_stat = explode_multi_value(df_stat, 'ordine_grado')
 
-            grado_groups = df_stat.groupby('ordine_grado')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+            grado_groups = df_stat.groupby('ordine_grado')[INDEX_COL].apply(list).to_dict()
             if len(grado_groups) >= 2:
                 grado_names = list(grado_groups.keys())
                 results_grado = []
@@ -2046,7 +2061,7 @@ with tab_confronti:
     with stat_tab3:
         st.markdown("#### Confronto tra Aree Geografiche")
         if 'area_geografica' in df.columns:
-            area_groups = df.groupby('area_geografica')['ptof_orientamento_maturity_index'].apply(list).to_dict()
+            area_groups = df.groupby('area_geografica')[INDEX_COL].apply(list).to_dict()
             if len(area_groups) >= 2:
                 area_names = list(area_groups.keys())
                 results_area = []
@@ -2392,20 +2407,20 @@ with tab_report:
                 st.metric("🏫 N. Scuole Analizzate", n_schools)
 
             with col2:
-                mean_ro = df_region['ptof_orientamento_maturity_index'].mean()
-                national_mean = df_national['ptof_orientamento_maturity_index'].mean()
+                mean_ro = df_region[INDEX_COL].mean()
+                national_mean = df_national[INDEX_COL].mean()
                 delta = mean_ro - national_mean
                 st.metric("📊 Indice RO Medio", f"{mean_ro:.2f}",
                           delta=f"{delta:+.2f} vs nazionale",
                           delta_color="normal" if delta >= 0 else "inverse")
 
             with col3:
-                std_ro = df_region['ptof_orientamento_maturity_index'].std()
+                std_ro = df_region[INDEX_COL].std()
                 st.metric("📐 Dev. Standard", f"{std_ro:.2f}")
 
             with col4:
-                threshold_30 = df_national['ptof_orientamento_maturity_index'].quantile(0.70)
-                pct_top = (df_region['ptof_orientamento_maturity_index'] >= threshold_30).mean() * 100
+                threshold_30 = df_national[INDEX_COL].quantile(0.70)
+                pct_top = (df_region[INDEX_COL] >= threshold_30).mean() * 100
                 st.metric("🏆 % nel Top 30%", f"{pct_top:.1f}%")
 
             st.markdown("---")
@@ -2478,7 +2493,7 @@ with tab_report:
 
                     if not df_region_exploded.empty:
                         tipo_stats = df_region_exploded.groupby('tipo_scuola').agg({
-                            'ptof_orientamento_maturity_index': ['count', 'mean', 'std', 'min', 'max']
+                            INDEX_COL: ['count', 'mean', 'std', 'min', 'max']
                         }).round(2)
                         tipo_stats.columns = ['N. Scuole', 'Media', 'Dev. Std', 'Min', 'Max']
                         tipo_stats = tipo_stats.reset_index()
@@ -2513,7 +2528,7 @@ with tab_report:
 
                         # Test statistici
                         p_val, eta_sq = kruskal_test_scores(
-                            df_region_exploded, 'tipo_scuola', 'ptof_orientamento_maturity_index'
+                            df_region_exploded, 'tipo_scuola', INDEX_COL
                         )
                         sig_text, sig_color = format_significance(p_val)
                         eff_text, eff_color = interpret_effect_size(eta_sq)
@@ -2530,7 +2545,7 @@ with tab_report:
                         # Post-hoc
                         if p_val is not None and p_val < 0.05:
                             st.markdown("#### 🔍 Confronti Post-Hoc (Dunn con correzione Bonferroni)")
-                            posthoc_df = dunn_posthoc(df_region_exploded, 'tipo_scuola', 'ptof_orientamento_maturity_index')
+                            posthoc_df = dunn_posthoc(df_region_exploded, 'tipo_scuola', INDEX_COL)
                             if posthoc_df is not None and not posthoc_df.empty:
                                 significant_only = posthoc_df[posthoc_df['Significativo'] == '✓']
                                 if not significant_only.empty:
@@ -2575,8 +2590,8 @@ with tab_report:
 
             with col_top:
                 st.subheader("🏆 Top 10 Scuole")
-                top_10 = df_region.nlargest(10, 'ptof_orientamento_maturity_index')[
-                    ['denominazione', 'comune', 'tipo_scuola', 'ptof_orientamento_maturity_index']
+                top_10 = df_region.nlargest(10, INDEX_COL)[
+                    ['denominazione', 'comune', 'tipo_scuola', INDEX_COL]
                 ].copy()
                 top_10.columns = ['Denominazione', 'Comune', 'Tipo', 'Indice RO']
                 top_10['Indice RO'] = top_10['Indice RO'].round(2)
@@ -2584,8 +2599,8 @@ with tab_report:
 
             with col_bottom:
                 st.subheader("📉 Bottom 10 (da supportare)")
-                bottom_10 = df_region.nsmallest(10, 'ptof_orientamento_maturity_index')[
-                    ['denominazione', 'comune', 'tipo_scuola', 'ptof_orientamento_maturity_index']
+                bottom_10 = df_region.nsmallest(10, INDEX_COL)[
+                    ['denominazione', 'comune', 'tipo_scuola', INDEX_COL]
                 ].copy()
                 bottom_10.columns = ['Denominazione', 'Comune', 'Tipo', 'Indice RO']
                 bottom_10['Indice RO'] = bottom_10['Indice RO'].round(2)
@@ -2646,8 +2661,8 @@ with tab_report:
                                 round(mean_ro, 2),
                                 round(std_ro, 2),
                                 f"{pct_top:.1f}%",
-                                df_region.loc[df_region['ptof_orientamento_maturity_index'].idxmax(), 'denominazione'],
-                                df_region.loc[df_region['ptof_orientamento_maturity_index'].idxmin(), 'denominazione']
+                                df_region.loc[df_region[INDEX_COL].idxmax(), 'denominazione'],
+                                df_region.loc[df_region[INDEX_COL].idxmin(), 'denominazione']
                             ]
                         }
                         pd.DataFrame(summary_data).to_excel(writer, sheet_name='Sintesi', index=False)
@@ -2727,7 +2742,7 @@ CONFRONTO CON MEDIA NAZIONALE
                 fig_box = px.box(
                     df_compare,
                     x='regione',
-                    y='ptof_orientamento_maturity_index',
+                    y=INDEX_COL,
                     color='regione',
                     title="Distribuzione Indice RO per Regione"
                 )

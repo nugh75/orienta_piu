@@ -13,7 +13,9 @@ from data_utils import (
     format_pct,
     load_summary_data,
     DIMENSIONS,
-    get_label
+    get_label,
+    get_index_column,
+    get_index_series
 )
 from page_control import setup_page, switch_page
 
@@ -62,7 +64,8 @@ with st.sidebar:
             my_school_data = df[df['school_id'] == my_school_id]
             if not my_school_data.empty:
                 my_school = my_school_data.iloc[0]
-                ro = my_school.get('ptof_orientamento_maturity_index', 0)
+                idx_col = get_index_column(df)
+                ro = my_school.get(idx_col, 0)
                 if pd.notna(ro):
                     st.metric("Indice Completezza", f"{ro:.1f}/7")
 
@@ -143,7 +146,8 @@ if df.empty:
     st.stop()
 
 # Converti colonne numeriche
-numeric_cols = ['ptof_orientamento_maturity_index'] + list(DIMENSIONS.keys())
+idx_col = get_index_column(df)
+numeric_cols = [idx_col] + list(DIMENSIONS.keys())
 for col in numeric_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
@@ -151,7 +155,7 @@ for col in numeric_cols:
 # === KPI PRINCIPALI ===
 st.subheader("📊 KPI Principali")
 
-ro_series = pd.to_numeric(df['ptof_orientamento_maturity_index'], errors='coerce').dropna()
+ro_series = get_index_series(df).dropna()
 n_scuole = len(df)
 mean_ro = ro_series.mean() if not ro_series.empty else float("nan")
 median_ro = ro_series.median() if not ro_series.empty else None
@@ -230,13 +234,13 @@ with st.expander("Esempi distribuzione (P25-P75)"):
         band_counts['%'] = (band_counts['N. Scuole'] / len(ro_series) * 100).round(1).astype(str) + "%"
         st.dataframe(band_counts, use_container_width=True, hide_index=True)
 
-        top_quartile = df[df['ptof_orientamento_maturity_index'] >= p75][
-            ['denominazione', 'regione', 'ptof_orientamento_maturity_index']
+        top_quartile = df[df[idx_col] >= p75][
+            ['denominazione', 'regione', idx_col]
         ].copy()
-        top_quartile = top_quartile.dropna(subset=['ptof_orientamento_maturity_index'])
-        top_quartile = top_quartile.sort_values('ptof_orientamento_maturity_index', ascending=False)
+        top_quartile = top_quartile.dropna(subset=[idx_col])
+        top_quartile = top_quartile.sort_values(idx_col, ascending=False)
         top_quartile = top_quartile.head(20)
-        top_quartile['Completezza'] = top_quartile['ptof_orientamento_maturity_index'].apply(lambda x: f"{x:.1f}/7")
+        top_quartile['Completezza'] = top_quartile[idx_col].apply(lambda x: f"{x:.1f}/7")
         top_quartile = top_quartile[['denominazione', 'regione', 'Completezza']]
         top_quartile.columns = ['Scuola', 'Regione', 'Completezza']
 
@@ -289,10 +293,10 @@ with col1:
     st.subheader("📊 Distribuzione Indice Completezza")
 
     fig_hist = px.histogram(
-        df, x='ptof_orientamento_maturity_index',
+        df, x=idx_col,
         nbins=14,  # 14 bin per scala 1-7 (0.5 per bin)
         color_discrete_sequence=['#4e73df'],
-        labels={'ptof_orientamento_maturity_index': 'Completezza (1-7)'}
+        labels={idx_col: 'Completezza (1-7)'}
     )
     fig_hist.update_layout(
         showlegend=False,
@@ -360,7 +364,7 @@ if 'tipo_scuola' in df.columns:
         df_tipo = df.copy()
         TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
 
-    tipo_stats = df_tipo.groupby('tipo_scuola')['ptof_orientamento_maturity_index'].mean().reset_index()
+    tipo_stats = df_tipo.groupby('tipo_scuola')[idx_col].mean().reset_index()
     tipo_stats.columns = ['Tipologia', 'Media']
     tipo_stats = (
         tipo_stats.set_index('Tipologia')
@@ -504,7 +508,7 @@ with geo_cols[0]:
     st.caption("Nord = Nord Ovest + Nord Est | Centro = Centro | Sud = Sud + Isole")
     if 'area_geografica' in df.columns:
         df_area = df.copy()
-        df_area['ro'] = pd.to_numeric(df_area['ptof_orientamento_maturity_index'], errors='coerce')
+        df_area['ro'] = pd.to_numeric(df_area[idx_col], errors='coerce')
 
         def _area_macro(value):
             if pd.isna(value):
@@ -570,7 +574,7 @@ with geo_cols[0]:
 st.markdown("#### Metropolitano vs Non Metropolitano")
 if 'territorio' in df.columns:
     df_terr = df.copy()
-    df_terr['ro'] = pd.to_numeric(df_terr['ptof_orientamento_maturity_index'], errors='coerce')
+    df_terr['ro'] = pd.to_numeric(df_terr[idx_col], errors='coerce')
     df_terr['territorio'] = df_terr['territorio'].astype(str).str.strip()
     valid_terr = ["Metropolitano", "Non Metropolitano"]
     extra = df_terr[~df_terr['territorio'].isin(valid_terr)]
@@ -650,10 +654,10 @@ if 'regione' in df.columns:
         df_norm = pd.DataFrame()
 
     if not df_norm.empty:
-        overall_mean = df_norm['ptof_orientamento_maturity_index'].mean()
-        type_means = df_norm.groupby('tipo_primario')['ptof_orientamento_maturity_index'].mean()
+        overall_mean = df_norm[idx_col].mean()
+        type_means = df_norm.groupby('tipo_primario')[idx_col].mean()
         df_norm['score_norm'] = (
-            df_norm['ptof_orientamento_maturity_index']
+            df_norm[idx_col]
             - df_norm['tipo_primario'].map(type_means)
             + overall_mean
         )
