@@ -200,11 +200,66 @@ except ImportError:
         normalize_area_geografica
     )
 
-# Models
-MODEL_ANALYST = models_config.get('analyst', 'gemma3:27b')
-MODEL_REVIEWER = models_config.get('reviewer', 'qwen3:32b')
-MODEL_REFINER = models_config.get('refiner', 'gemma3:27b')
-MODEL_SYNTHESIZER = models_config.get('synthesizer', 'gemma3:27b')
+# Models - Support for per-agent provider configuration
+# Default Ollama server URL (remote)
+DEFAULT_OLLAMA_URL = "http://192.168.129.14:11434"
+
+def _build_model_config(model_name: str, provider_env: str = None) -> dict | str:
+    """
+    Build model config. If a specific provider is set via env var,
+    returns a dict with provider details. Otherwise returns just the model name.
+    """
+    provider = os.environ.get(provider_env) if provider_env else None
+    
+    if not provider:
+        return model_name  # Use global provider from preset
+    
+    provider = provider.lower()
+    if provider == "ollama":
+        # Use PTOF_OLLAMA_URL or OLLAMA_HOST or default to remote server
+        ollama_url = os.environ.get("PTOF_OLLAMA_URL") or os.environ.get("OLLAMA_HOST") or DEFAULT_OLLAMA_URL
+        # If it's pointing to localhost but we have a remote default, use remote
+        if "localhost" in ollama_url or "127.0.0.1" in ollama_url:
+            ollama_url = DEFAULT_OLLAMA_URL
+        # Ensure proper format
+        if not ollama_url.startswith("http"):
+            ollama_url = f"http://{ollama_url}"
+        if ":11434" not in ollama_url and "/api" not in ollama_url:
+            ollama_url = f"{ollama_url}:11434"
+        final_url = f"{ollama_url}/api/generate" if not ollama_url.endswith("/api/generate") else ollama_url
+        logging.info(f"[_build_model_config] Ollama URL for {model_name}: {final_url}")
+        return {
+            "provider": "ollama",
+            "model": model_name,
+            "ollama_url": final_url
+        }
+    elif provider in ["openrouter", "openai"]:
+        base_url = "https://openrouter.ai/api/v1/chat/completions" if provider == "openrouter" else "https://api.openai.com/v1/chat/completions"
+        return {
+            "provider": "openai",  # OpenRouter uses OpenAI-compatible API
+            "model": model_name,
+            "base_url": base_url,
+            "api_key_env": "OPENROUTER_API_KEY" if provider == "openrouter" else "OPENAI_API_KEY"
+        }
+    else:
+        return model_name
+
+MODEL_ANALYST = _build_model_config(
+    models_config.get('analyst', 'gemma3:27b'),
+    "PTOF_PROVIDER_ANALYST"
+)
+MODEL_REVIEWER = _build_model_config(
+    models_config.get('reviewer', 'qwen3:32b'),
+    "PTOF_PROVIDER_REVIEWER"
+)
+MODEL_REFINER = _build_model_config(
+    models_config.get('refiner', 'gemma3:27b'),
+    "PTOF_PROVIDER_REFINER"
+)
+MODEL_SYNTHESIZER = _build_model_config(
+    models_config.get('synthesizer', 'gemma3:27b'),
+    "PTOF_PROVIDER_SYNTHESIZER"
+)
 METADATA_LLM_MODEL = os.environ.get("METADATA_LLM_MODEL", MODEL_REVIEWER)
 
 try:
@@ -841,7 +896,8 @@ ANALISI PARZIALI:
 
 JSON UNIFICATO:"""
         
-        return self.call_llm(synthesis_prompt, max_tokens=1000000)
+        # Use larger max_tokens for synthesis (Gemini Pro has 1M context)
+        return self.call_llm(synthesis_prompt, max_tokens=32000)
 
 class ReviewerAgent(BaseAgent):
     def __init__(self):
@@ -882,7 +938,7 @@ class RefinerAgent(BaseAgent):
             return None
         
         prompt = prompt_template.replace("{{DRAFT_REPORT}}", str(draft_report)).replace("{{CRITIQUE}}", str(critique))
-        return self.call_llm(prompt, max_tokens=1000000)
+        return self.call_llm(prompt, max_tokens=16000)
 
 class NarrativeAgent(BaseAgent):
     def __init__(self):
@@ -901,7 +957,7 @@ class NarrativeAgent(BaseAgent):
                 "Titolo: # Analisi del PTOF {{SCHOOL_CODE}}."
             )
         prompt = prompt_template.replace("{{SCHOOL_CODE}}", str(school_code))
-        return self.call_llm(prompt, context=json.dumps(analysis_json, ensure_ascii=False, indent=2), max_tokens=1000000)
+        return self.call_llm(prompt, context=json.dumps(analysis_json, ensure_ascii=False, indent=2), max_tokens=16000)
 
 
 def sanitize_json(text):
@@ -1010,6 +1066,35 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                 chunk_draft = sanitize_json(chunk_draft)
                 try:
                     partial_json = json.loads(chunk_draft)
+                    
+                    # EARLY-EXIT CHECK: Evaluate if document is NOT a PTOF (first 3 chunks)
+                    if i < 3:
+                        is_ptof = partial_json.get('is_ptof', True)  # Default True for backward compat
+                        confidence = partial_json.get('is_ptof_confidence', 'medium')
+                        doc_type = partial_json.get('document_type', 'Unknown')
+                        
+                        # Convert string to bool if needed
+                        if isinstance(is_ptof, str):
+                            is_ptof = is_ptof.lower() != 'false'
+                        
+                        if is_ptof is False and confidence == 'high':
+                            # High confidence NOT PTOF - exit immediately
+                            logging.warning(f"[Pipeline] EARLY-EXIT (chunk {i+1}): NOT PTOF (type: {doc_type}, confidence: high)")
+                            if status_callback:
+                                status_callback(f"{process_tag} ❌ NOT PTOF - type: {doc_type} (confidence: high)")
+                            return {"_not_ptof": True, "document_type": doc_type, "school_code": school_code}
+                        elif is_ptof is False and confidence == 'medium' and i >= 2:
+                            # Medium confidence after 3 chunks - probably not PTOF
+                            logging.warning(f"[Pipeline] EARLY-EXIT (chunk {i+1}): Likely NOT PTOF (type: {doc_type}, confidence: medium)")
+                            if status_callback:
+                                status_callback(f"{process_tag} ⚠️ Likely NOT PTOF - type: {doc_type} (after 3 chunks)")
+                            return {"_not_ptof": True, "document_type": doc_type, "school_code": school_code}
+                        elif is_ptof is False and confidence == 'low':
+                            # Low confidence - log but continue analyzing
+                            logging.info(f"[Pipeline] Chunk {i+1}: is_ptof=false but confidence=low, continuing...")
+                            if status_callback:
+                                status_callback(f"{process_tag} ℹ️ chunk {i+1}: uncertain document type, continuing")
+                    
                     partial_results.append(partial_json)
                     break
                 except Exception as e:
@@ -1067,6 +1152,25 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
         draft = analyst.draft_report(content)
         if not draft: return None
         draft = sanitize_json(draft)
+        
+        # Check for NOT-PTOF in single-pass analysis (with confidence)
+        try:
+            draft_check = json.loads(draft)
+            is_ptof = draft_check.get('is_ptof', True)
+            confidence = draft_check.get('is_ptof_confidence', 'medium')
+            
+            # Convert string to bool if needed
+            if isinstance(is_ptof, str):
+                is_ptof = is_ptof.lower() != 'false'
+                
+            if is_ptof is False and confidence in ['high', 'medium']:
+                doc_type = draft_check.get('document_type', 'Unknown')
+                logging.warning(f"[Pipeline] EARLY-EXIT: Document is NOT a PTOF (type: {doc_type}, confidence: {confidence})")
+                if status_callback:
+                    status_callback(f"{process_tag} ❌ NOT PTOF - type: {doc_type} (confidence: {confidence})")
+                return {"_not_ptof": True, "document_type": doc_type, "school_code": school_code}
+        except json.JSONDecodeError:
+            pass  # Continue with normal flow if JSON parsing fails
     
     # Save Draft JSON (will be enriched AFTER refinement)
     try:

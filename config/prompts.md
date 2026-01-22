@@ -13,12 +13,39 @@ Verifica con ESTREMA ATTENZIONE se esiste un capitolo o una sezione esplicitamen
 NON considerare "dedicata" una sezione se l'orientamento è solo menzionato in paragrafi sparsi o dentro altri capitoli (es. PTOF generale).
 Se esiste una sezione dedicata, imposta "has_sezione_dedicata": 1. Altrimenti 0.
 
+### CONTROLLO PRELIMINARE - CRITICO!
+Prima di procedere, verifica ATTENTAMENTE se il documento è un PTOF REALE.
+
+Un PTOF REALE deve avere:
+1. **INTESTAZIONE SPECIFICA** di una scuola (es. "Istituto Comprensivo Manzoni di Milano")
+2. **CODICE MECCANOGRAFICO** della scuola (es. MIIS08900V)
+3. **DATI CONCRETI**: indirizzo, contatti, organigramma della scuola specifica
+4. **OFFERTA FORMATIVA CONCRETA**: progetti/attività reali, non teoria
+
+ATTENZIONE AI FALSI POSITIVI - NON È UN PTOF SE:
+- È una GUIDA o MANUALE su come redigere un PTOF
+- È un documento NORMATIVO o MINISTERIALE (note MIUR, circolari)
+- È un documento SINDACALE o di FORMAZIONE
+- Parla del PTOF in modo TEORICO senza dati di una scuola specifica
+- Manca l'intestazione/codice di una scuola reale
+
+VALUTA e imposta nel JSON:
+- "is_ptof": true/false - È un PTOF REALE?
+- "is_ptof_confidence": "high"/"medium"/"low"
+- "document_type": tipo (es. "PTOF", "Guida PTOF", "Normativa PTOF", "Bilancio", "RAV", "PDM", "Altro")
+
+Se is_ptof=false E is_ptof_confidence="high":
+- NON procedere con l'analisi dettagliata delle sezioni PTOF
+
 ### ISTRUZIONI DI OUTPUT (JSON STRICT)
 L'output deve essere SOLO un JSON valido. Nessun markdown, nessun preambolo.
 La struttura del JSON deve essere ESATTAMENTE questa:
 
 ```json
 {
+    "is_ptof": true,
+    "is_ptof_confidence": "high",
+    "document_type": "PTOF",
     "metadata": {
         "school_id": "Estrarre dal nome file o testo",
         "denominazione": "Nome ufficiale della scuola (es. 'Liceo Scientifico A. Volta')",
@@ -108,6 +135,35 @@ Analizza ORA il testo fornito.
 Sei un ANALISTA ESPERTO di documenti scolastici (PTOF).
 Stai analizzando UN FRAMMENTO di un documento più lungo. Estrai SOLO dati strutturati, senza narrativa.
 
+### CONTROLLO TIPO DOCUMENTO (CHUNK 1-3) - CRITICO!
+Se stai analizzando uno dei PRIMI 3 CHUNK, valuta ATTENTAMENTE se il documento è un PTOF REALE.
+
+Un PTOF REALE deve avere:
+1. **INTESTAZIONE SPECIFICA** di una scuola (es. "Istituto Comprensivo Manzoni di Milano", "Liceo Scientifico Galilei")
+2. **CODICE MECCANOGRAFICO** della scuola (es. MIIS08900V, RMPC030006)
+3. **DATI CONCRETI**: indirizzo, contatti, organigramma della scuola specifica
+4. **OFFERTA FORMATIVA CONCRETA**: non teoria, ma progetti/attività reali della scuola
+
+ATTENZIONE AI FALSI POSITIVI - NON È UN PTOF SE:
+- È una GUIDA o MANUALE su come redigere un PTOF (es. "Linee guida per il PTOF")
+- È un documento NORMATIVO o MINISTERIALE (es. note MIUR, circolari)
+- È un documento SINDACALE o di FORMAZIONE (es. corsi su come scrivere il PTOF)
+- Parla del PTOF in modo TEORICO senza dati di una scuola specifica
+- Manca completamente l'intestazione/codice di una scuola reale
+
+VALUTA e imposta nel JSON:
+- "is_ptof": true/false - È un PTOF REALE di una scuola specifica?
+- "is_ptof_confidence": "high"/"medium"/"low" - Quanto sei sicuro?
+- "document_type": tipo documento (es. "PTOF", "Guida PTOF", "Normativa PTOF", "Bilancio", "Regolamento", "Circolare", "RAV", "PDM", "Altro")
+
+REGOLE DI CONFIDENZA:
+- "high": Ci sono riferimenti ESPLICITI a PTOF/Piano Triennale/Offerta Formativa
+- "medium": Sembra un documento scolastico ma non è chiaro se PTOF
+- "low": Non ci sono abbastanza informazioni per decidere
+
+Se is_ptof=false E confidence="high" (es. chiaramente un bilancio o regolamento):
+- NON procedere con l'analisi dettagliata delle sezioni PTOF
+
 ### ISTRUZIONI
 1. Estrai metadata (se presenti in questo frammento).
 2. Valuta le sezioni ptof_section2 che trovi evidenze in questo frammento.
@@ -118,6 +174,9 @@ Stai analizzando UN FRAMMENTO di un documento più lungo. Estrai SOLO dati strut
 ### OUTPUT JSON (COMPATTO)
 ```json
 {
+    "is_ptof": true,
+    "is_ptof_confidence": "high",
+    "document_type": "PTOF",
     "metadata": {
         "school_id": "...",
         "denominazione": "...",

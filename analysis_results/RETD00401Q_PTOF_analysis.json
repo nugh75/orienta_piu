@@ -1,0 +1,440 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RETD00401Q",
+    "denominazione": "S. D'Arzo Con Sez.Ind.",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Montecchio Emilia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Emilia",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Strada Per S.Ilario",
+    "cap": "42027",
+    "email": "reis00400d@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutodarzo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento e PCTO, inclusi progetti specifici come 'I Balcani'"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università di Parma (UNIPR)",
+        "UNIMORE",
+        "Enti locali",
+        "Mondo produttivo",
+        "Unione dei Comuni Val d'Enza",
+        "Regione Emilia-Romagna",
+        "Comune di Correggio",
+        "Consorzio Istituti professionali",
+        "CNA",
+        "Adecco",
+        "WALVOIL",
+        "Serigrafia 76",
+        "RANDSTAD",
+        "Gi Group",
+        "Fondazione E35",
+        "AECA",
+        "UnisER",
+        "Viaggi e Miraggi",
+        "OBTC",
+        "ISCOS",
+        "AUSL",
+        "GLIR/GIT/Scuole polo",
+        "Associazioni di riferimento"
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "TEAL FOR EVERYONE",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Ambienti di apprendimento innovativi con tecnologie interconnesse",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "D'ARZO LABS FOR THE FUTURE",
+      "categoria_principale": "Laboratori digitali",
+      "descrizione_e_metodologia": "Nuovi laboratori per professioni digitali con attrezzature STEM",
+      "target": "Studenti indirizzi tecnici/professionali"
+    },
+    {
+      "titolo_attivita": "INTEGRAZIONE DIGITALE ALLA DIDATTICA",
+      "categoria_principale": "Laboratori STEM",
+      "descrizione_e_metodologia": "Attività di gruppo con attrezzature STEM",
+      "target": "Studenti STEM"
+    },
+    {
+      "titolo_attivita": "INSIEME AL D'ARZO",
+      "categoria_principale": "Prevenzione dispersione",
+      "descrizione_e_metodologia": "Mentoring e orientamento per studenti fragili",
+      "target": "Studenti con fragilità"
+    },
+    {
+      "titolo_attivita": "ANCORA INSIEME AL D'ARZO",
+      "categoria_principale": "Prevenzione dispersione",
+      "descrizione_e_metodologia": "Mentoring, potenziamento competenze di base, laboratori teatrali e sportivi",
+      "target": "Studenti a rischio e famiglie"
+    },
+    {
+      "titolo_attivita": "FULL STE(A)M AHEAD!",
+      "categoria_principale": "STEM e multilinguistico",
+      "descrizione_e_metodologia": "Laboratori STEM, coding, certificazioni, progetti interdisciplinari",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Learning D’Arzo",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Laboratori e percorsi di transizione digitale per personale scolastico",
+      "target": "Personale ATA e docenti"
+    },
+    {
+      "titolo_attivita": "Solar Mobil",
+      "categoria_principale": "STEM / Scientifico-Tecnologica",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di automobili solari con laboratori pomeridiani",
+      "target": "Studenti del triennio / Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "PCTO (Alternanza Scuola-Lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e visite aziendali per collegamento con il territorio",
+      "target": "Studenti Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Progetto EIPASS",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Certificazione informatica nel primo biennio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Insegnamento di discipline non linguistiche in lingua straniera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero lacune",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività sabato per studenti con carenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Qualifica Professionale IeFP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Esame per qualifica al termine del terzo anno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnici",
+      "categoria_principale": "Didattica laboratoriale",
+      "descrizione_e_metodologia": "Attività pratiche in laboratori informatici, pre-stampa e stampa",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Progetti interdisciplinari",
+      "categoria_principale": "Didattica interdisciplinare",
+      "descrizione_e_metodologia": "Collaborazione tra discipline per realizzare prodotti grafici e multimediali",
+      "target": "Indirizzo Grafica e Comunicazione"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus KA121",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e personale in Slovenia, Spagna, Portogallo, Romania",
+      "target": "Studenti IV e V"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività curriculari ed extracurriculari per ogni classe",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO STEM",
+      "categoria_principale": "Competenze trasversali",
+      "descrizione_e_metodologia": "Laboratori e visite aziendali in ambito STEM",
+      "target": "Studenti tecnici"
+    },
+    {
+      "titolo_attivita": "Cittadinanza digitale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Moduli su sicurezza e competenze digitali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetti europei post-diploma",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Certificazioni e mobilità lunga in aziende estere, collaborazione con UNIMORE",
+      "target": "Neodiplomati / Classi 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Modulo CV e testimonianza aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività con CNA per classi quarte e quinte",
+      "target": "Classi 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Progetto Intelligenza Artificiale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Collaborazione con CNA su AI",
+      "target": "Classi 4^"
+    },
+    {
+      "titolo_attivita": "JavaScript",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di programmazione",
+      "target": "Classi 4^"
+    },
+    {
+      "titolo_attivita": "Simulazione colloquio aziendale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Con ADECCO/UMANA/LAVORO+",
+      "target": "Classi 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "WALVOIL, INTERPUMP, Serigrafia 76",
+      "target": "Classi 3^, 4^, 5^"
+    },
+    {
+      "titolo_attivita": "Modulo capolavoro e certificazioni",
+      "categoria_principale": "Orientamenti",
+      "descrizione_e_metodologia": "Attività di conclusione",
+      "target": "Classi 3^, 4^, 5^"
+    },
+    {
+      "titolo_attivita": "Cybersicurezza",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti di informatica",
+      "target": "Classi 4^"
+    },
+    {
+      "titolo_attivita": "Incontri ex studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze professionali",
+      "target": "Classi 5^"
+    },
+    {
+      "titolo_attivita": "Potenziamento Linguistico",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Lezioni con madrelingua e certificazioni B1/B2",
+      "target": "Classi II-V"
+    },
+    {
+      "titolo_attivita": "Teatro Scuola",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Spettacoli e mobilità internazionale per gruppi teatrali",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Attività Motoria in Ambiente Naturale",
+      "categoria_principale": "Benessere Scolastico",
+      "descrizione_e_metodologia": "Uscite con guide esperte in parco avventura, sci, rafting",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Darzoperilcuore",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Corso di primo soccorso e certificazione defibrillatore",
+      "target": "Classi V"
+    },
+    {
+      "titolo_attivita": "Mappe per lo Studio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori su organizzatori grafici e software digitali",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Attività Finanziaria",
+      "categoria_principale": "Economico-Giuridica",
+      "descrizione_e_metodologia": "Simulazioni con software di gestione finanziaria",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "I Balcani: il Luogo del ‘900",
+      "categoria_principale": "Educazione civica e storica",
+      "descrizione_e_metodologia": "Incontri con esperti, viaggio in Bosnia, produzione di opere artistiche",
+      "target": "Classi aperte verticali/parallele"
+    },
+    {
+      "titolo_attivita": "Raccolta Differenziata Ed Economia Circolare",
+      "categoria_principale": "Sostenibilità ambientale",
+      "descrizione_e_metodica": "Attività di sensibilizzazione e pratica sull'economia circolare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Laboratoriale espressivo",
+      "descrizione_e_metodologia": "Attività teatrale per sviluppare autonomia e relazione",
+      "target": "Studenti con disabilità e tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Orto",
+      "categoria_principale": "Laboratoriale espressivo",
+      "descrizione_e_metodologia": "Attività di orto didattico per competenze trasversali",
+      "target": "Studenti con disabilità e tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Cucina",
+      "categoria_principale": "Laboratoriale espressivo",
+      "descrizione_e_metodologia": "Laboratorio culinario per autonomia e relazione",
+      "target": "Studenti con disabilità e tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività di promozione della lettura",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Uscite sul territorio",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività di integrazione con il territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività individualizzate e di piccolo gruppo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto personalizzato per alunni con disabilità e BES",
+      "target": "Studenti con disabilità/BES"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi aperte e laboratori interdisciplinari",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con enti locali e associazioni",
+      "target": "Studenti e territorio"
+    },
+    {
+      "titolo_attivita": "Referente Punto D’Ascolto",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Gestione contatti psicologo, docenti, studenti, famiglie",
+      "target": "Studenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Referente DSA e BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Verifica documentazione, gestione PDP, contatto territorio",
+      "target": "Studenti DSA/BES"
+    },
+    {
+      "titolo_attivita": "Referente Registro Elettronico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Supporto gestione registro, formazione docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Referente Educazione Civica",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Progettazione curricolo e formazione docenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referente Invalsi",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Organizzazione prove Invalsi e rendicontazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referente Sito Web",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Aggiornamento e gestione sito istituzionale",
+      "target": "Pubblico"
+    }
+  ],
+  "narrative": "# 1. Sintesi\nL'Istituto \"Silvio D'Arzo\", situato nella Val d'Enza, si presenta come un polo scolastico complesso che unisce indirizzi liceali, tecnici e professionali. Il PTOF 2022-2025 delinea un'offerta formativa fortemente radicata nel territorio, con un'attenzione particolare all'inclusione, alla digitalizzazione e al raccordo con il mondo del lavoro. Il documento evidenzia una strategia volta a ridurre la dispersione scolastica attraverso azioni di mentoring e supporto personalizzato, integrando al contempo tecnologie didattiche avanzate.\n\n# 2. Analisi Dimensionale\nL'analisi dei dati mostra un posizionamento solido nelle aree relative alle partnership e alle finalità educative, con punteggi massimi (5) che riflettono un'ampia rete di collaborazioni e una chiara visione sugli obiettivi di apprendimento e inclusione. Le azioni di sistema, come il coordinamento dei servizi e il dialogo scuola-famiglia, risultano ben strutturate. Tuttavia, si rileva una criticità strutturale nell'organizzazione documentale: l'assenza di una sezione esplicitamente dedicata all'orientamento (valore 0) indica che, sebbene le attività siano presenti, mancano di una collocazione unitaria nel testo. Inoltre, la didattica laboratoriale, pur supportata da infrastrutture adeguate, ottiene un punteggio intermedio (3) in quanto l'approccio appare prevalentemente tecnico piuttosto che metodologicamente orientativo.\n\n# 3. Punti di Forza\nIl principale punto di forza risiede nella rete di partenariato, che conta 23 soggetti tra università (UNIPR, UNIMORE), enti locali e aziende leader (es. Walvoil, Interpump), garantendo solide opportunità di PCTO e transizione scuola-lavoro. L'inclusione è un altro pilastro, supportata da progetti specifici per la prevenzione della dispersione (\"Insieme al D'Arzo\") e l'integrazione di studenti con fragilità. L'investimento nelle infrastrutture digitali è evidente, con progetti come \"TEAL for Everyone\" e laboratori STEM che mirano a modernizzare l'ambiente di apprendimento. L'internazionalizzazione è ben rappresentata dalle mobilità Erasmus e dai progetti europei post-diploma.\n\n# 4. Debolezze\nLa debolezza principale è di natura organizzativa e comunicativa all'interno del documento: la mancanza di un capitolo dedicato all'orientamento rende la lettura delle strategie meno immediata, disperdendo le informazioni tra le varie attività. Parallelamente, sebbene vi sia un'ampia disponibilità di laboratori tecnici, il loro utilizzo specifico come strumento di orientamento formativo e professionale non è sufficientemente esplicitato o sistematizzato, limitando il potenziale impatto di queste risorse nella definizione del progetto di vita dello studente.\n\n# 5. Gap Analysis\nEmerge un divario tra la ricchezza delle attività pratiche offerte e la loro formalizzazione in un quadro organico di orientamento. Mentre le azioni contro l'abbandono e per l'inclusione sono ben definite, manca un raccordo esplicito che colleghi sistematicamente la didattica laboratoriale alle finalità orientative. È necessario strutturare meglio la narrazione delle attività di orientamento, raggruppandole in una sezione dedicata per renderle più visibili e coerenti con gli obiettivi dichiarati.\n\n# 6. Conclusioni\nIn conclusione, l'Istituto \"Silvio D'Arzo\" offre un percorso formativo ricco e integrato col territorio, capace di rispondere alle esigenze di un'utenza eterogenea. Per ottimizzare l'efficacia del PTOF, si raccomanda di riorganizzare i contenuti relativi all'orientamento in una sezione specifica e di valorizzare maggiormente la dimensione orientativa delle attività laboratoriali, trasformandole da semplici spazi tecnici a luoghi di scoperta vocazionale."
+}

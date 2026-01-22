@@ -1,1 +1,17 @@
-Report narrativo non disponibile. Rigenera l'analisi.
+**1. Sintesi**
+Il PTOF 2022-2025 del CPIA Giuseppe Foti di Viterbo delinea un'offerta formativa complessa, rivolta a un'utenza adulta eterogenea distribuita su un vasto territorio che comprende Viterbo e il litorale nord di Roma. Il documento pone forte enfasi sull'integrazione sociale e lavorativa, con particolare attenzione ai migranti, ai detenuti e ai NEET. La strategia educativa si fonda su una rete di partenariato estesa e su metodologie didattiche flessibili, mirate al recupero delle competenze di base e alla riqualificazione professionale, pur dovendo fronteggiare sfide logistiche significative.
+
+**2. Analisi Dimensionale**
+L'analisi evidenzia un eccellente radicamento territoriale, testimoniato da 42 partnership attive con enti locali, aziende e terzo settore. Sebbene non sia presente una sezione denominata esplicitamente "Orientamento", le attività di accoglienza e definizione del Patto Formativo Individuale (PFI) sono strutturate e integrate nelle "Scelte Strategiche". La didattica orientativa ottiene punteggi elevati per l'approccio esperienziale e interdisciplinare; tuttavia, la componente laboratoriale in senso stretto risulta meno strutturata (3/5), privilegiando attività outdoor e contestualizzate rispetto a laboratori tecnici tradizionali. L'inclusione emerge come asse portante, con percorsi specifici per l'alfabetizzazione (L2) e il supporto ai Minori Stranieri Non Accompagnati (MSNA).
+
+**3. Punti di Forza**
+Il principale punto di forza è la capacità di fare rete: la collaborazione con 42 partner (tra cui Università della Tuscia, Coldiretti e Centri per l'Impiego) permette di offrire percorsi professionalizzanti concreti (es. "Mastri 4.0", "Formazione verde"). L'internazionalizzazione è ben sviluppata grazie ai progetti Erasmus+ che coinvolgono staff e discenti. L'attenzione all'inclusione è capillare, coprendo sia la didattica carceraria che l'integrazione dei cittadini stranieri attraverso certificazioni linguistiche e civiche. Innovativo è l'uso del "Peer teaching" e del mentoring per motivare gli studenti più fragili.
+
+**4. Debolezze**
+Il documento rileva criticità oggettive legate alla dispersione scolastica e alla frequenza discontinua, spesso causate da difficoltà logistiche e di trasporto per raggiungere le sedi didattiche, distribuite su un'area geografica molto ampia. Questo impatta negativamente sul tasso di completamento dei corsi. Inoltre, l'offerta di attività opzionali sportive e puramente ricreative appare limitata rispetto a quella culturale e professionale.
+
+**5. Gap Analysis**
+Nonostante l'ampia gamma di progetti, manca una formalizzazione più spinta delle attività di orientamento in uscita verso l'istruzione superiore o il mercato del lavoro, che spesso sono delegate ai partner esterni o a progetti specifici piuttosto che a un protocollo sistemico interno. Si nota inoltre la necessità di potenziare le infrastrutture per la didattica laboratoriale tecnica all'interno delle sedi proprie.
+
+**6. Conclusioni**
+Il CPIA Giuseppe Foti si conferma un presidio fondamentale per l'istruzione degli adulti nel Lazio settentrionale. Il PTOF dimostra una chiara visione strategica orientata all'inclusione e all'occupabilità, supportata da un'eccezionale rete di stakeholder. Per massimizzare l'impatto, sarà cruciale affrontare le barriere logistiche che ostacolano la frequenza e strutturare ulteriormente i servizi di orientamento in uscita.

@@ -1,0 +1,339 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SAMM811031",
+    "denominazione": "Scala",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Scala",
+    "anno_ptof": "2022-2025",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Campidonico 2",
+    "cap": "84010",
+    "email": "saic81100t@istruzione.it",
+    "pec": "saic81100t@pec.istruzione.it",
+    "website": "www.ictramonti.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Il documento non presenta una sezione specifica intitolata 'Orientamento', ma attività sparse in altre sezioni."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Amministrazione comunale",
+        "Comuni di Tramonti, Ravello, Scala",
+        "Enti locali",
+        "Associazioni culturali",
+        "INDIRE",
+        "Rete Scuole Costiera Amalfitana",
+        "Scuole estere",
+        "Erasmus+",
+        "Organizzazioni internazionali",
+        "Carabinieri",
+        "ENPA",
+        "Professionisti esterni",
+        "ACAR.BIO",
+        "Protezione Civile",
+        "Corpo Forestale dello Stato",
+        "Ambito 24",
+        "Piccole scuole",
+        "Alumni"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Indirizzo musicale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività musicale attiva da anni a Ravello e avviata a Scala",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Web Radio TV Ictramonti / Voci in Onde",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Realizzazione di prodotti audio/video, podcast e web radio scolastica",
+      "target": "Studenti, famiglie, comunità"
+    },
+    {
+      "titolo_attivita": "Teatro 4.0: In Agorà",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Ristrutturazione teatro con connessione fisico-virtuale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori mobili di aula",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche con fondi FESR",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+ e Internazionalizzazione",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità, scambi culturali, gemellaggi e partecipazione a progetti europei",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Educazione Stradale",
+      "categoria_principale": "Cittadinanza e Legalità",
+      "descrizione_e_metodologia": "Simulazioni interattive e approccio ludico per apprendimento sicurezza stradale",
+      "target": "Studenti della scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale / La poesia del teatro",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Percorso interdisciplinare per sviluppo espressivo e collaborativo",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Orto Verticale e Transizione Ecologica",
+      "categoria_principale": "Sostenibilità Ambientale",
+      "descrizione_e_metodologia": "Coltivazione urbana sostenibile, laboratori di riciclo e mobilità sostenibile",
+      "target": "Classi primarie e secondarie"
+    },
+    {
+      "titolo_attivita": "Animatore digitale: formazione del personale interno",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Formazione su tecnologie digitali e didattica integrata",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "STEM e Lingue: le frontiere della nuova didattica",
+      "categoria_principale": "STEM e multilinguismo",
+      "descrizione_e_metodologia": "Laboratori STEM e potenziamento competenze linguistiche",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Agenda Sud - Moduli di recupero",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Moduli per italiano, inglese, matematica e scienze",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Educazione Civica e Legalità",
+      "categoria_principale": "Trasversale",
+      "descrizione_e_metodologia": "Percorso interdisciplinare su cittadinanza, legalità, sostenibilità, incontri con Carabinieri",
+      "target": "Tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Attività Motoria e Sportiva",
+      "categoria_principale": "Opzionale",
+      "descrizione_e_metodologia": "Scienze motorie, sportive, percorsi motori e danze",
+      "target": "Primaria/Secondaria"
+    },
+    {
+      "titolo_attivita": "Attività di gruppo e competenze sociali",
+      "categoria_principale": "Competenze sociali",
+      "descrizione_e_metodologia": "Giochi cooperativi, laboratori di ascolto attivo, gestione emozioni e conflitti",
+      "target": "Scuola Primaria/Secondaria"
+    },
+    {
+      "titolo_attivita": "Laboratori di solidarietà e inclusività",
+      "categoria_principale": "Cittadinanza globale",
+      "descrizione_e_metodologia": "Raccolte materiali, attività su diversità culturale e sociale",
+      "target": "Scuola Primaria/Secondaria"
+    },
+    {
+      "titolo_attivita": "Integrazione lingua straniera e CLIL",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Percorsi plurilingui, laboratori, CLIL e formazione docenti",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Festival delle culture",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Celebrazione di culture globali con danze e degustazioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM Infanzia (Scienza Semplice, Coding, Costruzioni)",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Esperimenti, robot programmabili, costruzioni e osservazione natura per i più piccoli",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Robotica e Coding Primaria",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Programmazione robot, algoritmi e pensiero computazionale",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Città Sostenibile",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Costruzione di modelli con materiali riciclati",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di autovalutazione, laboratori su competenze future, visite a fiere",
+      "target": "Classe III Scuola Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Crescere Felix e Frutta Nelle Scuole",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Educazione alimentare, stile di vita sano e consumo frutta",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Leggere Che Passione",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Sensibilizzazione alla lettura e recensioni di libri",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto ENPA e Un albero per il futuro",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Educazione al rispetto degli animali, piantumazione e cura alberi con Corpo Forestale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Avviamento allo studio del latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corso per studenti orientati a percorsi liceali",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "My First Steps Of Partecipation",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetto di educazione alla democrazia e partecipazione",
+      "target": "Studenti secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Primi passi in sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Simulazioni di rischi idrogeologici e incendi",
+      "target": "Scuola Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Cablaggio interno scuole",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Implementazione rete LAN/W-Lan",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Valutazione e Monitoraggio (Osservazioni, Griglie, Portfolio)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Monitoraggio comportamenti, registrazione progressi, documentazione competenze e autovalutazione",
+      "target": "Bambini/Studenti"
+    },
+    {
+      "titolo_attivita": "Prevenzione del bullismo e cyberbullismo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori su etica digitale, gestione conflitti e sistema di segnalazione",
+      "target": "Studenti, genitori, personale"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi individualizzati (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività personalizzate con sostegno, specialisti esterni e supporto familiare",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Promozione della Sicurezza e della Consapevolezza",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Formazione su sicurezza fisica, digitale e psicologica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "DIGITAL PRACTICE e ROBOTICA EDUCATIVA",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori, workshop e utilizzo kit per innovazione didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formarsi per la digitalizzazione del futuro",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Moduli su MEPA, GSuite, sicurezza",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "### 1. Sintesi\nL'Istituto Comprensivo ‘G. Pascoli’, operante nei comuni di Tramonti, Ravello e Scala, presenta un PTOF 2022-2025 fortemente radicato nel contesto territoriale della Costiera Amalfitana. Il documento delinea un'offerta formativa ampia, caratterizzata da una marcata apertura verso l'esterno, come testimoniato dalle numerose partnership attivate con enti locali, associazioni e reti internazionali. L'analisi del documento rivela un'attenzione particolare all'inclusione, alla digitalizzazione e alla sostenibilità ambientale. Tuttavia, si rileva che le attività di orientamento, sebbene presenti e articolate in moduli specifici per le classi terze, non sono organizzate all'interno di una sezione dedicata e strutturata del PTOF, risultando distribuite in diverse aree del documento.\n\n### 2. Analisi Dimensionale\nL'analisi dimensionale evidenzia un punteggio elevato nelle aree relative alle partnership e alle finalità educative generali. La scuola collabora con 18 partner distinti, spaziando dalle amministrazioni comunali a enti internazionali come INDIRE e il programma Erasmus+. Le finalità del PTOF coprono in modo esaustivo lo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti. Per quanto riguarda la didattica orientativa, si osserva una discrepanza: mentre l'approccio interdisciplinare e la flessibilità organizzativa ottengono valutazioni piene, la didattica laboratoriale registra un punteggio intermedio (3/5). Questo è dovuto al fatto che, pur essendo presenti laboratori STEM, musicali e digitali, essi non appaiono esplicitamente e sistematicamente finalizzati a percorsi di orientamento strutturati. Inoltre, l'assenza di una sezione esplicitamente denominata \"Orientamento\" (valore 0) suggerisce una frammentazione nella presentazione strategica di queste tematiche.\n\n### 3. Punti di Forza\nIl principale punto di forza dell'Istituto è la rete territoriale e internazionale. La partecipazione a progetti Erasmus+ e la collaborazione con la Rete Scuole Costiera Amalfitana offrono agli studenti opportunità significative di apertura culturale. Un altro elemento distintivo è l'investimento nella digitalizzazione e nella comunicazione, esemplificato dalla Web Radio TV scolastica e dal progetto \"Teatro 4.0\". L'attenzione all'inclusione è trasversale, con azioni mirate per il contrasto alla dispersione scolastica (Agenda Sud) e per il supporto agli alunni con fragilità, supportata da un solido patto educativo con le famiglie.\n\n### 4. Debolezze\nLa debolezza strutturale più evidente è la mancanza di una sezione unitaria dedicata all'Orientamento all'interno del documento programmatico. Le attività di orientamento formativo, pur esistenti (es. moduli per le classi terze, visite a fiere), sono disperse tra le varie schede progetto, rendendo meno immediata la percezione di una strategia organica. Inoltre, la didattica laboratoriale, sebbene ricca di strumenti (robotica, laboratori mobili), necessita di essere maggiormente integrata in una prospettiva orientativa esplicita, che vada oltre l'acquisizione di competenze tecniche per abbracciare la consapevolezza delle proprie inclinazioni.\n\n### 5. Gap Analysis\nEmerge un divario tra la ricchezza delle attività extracurricolari e opzionali (musica, teatro, STEM) e la formalizzazione del loro valore orientativo. Mentre l'istituto eccelle nell'offrire esperienze diversificate, manca un quadro di riferimento esplicito che colleghi queste esperienze alla costruzione del progetto di vita dello studente in modo sistematico all'interno del PTOF. Il potenziale orientativo delle partnership territoriali potrebbe essere ulteriormente valorizzato strutturando percorsi di orientamento professionale più definiti in collaborazione con gli attori locali.\n\n### 6. Conclusioni\nIn conclusione, l'IC ‘G. Pascoli’ si configura come una realtà scolastica dinamica e inclusiva, capace di sfruttare le risorse del territorio e le opportunità europee. Per ottimizzare l'efficacia del PTOF in chiave orientativa, si raccomanda di aggregare le iniziative esistenti in una sezione dedicata, esplicitando il legame tra la didattica laboratoriale e le finalità orientative. Tale operazione conferirebbe maggiore organicità all'offerta formativa, trasformando le numerose attività in un percorso di orientamento coerente e ben leggibile per studenti e famiglie."
+}

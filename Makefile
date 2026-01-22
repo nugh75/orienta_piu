@@ -140,6 +140,11 @@ help:
 	@echo "  make workflow ANALYST=gemma3:27b REVIEWER=qwen3:32b REFINER=... SYNTHESIZER=..."
 	@echo "  make workflow OLLAMA_URL=http://localhost:11434 MODEL=..."
 	@echo ""
+	@echo "WORKFLOW IBRIDO (Ollama + Cloud):"
+	@echo "  make workflow ANALYST=qwen3:32b PROVIDER_ANALYST=ollama \\"
+	@echo "                REFINER=google/gemini-3-pro-preview PROVIDER_REFINER=openrouter \\"
+	@echo "                SYNTHESIZER=google/gemini-3-pro-preview PROVIDER_SYNTHESIZER=openrouter"
+	@echo ""
 	@echo "PULIZIA FILE OBSOLETI:"
 	@echo "  make cleanup-dry          - Mostra cosa verrebbe eliminato (dry-run)"
 	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
@@ -209,6 +214,10 @@ endif
 		$(if $(SYNTHESIZER),--synthesizer "$(SYNTHESIZER)",) \
 		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
 		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(PROVIDER_ANALYST),--provider-analyst "$(PROVIDER_ANALYST)",) \
+		$(if $(PROVIDER_REVIEWER),--provider-reviewer "$(PROVIDER_REVIEWER)",) \
+		$(if $(PROVIDER_REFINER),--provider-refiner "$(PROVIDER_REFINER)",) \
+		$(if $(PROVIDER_SYNTHESIZER),--provider-synthesizer "$(PROVIDER_SYNTHESIZER)",) \
 		$(if $(PRESET),--preset "$(PRESET)",) \
 		$(if $(FORCE_CODE),--force-code "$(FORCE_CODE)",) \
 		$(if $(SKIP_VALIDATION),--skip-validation,)

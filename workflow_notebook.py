@@ -28,7 +28,11 @@ parser.add_argument("--reviewer", type=str, help="Modello per revisore (es. qwen
 parser.add_argument("--refiner", type=str, help="Modello per refiner (es. gemma3:27b)")
 parser.add_argument("--synthesizer", type=str, help="Modello per synthesizer (es. gemma3:27b)")
 parser.add_argument("--ollama-url", type=str, help="URL server Ollama (default: auto-detect per provider)")
-parser.add_argument("--provider", type=str, help="Provider LLM (ollama, openai, openrouter)")
+parser.add_argument("--provider", type=str, help="Provider LLM globale (ollama, openai, openrouter)")
+parser.add_argument("--provider-analyst", type=str, help="Provider specifico per analista (ollama, openrouter)")
+parser.add_argument("--provider-reviewer", type=str, help="Provider specifico per revisore (ollama, openrouter)")
+parser.add_argument("--provider-refiner", type=str, help="Provider specifico per refiner (ollama, openrouter)")
+parser.add_argument("--provider-synthesizer", type=str, help="Provider specifico per synthesizer (ollama, openrouter)")
 parser.add_argument("--preset", type=str, help="ID Preset da usare (es. 8 per Gemini Lite)")
 args, _ = parser.parse_known_args()
 
@@ -62,6 +66,15 @@ if args.synthesizer:
     os.environ["PTOF_MODEL_SYNTHESIZER"] = args.synthesizer
 if args.provider:
     os.environ["PTOF_PROVIDER"] = args.provider
+# Granular provider overrides for mixed Ollama+Cloud configs
+if getattr(args, 'provider_analyst', None):
+    os.environ["PTOF_PROVIDER_ANALYST"] = args.provider_analyst
+if getattr(args, 'provider_reviewer', None):
+    os.environ["PTOF_PROVIDER_REVIEWER"] = args.provider_reviewer
+if getattr(args, 'provider_refiner', None):
+    os.environ["PTOF_PROVIDER_REFINER"] = args.provider_refiner
+if getattr(args, 'provider_synthesizer', None):
+    os.environ["PTOF_PROVIDER_SYNTHESIZER"] = args.provider_synthesizer
 # Set correct URL based on provider
 api_url = get_provider_url(args.provider, args.ollama_url)
 os.environ["PTOF_OLLAMA_URL"] = api_url
@@ -717,6 +730,7 @@ while True:
             synthesizer = SynthesizerAgent()
         
             analyzed = []
+            not_ptof_count = 0
 
             for pdf_path, school_code, miur_data in converted:
                 # Controllo uscita richiesta
@@ -746,6 +760,34 @@ while True:
                         status_callback=status_cb
                     )
 
+                    # Handle NOT-PTOF early exit
+                    if result and isinstance(result, dict) and result.get('_not_ptof'):
+                        doc_type = result.get('document_type', 'Unknown')
+                        print(f"   🚫 SKIP: Non è un PTOF (tipo: {doc_type})", flush=True)
+                        not_ptof_count += 1
+                        
+                        # Move PDF to discarded folder
+                        discarded_dir = BASE_DIR / 'ptof_discarded'
+                        discarded_dir.mkdir(exist_ok=True)
+                        dest_path = discarded_dir / pdf_path.name
+                        
+                        # Add suffix if file exists
+                        counter = 1
+                        while dest_path.exists():
+                            stem = pdf_path.stem
+                            dest_path = discarded_dir / f"{stem}_{counter}{pdf_path.suffix}"
+                            counter += 1
+                        
+                        shutil.move(str(pdf_path), str(dest_path))
+                        print(f"   📁 Spostato in ptof_discarded/", flush=True)
+                        
+                        # Remove MD file as well
+                        if md_file.exists():
+                            md_file.unlink()
+                            print(f"   🗑️ Rimosso file MD", flush=True)
+                        
+                        continue
+
                     if result:
                         ro_index = compute_maturity_index(result)
                         if ro_index is not None and ro_index < 2.0:
@@ -773,7 +815,33 @@ while True:
                         )
                         print(f"   📝 Registrato nel registro analisi", flush=True)
                     else:
-                        print(f"   ⚠️ Nessun risultato", flush=True)
+                        # result is None - analysis failed or was discarded by safety check
+                        # Check if JSON was created and then removed (safety check case)
+                        json_check = ANALYSIS_DIR / f"{school_code}_PTOF_analysis.json"
+                        if not json_check.exists():
+                            # Safety check removed it, or analysis failed completely
+                            # Move PDF to discarded to avoid re-processing
+                            print(f"   ⚠️ Nessun risultato - sposto PDF in discarded", flush=True)
+                            discarded_dir = BASE_DIR / 'ptof_discarded'
+                            discarded_dir.mkdir(exist_ok=True)
+                            dest_path = discarded_dir / pdf_path.name
+                            
+                            counter = 1
+                            while dest_path.exists():
+                                stem = pdf_path.stem
+                                dest_path = discarded_dir / f"{stem}_{counter}{pdf_path.suffix}"
+                                counter += 1
+                            
+                            if pdf_path.exists():
+                                shutil.move(str(pdf_path), str(dest_path))
+                                print(f"   📁 PDF spostato in ptof_discarded/", flush=True)
+                            
+                            # Remove MD file as well
+                            if md_file.exists():
+                                md_file.unlink()
+                                print(f"   🗑️ Rimosso file MD", flush=True)
+                        else:
+                            print(f"   ⚠️ Nessun risultato", flush=True)
 
                 except Exception as e:
                     print(f"   ❌ Errore analisi: {e}", flush=True)
@@ -781,6 +849,8 @@ while True:
                     traceback.print_exc()
 
             print(f"\n📊 Analizzati: {len(analyzed)} file", flush=True)
+            if not_ptof_count > 0:
+                print(f"🚫 Non-PTOF scartati: {not_ptof_count} file (spostati in ptof_discarded/)", flush=True)
     
     # =====================================================
     # STEP 2.5: AUTO-FILL REGIONI DA COMUNI

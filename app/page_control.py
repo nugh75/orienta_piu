@@ -225,9 +225,9 @@ def get_page_settings() -> Dict:
             "section": cfg.get("section", "other"),
         }
 
-    default_page = settings.get("default_page", "Home.py")
+    default_page = settings.get("default_page", "pages/03_Sintesi.py")
     if default_page not in merged:
-        default_page = "Home.py"
+        default_page = "pages/03_Sintesi.py"
 
     return {
         "default_page": default_page,

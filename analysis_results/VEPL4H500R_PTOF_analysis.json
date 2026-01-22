@@ -1,0 +1,421 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VEPL4H500R",
+    "denominazione": "Liceo Linguistico \"Giuseppe Parini\"",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Venezia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Venezia",
+    "regione": "Veneto",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Terraglio 30",
+    "cap": "30174",
+    "email": "info@istitutoparini.it",
+    "pec": "ND",
+    "website": "www.istitutoparini.it"
+  },
+  "narrative": "# 1. Sintesi\nIl Piano Triennale dell'Offerta Formativa (2022-2025) dell'Istituto G. Parini di Venezia Mestre delinea un percorso liceale (Scientifico e Linguistico) fortemente radicato nel territorio. L'analisi del documento rivela che, pur mancando una sezione esplicitamente rubricata come \"Orientamento\", l'istituto attua numerose pratiche orientative integrate. Queste si manifestano prevalentemente attraverso i Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO), progetti di inclusione e una rete di collaborazioni esterne. L'approccio appare pragmatico, basato sull'esperienza diretta e sul contatto con realtà produttive, culturali e sportive, sebbene la narrazione delle attività risulti talvolta frammentata e priva di un quadro strategico unitario esplicitato.\n\n# 2. Analisi Dimensionale\nL'esame delle dimensioni costitutive dell'orientamento mostra un quadro variegato.\n**Governance e Organizzazione:** Si registra l'assenza di una sezione dedicata che formalizzi il sistema orientamento, rendendo la strategia deducibile solo dalla lettura trasversale delle attività. Di conseguenza, il punteggio relativo alla presenza di una sezione dedicata è stato azzerato.\n**Didattica Orientativa:** La didattica laboratoriale ottiene una valutazione rivista (Score 3), in quanto, pur essendo presenti attività come laboratori di scrittura o artistici, queste appaiono come iniziative specifiche (es. workshop) piuttosto che come una metodologia didattica strutturale e trasversale a tutte le discipline. Eccellente invece il punteggio relativo alla didattica basata sull'esperienza (PCTO).\n**Relazioni Territoriali:** Il network è ampio, con 22 partner validati tra enti locali, associazioni sportive e terzo settore, a testimonianza di una scuola aperta, sebbene sia stato necessario ridimensionare il conteggio per escludere enti non formalmente citati nel testo.\n\n# 3. Punti di Forza\nIl principale punto di forza risiede nella ricchezza delle **partnership territoriali** e nella varietà delle attività extracurricolari. Progetti come il \"Doppio Diploma Italia-USA\", le collaborazioni con la \"Reyer School Cup\" e le attività legate all'ambiente lagunare (es. \"Conoscere Venezia dall’Acqua\") offrono agli studenti opportunità concrete di sviluppo delle competenze trasversali. L'attenzione all'inclusione è evidente attraverso progetti mirati per studenti con BES e azioni di supporto psicologico (Intelligenza Emotiva). La capacità di dialogare con il territorio veneziano (es. Fondazione FAI, Protezione Civile) arricchisce significativamente l'offerta formativa.\n\n# 4. Debolezze\nLa criticità maggiore è di natura strutturale: l'assenza di una sezione specifica per l'orientamento nel PTOF impedisce una visione organica degli obiettivi e delle strategie. Inoltre, si rileva una carenza nella **misurabilità dei risultati**: il documento elenca numerose attività con un tono talvolta promozionale, ma mancano dati quantitativi sugli esiti di tali percorsi (es. impatto sull'abbandono, efficacia delle azioni di recupero, feedback strutturati post-diploma). La didattica laboratoriale, seppur presente, non sembra essere messa a sistema come prassi quotidiana per tutte le discipline, limitandosi spesso a progetti opzionali.\n\n# 5. Gap Analysis\nRispetto a un modello di orientamento integrato ottimale, il PTOF del Liceo Parini mostra un gap nella **formalizzazione dei processi**. Manca un \"sistema orientamento\" codificato che leghi le singole iniziative (PCTO, sport, lingue) a obiettivi di orientamento formativo e professionale misurabili nel lungo periodo. È necessario passare da una logica di \"elenco di progetti\" a una logica di \"curricolo verticale di orientamento\", dove ogni azione è monitorata non solo nella sua esecuzione, ma nel suo impatto sulle competenze orientative dello studente.\n\n# 6. Conclusioni\nIn conclusione, il Liceo G. Parini offre un ambiente formativo stimolante e ricco di opportunità, supportato da una rete territoriale solida. Tuttavia, per elevare la qualità del servizio di orientamento, è raccomandabile strutturare una sezione dedicata nel PTOF che espliciti la governance del processo e introdurre indicatori di monitoraggio più rigorosi. La revisione dei punteggi riflette la necessità di distinguere tra l'abbondanza delle attività offerte (punto di forza) e la mancanza di una cornice metodologica strutturale (punto di debolezza).",
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Assenza di una sezione esplicitamente denominata 'Orientamento'; le attività sono distribuite nel testo."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Enti Locali",
+        "Realtà produttiva territoriale",
+        "Università del territorio",
+        "Terzo settore",
+        "Ente Privato (EPV)",
+        "Comune di Venezia",
+        "Fondazione FAI",
+        "Legambiente",
+        "Liberia UBIK",
+        "Athlon S Giuliano-Venezia",
+        "Venice canoe",
+        "Canottieri Mestre",
+        "Umana Reyer",
+        "Onda Selvaggia",
+        "Mater Academy",
+        "Protezione Civile Venezia",
+        "Croce Verde Mestre",
+        "Venezia Comix",
+        "ESA Open Water",
+        "OXIGENE-SAIL",
+        "Società Nazionale Salvamento Genova",
+        "Capitaneria Di Porto di Venezia"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO - Percorsi per le Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di integrazione con enti locali e produttivi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di Accoglienza Alunni Stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programma di integrazione linguistica e culturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Laboratori Scientifici e Linguistici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Uso di LIM e laboratori attrezzati",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione e sviluppo servizi didattici",
+      "categoria_principale": "Gestione interna",
+      "descrizione_e_metodologia": "Pianificazione, verifica e validazione di progetti formativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio e controllo qualità",
+      "categoria_principale": "Gestione interna",
+      "descrizione_e_metodologia": "Verifiche intermedie e finali per conformità ai requisiti",
+      "target": "Servizi erogati"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze digitali / ICDL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di tecnologie digitali, pensiero computazionale e certificazione competenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Riduzione sospensioni in matematica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Miglioramento metodologie didattiche e monitoraggio risultati",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Inclusione/Formazione Pratica",
+      "descrizione_e_metodologia": "Convenzioni con aziende e istituzioni, attività di stage",
+      "target": "Studenti del secondo biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Griglie di valutazione integrate",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Sviluppo griglie disciplinari e comportamentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Biblioteca e sala studio",
+      "categoria_principale": "Strutture",
+      "descrizione_e_metodologia": "Ristrutturazione spazi per biblioteca e studio",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Lavoriamo per competenze",
+      "categoria_principale": "Didattica interdisciplinare",
+      "descrizione_e_metodologia": "Utilizzo di tecnologie e metodologie innovative per migliorare apprendimento",
+      "target": "Studenti, Docenti"
+    },
+    {
+      "titolo_attivita": "Curricolo Educazione Civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "33 ore annue con focus su Costituzione, sviluppo sostenibile e cittadinanza digitale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di Autoefficacia",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Tutoring e corsi di recupero personalizzati",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Uscite Didattiche",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Visite a siti culturali e artistici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma di Intelligenza Emotiva",
+      "categoria_principale": "Psicologico",
+      "descrizione_e_metodologia": "Attività per sviluppare competenze socio-relazionali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Costruire Il Proprio Futuro (Scientifico/Linguistico/OSA)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto PCTO con lezioni in aula e esperienze in strutture ospitanti per sviluppare competenze scientifiche, umanistiche e linguistiche",
+      "target": "Studenti Liceo Scientifico e Linguistico"
+    },
+    {
+      "titolo_attivita": "Piano per diventare cittadini responsabili",
+      "categoria_principale": "Sviluppo Sostenibile",
+      "descrizione_e_metodologia": "Progetto interdisciplinare con 17 obiettivi Agenda 2030",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Corsi Parini PM",
+      "categoria_principale": "Alternanza",
+      "descrizione_e_metodologia": "Progetti opzionali di ampliamento offerta formativa",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Cultura e Ambiente",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Collaborazione con Comune di Venezia e Fai per progetti ambientali",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Potenziamento Lingua Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Preparazione a certificazioni B1/B2 con CLIL",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Scrittura",
+      "categoria_principale": "Lingua e Letteratura",
+      "descrizione_e_metodologia": "Miglioramento espressione scritta e creatività",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Arte",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Uscite culturali e alfabetizzazione artistica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Book Club",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Collaborazione con Liberia UBIK per promuovere lettura",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Redazione Web",
+      "categoria_principale": "Digital Skills",
+      "descrizione_e_metodologia": "Produzione di contenuti multimediali per il sito scolastico",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Interior Design",
+      "categoria_principale": "Arte e Progettazione",
+      "descrizione_e_metodologia": "Progettazione spazi abitativi e competenze tecniche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso Di Fumetto",
+      "categoria_principale": "Arte e Narrativa",
+      "descrizione_e_metodologia": "Creazione di storie a fumetti e storytelling con Venezia Comix",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive individuali e di squadra",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo Atletica Leggera",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Collaborazione con società Athlon S Giuliano-Venezia",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo Difesa Personale",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Educazione alla sicurezza e prevenzione violenza",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo Conoscere Venezia Dall’Acqua",
+      "categoria_principale": "Sport e Cultura",
+      "descrizione_e_metodologia": "Attività nautiche e conoscenza della laguna veneziana",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Percorso naturalistico in Dragon Boat",
+      "categoria_principale": "Sport e ambiente",
+      "descrizione_e_metodologia": "Esplorazione di Venezia con canoa cinese in collaborazione con società sportive",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo 'Reyer School Cup'",
+      "categoria_principale": "Sport e competenze",
+      "descrizione_e_metodologia": "Attività sportiva con tecnici federali e produzione di contenuti giornalistici",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sport e ambiente naturale (Brenta/Grappa)",
+      "categoria_principale": "Sport e storia",
+      "descrizione_e_metodologia": "Attività fluviali e itinerari storici con tecnici federali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Informazione-formazione su genitorialità",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Formazione genitori su psicopedagogia",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento in progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti di comunità educante",
+      "target": "Studenti BES"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi aperte e laboratori protetti",
+      "target": "Studenti fragili"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Riprogettazione didattica a distanza",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Doppio Diploma Italia-USA",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Percorso per ottenere diploma statunitense e italiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendisti Ciceroni",
+      "categoria_principale": "Cultura/Patrimonio",
+      "descrizione_e_metodologia": "Convenzione con FAI per guida artistica locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A lezione di Terremoto",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Protezione Civile per prevenzione sismica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fondamenti di Primo Soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Addestramento con Croce Verde su RCP e DAE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soccorsitore Acquatico-Bagnino di salvataggio / ESA Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Formazione certificata con brevetto EU per salvataggio acquatico e brevetto subacqueo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Educazione all'infanzia",
+      "descrizione_e_metodologia": "Attività ludico-motoria per bambini prescolari",
+      "target": "Studenti Liceo Sportivo"
+    },
+    {
+      "titolo_attivita": "Arrampicata Sportiva",
+      "categoria_principale": "sport",
+      "descrizione_e_metodologia": "Tecnica su parete artificiale e bouldering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Workshop Di Danza Aerea",
+      "categoria_principale": "laboratoriale/artistico",
+      "descrizione_e_metodologia": "Acrobatica e figure in sospensione su tessuti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tennis",
+      "categoria_principale": "sport",
+      "descrizione_e_metodologia": "Tecnica e regolamento di gioco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "GET UP",
+      "categoria_principale": "sociale",
+      "descrizione_e_metodologia": "Progetto di utilità sociale per autonomia e cittadinanza",
+      "target": "Studenti"
+    }
+  ]
+}

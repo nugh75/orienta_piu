@@ -1,0 +1,530 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MI1M00100R",
+    "denominazione": "Scuola Secondaria Di 1° Gr. Istituto S. Girolamo Emiliani",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Corbetta",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.S.Sebastiano 8",
+    "cap": "20011",
+    "email": "info@istitutoparini.it",
+    "pec": "ND",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Priorità orientamento in uscita, sezione dedicata ai PCTO e all'educazione civica"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Musei",
+        "Istituti pubblici/privati",
+        "Terzo settore",
+        "Aziende del territorio",
+        "Enti locali",
+        "Ente Privato (EPV)",
+        "Camera di Commercio",
+        "Ufficio Scolastico Provinciale",
+        "Province",
+        "Fai",
+        "Legambiente",
+        "Comune di Venezia",
+        "Ca’ Foscari",
+        "CUS Padova",
+        "Umana Reyer",
+        "Athlon S Giuliano-Venezia",
+        "Venice Canoe",
+        "Onda Selvaggia",
+        "Mater Academy",
+        "Protezione Civile del Comune di Venezia",
+        "Croce Verde di Mestre",
+        "UBIK",
+        "Venezia Comix"
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 2
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progettazione e sviluppo servizi didattici",
+      "categoria_principale": "Progettazione",
+      "descrizione_e_metodologia": "Definizione di fasi progettuali e controllo qualità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Erogazione servizi all'utente",
+      "categoria_principale": "Erogazione",
+      "descrizione_e_metodologia": "Trattamento e riconsegna materiali, archiviazione documenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione e controllo servizi",
+      "categoria_principale": "Monitoraggio",
+      "descrizione_e_metodologia": "Conformità elaborati e risultati qualitativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Miglioralmente",
+      "categoria_principale": "Piano di Miglioramento",
+      "descrizione_e_metodologia": "Potenziamento didattica scientifica con metodologie innovative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aule multimediali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di iPad, proiettori e Apple TV per didattica interattiva",
+      "target": "Docenti/Studenti"
+    },
+    {
+      "titolo_attivita": "Griglie di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Rivedimento griglie disciplinari e comportamentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro / PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Convenzioni con enti e aziende per tirocini, lezioni in aula e esperienze dirette",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Implementazione unità didattiche competenze chiave",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetti interdisciplinari con griglie di valutazione specifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento didattica scientifica",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corsi su metodologie innovative e tecnologie digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Ristrutturazione ambiente di apprendimento",
+      "categoria_principale": "Strutturale",
+      "descrizione_e_metodologia": "Sala lettura pomeridiana e biblioteca migliorata",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio dati INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Sistema di raccolta e analisi dati standardizzati",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consulenze psicologiche",
+      "categoria_principale": "Rinforzo psicologico",
+      "descrizione_e_metodologia": "Supporto emotivo e relazionale agli studenti",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Rinforzo socio-relazionale",
+      "descrizione_e_metodologia": "Promozione di relazioni attraverso sport",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Tutoring",
+      "categoria_principale": "Rinforzo autoefficacia",
+      "descrizione_e_metodologia": "Supporto didattico tra pari",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Attività extracurricolari",
+      "descrizione_e_metodologia": "Esperienze fuori dall'aula",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Costruire il proprio futuro_Liceo Scientifico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Approfondimento tematiche scientifiche/umanistiche con esperienze in strutture ospitanti",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Costruire il proprio futuro_Liceo Linguistico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Integrazione curricolo linguistico con esperienze in strutture ospitanti",
+      "target": "Studenti Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Regolamento Didattica a Distanza",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Norme per partecipazione e comportamento in DDI",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetti interdisciplinari su Costituzione e sviluppo sostenibile",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Laboratori su sicurezza online e diritti digitali",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Convenzione con enti privati",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con enti privati per attività pratiche e formative",
+      "target": "Studenti di tutte le classi"
+    },
+    {
+      "titolo_attivita": "Valutazione competenze",
+      "categoria_principale": "Assessment",
+      "descrizione_e_metodologia": "Schede di valutazione per competenze tecniche e sociali",
+      "target": "Studenti in alternanza"
+    },
+    {
+      "titolo_attivita": "Cultura e Ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Progetti con Fai, Legambiente e Comune di Venezia",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Pedagogico",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con Comunità di Venezia e Ca’ Foscari",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Medicina-Salute",
+      "categoria_principale": "Sanità",
+      "descrizione_e_metodologia": "Tirocini in parafarmacie e fisioterapia",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con CUS Padova e Reyer",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Economia",
+      "categoria_principale": "Economia",
+      "descrizione_e_metodologia": "Progetti con studio commerciale e legale",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Turismo",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Collaborazione con hotel e musei",
+      "target": "Classi terze/quarte"
+    },
+    {
+      "titolo_attivita": "Studio Guidato",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Potenziamento autonomia e gestione del tempo",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Potenziamento Lingua Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione B1/B2",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Scrittura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Miglioramento espressione scritta",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Redazione Web",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Produzione contenuti per il sito scolastico",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso Interior Design",
+      "categoria_principale": "Formativa",
+      "descrizione_e_metodologia": "Progettazione spazi abitativi con laboratori e competenze tecniche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso Di Fumetto",
+      "categoria_principale": "Formativa",
+      "descrizione_e_metododi": "Narrativa per immagini e storyboard",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metododi": "Certificazione competenze digitali",
+      "target": "Tutti studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metododi": "Attività sportive individuali e di squadra",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Atletica Leggera",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metododi": "Collaborazione con società sportive",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Difesa Personale",
+      "categoria_principale": "Formativa",
+      "descrizione_e_metododi": "Sensibilizzazione alla violenza fisica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Conoscere Venezia Dall'Acqua",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metododi": "Esplorazione lagunare con Dragon Boat",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Reyer School Cup",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metododi": "Gestione tecnico-tattica basket",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Sport e Ambiente Naturale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metododi": "Attività fluviali e storiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metododi": "Potenziamento competenze straniere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Personalizzazione didattica per studenti con BES",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Piano Didattico Personalizzato (PDP)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Strategie compensative per DSA",
+      "target": "Studenti con DSA"
+    },
+    {
+      "titolo_attivita": "Corsi DISLESSIA AMICA",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Formazione per inclusione DSA",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Programmi Self Empowerment",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Potenziamento autonomia e relazioni",
+      "target": "Studenti con fragilità"
+    },
+    {
+      "titolo_attivita": "Doppio Diploma Italia-USA",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Percorso per ottenere diploma statunitense e italiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Cittadinanza digitale",
+      "descrizione_e_metodologia": "Sensibilizzazione all'uso responsabile delle tecnologie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione FAI",
+      "categoria_principale": "Patrimonio culturale",
+      "descrizione_e_metodologia": "Valorizzazione patrimonio artistico locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protezione Civile",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Formazione su gestione emergenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione Croce Verde",
+      "categoria_principale": "Protezione Civile",
+      "descrizione_e_metodologia": "Formazione primo soccorso e norme di salute",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Itinerari Veneziani",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Uscite didattiche su aspetti insoliti di Venezia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Book Club con UBIK",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Lettura condivisa e incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Venezia Comix",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Tecniche di fumetto e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open Water Diving",
+      "categoria_principale": "Subacquea",
+      "descrizione_e_metodologia": "Brevetto ESA e studio ambientale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Life Support con DAE",
+      "categoria_principale": "Primo Soccorso",
+      "descrizione_e_metodologia": "RCP e uso defibrillatore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività ludico-motoria per bambini",
+      "target": "Studenti Liceo Sportivo"
+    },
+    {
+      "titolo_attivita": "Soccorritore Acquatico",
+      "categoria_principale": "Salvataggio",
+      "descrizione_e_metodologia": "Brevetto bagnino di salvataggio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Arrampicata Sportiva",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Climbing su parete artificiale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Danza Aerea",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Acrobatica e figure in sospensione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di formazione DD 'La sicurezza nell’ambiente di lavoro'",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione su rischi e condizioni igienico-ambientali",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Formazione personale ATA 'Registro Elettronico'",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Aggiornamento procedure registro elettronico AXIOS",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione docenti su competenze digitali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo registro elettronico, LIM e software didattici",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione su didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Approcci innovativi e laboratori didattici",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione su PDP per DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Predisposizione piani didattici personalizzati",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# 1. Sintesi\nIl PTOF 2022-2025 dell'Istituto G. Parini di Venezia (Mestre) delinea l'offerta formativa di un Liceo Scientifico e Linguistico fortemente radicato nel territorio. Il documento evidenzia una strategia educativa che, pur non presentando una sezione dedicata esplicitamente all'orientamento, integra tali processi attraverso un'ampia rete di partnership (23 enti tra università, associazioni e aziende) e percorsi PCTO strutturati. L'attenzione è posta sullo sviluppo delle competenze trasversali, sulla cittadinanza attiva e sull'internazionalizzazione, con un focus particolare sulla continuità formativa e sul supporto alle transizioni degli studenti.\n\n# 2. Analisi Dimensionale\nL'analisi del documento rivela un approccio all'orientamento diffuso ma non centralizzato. La dimensione delle **Partnership** è particolarmente sviluppata, con collaborazioni che spaziano dal settore culturale (Musei, FAI) a quello sportivo (CUS Padova, Reyer) e accademico (Ca' Foscari). Le **Finalità** educative ottengono punteggi massimi per l'attenzione alle attitudini, agli interessi e al progetto di vita degli studenti. Gli **Obiettivi** mostrano una forte propensione verso la continuità territoriale e il lifelong learning, mentre risultano meno espliciti i riferimenti diretti alla riduzione dell'abbandono scolastico e al contrasto dei NEET. Le **Azioni di sistema** sono ben strutturate per quanto riguarda il coordinamento e il monitoraggio, ma il rapporto scuola-genitori appare meno formalizzato in termini di azioni specifiche. La **Didattica** privilegia l'esperienza diretta e la flessibilità, con un uso mirato della didattica laboratoriale in contesti specifici (es. aule multimediali, progetti scientifici). Le attività **Opzionali** sono ricche in ambito culturale e sportivo.\n\n# 3. Punti di Forza\nIl principale punto di forza dell'Istituto risiede nella vastità e qualità delle collaborazioni esterne, che permettono di offrire agli studenti esperienze formative diversificate e concrete. I percorsi PCTO, differenziati per indirizzo (Scientifico e Linguistico), rappresentano un solido ponte verso il mondo del lavoro e l'università. L'offerta extracurricolare è ampia e spazia dal Doppio Diploma Italia-USA alle certificazioni linguistiche e informatiche (ICDL), fino a progetti sportivi e di cittadinanza attiva (Protezione Civile, Croce Verde). L'attenzione all'inclusione è supportata da formazione specifica per i docenti e strumenti come PEI e PDP.\n\n# 4. Debolezze\nLa criticità maggiore è l'assenza di una sezione strutturata e identificabile dedicata all'orientamento, che rende la strategia meno visibile nonostante la ricchezza delle attività. Si rileva inoltre una carenza di obiettivi espliciti e misurabili per la prevenzione della dispersione scolastica e il contrasto al fenomeno dei NEET, tematiche affrontate in modo indiretto tramite il supporto psicologico e il tutoring ma non elevate a obiettivi strategici primari. Anche l'offerta di attività puramente ricreative risulta limitata rispetto a quelle formative e culturali.\n\n# 5. Gap Analysis\nEmerge un divario tra l'operatività eccellente dell'Istituto e la formalizzazione documentale della strategia di orientamento. Mentre le attività pratiche (PCTO, uscite, incontri con esperti) sono numerose e ben organizzate, manca una cornice teorica unitaria che le raggruppi sotto un esplicito \"curricolo di orientamento\". Inoltre, sebbene vi siano azioni di supporto per le fragilità, la mancanza di target specifici per la riduzione dell'abbandono suggerisce la necessità di sistematizzare meglio le politiche di prevenzione del disagio.\n\n# 6. Conclusioni\nL'Istituto G. Parini si conferma una realtà educativa dinamica, capace di offrire agli studenti molteplici opportunità di crescita attraverso un forte legame con il territorio veneziano. Per potenziare ulteriormente l'efficacia del PTOF, si suggerisce di aggregare le numerose iniziative in una sezione dedicata all'orientamento, rendendo esplicita la strategia sottostante. Sarebbe inoltre opportuno definire obiettivi più puntuali per il contrasto alla dispersione scolastica, valorizzando le azioni di inclusione già in essere."
+}

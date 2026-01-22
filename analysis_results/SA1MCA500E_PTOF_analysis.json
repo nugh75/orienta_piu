@@ -1,0 +1,237 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SA1MCA500E",
+    "denominazione": "Ferrari",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Salerno",
+    "anno_ptof": "2016-2019",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Settimio Mobilio 17",
+    "cap": "84127",
+    "email": "info@istitutoferrari.com",
+    "pec": "arcam-srl@pec.it",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Sezione specifica assente; la sezione 2.7 precedentemente citata si riferisce alle attività internazionali, non alla governance dell'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Università Ca’ Foscari",
+        "Centro GLOBES",
+        "Museo di Storia Naturale di Verona",
+        "FAI (Fondo Ambiente Italiano)",
+        "Museo Archeologico Nazionale di Venezia",
+        "Biblioteca Nazionale Marciana",
+        "Protezione Civile Comune di Venezia",
+        "Croce Verde Mestre",
+        "IMG Cinema",
+        "Biennale Educational",
+        "Centro Donna Comune di Venezia",
+        "Istituto Dante Alighieri"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti curricolari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività integrate nel curricolo con approccio interdisciplinare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "ASL",
+      "descrizione_e_metodologia": "Inserimento in aziende con tutor scolastico e aziendale, percorsi di 200 ore",
+      "target": "Studenti secondario grado"
+    },
+    {
+      "titolo_attivita": "Attività internazionali e Stage linguistici",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Stage in Francia, Germania, Spagna, UK e certificazioni linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceo Scientifico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Quadro orario settimanale con 27-30 ore, focus su matematica, fisica, scienze naturali",
+      "target": "Studenti Liceo Scientifico"
+    },
+    {
+      "titolo_attivita": "Liceo Linguistico",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Quadro orario settimanale con 27-30 ore, focus su lingue straniere",
+      "target": "Studenti Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Commissione per organizzazione e gestione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Programmi di Recupero/Rinforzo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività per studenti con deficit formativi",
+      "target": "Studenti con BES/DSA"
+    },
+    {
+      "titolo_attivita": "Programma di rinforzo psicologico",
+      "categoria_principale": "Inclusività",
+      "descrizione_e_metodologia": "Consulenze psicologiche e attività per lo sviluppo dell'intelligenza emotiva",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Tutoring on line",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Supporto didattico personalizzato tramite piattaforme digitali",
+      "target": "Allievi con BES"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza europea",
+      "categoria_principale": "Progetti curricolari",
+      "descrizione_e_metodologia": "Progetto interdisciplinare su temi europei, griglia valutativa competenze",
+      "target": "Studenti di tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Adotta un fossile",
+      "categoria_principale": "Collaborazioni",
+      "descrizione_e_metodologia": "Progetto con Museo di Storia Naturale",
+      "target": "Studenti liceo scientifico"
+    },
+    {
+      "titolo_attivita": "Parini (PM) - Book club",
+      "categoria_principale": "Ampliamento offerta",
+      "descrizione_e_metodologia": "Letture con esperti in collaborazione con libreria",
+      "target": "Studenti volontari"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Ampliamento offerta",
+      "descrizione_e_metodologia": "Recitazione in lingua francese",
+      "target": "Studenti liceo linguistico"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad",
+      "categoria_principale": "Ampliamento offerta",
+      "descrizione_e_metodologia": "Progettazione architettonica con esperti",
+      "target": "Studenti interessati a design"
+    },
+    {
+      "titolo_attivita": "Progetto Rugby Educativo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in lingua inglese con tecnici federali",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Soccorritore Acquatico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Brevetto riconosciuto UE con esami teorico-pratici",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Potenziamento formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione su PDP e competenze digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sala studio/lettura",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Spazio aperto per studenti e docenti",
+      "target": "Comunità scolastica"
+    }
+  ],
+  "narrative": "# 1. Sintesi\nIl Piano Triennale dell'Offerta Formativa (2016-2019) dell'Istituto Scolastico Paritario \"Giuseppe Parini\" di Mestre presenta un quadro educativo focalizzato su tre indirizzi liceali: Scientifico, Linguistico e Scientifico ad indirizzo Sportivo. Il documento evidenzia una forte integrazione col territorio e un'attenzione particolare alle competenze trasversali, sebbene emergano aree di miglioramento nella formalizzazione strutturale di alcuni processi orientativi.\n\n# 2. Analisi Dimensionale\nL'analisi del documento rivela una struttura variegata.\n**Orientamento e Partnership:** Non è stata rilevata una sezione esplicitamente dedicata alla governance dell'orientamento (score 1), correggendo una precedente attribuzione errata legata alle attività internazionali. Tuttavia, l'istituto dimostra una buona capacità di rete, con 12 partnership attive che coinvolgono enti accademici come l'Università Ca’ Foscari e istituzioni culturali come il Museo di Storia Naturale e la Biennale Educational.\n**Finalità e Obiettivi:** Le finalità educative si attestano su un livello medio (score 3), con un picco positivo sulle transizioni formative (score 4) e sul lifelong learning (score 4).\n**Didattica:** Si registra un buon posizionamento nella didattica orientativa. In particolare, la didattica laboratoriale ottiene una valutazione positiva (score 4), supportata da progetti specifici e attività pratiche, affiancata da un solido approccio interdisciplinare ed esperienziale.\n**Attività Opzionali:** L'offerta opzionale risulta particolarmente ricca nell'ambito sportivo (score 5) e laboratoriale-espressivo (score 4), costituendo un asse portante dell'identità scolastica.\n\n# 3. Punti di Forza\nIl principale punto di forza risiede nell'**offerta formativa opzionale e sportiva**, che integra brevetti (es. Soccorritore Acquatico) e collaborazioni tecniche di alto profilo.\nL'**internazionalizzazione** è un altro pilastro, con stage linguistici e certificazioni ben integrate nel curricolo.\nLa **didattica laboratoriale** emerge come elemento qualificante, superando la lezione frontale tradizionale attraverso progetti concreti come \"Adotta un fossile\" e laboratori teatrali.\n\n# 4. Debolezze\nLa criticità maggiore è l'**assenza di una sezione dedicata all'Orientamento** nel PTOF. Sebbene vi siano attività orientative diffuse (stage, alternanza), manca un capitolo che ne definisca la strategia complessiva, gli obiettivi specifici e il monitoraggio in modo organico.\nInoltre, alcune azioni di sistema (coordinamento servizi, dialogo docenti-studenti) sono descritte in modo generico (score 3), senza evidenze di protocolli innovativi.\n\n# 5. Gap Analysis\nRispetto agli standard attesi, il divario principale riguarda la **strutturazione formale dell'orientamento**. È necessario aggregare le diverse iniziative in un quadro sistemico visibile nell'indice del documento.\nSi suggerisce inoltre di dettagliare maggiormente le ricadute didattiche delle partnership, passando da un elenco di enti a una descrizione operativa dei progetti congiunti per tutti i partner citati.\n\n# 6. Conclusioni\nL'Istituto \"Parini\" offre un percorso formativo solido e ricco di opportunità extracurricolari, specialmente in ambito sportivo e linguistico. Per elevare la qualità del PTOF, è raccomandabile esplicitare la governance dell'orientamento in una sezione dedicata e mantenere un tono oggettivo nella descrizione delle attività opzionali, valorizzando i dati di partecipazione e i risultati attesi."
+}

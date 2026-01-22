@@ -1,161 +1,153 @@
 {
   "default_page": "Home.py",
   "sections": [
-    {"id": "home", "label": ""},
-    {"id": "esplora", "label": "📊 Esplora Scuole"},
-    {"id": "analisi", "label": "📈 Analisi e Benchmark"},
-    {"id": "pratiche", "label": "🌟 Attività"},
-    {"id": "contribuisci", "label": "📤 Contribuisci"},
-    {"id": "info", "label": "ℹ️ Info"},
-    {"id": "admin", "label": "🛠️ Amministrazione"}
+    {
+      "id": "progetto",
+      "label": "📘 PROGETTO"
+    },
+    {
+      "id": "analisi",
+      "label": "📊 ANALISI"
+    },
+    {
+      "id": "esplorazione",
+      "label": "🌟 ESPLORAZIONE"
+    },
+    {
+      "id": "servizi",
+      "label": "🎓 SERVIZI"
+    },
+    {
+      "id": "admin",
+      "label": "🛠️ ADMIN"
+    }
   ],
   "pages": {
     "Home.py": {
-      "label": "🏠 Home",
+      "label": "Progetto",
       "visible": true,
-      "locked": false,
       "order": 0,
-      "section": "home"
+      "section": "progetto"
     },
-    "pages/02_🏫_Dettaglio_Scuola.py": {
-      "label": "📋 Dettaglio Scuola",
+    "pages/01_Campionamento.py": {
+      "label": "Campionamento",
       "visible": true,
-      "locked": false,
+      "order": 1,
+      "section": "progetto"
+    },
+    "pages/02_Documentazione.py": {
+      "label": "Documentazione",
+      "visible": true,
       "order": 2,
-      "section": "esplora"
+      "section": "progetto"
     },
-    "pages/03_🔀_Confronto_PTOF.py": {
-      "label": "🔀 Confronto PTOF",
+    "pages/03_Sintesi.py": {
+      "label": "Sintesi",
       "visible": true,
-      "locked": false,
       "order": 3,
-      "section": "esplora"
+      "section": "analisi"
     },
-    "pages/04_🗺️_Analisi_Territoriale.py": {
-      "label": "🗺️ Analisi Territoriale",
+    "pages/04_Territorio.py": {
+      "label": "Territorio",
       "visible": true,
-      "locked": false,
       "order": 4,
-      "section": "esplora"
+      "section": "analisi"
     },
-    "pages/11_🎓_Scegli_la_Tua_Scuola.py": {
-      "label": "🎯 Orientamento Scuola",
+    "pages/05_Dimensioni.py": {
+      "label": "Dimensioni",
       "visible": true,
-      "locked": false,
       "order": 5,
-      "section": "esplora"
-    },
-    "pages/05_🏆_Ranking_Benchmark.py": {
-      "label": "🏆 Ranking Benchmark",
-      "visible": true,
-      "locked": false,
-      "order": 10,
       "section": "analisi"
     },
-    "pages/06_📈_Analytics_Avanzati.py": {
-      "label": "📈 Analytics Avanzati",
+    "pages/06_Analytics.py": {
+      "label": "Analytics",
       "visible": true,
-      "locked": false,
-      "order": 11,
+      "order": 6,
       "section": "analisi"
     },
-    "pages/07_🔍_Ricerca_Metodologie.py": {
-      "label": "🔍 Ricerca Metodologie",
+    "pages/07_Scuola.py": {
+      "label": "Scuola",
       "visible": true,
-      "locked": false,
-      "order": 12,
-      "section": "analisi"
+      "order": 7,
+      "section": "esplorazione"
     },
-    "pages/08_📊_Impatto_Metodologie.py": {
-      "label": "📊 Impatto Metodologie",
+    "pages/08_Confronto.py": {
+      "label": "Confronto",
       "visible": true,
-      "locked": false,
-      "order": 13,
-      "section": "analisi"
+      "order": 8,
+      "section": "esplorazione"
     },
-    "pages/19_🌟_Attivita.py": {
-      "label": "🌟 Attività",
+    "pages/09_Attivita.py": {
+      "label": "Attività",
       "visible": true,
-      "locked": false,
-      "order": 21,
-      "section": "pratiche"
+      "order": 9,
+      "section": "esplorazione"
     },
-    "pages/20_📄_Meta_Report.py": {
-      "label": "📄 Meta Report",
+    "pages/14_Invio.py": {
+      "label": "Invio",
       "visible": true,
-      "locked": false,
-      "order": 22,
-      "section": "pratiche"
-    },
-    "pages/14_📤_Invia_PTOF.py": {
-      "label": "📤 Invia PTOF",
-      "visible": true,
-      "locked": false,
-      "order": 30,
-      "section": "contribuisci"
-    },
-    "pages/15_🔎_Verifica_Invio.py": {
-      "label": "🔎 Verifica Invio",
-      "visible": true,
-      "locked": false,
-      "order": 31,
-      "section": "contribuisci"
-    },
-    "pages/17_📝_Richiedi_Revisione.py": {
-      "label": "📝 Richiedi Revisione",
-      "visible": true,
-      "locked": false,
-      "order": 32,
-      "section": "contribuisci"
-    },
-    "pages/12_ℹ️_Documentazione.py": {
-      "label": "ℹ️ Documentazione",
-      "visible": true,
-      "locked": false,
-      "order": 40,
-      "section": "info"
-    },
-    "pages/10_🗂️_Gestione_Dati.py": {
-      "label": "🗂️ Gestione Dati",
-      "visible": false,
-      "locked": true,
-      "order": 100,
-      "section": "admin"
-    },
-    "pages/13_🛠️_Amministrazione.py": {
-      "label": "🛠️ Amministrazione",
-      "visible": false,
-      "locked": true,
-      "order": 101,
-      "section": "admin"
-    },
-    "pages/16_📥_Gestione_Invii.py": {
-      "label": "📥 Gestione Invii",
-      "visible": false,
-      "locked": true,
-      "order": 102,
-      "section": "admin"
-    },
-    "pages/18_📋_Gestione_Revisioni.py": {
-      "label": "📋 Gestione Revisioni",
-      "visible": false,
-      "locked": true,
-      "order": 103,
-      "section": "admin"
-    },
-    "pages/21_⚖️_Gestione_Pesi.py": {
-      "label": "⚖️ Gestione Pesi",
-      "visible": false,
-      "locked": true,
-      "order": 104,
-      "section": "admin"
-    },
-    "pages/09_📊_Analisi_Dimensioni.py": {
-      "label": "📊 Analisi Dimensioni",
-      "visible": true,
-      "locked": false,
       "order": 14,
-      "section": "analisi"
+      "section": "servizi"
+    },
+    "pages/15_Verifica.py": {
+      "label": "Verifica",
+      "visible": true,
+      "order": 15,
+      "section": "servizi"
+    },
+    "pages/16_Revisione.py": {
+      "label": "Revisione",
+      "visible": true,
+      "order": 16,
+      "section": "servizi"
+    },
+    "pages/17_Amministrazione.py": {
+      "label": "Amministrazione",
+      "visible": false,
+      "order": 17,
+      "section": "admin"
+    },
+    "pages/18_Dati.py": {
+      "label": "Dati",
+      "visible": false,
+      "order": 18,
+      "section": "admin"
+    },
+    "pages/19_Invii.py": {
+      "label": "Invii",
+      "visible": false,
+      "order": 19,
+      "section": "admin"
+    },
+    "pages/20_Revisioni.py": {
+      "label": "Revisioni",
+      "visible": false,
+      "order": 20,
+      "section": "admin"
+    },
+    "pages/21_Pesi.py": {
+      "label": "Pesi",
+      "visible": false,
+      "order": 21,
+      "section": "admin"
+    },
+    "pages/10_Report.py": {
+      "label": "Report",
+      "visible": true,
+      "order": 10,
+      "section": "esplorazione"
+    },
+    "pages/11_Metodologie.py": {
+      "label": "Metodologie e Progetti",
+      "visible": true,
+      "order": 11,
+      "section": "esplorazione"
+    },
+    "pages/12_Impatto.py": {
+      "label": "Impatto Metodologie e Progetti",
+      "visible": true,
+      "order": 12,
+      "section": "esplorazione"
     }
   }
 }

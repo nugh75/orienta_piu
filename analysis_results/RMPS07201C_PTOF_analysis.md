@@ -1,1 +1,17 @@
-Report narrativo non disponibile. Rigenera l'analisi.
+# 1. Sintesi
+Il PTOF 2022-2025 dell'Istituto Leonardo da Vinci di Fiumicino delinea un'offerta formativa complessa, articolata tra l'istruzione tecnica agraria e i percorsi liceali. Il documento evidenzia una forte apertura al territorio e una pluralità di iniziative progettuali volte all'arricchimento del curriculum. Sebbene non sia presente una sezione strutturata in modo esclusivo per l'orientamento, le attività orientative permeano l'offerta attraverso i PCTO, le curvature disciplinari e i progetti di ampliamento dell'offerta formativa.
+
+# 2. Analisi Dimensionale
+L'analisi del documento rivela una rete di partnership particolarmente estesa, con circa 20 enti collaboratori tra università, aziende multinazionali (come Microsoft e IBM) e associazioni del terzo settore. Le finalità educative sono ben delineate, con un'attenzione specifica allo sviluppo delle attitudini personali e al contrasto del fenomeno dei NEET. Sul fronte della didattica, si rileva la presenza di spazi laboratoriali e dotazioni digitali, sebbene la descrizione metodologica delle attività non espliciti sempre il collegamento diretto con le finalità orientative. Un aspetto rilevante, emerso dall'analisi delle azioni di sistema, riguarda l'inclusione scolastica: l'Istituto attua protocolli definiti per studenti con BES e DSA, avvalendosi di strumenti quali PEI e PDP, e offre servizi di supporto come sportelli didattici per il recupero e uno sportello psicologico rivolto all'intera comunità educante.
+
+# 3. Punti di Forza
+Il principale punto di forza risiede nella vastità e qualità delle collaborazioni esterne, che permettono di offrire agli studenti esperienze formative diversificate, dalle certificazioni linguistiche (Cambridge) ai percorsi STEM e umanistici. L'attenzione all'inclusione e al benessere scolastico, supportata da azioni concrete di monitoraggio e supporto psicologico, costituisce un altro pilastro fondamentale dell'offerta. Inoltre, la varietà di curvature (biomedica, teatrale, robotica) consente una personalizzazione del percorso di studi.
+
+# 4. Debolezze
+La criticità maggiore è rappresentata dall'assenza di una sezione organica dedicata all'orientamento nel PTOF, che rende la strategia dell'Istituto meno leggibile in termini unitari. Inoltre, nonostante la disponibilità di laboratori, l'integrazione metodologica tra didattica laboratoriale e orientamento non è sufficientemente dettagliata nel documento. Si nota anche un margine di miglioramento nel coinvolgimento strutturato delle famiglie nelle azioni di sistema.
+
+# 5. Gap Analysis
+Esiste un divario tra la ricchezza delle singole attività proposte e la mancanza di una cornice formale che le racchiuda in un "sistema orientamento" esplicito. Mentre le azioni operative sono numerose e di valore, la loro presentazione nel documento appare frammentata, non permettendo di cogliere appieno la visione strategica unitaria dell'orientamento in uscita e in entrata.
+
+# 6. Conclusioni
+L'Istituto Leonardo da Vinci dimostra di possedere le risorse, le competenze e le relazioni territoriali necessarie per erogare un servizio di orientamento di qualità. Tuttavia, per massimizzare l'efficacia di tali risorse, è consigliabile strutturare nel prossimo aggiornamento del PTOF una sezione dedicata che sistematizzi le numerose iniziative in un percorso organico, valorizzando ulteriormente le metodologie laboratoriali e le azioni inclusive già in atto.

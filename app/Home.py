@@ -1,749 +1,303 @@
-# 🏠 Home - Dashboard Riepilogativa
+# 📘 Il Progetto - Introduzione alla Piattaforma
 
 import streamlit as st
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-import os
-from data_utils import (
-    GESTIONE_SCUOLA,
-    normalize_statale_paritaria,
-    render_footer,
-    scale_to_pct,
-    format_pct,
-    load_summary_data,
-    DIMENSIONS,
-    get_label,
-    get_index_column,
-    get_index_series
-)
+from data_utils import render_footer
 from page_control import setup_page, switch_page
 
-st.set_page_config(page_title="ORIENTA+ | Home", page_icon="🧭", layout="wide")
-settings = setup_page("Home.py")
-default_page = settings.get("default_page", "Home.py")
-if default_page != "Home.py" and not st.session_state.get("default_redirect_done"):
-    target_cfg = settings.get("pages", {}).get(default_page, {})
-    if target_cfg.get("visible", True):
-        st.session_state["default_redirect_done"] = True
-        switch_page(default_page)
-
-# CSS
-st.markdown("""
-<style>
-    div[data-testid="stMetric"] {
-        background-color: #f0f2f6;
-        padding: 15px;
-        border-radius: 10px;
-        border-left: 5px solid #4e73df;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .big-metric {
-        font-size: 2.5rem !important;
-        font-weight: bold;
-        color: #2c3e50;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-
-
-df = load_summary_data()
-
-# === SIDEBAR: LA MIA SCUOLA ===
-with st.sidebar:
-    st.markdown("### 🏠 La Mia Scuola")
-
-    if 'my_school_name' in st.session_state and st.session_state['my_school_name']:
-        my_school_name = st.session_state['my_school_name']
-        st.success(f"**{my_school_name[:30]}**")
-
-        # Mostra mini-info se i dati sono disponibili
-        if not df.empty and 'school_id' in st.session_state:
-            my_school_id = st.session_state.get('my_school_id')
-            my_school_data = df[df['school_id'] == my_school_id]
-            if not my_school_data.empty:
-                my_school = my_school_data.iloc[0]
-                idx_col = get_index_column(df)
-                ro = my_school.get(idx_col, 0)
-                if pd.notna(ro):
-                    st.metric("Indice Completezza", f"{ro:.1f}/7")
-
-        if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
-            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
-
-        if st.button("🔄 Cambia scuola", use_container_width=True):
-            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
-    else:
-        st.info("Nessuna scuola selezionata")
-        if st.button("➕ Seleziona la tua scuola", use_container_width=True):
-            switch_page("pages/02_🏫_Dettaglio_Scuola.py")
-
-    st.markdown("---")
-
-st.title("🧭 ORIENTA+")
-st.markdown("**Piattaforma di Analisi della Robustezza dell'Orientamento nei PTOF**")
-
-# === PREFAZIONE ===
-with st.expander("📖 **Perché ORIENTA+** — Clicca per scoprire cosa puoi fare", expanded=False):
-    st.markdown("""
-### Perché ORIENTA+
-
-Questa piattaforma nasce per rispondere a una domanda concreta: **come può una scuola migliorare il proprio approccio all'orientamento?**
-
-La risposta non sta solo nei numeri o negli indici, ma nella possibilità di guardarsi intorno, confrontarsi e imparare da chi affronta sfide simili.
-
----
-
-### Cosa puoi fare con questo strumento
-
-#### Scoprire chi ti è vicino
-
-Ogni scuola opera in un contesto territoriale specifico, con risorse, vincoli e opportunità proprie. Questa dashboard ti permette di individuare scuole geograficamente vicine o con caratteristiche simili alla tua — per tipologia, dimensione, contesto socioeconomico.
-
-Non si tratta solo di curiosità: conoscere le scuole affini significa poter avviare collaborazioni, costruire reti territoriali, condividere progetti. L'orientamento efficace spesso nasce dalla collaborazione tra istituti che condividono lo stesso bacino di studenti o le stesse sfide.
-
-#### Confrontare le metodologie
-
-Cosa fanno le altre scuole per l'orientamento? Quali progetti attivano? Come integrano la didattica orientativa nel curricolo?
-
-Questa dashboard ti consente di esplorare le pratiche documentate nei PTOF di centinaia di scuole italiane. Puoi vedere quali approcci adottano le scuole con i punteggi più alti, quali metodologie risultano più diffuse nella tua regione, quali innovazioni stanno emergendo.
-
-L'obiettivo non è copiare, ma lasciarsi ispirare. Ogni scuola ha la propria identità, ma le buone idee meritano di circolare.
-
-#### Valutare la completezza del tuo PTOF
-
-Il Piano Triennale dell'Offerta Formativa dovrebbe rappresentare in modo completo la visione della scuola sull'orientamento. Ma è davvero così?
-
-L'Indice di Robustezza dell'Orientamento (RO) e le cinque dimensioni analizzate — Finalità, Obiettivi, Governance, Didattica Orientativa, Opportunità — ti permettono di capire se il tuo PTOF copre tutti gli aspetti fondamentali o se ci sono aree da sviluppare.
-
-Non si tratta di un giudizio, ma di una mappa: sapere dove sei ti aiuta a decidere dove andare.
-""")
-
-st.subheader("⚡ Azioni rapide")
-action_cols = st.columns(3)
-with action_cols[0]:
-    if st.button("🏫 Dettaglio Scuola", use_container_width=True):
-        switch_page("pages/02_🏫_Dettaglio_Scuola.py")
-with action_cols[1]:
-    if st.button("🗺️ Analisi Territoriale", use_container_width=True):
-        switch_page("pages/04_🗺️_Analisi_Territoriale.py")
-with action_cols[2]:
-    if st.button("🌟 Attività", use_container_width=True):
-        switch_page("pages/19_🌟_Attivita.py")
-
-with st.container():
-    st.subheader("🎓 Sei un genitore o uno studente?")
-    st.write(
-        "Stai scegliendo la scuola superiore? Usa il nostro strumento guidato per "
-        "confrontare le scuole della tua zona e trovare quella più adatta a te."
-    )
-    if st.button("🔍 Trova la scuola giusta per te", use_container_width=True):
-        switch_page("pages/11_🎓_Scegli_la_Tua_Scuola.py")
-
-if df.empty:
-    st.warning("Nessun dato disponibile. Esegui prima il pipeline di analisi.")
-    st.stop()
-
-# Converti colonne numeriche
-idx_col = get_index_column(df)
-numeric_cols = [idx_col] + list(DIMENSIONS.keys())
-for col in numeric_cols:
-    if col in df.columns:
-        df[col] = pd.to_numeric(df[col], errors='coerce')
-
-# === KPI PRINCIPALI ===
-st.subheader("📊 KPI Principali")
-
-ro_series = get_index_series(df).dropna()
-n_scuole = len(df)
-mean_ro = ro_series.mean() if not ro_series.empty else float("nan")
-median_ro = ro_series.median() if not ro_series.empty else None
-p25 = ro_series.quantile(0.25) if not ro_series.empty else None
-p75 = ro_series.quantile(0.75) if not ro_series.empty else None
-pct_ge_4 = (ro_series >= 4.0).mean() * 100 if not ro_series.empty else None  # >= 4/7 (sufficienza)
-pct_lt_3 = (ro_series < 3.0).mean() * 100 if not ro_series.empty else None   # < 3/7 (insufficiente)
-excellent = int((ro_series >= 5.0).sum()) if not ro_series.empty else 0       # >= 5/7 (eccellente)
-pct_excellent = (excellent / n_scuole * 100) if n_scuole > 0 else 0
-
-row1 = st.columns(4)
-with row1[0]:
-    st.metric("🏫 Scuole Analizzate", f"{n_scuole:,}")
-with row1[1]:
-    if pd.notna(mean_ro):
-        st.metric("📈 Compl. Media", f"{mean_ro:.1f}/7")
-    else:
-        st.metric("📈 Compl. Media", "N/D")
-with row1[2]:
-    if median_ro is not None:
-        st.metric("📌 Mediana", f"{median_ro:.1f}/7")
-    else:
-        st.metric("📌 Mediana", "N/D")
-with row1[3]:
-    if pct_ge_4 is not None:
-        st.metric("✅ Completi (>= 4/7)", f"{pct_ge_4:.1f}%")
-    else:
-        st.metric("✅ Completi (>= 4/7)", "N/D")
-
-row2 = st.columns(4)
-with row2[0]:
-    st.metric("🏆 Eccellenti (>= 5/7)", f"{excellent} ({pct_excellent:.1f}%)")
-with row2[1]:
-    if 'has_sezione_dedicata' in df.columns:
-        sezione_vals = pd.to_numeric(df['has_sezione_dedicata'], errors='coerce').fillna(0)
-        pct_sezione = (sezione_vals == 1).mean() * 100 if len(sezione_vals) > 0 else 0
-        st.metric("🧭 Sez. Dedicata", f"{pct_sezione:.1f}%")
-    else:
-        st.metric("🧭 Sez. Dedicata", "N/D")
-with row2[2]:
-    n_regioni = df['regione'].nunique() if 'regione' in df.columns else 0
-    st.metric("🗺️ Regioni Coperte", n_regioni)
-with row2[3]:
-    n_tipi = df['tipo_scuola'].nunique() if 'tipo_scuola' in df.columns else 0
-    st.metric("📚 Tipologie Scuola", n_tipi)
-
-st.markdown("#### 📌 Distribuzione Completezza")
-dist_cols = st.columns(2)
-with dist_cols[0]:
-    if p25 is not None and p75 is not None:
-        st.metric("P25-P75", f"{p25:.1f}/7 - {p75:.1f}/7")
-    else:
-        st.metric("P25-P75", "N/D")
-with dist_cols[1]:
-    if pct_lt_3 is not None:
-        st.metric("Compl. < 3/7", f"{pct_lt_3:.1f}%")
-    else:
-        st.metric("Compl. < 3/7", "N/D")
-
-with st.expander("Esempi distribuzione (P25-P75)"):
-    if ro_series.empty or p25 is None or p75 is None:
-        st.info("Distribuzione non disponibile.")
-    else:
-        bands = pd.cut(
-            ro_series,
-            bins=[-float("inf"), p25, p75, float("inf")],
-            labels=[
-                f"<= P25 ({p25:.1f}/7)",
-                f"P25-P75 ({p25:.1f}/7-{p75:.1f}/7)",
-                f">= P75 ({p75:.1f}/7)"
-            ],
-            include_lowest=True
-        )
-        band_counts = bands.value_counts().reset_index()
-        band_counts.columns = ['Fascia Complezza', 'N. Scuole']
-        band_counts['%'] = (band_counts['N. Scuole'] / len(ro_series) * 100).round(1).astype(str) + "%"
-        st.dataframe(band_counts, use_container_width=True, hide_index=True)
-
-        top_quartile = df[df[idx_col] >= p75][
-            ['denominazione', 'regione', idx_col]
-        ].copy()
-        top_quartile = top_quartile.dropna(subset=[idx_col])
-        top_quartile = top_quartile.sort_values(idx_col, ascending=False)
-        top_quartile = top_quartile.head(20)
-        top_quartile['Completezza'] = top_quartile[idx_col].apply(lambda x: f"{x:.1f}/7")
-        top_quartile = top_quartile[['denominazione', 'regione', 'Completezza']]
-        top_quartile.columns = ['Scuola', 'Regione', 'Completezza']
-
-        if not top_quartile.empty:
-            st.caption(f"Toplist scuole in fascia >= P75 ({p75:.1f}/7) - prime 20")
-            st.dataframe(top_quartile, use_container_width=True, hide_index=True)
-        else:
-            st.info("Nessuna scuola disponibile nella fascia P75.")
-
-
-
-st.markdown("#### 📌 Copertura e reti")
-extra_cols = st.columns(4)
-
-def _nunique_nonempty(series):
-    if series is None:
-        return 0
-    values = series.dropna().astype(str).str.strip()
-    values = values[values != ""]
-    return values.nunique()
-
-with extra_cols[0]:
-    province_count = _nunique_nonempty(df['provincia']) if 'provincia' in df.columns else 0
-    st.metric("Province coperte", province_count)
-
-with extra_cols[1]:
-    comuni_count = _nunique_nonempty(df['comune']) if 'comune' in df.columns else 0
-    st.metric("Comuni coperti", comuni_count)
-
-with extra_cols[2]:
-    if 'partnership_count' in df.columns:
-        partner_vals = pd.to_numeric(df['partnership_count'], errors='coerce').fillna(0)
-        partner_count = int((partner_vals > 0).sum())
-        pct_partner = (partner_vals > 0).mean() * 100 if len(partner_vals) > 0 else 0
-        st.metric("Scuole con partnership", f"{partner_count} ({pct_partner:.1f}%)")
-    else:
-        st.metric("Scuole con partnership", "N/D")
-
-with extra_cols[3]:
-    if 'partnership_count' in df.columns:
-        partner_vals = pd.to_numeric(df['partnership_count'], errors='coerce').fillna(0)
-        st.metric("Partnership medie", f"{partner_vals.mean():.2f}")
-    else:
-        st.metric("Partnership medie", "N/D")
-
-# === GRAFICI PRINCIPALI ===
-col1, col2 = st.columns(2)
-
-with col1:
-    st.subheader("📊 Distribuzione Indice Completezza")
-
-    fig_hist = px.histogram(
-        df, x=idx_col,
-        nbins=14,  # 14 bin per scala 1-7 (0.5 per bin)
-        color_discrete_sequence=['#4e73df'],
-        labels={idx_col: 'Completezza (1-7)'}
-    )
-    fig_hist.update_layout(
-        showlegend=False,
-        xaxis_title="Indice Completezza (1-7)",
-        yaxis_title="N. Scuole",
-        height=350,
-        xaxis_range=[1, 7]
-    )
-    if pd.notna(mean_ro):
-        fig_hist.add_vline(x=mean_ro, line_dash="dash", line_color="red",
-                           annotation_text=f"Media: {mean_ro:.1f}/7")
-    st.plotly_chart(fig_hist, use_container_width=True)
-
-with col2:
-    st.subheader("🕸️ Profilo Medio Nazionale")
-
-    if all(c in df.columns for c in DIMENSIONS.keys()):
-        dim_means = [df[c].mean() for c in DIMENSIONS.keys()]
-        dim_labels = list(DIMENSIONS.values())
-
-        fig_radar = go.Figure()
-        fig_radar.add_trace(go.Scatterpolar(
-            r=dim_means + [dim_means[0]],
-            theta=dim_labels + [dim_labels[0]],
-            fill='toself',
-            name='Media Nazionale',
-            line_color='#4e73df',
-            fillcolor='rgba(78, 115, 223, 0.3)'
-        ))
-        fig_radar.update_layout(
-            polar=dict(radialaxis=dict(visible=True, range=[1, 7])),
-            showlegend=False,
-            height=350
-        )
-        st.plotly_chart(fig_radar, use_container_width=True)
-
-st.subheader("🎯 Gap Analysis")
-gap_cols = st.columns(len(DIMENSIONS))
-for idx, (col_key, col_name) in enumerate(DIMENSIONS.items()):
-    with gap_cols[idx]:
-        if col_key in df.columns:
-            val = df[col_key].mean()
-            gap = 7.0 - val  # Gap dal massimo (7)
-            st.metric(col_name, f"{val:.1f}/7", f"Gap: {gap:.1f}")
-        else:
-            st.metric(col_name, "N/D")
-
-st.subheader("📊 Media per Tipologia")
-
-if 'tipo_scuola' in df.columns:
-    try:
-        from data_utils import (
-            load_summary_data,
-            DIMENSIONS,
-            get_label,
-            split_multi_value,
-            scale_to_pct,
-            format_pct,
-            TIPI_SCUOLA,
-            explode_school_types
-        )
-        df_tipo = explode_school_types(df)
-        df_tipo = df_tipo[df_tipo['tipo_scuola'].isin(TIPI_SCUOLA)]
-    except Exception:
-        df_tipo = df.copy()
-        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
-
-    tipo_stats = df_tipo.groupby('tipo_scuola')[idx_col].mean().reset_index()
-    tipo_stats.columns = ['Tipologia', 'Media']
-    tipo_stats = (
-        tipo_stats.set_index('Tipologia')
-        .reindex(TIPI_SCUOLA)
-        .dropna(subset=['Media'])
-        .reset_index()
-    )
-
-    tipo_cols = st.columns(2)
-    with tipo_cols[0]:
-        if not tipo_stats.empty:
-            fig_tipo = px.bar(
-                tipo_stats,
-                x='Media', y='Tipologia',
-                orientation='h',
-                color='Media',
-                color_continuous_scale='RdYlGn',
-                range_color=[1, 7],
-                category_orders={"Tipologia": TIPI_SCUOLA}
-            )
-            fig_tipo.update_layout(
-                showlegend=False,
-                height=300,
-                xaxis_range=[1, 7]
-            )
-            st.plotly_chart(fig_tipo, use_container_width=True)
-        else:
-            st.info("Nessun dato valido per le tipologie canoniche")
-
-    with tipo_cols[1]:
-        if not df_tipo.empty:
-            tipo_counts = (
-                df_tipo['tipo_scuola']
-                .value_counts()
-                .reindex(TIPI_SCUOLA)
-                .dropna()
-                .reset_index()
-            )
-            tipo_counts.columns = ['Tipologia', 'N. Scuole']
-            fig_tipo_dist = px.pie(
-                tipo_counts,
-                names='Tipologia',
-                values='N. Scuole',
-                title="Distribuzione Tipologie (canoniche)",
-                hole=0.4,
-                category_orders={"Tipologia": TIPI_SCUOLA}
-            )
-            fig_tipo_dist.update_layout(height=300, margin=dict(l=0, r=0, t=40, b=0))
-            st.plotly_chart(fig_tipo_dist, use_container_width=True)
-        else:
-            st.info("Distribuzione tipologie non disponibile")
-else:
-    st.info("Colonna 'tipo_scuola' non disponibile nel dataset.")
-
-tipologie_canoniche_md = """
-**Tipologie scuola canoniche (6):**
-- Infanzia
-- Primaria
-- I Grado
-- Liceo
-- Tecnico
-- Professionale
-"""
-
-tipologie_note_md = (
-    "_Nota: il KPI “Tipologie Scuola” può risultare >6 perché il campo `tipo_scuola` nel "
-    'dataset contiene combinazioni di più ordini (es. "Infanzia, Primaria, I Grado")._'
-)
-
-if 'tipo_scuola' in df.columns:
-    tipo_series = df['tipo_scuola'].dropna().astype(str)
-    tipo_series = tipo_series[tipo_series.str.strip() != '']
-    if not tipo_series.empty:
-        tipo_counts = tipo_series.value_counts().reset_index()
-        tipo_counts.columns = ['Tipologia (combinazioni)', 'N. Scuole']
-        with st.expander("Toplist tipologie (combinazioni presenti nel dataset)"):
-            st.markdown(tipologie_canoniche_md)
-            st.markdown(tipologie_note_md)
-            st.dataframe(tipo_counts, use_container_width=True, hide_index=True)
-    else:
-        st.markdown(tipologie_canoniche_md)
-        st.markdown(tipologie_note_md)
-else:
-    st.markdown(tipologie_canoniche_md)
-    st.markdown(tipologie_note_md)
-
-# === STATALE / PARITARIA ===
-st.subheader("🏛️ Statali vs Paritarie")
-st.caption("Distribuzione gestione scuola (normalizzata)")
-
-if 'statale_paritaria' in df.columns:
-    gestione = df['statale_paritaria'].apply(normalize_statale_paritaria)
-    counts = gestione.value_counts()
-    statali = int(counts.get('Statale', 0))
-    paritarie = int(counts.get('Paritaria', 0))
-    nd = int(counts.get('ND', 0))
-    altro = int(counts.get('Altro', 0))
-    total = statali + paritarie + nd + altro
-
-    col_g1, col_g2, col_g3 = st.columns(3)
-    with col_g1:
-        pct_statali = (statali / total * 100) if total > 0 else 0
-        st.metric("Statali", f"{statali} ({pct_statali:.1f}%)")
-    with col_g2:
-        pct_paritarie = (paritarie / total * 100) if total > 0 else 0
-        st.metric("Paritarie", f"{paritarie} ({pct_paritarie:.1f}%)")
-    with col_g3:
-        st.metric("Non classificate (ND)", f"{nd}")
-
-    if total > 0:
-        chart_labels = []
-        chart_values = []
-        for label in GESTIONE_SCUOLA + ['ND']:
-            value = counts.get(label, 0)
-            if value > 0:
-                chart_labels.append(label)
-                chart_values.append(value)
-        if altro > 0:
-            chart_labels.append('Altro')
-            chart_values.append(altro)
-
-        fig_sp = px.pie(
-            names=chart_labels,
-            values=chart_values,
-            title="Distribuzione Statale/Paritaria",
-            hole=0.4
-        )
-        fig_sp.update_layout(height=300, margin=dict(l=0, r=0, t=40, b=0))
-        st.plotly_chart(fig_sp, use_container_width=True)
-
-    if altro > 0:
-        st.warning(f"Valori non riconosciuti in 'statale_paritaria': {altro} record")
-else:
-    st.info("Colonna 'statale_paritaria' non disponibile nel dataset.")
-
-st.subheader("⚖️ Confronti territoriali")
-geo_cols = st.columns(1)
-
-with geo_cols[0]:
-    st.markdown("#### Nord vs Centro vs Sud")
-    st.caption("Nord = Nord Ovest + Nord Est | Centro = Centro | Sud = Sud + Isole")
-    if 'area_geografica' in df.columns:
-        df_area = df.copy()
-        df_area['ro'] = pd.to_numeric(df_area[idx_col], errors='coerce')
-
-        def _area_macro(value):
-            if pd.isna(value):
-                return None
-            val = str(value).strip()
-            if val in ("Nord Ovest", "Nord Est"):
-                return "Nord"
-            if val == "Centro":
-                return "Centro"
-            if val in ("Sud", "Isole"):
-                return "Sud"
-            return None
-
-        df_area['area_macro'] = df_area['area_geografica'].apply(_area_macro)
-        df_area = df_area.dropna(subset=['ro', 'area_macro'])
-        area_stats = df_area.groupby('area_macro')['ro'].agg(['mean', 'count']).reset_index()
-        area_stats.columns = ['Area', 'Media', 'N. Scuole']
-        area_stats['Media'] = area_stats['Media'].round(2)
-
-        metric_cols = st.columns(3)
-        for idx, area in enumerate(["Nord", "Centro", "Sud"]):
-            with metric_cols[idx]:
-                row = area_stats[area_stats['Area'] == area]
-                if not row.empty:
-                    mean_val = row.iloc[0]['Media']
-                    count_val = int(row.iloc[0]['N. Scuole'])
-                    st.metric(area, f"{mean_val:.1f}/7", f"n={count_val}")
-                else:
-                    st.metric(area, "N/D")
-
-        if not area_stats.empty:
-            fig_area = px.bar(
-                area_stats,
-                x='Media', y='Area',
-                orientation='h',
-                color='Media',
-                color_continuous_scale='RdYlGn',
-                range_color=[1, 7]
-            )
-            fig_area.update_layout(
-                showlegend=False,
-                height=260,
-                xaxis_range=[1, 7],
-                yaxis=dict(categoryorder="array", categoryarray=["Nord", "Centro", "Sud"])
-            )
-            st.plotly_chart(fig_area, use_container_width=True)
-
-            fig_area_pie = px.pie(
-                area_stats,
-                names='Area',
-                values='N. Scuole',
-                title="Distribuzione Nord/Centro/Sud",
-                hole=0.4,
-                category_orders={"Area": ["Nord", "Centro", "Sud"]}
-            )
-            fig_area_pie.update_layout(height=260, margin=dict(l=0, r=0, t=40, b=0))
-            st.plotly_chart(fig_area_pie, use_container_width=True)
-        else:
-            st.info("Dati insufficienti per il confronto Nord/Centro/Sud.")
-    else:
-        st.info("Colonna 'area_geografica' non disponibile nel dataset.")
-
-st.markdown("#### Metropolitano vs Non Metropolitano")
-if 'territorio' in df.columns:
-    df_terr = df.copy()
-    df_terr['ro'] = pd.to_numeric(df_terr[idx_col], errors='coerce')
-    df_terr['territorio'] = df_terr['territorio'].astype(str).str.strip()
-    valid_terr = ["Metropolitano", "Non Metropolitano"]
-    extra = df_terr[~df_terr['territorio'].isin(valid_terr)]
-    df_terr = df_terr[df_terr['territorio'].isin(valid_terr)]
-    df_terr = df_terr.dropna(subset=['ro'])
-
-    terr_stats = df_terr.groupby('territorio')['ro'].agg(['mean', 'count']).reset_index()
-    terr_stats.columns = ['Territorio', 'Media', 'N. Scuole']
-    terr_stats['Media'] = terr_stats['Media'].round(2)
-
-    terr_cols = st.columns(2)
-    for idx, label in enumerate(valid_terr):
-        with terr_cols[idx]:
-            row = terr_stats[terr_stats['Territorio'] == label]
-            if not row.empty:
-                mean_val = row.iloc[0]['Media']
-                count_val = int(row.iloc[0]['N. Scuole'])
-                st.metric(label, f"{mean_val:.1f}/7", f"n={count_val}")
-            else:
-                st.metric(label, "N/D")
-
-    if not terr_stats.empty:
-        fig_terr = px.bar(
-            terr_stats.sort_values('Media', ascending=True),
-            x='Media', y='Territorio',
-            orientation='h',
-            color='Media',
-            color_continuous_scale='RdYlGn',
-            range_color=[1, 7],
-            category_orders={"Territorio": valid_terr}
-        )
-        fig_terr.update_layout(showlegend=False, height=260, xaxis_range=[1, 7])
-        st.plotly_chart(fig_terr, use_container_width=True)
-
-        fig_terr_pie = px.pie(
-            terr_stats,
-            names='Territorio',
-            values='N. Scuole',
-            title="Distribuzione Territorio",
-            hole=0.4,
-            category_orders={"Territorio": valid_terr}
-        )
-        fig_terr_pie.update_layout(height=260, margin=dict(l=0, r=0, t=40, b=0))
-        st.plotly_chart(fig_terr_pie, use_container_width=True)
-    else:
-        st.info("Dati insufficienti per il confronto metropolitano.")
-
-    if not extra.empty:
-        st.caption(f"Esclusi {len(extra)} record con territorio non classificato.")
-else:
-    st.info("Colonna 'territorio' non disponibile nel dataset.")
-
-# === MAPPA RAPIDA ===
-st.subheader("🗺️ Panoramica Regionale")
-st.caption("Indice RO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
-
-if 'regione' in df.columns:
-    try:
-        from data_utils import TIPI_SCUOLA
-    except Exception:
-        TIPI_SCUOLA = ['Infanzia', 'Primaria', 'I Grado', 'Liceo', 'Tecnico', 'Professionale']
-
-    def get_primary_type(tipo):
-        if pd.isna(tipo):
-            return None
-        for part in str(tipo).split(','):
-            t = part.strip()
-            if t in TIPI_SCUOLA:
-                return t
-        return None
-
-    df_norm = df.copy()
-    if 'tipo_scuola' in df_norm.columns:
-        df_norm['tipo_primario'] = df_norm['tipo_scuola'].apply(get_primary_type)
-        df_norm = df_norm[df_norm['tipo_primario'].isin(TIPI_SCUOLA)]
-    else:
-        df_norm = pd.DataFrame()
-
-    if not df_norm.empty:
-        overall_mean = df_norm[idx_col].mean()
-        type_means = df_norm.groupby('tipo_primario')[idx_col].mean()
-        df_norm['score_norm'] = (
-            df_norm[idx_col]
-            - df_norm['tipo_primario'].map(type_means)
-            + overall_mean
-        )
-
-        region_stats = df_norm.groupby('regione').agg({
-            'score_norm': ['mean', 'count'],
-            'tipo_primario': 'nunique'
-        }).round(2).reset_index()
-        region_stats.columns = ['Regione', 'Media Normalizzata', 'N. Scuole', 'Tipi Coperti']
-        region_stats = region_stats[region_stats['Regione'] != 'Non Specificato']
-        region_stats = region_stats.sort_values('Media Normalizzata', ascending=False)
-    else:
-        region_stats = pd.DataFrame()
-
-    col5, col6 = st.columns([2, 1])
-
-    with col5:
-        if not region_stats.empty:
-            fig_region = px.bar(
-                region_stats.sort_values('Media Normalizzata', ascending=True),
-                x='Media Normalizzata', y='Regione',
-                orientation='h',
-                color='Media Normalizzata',
-                color_continuous_scale='RdYlGn',
-                range_color=[1, 7],
-                text='N. Scuole'
-            )
-            fig_region.update_traces(texttemplate='n=%{text}', textposition='outside')
-            fig_region.update_layout(height=500, xaxis_range=[1, 7])
-            st.plotly_chart(fig_region, use_container_width=True)
-        else:
-            st.info("Dati insufficienti per il confronto regionale normalizzato.")
-
-    with col6:
-        st.markdown("### 📈 Statistiche Normalizzate")
-
-        if not region_stats.empty:
-            mean_norm = region_stats['Media Normalizzata'].mean()
-            median_types = region_stats['Tipi Coperti'].median()
-            full_coverage = (region_stats['Tipi Coperti'] == len(TIPI_SCUOLA)).sum()
-
-            st.metric("Media Normalizzata (regioni)", f"{mean_norm:.1f}/7")
-            st.metric("Copertura Tipi (mediana)", f"{median_types:.0f}/6")
-            st.metric("Regioni con copertura completa", f"{full_coverage}/{len(region_stats)}")
-            st.caption("Normalizzazione: media per tipologia con peso uguale.")
-        else:
-            st.info("Statistiche normalizzate non disponibili.")
+st.set_page_config(page_title="ORIENTA+ | Il Progetto", page_icon="📘", layout="wide")
+setup_page("Home.py")
+
+st.title("📘 Il Progetto Orienta+")
+st.markdown("**Analisi e Valutazione dei PTOF delle Scuole Italiane**")
 
 st.markdown("---")
 
-# === NAVIGAZIONE RAPIDA ===
-st.subheader("🧭 Navigazione Rapida")
+# === COSA FA LA PIATTAFORMA ===
+st.markdown("""
+### Cosa fa la piattaforma
+**Orienta+ analizza la presenza nei PTOF di contenuti rilevanti per l'orientamento.**
+Attraverso un sistema basato sull'intelligenza artificiale, la piattaforma legge i documenti scolastici per identificare, estrarre e valutare le informazioni relative alle attività, alle metodologie e alla governance dell'orientamento.
 
-nav_cols = st.columns(4)
+Restituisce una lettura **comparabile e trasparente** dell'orientamento scolastico, integrando punteggi strutturati, report narrativi e strumenti di confronto per territorio e profilo di scuola, mantenendo sempre il legame con le evidenze testuali dei documenti.
 
-with nav_cols[0]:
-    st.info("""
-    **🏫 Dettaglio Scuola**
+Inoltre, il sistema elabora una **categorizzazione delle attività** (consultabile nella pagina *Attività* della sezione *Esplorazione*): le iniziative estratte vengono classificate per tipologia (es. metodologie innovative, partnership, inclusione), creando un catalogo navigabile delle pratiche di orientamento.
+""")
 
-    Analisi approfondita di una singola scuola con:
-    - Profilo radar
-    - Gap analysis
-    - Confronto peer
+col_btn1, col_btn2 = st.columns(2)
+with col_btn1:
+    if st.button("📊 Vai alla Dashboard di Sintesi"):
+        switch_page("pages/03_Sintesi.py")
+with col_btn2:
+    if st.button("ℹ️ Vai al Campionamento"):
+        switch_page("pages/01_Campionamento.py")
+
+# === DISCLAIMER ===
+st.info("""
+⚠️ **Importante: Natura dell'Analisi**
+
+Questa piattaforma **NON giudica la qualità della scuola** né crea una classifica delle scuole più virtuose.
+L'obiettivo è esclusivamente **analizzare la documentazione PTOF**: gli indici prodotti rappresentano il grado di **copertura informativa** delle dimensioni indagate dalla ricerca.
+Un punteggio basso non significa che la scuola non faccia orientamento, ma che tali azioni non sono esplicitamente o dettagliatamente riportate nel Piano Triennale dell'Offerta Formativa.
+""")
+
+# === CONTESTO ===
+st.header("1. Il Contesto del Progetto")
+st.markdown("""
+La piattaforma **Orienta+** fa parte del progetto di dottorato di **Daniele Dragoni** ed ha lo scopo di analizzare i PTOF (Piani Triennali dell'Offerta Formativa) delle scuole italiane.
+
+Essendo le scuole italiane oltre 60.000, non è possibile analizzarle tutte manualmente. Di conseguenza, si esegue un **campionamento a strati** per avere un campione rappresentativo.
+""")
+
+st.markdown("""
+### Come funziona l'analisi
+L'analisi automatizzata non si limita a cercare parole chiave, ma **legge e interpreta** il testo del PTOF su due livelli complementari:
+
+1.  **Analisi Strutturale (Compliance)**
+    Il sistema verifica anzitutto la conformità formale rispetto alle Linee Guida (DM 328/2022). Identifica la presenza di una **sezione esplicitamente dedicata** all'orientamento nell'indice o nel corpo del testo, valutandone la visibilità e la struttura nel documento.
+
+2.  **Analisi Semantica e di Contenuto**
+    Attraverso modelli di linguaggio avanzati (LLM), la piattaforma "legge" l'intero documento per estrarre informazioni sulla copertura informativa delle **6 dimensioni chiave del framework** (che vengono dettagliate nel paragrafo successivo).
+    In questa fase, il sistema distingue le semplici dichiarazioni di intenti dalle azioni concrete, mappando la presenza di progetti, risorse, tempi e responsabilità. L'algoritmo rileva il **contesto** in cui appaiono i termini: se l'orientamento è citato in una lista generica o se è descritto attraverso laboratori con obiettivi e modalità di verifica.
+
+Il risultato è una **fotografia della ricchezza documentale**: l'indice misura in che grado il PTOF riporti non solo intenzioni ma dettagli operativi e strutturali.
+""")
+
+st.markdown("---")
+
+# === FRAMEWORK DI VALUTAZIONE (QUALITATIVO) ===
+st.header("2. Framework di Valutazione (Analisi Qualitativa)")
+st.markdown("""
+L'analisi si basa su dimensioni chiave che valutano la presenza e la qualità delle azioni di orientamento descritte nei documenti.
+Di seguito presentiamo le dimensioni indagate, specificando cosa viene ricercato nel testo per considerare l'informazione "completa".
+""")
+
+# 1. Dimensione Strutturale
+st.subheader("1. Dimensione Strutturale e di Contesto")
+st.markdown("""
+**Sezione dedicata (Spazio esplicito all'orientamento)**
+Questa dimensione verifica se l'orientamento ha dignità strutturale nel documento. Non ci si limita a cercare la parola "orientamento", ma si osserva se esiste un **capitolo riconoscibile** (nell'indice o con un titolo chiaro) che faccia da "casa" per tutte le azioni.
+Una sezione è considerata **solida** quando:
+*   È facilmente rintracciabile nel sommario.
+*   Non disperde le informazioni in paragrafi frammentati ma offre un quadro organico.
+*   Definisce chiaramente strumenti, tempi e responsabilità organizzative.
+
+**Partnership (Reti territoriali e soggetti esterni)**
+L'orientamento non si fa da soli. Le partnership sono lette come indicatori di apertura della scuola verso l'esterno. La valutazione premia:
+*   **Qualità del coinvolgimento**: non si cercano elenchi di nomi, ma si cercano descrizioni di **attività congiunte**, co-progettazione di percorsi, visite aziendali o laboratori universitari.
+*   **Soggetti nominati**: la citazione esplicita di università, ITS, imprese, enti locali o associazioni del terzo settore indica un rapporto reale e non solo teorico.
+*   **Consistenza**: presenza di accordi formali, obiettivi condivisi e continuità nel tempo.
+""")
+
+# 2. Finalità
+st.subheader("2. Finalità dell'Orientamento")
+st.markdown("""
+Questa dimensione indaga *perché* la scuola fa orientamento e quali obiettivi educativi si pone per gli studenti. Si articola in:
+*   **Attitudini e Talenti**: azioni volte a far scoprire allo studente i propri punti di forza e le proprie inclinazioni personali.
+*   **Interessi Professionali**: attività che permettono di esplorare ambiti disciplinari e il mondo del lavoro, per scelte informate e non basate su stereotipi.
+*   **Progetto di Vita**: la scuola come supporto alla costruzione di una traiettoria personale, coinvolgendo anche la famiglia in una visione a lungo termine.
+*   **Transizioni Formative**: l'accompagnamento nei momenti critici di passaggio (es. dalla media alla superiore, o verso l'università/lavoro), momenti in cui il rischio di dispersione è più alto.
+*   **Capacità Orientativa (Empowerment)**: non solo "dare informazioni", ma insegnare allo studente a **sapersi orientare** autonomamente (competenze trasversali di scelta e auto-valutazione).
+""")
+
+# 3. Obiettivi di Incidenza
+st.subheader("3. Obiettivi di Incidenza")
+st.markdown("""
+Qui si valutano gli impatti sociali e sistemici che la scuola intende generare attraverso l'orientamento:
+*   **Contrasto alla Dispersione**: misure specifiche di prevenzione dell'abbandono, tutoraggio per studenti a rischio e motivazione allo studio.
+*   **Riduzione dei NEET**: collegamento tra scuola e futuro occupazionale, lavorando sulle competenze chiave per l'occupabilità e sulla fiducia nel futuro.
+*   **Continuità Territoriale**: creazione di "ponti" stabili tra i diversi gradi di istruzione del territorio, per evitare fratture nel percorso formativo.
+*   **Lifelong Learning**: promozione dell'idea che l'orientamento non finisce con la scuola, ma è una competenza per tutto l'arco della vita.
+""")
+
+# 4. Governance
+st.subheader("4. Governance e Organizzazione")
+st.markdown("""
+Un buon orientamento richiede un'organizzazione stabile. Questa dimensione analizza "chi fa cosa":
+*   **Coordinamento**: serve una regia. Si cerca la presenza di **Funzioni Strumentali**, commissioni orientamento o referenti chiaramente identificati.
+*   **Dialogo Interno**: l'orientamento non è delega di un solo docente, ma deve essere integrato nella didattica quotidiana e condiviso dal Consiglio di Classe.
+*   **Alleanza con le Famiglie**: azioni per informare e supportare i genitori, evitando che le scelte siano guidate solo dal "passaparola" o dall'ansia.
+*   **Monitoraggio e Valutazione**: la presenza di dati, questionari di feedback o analisi degli esiti a distanza indica un sistema che impara e si migliora.
+*   **Inclusione**: attenzione specifica ai Bisogni Educativi Speciali (BES) e alle differenze culturali, per un orientamento davvero democratico.
+""")
+
+# 5. Didattica Orientativa
+st.subheader("5. Didattica Orientativa")
+st.markdown("""
+Il cuore dell'azione formativa. Si misura il passaggio dalle parole ai fatti didattici:
+*   **Laboratoriale ed Esperienziale**: l'*imparare facendo*. Attività pratiche in cui lo studente si mette alla prova (es. simulazioni, project work).
+*   **Esperienza degli Studenti**: centralità dell'alunno, che non è spettatore passivo di conferenze informative, ma protagonista attivo.
+*   **Interdisciplinarità**: quando l'orientamento entra nelle materie curricolari (es. orientamento narrativo in lettere, STEM in scienze) e non è recintato in ore extra-curricolari.
+*   **Flessibilità Organizzativa**: capacità di adattare orari, gruppi e spazi per personalizzare i percorsi.
+""")
+
+# 6. Opportunità Formative
+st.subheader("6. Opportunità Formative")
+st.markdown("""
+L'ecosistema delle proposte. Un'offerta ricca permette a ciascuno di trovare la sua strada.
+Si valuta la presenza e la varietà di:
+*   **Attività Culturali, Espressive e Artistiche**.
+*   **Sport e Benessere**.
+*   **Volontariato e Cittadinanza Attiva**.
+*   **Proposte Ludiche e di Socializzazione**.
+
+Il punteggio cresce quando queste attività non sono presentate come "eventi isolati", ma come tessere di un mosaico che contribuisce alla crescita globale dello studente (accesso, continuità e ricadute educative).
+""")
+
+st.markdown("---")
+
+# === INDICI E PUNTEGGI (QUANTITATIVO) ===
+st.header("3. Metrica di Valutazione (Analisi Quantitativa)")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader("Scala di Completezza (1-7)")
+    st.markdown("""
+    Ogni dimensione è valutata rispetto alla sua completezza informativa. Il punteggio indica quanto il PTOF trasforma le intenzioni in azioni documentate.
+
+    | Punteggio | Descrizione |
+    | :---: | :--- |
+    | **1.0 - 2.2** | Nessun riferimento o accenni minimi |
+    | **2.3 - 3.4** | Riferimenti generici, poco strutturati |
+    | **3.5 - 4.6** | Presenza di azioni basilari ma non coordinate |
+    | **4.7 - 5.8** | Sistema strutturato, buona copertura |
+    | **5.9 - 7.0** | Sistema eccellente, dettagliato e monitorato |
     """)
 
-with nav_cols[1]:
-    st.info("""
-    **🗺️ Analisi Territoriale**
+with col2:
+    st.subheader("Indice di Completezza PTOF")
+    st.markdown("""
+    L'Indice di Completezza (ex Indice RO) è un indicatore di maturità documentale.
 
-    Confronti geografici con:
-    - Mappa Italia
-    - Confronti gruppi
-    - Report regionali
+    $$ \\text{Indice RO} = \\frac{\\text{Media Finalità} + \\text{Media Obiettivi} + \\text{Media Governance} + \\text{Media Didattica} + \\text{Media Opportunità}}{5} $$
+
+    **Interpretazione:**
+    *   **1.0 - 2.8**: Copertura assente o marginale
+    *   **2.8 - 4.0**: Copertura parziale, elementi basilari
+    *   **4.0 - 5.5**: Buona copertura, sistema strutturato
+    *   **5.5 - 7.0**: Copertura eccellente, attività ricche
     """)
 
-with nav_cols[2]:
-    st.info("""
-    **🌟 Catalogo Pratiche**
+st.markdown("---")
 
-    Esplora e filtra:
-    - Buone pratiche per categoria
-    - Metodologie e ambiti
-    - Distribuzioni e analisi
-    """)
+# === OUTPUT ===
+st.header("4. Report Narrativo e Output")
+st.markdown("""
+Accanto ai punteggi, il sistema produce un **report narrativo** che spiega le valutazioni, riporta le evidenze e collega le dimensioni tra loro.
+La struttura del report è standardizzata:
+1.  **Sintesi generale**
+2.  **Analisi dimensionale** (dettaglio sezione per sezione)
+3.  **Punti di forza**
+4.  **Aree di debolezza**
+5.  **Gap analysis** (mancanze strutturali)
+6.  **Conclusioni**
 
-with nav_cols[3]:
-    st.empty()
+L'output finale è doppio: un **JSON strutturato** per analisi tecniche e un **Markdown** per la lettura umana.
+""")
+
+st.markdown("---")
+
+# === CATEGORIZZAZIONE E CATALOGO ATTIVITÀ ===
+st.header("5. Categorizzazione e Catalogo Attività")
+st.markdown("""
+Oltre all'analisi dei documenti, la piattaforma costruisce un **Catalogo Navigabile delle Attività** (consultabile nella sezione *Esplorazione* -> *Attività*).
+Il sistema estrae le singole iniziative descritte nei PTOF e le classifica automaticamente in categorie predefinite per facilitarne la consultazione e il confronto:
+
+*   **Categorie Principali**: raggruppamento macro, come *Metodologie Didattiche Innovative*, *Progetti Esemplari*, *Partnership*, *Inclusione*, ecc.
+*   **Ambiti di Attività**: il tema specifico trattato, ad esempio *STEM*, *Educazione Civica*, *PCTO*, *Arte & Creatività*.
+*   **Tipologie di Metodologia**: il metodo pedagogico utilizzato, come *Peer Tutoring*, *Gamification*, *Cooperative Learning*, *Debate*.
+
+Grazie a questa strutturazione, è possibile filtrare e ricercare le attività non solo per scuola, ma anche per **parole chiave, territorio o tipologia**, permettendo di scoprire buone pratiche e idee da replicare.
+
+Inoltre, nella pagina **Report** (sezione *Esplorazione*), sono disponibili dei **meta-report tematici** generati aggregando le informazioni su base trasversale. Questi dossier offrono approfondimenti verticali su specifici argomenti (es. *L'Inclusione nelle scuole del Sud*, *Le nuove metodologie nei Licei*), sfruttando la ricchezza informativa del catalogo attività.
+""")
+
+st.markdown("---")
+
+# === STRUMENTI DI ANALISI ===
+st.header("6. Strumenti di Analisi e Navigazione")
+st.markdown("""
+Per esplorare i dati raccolti, la piattaforma offre quattro strumenti principali di indagine, ciascuno con un filtro e una prospettiva specifica:
+""")
+
+st.markdown("---")
+
+st.markdown("""
+### 📈 Sintesi (Dashboard)
+Il punto di partenza per una visione d'insieme.
+*   **Cosa mostra**: I KPI principali, l'Indice di Completezza medio nazionale e la distribuzione dei punteggi.
+*   **Variabili**: Permette di filtrare rapidamente per **Macro-area, Regione e Livello Scolastico** per ottenere un primo spaccato dei dati.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+### 🗺️ Analisi Territoriale
+Focalizzata sulla geografia e sui divari regionali.
+*   **Cosa mostra**: Mappe di calore e confronti statistici tra le diverse zone d'Italia.
+*   **Variabili**: Analizza le differenze tra **Macro-aree (Nord/Centro/Sud)** e singole **Regioni**, confrontando anche la gestione (**Statale vs Paritaria**) per evidenziare pattern di distribuzione territoriali.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+### 📊 Analisi Dimensionale
+Scende nel dettaglio qualitativo del framework.
+*   **Cosa mostra**: Come variano le 5 dimensioni (Finalità, Obiettivi, Governance, Didattica, Opportunità) e i relativi sotto-indicatori.
+*   **Variabili**: Offre i filtri più granulari, permettendo di incrociare **Provincia, Tipo di Istituto** (Licei, Tecnici, Professionali, Comprensivi) e **Dimensione scolastica**, per capire ad esempio se la "Didattica Orientativa" è più presente in un certo tipo di scuola o territorio.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+### 🔬 Analytics Avanzati
+Strumenti statistici e di data mining per approfondimenti.
+*   **Cosa mostra**: Relazioni nascoste tra i dati che non emergono dalle medie semplici.
+*   **Variabili**: Utilizza **Clustering e PCA** per raggruppare le scuole in base alla similitudine dei contenuti (indipendentemente dalla posizione), **Matrici di Correlazione** per scoprire legami tra le dimensioni (es. "Una buona governance influenza la didattica?") e **Analisi Lessicale** (Word Cloud) per visualizzare i temi ricorrenti nei testi.
+""")
+
+st.markdown("---")
+
+# === RICERCA E IMPATTO ===
+st.header("7. Ricerca e Impatto")
+st.markdown("""
+Queste due sezioni permettono di andare oltre la fotografia dell'esistente per indagare l'efficacia delle pratiche educative:
+
+### 🔎 Metodologie e Progetti
+Un motore di ricerca semantico per individuare le scuole che adottano specifiche pratiche didattiche.
+*   **Funzione**: Permette di trovare istituti che citano nel PTOF parole chiave come *Debate, STEM, Service Learning, PCTO*, ecc.
+*   **Utilità**: Ideale per creare reti di scuole, scoprire chi sta innovando su temi specifici e analizzare la diffusione territoriale di certe metodologie.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+### 📉 Impatto Metodologie e Progetti
+Uno strumento di analisi statistica per misurare l'efficacia delle pratiche.
+*   **Funzione**: Confronta le scuole che adottano una certa metodologia con quelle che non la usano, calcolando se esiste una differenza significativa nell'Indice di Robustezza (RO).
+*   **Utilità**: Risponde a domande come *"Le scuole che fanno Debate hanno mediamente un PTOF più robusto?"*, fornendo dati su **differenza media, significatività statistica (p-value) e dimensione dell'effetto (Cohen's d)**.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# === ANALISI DI DETTAGLIO ===
+st.header("8. Analisi di Dettaglio")
+st.markdown("""
+Questi strumenti operano a livello granulare, scendendo nel dettaglio del singolo istituto:
+
+### 🏫 Scuola: Dettaglio e Gap Analysis
+La scheda completa di ogni singolo istituto censito.
+*   **Cosa mostra**: Il **Radar di posizionamento** della scuola rispetto alla media (nazionale, regionale o per tipologia), l'elenco delle **partnership** attive e le **metodologie** citate.
+*   **Analisi Gap**: Include una funzione avanzata che suggerisce le **aree prioritarie di miglioramento** e identifica scuole "gemelle" (Peer) da cui prendere ispirazione.
+""")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+### 🔀 Confronto
+Lo strumento per il benchmarking diretto tra due istituti.
+*   **Funzione**: Mette a confronto "fianco a fianco" due scuole qualsiasi, evidenziando chi prevale su ciascuna dimensione.
+*   **Insights**: Genera automaticamente delle osservazioni sulle differenze (es. *"La Scuola A ha più partnership, ma la Scuola B ha una Governance più strutturata"*), utile per capire posizionamenti relativi o modelli organizzativi diversi.
+""")
 
 render_footer()

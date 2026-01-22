@@ -423,6 +423,28 @@ SEZIONE {i+1}:
         partial_json = parse_json_safe(response)
         
         if partial_json:
+            # EARLY-EXIT CHECK: Evaluate if document is NOT a PTOF (first 3 chunks)
+            if i < 3:
+                is_ptof = partial_json.get('is_ptof', True)
+                confidence = partial_json.get('is_ptof_confidence', 'medium')
+                doc_type = partial_json.get('document_type', 'Unknown')
+                
+                # Convert string to bool if needed
+                if isinstance(is_ptof, str):
+                    is_ptof = is_ptof.lower() != 'false'
+                
+                if is_ptof is False and confidence == 'high':
+                    # High confidence NOT PTOF - exit immediately
+                    print(f"[cloud_review] EARLY-EXIT (chunk {i+1}): NOT PTOF (type: {doc_type}, confidence: high)")
+                    return {"_not_ptof": True, "document_type": doc_type}
+                elif is_ptof is False and confidence == 'medium' and i >= 2:
+                    # Medium confidence after 3 chunks - probably not PTOF
+                    print(f"[cloud_review] EARLY-EXIT (chunk {i+1}): Likely NOT PTOF (type: {doc_type}, confidence: medium)")
+                    return {"_not_ptof": True, "document_type": doc_type}
+                elif is_ptof is False and confidence == 'low':
+                    # Low confidence - log but continue analyzing
+                    print(f"[cloud_review] Chunk {i+1}: is_ptof=false but confidence=low, continuing...")
+            
             partial_results.append(partial_json)
             print(f"[cloud_review] Chunk {i+1}: Got valid JSON")
         else:
