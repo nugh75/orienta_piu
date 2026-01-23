@@ -37,6 +37,25 @@ Per usare i reviewer cloud:
 
 Puoi metterle in .env o in data/api_config.json.
 
+## Configurazione Ollama
+
+Per usare un server Ollama remoto, configura nel file `.env`:
+
+```bash
+# Server Ollama (locale o remoto)
+OLLAMA_HOST=http://192.168.129.14:11434
+
+# Modello default
+OLLAMA_MODEL=qwen3:latest
+```
+
+Tutti i comandi make leggono automaticamente `OLLAMA_HOST` dal file `.env`.
+Per sovrascrivere manualmente:
+
+```bash
+make strata-cycle OLLAMA_URL=http://localhost:11434
+```
+
 ## Comandi make essenziali
 
 - make setup
@@ -89,13 +108,30 @@ Per cambiare il polling: PTOF_DOWNLOAD_WAIT_SECONDS=10.
 
 ## Strategie di download (sintesi)
 
-Il downloader usa 4 strategie in cascata:
-1. Portale Unica
-2. Sito web scuola
-3. Codice istituto (per plessi)
-4. Ricerca web (DuckDuckGo)
+Il downloader usa **8 strategie in cascata** per massimizzare le probabilità di trovare il PTOF:
 
-Dettagli in [Downloader](src/downloaders/README.md).
+### Strategie Primarie (Gratuite)
+1. **Scuola In Chiaro** - Portale MIUR
+2. **Sito web scuola** - Ricerca nella homepage
+3. **Istituto di riferimento** - Per plessi/sezioni
+4. **DuckDuckGo** - Ricerca web gratuita
+
+### Strategie di Fallback (API Esterne)
+5. **Jina AI** 🆓 - Gratuito, no API key
+6. **Tavily** 🔑 - 1000 ricerche/mese gratis
+7. **Brave Search** 🔑 - 2000 ricerche/mese gratis  
+8. **Perplexity** 💰 - A pagamento (fallback finale)
+
+Per abilitare i fallback, configura le API key nel file `.env`:
+
+```bash
+# API per ricerca PTOF (opzionali)
+TAVILY_API_KEY=tvly-xxxxx     # https://tavily.com
+BRAVE_API_KEY=BSAxxxxx        # https://brave.com/search/api
+PERPLEXITY_API_KEY=pplx-xxxxx # https://perplexity.ai
+```
+
+Dettagli completi in [Downloader README](src/downloaders/README.md).
 
 ## Output e directory principali
 

@@ -1,4 +1,4 @@
-# 🏠 Home - Dashboard Riepilogativa
+# 📊 Sintesi - Dashboard Riepilogativa
 
 import streamlit as st
 import pandas as pd
@@ -19,14 +19,8 @@ from data_utils import (
 )
 from page_control import setup_page, switch_page
 
-st.set_page_config(page_title="ORIENTA+ | Home", page_icon="🧭", layout="wide")
-settings = setup_page("pages/03_Sintesi.py")
-default_page = settings.get("default_page", "pages/03_Sintesi.py")
-if default_page != "pages/03_Sintesi.py" and not st.session_state.get("default_redirect_done"):
-    target_cfg = settings.get("pages", {}).get(default_page, {})
-    if target_cfg.get("visible", True):
-        st.session_state["default_redirect_done"] = True
-        switch_page(default_page)
+st.set_page_config(page_title="ORIENTA+ | Sintesi", page_icon="🧭", layout="wide")
+setup_page("pages/03_Sintesi.py")
 
 # CSS
 st.markdown("""
@@ -70,14 +64,14 @@ with st.sidebar:
                     st.metric("Indice di Robustezza (RO)", f"{ro:.1f}/7")
 
         if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
-            switch_page("pages/07_Scuola.py")
+            switch_page("pages/09_Scuola.py")
 
         if st.button("🔄 Cambia scuola", use_container_width=True):
-            switch_page("pages/07_Scuola.py")
+            switch_page("pages/09_Scuola.py")
     else:
         st.info("Nessuna scuola selezionata")
         if st.button("➕ Seleziona la tua scuola", use_container_width=True):
-            switch_page("pages/07_Scuola.py")
+            switch_page("pages/09_Scuola.py")
 
     st.markdown("---")
 
@@ -124,13 +118,13 @@ st.subheader("⚡ Azioni rapide")
 action_cols = st.columns(3)
 with action_cols[0]:
     if st.button("🏫 Dettaglio Scuola", use_container_width=True):
-        switch_page("pages/07_Scuola.py")
+        switch_page("pages/09_Scuola.py")
 with action_cols[1]:
     if st.button("🗺️ Analisi Territoriale", use_container_width=True):
         switch_page("pages/04_Territorio.py")
 with action_cols[2]:
     if st.button("🌟 Attività", use_container_width=True):
-        switch_page("pages/09_Attivita.py")
+        switch_page("pages/11_Attivita.py")
 
 
 

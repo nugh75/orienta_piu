@@ -18,6 +18,10 @@ import shutil
 import logging
 import re
 from pathlib import Path
+
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime
 from typing import Optional, Dict, Tuple, List
 from dataclasses import dataclass, asdict
@@ -48,7 +52,7 @@ logger = logging.getLogger(__name__)
 # CONFIGURAZIONE
 # =====================================================
 
-OLLAMA_URL = os.environ.get("PTOF_OLLAMA_URL", "http://localhost:11434/api/generate")
+OLLAMA_URL = os.environ.get("PTOF_OLLAMA_URL", os.environ.get("OLLAMA_HOST", "http://localhost:11434") + "/api/generate")
 OLLAMA_MODEL = os.environ.get("PTOF_MODEL", "qwen3:32b")  # Modello per validazione
 
 # Directory

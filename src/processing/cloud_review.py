@@ -6,6 +6,10 @@ import requests
 from typing import Optional, Dict, List
 from duckduckgo_search import DDGS
 
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
+
 # Import chunker for long documents
 try:
     from src.processing.text_chunker import smart_split, get_chunk_info
@@ -246,7 +250,9 @@ def call_openrouter_api(api_key: str, model: str, prompt: str, max_retries: int 
 
 def call_ollama_api(model: str, prompt: str) -> Optional[str]:
     """Call Local Ollama API"""
-    url = "http://localhost:11434/api/chat"
+    import os
+    ollama_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+    url = f"{ollama_host}/api/chat"
     payload = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],

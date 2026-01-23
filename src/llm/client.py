@@ -4,6 +4,10 @@ import json
 import logging
 import time
 
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
+
 def _normalize_model_name(model):
     if not model:
         return ""
@@ -67,7 +71,8 @@ class LLMClient:
             url = self.preset_config.get("ollama_url")
             
         if not url:
-            url = self.config.get("ollama_url", "http://localhost:11434/api/generate")
+            default_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+            url = self.config.get("ollama_url", f"{default_host}/api/generate")
         
         full_prompt = prompt
         if system_prompt:

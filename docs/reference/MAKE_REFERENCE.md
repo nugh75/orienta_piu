@@ -50,6 +50,58 @@ make help
 | `make download-strato N=X` | Scarica X scuole per ogni strato                |
 | `make download-reset`      | Reset stato download e ricomincia               |
 
+### Ciclo Stratificato Incrementale
+
+| Comando            | Descrizione                                              |
+| ------------------ | -------------------------------------------------------- |
+| `make strata-cycle` | Ciclo incrementale stratificato (target MIUR proporzionale) |
+
+#### Parametri strata-cycle
+
+| Parametro             | Descrizione                                              | Default                              |
+| --------------------- | -------------------------------------------------------- | ------------------------------------ |
+| `MAX_DOWNLOADS=X`     | Limita il numero di download per ciclo                   | Nessuno                              |
+| `MAX_CYCLES=X`        | Numero massimo di cicli da eseguire                      | 1                                    |
+| `G=X`                 | Filtra per grado (Infanzia, Primaria, I Grado, II Grado) | Tutti                                |
+| `R=X`                 | Filtra per regione                                       | Tutte                                |
+| `GESTIONE=X`          | Filtra per gestione (Statale, Paritaria)                 | Tutte                                |
+| `SKIP_ANALYSIS=1`     | Salta l'analisi dopo il download                         | 0                                    |
+| `PROVIDER_WORKFLOW=X` | Provider LLM per l'analisi (ollama, openai, openrouter)  | ollama                               |
+| `ANALYST_WORKFLOW=X`  | Modello per il ruolo analista                            | qwen3:latest                         |
+| `REVIEWER_WORKFLOW=X` | Modello per il ruolo revisore                            | qwen3:latest                         |
+| `REFINER_WORKFLOW=X`  | Modello per il ruolo raffinatore                         | qwen3:latest                         |
+| `SYNTHESIZER_WORKFLOW=X` | Modello per il ruolo sintetizzatore                   | qwen3:latest                         |
+| `OLLAMA_URL=X`        | URL del server Ollama                                    | Da `.env` (`OLLAMA_HOST`) o localhost |
+
+> 💡 **Nota**: Il parametro `OLLAMA_URL` viene letto automaticamente dal file `.env` (variabile `OLLAMA_HOST`).
+> Non è necessario specificarlo manualmente se hai configurato `.env`.
+
+#### Esempi strata-cycle
+
+```bash
+# Ciclo completo con limite 40 download (usa .env per Ollama)
+make strata-cycle MAX_DOWNLOADS=40
+
+# Solo Primaria Statale
+make strata-cycle G=Primaria GESTIONE=Statale MAX_DOWNLOADS=20
+
+# Con Ollama remoto e modello specifico per tutti i ruoli
+make strata-cycle \
+  PROVIDER_WORKFLOW=ollama \
+  ANALYST_WORKFLOW=gemma3:27b \
+  REVIEWER_WORKFLOW=gemma3:27b \
+  REFINER_WORKFLOW=gemma3:27b \
+  SYNTHESIZER_WORKFLOW=gemma3:27b \
+  MAX_DOWNLOADS=50 \
+  MAX_CYCLES=1
+
+# Override manuale OLLAMA_URL (sovrascrive .env)
+make strata-cycle OLLAMA_URL=http://192.168.129.14:11434 MAX_DOWNLOADS=40
+
+# Solo download senza analisi
+make strata-cycle MAX_DOWNLOADS=50 SKIP_ANALYSIS=1
+```
+
 ### Filtri specifici
 
 | Comando                             | Descrizione                     |
@@ -107,6 +159,8 @@ make download-area A=ISOLE
 | `make run`                   | Esegue analisi sui PDF in `ptof_inbox/` |
 | `make run-force`             | Forza ri-analisi di tutti i file        |
 | `make run-force-code CODE=X` | Forza ri-analisi di un codice specifico |
+| `make workflow`              | Analisi PTOF pulita (una scuola alla volta) |
+| `make workflow-force`        | Come workflow ma ri-analizza tutto      |
 
 ---
 
@@ -239,11 +293,21 @@ make review-non-ptof MAX_SCORE=1.5
 
 ### Combinazioni
 
-| Comando         | Descrizione                             |
-| --------------- | --------------------------------------- |
-| `make refresh`  | csv + dashboard                         |
-| `make full`     | run + csv + dashboard                   |
-| `make pipeline` | download-sample + run + csv + dashboard |
+| Comando              | Descrizione                                      |
+| -------------------- | ------------------------------------------------ |
+| `make refresh`       | csv + dashboard                                  |
+| `make full`          | run + csv + dashboard                            |
+| `make pipeline`      | download-sample + run + csv + dashboard          |
+| `make pipeline-ollama` | Analisi + revisione Ollama (scores+report) + CSV |
+
+#### Parametri pipeline-ollama
+
+| Parametro    | Descrizione                 | Default |
+| ------------ | --------------------------- | ------- |
+| `MODEL=X`    | Modello Ollama              | qwen3:32b |
+| `INTERVAL=X` | Intervallo tra cicli (sec)  | 300     |
+| `LOW=X`      | Soglia bassa score          | 2       |
+| `HIGH=X`     | Soglia alta score           | 6       |
 
 ### Parametri Workflow
 
@@ -298,6 +362,12 @@ make csv-watch INTERVAL=60
 | `make activity-extract`       | Estrae e aggiorna il dataset dal PTOF |
 | `make activity-extract-reset` | Reset e rielaborazione completa       |
 | `make activity-extract-stats` | Statistiche rapide sul dataset        |
+| `make activity-theme-backfill`| Backfill temi mancanti usando LLM     |
+
+**Alias legacy:**
+- `make best-practice-extract` → `make activity-extract`
+- `make best-practice-extract-reset` → `make activity-extract-reset`
+- `make best-practice-extract-stats` → `make activity-extract-stats`
 
 #### Parametri
 
@@ -365,9 +435,9 @@ make meta-skeleton DIM=orientamento REGIONE=Marche \
 | ------------------------- | ---------------------------------------- |
 | `make meta-status`        | Stato dei report (pending/current/stale) |
 | `make meta-school CODE=X` | Report singola scuola                    |
-
-| `make meta-next` | Genera prossimo report pendente |
-| `make meta-batch N=5` | Genera N report pendenti |
+| `make meta-next`          | Genera prossimo report pendente          |
+| `make meta-batch N=5`     | Genera N report pendenti                 |
+| `make meta-refine`        | Raffina report esistenti con LLM         |
 
 ---
 
@@ -420,7 +490,72 @@ make meta-skeleton DIM=orientamento REGIONE=Marche \
 
 ---
 
-## 🤖 Modelli AI
+## � Pulizia File
+
+| Comando              | Descrizione                                   |
+| -------------------- | --------------------------------------------- |
+| `make cleanup-dry`   | Mostra cosa verrebbe eliminato (dry-run)      |
+| `make cleanup`       | Elimina file obsoleti e duplicati             |
+| `make cleanup-bak`   | Elimina file .bak recenti                     |
+| `make cleanup-bak-old` | Elimina solo .bak più vecchi di 7 giorni    |
+| `make clean`         | Pulisce file temporanei e cache               |
+
+---
+
+## 🐳 Docker
+
+| Comando              | Descrizione                         |
+| -------------------- | ----------------------------------- |
+| `make docker-up`     | Avvia container Docker              |
+| `make docker-down`   | Ferma container Docker              |
+| `make docker-build`  | Ricostruisce immagine Docker        |
+| `make docker-logs`   | Mostra log container                |
+| `make docker-status` | Stato dei container                 |
+| `make docker-shell`  | Shell interattiva nel container     |
+| `make venv`          | Crea virtual environment            |
+
+---
+
+## 🔄 Git Automatico
+
+| Comando          | Descrizione                              |
+| ---------------- | ---------------------------------------- |
+| `make git-auto`  | Add/commit/push ogni 10 min (INTERVAL=600) |
+| `make git-status`| Mostra stato git                         |
+| `make git-pull`  | Pull da remote                           |
+| `make git-push`  | Push a remote                            |
+| `make git-commit`| Commit con messaggio auto                |
+
+---
+
+## ⚙️ Configurazione
+
+| Comando            | Descrizione                              |
+| ------------------ | ---------------------------------------- |
+| `make config`      | Wizard configurazione pipeline           |
+| `make config-show` | Mostra configurazione attuale            |
+
+---
+
+## 💰 Costi e Crediti
+
+| Comando              | Descrizione                              |
+| -------------------- | ---------------------------------------- |
+| `make report-costs`  | Genera report costi API (CSV/MD)         |
+| `make check-credits` | Verifica credito residuo OpenRouter      |
+
+---
+
+## 📺 Log e Monitoring
+
+| Comando          | Descrizione                              |
+| ---------------- | ---------------------------------------- |
+| `make logs`      | Visualizzatore interattivo log (lnav)    |
+| `make logs-live` | Log in tempo reale (lnav/multitail/tail) |
+
+---
+
+## �🤖 Modelli AI
 
 | Comando                       | Descrizione                        |
 | ----------------------------- | ---------------------------------- |
@@ -428,6 +563,8 @@ make meta-skeleton DIM=orientamento REGIONE=Marche \
 | `make list-models`            | Lista modelli dai preset           |
 | `make list-models-openrouter` | Lista modelli OpenRouter           |
 | `make list-models-gemini`     | Lista modelli Gemini               |
+| `make models-ollama`          | Lista modelli Ollama scaricati     |
+| `make models-ollama-pull MODEL=X` | Scarica/aggiorna modello Ollama |
 
 ```bash
 # Solo modelli free di OpenRouter

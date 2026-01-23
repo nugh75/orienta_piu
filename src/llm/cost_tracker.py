@@ -4,6 +4,9 @@ import os
 from datetime import datetime
 from threading import Lock
 
+from src.utils import cost_tracker as shared_cost_tracker
+
+
 class CostTracker:
     _instance = None
     _lock = Lock()
@@ -29,20 +32,34 @@ class CostTracker:
         if not usage:
             return
 
+        cost = self._calculate_cost(model, provider, usage)
         entry = {
             "timestamp": datetime.now().isoformat(),
             "provider": provider,
             "model": model,
             "context": context,
             "usage": usage,
-            "cost": self._calculate_cost(model, provider, usage)
+            "cost": cost
         }
-        
+
         try:
             with open(self.log_file, 'a', encoding='utf-8') as f:
                 f.write(json.dumps(entry) + "\n")
         except Exception as e:
             self.logger.error(f"Failed to log usage: {e}")
+
+        # Registra anche nel cost_tracker condiviso per il riepilogo finale
+        try:
+            shared_cost_tracker.record_cost(
+                phase=context,
+                cost=cost,
+                input_tokens=usage.get('prompt_tokens', 0),
+                output_tokens=usage.get('completion_tokens', 0),
+                provider=provider,
+                model=model,
+            )
+        except Exception as e:
+            self.logger.debug(f"Failed to record in shared cost tracker: {e}")
             
     def _calculate_cost(self, model, provider, usage):
         # Basic pricing map (USD)

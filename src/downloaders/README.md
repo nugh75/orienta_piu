@@ -144,7 +144,9 @@ Esempio: `RMIS00100X_PTOF.pdf`
 
 ## 🔄 Strategie di Download
 
-Lo script prova diverse strategie in ordine di priorità:
+Lo script prova **8 strategie** in ordine di priorità, con fallback progressivo su API esterne:
+
+### Strategie Primarie (Gratuite)
 
 1. **Scuola In Chiaro - Pagina PTOF**
    ```
@@ -162,6 +164,69 @@ Lo script prova diverse strategie in ordine di priorità:
 
 4. **Istituto di riferimento** (solo scuole statali)
    - Per i plessi, cerca il PTOF dell'istituto comprensivo
+
+5. **DuckDuckGo Search** (gratuito, no API key)
+   - Cerca: `"{nome_scuola}" PTOF filetype:pdf`
+   - Rate limiting automatico per evitare blocchi
+
+### Strategie di Fallback (API Esterne)
+
+6. **Jina AI Search** 🆓 (gratuito)
+   - API: `s.jina.ai`
+   - Non richiede API key
+   - Cerca PTOF con query specifiche per scuola
+
+7. **Tavily Search** 🔑 (1000 ricerche/mese gratis)
+   - API: `api.tavily.com`
+   - Richiede: `TAVILY_API_KEY` in `.env`
+   - Ricerca ottimizzata per documenti
+
+8. **Brave Search** 🔑 (2000 ricerche/mese gratis)
+   - API: `api.search.brave.com`
+   - Richiede: `BRAVE_API_KEY` in `.env`
+   - Ricerca web con filtro PDF
+
+9. **Perplexity Search** 💰 (a pagamento, fallback finale)
+   - API: `api.perplexity.ai`
+   - Richiede: `PERPLEXITY_API_KEY` in `.env`
+   - Usa LLM per trovare URL precisi
+
+### Configurazione API Keys
+
+Per abilitare le strategie di fallback, configura le API key nel file `.env`:
+
+```bash
+# API per ricerca PTOF (opzionali - fallback)
+TAVILY_API_KEY=tvly-xxxxx     # https://tavily.com - 1000/mese gratis
+BRAVE_API_KEY=BSAxxxxx        # https://brave.com/search/api - 2000/mese gratis
+PERPLEXITY_API_KEY=pplx-xxxxx # https://perplexity.ai - pagamento
+```
+
+### Cascata di Ricerca
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    RICERCA PTOF                              │
+├─────────────────────────────────────────────────────────────┤
+│ 1. Scuola In Chiaro ──────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 2. Sito Web Scuola ───────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 3. Istituto Riferimento ──────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 4. DuckDuckGo (gratuito) ─────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 5. Jina AI (gratuito) ────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 6. Tavily (1000/mese) ────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 7. Brave (2000/mese) ─────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│ 8. Perplexity ($) ────────────────────────────────► Found?  │
+│                                                      ↓ No   │
+│                       ❌ FAILED                              │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ## 📈 Stato e Resume
 

@@ -51,6 +51,7 @@ help:
 	@echo "  make download-strato N=X   - Scarica X scuole per ogni strato (es: N=20)"
 	@echo "  make strata-cycle          - Ciclo incrementale stratificato (target MIUR proporzionale)"
 	@echo "                             - Usa MAX_DOWNLOADS=50 per limitare il ciclo"
+	@echo "                             - Filtra: G=grado, R=regione, GESTIONE=Statale|Paritaria"
 	@echo "  make download-statali      - Scarica tutte le scuole statali"
 	@echo "  make download-paritarie    - Scarica tutte le scuole paritarie"
 	@echo "  make download-regione R=X  - Scarica scuole di una regione (es: R=LAZIO)"
@@ -200,6 +201,24 @@ workflow:
 ifdef CONF
 	@$(PYTHON) src/utils/pipeline_wizard.py
 endif
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "📋 RIEPILOGO WORKFLOW ANALISI PTOF"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "  Provider:      $(or $(PROVIDER),auto)"
+	@echo "  Modello:       $(or $(MODEL),default)"
+	@echo "  Analyst:       $(or $(ANALYST),default)"
+	@echo "  Reviewer:      $(or $(REVIEWER),default)"
+	@echo "  Refiner:       $(or $(REFINER),default)"
+	@echo "  Synthesizer:   $(or $(SYNTHESIZER),default)"
+	@echo "  Ollama URL:    $(or $(OLLAMA_URL),default)"
+	@echo "  Preset:        $(or $(PRESET),nessuno)"
+	@echo "  Force Code:    $(or $(FORCE_CODE),nessuno)"
+	@echo "  Skip Valid.:   $(or $(SKIP_VALIDATION),no)"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	@read -p "Procedere con il workflow? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+	@echo ""
 	@echo "🛑 Arresto eventuali processi di analisi in corso..."
 	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
 	-@pkill -f "ollama_report_reviewer" 2>/dev/null || true
@@ -254,6 +273,25 @@ backfill:
 # Estrae attività dai PDF originali con Ollama
 # Uso: make activity-extract MODEL=qwen3:32b LIMIT=10
 activity-extract:
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "📋 RIEPILOGO ESTRAZIONE ATTIVITÀ"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "  Provider:       $(or $(PROVIDER),auto)"
+	@echo "  Modello:        $(or $(MODEL),default)"
+	@echo "  Ollama URL:     $(or $(OLLAMA_URL),default)"
+	@echo "  Limite scuole:  $(or $(LIMIT),nessuno)"
+	@echo "  Attesa (sec):   $(or $(WAIT),default)"
+	@echo "  Batch size:     $(or $(BATCH_SIZE),default)"
+	@echo "  Batch wait:     $(or $(BATCH_WAIT),default)"
+	@echo "  Shard:          $(or $(SHARD),nessuno)"
+	@echo "  Max costo:      $(or $(MAX_COST),nessuno)"
+	@echo "  Force:          $(if $(FORCE),si,no)"
+	@echo "  Target:         $(or $(TARGET),tutti)"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	@read -p "Procedere con l'estrazione attività? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+	@echo ""
 	@echo "🌟 Estrazione Attività dai PDF PTOF..."
 	$(PYTHON) -m src.agents.activity_extractor \
 		$(if $(MODEL),--model "$(MODEL)",) \
@@ -445,9 +483,60 @@ SEED ?= 42
 MAX_CYCLES ?= 1
 YIELD_GLOBAL ?= 0.6
 MAX_DOWNLOADS ?=
-SKIP_ANALYSIS ?= 1
+SKIP_ANALYSIS ?= 0
+# Parametri Workflow (Analisi)
+PROVIDER_WORKFLOW ?=
+MODEL_WORKFLOW ?=
+OLLAMA_URL ?= $(shell grep -s '^OLLAMA_HOST=' .env | cut -d'=' -f2 || echo "http://localhost:11434")
+ANALYST_WORKFLOW ?=
+REVIEWER_WORKFLOW ?=
+REFINER_WORKFLOW ?=
+SYNTHESIZER_WORKFLOW ?=
+# Parametri Attività
+WITH_ACTIVITY ?= 0
+PROVIDER_ACTIVITY ?=
+MODEL_ACTIVITY ?=
+MAX_COST_ACTIVITY ?=
 
 strata-cycle:
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "📋 RIEPILOGO CICLO STRATIFICATO"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	@echo "  --- DOWNLOAD ---"
+	@echo "  Target totale:    $(TARGET_TOTAL)"
+	@echo "  Target per step:  $(TARGET_STEP)"
+	@echo "  Per strato step:  $(STRATO_STEP)"
+	@echo "  Yield globale:    $(YIELD_GLOBAL)"
+	@echo "  Max cicli:        $(MAX_CYCLES)"
+	@echo "  Max downloads:    $(or $(MAX_DOWNLOADS),illimitato)"
+	@echo "  Seed:             $(SEED)"
+	@echo "  Filtro grado:     $(or $(G),tutti)"
+	@echo "  Filtro regione:   $(or $(R),tutte)"
+	@echo "  Filtro gestione:  $(or $(GESTIONE),tutte)"
+	@echo ""
+	@echo "  --- ANALISI (Workflow) ---"
+	@echo "  Skip analisi:     $(if $(filter 1,$(SKIP_ANALYSIS)),si,no)"
+	@echo "  Provider:         $(or $(PROVIDER_WORKFLOW),auto)"
+	@echo "  Ollama URL:       $(or $(OLLAMA_URL),http://localhost:11434)"
+	@echo "  Modello:          $(or $(MODEL_WORKFLOW),default)"
+	@echo "  Analyst:          $(or $(ANALYST_WORKFLOW),default)"
+	@echo "  Reviewer:         $(or $(REVIEWER_WORKFLOW),default)"
+	@echo "  Refiner:          $(or $(REFINER_WORKFLOW),default)"
+	@echo "  Synthesizer:      $(or $(SYNTHESIZER_WORKFLOW),default)"
+	@echo ""
+	@echo "  --- ESTRAZIONE ATTIVITÀ ---"
+	@echo "  Esegui attività:  $(if $(filter 1,$(WITH_ACTIVITY)),si,no)"
+	@echo "  Provider:         $(or $(PROVIDER_ACTIVITY),auto)"
+	@echo "  Ollama URL:       $(or $(OLLAMA_URL),http://localhost:11434)"
+	@echo "  Modello:          $(or $(MODEL_ACTIVITY),default)"
+	@echo "  Max costo:        $(or $(MAX_COST_ACTIVITY),nessuno)"
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	@read -p "Procedere con il ciclo stratificato? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+	@echo ""
 	$(PYTHON) -m src.processing.strata_cycle \
 		--target-total $(TARGET_TOTAL) \
 		--target-step $(TARGET_STEP) \
@@ -458,7 +547,19 @@ strata-cycle:
 		--seed $(SEED) \
 		$(if $(filter 1,$(SKIP_ANALYSIS)),--skip-analysis,) \
 		$(if $(G),--grado "$(G)",) \
-		$(if $(R),--regione "$(R)",)
+		$(if $(R),--regione "$(R)",) \
+		$(if $(GESTIONE),--gestione "$(GESTIONE)",) \
+		$(if $(PROVIDER_WORKFLOW),--provider-workflow "$(PROVIDER_WORKFLOW)",) \
+		$(if $(MODEL_WORKFLOW),--model-workflow "$(MODEL_WORKFLOW)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",) \
+		$(if $(ANALYST_WORKFLOW),--analyst "$(ANALYST_WORKFLOW)",) \
+		$(if $(REVIEWER_WORKFLOW),--reviewer "$(REVIEWER_WORKFLOW)",) \
+		$(if $(REFINER_WORKFLOW),--refiner "$(REFINER_WORKFLOW)",) \
+		$(if $(SYNTHESIZER_WORKFLOW),--synthesizer "$(SYNTHESIZER_WORKFLOW)",) \
+		$(if $(filter 1,$(WITH_ACTIVITY)),--with-activity,) \
+		$(if $(PROVIDER_ACTIVITY),--provider-activity "$(PROVIDER_ACTIVITY)",) \
+		$(if $(MODEL_ACTIVITY),--model-activity "$(MODEL_ACTIVITY)",) \
+		$(if $(MAX_COST_ACTIVITY),--max-cost-activity $(MAX_COST_ACTIVITY),)
 
 # Reset stato download e ricomincia
 download-reset:

@@ -12,6 +12,7 @@ import csv
 import json
 import logging
 import math
+import os
 import random
 import subprocess
 import sys
@@ -20,7 +21,12 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
+
 from src.downloaders import ptof_downloader as dl
+from src.utils import cost_tracker
 
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -281,9 +287,54 @@ def classify_result(result: dl.DownloadResult) -> str:
     return "failed"
 
 
-def call_workflow(logger: logging.Logger) -> None:
-    logger.info("RUN workflow_notebook.py")
-    subprocess.run([sys.executable, "workflow_notebook.py"], cwd=BASE_DIR, check=False)
+def call_workflow(
+    logger: logging.Logger,
+    provider: Optional[str] = None,
+    model: Optional[str] = None,
+    analyst: Optional[str] = None,
+    reviewer: Optional[str] = None,
+    refiner: Optional[str] = None,
+    synthesizer: Optional[str] = None,
+    ollama_url: Optional[str] = None,
+) -> None:
+    """Esegue workflow_notebook.py con i parametri specificati."""
+    cmd = [sys.executable, "workflow_notebook.py"]
+    if provider:
+        cmd.extend(["--provider", provider])
+    if model:
+        cmd.extend(["--model", model])
+    if analyst:
+        cmd.extend(["--analyst", analyst])
+    if reviewer:
+        cmd.extend(["--reviewer", reviewer])
+    if refiner:
+        cmd.extend(["--refiner", refiner])
+    if synthesizer:
+        cmd.extend(["--synthesizer", synthesizer])
+    if ollama_url:
+        cmd.extend(["--ollama-url", ollama_url])
+
+    logger.info(f"RUN {' '.join(cmd)}")
+    subprocess.run(cmd, cwd=BASE_DIR, check=False)
+
+
+def call_activity_extract(
+    logger: logging.Logger,
+    provider: Optional[str] = None,
+    model: Optional[str] = None,
+    max_cost: Optional[float] = None,
+) -> None:
+    """Esegue activity_extractor con i parametri specificati."""
+    cmd = [sys.executable, "-m", "src.agents.activity_extractor"]
+    if provider:
+        cmd.extend(["--provider", provider])
+    if model:
+        cmd.extend(["--model", model])
+    if max_cost:
+        cmd.extend(["--max-cost", str(max_cost)])
+
+    logger.info(f"RUN {' '.join(cmd)}")
+    subprocess.run(cmd, cwd=BASE_DIR, check=False)
 
 
 def rebuild_csv(logger: logging.Logger) -> None:
@@ -340,10 +391,29 @@ def main() -> int:
     parser.add_argument("--skip-analysis", action="store_true", help="Salta workflow e rebuild CSV")
     parser.add_argument("--grado", type=str, help="Filtra per grado (es. SEC_SECONDO)")
     parser.add_argument("--regione", type=str, help="Filtra per regione (es. LAZIO)")
+    parser.add_argument("--gestione", type=str, help="Filtra per gestione (Statale o Paritaria)")
+    # Parametri Workflow
+    parser.add_argument("--provider-workflow", type=str, help="Provider per analisi workflow")
+    parser.add_argument("--model-workflow", type=str, help="Modello per analisi workflow")
+    parser.add_argument("--ollama-url", type=str, default=os.environ.get("OLLAMA_HOST", "http://localhost:11434"), help="URL server Ollama")
+    parser.add_argument("--analyst", type=str, help="Modello analyst per workflow")
+    parser.add_argument("--reviewer", type=str, help="Modello reviewer per workflow")
+    parser.add_argument("--refiner", type=str, help="Modello refiner per workflow")
+    parser.add_argument("--synthesizer", type=str, help="Modello synthesizer per workflow")
+    # Parametri Attività
+    parser.add_argument("--with-activity", action="store_true", help="Esegui estrazione attività dopo analisi")
+    parser.add_argument("--provider-activity", type=str, help="Provider per estrazione attività")
+    parser.add_argument("--model-activity", type=str, help="Modello per estrazione attività")
+    parser.add_argument("--max-cost-activity", type=float, help="Limite costo per estrazione attività ($)")
     args = parser.parse_args()
 
     logger = setup_logging(LOG_DIR)
     logger.info("START ciclo stratificato incrementale")
+
+    # Inizializza il tracciamento dei costi
+    cycle_session_id = f"cycle_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    cost_tracker.start_session(cycle_session_id)
+    logger.info(f"Cost tracker inizializzato: {cycle_session_id}")
 
     state = load_cycle_state()
     rng = random.Random(args.seed)
@@ -378,6 +448,21 @@ def main() -> int:
         logger.info(f"FILTER regione: {target_regione}")
         before_len = len(schools)
         schools = [s for s in schools if s.regione.upper() == target_regione]
+        logger.info(f"Schools kept: {len(schools)}/{before_len}")
+
+    # Filtro opzionale per gestione (Statale/Paritaria)
+    if args.gestione:
+        target_gestione = args.gestione.strip().lower()
+        if target_gestione not in ("statale", "paritaria"):
+            logger.warning(f"Gestione '{args.gestione}' non valida. Usa 'Statale' o 'Paritaria'.")
+        else:
+            logger.info(f"FILTER gestione: {target_gestione.capitalize()}")
+            before_len = len(schools)
+            if target_gestione == "statale":
+                schools = [s for s in schools if s.is_statale]
+            else:
+                schools = [s for s in schools if not s.is_statale]
+            logger.info(f"Schools kept: {len(schools)}/{before_len}")
         logger.info(f"Schools kept: {len(schools)}/{before_len}")
 
     if not schools:
@@ -423,6 +508,9 @@ def main() -> int:
                 logger.info("OK target totale gia raggiunto sull'universo MIUR. Stop.")
                 state["cycle_id"] = cycle_id - 1
                 save_cycle_state(state)
+                logger.info("")
+                logger.info("=" * 60)
+                cost_tracker.log_summary(logger)
                 return 0
 
         request_valid = {
@@ -570,6 +658,9 @@ def main() -> int:
             state["cycle_id"] = cycle_id
             state["target_total"] = target_total
             save_cycle_state(state)
+            logger.info("")
+            logger.info("=" * 60)
+            cost_tracker.log_summary(logger)
             return 0
 
         start_entry = {
@@ -680,8 +771,28 @@ def main() -> int:
 
         # Analysis phase
         if not args.skip_analysis:
-            call_workflow(logger)
+            call_workflow(
+                logger,
+                provider=args.provider_workflow,
+                model=args.model_workflow,
+                analyst=args.analyst,
+                reviewer=args.reviewer,
+                refiner=args.refiner,
+                synthesizer=args.synthesizer,
+                ollama_url=args.ollama_url,
+            )
             rebuild_csv(logger)
+
+        # Activity extraction phase
+        if args.with_activity:
+            logger.info("=" * 60)
+            logger.info("FASE ESTRAZIONE ATTIVITÀ")
+            call_activity_extract(
+                logger,
+                provider=args.provider_activity,
+                model=args.model_activity,
+                max_cost=args.max_cost_activity,
+            )
 
         post_counts, _, missing_rows_post = load_analysis_counts()
         if missing_rows_post:
@@ -746,6 +857,11 @@ def main() -> int:
         state["yield_by_strato"] = yield_by_strato
         state["failures"] = failure_state
         save_cycle_state(state)
+
+    # Riepilogo costi finale
+    logger.info("")
+    logger.info("=" * 60)
+    cost_tracker.log_summary(logger)
 
     return 0
 

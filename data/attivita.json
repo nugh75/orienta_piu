@@ -2,12 +2,14 @@
   "version": "2.1",
   "format": "csv",
   "csv_file": "attivita.csv",
-  "last_updated": "2026-01-06T00:05:28.344676",
-  "extraction_model": "openrouter/google/gemini-2.5-flash-lite",
+  "last_updated": "2026-01-23T18:36:04.529715",
+  "extraction_model": "ollama/gemma3:27b",
   "extraction_models": [
     "openrouter/google/gemini-2.5-flash-lite",
-    "openrouter/google/gemini-2.5-flash-lite-preview"
+    "openrouter/google/gemini-2.5-flash-lite-preview",
+    "openrouter/qwen/qwen-2.5-72b-instruct",
+    "ollama/gemma3:27b"
   ],
-  "total_activities": 21862,
-  "schools_processed": 757
+  "total_activities": 23198,
+  "schools_processed": 831
 }

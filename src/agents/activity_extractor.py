@@ -23,6 +23,8 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional, Any, Tuple
 
+from src.utils import cost_tracker
+
 try:
     import requests
 except ImportError:
@@ -558,6 +560,15 @@ Se non trovi pratiche significative:
                         self.total_input_tokens += p_in
                         self.total_output_tokens += p_out
                         logger.info(f"💰 Usage: [{self.provider}::{self.model}] In {p_in}, Out {p_out} | Costo: $0.000000 (Tot: ${self.total_cost:.6f})")
+                        # Registra nel cost_tracker condiviso
+                        cost_tracker.record_cost(
+                            phase="activity",
+                            cost=0.0,
+                            input_tokens=p_in,
+                            output_tokens=p_out,
+                            provider=self.provider,
+                            model=self.model,
+                        )
 
                     return data.get('response', '')
 
@@ -663,8 +674,17 @@ Se non trovi pratiche significative:
                         self.total_input_tokens += prompt_tokens
                         self.total_output_tokens += completion_tokens
                         self.total_cost += total_cost
-                        
+
                         logger.info(f"💰 Usage: [{self.provider}::{self.model}] In {prompt_tokens}, Out {completion_tokens} | Costo: ${total_cost:.6f} (Tot: ${self.total_cost:.6f})")
+                        # Registra nel cost_tracker condiviso
+                        cost_tracker.record_cost(
+                            phase="activity",
+                            cost=total_cost,
+                            input_tokens=prompt_tokens,
+                            output_tokens=completion_tokens,
+                            provider=self.provider,
+                            model=self.model,
+                        )
 
                         return content
                     except (KeyError, IndexError, json.JSONDecodeError) as e:

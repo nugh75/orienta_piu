@@ -17,6 +17,10 @@ from datetime import datetime
 import time
 import argparse
 
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
+
 # Parse command line arguments
 parser = argparse.ArgumentParser(description="Workflow analisi PTOF")
 parser.add_argument("--force", action="store_true", help="Forza ri-analisi di tutti i file (ignora registro)")

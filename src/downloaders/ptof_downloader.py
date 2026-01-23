@@ -43,6 +43,10 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 import random
 
+# Carica variabili d'ambiente da .env
+from dotenv import load_dotenv
+load_dotenv()
+
 try:
     from pypdf import PdfReader
     HAS_PYPDF = True
@@ -67,6 +71,20 @@ except ImportError:
         HAS_DDG = True
     except ImportError:
         HAS_DDG = False
+
+# Tavily AI Search (1000 crediti/mese gratis)
+try:
+    from tavily import TavilyClient
+    HAS_TAVILY = True
+except ImportError:
+    HAS_TAVILY = False
+
+# OpenAI per Perplexity (API compatibile)
+try:
+    from openai import OpenAI
+    HAS_OPENAI = True
+except ImportError:
+    HAS_OPENAI = False
 
 # ═══════════════════════════════════════════════════════════════════
 # CONFIGURAZIONE
@@ -130,6 +148,24 @@ HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf,*/*;q=0.8',
     'Accept-Language': 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7',
 }
+
+# ═══════════════════════════════════════════════════════════════════
+# CONFIGURAZIONE API ESTERNE (Search fallback)
+# ═══════════════════════════════════════════════════════════════════
+# Jina AI (gratuito, rate limited) - https://jina.ai/reader
+JINA_SEARCH_URL = "https://s.jina.ai/"
+JINA_READER_URL = "https://r.jina.ai/"
+
+# Tavily AI (1000 crediti/mese gratis) - https://tavily.com
+TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY", "")
+
+# Brave Search (2000 query/mese gratis) - https://brave.com/search/api/
+BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY", "")
+BRAVE_SEARCH_URL = "https://api.search.brave.com/res/v1/web/search"
+
+# Perplexity AI (finale per ricerche difficili) - https://docs.perplexity.ai
+PERPLEXITY_API_KEY = os.environ.get("PERPLEXITY_API_KEY", "")
+PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -505,6 +541,33 @@ class PTOFDownloader:
             if result.success:
                 return result
         
+        # ═══════════════════════════════════════════════════════════════════
+        # STRATEGIE AVANZATE (API esterne) - per PTOF non trovati
+        # ═══════════════════════════════════════════════════════════════════
+        
+        # Strategia 5: Jina AI Search (gratuito, illimitato con rate limit)
+        result = self._try_jina_search(school)
+        if result.success:
+            return result
+        
+        # Strategia 6: Tavily AI (1000 crediti/mese gratis)
+        if TAVILY_API_KEY:
+            result = self._try_tavily_search(school)
+            if result.success:
+                return result
+        
+        # Strategia 7: Brave Search API (2000 query/mese gratis)
+        if BRAVE_API_KEY:
+            result = self._try_brave_search(school)
+            if result.success:
+                return result
+        
+        # Strategia 8 (FINALE): Perplexity AI per ricerche difficili
+        if PERPLEXITY_API_KEY:
+            result = self._try_perplexity_search(school)
+            if result.success:
+                return result
+        
         self.state.mark_failed(code, "Nessuna strategia ha funzionato", strato)
         self.stats["failed"] += 1
         return DownloadResult(False, "PTOF non trovato")
@@ -622,6 +685,185 @@ class PTOFDownloader:
             return DownloadResult(False, "Nessun PDF valido trovato via ricerca")
         except Exception as e:
              return DownloadResult(False, f"Errore ricerca: {e}")
+
+    def _try_jina_search(self, school: SchoolRecord) -> DownloadResult:
+        """Strategia 5: Cerca il PTOF usando Jina AI Search (gratuito)."""
+        try:
+            # Query per Jina Search
+            query = f"{school.codice} {school.denominazione} PTOF piano triennale offerta formativa"
+            search_url = f"{JINA_SEARCH_URL}{requests.utils.quote(query)}"
+            
+            headers = {
+                'Accept': 'application/json',
+                'User-Agent': HEADERS['User-Agent']
+            }
+            
+            resp = self.session.get(search_url, headers=headers, timeout=TIMEOUT)
+            if resp.status_code != 200:
+                return DownloadResult(False, f"Jina Search errore: {resp.status_code}")
+            
+            # Jina restituisce markdown, cerchiamo URL PDF
+            content = resp.text
+            pdf_urls = re.findall(r'https?://[^\s\)\"\']+\.pdf', content, re.IGNORECASE)
+            
+            for url in pdf_urls[:5]:
+                result = self._download_and_validate(url, school, "jina_search")
+                if result.success:
+                    return result
+            
+            return DownloadResult(False, "Nessun PDF valido trovato via Jina")
+        except Exception as e:
+            return DownloadResult(False, f"Errore Jina Search: {e}")
+
+    def _try_tavily_search(self, school: SchoolRecord) -> DownloadResult:
+        """Strategia 6: Cerca il PTOF usando Tavily AI (1000/mese gratis)."""
+        if not TAVILY_API_KEY:
+            return DownloadResult(False, "TAVILY_API_KEY non configurata")
+        
+        try:
+            if HAS_TAVILY:
+                client = TavilyClient(api_key=TAVILY_API_KEY)
+                query = f"{school.codice} {school.denominazione} PTOF piano triennale offerta formativa filetype:pdf"
+                response = client.search(query, max_results=5)
+                results = response.get('results', [])
+            else:
+                # Fallback: chiamata HTTP diretta
+                headers = {
+                    'Authorization': f'Bearer {TAVILY_API_KEY}',
+                    'Content-Type': 'application/json'
+                }
+                payload = {
+                    'query': f"{school.codice} {school.denominazione} PTOF piano triennale filetype:pdf",
+                    'max_results': 5,
+                    'search_depth': 'basic'
+                }
+                resp = self.session.post(
+                    'https://api.tavily.com/search',
+                    headers=headers,
+                    json=payload,
+                    timeout=TIMEOUT
+                )
+                if resp.status_code != 200:
+                    return DownloadResult(False, f"Tavily errore: {resp.status_code}")
+                results = resp.json().get('results', [])
+            
+            for res in results:
+                url = res.get('url', '')
+                if url.lower().endswith('.pdf'):
+                    result = self._download_and_validate(url, school, "tavily")
+                    if result.success:
+                        return result
+                # Prova anche a cercare PDF nel contenuto
+                content = res.get('content', '') + ' ' + res.get('raw_content', '')
+                pdf_urls = re.findall(r'https?://[^\s\)\"\']+\.pdf', content, re.IGNORECASE)
+                for pdf_url in pdf_urls[:2]:
+                    result = self._download_and_validate(pdf_url, school, "tavily")
+                    if result.success:
+                        return result
+            
+            return DownloadResult(False, "Nessun PDF valido trovato via Tavily")
+        except Exception as e:
+            return DownloadResult(False, f"Errore Tavily: {e}")
+
+    def _try_brave_search(self, school: SchoolRecord) -> DownloadResult:
+        """Strategia 7: Cerca il PTOF usando Brave Search API (2000/mese gratis)."""
+        if not BRAVE_API_KEY:
+            return DownloadResult(False, "BRAVE_API_KEY non configurata")
+        
+        try:
+            headers = {
+                'Accept': 'application/json',
+                'X-Subscription-Token': BRAVE_API_KEY
+            }
+            params = {
+                'q': f"{school.codice} {school.denominazione} PTOF piano triennale offerta formativa filetype:pdf",
+                'count': 10,
+                'country': 'IT',
+                'search_lang': 'it'
+            }
+            
+            resp = self.session.get(BRAVE_SEARCH_URL, headers=headers, params=params, timeout=TIMEOUT)
+            if resp.status_code != 200:
+                return DownloadResult(False, f"Brave Search errore: {resp.status_code}")
+            
+            data = resp.json()
+            web_results = data.get('web', {}).get('results', [])
+            
+            for res in web_results:
+                url = res.get('url', '')
+                if url.lower().endswith('.pdf'):
+                    result = self._download_and_validate(url, school, "brave")
+                    if result.success:
+                        return result
+                # Cerca PDF nella descrizione
+                description = res.get('description', '')
+                pdf_urls = re.findall(r'https?://[^\s\)\"\']+\.pdf', description, re.IGNORECASE)
+                for pdf_url in pdf_urls[:2]:
+                    result = self._download_and_validate(pdf_url, school, "brave")
+                    if result.success:
+                        return result
+            
+            return DownloadResult(False, "Nessun PDF valido trovato via Brave")
+        except Exception as e:
+            return DownloadResult(False, f"Errore Brave Search: {e}")
+
+    def _try_perplexity_search(self, school: SchoolRecord) -> DownloadResult:
+        """Strategia 8 (FINALE): Usa Perplexity AI per ricerche difficili."""
+        if not PERPLEXITY_API_KEY:
+            return DownloadResult(False, "PERPLEXITY_API_KEY non configurata")
+        
+        try:
+            headers = {
+                'Authorization': f'Bearer {PERPLEXITY_API_KEY}',
+                'Content-Type': 'application/json'
+            }
+            
+            # Prompt specifico per trovare il PTOF
+            prompt = f"""Trova il link diretto al PDF del PTOF (Piano Triennale dell'Offerta Formativa) 
+della scuola italiana con codice meccanografico {school.codice}.
+Nome scuola: {school.denominazione}
+Comune: {school.comune}, Provincia: {school.provincia}
+
+Cerca su:
+1. Sito ufficiale della scuola
+2. Portale Scuola In Chiaro (cercalatuascuola.istruzione.it)
+3. Altri siti istituzionali
+
+Rispondi SOLO con l'URL diretto al file PDF del PTOF, senza spiegazioni.
+Se non trovi il PDF, rispondi "NON TROVATO"."""
+
+            payload = {
+                'model': 'sonar',  # Modello base gratuito/economico
+                'messages': [
+                    {'role': 'user', 'content': prompt}
+                ],
+                'max_tokens': 500,
+                'temperature': 0.1
+            }
+            
+            resp = self.session.post(PERPLEXITY_API_URL, headers=headers, json=payload, timeout=60)
+            if resp.status_code != 200:
+                return DownloadResult(False, f"Perplexity errore: {resp.status_code}")
+            
+            data = resp.json()
+            content = data.get('choices', [{}])[0].get('message', {}).get('content', '')
+            
+            if 'NON TROVATO' in content.upper():
+                return DownloadResult(False, "Perplexity: PTOF non trovato")
+            
+            # Estrai URL dal contenuto
+            pdf_urls = re.findall(r'https?://[^\s\)\"\'<>]+\.pdf', content, re.IGNORECASE)
+            
+            for url in pdf_urls[:3]:
+                # Pulisci l'URL da eventuali caratteri extra
+                url = url.rstrip('.,;:)')
+                result = self._download_and_validate(url, school, "perplexity")
+                if result.success:
+                    return result
+            
+            return DownloadResult(False, "Nessun PDF valido trovato via Perplexity")
+        except Exception as e:
+            return DownloadResult(False, f"Errore Perplexity: {e}")
 
     def _find_pdf_links(self, html: str, base_url: str) -> List[str]:
         """Trova tutti i link a PDF nella pagina."""
