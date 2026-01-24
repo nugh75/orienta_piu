@@ -7233,6 +7233,48 @@
         "reason": "Solo 2 pagine (minimo: 5)"
       },
       "timestamp": "2026-01-23T18:39:37.376706"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/ATAA80103A_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/too_short/ATAA80103A_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/ATAA80103A_PTOF.pdf",
+        "file_name": "ATAA80103A_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 10566,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2026-01-24T15:25:59.926400",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2026-01-24T15:25:59.927091"
+    },
+    {
+      "original_path": "/home/nugh75/LIste/ptof_inbox/CBPS01000B_PTOF.pdf",
+      "discarded_path": "/home/nugh75/LIste/ptof_discarded/too_short/CBPS01000B_PTOF.pdf",
+      "report": {
+        "file_path": "/home/nugh75/LIste/ptof_inbox/CBPS01000B_PTOF.pdf",
+        "file_name": "CBPS01000B_PTOF.pdf",
+        "result": "too_short",
+        "confidence": 0.9,
+        "phase": "heuristic",
+        "page_count": 4,
+        "char_count": 11969,
+        "ptof_keywords_found": 0,
+        "exclusion_keywords_found": 0,
+        "school_code_found": null,
+        "llm_analysis": null,
+        "llm_confidence": null,
+        "timestamp": "2026-01-24T15:26:06.402869",
+        "reason": "Solo 4 pagine (minimo: 5)"
+      },
+      "timestamp": "2026-01-24T15:26:06.403874"
     }
   ]
 }

@@ -148,8 +148,111 @@ ORDINI_GRADO = [
     "Infanzia",
     "Primaria",
     "Secondaria I Grado",
-    "Secondaria II Grado"
+    "Licei",
+    "Istituti Tecnici",
+    "Istituti Professionali"
 ]
+
+# Mapping normalizzazione tipo scuola
+TIPO_SCUOLA_NORMALIZATION = {
+    # Infanzia
+    "infanzia": "Infanzia",
+    "scuola dell'infanzia": "Infanzia",
+    "materna": "Infanzia",
+    # Primaria
+    "primaria": "Primaria",
+    "scuola primaria": "Primaria",
+    "elementare": "Primaria",
+    "elementari": "Primaria",
+    # Secondaria I Grado
+    "secondaria i grado": "Secondaria I Grado",
+    "secondaria di i grado": "Secondaria I Grado",
+    "secondaria di primo grado": "Secondaria I Grado",
+    "scuola media": "Secondaria I Grado",
+    "media": "Secondaria I Grado",
+    "i grado": "Secondaria I Grado",
+    # Licei
+    "liceo": "Licei",
+    "liceo classico": "Licei",
+    "liceo scientifico": "Licei",
+    "liceo linguistico": "Licei",
+    "liceo artistico": "Licei",
+    "liceo musicale": "Licei",
+    "liceo coreutico": "Licei",
+    "liceo delle scienze umane": "Licei",
+    "liceo scienze umane": "Licei",
+    "liceo economico sociale": "Licei",
+    # Istituti Tecnici
+    "istituto tecnico": "Istituti Tecnici",
+    "tecnico": "Istituti Tecnici",
+    "iti": "Istituti Tecnici",
+    "its": "Istituti Tecnici",
+    "tecnici": "Istituti Tecnici",
+    # Istituti Professionali
+    "istituto professionale": "Istituti Professionali",
+    "professionale": "Istituti Professionali",
+    "ipsia": "Istituti Professionali",
+    "ipssar": "Istituti Professionali",
+    "alberghiero": "Istituti Professionali",
+    "professionali": "Istituti Professionali",
+}
+
+# Categorie di Target per raggruppamento
+TARGET_CATEGORIES = {
+    "Studenti": ["studenti", "alunni", "bambini", "studentesse", "alunne", "classe", "classi", "biennio", "triennio"],
+    "Docenti": ["docenti", "insegnanti", "personale docente", "formazione docenti"],
+    "Famiglie": ["famiglie", "genitori", "caregiver"],
+    "Personale Scolastico": ["personale ata", "personale scolastico", "personale amministrativo", "dirigent", "staff", "collaboratori scolastici"],
+    "Studenti BES/Inclusione": ["bes", "dsa", "disabilità", "disabili", "bisogni educativi", "bisogni speciali", "stranieri", "nai", "inclusione", "diversamente abili", "sostegno"],
+    "Comunità/Territorio": ["comunità", "territorio", "enti locali", "enti esterni", "associazioni", "organizzazioni", "asl", "servizi sociali"]
+}
+
+# Ordine visualizzazione target
+TARGET_ORDER = ["Studenti", "Docenti", "Famiglie", "Personale Scolastico", "Studenti BES/Inclusione", "Comunità/Territorio", "Misto/Altro"]
+
+# Ordine di priorità per matching (BES/Inclusione prima di Studenti generico)
+TARGET_PRIORITY = ["Studenti BES/Inclusione", "Personale Scolastico", "Comunità/Territorio", "Docenti", "Famiglie", "Studenti"]
+
+
+def normalize_target(target_str: str) -> list:
+    """Normalizza un target in categorie predefinite."""
+    if not target_str or pd.isna(target_str):
+        return ["N/D"]
+    
+    target_lower = str(target_str).lower()
+    categories_found = set()
+    
+    # Check per ogni categoria
+    for category, keywords in TARGET_CATEGORIES.items():
+        for keyword in keywords:
+            if keyword in target_lower:
+                categories_found.add(category)
+                break
+    
+    # Se nessuna categoria trovata, usa "Misto/Altro"
+    if not categories_found:
+        return ["Misto/Altro"]
+    
+    return list(categories_found)
+
+
+def normalize_target_single(target_str: str) -> str:
+    """Normalizza un target in una singola categoria principale.
+    Usa priorità specifica: BES/Inclusione prima di Studenti generico."""
+    if not target_str or pd.isna(target_str):
+        return "N/D"
+    
+    target_lower = str(target_str).lower()
+    
+    # Usa ordine di priorità specifico (BES prima di Studenti)
+    for category in TARGET_PRIORITY:
+        keywords = TARGET_CATEGORIES.get(category, [])
+        for keyword in keywords:
+            if keyword in target_lower:
+                return category
+    
+    return "Misto/Altro"
+
 
 REGION_COORDS = {
     'Piemonte': (45.0703, 7.6869), 'Valle d\'Aosta': (45.7388, 7.4262),
@@ -219,7 +322,7 @@ def refresh_data():
 
 
 def normalize_ordini_grado(ordine_value, tipo_value=None):
-    """Restituisce un set di ordini/gradi normalizzati usando entrambe le colonne disponibili."""
+    """Restituisce un set di ordini/gradi normalizzati (Infanzia, Primaria, Sec I, Licei, Tecnici, Professionali)."""
     labels = set()
 
     def _parse(text):
@@ -230,36 +333,86 @@ def normalize_ordini_grado(ordine_value, tipo_value=None):
             p = part.strip().lower()
             if not p:
                 continue
-
-            has_secondaria_ii = any(
-                kw in p
-                for kw in [
-                    "ii grado",
-                    "secondaria ii",
-                    "secondaria di ii",
-                    "superiore",
-                    "liceo",
-                    "istituto tecnico",
-                    "istituto professionale",
-                ]
-            )
-            has_secondaria_i = (
-                any(kw in p for kw in ["i grado", "secondaria i", "secondaria di i", "scuola media"])
-                and not has_secondaria_ii
-            )
-
-            if has_secondaria_ii:
-                labels.add("Secondaria II Grado")
-            if has_secondaria_i:
+            
+            # Check mapping diretto
+            if p in TIPO_SCUOLA_NORMALIZATION:
+                labels.add(TIPO_SCUOLA_NORMALIZATION[p])
+                continue
+            
+            # Pattern matching per casi composti
+            # Licei
+            if "liceo" in p:
+                labels.add("Licei")
+                continue
+            
+            # Istituti Tecnici
+            if "tecnic" in p and "istitut" in p:
+                labels.add("Istituti Tecnici")
+                continue
+            if p in ["iti", "its", "tecnico", "tecnici"]:
+                labels.add("Istituti Tecnici")
+                continue
+            
+            # Istituti Professionali
+            if "professionale" in p or "professional" in p:
+                labels.add("Istituti Professionali")
+                continue
+            if p in ["ipsia", "ipssar", "alberghiero"]:
+                labels.add("Istituti Professionali")
+                continue
+            
+            # Secondaria II Grado generico -> prova a dedurre
+            if "ii grado" in p or "secondo grado" in p or "secondaria ii" in p or "superiore" in p:
+                # Se non sappiamo il tipo specifico, non aggiungiamo nulla
+                # (verrà gestito dal tipo_scuola)
+                continue
+            
+            # Secondaria I Grado
+            if "i grado" in p or "primo grado" in p or "secondaria i" in p or "media" in p:
                 labels.add("Secondaria I Grado")
+                continue
+            
+            # Primaria
             if "primaria" in p or "elementar" in p:
                 labels.add("Primaria")
+                continue
+            
+            # Infanzia
             if "infanzia" in p or "materna" in p:
                 labels.add("Infanzia")
+                continue
 
     _parse(ordine_value)
     _parse(tipo_value)
     return labels
+
+
+def normalize_tipo_scuola_single(text):
+    """Normalizza un singolo valore di tipo scuola."""
+    if not text or pd.isna(text):
+        return None
+    
+    text_lower = str(text).strip().lower()
+    
+    # Check mapping diretto
+    if text_lower in TIPO_SCUOLA_NORMALIZATION:
+        return TIPO_SCUOLA_NORMALIZATION[text_lower]
+    
+    # Pattern matching
+    if "liceo" in text_lower:
+        return "Licei"
+    if "tecnic" in text_lower:
+        return "Istituti Tecnici"
+    if "professionale" in text_lower or "alberghiero" in text_lower:
+        return "Istituti Professionali"
+    if "media" in text_lower or "i grado" in text_lower:
+        return "Secondaria I Grado"
+    if "primaria" in text_lower or "elementar" in text_lower:
+        return "Primaria"
+    if "infanzia" in text_lower or "materna" in text_lower:
+        return "Infanzia"
+    
+    return None
 
 
 def normalize_multivalue_field(
@@ -1435,183 +1588,611 @@ elif section == "📊 Grafici":
 
 # === SEZIONE STATISTICHE AVANZATE ===
 elif section == "📈 Statistiche":
-    st.subheader("📈 Analisi Statistiche Avanzate")
+    st.subheader("📈 Analisi Statistiche - Incroci Attività × Geografia × Istituti")
 
-    if activity_stats is None:
-        st.error("Modulo 'src.stats.activity_stats' non trovato o dipendenze mancanti (scikit-posthocs).")
-    elif df_filtered.empty:
+    if df_filtered.empty:
         st.warning("Nessun dato disponibile per l'analisi statistica. Modifica i filtri.")
     else:
-        tab_descr, tab_infer, tab_report = st.tabs([
-            "📊 Statistica Descrittiva", 
-            "🧮 Statistica Inferenziale", 
-            "📝 Report Automatico"
+        # Helper: prepara colonna tipo_scuola normalizzata
+        def get_normalized_tipo_scuola_series(df):
+            """Crea una serie con tipo scuola normalizzato."""
+            result = []
+            for idx, row in df.iterrows():
+                ordini = normalize_ordini_grado(row.get('ordine_grado'), row.get('tipo_scuola'))
+                result.append(list(ordini) if ordini else ['N/D'])
+            return result
+        
+        # Prepara dati normalizzati una volta sola
+        df_stats = df_filtered.copy()
+        df_stats['_tipo_norm'] = get_normalized_tipo_scuola_series(df_stats)
+        
+        # Ordine logico per tipo scuola
+        TIPO_ORDER = ['Infanzia', 'Primaria', 'Secondaria I Grado', 'Licei', 'Istituti Tecnici', 'Istituti Professionali']
+        
+        # 3 Tabs principali
+        tab_geo_att, tab_ist_att, tab_confronto = st.tabs([
+            "🗺️ Geografia × Attività", 
+            "🏫 Istituto × Attività", 
+            "🔍 Analisi Comparativa"
         ])
 
-        # --- TAB 1: DESCRITTIVA ---
-        with tab_descr:
-            st.markdown("### 1.1 Riepilogo Generale")
-            stats_gen = activity_stats.compute_descriptive_stats(df_filtered)
+        # =====================================================================
+        # TAB 1: GEOGRAFIA × ATTIVITÀ
+        # =====================================================================
+        with tab_geo_att:
+            st.markdown("### 🗺️ Attività per Territorio")
+            st.markdown("Cosa fanno le scuole nelle diverse regioni e aree geografiche?")
             
-            c1, c2, c3 = st.columns(3)
-            c1.metric("N. Attività", stats_gen.get("n_total", 0))
-            c2.metric("N. Scuole", stats_gen.get("n_scuole", 0))
-            c3.metric("N. Regioni", stats_gen.get("n_regioni", 0))
-
-            if "ro_stats" in stats_gen:
-                ro = stats_gen["ro_stats"]
-                st.markdown("#### Distribuzione Indice RO")
-                c_ro1, c_ro2, c_ro3, c_ro4 = st.columns(4)
-                c_ro1.metric("Media", f"{ro['mean']:.2f}")
-                c_ro2.metric("Mediana", f"{ro['median']:.2f}")
-                c_ro3.metric("SD", f"{ro['std']:.2f}")
-                
-                norm_res = stats_gen.get("ro_normality")
-                if norm_res:
-                    is_norm = norm_res['p_value'] > 0.05
-                    norm_icon = "✅" if is_norm else "❌"
-                    c_ro4.metric("Normalità (Shapiro)", f"{norm_res['p_value']:.4f} {norm_icon}")
+            # Selettore regione/area
+            col_sel1, col_sel2 = st.columns([1, 2])
+            with col_sel1:
+                geo_level = st.radio("Livello geografico", ["Regione", "Area Geografica"], horizontal=True, key="geo_level")
             
-            st.markdown("---")
-            st.markdown("### 1.2 Distribuzioni")
-            
-            dist_var = st.selectbox(
-                "Variabile di distribuzione", 
-                ["categoria", "area_geografica", "regione", "tipo_scuola", "statale_paritaria"],
-                index=0
-            )
-            
-            if dist_var in df_filtered.columns:
-                counts = df_filtered[dist_var].value_counts().reset_index()
-                counts.columns = [dist_var, "n"]
-                counts["pct"] = (counts["n"] / len(df_filtered) * 100).round(1)
-                
-                # Calcola intervalli di confidenza binomiali per la %
-                # CI = p +/- 1.96 * sqrt(p(1-p)/n) roughly, or Wilson score
-                from statsmodels.stats.proportion import proportion_confint
-                
-                ci_lower = []
-                ci_upper = []
-                n_tot = len(df_filtered)
-                for x in counts["n"]:
-                    l, u = proportion_confint(x, n_tot, method='wilson')
-                    ci_lower.append(l*100)
-                    ci_upper.append(u*100)
-                
-                counts["ci_lower"] = ci_lower
-                counts["ci_upper"] = ci_upper
-                counts["error_bar"] = counts["ci_upper"] - counts["pct"] # symmetrical approx for viz simplicity or just use simple bar
-                
-                fig_bar = px.bar(
-                    counts, 
-                    x=dist_var, 
-                    y="pct",
-                    error_y="error_bar",
-                    text="n",
-                    title=f"Distribuzione {dist_var} (con IC 95%)",
-                    labels={"pct": "% Frequenza", dist_var: dist_var},
-                    color="n",
-                    color_continuous_scale="Blues"
-                )
-                st.plotly_chart(fig_bar, use_container_width=True)
-
-
-        # --- TAB 2: INFERENZIALE ---
-        with tab_infer:
-            st.markdown("### 2.1 Analisi delle Associazioni (Chi-quadrato / Fisher)")
-            
-            col_var1, col_var2 = st.columns(2)
-            var_row = col_var1.selectbox("Variabile Riga", ["categoria", "area_geografica", "tipo_scuola", "statale_paritaria"], index=0, key="inf_row")
-            var_col = col_var2.selectbox("Variabile Colonna", ["area_geografica", "categoria", "tipo_scuola", "statale_paritaria"], index=1, key="inf_col")
-            
-            if var_row == var_col:
-                st.warning("Seleziona due variabili diverse.")
-            else:
-                res = activity_stats.compute_chi2_analysis(df_filtered, var_row, var_col)
-                if "error" in res:
-                    st.error(res["error"])
+            with col_sel2:
+                if geo_level == "Regione":
+                    regioni_disponibili = sorted(df_stats['regione'].dropna().unique().tolist())
+                    geo_filter = st.multiselect("Seleziona Regioni (vuoto = tutte)", regioni_disponibili, key="geo_filter_reg")
+                    geo_col = 'regione'
                 else:
-                    st.success(f"Test: {res['test']} | p-value: **{res['p_value']:.4f}**")
-                    st.info(f"Dimensione Effetto (Cramer's V): **{res['cramers_v']:.2f}**")
-                    
-                    st.markdown("#### Tabella Contingenza e Residui Standardizzati")
-                    st.markdown("Celle con residui > 1.96 (blu) o < -1.96 (rosso) indicano associazioni significative.")
-                    
-                    # Heatmap Residui
-                    residuals = res.get("residuals")
-                    if residuals is not None:
-                        fig_res = px.imshow(
-                            residuals,
-                            labels=dict(x=var_col, y=var_row, color="Residui Std"),
-                            color_continuous_scale="RdBu",
-                            color_continuous_midpoint=0,
-                            text_auto=".2f",
-                            title="Heatmap Residui Standardizzati"
-                        )
-                        st.plotly_chart(fig_res, use_container_width=True)
-
-            st.markdown("---")
-            st.markdown("### 2.2 Confronti Numerici (Indice RO)")
+                    aree_disponibili = sorted(df_stats['area_geografica'].dropna().unique().tolist())
+                    geo_filter = st.multiselect("Seleziona Aree (vuoto = tutte)", aree_disponibili, key="geo_filter_area")
+                    geo_col = 'area_geografica'
             
-            group_var_num = st.selectbox(
-                "Gruppo di confronto per Indice RO", 
-                ["categoria", "area_geografica", "tipo_scuola", "statale_paritaria"],
-                index=0
+            # Filtra se necessario
+            if geo_filter:
+                df_geo = df_stats[df_stats[geo_col].isin(geo_filter)]
+            else:
+                df_geo = df_stats
+            
+            if df_geo.empty:
+                st.warning("Nessun dato per la selezione.")
+            else:
+                st.markdown(f"**{len(df_geo)} attività selezionate**")
+                st.markdown("---")
+                
+                # === AMBITI PER TERRITORIO ===
+                st.markdown("#### 📌 Ambiti Attività per Territorio")
+                
+                # Prepara dati esplosi
+                geo_ambiti_data = []
+                for idx, row in df_geo.iterrows():
+                    geo_val = row.get(geo_col, 'N/D')
+                    ambiti = pipe_to_list(row.get('ambiti_attivita', ''))
+                    for a in ambiti:
+                        geo_ambiti_data.append({geo_col: geo_val, 'ambito': a})
+                
+                if geo_ambiti_data:
+                    ga_df = pd.DataFrame(geo_ambiti_data)
+                    pivot_ga = pd.crosstab(ga_df[geo_col], ga_df['ambito'])
+                    
+                    # Limita colonne a top 12 ambiti
+                    top_ambiti = ga_df['ambito'].value_counts().head(12).index.tolist()
+                    pivot_ga = pivot_ga.reindex(columns=top_ambiti, fill_value=0)
+                    
+                    # Normalizza per riga (percentuali)
+                    pivot_ga_pct = pivot_ga.div(pivot_ga.sum(axis=1), axis=0) * 100
+                    
+                    fig_ga = px.imshow(
+                        pivot_ga_pct.round(1),
+                        labels=dict(x="Ambito Attività", y=geo_level, color="% Attività"),
+                        color_continuous_scale="Blues",
+                        aspect="auto",
+                        text_auto=".0f"
+                    )
+                    fig_ga.update_layout(height=max(300, len(pivot_ga) * 40))
+                    st.plotly_chart(fig_ga, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_ga, use_container_width=True)
+                else:
+                    st.info("Nessun dato sugli ambiti.")
+                
+                st.markdown("---")
+                
+                # === METODOLOGIE PER TERRITORIO ===
+                st.markdown("#### 📚 Metodologie per Territorio")
+                
+                geo_met_data = []
+                for idx, row in df_geo.iterrows():
+                    geo_val = row.get(geo_col, 'N/D')
+                    metodi = pipe_to_list(row.get('tipologie_metodologia', ''))
+                    for m in metodi:
+                        geo_met_data.append({geo_col: geo_val, 'metodologia': m})
+                
+                if geo_met_data:
+                    gm_df = pd.DataFrame(geo_met_data)
+                    pivot_gm = pd.crosstab(gm_df[geo_col], gm_df['metodologia'])
+                    
+                    # Limita colonne a top 12 metodologie
+                    top_met = gm_df['metodologia'].value_counts().head(12).index.tolist()
+                    pivot_gm = pivot_gm.reindex(columns=top_met, fill_value=0)
+                    
+                    # Normalizza per riga
+                    pivot_gm_pct = pivot_gm.div(pivot_gm.sum(axis=1), axis=0) * 100
+                    
+                    fig_gm = px.imshow(
+                        pivot_gm_pct.round(1),
+                        labels=dict(x="Metodologia", y=geo_level, color="% Attività"),
+                        color_continuous_scale="Greens",
+                        aspect="auto",
+                        text_auto=".0f"
+                    )
+                    fig_gm.update_layout(height=max(300, len(pivot_gm) * 40))
+                    st.plotly_chart(fig_gm, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_gm, use_container_width=True)
+                else:
+                    st.info("Nessun dato sulle metodologie.")
+                
+                st.markdown("---")
+                
+                # === TARGET PER TERRITORIO ===
+                st.markdown("#### 👥 Target per Territorio")
+                st.caption("I target sono raggruppati in categorie: Studenti, Docenti, Famiglie, Personale Scolastico, Studenti BES/Inclusione, Comunità/Territorio")
+                
+                geo_targ_data = []
+                for idx, row in df_geo.iterrows():
+                    geo_val = row.get(geo_col, 'N/D')
+                    targets = pipe_to_list(row.get('target', ''))
+                    for t in targets:
+                        # Normalizza il target in categoria
+                        cat = normalize_target_single(t)
+                        geo_targ_data.append({geo_col: geo_val, 'target_cat': cat})
+                
+                if geo_targ_data:
+                    gt_df = pd.DataFrame(geo_targ_data)
+                    pivot_gt = pd.crosstab(gt_df[geo_col], gt_df['target_cat'])
+                    
+                    # Riordina le colonne secondo TARGET_ORDER
+                    ordered_cols = [c for c in TARGET_ORDER if c in pivot_gt.columns]
+                    extra_cols = [c for c in pivot_gt.columns if c not in TARGET_ORDER]
+                    pivot_gt = pivot_gt[ordered_cols + extra_cols]
+                    
+                    # Normalizza per riga
+                    pivot_gt_pct = pivot_gt.div(pivot_gt.sum(axis=1), axis=0) * 100
+                    
+                    col_t1, col_t2 = st.columns(2)
+                    
+                    with col_t1:
+                        fig_gt = px.imshow(
+                            pivot_gt_pct.round(1),
+                            labels=dict(x="Categoria Target", y=geo_level, color="% Attività"),
+                            color_continuous_scale="Oranges",
+                            aspect="auto",
+                            text_auto=".0f"
+                        )
+                        fig_gt.update_layout(height=max(250, len(pivot_gt) * 35))
+                        st.plotly_chart(fig_gt, use_container_width=True)
+                    
+                    with col_t2:
+                        # Bar chart comparativo
+                        plot_gt = pivot_gt_pct.reset_index().melt(id_vars=geo_col, var_name='Categoria Target', value_name='Percentuale')
+                        fig_bar_gt = px.bar(
+                            plot_gt,
+                            x=geo_col,
+                            y='Percentuale',
+                            color='Categoria Target',
+                            barmode='group',
+                            title='Confronto Target per Territorio'
+                        )
+                        st.plotly_chart(fig_bar_gt, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_gt, use_container_width=True)
+                else:
+                    st.info("Nessun dato sui target.")
+
+        # =====================================================================
+        # TAB 2: ISTITUTO × ATTIVITÀ
+        # =====================================================================
+        with tab_ist_att:
+            st.markdown("### 🏫 Attività per Tipo di Istituto")
+            st.markdown("Cosa fanno le diverse tipologie di scuola? (Infanzia, Primaria, Sec. I Grado, Licei, Tecnici, Professionali)")
+            
+            # Selettore tipo istituto
+            tipi_disponibili = []
+            for tipos in df_stats['_tipo_norm']:
+                tipi_disponibili.extend(tipos)
+            tipi_disponibili = sorted(set(t for t in tipi_disponibili if t != 'N/D'))
+            
+            # Ordina secondo TIPO_ORDER
+            tipi_ordinati = [t for t in TIPO_ORDER if t in tipi_disponibili]
+            tipi_extra = [t for t in tipi_disponibili if t not in TIPO_ORDER]
+            tipi_disponibili = tipi_ordinati + tipi_extra
+            
+            tipo_filter = st.multiselect(
+                "Filtra per tipo di istituto (vuoto = tutti)", 
+                tipi_disponibili, 
+                key="tipo_filter_ist"
             )
             
-            k_res = activity_stats.compute_kruskal_analysis(df_filtered, group_var_num, "maturity_index")
-            if "error" in k_res:
-                st.warning(k_res["error"])
+            # Prepara dati esplosi per tipo
+            ist_data = []
+            for idx, row in df_stats.iterrows():
+                tipos = row['_tipo_norm']
+                if tipo_filter:
+                    tipos = [t for t in tipos if t in tipo_filter]
+                ambiti = pipe_to_list(row.get('ambiti_attivita', ''))
+                metodi = pipe_to_list(row.get('tipologie_metodologia', ''))
+                targets = pipe_to_list(row.get('target', ''))
+                
+                for t in tipos:
+                    if t and t != 'N/D':
+                        for a in ambiti:
+                            ist_data.append({'tipo': t, 'ambito': a, 'field': 'ambito'})
+                        for m in metodi:
+                            ist_data.append({'tipo': t, 'metodologia': m, 'field': 'metodologia'})
+                        for tg in targets:
+                            ist_data.append({'tipo': t, 'target': tg, 'field': 'target'})
+            
+            if not ist_data:
+                st.warning("Nessun dato per la selezione.")
             else:
-                st.success(f"Test Kruskal-Wallis: H={k_res['statistic']:.2f}, p=**{k_res['p_value']:.4f}**")
-                st.info(f"Effetto (Epsilon-quadro): **{k_res['epsilon_squared']:.2f}**")
+                ist_df = pd.DataFrame(ist_data)
                 
-                # Boxplot
-                fig_box = px.box(
-                    df_filtered, 
-                    x=group_var_num, 
-                    y="maturity_index",
-                    color=group_var_num,
-                    points="outliers",
-                    title=f"Distribuzione Indice RO per {group_var_num}"
-                )
-                st.plotly_chart(fig_box, use_container_width=True)
+                # Conta attività per tipo
+                tipo_counts = ist_df[ist_df['field'] == 'ambito'].groupby('tipo').size()
+                st.markdown(f"**Attività per tipo di istituto:**")
+                for t in tipi_disponibili:
+                    if t in tipo_counts.index:
+                        st.caption(f"- **{t}**: {tipo_counts[t]} occorrenze")
                 
-                # Post-hoc Dunn
-                if k_res['p_value'] < 0.05:
-                    st.markdown("#### Test Post-hoc (Dunn + Bonferroni)")
-                    dunn_df = activity_stats.compute_dunn_posthoc(df_filtered, group_var_num, "maturity_index")
+                st.markdown("---")
+                
+                # === AMBITI PER TIPO ISTITUTO ===
+                st.markdown("#### 📌 Ambiti Attività per Tipo Istituto")
+                
+                ambiti_df = ist_df[ist_df['field'] == 'ambito']
+                if not ambiti_df.empty:
+                    pivot_ia = pd.crosstab(ambiti_df['tipo'], ambiti_df['ambito'])
                     
-                    if not dunn_df.empty:
-                        # Filtra solo significativi per leggibilità
-                        st.markdown("Matrice p-values (mostrati solo se p < 0.05)")
-                        
-                        # Heatmap p-values
-                        fig_dunn = px.imshow(
-                            dunn_df,
-                            labels=dict(color="p-value"),
-                            color_continuous_scale="Greens_r",
-                            zmin=0, zmax=0.05,
-                            title="P-values significativi (verde scuro = p basso)"
-                        )
-                        st.plotly_chart(fig_dunn, use_container_width=True)
-                    else:
-                        st.warning("Impossibile calcolare post-hoc (modulo mancante o errore dati).")
-
-        # --- TAB 3: REPORT ---
-        with tab_report:
-            st.markdown("### 📝 Generazione Report Automatico")
-            if st.button("Genera Sintesi Testuale"):
-                with st.spinner("Generazione analisi in corso..."):
-                    report_text = activity_stats.generate_stats_report(df_filtered)
-                    st.markdown(report_text)
+                    # Riordina righe
+                    pivot_ia = pivot_ia.reindex(index=[t for t in TIPO_ORDER if t in pivot_ia.index])
                     
-                    st.download_button(
-                        "📥 Scarica Report TXT",
-                        data=report_text,
-                        file_name="report_statistico.txt",
-                        mime="text/plain"
+                    # Limita colonne
+                    top_ambiti = ambiti_df['ambito'].value_counts().head(12).index.tolist()
+                    pivot_ia = pivot_ia.reindex(columns=top_ambiti, fill_value=0)
+                    
+                    # Percentuali per riga
+                    pivot_ia_pct = pivot_ia.div(pivot_ia.sum(axis=1), axis=0) * 100
+                    
+                    fig_ia = px.imshow(
+                        pivot_ia_pct.round(1),
+                        labels=dict(x="Ambito Attività", y="Tipo Istituto", color="% Attività"),
+                        color_continuous_scale="Blues",
+                        aspect="auto",
+                        text_auto=".0f"
                     )
+                    fig_ia.update_layout(height=max(250, len(pivot_ia) * 45))
+                    st.plotly_chart(fig_ia, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_ia, use_container_width=True)
+                
+                st.markdown("---")
+                
+                # === METODOLOGIE PER TIPO ISTITUTO ===
+                st.markdown("#### 📚 Metodologie per Tipo Istituto")
+                
+                met_df = ist_df[ist_df['field'] == 'metodologia']
+                if not met_df.empty:
+                    pivot_im = pd.crosstab(met_df['tipo'], met_df['metodologia'])
+                    
+                    # Riordina righe
+                    pivot_im = pivot_im.reindex(index=[t for t in TIPO_ORDER if t in pivot_im.index])
+                    
+                    # Limita colonne
+                    top_met = met_df['metodologia'].value_counts().head(12).index.tolist()
+                    pivot_im = pivot_im.reindex(columns=top_met, fill_value=0)
+                    
+                    # Percentuali per riga
+                    pivot_im_pct = pivot_im.div(pivot_im.sum(axis=1), axis=0) * 100
+                    
+                    fig_im = px.imshow(
+                        pivot_im_pct.round(1),
+                        labels=dict(x="Metodologia", y="Tipo Istituto", color="% Attività"),
+                        color_continuous_scale="Greens",
+                        aspect="auto",
+                        text_auto=".0f"
+                    )
+                    fig_im.update_layout(height=max(250, len(pivot_im) * 45))
+                    st.plotly_chart(fig_im, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_im, use_container_width=True)
+                
+                st.markdown("---")
+                
+                # === TARGET PER TIPO ISTITUTO ===
+                st.markdown("#### 👥 Target per Tipo Istituto")
+                st.caption("I target sono raggruppati in categorie")
+                
+                targ_df = ist_df[ist_df['field'] == 'target'].copy()
+                if not targ_df.empty:
+                    # Normalizza i target in categorie
+                    targ_df['target_cat'] = targ_df['target'].apply(normalize_target_single)
+                    
+                    pivot_it = pd.crosstab(targ_df['tipo'], targ_df['target_cat'])
+                    
+                    # Riordina righe
+                    pivot_it = pivot_it.reindex(index=[t for t in TIPO_ORDER if t in pivot_it.index])
+                    
+                    # Riordina colonne secondo TARGET_ORDER
+                    ordered_cols = [c for c in TARGET_ORDER if c in pivot_it.columns]
+                    extra_cols = [c for c in pivot_it.columns if c not in TARGET_ORDER]
+                    pivot_it = pivot_it[ordered_cols + extra_cols]
+                    
+                    # Percentuali per riga
+                    pivot_it_pct = pivot_it.div(pivot_it.sum(axis=1), axis=0) * 100
+                    
+                    col_it1, col_it2 = st.columns(2)
+                    
+                    with col_it1:
+                        fig_it = px.imshow(
+                            pivot_it_pct.round(1),
+                            labels=dict(x="Categoria Target", y="Tipo Istituto", color="% Attività"),
+                            color_continuous_scale="Purples",
+                            aspect="auto",
+                            text_auto=".0f"
+                        )
+                        fig_it.update_layout(height=max(200, len(pivot_it) * 40))
+                        st.plotly_chart(fig_it, use_container_width=True)
+                    
+                    with col_it2:
+                        # Bar chart comparativo
+                        plot_it = pivot_it_pct.reset_index().melt(id_vars='tipo', var_name='Categoria Target', value_name='Percentuale')
+                        fig_bar_it = px.bar(
+                            plot_it,
+                            x='tipo',
+                            y='Percentuale',
+                            color='Categoria Target',
+                            barmode='group',
+                            title='Confronto Target per Tipo Istituto'
+                        )
+                        st.plotly_chart(fig_bar_it, use_container_width=True)
+                    
+                    with st.expander("📋 Tabella valori assoluti"):
+                        st.dataframe(pivot_it, use_container_width=True)
+
+        # =====================================================================
+        # TAB 3: ANALISI COMPARATIVA
+        # =====================================================================
+        with tab_confronto:
+            st.markdown("### 🔍 Analisi Comparativa")
+            st.markdown("Confronta territori o tipi di istituto specifici.")
+            
+            compare_mode = st.radio(
+                "Cosa vuoi confrontare?",
+                ["Confronto Regioni", "Confronto Tipi Istituto", "Incrocio Territorio × Tipo Istituto"],
+                horizontal=True,
+                key="compare_mode"
+            )
+            
+            st.markdown("---")
+            
+            if compare_mode == "Confronto Regioni":
+                st.markdown("#### 🗺️ Confronto tra Regioni")
+                
+                regioni_disp = sorted(df_stats['regione'].dropna().unique().tolist())
+                regioni_sel = st.multiselect(
+                    "Seleziona 2-5 regioni da confrontare",
+                    regioni_disp,
+                    default=regioni_disp[:3] if len(regioni_disp) >= 3 else regioni_disp,
+                    max_selections=5,
+                    key="compare_regioni"
+                )
+                
+                if len(regioni_sel) >= 2:
+                    df_cmp = df_stats[df_stats['regione'].isin(regioni_sel)]
+                    
+                    # Ambiti
+                    st.markdown("##### Ambiti Attività")
+                    cmp_amb_data = []
+                    for idx, row in df_cmp.iterrows():
+                        reg = row['regione']
+                        for a in pipe_to_list(row.get('ambiti_attivita', '')):
+                            cmp_amb_data.append({'regione': reg, 'ambito': a})
+                    
+                    if cmp_amb_data:
+                        cmp_amb_df = pd.DataFrame(cmp_amb_data)
+                        pivot_cmp = pd.crosstab(cmp_amb_df['regione'], cmp_amb_df['ambito'], normalize='index') * 100
+                        
+                        top_amb = cmp_amb_df['ambito'].value_counts().head(10).index.tolist()
+                        pivot_cmp = pivot_cmp.reindex(columns=top_amb, fill_value=0)
+                        
+                        fig_cmp = px.bar(
+                            pivot_cmp.reset_index().melt(id_vars='regione', var_name='Ambito', value_name='%'),
+                            x='regione',
+                            y='%',
+                            color='Ambito',
+                            barmode='group',
+                            title='Distribuzione Ambiti per Regione (%)'
+                        )
+                        st.plotly_chart(fig_cmp, use_container_width=True)
+                    
+                    # Metodologie
+                    st.markdown("##### Metodologie")
+                    cmp_met_data = []
+                    for idx, row in df_cmp.iterrows():
+                        reg = row['regione']
+                        for m in pipe_to_list(row.get('tipologie_metodologia', '')):
+                            cmp_met_data.append({'regione': reg, 'metodologia': m})
+                    
+                    if cmp_met_data:
+                        cmp_met_df = pd.DataFrame(cmp_met_data)
+                        pivot_met = pd.crosstab(cmp_met_df['regione'], cmp_met_df['metodologia'], normalize='index') * 100
+                        
+                        top_met = cmp_met_df['metodologia'].value_counts().head(8).index.tolist()
+                        pivot_met = pivot_met.reindex(columns=top_met, fill_value=0)
+                        
+                        fig_met = px.bar(
+                            pivot_met.reset_index().melt(id_vars='regione', var_name='Metodologia', value_name='%'),
+                            x='regione',
+                            y='%',
+                            color='Metodologia',
+                            barmode='group',
+                            title='Distribuzione Metodologie per Regione (%)'
+                        )
+                        st.plotly_chart(fig_met, use_container_width=True)
+                else:
+                    st.info("Seleziona almeno 2 regioni per il confronto.")
+            
+            elif compare_mode == "Confronto Tipi Istituto":
+                st.markdown("#### 🏫 Confronto tra Tipi di Istituto")
+                
+                tipi_sel = st.multiselect(
+                    "Seleziona 2-4 tipi da confrontare",
+                    TIPO_ORDER,
+                    default=TIPO_ORDER[:3] if len(TIPO_ORDER) >= 3 else TIPO_ORDER,
+                    max_selections=4,
+                    key="compare_tipi"
+                )
+                
+                if len(tipi_sel) >= 2:
+                    # Prepara dati
+                    cmp_tipo_data = []
+                    for idx, row in df_stats.iterrows():
+                        tipos = [t for t in row['_tipo_norm'] if t in tipi_sel]
+                        for t in tipos:
+                            for a in pipe_to_list(row.get('ambiti_attivita', '')):
+                                cmp_tipo_data.append({'tipo': t, 'ambito': a, 'field': 'ambito'})
+                            for m in pipe_to_list(row.get('tipologie_metodologia', '')):
+                                cmp_tipo_data.append({'tipo': t, 'metodologia': m, 'field': 'metodologia'})
+                    
+                    if cmp_tipo_data:
+                        cmp_df = pd.DataFrame(cmp_tipo_data)
+                        
+                        # Ambiti
+                        st.markdown("##### Ambiti Attività")
+                        amb_df = cmp_df[cmp_df['field'] == 'ambito']
+                        pivot_amb = pd.crosstab(amb_df['tipo'], amb_df['ambito'], normalize='index') * 100
+                        pivot_amb = pivot_amb.reindex(index=[t for t in TIPO_ORDER if t in pivot_amb.index])
+                        
+                        top_amb = amb_df['ambito'].value_counts().head(10).index.tolist()
+                        pivot_amb = pivot_amb.reindex(columns=top_amb, fill_value=0)
+                        
+                        fig_amb = px.bar(
+                            pivot_amb.reset_index().melt(id_vars='tipo', var_name='Ambito', value_name='%'),
+                            x='tipo',
+                            y='%',
+                            color='Ambito',
+                            barmode='group',
+                            title='Distribuzione Ambiti per Tipo Istituto (%)'
+                        )
+                        st.plotly_chart(fig_amb, use_container_width=True)
+                        
+                        # Metodologie
+                        st.markdown("##### Metodologie")
+                        met_df = cmp_df[cmp_df['field'] == 'metodologia']
+                        pivot_met = pd.crosstab(met_df['tipo'], met_df['metodologia'], normalize='index') * 100
+                        pivot_met = pivot_met.reindex(index=[t for t in TIPO_ORDER if t in pivot_met.index])
+                        
+                        top_met = met_df['metodologia'].value_counts().head(8).index.tolist()
+                        pivot_met = pivot_met.reindex(columns=top_met, fill_value=0)
+                        
+                        fig_met = px.bar(
+                            pivot_met.reset_index().melt(id_vars='tipo', var_name='Metodologia', value_name='%'),
+                            x='tipo',
+                            y='%',
+                            color='Metodologia',
+                            barmode='group',
+                            title='Distribuzione Metodologie per Tipo Istituto (%)'
+                        )
+                        st.plotly_chart(fig_met, use_container_width=True)
+                else:
+                    st.info("Seleziona almeno 2 tipi per il confronto.")
+            
+            else:  # Incrocio Territorio × Tipo Istituto
+                st.markdown("#### 🔀 Incrocio Territorio × Tipo Istituto")
+                st.markdown("Esempio: *In Sicilia, cosa fanno i Licei rispetto ai Tecnici?*")
+                
+                col_geo, col_tipo = st.columns(2)
+                
+                with col_geo:
+                    geo_sel = st.selectbox(
+                        "Seleziona Regione o Area",
+                        ["Tutte"] + sorted(df_stats['regione'].dropna().unique().tolist()),
+                        key="incrocio_geo"
+                    )
+                
+                with col_tipo:
+                    tipi_incr = st.multiselect(
+                        "Seleziona Tipi Istituto",
+                        TIPO_ORDER,
+                        default=TIPO_ORDER,
+                        key="incrocio_tipi"
+                    )
+                
+                # Filtra
+                if geo_sel != "Tutte":
+                    df_incr = df_stats[df_stats['regione'] == geo_sel]
+                    geo_label = geo_sel
+                else:
+                    df_incr = df_stats
+                    geo_label = "Italia"
+                
+                if df_incr.empty or not tipi_incr:
+                    st.warning("Nessun dato per la selezione.")
+                else:
+                    # Prepara dati
+                    incr_data = []
+                    for idx, row in df_incr.iterrows():
+                        tipos = [t for t in row['_tipo_norm'] if t in tipi_incr]
+                        for t in tipos:
+                            for a in pipe_to_list(row.get('ambiti_attivita', '')):
+                                incr_data.append({'tipo': t, 'ambito': a})
+                            for m in pipe_to_list(row.get('tipologie_metodologia', '')):
+                                incr_data.append({'tipo': t, 'metodologia': m})
+                    
+                    if incr_data:
+                        incr_df = pd.DataFrame(incr_data)
+                        
+                        st.markdown(f"##### Ambiti in **{geo_label}** per Tipo Istituto")
+                        
+                        # Pivot ambiti
+                        amb_incr = incr_df[incr_df['ambito'].notna()].copy()
+                        if not amb_incr.empty:
+                            pivot_incr_amb = pd.crosstab(amb_incr['tipo'], amb_incr['ambito'], normalize='index') * 100
+                            pivot_incr_amb = pivot_incr_amb.reindex(index=[t for t in TIPO_ORDER if t in pivot_incr_amb.index])
+                            
+                            top_amb = amb_incr['ambito'].value_counts().head(10).index.tolist()
+                            pivot_incr_amb = pivot_incr_amb.reindex(columns=top_amb, fill_value=0)
+                            
+                            fig_incr_amb = px.imshow(
+                                pivot_incr_amb.round(1),
+                                labels=dict(x="Ambito", y="Tipo Istituto", color="% Attività"),
+                                color_continuous_scale="YlOrRd",
+                                aspect="auto",
+                                text_auto=".0f",
+                                title=f"Ambiti Attività in {geo_label}"
+                            )
+                            fig_incr_amb.update_layout(height=max(200, len(pivot_incr_amb) * 50))
+                            st.plotly_chart(fig_incr_amb, use_container_width=True)
+                        
+                        st.markdown(f"##### Metodologie in **{geo_label}** per Tipo Istituto")
+                        
+                        # Pivot metodologie
+                        met_incr = incr_df[incr_df['metodologia'].notna()].copy()
+                        if not met_incr.empty:
+                            pivot_incr_met = pd.crosstab(met_incr['tipo'], met_incr['metodologia'], normalize='index') * 100
+                            pivot_incr_met = pivot_incr_met.reindex(index=[t for t in TIPO_ORDER if t in pivot_incr_met.index])
+                            
+                            top_met = met_incr['metodologia'].value_counts().head(10).index.tolist()
+                            pivot_incr_met = pivot_incr_met.reindex(columns=top_met, fill_value=0)
+                            
+                            fig_incr_met = px.imshow(
+                                pivot_incr_met.round(1),
+                                labels=dict(x="Metodologia", y="Tipo Istituto", color="% Attività"),
+                                color_continuous_scale="YlGnBu",
+                                aspect="auto",
+                                text_auto=".0f",
+                                title=f"Metodologie in {geo_label}"
+                            )
+                            fig_incr_met.update_layout(height=max(200, len(pivot_incr_met) * 50))
+                            st.plotly_chart(fig_incr_met, use_container_width=True)
+                    else:
+                        st.info("Nessun dato per l'incrocio selezionato.")
 
 # === SEZIONE EXPORT ===
 elif section == "📥 Export":

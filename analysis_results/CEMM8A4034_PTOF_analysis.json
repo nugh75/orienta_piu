@@ -1,0 +1,171 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CEMM8A4034",
+    "denominazione": "Scuola Media - Camigliano",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Camigliano",
+    "anno_ptof": "2024-2025",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Pio 1",
+    "cap": "81040",
+    "email": "ceic8a4001@istruzione.it",
+    "pec": "ND",
+    "website": "www.icpignatarocamigliano.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Esiste una sezione dedicata all'orientamento, seppur non molto estesa. Si concentra principalmente sul percorso per l'orientamento e le tematiche affrontate."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Aziende del territorio",
+        "Famiglie"
+      ],
+      "partnership_count": 2
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5,
+        "evidence_quote": "acquisire le competenze trasversali... utili per compiere scelte consapevoli e informate",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_interessi": {
+        "score": 5,
+        "evidence_quote": "riflettere sui propri interessi, motivazioni e attitudini",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "dare risposta alle domande che sorgono nel momento in cui si deve seguire un percorso di studi",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "ridurre la dispersione scolastica, a diminuire il disallineamento tra formazione e lavoro",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4,
+        "evidence_quote": "fornire agli studenti gli strumenti per poter orientarSI nella vita",
+        "evidence_location": "Pagina 1"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso per la conoscenza di sé",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività di autoanalisi delle proprie risorse e motivazioni, ricerca di informazioni relative al contesto.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Riflessione sulle proprie capacità, motivazioni e attitudini.",
+      "5w_dove": "Aula scolastica",
+      "5w_quando": "Durante tutto l'anno scolastico",
+      "5w_perche": "Aiutare gli studenti a riconoscere il proprio valore e le proprie potenzialità.",
+      "ore_dichiarate": "30",
+      "target": "Classi prime, seconde e terze",
+      "evidence_quote": "autoanalisi delle proprie risorse e motivazioni",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Percorso per la conoscenza dei mestieri",
+      "categoria_principale": "Visita guidata",
+      "descrizione_e_metodologia": "Visite guidate sul territorio e interviste ai professionisti.",
+      "5w_chi": "Studenti e docenti",
+      "5w_cosa": "Raccolta di informazioni sulle professioni del territorio.",
+      "5w_dove": "Aziende del territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Conoscere l'offerta formativa e le professioni disponibili.",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime, seconde e terze",
+      "evidence_quote": "Visite guidate sul territorio e interviste ai professionisti",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Percorso di dialogo con le famiglie",
+      "categoria_principale": "Incontro",
+      "descrizione_e_metodologia": "Presentazione delle attività svolte e dibattito con le famiglie.",
+      "5w_chi": "Studenti, genitori e docenti",
+      "5w_cosa": "Condivisione dei risultati del percorso di orientamento.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Coinvolgere le famiglie nel processo di orientamento.",
+      "ore_dichiarate": "ND",
+      "target": "Classi prime, seconde e terze",
+      "evidence_quote": "presentazione delle attività svolte attraverso un breve dibattito",
+      "evidence_location": "Pagina 3"
+    }
+  ],
+  "narrative": "**Istituto Comprensivo Pignataro Maggiore - Camigliano** dedica una sezione specifica all'orientamento nel suo PTOF, riconoscendone l'importanza per la riduzione della dispersione scolastica e l'allineamento tra formazione e mondo del lavoro. Il percorso di orientamento si articola attorno a tre nuclei tematici: la conoscenza di sé, l'esplorazione dei mestieri e il coinvolgimento delle famiglie. Le **attività** proposte comprendono laboratori di autoanalisi, visite guidate presso aziende del territorio e incontri con i genitori. Il progetto “Percorsi di tutoraggio per l’orientamento agli studi e alle carriere STEM” rappresenta un'iniziativa significativa, che prevede attività laboratoriali finalizzate alla realizzazione di prodotti concreti. La scuola collabora con le **aziende del territorio** e le famiglie per offrire agli studenti un'esperienza formativa più completa. Il **coordinatore di classe** si occupa della gestione di un fascicolo personale dell'orientamento per ciascun studente. Pur delineando un approccio strutturato, il PTOF evidenzia la necessità di potenziare il monitoraggio delle azioni intraprese e la valutazione dei risultati ottenuti. L'efficacia del percorso di orientamento potrebbe essere ulteriormente accresciuta attraverso una più sistematica raccolta di feedback da parte degli studenti e delle famiglie, e una maggiore attenzione alla personalizzazione dei percorsi in base alle specifiche esigenze di ciascuno. Infine, un'analisi approfondita dei dati relativi all'inserimento scolastico e professionale degli ex-alunni consentirebbe di valutare l'impatto a lungo termine delle iniziative di orientamento."
+}

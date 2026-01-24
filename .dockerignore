@@ -23,8 +23,10 @@ backups/
 .env
 
 # Non necessari nel container
-Makefile
 *.md
-*.sh
 workflow_notebook.py
 DOCKER_PLAN.md
+
+# Includi esplicitamente (NON ignorare):
+# - Makefile (per task runner)
+# - scripts/*.sh (per avvio servizi)

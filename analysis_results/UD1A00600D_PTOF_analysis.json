@@ -1,0 +1,178 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UD1A00600D",
+    "denominazione": "Scuola Infanzia Paritaria Paola Di Rosa",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Arta Terme",
+    "anno_ptof": "2022-2025",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Fontana 23",
+    "cap": "33022",
+    "email": "infanziapaoladirosa@gmail.com",
+    "pec": "congregazionesuorecarita@legalmail.it",
+    "website": "www.comune.trieste.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in modo generico all'interno di altri paragrafi, come nella descrizione delle finalità educative e nell'ampliamento dell'offerta formativa."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "Goethe-Zentrum Triest",
+        "Federazione Italiana Nuoto – Centro Federale di Trieste",
+        "SCI CLUB 70",
+        "Slowfood",
+        "ditte di gestione del servizio mensa",
+        "Istituto degli Innocenti di Firenze",
+        "Azienda per i Servizi Sanitari"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali, sociali e culturali di ciascuno",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 1
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini di tutte le Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Promozione della lettura",
+      "5w_dove": "Scuole dell'infanzia e Biblioteche Civiche",
+      "5w_quando": "Annuale",
+      "5w_perche": "Potenziamento culturale e formativo",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvicinamento al canto e alla musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività musicali in collaborazione con realtà cittadine",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Canto e musica",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo musicale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di avvicinamento al canto e alla musica",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Introduzione alla lingua e cultura tedesca",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Approccio ludico alla lingua e cultura tedesca in collaborazione con il Goethe-Zentrum Triest",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Lingua e cultura tedesca",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Apertura interculturale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Introduzione alla lingua e alla cultura dei paesi di lingua tedesca",
+      "evidence_location": "Pagina 5"
+    }
+  ],
+  "narrative": "Il PTOF delle Scuole dell’Infanzia del Comune di Trieste delinea un’offerta formativa diversificata e orientata allo sviluppo integrale del bambino, con un’attenzione particolare all’inclusione. Sebbene il documento non presenti una sezione specificamente dedicata all’orientamento, si evidenzia l'importanza della maturazione dell'identità e dello sviluppo delle competenze come elementi fondanti per il percorso educativo. Le numerose **partnership** con enti locali quali le **Biblioteche Civiche**, il **Teatro Stabile del Friuli Venezia Giulia** e il **Goethe-Zentrum Triest** ampliano le opportunità di apprendimento e arricchiscono l'offerta formativa. I progetti proposti, incentrati sulla promozione della **lettura**, sull'avvicinamento al **canto e alla musica** e sull'esplorazione di diverse **culture**, contribuiscono a stimolare gli interessi e le attitudini dei bambini. Un punto di forza del PTOF è l'impegno nel coinvolgimento delle **famiglie**, attraverso iniziative volte a favorire la collaborazione e la corresponsabilità educativa. Tuttavia, l'orientamento non è concepito come un processo strutturato e trasversale, con obiettivi specifici e azioni mirate a supportare le transizioni formative e a sviluppare le capacità orientative dei bambini. L'offerta di **attività opzionali** in ambito culturale, espressivo e sportivo rappresenta un valore aggiunto, ma la loro connessione con percorsi di orientamento non è esplicitamente definita.  Inoltre, sebbene l'inclusione sia un tema ricorrente, manca un'analisi approfondita delle strategie e delle azioni concrete implementate per garantire il pieno coinvolgimento di tutti i bambini, con particolare attenzione a quelli con fragilità. In sintesi, il PTOF dimostra una buona attenzione alla qualità dell'offerta educativa, ma necessita di un maggiore focus sull'orientamento e sull'inclusione come elementi integranti del processo formativo."
+}

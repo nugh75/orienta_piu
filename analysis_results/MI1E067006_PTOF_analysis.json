@@ -1,0 +1,178 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MI1E067006",
+    "denominazione": "Scuola Primaria Paritaria Istituto Madre Cabrini",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Corso Di Porta Romana 105",
+    "cap": "20122",
+    "email": "segreteria.cabrini105@gmail.com",
+    "pec": "segreteria.milano105@legalmail.it",
+    "website": "www.cabrini105.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in relazione alla transizione verso la scuola primaria, ma in modo generico."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "Goethe-Zentrum Triest",
+        "Federazione Italiana Nuoto – Centro Federale di Trieste",
+        "SCI CLUB 70",
+        "Slowfood",
+        "Ditte di gestione del servizio mensa",
+        "Istituto degli Innocenti di Firenze",
+        "Azienda per i Servizi Sanitari"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali, sociali e culturali di ciascuno",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "La scuola dell'infanzia si presenta, quale primo segmento del percorso scolastico",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini di tutte le Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Promozione della lettura",
+      "5w_dove": "Scuole dell'infanzia e Biblioteche Civiche",
+      "5w_quando": "Annuale",
+      "5w_perche": "Potenziare il livello culturale e formativo dei bambini",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvicinamento al canto e alla musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività musicali in collaborazione con realtà cittadine.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Canto e musica",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Sviluppo delle competenze musicali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di avvicinamento al canto e alla musica",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Introduzione alla lingua e cultura tedesca",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Approccio ludico alla lingua e cultura tedesca in collaborazione con il Goethe-Zentrum Triest.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Lingua e cultura tedesca",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Annuale",
+      "5w_perche": "Avvicinare i bambini alla cultura tedesca",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Introduzione alla lingua e alla cultura dei paesi di lingua tedesca",
+      "evidence_location": "Pagina 5"
+    }
+  ],
+  "narrative": "Il PTOF delle Scuole dell’Infanzia del Comune di Trieste delinea un’offerta formativa diversificata e orientata all’innovazione pedagogica, con una chiara attenzione alla collaborazione con il territorio. Pur non prevedendo una sezione specificamente dedicata all’orientamento, il documento sottolinea l’importanza di sviluppare l’identità, l’autonomia e le competenze dei bambini, elementi cruciali per il loro futuro percorso educativo e professionale. Le **partnership** con enti quali le **Biblioteche Civiche**, il **Teatro Stabile del Friuli Venezia Giulia** e il **Goethe-Zentrum Triest** arricchiscono l’offerta didattica, offrendo ai bambini opportunità di apprendimento stimolanti e diversificate. I **progetti** implementati, come la promozione della lettura, i percorsi musicali e l’introduzione alla lingua tedesca, mirano a sviluppare le potenzialità individuali e a favorire un approccio all’apprendimento basato sull’esperienza diretta. L'impegno per la **continuità** con il territorio e la valorizzazione delle risorse locali rappresentano un punto di forza del PTOF. Tuttavia, si rileva una mancanza di una strategia organica e sistematica per l’orientamento, con obiettivi specifici e azioni mirate a supportare i bambini nella transizione verso la scuola primaria e nella definizione dei propri **interessi e aspirazioni**. L'attenzione è prevalentemente focalizzata sullo sviluppo delle competenze di base e sull’ampliamento dell’offerta formativa, piuttosto che sulla preparazione consapevole alle scelte future. Inoltre, il PTOF dedica una significativa attenzione all'**inclusione**, come evidenziato nelle pagine 2 e 3, ma manca un'analisi approfondita delle strategie e delle azioni specifiche implementate per garantire un ambiente di apprendimento inclusivo e rispondere alle esigenze di tutti i bambini, compresi quelli con fragilità. Infine, l'assenza di un sistema di monitoraggio e valutazione delle azioni intraprese limita la possibilità di verificarne l’efficacia nel tempo e di apportare eventuali miglioramenti."
+}

@@ -1214,8 +1214,8 @@ Esempi:
         """
     )
     
-    # Tipo scuole
-    source = parser.add_mutually_exclusive_group(required=True)
+    # Tipo scuole (non richiesto se si usa --retry-failed)
+    source = parser.add_mutually_exclusive_group(required=False)
     source.add_argument('--statali', action='store_true', help='Solo scuole statali')
     source.add_argument('--paritarie', action='store_true', help='Solo scuole paritarie')
     source.add_argument('--tutte', action='store_true', help='Tutte le scuole')
@@ -1243,9 +1243,21 @@ Esempi:
     parser.add_argument('--reset', action='store_true', help='Reset stato e ricomincia')
     parser.add_argument('--dry-run', action='store_true', help='Mostra stratificazione senza scaricare')
     parser.add_argument('--seed', type=int, default=42, help='Seed per riproducibilità')
-    
+
+    # Retry falliti
+    parser.add_argument('--retry-failed', type=int, nargs='?', const=50, default=None,
+                       help='Riprova N scuole fallite (default: 50)')
+    parser.add_argument('--retry-min-attempts', type=int, default=1,
+                       help='Riprova solo scuole con almeno N tentativi falliti')
+    parser.add_argument('--retry-max-attempts', type=int, default=10,
+                       help='Non riprovare scuole con più di N tentativi')
+
     args = parser.parse_args()
-    
+
+    # Verifica che sia specificata una modalità
+    if args.retry_failed is None and not (args.statali or args.paritarie or args.tutte):
+        parser.error("Specificare --statali, --paritarie, --tutte oppure --retry-failed")
+
     # Seed per riproducibilità
     random.seed(args.seed)
     
@@ -1259,10 +1271,92 @@ Esempi:
         logger.info("🔄 Stato resettato")
     
     state = DownloadState(STATE_FILE)
-    
+
+    # === MODALITÀ RETRY FALLITI ===
+    if args.retry_failed is not None:
+        logger.info("="*70)
+        logger.info("🔄 MODALITÀ RETRY SCUOLE FALLITE")
+        logger.info("="*70)
+
+        failed_dict = state.state.get("failed", {})
+        if not failed_dict:
+            logger.warning("Nessuna scuola fallita nel registro!")
+            return
+
+        # Filtra per numero tentativi
+        eligible = []
+        for code, info in failed_dict.items():
+            attempts = info.get("attempts", 1)
+            if args.retry_min_attempts <= attempts <= args.retry_max_attempts:
+                eligible.append((code, info))
+
+        logger.info(f"📊 Scuole fallite totali: {len(failed_dict)}")
+        logger.info(f"📊 Scuole eligibili (tentativi {args.retry_min_attempts}-{args.retry_max_attempts}): {len(eligible)}")
+
+        if not eligible:
+            logger.warning("Nessuna scuola eligibile per retry!")
+            return
+
+        # Ordina per tentativi (meno tentativi prima) e prendi N
+        eligible.sort(key=lambda x: x[1].get("attempts", 1))
+        to_retry = eligible[:args.retry_failed]
+        retry_codes = set(code for code, _ in to_retry)
+
+        logger.info(f"🎯 Scuole da riprovare: {len(to_retry)}")
+
+        # Mostra statistiche per strato
+        strato_counts = {}
+        for code, info in to_retry:
+            strato = info.get("strato", "UNKNOWN")
+            strato_counts[strato] = strato_counts.get(strato, 0) + 1
+
+        logger.info("\n📊 Per strato:")
+        for strato, count in sorted(strato_counts.items()):
+            logger.info(f"   {strato}: {count}")
+
+        if args.dry_run:
+            logger.info("\n🔍 DRY RUN - Nessun download")
+            logger.info("\nPrime 20 scuole da riprovare:")
+            for code, info in to_retry[:20]:
+                reason = info.get("reason", "N/A")[:40]
+                attempts = info.get("attempts", 1)
+                logger.info(f"   {code} (tentativi: {attempts}) - {reason}")
+            return
+
+        # Carica anagrafiche per avere i dati completi delle scuole
+        all_schools = []
+        if ANAGRAFE_STAT.exists():
+            all_schools.extend(load_schools_statali(ANAGRAFE_STAT))
+        if ANAGRAFE_PAR.exists():
+            all_schools.extend(load_schools_paritarie(ANAGRAFE_PAR))
+
+        # Trova le scuole da riprovare
+        schools_to_retry = [s for s in all_schools if s.codice in retry_codes]
+        logger.info(f"✅ Trovate {len(schools_to_retry)} scuole nelle anagrafiche")
+
+        if not schools_to_retry:
+            logger.error("Nessuna scuola trovata nelle anagrafiche!")
+            return
+
+        # Rimuovi dalla lista failed prima di riprovare (per permettere nuovo tentativo)
+        for code in retry_codes:
+            if code in state.state["failed"]:
+                # Incrementa tentativi ma non rimuovi completamente
+                pass
+
+        # Esegui download
+        _set_download_lock(True)
+        try:
+            run_download(schools_to_retry, state, DOWNLOAD_DIR)
+        finally:
+            _set_download_lock(False)
+
+        return
+
+    # === MODALITÀ NORMALE ===
     # Carica scuole
     schools = []
-    
+
     if args.statali or args.tutte:
         if ANAGRAFE_STAT.exists():
             logger.info(f"📖 Caricamento scuole statali da {ANAGRAFE_STAT.name}...")

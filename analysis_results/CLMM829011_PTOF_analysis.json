@@ -1,0 +1,160 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CLMM829011",
+    "denominazione": "A. Manzoni - Niscemi",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Niscemi",
+    "anno_ptof": "2022-2025",
+    "provincia": "Caltanissetta",
+    "regione": "Sicilia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Serbatoio Snc",
+    "cap": "93015",
+    "email": "clic82900x@istruzione.it",
+    "pec": "ND",
+    "website": "www.icfrancescosalerno.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato in diversi punti, ma non esiste una sezione dedicata esplicita. Si parla di ampliamento dell'offerta formativa per l'orientamento (pag. 4) e di percorsi di alternanza scuola-lavoro (pag. 12), ma senza una trattazione organica."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Associazione Oltremodo",
+        "Associazioni presenti",
+        "Villaggio del Fanciullo",
+        "Comune di Bologna",
+        "Ufficio-Scuola dei diversi quartieri cittadini"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "promuovendo corsi per utilizzare corretti metodi di studio",
+        "evidence_location": "Pag. 4"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "ampliamento dell'offerta formativa, in particolare per quanto riguarda l'orientamento",
+        "evidence_location": "Pag. 4"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "dopo aver sviluppato in modo armonico i diversi aspetti delle loro personalità",
+        "evidence_location": "Pag. 10"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "percorsi di alternanza scuola-lavoro nel secondo ciclo di istruzione (PCTO) mirati all'orientamento al mondo universitario e delle professioni",
+        "evidence_location": "Pag. 12"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna evidenza specifica",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Tutta un'Altra Scuola",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Tempo scuola più lungo, didattica laboratoriale, flipped classroom, apprendimento intervallato.",
+      "5w_chi": "Studenti della Scuola Secondaria di I Grado",
+      "5w_cosa": "Riorganizzazione del tempo scolastico e delle metodologie didattiche.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Migliorare l'apprendimento e sviluppare competenze.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti I Grado",
+      "evidence_quote": "attraverso il progetto Tutta un'Altra Scuola",
+      "evidence_location": "Pag. 22"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro (PCTO)",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro mirati all'orientamento al mondo universitario e delle professioni.",
+      "5w_chi": "Studenti del II ciclo",
+      "5w_cosa": "Esperienze pratiche in contesti lavorativi.",
+      "5w_dove": "Aziende, Enti",
+      "5w_quando": "Durante il secondo ciclo di istruzione",
+      "5w_perche": "Orientare gli studenti verso il mondo del lavoro e l'università.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti II Grado",
+      "evidence_quote": "percorsi di alternanza scuola-lavoro",
+      "evidence_location": "Pag. 12"
+    }
+  ],
+  "narrative": "## Analisi del PTOF CLMM829011\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\nIl PTOF dell'Istituto Alessandro Manzoni evidenzia un approccio all'orientamento integrato nelle diverse aree di intervento, pur mancando di una sezione dedicata. L'istituto punta sull'ampliamento dell'offerta formativa e sull'innovazione didattica, come dimostra il progetto **Tutta un'Altra Scuola**, per potenziare le competenze degli studenti. Tuttavia, si rileva l'assenza di una strategia orientata a definire obiettivi specifici e a rispondere alle esigenze del territorio.\n\n### 2. Analisi Dimensionale\n#### 2.1 Sezione Dedicata all'Orientamento\nLa mancanza di una sezione specifica per l'orientamento costituisce una lacuna significativa. L'orientamento è trattato in modo frammentario, all'interno di altri capitoli, limitandone l'efficacia e la visibilità.\n\n#### 2.2 Partnership e Reti\nLa collaborazione con realtà territoriali quali l'**Associazione Oltremodo**, il **Villaggio del Fanciullo** e il **Comune di Bologna** rappresenta un punto di forza. Queste partnership offrono opportunità concrete per arricchire l'offerta formativa e favorire esperienze di orientamento sul territorio.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti. Tuttavia, la definizione degli obiettivi specifici e dei risultati attesi risulta insufficiente. È necessario definire come le competenze sviluppate contribuiscano concretamente all'orientamento degli studenti.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i servizi scolastici, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie. L'integrazione di un sistema per l'inclusione e la gestione delle fragilità potrebbe migliorare il supporto agli studenti con difficoltà di orientamento.\n\n#### 2.5 Didattica Orientativa\nL'istituto adotta metodologie didattiche innovative, come la didattica laboratoriale e la flipped classroom, che favoriscono l'apprendimento attivo. Tuttavia, è necessario integrare queste metodologie con attività specifiche di orientamento, volte all'esplorazione del mondo del lavoro e dell'università.\n\n#### 2.6 Opportunità Formative\nL'offerta formativa diversificata (licei scientifici, istituto tecnico) offre agli studenti diverse opportunità di orientamento. È fondamentale garantire una comunicazione efficace e una valorizzazione adeguata di queste opzioni.\n\n#### 2.7 Registro Dettagliato delle Attività\n#### 2.7.1 Progetto Tutta un'Altra Scuola\nIl progetto **Tutta un'Altra Scuola** promuove l'innovazione didattica attraverso la riorganizzazione del tempo scolastico, l'utilizzo di metodologie attive e l'integrazione delle tecnologie digitali, rivolgendosi agli studenti della Scuola Secondaria di I Grado.\n\n#### 2.7.2 Alternanza Scuola-Lavoro (PCTO)\nL'attività di **Alternanza Scuola-Lavoro (PCTO)** offre agli studenti del II ciclo di istruzione l'opportunità di acquisire competenze professionali e di orientarsi verso il mondo del lavoro e l'università attraverso esperienze pratiche in contesti aziendali.\n\n### 3. Punti di Forza\nI punti di forza del PTOF risiedono nella collaborazione con il territorio, nell'adozione di metodologie didattiche innovative e nell'attenzione allo sviluppo delle competenze degli studenti.\n\n### 4. Aree di Debolezza\nLe principali aree di debolezza sono l'assenza di una sezione dedicata all'orientamento, la mancanza di obiettivi specifici e l'esigenza di potenziare l'inclusione e la gestione delle fragilità.\n\n### 5. Gap Analysis\nIl gap principale è rappresentato dalla mancanza di una visione strategica e sistematica dell'orientamento, che integri le diverse azioni in un quadro coerente e condiviso.\n\n### 6. Conclusioni\nIl PTOF dell'Istituto Alessandro Manzoni presenta un buon potenziale per l'orientamento degli studenti. Superare le lacune identificate e implementare una strategia più strutturata consentirebbe di garantire un servizio efficace e di qualità."
+}

@@ -5,7 +5,7 @@
 	logs logs-live \
 	refresh full pipeline pipeline-ollama \
 	download download-sample download-strato download-statali download-paritarie \
-	download-regione download-metro download-non-metro download-grado download-area download-reset \
+	download-regione download-metro download-non-metro download-grado download-area download-reset download-retry sync-sampling \
 	strata-cycle \
 	review-report-openrouter review-report-gemini review-report-ollama \
 	review-scores-openrouter review-scores-gemini review-scores-ollama \
@@ -20,7 +20,8 @@
 	check-truncated fix-truncated list-backups \
 	git-auto git-status git-pull git-push git-commit \
 	meta-status meta-school meta-regional meta-national meta-thematic meta-next meta-batch \
-	docker-up docker-down docker-build docker-logs docker-status docker-shell venv
+	docker-up docker-down docker-build docker-logs docker-status docker-shell venv \
+	tui web-runner
 
 PYTHON = .venv/bin/python
 PIP = .venv/bin/pip
@@ -40,6 +41,8 @@ help:
 	@echo "  make setup                - Installa le dipendenze"
 	@echo "  make help                 - Mostra questo elenco"
 	@echo "  make wizard               - Wizard interattivo per i comandi make"
+	@echo "  make tui                  - Avvia Task Runner TUI (terminale)"
+	@echo "  make web-runner PORT=5000 - Avvia Task Runner Web UI"
 	@echo "  make config               - Wizard configurazione pipeline (modelli, chunking)"
 	@echo "  make config-show          - Mostra configurazione attuale"
 	@echo "  make logs                 - Visualizzatore interattivo log (lnav se installato)"
@@ -59,6 +62,7 @@ help:
 	@echo "  make download-non-metro    - Scarica solo province NON metropolitane"
 	@echo "  make download-grado G=X    - Scarica per grado (G=INFANZIA/PRIMARIA/SEC_PRIMO/SEC_SECONDO)"
 	@echo "  make download-area A=X     - Scarica per area geografica (A=NORD OVEST/SUD/ISOLE...)"
+	@echo "  make download-retry N=50   - Riprova N download falliti (MIN_ATTEMPTS=1, MAX_ATTEMPTS=10)"
 	@echo "  make download-reset        - Reset stato download e ricomincia"
 	@echo ""
 	@echo "ANALISI E WORKFLOW:"
@@ -215,9 +219,12 @@ endif
 	@echo "  Preset:        $(or $(PRESET),nessuno)"
 	@echo "  Force Code:    $(or $(FORCE_CODE),nessuno)"
 	@echo "  Skip Valid.:   $(or $(SKIP_VALIDATION),no)"
+	@echo "  Auto-confirm:  $(if $(YES),si,no)"
 	@echo "════════════════════════════════════════════════════════════"
 	@echo ""
+ifndef YES
 	@read -p "Procedere con il workflow? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+endif
 	@echo ""
 	@echo "🛑 Arresto eventuali processi di analisi in corso..."
 	-@pkill -f "workflow_notebook.py" 2>/dev/null || true
@@ -288,9 +295,12 @@ activity-extract:
 	@echo "  Max costo:      $(or $(MAX_COST),nessuno)"
 	@echo "  Force:          $(if $(FORCE),si,no)"
 	@echo "  Target:         $(or $(TARGET),tutti)"
+	@echo "  Auto-confirm:   $(if $(YES),si,no)"
 	@echo "════════════════════════════════════════════════════════════"
 	@echo ""
+ifndef YES
 	@read -p "Procedere con l'estrazione attività? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+endif
 	@echo ""
 	@echo "🌟 Estrazione Attività dai PDF PTOF..."
 	$(PYTHON) -m src.agents.activity_extractor \
@@ -532,10 +542,13 @@ strata-cycle:
 	@echo "  Ollama URL:       $(or $(OLLAMA_URL),http://localhost:11434)"
 	@echo "  Modello:          $(or $(MODEL_ACTIVITY),default)"
 	@echo "  Max costo:        $(or $(MAX_COST_ACTIVITY),nessuno)"
+	@echo "  Auto-confirm:     $(if $(YES),si,no)"
 	@echo ""
 	@echo "════════════════════════════════════════════════════════════"
 	@echo ""
+ifndef YES
 	@read -p "Procedere con il ciclo stratificato? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
+endif
 	@echo ""
 	$(PYTHON) -m src.processing.strata_cycle \
 		--target-total $(TARGET_TOTAL) \
@@ -561,9 +574,33 @@ strata-cycle:
 		$(if $(MODEL_ACTIVITY),--model-activity "$(MODEL_ACTIVITY)",) \
 		$(if $(MAX_COST_ACTIVITY),--max-cost-activity $(MAX_COST_ACTIVITY),)
 
+# Riprova download falliti
+# Uso: make download-retry N=50 MIN_ATTEMPTS=1 MAX_ATTEMPTS=5
+download-retry:
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "🔄 RETRY DOWNLOAD FALLITI"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "  Scuole da riprovare: $(or $(N),50)"
+	@echo "  Min tentativi:       $(or $(MIN_ATTEMPTS),1)"
+	@echo "  Max tentativi:       $(or $(MAX_ATTEMPTS),10)"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	$(PYTHON) $(DOWNLOADER) \
+		--retry-failed $(or $(N),50) \
+		--retry-min-attempts $(or $(MIN_ATTEMPTS),1) \
+		--retry-max-attempts $(or $(MAX_ATTEMPTS),10) \
+		$(if $(DRY),--dry-run,)
+
+# Sincronizza dati campionamento con download effettivi
+# Uso: make sync-sampling [DRY=1]
+sync-sampling:
+	@echo "🔄 Sincronizzazione dati campionamento..."
+	$(PYTHON) -m src.processing.sync_sampling $(if $(DRY),--dry-run,)
+
 # Reset stato download e ricomincia
 download-reset:
-	rm -f src/downloaders/download_state.json
+	rm -f data/download_state.json
 	@echo "Stato download resettato."
 
 # ═══════════════════════════════════════════════════════════════════
@@ -979,3 +1016,20 @@ venv:
 	python3 -m venv .venv
 	@echo "Attiva con: source .venv/bin/activate"
 	@echo "Poi esegui: make setup"
+
+# ═══════════════════════════════════════════════════════════════════
+# TASK RUNNER (TUI + Web)
+# ═══════════════════════════════════════════════════════════════════
+
+## TUI - Interfaccia terminale con Textual
+tui:
+	@echo "🖥️  Avvio Task Runner TUI..."
+	$(PYTHON) -m src.taskrunner.tui
+
+## Web Runner - Interfaccia web con Flask + SSE
+web-runner:
+	@echo "🌐 Avvio Task Runner Web UI..."
+	@echo "   URL: http://localhost:$(or $(PORT),5000)"
+	@-fuser -k $(or $(PORT),5000)/tcp 2>/dev/null || true
+	@sleep 0.5
+	$(PYTHON) -m src.taskrunner.web --port $(or $(PORT),5000)

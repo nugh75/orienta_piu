@@ -1,0 +1,174 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ANAA84501G",
+    "denominazione": "Fabriano Est \"A.Moro\"",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Fabriano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Aldo Moro 4",
+    "cap": "60044",
+    "email": "anic84500p@istruzione.it",
+    "pec": "ND",
+    "website": "icaldomorofabriano.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è menzionato all'interno di sezioni più ampie (Offerta Formativa, Iniziative di ampliamento) ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "istituzioni di istruzione superiore secondaria",
+        "associazioni di settore",
+        "Servizi Socio-Sanitari",
+        "Ufficio Scolastico Regionale",
+        "Omnis"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 2,
+        "evidence_quote": "Nessuna evidenza diretta.",
+        "evidence_location": "N/A"
+      },
+      "finalita_interessi": {
+        "score": 2,
+        "evidence_quote": "Nessuna evidenza diretta.",
+        "evidence_location": "N/A"
+      },
+      "finalita_progetto_vita": {
+        "score": 3,
+        "evidence_quote": "Sviluppo di un percorso di apprendimento permanente e duraturo nel tempo.",
+        "evidence_location": "Pagina 7"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "Utilizzare in modo sempre piu' strutturato il curricolo verticale delle competenze in uscita tra i tre ordini di scuola.",
+        "evidence_location": "Pagina 6"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": "Nessuna evidenza diretta.",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Conseguimento certificazioni STARTERS (cl. 5^ primaria) e KET (cl. 3^ sec. I grado).",
+      "5w_chi": "Alunni classi 5^ primaria e 3^ sec. I grado",
+      "5w_cosa": "Preparazione e sostenimento esami di certificazione linguistica.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziamento competenze linguistiche.",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Conseguimento delle seguenti certificazioni linguistiche: alunni classi 5^ scuole primarie - STARTERS alunni classi 3^ sec di 1° grado - KET",
+      "evidence_location": "Pagina 10"
+    },
+    {
+      "titolo_attivita": "Scuola attiva KIDS - MARCHE IN MOVIMENTO",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Sviluppo attività motorie nella scuola primaria.",
+      "5w_chi": "Alunni scuola primaria",
+      "5w_cosa": "Attività motorie e sportive.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziamento competenze motorie e stile di vita sano.",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Sviluppo delle attività motorie nel segmento della scuola primaria",
+      "evidence_location": "Pagina 11"
+    },
+    {
+      "titolo_attivita": "Legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Incontri e dibattiti sui temi della legalità e utilizzo consapevole dei social network.",
+      "5w_chi": "Alunni",
+      "5w_cosa": "Incontri e dibattiti",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo comportamenti responsabili e rispetto della legalità.",
+      "ore_dichiarate": "ND",
+      "target": "Alunni",
+      "evidence_quote": "Favorire incontri e dibattiti sui temi della legalità, del rispetto e dell'utilizzo consapevole dei canali social",
+      "evidence_location": "Pagina 12"
+    }
+  ],
+  "narrative": "Il PTOF dell'Istituto Comprensivo Fabriano Est \"Aldo Moro\" integra l'orientamento come dimensione trasversale, pur non prevedendo una sezione dedicata specificamente a questo ambito. L'istituto concentra le proprie energie sullo sviluppo delle competenze degli studenti, con particolare attenzione alle aree linguistica, logico-scientifica e motoria. Sono presenti **partnership** con istituzioni di istruzione superiore e associazioni di settore, le cui modalità di applicazione nell'orientamento in uscita necessiterebbero di maggiore dettaglio. Si evidenzia un'attenzione alla continuità tra i diversi ordini di scuola, attraverso l'utilizzo di un curricolo verticale delle competenze, e all'inclusione degli studenti con bisogni educativi speciali. Tra le **attività** registrate, si segnalano le certificazioni linguistiche, il progetto \"Scuola attiva KIDS\" per lo sviluppo delle competenze motorie e le iniziative di educazione alla legalità. La sezione 'Valutazione degli apprendimenti' (pagina 22) include criteri di valutazione per l'educazione civica, che potrebbero essere collegati alle attività di orientamento. L'offerta di attività opzionali è presente, ma non risulta esplicitamente orientata all'esplorazione di interessi e attitudini degli studenti. In conclusione, il PTOF dimostra una sensibilità verso le tematiche dell'orientamento, ma un'ulteriore strutturazione e integrazione potrebbero rafforzarne l'efficacia nel supportare gli studenti nel loro percorso di crescita personale e professionale."
+}
