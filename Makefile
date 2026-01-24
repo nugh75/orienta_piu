@@ -23,8 +23,8 @@
 	docker-up docker-down docker-build docker-logs docker-status docker-shell venv \
 	tui web-runner
 
-PYTHON = .venv/bin/python
-PIP = .venv/bin/pip
+PYTHON ?= .venv/bin/python
+PIP ?= .venv/bin/pip
 STREAMLIT = streamlit
 DOWNLOADER = src/downloaders/ptof_downloader.py
 UPLOAD_PORTAL = src/portal/ptof_upload_portal.py

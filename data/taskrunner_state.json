@@ -1,7 +1,51 @@
 {
   "tasks": [
     {
-      "id": "d41d8953",
+      "id": "6aa464a7",
+      "command": "workflow",
+      "make_target": "workflow",
+      "variables": {
+        "MODEL": "gemma3:27b",
+        "ANALYST": "gemma3:27b",
+        "REVIEWER": "gemma3:27b",
+        "REFINER": "gemma3:27b",
+        "SYNTHESIZER": "gemma3:27b",
+        "PROVIDER": "ollama",
+        "OLLAMA_URL": "http://192.168.129.14:11434"
+      },
+      "status": "failed",
+      "pid": null,
+      "created_at": "2026-01-24T19:35:17.632683",
+      "started_at": null,
+      "finished_at": null,
+      "exit_code": null,
+      "log_file": "/app/logs/taskrunner/tasks/6aa464a7.log",
+      "error_message": "[Errno 2] No such file or directory: 'make'"
+    },
+    {
+      "id": "1b267abb",
+      "command": "workflow",
+      "make_target": "workflow",
+      "variables": {
+        "MODEL": "gemma3:27b",
+        "ANALYST": "gemma3:27b",
+        "REVIEWER": "gemma3:27b",
+        "REFINER": "gemma3:27b",
+        "SYNTHESIZER": "gemma3:27b",
+        "PROVIDER": "ollama",
+        "OLLAMA_URL": "http://192.168.129.14:11434"
+      },
+      "status": "failed",
+      "pid": 87,
+      "created_at": "2026-01-24T19:42:49.902222",
+      "started_at": "2026-01-24T19:42:49.905905",
+      "finished_at": "2026-01-24T19:42:49.910500",
+      "exit_code": 2,
+      "log_file": "/app/logs/taskrunner/tasks/1b267abb.log",
+      "error_message": null
+    },
+    {
+      "id": "a9c037be",
       "command": "workflow",
       "make_target": "workflow",
       "variables": {
@@ -14,16 +58,16 @@
         "OLLAMA_URL": "http://192.168.129.14:11434"
       },
       "status": "running",
-      "pid": 430435,
-      "created_at": "2026-01-24T15:37:12.669528",
-      "started_at": "2026-01-24T15:37:12.671987",
+      "pid": 24,
+      "created_at": "2026-01-24T19:45:59.127869",
+      "started_at": "2026-01-24T19:45:59.129469",
       "finished_at": null,
       "exit_code": null,
-      "log_file": "/home/nugh75/LIste/logs/taskrunner/tasks/d41d8953.log",
+      "log_file": "/app/logs/taskrunner/tasks/a9c037be.log",
       "error_message": null
     },
     {
-      "id": "cff71f18",
+      "id": "3ea13444",
       "command": "activity-extract",
       "make_target": "activity-extract",
       "variables": {
@@ -32,30 +76,14 @@
         "LIMIT": "100"
       },
       "status": "running",
-      "pid": 430594,
-      "created_at": "2026-01-24T15:37:28.460204",
-      "started_at": "2026-01-24T15:37:28.461942",
+      "pid": 142,
+      "created_at": "2026-01-24T19:47:17.112913",
+      "started_at": "2026-01-24T19:47:17.116130",
       "finished_at": null,
       "exit_code": null,
-      "log_file": "/home/nugh75/LIste/logs/taskrunner/tasks/cff71f18.log",
-      "error_message": null
-    },
-    {
-      "id": "342ed637",
-      "command": "csv-watch",
-      "make_target": "csv-watch",
-      "variables": {
-        "INTERVAL": "600"
-      },
-      "status": "running",
-      "pid": 430825,
-      "created_at": "2026-01-24T15:37:42.338143",
-      "started_at": "2026-01-24T15:37:42.340084",
-      "finished_at": null,
-      "exit_code": null,
-      "log_file": "/home/nugh75/LIste/logs/taskrunner/tasks/342ed637.log",
+      "log_file": "/app/logs/taskrunner/tasks/3ea13444.log",
       "error_message": null
     }
   ],
-  "saved_at": "2026-01-24T19:06:22.512189"
+  "saved_at": "2026-01-24T19:47:17.116928"
 }

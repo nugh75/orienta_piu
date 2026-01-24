@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-24T19:36:35.994587",
+  "last_updated": "2026-01-24T19:59:49.248206",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -5645,6 +5645,336 @@
     "SATNOI500S": {
       "file_hash": "sha256:13772fba083ee50157fc58e1259b8492ed158d59266f360a313d9d30072bddae",
       "processed_at": "2026-01-24T19:36:35.994579",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "SSTD02500P": {
+      "file_hash": "sha256:bfad0ff57397586d287201a89bd556a0f7e9fae80a2acd5e2196ebf952a05bae",
+      "processed_at": "2026-01-24T19:42:35.978996",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "APPSNE500L": {
+      "file_hash": "sha256:f5d2b4ae5bc8f732752819407c8b1c15af9f1385b7e25eac462431cf722a6e19",
+      "processed_at": "2026-01-24T19:43:20.121811",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "BOPS05500C": {
+      "file_hash": "sha256:b8d1c5b4b6435b0a9afab7afa4061590eb0a44b8777fbc58ad7877008488a40c",
+      "processed_at": "2026-01-24T19:44:04.755940",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "BOPSPI500D": {
+      "file_hash": "sha256:0e9cbcc27faa7775395964c475bd262cbfc44d664c642835defc252f673a7ad0",
+      "processed_at": "2026-01-24T19:45:34.816962",
+      "practices_count": 9,
+      "model_used": "gemma3:27b"
+    },
+    "BSAA87504P": {
+      "file_hash": "sha256:1335a8c2df8b132f449e27752b6d7c4c35a4d6d5ecf3605f4044654f82c436ec",
+      "processed_at": "2026-01-24T19:46:15.746119",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "BTSL046019": {
+      "file_hash": "sha256:77b7942a6dfe9c09c2661e919a95328e61bc53a17c990bc114b23ddf57b78cae",
+      "processed_at": "2026-01-24T19:47:05.391056",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CA1AS25001": {
+      "file_hash": "sha256:1eb6a2196009e0ce1add8f1f2c3caaa8e04501e5e3398eb0e518302beb1d6221",
+      "processed_at": "2026-01-24T19:47:50.804767",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CAAA82501T": {
+      "file_hash": "sha256:6f7b59b5ec91b1bf4e342b5014708a3c41ed3eb994e664efa77a6e926be31a9e",
+      "processed_at": "2026-01-24T19:48:41.479811",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CATF955004": {
+      "file_hash": "sha256:5b978b0c2da009c18b46e566b85e72d7aa444f9f618d2f22e79406739eed72e3",
+      "processed_at": "2026-01-24T19:49:24.295492",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CEAA855014": {
+      "file_hash": "sha256:54637b5dd423e4f448ec056245f5d1431db41529178efa16bd4d60ce7f0b3805",
+      "processed_at": "2026-01-24T19:55:25.979467",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CEIS014005": {
+      "file_hash": "sha256:1cb33ccb0a207608fa6468923e58e2ea8deb8e2c5ed9536a76a8f0b1412c2a31",
+      "processed_at": "2026-01-24T19:56:22.738287",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "CEMM8A4034": {
+      "file_hash": "sha256:940ef98bba356a90ac76a463872675e6145a209d9eba9248891f1bada4a8ec7d",
+      "processed_at": "2026-01-24T19:57:07.808128",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "CHMM80601Q": {
+      "file_hash": "sha256:37a686c5c33c2d226e4597f7b663f7326f9024f190c94c76fb06afe4abcb5402",
+      "processed_at": "2026-01-24T19:57:56.684919",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CNAA85701G": {
+      "file_hash": "sha256:652fc8e17da0abfce22400d227e538dcc96086496084147204797c81a1357f58",
+      "processed_at": "2026-01-24T19:58:34.698833",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "CRAA81307X": {
+      "file_hash": "sha256:11b768cd1c540a05b00f90d3cb526026c296171fd1ddcfaf5fc6c31181e8e396",
+      "processed_at": "2026-01-24T19:59:26.961438",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CS1A12500T": {
+      "file_hash": "sha256:bd6f8d38eba308cd72f6900faab0bbce7ba7e034d8ece04aeaf2ed75f66a1c3a",
+      "processed_at": "2026-01-24T20:01:26.142876",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSEE81902A": {
+      "file_hash": "sha256:b74562e4a82919f02fc58190e5f3773fb36912a9e6aba7f2f14f8f9102b4a0d4",
+      "processed_at": "2026-01-24T20:02:13.951008",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSEE85403P": {
+      "file_hash": "sha256:5fa36f1ddd0ef45976f2e564a99893ba2018ff15a26ce9064665e85194a82b3a",
+      "processed_at": "2026-01-24T20:04:07.142083",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSEE883125": {
+      "file_hash": "sha256:ada0d0454fcb481705cdba686a5d52e37c5b7a1dc1c4315ae513a8f765feef17",
+      "processed_at": "2026-01-24T20:04:51.592370",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSIS001006": {
+      "file_hash": "sha256:f9b6b3c9c782fa0d24540258355236e5f194029a056a14d956b7809800c23b7b",
+      "processed_at": "2026-01-24T20:10:47.276087",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSIS051007": {
+      "file_hash": "sha256:9a00e65709aeaa7e0ca9e0b69c465aa715d5a7afa33e5fa925fcad38d5476c58",
+      "processed_at": "2026-01-24T20:11:29.629725",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSIS08300P": {
+      "file_hash": "sha256:af71b54ff5e8fe841e3fc2e6a04117dac2980b7c2594779494f87d88afe50173",
+      "processed_at": "2026-01-24T20:12:11.603639",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSPS18000D": {
+      "file_hash": "sha256:31af9be1c53337acf4758305bc6bea9c4ce6122bdd71adaec727dc7cb1d4d393",
+      "processed_at": "2026-01-24T20:12:55.470075",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "CSRH08401P": {
+      "file_hash": "sha256:ba70af42d3670e5fd140cc10f91aa5f06d1e90dfdcc2d0cd1d8d4f52d51eb730",
+      "processed_at": "2026-01-24T20:13:46.068997",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSTF063012": {
+      "file_hash": "sha256:a3dea41c223220be95f0b52065ed0d40695231463f682fa2e55df8d79aa5b60a",
+      "processed_at": "2026-01-24T20:14:30.815382",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CSTF086514": {
+      "file_hash": "sha256:e483af2f1f599321cae86e14af1aeae99837269ea921e2f8bc26ca980618449e",
+      "processed_at": "2026-01-24T20:15:10.995943",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CZEE84601D": {
+      "file_hash": "sha256:2d2c5a376c6a3f735dcc5ac1ba0ccc73b04cb4755b5ac4d2dae016a27c9700e6",
+      "processed_at": "2026-01-24T20:15:51.932351",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "CZEE864013": {
+      "file_hash": "sha256:9562db8afc11a2673bd22c10abb74d4e8a3da58aaae7a2c6ccccf6d37de78b29",
+      "processed_at": "2026-01-24T20:16:36.727096",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "ENIS01300V": {
+      "file_hash": "sha256:d2819c03db4b19ce914d6e38bd3a31b583a89a0c7ca5df31bcbd39e54a671c0f",
+      "processed_at": "2026-01-24T20:17:19.705593",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "FGIS05400L": {
+      "file_hash": "sha256:7e013e92bd9d7ad15257ef2f4adc85f19476a619b361a9b4acc4b489967cf350",
+      "processed_at": "2026-01-24T20:23:25.743815",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "FGPC15000C": {
+      "file_hash": "sha256:ad1326aea5fed3cbbc683fa6ac06237fad65f6ba3358af025a1834865902ae9b",
+      "processed_at": "2026-01-24T20:24:17.142817",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "FGTE03001T": {
+      "file_hash": "sha256:0d3edf43770336a1ce96ad7200d435bd3954ac4a00edf7a430f3de62e6dc45ab",
+      "processed_at": "2026-01-24T20:25:02.143610",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "GEPSC85001": {
+      "file_hash": "sha256:9d69a98673758a4631ed6555144d45a89c0ab5efc746e76e2f8cc667088d77b6",
+      "processed_at": "2026-01-24T20:25:50.618991",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "IMTD07000R": {
+      "file_hash": "sha256:4679272bc184817059ec8f308caabf6a6be301e536c4fbc5f2293acbaa1b30ef",
+      "processed_at": "2026-01-24T20:26:34.409261",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "ISPM1I500P": {
+      "file_hash": "sha256:d78cfd9cfb661fe98949feb6d89b76f5688ff9ea69cdd452b830fee4786536f4",
+      "processed_at": "2026-01-24T20:27:27.122931",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "KRAA804048": {
+      "file_hash": "sha256:600338185c56204adfa14d8fe18dc00c2b185add31c9cb456dbe77458dd12111",
+      "processed_at": "2026-01-24T20:29:08.962451",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "KREE80306Q": {
+      "file_hash": "sha256:62aa5beb33eea792e9889eb63d7afaf646a4378371367dcd6982e11281c5d616",
+      "processed_at": "2026-01-24T20:29:54.868995",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "LEPS006014": {
+      "file_hash": "sha256:d8837f11ec697623fea2461df9646c442da2dbf67f71e79910fb430d3f3259e3",
+      "processed_at": "2026-01-24T20:31:33.073470",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "LETD047016": {
+      "file_hash": "sha256:07b2654095ebcf4599af8396c9990354cee2165c3ba288c862b64bac2ef63a9e",
+      "processed_at": "2026-01-24T20:32:17.303130",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "LETF006016": {
+      "file_hash": "sha256:18e6755bdbbd849226c5b006c068c66c7a28ad1596bf2f142a8d4bcd3a4894f0",
+      "processed_at": "2026-01-24T20:38:14.425623",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "LTPMTN500E": {
+      "file_hash": "sha256:86444b5dbaaf3926623272d5a636b1bb4ac8f82c9d0579921b459536d3374090",
+      "processed_at": "2026-01-24T20:38:57.076469",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "LTTF9N5007": {
+      "file_hash": "sha256:205ccc469e9afa81f7f4eeeae70bce4c639dbd3e1f647fe0a96a9f4de0a59597",
+      "processed_at": "2026-01-24T20:39:38.145887",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "MI1A460001": {
+      "file_hash": "sha256:94bed58f2380c7701436858d5519e51d25cb92d411faf5314331f3182b3d1b44",
+      "processed_at": "2026-01-24T20:40:20.965596",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "MI1E067006": {
+      "file_hash": "sha256:a458b9b9a92fa66b7f467732894351b333bff4fb121aa8c8fd3055ea5084988b",
+      "processed_at": "2026-01-24T20:41:47.808483",
+      "practices_count": 9,
+      "model_used": "gemma3:27b"
+    },
+    "MTIC835009": {
+      "file_hash": "sha256:1e04a2160217b1e2a8ad7d0c9188635b607d0ab23e1b68db7b838b187c879f67",
+      "processed_at": "2026-01-24T20:43:12.328039",
+      "practices_count": 7,
+      "model_used": "gemma3:27b"
+    },
+    "MTMM81802N": {
+      "file_hash": "sha256:de145aef5ac24ce8e9c166ed3c041159fb4a0e41ea0349982aa75ed07de7004d",
+      "processed_at": "2026-01-24T20:44:05.014067",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "NAAA8HM012": {
+      "file_hash": "sha256:46270aea5d4b3b0edb96c2fa85f92a5d3a6c1c3ae492709171b6b333e7ed3f22",
+      "processed_at": "2026-01-24T20:44:46.424639",
+      "practices_count": 4,
+      "model_used": "gemma3:27b"
+    },
+    "NAMM8F3015": {
+      "file_hash": "sha256:a31af3629ba66664729372459d6fec2df7092fc9a8e41f99c8cbfe31ded0cbc5",
+      "processed_at": "2026-01-24T19:49:12.633027",
+      "practices_count": 10,
+      "model_used": "gemma3:27b"
+    },
+    "NATD2T5008": {
+      "file_hash": "sha256:8bc2b96b08a4aa15ffd7d3ddc88468106ea43b46587a1b227ab02b3ef015f637",
+      "processed_at": "2026-01-24T19:50:34.272967",
+      "practices_count": 8,
+      "model_used": "gemma3:27b"
+    },
+    "NOAA814082": {
+      "file_hash": "sha256:6cb88d4bf32dcd1d9830558c30f1021aed851301412df0123c5776feede3a469",
+      "processed_at": "2026-01-24T19:51:17.100538",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "NUAA87904T": {
+      "file_hash": "sha256:1a1ca6f2b86a7cbc696d25990ad919b15f3c6a6e1206f2c9aaf059134d82af3c",
+      "processed_at": "2026-01-24T19:51:59.731949",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "PA1EDC5004": {
+      "file_hash": "sha256:dd9d6a38bf93ac577d5b4fa3a686c169c1a41ded930aabe32b65b09d362e50ca",
+      "processed_at": "2026-01-24T19:52:36.407715",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "PNAA83202D": {
+      "file_hash": "sha256:e324ab4c3e641a47315a0d2db54350915aec43e64e6aa08ff089dca4f5d15f03",
+      "processed_at": "2026-01-24T19:53:12.235442",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "PS1A04800V": {
+      "file_hash": "sha256:8f848dfcabc383174fefa461afbeff50b39470c3aa6e02d2271de9348396255b",
+      "processed_at": "2026-01-24T19:53:52.038802",
+      "practices_count": 5,
+      "model_used": "gemma3:27b"
+    },
+    "PVAA800067": {
+      "file_hash": "sha256:eb0ca70e0d3bc6d4e9e972ef72992b11b3d47bb563b1f0d06992b0849a122fef",
+      "processed_at": "2026-01-24T19:59:49.248197",
       "practices_count": 5,
       "model_used": "gemma3:27b"
     }

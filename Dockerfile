@@ -2,6 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Tool di sistema necessari (make per task runner)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    make \
+    && rm -rf /var/lib/apt/lists/*
+
 # Dipendenze minime per la dashboard
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

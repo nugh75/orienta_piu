@@ -13,6 +13,7 @@ import re
 class MakeCommand:
     """Rappresenta un comando Make disponibile."""
     name: str                           # es: "strata-cycle"
+    display_name: str = ""              # nome leggibile es: "Ciclo Stratificato"
     category: str = "Altro"             # es: "DOWNLOAD PTOF"
     description: str = ""               # descrizione dal help
     variables: List[str] = field(default_factory=list)  # es: ["MAX_DOWNLOADS", "G", "R"]
@@ -190,181 +191,211 @@ class CommandRegistry:
     COMMAND_METADATA = {
         # Download
         "strata-cycle": {
+            "display_name": "Scarica PTOF Stratificato",
             "category": "DOWNLOAD PTOF",
-            "description": "Ciclo incrementale stratificato (target MIUR proporzionale)",
+            "description": "Scarica PTOF da scuole usando campionamento stratificato proporzionale ai dati MIUR. Bilancia automaticamente per regione, grado e tipo gestione.",
             "variables": ["TARGET_TOTAL", "TARGET_STEP", "MAX_CYCLES", "MAX_DOWNLOADS", "G", "R", "GESTIONE"],
             "is_long_running": True,
         },
         "download-sample": {
+            "display_name": "Scarica Campione Base",
             "category": "DOWNLOAD PTOF",
-            "description": "Scarica campione stratificato (5 per strato)",
+            "description": "Scarica un piccolo campione di 5 PTOF per ogni strato. Utile per test rapidi.",
             "variables": [],
         },
         "download-strato": {
+            "display_name": "Scarica N per Strato",
             "category": "DOWNLOAD PTOF",
-            "description": "Scarica N scuole per ogni strato",
+            "description": "Scarica un numero fisso di PTOF per ogni combinazione di strato (regione/grado/gestione).",
             "variables": ["N"],
         },
         "download-regione": {
+            "display_name": "Scarica per Regione",
             "category": "DOWNLOAD PTOF",
-            "description": "Scarica scuole di una regione",
+            "description": "Scarica tutti i PTOF disponibili di una specifica regione italiana.",
             "variables": ["R"],
         },
         "download-retry": {
+            "display_name": "Riprova Download Falliti",
             "category": "DOWNLOAD PTOF",
-            "description": "Riprova download falliti",
+            "description": "Ritenta il download dei PTOF che hanno fallito in precedenza. Utile per recuperare errori di rete.",
             "variables": ["N", "MIN_ATTEMPTS", "MAX_ATTEMPTS"],
             "is_long_running": True,
         },
         "sync-sampling": {
+            "display_name": "Sincronizza Campionamento",
             "category": "DATI",
-            "description": "Sincronizza campionamento con download effettivi",
+            "description": "Allinea i dati di campionamento con i download effettivamente completati.",
             "variables": [],
         },
         # Analisi
         "workflow": {
+            "display_name": "Analizza PTOF",
             "category": "ANALISI",
-            "description": "Analisi PTOF pulita (una scuola alla volta)",
+            "description": "Analisi completa dei PTOF con AI: estrae indicatori, genera report e punteggi. Elabora una scuola alla volta.",
             "variables": ["MODEL", "ANALYST", "REVIEWER", "REFINER", "SYNTHESIZER", "PROVIDER", "OLLAMA_URL"],
             "is_long_running": True,
         },
         "run": {
+            "display_name": "Analisi Rapida",
             "category": "ANALISI",
-            "description": "Esegue analisi PTOF",
+            "description": "Avvia analisi PTOF in modalita' parallela (piu' veloce ma usa piu' risorse).",
             "variables": ["CONF"],
             "is_long_running": True,
         },
         "run-force": {
+            "display_name": "Ri-Analizza Tutto",
             "category": "ANALISI",
-            "description": "Forza ri-analisi di tutti i file",
+            "description": "Forza la ri-analisi di tutti i PTOF, ignorando le analisi precedenti.",
             "variables": [],
             "is_long_running": True,
         },
         "run-force-code": {
+            "display_name": "Ri-Analizza Scuola",
             "category": "ANALISI",
-            "description": "Ri-analizza una scuola specifica",
+            "description": "Ri-analizza solo una specifica scuola identificata dal codice meccanografico.",
             "variables": ["CODE"],
         },
         # Attivita
         "activity-extract": {
-            "category": "ATTIVITA",
-            "description": "Estrae attivita dai PDF PTOF",
+            "display_name": "Estrai Attivita'",
+            "category": "CATALOGO ATTIVITA'",
+            "description": "Estrae le attivita' didattiche innovative dai PDF PTOF usando AI. Genera il catalogo delle buone pratiche.",
             "variables": ["PROVIDER", "MODEL", "LIMIT", "MAX_COST"],
             "is_long_running": True,
         },
         # Review
         "review-report-openrouter": {
+            "display_name": "Migliora Report (OpenRouter)",
             "category": "REVISIONE",
-            "description": "Revisione report con OpenRouter",
+            "description": "Arricchisce i report Markdown con analisi aggiuntive usando modelli OpenRouter (cloud).",
             "variables": ["MODEL", "TARGET", "LIMIT"],
             "is_long_running": True,
         },
         "review-report-gemini": {
+            "display_name": "Migliora Report (Gemini)",
             "category": "REVISIONE",
-            "description": "Revisione report con Gemini",
+            "description": "Arricchisce i report Markdown con analisi aggiuntive usando Google Gemini.",
             "variables": ["MODEL", "TARGET", "LIMIT"],
             "is_long_running": True,
         },
         "review-report-ollama": {
+            "display_name": "Migliora Report (Ollama)",
             "category": "REVISIONE",
-            "description": "Revisione report con Ollama",
+            "description": "Arricchisce i report Markdown con analisi aggiuntive usando Ollama (locale).",
             "variables": ["MODEL", "OLLAMA_URL", "TARGET", "LIMIT"],
             "is_long_running": True,
         },
         "review-scores-openrouter": {
+            "display_name": "Rivedi Punteggi (OpenRouter)",
             "category": "REVISIONE",
-            "description": "Revisione scores con OpenRouter",
+            "description": "Revisiona i punteggi estremi (troppo alti o bassi) per verificarne l'accuratezza.",
             "variables": ["MODEL", "LOW", "HIGH", "TARGET"],
             "is_long_running": True,
         },
         "review-scores-ollama": {
+            "display_name": "Rivedi Punteggi (Ollama)",
             "category": "REVISIONE",
-            "description": "Revisione scores con Ollama",
+            "description": "Revisiona i punteggi estremi usando Ollama locale.",
             "variables": ["MODEL", "OLLAMA_URL", "LOW", "HIGH", "TARGET"],
             "is_long_running": True,
         },
         # Dashboard e dati
         "dashboard": {
+            "display_name": "Avvia Dashboard",
             "category": "DASHBOARD",
-            "description": "Avvia la dashboard Streamlit",
+            "description": "Avvia la dashboard interattiva Streamlit per esplorare i dati e i report.",
             "variables": [],
             "is_long_running": True,
         },
         "csv": {
+            "display_name": "Rigenera CSV",
             "category": "DATI",
-            "description": "Rigenera il CSV dai file JSON",
+            "description": "Ricostruisce il file CSV riepilogativo partendo dai JSON delle analisi.",
             "variables": [],
         },
         "csv-watch": {
+            "display_name": "Aggiorna CSV Periodico",
             "category": "DATI",
-            "description": "Rigenera CSV ogni N secondi",
+            "description": "Rigenera automaticamente il CSV a intervalli regolari. Utile durante analisi lunghe.",
             "variables": ["INTERVAL"],
             "is_long_running": True,
         },
         "backfill": {
+            "display_name": "Completa Metadati",
             "category": "DATI",
-            "description": "Backfill metadati mancanti con LLM",
+            "description": "Recupera metadati mancanti (nome scuola, indirizzo, etc.) usando AI.",
             "variables": [],
             "is_long_running": True,
         },
         # Meta Report
         "meta-skeleton": {
+            "display_name": "Genera Report Tematico",
             "category": "META REPORT",
-            "description": "Report tematico skeleton-first",
+            "description": "Genera un report comparativo su un tema specifico (es. orientamento, inclusione) aggregando dati da piu' scuole.",
             "variables": ["DIM", "REGIONE", "ORDINE", "PROVIDER_SCHOOL", "PROVIDER_SYNTHESIS"],
             "is_long_running": True,
         },
         "meta-school": {
+            "display_name": "Report Singola Scuola",
             "category": "META REPORT",
-            "description": "Genera report singola scuola",
+            "description": "Genera un report approfondito per una singola scuola.",
             "variables": ["CODE", "PROVIDER"],
         },
         "meta-batch": {
+            "display_name": "Report Batch",
             "category": "META REPORT",
-            "description": "Genera N report pendenti",
+            "description": "Genera report per piu' scuole in sequenza.",
             "variables": ["N", "PROVIDER"],
             "is_long_running": True,
         },
         # Manutenzione
         "registry-status": {
+            "display_name": "Stato Registro",
             "category": "MANUTENZIONE",
-            "description": "Mostra stato del registro analisi",
+            "description": "Mostra statistiche sul registro delle analisi: quante completate, in attesa, fallite.",
             "variables": [],
         },
         "registry-clear": {
+            "display_name": "Pulisci Registro",
             "category": "MANUTENZIONE",
-            "description": "Pulisce il registro (forza ri-analisi)",
+            "description": "Svuota il registro analisi. ATTENZIONE: forzera' la ri-analisi di tutti i PTOF!",
             "variables": [],
             "is_destructive": True,
             "confirmation_required": True,
         },
         "cleanup": {
+            "display_name": "Elimina File Obsoleti",
             "category": "MANUTENZIONE",
-            "description": "Elimina file obsoleti",
+            "description": "Rimuove file temporanei, cache e backup vecchi per liberare spazio.",
             "variables": [],
             "is_destructive": True,
             "confirmation_required": True,
         },
         "cleanup-dry": {
+            "display_name": "Anteprima Pulizia",
             "category": "MANUTENZIONE",
-            "description": "Mostra cosa verrebbe eliminato (dry-run)",
+            "description": "Mostra quali file verrebbero eliminati senza cancellarli realmente.",
             "variables": [],
         },
         # Git
         "git-auto": {
+            "display_name": "Commit Automatico",
             "category": "GIT",
-            "description": "Add/commit/push ogni N secondi",
+            "description": "Esegue commit e push automatici a intervalli regolari. Utile per backup durante elaborazioni lunghe.",
             "variables": ["INTERVAL"],
             "is_long_running": True,
         },
         "git-status": {
+            "display_name": "Stato Repository",
             "category": "GIT",
-            "description": "Mostra stato git",
+            "description": "Mostra lo stato corrente del repository Git (modifiche, branch, etc.).",
             "variables": [],
         },
         "git-commit": {
+            "display_name": "Crea Commit",
             "category": "GIT",
-            "description": "Commit con messaggio",
+            "description": "Crea un commit con tutte le modifiche correnti.",
             "variables": ["MSG"],
         },
     }
@@ -373,7 +404,7 @@ class CommandRegistry:
     CATEGORY_ORDER = [
         "DOWNLOAD PTOF",
         "ANALISI",
-        "ATTIVITA",
+        "CATALOGO ATTIVITA'",
         "REVISIONE",
         "DATI",
         "META REPORT",
@@ -394,6 +425,7 @@ class CommandRegistry:
         for name, meta in self.COMMAND_METADATA.items():
             cmd = MakeCommand(
                 name=name,
+                display_name=meta.get("display_name", name),
                 category=meta.get("category", "Altro"),
                 description=meta.get("description", ""),
                 variables=meta.get("variables", []),

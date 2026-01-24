@@ -117,18 +117,32 @@ main {
     border-radius: 4px;
     margin: 2px 0;
     transition: background 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .command-item:hover {
     background: var(--bg-tertiary);
 }
 
-.command-item.long-running {
+.command-item.long-running .cmd-display-name {
     color: var(--accent-warning);
 }
 
-.command-item.destructive {
+.command-item.destructive .cmd-display-name {
     color: var(--accent-danger);
+}
+
+.cmd-display-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.cmd-name {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-family: monospace;
 }
 
 /* Task list */
@@ -193,6 +207,13 @@ main {
 #command-title {
     color: var(--accent-primary);
     margin-bottom: 0.5rem;
+}
+
+#command-title small {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: var(--text-secondary);
+    font-family: monospace;
 }
 
 #command-description {

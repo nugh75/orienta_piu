@@ -87,7 +87,10 @@ class TaskRunner {
                     item.className = 'command-item';
                     if (cmd.is_long_running) item.classList.add('long-running');
                     if (cmd.is_destructive) item.classList.add('destructive');
-                    item.textContent = cmd.name;
+
+                    // Mostra nome leggibile con comando tra parentesi
+                    const displayName = cmd.display_name || cmd.name;
+                    item.innerHTML = `<span class="cmd-display-name">${displayName}</span><span class="cmd-name">(${cmd.name})</span>`;
                     item.addEventListener('click', () => this.selectCommand(cmd));
                     categoryDiv.appendChild(item);
                 }
@@ -128,7 +131,8 @@ class TaskRunner {
 
     selectCommand(cmd) {
         this.selectedCommand = cmd;
-        this.elements.commandTitle.textContent = `make ${cmd.name}`;
+        const displayName = cmd.display_name || cmd.name;
+        this.elements.commandTitle.innerHTML = `${displayName} <small>(make ${cmd.name})</small>`;
         this.elements.commandDescription.textContent = cmd.description || '';
 
         // Genera form parametri con dropdown

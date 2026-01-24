@@ -1,4 +1,42 @@
 services:
+  # === WEB RUNNER (Task Runner Flask) ===
+  web-runner:
+    build: .
+    container_name: ptof-web-runner
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "5000:5000"
+    volumes:
+      # Makefile e script principali
+      - ./Makefile:/app/Makefile:ro
+      - ./workflow_notebook.py:/app/workflow_notebook.py:ro
+      - ./cleanup_obsolete.py:/app/cleanup_obsolete.py:ro
+      - ./scripts:/app/scripts:ro
+      # Codice sorgente
+      - ./src:/app/src:ro
+      - ./app:/app/app:ro
+      - ./config:/app/config
+      # Dati (read-write per elaborazione)
+      - ./data:/app/data
+      - ./analysis_results:/app/analysis_results
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      # PDF
+      - ./ptof_inbox:/app/ptof_inbox
+      - ./ptof_processed:/app/ptof_processed
+      - ./ptof_discarded:/app/ptof_discarded
+      - ./ptof_md:/app/ptof_md
+      # Configurazione
+      - ./.env:/app/.env:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Override per usare python di sistema invece di .venv
+      - PYTHON=python
+      - PIP=pip
+    command: ["python", "-m", "src.taskrunner.web", "--host", "0.0.0.0", "--port", "5000"]
+    restart: unless-stopped
+
+  # === DASHBOARD (Streamlit) ===
   dashboard:
     build: .
     container_name: orienta-dashboard

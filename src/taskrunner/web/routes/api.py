@@ -41,6 +41,7 @@ def list_commands():
 
             commands.append({
                 "name": cmd.name,
+                "display_name": cmd.display_name,
                 "description": cmd.description,
                 "variables": cmd.variables,
                 "variable_info": var_info,
