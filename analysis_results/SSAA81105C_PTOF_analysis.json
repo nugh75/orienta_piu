@@ -1,0 +1,178 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SSAA81105C",
+    "denominazione": "Nulvi-Scuola Materna Statale",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Nulvi",
+    "anno_ptof": "2022-2025",
+    "provincia": "Sassari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Asilo Nulvi",
+    "cap": "07032",
+    "email": "nicole.matteoni@comune.trireste.it",
+    "pec": "ND",
+    "website": "www.iccastelsardo.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in modo generico all'interno di altri paragrafi, come nella descrizione delle finalità educative e nell'ampliamento dell'offerta formativa."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "Goethe-Zentrum Triest",
+        "Federazione Italiana Nuoto – Centro Federale di Trieste",
+        "SCI CLUB 70",
+        "Slowfood",
+        "ditte di gestione del servizio mensa",
+        "Istituto degli Innocenti di Firenze",
+        "Azienda per i Servizi Sanitari"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali, sociali e culturali di ciascuno",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "nessuna"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "nessuna"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "nessuna"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini di tutte le Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Promozione della lettura",
+      "5w_dove": "Scuole dell'infanzia e Biblioteche Civiche",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziare il livello culturale e formativo",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvicinamento al canto e alla musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività musicali in collaborazione con realtà cittadine.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Apprendimento del canto e della musica",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppo delle competenze musicali",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di avvicinamento al canto e alla musica",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Introduzione alla lingua e cultura tedesca",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Approccio ludico alla lingua e cultura tedesca in collaborazione con il Goethe-Zentrum Triest.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Apprendimento della lingua e cultura tedesca",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Promuovere la conoscenza di altre culture",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Introduzione alla lingua e alla cultura dei paesi di lingua tedesca",
+      "evidence_location": "Pagina 5"
+    }
+  ],
+  "narrative": "Il PTOF delle Scuole dell’Infanzia del Comune di Trieste delinea un’offerta formativa diversificata e orientata allo sviluppo integrale del bambino. Pur mancando una sezione specificamente dedicata all'orientamento, si evidenziano elementi che contribuiscono a questo processo, come la valorizzazione dell'identità personale e lo sviluppo delle competenze. Le **partnership** con enti quali le **Biblioteche Civiche**, il **Teatro Stabile del Friuli Venezia Giulia** e il **Goethe-Zentrum Triest** arricchiscono l'offerta e offrono opportunità di apprendimento significative. I **progetti** proposti, tra cui la promozione della lettura, percorsi musicali e l'introduzione a lingue straniere, stimolano l'interesse dei bambini e favoriscono lo sviluppo di competenze trasversali. L'attenzione all'inclusione e alla valorizzazione delle diversità rappresenta un punto di forza. Tuttavia, il PTOF presenta una lacuna nella definizione di un approccio strategico all'orientamento, con obiettivi specifici e azioni mirate a supportare i bambini nella transizione verso la scuola primaria e nella costruzione del loro futuro. Sebbene il **coordinamento** tra i servizi e la collaborazione con le famiglie siano considerati importanti, un loro potenziamento sarebbe auspicabile. Inoltre, il documento non presenta una chiara descrizione dei meccanismi di **valutazione** e **monitoraggio** dei risultati, rendendo difficile misurare l'efficacia delle azioni intraprese e apportare eventuali correzioni. In sintesi, il PTOF dimostra un buon livello di maturità nell'offerta formativa, ma necessita di un maggiore focus sull'orientamento come processo intenzionale e sistemico, unitamente a un sistema di valutazione e monitoraggio ben definito."
+}

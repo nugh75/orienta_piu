@@ -18,6 +18,33 @@ api_bp = Blueprint('api', __name__)
 @api_bp.route('/commands', methods=['GET'])
 def list_commands():
     """Lista comandi disponibili raggruppati per categoria."""
+    
+    # Carica configurazione preset
+    try:
+        config_path = PROJECT_ROOT / "config" / "pipeline_config.json"
+        
+        if config_path.exists():
+            import json
+            with open(config_path, 'r') as f:
+                config = json.load(f)
+                presets = config.get("presets", {})
+                # Crea lista opzioni "ID - Nome"
+                preset_options = []
+                # Aggiungi opzione vuota
+                preset_options.append("")
+                
+                # Ordina per ID numerico
+                for pid in sorted(presets.keys(), key=lambda x: int(x) if x.isdigit() else 999):
+                    pdata = presets[pid]
+                    name = pdata.get("name", f"Preset {pid}")
+                    preset_options.append(f"{pid} - {name}")
+                
+                # Aggiorna le opzioni in memoria
+                if "PRESET" in VARIABLE_OPTIONS:
+                    VARIABLE_OPTIONS["PRESET"]["options"] = preset_options
+    except Exception as e:
+        print(f"Errore caricamento preset: {e}")
+
     registry = CommandRegistry()
     categories = []
 
@@ -33,6 +60,8 @@ def list_commands():
                     var_data["label"] = opts.get("label", var)
                     var_data["options"] = opts.get("options", [])
                     var_data["allow_custom"] = opts.get("allow_custom", True)
+                    if "depends_on" in opts:
+                        var_data["depends_on"] = opts["depends_on"]
                 else:
                     var_data["label"] = var
                     var_data["options"] = []
@@ -65,6 +94,20 @@ def list_tasks():
     return jsonify({
         "tasks": tasks,
         "active_count": active_count
+    })
+
+
+@api_bp.route('/tasks/history', methods=['GET'])
+def list_all_tasks():
+    """Lista completa di tutti i task per lo storico."""
+    manager = get_task_manager()
+    all_tasks = manager.get_all_tasks()
+    # Ordina per data creazione decrescente
+    sorted_tasks = sorted(all_tasks, key=lambda t: t.created_at, reverse=True)
+    tasks = [t.to_dict() for t in sorted_tasks]
+    return jsonify({
+        "tasks": tasks,
+        "total": len(tasks)
     })
 
 
@@ -142,7 +185,86 @@ def delete_task(task_id):
 
 @api_bp.route('/tasks/clear', methods=['POST'])
 def clear_finished():
-    """Rimuove task completati."""
+    """Archivia i task completati."""
     manager = get_task_manager()
     count = manager.clear_finished_tasks()
-    return jsonify({"removed": count})
+    return jsonify({"archived_count": count})
+
+
+# --- Preset Management ---
+
+def _get_config_path():
+    return PROJECT_ROOT / "config" / "pipeline_config.json"
+
+def _load_config():
+    import json
+    path = _get_config_path()
+    if path.exists():
+        with open(path, 'r') as f:
+            return json.load(f)
+    return {"presets": {}}
+
+def _save_config(config):
+    import json
+    with open(_get_config_path(), 'w') as f:
+        json.dump(config, f, indent=2, ensure_ascii=False)
+
+@api_bp.route('/presets', methods=['GET'])
+def get_presets():
+    """Ritorna tutti i preset."""
+    config = _load_config()
+    return jsonify(config.get("presets", {}))
+
+@api_bp.route('/presets', methods=['POST'])
+def create_preset():
+    """Crea un nuovo preset."""
+    data = request.json
+    if not data:
+        return jsonify({"error": "No data"}), 400
+    
+    config = _load_config()
+    presets = config.get("presets", {})
+    
+    # Genera ID
+    existing_ids = [int(k) for k in presets.keys() if k.isdigit()]
+    new_id = str(max(existing_ids) + 1 if existing_ids else 0)
+    
+    presets[new_id] = data
+    config["presets"] = presets
+    _save_config(config)
+    
+    return jsonify({"id": new_id, "preset": data}), 201
+
+@api_bp.route('/presets/<preset_id>', methods=['PUT'])
+def update_preset(preset_id):
+    """Aggiorna un preset esistente."""
+    data = request.json
+    if not data:
+        return jsonify({"error": "No data"}), 400
+        
+    config = _load_config()
+    presets = config.get("presets", {})
+    
+    if preset_id not in presets:
+        return jsonify({"error": "Preset not found"}), 404
+        
+    presets[preset_id] = data
+    _save_config(config)
+    return jsonify({"success": True})
+
+@api_bp.route('/presets/<preset_id>', methods=['DELETE'])
+def delete_preset(preset_id):
+    """Elimina un preset."""
+    config = _load_config()
+    presets = config.get("presets", {})
+    
+    if preset_id in presets:
+        del presets[preset_id]
+        # Se era il preset attivo, resetta a default
+        if str(config.get("active_preset")) == str(preset_id):
+            config["active_preset"] = 0
+            
+        _save_config(config)
+        return jsonify({"success": True})
+        
+    return jsonify({"error": "Preset not found"}), 404

@@ -41,7 +41,11 @@ def load_json(path: Path) -> dict:
     if not path.exists():
         return {}
     with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            logger.warning(f"File JSON corrotto o vuoto: {path}. Ritorno dict vuoto.")
+            return {}
 
 
 def save_json(path: Path, data: dict):

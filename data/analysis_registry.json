@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-24T19:37:55.382827",
+  "last_updated": "2026-01-25T04:24:43.342959",
   "analyzed_files": {
     "BO1M00400G": {
       "pdf_hash": "sha256:404029362aee04c809f8025c8dd298dfae4ade8eb5d7b039811194932992c230",
@@ -9322,6 +9322,105 @@
       "json_path": "/home/nugh75/LIste/analysis_results/CSPS082019_PTOF_analysis.json",
       "workflow_version": "1.0",
       "md_path": "/home/nugh75/LIste/ptof_md/CSPS082019_ptof.md"
+    },
+    "CSTF6C500B": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "CSTF6C500B_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-24T22:19:56.732662",
+      "json_path": "/app/analysis_results/CSTF6C500B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/CSTF6C500B_ptof.md"
+    },
+    "MNAA824019": {
+      "pdf_hash": "sha256:eeb166fee7997b342bda061e915e3d11511adb4a5a2d1b789e418f165ff865d1",
+      "pdf_name": "MNAA824019_PTOF.pdf",
+      "pdf_size": 321896,
+      "analyzed_at": "2026-01-24T23:28:08.099119",
+      "json_path": "/app/analysis_results/MNAA824019_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/MNAA824019_ptof.md"
+    },
+    "PO1M02000G": {
+      "pdf_hash": "sha256:fa6ad1e6048ab96643d3697e37afa2c40e48beaf8b7084946260ee77856593cc",
+      "pdf_name": "PO1M02000G_PTOF.pdf",
+      "pdf_size": 950651,
+      "analyzed_at": "2026-01-25T00:58:57.300973",
+      "json_path": "/app/analysis_results/PO1M02000G_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/PO1M02000G_ptof.md"
+    },
+    "PZPS00201D": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "PZPS00201D_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-25T01:24:38.968840",
+      "json_path": "/app/analysis_results/PZPS00201D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/PZPS00201D_ptof.md"
+    },
+    "RMAA8CE02R": {
+      "pdf_hash": "sha256:4fd80bc01319d2d88fb782b9c51108a99c0b914c92459ff4f551cf80294d6a6c",
+      "pdf_name": "RMAA8CE02R_PTOF.pdf",
+      "pdf_size": 1525392,
+      "analyzed_at": "2026-01-25T01:56:05.054675",
+      "json_path": "/app/analysis_results/RMAA8CE02R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/RMAA8CE02R_ptof.md"
+    },
+    "SRTL02951B": {
+      "pdf_hash": "sha256:236cd13b1fcbe5ea1016cdf96be04b3fa3a9a403352473a087a24341f9ab4842",
+      "pdf_name": "SRTL02951B_PTOF.pdf",
+      "pdf_size": 1589958,
+      "analyzed_at": "2026-01-25T03:21:04.070407",
+      "json_path": "/app/analysis_results/SRTL02951B_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/SRTL02951B_ptof.md"
+    },
+    "SSAA81105C": {
+      "pdf_hash": "sha256:eeb166fee7997b342bda061e915e3d11511adb4a5a2d1b789e418f165ff865d1",
+      "pdf_name": "SSAA81105C_PTOF.pdf",
+      "pdf_size": 321896,
+      "analyzed_at": "2026-01-25T03:22:27.387655",
+      "json_path": "/app/analysis_results/SSAA81105C_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/SSAA81105C_ptof.md"
+    },
+    "TAPS19000A": {
+      "pdf_hash": "sha256:5926a2f03895739857f952b65ead355f4cba1c2ceb4d6d907ea8d94043ee897c",
+      "pdf_name": "TAPS19000A_PTOF.pdf",
+      "pdf_size": 894945,
+      "analyzed_at": "2026-01-25T03:36:29.155862",
+      "json_path": "/app/analysis_results/TAPS19000A_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/TAPS19000A_ptof.md"
+    },
+    "TOAA89002R": {
+      "pdf_hash": "sha256:cb466c89205068fe573e0ab48848e3218a1e79848d66f3d6e9e42bc2bbb433e0",
+      "pdf_name": "TOAA89002R_PTOF.pdf",
+      "pdf_size": 1868992,
+      "analyzed_at": "2026-01-25T03:45:51.940641",
+      "json_path": "/app/analysis_results/TOAA89002R_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/TOAA89002R_ptof.md"
+    },
+    "TRMM80401V": {
+      "pdf_hash": "sha256:7e5ee6dea23e3f718ec5aa4463fa040f4e9a74a9fc22d4973429f80bb5eba3c4",
+      "pdf_name": "TRMM80401V_PTOF.pdf",
+      "pdf_size": 810601,
+      "analyzed_at": "2026-01-25T03:58:24.118254",
+      "json_path": "/app/analysis_results/TRMM80401V_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/TRMM80401V_ptof.md"
+    },
+    "VTMM81702D": {
+      "pdf_hash": "sha256:fa6ad1e6048ab96643d3697e37afa2c40e48beaf8b7084946260ee77856593cc",
+      "pdf_name": "VTMM81702D_PTOF.pdf",
+      "pdf_size": 950651,
+      "analyzed_at": "2026-01-25T04:24:43.342914",
+      "json_path": "/app/analysis_results/VTMM81702D_PTOF_analysis.json",
+      "workflow_version": "1.0",
+      "md_path": "/app/ptof_md/VTMM81702D_ptof.md"
     }
   }
 }

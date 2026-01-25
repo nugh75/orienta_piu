@@ -1,73 +1,29 @@
 {
   "tasks": [
     {
-      "id": "6aa464a7",
-      "command": "workflow",
-      "make_target": "workflow",
+      "id": "b07e50eb",
+      "command": "strata-cycle",
+      "make_target": "strata-cycle",
       "variables": {
-        "MODEL": "gemma3:27b",
-        "ANALYST": "gemma3:27b",
-        "REVIEWER": "gemma3:27b",
-        "REFINER": "gemma3:27b",
-        "SYNTHESIZER": "gemma3:27b",
-        "PROVIDER": "ollama",
-        "OLLAMA_URL": "http://192.168.129.14:11434"
-      },
-      "status": "failed",
-      "pid": null,
-      "created_at": "2026-01-24T19:35:17.632683",
-      "started_at": null,
-      "finished_at": null,
-      "exit_code": null,
-      "log_file": "/app/logs/taskrunner/tasks/6aa464a7.log",
-      "error_message": "[Errno 2] No such file or directory: 'make'"
-    },
-    {
-      "id": "1b267abb",
-      "command": "workflow",
-      "make_target": "workflow",
-      "variables": {
-        "MODEL": "gemma3:27b",
-        "ANALYST": "gemma3:27b",
-        "REVIEWER": "gemma3:27b",
-        "REFINER": "gemma3:27b",
-        "SYNTHESIZER": "gemma3:27b",
-        "PROVIDER": "ollama",
-        "OLLAMA_URL": "http://192.168.129.14:11434"
-      },
-      "status": "failed",
-      "pid": 87,
-      "created_at": "2026-01-24T19:42:49.902222",
-      "started_at": "2026-01-24T19:42:49.905905",
-      "finished_at": "2026-01-24T19:42:49.910500",
-      "exit_code": 2,
-      "log_file": "/app/logs/taskrunner/tasks/1b267abb.log",
-      "error_message": null
-    },
-    {
-      "id": "a9c037be",
-      "command": "workflow",
-      "make_target": "workflow",
-      "variables": {
-        "MODEL": "gemma3:27b",
-        "ANALYST": "gemma3:27b",
-        "REVIEWER": "gemma3:27b",
-        "REFINER": "gemma3:27b",
-        "SYNTHESIZER": "gemma3:27b",
-        "PROVIDER": "ollama",
-        "OLLAMA_URL": "http://192.168.129.14:11434"
+        "TARGET_TOTAL": "6000",
+        "TARGET_STEP": "200",
+        "MAX_CYCLES": "2",
+        "MAX_DOWNLOADS": "100",
+        "GESTIONE": "Statale",
+        "MODEL_WORKFLOW": "0"
       },
       "status": "running",
-      "pid": 24,
-      "created_at": "2026-01-24T19:45:59.127869",
-      "started_at": "2026-01-24T19:45:59.129469",
+      "pid": 237,
+      "created_at": "2026-01-25T08:10:48.479693",
+      "started_at": "2026-01-25T08:10:48.481331",
       "finished_at": null,
       "exit_code": null,
-      "log_file": "/app/logs/taskrunner/tasks/a9c037be.log",
-      "error_message": null
+      "log_file": "/app/logs/taskrunner/tasks/b07e50eb.log",
+      "error_message": null,
+      "archived": false
     },
     {
-      "id": "3ea13444",
+      "id": "2b8d42b7",
       "command": "activity-extract",
       "make_target": "activity-extract",
       "variables": {
@@ -75,15 +31,46 @@
         "MODEL": "gemma3:27b",
         "LIMIT": "100"
       },
-      "status": "running",
-      "pid": 142,
-      "created_at": "2026-01-24T19:47:17.112913",
-      "started_at": "2026-01-24T19:47:17.116130",
-      "finished_at": null,
-      "exit_code": null,
-      "log_file": "/app/logs/taskrunner/tasks/3ea13444.log",
-      "error_message": null
+      "status": "completed",
+      "pid": 349,
+      "created_at": "2026-01-25T08:11:27.309205",
+      "started_at": "2026-01-25T08:11:27.310940",
+      "finished_at": "2026-01-25T08:21:22.216304",
+      "exit_code": 0,
+      "log_file": "/app/logs/taskrunner/tasks/2b8d42b7.log",
+      "error_message": null,
+      "archived": true
+    },
+    {
+      "id": "32af899f",
+      "command": "sync-sampling",
+      "make_target": "sync-sampling",
+      "variables": {},
+      "status": "completed",
+      "pid": 825,
+      "created_at": "2026-01-25T08:18:14.909423",
+      "started_at": "2026-01-25T08:18:14.910918",
+      "finished_at": "2026-01-25T08:18:14.954640",
+      "exit_code": 0,
+      "log_file": "/app/logs/taskrunner/tasks/32af899f.log",
+      "error_message": null,
+      "archived": true
+    },
+    {
+      "id": "e7a0a610",
+      "command": "sync-sampling",
+      "make_target": "sync-sampling",
+      "variables": {},
+      "status": "completed",
+      "pid": 1400,
+      "created_at": "2026-01-25T08:25:29.581908",
+      "started_at": "2026-01-25T08:25:29.583306",
+      "finished_at": "2026-01-25T08:25:29.627213",
+      "exit_code": 0,
+      "log_file": "/app/logs/taskrunner/tasks/e7a0a610.log",
+      "error_message": null,
+      "archived": true
     }
   ],
-  "saved_at": "2026-01-24T19:47:17.116928"
+  "saved_at": "2026-01-25T08:30:41.555900"
 }

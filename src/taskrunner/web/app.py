@@ -32,6 +32,14 @@ def create_app():
     def index():
         return render_template('index.html')
 
+    @app.route('/history')
+    def history():
+        return render_template('history.html')
+
+    @app.route('/settings')
+    def settings():
+        return render_template('settings.html')
+
     @app.route('/health')
     def health():
         return {'status': 'ok'}

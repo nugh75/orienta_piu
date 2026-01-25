@@ -235,9 +235,12 @@ class TaskManager:
         return [t for t in self.tasks.values() if t.status == TaskStatus.RUNNING]
 
     def get_recent_tasks(self, limit: int = 10) -> List[Task]:
-        """Ritorna gli ultimi N task (ordinati per data creazione)."""
+        """Ritorna gli ultimi N task (ordinati per data creazione), escludendo gli archiviati."""
+        # Filtra task non archiviati
+        visible_tasks = [t for t in self.tasks.values() if not t.archived]
+        
         sorted_tasks = sorted(
-            self.tasks.values(),
+            visible_tasks,
             key=lambda t: t.created_at,
             reverse=True
         )
@@ -246,13 +249,7 @@ class TaskManager:
     def get_task_output(self, task_id: str, tail_lines: int = 100) -> List[str]:
         """
         Legge ultime N righe dal log del task.
-
-        Args:
-            task_id: ID del task
-            tail_lines: Numero di righe
-
-        Returns:
-            Lista delle righe
+        ...
         """
         task = self.tasks.get(task_id)
         if not task or not task.log_file:
@@ -263,12 +260,7 @@ class TaskManager:
     def delete_task(self, task_id: str) -> bool:
         """
         Elimina un task (solo se non in esecuzione).
-
-        Args:
-            task_id: ID del task
-
-        Returns:
-            True se eliminato
+        ...
         """
         task = self.tasks.get(task_id)
         if not task:
@@ -284,22 +276,22 @@ class TaskManager:
 
     def clear_finished_tasks(self) -> int:
         """
-        Rimuove tutti i task completati/falliti/cancellati.
-
-        Returns:
-            Numero di task rimossi
+        Archivia tutti i task completati/falliti/cancellati.
         """
-        to_remove = [
-            task_id for task_id, task in self.tasks.items()
-            if task.is_finished
+        to_archive = [
+            task for task in self.tasks.values()
+            if task.is_finished and not task.archived
         ]
-        for task_id in to_remove:
-            del self.tasks[task_id]
+        
+        for task in to_archive:
+            task.archived = True
 
-        if to_remove:
+        if to_archive:
             self._save_state()
+            # Notifica aggiornamento per refresh UI
+            # self._notify("archived", to_archive[0]) 
 
-        return len(to_remove)
+        return len(to_archive)
 
 
 # Singleton getter

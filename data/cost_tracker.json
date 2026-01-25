@@ -1,27 +1,18 @@
 {
-  "session_id": "cycle_20260123_201020",
-  "started_at": "2026-01-23T20:10:20.449921",
+  "session_id": "cycle_20260125_081049",
+  "started_at": "2026-01-25T08:10:49.262337",
   "phases": {
-    "workflow": {
-      "cost": 0.0,
-      "input_tokens": 18593179,
-      "output_tokens": 2916460,
-      "calls": 2193,
-      "provider": "ollama",
-      "model": "gemma3:27b",
-      "last_updated": "2026-01-24T20:00:16.482284"
-    },
     "activity": {
       "cost": 0.0,
-      "input_tokens": 4259978,
-      "output_tokens": 687443,
-      "calls": 581,
+      "input_tokens": 78879,
+      "output_tokens": 15161,
+      "calls": 13,
       "provider": "ollama",
       "model": "gemma3:27b",
-      "last_updated": "2026-01-24T19:59:49.238176"
+      "last_updated": "2026-01-25T08:21:21.551344"
     }
   },
   "total_cost": 0.0,
-  "total_input_tokens": 22853157,
-  "total_output_tokens": 3603903
+  "total_input_tokens": 78879,
+  "total_output_tokens": 15161
 }

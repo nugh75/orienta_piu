@@ -1,75 +1,400 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PTOF Task Runner</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
     <script>
-        // Base URL per API e SSE (gestisce proxy)
-        // Rileva automaticamente se siamo sotto /taskrunner/
-        (function() {
-            var path = window.location.pathname;
-            if (path.startsWith('/taskrunner')) {
-                window.TASKRUNNER_BASE = '/taskrunner';
-            } else {
-                window.TASKRUNNER_BASE = '';
-            }
-        })();
+      (function () {
+        var path = window.location.pathname;
+        window.TASKRUNNER_BASE = path.startsWith("/taskrunner")
+          ? "/taskrunner"
+          : "";
+      })();
     </script>
-</head>
-<body>
+    <style>
+      /* Layout compatto a 3 colonne */
+      body {
+        height: 100vh;
+        overflow: hidden;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        height: calc(100vh - 50px);
+        gap: 0;
+      }
+      header {
+        height: 50px;
+        padding: 0.5rem 1rem;
+      }
+      header h1 {
+        font-size: 1.2rem;
+      }
+
+      /* Stats bar in header */
+      .stats-bar {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+      }
+      .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.85rem;
+      }
+      .stat-value {
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+      .stat-value.running {
+        color: #4ecca3;
+      }
+      .stat-value.completed {
+        color: #4a90d9;
+      }
+      .stat-value.failed {
+        color: #dc3545;
+      }
+
+      /* Colonna 1: Comandi compatti */
+      #sidebar {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1 / 3;
+        overflow-y: auto;
+        border-right: 1px solid var(--border-color);
+      }
+      #sidebar section {
+        padding: 0.5rem;
+      }
+      #sidebar h2 {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+      }
+      .category {
+        margin-bottom: 0.5rem;
+      }
+      .category-header {
+        font-size: 0.75rem;
+        padding: 0.3rem 0;
+      }
+      .command-item {
+        padding: 0.35rem 0.5rem;
+        font-size: 0.8rem;
+        margin: 1px 0;
+      }
+      .cmd-name {
+        font-size: 0.65rem;
+        color: var(--text-secondary);
+      }
+      #tasks-section {
+        display: none;
+      }
+
+      /* Colonna 2: Task attivi + Form */
+      #main-content {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid var(--border-color);
+        overflow: hidden;
+      }
+
+      /* Task panel sempre visibile */
+      #active-tasks-panel {
+        padding: 0.5rem;
+        background: var(--bg-secondary);
+        border-bottom: 1px solid var(--border-color);
+        max-height: 40%;
+        overflow-y: auto;
+      }
+      #active-tasks-panel h3 {
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+        color: var(--accent-success);
+      }
+      .task-card {
+        background: var(--bg-tertiary);
+        padding: 0.5rem;
+        margin-bottom: 0.4rem;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .task-card:hover {
+        background: var(--bg-primary);
+      }
+      .task-card.selected {
+        border: 1px solid var(--accent-primary);
+      }
+      .task-card .task-info {
+        flex: 1;
+      }
+      .task-card .task-cmd {
+        font-weight: 500;
+        font-size: 0.85rem;
+      }
+      .task-card .task-time {
+        font-size: 0.7rem;
+        color: var(--text-secondary);
+      }
+      .task-card .task-status {
+        padding: 0.15rem 0.4rem;
+        border-radius: 3px;
+        font-size: 0.7rem;
+        font-weight: bold;
+      }
+      .task-card .task-status.running {
+        background: #4ecca3;
+        color: #000;
+      }
+      .task-card .task-status.completed {
+        background: #4a90d9;
+        color: #fff;
+      }
+      .task-card .task-status.failed {
+        background: #dc3545;
+        color: #fff;
+      }
+
+      /* Form compatto */
+      #command-form {
+        padding: 0.75rem;
+        background: var(--bg-secondary);
+        flex: 1;
+        overflow-y: auto;
+        min-height: 0;
+      }
+      #command-form h3 {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+      }
+      #command-form p {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-secondary);
+      }
+      .param-row {
+        margin-bottom: 0.4rem;
+      }
+      .param-row label {
+        font-size: 0.75rem;
+      }
+      .param-row input,
+      .param-row select {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+      }
+      #command-form .button-group {
+        margin-top: 0.5rem;
+      }
+      #command-form .button-group button {
+        padding: 0.4rem 1rem;
+        font-size: 0.85rem;
+      }
+
+      /* Colonna 3: Output */
+      #output-section {
+        grid-column: 3;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      #output-header {
+        padding: 0.5rem;
+        flex-shrink: 0;
+      }
+      #output-header h3 {
+        font-size: 0.9rem;
+      }
+      #output-header .button-group button {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+      }
+      #output-container {
+        flex: 1;
+        overflow-y: auto;
+        font-size: 0.75rem;
+        padding: 0.5rem;
+      }
+
+      /* No footer */
+      footer {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>PTOF Task Runner</h1>
-        <div id="status-indicator">
-            <span id="connection-status" class="disconnected">Disconnesso</span>
-            <span id="active-count">0 task attivi</span>
+      <h1>PTOF Task Runner</h1>
+      <div style="display:flex;gap:1rem;margin-left:1rem;align-items:center;">
+          <a
+            href="{{ url_for('history') }}"
+            style="
+              color: var(--accent-primary);
+              text-decoration: none;
+              font-size: 0.85rem;
+            "
+            >Storico Task</a
+          >
+          <a
+            href="{{ url_for('settings') }}"
+            style="
+              color: var(--accent-primary);
+              text-decoration: none;
+              font-size: 0.85rem;
+            "
+            >⚙️ Settings</a
+          >
+      </div>
+      <div id="status-indicator">
+        <span id="connection-status" class="disconnected">●</span>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <span class="stat-value running" id="stat-running">0</span> running
+          </div>
+          <div class="stat-item">
+            <span class="stat-value completed" id="stat-completed">0</span>
+            completati
+          </div>
+          <div class="stat-item">
+            <span class="stat-value failed" id="stat-failed">0</span> falliti
+          </div>
         </div>
+        <span id="active-count" style="display: none">0</span>
+      </div>
     </header>
 
     <main>
-        <aside id="sidebar">
-            <section id="commands-section">
-                <h2>Comandi</h2>
-                <div id="command-list"></div>
-            </section>
-
-            <section id="tasks-section">
-                <h2>Task Recenti</h2>
-                <div id="task-list"></div>
-                <button id="btn-clear-finished" class="btn-secondary">Pulisci completati</button>
-            </section>
-        </aside>
-
-        <section id="main-content">
-            <div id="command-form" class="hidden">
-                <h3 id="command-title"></h3>
-                <p id="command-description"></p>
-                <form id="params-form"></form>
-                <div class="button-group">
-                    <button id="btn-start" class="btn-primary">Avvia</button>
-                    <button id="btn-cancel" class="btn-secondary">Annulla</button>
-                </div>
-            </div>
-
-            <div id="output-section">
-                <div id="output-header">
-                    <h3>Output <span id="current-task-id"></span></h3>
-                    <div class="button-group">
-                        <button id="btn-stop" class="btn-warning" disabled>Stop</button>
-                        <button id="btn-kill" class="btn-danger" disabled>Kill</button>
-                        <button id="btn-clear" class="btn-secondary">Pulisci</button>
-                    </div>
-                </div>
-                <pre id="output-container"></pre>
-            </div>
+      <!-- Col 1: Comandi -->
+      <aside id="sidebar">
+        <section id="commands-section">
+          <h2>⚡ Comandi</h2>
+          <div id="command-list"></div>
         </section>
+        <section id="tasks-section">
+          <div id="task-list"></div>
+        </section>
+      </aside>
+
+      <!-- Col 2: Task attivi + Form -->
+      <section id="main-content">
+        <div id="active-tasks-panel">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 0.5rem;
+            "
+          >
+            <h3 style="margin: 0">🔄 Task Attivi</h3>
+            <button
+              id="btn-clear-finished"
+              class="btn-secondary"
+              style="padding: 0.2rem 0.5rem; font-size: 0.7rem"
+            >
+              🧹 Pulisci completati
+            </button>
+          </div>
+          <div id="active-tasks-list"></div>
+        </div>
+
+        <div id="command-form" class="hidden">
+          <h3 id="command-title"></h3>
+          <p id="command-description"></p>
+          <form id="params-form"></form>
+          <div class="button-group">
+            <button id="btn-start" class="btn-primary">▶ Avvia</button>
+            <button id="btn-cancel" class="btn-secondary">✕ Annulla</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Col 3: Output -->
+      <div id="output-section">
+        <div id="output-header">
+          <h3>📋 Output <span id="current-task-id"></span></h3>
+          <div class="button-group">
+            <button id="btn-stop" class="btn-warning" disabled>⏹ Stop</button>
+            <button id="btn-kill" class="btn-danger" disabled>☠ Kill</button>
+            <button id="btn-clear" class="btn-secondary">🧹</button>
+          </div>
+        </div>
+        <pre id="output-container"></pre>
+      </div>
     </main>
 
-    <footer>
-        <p>PTOF Task Runner - <a href="/">Dashboard</a></p>
-    </footer>
+    <footer></footer>
 
     <script src="{{ url_for('static', filename='js/taskrunner.js') }}"></script>
-</body>
+    <script>
+      // Estendi TaskRunner per stats e panel task attivi
+      const originalLoadTasks = TaskRunner.prototype.loadTasks;
+      TaskRunner.prototype.loadTasks = async function () {
+        await originalLoadTasks.call(this);
+        this.updateStatsAndPanel();
+      };
+
+      TaskRunner.prototype.updateStatsAndPanel = async function () {
+        try {
+          const response = await fetch(`${this.baseUrl}/api/tasks`);
+          const data = await response.json();
+          const tasks = data.tasks || [];
+
+          // Stats
+          const running = tasks.filter((t) => t.status === "running").length;
+          const completed = tasks.filter(
+            (t) => t.status === "completed",
+          ).length;
+          const failed = tasks.filter((t) => t.status === "failed").length;
+
+          document.getElementById("stat-running").textContent = running;
+          document.getElementById("stat-completed").textContent = completed;
+          document.getElementById("stat-failed").textContent = failed;
+
+          // Panel task attivi
+          const panel = document.getElementById("active-tasks-list");
+          panel.innerHTML = "";
+
+          const recentTasks = tasks.slice(0, 8);
+          for (const task of recentTasks) {
+            const card = document.createElement("div");
+            card.className =
+              "task-card" + (task.id === this.currentTaskId ? " selected" : "");
+            const time = task.started_at
+              ? new Date(task.started_at).toLocaleTimeString()
+              : "";
+            card.innerHTML = `
+                        <div class="task-info">
+                            <div class="task-cmd">${task.command}</div>
+                            <div class="task-time">${time}</div>
+                        </div>
+                        <span class="task-status ${task.status}">${task.status}</span>
+                    `;
+            card.addEventListener("click", () => this.selectTask(task.id));
+            panel.appendChild(card);
+          }
+        } catch (e) {
+          console.error(e);
+        }
+      };
+
+      // Auto-refresh stats
+      setInterval(() => {
+        if (window.taskRunner) window.taskRunner.updateStatsAndPanel();
+      }, 2000);
+    </script>
+  </body>
 </html>

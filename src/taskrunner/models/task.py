@@ -34,6 +34,7 @@ class Task:
     exit_code: Optional[int] = None
     log_file: Optional[str] = None
     error_message: Optional[str] = None
+    archived: bool = False
 
     def to_dict(self) -> dict:
         """Serializza il task in un dizionario JSON-compatibile."""
@@ -49,7 +50,8 @@ class Task:
             "finished_at": self.finished_at.isoformat() if self.finished_at else None,
             "exit_code": self.exit_code,
             "log_file": self.log_file,
-            "error_message": self.error_message
+            "error_message": self.error_message,
+            "archived": self.archived
         }
 
     @classmethod
@@ -65,6 +67,7 @@ class Task:
         task.exit_code = data.get("exit_code")
         task.log_file = data.get("log_file")
         task.error_message = data.get("error_message")
+        task.archived = data.get("archived", False)
 
         # Parse datetime
         if data.get("created_at"):
@@ -97,5 +100,9 @@ class Task:
         parts = ["make", self.make_target]
         for key, value in self.variables.items():
             if value:
+                # Se è PRESET e contiene " - ", estrai solo l'ID (prima parte)
+                if key == "PRESET" and " - " in str(value):
+                    value = str(value).split(" - ")[0]
+                
                 parts.append(f"{key}={value}")
         return " ".join(parts)

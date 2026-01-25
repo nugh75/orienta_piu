@@ -24,6 +24,28 @@ class MakeCommand:
 
 
 # Opzioni valide per le variabili (usate per dropdown nella UI)
+PROVIDER_MODELS = {
+    "ollama": [
+        "gemma3:27b", "qwen3:32b", "llama3.3:70b", "deepseek-r1:32b",
+        "phi-4:14b", "mistral-small"
+    ],
+    "openrouter": [
+        "google/gemini-2.0-flash-lite-001",
+        "google/gemini-2.0-flash-001",
+        "google/gemini-2.0-flash-exp:free",
+        "meta-llama/llama-3.3-70b-instruct",
+        "deepseek/deepseek-r1:free"
+    ],
+    "gemini": [
+        "gemini-2.5-flash", 
+        "gemini-2.5-pro",
+        "gemini-2.0-flash",
+        "gemini-1.5-flash"
+    ],
+    "auto": [],  # Auto deciderà a runtime
+    "": []
+}
+
 VARIABLE_OPTIONS = {
     "G": {
         "label": "Grado scolastico",
@@ -66,35 +88,70 @@ VARIABLE_OPTIONS = {
         "options": ["", "auto", "ollama", "openrouter", "gemini"],
         "allow_custom": False,
     },
+    "PROVIDER_ANALYST": {
+        "label": "Provider Analyst",
+        "options": ["", "auto", "ollama", "openrouter", "gemini"],
+        "allow_custom": False,
+    },
+    "PROVIDER_REVIEWER": {
+        "label": "Provider Reviewer",
+        "options": ["", "auto", "ollama", "openrouter", "gemini"],
+        "allow_custom": False,
+    },
+    "PROVIDER_REFINER": {
+        "label": "Provider Refiner",
+        "options": ["", "auto", "ollama", "openrouter", "gemini"],
+        "allow_custom": False,
+    },
+    "PROVIDER_SYNTHESIZER": {
+        "label": "Provider Synthesizer",
+        "options": ["", "auto", "ollama", "openrouter", "gemini"],
+        "allow_custom": False,
+    },
     "MODEL": {
         "label": "Modello AI",
-        "options": [
-            "",
-            "gemma3:27b", "qwen3:32b", "llama3.3:70b", "deepseek-r1:32b",
-            "gemini-2.5-flash", "gemini-2.5-pro",
-            "google/gemini-2.0-flash-lite-001", "google/gemini-2.0-flash-exp:free"
-        ],
+        "options": [],  # Saranno riempiti dinamicamente se c'è provider
         "allow_custom": True,
+        "depends_on": {
+            "field": "PROVIDER",
+            "options_map": PROVIDER_MODELS
+        }
     },
     "ANALYST": {
         "label": "Modello Analyst",
-        "options": ["", "gemma3:27b", "qwen3:32b", "llama3.3:70b"],
+        "options": [],
         "allow_custom": True,
+        "depends_on": {
+            "field": "PROVIDER_ANALYST",
+            "options_map": PROVIDER_MODELS
+        }
     },
     "REVIEWER": {
         "label": "Modello Reviewer",
-        "options": ["", "gemma3:27b", "qwen3:32b", "llama3.3:70b"],
+        "options": [],
         "allow_custom": True,
+        "depends_on": {
+            "field": "PROVIDER_REVIEWER",
+            "options_map": PROVIDER_MODELS
+        }
     },
     "REFINER": {
         "label": "Modello Refiner",
-        "options": ["", "gemma3:27b", "qwen3:32b", "llama3.3:70b"],
+        "options": [],
         "allow_custom": True,
+        "depends_on": {
+            "field": "PROVIDER_REFINER",
+            "options_map": PROVIDER_MODELS
+        }
     },
     "SYNTHESIZER": {
         "label": "Modello Synthesizer",
-        "options": ["", "gemma3:27b", "qwen3:32b", "llama3.3:70b"],
+        "options": [],
         "allow_custom": True,
+        "depends_on": {
+            "field": "PROVIDER_SYNTHESIZER",
+            "options_map": PROVIDER_MODELS
+        }
     },
     "DIM": {
         "label": "Dimensione report",
@@ -181,6 +238,11 @@ VARIABLE_OPTIONS = {
         "options": ["", "3", "5", "10", "20"],
         "allow_custom": True,
     },
+    "PRESET": {
+        "label": "Preset Configurazione",
+        "options": [],  # Saranno riempiti dinamicamente da API
+        "allow_custom": False,
+    },
 }
 
 
@@ -194,7 +256,7 @@ class CommandRegistry:
             "display_name": "Scarica PTOF Stratificato",
             "category": "DOWNLOAD PTOF",
             "description": "Scarica PTOF da scuole usando campionamento stratificato proporzionale ai dati MIUR. Bilancia automaticamente per regione, grado e tipo gestione.",
-            "variables": ["TARGET_TOTAL", "TARGET_STEP", "MAX_CYCLES", "MAX_DOWNLOADS", "G", "R", "GESTIONE"],
+            "variables": ["TARGET_TOTAL", "TARGET_STEP", "MAX_CYCLES", "MAX_DOWNLOADS", "G", "R", "GESTIONE", "PROVIDER_WORKFLOW", "MODEL_WORKFLOW", "PROVIDER_ANALYST", "ANALYST", "PROVIDER_REVIEWER", "REVIEWER", "PROVIDER_REFINER", "REFINER", "PROVIDER_SYNTHESIZER", "SYNTHESIZER"],
             "is_long_running": True,
         },
         "download-sample": {
@@ -233,14 +295,14 @@ class CommandRegistry:
             "display_name": "Analizza PTOF",
             "category": "ANALISI",
             "description": "Analisi completa dei PTOF con AI: estrae indicatori, genera report e punteggi. Elabora una scuola alla volta.",
-            "variables": ["MODEL", "ANALYST", "REVIEWER", "REFINER", "SYNTHESIZER", "PROVIDER", "OLLAMA_URL"],
+            "variables": ["PRESET", "MODEL", "PROVIDER", "PROVIDER_ANALYST", "ANALYST", "PROVIDER_REVIEWER", "REVIEWER", "PROVIDER_REFINER", "REFINER", "PROVIDER_SYNTHESIZER", "SYNTHESIZER", "OLLAMA_URL"],
             "is_long_running": True,
         },
         "run": {
             "display_name": "Analisi Rapida",
             "category": "ANALISI",
             "description": "Avvia analisi PTOF in modalita' parallela (piu' veloce ma usa piu' risorse).",
-            "variables": ["CONF"],
+            "variables": ["PRESET", "CONF"],
             "is_long_running": True,
         },
         "run-force": {

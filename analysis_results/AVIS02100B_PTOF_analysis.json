@@ -1,0 +1,457 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AVIS02100B",
+    "denominazione": "Ist. Sup. \"Rinaldo D'Aquino\"",
+    "tipo_scuola": "I Grado, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Montella",
+    "anno_ptof": "2025/28",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via F. Scandone",
+    "cap": "83048",
+    "email": "avis02100b@istruzione.it",
+    "pec": "avis02100b@pec.istruzione.it",
+    "website": "https//www.iissrinaldodaquino.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Scuole Medie di provenienza",
+        "Scuole superiori",
+        "professionisti",
+        "Enti territoriali",
+        "famiglie"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 1
+      },
+      "finalita_interessi": {
+        "score": 1
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 0
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 1
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 1
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 0
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnici, artistici ed espressivi",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Laboratorio scientifico",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornalino d'istituto",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Concorsi/Progetti interdisciplinari",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di ricerca e sperimentazione",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Piano delle Arti",
+      "categoria_principale": "Competenze sociali e civiche",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Flipped classroom (Inglese, Francese)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Allievo spiega dopo analisi autonoma",
+      "target": "Inglese, Francese"
+    },
+    {
+      "titolo_attivita": "Role playing (Inglese)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Allievo veste i panni dei personaggi",
+      "target": "Inglese"
+    },
+    {
+      "titolo_attivita": "Debate (Inglese)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Pro e contro su un tema",
+      "target": "Inglese"
+    },
+    {
+      "titolo_attivita": "Flipped classroom (Matematica)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Allievo approccia argomento in autonomia",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Laboratorio matematico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo materiali diversi",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Giochi matematici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo/creazione giochi",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Dibattiti matematici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Discussioni su situazioni ignote",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Jigsaw (Matematica)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Divisione classe, condivisione conoscenze",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Problem solving (Matematica)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Risoluzione problemi in situazioni nuove",
+      "target": "Matematica"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Presentazione scuola",
+      "descrizione_e_metodologia": "Allievi presentano la scuola e attività",
+      "target": "Futuri allievi e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Laboratorio teatrale con allestimento spettacolo",
+      "target": "Allievi classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnici, artistici ed espressivi",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di latino",
+      "categoria_principale": "Artistico/Linguistico",
+      "descrizione_e_metodologia": "Studio del lessico e della flessione del latino, traduzione e elementi di civiltà romana.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Laboratorio di arte",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Ideazione, progettazione e realizzazione di elaborati artistici.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sport",
+      "categoria_principale": "Sportivo",
+      "descrizione_e_metodologia": "Attività ludiche come minibasket, pallamano, pallavolo e calcio a 5.",
+      "target": "Allievi che ne fanno richiesta"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Colloqui con scuole primarie, analisi pagelle, uscita in montagna, test d'ingresso.",
+      "target": "Alunni in ingresso"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Allestimento di uno spettacolo teatrale con esercizi di voce, improvvisazione e uso del corpo.",
+      "target": "Classi seconde e terze"
+    },
+    {
+      "titolo_attivita": "Registro elettronico on-line",
+      "categoria_principale": "Servizi Telematici",
+      "descrizione_e_metodologia": "Consultazione voti, assenze, compiti, argomenti lezioni in tempo reale.",
+      "target": "Famiglie, Studenti"
+    },
+    {
+      "titolo_attivita": "Classe virtuale",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Accesso account scolastico, funzione tutoraggio per genitori.",
+      "target": "Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica di base",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Coding, hardware",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica avanzata",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione Nuova ECDL",
+      "target": "Alunni classe terza"
+    },
+    {
+      "titolo_attivita": "Laboratorio di metodo di studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Laboratorio obbligatorio per classi prime, orario pomeridiano, Trimestre",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Studio pomeridiano assistito",
+      "categoria_principale": "Supporto allo studio",
+      "descrizione_e_metodologia": "Presenza insegnanti ed educatrici, locali dedicati",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratori di recupero e approfondimento",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Feedback, verifiche, cooperative learning, didattica laboratoriale e multimediale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Living Around The World",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento linguistico reading, listening, dialoghi, role playing",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Circolo dei Lettori",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura partecipata romanzo 'Mio fratello rincorre i dinosauri'",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Realizzazione esperimenti chimica, fisica, biologia",
+      "target": "Classi prime, seconde, terze"
+    },
+    {
+      "titolo_attivita": "Spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Role playing, letture, esercizi",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Cucina",
+      "categoria_principale": "Arte culinaria",
+      "descrizione_e_metodologia": "Corso pratica culinaria",
+      "target": "Classi prime, seconde, terze"
+    },
+    {
+      "titolo_attivita": "Delf",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso certificazione francese livello A1",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione e pittura manufatti in creta",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Canto corale, repertorio liturgia giovanile",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport Ragazze",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportiva",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport Ragazzi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportiva",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Illustrazione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso personalizzato illustrazione",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Lavori a Maglia con i Ferri",
+      "categoria_principale": "Artigianato",
+      "descrizione_e_metodologia": "Realizzazione prodotti a maglia",
+      "target": "Classi prime, seconde"
+    },
+    {
+      "titolo_attivita": "Robotica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo scheda Arduino",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso certificazione computer literacy",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Giapponese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Avvicinamento lingua e cultura giapponese",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Food And Cooking",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approfondimento vocabolario inglese alberghiero",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Laboratori specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori attivati in ambito territoriale e a seguito di convenzioni",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori piccoli gruppi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alunni con BES e alunni valorizzati come risorsa",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico-espressivi/tecnologici",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Rivolti a tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Boscolandia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di Accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli alunni"
+    }
+  ]
+}

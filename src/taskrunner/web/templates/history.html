@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storico Task - PTOF Task Runner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script>
+        (function() {
+            var path = window.location.pathname;
+            window.TASKRUNNER_BASE = path.startsWith('/taskrunner') ? '/taskrunner' : '';
+        })();
+    </script>
+    <style>
+        body { height: 100vh; overflow: hidden; }
+        main { display: flex; flex-direction: column; height: calc(100vh - 50px); padding: 1rem; }
+        header { height: 50px; padding: 0.5rem 1rem; }
+        header h1 { font-size: 1.2rem; }
+
+        /* Navigation */
+        .nav-links { display: flex; gap: 1rem; align-items: center; }
+        .nav-links a { color: var(--accent-primary); text-decoration: none; font-size: 0.9rem; }
+        .nav-links a:hover { text-decoration: underline; }
+
+        /* Header controls */
+        .header-controls { display: flex; gap: 1rem; align-items: center; }
+        .header-controls select, .header-controls input {
+            padding: 0.3rem 0.5rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            border-radius: 4px;
+        }
+
+        /* Stats summary */
+        .stats-summary {
+            display: flex;
+            gap: 2rem;
+            padding: 0.75rem 1rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .stat-box { text-align: center; }
+        .stat-box .value { font-size: 1.5rem; font-weight: bold; }
+        .stat-box .label { font-size: 0.75rem; color: var(--text-secondary); }
+        .stat-box.running .value { color: #4ecca3; }
+        .stat-box.completed .value { color: #4a90d9; }
+        .stat-box.failed .value { color: #dc3545; }
+        .stat-box.cancelled .value { color: #ffc107; }
+
+        /* Task table */
+        .task-table-container { flex: 1; overflow-y: auto; background: var(--bg-secondary); border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--border-color); }
+        th { background: var(--bg-tertiary); position: sticky; top: 0; font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; }
+        td { font-size: 0.85rem; }
+        tr:hover { background: var(--bg-tertiary); }
+
+        .task-id { font-family: monospace; font-size: 0.75rem; color: var(--text-secondary); }
+        .task-command { font-weight: 500; }
+        .task-status { padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; display: inline-block; }
+        .task-status.running { background: #4ecca3; color: #000; }
+        .task-status.completed { background: #4a90d9; color: #fff; }
+        .task-status.failed { background: #dc3545; color: #fff; }
+        .task-status.cancelled { background: #ffc107; color: #000; }
+        .task-status.pending { background: #6c757d; color: #fff; }
+
+        .task-time { font-size: 0.8rem; color: var(--text-secondary); }
+        .task-duration { font-family: monospace; font-size: 0.8rem; }
+        .task-exit { font-family: monospace; }
+        .task-exit.success { color: #4ecca3; }
+        .task-exit.error { color: #dc3545; }
+
+        .task-actions button { padding: 0.25rem 0.5rem; font-size: 0.75rem; margin-right: 0.25rem; }
+
+        /* Empty state */
+        .empty-state { text-align: center; padding: 3rem; color: var(--text-secondary); }
+
+        /* Footer actions */
+        .footer-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            margin-top: 0.5rem;
+        }
+        .pagination { display: flex; gap: 0.5rem; align-items: center; }
+        .pagination button { padding: 0.3rem 0.6rem; font-size: 0.8rem; }
+        .pagination span { font-size: 0.85rem; color: var(--text-secondary); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-links">
+            <h1>Storico Task</h1>
+            <a href="{{ url_for('index') }}">Torna alla Dashboard</a>
+        </div>
+        <div class="header-controls">
+            <select id="filter-status">
+                <option value="">Tutti gli stati</option>
+                <option value="running">In esecuzione</option>
+                <option value="completed">Completati</option>
+                <option value="failed">Falliti</option>
+                <option value="cancelled">Cancellati</option>
+            </select>
+            <input type="text" id="filter-command" placeholder="Filtra comando...">
+            <button id="btn-refresh" class="btn-secondary">Aggiorna</button>
+            <button id="btn-clear-all" class="btn-danger">Pulisci completati</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="stats-summary">
+            <div class="stat-box">
+                <div class="value" id="total-count">0</div>
+                <div class="label">Totali</div>
+            </div>
+            <div class="stat-box running">
+                <div class="value" id="running-count">0</div>
+                <div class="label">In esecuzione</div>
+            </div>
+            <div class="stat-box completed">
+                <div class="value" id="completed-count">0</div>
+                <div class="label">Completati</div>
+            </div>
+            <div class="stat-box failed">
+                <div class="value" id="failed-count">0</div>
+                <div class="label">Falliti</div>
+            </div>
+            <div class="stat-box cancelled">
+                <div class="value" id="cancelled-count">0</div>
+                <div class="label">Cancellati</div>
+            </div>
+        </div>
+
+        <div class="task-table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Comando</th>
+                        <th>Stato</th>
+                        <th>Avviato</th>
+                        <th>Durata</th>
+                        <th>Exit Code</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody id="task-table-body">
+                </tbody>
+            </table>
+            <div id="empty-state" class="empty-state hidden">
+                Nessun task trovato
+            </div>
+        </div>
+
+        <div class="footer-actions">
+            <div class="pagination">
+                <button id="btn-prev" class="btn-secondary" disabled>&lt; Precedente</button>
+                <span id="page-info">Pagina 1</span>
+                <button id="btn-next" class="btn-secondary" disabled>Successivo &gt;</button>
+            </div>
+            <div>
+                <span id="showing-info" style="font-size: 0.85rem; color: var(--text-secondary);"></span>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const baseUrl = window.TASKRUNNER_BASE || '';
+        let allTasks = [];
+        let filteredTasks = [];
+        let currentPage = 1;
+        const pageSize = 50;
+
+        async function loadTasks() {
+            try {
+                const response = await fetch(`${baseUrl}/api/tasks/history`);
+                const data = await response.json();
+                allTasks = data.tasks || [];
+                applyFilters();
+                updateStats();
+            } catch (error) {
+                console.error('Failed to load tasks:', error);
+            }
+        }
+
+        function updateStats() {
+            const running = allTasks.filter(t => t.status === 'running').length;
+            const completed = allTasks.filter(t => t.status === 'completed').length;
+            const failed = allTasks.filter(t => t.status === 'failed').length;
+            const cancelled = allTasks.filter(t => t.status === 'cancelled').length;
+
+            document.getElementById('total-count').textContent = allTasks.length;
+            document.getElementById('running-count').textContent = running;
+            document.getElementById('completed-count').textContent = completed;
+            document.getElementById('failed-count').textContent = failed;
+            document.getElementById('cancelled-count').textContent = cancelled;
+        }
+
+        function applyFilters() {
+            const statusFilter = document.getElementById('filter-status').value;
+            const commandFilter = document.getElementById('filter-command').value.toLowerCase();
+
+            filteredTasks = allTasks.filter(task => {
+                if (statusFilter && task.status !== statusFilter) return false;
+                if (commandFilter && !task.command.toLowerCase().includes(commandFilter)) return false;
+                return true;
+            });
+
+            currentPage = 1;
+            renderTable();
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('task-table-body');
+            const emptyState = document.getElementById('empty-state');
+
+            const start = (currentPage - 1) * pageSize;
+            const end = start + pageSize;
+            const pageTasks = filteredTasks.slice(start, end);
+
+            if (pageTasks.length === 0) {
+                tbody.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                document.getElementById('showing-info').textContent = '';
+            } else {
+                emptyState.classList.add('hidden');
+                tbody.innerHTML = pageTasks.map(task => {
+                    const startedAt = task.started_at ? new Date(task.started_at).toLocaleString('it-IT') : '-';
+                    const duration = formatDuration(task);
+                    const exitCode = task.exit_code !== null ? task.exit_code : '-';
+                    const exitClass = task.exit_code === 0 ? 'success' : (task.exit_code !== null ? 'error' : '');
+
+                    return `
+                        <tr>
+                            <td class="task-id" title="${task.id}">${task.id.substring(0, 8)}</td>
+                            <td class="task-command">${escapeHtml(task.command)}</td>
+                            <td><span class="task-status ${task.status}">${translateStatus(task.status)}</span></td>
+                            <td class="task-time">${startedAt}</td>
+                            <td class="task-duration">${duration}</td>
+                            <td class="task-exit ${exitClass}">${exitCode}</td>
+                            <td class="task-actions">
+                                <button class="btn-secondary" onclick="viewOutput('${task.id}')">Log</button>
+                                ${task.status === 'running' ? `<button class="btn-warning" onclick="stopTask('${task.id}')">Stop</button><button class="btn-danger" onclick="killTask('${task.id}')">Kill</button>` : ''}
+                                ${task.status !== 'running' ? `<button class="btn-danger" onclick="deleteTask('${task.id}')">Elimina</button>` : ''}
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+
+                document.getElementById('showing-info').textContent =
+                    `Mostrando ${start + 1}-${Math.min(end, filteredTasks.length)} di ${filteredTasks.length} task`;
+            }
+
+            // Update pagination
+            const totalPages = Math.ceil(filteredTasks.length / pageSize);
+            document.getElementById('page-info').textContent = `Pagina ${currentPage} di ${totalPages || 1}`;
+            document.getElementById('btn-prev').disabled = currentPage <= 1;
+            document.getElementById('btn-next').disabled = currentPage >= totalPages;
+        }
+
+        function formatDuration(task) {
+            if (!task.started_at) return '-';
+            const start = new Date(task.started_at).getTime();
+            const end = task.finished_at ? new Date(task.finished_at).getTime() : Date.now();
+            const seconds = Math.floor((end - start) / 1000);
+
+            if (seconds < 60) return `${seconds}s`;
+            if (seconds < 3600) return `${Math.floor(seconds / 60)}m ${seconds % 60}s`;
+            return `${Math.floor(seconds / 3600)}h ${Math.floor((seconds % 3600) / 60)}m`;
+        }
+
+        function translateStatus(status) {
+            const translations = {
+                'running': 'In esecuzione',
+                'completed': 'Completato',
+                'failed': 'Fallito',
+                'cancelled': 'Cancellato',
+                'pending': 'In attesa'
+            };
+            return translations[status] || status;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function showStatus(message, isError = false) {
+            const info = document.getElementById('showing-info');
+            info.textContent = message;
+            info.style.color = isError ? '#dc3545' : '#4ecca3';
+            setTimeout(() => {
+                info.style.color = 'var(--text-secondary)';
+                renderTable();
+            }, 2000);
+        }
+
+        async function viewOutput(taskId) {
+            window.location.href = `${baseUrl}/?task=${taskId}`;
+        }
+
+        async function stopTask(taskId) {
+            if (!confirm('Vuoi fermare questo task?')) return;
+            showStatus('Fermando task...');
+            try {
+                const response = await fetch(`${baseUrl}/api/tasks/${taskId}/stop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ force: false })
+                });
+                if (response.ok) {
+                    showStatus('Task fermato!');
+                } else {
+                    showStatus('Errore nel fermare il task', true);
+                }
+                loadTasks();
+            } catch (error) {
+                console.error('Failed to stop task:', error);
+                showStatus('Errore: ' + error.message, true);
+            }
+        }
+
+        async function killTask(taskId) {
+            if (!confirm('Vuoi forzare la chiusura di questo task (KILL)?')) return;
+            showStatus('Terminando forzatamente...');
+            try {
+                const response = await fetch(`${baseUrl}/api/tasks/${taskId}/stop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ force: true })
+                });
+                if (response.ok) {
+                    showStatus('Task terminato!');
+                } else {
+                    showStatus('Errore nel terminare il task', true);
+                }
+                loadTasks();
+            } catch (error) {
+                console.error('Failed to kill task:', error);
+                showStatus('Errore: ' + error.message, true);
+            }
+        }
+
+        async function deleteTask(taskId) {
+            if (!confirm('Vuoi eliminare questo task?')) return;
+            showStatus('Eliminando task...');
+            try {
+                const response = await fetch(`${baseUrl}/api/tasks/${taskId}`, { method: 'DELETE' });
+                if (response.ok) {
+                    showStatus('Task eliminato!');
+                } else {
+                    showStatus('Errore: task in esecuzione o non trovato', true);
+                }
+                loadTasks();
+            } catch (error) {
+                console.error('Failed to delete task:', error);
+                showStatus('Errore: ' + error.message, true);
+            }
+        }
+
+        async function clearFinished() {
+            if (!confirm('Vuoi rimuovere tutti i task completati, falliti e cancellati?')) return;
+            showStatus('Pulendo task completati...');
+            try {
+                const response = await fetch(`${baseUrl}/api/tasks/clear`, { method: 'POST' });
+                const data = await response.json();
+                showStatus(`Rimossi ${data.removed} task`);
+                loadTasks();
+            } catch (error) {
+                console.error('Failed to clear tasks:', error);
+                showStatus('Errore: ' + error.message, true);
+            }
+        }
+
+        // Event listeners
+        document.getElementById('filter-status').addEventListener('change', applyFilters);
+        document.getElementById('filter-command').addEventListener('input', applyFilters);
+        document.getElementById('btn-refresh').addEventListener('click', loadTasks);
+        document.getElementById('btn-clear-all').addEventListener('click', clearFinished);
+        document.getElementById('btn-prev').addEventListener('click', () => { currentPage--; renderTable(); });
+        document.getElementById('btn-next').addEventListener('click', () => { currentPage++; renderTable(); });
+
+        // Initial load
+        loadTasks();
+
+        // Auto-refresh every 5 seconds
+        setInterval(loadTasks, 5000);
+    </script>
+</body>
+</html>

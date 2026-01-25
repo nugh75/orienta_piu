@@ -15,6 +15,7 @@ services:
       # Codice sorgente
       - ./src:/app/src:ro
       - ./app:/app/app:ro
+      - ./templates:/app/templates:ro
       - ./config:/app/config
       # Dati (read-write per elaborazione)
       - ./data:/app/data
