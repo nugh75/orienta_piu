@@ -173,7 +173,7 @@ def _get_sorted_candidates(limit: int, target: Optional[str] = None, max_score: 
                         for row in reader:
                             if row.get('school_id') == target:
                                 try:
-                                    score = float(row.get('ptof_orientamento_maturity_index', '0'))
+                                    score = float(row.get('ptof_idpo', '0'))
                                 except ValueError:
                                     pass
                                 break
@@ -190,7 +190,7 @@ def _get_sorted_candidates(limit: int, target: Optional[str] = None, max_score: 
                 reader = csv.DictReader(f)
                 for row in reader:
                     code = row.get('school_id', '')
-                    score_str = row.get('ptof_orientamento_maturity_index', '0')
+                    score_str = row.get('ptof_idpo', '0')
                     try:
                         score = float(score_str)
                     except ValueError:

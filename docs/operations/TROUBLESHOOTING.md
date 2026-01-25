@@ -47,6 +47,7 @@ EOF
 ### 1. ImportError: No module named 'streamlit'
 
 **Soluzione:**
+
 ```bash
 pip install streamlit plotly pandas numpy
 ```
@@ -56,6 +57,7 @@ pip install streamlit plotly pandas numpy
 **Causa:** CSV non generato o eliminato
 
 **Soluzione:**
+
 ```bash
 python3 -c "from src.data.data_manager import update_index_safe; update_index_safe()"
 ```
@@ -65,7 +67,9 @@ python3 -c "from src.data.data_manager import update_index_safe; update_index_sa
 **Causa:** CSV vuoto o filtri troppo restrittivi
 
 **Soluzioni:**
+
 1. Verifica il CSV:
+
 ```bash
 wc -l data/analysis_summary.csv  # Dovrebbe mostrare > 1 riga
 head -5 data/analysis_summary.csv  # Mostra prime righe
@@ -74,6 +78,7 @@ head -5 data/analysis_summary.csv  # Mostra prime righe
 2. Rimuovi i filtri dalla sidebar (pulsante "🗑️ Rimuovi Filtri")
 
 3. Rigenera l'indice:
+
 ```bash
 python3 -c "from src.data.data_manager import update_index_safe; update_index_safe()"
 streamlit cache clear
@@ -86,11 +91,13 @@ streamlit cache clear
 **Soluzioni:**
 
 Opzione A - Cambia porta:
+
 ```bash
 streamlit run app/Home.py --server.port=8502
 ```
 
 Opzione B - Termina processo esistente:
+
 ```bash
 # macOS/Linux
 lsof -ti:8501 | xargs kill -9
@@ -105,6 +112,7 @@ kill <PID>
 **Causa:** Path Python non include la directory del progetto
 
 **Soluzione:**
+
 ```bash
 # Assicurati di essere nella directory root del progetto
 cd /path/to/LIste
@@ -115,6 +123,7 @@ streamlit run app/Home.py
 
 **Soluzione:**
 Riavvia Streamlit e pulisci la cache:
+
 ```bash
 streamlit cache clear
 streamlit run app/Home.py
@@ -131,11 +140,12 @@ streamlit run app/Home.py
 python3 -c "
 import pandas as pd
 df = pd.read_csv('data/analysis_summary.csv')
-print(df['ptof_orientamento_maturity_index'].value_counts(dropna=False))
+print(df['ptof_idpo'].value_counts(dropna=False))
 "
 ```
 
 Se ci sono valori strani, rigenera:
+
 ```bash
 python3 -c "from src.data.data_manager import update_index_safe; update_index_safe()"
 ```
@@ -145,6 +155,7 @@ python3 -c "from src.data.data_manager import update_index_safe; update_index_sa
 **Soluzioni:**
 
 1. Installa Watchdog per file watching ottimizzato:
+
 ```bash
 pip install watchdog
 ```
@@ -154,6 +165,7 @@ pip install watchdog
 3. Riduci i dati visualizzati con i filtri
 
 4. Riavvia con modalità development disabilitata:
+
 ```bash
 streamlit run app/Home.py --server.runOnSave=false
 ```
@@ -165,6 +177,7 @@ streamlit run app/Home.py --server.runOnSave=false
 **Soluzioni:**
 
 1. Aggiorna Plotly:
+
 ```bash
 pip install --upgrade plotly
 ```
@@ -172,6 +185,7 @@ pip install --upgrade plotly
 2. Pulisci cache browser (CTRL+SHIFT+R)
 
 3. Verifica versione:
+
 ```bash
 python -c "import plotly; print(plotly.__version__)"  # Dovrebbe essere >= 5.0
 ```
@@ -188,6 +202,7 @@ Ricarica la pagina (CTRL+R) o riavvia Streamlit
 **Causa:** Metadati incompleti nei JSON di analisi.
 
 **Soluzione:**
+
 ```bash
 python3 src/processing/autofill_region_from_comuni.py
 python3 src/processing/rebuild_csv_clean.py
@@ -198,11 +213,14 @@ python3 src/processing/rebuild_csv_clean.py
 **Causa:** Esiste il lock file `ptof_inbox/.download_in_progress` (download ancora in corso o terminato male).
 
 **Soluzioni:**
+
 1. Attendi la fine del download
 2. Se il download è finito, rimuovi il lock:
+
 ```bash
 rm ptof_inbox/.download_in_progress
 ```
+
 3. (Opzionale) riduci il polling con `PTOF_DOWNLOAD_WAIT_SECONDS`
 
 ---
@@ -210,6 +228,7 @@ rm ptof_inbox/.download_in_progress
 ## Comandi Utili di Debug
 
 ### Verifica Ambiente
+
 ```bash
 # Versioni installate
 python --version
@@ -221,6 +240,7 @@ python -c "import sys; print('\n'.join(sys.path))"
 ```
 
 ### Verifica File
+
 ```bash
 # Dimensione CSV
 ls -lh data/analysis_summary.csv
@@ -233,12 +253,14 @@ head -1 data/analysis_summary.csv | tr ',' '\n' | wc -l
 ```
 
 ### Log di Debug
+
 ```bash
 # Avvia con log dettagliati
 streamlit run app/Home.py --logger.level=debug --server.fileWatcherType=none
 ```
 
 ### Pulizia Cache
+
 ```bash
 # Pulisci cache Streamlit
 rm -rf ~/.streamlit/cache
@@ -285,7 +307,7 @@ def check_system():
         if len(df) == 0:
             issues.append("CSV vuoto")
 
-        required_cols = ['school_id', 'denominazione', 'ptof_orientamento_maturity_index']
+        required_cols = ['school_id', 'denominazione', 'ptof_idpo']
         missing = [c for c in required_cols if c not in df.columns]
         if missing:
             issues.append(f"Colonne CSV mancanti: {missing}")

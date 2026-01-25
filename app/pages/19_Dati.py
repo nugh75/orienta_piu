@@ -227,27 +227,27 @@ with tab_explore:
                         active_filters.append(f"Stato: {selected_stato}")
             
             with filter_cols[3]:
-                # Indice RO range filter
-                if 'ptof_orientamento_maturity_index' in df.columns:
+                # IndiceIDPOrange filter
+                if 'ptof_idpo' in df.columns:
                     # Convert to pct for display/filtering logic if needed, but here we filter on raw values
                     # If we want to filter by %, we should convert limits.
                     # Let's keep filter on raw values but maybe label it better or convert?
                     # The filter is on the raw column. Let's just update label to "Indice Compl"
                     # But wait, raw values are 1-7. If user sees "Indice Compl" they expect %.
                     # It's better to show % range slider and convert to 1-7 for filtering.
-                    min_val = float(df['ptof_orientamento_maturity_index'].min())
-                    max_val = float(df['ptof_orientamento_maturity_index'].max())
+                    min_val = float(df['ptof_idpo'].min())
+                    max_val = float(df['ptof_idpo'].max())
 
                     # Slider per scala 1-7
                     min_val_int = int(min_val)
                     max_val_int = int(max_val) + 1
 
-                    ro_range = st.slider("Indice Completezza (1-7)", 1, 7, (max(1, min_val_int), min(7, max_val_int)), 1, key="filter_ro")
+                    ro_range = st.slider("IIPO (1-7)", 1, 7, (max(1, min_val_int), min(7, max_val_int)), 1, key="filter_ro")
 
                     if ro_range != (max(1, min_val_int), min(7, max_val_int)):
                         df_filtered = df_filtered[
-                            (df_filtered['ptof_orientamento_maturity_index'] >= ro_range[0]) &
-                            (df_filtered['ptof_orientamento_maturity_index'] <= ro_range[1])
+                            (df_filtered['ptof_idpo'] >= ro_range[0]) &
+                            (df_filtered['ptof_idpo'] <= ro_range[1])
                         ]
                         active_filters.append(f"Indice: {ro_range[0]}/7-{ro_range[1]}/7")
 
@@ -386,7 +386,7 @@ with tab_explore:
             
             with col2:
                 st.markdown("**Indici:**")
-                for col in ['ptof_orientamento_maturity_index', 'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita', 'partnership_count']:
+                for col in ['ptof_idpo', 'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita', 'partnership_count']:
                     if col in df.columns:
                         val = school_row.get(col, 'N/D')
                         if pd.notna(val) and isinstance(val, (int, float)):
@@ -403,7 +403,7 @@ with tab_explore:
         st.info("""
     💡 **A cosa serve**: Permette di esaminare nel dettaglio i dati di una singola scuola selezionata.
 
-    🔍 **Cosa rileva**: Mostra tutti i metadati (ID, nome, regione, tipo) e tutti gli indici calcolati (Indice RO, medie dimensionali, singoli punteggi). Ogni aspetto valutato nel PTOF è visibile.
+    🔍 **Cosa rileva**: Mostra tutti i metadati (ID, nome, regione, tipo) e tutti gli indici calcolati (IIPO, medie dimensionali, singoli punteggi). Ogni aspetto valutato nel PTOF è visibile.
 
     🎯 **Implicazioni**: Usa questa sezione per verificare dati specifici, rispondere a domande puntuali su una scuola, o per validare che l'analisi automatica abbia funzionato correttamente.
     """)
@@ -594,7 +594,7 @@ with tab_edit:
                 st.write(f"**Regione:** {regione if regione and regione != 'ND' else 'N/D'} | **Provincia:** {provincia if provincia and provincia != 'ND' else 'N/D'} | **Stato:** {statale if statale and statale != 'ND' else 'N/D'}")
                 
                 from data_utils import format_pct
-                val_ro = school_row.get('ptof_orientamento_maturity_index', 'N/D')
+                val_ro = school_row.get('ptof_idpo', 'N/D')
                 st.write(f"**Indice:** {format_pct(val_ro)}" if pd.notna(val_ro) and val_ro != 'N/D' else "**Indice:** N/D")
                 
                 st.markdown("---")
@@ -859,7 +859,7 @@ with tab_edit:
             anomalies = df_mgmt[
                 df_mgmt['school_id'].str.contains('BIS|DA_VERIFICARE|PTOF', case=False, na=False) |
                 (df_mgmt['school_id'].str.len() < 5) |
-                df_mgmt['ptof_orientamento_maturity_index'].isna()
+                df_mgmt['ptof_idpo'].isna()
             ]
 
             col_dup, col_anom = st.columns(2)
@@ -873,7 +873,7 @@ with tab_edit:
 
                     if selected_dup:
                         dup_rows = df_mgmt[df_mgmt['school_id'] == selected_dup]
-                        st.dataframe(dup_rows[['school_id', 'denominazione', 'comune', 'ptof_orientamento_maturity_index']], hide_index=False)
+                        st.dataframe(dup_rows[['school_id', 'denominazione', 'comune', 'ptof_idpo']], hide_index=False)
 
                         # Option to keep one and delete others
                         keep_idx = st.selectbox("Mantieni riga (index)", dup_rows.index.tolist(), key="keep_idx")
@@ -891,7 +891,7 @@ with tab_edit:
                 st.markdown("**⚠️ Record Anomali** (da verificare)")
                 if len(anomalies) > 0:
                     st.warning(f"Trovati {len(anomalies)} record anomali")
-                    anom_display = anomalies[['school_id', 'denominazione', 'ptof_orientamento_maturity_index']].copy()
+                    anom_display = anomalies[['school_id', 'denominazione', 'ptof_idpo']].copy()
                     st.dataframe(anom_display, hide_index=False)
 
                     selected_anom_idx = st.selectbox("Seleziona record da gestire (index)", anomalies.index.tolist(), key="anom_select")

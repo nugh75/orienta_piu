@@ -546,7 +546,7 @@ with row2_cols[2]:
 **Cosa mostrano i gauge:**
 - **Media aggregata** delle scuole filtrate
 - Il **delta in parentesi** indica la differenza rispetto alla media nazionale
-- I colori indicano il livello di maturità
+- I colori indicano il grado di documentazione della dimensione
     """)
 
 st.markdown("---")
@@ -769,12 +769,12 @@ if is_admin_logged_in():
             st.subheader("Confronto Indice Originale vs Pesato")
             
             # Calcola statistiche
-            if 'ptof_orientamento_maturity_index' in df.columns and 'weighted_index' in df.columns:
-                orig_mean = df['ptof_orientamento_maturity_index'].mean()
+            if 'ptof_idpo' in df.columns and 'weighted_index' in df.columns:
+                orig_mean = df['ptof_idpo'].mean()
                 weighted_mean = df['weighted_index'].mean()
                 diff_mean = weighted_mean - orig_mean
                 
-                diff_series = df['weighted_index'] - df['ptof_orientamento_maturity_index']
+                diff_series = df['weighted_index'] - df['ptof_idpo']
                 diff_min = diff_series.min()
                 diff_max = diff_series.max()
                 diff_std = diff_series.std()
@@ -797,11 +797,11 @@ if is_admin_logged_in():
                 
                 fig_scatter = px.scatter(
                     df,
-                    x='ptof_orientamento_maturity_index',
+                    x='ptof_idpo',
                     y='weighted_index',
                     hover_data=['denominazione', 'regione', 'tipo_scuola'],
                     labels={
-                        'ptof_orientamento_maturity_index': 'Indice Originale',
+                        'ptof_idpo': 'Indice Originale',
                         'weighted_index': 'Indice Pesato'
                     },
                     title="Confronto Indice Originale vs Pesato",
@@ -809,8 +809,8 @@ if is_admin_logged_in():
                 )
                 
                 # Linea di riferimento (y=x)
-                min_val = min(df['ptof_orientamento_maturity_index'].min(), df['weighted_index'].min())
-                max_val = max(df['ptof_orientamento_maturity_index'].max(), df['weighted_index'].max())
+                min_val = min(df['ptof_idpo'].min(), df['weighted_index'].min())
+                max_val = max(df['ptof_idpo'].max(), df['weighted_index'].max())
                 fig_scatter.add_trace(go.Scatter(
                     x=[min_val, max_val],
                     y=[min_val, max_val],
@@ -843,16 +843,16 @@ if is_admin_logged_in():
         with admin_tab3:
             st.subheader("Scuole Più Impattate dai Pesi")
             
-            if 'ptof_orientamento_maturity_index' in df.columns and 'weighted_index' in df.columns:
+            if 'ptof_idpo' in df.columns and 'weighted_index' in df.columns:
                 # Calcola differenza
                 df_impact = df.copy()
-                df_impact['diff'] = df_impact['weighted_index'] - df_impact['ptof_orientamento_maturity_index']
+                df_impact['diff'] = df_impact['weighted_index'] - df_impact['ptof_idpo']
                 
                 impact_sub_cols = st.columns(2)
                 
                 with impact_sub_cols[0]:
                     st.markdown("#### 📈 Top 10 - Maggior Incremento")
-                    top_up = df_impact.nlargest(10, 'diff')[['denominazione', 'regione', 'ptof_orientamento_maturity_index', 'weighted_index', 'diff']]
+                    top_up = df_impact.nlargest(10, 'diff')[['denominazione', 'regione', 'ptof_idpo', 'weighted_index', 'diff']]
                     top_up.columns = ['Scuola', 'Regione', 'Originale', 'Pesato', 'Diff']
                     top_up['Originale'] = top_up['Originale'].apply(lambda x: f"{x:.2f}")
                     top_up['Pesato'] = top_up['Pesato'].apply(lambda x: f"{x:.2f}")
@@ -861,7 +861,7 @@ if is_admin_logged_in():
                 
                 with impact_sub_cols[1]:
                     st.markdown("#### 📉 Top 10 - Maggior Decremento")
-                    top_down = df_impact.nsmallest(10, 'diff')[['denominazione', 'regione', 'ptof_orientamento_maturity_index', 'weighted_index', 'diff']]
+                    top_down = df_impact.nsmallest(10, 'diff')[['denominazione', 'regione', 'ptof_idpo', 'weighted_index', 'diff']]
                     top_down.columns = ['Scuola', 'Regione', 'Originale', 'Pesato', 'Diff']
                     top_down['Originale'] = top_down['Originale'].apply(lambda x: f"{x:.2f}")
                     top_down['Pesato'] = top_down['Pesato'].apply(lambda x: f"{x:.2f}")

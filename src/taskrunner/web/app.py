@@ -24,9 +24,11 @@ def create_app():
     # Registra blueprints
     from .routes.api import api_bp
     from .routes.sse import sse_bp
+    from .routes.strata import strata_bp
 
     app.register_blueprint(api_bp, url_prefix='/api')
     app.register_blueprint(sse_bp, url_prefix='/sse')
+    app.register_blueprint(strata_bp)
 
     @app.route('/')
     def index():

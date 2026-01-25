@@ -73,9 +73,10 @@ def sync_num_to_slider(num_key: str, slider_key: str):
     st.session_state[num_key] = val  # Ensure clamped value
 
 # Tabs
-tab_dims, tab_indicators, tab_presets, tab_preview = st.tabs([
+tab_dims, tab_indicators, tab_sampling, tab_presets, tab_preview = st.tabs([
     "📊 Pesi Dimensioni",
     "📋 Pesi Indicatori",
+    "⚖️ Pesi Campionamento",
     "📁 Preset",
     "👁️ Anteprima"
 ])
@@ -302,7 +303,104 @@ with tab_indicators:
                     st.rerun()
 
 # ===============================
-# TAB 3: Preset
+# TAB 3: Pesi Campionamento
+# ===============================
+with tab_sampling:
+    st.subheader("Pesi Campionamento (Benchmark)")
+    st.markdown("""
+    Configura i **valori attesi** (benchmark) per la popolazione scolastica. 
+    Questi valori vengono usati nella pagina **Campionamento** per calcolare la rappresentatività 
+    e i pesi di post-stratificazione.
+    """)
+    
+    # Caricamento configurazione esistente
+    import json
+    import os
+    BENCHMARK_FILE = 'data/population_benchmarks.json'
+    
+    # Default hardcoded (fallback)
+    DEFAULT_BENCHMARKS = {
+        "gestione": {"Statale": 90.0, "Paritaria": 10.0},
+        "ordine": {"Infanzia": 25.0, "Primaria": 30.0, "I Grado": 20.0, "II Grado": 25.0},
+        "area": {"Nord Ovest": 24.0, "Nord Est": 15.0, "Centro": 18.0, "Sud": 27.0, "Isole": 16.0}
+    }
+    
+    def load_benchmarks():
+        if os.path.exists(BENCHMARK_FILE):
+             try:
+                 with open(BENCHMARK_FILE, 'r') as f:
+                     return json.load(f)
+             except:
+                 return DEFAULT_BENCHMARKS
+        return DEFAULT_BENCHMARKS
+    
+    def save_benchmarks(data):
+        try:
+            with open(BENCHMARK_FILE, 'w') as f:
+                json.dump(data, f, indent=4)
+            return True
+        except:
+            return False
+
+    current_benchmarks = load_benchmarks()
+    
+    # 1. GESTIONE
+    st.markdown("#### 🏛️ Gestione (Statale vs Paritaria)")
+    col1, col2 = st.columns(2)
+    with col1:
+        stat = st.number_input("Statale (%)", min_value=0.0, max_value=100.0, value=float(current_benchmarks.get("gestione", {}).get("Statale", 90.0)), step=0.1, key="bench_stat")
+    with col2:
+        par = st.number_input("Paritaria (%)", min_value=0.0, max_value=100.0, value=float(current_benchmarks.get("gestione", {}).get("Paritaria", 10.0)), step=0.1, key="bench_par")
+    
+    if abs((stat + par) - 100.0) > 0.1:
+        st.error(f"Somma: {stat+par:.1f}% (Deve essere 100%)")
+    
+    # 2. ORDINE
+    st.markdown("#### 🎓 Ordine Scolastico")
+    ord_vals = {}
+    cols_ord = st.columns(4)
+    ord_keys = ["Infanzia", "Primaria", "I Grado", "II Grado"]
+    for i, k in enumerate(ord_keys):
+        with cols_ord[i]:
+            val = st.number_input(f"{k} (%)", min_value=0.0, max_value=100.0, value=float(current_benchmarks.get("ordine", {}).get(k, DEFAULT_BENCHMARKS["ordine"][k])), step=0.1, key=f"bench_ord_{k}")
+            ord_vals[k] = val
+    
+    sum_ord = sum(ord_vals.values())
+    if abs(sum_ord - 100.0) > 0.1:
+        st.error(f"Somma Ordine: {sum_ord:.1f}% (Deve essere 100%)")
+
+    # 3. AREA GEOGRAFICA
+    st.markdown("#### 🗺️ Area Geografica")
+    area_vals = {}
+    cols_area = st.columns(5)
+    area_keys = ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]
+    for i, k in enumerate(area_keys):
+        with cols_area[i]:
+            val = st.number_input(f"{k} (%)", min_value=0.0, max_value=100.0, value=float(current_benchmarks.get("area", {}).get(k, DEFAULT_BENCHMARKS["area"][k])), step=0.1, key=f"bench_area_{k}")
+            area_vals[k] = val
+            
+    sum_area = sum(area_vals.values())
+    if abs(sum_area - 100.0) > 0.1:
+        st.error(f"Somma Area: {sum_area:.1f}% (Deve essere 100%)")
+
+    # SALVATAGGIO
+    st.markdown("---")
+    if st.button("💾 Salva Benchmark Campionamento", type="primary"):
+        new_bench = {
+            "gestione": {"Statale": stat, "Paritaria": par},
+            "ordine": ord_vals,
+            "area": area_vals,
+            "regione": current_benchmarks.get("regione", {}) # Mantieni regioni se presenti (anche se non editabili qui per brevità)
+        }
+        if save_benchmarks(new_bench):
+            st.success("✅ Benchmark salvati correttamente in `data/population_benchmarks.json`")
+            st.rerun()
+        else:
+            st.error("❌ Errore nel salvataggio")
+
+
+# ===============================
+# TAB 4: Preset
 # ===============================
 with tab_presets:
     st.subheader("Gestione Preset")
@@ -379,7 +477,7 @@ with tab_presets:
                     st.error("Compila ID e Nome del preset")
 
 # ===============================
-# TAB 4: Anteprima
+# TAB 5: Anteprima
 # ===============================
 with tab_preview:
     st.subheader("Anteprima Configurazione Attuale")

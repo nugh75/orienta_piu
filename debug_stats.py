@@ -7,8 +7,8 @@ try:
     print("Loaded data/analysis_summary.csv")
     print(f"Shape: {df.shape}")
     
-    if 'ptof_orientamento_maturity_index' in df.columns:
-        col = df['ptof_orientamento_maturity_index']
+    if 'ptof_idpo' in df.columns:
+        col = df['ptof_idpo']
         print("\nptof_orientamento_maturity_index stats:")
         print(col.describe())
         print("\nHead:")
@@ -28,7 +28,7 @@ try:
         print(f"P75: {scaled.quantile(0.75)}")
 
     else:
-        print("Column 'ptof_orientamento_maturity_index' not found.")
+        print("Column 'ptof_idpo' not found.")
         
 except Exception as e:
     print(f"Error: {e}")

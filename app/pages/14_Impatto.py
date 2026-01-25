@@ -1,4 +1,4 @@
-# 📊 Impatto Metodologie - Analisi statistica dell'effetto sull'Indice RO
+# 📊 Impatto Metodologie - Analisi statistica dell'effetto sull'IIPO
 
 import streamlit as st
 import pandas as pd
@@ -197,7 +197,7 @@ Questa pagina analizza **l'impatto statistico** di ciascuna metodologia didattic
 with st.expander("📖 Come leggere i risultati", expanded=False):
     st.markdown("""
     **Metriche statistiche:**
-    - **Differenza**: differenza media dell'Indice di Completezza (punti, scala 1-7) tra scuole che usano e non usano la metodologia
+    - **Differenza**: differenza media dell'IIPO (punti, scala 1-7) tra scuole che usano e non usano la metodologia
     - **p-value**: probabilità che la differenza sia dovuta al caso (< 0.05 = significativo)
     - **Cohen's d**: dimensione dell'effetto (quanto è grande la differenza in termini pratici)
 
@@ -245,7 +245,7 @@ with col4:
 st.markdown("---")
 
 # === GRAFICO PRINCIPALE ===
-st.subheader("📈 Impatto delle Metodologie sull'Indice di Completezza")
+st.subheader("📈 Impatto delle Metodologie sull'IIPO")
 
 # Prepara dati per il grafico
 chart_df = impact_df.copy()
@@ -274,7 +274,7 @@ fig = px.bar(
 fig.update_layout(
     height=700,
     yaxis={'categoryorder': 'total ascending'},
-    xaxis_title='Differenza Indice Completezza (punti, con vs senza)',
+    xaxis_title='Differenza IIPO (punti, con vs senza)',
     yaxis_title='',
     legend_title='Significatività',
     showlegend=True
@@ -310,8 +310,8 @@ if not top_positive.empty:
                 |---------|--------|
                 | Scuole che la usano | {row['N_Con']} |
                 | Scuole che NON la usano | {row['N_Senza']} |
-                | Media RO (con) | {row['Media_Con']:.1f}/7 |
-                | Media RO (senza) | {row['Media_Senza']:.1f}/7 |
+                | MediaIDPO(con) | {row['Media_Con']:.1f}/7 |
+                | MediaIDPO(senza) | {row['Media_Senza']:.1f}/7 |
                 | **Differenza** | **+{row['Differenza']:.1f}** |
                 | p-value | {row['p_value']:.4f} |
                 | Cohen's d | {row['Cohens_d']:.3f} |
@@ -373,7 +373,7 @@ st.download_button(
 st.markdown("---")
 
 # === ANALISI CORRELAZIONI ===
-st.subheader("🔗 Correlazione tra Numero di Metodologie e Indice di Completezza")
+st.subheader("🔗 Correlazione tra Numero di Metodologie e IIPO")
 
 # Conta metodologie per scuola
 method_counts = []
@@ -411,7 +411,7 @@ if method_counts:
             'data_frame': corr_df,
             'x': 'n_methods',
             'y': 'ro',
-            'labels': {'n_methods': 'Numero di Metodologie', 'ro': 'Indice Completezza (1-7)'},
+            'labels': {'n_methods': 'Numero di Metodologie', 'ro': 'IIPO (1-7)'},
             'opacity': 0.6
         }
         

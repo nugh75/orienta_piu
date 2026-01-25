@@ -33,7 +33,7 @@ LABEL_MAP = {
     'mean_governance': 'Media Governance',
     'mean_didattica_orientativa': 'Media Didattica',
     'mean_opportunita': 'Media Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO',
+    'ptof_idpo': 'Indice IIPO',
     'partnership_count': 'N. Partnership',
     'activities_count': 'N. Attività',
     '2_1_score': 'Sezione Dedicata',
@@ -47,13 +47,13 @@ LABEL_MAP_SHORT = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO',
-    'weighted_index': 'Indice RO (Pesato)'
+    'ptof_idpo': 'IIPO',
+    'weighted_index': 'Indice IIPO (Pesato)'
 }
 
 # Colonna indice da usare (pesata se disponibile)
 INDEX_COL = 'weighted_index'
-INDEX_COL_FALLBACK = 'ptof_orientamento_maturity_index'
+INDEX_COL_FALLBACK = 'ptof_idpo'
 
 
 def get_index_column(df: pd.DataFrame) -> str:
@@ -450,9 +450,9 @@ def recalculate_weighted_index(school_data: dict, dim_weights: dict = None, ind_
     except ImportError:
         # Fallback se weights_manager non disponibile
         return {
-            "weighted_index": school_data.get('ptof_orientamento_maturity_index', 0),
+            "weighted_index": school_data.get('ptof_idpo', 0),
             "dimension_means": {},
-            "original_index": school_data.get('ptof_orientamento_maturity_index', 0)
+            "original_index": school_data.get('ptof_idpo', 0)
         }
 
     # Carica pesi se non forniti
@@ -505,7 +505,7 @@ def recalculate_weighted_index(school_data: dict, dim_weights: dict = None, ind_
         weighted_index = 0
 
     # Indice originale dal CSV
-    original_index = school_data.get('ptof_orientamento_maturity_index', 0)
+    original_index = school_data.get('ptof_idpo', 0)
     try:
         original_index = float(original_index) if original_index and not pd.isna(original_index) else 0
     except (ValueError, TypeError):
@@ -526,7 +526,7 @@ def apply_weighted_columns(df: pd.DataFrame) -> pd.DataFrame:
     - weighted_index: indice di maturità ricalcolato con i pesi
     - weighted_mean_finalita, weighted_mean_obiettivi, etc.: medie dimensionali pesate
     
-    Le colonne originali (ptof_orientamento_maturity_index, mean_*) rimangono invariate.
+    Le colonne originali (ptof_idpo, mean_*) rimangono invariate.
     
     Questa funzione è ottimizzata per essere usata una sola volta dopo il caricamento
     del DataFrame, evitando ricalcoli ripetuti.
@@ -544,8 +544,8 @@ def apply_weighted_columns(df: pd.DataFrame) -> pd.DataFrame:
         )
     except ImportError:
         # Fallback: ritorna df invariato
-        if 'weighted_index' not in df.columns and 'ptof_orientamento_maturity_index' in df.columns:
-            df['weighted_index'] = df['ptof_orientamento_maturity_index']
+        if 'weighted_index' not in df.columns and 'ptof_idpo' in df.columns:
+            df['weighted_index'] = df['ptof_idpo']
         return df
     
     # Se già calcolate, ritorna

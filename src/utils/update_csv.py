@@ -102,7 +102,7 @@ if all_data:
         '2_4_obiettivo_ridurre_abbandono_score', '2_4_obiettivo_continuita_territorio_score',
         '2_4_obiettivo_contrastare_neet_score', '2_4_obiettivo_lifelong_learning_score',
         'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
-        'partnership_count', 'activities_count', 'ptof_orientamento_maturity_index'
+        'partnership_count', 'activities_count', 'ptof_idpo'
     ]
     
     # Collect any additional columns not in fixed order

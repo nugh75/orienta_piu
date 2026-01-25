@@ -18,13 +18,13 @@ PDF PTOF → Estrazione Testo → Chunking (8000 car.) → Analisi per Chunk →
 
 ### 1.2 Fasi Dettagliate
 
-| Fase | Descrizione | Output |
-|:-----|:------------|:-------|
-| **Estrazione** | Il PDF viene convertito in testo puro | Testo con riferimenti pagina |
-| **Validazione** | Verifica presenza keyword PTOF | Skip se non valido |
-| **Chunking** | Divisione in blocchi da 8.000 caratteri | N chunk per documento |
-| **Analisi Chunk** | LLM identifica evidenze orientamento | JSON con findings |
-| **Aggregazione** | Combinazione evidenze + scoring finale | JSON strutturato + Report MD |
+| Fase              | Descrizione                             | Output                       |
+| :---------------- | :-------------------------------------- | :--------------------------- |
+| **Estrazione**    | Il PDF viene convertito in testo puro   | Testo con riferimenti pagina |
+| **Validazione**   | Verifica presenza keyword PTOF          | Skip se non valido           |
+| **Chunking**      | Divisione in blocchi da 8.000 caratteri | N chunk per documento        |
+| **Analisi Chunk** | LLM identifica evidenze orientamento    | JSON con findings            |
+| **Aggregazione**  | Combinazione evidenze + scoring finale  | JSON strutturato + Report MD |
 
 ### 1.3 Modello di Analisi
 
@@ -39,10 +39,10 @@ PDF PTOF → Estrazione Testo → Chunking (8000 car.) → Analisi per Chunk →
 
 ### 2.1 File Generati per Ogni Scuola
 
-| File | Contenuto |
-|:-----|:----------|
+| File                     | Contenuto                                |
+| :----------------------- | :--------------------------------------- |
 | `{CODICE}_analysis.json` | Dati strutturati con punteggi e evidenze |
-| `{CODICE}_analysis.md` | Report narrativo (800-1200 parole) |
+| `{CODICE}_analysis.md`   | Report narrativo (800-1200 parole)       |
 
 ### 2.2 CSV Riepilogativo
 
@@ -54,20 +54,21 @@ Il file `data/analysis_summary.csv` contiene tutti i punteggi aggregati per anal
 
 ### 3.1 Scala di Valutazione (Likert 1-7)
 
-| Punteggio | Significato | Criterio |
-|:---------:|:------------|:---------|
-| **1** | Assente | Nessun riferimento nel documento |
-| **2** | Minimo | Menzionato genericamente senza dettagli |
-| **3** | Limitato | Accenni indiretti o frammentari |
-| **4** | Sufficiente | Azioni presenti ma basilari |
-| **5** | Buono | Azioni descritte con strumenti specifici |
-| **6** | Strutturato | Sistema con responsabilità chiare |
-| **7** | Eccellente | Integrato, monitorato e innovativo |
+| Punteggio | Significato | Criterio                                 |
+| :-------: | :---------- | :--------------------------------------- |
+|   **1**   | Assente     | Nessun riferimento nel documento         |
+|   **2**   | Minimo      | Menzionato genericamente senza dettagli  |
+|   **3**   | Limitato    | Accenni indiretti o frammentari          |
+|   **4**   | Sufficiente | Azioni presenti ma basilari              |
+|   **5**   | Buono       | Azioni descritte con strumenti specifici |
+|   **6**   | Strutturato | Sistema con responsabilità chiare        |
+|   **7**   | Eccellente  | Integrato, monitorato e innovativo       |
 
 ### 3.2 Aree di Valutazione
 
 #### FINALITÀ (Sezione 2.3)
-Rispondono alla domanda: *Perché la scuola fa orientamento?*
+
+Rispondono alla domanda: _Perché la scuola fa orientamento?_
 
 - **Attitudini Personali**: Scoperta inclinazioni e talenti
 - **Interessi**: Esplorazione e sviluppo interessi
@@ -76,7 +77,8 @@ Rispondono alla domanda: *Perché la scuola fa orientamento?*
 - **Capacità Orientative**: Sviluppo competenze per scelte consapevoli
 
 #### OBIETTIVI (Sezione 2.4)
-Rispondono alla domanda: *Cosa vuole raggiungere la scuola?*
+
+Rispondono alla domanda: _Cosa vuole raggiungere la scuola?_
 
 - **Riduzione Abbandono**: Prevenzione dispersione scolastica
 - **Continuità Territoriale**: Collegamento scuola-territorio
@@ -84,6 +86,7 @@ Rispondono alla domanda: *Cosa vuole raggiungere la scuola?*
 - **Apprendimento Permanente**: Promozione lifelong learning
 
 #### GOVERNANCE (Sezione 2.5)
+
 - Coordinamento servizi
 - Dialogo docenti-studenti
 - Rapporto scuola-genitori
@@ -91,12 +94,14 @@ Rispondono alla domanda: *Cosa vuole raggiungere la scuola?*
 - Sistema inclusione fragilità
 
 #### DIDATTICA ORIENTATIVA (Sezione 2.6)
+
 - Apprendimento esperienziale
 - Didattica laboratoriale
 - Flessibilità spazi/tempi
 - Interdisciplinarità
 
 #### OPPORTUNITÀ (Sezione 2.7)
+
 - Attività culturali
 - Laboratori espressivi
 - Attività ludico-ricreative
@@ -110,28 +115,31 @@ Rispondono alla domanda: *Cosa vuole raggiungere la scuola?*
 ### 4.1 Formule di Calcolo
 
 **Media Finalità:**
+
 ```
 mean_finalita = (attitudini + interessi + progetto_vita + transizioni + capacità_orientative) / 5
 ```
 
 **Media Obiettivi:**
+
 ```
 mean_obiettivi = (abbandono + continuità + neet + lifelong) / 4
 ```
 
 **Indice di Maturità Globale:**
+
 ```
 maturity_index = (mean_finalita + mean_obiettivi + mean_governance + mean_didattica + mean_opportunita) / 5
 ```
 
 ### 4.2 Interpretazione Indice di Maturità
 
-| Range | Interpretazione |
-|:-----:|:----------------|
-| 1.0 - 2.5 | Orientamento assente o episodico |
+|   Range   | Interpretazione                      |
+| :-------: | :----------------------------------- |
+| 1.0 - 2.5 | Orientamento assente o episodico     |
 | 2.6 - 4.0 | Orientamento presente ma frammentato |
-| 4.1 - 5.5 | Orientamento strutturato |
-| 5.6 - 7.0 | Orientamento sistemico e integrato |
+| 4.1 - 5.5 | Orientamento strutturato             |
+| 5.6 - 7.0 | Orientamento sistemico e integrato   |
 
 ---
 
@@ -139,39 +147,39 @@ maturity_index = (mean_finalita + mean_obiettivi + mean_governance + mean_didatt
 
 ### 5.1 Riepilogo Scuole Analizzate
 
-| Scuola | Comune | Indice Maturità | Media Finalità | Media Obiettivi |
-|:-------|:-------|:---------------:|:--------------:|:---------------:|
-| SAN MARCELLINO CENTRO | San Marcellino | **5.4** | 5.4 | 5.5 |
-| IC2 RAVARINO | Ravarino | **5.1** | 5.4 | 4.5 |
-| Istituto Comprensivo Capranica | Capranica | **5.2** | 5.4 | 5.0 |
+| Scuola                         | Comune         | Indice Maturità | Media Finalità | Media Obiettivi |
+| :----------------------------- | :------------- | :-------------: | :------------: | :-------------: |
+| SAN MARCELLINO CENTRO          | San Marcellino |     **5.4**     |      5.4       |       5.5       |
+| IC2 RAVARINO                   | Ravarino       |     **5.1**     |      5.4       |       4.5       |
+| Istituto Comprensivo Capranica | Capranica      |     **5.2**     |      5.4       |       5.0       |
 
 ### 5.2 Esempio Report Narrativo
 
 **Scuola:** SAN MARCELLINO CENTRO (CEIC87400L)
 
 > **Collocazione dell'orientamento nel documento**
-> 
+>
 > L'orientamento, pur non essendo esplicitamente trattato come un'area tematica autonoma nel PTOF, è intrinsecamente presente in tutta la sua struttura. Il documento pone una forte enfasi sulla formazione integrale del bambino (Pagina 1, 4, 10), sullo sviluppo della sua autonomia, identità e competenze (Pagina 9), e sulla preparazione per la vita in società.
 >
 > **Gap Analysis**
-> 
+>
 > Nonostante la ricchezza di contenuti e l'impegno dimostrato, il PTOF presenta alcune lacune in termini di orientamento esplicito. In particolare, manca una sezione dedicata all'orientamento scolastico e professionale, con obiettivi specifici e azioni mirate. L'orientamento verso la scuola primaria è presente, ma in modo frammentario.
 
 ### 5.3 Dettaglio Punteggi - SAN MARCELLINO CENTRO
 
-| Dimensione | Punteggio |
-|:-----------|:---------:|
-| Sezione Orientamento Dedicata | 5 |
-| Finalità: Attitudini | 6 |
-| Finalità: Interessi | 5 |
-| Finalità: Progetto di Vita | 5 |
-| Finalità: Transizioni | 3 |
-| Obiettivo: Riduzione Abbandono | 6 |
-| Obiettivo: Continuità Territorio | 4 |
-| Obiettivo: Contrasto NEET | 1 |
-| Obiettivo: Lifelong Learning | 6 |
-| **N. Partnership** | 5 |
-| **N. Attività Censite** | 1 |
+| Dimensione                       | Punteggio |
+| :------------------------------- | :-------: |
+| Sezione Orientamento Dedicata    |     5     |
+| Finalità: Attitudini             |     6     |
+| Finalità: Interessi              |     5     |
+| Finalità: Progetto di Vita       |     5     |
+| Finalità: Transizioni            |     3     |
+| Obiettivo: Riduzione Abbandono   |     6     |
+| Obiettivo: Continuità Territorio |     4     |
+| Obiettivo: Contrasto NEET        |     1     |
+| Obiettivo: Lifelong Learning     |     6     |
+| **N. Partnership**               |     5     |
+| **N. Attività Censite**          |     1     |
 
 ---
 
@@ -186,6 +194,7 @@ La dashboard Streamlit permette di:
 5. **Leggere report completi** direttamente nell'interfaccia
 
 ### Accesso Dashboard
+
 ```bash
 streamlit run dashboard.py
 ```
@@ -212,6 +221,7 @@ make pipeline-ollama MODEL=qwen3:32b
 ```
 
 Avvia contemporaneamente:
+
 - Analisi PTOF
 - Revisione scores (punteggi estremi)
 - Revisione report MD (arricchimento)
@@ -227,6 +237,7 @@ Parametri:
 ### 8.2 Catalogo Buone Pratiche
 
 **Legenda emoji (categorie):**
+
 - 📚 Metodologie Didattiche Innovative
 - 🎯 Progetti e Attività Esemplari
 - 🤝 Partnership e Collaborazioni Strategiche
@@ -234,31 +245,34 @@ Parametri:
 - 🌈 Buone Pratiche per l'Inclusione
 - 🗺️ Esperienze Territoriali Significative
 
-**Estrazione dataset (Catalogo Pratiche):**
+**Estrazione dataset (Attività):**
+
 ```bash
 make activity-extract MODEL=qwen3:32b
 ```
 
 **Reset e rielaborazione completa:**
+
 ```bash
 make activity-extract-reset
 ```
 
 **Statistiche rapide:**
+
 ```bash
 make activity-extract-stats
 ```
 
 ### 8.3 Comandi Makefile Principali
 
-| Comando | Descrizione |
-|:--------|:------------|
-| `make run` | Esegue analisi PTOF |
-| `make csv` | Rigenera CSV dai JSON |
-| `make dashboard` | Avvia dashboard Streamlit |
-| `make pipeline-ollama` | Analisi + revisione parallela |
-| `make activity-extract` | Estrazione attività (catalogo) |
-| `make help` | Mostra tutti i comandi disponibili |
+| Comando                 | Descrizione                        |
+| :---------------------- | :--------------------------------- |
+| `make run`              | Esegue analisi PTOF                |
+| `make csv`              | Rigenera CSV dai JSON              |
+| `make dashboard`        | Avvia dashboard Streamlit          |
+| `make pipeline-ollama`  | Analisi + revisione parallela      |
+| `make activity-extract` | Estrazione attività (catalogo)     |
+| `make help`             | Mostra tutti i comandi disponibili |
 
 ---
 

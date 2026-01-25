@@ -148,35 +148,60 @@ st.markdown("---")
 # === INDICI E PUNTEGGI (QUANTITATIVO) ===
 st.header("3. Metrica di Valutazione (Analisi Quantitativa)")
 
-col1, col2 = st.columns(2)
+st.subheader("Criteri di Punteggio (Scala Likert 1-7)")
+st.markdown("""
+| Punteggio | Livello | Descrizione |
+| :---: | :--- | :--- |
+| **1** | **Assente** | Nessun riferimento. |
+| **2** | **Generico** | Menzionato vagamente, copia-incolla normativo. |
+| **3** | **Limitato** | C'è un'intenzione, ma mancano i dettagli attuativi. |
+| **4** | **Sufficiente** | Azioni descritte chiaramente ma basilari. |
+| **5** | **Buono** | Azioni strutturate, con metodologie definite. |
+| **6** | **Ottimo** | Azioni integrate, innovative e ben monitorate. |
+| **7** | **Eccellente** | Best practice sistemica, valutata e migliorata ciclicamente. |
+""")
 
-with col1:
-    st.subheader("Scala di Completezza (1-7)")
-    st.markdown("""
-    Ogni dimensione è valutata rispetto alla sua completezza informativa. Il punteggio indica quanto il PTOF trasforma le intenzioni in azioni documentate.
+st.subheader("Griglia di valutazione sintetica delle dimensioni (1-7)")
+st.markdown("""
+Ogni dimensione è valutata rispetto alla sua completezza informativa. Il punteggio indica quanto il PTOF trasforma le intenzioni in azioni documentate.
 
-    | Punteggio | Descrizione |
-    | :---: | :--- |
-    | **1.0 - 2.2** | Nessun riferimento o accenni minimi |
-    | **2.3 - 3.4** | Riferimenti generici, poco strutturati |
-    | **3.5 - 4.6** | Presenza di azioni basilari ma non coordinate |
-    | **4.7 - 5.8** | Sistema strutturato, buona copertura |
-    | **5.9 - 7.0** | Sistema eccellente, dettagliato e monitorato |
-    """)
+| Punteggio | Descrizione |
+| :---: | :--- |
+| **0.0 - 1.0** | Nessun riferimento |
+| **1.1 - 2.2** | Accenni minimi |
+| **2.3 - 3.4** | Riferimenti generici, poco strutturati |
+| **3.5 - 4.6** | Presenza di azioni basilari ma non coordinate |
+| **4.7 - 5.8** | Sistema strutturato, buona copertura |
+| **5.9 - 7.0** | Sistema eccellente, dettagliato e monitorato |
+""")
 
-with col2:
-    st.subheader("Indice di Completezza PTOF")
-    st.markdown("""
-    L'Indice di Completezza (ex Indice RO) è un indicatore di maturità documentale.
+st.subheader("IIPO (Indice di Documentazione Pratiche Orientamento)")
+st.markdown("""
+L'**IIPO** è un indicatore sintetico che quantifica la completezza della documentazione delle pratiche di orientamento nel PTOF.
 
-    $$ \\text{Indice RO} = \\frac{\\text{Media Finalità} + \\text{Media Obiettivi} + \\text{Media Governance} + \\text{Media Didattica} + \\text{Media Opportunità}}{5} $$
+$$ \\text{IIPO} = \\frac{\\text{Media Finalità} + \\text{Media Obiettivi} + \\text{Media Governance} + \\text{Media Didattica} + \\text{Media Opportunità}}{5} $$
 
-    **Interpretazione:**
-    *   **1.0 - 2.8**: Copertura assente o marginale
-    *   **2.8 - 4.0**: Copertura parziale, elementi basilari
-    *   **4.0 - 5.5**: Buona copertura, sistema strutturato
-    *   **5.5 - 7.0**: Copertura eccellente, attività ricche
-    """)
+**Interpretazione:**
+*   **0.0 - 1.0**: Non classificabile / Errore (scartato)
+*   **1.1 - 2.2**: Accenni minimi
+*   **2.3 - 3.4**: Riferimenti generici, poco strutturati
+*   **3.5 - 4.6**: Presenza di azioni basilari ma non coordinate
+*   **4.7 - 5.8**: Sistema strutturato, buona copertura
+*   **5.9 - 7.0**: Sistema eccellente, dettagliato e monitorato
+""")
+
+st.markdown("""
+### Note Metodologiche sull'IIPO
+
+**Sensibilità Strumentale**
+L'indice è progettato per riflettere variazioni incrementali nelle singole dimensioni. Ogni miglioramento nella documentazione di una specifica area si traduce in un incremento del valore finale, permettendo un monitoraggio preciso dell'evoluzione qualitativa del PTOF.
+
+**Standard di Settore**
+L'adozione della media aritmetica su scala Likert (1-7) è conforme alle metodologie internazionali utilizzate per gli indici di maturità (es. Digital Maturity Index). Questo approccio tratta i punteggi come variabili quasi-numeriche, garantendo rigore statistico e facilità di interpretazione.
+
+**Effetto Compensazione (Limiti della Media)**
+È fondamentale rilevare che la media aritmetica può generare un "effetto compensazione": una performance eccellente in una dimensione può mascherare carenze critiche in altre aree. Pertanto, l'IIPO deve essere sempre analizzato in combinazione con i punteggi delle singole dimensioni per identificare eventuali squilibri strutturali nel sistema di orientamento.
+""")
 
 st.markdown("---")
 
@@ -274,8 +299,8 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("""
 ### 📉 Impatto Metodologie e Progetti
 Uno strumento di analisi statistica per misurare l'efficacia delle pratiche.
-*   **Funzione**: Confronta le scuole che adottano una certa metodologia con quelle che non la usano, calcolando se esiste una differenza significativa nell'Indice di Robustezza (RO).
-*   **Utilità**: Risponde a domande come *"Le scuole che fanno Debate hanno mediamente un PTOF più robusto?"*, fornendo dati su **differenza media, significatività statistica (p-value) e dimensione dell'effetto (Cohen's d)**.
+*   **Funzione**: Confronta le scuole che adottano una certa metodologia con quelle che non la usano, calcolando se esiste una differenza significativa nell'IIPO.
+*   **Utilità**: Risponde a domande come *"Le scuole che fanno Debate hanno mediamente un IIPO più alto?"*, fornendo dati su **differenza media, significatività statistica (p-value) e dimensione dell'effetto (Cohen's d)**.
 """)
 
 st.markdown("<br>", unsafe_allow_html=True)
@@ -291,13 +316,6 @@ La scheda completa di ogni singolo istituto censito.
 *   **Analisi Gap**: Include una funzione avanzata che suggerisce le **aree prioritarie di miglioramento** e identifica scuole "gemelle" (Peer) da cui prendere ispirazione.
 """)
 
-st.markdown("<br>", unsafe_allow_html=True)
 
-st.markdown("""
-### 🔀 Confronto
-Lo strumento per il benchmarking diretto tra due istituti.
-*   **Funzione**: Mette a confronto "fianco a fianco" due scuole qualsiasi, evidenziando chi prevale su ciascuna dimensione.
-*   **Insights**: Genera automaticamente delle osservazioni sulle differenze (es. *"La Scuola A ha più partnership, ma la Scuola B ha una Governance più strutturata"*), utile per capire posizionamenti relativi o modelli organizzativi diversi.
-""")
 
 render_footer()

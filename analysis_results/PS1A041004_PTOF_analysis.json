@@ -1,0 +1,175 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PS1A041004",
+    "denominazione": "Il Giardino Fantastico",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Pesaro",
+    "anno_ptof": "2024/2025-2026/2027",
+    "provincia": "Pesaro E Urbino",
+    "regione": "Marche",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Madonna Di Loreto",
+    "cap": "61100",
+    "email": "maternenidi@comune.pesaro.ps.it",
+    "pec": "ND",
+    "website": "www.comune.trieste.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non è trattato in una sezione dedicata, ma è presente in modo frammentario all'interno del documento, principalmente legato alla transizione verso la scuola primaria e alla collaborazione con le famiglie."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "agenzie educative specializzate",
+        "Università di Trieste – Dipartimento Scienze Umanistiche (DISU)",
+        "Azienda per i Servizi Sanitari",
+        "Polizia Locale di Trieste"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "Nessuna esplicita",
+        "evidence_location": "Nessuna"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "corresponsabilità educativa con le famiglie",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "Nessuna esplicita",
+        "evidence_location": "Nessuna"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Ci vediamo in Biblioteca!",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Potenziamento culturale e formativo attraverso progetti ed eventi rivolti ai bambini",
+      "5w_chi": "Bambini delle Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Lettura",
+      "5w_dove": "Biblioteche Civiche",
+      "5w_quando": "a.s. 2024/2025",
+      "5w_perche": "Promuovere il piacere della lettura",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "potenziamento culturale e formativo",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Crescere giocando con l’arte e la creatività",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività artistiche e creative",
+      "5w_chi": "Bambini delle Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Arte e creatività",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "a.s. 2025/2026",
+      "5w_perche": "Sviluppare la creatività",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Sviluppo delle competenze",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Stare bene insieme imparando a gestire le proprie emozioni",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività per la gestione delle emozioni",
+      "5w_chi": "Bambini delle Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Gestione delle emozioni",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "a.s. 2026/2027",
+      "5w_perche": "Promuovere il benessere emotivo",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "senso di cittadinanza",
+      "evidence_location": "Pagina 3"
+    }
+  ],
+  "narrative": "Il PTOF delle Scuole dell’Infanzia del Comune di Trieste delinea un orientamento implicito, integrato nella progettazione educativa piuttosto che strutturato in una sezione dedicata. L'attenzione primaria è rivolta allo sviluppo integrale del bambino, con particolare enfasi sulla maturazione dell'identità, l'autonomia e lo sviluppo delle competenze. Le **partnership** con realtà quali le **Biblioteche Civiche**, il **Teatro Stabile del Friuli Venezia Giulia** e diverse **agenzie educative specializzate** ampliano l'offerta formativa, offrendo opportunità di apprendimento esperienziale. I **progetti tematici** annuali, tra cui \"Ci vediamo in Biblioteca!\", \"Crescere giocando con l’arte e la creatività\" e \"Stare bene insieme imparando a gestire le proprie emozioni\", mirano a stimolare l'interesse dei bambini e a promuovere lo sviluppo di competenze specifiche. Tuttavia, l'assenza di una sezione specifica per l'orientamento rappresenta una lacuna, limitando la definizione di obiettivi e azioni mirate alla transizione verso la scuola primaria e alla consapevolezza delle attitudini individuali. Il coinvolgimento delle **famiglie** è considerato cruciale, ma mancano indicazioni concrete su come integrarle attivamente nel percorso di orientamento. Sebbene il PTOF promuova l'ampliamento dell'offerta formativa e l'innovazione pedagogica, l'orientamento come processo sistemico e strutturato risulta meno sviluppato. Le attività proposte, pur valide, necessiterebbero di un'integrazione in un quadro più ampio, che consideri le esigenze specifiche dei bambini e le opportunità offerte dal territorio. Il PTOF evidenzia una buona collaborazione con i servizi socio-sanitari e il territorio, ma necessita di definire con maggiore chiarezza le strategie per garantire la continuità didattica e la transizione verso il successivo ordine di scuola. Infine, sebbene venga menzionata l'attenzione all'inclusione (Pagina 2), manca un'analisi approfondita delle strategie implementate per supportare i bambini con fragilità e garantire un'effettiva partecipazione di tutti."
+}

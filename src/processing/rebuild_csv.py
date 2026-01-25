@@ -76,7 +76,7 @@ CSV_COLUMNS = [
     '2_7_opzionali_ludiche_ricreative_score', '2_7_opzionali_volontariato_score',
     '2_7_opzionali_sportive_score',
     'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
-    'partnership_count', 'activities_count', 'ptof_orientamento_maturity_index'
+    'partnership_count', 'activities_count', 'ptof_idpo'
 ]
 
 def calc_avg(scores):
@@ -330,7 +330,7 @@ for school_code, json_file, json_data in selected_entries:
         # Robustness index
         all_means = [mean_finalita, mean_obiettivi, mean_governance, mean_didattica, mean_opportunita]
         robustness_index = calc_avg(all_means)
-        summary_data['ptof_orientamento_maturity_index'] = round(robustness_index, 2)
+        summary_data['ptof_idpo'] = round(robustness_index, 2)
         
         # CORRECTED: Calculate from actual data
         partnership_data = sec2.get('2_2_partnership', {})

@@ -899,7 +899,7 @@ while True:
         df = pd.read_csv(CSV_FILE)
         print(f"📊 CSV contiene {len(df)} scuole", flush=True)
         print(f"\nColonne principali:", flush=True)
-        print(df[['school_id', 'denominazione', 'provincia', 'regione', 'area_geografica', 'ptof_orientamento_maturity_index']].to_string(), flush=True)
+        print(df[['school_id', 'denominazione', 'provincia', 'regione', 'area_geografica', 'ptof_idpo']].to_string(), flush=True)
     else:
         print("⚠️ CSV non ancora creato", flush=True)
     

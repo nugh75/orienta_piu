@@ -1,0 +1,366 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FGIC86200B",
+    "denominazione": "Istituto Comprensivo Statale “Catalano – Moscati”",
+    "tipo_scuola": "Istituto Comprensivo",
+    "ordine_grado": "Infanzia, Primaria, Secondaria I grado",
+    "area_geografica": "Foggia",
+    "territorio": "Foggia",
+    "comune": "Foggia",
+    "anno_ptof": "2022/2025",
+    "provincia": "Foggia",
+    "regione": "Puglia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione 'Una Scuola Orientativa'"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Enti Locali",
+        "Agenzie",
+        "Associazioni",
+        "Liceo Scientifico Statale “A. Volta”",
+        "Liceo Polivalente “C. Poerio”",
+        "Liceo Classico e Liceo Artistico “Lanza=Perugini”",
+        "I.I.S.S. “Notarangelo=Rosati”",
+        "I.P.S.I.A. “A. Pacinotti”",
+        "Scienze Biomediche “Agorà”",
+        "Piccola Compagnia Impertinente",
+        "Associazione “Formever Lab”",
+        "Associazione “Note a margine”",
+        "Amici del Parco",
+        "Biblioteca “Magna Capitana” di Foggia",
+        "Opera Nazionale Montessori",
+        "Associazione “AMIC”",
+        "Rete nazionale per la Sperimentazione nella Scuola secondaria di I grado del Metodo Montessori",
+        "Associazione “IFun”",
+        "Associazione “L’Aquilone”",
+        "Associazioni “Daunia Camp”, “Cammina con noi” e “Asd Lions Academy ETS",
+        "Pentotary",
+        "CONI",
+        "Università di Foggia",
+        "Parcocittà",
+        "università",
+        "associazioni",
+        "enti accreditati",
+        "scuole in rete"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 1
+      },
+      "finalita_interessi": {
+        "score": 1
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 1
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 1
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorso orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppo competenze trasversali, capacità di auto-orientamento",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corso Bio-Scientifico",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Laboratori di biologia, fisica, chimica, matematica, coding, partecipazione a olimpiadi",
+      "target": "Studenti interessati alle scienze"
+    },
+    {
+      "titolo_attivita": "Corso Linguistico",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Certificazioni linguistiche (KET Cambridge), studio di lingue comunitarie",
+      "target": "Studenti interessati alle lingue"
+    },
+    {
+      "titolo_attivita": "Corso Tecnologico/Digitale",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Alfabetizzazione informatica, coding, robotica, certificazione Eipass",
+      "target": "Studenti interessati alla tecnologia"
+    },
+    {
+      "titolo_attivita": "Corso Artistico/Espressivo",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Laboratori di scrittura creativa, teatro, musica, pittura, scultura",
+      "target": "Studenti interessati alle arti"
+    },
+    {
+      "titolo_attivita": "Corso Sportivo",
+      "categoria_principale": "Sportivo",
+      "descrizione_e_metodologia": "Pratica di diverse discipline sportive",
+      "target": "Studenti interessati allo sport"
+    },
+    {
+      "titolo_attivita": "Corso Musicale",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Studio individuale di strumento, musica d'insieme",
+      "target": "Studenti interessati alla musica"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche/viaggi",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a musei, teatri, siti storici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi nuoto/altri sport",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Attività sportive in collaborazione con associazioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Continuità /orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con scuole superiori",
+      "target": "Studenti della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Recupero /potenziamento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività di supporto personalizzate",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Partecipazione spettacoli",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visita a spettacoli teatrali e cinematografici",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento lingua straniera con docenti di madrelingua",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Lezioni con esperti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività progettuali PON",
+      "categoria_principale": "Progettazione",
+      "descrizione_e_metodologia": "Realizzazione di progetti finanziati",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori (musica/arte…)",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Attività espressive",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Tutoring",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Esperienze pratiche di tutoring",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Digital Storytelling",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Inventare storie e realizzare drammatizzazioni con strumenti digitali",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Orto scolastico",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Coltivazione di prodotti e reportage digitale",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Biblioteche innovative",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Atelier creativi e spazi di ricerca",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di arricchimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di nuovi linguaggi e strumenti",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Progetti curriculari ed extracurriculari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Promozione abilità e competenze chiave",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di prevenzione",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Stili di vita corretti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Conoscenza del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Con Denaro…Attenti E Consapevoli",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Lezioni frontali, conferenze, lavori di gruppo",
+      "target": "Primaria, SSIG"
+    },
+    {
+      "titolo_attivita": "Educazione Alimentare E Promozione Sani Stili Di Vita",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività motoria",
+      "target": "Scuola dell’Infanzia"
+    },
+    {
+      "titolo_attivita": "Sport…mente",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motoria",
+      "target": "Scuola dell’Infanzia"
+    },
+    {
+      "titolo_attivita": "Sport Di Classe",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Insegnamento educazione fisica con tutor",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "SBAM a scuola",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Informazione sull'alimentazione e attività motorie",
+      "target": "Scuola primaria"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a competizioni",
+      "target": "Scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "CresciAMO…con lo sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Sport inclusivi",
+      "target": "Scuola dell’Infanzia, Primaria, SSIG"
+    },
+    {
+      "titolo_attivita": "Progetto Piscina",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in vasca",
+      "target": "SSIG"
+    },
+    {
+      "titolo_attivita": "Incontriamoci Con…La Musica E Nella Musica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni collettive",
+      "target": "Primaria, SSIG"
+    },
+    {
+      "titolo_attivita": "Voci Per La Scuola",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni collettive",
+      "target": "Primaria, SSIG"
+    },
+    {
+      "titolo_attivita": "Musicando Musichiamo In Armonia",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni collettive",
+      "target": "Infanzia, Primaria, SSIG"
+    },
+    {
+      "titolo_attivita": "Artistica…mente",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Esperienza creativa",
+      "target": "Non specificato"
+    },
+    {
+      "titolo_attivita": "Percorsi di ricerca = azione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Con l’ausilio di università, associazioni, enti accreditati, scuole in rete",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Sperimentazione metodo Montessori",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Scuola secondaria di I grado, possibile estensione alla primaria",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Elaborazione curricolo verticale per competenze",
+      "target": "Docenti"
+    }
+  ]
+}

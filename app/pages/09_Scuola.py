@@ -133,7 +133,7 @@ def load_data():
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
     
-    # Calcolo Robustezza (Logica: >= 5/7 = Robusto, >= 4/7 = Parziale)
+    # Calcolo IDPO (Logica: >= 5/7 = Robusto, >= 4/7 = Parziale)
     if idx_col in df.columns:
         df['completeness_status'] = df[idx_col].apply(
             lambda x: 'Robusto' if x >= 5.0 else ('Parziale' if x >= 4.0 else 'Da rafforzare')
@@ -330,77 +330,6 @@ def get_priority_areas(school, df, top_n=3):
                     })
     return sorted(priorities, key=lambda x: x['priority_score'], reverse=True)[:top_n]
 
-def calculate_similarity_score(school1, school2):
-    weights = {'tipo_match': 30, 'grado_match': 25, 'territorio_match': 15, 'regione_match': 10, 'statale_match': 10, 'size_similarity': 10}
-    score = 0
-    tipo1 = set(str(school1.get('tipo_scuola', '')).split(','))
-    tipo2 = set(str(school2.get('tipo_scuola', '')).split(','))
-    if tipo1 & tipo2:
-        score += weights['tipo_match']
-    grado1 = set(str(school1.get('ordine_grado', '')).split(','))
-    grado2 = set(str(school2.get('ordine_grado', '')).split(','))
-    if grado1 & grado2:
-        score += weights['grado_match']
-    if school1.get('territorio') == school2.get('territorio'):
-        score += weights['territorio_match']
-    if school1.get('regione') == school2.get('regione'):
-        score += weights['regione_match']
-    if school1.get('statale_paritaria') == school2.get('statale_paritaria'):
-        score += weights['statale_match']
-    p1 = school1.get('partnership_count', 0) or 0
-    p2 = school2.get('partnership_count', 0) or 0
-    if p1 + p2 > 0:
-        size_sim = 1 - abs(p1 - p2) / max(p1 + p2, 1)
-        score += weights['size_similarity'] * size_sim
-    return score
-
-def find_peer_schools(target_school, df, top_n=10):
-    peers = []
-    for idx, school in df.iterrows():
-        if school['school_id'] == target_school['school_id']:
-            continue
-        similarity = calculate_similarity_score(target_school, school)
-        peers.append({
-            'school_id': school['school_id'],
-            'denominazione': school['denominazione'],
-            'comune': school.get('comune', ''),
-            'regione': school.get('regione', ''),
-            'tipo_scuola': school.get('tipo_scuola', ''),
-            'indice_ro': school.get(INDEX_COL, 0),
-            'similarity_score': similarity,
-            **{col: school.get(col, 0) for col in DIMENSIONS.keys()}
-        })
-    return sorted(peers, key=lambda x: x['similarity_score'], reverse=True)[:top_n]
-
-def get_peer_statistics(target_school, peers_df):
-    stats = {}
-    target_index_raw = target_school.get(INDEX_COL, 0)
-    target_index = float(target_index_raw)
-    
-    # Calculate peer indices in percentage
-    peer_indices_raw = peers_df['indice_ro'].values
-    peer_indices = np.array([float(v) for v in peer_indices_raw])
-
-    stats['peer_mean'] = np.mean(peer_indices)
-    stats['peer_std'] = np.std(peer_indices)
-    stats['peer_min'] = np.min(peer_indices)
-    stats['peer_max'] = np.max(peer_indices)
-    stats['target_vs_mean'] = target_index - stats['peer_mean']
-    
-    # Rank based on raw or pct is same
-    stats['rank_in_peers'] = (peer_indices < target_index).sum() + 1
-    stats['total_peers'] = len(peer_indices)
-    stats['percentile_in_peers'] = stats['rank_in_peers'] / stats['total_peers'] * 100
-
-    for col, name in DIMENSIONS.items():
-        target_val = float(target_school.get(col, 0) or 0)
-        peer_vals = [float(v) for v in peers_df[col].values]
-        
-        stats[f'{name}_target'] = target_val
-        stats[f'{name}_peer_mean'] = np.mean(peer_vals)
-        stats[f'{name}_diff'] = target_val - np.mean(peer_vals)
-
-    return stats
 
 # === CARICAMENTO DATI ===
 df = load_data()
@@ -459,21 +388,8 @@ if not school_options:
     st.warning("Nessuna scuola trovata con questo filtro")
     st.stop()
 
-saved_school_id = st.session_state.get('my_school_id')
-saved_school_name = st.session_state.get('my_school_name')
-preferred_school = None
-if saved_school_id:
-    saved_match = df[df['school_id'] == saved_school_id]
-    if not saved_match.empty:
-        preferred_school = saved_match.iloc[0]['denominazione']
-if saved_school_name and saved_school_name in school_options:
-    preferred_school = saved_school_name
-
 if 'selected_school_name' not in st.session_state or st.session_state.selected_school_name not in school_options:
-    if preferred_school and preferred_school in school_options:
-        st.session_state.selected_school_name = preferred_school
-    else:
-        st.session_state.selected_school_name = school_options[0]
+    st.session_state.selected_school_name = school_options[0]
 
 current_index = school_options.index(st.session_state.selected_school_name)
 
@@ -505,19 +421,7 @@ if not selected_school:
 
 school_data = df[df['denominazione'] == selected_school].iloc[0]
 
-# Azioni "Mia Scuola"
-action_cols = st.columns([1, 1])
-with action_cols[0]:
-    if st.button("⭐ Imposta come Mia Scuola", use_container_width=True):
-        st.session_state['my_school_id'] = school_data.get('school_id')
-        st.session_state['my_school_name'] = selected_school
-        st.success(f"'{selected_school}' impostata come tua scuola.")
-with action_cols[1]:
-    if saved_school_name:
-        if st.button("🗑️ Rimuovi Mia Scuola", use_container_width=True):
-            st.session_state.pop('my_school_id', None)
-            st.session_state.pop('my_school_name', None)
-            st.info("Selezione rimossa.")
+
 
 # === INFO GENERALI ===
 st.subheader("📋 Informazioni Generali")
@@ -534,7 +438,7 @@ with info_cols[1]:
 with info_cols[2]:
     st.metric("Area", school_data.get('area_geografica', 'N/D'))
 with info_cols[3]:
-    st.metric("Indice di Robustezza (RO)", format_pct(idx))
+    st.metric("Indice IDPO", format_pct(idx), help="Indice di informatività delle pratiche di orientamento")
 
 info_cols2 = st.columns(4)
 with info_cols2[0]:
@@ -555,7 +459,7 @@ with info_cols3[0]:
     # Use percentage instead of text status as requested
     idx_val = school_data.get(INDEX_COL, 0)
     pct_str = format_pct(idx_val)
-    st.metric("Stato Robustezza", pct_str)
+    st.metric("Stato IDPO", pct_str)
 with info_cols3[1]:
     st.metric("Partnership", int(school_data.get('partnership_count', 0) or 0))
 
@@ -584,9 +488,9 @@ if has_contacts:
             st.write(f"🌐 **Sito Web:** [{website}]({url})")
 
 st.info("""
-💡 **A cosa serve**: Fornisce una panoramica della scuola con i dati identificativi e il livello di robustezza del PTOF sull'orientamento.
+💡 **A cosa serve**: Fornisce una panoramica della scuola con i dati identificativi e il livello di completezza del PTOF sull'orientamento.
 
-🔍 **Cosa rileva**: L'**Indice di Robustezza (RO)** (scala 1-7) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
+🔍 **Cosa rileva**: L'**IDPO** (scala 1-7) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
 
 🎯 **Implicazioni**: Un valore vicino a 7 indica un documento ben strutturato. Valori bassi (vicini a 1) suggeriscono che mancano sezioni fondamentali o dettagli sulle attività di orientamento.
 """)
@@ -596,9 +500,9 @@ st.markdown("---")
 # === TABS PRINCIPALI ===
 radar_cols = list(DIMENSIONS.keys())
 
-tab_profilo, tab_report, tab_practices, tab_gap, tab_peer, tab_matching, tab_suggestions = st.tabs([
+tab_profilo, tab_report, tab_practices, tab_gap, tab_matching, tab_suggestions = st.tabs([
     "📊 Profilo", "📄 Report Scuola", "🌟 Attività", "🎯 Gap Analysis",
-    "👥 Confronto Peer", "🔍 Matching Avanzato", "💡 Suggerimenti"
+    "🔍 Matching Avanzato", "💡 Suggerimenti"
 ])
 
 # === TAB PROFILO ===
@@ -1029,7 +933,7 @@ with tab_report:
             from datetime import datetime
             story.append(Spacer(1, 30))
             story.append(Paragraph(f"<i>Report generato il {datetime.now().strftime('%d/%m/%Y %H:%M')}</i>", normal_style))
-            story.append(Paragraph("<i>Dashboard PTOF - Analisi Robustezza Orientamento</i>", normal_style))
+            story.append(Paragraph("<i>Dashboard PTOF - Analisi IDPO</i>", normal_style))
 
             doc.build(story)
             buffer.seek(0)
@@ -1223,7 +1127,7 @@ with tab_practices:
             else:
                 st.caption("Non ci sono pratiche simili disponibili nel catalogo.")
 
-    if st.button("🌟 Vai al Catalogo Pratiche", use_container_width=True):
+    if st.button("🌟 Vai al Attività", use_container_width=True):
         switch_page("pages/11_Attivita.py")
 # === TAB GAP ANALYSIS ===
 with tab_gap:
@@ -1364,188 +1268,7 @@ with tab_gap:
     st.markdown("---")
     st.caption("🎯 Gap Analysis - Sistema di analisi per il miglioramento continuo")
 
-# === TAB CONFRONTO PEER ===
-with tab_peer:
-    st.subheader("👥 Confronto con Scuole Simili")
 
-    st.subheader(f"📋 {school_data['denominazione']}")
-    info_cols = st.columns(5)
-    with info_cols[0]:
-        st.metric("Indice Completezza", format_pct(school_data[INDEX_COL]))
-    with info_cols[1]:
-        st.metric("Tipo", str(school_data.get('tipo_scuola', 'N/D'))[:20])
-    with info_cols[2]:
-        st.metric("Regione", school_data.get('regione', 'N/D'))
-    with info_cols[3]:
-        st.metric("Territorio", school_data.get('territorio', 'N/D'))
-    with info_cols[4]:
-        st.metric("Gestione", school_data.get('statale_paritaria', 'N/D'))
-
-    st.markdown("---")
-
-    with st.expander("⚙️ Configura Criteri di Matching", expanded=False):
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            n_peers = st.slider("Numero di Peer", 5, 20, 10)
-        with col2:
-            same_region_only = st.checkbox("Solo stessa regione", False)
-        with col3:
-            same_type_only = st.checkbox("Solo stesso tipo", False)
-
-    filtered_df = df.copy()
-    if same_region_only:
-        filtered_df = filtered_df[filtered_df['regione'] == school_data.get('regione')]
-    if same_type_only:
-        tipo = str(school_data.get('tipo_scuola', '')).split(',')[0].strip()
-        if tipo:
-            filtered_df = filtered_df[filtered_df['tipo_scuola'].str.contains(tipo, na=False, case=False)]
-
-    peers = find_peer_schools(school_data, filtered_df, top_n=n_peers)
-    peers_df = pd.DataFrame(peers)
-
-    if peers_df.empty:
-        st.warning("Nessuna scuola peer trovata con i criteri selezionati.")
-    else:
-        stats = get_peer_statistics(school_data, peers_df)
-
-        st.subheader("📊 Posizionamento nel Gruppo Peer")
-        stat_cols = st.columns(4)
-        with stat_cols[0]:
-            st.metric("Posizione", f"{stats['rank_in_peers']}/{stats['total_peers']}")
-        with stat_cols[1]:
-            st.metric("Percentile Peer", f"{stats['percentile_in_peers']:.0f}°")
-        with stat_cols[2]:
-            st.metric("vs Media Peer", format_pct(school_data[INDEX_COL]), f"{stats['target_vs_mean']:+.2f}")
-        with stat_cols[3]:
-            st.metric("Range Peer", f"{stats['peer_min']:.1f}/7 - {stats['peer_max']:.1f}/7")
-
-        st.markdown("---")
-        col1, col2 = st.columns([3, 2])
-
-        with col1:
-            st.subheader("📈 Confronto Dimensionale")
-            categories = list(DIMENSIONS.values())
-            target_values = [float(school_data.get(col, 0) or 0) for col in DIMENSIONS.keys()]
-            peer_mean_values = [float(peers_df[col].mean()) for col in DIMENSIONS.keys()]
-            peer_max_values = [float(peers_df[col].max()) for col in DIMENSIONS.keys()]
-
-            fig = go.Figure()
-            fig.add_trace(go.Scatterpolar(r=target_values, theta=categories, fill='toself', name='Scuola Selezionata', line_color='blue'))
-            fig.add_trace(go.Scatterpolar(r=peer_mean_values, theta=categories, fill='toself', name='Media Peer', line_color='orange'))
-            fig.add_trace(go.Scatterpolar(r=peer_max_values, theta=categories, fill='none', name='Best Peer', line_color='green', line_dash='dash'))
-            fig.update_layout(polar=dict(radialaxis=dict(range=[1, 7])), height=400)
-            st.plotly_chart(fig, use_container_width=True)
-
-        with col2:
-            st.subheader("📊 Δ per Dimensione")
-            diff_data = []
-            for col, name in DIMENSIONS.items():
-                target_val = float(school_data.get(col, 0) or 0)
-                peer_mean = float(peers_df[col].mean())
-                diff = target_val - peer_mean
-                diff_data.append({'Dimensione': name, 'Differenza': diff})
-
-            diff_df = pd.DataFrame(diff_data)
-            fig_bar = px.bar(diff_df, x='Differenza', y='Dimensione', orientation='h',
-                            color='Differenza', color_continuous_scale=['red', 'yellow', 'green'], range_color=[-20, 20])
-            fig_bar.add_vline(x=0, line_dash="dash", line_color="gray")
-            fig_bar.update_layout(height=300, showlegend=False)
-            st.plotly_chart(fig_bar, use_container_width=True)
-
-            strengths = [d['Dimensione'] for d in diff_data if d['Differenza'] > 5.0]
-            weaknesses = [d['Dimensione'] for d in diff_data if d['Differenza'] < -5.0]
-            if strengths:
-                st.success(f"**Punti di forza:** {', '.join(strengths)}")
-            if weaknesses:
-                st.warning(f"**Aree miglioramento:** {', '.join(weaknesses)}")
-
-        # Tabella peer
-        st.markdown("---")
-        st.subheader(f"🏫 Le {n_peers} Scuole Peer Più Simili")
-
-        display_df = peers_df[['denominazione', 'comune', 'regione', 'tipo_scuola', 'indice_ro', 'similarity_score']].copy()
-        display_df.columns = ['Scuola', 'Comune', 'Regione', 'Tipo', 'Indice Compl', 'Similarita %']
-        display_df['Similarita %'] = display_df['Similarita %'].round(0).astype(int)
-        display_df['Indice Compl'] = display_df['Indice Compl'].apply(lambda x: f"{x:.1f}/7")
-
-        def color_index(val):
-            # For simpler coloring, let's just highlight rows, but here we are coloring a string column now...
-            # The apply function above converts to string. Coloring might break if pandas tries to compare logic.
-            # Let's remove this coloring function or adapt it.
-            return ''
-        
-        st.dataframe(
-            display_df,
-            use_container_width=True,
-            hide_index=True
-        )
-
-        st.markdown("---")
-        st.subheader("📊 Distribuzione Indici nel Gruppo Peer")
-
-        fig_dist = go.Figure()
-        
-        peer_indices_pct = [float(x) for x in peers_df['indice_ro']]
-        target_index_pct = float(school_data[INDEX_COL])
-        
-        fig_dist.add_trace(go.Histogram(
-            x=peer_indices_pct,
-            nbinsx=10,
-            name='Distribuzione Peer',
-            marker_color='lightblue'
-        ))
-        fig_dist.add_vline(
-            x=target_index_pct,
-            line_dash="dash",
-            line_color="red",
-            annotation_text="Tu",
-            annotation_position="top"
-        )
-        fig_dist.add_vline(
-            x=np.mean(peer_indices_pct),
-            line_dash="dot",
-            line_color="orange",
-            annotation_text="Media",
-            annotation_position="bottom"
-        )
-        fig_dist.update_layout(
-            xaxis_title="Indice Completezza (1-7)",
-            yaxis_title="N. Scuole",
-            showlegend=False,
-            height=300
-        )
-        st.plotly_chart(fig_dist, use_container_width=True)
-
-        st.markdown("---")
-        st.subheader("💡 Insights dal Confronto Peer")
-
-        insights = []
-        if stats['percentile_in_peers'] >= 75:
-            insights.append("🏆 **Eccellente!** Ti posizioni nel quartile superiore del tuo gruppo peer.")
-        elif stats['percentile_in_peers'] >= 50:
-            insights.append("✅ **Buono!** Sei sopra la mediana del gruppo peer.")
-        elif stats['percentile_in_peers'] >= 25:
-            insights.append("⚠️ **Attenzione:** Sei sotto la mediana del gruppo peer.")
-        else:
-            insights.append("🔴 **Critico:** Sei nel quartile inferiore del gruppo peer.")
-
-        max_strength = max(diff_data, key=lambda x: x['Differenza'])
-        max_weakness = min(diff_data, key=lambda x: x['Differenza'])
-
-        if max_strength['Differenza'] > 0.5:
-            insights.append(f"💪 **Punto di forza distintivo:** {max_strength['Dimensione']} (+{max_strength['Differenza']:.1f} vs peer)")
-        if max_weakness['Differenza'] < -0.5:
-            insights.append(f"📉 **Area critica rispetto ai peer:** {max_weakness['Dimensione']} ({max_weakness['Differenza']:.1f} vs peer)")
-
-        best_peer = peers_df.loc[peers_df['indice_ro'].idxmax()]
-        if best_peer['indice_ro'] > school_data[INDEX_COL] + 0.5:
-            insights.append(f"🎯 **Benchmark suggerito:** {best_peer['denominazione']} (Indice: {best_peer['indice_ro']:.2f})")
-
-        for insight in insights:
-            st.markdown(insight)
-
-    st.markdown("---")
-    st.caption("👥 Confronto Peer - Benchmark equo con scuole simili")
 
 # === TAB MATCHING AVANZATO ===
 with tab_matching:

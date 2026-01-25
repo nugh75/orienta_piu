@@ -8,7 +8,9 @@ echo "🚀 Avvio servizi ORIENTA+..."
 
 # Avvia Task Runner Flask in background sulla porta 5001
 echo "   📡 Task Runner su porta 5001"
-python -m src.taskrunner.web --host 0.0.0.0 --port 5001 &
+# Avvia Task Runner Flask in background sulla porta 5000 (con kill preventivo)
+echo "   📡 Task Runner su porta 5000"
+python scripts/run_app.py --port 5000 &
 TASKRUNNER_PID=$!
 
 # Attendi che il Task Runner sia pronto

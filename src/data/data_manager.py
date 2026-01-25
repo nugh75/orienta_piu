@@ -223,7 +223,7 @@ def update_index_safe():
         # Start with a fixed preferred order for Core columns
         core_cols = [
             'school_id', 'denominazione', 'comune', 'tipo_scuola', 'ordine_grado', 'area_geografica', 'territorio',
-            'ptof_orientamento_maturity_index', 'extraction_status', 
+            'ptof_idpo', 'extraction_status', 
             'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
             'partnership_count', 'activities_count', 'has_sezione_dedicata', '2_1_score', 'analysis_file'
         ]

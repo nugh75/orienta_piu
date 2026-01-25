@@ -12,15 +12,15 @@
         "GESTIONE": "Statale",
         "MODEL_WORKFLOW": "0"
       },
-      "status": "running",
+      "status": "failed",
       "pid": 237,
       "created_at": "2026-01-25T08:10:48.479693",
       "started_at": "2026-01-25T08:10:48.481331",
-      "finished_at": null,
-      "exit_code": null,
+      "finished_at": "2026-01-25T09:10:29.186997",
+      "exit_code": -15,
       "log_file": "/app/logs/taskrunner/tasks/b07e50eb.log",
       "error_message": null,
-      "archived": false
+      "archived": true
     },
     {
       "id": "2b8d42b7",
@@ -70,7 +70,35 @@
       "log_file": "/app/logs/taskrunner/tasks/e7a0a610.log",
       "error_message": null,
       "archived": true
+    },
+    {
+      "id": "d4b8e503",
+      "command": "strata-cycle",
+      "make_target": "strata-cycle",
+      "variables": {
+        "TARGET_STEP": "100",
+        "MAX_CYCLES": "2",
+        "MAX_DOWNLOADS": "50",
+        "GESTIONE": "Paritaria",
+        "PROVIDER_ANALYST": "ollama",
+        "ANALYST": "gemma3:27b",
+        "PROVIDER_REVIEWER": "ollama",
+        "REVIEWER": "gemma3:27b",
+        "PROVIDER_REFINER": "ollama",
+        "REFINER": "gemma3:27b",
+        "PROVIDER_SYNTHESIZER": "ollama",
+        "SYNTHESIZER": "gemma3:27b"
+      },
+      "status": "running",
+      "pid": 3477,
+      "created_at": "2026-01-25T09:11:15.746017",
+      "started_at": "2026-01-25T09:11:15.748095",
+      "finished_at": null,
+      "exit_code": null,
+      "log_file": "/app/logs/taskrunner/tasks/d4b8e503.log",
+      "error_message": null,
+      "archived": false
     }
   ],
-  "saved_at": "2026-01-25T08:30:41.555900"
+  "saved_at": "2026-01-25T09:11:31.863196"
 }

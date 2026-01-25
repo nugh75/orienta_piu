@@ -61,7 +61,7 @@ with st.sidebar:
                 idx_col = get_index_column(df)
                 ro = my_school.get(idx_col, 0)
                 if pd.notna(ro):
-                    st.metric("Indice di Robustezza (RO)", f"{ro:.1f}/7")
+                    st.metric("IIPO", f"{ro:.1f}/7", help="Indice di informatività delle pratiche di orientamento")
 
         if st.button("📊 Vai a Dettaglio Scuola", use_container_width=True):
             switch_page("pages/09_Scuola.py")
@@ -73,46 +73,6 @@ with st.sidebar:
         if st.button("➕ Seleziona la tua scuola", use_container_width=True):
             switch_page("pages/09_Scuola.py")
 
-    st.markdown("---")
-
-st.title("🧭 ORIENTA+")
-st.markdown("**Piattaforma di Analisi della Robustezza dell'Orientamento nei PTOF**")
-
-# === PREFAZIONE ===
-with st.expander("📖 **Perché ORIENTA+** — Clicca per scoprire cosa puoi fare", expanded=False):
-    st.markdown("""
-### Perché ORIENTA+
-
-Questa piattaforma nasce per rispondere a una domanda concreta: **come può una scuola migliorare il proprio approccio all'orientamento?**
-
-La risposta non sta solo nei numeri o negli indici, ma nella possibilità di guardarsi intorno, confrontarsi e imparare da chi affronta sfide simili.
-
----
-
-### Cosa puoi fare con questo strumento
-
-#### Scoprire chi ti è vicino
-
-Ogni scuola opera in un contesto territoriale specifico, con risorse, vincoli e opportunità proprie. Questa dashboard ti permette di individuare scuole geograficamente vicine o con caratteristiche simili alla tua — per tipologia, dimensione, contesto socioeconomico.
-
-Non si tratta solo di curiosità: conoscere le scuole affini significa poter avviare collaborazioni, costruire reti territoriali, condividere progetti. L'orientamento efficace spesso nasce dalla collaborazione tra istituti che condividono lo stesso bacino di studenti o le stesse sfide.
-
-#### Confrontare le metodologie
-
-Cosa fanno le altre scuole per l'orientamento? Quali progetti attivano? Come integrano la didattica orientativa nel curricolo?
-
-Questa dashboard ti consente di esplorare le pratiche documentate nei PTOF di centinaia di scuole italiane. Puoi vedere quali approcci adottano le scuole con i punteggi più alti, quali metodologie risultano più diffuse nella tua regione, quali innovazioni stanno emergendo.
-
-L'obiettivo non è copiare, ma lasciarsi ispirare. Ogni scuola ha la propria identità, ma le buone idee meritano di circolare.
-
-#### Valutare la robustezza del tuo PTOF
-
-Il Piano Triennale dell'Offerta Formativa dovrebbe rappresentare in modo completo la visione della scuola sull'orientamento. Ma è davvero così?
-
-L'Indice di Robustezza dell'Orientamento (RO) e le cinque dimensioni analizzate — Finalità, Obiettivi, Governance, Didattica Orientativa, Opportunità — ti permettono di capire se il tuo PTOF copre tutti gli aspetti fondamentali o se ci sono aree da sviluppare.
-
-Non si tratta di un giudizio, ma di una mappa: sapere dove sei ti aiuta a decidere dove andare.
-""")
 
 st.subheader("⚡ Azioni rapide")
 action_cols = st.columns(3)
@@ -149,7 +109,7 @@ median_ro = ro_series.median() if not ro_series.empty else None
 p25 = ro_series.quantile(0.25) if not ro_series.empty else None
 p75 = ro_series.quantile(0.75) if not ro_series.empty else None
 pct_ge_4 = (ro_series >= 4.0).mean() * 100 if not ro_series.empty else None  # >= 4/7 (sufficienza)
-pct_lt_3 = (ro_series < 3.0).mean() * 100 if not ro_series.empty else None   # < 3/7 (insufficiente)
+
 excellent = int((ro_series >= 5.0).sum()) if not ro_series.empty else 0       # >= 5/7 (eccellente)
 pct_excellent = (excellent / n_scuole * 100) if n_scuole > 0 else 0
 
@@ -158,9 +118,9 @@ with row1[0]:
     st.metric("🏫 Scuole Analizzate", f"{n_scuole:,}")
 with row1[1]:
     if pd.notna(mean_ro):
-        st.metric("📈 Robustezza Media", f"{mean_ro:.1f}/7")
+        st.metric("📈 IIPO Medio", f"{mean_ro:.1f}/7", help="Indice di informatività delle pratiche di orientamento")
     else:
-        st.metric("📈 Robustezza Media", "N/D")
+        st.metric("📈 IIPO Medio", "N/D", help="Indice di informatività delle pratiche di orientamento")
 with row1[2]:
     if median_ro is not None:
         st.metric("📌 Mediana", f"{median_ro:.1f}/7")
@@ -189,18 +149,13 @@ with row2[3]:
     n_tipi = df['tipo_scuola'].nunique() if 'tipo_scuola' in df.columns else 0
     st.metric("📚 Tipologie Scuola", n_tipi)
 
-st.markdown("#### 📌 Distribuzione Robustezza (RO)")
+st.markdown("#### 📌 Distribuzione IIPO", help="Indice di informatività delle pratiche di orientamento")
 dist_cols = st.columns(2)
 with dist_cols[0]:
     if p25 is not None and p75 is not None:
         st.metric("P25-P75", f"{p25:.1f}/7 - {p75:.1f}/7")
     else:
         st.metric("P25-P75", "N/D")
-with dist_cols[1]:
-    if pct_lt_3 is not None:
-        st.metric("Robustezza < 3/7", f"{pct_lt_3:.1f}%")
-    else:
-        st.metric("Robustezza < 3/7", "N/D")
 
 with st.expander("Esempi distribuzione (P25-P75)"):
     if ro_series.empty or p25 is None or p75 is None:
@@ -217,7 +172,7 @@ with st.expander("Esempi distribuzione (P25-P75)"):
             include_lowest=True
         )
         band_counts = bands.value_counts().reset_index()
-        band_counts.columns = ['Fascia Robustezza', 'N. Scuole']
+        band_counts.columns = ['Fascia IIPO', 'N. Scuole']
         band_counts['%'] = (band_counts['N. Scuole'] / len(ro_series) * 100).round(1).astype(str) + "%"
         st.dataframe(band_counts, use_container_width=True, hide_index=True)
 
@@ -229,11 +184,21 @@ with st.expander("Esempi distribuzione (P25-P75)"):
         top_quartile = top_quartile.head(20)
         top_quartile['Robustezza'] = top_quartile[idx_col].apply(lambda x: f"{x:.1f}/7")
         top_quartile = top_quartile[['denominazione', 'regione', 'Robustezza']]
-        top_quartile.columns = ['Scuola', 'Regione', 'Robustezza (RO)']
+        top_quartile.columns = ['Scuola', 'Regione', 'IIPO']
 
         if not top_quartile.empty:
             st.caption(f"Toplist scuole in fascia >= P75 ({p75:.1f}/7) - prime 20")
-            st.dataframe(top_quartile, use_container_width=True, hide_index=True)
+            st.dataframe(
+                top_quartile,
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "IIPO": st.column_config.TextColumn(
+                        "IIPO",
+                        help="Indice di informatività delle pratiche di orientamento"
+                    )
+                }
+            )
         else:
             st.info("Nessuna scuola disponibile nella fascia P75.")
 
@@ -277,17 +242,17 @@ with extra_cols[3]:
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("📊 Distribuzione Indice di Robustezza (RO)")
+    st.subheader("📊 Distribuzione IIPO")
 
     fig_hist = px.histogram(
         df, x=idx_col,
         nbins=14,  # 14 bin per scala 1-7 (0.5 per bin)
         color_discrete_sequence=['#4e73df'],
-        labels={idx_col: 'Robustezza (1-7)'}
+        labels={idx_col: 'IIPO (1-7)'}
     )
     fig_hist.update_layout(
         showlegend=False,
-        xaxis_title="Indice di Robustezza (RO) (1-7)",
+        xaxis_title="IIPO (1-7)",
         yaxis_title="N. Scuole",
         height=350,
         xaxis_range=[1, 7]
@@ -616,7 +581,7 @@ else:
 
 # === MAPPA RAPIDA ===
 st.subheader("🗺️ Panoramica Regionale")
-st.caption("Indice RO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
+st.caption("Indice IIPO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
 
 if 'regione' in df.columns:
     try:
@@ -722,10 +687,10 @@ with nav_cols[1]:
 
 with nav_cols[2]:
     st.info("""
-    **🌟 Catalogo Pratiche**
+    **🌟 Attività**
 
     Esplora e filtra:
-    - Buone pratiche per categoria
+    - Attività per categoria
     - Metodologie e ambiti
     - Distribuzioni e analisi
     """)

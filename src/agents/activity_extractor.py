@@ -272,7 +272,7 @@ class BestPracticeExtractor:
                                 'area_geografica': row.get('area_geografica', ''),
                                 'territorio': row.get('territorio', ''),
                                 'statale_paritaria': row.get('statale_paritaria', ''),
-                                'ptof_orientamento_maturity_index': row.get('ptof_orientamento_maturity_index', ''),
+                                'ptof_idpo': row.get('ptof_idpo', ''),
                             }
                 logger.info(f"Caricati metadati di {len(self.schools_metadata)} scuole dal CSV")
             except Exception as e:
@@ -347,7 +347,7 @@ class BestPracticeExtractor:
         # Prova il CSV per maturity index
         if school_code in self.schools_metadata:
             try:
-                mi = self.schools_metadata[school_code].get('ptof_orientamento_maturity_index', '')
+                mi = self.schools_metadata[school_code].get('ptof_idpo', '')
                 if mi:
                     context["maturity_index"] = float(mi)
             except (ValueError, TypeError):

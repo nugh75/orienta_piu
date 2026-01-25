@@ -494,6 +494,7 @@ MAX_CYCLES ?= 1
 YIELD_GLOBAL ?= 0.6
 MAX_DOWNLOADS ?=
 SKIP_ANALYSIS ?= 0
+SKIP_DOWNLOAD ?= 0
 # Parametri Workflow (Analisi)
 PROVIDER_WORKFLOW ?=
 MODEL_WORKFLOW ?=
@@ -528,6 +529,7 @@ strata-cycle:
 	@echo ""
 	@echo "  --- ANALISI (Workflow) ---"
 	@echo "  Skip analisi:     $(if $(filter 1,$(SKIP_ANALYSIS)),si,no)"
+	@echo "  Skip download:    $(if $(filter 1,$(SKIP_DOWNLOAD)),si,no)"
 	@echo "  Provider:         $(or $(PROVIDER_WORKFLOW),auto)"
 	@echo "  Ollama URL:       $(or $(OLLAMA_URL),http://localhost:11434)"
 	@echo "  Modello:          $(or $(MODEL_WORKFLOW),default)"
@@ -546,7 +548,9 @@ strata-cycle:
 	@echo ""
 	@echo "════════════════════════════════════════════════════════════"
 	@echo ""
-ifndef YES
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+ifneq ($(YES),1)
 	@read -p "Procedere con il ciclo stratificato? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Operazione annullata." && exit 1)
 endif
 	@echo ""
@@ -559,6 +563,7 @@ endif
 		$(if $(MAX_DOWNLOADS),--max-downloads $(MAX_DOWNLOADS),) \
 		--seed $(SEED) \
 		$(if $(filter 1,$(SKIP_ANALYSIS)),--skip-analysis,) \
+		$(if $(filter 1,$(SKIP_DOWNLOAD)),--skip-download,) \
 		$(if $(G),--grado "$(G)",) \
 		$(if $(R),--regione "$(R)",) \
 		$(if $(GESTIONE),--gestione "$(GESTIONE)",) \

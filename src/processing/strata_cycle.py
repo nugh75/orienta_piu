@@ -326,6 +326,7 @@ def call_activity_extract(
 ) -> None:
     """Esegue activity_extractor con i parametri specificati."""
     cmd = [sys.executable, "-m", "src.agents.activity_extractor"]
+    cmd.extend(["--batch-size", "0"]) # Disable batch limit per user request
     if provider:
         cmd.extend(["--provider", provider])
     if model:
@@ -389,6 +390,7 @@ def main() -> int:
     parser.add_argument("--max-downloads", type=int, default=0)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--skip-analysis", action="store_true", help="Salta workflow e rebuild CSV")
+    parser.add_argument("--skip-download", action="store_true", help="Salta fase download (utile per riavviare solo workflow)")
     parser.add_argument("--grado", type=str, help="Filtra per grado (es. SEC_SECONDO)")
     parser.add_argument("--regione", type=str, help="Filtra per regione (es. LAZIO)")
     parser.add_argument("--gestione", type=str, help="Filtra per gestione (Statale o Paritaria)")
@@ -414,6 +416,11 @@ def main() -> int:
     cycle_session_id = f"cycle_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     cost_tracker.start_session(cycle_session_id)
     logger.info(f"Cost tracker inizializzato: {cycle_session_id}")
+    
+    # Log configuration for UI
+    logger.info(f"[CONFIG] Skip Download: {args.skip_download}")
+    logger.info(f"[CONFIG] Skip Analysis: {args.skip_analysis}")
+    logger.info(f"[CONFIG] Skip Activity: {not args.with_activity}")
 
     state = load_cycle_state()
     rng = random.Random(args.seed)
@@ -684,6 +691,11 @@ def main() -> int:
             "selected_total": total_selected,
             "selected_total_before_cap": capped_total or total_selected,
             "selected_per_strato": selected_by_strato,
+            "filters": {
+                "grado": args.grado or "tutti",
+                "regione": args.regione or "tutte",
+                "gestione": args.gestione or "tutte",
+            },
         }
         append_registry(start_entry)
 
@@ -696,81 +708,86 @@ def main() -> int:
         )
         downloaded_success = 0
         cap_reached = False
+        
+        if not args.skip_download:
+            logger.info("[PHASE] Download") 
+            retry_state = RetryAwareState(downloaded_state, force_codes=retry_codes)
+            downloader = dl.PTOFDownloader(retry_state, dl.DOWNLOAD_DIR)
 
-        retry_state = RetryAwareState(downloaded_state, force_codes=retry_codes)
-        downloader = dl.PTOFDownloader(retry_state, dl.DOWNLOAD_DIR)
+            for idx, school in enumerate(selected, 1):
+                result = downloader.download_ptof(school)
+                status = classify_result(result)
 
-        for idx, school in enumerate(selected, 1):
-            result = downloader.download_ptof(school)
-            status = classify_result(result)
+                if status != "already_done":
+                    download_attempts += 1
+                    download_attempts_by_strato[school.strato] += 1
 
-            if status != "already_done":
-                download_attempts += 1
-                download_attempts_by_strato[school.strato] += 1
+                if status == "downloaded":
+                    download_results_by_strato[school.strato]["downloaded"] += 1
+                    downloaded_success += 1
+                    failure_state.pop(school.codice, None)
+                elif status == "already_done":
+                    download_results_by_strato[school.strato]["already_done"] += 1
+                elif status == "rejected":
+                    download_results_by_strato[school.strato]["rejected"] += 1
+                    info = failure_state.get(school.codice, {"attempts": 0})
+                    info["attempts"] = int(info.get("attempts", 0)) + 1
+                    info["last_cycle"] = cycle_id
+                    info["last_reason"] = result.message
+                    info["strato"] = school.strato
+                    failure_state[school.codice] = info
+                    failure_rows.append({
+                        "cycle_id": str(cycle_id),
+                        "school_code": school.codice,
+                        "strato": school.strato,
+                        "reason": result.message,
+                        "attempt": str(info["attempts"]),
+                        "last_seen": datetime.now().isoformat(),
+                    })
+                elif status == "failed":
+                    download_results_by_strato[school.strato]["failed"] += 1
+                    info = failure_state.get(school.codice, {"attempts": 0})
+                    info["attempts"] = int(info.get("attempts", 0)) + 1
+                    info["last_cycle"] = cycle_id
+                    info["last_reason"] = result.message
+                    info["strato"] = school.strato
+                    failure_state[school.codice] = info
+                    failure_rows.append({
+                        "cycle_id": str(cycle_id),
+                        "school_code": school.codice,
+                        "strato": school.strato,
+                        "reason": result.message,
+                        "attempt": str(info["attempts"]),
+                        "last_seen": datetime.now().isoformat(),
+                    })
 
-            if status == "downloaded":
-                download_results_by_strato[school.strato]["downloaded"] += 1
-                downloaded_success += 1
-                failure_state.pop(school.codice, None)
-            elif status == "already_done":
-                download_results_by_strato[school.strato]["already_done"] += 1
-            elif status == "rejected":
-                download_results_by_strato[school.strato]["rejected"] += 1
-                info = failure_state.get(school.codice, {"attempts": 0})
-                info["attempts"] = int(info.get("attempts", 0)) + 1
-                info["last_cycle"] = cycle_id
-                info["last_reason"] = result.message
-                info["strato"] = school.strato
-                failure_state[school.codice] = info
-                failure_rows.append({
-                    "cycle_id": str(cycle_id),
-                    "school_code": school.codice,
-                    "strato": school.strato,
-                    "reason": result.message,
-                    "attempt": str(info["attempts"]),
-                    "last_seen": datetime.now().isoformat(),
-                })
-            elif status == "failed":
-                download_results_by_strato[school.strato]["failed"] += 1
-                info = failure_state.get(school.codice, {"attempts": 0})
-                info["attempts"] = int(info.get("attempts", 0)) + 1
-                info["last_cycle"] = cycle_id
-                info["last_reason"] = result.message
-                info["strato"] = school.strato
-                failure_state[school.codice] = info
-                failure_rows.append({
-                    "cycle_id": str(cycle_id),
-                    "school_code": school.codice,
-                    "strato": school.strato,
-                    "reason": result.message,
-                    "attempt": str(info["attempts"]),
-                    "last_seen": datetime.now().isoformat(),
-                })
+                if idx % 25 == 0 or idx == total_selected:
+                    downloaded_state.save()
+                    logger.info(
+                        f"Download progress {idx}/{total_selected} | "
+                        f"OK {downloader.stats['downloaded']} | "
+                        f"REJECT {downloader.stats['rejected']} | "
+                        f"FAIL {downloader.stats['failed']} | "
+                        f"SKIP {downloader.stats['already_done']}"
+                    )
 
-            if idx % 25 == 0 or idx == total_selected:
-                downloaded_state.save()
-                logger.info(
-                    f"Download progress {idx}/{total_selected} | "
-                    f"OK {downloader.stats['downloaded']} | "
-                    f"REJECT {downloader.stats['rejected']} | "
-                    f"FAIL {downloader.stats['failed']} | "
-                    f"SKIP {downloader.stats['already_done']}"
-                )
+                if args.max_downloads and downloaded_success >= args.max_downloads:
+                    cap_reached = True
+                    logger.info(
+                        "Download cap reached: %s successful downloads (limit=%s)",
+                        downloaded_success,
+                        args.max_downloads,
+                    )
+                    break
 
-            if args.max_downloads and downloaded_success >= args.max_downloads:
-                cap_reached = True
-                logger.info(
-                    "Download cap reached: %s successful downloads (limit=%s)",
-                    downloaded_success,
-                    args.max_downloads,
-                )
-                break
-
-        downloaded_state.save()
-        append_failures(failure_rows)
+            downloaded_state.save()
+            append_failures(failure_rows)
+        else:
+            logger.info("SKIP DOWNLOAD phase as requested.")
 
         # Analysis phase
         if not args.skip_analysis:
+            logger.info("[PHASE] Analysis")
             call_workflow(
                 logger,
                 provider=args.provider_workflow,
@@ -781,12 +798,14 @@ def main() -> int:
                 synthesizer=args.synthesizer,
                 ollama_url=args.ollama_url,
             )
+            logger.info("[PHASE] Update")
             rebuild_csv(logger)
 
         # Activity extraction phase
         if args.with_activity:
             logger.info("=" * 60)
             logger.info("FASE ESTRAZIONE ATTIVITÀ")
+            logger.info("[PHASE] Extraction")
             call_activity_extract(
                 logger,
                 provider=args.provider_activity,
@@ -848,6 +867,12 @@ def main() -> int:
             "download_cap_reached": cap_reached,
             "valid_delta_total": total_delta,
             "valid_delta_per_strato": delta_per_strato,
+            "end_time": datetime.now().isoformat(),
+            "filters": {
+                "grado": args.grado or "tutti",
+                "regione": args.regione or "tutte",
+                "gestione": args.gestione or "tutte",
+            },
         }
         append_registry(entry)
 

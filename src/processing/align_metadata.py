@@ -418,7 +418,7 @@ CSV_COLUMNS = [
     '2_7_opzionali_ludiche_ricreative_score', '2_7_opzionali_volontariato_score',
     '2_7_opzionali_sportive_score', 'mean_finalita', 'mean_obiettivi', 'mean_governance',
     'mean_didattica_orientativa', 'mean_opportunita', 'partnership_count', 'activities_count',
-    'ptof_orientamento_maturity_index'
+    'ptof_idpo'
 ]
 
 def calc_avg(scores):
@@ -542,7 +542,7 @@ for json_path in json_files:
         
         # Maturity Index
         all_means = [row['mean_finalita'], row['mean_obiettivi'], row['mean_governance'], row['mean_didattica_orientativa'], row['mean_opportunita']]
-        row['ptof_orientamento_maturity_index'] = calc_avg([m for m in all_means if m > 0])
+        row['ptof_idpo'] = calc_avg([m for m in all_means if m > 0])
         
         rows.append(row)
         print(f"  ✓ {school_code}")

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-make dashboard
+bash scripts/restart_docker.sh

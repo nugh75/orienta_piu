@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strata Cycle Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Override for Strata page layout */
+        body { height: auto; overflow: auto; }
+        main {
+            display: block;
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem 2rem;
+        }
+        
+        /* Metrics Grid */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .metric-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+        }
+        .metric-value.success { color: var(--accent-success); }
+        .metric-value.warning { color: var(--accent-warning); }
+        .metric-value.info { color: #4a90d9; }
+        .metric-label {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+        .metric-sub {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* Control Bar */
+        .control-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-secondary);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+        .control-left { display: flex; align-items: center; gap: 1rem; }
+        .control-right { display: flex; align-items: center; gap: 0.75rem; }
+        
+        .status-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .status-badge.running { background: var(--accent-success); color: #000; }
+        .status-badge.stopped { background: var(--accent-danger); color: #fff; }
+        .status-badge.loading { background: var(--border-color); color: var(--text-secondary); }
+        
+        .uptime-badge {
+            background: var(--bg-tertiary);
+            color: var(--accent-success);
+            padding: 0.4rem 0.8rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+        .error-badge {
+            background: var(--accent-danger);
+            color: #fff;
+            padding: 0.4rem 0.8rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+        }
+
+        /* Current Step */
+        .step-display {
+            background: var(--bg-tertiary);
+            color: var(--accent-primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Preset Selection */
+        .preset-bar {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--bg-secondary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+        .preset-bar label {
+            color: var(--text-secondary);
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .preset-bar select {
+            flex: 0 0 auto;
+            min-width: 250px;
+        }
+        .preset-models {
+            flex: 1;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        /* Progress */
+        .progress-section {
+            margin-bottom: 1.5rem;
+        }
+        .progress-bar-container {
+            background: var(--bg-tertiary);
+            border-radius: 10px;
+            height: 24px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-success), #2ecc71);
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+        .progress-text {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Two Column Layout */
+        .two-column {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+        }
+
+        /* Log Window */
+        .log-panel {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .log-header {
+            background: var(--bg-tertiary);
+            padding: 0.75rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .log-header h3 {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+        }
+        #log-window {
+            height: 350px;
+            overflow-y: auto;
+            padding: 1rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.75rem;
+            line-height: 1.5;
+            background: #0d0d0d;
+            white-space: pre-wrap;
+            color: var(--text-primary);
+        }
+
+        /* Recent Panel */
+        .recent-panel {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+        .recent-header {
+            background: var(--bg-tertiary);
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.9rem;
+        }
+        .recent-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .recent-list li {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .recent-list li:last-child { border-bottom: none; }
+        .recent-code {
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+        .recent-name {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 200px;
+        }
+        .recent-date {
+            color: var(--text-secondary);
+            font-size: 0.7rem;
+        }
+        .recent-badge {
+            background: var(--bg-tertiary);
+            color: var(--accent-success);
+            padding: 0.2rem 0.5rem;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            float: right;
+        }
+
+        /* Stepper */
+        .stepper-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center align */
+            gap: 0.5rem; /* Reduced gap */
+            margin-bottom: 1rem;
+            background: var(--bg-secondary);
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.8rem; /* Compact padding */
+            border-radius: 20px;
+            background: var(--bg-tertiary);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s;
+            font-size: 0.8rem; /* Smaller font */
+        }
+        .step-item.active {
+            background: var(--accent-success); /* Green for active */
+            color: #000; /* Black text for contrast */
+            border-color: var(--accent-success);
+            box-shadow: 0 0 15px rgba(46, 204, 113, 0.5); /* Green glow */
+            font-weight: 700;
+        }
+        .step-item.completed {
+            background: transparent;
+            color: var(--accent-success);
+            border-color: var(--accent-success);
+        }
+        .step-item.skipped {
+            background: transparent;
+            color: var(--accent-warning);
+            border-color: var(--accent-warning);
+            border-style: dashed;
+        }
+        .step-line {
+            height: 2px;
+            width: 30px; /* Shorter lines */
+            background: var(--border-color);
+            transition: all 0.3s;
+        }
+        .step-line.active {
+            background: var(--accent-success);
+        }
+
+        @media (max-width: 1200px) {
+            .metrics-grid { grid-template-columns: repeat(3, 1fr); }
+            .two-column { grid-template-columns: 1fr; }
+            .stepper-container { flex-direction: column; align-items: stretch; gap: 0.5rem;} 
+            .step-line { display: none; } /* Hide lines on mobile */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/" style="color: inherit; text-decoration: none;">PTOF Task Runner</a> / Strata Cycle</h1>
+        <div style="display:flex;gap:1rem;align-items:center;">
+            <a href="/" style="color: var(--accent-primary); text-decoration: none; font-size: 0.85rem;">← Back to Home</a>
+            <a href="/settings" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem;">⚙️ Settings</a>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- Control Bar -->
+        <div class="control-bar">
+            <div class="control-left">
+                <span id="status-indicator" class="status-badge loading">Loading...</span>
+                <span id="uptime-display" class="uptime-badge" style="display:none;">⏱ --</span>
+                <span id="error-indicator" class="error-badge" style="display:none;">⚠ 0</span>
+                <div class="step-display">
+                    <strong>Step:</strong> <span id="current-step">Not running</span>
+                </div>
+            </div>
+            <div class="control-right">
+                <button id="btn-start" class="btn-primary" onclick="startCycle()" disabled>▶ Start Cycle</button>
+                <button id="btn-stop" class="btn-danger" onclick="stopCycle()" style="display:none;">⏹ Stop Cycle</button>
+            </div>
+        </div>
+
+        <!-- Configuration Panel -->
+        <div class="config-panel" style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3 style="margin: 0; font-size: 0.9rem; color: var(--text-primary);">⚙️ Cycle Configuration</h3>
+                <button id="btn-toggle-config" class="btn-secondary" style="padding: 0.3rem 0.6rem; font-size: 0.75rem;" onclick="toggleConfig()">▼ Show</button>
+            </div>
+            <div id="config-form" style="display: none;">
+                <!-- Row 1: Download filters -->
+                <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+                    <h4 style="font-size: 0.8rem; color: var(--accent-primary); margin-bottom: 0.75rem;">📥 Download Filters</h4>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;">
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Max Downloads</label>
+                            <input type="number" id="cfg-max-downloads" placeholder="unlimited" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Grado</label>
+                            <select id="cfg-grado" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                                <option value="">Tutti</option>
+                                <option value="INFANZIA">Infanzia</option>
+                                <option value="PRIMARIA">Primaria</option>
+                                <option value="SEC_PRIMO">Sec. 1° grado</option>
+                                <option value="SEC_SECONDO">Sec. 2° grado</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Regione</label>
+                            <select id="cfg-regione" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                                <option value="">Tutte</option>
+                                <option value="ABRUZZO">Abruzzo</option>
+                                <option value="BASILICATA">Basilicata</option>
+                                <option value="CALABRIA">Calabria</option>
+                                <option value="CAMPANIA">Campania</option>
+                                <option value="EMILIA ROMAGNA">Emilia Romagna</option>
+                                <option value="FRIULI-VENEZIA G.">Friuli-Venezia G.</option>
+                                <option value="LAZIO">Lazio</option>
+                                <option value="LIGURIA">Liguria</option>
+                                <option value="LOMBARDIA">Lombardia</option>
+                                <option value="MARCHE">Marche</option>
+                                <option value="MOLISE">Molise</option>
+                                <option value="PIEMONTE">Piemonte</option>
+                                <option value="PUGLIA">Puglia</option>
+                                <option value="SARDEGNA">Sardegna</option>
+                                <option value="SICILIA">Sicilia</option>
+                                <option value="TOSCANA">Toscana</option>
+                                <option value="TRENTINO-ALTO ADIGE">Trentino-Alto Adige</option>
+                                <option value="UMBRIA">Umbria</option>
+                                <option value="VALLE D'AOSTA">Valle d'Aosta</option>
+                                <option value="VENETO">Veneto</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Gestione</label>
+                            <select id="cfg-gestione" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                                <option value="">Tutte</option>
+                                <option value="Statale">Statale</option>
+                                <option value="Paritaria">Paritaria</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Model Configuration -->
+                <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h4 style="font-size: 0.8rem; color: var(--accent-primary); margin: 0;">🤖 Workflow Models</h4>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary);">
+                            <label style="margin-right: 1rem;">Ollama URL: 
+                                <input type="text" id="cfg-ollama-url" placeholder="http://localhost:11434" style="width: 180px; padding: 0.25rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.7rem;">
+                            </label>
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 100px 1fr 1fr; gap: 0.5rem; align-items: center;">
+                        <!-- Header -->
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); font-weight: bold;">Role</div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); font-weight: bold;">Provider</div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); font-weight: bold;">Model</div>
+                        <!-- Analyst -->
+                        <div style="font-size: 0.75rem; color: var(--text-primary);">Analyst</div>
+                        <select id="cfg-analyst-provider" onchange="updateModelDropdown('analyst')" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Auto</option>
+                            <option value="ollama">Ollama</option>
+                            <option value="openrouter">OpenRouter</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                        <select id="cfg-analyst-model" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Default</option>
+                        </select>
+                        <!-- Reviewer -->
+                        <div style="font-size: 0.75rem; color: var(--text-primary);">Reviewer</div>
+                        <select id="cfg-reviewer-provider" onchange="updateModelDropdown('reviewer')" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Auto</option>
+                            <option value="ollama">Ollama</option>
+                            <option value="openrouter">OpenRouter</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                        <select id="cfg-reviewer-model" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Default</option>
+                        </select>
+                        <!-- Refiner -->
+                        <div style="font-size: 0.75rem; color: var(--text-primary);">Refiner</div>
+                        <select id="cfg-refiner-provider" onchange="updateModelDropdown('refiner')" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Auto</option>
+                            <option value="ollama">Ollama</option>
+                            <option value="openrouter">OpenRouter</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                        <select id="cfg-refiner-model" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Default</option>
+                        </select>
+                        <!-- Synthesizer -->
+                        <div style="font-size: 0.75rem; color: var(--text-primary);">Synthesizer</div>
+                        <select id="cfg-synthesizer-provider" onchange="updateModelDropdown('synthesizer')" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Auto</option>
+                            <option value="ollama">Ollama</option>
+                            <option value="openrouter">OpenRouter</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                        <select id="cfg-synthesizer-model" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Default</option>
+                        </select>
+                        <!-- Activity (extraction) -->
+                        <div style="font-size: 0.75rem; color: var(--accent-secondary);">📌 Activity</div>
+                        <select id="cfg-activity-provider" onchange="updateModelDropdown('activity')" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Auto</option>
+                            <option value="ollama">Ollama</option>
+                            <option value="openrouter">OpenRouter</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                        <select id="cfg-activity-model" style="padding: 0.35rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); font-size: 0.75rem;">
+                            <option value="">Default</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Row 3: Sampling Options -->
+                <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color);">
+                    <h4 style="font-size: 0.8rem; color: var(--accent-primary); margin-bottom: 0.75rem;">📊 Sampling Options</h4>
+                    <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.5rem;">
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Target Total</label>
+                            <input type="number" id="cfg-target-total" placeholder="6000" value="6000" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Target Step</label>
+                            <input type="number" id="cfg-target-step" placeholder="300" value="300" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Strato Step</label>
+                            <input type="number" id="cfg-strato-step" placeholder="3" value="3" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Yield Global</label>
+                            <input type="number" id="cfg-yield-global" placeholder="0.6" value="0.6" step="0.1" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Max Cycles</label>
+                            <input type="number" id="cfg-max-cycles" placeholder="1" value="1" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 0.3rem;">Seed</label>
+                            <input type="number" id="cfg-seed" placeholder="42" value="42" style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4: Options -->
+                <div style="display: flex; gap: 1.5rem;">
+                    <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); cursor: pointer;">
+                        <input type="checkbox" id="cfg-skip-download"> Skip Download (parti da workflow)
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); cursor: pointer;">
+                        <input type="checkbox" id="cfg-skip-analysis"> Skip Analysis (solo download)
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); cursor: pointer;">
+                        <input type="checkbox" id="cfg-skip-activity"> Skip Estrazione Attività
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Progress -->
+        <div class="progress-section">
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-fill" style="width: 0%;">0%</div>
+            </div>
+            <div class="progress-text" id="progress-text">0 processed / 0 total</div>
+        </div>
+
+        <!-- Stepper (Moved) -->
+        <div class="stepper-container" style="margin-top: 1rem; margin-bottom: 2rem;">
+            <div class="step-item" id="step-download">
+                <span>1</span> <span>Download</span>
+            </div>
+            <div class="step-line" id="line-1"></div>
+            <div class="step-item" id="step-analysis">
+                <span>2</span> <span>Analysis</span>
+            </div>
+            <div class="step-line" id="line-2"></div>
+            <div class="step-item" id="step-extraction">
+                <span>3</span> <span>Estrazione</span>
+            </div>
+            <div class="step-line" id="line-3"></div>
+            <div class="step-item" id="step-update">
+                <span>4</span> <span>Update Dati</span>
+            </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-value" id="val-inbox">-</div>
+                <div class="metric-label">📥 Inbox</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value success" id="val-processed">-</div>
+                <div class="metric-label">✅ Processed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value info" id="val-narrative">-</div>
+                <div class="metric-label">📝 Narrative</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value warning" id="val-discarded">-</div>
+                <div class="metric-label">🗑️ Discarded</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="val-iipo">-</div>
+                <div class="metric-label">⭐ Avg IIPO</div>
+                <div class="metric-sub" id="iipo-range">Min: - / Max: -</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" id="val-activities">-</div>
+                <div class="metric-label">📌 Activities</div>
+            </div>
+        </div>
+
+        <!-- Two Column: Logs + Recent -->
+        <div class="two-column">
+            <div class="log-panel">
+                <div class="log-header">
+                    <h3>📋 Process Logs</h3>
+                    <span style="color: var(--text-secondary); font-size: 0.75rem;">Auto-refresh 2s</span>
+                </div>
+                <div id="log-window">Loading logs...</div>
+            </div>
+            <div class="recent-panel">
+                <div class="recent-header">🕐 Recent Analyses</div>
+                <ul class="recent-list" id="recent-list">
+                    <li style="color: var(--text-secondary);">No data...</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+<script>
+    let currentPresets = [];
+    
+    // Configurable Steps mapping
+    const STEPS = ["Download", "Analysis", "Extraction", "Update"];
+
+    function updateStepper(logStep, skipped) {
+        skipped = skipped || {};
+        
+        // reset all
+        document.querySelectorAll('.step-item').forEach(el => {
+            el.classList.remove('active', 'completed', 'skipped');
+        });
+        document.querySelectorAll('.step-line').forEach(el => el.classList.remove('active'));
+        
+        if (!logStep || logStep.startsWith("Not running") || logStep.startsWith("Initializing")) return;
+
+        let activeIndex = -1;
+        
+        // Detect phase from string
+        if (logStep.toLowerCase().includes("phase: download")) activeIndex = 0;
+        else if (logStep.toLowerCase().includes("phase: analysis")) activeIndex = 1;
+        else if (logStep.toLowerCase().includes("phase: extraction")) activeIndex = 2;
+        else if (logStep.toLowerCase().includes("phase: update")) activeIndex = 3;
+        
+        if (activeIndex === -1 && logStep.includes("Step ")) {
+             activeIndex = 1;
+        }
+
+        if (activeIndex >= 0) {
+            const map = ['download', 'analysis', 'extraction', 'update'];
+            
+            // Mark previous steps
+            for (let i = 0; i < activeIndex; i++) {
+                const stepKey = map[i];
+                const stepId = `step-${stepKey}`;
+                const lineId = `line-${i+1}`;
+                
+                const stepEl = document.getElementById(stepId);
+                const lineEl = document.getElementById(lineId);
+                
+                if (stepEl) {
+                    if (skipped[stepKey] || (stepKey === 'extraction' && skipped['activity'])) { // 'activity' alias for extraction? Back sends 'extraction' usually, or parse 'activity'. 
+                        // My parser returns 'extraction' key for 'Skip Activity'.
+                        stepEl.classList.add('skipped');
+                    } else {
+                        stepEl.classList.add('completed');
+                    }
+                }
+                if (lineEl) lineEl.classList.add('active');
+            }
+            
+            // Mark current as active
+            // If current step is technically "skipped" (e.g. we just entered Analysis but it's skipped? No, if it's skipped we wouldn't be IN that phase usually, we'd move past it.)
+            // But if the log says "Phase: Analysis", we are there.
+            const currentId = `step-${map[activeIndex]}`;
+            const currentEl = document.getElementById(currentId);
+            if (currentEl) currentEl.classList.add('active');
+        }
+    }
+
+    async function fetchPresets() {
+        try {
+            const res = await fetch('/strata/presets');
+            const data = await res.json();
+            currentPresets = data.presets || [];
+            const activeId = data.active_preset;
+            
+            const select = document.getElementById('preset-select');
+            select.innerHTML = currentPresets.map(p => 
+                `<option value="${p.id}" ${p.id === activeId ? 'selected' : ''}>${p.id} - ${p.name} (${p.type})</option>`
+            ).join('');
+            
+            updatePresetModels(activeId);
+        } catch (e) { console.error('Error loading presets:', e); }
+    }
+
+    function updatePresetModels(presetId) {
+        const preset = currentPresets.find(p => p.id === presetId);
+        const el = document.getElementById('preset-models');
+        if (preset && preset.models) {
+            const m = preset.models;
+            el.textContent = `Analyst: ${m.analyst || '-'} | Reviewer: ${m.reviewer || '-'} | Refiner: ${m.refiner || '-'}`;
+        } else {
+            el.textContent = '';
+        }
+    }
+
+    async function changePreset(presetId) {
+        updatePresetModels(presetId);
+        try {
+            await fetch('/strata/presets/active', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({preset_id: presetId})
+            });
+        } catch (e) { console.error('Error setting preset:', e); }
+    }
+
+    async function fetchStatus() {
+        try {
+            const response = await fetch('/strata/status');
+            const data = await response.json();
+            
+            const statusBadge = document.getElementById('status-indicator');
+            const btnStart = document.getElementById('btn-start');
+            const btnStop = document.getElementById('btn-stop');
+            const uptimeDisplay = document.getElementById('uptime-display');
+            const errorIndicator = document.getElementById('error-indicator');
+            const currentStep = document.getElementById('current-step');
+
+            if (data.running) {
+                statusBadge.textContent = "● Running (PID: " + data.pid + ")";
+                statusBadge.className = "status-badge running";
+                btnStart.style.display = 'none';
+                btnStop.style.display = 'inline-block';
+                btnStop.disabled = false;
+                
+                if (data.uptime) {
+                    uptimeDisplay.textContent = "⏱ " + data.uptime;
+                    uptimeDisplay.style.display = 'inline-block';
+                }
+                currentStep.textContent = data.current_step || "Processing...";
+                
+                // Update Stepper
+                updateStepper(data.current_step, data.skipped);
+                
+            } else {
+                statusBadge.textContent = "● Stopped";
+                statusBadge.className = "status-badge stopped";
+                btnStart.style.display = 'inline-block';
+                btnStart.disabled = false;
+                btnStart.textContent = "▶ Start Cycle"; // Reset text
+                btnStop.style.display = 'none';
+                uptimeDisplay.style.display = 'none';
+                currentStep.textContent = "Not running";
+                
+                // Reset stepper
+                updateStepper(null);
+            }    
+            if (data.error_count > 0) {
+                errorIndicator.textContent = "⚠ " + data.error_count + " errors";
+                errorIndicator.style.display = 'inline-block';
+            } else {
+                errorIndicator.style.display = 'none';
+            }
+
+            // Metrics
+            document.getElementById('val-inbox').textContent = data.metrics.inbox;
+            document.getElementById('val-processed').textContent = data.metrics.processed;
+            document.getElementById('val-narrative').textContent = data.metrics.narrative;
+            document.getElementById('val-discarded').textContent = data.metrics.discarded;
+            document.getElementById('val-iipo').textContent = data.metrics.avg_iipo;
+            document.getElementById('iipo-range').textContent = `Min: ${data.metrics.iipo_min} / Max: ${data.metrics.iipo_max}`;
+            document.getElementById('val-activities').textContent = data.metrics.activities;
+            
+            // Progress
+            const pct = data.metrics.progress_pct || 0;
+            document.getElementById('progress-bar').style.width = pct + '%';
+            document.getElementById('progress-bar').textContent = pct + '%';
+            const total = data.metrics.processed + data.metrics.inbox;
+            document.getElementById('progress-text').textContent = `${data.metrics.processed} processed / ${total} total`;
+
+            // Logs
+            const logWindow = document.getElementById('log-window');
+            const atBottom = logWindow.scrollHeight - logWindow.clientHeight <= logWindow.scrollTop + 50;
+            logWindow.textContent = data.logs;
+            if (atBottom) logWindow.scrollTop = logWindow.scrollHeight;
+
+            // Recent
+            const recentList = document.getElementById('recent-list');
+            if (data.recent && data.recent.length > 0) {
+                recentList.innerHTML = data.recent.map(item => `
+                    <li>
+                        <span class="recent-badge">${item.reviews} rev</span>
+                        <span class="recent-code">${item.code}</span>
+                        <span class="recent-name">${item.name}</span>
+                        <span class="recent-date">${item.date ? item.date.substring(0, 16) : ''}</span>
+                    </li>
+                `).join('');
+            } else {
+                recentList.innerHTML = '<li style="color: var(--text-secondary);">No recent analyses.</li>';
+            }
+
+        } catch (error) {
+            console.error('Error:', error);
+            document.getElementById('status-indicator').textContent = "⚠ Error";
+            document.getElementById('status-indicator').className = "status-badge loading";
+        }
+    }
+
+    async function startCycle() {
+        const btn = document.getElementById('btn-start');
+        btn.disabled = true;
+        btn.textContent = "Starting...";
+        
+        // Collect config form values
+        const params = {};
+        const maxDownloads = document.getElementById('cfg-max-downloads')?.value;
+        const grado = document.getElementById('cfg-grado')?.value;
+        const regione = document.getElementById('cfg-regione')?.value;
+        const gestione = document.getElementById('cfg-gestione')?.value;
+        const skipDownload = document.getElementById('cfg-skip-download')?.checked;
+        const skipAnalysis = document.getElementById('cfg-skip-analysis')?.checked;
+        const skipActivity = document.getElementById('cfg-skip-activity')?.checked;
+        
+        // Sampling options
+        const targetTotal = document.getElementById('cfg-target-total')?.value;
+        const targetStep = document.getElementById('cfg-target-step')?.value;
+        const stratoStep = document.getElementById('cfg-strato-step')?.value;
+        const yieldGlobal = document.getElementById('cfg-yield-global')?.value;
+        const maxCycles = document.getElementById('cfg-max-cycles')?.value;
+        const seed = document.getElementById('cfg-seed')?.value;
+        
+        // Model config - per-role provider+model
+        const ollamaUrl = document.getElementById('cfg-ollama-url')?.value;
+        const analystProvider = document.getElementById('cfg-analyst-provider')?.value;
+        const analystModel = document.getElementById('cfg-analyst-model')?.value;
+        const reviewerProvider = document.getElementById('cfg-reviewer-provider')?.value;
+        const reviewerModel = document.getElementById('cfg-reviewer-model')?.value;
+        const refinerProvider = document.getElementById('cfg-refiner-provider')?.value;
+        const refinerModel = document.getElementById('cfg-refiner-model')?.value;
+        const synthesizerProvider = document.getElementById('cfg-synthesizer-provider')?.value;
+        const synthesizerModel = document.getElementById('cfg-synthesizer-model')?.value;
+        const activityProvider = document.getElementById('cfg-activity-provider')?.value;
+        const activityModel = document.getElementById('cfg-activity-model')?.value;
+        
+        if (maxDownloads) params.max_downloads = parseInt(maxDownloads);
+        if (grado) params.grado = grado;
+        if (regione) params.regione = regione;
+        if (gestione) params.gestione = gestione;
+        if (skipDownload) params.skip_download = true;
+        if (skipAnalysis) params.skip_analysis = true;
+        if (skipActivity) params.skip_activity = true;
+        if (ollamaUrl) params.ollama_url = ollamaUrl;
+        
+        // Sampling params
+        if (targetTotal) params.target_total = parseInt(targetTotal);
+        if (targetStep) params.target_step = parseInt(targetStep);
+        if (stratoStep) params.strato_step = parseInt(stratoStep);
+        if (yieldGlobal) params.yield_global = parseFloat(yieldGlobal);
+        if (maxCycles) params.max_cycles = parseInt(maxCycles);
+        if (seed) params.seed = parseInt(seed);
+        // Per-role config
+        if (analystProvider) params.analyst_provider = analystProvider;
+        if (analystModel) params.analyst_model = analystModel;
+        if (reviewerProvider) params.reviewer_provider = reviewerProvider;
+        if (reviewerModel) params.reviewer_model = reviewerModel;
+        if (refinerProvider) params.refiner_provider = refinerProvider;
+        if (refinerModel) params.refiner_model = refinerModel;
+        if (synthesizerProvider) params.synthesizer_provider = synthesizerProvider;
+        if (synthesizerModel) params.synthesizer_model = synthesizerModel;
+        if (activityProvider) params.activity_provider = activityProvider;
+        if (activityModel) params.activity_model = activityModel;
+        
+        try {
+            await fetch('/strata/start', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(params)
+            });
+            setTimeout(fetchStatus, 1000);
+        } catch (err) { alert('Failed to start'); }
+    }
+
+    async function stopCycle() {
+        if(!confirm("Stop the workflow process?")) return;
+        const btn = document.getElementById('btn-stop');
+        btn.disabled = true;
+        btn.textContent = "Stopping...";
+        try {
+            await fetch('/strata/stop', { method: 'POST' });
+            setTimeout(fetchStatus, 1000);
+        } catch (err) { alert('Failed to stop'); }
+    }
+
+    function toggleConfig() {
+        const form = document.getElementById('config-form');
+        const btn = document.getElementById('btn-toggle-config');
+        if (form.style.display === 'none') {
+            form.style.display = 'block';
+            btn.textContent = '▲ Hide';
+        } else {
+            form.style.display = 'none';
+            btn.textContent = '▼ Show';
+        }
+    }
+
+    // Model dropdown management
+    let availableModels = { ollama: [], openrouter: [], gemini: [] };
+
+    async function fetchModels() {
+        try {
+            const response = await fetch('/strata/models');
+            if (response.ok) {
+                availableModels = await response.json();
+                console.log('Loaded models:', availableModels);
+            }
+        } catch (e) {
+            console.error('Failed to fetch models', e);
+        }
+    }
+
+    function updateModelDropdown(role) {
+        const providerSelect = document.getElementById(`cfg-${role}-provider`);
+        const modelSelect = document.getElementById(`cfg-${role}-model`);
+        const provider = providerSelect?.value;
+        
+        if (!modelSelect) return;
+        
+        // Clear existing options
+        modelSelect.innerHTML = '<option value="">Default</option>';
+        
+        // Get models for selected provider
+        const models = provider ? (availableModels[provider] || []) : [];
+        
+        for (const model of models) {
+            const option = document.createElement('option');
+            option.value = model;
+            option.textContent = model;
+            modelSelect.appendChild(option);
+        }
+    }
+
+    // Init
+    fetchModels();
+    setInterval(fetchStatus, 2000);
+    fetchStatus();
+</script>
+</body>
+</html>

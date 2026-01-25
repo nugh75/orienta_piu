@@ -219,10 +219,10 @@ def score_adjacency(school1: pd.Series, school2: pd.Series, margin: float = 1.0)
     Returns:
         Tuple[float, Dict]: (score 0-100, dettagli)
     """
-    ro1 = float(school1.get('ptof_orientamento_maturity_index', 0) or 0)
-    ro2 = float(school2.get('ptof_orientamento_maturity_index', 0) or 0)
+    ro1 = float(school1.get('ptof_idpo', 0) or 0)
+    ro2 = float(school2.get('ptof_idpo', 0) or 0)
 
-    # Ideale: school2 ha RO leggermente superiore (tra 0.3 e 2.0 punti in più, scala 1-7)
+    # Ideale: school2 haIDPOleggermente superiore (tra 0.3 e 2.0 punti in più, scala 1-7)
     diff = ro2 - ro1
 
     if 0.3 <= diff <= 2.0:
@@ -306,7 +306,8 @@ def advanced_peer_matching(
             'regione': row.get('regione'),
             'provincia': row.get('provincia'),
             'tipo_scuola': row.get('tipo_scuola'),
-            'ptof_orientamento_maturity_index': row.get('ptof_orientamento_maturity_index'),
+            'ptof_idpo': row.get('ptof_idpo'),
+            'weighted_index': row.get('weighted_index'),
             'final_score': final_score,
             'categorical_score': cat_score,
             'dimensional_score': dim_score,
@@ -490,7 +491,8 @@ def search_schools_by_methodology(
                 'regione': row.get('regione'),
                 'provincia': row.get('provincia'),
                 'tipo_scuola': row.get('tipo_scuola'),
-                'ptof_orientamento_maturity_index': row.get('ptof_orientamento_maturity_index'),
+                'ptof_idpo': row.get('ptof_idpo'),
+                'weighted_index': row.get('weighted_index'),
                 'match_count': len(matches),
                 'first_match': matches[0] if matches else '',
                 'mean_finalita': row.get('mean_finalita'),
@@ -503,7 +505,7 @@ def search_schools_by_methodology(
     results_df = pd.DataFrame(results)
     if not results_df.empty:
         results_df = results_df.sort_values(
-            ['match_count', 'ptof_orientamento_maturity_index'],
+            ['match_count', 'ptof_idpo'],
             ascending=[False, False]
         ).head(top_n)
 
@@ -526,7 +528,7 @@ def compare_two_schools(school1: pd.Series, school2: pd.Series) -> Dict:
             'name': school1.get('denominazione'),
             'region': school1.get('regione'),
             'type': school1.get('tipo_scuola'),
-            'ro_index': float(school1.get('ptof_orientamento_maturity_index', 0) or 0),
+            'ro_index': float(school1.get('ptof_idpo', 0) or 0),
             'dimensions': {dim: v1[i] for i, dim in enumerate(DIMENSIONS)}
         },
         'school2': {
@@ -534,7 +536,7 @@ def compare_two_schools(school1: pd.Series, school2: pd.Series) -> Dict:
             'name': school2.get('denominazione'),
             'region': school2.get('regione'),
             'type': school2.get('tipo_scuola'),
-            'ro_index': float(school2.get('ptof_orientamento_maturity_index', 0) or 0),
+            'ro_index': float(school2.get('ptof_idpo', 0) or 0),
             'dimensions': {dim: v2[i] for i, dim in enumerate(DIMENSIONS)}
         },
         'differences': {},
@@ -645,7 +647,7 @@ def _build_strength_tags(df: pd.DataFrame) -> pd.Series:
 
     def tags_for_row(row: pd.Series) -> List[str]:
         tags = []
-        if float(row.get("ptof_orientamento_maturity_index", 0) or 0) >= 5.0:
+        if float(row.get("ptof_idpo", 0) or 0) >= 5.0:
             tags.append("Orientamento forte")
         if float(row.get("mean_didattica_orientativa", 0) or 0) >= 5.0:
             tags.append("Laboratori")
@@ -709,8 +711,8 @@ def match_for_families(
         combined = sum(scores) / len(scores)
         working["compatibility_score"] = (combined * 100).round(1)
     else:
-        if "ptof_orientamento_maturity_index" in working.columns:
-            base = _normalize_metric(working["ptof_orientamento_maturity_index"])
+        if "ptof_idpo" in working.columns:
+            base = _normalize_metric(working["ptof_idpo"])
             working["compatibility_score"] = (base * 100).round(1)
         else:
             working["compatibility_score"] = 0.0
@@ -718,7 +720,7 @@ def match_for_families(
     working["strength_tags"] = _build_strength_tags(working)
 
     working = working.sort_values(
-        by=["compatibility_score", "ptof_orientamento_maturity_index"],
+        by=["compatibility_score", "ptof_idpo"],
         ascending=[False, False],
         na_position="last",
     )

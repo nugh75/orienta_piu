@@ -60,7 +60,7 @@ CSV_COLUMNS = [
     '2_7_opzionali_ludiche_ricreative_score', '2_7_opzionali_volontariato_score',
     '2_7_opzionali_sportive_score',
     'mean_finalita', 'mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa', 'mean_opportunita',
-    'partnership_count', 'activities_count', 'ptof_orientamento_maturity_index', 'has_complete_ptof'
+    'partnership_count', 'activities_count', 'ptof_idpo', 'has_complete_ptof'
 ]
 
 
@@ -257,7 +257,7 @@ for school_code, json_file, json_data in selected_entries:
         # Maturity index = media delle 5 medie
         all_means = [mean_finalita, mean_obiettivi, mean_governance, mean_didattica, mean_opportunita]
         robustness_index = calc_avg(all_means)
-        summary_data['ptof_orientamento_maturity_index'] = round(robustness_index, 2)
+        summary_data['ptof_idpo'] = round(robustness_index, 2)
         
         # has_complete_ptof (>= 5 means Complete)
         summary_data['has_complete_ptof'] = 1 if robustness_index >= 5.0 else 0
@@ -271,7 +271,7 @@ for school_code, json_file, json_data in selected_entries:
         summary_data['activities_count'] = len(activities_register) if isinstance(activities_register, list) else 0
         
         rows.append(summary_data)
-        print(f"✓ {school_code}: maturity={summary_data['ptof_orientamento_maturity_index']}, partners={summary_data['partnership_count']}, activities={summary_data['activities_count']}")
+        print(f"✓ {school_code}: maturity={summary_data['ptof_idpo']}, partners={summary_data['partnership_count']}, activities={summary_data['activities_count']}")
         
     except Exception as e:
         print(f"✗ {school_code}: {e}")

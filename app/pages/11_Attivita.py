@@ -874,7 +874,7 @@ with col_f6:
     sel_targets = st.multiselect("👥 Target", target_options, key="filter_targets")
 
 # === FILTRI AVANZATI (expander) ===
-with st.expander("➕ Più filtri (Geografia, Tipo Scuola, Indice RO)", expanded=False):
+with st.expander("➕ Più filtri (Geografia, Tipo Scuola, IIPO)", expanded=False):
     # Riga filtri geografici - CASCADING
     col_g1, col_g2, col_g3, col_g4 = st.columns(4)
 
@@ -1182,7 +1182,7 @@ if section == "📋 Attività":
 
                     mi = row.get('maturity_index')
                     if pd.notna(mi):
-                        st.metric("Indice RO", f"{float(mi):.2f}")
+                        st.metric("IIPO", f"{float(mi):.2f}")
 
                     # Partnership se presenti
                     partnership = row.get('partnership_coinvolte', '')
@@ -1515,23 +1515,23 @@ elif section == "📊 Grafici":
                 st.info("Tabella troppo piccola per test di significativita.")
 
         st.markdown("---")
-        st.subheader("📈 Categoria e Indice RO")
+        st.subheader("📈 Categoria e IIPO")
 
         mi_df = df_filtered[["categoria", "maturity_index"]].copy()
         mi_df["maturity_index"] = pd.to_numeric(mi_df["maturity_index"], errors="coerce")
         mi_df = mi_df.dropna(subset=["categoria", "maturity_index"])
 
         if mi_df.empty:
-            st.info("Nessun dato Indice RO disponibile.")
+            st.info("Nessun dato IndiceIDPOdisponibile.")
         else:
             fig_mi = px.box(
                 mi_df,
                 x="categoria",
                 y="maturity_index",
                 points="all",
-                title="Distribuzione Indice RO per Categoria"
+                title="Distribuzione IndiceIDPOper Categoria"
             )
-            fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="Indice RO")
+            fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="IIPO")
             st.plotly_chart(fig_mi, use_container_width=True)
 
             med_df = (
@@ -1542,7 +1542,7 @@ elif section == "📊 Grafici":
             )
             med_df["median"] = med_df["median"].round(2)
             med_df["mean"] = med_df["mean"].round(2)
-            st.subheader("📊 Statistiche per Categoria (Indice RO)")
+            st.subheader("📊 Statistiche per Categoria (IIPO)")
             st.dataframe(med_df, use_container_width=True, hide_index=True)
 
             valid_groups = [

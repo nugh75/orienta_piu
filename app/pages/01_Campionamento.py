@@ -230,6 +230,47 @@ with tab_methodology:
                 if cycle_data.get('note'):
                     st.info(f"📝 {cycle_data.get('note')}")
                 
+                # Orari e Filtri
+                col_time1, col_time2, col_filt = st.columns(3)
+                
+                with col_time1:
+                    start_time = cycle_data.get('timestamp', 'N/A')
+                    if start_time and start_time != 'N/A':
+                        try:
+                            dt = datetime.fromisoformat(start_time)
+                            st.caption(f"🕐 **Inizio**: {dt.strftime('%d/%m/%Y %H:%M')}")
+                        except:
+                            st.caption(f"🕐 **Inizio**: {start_time[:16]}")
+                    else:
+                        st.caption("🕐 **Inizio**: N/A")
+                
+                with col_time2:
+                    end_time = cycle_data.get('end_time', 'N/A')
+                    if end_time and end_time != 'N/A':
+                        try:
+                            dt = datetime.fromisoformat(end_time)
+                            st.caption(f"🏁 **Fine**: {dt.strftime('%d/%m/%Y %H:%M')}")
+                        except:
+                            st.caption(f"🏁 **Fine**: {end_time[:16]}")
+                    else:
+                        st.caption("🏁 **Fine**: N/A")
+                
+                with col_filt:
+                    filters = cycle_data.get('filters', {})
+                    if filters:
+                        filter_parts = []
+                        if filters.get('grado') and filters['grado'] != 'tutti':
+                            filter_parts.append(f"Grado: {filters['grado']}")
+                        if filters.get('regione') and filters['regione'] != 'tutte':
+                            filter_parts.append(f"Regione: {filters['regione']}")
+                        if filters.get('gestione') and filters['gestione'] != 'tutte':
+                            filter_parts.append(f"Gestione: {filters['gestione']}")
+                        
+                        if filter_parts:
+                            st.caption(f"🔍 **Filtri**: {', '.join(filter_parts)}")
+                        else:
+                            st.caption("🔍 **Filtri**: Nessuno (tutto l'universo)")
+                
                 # Target per strato (se disponibile)
                 target_per_strato = cycle_data.get('target_per_strato', {})
                 if target_per_strato:
@@ -812,18 +853,44 @@ with tab_failures:
         basata sulla popolazione scolastica italiana (fonte MIUR).
         """)
         
-        # Distribuzione attesa nazionale (approssimativa - fonte MIUR)
-        ATTESO_ORDINE = {
-            'Infanzia': 25.0,
-            'Primaria': 30.0,
-            'I Grado': 20.0,
-            'II Grado': 25.0
+        # Carica benchmark dinamici (se disponibili)
+        import json
+        import os
+        BENCHMARK_FILE = 'data/population_benchmarks.json'
+        
+        DEFAULT_BENCHMARKS = {
+            "gestione": {"Statale": 90.0, "Paritaria": 10.0},
+            "ordine": {"Infanzia": 25.0, "Primaria": 30.0, "I Grado": 20.0, "II Grado": 25.0},
+            "area": {"Nord Ovest": 24.0, "Nord Est": 15.0, "Centro": 18.0, "Sud": 27.0, "Isole": 16.0},
+            "regione": {
+                'Lombardia': 15.5, 'Campania': 10.5, 'Sicilia': 8.5, 'Lazio': 9.0,
+                'Veneto': 7.5, 'Piemonte': 6.5, 'Emilia-Romagna': 6.5, 'Puglia': 6.5,
+                'Toscana': 5.5, 'Calabria': 3.5, 'Sardegna': 2.5, 'Liguria': 2.0,
+                'Marche': 2.3, 'Abruzzo': 2.0, 'Friuli-Venezia Giulia': 1.8,
+                'Umbria': 1.3, 'Basilicata': 1.0, 'Molise': 0.5,
+                'Trentino-Alto Adige': 1.5, "Valle d'Aosta": 0.2
+            }
         }
         
-        ATTESO_GESTIONE = {
-            'Statale': 90.0,
-            'Paritaria': 10.0
-        }
+        benchmarks = DEFAULT_BENCHMARKS
+        is_custom_benchmark = False
+        
+        if os.path.exists(BENCHMARK_FILE):
+             try:
+                 with open(BENCHMARK_FILE, 'r') as f:
+                     loaded = json.load(f)
+                     benchmarks.update(loaded)
+                     is_custom_benchmark = True
+             except:
+                 pass
+        
+        if is_custom_benchmark:
+            st.info("ℹ️ Vengono utilizzati benchmark di popolazione personalizzati (configurati in Pesi).")
+        
+        ATTESO_ORDINE = benchmarks.get("ordine", DEFAULT_BENCHMARKS["ordine"])
+        ATTESO_GESTIONE = benchmarks.get("gestione", DEFAULT_BENCHMARKS["gestione"])
+        ATTESO_AREA = benchmarks.get("area", DEFAULT_BENCHMARKS["area"])
+        ATTESO_REGIONE = benchmarks.get("regione", DEFAULT_BENCHMARKS["regione"])
         
         # Funzione per semplificare ordine nel campione
         def simplify_ordine_camp(x):
@@ -916,14 +983,8 @@ with tab_failures:
         st.markdown("---")
         st.markdown("**🗺️ Rappresentatività per Area Geografica (Macro-aree):**")
         
-        # Distribuzione attesa per area geografica (fonte MIUR - popolazione scolastica)
-        ATTESO_AREA = {
-            'Nord Ovest': 24.0,
-            'Nord Est': 15.0,
-            'Centro': 18.0,
-            'Sud': 27.0,
-            'Isole': 16.0
-        }
+        # Distribuzione attesa per area geografica (già caricata sopra)
+        # ATTESO_AREA caricato dinamicamente
         
         camp_area = df_camp['area_geografica'].value_counts()
         
@@ -956,15 +1017,8 @@ with tab_failures:
         st.markdown("---")
         st.markdown("**📍 Rappresentatività per Regione:**")
         
-        # Distribuzione attesa per regione (fonte MIUR - approssimativa)
-        ATTESO_REGIONE = {
-            'Lombardia': 15.5, 'Campania': 10.5, 'Sicilia': 8.5, 'Lazio': 9.0,
-            'Veneto': 7.5, 'Piemonte': 6.5, 'Emilia-Romagna': 6.5, 'Puglia': 6.5,
-            'Toscana': 5.5, 'Calabria': 3.5, 'Sardegna': 2.5, 'Liguria': 2.0,
-            'Marche': 2.3, 'Abruzzo': 2.0, 'Friuli-Venezia Giulia': 1.8,
-            'Umbria': 1.3, 'Basilicata': 1.0, 'Molise': 0.5,
-            'Trentino-Alto Adige': 1.5, "Valle d'Aosta": 0.2
-        }
+        # Distribuzione attesa per regione (già caricata sopra)
+        # ATTESO_REGIONE caricato dinamicamente
         
         # Normalizza regioni nel campione
         def normalizza_regione_rapp(r):

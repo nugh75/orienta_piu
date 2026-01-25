@@ -521,10 +521,10 @@ with tab_cluster:
             fig = px.violin(
                 df_violin, x='tipo_scuola', y='maturity_pct',
                 color='tipo_scuola', box=True, points='all',
-                title="Violin Plot Indice RO (scala 1-7)",
+                title="Violin Plot IIPO (scala 1-7)",
                 range_y=[1, 7]
             )
-            fig.update_layout(showlegend=False, yaxis_title="Indice RO (1-7)")
+            fig.update_layout(showlegend=False, yaxis_title="IIPO (1-7)")
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("Nessun dato valido per le tipologie canoniche")
@@ -1155,15 +1155,15 @@ with tab_visual:
 
     # --- 2. PARALLEL CATEGORIES ---
     st.markdown("---")
-    st.subheader("🌊 Flussi: Geografica → Tipo Scuola → Robustezza")
-    st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e Indice RO.")
+    st.subheader("🌊 Flussi: Geografica → Tipo Scuola → IIPO")
+    st.caption("Visualizza come si distribuiscono le scuole tra aree geografiche, tipologie e IIPO.")
 
     with st.expander("ℹ️ Come leggere questo grafico (Clicca per aprire)", expanded=True):
         st.markdown("""
         Questo grafico (**Parallel Categories**) mostra i "flussi" di scuole attraverso diverse categorie:
         1.  **Sinistra (Area)**: Da dove partono le scuole (Nord, Sud).
         2.  **Centro (Tipo)**: Che tipo di scuola sono (Liceo, Tecnico, Comprensivo, ecc.).
-        3.  **Destra (Robustezza)**: Qual è il loro punteggio di robustezza nell'orientamento (Basso, Medio, Alto).
+        3.  **Destra (IIPO)**: Qual è il loro punteggio IIPO nell'orientamento (Basso, Medio, Alto).
 
         **Cosa osservare:**
         - Le **linee (nastri)** collegati mostrano quante scuole seguono quel percorso.
@@ -1175,11 +1175,11 @@ with tab_visual:
 
     if all(c in df.columns for c in target_cols):
         # Binning Maturity Index
-        df['Livello Robustezza'] = df[INDEX_COL].apply(categorize_maturity)
+        df['Livello IIPO'] = df[INDEX_COL].apply(categorize_maturity)
         
         # Prepare dataframe for plotting
         # We remove rows with critical missing values for cleaner viz
-        df_flow = df[['area_geografica', 'tipo_scuola', 'Livello Robustezza']].dropna()
+        df_flow = df[['area_geografica', 'tipo_scuola', 'Livello IIPO']].dropna()
         
         # Simplify School Types if too many unique values exist (optional, but good for display)
         # Just taking the first part if it's a comma separated list often happens
@@ -1188,20 +1188,20 @@ with tab_visual:
         
         if not df_flow.empty:
             # Sort for better color flow stability
-            df_flow = df_flow.sort_values(by=['area_geografica', 'Livello Robustezza'])
+            df_flow = df_flow.sort_values(by=['area_geografica', 'Livello IIPO'])
             
             # Map area to numbers for coloring (Parcats requires numbers for color scale)
             df_flow['area_code'] = df_flow['area_geografica'].astype('category').cat.codes
 
             fig_flow = px.parallel_categories(
                 df_flow,
-                dimensions=['area_geografica', 'tipo_scuola', 'Livello Robustezza'],
+                dimensions=['area_geografica', 'tipo_scuola', 'Livello IIPO'],
                 color='area_code',  # Use numeric code for color
                 color_continuous_scale=px.colors.sequential.Inferno,
                 labels={
                     'area_geografica': 'Area Geografica',
                     'tipo_scuola': 'Tipo Scuola',
-                    'Livello Robustezza': 'Livello Robustezza PTOF',
+                    'Livello IIPO': 'Livello IIPO',
                     'area_code': 'Codice Area'
                 }
             )
@@ -1238,15 +1238,15 @@ with tab_visual:
     # --- 3. SUNBURST CHART ---
     st.markdown("---")
     st.subheader("🌞 Gerarchia (Sunburst)")
-    st.caption("Esplora la distribuzione gerarchica: Area Geografica → Tipo Scuola → Livello Robustezza.")
+    st.caption("Esplora la distribuzione gerarchica: Area Geografica → Tipo Scuola → Livello IIPO.")
 
     # Ensure 'Livello Robustezza' exists if not created above
-    if 'Livello Robustezza' not in df.columns and INDEX_COL in df.columns:
-        df['Livello Robustezza'] = df[INDEX_COL].apply(categorize_maturity)
+    if 'Livello IIPO' not in df.columns and INDEX_COL in df.columns:
+        df['Livello IIPO'] = df[INDEX_COL].apply(categorize_maturity)
 
-    if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello Robustezza']):
+    if all(c in df.columns for c in ['area_geografica', 'tipo_scuola', 'Livello IIPO']):
         # Filter out ND or empty
-        df_sun = df.dropna(subset=['area_geografica', 'tipo_scuola', 'Livello Robustezza']).copy()
+        df_sun = df.dropna(subset=['area_geografica', 'tipo_scuola', 'Livello IIPO']).copy()
         
         # Simple normalization for Tipo Scuola
         df_sun['tipo_scuola'] = df_sun['tipo_scuola'].apply(lambda x: x.split(',')[0] if isinstance(x, str) else x)
@@ -1255,7 +1255,7 @@ with tab_visual:
         if not df_sun.empty:
             fig_sun = px.sunburst(
                 df_sun,
-                path=['area_geografica', 'tipo_scuola', 'Livello Robustezza'],
+                path=['area_geografica', 'tipo_scuola', 'Livello IIPO'],
                 color='area_geografica',
                 color_discrete_sequence=px.colors.qualitative.Pastel
             )
@@ -1282,7 +1282,7 @@ with tab_visual:
     col_x = st.selectbox("Asse X", ['mean_finalita', 'mean_obiettivi', 'mean_governance'], index=0)
     col_y = st.selectbox("Asse Y", ['mean_obiettivi', 'mean_governance', 'mean_didattica_orientativa'], index=2)
     col_z = st.selectbox("Asse Z", ['mean_didattica_orientativa', 'mean_opportunita', INDEX_COL], index=1)
-    col_color = st.selectbox("Colore", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
+    col_color = st.selectbox("Colore", ['area_geografica', 'tipo_scuola', 'Livello IIPO'], index=0)
 
     if all(c in df.columns for c in [col_x, col_y, col_z, col_color]):
         df_3d = df.copy()
@@ -1322,7 +1322,7 @@ with tab_visual:
 
     # Select Variable and Group
     ridge_var = st.selectbox("Variabile (Punteggio)", [INDEX_COL, 'mean_finalita', 'mean_obiettivi', 'mean_didattica_orientativa'], index=0)
-    ridge_group = st.selectbox("Raggruppa per", ['area_geografica', 'tipo_scuola', 'Livello Robustezza'], index=0)
+    ridge_group = st.selectbox("Raggruppa per", ['area_geografica', 'tipo_scuola', 'Livello IIPO'], index=0)
 
     if ridge_var in df.columns and ridge_group in df.columns:
         # Filter cleanup

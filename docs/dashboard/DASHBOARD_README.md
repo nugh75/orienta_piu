@@ -6,21 +6,25 @@ Per lo stato e i test vedi [DASHBOARD_STATUS](DASHBOARD_STATUS.md).
 ## Avvio rapido
 
 ### Metodo 1: Makefile (consigliato)
+
 ```bash
 make dashboard
 ```
 
 ### Metodo 2: Script di avvio
+
 ```bash
 ./start_dashboard.sh
 ```
 
 ### Metodo 3: Comando diretto
+
 ```bash
 streamlit run app/Home.py
 ```
 
 ### Metodo 4: Modulo Python
+
 ```bash
 python -m streamlit run app/Home.py
 ```
@@ -48,6 +52,7 @@ python -m streamlit run app/Home.py
 ## Filtri globali
 
 La sidebar offre filtri per:
+
 - Area Geografica (Nord Ovest, Nord Est, Centro, Sud, Isole)
 - Tipo Scuola (Liceo, Tecnico, Professionale, ecc.)
 - Territorio (Metropolitano, Non metropolitano)
@@ -62,6 +67,7 @@ dichiarate a parole. Ogni dimensione è composta da sotto‑indicatori che alime
 un indice sintetico, l'Indice RO.
 
 ### Principi di lettura
+
 - Evidenza testuale: ogni valutazione deve essere riconducibile al testo del PTOF.
 - Specificità: contano nomi di progetti, tempi, ruoli e responsabilità esplicite.
 - Coerenza: obiettivi, azioni e governance devono parlare la stessa lingua.
@@ -71,33 +77,38 @@ un indice sintetico, l'Indice RO.
 ### Struttura di valutazione
 
 #### Indicatori strutturali
+
 - **Sezione dedicata**: presenza nel sommario con titolo esplicito, strumenti e responsabilità dichiarati.
 - **Partnership**: partner nominati, attività concrete, ruoli chiari e ricadute formative.
 
 #### Macro‑dimensioni (Indice RO)
+
 - **Finalità**: attitudini, interessi, progetto di vita, transizioni formative.
 - **Obiettivi**: contrasto dispersione e NEET, continuità territoriale, lifelong learning.
 - **Governance**: coordinamento, monitoraggio, coinvolgimento famiglie e inclusione.
 - **Didattica orientativa**: laboratori, interdisciplinarità, esperienze sul campo.
 - **Opportunità formative**: attività culturali, sportive, espressive e di volontariato.
 
-### Indice RO (Robustezza Orientamento)
-L'Indice RO sintetizza la solidità complessiva dell'orientamento.
+### IndiceIDPO(Robustezza Orientamento)
+
+L'IndiceIDPOsintetizza la solidità complessiva dell'orientamento.
 
 ```
-Indice RO = (Finalita + Obiettivi + Governance + Didattica + Opportunita) / 5
+IndiceIDPO= (Finalita + Obiettivi + Governance + Didattica + Opportunita) / 5
 ```
 
-| Range | Interpretazione |
-|-------|-----------------|
-| **1.0 - 2.0** | Sistema assente o gravemente carente |
-| **2.1 - 3.5** | Sistema basilare, interventi necessari |
-| **3.6 - 4.5** | Sistema sufficiente, in evoluzione |
-| **4.6 - 5.5** | **Buono**, ben strutturato |
+| Range         | Interpretazione                          |
+| ------------- | ---------------------------------------- |
+| **1.0 - 2.0** | Sistema assente o gravemente carente     |
+| **2.1 - 3.5** | Sistema basilare, interventi necessari   |
+| **3.6 - 4.5** | Sistema sufficiente, in evoluzione       |
+| **4.6 - 5.5** | **Buono**, ben strutturato               |
 | **5.6 - 7.0** | **Eccellente**, benchmark di riferimento |
 
 ### Scala di Valutazione (Likert 1-7)
+
 Ogni sottodimensione viene valutata con una scala a 7 livelli.
+
 - 1: Assente
 - 2: Generico
 - 3: Limitato
@@ -109,8 +120,8 @@ Ogni sottodimensione viene valutata con una scala a 7 livelli.
 ## Dati usati
 
 - data/analysis_summary.csv
-- analysis_results/*.json
-- analysis_results/*.md
+- analysis_results/\*.json
+- analysis_results/\*.md
 - data/attivita.json
 - data/activity_registry.json
 
@@ -120,6 +131,7 @@ Qui la pipeline viene raccontata come una redazione: ogni agente ha un ruolo chi
 così anche chi non è tecnico capisce cosa succede e perché.
 
 ### Analisi PTOF (flusso principale)
+
 Flow: PDF → Validazione PTOF → Markdown → Lettore → Sintetizzatore → Critico → Editor → Report + JSON → Registro
 
 Il **Lettore** entra nel documento e costruisce la prima bozza con punteggi ed evidenze.
@@ -128,30 +140,35 @@ Il **Critico** controlla incoerenze e passaggi deboli, l'**Editor** stabilizza i
 Quando serve, il **Narratore** completa la parte testuale del report.
 
 ### Revisione narrativa (arricchimento report)
+
 Flow: PTOF + Report → Arricchitore Narrativo → Report arricchito → Registro
 
 L'**Arricchitore Narrativo** rilegge il PTOF e inserisce dettagli concreti nel report,
 così la narrazione resta aderente alle evidenze.
 
 ### Revisione punteggi estremi
+
 Flow: PTOF + JSON punteggi → Revisore dei Punteggi → Aggiornamenti → JSON aggiornato → Status
 
 Il **Revisore dei Punteggi** controlla solo i valori troppo alti o troppo bassi per
 ridurre distorsioni e mantenere coerenza tra numeri e testo.
 
 ### Filtro documenti non-PTOF
+
 Flow: Documento → Filtro Non‑PTOF → Scarto e pulizia → Log
 
 Il **Filtro Non‑PTOF** scarta i documenti non pertinenti o troppo deboli, mantenendo
 il dataset pulito.
 
 ### Catalogo Buone Pratiche
+
 Flow: PTOF in Markdown → Estrattore Pratiche → Dataset + Registro
 
 L'**Estrattore Pratiche** individua attività concrete, le classifica e costruisce
 il catalogo per esplorazioni e confronti.
 
 ### Metadati e orchestrazione
+
 Flow: JSON incompleti → Completa Metadati → JSON completi
 
 Il **Completa Metadati** aggiunge informazioni mancanti utili per confronti affidabili.
@@ -166,6 +183,7 @@ Il catalogo raccoglie pratiche concrete estratte dai PTOF e le rende esplorabili
 per categoria, territorio, tipo scuola, target e metodologie.
 
 Funzioni principali:
+
 - Lista, vista raggruppata o tabellare con dettagli e citazioni.
 - Mappa di distribuzione geografica e dettaglio per regione.
 - Grafici di distribuzione (categoria, regione, tipo scuola).
@@ -207,6 +225,7 @@ Le specifiche operative sono:
 Prompt base (config/prompts.md): vedi file per il dettaglio completo.
 
 #### Review report (OpenRouter/Gemini) - prompt
+
 ```text
 SEI UN EDITOR SCOLASTICO ESPERTO E METICOLOSO.
 Il tuo compito e ARRICCHIRE il report di analisi esistente (Markdown) integrando
@@ -254,6 +273,7 @@ Restituisci il contenuto Markdown del report arricchito, senza commenti extra.
 ```
 
 #### Review report Ollama - prompt chunk
+
 ```text
 SEI UN EDITOR SCOLASTICO ESPERTO.
 Stai analizzando un CHUNK del documento PTOF originale.
@@ -295,6 +315,7 @@ RISPONDI con JSON:
 ```
 
 #### Review report Ollama - prompt finale
+
 ```text
 SEI UN EDITOR SCOLASTICO ESPERTO.
 Devi produrre la versione finale ARRICCHITA del report.
@@ -319,6 +340,7 @@ OUTPUT: restituisci solo il report Markdown completo arricchito.
 ```
 
 #### Review punteggi estremi - prompt
+
 ```text
 SEI UN REVISORE CRITICO. Devi verificare SOLO i punteggi estremi.
 Conferma o modifica i punteggi usando il testo come fonte di verita.
@@ -364,6 +386,7 @@ REGOLE:
 ```
 
 #### Estrazione buone pratiche - prompt
+
 ```text
 /no_think
 SEI UN ESPERTO DI PRATICHE EDUCATIVE E ORIENTAMENTO SCOLASTICO.
@@ -445,18 +468,19 @@ Se non trovi pratiche significative:
 
 ### Prompt - Tabella
 
-| Prompt | Uso | Input | Output |
-|-------|-----|-------|--------|
-| Prompt base pipeline (config/prompts.md) | Prompt base pipeline | Testo PTOF / contesto | JSON o testo (vedi codice) |
-| Review report (OpenRouter/Gemini) | Arricchisce report MD con dettagli dal PTOF | Testo PTOF, report MD | Markdown report arricchito |
-| Review report Ollama - chunk | Estrae arricchimenti da chunk PTOF | Chunk PTOF, report MD, riepilogo score | JSON arricchimenti/correzioni |
-| Review report Ollama - finale | Compone report finale | Report attuale, arricchimenti, correzioni | Markdown finale |
-| Review punteggi estremi | Rivede punteggi troppo alti o bassi | Testo PTOF, JSON punteggi | JSON aggiornamenti |
-| Estrazione buone pratiche | Estrae pratiche concrete dal PTOF | Chunk PTOF | JSON pratiche |
+| Prompt                                   | Uso                                         | Input                                     | Output                        |
+| ---------------------------------------- | ------------------------------------------- | ----------------------------------------- | ----------------------------- |
+| Prompt base pipeline (config/prompts.md) | Prompt base pipeline                        | Testo PTOF / contesto                     | JSON o testo (vedi codice)    |
+| Review report (OpenRouter/Gemini)        | Arricchisce report MD con dettagli dal PTOF | Testo PTOF, report MD                     | Markdown report arricchito    |
+| Review report Ollama - chunk             | Estrae arricchimenti da chunk PTOF          | Chunk PTOF, report MD, riepilogo score    | JSON arricchimenti/correzioni |
+| Review report Ollama - finale            | Compone report finale                       | Report attuale, arricchimenti, correzioni | Markdown finale               |
+| Review punteggi estremi                  | Rivede punteggi troppo alti o bassi         | Testo PTOF, JSON punteggi                 | JSON aggiornamenti            |
+| Estrazione buone pratiche                | Estrae pratiche concrete dal PTOF           | Chunk PTOF                                | JSON pratiche                 |
 
 ### JSON - Codice
 
 #### Analisi PTOF - output JSON
+
 ```json
 {
   "metadata": {
@@ -488,6 +512,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Review punteggi estremi - output JSON
+
 ```json
 {
   "score_updates": [
@@ -504,6 +529,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Review report Ollama - output JSON (chunk)
+
 ```json
 {
   "enrichments": [
@@ -525,6 +551,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Catalogo buone pratiche - output prompt
+
 ```json
 {
   "pratiche": [
@@ -545,6 +572,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Catalogo attività - dataset (data/attivita.json)
+
 ```json
 {
   "version": "1.0",
@@ -591,6 +619,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Catalogo attività - registry (data/activity_registry.json)
+
 ```json
 {
   "version": "1.0",
@@ -607,6 +636,7 @@ Se non trovi pratiche significative:
 ```
 
 #### Anagrafica comuni (data/comuni_italiani.json)
+
 ```json
 [
   {
@@ -625,57 +655,60 @@ Se non trovi pratiche significative:
 
 ### JSON - Tabella
 
-| JSON | Dove | Scopo | Chiavi principali |
-|------|------|-------|------------------|
-| analysis_results/{CODICE}_analysis.json | Output analisi PTOF | Risultati strutturati + report | metadata, ptof_section2, narrative |
-| score_review_output.json (prompt) | Review punteggi | Correzioni punteggi estremi | score_updates[], review_notes |
-| ollama_chunk_output.json (prompt) | Review report chunk | Arricchimenti e correzioni | enrichments[], corrections[], orientamento_* |
-| activity_extraction_output.json (prompt) | Estrazione attività | Pratiche/attività estratte per chunk | pratiche[] |
-| data/attivita.json | Dataset catalogo | Dataset attività estratte | version, last_updated, extraction_model, schools_processed, total_practices, practices[] |
-| data/activity_registry.json | Registro estrazione | Stato e avanzamento | version, last_updated, processed_files{} |
-| data/comuni_italiani.json | Anagrafica territori | Normalizzazione comuni/province/regioni | nome, codice, zona{}, regione{}, provincia{}, sigla, cap, popolazione |
+| JSON                                     | Dove                 | Scopo                                   | Chiavi principali                                                                        |
+| ---------------------------------------- | -------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------- |
+| analysis_results/{CODICE}\_analysis.json | Output analisi PTOF  | Risultati strutturati + report          | metadata, ptof_section2, narrative                                                       |
+| score_review_output.json (prompt)        | Review punteggi      | Correzioni punteggi estremi             | score_updates[], review_notes                                                            |
+| ollama_chunk_output.json (prompt)        | Review report chunk  | Arricchimenti e correzioni              | enrichments[], corrections[], orientamento\_\*                                           |
+| activity_extraction_output.json (prompt) | Estrazione attività  | Pratiche/attività estratte per chunk    | pratiche[]                                                                               |
+| data/attivita.json                       | Dataset catalogo     | Dataset attività estratte               | version, last_updated, extraction_model, schools_processed, total_practices, practices[] |
+| data/activity_registry.json              | Registro estrazione  | Stato e avanzamento                     | version, last_updated, processed_files{}                                                 |
+| data/comuni_italiani.json                | Anagrafica territori | Normalizzazione comuni/province/regioni | nome, codice, zona{}, regione{}, provincia{}, sigla, cap, popolazione                    |
 
 #### Struttura pratica (tabellare)
 
-| Campo | Descrizione |
-|------|-------------|
-| id | Identificativo pratica |
-| school.* | Metadati scuola (codice, nome, tipo, area, territorio) |
-| pratica.categoria | Categoria assegnata (6 macro categorie) |
-| pratica.titolo | Titolo sintetico della pratica |
-| pratica.descrizione | Descrizione dettagliata (200-500 caratteri) |
-| pratica.metodologia | Metodologia descritta nel PTOF |
-| pratica.tipologie_metodologia | Lista di tipologie metodologia |
-| pratica.ambiti_attivita | Lista di ambiti di attivita |
-| pratica.target | Destinatari della pratica |
-| pratica.citazione_ptof | Citazione testuale dal PTOF |
-| pratica.pagina_evidenza | Pagina evidenza (se presente) |
-| contesto.* | Contesto (maturity_index, punteggi, partnership, attivita) |
+| Campo                         | Descrizione                                                |
+| ----------------------------- | ---------------------------------------------------------- |
+| id                            | Identificativo pratica                                     |
+| school.\*                     | Metadati scuola (codice, nome, tipo, area, territorio)     |
+| pratica.categoria             | Categoria assegnata (6 macro categorie)                    |
+| pratica.titolo                | Titolo sintetico della pratica                             |
+| pratica.descrizione           | Descrizione dettagliata (200-500 caratteri)                |
+| pratica.metodologia           | Metodologia descritta nel PTOF                             |
+| pratica.tipologie_metodologia | Lista di tipologie metodologia                             |
+| pratica.ambiti_attivita       | Lista di ambiti di attivita                                |
+| pratica.target                | Destinatari della pratica                                  |
+| pratica.citazione_ptof        | Citazione testuale dal PTOF                                |
+| pratica.pagina_evidenza       | Pagina evidenza (se presente)                              |
+| contesto.\*                   | Contesto (maturity_index, punteggi, partnership, attivita) |
 
 #### Registro estrazione (tabellare)
 
-| Campo | Descrizione |
-|------|-------------|
-| processed_files{codice}.file_hash | Hash file sorgente |
-| processed_files{codice}.processed_at | Timestamp elaborazione |
-| processed_files{codice}.practices_count | Numero pratiche estratte |
-| processed_files{codice}.model_used | Modello usato in estrazione |
+| Campo                                   | Descrizione                 |
+| --------------------------------------- | --------------------------- |
+| processed_files{codice}.file_hash       | Hash file sorgente          |
+| processed_files{codice}.processed_at    | Timestamp elaborazione      |
+| processed_files{codice}.practices_count | Numero pratiche estratte    |
+| processed_files{codice}.model_used      | Modello usato in estrazione |
 
 ## Troubleshooting
 
 ### La dashboard non si avvia
 
 1. Verifica le dipendenze:
+
 ```bash
 pip install streamlit plotly pandas numpy
 ```
 
 2. Verifica i file:
+
 ```bash
 python3 -c "from src.data.data_manager import update_index_safe; update_index_safe()"
 ```
 
 3. Controlla i log:
+
 ```bash
 streamlit run app/Home.py --logger.level=debug
 ```
@@ -714,6 +747,7 @@ base = "light"
 ## Supporto
 
 Per problemi o domande:
+
 1. Verifica questa guida
 2. Consulta docs/operations/TROUBLESHOOTING.md
 3. Controlla i log di Streamlit

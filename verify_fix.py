@@ -15,7 +15,7 @@ def verify_fix():
     df = pd.read_csv('data/analysis_summary.csv')
     
     # Mimic Home.py loading
-    col = 'ptof_orientamento_maturity_index'
+    col = 'ptof_idpo'
     if col in df.columns:
         # Step 1: Convert to numeric and scale to pct (Home.py lines 149-151)
         df[col] = pd.to_numeric(df[col], errors='coerce')

@@ -46,8 +46,8 @@ LABEL_MAP = {
     'mean_governance': 'Governance',
     'mean_didattica_orientativa': 'Didattica',
     'mean_opportunita': 'Opportunità',
-    'ptof_orientamento_maturity_index': 'Indice RO',
-    'weighted_index': 'Indice RO'
+    'ptof_idpo': 'Indice IIPO',
+    'weighted_index': 'IIPO'
 }
 
 TIPI_SCUOLA = [
@@ -408,7 +408,7 @@ with tab_mappa:
 
     # === 1. REGIONAL COMPARISON (NORMALIZED) ===
     st.subheader("📊 Confronto Regionale (normalizzato)")
-    st.caption("Indice di Completezza normalizzato per tipologia: ogni tipo pesa allo stesso modo")
+    st.caption("IIPO normalizzato per tipologia: ogni tipo pesa allo stesso modo")
 
     df_region_norm = add_type_normalized_score(df_valid)
     regional_stats = pd.DataFrame()
@@ -542,7 +542,7 @@ with tab_mappa:
 
     # === ANOVA Test ===
     st.markdown("### 🔬 Test ANOVA: Differenze tra Regioni")
-    st.caption("Verifica statistica se esistono differenze significative nell'Indice di Completezza normalizzato tra le regioni")
+    st.caption("Verifica statistica se esistono differenze significative nell'IIPO normalizzato tra le regioni")
 
     try:
         region_groups = []
@@ -732,7 +732,7 @@ with tab_mappa:
                 color_continuous_scale='RdYlGn',
                 range_color=[1, 7],
                 size_max=50,
-                title="Distribuzione Geografica Indice di Completezza Normalizzato"
+                title="Distribuzione Geografica IIPO Normalizzato"
             )
             fig_map.update_geos(
                 scope='europe',
@@ -1013,7 +1013,7 @@ with tab_mappa:
                 color='Media', color_continuous_scale='RdYlGn',
                 range_x=[1, 7], range_color=[1, 7],
                 text='N. Scuole',
-                title="Indice RO Medio per Tipologia Scolastica"
+                title="IndiceIDPOMedio per Tipologia Scolastica"
             )
             fig_tipo_bar.update_traces(texttemplate='n=%{text}', textposition='outside')
             fig_tipo_bar.update_layout(height=350)
@@ -1026,7 +1026,7 @@ with tab_mappa:
     st.info("""
 💡 **A cosa serve**: Visualizza la distribuzione geografica delle scuole per tipologia (Licei, Tecnici, Professionali, ecc.).
 
-🔍 **Cosa rileva**: La mappa mostra dove si concentrano le diverse tipologie. La dimensione dei cerchi indica il numero di scuole, il colore indica la media dell'Indice RO. Il grafico a barre sottostante ordina le tipologie per punteggio medio.
+🔍 **Cosa rileva**: La mappa mostra dove si concentrano le diverse tipologie. La dimensione dei cerchi indica il numero di scuole, il colore indica la media dell'IIPO. Il grafico a barre sottostante ordina le tipologie per punteggio medio.
 
 🎯 **Implicazioni**: Alcune tipologie potrebbero essere più diffuse o performanti in certe aree. Questi pattern aiutano a comprendere le specificità territoriali e tipologiche del sistema scolastico.
 """)
@@ -1047,8 +1047,8 @@ with tab_mappa:
                 df_macro, x='macro_area', y=INDEX_COL,
                 color='macro_area',
                 color_discrete_map={'Nord': '#3498db', 'Sud': '#e74c3c'},
-                title="Distribuzione Indice RO per Macro-Area",
-                labels={'macro_area': 'Macro-Area', INDEX_COL: 'Indice RO'},
+                title="Distribuzione IndiceIDPOper Macro-Area",
+                labels={'macro_area': 'Macro-Area', INDEX_COL: 'IIPO'},
                 points='all'
             )
             fig_box.update_layout(showlegend=False, height=450)
@@ -1135,8 +1135,8 @@ with tab_mappa:
                 fig_box_area = px.box(
                     df_area, x='area_geografica', y=INDEX_COL,
                     color='area_geografica',
-                    title="Distribuzione Indice RO per Area Geografica",
-                    labels={'area_geografica': 'Area', INDEX_COL: 'Indice RO'},
+                    title="Distribuzione IndiceIDPOper Area Geografica",
+                    labels={'area_geografica': 'Area', INDEX_COL: 'IIPO'},
                     points='all',
                     category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
                 )
@@ -1264,8 +1264,8 @@ with tab_mappa:
                     df_territorio, x='territorio', y=INDEX_COL,
                     color='territorio',
                     color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                    title="Distribuzione Indice RO per Territorio",
-                    labels={'territorio': 'Territorio', INDEX_COL: 'Indice RO'},
+                    title="Distribuzione IndiceIDPOper Territorio",
+                    labels={'territorio': 'Territorio', INDEX_COL: 'IIPO'},
                     points='all'
                 )
                 fig_box_terr.update_layout(showlegend=False, height=450)
@@ -1364,7 +1364,7 @@ with tab_mappa:
 
     # === 3c. ANALISI PER REGIONE E TERRITORIO ===
     st.subheader("📊 Analisi per Regione e Territorio")
-    st.caption("Confronto dell'Indice RO per regione, suddiviso per area metropolitana e non metropolitana")
+    st.caption("Confronto dell'IndiceIDPOper regione, suddiviso per area metropolitana e non metropolitana")
 
     if 'territorio' in df_valid.columns:
         df_reg_terr = df_valid[
@@ -1391,8 +1391,8 @@ with tab_mappa:
                     x='regione', y='Media', color='territorio',
                     barmode='group',
                     color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                    title="Indice RO Medio per Regione e Territorio",
-                    labels={'regione': 'Regione', 'Media': 'Indice RO Medio', 'territorio': 'Territorio'},
+                    title="IndiceIDPOMedio per Regione e Territorio",
+                    labels={'regione': 'Regione', 'Media': 'IndiceIDPOMedio', 'territorio': 'Territorio'},
                     text='N'
                 )
                 fig_grouped.update_traces(texttemplate='n=%{text}', textposition='outside')
@@ -1480,7 +1480,7 @@ with tab_mappa:
     st.info("""
 💡 **A cosa serve**: Analizza per ogni regione le differenze tra scuole in area metropolitana e non metropolitana.
 
-🔍 **Cosa rileva**: L'heatmap mostra la media dell'indice RO per ogni combinazione regione-territorio. La tabella calcola Cohen's d e p-value per ogni regione che ha entrambi i tipi di territorio.
+🔍 **Cosa rileva**: L'heatmap mostra la media dell'indiceIDPOper ogni combinazione regione-territorio. La tabella calcola Cohen's d e p-value per ogni regione che ha entrambi i tipi di territorio.
 
 🎯 **Implicazioni**: Identifica regioni dove la differenza metropolitano/non-metropolitano è più marcata. Alcune regioni potrebbero non mostrare disparità, altre sì. Utile per interventi territoriali mirati.
 """)
@@ -1783,7 +1783,7 @@ with tab_confronti:
         if not pivot.empty:
             fig = px.imshow(
                 pivot, text_auto='.2f', color_continuous_scale='RdBu',
-                zmin=1, zmax=7, title="Indice RO Medio per Tipo e Area"
+                zmin=1, zmax=7, title="IndiceIDPOMedio per Tipo e Area"
             )
             st.plotly_chart(fig, use_container_width=True)
 
@@ -1807,7 +1807,7 @@ with tab_confronti:
             with st.expander("📈 Analisi Statistica: Effetti Tipo Scuola e Area Geografica"):
                 st.markdown("""
                 Analisi degli effetti principali e dell'interazione tra **Tipo Scuola** e **Area Geografica** 
-                sull'Indice RO.
+                sull'IIPO.
                 """)
 
                 tipo_groups = df_pivot.groupby('tipo_scuola')[INDEX_COL].apply(list).to_dict()
@@ -2301,19 +2301,19 @@ with tab_confronti:
             region_avg = df_region_norm[df_region_norm['regione'].notna()].groupby('regione')[
                 'score_norm'
             ].agg(['mean', 'count']).reset_index()
-            region_avg.columns = ['Regione', 'Indice RO Normalizzato', 'N. Scuole']
+            region_avg.columns = ['Regione', 'IndiceIDPONormalizzato', 'N. Scuole']
 
             if len(region_avg) >= 3:
                 fig = px.bar(
-                    region_avg.sort_values('Indice RO Normalizzato'),
-                    x='Indice RO Normalizzato',
+                    region_avg.sort_values('IndiceIDPONormalizzato'),
+                    x='IndiceIDPONormalizzato',
                     y='Regione',
                     orientation='h',
-                    color='Indice RO Normalizzato',
+                    color='IndiceIDPONormalizzato',
                     color_continuous_scale='RdYlGn',
                     range_color=[1, 7],
                     text='N. Scuole',
-                    title="Indice RO Normalizzato per Regione"
+                    title="IndiceIDPONormalizzato per Regione"
                 )
                 fig.update_traces(texttemplate='n=%{text}', textposition='outside')
                 st.plotly_chart(fig, use_container_width=True)
@@ -2410,7 +2410,7 @@ with tab_report:
                 mean_ro = df_region[INDEX_COL].mean()
                 national_mean = df_national[INDEX_COL].mean()
                 delta = mean_ro - national_mean
-                st.metric("📊 Indice RO Medio", f"{mean_ro:.2f}",
+                st.metric("📊 IndiceIDPOMedio", f"{mean_ro:.2f}",
                           delta=f"{delta:+.2f} vs nazionale",
                           delta_color="normal" if delta >= 0 else "inverse")
 
@@ -2520,7 +2520,7 @@ with tab_report:
                                 tipo_stats.sort_values('Media', ascending=True),
                                 x='Media', y='Tipologia', orientation='h',
                                 color='Media', color_continuous_scale='RdYlGn',
-                                range_x=[1, 7], title="Indice RO per Tipologia"
+                                range_x=[1, 7], title="IndiceIDPOper Tipologia"
                             )
                             st.plotly_chart(fig_tipo, use_container_width=True)
 
@@ -2593,8 +2593,8 @@ with tab_report:
                 top_10 = df_region.nlargest(10, INDEX_COL)[
                     ['denominazione', 'comune', 'tipo_scuola', INDEX_COL]
                 ].copy()
-                top_10.columns = ['Denominazione', 'Comune', 'Tipo', 'Indice RO']
-                top_10['Indice RO'] = top_10['Indice RO'].round(2)
+                top_10.columns = ['Denominazione', 'Comune', 'Tipo', 'IIPO']
+                top_10['IIPO'] = top_10['IIPO'].round(2)
                 st.dataframe(top_10, use_container_width=True, hide_index=True)
 
             with col_bottom:
@@ -2602,8 +2602,8 @@ with tab_report:
                 bottom_10 = df_region.nsmallest(10, INDEX_COL)[
                     ['denominazione', 'comune', 'tipo_scuola', INDEX_COL]
                 ].copy()
-                bottom_10.columns = ['Denominazione', 'Comune', 'Tipo', 'Indice RO']
-                bottom_10['Indice RO'] = bottom_10['Indice RO'].round(2)
+                bottom_10.columns = ['Denominazione', 'Comune', 'Tipo', 'IIPO']
+                bottom_10['IIPO'] = bottom_10['IIPO'].round(2)
                 st.dataframe(bottom_10, use_container_width=True, hide_index=True)
 
             st.markdown("---")
@@ -2654,7 +2654,7 @@ with tab_report:
                     with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
                         df_region.to_excel(writer, sheet_name='Dati', index=False)
                         summary_data = {
-                            'Metrica': ['N. Scuole', 'Indice RO Medio', 'Dev. Standard', '% nel Top 30% Nazionale',
+                            'Metrica': ['N. Scuole', 'IndiceIDPOMedio', 'Dev. Standard', '% nel Top 30% Nazionale',
                                         'Migliore Scuola', 'Scuola da Supportare'],
                             'Valore': [
                                 len(df_region),
@@ -2685,7 +2685,7 @@ REPORT REGIONALE - {selected_region}
 
 STATISTICHE CHIAVE
 - Scuole analizzate: {len(df_region)}
-- Indice RO medio: {mean_ro:.2f}
+- IndiceIDPOmedio: {mean_ro:.2f}
 - Deviazione standard: {std_ro:.2f}
 - % scuole nel top 30% nazionale: {pct_top:.1f}%
 
@@ -2695,7 +2695,7 @@ CONFRONTO CON MEDIA NAZIONALE
                 if 'top_10' in locals():
                     summary_text += "\nTOP 5 SCUOLE\n"
                     for _, row in top_10.head(5).iterrows():
-                        summary_text += f"- {row['Denominazione']} ({row['Comune']}): {row['Indice RO']}\n"
+                        summary_text += f"- {row['Denominazione']} ({row['Comune']}): {row['IIPO']}\n"
                 st.download_button(
                     label="📥 Sintesi (TXT)",
                     data=summary_text.encode('utf-8'),
@@ -2744,7 +2744,7 @@ CONFRONTO CON MEDIA NAZIONALE
                     x='regione',
                     y=INDEX_COL,
                     color='regione',
-                    title="Distribuzione Indice RO per Regione"
+                    title="Distribuzione IndiceIDPOper Regione"
                 )
                 fig_box.update_layout(showlegend=False, yaxis_range=[1, 7])
                 st.plotly_chart(fig_box, use_container_width=True)

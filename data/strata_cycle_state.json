@@ -1,5 +1,5 @@
 {
-  "cycle_id": 4,
+  "cycle_id": 6,
   "target_total": 6000,
   "yield_global": 0.254,
   "yield_by_strato": {
@@ -320,5 +320,6 @@
   "analyzed_total": 1033,
   "status": "synced",
   "synced_at": "2026-01-25T08:25:29.620900",
-  "note": "Sincronizzato da sync_sampling.py - 1497 downloaded, 1033 analyzed"
+  "note": "Sincronizzato da sync_sampling.py - 1497 downloaded, 1033 analyzed",
+  "failures": {}
 }

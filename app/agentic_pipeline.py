@@ -1295,10 +1295,10 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
             ]
             ro_index = _calc_avg(means)
             
-            logging.info(f"Calculated RO Index for {school_code}: {ro_index:.2f}")
+            logging.info(f"CalculatedIDPOIndex for {school_code}: {ro_index:.2f}")
             
             if ro_index <= 2.0:
-                msg = f"⚠️ SAFETY CHECK: RO Index {ro_index:.2f} is too low (<= 2.0). Discarding analysis for {school_code}."
+                msg = f"⚠️ SAFETY CHECK:IDPOIndex {ro_index:.2f} is too low (<= 2.0). Discarding analysis for {school_code}."
                 logging.warning(msg)
                 if status_callback: status_callback(msg)
                 
