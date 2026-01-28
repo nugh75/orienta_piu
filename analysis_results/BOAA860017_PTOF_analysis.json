@@ -1,0 +1,161 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOAA860017",
+    "denominazione": "G. Dozza",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Crevalcore",
+    "anno_ptof": "2024-2027",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dozza 100",
+    "cap": "40014",
+    "email": "boic86000a@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccrevalcore.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in modo generico all'interno di altri paragrafi, come nell'ampliamento dell'offerta formativa e nella collaborazione con il territorio."
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "agenzie educative specializzate",
+        "Università di Trieste – Dipartimento Scienze Umanistiche (DISU)",
+        "Azienda per i Servizi Sanitari",
+        "Polizia Locale di Trieste"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti per l’arricchimento dell’offerta formativa",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti mirati, con particolare attenzione alle opportunità che provengono dal territorio e a quelle portate dalle diverse iniziative in cui il Comune di Trieste è protagonista o promotore.",
+      "5w_chi": "Bambini, famiglie, personale scolastico",
+      "5w_cosa": "Realizzazione di progetti educativi e didattici",
+      "5w_dove": "Scuole dell'infanzia, territorio",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Ampliare l'offerta formativa e promuovere la collaborazione con il territorio",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "ampliamento della propria offerta formativa, didattica e pedagogica attraverso progetti mirati",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini e famiglie",
+      "5w_cosa": "Promozione della lettura",
+      "5w_dove": "Biblioteche, scuole",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziare il livello culturale e formativo dei bambini",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    }
+  ],
+  "narrative": "## Analisi del PTOF Scuole dell'Infanzia del Comune di Trieste\n\n### 1. Sintesi Generale\nIl PTOF delle Scuole dell'Infanzia del Comune di Trieste delinea una chiara visione degli obiettivi educativi e delle finalità del servizio, evidenziando un impegno per l'ampliamento dell'offerta formativa e la collaborazione con il territorio. Tuttavia, l'orientamento in uscita, inteso come preparazione alla transizione verso la scuola primaria e alla consapevolezza delle proprie attitudini, non emerge come un tema centrale e strutturato. Sebbene siano presenti elementi che contribuiscono allo sviluppo delle competenze dei bambini, manca una strategia esplicita per supportarli nella costruzione del proprio progetto di vita e nello sviluppo delle capacità orientative necessarie per affrontare le successive fasi scolastiche.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nConfermata l'assenza di una sezione dedicata all'orientamento, il che denota una limitata attenzione specifica a questo aspetto cruciale del percorso educativo. L'orientamento è affrontato in modo frammentario, integrato in altre aree tematiche come l'ampliamento dell'offerta formativa e la collaborazione con il territorio, senza una visione d'insieme.\n\n#### 2.2 Partnership e Reti\nIl PTOF valorizza le partnership con enti locali quali le Biblioteche Civiche e il Teatro Stabile del Friuli Venezia Giulia, offrendo opportunità di arricchimento culturale e formativo. La collaborazione con agenzie educative specializzate e l'Università di Trieste rappresenta un elemento positivo per la formazione del personale e l'innovazione didattica.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità del servizio si concentrano sullo sviluppo dell'identità, dell'autonomia e delle competenze dei bambini. Tuttavia, l'esplicita preparazione alla transizione verso la scuola primaria e alla consapevolezza delle proprie attitudini e interessi risulta carente. Gli obiettivi sono prevalentemente orientati allo sviluppo delle competenze di base e all'inclusione, con una minore enfasi sull'orientamento.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i servizi educativi e di dialogo tra docenti e genitori, elementi fondamentali per una gestione efficace del processo educativo. Tuttavia, manca un sistema di monitoraggio specifico per valutare l'impatto delle azioni intraprese in ambito orientativo e inclusivo.\n\n#### 2.5 Didattica Orientativa\nLa didattica si basa sulla valorizzazione delle esperienze dei bambini e sull'utilizzo di metodologie laboratoriali. Il punteggio è stato rivisto a 3, in quanto, pur essendo presenti approcci didattici validi, manca un'esplicita integrazione di attività e strategie volte allo sviluppo delle capacità orientative e alla consapevolezza delle proprie potenzialità.\n\n#### 2.6 Opportunità Formative\nIl PTOF offre diverse opportunità formative, come laboratori artistici, musicali e teatrali, che possono contribuire allo sviluppo delle competenze trasversali e alla scoperta dei propri interessi. Tuttavia, queste attività non sono specificamente finalizzate all'orientamento, ma rappresentano un'occasione per ampliare l'offerta formativa.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetti per l’arricchimento dell’offerta formativa\nI Progetti per l’arricchimento dell’offerta formativa mirano ad ampliare le opportunità educative per i bambini, coinvolgendo il personale scolastico, le famiglie e il territorio. Questi progetti si svolgono durante l'anno scolastico e promuovono la collaborazione tra scuola e comunità locale.\n\n#### 2.7.2 Diffusione della pratica della lettura\nLa Diffusione della pratica della lettura è un progetto volto a promuovere l'amore per i libri e la lettura tra i bambini e le loro famiglie, attraverso attività svolte nelle Biblioteche Civiche e nelle scuole.\n\n### 3. Punti di Forza\nIl PTOF presenta una visione chiara degli obiettivi educativi e delle finalità del servizio, con un forte impegno per l'ampliamento dell'offerta formativa e la collaborazione con il territorio. La valorizzazione delle risorse locali e la promozione di partnership con enti esterni rappresentano un elemento distintivo.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e la mancanza di un approccio specifico per lo sviluppo delle capacità orientative costituiscono le principali aree di debolezza. Inoltre, l'analisi dell'inclusione, pur menzionata nel documento, necessita di una maggiore approfondimento.\n\n### 5. Gap Analysis\nÈ necessario integrare il PTOF con una strategia coerente per l'orientamento in uscita, che preveda azioni specifiche per supportare i bambini nella costruzione del proprio progetto di vita e nello sviluppo delle capacità orientative. Parallelamente, è fondamentale approfondire l'analisi delle pratiche inclusive adottate, evidenziando le strategie messe in atto per garantire il successo formativo di tutti gli alunni, con particolare attenzione a quelli con fragilità.\n\n### 6. Conclusioni\nIl PTOF delle Scuole dell'Infanzia del Comune di Trieste presenta un buon livello di maturità in termini di offerta formativa e di collaborazione con il territorio. Tuttavia, per garantire una preparazione completa ai bambini, è necessario rafforzare l'attenzione all'orientamento in uscita e all'inclusione, integrando il PTOF con azioni specifiche e un sistema di monitoraggio efficace."
+}

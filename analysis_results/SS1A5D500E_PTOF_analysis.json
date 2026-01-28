@@ -1,0 +1,289 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SS1A5D500E",
+    "denominazione": "Scuola Comunale \"Francesco Ledda\"",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Ala' Dei Sardi",
+    "anno_ptof": "2016-2019",
+    "provincia": "Sassari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Rinascita 19",
+    "cap": "07020",
+    "email": "info@istitutoparini.it",
+    "pec": "congregazionefdc@pec.it",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Confindustria",
+        "Enti Locali",
+        "università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "IMG Cinema",
+        "Biblioteca Nazionale Marciana",
+        "Centro Donna del Comune di Venezia",
+        "Veneziacomix",
+        "ASL",
+        "Comune",
+        "Università Ca’ Foscari",
+        "Istituto Dante Alighieri"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Consulenze psicologiche",
+      "categoria_principale": "Rinforzo psicologico",
+      "descrizione_e_metodologia": "Consulenze individuali",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Stage",
+      "categoria_principale": "Rinforzo socio-relazionale",
+      "descrizione_e_metodologia": "Esperienze pratiche",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Rinforzo autoefficacia",
+      "descrizione_e_metodologia": "Supporto didattico",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Book club",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e incontri con esperti/autori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineclub",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione contenuti sito web",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Recitazione in francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di conversazione in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Esercitazioni guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad/Interior Design",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Progettazione e arredamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fotografia",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Insegnamento tecniche fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fumetto",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Disegno e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di strumento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Lezioni individuali/gruppali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "ASL",
+      "descrizione_e_metodologia": "Inserimento nelle aziende, tutor scolastico e aziendale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Studio di lingue straniere all'estero",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti sportivi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive varie",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per la definizione dei PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "ASL e convenzioni",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Organizzazione ASL e convenzioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza e Costituzione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno insegnamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Partecipazione a bandi regionali/europei",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Griglie valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Adozione griglie specifiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Prove strutturate",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione prove comuni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Competenze cittadinanza",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Implementazione progetti/incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open Space",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Strutturazione aula studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PAI",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri scuole medie inferiori",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SS1A5D500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della Scuola Comunale “Francesco Ledda”, codice SS1A5D500E, per il triennio 2016-2019. La scuola, di ordine Infanzia, situata ad Ala' Dei Sardi in Sardegna, si configura come istituzione paritaria. L'analisi evidenzia una solida attenzione all'orientamento, con una sezione dedicata specificamente a questo ambito e un punteggio medio elevato nelle diverse dimensioni considerate. L'istituto dimostra un impegno significativo nella costruzione di **partnership** con diversi soggetti del territorio e nella definizione di finalità orientative che spaziano dallo sviluppo di attitudini e interessi alla progettazione del futuro e alla transizione formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza strutturata di questo aspetto all'interno della programmazione scolastica.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, composto da ben 15 partner, tra cui **Confindustria**, **Enti Locali**, diverse **università**, **Mater Academy**, **Museo di Storia Naturale di Verona**, **Croce Verde di Mestre**, **FAI**, **IMG Cinema**, **Biblioteca Nazionale Marciana**, **Centro Donna del Comune di Venezia**, **Veneziacomix**, **ASL**, **Comune**, **Università Ca’ Foscari** e **Istituto Dante Alighieri**. Questo elevato numero di collaborazioni, con un punteggio di 6, testimonia una forte apertura della scuola verso il territorio e la volontà di coinvolgere attivamente diversi stakeholder nel processo educativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal contesto. Ogni finalità ha ottenuto un punteggio di 5, evidenziando una coerenza e completezza nell'approccio orientativo.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di garantire la continuità territoriale ha ottenuto un punteggio di 5, mentre gli altri due hanno un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra **docenti** e **studenti**, il rapporto con i **genitori**, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Ogni azione ha ottenuto un punteggio di 4, indicando un buon livello di implementazione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Ogni aspetto ha ottenuto un punteggio di 4, suggerendo una solida base metodologica.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di **volontariato** e sportivo, ottenendo un punteggio di 5 per ciascuna tipologia. Questo dimostra un'attenzione alla diversificazione dell'offerta e alla possibilità di personalizzare il percorso formativo degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la vasta rete di **partnership** con enti e istituzioni del territorio. La chiarezza delle finalità e l'ampia offerta di attività opzionali rappresentano ulteriori elementi positivi. L'impegno nella didattica orientativa, basata sull'esperienza e sull'interdisciplinarità, contribuisce a creare un ambiente di apprendimento stimolante e coinvolgente.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'**abbandono scolastico** e di contrasto al fenomeno dei **NEET**, che hanno ottenuto un punteggio inferiore rispetto agli altri. Questo suggerisce la necessità di definire strategie più mirate per affrontare queste problematiche specifiche.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità e gli obiettivi, sebbene non ampio, indica la necessità di una maggiore coerenza tra la visione strategica dell'orientamento e le azioni concrete messe in atto per raggiungerla. Un'analisi più approfondita delle cause dell'abbandono scolastico e del fenomeno dei **NEET** potrebbe consentire di definire interventi più efficaci.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della Scuola Comunale “Francesco Ledda” presenta un approccio all'orientamento ben strutturato e completo. La solida rete di **partnership**, la chiarezza delle finalità e l'ampia offerta di attività rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un impegno concreto nella costruzione di un futuro migliore per gli studenti, fornendo loro gli strumenti necessari per affrontare le sfide del mondo del lavoro e della vita. Le attività registrate, come le **consulenze psicologiche**, gli **stage**, i **corsi di recupero**, i **book club**, i **cineclub** e i **laboratori** di vario tipo, testimoniano la ricchezza e la diversificazione dell'offerta formativa."
+}

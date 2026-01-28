@@ -1,0 +1,184 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AN1A00500P",
+    "denominazione": "Santa Caterina",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Cupramontana",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Ancona",
+    "regione": "Marche",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via San Francesco N. 4",
+    "cap": "60034",
+    "email": "s.caterinacupra@libero.it",
+    "pec": "ND",
+    "website": "www.nidosantacaterina.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Mancanza sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Genitori",
+        "Enti locali",
+        "Associazioni",
+        "Volontariato",
+        "Società Scacchistica Torinese",
+        "CUS Università Torino"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Bilinguismo Italiano-Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "10 ore settimanali con madrelingua e metodologia CLIL",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Gioco degli Scacchi in Inglese",
+      "categoria_principale": "Attività Laboratoriale",
+      "descrizione_e_metodologia": "Attività integrativa al curricolo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM e SmartTV",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Dotazioni multimediali nei laboratori",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Scacchi",
+      "categoria_principale": "Ampliamento curricolare",
+      "descrizione_e_metodologia": "Sviluppo pensiero logico e strategico",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Attività Curriculare Piscina",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Autonomia e movimento",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musica",
+      "categoria_principale": "Espressione artistica",
+      "descrizione_e_metodologia": "Apprendimento strumentale e ritmico",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale",
+      "categoria_principale": "Espressione corporea",
+      "descrizione_e_metodologia": "Improvvisazione e interpretazione",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa degli apprendimenti",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Monitoraggio in itinere con attività di recupero/potenziamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Certificazione competenze di base",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Rilevazione su base Indicazioni Nazionali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Analisi prove Invalsi",
+      "categoria_principale": "Monitoraggio",
+      "descrizione_e_metodologia": "Confronto con standard nazionali per azioni correttive",
+      "target": "Istituto"
+    }
+  ],
+  "narrative": "1. **Sintesi**\nIl PTOF della Scuola Primaria Davide Fregonese presenta un piano articolato con attività didattiche e progetti di potenziamento. L'orientamento è trattato in diversi paragrafi, pur non avendo una sezione dedicata. Le partnership coinvolgono enti locali, associazioni e istituzioni universitarie.\n\n2. **Analisi Dimensionale**\nL'analisi evidenzia una buona copertura delle finalità educative, con punteggi elevati per attitudini, interessi e progetto di vita. Le attività laboratoriali, pur presenti, non mostrano collegamenti espliciti con gli obiettivi di orientamento. L'obiettivo di contrastare il NEET risulta parzialmente sviluppato.\n\n3. **Punti di Forza**\n- Ampia offerta formativa con laboratori di scacchi, musica e teatro\n- Collaborazione con partner esterni per arricchire l'offerta didattica\n- Approccio interdisciplinare e metodologie innovative (CLIL, didattica digitale)\n\n4. **Debolezze**\n- Mancanza di una sezione dedicata all'orientamento\n- Limitata connessione tra attività laboratoriali e obiettivi di orientamento\n- Assenza di strategie specifiche per il contrasto al NEET\n\n5. **Gap Analysis**\n- Sviluppo di percorsi di orientamento sistemico con sezione dedicata\n- Integrazione esplicita degli obiettivi di orientamento nelle attività laboratoriali\n- Definizione di azioni concrete per il contrasto al NEET (es. tirocini, alternanza)\n\n6. **Conclusioni**\nIl PTOF presenta una struttura solida con attività innovative, ma richiede miglioramenti nella coerenza tra obiettivi e azioni, specialmente nel campo dell'orientamento e del contrasto al NEET. La collaborazione con partner esterni rappresenta una risorsa da valorizzare ulteriormente."
+}

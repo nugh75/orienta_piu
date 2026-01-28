@@ -192,7 +192,7 @@ def generate_stats_report(df: pd.DataFrame, stats_results: dict = None) -> str:
             report += f"**Associazione Categoria-Area**: La distribuzione per area geografica risulta statisticamente {sig} "
             report += f"(χ²(dof={chi_res['dof']})={chi_res['chi2']:.1f}, p={p:.4f}), con un effetto {v_label} (V={v:.2f}).\n"
 
-    # 3. Differenze IndiceIDPO(Esempio: per Categoria)
+    # 3. Differenze IndiceIIPO(Esempio: per Categoria)
     if ro_stats:
         k_res = compute_kruskal_analysis(df, 'categoria', 'maturity_index')
         if "p_value" in k_res:

@@ -117,6 +117,8 @@ DISCARDED_DIRS = [
     BASE_DIR / "ptof_discarded" / "not_ptof",
     BASE_DIR / "ptof_discarded" / "too_short",
     BASE_DIR / "ptof_discarded" / "corrupted",
+    BASE_DIR / "ptof_discarded" / "duplicates",
+    BASE_DIR / "ptof_discarded" / "da_controllare",
 ]
 CODE_PATTERN = re.compile(r'([A-Z]{2}[A-Z0-9]{2}[A-Z0-9]{6})', re.IGNORECASE)
 
@@ -250,6 +252,62 @@ def cleanup_invalid_analysis(pdf_path, school_code, reason):
             print(f"⚠️ Errore rimozione PDF {pdf_path}: {exc}", flush=True)
 
 
+def _move_to_duplicates(pdf_path):
+    """Sposta un file PDF nella cartella duplicati."""
+    if not pdf_path or not pdf_path.exists():
+        return
+        
+    dup_dir = BASE_DIR / "ptof_discarded" / "duplicates"
+    dup_dir.mkdir(parents=True, exist_ok=True)
+    
+    target = dup_dir / pdf_path.name
+    
+    # Se esiste già un duplicato con lo stesso nome, aggiungi suffisso
+    if target.exists():
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        target = dup_dir / f"{pdf_path.stem}_{timestamp}{pdf_path.suffix}"
+        
+    try:
+        shutil.move(str(pdf_path), str(target))
+        print(f"🗑️ Spostato duplicato: {pdf_path.name} -> duplicates/", flush=True)
+    except Exception as e:
+        print(f"⚠️ Errore spostamento duplicato {pdf_path.name}: {e}", flush=True)
+
+
+def _move_to_check(pdf_path, reason):
+    if not pdf_path or not pdf_path.exists():
+        return
+    check_dir = BASE_DIR / "ptof_discarded" / "da_controllare"
+    check_dir.mkdir(parents=True, exist_ok=True)
+    target = check_dir / pdf_path.name
+    if target.exists():
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        target = check_dir / f"{pdf_path.stem}_{timestamp}{pdf_path.suffix}"
+    try:
+        shutil.move(str(pdf_path), str(target))
+        print(f"🧾 Da controllare: {pdf_path.name} ({reason})", flush=True)
+    except Exception as e:
+        print(f"⚠️ Errore spostamento da controllare {pdf_path.name}: {e}", flush=True)
+
+
+def _rename_pdf_if_code_mismatch(pdf_path, school_code):
+    if not pdf_path or not pdf_path.exists() or not school_code:
+        return pdf_path
+    if school_code.upper() in pdf_path.stem.upper():
+        return pdf_path
+    target = pdf_path.with_name(f"{school_code}_PTOF{pdf_path.suffix}")
+    if target.exists():
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        target = pdf_path.with_name(f"{school_code}_PTOF_{timestamp}{pdf_path.suffix}")
+    try:
+        pdf_path.rename(target)
+        print(f"✏️ Rinominato: {pdf_path.name} → {target.name}", flush=True)
+        return target
+    except Exception as exc:
+        print(f"⚠️ Errore rinomina {pdf_path.name}: {exc}", flush=True)
+        return pdf_path
+
+
 def compute_maturity_index(analysis_data):
     sec2 = analysis_data.get('ptof_section2', {}) if analysis_data else {}
 
@@ -299,7 +357,28 @@ def compute_maturity_index(analysis_data):
     mean_governance = calc_avg(governance_scores)
     mean_didattica = calc_avg(didattica_scores)
     mean_opportunita = calc_avg(opportunita_scores)
-    return calc_avg([mean_finalita, mean_obiettivi, mean_governance, mean_didattica, mean_opportunita])
+
+    # Nuove dimensioni
+    score_sezione_dedicata = sec2.get('2_1_ptof_orientamento_sezione_dedicata', {}).get('score', 0) or 0
+    score_partnership = sec2.get('2_2_partnership', {}).get('score', 0) or 0
+    
+    # Calcolo media su tutte le 7 dimensioni (o 6 macro)
+    # Se consideriamo Sezione Dedicata e Partnership come 2 dimensioni separate o parte della "Dimensione Strutturale"
+    # L'utente ha numerato: 1. Dimensione Strutturale (con sotto-punti Sezione Dedicata e Partnership).
+    # Quindi calcolo la media di (Sezione, Partnership) -> mean_strutturale?
+    # O semplicemente includo i punteggi come dimensioni distinte nel vettore finale
+    # Per semplicità e robustezza (evitare medie di medie), li includo come dimensioni distinte nel calcolo finale.
+    
+    dimensions = [
+        score_sezione_dedicata,
+        score_partnership, 
+        mean_finalita, 
+        mean_obiettivi, 
+        mean_governance, 
+        mean_didattica, 
+        mean_opportunita
+    ]
+    return calc_avg(dimensions)
 
 # Crea directory
 for d in [INBOX_DIR, PROCESSED_DIR, MD_DIR, ANALYSIS_DIR]:
@@ -334,6 +413,15 @@ from src.utils.analysis_registry import (
 ANALYSIS_REGISTRY = load_registry()
 reg_stats = get_registry_stats()
 print(f"   ✅ Registro analisi: {reg_stats['valid_entries']} file già analizzati", flush=True)
+
+# Calcolo mancanti
+try:
+    total_schools = len(SCHOOL_DB._data)
+    analyzed_count = reg_stats['valid_entries']
+    missing_count = max(0, total_schools - analyzed_count)
+    print(f"   📉 Mancanti all'appello: {missing_count} (su {total_schools} scuole nel DB)", flush=True)
+except Exception:
+    pass
 if FORCE_REANALYSIS:
     print(f"   ⚠️ Modalità FORCE attiva: tutti i file verranno ri-analizzati", flush=True)
 if FORCE_CODE:
@@ -371,7 +459,7 @@ while True:
         else:
             try:
                 from src.validation.ptof_validator import validate_inbox
-                validation_results = validate_inbox(move_invalid=True, use_registry=True)
+                validation_results = validate_inbox(move_invalid=True, use_registry=True, check_duplicates=False)
                 stats = validation_results.get("stats", {})
                 if stats:
                     skipped = stats.get('skipped_already_valid', 0)
@@ -379,6 +467,7 @@ while True:
                         f"   ✅ Validi: {stats.get('valid', 0)} | "
                         f"❌ Non PTOF: {stats.get('not_ptof', 0)} | "
                         f"📄 Troppo corti: {stats.get('too_short', 0)} | "
+                        f"🗑️ Duplicati: {stats.get('duplicates', 0)} | "
                         f"💔 Corrotti: {stats.get('corrupted', 0)} | "
                         f"❓ Ambigui: {stats.get('ambiguous', 0)}"
                     )
@@ -386,7 +475,7 @@ while True:
                         msg += f" | ⏭️ Già validati: {skipped}"
                     print(msg, flush=True)
                 invalid_reports = []
-                for key in ("not_ptof", "too_short", "corrupted", "ambiguous"):
+                for key in ("not_ptof", "too_short", "corrupted", "duplicates", "ambiguous"):
                     invalid_reports.extend(validation_results.get(key, []))
                 for report in invalid_reports:
                     cleanup_invalid_validation(report)
@@ -600,11 +689,23 @@ while True:
             school_code, candidates, miur_data, source = extract_school_code(pdf_path.stem, SCHOOL_DB, pdf_path)
             if not school_code:
                 print(f"❌ {pdf_path.name}: Codice non estratto", flush=True)
+                _move_to_check(pdf_path, "Codice non estratto")
                 continue
             if source == 'pdf':
                 print(f"🔎 {pdf_path.name}: codice estratto dal PDF → {school_code}", flush=True)
             if len(candidates) > 1:
                 print(f"⚠️ {pdf_path.name}: codici trovati {candidates}, scelto {school_code}", flush=True)
+
+            analysis_path, status = get_analysis_status(school_code)
+            if status == 'valid' and not FORCE_REANALYSIS and not (FORCE_CODE and school_code == FORCE_CODE):
+                print(f"⛔ {school_code}: già analizzato ({analysis_path.name}), elimino {pdf_path.name}", flush=True)
+                try:
+                    pdf_path.unlink()
+                except Exception as exc:
+                    print(f"⚠️ Errore rimozione PDF {pdf_path.name}: {exc}", flush=True)
+                continue
+
+            pdf_path = _rename_pdf_if_code_mismatch(pdf_path, school_code)
         
             if miur_data:
                 print(f"✅ {school_code}: {miur_data.get('denominazione', 'ND')[:50]}", flush=True)
@@ -613,7 +714,6 @@ while True:
         
             recognized_pdfs.append((pdf_path, school_code, miur_data))
         
-            analysis_path, status = get_analysis_status(school_code)
             
             # Controllo registro (basato su hash del PDF)
             is_done, skip_reason = is_already_analyzed(school_code, pdf_path, ANALYSIS_REGISTRY)
@@ -628,6 +728,11 @@ while True:
                 if school_code not in already_analyzed:
                     print(f"⏭️ {school_code}: Già analizzato (hash verificato)", flush=True)
                     already_analyzed.add(school_code)
+                
+                # Se il file è già analizzato ed è identico, è ridondante in inbox
+                # Spostalo in duplicates (o potremmo spostarlo in processed, ma processed è per output?)
+                # Meglio duplicates per pulire inbox
+                _move_to_duplicates(pdf_path)
                 continue
             
             # File modificato dall'ultima analisi
@@ -644,12 +749,21 @@ while True:
         
             if school_code in process_pdfs:
                 kept = choose_preferred_pdf(process_pdfs[school_code][0], pdf_path)
+                
+                discarded_pdf = None
                 if kept == pdf_path:
+                    # Il nuovo file vince, scarto il precedente
                     print(f"⚠️ Duplicato {school_code}: tengo {pdf_path.name}, scarto {process_pdfs[school_code][0].name}", flush=True)
+                    discarded_pdf = process_pdfs[school_code][0]
                     priority_value, priority_label = get_priority(status, skip_reason)
                     process_pdfs[school_code] = (pdf_path, school_code, miur_data, priority_value, priority_label)
                 else:
+                    # Vince il vecchio, scarto il nuovo
                     print(f"⚠️ Duplicato {school_code}: tengo {process_pdfs[school_code][0].name}, scarto {pdf_path.name}", flush=True)
+                    discarded_pdf = pdf_path
+                
+                if discarded_pdf:
+                    _move_to_duplicates(discarded_pdf)
                 continue
         
             priority_value, priority_label = get_priority(status, skip_reason)

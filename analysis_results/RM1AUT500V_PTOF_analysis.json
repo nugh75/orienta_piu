@@ -1,0 +1,371 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1AUT500V",
+    "denominazione": "Scuola Cattolica",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2016-2019",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cola Di Rienzo 140",
+    "cap": "00192",
+    "email": "info@istitutoparini.it",
+    "pec": "scuolacattolicasrl@arubapec.it",
+    "website": "www.scuolacattolicaroma.com"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma l'orientamento è integrato in altre aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "ANINSEI",
+        "Confindustria",
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "IMG Cinema",
+        "Biblioteca Nazionale Marciana",
+        "Centro Donna del Comune di Venezia",
+        "Veneziacomix",
+        "Università Ca’ Foscari di Venezia",
+        "Istituto Dante Alighieri di Padova",
+        "G.A. COIN",
+        "ATHLON S",
+        "Venice canoe",
+        "Reyer Basket"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazione competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti di osservazione e certificazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sugli stili di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi terze",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Didattica ispirata alle intelligenze multiple",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi quarte",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza",
+      "target": "Studenti del secondo biennio"
+    },
+    {
+      "titolo_attivita": "Doppio diploma Italia – USA",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Percorso per ottenere diploma statunitense e italiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adotta un fossile",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Divulgazione area geopaleontologica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Cittadinanza digitale",
+      "descrizione_e_metodologia": "Sensibilizzazione uso responsabile tecnologie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceali a Ca’ Foscari",
+      "categoria_principale": "Orientamento universitario",
+      "descrizione_e_metodologia": "Frequenza corsi universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fare storia",
+      "categoria_principale": "Ricerca storica",
+      "descrizione_e_metodologia": "Ricerca storiografica storia locale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendisti ciceroni",
+      "categoria_principale": "Valorizzazione territorio",
+      "descrizione_e_metodologia": "Guide FAI",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di storia antica",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Visite Museo Archeologico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il patrimonio librario marciano",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Visite Biblioteca Marciana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Costruire l'identità femminile",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri con Centro Donna",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Saper vedere un film",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Proiezioni film didattici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Biennale Educational",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A lezione di Terremoto",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Prevenzione danni sismici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fondamenti di Primo Soccorso",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per la definizione dei PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "ASL e convenzioni",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Organizzazione ASL e convenzioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza e Costituzione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno insegnamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Partecipazione a bandi regionali/europei",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Griglie valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Adozione griglie specifiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Open Space condivisione",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Strutturazione aula studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano annuale inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PAI",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri scuole medie/docenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all’estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza all’estero per approfondire lingue straniere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Esami per certificazioni linguistiche (Quadro Comune Europeo)",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a competizioni sportive",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Atletica Leggera",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali",
+      "target": "Liceo dello sport"
+    },
+    {
+      "titolo_attivita": "Difesa Personale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Lezioni su violenza e tutela personale",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Conoscere Venezia Dall’Acqua",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Percorso in Dragon Boat",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Basket School",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Reyer Basket",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Rugby Educativo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in inglese",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Sport E Ambiente Naturale",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività in montagna",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Pady Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Rilascio brevetto subacqueo",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Italian Resuscitation Council",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Apprendimento procedure primo soccorso",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Attivita Motoria E Disabilita'",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assistenza motoria con diversamente abili",
+      "target": "Liceo dello sport"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Controllo e gestione classi scuola infanzia/primaria",
+      "target": "Liceo dello sport"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1AUT500V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Cattolica** di Roma, codice **RM1AUT500V**, per il periodo **2016-2019**. La scuola, di tipo **Infanzia**, opera in un contesto **metropolitano** e risulta essere **paritaria**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, questo è integrato in altre aree del PTOF, dimostrando un approccio diffuso alla tematica.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nCome evidenziato, il PTOF non prevede una sezione dedicata specificamente all'orientamento, ma l'integrazione in altre aree suggerisce una consapevolezza dell'importanza di questo aspetto.\n\n**2.2 Partnership:**\n\nUn punto di forza significativo è rappresentato dalle numerose **partnership** attivate dalla scuola. Ben **20 partner** sono stati identificati, tra cui **ANINSEI**, **Confindustria**, **Enti Locali**, diverse **università** come **Università Ca’ Foscari di Venezia** e **Istituto Dante Alighieri di Padova**, ma anche realtà del mondo del lavoro come **G.A. COIN** e **ATHLON S**, e istituzioni culturali come il **Museo di Storia Naturale di Verona**, il **FAI** e la **Biblioteca Nazionale Marciana**. Questa vasta rete di collaborazioni offre agli studenti opportunità di contatto con il mondo esterno e facilita l'orientamento verso percorsi formativi e professionali.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le **opportunità** offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF mostrano un'attenzione alla **continuità territoriale**, mentre risultano meno marcati gli interventi volti a ridurre l'**abbandono** scolastico o a contrastare il fenomeno dei **NEET**. L'obiettivo del **lifelong learning** è presente, ma con un punteggio di 3 su 5, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e un forte impegno nell'ambito dell'**inclusione e della fragilità**. Il **monitoraggio delle azioni** risulta essere l'aspetto meno sviluppato.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo di esperienze dirette degli studenti, sull'**interdisciplinarità** e, in misura minore, su approcci **laboratoriali** e sulla **flessibilità degli spazi e dei tempi**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali si concentra su ambiti **culturali** e **laboratoriali-espressivi**, mentre risultano meno sviluppate le proposte **ludico-ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** dell'orientamento e nell'impegno verso l'**inclusione** e la valorizzazione delle **capacità** di ogni studente. L'integrazione dell'orientamento in diverse aree del PTOF dimostra una visione olistica dell'educazione. Le attività registrate, come **Certificazione competenze** e **Alternanza scuola-lavoro**, supportano concretamente questi obiettivi.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano la mancanza di una sezione dedicata all'orientamento, la scarsa attenzione alla riduzione dell'**abbandono** scolastico e al contrasto del fenomeno dei **NEET**, e il limitato sviluppo del **monitoraggio delle azioni** intraprese. L'offerta di attività opzionali potrebbe essere ampliata per includere proposte più diversificate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, con la definizione di obiettivi specifici e misurabili, e con un monitoraggio costante dei risultati ottenuti. È auspicabile un maggiore coinvolgimento del territorio e delle aziende nella progettazione di percorsi formativi e professionali.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Cattolica** di Roma dimostra un impegno significativo verso l'orientamento, sebbene questo sia integrato in altre aree del piano. La vasta rete di **partnership** e l'attenzione all'**inclusione** rappresentano punti di forza importanti. Per migliorare l'efficacia dell'orientamento, è necessario strutturare un approccio più sistematico, definire obiettivi specifici e misurabili, e ampliare l'offerta di attività opzionali. Attività come **Liceali a Ca’ Foscari** e **Stage linguistici all’estero** sono esempi di iniziative che contribuiscono a un orientamento efficace."
+}

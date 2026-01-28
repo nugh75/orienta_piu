@@ -1,0 +1,177 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TP1A00600P",
+    "denominazione": "Scuola Materna Paritaria Giuseppe Fontana",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Buseto Palizzolo",
+    "anno_ptof": "2024-2027",
+    "provincia": "Trapani",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Palermo 48",
+    "cap": "91012",
+    "email": "maurizio.de.blasio@comune.trieste.it",
+    "pec": "sosc@legalmail.it",
+    "website": "www.comune.trieste.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in modo generico all'interno di altri paragrafi, come nella descrizione delle finalità educative e nell'ampliamento dell'offerta formativa."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "agenzie educative specializzate",
+        "Università di Trieste – Dipartimento Scienze Umanistiche (DISU)",
+        "Azienda per i Servizi Sanitari",
+        "Polizia Locale di Trieste",
+        "ditte di gestione del servizio mensa"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "Nessun riferimento esplicito",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite alle Biblioteche Civiche",
+      "categoria_principale": "Uscita Didattica",
+      "descrizione_e_metodologia": "Progetto 'Ci vediamo in Biblioteca!' per promuovere il piacere della lettura.",
+      "5w_chi": "Bambini delle scuole dell'infanzia",
+      "5w_cosa": "Visita guidata, laboratori di lettura",
+      "5w_dove": "Biblioteche Civiche di Trieste",
+      "5w_quando": "a.s. 2024/2025",
+      "5w_perche": "Potenziare il gusto per la lettura e lo sviluppo culturale.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Laboratori di Arte e Creatività",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Percorsi creativi per stimolare l'espressione artistica.",
+      "5w_chi": "Bambini delle scuole dell'infanzia",
+      "5w_cosa": "Attività pittoriche, scultoree, musicali",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "a.s. 2025/2026",
+      "5w_perche": "Sviluppare la creatività e l'immaginazione.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Crescere giocando con l’arte e la creatività",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Percorsi di Educazione Civica e Cinofila",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con animali per promuovere il rispetto e la responsabilità.",
+      "5w_chi": "Bambini delle scuole dell'infanzia",
+      "5w_cosa": "Interazione con cani addestrati, attività ludiche",
+      "5w_dove": "Scuole dell'infanzia e spazi esterni",
+      "5w_quando": "a.s. 2024/2025",
+      "5w_perche": "Promuovere il benessere animale e l'educazione alla cittadinanza.",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di educazione civica e cinofila e tutela del territorio",
+      "evidence_location": "Pagina 4"
+    }
+  ],
+  "narrative": "Il PTOF delle scuole dell'infanzia comunali di Trieste delinea un'offerta formativa diversificata e orientata all'innovazione pedagogica, con una significativa apertura verso il territorio. Le partnership consolidate con enti locali, istituzioni culturali e agenzie educative rappresentano un valore aggiunto, arricchendo l'esperienza educativa dei bambini. Tuttavia, l'assenza di una sezione specificamente dedicata all'orientamento scolastico costituisce una lacuna rilevante. Questa mancanza si traduce in una scarsa attenzione allo sviluppo delle competenze orientative degli alunni, limitando la loro capacità di affrontare consapevolmente le successive transizioni formative. Le finalità educative, pur ben definite, presentano un'attenzione marginale al progetto di vita e alle prospettive future degli studenti. Le attività proposte, quali visite alle biblioteche, laboratori artistici e percorsi di educazione civica, risultano interessanti ma non sufficientemente integrate con obiettivi orientativi espliciti. L'impegno per l'inclusione e la valorizzazione delle diversità è evidente, ma necessita di una maggiore strutturazione e di indicatori specifici per monitorare l'efficacia delle azioni intraprese. Sebbene il PTOF dimostri una buona maturità nell'offerta formativa, è necessario un maggiore focus sull'orientamento scolastico per garantire un percorso educativo completo e coerente, in grado di supportare i bambini nello sviluppo del loro potenziale e nella preparazione al futuro."
+}

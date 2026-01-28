@@ -59,6 +59,9 @@ try:
 except ImportError:
     HAS_FITZ = False
 
+# Import the full PTOFValidator from validation module
+from src.validation.ptof_validator import PTOFValidator
+
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -361,11 +364,11 @@ class DownloadState:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# VALIDATORE PTOF
+# VALIDATORE PTOF (Basic - legacy, kept for backward compatibility)
 # ═══════════════════════════════════════════════════════════════════
 
-class PTOFValidator:
-    """Valida che un PDF sia effettivamente un PTOF."""
+class PTOFBasicValidator:
+    """Validazione base PDF (legacy - usare PTOFValidator da ptof_validator.py)."""
     
     @staticmethod
     def validate_pdf_header(content: bytes) -> bool:
@@ -475,12 +478,19 @@ class PTOFValidator:
 class PTOFDownloader:
     """Downloader principale per i PTOF."""
     
-    def __init__(self, state: DownloadState, download_dir: Path):
+    def __init__(self, state: DownloadState, download_dir: Path, validation_config: Optional[Dict] = None):
         self.state = state
         self.download_dir = download_dir
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
-        self.validator = PTOFValidator()
+        
+        # Validation config
+        v_conf = validation_config or {}
+        self.validator = PTOFValidator(
+            ollama_url=None, # Use default or env
+            ollama_model=v_conf.get("model"),
+            timeout=v_conf.get("timeout", 60)
+        )
         self.stats = {
             "total": 0,
             "downloaded": 0,
@@ -906,22 +916,22 @@ Se non trovi il PDF, rispondi "NON TROVATO"."""
             
             # Verifica content-type o header PDF
             content = resp.content
-            if not self.validator.validate_pdf_header(content):
+            if not PTOFBasicValidator.validate_pdf_header(content):
                 return DownloadResult(False, "Non è un PDF")
-            
+
             # Verifica dimensione
             size = len(content)
-            size_ok, size_msg = self.validator.validate_size(size)
+            size_ok, size_msg = PTOFBasicValidator.validate_size(size)
             if not size_ok:
                 return DownloadResult(False, size_msg)
-            
+
             # Salva temporaneamente per validazione
             temp_path = self.download_dir / f".temp_{code}.pdf"
             with open(temp_path, 'wb') as f:
                 f.write(content)
-            
+
             # Valida contenuto PTOF
-            is_valid, score, reason = self.validator.is_valid_ptof(temp_path)
+            is_valid, score, reason = PTOFBasicValidator.is_valid_ptof(temp_path)
             
             if not is_valid:
                 temp_path.unlink()

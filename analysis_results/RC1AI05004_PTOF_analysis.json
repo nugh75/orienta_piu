@@ -1,0 +1,280 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RC1AI05004",
+    "denominazione": "Scuola Dell'Infanzia \"Girasole\"",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Bagnara Calabra",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Garibaldi 199",
+    "cap": "89011",
+    "email": "carmela.foti83@libero.it",
+    "pec": "girasolecoopera@pec.it",
+    "website": "https://liceoaprilia.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti Locali",
+        "ASL",
+        "Università",
+        "associazioni di categoria",
+        "imprese",
+        "IB Maragall Barcellona",
+        "Huntcliff school",
+        "Wasaskolan",
+        "Maerlant Atheneum",
+        "Colegio Sagrado Corazon",
+        "musei",
+        "istituti pubblici e privati"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l’orientamento",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Progetti di ampliamento offerta formativa",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Progetti per ampliare l'offerta formativa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Educativo Europeo Comenius “Heaven on Earth: leisure time activities”",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi tra scuole, mostre, visite, presentazioni in inglese.",
+      "target": "Docenti e alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Belgio",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali, visite guidate, presentazioni in inglese.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochi Kangarou della lingua inglese",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Partecipazione a competizioni linguistiche.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Partecipazione a “Per un pugno di libri”",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Partecipazione a trasmissione televisiva.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Scambio culturale Italia-Spagna",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali, visite guidate, presentazioni in inglese.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazioni linguistiche (DELE, DELF, Cambridge)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi in presenza da docenti in orario curricolare/extracurricolare",
+      "target": "Studenti liceo linguistico e altri"
+    },
+    {
+      "titolo_attivita": "Programma Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità per apprendimento del personale scolastico",
+      "target": "Docenti, DS, ATA"
+    },
+    {
+      "titolo_attivita": "Centro Sportivo Scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione attività motorie e sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Salute e benessere",
+      "descrizione_e_metodologia": "Incontri con specialisti (enti locali, nutrizionisti, psicologi)",
+      "target": "Studenti, personale scolastico, famiglie"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Attività per sviluppo rispetto diritti umani, tolleranza, solidarietà",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Integrazione curricolo con focus su Costituzione, sviluppo sostenibile, cittadinanza digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Presentazione offerta formativa",
+      "target": "Studenti scuola media"
+    },
+    {
+      "titolo_attivita": "Attività di informazione",
+      "categoria_principale": "Orientamento in entrata",
+      "descrizione_e_metodologia": "Docenti e alunni presentano offerta formativa",
+      "target": "Studenti scuola media"
+    },
+    {
+      "titolo_attivita": "Progetto One, two, tree!",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Messa a dimora di alberi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto sperimentale studenti-atleti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso formativo personalizzato (PFP) in collaborazione con società sportive.",
+      "target": "Studenti-atleti"
+    },
+    {
+      "titolo_attivita": "Mobilità studentesca",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Riconoscimento crediti formativi per esperienze all'estero.",
+      "target": "Studenti in mobilità"
+    },
+    {
+      "titolo_attivita": "Carriera Alias",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assegnazione identità provvisoria per studenti in transizione di genere.",
+      "target": "Studenti transgender"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi curricolari integrati, stage e tirocini formativi",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Progetti autogestiti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Proposta di progetti da parte degli studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite d'istruzione",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse storico, artistico, scientifico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione a spettacoli teatrali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Conferenze",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Cicli di conferenze con esperti esterni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite a musei",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a musei e centri culturali",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RC1AI05004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia \"Girasole\"** (RC1AI05004) per il triennio 2022-2025. La scuola, situata a **Bagnara Calabra** in **Calabria**, è una istituzione **paritaria** di ordine **Infanzia**. L'analisi si basa sui dati forniti, valutando l'impegno della scuola verso l'orientamento, le partnership attivate, gli obiettivi prefissati e le azioni messe in campo. Il PTOF dimostra una buona attenzione all'orientamento, con una sezione dedicata presente e un punteggio complessivo che riflette un impegno significativo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 7, indicando una chiara strutturazione e attenzione a questo aspetto.\n\n**2.2 Partnership:** La scuola ha sviluppato una rete di partnership diversificata, includendo **Enti Locali**, **ASL**, **Università**, **associazioni di categoria**, **imprese** e collaborazioni internazionali con istituzioni come **IB Maragall Barcellona**, **Huntcliff school**, **Wasaskolan**, **Maerlant Atheneum**, **Colegio Sagrado Corazon**, oltre a **musei** e **istituti pubblici e privati**. Il numero di partner nominati è pari a 5.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per l'attenzione alle **attitudini** (5), agli **interessi** (5), alla preparazione al **progetto di vita** (4), alle **transizioni formative** (5) e allo sviluppo delle **capacità orientative** per cogliere le **opportunità** (5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento si concentrano sulla riduzione dell'**abbandono** scolastico (4), sulla continuità con il **territorio** (4), sul contrasto al fenomeno **NEET** (4) e sulla promozione del **lifelong learning** (4).\n\n**2.5 Azioni di Sistema:** La scuola implementa azioni di sistema che includono il **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (6), il **rapporto scuola-genitori** (6), il **monitoraggio delle azioni** intraprese (6) e la creazione di un **sistema integrato di inclusione e gestione delle fragilità** (6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (5), sull'utilizzo di metodologie **laboratoriali** (3), sulla **flessibilità degli spazi e dei tempi** (5) e sull'approccio **interdisciplinare** (5).\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali** (4), **laboratoriali ed espressive** (4), **ludiche e ricreative** (4), di **volontariato** (4) e **sportive** (4).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella diversificazione delle partnership attivate, nella chiarezza delle finalità e degli obiettivi, e nell'implementazione di azioni di sistema coordinate. L'offerta di attività extracurricolari, come i progetti di ampliamento dell'offerta formativa e gli scambi culturali internazionali (**Progetto Educativo Europeo Comenius “Heaven on Earth: leisure time activities”**, **Scambio culturale Italia-Belgio**, **Scambio culturale Italia-Spagna**), arricchisce l'esperienza formativa degli studenti. L'attenzione all'inclusione, con iniziative come **Carriera Alias**, dimostra un impegno verso la valorizzazione della diversità.\n\n### 4. Aree di Debolezza\n\nUn'area di miglioramento riguarda la didattica orientativa, in particolare l'utilizzo delle metodologie laboratoriali che ottiene un punteggio inferiore rispetto alle altre dimensioni. Potrebbe essere utile potenziare le attività pratiche e sperimentali per favorire un apprendimento più attivo e coinvolgente.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare l'aspetto laboratoriale della didattica orientativa. Sebbene la scuola offra una vasta gamma di attività, l'integrazione di esperienze pratiche e concrete potrebbe aumentare l'efficacia dell'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia \"Girasole\"** dimostra un impegno significativo verso l'orientamento, con una solida base di finalità, obiettivi e azioni. La rete di partnership, l'offerta di attività extracurricolari e l'attenzione all'inclusione rappresentano punti di forza. Il potenziamento della didattica laboratoriale potrebbe contribuire a colmare eventuali gap e a migliorare ulteriormente l'efficacia dell'orientamento offerto agli studenti. Attività come il **PCTO**, i **Corsi di preparazione per certificazioni linguistiche**, il **Programma Erasmus+** e l' **Educazione civica** sono elementi chiave per la crescita degli studenti."
+}

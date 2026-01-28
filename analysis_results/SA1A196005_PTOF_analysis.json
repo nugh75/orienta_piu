@@ -1,0 +1,285 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SA1A196005",
+    "denominazione": "La Bottega Di Mastro Ciliegia",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Nocera Inferiore",
+    "anno_ptof": "2025-2028",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Atzori N. 116",
+    "cap": "84014",
+    "email": "ND",
+    "pec": "katia.mascolo@postecert.it",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Nonostante la presenza di diverse attività di orientamento, manca una sezione strutturata e dedicata specificamente all'orientamento con un capitolo o una struttura dedicata."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Ex-allievi",
+        "Salesiani Cooperatori",
+        "Villa della Regina",
+        "Università di Torino",
+        "Politecnico di Torino",
+        "AVIS",
+        "Fondazione Telethon",
+        "CNOS Scuola",
+        "FIDAE",
+        "Parrocchie della zona collinare",
+        "Comunità religiose"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Ulisse",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing, attività pratiche e progetti concreti.",
+      "target": "Studenti IV e V ginnasio"
+    },
+    {
+      "titolo_attivita": "Laboratorio di scrittura",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche e argomentative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Espressione corporea e comunicazione verbale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Modulo di dibattito pubblico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo pensiero critico e capacità argomentative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Modulo di Archeologia",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing, valorizzazione patrimonio culturale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Palestra scopri-Talento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di scoperta talenti",
+      "target": "Studenti 3° anno"
+    },
+    {
+      "titolo_attivita": "Come orizzonte il mondo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze",
+      "target": "Tutti gli anni"
+    },
+    {
+      "titolo_attivita": "Web Radio",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Produzione contenuti radiofonici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Modulo di Archeologia",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Collaborazione con Villa della Regina, progetto Ciceroni per un giorno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli CLIL",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Dedicate al mondo dell’arte",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Primo Soccorso",
+      "categoria_principale": "Competenze di vita",
+      "descrizione_e_metodologia": "Formazione pratica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni di scienze in laboratorio",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Integrazione percorso umanistico con dimensione sperimentale",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Palestra delle scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Incontri sperimentali su tematiche biologiche",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Palestra della matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Preparazione gare matematica, Giochi di Archimede",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano di INCLUSIONE",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto studenti con BES, PDP, GLHO",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Doposcuola /Studio Guidato",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Studio assistito, tutoraggio",
+      "target": "Studenti biennio"
+    },
+    {
+      "titolo_attivita": "Educazione ai corretti stili di vita",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Prevenzione fumo, alcol, tossicodipendenze, alimentazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto studenti atleti di alto livello",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Personalizzazione percorso formativo",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "ValsalicEstate",
+      "categoria_principale": "Attività estive",
+      "descrizione_e_metodologia": "Tre settimane di attività estive per ragazzi dalle elementari alle medie, con uscite e supporto compiti.",
+      "target": "Studenti elementari e medie"
+    },
+    {
+      "titolo_attivita": "Banco alimentare",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Partecipazione alla giornata nazionale della Colletta alimentare con corso preparatorio.",
+      "target": "Studenti liceali"
+    },
+    {
+      "titolo_attivita": "Animazione presso Casa di riposo",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Servizio di volontariato presso la casa di riposo Opera Pia Lotteri.",
+      "target": "Studenti liceali"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione e animazione",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Servizio di volontariato presso l'Oratorio salesiano San Luigi e Oratorio di Valdocco.",
+      "target": "Studenti liceali"
+    },
+    {
+      "titolo_attivita": "Donazione del sangue",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Possibilità di donare il sangue presso l'emoteca scolastica.",
+      "target": "Studenti maggiorenni, residenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto competenze multilinguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, preparazione TOEFL/IELTS, Vacanze Studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di fisica",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Progetti scientifici, costruzione macchine radiocomandate, arpa laser",
+      "target": "Studenti triennio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SA1A196005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **La Bottega Di Mastro Ciliegia**, istituto di grado **Infanzia** situato a **Nocera Inferiore** (Salerno), in **Campania**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le **partnership** attivate, le **finalità** perseguite, gli **obiettivi** stabiliti, le **azioni** implementate, l'approccio **didattico** adottato e l'offerta di attività **opzionali** e facoltative. Il PTOF in esame, relativo all'anno **2025-2028**, si configura come paritario e opera in un contesto territoriale non metropolitano.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante l'impegno profuso, il PTOF presenta una lacuna nella strutturazione di una sezione specificamente dedicata all'orientamento, con un capitolo o una struttura dedicata. Questo aspetto rappresenta un'area di miglioramento per una maggiore chiarezza e coerenza del piano.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di **partnership**, con ben 11 collaborazioni attivate. Tra i partner figurano **Ex-allievi**, **Salesiani Cooperatori**, **Villa della Regina**, **Università di Torino**, **Politecnico di Torino**, **AVIS**, **Fondazione Telethon**, **CNOS Scuola**, **FIDAE**, **Parrocchie della zona collinare** e **Comunità religiose**. Questa rete di relazioni rappresenta un valore aggiunto per l'offerta formativa e l'orientamento degli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (5), **interessi** (5) e per la progettazione del **progetto di vita** (6). Buona anche l'attenzione alle **capacità orientative** e alle opportunità (5), mentre le **transizioni formative** risultano meno sviluppate (3).\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF mostrano una forte attenzione alla **continuità territoriale** (6), mentre la riduzione dell'**abbandono** scolastico (1) e il contrasto al fenomeno **NEET** (1) necessitano di maggiore attenzione. L'obiettivo di promuovere il **lifelong learning** (4) è considerato adeguato.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi** (4), sul **dialogo tra docenti e studenti** (5) e sul **rapporto scuola-genitori** (5). Il **monitoraggio delle azioni** (1) e l'integrazione con i sistemi di **inclusione e fragilità** (3) appaiono meno strutturati.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico si basa sull'apprendimento dall'**esperienza degli studenti** (5), sull'utilizzo di **laboratori** (4), sulla **flessibilità degli spazi e dei tempi** (4) e sull'**interdisciplinarità** (4).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività **opzionali** è diversificata e comprende proposte **culturali** (5), **laboratoriali ed espressive** (5), **ludiche e ricreative** (4), di **volontariato** (6) e **sportive** (4).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella ricchezza delle **partnership** attivate, nella chiarezza delle **finalità** orientative e nella varietà dell'offerta di attività **opzionali**. L'impegno per lo sviluppo del **progetto di vita** degli studenti e la promozione del **volontariato** rappresentano elementi distintivi. L'utilizzo di metodologie didattiche basate sull'esperienza e sulla **laboratorialità** favorisce un apprendimento attivo e coinvolgente.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione strutturata e dedicata all'orientamento all'interno del PTOF. Inoltre, gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno **NEET** necessitano di maggiore attenzione e di azioni concrete. Il **monitoraggio delle azioni** implementate e l'integrazione con i sistemi di **inclusione** appaiono poco sviluppati.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare una sezione dedicata all'orientamento nel PTOF, definendo obiettivi specifici, azioni mirate e indicatori di monitoraggio. È inoltre necessario rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a favorire l'inserimento nel mondo del lavoro, anche attraverso un maggiore coinvolgimento dei **partner** e delle risorse territoriali.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **La Bottega Di Mastro Ciliegia** presenta un buon livello di attenzione all'orientamento, con una solida base di **partnership** e una varietà di attività proposte. Tuttavia, per raggiungere una maggiore efficacia, è necessario strutturare una sezione dedicata all'orientamento, definire obiettivi specifici e misurabili e rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a favorire l'inserimento nel mondo del lavoro. Attività come **Progetto Ulisse**, **Palestra scopri-Talento** e **Come orizzonte il mondo** rappresentano esempi di buone pratiche che possono essere ulteriormente sviluppate e integrate nel PTOF."
+}

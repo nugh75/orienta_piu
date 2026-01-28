@@ -1013,7 +1013,7 @@ with tab_mappa:
                 color='Media', color_continuous_scale='RdYlGn',
                 range_x=[1, 7], range_color=[1, 7],
                 text='N. Scuole',
-                title="IndiceIDPOMedio per Tipologia Scolastica"
+                title="IndiceIIPOMedio per Tipologia Scolastica"
             )
             fig_tipo_bar.update_traces(texttemplate='n=%{text}', textposition='outside')
             fig_tipo_bar.update_layout(height=350)
@@ -1047,7 +1047,7 @@ with tab_mappa:
                 df_macro, x='macro_area', y=INDEX_COL,
                 color='macro_area',
                 color_discrete_map={'Nord': '#3498db', 'Sud': '#e74c3c'},
-                title="Distribuzione IndiceIDPOper Macro-Area",
+                title="Distribuzione IndiceIIPOper Macro-Area",
                 labels={'macro_area': 'Macro-Area', INDEX_COL: 'IIPO'},
                 points='all'
             )
@@ -1135,7 +1135,7 @@ with tab_mappa:
                 fig_box_area = px.box(
                     df_area, x='area_geografica', y=INDEX_COL,
                     color='area_geografica',
-                    title="Distribuzione IndiceIDPOper Area Geografica",
+                    title="Distribuzione IndiceIIPOper Area Geografica",
                     labels={'area_geografica': 'Area', INDEX_COL: 'IIPO'},
                     points='all',
                     category_orders={"area_geografica": ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]}
@@ -1264,7 +1264,7 @@ with tab_mappa:
                     df_territorio, x='territorio', y=INDEX_COL,
                     color='territorio',
                     color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                    title="Distribuzione IndiceIDPOper Territorio",
+                    title="Distribuzione IndiceIIPOper Territorio",
                     labels={'territorio': 'Territorio', INDEX_COL: 'IIPO'},
                     points='all'
                 )
@@ -1364,7 +1364,7 @@ with tab_mappa:
 
     # === 3c. ANALISI PER REGIONE E TERRITORIO ===
     st.subheader("📊 Analisi per Regione e Territorio")
-    st.caption("Confronto dell'IndiceIDPOper regione, suddiviso per area metropolitana e non metropolitana")
+    st.caption("Confronto dell'IndiceIIPOper regione, suddiviso per area metropolitana e non metropolitana")
 
     if 'territorio' in df_valid.columns:
         df_reg_terr = df_valid[
@@ -1391,8 +1391,8 @@ with tab_mappa:
                     x='regione', y='Media', color='territorio',
                     barmode='group',
                     color_discrete_map={'Metropolitano': '#9b59b6', 'Non Metropolitano': '#27ae60'},
-                    title="IndiceIDPOMedio per Regione e Territorio",
-                    labels={'regione': 'Regione', 'Media': 'IndiceIDPOMedio', 'territorio': 'Territorio'},
+                    title="IndiceIIPOMedio per Regione e Territorio",
+                    labels={'regione': 'Regione', 'Media': 'IndiceIIPOMedio', 'territorio': 'Territorio'},
                     text='N'
                 )
                 fig_grouped.update_traces(texttemplate='n=%{text}', textposition='outside')
@@ -1480,7 +1480,7 @@ with tab_mappa:
     st.info("""
 💡 **A cosa serve**: Analizza per ogni regione le differenze tra scuole in area metropolitana e non metropolitana.
 
-🔍 **Cosa rileva**: L'heatmap mostra la media dell'indiceIDPOper ogni combinazione regione-territorio. La tabella calcola Cohen's d e p-value per ogni regione che ha entrambi i tipi di territorio.
+🔍 **Cosa rileva**: L'heatmap mostra la media dell'indiceIIPOper ogni combinazione regione-territorio. La tabella calcola Cohen's d e p-value per ogni regione che ha entrambi i tipi di territorio.
 
 🎯 **Implicazioni**: Identifica regioni dove la differenza metropolitano/non-metropolitano è più marcata. Alcune regioni potrebbero non mostrare disparità, altre sì. Utile per interventi territoriali mirati.
 """)
@@ -1783,7 +1783,7 @@ with tab_confronti:
         if not pivot.empty:
             fig = px.imshow(
                 pivot, text_auto='.2f', color_continuous_scale='RdBu',
-                zmin=1, zmax=7, title="IndiceIDPOMedio per Tipo e Area"
+                zmin=1, zmax=7, title="IndiceIIPOMedio per Tipo e Area"
             )
             st.plotly_chart(fig, use_container_width=True)
 
@@ -2301,19 +2301,19 @@ with tab_confronti:
             region_avg = df_region_norm[df_region_norm['regione'].notna()].groupby('regione')[
                 'score_norm'
             ].agg(['mean', 'count']).reset_index()
-            region_avg.columns = ['Regione', 'IndiceIDPONormalizzato', 'N. Scuole']
+            region_avg.columns = ['Regione', 'IndiceIIPONormalizzato', 'N. Scuole']
 
             if len(region_avg) >= 3:
                 fig = px.bar(
-                    region_avg.sort_values('IndiceIDPONormalizzato'),
-                    x='IndiceIDPONormalizzato',
+                    region_avg.sort_values('IndiceIIPONormalizzato'),
+                    x='IndiceIIPONormalizzato',
                     y='Regione',
                     orientation='h',
-                    color='IndiceIDPONormalizzato',
+                    color='IndiceIIPONormalizzato',
                     color_continuous_scale='RdYlGn',
                     range_color=[1, 7],
                     text='N. Scuole',
-                    title="IndiceIDPONormalizzato per Regione"
+                    title="IndiceIIPONormalizzato per Regione"
                 )
                 fig.update_traces(texttemplate='n=%{text}', textposition='outside')
                 st.plotly_chart(fig, use_container_width=True)
@@ -2410,7 +2410,7 @@ with tab_report:
                 mean_ro = df_region[INDEX_COL].mean()
                 national_mean = df_national[INDEX_COL].mean()
                 delta = mean_ro - national_mean
-                st.metric("📊 IndiceIDPOMedio", f"{mean_ro:.2f}",
+                st.metric("📊 IndiceIIPOMedio", f"{mean_ro:.2f}",
                           delta=f"{delta:+.2f} vs nazionale",
                           delta_color="normal" if delta >= 0 else "inverse")
 
@@ -2520,7 +2520,7 @@ with tab_report:
                                 tipo_stats.sort_values('Media', ascending=True),
                                 x='Media', y='Tipologia', orientation='h',
                                 color='Media', color_continuous_scale='RdYlGn',
-                                range_x=[1, 7], title="IndiceIDPOper Tipologia"
+                                range_x=[1, 7], title="IndiceIIPOper Tipologia"
                             )
                             st.plotly_chart(fig_tipo, use_container_width=True)
 
@@ -2654,7 +2654,7 @@ with tab_report:
                     with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
                         df_region.to_excel(writer, sheet_name='Dati', index=False)
                         summary_data = {
-                            'Metrica': ['N. Scuole', 'IndiceIDPOMedio', 'Dev. Standard', '% nel Top 30% Nazionale',
+                            'Metrica': ['N. Scuole', 'IndiceIIPOMedio', 'Dev. Standard', '% nel Top 30% Nazionale',
                                         'Migliore Scuola', 'Scuola da Supportare'],
                             'Valore': [
                                 len(df_region),
@@ -2685,7 +2685,7 @@ REPORT REGIONALE - {selected_region}
 
 STATISTICHE CHIAVE
 - Scuole analizzate: {len(df_region)}
-- IndiceIDPOmedio: {mean_ro:.2f}
+- IndiceIIPOmedio: {mean_ro:.2f}
 - Deviazione standard: {std_ro:.2f}
 - % scuole nel top 30% nazionale: {pct_top:.1f}%
 
@@ -2744,7 +2744,7 @@ CONFRONTO CON MEDIA NAZIONALE
                     x='regione',
                     y=INDEX_COL,
                     color='regione',
-                    title="Distribuzione IndiceIDPOper Regione"
+                    title="Distribuzione IndiceIIPOper Regione"
                 )
                 fig_box.update_layout(showlegend=False, yaxis_range=[1, 7])
                 st.plotly_chart(fig_box, use_container_width=True)

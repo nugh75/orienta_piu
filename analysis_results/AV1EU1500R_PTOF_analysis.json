@@ -1,0 +1,207 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AV1EU1500R",
+    "denominazione": "Conservatorio Maria Ss. Addolorata",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Solofra",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Regina Margherita 64",
+    "cap": "83029",
+    "email": "lernie1970@virgilio.it",
+    "pec": "conservatorio.addolorata@maxipec.it",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 0
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lingua Italiana",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con l'ausilio di tecnologie, mediazione dei genitori",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AV1EU1500R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) del **Conservatorio Maria Ss. Addolorata** di Solofra (AV1EU1500R), relativo agli anni scolastici 2022/2023 – 2023/2024 – 2024/2025. La scuola, di ordine e grado primario, opera in un contesto territoriale non metropolitano della regione Campania ed è riconosciuta come paritaria. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'offerta didattica orientativa e le attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, come evidenziato dal punteggio pari a zero.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione esterna, con un punteggio di 3 e la presenza di cinque partner significativi: **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. Queste collaborazioni suggeriscono un'apertura verso il territorio e la volontà di arricchire l'offerta formativa.\n\n**2.3 Finalità:** Le finalità del PTOF, in termini di sviluppo di attitudini e interessi degli studenti, ricevono un punteggio di 3, indicando un'attenzione a questi aspetti. Tuttavia, le finalità legate al **progetto di vita** e alle **transizioni formative** sono meno sviluppate, con un punteggio di 1 per ciascuna. L'attenzione allo sviluppo delle capacità orientative per cogliere le opportunità risulta assente, con un punteggio pari a zero.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning, tutti con un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema mostrano un buon impegno nel rapporto scuola-genitori (punteggio 3) e nel sistema integrato di inclusione e fragilità (punteggio 3). Il coordinamento dei servizi e il dialogo tra docenti e studenti ricevono un punteggio di 2, mentre il monitoraggio delle azioni è meno strutturato (punteggio 1).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa principalmente sull'apprendimento dall'esperienza degli studenti (punteggio 4), con un buon livello di flessibilità degli spazi e dei tempi (punteggio 3) e di interdisciplinarità (punteggio 3). L'utilizzo di metodologie laboratoriali è presente, ma con un punteggio inferiore (2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con un punteggio di 2 per le attività laboratoriali espressive e ludico-ricreative. Le opzionali culturali, di volontariato e sportive ricevono un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella collaborazione con partner esterni, nell'attenzione allo sviluppo di attitudini e interessi degli studenti, nel rapporto scuola-genitori e nell'inclusione. La didattica orientativa, basata sull'esperienza e sulla flessibilità, rappresenta un altro elemento positivo. L'offerta di laboratori diversificati, come quello di **Coding** con **Docendum**, di **Musica in movimento**, di **Scienze**, di **Educazione Motoria**, di **Pittura**, di **Lettura**, di **Lingua Cinese** e di **Educazione Alimentare** arricchisce l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. Le finalità legate al progetto di vita e alle transizioni formative sono poco sviluppate, così come le capacità orientative per cogliere le opportunità. Il monitoraggio delle azioni di sistema appare poco strutturato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e strutturata dell'orientamento, che dovrebbe essere integrata nel PTOF come elemento trasversale. È necessario potenziare le finalità legate al progetto di vita e alle transizioni formative, sviluppando azioni mirate per supportare gli studenti nella scelta del percorso futuro. Il monitoraggio delle azioni di sistema dovrebbe essere rafforzato per garantire l'efficacia degli interventi.\n\n### 6. Conclusioni\n\nIl PTOF del **Conservatorio Maria Ss. Addolorata** presenta elementi positivi, in particolare per quanto riguarda le partnership, il rapporto scuola-genitori e la didattica orientativa basata sull'esperienza. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la scarsa attenzione alle finalità legate al progetto di vita e alle transizioni formative rappresentano aree di miglioramento. L'implementazione di un approccio più strutturato all'orientamento, con azioni mirate e un monitoraggio efficace, contribuirebbe a rafforzare l'offerta formativa e a supportare gli studenti nel loro percorso di crescita. L'attività di valutazione tramite **Questionario di soddisfazione genitori** e **Questionario di gradimento personale** e l'utilizzo di metodologie di **LEAD (Legami Educativi a Distanza)** sono elementi validi per il miglioramento continuo."
+}

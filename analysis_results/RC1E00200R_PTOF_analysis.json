@@ -1,0 +1,318 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RC1E00200R",
+    "denominazione": "Scuola Elementare Giovanni Xxiii Cooperativa Sociale San Giovanni Paolo Ii",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Gioia Tauro",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Pio Xii N. 15",
+    "cap": "89013",
+    "email": "coopsgp2@gmail.com",
+    "pec": "coopsgp@pec.it",
+    "website": "www.istitutocattolicodellapiana.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano previste diverse attività di orientamento, manca una sezione dedicata e strutturata con un capitolo specifico all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Sive Formazione",
+        "Polo della Logistica",
+        "CFLI",
+        "Polo Industriale di Porto Marghera",
+        "Città Metropolitana",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "I.C. Goldoni",
+        "Agenzia delle Entrate",
+        "Enti Locali",
+        "Università",
+        "associazioni",
+        "ITS Marco Polo",
+        "VERSO",
+        "CTS",
+        "SISCUVE",
+        "ISII",
+        "ANACI",
+        "Rete M9",
+        "CPIA"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Virtual Shipping",
+      "categoria_principale": "Logistica",
+      "descrizione_e_metodologia": "Laboratorio interattivo virtuale di logistica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi della Città Metropolitana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Virtual Shipping - laboratorio Territoriale per l'Occupabilità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratorio interattivo virtuale di logistica con partnership territorio-scuola-impresa",
+      "target": "Studenti, imprese, università"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Logistica e Trasporti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratorio con software specifico a carattere nazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Moda e Design",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratorio con software specifico a carattere nazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aula di apprendimento innovativo ed inclusivo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo realtà aumentata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento tra i vari ordini di scuola",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con altri istituti del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontriamoci Dentro",
+      "categoria_principale": "Progetti Inclusione",
+      "descrizione_e_metodologia": "Percorsi in classe sulla realtà carceraria e prevenzione illegalità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Volontariato",
+      "categoria_principale": "Progetti Inclusione",
+      "descrizione_e_metodologia": "Testimonianze attività volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stesura PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Osservazione, segnalazione, stesura e sottoscrizione PEI",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Fisco & Scuola",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Incontri teorici e visite presso l'Agenzia delle Entrate",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cablaggio dell'istituto e diffusione nuove tecnologie",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Installazione fibra e banda ultra-larga",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Utilizzare le nuove tecnologie nella didattica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Adozione testi digitali e sviluppo competenze digitali",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Formazione e accompagnamento del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Animatore digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Simulimpresa",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Sviluppo competenze imprenditoriali tramite simulazione lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di L2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi per studenti stranieri neoarrivati",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Curriculum vitae classi quinte",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stesura CV seguendo indicazioni Europass",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Progetto inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontriamoci dentro al carcere, Servizio Civile",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Utilizzo software specifico per il Sistema Moda",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Workshop, Formazione di Scuola/Rete",
+      "target": "Docenti Triennio"
+    },
+    {
+      "titolo_attivita": "Meccatronica: simulatore ABS",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso approfondimento modalità intervento auto moderne",
+      "target": "Docenti settore autoriparazione"
+    },
+    {
+      "titolo_attivita": "Corso sull'utilizzo CAD-CAM",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso software dedicato, stampa 3D",
+      "target": "Docenti laboratorio odontotecnico"
+    },
+    {
+      "titolo_attivita": "La sicurezza nel posto di lavoro",
+      "categoria_principale": "Formazione Docenti/ATA",
+      "descrizione_e_metodologia": "Corsi primo soccorso, gestione emergenze, defibrillatore",
+      "target": "Tutti i docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Simulatore Impianti - condizionamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Simulazione impianti, norme CEI",
+      "target": "Docenti impegnati nelle innovazioni"
+    },
+    {
+      "titolo_attivita": "La rilevazione dei rischi e delle condizioni igienico-ambientali",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, Formazione di Scuola/Rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Stage in azienda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del territorio",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi a prevalente tematica inclusiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali integrate (classi aperte, laboratori, ecc.)",
+      "target": "Studenti con bisogni educativi speciali"
+    },
+    {
+      "titolo_attivita": "Rapporti con famiglie",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Incontri, colloqui, comunicazione costante",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni",
+      "target": "Studenti e comunità locale"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RC1E00200R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Elementare Giovanni Xxiii Cooperativa Sociale San Giovanni Paolo Ii** (RC1E00200R), per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di **Gioia Tauro** (Reggio Calabria), è una realtà **paritaria** che dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento, sulle partnership attivate e sulle attività registrate nel PTOF.\n\n### 2. Analisi Dimensionale\n\nLa presenza di una sezione dedicata all'orientamento è riconosciuta, sebbene con un punteggio di 3 su un possibile massimo, suggerendo la necessità di una strutturazione più esplicita e approfondita. L'aspetto delle **partnership** risulta particolarmente solido, con un punteggio di 4 e un elevato numero di collaborazioni attivate (20), tra cui **Sive Formazione**, **Polo della Logistica**, **CFLI**, **Polo Industriale di Porto Marghera**, **Città Metropolitana**, diverse **organizzazioni del terzo settore**, **imprese**, **I.C. Goldoni**, **Agenzia delle Entrate**, **Enti Locali**, **Università**, **associazioni**, **ITS Marco Polo**, **VERSO**, **CTS**, **SISCUVE**, **ISII**, **ANACI**, **Rete M9** e **CPIA**.\n\nLe finalità dell'orientamento, che comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità, ricevono un punteggio uniforme di 3, indicando un buon livello di attenzione ma anche la possibilità di definire obiettivi più specifici e misurabili. Gli obiettivi del PTOF, focalizzati sulla riduzione dell'**abbandono scolastico**, la continuità territoriale, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**, ottengono punteggi variabili tra 3 e 4, evidenziando una priorità per gli aspetti legati all'inserimento nel territorio e alla prevenzione della dispersione scolastica.\n\nLe azioni del sistema orientativo, che includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e fragilità, presentano punteggi tra 3 e 4, sottolineando l'importanza attribuita alla collaborazione e all'attenzione alle esigenze individuali. La didattica orientativa, basata sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare, ottiene punteggi di 3 e 4, dimostrando un impegno verso metodologie didattiche innovative e partecipative. Infine, le opzioni facoltative, che comprendono attività culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, ricevono un punteggio di 3, suggerendo la necessità di ampliare l'offerta e di promuovere una maggiore partecipazione degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate, che offre agli studenti numerose opportunità di contatto con il mondo del lavoro e di approfondimento delle proprie attitudini e interessi. L'impegno verso l'inclusione, evidenziato dalle azioni del sistema integrato e dai progetti dedicati agli studenti con bisogni educativi speciali, rappresenta un altro elemento positivo. L'offerta di attività pratiche, come i laboratori di **logistica**, **moda** e **design**, e l'utilizzo di nuove tecnologie, come la **realtà aumentata**, contribuiscono a rendere l'apprendimento più coinvolgente ed efficace.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Sebbene siano previste diverse attività, manca una visione strategica complessiva e una definizione chiara degli obiettivi e delle modalità di valutazione. Inoltre, alcuni aspetti delle finalità, degli obiettivi e delle opzioni facoltative potrebbero essere ulteriormente approfonditi e specificati.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di trasformare le attività di orientamento esistenti in un sistema coerente e integrato, con una sezione dedicata nel PTOF che ne definisca gli obiettivi, le strategie, le azioni e i criteri di valutazione. È necessario, inoltre, potenziare l'offerta di attività orientative, ampliando le opzioni facoltative e promuovendo una maggiore partecipazione degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Elementare Giovanni Xxiii Cooperativa Sociale San Giovanni Paolo Ii** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta di attività diversificata. Tuttavia, per raggiungere una maggiore efficacia, è necessario strutturare meglio la sezione dedicata all'orientamento, definendo obiettivi più specifici e misurabili e ampliando l'offerta di attività. Le attività registrate, come **Progetto Virtual Shipping**, **PCTO**, **Educazione alla salute**, **Virtual Shipping - laboratorio Territoriale per l'Occupabilità**, **Laboratorio di Logistica e Trasporti**, **Laboratorio di Moda e Design**, **Aula di apprendimento innovativo ed inclusivo**, **Percorsi di orientamento tra i vari ordini di scuola**, **Incontriamoci Dentro**, **Volontariato**, **Stesura PEI**, **Fisco & Scuola**, **Cablaggio dell'istituto e diffusione nuove tecnologie**, **Utilizzare le nuove tecnologie nella didattica**, **Formazione e accompagnamento del personale**, **Simulimpresa**, **Corsi di L2**, **Curriculum vitae classi quinte**, **Progetto inclusione**, **Utilizzo software specifico per il Sistema Moda**, **Meccatronica: simulatore ABS**, **Corso sull'utilizzo CAD-CAM**, **La sicurezza nel posto di lavoro**, **Simulatore Impianti - condizionamento**, **La rilevazione dei rischi e delle condizioni igienico-ambientali**, **Stage in azienda**, **Visite aziendali**, **Progetti didattico-educativi a prevalente tematica inclusiva**, **Rapporti con famiglie** e **Progetti territoriali integrati**, rappresentano un valido punto di partenza per lo sviluppo di un sistema orientativo efficace e innovativo."
+}

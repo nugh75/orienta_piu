@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, jsonify, request
+from flask import Blueprint, render_template, jsonify, request, send_file
 import pandas as pd
 import json
 import os
@@ -25,7 +25,7 @@ BASE_DIR = PROJECT_ROOT
 INBOX_DIR = BASE_DIR / "ptof_inbox"
 DISCARDED_DIR = BASE_DIR / "ptof_discarded"
 LOG_FILE = BASE_DIR / "logs" / "workflow.log"
-PID_FILE = BASE_DIR / "workflow.pid"
+PID_FILE = BASE_DIR / "logs" / "workflow.pid"
 
 # Ollama config from .env
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://192.168.129.14:11434")
@@ -114,12 +114,21 @@ def index():
     """Render the Strata Cycle dashboard."""
     return render_template('strata.html')
 
+@strata_bp.route('/strata/logs/download')
+def download_logs():
+    """Download the full workflow log."""
+    if LOG_FILE.exists():
+        return send_file(LOG_FILE, as_attachment=True, download_name="workflow_full.log")
+    return jsonify({"error": "Log file not found"}), 404
+
 @strata_bp.route('/strata/status')
 def status():
     """Get real-time status and metrics."""
-    pid = get_running_pid()
+    pid_result = get_running_pid()
+    # get_running_pid now returns (pid, pgid) tuple or None
+    pid = pid_result[0] if pid_result else None
     running = pid is not None
-    
+
     # Fallback: If PID check fails, check if log file was modified recently
     # This handles the case where `make` exits but the Python script continues
     if not running and LOG_FILE.exists():
@@ -139,7 +148,7 @@ def status():
         registry = load_registry()
         analyzed_files = registry.get("analyzed_files", {})
         processed_count = len(analyzed_files)
-        
+            
         discarded_count = 0
         for r, d, f in os.walk(DISCARDED_DIR):
             for file in f:
@@ -173,16 +182,16 @@ def status():
         if cva_csv.exists():
             try:
                 with open(cva_csv, "r", encoding="utf-8") as f: # Use text mode
-                     # Count non-empty strings, minus header
-                     lines = [line for line in f if line.strip()]
-                     activities_count = max(0, len(lines) - 1)
+                        # Count non-empty strings, minus header
+                        lines = [line for line in f if line.strip()]
+                        activities_count = max(0, len(lines) - 1)
             except:
-                 pass
-                 
+                    pass
+                    
         # Recent Files
         recent = []
         
-        # 1. Load from main analysis registry
+        # 1. Load from main analysis registry ONLY
         if analyzed_files:
             for code, data in analyzed_files.items():
                 recent.append({
@@ -193,41 +202,9 @@ def status():
                     "source": "registry"
                 })
 
-        # 2. Load from strata cycle registry (real-time cycle progress)
-        cycle_reg_path = BASE_DIR / "data" / "strata_cycle_registry.jsonl"
-        if cycle_reg_path.exists():
-            try:
-                with open(cycle_reg_path, "r", encoding="utf-8") as f:
-                    for line in f:
-                        if not line.strip(): continue
-                        try:
-                            record = json.loads(line)
-                            # strata registry has: code, strato, timestamp, status, file_path
-                            recent.append({
-                                "code": record.get("code", "N/A"),
-                                "name": Path(record.get("file_path", "")).name if record.get("file_path") else "N/A",
-                                "date": record.get("timestamp", ""),
-                                "reviews": 0, # Strata registry doesn't track reviews count directly
-                                "source": "cycle",
-                                "status": record.get("status", "unknown")
-                            })
-                        except: pass
-            except: pass
-
-        # Sort and deduplicate
-        # Dedupe by code, keeping the most recent one
-        seen_codes = set()
-        unique_recent = []
-        
-        # Sort by date desc first
+        # Sort by date desc
         recent.sort(key=lambda x: x.get("date") or "", reverse=True)
-        
-        for item in recent:
-            if item["code"] not in seen_codes:
-                seen_codes.add(item["code"])
-                unique_recent.append(item)
-        
-        recent = unique_recent[:10] # Show top 10
+        recent = recent[:20] # Show top 20
 
         # Logs (Tail) + Current Step + Errors
         logs = ""
@@ -236,20 +213,23 @@ def status():
         if LOG_FILE.exists():
             try:
                 file_size = LOG_FILE.stat().st_size
-                read_size = min(file_size, 50000)  # Read more (50KB) for step parsing
+                read_size = min(file_size, 200000)  # Read more (200KB) for step parsing and display
                 with open(LOG_FILE, "r", encoding="utf-8", errors="ignore") as f:
                     if file_size > read_size:
                         f.seek(file_size - read_size)
                     content = f.read()
-                    lines = content.split('\n')
-                    logs = "\n".join(lines[-25:])
                     
+                    # Parse status from full content chunk
                     if running:
                         current_step = parse_log_for_current_step(content)
                         skipped_phases = parse_skipped_phases_from_logs(content)
                     else:
                         skipped_phases = {}
                     error_count = count_errors_in_log(content)
+                    
+                    # Return last 500 lines for display
+                    lines = content.split('\n')
+                    logs = "\n".join(lines[-500:])
             except:
                 logs = "Error reading logs."
 
@@ -301,6 +281,10 @@ def start():
         "seed": data.get("seed"),
         # Shared config
         "ollama_url": data.get("ollama_url"),
+        # Validation config
+        "validation_provider": data.get("validation_provider"),
+        "validation_model": data.get("validation_model"),
+        "validation_timeout": data.get("validation_timeout"),
         # Per-role provider+model
         "analyst_provider": data.get("analyst_provider"),
         "analyst_model": data.get("analyst_model"),

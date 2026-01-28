@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1E028004",
+    "denominazione": "Scuola Elem.Parit. Pio Xii",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Felice Bisleri 51",
+    "cap": "00133",
+    "email": "mercedpio12@hotmail.com",
+    "pec": "mercedariesssacramento@pec.it",
+    "website": "www.mercedpio12.com"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 0
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 0
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 0
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 0
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratorio con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Svolto in aula con docente del nucleo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici assegnati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Assegnato ad agenzia esterna.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare e al gusto",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri con pediatra e cuochi.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Verifiche e rendicontazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionari di soddisfazione genitori e personale, verbali colloqui.",
+      "target": "Genitori, Personale"
+    },
+    {
+      "titolo_attivita": "Legami Educativi a Distanza (LEAD)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di mail, audio, video, chat, piattaforme digitali, registro elettronico.",
+      "target": "Bambini, Famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1E028004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Elem.Parit. Pio Xii** (RM1E028004) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, di tipo **Primaria** e con status **Paritaria**, opera nel territorio **Metropolitano** del Comune di **Roma**, nella regione **Lazio**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'offerta didattica e le attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola dimostra un buon livello di collaborazione esterna, con un punteggio di 3 e la presenza di 5 partner significativi. Tra questi, spiccano **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. Queste collaborazioni suggeriscono un'apertura verso il territorio e la volontà di arricchire l'offerta formativa.\n\n**2.3 Finalità:** Le finalità del PTOF, in termini di attitudini e interessi degli studenti, ricevono un punteggio di 3, indicando una buona attenzione allo sviluppo personale. Tuttavia, l'attenzione al **progetto di vita** e alle **transizioni formative** risulta meno sviluppata, con punteggi pari a 1 e 0 rispettivamente. Anche le **capacità orientative** per cogliere le opportunità future appaiono marginali, con un punteggio di 1.\n\n**2.4 Obiettivi:** Il PTOF non sembra focalizzarsi su obiettivi specifici legati alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica (NEET) o al lifelong learning, come indicato dai punteggi pari a 0 per ciascuna di queste aree.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese a livello di sistema mostrano un impegno moderato. Il **coordinamento dei servizi** e il **dialogo tra docenti e studenti** ottengono un punteggio di 2, mentre il **rapporto scuola-genitori** è più curato, con un punteggio di 3. Il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità** risultano assenti, con punteggio pari a 0.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci diversificati. La didattica basata sull'esperienza degli studenti è presente in modo limitato (punteggio 1), mentre la **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi** sono ben sviluppate (punteggio 3 per entrambe). L'approccio **interdisciplinare** è meno marcato (punteggio 1).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è variegata. Le opzionali **culturali** e **ludiche-ricreative** ricevono un punteggio di 1, mentre le **laboratoriali-espressive** sono più presenti (punteggio 3). Le opzionali legate al **volontariato** e allo **sport** sono presenti in modo marginale (punteggio 1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di solide **partnership** con enti esterni, nell'attenzione allo sviluppo delle **attitudini** e degli **interessi** degli studenti, e nell'utilizzo di metodologie didattiche innovative come la **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi**. L'offerta di **laboratori** diversificati, tra cui **Coding**, **Musica**, **Scienze**, **Educazione Motoria**, **Pittura**, **Lettura**, **Lingue** (cinese) e **educazione alimentare**, rappresenta un valore aggiunto per l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano l'assenza di una sezione dedicata all'orientamento, la scarsa attenzione al **progetto di vita** e alle **transizioni formative** degli studenti, e la mancanza di obiettivi specifici per la riduzione dell'abbandono scolastico e il contrasto alla dispersione. Il **monitoraggio delle azioni** e la creazione di un sistema integrato per l'inclusione delle fragilità sono anch'essi assenti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e strutturata dell'orientamento, che dovrebbe essere integrata in tutte le dimensioni del PTOF. È necessario definire obiettivi specifici e misurabili, implementare azioni di monitoraggio e valutazione, e potenziare le finalità legate al **progetto di vita** e alle **transizioni formative** degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Elem.Parit. Pio Xii** presenta elementi positivi, in particolare per quanto riguarda le partnership e l'offerta didattica laboratoriale. Tuttavia, è necessario colmare le lacune nell'area dell'orientamento, definendo una strategia chiara e integrata che tenga conto delle esigenze degli studenti e del territorio. Un maggiore focus sul **progetto di vita**, sulle **transizioni formative** e sulla prevenzione dell'abbandono scolastico contribuirebbe a rendere il PTOF più completo ed efficace. L'attività **Legami Educativi a Distanza (LEAD)** e le **Verifiche e rendicontazione** rappresentano strumenti utili per il monitoraggio e la valutazione delle azioni intraprese."
+}

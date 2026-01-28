@@ -1,0 +1,226 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BTPLS4500L",
+    "denominazione": "Salesiano Sacri Cuori",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Barletta",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Barletta-Andria-Trani",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cavour 91",
+    "cap": "70051",
+    "email": "info@sacricuoribarletta.it",
+    "pec": "sacricuoribarletta@pec.it",
+    "website": "sacricuoribarletta.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Comune",
+        "Province",
+        "LUM",
+        "Cofra",
+        "BELLINO",
+        "ASL BAT"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sportello Pomeridiano",
+      "categoria_principale": "Supporto Didattico",
+      "descrizione_e_metodologia": "Consulenza pomeridiana per potenziamento, recupero o sostegno.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rappresentazioni Teatrali",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Partecipazione a spettacoli teatrali e proiezioni cinematografiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Formazione Linguistica",
+      "descrizione_e_metodologia": "Corsi pomeridiani per certificazioni Cambridge, Goethe, Dele.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Integration",
+      "categoria_principale": "Scambi Culturali",
+      "descrizione_e_metodologia": "Soggiorni linguistici all'estero.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Presentazione testo, ascolto guidato, riflessione linguistica, analisi testo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Comune di Barletta",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Formazione interna e affiancamento al personale comunale",
+      "target": "Alunni audiolesi"
+    },
+    {
+      "titolo_attivita": "Stage Aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in aziende locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza sul Lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri con esperti ASL",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Patente Europea del Computer (ECDL)",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Corsi diurni e pomeridiani",
+      "target": "Alunni, personale scolastico, adulti"
+    },
+    {
+      "titolo_attivita": "Stage presso Scuole di Inglese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Comunicazione in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione con la LUM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri in sede LUM e lezioni a scuola",
+      "target": "Studenti biennio e triennio"
+    },
+    {
+      "titolo_attivita": "Definizione dei PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento di figure specialistiche e famiglie.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi aperte e laboratori.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Piano per la Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Definizione di metodi e strumenti per DDI, orari, impegni docenti/studenti, sicurezza.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Utilizzo piattaforme Google Suite, Nuvola, Edmodo per DDI",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Associazioni di Volontariato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di volontariato per sensibilizzare gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto FAI",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Visite guidate e laboratori artistici",
+      "target": "Studenti del Liceo Linguistico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BTPLS4500L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Salesiano Sacri Cuori** (BTPLS4500L), un istituto paritario di secondo grado situato a Barletta, in Puglia. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Il PTOF, relativo all'anno scolastico 2019/20-2021/22, dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nNonostante la presenza di diverse attività orientative, il PTOF non prevede una sezione dedicata con un capitolo specifico, ottenendo un punteggio di 4. Questo suggerisce una frammentazione delle iniziative piuttosto che un approccio sistematico e integrato all'orientamento.\n\n**2.2 Partnership:**\n\nL'istituto ha stabilito partnership con diversi enti e istituzioni, tra cui il **Comune**, la **Provincia**, la **LUM**, **Cofra**, **BELLINO** e l'**ASL BAT**. Il numero di partnership attive è pari a 4, ottenendo un punteggio di 4. Queste collaborazioni rappresentano un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del **progetto di vita**, alla facilitazione delle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 3, indicando un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:**\n\nTra gli obiettivi stabiliti, si evidenzia un punteggio di 4 per la riduzione dell'**abbandono scolastico**. Gli obiettivi di garantire la continuità territoriale e di contrastare il fenomeno dei **NEET** ottengono un punteggio di 3, mentre quelli relativi al **lifelong learning** un punteggio di 2.\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede azioni di coordinamento tra i servizi, dialogo tra docenti e studenti, rapporto scuola-genitori e monitoraggio delle azioni intraprese, tutte con punteggio 4. Particolarmente rilevante è l'azione relativa al sistema integrato di inclusione e fragilità, che ottiene il punteggio massimo di 5.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico si basa sull'utilizzo di esperienze dirette degli studenti (punteggio 3), laboratori (punteggio 4), flessibilità degli spazi e dei tempi (punteggio 3) e didattica interdisciplinare (punteggio 3).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include opzioni culturali, laboratoriali ed espressive (punteggio 3), mentre quelle ludiche, ricreative, di volontariato e sportive ottengono un punteggio inferiore (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di un sistema integrato di inclusione e fragilità, nell'attenzione al coordinamento dei servizi e al dialogo tra i diversi attori coinvolti nel processo educativo. Le partnership attivate con enti locali e istituzioni universitarie ampliano l'offerta orientativa e offrono opportunità concrete agli studenti. L'impegno nella riduzione dell'abbandono scolastico è un elemento positivo. Attività come **PCTO presso Comune di Barletta**, **Stage Aziendali** e la **Convenzione con la LUM** sono particolarmente degne di nota.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. L'offerta di attività opzionali potrebbe essere diversificata e ampliata, in particolare per quanto riguarda le attività ludiche, ricreative, di volontariato e sportive. Gli obiettivi relativi al lifelong learning necessitano di maggiore attenzione e definizione.\n\n### 5. Gap Analysis\n\nIl principale gap risiede nella mancanza di una visione strategica e integrata dell'orientamento, che si riflette nell'assenza di una sezione dedicata nel PTOF. È necessario definire un piano d'azione specifico per l'orientamento, con obiettivi misurabili e indicatori di performance.\n\n### 6. Conclusioni\n\nIl PTOF del **Salesiano Sacri Cuori** dimostra un impegno verso l'orientamento, con diverse iniziative e partnership attivate. Tuttavia, per migliorare l'efficacia del sistema orientativo, è necessario definire una sezione dedicata all'interno del PTOF, diversificare l'offerta di attività opzionali e rafforzare gli obiettivi relativi al lifelong learning. L'istituto dovrebbe concentrarsi sulla creazione di un approccio sistematico e integrato all'orientamento, che coinvolga tutti gli attori coinvolti nel processo educativo e che sia in grado di rispondere alle esigenze specifiche degli studenti. Attività come il **Piano per la Didattica Digitale Integrata** e la **Definizione dei PEI** dimostrano una buona capacità di adattamento alle nuove sfide."
+}

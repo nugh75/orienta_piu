@@ -1,0 +1,176 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FIPS15500B",
+    "denominazione": "Calasanzio",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Empoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Firenze",
+    "regione": "Toscana",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Carrucci 23",
+    "cap": "50053",
+    "email": "scuola@calasanzioempoli.it",
+    "pec": "ND",
+    "website": "www.calasanzioempoli.com"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma solo menzioni sparse all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Municipio 7",
+        "Associazioni educative",
+        "Musicali",
+        "Sportive",
+        "Cooperative",
+        "Ats",
+        "Fondazione Don Carlo Gnocchi",
+        "Parrocchie",
+        "ATS",
+        "Università"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Ritorno a scuola",
+      "categoria_principale": "Contrasto alla dispersione scolastica",
+      "descrizione_e_metodologia": "Progetto contro la dispersione scolastica in convenzione con il Comune di Milano",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Mediando",
+      "categoria_principale": "Mediazione e riparazione",
+      "descrizione_e_metodologia": "Percorsi di mediazione, riparazione e sportello d'ascolto",
+      "target": "Alunni, genitori, insegnanti"
+    },
+    {
+      "titolo_attivita": "Arimo",
+      "categoria_principale": "Educazione alla legalità",
+      "descrizione_e_metodologia": "Educazione alla legalità e prevenzione della dispersione scolastica",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Artelier",
+      "categoria_principale": "Sostegno allo studio",
+      "descrizione_e_metodologia": "Spazio di aggregazione per il sostegno allo studio pomeridiano",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti S-Confini- Arimo A come accoglienza",
+      "target": "Alunni con bisogni speciali"
+    },
+    {
+      "titolo_attivita": "Percorsi di educazione all'affettività",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Percorsi dedicati",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di contrasto alla dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Seconda opportunità- RAS",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Scambi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività educative, formative e interculturali",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl PTOF dell'Ic S. Giuseppe Calasanzio per il triennio 2022-2025 evidenzia un impegno significativo verso l'orientamento, le partnership territoriali, la definizione di finalità educative chiare e l'implementazione di azioni sistemiche. L'analisi rivela una buona strutturazione degli obiettivi e delle attività, con particolare attenzione al contrasto alla dispersione scolastica e al supporto agli studenti. Tuttavia, l'assenza di una sezione dedicata all'orientamento e la genericità di alcune attività richiedono un approfondimento.\n\n## 2. Analisi Dimensionale\n\nLa sezione dedicata alle partnership (2.2) mostra un'ampia rete di collaborazioni con enti locali, associazioni e istituzioni universitarie, suggerendo una forte integrazione con il territorio. Le finalità educative (2.3) sono ben definite e mirano allo sviluppo delle attitudini, degli interessi, del progetto di vita e delle capacità orientative degli studenti. Le azioni sistemiche (2.5), in particolare il rapporto scuola-genitori, ricevono un punteggio elevato, indicando un'attenzione alla collaborazione con le famiglie. L'analisi della didattica orientativa (2.6) e delle opzionali (2.7) evidenzia un'offerta diversificata, sebbene con margini di miglioramento in termini di flessibilità e interdisciplinarità.\n\n## 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiarezza delle finalità educative, nella consolidata rete di partnership territoriali e nell'attenzione alla collaborazione con le famiglie. L'impegno nel contrasto alla dispersione scolastica e nel sostegno agli studenti con bisogni speciali è altresì degno di nota. La varietà delle attività proposte, sebbene non sempre dettagliate, dimostra una volontà di offrire un'offerta formativa completa e diversificata.\n\n## 4. Debolezze\n\nLa principale debolezza riscontrata è l'assenza di una sezione dedicata all'orientamento, nonostante la sua importanza strategica. Alcune attività, come i progetti con associazioni e cooperative, risultano poco definite e prive di una chiara connotazione didattica. Inoltre, la sezione relativa all'inclusione, pur presente nel documento originale, non è stata adeguatamente analizzata nel presente report.\n\n## 5. Gap Analysis\n\nSi evidenzia un gap tra l'importanza attribuita all'orientamento nelle finalità educative e la mancanza di una sua esplicita declinazione in azioni e progetti specifici. È necessario, pertanto, sviluppare un piano di orientamento più strutturato e integrato nel curriculum scolastico. Inoltre, è opportuno definire con maggiore precisione le attività di collaborazione con associazioni e cooperative, specificando gli obiettivi didattici e le metodologie utilizzate. Infine, è fondamentale completare l'analisi della sezione dedicata all'inclusione, al fine di valutare l'efficacia delle azioni intraprese a sostegno degli studenti con bisogni speciali.\n\n## 6. Conclusioni\n\nNel complesso, il PTOF dell'Ic S. Giuseppe Calasanzio rappresenta un documento valido e ben strutturato, che evidenzia un impegno significativo verso la qualità dell'offerta formativa e il benessere degli studenti. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune individuate, in particolare per quanto riguarda l'orientamento e la definizione delle attività di collaborazione con il territorio. Un'analisi più approfondita della sezione dedicata all'inclusione completerà il quadro e permetterà di definire strategie mirate a garantire il successo formativo di tutti gli studenti."
+}

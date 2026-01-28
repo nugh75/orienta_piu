@@ -1,0 +1,330 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TS1A03800V",
+    "denominazione": "Scuola Infanzia Paritaria Comunale Borgo Felice",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Trieste",
+    "anno_ptof": "2022-2025",
+    "provincia": "Trieste",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Panebianco N. 14",
+    "cap": "34100",
+    "email": "info@istitutoparini.it",
+    "pec": "comune.trieste@certgov.fvg.it",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Esplicita attenzione all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Enti Locali",
+        "Enti produttivi",
+        "Università",
+        "Associazioni di Categoria",
+        "Famiglie",
+        "musei",
+        "istituti pubblici e privati",
+        "Camera di Commercio",
+        "Ufficio Scolastico Provinciale",
+        "Province",
+        "Tecnici Federali",
+        "soggetti esterni",
+        "FAI",
+        "Comune di Venezia",
+        "Croce Verde di Mestre",
+        "UBIK",
+        "Area 11 Diving Center",
+        "SNS-Società Nazionale Salvamento",
+        "Centro Federale Sportler",
+        "CENTRO SPECIALIZZATO LAB",
+        "Centro Federale -Tennis Club Mestre",
+        "Musei Civici Venezia"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 7
+      },
+      "finalita_interessi": {
+        "score": 7
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 7
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 7
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO - Percorsi per le Competenze Trasversali e per l'Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti in collaborazione con enti locali"
+    },
+    {
+      "titolo_attivita": "Miglioramento preparazione prove INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Raccolta e gestione dati INVALSI"
+    },
+    {
+      "titolo_attivita": "Sviluppo competenze cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Unità didattiche dedicate"
+    },
+    {
+      "titolo_attivita": "Lavoriamo per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Implementazione unità didattiche competenze chiave"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro"
+    },
+    {
+      "titolo_attivita": "PCTO - Cultura e Ambiente",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite guidate, attività pratiche"
+    },
+    {
+      "titolo_attivita": "PCTO - Pedagogico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in comunità"
+    },
+    {
+      "titolo_attivita": "PCTO - Economia",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro"
+    },
+    {
+      "titolo_attivita": "PCTO - Sport",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività sportive"
+    },
+    {
+      "titolo_attivita": "Studio Guidato",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Supporto individuale"
+    },
+    {
+      "titolo_attivita": "Potenziamento Lingua Inglese",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di preparazione"
+    },
+    {
+      "titolo_attivita": "Parini PM",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Corsi opzionali"
+    },
+    {
+      "titolo_attivita": "Doppio diploma Italia – USA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di studio per ottenere diploma statunitense e italiano"
+    },
+    {
+      "titolo_attivita": "Sensibilizzazione sicurezza informatica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Promuovere tutela privacy e prevenire cyberbullismo"
+    },
+    {
+      "titolo_attivita": "Giornate FAI",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Valorizzazione patrimonio artistico locale"
+    },
+    {
+      "titolo_attivita": "Book Club",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura condivisa, incontri con esperti"
+    },
+    {
+      "titolo_attivita": "Liceo Dello Sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Collaborazione Umana Reyer Venezia"
+    },
+    {
+      "titolo_attivita": "Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Immersioni subacquee"
+    },
+    {
+      "titolo_attivita": "Basic Life Support",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "RCP e DAE"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività ludico-motoria"
+    },
+    {
+      "titolo_attivita": "Soccorritore Acquatico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Brevetto salvataggio"
+    },
+    {
+      "titolo_attivita": "Arrampicata Sportiva",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Arrampicata indoor"
+    },
+    {
+      "titolo_attivita": "Danza Aerea",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Tecniche sospensione"
+    },
+    {
+      "titolo_attivita": "Tennis",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tecnica e didattica"
+    },
+    {
+      "titolo_attivita": "Programma di sviluppo dei talenti individuali",
+      "categoria_principale": "Attività curricolari ed extracurricolari",
+      "descrizione_e_metodologia": "Attività progettate per ciascun asse culturale (linguaggi, matematico, scientifico-tecnologico, storico-sociale)"
+    },
+    {
+      "titolo_attivita": "Programma di self empowerment",
+      "categoria_principale": "Attività di inclusione",
+      "descrizione_e_metodologia": "Programmi per rinforzo sfera psicologica, emotiva e relazionale"
+    },
+    {
+      "titolo_attivita": "Interior Design",
+      "categoria_principale": "Arte/Design",
+      "descrizione_e_metodologia": "Progettazione interni, miglioramento fruibilità spazi"
+    },
+    {
+      "titolo_attivita": "Corso Di Fumetto",
+      "categoria_principale": "Arte/Comunicazione",
+      "descrizione_e_metodologia": "Narrazione per immagini, storyboard"
+    },
+    {
+      "titolo_attivita": "ICDL",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazione competenze digitali"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione attività sportive"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo “Atletica Leggera”",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo “Difesa Personale”",
+      "categoria_principale": "Sport/Cittadinanza",
+      "descrizione_e_metodologia": "Lezioni tutela persona"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo “Conoscere Venezia Dall’Acqua”",
+      "categoria_principale": "Sport/Cultura",
+      "descrizione_e_metodologia": "Dragon Boat, conoscenza Venezia"
+    },
+    {
+      "titolo_attivita": "Progetto Sportivo “Reyer School Cup”",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Gestione tecnico-tattica gioco di squadra"
+    },
+    {
+      "titolo_attivita": "PROGETTO SPORTIVO “Sport e ambiente naturale”",
+      "categoria_principale": "Sport/Ambiente",
+      "descrizione_e_metodologia": "Rafting, canoa, trekking"
+    },
+    {
+      "titolo_attivita": "Certificazioni Linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche"
+    },
+    {
+      "titolo_attivita": "Aggiornamento procedure registro elettronico AXIOS",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, formazione di scuola/rete"
+    },
+    {
+      "titolo_attivita": "La sicurezza nell’ambiente di lavoro",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, formazione di scuola/rete"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TS1A03800V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Paritaria Comunale Borgo Felice** (TS1A03800V) per il triennio 2022-2025. L'istituto, situato a **Trieste** in **Friuli-Venezia Giulia**, si configura come una realtà paritaria operante in un contesto territoriale non metropolitano. L'analisi si basa sui dati forniti, valutando l'impegno della scuola verso l'orientamento in termini di progettazione, partnership, obiettivi e azioni implementate. Il PTOF dimostra una chiara attenzione all'orientamento, con un punteggio complessivo di 7 nella sezione dedicata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta un'esplicita attenzione all'orientamento, come evidenziato dal punteggio di 7.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, ben 22, che includono **Enti Locali**, **Enti produttivi**, **Università**, **Associazioni di Categoria**, **Famiglie**, **musei**, **istituti pubblici e privati**, **Camera di Commercio**, **Ufficio Scolastico Provinciale**, **Province**, **Tecnici Federali**, **soggetti esterni**, **FAI**, **Comune di Venezia**, **Croce Verde di Mestre**, **UBIK**, **Area 11 Diving Center**, **SNS-Società Nazionale Salvamento**, **Centro Federale Sportler**, **CENTRO SPECIALIZZATO LAB**, **Centro Federale -Tennis Club Mestre** e **Musei Civici Venezia**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** degli studenti, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 7, indicando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico (punteggio 6), a garantire la continuità territoriale (punteggio 7), a contrastare il fenomeno dei **NEET** (punteggio 5), a promuovere il **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il coordinamento dei servizi (punteggio 5), il dialogo tra docenti e studenti (punteggio 7), il rapporto scuola-genitori (punteggio 5), il monitoraggio delle azioni (punteggio 5) e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 7), sulla flessibilità degli spazi e dei tempi (punteggio 7), sull'approccio interdisciplinare (punteggio 7), mentre l'utilizzo di metodologie laboratoriali risulta meno sviluppato (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali (punteggio 6), laboratoriali ed espressive (punteggio 6), ludiche e ricreative (punteggio 5), di volontariato (punteggio 5) e sportive (punteggio 6).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo del lavoro e del territorio. L'attenzione alla didattica basata sull'esperienza e sulla flessibilità, unitamente alla definizione chiara delle finalità orientative, costituiscono ulteriori elementi positivi. L'ampia gamma di attività proposte, tra cui **PCTO**, **visite guidate**, **corsi di lingua inglese** e **attività sportive**, arricchisce l'offerta formativa e contribuisce allo sviluppo delle competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella scarsa implementazione di metodologie didattiche laboratoriali. Inoltre, gli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** presentano un punteggio inferiore rispetto agli altri, suggerendo la necessità di un maggiore impegno in questi ambiti. Il coordinamento dei servizi e il rapporto scuola-genitori, pur presenti, potrebbero essere potenziati.\n\n### 5. Gap Analysis\n\nIl divario tra l'ampia rete di partnership e l'utilizzo limitato di metodologie laboratoriali indica la necessità di integrare maggiormente le risorse esterne all'interno delle attività didattiche. Un maggiore focus sugli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** potrebbe contribuire a garantire una preparazione più completa degli studenti per il futuro.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia Paritaria Comunale Borgo Felice** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una chiara definizione delle finalità e degli obiettivi. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per lo sviluppo di un'offerta orientativa efficace e in linea con le esigenze del territorio. L'implementazione di metodologie didattiche più innovative e un maggiore focus sugli obiettivi di contrasto al fenomeno **NEET** e di promozione del **lifelong learning** potrebbero ulteriormente migliorare l'efficacia del PTOF. Le attività come **PCTO - Percorsi per le Competenze Trasversali e per l'Orientamento**, **Alternanza scuola-lavoro** e il **Doppio diploma Italia – USA** rappresentano esempi concreti dell'impegno della scuola verso l'orientamento."
+}

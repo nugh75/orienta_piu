@@ -243,6 +243,31 @@ VARIABLE_OPTIONS = {
         "options": [],  # Saranno riempiti dinamicamente da API
         "allow_custom": False,
     },
+    "DIR": {
+        "label": "Directory target",
+        "options": ["", "ptof_inbox", "ptof_discarded", "ptof_discarded/not_ptof"],
+        "allow_custom": True,
+    },
+    "MOVE": {
+        "label": "Sposta file invalidi",
+        "options": ["", "Si", "No"],
+        "allow_custom": False,
+    },
+    "IGNORE_REGISTRY": {
+        "label": "Rivalida file già processati",
+        "options": ["", "No", "Si"],
+        "allow_custom": False,
+    },
+    "FORCE_LLM": {
+        "label": "Forza uso LLM (ignora euristica)",
+        "options": ["", "No", "Si"],
+        "allow_custom": False,
+    },
+    "CHECK_DUPLICATES": {
+        "label": "Controlla duplicati (hash)",
+        "options": ["", "Si", "No"],
+        "allow_custom": False,
+    },
 }
 
 
@@ -251,6 +276,14 @@ class CommandRegistry:
 
     # Comandi noti con metadati manuali
     COMMAND_METADATA = {
+        # Validazione
+        "validator": {
+            "display_name": "Valida PTOF (Batch)",
+            "category": "VALIDAZIONE PTOF",
+            "description": "Esegue la validazione euristica e LLM su una cartella di PDF. Sposta i file non validi in ptof_discarded.",
+            "variables": ["DIR", "MOVE", "IGNORE_REGISTRY", "FORCE_LLM", "CHECK_DUPLICATES"],
+            "is_long_running": True,
+        },
         # Download
         "strata-cycle": {
             "display_name": "Scarica PTOF Stratificato",
@@ -440,6 +473,14 @@ class CommandRegistry:
             "description": "Mostra quali file verrebbero eliminati senza cancellarli realmente.",
             "variables": [],
         },
+        "remove-duplicates": {
+            "display_name": "Rimuovi Duplicati",
+            "category": "MANUTENZIONE",
+            "description": "Scansiona inbox e processed per eliminare file identici (hash) e li sposta nel cestino.",
+            "variables": [],
+            "is_destructive": True,
+            "confirmation_required": False,
+        },
         # Git
         "git-auto": {
             "display_name": "Commit Automatico",
@@ -465,6 +506,7 @@ class CommandRegistry:
     # Ordine delle categorie per UI
     CATEGORY_ORDER = [
         "DOWNLOAD PTOF",
+        "VALIDAZIONE PTOF",
         "ANALISI",
         "CATALOGO ATTIVITA'",
         "REVISIONE",

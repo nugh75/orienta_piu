@@ -133,7 +133,7 @@ def load_data():
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
     
-    # Calcolo IDPO (Logica: >= 5/7 = Robusto, >= 4/7 = Parziale)
+    # Calcolo IIPO (Logica: >= 5/7 = Robusto, >= 4/7 = Parziale)
     if idx_col in df.columns:
         df['completeness_status'] = df[idx_col].apply(
             lambda x: 'Robusto' if x >= 5.0 else ('Parziale' if x >= 4.0 else 'Da rafforzare')
@@ -438,7 +438,7 @@ with info_cols[1]:
 with info_cols[2]:
     st.metric("Area", school_data.get('area_geografica', 'N/D'))
 with info_cols[3]:
-    st.metric("Indice IDPO", format_pct(idx), help="Indice di informatività delle pratiche di orientamento")
+    st.metric("Indice IIPO", format_pct(idx), help="Indice di informatività delle pratiche di orientamento")
 
 info_cols2 = st.columns(4)
 with info_cols2[0]:
@@ -459,7 +459,7 @@ with info_cols3[0]:
     # Use percentage instead of text status as requested
     idx_val = school_data.get(INDEX_COL, 0)
     pct_str = format_pct(idx_val)
-    st.metric("Stato IDPO", pct_str)
+    st.metric("Stato IIPO", pct_str)
 with info_cols3[1]:
     st.metric("Partnership", int(school_data.get('partnership_count', 0) or 0))
 
@@ -490,7 +490,7 @@ if has_contacts:
 st.info("""
 💡 **A cosa serve**: Fornisce una panoramica della scuola con i dati identificativi e il livello di completezza del PTOF sull'orientamento.
 
-🔍 **Cosa rileva**: L'**IDPO** (scala 1-7) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
+🔍 **Cosa rileva**: L'**IIPO** (scala 1-7) indica quanto il PTOF sia ricco di informazioni pertinenti. Un valore alto significa che il documento copre in modo esaustivo le dimensioni richieste.
 
 🎯 **Implicazioni**: Un valore vicino a 7 indica un documento ben strutturato. Valori bassi (vicini a 1) suggeriscono che mancano sezioni fondamentali o dettagli sulle attività di orientamento.
 """)
@@ -933,7 +933,7 @@ with tab_report:
             from datetime import datetime
             story.append(Spacer(1, 30))
             story.append(Paragraph(f"<i>Report generato il {datetime.now().strftime('%d/%m/%Y %H:%M')}</i>", normal_style))
-            story.append(Paragraph("<i>Dashboard PTOF - Analisi IDPO</i>", normal_style))
+            story.append(Paragraph("<i>Dashboard PTOF - Analisi IIPO</i>", normal_style))
 
             doc.build(story)
             buffer.seek(0)

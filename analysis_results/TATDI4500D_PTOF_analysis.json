@@ -1,0 +1,340 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TATDI4500D",
+    "denominazione": "Istituto Tecnico Informatica Plateja",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Taranto",
+    "anno_ptof": "2019-2022",
+    "provincia": "Taranto",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Lago Di Como 65",
+    "cap": "74121",
+    "email": "ND",
+    "pec": "istitutoplateja@arubapec.it",
+    "website": "www.moodlemarconipontedera.it​"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente, sebbene integrata in altre sezioni e non costituisca un capitolo a sé stante con una trattazione approfondita."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "enti pubblici",
+        "enti privati",
+        "Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa",
+        "aziende del territorio",
+        "Università",
+        "Associazione “LIBERA”",
+        "Parlamento",
+        "Cisco Systems",
+        "scuole medie",
+        "Ludoteca del Registro .it",
+        "CRED",
+        "Unione Valdera"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contatti con aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite, viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende e università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Stage/Tirocini",
+      "descrizione_e_metodologia": "Percorsi di ASL in contesti lavorativi per acquisire competenze pratiche.",
+      "target": "Studenti classi 3° e 4°"
+    },
+    {
+      "titolo_attivita": "Progetti di Robotica",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Collaborazione con l'Istituto di Biorobotica per attività laboratoriali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate agli enti autonomi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a Comune, Provincia, Regione, Parlamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Riflessioni e dibattiti su fatti storici",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Visione di film e dibattiti su Shoah, Foibe, Resistenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a iniziative Associazione LIBERA",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Partecipazione a eventi e progetti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conferenze su tematiche umanitarie",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Partecipazione a conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti d'Istituto, di Rete, PON",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Partecipazione a progetti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi Cisco Networking Academy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi CCNA, IT Essentials",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni ECDL",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami ECDL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni Lingua Inglese",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esami Trinity/Cambridge",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola aperta",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate a laboratori da studenti e docenti",
+      "target": "Genitori e ragazzi in visita"
+    },
+    {
+      "titolo_attivita": "Scuola aperta - Iscrizioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto genitori per iscrizioni online",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Orientamento interno - classi seconde",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Moduli su articolazioni del settore tecnologico",
+      "target": "Studenti classi seconde"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita - Università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Informazione, test, preiscrizioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita - Altre opportunità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Servizio civile, forze armate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi sulla comunicazione",
+      "categoria_principale": "Counseling",
+      "descrizione_e_metodologia": "Incontri pomeridiani con psicologo",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Informazione e prevenzione disagio giovanile",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Iniziative con Società della Salute",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione tecniche di primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Donazione sangue e midollo osseo",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri informativi con AVIS e FRATRES",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Raccordo con scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Monitoraggio iscrizioni, raccordo con famiglie",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Tutorato studenti in difficoltà",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Formazione e supervisione del personale",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Sviluppo professionale",
+      "descrizione_e_metodologia": "Aspetti relazionali, metodologici, nuove tecnologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Let’s Bit!",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione studenti per sensibilizzazione uso consapevole della rete",
+      "target": "Studenti e scuole primarie"
+    },
+    {
+      "titolo_attivita": "Incontri formazione/informazione docenti, famiglie, studenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Organizzazione periodica di incontri",
+      "target": "Docenti, famiglie, studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e consulenza",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attività in presenza, telefono, online",
+      "target": "Docenti, genitori, specialisti, studenti"
+    },
+    {
+      "titolo_attivita": "La Bellezza nascosta",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Progetto di potenziamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadini!! Sani e sportivi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetto di competenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Counseling e laboratorio narrativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di consapevolezza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Busines idea",
+      "categoria_principale": "Imprenditorialità",
+      "descrizione_e_metodologia": "Progetto in valutazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Digital creActivity",
+      "categoria_principale": "Creatività Digitale",
+      "descrizione_e_metodologia": "Progetto di cittadinanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Empowering skills",
+      "categoria_principale": "Competenze Base",
+      "descrizione_e_metodologia": "Progetto di potenziamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "studenteMente",
+      "categoria_principale": "Inclusione Sociale",
+      "descrizione_e_metodologia": "Progetto di inclusione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TATDI4500D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico Informatica Plateja** (TATDI4500D) per il periodo 2019-2022. L'istituto, situato a **Taranto** in **Puglia**, è una scuola **paritaria** che offre percorsi di istruzione di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una presenza di sezione dedicata, sebbene integrata in altre aree del PTOF, e un'ampia rete di **partnership** con **enti pubblici**, **enti privati**, **Università**, **aziende del territorio** e associazioni come **Associazione “LIBERA”**. Le finalità dell'orientamento sono ben definite, mirando a sviluppare attitudini, interessi, progetti di vita, transizioni formative e capacità orientative per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 5, sebbene non costituisca un capitolo a sé stante ma sia integrata in altre sezioni.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership, con ben 12 partner nominati, tra cui l'**Istituto di Biorobotica della Scuola Superiore Sant’Anna di Pisa** e **Cisco Systems**. Questo aspetto è considerato un punto di forza, con un punteggio di 5.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono complete e ben articolate, coprendo lo sviluppo di attitudini, interessi, progetti di vita, transizioni formative e capacità orientative, tutte valutate con un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi, mirando a ridurre l'abbandono scolastico, garantire la continuità territoriale, contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di lifelong learning ricevono un punteggio di 5, mentre quello relativo ai NEET un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono complete e includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e un sistema integrato di inclusione e fragilità, tutte valutate con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sull'interdisciplinarità e, in misura minore, sulla flessibilità degli spazi e dei tempi (punteggio di 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, includendo opzioni culturali, laboratoriali, sportive e di volontariato, tutte valutate positivamente (punteggio di 5), ad eccezione di quelle ludico-ricreative (punteggio di 3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella vasta rete di **partnership** con realtà esterne, nella completezza delle finalità e degli obiettivi, e nella solidità delle azioni di sistema. L'istituto dimostra un impegno concreto nell'offrire agli studenti opportunità di **alternanza scuola-lavoro**, **visite aziendali** e **progetti di robotica**. L'attenzione alla **cittadinanza** attraverso iniziative come la partecipazione all'**Associazione LIBERA** e la riflessione su eventi storici è un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella sezione dedicata all'orientamento, che, pur presente, non è trattata in modo approfondito come capitolo a sé stante. La didattica orientativa potrebbe beneficiare di una maggiore flessibilità degli spazi e dei tempi. Le attività ludico-ricreative opzionali sembrano meno sviluppate rispetto alle altre.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare in modo più organico la sezione dedicata all'orientamento, ampliandone il contenuto e rendendola autonoma all'interno del PTOF. Un'ulteriore area di miglioramento riguarda l'integrazione delle attività ludico-ricreative nell'offerta formativa, al fine di garantire un approccio più completo e bilanciato all'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Tecnico Informatica Plateja** dimostra un forte impegno verso l'orientamento, con una solida base di finalità, obiettivi, azioni e partnership. Pur presentando alcune aree di debolezza, l'istituto ha le potenzialità per sviluppare ulteriormente l'offerta orientativa, strutturando in modo più organico la sezione dedicata e ampliando l'offerta di attività ludico-ricreative. L'implementazione di percorsi di **PCTO** e l'attenzione alle competenze trasversali rappresentano un valore aggiunto per la preparazione degli studenti al mondo del lavoro e alla vita adulta."
+}

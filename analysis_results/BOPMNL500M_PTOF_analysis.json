@@ -1,0 +1,246 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPMNL500M",
+    "denominazione": "Liceo Delle Scienze Umane Opzione Economico Sociale Beata Vergine Di San Luca",
+    "tipo_scuola": "I Grado, Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Jacopo Della Quercia1",
+    "cap": "40128",
+    "email": "ND",
+    "pec": "segreteria.isbvsl@pec.it",
+    "website": "https//www.salesianibologna.net/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene l'orientamento sia affrontato all'interno di diverse sezioni del PTOF, manca una trattazione organica e dedicata che ne costituisca un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "400 aziende",
+        "Marchesini",
+        "IMA",
+        "GD",
+        "OMP",
+        "COSPES",
+        "Scuola Linguistica Accreditata",
+        "Mater Academy (Miami)"
+      ],
+      "partnership_count": 400
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite tecniche e culturali",
+      "categoria_principale": "Attività integrative",
+      "descrizione_e_metodologia": "Potenziamento competenze artistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di eccellenza extracurricolari",
+      "categoria_principale": "Attività integrative",
+      "descrizione_e_metodologia": "Offerta formativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di alternanza scuola-lavoro",
+      "categoria_principale": "Attività formative",
+      "descrizione_e_metodologia": "Collegamento con aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage in aziende del settore meccanico",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage curricolari di 160 ore annuali in aziende del settore.",
+      "target": "Studenti IPIA"
+    },
+    {
+      "titolo_attivita": "Progettazione e costruzione linea automatizzata",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Realizzazione pratica di una linea automatizzata con aziende partner.",
+      "target": "Studenti IPIA"
+    },
+    {
+      "titolo_attivita": "Test di ingresso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test di italiano, inglese e matematica per valutare i prerequisiti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Studio pomeridiano",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Spazi per studio autonomo con assistenza educatori",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sportello didattico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Assistenza docenti per compiti e approfondimenti",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Colloqui con esperta di tematiche adolescenziali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di eccellenza",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Corsi intensivi su software e tecnologie del settore",
+      "target": "Studenti 4° e 5° anno"
+    },
+    {
+      "titolo_attivita": "Visite tecniche e culturali",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Visite a aziende, musei, mostre per integrazione curricolare",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso opzionale di lettorato in Madre Lingua",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso settimanale con certificazioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi-studio e stage formativi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorni studio o stage in Europa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Programma Doppio Diploma Italo-Americano",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Corso online per High School U.S.A.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Insegnamento CLIL",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Discipline non linguistiche in inglese",
+      "target": "Studenti 5^ ITT e 5^ LES"
+    },
+    {
+      "titolo_attivita": "Redazione curriculum vitae europeo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione sulla redazione del CV",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Salone Internazionale dell’Orientamento Universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a fiere universitarie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratori didattici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Aggiornamento laboratori per didattica multidisciplinare.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Estensione rete Intranet",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Condivisione risorse e accesso Internet.",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Carrelli multimediali e LIM",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Dotazione di carrelli multimediali e LIM per le aule.",
+      "target": "Docenti e studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPMNL500M\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Delle Scienze Umane Opzione Economico Sociale Beata Vergine Di San Luca** (BOPMNL500M), relativo al triennio 2022-2025. La scuola, situata a **Bologna** in **Emilia Romagna**, opera in un contesto **metropolitano** e si configura come istituzione **paritaria**. L'analisi si basa sui dati forniti, valutando la presenza, la coerenza e l'efficacia delle azioni orientative previste. Sebbene l'orientamento sia integrato in diverse aree del PTOF, si evidenzia una mancanza di una sezione specificamente dedicata e strutturata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che, nonostante l'importanza attribuita all'orientamento, manca una trattazione organica e autonoma all'interno del PTOF. Il punteggio attribuito è di 2, suggerendo un'area di miglioramento significativa.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di partnership, con un network di ben **400 aziende** e collaborazioni consolidate con realtà come **Marchesini**, **IMA**, **GD**, **OMP**, **COSPES**, una **Scuola Linguistica Accreditata** e **Mater Academy (Miami)**. Questo aspetto, valutato con un punteggio di 3, rappresenta un punto di forza per l'orientamento e l'inserimento nel mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate, con punteggi elevati per lo sviluppo di **attitudini** (5) e del **progetto di vita** (5). Buoni risultati si registrano anche per gli **interessi** (4), le **transizioni formative** (4) e lo sviluppo delle **capacità orientative** e delle **opportunità** (4).\n\n**2.4 Obiettivi:** Gli obiettivi prefissati includono la riduzione dell'**abbandono scolastico** (3), la continuità con il **territorio** (4), il contrasto al fenomeno **NEET** (3) e la promozione del **lifelong learning** (3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi** (4), il **dialogo tra docenti e studenti** (4), il **rapporto scuola-genitori** (4), il **monitoraggio delle azioni** (3) e l'integrazione con i sistemi di **inclusione e fragilità** (3).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (4), sull'utilizzo di metodologie **laboratoriali** (3), sulla **flessibilità degli spazi e dei tempi** (3) e sull'approccio **interdisciplinare** (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (4), **laboratoriali ed espressive** (5), **ludiche e ricreative** (3), di **volontariato** (3) e **sportive** (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla solida rete di **partnership** con aziende e istituzioni, dalle chiare **finalità** orientative e dall'attenzione allo sviluppo delle **attitudini** e del **progetto di vita** degli studenti. L'offerta di attività **laboratoriali** ed **espressive** opzionali contribuisce ad arricchire l'esperienza formativa. Le attività registrate come \"**Percorsi di alternanza scuola-lavoro**\" e \"**Stage in aziende del settore meccanico**\" sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata e organica all'orientamento all'interno del PTOF. Questo comporta una frammentazione delle azioni e una difficoltà nel monitoraggio e nella valutazione complessiva dell'efficacia dell'orientamento.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è l'integrazione di una sezione specifica per l'orientamento nel PTOF, che definisca in modo chiaro obiettivi, strategie, azioni e indicatori di successo. È necessario strutturare un sistema di monitoraggio e valutazione delle attività orientative, al fine di verificarne l'efficacia e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Delle Scienze Umane Opzione Economico Sociale Beata Vergine Di San Luca** dimostra un'attenzione significativa all'orientamento, supportata da una solida rete di **partnership** e da finalità ben definite. Tuttavia, la mancanza di una sezione dedicata e strutturata rappresenta un limite che deve essere superato per garantire un'efficacia ottimale delle azioni orientative. L'implementazione di una sezione specifica, unitamente a un sistema di monitoraggio e valutazione, consentirebbe di valorizzare appieno il potenziale orientativo della scuola e di supportare al meglio gli studenti nel loro percorso di crescita e di sviluppo. Attività come \"**Test di ingresso**\", \"**Sportello d'ascolto**\" e il \"**Programma Doppio Diploma Italo-Americano**\" sono esempi di iniziative positive che, integrate in un quadro strategico più ampio, possono contribuire a raggiungere gli obiettivi prefissati."
+}

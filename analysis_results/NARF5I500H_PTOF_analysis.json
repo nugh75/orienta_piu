@@ -1,0 +1,197 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NARF5I500H",
+    "denominazione": "Santa Croce (Servizi Socio-Sanitari)",
+    "tipo_scuola": "Infanzia, Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Gragnano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Nuova San Leone 62",
+    "cap": "80054",
+    "email": "info@istitutosantacroce.it",
+    "pec": "santa-croce@pec.it",
+    "website": "www.istitutocartesio.com"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. L'orientamento è trattato all'interno di altre sezioni."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "ANAPIA Nazionale",
+        "MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI",
+        "REGIONI",
+        "MINISTERO DELL’ISTRUZIONE, UNIVERSITA’ E RICERCA",
+        "Reti e collaborazioni esterne",
+        "Anapia Lazio",
+        "Et Labora",
+        "Esperia Srl",
+        "Ispra",
+        "IBM",
+        "FMD",
+        "CNR",
+        "Istituto San Bernardo"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 2
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi IFTS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi triennali dell’obbligo formativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soluzione Dispersione Scolastica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Iniziative per contrastare la dispersione",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Partecipazione dei docenti al corso di aggiornamento sull’inclusione e sui DSA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a corsi di aggiornamento mirati al miglioramento dell’uso degli strumenti informatici",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento della didattica laboratoriale nelle diverse discipline",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Organizzazione di ambienti di apprendimento tra pari (attività di tutoraggio)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Peer education",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di formazione e autoformazione sulla didattica delle competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Leggere e Lavorare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Catalogazione libri, gestione giornalino scolastico",
+      "target": "Privatisti"
+    },
+    {
+      "titolo_attivita": "Et Labora",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Orientamento, occupazione, imprenditorialità",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza al Nido",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Osservazione attività asilo nido",
+      "target": "III"
+    },
+    {
+      "titolo_attivita": "Anziani e OSS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Osservazione e partecipazione in casa di riposo",
+      "target": "IV-V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NARF5I500H\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Santa Croce (Servizi Socio-Sanitari)\", codice NARF5I500H, per il triennio 2022-2025. L'istituto, di tipo Infanzia, Liceo, Professionale e Tecnico, opera nel territorio metropolitano di Gragnano, in provincia di Napoli e regione Campania, ed è riconosciuto come paritario. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate in relazione all'orientamento. Sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF, questo viene affrontato all'interno di altre aree tematiche.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento non è trattato in una sezione autonoma del PTOF, ma integrato in altre aree.\n\n**2.2 Partnership:**\n\nL'istituto dimostra un forte impegno nella creazione di **partnership** strategiche, collaborando con numerosi enti e istituzioni. Tra i partner nominati figurano **ANAPIA Nazionale**, il **MINISTERO DEL LAVORO E DELLE POLITICHE SOCIALI**, le **REGIONI**, il **MINISTERO DELL’ISTRUZIONE, UNIVERSITA’ E RICERCA**, diverse **Reti e collaborazioni esterne**, **Anapia Lazio**, **Et Labora**, **Esperia Srl**, **Ispra**, **IBM**, **FMD**, **CNR** e l'**Istituto San Bernardo**. Il numero di partner attivi è pari a 12, evidenziando una rete relazionale consolidata.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e sulla progettazione del **progetto di vita** degli studenti, con un punteggio di 3 su 5 per ciascuna di queste aree. L'attenzione alle **transizioni formative** risulta meno marcata, con un punteggio di 1, mentre lo sviluppo delle **capacità orientative** e la comprensione delle **opportunità** ricevono un punteggio di 3.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico e a favorire la **continuità** tra i diversi gradi di istruzione, entrambi con un punteggio di 3. Il contrasto al fenomeno **NEET** e la promozione del **lifelong learning** ricevono un punteggio inferiore, rispettivamente 2.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema implementate prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti** e il **rapporto scuola-genitori**, tutte con un punteggio di 3. Il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità** ottengono un punteggio di 2.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**, tutte con un punteggio di 3. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato, con un punteggio di 1.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, che offrono agli studenti opportunità di confronto e di orientamento verso il mondo del lavoro. L'attenzione allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti rappresenta un solido fondamento per un'efficace azione orientativa. L'impegno nella didattica **da esperienza** e nella flessibilità degli spazi e dei tempi favorisce un apprendimento attivo e personalizzato.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF potrebbe limitare la visibilità e la coerenza delle azioni intraprese. L'attenzione alle **transizioni formative** e al contrasto al fenomeno **NEET** appare meno sviluppata rispetto ad altri aspetti. L'utilizzo della **didattica laboratoriale** potrebbe essere potenziato per offrire agli studenti esperienze pratiche più significative.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta formativa più esplicita e coerente in materia di orientamento, integrando le diverse azioni e attività in un quadro strategico definito. È necessario rafforzare l'attenzione alle **transizioni formative** e al contrasto al fenomeno **NEET**, offrendo agli studenti strumenti e opportunità per affrontare le sfide del mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Santa Croce (Servizi Socio-Sanitari)\" dimostra un impegno significativo nell'ambito dell'orientamento, sebbene questo non sia esplicitamente formalizzato in una sezione dedicata. La vasta rete di **partnership** e l'attenzione allo sviluppo delle **competenze** degli studenti rappresentano punti di forza importanti. Per migliorare l'efficacia dell'azione orientativa, è necessario strutturare un'offerta formativa più coerente e mirata, rafforzando l'attenzione alle **transizioni formative** e al contrasto al fenomeno **NEET**. Le attività registrate, come i corsi **IFTS**, le iniziative per la **Soluzione Dispersione Scolastica**, i corsi di aggiornamento per i **docenti**, il potenziamento della didattica **laboratoriale**, le attività di **tutoraggio**, la formazione sulle **competenze**, **Leggere e Lavorare**, **Et Labora**, **Alternanza al Nido** e **Anziani e OSS**, contribuiscono a delineare un quadro complessivo di interventi orientativi diversificati e mirati."
+}

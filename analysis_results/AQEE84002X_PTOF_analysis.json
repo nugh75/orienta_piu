@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AQEE84002X",
+    "denominazione": "\"G.Mazzini\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Avezzano",
+    "anno_ptof": "2022/2025",
+    "provincia": "L'Aquila",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Puglie 3/B",
+    "cap": "67051",
+    "email": "aqic84000r@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.istitutomazzinifermi.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente tra le attività, non esiste una sezione dedicata e strutturata con un titolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "ASL",
+        "Centro ospedaliero",
+        "Clinica privata",
+        "Centro Pedagogico multifunzionale",
+        "biblioteca",
+        "teatro",
+        "multisala cinematografica",
+        "associazioni culturali",
+        "palestre",
+        "servizi socio-sanitari",
+        "educativi del territorio",
+        "associazioni di settore",
+        "Liceo Scientifico “V.Pollione\"",
+        "IIS “E.Majorana”",
+        "Consorzio Futura",
+        "I.O. di Tagliacozzo",
+        "Università di Perugia",
+        "I.C. “Collodi-Marini\"",
+        "I.C. di Capistrello",
+        "I.C. di Civitella Roveto",
+        "I.C. di Balsorano",
+        "I.C. di Gioia dei Marsi",
+        "I.C. di Magliano dei Marsi",
+        "Università di L’Aquila",
+        "Conservatorio Statale “A. Casella”",
+        "A.S.D. “La Fenice\"",
+        "Università di Cassino",
+        "INforma School",
+        "Cooperativa Leonardo",
+        "AMFI International",
+        "Famiglie",
+        "Territorio"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi CLIL",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Percorsi in lingua inglese per bambini di 5 anni",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sportello per alunni con bisogni educativi speciali",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Aperta",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Avviamento alla pratica strumentale",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetti teatrali Amore è vita",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Progetti teatrali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti art.9 Teatro",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Progetti art.9",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti art.9 Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Progetti art.9",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti art.9 Teatro - Musica",
+      "categoria_principale": "Teatro/Musica",
+      "descrizione_e_metodologia": "Progetti art.9",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Moduli STEM",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Terza Lingua",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Moduli di terza lingua",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Corsi di musica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sport",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Agenda 2030",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Tematica curricolare",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite a musei, aziende agricole, siti archeologici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza “SPECIALMENTE FIGLI, ALUNNI SPECIALI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto per bambini adottati",
+      "target": "Infanzia, Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Interventi di sensibilizzazione",
+      "categoria_principale": "Prevenzione Bullismo",
+      "descrizione_e_metodologia": "Rispetto reciproco, valorizzazione diversità",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AQEE84002X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo “G.Mazzini” di Avezzano (AQ), codice scuola AQEE84002X, per il triennio 2022/2025. L'istituto, di ordine e grado primario, opera in un contesto territoriale non metropolitano della regione Abruzzo. L'analisi si basa sui dati forniti, valutando la presenza, la strutturazione e l'efficacia delle azioni orientative previste. Sebbene l'orientamento sia integrato nelle attività scolastiche, si evidenzia una mancanza di una sezione dedicata e specificamente denominata all'interno del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento non è presente come sezione autonoma e identificabile nel PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto dimostra un'elevata capacità di collaborazione con il territorio, stabilendo partnership con un ampio ventaglio di soggetti, tra cui **ASL**, **Centri ospedalieri**, **Cliniche private**, **Centri Pedagogici multifunzionali**, **biblioteche**, **teatri**, **multisale cinematografiche**, **associazioni culturali**, **palestre**, **servizi socio-sanitari ed educativi**, **associazioni di settore**, **Liceo Scientifico “V.Pollione”**, **IIS “E.Majorana”**, **Consorzio Futura**, **I.O. di Tagliacozzo**, **Università di Perugia**, **I.C. “Collodi-Marini”**, **I.C. di Capistrello**, **I.C. di Civitella Roveto**, **I.C. di Balsorano**, **I.C. di Gioia dei Marsi**, **I.C. di Magliano dei Marsi**, **Università di L’Aquila**, **Conservatorio Statale “A. Casella”**, **A.S.D. “La Fenice”**, **Università di Cassino**, **INforma School**, **Cooperativa Leonardo**, **AMFI International**, **Famiglie** e il **Territorio** stesso. Il numero di partner coinvolti, pari a 30, suggerisce un forte radicamento nel contesto locale.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti, con punteggi elevati (6). Buona anche l'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future (punteggio 5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** e il rafforzamento del legame con il **territorio** (punteggio 5). L'attenzione al contrasto alla dispersione scolastica e alla promozione del **lifelong learning** è considerata importante (punteggio 5), mentre l'impegno per contrastare il fenomeno dei **NEET** appare meno strutturato (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni previste per l'implementazione dell'orientamento comprendono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 5), il **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 4) e la creazione di un **sistema integrato di inclusione e supporto alle fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (punteggio 6), la **didattica laboratoriale** (punteggio 6), la **flessibilità degli spazi e dei tempi** (punteggio 5) e l'**interdisciplinarità** (punteggio 6).\n\n**2.7 Offerta Formativa - Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo **culturale** (punteggio 6), **laboratoriale ed espressivo** (punteggio 6), **ludico-ricreativo** (punteggio 5), di **volontariato** (punteggio 5) e **sportivo** (punteggio 6).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** con il territorio, nella chiarezza delle **finalità** orientative e nell'adozione di metodologie didattiche innovative e partecipative. L'offerta di **opzionali** diversificate contribuisce ad arricchire l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, l'impegno per contrastare il fenomeno dei **NEET** appare meno definito rispetto ad altri obiettivi.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare l'orientamento come una componente autonoma e riconoscibile del PTOF. Questo richiederebbe la definizione di obiettivi specifici, l'individuazione di indicatori di performance e la pianificazione di azioni mirate.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo “G.Mazzini” di Avezzano dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, per massimizzare l'efficacia delle azioni orientative, si raccomanda di definire una sezione dedicata all'interno del PTOF, con obiettivi specifici e indicatori di performance misurabili. L'attenzione al contrasto alla dispersione scolastica e alla promozione del **lifelong learning** rappresenta un valore aggiunto, ma è necessario rafforzare l'impegno per contrastare il fenomeno dei **NEET**. Le attività registrate, come i percorsi **CLIL**, lo **Sportello BES**, i progetti **Scuola Aperta**, i progetti teatrali **Amore è vita** e **art.9**, i moduli **STEM** e **Terza Lingua**, dimostrano un'offerta ricca e variegata."
+}

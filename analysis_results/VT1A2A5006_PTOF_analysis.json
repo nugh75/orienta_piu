@@ -1,0 +1,243 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VT1A2A5006",
+    "denominazione": "Casa Dei Bambini Montessori",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Viterbo",
+    "anno_ptof": "2015 – 2018",
+    "provincia": "Viterbo",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale 4 Novembre 23",
+    "cap": "01100",
+    "email": "info.montessori@acof.it",
+    "pec": "ND",
+    "website": "www.montessori.acof.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento, ma manca una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 0,
+      "partner_nominati": [],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sportello d'Ascolto",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Spazio di accoglienza per studenti e genitori",
+      "target": "Studenti e genitori"
+    },
+    {
+      "titolo_attivita": "Visite e viaggi d'istruzione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Esperienze concrete collegate ai programmi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione Cambridge Esol",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Preparazione e sostenimento esame K.E.T.",
+      "target": "Scuola Primaria I° Grado"
+    },
+    {
+      "titolo_attivita": "Spettacolo teatrale",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Esito dello studio del progetto di musica e teatro",
+      "target": "Classi 3^-4^-5^ Primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi educazione affettività e sessualità",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Intervento verticale con metodologie socio-affettive",
+      "target": "Classi 3^ primaria - 3^ secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto di continuità Casa dei Bambini - Scuola Primaria",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Incontri genitori/bambini, visite reciproche, attività congiunte",
+      "target": "Bambini Casa dei Bambini e Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Apparecchiatura e Camerieri di Pentola",
+      "categoria_principale": "Vita Pratica",
+      "descrizione_e_metodologia": "Attività quotidiane con rotazione dei ruoli",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Attività di Cucina, Stiratura, Giardinaggio",
+      "categoria_principale": "Vita Pratica",
+      "descrizione_e_metodologia": "Attività settimanali per sviluppare autonomia",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Espressione Artistica",
+      "descrizione_e_metodologia": "Atelier aperto 4 mattine/settimana",
+      "target": "Bambini interessati"
+    },
+    {
+      "titolo_attivita": "Inglese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnante presente durante le attività quotidiane",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Psicomotricità",
+      "categoria_principale": "Sviluppo Motorio",
+      "descrizione_e_metodologia": "Una volta a settimana",
+      "target": "Bambini dai 3 anni"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Espressione Artistica",
+      "descrizione_e_metodologia": "Interventi ludici per sviluppare abilità di ascolto",
+      "target": "Bambini dai 3 anni"
+    },
+    {
+      "titolo_attivita": "Informatica",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Approccio al computer e programmi semplici",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Religione",
+      "categoria_principale": "Educazione Religiosa",
+      "descrizione_e_metodologia": "Ascolto domande e sensazioni dei bambini",
+      "target": "Bambini dai 3 ai 6 anni"
+    },
+    {
+      "titolo_attivita": "Percorso di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura ad alta voce e interazione",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Corsi pomeridiani per BES",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi tenuti da esperti in materia di BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Predisposizione PDP",
+      "categoria_principale": "Supporto Studenti",
+      "descrizione_e_metodologia": "Piano di studio Personalizzato concordato con famiglia",
+      "target": "Studenti con DSA, ADHD"
+    },
+    {
+      "titolo_attivita": "Redazione PEI",
+      "categoria_principale": "Supporto Studenti",
+      "descrizione_e_metodologia": "Piano Educativo Individualizzato concordato con famiglia",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Redazione PAI",
+      "categoria_principale": "Organizzazione Scolastica",
+      "descrizione_e_metodologia": "Piano Annuale per l'Inclusività",
+      "target": "Comunità Educante"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Sviluppo creatività, immaginazione, espressione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Orto scolastico biologico",
+      "categoria_principale": "Attività pratiche",
+      "descrizione_e_metodologia": "Coltivazione, cura del terreno, apprendimento esperienziale",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VT1A2A5006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Casa Dei Bambini Montessori** (ID scuola: VT1A2A5006), scuola dell'infanzia paritaria situata nel comune di Viterbo, in Lazio. Il PTOF copre il periodo 2015-2018. L'analisi si concentra in particolare sull'area dell'orientamento, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali. La scuola dimostra un impegno generale verso l'orientamento, sebbene manchi una sua esplicita strutturazione in un capitolo specifico del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF presenta attività di orientamento, tuttavia, l'assenza di una sezione dedicata con un capitolo specifico rappresenta una lacuna nella sua strutturazione. Il punteggio attribuito è 3, indicando una presenza di attività ma una mancanza di formalizzazione.\n\n**2.2 Partnership:**\n\nL'analisi delle partnership rivela una totale assenza di collaborazioni esterne in ambito orientativo. Non sono stati nominati partner specifici e il conteggio delle partnership è pari a zero.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate in modo positivo, con un punteggio di 3 per ciascuna delle aree valutate: sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità. Questo suggerisce una chiara consapevolezza dell'importanza di questi aspetti nel percorso formativo.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati sono generalmente ambiziosi e pertinenti. Si riscontra un punteggio di 3 per la riduzione dell'abbandono scolastico, la continuità territoriale e il lifelong learning. L'obiettivo di contrastare il fenomeno NEET ottiene un punteggio leggermente inferiore (2), suggerendo forse una minore priorità o una minore chiarezza nelle azioni previste.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per supportare l'orientamento sono valutate positivamente (punteggio 3 per ciascuna). Vengono evidenziate l'importanza del coordinamento dei servizi, del dialogo tra docenti e studenti, del rapporto scuola-genitori, del monitoraggio delle azioni e dell'integrazione di sistemi inclusivi per le fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci validi, come l'apprendimento dall'esperienza degli studenti, l'utilizzo di laboratori, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. Ogni aspetto riceve un punteggio di 3, indicando un'implementazione efficace di queste metodologie.\n\n**2.7 Opzionali e Facoltative:**\n\nLe attività opzionali e facoltative, come quelle culturali, laboratoriali, ludiche, di volontariato e sportive, ricevono un punteggio di 2. Questo suggerisce una presenza di tali attività, ma forse una loro offerta non particolarmente ampia o strutturata.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e nella validità delle azioni di sistema e delle metodologie didattiche adottate. L'impegno verso l'inclusione e la personalizzazione dei percorsi formativi, come dimostrato dalle attività di predisposizione di **PDP** e **PEI**, è particolarmente apprezzabile. L'offerta di attività pratiche come **Apparecchiatura e Camerieri di Pentola**, **Attività di Cucina, Stiratura, Giardinaggio** e l'**orto scolastico biologico** favoriscono l'autonomia e l'apprendimento esperienziale.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dall'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Inoltre, la mancanza di partnership con enti esterni limita le opportunità di ampliare l'offerta orientativa e di connettere la scuola con il territorio. Le attività opzionali, pur presenti, sembrano meno sviluppate rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare l'orientamento all'interno del PTOF, creando una sezione dedicata che delinei in modo chiaro le strategie, le azioni e i responsabili. È inoltre necessario sviluppare partnership con aziende, associazioni o altre istituzioni per offrire agli studenti opportunità di orientamento più ampie e concrete.\n\n### 6. Conclusioni\n\nIl PTOF della **Casa Dei Bambini Montessori** dimostra un impegno verso l'orientamento, sebbene manchi una sua esplicita strutturazione. La scuola presenta punti di forza significativi nelle finalità, nelle azioni di sistema e nelle metodologie didattiche. Per migliorare l'efficacia dell'orientamento, si raccomanda di creare una sezione dedicata nel PTOF e di sviluppare partnership con enti esterni. Le attività come lo **Sportello d'Ascolto**, le **Visite e viaggi d'istruzione**, il **Progetto di continuità Casa dei Bambini - Scuola Primaria** e la certificazione **Cambridge Esol** rappresentano buone pratiche da consolidare e ampliare."
+}

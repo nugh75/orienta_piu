@@ -1,0 +1,240 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FG1A20200X",
+    "denominazione": "Piccole Canaglie",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cerignola",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Giovanni Falcone N. 42",
+    "cap": "71042",
+    "email": "piccolecanaglie@email.it",
+    "pec": "lcrc02000l@pec.istruzione.it",
+    "website": "www.istitutograziellafumagalli.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "L'orientamento è affrontato principalmente attraverso l'integrazione in altre sezioni del PTOF, senza una sezione dedicata specificamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "CFP Casargo",
+        "imprese private",
+        "enti pubblici",
+        "enti del terzo settore",
+        "Forze dell'Ordine",
+        "Unione Camere Penali",
+        "ANM",
+        "Questura",
+        "Regione Lombardia",
+        "Comune di Casatenovo",
+        "CPL di Lecco",
+        "Retesalute",
+        "CPIA Lecco",
+        "Altre scuole"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate presso aziende locali per conoscere il mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti per presentare le diverse opportunità lavorative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Sperimentazione rapporto scuola/lavoro, applicazione conoscenze, confronto con mondo del lavoro.",
+      "target": "Studenti dal secondo anno"
+    },
+    {
+      "titolo_attivita": "Progetto Cake design",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Seconde alberghiero"
+    },
+    {
+      "titolo_attivita": "Testimonianze orientative",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Attività svolte presso strutture ospitanti, anche durante sospensioni didattiche",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla Salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con esperti su tematiche psico-fisiche",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sportello Counseling",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Ascolto da parte di psicologo per problematiche affettive, scolastiche o relazionali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visione di film seguita da dibattito guidato",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Attività del Dipartimento di Scienze Motorie",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Approfondimento pratiche sportive e cultura attività fisica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano per studenti stranieri",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi di italiano in collaborazione con Retesalute e CPIA Lecco",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Corsi di certificazione informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corsi per certificazioni informatiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di certificazione linguistica",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi per certificazioni linguistiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su bullismo, orientamento, inclusività",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione didattica e valutazione per competenze",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Star bene a scuola",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Gestione dinamiche relazionali e prevenzione conflitti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Per una didattica personalizzata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Migliorare pratiche inclusive",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sportello digitale",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Gestione relazioni interne ed esterne",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FG1A20200X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Piccole Canaglie\", scuola dell'infanzia situata nel territorio non metropolitano di Cerignola, in Puglia (codice scuola FG1A20200X). L'analisi si basa sui dati forniti e valuta l'approccio dell'istituto all'orientamento, le partnership attivate, gli obiettivi prefissati e le azioni messe in campo. Il PTOF, relativo all'anno 2019/20-2021/22, mostra un impegno nell'orientamento, sebbene non sia presente una sezione specificamente dedicata, ma integrata in altre aree del piano.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento Sezione Dedicata\n\nL'orientamento, all'interno del PTOF, non beneficia di una sezione dedicata specifica, ma viene affrontato in maniera trasversale. Questo approccio, sebbene non isolato, permette di integrarne i principi in diverse attività e progetti scolastici.\n\n#### 2.2 Partnership\n\nL'istituto \"Piccole Canaglie\" dimostra una notevole capacità di stringere **partnership** con diversi soggetti esterni. Sono infatti coinvolti **CFP Casargo**, diverse **imprese private**, **enti pubblici**, **enti del terzo settore**, le **Forze dell'Ordine**, l'**Unione Camere Penali**, l'**ANM**, la **Questura**, la **Regione Lombardia**, il **Comune di Casatenovo**, il **CPL di Lecco**, **Retesalute**, il **CPIA Lecco** e altre scuole, per un totale di 11 partner. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e lo sviluppo delle **capacità orientative** per cogliere le opportunità. Tutti questi aspetti ricevono un punteggio di 3, indicando un'attenzione significativa da parte dell'istituto.\n\n#### 2.4 Obiettivi\n\nGli obiettivi prefissati mirano a ridurre l'**abbandono scolastico**, a garantire la continuità con il **territorio** e a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training). L'obiettivo di promuovere il **lifelong learning** (apprendimento permanente) risulta meno prioritario rispetto agli altri.\n\n#### 2.5 Azioni di Sistema\n\nLe azioni di sistema implementate comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alla fragilità**. Tutte queste azioni sono valutate positivamente con un punteggio di 3.\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali** e **interdisciplinari**. La flessibilità degli **spazi** e dei **tempi** didattici, pur presente, risulta meno sviluppata rispetto agli altri approcci.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende corsi **culturali**, **laboratoriali ed espressivi**, attività **ludiche e ricreative**, opportunità di **volontariato** e iniziative **sportive**. Le prime due categorie sono ben consolidate, mentre le ultime tre presentano un livello di sviluppo inferiore.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** attivate, la chiarezza delle **finalità** e l'implementazione di azioni di sistema efficaci. L'istituto dimostra un impegno concreto nel supportare gli studenti nello sviluppo delle loro **attitudini** e **interessi**, e nel favorire la loro transizione verso il mondo del lavoro o della formazione superiore. Le attività come **Visite aziendali**, **Incontri con professionisti** e **Alternanza scuola/lavoro** sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata specificamente all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, alcuni aspetti della didattica orientativa, come la flessibilità degli spazi e dei tempi, e alcune attività opzionali, come quelle ludiche, ricreative e di volontariato, potrebbero essere ulteriormente sviluppate.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio all'orientamento più organico e visibile all'interno del PTOF. Sebbene l'orientamento sia integrato in diverse attività, la mancanza di una sezione dedicata potrebbe limitarne l'efficacia e la riconoscibilità. È inoltre auspicabile un potenziamento delle attività opzionali e facoltative, in particolare quelle volte a promuovere il benessere degli studenti e l'impegno sociale.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Piccole Canaglie\" dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da azioni di sistema ben definite. Pur non disponendo di una sezione dedicata, l'orientamento è integrato in diverse aree del piano, garantendo un approccio trasversale e coerente. Per ottimizzare ulteriormente l'offerta formativa, si raccomanda di valutare la possibilità di creare una sezione specifica per l'orientamento e di potenziare le attività opzionali e facoltative, in particolare quelle volte a promuovere il benessere degli studenti e l'impegno sociale. Attività come **Educazione alla Salute**, **Sportello Counseling** e i corsi di **certificazione informatica** e **linguistica** contribuiscono in modo significativo al percorso formativo degli studenti."
+}

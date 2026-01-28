@@ -1,0 +1,440 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "OR1A03700N",
+    "denominazione": "Sacra Famiglia Bosa",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Bosa",
+    "anno_ptof": "2022-2025",
+    "provincia": "Oristano",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Campidano N. 2",
+    "cap": "08013",
+    "email": "sacrafamiglia.scuole@gmail.com",
+    "pec": "scuolafamigliabosa@pec.it",
+    "website": "www.iisgapischeddabosa.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Biblioteca di Bosa",
+        "associazioni",
+        "Proloco di Bosa",
+        "UNESCO",
+        "Avanguardie Educative",
+        "enti e associazioni che operano sul territorio",
+        "Altre scuole",
+        "Enti Pubblici",
+        "Enti Privati",
+        "Organismi legati all'agricoltura"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Cittadinanza e Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Confronto tra scuole, studio articoli Costituzione, public speaking",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PEG - Parlamento Europeo Giovani",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Confronto regionale per promuovere identità europea e dialogo interculturale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "UNESCO - Associated Schools Network",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Elaborazione attività didattiche legate alle tematiche UNESCO.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ajò un piatto speciale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Concorso cucina regionale con collaborazione peer-to-peer.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "OpenCoesione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Monitoraggio civico finanziamenti pubblici europei e nazionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Hackathon - Maratona sfidante",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Challenge based learning per la risoluzione di problemi reali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campionati studenteschi",
+      "categoria_principale": "Arricchimento offerta formativa",
+      "descrizione_e_metodologia": "Partecipazione a competizioni in diverse discipline.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "STEAM",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Attività STEAM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "AI Challenge",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Esplorazione e sperimentazione applicazioni IA generativa.",
+      "target": "Studenti Tecnico A.F.M."
+    },
+    {
+      "titolo_attivita": "Trame di rime: un viaggio STEAM nel femminile medievale",
+      "categoria_principale": "Storia, Arte, Tecnologia",
+      "descrizione_e_metodologia": "Studio contesto femminile medievale, creazione pagine web e realtà aumentata.",
+      "target": "Studenti Tecnico"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Discussione formale su tesi pro/contro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Flipped classroom",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Spostamento didattica a casa, esercitazione in classe.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "MLTV",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rendere visibili pensiero e apprendimento.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Apprendimento attraverso servizio solidale.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Compattazione orario scolastico",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Insegnamento concentrato in quadrimestri.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento e mentoring",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri individualizzati con docenti esperti e famiglie",
+      "target": "Studenti non motivati"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento competenze base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Piccoli gruppi, personalizzazione, motivazione",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Laboratoriali co-curricolari",
+      "categoria_principale": "Arricchimento",
+      "descrizione_e_metodologia": "Didattica laboratoriale, STEAM, PBL, CBL",
+      "target": "Studenti con bisogni specifici"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento con famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Curvatura Digital Marketing",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti, integrazione contenuti, 32 ore settimanali",
+      "target": "Classi prime e successive"
+    },
+    {
+      "titolo_attivita": "PCTO Agrario",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage presso strutture ospitanti, certificazione competenze",
+      "target": "Allievi secondo biennio Agrario (48)"
+    },
+    {
+      "titolo_attivita": "Giornata mondiale della lingua greca",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Lezioni, approfondimenti, performance, drammatizzazioni",
+      "target": "Alunni terza e quarta Liceo Classico (7)"
+    },
+    {
+      "titolo_attivita": "Cambridge IGCSE",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Certificazioni English as a Second Language e Science",
+      "target": "Studenti Liceo Scientifico e Classico"
+    },
+    {
+      "titolo_attivita": "Il Giornale del Borgo",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Redazione giornale scuola, pagine social, podcast",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Imparare aiutando (Service Learning)",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Attività di supporto alla Casa di Riposo locale",
+      "target": "Studenti Istituto Enogastronomia"
+    },
+    {
+      "titolo_attivita": "Debate for debate",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Esercizi di documentazione, elaborazione critica, confronto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Saperi e sapori della valle del Temo - Progetto ristorante didattico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Ristorante didattico per formazione settore alberghiero",
+      "target": "Allievi percorsi professionalizzanti"
+    },
+    {
+      "titolo_attivita": "La Nuova@Scuola",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Alternanza scuola-lavoro con quotidiano La Nuova Sardegna",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Monumenti aperti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Promozione e valorizzazione beni culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "OpenCoesione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Monitoraggio civico finanziamenti pubblici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Primo Soccorso",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Formazione manovre primo soccorso",
+      "target": "Studenti IV anno"
+    },
+    {
+      "titolo_attivita": "Sinergie interdisciplinari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Integrazione materie curriculari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studenti a confronto sul diritto internazionale umanitario",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Competizione su diritto internazionale umanitario",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Hacking - Communities",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti innovativi per economia circolare",
+      "target": "Giovani visionari"
+    },
+    {
+      "titolo_attivita": "Esplorare, imparare, crescere",
+      "categoria_principale": "Educazione all'aria aperta",
+      "descrizione_e_metodologia": "Percorsi in ambiente naturale per promuovere stile di vita sano.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Leggiamo insieme",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Promuovere il gusto per la lettura attraverso attività di confronto.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Donando s'impara",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Esperienza concreta presso Mensa Caritas, preparazione su competenza emotiva e realtà sociali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Bulli? No, grazie!",
+      "categoria_principale": "Prevenzione Bullismo",
+      "descrizione_e_metodologia": "Sportelli di ascolto psicologico (presenza e online).",
+      "target": "Alunni, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Connessi in sicurezza",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Laboratori e progetti su legalità, benessere online, peer education.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Primo Soccorso",
+      "categoria_principale": "Primo Soccorso",
+      "descrizione_e_metodologia": "Formazione pratica e teorica con Croce Rossa Italiana.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Curricolo Interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Sviluppo competenze interculturali e cittadinanza globale.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Assistenza alunni disabili",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori, formazione scuola/rete",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Igiene e sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Laboratori, formazione scuola/rete",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione flussi documentali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Laboratori, formazione scuola/rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Aggiornamento area trasparenza",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Laboratori, formazione scuola/rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Sicurezza e prevenzione infortuni",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Interventi formativi",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Rilevazione rischi igienico-ambientali",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Laboratori, formazione scuola/rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Gestione documenti digitali",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione scuola/rete",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Educazione alle pari opportunità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Promozione della conoscenza e riflessione sull'appartenenza di genere.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Prevenzione della violenza di genere",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Collaborazione con enti e associazioni del territorio.",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Acquisire consapevolezza dei problemi della risorsa acqua",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorso articolato sulla sostenibilità e il ciclo dell'acqua.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Africa: il percorso verso la sostenibilità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Analisi delle cause dei cambiamenti climatici in Africa.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF OR1A03700N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Sacra Famiglia Bosa\", codice scuola OR1A03700N, relativo al triennio 2022-2025. L'istituto, di tipo Infanzia, situato nel territorio non metropolitano della regione Sardegna, si distingue per un approccio orientato alla partnership con diversi enti e associazioni, e per una solida attenzione alle finalità formative legate all'orientamento. La presenza di una sezione dedicata all'orientamento, con un punteggio di 7, evidenzia l'importanza attribuita a questo aspetto. L'analisi delle attività registrate conferma un impegno attivo nell'implementazione di progetti e iniziative volte a sviluppare competenze orientative negli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, come indicato dal punteggio di 7, suggerendo una pianificazione strutturata e consapevole in questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un network di collaborazioni con numerosi partner, tra cui la **Biblioteca di Bosa**, diverse **associazioni**, la **Proloco di Bosa**, **UNESCO**, **Avanguardie Educative**, **enti e associazioni territoriali**, **altre scuole**, **Enti Pubblici**, **Enti Privati** e **organismi legati all'agricoltura**. Questo ampio ventaglio di collaborazioni, quantificato in 10 partnership, rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono orientate allo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 5, indicando un'attenzione equilibrata a tutti gli aspetti cruciali dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto al fenomeno NEET e sulla promozione del lifelong learning. Anche in questo caso, ogni obiettivo ha un punteggio di 5, sottolineando un approccio completo e integrato.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Ogni azione ha ottenuto un punteggio di 5, evidenziando un'organizzazione strutturata e un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. Ogni aspetto ha un punteggio di 5, dimostrando un approccio didattico innovativo e orientato allo studente.\n\n**2.7 Offerta Formativa Opzionali/Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo. Ogni tipologia di opzionale ha ottenuto un punteggio di 5, suggerendo una varietà di opportunità per gli studenti di esplorare i propri interessi e sviluppare le proprie passioni.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio network di partnership con enti e associazioni del territorio, nella chiarezza delle finalità e degli obiettivi, nella strutturazione delle azioni di sistema e nell'innovatività dell'approccio didattico. L'ampia gamma di attività registrate, come **Progetto Cittadinanza e Costituzione**, **PEG - Parlamento Europeo Giovani**, **UNESCO - Associated Schools Network**, **Ajò un piatto speciale**, **OpenCoesione**, **Hackathon - Maratona sfidante**, e molte altre, testimonia un impegno concreto nell'implementazione di iniziative orientative.\n\n### 4. Aree di Debolezza\n\nNon emergono aree di debolezza significative dall'analisi dei dati forniti. Tutti i punteggi dimensionali sono pari a 5, indicando un'attenzione equilibrata a tutti gli aspetti dell'orientamento.\n\n### 5. Gap Analysis\n\nL'analisi dei dati non evidenzia gap significativi. Il PTOF sembra coprire in modo adeguato tutti gli aspetti cruciali dell'orientamento, dalla pianificazione strategica all'implementazione di attività concrete.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Sacra Famiglia Bosa\" si presenta come un documento ben strutturato e coerente, con una forte attenzione all'orientamento. L'ampio network di partnership, la chiarezza delle finalità e degli obiettivi, la strutturazione delle azioni di sistema e l'innovatività dell'approccio didattico rappresentano i punti di forza del PTOF. Le numerose attività registrate, che spaziano dall'educazione civica all'internazionalizzazione, dalla didattica innovativa all'arricchimento dell'offerta formativa, testimoniano un impegno concreto nell'implementazione di iniziative orientative. In sintesi, il PTOF dell'istituto \"Sacra Famiglia Bosa\" si configura come un valido strumento per guidare gli studenti nel loro percorso di crescita e di orientamento."
+}

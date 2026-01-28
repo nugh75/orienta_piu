@@ -1,0 +1,291 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1E15900L",
+    "denominazione": "Scuola Primaria Antonio Rosmini",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Aurelia 773",
+    "cap": "00165",
+    "email": "segreteria@scuolarosminiroma.it",
+    "pec": "ND",
+    "website": "www.scuolarosminiroma.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Indice PTOF presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "FIDAE",
+        "FOE",
+        "Coordinamento Culturale Scuole libere",
+        "Comune",
+        "Forze dell’Ordine",
+        "Croce rossa",
+        "Vigili del fuoco",
+        "ASL",
+        "Biblioteca Marazza",
+        "scuole paritarie e statali del territorio",
+        "istituzioni di ispirazione cattolica"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Studio assistito pomeridiano",
+      "categoria_principale": "Supporto scolastico",
+      "descrizione_e_metodologia": "Attività di recupero e consolidamento",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Borse di studio",
+      "categoria_principale": "Supporto economico",
+      "descrizione_e_metodologia": "Buono scuola regionale",
+      "target": "Famiglie in difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto Cambridge",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Inserimento lingua inglese (6h primaria, 5h sec. I grado). Insegnanti madrelingua. Matematica in inglese.",
+      "target": "Primaria e Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Aggiornamento aula multimediale",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Intensificarne l'uso didattico.",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Esperienze Laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo esperienze laboratoriali nelle singole discipline.",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Rapporti tra scuole",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incentivare i rapporti tra i vari gradi di scuole.",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Laboratorio musicale",
+      "categoria_principale": "Lettura/Espressione",
+      "descrizione_e_metodologia": "Drammatizzazione di brani per favorire comprensione e interpretazione",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Discussioni guidate",
+      "categoria_principale": "Dialogo/Debate",
+      "descrizione_e_metodologia": "Discussioni su temi di interesse generale con schemi d'intervento",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Realizzazione testi multimediali",
+      "categoria_principale": "Tecnologia/Comunicazione",
+      "descrizione_e_metodologia": "Creazione di contenuti multimediali con note esplicative e immagini",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Uscite didattiche",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse con esperti",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Lezioni con sussidi multimediali",
+      "categoria_principale": "Didattica innovativa",
+      "descrizione_e_metodologia": "Utilizzo di video e materiali digitali",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Calcolo aree di monete",
+      "categoria_principale": "Matematica/Geometria",
+      "descrizione_e_metodologia": "Calcolo aree partendo dal diametro",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "fusione del ghiaccio",
+      "categoria_principale": "Fisica e chimica",
+      "descrizione_e_metodologia": "Realizzare esperienze",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "soluzioni in acqua",
+      "categoria_principale": "Fisica e chimica",
+      "descrizione_e_metodologia": "Realizzare esperienze",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "combustione di una candela",
+      "categoria_principale": "Fisica e chimica",
+      "descrizione_e_metodologia": "Realizzare esperienze",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "coltivazione di muffe",
+      "categoria_principale": "Biologia",
+      "descrizione_e_metodologia": "Realizzare esperienze",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "osservazione di parti della pianta",
+      "categoria_principale": "Biologia",
+      "descrizione_e_metodologia": "Realizzare esperienze",
+      "target": "alunni"
+    },
+    {
+      "titolo_attivita": "Educazione psicomotoria",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Corsi di calcio e twirling",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Esperienza musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Incontro settimanale con insegnante",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Corso di spagnolo",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso settimanale con insegnante madrelingua",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Corso di latino",
+      "categoria_principale": "Lingue classiche",
+      "descrizione_e_metodologia": "Corso settimanale",
+      "target": "Studenti classe III scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso settimanale",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corso di tedesco",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corso settimanale",
+      "target": "Studenti classi II e III scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Laboratorio settimanale",
+      "target": "Studenti classi I, II e III scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio scrittura creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Laboratorio settimanale",
+      "target": "Studenti classi I, II e III scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Incontri di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri programmati dal Legale Rappresentante (min. 10 ore annuali)",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Colloqui scuola-famiglia",
+      "categoria_principale": "Rapporti con le famiglie",
+      "descrizione_e_metodologia": "Assemblee, colloqui individuali, schede di valutazione",
+      "target": "Genitori"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1E15900L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Antonio Rosmini** (RM1E15900L) per il periodo 2022-2025, con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato nel territorio metropolitano di Roma, si configura come una scuola paritaria che pone una buona attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da punteggi generalmente positivi nelle diverse aree di valutazione. Il PTOF dimostra un impegno nella costruzione di percorsi formativi che tengono conto delle attitudini, degli interessi e dei progetti di vita degli studenti, con un focus sulla transizione verso i successivi gradi di istruzione e sullo sviluppo di capacità orientative per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta un indice dedicato all'orientamento, suggerendo un'attenzione strutturata a questa dimensione.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership con diverse realtà del territorio, tra cui **FIDAE**, **FOE**, il **Coordinamento Culturale Scuole libere**, il **Comune**, le **Forze dell’Ordine**, la **Croce rossa**, i **Vigili del fuoco**, l'**ASL**, la **Biblioteca Marazza**, altre **scuole paritarie e statali** e **istituzioni di ispirazione cattolica**. Questo elevato numero di collaborazioni (11 partner) rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti, nonché il supporto alla transizione verso i successivi gradi di istruzione e l'acquisizione di capacità orientative per affrontare le opportunità future. Particolare rilievo viene dato al **progetto di vita** degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte a coordinare i servizi, a favorire il dialogo tra docenti e studenti, a rafforzare il rapporto scuola-genitori, a monitorare le azioni intraprese e a implementare un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, con un buon punteggio in questo ambito. L'uso della didattica laboratoriale risulta meno sviluppato, mentre la flessibilità degli spazi e dei tempi, l'interdisciplinarità e l'attenzione all'esperienza degli studenti sono considerate aspetti positivi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, offrendo agli studenti opportunità di approfondimento e di sviluppo dei propri interessi.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nel solido network di partnership, nella chiarezza delle finalità e degli obiettivi, nella diversificazione dell'offerta didattica e nella varietà delle attività opzionali. L'impegno verso l'apprendimento esperienziale e la costruzione di un sistema integrato di inclusione rappresentano ulteriori elementi positivi. Attività come **Progetto Cambridge** e le numerose esperienze laboratoriali, insieme a **colloqui scuola-famiglia** e **incontri di formazione docenti** sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere lo sviluppo della didattica laboratoriale, che potrebbe essere potenziata per favorire un apprendimento più attivo e coinvolgente.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di coerenza tra finalità, obiettivi e azioni, ma potrebbe essere utile definire indicatori specifici per monitorare l'efficacia delle azioni intraprese e misurare il raggiungimento degli obiettivi prefissati. Un'ulteriore attenzione potrebbe essere rivolta alla promozione di attività di orientamento specifiche per gli studenti con fragilità o a rischio di abbandono scolastico.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della Scuola Primaria Antonio Rosmini dimostra un'attenzione significativa all'orientamento, con un approccio olistico che considera le diverse dimensioni della crescita personale e professionale degli studenti. La scuola si impegna a creare un ambiente di apprendimento stimolante e inclusivo, in grado di favorire lo sviluppo delle potenzialità di ciascun alunno e di prepararlo ad affrontare le sfide del futuro. L'implementazione di un sistema di monitoraggio più strutturato e il potenziamento della didattica laboratoriale potrebbero contribuire a migliorare ulteriormente l'efficacia del PTOF e a garantire un'offerta formativa sempre più rispondente alle esigenze degli studenti e del territorio. Attività come **Esperienze Laboratoriali**, **Realizzazione testi multimediali** e **Visite guidate** rappresentano un valore aggiunto per l'esperienza formativa degli studenti."
+}

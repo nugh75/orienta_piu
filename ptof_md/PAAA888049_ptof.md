@@ -1,0 +1,2655 @@
+# Contenuto PTOF: PAAA888049_PTOF.pdf
+
+## Pagina 1
+
+
+
+---
+
+## Pagina 2
+
+2
+
+## P.T.O.F.
+
+
+## Piano Triennale Dell’Offerta Formativa
+
+
+## A.S. 2025/2026 -2026/2027- 2027/2028
+
+Edizione
+
+## A.S.
+
+Data delibera
+elaborazione Ptof
+Collegio docenti
+Data delibera
+approvazione Ptof
+Consiglio di
+Istituto
+Note
+0
+2024/2025
+10/12/2024
+10/12/2024
+Prima Stesura
+
+---
+
+## Pagina 3
+
+3
+
+## Indice
+
+Premessa
+pag. 05
+Contesto e territorio
+pag. 06
+Organizzazione generale dell’Istituto
+pag. 08
+Mission
+pag. 09
+Vision
+pag. 10
+Finalità istituzionali
+pag. 11
+Modello pedagogico di riferimento
+pag. 12
+Scuola dell’Infanzia
+pag. 13
+Organizzazione
+pag. 13
+Tempo scuola
+pag. 13
+Progettualità e spazi dedicati
+pag. 14
+Scuola Primaria
+pag. 16
+Ripartizione oraria
+pag. 16
+Tempo scuola
+pag. 16
+Spazio potenziato
+pag. 17
+Scuola in ospedale e Istruzione domiciliare
+pag. 17
+Scuola Secondaria di I grado
+pag. 18
+Sezione di Inglese potenziato
+pag. 18
+Indirizzo musicale
+pag. 19
+Curricolo di attività alternativa a IRC
+pag. 19
+Curriculo di Educazione civica e Life skills
+pag. 20
+RAV
+pag. 22
+Priorità e traguardi
+pag. 22
+Obiettivi di processo
+pag. 22
+Progetti per l’ampliamento/arricchimento dell’offerta formativa
+pag. 24
+Progetti d’Istituto
+pag. 24
+Progetti della Scuola dell’Infanzia
+pag. 25
+Progetti della Scuola Primaria
+pag. 25
+Progetti della Scuola Secondaria di I grado
+pag. 27
+Piano per l’orientamento
+pag. 30
+Piano Nazionale Scuola Digitale
+pag. 31
+Inclusione scolastica e sociale
+pag. 33
+B.E.S. 1: Alunni/e con disabilità
+pag. 33
+B.E.S. 2: Alunni/e con DSA
+pag. 34
+B.E.S. 3 e 4: Alunni/e con altri Disturbi Evolutivi Specifici e in situazione di svantaggio
+pag. 34
+Alunni/e stranieri/e
+pag. 35
+Minori adottati
+pag. 35
+Il sistema di programmazione
+pag. 36
+La valutazione
+pag. 37
+Scuola dell’Infanzia
+pag. 37
+Scuola Primaria e Secondaria di I grado
+pag. 37
+Prove d’ingresso
+pag. 37
+Comportamento
+pag. 38
+Educazione civica
+pag. 38
+Ammissione degli/le alunni/e alla classe successiva
+pag. 38
+La certificazione delle competenze
+pag. 40
+Il rapporto scuola-famiglia
+pag. 42
+
+---
+
+## Pagina 4
+
+4
+Organismi di partecipazione
+pag. 43
+Sicurezza
+pag. 44
+Richiesta e utilizzo organico potenziato
+pag. 45
+Allegati al PTOF
+pag. 47
+
+---
+
+## Pagina 5
+
+5
+
+## Premessa
+
+Il PTOF, Piano Triennale dell’Offerta Formativa, definito dalla L. 107/2015, è il documento costitutivo dell’identità
+culturale e progettuale dell’istituzione scolastica, dove vengono esplicitate la progettazione curricolare, extracurricolare,
+educativa e organizzativa che la scuola adotta nell’ambito della sua autonomia. Il PTOF parte dalle risultanze
+dell’autovalutazione d’istituto, (così come contenuta nel Rapporto di Autovalutazione, RAV, pubblicato all’Albo
+elettronico della scuola e presente sul portale Scuola in Chiaro del Ministero dell’Istruzione), prevede una
+programmazione triennale, con revisioni annuali e indica la meta che tutta la comunità scolastica si impegna a
+raggiungere, condividendo l’azione educativa con le famiglie e favorendo una positiva interazione con il territorio.
+
+---
+
+## Pagina 6
+
+6
+
+## Contesto E Territorio
+
+L’IC Aldo Moro, costituito nell’anno 2000, comprende:
+•
+la Scuola dell’Infanzia Primavera;
+•
+la Scuola Primaria Cerioli;
+•
+la Scuola Secondaria di Primo Grado, Aldo Moro, che ha al suo interno una sezione, il corso D, ad indirizzo
+musicale, dove i/le ragazzi/e frequentano lezioni individuali di flauto, chitarra, pianoforte, clarinetto e sax e
+lezioni di musica d’insieme;
+•
+una sezione di Scuola in Ospedale.
+La Scuola in ospedale è collocata presso il reparto di pediatria dell’ospedale “Bolognini” di Seriate.
+La città di Seriate per la sua collocazione territoriale alle porte di Bergamo ha registrato un considerevole incremento
+demografico e, negli anni, il territorio è stato soggetto a flussi migratori e al nucleo originario si è aggiunta una
+componente di immigrati/e diventati ormai residenti.
+Le percentuali maggiori di alunni/e stranieri/e, di seconda e in qualche caso di terza generazione, si riscontrano nelle
+classi delle Scuole dell’Infanzia e in quelle dei primi anni di Scuola Primaria.
+Il quartiere in cui il nostro Istituto è collocato comprende un bacino di utenza caratterizzato da molteplici realtà
+socioeconomiche e culturali, eterogenee fra loro per cui si evidenzia la necessità di predisporre una progettazione
+didattica particolarmente flessibile e attenta a bisogni diversificati.
+In un territorio così variegato, la scuola si propone di trasformare la convivenza di culture diverse in un incontro
+significativo che metta in relazione mondi diversi e crei le condizioni per sviluppare la socializzazione, l’integrazione
+e la crescita reciproca.
+In tal senso opera il Collegio dei Docenti elaborando anche protocolli d’intesa con gli Enti Locali e le Agenzie formative
+del territorio.
+In particolare, si sono costruite collaborazioni significative con:
+•
+Città di Seriate;
+•
+Piano di Zona;
+•
+Associazioni di volontariato presenti sul territorio e gruppo missionario;
+•
+
+## Ats;
+
+•
+SerCar;
+•
+AT (Ambito Territoriale) e CTI;
+•
+AGESS (Associazione Genitori);
+•
+Associazione Betania
+Si attuano, inoltre, azioni di collaborazione con altre realtà istituzionali ed associative:
+•
+Carabinieri;
+•
+Polizia Locale;
+•
+Protezione Civile;
+•
+Banda Musicale;
+•
+Gruppo Alpini;
+•
+ANPI (Associazione Nazionale Partigiani Italiani);
+•
+
+## Sfa;
+
+•
+Gruppo di Mediazione Didattica;
+•
+Caritas.
+I docenti predispongono ogni anno il Piano di Diritto allo Studio (P.D.S.) per integrare l’offerta formativa dell’Istituto,
+tale piano è sostenuto dall’amministrazione Comunale, la collaborazione tra scuola ed Ente Locale assume un ruolo
+fondamentale per la qualità delle proposte formative e per l’entità dell’impegno di spesa.
+La costruzione del P.D.S. è preceduta da un’attenta analisi dei bisogni effettuata all’interno del Collegio Docenti e delle
+sue varie articolazioni (Consigli di Plesso, Consigli di Classe e di Interclasse, commissioni di lavoro).
+La stesura del P.D.S., in continuità con quanto operato negli anni precedenti, sarà articolata in due aree di intervento:
+
+## P01 Progetti In Ambito Tecnico Professionale
+
+•
+01 Potenziamento
+•
+03 Strumento-Attività musicale
+
+---
+
+## Pagina 7
+
+7
+•
+04 Sport
+•
+05 Innovazione tecnologica- Creazione nuovi ambienti digitali
+•
+07 Salute- Educazione ambientale/Orto
+
+## P02 Progetti In Ambito Umanistico Sociale
+
+•
+01 Alunni/e con BES, in Istruzione domiciliare, Scuola in Ospedale
+•
+02 Lingua straniera
+•
+03 Sportello aperto
+•
+04 Educazione alle relazioni, all’affettività, bullismo/cyberbullismo
+•
+05 Teatro, Arte, Lettura
+
+---
+
+## Pagina 8
+
+8
+
+## Organizzazione Generale Dell’Istituto
+
+“Istituto Comprensivo Statale “A. Moro” Corso Roma, 37 24068 SERIATE – (BG)
+Tel. 035.295297 – Fax 035.4240539
+email:bgic876002@istruzione.it – bgic876002@pec.istruzione.it
+Codice Meccanografico BGIC876002
+Codice Fiscale 9511846016
+Sito internet: www.aldomoroseriate.edu.it
+L’ufficio di segreteria è aperto al pubblico dal lunedì al venerdì dalle 11.00 alle 13.00 presso l’Auditorium di Corso
+Roma e l’accesso avviene su appuntamento.
+La Dirigente riceve previo appuntamento.
+L’Istituto è raggiungibile da Bergamo con le linee n.1 e n. 8 dell’ATB.
+L’Istituto comprensivo “A. Moro” comprende i quartieri posti ad ovest del fiume Serio; appartengono all’Istituto le
+seguenti scuole:
+
+## Denominazione
+
+
+## Indirizzo
+
+
+## Numero Di
+
+
+## Classi
+
+
+## Numero Di
+
+
+## Alunni
+
+Infanzia Primavera
+Corso Roma, 37
+035/298798
+6
+116
+Primaria Cerioli
+via Don Minzoni, 3
+035/294344
+18
+380
+Primaria Ospedale
+Ospedale Bolognini,
+Seriate 035/3063111
+1
+Variabile
+Secondaria di Primo Grado A.
+Moro
+Corso Roma, 37
+035/295297
+14
+298
+Dei quali nell’indirizzo musicale
+della scuola secondaria di primo
+grado
+3
+73
+
+---
+
+## Pagina 9
+
+9
+
+## Mission
+
+La mission indica l’identità della scuola e le sue finalità, definisce i traguardi di sviluppo che rappresentano l’orizzonte
+ultimo di ogni agito.
+La mission della scuola è quella di promuovere e realizzare i processi di insegnamento/apprendimento. Il nostro Istituto
+ha deciso di focalizzare l’attenzione e la cura soprattutto sul processo di apprendimento e questo significa mettere al
+centro dell’attività didattica l’alunno, le alunne e le sue strategie per imparare. Il processo di insegnamento va visto
+quindi non come autoreferenziale, ma come funzionale al successo formativo degli/delle alluni/e.
+La diversità culturale, sempre più presente nella nostra società e, in particolare, nel nostro territorio, arricchisce il
+contesto educativo ma ne aumenta anche la complessità. Il mosaico di culture e di bisogni che il docente si trova davanti
+ogni giorno in un’aula, richiede continue azioni per l’integrazione e il superamento delle difficoltà.
+La nostra scuola assume queste sfide in quanto la Scuola deve essere il luogo privilegiato per la ricomposizione di
+conoscenze e competenze che l’alunno possiede già e non solo il luogo di certificazione di ciò che si insegna e si
+trasmette. È il luogo in cui gli\le alunni\e imparano a sistematizzare la loro esperienza del reale e a renderla utilizzabile
+in modo etico e produttivo.
+Essendo inoltre, la nostra, una Scuola del Primo Ciclo è necessario che la didattica ponga la curiosità e la scoperta
+sempre al centro dell’attività dell’aula, senza dimenticare di riservare molta attenzione all’orientamento dei ragazzi e
+delle ragazze.
+Le scelte didattiche verso cui la nostra scuola si sta muovendo, mirano a potenziare modalità laboratoriali e la didattica
+per competenze e per compiti autentici: tutti modelli in cui l’alunno e le alunne sono i protagonisti della costruzione del
+sapere e l’insegnante una guida e un facilitatore.
+In questo senso cerchiamo di perseguire il successo formativo: contribuendo in modo attivo a che emergano da ogni
+alunno/a potenzialità, capacità e passioni.
+
+---
+
+## Pagina 10
+
+10
+
+## Vision
+
+La vision è il complesso di azioni e scelte che la scuola si propone di attuare per il miglioramento continuo, è l’obiettivo
+che la scuola persegue nel lungo termine.
+La nostra scuola cerca di operare per differenziare la proposta formativa adeguandola alle esigenze di ciascuno. A tutti
+gli/le alunni/e si cerca di dare la possibilità di sviluppare al meglio la propria identità e le proprie potenzialità, favorendo
+la valorizzazione delle peculiarità di cui ciascuno è portatore.
+Il nostro Istituto si impegna a perseguire il diritto di ognuno ad apprendere, nel rispetto dei propri tempi e delle proprie
+strategie, progettando percorsi atti al superamento delle difficoltà, finalizzati allo star bene a scuola, alla costruzione di
+un pensiero positivo di sé e al potenziamento della cooperazione. Questo non significa solo supportare e accompagnare
+gli/le alunni/e in situazione di svantaggio cognitivo, economico sociale ed educativo, ma anche promuovere intelligenze
+creative e critiche rispondendo ai bisogni degli/delle più dotati/e.
+Per far questo la scuola, mentre lavora durante le ore curriculari in un’ottica di integrazione e valorizzazione di tutti i
+tipi di intelligenze, programma e progetta da anni momenti specifici in orario extracurriculare dedicati ad
+approfondimenti disciplinari.
+Fondamentale nella pratica educativa quotidiana in tutti gli ordini di scuola è la costruzione di una cittadinanza attiva,
+fatta di attenzione e rispetto per l’altro/a, per gli oggetti e gli spazi intorno a noi, di abitudine all’esercizio della gentilezza
+come modalità di relazione, di ricerca della bellezza nei luoghi, nelle persone, nelle attività.
+In base al comma 7 dell’art. 1 la legge 107 del 2015 individua una serie di obiettivi che le istituzioni scolastiche
+autonome possono inserire nel Piano triennale, avvalendosi anche di un organico potenziato di insegnanti, in base alle
+esigenze formative prioritarie individuate.
+L’Istituto Comprensivo Aldo Moro individua i seguenti obiettivi per il triennio 2025-2028, ritenendoli coerenti con la
+propria vision e strategici per raggiungere benessere, inclusione e successo formativo degli studenti:
+•
+potenziamento delle competenze nella musica, nell’arte, nel cinema;
+•
+sviluppo delle competenze in materia di cittadinanza attiva e democratica attraverso la valorizzazione
+dell’educazione interculturale e alla pace, il rispetto delle differenze e il dialogo tra le culture, il sostegno
+dell’assunzione di responsabilità, l’educazione all’auto imprenditorialità;
+•
+alfabetizzazione all’arte, alle tecniche e ai media di produzione e diffusione delle immagini;
+•
+potenziamento delle discipline motorie, sviluppo di comportamenti ispirati a uno stile di vita sano;
+•
+sviluppo di comportamenti responsabili ispirati alla conoscenza e al rispetto della legalità, della sostenibilità
+ambientale, dei beni paesaggistici, del patrimonio e delle attività culturali;
+•
+sviluppo delle competenze digitali degli/delle alunni/e;
+•
+potenziamento delle metodologie laboratoriali e delle attività di laboratorio;
+•
+prevenzione e contrasto della dispersione scolastica, di ogni forma di discriminazione; potenziamento
+dell’inclusione scolastica e del diritto allo studio degli/delle alunni/e con bisogni educativi speciali attraverso
+percorsi individualizzati e personalizzati;
+•
+valorizzazione della scuola intesa come comunità attiva, aperta al territorio;
+•
+apertura pomeridiana delle scuole e riduzione del numero di alunni/e per classe o per articolazioni di gruppi
+di classi, anche con potenziamento del tempo scolastico o rimodulazione del monte orario;
+•
+valorizzazione di percorsi formativi individualizzati e coinvolgimento degli/delle alunni/e;
+•
+individuazione di percorsi funzionali alla premialità e alla valorizzazione del merito degli/delle alunni/e;
+•
+alfabetizzazione e perfezionamento dell’italiano come lingua seconda;
+•
+potenziamento delle lingue straniere.
+
+---
+
+## Pagina 11
+
+11
+
+## Finalità E Compiti Istituzionali
+
+La finalità generale del nostro Istituto Comprensivo è:
+"il pieno sviluppo della persona sul piano cognitivo e culturale, all’interno dei principi della Costituzione italiana e
+della tradizione culturale europea, per fornire ogni ragazzo/a degli strumenti necessari ad affrontare gli scenari sociali
+e professionali presenti e futuri".
+In ottemperanza a ciò tutte le attività previste dal PTOF hanno per finalità:
+•
+la promozione delle potenzialità e delle diverse intelligenze degli/delle alunni/e attraverso interventi educativo
+- didattici che, tenendo conto degli stili di apprendimento di ciascuno, mirino a garantire una solida cultura di
+base e a ridurre le situazioni di insuccesso scolastico.
+•
+la limitazione della dispersione scolastica con mirate iniziative di prevenzione dei disagi e di recupero degli
+svantaggi
+•
+il raggiungimento di un buon controllo dei propri comportamenti e il rispetto delle regole di convivenza; la
+promozione di stili relazionali centrati sulla condivisione dei valori di convivenza, anche sul piano affettivo ed
+emotivo.
+•
+la base per la formazione del futuro “cittadino del mondo”, dotato di spirito critico, di senso della solidarietà,
+di attenzione alla salute propria ed altrui, di rispetto per l'ambiente e di consapevolezza dei propri diritti e
+doveri.
+L’I.C. “A. Moro” per l’attuazione del suo compito istituzionale si ispira ai valori di:
+•
+Accoglienza
+•
+Solidarietà
+•
+Inclusione
+•
+Interculturalità
+•
+Trasparenza
+•
+Uguaglianza delle opportunità educative
+•
+Imparzialità
+•
+Promozione e valorizzazione umana, sociale e civile degli alunni
+•
+Libertà di insegnamento
+•
+Sostenibilità
+Alla luce della normativa vigente e delle “Indicazioni Nazionali e Nuovi scenari” (2018):
+•
+attuare modalità organizzative e didattiche corrispondenti alle richieste espresse dalle famiglie e pienamente
+rispettose dei modi e dei tempi di apprendimento di ogni singolo/a alunno/a; esse si basano sulla conduzione
+equilibrata delle classi, sulla ottimizzazione delle risorse, sull’uso dei laboratori e su progetti educativi;
+•
+rafforzare le finalità e le modalità del lavoro educativo nell’ottica del loro miglioramento, impegnandosi a dare
+a tutti adeguate e differenziate opportunità formative per garantire il massimo di sviluppo possibile per ognuno
+ed il successo formativo di tutti;
+•
+collaborare con la famiglia al fine di costruire e condividere il progetto educativo.
+•
+assumere, quale orizzonte di riferimento verso cui tendere il quadro delle competenze-chiave europee per
+l’apprendimento permanente definite dalla Raccomandazione del Consiglio (22 maggio 2018):
+1) competenza alfabetica funzionale;
+2) competenza multilinguistica;
+3) competenza matematica e competenze in scienze, tecnologie e ingegneria;
+4) competenza digitale;
+5) competenza personale, sociale e capacità di imparare a imparare;
+6) competenza in materia di cittadinanza;
+7) capacità di agire sulla base di idee ed opportunità e trasformarle in valori per gli altri;
+8) competenza in materia di consapevolezza ed espressione culturale.
+
+---
+
+## Pagina 12
+
+12
+
+## Modello Pedagogico Di Riferimento
+
+La scuola
+•
+produce cultura rapportandosi alla realtà secondo ipotesi di significato stimolando curiosità e desiderio di
+ricerca;
+•
+educa attraverso i valori della convivenza civile e lo sviluppo delle capacità critiche;
+•
+persegue cinque finalità fondamentali:
+▪
+Valorizzazione delle capacità personali di ciascuno (espressione delle diverse intelligenze)
+▪
+Acquisizione di conoscenze (acquisizione delle basi del sapere disciplinare)
+▪
+Acquisizione di abilità (acquisizione di procedure per la risoluzione di problemi)
+▪
+Costruzione di competenze (agire comportamenti complessi, personali e creativi per portare a
+compimento compiti autentici)
+▪
+Acquisizione di capacità metacognitive, autovalutative e orientative (capacità di riflettere su di sé,
+sulle proprie modalità di comportamento e apprendimento, capacità di valutare i propri comportamenti
+e le proprie prestazioni, capacità di scegliere e di prendere decisioni).
+La centralità dell’alunno e delle alunne, come persone portatrici di bisogni psico-sociali, di conoscenze e di competenze,
+ma anche di proprie risorse personali in termini di capacità, fonda il lavoro educativo e ne suggerisce le scelte di fondo.
+Lo sviluppo e la maturazione della consapevolezza di sé e della realtà e della capacità critica rappresentano le dimensioni
+educative di riferimento del lavoro dei Docenti basate su:
+•
+il rispetto delle fasi evolutive e delle esigenze psicologiche del/della alunno/a e dell’apprendimento nelle
+diverse età;
+•
+la centralità della relazione discente-docente per un corretto processo di maturazione;
+•
+un corretto bilanciamento del rapporto insegnamento/apprendimento, dove è l’insegnante a costruire le
+opportunità didattiche più funzionali al successo formativo degli/delle alunni/e.
+
+---
+
+## Pagina 13
+
+13
+
+## Scuola Dell’Infanzia
+
+
+## Organizzazione
+
+Sezioni eterogenee per età: facilitano, stimolano, arricchiscono scambi di esperienze vissuti a diversi livelli affettivi,
+cognitivi, sociali che danno spunti a nuove rielaborazioni.
+Intersezione: offre opportunità di stimoli maggiori con varietà di esperienze e relazioni tra pari e adulti,
+personalizzazione e individualizzazione del percorso educativo – didattico (non attuabile durante l’emergenza
+epidemiologica); l’intersezione non viene più calendarizzata settimanalmente ma viene calendarizzata annualmente in
+alcuni momenti.
+
+## Primavera
+
+Insegnanti
+19
+Alunni
+116
+Sezioni
+6
+Figure particolari
+insegnante specialista di I.R.C.
+insegnanti di sostegno
+insegnante potenziamento
+assistenti educatori/alla comunicazione
+
+## Tempo Scuola
+
+
+## Attività
+
+
+## Primavera
+
+Accoglienza
+8.30/9.00
+Attività di routine e somministrazione frutta in due turni
+9.00/9.50
+9.00/ 10.10
+Attività di sezione
+(diversificata a seconda del turno della mensa)
+09.50/11.20
+10.10/12.15
+Preparazione mensa
+(diversificata a seconda del turno della mensa)
+11.20/11.30
+12.15/12.25
+Mensa in due turni
+11.30/12.10
+12.25/13.00
+Gioco libero
+12.10/13.45
+Riposo per i/le bambini/e di 3 anni
+13.15/15.30
+Attività per i/le bambini/e di 4 e 5 anni
+13.45/15.30
+Riordino
+15.30/16.00
+Uscita
+16.00/16.30
+
+---
+
+## Pagina 14
+
+14
+
+## Progettualità E Spazi Dedicati
+
+Nella scuola dell’infanzia la progettualità (compresa l’educazione civica) è strettamente interconnessa e trasversale a
+tutti i campi di esperienza, considerati come “luoghi del fare e dell’agire del/la bambino/a”. In tale ottica i vari ambiti
+del sapere concorrono allo sviluppo globale della personalità del/la bambino/a in tutti i suoi aspetti.
+Ambito linguistico-espressivo
+Tale ambito ha come finalità lo sviluppo delle relative aree di corrispondenza attraverso la problematizzazione delle
+esperienze in semplici contesti che ne potenziano il bagaglio linguistico-espressivo in un’ottica laboratoriale incentrata
+sulla libera creatività del/la singolo/a.
+Ambito logico-matematico, tecnologico e scientifico
+Il percorso logico-matematico-scientifico ha la finalità di incentivare nel bambino la curiosità, l’osservazione, la
+sperimentazione ed il ragionamento, attraverso situazioni problema che implichino molteplici strategie risolutive
+A supporto dei progetti e della didattica sono stati allestiti degli ambienti di apprendimento innovativi che incidono
+sulla qualità dell’apprendimento, della motivazione, dell’interesse verso le proposte della scuola, favoriscono la
+relazione e rendono il bambino e la bambina veri protagonisti del loro apprendimento.
+AULA SNOEZLEN: è uno strumento mirato alla ricerca di un contatto con il mondo interno delle persone, tramite la
+stimolazione dei sensi. Un’offerta selezionata di stimoli primari in un ambiente necessariamente attraente. Tali stimoli
+sono utili alle persone in quanto riducono il malessere fisico, alleviano le tensioni emozionali ed aggressive, attenuano
+le paure e facilitano la partecipazione attiva in un ambiente fatto di luci, suoni, profumi, sensazioni ed emozioni.
+Per creare una stanza adeguata a ciò che si vuole stimolare, basta procedere adattando l’illuminazione, l’atmosfera, i
+suoni e la consistenza tattile ai bisogni specifici degli/lle utenti.
+Il progetto “stanza multisensoriale” nasce dall’esigenza di realizzare uno spazio protetto e strutturato, accessibile a tutti,
+dove poter proporre attività specifiche finalizzate alle stimolazioni plurisensoriali al fine di creare suggestioni attraenti
+che incrementino la percezione nei bambini e nelle bambine.
+AULA POLIFUNZIONALE: consiste in uno spazio accogliente, multifunzionale ed attrezzato con strumenti ed arredi
+innovativi e stimolanti che favoriscono l’inclusione. Rappresenta un ambiente di apprendimento importante a
+disposizione di tutte le sezioni a rotazione dove è possibile strutturare attività psicomotorie e non, per favorire
+l’apprendimento creativo di competenze nel rispetto dei tempi e delle peculiarità di ognuno/a. Lo spazio è organizzato
+con tappeti di vario spessore morbidi, strutture a specchio, una parete d’arrampicata, una libreria ed uno spazio lettura
+con cuscini morbidi di forma diversa; l’ambiente è dotato anche di una Lim con videoproiettore. Il pomeriggio, questo
+ambiente accoglie i bambini e le bambine di tre anni per un momento di relax/sonno in base ai bisogni individuali
+degli/le stessi/e.
+AULA I-THEATRE: è un ambiente organizzato per supportare i bambini e le bambine nell’attività creativa di
+creazione e condivisione di storie e racconti animati in chiave innovativa. I-Theatre è uno strumento interattivo che
+integra il lavoro analogico del bambino e delle bambine nella narrazione e costruzione di storie. Questo strumento
+favorisce la relazione e la condivisione rendendo l’ambiente collaborativo in quanto utilizzabile contemporaneamente
+da più persone. Nell’aula sono presenti, inoltre, tavoli e sedie per l’elaborazione manuale di sfondi e personaggi ed un
+video proiettore interattivo. Lo spazio viene utilizzato in piccolo gruppo da tutti i bambini e le bambine della scuola
+dell’infanzia, a rotazione.
+AULA STEM: è uno spazio strutturato con arredi specifici (armadi, tavolo con video proiettore, “i-Vulcani”, lavagna
+scrivibile, schermo interattivo di ultima generazione, specchi tridimensionali) finalizzati a supportare osservazioni ed
+esperienze di carattere scientifico, tecnologico, matematico, in chiave innovativa. Le attrezzature presenti permettono
+ai docenti ed ai bambini e alle bambine di mettere in gioco molteplici linguaggi, attraverso la sperimentazione concreta
+in chiave collaborativa ed inclusiva. Questo ambiente favorisce lo sviluppo del pensiero critico, la valutazione delle
+informazioni e migliora la capacità di problem solving.
+Tutti gli ambienti sono stati creati per rispondere ai seguenti obiettivi:
+-
+facilitare le diverse modalità percettive dei bambini e delle bambine;
+-
+favorire il rilassamento;
+-
+facilitare l’inclusione di tutti i bambini e le bambine della scuola attraverso processi di innovazione
+metodologica-didattica;
+-
+stimolare e permettere le diverse forme di interazione e comunicazione;
+-
+stimolare l’esplorazione dell’ambiente attraverso i sensi;
+-
+stimolare lo sviluppo senso-motorio nei bambini;
+-
+stimolare la creatività;
+-
+stimolare il pensiero critico e le capacità di problem solving;
+
+---
+
+## Pagina 15
+
+15
+-
+dare benessere all’intera comunità scolastica;
+-
+promuovere stati affettivi positivi;
+-
+ridurre i comportamenti non adattativi/oppositivi incentivando quelli positivi;
+-
+favorire la condivisione e la collaborazione tra bambini e bambine.
+
+---
+
+## Pagina 16
+
+16
+
+## Scuola Primaria
+
+In base alle richieste delle famiglie e all’organico assegnato all’Istituto nell’anno scolastico 2023-2024 saranno attive
+18 classi nel plesso Cerioli.
+
+## Ripartizione Oraria Delle Discipline A.S. 2024/25
+
+I
+II
+III
+IV
+V
+27 h
+30 h
+27 h
+30 h
+27 h
+30 h
+29 h*
+32 h*
+30 h*
+30 h*
+Italiano
+7
+7
+7
+7
+7
+7
+6
+7
+6
+7
+Inglese
+2
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Matematica
+6
+7
+6
+7
+6
+7
+6
+6
+6
+6
+Storia
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+Geografia
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+Scienze
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+Musica
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+Arte e Immagine
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+Scienze motorie
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+Religione
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+Educazione Civica
+33 ore annuali
+*Approfondimento
+interdisciplinare
+66 ore annuali
+
+## Tempo Scuola
+
+
+## Ore Settimanali
+
+
+## Articolazione Oraria
+
+
+## Ampliamento O.F.
+
+27 (classi 1^, 2^, 3^)
+4 classi
+*29 (classi 4^e 5^)
+4 classi
+Lunedì, mercoledì, venerdì
+8.30 – 12.30; 14.00 – 16.00
+con possibilità di mensa
+martedì, giovedì 8.30 – 13.00
+*lunedì, mercoledì, venerdì
+8.24-13.00; 14.00-16.00
+
+## Mensa
+
+• tutti i giorni per i/le bambini/e iscritti alle 30
+ore;
+• lunedì, mercoledì e venerdì per i/le bambini/e
+iscritti/e alle 27 ore.
+
+## Anticipo
+
+Tutti i giorni dalle 7.45 alle 8.25 a cura di agenzie
+esterne
+individuate
+dall’Amministrazione
+Comunale, previo raggiungimento di un numero
+minimo di iscrizioni, ampliabile dalle 7,35 se ci
+saranno iscritti al servizio.
+30 (classi 1^, 2^, 3^, 4^ e 5^)
+10 classi a 30 h
+Da lunedì a venerdì
+8.30 – 12.30; 14.00 – 16.00
+con possibilità di mensa
+* Introduzione Ed. Motoria nelle classi 4^ e 5^ con docente specializzato di Educazione Motoria come previsto da DM
+n. 80 del 30 marzo 2022.
+Gli/Le alunni/e di classe 4^e 5^ aggiungono mezz’ora di attività laboratoriali-ludiche nei giorni di lunedì, mercoledì e
+venerdì.
+
+---
+
+## Pagina 17
+
+17
+
+## Spazio Potenziato
+
+Nel nostro Istituto Comprensivo, nel plesso “Cerioli”, è presente uno spazio dedicato all’accoglienza degli/delle alunni/e
+con disabilità grave e complessa che richiedono interventi particolari, alternativi a quelli normalmente realizzati.
+L’alunno/a è normalmente inserito/a nel gruppo classe di appartenenza, ma in ingresso, in uscita e in momenti specifici
+della giornata può necessitare di un intervento che si basa su metodologie specifiche per una didattica centrata non su
+un curricolo standardizzato, ma su un reale progetto individualizzato. Su indicazione della neuropsichiatria, l’orario
+scolastico potrebbe essere personalizzato, proprio tenendo conto degli specifici bisogni formativi.
+SCUOLA IN OSPEDALE e ISTRUZIONE DOMICIALIARE
+Il servizio è gestito ed organizzato da un docente di scuola Primaria e garantisce agli/alle alunni/e ricoverati nel reparto
+di Pediatria dell’ospedale Bolognini di Seriate (BG) il diritto all’istruzione.
+Le attività svolte sono facoltative, vengono progettate nell’ambito dell’offerta formativa dell’Istituto nel rispetto dell’età
+anagrafica, delle esigenze e dello stato di salute degli/delle stessi/e.
+L’Istituto in caso di richiesta documentata da parte dei genitori, pur nel rispetto delle prerogative contrattuali dei
+Docenti, può offrire il servizio di istruzione domiciliare come particolare modalità di esercizio del diritto allo studio,
+attingendo alle risorse finanziarie ai sensi della Legge 440/97. Il servizio viene rinnovato con cadenza triennale ed è
+attualmente attivo fino al 2029.
+
+---
+
+## Pagina 18
+
+18
+
+## Scuola Secondaria Di Primo Grado
+
+
+## Ore Settimanali
+
+
+## Tempo Scuola
+
+
+## Quadro Orario
+
+30
+Da lunedì a venerdì:
+classi prime 7.55 – 13.55
+classi seconde 7.58-13.58
+classi terze 8.00-14.00
+Italiano, Storia, Geografia
+9
+Approfondimento di materie letterarie
+1
+Matematica e scienze
+6
+Tecnologia
+2
+Inglese
+3
+Francese / Inglese potenziato
+2
+Arte e immagine
+2
+Ed. fisica
+2
+Musica
+2
+Religione cattolica
+1
+Educazione civica
+33 h annuali
+30 + 2*
+Indirizzo musicale
+Da lunedì a venerdì:
+classi prime 7.55 – 13.55
+classi seconde 7.58-13.58
+classi terze 8.00-14.00
++ 2 ore di strumento in orario
+pomeridiano
+Al quadro orario delle 30 ore si
+aggiungono 2 ore di strumento
+I lavori di riqualificazione del polo scolastico di Corso Roma prevedono la ristrutturazione della scuola secondaria di I
+grado Aldo Moro mediante il suo efficientamento energetico ed il miglioramento antisismico, con la ridefinizione
+dell’assetto architettonico, l'accessibilità e la fruibilità degli spazi interni ed esterni, la ristrutturazione della palestra e
+la realizzazione di un nuovo Auditorium. Il progetto ha come obiettivo principale l’adeguamento dell’edificio alle
+normative vigenti: antisismica, energetica, antincendio e sicurezza. Prevede un generale riassetto distributivo di tutti i
+piani con la creazione di nuovi spazi per le attività didattiche e gli uffici della segreteria. Installando una nuova centrale
+termica per la climatizzazione degli uffici e un sistema di ventilazione meccanica ad alta potenza, si va inoltre a garantire
+a regime il miglior efficientamento energetico possibile e un conseguente risparmio in termini di consumi.
+
+## Sezione Di Inglese Potenziato
+
+A partire dall’a.s. 2025/26 una o due sezioni delle classi prime della Secondaria, ade eccezione della sezione musicale,
+saranno oggetto di Sezione di Potenziamento di Lingua Inglese con abbattimento della seconda lingua comunitaria a
+favore di 2ore di inglese per un totale complessivo di 5 ore di inglese a settimana.
+La Sezione di Potenziamento di Lingua Inglese, introdotta dal DPR n. 89 del 20 marzo 2009, articolo 5 comma 10, è
+compatibile con le disponibilità di organico e in assenza di esubero dei docenti della seconda lingua comunitaria, purché
+richiesta dalle famiglie.
+Nella Secondaria “Aldo Moro”, le famiglie degli/delle alunni/e in arrivo dalla Primaria Cerioli (terze, quarte e quinte
+dell’a.s. 2024/25) hanno espresso parere favorevole alla Sezione di Potenziamento di Lingua Inglese a maggioranza con
+un sondaggio del dicembre 2024.
+L'obiettivo dello studio dell’Inglese potenziato è quello di approfondire una lingua divenuta ormai essenziale al giorno
+d'oggi come codice di comunicazione nel mondo e per avviare i ragazzi sia alla scuola superiore sia al mondo del lavoro.
+In un contesto di scarso se non assente utilizzo della lingua straniera quale mezzo di comunicazione, si è constatato
+quanto i ragazzi abbiano necessità di fare esperienze in cui l'uso della lingua sia il più̀ possibile vicino a contesti di vita
+quotidiana. Pertanto, le cinque ore di lingua e cultura inglese, hanno l'obiettivo di fornire un maggior approfondimento
+
+---
+
+## Pagina 19
+
+19
+ed un'adeguata padronanza della principale lingua straniera comunitaria per mezzo di letture riguardanti la civiltà̀,
+dialoghi, conversazioni, ascolti, visioni di film.
+Si precisa che laddove la previsione di uscita al termine della Scuola Secondaria di I grado in termini di sviluppo delle
+conoscenze, abilità e competenze linguistiche corrisponde al livello A2, nel caso dell'insegnamento dell'Inglese
+Potenziato la previsione di uscita si sposta al livello A2+/B1.
+
+## Indirizzo Musicale
+
+Presso la scuola secondaria dell’Istituto è attivo l’Indirizzo musicale che prevede lo studio di uno dei seguenti strumenti:
+clarinetto o sassofono, flauto traverso, chitarra, pianoforte.
+A partire dall’a.s. 2023/24 per decreto n. 176 del 2022 le ore settimanali di strumento in orario pomeridiano sono passate
+da 2 a 3 nelle classi prime e negli anni successivi passeranno, a regime, in tutte le classi.
+La frequenza dell’indirizzo è aperta ad un’utenza di 24 alunni/e. Il corso prevede la frequenza obbligatoria triennale.
+Per informazioni specifiche relative al regolamento.
+Il corso è così strutturato:
+-
+una lezione in coppia di 80 minuti in cui apprendere la tecnica basilare dello strumento, la teoria ed il solfeggio per
+la decodifica e la lettura del linguaggio musicale; la lezione può essere strutturata come lezione individuale (40
+minuti a testa) nella quale gli/le alunni/e assistono alla lezione del/la compagno/a partecipando comunque
+attivamente nell’analisi e approfondimenti delle tematiche tecniche e musicali affrontate, o come lezione in duo
+durante la quale approfondire il repertorio per duo strumentale.
+-
+una lezione di musica d’insieme in cui unire tutti gli/le alunni/e nell’orchestrazione di celebri brani di repertorio di
+ogni genere ed epoca. Le lezioni di musica d’insieme si svolgono al mercoledì pomeriggio, le fasce orarie vengono
+comunicate alle famiglie interessate all’inizio di ciascun anno scolastico. Durante l’anno scolastico sono previste
+pubbliche esibizioni collettive come, ad esempio, la promozione dell’indirizzo musicale durante l’open day, i
+concerti sul territorio, gli Assaggi musicali e il Saggio finale e il potenziamento della musica d’insieme, con stage
+interni di musica da camera.
+Sono inoltre attivi tre progetti:
+-
+Avviamento strumentale sulle classi quinte della scuola primaria. Il progetto si svolge dal mese di ottobre fino a
+gennaio ed ha la precisa finalità di far conoscere a tutti gli/le alunni/e delle classi quinte della scuola primaria Cerioli
+l’indirizzo musicale. Attraverso lezioni a piccoli gruppi (due ore per settimana) tenute dai quattro docenti di
+strumento gli/le alunni/e hanno la possibilità di conoscere, provare, toccare gli strumenti musicali proposti oltre che
+sperimentare attività ritmico musicali attraverso diverse tecniche come ad esempio la body percussion. A partire da
+febbraio, immediatamente dopo lo svolgimento delle prove attitudinali previste dalla normativa che regola le
+ammissioni all’indirizzo musicale, le due ore vengono svolte da ogni docente con i/le 6 alunni/e ammessi per l’anno
+successivo. Questo permette di anticipare di quattro mesi l’inizio delle lezioni in modo tale da poter alfabetizzare
+ogni alunno/a sullo strumento che studieranno per il successivo triennio.
+-
+Progetto orchestra continuità, per gli/le alunni/e che hanno terminato il triennio della scuola media ad indirizzo
+musicale ed esprimono l’interesse e la volontà di continuare l’esperienza dell’orchestra. A partire dal mese di
+novembre gli/le alunni/e interessati/e e che avranno adempiuto alle norme previste per l’iscrizione potranno essere
+inseriti nell’organico orchestrale in modo da proseguire l’esperienza dell’attività della musica d’insieme.
+-
+Laboratorio annuale di percussioni, aperto ad un massimo di 12 alunni/e (4 alunni/e per ogni annualità ad
+esclusione della sezione D, essendo quella dell’indirizzo musicale). Il progetto prevede 32 ore di lezione per ogni
+annualità (per un totale di 96 ore annuali) tenute da un docente con comprovate competenze strumentali e musicali
+individuato attraverso un bando annuale. Il gruppo delle percussioni, oltre ad offrire un’alternativa musicale ai
+percorsi previsti dall’indirizzo musicale, permette di arricchire la compagine orchestrale dell’istituto fornendo il
+materiale timbrico offerto degli strumenti a percussioni. Il progetto inizia verso il mese di novembre e prevede
+lezioni settimanali divise per gruppi in base all’annualità. A partire dal mese di gennaio gli/le alunni/e si uniranno
+all’orchestra per le prove del mercoledì e parteciperanno alle esibizioni pubbliche. Non attivato nell’a.s. 2024/25.
+CURRICOLO di ATTIVITÀ ALTERNATIVA a IRC
+L’articolo 9, punto 2, dell’Accordo con la Santa Sede, ratificato con legge 25 marzo 1985, numero 121 sancisce il diritto
+per gli/le alunni/e di avvalersi o non avvalersi dell’insegnamento della IRC. In conformità con la normativa vigente,
+vengono pertanto previste per gli/le alunni/e che non si avvalgono dell’insegnamento della IRC, attività didattiche
+formative per gruppi di alunni/e, anche di classi diverse. I programmi ministeriali non forniscono specifiche indicazioni
+per le attività da svolgere in alternativa all’IRC; precisano solo che dette attività non devono rivestire un carattere
+curricolare per non determinare differenziazione nel processo formativo dell’intera classe. Le attività alternative saranno
+pertanto articolate come un percorso educativo che promuova sentimenti di appartenenza, di coesione, di solidarietà e
+di rispetto reciproco, stimolando in particolare modo lo sviluppo della capacità di condivisione in società multiculturali,
+
+---
+
+## Pagina 20
+
+20
+la possibilità di costruire rapporti pacifici con gli/le altri/e, guidando l’alunno e le alunne verso l’interiorizzazione delle
+abilità nel risolvere conflitti relazionali.
+Per la progettualità del curricolo di attività alternativa alla IRC si rimanda all’Allegato n. 2
+CURRICOLO di EDUCAZIONE CIVICA e LIFE SKILLS
+Con il D.M. n. 183 del 7 settembre 2024, il Ministro per l’Istruzione e il Merito ha emanato le nuove Linee guida per
+l’insegnamento dell’Educazione Civica, che sostituiscono quelle emanate con il D.M. n. 35 del 2020. Le Linee Guida
+entrano in vigore con l’a.s. 2024/25 e assolvono al dettato della Legge 92/19, che prescriveva al Ministero di fornire
+alle scuole “specifici traguardi per lo sviluppo delle competenze e obiettivi specifici di apprendimento” (art. 3, comma
+1).
+L’atto d’indirizzo del Dirigente scolastico per la predisposizione del PTOF, relativo al triennio 2025-28, emanato in
+data 15/10/2024, individua tra le priorità anche l’obiettivo di: “Consolidare il Curricolo per l’Educazione Civica
+apportando le eventuali modifiche ed integrando in modo sinergico e coerente obiettivi e contenuti trasversali”.
+Pertanto, nel corso dell’a.s. 2024/25 l’I.C. Aldo Moro ricalibra il proprio curricolo formativo. Nella riformulazione
+dell’offerta didattica nell’organizzazione delle attività di Ed. Civica, verranno ovviamente considerate le diverse
+esigenze legate alle diverse età degli alunni e i diversi gradi di istruzione.
+Le tematiche trattate dalle Nuove Linee Guida possono essere raggruppate nelle seguenti macroaree:
+1. Costituzione, istituzioni dello Stato italiano, dell’Unione europea e degli organismi internazionali; storia
+della bandiera e dell’inno nazionale;
+2. Agenda 2030 per lo sviluppo sostenibile, adottata dall’Assemblea generale delle Nazioni Unite il 25
+settembre 2015;
+3. Educazione alla cittadinanza digitale;
+4. Elementi fondamentali di diritto, con particolare riguardo al diritto del lavoro;
+5. Educazione ambientale, sviluppo eco-sostenibile e tutela del patrimonio ambientale, delle identità, delle
+produzioni e delle eccellenze territoriali e agroalimentari;
+6. Educazione alla legalità e al contrasto delle mafie;
+7. Educazione al rispetto e alla valorizzazione del patrimonio culturale e dei beni pubblici comuni;
+8. Formazione di base in materia di protezione civile.
+Il concetto chiave che collega tutte le tematiche sopra elencate è quello di responsabilità, declinato in tutti gli ambiti
+della realtà, dal digitale al sociale, passando per la salvaguardia del patrimonio naturale locale e globale. Una
+responsabilità che prende forma con l’acquisizione di conoscenze, la messa in pratica di atteggiamenti rivolti a sé,
+agli altri ed al contesto, nonché il concretizzarsi di azioni volte alla cooperazione e alla solidarietà.
+Organizzazione e metodologia
+La Legge prevede che all’insegnamento dell’educazione civica siano dedicate non meno di 33 ore per ciascun anno
+scolastico. Nelle scuole del primo ciclo l’insegnamento è affidato, in contitolarità, a docenti della classe/del consiglio
+di classe, tra i quali è individuato un coordinatore.
+Nell’arco delle 33 ore annuali i docenti potranno proporre attività che sviluppino con sistematicità conoscenze, abilità
+e competenze relative all’educazione alla cittadinanza, all’educazione alla salute e al benessere psicofisico e al
+contrasto delle dipendenze, all’educazione ambientale, all’educazione finanziaria, all’educazione stradale,
+all’educazione digitale e all’educazione al rispetto e ai nuclei fondamentali che saranno oggetto di ulteriore
+approfondimento, di riflessione e ricerca in unità didattiche di singoli docenti e in unità di apprendimento e moduli
+interdisciplinari trasversali condivisi da più docenti. Si potranno così offrire agli allievi gli strumenti indispensabili
+per affrontare le questioni e i problemi in modo trasversale al curricolo, favorendo un dialogo interdisciplinare e
+realizzando la prospettiva educativa che rappresenta l’autentica sfida dell’insegnamento dell’educazione civica.
+Nelle Nuove Linee guida vengono sottolineati due elementi di fondamentale importanza: la prospettiva trasversale
+dell’insegnamento e la necessità di un apprendimento esperienziale dell’Educazione Civica, in quanto si afferma: “Il
+Collegio dei Docenti e le sue articolazioni, nonché i team docenti e i consigli di classe, nella predisposizione del
+curricolo e nella sua pianificazione organizzativa, individuano le conoscenze e le abilità necessarie a perseguire i
+traguardi di competenza fissati dalle Linee Guida, attingendo anche dagli obiettivi specifici in esse contenuti. Possono,
+in sede di pianificazione, essere individuati percorsi didattici, problemi, situazioni, esperienze anche laboratoriali
+idonei ad aggregare più insegnamenti/discipline e che richiedano la specifica trattazione di argomenti propri
+dell’educazione civica.”
+Il docente cui sono affidati i compiti di coordinamento avrà cura di favorire l’opportuno lavoro preparatorio di équipe
+nei consigli. Appare opportuno suggerire che, nell’ambito del piano annuale delle attività, siano previsti specifici
+momenti di programmazione interdisciplinare, per la progettazione di Unità di Apprendimento incentrate sulle
+tematiche e le necessità emerse nei singoli Consigli di classe/interclasse/intersezione.
+Le tematiche affrontate all’interno dei percorsi di educazione civica devono essere calate nella realtà del contesto in
+cui verranno affrontate, a seconda degli spontanei bisogni formativi ed emotivi degli studenti, anche emersi in maniera
+
+---
+
+## Pagina 21
+
+21
+inconscia, le dinamiche relazionali della classe, le problematiche sociali ed ambientali vicine agli studenti o alle quali
+c’è bisogno di sensibilizzare.
+I temi che le istituzioni scolastiche decideranno di sviluppare saranno inseriti nel PTOF e condivisi con le famiglie.
+Dal Curricolo di Istituto alla proposta progettuale
+In relazione a quanto sopra esposto, si individuano inoltre nuclei tematici, trasversali agli argomenti individuati nel testo
+normativo, e relativi traguardi, utili al fine della valutazione.
+Life skills
+In tema di educazione alla salute, al benessere psicofisico e al contrasto delle dipendenze, un particolare rilievo
+assumono i progetti che riguardano le cosiddette life skills.
+È legge la proposta, approvata dalla Camera il 3 agosto 2023, che introduce nelle scuole lo sviluppo di competenze non
+cognitive e trasversali.
+Secondo l’Organizzazione Mondiale della Sanità le life skills sono suddivise in tre macroaree: competenze emotive
+(consapevolezza di sé, gestione delle emozioni, gestione dello stress), competenze relazionali (empatia, comunicazione
+efficace, relazioni efficaci) e competenze cognitive (risolvere i problemi, prendere decisioni, pensiero critico, pensiero
+creativo).
+Il nostro Istituto ha già avviato, nell’a.s. 2023/24, ancor prima dell’entrata in vigore della legge, un percorso di
+attuazione delle lifeskills in collaborazione con l’ATS, l’azienda sanitaria territoriale. Il progetto, partito nelle classi
+prime della Secondaria, si sviluppa per tre anni, fino all’a.s. 2025/26.
+Per la progettazione completa del curriculo di Educazione Civica, declinato sui tre ordini di scuola e rispondente alle
+linee guida diramate dal MIM si rimanda all’Allegato n. 5
+
+---
+
+## Pagina 22
+
+22
+RAV
+
+## Priorità E Traguardi
+
+Il PTOF 2025-28 riguarda un periodo molto importante per il nostro Istituto e per l'intero Paese, periodo che sarà
+connotato dalla parola “cura”: le nostre priorità, le aspirazioni e il nostro agire saranno all'insegna, in particolare, dei
+valori della sostenibilità (Agenda 2030), del benessere, della coesione sociale e del successo formativo delle giovani
+generazioni, il tutto in un contesto emergenziale che ha imposto una profonda revisione di assunti consolidati nel tempo
+e considerati a torto immutabili.
+Consapevoli del ruolo centrale della scuola, interprete dei bisogni formativi delle nuove generazioni e protagonista nella
+formazione di cittadini/e attivi/e, e tenuto conto di:
+•
+Il Piano Nazionale di Ripresa e Resilienza;
+•
+l'Atto di indirizzo politico-istituzionale per l'anno 2023 del MIM;
+•
+il Piano scuola per l'anno 2021-22 – DM n. 257/21;
+•
+Il PTOF del triennio 2019-2022;
+le priorità e i traguardi che l’Istituto si è assegnato per il prossimo triennio sono in via di definizione, si
+accompagneranno alla ridefinizione del RAV, da attuare entro l’anno solare 2025, e partiranno ovviamente da quelli
+stabiliti nel triennio precedente, i quali erano i seguenti:
+•
+Area Risultati scolastici
+-
+Priorità: Miglioramento dei livelli di apprendimento degli/delle alunni/e per ridurre la fascia
+bassa.
+-
+Traguardi:
+●
+Omogeneità dei risultati delle prove parallele e delle prove standardizzate nazionali
+tra classi dello stesso livello
+●
+Riduzione dell'incidenza delle percentuali degli/delle alunni/e in fascia bassa
+•
+Area Competenze chiave e di cittadinanza
+-
+Priorità: Progettazione e valutazione didattica per competenze chiave
+-
+Traguardi
+●
+Revisione dei curricoli per ciascuna competenza trasversale.
+●
+Progettazione didattica per compiti autentici anche alla luce dell’insegnamento
+dell’Educazione Civica
+●
+Utilizzo di strategie didattiche innovative.
+●
+Aggiornamento di rubriche con indicatori specifici per la certificazione delle
+competenze chiave.
+La motivazione della scelta effettuata è dettata dal fatto che il livello culturale degli/le alunni/e del nostro istituto si pone
+storicamente in una fascia medio-bassa e quindi la scuola si pone come obiettivo il miglioramento dei livelli di
+apprendimento di tutti gli/le alunni/e, in particolare di quelli di fascia bassa. Tale obiettivo è diventato particolarmente
+stringente negli ultimi anni, in situazioni dove la scuola è stata chiamata a riformulare (e in alcuni casi a stravolgere) il
+proprio impianto didattico e l’agire comune.
+A questo scopo il lavoro e la valutazione per competenze sembra offrire la possibilità di valorizzare, partendo da compiti
+autentici, le potenzialità di ciascuno. Per lavorare per competenze occorre creare strumenti di valutazione basati sulle
+rubriche di competenza, rivisitare integrare la didattica tradizionale, basata soprattutto sull'apprendimento disciplinare,
+creare una comunicazione efficace con gli/le alunni/e (e le famiglie) in modo che sia chiara e condivisa la modalità di
+certificazione delle competenze e quali sono le finalità educative della scuola.
+Al tempo stesso restano immutati alcuni saperi fondamentali, considerati irrinunciabili dalla nostra scuola.
+Individuate le priorità e i traguardi, vengono ipotizzati gli obiettivi di processo che riguardano le aree di azione per
+assolvere alla mission dell’istituto.
+Gli obiettivi di processo definiscono le linee che l’I.C. Aldo Moro intende seguire per raggiungere i traguardi.
+
+## Obiettivi Di Processo
+
+Curricolo, progettazione e valutazione
+•
+Creare un curricolo per ogni competenza chiave.
+•
+Progettare percorsi formativi che vadano incontro ai diversi bisogni di apprendimento.
+•
+Progettare prove oggettive che tengano conto di abilità, conoscenze e degli obiettivi di competenza, anche
+attraverso compiti di realtà.
+Ambiente di apprendimento
+•
+Implementare l’utilizzo dell’ambiente virtuale, soprattutto per gli/le alunni/e in difficoltà, per favorire una
+didattica efficace integrata.
+•
+Incrementare l’utilizzo di strategie didattiche innovative (es. la flipped classroom, il cooperative learning, il
+
+---
+
+## Pagina 23
+
+23
+problem solving, l’approccioEAS).
+•
+Favorire pratiche di collaborazione e condivisione fra docenti.
+Inclusione e personalizzazione
+•
+Strutturare percorsi didattico-educativi integrativi e complementari tesi a facilitare e a sostenere
+l'apprendimento degli/le alunni/e in difficoltà.
+•
+Stipulare convenzioni con realtà del territorio finalizzate a sostenere nello studio gli/le alunni/e in difficoltà.
+•
+Stimolare interesse e motivazione allo studio anche negli/lle alunni/e con situazioni di disagio.
+•
+Includere e valorizzare le differenze culturali, personalizzare percorsi di consolidamento e potenziamento.
+Continuità e orientamento
+•
+Implementare la funzione formativa dell'Orientamento: favorire occasioni per lo sviluppo della personalità
+dell'alunno delle alunne individuando e agendo su specifici stili cognitivi.
+•
+Aiutare l'alunno e le alunne a individuare e a sviluppare le proprie capacità progettuali e organizzative.
+•
+Favorire la conoscenza di sé, la promozione dello spirito critico e la partecipazione attiva all’apprendimento.
+•
+Creare occasioni per riflettere sulle regole e sul Patto di corresponsabilità (soprattutto in situazione di
+emergenza sanitaria).
+Orientamento strategico e organizzazione della scuola
+•
+Attribuire incarichi specifici ai docenti.
+•
+Creare gruppi di lavoro per riflettere su:
+○
+progettazione,
+○
+valutazione,
+○
+inclusione
+○
+rendicontazione.
+•
+Formulare percorsi laboratoriali e trasversali.
+Sviluppo e valorizzazione delle risorse umane
+•
+Valorizzare le competenze di ciascun docente.
+•
+Organizzare formazione sulle nuove metodologie didattiche (anche digitali), sull’inclusione e sulla
+valutazione.
+•
+Promuovere nel processo di insegnamento-apprendimento le conoscenze specifiche, tenendo conto delle
+diverse dimensioni dell’apprendimento.
+Integrazione con il territorio e rapporti con le famiglie
+•
+Utilizzare questionari o altri indici per migliorare la percezione della scuola da parte dell'utenza.
+•
+Interagire con le realtà del territorio per ampliare l’offerta formativa.
+Esigenze del contesto e degli studenti
+Il nostro Istituto intende fornire strumenti culturali alle giovani generazioni, che permettano di analizzare il contesto
+locale e globale, da cittadini/e attivi/e e consapevoli.
+In base alle priorità che saranno tracciate nel RAV si procederà ad accorpare alcuni obiettivi di processo per la
+definizione e la stesura del Piano di Miglioramento, selezionando i più strategici che possono avere il maggior impatto
+generale sulla formazione dei docenti, sull’introduzione e l’implementazione di nuove strategie didattiche e una ricaduta
+positiva sul successo formativo degli/delle alunni/e.
+
+---
+
+## Pagina 24
+
+24
+
+## Progetti Per L’Ampliamento/Arricchimento Dell’Offerta
+
+
+## Formativa
+
+Tutti i progetti:
+•
+arricchiscono l’offerta formativa dell’Istituto;
+•
+favoriscono la partecipazione degli/delle alunni/e alla Mission della scuola;
+•
+accolgono le strategie innovative nel far scuola;
+•
+hanno come criterio base l’innalzamento dei livelli di istruzione, il potenziamento dei saperi e delle
+competenze.
+Per ogni progetto viene predisposta una scheda descrittiva (agli atti in segreteria) ben delineata che contiene i seguenti
+punti:
+1) Docente referente del progetto
+2) Riferimenti al PTOF
+3) Finalità
+4) Obiettivi specifici e trasversali
+5) Fase di attuazione
+6) Contenuti
+7) Attività previste e loro calendarizzazione
+8) Scelte organizzative e metodologiche
+9) Verifica e valutazione con relazione finale del docente referente
+Di seguito vengono elencati con una breve descrizione i progetti comuni a tutto l’istituto, proposti annualmente perché
+coerenti con l’offerta formativa e con l’idea di scuola del Collegio docenti.
+
+## Progetti D’Istituto
+
+Sportello psicologico
+Obiettivi:
+•
+prevenire e/o elaborare problemi o difficoltà che possono insorgere nel comportamento, nel processo di apprendimento, nell’acquisizione
+del metodo di studio, nelle relazioni con i/le compagni/e e gli adulti;
+•
+superare alcuni momenti critici tipici dell’età;
+•
+affrontare problematiche comportamentali ed emotive degli/delle alunni/e;
+•
+sostenere il cambiamento;
+•
+supportare nelle relazioni;
+•
+supportare nella costruzione delle regole di convivenza civile;
+•
+sostenere gli insegnanti nel loro compito attraverso la consulenza, il confronto e la formazione;
+•
+sostenere le famiglie nel compito educativo.
+Il servizio garantisce la presenza di un professionista che riceve su appuntamento genitori, insegnanti e alunni/e (a partire dalla scuola secondaria,
+previa autorizzazione delle famiglie).
+Progetto alfabetizzazione
+Obiettivi:
+•
+rimuovere gli impedimenti di ordine linguistico per favorire il pieno inserimento nella classe;
+•
+promuovere la partecipazione attiva alla vita della scuola;
+•
+sviluppare le abilità comunicative;
+•
+favorire gli apprendimenti relativi alle varie discipline;
+•
+sviluppare le abilità per orientarsi nel sociale;
+•
+prevenire l’insuccesso scolastico.
+Lettura condivisa
+Lettura di testi a tema comune dall’infanzia alla secondaria con preparazione di presentazione ed eventi aperti al territorio con l’obiettivo di stimolare
+alla bellezza della lettura, alla creatività e alla condivisione del sapere.
+
+## #Ioleggoperche’
+
+Organizzata dall'Associazione Italiana Editori, è la più grande iniziativa nazionale di promozione della lettura. Vengono donati alle scuole dei libri
+nuovi, che arricchiscono il patrimonio librario delle biblioteche scolastiche.
+IUPS “La scuola si fa bella”
+Progetto di collaborazione tra scuola e genitori per la partecipazione, il supporto e l’aiuto in attività scolastiche di sistemazione o di convivialità
+Progetto Settimana della gentilezza
+Progetto teso a sviluppare comportamenti di rispetto e accoglienza verso l‘altro, l’altra.
+Centro Sportivo Scolastico
+Il nostro I.C. ha istituito il Centro Sportivo Scolastico quale struttura organizzativa per favorire l’avviamento alla pratica motoria sportiva, in
+collaborazione con l’Ufficio scolastico Coordinamento Educazione Fisica e Sportiva di Bergamo. Le attività di “Avviamento alla pratica sportiva” e
+
+---
+
+## Pagina 25
+
+25
+di “Multisport-Crescere in movimento” sono rivolte agli/le iscritti/e della secondaria, saranno attuate in orario scolastico ed extrascolastico e
+preludono alla partecipazione ai Campionati studenteschi promossi dal MIUR. (Allegato n. 3)
+Biblioteca Scolastica
+La Primaria Cerioli, l’Infanzia Primavera e la Secondaria sono dotate di una biblioteca di plesso.
+
+## Progetti Della Scuola Dell’Infanzia
+
+Progetto ambientamento
+Si effettua all’inizio dell’anno scolastico ed ha come scopo quello di accogliere le alunne e gli alunni e le loro famiglie nel rispetto delle singole
+specificità, di rendere piacevole l’ingresso e/o il ritorno a scuola e di favorire la graduale comprensione e/o ripresa dei ritmi della vita scolastica.
+Progetto Open day
+Il progetto è rivolto alle famiglie con bambini e bambine che dovranno frequentare la scuola dell’infanzia. La scuola apre le porte, anche attraverso
+modalità on-line, per permettere la conoscenza del nuovo ambiente sia ai bambini e alle bambine che hanno frequentato il nido sia a coloro che sono
+alla loro prima esperienza con il mondo della scuola. Scopo del progetto è quello di far conoscere la scuola e il percorso educativo e didattico proposto.
+Progetto continuità
+Il progetto è rivolto a tutte le alunne e gli alunni dell’ultimo anno della scuola dell’infanzia. Le insegnanti collaborano con le insegnanti della scuola
+primaria per facilitare il passaggio delle alunne e degli alunni al nuovo ordine di scuola, predispongono alcuni incontri presso la scuola primaria
+dell’istituto comprensivo.
+Progetto iniziative e feste
+Il progetto offre l’opportunità alle alunne e agli alunni di vivere avvenimenti legati alla tradizione e di fare esperienze trasversali ai vari campi di
+esperienza. La scuola si trasforma e si anima in veri e propri laboratori di apprendimento.
+In questo progetto sono previsti anche percorsi condivisi con gli enti territoriali quali ad esempio la biblioteca e il comune.
+Potenziamento
+Il progetto ha lo scopo di consolidare ed ampliare il baule di conoscenze ed abilità (linguistiche o altre) pregresse per giungere ad una più sicura
+padronanza delle stesse.
+Progetto relax
+Il progetto relax concorre a favorire il rilassamento psico-fisico delle alunne e degli alunni; secondo i recenti studi delle neuroscienze il riposo
+contribuisce alla sedimentazione delle conoscenze acquisite nell’arco della giornata scolastica, implementando i processi di apprendimento.
+Progetto biblioteca e letture animate
+Sono previste uscite in biblioteca ed interventi a scuola di lettura animata rivolta a tutte le alunne e gli alunni della scuola.
+Progetto teatro
+Il progetto è rivolto a tutte le alunne e gli alunni dell’ultimo anno della scuola dell’infanzia.
+L’attrice del Teatro Prova leggerà: “Vorrei un tempo lento lento” di Luigina Del Gobbo e Sophie Fratus.
+In una società dove “tutto” scorre veloce proviamo ad ascoltare la lettura di questo libro che conduce le alunne e gli alunni alla riscoperta della
+bellezza del tempo lento per assaporare e gustare le piccole scoperte, lo stare insieme e il condividere nuove esperienze.
+Progetto PNRR
+I laboratori relativi al bando PNRR sono rivolti a tutte le alunne e agli alunni dell’ultimo anno della scuola dell’infanzia. I gruppi sono un momento
+di intersezione tra le classi ed infatti ogni gruppo è formato da bambini e bambine appartenenti a tutte le sei sezioni.
+I docenti interni saranno esperti e tutor di quattro gruppi:
+•
+coding e robotica;
+•
+tinkering;
+•
+orto tecnologico, prima edizione;
+•
+orto tecnologica, seconda edizione - un legame tra indoor e outdoor
+Tirocinanti e visiting
+La scuola dell’Infanzia, come centro di ricerca, ospita da diversi anni le studentesse e gli studenti dell’Università di Bergamo, corso “Scienze della
+formazione primaria” in qualità di tirocinanti.
+Inoltre, la scuola e i diversi ambienti di apprendimento sono oggetto di VISITING da parte di molti gruppi di studentesse e di studenti dell’Università
+di Bergamo.
+
+## Progetti Della Scuola Primaria
+
+Tutte le classi
+Progetto accoglienza
+Attività per far sì che ciascuno/a si senta accolto/a, senta di appartenere ad un gruppo e di poter esprimere i propri pensieri e le proprie emozioni
+Laboratori a tema ultima settimana
+Laboratori per stimolare la collaborazione approfondendo un tema inclusivo
+Lettura
+Attività per promuovere negli alunni e nelle alunne l’abitudine alla lettura personale, la frequentazione della biblioteca pubblica, la cura dei propri
+libri e di quelli altrui
+
+---
+
+## Pagina 26
+
+26
+Progetto Coro PN 21-27 classi 2^, 3^,4^e 5^CANTANDO SI CRESCE
+Progetto volto a migliorare le competenze sociali e il rapporto con il proprio corpo e la propria voce.
+Progetto PN 21-27 arte classi 2^, 3^,4^e 5^: ABBELLIAMO LA SCUOLA
+Progetto volto a proporre attività creative e artistiche.
+Spazio Potenziato
+Progetto di pet-therapy
+Si propone di migliorare il benessere fisico ed emotivo attraverso l’interazione tra animali domestici e bambini/e.
+Progetto uscite sul territorio
+Il progetto nasce dal bisogno degli/le alunni/e di sperimentare e costruire autonomie in ambienti anche esterni alla scuola che coinvolgono il territorio
+cittadino e la sua comunità.
+Laboratorio artistico
+Il laboratorio è volto a lavorare sullo sviluppo e perfezionamento della manualità fine, della coordinazione oculo-manuale, del controllo grafo-motorio,
+stimolando la libera espressione e la socializzazione degli/le alunni/e.
+Laboratorio motorio
+Si propone di lavorare sulla consapevolezza dello schema corporeo e motorio, sulle capacità coordinative in un contesto sociale e ludico.
+Laboratorio musicale
+Propone attività ludiche-musicali, di sperimentazione diretta e di ascolto partecipato. L’obiettivo principale è quello di far vivere ai/lle bambini/e
+un’esperienza musicale attraverso l’utilizzo del ritmo e della melodia, con attività mirate alla scoperta dei suoni e dei rumori.
+Classi prime
+Educazione psicomotoria
+Progetto volto a migliorare la percezione di sé all’interno di un contesto sociale, le competenze sociali e il rapporto con se stessi e gli/le altri/e.
+Laboratorio natura: corpi intelligenti
+Progetto di didattica esperienziale. Attraverso questo progetto nei/le bambini/e si sviluppa un atteggiamento rispettoso dell'ambiente, si promuove
+l’osservazione e l’ascolto della mutazione dell’ambiente e si trasmette il concetto di sostenibilità.
+Progetto continuità
+Il progetto è rivolto a tutti i/le bambini/e delle classi prime in raccordo con la scuola dell'Infanzia.
+Classi seconde
+Coding e robotica (PNRR)
+Il progetto propone un ambiente di programmazione a blocchi per aiutare i ragazzi e le ragazze nel ragionamento logico. I bambini e le bambine
+sviluppano il pensiero computazionale, l’attitudine a risolvere problemi più o meno complessi.
+Progetto hip hop
+Scopo del progetto è diffondere la cultura della danza e promuovere un linguaggio espressivo e comunicativo del corpo e della persona. I bambini e
+le bambine imparano a coordinare i movimenti del corpo con la musica e a sviluppare capacità di equilibrio, ritmo e tempo.
+Progetto potenziamento delle abilità linguistiche
+Attraverso questo progetto gli alunni e le alunne possono migliorare la loro capacità di ascolto, di comunicazione e di comprensione.
+Laboratorio natura
+Attraverso questo progetto nei bambini e nelle bambine si sviluppa un atteggiamento rispettoso dell’ambiente si promuove l’osservazione e l’ascolto
+della mutazione dell’ambiente e si trasmette il concetto di sostenibilità.
+Classi terze
+Laboratorio mitici: laboratorio di espressione artistica
+Il progetto prevede di utilizzare tecniche espressive attraverso il disegno, la pittura e le attività manipolative per inventare storie (previsto intervento
+con esperti Accademia Carrara).
+I miti: comunicare esprimere raccontare emozioni
+Il progetto si propone di comunicare, esprimere, raccontare emozioni utilizzando le varie possibilità che il linguaggio del corpo consente.
+Classi quarte
+Progetto circo
+Si propone di sviluppare capacità motorie di coordinazione, promuovere le capacità relazionali, di collaborazione e aiuto.
+Cittadinanza attiva Confcommercio
+Laboratorio didattico interattivo: diventare cittadini/e attivi/e fin dalla giovane età per impegnarsi a costruire la società.
+Coding e Scratch (PNRR)
+Il progetto propone un ambiente di programmazione a blocchi per aiutare i ragazzi e le ragazze nel ragionamento logico. I bambini e le bambine
+sviluppano il pensiero computazionale, l’attitudine a risolvere problemi più o meno complessi.
+Laboratorio natura
+
+---
+
+## Pagina 27
+
+27
+Giochi di gruppo con l’utilizzo di diversi linguaggi: narrazione, disegno, osservazione naturalistica, esplorazione. Obiettivo di trasmettere il concetto
+di sostenibilità, contribuire allo sviluppo di un atteggiamento rispettoso e di cura dell’ambiente, promuoverne l’osservazione e l’ascolto della
+stagionalità
+Classi quinte
+Le quinte vanno in scena a teatro
+Progetto di animazione teatrale che porterà alla preparazione di uno spettacolo sul tema della Storia della Musica.
+Progetto: accompagnamento allo sviluppo psicofisico
+Percorso per alunni e alunne e genitori di accompagnamento ai cambiamenti psicofisici ed emotivi dell'età preadolescente
+Giornalisti per un giorno
+Le classi visiteranno la redazione dell’Eco di Bergamo e gli studi di registrazione del TG per comprendere come nasce un giornale e un telegiornale.
+La filiera agroalimentare
+I ragazzi e le ragazze faranno un percorso sulla filiera agroalimentare, su una alimentazione sostenibile e a chilometro zero. Il progetto prevede alcune
+uscite sul territorio.
+Competenze Workspace (PNRR)
+Il progetto prevede un percorso di sviluppo delle competenze digitali attraverso la piattaforma Google Workspace.
+Madrelingua inglese (PNRR)
+Il progetto prevede l’intervento di un docente madrelingua per potenziare le competenze linguistiche.
+Progetto continuità
+Il progetto è rivolto a tutti/e i/le bambini/e delle classi quinte in raccordo con la scuola secondaria di prima grado e con la scuola dell’infanzia.
+
+## Progetti Della Scuola Secondaria Di I Grado
+
+Tutte le classi
+Progetto Partenza
+Attività dei primi giorni dell’anno scolastico per far sì che ciascuno si senta accolto, senta di appartenere ad un gruppo e di poter esprimere i propri
+pensieri e le proprie emozioni.
+Assaggi musicali
+Concerti organizzati e realizzati dai docenti e dagli alunni e delle alunne della sezione musicale.
+Attesa vacanze di Natale
+Mattinata di attività comuni come la proiezione di un film e, a conclusione, un momento di convivialità con i genitori.
+Avviamento alla pratica sportiva (con la partecipazione ai campionati studenteschi)
+L’attività prevede alcuni incontri di allenamento rivolti ad alunni e alunne selezionati o ad adesione volontaria.
+Corsa contro la fame
+Progetto didattico internazionale gratuito di educazione alla cittadinanza globale e alla solidarietà. Il progetto coinvolge tutte le classi e ha l’obiettivo
+di responsabilizzare gli studenti e le studentesse andando ad arricchire le loro competenze legate all’Educazione Civica. È prevista un’ora di attività
+con un esperto per ogni classe iscritta. Verrà inviato il kit didattico del progetto. Si ipotizza che la manifestazione sportiva avverrà in due date distinte
+per la dislocazione del plesso nei due oratori del comune di Seriate.
+Recupero di matematica in orario antimeridiano
+Attività in compresenza con un altro docente di matematica della scuola (pacchetto ore) sulle classi prime, seconde e terze, attività rivolte agli/lle
+alunni/e, scelti a discrezione dei docenti di matematica, che hanno bisogno di un consolidamento e\o non hanno raggiunto la sufficienza nel primo
+quadrimestre.
+Giochi matematici del Mediterraneo
+Concorso di carattere nazionale riservato a tutti/e gli/le allievi/e delle classi a tema matematico. I GMM si articolano in quattro fasi: qualificazione
+d'istituto, finale d'istituto, finale di Area/Regionale, finale Nazionale.
+Giornata della Memoria - 27 gennaio
+Progetto svolto per ricordare la Shoah, cioè lo sterminio del popolo ebraico, e tutti i deportati nei campi nazisti.
+Orientamento
+Il Progetto è volto a fornire agli/lle studenti/sse strumenti e conoscenze per sviluppare la consapevolezza delle proprie risorse personali e per diventare
+protagonisti/e attivi/e del proprio percorso di scelta scolastica e professionale. Il progetto è articolato sulle prime, sulle seconde e sulle terze, come
+prevede la normativa vigente.
+Seminiamo la legalità 23 maggio
+Progetto in ricordo della strage di Capaci che ha visto vittima il magistrato Falcone e la sua scorta.
+Sollievo alle famiglie
+Il progetto ha la finalità di supportare le famiglie nell’accesso a vari servizi connessi alla scuola.
+
+---
+
+## Pagina 28
+
+28
+Speak English
+10h al mattino in orario curricolare con un insegnante madrelingua.
+Sportello ascolto
+Viene offerto agli/lle alunni/e ed agli insegnanti supporto psicologico con un professionista (previo bando).
+Amorosamente insieme
+Giornata di condivisione l’ultimo giorno alla fine dell’anno scolastico (con uscita alle ore 12.00).
+Classi prime
+Progetto continuità
+Il progetto è rivolto a tutti/e i/le bambini/e delle classi prime in raccordo con la scuola Primaria.
+Laboratorio di informatica (PNRR)
+Il laboratorio di Informatica è rivolto ad alunni/e che intendono ricevere una prima alfabetizzazione all’utilizzo delle principali applicazioni delle
+GSuite (e-mail, Drive, Classroom, presentazioni google, etc…).
+Letture animate in biblioteca
+Lettura animata di una selezione di libri a cura della biblioteca Gambirasio di Seriate.
+Spazio compiti
+Progetto pomeridiano di supporto all’espletamento dei compiti con insegnanti curriculari.
+Classi seconde
+Concorso copertina diario a.s. 2025/26
+I ragazzi e le ragazze, in orario curriculare, effettueranno le illustrazioni di quella che potrebbe divenire la copertina per il diario scolastico in uso
+all’istituto nel prossimo anno scolastico; verrà votato il miglior lavoro da una commissione preposta.
+Informatica (PNNR)
+Progetto di potenziamento pomeridiano sulle presentazioni multimediali.
+Life Skills
+In continuità con l’a.s. 2023/2024, il programma educativo mira alla promozione della salute della popolazione scolastica, al fine di ridurre a lungo
+termine il rischio di uso di alcol, tabacco, droghe e comportamenti violenti attraverso l’incremento delle abilità personali e sociali.
+Nuoto in Classe
+Il progetto è rivolto agli/lle alunni/e delle classi seconde per renderli sicuri nell’ambiente “acqua”, in continuità con il progetto analogo avviato nelle
+prime dello scorso anno.
+Progetto teatrale "Uscimmo a riveder le stelle" PN 21-27: basato su canti della Divina Commedia di Dante Alighieri, con spettacolo finale nel
+mese di maggio 2025
+Siamo tutti schiappe
+Spettacolo teatrale a cui i/le ragazzi/e assisteranno in orario curriculare nella mattinata di martedì 29 ottobre 2024
+Classi terze
+A2 Key for Schools
+Il corso è rivolto agli/lle alunni/e che vogliano mettere in gioco le proprie competenze nella Lingua Inglese potenziando la comprensione e la
+produzione sia nell’orale che nello scritto. Al termine del corso, gli/le alunni/e che lo desiderassero potranno partecipare all’esame per il
+conseguimento della certificazione A2 Key for Schools (su indicazione dell’insegnante) alla presenza di docenti madrelingua del Cambridge English.
+
+## Ciak Si Gira (Pnrr)
+
+Laboratorio pomeridiano atto alla realizzazione di un cortometraggio.
+
+## Delf
+
+Progetto volto all’ottenimento della certificazione linguistica per la lingua francese.
+
+## I Care
+
+Progetto per supportare i/le ragazzi/e che presentano più difficoltà con percorsi alternativi alla lezione tradizionale.
+Incontro con l’autore
+Progetto che sensibilizza alla lettura spontanea dei libri di uno scrittore contemporaneo, attivo sulla scena nazionale. Il progetto, articolato nel corso
+dell’anno, si conclude con l’incontro in presenza, durante il quale gli/le alunni/e porranno all’autore domande sui significati che sottendono alle sue
+storie, sui suoi interessi e sulla sua attività.
+Laboratorio di Informatica (PNRR)
+Progetto di potenziamento pomeridiano sui fogli Google.
+Potenziamento di matematica
+L’attività di potenziamento matematico è rivolta ad alunni/e che intendono accrescere ed approfondire le abilità e le competenze matematiche
+sperimentando le applicazioni ad ambiti disciplinari diversi, quali ad es. la Fisica e l’Economia.
+Festa dei Diritti: Bullismo e cyberbullismo
+
+---
+
+## Pagina 29
+
+29
+Le classi terze della Secondaria sono coinvolte in una serie di iniziative promosse dall’Amministrazione comunale e realizzate con il contributo di
+diverse realtà del territorio, per una sensibilizzazione su tematiche quali il bullismo, il cyberbullismo.
+Progetto Stadio
+Progetto sullo Stadio di Bergamo che prevede un’uscita al nuovo Stadio di Bergamo (previa conferma da parte della committenza).
+
+---
+
+## Pagina 30
+
+30
+
+## Piano Per L’Orientamento
+
+“Orientare vuol dire porre l’individuo in grado di prendere coscienza di sé e di progredire per l’adeguamento dei suoi studi e della sua
+professione alle esigenze della vita, con il duplice scopo di contribuire al progresso della società e di raggiungere il pieno sviluppo della persona”
+
+## Unesco 1970
+
+Com’è sua tradizione, l’Aldo Moro pone in essere da anni percorsi orientativi per le sue alunne e i suoi alunni, nell’ottica
+di un raccordo tra primo e secondo ciclo di istruzione e per consentire una scelta ponderata a studentesse e studenti, che
+valorizzi i loro talenti e contrasti la dispersione scolastica, secondo la prospettiva del recente Decreto n.328 (22 dicembre
+2022), che fissa, fra l’altro, un monte ore destinato all’orientamento scolastico in ciascuna classe della scuola
+dell’obbligo.
+Non è un caso che vengano attuati Progetti di Continuità sin dalla scuola dell’Infanzia per facilitare il passaggio dei
+bambini e delle bambine al nuovo ordine di scuola, progetti nei quali le insegnanti predispongono alcuni incontri presso
+la scuola Primaria dell’Istituto Comprensivo. Nella stessa ottica vengono realizzate da anni attività di Continuità fra la
+Primaria e la Secondaria.
+In quest’ultimo ordine di scuola, infine, sono diversificati nei tre anni di Secondaria progetti\attività volti ad aiutare gli
+studenti a prendere coscienza di alcuni aspetti del proprio carattere, dei propri punti di forza e debolezza, emotivi e
+cognitivi, valorizzando la propria storia; inoltre si punta a sviluppare alcune abilità necessarie a risolvere problemi,
+affrontare imprevisti, sapere modificare alcune scelte ed individuare alcuni percorsi alternativi, ad approfondire i propri
+interessi ed iniziare ad esplicitare le professioni che si vorrebbero svolgere da grandi, promuovere una capacità di
+espressione e comunicazione delle proprie idee e scelte, anche tramite un dialogo con il proprio contesto familiare e
+scolastico e infine ad aiutare i genitori ad accompagnare i propri figli nella ricerca dei talenti, tenendo conto del fatto
+che la normativa italiana prevede per tutti i ragazzi/e l’obbligo di istruzione (Legge. 296 del 27/12/2006 - art. 1 comma
+622) per almeno 10 anni, cioè fino a 16 anni di età, e il diritto-dovere all’istruzione e alla formazione (Decreto
+Legislativo 15 aprile 2005 n. 76 in attuazione degli articoli 1, 2 e 7 della Legge 53 del 2003), secondo cui si è tenuti a
+proseguire gli studi per conseguire un Diploma o una Qualifica Professionale entro il compimento dei 18 anni.
+Ecco, quindi, in prima Secondaria progetti e attività volti alla conoscenza di sé ma al tempo stesso alla presentazione di
+realtà significative del territorio, come la Protezione Civile; in seconda Secondaria si amplia il discorso sul mondo del
+Volontariato, da un lato, e sul mondo produttivo, dell’industria, del commercio e delle professioni, dall’altro.
+Infine, nel terzo anno della Secondaria si focalizzano le attività per aiutare gli studenti a prendere consapevolezza dei
+propri interessi, delle proprie capacità e dei limiti che ciascuno di noi ha; a sviluppare la conoscenza delle proprie doti,
+abilità e attitudini per esercitare una professione per il futuro e a conoscere i vari tipi di scuola che esistono a Bergamo
+per fare una scelta consapevole che sia realmente espressione delle proprie aspirazioni.
+
+---
+
+## Pagina 31
+
+31
+
+## Piano Nazionale Della Scuola Digitale
+
+ll Piano Nazionale Scuola Digitale (PNSD), adottato con Decreto Ministeriale n. 851 del 27 ottobre 2015, è una delle
+linee di azione della legge 107, “Riforma del sistema nazionale di istruzione e formazione e delega per il riordino delle
+disposizioni legislative vigenti”
+Il percorso di attuazione del Piano Nazionale Scuola Digitale (PNSD) all’interno dell’Istituzione Scolastica è affidato
+alla figura dell’Animatore Digitale (AD) individuato in seguito alla circolare ministeriale prot. n° 17791 del 19/11/2015
+e al Team Digitale formato da un gruppo di docenti rappresentativi dei vari organi di scuola. Il compito di queste figure
+di riferimento è quello di favorire il processo di digitalizzazione della scuola nonché diffondere le politiche legate
+all’innovazione didattica attraverso azioni di accompagnamento e di sostegno coerenti con il PNSD.
+Il Piano Nazionale Scuola Digitale (PNSD) e il quadro di riferimento europeo DigCompEdu offrono un'opportunità
+unica per trasformare la nostra scuola in un ambiente di apprendimento dinamico e innovativo. L'integrazione delle
+tecnologie digitali, in particolare dell'intelligenza artificiale (IA), è fondamentale per sviluppare nei nostri studenti le
+competenze digitali del XXI secolo. L'integrazione delle tecnologie nella didattica deve essere affrontata in modo
+trasversale, coinvolgendo tutte le discipline e promuovendo un approccio interdisciplinare.
+Le risorse messe a disposizione dal Piano Nazionale di Ripresa e Resilienza (PNRR) ampliano ulteriormente questo
+orizzonte, fornendo finanziamenti e strumenti per accelerare la transizione digitale della scuola nei processi di
+insegnamento e apprendimento.
+Il DM 65 e il DM 66 rappresentano due decreti ministeriali fondamentali per la realizzazione della "Scuola 4.0" in Italia,
+nell'ambito del Piano Nazionale di Ripresa e Resilienza (PNRR). Questi decreti hanno l'obiettivo di digitalizzare la
+scuola italiana, fornendo alle istituzioni scolastiche le risorse necessarie per innovare i processi di insegnamento e
+apprendimento.
+La ricchezza delle dotazioni tecnologiche, come digital board, PC e tablet, rappresenta un elemento fondamentale per
+l'implementazione efficace di progetti di innovazione didattica. Questi strumenti offrono un'interfaccia intuitiva e
+versatile per l'accesso a una vasta gamma di risorse digitali e consentono di creare ambienti di apprendimento interattivi
+e coinvolgenti. Grazie alle loro funzionalità avanzate, è possibile integrare l'intelligenza artificiale in modo naturale e
+intuitivo, offrendo agli studenti esperienze di apprendimento personalizzate e adattate ai loro bisogni individuali.
+Obiettivi Specifici
+•
+Allineamento a DigCompEdu: Adottare il quadro di riferimento DigCompEdu per sviluppare le competenze
+digitali dei docenti e promuovere l'utilizzo efficace delle tecnologie digitali in classe.
+•
+Personalizzazione dell'apprendimento: Utilizzare l'IA per creare percorsi formativi su misura per le esigenze
+e i ritmi di apprendimento di ogni studente, in linea con l'area 5 di DigCompEdu.
+•
+Sviluppo del pensiero computazionale: Promuovere lo sviluppo del pensiero computazionale e delle
+competenze di problem-solving attraverso attività di coding e robotica, come previsto dall'area 3 di
+DigCompEdu.
+•
+Potenziamento delle competenze digitali: Equipaggiare gli studenti con le competenze digitali necessarie per
+vivere e lavorare in un mondo sempre più connesso, in linea con le aree 1, 2 e 4 di DigCompEdu.
+•
+Facilitazione del lavoro collaborativo: Utilizzare strumenti digitali collaborativi per favorire il lavoro di
+gruppo e la condivisione delle conoscenze, come previsto dall'area 1 di DigCompEdu.
+Attività Proposte
+•
+Formazione docenti: Organizzare corsi di formazione per i docenti sull'utilizzo didattico delle tecnologie
+digitali, con particolare attenzione all'allineamento con le sei aree di competenza del DigCompEdu.
+•
+Laboratori di coding e robotica: Creare laboratori attrezzati per lo sviluppo di progetti di coding e robotica,
+coinvolgendo gli studenti in attività pratiche e stimolanti, in linea con l'area 3 di DigCompEdu.
+•
+Piattaforme LMS personalizzate: Adottare piattaforme LMS che sfruttano l'IA per offrire contenuti
+personalizzati, feedback automatici e percorsi di apprendimento adattabili, in linea con le aree 3 e 5 di
+DigCompEdu.
+•
+Progetti di ricerca-azione: Coinvolgere gli studenti in progetti di ricerca-azione per risolvere problemi reali e
+sviluppare soluzioni innovative, promuovendo così le aree 3 e 5 di DigCompEdu.
+•
+Community di pratica: Creare una community di pratica tra i docenti per condividere esperienze, risorse e
+buone pratiche sull'utilizzo delle tecnologie digitali e dell'IA in classe.
+Valutazione e Monitoraggio
+•
+Autovalutazione dei docenti: Promuovere l'autovalutazione dei docenti rispetto alle competenze digitali
+acquisite, utilizzando strumenti come il questionario DigCompEdu.
+•
+Osservazione delle pratiche didattiche: Osservare le pratiche didattiche dei docenti per valutare l'integrazione
+delle tecnologie digitali e dell'IA nei processi di insegnamento e apprendimento.
+•
+Analisi dei dati: Analizzare i dati raccolti per monitorare i progressi degli studenti nello sviluppo delle
+competenze digitali e valutare l'efficacia delle attività proposte.
+
+---
+
+## Pagina 32
+
+32
+Conclusioni
+L'integrazione delle tecnologie didattiche nella scuola, in linea con il quadro di riferimento DigCompEdu, rappresenta
+un'opportunità unica per migliorare la qualità dell'apprendimento e preparare gli studenti ad affrontare le sfide del futuro.
+La collaborazione tra docenti, studenti, famiglie e esperti esterni è fondamentale per il successo di questo progetto. Il
+PNRR offre un'occasione senza precedenti per dotare le nostre scuole di infrastrutture tecnologiche all'avanguardia e di
+risorse digitali innovative. I progetti finanziati dal PNRR possono sostenere l'acquisto di hardware e software di ultima
+generazione, la creazione di laboratori di innovazione digitale, e la formazione del personale scolastico. In particolare,
+le misure dedicate alla digitalizzazione della scuola possono favorire l'integrazione di strumenti digitali per la
+personalizzazione dei percorsi di apprendimento, l'analisi dei dati educativi, e la creazione di ambienti di apprendimento
+immersivi.
+
+---
+
+## Pagina 33
+
+33
+
+## Inclusione Scolastica E Sociale
+
+
+## B.E.S. 1: Alunni/E Con Disabilità
+
+La diversità è da considerarsi un valore importante, poiché offre una ricchezza di esperienze e di conoscenze nell’ottica
+di una piena valorizzazione di ogni persona.
+L’inclusione degli alunni/e con disabilità richiede una buona cooperazione e sinergia di intenti tra tutti i soggetti
+coinvolti (famiglia, scuola, ente locale, equipe sociosanitaria ed eventuali altre agenzie che seguono l’alunno).
+Funzione particolare svolge l’insegnante di sostegno, che opera su tutta la classe e non soltanto con l’alunno con
+disabilità affidatogli. Egli sollecita e promuove le dinamiche di gruppo; insieme con i colleghi individua percorsi
+educativi e cognitivi personalizzati, favorisce comportamenti di collaborazione e di solidarietà tra gli alunni e alunne.
+Stabilisce un rapporto di scambio con l’equipe sociosanitaria e coordina tutte le risorse umane e materiali di cui la scuola
+dispone.
+In alcuni casi all’alunno/a con disabilità viene anche assegnato, con il rapporto uno ad uno, un assistente per l’autonomia
+e la comunicazione. Tale figura professionale collabora con il personale docente alla realizzazione degli obiettivi
+previsti dal Piano Educativo Individualizzato (P.E.I.).
+Il Progetto di integrazione del nostro Istituto Comprensivo, valorizzando la potenzialità di ogni alunno, intende
+sviluppare le seguenti dimensioni:
+•
+Socializzazione/Interazione/Relazione
+•
+Comunicazione/Linguaggio
+•
+Autonomia/orientamento
+•
+Cognitiva, Neuropsicologica e dell’apprendimento
+Concorrono alla promozione del benessere scolastico dell’alunno:
+•
+accoglienza;
+•
+collaborazione con la famiglia;
+•
+assenza di barriere architettoniche;
+•
+presenza di servizi e spazi adeguati;
+•
+utilizzo di sussidi didattici specifici;
+•
+programmazioni disciplinari individualizzate e/o semplificate;
+•
+iniziative specifiche di orientamento.
+Si predispongono inoltre situazioni – stimolo motivanti con caratteristiche di flessibilità ed adattabilità per tempi, spazi,
+scelta di materiali, in base a presupposti dichiarati e condivisi.
+Scuola dell’Infanzia
+Partendo dai Campi di Esperienza è possibile definire specifici punti di arrivo, percorsi metodologici ed indicatori di
+verifica, valorizzando le capacità e le potenzialità di ciascun bambino/a, tenuto conto del Profilo di Funzionamento (se
+redatto o in alternativa della Diagnosi funzionale) e del Piano Educativo Individualizzato, elaborato dal team docente.
+Vengono privilegiate attività di tipo motorio, ludico, manipolativo, comunicativo – relazionale, di autonomia personale
+e sociale, che si svolgono in sezione, in intersezione, in piccolo gruppo e, quando è necessario, individualmente.
+Scuola Primaria
+In continuità con il percorso svolto nella scuola dell’infanzia, confrontandosi con la famiglia dell’alunno e con gli
+operatori dell’equipe sociosanitaria, sulla base delle osservazioni effettuate dal team docente, vengono formulati
+obiettivi formativi personalizzati.
+L’attività didattica può essere organizzata con le seguenti modalità:
+•
+attività di classe
+•
+attività di piccolo gruppo
+•
+attività individuale.
+Scuola Secondaria di Primo Grado
+La scuola secondaria di primo grado modula il proprio intervento dando continuità ai percorsi avviati nei precedenti
+ordini di scuola. In particolare, si impegna a riflettere, insieme all’alunno ed alla famiglia, circa il futuro scolastico,
+sociale e/o lavorativo del ragazzo.
+La scuola accompagna l’alunno verso un progetto di vita e per questo cura i rapporti tra i vari ordini di scuola,
+l’extrascuola e le risorse del territorio.
+Già a partire dal secondo quadrimestre del secondo anno di frequenza, il Consiglio di Classe prende contatto con le
+possibili future agenzie formative per il passaggio delle informazioni e per eventuali accordi relativi ai progetti di
+orientamento (progetto ponte, progetto misto, pre-inserimento).
+Valutazione
+Per gli alunni/e con disabilità per i quali è prevista una programmazione didattica personalizzata in una o più discipline
+o si è resa necessaria una parziale sostituzione dei contenuti delle discipline si adotta la valutazione in decimi,
+accompagnata dalla dicitura:
+
+---
+
+## Pagina 34
+
+34
+•
+l’alunno/a segue la progettazione didattica della classe e “La valutazione si riferisce agli obiettivi minimi della
+disciplina” (laddove non sia stata declinata una programmazione differenziata per quella disciplina)
+•
+rispetto alla progettazione didattica della classe sono applicate specifiche personalizzazioni e pertanto “La
+valutazione si riferisce agli obiettivi previsti nel P.E.I.” (in tutti gli altri casi)
+Per gli alunni/e con disabilità grave e gravissima si sostituisce alla valutazione in decimi una presentazione discorsiva
+dei livelli raggiunti nelle seguenti dimensioni:
+•
+Socializzazione/Interazione/Relazione
+•
+Comunicazione/Linguaggio
+•
+Autonomia/orientamento
+•
+Cognitiva, Neuropsicologica e dell’apprendimento
+In tutti i casi, laddove previsto nel documento di valutazione, viene compilata la parte riguardante la rilevazione degli
+obiettivi formativi con la valutazione intermedia (giudizio del primo quadrimestre) e la valutazione finale (giudizio del
+secondo quadrimestre).
+Orientamento
+Dopo il conseguimento del titolo di studio avente valore legale (diploma di licenza) avranno la possibilità di frequentare
+qualsiasi indirizzo di Scuola Secondaria di secondo grado o dell’Istruzione e Formazione Professionale.
+Gli alunni/e con disabilità, dopo aver sostenuto l’esame di Stato a conclusione del primo ciclo d’istruzione con prove
+differenziate coerenti con le caratteristiche dell’intervento educativo – didattico attuato nel triennio e ottenuto il diploma
+di licenza potranno seguire varie tipologie di percorso, secondo i singoli casi, con inserimento nelle classi del biennio
+di tutti gli indirizzi oppure potranno frequentare i Centri di Formazione Professionale (CFP).
+Gli alunni/e con disabilità fisica o psichica con gravi compromissioni a livello cognitivo potranno assolvere l’obbligo
+formativo fino al sedicesimo anno di età nella Scuola Secondaria di primo grado. Successivamente saranno indirizzati
+a Centri Diurni Disabili (CDD) o a Servizi di Formazione all’Autonomia (SFA) o ad altre strutture idonee presenti sul
+territorio.
+
+## B.E.S. 2: Alunni/E Con Dsa
+
+La Legge 170/10 riconosce i diritti delle persone con DSA.
+Stabilisce i compiti della scuola, della famiglia e dei servizi attraverso il piano didattico personalizzato (P.D.P), un
+contratto fra docenti, istituzioni scolastiche, istituzioni sociosanitarie e famiglia, per individuare ed organizzare un
+percorso personalizzato, nel quale devono essere definiti i supporti compensativi e dispensativi che possono portare alla
+realizzazione del successo scolastico dell’alunno con DSA.
+I PDP vengono redatti dal Consiglio di Classe all’inizio di ciascun anno scolastico e condivisi con la famiglia entro il
+30 novembre di ogni anno.
+Valutazione
+Si riferisce ai criteri di valutazione personalizzati adottati conseguentemente alle misure dispensative e all’impiego di
+strumenti compensativi secondo quanto indicato nel piano didattico personalizzato.
+B.E.S. 3 e 4: ALUNNI/E CON ALTRI DISTURBI EVOLUTIVI SPECIFICI E IN SITUAZIONE DI
+
+## Svantaggio
+
+La direttiva ministeriale del 27/12/2012 inserisce nell’area dello svantaggio scolastico alunni che presentano una
+richiesta di speciale attenzione per varie ragioni: disturbi specifici di apprendimento e/o disturbi evolutivi specifici,
+svantaggio linguistico, socioeconomico e culturale.
+L’analisi dei bisogni ha evidenziato nella nostra scuola per alcuni alunni i seguenti nodi problematici:
+•
+assenza o fragilità del patto educativo tra scuola e famiglia;
+•
+ragazzi caratterizzati da povertà nell’espressione e nella comprensione emotiva: fatica ad accettare il limite e
+la norma, sentimenti di sfiducia e di scarsa autostima;
+•
+situazioni personali e familiari critiche (trascuratezza, difficoltà di relazione familiare, presenza di genitore
+ospedalizzato o con grave malattia, …);
+•
+disturbi del comportamento (aggressività, non rispetto delle regole, non rispetto del ruolo regolativo dell’adulto
+di riferimento …);
+•
+situazioni relazionali problematiche con coetanei e adulti;
+•
+alunni turbolenti, non motivati e/o non interessati che tendono ad “imporre” le loro regole alla classe
+rendendone difficoltosa la gestione;
+•
+richiesta di attenzione continua con modalità scorrette ed eclatanti.
+I Consigli di classe, nel fissare gli obiettivi e i contenuti del PDP, coniugano gli obiettivi educativi con gli obiettivi
+cognitivi, anche minimi, per realizzare l’inclusione nella classe e nella scuola; individuano come irrinunciabili ed
+essenziali per una corretta partecipazione alla vita sociale e di gruppo, le competenze relative alla cittadinanza e
+costituzione e gli obiettivi minimi disciplinari.
+
+---
+
+## Pagina 35
+
+35
+Valutazione
+Si riferisce ai criteri di valutazione personalizzati adottati conseguentemente alle misure dispensative e all’impiego di
+strumenti compensativi secondo quanto indicato nel piano didattico personalizzato.
+
+## Alunni/E Stranieri/E
+
+Da anni il nostro Istituto Comprensivo è entrato a far parte degli istituti interessati ad alta presenza di alunni stranieri di
+prima e seconda generazione.
+Esiste per gli alunni e le alunne stranieri Neo Arrivati in Italia (NAI) un protocollo per l’accoglienza e l’inserimento,
+che consente loro di conoscere e di farsi conoscere dalla realtà con la quale si confrontano. Esso coinvolge diverse figure
+dell’Istituto, ciascuna con specifici ruoli e competenze, e si articola in momenti diversi all’interno della scuola.
+Gli obiettivi sono:
+•
+rendere la diversità linguistico-etnica una risorsa e non un ostacolo o una difficoltà;
+•
+condividere pratiche, comportamenti e atteggiamenti finalizzati all’inclusione e allo star bene degli alunni, con
+particolare attenzione agli alunni non italofoni;
+•
+favorire l’apprendimento della lingua italiana per permettere una socialità che sia finalizzata all’inclusione e
+allo scambio reciproco, dove l’ALTRO sia considerato un’opportunità arricchente;
+•
+promuovere la collaborazione tra la scuola e gli Enti Locali che operano nell'ambito dell’interculturalità;
+•
+prevenire situazioni di disagio;
+•
+agevolare l’inserimento e il percorso didattico degli allievi migranti;
+•
+promuovere la collaborazione tra gli enti del Comune al fine di promuovere cooperazione e collaborazione.
+
+## Minori Adottati
+
+Il protocollo di accoglienza per bambini e bambine adottati nasce dalla necessità del Collegio di dotarsi di attenzioni e
+procedure condivise in caso di inserimento di bambini/e adottati in età scolare, sia attraverso adozioni nazionali, sia
+internazionali.
+Ci si riferisce soprattutto ai casi in cui il/la minore sia consapevole della sua condizione di adottato, sia portatore di
+vissuti pregressi anche dolorosi e sappia distinguere la diversità tra il suo passato e il suo presente.
+Perché?
+•
+Perché il/la bambino/a adottato/a internazionalmente non è un/una bambino/a straniero/a,
+•
+perché il/la bambino/a adottato/a ha la sua specificità: ha un passato ed un presente diversi,
+•
+per prefissare pratiche condivise,
+•
+per evitare stereotipi e pregiudizi,
+•
+per orientare chi non è preparato ad accogliere un minore adottato,
+•
+per potenziare e valorizzare le competenze delle figure scolastiche.
+Fasi dell’accoglienza
+1.
+Incontro con i genitori adottivi: primo contatto tra Ds e famiglia adottiva per la richiesta dell'iscrizione in un clima
+di ascolto e disponibilità per favorire l’ingresso scolastico dell’alunno/a nei tempi e modi utili al caso specifico,
+nella consapevolezza che anche i genitori arrivano da un percorso personale, familiare e umano impegnativo.
+2.
+Raccolta informazioni sull’alunno: raccolta della documentazione relativa ad un eventuale percorso scolastico, al
+livello di apprendimento e ad eventuali disordini nell’apprendimento.
+3.
+Verifiche: valutazione del grado di scolarizzazione e apprendimento dell’alunno/a anche attraverso test e con
+l’ausilio del mediatore linguistico/culturale se fosse necessario.
+4.
+Iscrizione: nel caso di adozioni nazionali e internazionali modalità e tempi di iscrizione possono richiedere
+soluzioni diverse. La segreteria deve quindi attivarsi per garantire accoglienza e flessibilità.
+5.
+Condivisione delle informazioni raccolte tra DS e insegnanti, perché siano in grado di affrontare l’accoglienza, di
+programmare un percorso educativo e didattico adeguato e di gestire il/la nuovo/a alunno/a nella normale vita
+scolastica.
+6.
+Scelta della classe: la decisione spetta al Dirigente, in accordo con la famiglia e sentito l’eventuale parere di
+professionistiche segue il/la minore. È possibile programmare un periodo di osservazione in cui il/la minore svolge
+in classi diverse, diverse discipline.
+7.
+Accoglienza in classe: preparare la classe ad accogliere in maniera serena il/la bambino/a adottato/a, prevenendo
+curiosità e atteggiamenti fonti di possibili disagi. Parlare di adozione in classe significa attivare una “risorsa”
+umana e sociale.
+8.
+Predisposizione di una progettazione educativo didattica rispondente ai reali bisogni dell’alunno/a, con particolare
+attenzione alla socialità.
+
+---
+
+## Pagina 36
+
+36
+
+## Il Sistema Di Programmazione
+
+I momenti della programmazione per i Consigli di classe, intersezione, modulo sono:
+•
+fase diagnostica, nel primo periodo dell’anno scolastico per accertare la situazione di partenza dell’alunno/a
+in rapporto a ciò che si ritiene dovrebbe sapere/saper fare. Al termine di questa fase, raccolti tutti gli elementi
+utili, viene progettata, in base alle potenzialità del gruppo classe, l’attività dell’anno (programmazione
+annuale).
+•
+In corso d’anno le scelte programmatiche possono essere riviste o integrate alla luce dell’evoluzione della
+situazione della classe (riprogettazione) al fine di delineare percorsi personalizzati di recupero e di
+potenziamento rispettosi delle capacità e delle attitudini degli alunni.
+•
+Al termine dell’anno scolastico il percorso annuale viene valutato in relazione ai risultati ottenuti (relazione
+finale).
+
+---
+
+## Pagina 37
+
+37
+
+## La Valutazione
+
+La Legge 53 del 2003 detta i seguenti principi e criteri direttivi sulla valutazione scolastica:
+•
+la valutazione, periodica e annuale, degli apprendimenti e del comportamento degli studenti è affidata ai
+Docenti;
+•
+l’INVALSI effettua verifiche sistematiche sulle conoscenze e abilità degli studenti e sulla qualità complessiva
+dell’offerta formativa delle Istituzioni scolastiche, per migliorare e armonizzare la qualità del sistema di
+istruzione.
+Il DM 09/2012 sottolinea che “la valutazione precede, accompagna e segue i percorsi curricolari. Attiva le azioni da
+intraprendere, regola quelle avviate, promuove il bilancio critico su quelle condotte a termine. Assume una preminente
+funzione formativa, di accompagnamento dei processi di apprendimento e di stimolo al miglioramento continuo”.
+Il Decreto Legislativo n.62 del 2017 recante norme in materia di valutazione e certificazione delle competenze,
+approvato ai sensi dell’art.1 commi 180 e 181 della Legge 107/2015, ha apportato importanti modifiche alla normativa
+precedente, in particolare al DPR n.122/2009, Regolamento recante coordinamento delle norme vigenti per la
+valutazione. Resta inalterata la natura formativa della valutazione: l’art.1 del D.lgs. 62 definisce che oggetto della
+valutazione è “il processo formativo e i risultati di apprendimento”.
+La valutazione ha carattere collegiale (comma 3 art.2). Essa è integrata dalla descrizione del processo e del livello
+globale di sviluppo degli apprendimenti raggiunto; concorre all’individuazione di potenzialità e carenze di ciascuno, ai
+processi di autovalutazione degli alunni medesimi, al miglioramento dei livelli di conoscenza e al successo formativo.
+Essa pertanto:
+•
+concorre al miglioramento degli apprendimenti e al successo formativo degli stessi,
+•
+documenta lo sviluppo dell’identità personale,
+•
+promuove l’autovalutazione di ciascuno in relazione all’acquisizione di conoscenze, abilità e competenze,
+•
+ha una finalità orientativa perché documenta lo sviluppo dell’identità personale.
+La valutazione è un processo sistematico e continuo che riguarda le prestazioni dell’alunno, l’efficacia degli
+insegnamenti e la qualità dell’offerta formativa.
+
+## Scuola Dell’Infanzia
+
+In linea con le Indicazioni Nazionali, la valutazione assume, per le nostre scuole dell’infanzia, una funzione di carattere
+formativo, di accompagnamento dei processi di apprendimento e di stimolo al miglioramento continuo: senza giudicare
+o classificare il bambino o la bambina, è orientata verso il processo di crescita di ciascuno, con l’intento di far emergere
+risorse, potenzialità, come pure bisogni o fatiche.
+Di conseguenza verificare, con i bambini dell’infanzia, significa ricercare una congruenza tra il contesto scolastico e i
+bisogni di ciascuno e tra le richieste di apprendimento e le risposte produttive ed emotive degli alunni stessi.
+Questo tipo di verifica, realizzata tramite l’osservazione occasionale e sistematica, raccolta di elaborati significativi,
+confronto tra docenti e colloqui con la famiglia, consente sia di ricostruire il processo di maturazione di ciascun
+bambino, sia di verificare l’efficacia e l’efficienza degli interventi adottati.
+Scheda di valutazione: Profilo educativo scuola Infanzia
+
+## Scuola Primaria E Secondaria I Grado
+
+La valutazione risponde ad un duplice interesse: quello del docente, finalizzato a verificare l’efficacia del suo
+insegnamento, e quello del discente, finalizzato a verificare i progressi del suo apprendimento.
+La valutazione è quindi
+•
+di tipo formativo in quanto è finalizzata ad intervenire nei processi e ad eliminare gli ostacoli che condizionano
+l’apprendimento;
+•
+di tipo globale in quanto investe tutti gli aspetti dello studente;
+•
+individualizzata in quanto ogni alunno/a è valutato in base agli obiettivi programmati e ai progressi compiuti.
+La valutazione è articolata in:
+•
+valutazione periodica (in itinere);
+•
+valutazione finale (sommativa).
+La valutazione degli apprendimenti nella scuola secondaria viene espressa con voti in decimi che indicano differenti
+livelli di apprendimento (comma 1, art.2 D.lgs. 62/2017).
+Per la valutazione vedasi l’apposito Registro allegato al presente documento (Allegato n. 4)
+
+## Prove D’Ingresso
+
+Le prove d’ingresso vengono somministrate nelle prime settimane; tali prove sono predisposte dai moduli in Orizzontale
+per la scuola Primaria e dai Dipartimenti disciplinari per la scuola Secondaria. Nella Primaria la valutazione è
+accompagnata da semplici giudizi descrittivi mentre nella Secondaria, dove le prove hanno una valutazione espressa in
+voti numerici, i risultati delle prove d’ingresso non concorrono alla media dei voti del quadrimestre
+
+---
+
+## Pagina 38
+
+38
+La valutazione di tali prove non concorre alla valutazione quadrimestrale dell’alunno/a, ma viene utilizzata come punto
+di partenza e prima osservazione relativa agli apprendimenti per delineare la situazione iniziale delle classi e predisporre
+il piano di lavoro annuale.
+
+## Comportamento
+
+La valutazione del comportamento si riferisce allo sviluppo delle competenze di cittadinanza e viene espressa
+collegialmente dai docenti attraverso un giudizio sintetico riportato nel documento di valutazione (comma 3 art.1 e
+comma 5 art.2). Tale valutazione per la scuola Secondaria di I grado, come per la primaria, non viene più attribuita con
+un voto numerico espresso in decimi; pertanto, non concorre più alla valutazione complessiva dello studente con effetti
+sull’ammissione all’anno successivo.
+I giudizi sintetici e i descrittori del comportamento sono rapportati alle competenze di cittadinanza che la scuola intende
+valutare. La seguente griglia è contenuta anche nel Registro della valutazione (Allegato n. 4)
+Riferimenti essenziali sono:
+•
+lo Statuto degli studenti e delle studentesse,
+•
+il Patto educativo di corresponsabilità,
+•
+il PTOF,
+•
+il Regolamento d’Istituto.
+
+## Educazione Civica
+
+La Legge dispone che l’insegnamento trasversale dell’educazione civica sia oggetto delle valutazioni periodiche e finali
+previste dal D.lgs. 13 aprile 2017, n. 62 per il primo ciclo e dal D.P.R. 22 giugno 2009, n. 122 per il secondo ciclo.
+Le nuove Linee guida per l’insegnamento dell’Educazione Civica, emanate dal Ministero dell’Istruzione e del Merito
+con il D.M. 183 del 7 settembre 2024 sono entrate in vigore nell’a.s. 2024/25. Quindi i criteri di valutazione deliberati
+dal Collegio dei docenti per le singole discipline e già inseriti nel PTOF dovranno essere integrati in modo da
+ricomprendere anche la valutazione di tale insegnamento.
+In sede di scrutinio il docente coordinatore dell’insegnamento, acquisendo elementi conoscitivi dai docenti del team o
+del Consiglio di Classe, formula la proposta di valutazione, espressa ai sensi della normativa vigente, da inserire nel
+documento di valutazione.
+La valutazione deve essere coerente con le competenze, abilità e conoscenze indicate nel curricolo dell’educazione
+civica e affrontate durante l’attività didattica. I docenti della classe e il Consiglio di classe possono avvalersi di strumenti
+condivisi, quali rubriche e griglie di osservazione, finalizzati ad accertare il conseguimento da parte degli alunni delle
+conoscenze e abilità e del progressivo sviluppo delle competenze previste nella sezione del curricolo dedicata
+all’educazione civica.
+Anche per l’educazione civica il Collegio dei docenti delle scuole del primo ciclo, in coerenza con il disposto dell’art.
+2 del D.lgs. 62/2017, esplicita a quale livello di apprendimento corrisponde il voto in decimi attribuito agli/alle alunni/e
+della scuola Secondaria di Primo Grado. Per gli alunni della scuola Primaria, la valutazione avverrà in base alla
+normativa in vigore nell’anno scolastico di riferimento.
+Si ricorda che il voto di educazione civica concorre all’ammissione alla classe successiva e/o all’esame di Stato del
+primo ciclo di istruzione.
+
+## Ammissione Degli/Le Alunni/E Alla Classe Successiva
+
+Per garantire imparzialità e trasparenza delle procedure legate agli scrutini finali, il Collegio dei Docenti, prima di
+procedere alla valutazione, deve validare l’anno scolastico in base al numero delle assenze, secondo quanto previsto
+dalla normativa (DPR 22 giugno 2009, n.112 e CM 4 marzo 2011, n.20): il numero delle assenze non deve superare il
+tetto massimo di ¼ rispetto al monte orario personalizzato. Il Collegio dei docenti può derogare a questo limite qualora
+le assenze siano dovute a motivi di salute adeguatamente documentati e tali da consentire a ciascun docente di avere
+elementi per una valutazione dell’alunno/a (si veda Regolamento deroga assenze).
+In sede di scrutinio finale, il Consiglio di classe procede alla valutazione complessiva di ciascun alunno/a formulata in
+base a:
+•
+risultati conseguiti nelle diverse discipline;
+•
+valutazione del comportamento sulla base dei relativi criteri.
+Il Consiglio di classe/interclasse/intersezione, nella deliberazione per l’ammissione o la non ammissione alla classe
+successiva, dovrà tener conto:
+•
+della possibilità dell’alunno/a di raggiungere gli obiettivi formativi e didattici nell’anno scolastico successivo
+•
+della possibilità per l’alunno/a di organizzare sulla base delle proprie attitudini lo studio in maniera autonoma,
+ma coerente con le linee di programmazione indicate dai docenti.
+Il Consiglio di classe/interclasse/intersezione, in coerenza con gli obiettivi didattici e formativi stabiliti in sede di
+programmazione, prima dell’approvazione dei voti, considera i seguenti parametri valutativi per l’ammissione alla
+classe successiva degli alunni con insufficienze:
+•
+miglioramento conseguito, rilevando e valutando la differenza tra il livello di partenza e quello finale
+•
+risultati conseguiti nelle attività di recupero organizzate dalla scuola
+•
+curriculum scolastico
+
+---
+
+## Pagina 39
+
+39
+•
+frequenza, partecipazione e impegno nello studio
+I criteri di NON ammissione alla classe successiva, in presenza di valutazioni negative negli apprendimenti sono
+descritti nel Registro della valutazione (Allegato n. 4).
+
+---
+
+## Pagina 40
+
+40
+
+## Certificazione Delle Competenze
+
+Il comma 6 dell’art.1 del D.lgs. 62/2017 conferisce alla scuola il compito di certificare progressivamente le competenze
+acquisite, allo scopo di favorire l’orientamento per la prosecuzione degli studi. Tale certificazione descrive lo sviluppo
+dei livelli delle competenze chiave e delle competenze di cittadinanza progressivamente acquisite dagli alunni/e.
+Il modello nazionale per la certificazione delle competenze si riferisce ai traguardi formativi stabiliti nelle Indicazioni
+nazionali e Nuovi scenari 2018. Pertanto, il nostro istituto ha progettato un curricolo verticale dalla Scuola dell’infanzia
+alla Secondaria di I grado, riferito ai traguardi e ancorato alle competenze chiave europee, definendo, mediante enunciati
+descrittivi, i diversi livelli di acquisizione delle competenze. Il curricolo è quindi finalizzato alla maturazione delle
+competenze, fondamentali per la crescita personale e per la partecipazione sociale, previste nel profilo al termine del
+primo ciclo, quando verranno certificate.
+Per gli alunni/e con disabilità la certificazione si effettua in coerenza con il piano educativo individualizzato.
+A partire dal curricolo d’Istituto, i docenti individuano le esperienze di apprendimento più efficaci, le strategie più
+idonee, con attenzione all’integrazione fra le discipline. Vengono definiti, nel corso dell’anno scolastico, alcuni “compiti
+autentici” o “di realtà” che si identificano nella richiesta rivolta allo studente di risolvere una situazione problematica
+complessa e nuova, quanto più possibile vicina al mondo reale, utilizzando conoscenze e abilità già acquisite. Non ci si
+può accontentare di accumulare conoscenze, ma occorre stabilire relazioni tra esse e con il mondo reale al fine di
+elaborare soluzioni ai problemi che la vita reale pone quotidianamente.
+Spostando l’attenzione sulle competenze non si intende in alcun modo trascurare conoscenze e abilità: non è infatti
+pensabile che si possano formare competenze in assenza di un solido bagaglio di contenuti e di saperi disciplinari. La
+competenza accerta se l’alunno/a sappia utilizzare le conoscenze e le abilità acquisite nelle diverse discipline (gli
+apprendimenti) per risolvere situazioni problematiche complesse e inedite, mostrando un certo grado di autonomia e
+responsabilità nello svolgimento del compito.
+“Verosimiglianza” e “riflessione” sono i due aspetti che devono caratterizzare i compiti di realtà. Così si procede a
+verificare l’avvicinamento dell’alunno/a ai traguardi per lo sviluppo delle competenze, previsti per le singole discipline
+dalle Indicazioni nazionali.
+La valutazione di profitto si integra con quella di competenza, in un’ottica descrittiva e nella logica di una valutazione
+per l’apprendimento. Le due valutazioni assolvono funzioni diverse, non sono sovrapponibili, coesistono.
+La valutazione di profitto si basa su conoscenze e abilità nelle diverse materie. Si conduce a scansioni ravvicinate
+(quadrimestre, fine anno); ha una polarità negativa (la non sufficienza) e una positiva (dalla sufficienza in poi); si può
+realizzare mediante raccolta di elementi con prove di verifica strutturate, semi strutturate, pratiche, interrogazioni,
+elaborati, ecc. In base ad essa si decide la promozione alla classe successiva.
+La valutazione di competenza richiede periodi didattici lunghi: l’intero triennio della scuola dell’infanzia, l’intero
+quinquennio della scuola primaria, l’intero triennio della scuola secondaria di Primo Grado. L’azione didattica deve
+essere caratterizzata da maggiore trasversalità dei contenuti, da un’azione di ristrutturazione continua da parte degli
+alunni/e, connessa a modalità di apprendimento cooperativo e laboratoriale.
+Per rilevare il processo, ossia le operazioni che compie l’alunno/a per interpretare correttamente il compito, per
+coordinare conoscenze e abilità già possedute, per ricercarne altre, se necessarie, e valorizzare risorse esterne e interne,
+i docenti ricorrono a strumenti come le osservazioni sistematiche, griglie e questionari anche autovalutativi, rubriche e
+autobiografie cognitive. Tali strumenti devono riferirsi ad aspetti specifici che caratterizzano la prestazione (indicatori
+di competenza) quali:
+•
+sviluppo culturale
+•
+interesse e partecipazione
+•
+autonomia, flessibilità, consapevolezza
+•
+metodo di studio
+•
+relazione e capacità di collaborare
+Le rubriche valutative esprimono i livelli di qualità per ogni criterio ritenuto utile, partendo da livelli minimi, ma
+escludendo connotazioni negative. Le descrizioni differenziano i livelli di comprensione, di abilità e di qualità del
+processo; permettono di attribuire un punteggio, attraverso cui valutare il grado di avvicinamento al livello di
+prestazione ottimale, distinto secondo i criteri. Consentono di riflettere sul procedimento e su piste di miglioramento
+personalizzate. La valutazione diventa formativa quando si concentra sul processo e raccoglie un ventaglio di
+informazioni che, offerte all’alunno, contribuiscono a sviluppare in lui un processo di autovalutazione e auto-
+orientamento. L’alunno/a esplora sé stesso, riconosce le proprie capacità e limiti, i progressi compiuti, ed è spinto/a a
+migliorarsi (valutazione proattiva).
+L’Istituto “A. Moro” si sta muovendo verso la valutazione di competenza e la sua tracciabilità progettando due attività
+annuali di tipo trasversale come compiti autentici, prevedendo di articolare occasioni formative costituite di unità di
+apprendimento che pongano agli alunni/e problemi da risolvere o situazioni da gestire. Ogni compito significativo,
+anche se strutturato da un singolo insegnante per il suo ambito, mobilità competenze sociali e comunicative, competenze
+metodologiche, competenze specifiche di aree culturali, offrendo elementi di valutazione a più insegnanti: elementi di
+valutazione di processo (impegno autonomia, collaborazione, responsabilità) e sul prodotto (pertinenza, completezza,
+ricchezza, originalità, ecc…).
+
+---
+
+## Pagina 41
+
+41
+Si intende inoltre predisporre e condividere strumenti valutativi ad hoc, e promuovere la formazione collegiale dei
+docenti su tale argomento.
+Si rimanda ai modelli ministeriali per la certificazione delle competenze (DM 14/2024).
+
+---
+
+## Pagina 42
+
+42
+
+## Il Rapporto Scuola Famiglia
+
+“E’ diritto dovere dei genitori mantenere, istruire ed educare i figli …”
+(art. 30 della Costituzione della Repubblica italiana)
+La scuola riconosce nella famiglia il contesto vitale di crescita di ogni alunno e alunna; quindi, intende perseguire
+un’alleanza educativa con i genitori per il raggiungimento delle competenze di cittadinanza:
+•
+imparare ad imparare,
+•
+comunicare,
+•
+collaborare e partecipare,
+•
+agire in modo autonomo e responsabile,
+•
+acquisire ed interpretare l’informazione.
+Pertanto, nel rispetto dei doveri istituzionali dei Docenti e degli impegni stabiliti nel piano annuale delle attività, la
+scuola programma incontri con i genitori al fine di:
+•
+comunicare e condividere la programmazione annuale;
+•
+verificare e sostenere la crescita dell’alunno/a figlio/a;
+•
+coinvolgere le famiglie nelle iniziative educative.
+I genitori possono:
+•
+partecipare ai consigli e alle assemblee di classe, alle sedute del Consiglio di Istituto;
+•
+conferire con i Docenti nei giorni e negli orari fissati ed inseriti nel piano annuale dell’attività o su richiesta
+dei Docenti o dei genitori stessi previo appuntamento;
+•
+utilizzare i locali scolastici per assemblee richiedendo al Dirigente scolastico l’autorizzazione.
+
+---
+
+## Pagina 43
+
+43
+
+## Organismi Di Partecipazione
+
+Denominazione
+Composizione
+Compiti
+
+## Consiglio Di Istituto
+
+8 genitori
+8 docenti
+2 personale ATA
+Dirigente Scolastico
+Ha il compito di “approvare” il Piano triennale
+dell'offerta formativa elaborato dal Collegio dei
+docenti (art. 3 del D.P.R. 275/1999 come modificato
+dal comma 14 dell’art. 1 della legge 107/2015);
+decide l’utilizzo delle risorse umane e finanziarie.
+
+## Comitato Di Valutazione
+
+Dirigente Scolastico
+3 docenti
+(di cui uno nominato dal Consiglio d’Istituto)
+2 genitori
+(nominati dal Consiglio d’Istituto)
+1 esperto esterno
+(nominato dall’USR)
+Individua i criteri per la valutazione dei docenti
+
+## Consiglio Di Intersezione
+
+(scuola infanzia)
+Docenti scuola Infanzia
+Genitori rappresentanti
+(1 per ciascuna delle sezioni interessate)
+Formula proposte educativo-didattiche e ne valuta
+l’efficacia
+
+## Consiglio Di Interclasse
+
+(scuola primaria)
+Docenti scuola primaria
+Genitori rappresentanti
+(1 per classe)
+
+## Consiglio Di Classe
+
+(scuola secondaria)
+Docenti della classe
+Genitori rappresentanti
+(massimo 4 per classe)
+
+## Assemblea Di Classe
+
+Tutti i genitori della classe
+Viene informata in merito alla programmazione
+annuale della classe
+Elegge i rappresentanti di classe
+Discute l’andamento educativo-didattico della classe
+
+## Comitato Genitori
+
+Genitori dell’Istituto
+(rappresentanti di classe, ma
+non solo)
+•
+rendere attiva la partecipazione dei genitori alla
+vita scolastica;
+•
+favorire
+la
+comunicazione
+tra
+le
+varie
+componenti della scuola;
+•
+promuovere e contribuire alla realizzazione di
+iniziative e di attività culturali, sportive, ludiche
+all’interno dell’Istituto;
+•
+monitorare il servizio di refezione scolastica;
+•
+fare proposte e formulare pareri al Consiglio di
+Istituto e al Collegio dei Docenti riguardo al
+
+## P.T.O.F.;
+
+•
+favorire l’innovazione scolastica.
+
+## Associazione Genitori
+
+Genitori degli Istituti di Seriate
+•
+rendere attiva la partecipazione dei genitori alla
+vita scolastica;
+•
+favorire
+la
+comunicazione
+tra
+le
+varie
+componenti dei diversi Istituti;
+•
+promuovere e contribuire alla realizzazione di
+iniziative e di attività culturali, sportive, ludiche
+tra Istituti e sul territorio di Seriate;
+•
+realizzare eventi di formazione per i diversi
+attori della scuola;
+•
+promuovere la mobilità sostenibile e la sicurezza
+dei percorsi casa-scuola-casa
+•
+promuovere e supportare l’organizzazione di
+giornate locali, nazionali e internazionali;
+•
+promuove il riutilizzo dei libri di testo (si veda
+Regolamento Comodato)
+
+---
+
+## Pagina 44
+
+44
+
+## Sicurezza
+
+Per tutti gli edifici è stato predisposto il Piano di Emergenza e il Documento di rilevazione dei rischi.
+In ogni aula sono state affisse le piantine e le norme per l’evacuazione.
+Esiste una modulistica uniformata per tutti i plessi.
+Per tutti i plessi sono state richieste agli organi competenti i vari documenti previsti dalla Legge 626 e del T.U. 81/08.
+Sono stati nominati un R.S.P.P., un A.S.P.P., un R.L.S.; le squadre antincendio e di primo soccorso.
+È stata richiesta la collaborazione ai Volontari della Protezione civile per le attività inerenti la sicurezza negli edifici
+pubblici.
+I Docenti programmano percorsi didattici per approfondire tematiche relative al rapporto tra uomo ed ambiente,
+sicurezza e prevenzione.
+
+---
+
+## Pagina 45
+
+45
+
+## Richiesta E Utilizzo Del Personale Assegnato Con
+
+
+## L’Organico Potenziato L. 13 Luglio 2015 N. 107
+
+VISTO la Legge 13 luglio 2015 n. 107;
+VISTO il proprio Atto di indirizzo per la stesura del Piano dell’Offerta Formativa triennale;
+VISTO il PTOF in adozione nell’Istituto;
+TENUTO CONTO degli obiettivi di miglioramento stabiliti dal RAV, in quanto parte integrante del Piano di
+Miglioramento d’Istituto;
+PRESO ATTO delle figure professionali assegnate all’Istituto per il triennio 2019-2022 e anche in una prospettiva di
+continuità;
+l’Istituto Comprensivo richiede le seguenti figure professionali:
+•
+1 DOCENTE DI SCUOLA dell’INFANZIA
+•
+3 DOCENTI DI SCUOLA PRIMARIA n° 22 ORE SETTIMANALI
+•
+3 DOCENTI DI SCUOLA SECONDARIA, così ripartiti:
+o
+1 DOCENTE LINGUA INGLESE A025 n° 18 ORE SETTIMANALI
+o
+1 DOCENTE DI MATEMATICA A028 n° 18 ORE SETTIMANALI
+o
+1 DOCENTE DI ED. MUSICALE A032 n° 18 ORE SETTIMANALI
+Coerentemente con l’Atto di Indirizzo redatto dal D.S. per la stesura del presente PTOF triennale, si correda la richiesta
+di organico potenziato con l’elenco delle attività da assegnare ai nuovi docenti.
+
+## Tipologia Docente
+
+Attività
+
+## 1 Docente Posto Comune Di Scuola
+
+dell’INFANZIA
+•
+potenziamento linguistico per bambini/e con difficoltà da
+svolgere in piccolo gruppo;
+•
+potenziamento dei laboratori del pomeriggio;
+•
+potenziamento a supporto delle numerose fragilità anche
+comportamentali presenti nelle sezioni;
+•
+attività in piccolo gruppo per recupero linguistico bambini/e
+stranieri/e;
+•
+percorsi individualizzati per i bambini/e senza certificazione
+che manifestano difficoltà;
+•
+laboratori per acquisire le strumentalità di base;
+•
+differenziazione dell’approccio didattico per adattarlo agli stili
+cognitivi dei bambini/e e per stimolarne l’interesse, anche con
+l’uso di software;
+•
+sostituzioni eventuali degli insegnanti assenti.
+
+## 3 Docenti Di Scuola Primaria
+
+n° 22 ORE SETTIMANALI
+•
+sostituzione primo collaboratore (semiesonero);
+•
+attività di recupero linguistico, logico/matematico e letto-
+scrittura per alunni stranieri;
+•
+progetti di valorizzazione degli alunni/e con attività artistiche,
+musicali e attività di coding;
+•
+prima alfabetizzazione per alunni/e NAI;
+•
+sostituzione dei colleghi assenti, anche con programmazione
+plurisettimanale dell’orario di servizio.
+
+## 1 Docente Di Lingua Inglese A025
+
+n° 18 ORE SETTIMANALI
+•
+potenziamento delle competenze linguistiche in L2 per tutte le
+classi;
+•
+preparazione per la certificazione “A2 Key for Schools”;
+•
+attività di recupero linguistico alunni/e stranieri/e;
+•
+preparazione studenti e studentesse in vista dell’Esame di
+Stato del I ciclo d’istruzione;
+•
+sostituzione dei colleghi assenti, anche con programmazione
+plurisettimanale dell’orario di servizio.
+
+---
+
+## Pagina 46
+
+46
+
+## 1 Docente Di Matematica A028
+
+n° 18 ORE SETTIMANALI
+•
+potenziamento delle competenze logico matematiche nelle
+classi prime, lavori su classi parallele;
+•
+attività di recupero logico matematico per alunni/e stranieri/e;
+•
+preparazione studenti in vista dell’esame di stato del I ciclo
+d’istruzione;
+•
+sostituzione dei colleghi assenti, anche con programmazione
+plurisettimanale dell’orario di servizio.
+
+## 1 Docente Di Ed. Musicale A032
+
+n° 18 ORE SETTIMANALI
+•
+attività di coro/canto o potenziamento musicale classi
+secondarie;
+•
+ampliamento offerta musicale con percorsi laboratoriali scuola
+infanzia e primaria;
+•
+sostituzione dei colleghi assenti, anche con programmazione
+plurisettimanale dell’orario di servizio.
+
+---
+
+## Pagina 47
+
+47
+
+## Allegati
+
+Sono parte integrante del presente Piano dell’Offerta formativa, depositati agli atti della scuola visionabili sul sito i
+seguenti allegati:
+• Allegato 1 – Atto d’indirizzo
+• Allegato 2 – Curricolo di Alternativa a IRC
+• Allegato 3 – Centro sportivo scolastico
+• Allegato 4 – Registro della Valutazione
+• Allegato 5 – Curricolo di Educazione civica
+• Allegato 6 – Criteri di iscrizione
+
+---
+

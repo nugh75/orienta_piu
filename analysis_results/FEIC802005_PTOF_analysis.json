@@ -1,0 +1,269 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "Tsic80300D",
+    "denominazione": "Ist. Compr. Tiziana Weiss",
+    "tipo_scuola": "Istituto Comprensivo",
+    "ordine_grado": "Infanzia, Primaria, Secondaria I Grado",
+    "area_geografica": "Trieste",
+    "territorio": "Rozzol e S. M. Maddalena",
+    "comune": "Trieste",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Trieste",
+    "regione": "Friuli-Venezia Giulia"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "Archivio di Stato",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "IRCCS Burlo Garofolo",
+        "Unità di valutazione multidisciplinare",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 1
+      },
+      "finalita_interessi": {
+        "score": 1
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 1
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 1
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 1
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze presenti nell'istituto",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni al Secondo Anno Scuola Secondaria di Primo Grado",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti per individuare criticità",
+      "target": "Docenti, Studenti, ATA"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività pomeridiane, supporto compiti",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione e benessere",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari",
+      "target": "Alunni che passano tra i diversi ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo di comportamenti ispirati a uno stile di vita sano",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Attività culturali",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale",
+      "target": "Alunni delle scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura E Integrazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Pomeriggi Alla Giotti",
+      "categoria_principale": "Attività pomeridiane",
+      "descrizione_e_metodologia": "Potenziamento attività pomeridiane",
+      "target": "Alunni della scuola Giotti"
+    },
+    {
+      "titolo_attivita": "Progetto Pari Opportunità",
+      "categoria_principale": "Educazione alla parità",
+      "descrizione_e_metodologia": "Sensibilizzazione sulle tematiche di genere",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Classi Terze Scuola Secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di supporto per alunni con difficoltà",
+      "target": "Alunni con DSA"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Momenti di lavoro on-line tra docenti degli anni ponte",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Favorire conoscenza specificità segmenti scolastici, passaggio informazioni alunni BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sistematico per dipartimenti verticali",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Revisione e operatività Curricolo d’Istituto",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Percorsi mirati per bambini con esigenze particolari",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Programmazione comune fra docenti classi parallele",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Costruzione percorsi e prove di verifica comuni",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione DSGA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Lezioni frontali",
+      "target": "DS, DSGA, Personale Amministrativo"
+    }
+  ]
+}

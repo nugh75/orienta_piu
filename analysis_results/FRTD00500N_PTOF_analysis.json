@@ -1,0 +1,218 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRTD00500N",
+    "denominazione": "Istituto Paritario Giulio Cesare",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Cassino",
+    "anno_ptof": "2015-2018",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via G. Di Biasio 82",
+    "cap": "03043",
+    "email": "ist.giuliocesare@libero.it",
+    "pec": "ND",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "ASL",
+        "consultori",
+        "AIF (Associazione Italiana Formatori)",
+        "Alliance Française"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Il progetto prevede incontri informativi sulle professioni, simulazioni di colloqui di lavoro e visite aziendali, con l'obiettivo di supportare gli studenti nella scelta del percorso post-diploma. Si avvale della collaborazione di esperti del settore e di testimonianze dirette.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Star bene a scuola”",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Ciclo di incontri dedicati alla promozione del benessere psicofisico degli studenti, con particolare attenzione alla gestione dello stress, alla prevenzione del bullismo e alla promozione di stili di vita sani. Coinvolge psicologi, counselor e figure di riferimento all'interno della scuola.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Esame di Stato”",
+      "categoria_principale": "Esami",
+      "descrizione_e_metodologia": "Percorso di preparazione all'Esame di Stato, comprensivo di simulazioni d'esame, ripasso delle materie principali e supporto individuale per gli studenti con maggiori difficoltà. Si avvale della collaborazione dei docenti e di tutor esterni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Accoglienza e integrazione”",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Iniziative volte a favorire l'integrazione degli studenti stranieri e con bisogni educativi speciali, attraverso attività di mediazione culturale, supporto linguistico e percorsi personalizzati di recupero.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto alternanza scuola – lavoro",
+      "categoria_principale": "Alternanza",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro in aziende del territorio, finalizzati all'acquisizione di competenze professionali e all'orientamento al mondo del lavoro. Prevedono un tutor scolastico e un tutor aziendale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione Curricolo Verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Redazione del Curricolo Verticale delle competenze, con l'obiettivo di definire un percorso formativo coerente e progressivo per tutti gli studenti. Coinvolge tutti i docenti del consiglio di classe.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gruppo di lavoro INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione programmazione parallela per aree tematiche, finalizzata a migliorare i risultati degli studenti nelle prove INVALSI. Si basa sull'analisi dei dati e sulla definizione di strategie didattiche mirate.",
+      "target": "Docenti biennio"
+    },
+    {
+      "titolo_attivita": "Costituzione sottogruppo CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Elaborazione programmazione didattica per potenziamento competenze linguistiche e disciplinari attraverso la metodologia CLIL (Content and Language Integrated Learning).",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Elaborazione rubriche di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione/miglioramento rubriche di valutazione comuni per competenze, con l'obiettivo di garantire una valutazione oggettiva e trasparente.",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Programmazione esperienze di laboratorio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Programmazione esperienze di laboratorio per biennio e triennio, volte a favorire l'apprendimento attivo e la sperimentazione pratica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "STAR BENE A SCUOLA",
+      "categoria_principale": "Ascolto e supporto",
+      "descrizione_e_metodologia": "Spazi di ascolto per studenti, genitori e docenti, gestiti da figure professionali qualificate, per affrontare problematiche personali e scolastiche.",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Esame di Stato",
+      "categoria_principale": "Preparazione Esame",
+      "descrizione_e_metodologia": "Informazioni, simulazioni, supporto docenti e organizzazione di incontri con esperti per affrontare al meglio l'Esame di Stato.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza e Integrazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Incontri di accoglienza, percorsi di recupero, supporto allo studio e attività di mediazione culturale per favorire l'integrazione degli studenti con svantaggio.",
+      "target": "Studenti con svantaggio"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Percorsi obbligatori in azienda, con tutoraggio scolastico e aziendale, per l'acquisizione di competenze professionali e l'orientamento al mondo del lavoro.",
+      "target": "Studenti classi terze e successive"
+    },
+    {
+      "titolo_attivita": "Visite guidate/Viaggi d'istruzione",
+      "categoria_principale": "Arricchimento Culturale",
+      "descrizione_e_metodologia": "Visite a musei, mostre, viaggi in Italia/estero, con finalità didattiche e culturali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Sviluppo Professionale",
+      "descrizione_e_metodologia": "Seminari su comportamento, valutazione, DSA, BES, didattica metacognitiva, per favorire l'aggiornamento professionale dei docenti.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRTD00500N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Paritario Giulio Cesare** di Cassino, focalizzandosi in particolare sull'area dell'orientamento. L'istituto, di tipo **Liceo, Professionale, Tecnico** e operante nel secondo grado, si colloca in un contesto territoriale **non metropolitano** della regione **Lazio**. L'analisi si basa sui dati forniti relativi all'anno **2015-2018**, evidenziando punti di forza, aree di debolezza e possibili gap rispetto agli obiettivi prefissati. Il PTOF dimostra un'attenzione significativa all'orientamento, con una sezione dedicata e un punteggio complessivo positivo nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto ha sviluppato una rete di **partnership** con diversi soggetti esterni, tra cui **ASL**, **consultori**, **AIF (Associazione Italiana Formatori)** e **Alliance Française**. Questa collaborazione, quantificata in 4 partner, rappresenta un valore aggiunto per l'offerta orientativa, consentendo di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini** e **interessi** degli studenti, il supporto al **progetto di vita**, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale** degli studenti, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'attenzione al **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, ampliando le possibilità di scelta per gli studenti e favorendo lo sviluppo di interessi specifici.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, supportata da una rete di **partnership** consolidate. L'istituto dimostra una chiara definizione delle **finalità** e degli **obiettivi** dell'orientamento, implementando azioni di sistema efficaci e una didattica orientativa basata sull'esperienza e la flessibilità. L'offerta di **opzionali** diversificata contribuisce a personalizzare il percorso formativo degli studenti. Le attività registrate, come il **Progetto Orientamento**, il **Progetto “Star bene a scuola”**, il **Progetto “Esame di Stato”**, il **Progetto “Accoglienza e integrazione”**, l'**Alternanza Scuola-Lavoro** e la **Formazione docenti**, dimostrano un impegno concreto nell'attuazione del PTOF.\n\n### 4. Aree di Debolezza\n\nUn'area di miglioramento riguarda l'utilizzo della **didattica laboratoriale**, che risulta meno sviluppata rispetto ad altri approcci didattici. Sebbene le finalità relative al **progetto di vita** siano presenti, il loro punteggio suggerisce la necessità di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di potenziare l'offerta di attività laboratoriali specifiche per l'orientamento, al fine di favorire l'apprendimento pratico e l'acquisizione di competenze professionali. Inoltre, sarebbe opportuno rafforzare l'attenzione al **progetto di vita** degli studenti, offrendo percorsi di accompagnamento personalizzati e supportando la loro consapevolezza delle proprie aspirazioni.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Istituto Paritario Giulio Cesare** presenta un'impostazione solida e coerente in materia di orientamento. L'istituto dimostra un impegno significativo nel supportare gli studenti nella scelta del percorso post-diploma, promuovendo il loro benessere psicofisico e favorendo l'inclusione sociale. Il potenziamento della didattica laboratoriale e l'approfondimento del progetto di vita rappresentano aree di miglioramento che potrebbero contribuire a rendere l'offerta orientativa ancora più efficace e completa."
+}

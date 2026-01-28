@@ -1,0 +1,234 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MI1E01500D",
+    "denominazione": "Scuola Elem.Par.\"S.Angela Merici\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Vespri Siciliani55",
+    "cap": "20146",
+    "email": "ist.santangelamerici@tin.it",
+    "pec": "ND",
+    "website": "www.orsolinemerici.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata e strutturata con obiettivi e modalità definiti."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Università Statale",
+        "EDUCO",
+        "Centro Cospes",
+        "Centro di orientamento Psico-Pedagogico Salesiani",
+        "Instituto Cervantes",
+        "British Council",
+        "PIME",
+        "NET",
+        "GLI",
+        "GLIR",
+        "GIT",
+        "Scuole polo"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Giochi Matematici Università Statale",
+      "categoria_principale": "Competenze matematico-scientifiche",
+      "descrizione_e_metodologia": "Partecipazione a concorsi per potenziamento competenze matematiche e sviluppo problem solving.",
+      "target": "Studenti Scuola Secondaria I grado e classi IV-V Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Verticale",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Itinerario educativo didattico per il passaggio tra i plessi",
+      "target": "Alunni in transizione"
+    },
+    {
+      "titolo_attivita": "Progetto Raccordo",
+      "categoria_principale": "Continuità didattica",
+      "descrizione_e_metodologia": "Condivisione metodologie e competenze tra plessi",
+      "target": "Docenti dei diversi plessi"
+    },
+    {
+      "titolo_attivita": "Corso Nys Conversation Basic",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Lezioni di inglese per sviluppo abilità orali",
+      "target": "Alunni Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scherma di Spada Taiji",
+      "categoria_principale": "Attività motoria",
+      "descrizione_e_metodologia": "Apprendimento regole base scherma",
+      "target": "Alunni Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Educazione Affettiva",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Interventi esperti per consapevolezza affettiva",
+      "target": "Alunni classe V Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corsi di supporto lingua italiana",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Corsi individuali per studenti stranieri con difficoltà linguistiche",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Attività interculturali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi di enti esterni e stesura programmi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Competizioni interne/esterne",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni",
+      "target": "Studenti con attitudini"
+    },
+    {
+      "titolo_attivita": "Visita alla scoperta della scuola primaria",
+      "categoria_principale": "Raccordo Infanzia-Primaria",
+      "descrizione_e_metodologia": "Visita guidata",
+      "target": "Alunni scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Pomeriggio dell'accoglienza",
+      "categoria_principale": "Raccordo Primaria-Secondaria",
+      "descrizione_e_metodologia": "Open day",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori con il PIME",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Attività ludiche ed educative",
+      "target": "Alunni di tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Certificazioni in lingua spagnola e inglese",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Esami certificativi",
+      "target": "Alunni scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali interattivi",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Attività teatrali con attori madrelingua",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione PEI con GLHO, genitori, specialisti",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su sicurezza, curriculum, inclusione, privacy",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "DAD",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica a distanza per emergenze e fragilità",
+      "target": "Alunni fragili"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MI1E01500D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Elem.Par.\"S.Angela Merici\"** (MI1E01500D) per il triennio 2022-2025. La scuola, di tipo **Primaria** e situata nel territorio **Metropolitano** di **Milano**, dimostra un impegno significativo verso l'orientamento, con un punteggio medio elevato nelle finalità e nelle azioni del sistema. Tuttavia, si evidenzia una mancanza di una sezione dedicata e strutturata all'orientamento, nonostante la presenza di diverse attività in questo ambito. La scuola si distingue per la collaborazione con numerosi **partner**, tra cui **organizzazioni del terzo settore**, **imprese**, l'**Università Statale** e diverse istituzioni formative e culturali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela che, sebbene l'orientamento sia presente nel PTOF, manca una sezione specificamente dedicata con obiettivi e modalità chiaramente definiti. Il punteggio attribuito è 4, indicando un'area di miglioramento potenziale.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di **partnership** (ben 14), che includono enti del terzo settore, imprese, istituzioni universitarie come l'**Università Statale**, e organizzazioni come **EDUCO**, **Centro Cospes**, **Centro di orientamento Psico-Pedagogico Salesiani**, **Instituto Cervantes**, **British Council**, **PIME**, **NET**, **GLI**, **GLIR**, **GIT** e **Scuole polo**. Questo network di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate molto forti in tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, facilitazione delle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità. Tutti i punteggi in questa sezione sono elevati, compreso un punteggio di 6 per le transizioni formative.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico (punteggio 4), sulla continuità territoriale (punteggio 5) e sul **lifelong learning** (punteggio 4). L'obiettivo di contrastare il fenomeno **NEET** risulta meno prioritario, con un punteggio di 1.\n\n**2.5 Azioni del Sistema:** Le azioni intraprese per supportare l'orientamento includono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 5), il **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 3) e l'implementazione di un **sistema integrato di inclusione e fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 6), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 4) e **sportive** (punteggio 5).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella forte attenzione alle finalità, nella vasta rete di **partnership** attivate e nell'impegno verso un approccio didattico basato sull'esperienza e sull'interdisciplinarità. Attività come **Progetto Accoglienza Verticale** e **Progetto Raccordo** dimostrano un'attenzione particolare alle transizioni formative e alla continuità didattica. L'offerta di **certificazioni in lingua spagnola e inglese** e i **laboratori con il PIME** ampliano significativamente l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Il punteggio relativamente basso del monitoraggio delle azioni suggerisce la necessità di rafforzare i meccanismi di valutazione e di verifica dell'efficacia delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare e strutturare l'orientamento all'interno del PTOF, definendo obiettivi specifici, indicatori di performance e modalità di valutazione. È inoltre auspicabile un maggiore focus sul contrasto al fenomeno **NEET** e un potenziamento del monitoraggio delle azioni per garantire l'efficacia degli interventi.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Elem.Par.\"S.Angela Merici\"** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta didattica diversificata. Tuttavia, per massimizzare l'efficacia delle iniziative intraprese, è necessario colmare il divario rappresentato dalla mancanza di una sezione dedicata e strutturata all'orientamento, rafforzando al contempo i meccanismi di monitoraggio e valutazione. Attività come **Giochi Matematici Università Statale**, **Corso Nys Conversation Basic** e l'attenzione all'**inclusione** tramite i **PEI** rappresentano esempi virtuosi di come la scuola si impegna a fornire un supporto completo e personalizzato agli studenti. L'utilizzo della **DAD** per gli alunni fragili dimostra attenzione all'innovazione e alla flessibilità didattica."
+}

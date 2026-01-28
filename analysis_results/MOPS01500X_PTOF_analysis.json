@@ -1,0 +1,254 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOPS01500X",
+    "denominazione": "Dante Alighieri",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Modena",
+    "anno_ptof": "2022-2025",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Spallanzani 35/37",
+    "cap": "41124",
+    "email": "info@istitutoalighieri.it",
+    "pec": "dante@pec.benedict.it",
+    "website": "www.istitutoalighieri.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "Federazione",
+        "Ente di promozione sportiva",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione al patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività didattiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e sensibilizzazione al riutilizzo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività sportive e sviluppo del pensiero critico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole delle app e navigazione sicura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione collaborativa. Problem solving.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di informatica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale e preparazione collaborativa. Problem solving.",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Stimolare l'amore per la chimica e selezione squadra italiana.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Richiamo conoscenze e competenze per test ammissione.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso opzionale: Informatica per tutti",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Preparazione base di informatica.",
+      "target": "Studenti ordinario e sportivo"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso Enti, Associazioni e Aziende del territorio, durata circa 60 ore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Customer satisfaction sugli stages.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti di Matematica e Scienze",
+      "categoria_principale": "Continuita'",
+      "descrizione_e_metodologia": "Incontri specifici su curricolo e competenze",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Somministrazione prove in Matematica e Scienze",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Rinforzo su metodo studio e competenze base",
+      "target": "Studenti con difficolta'"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Acquisto LIM e attrezzature laboratoriali",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOPS01500X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto “Dante Alighieri” (MOPS01500X), un Liceo, Professionale e Tecnico di II grado situato a Modena, in Emilia Romagna. L'istituto, paritario, opera in un territorio non metropolitano. L'analisi si basa sui dati forniti, con particolare attenzione ai punteggi assegnati alle diverse dimensioni dell'orientamento e alle attività registrate. Il PTOF 2022-2025 dimostra un impegno significativo verso l'orientamento, con una sezione dedicata che ha ottenuto un punteggio di 7. L'istituto si concentra su finalità quali lo sviluppo di attitudini, interessi e la progettazione del futuro percorso di vita degli studenti, oltre a supportare le transizioni formative e la consapevolezza delle opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è un elemento positivo, come evidenziato dal punteggio di 7.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** ampio e diversificato, comprendendo **aziende locali**, **enti**, diverse **attività lavorative**, il **FAI**, la **Federazione**, un **ente di promozione sportiva**, l'**Università di Firenze**, **associazioni** della provincia di Pistoia, **EDUSCOPIO** e la **Fondazione Agnelli**. Il numero di partner (15) suggerisce un forte radicamento nel territorio e una volontà di offrire agli studenti un'ampia gamma di opportunità di contatto con il mondo del lavoro e della formazione.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** e gli **interessi** degli studenti (punteggio 6), a supportarli nella **progettazione del loro futuro** (punteggio 5), a facilitare le **transizioni formative** (punteggio 6) e a fornire loro le **capacità orientative** necessarie per cogliere le opportunità (punteggio 6).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico** (punteggio 3), il mantenimento di un legame con il **territorio** (punteggio 5), il contrasto al fenomeno dei **NEET** (punteggio 3) e la promozione del **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento comprendono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 5), il **rapporto scuola-genitori** (punteggio 4), il **monitoraggio delle azioni** (punteggio 3) e la creazione di un **sistema integrato di inclusione e supporto alle fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 6), sull'utilizzo di **laboratori** (punteggio 5), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 5), **laboratoriali ed espressive** (punteggio 6), **ludico-ricreative** (punteggio 3), di **volontariato** (punteggio 5) e **sportive** (punteggio 5).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampio network di **partnership** con il territorio, nella chiarezza delle **finalità** e nella varietà delle attività proposte. L'istituto offre un'ampia gamma di opportunità agli studenti, che spaziano dalle **visite aziendali** e agli **incontri con ex-studenti** alle attività di **volontariato** e alle competizioni in ambito **STEM** (matematica, informatica, fisica, chimica). L'impegno verso l'innovazione tecnologica, con l'incremento delle dotazioni di **LIM** e attrezzature di laboratorio, rappresenta un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di riduzione dell'**abbandono scolastico** e di contrasto al fenomeno dei **NEET**, che hanno ottenuto punteggi bassi (3). Il monitoraggio delle azioni, con un punteggio di 3, suggerisce la necessità di rafforzare i meccanismi di valutazione e controllo dell'efficacia delle iniziative intraprese. Anche le opzioni **ludico-ricreative** sembrano meno sviluppate rispetto alle altre.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ambiziose del PTOF e gli obiettivi meno performanti (riduzione dell'abbandono e contrasto ai NEET) indica la necessità di definire strategie più mirate e di monitorare attentamente i risultati ottenuti. È importante investire maggiormente nel supporto agli studenti a rischio di abbandono e nell'orientamento verso percorsi professionalizzanti che possano favorire l'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto “Dante Alighieri” dimostra un forte impegno verso l'orientamento, con una sezione dedicata ben strutturata e un'ampia gamma di attività proposte. I punti di forza superano le aree di debolezza, ma è necessario prestare attenzione agli obiettivi meno performanti e rafforzare i meccanismi di monitoraggio e valutazione. L'istituto, grazie al suo network di **partnership** e alla varietà delle attività offerte, è in grado di fornire agli studenti un orientamento completo e di qualità, preparandoli ad affrontare le sfide del futuro."
+}

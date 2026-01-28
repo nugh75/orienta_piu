@@ -1,0 +1,181 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEPS07500L",
+    "denominazione": "Calasanzio",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Cervetto 40",
+    "cap": "16152",
+    "email": "segreteria@calasanziogenova.it",
+    "pec": "ND",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. Sebbene siano presenti attività riconducibili all'orientamento, manca un capitolo specifico che tratti l'argomento in modo organico."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Municipio 7",
+        "Associazioni educative",
+        "Musicali",
+        "Sportive",
+        "Cooperative",
+        "Ats",
+        "Fondazione Don Carlo Gnocchi",
+        "Parrocchie",
+        "Università"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Ritorno a scuola",
+      "categoria_principale": "Contrasto alla dispersione scolastica",
+      "descrizione_e_metodologia": "Progetto contro la dispersione scolastica in convenzione con il Comune di Milano",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Mediando/Sconfini",
+      "categoria_principale": "Mediazione e riparazione",
+      "descrizione_e_metodologia": "Percorsi di mediazione, riparazione e sportello d'ascolto",
+      "target": "Alunni, genitori, insegnanti"
+    },
+    {
+      "titolo_attivita": "Arimo",
+      "categoria_principale": "Educazione alla legalità",
+      "descrizione_e_metodologia": "Educazione alla legalità e prevenzione della dispersione scolastica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Artelier",
+      "categoria_principale": "Sostegno allo studio",
+      "descrizione_e_metodologia": "Spazio di aggregazione per sostegno allo studio pomeridiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti S-Confini- Arimo A come accoglienza",
+      "target": "Alunni con bisogni speciali"
+    },
+    {
+      "titolo_attivita": "Percorsi di educazione all'affettività",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Percorsi dedicati",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di contrasto alla dispersione scolastica",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Seconda opportunità- RAS",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Iniziative di scuola aperta",
+      "categoria_principale": "Rapporto scuola-famiglia",
+      "descrizione_e_metodologia": "Feste di Natale e di fine anno",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetti didattici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Promozione attività culturali e prevenzione",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEPS07500L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Calasanzio** (GEPS07500L), per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di **Genova**, offre istruzione di I e II grado, ed è di tipo **paritaria**. L'analisi evidenzia un impegno generale verso l'orientamento, sebbene non esplicitamente strutturato in una sezione dedicata. Le finalità orientative sono ben definite e integrate nelle diverse azioni e attività proposte, con un forte focus sulla prevenzione della dispersione scolastica e sulla promozione del successo formativo degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non presenta una sezione specificamente dedicata all'orientamento. Sebbene le attività riconducibili a questo ambito siano presenti, manca un approccio organico e strutturato che ne delinei in modo compiuto gli obiettivi e le strategie.\n\n**2.2 Partnership:**\n\nLa scuola dimostra una solida rete di **partnership** con diversi soggetti del territorio, tra cui il **Municipio 7**, **associazioni educative**, **musicali**, **sportive**, **cooperative**, **ATS**, la **Fondazione Don Carlo Gnocchi**, **parrocchie** e **università**. Questa collaborazione rappresenta un valore aggiunto per l'offerta formativa e per le attività di orientamento, consentendo di ampliare le opportunità per gli studenti. Sono state individuate ben 9 partnership.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la facilitazione delle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno **NEET** e sullo sviluppo del **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di continuità territoriale risultano particolarmente ben definiti, mentre quelli relativi al contrasto ai NEET e al lifelong learning presentano un punteggio leggermente inferiore.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste dal PTOF per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Il rapporto scuola-genitori emerge come l'azione più solida.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo di metodologie che valorizzano l'esperienza degli studenti, l'approccio **laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e, in misura minore, **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** orientative, nell'attenzione alla prevenzione della **dispersione scolastica** e nel forte coinvolgimento delle **famiglie**. Le attività registrate, come **Ritorno a scuola**, **Mediando/Sconfini**, **Arimo**, **Artelier**, **Progetti di inclusione**, **Percorsi di educazione all'affettività**, **Progetti di contrasto alla dispersione scolastica** e **Iniziative di scuola aperta**, dimostrano un impegno concreto nella realizzazione di interventi mirati a supportare gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo comporta una mancanza di organicità e di visione strategica in merito a questo importante ambito. Inoltre, l'offerta di attività opzionali **sportive** risulta meno sviluppata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un approccio più sistematico all'orientamento, definendo obiettivi specifici, indicatori di performance e azioni mirate. È auspicabile che il PTOF integri una sezione dedicata all'orientamento, che delinei in modo chiaro le strategie e le attività previste per supportare gli studenti nel loro percorso formativo e professionale.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Calasanzio** dimostra un impegno significativo verso l'orientamento, sebbene manchi una strutturazione organica di questo ambito. La solida rete di **partnership**, la chiarezza delle **finalità** e l'attenzione alla prevenzione della **dispersione scolastica** rappresentano punti di forza importanti. Per migliorare l'efficacia delle azioni di orientamento, è necessario integrare il PTOF con una sezione dedicata, che delinei in modo chiaro gli obiettivi, le strategie e le attività previste."
+}

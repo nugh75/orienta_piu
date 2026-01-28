@@ -1,0 +1,329 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMPMB15005",
+    "denominazione": "Liceo Del Made In Italy- Minerva",
+    "tipo_scuola": "I Grado, Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale Battista Bardanzellu 83",
+    "cap": "00155",
+    "email": "mois00200c@istruzione.it",
+    "pec": "mois00200c@pec.istruzione.it",
+    "website": "www.istitutolevi.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazione Cassa di Risparmio di Vignola",
+        "Provincia di Modena",
+        "Comune di Vignola",
+        "Agenzie per l'impiego",
+        "Associazioni di categoria",
+        "Associazioni del volontariato",
+        "Terzo Settore",
+        "Ferrari S.p.A.",
+        "Scuole Green",
+        "Istituto Comprensivo “Martiri della Libertà” di Zocca-Montese",
+        "Scuola secondaria di primo grado “L.A. Muratori” di Vignola",
+        "Mater Academy",
+        "AUSL",
+        "Lavoropiù",
+        "Confindustria Emilia",
+        "UNISER",
+        "COPRESC",
+        "Centro dei servizi per il volontariato (CSV) Terre Estensi",
+        "Teatro dell'Argine",
+        "S&T",
+        "Ekonvoi Odv",
+        "EKONVOI ODV",
+        "CPIA",
+        "Associazioni di riferimento",
+        "GLIR/GIT/Scuole polo"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratori di alfabetizzazione ITALBASE e ITALSTUDIO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori per l'acquisizione dei linguaggi specifici delle discipline e innalzamento competenze base.",
+      "target": "Studenti non italofoni"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di PCTO finanziate da Fondazione Cassa di Risparmio di Vignola",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto didattico laboratoriale su motore Ferrari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Studio e documentazione di un motore Ferrari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A scuola di talenti",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Collaborazione con scuole primarie per competenze linguistiche e STEAM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alpha Generation School",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Riorganizzazione aule con tecnologie digitali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "EKO Volontariato",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Conversione giorni di sospensione in attività di volontariato presso associazione EKONVOI con tutor.",
+      "target": "Studenti con provvedimenti disciplinari"
+    },
+    {
+      "titolo_attivita": "Programma Doppio Diploma Ita-Usa",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Frequenza corsi online con Mater Academy di Miami per ottenere diploma americano.",
+      "target": "Studenti delle scuole superiori"
+    },
+    {
+      "titolo_attivita": "Cosa so - cosa sogno (Classe I)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Questionario di riflessione sul sé e sulle proprie scelte",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "Come vivere la società (Classe I)",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Progetto 'Scelgo io' - prevenzione dipendenze",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "Orientiamoci! (Classe I)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori, lavori di gruppo, riflessione sul sé",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "Visita al CERN",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Approfondimento tematiche fisica moderna, preparazione esame di stato",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Stage all'estero Erasmus+",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di PCTO di 4 settimane, corsi di formazione",
+      "target": "Studenti ITT, IPIA, IPSC e docenti/ATA"
+    },
+    {
+      "titolo_attivita": "Incontro con l'autore",
+      "categoria_principale": "Lettura e riflessione",
+      "descrizione_e_metodologia": "Lettura libri, incontro con autore, approfondimento tematiche",
+      "target": "Classi quarte e quinte IPIA"
+    },
+    {
+      "titolo_attivita": "#SPAZIOLAVORO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Campagna social sul lavoro, meme, video, storie",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cantieri Giovani",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Promozione cittadinanza attiva, sensibilizzazione, stage volontariato",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Scuole che Promuovono Salute",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Adozione documenti, curriculum salute, gruppo di lavoro",
+      "target": "Gruppi classe, classi aperte"
+    },
+    {
+      "titolo_attivita": "Prevenzione fenomeno NEET",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Hackathon, realizzazione progetto, peer education",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Corsi di riallineamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi per acquisizione competenze di base, efficaci per ridurre la non ammissione",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concorsi",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a concorsi (matematica, fisica, informatica, robotica) con ore di potenziamento",
+      "target": "Studenti con attitudini"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività di formazione e aggiornamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto didattico laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Motore Ferrari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "operatori del 118",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontro con operatori del 118",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Positivo alla salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Lotta al doping e promozione stili di vita sani",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Peer educators",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Progetto peer education",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Incontro AVIS",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Incontro con associazione AVIS",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Flashmob (Balletto)",
+      "categoria_principale": "Artistico-Sociale",
+      "descrizione_e_metodologia": "Coreografia contro la violenza sulle donne",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "\"Casa Delle Donne\"",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Laboratori sulla violenza contro le donne",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "NEO-CONNESSI",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Corso di informatica per nonni",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Sportello D’Ascolto",
+      "categoria_principale": "Psicologico",
+      "descrizione_e_metodologia": "Sportello gestito da psicologa",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Laboratorio Delle Scienze Della Vita",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Attività sperimentali di biologia",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Lezioni Di Fisica Moderna",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Lezioni divulgative su fisica moderna",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMPMB15005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Del Made In Italy- Minerva** (RMPMB15005) per il triennio 2022-2025. L'istituto, situato a **Roma** e operante nel territorio **metropolitano** della regione **Lazio**, si configura come una scuola **paritaria** che offre percorsi di istruzione di secondo grado. La valutazione evidenzia un forte impegno dell'istituto nell'ambito dell'orientamento, con punteggi elevati in tutte le aree considerate. L'ampia rete di **partnership** e la varietà delle attività proposte testimoniano un approccio proattivo e integrato alla guida degli studenti verso le scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una chiara e ben definita sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5.\n\n**2.2 Partnership:** L'istituto vanta un network di **22 partner** significativi, tra cui **Fondazione Cassa di Risparmio di Vignola**, **Comune di Vignola**, **Ferrari S.p.A.**, diverse **associazioni di categoria** e del **terzo settore**, e istituzioni scolastiche come l'**Istituto Comprensivo “Martiri della Libertà” di Zocca-Montese**. Questa solida rete di collaborazioni rappresenta un elemento cruciale per l'efficacia delle attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono chiaramente definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitare le **transizioni formative** e potenziare le loro **capacità orientative** rispetto alle opportunità disponibili. Tutti gli aspetti valutati in questa sezione hanno ottenuto un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico**, alla continuità territoriale, al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning**. L'impegno verso questi traguardi è evidente e supportato da azioni concrete.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul rapporto con i **genitori** e sul **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'attenzione verso un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si caratterizza per l'utilizzo di metodologie esperienziali, **laboratoriali**, flessibili e **interdisciplinari**, favorendo un apprendimento attivo e coinvolgente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli **culturali**, **laboratoriali**, **ludico-ricreativi**, di **volontariato** e **sportivi**. L'impegno verso il **volontariato** è particolarmente forte, mentre le opzionali di tipo ludico-ricreativo e sportivo presentano un punteggio leggermente inferiore.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua coerenza interna e l'integrazione dell'orientamento in tutte le dimensioni dell'offerta formativa. La vasta gamma di **partnership** con enti del territorio, aziende e istituzioni scolastiche, offre agli studenti opportunità concrete di **PCTO** e di contatto con il mondo del lavoro. Le attività proposte, come i laboratori **ITALBASE** e **ITALSTUDIO**, il progetto **Progetto didattico laboratoriale su motore Ferrari**, e il programma **Doppio Diploma Ita-Usa**, dimostrano un'attenzione particolare all'innovazione e all'internazionalizzazione. L'iniziativa **EKO Volontariato** rappresenta un esempio virtuoso di recupero e valorizzazione del tempo sospeso.\n\n### 4. Aree di Debolezza\n\nNonostante i punteggi generalmente elevati, alcune aree potrebbero beneficiare di un ulteriore approfondimento. Le opzionali di tipo ludico-ricreativo e sportivo, pur presenti, potrebbero essere potenziate per offrire una gamma più ampia di opportunità agli studenti. Il punteggio leggermente inferiore per l'azione di **monitoraggio delle azioni** suggerisce la necessità di implementare sistemi di valutazione più efficaci per misurare l'impatto delle attività di orientamento.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra un forte impegno verso l'orientamento, ma un'analisi più approfondita potrebbe rivelare la necessità di rafforzare la connessione tra le attività di orientamento e le esigenze specifiche del territorio **metropolitano** di **Roma**. Un maggiore coinvolgimento delle **agenzie per l'impiego** e delle **associazioni di categoria** potrebbe contribuire a garantire una maggiore corrispondenza tra l'offerta formativa e le richieste del mercato del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Del Made In Italy- Minerva** presenta una solida e ben strutturata sezione dedicata all'orientamento. L'ampia rete di **partnership**, la varietà delle attività proposte e l'attenzione verso le finalità formative e professionali degli studenti testimoniano un impegno significativo in questo ambito. Pur individuando alcune aree di miglioramento, il PTOF si configura come un documento programmatico efficace e coerente con le esigenze del contesto scolastico e territoriale."
+}

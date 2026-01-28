@@ -1,0 +1,492 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "VCAA807049",
+    "denominazione": "Saluggia San Antonino",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Saluggia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Vercelli",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cigliano 11",
+    "cap": "13040",
+    "email": "capm02000c@istruzione.it",
+    "pec": "capm02000c@pec.istruzione.it",
+    "website": "www.icserra.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Enti Locali",
+        "Comuni",
+        "ASL",
+        "ITS",
+        "Institut St. Joseph di Ciney",
+        "Gymnasio di Epanomi",
+        "Istituto Irungo La Salle",
+        "Lycée “Casanova”",
+        "Lycée “La Hotoie”",
+        "Lycée “Pravaz”",
+        "Fondazione Teatro Lirico di Cagliari",
+        "FestivalScienze di Cagliari",
+        "Università di Cagliari",
+        "Coca Cola HBC",
+        "Corepla",
+        "INAIL",
+        "Samsung",
+        "Salesiani San Giovanni Bosco",
+        "UNICA RADIO",
+        "Croce Rossa Italiana",
+        "Associazione Sardinia Pro Arte",
+        "Fondazione di Sardegna",
+        "Università",
+        "Altre scuole",
+        "Enti del territorio",
+        "Agenzie formative"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Camere Penali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate e incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto KINTSUGI",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Sostegno e accompagnamento studenti fragili",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Progetto Ciascuno a suo modo",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Valorizzazione diversità e talenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione sull'utilizzo tecnologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Transizione digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione competenze digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Si - STEM - @tica - MENTE",
+      "categoria_principale": "STEM e Multilinguismo",
+      "descrizione_e_metodologia": "Approccio trasversale STEM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Periodi di formazione in aula e apprendimento tramite esperienze di lavoro.",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto Camere Penali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate e incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto KINTSUGI",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Sostegno e accompagnamento studenti fragili",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Progetto Ciascuno a suo modo",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Valorizzazione diversità e talenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Animatore digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione sull'utilizzo tecnologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Transizione digitale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione competenze digitali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Certificazione esterna competenze lingua straniera",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi preparazione esami, contributo tasse iscrizione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Camere Penali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate e incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto KINTSUGI",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Sostegno e accompagnamento studenti fragili",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Progetto Ciascuno a suo modo",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Valorizzazione diversità e talenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Periodi di formazione in aula e apprendimento tramite esperienze di lavoro.",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Sicurezza sui luoghi di lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi formativi sulla sicurezza.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi formativi sulle tecniche di primo soccorso.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Privacy",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione sul trattamento dei dati personali.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Visita e Scoperta del mondo del Teatro Lirico",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita guidata al Teatro Lirico per studenti del triennio",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Festival Scienze Cagliari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività formative organizzate dal Festival",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Università di Cagliari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività formative organizzate dall'Università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ufficio Anagrafe Comune di Cagliari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Affiancamento impiegato",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Museo della Shoah",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Lezioni dialogate",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto APOTHEKE",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta farmaci",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Certificazione Informatica EIPASS",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corso e esame",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Ti Abbraccio",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Distribuzione aiuti alimentari",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Oasi del Cervo",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Contenuti multimediali/pulizia",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Corso Arbitri Calcio",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso e arbitraggio",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Corso Arbitri Pallavolo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso e arbitraggio",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Educazione ambientale e pulizia spiagge",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Formazione e pulizia",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Stage Grimaldi Lines",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Stage a bordo",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Chatterbox",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Affiancamento insegnanti",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Campionati Scherma",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Gestione campionato",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Young European Multiplier",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Webinar",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Eleonora's got talent",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Laboratorio di canto, esibizioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Parole O_Stili",
+      "categoria_principale": "Educazione Digitale",
+      "descrizione_e_metodologia": "Workshop su cyberbullismo, fake news",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Scrittura Creativa",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Laboratori di scrittura",
+      "target": "Studenti classe terza"
+    },
+    {
+      "titolo_attivita": "Tecno-CLIL",
+      "categoria_principale": "CLIL",
+      "descrizione_e_metodologia": "Insegnamento discipline non linguistiche in inglese",
+      "target": "Studenti classe quinta"
+    },
+    {
+      "titolo_attivita": "Scuola Gentile",
+      "categoria_principale": "Educazione al benessere",
+      "descrizione_e_metodologia": "Promozione gentilezza e inclusione",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Settimana del benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Educazione alla salute psico-fisica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giardino Arbòrea",
+      "categoria_principale": "Spazi esterni",
+      "descrizione_e_metodologia": "Riqualificazione giardino scolastico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Realtà aumentata e virtuale",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Utilizzo tecnologie immersive",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti PON",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Progetti finanziati da fondi europei",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Festival LEI",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Coinvolgimento staff organizzazione festival",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Workshop scrittura giornalistica",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Redazione interviste autori",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Università di Cagliari Orientarsi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi universitari",
+      "target": "Alunni di Quinta"
+    },
+    {
+      "titolo_attivita": "Ufficio Anagrafe Comune di Cagliari",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Affiancamento impiegato",
+      "target": "Classi Quinte"
+    },
+    {
+      "titolo_attivita": "Progetto RECUPERIAMO, AIUTIAMOCI, DIGITIAMO!",
+      "categoria_principale": "Sostegno e inclusione",
+      "descrizione_e_metodologia": "Interventi di recupero, supporto psicologico, sviluppo competenze digitali.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto Mobilità studentesca",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorno di 2 settimane in scuole estere per acquisire competenze linguistiche e interculturali.",
+      "target": "Classi terze e quarte Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Scuola Bene Comune",
+      "categoria_principale": "Educazione alla legalità e cittadinanza",
+      "descrizione_e_metodologia": "Laboratori su musica, cinema, legalità, cyberbullismo e orientamento universitario.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gestione didattica e tecnica degli ambienti di apprendimento innovativi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, comunità di pratiche, formazione di scuola/rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Workshop, formazione di scuola/rete",
+      "target": "Personale docente e ATA"
+    },
+    {
+      "titolo_attivita": "Didattica digitale integrata e formazione alla transizione digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, comunità di pratiche",
+      "target": "Tutto il personale della scuola"
+    },
+    {
+      "titolo_attivita": "Corsi annuali di formazione linguistica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi con test preselettivo e esame finale presso ente certificatore.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Assistenti Amministrativi - Anticorruzione e Privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione Collaboratori Scolastici - Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione on line",
+      "target": "Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VCAA807049\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Saluggia San Antonino**, scuola dell'infanzia situata nel territorio non metropolitano di **Saluggia** (Vercelli), Piemonte, per il triennio 2022-2025, dimostra un'attenzione significativa all'orientamento. L'analisi dei dati forniti evidenzia la presenza di una sezione dedicata all'orientamento, con un punteggio massimo di 5. La scuola si impegna attivamente nella costruzione di **partnership** con un ampio ventaglio di soggetti, tra cui **Enti Locali**, **Comuni**, **ASL**, **ITS**, diverse scuole europee come l'**Institut St. Joseph di Ciney** e il **Lycée “Casanova”**, enti di ricerca come il **FestivalScienze di Cagliari** e aziende come **Coca Cola HBC** e **Samsung**. Questo approccio collaborativo è volto a fornire agli studenti opportunità di crescita e di sviluppo di competenze utili per il loro futuro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Come già accennato, il PTOF include una sezione specificamente dedicata all'orientamento, a testimonianza dell'importanza attribuita a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto esteso, composto da ben 24 partner diversi. Questa rete diversificata permette di ampliare l'offerta formativa e di offrire agli studenti esperienze di apprendimento significative e contestualizzate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le loro **transizioni formative** e fornendo loro le **capacità orientative** per cogliere le opportunità che si presentano.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono** scolastico, alla promozione della continuità territoriale, al contrasto del fenomeno **NEET** e allo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alla fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando ulteriormente le opportunità di crescita e di sviluppo degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica. La presenza di una sezione dedicata, la vasta rete di **partnership**, la chiarezza delle finalità e degli obiettivi, l'attenzione alle azioni di sistema e l'offerta didattica diversificata costituiscono un solido punto di partenza per un'efficace azione orientativa. L'ampia gamma di attività proposte, come il **Progetto Camere Penali**, il **Progetto KINTSUGI** e il **Progetto Ciascuno a suo modo**, dimostrano l'impegno della scuola nel fornire agli studenti un supporto completo e personalizzato.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, è necessario sottolineare che l'analisi dei punteggi assegnati alle diverse dimensioni dell'orientamento evidenzia una certa uniformità (tutti i punteggi sono pari a 5 o 6). Questo suggerisce che non ci sono aree particolarmente critiche, ma nemmeno aree di eccellenza. Sarebbe auspicabile individuare alcuni ambiti prioritari su cui concentrare gli sforzi per migliorare ulteriormente l'efficacia dell'azione orientativa.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un'offerta orientativa completa e diversificata. Tuttavia, l'assenza di punteggi massimi in alcune aree suggerisce la necessità di approfondire l'analisi dei bisogni degli studenti e di definire strategie mirate per rispondere alle loro esigenze specifiche. Ad esempio, sarebbe utile valutare l'efficacia delle attività di orientamento universitario e professionale e di rafforzare la collaborazione con il mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto **Saluggia San Antonino** rappresenta un documento ben strutturato e coerente, che dimostra un'attenzione significativa all'orientamento. La scuola si impegna attivamente nella costruzione di **partnership** strategiche e nell'offerta di un'ampia gamma di attività formative. Pur non presentando aree di debolezza evidenti, è auspicabile un continuo monitoraggio e una costante valutazione dell'efficacia delle azioni intraprese per garantire che l'orientamento sia sempre più rispondente alle esigenze degli studenti e del territorio. L'impegno nella **formazione docenti** su temi come la **transizione digitale** e l'utilizzo di nuove tecnologie rappresenta un ulteriore elemento di forza del PTOF."
+}

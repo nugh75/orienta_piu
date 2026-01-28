@@ -1,0 +1,259 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CO1E00900A",
+    "denominazione": "\"Suore Sacramentine\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Cantu'",
+    "anno_ptof": "2025/2028",
+    "provincia": "Como",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Archinto N.2",
+    "cap": "22063",
+    "email": "segreteria@cardinalferrari.it",
+    "pec": "ND",
+    "website": "www.cardinalferrari.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "SGS",
+        "CRI",
+        "Avis",
+        "Aido",
+        "Abio",
+        "Comune di Cantù",
+        "Associazioni culturali locali",
+        "EE.LL.",
+        "associazioni",
+        "Briantea84",
+        "AVIS di Cantù",
+        "asPROlegno",
+        "Consultorio Punto Famiglia",
+        "psicologi",
+        "associazioni di assistenza"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende e istituzioni locali",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interviste a professionisti",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti, attività, iniziative per il benessere scolastico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Laboratori, monitoraggio, revisione",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Personalizzazione della didattica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Osservazione, recupero, potenziamento",
+      "target": "Alunni con lacune/eccellenze"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Raccolta fabbisogno, attivazione FONDER",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incontri con specialisti",
+      "categoria_principale": "Supporto e consulenza",
+      "descrizione_e_metodologia": "Colloqui con specialisti per alunni con BES",
+      "target": "Alunni con BES e famiglie"
+    },
+    {
+      "titolo_attivita": "Osservazione alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Osservazione iniziale e continua degli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Gestito da insegnanti e alunni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Inglesepiù",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio con madrelingua inglese",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lettura",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Letture ad alta voce e animate",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Recitazione per maturazione personale",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Soggiorno-studio in paese anglofono",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Due settimane con insegnante accompagnatore",
+      "target": "Facoltativo"
+    },
+    {
+      "titolo_attivita": "Educazione alla solidarietà",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Sensibilizzazione, testimonianze, raccolta fondi",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Primo soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Lezioni con esperto esterno",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Educazione all'affettività",
+      "categoria_principale": "Psicologica",
+      "descrizione_e_metodologia": "Lezioni con esperti del Consultorio",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Conoscenza del regolamento stradale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "A Scuola di Sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promuovere valori dello sport",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Visite culturali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Uscite didattiche per scoperta del territorio e professioni",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con psicologi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui individuali e di gruppo",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento nella scuola secondaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con scuole superiori",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Corso Avanzato Dislessia Amica",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Formazione docenti per migliorare competenze inclusione DSA",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CO1E00900A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Suore Sacramentine” (CO1E00900A) per il triennio 2025/2028. La scuola, paritaria, situata nel comune di Cantù, in provincia di Como e regione Lombardia, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo elevato nelle diverse dimensioni analizzate. L'istituto si colloca in un territorio non metropolitano e pone particolare attenzione alla collaborazione con diversi partner del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede esplicitamente una sezione dedicata all'orientamento, un aspetto cruciale per la pianificazione strategica dell'istituto.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo **SGS**, **CRI**, **Avis**, **Aido**, **Abio**, il **Comune di Cantù**, diverse **associazioni culturali locali**, **EE.LL.**, altre **associazioni**, **Briantea84**, **AVIS di Cantù**, **asPROlegno**, il **Consultorio Punto Famiglia**, **psicologi** e **associazioni di assistenza**. Questo elevato numero di collaborazioni (15 partner) testimonia la volontà di creare un sistema di supporto integrato per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio massimo (5), indicando una chiara visione strategica.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di continuità territoriale risulta particolarmente prioritario (punteggio 4), mentre gli altri obiettivi ottengono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Il dialogo tra docenti e studenti e il rapporto scuola-genitori sono considerati prioritari (punteggio 5), mentre il monitoraggio e il sistema integrato ricevono un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**. L'apprendimento dall'esperienza e l'interdisciplinarità sono particolarmente valorizzati (punteggio 5), mentre i laboratori e la flessibilità ricevono un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive** (con il punteggio più alto, 6), **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampio network di **partnership** con enti e associazioni del territorio, nella chiarezza delle **finalità** e nella varietà delle attività proposte. L'attenzione alla didattica esperienziale e interdisciplinare, unitamente all'offerta di opzionali laboratoriali ed espressive, rappresenta un valore aggiunto significativo. Le attività registrate, come **Visite guidate**, **Incontri con esperti**, **Open Day** e i vari **laboratori**, dimostrano un approccio pratico e coinvolgente.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'**abbandono scolastico** e di contrasto al fenomeno **NEET**, che ottengono un punteggio inferiore rispetto agli altri. Anche il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità** necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ambiziose e gli obiettivi meno prioritari suggerisce la necessità di definire strategie più mirate per affrontare le problematiche legate all'abbandono scolastico e all'inserimento nel mondo del lavoro. Un maggiore focus sul monitoraggio e sulla valutazione delle azioni intraprese permetterebbe di ottimizzare l'efficacia dell'intervento orientativo.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola “Suore Sacramentine” presenta un solido impianto strategico in materia di orientamento, caratterizzato da una visione chiara, un ampio network di **partnership** e un'offerta didattica diversificata. Pur riconoscendo alcune aree di debolezza, l'istituto dimostra un impegno significativo verso la crescita personale e professionale degli studenti, ponendo le basi per un futuro di successo. L'implementazione di azioni mirate per colmare i gap individuati consentirebbe di rafforzare ulteriormente l'efficacia dell'intervento orientativo e di garantire a tutti gli studenti pari opportunità di sviluppo."
+}

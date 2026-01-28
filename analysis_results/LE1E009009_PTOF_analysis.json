@@ -1,0 +1,359 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "LE1E009009",
+    "denominazione": "Centro Montessori Lecce",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Lecce",
+    "anno_ptof": "2022-2025",
+    "provincia": "Lecce",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Viale Aldo Moro 30/4",
+    "cap": "73100",
+    "email": "segreteria@centromontessorilecce.it",
+    "pec": "europaeducazioneonlus@legalmail.it",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "associazioni di settore",
+        "Enti comunali",
+        "Servizi sociali",
+        "Servizi sanitari",
+        "Servizi educativi del territorio",
+        "Organizzazioni di volontariato",
+        "Terzo settore",
+        "Lega Navale Italiana",
+        "FAI",
+        "Trinity College London",
+        "Comune di Alcamo",
+        "ASL",
+        "Istituto Mattarella - Dolci",
+        "Università",
+        "UNICORE",
+        "Cooperative",
+        "Associazioni",
+        "Società sportive",
+        "Opera Nazionale Montessori"
+      ],
+      "partnership_count": 19
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di lingua straniera (inglese, spagnolo)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi antimeridiani e pomeridiani, gemellaggi",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Montessori Day",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Applicazione di didattica attiva e metodologie Montessori",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Percorso di recupero delle competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività laboratoriali ed esperienziali, mobilità europea",
+      "target": "Studenti primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso di consolidamento e recupero competenze trasversali",
+      "categoria_principale": "Competenze Trasversali",
+      "descrizione_e_metodologia": "Attività pratico-laboratoriali, mobilità europea",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di potenziamento rivolto alle terze classi della scuola secondaria di primo grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppa le competenze digitali, organizzative e logiche.",
+      "target": "Classi terze scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Percorso di potenziamento Lingua inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Potenziamento delle competenze comunicative.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Percorsi di mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Docente mentor come guida, supporto psicologico, individuazione punti di forza.",
+      "target": "Discenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento competenze",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Recupero abilità in Italiano, Inglese e Matematica.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento per le famiglie",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Rappresentazione teatrale con genitori e alunni.",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto Montessori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attivazione classe Montessori",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "LatinaMente",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Avvicinamento allo studio del latino",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Hola, hello, bonjour",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Scambio culturale con Francia",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochiamo con i robot LEGO e il coding",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo LEGO SPIKE Prime",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Creativity Lab",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività manipolative e creative",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Emozioni in musica",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Integrazione narrazione, musica, colore",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Pezzettino: un viaggio alla ricerca della propria identità",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Utilizzo libro-ponte",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Un salto alla scuola primaria",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Continuità e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Una scuola di tutti e di ciascuno",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori, ascolto, interazione",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Certificazione di musica Trinity College London",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Preparazione esami",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avviamento alla pratica sportiva",
+      "target": "Scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Vivere è stupefacente",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Prevenzione uso droga",
+      "target": "Classi terze scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Scuola Amica Unicef",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività educative su rispetto e inclusione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Incontro con l'autore",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Lettura e incontro con l'autore",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Conoscere il mare",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Conoscenza ambiente marino",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Favolarte",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratorio arte per creatività",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Giornate FAI per le scuole",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Educazione tra pari",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Progetto di Lingua, cultura e civiltà rumena",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Conoscenza lingua e cultura rumena",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Suoniamo con i musicisti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni in orario antimeridiano con musicisti e corso pomeridiano di avviamento alla pratica strumentale.",
+      "target": "Classi quinte della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Esami Trinity di musica",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento degli esami di musica Trinity Classica & Jazz.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pomeridiane di recupero, potenziamento, sportive e musicali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività extrascolastiche per supporto e arricchimento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Matematica e scienza dei dati con le tecnologie digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop su analisi dati aperti pubblici.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Insegnare le scienze con la didattica digitale e la realtà aumentata",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori su metodologie didattiche innovative.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Disegnare e produrre oggetti con le tecnologie digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori e workshop su disegno e produzione digitale.",
+      "target": "Docenti scuola Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Insegnare le STEAM in chiave interdisciplinare",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Ricerca-azione su approcci STEAM.",
+      "target": "Docenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Inclusione e personalizzazione nell’insegnamento delle STEAM",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Laboratori e workshop su fragilità di apprendimento.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LE1E009009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Centro Montessori Lecce** (LE1E009009) per il triennio 2022-2025, con particolare attenzione alla dimensione dell'orientamento. La scuola, di tipo **Primaria** e situata nel territorio non metropolitano di **Lecce** in **Puglia**, si configura come un istituto **paritario** con una solida attenzione alla partnership territoriale e all'innovazione didattica. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e una vasta gamma di attività volte a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, oltre a favorire la transizione verso i successivi gradi di istruzione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto ampio e diversificato, comprendendo **associazioni di settore**, **Enti comunali**, **Servizi sociali**, **Servizi sanitari**, **Servizi educativi del territorio**, **Organizzazioni di volontariato**, **Terzo settore**, **Lega Navale Italiana**, **FAI**, **Trinity College London**, **Comune di Alcamo**, **ASL**, **Istituto Mattarella - Dolci**, **Università**, **UNICORE**, **Cooperative**, **Associazioni**, **Società sportive** e **Opera Nazionale Montessori**. Questo elevato numero di collaborazioni (19 partner) rappresenta un valore aggiunto per l'offerta formativa e per le opportunità di orientamento offerte agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, i **progetti di vita** degli studenti, nonché a supportarli nelle **transizioni formative**. L'attenzione alle **capacità orientative** e alle opportunità è valutata positivamente, con un punteggio di 4 per ciascuna finalità.\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, spicca l'impegno a **ridurre l'abbandono** scolastico (punteggio 5) e a garantire la **continuità territoriale** (punteggio 3). L'obiettivo di **contrastare i NEET** risulta meno prioritario (punteggio 1), mentre l'attenzione al **lifelong learning** è considerata importante (punteggio 4).\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, come il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 4) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di **laboratori** (punteggio 3) e sulla **flessibilità degli spazi e dei tempi** (punteggio 3). L'approccio **interdisciplinare** è considerato un punto di forza (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate positivamente (punteggi tra 4 e 5).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica, grazie a una sezione dedicata, a un ampio network di **partnership** e a una vasta gamma di attività. L'attenzione all'inclusione, all'innovazione didattica e al coinvolgimento delle famiglie rappresenta un ulteriore valore aggiunto. Attività come \"**Progetti di lingua straniera**\", \"**Montessori Day**\", \"**Percorso di recupero delle competenze di base**\" e \"**Percorsi di mentoring e orientamento**\" dimostrano un impegno concreto verso lo sviluppo delle competenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di **contrastare i NEET**, che risulta meno prioritario rispetto agli altri obiettivi del PTOF. Inoltre, l'utilizzo di **laboratori** nella didattica orientativa potrebbe essere potenziato, così come la **flessibilità degli spazi e dei tempi**.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro. È auspicabile un maggiore focus sulle competenze richieste dal mercato del lavoro e sulla creazione di opportunità di stage e tirocini.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Centro Montessori Lecce** si presenta come un documento ben strutturato e coerente, con una solida attenzione all'orientamento e all'innovazione didattica. La vasta gamma di **attività** proposte, la forte **partnership** con il territorio e l'impegno verso l'inclusione rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come uno strumento efficace per garantire un'offerta formativa di qualità e per supportare gli studenti nel loro percorso di crescita e di orientamento."
+}

@@ -1,0 +1,189 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SV1A03200L",
+    "denominazione": "Scuola Materna Regina Margherita",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Savona",
+    "anno_ptof": "2022-2025",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Verdi 58",
+    "cap": "17100",
+    "email": "rmic80800e@istruzione.it",
+    "pec": "coopkoine@pec.confcooperative.it",
+    "website": "https://www.scuolareginamargherita.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti",
+        "Onlus",
+        "Associazioni Sportive e Culturali",
+        "Ass.ne Genitori Regina",
+        "Ass.ne Trastevere Attiva",
+        "Associazioni",
+        "Enti del territorio",
+        "ASL Roma 1",
+        "Università",
+        "Richmond University",
+        "Trinity College"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di sostegno psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Sportello, attività formative, monitoraggio",
+      "target": "Docenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Laboratori teatrali e di lettura creativa",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Con esponenti del territorio",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Cura spazio verde",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Collaborazione con Ass.ne Trastevere Attiva",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di percorsi di orientamento nelle classi seconde e terze, partecipazione alle giornate di open day",
+      "target": "Studenti secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Attività comuni tra ordini di scuola",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Programmazione di attività comuni tra ordini di scuola",
+      "target": "Studenti di tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Progetto musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Continuita' con la scuola primaria",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Preparazione KET",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Attivita' di potenziamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti ex 440 CINEMA LAB",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Laboratori di cinema e teatro per studenti medie",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Ludoteca e attività culturali/sportive",
+      "categoria_principale": "Post scuola",
+      "descrizione_e_metodologia": "Attività pomeridiane con Associazione Genitori",
+      "target": "Studenti primaria"
+    },
+    {
+      "titolo_attivita": "Tirocini universitari",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Studenti universitari madrelingua per potenziamento linguistico",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SV1A03200L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF della **Scuola Materna Regina Margherita** di Savona, codice **SV1A03200L**, presenta una solida attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5. L'istituto, paritario e situato in un territorio non metropolitano, dimostra un impegno nella costruzione di un sistema di orientamento che coinvolge diversi attori del territorio. L'analisi delle diverse dimensioni del PTOF rivela un quadro complessivamente positivo, con alcune aree che necessitano di maggiore attenzione e sviluppo. La scuola si impegna a promuovere le attitudini, gli interessi e il progetto di vita degli studenti, sebbene la transizione formativa e lo sviluppo di capacità orientative per le opportunità future appaiano meno sviluppati.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è un elemento distintivo del PTOF, ottenendo il punteggio massimo di 5.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo **Enti**, **Onlus**, **Associazioni Sportive e Culturali**, l'**Ass.ne Genitori Regina**, l'**Ass.ne Trastevere Attiva**, diverse **Associazioni**, **Enti del territorio**, l'**ASL Roma 1**, e collaborazioni con **Università** come **Richmond University** e **Trinity College**. Questo elevato numero di partner (11) suggerisce una forte integrazione con il contesto esterno.\n\n**2.3 Finalità:** Le finalità del sistema di orientamento si concentrano sullo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, ottenendo un punteggio di 4 per ciascuna di queste aree. Tuttavia, le finalità relative alla transizione formativa e allo sviluppo di capacità orientative per le opportunità future ricevono un punteggio inferiore (1).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'abbandono scolastico e a garantire la continuità territoriale, entrambi con un punteggio di 3. Gli obiettivi di contrasto al fenomeno NEET e di promozione del lifelong learning risultano meno prioritari, con un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori, sul monitoraggio delle azioni e sull'integrazione di inclusione e fragilità, con punteggi compresi tra 3 e 4. Il rapporto scuola-genitori emerge come un punto di forza.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità, con punteggi di 3 per ciascuna di queste aree. L'utilizzo di metodologie laboratoriali risulta meno sviluppato (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, sportive e di volontariato, tutte con un punteggio di 3, ad eccezione del volontariato che ottiene un punteggio di 2.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio network di **partnership** con enti e associazioni del territorio, e nell'attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti. L'impegno nel rapporto **scuola-genitori** e l'utilizzo di metodologie didattiche basate sull'esperienza e sulla flessibilità rappresentano ulteriori elementi positivi. Le attività registrate, come il \"**Progetto di sostegno psicologico**\" e i \"**Laboratori teatrali e di lettura creativa**\", contribuiscono a creare un ambiente scolastico stimolante e inclusivo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la scarsa attenzione alla transizione formativa e allo sviluppo di capacità orientative per le opportunità future. Gli obiettivi di contrasto al fenomeno NEET e di promozione del lifelong learning appaiono meno prioritari. L'utilizzo di metodologie laboratoriali nella didattica orientativa e l'offerta di attività di volontariato potrebbero essere potenziate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a preparare gli studenti alla transizione verso i successivi livelli di istruzione e al mondo del lavoro. È necessario sviluppare percorsi di orientamento più strutturati e mirati, che forniscano agli studenti gli strumenti necessari per affrontare le sfide del futuro. L'integrazione di attività di volontariato e di metodologie laboratoriali potrebbe contribuire a colmare questo gap.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Materna Regina Margherita** presenta un approccio all'orientamento solido e ben strutturato, con un forte coinvolgimento del territorio e un'attenzione particolare allo sviluppo delle potenzialità individuali degli studenti. Pur riconoscendo i punti di forza, è necessario concentrare gli sforzi sul potenziamento delle aree di debolezza, in particolare per quanto riguarda la transizione formativa e lo sviluppo di capacità orientative per le opportunità future. L'implementazione di azioni mirate e la valorizzazione delle **partnership** esistenti contribuiranno a rendere il sistema di orientamento ancora più efficace e in linea con le esigenze del contesto attuale. Attività come i \"**Percorsi di orientamento**\", i \"**Progetti ex 440 CINEMA LAB**\" e i \"**Tirocini universitari**\" rappresentano un buon punto di partenza per un ulteriore sviluppo."
+}

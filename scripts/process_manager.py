@@ -8,7 +8,10 @@ import subprocess
 
 logger = logging.getLogger(__name__)
 
-PID_FILE = Path("workflow.pid")
+# Use absolute path based on script location to ensure consistency
+SCRIPT_DIR = Path(__file__).parent.parent  # Project root
+# Store PID file in logs directory (writable in Docker container)
+PID_FILE = SCRIPT_DIR / "logs" / "workflow.pid"
 
 def is_process_running(pid):
     """Check if a process with the given PID is running."""
@@ -22,18 +25,29 @@ def is_process_running(pid):
         return False
 
 def get_running_pid():
-    """Get the PID from file if the process is actually running."""
+    """Get the PID and PGID from file if the process is actually running.
+
+    Returns tuple (pid, pgid) or None if not running.
+    """
     if not PID_FILE.exists():
         return None
-    
+
     try:
-        pid = int(PID_FILE.read_text().strip())
-        if is_process_running(pid):
-            return pid
+        content = PID_FILE.read_text().strip()
+        # Support both old format (just PID) and new format (PID:PGID)
+        if ':' in content:
+            pid_str, pgid_str = content.split(':')
+            pid = int(pid_str)
+            pgid = int(pgid_str)
         else:
-            # Stale PID file
-            PID_FILE.unlink(missing_ok=True)
-            return None
+            pid = int(content)
+            pgid = pid  # Fallback: assume PGID equals PID
+
+        if is_process_running(pid):
+            return (pid, pgid)
+        # Stale PID file
+        PID_FILE.unlink(missing_ok=True)
+        return None
     except ValueError:
         PID_FILE.unlink(missing_ok=True)
         return None
@@ -105,17 +119,22 @@ def start_workflow_process(params=None):
             if params.get("activity_model"):
                 cmd.append(f"ACTIVITY_WORKFLOW={params['activity_model']}")
         
-        log_file = open("logs/workflow.log", "a")
-        
+        log_file = open(SCRIPT_DIR / "logs" / "workflow.log", "a")
+
         process = subprocess.Popen(
             cmd,
             stdout=log_file,
             stderr=subprocess.STDOUT,
-            cwd=os.getcwd(),
+            cwd=SCRIPT_DIR,
             start_new_session=True  # Detach from parent
         )
-        
-        PID_FILE.write_text(str(process.pid))
+
+        # Save PID and PGID for proper process group termination
+        try:
+            pgid = os.getpgid(process.pid)
+        except OSError:
+            pgid = process.pid
+        PID_FILE.write_text(f"{process.pid}:{pgid}")
         logger.info(f"Started strata-cycle with cmd: {' '.join(cmd)}")
         return True
     except Exception as e:
@@ -123,19 +142,31 @@ def start_workflow_process(params=None):
         return False
 
 def stop_workflow_process():
-    """Stop the running workflow process."""
-    pid = get_running_pid()
-    if not pid:
+    """Stop the running workflow process and all its children."""
+    result = get_running_pid()
+    if not result:
         return False
-    
+
+    pid, pgid = result
+
     try:
-        os.kill(pid, signal.SIGINT) # Try graceful shutdown first
-        # Ideally we wait a bit and check, but for UI responsiveness we might just signal
-        # The workflow handles SIGINT to save state.
+        # Kill the entire process group to terminate make + python children
+        os.killpg(pgid, signal.SIGTERM)
+        logger.info(f"Sent SIGTERM to process group {pgid} (main pid: {pid})")
+        # The workflow handles SIGTERM to save state.
         return True
     except ProcessLookupError:
         PID_FILE.unlink(missing_ok=True)
         return False
+    except PermissionError:
+        # Fallback: try killing just the main process
+        try:
+            os.kill(pid, signal.SIGTERM)
+            logger.info(f"Fallback: sent SIGTERM to process {pid}")
+            return True
+        except ProcessLookupError:
+            PID_FILE.unlink(missing_ok=True)
+            return False
     except Exception as e:
-        logger.error(f"Error stopping process {pid}: {e}")
+        logger.error(f"Error stopping process group {pgid}: {e}")
         return False

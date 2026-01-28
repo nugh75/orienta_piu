@@ -1,0 +1,291 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPS3D500P",
+    "denominazione": "Liceo Scientifico Ad Indirizzo Sportivo Visitandine Malpighi",
+    "tipo_scuola": "Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Castel San Pietro Terme",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Palestro8",
+    "cap": "40024",
+    "email": "segreteriacspt@scuolemalpighi.it",
+    "pec": "ND",
+    "website": "www.scuolemalpighi.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Fondazioni",
+        "Privati",
+        "Imprese",
+        "Bonfiglioli Riduttori",
+        "B.R.T.",
+        "Ducati Motor Hoding",
+        "H Farm",
+        "Loccioni",
+        "Dallara",
+        "Castelli s.p.a.",
+        "Digital Accademia",
+        "Rete della robotica di Torino",
+        "Università di Bologna",
+        "Coder-Dojo",
+        "MIT Media Lab",
+        "Fondazione Golinelli",
+        "Opificio Golinelli",
+        "Ducati",
+        "Federazione Nazionale degli Ordini dei Medici Chirurghi e Odontoiatri",
+        "Politecnico di Milano",
+        "Università La Sapienza, Roma",
+        "Università LUMSA, Roma",
+        "Università di Padova",
+        "Centro Euromediterraneo sui cambiamenti climatici",
+        "MEDIT",
+        "Consorzio ELIS",
+        "Bonfiglioli Group",
+        "FAAC",
+        "IConsulting",
+        "Gellify",
+        "Insidesign",
+        "Ducati Design Center",
+        "Mario Cucinella Architects",
+        "Telemaco di Jonas Bologna",
+        "aziende del territorio"
+      ],
+      "partnership_count": 31
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Borse di studio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fondo borse di studio implementato con contributi esterni, basato su certificazione ISEE.",
+      "target": "Studenti con difficoltà economiche"
+    },
+    {
+      "titolo_attivita": "Maxisperimentazioni",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività autonome in collaborazione con Università e mondo del lavoro.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esame SAT",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Preparazione e sostenimento dell'esame SAT.",
+      "target": "Studenti del quarto anno"
+    },
+    {
+      "titolo_attivita": "Malpighi La.B",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio didattico di informatica, robotica, automazione, design e progettazione 3D.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Obeya Lab",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio per workshop, podcast e scrittura creativa.",
+      "target": "Studenti del 4-YearProgramme e Liceo Tr.E.D"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Design e Technology",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Corso opzionale pomeridiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Opzione Biomedica",
+      "categoria_principale": "Percorsi opzionali",
+      "descrizione_e_metodologia": "Lezioni aggiuntive e tirocinio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "STEAM",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Workshop pomeridiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scienze in Pratica",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage presso Opificio Golinelli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fisica in Moto",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage presso Ducati",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mechathronic Contest",
+      "categoria_principale": "STEM/Tecnologia",
+      "descrizione_e_metodologia": "Ottimizzazione sistema meccatronico, lavoro di gruppo, problem solving.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Obeya FAAC Challenge",
+      "categoria_principale": "STEM/Automazione",
+      "descrizione_e_metodologia": "Automazione e Lean Thinking, lavoro in team, concept design.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Big Data Challenge",
+      "categoria_principale": "STEM/Data Science",
+      "descrizione_e_metodologia": "Raccolta, analisi dati, visualizzazione con software, collaborazione con aziende.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Explore",
+      "categoria_principale": "STEM/Imprenditorialità",
+      "descrizione_e_metodologia": "Sviluppo idea impatto ambientale, tecnologie digitali, start-up.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "INSIDESIGN AWARD",
+      "categoria_principale": "Design/Architettura",
+      "descrizione_e_metodologia": "Progetto complemento d'arredo, partnership con aziende del settore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Design and Technology",
+      "categoria_principale": "STEM/Design",
+      "descrizione_e_metodologia": "Collaborazione con Ducati Design Center e Mario Cucinella Architects.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Meccatronica",
+      "categoria_principale": "STEM/Tecnologia",
+      "descrizione_e_metodologia": "Approfondimento meccatronica, collaborazione Bonfiglioli Group.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Automazione",
+      "categoria_principale": "STEM/Tecnologia",
+      "descrizione_e_metodologia": "Approfondimento automazione, collaborazione FAAC.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Data Analysis",
+      "categoria_principale": "STEM/Data Science",
+      "descrizione_e_metodologia": "Approfondimento Data Analysis e Machine Learning, collaborazione IConsulting.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Design e progettazione 3D",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Progettazione in AutoCAD con esperti del settore.",
+      "target": "Classi del liceo"
+    },
+    {
+      "titolo_attivita": "Seminari esperti AI",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Organizzazione seminari con esperti AI.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Raccolta e analisi dati",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Collaborazione con aziende del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Coding e robotica",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo Scratch, Makecode, C, Java, Microbit, Arduino, Lego.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPS3D500P\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Ad Indirizzo Sportivo Visitandine Malpighi** (BOPS3D500P) per il triennio 2022-2025. L'istituto, situato a **Castel San Pietro Terme** in provincia di **Bologna**, regione **Emilia Romagna**, si configura come una scuola **paritaria** di secondo grado. L'analisi si basa sui dati forniti, valutando le diverse dimensioni dell'orientamento, i punti di forza, le aree di debolezza e i gap esistenti. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia rete di **partnership** con aziende, università e fondazioni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 7, indicando un'attenzione specifica a questa area.\n\n**2.2 Partnership:** La scuola vanta un network di **31 partner**, tra cui **Fondazioni**, **Imprese** come **Bonfiglioli Riduttori**, **Ducati Motor Hoding**, **H Farm**, **Loccioni**, **Dallara**, **Castelli s.p.a.**, **Digital Accademia**, **Rete della robotica di Torino**, e importanti istituzioni accademiche come l'**Università di Bologna**, il **Politecnico di Milano**, e la **Università La Sapienza, Roma**. Questa vasta rete di collaborazioni rappresenta un elemento cruciale per l'offerta di opportunità concrete agli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, con un punteggio di 6 per ciascuna di queste aree. L'attenzione alle **transizioni formative** risulta leggermente inferiore, con un punteggio di 4, mentre lo sviluppo delle **capacità orientative** e delle **opportunità** è valutato positivamente con un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono** scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. La continuità territoriale e la lotta al fenomeno dei NEET sono considerate prioritarie, con un punteggio di 5 per entrambe, mentre la riduzione dell'abbandono scolastico presenta un punteggio inferiore (3).\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori e sul monitoraggio delle azioni intraprese. Tutte queste azioni sono valutate positivamente con un punteggio di 6, ad eccezione del sistema integrato di inclusione e fragilità, che ottiene un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si caratterizza per l'utilizzo di esperienze dirette, laboratori, flessibilità degli spazi e dei tempi, e approcci interdisciplinari. Tutte queste metodologie didattiche sono valutate con punteggi compresi tra 5 e 7.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, con punteggi che variano tra 5 e 7.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con aziende, università e fondazioni, che offre agli studenti opportunità concrete di **stage**, **visite aziendali** e **progetti collaborativi**. L'ampia gamma di **laboratori** didattici, come **Malpighi La.B** e **Obeya Lab**, e le attività pratiche come **Scienze in Pratica** e **Fisica in Moto**, favoriscono un apprendimento esperienziale e stimolano l'interesse degli studenti verso le discipline **STEM**. L'offerta di **borse di studio** supporta gli studenti con difficoltà economiche, garantendo l'accesso all'istruzione.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la finalizzazione delle azioni verso le **transizioni formative**, che ottiene un punteggio inferiore rispetto alle altre finalità. Inoltre, l'obiettivo di ridurre l'**abbandono** scolastico sembra meno prioritario rispetto agli altri obiettivi. Il sistema integrato di inclusione e fragilità necessita di un ulteriore potenziamento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni specifiche volte a facilitare le **transizioni formative** degli studenti verso l'istruzione superiore o il mondo del lavoro. È necessario implementare strategie mirate per supportare gli studenti nella scelta del percorso post-diploma e nell'acquisizione delle competenze necessarie per affrontare le sfide del mercato del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Ad Indirizzo Sportivo Visitandine Malpighi** dimostra un forte impegno verso l'orientamento, con una sezione dedicata, una vasta rete di **partnership** e un'ampia offerta di attività didattiche e laboratoriali. Pur presentando alcuni punti di debolezza, il PTOF offre solide basi per un sistema di orientamento efficace e in grado di supportare gli studenti nello sviluppo delle loro **attitudini**, dei loro **interessi** e del loro **progetto di vita**. L'implementazione di azioni mirate per rafforzare le **transizioni formative** e l'inclusione degli studenti con fragilità consentirebbe di ottimizzare ulteriormente l'efficacia del PTOF."
+}

@@ -1,0 +1,270 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NATD475007",
+    "denominazione": "Giovanni Paolo Ii",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Frattamaggiore",
+    "anno_ptof": "2016-2019",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Carmelo Pezzullo 121/123",
+    "cap": "80027",
+    "email": "info@istitutoparini.it",
+    "pec": "ND",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "IMG Cinema",
+        "Biblioteca Nazionale Marciana",
+        "Centro Donna del Comune di Venezia",
+        "Veneziacomix",
+        "Istituto Dante Alighieri",
+        "Università Ca’ Foscari di Venezia",
+        "G.A. COIN",
+        "ATHLON S",
+        "Venice canoe",
+        "SNS Mestre",
+        "Italian Resuscitation Council",
+        "Musei",
+        "Aziende"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazione competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti di osservazione e certificazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lavoro sugli stili di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi terze",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Didattica ispirata alle intelligenze multiple",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi quarte",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per il secondo biennio",
+      "target": "Secondi biennio"
+    },
+    {
+      "titolo_attivita": "Book club",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e incontri con esperti/autori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineclub",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione contenuti sito web",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Recitazione in francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di conversazione in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Esercitazioni guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad/Interior Design",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Progettazione e arredamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fotografia",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Lezione tecniche fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fumetto",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Disegno e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di strumento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Lezioni individuali/gruppo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all’estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza all’estero per approfondire lingue straniere.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione ad attività sportive individuali e di squadra.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Pady Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Rilascio brevetto subacqueo.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per definizione PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Attività progetto cittadinanza",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività a sostegno insegnamento cittadinanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamento",
+      "descrizione_e_metodologia": "Partecipazione bandi regionali/europei",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Open Space studio/lettura",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Strutturazione spazio studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano annuale inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PAI",
+      "target": "Studenti con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NATD475007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Giovanni Paolo II** (codice **NATD475007**), relativo al periodo **2016-2019**. La scuola, situata nel territorio metropolitano di **Frattamaggiore** (Napoli, Campania), è un istituto **paritario** che offre percorsi di istruzione secondaria di secondo grado (Liceo, Professionale, Tecnico). L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** L'istituto dimostra un'elevata capacità di attivare **partnership** con diversi soggetti, tra cui **Enti Locali**, **realtà produttiva del territorio**, **università**, e numerose istituzioni come **Mater Academy**, **Museo di Storia Naturale di Verona**, **Croce Verde di Mestre**, **FAI**, **IMG Cinema**, **Biblioteca Nazionale Marciana**, **Centro Donna del Comune di Venezia**, **Veneziacomix**, **Istituto Dante Alighieri**, **Università Ca’ Foscari di Venezia**, **G.A. COIN**, **ATHLON S**, **Venice canoe**, **SNS Mestre**, **Italian Resuscitation Council**, **Musei** e **Aziende**. Il numero di partner nominati è significativo, pari a 8, ottenendo un punteggio di 6.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità, con un punteggio di 4 per ciascuna di queste aree.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono** scolastico, a favorire la continuità con il **territorio**, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**, con punteggi variabili tra 3 e 4.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità, ottenendo un punteggio di 4 per ciascuna di queste aree.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'utilizzo di esperienze dirette degli studenti, sull'attività **laboratoriale**, sulla flessibilità degli spazi e dei tempi e sull'**interdisciplinarità**, con punteggi variabili tra 3 e 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 4 e 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate, che consentono di offrire agli studenti opportunità di confronto con il mondo del lavoro e del sapere. L'istituto dimostra un'attenzione particolare alle finalità dell'orientamento, mirate allo sviluppo delle competenze trasversali e alla costruzione del **progetto di vita** degli studenti. L'offerta di attività opzionali è diversificata e in grado di soddisfare interessi differenti.\n\n### 4. Aree di Debolezza\n\nUn'area di miglioramento riguarda gli obiettivi di riduzione dell'**abbandono** e di contrasto al fenomeno dei **NEET**, che ottengono un punteggio inferiore rispetto alle altre aree. Potrebbe essere necessario definire strategie più mirate per affrontare queste problematiche.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di coerenza tra le finalità, gli obiettivi e le azioni implementate. Tuttavia, è necessario monitorare costantemente l'efficacia delle azioni intraprese e apportare eventuali correzioni in base ai risultati ottenuti. Un'analisi più approfondita dei dati relativi all'**abbandono** scolastico e all'inserimento lavorativo degli ex studenti potrebbe consentire di individuare ulteriori aree di intervento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Giovanni Paolo II** presenta una solida base per lo sviluppo di un'efficace azione di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, l'attenzione alle finalità e l'offerta di attività diversificate rappresentano elementi positivi. È importante continuare a monitorare l'efficacia delle azioni intraprese e a definire strategie mirate per affrontare le sfide legate all'**abbandono** scolastico e all'inserimento lavorativo degli studenti. Le attività registrate, come la **Certificazione competenze**, l'**Alternanza scuola-lavoro**, i **Book club** e i **Cineclub**, contribuiscono a creare un ambiente stimolante e favorevole allo sviluppo delle competenze degli studenti."
+}

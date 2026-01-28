@@ -1,0 +1,302 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRTFF6500V",
+    "denominazione": "Istituto Tecnico Baglione Meccanica Meccatronica",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Sora",
+    "anno_ptof": "2022-2025",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Piccarello 2",
+    "cap": "03039",
+    "email": "istutoitalobaglione@gmail.com",
+    "pec": "bais06400v@pec.istruzione.it",
+    "website": "www.ferrarismolfetta.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Sezione dedicata all'offerta formativa"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Università",
+        "Banche",
+        "Fondazioni",
+        "Aziende private",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Enti di ricerca",
+        "Associazioni/Cooperative",
+        "Autonomie locali",
+        "CISCO",
+        "AICA",
+        "PYTHON INSTITUTE",
+        "ORACLE",
+        "Istat",
+        "SIS",
+        "COMAU",
+        "University of Cambridge International examinations",
+        "Istituto Alberghiero di Molfetta",
+        "ANISN",
+        "Università degli Studi di Napoli Federico II",
+        "IBBR -Istituto di Bioscienze e Biorisorse del CNR",
+        "INAIL"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Certificazioni linguistiche, digitali",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica e Statistica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gare di soluzione problemi, analisi dati, probabilità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica (OII/OIS)",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Competizioni di programmazione in diversi linguaggi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica e Campionati Scienze Naturali",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a competizioni scientifiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero/Potenziamento area scientifico-tecnologica",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività in orario antimeridiano/pomeridiano.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni AICA ICDL/ECDL, CISCO, AUTOCAD",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi extracurricolari per certificazioni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Biomedica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Approfondimenti di fisica biomedicale in laboratorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Coding",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Realizzazione App Android.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "scientifico",
+      "descrizione_e_metodologia": "Partecipazione a olimpiadi di matematica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Lauree Scientifiche",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "Statistica, ISTAT, cultura statistica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Psicologi nelle Scuole",
+      "categoria_principale": "socio-sanitario",
+      "descrizione_e_metodologia": "Sportello ascolto, colloqui, attività di gruppo",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Calcolo delle probabilità e inferenza statistica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "26 ore (13 lezioni) per studenti classi V liceo. Calcolo combinatorio, probabilità, inferenza statistica.",
+      "target": "Classi V Liceo"
+    },
+    {
+      "titolo_attivita": "La robotica che ci piace",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Utilizzo tecnologie e scienze applicate, robotica, programmazione, inclusione alunni disabili.",
+      "target": "Alunni interessati"
+    },
+    {
+      "titolo_attivita": "Meccatronica con ARDUINO",
+      "categoria_principale": "STEM/Meccatronica",
+      "descrizione_e_metodologia": "Formazione sulle applicazioni della meccatronica, robotica e programmazione.",
+      "target": "Studenti del triennio del corso di Meccatronica"
+    },
+    {
+      "titolo_attivita": "L'aria che tira",
+      "categoria_principale": "Scienze/Ambiente",
+      "descrizione_e_metodologia": "Conoscenza natura e conservazione, metodi analitici biomonitoraggio ambientale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Amgen Biotech Experience",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Esperienza autentica processo scientifico, IBSE, sperimentazione in laboratorio.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Lettorato madrelingua inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Interazione con parlante madrelingua, potenziamento abilità audio-orali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "StandByMe 2.0",
+      "categoria_principale": "Violenza di genere",
+      "descrizione_e_metodologia": "Sensibilizzazione, educazione, dialogo su violenza di genere online. Apprendimento online/offline.",
+      "target": "Studenti secondaria di secondo grado"
+    },
+    {
+      "titolo_attivita": "Scopriamo i materiali",
+      "categoria_principale": "Scienze e tecnologie",
+      "descrizione_e_metodologia": "Sperimentazione diretta in laboratorio, osservazione, raccolta dati, interpretazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Treno della memoria",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Percorso storico sulla Shoah, educazione alla pace, cittadinanza attiva.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Energie in cambiamento",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Attività per la transizione ecologica e culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione illuminazione esterna con lampade LED",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Riduzione consumi elettrici, modulo fotovoltaico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stazione di ricarica per veicoli elettrici",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Installazione colonnina ricarica, formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monitorare dati metereologici",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Raccolta dati, grafici riassuntivi, stazione meteo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di metodologia CLIL",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Attività in presenza, scuola/rete",
+      "target": "Docenti di materie non linguistiche"
+    },
+    {
+      "titolo_attivita": "Corso di formazione antincendio (amministrativi)",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, scuola/rete",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRTFF6500V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico Baglione Meccanica Meccatronica** per il triennio 2022-2025. L'istituto, situato nel comune di Sora, in provincia di Frosinone e regione Lazio, è una scuola paritaria di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Il punteggio medio delle diverse dimensioni analizzate suggerisce un impegno complessivo verso l'orientamento, sebbene con margini di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7. Tuttavia, è presente una sezione dedicata all'offerta formativa che, indirettamente, contribuisce a delineare le opzioni per il futuro degli studenti.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, con un totale di 21 collaborazioni attivate. Tra i partner figurano **Università**, **Banche**, **Fondazioni**, **Aziende private**, **Altre scuole**, **Enti di formazione accreditati**, **Enti di ricerca**, **Associazioni/Cooperative**, **Autonomie locali**, **CISCO**, **AICA**, **PYTHON INSTITUTE**, **ORACLE**, **Istat**, **SIS**, **COMAU**, **University of Cambridge International examinations**, **Istituto Alberghiero di Molfetta**, **ANISN**, **Università degli Studi di Napoli Federico II**, **IBBR -Istituto di Bioscienze e Biorisorse del CNR** e **INAIL**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'orientamento degli studenti, offrendo opportunità di contatto con il mondo del lavoro e del sapere.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** rispetto alle opportunità disponibili, tutte valutate con un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**, ciascuno con un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese a livello di sistema includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità, tutte valutate con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento esperienziale, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con un punteggio di 5 per ciascuna di queste dimensioni.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli culturali, laboratoriali ed espressivi, ludico-ricreativi, di volontariato e sportivi, tutti valutati con un punteggio di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nell'ampia rete di **partnership** attivate, che offrono agli studenti numerose opportunità di contatto con il mondo esterno, e nella varietà delle attività proposte, che spaziano dai **PCTO** alle **certificazioni** linguistiche e digitali, passando per le **Olimpiadi** di diverse discipline e i **laboratori** tematici. L'impegno verso l'inclusione e il supporto alle fragilità rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia affrontato in diverse dimensioni, la mancanza di un coordinamento centralizzato potrebbe limitarne l'efficacia.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta orientativa più organica e coerente, con obiettivi e azioni chiaramente definiti e monitorabili. Sarebbe opportuno definire indicatori specifici per valutare l'impatto delle attività orientative sulla riduzione dell'abbandono scolastico, sull'inserimento nel mondo del lavoro e sulla promozione del lifelong learning.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Istituto Tecnico Baglione Meccanica Meccatronica** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'ampia offerta di attività. Tuttavia, per massimizzare l'efficacia dell'azione orientativa, è necessario strutturare un'offerta più organica e coerente, con una sezione dedicata all'orientamento e indicatori specifici per la valutazione dei risultati. L'istituto potrebbe beneficiare da un maggiore coordinamento delle diverse iniziative e da un focus più mirato sulle esigenze specifiche degli studenti."
+}

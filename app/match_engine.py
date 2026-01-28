@@ -222,7 +222,7 @@ def score_adjacency(school1: pd.Series, school2: pd.Series, margin: float = 1.0)
     ro1 = float(school1.get('ptof_idpo', 0) or 0)
     ro2 = float(school2.get('ptof_idpo', 0) or 0)
 
-    # Ideale: school2 haIDPOleggermente superiore (tra 0.3 e 2.0 punti in più, scala 1-7)
+    # Ideale: school2 haIIPOleggermente superiore (tra 0.3 e 2.0 punti in più, scala 1-7)
     diff = ro2 - ro1
 
     if 0.3 <= diff <= 2.0:

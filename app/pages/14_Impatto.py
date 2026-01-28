@@ -310,8 +310,8 @@ if not top_positive.empty:
                 |---------|--------|
                 | Scuole che la usano | {row['N_Con']} |
                 | Scuole che NON la usano | {row['N_Senza']} |
-                | MediaIDPO(con) | {row['Media_Con']:.1f}/7 |
-                | MediaIDPO(senza) | {row['Media_Senza']:.1f}/7 |
+                | MediaIIPO(con) | {row['Media_Con']:.1f}/7 |
+                | MediaIIPO(senza) | {row['Media_Senza']:.1f}/7 |
                 | **Differenza** | **+{row['Differenza']:.1f}** |
                 | p-value | {row['p_value']:.4f} |
                 | Cohen's d | {row['Cohens_d']:.3f} |

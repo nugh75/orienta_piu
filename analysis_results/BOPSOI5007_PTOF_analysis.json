@@ -1,0 +1,292 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPSOI5007",
+    "denominazione": "Liceo Steam International Quadriennale",
+    "tipo_scuola": "I Grado, Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2022/2023-2023/2024-2024/2025",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Nosadella 47",
+    "cap": "40124",
+    "email": "segreteria@steamschoolemilia.it",
+    "pec": "steamschoolscarl@legalmail.it",
+    "website": "https//liceosteam.it/bologna/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Università",
+        "Enti",
+        "Aziende",
+        "Associazioni",
+        "Ricerca",
+        "famiglie",
+        "scuole",
+        "Università del Salento",
+        "FAI",
+        "Lions",
+        "Rotaract",
+        "ADOVOS",
+        "AIRC",
+        "AIL",
+        "ANT",
+        "Polizia di Stato",
+        "Carabinieri",
+        "Servizio di Neuropsichiatria Infantile di Nardò",
+        "IISS “Marco Polo” di Bari",
+        "IC \"G. Falcone\" di Copertino",
+        "Liceo “F. De Sanctis” di Trani",
+        "IISS “Galileo Ferraris” di Molfetta",
+        "IC “Karol Wojtyla” di Uggiano La Chiesa",
+        "ITE “E. Tosi” di Busto Arsizio"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 6
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 7
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Apprendisti Ciceroni",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Collaborazione con FAI",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Enti e Università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di sensibilizzazione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Dalle parole…ai fatti",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Creazione redazione scolastica, contenuti multimediali su equità, cittadinanza attiva.",
+      "target": "III A"
+    },
+    {
+      "titolo_attivita": "Conosci te stesso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esplorazione di sé, potenzialità, consapevolezza, autostima.",
+      "target": "IV A, IV B"
+    },
+    {
+      "titolo_attivita": "Sentimenti sotto la lente",
+      "categoria_principale": "Psicologia",
+      "descrizione_e_metodologia": "Riflessione su temi chiave adolescenziali tramite esperti.",
+      "target": "V A"
+    },
+    {
+      "titolo_attivita": "Turismo sostenibile",
+      "categoria_principale": "Turismo",
+      "descrizione_e_metodologia": "Conoscenza beni artistici e culturali, sensibilizzazione rispetto ambiente.",
+      "target": "III A"
+    },
+    {
+      "titolo_attivita": "La cultura dei luoghi e delle tradizioni",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Potenziamento competenze nel turismo e promozione culturale.",
+      "target": "IV A, IV B"
+    },
+    {
+      "titolo_attivita": "Mapping Out The Future: Fai la tua parte!",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Partecipazione eventi FAI come Apprendisti Ciceroni.",
+      "target": "V A"
+    },
+    {
+      "titolo_attivita": "Produzioni in Terra d’Otranto",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Conoscenza dell'imprenditoria e del commercio locale.",
+      "target": "III A, III B"
+    },
+    {
+      "titolo_attivita": "La meta è partire",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Sintesi sonora e composizione musicale presso Conservatorio.",
+      "target": "III Q"
+    },
+    {
+      "titolo_attivita": "Progettare ArmonicaMente",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Approfondimento competenze informatiche e trasformazione digitale.",
+      "target": "IV B Lsa"
+    },
+    {
+      "titolo_attivita": "Affordable and clean energy in Terra d’Otranto",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Sensibilizzazione e approfondimento sul tema delle energie rinnovabili.",
+      "target": "V A Ls, V B Lsa"
+    },
+    {
+      "titolo_attivita": "Sperimentando il futuro",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Esperienze in scuole, residenze sanitarie, contesti educativi.",
+      "target": "III A"
+    },
+    {
+      "titolo_attivita": "Amore e fragilità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti, analisi relazione madre-figlio, disagio relazionale",
+      "target": "IV A"
+    },
+    {
+      "titolo_attivita": "Alla scoperta delle età della vita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione in classe, visite guidate, volontariato",
+      "target": "V A, V B"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi al termine scrutinio e attività in itinere",
+      "target": "Studenti con carenze"
+    },
+    {
+      "titolo_attivita": "PEI e PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione e monitoraggio PEI e PDP",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Progetti per studenti stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "PDP per acquisizione lingua italiana",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "PFP per studenti atleti",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi didattici personalizzati",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "Progetto STEM E MULTILINGUISMO AL GALILEI",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Azioni di potenziamento delle competenze STEM e multilinguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "GALILEI DIGIT@LE",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Formazione del personale scolastico per la transizione digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni per favorire l'inserimento nel mondo del lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Iniziative di orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con FFSS per l'orientamento post-diploma",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate e viaggi di istruzione",
+      "categoria_principale": "Arricchimento offerta formativa",
+      "descrizione_e_metodologia": "Organizzazione visite e viaggi",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPSOI5007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Steam International Quadriennale** (BOPSOI5007) per il triennio 2022/2023-2023/2024-2024/2025. L'istituto, situato a **Bologna** e operante nell'area geografica del **Nord Est** e nel territorio **Metropolitano**, si distingue per una solida attenzione all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. Il PTOF dimostra un impegno significativo nella costruzione di un sistema di orientamento che mira a sviluppare le attitudini, gli interessi, il progetto di vita, le transizioni formative e le capacità orientative degli studenti, con un'attenzione particolare alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è un elemento positivo, con un punteggio di 7 che ne conferma l'importanza strategica all'interno del PTOF.\n\n**2.2 Partnership:** Il liceo vanta un network di **partnership** ampio e diversificato, comprendendo **Università**, **Enti**, **Aziende**, **Associazioni**, centri di **Ricerca**, le **famiglie**, altre **scuole**, e collaborazioni specifiche con l'**Università del Salento**, il **FAI**, **Lions**, **Rotaract**, **ADOVOS**, **AIRC**, **AIL**, **ANT**, la **Polizia di Stato**, i **Carabinieri**, il **Servizio di Neuropsichiatria Infantile di Nardò**, e diversi istituti scolastici tra cui l'**IISS “Marco Polo” di Bari**, l'**IC \"G. Falcone\" di Copertino**, il **Liceo “F. De Sanctis” di Trani**, l'**IISS “Galileo Ferraris” di Molfetta**, l'**IC “Karol Wojtyla” di Uggiano La Chiesa** e l'**ITE “E. Tosi” di Busto Arsizio**. Con un totale di 15 partner, la scuola dimostra una forte capacità di collaborare con il territorio e con diverse realtà esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi che variano tra 4 e 6. L'attenzione alle attitudini degli studenti risulta leggermente inferiore rispetto agli interessi, al progetto di vita, alle transizioni formative e allo sviluppo delle capacità orientative e delle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica e sulla promozione del lifelong learning, tutti con un punteggio di 6.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono considerate efficaci, con un punteggio di 7 per ciascuna delle aree considerate: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, con un punteggio di 6, ma presenta margini di miglioramento per quanto riguarda la didattica laboratoriale (punteggio di 3), pur mantenendo una buona flessibilità degli spazi e dei tempi (6) e un approccio interdisciplinare (6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata, con punteggi che variano tra 3 per le opzionali culturali e 5 per quelle laboratoriali, ludiche, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una solida rete di **partnership** con enti, aziende, università e associazioni del territorio. L'impegno nella costruzione di un sistema di orientamento integrato, che coinvolge docenti, studenti, genitori e servizi esterni, rappresenta un altro elemento distintivo. Le attività proposte, come \"**Apprendisti Ciceroni**\" in collaborazione con il **FAI** e i progetti **PCTO** con enti e università, offrono agli studenti opportunità concrete di orientamento e di sviluppo delle proprie competenze.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la didattica laboratoriale, che necessita di un maggiore potenziamento. Anche l'attenzione alle attitudini degli studenti, rispetto ad altri aspetti dell'orientamento, sembra meno sviluppata. L'offerta di opzionali culturali potrebbe essere ampliata per rispondere meglio alle diverse esigenze e interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi in azioni concrete e misurabili, con particolare attenzione al potenziamento della didattica laboratoriale e all'approfondimento della conoscenza delle attitudini degli studenti. È importante monitorare costantemente l'efficacia delle azioni intraprese e apportare eventuali correzioni in itinere.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Steam International Quadriennale** dimostra un forte impegno verso l'orientamento, con una chiara visione strategica e un'ampia gamma di attività proposte. La solida rete di **partnership** e l'attenzione alle esigenze degli studenti rappresentano elementi positivi che contribuiscono a creare un ambiente scolastico stimolante e orientato al futuro. Pur riconoscendo alcune aree di debolezza, il PTOF si presenta come un documento ben strutturato e coerente, in grado di guidare l'istituto verso il raggiungimento degli obiettivi prefissati in materia di orientamento. Le attività come \"**Dalle parole…ai fatti**\", \"**Conosci te stesso**\", \"**Sentimenti sotto la lente**\", \"**Turismo sostenibile**\", \"**La cultura dei luoghi e delle tradizioni**\", \"**Mapping Out The Future**\", \"**Produzioni in Terra d’Otranto**\", \"**La meta è partire**\", \"**Progettare ArmonicaMente**\", \"**Affordable and clean energy in Terra d’Otranto**\", \"**Sperimentando il futuro**\", \"**Amore e fragilità**\", \"**Alla scoperta delle età della vita**\", \"**Corsi di recupero**\", \"**PEI e PDP**\", \"**Progetti per studenti stranieri**\", \"**PFP per studenti atleti**\", \"**Progetto STEM E MULTILINGUISMO AL GALILEI**\", \"**GALILEI DIGIT@LE**\", \"**Progetti territoriali integrati**\", \"**Iniziative di orientamento in uscita**\" e \"**Visite guidate e viaggi di istruzione**\" contribuiscono a creare un'offerta formativa completa e diversificata."
+}

@@ -398,6 +398,11 @@ def main() -> int:
     parser.add_argument("--provider-workflow", type=str, help="Provider per analisi workflow")
     parser.add_argument("--model-workflow", type=str, help="Modello per analisi workflow")
     parser.add_argument("--ollama-url", type=str, default=os.environ.get("OLLAMA_HOST", "http://localhost:11434"), help="URL server Ollama")
+    # Parametri Validation / Screening
+    parser.add_argument("--validation-provider", type=str, default="ollama", help="Provider per validazione PTOF (es. ollama)")
+    parser.add_argument("--validation-model", type=str, help="Modello per validazione PTOF (es. qwen3:32b)")
+    parser.add_argument("--validation-timeout", type=int, default=120, help="Timeout validazione (secondi)")
+    
     parser.add_argument("--analyst", type=str, help="Modello analyst per workflow")
     parser.add_argument("--reviewer", type=str, help="Modello reviewer per workflow")
     parser.add_argument("--refiner", type=str, help="Modello refiner per workflow")
@@ -648,27 +653,33 @@ def main() -> int:
             )
 
         if total_selected == 0:
-            logger.info("INFO nessuna scuola selezionata. Registro ciclo e stop.")
-            entry = {
-                "status": "no-op",
-                "cycle_id": cycle_id,
-                "timestamp": datetime.now().isoformat(),
-                "target_total": target_total,
-                "per_strato_step": args.per_strato_step,
-                "target_per_strato": targets,
-                "current_per_strato": current_counts,
-                "deficit_per_strato": deficits,
-                "selected_total": 0,
-                "selected_per_strato": selected_by_strato,
-            }
-            append_registry(entry)
-            state["cycle_id"] = cycle_id
-            state["target_total"] = target_total
-            save_cycle_state(state)
-            logger.info("")
-            logger.info("=" * 60)
-            cost_tracker.log_summary(logger)
-            return 0
+            # Check if there are pending files in inbox
+            inbox_dir = BASE_DIR / "ptof_inbox"
+            inbox_files = list(inbox_dir.glob("*.pdf"))
+            if inbox_files and not args.skip_analysis:
+                logger.info(f"INFO nessuna NUOVA scuola selezionata, ma trovati {len(inbox_files)} file in inbox. Procedo con analisi.")
+            else:
+                logger.info("INFO nessuna scuola selezionata e nessun file pendente. Registro ciclo e stop.")
+                entry = {
+                    "status": "no-op",
+                    "cycle_id": cycle_id,
+                    "timestamp": datetime.now().isoformat(),
+                    "target_total": target_total,
+                    "per_strato_step": args.per_strato_step,
+                    "target_per_strato": targets,
+                    "current_per_strato": current_counts,
+                    "deficit_per_strato": deficits,
+                    "selected_total": 0,
+                    "selected_per_strato": selected_by_strato,
+                }
+                append_registry(entry)
+                state["cycle_id"] = cycle_id
+                state["target_total"] = target_total
+                save_cycle_state(state)
+                logger.info("")
+                logger.info("=" * 60)
+                cost_tracker.log_summary(logger)
+                return 0
 
         start_entry = {
             "status": "started",
@@ -712,7 +723,13 @@ def main() -> int:
         if not args.skip_download:
             logger.info("[PHASE] Download") 
             retry_state = RetryAwareState(downloaded_state, force_codes=retry_codes)
-            downloader = dl.PTOFDownloader(retry_state, dl.DOWNLOAD_DIR)
+            
+            val_config = {
+                "provider": args.validation_provider,
+                "model": args.validation_model,
+                "timeout": args.validation_timeout
+            }
+            downloader = dl.PTOFDownloader(retry_state, dl.DOWNLOAD_DIR, validation_config=val_config)
 
             for idx, school in enumerate(selected, 1):
                 result = downloader.download_ptof(school)

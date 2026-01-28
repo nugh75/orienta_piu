@@ -227,7 +227,7 @@ with tab_explore:
                         active_filters.append(f"Stato: {selected_stato}")
             
             with filter_cols[3]:
-                # IndiceIDPOrange filter
+                # IndiceIIPOrange filter
                 if 'ptof_idpo' in df.columns:
                     # Convert to pct for display/filtering logic if needed, but here we filter on raw values
                     # If we want to filter by %, we should convert limits.

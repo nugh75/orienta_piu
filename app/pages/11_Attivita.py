@@ -1522,14 +1522,14 @@ elif section == "📊 Grafici":
         mi_df = mi_df.dropna(subset=["categoria", "maturity_index"])
 
         if mi_df.empty:
-            st.info("Nessun dato IndiceIDPOdisponibile.")
+            st.info("Nessun dato IndiceIIPOdisponibile.")
         else:
             fig_mi = px.box(
                 mi_df,
                 x="categoria",
                 y="maturity_index",
                 points="all",
-                title="Distribuzione IndiceIDPOper Categoria"
+                title="Distribuzione IndiceIIPOper Categoria"
             )
             fig_mi.update_layout(xaxis_title="Categoria", yaxis_title="IIPO")
             st.plotly_chart(fig_mi, use_container_width=True)

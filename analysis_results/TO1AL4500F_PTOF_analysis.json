@@ -1,0 +1,281 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TO1AL4500F",
+    "denominazione": "La Casa Di Dada",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Pecetto Torinese",
+    "anno_ptof": "2022-2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Strada Chieri 64/66",
+    "cap": "10020",
+    "email": "info@casadidada.it",
+    "pec": "dadasas@pec.it",
+    "website": "www.casadidada.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Università degli studi di Tor Vergata",
+        "Teatro di Tor Bella Monaca",
+        "Municipio VI",
+        "Associazioni del III settore",
+        "Le famiglie",
+        "Esperti esterni",
+        "Istituti comprensivi ambito Lazio 4",
+        "Università pubbliche e private",
+        "Istituti di alta formazione artistica",
+        "Musei",
+        "INAIL",
+        "ISS",
+        "Ospedali",
+        "CONI",
+        "radio",
+        "case editrici",
+        "associazioni culturali",
+        "Altre scuole",
+        "Altre associazioni o cooperative"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Patto educativo di Comunità 'Scuole in Comune – Generiamo il cambiamento'",
+      "categoria_principale": "Orientamento/Territorio",
+      "descrizione_e_metodologia": "Apertura al territorio degli edifici scolastici e condivisione di strumenti e risorse.",
+      "target": "Studenti, famiglie, associazioni"
+    },
+    {
+      "titolo_attivita": "Seminari, conferenze",
+      "categoria_principale": "Orientamento Universitario",
+      "descrizione_e_metodologia": "Acquisire informazioni su Università ed Enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite e incontri",
+      "categoria_principale": "Orientamento Universitario",
+      "descrizione_e_metodologia": "Contatto con Università, centri di ricerca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Test orientativi",
+      "categoria_principale": "Autovalutazione",
+      "descrizione_e_metodologia": "Rilevazione interessi, abilità, competenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento Professionale",
+      "descrizione_e_metodologia": "Esperienze pratiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+",
+      "categoria_principale": "Orientamento Internazionale",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto per l’utilizzo del potenziamento per matematica e fisica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Sportello/copresenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Supporto linguistico ai docenti curriculari",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività di supporto",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO Droni e Sostenibilità Ambientale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Svolto presso Università Tor Vergata",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO 'una palestra per la sostenibilità'",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Svolto presso sede via Parasacchi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "SHARING THE FUTURE",
+      "categoria_principale": "Conferenza",
+      "descrizione_e_metodologia": "Contatto con ricercatori CNR",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "NSE ExpoForum",
+      "categoria_principale": "Conferenza",
+      "descrizione_e_metodologia": "Expoforum economia spaziale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Maker-Faire 2023",
+      "categoria_principale": "Evento",
+      "descrizione_e_metodologia": "Presentazione prototipi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di Orientamento Attivo – PNRR Next Generation",
+      "categoria_principale": "Orientamento Universitario e Professionale",
+      "descrizione_e_metodologia": "Realizzazione di cinque moduli della durata di tre ore ciascuno con docenti universitari.",
+      "target": "Classi del triennio"
+    },
+    {
+      "titolo_attivita": "Visite e incontri con Università",
+      "categoria_principale": "Orientamento Universitario e Professionale",
+      "descrizione_e_metodologia": "Partecipazione a lezioni e conferenze tematiche presso le università.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "MEP",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Simulazione del Parlamento Europeo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ambito Territoriale Lazio 4",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale e attività didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rimun",
+      "categoria_principale": "Simulazione ONU",
+      "descrizione_e_metodologia": "Simulazione ONU",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Diapason",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Messa in comune risorse musicali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Dada",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Modelli di innovatività didattico-organizzativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Cittadinanza",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Sviluppo competenze cittadinanza attiva",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di supporto e recupero",
+      "categoria_principale": "Supporto e Recupero",
+      "descrizione_e_metodologia": "Recupero in itinere e extracurricolare",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Valorizzazione delle eccellenze",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a progetti specifici",
+      "target": "Alunni eccellenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Arricchimento dell'offerta formativa",
+      "descrizione_e_metodologia": "Visite guidate e viaggi d'istruzione",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TO1AL4500F\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **La Casa Di Dada** (TO1AL4500F), per l'anno scolastico 2022-2025. La scuola, di tipo **Infanzia** e situata nel territorio **Metropolitano** di **Pecetto Torinese** (provincia di **Torino**, regione **Piemonte**), si configura come un istituto **Paritario** con un forte orientamento verso l'innovazione e la collaborazione territoriale. L'analisi evidenzia un impegno significativo nell'orientamento, con punteggi elevati in quasi tutte le aree valutate, e un'ampia gamma di attività volte a supportare gli studenti nello sviluppo delle loro attitudini, interessi e progetti di vita.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, il che indica una presenza strutturata e riconoscibile di questa tematica all'interno del piano.\n\n**2.2 Partnership:** La scuola dimostra un'eccellente capacità di costruire partnership strategiche, con un punteggio di 5 e un elevato numero di partner nominati (10), tra cui **Università degli studi di Tor Vergata**, **Teatro di Tor Bella Monaca**, **Municipio VI**, **Associazioni del III settore**, **Le famiglie**, **Esperti esterni**, **Istituti comprensivi ambito Lazio 4**, **Università pubbliche e private**, **Istituti di alta formazione artistica**, **Musei**, **INAIL**, **ISS**, **Ospedali**, **CONI**, **radio**, **case editrici**, **associazioni culturali**, **Altre scuole**, e **Altre associazioni o cooperative**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle capacità di transizione formativa e delle opportunità, tutte aree che hanno ottenuto un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a ridurre l'abbandono scolastico, a garantire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning, con punteggi massimi in tutte le aree.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'implementazione dell'orientamento sono complete e includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità, tutte aree con punteggio 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità, con punteggi elevati. L'utilizzo della didattica laboratoriale, invece, risulta meno sviluppato, con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali ed espressive, sportive e di volontariato. Le attività ludiche e ricreative, invece, sembrano meno prioritarie, con un punteggio di 1.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella forte attenzione alle partnership, nella chiarezza delle finalità e degli obiettivi, nella completezza delle azioni di sistema e nella centralità dello studente. L'ampia gamma di attività proposte, come il **Patto educativo di Comunità 'Scuole in Comune – Generiamo il cambiamento'**, i **seminari**, le **visite e incontri** con università e centri di ricerca, i **test orientativi**, i progetti **PCTO**, **Erasmus+**, e le iniziative come **SHARING THE FUTURE** e **NSE ExpoForum**, testimoniano un impegno concreto nell'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale sembra essere la didattica laboratoriale, che necessita di un maggiore sviluppo. Anche l'offerta di attività ludiche e ricreative potrebbe essere potenziata per garantire un'offerta orientativa più completa e diversificata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di tradurre le buone intenzioni espresse nel PTOF in azioni concrete e misurabili. È importante definire indicatori di performance specifici per monitorare l'efficacia delle attività orientative e valutare il raggiungimento degli obiettivi prefissati. Inoltre, è necessario investire maggiormente nella didattica laboratoriale e nell'offerta di attività ludiche e ricreative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola **La Casa Di Dada** presenta un'impostazione solida e promettente in materia di orientamento. La scuola dimostra una forte consapevolezza dell'importanza di questo ambito e un impegno concreto nella realizzazione di attività e progetti mirati. Superando le aree di debolezza individuate e colmando i gap esistenti, la scuola potrà offrire ai propri studenti un servizio di orientamento sempre più efficace e personalizzato, contribuendo in modo significativo al loro successo scolastico e professionale. L'attenzione a progetti come **Dada**, **Laboratorio Di Cittadinanza**, e l'impegno nel **supporto e recupero** degli alunni, così come nella **valorizzazione delle eccellenze**, dimostrano un approccio olistico all'educazione e all'orientamento."
+}

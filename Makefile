@@ -737,6 +737,36 @@ endif
 # RECOVERY PTOF
 # ═══════════════════════════════════════════════════════════════════
 
+# ═══════════════════════════════════════════════════════════════════
+# VALIDAZIONE PTOF
+# ═══════════════════════════════════════════════════════════════════
+
+# Esegue validazione batch sui PDF nella inbox (o altra directory)
+# Uso: make validator [DIR=ptof_inbox] [MOVE=1] [IGNORE_REGISTRY=0]
+validator:
+	@echo ""
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "🔍 VALIDAZIONE PTOF"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo "  Directory: $(or $(DIR),ptof_inbox)"
+	@echo "  Sposta invalidi: $(if $(filter 0 no No false False,$(MOVE)),no,si)"
+	@echo "  Usa registro: $(if $(filter 1 si Si true True,$(IGNORE_REGISTRY)),no,si)"
+	@echo "  Forza LLM: $(if $(filter 1 si Si Sì true True,$(FORCE_LLM)),si,no) (input: '$(FORCE_LLM)')"
+	@echo "  Controlla duplicati: $(if $(filter 0 no No false False,$(CHECK_DUPLICATES)),no,si)"
+	@echo "════════════════════════════════════════════════════════════"
+	@echo ""
+	$(PYTHON) src/validation/ptof_validator.py validate-batch "$(or $(DIR),ptof_inbox)" \
+		$(if $(filter 0 no No false False,$(MOVE)),--no-move,) \
+		$(if $(filter 1 si Si true True,$(IGNORE_REGISTRY)),--no-registry,) \
+		$(if $(filter 1 si Si Sì true True,$(FORCE_LLM)),--force-llm,) \
+		$(if $(filter 0 no No false False,$(CHECK_DUPLICATES)),--no-duplicates,)
+
+validate: validator
+
+# ═══════════════════════════════════════════════════════════════════
+# RECOVERY PTOF
+# ═══════════════════════════════════════════════════════════════════
+
 recover-not-ptof:
 	$(PYTHON) src/validation/ptof_validator.py recover --category not_ptof --only-ok
 
@@ -1013,6 +1043,13 @@ docker-status:
 ## Shell nel container Docker
 docker-shell:
 	docker exec -it orienta-dashboard /bin/bash
+
+## Rimuove i PTOF duplicati (basandosi sull'hash) spostandoli in ptof_discarded
+remove-duplicates:
+	@echo "🧹 Pulizia duplicati in ptof_inbox..."
+	$(PYTHON) -m src.validation.ptof_validator validate-batch ptof_inbox
+	@echo "🧹 Pulizia duplicati in ptof_processed..."
+	$(PYTHON) -m src.validation.ptof_validator validate-batch ptof_processed
 
 # ===== SETUP LOCALE =====
 

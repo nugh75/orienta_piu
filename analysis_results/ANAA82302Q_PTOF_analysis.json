@@ -1,0 +1,332 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "Anic82300T",
+    "denominazione": "Istituto Comprensivo Montemarciano-Monte San Vito",
+    "tipo_scuola": "Istituto Comprensivo",
+    "ordine_grado": "Scuola dell'Infanzia, Primaria, Secondaria di I grado",
+    "area_geografica": "Marche",
+    "territorio": "Montemarciano, Monte San Vito, Marina, Borghetto, Ancona, Provincia di Ancona",
+    "comune": "Montemarciano e Monte San Vito (AN)",
+    "anno_ptof": "2022-2025",
+    "provincia": "Ancona",
+    "regione": "Marche"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione 'Moduli di orientamento formativo'"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Agenzie educative del territorio",
+        "Atenei locali",
+        "Centri specialistici",
+        "Progetto Cariverona",
+        "PNRR",
+        "Team digitale",
+        "Banda musicale 'Gastone Greganti'",
+        "Corale 'S. Cassiano'",
+        "IIS Galilei",
+        "Museo Ferrari Maranello",
+        "Cooss Marche",
+        "AIRC",
+        "AVIS",
+        "IIS del territorio",
+        "Università",
+        "Enti di formazione",
+        "Altre scuole",
+        "Legambiente",
+        "ATA Rifiuti",
+        "Viva Servizi",
+        "Comune",
+        "Associazioni di settore"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 7
+      },
+      "finalita_interessi": {
+        "score": 7
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 7
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 7
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 7
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 7
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Aula palestra dell'innovazione",
+      "categoria_principale": "Didattica digitale",
+      "descrizione_e_metodologia": "Laboratorio con robotica e coding per scuole di ogni ordine",
+      "target": "Studenti di ogni ordine di scuola"
+    },
+    {
+      "titolo_attivita": "Sportello pedagogico e psicologico",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto per disagio, bullismo e prevenzione dipendenze",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Didattica a distanza per alunni impossibilitati a frequentare",
+      "target": "Alunni con patologie gravi"
+    },
+    {
+      "titolo_attivita": "Disseminazione del Referente",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Incontri sulla Nuova Valutazione",
+      "target": "Docenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Consulenza e accompagnamento",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Utilizzo registro elettronico per valutazione in itinere",
+      "target": "Docenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Condivisione buone pratiche per continuità didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulle nuove tecnologie",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Corso per transizione digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola 4.0",
+      "categoria_principale": "Infrastruttura",
+      "descrizione_e_metodologia": "Ambienti di apprendimento innovativi con tecnologie STEM",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Futura",
+      "categoria_principale": "Infrastruttura",
+      "descrizione_e_metodologia": "Aule immersive con tecnologie digitali",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetto STEM per il pensiero critico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratorio scientifico digitale con metodologia Inquiry-based",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorso ad indirizzo musicale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Studio strumentale (chitarra, clarinetto, ecc.) con lezioni individuali e collettive",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Learning by doing",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Apprendimento basato su esperienze pratiche e progetti",
+      "target": "Tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Cittadinanza digitale",
+      "categoria_principale": "Trasversale",
+      "descrizione_e_metodologia": "Educazione alla consapevolezza digitale e sicurezza online",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo classe II",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratorio creativo-digitale pomeridiano, visita museo Ferrari, peer tutoring",
+      "target": "Classe II"
+    },
+    {
+      "titolo_attivita": "Modulo di orientamento formativo classe III",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori con IIS, open day, certificazioni linguistiche, visita osservatorio astronomico",
+      "target": "Classe III"
+    },
+    {
+      "titolo_attivita": "Prevenzione bullismo e cyberbullismo",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attività con AIRC e AVIS, Consiglio comunale dei ragazzi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Potenziamento lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Collaborazione con biblioteche comunali, giornate di lettura",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Feste e ricorrenze",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Coreografie, concerti, recite con famiglie",
+      "target": "Classi aperte verticali/parallele"
+    },
+    {
+      "titolo_attivita": "Puliamo il mondo",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Campagna di volontariato ambientale con Legambiente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La festa dell'albero",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Piantumazione alberi con collaborazione Comune",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scarabeo verde",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Laboratori su riciclo e gestione rifiuti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A scuola con Viva",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Lezioni e uscite didattiche sull'acqua",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Learning By Doing",
+      "categoria_principale": "Didattica laboratoriale",
+      "descrizione_e_metodologia": "Attività digitali, artistiche, sportive",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Referente INVALSI",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Coordinamento prove INVALSI",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Referente Orario",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Pianificazione e gestione orario",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Registro Elettronico",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Gestione registro elettronico",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Salute e Benessere",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Promozione stili di vita e prevenzione disagio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Commissione Digitale",
+      "categoria_principale": "Digitalizzazione",
+      "descrizione_e_metodologia": "Collaborazione con team digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Continuità e Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con funzioni strumentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi Didattici",
+      "categoria_principale": "Attività Extracurricolari",
+      "descrizione_e_metodologia": "Pianificazione uscite didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Infanzia",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Supporto classi senza sostegno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Primaria",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Supporto disciplinare e compresenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Secondaria",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Supporto studenti in difficoltà",
+      "target": "Studenti"
+    }
+  ]
+}

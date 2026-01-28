@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CT1A138003",
+    "denominazione": "Scuola Materna Regionale Verga",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Aci Castello",
+    "anno_ptof": "2018-2021",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Crispi",
+    "cap": "95021",
+    "email": "ctic81600v@istruzione.it",
+    "pec": "ND",
+    "website": "www.icgverga.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente, ma non dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "ASP Canicattì",
+        "enti e istituzioni esterne",
+        "scuole primarie",
+        "Centro Salute Mentale",
+        "ASP",
+        "Associazione Amici del Giudice Livatino",
+        "Comune Campobello",
+        "I.I.S. Ugo Foscolo",
+        "I.C. M. Rapisardi",
+        "Carabinieri",
+        "Polizia di Stato",
+        "Vigili Urbani",
+        "Airc",
+        "Ail",
+        "Cav",
+        "Aido",
+        "Club Service",
+        "Unitre",
+        "Adas"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate e viaggi d'istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso aziende, università, ecc.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività didattiche personalizzate",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Laboratori espressivi",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività pratiche per stimolare creatività",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratori motori",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività per sviluppo competenze motorie",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratori linguistici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività per sviluppo competenze linguistiche",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratori operativi",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività pratiche per sviluppo competenze",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto Prevenire il disagio",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con dottor C. Magro per competenze necessarie per affrontare problemi familiari",
+      "target": "Alunni e genitori"
+    },
+    {
+      "titolo_attivita": "Collaborazione con ASP",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività su alimentazione, sicurezza stradale e prevenzione con dott. Edda Asaro",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Protocollo con Associazione Amici del Giudice Livatino",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Progetti sulla legalità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite scuole primarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite per familiarizzare con la scuola secondaria",
+      "target": "Alunni scuole primarie"
+    },
+    {
+      "titolo_attivita": "Incontri docenti primarie/secondarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Trasmissione informazioni alunni",
+      "target": "Docenti primarie e secondarie"
+    },
+    {
+      "titolo_attivita": "Test psico-attitudinali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test per individuare attitudini",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto per scelte consapevoli",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Campionati Studenteschi",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Partecipazione a competizioni sportive",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Classi in gioco",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Attività sportiva scolastica inclusiva",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Incontri con istituzioni territoriali",
+      "categoria_principale": "Culturale/Educativa",
+      "descrizione_e_metodologia": "Incontri con Carabinieri, Polizia, Vigili",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Collaborazione con enti solidali",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Partecipazione a iniziative Airc, Ail, ecc.",
+      "target": "Tutti gli alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CT1A138003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Materna Regionale Verga** di Aci Castello, identificata dal codice **CT1A138003**. Il PTOF, relativo al periodo **2018-2021**, evidenzia una presenza di una sezione dedicata all'orientamento, sebbene non particolarmente dettagliata. L'istituto dimostra un'attenzione significativa alla costruzione di **partnership** con un ampio ventaglio di enti e istituzioni, tra cui **ASP Canicattì**, **scuole primarie**, il **Centro Salute Mentale**, e diverse associazioni di volontariato come **Airc**, **Ail**, **Cav**, **Aido**, e **Club Service**. Gli obiettivi delineati mirano a ridurre l'abbandono scolastico, garantire la continuità territoriale, promuovere il **lifelong learning** e sviluppare le capacità orientative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è confermata, tuttavia, necessita di un approfondimento per una maggiore efficacia.\n\n**2.2 Partnership:** L'istituto vanta un elevato numero di **partnership** (20), dimostrando una forte capacità di collaborare con il territorio e con diverse realtà esterne. Questa rete di relazioni rappresenta un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** degli studenti, il supporto alle **transizioni formative** e l'ampliamento delle **capacità orientative** in relazione alle opportunità disponibili.\n\n**2.4 Obiettivi:** Gli obiettivi delineati sono pertinenti e mirati, con particolare attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale e alla promozione del lifelong learning. L'obiettivo di contrastare il fenomeno dei **NEET** risulta meno sviluppato.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il monitoraggio delle azioni risulta essere un aspetto debole.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'utilizzo dei laboratori risulta meno strutturato rispetto ad altri approcci.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, con un minore focus su attività ludiche, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** instaurata con enti, istituzioni e associazioni del territorio. Questa collaborazione permette di ampliare l'offerta formativa e di offrire agli studenti opportunità di orientamento diversificate e significative. L'attenzione alle finalità dell'orientamento, agli obiettivi di lungo termine e alle azioni di sistema rappresenta un altro elemento positivo. Le attività registrate, come le **visite guidate**, i **progetti di recupero**, i **laboratori espressivi** e i **laboratori linguistici**, contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di dettaglio della sezione dedicata all'orientamento. Il monitoraggio delle azioni previste appare insufficiente, così come l'attenzione specifica al contrasto del fenomeno dei **NEET**. L'offerta di attività opzionali e facoltative potrebbe essere ampliata, in particolare per quanto riguarda le attività ludiche, di volontariato e sportive.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rendere più operativa la sezione dedicata all'orientamento, definendo azioni concrete e misurabili. È necessario implementare un sistema di monitoraggio efficace per valutare l'impatto delle azioni intraprese e apportare eventuali correzioni. Inoltre, sarebbe opportuno rafforzare l'offerta di attività opzionali e facoltative, ampliando la gamma di opportunità disponibili per gli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Materna Regionale Verga** presenta un quadro generale positivo per quanto riguarda l'orientamento, grazie alla presenza di una sezione dedicata, alla vasta rete di **partnership** e alla definizione di finalità e obiettivi chiari. Tuttavia, è necessario colmare le lacune individuate, rendendo più operativa la sezione dedicata all'orientamento, implementando un sistema di monitoraggio efficace e ampliando l'offerta di attività opzionali e facoltative. Un'attenzione maggiore a questi aspetti permetterà di garantire un servizio di orientamento di qualità, in grado di supportare gli studenti nel loro percorso di crescita e di sviluppo."
+}

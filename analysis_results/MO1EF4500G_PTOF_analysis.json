@@ -1,0 +1,233 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MO1EF4500G",
+    "denominazione": "S.P.P. \"Toddlers Bilingual Primary School\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Formigine",
+    "anno_ptof": "2021-2024",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Landucci 7",
+    "cap": "41043",
+    "email": "info@toddlers.it",
+    "pec": "toddysrl@pec.it",
+    "website": "https//www.toddlers.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune di Formigine",
+        "amministrazione comunale",
+        "Erickson",
+        "I-School",
+        "Apple Teachers",
+        "AUSL di Modena",
+        "Servizi Memo Comune di Modena"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Summer Camp",
+      "categoria_principale": "Ampliamento curricolare",
+      "descrizione_e_metodologia": "Corsi estivi intensivi di inglese per studenti provenienti da altri servizi.",
+      "target": "Studenti non madrelingua"
+    },
+    {
+      "titolo_attivita": "Corsi sportivi",
+      "categoria_principale": "Attività sportive",
+      "descrizione_e_metodologia": "Ginnastica artistica, motricità, nuoto.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti di solidarietà",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Esperienze di incontro online con studenti stranieri, summer camp all'estero",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di riciclaggio",
+      "categoria_principale": "Eco-sostenibilità",
+      "descrizione_e_metodologia": "Raccolta differenziata, sensibilizzazione all'uso di materiali meno inquinanti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Collaborazione con impianti sportivi, palestre e piscina",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Fablab",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Progetti di robotica, stampante 3D, apprendimento digitale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Pre-Accoglienza",
+      "categoria_principale": "Servizi per la famiglia",
+      "descrizione_e_metodologia": "Servizio pre-scolastico di 30 minuti.",
+      "target": "Famiglie con orari di lavoro incompatibili"
+    },
+    {
+      "titolo_attivita": "Playtime",
+      "categoria_principale": "Servizi extrascolastici",
+      "descrizione_e_metodologia": "Servizio post-scolastico in inglese (16:30-18:30).",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Certificati Google",
+      "categoria_principale": "Formazione digitale",
+      "descrizione_e_metodologia": "Corpo docente certificato Google per l'uso di strumenti digitali.",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Lettura e studio Ordinanza n° 172",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Studio individuale e FAQ ministeriali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Webinar Formazione Valutazioni",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Webinar Ministero Istruzione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione ClasseViva",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso gestione valutazioni",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodo Analogico Intuitivo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corso Erickson",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Piano Digitale - Webinar",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Webinar I-School e Apple Teachers",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Fiera Didacta",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi di formazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Google",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Pacchetto Google e certificazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione HACCP e Celiachia",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Corsi AUSL Modena",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione Sicurezza e Primo Intervento",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Corsi AUSL Modena",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MO1EF4500G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “S.P.P. \\\"Toddlers Bilingual Primary School\\\"” (MO1EF4500G) per il triennio 2021-2024. La scuola, paritaria, situata nel comune di Formigine (Modena) in Emilia Romagna, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata a questo tema. L'analisi evidenzia una buona integrazione delle attività di orientamento all'interno di diverse aree del PTOF, con particolare attenzione alle partnership, alle finalità educative e alle azioni di sistema.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:**\n\nNon risulta presente una sezione specifica all'interno del PTOF dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di **partnership**, con un punteggio di 3 e la presenza di 6 partner nominati, tra cui il **Comune di Formigine**, l'**amministrazione comunale**, **Erickson**, **I-School**, **Apple Teachers**, l'**AUSL di Modena** e i **Servizi Memo Comune di Modena**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e presentano un punteggio di 3 per ciascuna delle aree considerate: attitudini, interessi, progetto di vita, transizioni formative e sviluppo delle capacità orientative e delle opportunità. Questo indica un approccio olistico all'orientamento, che mira a sviluppare le potenzialità degli studenti in tutte le loro dimensioni.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in relazione all'orientamento mostrano una certa variabilità. L'obiettivo di ridurre l'abbandono scolastico ha un punteggio di 1, mentre gli obiettivi di garantire la continuità territoriale e promuovere il lifelong learning raggiungono un punteggio di 3. L'obiettivo di contrastare il fenomeno NEET ottiene un punteggio di 1.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento sono valutate positivamente, con punteggi di 2 per il coordinamento dei servizi e di 3 per il dialogo tra docenti e studenti, il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni risulta meno sviluppato, con un punteggio di 1.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci innovativi e partecipativi, con punteggi di 3 per l'apprendimento basato sull'esperienza degli studenti, la didattica laboratoriale e la flessibilità degli spazi e dei tempi. L'interdisciplinarità raggiunge il punteggio più alto, pari a 4.\n\n**2.7 Offerta di Attività Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata, con punteggi di 1 per le opzionali culturali, 4 per quelle laboratoriali ed espressive, 3 per quelle ludico-ricreative, di volontariato e sportive.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla solida rete di **partnership**, dalle chiare finalità educative, dalla didattica orientativa basata sull'esperienza e sull'interdisciplinarità, e dall'offerta diversificata di attività opzionali. L'impegno nella formazione del corpo docente, con certificazioni **Google** e partecipazione a corsi di aggiornamento, è un ulteriore elemento positivo. Le attività come **Summer Camp**, **Progetti di solidarietà** e **Fablab** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Anche l'obiettivo di ridurre l'abbandono scolastico e quello di contrastare il fenomeno NEET necessitano di maggiore attenzione. Il monitoraggio delle azioni di orientamento risulta poco sviluppato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione esplicita dell'orientamento come area tematica autonoma all'interno del PTOF. Sebbene le attività e le azioni di orientamento siano integrate in diverse aree, la loro visibilità e il loro coordinamento potrebbero essere migliorati attraverso la creazione di una sezione dedicata.\n\n### 6. Conclusioni\n\nIl PTOF della scuola “S.P.P. \\\"Toddlers Bilingual Primary School\\\"” dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. La scuola può rafforzare la sua offerta formativa in questo ambito attraverso la creazione di una sezione dedicata all'orientamento, il potenziamento del monitoraggio delle azioni e l'attenzione agli obiettivi di riduzione dell'abbandono scolastico e contrasto al fenomeno NEET. La valorizzazione delle **partnership** esistenti e l'innovazione didattica rappresentano ulteriori elementi chiave per il successo delle attività di orientamento. La formazione continua dei **docenti**, come dimostrato dalle attività di **Formazione Google**, **Webinar Formazione Valutazioni** e **Metodo Analogico Intuitivo**, è fondamentale per garantire la qualità dell'offerta formativa."
+}

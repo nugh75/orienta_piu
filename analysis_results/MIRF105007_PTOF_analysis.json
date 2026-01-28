@@ -1,0 +1,248 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIRF105007",
+    "denominazione": "Istituto Professionale Servizi Socio-Sanitari Maria Ausiliatrice",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Milano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Bonvesin De La Riva",
+    "cap": "20129",
+    "email": "segreteria@scuolabonvesin.it",
+    "pec": "ND",
+    "website": "www.scuolabonvesin.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento nel documento. Vengono descritte attività di orientamento, ma non una sezione strutturata all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Forze dell'ordine",
+        "Esperti",
+        "Regione Lombardia",
+        "Ufficio Scolastico Regionale",
+        "Inventolab",
+        "Brianza solidale",
+        "Unicredit",
+        "I.P.S.S.A.S.- LOMBARDIA",
+        "RE. NA. I. S. SAN. S.",
+        "Bullout"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Inserimento nel mondo del lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per l'inserimento lavorativo con titolo di studio qualificato.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano per immigrati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi di italiano per studenti di recente immigrazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze dell'ordine",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri informativi e di sensibilizzazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di recupero delle carenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi personalizzati",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetti di istituto Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "UDA che coinvolgono tutte le discipline",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Riconoscimento crediti OSS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riconoscimento crediti formativi per accesso esame OSS",
+      "target": "Studenti tecnici servizi socio-sanitari"
+    },
+    {
+      "titolo_attivita": "corso di primo soccorso",
+      "categoria_principale": "sicurezza",
+      "descrizione_e_metodologia": "Corsi sulla sicurezza",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "corsi sulla sicurezza",
+      "categoria_principale": "sicurezza",
+      "descrizione_e_metodologia": "Corsi sulla sicurezza",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "progetti proposti da Inventolab",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti PCTO",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "corso “Giovani&Impresa” di Brianza solidale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "“Start up your life” di Unicredit",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "corsi online di Educazione Digitale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corsi online",
+      "target": "tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale Inclusivo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Laboratorio Artistico Inclusivo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Ortolandia",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Successo Formativo Bes",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Studenti con patologie"
+    },
+    {
+      "titolo_attivita": "Sportabilmente – Baskin",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto INSIEME È MEGLIO",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni stranieri con esperti artistico-musicali",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Rilevazione grado di soddisfazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionari a studenti, genitori e personale",
+      "target": "Studenti, genitori, personale"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIRF105007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Professionale Servizi Socio-Sanitari Maria Ausiliatrice** (MIRF105007) per il triennio 2022-2025. L'istituto, situato a **Milano** in **Lombardia**, opera in un contesto **metropolitano** e si rivolge agli studenti del **II Grado**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Sebbene non sia presente una sezione specificamente dedicata all'orientamento nel PTOF, vengono descritte diverse attività in questo ambito.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che non è presente una sezione strutturata specificamente dedicata all'orientamento all'interno del PTOF, nonostante la presenza di attività correlate.\n\n**2.2 Partnership:** L'istituto dimostra un buon livello di collaborazione esterna, con **11 partner** nominati, tra cui **Forze dell'ordine**, **Esperti**, **Regione Lombardia**, **Ufficio Scolastico Regionale**, **Inventolab**, **Brianza solidale**, **Unicredit**, **I.P.S.S.A.S.- LOMBARDIA**, **RE. NA. I. S. SAN. S.**, e **Bullout**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio elevato (4).\n\n**2.4 Obiettivi:** Gli obiettivi delineati mirano a **ridurre l'abbandono** scolastico, garantire la **continuità** con il territorio, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e promozione del lifelong learning ottengono un punteggio di 4, mentre l'obiettivo di contrastare i NEET un punteggio leggermente inferiore (3).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Il dialogo tra docenti e studenti risulta essere l'azione più valorizzata (punteggio 5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento **da esperienza**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'**interdisciplinarità**. L'interdisciplinarità è particolarmente enfatizzata (punteggio 5), mentre l'apprendimento da esperienza ottiene un punteggio di 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli **culturali**, **laboratoriali ed espressivi**, **ludico-ricreativi**, di **volontariato** e **sportivi**. Tutte queste opzioni ricevono un punteggio di 3, indicando una buona varietà di scelta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità e degli obiettivi, nella solida rete di **partnership** con enti e istituzioni del territorio, e nell'approccio didattico orientato all'esperienza e all'**interdisciplinarità**. L'attenzione all'inclusione e alla riduzione dell'abbandono scolastico rappresenta un ulteriore elemento positivo. Le attività registrate, come \"**Inserimento nel mondo del lavoro**\", \"**Incontri con le forze dell'ordine**\" e \"**Riconoscimento crediti OSS**\", dimostrano un impegno concreto nell'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività siano descritte, una sezione strutturata consentirebbe una maggiore coerenza e visibilità dell'impegno dell'istituto in questo ambito. Anche l'obiettivo di contrastare il fenomeno **NEET** potrebbe essere ulteriormente rafforzato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una struttura formale per l'orientamento all'interno del PTOF. Questo potrebbe portare a una frammentazione delle iniziative e a una minore efficacia complessiva. È necessario definire un piano d'azione specifico per l'orientamento, con obiettivi misurabili e indicatori di performance.\n\n### 6. Conclusioni\n\nIn conclusione, l'Istituto Professionale Servizi Socio-Sanitari Maria Ausiliatrice dimostra un impegno significativo nell'orientamento, supportato da una rete di **partnership** consolidata e da un approccio didattico innovativo. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, si raccomanda di strutturare una sezione dedicata all'orientamento all'interno del PTOF, definendo obiettivi specifici e indicatori di performance. Le attività registrate, come i progetti **PCTO** con **Inventolab**, **Brianza solidale** e **Unicredit**, e le iniziative di **inclusione** come il \"**Laboratorio Musicale Inclusivo**\" e \"**Ortolandia**\", testimoniano l'impegno dell'istituto verso una formazione completa e orientata al futuro."
+}

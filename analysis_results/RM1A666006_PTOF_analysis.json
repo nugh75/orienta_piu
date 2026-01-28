@@ -1,0 +1,254 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RM1A666006",
+    "denominazione": "Carlo Fadda",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Carlo Fadda 124",
+    "cap": "00173",
+    "email": "marina.diamanti@comune.roma.it",
+    "pec": "ND",
+    "website": "https://www.istruzione.it/ri-generazione-scuola/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente riferimento esplicito, sezione presente, ma non esplicita, presente sezione dedicata all'inclusione, presente UDA trasversali di Ed.Civica"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "SCUOLE IN RETE",
+        "MIUR",
+        "AGENZIE ACCREDITATE",
+        "UNIVERSITA' DI SALERNO",
+        "POLO QUALITA' DI NAPOLI",
+        "Enti locali",
+        "Servizi sociali",
+        "associazioni di volontariato",
+        "enti territoriali",
+        "altre scuole"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Formazione docenti su didattica per competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, workshop, condivisione di buone pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali e di ricerca-azione",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Finalizzate a rendere pubbliche MISSION E VISION",
+      "target": "Comunità scolastica e territorio"
+    },
+    {
+      "titolo_attivita": "Questionari di gradimento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Allestimento questionari per esprimere il gradimento verso le iniziative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Momenti di formazione specifica, in presenza e e-learning",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza alunni con difficoltà e bisogni speciali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e attuazione di PEI",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "UDA Costituzione (Classe I)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe I"
+    },
+    {
+      "titolo_attivita": "UDA Sviluppo sostenibile (Classe II)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe II"
+    },
+    {
+      "titolo_attivita": "UDA Cittadinanza digitale (Classe III)",
+      "categoria_principale": "Ed. Civica",
+      "descrizione_e_metodologia": "Percorso multidisciplinare, lavoro di gruppo, realizzazione di cartelloni/elaborati multimediali.",
+      "target": "Classe III"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetti con associazioni",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso educativo-didattico finalizzato a formare cittadini responsabili e attivi.",
+      "target": "Tutti i gradi scolastici"
+    },
+    {
+      "titolo_attivita": "Marcianisiadi “D.D.1 Cavour”",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Progetto basato sui valori olimpici, pratica motoria e sportiva.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sport Di Classe",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Due ore settimanali di Educazione Fisica per le classi primarie.",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visione di film e cortometraggi con forum di analisi.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Teatrali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Allestimento di spettacoli teatrali con esperti esterni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Musicale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Allestimento del coro d'Istituto e attività musicali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esami di Certificazione Lingue Straniere",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Preparazione per certificazioni (Flyers, DELF, DELE).",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Progetto CLIL Multilingue",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Attività laboratoriali CLIL.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Scuola Viva - Microcosmi a confronto",
+      "categoria_principale": "Sport e Cultura",
+      "descrizione_e_metodologia": "Moduli di teatro, canto, musica, sport, nuoto, scacchi, italiano, inglese.",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RM1A666006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Carlo Fadda**, scuola dell'infanzia paritaria situata a Roma, per il triennio 2022-2025. L'analisi si concentra sull'area dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. I dati raccolti indicano un impegno significativo dell'istituto verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate. L'istituto dimostra una forte attenzione all'inclusione e all'educazione civica, integrando queste tematiche nelle Unità di Apprendimento (UDA) trasversali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo suggerisce un'attenzione esplicita e strutturata a questa area.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership, coinvolgendo **SCUOLE IN RETE**, il **MIUR**, **AGENZIE ACCREDITATE**, l'**UNIVERSITA' DI SALERNO**, il **POLO QUALITA' DI NAPOLI**, **enti locali**, **servizi sociali**, **associazioni di volontariato**, **enti territoriali** e altre scuole. Il numero di partner (10) evidenzia un forte impegno nella collaborazione esterna per arricchire l'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli alunni. Si riscontra un buon livello di attenzione alle finalità relative alle capacità orientative e alle opportunità, mentre quelle legate alle transizioni formative presentano un punteggio leggermente inferiore.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning. Sebbene gli obiettivi siano ambiziosi, il punteggio ottenuto per il contrasto ai NEET suggerisce un'area in cui potrebbe essere necessario un maggiore approfondimento.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni. L'attenzione al sistema integrato di inclusione e fragilità dimostra un approccio olistico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Quest'ultima dimensione, con un punteggio di 6, rappresenta un punto di forza dell'approccio didattico dell'istituto.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. La varietà delle opzioni contribuisce a personalizzare l'offerta formativa e a rispondere agli interessi degli alunni.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF riguardano la presenza di una sezione dedicata all'orientamento, l'ampia rete di partnership attivate, l'approccio didattico basato sull'esperienza e sull'interdisciplinarità, e la varietà dell'offerta di attività opzionali. L'integrazione dell'educazione civica attraverso le **UDA** dedicate a **Costituzione**, **Sviluppo Sostenibile** e **Cittadinanza Digitale** rappresenta un valore aggiunto. L'istituto dimostra un forte impegno verso l'inclusione, come evidenziato dai progetti dedicati agli alunni con disabilità e dall'attenzione al sistema integrato di inclusione e fragilità.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi relativi al contrasto ai NEET e le finalità legate alle transizioni formative, che presentano punteggi inferiori rispetto alle altre dimensioni. Il monitoraggio delle azioni, sebbene presente, potrebbe essere potenziato per garantire una valutazione più efficace dell'impatto delle iniziative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire la dispersione scolastica e a facilitare le transizioni formative degli alunni. Potrebbe essere utile implementare programmi specifici per l'orientamento post-infanzia e per il supporto agli studenti a rischio di abbandono.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto **Carlo Fadda** presenta un'impostazione solida e coerente in materia di orientamento. L'istituto dimostra un forte impegno verso la personalizzazione dell'offerta formativa, l'inclusione e la collaborazione esterna. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come uno strumento efficace per guidare l'azione educativa dell'istituto e per promuovere lo sviluppo integrale degli alunni. Le attività registrate, come la **Formazione docenti su didattica per competenze**, i **Progetti di inclusione**, l'**Open day**, i **Questionari di gradimento**, il **Progetto accoglienza**, il **Piano Educativo Individualizzato**, le **Visite guidate**, i **Progetti con associazioni**, il **Curricolo verticale di Educazione Civica**, **Marcianisiadi**, **Progetto Sport Di Classe**, **Cineforum**, **Attività Teatrali**, **Attività Musicale**, **Esami di Certificazione Lingue Straniere**, **Progetto CLIL Multilingue** e **Scuola Viva** testimoniano la ricchezza e la varietà delle iniziative implementate."
+}

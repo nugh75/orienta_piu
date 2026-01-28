@@ -1,0 +1,39 @@
+# Analisi del PTOF NA1A235004
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto "Il Verde Giardino S.R.L. Impresa Sociale", scuola dell'infanzia situata a Napoli, per il triennio 2022-2025. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità educative, gli obiettivi, le azioni di sistema, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse aree di valutazione. L'istituto si posiziona come un attore attivo nel territorio, collaborando con diverse realtà e promuovendo un'offerta formativa ricca e diversificata.
+
+### 2. Analisi Dimensionale
+
+**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una buona attenzione a questo aspetto cruciale.
+
+**2.2 Partnership:** L'istituto vanta un network di **partnership** ampio e diversificato, con un punteggio di 5. Tra i partner figurano **SCUOLE IN RETE**, il **MIUR**, **AGENZIE ACCREDITATE**, l'**UNIVERSITA' DI SALERNO**, il **POLO QUALITA' DI NAPOLI**, diverse **associazioni** ed **enti territoriali**, **altre scuole** e l'**UNICEF**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per la realizzazione di progetti innovativi.
+
+**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate. Si riscontra un punteggio massimo (5) per lo sviluppo di **attitudini** e **interessi** degli studenti, nonché per lo sviluppo delle **capacità orientative** e la conoscenza delle **opportunità** formative. Il punteggio è leggermente inferiore (4) per le finalità legate alle **transizioni formative**, mentre risulta più basso (2) per il supporto al **progetto di vita** degli studenti.
+
+**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono scolastico** (punteggio 4), sulla continuità territoriale (punteggio 4) e sulla promozione del **lifelong learning** (punteggio 4). L'obiettivo di contrastare il fenomeno dei **NEET** risulta meno prioritario, con un punteggio di 1.
+
+**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci per supportare l'orientamento, come il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 4), il **rapporto scuola-genitori** (punteggio 5), il **monitoraggio delle azioni** (punteggio 3) e un sistema integrato di **inclusione e fragilità** (punteggio 5).
+
+**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'**interdisciplinarità** (punteggio 6).
+
+**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 4) e **sportive** (punteggio 4).
+
+### 3. Punti di Forza
+
+I principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, l'ampio network di **partnership** attivate, la chiarezza delle **finalità educative**, l'efficacia delle **azioni di sistema** e l'approccio didattico innovativo basato sull'esperienza e sull'**interdisciplinarità**. L'istituto dimostra un forte impegno verso l'**inclusione** e la valorizzazione delle **competenze** degli studenti. Le attività registrate, come la **Formazione del personale docente** e il **Progetto accoglienza**, supportano efficacemente gli obiettivi del PTOF.
+
+### 4. Aree di Debolezza
+
+L'area di debolezza principale riguarda il supporto al **progetto di vita** degli studenti, con un punteggio relativamente basso. Inoltre, l'obiettivo di contrastare il fenomeno dei **NEET** appare meno prioritario rispetto agli altri. Il punteggio inferiore per la didattica **laboratoriale** suggerisce la necessità di potenziare questa metodologia.
+
+### 5. Gap Analysis
+
+Il divario tra le finalità orientate allo sviluppo di **attitudini** e **interessi** (punteggio 5) e il supporto al **progetto di vita** (punteggio 2) indica la necessità di integrare maggiormente l'orientamento con attività volte a favorire la consapevolezza di sé e la definizione di obiettivi personali. L'istituto potrebbe potenziare le attività di **tutoraggio** e di **counseling** per supportare gli studenti nella costruzione del proprio futuro.
+
+### 6. Conclusioni
+
+Il PTOF dell'istituto "Il Verde Giardino S.R.L. Impresa Sociale" si presenta come un documento ben strutturato e coerente, con un forte focus sull'orientamento e sull'innovazione didattica. L'istituto dimostra un impegno significativo verso la valorizzazione degli studenti e la loro preparazione al futuro. Pur presentando alcune aree di debolezza, il PTOF offre solide basi per il raggiungimento degli obiettivi prefissati e per la realizzazione di un'offerta formativa di qualità. Le attività registrate, come l'organizzazione di **Open day**, l'utilizzo di **Questionari di gradimento** e la promozione di progetti di **Ed. Civica** (UDA Costituzione, Sviluppo Sostenibile, Cittadinanza Digitale), testimoniano l'impegno dell'istituto verso la comunità scolastica e il territorio.

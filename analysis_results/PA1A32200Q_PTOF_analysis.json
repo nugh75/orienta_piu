@@ -1,0 +1,283 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PA1A32200Q",
+    "denominazione": "Il Piccolo Principe",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Palermo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Palermo",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via U. La Malfa91",
+    "cap": "90100",
+    "email": "ilpiccolo.principe@alice.it",
+    "pec": "moic84700t@pec.istruzione.it",
+    "website": "www.ic9modena.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF, Progetto CCRR dedicato, Sezione Valutazione, Continuità e Orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Multi Centro Educativo Modena",
+        "FEM - Future Education Modena",
+        "Laboratorio aperto",
+        "Quartiere n.1",
+        "Patronato",
+        "Fondazione Cassa di Risparmio",
+        "Società sportive",
+        "Associazioni di volontariato",
+        "CSI",
+        "Doposcuola",
+        "Comitati Genitori",
+        "Commissione europea",
+        "Comune di Modena",
+        "Accademia militare di Modena",
+        "Cooperativa Sociale Aliante"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Servizio post-scuola al Magico Mundo",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Laboratori creativi e lingua inglese",
+      "target": "Alunni classi 3^ e 4^ primaria"
+    },
+    {
+      "titolo_attivita": "SMART CLASS",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Acquisto notebook per studenti non provvisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "INCLUSIONE SOCIALE E LOTTA AL DISAGIO",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Misure e servizi per contrastare povertà ed emarginazione",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "APPRENDIMENTO E SOCIALITA'",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Moduli per competenze di base e riduzione divario digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "DIGITAL BOARD",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Dotazione monitor digitali interattivi",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "RETI LOCALI",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Infrastruttura di rete per edifici scolastici",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Mi muovo e imparo a stare con gli altri",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Progetto motorio con esperti del CSI di Modena.",
+      "target": "Bambini 3/4/5 anni"
+    },
+    {
+      "titolo_attivita": "Emozioni in parole",
+      "categoria_principale": "Socio-Emotiva",
+      "descrizione_e_metodologia": "Intervento di esperti di teatro e danza.",
+      "target": "Bambini 3/4/5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto Ologramma – Musica per l’inclusione",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Percorso di musica condotto da docenti.",
+      "target": "Classi prime e quarte scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Sportello di assistenza psicologica e/o pedagogica",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Consulenze individuali e interventi di classe.",
+      "target": "Alunni, genitori, docenti, personale ATA"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Supporto alunni non italofoni.",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Pon di educazione motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Pratiche motorie e sportive.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coding “Caccia al tesoro in Cittadella con il coding”",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività legate alla logica e creatività.",
+      "target": "Classi seconde e terze scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Io leggo perché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Stimolare la passione per la lettura.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto di potenziamento della lingua inglese “Let’s study”",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Potenziare le competenze di lingua inglese.",
+      "target": "Tutte le classi scuola Primaria"
+    },
+    {
+      "titolo_attivita": "In sella alla vita 2",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali di equitazione.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "CCRR",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Campagna elettorale, ideazione progetti, elezione consigliere, iniziativa al Consiglio Comunale.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Scuola in ospedale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "DAD, PC e connettività in comodato d'uso",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto strutturato e flessibile, DAD",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Incontri di raccordo tra ordini di scuola",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incontri tra docenti dei tre ordini di scuola e visite ai plessi",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Colloqui per alunni con disabilità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto di conoscenza della scuola di accoglienza",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetto Musica Scuola Secondaria S. Carlo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione musicale (teoria e strumento) in orario extrascolastico",
+      "target": "Alunni scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Screening disturbi apprendimento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Individuazione precoce disturbi apprendimento classi iniziali",
+      "target": "Alunni scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, workshop, ricerca-azione, comunità di pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione personale ATA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione on line",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PA1A32200Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia \"Il Piccolo Principe\" (PA1A32200Q) per il triennio 2022-2025. La scuola, paritaria, situata nel comune di Palermo, in Sicilia, dimostra un forte impegno verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo elevato. L'istituto si distingue per una rete di **partnership** consolidata e per un'attenzione particolare alla progettazione di percorsi che favoriscano lo sviluppo delle attitudini, degli interessi e del **progetto di vita** degli studenti. L'analisi delle attività registrate conferma un approccio olistico all'educazione, che integra aspetti didattici, sociali, tecnologici e motori.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, con un punteggio massimo di 5, e include un **Progetto CCRR** dedicato, oltre a sezioni dedicate alla valutazione, alla continuità e all'orientamento stesso.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di **partnership** con enti e associazioni del territorio, tra cui **Multi Centro Educativo Modena**, **FEM - Future Education Modena**, **Laboratorio aperto**, **Quartiere n.1**, **Patronato**, **Fondazione Cassa di Risparmio**, diverse **società sportive** e **associazioni di volontariato**, il **CSI**, il **Doposcuola**, i **Comitati Genitori**, la **Commissione europea**, il **Comune di Modena**, l'**Accademia militare di Modena** e la **Cooperativa Sociale Aliante**. Questo elevato numero di collaborazioni (15) testimonia la volontà di creare una rete di supporto per gli studenti e di ampliare le opportunità formative.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo del **progetto di vita** (5), degli **interessi** (4) e delle **capacità orientative** per cogliere le opportunità (4). Un buon punteggio è stato assegnato anche alle attitudini (3) e alle transizioni formative (4).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (4), il rafforzamento della **continuità territoriale** (4), il contrasto alla dispersione scolastica e al fenomeno **NEET** (2) e la promozione del **lifelong learning** (3).\n\n**2.5 Azioni Sistema:** Le azioni previste dal sistema di orientamento si concentrano sul **coordinamento dei servizi** (4), sul **dialogo tra docenti e studenti** (4), sul rapporto **scuola-genitori** (5), sul **monitoraggio delle azioni** (3) e sulla creazione di un **sistema integrato di inclusione e fragilità** (4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (4), sull'utilizzo di metodologie **interdisciplinari** (4), mentre risulta meno sviluppata la didattica laboratoriale (2) e la flessibilità degli spazi e dei tempi (2).\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali include opzioni **laboratoriali espressive** (3) e **sportive** (3), mentre risultano meno presenti le opzioni **culturali** (1), **ludiche-ricreative** (1) e di **volontariato** (2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, la vasta rete di **partnership** con enti e associazioni del territorio, l'attenzione allo sviluppo del **progetto di vita** degli studenti e la forte collaborazione con le famiglie. Le attività registrate, come **\"Mi muovo e imparo a stare con gli altri\"**, **\"Emozioni in parole\"** e **\"Progetto Ologramma – Musica per l’inclusione\"**, dimostrano un impegno concreto nella promozione del benessere psico-fisico e nello sviluppo delle competenze socio-emotive degli studenti. L'iniziativa **CCRR** evidenzia un approccio attivo alla cittadinanza responsabile.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la didattica laboratoriale e la flessibilità degli spazi e dei tempi, che risultano meno sviluppate rispetto ad altri aspetti dell'orientamento. L'obiettivo di contrastare il fenomeno **NEET** ottiene un punteggio inferiore rispetto agli altri obiettivi, suggerendo la necessità di rafforzare le azioni mirate a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro. L'offerta di attività opzionali potrebbe essere ampliata per includere più opzioni culturali, ludiche-ricreative e di volontariato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi del PTOF in azioni concrete e misurabili, con particolare attenzione alla didattica laboratoriale e alla flessibilità degli spazi e dei tempi. È inoltre necessario rafforzare le azioni mirate a contrastare il fenomeno **NEET** e ad ampliare l'offerta di attività opzionali. L'integrazione di progetti come **\"Scuola in ospedale\"** e **\"Istruzione domiciliare\"** dimostra sensibilità verso l'inclusione, ma necessita di un monitoraggio costante per garantirne l'efficacia.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Il Piccolo Principe\" presenta un solido impianto teorico e un forte impegno verso l'orientamento. La vasta rete di **partnership**, l'attenzione allo sviluppo del **progetto di vita** degli studenti e la collaborazione con le famiglie rappresentano punti di forza significativi. Per migliorare ulteriormente l'efficacia del PTOF, è necessario colmare le lacune individuate, rafforzando la didattica laboratoriale, la flessibilità degli spazi e dei tempi e le azioni mirate a contrastare il fenomeno **NEET**. L'implementazione di un sistema di monitoraggio efficace consentirà di valutare l'impatto delle azioni intraprese e di apportare eventuali correzioni in itinere."
+}

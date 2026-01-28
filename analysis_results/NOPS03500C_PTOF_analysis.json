@@ -1,0 +1,370 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "NOPS03500C",
+    "denominazione": "Liceo Scientifico San Lorenzo",
+    "tipo_scuola": "Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Novara",
+    "anno_ptof": "2023/2024",
+    "provincia": "Novara",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Baluardo Lamarmora 14",
+    "cap": "28100",
+    "email": "segreteria@salesiani.novara.it",
+    "pec": "novara@pec.salesianipiemonte.it",
+    "website": "www.salesiani.novara.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università",
+        "CONI",
+        "CIP",
+        "Sport e Salute S.p.A",
+        "Intercultura",
+        "Rotary",
+        "Lions",
+        "agenzie",
+        "aziende",
+        "enti",
+        "Federazione italiana Triathlon- Fitri",
+        "ASD Windsurfing Club Cagliari",
+        "Fipav",
+        "A.S.D. Millesport Onlus",
+        "Università di Cagliari",
+        "Fondazione Teatro Lirico Cagliari",
+        "Scuole per la qualità SIRQ",
+        "Associazioni culturali e professionali",
+        "MCE - GISCEL - CIDI",
+        "Anpal-Servizi per l’impiego",
+        "INFN",
+        "Weschool",
+        "Caritas",
+        "C.O.N.I."
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Percorsi definiti a livello di classe con docenti tutor",
+      "target": "Studenti biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Redazione bilancio competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso per consapevolezza attitudini",
+      "target": "Studenti biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Progetto didattico Studente-atleta di alto livello",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso Formativo Personalizzato (PFP) in collaborazione con CONI, CIP e Sport e Salute S.p.A",
+      "target": "Studenti atleti di alto livello"
+    },
+    {
+      "titolo_attivita": "Progetto INSIEME PER IL SUCCESSO FORMATIVO DI UNO E TUTTI",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Mentoring, recupero competenze, supporto genitorialità, apprendimento alternativo",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Visite guidate presso Università e ITS Academy",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate per scoperta offerta formativa",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti del mondo del lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Testimonianze e presentazioni",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Stage formativi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in aziende",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Moduli zero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Rilevazione caratteristiche cognitive e interventi di recupero",
+      "target": "Classi prime e terze"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi pomeridiani di 12 ore",
+      "target": "Studenti con insufficienze"
+    },
+    {
+      "titolo_attivita": "Istruzione ospedaliera/domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Didattica a distanza/domicilio",
+      "target": "Studenti con problemi di salute"
+    },
+    {
+      "titolo_attivita": "Corso Cambridge",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Studio materie in inglese con esame IGCSE",
+      "target": "Studenti motivati"
+    },
+    {
+      "titolo_attivita": "Corso di Autocad “Base”",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso pratico di Autocad",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "T-Challenge edizione 2023/2024",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Challenge tecnologica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Invece di giudicare",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto sensibilizzazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Festival Scienze",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Partecipazione a festival",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "EEE",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto EEE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RadioLab",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto Radio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lab2go",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Laboratorio mobile",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Sicurezza sul Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso sicurezza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano Nazionale Lauree Scientifiche",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto lauree scientifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Asimov",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto Asimov",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Civicamente per Educazione Digitale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Educazione digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monumenti aperti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita monumenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Millesport",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto sportivo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fondazione Teatro Lirico di Cagliari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita teatro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PFP",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto PFP",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Arduino",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso Arduino",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Banca d’Italia",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visita Banca d'Italia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Masterclass Darkside",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Masterclass Darkside",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ambassador of the future",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto Ambassador",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Arbitri di Calcio",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso arbitri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Creare un CV personale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con Anpal-Servizi per l’impiego",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Creazione di un CV Video/Visual CV",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività individuale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Compilazione di un Diario di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività individuale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progettazione di un Piano di sviluppo professionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività individuale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corso di Mediazione tra pari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Percorso in Caritas",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Discipline sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Conoscenza lessico, regolamento, gesti fondamentali, sistema muscolare, capacità condizionali e coordinative.",
+      "target": "Allievi rientranti dall'estero"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NOPS03500C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico San Lorenzo** (NOPS03500C) per l'anno 2023/2024. L'istituto, paritario, situato a Novara, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata con un punteggio di 7. L'analisi delle diverse dimensioni dell'orientamento, degli obiettivi e delle azioni intraprese, rivela un approccio strutturato e diversificato, con particolare attenzione alla prevenzione della dispersione scolastica, alla continuità territoriale, al contrasto alla condizione NEET e alla promozione del lifelong learning. Il PTOF si distingue per un'ampia rete di **partnership** con università, enti sportivi come **CONI**, **CIP** e **Sport e Salute S.p.A**, agenzie, aziende e associazioni culturali, dimostrando una forte volontà di connettere la scuola con il territorio e il mondo del lavoro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Finalità:** L'istituto attribuisce importanza alle finalità dell'orientamento, con punteggi di 6 per lo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità. Questo suggerisce un approccio olistico che mira a supportare lo studente nella sua crescita personale e professionale.\n\n**2.2 Obiettivi:** Gli obiettivi definiti nel PTOF, con punteggi che variano tra 5 e 6, si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla condizione NEET e sulla promozione del lifelong learning. Questi obiettivi sono in linea con le priorità nazionali e regionali nel campo dell'istruzione e dell'orientamento.\n\n**2.3 Azioni di Sistema:** Le azioni di sistema messe in atto dall'istituto, con punteggi tra 5 e 6, comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. Queste azioni testimoniano l'impegno dell'istituto a creare un ambiente scolastico accogliente e supportivo per tutti gli studenti.\n\n**2.4 Didattica Orientativa:** La didattica orientativa proposta, con punteggi di 5, si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Questo approccio mira a rendere l'apprendimento più coinvolgente e significativo per gli studenti.\n\n**2.5 Offerta Formativa:** L'offerta di opzionali, con punteggi tra 4 e 6, include attività culturali, laboratoriali, ludico-ricreative, di volontariato e sportive. Questa varietà di opzioni consente agli studenti di esplorare i propri interessi e talenti, arricchendo la loro formazione.\n\n**2.6 Partnership:** L'istituto vanta un elevato numero di **partnership** (21), che spaziano dal mondo universitario a quello sportivo, dalle agenzie alle aziende, dagli enti alle associazioni culturali. Tra i partner figurano **Università**, **CONI**, **CIP**, **Sport e Salute S.p.A**, **Intercultura**, **Rotary**, **Lions** e molte altre realtà del territorio.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua completezza e coerenza. La presenza di una sezione dedicata all'orientamento, la definizione di finalità e obiettivi chiari, l'implementazione di azioni di sistema efficaci e l'offerta di una didattica orientativa diversificata, costituiscono un solido punto di partenza per un'azione di orientamento di qualità. L'ampia rete di **partnership** rappresenta un valore aggiunto significativo, in quanto consente di offrire agli studenti opportunità di contatto con il mondo del lavoro e di approfondimento delle proprie scelte formative. Le numerose attività registrate, come **PCTO**, **Redazione bilancio competenze** e **Progetto didattico Studente-atleta di alto livello**, dimostrano un impegno concreto nell'attuazione del PTOF.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree del PTOF potrebbero essere ulteriormente rafforzate. I punteggi relativamente bassi in alcune dimensioni, come la continuità territoriale e il contrasto alla condizione NEET, suggeriscono la necessità di approfondire l'analisi dei bisogni del territorio e di definire strategie più mirate per rispondere alle esigenze degli studenti. Inoltre, l'offerta di opzionali ludico-ricreative potrebbe essere ampliata per offrire agli studenti maggiori opportunità di svago e socializzazione.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre i punteggi mediamente buoni in risultati concreti e misurabili. È importante definire indicatori di performance specifici per ciascuna dimensione dell'orientamento e monitorare regolarmente i progressi compiuti. Inoltre, è necessario rafforzare la collaborazione tra i diversi attori coinvolti nell'orientamento (docenti, tutor, genitori, partner esterni) per garantire un approccio integrato e coerente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Scientifico San Lorenzo** presenta un'impostazione solida e promettente per quanto riguarda l'orientamento. L'istituto dimostra un impegno significativo verso la crescita personale e professionale degli studenti, offrendo un'ampia gamma di opportunità formative e un'efficace rete di **partnership**. Pur riconoscendo alcune aree di debolezza, si ritiene che il PTOF possa costituire un valido strumento per guidare gli studenti verso scelte consapevoli e responsabili, contribuendo a ridurre la dispersione scolastica, a favorire la continuità territoriale e a promuovere il lifelong learning. L'implementazione di un sistema di monitoraggio efficace e il rafforzamento della collaborazione tra i diversi attori coinvolti nell'orientamento consentiranno di massimizzare l'impatto del PTOF e di raggiungere gli obiettivi prefissati."
+}

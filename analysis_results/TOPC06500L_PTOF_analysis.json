@@ -1,0 +1,350 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOPC06500L",
+    "denominazione": "Liceo Classico Istituto Sociale",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2022/2023-2024/2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "10 Corso Siracusa",
+    "cap": "10136",
+    "email": "info@istitutosociale.it",
+    "pec": "economato.istitutosociale@pec.it",
+    "website": "www.istitutosociale.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente indice con riferimento a Piani e Azioni di orientamento (Pag. 83)"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "Unical",
+        "imprese locali",
+        "Terme Luigiane",
+        "associazioni",
+        "Camera di Commercio",
+        "Federalberghi",
+        "Agenzie di Viaggio",
+        "A.S.L."
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Alternanza scuola lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Arricchimento offerta formativa",
+      "descrizione_e_metodologia": "Preparazione e sostenimento certificazioni",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali e formativi",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Incontri educazione legalità",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri vari legati all'educazione alla legalità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Rapporti con Unical, test d'ingresso",
+      "target": "Studenti ultimo anno"
+    },
+    {
+      "titolo_attivita": "Stage/Tirocini",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage in imprese locali per acquisire competenze operative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a Terme Luigiane e altre imprese del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto COSMIC",
+      "categoria_principale": "Progetti Territoriali",
+      "descrizione_e_metodologia": "Collaborazione con Agenzia Spaziale Italiana e NASA",
+      "target": "Studenti e insegnanti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di simulazioni con Arduino",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Utilizzo di microcontrollori",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Implementazione ICT Lab",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Artigianato digitale e robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontro con il CENTRO per l’ORIENTAMENTO SCOLASTICO E PROFESSIONALE di Cosenza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro informativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontro con il Centro per l’impiego",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro informativo",
+      "target": "Studenti ultimo anno"
+    },
+    {
+      "titolo_attivita": "Organizzazione di corsi pomeridiani sulle discipline d’indirizzo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi pratici",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Invito a vivere“una giornata da studente del Lopiano”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day",
+      "target": "Studenti scuole medie"
+    },
+    {
+      "titolo_attivita": "Organizzazione OPEN DAY",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day con simulazioni",
+      "target": "Genitori e studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di sicurezza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Pronti, lavoro, via",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Una rete che fa rete",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Collaborazione con aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Che impresa ragazzi",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti imprenditoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PHYSICALCOMPUTING:Roboticaedroni",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Laboratorio di micro-robotica",
+      "target": "Studenti e territorio"
+    },
+    {
+      "titolo_attivita": "Laboratoriolegalità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Collaborazione con Arma dei Carabinieri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La Scuola A Cinema",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Proiezione film",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Primo Intervento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Tecniche di primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso BLSD",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Uso del defibrillatore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Accoglienza-Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento per le classi terze delle scuole medie del territorio",
+      "target": "Alunni classi terze medie"
+    },
+    {
+      "titolo_attivita": "Colloqui individuali",
+      "categoria_principale": "Rapporti Famiglia",
+      "descrizione_e_metodologia": "Colloqui periodici con le famiglie",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Oreficeria",
+      "categoria_principale": "Scienze Artistiche",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Ceramica",
+      "categoria_principale": "Scienze Artistiche",
+      "descrizione_e_metodologia": "Foggiatura e stampatura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Diagnostica degli apparati elettronici di bordo",
+      "categoria_principale": "Elettrotecnica",
+      "descrizione_e_metodologia": "Lezione frontale, dialogo formativo, esercitazioni in laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Operate Fuel, Lubrication, Ballast And Other Pumping Systems",
+      "categoria_principale": "Meccanica",
+      "descrizione_e_metodologia": "Funzionamento impianti pompe, separatori acqua/olio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Operate Electrical, Electronic And Control Systems",
+      "categoria_principale": "Elettrotecnica",
+      "descrizione_e_metodologia": "Configurazione e funzionamento apparecchiature elettriche, elettroniche e di controllo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Maintenance And Repair Of Electrical And Electronic Equipment",
+      "categoria_principale": "Elettrotecnica",
+      "descrizione_e_metodologia": "Manutenzione e riparazione apparati elettrici ed elettronici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Appropriate Use Of Hand Tools, Machine Tools And Measuring Instruments",
+      "categoria_principale": "Meccanica",
+      "descrizione_e_metodologia": "Uso utensili manuali, macchine utensili e strumenti di misura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Itinerari turistici in lingua inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Creazione itinerari turistici locali in inglese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rappresentazione del paesaggio nelle arti figurative",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Analisi evoluzione paesaggio e tipologie edilizie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso aziende locali per conoscere i diversi settori professionali.",
+      "target": "Studenti classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti per presentare le diverse professioni.",
+      "target": "Studenti classi terze, quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOPC06500L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Classico Istituto Sociale** (ID scuola: TOPC06500L) per il triennio 2022/2023-2024/2025. L'istituto, situato a **Torino** (Piemonte), si configura come una scuola **paritaria** che offre un'ampia gamma di indirizzi formativi, dal I al II grado. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio complessivo di valutazione positivo. Il PTOF dimostra una chiara attenzione allo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, come evidenziato dall'indice a pagina 83, ottenendo un punteggio di 7.\n\n**2.2 Partnership:** L'istituto ha stabilito collaborazioni con diversi soggetti esterni, tra cui **enti locali**, **realtà istituzionali, culturali, sociali ed economiche**, **Unical**, **imprese locali**, **Terme Luigiane**, **associazioni**, **Camera di Commercio**, **Federalberghi**, **Agenzie di Viaggio** e **A.S.L.**, per un totale di 6 partner nominati e un punteggio di 5.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e mirano a sviluppare le attitudini, gli interessi, il progetto di vita, facilitare le transizioni formative e potenziare le capacità orientative degli studenti, con un punteggio di 5 per ciascuna finalità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (NEET) e la promozione del lifelong learning, con punteggi che variano da 4 a 5.\n\n**2.5 Azioni di Sistema:** L'istituto prevede azioni di coordinamento tra i servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni intraprese e un sistema integrato di inclusione e supporto alle fragilità, ottenendo un punteggio di 5 per ciascuna azione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare, con un punteggio di 5 per ciascuna modalità.\n\n**2.7 Offerta di Opzionali:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, con un punteggio di 5 per ciascuna tipologia.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua completezza e nella chiarezza degli obiettivi e delle azioni previste in materia di orientamento. La presenza di una sezione dedicata, la consolidata rete di **partnership** con il territorio e l'attenzione alle diverse dimensioni dell'orientamento (attitudini, interessi, transizioni formative) costituiscono elementi di notevole valore. L'ampia gamma di attività proposte, tra cui **PCTO**, **certificazioni linguistiche**, **Erasmus+**, **visite aziendali** e **stage/tirocini**, offre agli studenti numerose opportunità di crescita e di orientamento verso il mondo del lavoro e dell'istruzione superiore.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, si rileva una certa uniformità nei punteggi assegnati alle diverse dimensioni, suggerendo una possibile mancanza di approfondimento o di specificità in alcune aree. Sebbene le finalità e gli obiettivi siano ben definiti, sarebbe auspicabile una maggiore articolazione delle azioni concrete per il raggiungimento di tali obiettivi.\n\n### 5. Gap Analysis\n\nL'analisi delle attività registrate evidenzia un'offerta orientativa diversificata e completa. Tuttavia, si potrebbe potenziare l'integrazione tra le diverse attività, creando un sistema coerente e sinergico. Ad esempio, i risultati dei **colloqui individuali** potrebbero essere utilizzati per personalizzare i percorsi di orientamento e per orientare la scelta delle attività opzionali. Inoltre, sarebbe utile monitorare l'efficacia delle diverse attività, al fine di valutare il loro impatto sugli studenti e di apportare eventuali miglioramenti.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Classico Istituto Sociale** dimostra un forte impegno verso l'orientamento e la crescita degli studenti. La presenza di una sezione dedicata, la rete di partnership consolidata e l'ampia gamma di attività proposte costituiscono elementi di notevole valore. Pur riconoscendo alcune aree di miglioramento, si può affermare che il PTOF rappresenta un valido strumento per guidare gli studenti verso scelte consapevoli e responsabili, in linea con le loro attitudini, i loro interessi e il loro progetto di vita. L'istituto si impegna a fornire un'offerta formativa completa e di qualità, in grado di rispondere alle esigenze del territorio e alle sfide del mondo del lavoro."
+}

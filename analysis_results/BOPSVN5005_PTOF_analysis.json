@@ -1,0 +1,199 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPSVN5005",
+    "denominazione": "Liceo Scientifico Opzione Scienze Applicate Visitandine Malpighi",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Castel San Pietro Terme",
+    "anno_ptof": "2025/28",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Palestro 8",
+    "cap": "40024",
+    "email": "segreteriacspt@scuolemalpighi.it",
+    "pec": "licei@pec.liceomalpighi.it",
+    "website": "www.scuolemalpighi.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF. Le attività di orientamento sono integrate in altre aree del piano."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università degli Studi Milano-Bicocca",
+        "CusMIBio",
+        "Università degli Studi di Milano",
+        "Dipartimento di Scienze giuridiche 'Cesare Beccaria'",
+        "Cirgis",
+        "Dipartimento di Fisica e Istituto Nazionale di Fisica Nucleare di Milano-Bicocca",
+        "CAF",
+        "Scuola Penny Wirtone",
+        "Congregazione Orsoline di san Carlo"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO con enti del terzo settore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Programma Cambridge",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Incremento ore inglese",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "PCTO - Genetica dello sport",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Estrazione DNA e PCR presso CusMIBio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Res publica",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attività presso Dipartimento Scienze Giuridiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Economia, Finanza e Impresa",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attività presso Cirgis",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Masterclass CERN",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Analisi dati LHCb e CMS",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Yoga",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Corso annuale",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Aggiornamento sulla sicurezza per tutto il personale",
+      "target": "Personale docente e ATA"
+    },
+    {
+      "titolo_attivita": "Formazione carisma mericiano",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso per personale docente di nuova assunzione",
+      "target": "Docenti neoassunti"
+    },
+    {
+      "titolo_attivita": "I segni del mondo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorso condotto da Federico Leoni",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Gestione fobia scolare",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontro con psicologo Christian Lonati",
+      "target": "Docenti classi seconde"
+    },
+    {
+      "titolo_attivita": "Formazione privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorso gestito dall'avvocato referente",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPSVN5005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Opzione Scienze Applicate Visitandine Malpighi** (BOPSVN5005) per il triennio 2025/28. L'istituto, situato nel territorio metropolitano di **Castel San Pietro Terme** (Bologna), in **Emilia Romagna**, è una scuola **paritaria** che offre un'ampia gamma di gradi scolastici, tra cui il secondo grado. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività specifiche previste dal PTOF in relazione all'orientamento. Sebbene non sia presente una sezione esplicitamente dedicata all'orientamento, le attività in questo ambito sono integrate in altre aree del piano.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non prevede una sezione dedicata specificamente all'orientamento, ma integra le attività in altre aree programmatiche.\n\n**2.2 Partnership:**\n\nIl liceo dimostra un forte impegno nella creazione di **partnership** strategiche, come evidenziato da un punteggio di 4. Sono attivi collaborazioni con importanti istituzioni accademiche quali l'**Università degli Studi Milano-Bicocca**, l'**Università degli Studi di Milano**, il **Dipartimento di Scienze giuridiche 'Cesare Beccaria'**, e con enti di ricerca come **CusMIBio**, **Cirgis** e il **Dipartimento di Fisica e Istituto Nazionale di Fisica Nucleare di Milano-Bicocca**. La collaborazione si estende anche a realtà come il **CAF**, la **Scuola Penny Wirtone** e la **Congregazione Orsoline di san Carlo**, per un totale di 9 partner.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, valutate con punteggi elevati (4-5), si concentrano sullo sviluppo delle **attitudini**, degli **interessi** degli studenti, sulla progettazione del loro **progetto di vita**, sul supporto alle **transizioni formative** e sullo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati, con un punteggio di 3, mirano a **ridurre l'abbandono** scolastico, a favorire la **continuità** con il territorio, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema, con un punteggio di 4, si focalizzano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul **rapporto scuola-genitori** e sul **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione orientata alla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa, valutata con punteggi variabili tra 3 e 4, si basa sull'apprendimento **da esperienza**, sulla **didattica laboratoriale**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative, con punteggi tra 2 e 3, include opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con università, enti di ricerca e realtà del territorio. Questo permette di offrire agli studenti opportunità concrete di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) in ambiti diversificati, come dimostrano le attività di **PCTO con enti del terzo settore**, **PCTO - Genetica dello sport**, **PCTO - Res publica**, **PCTO - Economia, Finanza e Impresa** e **PCTO - Masterclass CERN**. L'attenzione all'inclusione e alla gestione delle fragilità rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività siano integrate in altre aree, una sezione specifica permetterebbe di dare maggiore visibilità e coerenza all'impegno dell'istituto in questo ambito. L'offerta di opzionali ludico-ricreative e sportive appare meno sviluppata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di formalizzare un approccio più strutturato all'orientamento, con la creazione di una sezione dedicata nel PTOF. Questo consentirebbe di definire in modo più chiaro le finalità, gli obiettivi, le azioni e gli indicatori di successo dell'orientamento, facilitando il monitoraggio e la valutazione dei risultati.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scientifico Opzione Scienze Applicate Visitandine Malpighi** dimostra un impegno significativo nell'orientamento, supportato da una solida rete di **partnership** e da attività concrete come i percorsi **PCTO**. L'integrazione delle attività di orientamento in altre aree del piano è un approccio valido, ma la creazione di una sezione dedicata permetterebbe di rafforzare ulteriormente l'impegno dell'istituto e di garantire una maggiore coerenza e trasparenza alle azioni intraprese. L'offerta formativa è completata da iniziative di formazione per il personale, come il **Corso di Yoga**, la **Formazione sicurezza**, la **Formazione carisma mericiano**, **I segni del mondo**, **Gestione fobia scolare** e **Formazione privacy**."
+}

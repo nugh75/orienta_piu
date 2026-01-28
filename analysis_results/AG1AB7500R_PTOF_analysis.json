@@ -1,0 +1,328 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AG1AB7500R",
+    "denominazione": "Scuola Dell'Infanzia L'Orsetto",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Canicatti'",
+    "anno_ptof": "2016-2019",
+    "provincia": "Agrigento",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Giudice Saetta N.10",
+    "cap": "92024",
+    "email": "info@istitutoparini.it",
+    "pec": "ND",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti Locali",
+        "Università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "IMG Cinema",
+        "Biblioteca Nazionale Marciana",
+        "Centro Donna del Comune di Venezia",
+        "Veneziacomix",
+        "Università Ca’ Foscari di Venezia",
+        "G.A. COIN",
+        "ATHLON S",
+        "Venice canoe",
+        "Reyer Basket",
+        "Musei",
+        "Aziende",
+        "Enti locali"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazione competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti di osservazione e certificazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stili di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro sugli stili di apprendimento",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Intelligenze multiple",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica ispirata alla teoria",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Book club",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineclub",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione contenuti sito web",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Recitazione in francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di conversazione in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Esercitazioni guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad e Interior Design",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Progettazione e arredamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fotografia",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Lezione tecniche fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fumetto",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Disegno e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di strumento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Lezioni individuali/gruppo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all’estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza all’estero per approfondire lingue straniere.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esami per certificazioni linguistiche (Quadro Comune Europeo).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione ad attività sportive individuali e di squadra.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Atletica Leggera",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali presso impianto sportivo.",
+      "target": "Liceo dello sport"
+    },
+    {
+      "titolo_attivita": "Difesa Personale",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Sensibilizzazione sulla violenza fisica e tecniche di difesa.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Conoscere Venezia Dall’Acqua",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Percorso naturalistico in Dragon Boat.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Basket School",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali del settore giovanile Reyer Basket.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Rugby Educativo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in lingua inglese, focus comunicazione e lessico.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Sport E Ambiente Naturale",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in ambiente montano (rafting, canoa, trekking).",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Pady Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Rilascio brevetto Padi Open Water Diver.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Italian Resuscitation Council",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Apprendimento procedure di primo soccorso e rianimazione.",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Attivita Motoria E Disabilita’",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Assistenza motoria con diversamente abili.",
+      "target": "Liceo Scientifico con ampliamento sportivo"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Controllo e gestione classi scuola infanzia/primaria.",
+      "target": "Liceo Scientifico con ampliamento sportivo"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per definizione PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Attività progetto Cittadinanza",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno insegnamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Partecipazione bandi regionali/europei",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Open Space condivisione",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Aula studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano annuale inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "P.A.I.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri scuole medie",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AG1AB7500R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia L'Orsetto** (ID: AG1AB7500R), un istituto **paritario** situato nel comune di **Canicatti'** (Agrigento), in **Sicilia**. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la coerenza, l'efficacia potenziale e le aree di miglioramento. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio complessivo di 3. Le **partnership** attivate sono numerose, ben 18, e comprendono **Enti Locali**, **Università**, ma anche realtà come **Mater Academy**, **Museo di Storia Naturale di Verona** e diverse aziende. L'attenzione alle finalità dell'orientamento, quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative, è valutata positivamente con un punteggio di 4 per ciascuna area.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, un elemento cruciale per la sua integrazione nel curriculum scolastico.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di **partnership** con enti, università, musei e aziende, creando un network solido per l'arricchimento dell'offerta formativa e l'orientamento degli studenti. Tra i partner figurano **FAI**, **IMG Cinema**, **Università Ca’ Foscari di Venezia** e numerose altre realtà del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le loro **transizioni formative** e fornendo loro le **capacità orientative** necessarie per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori** e al **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione volta a creare un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive** (particolarmente apprezzate con un punteggio di 5), **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua attenzione all'orientamento, supportata da una sezione dedicata, finalità chiare e un'ampia rete di **partnership**. L'impegno verso l'inclusione, evidenziato dall'azione di sistema integrato, rappresenta un ulteriore elemento positivo. L'offerta di attività opzionali, in particolare quelle **laboratoriali ed espressive** e **sportive**, amplia le opportunità formative per gli studenti. L'attività di **Certificazione competenze** è un'iniziativa importante per valorizzare le capacità degli studenti.\n\n### 4. Aree di Debolezza\n\nNonostante i punti di forza, il PTOF presenta alcune aree di debolezza. Gli obiettivi di riduzione dell'**abbandono** e contrasto ai **NEET** ricevono un punteggio inferiore rispetto agli altri, suggerendo la necessità di definire strategie più mirate. Le attività opzionali **ludiche e ricreative** e di **volontariato** potrebbero essere potenziate per offrire una gamma più completa di opportunità agli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di riduzione dell'abbandono e contrasto ai NEET in azioni concrete e misurabili. È inoltre auspicabile un maggiore coinvolgimento dei genitori nelle attività di orientamento e un potenziamento delle attività opzionali meno sviluppate.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia L'Orsetto** dimostra un impegno significativo verso l'orientamento e l'offerta di un'istruzione di qualità. La ricchezza delle **partnership** e la varietà delle attività proposte rappresentano un valore aggiunto per gli studenti. Concentrando gli sforzi sulle aree di debolezza individuate, la scuola potrà ulteriormente migliorare la sua offerta formativa e garantire un futuro di successo per i suoi alunni. L'attività di **Rete collaborazione scuole/territorio** è un elemento chiave per il successo del PTOF."
+}

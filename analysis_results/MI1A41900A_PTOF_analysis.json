@@ -1,0 +1,177 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MI1A41900A",
+    "denominazione": "Scuola Dell'Infanzia Suor Rufina Parrocchiale Paritaria",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Masate",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Roma21",
+    "cap": "20060",
+    "email": "nicole.matteoni@comune.trireste.it",
+    "pec": "ND",
+    "website": "www.comune.trieste.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in relazione alla transizione verso la scuola primaria, ma in modo generico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "Goethe-Zentrum Triest",
+        "Federazione Italiana Nuoto – Centro Federale di Trieste",
+        "Slowfood",
+        "SCI CLUB 70",
+        "Azienda per i Servizi Sanitari"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_progetto_vita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "preparazione alla scuola primaria",
+        "evidence_location": "Pagina 1"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini di tutte le Scuole dell’Infanzia cittadine",
+      "5w_cosa": "Promozione della lettura",
+      "5w_dove": "Scuole dell'infanzia e Biblioteche Civiche",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Potenziare il livello culturale e formativo dei bambini",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvicinamento al canto e alla musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività musicali in collaborazione con realtà cittadine.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Attività musicali",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Sviluppare la sensibilità musicale",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di avvicinamento al canto e alla musica",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Introduzione alla lingua e cultura tedesca",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Approccio ludico alla lingua e cultura tedesca in collaborazione con il Goethe-Zentrum Triest.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Apprendimento della lingua e cultura tedesca",
+      "5w_dove": "Scuole dell'infanzia",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Avvicinare i bambini alla cultura tedesca",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "Introduzione alla lingua e alla cultura dei paesi di lingua tedesca",
+      "evidence_location": "Pagina 5"
+    }
+  ],
+  "narrative": "## Analisi del PTOF Scuole dell’infanzia del Comune di Trieste\n\n### 1. Sintesi Generale\nIl PTOF delle Scuole dell’infanzia del Comune di Trieste delinea un'offerta educativa solida, focalizzata su benessere, inclusione e sviluppo delle competenze di base. Tuttavia, l'orientamento in uscita, inteso come preparazione alla transizione verso la scuola primaria e alla consapevolezza delle proprie attitudini, risulta un aspetto marginale. Sebbene presente nelle finalità generali, manca una strategia strutturata e coerente per supportare questo processo.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione specifica dedicata all'orientamento evidenzia una limitata attenzione a questo aspetto cruciale del percorso educativo. Le menzioni relative alla transizione verso la scuola primaria sono generiche e prive di dettagli attuativi.\n\n#### 2.2 Partnership e Reti\nIl PTOF valorizza le partnership con enti territoriali quali Biblioteche Civiche, Teatro Stabile del Friuli Venezia Giulia e Goethe-Zentrum Triest, ampliando l'offerta formativa. Tuttavia, queste collaborazioni non sono esplicitamente orientate a supportare l'orientamento in uscita.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità del PTOF, incentrate sullo sviluppo dell'identità, dell'autonomia e delle competenze, possono indirettamente contribuire all'orientamento. L'obiettivo del lifelong learning è presente, ma necessita di essere concretizzato attraverso azioni specifiche di orientamento.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di coordinamento tra servizi educativi e il dialogo tra docenti e genitori favoriscono la coerenza del progetto educativo, ma non garantiscono un orientamento efficace.\n\n#### 2.5 Didattica Orientativa\nLa didattica laboratoriale e i progetti proposti stimolano la creatività e l'esplorazione, contribuendo allo sviluppo delle competenze e degli interessi dei bambini. Tuttavia, manca un collegamento esplicito con la consapevolezza delle proprie attitudini e la scelta del percorso scolastico futuro.\n\n#### 2.6 Opportunità Formative\nLe attività opzionali, come corsi di musica, teatro e sport, arricchiscono l'esperienza educativa e aiutano i bambini a scoprire i propri talenti, ma non sono integrate in un quadro più ampio di orientamento.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Diffusione della pratica della lettura\nProgetto volto a promuovere la lettura tra bambini e famiglie, in collaborazione con le Biblioteche Civiche, con l'obiettivo di potenziare il livello culturale e formativo.\n\n#### 2.7.2 Percorsi di avvicinamento al canto e alla musica\nAttività musicali in collaborazione con realtà cittadine, finalizzate a sviluppare la sensibilità musicale dei bambini.\n\n#### 2.7.3 Introduzione alla lingua e cultura tedesca\nProgetto che introduce i bambini alla lingua e cultura tedesca attraverso un approccio ludico, in collaborazione con il Goethe-Zentrum Triest.\n\n### 3. Punti di Forza\nIl PTOF si distingue per un'offerta educativa ricca e diversificata, supportata da preziose partnership con enti del territorio.\n\n### 4. Aree di Debolezza\nLa principale criticità risiede nella mancanza di una sezione dedicata all'orientamento e di una strategia coerente per supportare la transizione dei bambini verso la scuola primaria.\n\n### 5. Gap Analysis\nÈ necessario colmare il divario tra le finalità generali del PTOF e la loro concreta applicazione in termini di orientamento. Si richiede la definizione di obiettivi specifici, la progettazione di attività mirate e il monitoraggio dei risultati.\n\n### 6. Conclusioni\nIl PTOF delle Scuole dell’infanzia del Comune di Trieste è un documento valido, ma necessita di un maggiore focus sull'orientamento in uscita. Integrare l'orientamento nelle finalità generali, definire obiettivi specifici e progettare attività mirate sono passi fondamentali per supportare la transizione dei bambini verso la scuola primaria e la consapevolezza delle proprie attitudini."
+}

@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMPL135004",
+    "denominazione": "Liceo Linguistico Maestre Pie Filippini",
+    "tipo_scuola": "I Grado, Infanzia, Liceo, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Frascati",
+    "anno_ptof": "2022/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Minardi 12",
+    "cap": "00044",
+    "email": "mpffrascati@libero.it",
+    "pec": "mpffrascati@legalmail.it",
+    "website": "http//www.maestrepiefilippinifrascati.i"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Associazione La Nostra Comunità",
+        "Associazione L'immagine",
+        "Federazione Opere Educative",
+        "Colegio J. H. Newman",
+        "università",
+        "Agenzie specializzate (YouAbroad o Studytour)",
+        "Liceo Charles Peguy di Nantes",
+        "IELA di Dublino"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi PCTO con aziende del territorio",
+      "target": "Studenti Liceo"
+    },
+    {
+      "titolo_attivita": "Progetti di mobilità internazionale",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi e collaborazioni con scuole estere",
+      "target": "Studenti Liceo"
+    },
+    {
+      "titolo_attivita": "Scambi e stage linguistici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage in paesi anglofoni, scambio con Colegio J. H. Newman di Madrid, esperienze in Francia/Germania",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Moduli di discipline non linguistiche in lingua straniera (storia, scienze)",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistico in un paese anglofono",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage di prima anno",
+      "target": "Studenti prima"
+    },
+    {
+      "titolo_attivita": "Scambio con Colegio Internacional J. H. Newman",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Scambio di due settimane",
+      "target": "Studenti secondo anno"
+    },
+    {
+      "titolo_attivita": "Stage linguistico in Francia o Germania",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage di terza anno",
+      "target": "Studenti terzo anno"
+    },
+    {
+      "titolo_attivita": "Progetti Erasmus+",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Mobilità studenti e docenti",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Periodo di studio all'estero",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Trimestre/semestre/anno scolastico",
+      "target": "Studenti quarto anno"
+    },
+    {
+      "titolo_attivita": "Accoglienza studenti Colegio Newman",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Ospitalità studenti spagnoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche, viaggi di istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Supporto allo studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di lingua e cultura cinese",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso pomeridiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso pomeridiano",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMPL135004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Linguistico Maestre Pie Filippini** di Frascati, relativo all'anno scolastico 2022/2025. La scuola, di ordine II grado e paritaria, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'istituto si colloca in un contesto territoriale metropolitano della regione Lazio, con un focus sull'internazionalizzazione e sulla preparazione degli studenti alle transizioni formative e al mondo del lavoro.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, un elemento cruciale per la pianificazione strategica dell'istituto.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ben consolidato, comprendendo **Associazione La Nostra Comunità**, **Associazione L'immagine**, **Federazione Opere Educative**, **Colegio J. H. Newman**, diverse **università**, **Agenzie specializzate** (come YouAbroad o Studytour), il **Liceo Charles Peguy di Nantes** e l'**IELA di Dublino**. Questo ampio ventaglio di collaborazioni, pari a 8 partner, suggerisce un approccio proattivo nella creazione di opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** necessarie per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico, il rafforzamento del legame con il **territorio**, il contrasto alla dispersione dei **NEET** e la promozione del **lifelong learning**. Sebbene alcuni obiettivi presentino un punteggio inferiore rispetto ad altri, l'istituto dimostra una consapevolezza delle sfide e delle opportunità presenti nel contesto socio-economico.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul **rapporto scuola-genitori**, sul **monitoraggio delle azioni** e sulla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento attraverso l'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali** e **laboratoriali espressive** ben strutturate, mentre le attività **ludiche-ricreative**, di **volontariato** e **sportive** ricevono un'attenzione minore.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in tutte le dimensioni della vita scolastica. La presenza di una sezione dedicata, un solido network di **partnership** e una chiara definizione delle finalità e degli obiettivi testimoniano un impegno concreto verso la crescita personale e professionale degli studenti. Le attività pratiche, come i percorsi **PCTO** e i progetti di **mobilità internazionale**, offrono agli studenti opportunità concrete di esplorare i propri interessi e di acquisire competenze utili per il futuro.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, il PTOF presenta alcune aree di debolezza. Gli obiettivi di riduzione dell'**abbandono** e di contrasto ai **NEET** ricevono un punteggio inferiore rispetto agli altri, suggerendo la necessità di rafforzare le strategie di prevenzione e di intervento precoce. Inoltre, l'offerta di attività **ludiche-ricreative**, di **volontariato** e **sportive** potrebbe essere ampliata per garantire una formazione più completa e equilibrata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi ambiziosi del PTOF in azioni concrete e misurabili. È fondamentale definire indicatori di performance specifici per monitorare l'efficacia delle iniziative di orientamento e per valutare l'impatto sulle scelte formative e professionali degli studenti. Inoltre, è importante rafforzare la collaborazione con il **territorio** e con il mondo del lavoro per garantire che l'offerta formativa sia in linea con le esigenze del mercato.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Linguistico Maestre Pie Filippini** presenta un approccio all'orientamento ben strutturato e coerente con le finalità dell'istituto. La scuola dimostra un impegno significativo verso la crescita personale e professionale degli studenti, offrendo loro un'ampia gamma di opportunità formative e di esperienze pratiche. Pur riconoscendo alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per la pianificazione strategica dell'orientamento e per la realizzazione di un futuro migliore per gli studenti."
+}

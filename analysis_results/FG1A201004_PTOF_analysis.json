@@ -1,0 +1,256 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FG1A201004",
+    "denominazione": "Centro Artistico Per L'Infanzia",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Orta Nova",
+    "anno_ptof": "2016-2019",
+    "provincia": "Foggia",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Iv Novembre 21",
+    "cap": "71045",
+    "email": "centroartistico@alice.it",
+    "pec": "ND",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "orientamento universitario",
+        "Università Ca’ Foscari di Venezia",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "Biblioteca Nazionale Marciana",
+        "Venezia News",
+        "IMG Cinema",
+        "France Théâtre",
+        "Studio Quotazero",
+        "Veneziacomix",
+        "ASL",
+        "Comune",
+        "Musei",
+        "Aziende"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazione competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti di osservazione e certificazione",
+      "target": "Tutti gli allievi"
+    },
+    {
+      "titolo_attivita": "Stili di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro sugli stili di apprendimento",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Intelligenze multiple",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica ispirata alla teoria",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Book club",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineclub",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione contenuti sito web",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Recitazione in francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di conversazione in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Esercitazioni guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad/Interior Design",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Progettazione e arredamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fotografia",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Tecniche fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fumetto",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Disegno e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di strumento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Lezioni individuali/gruppo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "ASL",
+      "descrizione_e_metodologia": "Inserimento nelle aziende, tutor scolastico e aziendale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Presentazione di sé: stesura cv",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stesura e revisione in classe",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione dei rischi",
+      "categoria_principale": "ASL",
+      "descrizione_e_metodologia": "Compilazione da parte del Tutor aziendale",
+      "target": "Tutor aziendale"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per la definizione dei PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Attivazione convenzioni ASL",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Convenzioni con aziende, enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Cittadinanza e Costituzione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno dell'insegnamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a bandi",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Selezione e partecipazione a bandi",
+      "target": "Scuola"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FG1A201004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Centro Artistico Per L'Infanzia** (scuola dell'infanzia, codice FG1A201004), relativo al triennio 2016-2019. L'istituto, paritario, situato nel territorio non metropolitano di **Orta Nova** (Foggia, Puglia), dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. Il PTOF si concentra sullo sviluppo delle attitudini, degli interessi e sulla progettazione del futuro degli studenti, con un'enfasi sulle transizioni formative e sullo sviluppo delle capacità orientative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, un aspetto considerato positivo.\n\n**2.2 Partnership:** Un punto di forza del PTOF è la vasta rete di **partnership** attivate, che include **Enti Locali**, **realtà produttiva del territorio**, istituzioni per l'**orientamento universitario**, l'**Università Ca’ Foscari di Venezia**, **Mater Academy**, **Museo di Storia Naturale di Verona**, **Croce Verde di Mestre**, **FAI**, **Biblioteca Nazionale Marciana**, **Venezia News**, **IMG Cinema**, **France Théâtre**, **Studio Quotazero**, **Veneziacomix**, **ASL**, **Comune**, **Musei** e **Aziende**. La scuola vanta ben 15 partner, dimostrando un forte impegno nel creare connessioni con il mondo esterno.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, la capacità di **progetto di vita** e a facilitare le **transizioni formative**, fornendo agli studenti le **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la promozione della continuità territoriale e lo sviluppo del **lifelong learning**. L'obiettivo di contrastare il fenomeno dei **NEET** risulta meno prioritario.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. Particolare attenzione è rivolta all'implementazione di un sistema integrato di inclusione e gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle finalità e nella varietà delle attività proposte. L'impegno nella didattica orientativa, basata sull'esperienza e sulla flessibilità, e l'offerta di opzionali diversificate rappresentano ulteriori elementi positivi. Le attività registrate, come la **Certificazione competenze** e i progetti di **Alternanza Scuola Lavoro**, dimostrano un approccio pratico e orientato al mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nAlcune aree del PTOF potrebbero essere ulteriormente rafforzate. L'obiettivo di contrastare il fenomeno dei **NEET** e lo sviluppo del **lifelong learning** ricevono un punteggio inferiore rispetto agli altri obiettivi, suggerendo la necessità di una maggiore attenzione a questi aspetti. Anche la didattica **laboratoriale** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di integrazione tra le diverse dimensioni dell'orientamento. Tuttavia, si potrebbe lavorare per rafforzare il collegamento tra le attività di orientamento e le esigenze del territorio, con particolare attenzione alle figure professionali più richieste. Un maggiore coinvolgimento delle famiglie nelle attività di orientamento potrebbe contribuire a migliorare l'efficacia del PTOF.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Centro Artistico Per L'Infanzia** si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del processo educativo. La vasta rete di **partnership**, la chiarezza delle finalità e la varietà delle attività proposte rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra un forte impegno nel fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire il proprio **progetto di vita**."
+}

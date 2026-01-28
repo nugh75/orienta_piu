@@ -1,0 +1,175 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOPC10500T",
+    "denominazione": "\"Maurilio Fossati\"",
+    "tipo_scuola": "I Grado, Liceo, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Rivoli",
+    "anno_ptof": "Non specificato",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Corso Francia 15",
+    "cap": "10098",
+    "email": "rivoli@murialdo.it",
+    "pec": "segreteriadidattica.sangiusepperivoli@pec.it",
+    "website": "www.sangiusepperivoli.org"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "L'orientamento è menzionato all'interno della sezione 'Progettazione curricolare ed educativa' (2.3) ma non dispone di un capitolo dedicato."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Comune di Rivoli",
+        "Informagiovani",
+        "Facoltà universitarie",
+        "AIESEC",
+        "Politecnico di Torino"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "attenzione alla globalità della persona",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "attenzione alle possibili capacità del singolo",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "preparazione al proprio futuro",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_transizioni_formative": {
+        "score": 5,
+        "evidence_quote": "preparazione al proprio futuro, inserimento nella scuola superiore o nel mondo universitario",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "monitoraggio dei risultati a distanza degli studenti in uscita",
+        "evidence_location": "Pagina 7"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Metti in moto il metodo",
+      "categoria_principale": "Supporto metodologico",
+      "descrizione_e_metodologia": "Attività di verifica delle competenze metodologiche e di studio",
+      "5w_chi": "Tutti gli studenti del biennio",
+      "5w_cosa": "Verifica delle competenze metodologiche",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Migliorare le competenze di studio",
+      "ore_dichiarate": "ND",
+      "target": "Biennio",
+      "evidence_quote": "Attività di verifica delle competenze metodologiche e di studio",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Verifica le tue competenze",
+      "categoria_principale": "Autovalutazione",
+      "descrizione_e_metodologia": "Lettura del certificato di competenze e piano di auto-valutazione",
+      "5w_chi": "Studenti delle classi terze",
+      "5w_cosa": "Autovalutazione delle competenze",
+      "5w_dove": "Scuola",
+      "5w_quando": "Durante l'anno scolastico",
+      "5w_perche": "Orientamento alla scuola superiore",
+      "ore_dichiarate": "ND",
+      "target": "Classe terza",
+      "evidence_quote": "Dalla lettura del certificato di competenze al piano di auto-valutazione",
+      "evidence_location": "Pagina 2"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodo di stage in aziende o professionisti",
+      "5w_chi": "Studenti delle classi terze e quarte",
+      "5w_cosa": "Esperienza lavorativa",
+      "5w_dove": "Aziende, professionisti",
+      "5w_quando": "Periodo scolastico ed estivo",
+      "5w_perche": "Orientamento al mondo del lavoro",
+      "ore_dichiarate": "Variabile",
+      "target": "Classi terze e quarte",
+      "evidence_quote": "Periodo di stage gestito attraverso convenzioni",
+      "evidence_location": "Pagina 2"
+    }
+  ],
+  "narrative": "Il PTOF del Liceo Ginnasio - Classico - Scientifico “Maurilio Fossati” presenta un orientamento in uscita che, pur non essendo un elemento centrale del documento, è presente e strutturato. La mancanza di una sezione dedicata rappresenta una prima criticità. Le **partnership** con il Comune di Rivoli, l’Informagiovani, le facoltà universitarie, AIESEC e il Politecnico di Torino offrono opportunità di contatto con il territorio e possibili percorsi formativi. Le **finalità** dell'orientamento sono orientate alla crescita personale, alla preparazione al futuro e alla transizione formativa, con una particolare attenzione alla preparazione al mondo universitario. Tuttavia, si rileva una minore enfasi sullo sviluppo di competenze trasversali utili per l'inserimento nel mondo del lavoro e sulla prevenzione della dispersione scolastica. Le **azioni** di sistema sono delineate, ma la loro implementazione e coordinamento appaiono poco chiari. La **didattica orientativa** si concentra prevalentemente su attività di informazione, autovalutazione e laboratoriali, con una limitata integrazione dell'orientamento all'interno delle discipline curricolari. Le **attività** registrate, come “Metti in moto il metodo”, “Verifica le tue competenze” e l'alternanza scuola-lavoro, sono concrete e ben definite, ma l'offerta formativa potrebbe essere ampliata e diversificata per rispondere in modo più completo alle esigenze degli studenti. Infine, si segnala la presenza di un'attività di \"Scuola in Ospedale\" (pagina 12 del PTOF) che non è stata inclusa nell'analisi. In sintesi, l'orientamento nel PTOF è un'area in fase di sviluppo, con un buon potenziale, ma che necessita di maggiore integrazione, sistematicità e una più chiara definizione delle azioni per raggiungere livelli di eccellenza."
+}

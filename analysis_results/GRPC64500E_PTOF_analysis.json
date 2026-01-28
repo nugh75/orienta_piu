@@ -1,0 +1,210 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GRPC64500E",
+    "denominazione": "Liceo Classico Paritario - G.Chelli - Grosseto",
+    "tipo_scuola": "I Grado, Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Grosseto",
+    "anno_ptof": "2019-2021",
+    "provincia": "Grosseto",
+    "regione": "Toscana",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Ferrucci 11",
+    "cap": "58100",
+    "email": "liceoclassico@fondazionechelli.org",
+    "pec": "gris00400r@pec.istruzione.it",
+    "website": "www.fondazionechelli.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Esplicita attenzione all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Università",
+        "ASL",
+        "Diocesi Di Grosseto",
+        "Associazione Tartamare",
+        "Università Di Siena",
+        "Scuole Medie Della Citta'",
+        "Parco Della Maremma",
+        "Fondazione Il Sole",
+        "Associazione Culturale Progetto Archeologico Alberese",
+        "Camera di commercio",
+        "associazioni culturali",
+        "associazioni del terzo settore",
+        "biblioteche",
+        "musei"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Valutazione competenze trasversali con tutor aziendale e scolastico",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Percorsi di Curvatura Biomedica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni teoriche, magistrali, esperienze sul campo",
+      "target": "Studenti interessati al settore biomedico"
+    },
+    {
+      "titolo_attivita": "Progetto Atene",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con esperti",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Blog Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione di un blog informativo",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage presso aziende e enti",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Viaggi D’Istruzione",
+      "categoria_principale": "Visite Guidate",
+      "descrizione_e_metodologia": "Visite guidate e viaggi di istruzione per approfondimento disciplinare.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Sportello Didattico",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto individuale allo studio con prenotazione online.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Peer Education Aid",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto tra pari da studenti tutor.",
+      "target": "Alunni del biennio"
+    },
+    {
+      "titolo_attivita": "Accoglienza studenti stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Svolta da docenti curricolari e di sostegno",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Utilizzo G-Suite, attività sincrone/asincrone",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi PCTO (ex Alternanza Scuola Lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Apprendimento flessibile, esperienza pratica, acquisizione competenze trasversali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi sulla sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione preliminare sulla sicurezza nei luoghi di lavoro (4-12 ore).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso didattico per la scuola secondaria di secondo grado incentrato su Costituzione, sviluppo sostenibile e cittadinanza digitale.",
+      "target": "Classi prime, seconde, terze, quarte e quinte"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GRPC64500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Classico Paritario - G.Chelli - Grosseto** (GRPC64500E) per il triennio 2019-2021. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF dimostra una chiara attenzione all'orientamento, come confermato dal punteggio di 7 attribuito alla presenza di una sezione dedicata. L'istituto si impegna a sviluppare le attitudini, gli interessi, il progetto di vita, le transizioni formative e le capacità orientative degli studenti, con un approccio che mira a ridurre l'abbandono scolastico, favorire la continuità territoriale, contrastare il fenomeno NEET e promuovere il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione esplicita e ben definita dedicata all'orientamento, ottenendo un punteggio elevato.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership con diversi soggetti esterni, tra cui **Università**, **ASL**, **Diocesi Di Grosseto**, **Associazione Tartamare**, **Università Di Siena**, **Scuole Medie Della Citta'**, **Parco Della Maremma**, **Fondazione Il Sole**, **Associazione Culturale Progetto Archeologico Alberese**, **Camera di commercio**, **associazioni culturali**, **associazioni del terzo settore**, **biblioteche** e **musei**. Questo network di collaborazioni, composto da 14 partner, rappresenta una risorsa significativa per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative degli studenti, tutte aree valutate con un punteggio di 5.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto al fenomeno NEET e sulla promozione del lifelong learning, con un punteggio di 5 per ciascuna area.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni di coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e un sistema integrato di inclusione e fragilità, tutte valutate positivamente con un punteggio di 5.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si avvale di approcci basati sull'esperienza degli studenti, flessibilità degli spazi e dei tempi, e interdisciplinarità. L'utilizzo della didattica laboratoriale risulta meno sviluppato, con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata e comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte valutate con un punteggio di 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte attenzione dedicata all'orientamento, supportata da una sezione specifica, un ampio network di partnership e finalità e obiettivi ben definiti. L'istituto si impegna a creare un sistema di orientamento integrato, che coinvolge docenti, studenti, genitori e partner esterni. Le attività proposte, come **Alternanza Scuola Lavoro**, **Percorsi di Curvatura Biomedica**, **Progetto Atene**, **Progetto Blog Orientamento** e **PCTO**, dimostrano un approccio proattivo e orientato alla pratica.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella didattica laboratoriale, che risulta meno sviluppata rispetto ad altri approcci didattici. Sebbene l'istituto offra un'ampia gamma di opzionali, sarebbe auspicabile un ulteriore potenziamento delle attività pratiche e laboratoriali per favorire l'apprendimento esperienziale.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, potrebbe essere utile approfondire l'analisi dei risultati delle attività di orientamento, attraverso il monitoraggio e la valutazione degli esiti in termini di riduzione dell'abbandono scolastico, inserimento nel mondo del lavoro e proseguimento degli studi. Inoltre, sarebbe opportuno definire indicatori specifici per misurare l'efficacia delle partnership e l'impatto delle attività di orientamento sulla crescita personale e professionale degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Classico Paritario - G.Chelli - Grosseto** presenta un solido impianto teorico e pratico in materia di orientamento. L'istituto dimostra una chiara volontà di supportare gli studenti nel loro percorso di crescita, offrendo un'ampia gamma di opportunità formative e un sistema di orientamento integrato. Il potenziamento della didattica laboratoriale e l'implementazione di un sistema di monitoraggio e valutazione dei risultati potrebbero contribuire a migliorare ulteriormente l'efficacia delle attività di orientamento e a raggiungere gli obiettivi prefissati."
+}

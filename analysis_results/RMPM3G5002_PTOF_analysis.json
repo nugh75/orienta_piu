@@ -1,0 +1,242 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMPM3G5002",
+    "denominazione": "San Benedetto",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Pomezia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Costarica 14",
+    "cap": "00071",
+    "email": "ND",
+    "pec": "isb_srl@legalmail.it",
+    "website": "www.istitutosanbenedettopomezia.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente sezione dedicata all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "SCUOLE IN RETE",
+        "MIUR",
+        "AGENZIE ACCREDITATE",
+        "UNIVERSITA' DI SALERNO",
+        "POLO QUALITA' DI NAPOLI",
+        "Enti locali",
+        "Servizi sociali",
+        "associazioni",
+        "enti territoriali",
+        "altre scuole"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Formazione del personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Partecipazione ad iniziative di formazione, ricerca, sperimentazione, condivisione conoscenze.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti di formazione finanziati con fondi europei",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Partecipazione a iniziative progettuali finanziate con fondi europei.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incontri informativi sul Programma triennale e sulle iniziative per la trasparenza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri rivolti a tutto il personale per acquisire consapevolezza sulle novità introdotte.",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Questionari di gradimento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionari rivolti ai genitori per esprimere il gradimento verso le iniziative.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Implementazione servizi interattivi",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Semplificare e rendere più celere la comunicazione tra cittadini e scuola.",
+      "target": "Utenza"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività di accoglienza per nuovi iscritti e alunni con BES",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e attuazione di PEI per alunni con disabilità",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Sviluppo di tematiche interdisciplinari per il raggiungimento delle competenze chiave europee.",
+      "target": "Tutti i gradi scolastici"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di Educazione Alimentare",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Economica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Workshop e seminari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Marcianisiadi “D.D.1 Cavour”",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Promozione attività motoria, sportiva e inclusione sociale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sport Di Classe",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Due ore settimanali di Educazione Fisica per tutte le classi primarie.",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con forum di analisi e riflessione critica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Teatrali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Drammatizzazione e manifestazioni pubbliche con esperti esterni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Musicale",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Allestimento coro d'Istituto e attività musicali strumentali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esami di Certificazione Lingue Straniere",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Preparazione per certificazioni Inglese, Francese e Spagnolo.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Attività di Approfondimento Lingua Inglese",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Rappresentazioni teatrali, progetti CLIL, e-twinning.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Scuola Aperta al Territorio",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Convegni, progetti benessere psicologico, family day.",
+      "target": "Comunità scolastica e territorio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMPM3G5002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto San Benedetto, codice RMPM3G5002, relativo al periodo 2022-2025. La scuola, situata nel comune di Pomezia, in provincia di Roma e regione Lazio, è un istituto paritario che offre istruzione di I e II grado, infanzia e primaria. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutandone la presenza, la coerenza e l'efficacia delle azioni previste. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia gamma di attività volte a supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'inclusione, ottenendo un punteggio di 3, indicando una buona attenzione a questo aspetto cruciale dell'orientamento.\n\n**2.2 Partnership:** L'istituto San Benedetto vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **SCUOLE IN RETE**, il **MIUR**, **AGENZIE ACCREDITATE**, l'**UNIVERSITA' DI SALERNO**, il **POLO QUALITA' DI NAPOLI**, **enti locali**, **servizi sociali**, **associazioni**, **enti territoriali** e altre scuole, per un totale di 10 collaborazioni. Questa rete di contatti rappresenta una risorsa preziosa per l'implementazione di attività di orientamento efficaci e mirate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi massimi (5) per tutte le aree considerate: sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità di cogliere le opportunità. Questo dimostra una visione olistica dell'orientamento, che mira a supportare lo sviluppo integrale dello studente.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning, ottenendo un punteggio di 4 per ciascuna area.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, con punteggi elevati (5) per il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il sistema integrato di inclusione e fragilità. Il monitoraggio delle azioni, pur ottenendo un punteggio di 4, rappresenta un aspetto importante per garantire l'efficacia delle iniziative.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi e partecipativi, con punteggi massimi (5) per l'utilizzo dell'esperienza degli studenti, la didattica laboratoriale, la flessibilità degli spazi e dei tempi e l'interdisciplinarità.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi di 4 per le opzionali culturali, laboratoriali ed espressive, e sportive. Le opzionali ludiche e di volontariato, con punteggio 3, potrebbero essere ulteriormente potenziate.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata all'inclusione, la solida rete di partnership, la chiarezza delle finalità e degli obiettivi, l'efficacia delle azioni di sistema e l'innovatività della didattica orientativa. L'impegno verso l'inclusione, evidenziato dal **Progetto accoglienza** e dall'elaborazione del **Piano Educativo Individualizzato (PEI)**, rappresenta un valore aggiunto significativo. L'offerta di attività diversificate, come **visite guidate**, **progetti di educazione alimentare**, **cittadinanza economica**, **Marcianisiadi “D.D.1 Cavour”**, **Progetto Sport Di Classe**, **Cineforum**, **Attività Teatrali**, **Attività Musicale**, **Esami di Certificazione Lingue Straniere**, **Attività di Approfondimento Lingua Inglese** e **Scuola Aperta al Territorio**, contribuisce a creare un ambiente scolastico stimolante e orientato allo sviluppo integrale dello studente.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF sono rappresentate dalla necessità di potenziare le opzionali ludiche e di volontariato, e di rafforzare il monitoraggio delle azioni previste.\n\n### 5. Gap Analysis\n\nIl PTOF presenta un buon livello di coerenza tra finalità, obiettivi e azioni previste. Tuttavia, è necessario monitorare costantemente l'efficacia delle iniziative e apportare eventuali correzioni in base ai risultati ottenuti. Un'ulteriore attenzione potrebbe essere rivolta alla promozione di attività di orientamento specifiche per gli studenti con bisogni educativi speciali.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto San Benedetto dimostra un forte impegno verso l'orientamento, con una visione chiara e una strategia ben definita. La solida rete di partnership, l'efficacia delle azioni di sistema e l'innovatività della didattica orientativa rappresentano punti di forza significativi. Pur necessitando di alcuni miglioramenti, il PTOF si presenta come uno strumento valido per supportare gli studenti nelle loro scelte formative e professionali e per promuovere il loro sviluppo integrale. La **Formazione del personale docente** e la partecipazione a **Progetti di formazione finanziati con fondi europei**, insieme agli **Incontri informativi sul Programma triennale e sulle iniziative per la trasparenza**, sono elementi chiave per il successo del PTOF. L'utilizzo di **Questionari di gradimento** e l'**Implementazione servizi interattivi** contribuiscono a migliorare la comunicazione e la valutazione delle iniziative."
+}

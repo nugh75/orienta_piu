@@ -1,0 +1,306 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "KR1A01800L",
+    "denominazione": "Associazione Arcobaleno Scuola Materna Onlus",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Roccabernarda",
+    "anno_ptof": "2022-2025",
+    "provincia": "Crotone",
+    "regione": "Calabria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Trieste54",
+    "cap": "88835",
+    "email": "arcobalenov@libero.it",
+    "pec": "ND",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene siano presenti attività riconducibili all'orientamento, manca una sezione dedicata e strutturata con questo titolo. Le iniziative sono disperse in diverse aree del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "associazioni sportive",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "case farmaceutiche",
+        "Monsanto",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO - formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione obbligatoria sicurezza lavoratori",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Corsi di pronto soccorso",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Corsi sull'uso del DAE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Attività di volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "visite aziendali",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "visite guidate presso aziende del territorio",
+      "target": "studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "incontri con professionisti",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "testimonianze di professionisti",
+      "target": "studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Sostegno e potenziamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività in orario curricolare/extracurricolare",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Valorizzazione delle eccellenze",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività in orario curricolare/extracurricolare",
+      "target": "Studenti con eccellenze"
+    },
+    {
+      "titolo_attivita": "Accoglienza e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto per la scelta dei percorsi",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Sportello Help",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto individuale su richiesta",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Tutoraggio",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto individuale/gruppi su richiesta",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Compiti a scuola",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto pomeridiano con peer education",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Scuola in Ospedale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto educativo a studenti ricoverati",
+      "target": "Studenti ricoverati"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto educativo a domicilio",
+      "target": "Studenti con patologie"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione in collaborazione con UMI e Scuola Normale Superiore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di informatica con AIICA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale e preparazione con AIF",
+      "target": "Classi 3, 4, 5"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Organizzati da SCI, problem solving",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione test accesso università",
+      "target": "Classi 4 e 5"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di preparazione al test di ammissione alle facoltà universitarie dell’area biosanitaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi di potenziamento in Chimica e Biologia",
+      "target": "Classi 4 e 5"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso Enti, Associazioni e Aziende del territorio. Durata circa 60 ore. Valutazione tramite tutor aziendale e scolastico.",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Questionario di valutazione (Customer Satisfaction)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Compilazione da parte dello studente al termine dello stage.",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti I e II grado",
+      "categoria_principale": "Continuita'",
+      "descrizione_e_metodologia": "Scambio proficuo tra docenti su curricolo, competenze, contenuti e metodologie.",
+      "target": "Docenti Matematica e Scienze"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Somministrazione prove in Matematica e Scienze per individuare difficoltà.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Attuazione precoce moduli su metodo di studio e competenze di base.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Aumento LIM e laboratori, formazione ICT.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF KR1A01800L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Associazione Arcobaleno Scuola Materna Onlus, codice scuola KR1A01800L, per il triennio 2022-2025. L'istituto, di tipo Infanzia e situato nel territorio non metropolitano della Calabria, dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata e strutturata. L'analisi evidenzia un buon livello di attività e partnership, con punteggi generalmente alti nelle finalità e nella didattica orientativa, ma con margini di miglioramento nell'organizzazione sistemica e nella riduzione dell'abbandono scolastico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non presenta una sezione esplicitamente dedicata all'orientamento, nonostante la presenza di numerose attività riconducibili a questo ambito. Queste iniziative risultano disperse all'interno di diverse aree del piano, suggerendo la necessità di una maggiore strutturazione e coerenza.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di **partnership**, con ben 15 collaborazioni attive. Tra i partner figurano **aziende locali**, **enti**, diverse **attività lavorative**, **associazioni sportive**, il **FAI**, **associazioni di volontariato** e del **terzo settore**, **personalità cristiane**, **case farmaceutiche**, **Monsanto**, l'**Università di Firenze**, **associazioni e aziende della provincia di Pistoia**, **EDUSCOPIO** e la **Fondazione Agnelli**. Questa ricchezza di collaborazioni rappresenta un punto di forza significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e raggiungono punteggi elevati in tutte le aree considerate. In particolare, si evidenzia un forte impegno nello sviluppo delle **attitudini** e degli **interessi** degli studenti, nella progettazione del loro **progetto di vita**, nel supporto alle **transizioni formative** e nel potenziamento delle **capacità orientative** per cogliere le **opportunità** offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento presentano una variabilità di punteggi. L'obiettivo di **ridurre l'abbandono** scolastico risulta meno prioritario (punteggio 4), mentre la **continuità territoriale** e il **lifelong learning** ottengono punteggi più alti (6 e 5 rispettivamente). L'obiettivo di **contrastare i NEET** (Not in Education, Employment or Training) è il meno sviluppato (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento mostrano un'efficacia variabile. Il **coordinamento dei servizi** e il **rapporto scuola-genitori** necessitano di maggiore attenzione (punteggio 4), mentre il **dialogo tra docenti e studenti** si presenta come un punto di forza (punteggio 6). Il **monitoraggio delle azioni** e l'implementazione di un **sistema integrato di inclusione e fragilità** presentano margini di miglioramento (punteggio 3 e 4 rispettivamente).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci efficaci, come l'apprendimento **da esperienza** degli studenti (punteggio 6) e l'utilizzo di metodologie **interdisciplinari** (punteggio 5). Tuttavia, l'utilizzo della **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi** necessitano di un ulteriore sviluppo (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e ben strutturata. Le opzionali **culturali** e **laboratoriali espressive** ottengono punteggi elevati (5 e 6), mentre quelle **ludiche ricreative** presentano un punteggio inferiore (3). Le opzionali dedicate al **volontariato** e allo **sport** sono ben integrate nell'offerta formativa (punteggio 5).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la ricchezza delle **partnership** con il territorio, la chiarezza delle **finalità** orientative, l'efficacia della **didattica da esperienza** e la diversificazione dell'offerta di **attività opzionali**. L'istituto dimostra un forte impegno nel coinvolgimento degli studenti in attività pratiche e nel collegamento tra scuola e mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano la mancanza di una sezione dedicata e strutturata all'orientamento, la scarsa attenzione alla riduzione dell'**abbandono** scolastico e la necessità di migliorare il **coordinamento dei servizi** e il **monitoraggio delle azioni**. L'obiettivo di contrastare i **NEET** appare poco sviluppato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare le diverse attività orientative in un sistema coerente e strutturato. È fondamentale definire una sezione specifica del PTOF dedicata all'orientamento, con obiettivi chiari, azioni concrete e indicatori di monitoraggio. Inoltre, è necessario rafforzare le azioni volte a prevenire l'abbandono scolastico e a favorire l'inserimento lavorativo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Associazione Arcobaleno Scuola Materna Onlus presenta un buon potenziale in materia di orientamento. Pur mancando una sezione dedicata, l'istituto dimostra un impegno significativo attraverso una vasta gamma di attività e partnership. Concentrando gli sforzi sulla strutturazione dell'offerta orientativa, sul miglioramento del coordinamento dei servizi e sul potenziamento delle azioni volte a contrastare l'abbandono scolastico, l'istituto potrà massimizzare l'efficacia del proprio PTOF e offrire agli studenti un supporto orientativo completo e di qualità. Le attività registrate, come **PCTO - formazione sicurezza**, **corsi di pronto soccorso**, **sensibilizzazione patrimonio monumentale**, **formazione volontari Special Olympics**, **incontri con ex-studenti**, **CAD – Disegno 3D**, **visite aziendali**, **incontri con professionisti** e le numerose attività di **recupero**, **potenziamento**, **inclusione** e **competizioni**, testimoniano un'offerta ricca e variegata."
+}

@@ -1,0 +1,351 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CA1A13000Q",
+    "denominazione": "Nido D'Infanzia E Scuola Materna Privata \"Qui Quo Qua\"Di Besedgnack Maria Lorede",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Cagliari",
+    "anno_ptof": "2016-2019",
+    "provincia": "Cagliari",
+    "regione": "Sardegna",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Koch 5",
+    "cap": "09121",
+    "email": "emanuelapinna@hotmail.com",
+    "pec": "scuolaquiquoqua@pecdittaindividuale.it",
+    "website": "www.istitutoparini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è presente come attività sparse nel documento, ma non c'è un capitolo specifico intitolato 'Orientamento'."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "ANINSEI",
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "Università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "Biblioteca Nazionale Marciana",
+        "Venezia News",
+        "Studio Quotazero",
+        "Veneziacomix",
+        "Università Ca’ Foscari di Venezia",
+        "Istituto Dante Alighieri di Padova",
+        "G.A. COIN",
+        "ATHLON S",
+        "Venice canoe"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Certificazione competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti di osservazione e certificazione",
+      "target": "Tutti gli allievi"
+    },
+    {
+      "titolo_attivita": "Lavoro sugli stili di apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi terze",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Didattica ispirata alle intelligenze multiple",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Classi quarte",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza",
+      "target": "Secondo biennio"
+    },
+    {
+      "titolo_attivita": "Book club",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Lettura e incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cineclub",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visione film con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione contenuti sito web",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Recitazione in francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di conversazione in francese",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Esercitazioni guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Archicad e Interior Design",
+      "categoria_principale": "Tecnologico",
+      "descrizione_e_metodologia": "Progettazione e arredamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fotografia",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Lezione tecniche fotografiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Fumetto",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Disegno e lettering",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso di strumento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Lezioni individuali e gruppo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all’estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza all’estero per approfondire lingue straniere.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Certificazione",
+      "descrizione_e_metodologia": "Esami per certificazioni linguistiche (Quadro Comune Europeo).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione ad attività sportive individuali e di squadra.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Atletica Leggera",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali presso impianto sportivo.",
+      "target": "Liceo dello sport"
+    },
+    {
+      "titolo_attivita": "Difesa Personale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Lezioni su violenza fisica e tutela della persona.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Conoscere Venezia Dall’Acqua",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Percorso naturalistico in Dragon Boat.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Basket School",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali del settore giovanile Reyer Basket.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Rugby Educativo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività in inglese, focus comunicazione e lessico.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Sport E Ambiente Naturale",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività in ambiente montano (rafting, canoa).",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Pady Open Water",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Rilascio brevetto subacqueo.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Italian Resuscitation Council",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Apprendimento procedure di primo soccorso.",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Attivita Motoria E Disabilita'",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Assistenza motoria con diversamente abili.",
+      "target": "Liceo Scientifico con ampliamento sportivo"
+    },
+    {
+      "titolo_attivita": "Tirocinio Didattico",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Controllo e gestione classi scuola infanzia/primaria.",
+      "target": "Liceo Scientifico con ampliamento sportivo"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Definizione PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Convenzioni con enti",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Cittadinanza e Costituzione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Partecipazione bandi",
+      "target": "Direzione"
+    },
+    {
+      "titolo_attivita": "Griglie valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Adozione griglie",
+      "target": "Dipartimenti"
+    },
+    {
+      "titolo_attivita": "Prove strutturate",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Prove comuni",
+      "target": "Dipartimenti"
+    },
+    {
+      "titolo_attivita": "Competenze cittadinanza",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Progetti/incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open Space",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Aula studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano annuale inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "P.A.I.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri scuole medie",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CA1A13000Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola Nido D'Infanzia E Scuola Materna Privata \"Qui Quo Qua\"Di Besedgnack Maria Lorede (ID scuola CA1A13000Q), relativo all'anno 2016-2019. L'analisi si basa sui dati forniti e valuta la presenza, la struttura e l'efficacia delle iniziative di orientamento proposte. Sebbene l'istituto dimostri un'attenzione all'orientamento attraverso diverse attività, manca una sezione specifica e dedicata all'interno del PTOF. L'orientamento è integrato in azioni sparse, suggerendo una necessità di maggiore strutturazione e visibilità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione dedicata specificamente all'orientamento nel PTOF.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo ben 17 collaborazioni con enti quali **ANINSEI**, **Enti Locali**, diverse **realtà produttive del territorio**, **Università** (tra cui **Università Ca’ Foscari di Venezia** e **Istituto Dante Alighieri di Padova**), **Mater Academy**, **Museo di Storia Naturale di Verona**, **Croce Verde di Mestre**, **FAI**, **Biblioteca Nazionale Marciana**, **Venezia News**, **Studio Quotazero**, **Veneziacomix**, **G.A. COIN**, **ATHLON S** e **Venice canoe**. Questo dimostra un forte impegno nell'apertura della scuola al territorio e nella creazione di opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento, sebbene presenti, ricevono un punteggio moderato (3) in tutte le aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi prefissati mostrano una variabilità. L'obiettivo di ridurre l'**abbandono** scolastico e quello di contrastare il fenomeno **NEET** ricevono un punteggio basso (2), mentre l'obiettivo di garantire la **continuità** territoriale e promuovere il **lifelong learning** ottengono un punteggio più elevato (4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento, come il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese, sono considerate efficaci, ottenendo un punteggio di 4. Anche l'azione relativa alla creazione di un **sistema integrato di inclusione e fragilità** riceve un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci validi, come l'apprendimento dall'**esperienza degli studenti** e l'utilizzo di metodologie **interdisciplinari** (punteggio 4). L'uso della **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi** ricevono un punteggio leggermente inferiore (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e include opzioni **culturali**, **laboratoriali ed espressive** (punteggio 5), **volontariato** e **attività sportive** (punteggio 4). Le attività **ludiche e ricreative** ricevono un punteggio più basso (2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership** con enti e istituzioni del territorio, nell'impegno verso azioni di sistema efficaci e nell'offerta diversificata di attività opzionali. L'istituto propone attività concrete come **Certificazione competenze** e **Alternanza scuola-lavoro**, dimostrando un approccio pratico all'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF. Questo rende difficile individuare una strategia coerente e integrata per l'orientamento. Inoltre, alcuni obiettivi, come la riduzione dell'abbandono scolastico e la lotta al fenomeno NEET, sembrano meno prioritari rispetto ad altri.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare meglio l'offerta di orientamento, definendo una sezione specifica nel PTOF che delinei chiaramente le finalità, gli obiettivi, le azioni e i criteri di valutazione. È inoltre necessario rafforzare l'attenzione verso obiettivi specifici, come la prevenzione dell'abbandono scolastico e il contrasto alla dispersione formativa.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Qui Quo Qua\" dimostra un impegno verso l'orientamento, supportato da una solida rete di **partnership** e da una varietà di attività proposte. Tuttavia, l'assenza di una sezione dedicata e la frammentazione delle iniziative suggeriscono la necessità di una maggiore strutturazione e di una definizione più chiara delle priorità. Un PTOF più focalizzato sull'orientamento potrebbe contribuire a massimizzare l'efficacia delle azioni intraprese e a garantire un supporto più completo agli studenti nel loro percorso formativo e professionale."
+}

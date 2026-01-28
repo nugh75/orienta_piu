@@ -1,0 +1,206 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GE1E03700L",
+    "denominazione": "Conserv.Figlie S.Giuseppe",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Salita Inferiore San Rocchino15",
+    "cap": "16122",
+    "email": "scuolaprimariafsg@gmail.com",
+    "pec": "conservatoriofsg@legalmail.it",
+    "website": "www.scuolafsg.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 0
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 0
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GE1E03700L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Conserv.Figlie S.Giuseppe**, scuola primaria paritaria situata a **Genova**. L'analisi si basa sui dati forniti e mira a delineare un quadro complessivo dell'approccio dell'istituto all'orientamento, evidenziando punti di forza, aree di debolezza e possibili gap. Il PTOF considerato copre il triennio **2022/2023 – 2023/2024 – 2024/2025**.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento Sezione Dedicata\n\nIl PTOF non prevede una sezione esplicita e dedicata all'orientamento, come evidenziato dal punteggio pari a 0. Questo suggerisce che l'orientamento è integrato in altre aree del piano, piuttosto che trattato come un ambito a sé stante.\n\n#### 2.2 Partnership\n\nL'istituto dimostra un buon livello di collaborazione esterna, con un punteggio di 3 e la presenza di quattro partner significativi: **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Queste partnership potrebbero offrire opportunità di arricchimento dell'offerta formativa e di esposizione degli studenti a diversi contesti e professioni.\n\n#### 2.3 Finalità\n\nLe finalità del PTOF in ambito orientativo si concentrano sullo sviluppo di attitudini e interessi degli studenti, con punteggi pari a 3 per entrambi gli aspetti. L'attenzione al **progetto di vita** è meno marcata (punteggio 1), mentre le finalità legate alle **transizioni formative** e allo sviluppo di **capacità orientative** per affrontare le opportunità future risultano assenti (punteggio 0).\n\n#### 2.4 Obiettivi\n\nGli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica (fenomeno NEET) e la promozione del lifelong learning, tutti con punteggio 1. Questi obiettivi, sebbene importanti, sembrano orientati più alla prevenzione del disagio che a una vera e propria azione di orientamento proattiva.\n\n#### 2.5 Azioni di Sistema\n\nLe azioni di sistema per l'orientamento si concentrano sul coordinamento dei servizi (punteggio 2), sul dialogo tra docenti e studenti (punteggio 2), sul rapporto scuola-genitori (punteggio 3) e sull'implementazione di un sistema integrato di inclusione e supporto alle fragilità (punteggio 3). Il monitoraggio delle azioni intraprese risulta meno prioritario (punteggio 1).\n\n#### 2.6 Didattica Orientativa\n\nLa didattica orientativa si basa sull'apprendimento esperienziale degli studenti (punteggio 4), sulla flessibilità degli spazi e dei tempi (punteggio 4), sull'approccio interdisciplinare (punteggio 3) e sull'utilizzo di laboratori (punteggio 2). Questo approccio suggerisce una volontà di rendere l'apprendimento più attivo e coinvolgente.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative include opzioni di tipo laboratoriale ed espressivo (punteggio 3), ludico-ricreativo (punteggio 3), mentre quelle culturali, di volontariato e sportive sono meno sviluppate (punteggio 1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella collaborazione con partner esterni, nell'attenzione allo sviluppo di attitudini e interessi degli studenti, nell'approccio didattico basato sull'esperienza e sulla flessibilità, e nell'offerta di laboratori diversificati. L'attività **Laboratorio di Coding per l’Infanzia**, svolta con **Docendum**, e i vari **laboratori** (Musica, Scienze, Educazione Motoria, Pittura, Lettura, Lingua Cinese) rappresentano un valore aggiunto per l'offerta formativa. Il coinvolgimento dei genitori attraverso gli **Incontri di sostegno alla genitorialità** è un altro aspetto positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione alle finalità legate al progetto di vita e alle transizioni formative rappresentano le principali aree di debolezza. Anche la limitata attenzione al monitoraggio delle azioni intraprese e alla prevenzione del fenomeno NEET potrebbero compromettere l'efficacia dell'intervento orientativo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una visione strategica e coordinata dell'orientamento, che si traduce in un approccio frammentato e poco strutturato. È necessario definire obiettivi specifici e misurabili in ambito orientativo, individuare indicatori di performance e implementare un sistema di monitoraggio efficace.\n\n### 6. Conclusioni\n\nIl PTOF della **Conserv.Figlie S.Giuseppe** presenta un buon potenziale in termini di orientamento, grazie alla collaborazione con partner esterni e all'approccio didattico innovativo. Tuttavia, è necessario superare la mancanza di una sezione dedicata all'orientamento e rafforzare l'attenzione alle finalità legate al progetto di vita e alle transizioni formative. L'implementazione di un sistema di monitoraggio efficace e la definizione di obiettivi specifici e misurabili consentirebbero di massimizzare l'efficacia dell'intervento orientativo e di garantire agli studenti un supporto adeguato nella scelta del proprio percorso formativo e professionale. L'attività **LEAD (Legami Educativi a Distanza)**, pur essendo una risposta all'emergenza, dimostra la capacità dell'istituto di adattarsi e mantenere un contatto educativo con gli studenti anche in situazioni difficili."
+}

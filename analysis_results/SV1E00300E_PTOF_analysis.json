@@ -1,0 +1,335 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SV1E00300E",
+    "denominazione": "Paritaria \"N.S. Della Neve\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Savona",
+    "anno_ptof": "2016-2018",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Manzoni 7",
+    "cap": "17100",
+    "email": "scuolanevesavona@gmail.com",
+    "pec": "scuolanevesavona@pec.nives.it",
+    "website": "https//nivesprimariasavona.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Enti Locali",
+        "realtà produttiva del territorio",
+        "università",
+        "Mater Academy",
+        "Museo di Storia Naturale di Verona",
+        "Croce Verde di Mestre",
+        "FAI",
+        "IMG Cinema",
+        "Biblioteca Nazionale Marciana",
+        "Centro Donna del Comune di Venezia",
+        "Veneziacomix",
+        "Università Ca’ Foscari di Venezia",
+        "Istituto Dante Alighieri di Padova",
+        "G.A. COIN",
+        "ATHLON S",
+        "Venice canoe",
+        "Reyer Basket",
+        "Musei",
+        "Aziende"
+      ],
+      "partnership_count": 18
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Consulenze psicologiche",
+      "categoria_principale": "Rinforzo psicologico",
+      "descrizione_e_metodologia": "Consulenze individuali e di gruppo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage",
+      "categoria_principale": "Rinforzo socio-relazionale",
+      "descrizione_e_metodologia": "Esperienze pratiche in contesti lavorativi",
+      "target": "Studenti del secondo biennio"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Rinforzo autoefficacia",
+      "descrizione_e_metodologia": "Supporto individuale e di gruppo",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Doppio diploma Italia – USA",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Percorso per ottenere diploma statunitense e italiano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Adotta un fossile",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Divulgazione area geopaleontologica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Cittadinanza Digitale",
+      "descrizione_e_metodologia": "Sensibilizzazione uso responsabile tecnologie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liceali a Ca’ Foscari",
+      "categoria_principale": "Orientamento Universitario",
+      "descrizione_e_metodologia": "Frequenza corsi universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fare storia",
+      "categoria_principale": "Storia Locale",
+      "descrizione_e_metodologia": "Ricerca storiografica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Apprendisti ciceroni",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Valorizzazione patrimonio artistico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di storia antica",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Visite al Museo Archeologico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il patrimonio librario marciano",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Visite Biblioteca Marciana",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Costruire l'identità femminile",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri con Centro Donna",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Saper vedere un film",
+      "categoria_principale": "Cinema",
+      "descrizione_e_metodologia": "Proiezioni con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Biennale Educational",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "A lezione di Terremoto",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Prevenzione danni sismici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fondamenti di Primo Soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti PDP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per la definizione dei PDP",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete collaborazione scuole/territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione rete con musei, università",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "ASL e convenzioni",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Organizzazione ASL e convenzioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza e Costituzione",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività a sostegno dell'insegnamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bandi progetto",
+      "categoria_principale": "Finanziamenti",
+      "descrizione_e_metodologia": "Partecipazione a bandi regionali/europei",
+      "target": "Scuola"
+    },
+    {
+      "titolo_attivita": "Griglie valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Adozione griglie specifiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Prove strutturate",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione prove comuni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Competenze chiave cittadinanza",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Implementazione progetti/incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open Space",
+      "categoria_principale": "Spazi",
+      "descrizione_e_metodologia": "Strutturazione aula studio/lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano annuale inclusività",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione PAI",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri docenti scuole medie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici all’estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Esperienza all’estero in contesto sociale e culturale diverso.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Esami per certificazioni linguistiche Quadro Comune Europeo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi Sportivi Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione ad attività sportive individuali e di squadra.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Atletica Leggera",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività con Tecnici Federali G.A. COIN presso impianto ATHLON S.",
+      "target": "Liceo dello sport"
+    },
+    {
+      "titolo_attivita": "Difesa Personale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Lezioni su violenza fisica e tutela della persona.",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Conoscere Venezia Dall’Acqua",
+      "categoria_principale": "Sport/Territorio",
+      "descrizione_e_metodologia": "Percorso naturalistico in Dragon Boat con società Venice canoe.",
+      "target": "Tutti gli indirizzi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SV1E00300E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della scuola Paritaria “N.S. Della Neve” di Savona (ID scuola SV1E00300E), con particolare attenzione alla sezione dedicata all'orientamento. Il PTOF, relativo agli anni 2016-2018, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tal senso. La scuola, situata in un territorio non metropolitano della regione Liguria, pone l'accento su partnership con diversi enti e realtà, con un totale di 18 partner nominati. L'orientamento è declinato in diverse finalità, tra cui lo sviluppo di attitudini, interessi, progettazione del percorso di vita, preparazione alle transizioni formative e sviluppo di capacità orientative per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento all'interno del PTOF è un elemento positivo, che sottolinea l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di partnership ampio e diversificato, che include **Enti Locali**, **realtà produttiva del territorio**, **università** come **Università Ca’ Foscari di Venezia** e **Istituto Dante Alighieri di Padova**, istituzioni culturali come il **Museo di Storia Naturale di Verona**, il **FAI** e la **Biblioteca Nazionale Marciana**, e aziende come **G.A. COIN** e **ATHLON S**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di contatto con il mondo del lavoro e del sapere.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi, la capacità di progettare il proprio futuro e di affrontare le transizioni formative, oltre a fornire gli strumenti per cogliere le opportunità. Tutti gli aspetti relativi alle finalità hanno ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del lifelong learning. L'obiettivo di continuità territoriale risulta leggermente più prioritario, con un punteggio di 4, mentre gli altri obiettivi ottengono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste per l'implementazione dell'orientamento comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni ottengono un punteggio di 4, indicando un approccio sistemico e integrato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'approccio basato sull'esperienza studentesca e l'interdisciplinarità ottengono un punteggio di 4, mentre l'utilizzo di laboratori e la flessibilità degli spazi e dei tempi un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali culturali e laboratoriali ottengono un punteggio di 5, mentre le altre opzionali un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la vasta rete di **partnership** con enti, aziende e istituzioni culturali. L'approccio sistemico all'orientamento, che coinvolge docenti, studenti, genitori e servizi territoriali, rappresenta un altro elemento positivo. L'offerta di attività opzionali e facoltative diversificata contribuisce a personalizzare l'offerta formativa e a rispondere agli interessi degli studenti. Le attività registrate, come **Consulenze psicologiche**, **Stage**, **Doppio diploma Italia – USA** e **Liceali a Ca’ Foscari**, dimostrano un impegno concreto nell'offrire opportunità di crescita e orientamento agli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di riduzione dell'abbandono e contrasto alla dispersione scolastica, che ottengono un punteggio inferiore rispetto agli altri obiettivi. Anche l'utilizzo di laboratori e la flessibilità degli spazi e dei tempi nella didattica orientativa potrebbero essere potenziati.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire l'abbandono scolastico e la dispersione, attraverso interventi mirati e personalizzati. È inoltre auspicabile un maggiore investimento nell'utilizzo di laboratori e nella flessibilità degli spazi e dei tempi, per rendere la didattica orientativa più coinvolgente ed efficace.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola Paritaria “N.S. Della Neve” presenta un approccio solido e ben strutturato all'orientamento, supportato da una vasta rete di partnership e da un'offerta formativa diversificata. Pur presentando alcune aree di debolezza, il PTOF dimostra un impegno significativo verso lo sviluppo delle competenze orientative degli studenti e la loro preparazione al futuro. L'implementazione delle attività registrate, come **Fondamenti di Primo Soccorso**, **Sicurezza informatica** e **Apprendisti ciceroni**, contribuisce a formare cittadini consapevoli e responsabili."
+}

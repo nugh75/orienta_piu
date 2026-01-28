@@ -876,26 +876,77 @@ class SynthesizerAgent(BaseAgent):
     """Agent that synthesizes multiple partial analyses into one."""
     def __init__(self):
         super().__init__(MODEL_SYNTHESIZER, "Sintetizzatore di Analisi Multiple")
-    
+
     def synthesize(self, partial_results):
         """Combine multiple JSON analyses into one unified result."""
         logging.info(f"[{self.model}] Synthesizing {len(partial_results)} partial results...")
-        
+
+        # Schema di riferimento per garantire struttura corretta
+        schema_reference = '''{
+  "is_ptof": true,
+  "is_ptof_confidence": "high/medium/low",
+  "document_type": "PTOF",
+  "metadata": {"school_id": "...", "denominazione": "...", ...},
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {"has_sezione_dedicata": 0/1, "score": 1-7, "note": "..."},
+    "2_2_partnership": {"score": 1-7, "partner_nominati": [...], "partnership_count": N},
+    "2_3_finalita": {
+      "finalita_attitudini": {"score": 1-7},
+      "finalita_interessi": {"score": 1-7},
+      "finalita_progetto_vita": {"score": 1-7},
+      "finalita_transizioni_formative": {"score": 1-7},
+      "finalita_capacita_orientative_opportunita": {"score": 1-7}
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {"score": 1-7},
+      "obiettivo_continuita_territorio": {"score": 1-7},
+      "obiettivo_contrastare_neet": {"score": 1-7},
+      "obiettivo_lifelong_learning": {"score": 1-7}
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {"score": 1-7},
+      "azione_dialogo_docenti_studenti": {"score": 1-7},
+      "azione_rapporto_scuola_genitori": {"score": 1-7},
+      "azione_monitoraggio_azioni": {"score": 1-7},
+      "azione_sistema_integrato_inclusione_fragilita": {"score": 1-7}
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {"score": 1-7},
+      "didattica_laboratoriale": {"score": 1-7},
+      "didattica_flessibilita_spazi_tempi": {"score": 1-7},
+      "didattica_interdisciplinare": {"score": 1-7}
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {"score": 1-7},
+      "opzionali_laboratoriali_espressive": {"score": 1-7},
+      "opzionali_ludiche_ricreative": {"score": 1-7},
+      "opzionali_volontariato": {"score": 1-7},
+      "opzionali_sportive": {"score": 1-7}
+    }
+  },
+  "activities_register": [{"titolo_attivita": "...", "categoria_principale": "...", ...}]
+}'''
+
         synthesis_prompt = f"""Sei un sintetizzatore di analisi PTOF.
 Hai ricevuto {len(partial_results)} analisi parziali dello stesso documento PTOF.
 
-ISTRUZIONI:
+ISTRUZIONI CRITICHE:
 1. Unifica tutte le analisi in un singolo JSON completo
-2. Per ogni indicatore con punteggio, scegli il punteggio PIÙ ALTO trovato
+2. Per ogni indicatore con punteggio, scegli il punteggio PIÙ ALTO trovato tra tutti i chunk
 3. Per liste (partner, attività), combina tutti gli elementi unici
 4. Per metadata, usa i valori non-ND trovati
-5. Restituisci SOLO il JSON unificato, nessun altro testo
+5. IMPORTANTE: Il JSON DEVE contenere la struttura "ptof_section2" completa con TUTTI gli indicatori
+6. Se un indicatore non ha score in nessun chunk, usa score: 1 (minimo scala Likert)
+7. Restituisci SOLO il JSON unificato, nessun altro testo
+
+SCHEMA OUTPUT RICHIESTO:
+{schema_reference}
 
 ANALISI PARZIALI:
 {json.dumps(partial_results, indent=2, ensure_ascii=False)}
 
 JSON UNIFICATO:"""
-        
+
         # Use larger max_tokens for synthesis (Gemini Pro has 1M context)
         return self.call_llm(synthesis_prompt, max_tokens=32000)
 
@@ -1138,6 +1189,43 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
             if status_callback: status_callback(f"{process_tag} synthesizer combine")
             draft = synthesizer.synthesize(partial_results)
             draft = sanitize_json(draft)
+
+            # VALIDAZIONE POST-SINTESI: verifica che ptof_section2 abbia score validi
+            try:
+                synth_check = json.loads(draft)
+                sec2 = synth_check.get('ptof_section2', {})
+
+                # Conta quanti score > 0 ci sono nella struttura
+                def count_valid_scores(section_dict):
+                    count = 0
+                    for key, val in section_dict.items():
+                        if isinstance(val, dict):
+                            if 'score' in val and val['score'] and float(val['score']) > 0:
+                                count += 1
+                            else:
+                                # Nested dict (es. 2_3_finalita contiene finalita_attitudini, etc.)
+                                count += count_valid_scores(val)
+                    return count
+
+                valid_scores = count_valid_scores(sec2)
+                logging.info(f"[Pipeline] Synthesis validation: found {valid_scores} valid scores in ptof_section2")
+
+                # Se ci sono meno di 5 score validi (su ~22 totali), usa merge manuale
+                MIN_VALID_SCORES = 5
+                if valid_scores < MIN_VALID_SCORES:
+                    logging.warning(f"[Pipeline] Synthesis produced only {valid_scores} valid scores (< {MIN_VALID_SCORES}). Falling back to manual merge.")
+                    if status_callback:
+                        status_callback(f"{process_tag} ⚠️ synthesis incomplete, using manual merge")
+                    from src.processing.cloud_review import merge_partial_analyses
+                    merged = merge_partial_analyses(partial_results)
+                    draft = json.dumps(merged, ensure_ascii=False, indent=2)
+                    logging.info(f"[Pipeline] Manual merge completed")
+            except Exception as e:
+                logging.warning(f"[Pipeline] Synthesis validation failed ({e}), falling back to manual merge")
+                from src.processing.cloud_review import merge_partial_analyses
+                merged = merge_partial_analyses(partial_results)
+                draft = json.dumps(merged, ensure_ascii=False, indent=2)
+
             if status_callback: status_callback(f"{process_tag} synthesizer done")
         elif len(partial_results) == 1:
             draft = json.dumps(partial_results[0])
@@ -1289,16 +1377,25 @@ def process_single_ptof(md_file, analyst, reviewer, refiner, synthesizer=None, r
                 'opzionali_ludiche_ricreative', 'opzionali_volontariato', 'opzionali_sportive'
             ])
             
+            # Nuove dimensioni piatte (Sezione Dedicata e Partnership)
+            # Usa sec2 (definito riga 1244)
+            s_strut = float(sec2.get('2_1_ptof_orientamento_sezione_dedicata', {}).get('score', 0) or 0)
+            s_part = float(sec2.get('2_2_partnership', {}).get('score', 0) or 0)
+
             means = [
+                s_strut, s_part,
                 _calc_avg(s_fin), _calc_avg(s_obi), _calc_avg(s_gov), 
                 _calc_avg(s_did), _calc_avg(s_opp)
             ]
             ro_index = _calc_avg(means)
             
-            logging.info(f"CalculatedIDPOIndex for {school_code}: {ro_index:.2f}")
+            logging.info(f"Calculated IIPO Index for {school_code}: {ro_index:.2f}")
             
-            if ro_index <= 2.0:
-                msg = f"⚠️ SAFETY CHECK:IDPOIndex {ro_index:.2f} is too low (<= 2.0). Discarding analysis for {school_code}."
+            # Load threshold from env (default 2.0)
+            safety_threshold = float(os.environ.get("IIPO_MIN_THRESHOLD", "2.0"))
+            
+            if ro_index <= safety_threshold:
+                msg = f"⚠️ SAFETY CHECK: IIPO Index {ro_index:.2f} is too low (<= {safety_threshold}). Discarding analysis for {school_code}."
                 logging.warning(msg)
                 if status_callback: status_callback(msg)
                 

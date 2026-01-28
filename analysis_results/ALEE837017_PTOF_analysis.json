@@ -1,0 +1,250 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "ALEE837017",
+    "denominazione": "\"G. Fanciulli\"- Acqui Terme",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Acqui Terme",
+    "anno_ptof": "2019/20-2021/22",
+    "azioni_inclusione": "Il documento include azioni specifiche per l'inclusione scolastica, tra cui supporto per studenti con DSA, accoglienza per studenti stranieri e didattica personalizzata, ma manca una sezione dedicata all'analisi delle azioni per l'inclusione nel metadata.",
+    "provincia": "Alessandria",
+    "regione": "Piemonte",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Acquedotto Romano N. 34",
+    "cap": "15011",
+    "email": "alic837005@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutocomprensivodueacquiterme.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Enti locali",
+        "Terzo settore",
+        "Istituzioni territoriali",
+        "Ente Pubblico Unità Organizzativa (EPU UOR)",
+        "Associazione ABC",
+        "Comunità di San Patrignano",
+        "Croce Verde di Ospitaletto",
+        "Scuole dell'infanzia/primaria convenzionate",
+        "Associazioni",
+        "ATS",
+        "GLIR/GIT/Scuole polo"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 7
+      },
+      "finalita_interessi": {
+        "score": 7
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 7
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 7
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 7
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 7
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 7
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Test d'ingresso",
+      "categoria_principale": "Diagnosi e recupero",
+      "descrizione_e_metodologia": "Valutazione iniziale per identificare lacune",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO (Percorsi per le Competenze Trasversali e l'Orientamento)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di alternanza scuola-lavoro",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Corsi di potenziamento linguistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Lezioni dedicate a lingue straniere",
+      "target": "Studenti con bisogni specifici"
+    },
+    {
+      "titolo_attivita": "Stage sportivo sulla neve (snowboard/sci)",
+      "categoria_principale": "Potenziamento sportivo",
+      "descrizione_e_metodologia": "Stage di 5 giorni per il primo anno",
+      "target": "Studenti del primo anno"
+    },
+    {
+      "titolo_attivita": "Stage di vela a Campione (Lago di Garda)",
+      "categoria_principale": "Potenziamento sportivo",
+      "descrizione_e_metodologia": "Stage di 5 giorni per il secondo anno",
+      "target": "Studenti del secondo anno"
+    },
+    {
+      "titolo_attivita": "Stage di escursionismo alpino",
+      "categoria_principale": "Potenziamento sportivo",
+      "descrizione_e_metodologia": "Stage di 5 giorni per il terzo anno",
+      "target": "Studenti del terzo anno"
+    },
+    {
+      "titolo_attivita": "Certificazione linguistica in Inghilterra",
+      "categoria_principale": "Potenziamento linguistico",
+      "descrizione_e_metodologia": "Stage di 7 giorni per il quarto anno",
+      "target": "Studenti del quarto anno"
+    },
+    {
+      "titolo_attivita": "Viaggio d'istruzione alle capitali europee",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Viaggio di 4 giorni per il quarto/quinto anno",
+      "target": "Studenti del quarto e quinto anno"
+    },
+    {
+      "titolo_attivita": "PCTO Enti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in enti esterni con valutazione di diario e esposizione",
+      "target": "Studenti III e IV anno"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Inserimento studenti con attività di consolidamento e autovalutazione",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello D’Ascolto",
+      "categoria_principale": "Supporto Psicologico",
+      "descrizione_e_metodologia": "Supporto psicologico tramite associazioni e docenti",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Incontri Di Formazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Ciclo di incontri tematici su social network, alimentazione, primo soccorso",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Giornale della Scuola 'Il Viaggiatore'",
+      "categoria_principale": "Progetti Interni",
+      "descrizione_e_metodologia": "Progetto editoriale con supervisione esterna",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero per debiti formativi",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Corsi obbligatori per studenti con insufficienze, con verifiche finali comuni",
+      "target": "Studenti con debiti formativi"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza Studenti Stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Test d'ingresso e lezioni integrate per studenti stranieri",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Attività di sostegno per studenti con DSA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Monitoraggio e programmazione personalizzata con esperti",
+      "target": "Studenti con DSA"
+    },
+    {
+      "titolo_attivita": "Orientamento in ingresso/uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Open day, stage, incontri con genitori e Smart Future Academy",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Formazione docenti su strumenti multimediali e LIM",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Incontri con consulente esterno per utilizzo tablet e LIM",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza personale ATA",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Gestione emergenze e primo soccorso",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Didattica inclusiva",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Incontri mirati e laboratori su inclusione",
+      "target": "Docenti neoassunti e preesistenti"
+    }
+  ],
+  "narrative": "## 1. Sintesi\nIl PTOF del Liceo Marco Polo presenta una struttura articolata con sezione dedicata all'orientamento e una rete di partnership territoriali significativa. Il documento include attività di orientamento in ingresso/uscita, PCTO e progetti di inclusione, ma presenta criticità nella valutazione delle collaborazioni esterne.\n\n## 2. Analisi Dimensionale\nLa sezione 2.2 elenca 10 partner istituzionali e associativi, dimostrando una buona articolazione territoriale. Le finalità dell'orientamento (7/7) sono ben definite, mentre l'obiettivo di contrastare il NEET (3/7) mostra criticità. La didattica laboratoriale (4/7) è stata ridimensionata in seguito alla mancanza di attività strutturate.\n\n## 3. Punti di Forza\n- Sezione dedicata all'orientamento con punteggio massimo\n- Rete di partnership articolata (10 enti diversificati)\n- Buona copertura delle finalità orientative\n- Presenza di azioni integrate per l'inclusione\n\n## 4. Debolezze\n- Valutazione insufficiente del meccanismo di monitoraggio delle partnership\n- Obiettivo di contrasto al NEET poco sviluppato\n- Mancanza di dettagli sui criteri di selezione delle attività opzionali\n- Criticità nella didattica laboratoriale (punteggio ridotto a 4/7)\n\n## 5. Gap Analysis\n- Manca una sezione dedicata all'analisi delle azioni per l'inclusione nel metadata\n- Non sono presenti indicatori di successo per le attività di orientamento\n- Assenza di una mappatura chiara delle risorse umane dedicate alle partnership\n\n## 6. Conclusioni\nIl PTOF presenta una struttura solida con buone iniziative di orientamento e inclusione, ma necessita di miglioramenti nella valutazione sistematica delle collaborazioni esterne e nella definizione di indicatori di successo. La riduzione del punteggio per la didattica laboratoriale evidenzia la necessità di articolare meglio le attività di laboratorio didattico."
+}

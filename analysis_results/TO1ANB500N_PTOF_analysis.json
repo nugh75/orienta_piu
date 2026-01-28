@@ -1,0 +1,325 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "TO1ANB500N",
+    "denominazione": "Santa Maria",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2025-2028",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via San Pio V11",
+    "cap": "10125",
+    "email": "madremyriam12@gmail.com",
+    "pec": "infanziasmaria@gmail.com",
+    "website": "http://www.majoranapa.gov.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sebbene l'orientamento sia presente nel PTOF, non esiste una sezione dedicata e strutturata con un titolo specifico. L'orientamento è integrato in altre sezioni come PCTO e progetti extracurriculari."
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "enti locali",
+        "realtà istituzionali",
+        "associazioni genitori",
+        "associazioni studenti",
+        "ospedali",
+        "strutture convenzionate",
+        "associazioni",
+        "enti pubblici",
+        "Università",
+        "Enti di Ricerca",
+        "Aziende",
+        "ASL",
+        "associazioni disabili",
+        "servizi sociali",
+        "privato sociale",
+        "CTS/CTI",
+        "Ateneo Palermitano",
+        "INGV",
+        "Dipartimento di ingegneria chimica",
+        "Dipartimento di ingegneria idraulica",
+        "Caritas",
+        "Mensa dei Poveri S. Carlo e S. Rosalia",
+        "Associazione AddioPizzo",
+        "Libera",
+        "Centro Studi Pio La Torre",
+        "Associazione Agende Rosse Gruppo Paolo Borsellino",
+        "C.R.E.A.",
+        "Orto Botanico di Palermo",
+        "USR",
+        "Università degli Studi di Palermo",
+        "AIESEC",
+        "Trinity College di Dublino",
+        "USR Sicilia"
+      ],
+      "partnership_count": 30
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 7
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Almeno 90/150/210 ore a seconda dell'indirizzo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti extracurriculari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Privilegiano obiettivi condivisi e ricaduta didattica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di formazione in azienda",
+      "target": "Studenti del biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Attività PON/POR/FSE/ERASMUS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di ampliamento dell'offerta formativa",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conseguimento di certificazioni professionali",
+      "target": "Studenti degli indirizzi tecnici e professionali"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Coding E Robotica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Robotica Avanzato",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stampa 3D E Cnc Robotica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Serra Domotica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Micologia “Dalla Spora Alla Fungaia”",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Aperta All’Aperto",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività esperienziali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Tecniche Di Comunicazione Efficace E Persuasiva",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Python",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Informatica In Azienda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in azienda",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valorizzazione E Recupero Delle Specie Floricole Mediterranee",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Parchi E Riserve In Sicilia",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività esperienziali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori Agroalimentari",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Vitivinicoltura E Olivicoltura",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in campo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Agraria E Scienze",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Di Un Sistema Di Trasmissione In Ponte Radio Digitale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Realtà Virtuale E Realtà Aumentata",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lo Sviluppo Storico Ed Epistemologico Della Meccanica Quantistica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività teoriche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto My Opportunities",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri e attività laboratoriali con personale specializzato del COT.",
+      "target": "Studenti del IV e V anno"
+    },
+    {
+      "titolo_attivita": "Progetto attività sportive extracurriculari",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive per sviluppare capacità motorie, sane abitudini, autostima e socializzazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione ai Campionati Studenteschi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Partecipazione a campionati di corsa campestre, atletica leggera, nuoto e attività per disabili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Formativo Individuale (PFI)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Redazione PFI con supporto tutor",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Articolazione per nuclei concettuali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con alunni e famiglie, presentazione offerta formativa",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage, alternanza scuola-lavoro, collaborazione con enti",
+      "target": "Alunni di quinta superiore"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TO1ANB500N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Santa Maria** (ID: TO1ANB500N), un istituto di grado **Infanzia** situato a **Torino**, in **Piemonte**. L'analisi si basa sui dati forniti, valutando la presenza, la struttura e l'efficacia delle iniziative di orientamento proposte per il triennio 2025-2028. Il PTOF dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata e denominata come tale. L'orientamento è integrato in diverse aree del piano, come i percorsi **PCTO** e i progetti extracurriculari. La scuola vanta un'ampia rete di **partnership** con enti locali, istituzioni, associazioni e aziende, che rappresenta un punto di forza per l'implementazione di attività di orientamento efficaci.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che, nonostante l'importanza attribuita all'orientamento, il PTOF non prevede una sezione dedicata con un titolo specifico. L'orientamento è quindi integrato in altre aree del piano, con un punteggio di 5 su una scala massima.\n\n**2.2 Partnership:**\n\nLa scuola **Santa Maria** dimostra un forte impegno nella creazione di **partnership** strategiche. Sono stati identificati ben 30 partner, tra cui **enti locali**, **realtà istituzionali**, **associazioni genitori**, **associazioni studenti**, **ospedali**, **Università**, **Aziende** e numerosi altri soggetti del **privato sociale** e del **terzo settore**. Questo ampio network di collaborazioni, valutato con un punteggio di 7, rappresenta una risorsa preziosa per l'implementazione di attività di orientamento e per l'ampliamento dell'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, come definite nel PTOF, toccano diverse aree cruciali. Si riscontrano punteggi di 5 per l'attenzione alle **attitudini** e agli **interessi** degli studenti, mentre un punteggio di 7 viene attribuito alla finalità di supportare il **progetto di vita** e lo sviluppo delle **capacità orientative** per cogliere le **opportunità** future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico (punteggio 5), la promozione della continuità territoriale (punteggio 5), il contrasto al fenomeno dei **NEET** (punteggio 4) e, in particolare, lo sviluppo del **lifelong learning** (punteggio 7).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste dal PTOF per supportare l'orientamento comprendono il **coordinamento dei servizi** (punteggio 5), il **dialogo tra docenti e studenti** (punteggio 7), il rafforzamento del **rapporto scuola-genitori** (punteggio 7), il **monitoraggio delle azioni** intraprese (punteggio 5) e la creazione di un **sistema integrato** per l'inclusione e la gestione delle fragilità (punteggio 5).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci esperienziali (punteggio 5), sull'utilizzo di **laboratori** (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'**interdisciplinarità** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 7), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 7) e **sportive** (punteggio 4).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** con il territorio, nell'attenzione al **progetto di vita** degli studenti e nello sviluppo delle loro **capacità orientative**. L'offerta di attività **PCTO** e progetti extracurriculari, come il **Laboratorio Di Coding E Robotica** e le attività legate all'agricoltura, rappresenta un valore aggiunto per l'orientamento pratico degli studenti. Il progetto **Progetto Formativo Individuale (PFI)** e l'attenzione all'**Educazione Civica** sono ulteriori elementi positivi.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia integrato in altre aree, una sezione specifica permetterebbe di dare maggiore visibilità e coerenza alle iniziative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una struttura formale per l'orientamento. Si suggerisce di creare una sezione dedicata nel PTOF, con obiettivi, azioni e indicatori specifici. Potrebbe essere utile definire un responsabile dell'orientamento all'interno della scuola.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Santa Maria** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Pur riconoscendo l'integrazione dell'orientamento in altre aree del piano, si raccomanda di colmare il gap strutturale creando una sezione dedicata, al fine di rafforzare l'efficacia e la visibilità delle iniziative di orientamento. L'attenzione al **lifelong learning** e al **progetto di vita** degli studenti rappresenta un elemento distintivo del PTOF."
+}

@@ -1,0 +1,199 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CTPS09500D",
+    "denominazione": "S.Domenico Savio",
+    "tipo_scuola": "Infanzia, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Metropolitano",
+    "comune": "Catania",
+    "anno_ptof": "2022-2025",
+    "provincia": "Catania",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Valdisavoia7",
+    "cap": "95123",
+    "email": "virgilioscuola@virgilio.it",
+    "pec": "ND",
+    "website": "http//www.valdisavoia.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum"
+      ],
+      "partnership_count": 3
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Supporto Genitori",
+      "descrizione_e_metodologia": "Incontri su tematiche specifiche",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Svolto in aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio con spazio dedicato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lingua Cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CTPS09500D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **S.Domenico Savio** (CTPS09500D), per il triennio 2022-2025. La scuola, situata a **Catania** in **Sicilia**, opera nel grado dell'**Infanzia, Primaria** e **II Grado** ed è di tipo **Paritaria**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni del sistema, la didattica orientativa e le attività opzionali. Nel complesso, il PTOF dimostra un impegno nella realizzazione di attività laboratoriali e nel coinvolgimento dei genitori, pur evidenziando alcune aree di miglioramento nella definizione di finalità e obiettivi specifici per l'orientamento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, sebbene l'attenzione all'orientamento sia presente in altre aree del piano.\n\n**2.2 Partnership:** La scuola ha stabilito partnership con **Opera Nazionale Montessori**, **Banca d’Italia** e **Docendum**, dimostrando una volontà di collaborare con enti esterni per arricchire l'offerta formativa e l'orientamento degli studenti. Il numero di partnership attive è pari a 3.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo si concentrano sullo sviluppo di **attitudini** e **interessi** degli studenti, con un punteggio di 3 su 5. L'attenzione al **progetto di vita** è presente, ma meno marcata (punteggio 2), mentre le finalità legate alle **transizioni formative** e allo sviluppo di **capacità orientative** per cogliere le opportunità risultano meno definite (punteggio 1).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento si focalizzano sulla riduzione dell'**abbandono** scolastico, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Tuttavia, tutti questi obiettivi ricevono un punteggio di 1, suggerendo una necessità di maggiore specificità e misurabilità.\n\n**2.5 Azioni del Sistema:** Le azioni intraprese dalla scuola per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Il rapporto con i genitori e il sistema integrato di inclusione ricevono un punteggio di 3, mentre le altre azioni un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale degli studenti, con un punteggio di 4. Sono presenti anche attività laboratoriali, flessibilità degli spazi e dei tempi, e approcci interdisciplinari, tutti con un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include laboratori espressivi e ludico-ricreativi (punteggio 3), mentre le opzionali culturali, di volontariato e sportive risultano meno sviluppate (punteggio 1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella ricchezza dell'offerta laboratoriale, come evidenziato dalle attività **Laboratorio di Coding per l’Infanzia**, **Laboratorio di Musica in movimento**, **Laboratorio di Scienze**, **Laboratorio di Educazione Motoria**, **Laboratorio di Pittura**, **Laboratorio di Lettura**, **Laboratorio di Lingua Cinese**, **Laboratorio di Coding**, **Laboratorio di Educazione Alimentare**. L'impegno nel coinvolgimento dei genitori, attraverso iniziative come gli **Incontri di sostegno alla genitorialità** e il **Questionario di soddisfazione genitori**, rappresenta un altro elemento positivo. L'utilizzo di strumenti di valutazione, come il **Questionario di gradimento personale**, dimostra un'attenzione al miglioramento continuo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, le finalità e gli obiettivi specifici per l'orientamento appaiono poco definiti e misurabili, ottenendo punteggi bassi nelle relative dimensioni. Il monitoraggio delle azioni, pur presente, necessita di essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di esplicitare in modo più chiaro le strategie e le azioni concrete volte a supportare l'orientamento degli studenti, in particolare per quanto riguarda le transizioni formative e lo sviluppo di capacità orientative. È necessario definire obiettivi misurabili e indicatori di performance per valutare l'efficacia delle iniziative intraprese.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **S.Domenico Savio** dimostra un impegno nella realizzazione di attività formative e nel coinvolgimento dei genitori. Tuttavia, per potenziare l'efficacia dell'orientamento, è necessario definire una sezione dedicata all'interno del PTOF, specificare finalità e obiettivi misurabili, rafforzare il monitoraggio delle azioni e ampliare l'offerta di attività opzionali legate all'orientamento. L'implementazione di queste azioni consentirebbe alla scuola di fornire un supporto più efficace agli studenti nel loro percorso di crescita e di preparazione al futuro. L'attività **LEAD (Legami Educativi a Distanza)** dimostra una capacità di adattamento alle nuove esigenze didattiche."
+}

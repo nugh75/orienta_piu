@@ -1,0 +1,310 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TOPS105001",
+    "denominazione": "Valsalice",
+    "tipo_scuola": "I Grado, Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Torino",
+    "anno_ptof": "2022/2023 - 2023/2024 - 2024/2025",
+    "provincia": "Torino",
+    "regione": "Piemonte",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "V.Le Thovez 37",
+    "cap": "10131",
+    "email": "scuola@liceovalsalice.it",
+    "pec": "valsalice.torino@pec.salesianipiemonte.it",
+    "website": "www.liceovalsalice.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Pastorale giovanile ispettoriale e diocesana",
+        "Polizia Municipale",
+        "CNOS Scuola",
+        "FIDAE",
+        "parrocchie della zona collinare",
+        "comunità religiose"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Esercizi Spirituali/Ritiri",
+      "categoria_principale": "Educazione alla fede",
+      "descrizione_e_metodologia": "Accompagnamento classi a esercizi spirituali periodici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto 'il giovane educa il giovane'",
+      "categoria_principale": "Tutoraggio",
+      "descrizione_e_metodologia": "Studenti liceo supportano studenti scuola secondaria",
+      "target": "Scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lettura e scrittura",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Metodologia laboratoriale ispirata a Italian Writing Teachers",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Studio di altre materie in lingua inglese",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Conversazione in inglese",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Lavoro in piccoli gruppi con insegnanti madrelingua",
+      "target": "Sezioni A, B e C"
+    },
+    {
+      "titolo_attivita": "Certificazioni KET/PET",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Preparazione agli esami di certificazione",
+      "target": "Sezioni A e C"
+    },
+    {
+      "titolo_attivita": "Scambi culturali in Francia",
+      "categoria_principale": "Francese",
+      "descrizione_e_metodologia": "Soggiorni in famiglia",
+      "target": "Sezione B"
+    },
+    {
+      "titolo_attivita": "Kangourou della Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esercitazioni facoltative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione interculturale",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Conoscenza culture diverse, superamento pregiudizi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione all'affettività",
+      "categoria_principale": "Educazione personale e sociale",
+      "descrizione_e_metodologia": "Riflessione identità, relazioni, sessualità",
+      "target": "Studenti prima media"
+    },
+    {
+      "titolo_attivita": "Educazione all'ambiente",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Sensibilizzazione tutela ambiente, stili di vita sostenibili",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Stili di vita sani, prevenzione rischi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di educazione alla fede",
+      "categoria_principale": "Educazione religiosa",
+      "descrizione_e_metodologia": "Crescita integrale persona, valori cristiani",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Imparo il MIO Metodo di Studio",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Migliorare capacità organizzative, elaborazione, riflessione metacognitiva, strategie di studio.",
+      "target": "Allievi con BES o difficoltà scolastiche"
+    },
+    {
+      "titolo_attivita": "Incontri con la Polizia Municipale",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Crescita responsabile, legalità, rischi nuove tecnologie.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso di riflessione sui propri interessi",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Schede predisposte e materiali forniti durante le ore di animazione settimanali.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Attività “Orienta la tua estate”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Dialogo e confronto con la famiglia, fruizione di opuscolo e materiali dal Salone dell’orientamento.",
+      "target": "Classi seconde"
+    },
+    {
+      "titolo_attivita": "Presentazione indirizzi scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione di licei e istituti tecnici presenti sul territorio.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Diffusione materiale informativo e organizzazione visite.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Conversazione INGLESE",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "20 incontri con docente madrelingua, preparazione certificazioni.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Corso di FRANCESE",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Ciclo di lezioni con docente madrelingua.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Avviamento lingue classiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Incontri specifici su latino e greco.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio ARTIGIANALE",
+      "categoria_principale": "Creatività",
+      "descrizione_e_metodologia": "Costruzione oggetti con materiali diversi, riciclo creativo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Uso del pc, dialogo, confronto, condivisione esperienze.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "CLUB “AMICI DEL MUSEO”",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Visite al museo, attività di laboratorio, incontri con scienziati.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "“SU IL SIPARIO” - Laboratorio teatrale",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Promozione educazione teatrale, abilità interpretative, allestimento spettacolo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "#Tantastoffa",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Musica, canto, arte, danza, preparazione eventi scolastici.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività Sportive",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Basket, pallavolo, scherma, calcetto, arrampicata, rugby, judo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Consiglio orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formulazione del consiglio orientativo per gli allievi di terza media.",
+      "target": "Alunni di terza media"
+    },
+    {
+      "titolo_attivita": "Valsalice Estate",
+      "categoria_principale": "Attività estive",
+      "descrizione_e_metodologia": "Attività estive per ragazzi dalle 4^ elementare alla 2^ media, con uscite e compiti estivi.",
+      "target": "Studenti elementari e medie"
+    },
+    {
+      "titolo_attivita": "Sabato nel SOCIALE",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Accompagnamento genitori e allievi alla scoperta di realtà di volontariato.",
+      "target": "Genitori e studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TOPS105001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Valsalice** (TOPS105001), per il triennio 2022/2023 - 2023/2024 - 2024/2025. La scuola, situata a **Torino** e operante nel territorio **metropolitano** della regione **Piemonte**, è un istituto **paritario** che offre percorsi di istruzione di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'offerta didattica e le attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi generalmente alti nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo indica una chiara attenzione e strutturazione dell'offerta orientativa all'interno del piano scolastico.\n\n**2.2 Partnership:** La scuola ha stabilito partnership con diversi soggetti esterni, tra cui la **Pastorale giovanile ispettoriale e diocesana**, la **Polizia Municipale**, **CNOS Scuola**, **FIDAE**, le **parrocchie della zona collinare** e le **comunità religiose**. Il numero di partner (6) e il punteggio di 4 suggeriscono una buona rete di collaborazione per potenziare l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, del progetto di vita, delle transizioni formative e delle capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 5, evidenziando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi stabiliti nel PTOF includono la riduzione dell'abbandono scolastico (punteggio 3), la continuità territoriale (punteggio 4), il contrasto alla dispersione NEET (punteggio 2) e la promozione del lifelong learning (punteggio 3). Si nota una maggiore attenzione alla continuità territoriale rispetto alla lotta contro il fenomeno NEET.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento comprendono il coordinamento dei servizi (punteggio 3), il dialogo tra docenti e studenti (punteggio 5), il rapporto scuola-genitori (punteggio 4), il monitoraggio delle azioni (punteggio 3) e la creazione di un sistema integrato di inclusione e fragilità (punteggio 4). Il dialogo tra docenti e studenti emerge come un punto di forza.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 6), sull'utilizzo di metodologie laboratoriali (punteggio 4), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio interdisciplinare (punteggio 6). L'enfasi sull'esperienza diretta e sull'interdisciplinarità rappresenta un elemento distintivo.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni culturali (punteggio 4), laboratoriali ed espressive (punteggio 4), ludiche e ricreative (punteggio 3), di volontariato (punteggio 4) e sportive (punteggio 3). La varietà dell'offerta permette agli studenti di esplorare diversi interessi e passioni.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la presenza di una sezione dedicata, la chiarezza delle finalità, l'attenzione alla didattica esperienziale e interdisciplinare, il dialogo tra docenti e studenti e la rete di partnership attivate. Attività come **Esercizi Spirituali/Ritiri**, **Progetto 'il giovane educa il giovane'**, **Laboratorio di lettura e scrittura**, **CLIL**, **Conversazione in inglese** e **Scambi culturali in Francia** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno NEET, che ha ottenuto un punteggio di 2. Anche l'obiettivo di ridurre l'abbandono scolastico e l'azione di coordinamento dei servizi presentano margini di miglioramento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni specifiche volte a prevenire la dispersione scolastica e a contrastare il fenomeno NEET. Potrebbe essere utile implementare programmi mirati di tutoraggio e orientamento per gli studenti a rischio, coinvolgendo attivamente le famiglie e i servizi territoriali.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Valsalice** dimostra un forte impegno verso l'orientamento, con una solida base teorica e una ricca offerta di attività. I punti di forza superano le aree di debolezza, e le partnership attivate rappresentano un valore aggiunto per l'istituto. Concentrando gli sforzi sul miglioramento degli obiettivi e delle azioni relative alla prevenzione della dispersione scolastica e del fenomeno NEET, la scuola potrà consolidare ulteriormente la sua offerta orientativa e garantire un futuro migliore per i suoi studenti. Attività come **Valsalice Estate** e **Sabato nel SOCIALE** dimostrano un impegno verso la comunità e l'educazione a 360 gradi."
+}

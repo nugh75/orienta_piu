@@ -1,0 +1,262 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CERH015004",
+    "denominazione": "Villaggio Dei Ragazzi",
+    "tipo_scuola": "Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Maddaloni",
+    "anno_ptof": "2019/2020 – 2020/2021 - 2021/2022",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Piazza Matteotti 8",
+    "cap": "81024",
+    "email": "ipsarvillaggio@virgilio.it",
+    "pec": "protocollo.villaggio@pec.it",
+    "website": "ipsarvillaggio@virgilio.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "ASL",
+        "servizi sociali",
+        "parrocchie",
+        "associazioni",
+        "enti locali",
+        "fondazione ITS MIA MODA CAMPANIA",
+        "rete TAM",
+        "rete SCUOLE PER LA SANITA'",
+        "associazioni produttive",
+        "professioni",
+        "ricerca",
+        "Gesfor srl"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza per aumentare le possibilità occupazionali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Metodologia dell'incontro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tutoraggio e affiancamento per l'ingresso nel mondo del lavoro",
+      "target": "Studenti diplomati"
+    },
+    {
+      "titolo_attivita": "Potenziamento Lettura E Comprensione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività per favorire il successo formativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività Di Tutoring E Peer To Peer",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Favorire collaborazione e riduzione insuccesso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Del Pensiero Computazionale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Aumentare successo formativo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Crescere Partecipando",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sviluppo personalità e partecipazione sociale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lavorare Per Un Cittadino Consapevole",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Acquisire comportamenti responsabili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Nel Mondo Del Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Inserimento nel mondo del lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Creare Dolci Dal Design Innovativo",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Alternanza Scuola-Lavoro presso struttura ospitante. Valutazione: osservazione, test finale, griglia processi.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "CREO LA MIA AZIENDA",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Alternanza Scuola-Lavoro presso struttura ospitante. Valutazione: osservazione, test finale, relazione cliente.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "LA PELLETTERIA. IL LABORATORIO ARTIGIANALE",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Alternanza Scuola-Lavoro. Valutazione: osservazione, test finale, griglia processi.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Cambridge",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Corso preparazione esame inglese livello A2/B1.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Gruppo Sportivo",
+      "categoria_principale": "Ampliamento Curricolare",
+      "descrizione_e_metodologia": "Pallavolo, calcio a 5, tennistavolo.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Orientattivamente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "4 moduli da 30 ore con tutor interni ed esterni.",
+      "target": "Studenti terze, quarte e quinte classi"
+    },
+    {
+      "titolo_attivita": "See The Future Together",
+      "categoria_principale": "Imprenditorialità",
+      "descrizione_e_metodologia": "Approfondimento tematiche aziendali, impresa di moda lifestyle.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Parlare Con Il Mondo",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Rafforzare abilità linguistiche, livello B1.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Parlare, Leggere, Scrivere E Pensare Nella Tua Nuova Lingua",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Scambi culturali, formazione docenti.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Educare Alla Bellezza",
+      "categoria_principale": "Patrimonio Culturale",
+      "descrizione_e_metodologia": "Ricerca, elaborazione progetti, creazione abiti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti educativi e culturali con Fondazione San Gennaro",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di attività per lo sviluppo socio-culturale del Rione Sanità",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Progetti educativi con Cooperativa La Paranza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di attività per lo sviluppo socio-culturale del Rione Sanità",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Servizio Laboratorio Educativa Territoriale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di un servizio di laboratorio educativo",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Opportunità formative con Imprenditori Di Sogni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riduzione del disagio e insuccesso scolastico",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CERH015004\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Villaggio Dei Ragazzi\" (CERH015004), con particolare attenzione alla dimensione dell'orientamento. L'istituto, di tipo **Professionale, Tecnico** e situato nel territorio **non metropolitano** di **Maddaloni** (Caserta, Campania), ha un focus sull'orientamento, come evidenziato dalla presenza di una sezione dedicata nel PTOF. L'anno di riferimento del PTOF è 2019/2020 – 2020/2021 - 2021/2022. L'istituto è **paritario** e si impegna a fornire un'offerta formativa completa, che include attività di orientamento, didattica innovativa e inclusione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento:** Il PTOF dedica una sezione specifica all'orientamento, dimostrando un'attenzione particolare a questo aspetto cruciale per la crescita degli studenti.\n\n**2.2 Partnership:** L'istituto vanta un solido network di **partnership** con numerosi enti e organizzazioni, tra cui **ASL**, **servizi sociali**, **parrocchie**, **associazioni**, **enti locali**, **fondazione ITS MIA MODA CAMPANIA**, la **rete TAM**, la **rete SCUOLE PER LA SANITA'**, **associazioni produttive**, **professioni**, **ricerca** e **Gesfor srl**. Questo elevato numero di collaborazioni (11 partner) suggerisce un forte impegno nel creare opportunità concrete per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e il **progetto di vita** degli studenti, facilitando le loro **transizioni formative** e fornendo loro le **capacità orientative** per cogliere le **opportunità** che si presentano.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e un sistema integrato per l'**inclusione** e la gestione delle **fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** e **laboratoriali espressive**, mentre quelle **ludiche-ricreative**, di **volontariato** e **sportive** risultano meno sviluppate.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è l'attenzione dedicata all'orientamento, supportata da una sezione specifica e da un ampio network di **partnership**. L'istituto dimostra un forte impegno nel fornire agli studenti gli strumenti necessari per affrontare le sfide del mondo del lavoro e per costruire il proprio futuro. Le attività come **Alternanza scuola lavoro**, **Metodologia dell'incontro** e **Orientattivamente** sono particolarmente rilevanti. L'impegno verso l'**inclusione** e la collaborazione con enti locali, come dimostrato dai progetti con la **Fondazione San Gennaro** e la **Cooperativa La Paranza**, rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'offerta di attività opzionali **ludiche-ricreative**, di **volontariato** e **sportive**, che sembrano meno sviluppate rispetto alle altre aree. Inoltre, il **monitoraggio delle azioni** potrebbe essere potenziato per garantire una valutazione efficace dell'impatto delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il divario tra le finalità dichiarate e la loro effettiva implementazione. Un maggiore focus sulle attività opzionali meno rappresentate e un sistema di monitoraggio più efficace potrebbero contribuire a migliorare l'efficacia del PTOF.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Villaggio Dei Ragazzi\" presenta un quadro complessivamente positivo, con un forte impegno verso l'orientamento, l'inclusione e la collaborazione con il territorio. L'istituto si distingue per la sua capacità di creare **partnership** significative e di offrire agli studenti un'ampia gamma di opportunità formative. Concentrandosi sul potenziamento delle aree di debolezza e sul miglioramento del sistema di monitoraggio, l'istituto potrà raggiungere risultati ancora più significativi nel supportare la crescita e lo sviluppo dei suoi studenti."
+}

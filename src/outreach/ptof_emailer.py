@@ -87,7 +87,7 @@ def get_default_template() -> str:
         "- verificare lo stato dell'elaborazione del PTOF: {verifica_invio_url}\n"
         "- richiedere una revisione: {richiedi_revisione_url}\n\n"
         "Indici utilizzati nell'analisi:\n"
-        "- IndiceIDPO(Robustezza dell'Orientamento): sintesi complessiva delle dimensioni valutate;\n"
+        "- IndiceIIPO(Robustezza dell'Orientamento): sintesi complessiva delle dimensioni valutate;\n"
         "- Finalita': chiarezza e coerenza delle finalita' orientative;\n"
         "- Obiettivi: definizione di obiettivi e risultati attesi;\n"
         "- Governance: organizzazione, ruoli e responsabilita' dell'orientamento;\n"

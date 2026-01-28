@@ -1,0 +1,258 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BSPS3I500U",
+    "denominazione": "Liceo Scientifico Quadriennale Guido Carli",
+    "tipo_scuola": "Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Brescia",
+    "anno_ptof": "2024-2028",
+    "provincia": "Brescia",
+    "regione": "Lombardia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Stretta 175",
+    "cap": "25136",
+    "email": "segreteria@liceoguidocarli.eu",
+    "pec": "liceoguidocarli_fondazioneaib@legalmail.it",
+    "website": "www.liceoguidocarli.eu"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Confindustria Brescia",
+        "Fondazione AIB",
+        "enti pubblici",
+        "associazioni",
+        "imprese",
+        "Forze di Polizia",
+        "centri di aggregazione giovanile",
+        "Università"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage in aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi PCTO in collaborazione con Confindustria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi preparazione test universitari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi specifici per test di ammissione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "90 ore PCTO nel triennio, cultura d'impresa, stage aziendali",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Viaggi studio all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Viaggi studio in UK, paese seconda lingua, paesi extraeuropei",
+      "target": "Tutti gli anni"
+    },
+    {
+      "titolo_attivita": "Orientamento Universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "30 ore annuali attività orientative, piattaforma Unica",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri individuali/gruppi famiglie",
+      "target": "Famiglie potenziali studenti"
+    },
+    {
+      "titolo_attivita": "Carli on stage",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività ludico-didattiche",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Prova di orientamento online",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test online con feedback",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage all'estero",
+      "categoria_principale": "Esperienza",
+      "descrizione_e_metodologia": "Due settimane di stage",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggio studio",
+      "categoria_principale": "Esperienza",
+      "descrizione_e_metodologia": "Una settimana di viaggio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione approfondita casi bullismo",
+      "categoria_principale": "Prevenzione e gestione bullismo",
+      "descrizione_e_metodologia": "Scheda di valutazione entro 3 giorni dalla segnalazione, coinvolgimento di più figure.",
+      "target": "Vittime, bulli, testimoni, genitori, insegnanti"
+    },
+    {
+      "titolo_attivita": "Percorsi di Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi interdisciplinari su Costituzione, sviluppo sostenibile, cittadinanza digitale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di Coding e Robotica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corso di livello Basic o Avanzato",
+      "target": "intera popolazione studentesca"
+    },
+    {
+      "titolo_attivita": "Vedere l’Arte Contemporanea",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Lezioni sul sistema economico dell’arte e visite guidate",
+      "target": "classi seconde e terze/quarte/quinte"
+    },
+    {
+      "titolo_attivita": "Tutti Al Cinema",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Sottoscrizione abbonamento Cinema Nuovo Eden",
+      "target": "classi seconde e terze/quarte/quinte"
+    },
+    {
+      "titolo_attivita": "Fai - Scuola Amica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione ad attività organizzate dal FAI",
+      "target": "classi selezionate"
+    },
+    {
+      "titolo_attivita": "Carli Week",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Redazione giornalino scolastico",
+      "target": "intera popolazione studentesca"
+    },
+    {
+      "titolo_attivita": "Lingua E Cultura Giapponese",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ciclo di incontri con docente madrelingua",
+      "target": "intera popolazione studentesca"
+    },
+    {
+      "titolo_attivita": "Corso Di Preparazione Test Universitari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi divisi in ambiti didattici",
+      "target": "classi terze/quarte e utenti esterni"
+    },
+    {
+      "titolo_attivita": "Corso Di Preparazione Alle Certificazioni Linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi di preparazione alle certificazioni",
+      "target": "studenti iscritti agli esami"
+    },
+    {
+      "titolo_attivita": "Corso Di Preparazione Alle Certificazioni Informatica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi di preparazione alla certificazione EIPASS",
+      "target": "studenti del secondo biennio e quinto anno"
+    },
+    {
+      "titolo_attivita": "Analisi delle competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Valutazione delle competenze degli studenti",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BSPS3I500U\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico Quadriennale Guido Carli** (BSPS3I500U) per il periodo 2024-2028. L'istituto, situato a **Brescia** in **Lombardia**, si configura come una scuola **paritaria** di secondo grado, operante in un contesto territoriale **non metropolitano**. La valutazione complessiva indica una buona attenzione all'orientamento, con una sezione dedicata ben definita e un punteggio di 7. Il PTOF evidenzia una solida rete di **partnership** e una chiara definizione delle finalità orientative, focalizzate sullo sviluppo di attitudini, interessi, progettazione del futuro, transizioni formative e capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento è un elemento positivo, come evidenziato dal punteggio di 7.\n\n**2.2 Partnership:** Il liceo vanta un network di **partnership** consolidato, che include **Confindustria Brescia**, la **Fondazione AIB**, **enti pubblici**, **associazioni**, **imprese**, le **Forze di Polizia**, **centri di aggregazione giovanile** e **Università**. Questo approccio collaborativo, con un totale di 7 partner nominati, rappresenta un valore aggiunto per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a supportare gli studenti nello sviluppo di **attitudini**, **interessi**, nella progettazione del loro **progetto di vita** e nelle **transizioni formative**, fornendo loro le **capacità orientative** necessarie per cogliere le **opportunità** future. Tutti gli aspetti valutati in questa sezione hanno ottenuto un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di continuità territoriale risulta più marcato, con un punteggio di 4, mentre gli altri obiettivi hanno ottenuto un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni di **coordinamento dei servizi**, **dialogo tra docenti e studenti**, rafforzamento del **rapporto scuola-genitori**, **monitoraggio delle azioni** intraprese e creazione di un **sistema integrato** per l'inclusione e la gestione delle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si avvale di approcci basati sull'esperienza degli studenti, laboratorialità, flessibilità degli spazi e dei tempi, e interdisciplinarità. L'approccio basato sull'esperienza e l'interdisciplinarità ricevono un punteggio di 4, mentre la laboratorialità e la flessibilità degli spazi e dei tempi un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale ed espressivo, ludico-ricreativo, di volontariato e sportivo. Le opzionali culturali e laboratoriali espressive ottengono un punteggio di 4, mentre le altre tipologie di opzionali un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella solida rete di **partnership** con il territorio, nella chiarezza delle finalità orientative e nell'integrazione di azioni di sistema che coinvolgono tutti gli attori della comunità scolastica. L'offerta di attività come **Stage in aziende**, **Corsi preparazione test universitari** e **PCTO** contribuisce a fornire agli studenti un'esperienza pratica e a prepararli per il futuro.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'**abbandono** e contrasto al fenomeno dei **NEET**, che hanno ottenuto un punteggio inferiore rispetto agli altri. Anche la didattica laboratoriale e la flessibilità degli spazi e dei tempi potrebbero essere ulteriormente potenziate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a prevenire l'**abbandono** scolastico e a contrastare il fenomeno dei **NEET**, attraverso interventi mirati e personalizzati. È inoltre auspicabile un maggiore investimento nella didattica laboratoriale e nella flessibilità degli spazi e dei tempi, per favorire un apprendimento più attivo e coinvolgente.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Scientifico Quadriennale Guido Carli** dimostra una buona attenzione all'orientamento, con una solida base teorica e una ricca offerta di attività. Il potenziamento delle aree di debolezza e il colmamento dei gap identificati consentirebbero di migliorare ulteriormente l'efficacia del sistema di orientamento e di fornire agli studenti un supporto ancora più completo e personalizzato nella loro crescita e nel loro percorso di vita. Attività come **Viaggi studio all'estero**, **Orientamento Universitario** e **Open day** sono elementi chiave per raggiungere questi obiettivi."
+}
