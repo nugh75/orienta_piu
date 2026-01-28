@@ -347,6 +347,52 @@ def rebuild_csv(logger: logging.Logger) -> None:
     )
 
 
+def sync_registry_with_disk(logger: logging.Logger) -> None:
+    """Sincronizza analysis_registry.json con i file in analysis_results/."""
+    logger.info("SYNC analysis_registry.json con file su disco")
+    subprocess.run(
+        [sys.executable, "-m", "src.utils.sync_registry"],
+        cwd=BASE_DIR,
+        check=False,
+    )
+
+
+def sync_activities_with_summary(logger: logging.Logger) -> None:
+    """Rimuove da attivita.csv le scuole non presenti in analysis_summary.csv."""
+    import pandas as pd
+
+    att_csv = DATA_DIR / "attivita.csv"
+    att_json = DATA_DIR / "attivita.json"
+
+    if not ANALYSIS_CSV.exists() or not att_csv.exists():
+        return
+
+    try:
+        summary = pd.read_csv(ANALYSIS_CSV)
+        valid_codes = set(summary['school_id'].unique())
+
+        att = pd.read_csv(att_csv)
+        before = len(att)
+        att_clean = att[att['codice_meccanografico'].isin(valid_codes)]
+        after = len(att_clean)
+
+        if before != after:
+            att_clean.to_csv(att_csv, index=False)
+            logger.info(f"SYNC attivita.csv: {before} -> {after} righe ({before - after} rimosse)")
+
+            if att_json.exists():
+                with open(att_json) as f:
+                    meta = json.load(f)
+                meta['total_activities'] = after
+                meta['schools_processed'] = int(att_clean['codice_meccanografico'].nunique())
+                with open(att_json, 'w') as f:
+                    json.dump(meta, f, indent=2, ensure_ascii=False)
+        else:
+            logger.info("SYNC attivita.csv: gia allineato con analysis_summary.csv")
+    except Exception as e:
+        logger.error(f"Errore sync attivita: {e}")
+
+
 def cap_selected_by_strato(
     selected_by_strato: Dict[str, List[str]],
     max_total: int,
@@ -817,6 +863,8 @@ def main() -> int:
             )
             logger.info("[PHASE] Update")
             rebuild_csv(logger)
+            logger.info("[PHASE] Sync Registry")
+            sync_registry_with_disk(logger)
 
         # Activity extraction phase
         if args.with_activity:
@@ -829,6 +877,8 @@ def main() -> int:
                 model=args.model_activity,
                 max_cost=args.max_cost_activity,
             )
+            logger.info("[PHASE] Sync Activities")
+            sync_activities_with_summary(logger)
 
         post_counts, _, missing_rows_post = load_analysis_counts()
         if missing_rows_post:

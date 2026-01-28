@@ -1144,8 +1144,8 @@
           <div class="metric-label">✅ Processed</div>
         </div>
         <div class="metric-card">
-          <div class="metric-value info" id="val-narrative">-</div>
-          <div class="metric-label">📝 Narrative</div>
+          <div class="metric-value info" id="val-cycles">-</div>
+          <div class="metric-label">🔄 Cicli completati</div>
         </div>
         <div class="metric-card">
           <div class="metric-value warning" id="val-discarded">-</div>
@@ -1355,8 +1355,8 @@
           document.getElementById("val-inbox").textContent = data.metrics.inbox;
           document.getElementById("val-processed").textContent =
             data.metrics.processed;
-          document.getElementById("val-narrative").textContent =
-            data.metrics.narrative;
+          document.getElementById("val-cycles").textContent =
+            data.metrics.cycle_current;
           document.getElementById("val-discarded").textContent =
             data.metrics.discarded;
           document.getElementById("val-iipo").textContent =

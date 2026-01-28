@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-28T06:41:01.826523",
+  "last_updated": "2026-01-28T12:57:12.105708",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -7758,6 +7758,114 @@
       "file_hash": "sha256:4fdfd42bdc5e06fc2c0c6d14694be8c42dcc8ac8d65b8f7d489f060e90204100",
       "processed_at": "2026-01-28T06:41:01.826514",
       "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "AV1E010005": {
+      "file_hash": "sha256:476c5adc1cb1d55fe848b8b657196e488a2811ac53c5c13b2dac7df4b22d5186",
+      "processed_at": "2026-01-28T09:55:35.107509",
+      "practices_count": 62,
+      "model_used": "qwen3:32b"
+    },
+    "BLPSMD500A": {
+      "file_hash": "sha256:4c71de39963cbb960e73aa76f9babd1f391b66a8961aab332ce492e8bae22854",
+      "processed_at": "2026-01-28T09:57:33.974078",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BO1A07600A": {
+      "file_hash": "sha256:3063ae3bd5bcb8323e9858da2d25d985fffd1c4228c7deb9fc576b087e982b3f",
+      "processed_at": "2026-01-28T10:00:25.753071",
+      "practices_count": 16,
+      "model_used": "qwen3:32b"
+    },
+    "BOPLUH500M": {
+      "file_hash": "sha256:cbfeae7a2951754b67cca8fbcdcaa9143876e3c8ff55507fcfbdbe24d21ef1ee",
+      "processed_at": "2026-01-28T10:02:28.773516",
+      "practices_count": 13,
+      "model_used": "qwen3:32b"
+    },
+    "BTPLS4500L": {
+      "file_hash": "sha256:4ad027e7a02be75f29fec1b7dfb4d5c8fec537516c156aeff6a6bf3578bf615c",
+      "processed_at": "2026-01-28T10:06:33.113912",
+      "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "CE1A306003": {
+      "file_hash": "sha256:b67f3587b5e2609359e8c82718a8277a4afeae6c23cb29fbd09464c09859a778",
+      "processed_at": "2026-01-28T10:09:40.221314",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "CETD43500Q": {
+      "file_hash": "sha256:cd5fda1783c1fdbf506d0743e6ff2b464853aece3a0c5a7a1bc1755f8502c110",
+      "processed_at": "2026-01-28T10:15:40.781211",
+      "practices_count": 41,
+      "model_used": "qwen3:32b"
+    },
+    "CHAA839053": {
+      "file_hash": "sha256:a3f7961bc9da2f188a5a20892c7497dbda4c2b7b7b17565b1dccbdef90bd517d",
+      "processed_at": "2026-01-28T10:20:09.383501",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "CHEE818046": {
+      "file_hash": "sha256:b9d21b793ba1260184bba211a7b649191d4cfe328f4017e80e657957f0e28ac4",
+      "processed_at": "2026-01-28T10:22:10.689965",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "CSPSVN500O": {
+      "file_hash": "sha256:3fc03b6ef008a0d922db5695d90c89a5a9f63ebb2010dd059002df1b0773a77e",
+      "processed_at": "2026-01-28T10:38:32.212252",
+      "practices_count": 107,
+      "model_used": "qwen3:32b"
+    },
+    "FR1A016005": {
+      "file_hash": "sha256:ab4e26d21a2262e0f6ceab3c0463a77361b091eb61384bc8fcef8d5e79d20819",
+      "processed_at": "2026-01-28T10:39:40.950717",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "FRTF2T500E": {
+      "file_hash": "sha256:730ee4d740cab462fa1534e1244a40673acfca4a83040b4bf25600e47cb53b2f",
+      "processed_at": "2026-01-28T10:43:46.700344",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "LE1AR0500E": {
+      "file_hash": "sha256:25eebeda143d44ec6bc824cf56cf0486a4ab12d4930898e70e78569ebf987097",
+      "processed_at": "2026-01-28T10:45:39.868063",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "MB1E03600B": {
+      "file_hash": "sha256:b703f5d46edda7f18b47c3e872e463b04e2a07c447dda4efb237c710d32f4903",
+      "processed_at": "2026-01-28T12:38:27.296508",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "ME1A85204A": {
+      "file_hash": "sha256:af7a8f10af870be76e76cc8a84fbda797fceafc9e179cce9cbcc2d6980b8f6a5",
+      "processed_at": "2026-01-28T12:46:49.732684",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "NA1E09100L": {
+      "file_hash": "sha256:7b26322354b56a447e10f3ee094cb18ebc55686fa9cd6fd9c77d8f23d7ab2ddc",
+      "processed_at": "2026-01-28T12:55:53.417025",
+      "practices_count": 26,
+      "model_used": "qwen3:32b"
+    },
+    "NAPS5M500T": {
+      "file_hash": "sha256:452552b78cdc637f9cfb005311e2e31aa18bae20451eb869a3e11e15b63d6170",
+      "processed_at": "2026-01-28T12:56:28.158988",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "NOPL6T5005": {
+      "file_hash": "sha256:5ef17cb351b551440026c58d9b88fcefcdd133eb4e1f6b67357ceba8a43d5a6a",
+      "processed_at": "2026-01-28T12:57:12.105700",
+      "practices_count": 5,
       "model_used": "qwen3:32b"
     }
   }

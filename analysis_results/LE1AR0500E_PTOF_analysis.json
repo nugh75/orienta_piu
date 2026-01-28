@@ -1,0 +1,224 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LE1AR0500E",
+    "denominazione": "Busy Bees Academy",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Lecce",
+    "anno_ptof": "2025-2028",
+    "provincia": "Lecce",
+    "regione": "Puglia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Lequile 68",
+    "cap": "73100",
+    "email": "info@busybeesacademy.it",
+    "pec": "busybees@pec.it",
+    "website": "www.ldavinci.org"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extra-curricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extra-curricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie.",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online dedicata agli studenti.",
+      "target": "Studenti classe II"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia.",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attivazione del Curriculum Ministeriale.",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Comunicazione via Teams.",
+      "target": "Studenti classi III e IV"
+    },
+    {
+      "titolo_attivita": "Eventi orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con università e imprese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con la Polizia Cantonale.",
+      "target": "Studenti liceo I e II"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione per attività giovanili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con rappresentanti di università",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto all’allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetti inerenti DSA e BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento progetti, raccordo con specialisti",
+      "target": "Alunni BES/DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF LE1AR0500E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Busy Bees Academy**, scuola dell'infanzia paritaria situata a Lecce, Puglia. Il PTOF, relativo all'anno **2025-2028**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di valutazione pari a 5. L'istituto si colloca in un contesto territoriale non metropolitano e si distingue per una vasta rete di **partnership** con enti, università e professionisti esterni. L'analisi approfondita delle diverse dimensioni dell'orientamento permette di identificare punti di forza, aree di debolezza e possibili gap da colmare per ottimizzare l'efficacia delle azioni intraprese.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione specificamente dedicata all'orientamento nel PTOF è un elemento positivo, indicando una chiara attenzione strategica verso questo ambito.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di **partnership**, che include **LAC**, **Museo in Erba**, la **Polizia Cantonale**, la **Croce Rossa**, diverse università (tra cui **Università Bocconi**, **Università della Svizzera Italiana**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Luiss Roma**) e specialisti esterni come **logopedisti**, **ergoterapisti**, **psicologi** e **neuropsichiatri**. Questo network di collaborazioni rappresenta una risorsa preziosa per arricchire l'offerta formativa e fornire agli studenti opportunità di orientamento diversificate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del **progetto di vita** e alla facilitazione delle **transizioni formative**, oltre a potenziare le **capacità orientative** rispetto alle opportunità disponibili.\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, si evidenzia l'intenzione di ridurre l'**abbandono** scolastico. Meno marcata è l'attenzione alla continuità territoriale e alla lotta al fenomeno dei **NEET**, così come allo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni intraprese. L'integrazione dei servizi di inclusione e fragilità, tuttavia, risulta meno sviluppata.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci interdisciplinari, ma risulta meno orientata all'apprendimento dall'esperienza diretta degli studenti o all'utilizzo di metodologie laboratoriali e flessibili.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali espressive** e **ludico-ricreative**. Meno sviluppate sono le opportunità legate al **volontariato** e allo **sport**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** instaurate dalla scuola, che consentono di offrire agli studenti un'ampia gamma di opportunità di orientamento e di collegamento con il mondo del lavoro e dell'istruzione superiore. La presenza di una sezione dedicata all'orientamento e l'attenzione alle finalità di sviluppo personale e professionale degli studenti rappresentano ulteriori elementi positivi. L'offerta di attività extra-curricolari come i **Corsi di lingue** e **Musica** arricchisce il percorso formativo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la scarsa attenzione ad alcuni obiettivi specifici, come la continuità territoriale e la lotta al fenomeno dei NEET, e la limitata implementazione di metodologie didattiche innovative e orientate all'esperienza diretta. L'integrazione dei servizi di inclusione e fragilità appare meno strutturata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi dichiarati in azioni concrete e misurabili, con particolare riferimento alla riduzione dell'abbandono scolastico e alla promozione del lifelong learning. È inoltre necessario potenziare l'offerta di attività opzionali e facoltative legate al volontariato e allo sport, e sviluppare metodologie didattiche più innovative e orientate all'esperienza diretta. L'implementazione di progetti come lo **Sportello supporto DSA/BES**, **Progetto 'MiOriento'**, **Progetto 'MiAssumo'**, **Percorso Competenze Trasversali**, **Curriculum dello Studente** e **Chat Orientamento** sono passi importanti, ma necessitano di un monitoraggio costante per valutarne l'efficacia.\n\n### 6. Conclusioni\n\nIl PTOF della **Busy Bees Academy** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento, grazie alla presenza di una sezione dedicata, alla vasta rete di **partnership** e all'attenzione alle finalità di sviluppo personale e professionale degli studenti. Tuttavia, è necessario colmare le lacune individuate, potenziando l'offerta di attività opzionali e facoltative, implementando metodologie didattiche innovative e orientate all'esperienza diretta, e traducendo gli obiettivi dichiarati in azioni concrete e misurabili. Progetti come **Gruppo Visione Giovani**, **Collaborazione con centro giovanile Ufo Saronno**, **Progetto domotica e robotica**, **Incontri con università italiane e straniere**, **Sportello di ascolto e supporto all’allievo** e **Progetti inerenti DSA e BES** rappresentano un valido punto di partenza per un'azione di miglioramento continuo."
+}

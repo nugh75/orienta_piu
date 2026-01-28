@@ -1,0 +1,265 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RG1A4H500A",
+    "denominazione": "Sc. Inf. \"Bambi\" Soc. Coop.",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Vittoria",
+    "anno_ptof": "2020-2021",
+    "provincia": "Ragusa",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Palestro N. 611",
+    "cap": "97019",
+    "email": "simona.micieli@alice.it",
+    "pec": "ND",
+    "website": "www.icbuonarroticorsico.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento sparse nel documento."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Comune",
+        "Carabinieri",
+        "Polizia Locale",
+        "Comitato Genitori",
+        "Associazioni sportive",
+        "Parrocchie",
+        "ASL",
+        "Università Bicocca",
+        "Università Cattolica",
+        "Università di Genova",
+        "Propositi di filosofia s.n.c.",
+        "Lipu",
+        "WWF",
+        "Bioparchi",
+        "Amsa"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 6
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 6
+      },
+      "opzionali_volontariato": {
+        "score": 6
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a musei, mostre, spettacoli",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Tirocinio professionalizzante",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende e enti",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti di potenziamento DSA/BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi personalizzati",
+      "target": "Alunni DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetti di valorizzazione eccellenze",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Percorsi specifici",
+      "target": "Alunni con eccellenze"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite presso aziende locali per conoscere il mondo del lavoro.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti di diversi settori.",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto PAI",
+      "categoria_principale": "Recupero Apprendimenti",
+      "descrizione_e_metodologia": "Integrazione e recupero apprendimenti non consolidati",
+      "target": "Alunni Primaria e Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Attività di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali, incontri con professionisti",
+      "target": "Studenti Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Formazione interna: coding",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione e uso del coding nella didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Eventi aperti al territorio",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Eventi sui temi del PNSD (sicurezza, uso social)",
+      "target": "Famiglie e alunni"
+    },
+    {
+      "titolo_attivita": "Creazione laboratorio coding",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Creazione di un laboratorio per il coding",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visita ad un bene confiscato alla mafia",
+      "categoria_principale": "Legalità",
+      "descrizione_e_metodologia": "Lettura storia, conversazione, abbraccio dell'albero nel giardino",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Pulizia del giardino",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Pulizia del giardino e raccolta differenziata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Visita in biblioteca",
+      "categoria_principale": "Promozione lettura",
+      "descrizione_e_metodologia": "Visita guidata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Abbraccio dell'albero",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Lettura storia, conversazione, abbraccio dell'albero nel giardino",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto sull’affettività",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "con esperti consultorio",
+      "target": "Classi Terze"
+    },
+    {
+      "titolo_attivita": "Progetto CCR",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Consiglio Comunale dei Ragazzi",
+      "target": "Classi Quarte"
+    },
+    {
+      "titolo_attivita": "Lettura storie a tema",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Letture di storie a tema per sensibilizzare i bambini",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visione di filmati",
+      "categoria_principale": "Audiovisivo",
+      "descrizione_e_metodologia": "Visione di filmati a tema per sensibilizzare i bambini",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Raccolta di alimenti",
+      "categoria_principale": "Solidarietà",
+      "descrizione_e_metodologia": "Raccolta di alimenti per i più bisognosi",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Realizzazione dello striscione",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Realizzazione dello striscione 'Linee che si incontrano'",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Ricerca di immagini",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Ricerca di immagini di azioni solidali",
+      "target": "Bambini"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RG1A4H500A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della scuola dell'infanzia “Bambi” Soc. Coop. (ID: RG1A4H500A), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno 2020-2021, mostra un impegno significativo verso l'orientamento, sebbene con alcune aree che necessitano di ulteriore sviluppo. La scuola, situata a Vittoria (Ragusa) in Sicilia, è una realtà paritaria che opera in un contesto territoriale non metropolitano. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività specifiche implementate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, sebbene le attività siano sparse all'interno del documento, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola dimostra una forte capacità di collaborare con numerosi partner esterni, tra cui il **Comune**, le forze dell'ordine (**Carabinieri**, **Polizia Locale**), il **Comitato Genitori**, diverse **associazioni sportive**, **parrocchie**, l'**ASL**, e persino diverse **Università** (Bicocca, Cattolica, Genova), oltre a enti come **Propositi di filosofia s.n.c.**, **Lipu**, **WWF**, **Bioparchi** e **Amsa**. Questo ampio ventaglio di collaborazioni, per un totale di 15 partner, rappresenta un punto di forza significativo.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (6), **interessi** (6), **capacità orientative** e opportunità (6), e per la preparazione alle **transizioni formative** (6). L'attenzione al **progetto di vita** degli studenti risulta meno sviluppata, con un punteggio di 3.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono ambiziosi e mirati, con l'intenzione di **ridurre l'abbandono** scolastico (6), garantire la **continuità territoriale** (6), **contrastare il fenomeno NEET** (6). L'attenzione al **lifelong learning** è presente, ma meno marcata (3).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento sono solide, con un focus sul **coordinamento dei servizi** (6), il **dialogo tra docenti e studenti** (6), il **rapporto scuola-genitori** (6), il **monitoraggio delle azioni** (6) e la creazione di un **sistema integrato di inclusione e fragilità** (6).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci efficaci, come l'apprendimento **da esperienza** degli studenti (6), la **flessibilità degli spazi e dei tempi** (6), e l'**interdisciplinarità** (6). L'utilizzo della **didattica laboratoriale** appare meno frequente (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali** (6), **laboratoriali ed espressive** (6), **ludiche e ricreative** (6), di **volontariato** (6) e **sportive** (6).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate dalla scuola, che offre agli studenti numerose opportunità di contatto con il mondo esterno. L'impegno verso le **finalità** e gli **obiettivi** dell'orientamento è evidente, così come la solidità delle **azioni di sistema** implementate. L'offerta di **attività opzionali** diversificate contribuisce a personalizzare l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la scarsa attenzione al **progetto di vita** degli studenti come finalità esplicita dell'orientamento. Inoltre, la didattica **laboratoriale** sembra meno sviluppata rispetto ad altri approcci didattici. Infine, le attività di orientamento, pur presenti, appaiono sparse nel documento e non sempre integrate in un piano coerente.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare la connessione tra le attività di orientamento e la progettazione del futuro degli studenti, aiutandoli a definire i propri interessi e aspirazioni. È necessario incrementare l'utilizzo della didattica laboratoriale per favorire l'apprendimento pratico e l'acquisizione di competenze specifiche.\n\n### 6. Conclusioni\n\nIl PTOF della scuola “Bambi” Soc. Coop. presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La scuola dimostra un forte impegno verso la preparazione degli studenti al futuro, grazie a una solida rete di partnership, finalità e obiettivi ben definiti, e azioni di sistema efficaci. Tuttavia, è necessario colmare le lacune individuate, rafforzando l'attenzione al progetto di vita degli studenti e incrementando l'utilizzo della didattica laboratoriale, per garantire un'offerta formativa ancora più completa e personalizzata. Le attività registrate, come le **visite guidate**, il **tirocinio professionalizzante**, i progetti di **inclusione** e **potenziamento**, le **visite aziendali**, gli **incontri con professionisti**, il progetto **PAI**, le attività di **orientamento**, la **formazione interna** sul **coding**, gli **eventi aperti al territorio**, la creazione del **laboratorio coding**, la **visita ad un bene confiscato alla mafia**, le attività di **educazione ambientale** e **civica**, la **promozione della lettura** e le iniziative di **solidarietà**, testimoniano un impegno concreto verso la crescita integrale degli studenti."
+}

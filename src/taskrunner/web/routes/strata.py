@@ -144,10 +144,20 @@ def status():
     try:
         # Basic Metrics
         inbox_count = len(list(INBOX_DIR.glob("*.pdf")))
-        
+
+        # Fonte di verita: analysis_summary.csv (allineato a Sintesi Streamlit)
+        analysis_csv_path = BASE_DIR / "data" / "analysis_summary.csv"
+        processed_count = 0
+        if analysis_csv_path.exists():
+            try:
+                with open(analysis_csv_path, "r", encoding="utf-8") as f:
+                    processed_count = max(0, sum(1 for line in f if line.strip()) - 1)
+            except:
+                processed_count = 0
+
+        # Registry usato solo per dettagli (recent files, narrative_count)
         registry = load_registry()
         analyzed_files = registry.get("analyzed_files", {})
-        processed_count = len(analyzed_files)
             
         discarded_count = 0
         for r, d, f in os.walk(DISCARDED_DIR):
@@ -155,8 +165,19 @@ def status():
                 if file.endswith(".pdf"):
                     discarded_count += 1
                     
-        narrative_count = sum(1 for code, data in analyzed_files.items() if data.get("reviews"))
-        
+        # Cycle info from strata_cycle_state.json
+        cycle_current = 0
+        cycle_target = 0
+        cycle_state_path = BASE_DIR / "data" / "strata_cycle_state.json"
+        if cycle_state_path.exists():
+            try:
+                with open(cycle_state_path, "r", encoding="utf-8") as f:
+                    cycle_state = json.load(f)
+                cycle_current = cycle_state.get("cycle_id", 0)
+                cycle_target = cycle_state.get("target_total", 0)
+            except:
+                pass
+
         # Progress calculation
         total_known = processed_count + inbox_count
         progress_pct = round((processed_count / total_known * 100), 1) if total_known > 0 else 0
@@ -194,10 +215,11 @@ def status():
         # 1. Load from main analysis registry ONLY
         if analyzed_files:
             for code, data in analyzed_files.items():
+                date_val = data.get("last_review") or data.get("analyzed_at") or ""
                 recent.append({
                     "code": code,
                     "name": data.get("pdf_name", "N/A"),
-                    "date": data.get("analyzed_at", ""),
+                    "date": date_val,
                     "reviews": len(data.get("reviews", [])),
                     "source": "registry"
                 })
@@ -247,7 +269,8 @@ def status():
                 "inbox": inbox_count,
                 "processed": processed_count,
                 "discarded": discarded_count,
-                "narrative": narrative_count,
+                "cycle_current": cycle_current,
+                "cycle_target": cycle_target,
                 "avg_iipo": avg_iipo,
                 "iipo_min": iipo_min,
                 "iipo_max": iipo_max,

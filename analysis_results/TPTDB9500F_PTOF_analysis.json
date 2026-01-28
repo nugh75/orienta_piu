@@ -1,0 +1,227 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "TPTDB9500F",
+    "denominazione": "Istituto Tecnico Economico Afm - Sia Nikola Tesla",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Isole",
+    "territorio": "Non Metropolitano",
+    "comune": "Erice",
+    "anno_ptof": "2022-2025",
+    "provincia": "Trapani",
+    "regione": "Sicilia",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Cosenza 129",
+    "cap": "91016",
+    "email": "duilio.pecorella@antemar.eu",
+    "pec": "ND",
+    "website": "www.cpiabenevento.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Esplicita attenzione all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Associazioni",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "famiglie",
+        "mediatori culturali",
+        "IIS Alberti Benevento",
+        "IIS Galilei-Vetrone Benevento",
+        "IIS Rampone–Palmieri–Polo Benevento",
+        "IPSAR Le Streghe Benevento",
+        "IIS Lombardi Airola",
+        "IIS Carafa Giustiniani Cerreto Sannita",
+        "Iis Faicchio Faicchio",
+        "I.T.I. Lucarelli Benevento",
+        "IIS AM de' Liguori Sant'Agata Dei Goti",
+        "IIS Medi S. Bartolomeo In Galdo",
+        "IIS Don Peppino Diana Morcone",
+        "ISS Faicchio-Castelvenere",
+        "ReTAP Campania"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 1
+      },
+      "finalita_interessi": {
+        "score": 1
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "acquisto e utilizzo droni, microscopi, telescopi, VR/AR, stampanti 3D",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Didattica esperienziale, apprendimento basato sull'indagine e problem-solving.",
+      "target": "Studenti CPIA"
+    },
+    {
+      "titolo_attivita": "Curricolo Verticale Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso formativo organico per cittadini responsabili.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Test di conoscenza lingua italiana",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Test per permesso di soggiorno",
+      "target": "Stranieri"
+    },
+    {
+      "titolo_attivita": "Test verifica accordo integrazione",
+      "categoria_principale": "Alfabetizzazione",
+      "descrizione_e_metodologia": "Verifica DPR 179/2011",
+      "target": "Stranieri"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse",
+      "target": "Apprendenti IPMA"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Conoscenza del mezzo informatico e delle sue parti. Apprendimento tramite attività pratiche e cooperazione tra pari.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Trinity Exams",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Migliorare abilità audio-orali, incrementare indipendenza comunicativa, consolidare conoscenze grammaticali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Di Italiano L2 Livello B1",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistico-comunicative L2 livello B1. Incontri settimanali.",
+      "target": "Apprendenti stranieri"
+    },
+    {
+      "titolo_attivita": "L’Intercultura Che Include",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Letture italiane per stranieri. Facilitare apprendimento seconda lingua, socializzazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Teatro Educativo",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Creare ponti comunicativi tra personalità. Attività teatrali con IPSAR 'Le Streghe'.",
+      "target": "Alunni CPIA e IPSAR"
+    },
+    {
+      "titolo_attivita": "Fragnetnomusic",
+      "categoria_principale": "Musica e Italiano",
+      "descrizione_e_metodologia": "Percorso multidisciplinare di musica ed italiano per apprendenti della sede associata di Fragneto Monforte.",
+      "target": "Apprendenti sede associata Fragneto Monforte"
+    },
+    {
+      "titolo_attivita": "‘Parlo Inglese’",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Percorsi di Garanzia delle Competenze (PdGC) per adulti. Attestazione frequenza.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Accordo ISS Faicchio-Castelvenere e CPIA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Raccordo percorsi Primo e Secondo livello, riconoscimento competenze",
+      "target": "Studenti Primo e Secondo livello"
+    },
+    {
+      "titolo_attivita": "Accordo ISS Alberti e CPIA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Raccordo percorsi Primo e Secondo livello, riconoscimento competenze",
+      "target": "Studenti Primo e Secondo livello"
+    },
+    {
+      "titolo_attivita": "ReTAP Campania",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Promozione formazione permanente, orientamento, ampliamento offerta formativa",
+      "target": "Personale scolastico e adulti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF TPTDB9500F\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Istituto Tecnico Economico Afm - Sia Nikola Tesla** (TPTDB9500F), relativo al triennio 2022-2025. L'istituto, di tipo **Professionale** e operante nel secondo grado, si trova nel territorio **non metropolitano** di **Erice** (Trapani), in **Sicilia**. L'analisi evidenzia un'esplicita attenzione all'orientamento, con un punteggio di 3 su una scala non specificata, e una forte rete di **partnership** con diverse realtà del territorio e non solo. L'istituto dimostra un impegno nella definizione di **finalità** orientative che toccano ambiti quali attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento del PTOF si articola su diverse dimensioni. Per quanto riguarda gli **obiettivi**, si riscontra un punteggio di 3 per la riduzione dell'**abbandono** scolastico, la continuità territoriale e il contrasto al fenomeno **NEET**, mentre l'obiettivo di promuovere il **lifelong learning** ottiene un punteggio più elevato, pari a 4. Le **azioni** previste dal sistema orientativo sono ben strutturate, con punteggi di 4 per il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione di interventi di inclusione e supporto alla fragilità.\n\nLa **didattica orientativa** si basa su metodologie esperienziali, laboratoriali, flessibili e interdisciplinari, tutte valutate con un punteggio di 4. L'offerta di **opzionali** e attività facoltative comprende ambiti culturali, laboratoriali espressivi, ludico-ricreativi, di volontariato e sportivi, con punteggi variabili tra 3 e 4.\n\n### 3. Punti di Forza\n\nUn punto di forza significativo è la vasta rete di **partnership** attivate dall'istituto, che include **associazioni**, **enti locali**, il **terzo settore**, le **comunità di origine**, le **famiglie**, i **mediatori culturali** e numerosi istituti superiori della regione Campania, tra cui l'**IIS Alberti Benevento**, l'**IIS Galilei-Vetrone Benevento**, l'**IIS Rampone–Palmieri–Polo Benevento**, l'**IPSAR Le Streghe Benevento**, l'**IIS Lombardi Airola**, l'**IIS Carafa Giustiniani Cerreto Sannita**, l'**Iis Faicchio Faicchio**, l'**I.T.I. Lucarelli Benevento**, l'**IIS AM de' Liguori Sant'Agata Dei Goti**, l'**IIS Medi S. Bartolomeo In Galdo**, l'**IIS Don Peppino Diana Morcone**, l'**ISS Faicchio-Castelvenere** e **ReTAP Campania**. Questa collaborazione estesa permette di ampliare l'offerta formativa e orientativa, offrendo agli studenti maggiori opportunità di crescita e sviluppo. L'impegno verso il **lifelong learning** e l'utilizzo di metodologie didattiche innovative, come l'apprendimento basato sull'esperienza, rappresentano ulteriori elementi positivi.\n\n### 4. Aree di Debolezza\n\nNonostante i punti di forza, si evidenzia una certa uniformità nei punteggi relativi alle finalità orientative, che si attestano tutte a 1. Questo suggerisce una possibile necessità di definire in modo più specifico e differenziato le finalità dell'orientamento, in relazione alle diverse esigenze e caratteristiche degli studenti.\n\n### 5. Gap Analysis\n\nL'analisi delle **activities register** rivela un'ampia gamma di iniziative, tra cui l'**acquisto e utilizzo di droni, microscopi, telescopi, VR/AR, stampanti 3D** per attività **STEM**, il **Curricolo Verticale Educazione Civica**, **test di conoscenza lingua italiana** e **verifica accordo integrazione** per studenti stranieri, **uscite didattiche**, **laboratorio di informatica**, il **Progetto Trinity Exams**, il **Progetto Di Italiano L2 Livello B1**, **L’Intercultura Che Include**, **Teatro Educativo**, **Fragnetnomusic**, **‘Parlo Inglese’**, accordi con l'**ISS Faicchio-Castelvenere** e l'**ISS Alberti** per il raccordo tra i diversi livelli scolastici, e la collaborazione con **ReTAP Campania** per la formazione permanente. Tuttavia, sarebbe utile integrare queste attività con interventi specifici volti a potenziare le competenze trasversali e le soft skills degli studenti, al fine di favorire la loro inseribilità nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Tecnico Economico Afm - Sia Nikola Tesla dimostra un'attenzione significativa all'orientamento, supportata da una solida rete di **partnership** e da un'offerta formativa diversificata. Pur riconoscendo alcune aree di miglioramento, l'istituto si presenta come una realtà scolastica dinamica e proattiva, impegnata a fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e costruire il proprio **progetto di vita**."
+}

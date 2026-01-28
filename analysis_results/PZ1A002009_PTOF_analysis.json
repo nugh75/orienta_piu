@@ -1,0 +1,229 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZ1A002009",
+    "denominazione": "Scuola Materna Paritaria \"E. Gianturco\"Avigliano",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Avigliano",
+    "anno_ptof": "2019/2020,2020/2021,2022/2023,2023/2024,2024/2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Paritaria",
+    "indirizzo": "Via Pacini 9",
+    "cap": "85021",
+    "email": "asiloinfantileegianturco@virgilio.it",
+    "pec": "asiloinfantilegianturco@pec.basilicatanet.it",
+    "website": "www.asiloinfantilegianturco.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Esplicita attenzione all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti locali",
+        "associazioni dei genitori",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "Associazioni",
+        "Enti del terzo settore",
+        "Università"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica metacognitiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Imparare ad imparare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro concordato tra docenti, verifiche comuni.",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano, approccio multimediale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro per moduli, apprendimento personalizzato.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Individualizzata/Personalizzata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Recupero, potenziamento, attenzione alle differenze.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Cittadinanza e Costituzione, diritti umani",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scienze della terra",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Studio del territorio, Vesuvio, Campi Flegrei",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scienze biologiche",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Cellula, virus, pandemia, armi chimiche",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento e PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze in azienda",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti in uscita"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi multidisciplinari su temi trasversali",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZ1A002009\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della Scuola Materna Paritaria “E. Gianturco” di Avigliano (PZ1A002009), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre gli anni scolastici 2019/2020, 2020/2021, 2022/2023, 2023/2024 e 2024/2025. L'istituto, di tipo Infanzia e situato in un territorio non metropolitano della regione Basilicata, dimostra un'esplicita attenzione all'**inclusione**, come evidenziato da un punteggio di 7 nella sezione dedicata all'orientamento. La scuola collabora con una vasta gamma di partner, tra cui **enti locali**, **associazioni dei genitori**, **realtà istituzionali, culturali, sociali ed economiche**, **imprese**, **professionisti**, **ordini**, **associazioni**, **enti del terzo settore** e **università**, per un totale di 10 partnership.\n\n### 2. Analisi Dimensionale\n\n**2.1 Finalità:** Il PTOF attribuisce un buon valore alle finalità legate allo sviluppo delle **attitudini** e degli **interessi** degli studenti (punteggio 6), ma pone un'enfasi maggiore sul **progetto di vita** (punteggio 7). Le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risultano leggermente meno prioritarie (punteggio 5 e 6 rispettivamente).\n\n**2.2 Obiettivi:** La scuola si pone l'obiettivo di ridurre l'**abbandono scolastico** (punteggio 6), ma anche di garantire la continuità territoriale e contrastare il fenomeno dei **NEET** (punteggio 5 per entrambi). Un obiettivo particolarmente rilevante è quello di promuovere il **lifelong learning** (punteggio 7), sottolineando l'importanza dell'apprendimento continuo.\n\n**2.3 Azioni di Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 5), di **dialogo tra docenti e studenti** (punteggio 6) e di rafforzamento del **rapporto scuola-genitori** (punteggio 6). Il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio di 5.\n\n**2.4 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 7), sull'utilizzo di **laboratori** (punteggio 6) e sulla flessibilità degli spazi e dei tempi (punteggio 6). L'approccio **interdisciplinare** è considerato un elemento importante (punteggio 6).\n\n**2.5 Opzionali e Facoltative:** Le attività opzionali e facoltative mostrano una minore attenzione alle aree **culturali** e **ludico-ricreative** (punteggio 3), mentre sono più sviluppate quelle **laboratoriali-espressive** e di **volontariato** (punteggio 5). Le attività **sportive** ricevono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nell'attenzione all'**inclusione**, nella vasta rete di **partnership** attivate e nella valorizzazione del **lifelong learning**. L'approccio didattico basato sull'esperienza degli studenti e sull'utilizzo di **laboratori** rappresenta un elemento positivo. Le attività come **Progetto accoglienza classi prime** e lo **Sportello BES** dimostrano un impegno concreto verso l'orientamento e l'inclusione.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano la minore attenzione alle finalità legate alle **transizioni formative** e alla necessità di rafforzare le attività opzionali in ambito **culturale** e **ludico-ricreativo**. Il punteggio relativamente basso degli obiettivi di contrasto ai **NEET** e di continuità territoriale suggerisce la necessità di approfondire questi aspetti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di integrare maggiormente le attività di orientamento con il territorio e con il mondo del lavoro, anche in vista delle future scelte formative degli studenti. È importante potenziare le attività di **PCTO** e di **job placement**, come già previsto, ma anche sviluppare progetti specifici per favorire la continuità territoriale e prevenire l'abbandono scolastico.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Materna Paritaria “E. Gianturco” presenta un quadro complessivamente positivo, con un'attenzione particolare all'**inclusione** e all'orientamento. L'istituto dimostra una buona capacità di collaborare con diversi partner e di offrire un'ampia gamma di attività didattiche e formative. Per migliorare ulteriormente l'efficacia del PTOF, è necessario rafforzare le attività di orientamento verso il mondo del lavoro e del territorio, e potenziare le attività opzionali in ambito culturale e ludico-ricreativo. L'implementazione di progetti come **UDA con valenza orientante** e l'utilizzo di strumenti come la **LIM** rappresentano un valore aggiunto per la comunità scolastica."
+}
