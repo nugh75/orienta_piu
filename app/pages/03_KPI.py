@@ -456,32 +456,42 @@ st.subheader("⚖️ Confronti territoriali")
 geo_cols = st.columns(1)
 
 with geo_cols[0]:
-    st.markdown("#### Nord vs Centro vs Sud")
-    st.caption("Nord = Nord Ovest + Nord Est | Centro = Centro | Sud = Sud + Isole")
+    st.markdown("#### Ripartizione Geografica (ISTAT)")
+    st.caption("Confronto tra le 5 aree geografiche ufficiali")
     if 'area_geografica' in df.columns:
         df_area = df.copy()
         df_area['ro'] = pd.to_numeric(df_area[idx_col], errors='coerce')
 
-        def _area_macro(value):
+        # Normalizzazione aree (5 ISTAT)
+        def _area_clean(value):
             if pd.isna(value):
                 return None
             val = str(value).strip()
-            if val in ("Nord Ovest", "Nord Est"):
-                return "Nord"
-            if val == "Centro":
-                return "Centro"
-            if val in ("Sud", "Isole"):
-                return "Sud"
-            return None
+            # Standardizza i nomi se necessario
+            if val.lower() in ("nord ovest", "nord-ovest"): return "Nord Ovest"
+            if val.lower() in ("nord est", "nord-est"): return "Nord Est"
+            if val.lower() == "centro": return "Centro"
+            if val.lower() == "sud": return "Sud"
+            if val.lower() == "isole": return "Isole"
+            # Fallback per varianti o nuovi dati
+            return val if val else None
 
-        df_area['area_macro'] = df_area['area_geografica'].apply(_area_macro)
-        df_area = df_area.dropna(subset=['ro', 'area_macro'])
-        area_stats = df_area.groupby('area_macro')['ro'].agg(['mean', 'count']).reset_index()
+        df_area['area_istat'] = df_area['area_geografica'].apply(_area_clean)
+        # Filtra solo le 5 aree note per evitare 'None' o sporcizia
+        valid_areas = ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]
+        df_area = df_area[df_area['area_istat'].isin(valid_areas)]
+        
+        df_area = df_area.dropna(subset=['ro', 'area_istat'])
+        area_stats = df_area.groupby('area_istat')['ro'].agg(['mean', 'count']).reset_index()
         area_stats.columns = ['Area', 'Media', 'N. Scuole']
         area_stats['Media'] = area_stats['Media'].round(2)
 
-        metric_cols = st.columns(3)
-        for idx, area in enumerate(["Nord", "Centro", "Sud"]):
+        # Visualizzazione Metriche (5 colonne)
+        metric_cols = st.columns(5)
+        # Ordine logico geografico: NO, NE, C, S, I
+        ordered_areas = ["Nord Ovest", "Nord Est", "Centro", "Sud", "Isole"]
+        
+        for idx, area in enumerate(ordered_areas):
             with metric_cols[idx]:
                 row = area_stats[area_stats['Area'] == area]
                 if not row.empty:
@@ -502,9 +512,9 @@ with geo_cols[0]:
             )
             fig_area.update_layout(
                 showlegend=False,
-                height=260,
+                height=300,
                 xaxis_range=[1, 7],
-                yaxis=dict(categoryorder="array", categoryarray=["Nord", "Centro", "Sud"])
+                yaxis=dict(categoryorder="array", categoryarray=ordered_areas[::-1]) # Invertito per visualizzazione bar chart (top-down)
             )
             st.plotly_chart(fig_area, use_container_width=True)
 
@@ -512,14 +522,14 @@ with geo_cols[0]:
                 area_stats,
                 names='Area',
                 values='N. Scuole',
-                title="Distribuzione Nord/Centro/Sud",
+                title="Distribuzione per Area",
                 hole=0.4,
-                category_orders={"Area": ["Nord", "Centro", "Sud"]}
+                category_orders={"Area": ordered_areas}
             )
-            fig_area_pie.update_layout(height=260, margin=dict(l=0, r=0, t=40, b=0))
+            fig_area_pie.update_layout(height=300, margin=dict(l=0, r=0, t=40, b=0))
             st.plotly_chart(fig_area_pie, use_container_width=True)
         else:
-            st.info("Dati insufficienti per il confronto Nord/Centro/Sud.")
+            st.info("Dati insufficienti per il confronto geografico.")
     else:
         st.info("Colonna 'area_geografica' non disponibile nel dataset.")
 
