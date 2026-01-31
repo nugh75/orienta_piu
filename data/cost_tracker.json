@@ -4,15 +4,15 @@
   "phases": {
     "workflow": {
       "cost": 0.0,
-      "input_tokens": 116072,
-      "output_tokens": 14220,
-      "calls": 14,
+      "input_tokens": 3071347,
+      "output_tokens": 445000,
+      "calls": 347,
       "provider": "ollama",
       "model": "gemma3:27b",
-      "last_updated": "2026-01-31T10:45:10.718244"
+      "last_updated": "2026-01-31T13:02:36.320849"
     }
   },
   "total_cost": 0.0,
-  "total_input_tokens": 116072,
-  "total_output_tokens": 14220
+  "total_input_tokens": 3071347,
+  "total_output_tokens": 445000
 }

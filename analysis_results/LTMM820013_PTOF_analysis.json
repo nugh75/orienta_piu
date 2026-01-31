@@ -1,0 +1,194 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LTMM820013",
+    "denominazione": "Sc. Media L.Da Vinci S.Felice",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "San Felice Circeo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Gino Rossi",
+    "cap": "04017",
+    "email": "ltic820002@istruzione.it",
+    "pec": "ND",
+    "website": "www.circeoscuola.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "ITS “M. Buonarroti”",
+        "I.C. “L. Settembrini”",
+        "Casa Circondariale “Gennaro De Angelis”",
+        "I.C. “Bosco”",
+        "I.T.E. “A. Gallo”",
+        "I.C.S. “L.V. Beethoven”",
+        "Scuola Sec. I Grado “M. Stanzione”",
+        "I.C.S. “V. Rocco - Cav. Cinquegrana”",
+        "Scuola Sec. I Grado “S. G. Bosco”",
+        "Casa di Reclusione di Aversa",
+        "I.C. “Lucilio”",
+        "I.S.I.S.S. “Foscolo”",
+        "Complesso San Domenico",
+        "I.C. “Leonardo Da Vinci”",
+        "Centro Immigrati Campania “Fernandes”",
+        "Istituzioni scolastiche secondarie di secondo grado"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Accoglienza dell’utenza dei corsi di italiano L2",
+      "categoria_principale": "Accoglienza e Orientamento",
+      "descrizione_e_metodologia": "Ascolto dei bisogni formativi, presentazione del corso, prove d'ingresso, patto formativo.",
+      "target": "Adulti stranieri"
+    },
+    {
+      "titolo_attivita": "Accoglienza/posizionamento nei corsi di primo livello",
+      "categoria_principale": "Accoglienza e Orientamento",
+      "descrizione_e_metodologia": "Colloquio iniziale, modulo propedeutico, riconoscimento crediti, patto formativo.",
+      "target": "Adulti e giovani adulti"
+    },
+    {
+      "titolo_attivita": "Test d'ingresso",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Test per accertare livello lingua italiana",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Patto Formativo Individuale",
+      "categoria_principale": "Personalizzazione",
+      "descrizione_e_metodologia": "Elaborazione patto formativo personalizzato",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Corsi Brevi Modulari (C.B.M.)",
+      "categoria_principale": "Formazione Linguistica",
+      "descrizione_e_metodologia": "Corsi di lingua spagnola, arte, informatica, matematica",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Progetti di Ampliamento",
+      "categoria_principale": "Progetti Territoriali",
+      "descrizione_e_metodologia": "Progetti per potenziare l'offerta formativa",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Attività di formazione interna",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori formativi, individuazione formatori, animazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento comunità scolastica",
+      "categoria_principale": "Partecipazione",
+      "descrizione_e_metodologia": "Workshop, attività aperte a famiglie, cultura digitale condivisa",
+      "target": "Studenti, famiglie"
+    },
+    {
+      "titolo_attivita": "Creazione soluzioni innovative",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Sperimentazione metodologie didattiche, tecnologie digitali",
+      "target": "Docenti, studenti"
+    },
+    {
+      "titolo_attivita": "Progetti multidisciplinari",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività di inclusione e accoglienza culturale",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl PTOF del CPIA Caserta per il triennio 2022-2025 definisce un quadro strategico orientato all'ampliamento dell'offerta formativa per adulti, con particolare attenzione all'inclusione, all'orientamento e alla lotta alla dispersione scolastica. Il documento evidenzia una solida rete di partnership con enti territoriali e istituzioni scolastiche, finalizzata a potenziare l'efficacia delle azioni formative. L'analisi dimensionale del PTOF rivela un'attenzione prioritaria alle finalità di sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti, nonché al miglioramento delle loro capacità di orientamento e transizione formativa.\n\n## 2. Analisi Dimensionale\n\nLa sezione dedicata all'orientamento è ben strutturata e presente, con un punteggio di 5. Le partnership, pur numerose, risultano prevalentemente di tipo formale, con una carenza di progetti congiunti concretamente implementati. Le finalità formative, gli obiettivi e le azioni del sistema sono valutati positivamente, sebbene con punteggi omogenei che suggeriscono una mancanza di priorità definite. L'attenzione alla didattica orientativa è buona, ma l'aspetto laboratoriale necessita di maggiore concretezza. Le opzionali, pur presenti, appaiono poco diversificate e con un basso livello di coinvolgimento degli studenti.\n\n## 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella chiara definizione delle finalità formative, orientate allo sviluppo integrale della persona adulta. La presenza di una sezione dedicata all'orientamento e la solida rete di partnership rappresentano ulteriori elementi positivi. L'impegno nella riduzione dell'abbandono scolastico e nel contrasto alla dispersione formativa, unitamente alla promozione del lifelong learning, testimoniano una visione strategica lungimirante.\n\n## 4. Debolezze\n\nTra le debolezze del PTOF si evidenzia una certa omogeneità nei punteggi assegnati alle diverse dimensioni, che suggerisce una mancanza di priorità definite. Le partnership, pur numerose, necessitano di essere consolidate attraverso la realizzazione di progetti congiunti concreti. L'aspetto laboratoriale della didattica orientativa è poco sviluppato e le opzionali risultano poco diversificate e con un basso livello di coinvolgimento degli studenti.\n\n## 5. Gap Analysis\n\nNonostante l'attenzione all'inclusione sia trasversale al documento, manca una sezione specifica dedicata a questo tema, con un'analisi approfondita delle strategie e delle azioni messe in atto per garantire pari opportunità a tutti gli studenti, con particolare riferimento a quelli con fragilità o bisogni educativi speciali. È necessario definire indicatori specifici per monitorare l'efficacia delle azioni intraprese e valutare l'impatto del PTOF sulla riduzione della dispersione scolastica e sul miglioramento dei risultati degli studenti.\n\n## 6. Conclusioni\n\nIl PTOF del CPIA Caserta rappresenta un documento valido e ben strutturato, che definisce un quadro strategico coerente con le esigenze del territorio e le finalità dell'istituzione. Tuttavia, per massimizzarne l'efficacia, è necessario definire priorità chiare, consolidare le partnership attraverso la realizzazione di progetti congiunti, potenziare l'aspetto laboratoriale della didattica orientativa e diversificare l'offerta delle opzionali. Infine, è fondamentale dedicare una sezione specifica all'inclusione, con un'analisi approfondita delle strategie e delle azioni messe in atto per garantire pari opportunità a tutti gli studenti."
+}

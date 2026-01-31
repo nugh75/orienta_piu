@@ -1,0 +1,333 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOAA811021",
+    "denominazione": "H.C. Andersen\" Montefiorino",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Montefiorino",
+    "anno_ptof": "2019-2022",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Provinciale 22",
+    "cap": "41045",
+    "email": "moic811003@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmontefiorino.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione presente, ma con necessità di approfondimento dei contenuti specifici relativi all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti Locali",
+        "Associazioni",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "esperti esterni",
+        "volontari",
+        "genitori",
+        "AIESEC",
+        "Maestra Natura",
+        "Università Macerata",
+        "Università Camerino",
+        "L’Aquila",
+        "Conservatorio Pergolesi",
+        "Istituto di Teologia",
+        "Fondo Ambientale Italiano",
+        "Club Alpino Italiano",
+        "Comunità di Capodarco",
+        "ASPEI",
+        "Prefettura di Fermo",
+        "Comune",
+        "ASUR",
+        "Associazioni del territorio"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Percorsi per le competenze chiave di cittadinanza",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Utilizzo metodologie laboratoriali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Miglioramento competenze logico-matematiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Utilizzo metodologie laboratoriali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Miglioramento competenze linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Laboratori linguistici L2",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Biblioteca",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Prestito libri, coinvolgimento famiglie",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cronisti di Classe",
+      "categoria_principale": "Giornalismo",
+      "descrizione_e_metodologia": "Produzione articoli giornale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "FAI",
+      "categoria_principale": "Arte/Ambiente",
+      "descrizione_e_metodologia": "Studio opere artistiche/ambientali, ruolo ciceroni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi matematici",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Organizzazione giochi matematici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rete Maestra Natura",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Insegnamento sperimentale scienze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "It’s English time",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Progetto lingua inglese scuola infanzia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "e-twinning",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettorato",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Presenza madrelingua",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CLIL",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Metodologia CLIL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educhange",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Accoglienza studenti universitari volontari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Spettacoli teatrali/musicali",
+      "categoria_principale": "Arte/Musica",
+      "descrizione_e_metodologia": "Organizzazione spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Crescere con la musica",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Propedeutica musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica per tutti",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Studio strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Opera Domani",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Ascolto opera",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Promozione Accesso Servizi Integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attivazione percorsi personalizzati, collaborazioni territoriali, sperimentazione metodologie innovative",
+      "target": "Alunni svantaggiati"
+    },
+    {
+      "titolo_attivita": "Convenzione Aiesec Progetto Educhange",
+      "categoria_principale": "Scambi Culturali",
+      "descrizione_e_metodologia": "Volontari da diversi paesi presentano la propria cultura e argomenti di interesse generale per 6 settimane.",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Formazione Registro Elettronico e documentazione",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Formazione per il personale ATA sull'uso del registro elettronico.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione e-twinning",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Formazione per docenti di lingua inglese.",
+      "target": "Docenti lingua inglese"
+    },
+    {
+      "titolo_attivita": "Formazione Asur",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Progetti Ministero della Salute (Unplugged, Stand by me, Life Skills).",
+      "target": "Docenti aderenti"
+    },
+    {
+      "titolo_attivita": "Formazione PNSD",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Formazione da Ambito.",
+      "target": "Docenti aderenti"
+    },
+    {
+      "titolo_attivita": "Didattica della matematica",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Proposta Ambito.",
+      "target": "Docenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Gestione alunni problematiche comportamentali",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Dott.ssa Cicconi.",
+      "target": "Docenti aderenti"
+    },
+    {
+      "titolo_attivita": "Somministrazione farmaci a scuola",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Micropan e Glucagone + manovra disostruzione.",
+      "target": "Docenti classi interessate"
+    },
+    {
+      "titolo_attivita": "Percorsi interculturali",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": null,
+      "target": "Docenti plessi ad elevata presenza alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Formazione ricerca-azione",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Insegnamento cittadinanza.",
+      "target": "Almeno un docente per classe"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Primo Soccorso e Antiincendio",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Formazione di base e specifica lavoratori.",
+      "target": "Docenti da aggiornare"
+    },
+    {
+      "titolo_attivita": "Formazione Ed. Motoria",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Prof. Massimiliano Mecozzi (6 ore).",
+      "target": "Docenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Formazione Metodologia Yamaha",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Prima formazione ed aggiornamento.",
+      "target": "Docenti individuati"
+    },
+    {
+      "titolo_attivita": "Accoglienza alunni e famiglie",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": null,
+      "target": "CS"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOAA811021\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo “H.C. Andersen” di Montefiorino (MOAA811021), relativo al triennio 2019-2022. La scuola, di ordine Infanzia e statale, opera in un contesto territoriale non metropolitano della regione Emilia Romagna. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento in termini di presenza di una sezione dedicata, partnership, finalità, obiettivi, azioni di sistema, didattica orientativa e offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con un forte focus sulle partnership e una buona definizione delle finalità e degli obiettivi.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, ottenendo un punteggio di 3 su una scala non specificata. Si evidenzia la necessità di approfondire i contenuti specifici relativi all'orientamento per massimizzare l'efficacia di questa sezione.\n\n**2.2 Partnership:** Un punto di forza del PTOF è la vasta rete di partnership attivate. Sono coinvolti numerosi soggetti, tra cui **Enti Locali**, **Associazioni**, **terzo settore**, **comunità di origine**, **esperti esterni**, **volontari**, **genitori**, **AIESEC**, **Maestra Natura**, diverse **Università** (Macerata, Camerino, L’Aquila), il **Conservatorio Pergolesi**, l'**Istituto di Teologia**, il **Fondo Ambientale Italiano**, il **Club Alpino Italiano**, la **Comunità di Capodarco**, **ASPEI**, la **Prefettura di Fermo**, il **Comune**, l'**ASUR** e altre **Associazioni del territorio**. Il numero di partner coinvolti ammonta a 20, testimoniando un approccio collaborativo e aperto al territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità**. Ogni finalità ha ottenuto un punteggio di 4, indicando un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono mirati a **ridurre l'abbandono** scolastico (punteggio 5), garantire la **continuità territoriale** (punteggio 4), **contrastare il fenomeno NEET** (punteggio 3) e promuovere il **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e gestione delle fragilità**. Ogni azione ha ottenuto un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Quest'ultimo aspetto ha ottenuto il punteggio più alto (5), mentre le metodologie laboratoriali e la flessibilità degli spazi/tempi hanno ottenuto un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative presenta alcune criticità. Le opzionali **culturali** e **ludico-ricreative** hanno ottenuto un punteggio di 1, mentre le opzionali **laboratoriali ed espressive** hanno ottenuto un punteggio di 4. Le opzionali dedicate al **volontariato** e allo **sport** sono state valutate con un punteggio di 1.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, la vasta rete di **partnership** attivate con enti locali, associazioni e università, la chiara definizione delle **finalità** e degli **obiettivi** dell'orientamento, e l'approccio interdisciplinare alla **didattica orientativa**. L'impegno nella riduzione dell'abbandono scolastico è particolarmente apprezzabile.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'approfondimento dei contenuti specifici all'interno della sezione dedicata all'orientamento. Inoltre, l'offerta di attività opzionali e facoltative risulta sbilanciata, con una scarsa presenza di opzioni culturali, ludico-ricreative e di volontariato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre la buona definizione delle finalità e degli obiettivi in azioni concrete e misurabili. È necessario un maggiore investimento nell'arricchimento dell'offerta di attività opzionali, in particolare quelle volte a stimolare la creatività, la socializzazione e l'impegno civico.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo “H.C. Andersen” di Montefiorino dimostra un'attenzione significativa all'orientamento, supportata da una solida rete di **partnership** e da una chiara definizione delle **finalità** e degli **obiettivi**. Per massimizzare l'efficacia dell'orientamento, è necessario approfondire i contenuti della sezione dedicata, diversificare l'offerta di attività opzionali e garantire un monitoraggio costante delle azioni intraprese. Le attività registrate, come i percorsi per le **competenze chiave di cittadinanza**, i laboratori linguistici, i progetti **FAI** e **Rete Maestra Natura**, rappresentano un valido punto di partenza per lo sviluppo di un'offerta formativa orientativa completa ed efficace. La formazione del personale, in particolare su temi come l'inclusione e le nuove metodologie didattiche, contribuisce a rafforzare l'impegno dell'istituto verso un'offerta formativa di qualità."
+}

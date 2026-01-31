@@ -1,0 +1,299 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCEE825017",
+    "denominazione": "Scuola Primaria \"G Carretta\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "San Ferdinando",
+    "anno_ptof": "2025-2026",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Cataldo",
+    "cap": "89026",
+    "email": "rcic825005@istruzione.it",
+    "pec": "rcic825005@pec.istruzione.it",
+    "website": "www.icmarvisivizzone.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "AICA",
+        "British Institute",
+        "Ente Parco d'Aspromonte",
+        "museo di Medma",
+        "mediateca FaRo",
+        "enti locali",
+        "associazioni sportive",
+        "biblioteche",
+        "Regione Calabria",
+        "USR",
+        "Unical",
+        "Magna Grecia",
+        "Sport e Salute S.p.A.",
+        "Ministero dell’Agricoltura",
+        "Ministero dell’Istruzione",
+        "Ministero della Salute",
+        "Agea",
+        "Università Cosenza",
+        "CE. S. E.S.C."
+      ],
+      "partnership_count": 23
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Attività relative a educazione alla legalità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Integrazione sociale",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Occasioni di integrazione sociale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Supporto alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto per l'integrazione degli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Laboratori 'Prove INVALSI'",
+      "categoria_principale": "Potenziamento competenze base",
+      "descrizione_e_metodologia": "Moduli extracurricolari di Italiano e Matematica basati sulla didattica per problemi e sul close reading.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English/L2 Empowerment",
+      "categoria_principale": "Potenziamento competenze linguistiche",
+      "descrizione_e_metodologia": "Potenziamento linguistico finalizzato al conseguimento di certificazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti - Metodologie didattiche digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop pratici sulla transizione digitale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento del Metodo di Studio",
+      "categoria_principale": "Metodo di studio",
+      "descrizione_e_metodologia": "Monitoraggio degli esiti e rubriche di valutazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RECAPP CAL",
+      "categoria_principale": "Potenziamento Competenze",
+      "descrizione_e_metodologia": "Percorso didattico-motivazionale per migliorare competenze di base in italiano e matematica.",
+      "target": "Studenti classe II B scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "English/L2 Empowerment",
+      "categoria_principale": "Potenziamento competenze linguistiche",
+      "descrizione_e_metodologia": "Potenziamento linguistico finalizzato al conseguimento di certificazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti - Metodologie didattiche digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop pratici sulla transizione digitale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Campionati Internazionali dei giochi matematici",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Serie di incontri con problemi di logica e matematica, peer tutoring.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Scelgo io, un passo in più",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di riflessione, ricerca, uscite didattiche e laboratori esperienziali per favorire l'autonomia e la consapevolezza nelle scelte future.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "In cammino verso domani",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso orientativo che prevede attività di riflessione, ricerca, uscite didattiche e laboratori pratici per supportare gli studenti nella definizione del proprio progetto di vita.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto Sport e salute - Scuola Attiva Kids",
+      "categoria_principale": "Sport e salute",
+      "descrizione_e_metodologia": "Organizzazione e monitoraggio di attività sportive.",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Partecipazione a Europe Code Week",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività di coding e programmazione",
+      "target": "Alunni Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Introduzione del coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo di software dedicati",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Latte nelle Scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Degustazioni guidate e educazione alimentare",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Frutta nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Promozione consumo frutta e verdura",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto propedeutico di formazione e orientamento allo strumento musicale Clarinetto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Percorso musicale per studenti",
+      "target": "Classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Incontri con la comunità di origine migrante",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Organizzazione di momenti di incontro",
+      "target": "Alunni stranieri e famiglie"
+    },
+    {
+      "titolo_attivita": "Definizione Piani Educativi Individualizzati (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Osservazione, programmazione, verifica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Antincendio, Primo Soccorso, Preposto, RLS e Dirigente",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione generale e specifica art. 20 D. Lgs. 81/2008",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione base strumenti digitali",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Didattica innovativa STEM - IA",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Corsi sull’IA",
+      "target": "Docenti INFANZIA - PRIMARIA -SECONDARIA"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione UDA",
+      "target": "Tutti i docenti"
+    },
+    {
+      "titolo_attivita": "Gestione BES - DSA - Autismo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Formazione competenze docenti",
+      "target": "Docenti INFANZIA - PRIMARIA - SECONDARIA"
+    },
+    {
+      "titolo_attivita": "Competenze civiche e cittadinanza",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Prevenzione bullismo e cyberbullismo",
+      "target": "Docenti PRIMARIA SECONDARIA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCEE825017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria “G Carretta”** (RCEE825017) per l'anno scolastico 2025-2026. La scuola, situata nel territorio metropolitano di San Ferdinando, in provincia di Reggio Calabria e regione Calabria, è un istituto statale primario. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni di sistema, l'approccio didattico e le attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben definita e un'ampia rete di collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7, indicando una chiara attenzione a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La scuola vanta un network di 23 partner, tra cui **AICA**, **British Institute**, **Ente Parco d'Aspromonte**, **museo di Medma**, **mediateca FaRo**, **enti locali**, **associazioni sportive**, **biblioteche**, **Regione Calabria**, **USR**, **Unical**, **Magna Grecia**, **Sport e Salute S.p.A.**, **Ministero dell’Agricoltura**, **Ministero dell’Istruzione**, **Ministero della Salute**, **Agea**, **Università Cosenza** e **CE. S. E.S.C.**, evidenziando una forte volontà di apertura verso il territorio e il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** (5), **interessi** (5), **progetto di vita** (6), **transizioni formative** (5) e **capacità orientative** per cogliere le opportunità (6).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono scolastico** (5), la continuità con il **territorio** (6), il contrasto al fenomeno **NEET** (5) e la promozione del **lifelong learning** (5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi (5), il dialogo tra docenti e studenti (5), il rapporto scuola-genitori (5), il monitoraggio delle azioni intraprese (5) e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità (5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento esperienziale (5), sull'utilizzo di **laboratori** (5), sulla flessibilità degli spazi e dei tempi (5) e sull'**interdisciplinarità** (5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali** (4), **laboratoriali ed espressive** (5), **ludiche e ricreative** (3), di **volontariato** (4) e, in particolare, **sportive** (6).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella sua capacità di integrare l'orientamento in un sistema di azioni coordinate e supportate da una vasta rete di partner. L'attenzione alle finalità di sviluppo personale e professionale degli studenti, unita a un approccio didattico innovativo e flessibile, costituisce un solido fondamento per un'efficace azione orientativa. L'ampia gamma di attività proposte, in particolare quelle sportive, arricchisce l'offerta formativa e favorisce lo sviluppo di competenze trasversali.\n\n### 4. Aree di Debolezza\n\nL'offerta di attività opzionali **ludiche e ricreative** sembra meno sviluppata rispetto alle altre aree, suggerendo la necessità di potenziare questo aspetto per garantire un'offerta formativa più equilibrata. Sebbene le finalità e gli obiettivi siano ben definiti, sarebbe utile specificare ulteriormente le modalità di monitoraggio e valutazione dei risultati ottenuti.\n\n### 5. Gap Analysis\n\nIl PTOF dimostra una buona attenzione all'orientamento, ma potrebbe beneficiare di una maggiore integrazione tra le diverse azioni e attività previste. Un'analisi più approfondita delle esigenze specifiche del territorio e degli studenti potrebbe consentire di personalizzare ulteriormente l'offerta formativa e di massimizzare l'impatto delle attività orientative.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della **Scuola Primaria “G Carretta”** presenta un solido piano di orientamento, caratterizzato da una sezione dedicata, una vasta rete di partnership, finalità e obiettivi ben definiti, un approccio didattico innovativo e un'ampia gamma di attività proposte. Pur presentando alcune aree di debolezza, il PTOF costituisce un valido strumento per guidare gli studenti nella definizione del proprio percorso formativo e professionale, promuovendo l'inclusione, la partecipazione attiva e lo sviluppo di competenze chiave per il futuro. Le attività registrate, come **Educazione alla legalità**, **Integrazione sociale**, **Supporto alunni stranieri**, **Laboratori 'Prove INVALSI'**, **English/L2 Empowerment**, **Formazione docenti - Metodologie didattiche digitali**, **Potenziamento del Metodo di Studio**, **RECAPP CAL**, **Campionati Internazionali dei giochi matematici**, **Scelcho io, un passo in più**, **In cammino verso domani**, **Progetto Sport e salute - Scuola Attiva Kids**, **Partecipazione a Europe Code Week**, **Introduzione del coding**, **Latte nelle Scuole**, **Frutta nelle scuole**, **Progetto propedeutico di formazione e orientamento allo strumento musicale Clarinetto**, **Incontri con la comunità di origine migrante**, **Definizione Piani Educativi Individualizzati (PEI)**, **Aggiornamento Antincendio, Primo Soccorso, Preposto, RLS e Dirigente**, **Potenziamento competenze digitali**, **Didattica innovativa STEM - IA**, **Didattica per competenze**, **Gestione BES - DSA - Autismo** e **Competenze civiche e cittadinanza**, dimostrano un impegno concreto verso la realizzazione degli obiettivi prefissati."
+}
