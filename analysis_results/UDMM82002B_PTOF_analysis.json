@@ -1,0 +1,305 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDMM82002B",
+    "denominazione": "A. De Gasperi -Reana Del Rojale",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Reana Del Rojale",
+    "anno_ptof": "2014-2017",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Del Municipio 4",
+    "cap": "33010",
+    "email": "udic820009@istruzione.it",
+    "pec": "ND",
+    "website": "https//ictricesimo.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "scuole paritarie",
+        "Aziende Sanitarie Locali",
+        "centri di valutazione psico-diagnostica e terapia",
+        "MIUR",
+        "Ente Locale",
+        "Casa di accoglienza per rifugiati politici",
+        "CCRR Caronno Pertusella"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività legate all’accoglienza e all’integrazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza nuovi iscritti, alunni diversamente abili, alunni stranieri",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di recupero e potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività mirate a seconda delle attitudini e ritmi di apprendimento",
+      "target": "Alunni con difficoltà/talento"
+    },
+    {
+      "titolo_attivita": "Attività legate alla continuità",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "Passaggio da un ordine di scuola all'altro",
+      "target": "Alunni in transizione"
+    },
+    {
+      "titolo_attivita": "Trasformazioni geometriche",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Studio delle trasformazioni geometriche e loro applicazione pratica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Misura",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Esecuzione di misurazioni con unità di misura arbitrarie e convenzionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Logica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Classificazione, rappresentazione e individuazione di relazioni logiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Osservazione scientifica",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Sperimentazione e osservazione di fenomeni fisici e biologici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di cartelloni sull'evoluzione della danza",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Ricerca storica, lavoro di gruppo, creazione di materiali visivi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Canto corale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esercitazioni di canto collettive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di cartelloni relativo alla classificazione degli strumenti.",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esperienze pratiche, costruzione di strumenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di lavori di sonorizzazione.",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lavoro di gruppo, collaborazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Disegno geometrico",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Uso strumenti disegno, costruzione figure.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con docenti scuola provenienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Confronto per scambio informazioni",
+      "target": "Alunni in transizione"
+    },
+    {
+      "titolo_attivita": "Osservazione alunno",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Osservazione cognitiva, affettiva, motoria",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Stesura PFI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Documento per progettazione intervento",
+      "target": "Alunni disabili"
+    },
+    {
+      "titolo_attivita": "Laboratorio linguistico per alunni stranieri",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Sviluppo abilità ascolto, comprensione, comunicazione, lettura, produzione, rielaborazione",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Amministrativa",
+      "descrizione_e_metodologia": "Definizione pratiche condivise per accoglienza alunni stranieri",
+      "target": "Alunni stranieri e famiglie"
+    },
+    {
+      "titolo_attivita": "Genitori a scuola",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Laboratori, confronto, progetti comuni",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Ritmia",
+      "categoria_principale": "Musica e Movimento",
+      "descrizione_e_metodologia": "Percorsi musicali per gruppi",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetti di educazione alimentare",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Attività didattiche operative e informative",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Mensa",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Consumo frutta, scelta cibo, supervisione",
+      "target": "Alunni servizio mensa"
+    },
+    {
+      "titolo_attivita": "DELF",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Certificazione linguistica internazionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Let’s speak English",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Incontri di conversazione",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Missione coraggio",
+      "categoria_principale": "Motorio",
+      "descrizione_e_metodologia": "Lezioni frontali con proposta di esercitazioni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lavori di gruppo",
+      "categoria_principale": "Motorio",
+      "descrizione_e_metodologia": "Lavori di gruppo.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Problem-solving",
+      "categoria_principale": "Motorio",
+      "descrizione_e_metodologia": "Problem-solving.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di scenette",
+      "categoria_principale": "Linguaggio",
+      "descrizione_e_metodologia": "Realizzazione di scenette tratte da brevi brani o dalla fantasia degli alunni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionari",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Questionari a risposta aperta o a crocette",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lezione frontale",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Lezione frontale partecipata",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lettura testi",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Lettura dei testi",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDMM82002B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado \"A. De Gasperi - Reana Del Rojale\" (UDMM82002B), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno 2014-2017, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio di 3 su diverse aree chiave. L'istituto, situato nel territorio non metropolitano della regione Friuli-Venezia Giulia, opera come scuola statale e pone l'accento su finalità orientative che includono lo sviluppo di attitudini, interessi, progettazione del percorso di vita, transizioni formative e capacità di cogliere le opportunità. L'attenzione è rivolta anche alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica (NEET) e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, il che indica una chiara consapevolezza dell'importanza di questa dimensione all'interno del percorso formativo.\n\n**2.2 Partnership:** L'istituto ha stabilito partnership con diverse realtà esterne, tra cui **scuole paritarie**, **Aziende Sanitarie Locali**, **centri di valutazione psico-diagnostica e terapia**, il **MIUR**, l'**Ente Locale**, la **Casa di accoglienza per rifugiati politici** e il **CCRR Caronno Pertusella**. Questo network di collaborazioni, composto da 7 partner, suggerisce un approccio aperto e collaborativo all'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e coprono diverse aree, tra cui lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la gestione delle transizioni formative e l'acquisizione di capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 3, dimostrando un approccio equilibrato e completo.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 3, indicando una coerenza tra finalità e obiettivi.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate dall'istituto per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 4, evidenziando un forte impegno nell'implementazione di strategie efficaci.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. Ogni aspetto ha ottenuto un punteggio di 3, suggerendo un approccio didattico diversificato e orientato alla pratica.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo. Ogni tipologia di opzionale ha ottenuto un punteggio di 3, ampliando le opportunità di scelta per gli studenti e favorendo lo sviluppo di interessi specifici.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella rete di partnership consolidata, nella chiarezza delle finalità e degli obiettivi, e nell'implementazione di azioni di sistema efficaci. L'istituto dimostra un impegno concreto nell'offrire un'ampia gamma di attività e opportunità per supportare gli studenti nel loro percorso di crescita e orientamento. Le attività registrate, come \"**Attività legate all’accoglienza e all’integrazione**\", \"**Attività di recupero e potenziamento**\", \"**Attività legate alla continuità**\", e quelle specifiche per le diverse discipline (**Matematica**, **Scienze**, **Arte e Spettacolo**, **Musica**, **Tecnologia**), contribuiscono a creare un ambiente di apprendimento stimolante e inclusivo.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, il PTOF potrebbe beneficiare di una maggiore specificità nella descrizione delle metodologie utilizzate per il monitoraggio delle azioni di orientamento. Sebbene il punteggio sia buono, una maggiore attenzione alla valutazione dell'impatto delle attività potrebbe consentire di ottimizzare ulteriormente l'offerta formativa.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di definire indicatori specifici e misurabili per valutare l'efficacia delle attività di orientamento. L'istituto potrebbe implementare sistemi di monitoraggio più sofisticati per raccogliere dati sull'abbandono scolastico, sulla dispersione formativa, sulla scelta dei percorsi di studio superiori e sull'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto \"A. De Gasperi - Reana Del Rojale\" dimostra un forte impegno verso l'orientamento, con una chiara definizione delle finalità, degli obiettivi e delle azioni da intraprendere. La rete di partnership consolidata e l'offerta formativa diversificata rappresentano un valore aggiunto per gli studenti. Pur riconoscendo alcune aree di miglioramento, il PTOF si presenta come un documento solido e ben strutturato, in grado di supportare efficacemente il percorso di crescita e orientamento degli studenti. L'attenzione all'**inclusione**, alla **continuità** e alla **transizione** sono elementi chiave che caratterizzano l'approccio dell'istituto."
+}

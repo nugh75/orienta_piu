@@ -1,0 +1,388 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOIS01400R",
+    "denominazione": "I.I.S. F. Alberghetti",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Imola",
+    "anno_ptof": "2019-2022",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Benedetto 10",
+    "cap": "40026",
+    "email": "bois01400r@istruzione.it",
+    "pec": "bois01400r@pec.istruzione.it",
+    "website": "https//www.alberghetti.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Università",
+        "Imprese",
+        "Terzo Settore",
+        "UNINDUSTRIA",
+        "Ducati Motori",
+        "Siemens",
+        "Datalogic",
+        "Emerson Electric",
+        "CNR-IMM",
+        "Pollution S.r.l.",
+        "Fondazione IBM Italia",
+        "ASPHI",
+        "Cineteca",
+        "rete ICT Bologna",
+        "Assochimici",
+        "Associazioni Grafiche",
+        "Intertaba S.p.a.",
+        "CNA",
+        "Palestra dell’Innovazione",
+        "EON reality",
+        "Provincia di Bologna",
+        "INAIL Bologna",
+        "Vigili del Fuoco di Bologna",
+        "Azienda USL di Bologna",
+        "Dipartimento di Ingegneria Industriale",
+        "Dipartimento di Ingegneria dell'Energia Elettrica e dell'Informazione \"Guglielmo Marconi\"",
+        "Università di Cambridge",
+        "Associazione 2 Agosto",
+        "Assemblea Legislativa Regione Emilia Romagna",
+        "Istituto Parri",
+        "Istituto Gramsci",
+        "Comune di Bologna",
+        "Scuole Secondarie di Primo Grado",
+        "Fondazione Corazza",
+        "FAV",
+        "AUSL Bologna",
+        "Città Metropolitana",
+        "Regione Emilia-Romagna",
+        "Associazioni del territorio",
+        "ITS Bologna per le Nuove Tecnologie per il Made in Italy Sistema Meccanica – Automazione Industriale",
+        "Google Suite",
+        "Samsung",
+        "Articolture",
+        "San.Arti",
+        "Società Scientifica Italian Resuscitation Council",
+        "Fermi",
+        "Copernico",
+        "S. Alberto Magno",
+        "Mattei",
+        "Keynes",
+        "CD – Lei",
+        "COSPE",
+        "biblioteche di quartiere",
+        "Confindustria Emilia"
+      ],
+      "partnership_count": 40
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende del territorio",
+      "target": "Studenti Triennio"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite ad aziende e università",
+      "target": "Studenti Triennio"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage aziendali, progetti concordati, Expeditions presso il MAST",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Progetto Radioweb “LookUP Radio”",
+      "categoria_principale": "Multimedialità",
+      "descrizione_e_metodologia": "Strumenti e metodi per affrontare temi della multimedialità e comunicazione",
+      "target": "Studenti corsi tecnici informatici, elettronici, elettrotecnici"
+    },
+    {
+      "titolo_attivita": "Progetto Dalla Scuola al Cantiere",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione alla prevenzione nei settori edile e agricoltura",
+      "target": "Classi III Edili"
+    },
+    {
+      "titolo_attivita": "Dual System Italy (DESI)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro rafforzati con aziende",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "Progetto ARIANNA- Aldini ingegneria cantiere Nanotech",
+      "categoria_principale": "Progetti Interdisciplinari",
+      "descrizione_e_metodologia": "Progettazione e realizzazione macchina elettrofilatura nanofibre polimeriche. Collaborazione con università.",
+      "target": "Studenti Automazione e Meccanica"
+    },
+    {
+      "titolo_attivita": "Stage Linguistico Curricolare",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Stage di 1/2 settimane in UK/Irlanda per potenziamento linguistico.",
+      "target": "Studenti Triennio"
+    },
+    {
+      "titolo_attivita": "Certificazioni PET – FCE - IELTS",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Corsi di approfondimento linguistico per certificazioni.",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Heart Challenge",
+      "categoria_principale": "Salute e Benessere",
+      "descrizione_e_metodologia": "Gara annuale per premiare competenze RCP",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "V.E.R.O",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Laboratorio didattica innovativa con realtà virtuale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Classroom 3.0",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Ecosistema digitale con realtà aumentata/virtuale",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Gaming",
+      "categoria_principale": "Attività Extracurriculari",
+      "descrizione_e_metodologia": "Laboratorio pomeridiano per studio e gioco responsabile",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in entrata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con scuole medie, open day, visite",
+      "target": "Studenti delle medie e loro famiglie"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con aziende, università, stage",
+      "target": "Studenti delle classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Corso propedeutico Aldini per Ingegneria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Potenziamento di Matematica e Fisica per colmare lacune pregresse e preparare agli esami di ammissione all'università.",
+      "target": "Studenti interessati a proseguire gli studi in ingegneria"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti biennio"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Attività Espressivo/Teatrale",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività pratiche con esperti, collegamenti con discipline scolastiche e ambito professionale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività sportive",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività pratiche con esperti, collegamenti con discipline scolastiche e ambito professionale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività tecnico-manuali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività pratiche con esperti, collegamenti con discipline scolastiche e ambito professionale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di L2 (1° livello)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Minimo 100 ore, con alfabetizzatrice e docente tecnico.",
+      "target": "Biennio"
+    },
+    {
+      "titolo_attivita": "Laboratori di L2 (2° livello)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Minimo 100 ore, con alfabetizzatrice e docente tecnico.",
+      "target": "Biennio"
+    },
+    {
+      "titolo_attivita": "Laboratorio Italstudio (L2 3° livello)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Ore integrative con piccoli gruppi, aiuto nello svolgimento delle consegne.",
+      "target": "Biennio e Triennio"
+    },
+    {
+      "titolo_attivita": "Peer education",
+      "categoria_principale": "Supporto Pari",
+      "descrizione_e_metodologia": "Alunni che aiutano studenti più giovani nello svolgimento dei compiti.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Associazione 2 Agosto E Assemblea Legislativa Della Regione Emilia Romagna",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Percorso didattico: educare attraverso i luoghi. Bologna e la strage del due agosto 1980",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Resism",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Educare alla riduzione del rischio sismico. Mostra-laboratorio",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Parole Ostili",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso su sensibilità, consapevolezza e responsabilità",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Costruzione Di Un Lessico Civile",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Costruire un lessico civile per formare il cittadino di domani",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Tutela Del Patrimonio Artistico –Culturale",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Attività creative, artistiche e laboratori sulla tutela del patrimonio",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Istituto Parri",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Conoscere l’Europa Novecento e oltre",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Metrologia Forense",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Importanza delle prove scientifiche nelle vicende giudiziarie",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "I Processi Di Norimberga E La Giustizia Post-Bellica",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Discussione storico-giuridica sui fenomeni della giustizia post-bellica",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Video Sulla Shoah E Le Leggi Razziali",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Realizzato da una quinta del nostro Istituto",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "POWER POINT",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Coronavirus, fumo, educazione alimentare, droghe, alcool",
+      "target": "Classe Quinta"
+    },
+    {
+      "titolo_attivita": "Istituo Gramsci",
+      "categoria_principale": "Storia",
+      "descrizione_e_metodologia": "Cittadinanza Europea",
+      "target": "Classe Quinta"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOIS01400R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**I.I.S. F. Alberghetti** (BOIS01400R), una scuola professionale di II grado situata nel territorio metropolitano di Imola, in Emilia Romagna. L'analisi si basa sui dati forniti, inclusi punteggi di valutazione e un registro delle attività svolte. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio di 7 su una scala non specificata. L'istituto vanta una rete di **partnership** molto ampia e diversificata, comprendendo **Università**, **Imprese**, il **Terzo Settore** e numerosi enti e aziende del territorio, tra cui **UNINDUSTRIA**, **Ducati Motori**, **Siemens** e molti altri.\n\n### 2. Analisi Dimensionale\n\nLa valutazione dimensionale dell'orientamento rivela un quadro complessivamente positivo. L'attenzione alle **attitudini**, agli **interessi** e alle **transizioni formative** degli studenti è presente, con punteggi di 5. Tuttavia, l'attenzione al **progetto di vita** risulta meno sviluppata, con un punteggio di 3. Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 6) e il mantenimento di un legame con il **territorio** (punteggio 6), mentre il contrasto al fenomeno **NEET** riceve un punteggio inferiore (2). Le azioni del sistema orientativo si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti** e sul **rapporto scuola-genitori**, tutte aree valutate con un punteggio di 6. La **didattica orientativa** si basa sull'apprendimento esperienziale (punteggio 6) e sull'interdisciplinarità (punteggio 6), sebbene l'aspetto laboratoriale e la flessibilità degli spazi e dei tempi ricevano punteggi inferiori (4). Infine, l'offerta di attività opzionali e facoltative copre ambiti culturali, laboratoriali, espressivi, di volontariato e sportivi, con punteggi generalmente moderati (4).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate dall'istituto. La collaborazione con **Università**, **Imprese** e il **Terzo Settore** offre agli studenti numerose opportunità di **alternanza scuola-lavoro**, **visite guidate** e **stage**. L'impegno verso l'innovazione didattica, con progetti come **V.E.R.O.** e **Classroom 3.0**, e l'attenzione alla **sicurezza** con il progetto **Dalla Scuola al Cantiere** sono ulteriori elementi positivi. L'offerta di **certificazioni linguistiche** (PET, FCE, IELTS) e l'organizzazione di attività come **Heart Challenge** dimostrano un'attenzione alla formazione completa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella minore attenzione al **progetto di vita** degli studenti, come evidenziato dal punteggio inferiore. Anche il contrasto al fenomeno **NEET** sembra meno prioritario rispetto ad altri obiettivi. L'aspetto laboratoriale della **didattica orientativa** e la flessibilità degli spazi e dei tempi potrebbero essere ulteriormente sviluppati. Infine, le attività opzionali di tipo ludico-ricreativo ricevono il punteggio più basso, suggerendo un'area di potenziale miglioramento.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di rafforzare l'attenzione alla progettualità individuale degli studenti, aiutandoli a definire i propri obiettivi a lungo termine. È necessario incrementare le azioni mirate a prevenire la dispersione scolastica e a contrastare il fenomeno **NEET**, magari attraverso un potenziamento delle attività di orientamento in uscita. L'istituto potrebbe inoltre investire maggiormente nello sviluppo di attività didattiche innovative e flessibili, che sfruttino appieno le potenzialità degli spazi e delle tecnologie disponibili.\n\n### 6. Conclusioni\n\nIl PTOF dell'**I.I.S. F. Alberghetti** dimostra un forte impegno verso l'orientamento, supportato da una solida rete di **partnership** e da una varietà di attività. Pur presentando alcune aree di debolezza, l'istituto ha le potenzialità per migliorare ulteriormente l'offerta orientativa, rafforzando l'attenzione alla progettualità individuale degli studenti e contrastando la dispersione scolastica. L'implementazione di azioni mirate in queste aree consentirebbe all'istituto di raggiungere risultati ancora più significativi nel supportare gli studenti nel loro percorso formativo e professionale."
+}

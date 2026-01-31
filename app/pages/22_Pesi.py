@@ -320,9 +320,9 @@ with tab_sampling:
     
     # Default hardcoded (fallback)
     DEFAULT_BENCHMARKS = {
-        "gestione": {"Statale": 90.0, "Paritaria": 10.0},
+        "gestione": {"Statale": 81.4, "Paritaria": 18.6},
         "ordine": {"Infanzia": 25.0, "Primaria": 30.0, "I Grado": 20.0, "II Grado": 25.0},
-        "area": {"Nord Ovest": 24.0, "Nord Est": 15.0, "Centro": 18.0, "Sud": 27.0, "Isole": 16.0}
+        "area": {"Nord Ovest": 26.6, "Nord Est": 19.3, "Centro": 19.9, "Sud": 23.3, "Isole": 10.9}
     }
     
     def load_benchmarks():

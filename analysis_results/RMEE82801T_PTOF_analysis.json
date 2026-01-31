@@ -1,0 +1,195 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMEE82801T",
+    "denominazione": "Ponte Linari",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Del Muro Linari 46",
+    "cap": "00173",
+    "email": "rmic82800q@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccorradiniroma.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Svolto in aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Attività plurime a distanza con l'ausilio di sistemi tecnologici",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMEE82801T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Ponte Linari** (RMEE82801T) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, situato nel territorio metropolitano di Roma, si configura come una scuola statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, la didattica orientativa e le attività opzionali. La valutazione complessiva indica un impegno nella realizzazione di attività orientative, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF non prevede una sezione esplicita e dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola vanta un buon numero di partnership, con un punteggio di 3 e la collaborazione di 5 partner significativi, tra cui **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e le attività di orientamento.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo mostrano un buon allineamento con le esigenze degli studenti. Si riscontrano punteggi elevati per lo sviluppo di attitudini (3) e interessi (3), mentre l'attenzione al progetto di vita (2) e alle transizioni formative (1) risulta meno marcata. Anche la capacità di orientare verso le opportunità (1) necessita di maggiore attenzione.\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF sono orientati alla riduzione dell'abbandono scolastico (1), alla continuità territoriale (1), al contrasto alla dispersione scolastica e NEET (1) e alla promozione del lifelong learning (1). Questi obiettivi, seppur importanti, appaiono piuttosto generali e potrebbero essere declinati in azioni più specifiche.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento presentano punteggi variabili. Il coordinamento dei servizi (2) e il dialogo tra docenti e studenti (2) ricevono una valutazione moderata, mentre il rapporto scuola-genitori (3) e il sistema integrato di inclusione e fragilità (3) sono considerati più efficaci. Il monitoraggio delle azioni (1) appare un aspetto da rafforzare.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi elevati per l'apprendimento dall'esperienza degli studenti (4), la didattica laboratoriale (3), la flessibilità degli spazi e dei tempi (3) e l'interdisciplinarità (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi alti per i laboratori espressivi (3) e le attività ludico-ricreative (3). Le opzionali culturali (1), di volontariato (1) e sportive (1) risultano meno sviluppate.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in ambito orientativo risiedono nella presenza di numerose partnership, nell'impegno verso una didattica laboratoriale e basata sull'esperienza, e nell'attenzione al rapporto scuola-genitori. L'attività **Laboratorio di Coding per l’Infanzia** con **Docendum** e i **Laboratori** di **Musica**, **Scienze**, **Educazione Motoria**, **Pittura**, **Lettura** e **Lingua Cinese** offrono opportunità di scoperta e sviluppo di interessi.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. Inoltre, le finalità relative al progetto di vita e alle transizioni formative, così come gli obiettivi definiti, appaiono poco specifici. Il monitoraggio delle azioni e l'offerta di opzionali culturali, di volontariato e sportive necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica e strutturata dell'orientamento, che si traduca in una sezione dedicata del PTOF e in obiettivi misurabili. È necessario definire percorsi chiari per supportare gli studenti nella costruzione del loro progetto di vita e nelle transizioni formative. L'attività di **Questionario di soddisfazione genitori** e **Questionario di gradimento personale** sono utili, ma necessitano di essere integrate in un sistema di monitoraggio più ampio.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria **Ponte Linari** dimostra un impegno nella realizzazione di attività orientative, supportato da una rete di partnership e da un approccio didattico innovativo. Tuttavia, per potenziare l'efficacia dell'orientamento, è necessario colmare le lacune individuate, strutturando una sezione dedicata nel PTOF, definendo obiettivi specifici e implementando un sistema di monitoraggio efficace. L'attività **LEAD (Legami Educativi a Distanza)** dimostra la capacità di adattamento alle nuove esigenze, ma deve essere integrata in un piano più ampio di orientamento."
+}

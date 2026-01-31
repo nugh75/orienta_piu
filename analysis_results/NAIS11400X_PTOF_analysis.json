@@ -1,0 +1,198 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAIS11400X",
+    "denominazione": "I.S. \"Leone-Nobile\"",
+    "tipo_scuola": "I Grado, Primaria, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Nola",
+    "anno_ptof": "2025/2028",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dei Mille 40",
+    "cap": "80035",
+    "email": "nais11400x@istruzione.it",
+    "pec": "nais11400x@pec.istruzione.it",
+    "website": "www.leonenobile.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene siano presenti attività riconducibili all'orientamento, non risulta esplicitamente definita una sezione dedicata all'interno della struttura del PTOF. Le iniziative di orientamento sono integrate in altre aree di intervento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "imprese",
+        "Enti",
+        "Agenzie formative",
+        "Associazioni",
+        "Organizzazioni",
+        "ITS",
+        "imprese del territorio",
+        "Comune di Nola",
+        "ANDI",
+        "OCI",
+        "ARCHEOCLUB ITALIA",
+        "Fondazione premio Cimitile",
+        "CPIA",
+        "ASL Napoli 3 Sud"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola lavoro con imprese del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di continuità",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Collaborazione con scuole medie",
+      "target": "Alunni scuole medie"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento in uscita",
+      "descrizione_e_metodologia": "Visite a imprese e università",
+      "target": "Alunni classi terze, quarte, quinte"
+    },
+    {
+      "titolo_attivita": "Attività di accoglienza",
+      "categoria_principale": "Orientamento in ingresso",
+      "descrizione_e_metodologia": "Attività per favorire l'inserimento",
+      "target": "Alunni classi prime"
+    },
+    {
+      "titolo_attivita": "Percorsi per le Competenze Trasversali e per l’Orientamento (ex Alternanza Scuola Lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti curriculari finalizzati alla promozione della cultura d’impresa e valorizzazione risorse tecnico-professionali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage in Italia e all’estero",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Tirocini aziendali presso imprese del territorio.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Viaggio Lib(e)ro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione prodotto finale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Premio Cimitile",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Realizzazione prodotto finale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Protesi Sociale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di protesi mobili per soggetti meno abbienti in modalità Alternanza Scuola Lavoro.",
+      "target": "Studenti indirizzo odontotecnico"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività di alternanza scuola lavoro",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività di didattica laboratoriale",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAIS11400X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.S. “Leone-Nobile” (NAIS11400X) per il triennio 2025/2028. La scuola, situata a Nola in provincia di Napoli e regione Campania, è un istituto statale che offre percorsi di istruzione di secondo grado. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non sia presente una sezione esplicitamente dedicata all'interno della struttura del PTOF. Le attività di orientamento sono integrate in diverse aree di intervento, con un punteggio medio elevato nelle finalità e negli obiettivi. La scuola dimostra una forte attenzione alla riduzione dell'abbandono scolastico, alla continuità territoriale e allo sviluppo di competenze per il lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che, sebbene siano presenti numerose attività riconducibili all'orientamento, manca una sezione specificamente dedicata all'interno del PTOF. Le iniziative sono integrate in altre aree di intervento, ottenendo un punteggio di 2.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di partnership, collaborando con **imprese**, **Enti**, **Agenzie formative**, **Associazioni**, **Organizzazioni**, **ITS**, **imprese del territorio**, il **Comune di Nola**, **ANDI**, **OCI**, **ARCHEOCLUB ITALIA**, la **Fondazione premio Cimitile**, il **CPIA** e l'**ASL Napoli 3 Sud**. Questo ampio ventaglio di collaborazioni, pari a 9 partnership, rappresenta un punto di forza significativo per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e ambiziose, con punteggi elevati (4) per lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi delineati nel PTOF sono mirati e pertinenti. La scuola punta a **ridurre l'abbandono** scolastico (punteggio 5), a garantire la **continuità territoriale** (punteggio 4), a **contrastare il fenomeno NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste sono orientate al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni intraprese e alla creazione di un sistema integrato di inclusione e supporto alle fragilità, tutte con un punteggio di 4.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di metodologie **laboratoriali** (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 4).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 3), **ludiche e ricreative** (punteggio 2), di **volontariato** (punteggio 3) e **sportive** (punteggio 2).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla vasta rete di **partnership**, dalle finalità ben definite, dagli obiettivi ambiziosi e dall'impegno verso la riduzione dell'abbandono scolastico. Le attività registrate, come **Alternanza Scuola Lavoro**, **Progetti di continuità**, **Visite aziendali**, **Attività di accoglienza**, **Percorsi per le Competenze Trasversali e per l’Orientamento**, **Stage in Italia e all’estero**, **Viaggio Lib(e)ro**, **Premio Cimitile**, **Progetto Protesi Sociale** e **Alternanza scuola lavoro**, dimostrano un approccio proattivo e diversificato all'orientamento.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione esplicitamente dedicata all'orientamento all'interno della struttura del PTOF. Questo potrebbe rendere meno visibile e coordinata l'offerta formativa in questo ambito.\n\n### 5. Gap Analysis\n\nIl gap principale è rappresentato dalla necessità di formalizzare una sezione dedicata all'orientamento nel PTOF, al fine di garantire una maggiore coerenza e visibilità alle attività svolte. Questo consentirebbe di definire in modo più chiaro le strategie, le responsabilità e le risorse dedicate all'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.S. “Leone-Nobile” dimostra un forte impegno verso l'orientamento, supportato da una solida rete di partnership e da attività diversificate. La formalizzazione di una sezione dedicata all'orientamento all'interno del PTOF rappresenterebbe un passo importante per rafforzare ulteriormente l'efficacia delle strategie e delle azioni intraprese, contribuendo a garantire un futuro migliore per gli studenti."
+}

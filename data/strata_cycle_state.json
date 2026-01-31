@@ -1,7 +1,7 @@
 {
-  "cycle_id": 36,
+  "cycle_id": 53,
   "target_total": 6000,
-  "yield_global": 0.374,
+  "yield_global": 0.336,
   "yield_by_strato": {
     "STAT_SUD_NON_METRO_SEC_SECONDO": 0.46,
     "STAT_NORD OVEST_NON_METRO_INFANZIA": 0.214,
@@ -457,6 +457,96 @@
       "last_cycle": 36,
       "last_reason": "PTOF non trovato",
       "strato": "PAR_VENETO_NON_METRO_SEC_SECONDO"
+    },
+    "RCMM85101P": {
+      "attempts": 3,
+      "last_cycle": 43,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_PRIMO"
+    },
+    "MOMM82201E": {
+      "attempts": 8,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_NON_METRO_SEC_PRIMO"
+    },
+    "PZMM86901A": {
+      "attempts": 4,
+      "last_cycle": 46,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_PRIMO"
+    },
+    "RCPC04101E": {
+      "attempts": 7,
+      "last_cycle": 52,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_METRO_SEC_SECONDO"
+    },
+    "PNEE830023": {
+      "attempts": 6,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_PRIMARIA"
+    },
+    "PNMM83702R": {
+      "attempts": 6,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_FRIULI_VENEZIA_G._NON_METRO_SEC_PRIMO"
+    },
+    "NAIS134005": {
+      "attempts": 5,
+      "last_cycle": 52,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_METRO_SEC_SECONDO"
+    },
+    "NAIS084009": {
+      "attempts": 5,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_METRO_SEC_SECONDO"
+    },
+    "BOTD016503": {
+      "attempts": 4,
+      "last_cycle": 52,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_EMILIA_ROMAGNA_METRO_SEC_SECONDO"
+    },
+    "PZPC00202B": {
+      "attempts": 2,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_SEC_SECONDO"
+    },
+    "SAAA8BZ043": {
+      "attempts": 2,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CAMPANIA_NON_METRO_INFANZIA"
+    },
+    "SVIS00800D": {
+      "attempts": 2,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LIGURIA_NON_METRO_SEC_SECONDO"
+    },
+    "PZEE83303P": {
+      "attempts": 1,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_BASILICATA_NON_METRO_PRIMARIA"
+    },
+    "CSTD018517": {
+      "attempts": 1,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_CALABRIA_NON_METRO_ALTRO"
+    },
+    "VTPS00601G": {
+      "attempts": 1,
+      "last_cycle": 53,
+      "last_reason": "PTOF non trovato",
+      "strato": "STAT_LAZIO_NON_METRO_SEC_SECONDO"
     }
   }
 }

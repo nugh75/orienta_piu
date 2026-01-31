@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMMM8DK013",
+    "denominazione": "Leonardo Albertini",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Fiumicino",
+    "anno_ptof": "2025/2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Di Granaretto Snc",
+    "cap": "00050",
+    "email": "rmic8dk002@istruzione.it",
+    "pec": "ND",
+    "website": "www.ictorrimpietra.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "St. Andrews University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 1
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetto Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative e di confronto con la polizia su temi quali abuso alcol, cannabis, dipendenze, violenza, furti.",
+      "target": "Studenti Liceo I e II"
+    },
+    {
+      "titolo_attivita": "MiOriento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie.",
+      "target": "Studenti Classe I"
+    },
+    {
+      "titolo_attivita": "MiAssumo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti.",
+      "target": "Studenti Classe II e III"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente esterno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con referenti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, monitoraggio PDP, consulenza docenti",
+      "target": "Alunni BES/DSA, docenti"
+    },
+    {
+      "titolo_attivita": "Progetti per alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Interventi mirati, PDP BES, strumenti compensativi",
+      "target": "Alunni stranieri non italofoni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMMM8DK013\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola \"Leonardo Albertini\" (RMMM8DK013), per l'anno scolastico 2025/2028. La scuola, di I grado, situata nel territorio metropolitano di Fiumicino, Roma, è un istituto statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione all'orientamento, sebbene con alcune aree che necessitano di maggiore approfondimento e strutturazione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 5, il che indica una chiara volontà di affrontare in modo specifico questa tematica.\n\n**2.2 Partnership:** La scuola vanta un network di **15 partner**, tra cui **LAC**, **Museo in Erba**, enti di Polizia, **Croce Rossa**, diverse università italiane (tra cui **Luiss Roma**) ed europee (**Università Bocconi**, **Università della Svizzera Italiana**, **ESADE di Barcellona**, **University of Dublin** e altre), oltre a **specialisti esterni** quali logopedisti, ergoterapisti, psicologi e neuropsichiatri. Questo ampio ventaglio di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del loro **progetto di vita**, alla facilitazione delle **transizioni formative** e al potenziamento delle loro **capacità orientative** rispetto alle opportunità disponibili. Tutti questi aspetti ricevono un punteggio di 3, suggerendo un approccio equilibrato e completo.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un impegno nella riduzione dell'**abbandono** scolastico (punteggio 2) e nel rafforzamento della continuità territoriale (punteggio 3). Gli obiettivi di contrasto alla dispersione scolastica e NEET (punteggio 1) e di promozione del **lifelong learning** (punteggio 1) sembrano meno prioritari.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti** e sul rapporto **scuola-genitori**, tutte aree con un punteggio di 4. Tuttavia, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio di 1, indicando la necessità di rafforzare questi aspetti.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 3) e sull'approccio interdisciplinare (punteggio 3), mentre l'utilizzo di metodologie laboratoriali e la flessibilità degli spazi e dei tempi (punteggio 1) appaiono meno sviluppati.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali espressive**, di **volontariato** e **sportive** (tutte con punteggio 3), mentre le attività **ludiche-ricreative** (punteggio 1) sembrano meno presenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che offre agli studenti un'ampia gamma di opportunità di contatto con il mondo del lavoro e dell'istruzione superiore. L'attenzione alle **finalità** dell'orientamento, che coprono diversi aspetti dello sviluppo personale e professionale degli studenti, è un altro elemento positivo. L'impegno nel **coordinamento dei servizi**, nel **dialogo tra docenti e studenti** e nel rapporto **scuola-genitori** costituisce una solida base per un'efficace azione orientativa. Le attività come **MiOriento** e **MiAssumo** sono strumenti utili per fornire informazioni e supporto agli studenti e alle famiglie.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano il monitoraggio delle azioni implementate e la creazione di un sistema integrato di inclusione e fragilità. Inoltre, l'offerta di attività laboratoriali e la flessibilità degli spazi e dei tempi appaiono limitate. Gli obiettivi di contrasto alla dispersione scolastica e NEET e di promozione del lifelong learning necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità e gli obiettivi dichiarati in azioni concrete e misurabili. È necessario definire indicatori di performance per valutare l'efficacia delle attività orientative e monitorare i progressi degli studenti. Inoltre, è importante rafforzare l'integrazione tra le diverse figure professionali coinvolte nell'orientamento (docenti, specialisti esterni, partner) e garantire un approccio inclusivo che tenga conto delle esigenze di tutti gli studenti, in particolare quelli con bisogni educativi speciali.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Leonardo Albertini\" presenta un quadro generale positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di partnership e l'attenzione alle finalità rappresentano punti di forza significativi. Tuttavia, è necessario colmare le lacune individuate, rafforzando il monitoraggio delle azioni, l'integrazione dei servizi e l'offerta di attività laboratoriali. Un approccio più strutturato e orientato ai risultati consentirà alla scuola di raggiungere appieno gli obiettivi prefissati e di offrire agli studenti un'efficace preparazione per il loro futuro. Attività come lo **Sportello supporto DSA/BES**, il **Progetto Gruppo Visione Giovani**, il **Progetto domotica e robotica** e lo **Sportello di ascolto e supporto** sono esempi di iniziative concrete che contribuiscono a creare un ambiente scolastico inclusivo e orientato al successo degli studenti."
+}

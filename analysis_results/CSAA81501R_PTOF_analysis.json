@@ -1,0 +1,259 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSAA81501R",
+    "denominazione": "Fagnano Castello - Centro",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Fagnano Castello",
+    "anno_ptof": "2022-2025",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Montessori",
+    "cap": "87013",
+    "email": "csic81500x@istruzione.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "www.icfagnanocastello.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Esplicita attenzione all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "organismi e associazioni dei genitori",
+        "Università",
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "Associazioni",
+        "Enti del terzo settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione nuovi studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento umanistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento linguistico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi pomeridiani",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento socio economico e per la legalità",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento motorio",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro concordato tra docenti, verifica comune",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano con potenziale comunicativo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica laboratoriale, personalizzazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Cittadinanza e Costituzione, diritti umani",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Educazione ambientale",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Educazione alla Legalità",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scienze della terra",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Studio del territorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento e PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esplicitare finalità, metodi, traguardi per rendere gli studenti protagonisti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Analisi epistemica disciplinare",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Individuazione nuclei fondanti delle discipline",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET",
+      "target": "classi quinte"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSAA81501R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Fagnano Castello - Centro\" (CSAA81501R), relativo al triennio 2022-2025. La scuola, di ordine Infanzia e statale, situata nel comune di Fagnano Castello (Cosenza), in Calabria, dimostra una buona attenzione all'orientamento, come evidenziato da un punteggio complessivo positivo nelle diverse dimensioni valutate. L'istituto si impegna a costruire un sistema di orientamento che tenga conto delle esigenze degli studenti, delle finalità formative e delle transizioni educative, con un focus sull'inclusione e sullo sviluppo di competenze per la vita.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento con un punteggio di 7, indicando un'esplicita attenzione all'inclusione e una chiara strutturazione delle attività in questo ambito.\n\n**2.2 Partnership:** L'istituto collabora con una vasta gamma di partner, tra cui **enti locali**, **realtà istituzionali, culturali, sociali ed economiche**, **organismi e associazioni dei genitori**, **Università**, **Imprese**, **Professionisti**, **Ordini**, **Associazioni** ed **Enti del terzo settore**. Sono state individuate 5 partnership, dimostrando un impegno nella creazione di una rete di supporto per l'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi** e del **progetto di vita** degli studenti, con un punteggio di 7 per quest'ultimo aspetto. Si pone attenzione anche alle **transizioni formative** (punteggio 5) e allo sviluppo delle **capacità orientative** per cogliere le opportunità (punteggio 6).\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF figurano la riduzione dell'**abbandono scolastico** (punteggio 6), la continuità territoriale (punteggio 5), il contrasto alla dispersione scolastica e NEET (punteggio 5) e la promozione del **lifelong learning** (punteggio 7).\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su azioni di **coordinamento dei servizi** (punteggio 5), **dialogo tra docenti e studenti** (punteggio 6), **rapporto scuola-genitori** (punteggio 6), **monitoraggio delle azioni** (punteggio 5) e un **sistema integrato di inclusione e fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 7), con un utilizzo meno marcato della **didattica laboratoriale** (punteggio 4) e una flessibilità moderata degli spazi e dei tempi (punteggio 5). Si promuove l'**interdisciplinarità** (punteggio 6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali** (punteggio 3), **laboratoriali ed espressive** (punteggio 4), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 4) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella presenza di una sezione dedicata, nell'ampia rete di **partnership** attivate, nell'attenzione allo sviluppo del **progetto di vita** degli studenti e nella promozione del **lifelong learning**. L'impegno nell'inclusione e la valorizzazione dell'esperienza diretta degli studenti rappresentano ulteriori elementi positivi. Le attività registrate, come **Progetto accoglienza classi prime**, **Sportello BES**, **Potenziamento scientifico**, **Potenziamento laboratoriale**, **Potenziamento umanistico**, **Potenziamento linguistico**, **Potenziamento socio economico e per la legalità**, **Potenziamento motorio**, **Classi aperte**, **Utilizzo LIM**, **Unità di Apprendimento**, **Didattica Laboratoriale**, **Educazione civica**, **Educazione ambientale**, **Educazione alla legalità**, **Scienze della terra**, **Progetto Orientamento e PCTO**, **Didattica per competenze**, **Analisi epistemica disciplinare**, **PCTO - Modulo Orientamento**, **PCTO** e **Job Placement** dimostrano una vasta gamma di iniziative messe in campo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente l'utilizzo della **didattica laboratoriale** e l'offerta di attività opzionali, che potrebbero essere ulteriormente potenziate. L'attenzione alle **transizioni formative** e alla continuità territoriale, pur presenti, potrebbero beneficiare di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare l'integrazione tra le diverse azioni di orientamento e di garantire una maggiore coerenza tra le finalità dichiarate e le attività concrete implementate. Un maggiore investimento nella **didattica laboratoriale** e nell'ampliamento dell'offerta di attività opzionali potrebbe contribuire a colmare questo gap.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo \"Fagnano Castello - Centro\" presenta un approccio all'orientamento solido e ben strutturato. L'istituto dimostra un impegno significativo nella creazione di un sistema di orientamento inclusivo e orientato allo sviluppo delle competenze degli studenti. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per il raggiungimento degli obiettivi prefissati e per la promozione di un'offerta formativa di qualità."
+}

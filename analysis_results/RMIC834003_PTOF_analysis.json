@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMIC834003",
+    "denominazione": "Fanelli - F.Marini",
+    "tipo_scuola": "I Grado, Liceo, Primaria, Tecnico",
+    "ordine_grado": "I Grado, II Grado, Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2025-2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Francesco Orioli 38",
+    "cap": "00119",
+    "email": "rmic834003@istruzione.it",
+    "pec": "rmic834003@pec.istruzione.it",
+    "website": "www.icfanellimarini.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Ufo Saronno",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti",
+      "target": "Studenti classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione dati MiAssumo",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Teams",
+      "target": "Studenti classi III e IV"
+    },
+    {
+      "titolo_attivita": "Progetto Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con Polizia Cantonale",
+      "target": "Liceo I e II"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esponenti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMIC834003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto “Fanelli - F.Marini” (RMIC834003) per il periodo 2025-2028. L'istituto, situato a Roma, offre un percorso formativo che comprende i gradi di istruzione Primaria, I e II grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con una solida base di attività e collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che evidenzia un'attenzione particolare a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di ben 15 partnership, tra cui **LAC**, **Museo in Erba**, **Polizia Cantonale**, **Ufo Saronno**, **Croce Rossa**, diverse università italiane e internazionali come **Università Bocconi**, **Università della Svizzera Italiana**, **Accademia di Architettura di Mendrisio**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College** e **Edimburgh University**. Queste collaborazioni rappresentano un valore aggiunto per l'offerta orientativa, offrendo agli studenti opportunità di contatto con il mondo del lavoro e dell'istruzione superiore.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi e il progetto di vita degli studenti, oltre a fornire loro le capacità orientative necessarie per affrontare le transizioni formative. Il punteggio di 4 per ciascuna di queste aree indica un buon allineamento tra gli obiettivi e le azioni proposte. La finalità relativa alle transizioni formative ottiene un punteggio leggermente inferiore (2), suggerendo un potenziale margine di miglioramento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning. L'obiettivo di continuità territoriale ottiene un punteggio di 3, mentre gli altri due (ridurre abbandono e contrastare NEET) un punteggio di 1, indicando una minore enfasi su questi aspetti specifici.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate dall'istituto comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. Tutte queste azioni ottengono un punteggio di 4, ad eccezione del monitoraggio, che si attesta a 2, suggerendo la necessità di rafforzare questo aspetto per garantire l'efficacia delle iniziative.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'esperienza degli studenti, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. La didattica laboratoriale ottiene un punteggio di 2, mentre le altre aree raggiungono un punteggio di 4, evidenziando un buon livello di integrazione dell'orientamento nel curriculum scolastico.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, tutte con un punteggio di 3. Questo indica una varietà di opportunità per gli studenti di esplorare i propri interessi e sviluppare le proprie competenze.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampio network di partnership con enti e istituzioni esterne, la chiarezza delle finalità e l'implementazione di azioni di sistema efficaci. L'offerta di attività extracurricolari come i **Corsi di lingue** e **Musica**, insieme ai progetti specifici come **MiOriento**, **MiAssumo** e **Percorso Competenze Trasversali**, contribuiscono a creare un ambiente stimolante e orientato allo sviluppo delle competenze degli studenti. L'attenzione all'inclusione, con lo **Sportello supporto DSA/BES** e lo **Sportello di ascolto e supporto**, dimostra un impegno verso il benessere e il successo di tutti gli studenti.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza del PTOF riguardano la minore enfasi su alcuni obiettivi specifici, come la riduzione dell'abbandono scolastico e il contrasto alla dispersione scolastica (NEET), e la necessità di rafforzare il monitoraggio delle azioni implementate. La didattica laboratoriale, pur presente, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi dichiarati in azioni concrete e misurabili, con un focus specifico sulla riduzione dell'abbandono scolastico e sul contrasto alla dispersione scolastica. È inoltre necessario implementare un sistema di monitoraggio più efficace per valutare l'impatto delle iniziative orientative e apportare eventuali correzioni di rotta.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto “Fanelli - F.Marini” presenta un approccio solido e ben strutturato all'orientamento, con una forte attenzione alla partnership, alle finalità e alle azioni di sistema. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per lo sviluppo di un'offerta orientativa efficace e in linea con le esigenze degli studenti e del territorio. L'impegno verso l'inclusione e la varietà di attività proposte rappresentano un valore aggiunto significativo."
+}

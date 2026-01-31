@@ -1,0 +1,169 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AQMM82401X",
+    "denominazione": "Scurcola Marsicana",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Scurcola Marsicana",
+    "anno_ptof": "2022-2025",
+    "provincia": "L'Aquila",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Talamo",
+    "cap": "67068",
+    "email": "aqic82400v@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.scuolamaglianodemarsi.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento non ha una sezione dedicata, ma è menzionato all'interno di altre sezioni, come 'Le Scelte Strategiche' e 'L'Offerta Formativa'."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [],
+      "partnership_count": 0
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "motivare e dare significato alle conoscenze, radicandole sulle effettive capacità individuali",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "motivare e dare significato alle conoscenze, radicandole sulle effettive capacità individuali",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "orientare, mettendo ogni alunno in condizione di operare scelte consapevoli per costruire il proprio futuro",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "garantire un percorso di continuità fra gradi scolastici, potenziando i progetti continuità e orientamento",
+        "evidence_location": "Pagina 6"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": null,
+        "evidence_location": null
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Italia- Grecia- Inghilterra, cross the bridge!",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Scambio culturale e collaborazione internazionale.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Progetto di scambio culturale.",
+      "5w_dove": "Italia, Grecia, Inghilterra",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Ampliare l'orizzonte culturale e promuovere il multiculturalismo.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Eco-school",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetto di educazione ambientale.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Sensibilizzazione alle tematiche ambientali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Promuovere comportamenti di cittadinanza responsabile.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Percorsi per le competenze trasversali e per l’inclusione scolastica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo di competenze trasversali e inclusione.",
+      "5w_chi": "Studenti",
+      "5w_cosa": "Attività per migliorare le competenze trasversali.",
+      "5w_dove": "Scuola",
+      "5w_quando": "Anno scolastico 2022/23",
+      "5w_perche": "Favorire l'inclusione e lo sviluppo delle competenze.",
+      "ore_dichiarate": "ND",
+      "target": "Studenti",
+      "evidence_quote": null,
+      "evidence_location": "Pagina 7"
+    }
+  ],
+  "narrative": "## Analisi del PTOF AQMM82401X\n\n### 1. Sintesi Generale\nIl PTOF della Scuola Statale Italiana di Atene delinea un approccio all'orientamento integrato nelle diverse aree del documento, pur non disponendo di una sezione dedicata. L'attenzione è focalizzata sullo sviluppo delle competenze degli studenti, sulla promozione del bilinguismo e del biculturalismo, e sulla creazione di un ambiente inclusivo. Il livello di maturità dell'orientamento appare sufficiente, ma necessita di un'esplicitazione più chiara delle azioni specifiche e di un sistema di monitoraggio dei risultati.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento, rappresentando una lacuna significativa. L'orientamento è affrontato in modo trasversale all'interno di altre sezioni, come 'Le Scelte Strategiche' e 'L'Offerta Formativa'.\n\n#### 2.2 Partnership e Reti\nAttualmente, il PTOF non evidenzia partnership specifiche in ambito orientativo.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate allo sviluppo delle attitudini e degli interessi degli studenti, alla preparazione al progetto di vita e alla facilitazione delle transizioni formative. L'obiettivo di garantire la continuità tra i gradi scolastici è ben definito.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di sistema per l'orientamento risultano limitate e poco strutturate. Si evidenzia la necessità di un coordinamento più efficace tra i diversi servizi e di una chiara definizione dei ruoli e delle responsabilità.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa su metodologie inclusive, come il Cooperative Learning e le classi aperte. L'uso di laboratori e attività interdisciplinari contribuisce allo sviluppo delle competenze degli studenti.\n\n#### 2.6 Opportunità Formative\nLa scuola offre diverse opportunità formative, tra cui progetti culturali, laboratori espressivi e attività sportive. Tuttavia, l'offerta di attività di volontariato è limitata.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Italia- Grecia- Inghilterra, cross the bridge!\nQuesto progetto mira a promuovere lo scambio culturale tra studenti di diversi paesi, offrendo loro l'opportunità di sviluppare competenze interculturali e linguistiche attraverso l'interazione con coetanei di altre culture. L'attività si svolge in Italia, Grecia e Inghilterra durante l'anno scolastico 2022/23.\n\n#### 2.7.2 Eco-school\nQuesto progetto si concentra sull'educazione ambientale e sulla sensibilizzazione alle tematiche ecologiche, coinvolgendo gli studenti in attività pratiche per ridurre l'impatto ambientale della scuola e promuovere comportamenti sostenibili. L'attività si svolge all'interno della scuola durante l'anno scolastico 2022/23.\n\n#### 2.7.3 Percorsi per le competenze trasversali e per l’inclusione scolastica\nQuesto progetto mira a sviluppare le competenze trasversali degli studenti e a promuovere l'inclusione scolastica attraverso attività collaborative e laboratoriali volte a migliorare le loro capacità di comunicazione, problem solving e lavoro di squadra. L'attività si svolge all'interno della scuola durante l'anno scolastico 2022/23.\n\n### 3. Punti di Forza\nI punti di forza del PTOF sono l'attenzione allo sviluppo delle competenze degli studenti, la promozione del bilinguismo e del biculturalismo, e la creazione di un ambiente inclusivo. \n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e la mancanza di azioni specifiche e monitorabili rappresentano le principali aree di debolezza. Il coordinamento tra i diversi servizi e la definizione dei ruoli e delle responsabilità necessitano di un miglioramento.\n\n### 5. Gap Analysis\nIl gap principale risiede nella mancanza di una strategia di orientamento integrata e sistematica. È necessario definire obiettivi chiari, azioni concrete e indicatori di successo per misurare l'efficacia dell'orientamento.\n\n### 6. Conclusioni\nIl PTOF della Scuola Statale Italiana di Atene presenta un buon punto di partenza per lo sviluppo di un'offerta formativa orientata al successo degli studenti. Tuttavia, è fondamentale colmare le lacune esistenti e implementare una strategia di orientamento più strutturata, monitorabile e che integri una riflessione specifica sull'inclusione di tutti gli studenti."
+}

@@ -1,0 +1,176 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOAA817022",
+    "denominazione": "Scuola Materna Giordani",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2024/2025-2025/2026-2026/2027",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Libia 57",
+    "cap": "40138",
+    "email": "boic817004@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.ic6bologna.com/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "Non esiste una sezione dedicata all'orientamento. L'orientamento è menzionato in modo generico all'interno di obiettivi e attività, ma non è trattato in modo specifico e strutturato."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Biblioteche Civiche",
+        "Teatro Stabile del Friuli Venezia Giulia",
+        "Agenzie educative specializzate",
+        "Università di Trieste – Dipartimento Scienze Umanistiche",
+        "Strutture Semplici Bambini Adolescenti della locale Azienda per  i Servizi Sanitari",
+        "Comune di Trieste"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "maturazione dell'identità, come conoscenza e valorizzazione di sé e degli altri",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "sviluppo delle competenze, come traguardi di apprendimento nel rispetto e nella valorizzazione delle diversità individuali",
+        "evidence_location": "Pagina 2"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 1,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna esplicita",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti per l’arricchimento dell’offerta formativa",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti mirati, con particolare attenzione alle opportunità che provengono dal territorio e a quelle portate dalle diverse iniziative in cui il Comune di Trieste è protagonista o promotore.",
+      "5w_chi": "Bambini delle scuole dell'infanzia",
+      "5w_cosa": "Attività didattiche e progetti",
+      "5w_dove": "Scuole dell'infanzia, territorio",
+      "5w_quando": "Triennio 2024/2025-2025/2026-2026/2027",
+      "5w_perche": "Ampliare l'offerta formativa, didattica e pedagogica",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "ampliamento della propria offerta formativa, didattica e pedagogica attraverso progetti mirati",
+      "evidence_location": "Pagina 3"
+    },
+    {
+      "titolo_attivita": "Diffusione della pratica della lettura",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Progetti ed eventi rivolti ai bambini per il potenziamento culturale e formativo, in collaborazione con le Biblioteche Civiche e il Patto per la Lettura.",
+      "5w_chi": "Bambini e famiglie",
+      "5w_cosa": "Attività di lettura",
+      "5w_dove": "Biblioteche, scuole",
+      "5w_quando": "a.s. 2024/2025",
+      "5w_perche": "Potenziare il piacere della lettura",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "diffusione della pratica della lettura tra i bambini e le loro famiglie",
+      "evidence_location": "Pagina 4"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvicinamento al canto e alla musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Percorsi in collaborazione con realtà cittadine che operano nel campo della musica.",
+      "5w_chi": "Bambini",
+      "5w_cosa": "Attività musicali",
+      "5w_dove": "Scuole, contesti musicali",
+      "5w_quando": "a.s. 2024/2025",
+      "5w_perche": "Avvicinare i bambini alla musica",
+      "ore_dichiarate": "ND",
+      "target": "Tutti i bambini",
+      "evidence_quote": "percorsi di avvicinamento al canto e alla musica",
+      "evidence_location": "Pagina 4"
+    }
+  ],
+  "narrative": "## Analisi del PTOF Scuole dell'Infanzia del Comune di Trieste\n\n### 1. Sintesi Generale\nIl PTOF delle Scuole dell'Infanzia del Comune di Trieste delinea un quadro educativo coerente, focalizzato sullo sviluppo integrale del bambino e sull'ampliamento dell'offerta formativa attraverso partnership territoriali. Tuttavia, l'assenza di una sezione specifica dedicata all'orientamento rappresenta una criticità, limitando la sua integrazione sistematica nel percorso educativo. Sebbene l'orientamento sia implicitamente presente in alcune finalità e attività, manca una visione strategica e strutturata.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nLa mancanza di una sezione dedicata all'orientamento è un punto debole significativo. Ciò implica una sottovalutazione dell'importanza di un processo educativo mirato a supportare i bambini nella scoperta delle proprie attitudini, interessi e potenzialità.\n\n#### 2.2 Partnership e Reti\nIl PTOF si distingue per la solida rete di partnership con enti locali e istituzioni, quali Biblioteche Civiche, il Teatro Stabile del Friuli Venezia Giulia e l'Università di Trieste. Queste collaborazioni offrono preziose opportunità di arricchimento dell'offerta formativa e di potenziale orientamento, ma necessitano di essere esplicitamente integrate in un piano di orientamento strutturato.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità educative, incentrate sulla maturazione dell'identità, sullo sviluppo delle competenze e sulla valorizzazione delle diversità, sono condivisibili. Tuttavia, l'assenza di un riferimento esplicito all'orientamento come processo finalizzato alla consapevolezza delle proprie capacità e alla progettazione del futuro rappresenta una lacuna.\n\n#### 2.4 Governance e Azioni di Sistema\nLe azioni di coordinamento tra i servizi educativi e il dialogo con le famiglie costituiscono un solido punto di partenza per un approccio orientativo integrato. È fondamentale, tuttavia, che queste azioni siano esplicitamente orientate alla promozione dell'orientamento in itinere.\n\n#### 2.5 Didattica Orientativa\nLa didattica proposta, orientata allo sviluppo delle competenze e alla valorizzazione delle esperienze dei bambini, è apprezzabile. Si suggerisce di potenziare l'approccio didattico attraverso attività specifiche volte a stimolare la riflessione sulle proprie aspirazioni e a favorire scelte consapevoli.\n\n#### 2.6 Opportunità Formative\nLe opportunità formative, quali progetti culturali, laboratori espressivi e attività sportive, contribuiscono allo sviluppo delle competenze e degli interessi dei bambini. Per massimizzarne l'efficacia, è necessario inserirle in un percorso di orientamento coerente e mirato.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetti per l’arricchimento dell’offerta formativa\nI progetti mirati all'arricchimento dell'offerta formativa rappresentano un'opportunità per ampliare le esperienze dei bambini e stimolare i loro interessi, contribuendo indirettamente allo sviluppo di competenze utili per il futuro.\n\n#### 2.7.2 Diffusione della pratica della lettura\nI progetti di diffusione della pratica della lettura promuovono il piacere della lettura e lo sviluppo del pensiero critico, competenze fondamentali per l'orientamento.\n\n#### 2.7.3 Percorsi di avvicinamento al canto e alla musica\nI percorsi di avvicinamento al canto e alla musica offrono ai bambini l'opportunità di esplorare il mondo dell'arte e di sviluppare le proprie capacità espressive, favorendo la scoperta di talenti e passioni.\n\n### 3. Punti di Forza\nIl PTOF si caratterizza per una visione educativa chiara, una solida rete di partnership e un'attenzione allo sviluppo integrale del bambino.\n\n### 4. Aree di Debolezza\nLa principale area di debolezza è rappresentata dall'assenza di una sezione dedicata all'orientamento, che limita la sua integrazione sistematica nel percorso educativo.\n\n### 5. Gap Analysis\nÈ necessario colmare il divario relativo all'orientamento attraverso la definizione di finalità, obiettivi e azioni specifiche. Si suggerisce di integrare l'orientamento in un percorso educativo più ampio, coinvolgendo tutti gli attori del sistema scolastico e valorizzando le partnership territoriali.\n\n### 6. Conclusioni\nIl PTOF delle Scuole dell'Infanzia del Comune di Trieste presenta un buon livello di maturità e un'offerta formativa ricca e diversificata. Per ottimizzarne l'efficacia, è fondamentale rafforzare l'attenzione all'orientamento scolastico, definendo una sezione dedicata e integrando l'orientamento in un percorso educativo coerente e mirato. Si raccomanda, inoltre, di considerare l'importanza dell'inclusione come elemento trasversale del PTOF, valorizzando le specificità di ogni bambino e promuovendo un ambiente educativo accogliente e rispettoso delle diversità."
+}

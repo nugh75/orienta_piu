@@ -1,0 +1,290 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "PZIS01100T",
+    "denominazione": "I.I.S. \"G. Solimene\" Lavello",
+    "tipo_scuola": "I Grado, Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Lavello",
+    "anno_ptof": "2022-2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Aldo Moro N. 1",
+    "cap": "85024",
+    "email": "pzis01100t@istruzione.it",
+    "pec": "pzis01100t@pec.istruzione.it",
+    "website": "https://www.solimenelavello.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni culturali",
+        "imprese",
+        "servizi sociali",
+        "ASL",
+        "università di Basilicata",
+        "università di Foggia",
+        "famiglie",
+        "associazioni del territorio",
+        "organizzazioni del terzo settore",
+        "enti pubblici",
+        "enti di formazione",
+        "UNIBAS",
+        "Università Di Foggia",
+        "PROLOCO di Lavello",
+        "ALSIA",
+        "Aziende",
+        "Servizi socio-sanitari",
+        "Associazioni sportive",
+        "Diocesi",
+        "Suore Apostoline",
+        "ASD Pallandia",
+        "Consultorio Familiare"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzioni con aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di ampliamento offerta formativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento STEM",
+      "categoria_principale": "Competenze STEM",
+      "descrizione_e_metodologia": "Organizzazione di corsi e laboratori pratici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Simulazioni e preparazione alle prove",
+      "target": "Studenti seconde e quinte"
+    },
+    {
+      "titolo_attivita": "Laboratorio integrato STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo di robotica, coding, realtà aumentata e simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze in impresa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a università e aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curricolo di Istituto",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività laboratoriali, compiti di realtà, incontri con esperti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "laboratorio di caseificazione",
+      "categoria_principale": "Sostenibilità ambientale",
+      "descrizione_e_metodologia": "Sperimentazione tecniche casearie, analisi dati produzione",
+      "target": "Classi 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Educazione all'affettività e sessualità",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Incontri con esperti, dialogo aperto",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro in lingua straniera",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Assistenza a spettacoli teatrali in inglese e francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura Biblioteca Innovativa",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Sensibilizzazione alla lettura tramite acquisto libri, piattaforme MLOL/ISLN e incontri con autori.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite culturali in Italia e all'estero.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "V.I.A. Volontari in Azione",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Laboratori informazione abuso alcol/tossicodipendenza",
+      "target": "Classi aperte"
+    },
+    {
+      "titolo_attivita": "Attività Sportive Paralimpiche",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Avvicinamento allo sport paralimpico",
+      "target": "Studenti con disabilità"
+    },
+    {
+      "titolo_attivita": "Facciamo La Differenziata",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "PCTO con PROLOCO Lavello per differenziare i rifiuti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione Laboratori Agricoltura Sostenibile 4.0",
+      "categoria_principale": "Agricoltura",
+      "descrizione_e_metodologia": "Laboratori idroponica, energia fotovoltaica, dati meteorologici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Terapia a scuola",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Riduzione orario curriculare per terapie riabilitative",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Avvicinamento allo sport paralimpico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corsi di orientamento e avviamento alle attività paralimpiche",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Formazione del personale ATA sulla sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Rilevazione rischi e condizioni igienico-ambientali. Attività in presenza: laboratori, formazione di scuola/rete.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione del personale ATA sulle competenze informatiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Collaborazione con ufficio tecnico e area amministrativa. Attività in presenza: laboratori, formazione di scuola/rete.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione Registro Elettronico e Gecodoc",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Collaborazione nell’attuazione dei processi di innovazione. Attività in presenza.",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Corso di Formazione sulla Gestione Documentale e Dematerializzazione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza: laboratori, formazione di scuola/rete.",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Nuovi Adempimenti di Segreteria",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza.",
+      "target": "DSGA e Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione sulla Gestione dei Progetti PON e PNRR",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, formazione di scuola/rete, formazione online.",
+      "target": "Personale Amministrativo"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZIS01100T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) 2022-2025 dell'I.I.S. \"G. Solimene\" Lavello (PZIS01100T). L'istituto, situato in **Basilicata** e operante in un territorio **non metropolitano**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 7 su questo aspetto. L'analisi approfondita delle diverse dimensioni dell'orientamento, delle attività registrate e dei partner coinvolti, permette di delineare un quadro completo dei punti di forza, delle aree di debolezza e dei possibili gap da colmare per ottimizzare l'efficacia dell'azione orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** La presenza di una sezione dedicata all'orientamento nel PTOF è un elemento positivo, suggerendo un'attenzione strutturale a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con ben 20 partner nominati tra cui **associazioni culturali**, **imprese**, **servizi sociali**, **ASL**, le **università di Basilicata** e **Foggia** (UNIBAS), **enti pubblici**, **associazioni del territorio** e la **PROLOCO di Lavello**. Questa collaborazione con diversi attori del territorio rappresenta una risorsa preziosa per offrire agli studenti un'ampia gamma di opportunità e per favorire la transizione verso il mondo del lavoro e l'istruzione superiore.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** degli studenti, a supportare il loro **progetto di vita** e a facilitare le **transizioni formative**, fornendo loro le **capacità orientative** necessarie per cogliere le **opportunità** offerte dal contesto socio-economico.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono scolastico**, sul rafforzamento del legame con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto prevede azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolare attenzione è rivolta all'integrazione dell'orientamento con i servizi di **inclusione** per gli studenti con **fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento **da esperienza**, la **laboratorialità**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, ampliando ulteriormente le opportunità di orientamento e di sviluppo personale degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una rete di partnership ampia e diversificata, che consente all'istituto di offrire agli studenti un'ampia gamma di opportunità di orientamento e di collegamento con il mondo del lavoro e l'istruzione superiore. L'impegno verso una didattica orientativa innovativa e l'attenzione all'inclusione rappresentano ulteriori elementi positivi. Le attività registrate, come **PCTO**, **Collaborazione con Università**, **Percorsi di potenziamento STEM** e **Alternanza scuola lavoro**, dimostrano un'azione concreta in questo ambito.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, è necessario considerare che i punteggi relativi alle finalità, agli obiettivi e alle azioni di sistema sono pari a 4. Questo suggerisce che, pur essendo ben definiti, questi aspetti potrebbero necessitare di un maggiore approfondimento e di una maggiore integrazione nelle attività quotidiane dell'istituto.\n\n### 5. Gap Analysis\n\nUn possibile gap riguarda la necessità di rafforzare il monitoraggio e la valutazione delle azioni di orientamento intraprese, al fine di verificarne l'efficacia e di apportare eventuali correzioni. Inoltre, sarebbe opportuno definire indicatori specifici per misurare il raggiungimento degli obiettivi prefissati, come la riduzione dell'abbandono scolastico e il contrasto al fenomeno dei NEET.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. \"G. Solimene\" Lavello dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di partnership e da un'offerta formativa diversificata. Pur riconoscendo alcuni margini di miglioramento, l'istituto si presenta come una realtà scolastica attenta alle esigenze degli studenti e impegnata a fornire loro gli strumenti necessari per affrontare le sfide del futuro. Le attività come **Facciamo La Differenziata**, **Realizzazione Laboratori Agricoltura Sostenibile 4.0** e **Formazione del personale ATA** dimostrano un approccio olistico all'educazione e alla formazione."
+}

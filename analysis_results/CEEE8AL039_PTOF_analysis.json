@@ -1,0 +1,191 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CEEE8AL039",
+    "denominazione": "San Giovanni Bosco",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Valle Di Maddaloni",
+    "anno_ptof": "2016/19 (aggiornamento 2018/19)",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Iv Novembre",
+    "cap": "81020",
+    "email": "ceic8al005@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmaddaloni2valle.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione 'Orientamento' a pag. 50"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Famiglie",
+        "Territorio",
+        "ASL",
+        "servizi sociali",
+        "psicologia scolastica",
+        "Scuole Secondarie di II grado",
+        "Gruppo A.G.E.S.C.I. Casagiove",
+        "Associazione Sportiva E.N.D.A.S.",
+        "Casa dei Diritti Sociali",
+        "Associazione La Fenice",
+        "A.Na.VO",
+        "Compagnia teatrale Amici del treno",
+        "PRO LOCO Valle",
+        "IC Aldo Moro",
+        "IC Maddaloni 1",
+        "IC Fermi",
+        "Liceo Don Gnocchi",
+        "Convitto G. Bruno",
+        "Liceo Cortese"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Interfaccia con strutture esterne per pianificazione",
+      "target": "SS1"
+    },
+    {
+      "titolo_attivita": "Incontri con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con docenti e famiglie",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Giornate dell'orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione eventi",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Scuola Viva",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività extracurriculari per il potenziamento delle competenze",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetti PON FSE",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Orientamento, competenze di base, cittadinanza",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "SPORT di classe",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività motorie con tutor esterno",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Incontri con docenti scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Illustrazione programmi e progetti delle scuole superiori",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Mattinate orientative",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori presso Istituti Superiori",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Consegna Consiglio Orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Elaborazione e consegna del consiglio orientativo alle famiglie",
+      "target": "Alunni classi terze e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CEEE8AL039\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **San Giovanni Bosco** (codice CEEE8AL039), relativo all'anno 2016/19 con aggiornamento al 2018/19. La scuola, situata nel territorio non metropolitano di **Valle Di Maddaloni** in provincia di **Caserta** e regione **Campania**, è un istituto statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento Sezione Dedicata\n\nIl PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 7, come indicato a pagina 50 del documento. Questo suggerisce un'attenzione specifica e strutturata a questo ambito.\n\n#### 2.2 Partnership\n\nLa scuola dimostra un'ampia rete di partnership, con un totale di 20 partner nominati, tra cui **famiglie**, **territorio**, **ASL**, **servizi sociali**, **psicologia scolastica**, diverse **Scuole Secondarie di II grado** (tra cui **Liceo Don Gnocchi**, **Convitto G. Bruno**, **Liceo Cortese** e altri IC), il **Gruppo A.G.E.S.C.I. Casagiove**, l'**Associazione Sportiva E.N.D.A.S.**, la **Casa dei Diritti Sociali**, l'**Associazione La Fenice**, **A.Na.VO**, la **Compagnia teatrale Amici del treno** e la **PRO LOCO Valle**. Questa vasta rete di collaborazioni rappresenta un punto di forza per l'implementazione di attività di orientamento e per l'ampliamento delle opportunità offerte agli studenti.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 6 per entrambe le aree. Meno marcata è l'attenzione al **progetto di vita**, con un punteggio di 3, mentre risultano più consolidate le finalità legate alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità, entrambe con punteggio 6.\n\n#### 2.4 Obiettivi\n\nGli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico e sulla continuità con il **territorio**, entrambi con un punteggio di 5. L'attenzione alla lotta contro il fenomeno **NEET** risulta meno prioritaria (punteggio 1), così come lo sviluppo del **lifelong learning** (punteggio 4).\n\n#### 2.5 Azioni di Sistema\n\nLe azioni di sistema per l'orientamento si focalizzano sul **coordinamento dei servizi** e sul **dialogo tra docenti e studenti**, con un punteggio di 5 per entrambe le aree. Il **rapporto scuola-genitori** è considerato più efficace (punteggio 6), mentre il **monitoraggio delle azioni** e l'implementazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio di 5 e 4 rispettivamente.\n\n#### 2.6 Didattica Orientativa\n\nL'approccio didattico all'orientamento si basa sull'utilizzo delle **esperienze degli studenti** (punteggio 6), sebbene la **didattica laboratoriale** risulti meno sviluppata (punteggio 3). La **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare** sono considerati adeguati, con un punteggio di 5 per entrambe le aree.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali** e **sportive** (punteggio 4), mentre quelle **laboratoriali ed espressive** ricevono lo stesso punteggio. Le attività **ludiche e ricreative** e quelle legate al **volontariato** sono meno presenti (punteggio 3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e l'ampia rete di **partnership** attivate con diversi soggetti del territorio e scuole secondarie di secondo grado. Le attività registrate, come le **visite guidate**, gli **incontri con scuole superiori**, le **giornate dell'orientamento** e la **consegna del Consiglio Orientativo**, dimostrano un impegno concreto nell'offrire opportunità di orientamento agli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la scarsa attenzione al **progetto di vita** degli studenti come finalità dell'orientamento e la limitata attenzione alla lotta contro il fenomeno **NEET** come obiettivo. Anche la **didattica laboratoriale** risulta meno sviluppata rispetto ad altri approcci didattici.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità orientate allo sviluppo delle attitudini e degli interessi e la minore attenzione al progetto di vita suggerisce la necessità di integrare maggiormente l'orientamento con attività che aiutino gli studenti a definire i propri obiettivi personali e professionali. L'obiettivo di contrastare il fenomeno NEET potrebbe essere rafforzato attraverso l'implementazione di progetti specifici rivolti a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria **San Giovanni Bosco** presenta una solida base per l'implementazione di un'efficace azione di orientamento, grazie alla presenza di una sezione dedicata, alla vasta rete di partnership e alle attività concrete messe in atto. Tuttavia, è necessario rafforzare l'attenzione al **progetto di vita** degli studenti e alla lotta contro il fenomeno **NEET**, nonché potenziare la **didattica laboratoriale** per offrire un'esperienza di orientamento più completa e personalizzata. L'integrazione di queste aree di miglioramento consentirebbe alla scuola di raggiungere appieno le finalità del PTOF e di preparare al meglio gli studenti alle sfide del futuro."
+}

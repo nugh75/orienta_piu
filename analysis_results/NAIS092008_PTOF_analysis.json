@@ -1,0 +1,271 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAIS092008",
+    "denominazione": "I.I.S. \"Don Geremia Piscopo\" - Arzano",
+    "tipo_scuola": "Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Arzano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Napoli 57 Bis",
+    "cap": "80022",
+    "email": "nais092008@istruzione.it",
+    "pec": "nais092008@pec.istruzione.it",
+    "website": "www.iispiscopo.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "enti territoriali",
+        "associazioni del terzo settore",
+        "aziende del settore",
+        "fondazioni",
+        "strutture sanitarie",
+        "agenzie pubblicitarie",
+        "studi professionali",
+        "ASL",
+        "Book in Progress"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di costruzione gruppo classe, acquisizione metodo studio",
+      "target": "Studenti primi anni"
+    },
+    {
+      "titolo_attivita": "Percorsi di riallineamento",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Percorsi per studenti con lacune in ingresso",
+      "target": "Studenti primi anni"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero in itinere",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Intervento di sostegno durante attività didattiche curriculari.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Migliorare gli esiti delle prove nazionali",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi per migliorare conoscenze in italiano e matematica.",
+      "target": "Studenti con bassi risultati"
+    },
+    {
+      "titolo_attivita": "Migliorarsi per migliorare",
+      "categoria_principale": "Comportamento",
+      "descrizione_e_metodologia": "Visite, incontri con professionisti per migliorare condotta e frequenza.",
+      "target": "Studenti con problemi di condotta/assenza"
+    },
+    {
+      "titolo_attivita": "Mentoring e supporto individuale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto individuale per rafforzare competenze",
+      "target": "Studenti vulnerabili"
+    },
+    {
+      "titolo_attivita": "Ampliamento offerta formativa",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi personalizzati per sviluppo persona",
+      "target": "Studenti con vulnerabilità"
+    },
+    {
+      "titolo_attivita": "PCTO Meccanica e Meccatronica",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage annuale presso aziende del settore",
+      "target": "Studenti indirizzo Meccanica e Meccatronica"
+    },
+    {
+      "titolo_attivita": "PCTO Servizi per la Sanità e l'Assistenza",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage annuale presso strutture sanitarie",
+      "target": "Studenti indirizzo Servizi per la Sanità"
+    },
+    {
+      "titolo_attivita": "PCTO Informatica",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage annuale presso aziende informatiche",
+      "target": "Studenti indirizzo Informatica"
+    },
+    {
+      "titolo_attivita": "PCTO Grafica",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage annuale presso agenzie pubblicitarie",
+      "target": "Studenti indirizzo Grafica"
+    },
+    {
+      "titolo_attivita": "Startup Your Life",
+      "categoria_principale": "Educazione Finanziaria",
+      "descrizione_e_metodologia": "Percorsi di educazione finanziaria, imprenditoriale e orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "LABORATORI PAL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l'orientamento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fusion 360",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Acquisizione competenze software Fusion 360.",
+      "target": "Studenti Meccanica/Meccatronica"
+    },
+    {
+      "titolo_attivita": "Ideazione E Progettazione Di Un Capo Di Alta Moda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di un capo di alta moda.",
+      "target": "Studenti Industri e Artigianato"
+    },
+    {
+      "titolo_attivita": "Il Turistico In Mostra",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite guidate a mostra presepiale.",
+      "target": "Studenti 5ATur"
+    },
+    {
+      "titolo_attivita": "L'Utilizzo Di Internet In Maniera Consapevole",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Utilizzo consapevole della rete.",
+      "target": "Studenti Servizi per la Sanità"
+    },
+    {
+      "titolo_attivita": "Formazione metodologica e tecnologica dei colleghi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, animazione, partecipazione a snodi formativi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Coinvolgimento della comunità scolastica",
+      "categoria_principale": "Coinvolgimento",
+      "descrizione_e_metodologia": "Workshop, attività aperte a famiglie e territorio",
+      "target": "Studenti, Famiglie, Territorio"
+    },
+    {
+      "titolo_attivita": "Creazione di soluzioni innovative",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Uso strumenti didattici, metodologia comune, informazione innovazioni",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo di piattaforme Google Meet, Microsoft Teams, OpenClass per lezioni sincrone e asincrone.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento sull'uso delle nuove tecnologie per la didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti per la continuita' della scuola",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attivita' laboratoriali e percorsi specifici",
+      "target": "Alunni disabili e in stato di svantaggio"
+    },
+    {
+      "titolo_attivita": "Monitoraggio DSA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Rilevazione DSA con supporto ASL",
+      "target": "Alunni DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAIS092008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. \"Don Geremia Piscopo\" di Arzano, relativo al triennio 2022-2025. L'istituto, di tipo professionale e tecnico, opera nel territorio metropolitano della Campania. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7, il che indica un impegno formale e strutturato verso questa area.\n\n**2.2 Partnership:** L'istituto ha stabilito partnership con una varietà di soggetti esterni, tra cui **enti territoriali**, **associazioni del terzo settore**, **aziende del settore**, **fondazioni**, **strutture sanitarie**, **agenzie pubblicitarie**, **studi professionali**, **ASL** e **Book in Progress**. Il numero di partner coinvolti (9) suggerisce un'apertura alla collaborazione esterna per arricchire l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** rispetto alle opportunità disponibili. Ogni finalità ha ottenuto un punteggio di 5, evidenziando una coerenza e completezza nell'approccio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla promozione della continuità territoriale, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sullo sviluppo del **lifelong learning**. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 5, dimostrando una chiara visione strategica.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Ogni azione ha ottenuto un punteggio di 5, sottolineando un approccio sistemico e integrato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. L'attenzione all'esperienza studentesca e alla flessibilità didattica è evidente, mentre l'uso dei laboratori ottiene un punteggio leggermente inferiore (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzioni culturali e laboratoriali ottengono un punteggio di 5, mentre le opzioni ludiche, di volontariato e sportive un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nella varietà delle partnership attivate, nella chiarezza delle finalità e degli obiettivi, nell'approccio sistemico e integrato delle azioni implementate e nell'attenzione all'esperienza degli studenti nella didattica orientativa. Le attività registrate, come **Progetto Accoglienza**, **Percorsi di riallineamento**, **Corsi di recupero in itinere** e **Mentoring e supporto individuale**, dimostrano un impegno concreto verso il supporto degli studenti. L'offerta di **PCTO** in diversi indirizzi (Meccanica, Sanità, Informatica, Grafica) è un elemento distintivo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente l'utilizzo dei laboratori nella didattica orientativa e l'offerta di attività opzionali ludiche, di volontariato e sportive, che ottengono punteggi inferiori rispetto alle altre dimensioni. Potrebbe essere utile potenziare l'utilizzo dei laboratori e ampliare l'offerta di attività opzionali per rispondere in modo più completo agli interessi e alle esigenze degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre i buoni punteggi ottenuti nelle diverse dimensioni in azioni concrete e misurabili. Sebbene il PTOF delinei un quadro strategico solido, è importante definire indicatori di performance specifici per monitorare l'efficacia delle azioni implementate e valutare il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. \"Don Geremia Piscopo\" di Arzano dimostra un'attenzione significativa all'orientamento, con un approccio strutturato, sistemico e integrato. I punti di forza superano le aree di debolezza, e il gap principale riguarda la necessità di definire indicatori di performance per monitorare l'efficacia delle azioni implementate. L'istituto è ben posizionato per continuare a sviluppare un'offerta orientativa di qualità, in grado di supportare gli studenti nel loro percorso di crescita personale e professionale. L'impegno verso attività come **Startup Your Life**, **LABORATORI PAL**, **Fusion 360** e **Didattica Digitale Integrata** evidenzia una scuola dinamica e attenta alle nuove sfide."
+}

@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTEE83201X",
+    "denominazione": "Giovanni Paolo Ii-Policoro 2",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Policoro",
+    "anno_ptof": "2022-2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Pandosia 10",
+    "cap": "75025",
+    "email": "mtic83200t@istruzione.it",
+    "pec": "ND",
+    "website": "www.ic2policoro.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti diverse attività di orientamento, non è identificabile una sezione specificamente dedicata e strutturata per l'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AS Roma",
+        "Polo Natatorio Freccia Rossa",
+        "Meliá Hotels International",
+        "Università"
+      ],
+      "partnership_count": 1
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO (ex Alternanza Scuola Lavoro)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di PCTO per gli studenti del secondo ciclo.",
+      "target": "Studenti Secondaria II Grado"
+    },
+    {
+      "titolo_attivita": "Didattica per Ambienti di Apprendimento (DADA)",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Trasformazione delle aule in ambienti di apprendimento flessibili.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Nuoto",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Attività di nuoto presso il Polo Natatorio Freccia Rossa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Teatrale",
+      "categoria_principale": "Espressiva",
+      "descrizione_e_metodologia": "Laboratorio teatrale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage/assunzione",
+      "categoria_principale": "Inserimento lavorativo",
+      "descrizione_e_metodologia": "Percorso formativo finalizzato al contratto di lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partnership con Meliá Hotels International",
+      "categoria_principale": "Stage/Tirocini",
+      "descrizione_e_metodologia": "Stage in strutture di alto livello",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Contatti con la scuola secondaria di primo grado",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "UniOne",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Evento formativo e professionale con università",
+      "target": "Studenti dell'istituto"
+    },
+    {
+      "titolo_attivita": "Laboratorio sulla Comunicazione Didattica",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratorio pratico sulla comunicazione efficace",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso addetti di Primo Soccorso",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Corso teorico-pratico di primo soccorso",
+      "target": "Docenti e Personale Amm."
+    },
+    {
+      "titolo_attivita": "Corso di Sicurezza sul Lavoro",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "Corso teorico sulla sicurezza sul lavoro",
+      "target": "Docenti e Personale Amm."
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Progetti Contenitore",
+      "descrizione_e_metodologia": "Sensibilizzazione su temi quali educazione sessuale, abuso di alcool e droghe",
+      "target": "Tutti gli Istituti"
+    },
+    {
+      "titolo_attivita": "Il Senso della Vita",
+      "categoria_principale": "Progetti Contenitore",
+      "descrizione_e_metodologia": "Appuntamenti su tematiche sociali",
+      "target": "Tutti gli Istituti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTEE83201X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Giovanni Paolo Ii-Policoro 2** (MTEE83201X) per il triennio 2022-2025. La scuola, situata nel territorio non metropolitano di Policoro, in provincia di Matera e regione Basilicata, si configura come istituto statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Orientamento - Sezione Dedicata\n\nL'analisi evidenzia che, sebbene siano presenti diverse attività riconducibili all'orientamento, non è identificabile una sezione specificamente dedicata e strutturata per questo ambito, ottenendo un punteggio di 3. Questo suggerisce la necessità di una maggiore formalizzazione e coerenza nell'offerta orientativa.\n\n#### 2.2 Partnership\n\nLa scuola ha stabilito partnership con diversi soggetti esterni, tra cui **AS Roma**, **Polo Natatorio Freccia Rossa**, **Meliá Hotels International** e diverse **Università**. Il numero di partnership attivate è pari a 1, con un punteggio di 3. Queste collaborazioni rappresentano un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n#### 2.3 Finalità\n\nLe finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, la preparazione alle transizioni formative e l'acquisizione di capacità orientative per cogliere le opportunità. Tutte queste aree hanno ottenuto un punteggio massimo di 5, dimostrando un'attenzione completa agli aspetti fondamentali dell'orientamento.\n\n#### 2.4 Obiettivi\n\nGli obiettivi prefissati includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del lifelong learning. I primi due obiettivi hanno ottenuto un punteggio di 4, mentre gli ultimi due un punteggio di 3, suggerendo una maggiore focalizzazione sulle tematiche legate alla permanenza scolastica e al territorio.\n\n#### 2.5 Azioni di Sistema\n\nLe azioni intraprese per implementare l'orientamento comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e fragilità. Queste azioni hanno ottenuto punteggi variabili tra 3 e 4, indicando un impegno costante ma con margini di miglioramento nella loro efficacia e integrazione.\n\n#### 2.6 Didattica Orientativa\n\nL'approccio didattico si basa sull'utilizzo di esperienze dirette degli studenti, sulla didattica laboratoriale, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Le prime due aree hanno ottenuto un punteggio di 4, mentre la didattica laboratoriale un punteggio di 2, suggerendo la necessità di potenziare le attività pratiche e sperimentali.\n\n#### 2.7 Opzionali e Facoltative\n\nL'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Tutte queste aree hanno ottenuto un punteggio di 3, indicando una buona varietà di offerta ma con margini di miglioramento nella loro integrazione con il percorso orientativo.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella chiarezza delle finalità, nella varietà delle attività proposte, nella presenza di partnership con soggetti esterni e nell'attenzione all'utilizzo di metodologie didattiche innovative come la **Didattica per Ambienti di Apprendimento (DADA)**. L'attività di **PCTO (ex Alternanza Scuola Lavoro)** e il progetto di **Continuità** sono particolarmente rilevanti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione specificamente dedicata e strutturata per l'orientamento. Inoltre, alcune azioni di sistema e attività opzionali potrebbero essere potenziate per garantire una maggiore efficacia e integrazione con il percorso formativo.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di formalizzare e strutturare l'offerta orientativa, creando una sezione dedicata all'interno del PTOF. Questo consentirebbe di definire in modo più chiaro le strategie, le azioni e gli indicatori di successo dell'orientamento. Inoltre, è necessario potenziare le attività laboratoriali e le partnership con il mondo del lavoro, come dimostrato dall'attività di **Stage/assunzione** e dalla collaborazione con **Meliá Hotels International**.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della scuola primaria **Giovanni Paolo Ii-Policoro 2** dimostra un impegno significativo verso l'orientamento, con finalità ben definite e una varietà di attività proposte. Tuttavia, la mancanza di una sezione dedicata e la necessità di potenziare alcune azioni e attività rappresentano aree di miglioramento. Superando questi gap, la scuola potrà garantire un'offerta orientativa più efficace e coerente, contribuendo a formare cittadini consapevoli e preparati per affrontare le sfide del futuro. L'attività **UniOne** e i progetti di **Educazione alla salute** e **Il Senso della Vita** completano un quadro di offerta formativa ampia e diversificata."
+}

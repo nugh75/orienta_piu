@@ -1,0 +1,242 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GOIS01200L",
+    "denominazione": "Isis Galilei-Cossar",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Gorizia",
+    "anno_ptof": "2015-2018",
+    "provincia": "Gorizia",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Puccini 22",
+    "cap": "34170",
+    "email": "ND",
+    "pec": "ND",
+    "website": "https//www.isispertini.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì attività sparse."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "ASL",
+        "consultori",
+        "AIF (Associazione Italiana Formatori)",
+        "Alliance Française"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Il progetto prevede attività di informazione e sensibilizzazione sulle opportunità formative e professionali. La metodologia prevede incontri con esperti, testimonianze di professionisti e visite aziendali. Si prevede di aumentare la consapevolezza degli studenti circa le proprie attitudini e interessi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Star bene a scuola”",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Il progetto mira a promuovere il benessere psicofisico degli studenti attraverso attività di ascolto, supporto emotivo e prevenzione del disagio. La metodologia prevede incontri individuali e di gruppo con psicologi e counselor scolastici. Si prevede di migliorare il clima scolastico e ridurre i fenomeni di bullismo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Esame di Stato”",
+      "categoria_principale": "Esami",
+      "descrizione_e_metodologia": "Il progetto offre un supporto mirato agli studenti in preparazione all'Esame di Stato. La metodologia prevede simulazioni d'esame, esercitazioni guidate e colloqui individuali con i docenti. Si prevede di migliorare la preparazione degli studenti e ridurre l'ansia da prestazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Accoglienza e integrazione”",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Il progetto si propone di favorire l'integrazione degli studenti stranieri e con bisogni educativi speciali. La metodologia prevede attività di mediazione culturale, supporto linguistico e personalizzazione dei percorsi didattici. Si prevede di promuovere la convivenza interculturale e l'inclusione sociale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto alternanza scuola – lavoro",
+      "categoria_principale": "Alternanza",
+      "descrizione_e_metodologia": "Il progetto offre agli studenti l'opportunità di svolgere esperienze formative in contesti lavorativi reali. La metodologia prevede tirocini presso aziende, enti pubblici e associazioni del territorio. Si prevede di sviluppare competenze professionali e orientare gli studenti verso il mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Redazione Curricolo Verticale",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Redazione del Curricolo Verticale delle competenze, definendo obiettivi, contenuti e metodologie per ogni disciplina e livello scolastico. Si prevede di garantire la coerenza e la continuità dei percorsi formativi.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gruppo di lavoro INVALSI",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Elaborazione programmazione parallela per aree tematiche, finalizzata a migliorare i risultati degli studenti nelle prove INVALSI. Si prevede di individuare le aree di criticità e definire strategie di intervento mirate.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gruppo di lavoro Didattica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Riformulare aspetti didattici e organizzativi, promuovendo l'innovazione e l'utilizzo di metodologie attive. Si prevede di migliorare la qualità dell'insegnamento e l'apprendimento degli studenti.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Costituzione sottogruppo CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Elaborazione programmazione didattica per potenziamento competenze linguistiche e disciplinari attraverso l'approccio CLIL. Si prevede di ampliare le opportunità formative degli studenti e favorire l'apertura verso l'internazionalizzazione.",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Elaborazione rubriche di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Creazione/miglioramento rubriche in conformità al Curricolo Verticale, garantendo criteri di valutazione chiari, trasparenti e oggettivi. Si prevede di migliorare la qualità della valutazione e fornire un feedback efficace agli studenti.",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Programmazione esperienze di laboratorio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Programmazione essenziale esperienze di laboratorio, favorendo l'apprendimento pratico e la sperimentazione diretta. Si prevede di stimolare la curiosità degli studenti e sviluppare le loro competenze manuali e operative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende sportive, per far conoscere agli studenti il mondo del lavoro e le professioni del settore. Si prevede di orientare gli studenti verso scelte consapevoli e motivate.",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti del settore sportivo, per offrire agli studenti testimonianze dirette e consigli utili per il loro futuro. Si prevede di ispirare gli studenti e motivarli a perseguire i loro obiettivi.",
+      "target": "Studenti classi quinte"
+    },
+    {
+      "titolo_attivita": "Workshop sulle professioni sportive",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Workshop interattivi sulle professioni sportive, per approfondire le conoscenze degli studenti sulle diverse figure professionali e le competenze richieste. Si prevede di fornire agli studenti gli strumenti necessari per orientarsi nel mondo del lavoro.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "STAR BENE A SCUOLA",
+      "categoria_principale": "Ascolto e supporto",
+      "descrizione_e_metodologia": "Spazi di ascolto per studenti, genitori e docenti, per favorire il dialogo e la condivisione di problematiche e soluzioni. Si prevede di migliorare il clima scolastico e promuovere il benessere di tutta la comunità educante.",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Esame di Stato",
+      "categoria_principale": "Preparazione Esame",
+      "descrizione_e_metodologia": "Informazioni, simulazioni, supporto docenti, per preparare al meglio gli studenti all'Esame di Stato. Si prevede di ridurre l'ansia da prestazione e migliorare i risultati.",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza e Integrazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Incontri, recupero, supporto studio, per favorire l'integrazione degli studenti con svantaggio. Si prevede di garantire pari opportunità e promuovere l'inclusione sociale.",
+      "target": "Alunni con svantaggio"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Percorsi obbligatori, apprendistato, per offrire agli studenti un'esperienza pratica nel mondo del lavoro. Si prevede di sviluppare competenze professionali e orientare gli studenti verso scelte consapevoli.",
+      "target": "Studenti secondo ciclo"
+    },
+    {
+      "titolo_attivita": "Visite guidate/Viaggi d'istruzione",
+      "categoria_principale": "Arricchimento Culturale",
+      "descrizione_e_metodologia": "Uscite didattiche, per ampliare le conoscenze degli studenti e stimolare la loro curiosità. Si prevede di arricchire l'offerta formativa e promuovere la cultura.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività formative docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Seminari su comportamento, valutazione, DSA, didattica metacognitiva, per aggiornare le competenze dei docenti e migliorare la qualità dell'insegnamento. Si prevede di promuovere l'innovazione didattica e la crescita professionale.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GOIS01200L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Isis Galilei-Cossar** (GOIS01200L), relativo al periodo 2015-2018. La scuola, situata a **Gorizia** in **Friuli-Venezia Giulia**, è un istituto **statale** che offre percorsi di istruzione di secondo grado, comprendendo licei, istituti professionali e tecnici. L'analisi evidenzia una presenza di attività orientative sparse, piuttosto che una sezione dedicata specifica, con un focus sulle **attitudini**, **interessi**, **progetto di vita** e **capacità orientative** degli studenti. Si riscontra un impegno nel ridurre l'**abbandono scolastico**, garantire la continuità con il **territorio**, contrastare il fenomeno dei **NEET** e promuovere il **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento:** Sebbene non sia presente una sezione dedicata all'orientamento nel PTOF, sono individuate diverse attività sparse che contribuiscono a questo ambito.\n\n**2.2 Partnership:** La scuola dimostra una buona capacità di collaborare con diversi partner esterni, tra cui l'**ASL**, i **consultori**, l'**AIF (Associazione Italiana Formatori)** e l'**Alliance Française**. Sono state individuate quattro partnership significative.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi e il progetto di vita degli studenti, oltre a fornire loro le capacità orientative necessarie per affrontare le transizioni formative e cogliere le opportunità offerte dal mondo del lavoro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'abbandono scolastico, il mantenimento di un legame con il territorio, il contrasto alla dispersione formativa dei NEET e la promozione dell'apprendimento permanente.\n\n**2.5 Azioni di Sistema:** L'istituto si impegna a coordinare i servizi di orientamento, a promuovere il dialogo tra docenti e studenti, a rafforzare il rapporto con le famiglie e a monitorare l'efficacia delle azioni intraprese. Particolare attenzione è rivolta all'integrazione degli studenti con fragilità e bisogni educativi speciali.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, che contribuiscono ad ampliare gli interessi e le competenze degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella presenza di una rete di **partnership** consolidate, nella chiarezza delle **finalità** e degli **obiettivi**, nell'impegno a promuovere un sistema integrato di orientamento e nell'attenzione alla didattica orientativa basata sull'esperienza e sull'interdisciplinarità. Le attività come \"**Progetto Orientamento**\", \"**Progetto “Star bene a scuola”**\" e \"**Progetto “Accoglienza e integrazione”**\" dimostrano un impegno concreto verso il benessere e l'inclusione degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata specificamente all'orientamento all'interno del PTOF, con attività distribuite in diverse aree. Anche la didattica laboratoriale, pur presente, sembra meno sviluppata rispetto ad altri approcci.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare un'offerta formativa orientativa più organica e coerente, con una sezione dedicata nel PTOF e un piano di azione dettagliato. È necessario potenziare la didattica laboratoriale e favorire una maggiore integrazione tra le diverse attività di orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Isis Galilei-Cossar** dimostra un impegno significativo verso l'orientamento, sebbene manchi una strutturazione formale e dedicata. La scuola può migliorare ulteriormente la sua offerta formativa in questo ambito, definendo una sezione specifica nel PTOF, potenziando la didattica laboratoriale e integrando le diverse attività di orientamento. Progetti come \"**Alternanza Scuola-Lavoro**\", \"**Visite aziendali**\" e \"**Incontri con professionisti**\" rappresentano un valido punto di partenza per costruire un sistema di orientamento più efficace e rispondente alle esigenze degli studenti. L'impegno nella formazione dei **docenti**, attraverso attività come \"**Attività formative docenti**\", è fondamentale per garantire la qualità dell'orientamento offerto."
+}

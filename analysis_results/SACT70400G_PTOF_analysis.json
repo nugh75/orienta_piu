@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SACT70400G",
+    "denominazione": "C.T.P. Vallo Lucania",
+    "tipo_scuola": "Infanzia, Primaria",
+    "ordine_grado": "Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Vallo Della Lucania",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Calcinali",
+    "cap": "84068",
+    "email": "samm33800d@istruzione.it",
+    "pec": "ND",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SACT70400G\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del C.T.P. Vallo Lucania (SACT70400G) con particolare attenzione alla dimensione dell'orientamento. L'istituto, di tipo Infanzia e Primaria, opera in un contesto territoriale non metropolitano della regione Campania. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni di sistema, l'offerta didattica orientativa e le attività opzionali. La valutazione complessiva evidenzia un impegno nella realizzazione di attività laboratoriali e nel coinvolgimento dei genitori, con margini di miglioramento nella definizione di finalità orientative più specifiche e nella riduzione dell'abbandono scolastico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento: Sezione Dedicata**\n\nIl PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio di 1.\n\n**2.2 Partnership**\n\nL'istituto ha sviluppato partnership significative con diversi soggetti, tra cui **Opera Nazionale Montessori**, **Banca d’Italia**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Queste collaborazioni, pari a 4 partnership totali, rappresentano un punto di forza per l'arricchimento dell'offerta formativa e l'implementazione di progetti innovativi.\n\n**2.3 Finalità**\n\nLe finalità del PTOF mostrano un buon orientamento verso lo sviluppo delle attitudini e degli interessi degli studenti, con punteggi di 3 per entrambe le aree. L'attenzione al **progetto di vita** e alle **transizioni formative** risulta meno marcata, con punteggi di 2. La capacità di orientare gli studenti verso le opportunità formative e professionali è l'area meno sviluppata, con un punteggio di 1.\n\n**2.4 Obiettivi**\n\nGli obiettivi del PTOF si concentrano su aspetti generali come la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del **lifelong learning**. Tuttavia, tutti questi obiettivi ricevono un punteggio di 1, suggerendo la necessità di definire azioni più concrete e misurabili per il loro raggiungimento.\n\n**2.5 Azioni di Sistema**\n\nLe azioni di sistema implementate dall'istituto mostrano un buon livello di attenzione al rapporto con i genitori (punteggio di 3) e all'inclusione e alla gestione delle fragilità (punteggio di 3). Il coordinamento dei servizi e il dialogo tra docenti e studenti, pur presenti, necessitano di un maggiore sviluppo (punteggio di 2 per entrambi). Il monitoraggio delle azioni intraprese è valutato con un punteggio di 2.\n\n**2.6 Didattica Orientativa**\n\nL'offerta didattica orientativa si distingue per l'importanza attribuita all'apprendimento esperienziale degli studenti (punteggio di 4). Buoni risultati sono ottenuti anche con la didattica laboratoriale, la flessibilità degli spazi e dei tempi e l'approccio interdisciplinare (punteggio di 3 per ciascuna area).\n\n**2.7 Opzionali e Facoltative**\n\nL'offerta di attività opzionali e facoltative presenta alcune criticità. Le opzionali culturali e quelle legate al volontariato ricevono un punteggio di 1, mentre le opzionali laboratoriali espressive e quelle ludico-ricreative sono più sviluppate (punteggio di 3 per entrambe). Le opzionali sportive ottengono un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella consolidata rete di **partnership** con enti e associazioni del territorio, nell'attenzione all'offerta di **laboratori** didattici diversificati (come **Laboratorio di Coding**, **Laboratorio di Musica in movimento**, **Laboratorio di Scienze** e altri) e nel coinvolgimento attivo dei **genitori** attraverso incontri di sostegno e attività di valutazione (come il **Questionario di soddisfazione genitori**). L'impegno nell'utilizzo di metodologie didattiche innovative, come il **LEAD (Legami Educativi a Distanza)**, rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la mancanza di una sezione dedicata all'orientamento, la scarsa definizione di obiettivi misurabili e la limitata attenzione allo sviluppo delle capacità orientative degli studenti verso le opportunità formative e professionali. L'offerta di attività opzionali in alcuni ambiti (culturale, volontariato, sport) risulta insufficiente.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare l'orientamento come dimensione trasversale all'interno del PTOF, definendo finalità, obiettivi e azioni specifiche. È necessario potenziare le attività volte a ridurre l'abbandono scolastico e a favorire la transizione degli studenti verso i diversi percorsi formativi. Un'ulteriore area di miglioramento riguarda l'ampliamento dell'offerta di attività opzionali, in particolare in ambito culturale e sportivo.\n\n### 6. Conclusioni\n\nIl PTOF del C.T.P. Vallo Lucania dimostra un impegno nella realizzazione di un'offerta formativa diversificata e orientata allo sviluppo delle competenze degli studenti. Tuttavia, per raggiungere una maggiore efficacia, è necessario integrare l'orientamento come dimensione trasversale, definire obiettivi misurabili e ampliare l'offerta di attività opzionali. Il rafforzamento delle partnership esistenti e l'implementazione di nuove collaborazioni possono contribuire a colmare le lacune individuate e a garantire un servizio educativo di qualità per tutti gli studenti."
+}

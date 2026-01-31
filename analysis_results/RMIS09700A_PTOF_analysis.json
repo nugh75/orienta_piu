@@ -1,0 +1,186 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMIS09700A",
+    "denominazione": "Confalonieri-De Chirico",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via B.M. De Mattias 5",
+    "cap": "00183",
+    "email": "rmis09700a@istruzione.it",
+    "pec": "rmis09700a@pec.istruzione.it",
+    "website": "www.confalonieridechirico.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. L'orientamento è affrontato all'interno di altre sezioni del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Musei",
+        "Teatri",
+        "Biblioteche comunali",
+        "Centri di aggregazione giovanile",
+        "Associazioni",
+        "Comune di Monza",
+        "Co.re.Com.",
+        "istituzioni",
+        "associazioni ONLUS",
+        "librerie",
+        "piscina",
+        "cooperative",
+        "Altre scuole",
+        "Agenzie Formative/Università/Altro"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite didattiche a musei, teatri, biblioteche",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Uscite sul territorio per fruire di risorse locali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti anti-dispersione con associazioni",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Collaborazione con associazioni per supporto allo studio",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Compiti di realtà",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione e realizzazione di compiti di realtà a cadenza quadrimestrale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Organizzazione di corsi di formazione su innovazione metodologico-didattica.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto di alfabetizzazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Attività di alfabetizzazione e laboratori per alunni neo arrivati e con difficoltà.",
+      "target": "Alunni neo arrivati e con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto di alfabetizzazione 'Studiamo insieme'",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività rivolta agli alunni della stessa classe per favorire il supporto reciproco.",
+      "target": "Alunni primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di inclusione 'Crescere in autonomia'",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Fornitura di supporto educativo-didattico personalizzato.",
+      "target": "Alunni primaria"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di percorsi per lo sviluppo delle competenze trasversali e l'orientamento professionale.",
+      "target": "Alunni secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Visite alle scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite e incontri dimostrativi presso le scuole superiori.",
+      "target": "Alunni classi terze"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMIS09700A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Confalonieri-De Chirico** (RMIS09700A), per il triennio 2022-2025. La scuola, situata a **Roma**, è un istituto **statale** che offre istruzione di I e II grado, comprendendo i gradi della **Infanzia, Primaria e Secondaria di I grado**. L'analisi evidenzia un approccio all'orientamento integrato nelle diverse aree del PTOF, piuttosto che concentrato in una sezione specifica. Si riscontra un buon livello di attenzione alle **partnership** con enti esterni e una solida base per lo sviluppo di competenze orientative negli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non presenta una sezione specificamente dedicata all'orientamento, ma affronta la tematica all'interno di altre aree programmatiche.\n\n**2.2 Partnership:**\n\nLa scuola vanta un ampio ventaglio di **partnership** con diversi soggetti del territorio, tra cui **musei**, **teatri**, **biblioteche comunali**, **centri di aggregazione giovanile**, **associazioni**, il **Comune di Monza**, **Co.re.Com.**, **istituzioni**, **associazioni ONLUS**, **librerie**, **piscine**, **cooperative**, **altre scuole** e **Agenzie Formative/Università/Altro**. Questo elevato numero di collaborazioni (14 partner nominati) rappresenta un punto di forza per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Particolare attenzione è rivolta alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nTra gli obiettivi del PTOF, si evidenzia un impegno nel favorire la **continuità territoriale** degli studenti e nel ridurre l'**abbandono** scolastico. L'attenzione al **lifelong learning** è presente, sebbene con un punteggio inferiore rispetto ad altri obiettivi. L'assenza di un obiettivo specifico per contrastare il fenomeno **NEET** rappresenta una potenziale area di miglioramento.\n\n**2.5 Azioni di Sistema:**\n\nLa scuola implementa azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Queste azioni contribuiscono a creare un ambiente scolastico favorevole all'orientamento e al benessere degli studenti.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende proposte **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le possibilità di scelta e personalizzazione del percorso formativo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dall'ampio numero di **partnership** attivate, dalla chiarezza delle **finalità** educative, dall'implementazione di azioni di sistema che coinvolgono l'intera comunità scolastica e dalla diversificazione dell'offerta didattica attraverso attività **opzionali** e **laboratoriali**. L'attività **PCTO** per gli studenti della secondaria di I grado e le **visite alle scuole superiori** per gli studenti delle classi terze sono esempi concreti di iniziative orientative messe in atto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF e la scarsa attenzione al contrasto del fenomeno **NEET** rappresentano le principali aree di debolezza. Inoltre, l'offerta di attività **laboratoriali** potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica unitaria per l'orientamento, che potrebbe essere colmata attraverso la creazione di una sezione specifica nel PTOF e la definizione di obiettivi misurabili per il contrasto alla dispersione scolastica e al fenomeno NEET.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Confalonieri-De Chirico** dimostra un impegno significativo verso l'orientamento, sebbene questo sia integrato in altre aree programmatiche. Le numerose **partnership** attivate e le diverse attività proposte rappresentano un valore aggiunto per gli studenti. Per migliorare ulteriormente l'efficacia dell'azione orientativa, si suggerisce di definire una sezione specifica nel PTOF, di fissare obiettivi misurabili per il contrasto alla dispersione scolastica e al fenomeno NEET e di potenziare l'offerta di attività **laboratoriali**. L'attività \"**Progetti anti-dispersione con associazioni**\" e \"**Progetto di alfabetizzazione 'Studiamo insieme'**\" sono esempi di iniziative positive che contribuiscono a creare un ambiente scolastico inclusivo e orientato al successo formativo."
+}

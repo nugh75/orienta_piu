@@ -1,0 +1,262 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CHEE80702N",
+    "denominazione": "Primaria \"Camillo Fattore\"",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Santa Maria Imbaro",
+    "anno_ptof": "2022-2025",
+    "provincia": "Chieti",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Gesi N. 50",
+    "cap": "66030",
+    "email": "chic80700e@istruzione.it",
+    "pec": "ND",
+    "website": "www.icfossacesia.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Laboratorio di disegno 3D",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi e dibattito sul tema",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite a realtà del terzo settore",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Incontri e testimonianze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso - BLSD",
+      "categoria_principale": "Salute e Sicurezza",
+      "descrizione_e_metodologia": "Formazione gesti terapeutici d'urgenza, funzioni vitali, attivazione sistema emergenza.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Opportunità e rischi della rete, sicurezza online, utilizzo dati.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Cittadinanza antica, individuo e potere, modelli politici, ecologia storica.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione in collaborazione con UMI e Scuola Normale Superiore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di informatica con Associazione Italiana per l'Informatica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni di preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione a test di ammissione con richiamo conoscenze scientifiche",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso sperimentale modellazione 3D",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Corso su disegno CAD e modellazione 3D con Rhinoceros",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso Enti, Associazioni e Aziende del territorio, durata circa 60 ore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario di valutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Customer satisfaction sugli stages.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti I e II grado",
+      "categoria_principale": "Curricolo e competenze",
+      "descrizione_e_metodologia": "Scambio proficuo tra docenti su competenze, contenuti e metodologie.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Somministrazione prove in matematica e scienze per identificare difficoltà.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Attuazione precoce di moduli su metodo di studio e competenze base.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Acquisto LIM e attrezzature per laboratori.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CHEE80702N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl PTOF della Primaria “Camillo Fattore” (CHEE80702N), relativo al triennio 2022-2025, dimostra un’attenzione significativa all’orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di 7. La scuola, situata nel territorio non metropolitano della provincia di Chieti in Abruzzo, si impegna a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità orientative necessarie per affrontare le opportunità future. L’istituto si distingue per una rete di **partnership** consolidata e diversificata, che coinvolge **aziende locali**, **enti**, il **FAI**, **associazioni di volontariato**, il **terzo settore**, **personalità cristiane**, **Special Olympics**, l’**Università di Firenze**, e altre realtà territoriali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** La presenza di una sezione dedicata all’orientamento, con un punteggio di 7, conferma l’importanza attribuita a questo ambito all’interno del PTOF.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (12), che rappresentano un valore aggiunto per l’offerta formativa e per l’orientamento degli studenti. La collaborazione con realtà diverse, come **Special Olympics** e l’**Università di Firenze**, amplia le opportunità di apprendimento e di crescita personale.\n\n**2.3 Finalità:** Le finalità dell’orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, i **progetti di vita**, le **transizioni formative** e le **capacità orientative** degli studenti, con punteggi che variano tra 5 e 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono orientati alla riduzione dell’**abbandono** scolastico, alla continuità territoriale e al contrasto al fenomeno dei **NEET**, con punteggi variabili tra 3 e 6. L’obiettivo di promuovere il **lifelong learning** riceve un punteggio di 5.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l’orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni, con punteggi che variano tra 3 e 5. Particolare attenzione è rivolta all’integrazione e alla fragilità degli studenti.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull’esperienza degli studenti, sull’utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull’approccio interdisciplinare, con punteggi che variano tra 4 e 6.\n\n**2.7 Opzionali e Facoltative:** L’offerta di attività opzionali e facoltative è diversificata e comprende opzioni **culturali**, **laboratoriali**, **ludiche**, di **volontariato** e **sportive**, con punteggi che variano tra 3 e 7.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** che la scuola è in grado di attivare, offrendo agli studenti opportunità concrete di contatto con il mondo del lavoro e del **volontariato**. Le attività registrate, come **Sensibilizzazione patrimonio monumentale**, **Visite aziendali**, **Incontri con professionisti** e **Formazione volontari Special Olympics**, testimoniano l’impegno della scuola nell’offrire un’esperienza formativa completa e orientata al futuro. L'attenzione alla **cittadinanza digitale** e all'**educazione alla salute**, con attività specifiche come **Cittadinanza Digitale** e **Educazione alla salute**, arricchisce ulteriormente l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente gli obiettivi di riduzione dell’**abbandono** scolastico e di contrasto al fenomeno dei **NEET**, che ricevono punteggi inferiori rispetto alle altre dimensioni. Anche l’azione di **monitoraggio delle azioni** e le opzioni **ludiche-ricreative** necessitano di un maggiore potenziamento.\n\n### 5. Gap Analysis\n\nIl divario tra le finalità ben definite e gli obiettivi meno ambiziosi suggerisce la necessità di una maggiore focalizzazione sulle azioni concrete per la prevenzione dell’**abbandono** scolastico e l’inserimento nel mondo del lavoro. È importante rafforzare il **monitoraggio** delle attività e ampliare l’offerta di attività **ludiche-ricreative** per coinvolgere tutti gli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della Primaria “Camillo Fattore” rappresenta un documento programmatico solido e ben strutturato, con una forte attenzione all’orientamento e allo sviluppo delle competenze degli studenti. La scuola si distingue per la sua capacità di creare **partnership** significative e di offrire un’ampia gamma di attività formative. Pur presentando alcune aree di debolezza, il PTOF dimostra un chiaro impegno nel garantire a tutti gli studenti un futuro di successo. L'implementazione di attività come **PCTO** e la somministrazione di **Prove d'ingresso** evidenziano un approccio proattivo e orientato al miglioramento continuo."
+}

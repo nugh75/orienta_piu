@@ -1,5 +1,5 @@
 {
-  "default_page": "pages/03_Sintesi.py",
+  "default_page": "pages/03_KPI.py",
   "sections": [
     {
       "id": "progetto",
@@ -41,8 +41,8 @@
       "order": 2,
       "section": "progetto"
     },
-    "pages/03_Sintesi.py": {
-      "label": "Sintesi",
+    "pages/03_KPI.py": {
+      "label": "KPI",
       "visible": true,
       "order": 3,
       "section": "analisi"

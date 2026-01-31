@@ -1,0 +1,375 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTIC82700A",
+    "denominazione": "I.C. \"G.Pascoli\" -Matera",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Matera",
+    "anno_ptof": "2022-2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Parini 1",
+    "cap": "75100",
+    "email": "mtic82700a@istruzione.it",
+    "pec": "mtic82700a@pec.istruzione.it",
+    "website": "www.icpascolimatera.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Indice dettagliato presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "AID",
+        "Centro Imparola",
+        "Educazione Ambientale",
+        "Tolbà",
+        "ASL",
+        "Associazione Giallo Sassi",
+        "Istituto Agrario",
+        "Istituti superiori",
+        "enti locali",
+        "terzo settore",
+        "Alliance Francaise",
+        "Comune di Matera",
+        "Associazioni del territorio",
+        "AGRIB",
+        "associazione Plastic free",
+        "Rotary-Matera",
+        "Turi-Briganti",
+        "Libera",
+        "Fattoria della Legalità",
+        "Associazione Italiana Magistrati",
+        "Forum del Libro",
+        "ISIA Urbino",
+        "IBBY Italia"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di riqualificazione spazio abbandonato",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Collaborazione Comune, Bawer, I.C.",
+      "target": "Alunni, comunità"
+    },
+    {
+      "titolo_attivita": "Progetti formativi con Questura e Prefettura",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Incontri, workshop",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Sperimentazione lingua inglese scuola infanzia",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Avvio sperimentazione lingua inglese in sezione infanzia",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Certificazione Trinity",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Corsi pomeridiani per certificazione Trinity",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Certificazione DELF",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Certificazione DELF per lingua francese",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Corsi STEM",
+      "categoria_principale": "Competenze Scientifiche",
+      "descrizione_e_metodologia": "Approfondimento matematica e scienze",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Scarabeo",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Gioco linguistico per apprendimento dinamico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Pi greco",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Problem posing, problem solving, modellizzazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Happy Europe",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Approccio comunicativo, interazione con native speaker",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi STEM",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rientro di due ore settimanali per potenziare materie scientifiche",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Studio tedesco o spagnolo come seconda lingua",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori creativi",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Arte, Teatro, Musica",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori linguistici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Giornalisti per passione",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Laboratori matematici",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Giochi matematici e problem-solving",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Percorso musicale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Chitarra, Pianoforte, Flauto, Violino",
+      "target": "Tutti gli iscritti"
+    },
+    {
+      "titolo_attivita": "Magie di carta",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Produzione di carta riciclata per sensibilizzare al riciclo.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "L’Officina della tintoria naturale",
+      "categoria_principale": "Tradizioni Locali",
+      "descrizione_e_metodologia": "Recupero tecniche tintoria con piante locali.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Bottiglie rotte",
+      "categoria_principale": "Riciclo",
+      "descrizione_e_metodologia": "Riciclo del vetro con creazione di oggetti.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Plasticoso",
+      "categoria_principale": "Riciclo",
+      "descrizione_e_metodologia": "Riciclo della plastica.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Le Api, la cera, le mie mani …le candele",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Produzione candele con cera d'api.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Motoria - Mente",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Attività di movimento per esplorare il corpo, comunicare e relazionarsi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Crescere Da Tre A Sei",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progettazione personalizzata e condivisione con il team scolastico.",
+      "target": "Alunni con PEI"
+    },
+    {
+      "titolo_attivita": "Fun’tastic English",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Approccio ludico-musicale all'inglese con lettura di albi illustrati.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Fit-2-Learn",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Stimolazione multisensoriale e allenamento dei sistemi percettivi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Giro girotondo…dai una mano al mondo!",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Riciclo creativo e sensibilizzazione alla sostenibilità.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Matera-Bordeaux",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Scambio culturale e realizzazione di video-interviste.",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Musical a scuola",
+      "categoria_principale": "Teatro/Musica/Danza",
+      "descrizione_e_metodologia": "Laboratorio articolato in varie attività: Teatro/Musica/Danza",
+      "target": "Classi aperte verticali/parallele"
+    },
+    {
+      "titolo_attivita": "Giardino-Ecosistema Scuola",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Creazione e gestione di un giardino scolastico aperto alla comunità",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Metodo Venturelli",
+      "categoria_principale": "Motricità/Scrittura",
+      "descrizione_e_metodologia": "Percorsi guidati per migliorare motricità fine e scrittura",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Incomincio Da Me",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Progetto triennale per formazione coscienza ecologica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Motoria",
+      "categoria_principale": "Sport/Socializzazione",
+      "descrizione_e_metodologia": "Attività motorie e sportive per promuovere l'inclusione",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Educazione alimentare e sostenibilità",
+      "categoria_principale": "Alimentazione/Sostenibilità",
+      "descrizione_e_metodologia": "Formazione e sensibilizzazione sull'alimentazione sostenibile",
+      "target": "Studenti/Esterni"
+    },
+    {
+      "titolo_attivita": "L'acqua: un bene prezioso",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Esplorazione risorse idriche del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Smart City",
+      "categoria_principale": "Tecnologia/Cittadinanza",
+      "descrizione_e_metodologia": "Progetto per città innovative e sostenibili",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Predisposizione del Piano Educativo Individualizzato (PEI)",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI dopo osservazione e Consiglio di Classe",
+      "target": "Alunni con PEI"
+    },
+    {
+      "titolo_attivita": "Colloqui preventivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri famiglia-funzione strumentale",
+      "target": "Nuovi iscritti DVA"
+    },
+    {
+      "titolo_attivita": "Attività individualizzate e di piccolo gruppo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Docenti di sostegno",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti esterni sul cyberbullismo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri informativi con esperti della Polizia Postale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Gestione del sito web scolastico",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Aggiornamento e gestione del sito web",
+      "target": "Comunità scolastica"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTIC82700A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “G.Pascoli” - Matera (MTIC82700A) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo al triennio 2022-2025, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse aree valutate. La scuola, situata in un contesto territoriale non metropolitano della regione Basilicata, si distingue per una forte attenzione alla collaborazione con il territorio e per la promozione di competenze chiave per il futuro dei suoi studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta un indice dettagliato relativo all'orientamento, ottenendo un punteggio di 3, indicando una buona strutturazione e chiarezza in questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con ben 22 partner nominati, tra cui **AID**, **Centro Imparola**, **Educazione Ambientale**, **Tolbà**, **ASL**, **Associazione Giallo Sassi**, **Istituto Agrario**, diversi **Istituti superiori**, **enti locali**, **terzo settore**, **Alliance Francaise**, **Comune di Matera**, varie **Associazioni del territorio**, **AGRIB**, **associazione Plastic free**, **Rotary-Matera**, **Turi-Briganti**, **Libera**, **Fattoria della Legalità**, **Associazione Italiana Magistrati**, **Forum del Libro**, **ISIA Urbino** e **IBBY Italia**. Questa ricchezza di collaborazioni rappresenta un punto di forza per l'implementazione di attività di orientamento efficaci e mirate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, il supporto alle transizioni formative e il potenziamento delle capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 4, dimostrando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (neet) e sulla promozione del lifelong learning. I primi tre obiettivi hanno ottenuto un punteggio di 4, mentre il lifelong learning ha raggiunto un punteggio di 4, evidenziando un impegno costante verso la formazione continua.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e un sistema integrato di inclusione e supporto alle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 4, ad eccezione del sistema integrato di inclusione e fragilità, che ha raggiunto il punteggio massimo di 5, sottolineando l'importanza attribuita a questo aspetto.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Quest'ultima ha ottenuto un punteggio di 5, mentre le altre aree hanno raggiunto un punteggio di 4, dimostrando un approccio didattico innovativo e orientato allo studente.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali culturali e laboratoriali hanno ottenuto un punteggio di 4, mentre quelle ludiche, ricreative e di volontariato hanno ottenuto un punteggio di 3, e le sportive un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** con enti, associazioni e istituzioni del territorio. Questa collaborazione permette di offrire agli studenti opportunità di orientamento concrete e significative, legate al contesto locale e alle esigenze del mondo del lavoro. L'attenzione all'**inclusione** e alla didattica **interdisciplinare** rappresentano ulteriori elementi positivi, così come l'impegno verso il **lifelong learning**.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riscontrate riguardano principalmente le opzionali ludiche, ricreative e di volontariato, che hanno ottenuto un punteggio inferiore rispetto alle altre aree. Questo suggerisce la necessità di potenziare l'offerta di attività in questi ambiti, per garantire una formazione più completa e bilanciata.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, si rileva un potenziale gap tra la ricchezza delle partnership e la loro effettiva integrazione nelle attività di orientamento. È necessario definire modalità più efficaci per sfruttare appieno le risorse offerte dai partner, coinvolgendo attivamente studenti, docenti e famiglie.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. “G.Pascoli” - Matera dimostra una solida base per l'implementazione di un sistema di orientamento efficace e mirato. La scuola si distingue per la sua attenzione alla collaborazione con il territorio, all'inclusione e alla didattica innovativa. Superando le aree di debolezza individuate e colmando il gap tra partnership e attività, l'istituto potrà offrire ai suoi studenti un orientamento di qualità, in grado di supportarli nella costruzione del loro futuro. Le attività registrate, come **Progetto di riqualificazione spazio abbandonato**, **Progetti formativi con Questura e Prefettura**, **Sperimentazione lingua inglese scuola infanzia**, **Certificazione Trinity** e **Certificazione DELF**, dimostrano un impegno concreto verso l'orientamento e lo sviluppo delle competenze degli studenti."
+}

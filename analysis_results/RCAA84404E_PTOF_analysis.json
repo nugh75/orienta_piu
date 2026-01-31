@@ -1,0 +1,248 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCAA84404E",
+    "denominazione": "Infanzia Sant'Agata Del Bianco",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Sant'Agata Del Bianco",
+    "anno_ptof": "2025/2028",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Venezia",
+    "cap": "89030",
+    "email": "rcic84400e@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.istitutocomprensivobianco.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie.",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti.",
+      "target": "Studenti classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia.",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione dati MiAssumo.",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con Polizia Cantonale.",
+      "target": "Liceo I e II"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale: progetto Gruppo Visione Giovani",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alla “Settimana della lingua italiana nel mondo”",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratori, conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formativi sui temi della cittadinanza digitale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Personale e alla scelta universitaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Installazione, preparazione, scrittura codice",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCAA84404E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) per l'istituto **Infanzia Sant'Agata Del Bianco** (RCAA84404E), relativo all'anno scolastico 2025/2028. L'istituto, di tipo **Infanzia** situato in **Calabria** (provincia di **Reggio Calabria**), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'attenzione si concentra sullo sviluppo delle attitudini, degli interessi e delle capacità orientative degli studenti, con l'obiettivo di supportarli nelle transizioni formative e nella costruzione del loro progetto di vita.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, indicando un'attenzione strutturale a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, ben 15, che spaziano da enti locali come **LAC** e la **Polizia Cantonale**, a istituzioni universitarie prestigiose come la **Università Bocconi**, la **Università della Svizzera Italiana**, l'**Accademia di Architettura di Mendrisio**, l'**Università dell'Insubria**, l'**ESADE di Barcellona**, la **University of Dublin**, il **Savannah College of Art and Design**, la **European Business School di Londra**, il **Webster American College**, l'**Edimburgh University**, la **Luiss Roma**, fino a specialisti esterni quali **logopedisti, ergoterapisti, psicologi e neuropsichiatri**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con particolare attenzione allo sviluppo delle attitudini, degli interessi e delle capacità orientative per affrontare le opportunità future. L'attenzione al **progetto di vita** risulta meno marcata, sebbene presente. Le finalità legate alle **transizioni formative** sono considerate con un punteggio elevato.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla continuità territoriale e sul contrasto alla dispersione scolastica, con un punteggio più basso per la riduzione dell'abbandono e la promozione del *lifelong learning*.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono solide, con un forte coordinamento tra i servizi, un dialogo aperto tra docenti e studenti, un rapporto costruttivo con le famiglie e un sistema di monitoraggio delle azioni intraprese. Particolare attenzione è rivolta all'integrazione tra inclusione e fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. L'utilizzo di metodologie laboratoriali appare meno sviluppato.\n\n**2.7 Opzionali Facoltative:** L'offerta di opzionali facoltative è diversificata e comprende attività culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive, offrendo agli studenti un'ampia gamma di possibilità per esplorare i propri interessi e talenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampia rete di **partnership** con enti e istituzioni di rilievo, nella solidità delle azioni di sistema e nella diversificazione dell'offerta didattica e degli opzionali facoltativi. L'attenzione allo sviluppo delle attitudini, degli interessi e delle capacità orientative degli studenti rappresenta un elemento distintivo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'attenzione al **progetto di vita** come finalità esplicita dell'orientamento, che potrebbe essere ulteriormente sviluppata. Anche l'utilizzo di metodologie didattiche laboratoriali sembra meno enfatizzato rispetto ad altri approcci.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare l'integrazione del **progetto di vita** all'interno delle attività di orientamento, al fine di fornire agli studenti strumenti più efficaci per la pianificazione del loro futuro. Inoltre, sarebbe opportuno potenziare l'offerta di attività laboratoriali per favorire l'apprendimento esperienziale e lo sviluppo di competenze pratiche.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Infanzia Sant'Agata Del Bianco** dimostra un impegno significativo verso l'orientamento, con una solida base dimensionale e una rete di **partnership** ben strutturata. Pur presentando alcune aree di debolezza, il PTOF offre un quadro complessivamente positivo e promettente per lo sviluppo di un'offerta orientativa efficace e in linea con le esigenze degli studenti. Le attività registrate, come i corsi di lingue, i progetti **'MiOriento'** e **'MiAssumo'**, lo **Sportello supporto DSA/BES**, e le collaborazioni con la **Polizia Cantonale** e la **Croce Rossa**, testimoniano un approccio proattivo e diversificato all'orientamento."
+}

@@ -340,13 +340,27 @@ def get_models():
     models = {"ollama": [], "openrouter": [], "gemini": []}
     
     # Fetch Ollama models
+    # Try requests first
     try:
-        response = requests.get(f"{OLLAMA_HOST}/api/tags", timeout=5)
+        response = requests.get(f"{OLLAMA_HOST}/api/tags", timeout=3)
         if response.status_code == 200:
             data = response.json()
             models["ollama"] = [m["name"] for m in data.get("models", [])]
     except Exception as e:
-        pass  # Ollama not available
+        print(f"Components/Requests failed: {e}. Trying curl...", flush=True)
+
+    # Fallback to curl if requests failed
+    if not models["ollama"]:
+        try:
+            # Use curl to get models
+            from subprocess import run, PIPE
+            cmd = ["curl", "-s", f"{OLLAMA_HOST}/api/tags"]
+            result = run(cmd, stdout=PIPE, stderr=PIPE, text=True, timeout=3)
+            if result.returncode == 0 and result.stdout:
+                 data = json.loads(result.stdout)
+                 models["ollama"] = [m["name"] for m in data.get("models", [])]
+        except Exception as curl_e:
+            print(f"Curl failed too: {curl_e}", flush=True)
     
     # Static list for OpenRouter and Gemini (common models)
     models["openrouter"] = [

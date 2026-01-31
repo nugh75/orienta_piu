@@ -155,6 +155,8 @@ help:
 	@echo "  make cleanup              - Elimina file obsoleti (chiede conferma)"
 	@echo "  make cleanup-bak          - Elimina obsoleti + file .bak (chiede conferma)"
 	@echo "  make cleanup-bak-old DAYS=N - Elimina solo .bak piu vecchi di N giorni (default 7)"
+	@echo "  make clean-ptof-codes     - Analizza e rileva discrepanze nei codici PTOF (dry-run report)"
+	@echo "  make clean-ptof-codes-apply - Applica rinomina file e pulizia dati obsoleti (ANALYSIS/REGISTRY)"
 	@echo ""
 	@echo "GIT:"
 	@echo "  make git-auto             - Add/commit/push automatico ogni 10 min (INTERVAL=600)"
@@ -767,8 +769,28 @@ validate: validator
 # RECOVERY PTOF
 # ═══════════════════════════════════════════════════════════════════
 
-recover-not-ptof:
-	$(PYTHON) src/validation/ptof_validator.py recover --category not_ptof --only-ok
+
+# ═══════════════════════════════════════════════════════════════════
+# CLEANER PTOF (Codici Meccanografici)
+# ═══════════════════════════════════════════════════════════════════
+
+# Esegue il cleaner in modalità DRY-RUN (genera report senza modifiche)
+# Uso: make clean-ptof-codes [MODEL=qwen2.5:7b]
+clean-ptof-codes:
+	$(PYTHON) src/agents/ptof_code_cleaner.py \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
+
+# Esegue il cleaner applicando le modifiche (RINOMINA FILE)
+# Uso: make clean-ptof-codes-apply [MODEL=...]
+clean-ptof-codes-apply:
+	@echo "⚠️  ATTENZIONE: Questo comando RINOMINERÀ i file in base al report."
+	@read -p "Sei sicuro? [y/N] " confirm && [ "$$confirm" = "y" ] || (echo "❌ Annullato." && exit 1)
+	$(PYTHON) src/agents/ptof_code_cleaner.py --confirm \
+		$(if $(MODEL),--model "$(MODEL)",) \
+		$(if $(PROVIDER),--provider "$(PROVIDER)",) \
+		$(if $(OLLAMA_URL),--ollama-url "$(OLLAMA_URL)",)
 
 # ═══════════════════════════════════════════════════════════════════
 # OUTREACH PTOF

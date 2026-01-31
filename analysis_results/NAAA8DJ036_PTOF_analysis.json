@@ -1,0 +1,205 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA8DJ036",
+    "denominazione": "C.Mmare I.C. 5Karol Wojtyla",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Castellammare Di Stabia",
+    "anno_ptof": "2022/2024/2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cottrau N.9",
+    "cap": "80053",
+    "email": "naic8dj007@istruzione.it",
+    "pec": "ND",
+    "website": "www.icwojtyla.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. Si segnalano attività con finalità orientativa, ma manca un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Università di Cambridge",
+        "partner esterni",
+        "Ufo Saronno",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Associazione L’Orma di Milano",
+        "Associazione Fourchette Verte Ticino"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di musica, cucina, pittura, teatro",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività laboratoriali in collaborazione con enti locali, finalizzate allo sviluppo di competenze creative e sociali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Servizio di consulenza psicologica individuale e di gruppo, gestito da personale specializzato, per affrontare difficoltà emotive e scolastiche.",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto al metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Incontri individuali e di gruppo con docenti tutor per migliorare le strategie di apprendimento e l'organizzazione del lavoro scolastico.",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera (Cambridge Examinations)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Corsi pomeridiani di inglese su 4 livelli, tenuti da insegnanti madrelingua, preparatori per il superamento delle certificazioni Cambridge.",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Campo estivo in Inghilterra",
+      "categoria_principale": "Esperienziale",
+      "descrizione_e_metodologia": "Soggiorno linguistico e culturale in Inghilterra, organizzato in collaborazione con partner esterni, per favorire l'immersione nella lingua e nella cultura anglosassone.",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Laboratori di strumento musicale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Corsi di strumento musicale aperti a tutti gli studenti, tenuti da docenti qualificati, per promuovere l'espressione artistica e la creatività.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Organizzazione di attività di sensibilizzazione sui temi della legalità e della cittadinanza responsabile, in collaborazione con il centro giovanile Ufo Saronno.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale: progetto Gruppo Visione Giovani",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Incontri e workshop con esperti della Polizia Cantonale per promuovere la consapevolezza dei rischi legati alla criminalità e alla sicurezza stradale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Organizzazione di corsi di primo soccorso e iniziative di volontariato a favore della comunità locale, in collaborazione con la Croce Rossa.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con l’Associazione L’Orma di Milano: Progetto Erasmus Plus",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Scambi culturali e progetti di cooperazione internazionale con scuole partner europee, nell'ambito del programma Erasmus Plus.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alla “Settimana della lingua italiana nel mondo”,",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Organizzazione di laboratori, conferenze e letture per promuovere la conoscenza e l'apprezzamento della lingua e della cultura italiana.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a giochi matematici",
+      "categoria_principale": "Attività Didattica",
+      "descrizione_e_metodologia": "Partecipazione a competizioni e giochi matematici per stimolare l'interesse verso la matematica e sviluppare il ragionamento logico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Attività Didattica",
+      "descrizione_e_metodologia": "Visite a musei, mostre, siti storici e aziende per integrare l'apprendimento in aula con esperienze dirette e concrete.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA8DJ036\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. 5 Karol Wojtyla di Castellammare di Stabia (NA), codice scuola NAAA8DJ036, per il triennio 2022/2024/2025. L'istituto, di ordine Infanzia e tipo Statale, opera in un contesto territoriale metropolitano della regione Campania. L'analisi evidenzia un impegno significativo nella realizzazione di attività con finalità orientativa, pur mancando una sezione specificamente dedicata all'orientamento all'interno del documento PTOF. Si riscontra un'attenzione particolare alle finalità di sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF non presenta una sezione dedicata specificamente all'orientamento, sebbene siano presenti attività che perseguono finalità orientative. Questa assenza rappresenta un elemento di debolezza nella strutturazione complessiva dell'offerta formativa.\n\n**2.2 Partnership:**\n\nL'istituto vanta un network di **partnership** consolidato e diversificato, comprendendo enti quali **LAC**, **Museo in Erba**, **Università di Cambridge**, **Ufo Saronno**, **Polizia Cantonale**, **Croce Rossa**, **Associazione L’Orma di Milano** e **Associazione Fourchette Verte Ticino**. La presenza di nove partner attesta un'apertura all'esterno e una volontà di arricchire l'offerta formativa attraverso collaborazioni mirate.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la costruzione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future. Tutte queste aree ricevono un punteggio di 3, indicando un'attenzione equilibrata e completa.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**. Anche in questo caso, tutti gli obiettivi raggiungono un punteggio di 3, sottolineando la coerenza tra intenzioni e azioni.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto implementa azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Queste azioni, valutate con un punteggio di 3, dimostrano un approccio sistemico e inclusivo all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. La didattica laboratoriale riceve un punteggio leggermente inferiore (2), suggerendo un margine di miglioramento in questo ambito.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. La varietà dell'offerta, con punteggi generalmente alti, contribuisce ad ampliare gli interessi e le competenze degli studenti.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla presenza di un ampio network di **partnership**, dalla chiarezza delle **finalità** e degli **obiettivi**, dall'implementazione di azioni di sistema efficaci e dalla varietà dell'offerta di attività opzionali. L'impegno nell'organizzazione di attività come **Corsi di musica, cucina, pittura, teatro** e la collaborazione con enti come la **Croce Rossa** e l'**Associazione L’Orma di Milano** sono particolarmente degni di nota.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta l'area di debolezza principale. Inoltre, la didattica laboratoriale potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come una componente strutturale del PTOF, definendo obiettivi specifici, azioni mirate e indicatori di monitoraggio. Un'integrazione più esplicita dell'orientamento nel curriculum scolastico e un maggiore investimento nella didattica laboratoriale potrebbero colmare questo divario.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. 5 Karol Wojtyla dimostra un'attenzione significativa all'orientamento, sebbene manchi una sua esplicita strutturazione all'interno del documento. La ricchezza delle **partnership** e la varietà delle attività proposte rappresentano un valore aggiunto per gli studenti. L'istituto dovrebbe considerare l'inserimento di una sezione dedicata all'orientamento nel prossimo PTOF, al fine di rafforzare l'efficacia delle azioni intraprese e garantire una maggiore coerenza con le finalità educative. Attività come lo **Sportello di supporto psicologico**, i **Corsi di lingua straniera (Cambridge Examinations)** e il **Campo estivo in Inghilterra** sono esempi di iniziative che contribuiscono a orientare gli studenti verso scelte consapevoli e responsabili."
+}

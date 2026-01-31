@@ -1,0 +1,357 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CZEE813038",
+    "denominazione": "Serrastretta -Cancello- I.C.",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Serrastretta",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Catanzaro",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Giorgio",
+    "cap": "88040",
+    "email": "czic813004@istruzione.it",
+    "pec": "czic813004@pec.istruzione.it",
+    "website": "www.icserrastretta.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Curricolo verticale"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "IIS Costanzo Decollatura",
+        "Protezione Civile Decollatura",
+        "ASL",
+        "Associazioni di riferimento",
+        "Privato sociale e volontariato",
+        "Iis Costanzo",
+        "AGESCI",
+        "Canterini di Serrastretta",
+        "Centro Salute Mentale",
+        "Parco letterario Michele Pane",
+        "Comando Carabinieri"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di orientamento scolastico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attivazione iniziative continuità e orientamento, percorsi di guida e orientamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Collaborazione IIS Costanzo",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Formazione, eventi digitali, curricolo digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Curricolo verticale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di aggiornamento e riflessione sulle Nuove Indicazioni Nazionali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Un Passo Avanti Nella Scuola - Continuità",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Classi aperte verticali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Ad Maiora - Dal Potenziamento Della Lingua Italiana All'Avviamento Al Latino",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività propedeutiche allo studio della lingua latina.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Potenziamento Delle Lingue Straniere",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Percorso linguistico con rappresentazione teatrale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Recupero Conoscenze Ed Abilità In Lingua Inglese",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività di recupero delle competenze",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Accoglienza, alfabetizzazione, educazione interculturale",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Conosci Gli Alieni?",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Studio e ricerca sul campo degli ecosistemi",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Piccoli Cittadini Crescono",
+      "categoria_principale": "Crescita personale",
+      "descrizione_e_metodologia": "Promuovere stili di vita positivi",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Gioco, Cresco, Imparo",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Condivisione del piacere della lettura",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Comunicare Con Il Linguaggio Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Comunicazione attraverso la musica",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "La Danza Sportiva A Scuola",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Crescita attraverso la danza",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Clorofilla: Nuova Linfa Per La Didattica Della Scuola Dell'Infanzia",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Ispirato al Reggio Emilia Approach, apprendimento spontaneo tramite comunicazione e relazione.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Insieme Più Speciali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sensibilizzazione sulla diversità e inclusione in classe.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Alla Scoperta Del Nostro Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Valorizzazione risorse umane, culturali, economiche e ambientali del territorio.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "La Castagna Frutto Della Tradizione",
+      "categoria_principale": "Tradizioni",
+      "descrizione_e_metodologia": "Valorizzazione tradizioni, usi e costumi del territorio.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Molto Non È Poco",
+      "categoria_principale": "Competenze Chiave",
+      "descrizione_e_metodologia": "Sviluppo competenze chiave europee e sensibilizzazione sulla diversità.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Latte O Frutta Nelle Scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Degustazioni guidate per educazione alimentare.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Il Verbo \"Leggere\" Non Sopporta L'Imperativo",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Promozione amore per la lettura come attività libera e condivisa.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Spike",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Sviluppo capacità motorie, relazionali e cognitive.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Mooc (Massiva Open Online Course)",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Miglioramento livelli valutazione e sviluppo atteggiamento positivo verso la matematica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Colori E Suoni Del Folklore",
+      "categoria_principale": "Folklore",
+      "descrizione_e_metodologia": "Conoscenza del territorio tramite ricerca e indagine.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Gutenberg: Homo Sapiens? Fragile Civiltà",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Promozione attitudine alla lettura e intelligenza critica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Le Donne Che Hanno Fatto La Storia... Visto E Studiato Attraverso L'Arte",
+      "categoria_principale": "Arte e Storia",
+      "descrizione_e_metodologia": "Superamento stereotipi e valorizzazione ruolo delle donne.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Promozione curiosità e interesse verso il libro.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Robotica Educativa: Immagina, Impara, Crea.",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Sviluppo capacità motorie, relazionali e cognitive.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Nintendo Labo",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Unione creatività, fantasia, musica, scrittura e coding.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sperimentazione Didattica Metodo Intuitivo-Analogico",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sperimentazione del Metodo Analogico di Camillo Bortolato.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Il Linguaggio Musicale - Scuola Primaria",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Utilizzo della musica per facilitare la relazione e migliorare l'attenzione.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Bullismo E Cyberbullismo 2019/2020",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Sensibilizzazione sulla violenza prodotta da bullismo e cyberbullismo.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Eventi aperti al territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Eventi sui temi della cittadinanza digitale, sicurezza, privacy",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Partecipazione a bandi",
+      "categoria_principale": "Sviluppo professionale",
+      "descrizione_e_metodologia": "Bandi nazionali, europei ed internazionali",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Lavorare per competenze",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Gruppi di miglioramento"
+    },
+    {
+      "titolo_attivita": "Didattica innovativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori, workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Educazione emotiva",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Dislessia amica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Formazione online",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CZEE813038\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Serrastretta-Cancello (CZEE813038), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno 2019/20-2021/22, evidenzia un impegno significativo verso l'orientamento, come dimostrato dalla presenza di una sezione dedicata e da un punteggio medio-alto nelle diverse aree valutate. L'istituto, situato in Calabria, si distingue per un approccio proattivo nella creazione di **partnership** con diversi attori del territorio e per l'attenzione allo sviluppo di competenze chiave negli studenti, con un focus sulla **progettazione di vita** e sulle **transizioni formative**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo il punteggio massimo di 5. Questo indica una chiara consapevolezza dell'importanza di questa dimensione all'interno del percorso formativo degli studenti, con un particolare focus sul **curricolo verticale**.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, ben 16, che includono l'**IIS Costanzo Decollatura**, la **Protezione Civile Decollatura**, l'**ASL**, diverse **associazioni di riferimento**, il **privato sociale e volontariato**, l'**AGESCI**, i **Canterini di Serrastretta**, il **Centro Salute Mentale**, il **Parco letterario Michele Pane** e il **Comando Carabinieri**. Questo network di collaborazioni rappresenta una risorsa preziosa per ampliare l'offerta formativa e offrire agli studenti opportunità di confronto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** degli studenti, a supportarli nella **progettazione di vita** e a facilitare le **transizioni formative**. Particolare attenzione è rivolta allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal contesto socio-economico.\n\n**2.4 Obiettivi:** Tra gli obiettivi del PTOF, si evidenzia l'impegno a **ridurre l'abbandono scolastico** e a promuovere la **continuità territoriale**. Meno marcata, invece, l'attenzione alla lotta contro il fenomeno **NEET** e allo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto punta su azioni di **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori** e **monitoraggio delle azioni** intraprese. Un elemento distintivo è l'attenzione alla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nell'ampio numero di **partnership** attivate, nella chiarezza delle **finalità** e nell'attenzione alla **didattica orientativa** basata sull'esperienza e sulla flessibilità. L'istituto dimostra una forte capacità di collaborare con il territorio e di coinvolgere diversi attori nella realizzazione delle proprie iniziative. Le attività registrate, come il **Progetto di orientamento scolastico** e la **Collaborazione IIS Costanzo**, confermano questo impegno.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la scarsa attenzione alla lotta contro il fenomeno **NEET** e allo sviluppo del **lifelong learning**. Inoltre, il punteggio relativamente basso sull'obiettivo di ridurre l'abbandono scolastico suggerisce la necessità di potenziare le azioni mirate a prevenire la dispersione scolastica.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi dichiarati e le azioni concrete è minimo, grazie alla presenza di numerose attività dedicate all'orientamento, come il **Curricolo verticale**, **Un Passo Avanti Nella Scuola - Continuità** e **Ad Maiora - Dal Potenziamento Della Lingua Italiana All'Avviamento Al Latino**. Tuttavia, è necessario rafforzare le iniziative volte a contrastare il fenomeno **NEET** e a promuovere il **lifelong learning**, attraverso la creazione di percorsi formativi specifici e la collaborazione con aziende e istituzioni del territorio.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Serrastretta-Cancello rappresenta un documento programmatico solido e ben strutturato, con un'attenzione particolare all'orientamento e alla collaborazione con il territorio. L'istituto dimostra una forte capacità di innovazione e di adattamento alle esigenze del contesto socio-economico locale. Pur riconoscendo alcune aree di debolezza, si può affermare che il PTOF costituisce un valido strumento per garantire agli studenti un percorso formativo completo e orientato al futuro. Le numerose attività registrate, che spaziano dall'**Alfabetizzazione Alunni Stranieri** alla **Robotica Educativa**, testimoniano l'impegno dell'istituto nel promuovere l'inclusione, l'innovazione e lo sviluppo delle competenze chiave negli studenti."
+}

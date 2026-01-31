@@ -1,0 +1,235 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CEVC020002",
+    "denominazione": "Convitto Nazionale A. Nifo",
+    "tipo_scuola": "I Grado, Liceo, Primaria, Tecnico",
+    "ordine_grado": "I Grado, II Grado, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Sessa Aurunca",
+    "anno_ptof": "2022/2023-2024/2025",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazzetta Nifo 1",
+    "cap": "81037",
+    "email": "cevc020002@istruzione.it",
+    "pec": "cevc020002@pec.istruzione.it",
+    "website": "www.convittonifo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna evidenza"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Università di Cambridge",
+        "partner esterni",
+        "Ufo Saronno",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Associazione L’Orma di Milano",
+        "Associazione Fourchette Ticino"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di musica, cucina, pittura, teatro",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività laboratoriali in collaborazione con enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto psicologico",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Sportello di supporto al metodo di studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua straniera",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi pomeridiani di inglese su quattro livelli, preparazione Cambridge Examinations",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Campo estivo in Inghilterra",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Organizzato in collaborazione con partner esterni",
+      "target": "Studenti liceo"
+    },
+    {
+      "titolo_attivita": "Laboratorio di strumento musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Organizzato dall'istituto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente giovanile",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto Gruppo Visione Giovani",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Attività di volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus Plus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Collaborazione con Associazione L’Orma di Milano",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Settimana della lingua italiana nel mondo",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Laboratori, conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi matematici",
+      "categoria_principale": "Materie scientifiche",
+      "descrizione_e_metodologia": "Partecipazione a competizioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visite a luoghi d'arte",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visite a spettacoli",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giornata della Memoria",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Iniziative commemorative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri sull'utilizzo del cellulare e di Internet",
+      "categoria_principale": "Cittadinanza Digitale",
+      "descrizione_e_metodologia": "Formazione sui rischi e opportunità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Open day Università",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di sostegno all'allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui, coordinamento PDP, raccordo specialisti",
+      "target": "Alunni DSA, BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CEVC020002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Convitto Nazionale A. Nifo** (CEVC020002) per il triennio 2022/2023-2024/2025. La scuola, situata a **Sessa Aurunca** in **Campania**, opera in un contesto territoriale **non metropolitano** e accoglie studenti di diversi ordini e gradi: I Grado, II Grado e Primaria. L'analisi evidenzia un impegno significativo verso l'orientamento, con un punteggio medio elevato nelle diverse dimensioni considerate. Si riscontra una buona strutturazione delle finalità, degli obiettivi e delle azioni, supportata da una ricca offerta di attività extracurriculari e di supporto agli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola dimostra una forte capacità di collaborare con diversi partner esterni, come **LAC**, **Museo in Erba**, **Università di Cambridge**, **Ufo Saronno**, **Polizia Cantonale**, **Croce Rossa**, **Associazione L’Orma di Milano** e **Associazione Fourchette Ticino**. Sono state individuate ben 9 partnership, suggerendo un approccio proattivo nella creazione di una rete di supporto per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, la facilitazione delle **transizioni formative** e il potenziamento delle loro **capacità orientative** per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 3, indicando un'attenzione equilibrata a tutti gli aspetti cruciali dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono orientati alla riduzione dell’**abbandono scolastico**, alla continuità territoriale, al contrasto del fenomeno **NEET** e alla promozione del **lifelong learning**. Anche in questo caso, ogni obiettivo ha ottenuto un punteggio di 3, sottolineando la coerenza tra le finalità dichiarate e gli obiettivi concreti.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte a rafforzare l'orientamento attraverso il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rapporto con i **genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Ogni azione ha ottenuto un punteggio di 3, evidenziando un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. La didattica laboratoriale ha ottenuto un punteggio leggermente inferiore (2), suggerendo un'area di potenziale miglioramento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Ogni tipologia di opzionale ha ottenuto un punteggio di 3, dimostrando un'attenzione alla diversificazione dell'offerta formativa e alla valorizzazione degli interessi degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua coerenza interna e l'attenzione all'orientamento come parte integrante del processo educativo. La ricca rete di **partnership** con enti esterni, le finalità e gli obiettivi ben definiti, le azioni di sistema strutturate e l'ampia offerta di attività extracurriculari e opzionali rappresentano un solido punto di partenza per un efficace orientamento degli studenti. Attività come i **corsi di musica, cucina, pittura e teatro**, lo **sportello di supporto psicologico** e i **corsi di lingua straniera** offrono opportunità concrete di crescita e sviluppo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, la didattica laboratoriale, pur essendo presente, potrebbe essere ulteriormente potenziata per offrire agli studenti esperienze di apprendimento più coinvolgenti e significative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una sezione specifica per l'orientamento, che potrebbe rendere più visibile e strutturato l'impegno della scuola in questo ambito. Un'ulteriore area di miglioramento riguarda il potenziamento della didattica laboratoriale, attraverso la formazione dei docenti e l'acquisizione di nuove attrezzature.\n\n### 6. Conclusioni\n\nIl PTOF del **Convitto Nazionale A. Nifo** dimostra un forte impegno verso l'orientamento, supportato da una solida base di finalità, obiettivi, azioni e attività. Nonostante l'assenza di una sezione dedicata e la necessità di potenziare la didattica laboratoriale, la scuola si presenta come un contesto educativo virtuoso, capace di offrire agli studenti un orientamento efficace e personalizzato. L'impegno nelle **partnership** e nell'offerta di attività diversificate, come il **Progetto Erasmus Plus** e le visite guidate all'**Open day Università**, contribuisce a creare un ambiente stimolante e favorevole allo sviluppo del potenziale di ogni studente."
+}

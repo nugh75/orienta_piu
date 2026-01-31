@@ -1,0 +1,39 @@
+# Analisi del PTOF FEMM80101A
+
+## Report di Valutazione dell'Orientamento
+
+### 1. Sintesi Generale
+
+Il presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Sec. I Grado Mesola** (FEMM80101A), relativo all'anno 2015. La scuola, situata nel territorio non metropolitano della provincia di Ferrara in Emilia Romagna, è un istituto statale di I Grado. L'analisi si basa sui dati forniti e valuta la presenza e l'efficacia delle strategie di orientamento implementate o pianificate. Il PTOF dimostra una consapevolezza dell'importanza dell'orientamento, con una sezione dedicata specifica, ma evidenzia margini di miglioramento in termini di concretezza delle azioni e di integrazione con il territorio.
+
+### 2. Analisi Dimensionale
+
+**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, ottenendo un punteggio di 4, il che indica un'attenzione formale all'area.
+
+**2.2 Partnership:** La scuola collabora con diversi partner, tra cui **enti locali**, **associazioni genitori** e **studenti**. Sono state identificate 4 partnership, suggerendo un impegno nella creazione di una rete di supporto per l'orientamento.
+
+**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 2, indicando una chiara definizione degli obiettivi, ma potenzialmente una mancanza di dettagli sulla loro implementazione pratica.
+
+**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, garantire la **continuità territoriale**, **contrastare il fenomeno NEET** e promuovere il **lifelong learning**. Anche in questo caso, ogni obiettivo ha un punteggio di 2, suggerendo una buona formulazione ma una possibile necessità di definire indicatori di successo misurabili.
+
+**2.5 Azioni di Sistema:** Le azioni previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Ogni azione ha ottenuto un punteggio di 2, indicando un approccio sistemico all'orientamento, ma con margini di miglioramento nella definizione delle modalità operative.
+
+**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Ogni aspetto ha ottenuto un punteggio di 2, suggerendo un approccio didattico innovativo, ma potenzialmente bisognoso di una maggiore concretizzazione.
+
+**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Ogni tipologia di opzionale ha ottenuto un punteggio di 2, indicando una varietà di opportunità per gli studenti, ma con la necessità di valutare l'effettiva partecipazione e l'impatto sull'orientamento.
+
+### 3. Punti di Forza
+
+Il principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, che dimostra una consapevolezza dell'importanza di questo ambito. La collaborazione con **enti locali**, **associazioni genitori** e **studenti** rappresenta un altro elemento positivo, in quanto favorisce la creazione di una rete di supporto per l'orientamento. L'approccio sistemico, che coinvolge diversi attori e azioni, è un ulteriore punto di forza.
+
+### 4. Aree di Debolezza
+
+L'analisi evidenzia una certa uniformità nei punteggi assegnati alle diverse dimensioni, con un valore di 2 per la maggior parte degli aspetti. Questo suggerisce che, pur essendo presenti le basi per un'efficace azione di orientamento, manca una maggiore concretezza nella definizione delle azioni e degli indicatori di successo. L'assenza di un registro delle attività svolte impedisce una valutazione precisa dell'implementazione del PTOF.
+
+### 5. Gap Analysis
+
+Il divario principale risiede nella trasposizione delle intenzioni dichiarate in azioni concrete e misurabili. Sebbene il PTOF definisca chiaramente le finalità, gli obiettivi e le azioni, manca una descrizione dettagliata delle modalità operative e degli strumenti utilizzati per monitorare l'efficacia delle iniziative. L'assenza di dati sull'implementazione delle attività rende difficile valutare l'impatto dell'orientamento sugli studenti.
+
+### 6. Conclusioni
+
+Il PTOF della **Scuola Sec. I Grado Mesola** dimostra un'attenzione all'orientamento, ma necessita di un maggiore approfondimento nella definizione delle azioni e degli indicatori di successo. È importante che la scuola si concentri sulla concretizzazione delle iniziative previste, sulla raccolta di dati sull'implementazione delle attività e sulla valutazione dell'impatto dell'orientamento sugli studenti. Un maggiore coinvolgimento dei partner e una comunicazione efficace con le famiglie potrebbero contribuire a rafforzare l'efficacia del PTOF.

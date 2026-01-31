@@ -143,6 +143,18 @@ with tab_methodology:
     - Verifica della completezza dei dati estratti
     - Controllo della coerenza dei punteggi
     - Eventuale revisione manuale per casi dubbi
+    
+    ---
+    
+    #### 🔹 Fase 5: Pulizia e Standardizzazione dei Codici
+    
+    Al termine del **Ciclo 53** di estrazione, è stata eseguita una procedura di **bonifica massiva** per garantire la qualità del dataset:
+    
+    1. **Riconciliazione Codici**: Verifica della corrispondenza tra il codice meccanografico nel nome del file e quello contenuto nel testo del PTOF.
+    2. **Rimozione "Impostori"**: Eliminazione automatica di file che, pur avendo un nome valido, contenevano dati di altre scuole (spesso dovuto a errori di pubblicazione sui siti scolastici).
+    3. **Standardizzazione**: Eliminazione di tutti i file orfani o incompleti per garantire che ogni scuola nel dataset finale abbia la catena completa: `PDF` -> `Markdown` -> `Analisi` -> `Attività`.
+    
+    Questo processo ha comportato la rimozione di circa **300+ entry non valide**, migliorando significativamente l'affidabilità delle analisi statistiche.
     """)
     
     # =====================================================
@@ -156,21 +168,40 @@ with tab_methodology:
     cycles_data = []
     
     if os.path.exists(registry_file):
+        started_times = {}
+        completed_entries = {}
+        
         with open(registry_file, 'r') as f:
             for line in f:
                 try:
                     entry = json.loads(line.strip())
-                    if entry.get('status') == 'completed':
-                        cycles_data.append(entry)
+                    cid = entry.get('cycle_id')
+                    if not cid: continue
+                    
+                    if entry.get('status') == 'started':
+                        started_times[cid] = entry.get('timestamp')
+                    elif entry.get('status') == 'completed':
+                        completed_entries[cid] = entry
                 except:
                     pass
-    
-    if cycles_data:
+        
+        # Merge started times into completed entries if needed
+        for cid, entry in completed_entries.items():
+            if cid in started_times:
+                # Se il timestamp del completed è troppo vicino al suo end_time, 
+                # usa quello dello started come inizio reale
+                started_ts = started_times[cid]
+                # Inserisci nel cycles_data
+                entry['_real_start'] = started_ts
+            cycles_data.append(entry)
+        
+        # Ordina per cycle_id
+        cycles_data.sort(key=lambda x: x.get('cycle_id', 0))
+        
         # Raggruppa per cycle_id e prendi l'ultimo completamento per ogni ciclo
         cycles_by_id = {}
         for entry in cycles_data:
             cid = entry.get('cycle_id', 0)
-            # Prendi sempre l'ultimo (più recente) per ogni cycle_id
             cycles_by_id[cid] = entry
         
         # Ordina per cycle_id
@@ -229,11 +260,37 @@ with tab_methodology:
                 if cycle_data.get('note'):
                     st.info(f"📝 {cycle_data.get('note')}")
                 
+                # Calcola durata se disponibile
+                duration_str = "N/A"
+                start_ts = cycle_data.get('_real_start')
+                end_ts = cycle_data.get('end_time') or cycle_data.get('timestamp')
+                
+                if start_ts and end_ts:
+                    try:
+                        start_dt = datetime.fromisoformat(start_ts)
+                        end_dt = datetime.fromisoformat(end_ts)
+                        diff = end_dt - start_dt
+                        
+                        # Handle potential negative diff if clocks slightly off or logged out of order
+                        if diff.total_seconds() < 0:
+                            diff = abs(diff)
+
+                        minutes, seconds = divmod(int(diff.total_seconds()), 60)
+                        hours, minutes = divmod(minutes, 60)
+                        if hours > 0:
+                            duration_str = f"{int(hours)}h {int(minutes)}m {int(seconds)}s"
+                        elif minutes > 0:
+                            duration_str = f"{int(minutes)}m {int(seconds)}s"
+                        else:
+                            duration_str = f"{int(seconds)}s"
+                    except:
+                        pass
+
                 # Orari e Filtri
-                col_time1, col_time2, col_filt = st.columns(3)
+                col_time1, col_time2, col_dur = st.columns(3)
                 
                 with col_time1:
-                    start_time = cycle_data.get('timestamp', 'N/A')
+                    start_time = cycle_data.get('_real_start') or cycle_data.get('timestamp', 'N/A')
                     if start_time and start_time != 'N/A':
                         try:
                             dt = datetime.fromisoformat(start_time)
@@ -254,21 +311,38 @@ with tab_methodology:
                     else:
                         st.caption("🏁 **Fine**: N/A")
                 
-                with col_filt:
-                    filters = cycle_data.get('filters', {})
-                    if filters:
-                        filter_parts = []
-                        if filters.get('grado') and filters['grado'] != 'tutti':
-                            filter_parts.append(f"Grado: {filters['grado']}")
-                        if filters.get('regione') and filters['regione'] != 'tutte':
-                            filter_parts.append(f"Regione: {filters['regione']}")
-                        if filters.get('gestione') and filters['gestione'] != 'tutte':
-                            filter_parts.append(f"Gestione: {filters['gestione']}")
-                        
-                        if filter_parts:
-                            st.caption(f"🔍 **Filtri**: {', '.join(filter_parts)}")
+                with col_dur:
+                    st.caption(f"⏱️ **Durata**: {duration_str}")
+                
+                # Dettagli tecnici (AI e Filtri)
+                with st.expander("🛠️ Dettagli Esecuzione", expanded=False):
+                    col_det1, col_det2 = st.columns(2)
+                    
+                    with col_det1:
+                        st.markdown("**Configurazione AI**")
+                        ai_config = cycle_data.get('ai_config', {})
+                        if ai_config:
+                            wf = ai_config.get('workflow', {})
+                            st.caption(f"• **Workflow**: {wf.get('provider', 'N/A')} ({wf.get('model', 'N/A')})")
+                            val = ai_config.get('validation', {})
+                            st.caption(f"• **Validazione**: {val.get('provider', 'N/A')} ({val.get('model', 'N/A')})")
+                            act = ai_config.get('activity', {})
+                            if act.get('enabled'):
+                                st.caption(f"• **Attività**: {act.get('provider', 'N/A')} ({act.get('model', 'N/A')})")
                         else:
-                            st.caption("🔍 **Filtri**: Nessuno (tutto l'universo)")
+                            st.caption("Dati AI non disponibili per questo ciclo.")
+                    
+                    with col_det2:
+                        st.markdown("**Filtri e Parametri**")
+                        filters = cycle_data.get('filters', {})
+                        if filters:
+                            st.caption(f"• **Grado**: {filters.get('grado', 'Tutti')}")
+                            st.caption(f"• **Regione**: {filters.get('regione', 'Tutte')}")
+                            st.caption(f"• **Gestione**: {filters.get('gestione', 'Tutte')}")
+                        
+                        target_total = cycle_data.get('target_total')
+                        if target_total:
+                            st.caption(f"• **Target Totale**: {target_total}")
                 
                 # Target per strato (se disponibile)
                 target_per_strato = cycle_data.get('target_per_strato', {})
@@ -313,7 +387,7 @@ with tab_analysis:
     BENCHMARK_FILE = 'data/population_benchmarks.json'
     
     DEFAULT_BENCHMARKS = {
-        "gestione": {"Statale": 90.0, "Paritaria": 10.0},
+        "gestione": {"Statale": 81.4, "Paritaria": 18.6},
         "ordine": {"Infanzia": 25.0, "Primaria": 30.0, "I Grado": 20.0, "II Grado": 25.0, "Comprensivo/Misto": 0.0},
         "area": {"Nord Ovest": 26.6, "Nord Est": 19.3, "Centro": 19.9, "Sud": 23.3, "Isole": 10.9}, # Stime aggiornate MIUR
         "regione": {

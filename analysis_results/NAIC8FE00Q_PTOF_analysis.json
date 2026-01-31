@@ -1,0 +1,184 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAIC8FE00Q",
+    "denominazione": "S. Giorgio I.C. 2 - Massaia",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "San Giorgio A Cremano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Corso Umberto",
+    "cap": "80046",
+    "email": "naic8fe00q@istruzione.it",
+    "pec": "naic8fe00q@pec.istruzione.it",
+    "website": "www.ic2massaia.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, sebbene siano menzionate attività che possono rientrare in questo ambito."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "musei",
+        "istituti pubblici e privati",
+        "associazioni del terzo settore",
+        "imprese",
+        "Altre scuole",
+        "Autonomie locali"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratori linguistico/espressivo",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività pratiche e creative per sviluppare competenze linguistiche ed espressive, con particolare attenzione alla scoperta di sé e delle proprie inclinazioni.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori scientifico/logico/matematico",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Approccio pratico e sperimentale alle discipline STEM, volto a stimolare il pensiero critico e l'interesse per le professioni scientifiche e tecnologiche.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori artistico/musicale/motorio",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Attività per sviluppare creatività, espressione artistica e benessere fisico, favorendo l'autostima e la consapevolezza delle proprie capacità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti regionali ed europei",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Partecipazione a progetti per ampliare l'offerta formativa e promuovere l'integrazione, offrendo agli studenti opportunità di confronto e crescita personale.",
+      "target": "Studenti selezionati"
+    },
+    {
+      "titolo_attivita": "Formazione e ricerca-azione sull'organizzazione flessibile degli spazi",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione flessibile degli spazi, dei tempi e delle risorse per favorire l'apprendimento attivo e personalizzato, con particolare attenzione alla creazione di ambienti stimolanti e inclusivi.",
+      "target": "Scuola dell’Infanzia e Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Destrutturazione dei gruppi-sezione/classe",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività curricolari, laboratoriali in orario curricolare e/o extracurricolare, volte a promuovere la collaborazione, l'autonomia e la responsabilità degli studenti.",
+      "target": "Scuola dell’Infanzia e Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Attività didattiche - Città dei bambini e delle bambine",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Attività didattiche e risorse condivise per promuovere la conoscenza del territorio e la cittadinanza attiva, stimolando l'interesse per il mondo del lavoro e le professioni locali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Piano formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione sicurezza personale e preposti",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Linea di investimento 2.1 PNRR",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione digitale e competenze STEM",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Investimento 3.1 PNRR",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche e CLIL",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAIC8FE00Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. S. Giorgio Massaia (NAIC8FE00Q) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano di San Giorgio A Cremano in Campania, si configura come un comprensivo che abbraccia i gradi di Infanzia, Primaria, Secondaria di primo e secondo grado, oltre a offrire percorsi professionali. L'analisi evidenzia un impegno generale verso l'orientamento, sebbene non esista una sezione specificamente dedicata, ma piuttosto un'integrazione di attività che rientrano in questo ambito. Il PTOF dimostra una forte attenzione alla costruzione di un **sistema integrato** che coinvolge servizi, docenti, studenti, genitori e territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:**\n\nL'assenza di una sezione dedicata all'orientamento rappresenta una prima criticità, nonostante la presenza di attività che possono essere considerate orientative.\n\n**2.2 Partnership:**\n\nL'istituto vanta un solido network di **partnership** con diversi soggetti, tra cui **musei**, **istituti pubblici e privati**, **associazioni del terzo settore**, **imprese**, **altre scuole** e **autonomie locali**. Questa rete di collaborazioni, composta da ben 6 partner, costituisce un elemento significativo per arricchire l'offerta formativa e offrire agli studenti opportunità di confronto e crescita.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, le **transizioni formative** e le **capacità orientative** rispetto alle opportunità offerte dal territorio. Tutti questi aspetti ricevono un punteggio elevato, indicando un'attenzione particolare alla crescita personale e professionale degli studenti.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF sono orientati alla **riduzione dell'abbandono scolastico**, alla promozione della **continuità territoriale**, al **contrasto alla dispersione scolastica e NEET** e allo sviluppo del **lifelong learning**. Questi obiettivi, con punteggi generalmente alti, riflettono l'impegno dell'istituto a garantire un'istruzione inclusiva e orientata al futuro.\n\n**2.5 Azioni Sistema:**\n\nIl PTOF prevede azioni volte al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori**, al **monitoraggio delle azioni** intraprese e alla creazione di un **sistema integrato di inclusione e supporto alle fragilità**. Queste azioni, tutte valutate positivamente, dimostrano un approccio olistico all'orientamento.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Questi elementi, con punteggi elevati, suggeriscono un'attenzione alla personalizzazione dell'apprendimento e allo sviluppo di competenze trasversali.\n\n**2.7 Opzionali Facoltative:**\n\nL'offerta di **opzionali** è diversificata, con attività **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**. Tuttavia, la presenza di punteggi bassi per alcune tipologie di opzionali suggerisce la necessità di ampliare l'offerta e renderla più coerente con le finalità orientative del PTOF.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la solida rete di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, l'attenzione alla creazione di un **sistema integrato** e l'utilizzo di metodologie didattiche innovative basate sull'apprendimento esperienziale e sulla **flessibilità**. Le attività extracurricolari, come i **laboratori linguistico/espressivo**, **scientifico/logico/matematico** e **artistico/musicale/motorio**, offrono agli studenti opportunità di scoperta e sviluppo delle proprie potenzialità.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un'area di debolezza. Inoltre, l'offerta di **opzionali facoltative** appare poco diversificata e potrebbe non rispondere adeguatamente alle esigenze e agli interessi di tutti gli studenti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione esplicita delle attività orientative all'interno del PTOF. Sebbene siano presenti numerose iniziative che possono essere considerate orientative, la loro frammentazione e l'assenza di un coordinamento strategico ne limitano l'efficacia. È necessario definire un piano d'azione specifico per l'orientamento, con obiettivi misurabili e indicatori di performance.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. S. Giorgio Massaia dimostra un impegno significativo verso l'orientamento, sebbene necessiti di una maggiore strutturazione e di un coordinamento più efficace delle attività. L'istituto dispone di solide basi per sviluppare un'offerta formativa orientativa di qualità, grazie alla sua rete di **partnership**, alle chiare **finalità** e **obiettivi** e all'utilizzo di metodologie didattiche innovative. L'integrazione di una sezione dedicata all'orientamento e l'ampliamento dell'offerta di **opzionali facoltative** potrebbero contribuire a migliorare l'efficacia del PTOF e a garantire un futuro migliore per gli studenti. La partecipazione a **progetti regionali ed europei**, la **formazione digitale** dei docenti e l'attenzione alla **sicurezza** e al **potenziamento delle competenze linguistiche** rappresentano ulteriori elementi di valore che contribuiscono a completare il quadro generale."
+}

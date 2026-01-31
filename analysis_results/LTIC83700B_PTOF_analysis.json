@@ -1,0 +1,188 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "LTIC83700B",
+    "denominazione": "I.C. Garibaldi",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Aprilia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Latina",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via E.Fermi 24",
+    "cap": "04011",
+    "email": "ltic83700b@istruzione.it",
+    "pec": "ltic83700b@pec.istruzione.it",
+    "website": "www.comprensivogaribaldiaprilia.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione presente e dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Marta",
+        "Nisida",
+        "La Quercia",
+        "Comuni",
+        "Enti locali",
+        "Associazioni",
+        "Biblioteche",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "organizzazioni del terzo settore",
+        "imprese",
+        "Scuole secondarie di secondo grado",
+        "Amministrazione Comunale",
+        "Enti",
+        "Università",
+        "Scuole italiane e/o straniere"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti didattico-educativi con Cooperative",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Collaborazione con cooperative per attività pratiche e formative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite a strutture culturali",
+      "categoria_principale": "Arricchimento offerta formativa",
+      "descrizione_e_metodologia": "Organizzazione di visite a musei, biblioteche e impianti sportivi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano L2",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Corsi e laboratori per studenti di cittadinanza o lingua non italiana.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Sistema di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Definizione di un sistema di orientamento per individuare interessi e attitudini.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali e mobilità studentesca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto La scuola in Valchiavenna",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Sviluppo competenze linguistiche e marketing",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Protocollo per l'Accoglienza Alunni Stranieri",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Attività di accoglienza e supporto",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Attività di tutoraggio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di formatore",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "## 1. Sintesi\n\nIl presente Piano Triennale dell'Offerta Formativa (PTOF) definisce le linee guida per l'azione educativa dell'I.C. Garibaldi per il triennio 2022-2025. Il documento si articola attorno a una visione di scuola inclusiva, orientata allo sviluppo delle competenze chiave degli studenti e alla loro preparazione per la cittadinanza attiva. Le partnership con enti del territorio rappresentano un elemento fondamentale per l'arricchimento dell'offerta formativa e per la creazione di un sistema integrato di servizi per gli studenti e le loro famiglie.\n\n## 2. Analisi Dimensionale\n\nL'analisi dimensionale del contesto scolastico evidenzia la necessità di potenziare le attività di orientamento, pur riconoscendo la presenza di iniziative in tal senso all'interno di progetti più ampi. Le finalità educative sono orientate allo sviluppo delle attitudini, degli interessi e dei progetti di vita degli studenti, con particolare attenzione alle transizioni formative. Gli obiettivi prioritari riguardano la riduzione dell'abbandono scolastico e il miglioramento della continuità territoriale. \n\n## 3. Punti di Forza\n\nI punti di forza dell'istituto risiedono nella consolidata esperienza di collaborazione con cooperative e servizi sociali, nella capacità di coinvolgere le famiglie nella vita scolastica e nell'implementazione di un sistema integrato di inclusione e supporto alla fragilità. L'offerta formativa è arricchita da attività extracurriculari, progetti Erasmus+ e iniziative volte alla promozione delle lingue straniere.\n\n## 4. Debolezze\n\nTra le aree di miglioramento, si evidenzia la necessità di strutturare in modo più organico le attività di orientamento, definendo una sezione dedicata all'interno del PTOF. Inoltre, è necessario potenziare le attività didattiche di tipo laboratoriale per l'orientamento e approfondire le finalità relative alle transizioni formative. L'assenza di un focus specifico sulla lotta al fenomeno NEET rappresenta un'ulteriore criticità.\n\n## 5. Gap Analysis\n\nL'analisi dei gap evidenzia una discrepanza tra le finalità dichiarate e le azioni concrete implementate in alcuni ambiti, in particolare per quanto riguarda l'orientamento e la prevenzione della dispersione scolastica. È necessario definire indicatori di monitoraggio più efficaci per valutare l'impatto delle azioni intraprese e garantire il raggiungimento degli obiettivi prefissati.\n\n## 6. Conclusioni\n\nIl PTOF rappresenta uno strumento di programmazione strategica per l'I.C. Garibaldi. L'implementazione delle azioni previste, unitamente a un costante monitoraggio e valutazione, consentirà di migliorare la qualità dell'offerta formativa e di rispondere in modo adeguato alle esigenze del territorio e degli studenti."
+}

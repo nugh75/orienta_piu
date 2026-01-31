@@ -1,0 +1,329 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "AVIS02400V",
+    "denominazione": "I.S. Paolo A. De Luca",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Avellino",
+    "anno_ptof": "2022-2025",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Scandone N. 66",
+    "cap": "83100",
+    "email": "avis02400v@istruzione.it",
+    "pec": "avis02400v@pec.istruzione.it",
+    "website": "isissdeluca.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Università",
+        "Associazioni culturali e sportive",
+        "Comune",
+        "Centri Sportivi",
+        "Università del Molise",
+        "CREARTE",
+        "ASD Poseidon"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Servizio navetta scuola-Country sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Servizio navetta per studenti Liceo Scientifico Sportivo",
+      "target": "Studenti Liceo Scientifico Sportivo"
+    },
+    {
+      "titolo_attivita": "Progetto studente/atleta di alto livello",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Convenzioni con strutture sportive",
+      "target": "Studenti atleti"
+    },
+    {
+      "titolo_attivita": "Progetto in lingua tedesco",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "CLIL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione EIPASS",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Ente Certificatore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Integrazione con il territorio",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convegni, eventi, manifestazioni artistiche e sportive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PROGETTO VELA (Settimana Azzurra)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso intensivo di vela con alloggio",
+      "target": "Liceo Scientifico e Liceo Scientifico Sportivo"
+    },
+    {
+      "titolo_attivita": "PROGETTO SCI (Settimana Bianca)",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso intensivo di sci con alloggio",
+      "target": "Liceo Scientifico e Liceo Scientifico Sportivo"
+    },
+    {
+      "titolo_attivita": "Progettazione e realizzazione design del gioiello",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Impresa Formativa Simulata (IFS)",
+      "target": "Liceo Artistico (classi terze e quarte)"
+    },
+    {
+      "titolo_attivita": "Simulazione d'impresa",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Realizzazione manufatti e simulazione d'impresa con CREARTE",
+      "target": "Non specificato"
+    },
+    {
+      "titolo_attivita": "Progetto presso circolo ASD Poseidon",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "PCTO presso struttura ospitante",
+      "target": "Non specificato"
+    },
+    {
+      "titolo_attivita": "Progetto Podjgym",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Supporto sportivo ai tecnici federali",
+      "target": "Non specificato"
+    },
+    {
+      "titolo_attivita": "Certificazione EIPASS",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corso finalizzato alla certificazione EIPASS",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Pastori",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Realizzazione manufatti arte presepiale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Logica",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Preparazione ai test",
+      "target": "Non specificato"
+    },
+    {
+      "titolo_attivita": "Pet B1",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Corso di inglese con docente madrelingua",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Corso Di Lingua Tedesca",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Introduzione alla lingua tedesca",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Ampliamento Offerta Formativa",
+      "descrizione_e_metodologia": "Realizzazione del musical 'Scugnizzi'",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "A NATALE PUOI",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Realizzazione di manufatti natalizi",
+      "target": "Sede carceraria"
+    },
+    {
+      "titolo_attivita": "CARTA, PENNA E FANTASIA",
+      "categoria_principale": "Scrittura Creativa",
+      "descrizione_e_metodologia": "Percorso di scrittura creativa",
+      "target": "Sede Carceraria"
+    },
+    {
+      "titolo_attivita": "BUONA LA PRIMA",
+      "categoria_principale": "Scrittura Creativa",
+      "descrizione_e_metodologia": "Laboratorio di scrittura creativa",
+      "target": "Sede Carceraria"
+    },
+    {
+      "titolo_attivita": "Settimana Arte E Cultura",
+      "categoria_principale": "Arte e Cultura",
+      "descrizione_e_metodologia": "Settimana dedicata alla scoperta delle bellezze d'Italia",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Della Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Partecipazione ai giochi matematici",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Attività didattiche con Azienda Bakarà",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso per le competenze trasversali e l'orientamento (indirizzo Design del gioiello)",
+      "target": "Studenti indirizzo Design del gioiello"
+    },
+    {
+      "titolo_attivita": "Attività didattiche con FISO",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso per le competenze trasversali e l'orientamento (Liceo Scientifico e Scientifico Sportivo)",
+      "target": "Studenti Liceo Scientifico e Scientifico Sportivo"
+    },
+    {
+      "titolo_attivita": "Tirocinio formativo attivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività con Università del Molise",
+      "target": "Ex alunni Liceo Scientifico Sportivo"
+    },
+    {
+      "titolo_attivita": "Supporto all'autonomia",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Aula dedicata con tecnologia assistiva",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Supporto sindrome autistica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Aula dedicata con specialisti ABA",
+      "target": "Alunni con sindrome autistica"
+    },
+    {
+      "titolo_attivita": "Formazione addetti al primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso tenuto dal dr. Aquino",
+      "target": "docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione BLSD (uso defibrillatore)",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Tecniche di rianimazione e utilizzo del defibrillatore",
+      "target": "docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione addetti prevenzione antincendio rischio alto 16 ore",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per 8 partecipanti",
+      "target": "docenti, personale ATA, A.T."
+    },
+    {
+      "titolo_attivita": "Modulo formazione RLS",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "docente referente/responsabile"
+    },
+    {
+      "titolo_attivita": "Modulo formazione ASPP",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "E-learning",
+      "target": "docenti, personale ATA, A.T."
+    },
+    {
+      "titolo_attivita": "Corso di aggiornamento tecnico-didattico per docenti di ed. fisica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti di scienze motorie"
+    },
+    {
+      "titolo_attivita": "Formazione per la digitalizzazione amministrativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Collaborazione nell’attuazione dei processi di innovazione",
+      "target": "DSGA, Dirigente scolastico, ATA, docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AVIS02400V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) dell'I.S. Paolo A. De Luca (AVIS02400V) per il triennio 2022-2025 dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 7. L'istituto, situato nel territorio non metropolitano di Avellino in Campania, si propone di fornire un'offerta formativa completa che tenga conto delle attitudini, degli interessi e del progetto di vita degli studenti, sebbene le finalità legate alle transizioni formative e allo sviluppo di capacità orientative per le opportunità future risultino meno sviluppate, con un punteggio di 2. L'attenzione alla riduzione dell'abbandono scolastico e alla continuità territoriale è discreta (punteggio 5), mentre l'impegno verso il lifelong learning è valutato positivamente (punteggio 4).\n\n### 2. Analisi Dimensionale\n\n**2.1 Partnership:** L'istituto vanta un network di collaborazioni con diversi soggetti, tra cui **Università**, **Associazioni culturali e sportive**, il **Comune**, **Centri Sportivi**, l'**Università del Molise**, **CREARTE** e **ASD Poseidon**, per un totale di 9 partnership. Questo approccio collaborativo è considerato un punto di forza, con un punteggio di 6.\n\n**2.2 Finalità:** Le finalità del PTOF si concentrano sullo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, ottenendo un punteggio di 5 per ciascuna di queste aree. Tuttavia, l'attenzione alle transizioni formative e allo sviluppo di capacità orientative per le opportunità future risulta meno marcata.\n\n**2.3 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'abbandono scolastico (punteggio 4), garantire la continuità territoriale (punteggio 5) e promuovere il lifelong learning (punteggio 4). L'impegno verso il contrasto alla dispersione scolastica e al fenomeno NEET appare meno prioritario (punteggio 1).\n\n**2.4 Azioni di Sistema:** Il PTOF prevede azioni di coordinamento tra i servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e un sistema integrato di inclusione e fragilità. Tutte queste azioni sono valutate positivamente, con punteggi che variano tra 4 e 5.\n\n**2.5 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 5), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 4) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.6 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende attività culturali, laboratoriali ed espressive (punteggio 5), sportive (punteggio 5), di volontariato (punteggio 4), mentre quelle ludiche e ricreative sono meno sviluppate (punteggio 2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di partnership con enti e associazioni del territorio, nell'attenzione allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, e nell'implementazione di azioni di sistema efficaci per l'inclusione e il monitoraggio. L'offerta di attività opzionali e facoltative, in particolare quelle culturali e sportive, rappresenta un valore aggiunto per gli studenti. Le attività **Servizio navetta scuola-Country sport**, **Progetto studente/atleta di alto livello**, **Certificazione EIPASS** e **Integrazione con il territorio** sono esempi concreti di iniziative orientate a potenziare l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano la scarsa attenzione alle transizioni formative e allo sviluppo di capacità orientative per le opportunità future, nonché la limitata priorità attribuita al contrasto alla dispersione scolastica e al fenomeno NEET. L'utilizzo di laboratori nella didattica orientativa potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le finalità e gli obiettivi del PTOF in relazione alle transizioni formative e allo sviluppo di competenze orientative per il futuro. È necessario implementare azioni mirate per contrastare la dispersione scolastica e il fenomeno NEET, e potenziare l'utilizzo di laboratori nella didattica orientativa.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.S. Paolo A. De Luca rappresenta un documento programmatico solido e ben strutturato, con un forte impegno verso l'orientamento e l'inclusione. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune individuate, rafforzando le finalità e gli obiettivi relativi alle transizioni formative e allo sviluppo di competenze orientative per il futuro. Le numerose attività proposte, come **PROGETTO VELA**, **PROGETTO SCI**, **Progettazione e realizzazione design del gioiello**, e le iniziative di **Formazione** per docenti e personale ATA, dimostrano un impegno concreto verso l'innovazione e la qualità dell'offerta formativa."
+}

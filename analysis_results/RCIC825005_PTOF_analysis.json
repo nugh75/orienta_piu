@@ -1,0 +1,304 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCIC825005",
+    "denominazione": "\"Marvasi Vizzone\"",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale, Tecnico",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Rosarno",
+    "anno_ptof": "2025-2028",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Duomo. 8",
+    "cap": "89025",
+    "email": "rcic825005@istruzione.it",
+    "pec": "rcic825005@pec.istruzione.it",
+    "website": "icmarvasivizzone.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "AICA",
+        "British Institute",
+        "Ente Parco d'Aspromonte",
+        "museo di Medma",
+        "mediateca FaRo",
+        "enti locali",
+        "associazioni sportive",
+        "biblioteche",
+        "Regione Calabria",
+        "USR",
+        "Unical",
+        "Invalsi",
+        "Protezione civile",
+        "organizzazioni del terzo settore",
+        "Sport e Salute S.p.A.",
+        "CONI",
+        "CIP",
+        "Federazioni Sportive Nazionali",
+        "Università Cosenza",
+        "CE. S. E.S.C.",
+        "Università Carlo Bo di Urbino",
+        "ASL",
+        "Servizi socio-sanitari",
+        "associazioni di volontariato"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 6
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Educazione alla legalità",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Attività relative a educazione alla legalità",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Integrazione sociale",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Occasioni di integrazione sociale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Supporto alunni stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto per l'integrazione alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Laboratori 'Prove INVALSI'",
+      "categoria_principale": "Potenziamento competenze base",
+      "descrizione_e_metodologia": "Moduli extracurricolari di Italiano e Matematica basati sulla didattica per problemi e sul close reading.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English/L2 Empowerment",
+      "categoria_principale": "Potenziamento competenze linguistiche",
+      "descrizione_e_metodologia": "Potenziamento linguistico finalizzato al conseguimento di certificazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti - Metodologie didattiche digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop pratici sulla transizione digitale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento del Metodo di Studio",
+      "categoria_principale": "Monitoraggio e valutazione",
+      "descrizione_e_metodologia": "Definizione di indicatori di qualità per misurare l'impatto dei progetti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "RECAPP CAL",
+      "categoria_principale": "Potenziamento competenze base",
+      "descrizione_e_metodologia": "Nuovo approccio metodologico didattico e motivazionale per migliorare le competenze di base.",
+      "target": "Studenti classe II B scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "English/L2 Empowerment",
+      "categoria_principale": "Potenziamento competenze linguistiche",
+      "descrizione_e_metodologia": "Potenziamento linguistico finalizzato al conseguimento di certificazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione docenti - Metodologie didattiche digitali",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Workshop pratici sulla transizione digitale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Campionati Internazionali dei giochi matematici",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Serie di incontri con problemi di logica e matematica, peer tutoring.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Scelgo io, un passo in più",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di riflessione guidata, ricerca sul territorio, uscite didattiche, attività CLIL.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "In cammino verso domani",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorso di riflessione guidata, ricerca sul territorio, uscite didattiche, attività CLIL.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto Sport e salute - Scuola Attiva Kids",
+      "categoria_principale": "Sport e salute",
+      "descrizione_e_metodologia": "Organizzazione e monitoraggio di attività sportive, collaborazione con Federazioni Sportive Nazionali.",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Partecipazione a Europe Code Week",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività di coding e programmazione",
+      "target": "Alunni Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Introduzione del coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo di software dedicati",
+      "target": "Alunni Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Latte nelle Scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Degustazioni guidate e educazione alimentare",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Frutta nelle scuole",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Promozione consumo frutta e verdura",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto propedeutico di formazione e orientamento allo strumento musicale Clarinetto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Approccio consapevole al linguaggio musicale",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Coordinamento attività di compensazione, integrazione, recupero, potenziamento",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento e programmazione interventi",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incontri con la comunità di origine migrante",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Momenti di incontro e dialogo",
+      "target": "Alunni stranieri e famiglie"
+    },
+    {
+      "titolo_attivita": "Aggiornamento sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi antincendio, primo soccorso, etc.",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Potenziamento competenze digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione PNSD",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Didattica STEM e IA",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su didattica innovativa",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Organizzazione UDA",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gestione BES",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione inclusione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Competenze civiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Prevenzione bullismo",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCIC825005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo “Marvasi Vizzone” (RCIC825005) per il triennio 2025-2028. L'istituto, situato nel territorio metropolitano di Rosarno, in provincia di Reggio Calabria e regione Calabria, si configura come un comprensivo che abbraccia i gradi di scuola dell'infanzia, primaria, secondaria di primo e secondo grado, oltre a corsi professionali e tecnici. La presenza di una sezione dedicata all'orientamento, valutata con un punteggio di 7, indica un'attenzione significativa a questo aspetto cruciale del percorso formativo. L'istituto dimostra una forte propensione alla collaborazione esterna, come evidenziato dalla vasta rete di **partner** coinvolti, che include enti come **AICA**, **British Institute**, **Ente Parco d'Aspromonte**, **museo di Medma**, **mediateca FaRo**, **enti locali**, **associazioni sportive**, **biblioteche**, **Regione Calabria**, **USR**, **Unical**, **Invalsi**, **Protezione civile**, **organizzazioni del terzo settore**, **Sport e Salute S.p.A.**, **CONI**, **CIP**, **Federazioni Sportive Nazionali**, **Università Cosenza**, **CE. S. E.S.C.**, **Università Carlo Bo di Urbino**, **ASL**, **Servizi socio-sanitari** e **associazioni di volontariato**.\n\n### 2. Analisi Dimensionale\n\nLa pianificazione dell'orientamento si articola su diverse dimensioni. Per quanto riguarda le **finalità**, l'istituto mostra un buon livello di attenzione allo sviluppo delle **attitudini** (punteggio 5), degli **interessi** (punteggio 5), del **progetto di vita** (punteggio 6), delle **transizioni formative** (punteggio 5) e delle **capacità orientative** per cogliere le **opportunità** (punteggio 6). Gli **obiettivi** delineati mirano a ridurre l'**abbandono scolastico** (punteggio 5), a favorire la continuità con il **territorio** (punteggio 6), a contrastare il fenomeno dei **NEET** (punteggio 3), e a promuovere il **lifelong learning** (punteggio 5). Le **azioni di sistema** implementate si concentrano sul **coordinamento dei servizi** (punteggio 5), sul **dialogo tra docenti e studenti** (punteggio 5), sul **rapporto scuola-genitori** (punteggio 5), sul **monitoraggio delle azioni** intraprese (punteggio 5) e sulla creazione di un **sistema integrato di inclusione e gestione delle fragilità** (punteggio 5). L'approccio didattico orientativo si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 5), sulla **didattica laboratoriale** (punteggio 5), sulla flessibilità degli **spazi e dei tempi** (punteggio 4) e sull'**interdisciplinarità** (punteggio 5). Infine, l'offerta di **attività opzionali e facoltative** comprende opzioni **culturali** (punteggio 4), **laboratoriali ed espressive** (punteggio 5), **ludiche e ricreative** (punteggio 4), di **volontariato** (punteggio 4) e, in particolare, **sportive** (punteggio 6).\n\n### 3. Punti di Forza\n\nUn punto di forza significativo è la vasta gamma di **partnership** attivate, che consentono di ampliare l'offerta formativa e di connettere la scuola con il mondo del lavoro e del territorio. L'istituto dimostra un impegno concreto nell'offrire attività diversificate, come evidenziato dal registro delle attività, che include iniziative di **educazione alla legalità**, **integrazione sociale**, **supporto agli alunni stranieri**, **laboratori INVALSI**, **potenziamento linguistico**, **formazione docenti**, **potenziamento del metodo di studio**, **RECAPP CAL**, **campionati di giochi matematici**, **progetti di orientamento** come \"**Scelgo io, un passo in più**\" e \"**In cammino verso domani**\", **attività sportive** con **Progetto Sport e salute - Scuola Attiva Kids**, **iniziative digitali** come **Europe Code Week** e **introduzione del coding**, **educazione alimentare** con \"**Latte nelle Scuole**\" e \"**Frutta nelle scuole**\", **progetti musicali** come \"**Progetto propedeutico di formazione e orientamento allo strumento musicale Clarinetto**\", e attività di **inclusione** e **formazione** per docenti e personale ATA.\n\n### 4. Aree di Debolezza\n\nL'obiettivo di contrastare il fenomeno dei **NEET** (punteggio 3) appare meno sviluppato rispetto alle altre aree, suggerendo la necessità di potenziare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani. La flessibilità degli **spazi e dei tempi** nella didattica orientativa (punteggio 4) potrebbe essere ulteriormente ottimizzata per rispondere in modo più efficace alle esigenze individuali degli studenti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità e gli obiettivi dichiarati in azioni concrete e misurabili, con particolare attenzione alla prevenzione della dispersione scolastica e all'orientamento al lavoro. È fondamentale rafforzare il collegamento tra le attività di orientamento e le **competenze chiave** richieste dal mercato del lavoro, promuovendo la collaborazione con le aziende e gli enti del territorio.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo “Marvasi Vizzone” presenta una solida base per lo sviluppo di un'efficace azione di orientamento. La vasta rete di **partnership**, la diversificazione delle attività proposte e l'attenzione alle esigenze degli studenti rappresentano punti di forza significativi. Tuttavia, è necessario potenziare le azioni volte a contrastare il fenomeno dei **NEET** e a garantire una maggiore flessibilità nella didattica orientativa, al fine di offrire un servizio sempre più completo e personalizzato. Il monitoraggio costante delle attività e la valutazione dei risultati ottenuti saranno fondamentali per garantire il successo del PTOF e per migliorare continuamente l'offerta formativa dell'istituto."
+}

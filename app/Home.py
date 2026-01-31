@@ -12,6 +12,13 @@ st.markdown("**Analisi e Valutazione dei PTOF delle Scuole Italiane**")
 
 st.markdown("---")
 
+# === ALERT OPERATIVO ===
+st.error("""
+⚠️ **NOTA PER LO SVILUPPO**:
+Ricordarsi di eseguire lo script di pulizia dei codici alla fine dei cicli di download/analisi!
+Comando: `make clean-ptof-codes` (dry-run) poi `make clean-ptof-codes-apply`.
+""")
+
 # === COSA FA LA PIATTAFORMA ===
 st.markdown("""
 ### Cosa fa la piattaforma
@@ -25,8 +32,8 @@ Inoltre, il sistema elabora una **categorizzazione delle attività** (consultabi
 
 col_btn1, col_btn2 = st.columns(2)
 with col_btn1:
-    if st.button("📊 Vai alla Dashboard di Sintesi"):
-        switch_page("pages/03_Sintesi.py")
+    if st.button("📊 Vai alla Dashboard KPI"):
+        switch_page("pages/03_KPI.py")
 with col_btn2:
     if st.button("ℹ️ Vai al Campionamento"):
         switch_page("pages/01_Campionamento.py")
@@ -248,7 +255,7 @@ Per esplorare i dati raccolti, la piattaforma offre quattro strumenti principali
 st.markdown("---")
 
 st.markdown("""
-### 📈 Sintesi (Dashboard)
+### 📈 KPI (Dashboard)
 Il punto di partenza per una visione d'insieme.
 *   **Cosa mostra**: I KPI principali, l'Indice di Completezza medio nazionale e la distribuzione dei punteggi.
 *   **Variabili**: Permette di filtrare rapidamente per **Macro-area, Regione e Livello Scolastico** per ottenere un primo spaccato dei dati.

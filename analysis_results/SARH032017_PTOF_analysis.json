@@ -1,0 +1,212 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SARH032017",
+    "denominazione": "Ipseoa Castelnuovo Cilento",
+    "tipo_scuola": "I Grado, Liceo, Primaria, Tecnico",
+    "ordine_grado": "I Grado, II Grado, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Castelnuovo Cilento",
+    "anno_ptof": "2025/2028",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Nazionale Loc. Pantana",
+    "cap": "84040",
+    "email": "sais032003@istruzione.it",
+    "pec": "ND",
+    "website": "www.iisancelkeys.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione orientamento, Presente analisi del contesto per l'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti DSA/BES"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti",
+      "target": "Studenti classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione dati MiAssumo",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Teams",
+      "target": "Studenti classe III e IV"
+    },
+    {
+      "titolo_attivita": "Progetto Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con Polizia Cantonale",
+      "target": "Liceo I e II"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente esterno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con rappresentanti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SARH032017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ipseoa Castelnuovo Cilento** (SARH032017) per il triennio 2025/2028. La scuola, situata in Campania e operante su diversi gradi scolastici (I Grado, II Grado, Primaria, Tecnico), dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e dall'analisi del contesto per l'inclusione. L'istituto si avvale di un ampio spettro di partnership, sia a livello locale che internazionale, per arricchire l'offerta orientativa. L'analisi dei punteggi attribuiti alle diverse dimensioni dell'orientamento rivela un quadro complessivamente positivo, con alcune aree che necessitano di ulteriore sviluppo.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un network di 15 partner, tra cui **LAC**, **Museo in Erba**, **Polizia Cantonale**, **Croce Rossa**, diverse università italiane e straniere (tra cui **Università Bocconi**, **Università della Svizzera Italiana**, **ESADE di Barcellona**, **University of Dublin**, **Luiss Roma**) e specialisti esterni come **logopedisti, ergoterapisti, psicologi e neuropsichiatri**. Questo ampio ventaglio di collaborazioni rappresenta una risorsa preziosa per l'implementazione di attività orientative diversificate e mirate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle attitudini, degli interessi e del progetto di vita degli studenti, nonché alla facilitazione delle transizioni formative. Il punteggio di 3 attribuito a ciascuna di queste finalità indica un impegno costante, sebbene con margini di miglioramento nella definizione di obiettivi specifici e misurabili. La finalità relativa allo sviluppo delle capacità orientative per cogliere le opportunità risulta leggermente meno sviluppata, con un punteggio di 2.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale e sul contrasto al fenomeno NEET. L'obiettivo di promuovere il lifelong learning riceve un punteggio leggermente superiore. Tuttavia, i punteggi complessivi (compresi tra 1 e 2) suggeriscono la necessità di definire obiettivi più ambiziosi e concreti.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF per l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni ricevono un punteggio di 4, evidenziando un approccio sistemico e collaborativo.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. I punteggi variano tra 2 e 3, suggerendo un buon livello di implementazione, ma con la possibilità di potenziare l'aspetto laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende opzioni culturali e laboratoriali-espressive, con un punteggio di 3 per entrambe. Le opzioni ludico-ricreative e sportive sono meno sviluppate, con punteggi di 0 e 1 rispettivamente, mentre il volontariato ottiene un punteggio di 1.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampio network di partnership, nell'approccio sistemico alle azioni di orientamento e nell'attenzione all'inclusione. Le attività come **Sportello supporto DSA/BES** e **Progetto 'MiOriento'** dimostrano un impegno concreto verso il supporto degli studenti con bisogni educativi speciali e l'avvio del percorso orientativo fin dalle prime classi. L'utilizzo di piattaforme online come **MiAssumo** e la **Chat Orientamento** rappresentano un'innovazione positiva.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la definizione di obiettivi più ambiziosi e misurabili, lo sviluppo delle capacità orientative per cogliere le opportunità e il potenziamento dell'offerta di opzionali ludico-ricreative e sportive. La partnership con **Ufo Saronno** e il **Progetto Visione Giovani** sono validi, ma potrebbero essere integrati maggiormente con altre iniziative.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi generali in azioni concrete e misurabili. È necessario definire indicatori di performance specifici per valutare l'efficacia delle attività orientative e monitorare i progressi degli studenti. Inoltre, è importante ampliare l'offerta di opzionali e attività facoltative, in modo da soddisfare gli interessi e le attitudini di tutti gli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Ipseoa Castelnuovo Cilento dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un ampio potenziale di sviluppo. Sfruttando al meglio le partnership esistenti, definendo obiettivi più ambiziosi e ampliando l'offerta di attività, la scuola può rafforzare ulteriormente il proprio ruolo nel supportare gli studenti nel loro percorso di crescita personale e professionale. L'implementazione del **Curriculum dello Studente** in connessione con i dati di **MiAssumo** rappresenta un passo importante verso la personalizzazione dell'orientamento."
+}

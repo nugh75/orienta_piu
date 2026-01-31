@@ -1,0 +1,250 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCRH016503",
+    "denominazione": "Ipsar Condofuri - Corso Serale",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Condofuri",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Contrada Monoscalco Snc",
+    "cap": "89035",
+    "email": "rcis01600e@istruzione.it",
+    "pec": "ND",
+    "website": "wwwiseuclide.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento. Le attività di orientamento sono integrate in altre iniziative."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione al patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "visite aziendali",
+      "categoria_principale": "orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e sensibilizzazione al riutilizzo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pratiche sportive per sviluppo psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole smartphone e app",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione in collaborazione con UMI e Scuola Normale Superiore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di Informatica con AIICA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale con AIF e preparazione",
+      "target": "Classi 3, 4, 5"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Organizzati da SCI, problem solving",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione test ammissione facoltà STEM",
+      "target": "Classi 4 e 5"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Collaborazione con ASL su primo soccorso, alimentazione, dipendenze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso Enti, Associazioni e Aziende del territorio. Durata circa 60 ore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Questionario di valutazione (Customer satisfaction)",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Compilazione questionario da parte dello studente sull'attività svolta.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti I e II grado",
+      "categoria_principale": "Curricolo e competenze",
+      "descrizione_e_metodologia": "Scambio proficuo tra docenti su competenze, contenuti e metodologie.",
+      "target": "Docenti di Matematica e Scienze"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Somministrazione prove in Matematica e Scienze per identificare difficoltà.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Attuazione precoce moduli su metodo di studio e competenze base.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Acquisto LIM e attrezzature laboratoriali, formazione ICT.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCRH016503\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ipsar Condofuri - Corso Serale** (school_id: RCRH016503) per il triennio 2022-2025. L'istituto, situato in **Calabria** e operante nell'area **metropolitana** del comune di **Condofuri**, si configura come un istituto **statale** di istruzione **secondaria di secondo grado**. L'analisi si basa sui dati forniti, evidenziando punti di forza, aree di debolezza e possibili gap da colmare per ottimizzare l'efficacia delle attività di orientamento. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, le attività sono integrate in altre iniziative scolastiche.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF è compensata dall'integrazione di attività specifiche all'interno di altre iniziative. Questo approccio, pur non formalizzando un'area tematica autonoma, permette di permeare l'offerta formativa con elementi orientativi.\n\n**2.2 Partnership:**\n\nLa scuola vanta un elevato numero di **partnership** (12), che rappresentano un punto di forza significativo. Tra i partner figurano **aziende locali**, **enti**, diverse **attività lavorative**, il **FAI**, **associazioni di volontariato** del **terzo settore**, **personalità cristiane**, **Special Olympics**, l'**Università di Firenze**, associazioni e aziende della provincia di **Pistoia**, **EDUSCOPIO** e la **Fondazione Agnelli**. Questa rete di collaborazioni offre agli studenti opportunità di contatto con il mondo del lavoro e del volontariato, ampliando i loro orizzonti e favorendo l'orientamento.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, come definite nel PTOF, sono ben definite e ambiziose. Si attribuisce un punteggio elevato (6) allo sviluppo di **attitudini**, **interessi** e alla progettazione del **progetto di vita**, nonché alla preparazione alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le **opportunità** offerte dal territorio. Il punteggio di 5 per la finalità relativa al progetto di vita indica un'area di potenziale miglioramento.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento presentano una variabilità di punteggi. L'obiettivo di ridurre l'**abbandono** scolastico e contrastare il fenomeno dei **NEET** riceve un punteggio di 3, suggerendo la necessità di un maggiore impegno in questa direzione. Più elevati sono i punteggi per la continuità territoriale (6) e il **lifelong learning** (5), indicando una buona attenzione alla preparazione degli studenti per il futuro.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema per l'orientamento mostrano un punteggio variabile. Il **coordinamento dei servizi** e il **dialogo tra docenti e studenti** ricevono un punteggio di 6, evidenziando l'importanza attribuita alla comunicazione e alla collaborazione. Il **rapporto scuola-genitori** e il **monitoraggio delle azioni** ottengono un punteggio di 4, mentre il **sistema integrato inclusione-fragilità** un punteggio di 3, suggerendo aree di miglioramento nella sinergia tra i diversi attori coinvolti e nella valutazione dell'efficacia delle iniziative.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti** (punteggio 6) e la **flessibilità degli spazi e dei tempi** (punteggio 5). L'utilizzo della **didattica laboratoriale** riceve un punteggio di 3, indicando un'area di potenziale sviluppo. La **didattica interdisciplinare** è ben valutata con un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata e ben strutturata. Le opzionali **culturali** e **laboratoriali-espressive** ricevono un punteggio elevato (6 e 7 rispettivamente), mentre quelle **ludico-ricreative** un punteggio di 1, suggerendo una minore attenzione a questo aspetto. Le opzionali di **volontariato** e **sportive** ottengono un punteggio di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la vasta rete di **partnership** con enti, aziende e associazioni, la chiarezza delle **finalità** orientative e l'attenzione all'apprendimento basato sull'**esperienza degli studenti**. L'offerta di attività opzionali diversificate rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano l'assenza di una sezione dedicata all'orientamento nel PTOF, i punteggi relativamente bassi per gli obiettivi di riduzione dell'**abbandono** e contrasto al fenomeno dei **NEET**, e la necessità di rafforzare il **monitoraggio delle azioni** e il **sistema integrato inclusione-fragilità**.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una formalizzazione dell'orientamento come area tematica autonoma all'interno del PTOF. Questo potrebbe limitare la visibilità e la coerenza delle iniziative orientative. Inoltre, è necessario potenziare le azioni volte a ridurre l'abbandono scolastico e a favorire l'inserimento lavorativo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Ipsar Condofuri - Corso Serale presenta un approccio all'orientamento integrato e orientato alla pratica, supportato da una solida rete di **partnership**. Pur evidenziando alcune aree di debolezza, il documento dimostra un impegno significativo nella preparazione degli studenti per il futuro, sia in termini di **formazione** che di **inserimento nel mondo del lavoro**. Un'ulteriore formalizzazione dell'orientamento all'interno del PTOF e un maggiore focus sulla riduzione dell'abbandono scolastico potrebbero contribuire a ottimizzare l'efficacia delle iniziative e a garantire un futuro migliore per gli studenti. Le attività come **visite aziendali**, **sensibilizzazione al patrimonio monumentale**, **formazione volontari Special Olympics** e **PCTO** rappresentano esempi concreti di come l'istituto si impegna a fornire un'offerta formativa completa e orientata alle esigenze del territorio."
+}

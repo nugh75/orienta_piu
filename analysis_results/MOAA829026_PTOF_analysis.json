@@ -1,0 +1,307 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOAA829026",
+    "denominazione": "S. Carlo Borromeo",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Sassuolo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Marco 48",
+    "cap": "41049",
+    "email": "moic829008@istruzione.it",
+    "pec": "moic84700t@pec.istruzione.it",
+    "website": "www.ic2sassuolonord.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Multi Centro Educativo Modena",
+        "FEM - Future Education Modena",
+        "Fondazione Cassa di Risparmio"
+      ],
+      "partnership_count": 8
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Servizio post-scuola al Magico Mundo",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Laboratori creativi e di lingua inglese",
+      "target": "Alunni classi 3^ e 4^ primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Raccordo anni-ponte, curricolare e valutativo",
+      "target": "Alunni delle sezioni e classi"
+    },
+    {
+      "titolo_attivita": "Mi muovo e imparo a stare con gli altri",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Progetto motorio con esperti del CSI di Modena.",
+      "target": "Bambini 3/4/5 anni"
+    },
+    {
+      "titolo_attivita": "Emozioni in parole",
+      "categoria_principale": "Socio-Emotiva",
+      "descrizione_e_metodologia": "Intervento di esperti di teatro e danza.",
+      "target": "Bambini 3/4/5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto Ologramma – Musica per l’inclusione",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Percorso di musica condotto da docenti.",
+      "target": "Classi prime e quarte scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Sportello di assistenza psicologica e/o pedagogica",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Consulenze individuali e interventi di classe.",
+      "target": "Alunni, genitori, docenti, personale ATA"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Supporto per alunni non italofoni.",
+      "target": "Alunni non italofoni"
+    },
+    {
+      "titolo_attivita": "Pon di educazione motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Pratiche motorie e sportive.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Giornalino",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Redazione collaborativa di alunni, genitori e personale scolastico.",
+      "target": "Tutte le classi della scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coding “Caccia al tesoro in Cittadella con il coding”",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività legate alla logica e creatività.",
+      "target": "Classi seconde e terze scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Natale in piazza",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Canto corale per promuovere l'inclusione.",
+      "target": "Tutte le classi della scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Io leggo perché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Stimolare la passione per la lettura.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Pon teatro",
+      "categoria_principale": "Teatrale",
+      "descrizione_e_metodologia": "Laboratorio teatrale per migliorare la comunicazione.",
+      "target": "Classi seconde, terze e quarte scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Inglese extracurricolare",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Potenziamento competenze lingua inglese.",
+      "target": "25 alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di potenziamento della lingua inglese “Let’s study”",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Potenziare la padronanza della L2.",
+      "target": "Tutte le classi della scuola Primaria"
+    },
+    {
+      "titolo_attivita": "In sella alla vita 2",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Attività laboratoriali di equitazione.",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "Pon differenze di genere",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "Percorso sull’identità di genere.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Play4Stem",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Attività digitali per promuovere le STEM.",
+      "target": "Alunni classi 5^ primaria"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Transizione",
+      "descrizione_e_metodologia": "Percorsi verticali per facilitare il passaggio tra ordini di scuola.",
+      "target": "Alunni in uscita"
+    },
+    {
+      "titolo_attivita": "Progetto CCRR",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Campagna elettorale, ideazione progetti, elezione consigliere, iniziativa al Consiglio Comunale.",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Scuola in ospedale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "DAD, PC e connettività in comodato d'uso.",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Istruzione domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetto strutturato e flessibile, DAD.",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Assemblee di classe",
+      "categoria_principale": "Autonomia",
+      "descrizione_e_metodologia": "Discussione autonomia, gestione tempo/materiale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Tematica inclusiva",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Progetto Musica Scuola Secondaria S. Carlo",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione musicale (teoria e strumento) in orario extrascolastico.",
+      "target": "Alunni scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Screening disturbi apprendimento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Individuazione precoce disturbi apprendimento classi iniziali primaria e secondaria.",
+      "target": "Alunni classi iniziali"
+    },
+    {
+      "titolo_attivita": "Formazione personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Potenziamento metodologie laboratoriali, LIM, competenze digitali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione base e aggiornamento figure di sistema (prevenzione incendi, primo soccorso).",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Formazione privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione su normativa privacy.",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Incontri individuali con i docenti",
+      "categoria_principale": "Rapporto Scuola-Famiglia",
+      "descrizione_e_metodologia": "Condivisione scelte interventi inclusivi",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Incontri con docenti, SNPI e Servizi Sociali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Monitoraggio processi e individuazione azioni",
+      "target": "Alunni con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOAA829026\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto S. Carlo Borromeo, scuola dell'infanzia situata nel territorio non metropolitano di Sassuolo (Modena), Emilia Romagna. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la coerenza, l'efficacia potenziale e le aree di miglioramento. Il PTOF 2022-2025 dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata e una rete di **partnership** consolidate. L'istituto pone particolare attenzione alla **progettazione della vita** degli studenti e alle **transizioni formative**, con un punteggio elevato in queste aree.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che indica un'attenzione prioritaria a questo aspetto.\n\n**2.2 Partnership:** L'istituto vanta una solida rete di collaborazioni, con 8 partnership attive, tra cui **Multi Centro Educativo Modena**, **FEM - Future Education Modena** e la **Fondazione Cassa di Risparmio**. Questo network supporta le attività di orientamento e offre opportunità di arricchimento per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con un punteggio di 5 per la **progettazione della vita** degli studenti. Buoni risultati anche per gli **interessi** (4) e le **transizioni formative** (4), mentre le **attitudini** (3) e le **capacità orientative** (4) presentano margini di miglioramento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in ambito orientamento sono focalizzati sulla riduzione dell'**abbandono** scolastico (4), sulla continuità con il territorio (4), sul contrasto alla dispersione scolastica (3) e sulla promozione del **lifelong learning** (3).\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il coordinamento dei servizi (4), il dialogo tra docenti e studenti (4), il rapporto scuola-genitori (5), il monitoraggio delle azioni (3) e un sistema integrato di inclusione e supporto alle fragilità (4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (4), sull'utilizzo di laboratori (3), sulla flessibilità degli spazi e dei tempi (3) e sull'approccio interdisciplinare (4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludiche, di volontariato e sportive, tutte con un punteggio di 3, suggerendo un'offerta diversificata ma con potenziale di approfondimento.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership** e nell'attenzione alla **progettazione della vita** degli studenti. Il forte coinvolgimento dei genitori e il coordinamento dei servizi interni ed esterni rappresentano ulteriori elementi positivi. Le attività registrate, come il **Progetto Continuità** e lo **Sportello di assistenza psicologica**, dimostrano un impegno concreto verso il benessere e l'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente lo sviluppo delle **attitudini** degli studenti e la promozione del **lifelong learning**. Il monitoraggio delle azioni di orientamento potrebbe essere potenziato per garantire una valutazione più accurata dell'efficacia delle iniziative. Anche l'offerta di attività opzionali, pur diversificata, potrebbe beneficiare di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità e gli obiettivi in azioni concrete e misurabili, con particolare attenzione allo sviluppo delle **attitudini** e alla promozione del **lifelong learning**. È necessario rafforzare il monitoraggio delle attività e valutare l'impatto delle **partnership** sulla qualità dell'orientamento offerto.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto S. Carlo Borromeo presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. L'istituto dimostra un impegno significativo verso il benessere e la crescita degli studenti, con una rete di **partnership** consolidata e una serie di attività mirate. Concentrando gli sforzi sul potenziamento delle aree di debolezza e colmando i gap identificati, l'istituto potrà garantire un servizio di orientamento ancora più efficace e in linea con le esigenze del territorio e degli studenti. Attività come **Io leggo perché** e **Progetto Musica Scuola Secondaria S. Carlo** contribuiscono a creare un ambiente stimolante e inclusivo."
+}

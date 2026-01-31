@@ -1,0 +1,217 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAMM8AM018",
+    "denominazione": "Vico 2 I.C. Caulino Vico Equens",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Vico Equense",
+    "anno_ptof": "2025/2028",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via R. Bosco 539",
+    "cap": "80060",
+    "email": "naic8am007@istruzione.it",
+    "pec": "ND",
+    "website": "www.istititutocomprensivocaulino.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Ufo Saronno",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto metodo studio",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Personale specializzato per BES/DSA",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo inviato alle famiglie",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online per studenti",
+      "target": "Studenti classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con Banca d'Italia",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Connessione informazioni MiAssumo",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Chat Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Teams",
+      "target": "Studenti classe III e IV"
+    },
+    {
+      "titolo_attivita": "Progetto Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative con Polizia Cantonale",
+      "target": "Liceo I e II"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con ente esterno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con referenti universitari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto all’allievo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetti inerenti DSA e BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coordinamento progetti, raccordo con specialisti",
+      "target": "Alunni BES/DSA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAMM8AM018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Caulino Vico Equense (codice scuola NAMM8AM018) per il triennio 2025/2028. L'istituto, di I grado, situato nel territorio metropolitano della regione Campania, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo elevato nelle diverse dimensioni analizzate. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi, del progetto di vita degli studenti, alla facilitazione delle transizioni formative e alla fornitura di strumenti per orientarsi nelle opportunità. Si riscontra un forte orientamento alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione NEET e, sebbene in misura minore, al lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, indicando un'attenzione strutturale a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di partnership, ben 15, che spaziano da enti locali come **LAC** e **Museo in Erba**, a forze dell'ordine come la **Polizia Cantonale**, fino a prestigiose istituzioni universitarie italiane e internazionali quali **Università Bocconi**, **Università della Svizzera Italiana**, **Accademia di Architettura di Mendrisio**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College** ed **Edimburgh University**. Questa rete di collaborazioni rappresenta un valore aggiunto significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita degli studenti, il supporto alle transizioni formative e l'acquisizione di capacità orientative per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi delineati mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale e a contrastare il fenomeno dei NEET. L'attenzione al lifelong learning, pur presente, risulta meno marcata rispetto agli altri obiettivi.\n\n**2.5 Azioni di Sistema:** Il sistema di orientamento si basa su un coordinamento efficace dei servizi, un dialogo aperto tra docenti e studenti, un rapporto costruttivo con le famiglie e un monitoraggio costante delle azioni intraprese. Particolare attenzione è rivolta all'integrazione delle attività orientative con i sistemi di inclusione e supporto alla fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si caratterizza per l'utilizzo di metodologie esperienziali, laboratoriali, flessibili e interdisciplinari, favorendo un approccio attivo e coinvolgente da parte degli studenti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, ampliando le opportunità di crescita e scoperta degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** instaurate con enti e istituzioni di rilievo, sia a livello locale che internazionale. Questa rete offre agli studenti un'ampia gamma di opportunità di contatto con il mondo del lavoro e dell'istruzione superiore. L'attenzione alla didattica esperienziale e laboratoriale, unitamente alla diversificazione dell'offerta di attività opzionali, contribuisce a rendere l'orientamento un processo attivo e coinvolgente. L'integrazione con i sistemi di inclusione e supporto alla fragilità dimostra un'attenzione particolare alle esigenze di tutti gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella minore enfasi posta sul **lifelong learning**, che potrebbe essere ulteriormente sviluppato per preparare gli studenti ad affrontare le sfide di un mondo del lavoro in continua evoluzione.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, sarebbe auspicabile un maggiore approfondimento delle strategie per il monitoraggio e la valutazione dell'efficacia delle azioni orientative intraprese. Un'analisi più dettagliata dei risultati ottenuti consentirebbe di identificare eventuali gap e di apportare le necessarie modifiche per migliorare l'offerta orientativa.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Caulino Vico Equense dimostra un forte impegno verso l'orientamento, con una sezione dedicata, una vasta rete di partnership e un'offerta didattica diversificata. I punti di forza superano le aree di debolezza, e l'istituto si presenta come un modello virtuoso di orientamento scolastico. Un ulteriore approfondimento delle strategie di monitoraggio e valutazione consentirebbe di ottimizzare l'efficacia delle azioni intraprese e di garantire un futuro di successo per tutti gli studenti. Le attività come **Progetto 'MiOriento'**, **Progetto 'MiAssumo'**, **Percorso Competenze Trasversali** e **Curriculum dello Studente** sono elementi chiave per un orientamento efficace."
+}

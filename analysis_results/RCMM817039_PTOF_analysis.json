@@ -1,0 +1,220 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCMM817039",
+    "denominazione": "Sc. Sec. Di 1' Grado (Cosoleto)",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Cosoleto",
+    "anno_ptof": "2022-2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cesare Battisti",
+    "cap": "89050",
+    "email": "rcic817006@istruzione.it",
+    "pec": "ND",
+    "website": "icdelianuova.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 7,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma piuttosto una serie di attività sparse all'interno del documento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "Associazioni, Enti e Aziende della Provincia di Pistoia",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 100
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e dei consumi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pratiche sportive per sviluppo psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole di smartphone e app",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO stages presso Aziende/Enti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stages di 60 ore, certificazione da parte dell'azienda, questionario di valutazione",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "PCTO attività didattica collegata",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Collegamento stages ad attività curriculari/extracurriculari",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti di Matematica e Scienze",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Incontri curricolari e didattici tra docenti di I e II grado.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Somministrazione prove in Matematica e Scienze.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Moduli su metodo di studio e competenze base.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Acquisto LIM e attrezzature laboratoriali.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCMM817039\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della Scuola Secondaria di I Grado “Cosoleto” (RCMM817039), relativo al triennio 2022-2025. La scuola, situata in Calabria, si configura come istituto statale operante in un contesto territoriale metropolitano. L'analisi evidenzia una presenza diffusa di attività orientative, sebbene non formalizzate in una sezione specifica del PTOF. Si riscontra un impegno significativo nella creazione di **partnership** con diversi soggetti del territorio e un'attenzione alle finalità dell'orientamento, quali lo sviluppo di attitudini, interessi e la progettazione del futuro percorso di vita degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela che il PTOF non prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7. Le attività in questo ambito sono integrate in diverse parti del documento.\n\n**2.2 Partnership:** La scuola dimostra un'elevata capacità di instaurare **partnership** con un ampio ventaglio di soggetti, tra cui **aziende locali**, **enti**, diverse **attività lavorative**, il **FAI**, **associazioni di volontariato** del **terzo settore**, **personalità cristiane**, **Special Olympics**, l'**Università di Firenze**, **associazioni, enti e aziende della provincia di Pistoia**, **EDUSCOPIO** e la **Fondazione Agnelli**. Il numero di partner coinvolti è elevato, raggiungendo un punteggio di 5.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate in modo adeguato, con punteggi di 6 per lo sviluppo di **attitudini** e **interessi**, 5 per la **progettazione del percorso di vita** e 6 per la preparazione alle **transizioni formative** e lo sviluppo delle **capacità orientative** rispetto alle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF mostrano una variabilità. L'obiettivo di ridurre l'**abbandono** scolastico ottiene un punteggio di 3, mentre la promozione della continuità territoriale e il contrasto alla dispersione scolastica (NEET) raggiungono un punteggio di 5 e 3 rispettivamente. L'attenzione al **lifelong learning** è valutata con un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**. Queste azioni ottengono punteggi variabili, tra 3 e 5, indicando un'implementazione non uniforme. Viene inoltre evidenziata l'importanza di un **sistema integrato di inclusione e fragilità**, con un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla flessibilità degli **spazi e dei tempi** e sull'approccio **interdisciplinare**. Queste metodologie didattiche ottengono punteggi compresi tra 4 e 6.\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali comprende moduli **culturali**, **laboratoriali ed espressivi**, **ludico-ricreativi**, di **volontariato** e **sportivi**, con punteggi che variano da 3 a 6.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle attività proposte, in particolare quelle legate alla **partnership** con il territorio. Attività come **\"Sensibilizzazione patrimonio monumentale\"**, **\"Visite aziendali\"**, **\"Incontri con professionisti\"**, **\"Formazione volontari Special Olympics\"** e **\"Incontri con ex-studenti\"** dimostrano un impegno concreto nell'esporre gli studenti a diverse realtà e opportunità. L'offerta di **PCTO stages** presso aziende ed enti, con relativa certificazione e valutazione, rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene le attività siano presenti, la loro frammentazione potrebbe rendere difficile una visione d'insieme e una pianificazione strategica coerente. Anche gli obiettivi di riduzione dell'abbandono e contrasto al fenomeno NEET necessitano di maggiore attenzione e definizione di azioni specifiche.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, integrando le attività esistenti in un quadro coerente e definendo obiettivi misurabili. È auspicabile una maggiore attenzione al monitoraggio e alla valutazione delle azioni intraprese, al fine di verificarne l'efficacia e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Secondaria di I Grado “Cosoleto” dimostra un impegno significativo nell'ambito dell'orientamento, attraverso una vasta gamma di attività e **partnership**. Tuttavia, per massimizzare l'efficacia di tali interventi, è necessario superare la frammentazione delle azioni e strutturare un approccio più organico e strategico, con una sezione dedicata all'orientamento e obiettivi chiaramente definiti. L'attenzione alla **continuità** tra i diversi ordini di scuola, come evidenziato dagli **\"Incontri tra docenti di Matematica e Scienze\"** e dalle **\"Prove d'ingresso\"**, rappresenta un elemento positivo da consolidare."
+}

@@ -1,0 +1,229 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCRA00101R",
+    "denominazione": "I.P.A.S.R. Familiari Melito P. S.",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Melito Di Porto Salvo",
+    "anno_ptof": null,
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Sbarre Snc",
+    "cap": "89063",
+    "email": "rcis00100r@istruzione.it",
+    "pec": "ND",
+    "website": "www.isfamiliari.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è affrontato all'interno di altri progetti, ma non risulta presente una sezione specificamente dedicata e denominata 'Orientamento'."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Istituzioni locali",
+        "Enti artistici",
+        "Enti culturali",
+        "Enti sociali",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "associazioni",
+        "EE. LL.",
+        "Ufficio di Piano",
+        "Protezione Civile",
+        "Misericordia",
+        "associazioni artistiche/culturali",
+        "associazioni sportive",
+        "Parrocchie",
+        "Istituti Comprensivi",
+        "Istituti Superiori",
+        "Biblioteca Comunale",
+        "Comune",
+        "ASL",
+        "Museo del Sannio Caudino"
+      ],
+      "partnership_count": 21
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di recupero in Italiano, Matematica e Inglese",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Attività di recupero e potenziamento per studenti con difficoltà",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto di Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Insegnamento della lingua francese",
+      "target": "Alunni classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di Latino",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Insegnamento della lingua latina",
+      "target": "Alunni classi terze secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola e Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività extracurricolare per la scuola primaria",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Scuola InCanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori artistici con il Teatro San Carlo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di Accoglienza, Continuità e Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scambio info tra docenti, visite scuole, incontri informativi",
+      "target": "Alunni-Genitori-Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto “Accoglienza, Continuita’ E Orientamento”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di continuità tra ordini di scuola, incontri informativi, Open Day",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto “Legalita’ E Cittadinanza Attiva”",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto “Sicurezza A Scuola”",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Informazione, formazione, individuazione figure sensibili",
+      "target": "Alunni- Docenti- Personale Ata"
+    },
+    {
+      "titolo_attivita": "Progetto “Scuola E Territorio”",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Laboratori didattici, incontri con soggetti esterni, uscite",
+      "target": "Alunni, Famiglie E Stakeholders"
+    },
+    {
+      "titolo_attivita": "Scuola in Canto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività canore nell'ambito di un'opera lirica",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite guidate al Museo del Sannio Caudino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate e laboratori didattici",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzione con I.I.S Fermi per tirocini",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto di Autovalutazione",
+      "categoria_principale": "Organizzativo",
+      "descrizione_e_metodologia": "Monitoraggio qualità servizio, questionari anonimi",
+      "target": "Personale, alunni, genitori"
+    },
+    {
+      "titolo_attivita": "Progetto “Accoglienza, Continuita’ E Orientamento”",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scambio info tra docenti, visite scuole, incontri informativi",
+      "target": "Alunni-Genitori-Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCRA00101R\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.P.A.S.R. Familiari Melito P. S. (RCRA00101R). La scuola, comprensiva di I Grado, Infanzia e Primaria, situata a Melito Di Porto Salvo in Calabria, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata e denominata come tale. L'istituto si distingue per un'ampia rete di **partnership** con diverse realtà del territorio, che costituisce un elemento chiave per la realizzazione di attività orientative efficaci. L'attenzione è rivolta allo sviluppo delle **attitudini**, degli **interessi** degli studenti, alla progettazione del loro **progetto di vita** e alla facilitazione delle **transizioni formative**, con un focus particolare sull'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal contesto.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento è affrontato all'interno di altri progetti, evidenziando la necessità di una sua esplicita strutturazione all'interno del PTOF.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con **istituzioni locali**, **enti artistici**, **enti culturali**, **enti sociali**, **musei**, **istituti pubblici** e **privati**, **associazioni**, **EE. LL.**, **Ufficio di Piano**, **Protezione Civile**, **Misericordia**, **associazioni artistiche/culturali**, **associazioni sportive**, **Parrocchie**, **Istituti Comprensivi**, **Istituti Superiori**, **Biblioteca Comunale**, **Comune**, **ASL** e il **Museo del Sannio Caudino**. Questa ricchezza di **partnership** (ben 21) rappresenta un valore aggiunto per l'offerta formativa e per le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo del **progetto di vita** degli studenti. Buoni risultati sono stati ottenuti anche per lo sviluppo di **attitudini**, **interessi** e per la preparazione alle **transizioni formative**, oltre che per l'acquisizione di **capacità orientative** per affrontare le opportunità del mondo del lavoro.\n\n**2.4 Obiettivi:** L'istituto si pone l'obiettivo di ridurre l'**abbandono** scolastico e di garantire la **continuità territoriale** degli studenti. L'impegno verso il **lifelong learning** è particolarmente apprezzabile, mentre l'attenzione alla lotta contro il fenomeno dei **NEET** risulta meno sviluppata.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate sono efficaci, con particolare riferimento al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori**, all'implementazione di un **sistema integrato di inclusione e fragilità** e al **monitoraggio delle azioni** intraprese.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'**esperienza degli studenti**, l'utilizzo di **laboratori**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. L'offerta è diversificata, anche se alcune aree, come il volontariato e le attività ludico-ricreative, potrebbero essere ulteriormente potenziate.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** con il territorio, l'attenzione allo sviluppo del **progetto di vita** degli studenti, l'efficacia delle **azioni di sistema** e l'utilizzo di metodologie didattiche innovative. Attività come **Scuola InCanto** e **Progetto Scuola e Territorio** dimostrano un forte legame tra l'istituto e il contesto locale.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione specificamente dedicata all'orientamento all'interno del PTOF. Inoltre, l'attenzione alla lotta contro il fenomeno dei **NEET** potrebbe essere rafforzata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come una componente strutturale del PTOF, con obiettivi, azioni e indicatori specifici. È inoltre auspicabile un maggiore focus sulla prevenzione della dispersione scolastica e sull'inserimento lavorativo dei giovani.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.P.A.S.R. Familiari Melito P. S. presenta un approccio all'orientamento solido e ben strutturato, supportato da una vasta rete di **partnership** e da metodologie didattiche innovative. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario formalizzare l'orientamento come una sezione specifica del PTOF e rafforzare l'attenzione alla lotta contro il fenomeno dei **NEET**. Attività come **Progetto di Accoglienza, Continuità e Orientamento**, **Progetto “Accoglienza, Continuita’ E Orientamento”**, **Alternanza Scuola-Lavoro** e le **Visite guidate al Museo del Sannio Caudino** rappresentano esempi concreti di un impegno costante verso l'orientamento e la crescita degli studenti."
+}

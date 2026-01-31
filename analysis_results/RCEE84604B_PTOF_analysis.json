@@ -1,0 +1,235 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCEE84604B",
+    "denominazione": "Scuola Primaria Giffone",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Giffone",
+    "anno_ptof": "2022/2023,2023/2024,2024/2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Ugo Foscolo 2",
+    "cap": "89020",
+    "email": "rcic846006@istruzione.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "http//iccinquefrondi.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Esplicita attenzione all'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali",
+        "associazioni genitori",
+        "Imprese",
+        "Professionisti",
+        "Enti del terzo settore",
+        "Associazioni di categoria",
+        "Istituzioni di ricerca",
+        "Università"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 6
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione nuovi studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica metacognitiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Imparare ad imparare",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro concordato tra docenti, verifiche comuni",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Strumento quotidiano di lavoro",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro per moduli, apprendimento attivo",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Individualizzata/Personalizzata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Recupero, potenziamento, attenzione alle differenze",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di studio e pratica in azienda",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere gli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Cittadinanza e Costituzione, diritti umani",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scienze della terra",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Studio del territorio, Vesuvio, Campi Flegrei",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Scienze biologiche",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Cellula, virus, pandemia, armi biologiche",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Orientamento e PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti di orientamento",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende",
+      "target": "Studenti in uscita"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi multidisciplinari su temi trasversali",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCEE84604B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Giffone** (RCEE84604B) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo agli anni scolastici 2022/2023, 2023/2024 e 2024/2025, dimostra un’esplicita attenzione all'inclusione, ottenendo un punteggio di 4 nella sezione dedicata all'orientamento. La scuola si avvale di una rete di partnership diversificata, che include **enti locali**, **realtà istituzionali**, **associazioni genitori**, **imprese**, **professionisti**, **enti del terzo settore**, **associazioni di categoria**, **istituzioni di ricerca** e **università**, con un coinvolgimento di 5 partner. Le finalità dell'orientamento sono ben definite, con punteggi elevati (6) per lo sviluppo di **attitudini**, **interessi** e la progettazione del **progetto di vita**, oltre alla valorizzazione delle **capacità orientative** e delle **opportunità**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, valutata con un punteggio di 4, evidenziando un’attenzione specifica a questo ambito.\n\n**2.2 Partnership:** La scuola collabora con un ampio spettro di partner, dimostrando una buona capacità di creare sinergie con il territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo integrale dello studente, con particolare attenzione alla sua crescita personale e professionale. La transizione formativa, pur presente, risulta meno enfatizzata con un punteggio di 4.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico** (punteggio 5), la continuità territoriale (punteggio 4), il contrasto alla dispersione formativa e NEET (punteggio 3) e la promozione del **lifelong learning** (punteggio 6).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e un sistema integrato per l'inclusione e la fragilità, tutte valutate positivamente (punteggi tra 4 e 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, con punteggi elevati (6) per ciascuna di queste dimensioni.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte valutate con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità orientative, nella diversificazione delle partnership, nella centralità dello studente e nell'utilizzo di metodologie didattiche innovative come la **didattica laboratoriale** e le **unità di apprendimento**. L'attenzione all'inclusione e al **lifelong learning** rappresenta un ulteriore elemento di valore. Le attività come **Progetto accoglienza classi prime** e lo **Sportello BES** dimostrano un impegno concreto verso il benessere e il successo formativo di tutti gli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la transizione formativa, che, pur presente, non risulta così enfatizzata come altri aspetti dell'orientamento. Anche le attività opzionali e facoltative, pur presenti, potrebbero essere potenziate per offrire agli studenti una gamma più ampia di opportunità. L'obiettivo di contrastare i **NEET** ottiene un punteggio inferiore rispetto agli altri, suggerendo la necessità di un maggiore focus su questo aspetto.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni volte a facilitare la transizione degli studenti verso i successivi livelli di istruzione e il mondo del lavoro. Un maggiore coinvolgimento di **imprese** e **professionisti** nelle attività di orientamento potrebbe contribuire a colmare questo gap. Inoltre, è necessario potenziare l'offerta di attività opzionali e facoltative per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della Scuola Primaria Giffone presenta un approccio all'orientamento solido e ben strutturato, con un’attenzione particolare all'inclusione e allo sviluppo integrale dello studente. Le attività proposte, come il **PCTO - Modulo Orientamento**, l'**Alternanza Scuola-Lavoro**, la **Didattica Individualizzata/Personalizzata** e l'**Educazione civica**, contribuiscono a creare un ambiente di apprendimento stimolante e orientato al futuro. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per guidare gli studenti nel loro percorso formativo e personale."
+}

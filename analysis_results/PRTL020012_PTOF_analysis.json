@@ -1,0 +1,247 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PRTL020012",
+    "denominazione": "\"C. Rondani\" - Sez. Carcere",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Parma",
+    "anno_ptof": "2025/2028",
+    "provincia": "Parma",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Casa Di Reclusione",
+    "cap": "43122",
+    "email": "amministrazione@ldavinci.org",
+    "pec": "ND",
+    "website": "www.itis.pr.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presente sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Centro giovanile Ufo Saronno",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 1
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello supporto DSA/BES",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Supporto individuale",
+      "target": "Studenti BES/DSA"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo via email",
+      "target": "Studenti Classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online",
+      "target": "Studenti Classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione Banca d'Italia",
+      "target": "Studenti Classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma ministeriale",
+      "target": "Studenti Classe IV"
+    },
+    {
+      "titolo_attivita": "Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative Polizia Cantonale",
+      "target": "Studenti Liceo"
+    },
+    {
+      "titolo_attivita": "Collaborazione con centro giovanile Ufo Saronno",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Polizia Cantonale: progetto Gruppo Visione Giovani",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Croce Rossa",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione alla “Settimana della lingua italiana nel mondo”",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratori, conferenze",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Uscite e visite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite guidate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a spettacoli teatrali",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Partecipazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri formativi sui temi della cittadinanza digitale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Incontri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Personale e alla scelta universitaria",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Installazione, preparazione, scrittura codice",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PRTL020012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola “C. Rondani” - Sez. Carcere, codice scuola PRTL020012, per il triennio 2025/2028. La scuola, di tipo Tecnico e grado II, situata nel territorio non metropolitano di Parma, in Emilia Romagna, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'istituto, statale, si distingue per una rete di **partnership** estesa e diversificata, e per un'attenzione particolare alle finalità di orientamento, con un focus sulle attitudini, interessi e transizioni formative degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e variegato, comprendendo enti come **LAC**, **Museo in Erba**, **Polizia Cantonale**, **Centro giovanile Ufo Saronno**, **Croce Rossa**, diverse università (tra cui **Università Bocconi**, **Università della Svizzera Italiana**, **Università dell'Insubria**, **ESADE di Barcellona**, **University of Dublin**, **Savannah College of Art and Design**, **European Business School di Londra**, **Webster American College**, **Edimburgh University**) e l'**Accademia di Architettura di Mendrisio**. Questo elevato numero di collaborazioni (15 partner) rappresenta un punto di forza significativo per l'arricchimento dell'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini**, **interessi** e **capacità orientative** rispetto alle opportunità. L'attenzione al **progetto di vita** degli studenti risulta meno marcata, rappresentando un'area di potenziale miglioramento. Si evidenzia un forte orientamento verso le **transizioni formative** degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità territoriale, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. L'impegno verso la continuità territoriale e il lifelong learning appare più solido rispetto alla riduzione dell'abbandono.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono valutate positivamente, con particolare attenzione al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al **rapporto scuola-genitori** e al **monitoraggio delle azioni** intraprese. L'integrazione con i sistemi di **inclusione e fragilità** è considerata un elemento chiave.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'interdisciplinarità e, in misura minore, sulla didattica laboratoriale e sulla flessibilità degli spazi e dei tempi.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, con un'attenzione minore alle attività **ludiche, ricreative, di volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampia rete di **partnership** con enti e istituzioni di rilievo, nella chiarezza delle finalità e nell'efficacia delle azioni di sistema. L'offerta di attività extracurricolari, come i **corsi di lingue** e **musica**, e l'attenzione ai bisogni educativi speciali, con lo **sportello supporto DSA/BES**, rappresentano ulteriori elementi positivi. I progetti **MiOriento**, **MiAssumo**, il **Percorso Competenze Trasversali** e il **Curriculum dello Studente** offrono un supporto mirato agli studenti nelle diverse fasi del loro percorso scolastico.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la minore attenzione al **progetto di vita** degli studenti come finalità dell'orientamento. Inoltre, l'offerta di attività opzionali e facoltative potrebbe essere ampliata per includere una maggiore varietà di proposte, in particolare in ambito ludico-ricreativo, di volontariato e sportivo.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare l'attenzione al **progetto di vita** degli studenti, integrando questa dimensione nelle attività e nei progetti di orientamento. È inoltre auspicabile una maggiore diversificazione dell'offerta di attività opzionali e facoltative, per rispondere in modo più completo agli interessi e alle esigenze degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF PRTL020012 dimostra un impegno significativo verso l'orientamento, con una solida base dimensionale e una rete di **partnership** consolidata. Pur presentando alcune aree di miglioramento, il piano triennale offre un quadro complessivamente positivo, in grado di supportare gli studenti nel loro percorso di crescita personale e professionale. L'implementazione di azioni mirate a rafforzare l'attenzione al **progetto di vita** e ad ampliare l'offerta di attività opzionali e facoltative consentirebbe di ottimizzare ulteriormente l'efficacia dell'orientamento e di garantire un servizio sempre più completo e personalizzato."
+}

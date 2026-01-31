@@ -1,0 +1,225 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SAIC8B500Q",
+    "denominazione": "I.C. \"Medaglie D'Oro\" Salerno",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale, Tecnico",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Salerno",
+    "anno_ptof": "2022-2025",
+    "provincia": "Salerno",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via P. Vocca 12",
+    "cap": "84126",
+    "email": "saic8b500q@istruzione.it",
+    "pec": "saic8b500q@pec.istruzione.it",
+    "website": "https//www.icmedagliedoro.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente tra le attività proposte, non risulta esplicitamente affrontato in una sezione dedicata del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università di Salerno",
+        "Università di Perugia",
+        "Enti locali",
+        "ASL",
+        "C.O.N.I.",
+        "associazioni culturali ed ambientalistiche",
+        "Università degli Studi di Perugia",
+        "Associazione BIMED",
+        "Rete LI.SA.CA.",
+        "Rete Senza Zaino",
+        "Musei",
+        "Istituti pubblici e privati",
+        "GLIR",
+        "GIT",
+        "Scuole polo",
+        "privato sociale",
+        "volontariato"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "CompetenteMente",
+      "categoria_principale": "Potenziamento Competenze",
+      "descrizione_e_metodologia": "Valorizzazione curricolo, didattica attiva e inclusiva, laboratorialità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giocando con l'Invalsi",
+      "categoria_principale": "Miglioramento Risultati",
+      "descrizione_e_metodologia": "Metodologie innovative, attività pratiche, simulazioni prove INVALSI.",
+      "target": "Studenti classi seconde e quinte"
+    },
+    {
+      "titolo_attivita": "Nuovi ambienti per la Scuola del Futuro",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Realizzazione ambienti apprendimento attivi, innovativi, collaborativi con tecnologie digitali.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Stem by Stem",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Realizzazione spazi e tecnologie specifiche per didattica STEM, tinkering, coding, robotica.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Una bussola per non dis-perdersi",
+      "categoria_principale": "Prevenzione Dispersione Scolastica",
+      "descrizione_e_metodologia": "Strategie per successo formativo, benessere scolastico, inclusione, personalizzazione apprendimenti.",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Ora lontani e domani più vicini",
+      "categoria_principale": "Educazione al benessere",
+      "descrizione_e_metodologia": "Promuove autonomia, rispetto regole, inclusione, Agenda 2030",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "La terra è casa nostra…prendiamocene cura",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Conoscenza natura, sperimentazione, raccolta differenziata",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Visita ai principali Istituti della città",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate e incontri con docenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Riciclo",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Laboratori, visite guidate, attività pratiche sul riciclo e riuso.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Biorepack",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Adesione ad attività e progetti promossi da enti locali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Grafico-Pittorico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività di laboratorio creativo e pittorico per sviluppo capacità cognitive e relazionali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Salute e Ambiente",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Coinvolgimento studenti e docenti in tematiche ambientali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto CLIL",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Utilizzo didattica L2 per tematiche trasversali in inglese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori integrati",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Progetto STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Competenze digitali e TIC",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SAIC8B500Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. “Medaglie D'Oro” Salerno (SAIC8B500Q), relativo al triennio 2022-2025. L'istituto, comprensivo e situato nel territorio non metropolitano della regione Campania, dimostra un impegno significativo verso diverse aree, tra cui l'orientamento, le **partnership** esterne, la prevenzione della **dispersione scolastica** e l'innovazione didattica. Sebbene l'orientamento sia integrato nelle attività proposte, non è presente una sezione specificamente dedicata nel PTOF, rappresentando un aspetto migliorabile.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi evidenzia una mancanza di una sezione esplicitamente dedicata all'orientamento, ottenendo un punteggio di 3 su una scala massima.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership** con diversi soggetti, tra cui **Università di Salerno** e **Università di Perugia**, **enti locali**, **ASL**, **C.O.N.I.**, **associazioni culturali ed ambientalistiche**, **Associazione BIMED**, **Rete LI.SA.CA.**, **Rete Senza Zaino**, **Musei**, **Istituti pubblici e privati**, **GLIR**, **GIT**, **Scuole polo**, **privato sociale** e **volontariato**. Questo network di collaborazioni, composto da ben 17 partner, rappresenta un punto di forza significativo per l'arricchimento dell'offerta formativa e delle attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Particolare attenzione è rivolta alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future, ottenendo punteggi elevati in tutte le aree considerate.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la continuità territoriale e il contrasto al fenomeno dei **NEET**, con un focus sul **lifelong learning**. L'impegno verso la prevenzione della dispersione scolastica è particolarmente evidente.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sulla laboratorialità, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, favorendo un approccio attivo e coinvolgente per gli studenti.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando le opportunità di crescita e di scoperta degli interessi personali degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** orientative, nell'impegno verso la prevenzione della **dispersione scolastica** e nell'adozione di metodologie didattiche innovative e orientate all'esperienza. Attività come \"**CompetenteMente**\", \"**Giocando con l'Invalsi**\", \"**Nuovi ambienti per la Scuola del Futuro**\", \"**Stem by Stem**\" e \"**Una bussola per non dis-perdersi**\" dimostrano un approccio proattivo e mirato alle esigenze degli studenti. L'attenzione all'**educazione ambientale** con progetti come \"**La terra è casa nostra…prendiamocene cura**\", \"**Progetto Riciclo**\" e \"**Progetto Biorepack**\" è degna di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata all'orientamento all'interno del PTOF. Pur essendo l'orientamento presente tra le attività proposte, la sua assenza come sezione autonoma potrebbe limitarne la visibilità e la sistematicità.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare un'offerta formativa orientativa più coerente e integrata, con obiettivi, azioni e indicatori di valutazione specifici. L'istituto potrebbe beneficiare di una maggiore focalizzazione sull'orientamento professionale e sulla preparazione degli studenti alle sfide del mondo del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. “Medaglie D'Oro” Salerno si presenta come un documento completo e ben strutturato, che evidenzia un forte impegno verso la qualità dell'offerta formativa e il benessere degli studenti. L'ampia rete di **partnership** e l'attenzione alle metodologie didattiche innovative rappresentano un valore aggiunto significativo. Tuttavia, per ottimizzare l'efficacia dell'azione orientativa, si raccomanda di integrare il PTOF con una sezione dedicata, definendo obiettivi specifici e azioni mirate per supportare gli studenti nel loro percorso di crescita e di **progetto di vita**. L'attività \"**Visita ai principali Istituti della città**\" rappresenta un buon punto di partenza, ma necessita di essere integrata in un piano più ampio e strutturato."
+}

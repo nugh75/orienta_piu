@@ -1,0 +1,236 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CHAA03603E",
+    "denominazione": "Rione Cappuccini - Guardiagrele",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Guardiagrele",
+    "anno_ptof": "2022-2025",
+    "provincia": "Chieti",
+    "regione": "Abruzzo",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Cappuccini47",
+    "cap": "66016",
+    "email": "chee03600l@istruzione.it",
+    "pec": "ND",
+    "website": "www.circolodidattiicoguardiagrele.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "SCUOLE IN RETE",
+        "MIUR",
+        "AGENZIE ACCREDITATE",
+        "UNIVERSITA' DI SALERNO",
+        "POLO QUALITA' DI NAPOLI",
+        "Enti locali",
+        "Servizi sociali",
+        "associazioni",
+        "enti territoriali",
+        "altre scuole"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Formazione docenti su didattica per competenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, workshop, condivisione di buone pratiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali, progetti di rete",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Open day",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Finalizzate a rendere pubbliche MISSION E VISION",
+      "target": "Genitori, comunità"
+    },
+    {
+      "titolo_attivita": "Questionari di gradimento",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Per esprimere il gradimento verso le iniziative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Momenti di formazione, sia in presenza che in modalità e-learning",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Accoglienza alunni con bisogni speciali e stranieri",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Piano Educativo Individualizzato",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e attuazione di PEI",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a luoghi di lavoro",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di Educazione Alimentare",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Economica",
+      "categoria_principale": "Competenze Chiave",
+      "descrizione_e_metodologia": "Workshop e seminari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Marcianisiadi “D.D.1 Cavour”",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione attività motoria, sportiva e inclusione sociale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sport Di Classe",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Due ore settimanali di Educazione Fisica per la scuola primaria.",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visione film con forum di analisi e riflessione critica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Teatrali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Drammatizzazione e manifestazioni pubbliche.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività Musicale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Coro d'Istituto e attività musicali strumentali.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esami di Certificazione Lingue Straniere",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Preparazione per certificazioni (Flyers, DELF, DELE).",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Progetto CLIL Multilingue",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Attività laboratoriali CLIL.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Scuola Viva - Microcosmi a confronto",
+      "categoria_principale": "Sport e Cultura",
+      "descrizione_e_metodologia": "Moduli di teatro, canto, musica, sport, nuoto, scacchi, italiano, inglese.",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CHAA03603E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Rione Cappuccini - Guardiagrele** (codice scuola **CHAA03603E**) per il triennio **2022-2025**. L'istituto, di ordine **Infanzia** e tipo **Statale**, situato nel territorio **Non Metropolitano** del comune di **Guardiagrele** in **Abruzzo**, dimostra un'attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di valutazione pari a 7. Il PTOF si articola in diverse dimensioni, che verranno analizzate nel dettaglio, evidenziando punti di forza, aree di debolezza e possibili gap. L'istituto collabora con diversi partner, tra cui **SCUOLE IN RETE**, il **MIUR**, **AGENZIE ACCREDITATE**, l'**UNIVERSITA' DI SALERNO**, il **POLO QUALITA' DI NAPOLI**, **Enti locali**, **Servizi sociali**, **associazioni**, **enti territoriali** e **altre scuole**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, con un punteggio di 7, indicando un impegno strutturato in questa area.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** ampio e diversificato, composto da 9 partner, che include istituzioni pubbliche, enti di ricerca e associazioni del territorio. Questo network rappresenta una risorsa importante per l'implementazione di attività di orientamento e per l'ampliamento dell'offerta formativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. L'attenzione alle **capacità orientative** e alle **opportunità** è considerata importante, mentre le **transizioni formative** ricevono un punteggio leggermente inferiore, suggerendo un'area di potenziale miglioramento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la promozione della continuità territoriale, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**. L'impegno per la continuità territoriale risulta leggermente meno prioritario rispetto agli altri obiettivi.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte a rafforzare il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**. Quest'ultimo aspetto, in particolare, riceve un punteggio elevato, evidenziando un'attenzione alla connessione tra le diverse discipline.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **volontariato** e **sportive**. Le attività **ludiche e ricreative** ricevono un punteggio inferiore, suggerendo un'area di potenziale sviluppo.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e degli **obiettivi**, nella solidità delle **azioni di sistema** e nell'approccio didattico orientativo basato sull'**interdisciplinarità**. Le attività registrate, come la **Formazione docenti su didattica per competenze**, i **Progetti di inclusione** e l'**Open day**, testimoniano l'impegno dell'istituto nel promuovere un'offerta formativa completa e inclusiva.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente le **transizioni formative**, che ricevono un punteggio inferiore rispetto ad altre dimensioni, e le attività **ludiche e ricreative** nell'ambito delle opzionali. Inoltre, l'obiettivo di garantire la **continuità territoriale** sembra meno prioritario rispetto agli altri obiettivi.\n\n### 5. Gap Analysis\n\nIl gap analysis evidenzia la necessità di rafforzare le azioni volte a facilitare le **transizioni formative** degli studenti, ad esempio attraverso l'organizzazione di attività di orientamento specifiche per il passaggio tra i diversi ordini di scuola. È inoltre opportuno ampliare l'offerta di attività **ludiche e ricreative** nell'ambito delle opzionali, per favorire il benessere e lo sviluppo armonico degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto **Rione Cappuccini - Guardiagrele** presenta un'impostazione solida e coerente in materia di orientamento. L'istituto dimostra un impegno significativo nella promozione di un'offerta formativa completa e inclusiva, basata su una vasta rete di **partnership** e su un approccio didattico orientativo innovativo. Pur presentando alcune aree di debolezza, il PTOF offre una base solida per il raggiungimento degli obiettivi prefissati e per il miglioramento continuo della qualità dell'offerta formativa. Attività come **Cittadinanza Economica**, **Marcianisiadi “D.D.1 Cavour”** e il **Progetto CLIL Multilingue** arricchiscono ulteriormente l'offerta formativa."
+}

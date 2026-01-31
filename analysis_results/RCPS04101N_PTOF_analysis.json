@@ -1,0 +1,265 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCPS04101N",
+    "denominazione": "\"Zaleuco\" Locri",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Locri",
+    "anno_ptof": "2024-2025",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Francesco Panzera",
+    "cap": "89044",
+    "email": "ND",
+    "pec": "ND",
+    "website": "www.lsvolta.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presente analisi del contesto e profilo educativo"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università",
+        "A.S.L.",
+        "Sovrintendenza Archeologica",
+        "Curia vescovile",
+        "associazioni",
+        "Biblioteche",
+        "Fondazioni",
+        "Enti no-profit",
+        "musei statali e privati",
+        "Comuni",
+        "studi professionali",
+        "laboratori medici",
+        "aziende commerciali e artigianali",
+        "associazioni sportive",
+        "Paravia"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Collaborazione con Università per orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri, seminari, workshop",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso enti pubblici e privati",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontro sul tema: “Rapporto tra Scienza e Fede”",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Incontro tematico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Spettacolo in Lingua Inglese “Dr Jekyll and Mr Hyde”",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Spettacolo teatrale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontro sul tema “Educazione alla legalità e prevenzione dell’evasione fiscale e delle violazioni finanziarie”",
+      "categoria_principale": "Civica",
+      "descrizione_e_metodologia": "Intervento esperti Guardia di Finanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "47ma Giornata Nazionale della vita",
+      "categoria_principale": "Religiosa",
+      "descrizione_e_metodologia": "Evento Curia Episcopale Locri",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi per la certificazione di lingua inglese (DM 65)",
+      "categoria_principale": "Linguistico",
+      "descrizione_e_metodologia": "Corsi certificazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto AVIS/Scuola - Raccolta Sangue AVIS",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Raccolta sangue",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convegno “Essere in rete o stare in rete",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Convegno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rappresentazione Teatrale “Memorie”",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Spettacolo teatrale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri di Calcio",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Eventi sportivi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggio d’Istruzione a Vienna",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Viaggio d'istruzione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi del testo",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Analisi di testi secondo istruzioni specifiche",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Esposizione argomentata",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Esposizione argomentata su temi del programma",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Colloquio",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Colloquio per accertare padronanza materia",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Riassunto",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Riassunto con parametri di spazio e tempo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Verifiche Scritte",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Verifiche scritte tipologia A, B, C",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Lettura testi latini",
+      "categoria_principale": "Latino",
+      "descrizione_e_metodologia": "Lettura antologica o integrale",
+      "target": "Latino"
+    },
+    {
+      "titolo_attivita": "Traduzione testi latini",
+      "categoria_principale": "Latino",
+      "descrizione_e_metodologia": "Traduzione di testi di autori latini",
+      "target": "Latino"
+    },
+    {
+      "titolo_attivita": "Analisi testi latini",
+      "categoria_principale": "Latino",
+      "descrizione_e_metodologia": "Analisi testi con attenzione temi e specificità",
+      "target": "Latino"
+    },
+    {
+      "titolo_attivita": "Lettura testi greci",
+      "categoria_principale": "Greco",
+      "descrizione_e_metodologia": "Lettura diretta e in traduzione",
+      "target": "Greco"
+    },
+    {
+      "titolo_attivita": "Traduzione testi greci",
+      "categoria_principale": "Greco",
+      "descrizione_e_metodologia": "Traduzione testi di autori greci",
+      "target": "Greco"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCPS04101N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dello scuola “Zaleuco” di Locri (RCPS04101N), relativo all'anno scolastico 2024-2025. La scuola, un Liceo di II grado situato in Calabria, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni valutate. L'istituto si colloca in un contesto territoriale metropolitano e statale, con una forte attenzione alla collaborazione con diversi partner esterni.\n\n### 2. Analisi Dimensionale\n\n**2.1 Analisi del Contesto e Profilo Educativo:** Il PTOF presenta un'analisi del contesto e del profilo educativo, ottenendo un punteggio di 3, indicando una solida base per la pianificazione delle attività di orientamento.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di partnership, con ben 14 collaborazioni attive che includono **Università**, **A.S.L.**, **Sovrintendenza Archeologica**, **Curia vescovile**, diverse **associazioni**, **Biblioteche**, **Fondazioni**, **Enti no-profit**, **musei statali e privati**, **Comuni**, **studi professionali**, **laboratori medici**, **aziende commerciali e artigianali**, **associazioni sportive** e **Paravia**. Questo elevato numero di partner (punteggio 4) suggerisce un forte radicamento nel territorio e una ricca offerta di opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 4, dimostrando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**. L'obiettivo di garantire la continuità territoriale ha ottenuto il punteggio più alto (4), mentre gli altri obiettivi hanno ricevuto un punteggio di 3, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutte queste azioni hanno ottenuto un punteggio di 3, indicando un impegno costante ma con margini di ottimizzazione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, con un punteggio di 4. La didattica laboratoriale, invece, ha ottenuto un punteggio di 2, suggerendo una minore enfasi su questo approccio. La flessibilità degli spazi e dei tempi, così come l'interdisciplinarità, hanno ricevuto un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, sportive. Le opzionali di volontariato hanno ottenuto il punteggio più basso (1), suggerendo una potenziale area di sviluppo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella vasta rete di **partnership** con enti e istituzioni del territorio, nella chiarezza delle **finalità** dell'orientamento e nell'approccio didattico basato sull'esperienza degli studenti. La presenza di una sezione dedicata all'orientamento e l'attenzione alla continuità territoriale rappresentano ulteriori elementi positivi. Le attività registrate, come la **Collaborazione con Università per orientamento** e l'**Alternanza Scuola-Lavoro**, sono coerenti con gli obiettivi del PTOF.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la didattica laboratoriale, le opzionali di volontariato e alcuni obiettivi specifici come la riduzione dell'abbandono scolastico e il contrasto al fenomeno NEET. Il punteggio inferiore in queste aree suggerisce la necessità di un maggiore investimento e di una pianificazione più mirata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare le attività pratiche e laboratoriali, offrendo agli studenti maggiori opportunità di sperimentazione e di applicazione delle conoscenze acquisite. Inoltre, è importante potenziare l'offerta di opzionali di volontariato, promuovendo la cittadinanza attiva e la responsabilità sociale. Infine, occorre definire strategie più efficaci per contrastare l'abbandono scolastico e il fenomeno NEET, coinvolgendo attivamente tutti gli stakeholder.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dello scuola “Zaleuco” di Locri presenta un solido impianto per l'orientamento, con numerosi punti di forza e un impegno costante verso la crescita e lo sviluppo degli studenti. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra una visione chiara e una pianificazione accurata, che consentono di affrontare le sfide del contesto territoriale e di garantire un futuro migliore per le nuove generazioni. Attività come l'**Incontro sul tema: “Rapporto tra Scienza e Fede”**, lo **Spettacolo in Lingua Inglese “Dr Jekyll and Mr Hyde”** e il **Viaggio d’Istruzione a Vienna** arricchiscono l'offerta formativa e contribuiscono a formare studenti consapevoli e preparati."
+}

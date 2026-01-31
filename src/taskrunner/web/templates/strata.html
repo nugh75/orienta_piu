@@ -1022,35 +1022,115 @@
           </div>
 
           <!-- Row 3b: Validation / Screening -->
-          <div style="margin-top: 1rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
-            <div style="font-size: 0.8rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-               <span>🛡 Validation / Screening</span>
+          <div
+            style="
+              margin-top: 1rem;
+              border-top: 1px solid var(--border-color);
+              padding-top: 1rem;
+            "
+          >
+            <div
+              style="
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: var(--accent-primary);
+                margin-bottom: 0.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+              "
+            >
+              <span>🛡 Validation / Screening</span>
             </div>
-            <div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; align-items: end;">
-                <!-- Provider -->
-                <div>
-                   <label style="font-size: 0.75rem; color: var(--text-secondary); display: block; margin-bottom: 0.3rem;">Provider</label>
-                   <select id="cfg-validation-provider" class="model-select" style="width: 100%;">
-                      <option value="ollama">Ollama</option>
-                      <!-- Future ecosystem expansion can go here -->
-                   </select>
-                </div>
-                <!-- Model -->
-                <div>
-                    <label style="font-size: 0.75rem; color: var(--text-secondary); display: block; margin-bottom: 0.3rem;">Model (PTOF Screening)</label>
-                    <select id="cfg-validation-model" class="model-select" style="width: 100%;">
-                       <option value="gemma2:27b" selected>gemma2:27b</option>
-                       <option value="qwen3:32b">qwen3:32b</option>
-                       <option value="llama3:latest">llama3</option>
-                       <option value="mistral:latest">mistral</option>
-                    </select>
-                </div>
-                <!-- Timeout -->
-                <div>
-                    <label style="font-size: 0.75rem; color: var(--text-secondary); display: block; margin-bottom: 0.3rem;">Timeout (sec)</label>
-                    <input type="number" id="cfg-validation-timeout" placeholder="120" value="120" min="10"
-                           style="width: 100%; padding: 0.4rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary);"/>
-                </div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                gap: 1rem;
+                align-items: end;
+              "
+            >
+              <!-- Provider -->
+              <div>
+                <label
+                  style="
+                    font-size: 0.75rem;
+                    color: var(--text-secondary);
+                    display: block;
+                    margin-bottom: 0.3rem;
+                  "
+                  >Provider</label
+                >
+                <select
+                  id="cfg-validation-provider"
+                  class="model-select"
+                  onchange="updateModelDropdown('validation')"
+                  style="
+                    width: 100%;
+                    padding: 0.4rem;
+                    background: var(--bg-tertiary);
+                    border: 1px solid var(--border-color);
+                    border-radius: 4px;
+                    color: var(--text-primary);
+                  "
+                >
+                  <option value="ollama">Ollama</option>
+                  <!-- Future ecosystem expansion can go here -->
+                </select>
+              </div>
+              <!-- Model -->
+              <div>
+                <label
+                  style="
+                    font-size: 0.75rem;
+                    color: var(--text-secondary);
+                    display: block;
+                    margin-bottom: 0.3rem;
+                  "
+                  >Model (PTOF Screening)</label
+                >
+                <select
+                  id="cfg-validation-model"
+                  class="model-select"
+                  style="
+                    width: 100%;
+                    padding: 0.4rem;
+                    background: var(--bg-tertiary);
+                    border: 1px solid var(--border-color);
+                    border-radius: 4px;
+                    color: var(--text-primary);
+                  "
+                >
+                  <option value="">Default</option>
+                </select>
+              </div>
+              <!-- Timeout -->
+              <div>
+                <label
+                  style="
+                    font-size: 0.75rem;
+                    color: var(--text-secondary);
+                    display: block;
+                    margin-bottom: 0.3rem;
+                  "
+                  >Timeout (sec)</label
+                >
+                <input
+                  type="number"
+                  id="cfg-validation-timeout"
+                  placeholder="120"
+                  value="120"
+                  min="10"
+                  style="
+                    width: 100%;
+                    padding: 0.4rem;
+                    background: var(--bg-tertiary);
+                    border: 1px solid var(--border-color);
+                    border-radius: 4px;
+                    color: var(--text-primary);
+                  "
+                />
+              </div>
             </div>
           </div>
 
@@ -1066,8 +1146,8 @@
                 cursor: pointer;
               "
             >
-               <input type="checkbox" id="cfg-skip-download" checked /> Skip Download
-               (parti da workflow)
+              <input type="checkbox" id="cfg-skip-download" checked /> Skip
+              Download (parti da workflow)
             </label>
             <label
               style="
@@ -1163,24 +1243,17 @@
       </div>
 
       <!-- Two Column: Logs + Recent -->
-      <div class="two-column">
-        <div class="log-panel">
-          <div class="log-header">
-            <h3>📋 Process Logs</h3>
-            <div style="display:flex; gap:10px; align-items:center;">
-                <button onclick="copyErrors()" class="btn-secondary" style="padding: 0.25rem 0.5rem; font-size: 0.7rem;" title="Copy errors to clipboard">📋 Copy Errors</button>
-                <a href="/strata/logs/download" target="_blank" style="color: var(--accent-primary); font-size: 0.75rem; text-decoration: none;">⬇ Download Full Log</a>
-                <span style="color: var(--text-secondary); font-size: 0.75rem">Auto-refresh 2s</span>
-            </div>
+      <!-- Full Width Logs -->
+      <div class="log-panel">
+        <div class="log-header">
+          <h3>📋 Process Logs</h3>
+          <div style="display:flex; gap:10px; align-items:center;">
+              <button onclick="copyErrors()" class="btn-secondary" style="padding: 0.25rem 0.5rem; font-size: 0.7rem;" title="Copy errors to clipboard">📋 Copy Errors</button>
+              <a href="/strata/logs/download" target="_blank" style="color: var(--accent-primary); font-size: 0.75rem; text-decoration: none;">⬇ Download Full Log</a>
+              <span style="color: var(--text-secondary); font-size: 0.75rem">Auto-refresh 2s</span>
           </div>
-          <div id="log-window">Loading logs...</div>
         </div>
-        <div class="recent-panel">
-          <div class="recent-header">🕐 Recent Analyses</div>
-          <ul class="recent-list" id="recent-list">
-            <li style="color: var(--text-secondary)">No data...</li>
-          </ul>
-        </div>
+        <div id="log-window">Loading logs...</div>
       </div>
     </main>
 
@@ -1382,25 +1455,29 @@
           logWindow.textContent = data.logs;
           if (atBottom) logWindow.scrollTop = logWindow.scrollHeight;
 
-          // Recent
+          // Recent (Removed from UI)
+          /*
           const recentList = document.getElementById("recent-list");
-          if (data.recent && data.recent.length > 0) {
-            recentList.innerHTML = data.recent
-              .map(
-                (item) => `
-                    <li>
-                        <span class="recent-badge">${item.reviews} rev</span>
-                        <span class="recent-code">${item.code}</span>
-                        <span class="recent-name">${item.name}</span>
-                        <span class="recent-date">${item.date ? item.date.substring(0, 16) : ""}</span>
-                    </li>
-                `,
-              )
-              .join("");
-          } else {
-            recentList.innerHTML =
-              '<li style="color: var(--text-secondary);">No recent analyses.</li>';
+          if (recentList) {
+              if (data.recent && data.recent.length > 0) {
+                recentList.innerHTML = data.recent
+                  .map(
+                    (item) => `
+                        <li>
+                            <span class="recent-badge">${item.reviews} rev</span>
+                            <span class="recent-code">${item.code}</span>
+                            <span class="recent-name">${item.name}</span>
+                            <span class="recent-date">${item.date ? item.date.substring(0, 16) : ""}</span>
+                        </li>
+                    `,
+                  )
+                  .join("");
+              } else {
+                recentList.innerHTML =
+                  '<li style="color: var(--text-secondary);">No recent analyses.</li>';
+              }
           }
+          */
         } catch (error) {
           console.error("Error:", error);
           document.getElementById("status-indicator").textContent = "⚠ Error";
@@ -1465,9 +1542,15 @@
           document.getElementById("cfg-activity-model")?.value;
 
         // Validation / Screening config
-        const validationProvider = document.getElementById("cfg-validation-provider")?.value;
-        const validationModel = document.getElementById("cfg-validation-model")?.value;
-        const validationTimeout = document.getElementById("cfg-validation-timeout")?.value;
+        const validationProvider = document.getElementById(
+          "cfg-validation-provider",
+        )?.value;
+        const validationModel = document.getElementById(
+          "cfg-validation-model",
+        )?.value;
+        const validationTimeout = document.getElementById(
+          "cfg-validation-timeout",
+        )?.value;
 
         const body = {
           max_downloads: maxDownloads,
@@ -1516,12 +1599,17 @@
       }
 
       async function stopCycle() {
-        if (!confirm("Stop the current cycle?\nNote: It may take up to 10-20 seconds for all background processes to terminate safely.")) return;
-        
+        if (
+          !confirm(
+            "Stop the current cycle?\nNote: It may take up to 10-20 seconds for all background processes to terminate safely.",
+          )
+        )
+          return;
+
         const btn = document.getElementById("btn-stop");
         btn.disabled = true;
         btn.textContent = "Stopping... (please wait)";
-        
+
         try {
           const res = await fetch("/strata/stop", { method: "POST" });
           const data = await res.json();
@@ -1530,13 +1618,13 @@
             btn.disabled = false;
             btn.textContent = "⏹ Stop Cycle";
           } else {
-             // Success - wait for next status poll to update UI
+            // Success - wait for next status poll to update UI
           }
         } catch (err) {
-            console.error(err);
-            alert("Request failed");
-            btn.disabled = false;
-            btn.textContent = "⏹ Stop Cycle";
+          console.error(err);
+          alert("Request failed");
+          btn.disabled = false;
+          btn.textContent = "⏹ Stop Cycle";
         }
       }
 
@@ -1576,7 +1664,9 @@
           if (inTraceback) {
             errorLines.push(line);
             // End of traceback is usually the actual error line (starts with ErrorType:)
-            if (line.match(/^[A-Za-z]+Error:|^[A-Za-z]+Exception:|^make: \*\*\*/)) {
+            if (
+              line.match(/^[A-Za-z]+Error:|^[A-Za-z]+Exception:|^make: \*\*\*/)
+            ) {
               inTraceback = false;
               errorLines.push(""); // Add separator after error block
             }
@@ -1584,12 +1674,14 @@
           }
 
           // Standalone error lines
-          if (line.includes("ERROR") ||
-              line.includes("Error:") ||
-              line.includes("Exception:") ||
-              line.includes("make: ***") ||
-              line.includes("FAILED") ||
-              line.includes("❌")) {
+          if (
+            line.includes("ERROR") ||
+            line.includes("Error:") ||
+            line.includes("Exception:") ||
+            line.includes("make: ***") ||
+            line.includes("FAILED") ||
+            line.includes("❌")
+          ) {
             errorLines.push(line);
           }
         }
@@ -1602,23 +1694,26 @@
         }
 
         // Copy to clipboard
-        navigator.clipboard.writeText(errorText).then(() => {
-          // Visual feedback
-          const btn = event.target;
-          const originalText = btn.textContent;
-          btn.textContent = "✓ Copied!";
-          btn.style.background = "var(--accent-success)";
-          btn.style.color = "#000";
-          setTimeout(() => {
-            btn.textContent = originalText;
-            btn.style.background = "";
-            btn.style.color = "";
-          }, 2000);
-        }).catch(err => {
-          console.error("Failed to copy:", err);
-          // Fallback: show in alert for manual copy
-          prompt("Copy the errors below:", errorText);
-        });
+        navigator.clipboard
+          .writeText(errorText)
+          .then(() => {
+            // Visual feedback
+            const btn = event.target;
+            const originalText = btn.textContent;
+            btn.textContent = "✓ Copied!";
+            btn.style.background = "var(--accent-success)";
+            btn.style.color = "#000";
+            setTimeout(() => {
+              btn.textContent = originalText;
+              btn.style.background = "";
+              btn.style.color = "";
+            }, 2000);
+          })
+          .catch((err) => {
+            console.error("Failed to copy:", err);
+            // Fallback: show in alert for manual copy
+            prompt("Copy the errors below:", errorText);
+          });
       }
 
       // Model dropdown management
@@ -1659,41 +1754,50 @@
 
       // Init
       fetchModels().then(() => {
-          setTimeout(applyDefaults, 500);
+        setTimeout(applyDefaults, 500);
       });
-      
+
       function applyDefaults() {
-          const roles = ['analyst', 'reviewer', 'refiner', 'synthesizer', 'activity'];
-          const targetModel = "gemma3:27b";
-          
-          roles.forEach(role => {
-              // Set Provider to Ollama
-              const providerSelect = document.getElementById(`cfg-${role}-provider`);
-              if (providerSelect) {
-                  providerSelect.value = "ollama";
-                  updateModelDropdown(role);
+        const roles = [
+          "analyst",
+          "reviewer",
+          "refiner",
+          "synthesizer",
+          "activity",
+          "validation",
+        ];
+        const targetModel = "gemma3:27b";
+
+        roles.forEach((role) => {
+          // Set Provider to Ollama
+          const providerSelect = document.getElementById(
+            `cfg-${role}-provider`,
+          );
+          if (providerSelect) {
+            providerSelect.value = "ollama";
+            updateModelDropdown(role);
+          }
+
+          // Set Model
+          const modelSelect = document.getElementById(`cfg-${role}-model`);
+          if (modelSelect) {
+            // Force add option if missing (since we load models async, might be redundant but safe)
+            let exists = false;
+            for (let i = 0; i < modelSelect.options.length; i++) {
+              if (modelSelect.options[i].value === targetModel) {
+                exists = true;
+                break;
               }
-              
-              // Set Model
-              const modelSelect = document.getElementById(`cfg-${role}-model`);
-              if (modelSelect) {
-                  // Force add option if missing (since we load models async, might be redundant but safe)
-                  let exists = false;
-                  for (let i = 0; i < modelSelect.options.length; i++) {
-                      if (modelSelect.options[i].value === targetModel) {
-                          exists = true;
-                          break;
-                      }
-                  }
-                  if (!exists) {
-                      const opt = document.createElement('option');
-                      opt.value = targetModel;
-                      opt.textContent = targetModel;
-                      modelSelect.appendChild(opt);
-                  }
-                  modelSelect.value = targetModel;
-              }
-          });
+            }
+            if (!exists) {
+              const opt = document.createElement("option");
+              opt.value = targetModel;
+              opt.textContent = targetModel;
+              modelSelect.appendChild(opt);
+            }
+            modelSelect.value = targetModel;
+          }
+        });
       }
 
       setInterval(fetchStatus, 2000);

@@ -1,0 +1,275 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOMM825012",
+    "denominazione": "Guglielmo Marconi",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Castelfranco Emilia",
+    "anno_ptof": "2016/2019",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Marconi 1",
+    "cap": "41013",
+    "email": "moic825001@istruzione.it",
+    "pec": "ND",
+    "website": "www.scuolemarconi.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "EELL",
+        "associazioni",
+        "scuole",
+        "Università",
+        "enti di ricerca",
+        "associazioni imprese",
+        "enti formazione",
+        "centri formazione",
+        "Regione",
+        "servizio di emergenza territoriale “118”",
+        "Associazione italiana della Croce Rossa",
+        "Liceo “I. Gonzaga” di Chieti",
+        "Cogas",
+        "Comune di Ortona",
+        "Crecchio",
+        "Tollo",
+        "Orsogna",
+        "ANFFAS",
+        "CIPA"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e tirocini",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività di promozione della lettura",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto teatro-musical",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività teatrali e musicali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto ben-essere",
+      "categoria_principale": "Socio-sanitaria",
+      "descrizione_e_metodologia": "Promozione del benessere psicofisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di istruzione e formazione professionale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi IFTS in regime di sussidiarietà integrativa",
+      "target": "Classi 1°, 2° e 3°"
+    },
+    {
+      "titolo_attivita": "Abilitazione alla professione di Ottico",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esame in sede per l'abilitazione",
+      "target": "Diplomati Ottici"
+    },
+    {
+      "titolo_attivita": "Laboratorio di guida turistica e pratica d'agenzia",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione figura guida turistica, approfondimenti sul territorio e istituti di ricerca.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio d'Impresa Simulata",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Simulazione attività aziendale, collaborazione con Unioncamere e aziende locali.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Simulazione Sportello Bancario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Simulazione attività bancaria, collaborazione con istituti bancari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto Eccellenza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Approfondimento tematiche fiscali e tributarie, collaborazione con esperti e agenzia delle entrate.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Corso sulle tecniche di primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Modulo di 4 ore con esperti del 118 e Croce Rossa, questionari, simulazioni.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Attività di accoglienza e tutoraggio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Facilitare la conoscenza della scuola",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Formazione all’uso di nuove metodologie didattiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Flipped classroom, web quest",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulle competenze della lettura",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Strategie per migliorare la comprensione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulla valutazione degli apprendimenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Compiti di realtà, osservazioni sistematiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulla conduzione e gestione della classe",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Peer tutoring, cooperative learning",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso sulle Tecnologie informatiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Applicazione all’attività didattica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione in lingua inglese",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Livelli BASE e INTERMEDIO",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso di Office automation",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Digitalizzazione degli uffici",
+      "target": "Personale A.T.A."
+    },
+    {
+      "titolo_attivita": "Stage e esperienze formative extracurriculari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a stage aziendali per almeno 15h",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività di volontariato",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione ad attività di volontariato presso associazioni riconosciute",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione alle attività di alternanza scuola-lavoro",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOMM825012\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Guglielmo Marconi** (MOMM825012), con particolare attenzione alla dimensione dell'orientamento. L'istituto, situato a **Castelfranco Emilia** in **Emilia Romagna**, è una scuola di primo grado **statale**. L'analisi si basa sui dati forniti nel documento PTOF relativo al periodo **2016/2019**. La scuola dimostra un forte impegno nell'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un elevato numero di partnership attivate. L'attenzione è rivolta allo sviluppo delle attitudini, degli interessi, del progetto di vita degli studenti, alla facilitazione delle transizioni formative e alla valorizzazione delle capacità orientative per cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, con un punteggio di 3, indicando una chiara attenzione a questa dimensione.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di collaborazioni con diversi soggetti, tra cui **EELL**, **associazioni**, **scuole**, **Università**, **enti di ricerca**, **associazioni imprese**, **enti formazione**, **centri formazione**, la **Regione**, il servizio di emergenza territoriale “**118**”, l'**Associazione italiana della Croce Rossa**, il **Liceo “I. Gonzaga” di Chieti**, **Cogas**, i **Comuni di Ortona, Crecchio, Tollo, Orsogna**, **ANFFAS** e **CIPA**. Il numero di partner (20) testimonia un approccio proattivo nella creazione di una rete di supporto per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, il supporto alle transizioni formative e l'incremento delle capacità orientative per affrontare le opportunità future. Tutti gli aspetti ricevono un punteggio massimo di 5, sottolineando la completezza della visione.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono focalizzati sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno **NEET**) e sulla promozione del **lifelong learning**. Anche in questo caso, tutti gli obiettivi raggiungono il punteggio massimo di 5.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che coinvolgono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Ogni azione è valutata con un punteggio di 5, evidenziando un approccio sistemico e integrato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. La didattica da esperienza studenti e la flessibilità degli spazi e dei tempi ottengono un punteggio di 5, mentre la didattica laboratoriale raggiunge un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, offrendo agli studenti un'ampia gamma di opportunità per esplorare i propri interessi e sviluppare le proprie passioni. Tutte le opzionali ricevono un punteggio di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampio numero di partnership attivate, la chiarezza delle finalità e degli obiettivi, l'approccio sistemico e integrato, e la varietà dell'offerta formativa. Le attività come **Alternanza scuola-lavoro**, **Progetti di orientamento**, **Progetto Biblioteca**, **Progetto teatro-musical** e **Progetto ben-essere** contribuiscono significativamente a fornire agli studenti un supporto completo e personalizzato.\n\n### 4. Aree di Debolezza\n\nL'unica area di miglioramento riguarda la didattica laboratoriale, che ha ottenuto un punteggio inferiore rispetto alle altre dimensioni. Potrebbe essere utile potenziare l'offerta di laboratori specifici per l'orientamento, al fine di fornire agli studenti esperienze pratiche e concrete.\n\n### 5. Gap Analysis\n\nNon emergono gap significativi nell'offerta formativa dell'istituto. L'impegno nell'orientamento è evidente in tutte le dimensioni analizzate, e le attività proposte sono coerenti con le finalità e gli obiettivi del PTOF.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Guglielmo Marconi** dimostra un forte impegno nell'orientamento, con un approccio sistemico, integrato e orientato allo sviluppo delle competenze e delle potenzialità degli studenti. L'ampio numero di partnership attivate e la varietà dell'offerta formativa rappresentano un valore aggiunto significativo. L'istituto si conferma un punto di riferimento per l'orientamento nel territorio, contribuendo a formare cittadini consapevoli e responsabili."
+}

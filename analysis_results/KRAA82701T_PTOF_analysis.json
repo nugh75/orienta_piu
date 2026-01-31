@@ -1,0 +1,219 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "KRAA82701T",
+    "denominazione": "Gianni Rodari",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Mesoraca",
+    "anno_ptof": "2022-2025",
+    "provincia": "Crotone",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S.Paolo",
+    "cap": "88838",
+    "email": "kric827001@istruzione.it",
+    "pec": "ND",
+    "website": "www.icmorolamanna.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Accademia Ambrosiana",
+        "Parrocchia di Dergano",
+        "Scuola dell’infanzia",
+        "Scuola Primaria",
+        "Associazioni della zona 9"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Visite culturali",
+      "descrizione_e_metodologia": "Visite a luoghi di interesse storico e culturale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio teatrale",
+      "categoria_principale": "Attività espressive",
+      "descrizione_e_metodologia": "Laboratorio per sviluppare creatività e espressività",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Corso sportivo di Ultimate-frisbee",
+      "categoria_principale": "Attività sportive",
+      "descrizione_e_metodologia": "Pratica dello sport di squadra",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "Corso di potenziamento della lingua inglese",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Visione di cortometraggi/film in inglese, guide alla visione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cineforum in inglese",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Visione film/serie in inglese, comprensione, rielaborazione",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Matematica e Tecnologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Realizzazione progetti in gruppo, modelli in scala",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Corso di introduzione al latino",
+      "categoria_principale": "Corsi",
+      "descrizione_e_metodologia": "Confronto italiano-latino, traduzione",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Circolo letterario",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Scelta libri, commenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Messa in scena teatrale",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Ispirata a testi letti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite a realtà lavorative",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Geografia in inglese",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Studio della geografia in lingua inglese in terza media.",
+      "target": "Studenti di terza media"
+    },
+    {
+      "titolo_attivita": "Incontri per l’orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con Rettore e Preside per criteri scelta scuola secondaria",
+      "target": "Alunni classe seconda"
+    },
+    {
+      "titolo_attivita": "Colloqui di iscrizione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloquio con la presidenza per presentazione alunno",
+      "target": "Nuovi iscritti"
+    },
+    {
+      "titolo_attivita": "Progetto Nove+",
+      "categoria_principale": "Potenziamento offerta formativa",
+      "descrizione_e_metodologia": "Potenziamento offerta formativa a sostegno delle famiglie, integrazione con il territorio.",
+      "target": "Scuole e associazioni della zona 9"
+    },
+    {
+      "titolo_attivita": "Formazione inclusiva",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Formazione su integrazione bambini con disprassia e disabilità sensoriali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione Coding",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Acquisizione competenze coding da trasferire nella didattica.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF KRAA82701T\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Gianni Rodari** di Mesoraca (Crotone), relativo al triennio 2022-2025. La scuola, di ordine **Infanzia**, statale e situata in un contesto territoriale non metropolitano della regione **Calabria**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni valutate. L'istituto si propone di sviluppare le attitudini, gli interessi, il progetto di vita e le capacità orientative degli studenti, con un'attenzione particolare alla continuità territoriale e al lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, confermando l'importanza attribuita a questo aspetto.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** consolidato, che include **Accademia Ambrosiana**, la **Parrocchia di Dergano**, altre scuole dell’**Infanzia** e **Primaria**, e diverse **Associazioni della zona 9**. Questo approccio collaborativo rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi, il progetto di vita e le capacità orientative degli studenti, preparando i ragazzi alle transizioni formative. Tutte le aree considerate raggiungono un punteggio di 4, indicando un'attenzione equilibrata a tutti gli aspetti.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un punteggio di 2 per la **continuita territoriale**, suggerendo un focus su questo aspetto. Gli obiettivi di riduzione dell'abbandono e contrasto al fenomeno NEET risultano meno prioritari, con un punteggio di 0. L'obiettivo di promuovere il **lifelong learning** ottiene un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono diversificate e comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'integrazione delle fragilità. Il rapporto scuola-genitori spicca con un punteggio di 5, mentre il monitoraggio delle azioni risulta un'area di miglioramento con un punteggio di 0.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, come l'apprendimento dall'esperienza, la flessibilità degli spazi e dei tempi, e l'interdisciplinarità. Particolarmente apprezzata è la didattica interdisciplinare, con un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni culturali, laboratoriali, ludiche, di volontariato e sportive. Tutte le aree raggiungono punteggi elevati, dimostrando un'attenzione alla personalizzazione dell'offerta formativa.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di **partnership**, nella chiarezza delle finalità e nella varietà delle attività proposte. L'attenzione al rapporto scuola-genitori e alla didattica interdisciplinare rappresentano ulteriori elementi positivi. Le attività come **Uscite didattiche**, **Laboratorio teatrale**, **Corso sportivo di Ultimate-frisbee**, **Corso di potenziamento della lingua inglese** e **Cineforum in inglese** arricchiscono l'offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano la scarsa attenzione agli obiettivi di riduzione dell'abbandono e contrasto al fenomeno NEET, nonché la mancanza di un sistema di monitoraggio efficace delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di rafforzare le azioni volte a prevenire l'abbandono scolastico e a contrastare la dispersione formativa. Inoltre, è fondamentale implementare un sistema di monitoraggio che permetta di valutare l'efficacia delle attività di orientamento e di apportare eventuali correzioni in itinere.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **Gianni Rodari** si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del processo educativo. Nonostante alcune aree di miglioramento, la scuola dimostra un forte impegno verso lo sviluppo delle competenze e delle capacità degli studenti, preparandoli ad affrontare le sfide del futuro. Progetti come **Progetto Nove+** e la **Formazione inclusiva** e **Formazione Coding** per i docenti dimostrano un impegno verso l'innovazione e l'inclusione. L'attività di **Incontri per l’orientamento** e i **Colloqui di iscrizione** sono fondamentali per accompagnare gli studenti nelle scelte future."
+}

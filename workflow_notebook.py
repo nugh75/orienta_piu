@@ -181,10 +181,17 @@ def _extract_code_from_name(file_name):
     return candidates[0] if candidates else None
 
 
-def _remove_pdf_by_name(file_name):
+def _remove_pdf_by_name(file_name, target_dirs=None):
     stem = Path(file_name).stem
-    search_dirs = [INBOX_DIR] + [d for d in DISCARDED_DIRS if d.exists()]
+    # DEFAULT: Remove ONLY from INBOX (never from discarded/archived folders unless explicitly requested)
+    if target_dirs is None:
+        search_dirs = [INBOX_DIR]
+    else:
+        search_dirs = target_dirs
+        
     for base in search_dirs:
+        if not base.exists():
+            continue
         for path in base.glob(f"{stem}*.pdf"):
             try:
                 path.unlink()

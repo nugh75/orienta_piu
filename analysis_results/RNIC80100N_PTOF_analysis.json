@@ -1,0 +1,314 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RNIC80100N",
+    "denominazione": "Ic S. Giovanni In Marignano",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "San Giovanni In Marignano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Rimini",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Ferrara 30",
+    "cap": "47842",
+    "email": "rnic80100n@istruzione.it",
+    "pec": "rnic80100n@pec.istruzione.it",
+    "website": "www.icmarignano.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è affrontato all'interno di diverse sezioni del PTOF, ma non è presente una sezione dedicata specificamente a questo tema."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Parrocchie",
+        "Associazioni culturali",
+        "Società sportive",
+        "ASL",
+        "Amministrazione Comunale",
+        "Consulenti esterni",
+        "Nuova Polisportiva Consolini",
+        "Ente Locale",
+        "Associazione dei genitori \"Scuolinfesta\"",
+        "Polizia Municipale",
+        "Avis",
+        "Hera",
+        "SGR",
+        "ex alunni",
+        "genitori",
+        "psicologo"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di formazione",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corsi su competenze digitali, metodologie didattiche, sistemi valutativi",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Creazione griglie di osservazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Griglie per competenze sociali e civiche",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Ampliamento curricolo",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Produzione UDA annuali con focus su competenze sociali e civiche",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Momenti di condivisione tra alunni degli anni ponte per favorire un passaggio graduale e sereno.",
+      "target": "Alunni Infanzia, Primaria, Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Ampliamento Educazione Motoria",
+      "categoria_principale": "Sport e benessere",
+      "descrizione_e_metodologia": "Percorso sportivo con Nuova Polisportiva Consolini per promuovere crescita personale e integrazione.",
+      "target": "Alunni di tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Recupero e Potenziamento",
+      "categoria_principale": "Sostegno all'apprendimento",
+      "descrizione_e_metodologia": "Interventi mirati per recupero/potenziamento competenze linguistiche e logico-matematiche.",
+      "target": "Alunni con difficoltà/eccellenze"
+    },
+    {
+      "titolo_attivita": "Facciamo l’orto",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Utilizzo orto/serra, temi alimentazione, biodiversità, inclusione.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Innoviamo la didattica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "UDA per competenze, metodologie innovative, tecnologie.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Sportello d’ascolto",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Consulenza psicologica, colloqui, interventi in classe.",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Progetti di accoglienza studenti stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Alfabetizzazione, lingua italiana, classi aperte",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con team docenti e famiglia",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Didattica Digitale Integrata",
+      "categoria_principale": "DDI",
+      "descrizione_e_metodologia": "Utilizzo di piattaforme digitali per integrare la didattica in presenza.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sportello informativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Docenti scuole territorio presentano organizzazione",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alunno per un giorno",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita scuole secondarie e partecipazione lezioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Docente per un giorno",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Alunni organizzano attività/lezioni su passioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Ex alunni si raccontano",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con ex alunni per racconto percorsi",
+      "target": "Alunni classi terze"
+    },
+    {
+      "titolo_attivita": "Genitori si raccontano",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Racconto esperienza formativa e lavorativa",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Educando stradando",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Collaborazione Polizia Municipale, apprendimento regole strada",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Educazione ambientale e alla salute",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Progetti sensibilizzazione, laboratori",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "In viaggio verso l’altro",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Convivenza, rispetto reciproco, emozioni",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Cittadinanza digitale",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Incontri, attività, rischi social network",
+      "target": "Scuola Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto \"Una scuola a 360°\"",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività extra scolastiche per alunni con criticità",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto qualificazione scuole infanzia",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività per sviluppare creatività e intercultura",
+      "target": "Bambini scuola infanzia"
+    },
+    {
+      "titolo_attivita": "Avviamento alla pratica sportiva",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Centro sportivo scolastico con varie discipline",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Comunicazione e realizzazione di un ponte di esperienze condivise tra i diversi ordini di scuola.",
+      "target": "Alunni scuola dell'Infanzia e quinta Primaria"
+    },
+    {
+      "titolo_attivita": "Approccio alla lingua inglese",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Attività didattiche per favorire un primo approccio alla lingua inglese nella scuola dell'infanzia.",
+      "target": "Bambini scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Piedibus",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Accompagnamento a piedi dei bambini a scuola con accompagnatori volontari.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Recupero e potenziamento",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Interventi individualizzati per recuperare carenze e potenziare competenze in italiano, inglese e matematica.",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Ampliamento offerta formativa educazione motoria",
+      "categoria_principale": "Ampliamento offerta formativa",
+      "descrizione_e_metodologia": "Percorso sportivo per diffondere la conoscenza e pratica di sport minori.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Recupero e Potenziamento scuola secondaria I grado",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Attività di recupero/potenziamento in italiano, inglese e matematica.",
+      "target": "Alunni scuola secondaria I grado"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RNIC80100N\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic S. Giovanni In Marignano** (RNIC80100N) per il triennio 2022-2025. La scuola, situata in **Emilia Romagna** e operante nel territorio **non metropolitano** di **San Giovanni In Marignano**, si configura come un istituto **statale** che abbraccia i gradi di **Infanzia, Primaria e Secondaria di I grado**. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata a questo tema all'interno del PTOF. L'orientamento è infatti affrontato in maniera trasversale, integrato in diverse aree del piano.\n\n### 2. Analisi Dimensionale\n\nL'orientamento, nel PTOF, si articola su diverse dimensioni. Per quanto riguarda le **finalità**, si riscontra un forte orientamento verso lo sviluppo delle **attitudini**, degli **interessi** degli studenti, del loro **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Gli **obiettivi** delineati mirano a ridurre l'**abbandono scolastico**, a favorire la continuità con il **territorio**, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**, sebbene quest'ultimo aspetto risulti meno sviluppato rispetto agli altri.\n\nLe **azioni** intraprese dal sistema scolastico si concentrano sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul rafforzamento del **rapporto scuola-genitori** e sull'implementazione di un **sistema integrato di inclusione e fragilità**. Particolare attenzione è rivolta al **monitoraggio delle azioni** intraprese. La **didattica orientativa** si basa sull'apprendimento attraverso l'esperienza diretta degli studenti, sull'utilizzo di metodologie **laboratoriali**, sulla flessibilità degli spazi e dei tempi e sull'approccio **interdisciplinare**. L'offerta di **attività opzionali e facoltative** comprende iniziative **culturali**, **laboratoriali ed espressive**, **sportive** e di **volontariato**, con un minore focus su attività prettamente ludiche o ricreative.\n\n### 3. Punti di Forza\n\nUn punto di forza del PTOF è la vasta rete di **partnership** attivate dalla scuola, che include **parrocchie**, **associazioni culturali**, **società sportive**, l'**ASL**, l'**amministrazione comunale**, **consulenti esterni**, la **Nuova Polisportiva Consolini**, l'**ente locale**, l'**associazione dei genitori \"Scuolinfesta\"**, la **polizia municipale**, l'**Avis**, **Hera**, **SGR**, **ex alunni**, **genitori** e un **psicologo**. Questa collaborazione permette di ampliare l'offerta formativa e di offrire agli studenti un'ampia gamma di opportunità. L'impegno verso l'inclusione, con particolare attenzione ai bisogni degli studenti con fragilità, rappresenta un altro elemento positivo. Le attività registrate, come i **Corsi di formazione** per i docenti, la **Creazione griglie di osservazione** e l'**Ampliamento curricolo**, dimostrano un approccio proattivo e orientato al miglioramento continuo. Il **Progetto Continuità** e l'**Ampliamento Educazione Motoria** sono esempi concreti di iniziative volte a favorire la transizione tra i diversi gradi di istruzione e a promuovere il benessere degli studenti.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, l'assenza di una sezione dedicata specificamente all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia affrontato in diverse sezioni, la mancanza di un focus specifico potrebbe limitare la sua efficacia. L'attività **Didattica labororiale** risulta meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, definendo obiettivi specifici, azioni mirate e indicatori di successo. È auspicabile che il PTOF integri una sezione dedicata all'orientamento, che delinei le strategie per potenziare le competenze orientative degli studenti, per favorire la loro consapevolezza delle proprie attitudini e interessi e per supportarli nella costruzione del loro progetto di vita.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Ic S. Giovanni In Marignano dimostra un impegno significativo verso l'orientamento, sebbene questo sia affrontato in maniera trasversale e non sia presente una sezione dedicata. La vasta rete di partnership, l'attenzione all'inclusione e le numerose attività intraprese rappresentano punti di forza. Per migliorare l'efficacia dell'orientamento, è auspicabile che il PTOF integri una sezione specifica, che delinei obiettivi, azioni e indicatori di successo. Le attività come **Alunno per un giorno**, **Ex alunni si raccontano** e **Genitori si raccontano** sono particolarmente rilevanti per l'orientamento. L'implementazione di queste azioni, unitamente a un approccio più strutturato, permetterà alla scuola di offrire agli studenti un supporto ancora più efficace nella costruzione del loro futuro."
+}

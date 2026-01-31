@@ -1,0 +1,374 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MIEE8AQ017",
+    "denominazione": "Primaria Buscaglia",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Cinisello Balsamo",
+    "anno_ptof": "2022-2025",
+    "provincia": "Milano",
+    "regione": "Lombardia",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Paisiello 4",
+    "cap": "20092",
+    "email": "miic8aq005@istruzione.it",
+    "pec": "ND",
+    "website": "www.icbuscaglia.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sezione dedicata all'offerta formativa"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "servizi sociali",
+        "associazionismo religioso o laico",
+        "Università di Milano",
+        "Comune di Cinisello Balsamo",
+        "AIDD",
+        "Legambiente",
+        "CIR",
+        "Fondazione Edith Stein",
+        "Mufoco",
+        "PIME"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 6
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sport",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Finanziate tramite bandi PON-FSE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Digitale",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Finanziate tramite bandi PON-FSE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Summer school",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Finanziate tramite bandi PON-FSE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Finanziate tramite bandi PON-FSE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Inglese",
+      "categoria_principale": "Opzionali",
+      "descrizione_e_metodologia": "Finanziate tramite bandi PON-FSE",
+      "target": "Studenti scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza/Ambientamento",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Incontri genitori, questionari, merenda e laboratori",
+      "target": "Nuovi iscritti"
+    },
+    {
+      "titolo_attivita": "Progetto Raccordo",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio visite, incontri tra scuola primaria e infanzia",
+      "target": "Alunni di 5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto Genitori",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri, assemblee, colloqui, formazione",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Fare Scuola In Giardino",
+      "categoria_principale": "Didattica all'aperto",
+      "descrizione_e_metodologia": "Educazione all'aperto, valorizzazione ambiente",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Scuola in festa",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Organizzazione e allestimento feste scolastiche",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Biblioteca",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Prestito libri settimanale",
+      "target": "Tutta la scuola"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività teatrali per bambini di 5 anni",
+      "target": "Bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Progetto Orto",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Progetto Presepe",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Progetto Educazione Motoria",
+      "categoria_principale": "Motricità",
+      "descrizione_e_metodologia": "N/A",
+      "target": "N/A"
+    },
+    {
+      "titolo_attivita": "Progetto Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "N/A",
+      "target": "Bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Stracinisello",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Gara dilettantistica con genitori",
+      "target": "Insegnanti, genitori, bambini"
+    },
+    {
+      "titolo_attivita": "PROGETTO ACCOGLIENZA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire l'inserimento graduale dei nuovi alunni",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "WORD LAUNCHING",
+      "categoria_principale": "Sviluppo Emotivo",
+      "descrizione_e_metodologia": "Lettura di albi illustrati",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "EDUCAZIONE ALL'AFFETTIVITÀ",
+      "categoria_principale": "Sviluppo Emotivo",
+      "descrizione_e_metodologia": "Esternare emozioni e paure",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "COORDINAMENTO PEDAGOGICO",
+      "categoria_principale": "Sviluppo Classe",
+      "descrizione_e_metodologia": "Coinvolge docenti e classi",
+      "target": "Classi prime e altre individuate"
+    },
+    {
+      "titolo_attivita": "EDUCAZIONE AL GESTO GRAFICO",
+      "categoria_principale": "Prevenzione Difficoltà",
+      "descrizione_e_metodologia": "Educazione al gesto grafico e postura",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "PROGETTO SCACCHI",
+      "categoria_principale": "Sviluppo Logico",
+      "descrizione_e_metodologia": "Sviluppo capacità logiche e attenzione",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "SCUOLA ATTIVA KIDS",
+      "categoria_principale": "Attività Motoria",
+      "descrizione_e_metodologia": "Incoraggiare l'attività fisica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PROGETTO CLIL",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Arte e immagine in inglese",
+      "target": "Classi prime, seconde e terze"
+    },
+    {
+      "titolo_attivita": "PROGETTO DI MUSICA",
+      "categoria_principale": "Cultura Musicale",
+      "descrizione_e_metodologia": "Percorso di formazione musicale",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "PROGETTO ATELIER",
+      "categoria_principale": "Progettazione",
+      "descrizione_e_metodologia": "Condivisione progettazione e documentazione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FRUTTA E LATTE NELLE SCUOLE",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Abitudini alimentari sane",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PROGETTO RACCORDO - CONTINUITÀ",
+      "categoria_principale": "Transizioni",
+      "descrizione_e_metodologia": "Accompagnare i bambini nel passaggio tra scuole",
+      "target": "Bambini e ragazzi"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per accogliere i nuovi studenti",
+      "target": "Nuovi studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Raccordo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori/lezioni di prova per classi quinte primaria",
+      "target": "Classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riflessioni e attività per la scelta della scuola secondaria",
+      "target": "Classi prime, seconde, terze"
+    },
+    {
+      "titolo_attivita": "Progetto Biblioteca",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Promozione della lettura",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Feste",
+      "categoria_principale": "Socializzazione",
+      "descrizione_e_metodologia": "Organizzazione di feste scolastiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi e Visite di Istruzione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Uscite didattiche",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto 'Star Bene a Scuola'",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Cura del benessere degli studenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri sincroni",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Incontri settimanali in modalità sincrona per mantenere vivo il gruppo classe e l'apprendimento.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Utilizzo piattaforme digitali",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Utilizzo di Google Classroom per attività asincrone e sincrone.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Apprendimento cooperativo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavori in piccolo gruppo con ruoli assegnati",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Peer tutoring",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Mentoring da parte di pari preparati",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per costruire il sapere",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MIEE8AQ017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) della scuola Primaria Buscaglia (MIEE8AQ017) per il triennio 2022-2025, con particolare attenzione all'area dell'orientamento. L'istituto, situato nel territorio metropolitano di Cinisello Balsamo (Milano), si configura come una scuola statale primaria. L'analisi evidenzia un impegno significativo verso l'orientamento, come dimostrato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni considerate. La scuola si avvale di una rete di **partnership** consolidata e diversificata, che include **servizi sociali**, **associazionismo religioso o laico**, l'**Università di Milano**, il **Comune di Cinisello Balsamo**, **AIDD**, **Legambiente**, **CIR**, la **Fondazione Edith Stein**, **Mufoco** e **PIME**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'offerta formativa, ottenendo un punteggio di 4, indicando una chiara attenzione alla strutturazione e presentazione dell'orientamento.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (10), con un punteggio di 5, suggerendo una forte collaborazione con enti e istituzioni esterne per potenziare l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e ambiziose, con punteggi massimi (5 e 6) per le aree relative alle **attitudini**, agli **interessi**, al **progetto di vita**, alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono mirati, con punteggi elevati (6) per la riduzione dell'**abbandono** scolastico e la promozione della continuità territoriale. L'obiettivo di contrastare il fenomeno **NEET** risulta meno prioritario, con un punteggio di 3, mentre l'importanza del **lifelong learning** è ben evidenziata (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'implementazione dell'orientamento sono solide, con punteggi elevati (5 e 6) per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con punteggi elevati (5 e 6) per l'utilizzo di metodologie esperienziali, la **didattica laboratoriale**, la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con punteggi variabili. Le opzionali **laboratoriali ed espressive** ottengono il punteggio più alto (6), mentre quelle **culturali**, **ludiche-ricreative** e di **volontariato** presentano un punteggio inferiore (4). Le opzionali **sportive** raggiungono un punteggio di 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiarezza delle finalità, nella solidità delle **partnership**, nella varietà delle azioni di sistema e nell'approccio didattico innovativo. L'attenzione alla riduzione dell'**abbandono** scolastico e alla continuità territoriale rappresenta un valore aggiunto significativo. L'ampia gamma di attività proposte, tra cui **Sport**, **Digitale**, **Summer school**, **Orientamento**, **Inglese**, **Progetto Accoglienza/Ambientamento**, **Progetto Raccordo**, **Progetto Genitori**, **Fare Scuola In Giardino**, **Scuola in festa**, **Biblioteca**, **Progetto Teatro**, **Progetto Orto**, **Progetto Presepe**, **Progetto Educazione Motoria**, **Progetto Inglese**, **Stracinisello**, **PROGETTO ACCOGLIENZA**, **WORD LAUNCHING**, **EDUCAZIONE ALL'AFFETTIVITÀ**, **COORDINAMENTO PEDAGOGICO**, **EDUCAZIONE AL GESTO GRAFICO**, **PROGETTO SCACCHI**, **SCUOLA ATTIVA KIDS**, **PROGETTO CLIL**, **PROGETTO DI MUSICA**, **PROGETTO ATELIER**, **FRUTTA E LATTE NELLE SCUOLE**, **PROGETTO RACCORDO - CONTINUITÀ**, **Progetto Accoglienza**, **Progetto Raccordo**, **Progetto Orientamento**, **Progetto Biblioteca**, **Progetto Feste**, **Viaggi e Visite di Istruzione**, **Progetto 'Star Bene a Scuola'**, **Incontri sincroni**, **Utilizzo piattaforme digitali**, **Apprendimento cooperativo**, **Peer tutoring**, **Didattica laboratoriale**, dimostra un impegno concreto nella realizzazione di un'offerta formativa completa e stimolante.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno **NEET**, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Potrebbe essere necessario rafforzare le azioni mirate a prevenire la dispersione scolastica e a favorire l'inserimento nel mondo del lavoro.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre l'impegno teorico in azioni concrete e misurabili per il raggiungimento degli obiettivi, in particolare per quanto riguarda la prevenzione del fenomeno **NEET**. È auspicabile un monitoraggio costante delle attività e una valutazione dei risultati ottenuti per garantire l'efficacia dell'intervento orientativo.\n\n### 6. Conclusioni\n\nIl PTOF della scuola Primaria Buscaglia presenta un quadro generale positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la solidità delle **partnership**, la chiarezza delle finalità e l'innovazione didattica rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come uno strumento valido per guidare l'azione educativa e garantire un futuro migliore per gli studenti."
+}

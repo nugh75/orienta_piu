@@ -543,6 +543,7 @@ def main() -> int:
 
     for _ in range(args.max_cycles):
         cycle_id += 1
+        cycle_start_time = datetime.now().isoformat()
         logger.info("=" * 80)
         logger.info(f"CICLO {cycle_id} | target_totale={target_total}")
 
@@ -730,7 +731,7 @@ def main() -> int:
         start_entry = {
             "status": "started",
             "cycle_id": cycle_id,
-            "timestamp": datetime.now().isoformat(),
+            "timestamp": cycle_start_time,
             "target_total": target_total,
             "target_step": args.target_step,
             "per_strato_step": args.per_strato_step,
@@ -909,7 +910,27 @@ def main() -> int:
         entry = {
             "status": "completed",
             "cycle_id": cycle_id,
-            "timestamp": datetime.now().isoformat(),
+            "timestamp": cycle_start_time,
+            "method": "stratified",
+            "ai_config": {
+                "workflow": {
+                    "provider": args.provider_workflow,
+                    "model": args.model_workflow,
+                    "analyst": args.analyst,
+                    "reviewer": args.reviewer,
+                    "refiner": args.refiner,
+                    "synthesizer": args.synthesizer
+                },
+                "validation": {
+                    "provider": args.validation_provider,
+                    "model": args.validation_model
+                },
+                "activity": {
+                    "enabled": args.with_activity,
+                    "provider": args.provider_activity,
+                    "model": args.model_activity
+                }
+            },
             "target_total": target_total,
             "target_step": args.target_step,
             "per_strato_step": args.per_strato_step,

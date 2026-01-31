@@ -574,6 +574,20 @@ di un'analisi.
 """
 )
 
+st.subheader("Manutenzione e Pulizia del Dataset")
+st.markdown(
+    """
+    Alla fine dei cicli di estrazione, è fondamentale garantire l'integrità referenziale del dataset.
+    Il sistema include uno strumento dedicato (`make clean-ptof-codes`) che esegue tre controlli incrociati:
+
+    1.  **Analisi Nome File vs Contenuto**: Verifica che il codice meccanografico nel nome del file corrisponda a quello dichiarato all'interno del PTOF.
+    2.  **Rilevamento "Impostori"**: Identifica file scaricati correttamente ma appartenenti ad altre scuole (errore frequente nei siti web scolastici che pubblicano PTOF di reti o scuole aggregate).
+    3.  **Standardizzazione**: Propone la rinomina dei file per mantenere la convenzione `CODICE_PTOF.md` e sposta in una cartella di "quarantena" i file non riconciliabili.
+
+    Questo processo assicura che ogni analisi statistica si basi su dati certi e correttamente attribuiti.
+    """
+)
+
 st.markdown("---")
 
 st.header("Revisori e Controllo Qualità")
