@@ -1,0 +1,262 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOAA80601E",
+    "denominazione": "Carlo Collodi",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Pieve Di Cento",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Circonvallazione Levante 9",
+    "cap": "40066",
+    "email": "boic80600n@istruzione.it",
+    "pec": "ND",
+    "website": "http//www.iccavicchi.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata e strutturata come tale."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Contesti professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei e software CAD.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore odontotecnico.",
+      "target": "Studenti classi IV e V"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo workstation EXOCAD, scanner, stampante 3d e fresatrice.",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per docenti sull'utilizzo di mappe mentali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Frequenza laboratori PCTO durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio di gruppo",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività in orario extra curricolare per studio di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie per valutare PCTO.",
+      "target": "Studenti PCTO"
+    },
+    {
+      "titolo_attivita": "Elenco diplomati",
+      "categoria_principale": "Alumni",
+      "descrizione_e_metodologia": "Creazione elenco diplomati titolari di laboratorio.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Progetto organico con tecnologie CAD, scanner, stampante 3D.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOAA80601E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Carlo Collodi** (BOAA80601E), istituto di grado **Infanzia** situato nel territorio **Metropolitano** di **Pieve Di Cento** (Bologna), **Emilia Romagna**. L'analisi si basa sui dati forniti, valutando l'organizzazione, le finalità, gli obiettivi, le azioni e le attività implementate. Il PTOF dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata e strutturata come tale. L'istituto si distingue per una solida rete di **partnership** con il territorio e un'attenzione particolare all'inclusione e all'utilizzo di metodologie didattiche innovative.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento, pur presente in diverse attività, non beneficia di una sezione dedicata e strutturata all'interno del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un elevato livello di collaborazione con il mondo esterno, come evidenziato dal punteggio di 5. Tra i **partner** nominati figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato**, **ISRAT**, **aziende accreditate** e **aziende di settore**, per un totale di 6 collaborazioni attive.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirate allo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** rispetto alle opportunità, ottenendo un punteggio di 4 per ciascuna di queste aree.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono** scolastico, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Il punteggio varia tra 3 e 4 a seconda dell'obiettivo specifico.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento sono particolarmente efficaci nel **coordinamento dei servizi** (punteggio 7), mentre il **dialogo tra docenti e studenti** e il **rapporto scuola-genitori** ricevono punteggi di 4 e 3 rispettivamente. Il **monitoraggio delle azioni** è valutato con un punteggio di 3, e il **sistema integrato di inclusione e fragilità** con un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza** degli studenti e sull'utilizzo di **laboratori**, ottenendo un punteggio di 4 per entrambe le aree. La **flessibilità degli spazi e dei tempi** è valutata con un punteggio di 3, mentre l'approccio **interdisciplinare** raggiunge un punteggio di 4.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 3 e 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte connessione con il territorio, testimoniata dalle numerose **partnership** attivate. L'istituto dimostra un impegno concreto nell'offrire agli studenti opportunità di **stage** e di **orientamento** attraverso attività pratiche come **PCTO** presso aziende e l'**Archivio di Stato**. L'attenzione all'**inclusione**, con attività come la **Realizzazione audiolibri** per studenti con **DSA** e il **Servizio di Sostegno Educativo**, rappresenta un ulteriore elemento distintivo. L'utilizzo di metodologie didattiche innovative, come le **Mappe Mentali** e i **laboratori** tematici (es. **Attività pratiche gnatologia**, **Giochi di ruolo Diritto**), contribuisce a rendere l'apprendimento più coinvolgente ed efficace.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene le attività siano presenti e ben integrate, la mancanza di una visione strategica unitaria potrebbe limitarne l'impatto. Il punteggio relativamente basso per alcune azioni di sistema, come il **rapporto scuola-genitori** e il **monitoraggio delle azioni**, suggerisce la necessità di rafforzare questi aspetti.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento come area tematica autonoma all'interno del PTOF. È necessario definire un piano d'azione specifico, con obiettivi misurabili e indicatori di performance, per garantire una maggiore coerenza e efficacia delle attività. Inoltre, è importante potenziare le azioni di coinvolgimento delle famiglie e il monitoraggio dei risultati, al fine di valutare l'impatto dell'orientamento sul percorso formativo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Carlo Collodi** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta didattica diversificata. Pur presentando alcune aree di debolezza, l'istituto ha il potenziale per diventare un punto di riferimento per l'orientamento nel territorio, a condizione che venga formalizzata una sezione dedicata e che vengano rafforzate le azioni di sistema e il monitoraggio dei risultati. L'implementazione di attività come il **Laboratorio Simulazione Professionale** e i **PCTO estivo** dimostrano un'attenzione particolare alla preparazione degli studenti per il mondo del lavoro."
+}

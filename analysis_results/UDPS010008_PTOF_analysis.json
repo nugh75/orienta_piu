@@ -1,0 +1,302 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDPS010008",
+    "denominazione": "Liceo Scientifico \"G. Marinelli\" Udine",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Udine",
+    "anno_ptof": "2019/2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Leonardo Da Vinci 4",
+    "cap": "33100",
+    "email": "udps010008@istruzione.it",
+    "pec": "udps010008@pec.istruzione.it",
+    "website": "www.liceomarinelli.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Consorzi"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli disciplinari in inglese nel biennio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Condivisione con esperti universitari, orientamento studenti classi terze",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Rovesciamento ruoli/momenti, utilizzo strumenti tecnologici",
+      "target": "Docenti/Studenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Apprendimento e servizio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto di devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività di Coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Collaborazione con enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola/lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e progetti dedicati",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Corsi di recupero in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Definizione PEI/PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programmazione didattica, osservazione, redazione PEI/PDP",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Heraclea In Poesia",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Corso produzione poetico-espressiva",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDPS010008\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scientifico \\\"G. Marinelli\\\" Udine** (UDPS010008) con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo all'anno **2019/2021/22**, evidenzia un impegno significativo verso l'orientamento, come dimostra la presenza di una sezione dedicata e un punteggio complessivo positivo nelle diverse aree valutate. La scuola, situata nel territorio non metropolitano del **Friuli-Venezia Giulia**, si propone di offrire un percorso formativo completo che tenga conto delle attitudini, degli interessi e del progetto di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità necessarie per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che testimonia l'importanza attribuita a questo aspetto dall'istituzione scolastica.\n\n**2.2 Partnership:** La scuola vanta un network di **15 partner**, tra cui **AGROBIOS**, **Museo Archeologico Nazionale della Siritide**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, e diverse **Associazioni** e **Consulenti esterni**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti, offrendo opportunità di contatto con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, nonché il supporto alle loro **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future. I punteggi ottenuti (3-4) indicano un buon livello di attenzione a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale**, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**. I punteggi ottenuti (3-4) suggeriscono un impegno concreto verso il raggiungimento di questi traguardi.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** stesse. Viene inoltre sottolineata l'importanza di un **sistema integrato di inclusione e fragilità**. I punteggi ottenuti (3-4) indicano un buon livello di efficacia di queste azioni.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. I punteggi ottenuti (3-4) evidenziano l'importanza attribuita a metodologie didattiche innovative e partecipative.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende moduli **culturali**, **laboratoriali ed espressivi**, **ludico-ricreativi**, di **volontariato** e **sportivi**. I punteggi ottenuti (2-4) suggeriscono una buona varietà di proposte, con un'attenzione particolare alle attività culturali e laboratoriali.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento, supportata da una solida rete di **partnership** con enti e associazioni del territorio. L'impegno verso lo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, unitamente all'utilizzo di metodologie didattiche innovative come il **service learning** e la **flipped classroom**, rappresenta un valore aggiunto significativo. L'ampia gamma di attività proposte, tra cui **stage ASL**, **certificazioni linguistiche**, **microconferenze** e **progetti territoriali integrati**, offre agli studenti numerose opportunità di crescita e di orientamento.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree del PTOF potrebbero essere ulteriormente rafforzate. In particolare, l'attenzione alle attività **ludico-ricreative** potrebbe essere incrementata, così come l'impegno per la **riduzione dell'abbandono** scolastico e la **lotta al fenomeno NEET**. Il **monitoraggio delle azioni** intraprese potrebbe essere reso più sistematico e rigoroso, al fine di valutare l'efficacia delle strategie implementate.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi dichiarati e le azioni concrete è minimo, ma è necessario garantire un maggiore coordinamento tra i diversi servizi e attori coinvolti nell'orientamento. L'integrazione delle attività di orientamento all'interno del curricolo scolastico potrebbe essere potenziata, al fine di renderle più pervasive e significative per gli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Scientifico \\\"G. Marinelli\\\" Udine** presenta un approccio all'orientamento ben strutturato e coerente con le finalità dell'istituzione scolastica. La presenza di una sezione dedicata, la solida rete di **partnership** e l'impegno verso lo sviluppo delle **competenze** degli studenti rappresentano elementi di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF si configura come uno strumento efficace per guidare gli studenti verso scelte consapevoli e responsabili, facilitando le loro **transizioni formative** e preparandoli ad affrontare le sfide del futuro. Le attività come **Cittadinanza E Costituzione**, **Gemellaggi** e **Teatro Antico E Moderno** contribuiscono a formare cittadini consapevoli e attivi."
+}

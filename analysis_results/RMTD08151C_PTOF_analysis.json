@@ -1,0 +1,272 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMTD08151C",
+    "denominazione": "Percorso Ii Livello Da Verrazzano",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2018/2019 2019/2020 2020/2021",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Contardo Ferrini N. 83 - Tel. 06/121122505",
+    "cap": "00173",
+    "email": "rmis08100r@istruzione.it",
+    "pec": "ND",
+    "website": "www.iisenzoferrari.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento integrate in altre sezioni, non una sezione dedicata."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti locali",
+        "associazioni dei genitori",
+        "associazioni",
+        "enti pubblici",
+        "privati",
+        "Regione Toscana",
+        "Osservatorio Permanente Giovani-Editori",
+        "associazioni",
+        "enti pubblici",
+        "enti privati"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ospitare studenti in alternanza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con i genitori",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Condivisione documenti rilevanti",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Percorsi di Alternanza Scuola – Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strutturati per il raggiungimento della Certificazione delle Competenze",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Corsi di Microspecializzazione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Acquisizione Qualifica Regionale",
+      "target": "Studenti Professionali"
+    },
+    {
+      "titolo_attivita": "Stages aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a stages aziendali a partire dal secondo anno",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate presso aziende locali.",
+      "target": "Studenti di tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Formazione e sensibilizzazione bullismo/cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Corsi, dibattiti, elaborazione questionari, supervisione intervalli, incontri genitori",
+      "target": "Studenti, genitori, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Libretto Di Navigazione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Possibilità di seguire gli allievi per il rilascio del Libretto di Navigazione.",
+      "target": "ITN"
+    },
+    {
+      "titolo_attivita": "Corsi Radar",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Corsi con nuovi simulatori per patenti.",
+      "target": "Ufficiali"
+    },
+    {
+      "titolo_attivita": "Progetti Iefp",
+      "categoria_principale": "Orientamento/Formazione",
+      "descrizione_e_metodologia": "Qualifica professionale per alunni che lasciano il percorso scolastico.",
+      "target": "Classi I, II, III Professionali"
+    },
+    {
+      "titolo_attivita": "Progetti Di Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetto articolato in tre fasi: ingresso, itinere, uscita.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Il Giornale In Classe",
+      "categoria_principale": "Educazione Civica/Lettura",
+      "descrizione_e_metodologia": "Lettura e analisi di articoli di giornale.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Open Restaurant",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Simulazione di un ristorante per competenze pratiche.",
+      "target": "Enogastronomico"
+    },
+    {
+      "titolo_attivita": "Stage Linguistico in Francia",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Alloggio in famiglia, corso di lingua francese, visite culturali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage Linguistico in Spagna",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Alloggio in famiglia, corso di lingua spagnola, visite culturali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage Linguistico in Germania",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Stage presso redazione giornale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggi Istruzione",
+      "categoria_principale": "Viaggi",
+      "descrizione_e_metodologia": "Organizzati in base a esigenze formative e sociali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Portfolio Linguistico",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Corsi per certificazioni linguistiche (KET, PET, DELF, DELE, FIT).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Teatro in Laguna",
+      "categoria_principale": "Attività Culturale",
+      "descrizione_e_metodologia": "Letture espressive di autori italiani.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ECDL",
+      "categoria_principale": "Certificazioni",
+      "descrizione_e_metodologia": "Corsi e esami per Patente Europea del Computer.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Alternanza",
+      "descrizione_e_metodologia": "Stage presso aziende locali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Drop-Out",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Percorsi per studenti usciti dal percorso scolastico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Nautico in Qualità",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione curricolo scolastico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Basic Training",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi obbligatori per personale imbarcato.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMTD08151C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Percorso Ii Livello Da Verrazzano** (RMTD08151C), un istituto tecnico di secondo grado situato a Roma. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, sebbene non presenti una sezione specificamente dedicata, ma piuttosto attività integrate in altre aree. La scuola si distingue per la sua capacità di stringere **partnership** con diversi soggetti, tra cui **enti locali**, **associazioni**, **enti pubblici** e **privati**, e per la varietà di attività proposte agli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'orientamento non è trattato in una sezione autonoma del PTOF, ma è integrato in altre aree tematiche. Questo approccio, sebbene funzionale, potrebbe limitare la visibilità e la coerenza delle azioni intraprese.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di **partnership**, con un totale di 6 partner nominati. La collaborazione con **Regione Toscana** e **Osservatorio Permanente Giovani-Editori** evidenzia un interesse per l'ampliamento delle opportunità formative e professionali per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, le capacità di transizione formativa e la consapevolezza delle **opportunità** offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico**, il rafforzamento del legame con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. Sebbene gli obiettivi siano ambiziosi, alcuni, come quello relativo al contrasto dei NEET, presentano un punteggio leggermente inferiore rispetto agli altri.\n\n**2.5 Azioni di Sistema:**\n\nLa scuola implementa un sistema di orientamento basato sul **coordinamento dei servizi**, sul **dialogo tra docenti e studenti**, sul rapporto con i **genitori**, sul **monitoraggio delle azioni** e sull'integrazione di interventi di **inclusione** per gli studenti con fragilità.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza**, sulla **didattica laboratoriale**, sulla **flessibilità degli spazi e dei tempi** e sull'**interdisciplinarità**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali include corsi **culturali**, **laboratoriali**, **ludico-ricreative**, di **volontariato** e **sportive**, sebbene queste ultime abbiano ottenuto un punteggio leggermente inferiore.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di un solido sistema di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, l'efficacia delle **azioni di sistema** e l'approccio didattico innovativo basato sull'esperienza e sulla **laboratorialità**. L'ampia gamma di attività proposte, come l'**Alternanza scuola-lavoro**, gli **stages aziendali** e i **progetti di orientamento**, dimostra un impegno concreto verso la preparazione degli studenti al mondo del lavoro e alla vita adulta.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta un'area di debolezza, in quanto potrebbe compromettere la visibilità e la coerenza delle azioni intraprese. Inoltre, alcuni obiettivi, come quello relativo al contrasto dei **NEET** e alla promozione del **lifelong learning**, potrebbero essere rafforzati.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una strutturazione più esplicita dell'orientamento all'interno del PTOF. Sebbene le attività siano numerose e ben articolate, la loro integrazione in un quadro strategico più ampio potrebbe massimizzarne l'efficacia.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Percorso Ii Livello Da Verrazzano** dimostra un forte impegno verso l'orientamento, con un'offerta di attività diversificata e un sistema di **partnership** consolidato. Pur presentando alcune aree di debolezza, la scuola ha le potenzialità per diventare un punto di riferimento per l'orientamento nel territorio, a condizione di rafforzare la strutturazione dell'offerta e di dare maggiore visibilità alle azioni intraprese. L'implementazione di un piano di monitoraggio e valutazione delle attività di orientamento consentirebbe di misurare l'impatto delle azioni intraprese e di apportare eventuali correzioni in itinere."
+}

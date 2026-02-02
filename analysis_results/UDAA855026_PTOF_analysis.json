@@ -1,0 +1,255 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDAA855026",
+    "denominazione": "\"C. Collodi\"",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Campoformido",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Delle Betulle 71",
+    "cap": "33030",
+    "email": "udic855008@istruzione.it",
+    "pec": "tsic80300d@pec.istruzione.it",
+    "website": "www.istitutocomprensivopozzuolodelfriuli.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione Comunale",
+        "Azienda Sanitaria",
+        "CTS provinciale",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "servizi socio-sanitari",
+        "associazioni di settore",
+        "Istituto Volta",
+        "Legambiente",
+        "Associazione \"Giardino Felice\"",
+        "Cooperativa (SIS Giotti)",
+        "IRCCS Burlo Garofolo",
+        "Altre scuole",
+        "Altre associazioni o cooperative",
+        "Autonomie locali",
+        "ASL"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Attività di ampliamento curricolare",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite guidate, incontri con professionisti",
+      "target": "Alunni scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Collaborazione con associazioni del territorio",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Progetti congiunti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Didattica Digitale Integrata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Rilevazione aspetti positivi e criticità DDI",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Anagrafe Competenze Docenti e Personale ATA",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Rilevazione competenze interne",
+      "target": "Docenti, ATA"
+    },
+    {
+      "titolo_attivita": "Monitoraggio Risultati Alunni",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Analisi dati acquisiti",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Revisione Regolamento di Disciplina",
+      "categoria_principale": "Organizzazione",
+      "descrizione_e_metodologia": "Revisione secondo principi giustizia riparativa",
+      "target": "Docenti, Genitori, Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio Integrativo Scolastico (S.I.S.)",
+      "categoria_principale": "Servizi per gli studenti",
+      "descrizione_e_metodologia": "Prolungamento frequenza scolastica, attività pomeridiane, supporto compiti.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori pomeridiani",
+      "categoria_principale": "Attività extracurriculari",
+      "descrizione_e_metodologia": "Attività laboratoriali gestite da associazioni esterne.",
+      "target": "Alunni Primaria"
+    },
+    {
+      "titolo_attivita": "Programma Benessere",
+      "categoria_principale": "Benessere e salute",
+      "descrizione_e_metodologia": "Interventi educativi e didattici per inclusione e prevenzione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Programma Continuità",
+      "categoria_principale": "Transizioni formative",
+      "descrizione_e_metodologia": "Percorsi mirati per alunni con esigenze particolari.",
+      "target": "Alunni infanzia, primaria, secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Weissingioco",
+      "categoria_principale": "Educazione motoria",
+      "descrizione_e_metodologia": "Sviluppo comportamenti stile di vita sano.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Il Gioco Del Teatro",
+      "categoria_principale": "Espressione e creatività",
+      "descrizione_e_metodologia": "Attività di animazione e propedeutica teatrale.",
+      "target": "Alunni scuole Laghi e Giotti"
+    },
+    {
+      "titolo_attivita": "Intercultura e Integrazione",
+      "categoria_principale": "Integrazione",
+      "descrizione_e_metodologia": "Corsi di alfabetizzazione L2, percorsi multidisciplinari.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Scuola Amica, CCRR",
+      "categoria_principale": "Cittadinanza attiva",
+      "descrizione_e_metodologia": "Partecipazione al Consiglio Comunale dei Ragazzi.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Orientamento in Uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumenti e conoscenze per la scelta scolastica.",
+      "target": "Alunni classi terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto per l'inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Coinvolgimento famiglie in progetti",
+      "target": "Alunni con BES, famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto di istituto di educazione interculturale",
+      "categoria_principale": "Intercultura",
+      "descrizione_e_metodologia": "Supporto agli alunni stranieri",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con associazioni",
+      "target": "Alunni, territorio"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Peer review, Formazione di Scuola/Rete",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Nessuna descrizione specifica",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDAA855026\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \\\"C. Collodi\\\", scuola dell'infanzia situata a Campoformido (Udine), per il triennio 2019/20-2021/22. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, come evidenziato dal punteggio di 2.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di **partnership** con diversi soggetti esterni, tra cui l'**Amministrazione Comunale**, l'**Azienda Sanitaria**, il **CTS provinciale**, **musei**, **istituti pubblici e privati**, **servizi socio-sanitari**, **associazioni di settore**, l'**Istituto Volta**, **Legambiente**, l'Associazione \\\"**Giardino Felice**\\\", la Cooperativa **(SIS Giotti)**, l'**IRCCS Burlo Garofolo**, **altre scuole**, **altre associazioni o cooperative**, le **autonomie locali** e l'**ASL**. Questo elevato numero di collaborazioni (17 partner) suggerisce un forte impegno nel coinvolgimento del territorio e nella creazione di opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi** degli studenti, il supporto al **progetto di vita** e la facilitazione delle **transizioni formative**. Particolare attenzione è rivolta allo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal contesto.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la promozione della continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e degli **obiettivi**, nella completezza delle **azioni di sistema** e nella varietà dell'offerta didattica e delle attività opzionali. L'attenzione alle **transizioni formative** e all'inclusione rappresenta un ulteriore elemento di valore. Le attività registrate, come **Attività di ampliamento curricolare** e **Collaborazione con associazioni del territorio**, dimostrano un impegno concreto nella realizzazione degli obiettivi prefissati.\n\n### 4. Aree di Debolezza\n\nNonostante i numerosi punti di forza, alcune aree potrebbero beneficiare di un ulteriore approfondimento. Il punteggio relativamente basso per le opzionali **culturali** e di **volontariato** suggerisce la necessità di potenziare queste offerte. L'obiettivo di **contrastare i NEET** ha ottenuto un punteggio inferiore rispetto agli altri, indicando la possibilità di definire strategie più mirate.\n\n### 5. Gap Analysis\n\nL'analisi dei dati rivela un buon allineamento tra le finalità, gli obiettivi e le azioni intraprese. Tuttavia, è necessario monitorare costantemente l'efficacia delle azioni implementate e valutare l'impatto sulle **transizioni formative** degli studenti. Un'ulteriore integrazione tra le attività di orientamento e i servizi territoriali potrebbe ampliare le opportunità offerte agli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'istituto \\\"C. Collodi\\\" presenta una solida base per lo sviluppo di un'efficace azione di orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, la completezza delle **azioni di sistema** e la varietà dell'offerta didattica rappresentano elementi di forza significativi. Un'attenta valutazione dei risultati ottenuti e un continuo monitoraggio delle aree di debolezza consentiranno di ottimizzare l'azione di orientamento e di garantire agli studenti un percorso formativo completo e coerente con le loro aspirazioni e potenzialità. Attività come il **Programma Benessere**, il **Programma Continuità** e **Orientamento in Uscita** sono esempi di iniziative ben strutturate."
+}

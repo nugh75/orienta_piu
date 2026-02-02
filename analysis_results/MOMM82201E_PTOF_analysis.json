@@ -1,0 +1,244 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MOMM82201E",
+    "denominazione": "Sec. Di I Grado \"O.Focherini\"",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Carpi",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Modena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Magazzeno 17/A",
+    "cap": "41012",
+    "email": "moic82200d@istruzione.it",
+    "pec": "ND",
+    "website": "www.comprensivocarpinord.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "L'orientamento è integrato nelle attività curriculari e nei percorsi PCTO, ma non è presente una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione Formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Autovalutazione, valutazione tra pari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazione materiali e simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Test fisici e chimici sui materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Esercitazioni scrittura reportage.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore odontotecnico.",
+      "target": "Studenti classi IV e V"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie avanzate (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per docenti sull'uso di mappe mentali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Frequenza laboratori PCTO durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio di gruppo",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Attività extra curricolari per studio di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie.",
+      "target": "Studenti PCTO"
+    },
+    {
+      "titolo_attivita": "Elenco diplomati",
+      "categoria_principale": "Alumni",
+      "descrizione_e_metodologia": "Creazione elenco diplomati titolari di laboratorio.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Progetto organico con moduli teorico-pratici.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MOMM82201E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della Sec. Di I Grado \"O.Focherini\" (MOMM82201E) per il triennio 2023/24-2024/25-2025/26. L'istituto, situato nel territorio non metropolitano di Carpi (Modena), in Emilia Romagna, è una scuola statale di I grado. L'analisi si basa sui dati forniti, valutando l'approccio all'orientamento in termini di struttura, partnership, finalità, obiettivi, azioni, didattica e offerta di attività opzionali. In generale, l'orientamento è ben integrato nelle attività curriculari e nei percorsi **PCTO**, ma manca una sezione dedicata con un capitolo specifico all'interno del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento non è trattato in una sezione autonoma del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 5. Tra i partner figurano **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT**, **aziende accreditate** e **aziende di settore**, dimostrando un forte legame con il contesto socio-economico locale. Sono state individuate 6 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate adeguate in tutte le aree valutate, con un punteggio di 4 per **attitudini**, **interessi**, **progetto di vita**, **transizioni formative** e **capacità orientative** rispetto alle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati mostrano un buon livello di ambizione, con un punteggio di 4 per la **continuità territoriale**. Gli obiettivi di riduzione dell'**abbandono** e di contrasto al fenomeno **NEET** ricevono un punteggio di 3, così come l'obiettivo di promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento sono considerate efficaci, con punteggi di 4 per il **dialogo tra docenti e studenti** e per il **rapporto scuola-genitori**, e per il **sistema integrato inclusione-fragilità**. Il **coordinamento dei servizi** e il **monitoraggio delle azioni** ottengono un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si avvale di approcci innovativi, con punteggi di 5 per la **didattica laboratoriale** e di 4 per la didattica basata sull'**esperienza degli studenti** e per quella **interdisciplinare**. La **flessibilità degli spazi e dei tempi** riceve un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi di 4 per le opzionali **laboratoriali ed espressive**. Le opzionali **culturali** e di **volontariato** ottengono un punteggio di 3, mentre quelle **ludiche-ricreative** e **sportive** un punteggio di 2.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella solida rete di **partnership** con il territorio, nella didattica laboratoriale e nell'attenzione alle finalità formative legate allo sviluppo delle **attitudini** e degli **interessi** degli studenti. L'offerta di **PCTO** e le attività di laboratorio, come la **realizzazione di audiolibri** e le **visite guidate alle aziende**, rappresentano un valore aggiunto per l'orientamento degli studenti. L'impegno per l'**inclusione**, con il **Servizio di Sostegno Educativo**, è un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, alcuni obiettivi, come la riduzione dell'**abbandono** e il contrasto al fenomeno **NEET**, potrebbero essere maggiormente enfatizzati. La flessibilità degli spazi e dei tempi nella didattica orientativa potrebbe essere migliorata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento all'interno del PTOF. Sebbene le attività siano presenti e ben integrate, la mancanza di un capitolo specifico dedicato all'orientamento potrebbe limitare la visibilità e la coerenza delle azioni intraprese. Un'ulteriore area di miglioramento riguarda la definizione di indicatori specifici per monitorare l'efficacia delle azioni orientative e il raggiungimento degli obiettivi prefissati.\n\n### 6. Conclusioni\n\nIl PTOF della Sec. Di I Grado \"O.Focherini\" dimostra un impegno significativo verso l'orientamento, con un approccio integrato e una solida rete di partnership. Per ottimizzare ulteriormente l'efficacia delle azioni intraprese, si raccomanda di dedicare una sezione specifica all'orientamento all'interno del PTOF, definire indicatori di monitoraggio e rafforzare gli obiettivi relativi alla prevenzione dell'abbandono scolastico e all'inserimento nel mondo del lavoro. Le attività come **PCTO**, i **laboratori** tematici e il **servizio di sostegno educativo** rappresentano un solido punto di partenza per un'offerta formativa orientata al successo degli studenti."
+}

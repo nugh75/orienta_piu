@@ -1,0 +1,417 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMMM8D601A",
+    "denominazione": "S.M.S. Giuseppe Mazzini",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2019-2022",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Delle Carine 2",
+    "cap": "00184",
+    "email": "rmic8d6009@istruzione.it",
+    "pec": "rmic8d6009@pec.istruzione.it",
+    "website": "https//istitutoviadellecarine.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni",
+        "fondazioni",
+        "Ente Locale (Municipio Roma I Centro)",
+        "musei",
+        "istituti pubblici e privati",
+        "associazioni di settore",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "Trinity College di Roma",
+        "British Institute di Roma",
+        "Argoli",
+        "Tivoli",
+        "Ciclonauti",
+        "Rotary International",
+        "Polizia Municipale",
+        "ACEA",
+        "Centro Astalli",
+        "Fondazione Centro Astalli Roma",
+        "GLIR/GIT/Scuole polo",
+        "Università",
+        "Enti di ricerca",
+        "Enti di formazione accreditati",
+        "Soggetti privati",
+        "Autonomie locali",
+        "Associazioni",
+        "Altre scuole",
+        "Cooperativa Mille e una notte",
+        "Cooperativa Segni di integrazione"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sperimentazione alunni stranieri/sordi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi didattici specifici per alunni stranieri e sordi",
+      "target": "Alunni stranieri e sordi"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Arricchimento curricolare",
+      "descrizione_e_metodologia": "Uscite didattiche a siti culturali (1-2 ore)",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Corso ad indirizzo musicale",
+      "categoria_principale": "Arricchimento curricolare",
+      "descrizione_e_metodologia": "Lezioni individuali di strumento e orchestra studentesca",
+      "target": "Alunni della scuola secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "Un'Aula, Un Laboratorio",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Trasformare ogni ambiente scolastico in ambiente di apprendimento; modificare e migliorare la didattica.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Hello, Hello",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approccio alla lingua inglese per bambini di 5 anni.",
+      "target": "Bambini 5 anni"
+    },
+    {
+      "titolo_attivita": "Orto al Colosseo",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Creazione e cura di un orto scolastico.",
+      "target": "Bambini scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Read On",
+      "categoria_principale": "Lingua Inglese",
+      "descrizione_e_metodologia": "Lettura estensiva, 6-7 libri all'anno per incrementare comprensione e autonomia.",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Conversazione Trinity",
+      "categoria_principale": "Lingua Inglese",
+      "descrizione_e_metodologia": "Presenza studente Trinity College Roma, 1 ora/settimana.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Certificazione In Lingua Inglese",
+      "categoria_principale": "Lingua Inglese",
+      "descrizione_e_metodologia": "Preparazione ai diversi livelli di certificazione.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Scambio Linguistico-Culturale Roma-Lyon",
+      "categoria_principale": "Lingua Francese",
+      "descrizione_e_metodologia": "Scambio studenti Italia-Francia, 1 settimana.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Certificazione In Lingua Francese Delf",
+      "categoria_principale": "Lingua Francese",
+      "descrizione_e_metodologia": "Corso preparazione certificazione DELF A1/A2.",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Pi greco Day",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Giochi matematici, prodotti artistici, cartelloni, quiz, visione film, invenzione frasi/fiabe.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Flauti In Rete",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Creazione rete flautistica tra istituti, ensemble, calendario concertistico.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Giornata Mondiale Dell'Ambiente",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Percorsi didattici su rifiuti, inquinamento, cambiamenti climatici. Lezioni, uscite, lavori di gruppo.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Ciclofficina",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Corso pratico di ciclomeccanica, riparazioni, manutenzione.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Cineforum",
+      "categoria_principale": "Lingue e Letterature",
+      "descrizione_e_metodologia": "Visione e discussione di film, esperti esterni.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Corso Propedeutico Al Latino",
+      "categoria_principale": "Lingue Classiche",
+      "descrizione_e_metodologia": "Introduzione alla lingua latina e tecniche di traduzione.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Giornalino Scolastico \"Il Paiolo Ribollente\"",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Redazione giornalino scolastico: scrittura articoli, impaginazione, interviste.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Educazione Stradale",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Nozioni base educazione stradale.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto Bullismo e Rispetto",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Lezioni frontali, elaborati, collaborazione con associazioni.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto Public Speaking",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Primo approccio alle abilità del public speaking.",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "L'Officina della Comunicazione",
+      "categoria_principale": "Atelier",
+      "descrizione_e_metodologia": "Mini-workshop con esperti, sviluppo competenze comunicative orali (presentazioni, interviste, indagini).",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Percorso Finestre - Progetto Incontri",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti integrati a livello di singola scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Psicologo",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Test orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Test somministrato a scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Letture alle Carine",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Promozione lettura, condivisione libri, realizzazione book trailer, giornata della lettura condivisa.",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici D'Autunno",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Quiz logico-matematici",
+      "target": "Classi 4^/5^ Primaria e 1^/2^/3^ Secondaria"
+    },
+    {
+      "titolo_attivita": "Orienteering e Arte",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Attività all'aperto, osservazione",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Corri, Salta, Lancia",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Attività motoria",
+      "target": "Scuola Secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Siamo Energia",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Produzione di testi, manifesti",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Fare, Saper Fare, Saper Far Fare",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Tutoring tra pari",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Concerto di Natale",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Coro, orchestra",
+      "target": "Primaria, Secondaria"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione Informatica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto Alcol Zero",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Incontri con specialisti",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Internet Addiction",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Test, incontri",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Salut, C'est Parti!",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Attività ludiche",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Rivisiti\"Amo\" Roma",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Ricreazione monumenti",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione e Potenziamento",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Musica e Movimento",
+      "categoria_principale": "Musicale",
+      "descrizione_e_metodologia": "Attività psicomotorie",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "La Farandole Des Comptines",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Canti e filastrocche",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Lettere e Numeri in Movimento",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Attività pratiche",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Progetti Centro Astalli",
+      "categoria_principale": "Sociale",
+      "descrizione_e_metodologia": "Incontri, testimonianze",
+      "target": "Secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi, laboratori, ricerca-azione",
+      "target": "Docenti, Personale ATA"
+    },
+    {
+      "titolo_attivita": "Integrazione Tecnologie Digitali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Laboratori, ricerca-azione",
+      "target": "Tutto il personale"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Polo Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corso-base, corsi di pronto soccorso, approfondimenti",
+      "target": "Docenti commissione inclusione"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMMM8D601A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **S.M.S. Giuseppe Mazzini** (ID scuola: **RMMM8D601A**) per il triennio **2019-2022**. L'istituto, situato a **Roma** (Lazio), è una scuola di primo grado statale. L'analisi si concentra in particolare sull'area dell'orientamento, valutandone la presenza, la strutturazione e l'implementazione attraverso le diverse dimensioni del PTOF. Il documento evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un'ampia rete di **partnership** attivate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di collaborazioni con diversi soggetti, tra cui **associazioni**, **fondazioni**, l'**Ente Locale (Municipio Roma I Centro)**, **musei**, **istituti pubblici e privati**, il **Trinity College di Roma** e il **British Institute di Roma**. Sono presenti anche collaborazioni con **Argoli**, **Tivoli**, **Ciclonauti**, **Rotary International**, **Polizia Municipale**, **ACEA**, **Centro Astalli**, **GLIR/GIT/Scuole polo**, **Università**, **Enti di ricerca**, **Enti di formazione accreditati**, **Soggetti privati**, **Autonomie locali**, **Cooperativa Mille e una notte** e **Cooperativa Segni di integrazione**. Il numero di partner attivi (24) indica un forte radicamento del PTOF nel territorio e una volontà di ampliare le opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con punteggi di 4. L'attenzione al **progetto di vita**, alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risulta meno marcata, con punteggi di 3.\n\n**2.4 Obiettivi:** Il PTOF pone particolare enfasi sulla riduzione dell'**abbandono scolastico** e sulla continuità territoriale, raggiungendo un punteggio di 5 per entrambi gli obiettivi. L'impegno nel contrastare il fenomeno dei **NEET** e nel promuovere il **lifelong learning** è presente, ma con punteggi inferiori (3).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento si concentrano sul **coordinamento dei servizi** (punteggio 4), sul **dialogo tra docenti e studenti** (punteggio 4) e sul rapporto con i **genitori** (punteggio 5). Il **monitoraggio delle azioni** risulta meno strutturato (punteggio 3), così come il sistema integrato di **inclusione e fragilità** (punteggio 4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale (punteggio 4) e sull'interdisciplinarità (punteggio 4). L'utilizzo di metodologie laboratoriali e la flessibilità degli spazi e dei tempi didattici sono presenti, ma con un punteggio inferiore (3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** e **laboratoriali-espressive** (punteggio 4), mentre le attività **ludiche-ricreative**, di **volontariato** e **sportive** sono meno sviluppate (punteggio 3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella forte attenzione all'orientamento, nella presenza di una sezione dedicata e nella vasta rete di **partnership** attivate. L'impegno nella riduzione dell'**abbandono scolastico** e nella continuità territoriale rappresenta un elemento distintivo. Le attività proposte, come **Sperimentazione alunni stranieri/sordi**, **Visite guidate**, **Corso ad indirizzo musicale**, **Un'Aula, Un Laboratorio** e **Hello, Hello**, dimostrano una varietà di approcci didattici e un'attenzione all'inclusione.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente la definizione delle finalità dell'orientamento, in particolare per quanto concerne il **progetto di vita** e le **transizioni formative**. Il **monitoraggio delle azioni** e lo sviluppo di un sistema integrato di **inclusione e fragilità** necessitano di maggiore attenzione. Anche l'offerta di attività opzionali potrebbe essere ampliata per includere una maggiore varietà di proposte.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità dell'orientamento in obiettivi misurabili e azioni concrete. È necessario rafforzare il **monitoraggio** delle attività e sviluppare indicatori di performance per valutare l'efficacia degli interventi. Inoltre, è importante ampliare l'offerta di attività opzionali per rispondere alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto **S.M.S. Giuseppe Mazzini** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'impegno nella riduzione dell'**abbandono scolastico** rappresentano elementi di forza. Tuttavia, è necessario rafforzare la definizione delle finalità, il **monitoraggio** delle azioni e l'offerta di attività opzionali per garantire un'efficacia maggiore dell'intervento orientativo. Le attività registrate, come **Read On**, **Conversazione Trinity**, **Scambio Linguistico-Culturale Roma-Lyon**, **Pi greco Day** e **Progetto Bullismo e Rispetto**, dimostrano un impegno concreto verso la crescita e lo sviluppo degli studenti."
+}

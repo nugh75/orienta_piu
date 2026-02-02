@@ -1,0 +1,276 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOAA809023",
+    "denominazione": "Scuola Infanzia Casalfiumanese",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Casalfiumanese",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Andrea Costa 17",
+    "cap": "40020",
+    "email": "boic809005@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.borgotossignanoic.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento. Sebbene siano menzionate diverse attività di orientamento, queste sono integrate in altre aree del PTOF e non costituiscono una sezione tematica specifica."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL",
+        "Enti Locali"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "note": "La formulazione delle finalità risulta generica e poco specifica in merito allo sviluppo di concrete capacità orientative e alla valutazione delle opportunità."
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1,
+        "note": "L'obiettivo di contrastare la dispersione scolastica e il fenomeno NEET è menzionato in modo superficiale, senza indicare strategie o azioni mirate."
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "L'offerta didattica, pur includendo attività pratiche, non prevede laboratori specificamente dedicati all'orientamento, limitandosi a contesti disciplinari più ampi."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1,
+        "note": "Le attività ludico-ricreative sono menzionate in modo marginale, senza una descrizione dettagliata o una chiara integrazione nel percorso formativo."
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetti di internazionalizzazione (Etwinning, Erasmus+)",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali, mobilità all'estero, corsi di preparazione certificazioni linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Piano per la didattica digitale integrata",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Potenziamento strumentazioni e competenze digitali",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua inglese",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli disciplinari in lingua inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento lingua italiana per ragazzi stranieri. Potenziare competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento lingua francese. Acquisizione competenze linguistiche orali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dispositivi per apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica Educativa",
+      "categoria_principale": "Tecnologie Didattiche",
+      "descrizione_e_metodologia": "Attività di coding e robotica per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, teatrali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche e creative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglia, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Percorsi in imprese, IFS, e combinazione di entrambi.",
+      "target": "Studenti del secondo biennio e ultimo anno"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOAA809023\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Casalfiumanese** (BOAA809023) per il triennio 2019/20-2021/22. L'analisi evidenzia una presenza di attività orientative integrate in diverse aree del PTOF, ma con una mancanza di una sezione tematica dedicata specificamente all'orientamento. La scuola dimostra un impegno nella creazione di **partnership** con diversi enti e associazioni, e pone l'attenzione sullo sviluppo delle **finalità** relative ad attitudini, interessi e progetto di vita degli studenti. Tuttavia, alcuni aspetti necessitano di un approfondimento, in particolare per quanto riguarda lo sviluppo di capacità orientative concrete e la prevenzione del fenomeno **NEET**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, sebbene siano presenti diverse attività riconducibili a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** ampio e diversificato, comprendendo enti come **AGROBIOS**, il **Museo Archeologico Nazionale della Siritide**, diverse **associazioni**, **consulenti esterni**, **I.B.B.R**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na**, **ASL** ed **Enti Locali**. Questo elevato numero di collaborazioni (16 partner) rappresenta un punto di forza per l'arricchimento dell'offerta formativa e l'ampliamento delle opportunità per gli studenti.\n\n**2.3 Finalità:** Le finalità del PTOF sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e il **progetto di vita** degli studenti, oltre a favorire le **transizioni formative**. Tuttavia, lo sviluppo di concrete **capacità orientative** e la valutazione delle opportunità risultano aspetti meno approfonditi.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio** e il potenziamento del **lifelong learning**. L'obiettivo di contrastare il fenomeno **NEET** è menzionato in modo superficiale, senza strategie o azioni mirate.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF comprendono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica proposta si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. Tuttavia, mancano laboratori specificamente dedicati all'orientamento.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include proposte **culturali**, **laboratoriali ed espressive**, **volontariato** e attività **sportive**. Le attività **ludico-ricreative** sono menzionate in modo marginale.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono rappresentati dall'ampio network di **partnership**, dalla chiarezza delle **finalità** educative e dall'impegno nell'utilizzo di metodologie didattiche innovative come la **didattica laboratoriale** e l'approccio **interdisciplinare**. L'attenzione all'inclusione e al coordinamento dei servizi rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento e la superficialità con cui viene affrontato il tema della prevenzione del fenomeno **NEET** costituiscono le principali aree di debolezza del PTOF. Inoltre, la mancanza di laboratori specificamente dedicati all'orientamento e la scarsa integrazione delle attività **ludico-ricreative** nel percorso formativo rappresentano aspetti migliorabili.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, definendo obiettivi specifici, azioni mirate e indicatori di valutazione. È necessario potenziare le competenze orientative degli studenti, fornendo loro gli strumenti per affrontare le sfide del mondo del lavoro e per costruire il proprio **progetto di vita**.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia Casalfiumanese** presenta un quadro generale positivo, con un forte impegno nella creazione di un ambiente di apprendimento stimolante e inclusivo. Tuttavia, per rendere l'azione orientativa più efficace, è necessario colmare il divario esistente attraverso la definizione di una sezione tematica dedicata, la formulazione di obiettivi specifici e l'implementazione di azioni mirate. L'integrazione di attività orientative all'interno delle diverse discipline e la creazione di laboratori dedicati potrebbero contribuire a sviluppare le competenze necessarie per affrontare le sfide del futuro. Le attività registrate, come i progetti di **internazionalizzazione** (**Etwinning**, **Erasmus+**) e l'implementazione del **Piano per la didattica digitale integrata**, rappresentano un valido supporto per il raggiungimento degli obiettivi prefissati."
+}

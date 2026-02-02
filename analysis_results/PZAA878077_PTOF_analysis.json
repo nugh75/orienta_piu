@@ -1,0 +1,378 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZAA878077",
+    "denominazione": "Fardella-Via Rinaldi",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Fardella",
+    "anno_ptof": "2022-2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Rinaldi",
+    "cap": "85030",
+    "email": "pzic878004@istruzione.it",
+    "pec": "pnic819005@pec.istruzione.it",
+    "website": "http//www.icfrancavillainsinni.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune di Zoppola",
+        "Psicologa dell'Ambito",
+        "Associazioni di volontariato",
+        "enti locali",
+        "terzo settore",
+        "comunità di origine",
+        "famiglie",
+        "mediatori culturali",
+        "musei",
+        "istituti pubblici e privati",
+        "Associazione Italiana Agricoltura Biologica",
+        "Liceo Leopardi Majorana di Pordenone",
+        "Società sportiva Polisigma",
+        "Auser",
+        "Coldiretti",
+        "IAL",
+        "Società Filarmonica Valvasone APS",
+        "Ambiente Servizi",
+        "Crocerossa",
+        "Vigili del Fuoco",
+        "AUSL",
+        "Protezione Civile",
+        "Unità cinofila",
+        "Polizia",
+        "Carabinieri",
+        "Polizia Municipale"
+      ],
+      "partnership_count": 24
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di recupero e potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Corsi per classi con media inferiore a 7",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua inglese e Trinity",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi extra-scolastici per certificazione",
+      "target": "Studenti Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Attività laboratoriali presso Scuola Primaria Castions",
+      "target": "Studenti Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Officina del sapere",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Ambienti di apprendimento innovativi, laboratori",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "STEM REVOLUTION: progettiamo il futuro",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo coding, robotica, moduli elettronici, kit STEM",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi didattici STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Percorsi formativi educativi verticali di tipo laboratoriale",
+      "target": "Studentesse"
+    },
+    {
+      "titolo_attivita": "Percorsi digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Percorsi formativi educativi verticali di tipo laboratoriale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Insegnamento della lingua friulana",
+      "categoria_principale": "Lingue e Culture",
+      "descrizione_e_metodologia": "Utilizzo della scuola come veicolo per l'apprendimento della lingua friulana.",
+      "target": "Scuola dell'Infanzia, Classi terze e quarta A Primaria"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento tra ordini diversi e moduli formativi.",
+      "target": "Infanzia, Primaria, Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Insegnamento della lingua friulana",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Avvicinamento alla lingua friulana tramite attività didattiche.",
+      "target": "Scuola dell'Infanzia, Primaria"
+    },
+    {
+      "titolo_attivita": "Puliamo il mondo",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Partecipazione alle proposte dell'Ente locale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "La giornata dei diritti",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Partecipazione alle proposte dell'Ente locale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Decorazioni albero di Natale",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Realizzazione decorazioni con ente locale",
+      "target": "Classi prime, seconde, terze"
+    },
+    {
+      "titolo_attivita": "Educazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Coinvolgimento Polizia Municipale",
+      "target": "Classi prime, seconde, terze"
+    },
+    {
+      "titolo_attivita": "Corsi di alfabetizzazione per stranieri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Progetti finanziati dalla Regione per corsi di alfabetizzazione e mediazione culturale.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Attività artistico-musicale, tecnologico, teatrale e motorie",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Proposte per favorire la crescita della persona.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratori scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti specifici per alunni diversamente abili.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di formazione sulla sicurezza",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CIPS - Progetto nazionale Cinema e Immagini per la scuola",
+      "categoria_principale": "Arte e Immagine",
+      "descrizione_e_metodologia": "Laboratori cinematografici (fumetto, arte, foto, video) con esperti.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Creattivi per l'ambiente",
+      "categoria_principale": "Ecologia e Ambiente",
+      "descrizione_e_metodologia": "Piattaforma Ambiente Servizi, concorso Ecopagella, laboratorio recupero materiali, mercatino del riuso.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Opera domani",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esplorazione del mondo dei suoni, vocalizzi, esecuzione canti, creazione oggetti di scena.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Viaggiando in sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione, esperti (Vigili del Fuoco, AUSL, ecc.), simulazioni, tecnologia.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Latte nelle scuole",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Consegna latte e prodotti lattiero caseari, visite a fattorie, degustazioni, laboratori sensoriali.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Apprendimento cooperativo, tecniche specifiche, gioco simulazione.",
+      "target": "Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "I nostri amici impollinatori",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Unità didattiche, esperti, attività sul territorio.",
+      "target": "Classi quarte e quinte Primaria"
+    },
+    {
+      "titolo_attivita": "La tua acqua",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratori, piattaforme didattiche, visita al Parco delle Fonti.",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "La settimana dello studente",
+      "categoria_principale": "Varie",
+      "descrizione_e_metodologia": "Laboratori manuali e pratici.",
+      "target": "Tutte le classi Primarie"
+    },
+    {
+      "titolo_attivita": "Fare scuola assieme",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Collaborazione scuola-famiglia-territorio, attività laboratoriali.",
+      "target": "Tutte le classi Primarie"
+    },
+    {
+      "titolo_attivita": "La scuola incontra la salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione docenti, staffetta, percorso ad ostacoli.",
+      "target": "Tutti i plessi"
+    },
+    {
+      "titolo_attivita": "Easy sport",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività motorie con Polisigma, storie, gioco.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Supporto scolastico per alunni in difficoltà",
+      "categoria_principale": "Sostegno",
+      "descrizione_e_metodologia": "Supporto individuale, lavoro a piccoli gruppi.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Allestimento locali Stem revolution",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Utilizzo di coding e robotica educativa, moduli elettronici, kit STEM.",
+      "target": "Studenti di tutto l'istituto"
+    },
+    {
+      "titolo_attivita": "Programmazione acquisti per scuola dell'infanzia",
+      "categoria_principale": "Arredi e materiali",
+      "descrizione_e_metodologia": "Acquisto arredi e materiali per scuola dell'infanzia.",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Implementazione delle biblioteche",
+      "categoria_principale": "Biblioteche",
+      "descrizione_e_metodologia": "Implementare biblioteche con libri cartacei e digitali.",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Formazione obbligatoria Primo soccorso e Antincendio",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Corsi di formazione sulla sicurezza",
+      "target": "Docenti, Personale ATA"
+    },
+    {
+      "titolo_attivita": "Privacy e trattamento dei dati",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Corso online tenuto da avvocato esperto per tutelare i dati sensibili.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Formazione obbligatoria sulla sicurezza a scuola",
+      "categoria_principale": "Formazione del personale",
+      "descrizione_e_metodologia": "Corsi online su piattaforma Safety for school.",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Progetto Ponte",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi personalizzati per alunni stranieri/con scarsa scolarizzazione.",
+      "target": "Classi terze Scuola Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZAA878077\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Fardella-Via Rinaldi\" (codice scuola PZAA878077), con particolare attenzione alla dimensione dell'orientamento. Il PTOF, relativo al triennio 2022-2025, evidenzia un impegno significativo verso l'orientamento, come dimostra la presenza di una sezione dedicata e un punteggio complessivo positivo nelle diverse aree valutate. L'istituto, situato in un contesto territoriale non metropolitano della regione Basilicata, si distingue per una forte attenzione alla collaborazione con il territorio e una vasta rete di **partnership**. Le attività proposte sono diversificate e mirate a sviluppare competenze trasversali, a favorire la continuità territoriale e a contrastare la dispersione scolastica.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, il che indica un'attenzione strutturata a questa dimensione.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di **partnership**, con ben 24 partner nominati, tra cui il **Comune di Zoppola**, la **Psicologa dell'Ambito**, diverse **associazioni di volontariato**, **enti locali**, il **terzo settore**, le **famiglie**, **mediatori culturali**, **musei**, **istituti pubblici e privati**, l'**Associazione Italiana Agricoltura Biologica**, il **Liceo Leopardi Majorana di Pordenone**, la **Società sportiva Polisigma**, **Auser**, **Coldiretti**, **IAL**, la **Società Filarmonica Valvasone APS**, **Ambiente Servizi**, la **Crocerossa**, i **Vigili del Fuoco**, l'**AUSL**, la **Protezione Civile**, l'**Unità cinofila**, la **Polizia**, i **Carabinieri** e la **Polizia Municipale**. Questo elevato numero di collaborazioni (punteggio 5) testimonia la volontà di creare un sistema integrato di servizi per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal territorio. I punteggi ottenuti (tra 4 e 5) confermano l'importanza attribuita a questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF sono orientati alla riduzione dell'**abbandono scolastico** (punteggio 5), alla promozione della continuità territoriale (punteggio 5), al contrasto alla dispersione scolastica e NEET (punteggio 3) e allo sviluppo del **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutti questi aspetti ottengono un punteggio elevato (tra 4 e 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. I punteggi variano tra 3 e 5, suggerendo un buon livello di implementazione, con margini di miglioramento per quanto riguarda la didattica laboratoriale.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. I punteggi ottenuti (tra 3 e 5) indicano una buona varietà di proposte, con un'attenzione particolare alle attività culturali, laboratoriali ed espressive e sportive.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la presenza di una sezione dedicata all'orientamento, la vasta rete di **partnership** con il territorio, la chiarezza delle finalità e degli obiettivi, l'attenzione all'inclusione e la diversificazione dell'offerta didattica e delle attività opzionali. L'istituto dimostra una forte capacità di collaborare con diversi soggetti esterni per offrire agli studenti opportunità di crescita e di orientamento. Le attività come \"**Corsi di recupero e potenziamento**\", \"**Corsi di lingua inglese e Trinity**\", \"**Laboratori STEM**\", \"**Officina del sapere**\" e \"**STEM REVOLUTION: progettiamo il futuro**\" evidenziano un impegno concreto verso l'innovazione didattica e lo sviluppo di competenze STEM.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno NEET, che ottiene un punteggio di 3. Questo suggerisce la necessità di potenziare le azioni specifiche volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani. Anche la didattica laboratoriale potrebbe essere ulteriormente sviluppata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre l'impegno teorico verso il contrasto al fenomeno NEET in azioni concrete e misurabili. È necessario definire indicatori specifici per monitorare l'efficacia delle azioni intraprese e valutare l'impatto sull'inserimento lavorativo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Fardella-Via Rinaldi\" presenta un quadro complessivamente positivo per quanto riguarda la dimensione dell'orientamento. L'istituto dimostra una forte attenzione alla collaborazione con il territorio, alla diversificazione dell'offerta didattica e all'inclusione. Pur con alcune aree di miglioramento, il PTOF rappresenta un valido strumento per guidare gli studenti nel loro percorso di crescita e di orientamento, preparandoli ad affrontare le sfide del futuro. Le attività come \"**Puliamo il mondo**\", \"**La giornata dei diritti**\", \"**Corsi di alfabetizzazione per stranieri**\" e \"**Progetto Ponte**\" dimostrano un forte impegno sociale e un'attenzione particolare alle esigenze del territorio."
+}

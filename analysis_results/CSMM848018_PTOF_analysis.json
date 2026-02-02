@@ -1,0 +1,253 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSMM848018",
+    "denominazione": "Sm Longobucco",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Longobucco",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Manna N.1",
+    "cap": "87066",
+    "email": "csic848007@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "www.ioslongobucco.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Museo Archeologico Nazionale della Siritide",
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS",
+        "ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na",
+        "ASL"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scambi culturali",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Partenariati con scuole europee",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Proposte nuove tecniche d’insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Introduzione del metodo flipped classroom.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori service learning.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorsi di alternanza con aziende e strutture ospitanti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemelaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto di devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica Educativa",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Protocollo di accoglienza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione pratiche comuni per accoglienza alunni BES",
+      "target": "Alunni BES, famiglie, personale scolastico"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSMM848018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto \"Sm Longobucco\" (CSMM848018), relativo al periodo 2019/20-2021/22. L'istituto, di I grado, situato a Longobucco in Calabria, presenta un'attenzione particolare all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio medio elevato nelle diverse dimensioni analizzate. Il PTOF dimostra un impegno nella costruzione di percorsi formativi che tengano conto delle attitudini, degli interessi e del progetto di vita degli studenti, con un focus sulle transizioni formative e sullo sviluppo delle capacità orientative per affrontare le opportunità future. La scuola si colloca in un territorio non metropolitano e opera come istituto statale.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, un elemento positivo che ne sottolinea l'importanza strategica.\n\n**2.2 Partnership:** L'istituto vanta un network di **14 partner**, tra cui il **Museo Archeologico Nazionale della Siritide**, **AGROBIOS**, **I.B.B.R**, **ENEA**, **Scuole In Magna Grecia**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na**, **ASL**, e diverse **associazioni** e **consulenti esterni**. Questa rete diversificata suggerisce un approccio collaborativo e aperto al territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, nonché a supportarli nelle **transizioni formative** e a fornire loro le **capacità orientative** necessarie per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'**abbandono scolastico**, la continuità territoriale e il contrasto alla dispersione formativa, con un punteggio inferiore per il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rapporto con i **genitori** e il **monitoraggio delle azioni** intraprese, con un'attenzione particolare all'integrazione e alla fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla **flessibilità degli spazi e dei tempi**, sull'**interdisciplinarità** e sull'utilizzo di metodologie innovative. L'utilizzo della **didattica laboratoriale** risulta meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, ampliando l'offerta formativa e rispondendo a diversi interessi degli studenti.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di partnership, nella chiarezza delle finalità e nella diversificazione delle attività opzionali. L'impegno nell'innovazione didattica, con l'introduzione di metodologie come il **service learning** e la **flipped classroom**, rappresenta un ulteriore elemento positivo. L'offerta di attività come gli **stage ASL** e gli **scambi culturali** arricchisce l'esperienza formativa degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo del **lifelong learning**, che ha ottenuto un punteggio inferiore rispetto agli altri. Anche la didattica laboratoriale sembra meno sviluppata rispetto ad altre metodologie.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di rafforzare l'attenzione al **lifelong learning**, promuovendo una cultura dell'apprendimento continuo e sviluppando competenze che consentano agli studenti di affrontare le sfide del mondo del lavoro in continua evoluzione. Potrebbe essere utile incrementare l'offerta di attività laboratoriali per favorire l'apprendimento pratico e l'acquisizione di competenze specifiche.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"Sm Longobucco\" si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del processo formativo. La scuola dimostra un forte impegno nel fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire il proprio progetto di vita. Pur presentando alcune aree di debolezza, il PTOF offre una solida base per lo sviluppo di un'offerta formativa di qualità e in linea con le esigenze del territorio. L'implementazione delle attività previste, come i corsi di **recupero**, i progetti di **inclusione** e le iniziative di **innovazione didattica** (es. **BYOD**, **coding e robotica educativa**, **Pon Fsre, Smart Class**), contribuirà a migliorare ulteriormente la qualità dell'offerta formativa."
+}

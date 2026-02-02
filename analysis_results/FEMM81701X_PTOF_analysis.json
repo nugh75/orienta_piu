@@ -1,0 +1,416 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FEMM81701X",
+    "denominazione": "Sc.Sec.I Gr. 'G.Strada-T.Sarti'",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Cento",
+    "anno_ptof": "2022/2025",
+    "provincia": "Ferrara",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Casoni 20",
+    "cap": "44041",
+    "email": "feic81700v@istruzione.it",
+    "pec": "feic81700v@pec.istruzione.it",
+    "website": "www.ic4cento.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni culturali, sportive e naturalistiche",
+        "imprese",
+        "enti locali",
+        "famiglie",
+        "territorio",
+        "associazioni",
+        "Comune di Cento (Ufficio Informagiovani)",
+        "Hera",
+        "Clara",
+        "Gemos",
+        "Coop Reno",
+        "Bonifica Pianura di Ferrara",
+        "Progetto Rewild",
+        "Cassa di Risparmio di Cento",
+        "CIDAS",
+        "Rete di scopo"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "CONNESSIONI EDUCATIVE",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Recuperi, laboratori, potenziamento competenze",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "DIVARI 2",
+      "categoria_principale": "Riduzione Divari",
+      "descrizione_e_metodologia": "Attività in continuità con precedenti piani",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Digital Storytelling",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Creazione di storie digitali con APP e QRCode.",
+      "target": "Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Coding Unplugged",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Giochi di movimento e programmazione su tappeto a scacchiera.",
+      "target": "Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Tinkering",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Realizzazione di oggetti con materiali poveri e problem solving.",
+      "target": "Scuola Infanzia"
+    },
+    {
+      "titolo_attivita": "Digital Storytelling",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Creazione di e-book, video, fumetti, infografiche",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coding",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Coding unplugged e plugged, robotica educativa",
+      "target": "Scuola Primaria, Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Tinkering",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Laboratori di rielaborazione oggetti, computational tinkering",
+      "target": "Scuola Primaria, Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi PNRR",
+      "target": "Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi PNRR",
+      "target": "Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "CONNESSIONI EDUCATIVE",
+      "categoria_principale": "Prevenzione Dispersione",
+      "descrizione_e_metodologia": "Recuperi, laboratori, potenziamento competenze",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Digital Storytelling",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Creazione di storie digitali da carta con app e QRCode",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Coding Unplugged",
+      "categoria_principale": "Coding",
+      "descrizione_e_metodologia": "Gioco del coding con il corpo, percorso a ostacoli, robot Bee-Bot",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Tinkering e Arte",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Laboratorio arte, biografie artisti, tecniche, creazione ispirata",
+      "target": "Infanzia"
+    },
+    {
+      "titolo_attivita": "Mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di mentoring e orientamento (PNRR)",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di potenziamento competenze base, motivazione",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Visite scuole secondarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività informazione/conoscenza scuole superiori",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Incontri con autori, illustratori, editori",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Promeco-Punto Di Vista",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Presenza di uno psicologo a scuola per ascolto individuale e di gruppo.",
+      "target": "Studenti, insegnanti, genitori"
+    },
+    {
+      "titolo_attivita": "Celebrazioni e Anniversari",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Attività legate a Giornata della Memoria, 25 Aprile, etc.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Alfabetizzazione Per Alunni Stranieri",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Ore aggiuntive di italiano per alunni stranieri.",
+      "target": "Alunni stranieri"
+    },
+    {
+      "titolo_attivita": "Attività Con Esperti Esterni Ed Enti Territoriali",
+      "categoria_principale": "Educazione ambientale e culturale",
+      "descrizione_e_metodologia": "Incontri con esperti su territorio, cultura, ambiente.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Centro Sportivo Scolastico",
+      "categoria_principale": "Educazione fisica",
+      "descrizione_e_metodologia": "Lezioni-gioco e tornei sportivi pomeridiani.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Segni Che Parlano: Sulle Orme Degli Armeni",
+      "categoria_principale": "Educazione alla legalità",
+      "descrizione_e_metodologia": "Attività laboratoriali sulla storia e cultura armena.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Qualificazione Dell'Offerta Formativa 0-6",
+      "categoria_principale": "Educazione prescolare",
+      "descrizione_e_metodologia": "Supporto di una pedagogista alle sezioni d'infanzia.",
+      "target": "Sezioni d'infanzia"
+    },
+    {
+      "titolo_attivita": "Un Giornalista In Classe",
+      "categoria_principale": "Italiano e scrittura",
+      "descrizione_e_metodologia": "Incontro con giornalista e sperimentazione pratica.",
+      "target": "Classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto \"OUTDOOR EDUCATION\"",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo pratiche didattico-educative all'esterno.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "C'E' Una Fiaba In Ogni Giorno; Anzi Due",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Spettacolo narrativo con letture animate.",
+      "target": "Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Progetti Di Attivita' Alternativa Irc",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Percorsi stimolo per formazione integrale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Orchestra a Scuola",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività extrascolastica con strumenti musicali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Scacchi",
+      "categoria_principale": "Logica",
+      "descrizione_e_metodologia": "Lezioni di scacchi con maestro esterno.",
+      "target": "Classi seconde e terze scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Attività per Transizione Ecologica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Progetti educativi sull'ecologia e sostenibilità.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti didattico-educativi a prevalente tematica inclusiva",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività laboratoriali integrate (classi aperte, laboratori, ecc.)",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Incontri specifici",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri tra docenti, famiglie, operatori sanitari",
+      "target": "Alunni durante i passaggi tra ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Per Le Vie Del Paese",
+      "categoria_principale": "Territorio e Cultura",
+      "descrizione_e_metodologia": "Esperienze per conoscere il territorio e valorizzare le risorse locali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Identificazione Precoce Disturbi Apprendimento",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Prove per identificare difficoltà di apprendimento.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Coding Unplugged",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Attività per sviluppare il pensiero computazionale.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Consiglio Comunale Ragazzi",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Percorso di cittadinanza e costituzione.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Orto Mobile",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Realizzazione di piccoli orti in collaborazione con cooperativa.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Frutta e Verdura nella Scuola",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Educazione a corretta alimentazione.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetti di Educazione Civica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Attività laboratoriali su tematiche sociali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Prima Alfabetizzazione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Avvio alla prima alfabetizzazione con italiano L2.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Musica a Scuola",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Abituare all'ascolto e esplorare possibilità espressive.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola Aperta",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Illustrare l'organizzazione e il piano dell'offerta formativa.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Campagna di informazione ed educazione sanitaria.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Ben...Essere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Consolidare sane e corrette abitudini.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetti di Lettura",
+      "categoria_principale": "Lingua e Letteratura",
+      "descrizione_e_metodologia": "Promozione alla lettura attraverso attività laboratoriali.",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FEMM81701X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della Scuola Secondaria di I Grado 'G. Strada-T. Sarti' (FEMM81701X), per il triennio 2022/2025. La scuola, situata nel comune di Cento, provincia di Ferrara, in Emilia Romagna, si configura come un istituto statale. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata e un punteggio massimo di 5 attribuito a tale aspetto. Il PTOF dimostra una forte attenzione alle attitudini, interessi, progettazione del futuro, transizioni formative e allo sviluppo delle capacità orientative degli studenti. Si riscontra un buon livello di collaborazione con diversi partner esterni, tra cui **associazioni culturali, sportive e naturalistiche**, **imprese**, **enti locali** e **famiglie**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, come confermato dal punteggio di 5. Questo indica una chiara volontà di integrare l'orientamento come parte integrante dell'offerta formativa.\n\n**2.2 Partnership:** La scuola vanta un network di **15 partner**, tra cui il **Comune di Cento (Ufficio Informagiovani)**, **Hera**, **Clara**, **Gemos**, **Coop Reno**, **Bonifica Pianura di Ferrara**, **Progetto Rewild**, **Cassa di Risparmio di Cento**, **CIDAS**, e la **Rete di scopo**. Questa rete diversificata suggerisce un approccio collaborativo all'orientamento, coinvolgendo attivamente il territorio e le risorse locali.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, la progettazione del percorso di vita, il supporto alle transizioni formative e il potenziamento delle capacità orientative per affrontare le opportunità future. Tutti questi aspetti ricevono un punteggio di 5, sottolineando la completezza della visione.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale e il lifelong learning, tutti con punteggio 5. L'obiettivo di contrastare il fenomeno NEET riceve un punteggio di 3, suggerendo un'area in cui potrebbe essere necessario un maggiore impegno.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e l'implementazione di un sistema integrato di inclusione e supporto alle fragilità. Il coordinamento dei servizi e il rapporto scuola-genitori ottengono un punteggio di 4, mentre il monitoraggio delle azioni un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sull'interdisciplinarità e, in misura minore, sulla flessibilità degli spazi e dei tempi. L'approccio esperienziale e laboratoriale, insieme all'interdisciplinarità, ricevono un punteggio di 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative include opzioni culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive. Le opzionali laboratoriali espressive ottengono un punteggio di 5, mentre le altre categorie ricevono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella chiara definizione delle finalità dell'orientamento, nella vasta rete di partnership con il territorio, nell'approccio didattico basato sull'esperienza e sulla laboratorialità, e nell'attenzione all'inclusione. Le attività registrate, come **CONNESSIONI EDUCATIVE**, **DIVARI 2**, **Digital Storytelling**, **Coding Unplugged** e **Tinkering**, dimostrano un impegno concreto nell'implementazione di strategie orientative innovative e mirate. L'offerta di attività per diverse fasce d'età, dall'infanzia alla scuola secondaria di primo grado, è un ulteriore punto di forza.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda l'obiettivo di contrastare il fenomeno NEET, che ottiene un punteggio inferiore rispetto agli altri obiettivi. Anche il monitoraggio delle azioni e la flessibilità degli spazi e dei tempi nella didattica orientativa necessitano di maggiore attenzione. L'offerta di opzionali e attività facoltative, al di là di quelle laboratoriali espressive, potrebbe essere ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni specifiche volte a contrastare il fenomeno NEET e di implementare un sistema di monitoraggio più efficace delle attività orientative. È inoltre auspicabile una maggiore flessibilità nella didattica e un ampliamento dell'offerta di opzionali, per rispondere in modo più completo alle diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della Scuola Secondaria di I Grado 'G. Strada-T. Sarti' dimostra un forte impegno verso l'orientamento, con una chiara visione strategica e una solida rete di partnership. Le attività registrate, come **Mentoring e orientamento**, **Visite scuole secondarie** e **Progetti di Attivita' Alternativa Irc**, testimoniano un approccio proattivo e innovativo. Pur presentando alcune aree di debolezza, il PTOF si configura come un documento valido e ben strutturato, in grado di fornire un solido supporto all'orientamento degli studenti e alla loro preparazione per il futuro."
+}

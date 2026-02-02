@@ -1,0 +1,201 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMMM80701Q",
+    "denominazione": "Masina Bartali Ungaretti",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giuseppe De Santis 33",
+    "cap": "00139",
+    "email": "rmic80700p@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutouruguay.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori",
+        "Commissione zero-sei"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 0
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 2
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Visite mediche",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Psicologa",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Verifiche e rendicontazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionari di soddisfazione genitori e personale, verbali colloqui.",
+      "target": "Genitori, Personale"
+    },
+    {
+      "titolo_attivita": "Legami Educativi a Distanza (LEAD)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di strumenti digitali (mail, audio, video, chat, piattaforme) per mantenere il contatto.",
+      "target": "Bambini, Famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMMM80701Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto **Masina Bartali Ungaretti** (RMMM80701Q) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, di I Grado, situato nel territorio metropolitano di Roma, si configura come una scuola statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. La valutazione evidenzia un impegno significativo nella realizzazione di attività laboratoriali e nel coinvolgimento dei genitori, con alcune aree che necessitano di ulteriore sviluppo per una piena integrazione dell'orientamento nel percorso formativo degli studenti.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicitamente dedicata all'orientamento, sebbene l'analisi indichi un punteggio di 1, suggerendo una potenziale presenza di elementi orientativi integrati in altre aree del piano.\n\n**2.2 Partnership:** L'istituto dimostra una buona capacità di attivare **partnership** con diversi soggetti esterni. Tra i partner nominati figurano l'**Opera Nazionale Montessori**, la **Banca d’Italia**, **Docendum**, la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori** e la **Commissione zero-sei**. La presenza di cinque partner attesta un impegno nella creazione di una rete di supporto per l'offerta formativa.\n\n**2.3 Finalità:** Le finalità del PTOF, in relazione all'orientamento, si concentrano sullo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 per entrambe le aree. L'attenzione al **progetto di vita** è presente, ma con un punteggio inferiore (2), mentre le finalità legate alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità risultano meno definite (punteggi 0 e 1 rispettivamente).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF si focalizzano sulla riduzione dell'**abbandono** scolastico e sulla continuità territoriale, con un punteggio di 1 per entrambi. L'attenzione al contrasto alla dispersione scolastica (fenomeno **NEET**) e alla promozione del **lifelong learning** risulta meno marcata (punteggi 0 e 1).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese a livello di sistema prevedono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e gestione delle fragilità. Il rapporto scuola-genitori e il sistema integrato di inclusione ricevono un punteggio di 3, evidenziando un'attenzione particolare a questi aspetti.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si caratterizza per l'importanza attribuita all'esperienza diretta degli studenti, con un punteggio di 4. Sono inoltre valorizzate le attività **laboratoriali**, la flessibilità degli spazi e dei tempi, e l'approccio **interdisciplinare** (punteggio 3 per ciascuna area).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**, con punteggi variabili tra 1 e 2, suggerendo una presenza di tali attività ma con margini di potenziamento.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** attivate, nell'impegno verso la realizzazione di attività **laboratoriali** e nell'attenzione al rapporto con le famiglie. L'approccio didattico, orientato all'esperienza e alla flessibilità, rappresenta un elemento positivo per lo sviluppo delle competenze degli studenti. L'istituto si distingue per l'offerta di laboratori diversificati, che spaziano dal **coding** alle scienze, dalla musica all'educazione alimentare, offrendo agli studenti opportunità di esplorare i propri interessi e talenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione esplicitamente dedicata all'orientamento e la scarsa definizione delle finalità legate alle **transizioni formative** e allo sviluppo delle **capacità orientative** rappresentano le principali aree di debolezza. Gli obiettivi, pur focalizzati su aspetti importanti come la riduzione dell'abbandono, non sembrano pienamente orientati allo sviluppo di competenze per l'orientamento professionale e alla preparazione degli studenti per il futuro.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di integrare l'orientamento in modo più sistematico all'interno del PTOF. È necessario definire finalità e obiettivi specifici per l'orientamento, sviluppare azioni mirate per supportare gli studenti nelle **transizioni formative** e potenziare l'offerta di attività opzionali e laboratoriali in linea con le esigenze del territorio e del mercato del lavoro.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Masina Bartali Ungaretti dimostra un impegno nella realizzazione di un'offerta formativa diversificata e orientata all'esperienza. Tuttavia, per una piena integrazione dell'orientamento nel percorso formativo degli studenti, è necessario definire una sezione dedicata, chiarire le finalità e gli obiettivi specifici, e sviluppare azioni mirate per supportare gli studenti nelle loro scelte future. Il potenziamento delle **partnership** e l'ampliamento dell'offerta di attività opzionali rappresentano ulteriori passi importanti per garantire un'adeguata preparazione degli studenti alle sfide del futuro."
+}

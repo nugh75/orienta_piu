@@ -1,0 +1,231 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BNPC002015",
+    "denominazione": "Liceo Scienze Umane Economico Sociale",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Solopaca",
+    "anno_ptof": "2022-2025",
+    "provincia": "Benevento",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Pozzocampo",
+    "cap": "82036",
+    "email": "bnis00200t@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.iistelesia.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata strutturata e coerente con obiettivi e modalità di attuazione definiti."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "forze dell'ordine",
+        "esperti",
+        "Regione Lombardia",
+        "Ufficio Scolastico Regionale",
+        "Inventolab",
+        "Brianza solidale",
+        "Unicredit",
+        "I.P.S.S.A.S.- LOMBARDIA",
+        "RE. NA. I. S. SAN. S.",
+        "Rete Lombarda “Scuole Che Promuovono Salute\"",
+        "Rete Di Ambito E Formazione 24"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Inserimento nel mondo del lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per l'inserimento lavorativo con titolo di studio qualificato.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di italiano per immigrati",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Corsi di italiano per studenti di recente immigrazione.",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Incontri con le forze dell'ordine e con esperti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri informativi e di sensibilizzazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività di recupero delle carenze",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Percorsi personalizzati",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Riconoscimento crediti OSS",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Riconoscimento crediti formativi per accesso esame OSS",
+      "target": "Studenti tecnici servizi socio-sanitari"
+    },
+    {
+      "titolo_attivita": "Corso di primo soccorso",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Corsi sulla sicurezza",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Progetti Inventolab",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetti proposti da Inventolab",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Giovani&Impresa",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di Brianza solidale",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Start up your life",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso di Unicredit",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Educazione Digitale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corsi online",
+      "target": "Tutti gli indirizzi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale Inclusivo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Laboratorio Artistico Inclusivo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Ortolandia",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Successo Formativo Bes",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con patologie"
+    },
+    {
+      "titolo_attivita": "Sportabilmente – Baskin",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Nessuna descrizione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Progetto INSIEME È MEGLIO",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni stranieri tramite esperti artistico-musicali",
+      "target": "Alunni stranieri"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BNPC002015\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Scienze Umane Economico Sociale** di Solopaca (Benevento), identificato dal codice **BNPC002015**, per il triennio **2022-2025**. La scuola, statale e di II grado, opera in un contesto territoriale non metropolitano della regione Campania. L'analisi si basa sui dati forniti, valutando la coerenza, la completezza e l'efficacia delle strategie di orientamento proposte. In generale, il PTOF dimostra un'attenzione significativa all'orientamento, all'inclusione e alla preparazione degli studenti per le transizioni formative e il mondo del lavoro, sebbene permangano alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF presenta diverse attività di orientamento, tuttavia, manca una sezione dedicata strutturata e coerente con obiettivi e modalità di attuazione definiti. Questo rappresenta un punto critico per una pianificazione strategica dell'orientamento.\n\n**2.2 Partnership:**\n\nLa scuola vanta un network di **11 partner**, tra cui **forze dell'ordine**, **esperti** del settore, enti regionali come la **Regione Lombardia** e l'**Ufficio Scolastico Regionale**, e diverse realtà operative come **Inventolab**, **Brianza solidale**, **Unicredit**, **I.P.S.S.A.S.- LOMBARDIA**, **RE. NA. I. S. SAN. S.**, la **Rete Lombarda “Scuole Che Promuovono Salute”** e **Rete Di Ambito E Formazione 24**. Questa rete di collaborazioni è un elemento positivo per ampliare l'offerta formativa e offrire opportunità concrete agli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita** degli studenti, facilitare le **transizioni formative** e potenziare le loro **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF sono focalizzati sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto alla dispersione dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema prevedono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sull'**interdisciplinarità** e, in misura minore, sulla **flessibilità degli spazi e dei tempi**.\n\n**2.7 Offerta di Opzionali:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, sebbene il punteggio attribuito a queste aree sia moderato, suggerendo la necessità di un'offerta più diversificata e strutturata.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiara definizione delle finalità e degli obiettivi dell'orientamento, nella presenza di un'ampia rete di **partnership** con enti e realtà del territorio, e nell'attenzione all'inclusione e al supporto degli studenti con difficoltà. Le attività di orientamento sono integrate in diverse aree del PTOF, come i percorsi per l'inserimento lavorativo e i progetti **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento).\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento, strutturata e coerente con gli obiettivi definiti. Inoltre, il monitoraggio delle azioni intraprese appare poco sistematico. L'offerta di attività opzionali potrebbe essere ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare e strutturare l'offerta di orientamento, definendo obiettivi specifici, indicatori di performance e modalità di valutazione. È necessario potenziare il monitoraggio delle attività e garantire una maggiore coerenza tra le diverse iniziative.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Scienze Umane Economico Sociale** di Solopaca dimostra un impegno significativo verso l'orientamento e l'inclusione. Pur presentando alcuni punti di forza, è necessario colmare il divario relativo alla strutturazione della sezione dedicata all'orientamento e al monitoraggio delle azioni intraprese. Un'attenzione maggiore a questi aspetti consentirebbe di massimizzare l'efficacia delle strategie di orientamento e di garantire un futuro formativo e professionale di successo per tutti gli studenti. Le attività come **Inserimento nel mondo del lavoro**, **Corsi di italiano per immigrati**, **Incontri con le forze dell'ordine e con esperti**, **Attività di recupero delle carenze**, **Riconoscimento crediti OSS**, **Corso di primo soccorso**, **Progetti Inventolab**, **Giovani&Impresa**, **Start up your life**, **Educazione Digitale**, **Laboratorio Musicale Inclusivo**, **Laboratorio Artistico Inclusivo**, **Ortolandia**, **Successo Formativo Bes**, **Istruzione Domiciliare**, **Sportabilmente – Baskin** e **Progetto INSIEME È MEGLIO** rappresentano un valido punto di partenza per un ulteriore sviluppo dell'offerta formativa."
+}

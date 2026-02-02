@@ -1,0 +1,379 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMRH040503",
+    "denominazione": "Vespucci - Percorso Ii Livello",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale, Tecnico",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Facchinetti 42",
+    "cap": "00159",
+    "email": "vvic82600r@istruzione.it",
+    "pec": "vvic82600r@pec.istruzione.it",
+    "website": "https//www.amerigovespucci.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Parrocchia",
+        "associazioni sportive",
+        "Capitaneria di Porto",
+        "Guardia di Finanza",
+        "Pantagruel Cooperativa Sociale Onlus",
+        "Impresa Sociale Con I Bambini",
+        "Associazione Officine Psicologiche",
+        "Associazione Culturale Mnemosine",
+        "Sistema Bibliotecario Vibonese",
+        "Liceo Scientifico Berto Vibo Valentia",
+        "Liceo Statale Capialbi Vibo Valentia",
+        "Comune di Vibo Valentia",
+        "Indire",
+        "Scie- scuola e cultura italiana all’estero",
+        "Altre scuole"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orchestra giovanile",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività laboratoriali musicali",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Didattica in barca",
+      "categoria_principale": "Sport/Educazione Ambientale",
+      "descrizione_e_metodologia": "Utilizzo di una barca a vela per attività didattiche",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratorio Musicale Creativo",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Laboratorio per stimolare creatività",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Cucina Internazionale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Cucina per conoscere culture",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Igiene Personale E Cura Della Persona",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Igiene e cura del corpo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Biblioteca Multietnica",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Lettura e scoperta culture",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fantaviaggiando",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Viaggi immaginari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizi Socio-Sanitari E Di Orientamento",
+      "categoria_principale": "Servizi",
+      "descrizione_e_metodologia": "Supporto socio-sanitario",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "T.E.R.R.A",
+      "categoria_principale": "Contrasto alla povertà educativa",
+      "descrizione_e_metodologia": "Progetto di inclusione sociale tramite Comunità Educante e valorizzazione identità socio-culturale.",
+      "target": "Studenti 11-17 anni a rischio dispersione, famiglie in difficoltà, docenti"
+    },
+    {
+      "titolo_attivita": "Rete Otis - Progetto Oltreconfini",
+      "categoria_principale": "Educazione alla teatralità",
+      "descrizione_e_metodologia": "Laboratori teatrali e interscambio internazionale per didattica interculturale e inclusiva.",
+      "target": "Studenti scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "SOS Sostenibilità: percorsi didattici di Educazione allo Sviluppo Sostenibile",
+      "categoria_principale": "Educazione alla Sostenibilità",
+      "descrizione_e_metodologia": "Analisi dei goal dell'Agenda 2030 attraverso attività curriculari in tutti i plessi.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Rete Otis",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Teatro come strumento formativo",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Le Scuole Promotrici Della Salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Educazione alla salute",
+      "target": "Alunni Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Favorire la conoscenza reciproca e l'adattamento all'ambiente scolastico.",
+      "target": "Alunni nuovi"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Transizione",
+      "descrizione_e_metodologia": "Favorire un sereno passaggio tra i diversi ordini di scuola.",
+      "target": "Alunni di anni 5"
+    },
+    {
+      "titolo_attivita": "Progetti di continuità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Favorire il passaggio tra i diversi ordini di scuola",
+      "target": "Alunni e famiglie"
+    },
+    {
+      "titolo_attivita": "Formulazione del PAI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Sostenere l'alunno, dotandolo di competenze",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Visite alla scuola superiore",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Micro esperienze laboratoriali",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Liberi Di Esprimersi: Parola-Emozione In Azione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività didattiche e risorse condivise",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musicarte",
+      "categoria_principale": "Educazione Musicale",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche",
+      "target": "Studenti e Personale"
+    },
+    {
+      "titolo_attivita": "Spazio ZeroSei Vibo Marina",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri con esperti, attività per i più piccoli",
+      "target": "Famiglie e bambini 0-3 anni"
+    },
+    {
+      "titolo_attivita": "L'Eros Della Musica",
+      "categoria_principale": "Educazione Musicale",
+      "descrizione_e_metodologia": "Attività didattiche, curricolo verticale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Nazionale",
+      "categoria_principale": "Attività Musicale e Teatrale",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Nazionale Educazione Sostenibilità",
+      "categoria_principale": "Educazione Sostenibilità",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche",
+      "target": "Studenti e Personale"
+    },
+    {
+      "titolo_attivita": "Accordo di Rete Service Learning",
+      "categoria_principale": "Service Learning",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Scuola Polo Monitor Io Studio",
+      "categoria_principale": "Curriculum dello Studente",
+      "descrizione_e_metodologia": "Implementazione del curriculum dello studente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rete Scuol@Genda 2030",
+      "categoria_principale": "Agenda 2030",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche",
+      "target": "Studenti e Personale"
+    },
+    {
+      "titolo_attivita": "Rete Vibo On Air",
+      "categoria_principale": "Povertà Educativa",
+      "descrizione_e_metodologia": "Laboratori multidisciplinari, web radio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Bit & Nuvole - Curricoli Digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Realizzazione di curricoli digitali nell'ambito del Piano nazionale Scuola digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Rete Nazionale Scuole Smart",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Formazione del personale e condivisione di risorse",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Protocollo D’Intesa Sistema Bibliotecario Vibonese",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Punto Lettura nella scuola dell'infanzia",
+      "target": "Bambini e famiglie"
+    },
+    {
+      "titolo_attivita": "Piano Di Formazione Del Personale Docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Percorsi su sviluppo equo e sostenibile, cittadinanza digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Valutazione narrativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Raccontare e documentare il percorso di apprendimento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori inclusivi",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Laboratori per coinvolgere tutti gli alunni",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Percorsi di didattica digitale integrata (DDI)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "DDI complementare",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "La fiaba",
+      "categoria_principale": "Espressione e creatività",
+      "descrizione_e_metodologia": "Utilizzo della fiaba per esprimere emozioni e fantasia.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Piccoli Artisti Crescono",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Avvicinamento all'arte tramite sperimentazione di colori e tecniche.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Alla Scoperta Dei Colori",
+      "categoria_principale": "Arte e creatività",
+      "descrizione_e_metodologia": "Esplorazione dei colori, mescolanze e tecniche pittoriche.",
+      "target": "Bambini Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Didattica in Barca",
+      "categoria_principale": "Progetti Territoriali",
+      "descrizione_e_metodologia": "Utilizzo imbarcazione a vela per lezioni di fisica, biologia marina, vela e regate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Abitiamo il Mondo in Modo Nuovo",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Laboratori dedicati al riciclo, sostenibilità, riuso.",
+      "target": "Studenti Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "La Sostenibile Leggerezza del Km 0",
+      "categoria_principale": "Progetti Territoriali",
+      "descrizione_e_metodologia": "Interviste a contadini, pescatori, Guardia Costiera. Realizzazione di spot e brochure.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMRH040503\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto \"Vespucci - Percorso II Livello\" (ID scuola RMRH040503), relativo all'anno scolastico 2019/20-2021/22. L'istituto, situato nel comune di Roma, offre un percorso comprensivo che include i gradi di infanzia, primaria, secondaria di primo e secondo grado, oltre a corsi professionali e tecnici. L'analisi si concentra in particolare sulla sezione dedicata all'orientamento, valutandone la struttura, gli obiettivi, le azioni implementate e le partnership attivate. Il PTOF dimostra un impegno significativo verso l'orientamento, con una sezione dedicata ben strutturata e un'ampia rete di collaborazioni esterne.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5. Questo indica una chiara attenzione e strutturazione di questa area all'interno del piano complessivo.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership con diversi soggetti, tra cui la **Parrocchia**, **associazioni sportive**, la **Capitaneria di Porto**, la **Guardia di Finanza**, **Pantagruel Cooperativa Sociale Onlus**, **Impresa Sociale Con I Bambini**, **Associazione Officine Psicologiche**, **Associazione Culturale Mnemosine**, il **Sistema Bibliotecario Vibonese**, il **Liceo Scientifico Berto Vibo Valentia**, il **Liceo Statale Capialbi Vibo Valentia**, il **Comune di Vibo Valentia**, **Indire**, **Scie** e altre scuole. Il numero di partner (15) testimonia un forte impegno nella creazione di un sistema di supporto esterno per l'orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del percorso di vita, la preparazione alle transizioni formative e la capacità di cogliere le opportunità offerte dal territorio. Tutti gli aspetti valutati hanno ottenuto punteggi elevati, con particolare attenzione alla **progettazione del percorso di vita** (punteggio 6).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. L'obiettivo di garantire la continuità territoriale ha ottenuto un punteggio elevato (6), mentre quello relativo alla lotta contro i NEET risulta meno sviluppato (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con le famiglie, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Tutte le azioni considerate hanno ottenuto un punteggio di 5, evidenziando un approccio sistemico e integrato.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. L'approccio basato sull'esperienza studentesca e l'interdisciplinarità sono ben valorizzati (punteggio 5), mentre l'utilizzo di laboratori e la flessibilità degli spazi e dei tempi necessitano di ulteriori sviluppi (punteggi rispettivamente 3 e 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive. Le opzioni culturali e laboratoriali ricevono un punteggio di 4 e 5 rispettivamente, mentre quelle ludico-ricreative, di volontariato e sportive sono meno sviluppate (punteggio 1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, l'ampia rete di partnership, la chiarezza delle finalità e degli obiettivi, l'approccio sistemico e integrato alle azioni di orientamento e l'attenzione all'esperienza degli studenti nella didattica. Le numerose attività proposte, come **Orchestra giovanile**, **Didattica in barca**, **Laboratorio Musicale Creativo**, **Laboratorio Di Cucina Internazionale**, dimostrano una ricca offerta formativa.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF riguardano principalmente la scarsa attenzione alla lotta contro i NEET, lo sviluppo limitato dell'utilizzo di laboratori nella didattica orientativa e la scarsa offerta di attività opzionali ludico-ricreative, di volontariato e sportive.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di potenziare le azioni volte a contrastare il fenomeno dei NEET, attraverso l'implementazione di progetti specifici e la creazione di percorsi formativi mirati. Inoltre, è necessario incrementare l'utilizzo di laboratori nella didattica orientativa, favorendo l'apprendimento esperienziale e la sperimentazione pratica. Infine, si suggerisce di ampliare l'offerta di attività opzionali, includendo opzioni ludico-ricreative, di volontariato e sportive, per soddisfare le diverse esigenze e interessi degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto \"Vespucci - Percorso II Livello\" presenta un solido impianto per l'orientamento, con numerosi punti di forza e un impegno significativo verso la creazione di un sistema di supporto integrato. Pur evidenziando alcune aree di debolezza, il PTOF dimostra una chiara volontà di fornire agli studenti gli strumenti necessari per affrontare le sfide del futuro e per costruire un percorso di vita consapevole e soddisfacente. Progetti come **T.E.R.R.A**, **Rete Otis - Progetto Oltreconfini** e **SOS Sostenibilità** evidenziano un approccio innovativo e orientato al territorio."
+}

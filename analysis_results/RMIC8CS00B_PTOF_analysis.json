@@ -1,0 +1,165 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMIC8CS00B",
+    "denominazione": "Ic Emma Castelnuovo",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2025-2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Don Primo Mazzolari 323",
+    "cap": "00132",
+    "email": "rmic8cs00b@istruzione.it",
+    "pec": "rmic8cs00b@pec.istruzione.it",
+    "website": "www.icemmacastelnuovo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è presente come tema trasversale all'interno del PTOF, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Università di Tor Vergata",
+        "Lumsa",
+        "La Sapienza",
+        "Save the Children",
+        "Punto Luce di Ponte di Nona",
+        "Spazio Mamme",
+        "Servizi Sociali territoriali",
+        "Croce Rossa Italiana",
+        "Cospexa"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "valorizzare le competenze del singolo",
+        "evidence_location": "Pagina 3"
+      },
+      "finalita_interessi": {
+        "score": 4,
+        "evidence_quote": "attraverso valide e condivise attività volte ad orientarli nelle scelte di studio e nello sviluppo del loro progetto di vita",
+        "evidence_location": "Pagina 4"
+      },
+      "finalita_progetto_vita": {
+        "score": 4,
+        "evidence_quote": "prepararli al saper fare",
+        "evidence_location": "Pagina 4"
+      },
+      "finalita_transizioni_formative": {
+        "score": 2,
+        "evidence_quote": "nessuna evidenza specifica",
+        "evidence_location": "N/A"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3,
+        "evidence_quote": "nessuna evidenza specifica",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto MentorShip",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Rafforza le competenze di base e sostiene gli alunni a rischio dispersione scolastica.",
+      "5w_chi": "Alunni a rischio dispersione scolastica",
+      "5w_cosa": "Supporto e potenziamento delle competenze",
+      "5w_dove": "Istituto Comprensivo Emma Castelnuovo",
+      "5w_quando": "Triennio 2025-2028",
+      "5w_perche": "Prevenire la dispersione scolastica",
+      "ore_dichiarate": "ND",
+      "target": "Alunni a rischio",
+      "evidence_quote": "Rafforza le competenze di base e sostiene gli alunni a rischio dispersione scolastica.",
+      "evidence_location": "Pagina 7"
+    },
+    {
+      "titolo_attivita": "Progetto con Save the Children",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Promuove le competenze di cittadinanza, la cultura del rispetto e della legalità.",
+      "5w_chi": "Tutti gli studenti",
+      "5w_cosa": "Attività di cittadinanza e legalità",
+      "5w_dove": "Istituto Comprensivo Emma Castelnuovo",
+      "5w_quando": "Triennio 2025-2028",
+      "5w_perche": "Promuovere la cittadinanza attiva",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "promuove le competenze di cittadinanza, la cultura del rispetto e della legalità.",
+      "evidence_location": "Pagina 7"
+    }
+  ],
+  "narrative": "## Analisi del PTOF RMIC8CS00B\n\n### 1. Sintesi Generale\nIl PTOF dell'IC Emma Castelnuovo delinea un approccio all'orientamento integrato nella sua offerta formativa, con un focus sull'inclusione, la prevenzione della dispersione scolastica e lo sviluppo delle competenze di cittadinanza. Pur non prevedendo una sezione specificamente dedicata all'orientamento, il documento evidenzia una chiara attenzione alla crescita personale e professionale degli studenti. Il livello di maturità dell'orientamento è giudicabile come buono, con azioni strutturate e partnership consolidate, sebbene permangano aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nL'assenza di una sezione dedicata all'orientamento costituisce una lacuna significativa, nonostante il tema sia affrontato in modo trasversale. Ciò suggerisce che l'orientamento è considerato un aspetto intrinseco dell'azione educativa, piuttosto che un'area di intervento specifica e strutturata.\n\n#### 2.2 Partnership e Reti\nIl PTOF evidenzia una rete di partnership consolidata con diverse istituzioni e organizzazioni, tra cui **Università di Tor Vergata**, **Lumsa**, **La Sapienza**, **Save the Children**, **Punto Luce di Ponte di Nona**, **Spazio Mamme**, **Servizi Sociali territoriali** e **Croce Rossa Italiana**. Queste collaborazioni offrono opportunità di arricchimento dell'offerta formativa e di supporto agli studenti.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità dell'orientamento sono orientate alla valorizzazione delle competenze individuali, allo sviluppo di progetti di vita e alla preparazione al mondo del lavoro. L'attenzione alla prevenzione della dispersione scolastica e alla promozione della cittadinanza attiva sono particolarmente rilevanti. Tuttavia, manca una definizione esplicita delle finalità relative alle transizioni formative e allo sviluppo di capacità orientative.\n\n#### 2.4 Governance e Azioni di Sistema\nIl PTOF prevede azioni di coordinamento tra i diversi servizi scolastici, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie. Il sistema integrato di inclusione e la valorizzazione delle fragilità rappresentano un punto di forza.\n\n#### 2.5 Didattica Orientativa\nLa didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori e sull'interdisciplinarità. L'attenzione alla flessibilità degli spazi e dei tempi è un elemento positivo.\n\n#### 2.6 Opportunità Formative\nIl PTOF prevede opzionali culturali, laboratoriali, sportive e di volontariato, che offrono agli studenti opportunità di approfondimento e di sviluppo di interessi specifici.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetto MentorShip\nIl **Progetto MentorShip** è un'iniziativa mirata a sostenere gli alunni a rischio dispersione scolastica, fornendo loro un supporto personalizzato per il potenziamento delle competenze di base. Il progetto si svolge presso l'**Istituto Comprensivo Emma Castelnuovo** durante il **triennio 2025-2028** e si rivolge agli **alunni a rischio**. L'obiettivo principale è prevenire l'abbandono scolastico e favorire il successo formativo.\n\n#### 2.7.2 Progetto con Save the Children\nIl **progetto con Save the Children** è un'iniziativa volta a promuovere le competenze di cittadinanza, la cultura del rispetto e della legalità tra **tutti gli studenti** dell'**Istituto Comprensivo Emma Castelnuovo**. Il progetto si svolge durante il **triennio 2025-2028** e prevede attività di sensibilizzazione e di educazione civica.\n\n### 3. Punti di Forza\nI principali punti di forza del PTOF sono la rete di partnership consolidata, l'attenzione all'inclusione e alla prevenzione della dispersione scolastica, e l'integrazione dell'orientamento all'interno dell'offerta formativa.\n\n### 4. Aree di Debolezza\nL'assenza di una sezione dedicata all'orientamento e la mancanza di una definizione esplicita delle finalità relative alle transizioni formative rappresentano le principali aree di debolezza.\n\n### 5. Gap Analysis\nIl PTOF potrebbe essere migliorato attraverso la creazione di una sezione dedicata all'orientamento, la definizione di obiettivi specifici per le transizioni formative e l'implementazione di azioni mirate allo sviluppo di capacità orientative.\n\n### 6. Conclusioni\nNel complesso, il PTOF dell'IC Emma Castelnuovo presenta un approccio all'orientamento solido e ben integrato nell'offerta formativa. Sebbene esistano alcune aree di miglioramento, il documento dimostra un impegno significativo per la crescita personale e professionale degli studenti."
+}

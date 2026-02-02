@@ -1,0 +1,371 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTEE82803A",
+    "denominazione": "Scuola Ospedaliera-Fermi Matera",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Matera",
+    "anno_ptof": "2019-2022",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Fermi",
+    "cap": "75100",
+    "email": "mtic828006@istruzione.it",
+    "pec": "rmtf040002@pec.istruzione.it",
+    "website": "www.ic4matera.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel PTOF"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Intersind",
+        "IRI",
+        "Confindustria",
+        "musei",
+        "istituti pubblici e privati",
+        "associazioni di settore",
+        "BIC Lazio",
+        "Unindustria",
+        "Federmeccanica",
+        "Federmanager",
+        "Camera di Commercio di Roma",
+        "Enea",
+        "Nous Informatica",
+        "Museo Storico della Comunicazione",
+        "Microsoft",
+        "Oracle",
+        "Larimart",
+        "Xenta Systems",
+        "Rheinmetall Defence",
+        "Elt Elettronica",
+        "Fait",
+        "Azienda Ospedaliera San Filippo Neri",
+        "Distrelec",
+        "INFN di Frascati",
+        "GSE",
+        "Mercedes Benz",
+        "CSM",
+        "Buzzi –UNICEM",
+        "Softlab",
+        "Trenitalia",
+        "Enti di alta formazione",
+        "Università italiane ed Europee",
+        "CAME",
+        "Bosch Randstad",
+        "Unicredit",
+        "Siemens",
+        "Adecco",
+        "Fibernet",
+        "Università Roma3",
+        "I.I.S. Carlo Emery",
+        "SMS Stefanelli",
+        "ASL",
+        "Associazioni"
+      ],
+      "partnership_count": 33
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage aziendali",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Stage in aziende leader del settore tecnologico",
+      "target": "Studenti 3° e 4° anno"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a università e facoltà",
+      "target": "Studenti 4° anno"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage e tirocini presso aziende ed enti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su valutazione, metodologie CLIL, etc.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concorsi",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Maker Faire, Romecup, Labfour, Bic",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Creare un canale di raccordo tra scuola e aziende",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Attività di alternanza presso aziende per competenze spendibili nel mondo del lavoro.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a percorsi formativi universitari",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione a convegni e presentazioni presso università cittadine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cisco",
+      "categoria_principale": "Formazione Tecnologica",
+      "descrizione_e_metodologia": "Incontri in presenza e piattaforma online con esami.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Came",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Formazione sulla domotica con realizzazione scenari.",
+      "target": "Classi 4°"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su valutazione, metodologie CLIL, etc.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti Europei (Erasmus Plus)",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Circolazione studenti/docenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage linguistici",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Frequenza corsi scuole estere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "\"Sfida All’Ultima Riga\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Sfida tra classi su romanzo",
+      "target": "Classi"
+    },
+    {
+      "titolo_attivita": "\"Progetto Einaudi\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Discussione libro con autore",
+      "target": "Classi"
+    },
+    {
+      "titolo_attivita": "\"Invito Alla Lettura\"",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Presentazione libro da parte di studenti",
+      "target": "Classi"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro presso Museo Storico Della Comunicazione",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Settimana (40 ore) presso struttura ospitante",
+      "target": "Classe di telecomunicazioni/informatica"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Della Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara di primo livello per studenti motivati",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara matematica per stimolare l'interesse",
+      "target": "Triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a gare organizzate dall'AICA",
+      "target": "Biennio/Triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Grammatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gara di grammatica per motivare allo studio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Salute",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Promozione salute mentale, prevenzione malattie",
+      "target": "Studenti, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Educazione E Sicurezza Stradale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso per certificato idoneità ciclomotore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mare Sicuro",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corso formativo sicurezza in mare e primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Arbitro Fivap",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Abilitazione ad arbitrare partite di pallavolo",
+      "target": "Studenti > 16 anni"
+    },
+    {
+      "titolo_attivita": "Masterclass Di Fisica Terrestre E Ambiente",
+      "categoria_principale": "Visite/Laboratori",
+      "descrizione_e_metodologia": "Ricercatori per un giorno presso Università Roma3",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso Di Modellazione 3D",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Realizzazione oggetti in base a specifiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gara Cansat",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Progettazione e realizzazione dispositivi satelliti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto in rete per l'assistenza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Dettagli nel paragrafo reti di istituto",
+      "target": "Studenti con BES/disabilità"
+    },
+    {
+      "titolo_attivita": "Osservatorio Generazione Proteo",
+      "categoria_principale": "Ricerca",
+      "descrizione_e_metodologia": "Ricerca sociale e didattica, innovazione, orientamento scolastico",
+      "target": "Studenti, scuole, università"
+    },
+    {
+      "titolo_attivita": "Continuous Training",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione interna, coinvolgimento comunità scolastica",
+      "target": "Comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Rete Provincia",
+      "categoria_principale": "Assistenza",
+      "descrizione_e_metodologia": "Assistenza specialistica ad alunni",
+      "target": "Alunni con bisogni speciali"
+    },
+    {
+      "titolo_attivita": "Rosetta Rossi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione, orientamento, risoluzione problematiche",
+      "target": "Scuole"
+    },
+    {
+      "titolo_attivita": "Rete Serale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi di II livello",
+      "target": "Studenti serali"
+    },
+    {
+      "titolo_attivita": "Rete CLIL",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione linguistica e metodologica",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Le Ali Della Libertà",
+      "categoria_principale": "Assistenza",
+      "descrizione_e_metodologia": "Assistenza specialistica",
+      "target": "Scuole"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTEE82803A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Ospedaliera-Fermi Matera** (MTEE82803A) per il triennio 2019-2022. La scuola, di ordine e grado primario, situata in un contesto territoriale non metropolitano della regione Basilicata, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio di 5 su 5 in tal senso. L'istituto statale si distingue per una vasta rete di **partnership** con aziende, istituzioni e università, che costituisce un elemento chiave per l'implementazione di attività di orientamento efficaci.\n\n### 2. Analisi Dimensionale\n\nLa struttura dell'orientamento nel PTOF si articola su diverse dimensioni. Per quanto riguarda le **finalità**, l'istituto attribuisce importanza allo sviluppo di attitudini, interessi e progetti di vita degli studenti, nonché alla preparazione per le transizioni formative e all'acquisizione di capacità orientative utili per affrontare le opportunità future, con un punteggio di 3 su 5 per ciascuna di queste aree. Gli **obiettivi** delineati mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning, con punteggi che variano tra 3 e 4 su 5. Le **azioni** implementate si concentrano sul coordinamento dei servizi, sul dialogo tra docenti e studenti, sul rapporto scuola-genitori e sull'inclusione, con punteggi generalmente intorno a 3 su 5, ad eccezione del monitoraggio delle azioni che ottiene un punteggio di 2 su 5. L'approccio didattico orientativo si basa sull'apprendimento esperienziale, sull'interdisciplinarità e, in misura minore, sulla didattica laboratoriale e sulla flessibilità degli spazi e dei tempi. L'offerta di **opzionali** è diversificata e comprende attività culturali, laboratoriali, ludico-ricreative, di volontariato e sportive, tutte con un punteggio di 3 su 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella ricchezza e nella varietà delle **partnership** stabilite con il mondo del lavoro e dell'istruzione superiore. L'elenco dei partner, che include nomi come **Intersind**, **Confindustria**, **Microsoft**, **Università Roma3** e numerose altre aziende ed enti, testimonia un forte impegno nel creare opportunità di contatto diretto tra gli studenti e il mondo esterno. Le **attività** registrate, come gli **stage aziendali**, le **visite guidate** alle università, i percorsi di **Alternanza Scuola-Lavoro** e i **corsi di formazione** per docenti, sono coerenti con gli obiettivi di orientamento e offrono agli studenti un'ampia gamma di esperienze formative. L'impegno nell'internazionalizzazione, attraverso i **progetti Erasmus Plus** e gli **stage linguistici**, rappresenta un ulteriore valore aggiunto.\n\n### 4. Aree di Debolezza\n\nUn'area di miglioramento riguarda il monitoraggio delle azioni intraprese, che ha ottenuto un punteggio relativamente basso. È necessario implementare sistemi di valutazione più efficaci per misurare l'impatto delle attività di orientamento e per apportare eventuali correzioni di rotta. Anche la didattica laboratoriale e la flessibilità degli spazi e dei tempi potrebbero essere potenziate per favorire un apprendimento più attivo e coinvolgente.\n\n### 5. Gap Analysis\n\nNonostante l'ampia offerta di attività, è possibile individuare un gap tra la pianificazione strategica e l'effettiva implementazione di alcune azioni. Ad esempio, sebbene siano previsti corsi di formazione per i docenti, non sono specificati i contenuti e le modalità di erogazione. Inoltre, l'attenzione alla prevenzione dell'abbandono scolastico e alla lotta contro i NEET potrebbe essere rafforzata attraverso interventi mirati e personalizzati.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF della **Scuola Ospedaliera-Fermi Matera** presenta un approccio all'orientamento ben strutturato e ambizioso. La vasta rete di **partnership** e la diversificazione delle **attività** rappresentano un punto di forza significativo. Tuttavia, è necessario migliorare il monitoraggio delle azioni, potenziare la didattica laboratoriale e la flessibilità degli spazi e dei tempi, e rafforzare gli interventi mirati alla prevenzione dell'abbandono scolastico e alla lotta contro i NEET. Un'attenta revisione e un'implementazione efficace di queste misure consentiranno alla scuola di raggiungere appieno i propri obiettivi di orientamento e di offrire agli studenti un percorso formativo completo e di qualità."
+}

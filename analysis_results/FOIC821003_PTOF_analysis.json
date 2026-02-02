@@ -1,0 +1,312 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FOIC821003",
+    "denominazione": "Ic N.4 Annalena Tonelli Forli'",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "Comprensivo, I Grado, Infanzia, Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Forli'",
+    "anno_ptof": "2022-2025",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Viale Italia 56",
+    "cap": "47121",
+    "email": "foic821003@istruzione.it",
+    "pec": "foic821003@pec.istruzione.it",
+    "website": "https//www.icquattroforli.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "servizi sociali",
+        "Comuni",
+        "ASST",
+        "Forze dell’Ordine",
+        "associazioni locali",
+        "associazioni del terzo settore",
+        "imprese",
+        "scuole superiori Tirano e Sondrio",
+        "servizi socio-sanitari ed educativi del territorio",
+        "Biblioteca “E. Branchi” di Teglio",
+        "Palazzo Besta di Teglio",
+        "FabLab",
+        "Centro Tellino di Cultura",
+        "UST di Sondrio",
+        "ASL",
+        "COMUNITA’ MONTANA",
+        "G.I.T. provinciale",
+        "Ufficio di Piano/tutela minori",
+        "Università",
+        "Enti di formazione accreditati"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate ad aziende locali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite aziendali per scoperta professioni",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Progetti con associazioni del territorio",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Collaborazione con Gruppo Alpini, associazioni sportive",
+      "target": "Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Progetti di continuità con scuole superiori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coprogettazione attività con scuole superiori Tirano e Sondrio",
+      "target": "Studenti Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Attività personalizzate",
+      "categoria_principale": "Recupero competenze",
+      "descrizione_e_metodologia": "Compiti di realtà per motivare alunni con svantaggio",
+      "target": "Tutti gli alunni, in particolare quelli con svantaggio"
+    },
+    {
+      "titolo_attivita": "Artigianato",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Sinergia con il territorio",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Utilizzo di tecniche diverse (mosaico)",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Laboratori tecnologici",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Stampante 3D e cutter laser",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Laboratori di logica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Problem-solving",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Laboratorio di percussioni",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Io leggo perché",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Attività correlate al progetto",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Al Museo per un anno",
+      "categoria_principale": "Storia e Arte",
+      "descrizione_e_metodologia": "Collaborazione con Palazzo Besta",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Conversazione in Lingua Inglese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Sperimentazione con docente specialista",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Tedesco",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Terza lingua comunitaria",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Introduzione al Latino",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Per studenti motivati",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Collaborazione con FabLab",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "KET",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione livello A2",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "DELF",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione livello A1",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Fit in Deutsch",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Certificazione livello A1",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Strumento Musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Collaborazione con Centro Tellino",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione emotiva",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Riconoscere e nominare le emozioni",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Multimedialità",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Produzione e diffusione di immagini e suoni",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Supporto psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Sportello psicologico",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Gruppo Sportivo Studentesco",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Attività sportive",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Progetto continuità",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Trasversale tra ordini di scuola",
+      "target": "Scuola Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Progetto Indipotedns",
+      "categoria_principale": "Recupero e Potenziamento",
+      "descrizione_e_metodologia": "Potenziamento alunni con fragilità",
+      "target": "Primaria"
+    },
+    {
+      "titolo_attivita": "Corsi preparazione certificazioni linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Corsi KET, DELF",
+      "target": "Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Coordinamento attività educative prevenzione bullismo/cyberbullismo",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Coordinamento relazioni, corsi formazione, incontri informativi",
+      "target": "Studenti, famiglie, insegnanti"
+    },
+    {
+      "titolo_attivita": "Vigilanza sicurezza edifici scolastici",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Controlli, prove di evacuazione, formazione",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progettazione percorsi Educazione Civica",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Promozione concorsi, seminari, collaborazione enti esterni",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FOIC821003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic N.4 Annalena Tonelli Forli'** (FOIC821003), relativo all'anno **2022-2025**. La scuola, di tipo **Comprensivo** e situata in **Emilia Romagna**, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un'ampia rete di **partnership**. L'analisi dei punteggi e delle attività registrate permette di delineare un quadro completo dei punti di forza, delle aree di debolezza e dei possibili gap da colmare per ottimizzare l'offerta orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, con un punteggio di 5, indicando un'attenzione specifica a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un network di **20 partner**, tra cui **servizi sociali**, **Comuni**, **ASST**, **Forze dell’Ordine**, **associazioni locali** e del **terzo settore**, **imprese**, **scuole superiori Tirano e Sondrio**, **servizi socio-sanitari ed educativi del territorio**, **Biblioteca “E. Branchi” di Teglio**, **Palazzo Besta di Teglio**, **FabLab**, **Centro Tellino di Cultura**, **UST di Sondrio**, **ASL**, **COMUNITA’ MONTANA**, **G.I.T. provinciale**, **Ufficio di Piano/tutela minori**, **Università** ed **Enti di formazione accreditati**. Questo ampio ventaglio di collaborazioni rappresenta un valore aggiunto per l'offerta orientativa, permettendo di offrire agli studenti una visione più completa del mondo del lavoro e delle opportunità formative.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo di **attitudini**, **interessi** e alla progettazione del **progetto di vita**, con un punteggio di 3 per ciascuna di queste aree. Si pone attenzione anche alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità, anch'esse con punteggio 3.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF mirano a ridurre l'**abbandono** scolastico (punteggio 4) e a garantire la continuità territoriale (punteggio 4). L'obiettivo di contrastare il fenomeno **NEET** risulta meno prioritario (punteggio 1), mentre l'importanza del **lifelong learning** è considerata con un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema prevedono il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 3), il **rapporto scuola-genitori** (punteggio 4) e un **sistema integrato di inclusione e fragilità** (punteggio 4). Il **monitoraggio delle azioni** risulta l'aspetto meno sviluppato (punteggio 2).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 3), sull'utilizzo di **laboratori** (punteggio 3), sull'interdisciplinarità (punteggio 3) e, in misura minore, sulla flessibilità degli spazi e dei tempi (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali** (punteggio 2), **laboratoriali ed espressive** (punteggio 3), **ludiche e ricreative** (punteggio 2), di **volontariato** (punteggio 2) e **sportive** (punteggio 2).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** attivate dalla scuola, che permette di offrire agli studenti un'ampia gamma di opportunità di orientamento. L'attenzione alla riduzione dell'**abbandono** scolastico e alla continuità territoriale dimostra una sensibilità verso le esigenze del territorio. Le attività registrate, come le **visite guidate ad aziende locali**, i **progetti con associazioni del territorio** e i **progetti di continuità con scuole superiori**, sono coerenti con gli obiettivi del PTOF e contribuiscono a fornire agli studenti un'esperienza orientativa completa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda il **monitoraggio delle azioni** intraprese, che risulta poco sviluppato. Inoltre, l'obiettivo di contrastare il fenomeno **NEET** sembra meno prioritario rispetto agli altri obiettivi. L'offerta di attività opzionali, pur presente, potrebbe essere ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di implementare un sistema di monitoraggio efficace per valutare l'impatto delle azioni di orientamento e apportare eventuali correzioni. È inoltre auspicabile un maggiore focus sulla prevenzione del fenomeno **NEET**, attraverso l'implementazione di azioni specifiche volte a favorire l'inserimento lavorativo dei giovani.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ic N.4 Annalena Tonelli Forli'** presenta un'offerta orientativa solida e ben strutturata, supportata da una vasta rete di **partnership** e da una serie di attività coerenti con gli obiettivi del piano. L'implementazione di un sistema di monitoraggio efficace e un maggiore focus sulla prevenzione del fenomeno **NEET** potrebbero contribuire a ottimizzare ulteriormente l'offerta orientativa e a garantire agli studenti un futuro più sicuro e consapevole. Le attività come **Artigianato**, **Laboratori artistici**, **Laboratori tecnologici**, **Coding**, **Conversazione in Lingua Inglese** e **Supporto psicologico** rappresentano un valore aggiunto per la crescita personale e professionale degli studenti."
+}

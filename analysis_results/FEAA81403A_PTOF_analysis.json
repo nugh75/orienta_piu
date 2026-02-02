@@ -1,0 +1,415 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FEAA81403A",
+    "denominazione": "Via Lidi Ferraresi-Migliarino",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Fiscaglia",
+    "anno_ptof": "2022-2025",
+    "provincia": "Ferrara",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Lidi Ferraresi 13",
+    "cap": "44027",
+    "email": "feic81400b@istruzione.it",
+    "pec": "bais06400v@pec.istruzione.it",
+    "website": "https//comprensivoostellato.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presenti diverse attività di orientamento, sebbene non formalizzate in una sezione dedicata con titolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Comune",
+        "Regione",
+        "Università di Bari",
+        "Politecnico di Bari",
+        "ITS",
+        "Società Trasporti Provinciali",
+        "Istat",
+        "SIS",
+        "AICA",
+        "COMAU",
+        "University of Cambridge International examinations",
+        "APULIA DIGITAL MAKER",
+        "Università degli Studi",
+        "Banche",
+        "Fondazioni",
+        "Aziende private",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Enti di ricerca",
+        "Associazioni/Cooperative",
+        "Autonomie locali"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti ITT"
+    },
+    {
+      "titolo_attivita": "Certificazioni",
+      "categoria_principale": "Competenze",
+      "descrizione_e_metodologia": "Certificazioni linguistiche, informatiche, CAD, robotica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica e Statistica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Gare di soluzione problemi, analisi dati, probabilità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Competizioni individuali e a squadre, problem solving.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a gare regionali di chimica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Campionati Scienze Naturali",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione Olimpiadi Scienze Naturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Recupero/Potenziamento area scientifico-tecnologica",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Recupero abilità base, certificazioni ICT.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Curvatura Biomedica",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Approfondimenti fisica biomedicale, laboratorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Curvatura Coding",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Realizzazione App Android.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e per l'orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite universitarie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite presso università",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Progetto Lauree Scientifiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Statistica, collaborazione con Dipartimento Scienze Statistiche e ISTAT",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Statistica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Partecipazione Olimpiadi Italiane di Statistica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Psicologi nelle Scuole",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Supporto studio, potenziamento autostima, didattica innovativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il Cammino di Santiago",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Valorizzazione patrimonio culturale, artistico e paesaggistico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "La Scuola va a teatro",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Spettacoli teatrali con valenza didattico-formativa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “IL PATENTINO DELLA ROBOTICA COMAU\"",
+      "categoria_principale": "STEM/Robotica",
+      "descrizione_e_metodologia": "Approccio innovativo alle discipline STEM, competenze digitali per il mondo del lavoro.",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Corso “MECCATRONICA CON ARDUINO\"",
+      "categoria_principale": "STEM/Meccatronica",
+      "descrizione_e_metodologia": "Formazione sulle applicazioni della meccatronica, robotica e programmazione.",
+      "target": "Studenti del triennio del corso di Meccatronica"
+    },
+    {
+      "titolo_attivita": "Corso “NDG LINUX ESSENTIALS\"",
+      "categoria_principale": "Informatica/Sistemi Operativi",
+      "descrizione_e_metodologia": "Competenze di base per lavorare in ambito Open Source su Linux.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “PYTHON ESSENTIALS\"",
+      "categoria_principale": "Informatica/Programmazione",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Python Institute PCEP.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “ARTIFICIAL INTELLIGENCE\"",
+      "categoria_principale": "Informatica/Intelligenza Artificiale",
+      "descrizione_e_metodologia": "Acquisizione competenze di base sull'intelligenza artificiale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “AUTOCAD 2D\"",
+      "categoria_principale": "Informatica/CAD",
+      "descrizione_e_metodologia": "Conseguimento della Certificazione Aica Ecdl Cad 2D.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “DIGITAL LITERACY\"",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Certificazione internazionale dell'alfabetizzazione digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “L’ARIA CHE TIRA\"",
+      "categoria_principale": "Scienze/Ambiente",
+      "descrizione_e_metodologia": "Competenze sui metodi di indagine del biomonitoraggio ambientale con tecnologie digitali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “SCOPRIAMO I MATERIALI\"",
+      "categoria_principale": "Scienze/Materiali",
+      "descrizione_e_metodologia": "Sperimentazione diretta in laboratorio, interdisciplinarità e innovazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corso “MOBILITA’ SOSTENIBILE PER LA SMART CITY\"",
+      "categoria_principale": "Tecnologia/Sostenibilità",
+      "descrizione_e_metodologia": "Realizzazione di una stazione di ricarica per veicoli elettrici da fonti rinnovabili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "StandByMe 2.0",
+      "categoria_principale": "Prevenzione Violenza Genere",
+      "descrizione_e_metodologia": "Sensibilizzazione, educazione, dialogo su violenza di genere online.",
+      "target": "Studenti secondaria di secondo grado"
+    },
+    {
+      "titolo_attivita": "Scopriamo i materiali",
+      "categoria_principale": "Attività Laboratoriali",
+      "descrizione_e_metodologia": "Sperimentazione diretta in laboratorio, osservazione, raccolta dati.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Treno della memoria",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorso storico sulla Shoah, educazione alla pace e cittadinanza attiva.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Energie in cambiamento",
+      "categoria_principale": "Sostenibilità Ambientale",
+      "descrizione_e_metodologia": "Didattica esperienziale sull'incidenza delle fonti rinnovabili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione illuminazione esterna con lampade LED",
+      "categoria_principale": "Sostenibilità Ambientale",
+      "descrizione_e_metodologia": "Riduzione consumi elettrici con lampade LED e modulo fotovoltaico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stazione di ricarica per veicoli elettrici",
+      "categoria_principale": "Mobilità Sostenibile",
+      "descrizione_e_metodologia": "Installazione stazione di ricarica, studio delle tecnologie.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Borsa di studio Golden Anniversary Ferraris Molfetta - eMinds",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Progettazione idea innovativa per turismo con tecnologie informatiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aspiranti Ciceroni - Progetto FAI",
+      "categoria_principale": "Valorizzazione Patrimonio",
+      "descrizione_e_metodologia": "Conoscenza e racconto dei beni culturali del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fer.Menti culturali",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Analisi bisogni formativi, sensibilizzazione su temi storico-sociali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Vissi d’Arte: il Ferraris incontra la magia dell’opera lirica",
+      "categoria_principale": "Arte e Musica",
+      "descrizione_e_metodologia": "Miglioramento conoscenze letterarie, storiche ed artistiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sci…Amo. Un mare di neve.",
+      "categoria_principale": "Sport e Ambiente",
+      "descrizione_e_metodologia": "Campo scuola sci alpino.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Fer.Menti culturali",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Riflessione e formazione di una coscienza critica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Mad For Science",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Estrazione composti polifenolici da scarti alimentari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori energie rinnovabili",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Studio e sperimentazione impatti attività economiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori sostenibilità ambientale",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Coltivazione pomodori con sistemi IOT",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mare Nostrum",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Realizzazione acquario ecosistema marino mediterraneo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Monitorare dati metereologici",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Raccolta dati, grafici riassuntivi, stazione meteo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Energie in cambiamento",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Attività per la transizione ecologica e culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione illuminazione esterna con lampade LED",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Installazione lampade LED e modulo fotovoltaico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stazione di ricarica per veicoli elettrici",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Installazione colonnina di ricarica",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FEAA81403A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Via Lidi Ferraresi-Migliarino\" (FEAA81403A), per l'anno scolastico 2022-2025. La scuola, situata nel territorio non metropolitano di Fiscaglia, provincia di Ferrara, regione Emilia Romagna, si configura come istituto statale di grado infanzia. L'analisi si basa sui dati forniti, valutando l'approccio dell'istituto all'orientamento, le partnership instaurate, gli obiettivi prefissati e le azioni implementate. In generale, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene non sempre formalizzato in una sezione dedicata specifica.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta diverse attività di orientamento, ottenendo un punteggio di 5. Tuttavia, manca una sezione specificamente intitolata e dedicata all'orientamento, suggerendo un approccio integrato piuttosto che strutturato.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, con un conteggio di 20 collaborazioni, che include **Comune**, **Regione**, **Università di Bari**, **Politecnico di Bari**, **ITS**, **Società Trasporti Provinciali**, **Istat**, **SIS**, **AICA**, **COMAU**, **University of Cambridge International examinations**, **APULIA DIGITAL MAKER**, **Università degli Studi**, **Banche**, **Fondazioni**, **Aziende private**, **Altre scuole**, **Enti di formazione accreditati**, **Enti di ricerca**, **Associazioni/Cooperative** e **Autonomie locali**. Questo elevato numero di collaborazioni, con un punteggio di 6, rappresenta un punto di forza significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate adeguate, con punteggi di 5 per **attitudini** e **interessi**, e 4 per **progetto di vita**, **transizioni formative** e **capacità orientative e opportunità**. Questo indica un focus sulla scoperta delle inclinazioni personali degli studenti e sulla preparazione alle scelte future.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono pertinenti, con punteggi di 5 per la riduzione dell'**abbandono scolastico** e la continuità con il **territorio**, e 4 per il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Questi obiettivi riflettono un impegno verso l'inclusione e la preparazione degli studenti al mondo del lavoro.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono valutate positivamente, con punteggi di 5 per **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e **sistema integrato inclusione-fragilità**. Questo suggerisce un approccio olistico e collaborativo all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su metodologie attive e coinvolgenti, con punteggi di 5 per l'apprendimento dall'**esperienza degli studenti**, la **didattica laboratoriale** e la **flessibilità degli spazi e dei tempi**, e 6 per l'**interdisciplinarità**. Questo approccio favorisce un apprendimento significativo e personalizzato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di opzionali e attività facoltative è diversificata, con punteggi di 4 per le opzionali **culturali**, **ludiche-ricreative** e **volontariato**, e 5 per quelle **laboratoriali-espressive** e **sportive**. Questo offre agli studenti opportunità di approfondire i propri interessi e sviluppare nuove competenze.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** con enti e aziende del territorio, l'impegno verso metodologie didattiche innovative e laboratoriali, e l'attenzione alla personalizzazione dell'offerta formativa. Le attività come **PCTO**, **Certificazioni** linguistiche e informatiche, **Olimpiadi di Matematica e Statistica**, **Olimpiadi di Informatica**, **Giochi della Chimica**, **Campionati Scienze Naturali** e i numerosi corsi **STEM** (robotica, coding, intelligenza artificiale) dimostrano un'offerta ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata all'orientamento all'interno del PTOF, che potrebbe rendere più evidente e strutturato l'impegno dell'istituto in questo ambito. Inoltre, alcuni obiettivi, come la prevenzione del fenomeno **NEET** e la promozione del **lifelong learning**, potrebbero essere ulteriormente sviluppati e concretizzati.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la formalizzazione dell'orientamento come area strategica all'interno del PTOF. Sebbene le attività siano presenti e ben strutturate, la mancanza di una sezione dedicata potrebbe limitare la visibilità e l'efficacia dell'impegno dell'istituto. Un'ulteriore area di miglioramento riguarda la misurazione dell'impatto delle attività orientative sugli esiti scolastici e professionali degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo \"Via Lidi Ferraresi-Migliarino\" dimostra un impegno significativo verso l'orientamento, supportato da una vasta rete di **partnership** e da un'offerta formativa diversificata. La formalizzazione di una sezione dedicata all'orientamento e la definizione di indicatori di performance potrebbero contribuire a rafforzare l'efficacia delle azioni implementate e a garantire un futuro di successo per gli studenti."
+}

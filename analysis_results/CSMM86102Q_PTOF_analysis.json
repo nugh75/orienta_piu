@@ -1,0 +1,263 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSMM86102Q",
+    "denominazione": "Sm Acquappesa",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Acquappesa",
+    "anno_ptof": "2019-2020, 2020-2021, 2021-2022",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Marina",
+    "cap": "87020",
+    "email": "csic86100n@istruzione.it",
+    "pec": "cnps010003@pec.istruzione.it",
+    "website": "www.icguardiapiemontese.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti diverse attività afferenti all'orientamento, manca una sezione specifica e dedicata ad esso all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Amministrazione comunale di Fossano",
+        "Amministrazione provinciale di Cuneo",
+        "Amministrazione regionale della Regione Piemonte",
+        "istituzione scolastiche",
+        "A.S.L. CN1",
+        "CNOS-FAP",
+        "Fondazioni bancarie",
+        "Consorzio Monviso solidale",
+        "Centro aiuto alla vita",
+        "esercizi commerciali",
+        "Politecnico di Torino",
+        "Associazione Mathesis",
+        "istituzioni del territorio",
+        "Agenzie no-profit",
+        "Università",
+        "società sportive",
+        "Consorzio per la Piscina Provinciale",
+        "Comune",
+        "CRI",
+        "Uffici finanziari",
+        "Banche",
+        "Camera di commercio",
+        "Cooperative",
+        "Associazioni",
+        "altri istituti della provincia di Cuneo"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Partecipazione a competizioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite a laboratori",
+      "categoria_principale": "Scientifica",
+      "descrizione_e_metodologia": "Visite presso ditte ed enti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorni all'estero",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corsi di Atletica leggera, Nuoto, Pallavolo, Calcio a 5",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto d’Istituto Sport e Ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Iniziative, incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto nazionale della CRI sul Primo Soccorso e BLS",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione in orario curricolare",
+      "target": "Classi IV"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stages formativi",
+      "target": "Classi del triennio"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazione in Lingua Inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi annuali per certificazioni FIRST e CAE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorno-studio in Inghilterra",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorno studio annuale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Educazione alla legalità, pace, salute, ambiente",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto ‘Basta studiare!’",
+      "categoria_principale": "Recupero e Sostegno",
+      "descrizione_e_metodologia": "Peer education con studenti tutor",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Partecipazione a gare disciplinari",
+      "categoria_principale": "Valorizzazione Eccellenze",
+      "descrizione_e_metodologia": "Partecipazione a concorsi",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Autovalutazione d’istituto e rendicontazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Utilizzo di strumenti statistici e questionari di gradimento",
+      "target": "Studenti, famiglie, personale"
+    },
+    {
+      "titolo_attivita": "Progetto di rete con altri istituti",
+      "categoria_principale": "Collaborazione",
+      "descrizione_e_metodologia": "Collaborazione con istituti della provincia di Cuneo e Università",
+      "target": "Studenti, docenti"
+    },
+    {
+      "titolo_attivita": "Conoscenza tecniche primo soccorso",
+      "categoria_principale": "Ed. alla salute",
+      "descrizione_e_metodologia": "Con ASL CN1",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola lavoro",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Periodi di sospensione attività didattica",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Sviluppo competenze digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Piano Nazionale Scuola Digitale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Cittadinanza attiva",
+      "categoria_principale": "Educazione alla Cittadinanza",
+      "descrizione_e_metodologia": "Incontri con esperti, visita Palazzo ONU",
+      "target": "Studenti Rappresentanti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": null,
+      "target": null
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSMM86102Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Sm Acquappesa** (CSMM86102Q), un istituto di I Grado situato in Calabria. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Il PTOF mostra un impegno generale verso l'orientamento, con punteggi elevati in diverse aree, ma evidenzia anche la necessità di strutturare meglio l'offerta attraverso una sezione specifica e un potenziamento di alcune attività.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti numerose attività afferenti all'orientamento, il PTOF non prevede una sezione specificamente dedicata a questo ambito, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di partnership, con ben 20 partner nominati, tra cui **Amministrazione comunale di Fossano**, **Amministrazione provinciale di Cuneo**, **Amministrazione regionale della Regione Piemonte**, diverse **istituzioni scolastiche**, l’**A.S.L. CN1**, **CNOS-FAP**, **Fondazioni bancarie**, il **Consorzio Monviso solidale**, il **Centro aiuto alla vita**, **esercizi commerciali**, il **Politecnico di Torino**, l’**Associazione Mathesis**, diverse **istituzioni del territorio**, **Agenzie no-profit**, **Università**, **società sportive**, il **Consorzio per la Piscina Provinciale**, il **Comune**, la **CRI**, **Uffici finanziari**, **Banche**, la **Camera di commercio**, **Cooperative**, **Associazioni** e altri istituti della provincia di Cuneo. Questo dimostra una forte capacità di collaborazione con il territorio.\n\n**2.3 Finalità:** Il PTOF definisce finalità chiare e ambiziose, ottenendo punteggi massimi per lo sviluppo di **attitudini**, **interessi**, **progetto di vita** e per la preparazione alle **transizioni formative**. Il punteggio leggermente inferiore per lo sviluppo della capacità di orientarsi nelle **opportunità** suggerisce un'area di miglioramento.\n\n**2.4 Obiettivi:** La scuola si pone obiettivi significativi, come la riduzione dell'**abbandono scolastico**, la continuità con il **territorio**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. L'obiettivo di contrastare i NEET, pur presente, risulta meno prioritario rispetto agli altri, ottenendo un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema efficaci, quali il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rapporto con i **genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono un punteggio di 5, evidenziando un approccio olistico all'orientamento.\n\n**2.6 Didattica Orientativa:** L'approccio didattico è orientato all'esperienza degli **studenti**, alla **flessibilità degli spazi e dei tempi** e all'**interdisciplinarità**. La didattica laboratoriale, pur presente, necessita di un maggiore sviluppo, come evidenziato dal punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è ampia e diversificata, comprendendo opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con punteggio massimo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF sono la vasta rete di **partnership** attivate, la chiarezza delle **finalità** e degli **obiettivi**, l'efficacia delle **azioni di sistema** e la ricchezza dell'offerta di attività **opzionali**. L'impegno verso la didattica esperienziale e flessibile rappresenta un ulteriore elemento positivo. Attività come **Olimpiadi di Matematica**, **Visite a laboratori**, **Soggiorni all'estero**, **Centro sportivo scolastico**, **Progetto d’Istituto Sport e Ambiente**, **Progetto nazionale della CRI sul Primo Soccorso e BLS**, **Progetto sicurezza**, **Alternanza scuola-lavoro**, **Corsi di preparazione per certificazione in Lingua Inglese**, **Soggiorno-studio in Inghilterra**, **Educazione alla cittadinanza attiva**, **Progetto ‘Basta studiare!’**, **Partecipazione a gare disciplinari**, **Autovalutazione d’istituto e rendicontazione**, **Progetto di rete con altri istituti**, **Conoscenza tecniche primo soccorso**, **Alternanza scuola lavoro**, **Sviluppo competenze digitali**, **Cittadinanza attiva** e **Certificazioni linguistiche** contribuiscono a un'offerta formativa completa.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione specifica dedicata all'orientamento all'interno del PTOF. Inoltre, la didattica laboratoriale e lo sviluppo della capacità di orientarsi nelle opportunità necessitano di un maggiore potenziamento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una strutturazione formale dell'orientamento all'interno del PTOF. Sebbene le attività siano presenti e ben articolate, la loro integrazione in un quadro strategico più ampio potrebbe massimizzarne l'efficacia. Un potenziamento della didattica laboratoriale e un focus maggiore sullo sviluppo della capacità di orientarsi nelle opportunità completerebbero il quadro.\n\n### 6. Conclusioni\n\nIl PTOF della **Sm Acquappesa** dimostra un forte impegno verso l'orientamento, con numerosi punti di forza e un'ampia gamma di attività proposte. La strutturazione di una sezione dedicata all'orientamento e il potenziamento di alcune aree specifiche potrebbero contribuire a rendere l'offerta formativa ancora più efficace e completa, rispondendo al meglio alle esigenze degli studenti e del territorio."
+}

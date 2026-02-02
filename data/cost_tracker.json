@@ -4,24 +4,24 @@
   "phases": {
     "workflow": {
       "cost": 0.0,
-      "input_tokens": 3941562,
-      "output_tokens": 587689,
-      "calls": 462,
+      "input_tokens": 37540678,
+      "output_tokens": 5423056,
+      "calls": 4324,
       "provider": "ollama",
       "model": "gemma3:27b",
-      "last_updated": "2026-01-31T15:41:03.897504"
+      "last_updated": "2026-02-02T11:48:22.835167"
     },
     "activity": {
       "cost": 0.0,
-      "input_tokens": 1430996,
-      "output_tokens": 313707,
-      "calls": 170,
+      "input_tokens": 16868476,
+      "output_tokens": 3657548,
+      "calls": 1969,
       "provider": "ollama",
       "model": "qwen3:32b",
-      "last_updated": "2026-01-31T15:06:21.842222"
+      "last_updated": "2026-02-02T14:01:13.143201"
     }
   },
   "total_cost": 0.0,
-  "total_input_tokens": 5372558,
-  "total_output_tokens": 901396
+  "total_input_tokens": 54409154,
+  "total_output_tokens": 9080604
 }

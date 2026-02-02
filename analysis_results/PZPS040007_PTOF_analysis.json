@@ -1,0 +1,200 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZPS040007",
+    "denominazione": "L.S. \"G. Galilei\" Potenza",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Potenza",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Anzio N. 2",
+    "cap": "85100",
+    "email": "pzps040007@istruzione.it",
+    "pec": "pzps040007@pec.istruzione.it",
+    "website": "www.liceogalileipz.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 1,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Banca d’Italia",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Attività con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistico",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Coding",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Agenzia esterna",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività a distanza tramite mail, audio, video, chat, piattaforme digitali",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZPS040007\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo \\\"G. Galilei\\\" Potenza** (PZPS040007) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, situato in un contesto territoriale non metropolitano della regione **Basilicata**, si configura come una scuola **statale** di secondo grado. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'offerta didattica orientativa e le attività opzionali. La valutazione complessiva evidenzia un impegno nella promozione dell'orientamento, sebbene con margini di miglioramento in alcune aree specifiche.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, sebbene l'attenzione al tema sia presente in altre parti del documento.\n\n**2.2 Partnership:** Il liceo dimostra una buona capacità di attivare **partnership** significative con diversi soggetti esterni. Tra i partner nominati figurano l'**Opera Nazionale Montessori**, la **Banca d’Italia**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. La presenza di quattro partner indica un'apertura alla collaborazione e alla condivisione di risorse per potenziare l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'orientamento sembrano orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 su 5 per entrambe le aree. L'attenzione al **progetto di vita** e alle **transizioni formative** è presente, ma meno marcata (punteggio di 2 su 5). Le **capacità orientative** per cogliere le opportunità risultano l'aspetto meno sviluppato (punteggio di 1 su 5).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Tutti questi obiettivi ricevono un punteggio di 1 su 5, suggerendo una necessità di definire strategie più specifiche e misurabili per il loro raggiungimento.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto con i genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e gestione delle fragilità. Il rapporto con i genitori e il sistema integrato di inclusione ricevono un punteggio di 3 su 5, mentre le altre azioni si attestano a un punteggio di 2 su 5.\n\n**2.6 Didattica Orientativa:** L'offerta didattica orientativa si caratterizza per l'utilizzo di metodologie esperienziali, laboratoriali, flessibili e interdisciplinari. La didattica basata sull'esperienza degli studenti e la flessibilità degli spazi e dei tempi ricevono un punteggio di 4 su 5, mentre la didattica laboratoriale e interdisciplinare si attestano a un punteggio di 3 su 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali espressive, ludiche ricreative, di volontariato e sportive. Le opzioni laboratoriali espressive e ludiche ricreative ricevono un punteggio di 3 su 5, mentre le altre opzioni si attestano a un punteggio di 1 su 5.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di **partnership** consolidate con enti e associazioni esterne, che possono fornire risorse e competenze aggiuntive per l'orientamento. L'impegno nell'utilizzo di metodologie didattiche innovative, come quelle basate sull'esperienza e sulla flessibilità, rappresenta un altro elemento positivo. L'offerta di **laboratori** diversificati, che spaziano dalle scienze alla musica, dall'arte al coding, contribuisce a stimolare gli interessi e le attitudini degli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. Le finalità e gli obiettivi definiti appaiono generici e poco specifici, rendendo difficile la loro misurazione e valutazione. L'offerta di attività opzionali e facoltative risulta poco diversificata, con un'eccessiva concentrazione su alcune aree tematiche.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, definendo una sezione dedicata nel PTOF, obiettivi misurabili e azioni concrete per il loro raggiungimento. È necessario ampliare l'offerta di attività opzionali e facoltative, tenendo conto degli interessi e delle esigenze degli studenti. Inoltre, sarebbe opportuno rafforzare le competenze orientative dei docenti e dei tutor, attraverso percorsi di formazione specifici.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo \\\"G. Galilei\\\" Potenza** dimostra un'attenzione all'orientamento, sebbene con margini di miglioramento. La presenza di **partnership** attive e l'utilizzo di metodologie didattiche innovative rappresentano punti di forza significativi. Tuttavia, l'assenza di una sezione dedicata all'orientamento, la genericità degli obiettivi e la scarsa diversificazione dell'offerta opzionale costituiscono aree di debolezza che richiedono interventi mirati. L'implementazione di un approccio più sistematico e strutturato all'orientamento consentirebbe al liceo di potenziare l'offerta formativa e di supportare al meglio gli studenti nel loro percorso di crescita e di sviluppo. Tra le attività registrate, si evidenzia l'importanza di iniziative come il **Laboratorio di Coding**, gli **Incontri di sostegno alla genitorialità** e i **Questionari di soddisfazione** per monitorare l'efficacia delle azioni intraprese."
+}

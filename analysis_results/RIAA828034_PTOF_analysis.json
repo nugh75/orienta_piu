@@ -1,0 +1,459 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RIAA828034",
+    "denominazione": "Don Bosco",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Rieti",
+    "anno_ptof": "2022-2025",
+    "provincia": "Rieti",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Amelotti",
+    "cap": "02100",
+    "email": "riic828005@istruzione.it",
+    "pec": "ND",
+    "website": "www.icaldamerini.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata all'offerta formativa"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Comune di Padova",
+        "Regione",
+        "Laboratorio teatrale",
+        "Certilingua - MIUR",
+        "Cariparo – G. Bortignon",
+        "Diocesi",
+        "VIDES",
+        "Sant'Egidio",
+        "CIOFS Scuola",
+        "Centro di Orientamento COSPES",
+        "Polizia Municipale",
+        "Università di Padova",
+        "Progetto Lauree Scientifiche",
+        "The Studio Teatro",
+        "Esterno",
+        "AID",
+        "Regione Veneto",
+        "Ufficio Scolastico Regionale",
+        "IUSVE",
+        "USP di Padova",
+        "Altre scuole",
+        "Enti di formazione accreditati",
+        "Associazioni"
+      ],
+      "partnership_count": 22
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto metodologico e psicologico agli alunni con difficoltà",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "COSPES",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Consulenze di orientamento/ri-orientamento e valutazioni cognitive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di Service Learning",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Attività pratiche sul territorio per sviluppare responsabilità civica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi CLIL per docenti",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi per l'insegnamento di materie in lingua inglese.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Incontro Con La Polizia Municipale",
+      "categoria_principale": "Educazione Stradale",
+      "descrizione_e_metodologia": "Incontro informativo sulla sicurezza stradale.",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Incontro Con Le Istituzioni",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Incontro con rappresentanti istituzionali locali.",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Incontro Con Testimonial Di Associazioni Di Volontariato",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Progetti con VIDES e Comunità di Sant'Egidio.",
+      "target": "Scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Progetto Calliope",
+      "categoria_principale": "Lettura e Analisi Testi",
+      "descrizione_e_metodologia": "Lettura guidata, analisi, dibattito, drammatizzazione, booktrailer.",
+      "target": "Classi parallele"
+    },
+    {
+      "titolo_attivita": "Colloqui Fiorentini",
+      "categoria_principale": "Letteratura Italiana",
+      "descrizione_e_metodologia": "Lavoro a piccoli gruppi, tesina, confronto esperienza umana.",
+      "target": "Classi del triennio"
+    },
+    {
+      "titolo_attivita": "Progetto Pericle",
+      "categoria_principale": "Dibattito",
+      "descrizione_e_metodologia": "Formazione al dibattito, discussione temi proposti.",
+      "target": "Classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Assemblea di Istituto e Consulta degli Studenti",
+      "categoria_principale": "Partecipazione Studentesca",
+      "descrizione_e_metodologia": "Confronto, organizzazione eventi, conferenze.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Quotidiano in classe",
+      "categoria_principale": "Alfabetizzazione Mediatica",
+      "descrizione_e_metodologia": "Lettura quotidiana del giornale in classe.",
+      "target": "Classi della secondaria di II grado"
+    },
+    {
+      "titolo_attivita": "Progetto Ippocrate",
+      "categoria_principale": "Educazione Affettivo-Sociale",
+      "descrizione_e_metodologia": "Percorso su relazioni interpersonali, affettività e sessualità.",
+      "target": "Classi seconde e quarte del liceo, classi terze medie"
+    },
+    {
+      "titolo_attivita": "Progetto Olimpia",
+      "categoria_principale": "Sport e Benessere",
+      "descrizione_e_metodologia": "Attività sportive, organizzazione eventi.",
+      "target": "Tutte le classi del liceo"
+    },
+    {
+      "titolo_attivita": "Progetto Erodoto",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Certificazioni linguistiche, CLIL, lettorati.",
+      "target": "Tutte le classi del liceo"
+    },
+    {
+      "titolo_attivita": "Aula Studio Recupero Matematica",
+      "categoria_principale": "Recupero e Potenziamento",
+      "descrizione_e_metodologia": "Peer tutoring, studio in gruppo.",
+      "target": "Studenti del liceo"
+    },
+    {
+      "titolo_attivita": "Laboratori Pomeridiani Fisica/Chimica",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Sessioni di laboratorio pomeridiane.",
+      "target": "Classi 3A, 4A, 3B, 4B, 5B"
+    },
+    {
+      "titolo_attivita": "Metti Una Sera Al Cinema",
+      "categoria_principale": "Culturale artistico",
+      "descrizione_e_metodologia": "Avvicinamento al cinema con lezioni teoriche e affiancamento al cineforum",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "COSPES",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività per consapevolezza organizzazione, studio e gestione emozioni.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Pitagora",
+      "categoria_principale": "Matematica e Scienze",
+      "descrizione_e_metodologia": "Gare matematiche, laboratori, partecipazione a eventi scientifici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Partecipazione ai giochi matematici Università Bocconi",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Gara matematica",
+      "target": "Classi medie"
+    },
+    {
+      "titolo_attivita": "Laboratorio di giochi matematici",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Preparazione a gare matematiche",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Concorso fotografico \"Fotografa la geometria!\"",
+      "categoria_principale": "Arte e Matematica",
+      "descrizione_e_metodologia": "Concorso fotografico a tema geometria",
+      "target": "Scuola media"
+    },
+    {
+      "titolo_attivita": "Programma Il Tuo Futuro",
+      "categoria_principale": "Informatica e Coding",
+      "descrizione_e_metodologia": "Coding con Scratch",
+      "target": "Alunni scuola media"
+    },
+    {
+      "titolo_attivita": "Le Dipendenze: Danni Fisici E Psicosomatici",
+      "categoria_principale": "Educazione alla salute",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Alunni liceo"
+    },
+    {
+      "titolo_attivita": "La Scuola Incontra Le Istituzioni",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Incontro con rappresentanti istituzionali",
+      "target": "Classi triennio liceo"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Robotica Educativa",
+      "categoria_principale": "Tecnologia e Robotica",
+      "descrizione_e_metodologia": "Utilizzo della scheda di sviluppo BIT e programmazione",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Botta E Risposta",
+      "categoria_principale": "Formativo, culturale",
+      "descrizione_e_metodologia": "Percorso di argomentazione e dibattito",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Altre Lingue",
+      "categoria_principale": "Culturale Educativo Formativo",
+      "descrizione_e_metodologia": "Approccio a lingue russe, cinese e araba",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Pittura E Disegno",
+      "categoria_principale": "Formativo, culturale, espressivo",
+      "descrizione_e_metodologia": "Disegno con tecniche diverse e richiami ad artisti",
+      "target": "Classi IV, V"
+    },
+    {
+      "titolo_attivita": "Grest",
+      "categoria_principale": "Formativo",
+      "descrizione_e_metodologia": "Attività di formazione e progettazione ludico-educative",
+      "target": "Classi III, IV"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Robotica Educativa",
+      "categoria_principale": "Formativo",
+      "descrizione_e_metodologia": "Utilizzo della scheda di sviluppo BIT e programmazione",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Peer-Education/ Doposcuola",
+      "categoria_principale": "Formativo, educativo e solidaristico",
+      "descrizione_e_metodologia": "Tutoraggio e accompagnamento nei compiti",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Peer-Tutoring - Lingue",
+      "categoria_principale": "Formativo, educativo e solidaristico",
+      "descrizione_e_metodologia": "Supporto allo studio delle lingue straniere",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "L'Orchestra E Il Coro Del Don Bosco",
+      "categoria_principale": "Formativo, educativo e culturale",
+      "descrizione_e_metodologia": "Creazione di band e coro con repertorio attuale",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Expo – Open Day",
+      "categoria_principale": "Formativo, educativo e solidaristico",
+      "descrizione_e_metodologia": "Assistenza e promozione della scuola durante l'open day",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Educazione Stradale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con Polizia Municipale e uscita in quartiere per apprendere regole stradali.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Visita Alla Città Di Padova",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita a musei, mostre, orto botanico con utilizzo autobus.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Riabilitazione E Rieducazione In Clinica",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Affiancamento a fisioterapista in clinica.",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "Progetto Ecg Vides",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Attività laboratoriale per stimolare una nuova cittadinanza ecologica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Dialogo con l'APS",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Gestione rifiuti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "L'Albero Tesoro della Natura",
+      "categoria_principale": "Transizione ecologica",
+      "descrizione_e_metodologia": "Attività per la tutela della natura",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Formazione Salesiana Carismatica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "La gestione delle relazioni interne ed esterne",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione Amministrativa",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "I contratti, le procedure amministrativo-contabili e i controlli",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione Sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "La partecipazione alla gestione dell’emergenza e del primo soccorso",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Formazione Gestione Emergenza Covid",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "La rilevazione dei rischi e delle condizioni igienico- ambientali",
+      "target": "Addetto alla sicurezza"
+    },
+    {
+      "titolo_attivita": "Orientamento scolastico in entrata e uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontro con esperti dello IUSVE e USP di Padova",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Il processo di acquisizione della lingua scritta",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attenzioni e metodologie didattiche per promuovere la letto-scrittura",
+      "target": "Docenti di italiano"
+    },
+    {
+      "titolo_attivita": "Il metodo di studio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attenzioni didattiche per supportare l'acquisizione del metodo di studio",
+      "target": "Docenti di discipline di studio"
+    },
+    {
+      "titolo_attivita": "Parole in gioco",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Potenziamento fonologico e consapevolezza del linguaggio.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione STEM",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Didattica innovativa non frontale per le materie scientifiche",
+      "target": "Docenti impegnati nelle innovazioni"
+    },
+    {
+      "titolo_attivita": "Formazione laboratorio di robotica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo corretto del laboratorio di robotica e strategie didattiche",
+      "target": "Docenti impegnati nelle innovazioni"
+    },
+    {
+      "titolo_attivita": "Formazione docenti tutor",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Accompagnamento e supervisione degli insegnanti tutor",
+      "target": "Docenti Coordinatori di classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RIAA828034\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **Don Bosco** di Rieti, con codice scuola **RIAA828034**, relativo al periodo **2022-2025**. L'istituto, di tipo **Infanzia** e situato in un contesto **non metropolitano**, dimostra un forte impegno nell'area dell'orientamento, come evidenziato dai punteggi elevati ottenuti nelle diverse dimensioni valutate. La scuola si distingue per una solida rete di **partnership** con enti locali, regionali e nazionali, e per un'attenzione particolare allo sviluppo delle **attitudini**, degli **interessi** e dei progetti di vita degli studenti, facilitando le loro **transizioni formative** e fornendo loro le **capacità orientative** necessarie per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'offerta formativa, ottenendo un punteggio massimo di 5. Questo indica una chiara strutturazione e visibilità delle attività di orientamento all'interno del documento.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di collaborazioni, ben 22 **partner** nominati, tra cui il **Comune di Padova**, la **Regione**, diversi **laboratori teatrali**, **Certilingua - MIUR**, **Cariparo**, la **Diocesi**, **VIDES**, **Sant'Egidio**, **CIOFS Scuola**, il **Centro di Orientamento COSPES**, la **Polizia Municipale**, l'**Università di Padova**, **Progetto Lauree Scientifiche**, **The Studio Teatro**, enti esterni, **AID**, la **Regione Veneto**, l'**Ufficio Scolastico Regionale**, **IUSVE**, l'**USP di Padova**, altre scuole, enti di formazione e diverse **associazioni**. Questa fitta rete di collaborazioni rappresenta un importante punto di forza per l'implementazione di attività di orientamento efficaci e diversificate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo, con punteggi massimi per lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono orientati alla riduzione dell'**abbandono** scolastico, alla continuità con il **territorio**, al contrasto al fenomeno dei **NEET** e alla promozione del **lifelong learning**. I punteggi ottenuti, pari a 4 per ciascun obiettivo, indicano un impegno concreto in queste direzioni.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete e ben strutturate, con punteggi massimi per il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rapporto con i **genitori**, il **monitoraggio delle azioni** e l'implementazione di un sistema integrato di **inclusione** e attenzione alle **fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, con punteggi massimi. La didattica **laboratoriale** ottiene un punteggio di 3, mentre la **flessibilità degli spazi e dei tempi** e l'approccio **interdisciplinare** sono valutati positivamente con punteggio 5.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata, con opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte valutate con un punteggio di 4.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la sua completezza e coerenza nell'approccio all'orientamento. La vasta rete di **partnership** con enti e associazioni del territorio, unita a una chiara definizione delle **finalità** e degli **obiettivi**, crea un contesto favorevole allo sviluppo di attività efficaci e mirate. L'attenzione alla didattica orientativa, basata sull'esperienza degli studenti e sulla flessibilità, rappresenta un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nL'unica area di miglioramento individuata riguarda la didattica **laboratoriale**, che ottiene un punteggio leggermente inferiore rispetto alle altre dimensioni. Potrebbe essere utile potenziare l'offerta di laboratori specifici per l'orientamento, al fine di fornire agli studenti esperienze pratiche più concrete e coinvolgenti.\n\n### 5. Gap Analysis\n\nNon emergono gap significativi tra le finalità dichiarate nel PTOF e le azioni concrete previste. La scuola dimostra un forte impegno nell'implementazione di un sistema di orientamento integrato e completo, in grado di rispondere alle esigenze degli studenti e del territorio.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **Don Bosco** di Rieti si presenta come un documento ben strutturato e coerente, che pone l'orientamento al centro del suo progetto educativo. La scuola si distingue per la sua capacità di creare una rete di **partnership** efficace, di definire **finalità** e **obiettivi** chiari e di implementare azioni concrete per supportare gli studenti nel loro percorso di crescita e di orientamento. L'istituto dimostra un forte impegno verso l'inclusione, la cittadinanza attiva e la promozione del **lifelong learning**. Le attività registrate, come **Progetto Inclusione**, **COSPES**, **Progetti di Service Learning**, **Corsi CLIL**, **Incontro Con La Polizia Municipale**, **Progetto Calliope**, **Progetto Pericle**, e molte altre, testimoniano la ricchezza e la varietà dell'offerta formativa."
+}

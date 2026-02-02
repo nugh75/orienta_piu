@@ -1,0 +1,238 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FEPC01000E",
+    "denominazione": "Lc Liceo Ginnasio \"G.Cevolani\"",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Cento",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Ferrara",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Matteotti 17",
+    "cap": "44042",
+    "email": "fepc01000e@istruzione.it",
+    "pec": "fepc01000e@pec.istruzione.it",
+    "website": "www.liceocevolani.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Il PTOF include riferimenti all'orientamento, ma non presenta una sezione specificamente dedicata."
+    },
+    "2_2_partnership": {
+      "score": 6,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 2
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Archivio di Stato/ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici e chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettura testi tecnici inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Ascolto contenuti audiovisivi, conversazioni simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche, proporzioni, percentuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica applicata",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite guidate presso aziende del settore odontotecnico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'Avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Predisposizione laboratorio con tecnologie avanzate (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento per docenti sull'utilizzo di mappe mentali.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FEPC01000E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Ginnasio “G. Cevolani”** di Cento (FE), codice scuola **FEPC01000E**, per il triennio 2023/24-2024/25-2025/26. L'istituto, statale, di secondo grado, situato in Emilia Romagna e operante in un territorio non metropolitano, dimostra un impegno nell'orientamento, sebbene non sia presente una sezione specificamente dedicata all'interno del PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sulle attività registrate, fornendo una panoramica dei punti di forza, delle aree di debolezza e dei possibili gap da colmare.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento – Sezione Dedicata:** Il PTOF include riferimenti all'orientamento, ottenendo un punteggio di 3 su una scala non specificata, suggerendo una presenza dell'argomento ma non una trattazione approfondita o strutturata.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 6, che include **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT**, e diverse **aziende accreditate** e di settore. Questo aspetto rappresenta un elemento chiave per l'orientamento degli studenti verso il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento, relative ad attitudini, interessi, progetto di vita, transizioni formative e sviluppo di capacità orientative, ottengono un punteggio di 4 per le prime tre dimensioni e di 2 per le transizioni formative, indicando un focus maggiore sullo sviluppo personale e meno sulla preparazione specifica per il passaggio a contesti formativi successivi.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in termini di orientamento, come la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione NEET e la promozione del lifelong learning, ricevono punteggi variabili, con 3 per la riduzione dell'abbandono e il contrasto ai NEET, e 4 per la continuità territoriale e il lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento, tra cui il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'integrazione con l'inclusione e la fragilità, ottengono punteggi generalmente buoni, con un massimo di 7 per il coordinamento dei servizi e un minimo di 3 per il monitoraggio.\n\n**2.6 Didattica Orientativa:** La didattica orientativa, basata sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità, riceve punteggi medi, con un massimo di 5 per la didattica basata sull'esperienza e un minimo di 3 per la flessibilità degli spazi e dei tempi.\n\n**2.7 Opzionali e Facoltative:** Le opzionali culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive ottengono punteggi di 3 o 4, suggerendo una buona offerta di attività extracurriculari, ma con margini di miglioramento per quanto riguarda la loro integrazione con l'orientamento.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella rete di **partnership** consolidate con il territorio, che offre agli studenti opportunità concrete di **PCTO** e di contatto con il mondo del lavoro. L'attenzione al coordinamento dei servizi e al dialogo tra docenti e studenti rappresenta un altro elemento positivo, così come l'impegno nell'inclusione e nella valorizzazione delle fragilità. Le attività laboratoriali, in particolare quelle relative all'odontotecnica, sembrano ben strutturate e offrono agli studenti esperienze pratiche significative.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento nel PTOF rappresenta un'area di debolezza. Inoltre, l'attenzione alle **transizioni formative** sembra meno sviluppata rispetto ad altri aspetti dell'orientamento. Il monitoraggio delle azioni intraprese potrebbe essere potenziato per valutare l'efficacia degli interventi.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un approccio più sistematico all'orientamento, con obiettivi chiari, azioni definite e indicatori di performance misurabili. È necessario rafforzare il collegamento tra le attività di orientamento e le **finalità** di sviluppo del progetto di vita e di preparazione alle transizioni formative. Un maggiore coinvolgimento delle famiglie e dei servizi territoriali potrebbe contribuire a migliorare l'efficacia degli interventi.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Ginnasio “G. Cevolani”** dimostra un impegno nell'orientamento, supportato da una solida rete di partnership e da una buona offerta di attività laboratoriali. Tuttavia, per massimizzare l'efficacia degli interventi, è necessario strutturare un approccio più sistematico all'orientamento, con una sezione dedicata nel PTOF, obiettivi chiari e un monitoraggio costante dei risultati. L'attenzione alle transizioni formative e al coinvolgimento delle famiglie rappresentano aree di miglioramento cruciali."
+}

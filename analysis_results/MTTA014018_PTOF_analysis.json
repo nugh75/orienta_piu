@@ -1,0 +1,273 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "MTTA014018",
+    "denominazione": "I.Tec.Agr.\"G. Briganti\" Turi Matera",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Matera",
+    "anno_ptof": "2022-2025",
+    "provincia": "Matera",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Contrada Rondinelle",
+    "cap": "75100",
+    "email": "mtis01400c@istruzione.it",
+    "pec": "ND",
+    "website": "www.turimatera.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "FAI",
+        "associazioni di volontariato",
+        "terzo settore",
+        "personalità cristiane",
+        "Special Olympics",
+        "Università di Firenze",
+        "EDUSCOPIO",
+        "Fondazione Agnelli"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 6
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 6
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 7
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Sensibilizzazione patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del territorio",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione incontri con professionisti",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Formazione volontari Special Olympics",
+      "categoria_principale": "Volontariato",
+      "descrizione_e_metodologia": "Formazione per il volontariato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con ex-studenti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CAD – Disegno 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività di laboratorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Referendum sull’acqua pubblica",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Analisi delle disponibilità idriche e dei consumi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività per il benessere",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività motoria e sviluppo psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza informatica",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo consapevole di smartphone e app",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso - BLSD",
+      "categoria_principale": "Salute e Sicurezza",
+      "descrizione_e_metodologia": "Formazione gesti terapeutici d'urgenza, funzioni vitali, attivazione sistema emergenza.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale e Salute",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Opportunità rete, sicurezza online, bullismo, prevenzione.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Costituzione",
+      "categoria_principale": "Storia e Cittadinanza",
+      "descrizione_e_metodologia": "Cittadinanza antica, individuo e potere, modelli politici, ecologia storica.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare individuali e preparazione in collaborazione con UMI e Scuola Normale Superiore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Gare di Informatica connesse all’Associazione Italiana per l'Informatica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Competizione individuale connessa alle Olimpiadi Internazionali della Fisica",
+      "target": "Studenti classi terze, quarte, quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Organizzati dalla Società Chimica Italiana",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Preparazione a test di accesso universitari",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Educazione alla salute",
+      "categoria_principale": "Educazione",
+      "descrizione_e_metodologia": "In collaborazione con ASL",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di preparazione al test di ammissione alle facoltà universitarie dell’area biosanitaria",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Corsi di potenziamento in Chimica e Biologia",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stages presso aziende, enti e associazioni del territorio. Durata circa 60 ore.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tra docenti Matematica e Scienze",
+      "categoria_principale": "Continuità",
+      "descrizione_e_metodologia": "Scambio proficuo su curricolo, competenze, contenuti e metodologie.",
+      "target": "Docenti I e II grado"
+    },
+    {
+      "titolo_attivita": "Prove d'ingresso Matematica e Scienze",
+      "categoria_principale": "Diagnosi",
+      "descrizione_e_metodologia": "Rilevazione precoce difficoltà/carenze per interventi mirati.",
+      "target": "Studenti in entrata"
+    },
+    {
+      "titolo_attivita": "Moduli di rinforzo",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Rinforzo su metodo studio e competenze base con compiti collaborativi.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Incremento dotazioni tecnologiche",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "LIM, laboratori, formazione ICT per didattica inclusiva.",
+      "target": "Studenti e docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF MTTA014018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.Tec.Agr.\\\"G. Briganti\\\" Turi Matera (MTTA014018) per il triennio 2022-2025. La scuola, di tipo tecnico e afferente al secondo grado, opera in un contesto territoriale non metropolitano della regione Basilicata. L'analisi evidenzia un impegno significativo verso l'orientamento, con una sezione dedicata, una forte rete di **partnership** e una chiara definizione delle finalità educative. Sebbene siano presenti alcuni aspetti migliorabili, il PTOF dimostra una solida base per supportare gli studenti nelle loro scelte formative e professionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, indicando una presenza strutturata dell'offerta.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con il mondo esterno, coinvolgendo **aziende locali**, **enti**, diverse **attività lavorative**, il **FAI**, **associazioni di volontariato** e del **terzo settore**, **personalità cristiane**, **Special Olympics**, l'**Università di Firenze**, **EDUSCOPIO** e la **Fondazione Agnelli**. Questo elevato numero di partner (11) suggerisce un forte radicamento territoriale e una volontà di offrire agli studenti opportunità concrete di confronto con il mondo del lavoro e del volontariato.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini** e gli **interessi** degli studenti, supportandoli nel loro **progetto di vita** e facilitando le **transizioni formative**. Particolare attenzione è rivolta allo sviluppo delle **capacità orientative** necessarie per cogliere le opportunità offerte dal territorio. I punteggi ottenuti (6 per attitudini, interessi e transizioni formative, 5 per progetto di vita e 6 per capacità orientative) indicano un'attenzione equilibrata a tutti gli aspetti fondamentali.\n\n**2.4 Obiettivi:** Tra gli obiettivi dichiarati, si evidenzia un forte impegno per la **continuità territoriale** (punteggio 6). Gli obiettivi di riduzione dell'**abbandono** e di contrasto al fenomeno **NEET** ottengono un punteggio inferiore (3), suggerendo la necessità di rafforzare le azioni in questo ambito. L'obiettivo di promuovere il **lifelong learning** riceve un punteggio di 5, indicando una consapevolezza dell'importanza della formazione continua.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di **coordinamento dei servizi** (punteggio 4), **dialogo tra docenti e studenti** (punteggio 5), **rapporto scuola-genitori** (punteggio 4) e **monitoraggio delle azioni** (punteggio 3). L'azione relativa alla creazione di un **sistema integrato inclusione-fragilità** ottiene un punteggio di 4, evidenziando l'attenzione verso gli studenti con bisogni educativi speciali.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti (punteggio 6), sull'utilizzo di **laboratori** (punteggio 4), sulla **flessibilità degli spazi e dei tempi** (punteggio 4) e sull'approccio **interdisciplinare** (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzionali **culturali** (punteggio 6), **laboratoriali ed espressive** (punteggio 7), **volontariato** (punteggio 5) e **sportive** (punteggio 5). Le opzionali **ludiche e ricreative** ottengono un punteggio inferiore (3).\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la solida rete di **partnership** con il territorio, che offre agli studenti numerose opportunità di **orientamento** e di contatto con il mondo del lavoro. L'attenzione alle **finalità** educative e la diversificazione dell'offerta didattica, con particolare riguardo alle attività **laboratoriali** e **volontariato**, rappresentano ulteriori elementi positivi. L'impegno per la **continuità territoriale** è un valore aggiunto, in linea con le esigenze del contesto locale.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente gli obiettivi di riduzione dell'**abbandono** e di contrasto al fenomeno **NEET**, che necessitano di un maggiore approfondimento e di azioni più mirate. Anche il monitoraggio delle azioni di orientamento potrebbe essere potenziato per garantire una maggiore efficacia.\n\n### 5. Gap Analysis\n\nIl divario tra gli obiettivi dichiarati e le azioni concrete per la riduzione dell'abbandono e del fenomeno NEET suggerisce la necessità di definire strategie più specifiche e di coinvolgere attivamente i servizi territoriali. Un maggiore focus sul monitoraggio delle attività di orientamento permetterebbe di valutare l'impatto delle azioni intraprese e di apportare eventuali correzioni in itinere.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.Tec.Agr.\\\"G. Briganti\\\" Turi Matera presenta un'offerta di orientamento ben strutturata e radicata nel territorio. La forte rete di **partnership** e l'attenzione alle **finalità** educative rappresentano punti di forza significativi. Pur necessitando di alcuni miglioramenti, in particolare per quanto riguarda la riduzione dell'abbandono e del fenomeno NEET, il PTOF dimostra un impegno concreto per supportare gli studenti nel loro percorso di crescita e di **orientamento** verso il futuro. Le attività registrate, come la **sensibilizzazione al patrimonio monumentale**, le **visite aziendali**, gli **incontri con professionisti** e le numerose **competizioni** (Olimpiadi di Matematica, Informatica, Fisica, Chimica) arricchiscono l'offerta formativa e contribuiscono a sviluppare le competenze degli studenti."
+}

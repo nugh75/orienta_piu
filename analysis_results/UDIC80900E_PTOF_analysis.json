@@ -1,0 +1,263 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "UDIC80900E",
+    "denominazione": "M. Gortani - Comeglians",
+    "tipo_scuola": "Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Comeglians",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Udine",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Roma 49/A",
+    "cap": "33023",
+    "email": "udic80900e@istruzione.it",
+    "pec": "udic80900e@pec.istruzione.it",
+    "website": "https://www.nobilmetal.it/it-"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Presenti attività con finalità orientativa, ma non una sezione dedicata."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 6
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Domande stimolo, autovalutazione, peer education",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Studenti intervistano figure storiche simulate.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici materiali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Interazione professionale in inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Calcolo proporzioni, sanzioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica odontotecnica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività posturali e benessere",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Utilizzo strumenti digitali",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Supporto attività di sostegno con strumenti digitali.",
+      "target": "Studenti con BES, DSA"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi aggiornamento diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi di specializzazione per ex-alunni",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Infrastrutture",
+      "descrizione_e_metodologia": "Dotazione laboratorio con tecnologie avanzate",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie",
+      "target": "Studenti PCTO"
+    }
+  ],
+  "narrative": "# Analisi del PTOF UDIC80900E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Professionale M. Gortani - Comeglians (UDIC80900E) per il triennio 2023/24-2024/25-2025/2026. L'istituto, di tipo professionale e di secondo grado, opera in un contesto territoriale non metropolitano del Friuli-Venezia Giulia. L'analisi evidenzia un impegno significativo verso l'orientamento, con particolare attenzione alle **partnership** con il mondo del lavoro e alla valorizzazione delle **attitudini**, **interessi** e del **progetto di vita** degli studenti. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, le attività in tal senso sono ben integrate nel curriculum scolastico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione dedicata specificamente all'orientamento, tuttavia sono presenti attività con finalità orientativa.\n\n**2.2 Partnership:** L'istituto vanta un solido network di **partnership** con diverse realtà del territorio, tra cui **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, l'**ISRAT**, un'**azienda leader del settore audiovisivi**, **aziende accreditate** e altre **aziende di settore**. Questo elevato numero di collaborazioni (7 partner nominati) rappresenta un punto di forza significativo per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, nonché il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a **ridurre l'abbandono** scolastico, a favorire la **continuità territoriale** degli studenti, a promuovere il **lifelong learning** e, in misura minore, a **contrastare il fenomeno NEET**.\n\n**2.5 Azioni di Sistema:** L'istituto implementa diverse azioni di sistema per supportare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali**, **laboratoriali ed espressive**, **volontariato** e, in misura minore, attività **ludiche, ricreative** e **sportive**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte connessione con il territorio e la consolidata rete di **partnership** con aziende e istituzioni. Le attività di **PCTO** (Percorsi per le Competenze Trasversali e per l'Orientamento) rappresentano un elemento centrale dell'offerta formativa, offrendo agli studenti opportunità concrete di esperienza nel mondo del lavoro. L'attenzione all'inclusione, con attività come la **realizzazione di audiolibri** per studenti con **DSA**, e l'utilizzo di **strumenti digitali** a supporto dell'apprendimento, sono ulteriori punti di forza.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF potrebbe limitare la visibilità e la coerenza delle azioni intraprese. L'offerta di attività opzionali **ludiche, ricreative** e **sportive** appare meno sviluppata rispetto ad altre aree. L'obiettivo di **contrastare il fenomeno NEET** risulta meno prioritario rispetto agli altri obiettivi definiti.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, sarebbe auspicabile una maggiore formalizzazione delle attività di orientamento all'interno del PTOF, con la creazione di una sezione dedicata che ne delinei in modo più chiaro le finalità, gli obiettivi e le azioni. Potrebbe essere utile ampliare l'offerta di attività opzionali **ludiche, ricreative** e **sportive** per favorire un approccio più completo allo sviluppo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto M. Gortani - Comeglians dimostra un'attenzione significativa all'orientamento, con un forte focus sulle **partnership** con il territorio e sulla valorizzazione delle competenze degli studenti. L'implementazione di attività pratiche come il **PCTO**, i **laboratori** tematici e le iniziative di inclusione contribuiscono a creare un ambiente di apprendimento stimolante e orientato al futuro. Pur riconoscendo alcune aree di miglioramento, il PTOF si presenta come un documento solido e coerente con le esigenze del contesto territoriale e del profilo degli studenti."
+}

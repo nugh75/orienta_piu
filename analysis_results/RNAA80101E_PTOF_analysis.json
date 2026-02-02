@@ -1,0 +1,244 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RNAA80101E",
+    "denominazione": "Aquilone (Ic S.Giovanni In M.)",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "San Giovanni In Marignano",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Rimini",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via A. Moro 60",
+    "cap": "47842",
+    "email": "rnic80100n@istruzione.it",
+    "pec": "ND",
+    "website": "http//icmarignano.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "PTOF dedica spazio a valori, contesto e caratteristiche, ma non presenta una sezione specificamente dedicata all'orientamento con obiettivi, attività e valutazione."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di igiene e sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "D.lgs 81/08",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Archivio di Stato/ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie Didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici e chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Simulazione contesto professionale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore odontotecnico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie avanzate (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per studenti e diplomati.",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Attività extra curricolari",
+      "categoria_principale": "Studio",
+      "descrizione_e_metodologia": "Studio di gruppo per ridurre giudizi sospesi.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RNAA80101E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo Aquilone di San Giovanni In Marignano (RNAA80101E), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre il triennio 2023/24-2024/25-2025/26 ed è relativo alla scuola dell'Infanzia. L'istituto, statale, opera in un contesto territoriale non metropolitano della regione Emilia Romagna. L'analisi evidenzia un impegno significativo verso la costruzione di un sistema di orientamento che coinvolge diversi attori e si articola su molteplici fronti, pur mancando di una sezione specificamente dedicata e strutturata.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF dedica spazio ai valori, al contesto e alle caratteristiche dell'istituto, ma non presenta una sezione specificamente dedicata all'orientamento con obiettivi, attività e valutazione espliciti.\n\n**2.2 Partnership:** L'istituto vanta un solido sistema di partnership, collaborando con **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato**, **ISRAT**, **aziende accreditate** e altre **aziende di settore**. Questo network di collaborazioni rappresenta un elemento cruciale per l'orientamento degli studenti verso il mondo del lavoro e per l'acquisizione di competenze professionali. Sono state individuate ben 6 partnership.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la preparazione alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità** offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi strategici del PTOF mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale** degli studenti, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni Sistema:** Il PTOF prevede azioni sistemiche volte a rafforzare l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolarmente rilevante è l'azione orientata alla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali Facoltative:** L'offerta di attività opzionali facoltative comprende opzioni **culturali**, **laboratoriali espressive**, **ludiche ricreative**, di **volontariato** e **sportive**, sebbene queste ultime presentino un punteggio di valutazione inferiore rispetto alle altre.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione alle finalità e agli obiettivi dell'orientamento, nel solido sistema di partnership con il territorio e nella varietà delle azioni sistemiche e delle attività didattiche proposte. L'impegno verso l'inclusione e la valorizzazione delle fragilità rappresenta un elemento distintivo. Le attività di **PCTO** e i **corsi di igiene e sicurezza** sono particolarmente degni di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento, che renderebbe più espliciti e strutturati gli obiettivi, le attività e i criteri di valutazione. Le opzionali facoltative, in particolare quelle **culturali**, **ludiche ricreative** e di **volontariato**, potrebbero essere potenziate per offrire agli studenti una gamma più ampia di opportunità di orientamento.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di formalizzare un piano di orientamento integrato nel PTOF, con indicatori di performance chiari e misurabili. È auspicabile un maggiore dettaglio delle attività di orientamento previste per ciascun ordine di scuola e una più stretta connessione tra le partnership con il territorio e le attività didattiche.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo Aquilone dimostra un'attenzione significativa all'orientamento, sebbene manchi di una strutturazione esplicita in una sezione dedicata. Il solido sistema di partnership, le finalità ben definite, gli obiettivi strategici e le azioni sistemiche rappresentano un solido punto di partenza per lo sviluppo di un sistema di orientamento efficace e in linea con le esigenze del territorio. L'integrazione di una sezione dedicata all'orientamento e il potenziamento delle opzionali facoltative potrebbero contribuire a colmare le lacune esistenti e a massimizzare l'impatto del PTOF sulla crescita personale e professionale degli studenti. Attività come la **digitalizzazione e archiviazione documentale** presso l'**Archivio di Stato** e l'**ISRAT**, i laboratori pratici e le simulazioni (es. **giochi di ruolo Diritto**) offrono opportunità concrete di orientamento."
+}

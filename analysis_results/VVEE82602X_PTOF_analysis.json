@@ -1,0 +1,448 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "Piano Triennale dell'Offerta Formativa",
+  "metadata": {
+    "school_id": "VVEE82602X",
+    "denominazione": "S. Teresa Di Lisieux",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Vibo Valentia",
+    "anno_ptof": "2025-2028",
+    "provincia": "Vibo Valentia",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Roma",
+    "cap": "89811",
+    "email": "vvic82600r@istruzione.it",
+    "pec": "vvic82600r@pec.istruzione.it",
+    "website": "www.icsamerigovespuccivibo.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "famiglie",
+        "parrocchie",
+        "associazioni locali",
+        "altre scuole",
+        "università",
+        "Comune",
+        "Pro Loco",
+        "associazioni sportive",
+        "Terzo Settore",
+        "enti comunali",
+        "società sportiva",
+        "Sport e Salute",
+        "Ministero dell’Istruzione e del Merito",
+        "Università di Reggio Calabria",
+        "Università di Catanzaro",
+        "Università di Cosenza",
+        "ADMO",
+        "Associazione \"Io Dono\"",
+        "Comitato Italiano Paralimpico",
+        "IPSEOA “E. Gagliardi\"",
+        "Agenzie Formative",
+        "Rete Nazionale Scuol@Genda 2030",
+        "Enti Locali",
+        "Scuole superiori del territorio"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Orchestra giovanile",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Attività musicale per studenti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica in barca a vela",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Utilizzo di barca a vela sequestrata per attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Indirizzo Musicale",
+      "categoria_principale": "Offerta Formativa",
+      "descrizione_e_metodologia": "Corsi di avviamento alla pratica strumentale tenuti da docenti qualificati.",
+      "target": "Alunni Scuola Secondaria di I grado"
+    },
+    {
+      "titolo_attivita": "didattica in barca",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Utilizzo di barca sequestrata agli scafisti come simbolo di riscatto e legalità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "laboratori innovativi",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Laboratori con nuove tecnologie",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Settimana della Rigenerazione: A Scuola Di Sostenibilita'",
+      "categoria_principale": "Uso flessibile del tempo",
+      "descrizione_e_metodologia": "Percorsi didattici diversificati, attività laboratoriali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorso Service Learning “Per il BEN-DIVENIRE… pace e rispetto”",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Attività per classi aperte, co-costruzione attività con docenti",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Outdoor Education",
+      "categoria_principale": "Apprendimento Esperienziale",
+      "descrizione_e_metodologia": "Utilizzo di ambienti esterni (mare, barca) per apprendimento esperienziale, valorizzazione territorio, sviluppo autonomia e collaborazione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto eTwinning “Challenge me”",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi virtuali con scuole tedesche, slovene e spagnole. Attività interdisciplinari (musica, arte, scienza, lingua).",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua inglese",
+      "categoria_principale": "Competenze linguistiche",
+      "descrizione_e_metodologia": "Corsi con esperti madrelingua e certificazioni GESE-Trinity.",
+      "target": "Studenti secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Corsi di lingua inglese per docenti",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corsi di livello B1-B2 finanziati PNRR.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso CLIL",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Corso per docenti di qualsiasi disciplina finanziato PNRR.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti Intelligenza Artificiale",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Applicazione nell'insegnamento STEAM",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Interdisciplinari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti STEAM",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Integrazione scienza, tecnologia, ingegneria, arte e matematica",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Lettura ad alta voce, laboratori",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Greco Zero",
+      "categoria_principale": "Potenziamento Linguistico",
+      "descrizione_e_metodologia": "Alfabetizzazione base lingua greca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello matematico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Supporto per insufficienze e rafforzamento",
+      "target": "Studenti con difficoltà/eccellenze"
+    },
+    {
+      "titolo_attivita": "Giochi Matematici Del Mediterraneo",
+      "categoria_principale": "Competizione",
+      "descrizione_e_metodologia": "Partecipazione a competizioni esterne",
+      "target": "Studenti motivati"
+    },
+    {
+      "titolo_attivita": "OPS – Olimpiadi di Problem Solving",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Sviluppo competenze trasversali",
+      "target": "Studenti motivati"
+    },
+    {
+      "titolo_attivita": "Cooperative learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività collaborative per promuovere l'inclusione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori aperti e inclusivi",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Uso di nuove tecnologie",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Strumenti digitali per l'apprendimento",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Service Learning dei Bruzi-Calabria",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Formazione docenti e studenti, materiali didattici, collaborazione istituzioni",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione con Associazione Lory Volley",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Concessione palestra, attività sportive extracurriculari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Convenzione con Università della Calabria",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale, tirocini",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetti formativi con enti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Realizzazione di progetti formativi d’intesa con enti ed istituzioni",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Attività di continuità e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Coordinamento delle attività di continuità e orientamento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche e viaggi d’istruzione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione di uscite didattiche e viaggi d’istruzione",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giornalino Scolastico",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Raccolta articoli alunni, revisione bozze, elaborazione digitale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "ADMO",
+      "categoria_principale": "Sensibilizzazione",
+      "descrizione_e_metodologia": "Sensibilizzazione sull'importanza della donazione del midollo osseo.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Biblioteca MLOL",
+      "categoria_principale": "Risorse",
+      "descrizione_e_metodologia": "Ampliare percorsi di approfondimento con risorse MLOL.",
+      "target": "Docenti e studenti"
+    },
+    {
+      "titolo_attivita": "PROGETTO TEATRO",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Attività teatrali per promuovere crescita culturale, espressiva e sociale.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "PROGETTO ORCHESTRA",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Apprendimento strumentale e orchestrale.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Scarabocchi in evoluzione",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Disegno, immaginazione, creatività.",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "CORPO IN GIOCO, EMOZIONI IN MOVIMENTO…",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Linguaggio corporeo, musicale ed espressivo.",
+      "target": "Scuola dell’infanzia"
+    },
+    {
+      "titolo_attivita": "Uno-due, calcia!",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Attività psicomotoria ludica.",
+      "target": "Scuola dell’infanzia"
+    },
+    {
+      "titolo_attivita": "Scuola Attiva Kids",
+      "categoria_principale": "Artistico-Musicale e Motoria",
+      "descrizione_e_metodologia": "Attività motoria per il benessere psicofisico.",
+      "target": "Scuola dell’infanzia"
+    },
+    {
+      "titolo_attivita": "Progettare Città Sostenibili",
+      "categoria_principale": "Innovazione e Creatività con le STEAM",
+      "descrizione_e_metodologia": "Modellazione 3D e realtà virtuale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione su gestione laboratori, INVALSI CBT, didattica digitale innovativa.",
+      "target": "Personale docente"
+    },
+    {
+      "titolo_attivita": "Conoscenza norme circolazione stradale",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Attività guidate, simulazioni, analisi situazioni",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Conoscenza segnali stradali",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Attività pratiche, giochi",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Regole per la cura della salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Attività pratiche, laboratori",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Conoscenza rischi ambientali",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Attività guidate, simulazioni",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Uso responsabile denaro",
+      "categoria_principale": "Economia",
+      "descrizione_e_metodologia": "Piani di spesa, risparmio",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Legalità e contrasto criminalità",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Letture, riflessioni, ricerche",
+      "target": "Classi I-V"
+    },
+    {
+      "titolo_attivita": "Ricerca informazioni online",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Ricerca guidata, confronto fonti",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Elaborazione prodotti digitali",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Presentazioni, video",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Laboratorio di sviluppo delle vocazioni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività esperienziale per riconoscere talenti e interessi",
+      "target": "Classi II"
+    },
+    {
+      "titolo_attivita": "Settimana della Sostenibilità",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stimola pensiero critico e consapevolezza civica",
+      "target": "Classi II e III"
+    },
+    {
+      "titolo_attivita": "Visite guidate e laboratori",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze dirette presso istituti di secondo grado",
+      "target": "Classe III"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VVEE82602X\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl Piano Triennale dell'Offerta Formativa (PTOF) per l'anno 2025-2028 della scuola primaria \"S. Teresa Di Lisieux\" (VVEE82602X), situata a Vibo Valentia, presenta un approccio all'orientamento ben strutturato e integrato. L'istituto, statale e non metropolitano, dimostra un forte impegno verso la costruzione di un sistema orientativo che considera le attitudini, gli interessi e i progetti di vita degli studenti, con un'attenzione particolare alle transizioni formative e allo sviluppo delle capacità orientative per affrontare le opportunità future. La scuola si avvale di una vasta rete di **partnership** e promuove una didattica orientativa basata sull'esperienza diretta e sulla flessibilità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF prevede una sezione dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con **famiglie**, **parrocchie**, **associazioni locali**, **altre scuole**, **università** (Reggio Calabria, Catanzaro, Cosenza), **Comune**, **Pro Loco**, **associazioni sportive**, **Terzo Settore**, **enti comunali**, **società sportiva**, **Sport e Salute**, **Ministero dell’Istruzione e del Merito**, **ADMO**, **Associazione \"Io Dono\"**, **Comitato Italiano Paralimpico**, **IPSEOA “E. Gagliardi”**, **Agenzie Formative**, **Rete Nazionale Scuol@Genda 2030**, **Enti Locali** e **scuole superiori del territorio**. Questo elevato numero di partnership (15) indica una forte volontà di creare un sistema di supporto completo per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, con un punteggio massimo per ciascuna di queste aree. L'attenzione alle finalità relative alle transizioni formative risulta leggermente inferiore (punteggio 3), suggerendo un possibile margine di miglioramento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico (punteggio 4), la continuità territoriale (punteggio 4), il contrasto alla dispersione scolastica (punteggio 2) e la promozione del lifelong learning (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete e mirate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e all'integrazione di servizi per l'inclusione e la fragilità. Tutti questi aspetti ottengono un punteggio elevato, evidenziando un approccio sistemico all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità. L'utilizzo di metodologie laboratoriali, pur presente, risulta meno sviluppato (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali espressive, ludico-ricreative, sportive e, in misura minore, di volontariato.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella vasta rete di **partnership** attivate, nella chiarezza delle finalità e nella completezza delle azioni di sistema. L'impegno verso la didattica orientativa basata sull'esperienza e sulla flessibilità rappresenta un ulteriore elemento positivo. Le attività come **Orchestra giovanile**, **Didattica in barca a vela**, **Indirizzo Musicale**, **didattica in barca**, **laboratori innovativi**, **Settimana della Rigenerazione**, **Percorso Service Learning**, **Outdoor Education**, **Progetto eTwinning**, **Corsi di lingua inglese** e **Progetti STEAM** dimostrano un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda le finalità relative alle transizioni formative, che ottengono un punteggio inferiore rispetto alle altre. Anche l'obiettivo di contrastare la dispersione scolastica (neet) risulta meno prioritario. L'utilizzo di metodologie didattiche laboratoriali potrebbe essere ulteriormente potenziato.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di rafforzare le azioni specifiche volte a facilitare le transizioni formative degli studenti, ad esempio attraverso un maggiore coordinamento con le scuole secondarie di primo e secondo grado. È inoltre auspicabile un maggiore impegno nella prevenzione della dispersione scolastica e un potenziamento delle attività laboratoriali.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"S. Teresa Di Lisieux\" presenta un solido impianto orientativo, caratterizzato da una visione sistemica, una vasta rete di **partnership** e un'offerta formativa ricca e diversificata. Pur presentando alcune aree di debolezza, il PTOF dimostra un forte impegno verso la crescita e lo sviluppo degli studenti, con un'attenzione particolare alla costruzione del loro progetto di vita e alla preparazione per le sfide future. Attività come **Progetto Lettura**, **Progetto Greco Zero**, **Sportello matematico**, **Cooperative learning**, **Service Learning dei Bruzi-Calabria**, **Convenzione con Associazione Lory Volley** e **Convenzione con Università della Calabria** contribuiscono a creare un ambiente scolastico stimolante e inclusivo."
+}

@@ -1,0 +1,166 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSIS081003",
+    "denominazione": "Iis \"L. Della Valle\" Cosenza",
+    "tipo_scuola": "Liceo, Professionale",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Cosenza",
+    "anno_ptof": "2025-2028",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Piazza Amendola 8",
+    "cap": "87100",
+    "email": "csis081003@istruzione.it",
+    "pec": "csis081003@pec.istruzione.it",
+    "website": "ND"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Pur presente un'analisi del contesto e dei bisogni degli studenti, manca una sezione esplicitamente dedicata all'orientamento. Le attività di orientamento sono integrate in altre sezioni del PTOF, come 'L'Offerta Formativa', rendendo insufficiente la presenza di una sezione autonoma."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Ministero",
+        "Enti locali",
+        "altre realtà scolastiche",
+        "enti pubblici",
+        "università"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Sebbene siano presenti laboratori (musicale, artistico, audiovisivo), la loro connessione esplicita con attività di orientamento non è sufficientemente evidenziata nel PTOF.  L'integrazione di tali attività in un percorso di orientamento più strutturato risulta limitata."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Lezioni di strumento",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Lezioni individuali e di gruppo per studenti del liceo musicale",
+      "target": "Studenti liceo musicale"
+    },
+    {
+      "titolo_attivita": "Laboratorio di pittura",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività pratica di pittura",
+      "target": "Studenti liceo artistico"
+    },
+    {
+      "titolo_attivita": "Laboratorio audiovisivo",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Produzione di contenuti audiovisivi",
+      "target": "Studenti liceo artistico"
+    },
+    {
+      "titolo_attivita": "Laboratori di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri per indirizzare gli alunni nella scelta consapevole",
+      "target": "Alunni del primo anno"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l'orientamento",
+      "target": "Alunni del secondo biennio"
+    },
+    {
+      "titolo_attivita": "Incontri di presentazione dell’Offerta Formativa",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con i genitori per presentare l'offerta formativa.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Costituzione di reti con altre realtà",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Creazione di reti con scuole, enti pubblici e università.",
+      "target": "Scuola"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSIS081003\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Iis \\\"L. Della Valle\\\" Cosenza** (CSIS081003) per il periodo 2025-2028. La scuola, di tipo **Liceo, Professionale** e situata in un contesto **non metropolitano** della regione **Calabria**, dimostra un impegno generale verso l'orientamento, sebbene con alcune criticità strutturali. L'analisi evidenzia una buona attenzione alle finalità dell'orientamento, come lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita** e la preparazione alle **transizioni formative**, nonché al potenziamento delle **capacità orientative** per cogliere le **opportunità**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF presenta un'analisi del contesto e dei bisogni degli studenti, tuttavia manca una sezione specificamente dedicata all'orientamento. Le attività in questo ambito sono integrate in altre sezioni, come l'**Offerta Formativa**, risultando in una presenza insufficiente di un'area autonoma e dedicata.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido sistema di **partnership** con diversi soggetti, tra cui il **Ministero**, **enti locali**, altre **realtà scolastiche**, **enti pubblici** e **università**. Sono state individuate ben 5 partnership, dimostrando una buona capacità di collaborare con il territorio e con istituzioni esterne. L'attività di **Costituzione di reti con altre realtà** è un esempio concreto di questo impegno.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite e affrontano aspetti cruciali come lo sviluppo delle attitudini, degli interessi, la progettazione del progetto di vita, la preparazione alle transizioni formative e il potenziamento delle capacità orientative per cogliere le opportunità. Ogni finalità ha ottenuto un punteggio di 4, indicando un buon livello di attenzione.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**. Gli obiettivi di riduzione dell'abbandono e di continuità territoriale ricevono un punteggio di 4, mentre quelli relativi al contrasto ai NEET e al lifelong learning ottengono un punteggio di 3.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato di inclusione e supporto alle fragilità. Il rapporto **scuola-genitori** è particolarmente curato, ottenendo un punteggio di 5.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori e sulla flessibilità degli spazi e dei tempi. I **laboratori** di musica, arte e audiovisivo sono presenti, ma la loro connessione esplicita con le attività di orientamento non è sufficientemente evidenziata.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative include opzioni **culturali** e **laboratoriali espressive** (punteggio 4), mentre quelle **ludiche-ricreative**, di **volontariato** e **sportive** ricevono un punteggio inferiore (2).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella solida rete di **partnership** con enti esterni, nella chiarezza delle **finalità** dell'orientamento e nell'attenzione al rapporto **scuola-genitori**. L'offerta di attività come i **Laboratori di orientamento** e il **PCTO** dimostra un impegno concreto verso l'orientamento degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione autonoma e dedicata all'orientamento all'interno del PTOF. Inoltre, l'integrazione dei **laboratori** esistenti in un percorso di orientamento più strutturato risulta limitata. Le opzionali **ludiche-ricreative**, di **volontariato** e **sportive** necessitano di maggiore attenzione.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la necessità di strutturare un'offerta di orientamento più organica e visibile all'interno del PTOF. È necessario definire un piano di azione specifico per l'orientamento, con obiettivi misurabili e indicatori di performance. L'integrazione dei laboratori esistenti in un percorso di orientamento più strutturato potrebbe colmare un'altra lacuna.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Iis \\\"L. Della Valle\\\" Cosenza** dimostra un'attenzione generale all'orientamento, supportata da una solida rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, l'assenza di una sezione dedicata e la limitata integrazione dei laboratori rappresentano aree di miglioramento. Un piano di azione specifico per l'orientamento, con obiettivi chiari e misurabili, potrebbe rafforzare l'efficacia delle attività e garantire un supporto adeguato agli studenti nella loro crescita personale e professionale."
+}

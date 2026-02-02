@@ -1,0 +1,245 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AVMM87504Q",
+    "denominazione": "\" A. Moro \"",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Morra De Sanctis",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Settembrini",
+    "cap": "83040",
+    "email": "avic87500g@istruzione.it",
+    "pec": "ND",
+    "website": "www.iccriscuoli.eu"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma sono previste attività con finalità orientativa."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Autovalutazione, valutazione tra pari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici e chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazioni professionali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica applicata",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Osservazioni posturali, giochi cooperativi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite presso aziende del settore odontotecnico.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Corsi su materiale didattico informatico (Mappe Mentali).",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale Odontotecnica",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD, scanner 3D, stampanti 3D.",
+      "target": "Classi IV e V"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AVMM87504Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado “A. Moro” di Morra De Sanctis (AV), codice AVMM87504Q, per gli anni scolastici 2023/24-2024/25-2025/26. L'analisi si basa sui dati forniti, valutando le finalità, gli obiettivi, le azioni e le attività implementate. Sebbene non sia presente una sezione specificamente denominata \"orientamento\", il PTOF dimostra una chiara attenzione alle attività con finalità orientativa, integrando l'orientamento trasversalmente alle diverse aree del curricolo e del progetto educativo. L'istituto, statale, situato in un territorio non metropolitano della regione Campania, pone particolare enfasi sulle **partnership** con il mondo del lavoro e del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione dedicata specificamente all'orientamento, ottenendo un punteggio di 3. Tuttavia, la presenza di attività con finalità orientativa dimostra un impegno in questa direzione.\n\n**2.2 Partnership:** L'istituto vanta un solido network di **partnership**, con un punteggio di 5, che include **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, **aziende accreditate** e altre **aziende di settore**. Questo aspetto costituisce un punto di forza significativo per l'orientamento degli studenti. Sono state individuate 4 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio di 4, indicando un approccio olistico all'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico** (punteggio 3), a favorire la continuità territoriale (punteggio 4), a contrastare il fenomeno dei **NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e l'implementazione di un sistema integrato di inclusione e fragilità. Tutte queste azioni ottengono un punteggio di 4, ad eccezione del monitoraggio che si attesta a 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti (punteggio 4), sull'utilizzo di laboratori (punteggio 5), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 4).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali espressive, ludiche ricreative, di volontariato e sportive, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte connessione con il territorio, testimoniata dalle numerose **partnership** con aziende e istituzioni locali. L'impegno nell'implementazione di laboratori didattici e nell'utilizzo di metodologie innovative, come le **mappe mentali**, rappresenta un altro elemento positivo. L'attenzione all'inclusione, con attività come la realizzazione di **audiolibri** per studenti con **DSA**, dimostra un approccio sensibile alle esigenze di tutti gli studenti. L'attività di **PCTO** rappresenta un'importante opportunità di contatto con il mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata specificamente all'orientamento nel PTOF rappresenta un'area di debolezza. Sebbene le attività orientative siano presenti, una maggiore formalizzazione e visibilità di questa area potrebbe rafforzare l'impegno dell'istituto. Il punteggio relativamente basso per la riduzione dell'abbandono scolastico e la lotta ai **NEET** suggerisce la necessità di definire strategie più mirate per affrontare queste problematiche.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una struttura organizzativa dedicata all'orientamento, che potrebbe facilitare la pianificazione, l'implementazione e la valutazione delle attività. Un'ulteriore area di miglioramento riguarda il monitoraggio delle azioni intraprese, che potrebbe essere potenziato per garantire l'efficacia degli interventi.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto “A. Moro” dimostra un impegno significativo verso l'orientamento, pur non disponendo di una sezione dedicata. Le numerose **partnership**, l'attenzione all'inclusione e l'utilizzo di metodologie didattiche innovative rappresentano punti di forza importanti. Per migliorare ulteriormente l'efficacia dell'orientamento, si suggerisce di formalizzare una sezione dedicata all'interno del PTOF e di potenziare il monitoraggio delle azioni intraprese. Le attività di **PCTO**, i **laboratori** tematici e le iniziative di **formazione docenti** contribuiscono a creare un ambiente scolastico stimolante e orientato al futuro degli studenti."
+}

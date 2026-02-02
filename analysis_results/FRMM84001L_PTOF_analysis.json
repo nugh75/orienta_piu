@@ -1,0 +1,261 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRMM84001L",
+    "denominazione": "S.M.S.Giorgi Fracco Ferentino",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Ferentino",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Alfonso Bartoli N. 53",
+    "cap": "03013",
+    "email": "fric84000g@istruzione.it",
+    "pec": "ND",
+    "website": "www.ic2ferentino.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Sezione presente, ma non dettagliata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Centro di Consulenza per la Famiglia della Diocesi",
+        "Fidae",
+        "Fism",
+        "Parrocchia San Faustino",
+        "Agidae",
+        "Centoform",
+        "Comune di Modena",
+        "Fondazione Cassa di Risparmio",
+        "Bper",
+        "Associazioni sportive",
+        "Associazioni culturali"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 0
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 0
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 0
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 0
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 0
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 1
+      },
+      "didattica_laboratoriale": {
+        "score": 0
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 1
+      },
+      "didattica_interdisciplinare": {
+        "score": 1
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 0
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 1
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 0
+      },
+      "opzionali_volontariato": {
+        "score": 0
+      },
+      "opzionali_sportive": {
+        "score": 0
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Incontri con famiglie",
+      "categoria_principale": "Coinvolgimento genitori",
+      "descrizione_e_metodologia": "Assemblee di classe, colloqui individuali",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Progetti con Diocesi",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione con Centro di Consulenza",
+      "target": "Alunni e Famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto di Compresenza",
+      "categoria_principale": "Recupero/Rinforzo",
+      "descrizione_e_metodologia": "Ore di compresenza per alunni in difficoltà.",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Elaborazione Curricolo Verticale",
+      "categoria_principale": "Progettazione",
+      "descrizione_e_metodologia": "Stesura curricolo verticale con scuola dell'infanzia.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sportello d'Ascolto Psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Collaborazione con Centro di Consulenza Familiare.",
+      "target": "Alunni, Genitori, Docenti"
+    },
+    {
+      "titolo_attivita": "Cambridge Young Learners English Tests",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Certificazione livello inglese",
+      "target": "Classi 4^ e 5^"
+    },
+    {
+      "titolo_attivita": "Io leggo perché",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Prestito librario assistito",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Teatro in Inglese",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Apprendimento interattivo",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Flauto Dolce",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Pratica strumentale",
+      "target": "Classi 3^ e 4^"
+    },
+    {
+      "titolo_attivita": "Progetto Teatriamo",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Percorso espressivo",
+      "target": "Classi 1^ e 2^"
+    },
+    {
+      "titolo_attivita": "Il Mondo Dei Colori e Nel Mondo Dell'Arte",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Tecniche artistiche",
+      "target": "Classi 1^ e 2^ / 3^ 4^ 5^"
+    },
+    {
+      "titolo_attivita": "Festa degli auguri",
+      "categoria_principale": "Cittadinanza e Solidarietà",
+      "descrizione_e_metodologia": "Riflessione sul Natale",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Gita finale alle Piane di Mocogno",
+      "categoria_principale": "Progetto ambientale, naturalistico e di convivenza civica",
+      "descrizione_e_metodologia": "Gita di due giorni per promuovere coesione, rispetto regole, integrazione e collaborazione",
+      "target": "Alunni della scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Progetto 'Vogliamoci bene'",
+      "categoria_principale": "Educazione relazionale-affettiva",
+      "descrizione_e_metodologia": "Percorso di benessere in classe",
+      "target": "Alunni classe 3^"
+    },
+    {
+      "titolo_attivita": "Progetto di recupero didattico",
+      "categoria_principale": "Recupero didattico",
+      "descrizione_e_metodologia": "Percorso formativo/didattico per alunni in difficoltà",
+      "target": "Alunni in difficoltà"
+    },
+    {
+      "titolo_attivita": "Sportello Psicologico d’ascolto 'INsiemeAscuola'",
+      "categoria_principale": "Supporto psicologico",
+      "descrizione_e_metodologia": "Ascolto per docenti, personale e famiglie",
+      "target": "Docenti, personale, famiglie"
+    },
+    {
+      "titolo_attivita": "Progetto screening della letto-scrittura",
+      "categoria_principale": "Individuazione precoce difficoltà",
+      "descrizione_e_metodologia": "Prove standardizzate per alunni classi 1^ e 2^",
+      "target": "Alunni classi 1^ e 2^"
+    },
+    {
+      "titolo_attivita": "I disturbi specifici dell’apprendimento",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "corso di formazione di 20 ore",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "La qualità dell’integrazione scolastica e sociale",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "corso di formazione di 12 ore",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "L’apprendimento Cooperativo",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "corso di formazione di 15 ore",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Disturbi dell’attenzione e ipercinesia",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "corso di formazione di 15 ore",
+      "target": "Insegnanti"
+    },
+    {
+      "titolo_attivita": "Primo pronto soccorso e rischio medio",
+      "categoria_principale": "Formazione Personale",
+      "descrizione_e_metodologia": "corso di aggiornamento di 12 ore",
+      "target": "Personale ATA"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRMM84001L\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) relativo all'istituto S.M.S.Giorgi Fracco Ferentino (ID scuola FRMM84001L) per il periodo 2019/20-2021/22. L'analisi si concentra in particolare sulla dimensione dell'orientamento, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni implementate, l'offerta didattica e le attività opzionali. Il PTOF dimostra un impegno nella costruzione di un sistema di orientamento, sebbene con alcune aree che necessitano di maggiore approfondimento e strutturazione. La scuola, situata nel territorio non metropolitano del Lazio, opera come istituto statale di I grado.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata all'Orientamento:**\n\nIl PTOF prevede la presenza di una sezione dedicata all'orientamento, tuttavia, l'analisi evidenzia una mancanza di dettaglio nella sua elaborazione.\n\n**2.2 Partnership:**\n\nUn punto di forza del PTOF è la rete di **partnership** attivate, che include il **Centro di Consulenza per la Famiglia della Diocesi**, **Fidae**, **Fism**, la **Parrocchia San Faustino**, **Agidae**, **Centoform**, il **Comune di Modena**, la **Fondazione Cassa di Risparmio**, **Bper**, diverse **associazioni sportive** e **associazioni culturali**. Sono state individuate ben 11 collaborazioni esterne, a testimonianza di un'apertura verso il territorio e la volontà di arricchire l'offerta formativa.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono ben definite in relazione allo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti. Punteggi massimi sono stati attribuiti a queste aree, indicando una chiara attenzione alla crescita personale e all'autonomia degli alunni. Meno sviluppate sembrano le finalità legate alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:**\n\nTra gli obiettivi, si evidenzia un impegno per la **continuità territoriale**, con un punteggio di 3. Gli obiettivi di riduzione dell'**abbandono** scolastico e di contrasto al fenomeno dei **NEET** risultano meno prioritari, così come lo sviluppo di competenze per il **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede azioni di **coordinamento dei servizi**, di **dialogo tra docenti e studenti** e un forte coinvolgimento delle **famiglie**. Quest'ultima azione, in particolare, ha ottenuto un punteggio elevato. Meno sviluppate appaiono le azioni di **monitoraggio delle attività** svolte e la creazione di un **sistema integrato di inclusione e supporto alla fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo dell'**esperienza degli studenti**, sull'applicazione di metodologie **interdisciplinari** e sulla flessibilità degli spazi e dei tempi. L'utilizzo di laboratori didattici risulta meno presente.\n\n**2.7 Offerta di Opzionali:**\n\nL'offerta di attività opzionali si concentra principalmente su attività **laboratoriali ed espressive**, mentre risultano assenti opzionali di tipo culturale, ludico-ricreativo, di volontariato o sportivo.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una rete di **partnership** consolidata, nella chiarezza delle **finalità** orientative legate allo sviluppo personale degli studenti e nel forte coinvolgimento delle **famiglie**. Le attività registrate, come gli **Incontri con famiglie**, i **Progetti con Diocesi** e lo **Sportello d'Ascolto Psicologico**, testimoniano un impegno concreto nella costruzione di un ambiente scolastico inclusivo e orientato al benessere degli alunni. La scuola investe anche nella formazione dei docenti, con corsi su **disturbi dell'apprendimento**, **integrazione scolastica** e **apprendimento cooperativo**.\n\n### 4. Aree di Debolezza\n\nLe principali aree di debolezza riguardano la mancanza di dettaglio nella sezione dedicata all'orientamento, la scarsa attenzione agli obiettivi di riduzione dell'abbandono scolastico e di contrasto al fenomeno dei NEET, e la limitata offerta di attività opzionali. L'assenza di azioni di monitoraggio delle attività svolte e di un sistema integrato di inclusione e supporto alla fragilità rappresenta un ulteriore elemento critico.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre le finalità orientative in obiettivi concreti e misurabili, definendo azioni specifiche per il raggiungimento di tali obiettivi. È necessario ampliare l'offerta di attività opzionali, diversificando le proposte e coinvolgendo maggiormente il territorio. Infine, è fondamentale implementare un sistema di monitoraggio efficace per valutare l'impatto delle azioni svolte e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto S.M.S.Giorgi Fracco Ferentino presenta un quadro complessivo positivo, con un impegno evidente nella costruzione di un sistema di orientamento. Tuttavia, per raggiungere una maggiore efficacia, è necessario colmare le lacune individuate, definendo obiettivi più specifici, ampliando l'offerta di attività e implementando un sistema di monitoraggio adeguato. L'istituto può fare leva sulle solide **partnership** esistenti e sul forte coinvolgimento delle **famiglie** per potenziare l'azione orientativa e garantire un futuro migliore ai propri studenti."
+}

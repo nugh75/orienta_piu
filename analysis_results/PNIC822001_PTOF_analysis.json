@@ -1,0 +1,280 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PNIC822001",
+    "denominazione": "Ic Porcia \"Jacopo Di Porcia\"",
+    "tipo_scuola": "Liceo, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Porcia",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Pordenone",
+    "regione": "Friuli-Venezia G.",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cartiera N. 20",
+    "cap": "33080",
+    "email": "pnic822001@istruzione.it",
+    "pec": "pnic822001@pec.istruzione.it",
+    "website": "www.icporcia.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Sebbene l'orientamento sia presente nell'indice e nelle attività, manca una sezione dedicata con un'esposizione organica dell'offerta formativa orientativa."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "ASL"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Le attività pratiche si concentrano su stage e PCTO, mancando laboratori didattici specificamente dedicati all'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli/momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Veicolazione moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Moduli in inglese nel biennio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Attività di coding e robotica educativa",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Definizione PEI/PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programmazione didattica, osservazione, monitoraggio",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Debate",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Trattazione argomentativa su questioni socio-culturali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetto Pon",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Realizzazione laboratori digitali",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PNIC822001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Ic Porcia “Jacopo Di Porcia” (PNIC822001) per il periodo 2019/20-2021/22. L'istituto, situato in Friuli-Venezia Giulia, è un Liceo e Tecnico di II grado in un territorio non metropolitano. L'analisi si basa sui dati forniti, valutando la presenza, la coerenza e l'efficacia delle azioni orientative previste. Sebbene l'orientamento sia integrato nelle attività scolastiche, si evidenzia una mancanza di una sezione dedicata che esponga organicamente l'offerta formativa orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'istituto riconosce l'importanza dell'orientamento, come dimostra la sua inclusione nell'indice del PTOF e nelle attività proposte. Tuttavia, l'assenza di una sezione dedicata e strutturata rappresenta un limite nella chiarezza e nella completezza dell'offerta orientativa.\n\n**2.2 Partnership:** L'Ic Porcia “Jacopo Di Porcia” dimostra una forte capacità di collaborare con numerosi partner esterni, tra cui **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **I.B.B.R**, diverse **Associazioni**, **Consulenti esterni**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005** e l’**ASL**. Questo elevato numero di partnership (11) suggerisce un approccio aperto e collaborativo all'orientamento e all'inserimento nel territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi**, il **progetto di vita**, le **transizioni formative** e le **capacità orientative** degli studenti, consentendo loro di affrontare le opportunità future con consapevolezza.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** e sulla promozione del **lifelong learning**. Tuttavia, gli obiettivi di contrasto ai NEET e di lifelong learning ricevono un punteggio inferiore, suggerendo un'area di potenziale miglioramento.\n\n**2.5 Azioni di Sistema:** L'istituto prevede azioni di sistema che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolare attenzione è rivolta all'integrazione tra **inclusione** e gestione delle **fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza diretta degli studenti, con particolare attenzione alle attività **PCTO** e agli **stage**. Sebbene siano presenti attività pratiche, manca una specifica offerta di **laboratori didattici** dedicati all'orientamento. La didattica si caratterizza per la **flessibilità degli spazi e dei tempi** e per l'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è diversificata e comprende opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, offrendo agli studenti opportunità di approfondimento e di sviluppo personale.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella forte rete di **partnership** con enti e associazioni del territorio, nella chiarezza delle **finalità** orientative e nell'approccio didattico basato sull'esperienza e sulla **flessibilità**. L'impegno verso l'**inclusione** e la gestione delle fragilità rappresenta un ulteriore elemento positivo. Le attività di **PCTO** e **stage** offrono agli studenti un contatto diretto con il mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dall'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che limita la chiarezza e l'organicità dell'offerta formativa. Inoltre, alcuni obiettivi, come il contrasto ai **NEET** e la promozione del **lifelong learning**, ricevono un punteggio inferiore, suggerendo la necessità di un maggiore impegno in queste aree. La mancanza di **laboratori didattici** specificamente dedicati all'orientamento rappresenta un ulteriore limite.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta formativa orientativa più organica e visibile, attraverso la creazione di una sezione dedicata nel PTOF. È inoltre necessario rafforzare gli obiettivi di contrasto ai **NEET** e di promozione del **lifelong learning**, implementando azioni mirate e monitorando i risultati. L'introduzione di **laboratori didattici** specifici potrebbe arricchire l'offerta orientativa e fornire agli studenti strumenti più efficaci per affrontare le sfide del futuro.\n\n### 6. Conclusioni\n\nIl PTOF dell'Ic Porcia “Jacopo Di Porcia” presenta un approccio all'orientamento solido e ben radicato nella pratica scolastica. La forte rete di **partnership** e l'impegno verso l'**inclusione** rappresentano elementi distintivi. Tuttavia, per migliorare l'efficacia dell'offerta orientativa, è necessario strutturare un'offerta più organica e visibile, attraverso la creazione di una sezione dedicata nel PTOF e l'implementazione di azioni mirate per il raggiungimento degli obiettivi di contrasto ai **NEET** e di promozione del **lifelong learning**. L'introduzione di **laboratori didattici** specifici potrebbe ulteriormente arricchire l'offerta e fornire agli studenti strumenti più efficaci per affrontare le sfide del futuro."
+}

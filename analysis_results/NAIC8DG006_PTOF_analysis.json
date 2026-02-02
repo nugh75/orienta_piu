@@ -1,0 +1,273 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAIC8DG006",
+    "denominazione": "Ic Moscati - D'Acquisto",
+    "tipo_scuola": "I Grado, Infanzia, Primaria, Professionale",
+    "ordine_grado": "Comprensivo, I Grado, II Grado, Infanzia, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Lombardia28",
+    "cap": "80145",
+    "email": "naic8dg006@istruzione.it",
+    "pec": "naic8dg006@pec.istruzione.it",
+    "website": "www.ic64rodarimoscati.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Comune",
+        "VII Municipalità",
+        "Associazioni di volontariato",
+        "scuole del territorio",
+        "rete territoriale MianoInTesta",
+        "ASL",
+        "Servizi Sociali",
+        "Forze dell'ordine",
+        "Università degli Studi di Cassino e del Lazio Meridionale",
+        "Link University Campus",
+        "Università Suor Orsola Benincasa"
+      ],
+      "partnership_count": 11
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Istituzione Museo della legalità",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Percorsi didattici e attività di sensibilizzazione sulla legalità",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Je parle français",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Progetto per l'apprendimento del francese",
+      "target": "Studenti classi medie"
+    },
+    {
+      "titolo_attivita": "An English Island",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Piattaforma e-learning per l'apprendimento dell'inglese",
+      "target": "Studenti scuola primaria"
+    },
+    {
+      "titolo_attivita": "Progetto CIC",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sportello di orientamento",
+      "target": "Studenti, genitori, insegnanti"
+    },
+    {
+      "titolo_attivita": "Sportello d'ascolto",
+      "categoria_principale": "Prevenzione disagio",
+      "descrizione_e_metodologia": "Sportello attivo una volta a settimana, 28 ore per operatore (Nov-Maggio)",
+      "target": "Studenti, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Progetto Lingua Latina: Carpe Linguam",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Studio del latino per esercizio del pensiero",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visita al Senato e Parlamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita guidata per conoscere le istituzioni",
+      "target": "Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Incontri con Forze dell'Ordine",
+      "categoria_principale": "Educazione alla Legalità",
+      "descrizione_e_metodologia": "Incontri e celebrazioni per la legalità",
+      "target": "Tutti i gradi"
+    },
+    {
+      "titolo_attivita": "Laboratorio Sperimentale Permanente di Teatro e Arti Figurative",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Ampliare gli orizzonti mentali del bambino, espansione immaginativa, creatività, socialità e senso critico.",
+      "target": "Alunni della scuola Primaria e Secondaria di Primo grado"
+    },
+    {
+      "titolo_attivita": "Percorso di educazione alla cittadinanza attiva",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratorio sperimentale permanente tra i diversi ordini di scuola.",
+      "target": "Alunni della scuola Primaria e Secondaria di Primo grado"
+    },
+    {
+      "titolo_attivita": "Progetto Je Parle Francais",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Sviluppo competenza comunicativa in francese (A1-A2)",
+      "target": "Studenti medie"
+    },
+    {
+      "titolo_attivita": "Progetto Amico Sport",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Percorso sportivo per esprimere emozioni",
+      "target": "Studenti a rischio"
+    },
+    {
+      "titolo_attivita": "Educazione ambientale",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Attività pratiche e uscite didattiche",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione di manufatti con materiali di riciclo",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Laboratori creativi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione alla cittadinanza responsabile, esplorazione dell'ambiente e rispetto per la natura.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Conoscenza della Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Introduzione al concetto di Costituzione Italiana e dei suoi principi fondamentali.",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Salviamo il Pianeta Terra",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Giornata mondiale della Terra, sensibilizzazione, comportamenti corretti, rispetto ambiente",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Museo della Legalità",
+      "categoria_principale": "Arte e Immagine",
+      "descrizione_e_metodologia": "Lavorare all'interno del museo per sviluppare conoscenza e rispetto verso i beni artistici e ambientali.",
+      "target": "Classe V"
+    },
+    {
+      "titolo_attivita": "Prevenzione e gestione della dispersione scolastica",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Acquisizione competenze problematiche dispersione scolastica. Riduzione tasso dispersione.",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Alfabetizzazione Digitale",
+      "categoria_principale": "Formazione Digitale",
+      "descrizione_e_metodologia": "Acquisizione competenze evoluzione modalità erogazione istruzione.",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Sicurezza ed igiene sul lavoro",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Acquisizione competenze evoluzione normativa sicurezza (D.Lgs. 81/08).",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Inclusione allievi BES e DSA",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Acquisizione competenze gestione e prevenzione problematiche inclusione.",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Insegnare e valutare per competenze",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Acquisizione competenze gestione aspetti innovativi valutazione.",
+      "target": "Tutto il personale docente"
+    },
+    {
+      "titolo_attivita": "Evoluzione digitale nel processo di insegnamento/apprendimento",
+      "categoria_principale": "Formazione Digitale",
+      "descrizione_e_metodologia": "Acquisizione competenze evoluzione modalità erogazione istruzione.",
+      "target": "Tutto il personale docente"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAIC8DG006\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ic Moscati - D'Acquisto** (NAIC8DG006) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano di **Napoli** e operante in diversi gradi scolastici (Infanzia, Primaria, I e II Grado, Professionale), dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo di valutazione positivo. L'attenzione è rivolta alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa e alla promozione del lifelong learning. La scuola si avvale di una rete di **partnership** diversificata e collabora attivamente con enti locali, associazioni, università e servizi sociali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, il che testimonia l'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** L'istituto collabora con un ampio ventaglio di partner, tra cui il **Comune**, la **VII Municipalità**, diverse **associazioni di volontariato**, altre **scuole del territorio**, la rete **MianoInTesta**, l'**ASL**, i **Servizi Sociali**, le **Forze dell'ordine**, e diverse **Università** (Cassino e del Lazio Meridionale, Link University Campus, Suor Orsola Benincasa). Questo elevato numero di collaborazioni (11 partner) suggerisce un approccio integrato e una forte connessione con il territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di attitudini, interessi, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di capacità orientative per cogliere le opportunità. I punteggi ottenuti (4-5) indicano un'attenzione equilibrata a tutti questi aspetti.\n\n**2.4 Obiettivi:** Gli obiettivi delineati mirano a ridurre l'abbandono scolastico (punteggio 4), a garantire la continuità territoriale (punteggio 3), a contrastare il fenomeno dei **NEET** (punteggio 2) e a promuovere il lifelong learning (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Tutti questi aspetti ricevono un punteggio di valutazione positivo (3-4).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare. I punteggi ottenuti (3-4) suggeriscono un approccio didattico diversificato e orientato alla pratica.\n\n**2.7 Offerta di Attività Opzionali:** L'offerta di attività opzionali comprende moduli culturali, laboratoriali ed espressivi, ludico-ricreativi, di volontariato e sportivi, tutti con un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella presenza di una sezione dedicata all'orientamento e nella vasta rete di **partnership** attivate. L'istituto dimostra un forte impegno verso la prevenzione della dispersione scolastica e la promozione del **progetto di vita** degli studenti. L'ampia gamma di attività proposte, come **Istituzione Museo della legalità**, **Je parle français**, **An English Island**, **Progetto CIC**, **Sportello d'ascolto**, **Progetto Lingua Latina: Carpe Linguam**, **Visita al Senato e Parlamento**, **Incontri con Forze dell'Ordine**, **Laboratorio Sperimentale Permanente di Teatro e Arti Figurative**, **Percorso di educazione alla cittadinanza attiva**, **Progetto Je Parle Francais**, **Progetto Amico Sport**, **Educazione ambientale**, **Realizzazione di manufatti con materiali di riciclo**, **Educazione alla cittadinanza**, **Conoscenza della Costituzione**, **Salviamo il Pianeta Terra**, **Museo della Legalità**, **Prevenzione e gestione della dispersione scolastica**, **Alfabetizzazione Digitale**, **Sicurezza ed igiene sul lavoro**, **Inclusione allievi BES e DSA**, **Insegnare e valutare per competenze**, **Evoluzione digitale nel processo di insegnamento/apprendimento**, evidenzia un approccio olistico e inclusivo.\n\n### 4. Aree di Debolezza\n\nL'obiettivo di contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) ottiene un punteggio inferiore (2), suggerendo la necessità di potenziare le azioni specifiche rivolte a questo target. Anche l'obiettivo di garantire la continuità territoriale e la promozione del lifelong learning (punteggio 3) potrebbero beneficiare di un maggiore approfondimento.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di tradurre l'impegno teorico nella pratica, monitorando costantemente l'efficacia delle azioni intraprese e adattando le strategie in base ai risultati ottenuti. È fondamentale intensificare le iniziative volte a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo degli studenti, con particolare attenzione al contrasto del fenomeno dei **NEET**.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ic Moscati - D'Acquisto** presenta un quadro generale positivo per quanto riguarda l'orientamento. La presenza di una sezione dedicata, la vasta rete di **partnership** e l'ampia gamma di attività proposte costituiscono un solido punto di partenza. Tuttavia, è necessario concentrare gli sforzi sul potenziamento delle azioni volte a contrastare il fenomeno dei **NEET** e a garantire la continuità territoriale, al fine di massimizzare l'impatto dell'orientamento sulla vita degli studenti e sulla comunità scolastica."
+}

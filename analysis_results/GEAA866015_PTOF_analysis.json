@@ -1,0 +1,259 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEAA866015",
+    "denominazione": "Scuola Infanzia Rainusso",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Rapallo",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Bolzano 25",
+    "cap": "16035",
+    "email": "geic866008@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "icrapallozoagli.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento nel PTOF."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Museo Archeologico Nazionale della Siritide",
+        "AGROBIOS",
+        "Enti di ricerca",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scambi culturali",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Partenariati con scuole europee",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Inglese e Francese (B1-C1)",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Proposta di nuove tecniche d’insegnamento",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Introduzione del metodo flipped classroom",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori service learning",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemelaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare metodologie didattiche",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica Educativa",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività per studenti diversamente abili",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglia, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Alunni con difficoltà"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEAA866015\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Infanzia Rainusso** (GEAA866015) per il triennio 2019/20-2021/22. La scuola, statale, situata nel comune di **Rapallo** (Genova, Liguria), mostra un impegno significativo verso la costruzione di un sistema di orientamento, sebbene non sia presente una sezione specificamente dedicata nel PTOF. L'analisi si basa sui punteggi assegnati alle diverse dimensioni dell'orientamento e sulle attività registrate, fornendo una panoramica dei punti di forza, delle aree di debolezza e dei gap da colmare.\n\n### 2. Analisi Dimensionale\n\nLa dimensione delle **finalità** dell'orientamento, valutata con punteggi elevati (4/4 per attitudini, interessi, transizioni formative e capacità orientative/opportunità), indica una chiara attenzione allo sviluppo delle competenze personali degli studenti e alla loro preparazione per il futuro. L'attenzione alle **finalità** è quindi ben definita. Gli **obiettivi** di riduzione dell'abbandono scolastico, continuità territoriale, contrasto alla dispersione scolastica (NEET) e promozione del lifelong learning, ricevono un punteggio costante di 3, suggerendo un impegno concreto ma non eccellente in queste aree.\n\nLe **azioni di sistema** mostrano un buon livello di coordinamento dei servizi (4/5) e un forte coinvolgimento delle famiglie (4/5), mentre il dialogo tra docenti e studenti e il monitoraggio delle azioni ottengono un punteggio di 3, indicando margini di miglioramento. L'azione relativa all'integrazione e alla fragilità (5/5) rappresenta un punto di forza significativo.\n\nLa **didattica orientativa** si basa su approcci esperienziali (4/5) e interdisciplinari (4/5), ma la didattica laboratoriale risulta meno sviluppata (2/5). L'offerta di **opzionali** copre diverse aree (culturali, laboratoriali espressive, ludico-ricreative, volontariato, sportive) con punteggi variabili tra 3 e 4, dimostrando una buona diversificazione dell'offerta formativa.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella forte attenzione alle finalità educative, nel coordinamento dei servizi e nel coinvolgimento delle famiglie. L'impegno verso l'inclusione e la didattica esperienziale rappresentano ulteriori elementi positivi. Le attività registrate, come gli **stage ASL** e i **progetti territoriali integrati**, testimoniano un'attenzione concreta all'orientamento pratico. La presenza di **certificazioni linguistiche** e l'offerta di **conversazione inglese** ampliano le opportunità formative per gli studenti.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento nel PTOF rappresenta una lacuna significativa. La didattica laboratoriale e il monitoraggio delle azioni necessitano di un maggiore sviluppo. Sebbene gli obiettivi siano ben definiti, il loro raggiungimento potrebbe essere potenziato attraverso azioni più mirate.\n\n### 5. Gap Analysis\n\nIl principale gap risiede nella mancanza di una visione strategica unitaria per l'orientamento, che si traduca in una sezione dedicata nel PTOF. È necessario potenziare la didattica laboratoriale e implementare sistemi di monitoraggio più efficaci per valutare l'impatto delle azioni intraprese. L'integrazione tra le attività di orientamento e le altre dimensioni del PTOF potrebbe essere migliorata.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Infanzia Rainusso** dimostra un impegno significativo verso l'orientamento, sebbene manchi una struttura formale dedicata. I punti di forza risiedono nelle finalità educative, nel coordinamento dei servizi e nell'inclusione. Per colmare le lacune, si raccomanda di inserire una sezione specifica per l'orientamento nel PTOF, di potenziare la didattica laboratoriale e di implementare sistemi di monitoraggio più efficaci. Le attività registrate, come gli **scambi culturali**, i corsi di **coding e robotica educativa** e i percorsi di **cittadinanza e costituzione**, rappresentano un valido punto di partenza per lo sviluppo di un sistema di orientamento completo ed efficace. L'impegno verso i **progetti territoriali integrati** e gli **stage/alternanza scuola-lavoro** conferma l'attenzione alla transizione formativa degli studenti."
+}

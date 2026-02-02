@@ -1,0 +1,198 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CERH032518",
+    "denominazione": "Ipsar Serale Caserta",
+    "tipo_scuola": "Primaria, Professionale",
+    "ordine_grado": "II Grado, Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Caserta",
+    "anno_ptof": "2022-2025",
+    "provincia": "Caserta",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "ND",
+    "cap": "81100",
+    "email": "ceis03200p@istruzione.it",
+    "pec": "ND",
+    "website": "www.isisferrariscaserta.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Non è presente una sezione specificamente dedicata all'orientamento, bensì attività che possono essere inquadrate in un'ottica orientativa."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Università degli Studi",
+        "Scuola Superiore della Pubblica Amministrazione",
+        "CIRA",
+        "ITS “M. Buonarroti”",
+        "I.C. “L. Settembrini”",
+        "Casa Circondariale “Gennaro De Angelis”",
+        "I.C. “Bosco”",
+        "I.T.E. “A. Gallo”",
+        "I.C.S. “L.V. Beethoven”",
+        "Scuola Sec. I Grado “M. Stanzione”",
+        "I.C.S. “V. Rocco - Cav. Cinquegrana”",
+        "Scuola Sec. I Grado “S. G. Bosco”",
+        "Casa di Reclusione di Aversa",
+        "I.C. “Lucilio”",
+        "I.S.I.S.S. “Foscolo”",
+        "Complesso San Domenico",
+        "I.C. “Leonardo Da Vinci”",
+        "Centro Immigrati Campania “Fernandes”",
+        "Istituti Secondari di II Grado",
+        "Istituzioni scolastiche secondarie di secondo grado"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Accoglienza dell’utenza dei corsi di italiano L2",
+      "categoria_principale": "Accoglienza e Orientamento",
+      "descrizione_e_metodologia": "Ascolto dei bisogni formativi, presentazione del corso, prove d'ingresso, patto formativo.",
+      "target": "Adulti stranieri"
+    },
+    {
+      "titolo_attivita": "Accoglienza/posizionamento nei corsi di primo livello",
+      "categoria_principale": "Accoglienza e Orientamento",
+      "descrizione_e_metodologia": "Colloquio iniziale, modulo propedeutico, riconoscimento crediti, patto formativo.",
+      "target": "Adulti e giovani adulti"
+    },
+    {
+      "titolo_attivita": "Test d'ingresso",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Test per accertare livello lingua italiana",
+      "target": "Studenti stranieri"
+    },
+    {
+      "titolo_attivita": "Patto Formativo Individuale",
+      "categoria_principale": "Personalizzazione",
+      "descrizione_e_metodologia": "Elaborazione patto formativo personalizzato",
+      "target": "Studenti adulti"
+    },
+    {
+      "titolo_attivita": "Corsi Brevi Modulari (C.B.M.)",
+      "categoria_principale": "Formazione linguistica",
+      "descrizione_e_metodologia": "Corsi di lingua spagnola, arte, informatica",
+      "target": "Adulti"
+    },
+    {
+      "titolo_attivita": "Progetti di Ampliamento",
+      "categoria_principale": "Progetti territoriali",
+      "descrizione_e_metodologia": "Progetti per il recupero formativo",
+      "target": "Giovani adulti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Insegnamento dell'Economia finanziaria (EduFin)",
+      "categoria_principale": "Educazione finanziaria",
+      "descrizione_e_metodologia": "Unità didattiche per acquisire competenze minime in materia finanziaria.",
+      "target": "Adulti iscritti ai percorsi di istruzione di primo livello"
+    },
+    {
+      "titolo_attivita": "Insegnamento dell'Educazione civica",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Conoscenza della Costituzione Italiana e sviluppo di competenze di cittadinanza.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti didattici di Istituto",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Ampliare offerta formativa, inclusione, accoglienza culturale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione per docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Aggiornamento sulle tematiche dell'educazione civica",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CERH032518\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ipsar Serale Caserta** (CERH032518) per il triennio 2022-2025. La scuola, di tipo **Primaria** e **Professionale**, opera in un contesto **non metropolitano** della regione **Campania**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione specifica per l'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Sebbene non sia presente una sezione specificamente dedicata all'orientamento, il PTOF evidenzia diverse attività che possono essere inquadrate in un'ottica orientativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che non è presente una sezione specificamente dedicata all'orientamento, ma piuttosto un insieme di attività che possono essere interpretate in chiave orientativa.\n\n**2.2 Partnership:** L'istituto vanta un network di **partnership** molto ampio e diversificato, comprendendo **Università degli Studi**, la **Scuola Superiore della Pubblica Amministrazione**, il **CIRA**, l'**ITS “M. Buonarroti”**, diversi **Istituti Comprensivi** e **Secondari di II Grado** della zona, la **Casa Circondariale “Gennaro De Angelis”** e la **Casa di Reclusione di Aversa**, oltre a enti come il **Centro Immigrati Campania “Fernandes”**. Questo elevato numero di collaborazioni (20 partner nominati) rappresenta un punto di forza significativo per l'offerta orientativa.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a garantire la **continuità territoriale** dei percorsi formativi, a **contrastare il fenomeno NEET** e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni implementate per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:** L'approccio didattico privilegia l'apprendimento **da esperienza**, la **flessibilità degli spazi e dei tempi** e l'**interdisciplinarità**. L'utilizzo della **didattica laboratoriale** risulta meno marcato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, mentre le opzioni di tipo **culturale** sembrano meno sviluppate.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è rappresentato dall'ampio network di **partnership** attivate, che offrono agli studenti numerose opportunità di orientamento e di collegamento con il mondo del lavoro e del territorio. La chiarezza delle **finalità** e degli **obiettivi** prefissati, unitamente all'attenzione verso l'inclusione e il contrasto alla dispersione scolastica, costituiscono ulteriori elementi positivi. L'impegno nell'educazione civica e finanziaria, attraverso attività come l'insegnamento dell'**Educazione civica** e dell'**Economia finanziaria (EduFin)**, denota una visione olistica dell'offerta formativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento rappresenta un'area di debolezza. Sebbene le attività orientative siano integrate in altre aree del PTOF, una maggiore formalizzazione e visibilità di queste iniziative potrebbe contribuire a rafforzare l'efficacia dell'azione orientativa. L'utilizzo della **didattica laboratoriale** potrebbe essere potenziato.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una struttura organizzativa dedicata all'orientamento, con figure responsabili e risorse specifiche. Questo potrebbe limitare la capacità della scuola di progettare e implementare interventi orientativi mirati e personalizzati. Un'integrazione più sistematica delle attività orientative all'interno dei curricoli scolastici potrebbe colmare questo gap.\n\n### 6. Conclusioni\n\nIl PTOF dell'**Ipsar Serale Caserta** dimostra un impegno significativo verso l'orientamento, pur non disponendo di una sezione dedicata. Le numerose **partnership** attivate e la chiarezza delle **finalità** e degli **obiettivi** rappresentano punti di forza importanti. Per migliorare l'efficacia dell'azione orientativa, si suggerisce di formalizzare maggiormente le attività esistenti, creando una struttura organizzativa dedicata e integrando l'orientamento in modo più sistematico all'interno dei curricoli scolastici. Attività come l'**Accoglienza dell’utenza dei corsi di italiano L2**, l'**Accoglienza/posizionamento nei corsi di primo livello** e i **Corsi Brevi Modulari (C.B.M.)** rappresentano buone prassi da consolidare e ampliare."
+}

@@ -1,0 +1,402 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOMM824018",
+    "denominazione": "G.Marconi-Castiglione Pepoli Mm",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Castiglione Dei Pepoli",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Fiera 96",
+    "cap": "40035",
+    "email": "boic824007@istruzione.it",
+    "pec": "sais04100t@pec.istruzione.it",
+    "website": "www.iccast.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 0,
+      "note": "Non è presente una sezione dedicata all'orientamento nel documento. Si riscontrano attività di orientamento, ma manca un capitolo specifico con questo titolo."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "enti locali",
+        "associazioni del terzo settore",
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "terzo settore",
+        "imprese",
+        "Università sul territorio",
+        "esercito",
+        "polizia",
+        "Consulenti esterni",
+        "Associazioni",
+        "Polo Qualità di Napoli",
+        "Ente Provincia di Salerno",
+        "Consorzio Clara",
+        "Ufficio Scolastico Regionale della Campania",
+        "Fondazione Mondo Digitale",
+        "ASL",
+        "soggetti privati"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage presso aziende del territorio",
+      "target": "Studenti del secondo ciclo"
+    },
+    {
+      "titolo_attivita": "Recupero curriculare, extracurriculare e/o sportello didattico",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Moduli disciplinari su prenotazione",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Definire il curricolo di scuola e il profilo dello studente",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Coerenza con competenze in uscita",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Realizzazione Di Progetti Interdisciplinari Con Compiti Di Prestazione E Rubriche Di Valutazione Delle Prestazioni",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetti interdisciplinari con valutazione",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Realizzazione Di Ambienti Di Apprendimento Innovativi",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Ambienti di apprendimento innovativi",
+      "target": "Docenti, Studenti"
+    },
+    {
+      "titolo_attivita": "Piano di Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione di PEI/PDP, monitoraggio, formazione docenti",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Formazione docenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi su didattica inclusiva e BES",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "SCUOLA@AZIENDA",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri tra scuola, aziende e professioni. Testimonianze dirette del mondo aziendale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Palestre dell'Innovazione",
+      "categoria_principale": "Innovazione",
+      "descrizione_e_metodologia": "Realizzazione di laboratori didattici e attività innovative.",
+      "target": "Studenti e Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Percorsi di supporto per alunni con BES, DSA e ADHD.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Il Coding Ed I Linguaggi Di Programmazione",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "La Chimica In Cucina: Alimentazione E Sicurezza",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Didattica attiva e laboratoriale",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica E Realtà: Applicazioni Di Rilevazioni Di Dati Ambientali",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Realizzazione centraline monitoraggio qualità aria",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sviluppo Siti Web",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica E Realtà: “Le Macchine Di Leonardo”",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Lavorare in gruppi e acquisire competenze trasversali",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Corso Cisco: “Introduction To The Internet Of Everything”",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Competizioni Nazionali",
+      "categoria_principale": "Scientifico",
+      "descrizione_e_metodologia": "Competizioni matematiche e digitali",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Digital Video Maker",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Corso Cisco It Essentials",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso Cisco Ccna 1",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Miglioramento competenze digitali",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica E Realtà: “Utilizzo Di Modelli Computazionali Per La Realizzazione Di Applicazioni Reali Sostenibili”",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Creare competenze trasversali",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Rappresentazione Grafica Di Un Oggetto Con L’Uso Del Cad-Inventor Professional",
+      "categoria_principale": "Tecnico",
+      "descrizione_e_metodologia": "Miglioramento competenze di base per la rappresentazione grafica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Romecup 2019",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Realizzazione prototipi robotica",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "“Costruiamo Il Futuro Con Stm32 Open Development Environment”",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Realizzazione prototipi",
+      "target": "Classi aperte parallele"
+    },
+    {
+      "titolo_attivita": "Racconto di esperienze applicative relative ai Progetti PTOF",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "interviste, fotografie, servizi giornalistici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sistema multimediale elettromeccanico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "gestione di input ambientali; gestione di visualizzazione grafica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola: Il Teatro (Triennio)",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Laboratorio sui linguaggi espressivi e multi-segnici.",
+      "target": "Studenti Triennio"
+    },
+    {
+      "titolo_attivita": "Conosci Il Tuo Territorio",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Uscite didattiche per conoscere il territorio.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Quotidiano In Classe Dell’Osservatorio Permanente Giovani Editori",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Migliorare competenze di cittadinanza attiva.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Repubblica@Scuola.It",
+      "categoria_principale": "Comunicazione",
+      "descrizione_e_metodologia": "Sviluppare competenze di cittadinanza attiva.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Staffetta Di Scrittura Creativa – Bimed",
+      "categoria_principale": "Letteraria",
+      "descrizione_e_metodologia": "Esercizio creativo di scrittura.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Ready For Trinity",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Consolidamento attività listening e speaking.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sport A Scuola",
+      "categoria_principale": "Sportiva",
+      "descrizione_e_metodologia": "Pratica di attività sportive.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento In Ingresso",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione dell'istituto.",
+      "target": "Studenti di scuola media"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione opportunità post-diploma.",
+      "target": "Studenti diplomandi"
+    },
+    {
+      "titolo_attivita": "Recupero/Potenziamento Diritto",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorso didattico individualizzato.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Cultura Contro Mafie E Terrorismo",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Crescita sociale e culturale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Viaggio Ed Apprendo",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Migliorare capacità di lavorare in gruppo.",
+      "target": "Studenti primo anno"
+    },
+    {
+      "titolo_attivita": "Alla Scoperta Di Nuceria",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Studio del patrimonio monumentale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cultura, Matematica Ed Architettura",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Migliorare capacità di lavorare in gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Let’S Talk About History!",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Didattica CLIL in storia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Our Roots",
+      "categoria_principale": "Territoriale",
+      "descrizione_e_metodologia": "Ricostruire il passato del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Dipendenze",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Prevenzione dipendenze.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Star Bene Insieme",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Prevenzione bullismo.",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOMM824018\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto I Grado \"G.Marconi-Castiglione Pepoli Mm\" (BOMM824018), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre il periodo 2019/20-2021/22 ed è relativo a una scuola statale situata nel territorio metropolitano della regione Emilia Romagna, provincia di Bologna. L'analisi evidenzia un impegno significativo verso la costruzione di una rete di **partnership** con diversi soggetti del territorio, finalizzato a supportare gli studenti nelle loro scelte formative e professionali. Sebbene non sia presente una sezione dedicata specificamente all'orientamento, si riscontra una diffusa attenzione alle finalità orientative, agli obiettivi di riduzione dell'abbandono scolastico e di sviluppo di competenze per il **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela l'assenza di una sezione specifica all'interno del PTOF dedicata all'orientamento. Nonostante ciò, il documento include diverse attività che rientrano in questa area, suggerendo una sua integrazione trasversale all'interno del piano scolastico.\n\n**2.2 Partnership:**\n\nLa scuola dimostra un forte impegno nella creazione di **partnership** con un ampio ventaglio di soggetti, tra cui **imprese del territorio**, **enti locali**, **associazioni del terzo settore**, **musei**, **istituti pubblici e privati**, **Università**, forze dell'ordine e consulenti esterni. Sono presenti collaborazioni con il **Polo Qualità di Napoli**, l'**Ente Provincia di Salerno**, il **Consorzio Clara**, l'**Ufficio Scolastico Regionale della Campania**, la **Fondazione Mondo Digitale** e l'**ASL**. Questo elevato numero di partner (20 in totale) testimonia la volontà di creare un sistema integrato di supporto per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento, come delineate nel PTOF, si concentrano sullo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, sulla facilitazione delle **transizioni formative** e sul potenziamento delle loro **capacità orientative** per affrontare le opportunità del mondo del lavoro.\n\n**2.4 Obiettivi:**\n\nGli obiettivi strategici del PTOF includono la riduzione dell'**abbandono scolastico**, la promozione della continuità territoriale, il contrasto al fenomeno dei **NEET** e lo sviluppo del **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema previste dal PTOF mirano a favorire il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle attività. Particolare attenzione è rivolta alla creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'utilizzo di metodologie esperienziali, laboratoriali, flessibili e interdisciplinari, con l'obiettivo di stimolare l'apprendimento attivo e la partecipazione degli studenti.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta formativa include opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando le opportunità di scelta e personalizzazione dei percorsi di apprendimento.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la vasta rete di **partnership** instaurata con il territorio, che offre agli studenti numerose opportunità di contatto con il mondo del lavoro e di approfondimento delle proprie **attitudini** e **interessi**. L'attenzione all'inclusione e al supporto alle fragilità rappresenta un ulteriore elemento positivo. L'ampia gamma di attività proposte, tra cui **Alternanza Scuola Lavoro**, **SCUOLA@AZIENDA**, progetti di **innovazione** e iniziative di **orientamento in uscita**, contribuisce a creare un ambiente scolastico dinamico e stimolante.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene le attività orientative siano presenti, la mancanza di una visione strategica unitaria potrebbe limitarne l'efficacia.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di formalizzare un approccio più strutturato all'orientamento, definendo obiettivi specifici, indicatori di performance e modalità di valutazione. Sarebbe opportuno integrare il PTOF con una sezione dedicata all'orientamento, che delinei le strategie e le azioni previste per supportare gli studenti nelle loro scelte formative e professionali.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto \"G.Marconi-Castiglione Pepoli Mm\" dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente formalizzato in una sezione dedicata. La vasta rete di **partnership** e l'attenzione all'inclusione rappresentano punti di forza importanti. Per migliorare l'efficacia delle azioni orientative, si raccomanda di integrare il PTOF con una sezione specifica, definendo obiettivi chiari, indicatori di performance e modalità di valutazione. L'implementazione di queste misure contribuirebbe a garantire un supporto più efficace agli studenti nelle loro scelte formative e professionali, riducendo l'**abbandono scolastico** e promuovendo il **lifelong learning**."
+}

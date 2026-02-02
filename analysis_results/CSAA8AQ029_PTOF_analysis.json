@@ -1,0 +1,206 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSAA8AQ029",
+    "denominazione": "Scuola Dell'Infanzia Piragineti",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Corigliano-Rossano",
+    "anno_ptof": "2025/2028",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "C.Da Piragineti",
+    "cap": "87064",
+    "email": "csic8aq00b@istruzione.it",
+    "pec": "ND",
+    "website": "www.icamarellirossano.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 5,
+      "note": "Presente analisi del contesto per l'inclusione"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "LAC",
+        "Museo in Erba",
+        "Polizia Cantonale",
+        "Croce Rossa",
+        "Università Bocconi",
+        "Università della Svizzera Italiana",
+        "Accademia di Architettura di Mendrisio",
+        "Università dell'Insubria",
+        "ESADE di Barcellona",
+        "University of Dublin",
+        "Savannah College of Art and Design",
+        "European Business School di Londra",
+        "Webster American College",
+        "Edimburgh University",
+        "Luiss Roma",
+        "specialisti esterni (logopedista, ergoterapista, psicologo, neuropsichiatra)"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 2
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 2
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 2
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 1
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Corsi di lingue",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di inglese, francese, tedesco",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Musica",
+      "categoria_principale": "Extracurricolare",
+      "descrizione_e_metodologia": "Corsi di strumento musicale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio assistito",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Supporto pomeridiano per compiti",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiOriento'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Fascicolo informativo via email",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Progetto 'MiAssumo'",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma online",
+      "target": "Studenti classe II e III"
+    },
+    {
+      "titolo_attivita": "Percorso Competenze Trasversali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione Banca d'Italia",
+      "target": "Studenti classe III"
+    },
+    {
+      "titolo_attivita": "Curriculum dello Studente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Piattaforma ministeriale",
+      "target": "Studenti classe IV"
+    },
+    {
+      "titolo_attivita": "Gruppo Visione Giovani",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Lezioni informative Polizia Cantonale",
+      "target": "Liceo I e II"
+    },
+    {
+      "titolo_attivita": "Progetto domotica e robotica",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Installazione sistema operativo, programmazione robotica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con università italiane e straniere",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Presentazione offerte formative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto e supporto",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Colloqui individuali, predisposizione PDP, monitoraggio",
+      "target": "Alunni BES/DSA"
+    },
+    {
+      "titolo_attivita": "Attività di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi di recupero, prove finali",
+      "target": "Alunni con debiti formativi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSAA8AQ029\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Dell'Infanzia Piragineti** (CSAA8AQ029) per il triennio 2025/2028. La scuola, situata nel territorio non metropolitano di **Corigliano-Rossano** (Cosenza, Calabria) e di gestione **statale**, dimostra una buona attenzione all'analisi del contesto, in particolare per quanto riguarda l'inclusione. L'istituto si avvale di un ampio spettro di **partnership** esterne, che spaziano da enti locali come il **LAC** e la **Polizia Cantonale** a prestigiose istituzioni accademiche internazionali come l'**Università Bocconi**, l'**Università della Svizzera Italiana** e l'**ESADE di Barcellona**. Le finalità orientative si concentrano sullo sviluppo di attitudini, interessi e progetti di vita degli studenti, con un'attenzione particolare alle transizioni formative e alla capacità di cogliere le opportunità.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF non prevede una sezione specificamente dedicata all'orientamento, ma presenta un'analisi del contesto che considera l'inclusione, ottenendo un punteggio di 5.\n\n**2.2 Partnership:** La scuola vanta un elevato numero di **partnership** (15), che includono enti, università e professionisti esterni come **logopedisti**, **ergoterapisti**, **psicologi** e **neuropsichiatri**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per l'orientamento degli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate in modo equilibrato, con un punteggio di 3 per ciascuna delle aree considerate: attitudini, interessi, progetto di vita, transizioni formative e capacità di orientarsi nelle opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi orientativi si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (NEET) e sulla promozione del lifelong learning, ottenendo un punteggio di 2 per ciascuna area.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono ben strutturate, con particolare attenzione al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e alla creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. I punteggi variano da 3 a 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sulla flessibilità degli spazi e dei tempi, e sull'interdisciplinarità, con punteggi di 3 per ciascuna area. L'utilizzo di metodologie laboratoriali risulta meno sviluppato, con un punteggio di 1.\n\n**2.7 Opzionali Facoltative:** L'offerta di opzionali facoltative comprende attività culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, con punteggi che variano da 2 a 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle **partnership** esterne, che offrono agli studenti opportunità di apprendimento e di orientamento uniche. L'attenzione all'inclusione e alla creazione di un sistema integrato per la gestione delle fragilità rappresenta un altro elemento positivo. Le attività di orientamento, come il progetto **'MiOriento'**, **'MiAssumo'**, il **Percorso Competenze Trasversali** e il **Curriculum dello Studente**, sono ben definite e mirate a supportare gli studenti nelle diverse fasi del loro percorso formativo. L'offerta di **sportelli di ascolto e supporto** per gli alunni BES/DSA dimostra un impegno concreto verso l'inclusione.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza è la mancanza di una sezione specificamente dedicata all'orientamento all'interno del PTOF. L'utilizzo di metodologie didattiche laboratoriali risulta meno sviluppato rispetto ad altre approcci. Gli obiettivi orientativi, pur essendo ben definiti, potrebbero essere resi più ambiziosi e misurabili.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta di orientamento più organica e integrata nel curriculum scolastico. È necessario potenziare l'utilizzo di metodologie didattiche laboratoriali e sviluppare indicatori di performance per misurare l'efficacia delle azioni orientative.\n\n### 6. Conclusioni\n\nIl PTOF della **Scuola Dell'Infanzia Piragineti** presenta un quadro complessivamente positivo per quanto riguarda l'orientamento. La scuola dimostra una buona consapevolezza delle esigenze degli studenti e un impegno concreto nella creazione di un ambiente di apprendimento inclusivo e stimolante. Il potenziamento delle aree di debolezza identificate consentirebbe di migliorare ulteriormente l'efficacia dell'azione orientativa e di garantire agli studenti un percorso formativo completo e soddisfacente."
+}

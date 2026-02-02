@@ -1,0 +1,286 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FOTD010002",
+    "denominazione": "I.T.C. \"Matteucci\"",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Non Metropolitano",
+    "comune": "Forli'",
+    "anno_ptof": "2022-2025",
+    "provincia": "Forli'-Cesena",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via F.Turati 9",
+    "cap": "47121",
+    "email": "fotd010002@istruzione.it",
+    "pec": "fotd010002@pec.istruzione.it",
+    "website": "www.itematteucci.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "associazioni",
+        "imprese",
+        "studi professionali",
+        "Università di Bologna",
+        "istituzioni locali",
+        "realtà culturale",
+        "realtà imprenditoriale",
+        "FAI",
+        "Enti locali",
+        "Enti di formazione accreditati",
+        "Altre associazioni o cooperative",
+        "Croce Rossa italiana"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con imprese locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "SPORT MANAGEMENT",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Pianificazione e gestione progetti sportivi",
+      "target": "Indirizzo AFM"
+    },
+    {
+      "titolo_attivita": "DEUTSCH IST LEICHT",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso specializzazione lingua tedesca",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "CORSO QUADRIENNALE",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Competenze settore turismo",
+      "target": "Indirizzo Turismo"
+    },
+    {
+      "titolo_attivita": "Visita aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Analisi realtà aziendale del territorio, visita in presenza, incontri online.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri con professionisti, liberi professionisti, agenzie interinali.",
+      "target": "Alunni indirizzo turistico"
+    },
+    {
+      "titolo_attivita": "Stage in azienda",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stage di 2-3 settimane in aziende del territorio.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento in uscita",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri con atenei, agenzie di lavoro, redazione CV.",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Progetti disciplinari e interdisciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione di prove di verifica comuni e attività di recupero.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di integrazione linguistica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Organizzazione di corsi di italiano L2 per studenti stranieri.",
+      "target": "Studenti stranieri/NAI"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Accordo di rete CPIA",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "InRete",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Rete di formazione del personale docente",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Accordo di rete CTS",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Personale scolastico"
+    },
+    {
+      "titolo_attivita": "Progetto Praticamente",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sicurezza nei luoghi di lavoro",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori",
+      "target": "Docenti e ATA"
+    },
+    {
+      "titolo_attivita": "Miglioramento degli apprendimenti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Laboratori, Workshop",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Gestione delle relazioni interne ed esterne",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "DSGA"
+    },
+    {
+      "titolo_attivita": "Emergenza Primo soccorso",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "DSGA"
+    },
+    {
+      "titolo_attivita": "Assistenza per la salute degli alunni",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Gestione nuove procedure amministrative",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Attività in presenza, Formazione on line",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della matematica",
+      "categoria_principale": "Valorizzazione Eccellenze",
+      "descrizione_e_metodologia": "Partecipazione a concorsi",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Certificazione informatica ICDL",
+      "categoria_principale": "Valorizzazione Eccellenze",
+      "descrizione_e_metodologia": "Certificazione informatica",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Progetti Sportivi",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Centro sportivo scolastico e tornei",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Transizione ecologica e culturale",
+      "categoria_principale": "Transizione",
+      "descrizione_e_metodologia": "Progetti educazione salute, ambientale",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FOTD010002\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.C. “Matteucci” di Forlì, codice scuola FOTD010002, per il triennio 2022-2025. L'istituto, di tipo tecnico e appartenente al secondo grado, opera in un contesto territoriale non metropolitano della regione Emilia Romagna. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. La valutazione complessiva indica un impegno significativo verso l'orientamento, con punteggi elevati in quasi tutte le aree considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata:** Il PTOF prevede una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3. Questo dimostra una consapevolezza dell'importanza di strutturare un'offerta orientativa coerente e ben definita.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership, con un punteggio di 5 e la collaborazione di ben 12 partner, tra cui **associazioni**, **imprese**, **studi professionali**, l'**Università di Bologna**, **istituzioni locali**, **realtà culturale** e **imprenditoriale**, il **FAI**, **Enti locali**, **Enti di formazione accreditati**, **Altre associazioni o cooperative** e la **Croce Rossa italiana**. Questa vasta rete testimonia un forte radicamento nel territorio e una volontà di offrire agli studenti opportunità di contatto con il mondo del lavoro e del sapere.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono chiaramente definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle capacità di affrontare le **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le **opportunità** offerte dal contesto socio-economico. Tutte queste aree hanno ottenuto un punteggio di 5, evidenziando una visione olistica dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a **ridurre l'abbandono** scolastico, a favorire la **continuità territoriale** degli studenti, a **contrastare il fenomeno NEET** (Not in Education, Employment or Training), e a promuovere il **lifelong learning**. Anche in questo caso, tutti gli obiettivi hanno ricevuto un punteggio di 5.\n\n**2.5 Azioni di Sistema:** L'istituto implementa azioni di sistema volte al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori**, al **monitoraggio delle azioni** intraprese e alla creazione di un **sistema integrato di inclusione e supporto alle fragilità**. Ogni azione ha ottenuto un punteggio di 5, dimostrando un approccio sistemico e integrato all'orientamento.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'utilizzo di esperienze dirette degli studenti, sull'impiego di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi**, e sull'approccio **interdisciplinare**. L'esperienza studentica e la flessibilità didattica ottengono un punteggio di 5, mentre la didattica laboratoriale un punteggio di 3.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative è ampia e diversificata, comprendendo opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con punteggio 5.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la presenza di una sezione dedicata, la vasta rete di **partnership** attivate, la chiarezza delle **finalità** e degli **obiettivi**, l'approccio sistemico e integrato delle **azioni** implementate, e l'ampia offerta di attività **opzionali**. Particolarmente rilevante è l'attenzione rivolta allo sviluppo delle **competenze trasversali** e alla preparazione degli studenti per il mondo del lavoro. Le attività registrate, come il **PCTO**, **SPORT MANAGEMENT**, **DEUTSCH IST LEICHT**, **CORSO QUADRIENNALE**, **Visita aziendale**, **Incontri con esperti**, **Stage in azienda** e **Orientamento in uscita**, confermano l'impegno concreto dell'istituto in questa direzione.\n\n### 4. Aree di Debolezza\n\nL'unica area che potrebbe beneficiare di un ulteriore potenziamento è la didattica **laboratoriale**, che ha ottenuto un punteggio di 3. Sebbene l'istituto utilizzi metodologie didattiche innovative e flessibili, un maggiore investimento in laboratori e attività pratiche potrebbe arricchire ulteriormente l'offerta orientativa.\n\n### 5. Gap Analysis\n\nNon emergono gap significativi. Il PTOF dimostra una solida pianificazione e un'implementazione efficace delle attività orientative. L'istituto sembra essere ben consapevole delle esigenze del territorio e delle aspettative degli studenti e delle famiglie.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.T.C. “Matteucci” di Forlì presenta una sezione dedicata all'orientamento ben strutturata e coerente con le finalità e gli obiettivi dell'istituto. La vasta rete di **partnership**, l'approccio sistemico e integrato delle **azioni** implementate, e l'ampia offerta di attività **opzionali** rappresentano i principali punti di forza del PTOF. L'istituto dimostra un forte impegno verso l'orientamento e la preparazione degli studenti per il futuro, contribuendo attivamente allo sviluppo del territorio."
+}

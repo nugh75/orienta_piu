@@ -1,0 +1,194 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMEE8GS032",
+    "denominazione": "Monte Arsiccio",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2022/2023 – 2023/2024 – 2024/2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Ciampoli 21",
+    "cap": "00135",
+    "email": "rmic8gs00t@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.icoctavia.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 0,
+      "note": "Nessuna sezione dedicata esplicita"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Banca d’Italia",
+        "Opera Nazionale Montessori",
+        "Docendum",
+        "Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 1
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 1
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 1
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 1
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 1
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 2
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 2
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 1
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Laboratorio di Coding per l’Infanzia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Laboratorio con Docendum",
+      "target": "Bambini"
+    },
+    {
+      "titolo_attivita": "Incontri di sostegno alla genitorialità",
+      "categoria_principale": "Supporto Genitori",
+      "descrizione_e_metodologia": "Incontri su tematiche educative",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Musica in movimento",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Scienze",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Educazione Motoria",
+      "categoria_principale": "Motoria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Pittura",
+      "categoria_principale": "Artistica",
+      "descrizione_e_metodologia": "Aula",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di Lettura",
+      "categoria_principale": "Letteraria",
+      "descrizione_e_metodologia": "Laboratorio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio in lingua cinese",
+      "categoria_principale": "Lingue",
+      "descrizione_e_metodologia": "Spazio e docente specifici",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Laboratorio di educazione alimentare",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Pediatra e cuochi",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Questionario di soddisfazione genitori",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario digitale per rilevare la percezione del raggiungimento degli obiettivi",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Questionario di gradimento personale",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Questionario online per valutare la soddisfazione del personale",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "LEAD (Legami Educativi a Distanza)",
+      "categoria_principale": "Didattica a distanza",
+      "descrizione_e_metodologia": "Utilizzo di mail, audio, video, chat, piattaforme digitali per mantenere il contatto durante assenze",
+      "target": "Bambini e famiglie"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMEE8GS032\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria **Monte Arsiccio** (RMEE8GS032) per il triennio 2022/2023 – 2023/2024 – 2024/2025. L'istituto, situato nel territorio metropolitano di Roma, si configura come una scuola statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità, gli obiettivi, le azioni intraprese, l'offerta didattica orientativa e le attività opzionali. In generale, il PTOF dimostra un impegno nella realizzazione di attività laboratoriali e di supporto alla genitorialità, con un focus sull'inclusione e la personalizzazione dell'offerta formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non prevede una sezione esplicita dedicata all'orientamento, come evidenziato dal punteggio pari a 0.\n\n**2.2 Partnership:** La scuola ha sviluppato un network di **partnership** con diversi soggetti, tra cui **Banca d’Italia**, **Opera Nazionale Montessori**, **Docendum** e la **Rete di Scopo di Sviluppo delle Scuole Pubbliche con Differenziazione di Metodo Montessori**. Il numero di partner attivi è pari a 4, ottenendo un punteggio di 3.\n\n**2.3 Finalità:** Le finalità del PTOF, in relazione all'orientamento, mostrano un buon livello di attenzione alle attitudini e agli interessi degli studenti (punteggio 3 per entrambi). L'attenzione al **progetto di vita** è discreta (punteggio 2), mentre risulta meno sviluppata la considerazione delle **transizioni formative** e delle capacità orientative per cogliere le opportunità (punteggio 1 per entrambi).\n\n**2.4 Obiettivi:** Gli obiettivi definiti nel PTOF si concentrano sulla riduzione dell'abbandono scolastico, sulla continuità territoriale, sul contrasto alla dispersione scolastica (fenomeno **NEET**) e sulla promozione del **lifelong learning**. Tutti questi obiettivi hanno ottenuto un punteggio di 1.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità. Il rapporto scuola-genitori e il sistema integrato per l'inclusione hanno ottenuto un punteggio di 3, mentre le altre azioni un punteggio di 2 o 1.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale (punteggio 4), sull'utilizzo di laboratori (punteggio 3), sulla flessibilità degli spazi e dei tempi (punteggio 3) e sull'approccio interdisciplinare (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni di tipo culturale, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive. Le opzionali laboratoriali ed espressive e quelle ludiche e ricreative hanno ottenuto un punteggio di 3, mentre le altre un punteggio di 1.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nell'impegno verso la didattica esperienziale e laboratoriale, nella creazione di un network di **partnership** con enti esterni e nella valorizzazione del rapporto scuola-genitori. L'attenzione all'inclusione e alla gestione delle fragilità rappresenta un ulteriore elemento positivo. L'attività **Laboratorio di Coding per l’Infanzia** e il progetto **LEAD (Legami Educativi a Distanza)** dimostrano una proattività nell'utilizzo di strumenti innovativi e nella gestione delle emergenze.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento rappresenta un punto debole del PTOF. Inoltre, le finalità relative al **progetto di vita** e alle **transizioni formative** necessitano di maggiore attenzione. Gli obiettivi definiti, pur lodevoli, appaiono generici e poco specifici.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella mancanza di una visione strategica integrata dell'orientamento, che dovrebbe essere trasversale a tutte le dimensioni del PTOF. È necessario definire obiettivi specifici e misurabili, individuare indicatori di performance e implementare azioni mirate per supportare gli studenti nella costruzione del loro **progetto di vita** e nelle **transizioni formative**.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria **Monte Arsiccio** presenta un quadro complessivamente positivo, con un impegno significativo verso l'innovazione didattica e l'inclusione. Tuttavia, per potenziare l'efficacia dell'azione orientativa, è necessario colmare il divario esistente attraverso la definizione di una sezione dedicata, la specificazione degli obiettivi e l'implementazione di azioni mirate. L'attività **Questionario di soddisfazione genitori** e **Questionario di gradimento personale** sono strumenti utili per il monitoraggio e la valutazione dell'efficacia delle azioni intraprese."
+}

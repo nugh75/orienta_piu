@@ -1,0 +1,223 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZEE82101A",
+    "denominazione": "Primaria - I.C. Laurenzana",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Laurenzana",
+    "anno_ptof": "2022/2023- 2024/2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Prato",
+    "cap": "85014",
+    "email": "pzic821008@istruzione.it",
+    "pec": "ND",
+    "website": "www.icalfierilaurenzana.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "musei",
+        "istituti pubblici",
+        "istituti privati",
+        "associazioni",
+        "EE. LL.",
+        "Ufficio di Piano",
+        "Protezione Civile",
+        "Ufficio di Istruzione del Comune di Montesarchio",
+        "Scuole di grado superiore",
+        "ASL",
+        "Comune",
+        "Museo del Sannio Caudino",
+        "Istituti Superiori",
+        "Biblioteche",
+        "Aziende"
+      ],
+      "partnership_count": 14
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di recupero in Italiano, Matematica e Inglese",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività di recupero per alunni con difficoltà",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Progetto di Francese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Insegnamento del francese",
+      "target": "Alunni classi quinte primaria"
+    },
+    {
+      "titolo_attivita": "Progetto di Latino",
+      "categoria_principale": "Lingue classiche",
+      "descrizione_e_metodologia": "Insegnamento del latino",
+      "target": "Alunni classi terze secondaria"
+    },
+    {
+      "titolo_attivita": "Progetto Scuola e Territorio",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Attività extracurricolari",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Scuola InCanto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori musicali con Teatro San Carlo",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Progetto di Accoglienza, Continuità e Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Scambio informazioni, visite scuole, incontri informativi",
+      "target": "Alunni, genitori"
+    },
+    {
+      "titolo_attivita": "Legalità e Cittadinanza Attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Progetto trasversale",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Visite guidate al Museo del Sannio Caudino",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate e laboratori didattici.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola-Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Convenzione con I.I.S. Fermi per tirocini.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Interventi mirati all’interno delle classi",
+      "categoria_principale": "Autostima",
+      "descrizione_e_metodologia": "Attività volte al miglioramento dell’autostima e disponibilità ad apprendere",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Consulenza didattica",
+      "categoria_principale": "DSA",
+      "descrizione_e_metodologia": "Consulenza per situazioni con sospetti casi di DSA",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Sulle note di Mariele",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratori musicali e corsi di formazione per docenti",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Coro",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Performance di musica classica in teatri",
+      "target": "Scuola Secondaria"
+    },
+    {
+      "titolo_attivita": "Scuola In Canto",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Esecuzione di arie d'opera con il Teatro San Carlo",
+      "target": "Scuola Primaria e Secondaria"
+    },
+    {
+      "titolo_attivita": "Percorsi di avvio alla pratica strumentale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Studenti del Liceo Musicale 'Lombardi' come tutor",
+      "target": "Scuola Primaria e Secondaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZEE82101A\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza il Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Laurenzana (PZEE82101A), con particolare attenzione alla dimensione dell'orientamento. Il PTOF copre il periodo 2022/2023 - 2024/2025 e si configura come un documento ben strutturato, con una chiara attenzione alla partnership territoriale e alla progettazione di interventi mirati a supportare gli studenti nei loro percorsi di crescita e transizione. L'istituto, di ordine e grado primario, situato nel territorio non metropolitano della regione Basilicata, dimostra un impegno significativo verso l'inclusione, la prevenzione della dispersione scolastica e la promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** Il PTOF presenta una sezione dedicata all'orientamento, evidenziando l'importanza attribuita a questa dimensione.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership con diversi soggetti esterni, tra cui **musei**, **istituti pubblici e privati**, **associazioni**, **EE. LL.**, l'**Ufficio di Piano**, la **Protezione Civile**, l'**Ufficio di Istruzione del Comune di Montesarchio**, **Scuole di grado superiore**, **ASL**, il **Comune**, il **Museo del Sannio Caudino**, **Istituti Superiori**, **Biblioteche** e **Aziende**. Questa ricchezza di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e per la realizzazione di attività di orientamento efficaci. Sono state individuate ben 14 partnership.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** degli studenti, a supportare il loro **progetto di vita**, a facilitare le **transizioni formative** e a fornire loro le **capacità orientative** necessarie per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico**, la promozione della **continuità territoriale**, il contrasto al fenomeno dei **NEET** e la valorizzazione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** L'istituto prevede azioni di sistema volte a favorire il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, mentre quelle **ludiche, ricreative, di volontariato** e **sportive** risultano meno sviluppate.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la forte attenzione alla dimensione dell'orientamento, supportata da una vasta rete di partnership territoriali. L'istituto dimostra una chiara volontà di offrire agli studenti un supporto completo per la loro crescita personale e professionale, attraverso la progettazione di attività mirate e la collaborazione con diversi soggetti esterni. L'impegno verso l'inclusione e la prevenzione della dispersione scolastica rappresenta un ulteriore elemento positivo. Attività come **Progetto di Accoglienza, Continuità e Orientamento** e **Visite guidate al Museo del Sannio Caudino** sono esempi concreti di questo impegno.\n\n### 4. Aree di Debolezza\n\nUn'area di debolezza riscontrata è la scarsa offerta di attività opzionali e facoltative di tipo ludico-ricreativo, di volontariato e sportivo. Sebbene siano presenti opzioni culturali e laboratoriali, sarebbe auspicabile un ampliamento dell'offerta per soddisfare le diverse esigenze e interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda l'equilibrio tra le diverse tipologie di attività opzionali. È necessario potenziare l'offerta di attività ludiche, ricreative, di volontariato e sportive per garantire una formazione a 360 gradi e favorire lo sviluppo armonico degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.C. Laurenzana si presenta come un documento solido e ben strutturato, con una chiara attenzione alla dimensione dell'orientamento. La vasta rete di partnership territoriali e l'impegno verso l'inclusione rappresentano punti di forza significativi. Pur riconoscendo alcune aree di debolezza, il PTOF dimostra una forte volontà di offrire agli studenti un supporto completo per il loro percorso di crescita e transizione. Attività come **Scuola InCanto**, **Sulle note di Mariele** e **Alternanza Scuola-Lavoro** testimoniano l'impegno dell'istituto verso l'innovazione e la qualità dell'offerta formativa."
+}

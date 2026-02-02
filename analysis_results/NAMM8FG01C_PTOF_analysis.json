@@ -1,0 +1,328 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAMM8FG01C",
+    "denominazione": "R. Stanziale - S.Giorgio",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "San Giorgio A Cremano",
+    "anno_ptof": "2025-2028",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cappiello 47",
+    "cap": "80046",
+    "email": "naic8fg00b@istruzione.it",
+    "pec": "naic8fg00b@pec.istruzione.it",
+    "website": "www.icquartostanziale.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti attività di orientamento, manca una sezione dedicata e strutturata con un capitolo specifico sull'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Regione Campania",
+        "Città Metropolitana di Napoli",
+        "Comune di San Giorgio a Cremano",
+        "ASL Napoli 1 e Napoli 3",
+        "Associazioni territoriali",
+        "Cooperative",
+        "Parrocchie",
+        "Ente Parco Nazionale del Vesuvio",
+        "Fondazione ente Ville Vesuviane",
+        "Citta’ delle bambine e dei bambini",
+        "servizi sanitari",
+        "servizi sociali",
+        "servizi culturali",
+        "servizi sportivi",
+        "enti e associazioni del territorio",
+        "ASL",
+        "Centri territoriali",
+        "INDIRE"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate a Ville Vesuviane",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione visite guidate per valorizzare il patrimonio storico-artistico locale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Città delle Bambine e dei Bambini",
+      "categoria_principale": "Educativa",
+      "descrizione_e_metodologia": "Partecipazione alle iniziative del progetto per promuovere la cittadinanza attiva.",
+      "target": "Studenti della scuola primaria"
+    },
+    {
+      "titolo_attivita": "Visite al patrimonio culturale",
+      "categoria_principale": "Cittadinanza e Legalità",
+      "descrizione_e_metodologia": "Visite guidate, cura di spazi verdi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di educazione alla sostenibilità",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Attività pratiche, sensibilizzazione",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori STEAM",
+      "categoria_principale": "Competenze STEAM",
+      "descrizione_e_metodologia": "Approccio pratico e interdisciplinare",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di matematica",
+      "categoria_principale": "Potenziamento competenze base",
+      "descrizione_e_metodologia": "Laboratori di problem solving, geometria manipolativa, misure, statistica, tecnologia, modellizzazione, giochi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di italiano",
+      "categoria_principale": "Potenziamento competenze base",
+      "descrizione_e_metodologia": "Comprensione del testo, strategie di lettura, osservazione linguistica, manipolazione testuale, analisi errori, lessico",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori di inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Listening Labs, Vocabulary Building Lab, Grammar in Action, Micro-presentation, Story telling, CLIL",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto \"Educare alla sostenibilità\"",
+      "categoria_principale": "Competenze chiave europee",
+      "descrizione_e_metodologia": "Whole School Approach (WSA), valutazione scuola, mappatura pratiche, formazione personale, azioni, connessioni territorio",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Progetto \"Stare bene a scuola\"",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Carta del benessere, educazione socio-emotiva, ambienti sicuri, didattica esperienziale",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Laboratori di inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività creative per potenziare integrazione",
+      "target": "Studenti con BES"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Apprendimento, approfondimento, integrazione esperienze culturali",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Campo scuola",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Conoscenza territorio (culturale, sociale, ambientale)",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Laboratori di Storytelling e Gaming",
+      "categoria_principale": "Linguistica",
+      "descrizione_e_metodologia": "Scrivere e parlare di sé stessi per sviluppare capacità comunicative.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Potenziamento e valorizzazione delle attività motorie",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Campionati studenteschi per sviluppo armonico della personalità.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sviluppare una didattica improntata sui principi della mindfulness",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Integrare i principi della mindfulness nel curricolo verticale.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Introduzione alle competenze di cittadinanza",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Sensibilizzare i bambini ai diritti e doveri.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Educazione alla sostenibilità - progetto orto didattico",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Agricoltura sostenibile e sana alimentazione.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratori d’inclusione",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Attività creative per scambio e aggregazione, consolidamento autonomie.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "GLO",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Riunioni con ASL, docenti, genitori per PEI.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Tavoli tecnici",
+      "categoria_principale": "Prevenzione",
+      "descrizione_e_metodologia": "Prevenire dispersione scolastica, piani organizzativi/didattici/relazionali.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Educativa Territoriale",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Percorsi condivisi con Comune e servizi sociali.",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti ASL",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Incontri periodici per valutazione e supporto",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Tavoli tecnici con operatori sociali",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Definizione piani personalizzati",
+      "target": "Alunni a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo classe I",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza, conoscenza di sé, metodo di studio.",
+      "target": "Studenti classe I"
+    },
+    {
+      "titolo_attivita": "Moduli di orientamento formativo classe II",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Conoscenza di sé, interessi, mondo del lavoro.",
+      "target": "Studenti classe II"
+    },
+    {
+      "titolo_attivita": "Laboratori di Coding",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Attività pratiche per apprendere i fondamenti della programmazione",
+      "target": "Scuola dell'Infanzia e Primaria"
+    },
+    {
+      "titolo_attivita": "Laboratori STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Esplorazione di temi scientifici attraverso attività pratiche",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Avanguardie Educative",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Mindfulness a Scuola",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Laboratori, workshop, ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Personalizzazione e Valorizzazione Talenti",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori, workshop, ricerca-azione",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Attiva",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Laboratori, workshop",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAMM8FG01C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola \"R. Stanziale - S.Giorgio\" (codice NAMM8FG01C) per il triennio 2025-2028. La scuola, di I Grado, situata nel territorio metropolitano di San Giorgio A Cremano (Napoli, Campania), si presenta come un istituto statale con un'attenzione particolare alla collaborazione con il territorio e i servizi presenti. L'analisi evidenzia un impegno significativo verso la realizzazione di attività orientative, sebbene manchi una strutturazione dedicata in un capitolo specifico del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'assenza di una sezione dedicata e strutturata all'orientamento rappresenta un punto critico, nonostante la presenza di diverse attività in tal senso.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, che include **Regione Campania**, **Città Metropolitana di Napoli**, **Comune di San Giorgio a Cremano**, **ASL Napoli 1 e Napoli 3**, diverse **associazioni territoriali**, **cooperative**, **parrocchie**, l'**Ente Parco Nazionale del Vesuvio**, la **Fondazione ente Ville Vesuviane**, **Citta’ delle bambine e dei bambini**, oltre a **servizi sanitari**, **servizi sociali**, **servizi culturali** e **servizi sportivi**. La collaborazione con **INDIRE** è particolarmente rilevante. Il numero di partner attivi è elevato, dimostrando una forte integrazione con il contesto locale.\n\n**2.3 Finalità:** Le finalità del PTOF in relazione all'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Gli obiettivi delineati sono ambiziosi e mirano a **ridurre l'abbandono scolastico**, a garantire la **continuità territoriale** del percorso formativo, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. L'obiettivo di contrastare i NEET, tuttavia, risulta meno prioritario rispetto agli altri.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete e includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su un approccio esperienziale, con particolare attenzione all'apprendimento \"da esperienza\" degli studenti. La **flessibilità degli spazi e dei tempi** e l'utilizzo di metodologie **interdisciplinari** sono elementi positivi. L'utilizzo della **didattica laboratoriale** appare meno sviluppato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **sportive** e di **volontariato**. Le attività **ludiche e ricreative** sembrano meno rappresentate.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte rete di **partnership** con il territorio, nella chiarezza delle **finalità** orientative, nella completezza delle **azioni di sistema** e nell'approccio esperienziale della **didattica orientativa**. L'impegno verso l'**inclusione** e il benessere degli studenti è evidente nelle numerose attività dedicate.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dall'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, la **didattica laboratoriale** potrebbe essere potenziata e l'offerta di attività **ludiche e ricreative** ampliata.\n\n### 5. Gap Analysis\n\nIl divario principale riguarda la formalizzazione dell'orientamento come parte integrante e visibile del PTOF. Sebbene le attività siano presenti e ben strutturate, la mancanza di un capitolo dedicato rischia di marginalizzare l'importanza strategica dell'orientamento nel percorso formativo degli studenti.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"R. Stanziale - S.Giorgio\" dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un approccio didattico innovativo. Tuttavia, per massimizzare l'efficacia delle azioni intraprese, si raccomanda di strutturare una sezione dedicata all'orientamento, integrando le attività esistenti in un quadro strategico coerente e ben definito. Questo consentirebbe di valorizzare appieno il potenziale degli studenti e di prepararli al meglio per le sfide del futuro. Le attività come **Visite guidate a Ville Vesuviane**, **Progetto Città delle Bambine e dei Bambini**, **Laboratori STEAM** e **Progetto \\\"Stare bene a scuola\\\"** rappresentano esempi concreti di un approccio orientativo efficace e integrato."
+}

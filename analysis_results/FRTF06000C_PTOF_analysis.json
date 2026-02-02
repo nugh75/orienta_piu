@@ -1,0 +1,316 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "FRTF06000C",
+    "denominazione": "I.T.I.S.\"M.O.V.M.Don Morosini\" Ferentino",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Non Metropolitano",
+    "comune": "Ferentino",
+    "anno_ptof": "2022-2025",
+    "provincia": "Frosinone",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Casilina",
+    "cap": "03013",
+    "email": "frtf06000c@istruzione.it",
+    "pec": "frtf06000c@pec.istruzione.it",
+    "website": "www.itismorosini.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 7,
+      "note": "Presente sezione dedicata"
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "aziende",
+        "Comune",
+        "Enti Locali",
+        "enti locali",
+        "associazioni genitori",
+        "associazioni studenti",
+        "famiglie",
+        "altre scuole",
+        "enti",
+        "associazioni del territorio",
+        "servizi sociali",
+        "servizi sanitari",
+        "associazioni del terzo settore",
+        "comunità locali",
+        "Unione Europea",
+        "Soggetti esterni",
+        "AIDAM",
+        "Italia scuola"
+      ],
+      "partnership_count": 16
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 6
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage aziendali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le competenze trasversali e l’orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Migliorare il metodo di studio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Revisione curricolo, prove oggettive, corsi di recupero",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Migliorare esiti Prove Invalsi",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Percorsi didattici innovativi e laboratoriali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziare Competenze Chiave Europee",
+      "categoria_principale": "Competenze",
+      "descrizione_e_metodologia": "Progettazione unità di apprendimento, certificazioni",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi di mentoring e orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accompagnamento studenti fragili, rafforzamento motivazionale e disciplinare.",
+      "target": "Studenti fragili"
+    },
+    {
+      "titolo_attivita": "Percorsi di potenziamento competenze base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Lavoro di recupero e consolidamento conoscenze in piccoli gruppi.",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di orientamento per genitori",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Incontri per coinvolgere le famiglie e favorire la partecipazione.",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Percorsi formativi e laboratoriali co-curriculari",
+      "categoria_principale": "Didattica Innovativa",
+      "descrizione_e_metodologia": "Didattica laboratoriale integrata, motivazione all'apprendimento.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Certificazione Cambridge",
+      "categoria_principale": "Potenziamento competenze linguistiche",
+      "descrizione_e_metodologia": "Preparazione esami B1, B2, C1. Svolgimento esami.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Erasmus + \"Green is our vocational colour\"",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Mobilità studenti e docenti in Francia e Spagna. Prototipazione.",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Progetti eTwinning",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Progetto \"Exploring the European Way of Life\".",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Recupero e potenziamento",
+      "descrizione_e_metodologia": "Supporto individualizzato e in piccolo gruppo per alunni con BES",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto psicologico",
+      "categoria_principale": "Benessere",
+      "descrizione_e_metodologia": "Colloqui individuali e di gruppo per supporto psicologico",
+      "target": "Alunni, genitori, insegnanti"
+    },
+    {
+      "titolo_attivita": "Scuola in ospedale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Didattica a distanza per alunni ospedalizzati",
+      "target": "Alunni ospedalizzati"
+    },
+    {
+      "titolo_attivita": "Formazione del personale",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione del personale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Attività didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività didattiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di formazione sull’educazione alle differenze",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Prevenzione e contrasto del disagio",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corsi attinenti alle metodologie didattiche collaborative",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Lavorare per competenze",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Competenze digitali",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Utilizzo LIM e software",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Formazione sulla privacy",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Lgs. 108/2018",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "Cinema Al Cinema",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Visione film e spettacoli teatrali per sensibilizzazione tematiche sociali.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Potenziamento Linguistico",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Certificazioni Trinity/Cambridge. Corsi extracurriculari.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Giochi Morosini",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Giochi di logica/matematica per interesse verso l'istituto.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Gara Nazionale Studenti Costruzioni Aeronautiche",
+      "categoria_principale": "Competenze Professionali",
+      "descrizione_e_metodologia": "Gara nazionale per studenti del corso di costruzioni aeronautiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Lettura",
+      "categoria_principale": "Competenze Linguistiche",
+      "descrizione_e_metodologia": "Sensibilizzazione alla lettura con incontro con l'autore.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Settimana Bianca: Studio E Sport",
+      "categoria_principale": "Discipline Motorie",
+      "descrizione_e_metodologia": "Attività sportiva (sci) e formativa.",
+      "target": "Classi aperte verticali"
+    },
+    {
+      "titolo_attivita": "Progetto Continuita’ E Orientamento Nelle Scuole Secondarie Di I Grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Attività di orientamento con scuole medie.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Eccellenze",
+      "categoria_principale": "Valorizzazione del Merito",
+      "descrizione_e_metodologia": "Percorso mirato alla valorizzazione del merito.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Orientamento Percorso Di Secondo Livello (Corso Serale)",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Orientamento per studenti lavoratori.",
+      "target": "Gruppi classe"
+    }
+  ],
+  "narrative": "# Analisi del PTOF FRTF06000C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.T.I.S.\"M.O.V.M.Don Morosini\" di Ferentino (FRTF06000C) per il triennio 2022-2025. L'istituto, di tipo tecnico e afferente al secondo grado, si colloca in un contesto territoriale non metropolitano della regione Lazio. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi stabiliti, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un'attenzione significativa all'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate.\n\n### 2. Analisi Dimensionale\n\n**2.1 Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 7, indicando un impegno formale e strutturato in questa area.\n\n**2.2 Partnership:** L'istituto ha sviluppato un network di **partnership** ampio e diversificato, comprendendo **aziende**, **Comune**, **Enti Locali**, **associazioni genitori**, **associazioni studenti**, **famiglie**, **altre scuole**, **enti**, **associazioni del territorio**, **servizi sociali**, **servizi sanitari**, **associazioni del terzo settore**, **comunità locali**, **Unione Europea**, **Soggetti esterni**, **AIDAM** e **Italia scuola**. Il numero di partner (16) suggerisce una forte volontà di collaborazione e di apertura verso il territorio.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti, facilitando le **transizioni formative** e fornendo loro le **capacità orientative** necessarie per affrontare le opportunità future. Ogni finalità ha ottenuto un punteggio di 6.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico** (punteggio 6), sulla continuità con il **territorio** (punteggio 5), sul contrasto al fenomeno **NEET** (punteggio 4) e sulla promozione del **lifelong learning** (punteggio 5).\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per implementare l'orientamento includono il **coordinamento dei servizi** (punteggio 6), il **dialogo tra docenti e studenti** (punteggio 6), il **rapporto scuola-genitori** (punteggio 6), il **monitoraggio delle azioni** (punteggio 5) e la creazione di un **sistema integrato di inclusione e fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico all'orientamento si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 6), sulla **didattica laboratoriale** (punteggio 5), sulla **flessibilità degli spazi e dei tempi** (punteggio 5) e sull'**interdisciplinarità** (punteggio 6).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 4.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nella presenza di una sezione dedicata, nell'ampio network di **partnership** attivate, nella chiarezza delle **finalità** e nella varietà delle **azioni** intraprese. L'istituto dimostra un impegno concreto nel supportare gli studenti nello sviluppo delle loro **competenze** e nella costruzione del loro **futuro professionale**. Le attività registrate, come **PCTO** (sia stage aziendali che per le competenze trasversali), **Percorsi di mentoring e orientamento** per studenti fragili, e i **Percorsi di orientamento per genitori** evidenziano un approccio olistico all'orientamento.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza del PTOF si concentrano principalmente sugli obiettivi di contrasto al fenomeno **NEET** (punteggio 4) e sull'offerta di attività opzionali (punteggio 4). Potrebbe essere necessario rafforzare le azioni mirate a prevenire la dispersione scolastica e a favorire l'inserimento lavorativo dei giovani. Inoltre, l'offerta di attività opzionali potrebbe essere ampliata e diversificata per rispondere meglio agli interessi e alle esigenze degli studenti.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre gli obiettivi di contrasto al fenomeno **NEET** in azioni concrete e misurabili. Sebbene il PTOF preveda diverse attività di orientamento, è importante valutare l'efficacia di tali azioni nel prevenire l'abbandono scolastico e nel favorire l'inserimento lavorativo dei giovani. Un'analisi più approfondita dei dati relativi alla dispersione scolastica e all'occupazione giovanile potrebbe fornire indicazioni utili per definire strategie più efficaci.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.T.I.S.\"M.O.V.M.Don Morosini\" di Ferentino dimostra un'attenzione significativa all'orientamento, con punteggi generalmente buoni nelle diverse dimensioni considerate. L'istituto ha sviluppato un network di **partnership** ampio e diversificato, ha definito finalità chiare e ha implementato diverse azioni per supportare gli studenti nello sviluppo delle loro **competenze** e nella costruzione del loro **futuro professionale**. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per migliorare l'offerta formativa e garantire a tutti gli studenti le opportunità necessarie per realizzare il loro potenziale. Attività come **Progetto Erasmus +** e la **Certificazione Cambridge** dimostrano l'impegno verso l'innovazione e l'internazionalizzazione."
+}

@@ -1,0 +1,220 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCMM87402C",
+    "denominazione": "San Martino",
+    "tipo_scuola": "I Grado",
+    "ordine_grado": "I Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Taurianova",
+    "anno_ptof": "2016/2019",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giovanni Xxiii",
+    "cap": "89029",
+    "email": "rcic87400a@istruzione.it",
+    "pec": "rcic87400a@pec.istruzione.it",
+    "website": "www.icsofiaalessio-contestabile.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 2,
+      "note": "Presente sezione dedicata all'orientamento (pag. 51)"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Associazioni",
+        "Servizi socio-sanitari",
+        "MIUR",
+        "CONI",
+        "Comune di Taurianova",
+        "USL",
+        "istituzioni",
+        "enti locali",
+        "Istituto di Istruzione Superiore “E.Fermi” di Bagnara Calabra",
+        "Istituto Comprensivo “Francesco Jerace” di Polistena",
+        "I. C. di Rizziconi",
+        "IIS “Severi-Guerrisi” di Gioia Tauro"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 2
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 2
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite guidate e viaggi di istruzione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite guidate e viaggi di istruzione per ampliare gli orizzonti degli studenti.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso a indirizzo musicale",
+      "categoria_principale": "Arricchimento Offerta Formativa",
+      "descrizione_e_metodologia": "Offerta di un corso a indirizzo musicale per sviluppare le capacità musicali degli studenti.",
+      "target": "Studenti interessati"
+    },
+    {
+      "titolo_attivita": "La Sicurezza è un diritto",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Percorsi formativi interdisciplinari sulla salute e sicurezza",
+      "target": "Tutti gli alunni"
+    },
+    {
+      "titolo_attivita": "Frutta nella scuola",
+      "categoria_principale": "Alimentazione",
+      "descrizione_e_metodologia": "Competenze civiche e linguistico-espressive",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "The ancient Romans vs the ancient Greeks!",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Approccio CLIL",
+      "target": "Classe quinta scuola primaria"
+    },
+    {
+      "titolo_attivita": "Sport di classe",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Promozione valori educativi dello sport",
+      "target": "Alunni classi 4 e 5 scuola primaria"
+    },
+    {
+      "titolo_attivita": "Cittadini per la vita",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Migliorare i rapporti interpersonali",
+      "target": "Tutte le classi scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Tecnologia e informatica",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Migliorare le competenze informatiche",
+      "target": "Tutte le classi scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Laboratori orientativi con Scuole Secondarie di II Grado",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori e riflessioni sul futuro formativo",
+      "target": "Alunni classi Terze Secondaria I Grado"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Visite guidate",
+      "descrizione_e_metodologia": "Visite a musei, centri storici",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Protocollo D’Intesa Con Il Comune Di Taurianova",
+      "categoria_principale": "Collaborazione Territoriale",
+      "descrizione_e_metodologia": "Programmazione e realizzazione di un’offerta formativa rispondente alle esigenze della comunità locale.",
+      "target": "Comunità locale, studenti"
+    },
+    {
+      "titolo_attivita": "Accordo Di Partenariato Con Il Comune Di Taurianova",
+      "categoria_principale": "Servizio Civile",
+      "descrizione_e_metodologia": "Percorsi laboratoriali per la prevenzione del disagio giovanile e supporto alla disabilità.",
+      "target": "Giovani, persone con disabilità"
+    },
+    {
+      "titolo_attivita": "Accordo Di Rete Provinciale “Service Learning”",
+      "categoria_principale": "Apprendimento Servizio",
+      "descrizione_e_metodologia": "Percorsi per l’apprendimento significativo con ricaduta sul contesto sociale.",
+      "target": "Studenti, comunità locale"
+    },
+    {
+      "titolo_attivita": "Accordo Di Rete Clil",
+      "categoria_principale": "CLIL",
+      "descrizione_e_metodologia": "Sensibilizzazione/diffusione della metodologia CLIL tramite percorsi didattici innovativi.",
+      "target": "Studenti, docenti"
+    },
+    {
+      "titolo_attivita": "Reti Per L’Organizzazione Delle Attività Di Formazione",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Organizzazione di proposte di formazione o ricerca-azione valide per gli insegnanti.",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCMM87402C\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"San Martino\" di Taurianova (RCMM87402C), relativo all'anno scolastico 2016/2019. L'istituto, di I Grado, situato in un contesto territoriale metropolitano della regione Calabria, dimostra un impegno significativo verso l'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. L'attenzione è rivolta alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione formativa (NEET) e alla promozione del lifelong learning.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, come indicato a pagina 51, suggerendo una pianificazione strutturata in questo ambito.\n\n**2.2 Partnership:** L'istituto vanta un'ampia rete di partnership, comprendendo **Associazioni**, **Servizi socio-sanitari**, il **MIUR**, il **CONI**, il **Comune di Taurianova**, l'**USL**, diverse **istituzioni** ed **enti locali**, oltre a collaborazioni con altri istituti scolastici come l'**Istituto di Istruzione Superiore “E.Fermi” di Bagnara Calabra**, l'**Istituto Comprensivo “Francesco Jerace” di Polistena**, l'**I. C. di Rizziconi** e l'**IIS “Severi-Guerrisi” di Gioia Tauro**. Questo elevato numero di collaborazioni (12 partner) rappresenta un punto di forza per l'implementazione di attività di orientamento efficaci.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite, con punteggi elevati per lo sviluppo di **attitudini** e **interessi** degli studenti, la preparazione alle **transizioni formative** e l'acquisizione di **capacità orientative** per cogliere le opportunità. L'attenzione al **progetto di vita** risulta meno marcata, con un punteggio inferiore.\n\n**2.4 Obiettivi:** Gli obiettivi strategici includono la riduzione dell'**abbandono scolastico**, il rafforzamento della **continuità territoriale**, il contrasto al fenomeno dei **NEET** e la promozione del **lifelong learning**. L'istituto dimostra una chiara volontà di affrontare le sfide del contesto socio-economico locale.\n\n**2.5 Azioni di Sistema:** Le azioni previste per l'implementazione dell'orientamento si concentrano sul **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolare attenzione è rivolta all'integrazione tra **inclusione** e gestione delle **fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali **culturali**, **laboratoriali ed espressive** (con punteggio elevato), **ludiche e ricreative**, **sportive** e, in misura minore, attività di **volontariato**.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF risiede nella vasta rete di **partnership** attivate, che consentono di ampliare l'offerta formativa e di coinvolgere attivamente il territorio. La presenza di una sezione dedicata all'orientamento e la definizione di finalità e obiettivi chiari dimostrano un approccio strategico e pianificato. L'attenzione alla didattica orientativa basata sull'esperienza e sull'interdisciplinarità rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la minore attenzione dedicata alla definizione del **progetto di vita** degli studenti come finalità dell'orientamento. Inoltre, il monitoraggio delle azioni potrebbe essere potenziato per garantire una valutazione efficace dell'impatto delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nIl PTOF evidenzia un buon livello di pianificazione e di implementazione di attività di orientamento. Tuttavia, sarebbe opportuno rafforzare l'attenzione alla dimensione personale e progettuale dell'orientamento, favorendo la consapevolezza degli studenti rispetto alle proprie aspirazioni e ai propri talenti. Un maggiore focus sul monitoraggio e sulla valutazione delle azioni consentirebbe di ottimizzare l'efficacia delle iniziative e di adattarle alle esigenze del contesto.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'Istituto Comprensivo \"San Martino\" di Taurianova presenta un approccio solido e strutturato all'orientamento, supportato da una vasta rete di partnership e da una chiara definizione di finalità e obiettivi. Pur individuando alcune aree di miglioramento, il documento dimostra un impegno significativo verso la crescita personale e professionale degli studenti, contribuendo a contrastare la dispersione scolastica e a promuovere l'inserimento nel mondo del lavoro. Attività come **Visite guidate e viaggi di istruzione**, **Corso a indirizzo musicale**, **La Sicurezza è un diritto**, **Frutta nella scuola**, **The ancient Romans vs the ancient Greeks!**, **Sport di classe**, **Cittadini per la vita**, **Tecnologia e informatica**, **Laboratori orientativi con Scuole Secondarie di II Grado**, **Visite guidate**, **Protocollo D’Intesa Con Il Comune Di Taurianova**, **Accordo Di Partenariato Con Il Comune Di Taurianova**, **Accordo Di Rete Provinciale “Service Learning”**, **Accordo Di Rete Clil** e **Reti Per L’Organizzazione Delle Attività Di Formazione** rappresentano un valido contributo all'offerta formativa."
+}

@@ -1,0 +1,313 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPM001016",
+    "denominazione": "Liceo M. Montessori",
+    "tipo_scuola": "I Grado, Infanzia, Primaria",
+    "ordine_grado": "I Grado, Infanzia, Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Alto Reno Terme",
+    "anno_ptof": "2022-2025",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Della Repubblica 3",
+    "cap": "40046",
+    "email": "bois00100p@istruzione.it",
+    "pec": "rmic8g900l@pec.istruzione.it",
+    "website": "www.scuolamontessoridavinci.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti diverse attività di orientamento, ma manca una sezione dedicata o un capitolo specifico all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Opera Nazionale Montessori",
+        "Associazione Romana Montessori",
+        "enti locali",
+        "terzo settore",
+        "comunità d'origine",
+        "Assessorato alla scuola II Municipio",
+        "Assessorato ai servizi sociali II Municipio",
+        "Assessorato LL.PP. II Municipio",
+        "A.S.L. Roma A",
+        "Rete scuole Montessori di Roma",
+        "Polo Formativo 2",
+        "Futura-PNRR",
+        "Associazioni sportive (Uisp, Butterfly, Cemea, Choronde, Polisportiva Sempione, Fair play)",
+        "Associazioni musicali, teatrali, artistiche",
+        "Università"
+      ],
+      "partnership_count": 15
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 6
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto di Recupero Didattico E Arricchimento Dell’Offerta Formativa",
+      "categoria_principale": "Recupero/Arricchimento",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto L’Alba Della Meraviglia",
+      "categoria_principale": "Filosofia",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Visite guidate a musei, siti storici, parchi naturali",
+      "target": "Tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività laboratoriali per competenze",
+      "target": "Tutti gli ordini di scuola"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a scuole secondarie di II grado e open day",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Progetti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti curriculari ed extra-curriculari",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con professionisti",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Atelier e laboratori",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche finalizzate",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Sportelli disciplinari",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Consolidamento e approfondimento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Orto",
+      "categoria_principale": "Vita Pratica",
+      "descrizione_e_metodologia": "Attività storica della scuola",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Lezione partecipata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attivazione studenti, problem solving",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetto L’Alba Della Meraviglia. La Filosofia Alla Scuola Primaria",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Laboratori filosofici per classi terze, quarte e quinte.",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Progetto Libro",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Letture e comprensione testi.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Musica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Esperienze musicali e sviluppo del piacere della musica.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Prevenire difficoltà passaggio livelli scolastici.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Arte",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo creatività e storia dell'arte.",
+      "target": "Bambini del primo ciclo"
+    },
+    {
+      "titolo_attivita": "Progetto Teatro",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo capacità creative e orientamento nello spazio.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Lettore Madrelingua Inglese",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Potenziamento competenze linguistiche in inglese.",
+      "target": "Classi IV e V"
+    },
+    {
+      "titolo_attivita": "Progetto Orto",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Coltivazione orto scolastico e consapevolezza ecologica.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Di Movimento Musica E Danze Tradizionali",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo sensibilità corporea e coordinazione.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Progetto Educazione Al Movimento / Psicomotricita’",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo capacità psicomotorie e linguaggio espressivo.",
+      "target": "Bambini scuola infanzia e primaria"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Ceramica",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sperimentazione e espressione creativa con la creta.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Laboratorio Di Cucina",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Preparazione e cottura cibi, approccio ludico.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Nuoto",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo abilità motorie in ambiente acquatico.",
+      "target": "Bambini 6-8 anni"
+    },
+    {
+      "titolo_attivita": "Ed. Motoria Di Base",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Sviluppo globale bambino attraverso attività motorie.",
+      "target": "Tutti i bambini"
+    },
+    {
+      "titolo_attivita": "Hockey",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Pratica sportiva di squadra.",
+      "target": "Bambini quarte e quinte elementari"
+    },
+    {
+      "titolo_attivita": "Visite guidate ai parchi e giardini",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con il II Municipio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Progetto 'Sport in classe'",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con il II Municipio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività di cittadinanza attiva",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Progetti con il II Municipio",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Tirocinio insegnanti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Opera Nazionale Montessori",
+      "target": "Docenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPM001016\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo M. Montessori** (BOPM001016) per il triennio 2022-2025. La scuola, situata nel territorio metropolitano di Alto Reno Terme, in provincia di Bologna e regione Emilia Romagna, opera su diversi ordini di grado: Infanzia, Primaria e I Grado. L'istituzione è statale e si distingue per una forte attenzione all'innovazione didattica e all'inclusione. L'analisi rivela un impegno significativo nell'orientamento, supportato da numerose **partnership** e attività, sebbene manchi una sezione dedicata o un capitolo specifico all'interno del PTOF.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF non presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3. Questo suggerisce che, pur essendo presente l'attenzione all'orientamento, questa non è formalizzata in un'area autonoma del piano.\n\n**2.2 Partnership:** La scuola vanta un network di **partnership** molto ampio e diversificato, con un punteggio di 5 e ben 15 partner nominati. Tra questi, spiccano l'**Opera Nazionale Montessori** e l'**Associazione Romana Montessori**, a testimonianza dell'adesione ai principi montessoriani. Importanti sono anche i legami con **enti locali**, il **terzo settore**, le **comunità d'origine**, gli **Assessorati** del II Municipio di Roma, l'**A.S.L. Roma A**, la **Rete scuole Montessori di Roma**, il **Polo Formativo 2**, **Futura-PNRR**, diverse **Associazioni sportive** (Uisp, Butterfly, Cemea, Choronde, Polisportiva Sempione, Fair play), **Associazioni musicali, teatrali, artistiche** e diverse **Università**.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate molto solide, con punteggi elevati in tutte le aree: **attitudini** (5), **interessi** (5), **progetto di vita** (6), **transizioni formative** (5) e **capacità orientative e opportunità** (6). Questo indica una chiara visione degli obiettivi che l'orientamento deve perseguire.\n\n**2.4 Obiettivi:** Gli obiettivi di orientamento presentano una variabilità di punteggi. L'obiettivo di **ridurre l'abbandono** scolastico ottiene un punteggio di 3, mentre la **continuità territoriale** raggiunge un punteggio di 4. L'obiettivo di **contrastare i NEET** è il meno sviluppato, con un punteggio di 2. Il **lifelong learning** ottiene un punteggio di 5, evidenziando l'importanza attribuita all'apprendimento continuo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento sono generalmente ben valutate. Il **coordinamento dei servizi** (5), il **dialogo tra docenti e studenti** (6), il **rapporto scuola-genitori** (5) e il **monitoraggio delle azioni** (5) sono considerati punti di forza. L'azione relativa al **sistema integrato inclusione e fragilità** ottiene un punteggio di 4.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si distingue per l'approccio pratico e coinvolgente. L'utilizzo di metodologie basate sull'**esperienza degli studenti** (7), la **didattica laboratoriale** (6), la **flessibilità degli spazi e dei tempi** (6) e l'**interdisciplinarità** (7) sono elementi chiave.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative presenta una certa eterogeneità. Le opzionali **culturali** ottengono un punteggio di 3, mentre quelle **laboratoriali ed espressive** raggiungono un punteggio di 5. Le opzionali **ludiche e ricreative** (3), di **volontariato** (3) e **sportive** (3) presentano punteggi inferiori.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership**, la chiarezza delle **finalità** e l'approccio didattico orientativo basato sull'esperienza, la **laboratorialità** e l'**interdisciplinarità**. L'impegno nella promozione del **lifelong learning** e del **dialogo tra docenti e studenti** costituisce un ulteriore elemento positivo. L'ampia gamma di **progetti** e attività, come **Uscite didattiche**, **Laboratori**, **Progetto L’Alba Della Meraviglia**, **Progetto Libro**, **Progetto Musica**, **Progetto Continuità**, **Progetto Arte**, **Progetto Teatro**, **Progetto Lettore Madrelingua Inglese**, **Progetto Orto**, **Progetto Di Movimento Musica E Danze Tradizionali**, **Progetto Educazione Al Movimento / Psicomotricita’**, **Laboratorio Di Ceramica**, **Laboratorio Di Cucina**, **Nuoto**, **Ed. Motoria Di Base**, **Hockey**, **Visite guidate ai parchi e giardini**, **Progetto 'Sport in classe'**, **Attività di cittadinanza attiva** e **Tirocinio insegnanti**, dimostra un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. L'obiettivo di **contrastare i NEET** risulta poco sviluppato e necessita di maggiore attenzione. Le opzionali **culturali**, **ludiche**, di **volontariato** e **sportive** potrebbero essere potenziate per offrire agli studenti una gamma più ampia di opportunità.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella formalizzazione dell'orientamento all'interno del PTOF. Sebbene le attività e le partnership siano numerose e significative, la mancanza di una sezione dedicata impedisce una visione strategica e coordinata dell'orientamento. È necessario definire obiettivi specifici per il contrasto alla dispersione scolastica e all'esclusione sociale, con particolare attenzione ai **NEET**.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo M. Montessori** dimostra un impegno significativo nell'orientamento, supportato da una solida rete di **partnership** e da un approccio didattico innovativo. Tuttavia, per massimizzare l'efficacia dell'orientamento, è necessario formalizzarlo all'interno del PTOF, definire obiettivi specifici per il contrasto alla dispersione scolastica e potenziare l'offerta di attività opzionali e facoltative. Un'attenzione maggiore a questi aspetti consentirebbe alla scuola di rafforzare il proprio ruolo nel supportare gli studenti nel loro percorso di crescita e di sviluppo."
+}

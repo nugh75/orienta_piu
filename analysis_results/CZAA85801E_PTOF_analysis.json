@@ -1,0 +1,229 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CZAA85801E",
+    "denominazione": "Giorgio Gaber Icmaterdomi",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Catanzaro",
+    "anno_ptof": "2022/2023,2023/2024,2024/2025",
+    "provincia": "Catanzaro",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via V. Telesio",
+    "cap": "88100",
+    "email": "czic85800n@istruzione.it",
+    "pec": "istitutisantamaria@legalmail.it",
+    "website": "https//www.icmaterdominicz.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Esplicita attenzione all'inclusione, ma assenza di una sezione dedicata e strutturata all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Enti locali",
+        "realtà istituzionali, culturali, sociali ed economiche",
+        "organismi e associazioni dei genitori",
+        "Università",
+        "Imprese",
+        "Professionisti",
+        "Ordini",
+        "Associazioni",
+        "Enti del terzo settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 6
+      },
+      "finalita_interessi": {
+        "score": 6
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 6
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 6
+      },
+      "didattica_interdisciplinare": {
+        "score": 6
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto accoglienza classi prime",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accoglienza e integrazione nuovi studenti",
+      "target": "Classi prime"
+    },
+    {
+      "titolo_attivita": "Sportello BES",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto alunni con BES",
+      "target": "Alunni BES, docenti, genitori"
+    },
+    {
+      "titolo_attivita": "Potenziamento scientifico",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività laboratoriali per lo sviluppo di competenze scientifiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento laboratoriale",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Didattica laboratoriale per approfondire le conoscenze.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Didattica metacognitiva",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Sviluppo di strategie per 'imparare ad imparare'.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Classi aperte",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro collaborativo tra docenti e verifiche comuni per studenti con debiti formativi.",
+      "target": "Studenti con debiti"
+    },
+    {
+      "titolo_attivita": "Utilizzo LIM",
+      "categoria_principale": "Strumenti",
+      "descrizione_e_metodologia": "Utilizzo della Lavagna Interattiva Multimediale come strumento didattico quotidiano.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Unità di Apprendimento",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione didattica per moduli, con centralità dello studente.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Didattica Individualizzata/Personalizzata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Interventi mirati per recupero, potenziamento e attenzione alle differenze individuali.",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "PCTO - Modulo Orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri con esperti esterni del polo CAMPUS di Portici tramite piattaforma MEET.",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Didattica per competenze",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esplicitazione di finalità, metodi e traguardi per rendere gli studenti protagonisti del proprio apprendimento.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Analisi epistemica disciplinare",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Individuazione dei nuclei fondanti delle discipline per una didattica più efficace.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Metodi laboratoriali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Utilizzo di metodologie attive per stimolare motivazione, autonomia e apprendimento attivo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "UDA con valenza orientante",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Percorsi interdisciplinari su temi trasversali con finalità orientanti.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda per l'orientamento professionale.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Job Placement",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Colloqui con aziende per favorire l'inserimento lavorativo.",
+      "target": "Studenti in uscita"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche per coinvolgere attivamente gli studenti nel processo di apprendimento.",
+      "target": "Tutti gli studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CZAA85801E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'Istituto Comprensivo \"Giorgio Gaber Icmaterdomi\" di Catanzaro (CZAA85801E), relativo agli anni scolastici 2022/2023, 2023/2024 e 2024/2025. La scuola, statale e di ordine Infanzia, mostra un'attenzione all'inclusione, sebbene manchi una sezione specificamente dedicata e strutturata all'orientamento. L'istituto si distingue per una forte rete di **partnership** con enti locali, realtà istituzionali, culturali, sociali ed economiche, organismi e associazioni dei genitori, università, imprese, professionisti, ordini, associazioni ed enti del terzo settore, contando su ben cinque collaborazioni attive. Le finalità del PTOF, in particolare quelle legate alle attitudini, agli interessi, al **progetto di vita**, alle **transizioni formative** e allo sviluppo delle capacità orientative, ricevono un punteggio elevato, così come l'obiettivo di promuovere il **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi evidenzia l'assenza di una sezione dedicata e strutturata all'orientamento, nonostante una generale attenzione all'inclusione.\n\n**2.2 Partnership:** La scuola vanta un solido sistema di partnership, coinvolgendo una vasta gamma di soggetti esterni, tra cui enti locali, università e diverse associazioni. Questo approccio collaborativo rappresenta un punto di forza per l'implementazione di attività orientative.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo sono ben definite e ambiziose, con punteggi elevati per lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative degli studenti.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF includono la riduzione dell'abbandono scolastico, la continuità territoriale, il contrasto alla dispersione scolastica e la promozione del lifelong learning.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF comprendono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali, laboratoriali espressive, ludico-ricreative, di volontariato e sportive, sebbene queste ultime presentino punteggi inferiori rispetto alle altre.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte rete di **partnership** con il territorio, nella chiarezza delle finalità orientative e nell'impegno per la promozione del **lifelong learning**. L'attenzione alla didattica basata sull'esperienza e sull'utilizzo di laboratori rappresenta un ulteriore elemento positivo. Le attività registrate, come il **Progetto accoglienza classi prime**, lo **Sportello BES**, i progetti di **potenziamento scientifico** e **laboratoriale**, la **didattica metacognitiva**, le **classi aperte**, l'utilizzo della **LIM**, le **Unità di Apprendimento**, la **didattica individualizzata/personalizzata**, il **PCTO - Modulo Orientamento**, la **didattica per competenze**, l'**analisi epistemica disciplinare**, i **metodi laboratoriali**, le **UDA con valenza orientante**, il **PCTO**, il **Job Placement** e la **didattica laboratoriale**, dimostrano un impegno concreto nella realizzazione di un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dall'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, l'offerta di attività opzionali e facoltative, in particolare quelle ludico-ricreative e sportive, potrebbe essere ulteriormente potenziata.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di definire una strategia di orientamento più organica e strutturata, che integri le diverse attività e iniziative già presenti nel PTOF. È auspicabile la creazione di un team di orientamento dedicato e la definizione di un piano di formazione per i docenti in materia di orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'Istituto Comprensivo \"Giorgio Gaber Icmaterdomi\" presenta un quadro complessivamente positivo, con un forte impegno per l'inclusione, la didattica innovativa e la collaborazione con il territorio. Tuttavia, per massimizzare l'efficacia delle azioni orientative, è necessario colmare il gap rappresentato dall'assenza di una sezione dedicata e strutturata all'orientamento, definendo una strategia più organica e integrata. L'istituto ha le potenzialità per diventare un punto di riferimento per l'orientamento nel territorio, grazie alla sua solida rete di **partnership** e all'impegno per la promozione del **lifelong learning**."
+}

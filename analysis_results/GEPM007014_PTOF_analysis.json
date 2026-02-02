@@ -1,0 +1,434 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GEPM007014",
+    "denominazione": "Liceo Economico Sociale",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2019/2020 – 2020/2021 – 2021/2022",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Canevari 51",
+    "cap": "16137",
+    "email": "geis00700l@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.firpobuonarroti.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 4,
+      "note": "Sebbene siano presenti diverse attività di orientamento, manca una sezione dedicata e strutturata all'interno del PTOF. Le attività sono integrate in altre aree tematiche."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni di volontariato",
+        "aziende farmaceutiche",
+        "istituti universitari",
+        "Università di Siena",
+        "Cooperativa Forium",
+        "esperti",
+        "Accademia Chigiana",
+        "Liceo Musicale",
+        "Istituto Superiore di Studi Musicali “R. Franci”",
+        "Siena Italian Studies",
+        "SEI Toscana",
+        "Associazione Magistrati Tributari",
+        "Università degli Studi di Siena",
+        "librerie del territorio",
+        "Ass. Possibility",
+        "Accademia d’Arte drammatica e di sceneggiatura Silvio D’Amico",
+        "Mia Radio",
+        "Comune",
+        "Associazioni",
+        "Aziende",
+        "Istituzioni"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 4
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3,
+        "note": "Le attività didattiche si concentrano prevalentemente su lezioni frontali, dibattiti e attività pratiche, con una componente laboratoriale meno strutturata."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi per le Competenze Trasversali e per l’Orientamento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Preparazione alle certificazioni PET",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Service Learning",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in scuole, musei, associazioni",
+      "target": "Classi terze LSU"
+    },
+    {
+      "titolo_attivita": "Stage in aziende/enti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in aziende del settore giuridico",
+      "target": "Classi terze LES"
+    },
+    {
+      "titolo_attivita": "Palazzo Sansedoni",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività presso Palazzo Sansedoni",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Letture di quotidiani e /o riviste specializzate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Analisi di articoli e dibattito guidato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consultazione della Costituzione",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Studio e interpretazione del testo costituzionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Service Learning",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto PCTO con IL LABORATORIO BBT",
+      "target": "Alunni con bisogni speciali"
+    },
+    {
+      "titolo_attivita": "Stage in aziende/enti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in aziende del settore giuridico",
+      "target": "Classi terze LES"
+    },
+    {
+      "titolo_attivita": "Palazzo Sansedoni",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività presso Palazzo Sansedoni",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Letture di quotidiani e /o riviste specializzate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Analisi di articoli e dibattito guidato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consultazione della Costituzione",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Studio e interpretazione del testo costituzionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione di mappe concettuali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione visiva dei concetti chiave",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni guidate in classe",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Applicazione pratica dei concetti appresi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Altro",
+      "descrizione_e_metodologia": "Interventi di professionisti del settore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Letture di quotidiani e /o riviste specializzate",
+      "categoria_principale": "Lingua e Letteratura",
+      "descrizione_e_metodologia": "Analisi di articoli e dibattito guidato",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Consultazione della Costituzione",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Studio e interpretazione del testo costituzionale",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO con IL LABORATORIO BBT",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Condivisione attività, tempi, ambienti tra alunni con disabilità e compagni. Cucina, espressione, disegno.",
+      "target": "Alunni con disabilità e compagni"
+    },
+    {
+      "titolo_attivita": "Stage in aziende/enti",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività in aziende del settore giuridico",
+      "target": "Classi terze LES"
+    },
+    {
+      "titolo_attivita": "Palazzo Sansedoni",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività presso Palazzo Sansedoni",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Letture di quotidiani e /o riviste specializzate",
+      "categoria_principale": "Lingua e Letteratura",
+      "descrizione_e_metodologia": "Analisi di articoli e dibattito guidato",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Consultazione della Costituzione",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Studio e interpretazione del testo costituzionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Elaborazione di mappe concettuali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Organizzazione visiva dei concetti chiave",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni guidate in classe",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Applicazione pratica dei concetti appresi",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Incontri con esperti",
+      "categoria_principale": "Altro",
+      "descrizione_e_metodologia": "Interventi di professionisti del settore",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso e BLSD",
+      "categoria_principale": "Salute e Benessere",
+      "descrizione_e_metodologia": "Corsi di formazione sul primo soccorso",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività sportiva scolastica",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Tornei interni e gare d’Istituto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Trekking urbano e sui sentieri",
+      "categoria_principale": "Territorio",
+      "descrizione_e_metodologia": "Escursioni e attività all'aperto",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Settimana Delle Scienze Umane",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Corsi, conferenze, lezioni, seminari con docenti e universitari. Coinvolgimento studenti in progettazione e realizzazione.",
+      "target": "Cittadinanza, studenti"
+    },
+    {
+      "titolo_attivita": "Archivio Biografico Senese",
+      "categoria_principale": "Storico-Sociale",
+      "descrizione_e_metodologia": "Raccolta storie di vita, pubblicazione su sito web. Interviste a residenti e anziani.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Filosofia",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Gara individuale con elaborazione di saggi filosofici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Digitale",
+      "categoria_principale": "Tecnologica",
+      "descrizione_e_metodologia": "Riflessione sull'uso dei dispositivi, analisi tecnica ed economica, presentazione studenti.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Educazione Alla Legalità",
+      "categoria_principale": "Civica",
+      "descrizione_e_metodologia": "Incontri con avvocati, polizia postale, visita a casa circondariale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Progetto Di Iconografia",
+      "categoria_principale": "Arte e Storia",
+      "descrizione_e_metodologia": "Visita in Pinacoteca, attività di ricerca",
+      "target": "Classi Terze e Quarte"
+    },
+    {
+      "titolo_attivita": "Extra Moenia",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Visite a mostre, musei, partecipazione a eventi sul territorio.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Giornata Della Memoria",
+      "categoria_principale": "Storico-Sociale",
+      "descrizione_e_metodologia": "Incontri, proiezioni, discussioni guidate con esperti e testimoni.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Collaborazione con Siena Italian Studies",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Lavori di gruppo e conversazioni guidate con studenti universitari statunitensi.",
+      "target": "Classi III, IV, V"
+    },
+    {
+      "titolo_attivita": "Raccolta Differenziata in Classe",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Raccolta differenziata di materiali cartacei e plastici.",
+      "target": "Classi Scienze Umane"
+    },
+    {
+      "titolo_attivita": "Potenziamento-Recupero Matematica",
+      "categoria_principale": "Potenziamento/Recupero",
+      "descrizione_e_metodologia": "Lezioni in orario mattutino per gruppi di alunni.",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Certificazioni ECDL",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Corsi e sessioni d'esame per certificazione ECDL.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Fisco e Legalità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Incontri, seminari, laboratori.",
+      "target": "IV C e V C"
+    },
+    {
+      "titolo_attivita": "Costituzione? Sinonimo Di Solidarietà!",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Ricerca, interviste, produzione multimediale.",
+      "target": "II C e II D"
+    },
+    {
+      "titolo_attivita": "Muoversi Con La Musica",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Esplorazione emozioni tramite esercizi corporei, laboratori, uscite.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "A Scuola Di Vita",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Esperienze pratiche interne/esterne, simulazioni, autonomia.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Scuola In-Possibile",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Attività extracurriculari recupero/potenziamento, rinforzo metodo studio.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Non Solo Palio",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Esplorazione ambienti interni/esterni, uscite didattiche, laboratori.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "L'Officina Dei Linguaggi",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Laboratori teatrali, cinematografici, artistici, artigianali, culinari.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Le Esperienze Vanno A Scuola",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Promozione esperienze innovative, uscite, attività didattiche.",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Orto Didattico Inclusivo",
+      "categoria_principale": "Disabilità",
+      "descrizione_e_metodologia": "Allestimento e cura orto, sviluppo competenze trasversali.",
+      "target": "Alunni con disabilità"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GEPM007014\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Economico Sociale** di Genova (GEPM007014), relativo agli anni scolastici 2019/2020 – 2020/2021 – 2021/2022. L'istituto, di ordine II grado e statale, si colloca in un contesto territoriale metropolitano della regione Liguria. La valutazione si basa sui dati forniti, considerando la presenza di attività di orientamento, le partnership instaurate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti numerose attività orientative, il PTOF non prevede una sezione specificamente dedicata e strutturata a questo ambito. Le attività sono integrate in altre aree tematiche, il che potrebbe limitarne la visibilità e la coerenza.\n\n**2.2 Partnership:** Il liceo vanta un ampio ventaglio di partnership, con ben 20 collaborazioni attivate con **associazioni di volontariato**, **aziende farmaceutiche**, **istituti universitari** come l'**Università di Siena** e **Università degli Studi di Siena**, la **Cooperativa Forium**, **esperti** del settore, istituzioni artistiche come l'**Accademia Chigiana**, il **Liceo Musicale** e l'**Istituto Superiore di Studi Musicali “R. Franci”**, realtà come **Siena Italian Studies** e **SEI Toscana**, associazioni professionali come l'**Associazione Magistrati Tributari**, **librerie del territorio**, **Ass. Possibility**, l'**Accademia d’Arte drammatica e di sceneggiatura Silvio D’Amico**, **Mia Radio**, il **Comune** e diverse **Associazioni**, **Aziende** e **Istituzioni**.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita** degli studenti, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** per affrontare le opportunità future.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training) e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni intraprese per supportare l'orientamento includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori e il monitoraggio delle azioni stesse. Particolarmente efficace appare l'azione orientata alla creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare. Sebbene le lezioni frontali, i dibattiti e le attività pratiche siano presenti, la componente laboratoriale potrebbe essere ulteriormente strutturata.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali è ampia e diversificata, comprendendo opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e degli obiettivi, nella vasta rete di partnership attivate, nell'attenzione all'inclusione e nella diversificazione dell'offerta formativa. L'impegno verso il **lifelong learning** e la lotta contro la dispersione scolastica sono particolarmente apprezzabili. Le attività di **PCTO** (Percorsi per le Competenze Trasversali e per l’Orientamento) rappresentano un elemento centrale dell'offerta orientativa.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Inoltre, la componente laboratoriale della didattica orientativa potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare e rendere più visibile l'impegno dell'istituto verso l'orientamento, attraverso la creazione di una sezione specifica nel PTOF. Questo consentirebbe di definire in modo più chiaro le strategie, le azioni e i criteri di valutazione dell'orientamento.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF del **Liceo Economico Sociale** di Genova dimostra un'attenzione significativa all'orientamento, supportata da una solida rete di partnership e da un'offerta formativa diversificata. Pur presentando alcune aree di miglioramento, il PTOF costituisce un valido strumento per guidare gli studenti nella costruzione del loro futuro professionale e personale. L'istituto dovrebbe concentrarsi sulla strutturazione di una sezione dedicata all'orientamento, al fine di massimizzare l'efficacia delle azioni intraprese e garantire una maggiore coerenza e visibilità a questo importante ambito."
+}

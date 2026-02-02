@@ -1,0 +1,259 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA8G5017",
+    "denominazione": "Na 84 - E. A. Mario -",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2019-2020, 2020-2021, 2021-2022",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Umberto Improta Prefetto",
+    "cap": "80131",
+    "email": "cnps010003@pec.istruzione.it",
+    "pec": "cnps010003@pec.istruzione.it",
+    "website": "https//www.icsulmonacatullo.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti diverse attività orientative, manca una sezione dedicata e strutturata con un capitolo specifico sull'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "Centri per l’impiego",
+        "Centri per l’orientamento territoriale (CNOS- FAP)",
+        "Amministrazione comunale di Fossano",
+        "Amministrazione provinciale di Cuneo",
+        "Amministrazione regionale della Regione Piemonte",
+        "istituzione scolastiche",
+        "A.S.L. CN1",
+        "Università degli studi di Torino",
+        "Politecnico di Torino",
+        "Associazione Mathesis",
+        "istituzioni del territorio",
+        "Agenzie no-profit",
+        "Alliance Française",
+        "ASL CN2",
+        "I Portici",
+        "Uffici finanziari",
+        "Banche",
+        "Camera di commercio",
+        "Cooperative",
+        "Associazioni",
+        "altri istituti della provincia di Cuneo"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Scambi linguistici",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali e mobilità studentesca",
+      "target": "Studenti Liceo Linguistico"
+    },
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Stage in aziende e studi professionali",
+      "target": "Studenti triennio"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Matematica",
+      "categoria_principale": "Competizioni",
+      "descrizione_e_metodologia": "Partecipazione a competizioni matematiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Visite a laboratori",
+      "categoria_principale": "Visite didattiche",
+      "descrizione_e_metodologia": "Visite presso laboratori di analisi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorni all'estero",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Soggiorni studio in Europa",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Centro sportivo scolastico",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Corsi di Atletica leggera, Nuoto, Pallavolo, Calcio a 5",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto d’Istituto Sport e Ambiente",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Iniziative, incontri con esperti",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto nazionale della CRI sul Primo Soccorso e BLS",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Formazione in orario curricolare",
+      "target": "Classi IV"
+    },
+    {
+      "titolo_attivita": "Progetto sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazione in Lingua Inglese (FIRST e CAE)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi annuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazione in Lingua Francese (DELF)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi annuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di preparazione per certificazione in Lingua Tedesca (ZDJ)",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Corsi annuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorno-studio in Inghilterra",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Viaggio studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorno-studio a Cap d’Ail (Francia)",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Viaggio studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Transalp (liceo linguistico)",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi culturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Soggiorno-studio in Germania",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Viaggio studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto ‘Basta studiare!’",
+      "categoria_principale": "Recupero e Sostegno",
+      "descrizione_e_metodologia": "Peer education con studenti tutor",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Partecipazione a gare disciplinari",
+      "categoria_principale": "Valorizzazione Eccellenze",
+      "descrizione_e_metodologia": "Partecipazione a concorsi",
+      "target": "Studenti eccellenti"
+    },
+    {
+      "titolo_attivita": "Conoscenza tecniche di primo soccorso",
+      "categoria_principale": "Ed. alla salute",
+      "descrizione_e_metodologia": "Con ASL CN1",
+      "target": "Classi quarte"
+    },
+    {
+      "titolo_attivita": "Autovalutazione d’istituto e rendicontazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Sistema di Gestione della Qualità (UNI EN ISO 9001:2008), Nucleo di valutazione, Rapporto di Autovalutazione, Piano di Miglioramento",
+      "target": "Studenti, famiglie, territorio"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA8G5017\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola **Na 84 - E. A. Mario -**, istituto di grado **Infanzia** situato a **Napoli**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le **partnership** attivate, le **finalità** perseguite, gli **obiettivi** stabiliti, le **azioni** implementate, l'approccio **didattico** e l'offerta di **attività opzionali**. Il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi elevati in diverse aree chiave. Tuttavia, emerge la necessità di strutturare meglio l'offerta orientativa attraverso una sezione dedicata e specifica.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nIl PTOF presenta alcune lacune nella strutturazione di una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3. Sebbene siano presenti diverse attività orientative, manca un capitolo dedicato che delinei in modo chiaro e organico l'approccio dell'istituto a questo tema cruciale.\n\n**2.2 Partnership:**\n\nLa scuola vanta un'ampia rete di **partnership** con numerosi soggetti esterni, raggiungendo un punteggio di 4 e contando ben 20 partner. Tra questi, si segnalano i **Centri per l’impiego**, i **Centri per l’orientamento territoriale (CNOS- FAP)**, le **Amministrazioni comunali, provinciali e regionali**, le **istituzioni scolastiche**, l’**A.S.L. CN1**, l’**Università degli studi di Torino**, il **Politecnico di Torino**, l’**Associazione Mathesis**, diverse **agenzie no-profit**, l’**Alliance Française**, l’**ASL CN2**, **I Portici**, **Uffici finanziari**, **Banche**, la **Camera di commercio**, **Cooperative**, **Associazioni** e altri istituti della provincia di Cuneo. Questa vasta rete testimonia un forte impegno nella collaborazione con il territorio.\n\n**2.3 Finalità:**\n\nLe **finalità** dell'orientamento sono chiaramente definite e perseguite con successo, ottenendo un punteggio di 5 per ciascuna delle aree considerate: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli **obiettivi** orientativi sono ambiziosi e pertinenti, con punteggi elevati per la riduzione dell'**abbandono** scolastico, la promozione della continuità con il **territorio**, il **lifelong learning** e, in misura minore, il contrasto al fenomeno **NEET** (punteggio 3).\n\n**2.5 Azioni di Sistema:**\n\nLe **azioni di sistema** implementate per supportare l'orientamento sono efficaci e ben integrate, ottenendo un punteggio di 5 per ciascuna delle aree considerate: **coordinamento dei servizi**, **dialogo tra docenti e studenti**, **rapporto scuola-genitori**, **monitoraggio delle azioni** e creazione di un **sistema integrato di inclusione e supporto alle fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nL'approccio **didattico** all'orientamento è innovativo e centrato sullo studente, con un forte focus sull'apprendimento dall'**esperienza**, la **flessibilità degli spazi e dei tempi**, l'**interdisciplinarità** (punteggi di 5). La didattica **laboratoriale** presenta margini di miglioramento (punteggio 3).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di **attività opzionali e facoltative** è diversificata, con buoni risultati per le opzionali **culturali**, **laboratoriali espressive**, **volontariato** e **sportive** (punteggio 4). Le opzionali **ludiche-ricreative** presentano un punteggio inferiore (1).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono la vasta rete di **partnership** attivate, la chiarezza delle **finalità** perseguite, l'efficacia delle **azioni di sistema** implementate e l'approccio **didattico** innovativo e centrato sullo studente. L'offerta di **attività opzionali** diversificate contribuisce a personalizzare il percorso formativo e a valorizzare gli interessi degli studenti. Attività come **Scambi linguistici**, **Alternanza scuola-lavoro**, **Olimpiadi di Matematica**, **Visite a laboratori**, **Soggiorni all'estero**, **Centro sportivo scolastico**, **Progetto d’Istituto Sport e Ambiente**, **Progetto nazionale della CRI sul Primo Soccorso e BLS**, **Progetto sicurezza**, i **Corsi di preparazione per certificazione in Lingua Inglese, Francese e Tedesca**, i **Soggiorno-studio in Inghilterra, Francia e Germania**, il **Progetto ‘Basta studiare!’**, la **Partecipazione a gare disciplinari**, la **Conoscenza tecniche di primo soccorso** e l’**Autovalutazione d’istituto** rappresentano un valore aggiunto significativo.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata e strutturata all'orientamento all'interno del PTOF. Inoltre, la didattica **laboratoriale** potrebbe essere potenziata.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è la formalizzazione di una sezione specifica per l'orientamento nel PTOF, con obiettivi, azioni e indicatori di successo chiaramente definiti. Questo consentirebbe di dare maggiore visibilità e coerenza all'impegno dell'istituto in questo ambito.\n\n### 6. Conclusioni\n\nIl PTOF della scuola **Na 84 - E. A. Mario -** dimostra un forte impegno verso l'orientamento, supportato da una vasta rete di **partnership**, **finalità** ben definite, **obiettivi** ambiziosi e un approccio **didattico** innovativo. La strutturazione di una sezione dedicata all'orientamento rappresenterebbe un passo importante per consolidare e valorizzare ulteriormente l'impegno dell'istituto in questo ambito cruciale per la crescita e il futuro degli studenti."
+}

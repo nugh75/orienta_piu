@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-31T15:06:21.850344",
+  "last_updated": "2026-02-02T14:01:13.156823",
   "processed_files": {
     "RMIS02400L": {
       "file_hash": "sha256:160df37af869bb35c4ead0bb9858cf8eb5d1fe33723a22993a2ecc1a9ae5c33f",
@@ -8550,6 +8550,1728 @@
       "file_hash": "sha256:5a4ce9aedce998eb44448263c6561faa225ce31023a638c19ec3793fbd4431e5",
       "processed_at": "2026-01-31T15:06:21.850339",
       "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "AQIC843008": {
+      "file_hash": "sha256:66b930aa4ad0005d4205a1d0a167f64860d53f6a593984193d06f35acec383d3",
+      "processed_at": "2026-01-31T18:19:40.435129",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "AQPS050001": {
+      "file_hash": "sha256:208d1c3f4c3ae640386344344d8ea1715b1c78c9e241616e9e2d60a0946df860",
+      "processed_at": "2026-01-31T18:21:14.240077",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "BNIC826006": {
+      "file_hash": "sha256:ccac1b5d9dce7c558fda1b9352d6965c9cbb7f90f61702f918afdd3e18b6dc6a",
+      "processed_at": "2026-01-31T18:25:10.698025",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "BOEE847012": {
+      "file_hash": "sha256:bacb0fa8558309f7ef68784453df16cfc0dee7887150c9fca6f96a5cf8fb84ae",
+      "processed_at": "2026-01-31T18:28:22.652675",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "BOTA02901A": {
+      "file_hash": "sha256:5105e18b9b1e251e73a7afab815fd94103d7afacbcce3fca42c6281a2345e5ae",
+      "processed_at": "2026-01-31T18:34:08.362623",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "CZEE864024": {
+      "file_hash": "sha256:5d3732e5914853f774482409e7d522440cad56e1d7545f01539966d9797d2b18",
+      "processed_at": "2026-01-31T18:39:50.350441",
+      "practices_count": 41,
+      "model_used": "qwen3:32b"
+    },
+    "FOIC821003": {
+      "file_hash": "sha256:feef079a9159dccabb26d0d5c0832af88afb40436d8626994455a1778b121c9e",
+      "processed_at": "2026-01-31T18:42:18.730920",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "FRMM84001L": {
+      "file_hash": "sha256:6badde579c62dad13306a37aed022e9cf5fa85516ccaccd1500290f882a1e246",
+      "processed_at": "2026-01-31T18:44:52.701469",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "FRRH029015": {
+      "file_hash": "sha256:37374a6e0f39c2be53131a59fb46ea1c2b38d0cb958472431318a3a2483ea25d",
+      "processed_at": "2026-01-31T18:46:48.426472",
+      "practices_count": 12,
+      "model_used": "qwen3:32b"
+    },
+    "GEPM007014": {
+      "file_hash": "sha256:ff9d85e39d957c3b587c2a304ce1f116d94550814467a84da86033478ab24f6e",
+      "processed_at": "2026-01-31T18:56:04.688351",
+      "practices_count": 70,
+      "model_used": "qwen3:32b"
+    },
+    "GERH023514": {
+      "file_hash": "sha256:27a3e36ddd7bf6d5fb174bad7297cdf4119a47fa9b797978ca2667a6a93cd95f",
+      "processed_at": "2026-01-31T18:59:53.824445",
+      "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "IMIC813007": {
+      "file_hash": "sha256:ad7f8c173ee39751c23dee049573a95a3fe05d4418b536580ead016caa32e186",
+      "processed_at": "2026-01-31T19:10:45.196751",
+      "practices_count": 70,
+      "model_used": "qwen3:32b"
+    },
+    "LTAA85002Q": {
+      "file_hash": "sha256:98241256962b81d7b9f8f540f7fbae9393b675e54bf42ff6ff42bd35f1316b13",
+      "processed_at": "2026-01-31T19:15:40.650120",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "MOMM82201E": {
+      "file_hash": "sha256:f860cada7f3b11f1037f4e02e54e64463c3213a8798d1eb940c5aa30ded6ecc1",
+      "processed_at": "2026-01-31T19:18:49.760511",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA8AW018": {
+      "file_hash": "sha256:ddb052212b35a6f1214b41c0eab8a7b813c15d2f549d9d58afbbb447bb668c22",
+      "processed_at": "2026-01-31T19:20:41.499414",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE8FA01E": {
+      "file_hash": "sha256:3455546e679d17b0f269d920ef6e698ed96a2c173dafd1a303f7227937a8af31",
+      "processed_at": "2026-01-31T19:23:59.384525",
+      "practices_count": 21,
+      "model_used": "qwen3:32b"
+    },
+    "NAIC8DG006": {
+      "file_hash": "sha256:9e05efd79824b36ecf667d982cb8948de132fe75f6792ff418b3555931135c42",
+      "processed_at": "2026-01-31T19:30:45.086523",
+      "practices_count": 45,
+      "model_used": "qwen3:32b"
+    },
+    "NAMM88001V": {
+      "file_hash": "sha256:a2414f0f39cbe0d501031b9e3c85a8dc07e373de6b2f87e6f1fb947948cfd4c8",
+      "processed_at": "2026-01-31T19:35:39.895389",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA885036": {
+      "file_hash": "sha256:82b79faee652818e96ae81defd44da6dabf554bc4c85ca48256b7a9886eb3526",
+      "processed_at": "2026-01-31T19:36:42.223344",
+      "practices_count": 7,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA84506C": {
+      "file_hash": "sha256:ef3ca5e8e7e81e73efba844108bf9f1b4bef857611e33bfa617ba2b430925cd9",
+      "processed_at": "2026-01-31T19:39:52.462438",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC86500G": {
+      "file_hash": "sha256:fe717414248f6323c7bc355b98d3377d84ce78c0e16324eff17eb6e44549bc21",
+      "processed_at": "2026-01-31T19:41:17.534733",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "RCMM87402C": {
+      "file_hash": "sha256:1eb0971fb8d2610925dc8d214ae98dda0002ceb1ada96e9dcc7e3a41c61f99aa",
+      "processed_at": "2026-01-31T19:45:14.947036",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "RCTD03201P": {
+      "file_hash": "sha256:64ad1ca35124143c9236fa03e61bf1944881538561533652c6d10f3cfeadce53",
+      "processed_at": "2026-01-31T20:00:20.629750",
+      "practices_count": 74,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8A1039": {
+      "file_hash": "sha256:59d0ba9fbc566c070797b61c68245e1ab5f0287b6ddd04b1812cba7da35ca158",
+      "processed_at": "2026-01-31T20:00:53.442605",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE8FS03B": {
+      "file_hash": "sha256:84f456422260d5e17755fe2c1fa91f615aa2d14fcaae9ee947b46b9c0e12d13b",
+      "processed_at": "2026-01-31T20:01:27.038959",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8B5008": {
+      "file_hash": "sha256:acd3fd5cecf5dfcc43237f8b29a40fe5f3d2b110fe6b499fa2bf84d7212b3e95",
+      "processed_at": "2026-01-31T20:02:45.160964",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMIS127001": {
+      "file_hash": "sha256:74966f166be060f494cf5a4d19c4b7ca56f1258dcd5da4f94c1ba2cef16fa555",
+      "processed_at": "2026-01-31T20:08:25.452263",
+      "practices_count": 43,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM8BJ01L": {
+      "file_hash": "sha256:8ce5949a6c9c662c32527a95b47edd756b79d90e07599eec1e54a5bbf5217188",
+      "processed_at": "2026-01-31T20:09:02.794723",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RNAA80101E": {
+      "file_hash": "sha256:3743682d95d943b47ce05048370743924f8e7f18a91dc538f1589912c4e6b0ce",
+      "processed_at": "2026-01-31T20:12:18.273653",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "SAEE87705P": {
+      "file_hash": "sha256:07956b10b9ae6f77f4ad93d9133100f73b8e3beca36ede1da483715838423abb",
+      "processed_at": "2026-01-31T20:18:23.413517",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "SAIS073009": {
+      "file_hash": "sha256:b99b64a38db54a64d3125a683e936a66c4c83fea82e9133cac5b0e4247c05e69",
+      "processed_at": "2026-01-31T20:30:46.539247",
+      "practices_count": 78,
+      "model_used": "qwen3:32b"
+    },
+    "TEAA82307P": {
+      "file_hash": "sha256:1d0d06c31802d6b1657d8352254c0e5356e24b4a35dedeeca7b6fb8cb2adba8d",
+      "processed_at": "2026-01-31T20:35:25.508328",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "UDAA85205T": {
+      "file_hash": "sha256:a397d528b38453c710fdee3fd6220d58870adc1ce64f3ff2ad3cac2a06b5e6c6",
+      "processed_at": "2026-01-31T20:36:46.405767",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "UDPM040005": {
+      "file_hash": "sha256:18398e88ee81ea143ae2b54b7661ff7ad402f54f91f5634589ec1103372a001d",
+      "processed_at": "2026-01-31T20:45:45.712273",
+      "practices_count": 48,
+      "model_used": "qwen3:32b"
+    },
+    "AQMM02400X": {
+      "file_hash": "sha256:60e302e804068212ffeefdfa101f5c2ba0abdfdd4ea5c5914e49f7058b218bc4",
+      "processed_at": "2026-01-31T23:37:35.300714",
+      "practices_count": 32,
+      "model_used": "qwen3:32b"
+    },
+    "AVIC849003": {
+      "file_hash": "sha256:66b16ec2242b9a4d3d3e47205bb07edfc48ee09336a6448c7c206819f5cfee12",
+      "processed_at": "2026-01-31T23:38:48.906795",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "BNPC002015": {
+      "file_hash": "sha256:ae0a4dcedb96b6095e3f8e01d43cec7bc6058501fde7eefc92ec7a8a96c4b55b",
+      "processed_at": "2026-01-31T23:42:01.864005",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "BOAA809023": {
+      "file_hash": "sha256:234a9547176f62fbbb82555a9dc9d1402bd3e6a5e58bcae959c5e2c6c344e48d",
+      "processed_at": "2026-01-31T23:47:36.156579",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "BORH02201X": {
+      "file_hash": "sha256:1f516ffc278ff027ac576476b4a0e6ad29945a88f3f756a8823c217ce9f580ae",
+      "processed_at": "2026-01-31T23:48:55.723260",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOTD016503": {
+      "file_hash": "sha256:36f7bb484cb650b73823d88e6f1d269adbb4219a503dd35ca352b1618cecc746",
+      "processed_at": "2026-01-31T23:50:49.231486",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "CSIS081003": {
+      "file_hash": "sha256:4f03d12f20104a5720d66b47c66ed398f6ced0e77a96765dececda581dd649b9",
+      "processed_at": "2026-01-31T23:51:58.408197",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "FEAA81403A": {
+      "file_hash": "sha256:a0acc016825194838f1cfeaf308417fe34d2ffd8c58e9c3127c9bd546431f31c",
+      "processed_at": "2026-02-01T00:03:46.616259",
+      "practices_count": 79,
+      "model_used": "qwen3:32b"
+    },
+    "FEMM81701X": {
+      "file_hash": "sha256:8cd8ee48742d4ace7379d8bd1b2ac21e30052c0b2d63655252fd9ec4a8046c1b",
+      "processed_at": "2026-02-01T00:09:23.759155",
+      "practices_count": 43,
+      "model_used": "qwen3:32b"
+    },
+    "FEPC01000E": {
+      "file_hash": "sha256:030849e289ffafbada9c6c416c48f8ef9ec2b0b9c003c5282478207b95befe93",
+      "processed_at": "2026-02-01T00:12:26.652311",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "FREE85801V": {
+      "file_hash": "sha256:49cd8192d9430a1a3de91fa35fe51e39af4243018f43964c4e37ab09a04c9c6b",
+      "processed_at": "2026-02-01T00:22:59.556314",
+      "practices_count": 72,
+      "model_used": "qwen3:32b"
+    },
+    "GEIC84100X": {
+      "file_hash": "sha256:a52a45087a17876929c3cc0ae4f2e0d8d7793b7dbbf3a7dc9794dfc51a956b7a",
+      "processed_at": "2026-02-01T00:28:01.666035",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "KRMM82502B": {
+      "file_hash": "sha256:128f284e30fd8aa3670d9cfc653adf6d88403a06be2e2d250f2b0fd514740900",
+      "processed_at": "2026-02-01T00:30:27.462327",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "MTTA014018": {
+      "file_hash": "sha256:310c513aa4a43445c47a7801c5fcf1b65b366ef6468ad6ce0e6fc4815f566e6a",
+      "processed_at": "2026-02-01T00:38:08.129963",
+      "practices_count": 52,
+      "model_used": "qwen3:32b"
+    },
+    "NASD04050R": {
+      "file_hash": "sha256:8d0c601f2ebe0f60928687f099f2f78a65447ed42befdb8b53600da726f32b5e",
+      "processed_at": "2026-02-01T00:39:35.012480",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA81705N": {
+      "file_hash": "sha256:84af8e7cd1aec7240b3d6b0985d459fe0e3a35c24b77819ce661dc6dd213af0d",
+      "processed_at": "2026-02-01T00:40:43.101431",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "RCEE84405R": {
+      "file_hash": "sha256:e03d1b0a9590740638830f91d37bd2c069dd46b13af9b8a5b84c65a0d90f3e11",
+      "processed_at": "2026-02-01T00:43:11.197128",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC85800C": {
+      "file_hash": "sha256:92283683900a5aee05ebad62d4d02fbba0d0d84653702fd10296031887679546",
+      "processed_at": "2026-02-01T00:44:30.631626",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8EJ01N": {
+      "file_hash": "sha256:a880a8c218939ef422400a6c59eca906427784b426c36ec8c5b392f214478d9f",
+      "processed_at": "2026-02-01T00:45:09.152406",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM80701Q": {
+      "file_hash": "sha256:36a87d0714125b8710a3f3f82701cc1cf5d667b3fa97f78b3c8dc12654327f80",
+      "processed_at": "2026-02-01T00:46:25.675395",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMRH040503": {
+      "file_hash": "sha256:65e59996122bac977a189ad3317ddac406f8047ccca376802509f1ba5a33f89a",
+      "processed_at": "2026-02-01T00:57:04.928267",
+      "practices_count": 74,
+      "model_used": "qwen3:32b"
+    },
+    "SAAA89803C": {
+      "file_hash": "sha256:bc3733eeca206c0f0cc0d7d1fd1080922a065b260ca468e7c4dfd90c92da1fbe",
+      "processed_at": "2026-02-01T01:00:17.243921",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "SAEE81505B": {
+      "file_hash": "sha256:b00c93e1f5954045e864f0a35fd552fee09a8ca2c8f56487e7811f31a44462bc",
+      "processed_at": "2026-02-01T01:00:54.354218",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "UDRI040009": {
+      "file_hash": "sha256:2e6c2ae705b6af0d1d195dce864370ef89fd05fa3c4a8071eb0bcc953ba43424",
+      "processed_at": "2026-02-01T01:06:30.339856",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "VVAA83503E": {
+      "file_hash": "sha256:85b277591445144c4919b6d6e1c80598996ca4c6d4927acf251c238694f39958",
+      "processed_at": "2026-02-01T01:14:12.923841",
+      "practices_count": 55,
+      "model_used": "qwen3:32b"
+    },
+    "VVEE82602X": {
+      "file_hash": "sha256:2556bf17264e49794641becb0c51a09b35972040a157f2b9168c3a6c9c7b8bd6",
+      "processed_at": "2026-02-01T01:27:07.013199",
+      "practices_count": 89,
+      "model_used": "qwen3:32b"
+    },
+    "BNIS00200T": {
+      "file_hash": "sha256:9cde82b4a2c00b384b19446f913ff0d0b9cb7dc3477e109064febd453e6d00a2",
+      "processed_at": "2026-02-01T04:12:33.931142",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOAA838023": {
+      "file_hash": "sha256:ff8e83eb1107f4f7164d8922eadfa8eefb7ac64db2f8c4da3c43951f608f7678",
+      "processed_at": "2026-02-01T04:19:00.509607",
+      "practices_count": 49,
+      "model_used": "qwen3:32b"
+    },
+    "BOMM81501D": {
+      "file_hash": "sha256:c39ab63d4a723953aaa04efeeced62aaf16b06e0363a41e0f6a90f2fea959b2d",
+      "processed_at": "2026-02-01T04:20:13.919342",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOPS080005": {
+      "file_hash": "sha256:3f52e4cd52fb62b573089ee63d6c74b841211f55b55f305ccd4d7b47823c4f79",
+      "processed_at": "2026-02-01T04:25:46.651635",
+      "practices_count": 43,
+      "model_used": "qwen3:32b"
+    },
+    "BORH050003": {
+      "file_hash": "sha256:272bab18ac0f0002a5af6fad7bdb140e9abfa86a75ed5d9120878a25b7929770",
+      "processed_at": "2026-02-01T04:29:00.532973",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "CEIC89400T": {
+      "file_hash": "sha256:4fad8645758cd103869189e03c58dbf8dec49b7a533372b84ec897ec3dfd305c",
+      "processed_at": "2026-02-01T04:30:16.047658",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CHEE80903A": {
+      "file_hash": "sha256:269c5d7760ed9160acca7859aa3c083405b45f2671cfd40883e239f09d87e802",
+      "processed_at": "2026-02-01T04:38:06.706963",
+      "practices_count": 45,
+      "model_used": "qwen3:32b"
+    },
+    "FREE80304T": {
+      "file_hash": "sha256:e3d54f9f934913052e2f372782c346709a9d8c19f8cb2d8c394134cbe335a76d",
+      "processed_at": "2026-02-01T04:41:07.970194",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "GEAA867011": {
+      "file_hash": "sha256:4165826e78b1cd01ae6f0942c3d4a6a8410a422d48d49dad541cc29a5cd806a9",
+      "processed_at": "2026-02-01T04:46:36.238484",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "GEEE817026": {
+      "file_hash": "sha256:bb9febf13b48c558e2a6bc8327071f0637a68076c01cfabc602b71d2add47864",
+      "processed_at": "2026-02-01T04:52:14.252811",
+      "practices_count": 41,
+      "model_used": "qwen3:32b"
+    },
+    "GEMM862012": {
+      "file_hash": "sha256:43d6343e55b76b30aa840230ee8ae7e5f51a546ef9f86addec4c1ae71e261da8",
+      "processed_at": "2026-02-01T04:52:48.983111",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "GETD01352L": {
+      "file_hash": "sha256:a4c69ac446641c7f66b4b0d1e8b089091f2ac2fc977dcf7f4a84e792233c77ff",
+      "processed_at": "2026-02-01T04:54:47.263805",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "MOIC84700T": {
+      "file_hash": "sha256:eded40dbbc4d7d457994ce8a36bcf5de43bd5bf059d73eb5ca5b6a37668bb37f",
+      "processed_at": "2026-02-01T04:58:00.166410",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "MOMM803026": {
+      "file_hash": "sha256:942c4439bc6e6a86307ab4cf909e2626b92739ba82a8de8bd58f56e70bed5c35",
+      "processed_at": "2026-02-01T04:58:34.524240",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA8D7035": {
+      "file_hash": "sha256:7f0fab28b4b14424615bd6421fafab1e2e2625edbb04628d94f6e571bb4ffa5b",
+      "processed_at": "2026-02-01T04:59:53.976387",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE8HB01G": {
+      "file_hash": "sha256:7b455b16ed8d35779a8a80f8be1f9b9e607065f2c5f2a678c023780ceaf5d9f5",
+      "processed_at": "2026-02-01T05:01:12.694845",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "PNAA80801G": {
+      "file_hash": "sha256:760932b247b61e2f46b9b35745cfc3d8b57314e919aa62d7872f6f3db9867a4e",
+      "processed_at": "2026-02-01T05:02:45.461997",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "PNEE830023": {
+      "file_hash": "sha256:4417c5dbcb247203d71201479181729be3e2ca0b321efd6f886c0b664d15f374",
+      "processed_at": "2026-02-01T05:08:26.053765",
+      "practices_count": 41,
+      "model_used": "qwen3:32b"
+    },
+    "PNIC83000X": {
+      "file_hash": "sha256:fe7ef4f1acbb7c5d8c65e521ddf7bd48c4ca02dd2563f2e304cd1d473f6ff70f",
+      "processed_at": "2026-02-01T05:13:58.538904",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "PZMM878015": {
+      "file_hash": "sha256:2e81b49585879b4dcbe8b2ee149305fbdeba20d40efaf5b162266d41f3deae62",
+      "processed_at": "2026-02-01T05:20:02.835306",
+      "practices_count": 45,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA84804T": {
+      "file_hash": "sha256:ecc6855b0df52d837c6c780464a04036b0bf24747d803d14bab8f24598d29574",
+      "processed_at": "2026-02-01T05:25:02.136341",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC81400P": {
+      "file_hash": "sha256:b035380a879db57ac334e6640525c64e79525e055e0d0cf45dae59163d34c319",
+      "processed_at": "2026-02-01T05:26:18.061979",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RCTF017507": {
+      "file_hash": "sha256:3103e34d4d01b1b16cd5ca57ea4533f5450bf4199123dec38437fabf7c38e993",
+      "processed_at": "2026-02-01T05:28:07.062684",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8G902E": {
+      "file_hash": "sha256:1f4de6852eff5fa2083b500cd180cc37e92dd46dc7cfec075700d6a9570f28e3",
+      "processed_at": "2026-02-01T05:28:42.562897",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE884038": {
+      "file_hash": "sha256:6fab08864c8200d5826dcfcf4125dd0c85b88ec56c42e9b3427c7bef603111f8",
+      "processed_at": "2026-02-01T05:31:56.876979",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM8EH01L": {
+      "file_hash": "sha256:4ab016807c3abc6e4621ace60bd4fd32b400468d66f7d7ef1f74a715a2922175",
+      "processed_at": "2026-02-01T05:33:14.360587",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "RMTF15050V": {
+      "file_hash": "sha256:8f9a4f9f9474ea90f52c6171394252e76e6ce3021325639aa2f16aac29019ea7",
+      "processed_at": "2026-02-01T05:35:02.332738",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "SVAA81402E": {
+      "file_hash": "sha256:979f4dc8d7229dfba19adf92cae179a4ab184b82ed4c9a16175c8a38d6f80318",
+      "processed_at": "2026-02-01T05:38:06.431371",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "TEPS01401B": {
+      "file_hash": "sha256:55fea1882fcbf463127a407432d41fa7b330a44dd8cae4a32d406105b6a8cfe1",
+      "processed_at": "2026-02-01T05:39:31.262752",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "UDPS012011": {
+      "file_hash": "sha256:1052d93386a9a1cab5ed60b3033c7c7661974291334f43d7059b1ac488975efc",
+      "processed_at": "2026-02-01T05:45:27.549613",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "BNAA855024": {
+      "file_hash": "sha256:9bcb95b2d64db5dcadfda039d38b891ab9404e769a61142482e90cc33d81651e",
+      "processed_at": "2026-02-01T08:23:03.300519",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "BNCT711009": {
+      "file_hash": "sha256:c0f572233463c6050068143a83fd51906c7088530cfb227605b8ab7c80553072",
+      "processed_at": "2026-02-01T08:28:47.941092",
+      "practices_count": 43,
+      "model_used": "qwen3:32b"
+    },
+    "BOAA80601E": {
+      "file_hash": "sha256:18f14d0b46fb296d4b66adaa82b1b43f260397b02ace900a4e1c3afe8f006853",
+      "processed_at": "2026-02-01T08:31:52.275858",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "BOIC875004": {
+      "file_hash": "sha256:afdae6db3a29a6a7ebad61dc890638b448e0e285735780dd1edaf14b05bddacb",
+      "processed_at": "2026-02-01T08:37:37.477178",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "CEPS090004": {
+      "file_hash": "sha256:1f1be4a693ad0ba8b0fc13c3108ed91fa733663dde52031a54cf49358a3a89aa",
+      "processed_at": "2026-02-01T08:45:45.623293",
+      "practices_count": 50,
+      "model_used": "qwen3:32b"
+    },
+    "CHAA84302G": {
+      "file_hash": "sha256:2213d3cb70682a71cd3e18d9946adcf3501a63a15a97824e3d7881960f459c67",
+      "processed_at": "2026-02-01T08:47:07.250046",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CSEE8AE045": {
+      "file_hash": "sha256:f912403797cfd0e84e410320f1221b500ebf408b6f4a1da5aa9a979950369723",
+      "processed_at": "2026-02-01T08:55:27.600518",
+      "practices_count": 54,
+      "model_used": "qwen3:32b"
+    },
+    "CSIS01800G": {
+      "file_hash": "sha256:a85956e2d8cd727bba03038fcd22d01ca5583f346116b3c13a69ed097736719f",
+      "processed_at": "2026-02-01T08:56:49.709218",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CSMM848018": {
+      "file_hash": "sha256:2552ac94eb0dfbeef370e955a08c20341913ffed42ca3fc63ca336c6ff046dc0",
+      "processed_at": "2026-02-01T09:02:54.902042",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "FRTF06000C": {
+      "file_hash": "sha256:e7690a86fbbb91998caf52e1b831d542ac866a23aa7e81c83d0f5ab6ace7c6fc",
+      "processed_at": "2026-02-01T09:08:58.826442",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "GERA012036": {
+      "file_hash": "sha256:504db48b9c100f66dcc65be110d00c14c2c4b011eebc2daea7ffc7daf0c3fcc6",
+      "processed_at": "2026-02-01T09:12:47.342654",
+      "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA88502V": {
+      "file_hash": "sha256:395f959f5aa5224cd2557b5b867cad79ae09cee49a77c53976eef82197375854",
+      "processed_at": "2026-02-01T09:19:19.148670",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "NATD016033": {
+      "file_hash": "sha256:01eb85f7f277e2483c1880065525b6dc50b2a5a30011dabf166813173b4e4cf2",
+      "processed_at": "2026-02-01T09:28:37.188816",
+      "practices_count": 60,
+      "model_used": "qwen3:32b"
+    },
+    "PCAA005025": {
+      "file_hash": "sha256:b4cff514108451642c5230a49e5e347c354243340efc84cfd8eaf8b5751ee822",
+      "processed_at": "2026-02-01T09:29:15.193052",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "PEEE829012": {
+      "file_hash": "sha256:291157df996a348ea71b6308baa78df3f5be498686222c7793a6dfe408fd0e31",
+      "processed_at": "2026-02-01T09:30:58.001168",
+      "practices_count": 13,
+      "model_used": "qwen3:32b"
+    },
+    "PNAA834047": {
+      "file_hash": "sha256:30bb6ef28d83683e4e3dd4e4597986f4fd9d830d767cdd7ac46a6ccf2e2bc097",
+      "processed_at": "2026-02-01T09:32:07.229813",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "PNIC822001": {
+      "file_hash": "sha256:240a80ee66a653300ad4777bcfb81b738f222e1245154df45832efb57b9acfd7",
+      "processed_at": "2026-02-01T09:37:36.517013",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA878077": {
+      "file_hash": "sha256:6ceb5e13e114cfd55bfed8719fc3ea9c3d492604c7202d95afd75cbe6db09957",
+      "processed_at": "2026-02-01T09:47:43.981690",
+      "practices_count": 65,
+      "model_used": "qwen3:32b"
+    },
+    "PZPS040007": {
+      "file_hash": "sha256:84e5a21cca0b27094dd5353d696b7d0ef4c33cc69a2143e78da51da6a140adc9",
+      "processed_at": "2026-02-01T09:49:01.654209",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "PZRA02950B": {
+      "file_hash": "sha256:878db631cfdcd3e7ebbdd06e856ff7edbe9ca077ec29d220ac0f6be5756f39c0",
+      "processed_at": "2026-02-01T09:51:30.066345",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA87406C": {
+      "file_hash": "sha256:7ccfcbf8f83b66d808660b7385040a8200eac37ae4243fd81a9a56e39d42c1a8",
+      "processed_at": "2026-02-01T09:54:45.488959",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "RCRH04251L": {
+      "file_hash": "sha256:ef53960cfe580c7f7ae0ff004b8614770cff043cda01a3bfeb282766caa577f6",
+      "processed_at": "2026-02-01T09:59:58.606041",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "REEE84704C": {
+      "file_hash": "sha256:baf46d67a4c7a4bdb03432fbf2d01a4206dacd5b257e54ee08f8f20b1e18d762",
+      "processed_at": "2026-02-01T10:02:31.914076",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8D201V": {
+      "file_hash": "sha256:134635fb92f53e2d9640b123ea6a13b545033bd85d8e4b157acd516ab0f6052b",
+      "processed_at": "2026-02-01T10:09:58.949760",
+      "practices_count": 52,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE8DX04A": {
+      "file_hash": "sha256:8a881b7b58e08acb141eeed967c63bc30863ef15e7d6cf220998b4b4d28460f4",
+      "processed_at": "2026-02-01T10:11:16.401389",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8FN00P": {
+      "file_hash": "sha256:3aa451968862cc18e73e2c19f4adc26e39d4161b7ab10171879653fd6425bada",
+      "processed_at": "2026-02-01T10:12:33.723300",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM8CE01X": {
+      "file_hash": "sha256:5c59d937c78d7e847add6e9eaa75aa3b757df6f0a37497f6461d3bb243b22927",
+      "processed_at": "2026-02-01T10:13:48.287393",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "SAEE83406T": {
+      "file_hash": "sha256:45373715c2aa893d4631988c956c5c0f556a21bd5f5fb337eb862653eb2d5566",
+      "processed_at": "2026-02-01T10:15:11.664910",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "TECT70100G": {
+      "file_hash": "sha256:c77510486cf7c65526097b605f1d21d34a1849f9590369dfbab026de9dc8252c",
+      "processed_at": "2026-02-01T10:18:24.380668",
+      "practices_count": 22,
+      "model_used": "qwen3:32b"
+    },
+    "AQIS01700X": {
+      "file_hash": "sha256:470b13e1608572b3f97fb931ef749d993e114225c37d615ca3489ce4848e2f02",
+      "processed_at": "2026-02-01T14:33:31.129408",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "AVTF07050D": {
+      "file_hash": "sha256:2c257080f0ae2a9190591128e7bd6fd964d9b20770ffffe9cbcdeb84777919fd",
+      "processed_at": "2026-02-01T14:36:26.923984",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "BOEE883026": {
+      "file_hash": "sha256:c0d3a308ef94d6aa194cf801c4adb7c853b919fd96b97aec720073073839de62",
+      "processed_at": "2026-02-01T14:42:10.491313",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "CERH032518": {
+      "file_hash": "sha256:3203c1b38139f6fbb7713fe013092158779a7677cbe739981fd11f341638f7d7",
+      "processed_at": "2026-02-01T14:44:42.505363",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "CHAA81306X": {
+      "file_hash": "sha256:972a958b1ccec44ddda85db422f4d4655db0091a20df271bb64bad8b1050db15",
+      "processed_at": "2026-02-01T14:46:06.661518",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "CSAA83106X": {
+      "file_hash": "sha256:d86cd364a164c939f04acbe876fbd48f46c4eaa0f62f2f9ed7b6d2b9d24040f2",
+      "processed_at": "2026-02-01T14:50:43.853401",
+      "practices_count": 34,
+      "model_used": "qwen3:32b"
+    },
+    "CZEE83901A": {
+      "file_hash": "sha256:91b5bb18a6fa4d1d487673a87c808713f64cbcb8c5c00bd06f65d484432d730a",
+      "processed_at": "2026-02-01T15:06:53.076002",
+      "practices_count": 98,
+      "model_used": "qwen3:32b"
+    },
+    "FREE86103R": {
+      "file_hash": "sha256:5c24853b60e048d7eec447c59396994c673026e3956b2c19d8588d80a613d821",
+      "processed_at": "2026-02-01T15:12:49.624984",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "GEAA81801Q": {
+      "file_hash": "sha256:28f642d223888f308f845e511dc2996bf13ae9ca9d8d9e96cc6fe98ba78951e1",
+      "processed_at": "2026-02-01T15:16:29.206981",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "GEEE80802B": {
+      "file_hash": "sha256:6d8fde8b4f5ae4ac2d47574a19e6b60541abf3b10fd85483e9516e005097d24f",
+      "processed_at": "2026-02-01T15:26:39.923384",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "GEIS02400A": {
+      "file_hash": "sha256:c9b0c3cdf177118606d3aae8443235fd5f2b547aae774d76965928155c67119b",
+      "processed_at": "2026-02-01T15:30:39.574101",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "GOAA80403C": {
+      "file_hash": "sha256:aced1ab714c92a6b9926f75005e0b654fec28d10e6505add356a1b77dac78d58",
+      "processed_at": "2026-02-01T15:36:39.518312",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "MOIC83400Q": {
+      "file_hash": "sha256:b49727e490a77b32fe14cb4f7300b63e1f91f41613ab8996238853faed5c8c6f",
+      "processed_at": "2026-02-01T15:39:56.648447",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA8CW01L": {
+      "file_hash": "sha256:f942f2f9a17f9c31524f877cef24039306933c615daf5c9ee5dd35b74cc3b488",
+      "processed_at": "2026-02-01T15:49:46.442807",
+      "practices_count": 56,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE220024": {
+      "file_hash": "sha256:48cb9d7aaf9aa07b915587750e1412e13325949aba16df9a96ffc2fca470173e",
+      "processed_at": "2026-02-01T15:53:28.462114",
+      "practices_count": 21,
+      "model_used": "qwen3:32b"
+    },
+    "NAIC8HS00D": {
+      "file_hash": "sha256:c480d347ae79b2e511ecea0f73dc7fa619553adc95284e0bd8697642f259d739",
+      "processed_at": "2026-02-01T15:57:53.007300",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "NAIS13700L": {
+      "file_hash": "sha256:c36c07e7dcefd09fd551bfa532207108895bef5db41c78d1c0b6270b59d47ecb",
+      "processed_at": "2026-02-01T16:12:47.892497",
+      "practices_count": 88,
+      "model_used": "qwen3:32b"
+    },
+    "NAMM8FG01C": {
+      "file_hash": "sha256:0372398e9bace038e9d398cdc012cd0574e9c64cf04f02ed5476a447cb2b9b8a",
+      "processed_at": "2026-02-01T16:23:14.084028",
+      "practices_count": 65,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA84812N": {
+      "file_hash": "sha256:3891c92a12c3013c258e2b725fbfdea98d4de1e4b1939959fe5752b024c325d4",
+      "processed_at": "2026-02-01T16:34:18.086588",
+      "practices_count": 63,
+      "model_used": "qwen3:32b"
+    },
+    "PZEE85504L": {
+      "file_hash": "sha256:fe8eb03c67fdc3145245e7861d78bddf6778698ab788a770e3891f712891a707",
+      "processed_at": "2026-02-01T16:38:52.431062",
+      "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "PZMM87001E": {
+      "file_hash": "sha256:ee5a9adb0906ff98b6a1866a7cb48edcc07efebca8d2fd6404b62594a27cd16d",
+      "processed_at": "2026-02-01T16:41:26.278701",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "PZPC00202B": {
+      "file_hash": "sha256:bb557fdce59ea2eeffeb62bad0ba2fc8a36cdefc19c7db7c90447890158b4f4c",
+      "processed_at": "2026-02-01T16:49:10.618341",
+      "practices_count": 49,
+      "model_used": "qwen3:32b"
+    },
+    "RCEE841059": {
+      "file_hash": "sha256:21c4cbb4927aef27f50cc4817c41bfd6a4962b0409aea484c581ec4da766606d",
+      "processed_at": "2026-02-01T16:54:27.782688",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "RCRI03152P": {
+      "file_hash": "sha256:d929bedf24b873158c95ccfd9be74c6aaece2a84eee6f333c5983b0f32686337",
+      "processed_at": "2026-02-01T16:58:49.461170",
+      "practices_count": 32,
+      "model_used": "qwen3:32b"
+    },
+    "RCTA04201V": {
+      "file_hash": "sha256:f2d8ee1fc5e0cfb735f3851955346d4308f49b13f16d4543f424142b4771b967",
+      "processed_at": "2026-02-01T17:02:05.286092",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "REEE84402V": {
+      "file_hash": "sha256:34051e705ca41a8ec3eeaac7836f518d7730fd55aaf689a7e6d3221b52659f65",
+      "processed_at": "2026-02-01T17:05:13.199443",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "REMM842015": {
+      "file_hash": "sha256:cccb8f85d24ff6ac7fdda3e6e9d2188d58323f40626944234055df7ac7b10f76",
+      "processed_at": "2026-02-01T17:07:05.033584",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "RIMM82401V": {
+      "file_hash": "sha256:76e18d036849c2f90909376b779dd37d3b162039c3acaa45487147a01a5595bc",
+      "processed_at": "2026-02-01T17:12:41.694170",
+      "practices_count": 45,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE8FE01R": {
+      "file_hash": "sha256:b0852a92336b9ec4f164a58badb40b809c3c8e300a6d2360da03552ad74bb9ab",
+      "processed_at": "2026-02-01T17:14:01.627876",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8B400C": {
+      "file_hash": "sha256:f9c81c82733589d34e610573e247446af5777032906d020053519b66855d239e",
+      "processed_at": "2026-02-01T17:15:59.282927",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "RMTD08151C": {
+      "file_hash": "sha256:96f8f701919f7b467cd187072db9f78693387cba56b832bdfe0f014084625090",
+      "processed_at": "2026-02-01T17:25:22.393668",
+      "practices_count": 64,
+      "model_used": "qwen3:32b"
+    },
+    "SVEE820034": {
+      "file_hash": "sha256:6f9915153ea7a4990530bbabcdf9affebf4116f4829fe527173bc811227a867a",
+      "processed_at": "2026-02-01T17:28:25.369214",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "UDIC81600N": {
+      "file_hash": "sha256:677d347543ae574af2f3df8ad359f61aaa3476d32d018225173dc3661cd38c1b",
+      "processed_at": "2026-02-01T17:29:39.392785",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "UDPS010008": {
+      "file_hash": "sha256:b0433dca93f7b6de339efb637e6f4a47df7075cc76a00fdea02d5b9433aa5bc8",
+      "processed_at": "2026-02-01T17:35:39.309388",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "VTPS00601G": {
+      "file_hash": "sha256:4278e4cc6ac5898aac0efd68041f61683776dce7c64505253d10d151a3fdfa8a",
+      "processed_at": "2026-02-01T17:38:06.637351",
+      "practices_count": 20,
+      "model_used": "qwen3:32b"
+    },
+    "AQCT701003": {
+      "file_hash": "sha256:f4a6f4096ee943cd1e0403e9090fce0f3a69085d181d4b8611d7faebbce3cb47",
+      "processed_at": "2026-02-01T20:33:20.196464",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "AQMM84101N": {
+      "file_hash": "sha256:0459e82f3612b16a0a4704559fdc3adcd091d07c6ae7a8c5f6aba5e8c2f36d9d",
+      "processed_at": "2026-02-01T20:40:58.327519",
+      "practices_count": 55,
+      "model_used": "qwen3:32b"
+    },
+    "BOAA824058": {
+      "file_hash": "sha256:425a452d74c7943f7ef63a22109b7694886345bb993eb2522ba1a13fcf097c8d",
+      "processed_at": "2026-02-01T20:42:12.094887",
+      "practices_count": 7,
+      "model_used": "qwen3:32b"
+    },
+    "BOEE85104R": {
+      "file_hash": "sha256:ae3ef5dc8c29a0d0bcf3788f99a9655517e5a1164937c543cd55956402b5fc0e",
+      "processed_at": "2026-02-01T20:42:51.038866",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "BOIC80500T": {
+      "file_hash": "sha256:15fff0e288f5935f6e33b800082c94a208fef3ef9d3b964ea977c473b35c74ae",
+      "processed_at": "2026-02-01T20:44:07.883924",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOPM02601E": {
+      "file_hash": "sha256:5ba757c41d69dfd61bcd693aed157a91068b66a0df2715120a25f7a4cc336cda",
+      "processed_at": "2026-02-01T20:45:24.030049",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "CZAA85801E": {
+      "file_hash": "sha256:af5a6bfe24c0816890c187d23b4763f7da65d5ec31d9c1ccbf548395483a6dd4",
+      "processed_at": "2026-02-01T20:51:16.573535",
+      "practices_count": 41,
+      "model_used": "qwen3:32b"
+    },
+    "CZMM835012": {
+      "file_hash": "sha256:48014a9c0da537b74246fbca4bc9140f3433c5be51f4dec7825a93db1c80154a",
+      "processed_at": "2026-02-01T20:51:53.131626",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "FOEE02001A": {
+      "file_hash": "sha256:4eebb24da83906719ec70c1884a3cefa48ed3a03421ca7f29aa41a33adbe2a56",
+      "processed_at": "2026-02-01T20:53:14.952116",
+      "practices_count": 4,
+      "model_used": "qwen3:32b"
+    },
+    "GETF01701Q": {
+      "file_hash": "sha256:4135242b2ea3a6b135d7ee332d1f4612849090073535365a9022ae93432d362d",
+      "processed_at": "2026-02-01T20:59:40.038218",
+      "practices_count": 49,
+      "model_used": "qwen3:32b"
+    },
+    "LTMM83101D": {
+      "file_hash": "sha256:fc00e16d592b8cb61e6ab47922901297e659204e242e5c5eddbd0b690c27e277",
+      "processed_at": "2026-02-01T21:02:51.840691",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "LTTE01301R": {
+      "file_hash": "sha256:1b95031e23798ef5d3330cf0f5dd1055464b5d1dbe2e60a1ca8670e8abe8c748",
+      "processed_at": "2026-02-01T21:06:36.488263",
+      "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "MOPM021019": {
+      "file_hash": "sha256:4bed6355624ebe10a5aa59eb76f48f776b992a64a315a77758021d567b48f1c4",
+      "processed_at": "2026-02-01T21:10:16.552342",
+      "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "MTMM810012": {
+      "file_hash": "sha256:e9b7c9c81d0fe69359860b811526b828527e179572741149c0837b54201464e8",
+      "processed_at": "2026-02-01T21:12:44.542869",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA87902G": {
+      "file_hash": "sha256:58e89ca3f02808535b7ded699c66f42edf4cb3585712348990ccce0952103106",
+      "processed_at": "2026-02-01T21:15:45.571516",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE23602N": {
+      "file_hash": "sha256:59566ac169f2b0050fb8be1cfab94b240e6828daaadee7b928fdbe39ea77a263",
+      "processed_at": "2026-02-01T21:20:55.621338",
+      "practices_count": 39,
+      "model_used": "qwen3:32b"
+    },
+    "NAMM8BE01A": {
+      "file_hash": "sha256:dc1b948f2c5a679f4f6238f6de2d2083359894503abfaccce8dd259fd83fcb0b",
+      "processed_at": "2026-02-01T21:24:35.856664",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "NARC11850E": {
+      "file_hash": "sha256:97fbc9526294255ffdb1baab53c70a8a1f11389072dfaae06126f76f3ba08a46",
+      "processed_at": "2026-02-01T21:29:06.227761",
+      "practices_count": 34,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA84811L": {
+      "file_hash": "sha256:4b6652e539c61170027026408db7cef70587470930e021e4e089c4e7b6ea2500",
+      "processed_at": "2026-02-01T21:32:07.924463",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "PZRA00150G": {
+      "file_hash": "sha256:ff6a7c733181e6176bf87565c77c567a7e9e05503371caeb5c8a964c591b7759",
+      "processed_at": "2026-02-01T21:51:52.081755",
+      "practices_count": 132,
+      "model_used": "qwen3:32b"
+    },
+    "RAAA81302G": {
+      "file_hash": "sha256:e0970d639f7bc863ac05394381a27b354ac3ecb1e7ce2499aa862a8893941dc3",
+      "processed_at": "2026-02-01T21:54:23.310901",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA869072": {
+      "file_hash": "sha256:75f74d363d133c0e42523faab718cffcde28e686c31e76db2b0c3eedb67211f2",
+      "processed_at": "2026-02-01T21:57:31.170339",
+      "practices_count": 21,
+      "model_used": "qwen3:32b"
+    },
+    "RCEE81208C": {
+      "file_hash": "sha256:99d5e533e98eed51be17d1b1fdc64ddd59a93209a5e03bedd31cfd8acf36179e",
+      "processed_at": "2026-02-01T21:58:09.754729",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC839003": {
+      "file_hash": "sha256:799fd09b78c6fd1048bb1520bfab3f6d77e3826f753d9ce57a4793d00ad1ca29",
+      "processed_at": "2026-02-01T21:59:32.655114",
+      "practices_count": 7,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8AW04D": {
+      "file_hash": "sha256:fa1937ceb368401e7f9011662b877e049903ae8f138c4f57e79fbb325d3b2f76",
+      "processed_at": "2026-02-01T22:00:08.329080",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8CS00B": {
+      "file_hash": "sha256:eba0d45b4df26a2e06912f20e69dbad911d9d40783e1bdd1c918c2f31e8e7ed9",
+      "processed_at": "2026-02-01T22:01:16.035765",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "SAAA099028": {
+      "file_hash": "sha256:a168c2a7eea97c9cf749d1055d0414fdd96320ac88097787cf37eb0e0120abd7",
+      "processed_at": "2026-02-01T22:02:50.012336",
+      "practices_count": 11,
+      "model_used": "qwen3:32b"
+    },
+    "TEAA825069": {
+      "file_hash": "sha256:0bf85648fdbea0c271edfb78a0ae7c736b25f096fa92d109f21d39c665100672",
+      "processed_at": "2026-02-01T22:04:42.112230",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "UDAA855037": {
+      "file_hash": "sha256:b7058f24c991d26a7e5d35064d76c5670c2b5afebf49513b40a8ae935e1ffe57",
+      "processed_at": "2026-02-01T22:06:02.046685",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "UDIC819005": {
+      "file_hash": "sha256:c1fc0a0d3f98c28161fcb33c6c86d2b9db98bebfb9dd377734665b366ec94c06",
+      "processed_at": "2026-02-01T22:11:44.056246",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "AQAA82301X": {
+      "file_hash": "sha256:497d09241d12a669c081d12ab7e6d91682141bfb16aa37d5dea8a2f0442acbfc",
+      "processed_at": "2026-02-02T01:37:02.982744",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "AQTL01950L": {
+      "file_hash": "sha256:76b14a0bc84419474897fa4c3a19dad8efe5648e054897862e411581519094ac",
+      "processed_at": "2026-02-02T01:38:53.226913",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "AVAA88702Q": {
+      "file_hash": "sha256:40bca3f5c8891119d38a8ae5da3e87eff9b284b2bc6d3dde131611d1e1658fe6",
+      "processed_at": "2026-02-02T01:41:54.612159",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "BNPC008014": {
+      "file_hash": "sha256:602079126e2f8bf91e1d2dedd8402219bcae096de8ebda138ffaa405ae24fd1b",
+      "processed_at": "2026-02-02T01:53:32.736527",
+      "practices_count": 88,
+      "model_used": "qwen3:32b"
+    },
+    "BOPM001016": {
+      "file_hash": "sha256:e3771bd9710ae4bf4711d5c128b90a82265172ecfc59d940a86e9041d59541dc",
+      "processed_at": "2026-02-02T01:57:49.104501",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "BORI02451C": {
+      "file_hash": "sha256:43fdcd411ed3738bb3e49612d0aea0e3868af2599fa0c0c2ff1d87faa13cb413",
+      "processed_at": "2026-02-02T01:58:59.589629",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CEEE8AQ01A": {
+      "file_hash": "sha256:5917c3eb14ed082bb7934264e72664170f1f013fa52ce4cdeb7e2ee747684f58",
+      "processed_at": "2026-02-02T02:00:16.061333",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "CERI00601T": {
+      "file_hash": "sha256:2b4c51b5db61650c9bd56f9f7ca59b6a965b6e15a56985abbb7eff10756b07a5",
+      "processed_at": "2026-02-02T02:06:00.472703",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "CHEE834011": {
+      "file_hash": "sha256:377056dd669e3ded88cf31e683fe9535409251e10a0900a63e4830dd39c75819",
+      "processed_at": "2026-02-02T02:09:38.774267",
+      "practices_count": 26,
+      "model_used": "qwen3:32b"
+    },
+    "FRVC040009": {
+      "file_hash": "sha256:9faffe6ffd8835be269fef94f6d3147a483346274fb5ab63ccce1ba5b5db586e",
+      "processed_at": "2026-02-02T02:15:29.269500",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "GEAA866015": {
+      "file_hash": "sha256:2ed35cd772871ab0f84f5e8ed23b946c70f57f6bbebfb5e04ed1ed440664345d",
+      "processed_at": "2026-02-02T02:21:04.483846",
+      "practices_count": 36,
+      "model_used": "qwen3:32b"
+    },
+    "GECT70400T": {
+      "file_hash": "sha256:73961ad6e2d49a64fc01145c577a6d246d441d603085b90a73327d01bd60cf4c",
+      "processed_at": "2026-02-02T02:22:32.673241",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "GEEE853029": {
+      "file_hash": "sha256:df8a7e21178cc776e187496725f81d82c15a1052de1e2cdd2d2a42534b603bb3",
+      "processed_at": "2026-02-02T02:28:18.064360",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "GEPC04000E": {
+      "file_hash": "sha256:b84843789fe8d2e4ef6f0eb19a672b14fea7a902df376541e97bdf9b8c7dff97",
+      "processed_at": "2026-02-02T02:30:44.915631",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "LTTD027017": {
+      "file_hash": "sha256:87c2cc02e7b0b1b5141ef660cf8c3fbfd948cb60145cdb5ece750022f04cce11",
+      "processed_at": "2026-02-02T02:36:18.884966",
+      "practices_count": 39,
+      "model_used": "qwen3:32b"
+    },
+    "MOMM84801P": {
+      "file_hash": "sha256:563ead2b861337e451b2530b6f15c37aa44bee3ca38108bcbf8323a2b1ea919f",
+      "processed_at": "2026-02-02T02:41:47.683547",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "MORC016019": {
+      "file_hash": "sha256:576aed972e65ec398a4c90569539ef1c1b694589ab41dbac8d9ba1da16052b58",
+      "processed_at": "2026-02-02T02:42:53.133683",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "MTMM81103X": {
+      "file_hash": "sha256:6b312cac5300881c49b231e66b44e076a1f89395a577ae67774a1c9f04cacf8b",
+      "processed_at": "2026-02-02T02:48:01.658382",
+      "practices_count": 33,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA85302B": {
+      "file_hash": "sha256:8dc3ae814b5f4d089f6f3ac810dd78b484b5af171cd02561ef7d28e66fa9d16c",
+      "processed_at": "2026-02-02T02:52:47.228188",
+      "practices_count": 32,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE8AJ03G": {
+      "file_hash": "sha256:d3b09aad18807fed4a5785a69088f1051d128e5c249236afdbfd283c7f109659",
+      "processed_at": "2026-02-02T02:54:11.302979",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "NAIC8EW001": {
+      "file_hash": "sha256:fd6398ad822fc8db6e0d2fdfc5309a01b426a5bc39f521ba0e017c8f4c8b3567",
+      "processed_at": "2026-02-02T02:57:14.679134",
+      "practices_count": 17,
+      "model_used": "qwen3:32b"
+    },
+    "NAMM87501B": {
+      "file_hash": "sha256:9d91175a0c2fe9f29b7bb6662ebd1756e71c09fd847148f9e0a26875e92201ac",
+      "processed_at": "2026-02-02T03:02:29.054159",
+      "practices_count": 32,
+      "model_used": "qwen3:32b"
+    },
+    "NAPS14601T": {
+      "file_hash": "sha256:4202c171ab82eb4182ec823e8caab76109b5ee0c6a095b8b9f3d7883f02036ec",
+      "processed_at": "2026-02-02T03:03:46.507691",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA86201B": {
+      "file_hash": "sha256:b644aeabea63fdfb7f9f4262084e275084d6f51943bfd742beebb775ff05c5a5",
+      "processed_at": "2026-02-02T03:05:29.644044",
+      "practices_count": 11,
+      "model_used": "qwen3:32b"
+    },
+    "PZEE82101A": {
+      "file_hash": "sha256:92838de84f47cecd39b70e73117c786671b43c3aca46c2910c241af3a5c0af62",
+      "processed_at": "2026-02-02T03:11:27.126763",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "PZIS001007": {
+      "file_hash": "sha256:6ed999e4e725b0954ac84dd1a6cd0b429eab984f7774ab497eca4bb36f76bd1a",
+      "processed_at": "2026-02-02T03:30:57.119171",
+      "practices_count": 140,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA85204D": {
+      "file_hash": "sha256:3279ec981f49da19eeae1cd72c7de5b3c091e1fd87104edf6e125edc2effff2c",
+      "processed_at": "2026-02-02T03:32:34.374128",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RCEE82617R": {
+      "file_hash": "sha256:dc49ff4fa8ecc10f41df0e04bafb1e7ce3adcd68ca6d48607ed6c9a867f878ea",
+      "processed_at": "2026-02-02T03:34:56.101025",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC85200D": {
+      "file_hash": "sha256:c333ea32910b54cdaa20ee304c2582935790a83d4213213cf5ccaec7ab3ff725",
+      "processed_at": "2026-02-02T03:36:22.506544",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RCSL03901E": {
+      "file_hash": "sha256:1244c466c3e10614a32214a3c8df2c3b9284905dbda33e5efd5f82e9f8fb43b2",
+      "processed_at": "2026-02-02T03:39:32.766483",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "REEE842016": {
+      "file_hash": "sha256:4424579d5c9b28867048f5023e73536e4e3602223b5077a1e6bffe2d5f26b110",
+      "processed_at": "2026-02-02T03:40:07.822400",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RIAA81601Q": {
+      "file_hash": "sha256:c9358b05460c33659f072198143024ad7652cba04b0a5983f2617108a2564822",
+      "processed_at": "2026-02-02T03:45:19.938868",
+      "practices_count": 40,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8D501A": {
+      "file_hash": "sha256:9581f97356e20bdfc482b65cb9b40dfa8e43c5e19a1463773b49ab5fdacc6fc9",
+      "processed_at": "2026-02-02T03:45:57.294654",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE8A002N": {
+      "file_hash": "sha256:16f4af51fa48d6c32100cfc2a9b3d50de5a38e8f1f71066c19b525f17a152ff1",
+      "processed_at": "2026-02-02T03:46:32.889182",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RMIC8B200R": {
+      "file_hash": "sha256:658b64e7dcac739b01c270cc6e141f1690f34f0f5a8831d24aabbdcf4ed44dea",
+      "processed_at": "2026-02-02T03:47:53.622261",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM8D601A": {
+      "file_hash": "sha256:507a83952e63f8847acda3250e1e1d3766b796f74d2b1b0c5713c2332f3b636e",
+      "processed_at": "2026-02-02T03:52:54.790243",
+      "practices_count": 38,
+      "model_used": "qwen3:32b"
+    },
+    "RMTD113019": {
+      "file_hash": "sha256:bc9eaa79aa32bf682ac1fd9d4e53d3ab941ca1d507d6375bd99d3e5f9975e91b",
+      "processed_at": "2026-02-02T03:58:44.328014",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "TSIC81000L": {
+      "file_hash": "sha256:f51806392b2bcdabe419f68a2b162c4629e26bd05335ba18e48d5c3d567e8305",
+      "processed_at": "2026-02-02T04:02:50.219145",
+      "practices_count": 27,
+      "model_used": "qwen3:32b"
+    },
+    "VVEE80313Q": {
+      "file_hash": "sha256:23cd19450d0ab7da5623c9dd212b3ba480d1a30c8717fe8a1b46014c3deb3aa9",
+      "processed_at": "2026-02-02T04:15:15.851726",
+      "practices_count": 85,
+      "model_used": "qwen3:32b"
+    },
+    "AVEE86104V": {
+      "file_hash": "sha256:018ad0019b449f86239eac8d6584fcea35d669a56b484acebda25a7266827017",
+      "processed_at": "2026-02-02T07:04:44.192689",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "BOEE80604V": {
+      "file_hash": "sha256:01e978510753e61d4d1bc9e77693c9397d53734c47843e5a2e5c15da29dec663",
+      "processed_at": "2026-02-02T07:09:12.914765",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "BOIS02800P": {
+      "file_hash": "sha256:8a915306fc35d1c2371a61d344ad94f145d9ae8b4183231a291c78ca96e13f00",
+      "processed_at": "2026-02-02T07:10:34.127045",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOTD021016": {
+      "file_hash": "sha256:235f5db8b791a8c40dbcbce6f12c195e4c6771d47e8344bda940a20845e52c9f",
+      "processed_at": "2026-02-02T07:16:06.032358",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "CHEE82506B": {
+      "file_hash": "sha256:7089f1c905be3f4bc7327dd917a3e8909269b360a52df5cd30fc03c06a0bc7f6",
+      "processed_at": "2026-02-02T07:21:24.844466",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "CSAA8AQ029": {
+      "file_hash": "sha256:33835df4e7cd82222758bad8b4ea1f7ddc589b46c2028796ea36813a0f70e0d8",
+      "processed_at": "2026-02-02T07:23:16.522137",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "CSEE89802B": {
+      "file_hash": "sha256:931f05dc0f9c98255a281b6b86fd8f561897014e9993ab3bb650ffcc92762ac0",
+      "processed_at": "2026-02-02T07:37:44.396507",
+      "practices_count": 104,
+      "model_used": "qwen3:32b"
+    },
+    "CSMM86102Q": {
+      "file_hash": "sha256:8c9411a0a75f77a9b44660a1f132a1512cf52d697575cbe9e2facac86545bc5a",
+      "processed_at": "2026-02-02T07:41:35.414092",
+      "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "CSRC06301C": {
+      "file_hash": "sha256:486a4e4178bc69ad96300aa689c13c5b2203437dafa9751d88ea1656964aa85f",
+      "processed_at": "2026-02-02T07:43:04.354259",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "FOTD010002": {
+      "file_hash": "sha256:6639129ee4cfeafaaa2a83ed7ed577602802d604d4f977f0440e1a2d61640af7",
+      "processed_at": "2026-02-02T07:46:59.060745",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "GEEE839034": {
+      "file_hash": "sha256:0132d2ec2dbb9f58458d4deac07c1dfc66395e78b4487ea58d9bf70c78f7d255",
+      "processed_at": "2026-02-02T07:50:04.585955",
+      "practices_count": 14,
+      "model_used": "qwen3:32b"
+    },
+    "GEIS00700L": {
+      "file_hash": "sha256:50f67551274dd4955964efee67e76a34b6bcd6ef20c8e07a13700bc741ac29e8",
+      "processed_at": "2026-02-02T07:51:32.386950",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "GOAA81203B": {
+      "file_hash": "sha256:110353d03743142eb06c8e52b1fd4e538b518c181069cb1df0c09cccf5c29a70",
+      "processed_at": "2026-02-02T08:01:04.767659",
+      "practices_count": 54,
+      "model_used": "qwen3:32b"
+    },
+    "LTTD11000N": {
+      "file_hash": "sha256:29225e621ca9c82a7630eb9452dd10a54f6fdc5a548a1c1b64e3bedb70140601",
+      "processed_at": "2026-02-02T08:04:18.223522",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "MOAA83003B": {
+      "file_hash": "sha256:f98427133a2200147c5e7b463b4c838c0dfb2058d97f360e32fd3bae8ddec77b",
+      "processed_at": "2026-02-02T08:08:44.766971",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "MTEE82803A": {
+      "file_hash": "sha256:c9fe8c9a665b550e842dadd4815729f9b6165445df294b8aee71ef7264913087",
+      "processed_at": "2026-02-02T08:13:16.931467",
+      "practices_count": 35,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA834022": {
+      "file_hash": "sha256:d2514a0de87c0c342c625036ca2fcf07463cb14ffe59d5c7d5fe235a8ddc825b",
+      "processed_at": "2026-02-02T08:19:09.138232",
+      "practices_count": 42,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE105025": {
+      "file_hash": "sha256:9d1ccc51517e74ed36066c1861b22cf0338ef33a5f8535ff4f02790e19de3a45",
+      "processed_at": "2026-02-02T08:22:21.914031",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "NAMM8CQ01C": {
+      "file_hash": "sha256:341ce55a307cd5c3d34c2cc9021190fc16974d7d6cb71e47c89faf209909cc6b",
+      "processed_at": "2026-02-02T08:23:43.804883",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "NATD08401G": {
+      "file_hash": "sha256:2cffa98360a03d0eaf822c33ef014408c30efd774b8f814b165d2222ca25f16d",
+      "processed_at": "2026-02-02T08:25:05.028983",
+      "practices_count": 3,
+      "model_used": "qwen3:32b"
+    },
+    "PEIC82400R": {
+      "file_hash": "sha256:3f1ce88b2a7471a10f013dac16b5b670736591be7951eb3c716b51e1e1207cd5",
+      "processed_at": "2026-02-02T08:26:55.909874",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "PZTF02801Q": {
+      "file_hash": "sha256:f6937565c4b8f7b83d904764636d6927a77d2a38f4eaeca778500bccde6913f5",
+      "processed_at": "2026-02-02T08:33:11.436232",
+      "practices_count": 47,
+      "model_used": "qwen3:32b"
+    },
+    "RCAA85307C": {
+      "file_hash": "sha256:b387c11ea719871591a0e0cbb812118a0246198e3f87f295778ff850c31a2ee1",
+      "processed_at": "2026-02-02T08:34:30.556560",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "RCIS034004": {
+      "file_hash": "sha256:d620f95a4a492a1127c1a00288af2c63b5699cd61f9b843c5dcc19dbcdf8a89f",
+      "processed_at": "2026-02-02T08:37:26.123956",
+      "practices_count": 21,
+      "model_used": "qwen3:32b"
+    },
+    "RIAA828034": {
+      "file_hash": "sha256:8b93b17474c557348d208fa8d385d92daefd95b2605d2a4a1f20b685e29c9d96",
+      "processed_at": "2026-02-02T08:43:38.125849",
+      "practices_count": 44,
+      "model_used": "qwen3:32b"
+    },
+    "RMAA8A603C": {
+      "file_hash": "sha256:e31d6fbe8450f8747fde93d7768bf0effe3a5d3dbdbc1dd814bd590c418e9460",
+      "processed_at": "2026-02-02T08:45:12.352267",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RMEE8GS032": {
+      "file_hash": "sha256:cd9a38e127220e50a5d0e296a995ef7f2be222d0f9af1e7ff65d08714f696708",
+      "processed_at": "2026-02-02T08:46:33.173276",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "RMSL070502": {
+      "file_hash": "sha256:e798bdf27856d0dda733b81577892008804574a4615f8b135716dc66b1b79fac",
+      "processed_at": "2026-02-02T08:52:50.335485",
+      "practices_count": 47,
+      "model_used": "qwen3:32b"
+    },
+    "SAAA8AF01T": {
+      "file_hash": "sha256:27d7a35c0333bd86871e53bf7dc27cb38dd64883bf88c50414ad04b405828e1b",
+      "processed_at": "2026-02-02T08:53:27.273810",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "UDAA855026": {
+      "file_hash": "sha256:3a86a2a0305c0752ea26336d6a22e38aa38c127c3170eda3fad4b74c62249f1c",
+      "processed_at": "2026-02-02T08:56:42.054679",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "UDMM83702R": {
+      "file_hash": "sha256:46679e4a542d22c56b84e9e1c115cda8a519c477b263a6e9539ef1a4190ef1bf",
+      "processed_at": "2026-02-02T08:59:44.220623",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "AVMM87504Q": {
+      "file_hash": "sha256:300a300c939039b21b0b799be2490cdc529ddd5862db6d03375889bd0529b5ba",
+      "processed_at": "2026-02-02T11:51:35.781513",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "BOAA881018": {
+      "file_hash": "sha256:4632e2f0d85dc859b6f7fc692732dcb594d911487f71423bfd0ed5c8b6129ab0",
+      "processed_at": "2026-02-02T11:56:11.872941",
+      "practices_count": 32,
+      "model_used": "qwen3:32b"
+    },
+    "BOEE87101V": {
+      "file_hash": "sha256:80564a483f5e847844eba28aa7e89366d38df0de8eb46783bd6d71f89dda11ec",
+      "processed_at": "2026-02-02T11:57:37.253054",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "BOMM824018": {
+      "file_hash": "sha256:c8f63688e37c1903dd72abaee652f1a0c82a77d8c0150a678cc8d02734b380fc",
+      "processed_at": "2026-02-02T12:02:36.956959",
+      "practices_count": 37,
+      "model_used": "qwen3:32b"
+    },
+    "BORH022043": {
+      "file_hash": "sha256:b415fabf17c1fadd02ab5282c6a75c22ec7b70d40a34726d558ab15e1ac49d10",
+      "processed_at": "2026-02-02T12:04:37.979995",
+      "practices_count": 12,
+      "model_used": "qwen3:32b"
+    },
+    "BOTD00901G": {
+      "file_hash": "sha256:0ac11487eaf9ae7bed5522d8edde9e5a61d4a3587bd222f43a675dc070323ac2",
+      "processed_at": "2026-02-02T12:05:56.000220",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CESL047526": {
+      "file_hash": "sha256:3998bc78866f8dfa1dfc71545c196c96998aa3332f97e5b1bbffe8ca2706b6e8",
+      "processed_at": "2026-02-02T12:06:32.853231",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CHEE034089": {
+      "file_hash": "sha256:5407253d45e6c8008397e5c6b93964e31a928a35b6db4816ec40d9062222644b",
+      "processed_at": "2026-02-02T12:09:44.139670",
+      "practices_count": 24,
+      "model_used": "qwen3:32b"
+    },
+    "CHIC84300N": {
+      "file_hash": "sha256:5b41b3947ffe9bbd55badb3587511c7de7487d29a84855e8c6950edd2a54d0a7",
+      "processed_at": "2026-02-02T12:10:19.781953",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "CZAA86003L": {
+      "file_hash": "sha256:0631983d246faa446b25c37e673fc8b7019e6540c4a4cb3af38a0a267dad9c06",
+      "processed_at": "2026-02-02T12:15:15.632782",
+      "practices_count": 36,
+      "model_used": "qwen3:32b"
+    },
+    "FRIC86000R": {
+      "file_hash": "sha256:4538592e31dcffea8d1cbe73e8c2bf21316b039eef219dce7d2f0107d8dd2bae",
+      "processed_at": "2026-02-02T12:16:36.059417",
+      "practices_count": 9,
+      "model_used": "qwen3:32b"
+    },
+    "NAAA8G5017": {
+      "file_hash": "sha256:7d3ed7b90a843154dd7dc221f8622e63c238c11874e98ba2f664827768f2bea8",
+      "processed_at": "2026-02-02T12:20:18.327218",
+      "practices_count": 30,
+      "model_used": "qwen3:32b"
+    },
+    "NAEE8CC02B": {
+      "file_hash": "sha256:e77c7d7aaf63a705751f2a62186d9744a1018d5c29a7b2b41cd3e983967d1e87",
+      "processed_at": "2026-02-02T12:28:31.599010",
+      "practices_count": 60,
+      "model_used": "qwen3:32b"
+    },
+    "PCMM81101E": {
+      "file_hash": "sha256:b29779086627f8a172497a33498f6ff70a0a5850746cac45dea63e33970558ca",
+      "processed_at": "2026-02-02T12:31:44.335714",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "PNMM83702R": {
+      "file_hash": "sha256:2ed6f69da64e6b4973c2c53342ea727747bc2ef49f3617d3d59785bfb6fa6dc9",
+      "processed_at": "2026-02-02T12:34:00.773862",
+      "practices_count": 17,
+      "model_used": "qwen3:32b"
+    },
+    "PRTL02050A": {
+      "file_hash": "sha256:bd9b85892efaa1a26cc006b1040d678e2a23e284a846327ce881e78856ece753",
+      "processed_at": "2026-02-02T12:36:16.319413",
+      "practices_count": 18,
+      "model_used": "qwen3:32b"
+    },
+    "PZAA886043": {
+      "file_hash": "sha256:f84cb41f0d61a5366d2a559f970bf92c87c68e7dc2f64b417ed95a6fe4e33e49",
+      "processed_at": "2026-02-02T12:42:05.610659",
+      "practices_count": 39,
+      "model_used": "qwen3:32b"
+    },
+    "PZEE857037": {
+      "file_hash": "sha256:883e4220ffce1df466e40a339844c8430090c5dcc0a5ec1a00d237db19ca4bf7",
+      "processed_at": "2026-02-02T12:48:13.205810",
+      "practices_count": 33,
+      "model_used": "qwen3:32b"
+    },
+    "PZMM701017": {
+      "file_hash": "sha256:8d30faa9f38c47c066ee6bc2c62e5904fa48ba9e3b0715e605d4536b9bfcfbe9",
+      "processed_at": "2026-02-02T12:52:33.741787",
+      "practices_count": 25,
+      "model_used": "qwen3:32b"
+    },
+    "PZTF006507": {
+      "file_hash": "sha256:82faf9fe2fea4b9e24e8899a21f5f55294a7ac31fc82ab7cfbace4a4419e488c",
+      "processed_at": "2026-02-02T13:06:08.822154",
+      "practices_count": 70,
+      "model_used": "qwen3:32b"
+    },
+    "RAIC80600E": {
+      "file_hash": "sha256:dd2b1c9f8074905a856e5eb0518d4eb62bb208c072aef6c42ffc954eaece0b4f",
+      "processed_at": "2026-02-02T13:07:53.049415",
+      "practices_count": 8,
+      "model_used": "qwen3:32b"
+    },
+    "RCEE812026": {
+      "file_hash": "sha256:cee82421fb7cc5b4bd8f92025a64ac39b40f6e5cc72ab30dafe8dbd0f6d8df0f",
+      "processed_at": "2026-02-02T13:08:37.708980",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "RCIC86600B": {
+      "file_hash": "sha256:3dbeeee73ada38c6d5b1d1c636c3b3c103577b29107ae1048391e3354c136981",
+      "processed_at": "2026-02-02T13:15:20.733333",
+      "practices_count": 33,
+      "model_used": "qwen3:32b"
+    },
+    "RCPM05001D": {
+      "file_hash": "sha256:df7bdbc4b44672b35fa76d178bcc1da8772d1e0a80ef8f9c17cbbfae6200f08e",
+      "processed_at": "2026-02-02T13:17:00.179151",
+      "practices_count": 10,
+      "model_used": "qwen3:32b"
+    },
+    "RIAA817113": {
+      "file_hash": "sha256:2c71b165fe36bff58982c40d42728f014305830887b91d3fa3e815543a2c2d23",
+      "processed_at": "2026-02-02T13:21:46.032467",
+      "practices_count": 28,
+      "model_used": "qwen3:32b"
+    },
+    "RITF00701R": {
+      "file_hash": "sha256:3934b553f356b73b9339b01d8df7a27b4ac94e19816e01323e8d81a28d79f8bd",
+      "processed_at": "2026-02-02T13:33:14.327692",
+      "practices_count": 63,
+      "model_used": "qwen3:32b"
+    },
+    "RMMM89402R": {
+      "file_hash": "sha256:1781b4bb0b6f82ba0b7c9a88670aef45d6ce6662e98f0b2b3c3ee425aedf3f97",
+      "processed_at": "2026-02-02T13:36:23.556013",
+      "practices_count": 19,
+      "model_used": "qwen3:32b"
+    },
+    "RMPS010004": {
+      "file_hash": "sha256:dd9274c13a2dd5492cdf900dc2699410834f329b8eec97190c9da6c740fe70b3",
+      "processed_at": "2026-02-02T13:41:12.404541",
+      "practices_count": 29,
+      "model_used": "qwen3:32b"
+    },
+    "SAIC89000V": {
+      "file_hash": "sha256:41e59f00e8a0cd476e43de284c6f2707a120ee2459349d124e9603aaf82a901f",
+      "processed_at": "2026-02-02T13:44:30.457505",
+      "practices_count": 15,
+      "model_used": "qwen3:32b"
+    },
+    "TSPM004011": {
+      "file_hash": "sha256:b4ef04a6d6f6b165d08e0ea97d17f19a6995c260f5a828f76c9a9ccfd8eef8dd",
+      "processed_at": "2026-02-02T13:45:29.627562",
+      "practices_count": 5,
+      "model_used": "qwen3:32b"
+    },
+    "UDAA01701B": {
+      "file_hash": "sha256:02de02f6e525026a0e9f83468011ef23238079c67482fd6b4180f8bd4649eb4a",
+      "processed_at": "2026-02-02T13:54:37.875870",
+      "practices_count": 53,
+      "model_used": "qwen3:32b"
+    },
+    "UDIC80900E": {
+      "file_hash": "sha256:807e3df4b0151e032c460849e5ab5d6aae1fee4b67c584089d39c6afb0ecf74d",
+      "processed_at": "2026-02-02T13:58:54.266522",
+      "practices_count": 23,
+      "model_used": "qwen3:32b"
+    },
+    "VVEE024029": {
+      "file_hash": "sha256:0b13ee8accadc850fa0d8d98ef746b4ab088e88f08573b85691debabf882f5ef",
+      "processed_at": "2026-02-02T14:01:13.156818",
+      "practices_count": 13,
       "model_used": "qwen3:32b"
     }
   }

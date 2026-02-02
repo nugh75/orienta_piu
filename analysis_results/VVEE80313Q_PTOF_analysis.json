@@ -1,0 +1,264 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "VVEE80313Q",
+    "denominazione": "Scuola Primaria Dasa'",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Dasa'",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Vibo Valentia",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Provinciale 20",
+    "cap": "89832",
+    "email": "vvic803004@istruzione.it",
+    "pec": "ND",
+    "website": "www.istitutocomprensivoacquaro.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento, ma non una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "associazioni culturali",
+        "Protezione Civile “Le Aquile”",
+        "Misericordia di Chiusano S. Domenico",
+        "Consorzio dei Servizi Sociali",
+        "ASL di Atripalda",
+        "Fondazione Telethon",
+        "Università di Salerno",
+        "Pro Loco dei tre Comuni",
+        "Ass.”Fraternita Misericordia”",
+        "genitori",
+        "figure parentali",
+        "sindaco",
+        "parroco",
+        "nonni"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto “Cresciamo sicuri”",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Collaborazione con Protezione Civile e Misericordia",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto AVIS",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con sezione AVIS",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione alla Salute",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Collaborazione con ASL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "LEGALITÀ/SALUTE/AMBIENTE/ED. STRADALE",
+      "categoria_principale": "Progetti Trasversali",
+      "descrizione_e_metodologia": "Tematiche separate che mettono al centro l'individuo, gli altri, l'ambiente e le regole.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Lettura: “La Biblioteca A Scuola”",
+      "categoria_principale": "Promozione Lettura",
+      "descrizione_e_metodologia": "Promuovere il piacere della lettura attraverso diverse attività.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Recupero E Potenziamento",
+      "categoria_principale": "Recupero/Potenziamento",
+      "descrizione_e_metodologia": "Prove di italiano/matematica strutturate con metodologia Invalsi.",
+      "target": "Classi seconde, terze e quinte primaria"
+    },
+    {
+      "titolo_attivita": "English For All",
+      "categoria_principale": "Lingua Straniera",
+      "descrizione_e_metodologia": "Sviluppo competenze comunicative e culturali in inglese.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sport Di Classe",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Attività sportive con tecnico federale.",
+      "target": "Studenti scuola secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Accoglienza",
+      "categoria_principale": "Accoglienza",
+      "descrizione_e_metodologia": "Creare un ambiente sereno e socializzante per i nuovi alunni.",
+      "target": "Nuovi alunni"
+    },
+    {
+      "titolo_attivita": "Continuità E Orientamento",
+      "categoria_principale": "Continuità/Orientamento",
+      "descrizione_e_metodologia": "Sostenere il passaggio tra i diversi ordini di scuola.",
+      "target": "Studenti in transizione"
+    },
+    {
+      "titolo_attivita": "Laboratori di coding e robotica educativa",
+      "categoria_principale": "Innovazione didattica",
+      "descrizione_e_metodologia": "Sperimentazione di laboratori per stimolare i docenti",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Percorsi extrascolastici",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Attività calibrate sui profili dinamici funzionali",
+      "target": "Alunni con particolari attitudini"
+    },
+    {
+      "titolo_attivita": "Incontri con specialisti",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Incontri con specialisti ASL",
+      "target": "Famiglie"
+    },
+    {
+      "titolo_attivita": "Discussione guidata",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Domande-stimolo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Cooperative Learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Lavoro collettivo guidato",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività di laboratorio",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Esperienza individuale/gruppo",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Drammatizzazioni",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Esercitazioni pratiche",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Attività linguistiche ed espressive",
+      "categoria_principale": "Linguistico-Espressivo",
+      "descrizione_e_metodologia": "Utilizzo di materiali manipolativi, pittura, disegno, narrazione",
+      "target": "Bambini della scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Attività motorie",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Giochi di movimento, schemi motori, uso di piccoli attrezzi",
+      "target": "Bambini della scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Esplorazione tecnologica",
+      "categoria_principale": "Tecnologia",
+      "descrizione_e_metodologia": "Utilizzo di tecnologie digitali, scoperta delle funzioni",
+      "target": "Bambini della scuola dell'infanzia"
+    },
+    {
+      "titolo_attivita": "Apprendista giornalista",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Prestazione autentica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Atletica…mente",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Metodologia laboratoriale, didattica innovativa",
+      "target": "Classi seconde, terze e quinte della Scuola Primaria"
+    }
+  ],
+  "narrative": "# Analisi del PTOF VVEE80313Q\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della **Scuola Primaria Dasa'** (VVEE80313Q) per il periodo 2019/20-2021/22. La scuola, situata in **Calabria** e operante in un territorio **non metropolitano**, dimostra un impegno significativo verso l'orientamento, sebbene non sia presente una sezione dedicata specificamente strutturata come capitolo a sé stante. L'istituto si distingue per una solida rete di **partnership** con enti e associazioni del territorio, che contribuiscono attivamente alla realizzazione di diverse iniziative. L'attenzione è rivolta allo sviluppo delle **attitudini**, degli **interessi** e, in particolare, alla progettazione del **progetto di vita** degli studenti, con un focus sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Sebbene siano presenti attività di orientamento, manca una sezione dedicata con un capitolo specifico all'interno del PTOF.\n\n**2.2 Partnership:** La scuola vanta un ampio ventaglio di collaborazioni con diverse realtà del territorio, tra cui **associazioni culturali**, la **Protezione Civile “Le Aquile”**, la **Misericordia di Chiusano S. Domenico**, il **Consorzio dei Servizi Sociali**, l’**ASL di Atripalda**, la **Fondazione Telethon**, l’**Università di Salerno**, la **Pro Loco dei tre Comuni**, l'Ass.”**Fraternita Misericordia**”, i **genitori**, le **figure parentali**, il **sindaco**, il **parroco** e i **nonni**. Questo elevato numero di **partnership** (10 in totale) testimonia la volontà di creare una rete di supporto ampia e diversificata per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono orientate allo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 su 5 per entrambe le aree. Maggiore attenzione è rivolta alla progettazione del **progetto di vita** (punteggio 4), mentre le finalità relative alle **transizioni formative** e allo sviluppo delle **capacità orientative** per cogliere le opportunità future ricevono un punteggio di 3.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale e sul contrasto al fenomeno dei **NEET**, tutti con un punteggio di 3. Viene inoltre perseguito l'obiettivo del **lifelong learning**, anch'esso con un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni messe in atto per supportare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese, tutte con un punteggio di 3. Viene inoltre implementato un **sistema integrato di inclusione e fragilità**, con lo stesso punteggio.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** (punteggio 4), sull'utilizzo di **laboratori** (punteggio 3), sulla **flessibilità degli spazi e dei tempi** (punteggio 3) e sull'approccio **interdisciplinare** (punteggio 3).\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa include opzionali di tipo **culturale**, **laboratoriale-espressivo**, **ludico-ricreativo**, di **volontariato** e **sportivo**, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la ricchezza e la varietà delle **partnership** attivate dalla scuola, che permettono di offrire agli studenti un'ampia gamma di opportunità di apprendimento e di crescita. L'attenzione alla progettazione del **progetto di vita** e l'utilizzo di metodologie didattiche basate sull'**esperienza** rappresentano ulteriori elementi positivi. Le attività registrate, come **“Cresciamo sicuri”**, **“Progetto AVIS”**, **“Educazione alla Salute”**, **“LEGALITÀ/SALUTE/AMBIENTE/ED. STRADALE”**, **“Progetto Lettura: “La Biblioteca A Scuola””**, **“Recupero E Potenziamento”**, **“English For All”**, **“Sport Di Classe”**, **“Accoglienza”**, **“Continuità E Orientamento”**, **“Laboratori di coding e robotica educativa”**, **“Percorsi extrascolastici”**, **“Incontri con specialisti”**, **“Discussione guidata”**, **“Cooperative Learning”**, **“Attività di laboratorio”**, **“Drammatizzazioni”**, **“Attività linguistiche ed espressive”**, **“Attività motorie”**, **“Esplorazione tecnologica”**, **“Apprendista giornalista”** e **“Atletica…mente”** dimostrano un impegno concreto nella realizzazione di un'offerta formativa diversificata e stimolante.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene le attività siano presenti, la loro frammentazione potrebbe rendere difficile una visione d'insieme e una pianificazione strategica efficace.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un capitolo specifico dedicato all'orientamento, che definisca in modo chiaro le finalità, gli obiettivi, le azioni e i criteri di valutazione. Questo consentirebbe di dare maggiore coerenza e visibilità alle attività di orientamento e di integrarle pienamente nel PTOF.\n\n### 6. Conclusioni\n\nLa **Scuola Primaria Dasa'** dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da un'offerta formativa diversificata. Tuttavia, per ottimizzare l'efficacia delle azioni intraprese, è necessario strutturare una sezione dedicata all'orientamento all'interno del PTOF, che definisca in modo chiaro le finalità, gli obiettivi e le strategie di intervento. Questo consentirebbe di garantire una maggiore coerenza e visibilità alle attività di orientamento e di integrarle pienamente nel progetto educativo dell'istituto."
+}

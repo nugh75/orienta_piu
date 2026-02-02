@@ -1,0 +1,264 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "PZPC00202B",
+    "denominazione": "L.C. \"G. Fortunato\"",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Rionero In Vulture",
+    "anno_ptof": "2022-2025",
+    "provincia": "Potenza",
+    "regione": "Basilicata",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via San Donato Da Ripacandida 36",
+    "cap": "85020",
+    "email": "pzis002003@istruzione.it",
+    "pec": "ND",
+    "website": "https//www.liceirionero.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì un insieme di attività sparse che lo riguardano."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Aziende locali",
+        "Enti",
+        "Attività lavorative variegate",
+        "associazioni sportive",
+        "FAI",
+        "associazioni di volontariato",
+        "Fondazione Agnelli",
+        "Università di Firenze"
+      ],
+      "partnership_count": 10
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 6
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 6
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 5
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 4
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO - Formazione sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione obbligatoria sicurezza lavoratori",
+      "target": "Classi Terze"
+    },
+    {
+      "titolo_attivita": "Corsi di Pronto Soccorso",
+      "categoria_principale": "Educazione alla Salute",
+      "descrizione_e_metodologia": "Corsi sull'uso del DAE",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sensibilizzazione al patrimonio monumentale",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Collaborazione con FAI per visite guidate e attività di conservazione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO stages",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Stages aziendali di 60 ore, preferibilmente in estate.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Orientamento universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri e progetti con l'Università di Firenze.",
+      "target": "Classi quinte"
+    },
+    {
+      "titolo_attivita": "Primo Soccorso BLSD",
+      "categoria_principale": "Salute e Sicurezza",
+      "descrizione_e_metodologia": "Formazione gesti terapeutici d'urgenza, funzioni vitali, organizzazione emergenza.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Cittadinanza Digitale",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Opportunità e funzionalità della rete, social media marketing, sicurezza online.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Accettazione della Diversità",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Comprendere l'impatto della discriminazione, valorizzare la diversità.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Cittadinanza nel mondo antico, individuo e potere, modelli politici.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Sviluppo Economico e Sostenibilità",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Ecosistemi, risorse idriche, rapporto uomo-ambiente.",
+      "target": "Allievi"
+    },
+    {
+      "titolo_attivita": "Agenda 2030: Ridurre le disuguaglianze",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione e approfondimento",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Siamo portatori degli stessi diritti",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Lavoro sulla Dichiarazione Universale dei diritti dell'uomo",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Didattica laboratoriale STEM",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Attività pratiche di chimica, biologia e fisica",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Workshop lingua inglese",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Conversazioni con insegnanti madrelingua",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Olimpiadi della Matematica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Gare individuali e incontri preparatori per lo sviluppo di competenze di problem solving.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi di Informatica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Gare di Informatica connesse all’Associazione Italiana per l'Informatica.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Campionati di Fisica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Competizione individuale e incontri preparatori per lo sviluppo di competenze di problem solving.",
+      "target": "Studenti classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Giochi della Chimica",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Competizione organizzata dalla Società Chimica Italiana.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Lezioni preparazione test universitari STEM",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Lezioni per preparare studenti ai test di accesso alle facoltà STEM.",
+      "target": "Studenti classi quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Corso sperimentale modellazione 3D",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Corso per fornire conoscenze e competenze nel disegno CAD e modellazione 3D.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Visite aziendali",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di visite presso aziende locali per conoscere i diversi settori lavorativi.",
+      "target": "Studenti classi terze e quarte"
+    },
+    {
+      "titolo_attivita": "Incontri con professionisti",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Organizzazione di incontri con professionisti di vari settori per presentare le opportunità lavorative.",
+      "target": "Studenti classi seconde e quinte"
+    },
+    {
+      "titolo_attivita": "Didattica Laboratoriale della Fisica e dell'Informatica",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progetto per laboratori mobili",
+      "target": "Studenti Succursale"
+    }
+  ],
+  "narrative": "# Analisi del PTOF PZPC00202B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Liceo “G. Fortunato” di Rionero In Vulture (PZPC00202B), relativo al triennio 2022-2025. L'istituto, di ordine II grado e statale, opera in un contesto territoriale non metropolitano della regione Basilicata. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non formalizzato in una sezione dedicata ma piuttosto distribuito in un insieme di attività diversificate. Il PTOF dimostra una buona attenzione alle finalità dell'orientamento, in particolare allo sviluppo di attitudini, interessi e progetti di vita degli studenti, nonché alla preparazione per le transizioni formative e all'acquisizione di capacità orientative utili per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'analisi rivela che, nonostante l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF, l'istituto implementa diverse attività che rientrano in quest'area. Questo approccio diffuso, pur non mancando di efficacia, potrebbe beneficiare di una maggiore strutturazione e visibilità all'interno del documento programmatico.\n\n**2.2 Partnership:**\n\nIl liceo dimostra un forte impegno nella creazione di partnership con diversi soggetti esterni. Sono attivi collaborazioni con **aziende locali**, **enti**, diverse **attività lavorative**, **associazioni sportive**, il **FAI**, **associazioni di volontariato**, la **Fondazione Agnelli** e l'**Università di Firenze**. Il numero di partner coinvolti, pari a 10, testimonia la volontà di ampliare l'offerta formativa e di connettere gli studenti con il mondo del lavoro e della cultura.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate con elevata attenzione. Il PTOF attribuisce un punteggio massimo (5 o 6) a tutte le aree considerate: sviluppo di **attitudini** e **interessi**, supporto alla definizione del **progetto di vita**, preparazione alle **transizioni formative** e potenziamento delle **capacità orientative** per cogliere le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono mirati, sebbene con punteggi variabili. Si punta a **ridurre l'abbandono** scolastico (punteggio 4), a favorire la **continuità territoriale** (punteggio 3), a **contrastare il fenomeno NEET** (punteggio 3) e a promuovere il **lifelong learning** (punteggio 4).\n\n**2.5 Azioni di Sistema:**\n\nIl PTOF prevede diverse azioni di sistema per supportare l'orientamento. Si segnalano il **coordinamento dei servizi** (punteggio 4), il **dialogo tra docenti e studenti** (punteggio 5), il **rapporto scuola-genitori** (punteggio 4), il **monitoraggio delle azioni** intraprese (punteggio 3) e l'implementazione di un **sistema integrato di inclusione e supporto alle fragilità** (punteggio 3).\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa su approcci innovativi. Particolarmente apprezzata è la didattica basata sull'**esperienza degli studenti** (punteggio 6), seguita dalla didattica **interdisciplinare** (punteggio 5) e dalla **flessibilità degli spazi e dei tempi** (punteggio 4). La didattica **laboratoriale** riceve un punteggio inferiore (3).\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative è diversificata. Si segnalano opzionali **culturali** e **laboratoriali-espressive** con punteggio 5, seguiti da opzionali di **volontariato** (punteggio 4). Le opzionali **ludico-ricreative** e **sportive** ricevono un punteggio inferiore (3).\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento sono la forte attenzione alle finalità, la diversificazione delle attività proposte, la creazione di numerose partnership con soggetti esterni e l'utilizzo di approcci didattici innovativi basati sull'esperienza degli studenti. Attività come **PCTO - Formazione sicurezza**, **Corsi di Pronto Soccorso**, **Sensibilizzazione al patrimonio monumentale**, **PCTO stages** e **Orientamento universitario** rappresentano un valore aggiunto per la preparazione degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che rende difficile una visione d'insieme delle attività e degli obiettivi. Inoltre, alcuni aspetti, come la didattica laboratoriale e le opzionali ludico-ricreative e sportive, potrebbero essere potenziati.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella mancanza di una strutturazione più organica dell'orientamento all'interno del PTOF. Sebbene le attività siano numerose e diversificate, la loro frammentazione potrebbe limitarne l'efficacia. È necessario definire una strategia di orientamento chiara e coerente, con obiettivi misurabili e indicatori di performance.\n\n### 6. Conclusioni\n\nIl PTOF del Liceo “G. Fortunato” dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree di miglioramento. La creazione di una sezione dedicata all'orientamento, la definizione di obiettivi misurabili e il potenziamento di alcune attività potrebbero contribuire a rendere il PTOF ancora più efficace nel supportare gli studenti nella loro crescita personale e professionale. L'istituto, grazie alle sue partnership e all'utilizzo di approcci didattici innovativi, ha le potenzialità per diventare un punto di riferimento per l'orientamento nel territorio."
+}

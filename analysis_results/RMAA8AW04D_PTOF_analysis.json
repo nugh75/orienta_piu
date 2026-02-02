@@ -1,0 +1,175 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMAA8AW04D",
+    "denominazione": "Nerola",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Nerola",
+    "anno_ptof": "2022-2025",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Dei Lavatoi",
+    "cap": "00017",
+    "email": "ND",
+    "pec": "ND",
+    "website": "icmontelibretti.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 0,
+      "score": 2,
+      "note": "L'orientamento è presente in diversi punti del documento, ma non esiste una sezione dedicata esplicitamente all'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "Associazioni",
+        "Istituzioni",
+        "Gruppi",
+        "Organizzazioni",
+        "Ass. Duende"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3,
+        "evidence_quote": "sviluppare un’identità consapevole e aperta",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_interessi": {
+        "score": 3,
+        "evidence_quote": "percorsi formativi che rispondano alle loro personali inclinazioni",
+        "evidence_location": "Pagina 5"
+      },
+      "finalita_progetto_vita": {
+        "score": 2,
+        "evidence_quote": "nessuna evidenza diretta",
+        "evidence_location": "N/A"
+      },
+      "finalita_transizioni_formative": {
+        "score": 3,
+        "evidence_quote": "Progetto Continuità",
+        "evidence_location": "Pagina 8"
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 2,
+        "evidence_quote": "nessuna evidenza diretta",
+        "evidence_location": "N/A"
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 1
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 2
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 2
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 2
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 2
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 4
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Progetto Continuità",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività finalizzate a garantire un percorso formativo sereno improntato sulla continuità educativa e didattica fra i tre ordini di scuola",
+      "5w_chi": "Studenti dei tre ordini di scuola",
+      "5w_cosa": "Attività di continuità didattica",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Garantire la continuità del percorso formativo",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Attività finalizzate a garantire un percorso formativo sereno",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Lettura condivisa",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività di lettura, riflessione e rielaborazione di testi condivisi fra i tre ordini di scuola",
+      "5w_chi": "Studenti dei tre ordini di scuola",
+      "5w_cosa": "Lettura e discussione di testi",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Promuovere la lettura e la riflessione",
+      "ore_dichiarate": "ND",
+      "target": "Tutti gli studenti",
+      "evidence_quote": "Attività di lettura, riflessione e rielaborazione di testi condivisi",
+      "evidence_location": "Pagina 8"
+    },
+    {
+      "titolo_attivita": "Orientamento",
+      "categoria_principale": "Progetto",
+      "descrizione_e_metodologia": "Attività finalizzate alla scelta consapevole della Scuola Secondaria di 2° grado",
+      "5w_chi": "Studenti della scuola secondaria di primo grado",
+      "5w_cosa": "Attività di orientamento",
+      "5w_dove": "Scuola",
+      "5w_quando": "Annuale",
+      "5w_perche": "Supportare la scelta della scuola secondaria",
+      "ore_dichiarate": "ND",
+      "target": "Studenti della scuola secondaria di primo grado",
+      "evidence_quote": "Attività finalizzate alla scelta consapevole della Scuola Secondaria di 2° grado",
+      "evidence_location": "Pagina 8"
+    }
+  ],
+  "narrative": "## Analisi del PTOF RMAA8AW04D\n\n### 1. Sintesi Generale\nIl PTOF dell'IC Giovanni Falcone integra l'orientamento in diverse aree, pur non strutturandolo in una sezione dedicata. L'attenzione allo sviluppo dell'identità e delle competenze costituisce una base solida, ma manca una strategia di orientamento chiara e sistematica. L'analisi che segue valuta in dettaglio la presenza e l'efficacia delle azioni di orientamento previste dal PTOF.\n\n### 2. Analisi Dimensionale\n\n#### 2.1 Sezione Dedicata all'Orientamento\nCome evidenziato, il PTOF non prevede una sezione specificamente dedicata all'orientamento. Questa assenza limita la coerenza e la visibilità delle iniziative, rendendo difficile una valutazione complessiva dell'impegno dell'istituto in questo ambito.\n\n#### 2.2 Partnership e Reti\nLa scuola collabora con diverse realtà del territorio, tra cui associazioni, istituzioni e organizzazioni. Tuttavia, il coinvolgimento di partner specifici in progetti di orientamento non è sufficientemente esplicitato. La partnership con l'Ass. Duende rappresenta un'opportunità da valorizzare per sviluppare iniziative mirate.\n\n#### 2.3 Finalità e Obiettivi\nLe finalità educative del PTOF, quali lo sviluppo dell'identità e dell'autonomia, sono rilevanti per l'orientamento. Si rileva una carenza nell'attenzione esplicita alle attitudini, agli interessi personali e ai progetti di vita degli studenti. L'obiettivo di garantire la continuità del percorso formativo è importante, ma non esaustivo per rispondere alle complesse esigenze dell'orientamento.\n\n#### 2.4 Governance e Azioni di Sistema\nIl coordinamento dei servizi, il dialogo tra docenti e studenti e il coinvolgimento delle famiglie sono elementi positivi per l'orientamento. Tuttavia, manca un sistema integrato che coordini queste azioni e ne permetta un monitoraggio efficace.\n\n#### 2.5 Didattica Orientativa\nLa didattica laboratoriale offre spazi per lo sviluppo di competenze pratiche e creative, ma necessita di un approccio più esplicitamente orientato all'esplorazione delle professioni e dei percorsi formativi. La flessibilità degli spazi e dei tempi potrebbe essere sfruttata per realizzare attività di orientamento innovative.\n\n#### 2.6 Opportunità Formative\nLe attività opzionali, in particolare quelle laboratoriali ed espressive, possono contribuire allo sviluppo degli interessi e delle attitudini degli studenti. Tuttavia, l'offerta formativa specifica per l'orientamento risulta limitata.\n\n#### 2.7 Registro Dettagliato delle Attività\n\n#### 2.7.1 Progetto Continuità\nIl Progetto Continuità mira a garantire un percorso formativo sereno tra i diversi ordini di scuola, coinvolgendo studenti di tutti i livelli. Si svolge annualmente presso la scuola e facilita la transizione tra i diversi cicli scolastici.\n\n#### 2.7.2 Lettura condivisa\nL'attività di Lettura condivisa promuove la lettura, la riflessione e la rielaborazione di testi tra gli studenti dei diversi ordini di scuola, stimolando l'interesse per la lettura e il pensiero critico.\n\n#### 2.7.3 Orientamento\nL'attività di Orientamento supporta gli studenti della scuola secondaria di primo grado nella scelta consapevole della scuola secondaria di secondo grado, fornendo informazioni e strumenti utili per prendere decisioni informate.\n\n### 3. Punti di Forza\nIl PTOF presenta una solida base educativa e un'attenzione all'inclusione. La collaborazione con il territorio e l'offerta di attività opzionali rappresentano un valore aggiunto.\n\n### 4. Aree di Debolezza\nLa mancanza di una sezione dedicata all'orientamento e di una visione strategica e sistematica costituisce una criticità. L'offerta formativa specifica per l'orientamento è limitata e il coinvolgimento di partner esterni non è sufficientemente sviluppato.\n\n### 5. Gap Analysis\nÈ necessario definire una strategia di orientamento chiara e coerente, con obiettivi specifici e azioni concrete. È importante coinvolgere attivamente i partner del territorio e sviluppare un'offerta formativa mirata, che tenga conto delle esigenze e degli interessi degli studenti. È inoltre fondamentale considerare le specifiche esigenze degli studenti con Bisogni Educativi Speciali, garantendo un orientamento inclusivo e personalizzato.\n\n### 6. Conclusioni\nL'orientamento nel PTOF dell'IC Giovanni Falcone è un aspetto in via di sviluppo che necessita di maggiore attenzione e sistematicità. Un approccio più strategico e integrato potrebbe migliorare la qualità dell'offerta formativa e garantire un futuro migliore per tutti gli studenti."
+}

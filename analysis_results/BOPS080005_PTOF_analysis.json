@@ -1,0 +1,297 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOPS080005",
+    "denominazione": "Liceo Leonardo Da Vinci",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Casalecchio Di Reno",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cavour 6",
+    "cap": "40033",
+    "email": "bops080005@istruzione.it",
+    "pec": "bops080005@pec.istruzione.it",
+    "website": "www.liceovinci.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, bensì attività sparse che lo riguardano."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Museo Archeologico Nazionale della Siritide",
+        "Enti di ricerca",
+        "Network televisivi",
+        "Associazioni",
+        "Consulenti esterni",
+        "Scuole altre",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "GLIR/GIT/Scuole polo",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na"
+      ],
+      "partnership_count": 17
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 1
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Certificazioni linguistiche",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Corsi per certificazioni B1-C1",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Etwinning/Erasmus+",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Partenariati con scuole europee",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli e dei momenti delle attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Periodi di studio ed esperienza in contesti lavorativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività lavorative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva e democratica.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto di devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Didattica Digitale",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD (Bring Your Own Device). Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Definizione PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione PEI con docenti, famiglia, equipe specialistica",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Scuole In Magna Grecia",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Attività didattiche, risorse condivise, risorse professionali",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Tursiopes",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Attività didattiche, risorse condivise, risorse professionali",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Teaching For Inclusion",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Rete Ambito Bas 005",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "PLS",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Attività didattiche, risorse condivise, risorse professionali",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Wedebate",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Re.Na",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Formazione del personale, attività didattiche, risorse condivise",
+      "target": "Tutti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOPS080005\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del **Liceo Leonardo Da Vinci** (BOPS080005) per il periodo 2019/20-2021/22. L'istituto, situato nel territorio metropolitano di **Casalecchio Di Reno** (Bologna), in **Emilia Romagna**, è una scuola **statale** di secondo grado. L'analisi evidenzia un impegno diffuso verso l'orientamento, sebbene non formalizzato in una sezione dedicata, ma piuttosto integrato in diverse attività. La scuola dimostra una forte attenzione alle **partnership** con numerosi enti e associazioni, e si concentra su finalità orientative che includono lo sviluppo di **attitudini**, **interessi**, **progetto di vita**, la preparazione alle **transizioni formative** e la capacità di cogliere le **opportunità**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica l'assenza di una sezione specificamente dedicata all'orientamento nel PTOF, con attività sparse che affrontano la tematica.\n\n**2.2 Partnership:** Il **Liceo Leonardo Da Vinci** vanta un ampio ventaglio di **partnership**, ben 17, che includono **AGROBIOS**, il **Museo Archeologico Nazionale della Siritide**, diversi **enti di ricerca**, **network televisivi**, **associazioni**, **consulenti esterni**, altre **scuole**, **I.B.B.R**, **AGRO.BIOS. del CNR**, il **Centro ENEA**, **GLIR/GIT/Scuole polo**, **Tursiopes**, **Teaching For Inclusion**, la **Rete Ambito Bas 005**, **PLS**, **Wedebate** e **Re.Na**. Questa rete di collaborazioni rappresenta un valore aggiunto per l'offerta formativa e le attività di orientamento.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono considerate con un punteggio elevato (4) in tutte le aree: sviluppo di **attitudini**, **interessi**, supporto al **progetto di vita**, preparazione alle **transizioni formative** e sviluppo della capacità di valutare le **opportunità**.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento, come la riduzione dell'**abbandono** scolastico, la continuità con il **territorio**, il contrasto al fenomeno **NEET** e la promozione del **lifelong learning**, ricevono un punteggio di 3, indicando un impegno costante ma con margini di miglioramento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema per l'orientamento, tra cui il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni**, sono valutate positivamente (punteggio 4). Particolarmente rilevante è l'azione orientata alla creazione di un **sistema integrato inclusione-fragilità** (punteggio 5).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci che valorizzano l'esperienza degli **studenti** (punteggio 4), la **flessibilità degli spazi e dei tempi** (punteggio 4) e l'**interdisciplinarità** (punteggio 4). La didattica **laboratoriale** risulta meno sviluppata (punteggio 2).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni **culturali** (punteggio 1), **laboratoriali ed espressive** (punteggio 3), **ludiche e ricreative** (punteggio 3), di **volontariato** (punteggio 3) e **sportive** (punteggio 3).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in relazione all'orientamento risiedono nella vasta rete di **partnership**, nell'attenzione alle finalità orientative e nell'impegno per azioni di sistema efficaci. L'integrazione dell'orientamento in diverse attività e l'approccio didattico che valorizza l'esperienza degli studenti rappresentano ulteriori elementi positivi. Attività come gli **Stage ASL**, le **Certificazioni linguistiche**, i progetti **Etwinning/Erasmus+** e l'implementazione di metodologie innovative come la **Flipped Classroom** e il **Service Learning (METEO)** sono particolarmente degne di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento nel PTOF, che potrebbe rendere più organica e visibile l'offerta formativa in questo ambito. La didattica **laboratoriale** appare meno sviluppata rispetto ad altri approcci.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare meglio l'offerta orientativa, definendo una sezione specifica nel PTOF e potenziando le attività **laboratoriali**. Sebbene le finalità e gli obiettivi siano ben definiti, sarebbe opportuno intensificare il **monitoraggio delle azioni** per valutarne l'efficacia e apportare eventuali correzioni.\n\n### 6. Conclusioni\n\nIl PTOF del **Liceo Leonardo Da Vinci** dimostra un impegno significativo verso l'orientamento, pur non disponendo di una sezione dedicata. La ricchezza delle **partnership** e l'attenzione alle finalità orientative rappresentano punti di forza importanti. Per migliorare ulteriormente l'offerta formativa, si raccomanda di strutturare meglio l'orientamento all'interno del PTOF, potenziando le attività **laboratoriali** e intensificando il **monitoraggio delle azioni** intraprese. Le attività registrate, come i **Gemellaggi**, i corsi di **L2: Lingua Italiana Per Stranieri** e le iniziative di **Inclusione** (es. **Definizione PEI**) contribuiscono a creare un ambiente scolastico inclusivo e orientato al successo formativo degli studenti."
+}

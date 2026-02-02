@@ -1,0 +1,346 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA85302B",
+    "denominazione": "Plesso Pontone",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Sant'Antonio Abate",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via S.Maria La Carita",
+    "cap": "80057",
+    "email": "naic85300d@istruzione.it",
+    "pec": "naic85300d@pec.istruzione.it",
+    "website": "www.scuolamascolo.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti diverse attività orientative, manca una sezione specifica e dedicata all'orientamento all'interno del PTOF. Queste attività sono integrate in diverse parti del documento."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "associazioni di volontariato",
+        "comunità parrocchiali",
+        "associazioni sportive",
+        "associazione Vivi 80057",
+        "musei",
+        "istituti pubblici e privati",
+        "associazioni di settore",
+        "servizi socio-sanitari ed educativi del territorio",
+        "servizi sociali",
+        "servizi sanitari",
+        "del lavoro",
+        "di orientamento",
+        "associazioni locali",
+        "enti del terzo settore",
+        "Agenzia Regionale per la Protezione dell’Ambiente Campania (ARPAC)",
+        "ASL",
+        "Privato sociale",
+        "Volontariato"
+      ],
+      "partnership_count": 7
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 3
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visita al Villaggio di Babbo",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione visita guidata",
+      "target": "Alunni scuola primaria"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concerti e spettacoli",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Organizzazione partecipazione",
+      "target": "Alunni scuola secondaria"
+    },
+    {
+      "titolo_attivita": "Revisione curricolo",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Rimodulare l’azione didattica orientandola verso “il fare con ciò che si sa”",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Didattica innovativa",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Creazione spazi laboratoriali digitali e formazione docenti",
+      "target": "Docenti e Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti di co-progettazione con comunità locale",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Collaborazione con servizi sociali, sanitari, del lavoro e associazioni",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Percorsi di mentoring e tutoring",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto individuale e di gruppo per studenti fragili",
+      "target": "Studenti a rischio di abbandono"
+    },
+    {
+      "titolo_attivita": "Percorsi formativi extracurriculari",
+      "categoria_principale": "Arricchimento Offerta Formativa",
+      "descrizione_e_metodologia": "Laboratori su diverse discipline (cinema, teatro, sport)",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corso di latino",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Approfondimento strutture grammaticali e linguistiche del latino.",
+      "target": "Classi terze scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Educhiamoci alla legalità!",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di diffusione della legalità e partecipazione attiva.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Ambienti...Amo",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Percorsi didattici su inquinamento, disboscamento, ambiente.",
+      "target": "Scuola Primaria"
+    },
+    {
+      "titolo_attivita": "City camp",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Full Immersion in lingua inglese con tutor madrelingua",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Pop Music’N’ Culture",
+      "categoria_principale": "Musica e Lingue",
+      "descrizione_e_metodologia": "Workshop musicali con approccio CLIL",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English Tales e Sketches",
+      "categoria_principale": "Teatro e Lingue",
+      "descrizione_e_metodologia": "Attività teatrali in inglese con workshop",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Il peso delle parole",
+      "categoria_principale": "Lettura e Bullismo",
+      "descrizione_e_metodologia": "Progetto di lettura sul tema del bullismo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Genitorialità consapevole",
+      "categoria_principale": "Formazione Genitori",
+      "descrizione_e_metodologia": "Laboratori e sportello d'ascolto per genitori",
+      "target": "Genitori"
+    },
+    {
+      "titolo_attivita": "Il giornalismo 4.0",
+      "categoria_principale": "Giornalismo e Media",
+      "descrizione_e_metodologia": "Laboratorio per imparare le tecniche del giornalismo",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "English is funny",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Potenziamento apprendimento inglese con certificazione Trinity",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Liberiamoci in allegria",
+      "categoria_principale": "Motricità e Musica",
+      "descrizione_e_metodologia": "Esercizi motori cantati e ballati",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Oui, je parle français",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Potenziamento apprendimento lingua francese",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto Unicef",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Promozione dei diritti dell'infanzia e dell'adolescenza",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Artworks mosaic",
+      "categoria_principale": "Arte e Creatività",
+      "descrizione_e_metodologia": "Laboratorio di tecnica del mosaico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Su il Sipario",
+      "categoria_principale": "Teatro",
+      "descrizione_e_metodologia": "Progetto teatro - canto - ballo e majorette. Allestimento spettacolo conclusivo.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Creatività musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Laboratorio musicale-creativo con creazione di paesaggi sonori e strumenti musicali.",
+      "target": "Classi prime e seconde medie"
+    },
+    {
+      "titolo_attivita": "Deduco e produco",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Percorso di formazione su lettura, scrittura creativa e tecnologie digitali.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Gioco con le parole",
+      "categoria_principale": "Italiano",
+      "descrizione_e_metodologia": "Laboratorio di scrittura creativa per sviluppare il piacere di scrivere.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Learning in a new way",
+      "categoria_principale": "Inglese",
+      "descrizione_e_metodologia": "Potenziamento studio lingua inglese con innovazioni metodologiche.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Apprendre d'une nouvelle manière",
+      "categoria_principale": "Francese",
+      "descrizione_e_metodologia": "Potenziamento studio lingua francese con innovazioni metodologiche.",
+      "target": "Alunni della scuola secondaria di primo grado"
+    },
+    {
+      "titolo_attivita": "Giocando con i numeri",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Preparazione alle prove INVALSI con problem solving e gioco.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Giochiamo con Jimu Robot",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Laboratorio di robotica con la serie Jimu Robot.",
+      "target": "Alunni della scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Programmiamo con Jimu Robot",
+      "categoria_principale": "Robotica",
+      "descrizione_e_metodologia": "Laboratorio di robotica con la serie Jimu Robot.",
+      "target": "Alunni della scuola primaria e secondaria"
+    },
+    {
+      "titolo_attivita": "Acqua bene comune",
+      "categoria_principale": "Educazione ambientale",
+      "descrizione_e_metodologia": "Progetto rivolto a classi V primaria e I secondaria I grado per sensibilizzare sull'acqua.",
+      "target": "Primaria, Secondaria I grado"
+    },
+    {
+      "titolo_attivita": "Agenda 2030 per la scuola",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Percorsi didattici per la formazione di nuove generazioni consapevoli.",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "PEI",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Redazione e monitoraggio PEI con team multidisciplinare",
+      "target": "Alunni con disabilità"
+    },
+    {
+      "titolo_attivita": "PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Elaborazione e aggiornamento PDP per alunni BES",
+      "target": "Alunni BES"
+    },
+    {
+      "titolo_attivita": "DDI",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Utilizzo piattaforme digitali per DDI",
+      "target": "Tutti gli alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA85302B\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) del Plesso Pontone, scuola dell'infanzia situata nel comune di Sant'Antonio Abate, in provincia di Napoli. Il PTOF, relativo al triennio 2022-2025, mostra un impegno generale verso l'orientamento, sebbene non sia presente una sezione specificamente dedicata a questo tema. L'orientamento è integrato in diverse attività e azioni, con un focus sulla riduzione dell'abbandono scolastico, la continuità territoriale e lo sviluppo di competenze orientative per affrontare le transizioni formative. La scuola dimostra una forte attenzione alle partnership con diversi enti e servizi del territorio, al fine di ampliare l'offerta formativa e supportare gli studenti nelle loro scelte future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di numerose attività orientative, manca una sezione specifica e dedicata all'orientamento all'interno del PTOF. Queste attività sono integrate in diverse parti del documento, suggerendo un approccio diffuso ma non sistematico.\n\n**2.2 Partnership:** Il PTOF evidenzia un'ampia rete di partnership con **associazioni di volontariato**, **comunità parrocchiali**, **associazioni sportive**, **associazione Vivi 80057**, **musei**, **istituti pubblici e privati**, **associazioni di settore**, **servizi socio-sanitari ed educativi del territorio**, **servizi sociali**, **servizi sanitari**, **del lavoro**, **di orientamento**, **associazioni locali**, **enti del terzo settore**, **Agenzia Regionale per la Protezione dell’Ambiente Campania (ARPAC)**, **ASL** e **privato sociale**. Sono state individuate un totale di 7 partnership attive.\n\n**2.3 Finalità:** Le finalità del PTOF in ambito orientativo si concentrano sullo sviluppo delle **attitudini**, degli **interessi** degli studenti, sulla progettazione del loro **progetto di vita**, sul supporto alle **transizioni formative** e sullo sviluppo delle **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:** Tra gli obiettivi prioritari del PTOF spicca quello di **ridurre l'abbandono** scolastico, con un punteggio di 5. Gli obiettivi di **continuita territoriale**, di **contrastare i NEET** e di promuovere il **lifelong learning** ricevono un punteggio di 3, indicando un'attenzione meno marcata rispetto alla prevenzione della dispersione scolastica.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste dal PTOF includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di metodologie **laboratoriali**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, offrendo agli studenti diverse opportunità di approfondimento e di sviluppo dei propri interessi.\n\n### 3. Punti di Forza\n\nIl PTOF del Plesso Pontone dimostra una solida attenzione all'orientamento, integrato in diverse aree del documento. La vasta rete di **partnership** con enti e servizi del territorio rappresenta un punto di forza significativo, consentendo di ampliare l'offerta formativa e di offrire agli studenti opportunità di orientamento concrete e personalizzate. L'impegno nella riduzione dell'**abbandono scolastico** e nella promozione dell'inclusione sono elementi distintivi del PTOF.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specifica dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'orientamento sia presente in diverse attività, la mancanza di una visione strategica unitaria potrebbe limitarne l'efficacia. Inoltre, alcuni obiettivi, come la continuità territoriale e il contrasto ai NEET, ricevono un punteggio inferiore rispetto alla prevenzione dell'abbandono scolastico, suggerendo la necessità di rafforzare l'attenzione su questi aspetti.\n\n### 5. Gap Analysis\n\nIl principale gap riscontrato è la mancanza di una strutturazione esplicita delle attività di orientamento all'interno del PTOF. Questo potrebbe portare a una frammentazione degli interventi e a una difficoltà nel monitoraggio e nella valutazione dei risultati. Si suggerisce di definire una sezione dedicata all'orientamento, con obiettivi specifici, azioni concrete e indicatori di performance chiari.\n\n### 6. Conclusioni\n\nIl PTOF del Plesso Pontone presenta un buon livello di attenzione all'orientamento, con una forte attenzione alle partnership e alla prevenzione dell'abbandono scolastico. Tuttavia, per migliorare l'efficacia delle azioni intraprese, si raccomanda di definire una sezione specifica dedicata all'orientamento, con obiettivi chiari, azioni concrete e indicatori di performance misurabili. L'implementazione di queste misure consentirebbe di rafforzare l'impegno della scuola verso l'orientamento e di offrire agli studenti un supporto più efficace nella costruzione del loro futuro. Le attività registrate, come **Visita al Villaggio di Babbo**, **Partecipazione a concerti e spettacoli**, **Revisione curricolo**, **Didattica innovativa**, **Progetti di co-progettazione con comunità locale** e **Percorsi di mentoring e tutoring**, dimostrano un impegno concreto verso l'orientamento e l'arricchimento dell'offerta formativa."
+}

@@ -1,0 +1,378 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "GERH023514",
+    "denominazione": "I.P.S.S.A.R. N.Bergese/Serale",
+    "tipo_scuola": "Infanzia, Professionale, Tecnico",
+    "ordine_grado": "II Grado, Infanzia",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Metropolitano",
+    "comune": "Genova",
+    "anno_ptof": "2022-2025",
+    "provincia": "Genova",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giotto 8",
+    "cap": "16153",
+    "email": "geis012004@istruzione.it",
+    "pec": "geis012004@pec.istruzione.it",
+    "website": "www.iismarsano.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "PTOF dedica spazio all'orientamento"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Università",
+        "Enti Locali",
+        "Associazioni professionali agricole",
+        "Ordini professionali",
+        "imprese del settore",
+        "associazioni del terzo settore",
+        "EELL",
+        "enti universitari",
+        "associazioni datoriali",
+        "Villa Durazzo Pallavicini",
+        "Villa Duchessa di Galliera",
+        "AMIU",
+        "IsforCoop",
+        "Alfa Liguria"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 3
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 3
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Potatura alberi da frutta",
+      "categoria_principale": "Agricoltura",
+      "descrizione_e_metodologia": "Lezioni pratiche e coordinamento con enti locali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gestione orti didattici",
+      "categoria_principale": "Agricoltura",
+      "descrizione_e_metodologia": "Realizzazione e gestione di orti urbani",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Presidio educativo antidispersione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Sviluppo di un presidio educativo con associazioni del terzo settore e EELL.",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "PCTO con imprese del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Presidio educativo antidispersione",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Costituzione gruppo di lavoro con associazioni del terzo settore e EELL",
+      "target": "Studenti a rischio dispersione"
+    },
+    {
+      "titolo_attivita": "Percorsi E-Twinning-Erasmus",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Scambi con scuole europee",
+      "target": "Studenti e docenti"
+    },
+    {
+      "titolo_attivita": "Percorsi extra-curricolari per famiglie",
+      "categoria_principale": "Coinvolgimento Famiglie",
+      "descrizione_e_metodologia": "Pratiche di coltivazione innovative",
+      "target": "Famiglie e adulti"
+    },
+    {
+      "titolo_attivita": "Gestione del verde",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Manutenzione aree verdi, progettazione orti didattici",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Attività aziendale",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Pratiche colturali, potature, propagazione",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Prodotti tipici locali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite a frantoi, aziende vitivinicole",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Visite di istruzione",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Visite a realtà agricole",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Progetto AppenninoLab",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Gestione e valorizzazione territorio Appennino",
+      "target": "Classi III-V"
+    },
+    {
+      "titolo_attivita": "Laboratorio di cucina",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Approfondimento preparazione/tecnica, contesto ridotto.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Dalla letteratura al cinema",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Proiezione film e dibattiti guidati.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello di Francese",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "10 min/studente o 50 min/gruppi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello matematica",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Recupero/approfondimento, moduli extra.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello di inglese",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Online/presenza, supporto/approfondimento.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello di scienze degli alimenti",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "2 giorni/settimana, 30 min/studente.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Laboratorio di scrittura",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Pratico, scrittura creativa, 8a ora.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello di italiano",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Pomeridiano/online, supporto/approfondimento.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportelli multidisciplinari",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Pomeridiano, compiti/studio, 2 ore.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Biblioteca Itinerante Holden",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Isola centrale e isolette in aula.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Sportello didattico di Chimica",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Presenza, esercitazioni, prenotazione.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Matematica applicata al settore",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Misurazioni aree/aiuole.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "PAS Feurstein",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Esercizi carta-matita, manipolazione.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Leggere il presente",
+      "categoria_principale": "Culturale",
+      "descrizione_e_metodologia": "Analisi articoli giornalistici.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "English in action",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Attività potenziamento lingua inglese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corso di apicoltura",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Pratica apicoltura.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Bird watching",
+      "categoria_principale": "Laboratoriale",
+      "descrizione_e_metodologia": "Osservazione uccelli.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Metodologie didattiche innovative",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi sulla gestione classe/adolescenti/benessere a scuola",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi su specifici insegnamenti disciplinari",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi sull’utilizzo esperto di Google-suite",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi sui nuovi Professionali",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corso insegnare e valutare educazione civica",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi di coding e STEM",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Corsi sulla progettazione (inclusa quella per PNRR)",
+      "categoria_principale": "Formazione Docenti",
+      "descrizione_e_metodologia": "Laboratori, Formazione di Scuola/Rete",
+      "target": "Tutti i docenti interessati"
+    },
+    {
+      "titolo_attivita": "Formazione sulla sicurezza",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Formazione on line, Formazione di Scuola/Rete",
+      "target": "Personale Collaboratore scolastico"
+    },
+    {
+      "titolo_attivita": "Utilizzo esperto delle applicazioni G-Suite",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Formazione on line, Formazione di Scuola/Rete",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "La gestione delle relazioni interne ed esterne",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Formazione on line, Formazione di Scuola/Rete",
+      "target": "Personale ATA"
+    },
+    {
+      "titolo_attivita": "L’accoglienza e la vigilanza",
+      "categoria_principale": "Formazione ATA",
+      "descrizione_e_metodologia": "Attività in presenza, Laboratori, Formazione on line, Formazione di Scuola/Rete",
+      "target": "Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF GERH023514\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.P.S.S.A.R. N.Bergese/Serale (GERH023514) per il triennio 2022-2025. L'istituto, situato a Genova, si configura come una scuola di tipo Infanzia, Professionale e Tecnico, operante nel territorio metropolitano della Liguria. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, con punteggi elevati in diverse aree chiave.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica uno spazio specifico all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza di un'attenzione strutturale a questa area.\n\n**2.2 Partnership:** L'istituto ha sviluppato un'ampia rete di partnership con diversi soggetti, tra cui **Università**, **Enti Locali**, **Associazioni professionali agricole**, **Ordini professionali**, **imprese del settore**, **associazioni del terzo settore**, **EELL**, **enti universitari**, **associazioni datoriali**, **Villa Durazzo Pallavicini**, **Villa Duchessa di Galliera**, **AMIU**, **IsforCoop** e **Alfa Liguria**. Il numero di partner attivi (6) e il punteggio di 5 indicano una forte collaborazione con il territorio e il mondo del lavoro.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, nonché sulla facilitazione delle **transizioni formative** e sull'acquisizione di **capacità orientative** per cogliere le opportunità offerte dal contesto. Ogni finalità ha ottenuto un punteggio di 3, suggerendo un approccio equilibrato ma con margini di approfondimento.\n\n**2.4 Obiettivi:** Tra gli obiettivi prioritari figurano la riduzione dell'**abbandono scolastico** (punteggio 5), la promozione della continuità territoriale (punteggio 4), il contrasto alla dispersione dei **NEET** (punteggio 3) e lo sviluppo del **lifelong learning** (punteggio 3).\n\n**2.5 Azioni di Sistema:** Le azioni implementate mirano al coordinamento dei servizi, al dialogo tra docenti e studenti, al rapporto scuola-genitori, al monitoraggio delle azioni e alla creazione di un sistema integrato di inclusione e supporto alle fragilità. Ogni azione ha ottenuto un punteggio di 4, evidenziando un approccio sistemico e collaborativo.\n\n**2.6 Didattica Orientativa:** L'approccio didattico si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi e sull'interdisciplinarità. Ogni aspetto ha ottenuto un punteggio di 3, indicando un'implementazione moderata di queste metodologie.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende moduli culturali, laboratoriali ed espressivi, ludico-ricreativi, di volontariato e sportivi, ciascuno con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella presenza di una sezione dedicata all'orientamento, nella solida rete di partnership con il territorio e nel mondo del lavoro, nell'impegno a ridurre l'abbandono scolastico e nella promozione di un approccio sistemico all'orientamento. Le attività pratiche come \"**Potatura alberi da frutta**\" e \"**Gestione orti didattici**\" offrono agli studenti esperienze concrete nel settore agricolo. Il \"**Presidio educativo antidispersione**\", sviluppato in collaborazione con associazioni del terzo settore e **EELL**, rappresenta un'iniziativa importante per supportare gli studenti a rischio. L'offerta di **PCTO** con imprese del territorio è un ulteriore elemento positivo.\n\n### 4. Aree di Debolezza\n\nLe aree di debolezza riguardano principalmente le finalità dell'orientamento, che, pur essendo ben definite, necessitano di un maggiore approfondimento. Anche l'implementazione di metodologie didattiche innovative e l'offerta di attività opzionali potrebbero essere potenziate.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di tradurre le finalità dell'orientamento in azioni concrete e misurabili. È importante definire indicatori specifici per valutare l'efficacia delle attività implementate e monitorare i progressi degli studenti. Inoltre, sarebbe auspicabile ampliare l'offerta di attività opzionali e laboratoriali, in linea con gli interessi e le attitudini degli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.P.S.S.A.R. N.Bergese/Serale dimostra un impegno significativo verso l'orientamento, con una solida base di partenza e un'ampia rete di partnership. Per massimizzare l'efficacia delle azioni implementate, è necessario definire obiettivi specifici e misurabili, potenziare l'offerta di attività opzionali e laboratoriali e monitorare costantemente i progressi degli studenti. Le attività di **formazione docenti** su metodologie innovative e l'utilizzo di strumenti digitali rappresentano un investimento importante per il futuro."
+}

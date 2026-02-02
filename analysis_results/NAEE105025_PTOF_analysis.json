@@ -1,0 +1,187 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAEE105025",
+    "denominazione": "Afragola 3 -",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Afragola",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Mancini",
+    "cap": "80021",
+    "email": "naee105003@istruzione.it",
+    "pec": "ND",
+    "website": "www.aldomorocd.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Sezione presente nel documento"
+    },
+    "2_2_partnership": {
+      "score": 2,
+      "partner_nominati": [
+        "Comune",
+        "A.S.L.",
+        "C.O.P. Afragola",
+        "Scuole medie inferiori e superiori",
+        "Associazioni culturali locali",
+        "Associazioni di volontariato",
+        "Centri di formazione",
+        "Agenzie territoriali",
+        "Associazioni Famiglie"
+      ],
+      "partnership_count": 9
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 2
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Recupero competenze di base",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Interventi intensivi per colmare lacune",
+      "target": "Studenti in difficoltà"
+    },
+    {
+      "titolo_attivita": "Costruzione banca dati prove",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Creazione archivio prove standardizzate",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Consultazione pratiche didattiche",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Facilitare reperibilità esperienze didattiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Progetto Sicurezza e Orientamento",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso sicurezza sul lavoro e orientamento al lavoro. Conoscenza norme sicurezza, analisi competenze, redazione CV.",
+      "target": "Classi Terze, Quarte e Quinte"
+    },
+    {
+      "titolo_attivita": "Cisco IT Essentials V7.0",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso Cisco con attività sincrone e e-learning. Certificazione Cisco.",
+      "target": "Classi Terze (Informatica/Automazione)"
+    },
+    {
+      "titolo_attivita": "Cisco CCNA Introduction to Networks V7.0",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso Cisco con attività sincrone e e-learning. Certificazione Cisco.",
+      "target": "Classi Quarte (Informatica)"
+    },
+    {
+      "titolo_attivita": "Cisco CCNA Switching, Routing and Wireless Essentials V7.0",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Corso Cisco con attività sincrone e e-learning. Certificazione Cisco.",
+      "target": "Classi Quinte (Informatica)"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Uscite didattiche per scoperta del territorio",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Stage e tirocini",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze lavorative per avvicinarsi al mondo del lavoro",
+      "target": "Studenti del triennio"
+    },
+    {
+      "titolo_attivita": "Progetti per l’orientamento in uscita",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Progetti specifici per l'orientamento post-scolastico",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAEE105025\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Afragola 3” (codice NAEE105025) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano di Afragola, in Campania, dimostra un’attenzione significativa all'orientamento, come evidenziato dalla presenza di una sezione dedicata e da un punteggio complessivo positivo nelle diverse dimensioni analizzate. Il PTOF prevede diverse azioni e attività volte a supportare gli studenti nelle loro scelte future, con un focus particolare sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** rispetto alle opportunità del territorio.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio massimo di 5, a testimonianza dell'importanza attribuita a questo ambito.\n\n**2.2 Partnership:** La scuola collabora con una vasta gamma di partner esterni, tra cui il **Comune**, l'**A.S.L.**, il **C.O.P. Afragola**, scuole medie inferiori e superiori, **associazioni culturali** e di **volontariato**, **centri di formazione**, **agenzie territoriali** e **associazioni famiglie**. Questo network di collaborazioni, composto da 9 partner, rappresenta una risorsa preziosa per ampliare l'offerta formativa e offrire agli studenti opportunità di orientamento concrete e diversificate.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e mirano a sviluppare le **attitudini**, gli **interessi** e a supportare il **progetto di vita** degli studenti. Particolare attenzione è rivolta alle **transizioni formative** e allo sviluppo delle **capacità orientative** per affrontare le sfide del futuro.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento includono la riduzione dell'**abbandono scolastico**, la promozione della continuità territoriale, il contrasto alla dispersione formativa e l'incentivo al **lifelong learning**. L'obiettivo di contrastare i **NEET** risulta meno prioritario rispetto agli altri.\n\n**2.5 Azioni di Sistema:** Il PTOF prevede azioni di sistema volte a favorire il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato di inclusione e supporto alle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'esperienza degli studenti, sull'utilizzo di metodologie laboratoriali, sulla flessibilità degli spazi e dei tempi e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta formativa prevede opzionali di tipo culturale, laboratoriale-espressivo, ludico-ricreativo, di volontariato e sportivo, ampliando ulteriormente le opportunità di orientamento e di sviluppo delle competenze degli studenti.\n\n### 3. Punti di Forza\n\nIl principale punto di forza del PTOF è la presenza di una sezione dedicata all'orientamento e la vasta rete di **partnership** attivate. L'attenzione alle **transizioni formative** e allo sviluppo delle **capacità orientative** rappresenta un valore aggiunto significativo. Le attività registrate, come **Visite guidate** e **Stage e tirocini**, offrono agli studenti opportunità concrete di esplorazione del territorio e del mondo del lavoro. L'offerta di corsi **Cisco IT Essentials V7.0**, **Cisco CCNA Introduction to Networks V7.0** e **Cisco CCNA Switching, Routing and Wireless Essentials V7.0** per le classi dell'indirizzo informatico dimostra un’attenzione all’innovazione e all’acquisizione di competenze digitali.\n\n### 4. Aree di Debolezza\n\nL'obiettivo di contrastare i **NEET** appare meno prioritario rispetto agli altri obiettivi definiti nel PTOF. Il punteggio relativamente basso per le opzionali suggerisce che potrebbe essere necessario ampliare l'offerta in questo ambito. Il monitoraggio delle azioni, pur presente, potrebbe essere potenziato per garantire una valutazione efficace dell'impatto delle iniziative intraprese.\n\n### 5. Gap Analysis\n\nNonostante l'impegno profuso, è necessario colmare il gap tra gli obiettivi dichiarati e la loro effettiva implementazione. Un maggiore focus sulla prevenzione della dispersione formativa e sull'orientamento verso professioni emergenti potrebbe contribuire a ridurre il rischio di **NEET**. Un potenziamento delle attività di monitoraggio e valutazione consentirebbe di misurare l'efficacia delle iniziative intraprese e di apportare eventuali correzioni di rotta.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria “Afragola 3” dimostra un’attenzione significativa all'orientamento, con una sezione dedicata, una vasta rete di **partnership** e una serie di attività mirate a supportare gli studenti nelle loro scelte future. Pur presentando alcune aree di debolezza, il PTOF rappresenta un solido punto di partenza per lo sviluppo di un sistema di orientamento efficace e in linea con le esigenze del territorio. L'attività di **Recupero competenze di base** e la **Costruzione banca dati prove** sono fondamentali per garantire un supporto didattico personalizzato e una valutazione oggettiva degli apprendimenti. La **Consultazione pratiche didattiche** favorisce la condivisione di esperienze e la crescita professionale dei docenti. Il **Progetto Sicurezza e Orientamento** e i **Progetti per l’orientamento in uscita** completano un quadro complessivo di grande valore."
+}

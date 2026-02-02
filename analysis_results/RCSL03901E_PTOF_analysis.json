@@ -1,0 +1,257 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCSL03901E",
+    "denominazione": "L. Art. Cittanova - Ass. Iis \"V.Gerace\"",
+    "tipo_scuola": "Liceo",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Cittanova",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Regina Elena",
+    "cap": "89022",
+    "email": "info@istitutogaussasti.it",
+    "pec": "ND",
+    "website": "https//pololicealeguerrisigerace.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "PTOF dedica spazio a valori, contesto e caratteristiche dell'istituto, ma non presenta una sezione specificamente dedicata all'orientamento con obiettivi, attività e indicatori definiti."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 2
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di igiene e sicurezza",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "D.lgs 81/08",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Apprendimento mappe mentali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Autovalutazione",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Domande di riflessione sull'apprendimento",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Gli studenti simulano interviste a figure storiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali, simulazioni.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Riconoscimento, classificazione, test fisici/chimici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Reportage, mappe concettuali, dossier tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Contesti professionali, glossari tematici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Supporti cartacei, software CAD.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Applicazioni giuridiche, proporzioni, percentuali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti fisica applicata",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Meccanica, termodinamica, ottica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Benessere psico-fisico, prevenzione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore odontotecnico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie avanzate (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per studenti e diplomati.",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Attività extra curricolari",
+      "categoria_principale": "Studio",
+      "descrizione_e_metodologia": "Studio di gruppo per ridurre giudizi sospesi.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCSL03901E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'istituto **L. Art. Cittanova - Ass. Iis \"V.Gerace\"** (RCSL03901E), relativo al triennio 2023/24-2024/25-2025/26. L'istituto, di tipo **Liceo** situato in **Calabria** (provincia di **Reggio Calabria**, comune di **Cittanova**), si configura come una realtà scolastica **statale**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni intraprese, la didattica orientativa e l'offerta di attività opzionali.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF dedica spazio ai valori, al contesto e alle caratteristiche dell'istituto, tuttavia non presenta una sezione specificamente dedicata all'orientamento con obiettivi, attività e indicatori definiti. Questo aspetto rappresenta un punto critico per una pianificazione strategica dell'orientamento.\n\n**2.2 Partnership:** L'istituto dimostra un'elevata capacità di attivare **partnership** con il territorio, come evidenziato dalla collaborazione con **Imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, diverse **aziende accreditate** e altre **aziende di settore**. Sono state individuate ben 5 partnership, un dato significativo.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, delle **transizioni formative** e delle **capacità orientative** per cogliere le opportunità offerte dal contesto socio-economico.\n\n**2.4 Obiettivi:** Tra gli obiettivi, si evidenzia un punteggio medio. L'istituto mira a ridurre l'**abbandono** scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**, sebbene l'implementazione di questi obiettivi necessiti di un maggiore approfondimento.\n\n**2.5 Azioni di Sistema:** Il **coordinamento dei servizi** e l'implementazione di un **sistema integrato di inclusione e fragilità** ricevono un punteggio elevato, indicando un'attenzione particolare a questi aspetti. Il **dialogo tra docenti e studenti** e il **rapporto scuola-genitori** presentano margini di miglioramento, così come il **monitoraggio delle azioni** intraprese.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti** e sull'utilizzo di metodologie **laboratoriali**. La **flessibilità degli spazi e dei tempi** risulta meno sviluppata, mentre l'approccio **interdisciplinare** è considerato adeguato.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali include opzioni **culturali**, **laboratoriali ed espressive**, **volontariato**, ma risulta carente in termini di attività **ludiche, ricreative** e soprattutto **sportive**.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF risiedono nella solida rete di **partnership** con il territorio, nella chiarezza delle **finalità** dell'orientamento e nell'attenzione all'**inclusione** e alla creazione di un **sistema integrato** per gli studenti con fragilità. L'utilizzo di metodologie didattiche basate sull'**esperienza** e sul **laboratorio** rappresenta un valore aggiunto.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione specificamente dedicata all'orientamento, con obiettivi, attività e indicatori definiti, costituisce l'area di debolezza principale. Anche la definizione degli obiettivi di riduzione dell'**abbandono**, contrasto ai **NEET** e promozione del **lifelong learning** necessita di un maggiore dettaglio. L'offerta di attività opzionali risulta sbilanciata, con una scarsa attenzione alle attività **ludiche, ricreative** e **sportive**.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un piano d'azione specifico per l'orientamento, integrato nel PTOF, con obiettivi misurabili e indicatori di performance. È necessario potenziare le attività di **monitoraggio** e valutazione delle azioni intraprese, nonché ampliare l'offerta di attività opzionali, includendo proposte più diversificate e coinvolgenti.\n\n### 6. Conclusioni\n\nIl PTOF dell'istituto **L. Art. Cittanova - Ass. Iis \"V.Gerace\"** presenta un quadro generale positivo, con una buona attenzione alle **partnership** e all'**inclusione**. Tuttavia, per rendere l'azione orientativa più efficace e coerente con le finalità dichiarate, è fondamentale colmare il divario esistente attraverso la definizione di una sezione dedicata all'orientamento, con obiettivi chiari, attività concrete e indicatori di performance misurabili. L'istituto dovrebbe inoltre diversificare l'offerta di attività opzionali, per rispondere in modo più completo alle esigenze e agli interessi degli studenti. Le attività come **PCTO**, i corsi di **igiene e sicurezza**, la digitalizzazione presso l'**Archivio di Stato di Asti** e **ISRAT**, la realizzazione di **audiolibri**, le **mappe mentali**, le **simulazioni di interviste storiche** e i laboratori tematici rappresentano un buon punto di partenza per un'azione orientativa più strutturata e mirata."
+}

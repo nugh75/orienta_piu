@@ -1,0 +1,263 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NARC11850E",
+    "denominazione": "Is D'Este - Caracciolo Serale",
+    "tipo_scuola": "Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Napoli",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Giacomo Savarese, 60 Napoli 80142",
+    "cap": "ND",
+    "email": "nais118007@istruzione.it",
+    "pec": "nais118007@pec.istruzione.it",
+    "website": "www.isabelladestecaracciolo.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 1,
+      "note": "Non è presente una sezione dedicata all'orientamento, ma piuttosto una serie di attività sparse che rientrano in questa tematica."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "ASL",
+        "servizi sociali",
+        "parrocchie",
+        "associazioni",
+        "enti locali",
+        "fondazione ITS MIA MODA CAMPANIA",
+        "rete TAM",
+        "rete SCUOLE PER LA SANITA'",
+        "associazioni produttive",
+        "professioni",
+        "ricerca",
+        "Gesfor srl",
+        "Associazione Centro La Tenda"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 5
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di alternanza scuola-lavoro mirati ad aumentare le possibilità occupazionali degli studenti, con particolare attenzione alla valorizzazione delle competenze acquisite.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento universitario",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Supporto personalizzato per l'orientamento universitario, con focus sull'individuazione di eccellenze e sulla preparazione per l'accesso a corsi di laurea specialistici.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Potenziamento Lettura E Comprensione",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività di potenziamento delle competenze di lettura e comprensione del testo, attraverso l'utilizzo di metodologie innovative e coinvolgenti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività Di Tutoring E Peer To Peer",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Implementazione di attività di tutoring e peer to peer per favorire la collaborazione tra studenti e il supporto reciproco nell'apprendimento.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Del Pensiero Computazionale",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratorio pratico dedicato allo sviluppo del pensiero computazionale, con l'utilizzo di strumenti e linguaggi di programmazione accessibili.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Crescere Partecipando",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di attività volte a promuovere l'inclusione sociale e la partecipazione attiva degli studenti alla vita scolastica e comunitaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lavorare Per Un Cittadino Consapevole",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Progetti educativi per la formazione di cittadini consapevoli e responsabili, con particolare attenzione ai temi della legalità, della sostenibilità e della cittadinanza digitale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientamento In Uscita Nel Mondo Del Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi di orientamento in uscita per facilitare l'inserimento nel mondo del lavoro, con attività di simulazione, workshop e visite aziendali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progettazione collezioni moda",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività pratiche di progettazione e realizzazione di collezioni moda, con l'utilizzo di tecniche e materiali innovativi.",
+      "target": "Studenti Calzature e Moda"
+    },
+    {
+      "titolo_attivita": "Analisi filiera produttiva",
+      "categoria_principale": "Visite/Stage",
+      "descrizione_e_metodologia": "Visite aziendali e analisi dei processi produttivi per comprendere il funzionamento della filiera del settore calzaturiero e della moda.",
+      "target": "Studenti Calzature e Moda"
+    },
+    {
+      "titolo_attivita": "Alternanza Scuola Lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Percorsi differenziati di alternanza scuola-lavoro, calibrati sugli indirizzi di studio, con particolare attenzione alla possibilità di ricadute occupazionali concrete.",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Percorsi IeFP",
+      "categoria_principale": "Formazione Professionale",
+      "descrizione_e_metodologia": "Offerta di percorsi di istruzione e formazione professionale (IeFP) per l'acquisizione di qualifiche e diplomi professionali.",
+      "target": "Allievi che richiedono qualifica/diploma"
+    },
+    {
+      "titolo_attivita": "Progetti educativi e culturali con Fondazione San Gennaro",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di progetti educativi e culturali in collaborazione con la Fondazione San Gennaro, per lo sviluppo socio-culturale del Rione Sanità.",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Progetti educativi con Cooperativa La Paranza",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di progetti educativi in collaborazione con la Cooperativa La Paranza, per lo sviluppo socio-culturale del Rione Sanità.",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Servizio Laboratorio Educativa Territoriale",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Realizzazione di un servizio di laboratorio educativo territoriale per offrire supporto e opportunità formative ai giovani del territorio.",
+      "target": "Studenti e comunità locale"
+    },
+    {
+      "titolo_attivita": "Opportunità formative con Imprenditori Di Sogni",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Offerta di opportunità formative in collaborazione con l'associazione Imprenditori Di Sogni, per la riduzione del disagio e dell'insuccesso scolastico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Orientattivamente",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Ciclo di 4 moduli da 30 ore ciascuno, con il supporto di tutor interni ed esterni, per l'orientamento scolastico e professionale.",
+      "target": "Studenti terze, quarte e quinte classi"
+    },
+    {
+      "titolo_attivita": "See The Future Together",
+      "categoria_principale": "Imprenditorialità",
+      "descrizione_e_metodologia": "Approfondimento delle tematiche aziendali e dell'impresa nel settore della moda lifestyle, con l'obiettivo di stimolare la creatività e l'innovazione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Parlare, Leggere, Scrivere E Pensare Nella Tua Nuova Lingua",
+      "categoria_principale": "Lingue straniere",
+      "descrizione_e_metodologia": "Attività di potenziamento delle abilità linguistiche a livello B1, attraverso l'utilizzo di materiali autentici e metodologie comunicative.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Creare Dolci Dal Design Innovativo",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Percorso di alternanza scuola-lavoro presso una struttura ospitante, con valutazione basata sull'osservazione e su un test finale.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "CREO LA MIA AZIENDA",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Percorso di alternanza scuola-lavoro presso una struttura ospitante, con valutazione basata sull'osservazione e sulla relazione con il cliente.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "LA PELLETTERIA. IL LABORATORIO ARTIGIANALE",
+      "categoria_principale": "Alternanza Scuola Lavoro",
+      "descrizione_e_metodologia": "Percorso di alternanza scuola-lavoro presso un laboratorio artigianale, con valutazione basata sull'osservazione e su un test finale.",
+      "target": "Alunni"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NARC11850E\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Is D'Este - Caracciolo Serale** (codice scuola NARC11850E) per il triennio 2019/20-2021/22. L'istituto, di tipo **Professionale, Tecnico** e afferente al secondo grado, opera nel territorio **Metropolitano** di **Napoli**, in **Campania**. L'analisi evidenzia un impegno significativo verso l'orientamento, sebbene non formalizzato in una sezione dedicata ma piuttosto integrato in una serie di attività sparse. La scuola dimostra una forte attenzione alla riduzione dell'**abbandono scolastico**, alla continuità territoriale, al contrasto alla condizione **NEET** e alla promozione del **lifelong learning**.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'assenza di una sezione specificamente dedicata all'orientamento rappresenta una peculiarità del PTOF. Tuttavia, l'istituto compensa questa mancanza attraverso l'implementazione di diverse attività che rientrano in questa tematica, dimostrando una sensibilità verso le esigenze orientative degli studenti.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di **partnership** con numerosi enti e associazioni, tra cui **ASL**, **servizi sociali**, **parrocchie**, **associazioni**, **enti locali**, **fondazione ITS MIA MODA CAMPANIA**, la **rete TAM**, la **rete SCUOLE PER LA SANITA'**, **associazioni produttive**, **professioni**, **ricerca**, **Gesfor srl** e l'**Associazione Centro La Tenda**. Questo elevato numero di collaborazioni (12 partner) testimonia l'impegno dell'istituto nel creare un sistema di supporto integrato per gli studenti.\n\n**2.3 Finalità:**\n\nLe finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi** e del **progetto di vita** degli studenti, nonché il supporto nelle **transizioni formative** e il potenziamento delle loro **capacità orientative** per cogliere le opportunità offerte dal territorio.\n\n**2.4 Obiettivi:**\n\nGli obiettivi del PTOF in materia di orientamento sono ambiziosi e mirano a **ridurre l'abbandono scolastico**, a garantire la **continuità territoriale** degli studenti, a **contrastare la condizione NEET** e a promuovere il **lifelong learning**.\n\n**2.5 Azioni di Sistema:**\n\nL'istituto implementa un sistema di azioni coordinate che coinvolgono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il **rapporto scuola-genitori** e il **monitoraggio delle azioni** intraprese. Particolare attenzione è rivolta all'implementazione di un **sistema integrato di inclusione e fragilità**.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si basa sull'apprendimento dall'**esperienza degli studenti**, sull'utilizzo di **laboratori**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**.\n\n**2.7 Opzionali e Facoltative:**\n\nL'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, con punteggi variabili a indicare una diversificazione dell'offerta.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership**, nella chiarezza delle **finalità** e degli **obiettivi**, nell'implementazione di un sistema di **azioni coordinate** e nell'utilizzo di metodologie didattiche innovative e coinvolgenti. L'impegno verso l'**inclusione** e la lotta alla dispersione scolastica rappresenta un ulteriore elemento di valore. Le attività come **Alternanza scuola-lavoro** e **Orientamento universitario** sono ben definite e mirate.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Sebbene l'istituto compensi questa mancanza attraverso l'implementazione di diverse attività, una sezione specifica consentirebbe di dare maggiore visibilità e coerenza all'azione orientativa. L'offerta di opzionali **ludiche e ricreative** appare meno sviluppata rispetto alle altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella formalizzazione dell'azione orientativa all'interno del PTOF. L'istituto potrebbe beneficiare dalla creazione di una sezione dedicata, che definisca in modo più preciso le strategie, le azioni e gli indicatori di successo dell'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF dell'Is D'Este - Caracciolo Serale dimostra un impegno significativo verso l'orientamento, nonostante l'assenza di una sezione dedicata. La vasta rete di **partnership**, la chiarezza delle **finalità** e degli **obiettivi**, l'implementazione di un sistema di **azioni coordinate** e l'utilizzo di metodologie didattiche innovative rappresentano i punti di forza del PTOF. L'istituto potrebbe migliorare la sua azione orientativa formalizzando l'offerta attraverso la creazione di una sezione specifica e potenziando l'offerta di attività opzionali **ludiche e ricreative**. Le attività registrate, come **Crescere Partecipando**, **Lavorare Per Un Cittadino Consapevole** e **Opportunità formative con Imprenditori Di Sogni**, dimostrano un approccio olistico all'educazione e all'orientamento degli studenti."
+}

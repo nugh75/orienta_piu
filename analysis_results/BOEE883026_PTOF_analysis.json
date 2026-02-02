@@ -1,0 +1,275 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "BOEE883026",
+    "denominazione": "Gian Paolo Costa",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Est",
+    "territorio": "Metropolitano",
+    "comune": "Bologna",
+    "anno_ptof": "2019/20-2021/22",
+    "provincia": "Bologna",
+    "regione": "Emilia Romagna",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Milano 13",
+    "cap": "40139",
+    "email": "boic883003@istruzione.it",
+    "pec": "mtis01700x@pec.istruzione.it",
+    "website": "https//www.ic22bo.edu.it/"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene l'orientamento sia presente come tema trasversale in diverse sezioni del PTOF, manca una trattazione organica e strutturata come capitolo a sé stante."
+    },
+    "2_2_partnership": {
+      "score": 3,
+      "partner_nominati": [
+        "AGROBIOS",
+        "Associazioni",
+        "Consulenti esterni",
+        "I.B.B.R",
+        "AGRO.BIOS. del CNR",
+        "Centro ENEA",
+        "Scuole In Magna Grecia",
+        "Tursiopes",
+        "Teaching For Inclusion",
+        "Rete Ambito Bas 005",
+        "PLS",
+        "Wedebate",
+        "Re.Na"
+      ],
+      "partnership_count": 13
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 3
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 3
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 3
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Stage ASL",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Esperienze lavorative in contesti reali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Scambi culturali",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Partenariati con scuole europee",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Microconferenze",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Tecniche di insegnamento: microconferenze, service learning, flipped classroom.",
+      "target": "Docenti, Studenti, Genitori"
+    },
+    {
+      "titolo_attivita": "Flipped Classroom",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Rovesciamento dei ruoli/momenti attività.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Service Learning (METEO)",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Ampliamento fruitori, produzione grafici, previsioni a lungo termine.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli disciplinari in lingua",
+      "categoria_principale": "Innovazione Metodologica",
+      "descrizione_e_metodologia": "Veicolazione moduli in inglese.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazione inglese",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "Didattica digitale",
+      "categoria_principale": "Insegnamenti opzionali",
+      "descrizione_e_metodologia": "Attivazione insegnamenti opzionali in orario antimeridiano",
+      "target": "Tutti gli indirizzi liceali"
+    },
+    {
+      "titolo_attivita": "PCTO presso Struttura Ospitante",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Stage/tirocinio in aziende",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Impresa Formativa Simulata (IFS)",
+      "categoria_principale": "Alternanza Scuola-Lavoro",
+      "descrizione_e_metodologia": "Simulazione di attività aziendali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Olimpiadi Di Astronomia",
+      "categoria_principale": "Approfondimento Scientifico",
+      "descrizione_e_metodologia": "Attività di approfondimento delle materie scientifiche-astronomiche. Potenziare le capacità matematiche e tecnico-scientifiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Cittadinanza E Costituzione",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Percorsi di cittadinanza in intesa con Regione Basilicata e Miur. Sviluppare il senso di cittadinanza attiva.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gemellaggi",
+      "categoria_principale": "Internazionalizzazione",
+      "descrizione_e_metodologia": "Rapporti di studio e collaborazione con istituti Danese e Olandese.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "L2: Lingua Italiana Per Stranieri",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Corso di potenziamento della lingua italiana per ragazzi stranieri. Potenziare le competenze linguistiche e comunicative.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Competenze Lingua Straniera: Francese",
+      "categoria_principale": "Lingue Straniere",
+      "descrizione_e_metodologia": "Potenziamento e consolidamento della lingua francese. Pair work, role play, team games.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Teatro Antico E Moderno",
+      "categoria_principale": "Arte e Spettacolo",
+      "descrizione_e_metodologia": "Scrittura/riscrittura e rappresentazione scenica di opere antiche e moderne.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Pon Fsre, Smart Class",
+      "categoria_principale": "Innovazione Didattica",
+      "descrizione_e_metodologia": "Acquisto devices tecnologici per innovare le metodologie didattiche.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "BYOD",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Linee guida per politiche attive di BYOD. Uso consapevole dei dispositivi per l'apprendimento.",
+      "target": "Studenti classi prime"
+    },
+    {
+      "titolo_attivita": "Coding e Robotica",
+      "categoria_principale": "Tecnologie Digitali",
+      "descrizione_e_metodologia": "Attività di coding e robotica educativa per studenti diversamente abili.",
+      "target": "Studenti diversamente abili"
+    },
+    {
+      "titolo_attivita": "Progetti territoriali integrati",
+      "categoria_principale": "Reti e Convenzioni",
+      "descrizione_e_metodologia": "Progetti con associazioni e enti esterni",
+      "target": "Tutti"
+    },
+    {
+      "titolo_attivita": "Stage/Alternanza scuola-lavoro",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze pratiche in azienda",
+      "target": "Studenti classi terminali"
+    },
+    {
+      "titolo_attivita": "Laboratori artistici, musicali, teatrali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività pratiche e creative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di recupero",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Corsi in itinere, sportello didattico, attività progettuali",
+      "target": "Studenti con difficoltà"
+    },
+    {
+      "titolo_attivita": "Definizione PEI/PDP",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Programmazione didattica, osservazione, redazione PEI/PDP",
+      "target": "Studenti con BES"
+    }
+  ],
+  "narrative": "# Analisi del PTOF BOEE883026\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria \"Gian Paolo Costa\" (BOEE883026) per il triennio 2019/20-2021/22. La scuola, situata nel territorio metropolitano di Bologna, in Emilia Romagna, è un istituto statale. L'analisi si basa sui dati forniti, valutando la presenza, la struttura e l'efficacia delle iniziative orientative proposte. Sebbene l'orientamento sia considerato un tema trasversale, si evidenzia una mancanza di una sezione organica e strutturata specificamente dedicata a questo ambito.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'orientamento non è trattato come un capitolo a sé stante nel PTOF, ottenendo un punteggio di 3. Questo suggerisce una sua integrazione in altre aree, ma una mancanza di centralità e di visione strategica specifica.\n\n**2.2 Partnership:** La scuola dimostra una notevole capacità di collaborare con diversi partner esterni, tra cui **AGROBIOS**, **AGRO.BIOS. del CNR**, **Centro ENEA**, **I.B.B.R**, **Scuole In Magna Grecia**, **Tursiopes**, **Teaching For Inclusion**, **Rete Ambito Bas 005**, **PLS**, **Wedebate**, **Re.Na** e diverse **Associazioni** e **Consulenti esterni**. Sono state individuate 13 partnership, indicando un impegno attivo nella creazione di una rete di supporto per gli studenti.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo di **attitudini**, **interessi**, la progettazione del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le **opportunità**. Tutte queste aree ricevono un punteggio di 4, evidenziando una chiara visione degli obiettivi da raggiungere.\n\n**2.4 Obiettivi:** Gli obiettivi specifici del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità con il **territorio**, sul contrasto al fenomeno dei **NEET** (Not in Education, Employment or Training) e sulla promozione del **lifelong learning**. Anche questi obiettivi ottengono un punteggio di 3, suggerendo un buon livello di ambizione, ma forse una mancanza di azioni concrete per la loro piena realizzazione.\n\n**2.5 Azioni di Sistema:** Le azioni previste per implementare l'orientamento includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** e la creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono un punteggio di 3, indicando un approccio sistemico, ma con margini di miglioramento nella loro implementazione e valutazione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento **da esperienza degli studenti**, sulla **flessibilità degli spazi e dei tempi** e sull'approccio **interdisciplinare**. L'utilizzo della didattica **laboratoriale** risulta meno sviluppato, con un punteggio di 2.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Le opzioni culturali, laboratoriali ed espressive e di volontariato ottengono un punteggio di 3, mentre quelle ludiche e ricreative e sportive ricevono un punteggio di 1, suggerendo una minore attenzione a queste aree.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella chiarezza delle finalità, nella ricchezza delle partnership con enti e associazioni esterne e nell'approccio didattico basato sull'esperienza e sulla flessibilità. L'impegno verso l'inclusione e la creazione di un sistema integrato rappresenta un ulteriore elemento positivo. Attività come gli **Stage ASL**, gli **Scambi culturali**, le **Microconferenze**, il **Service Learning (METEO)** e i **Moduli disciplinari in lingua** dimostrano un'attenzione all'innovazione e alla preparazione degli studenti per il futuro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è rappresentata dalla mancanza di una sezione dedicata all'orientamento all'interno del PTOF. Questo comporta una frammentazione delle iniziative e una difficoltà nel definire una strategia coerente e a lungo termine. L'offerta di attività opzionali ludiche e ricreative e sportive appare limitata.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di strutturare un'offerta formativa orientativa più organica e integrata, con obiettivi misurabili e indicatori di performance definiti. È necessario potenziare l'utilizzo della didattica laboratoriale e ampliare l'offerta di attività opzionali, in particolare quelle legate al tempo libero e allo sport.\n\n### 6. Conclusioni\n\nIl PTOF della scuola \"Gian Paolo Costa\" presenta un buon potenziale in materia di orientamento, grazie alla chiarezza delle finalità, alla ricchezza delle partnership e all'impegno verso l'innovazione didattica. Tuttavia, per raggiungere una piena efficacia, è necessario strutturare un'offerta formativa orientativa più organica e integrata, con una sezione dedicata all'interno del PTOF e obiettivi misurabili. L'implementazione di azioni concrete per colmare le lacune individuate consentirà alla scuola di offrire un supporto più efficace agli studenti nella loro crescita personale e professionale. Attività come gli **Stage/Alternanza scuola-lavoro** e i **Laboratori artistici, musicali, teatrali** rappresentano un valido punto di partenza per un'offerta orientativa completa e di qualità."
+}

@@ -1,0 +1,511 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RMIS127001",
+    "denominazione": "F.De Pinedo- M. Colonna",
+    "tipo_scuola": "Liceo, Professionale, Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Centro",
+    "territorio": "Metropolitano",
+    "comune": "Roma",
+    "anno_ptof": "2025-2028",
+    "provincia": "Roma",
+    "regione": "Lazio",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Francesco Morandini 30",
+    "cap": "00142",
+    "email": "rmis126005@istruzione.it",
+    "pec": "rmis126005@pec.istruzione.it",
+    "website": "www.iismatteucci.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 5,
+      "note": "Presenti diverse attività di orientamento, ma non una sezione dedicata e strutturata all'interno del PTOF."
+    },
+    "2_2_partnership": {
+      "score": 7,
+      "partner_nominati": [
+        "Istituti scolastici all'estero",
+        "Alma-Diploma",
+        "ITS Academy",
+        "università",
+        "agenzie formative",
+        "enti locali",
+        "regioni",
+        "centri per l’impiego",
+        "imprese",
+        "Neways /Citroen",
+        "Televita",
+        "Save the Children",
+        "Unicusano",
+        "L.U.I.S.S.",
+        "Università La Sapienza",
+        "Associazione Centro ELIS",
+        "Lazio Innova",
+        "Università Roma Tre",
+        "Banca d’Italia",
+        "Leroy Merlin",
+        "RFI",
+        "ZERO CO2",
+        "Gruppo A2A",
+        "Albo dei Geometri",
+        "C.A.F.",
+        "Albo dei Commercialisti",
+        "Tecnowood",
+        "Educazione Digitale F.Edu.F",
+        "Caritas parrocchia San Ponziano",
+        "AICA",
+        "TRINITY COLLEGE of LONDON",
+        "Cisco Networking Academy",
+        "Lycée Toulouse Lautrec"
+      ],
+      "partnership_count": 32
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 7
+      },
+      "finalita_interessi": {
+        "score": 7
+      },
+      "finalita_progetto_vita": {
+        "score": 7
+      },
+      "finalita_transizioni_formative": {
+        "score": 7
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 7
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 7
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 7
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 7
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 7
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 7
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 7
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 7
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 7
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 7
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 7
+      },
+      "didattica_interdisciplinare": {
+        "score": 7
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 5
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 5
+      },
+      "opzionali_volontariato": {
+        "score": 5
+      },
+      "opzionali_sportive": {
+        "score": 5
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Visite alle scuole medie",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Incontri nelle scuole medie per presentare l'offerta formativa",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Open Day",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Giornata aperta al pubblico con visita della scuola",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Un giorno al Matteucci",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Laboratori didattici per studenti delle medie",
+      "target": "Studenti classi terze medie"
+    },
+    {
+      "titolo_attivita": "Un giorno al Matteucci",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visita e laboratori presso l'I.I.S. Carlo Matteucci per studenti della secondaria di I grado.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "AI for future skills",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Progetto PCTO su Intelligenza Artificiale con mobilità all'estero.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "AI for future skills",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Percorso formativo innovativo e interdisciplinare, Intelligenza Artificiale, laboratori, mobilità",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Moduli curricolari di orientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Moduli di 30 ore integrati con FSL, università, ITS Academy, peer tutoring",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "E-Portfolio Orientativo",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Strumento digitale UNICA per raccogliere competenze e esperienze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Docente Tutor",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Accompagnamento studenti nella predisposizione dell'E-Portfolio",
+      "target": "Classi del triennio"
+    },
+    {
+      "titolo_attivita": "GënerationAmi - a scuola di antibullismo",
+      "categoria_principale": "Prevenzione e contrasto al bullismo",
+      "descrizione_e_metodologia": "Progetto di contrasto al Bullismo e al Cyberbullismo rivolto alle classi terze.",
+      "target": "Classi terze"
+    },
+    {
+      "titolo_attivita": "Socializzazione della terza età",
+      "categoria_principale": "Servizio alla comunità",
+      "descrizione_e_metodologia": "PCTO con associazione Televita per supporto agli anziani.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "UndeRadio",
+      "categoria_principale": "Competenze digitali",
+      "descrizione_e_metodologia": "Progetto per rafforzamento competenze digitali tramite podcast.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO di orientamento - Unicusano",
+      "categoria_principale": "Orientamento universitario",
+      "descrizione_e_metodologia": "Lezioni su economia circolare, business plan, responsabilità sociale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sostenibilità – A.I.- Metaverso",
+      "categoria_principale": "Tecnologie emergenti",
+      "descrizione_e_metodologia": "PCTO su Intelligenza Artificiale e diritti umani.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Next Generation",
+      "categoria_principale": "Orientamento universitario",
+      "descrizione_e_metodologia": "Incontri con Università La Sapienza per presentazione corsi.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Inspirational Talk",
+      "categoria_principale": "Orientamento professionale",
+      "descrizione_e_metodologia": "Incontri con aziende (ENEL, ACEA, TECNA).",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Startupper School Academy",
+      "categoria_principale": "Imprenditorialità",
+      "descrizione_e_metodologia": "Programma regionale per ideare e prototipare soluzioni imprenditoriali.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Salute e sicurezza nei luoghi di lavoro",
+      "categoria_principale": "Sicurezza sul lavoro",
+      "descrizione_e_metodologia": "Laboratorio sul Metaverso e realtà virtuale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "I PCTO di Banca d’Italia",
+      "categoria_principale": "Amministrazione e finanza",
+      "descrizione_e_metodologia": "Stage per realizzazione modello Controllo di Gestione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Leonardo",
+      "categoria_principale": "Tecnologia e innovazione",
+      "descrizione_e_metodologia": "Attività laboratoriale con agenzia.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage presso filiale Banca Popolare di Sondrio",
+      "categoria_principale": "Amministrazione e finanza",
+      "descrizione_e_metodologia": "Stage di affiancamento in filiale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage Emporio Equosolidale",
+      "categoria_principale": "Servizio alla comunità",
+      "descrizione_e_metodologia": "Partecipazione a processi di supermercato equosolidale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage presso studi di Geometri",
+      "categoria_principale": "Tecnologia e edilizia",
+      "descrizione_e_metodologia": "Partecipazione a incontri formativi Albo Geometri.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage Ragionieri",
+      "categoria_principale": "Amministrazione e finanza",
+      "descrizione_e_metodologia": "Stage di affiancamento presso CAF e Albo Commercialisti.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Stage Geometri",
+      "categoria_principale": "Tecnologia e edilizia",
+      "descrizione_e_metodologia": "Stage acquisizione competenze tecniche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giovani Previdenti",
+      "categoria_principale": "Educazione finanziaria",
+      "descrizione_e_metodologia": "Corso su lavoro, previdenza e start-up.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Sportello Energia",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Corso sull'energia e responsabilità sociale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Una rete che fa rete",
+      "categoria_principale": "Trasporti",
+      "descrizione_e_metodologia": "Corso sulla infrastruttura ferroviaria.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Gocce di sostenibilità",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Percorso formativo sulla sostenibilità.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Viaggio nel mondo della transizione energetica",
+      "categoria_principale": "Sostenibilità",
+      "descrizione_e_metodologia": "Corso su energia rinnovabile ed economia circolare.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Economia civile",
+      "categoria_principale": "Educazione civica",
+      "descrizione_e_metodologia": "Percorso per promuovere la sostenibilità e inclusione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "We-Z",
+      "categoria_principale": "Architettura e urbanistica",
+      "descrizione_e_metodologia": "Riqualificazione spazi urbani.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Workshop di fotografia urbana",
+      "categoria_principale": "Arte e fotografia",
+      "descrizione_e_metodologia": "Workshop teorico-pratico sulla fotografia urbana.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Aboca Museum",
+      "categoria_principale": "Impresa e farmaceutica",
+      "descrizione_e_metodologia": "Visita all'azienda farmaceutica Aboca.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Casa del Cioccolato Perugina",
+      "categoria_principale": "Impresa e alimentare",
+      "descrizione_e_metodologia": "Visita all'azienda Perugina.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Formazione scuola lavoro presso Università Sapienza",
+      "categoria_principale": "Orientamento universitario",
+      "descrizione_e_metodologia": "Mini corsi universitari.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Cooperative learning",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Attività collaborative",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Attività laboratoriali integrate",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Laboratori aperti",
+      "target": "Studenti BES"
+    },
+    {
+      "titolo_attivita": "Uso nuove tecnologie",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Strumenti digitali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Sportello di ascolto",
+      "categoria_principale": "Supporto",
+      "descrizione_e_metodologia": "Incontri individuali",
+      "target": "Studenti e famiglie"
+    },
+    {
+      "titolo_attivita": "Robotica E Droni",
+      "categoria_principale": "STEM",
+      "descrizione_e_metodologia": "Costruzione robot, programmazione, realizzazione applicazioni fisiche.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Corsi e certificazione del Program Cisco Academy",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Corsi in orario scolastico e autoformazione, esami certificati.",
+      "target": "Triennio SIA e altre classi"
+    },
+    {
+      "titolo_attivita": "Sportello Di Preparazione Alla Patente Europea Del Computer (Icdl)",
+      "categoria_principale": "Informatica",
+      "descrizione_e_metodologia": "Certificazioni informatiche, PCTO.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Arte: riqualificazione e bellezza",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Attività grafico-pittoriche per inclusione e scoperta dei sensi.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Gardening together",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Cura aree verdi scolastiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetto PCTO con il Lycée Toulouse Lautrec",
+      "categoria_principale": "Internazionale",
+      "descrizione_e_metodologia": "Scambio culturale e organizzazione di attività.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Attività sportiva Corso Sia Indirizzo Sportivo",
+      "categoria_principale": "Sport",
+      "descrizione_e_metodologia": "Progetti Boxe, Orienteering, Skateboard.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Inventio. La Filosofia nell'istruzione tecnica e professionale",
+      "categoria_principale": "Filosofia",
+      "descrizione_e_metodologia": "Sviluppo del pensiero critico.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Analisi della prestazione energetica degli edifici",
+      "categoria_principale": "Tecnologie",
+      "descrizione_e_metodologia": "Introduzione competenze base per APE",
+      "target": "Studenti settore costruzioni"
+    },
+    {
+      "titolo_attivita": "Gardening e dintorni al Matteucci",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Cura aree verdi scolastiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Noi Siamo Green",
+      "categoria_principale": "Ambiente",
+      "descrizione_e_metodologia": "Educazione ambientale, inclusione",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Percorsi Autoregolati per lo Sviluppo delle Competenze di Base in Matematica",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Recupero e potenziamento competenze",
+      "target": "Biennio"
+    },
+    {
+      "titolo_attivita": "Astrofotografia Digitale ed Astronomia",
+      "categoria_principale": "Scienze",
+      "descrizione_e_metodologia": "Osservazione e ripresa astronomica",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Istruzione Domiciliare",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Lezioni e tutoraggio a domicilio",
+      "target": "Studenti con necessità"
+    },
+    {
+      "titolo_attivita": "Zanshin Tech",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Laboratori cybersecurity",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Test di autorientamento",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Somministrazione test per autovalutazione",
+      "target": "Classi prime e seconde"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visite a università/aziende con elaborato finale",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Erasmus",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Mobilità studentesca all'estero",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Esperienze di orientamento in Italia e all'estero",
+      "target": "Classi terze, quarte e quinte"
+    },
+    {
+      "titolo_attivita": "Proiezione film",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Visione film con riflessione critica",
+      "target": "Tutte le classi"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RMIS127001\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.I.S. F.De Pinedo- M. Colonna (RMIS127001) per il periodo 2025-2028. La scuola, situata nel territorio metropolitano di Roma, si configura come un istituto di istruzione secondaria di secondo grado che offre percorsi liceali, professionali e tecnici. L'analisi evidenzia un impegno significativo verso l'orientamento, supportato da una vasta rete di **partnership** e da una serie di attività mirate a sviluppare le attitudini, gli interessi e i progetti di vita degli studenti, facilitando le loro transizioni formative e fornendo loro le capacità necessarie per affrontare le opportunità future. Sebbene non sia presente una sezione dedicata specificamente all'orientamento all'interno del PTOF, l'istituto dimostra una buona integrazione delle attività di orientamento nel suo piano strategico.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi indica che, nonostante la presenza di numerose attività di orientamento, manca una sezione specificamente dedicata e strutturata all'interno del PTOF.\n\n**2.2 Partnership:** La scuola vanta un'ampia rete di collaborazioni con diversi soggetti, tra cui **istituti scolastici all'estero**, **Alma-Diploma**, **ITS Academy**, **università**, **agenzie formative**, **enti locali**, **regioni**, **centri per l’impiego**, **imprese** e numerose altre realtà come **Neways /Citroen**, **Televita**, **Save the Children**, **Unicusano**, **L.U.I.S.S.**, **Università La Sapienza**, **Associazione Centro ELIS**, **Lazio Innova**, **Università Roma Tre**, **Banca d’Italia**, **Leroy Merlin**, **RFI**, **ZERO CO2**, **Gruppo A2A**, **Albo dei Geometri**, **C.A.F.**, **Albo dei Commercialisti**, **Tecnowood**, **Educazione Digitale F.Edu.F**, **Caritas parrocchia San Ponziano**, **AICA**, **TRINITY COLLEGE of LONDON**, **Cisco Networking Academy** e **Lycée Toulouse Lautrec**. Il numero totale di partner coinvolti è di 32, evidenziando un forte impegno nella creazione di sinergie esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, il supporto alle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità disponibili.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento si concentrano sulla riduzione dell'**abbandono scolastico**, sulla continuità territoriale, sul contrasto al fenomeno **NEET** e sulla promozione del **lifelong learning**.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e la creazione di un sistema integrato per l'inclusione e la gestione delle fragilità.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni culturali, laboratoriali ed espressive, ludiche e ricreative, di volontariato e sportive, sebbene i punteggi ottenuti in questa dimensione siano inferiori rispetto alle altre.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF in materia di orientamento risiedono nella vasta rete di **partnership** attivate, nella chiarezza delle **finalità** e degli **obiettivi** definiti, e nell'impegno verso un approccio didattico orientativo basato sull'esperienza e sull'interdisciplinarità. L'ampia gamma di attività proposte, come **Visite alle scuole medie**, **Open Day**, **Un giorno al Matteucci**, **AI for future skills**, **Moduli curricolari di orientamento** ed **E-Portfolio Orientativo**, dimostra un'attenzione concreta alle esigenze degli studenti.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata all'orientamento all'interno del PTOF, nonostante la presenza di numerose attività in tal senso. Inoltre, l'offerta di attività opzionali e facoltative potrebbe essere ulteriormente ampliata e diversificata.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è la formalizzazione di una sezione specifica per l'orientamento nel PTOF, che permetterebbe di strutturare in modo più efficace le attività e di monitorarne i risultati. Un'ulteriore area di miglioramento riguarda l'ampliamento dell'offerta di attività opzionali e facoltative, al fine di soddisfare al meglio gli interessi e le esigenze di tutti gli studenti.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'I.I.S. F.De Pinedo- M. Colonna dimostra un impegno significativo verso l'orientamento, supportato da una solida rete di **partnership** e da una serie di attività mirate. La formalizzazione di una sezione dedicata all'orientamento all'interno del PTOF e l'ampliamento dell'offerta di attività opzionali e facoltative rappresentano le aree di miglioramento principali per potenziare ulteriormente l'efficacia delle strategie di orientamento adottate dall'istituto."
+}

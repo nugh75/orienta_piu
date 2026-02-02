@@ -1,0 +1,335 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "NAAA88502V",
+    "denominazione": "I.C. Villaricca",
+    "tipo_scuola": "Infanzia",
+    "ordine_grado": "Infanzia",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Villaricca",
+    "anno_ptof": "2022-2025",
+    "provincia": "Napoli",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Bologna N. 57",
+    "cap": "80100",
+    "email": "naic885001@istruzione.it",
+    "pec": "naic885001@pec.istruzione.it",
+    "website": "www.calvinovillaricca.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Riferimenti all'orientamento sono presenti in diverse sezioni, ma manca una sezione dedicata."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "ATA",
+        "Docenti",
+        "Legambiente",
+        "Associazione Libera",
+        "U.S.R.",
+        "Polizia Postale",
+        "Sport e salute S.p.a.",
+        "Nuclei distrettuali neuropsichiatria",
+        "Ufficio Politiche Sociali Villaricca",
+        "Centri terapeutici Riabilitazione",
+        "IC Ranucci Alfieri",
+        "IC 78 Cariteo-Italico",
+        "Enti locali",
+        "Istituzioni scolastiche",
+        "Associazioni",
+        "RSU",
+        "Organizzazioni Sindacali",
+        "Dipartimento di prevenzione ASL Napoli2nord",
+        "GIS CONSULTING"
+      ],
+      "partnership_count": 20
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 4
+      },
+      "finalita_interessi": {
+        "score": 4
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 4
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 4
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 4
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 4
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 4
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 4
+      },
+      "didattica_interdisciplinare": {
+        "score": 4
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 4
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Leggere…che passione!",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Sensibilizzazione alla lettura, superamento del dovere scolastico, promozione del piacere della lettura.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Narrazione inclusiva: lettura, scrittura e attività espressiva",
+      "categoria_principale": "Lingua Italiana",
+      "descrizione_e_metodologia": "Lettura, scrittura e attività espressiva per sviluppare capacità di espressione.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Parole, parole, parole...conta che ti passa",
+      "categoria_principale": "Lingua Italiana e Logica",
+      "descrizione_e_metodologia": "Attività per incrementare motivazione, recuperare abilità linguistiche e logico-matematiche.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Festa dell’Albero",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Campagna Legambiente per promuovere comportamenti responsabili verso l’ambiente.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Giornata Della Memoria E Dell’Impegno",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Ricordo delle vittime delle mafie in collaborazione con Libera e U.S.R.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Azione di Contrasto al Bullismo e Cyberbullismo",
+      "categoria_principale": "Educazione alla Legalità",
+      "descrizione_e_metodologia": "Utilizzo consapevole delle tecnologie digitali, prevenzione e intervento.",
+      "target": "Tutti gli studenti e le famiglie"
+    },
+    {
+      "titolo_attivita": "Frutta Nella Scuola",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Programma europeo per promuovere il consumo di frutta e verdura.",
+      "target": "Alunni delle scuole primarie"
+    },
+    {
+      "titolo_attivita": "Scuola Attiva Kids",
+      "categoria_principale": "Educazione Fisica e Sportiva",
+      "descrizione_e_metodologia": "Progetto per promuovere l'attività sportiva e l'inclusione.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Uscite Didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite guidate e viaggi di istruzione per approfondire le conoscenze.",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Formazione del personale sull'inclusione",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi e aggiornamenti per docenti e personale ATA",
+      "target": "Docenti e personale ATA"
+    },
+    {
+      "titolo_attivita": "Collaborazione con enti esterni",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Convenzioni e progetti con ASL, comuni e centri di riabilitazione",
+      "target": "Alunni con BES"
+    },
+    {
+      "titolo_attivita": "Festa dell’albero",
+      "categoria_principale": "Educazione Ambientale",
+      "descrizione_e_metodologia": "Campagna Legambiente per promuovere atteggiamenti responsabili verso l’ambiente.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Giornata della memoria e dell’impegno",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Ricordo delle vittime delle mafie e impegno per la legalità.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Azione di contrasto al bullismo",
+      "categoria_principale": "Prevenzione e Sicurezza",
+      "descrizione_e_metodologia": "Uso consapevole delle tecnologie digitali e prevenzione del cyberbullismo.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Frutta e latte nella scuola",
+      "categoria_principale": "Educazione Alimentare",
+      "descrizione_e_metodologia": "Promozione del consumo di frutta e verdura e abitudini alimentari sane.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Scuola attiva kids",
+      "categoria_principale": "Educazione Fisica",
+      "descrizione_e_metodologia": "Promozione dell'attività fisica e stili di vita sani.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Uscite didattiche",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Visite guidate e viaggi di istruzione per apprendimento esperienziale.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Progetti PON e Scuola Viva",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Realizzazione di progetti in rete con altre scuole e con la partecipazione dei genitori.",
+      "target": "Alunni, genitori, docenti"
+    },
+    {
+      "titolo_attivita": "Iniziative culturali con il Comune",
+      "categoria_principale": "Eventi",
+      "descrizione_e_metodologia": "Organizzazione di iniziative culturali coerenti con i bisogni formativi degli alunni.",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "TFA e Tirocinanti",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Coordinamento dei rapporti tra scuola, Università e tirocinanti.",
+      "target": "Tirocinanti"
+    },
+    {
+      "titolo_attivita": "Coordinamento con enti locali",
+      "categoria_principale": "Partnership",
+      "descrizione_e_metodologia": "Collaborazione per attività di sicurezza e privacy.",
+      "target": "Scuola, Enti Locali"
+    },
+    {
+      "titolo_attivita": "Monitoraggio dispersione scolastica",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Rilevazione mensile frequenza, coordinamento viaggi istruzione.",
+      "target": "Alunni a rischio"
+    },
+    {
+      "titolo_attivita": "Formazione PNSD",
+      "categoria_principale": "Innovazione Digitale",
+      "descrizione_e_metodologia": "Attivazione e realizzazione del Piano Nazionale Scuola Digitale.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso di FORMAZIONE BLS-D PER UTILIZZO DEFIBRILLATORE",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione sull'uso del defibrillatore",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "Aggiornamento su MISURE di PREVENZIONE RISCHIO BIOLOGICO",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione sull'uso dei DPI",
+      "target": "Personale"
+    },
+    {
+      "titolo_attivita": "EDUCAZIONE CIVICA COSTITUZIONE e SOSTENIBILITÁ",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corso sulla strutturazione del curricolo",
+      "target": "Docenti referenti educazione civica"
+    },
+    {
+      "titolo_attivita": "Aggiornamento per ADDETTO PRIMO SOCCORSO",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Misure di primo intervento",
+      "target": "Docenti addetti al primo soccorso"
+    },
+    {
+      "titolo_attivita": "Corso di NUOVA FORMAZIONE Per Il Lavoratore Dlsg 81/08 Art. 37",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Sicurezza sul lavoro",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "Corso di NUOVA Formazione Per Preposto",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione obbligatoria sicurezza sul lavoro",
+      "target": "Docenti con incarico di preposto"
+    },
+    {
+      "titolo_attivita": "Aggiornamento per Addetto Antincendio",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Misure di prevenzione incendi",
+      "target": "Docenti addetti alle misure antincendio"
+    },
+    {
+      "titolo_attivita": "Aggiornamento per Addetto Asspr",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Aggiornamento salute e sicurezza",
+      "target": "Tutti i docenti addetti salute e sicurezza"
+    },
+    {
+      "titolo_attivita": "LA DIDATTICA della Matematica",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Nuove strategie per l'insegnamento",
+      "target": "Docenti impegnati nelle innovazioni"
+    },
+    {
+      "titolo_attivita": "L’ICF come lettura antropologico - olistica della persona",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione per l'inclusione",
+      "target": "Personale docente"
+    }
+  ],
+  "narrative": "# Analisi del PTOF NAAA88502V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'I.C. Villaricca (codice scuola NAAA88502V) per il triennio 2022-2025. L'istituto, situato nel territorio metropolitano della regione Campania, si configura come scuola dell'infanzia statale. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata all'orientamento, le partnership attivate, le finalità perseguite, gli obiettivi prefissati, le azioni implementate, l'approccio didattico e l'offerta di attività opzionali. Il PTOF dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione specificamente dedicata a questo tema.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento Sezione Dedicata:** L'analisi evidenzia che, nonostante l'importanza attribuita all'orientamento, il PTOF non prevede una sezione dedicata specificamente a questo ambito. I riferimenti all'orientamento sono disseminati in diverse parti del documento, ottenendo un punteggio di 3 su una scala di valutazione.\n\n**2.2 Partnership:** L'istituto vanta un ampio ventaglio di **partnership**, con un totale di 20 collaborazioni attivate. Tra i partner figurano **ATA**, **Docenti**, **Legambiente**, **Associazione Libera**, l'**U.S.R.**, la **Polizia Postale**, **Sport e salute S.p.a.**, i **Nuclei distrettuali neuropsichiatria**, l'**Ufficio Politiche Sociali Villaricca**, i **Centri terapeutici Riabilitazione**, l'**IC Ranucci Alfieri**, l'**IC 78 Cariteo-Italico**, **Enti locali**, **Istituzioni scolastiche**, **Associazioni**, le **RSU**, le **Organizzazioni Sindacali**, il **Dipartimento di prevenzione ASL Napoli2nord** e **GIS CONSULTING**. Questo network di collaborazioni rappresenta un punto di forza per l'implementazione di attività orientative.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle **attitudini**, degli **interessi**, del **progetto di vita**, la facilitazione delle **transizioni formative** e il potenziamento delle **capacità orientative** per cogliere le opportunità. Tutte queste aree ricevono un punteggio di 4, indicando un'attenzione completa agli aspetti fondamentali dell'orientamento.\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in materia di orientamento mirano a ridurre l'**abbandono scolastico**, a garantire la continuità con il territorio, a contrastare il fenomeno dei **NEET** e a promuovere il **lifelong learning**. I primi tre obiettivi ottengono un punteggio di 4, mentre l'obiettivo relativo al lifelong learning raggiunge lo stesso punteggio, sottolineando l'importanza dell'apprendimento continuo.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema implementate sono orientate al **coordinamento dei servizi**, al **dialogo tra docenti e studenti**, al rafforzamento del **rapporto scuola-genitori**, al **monitoraggio delle azioni** intraprese e alla creazione di un **sistema integrato di inclusione e fragilità**. Tutte queste azioni ottengono punteggi elevati, con particolare rilievo per il coordinamento dei servizi e il rapporto scuola-genitori (punteggio 5).\n\n**2.6 Didattica Orientativa:** L'approccio didattico è improntato all'apprendimento dall'**esperienza degli studenti**, all'utilizzo di metodologie **laboratoriali**, alla **flessibilità degli spazi e dei tempi** e all'**interdisciplinarità**. Queste caratteristiche contribuiscono a creare un ambiente di apprendimento stimolante e orientato allo sviluppo delle competenze.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali comprende iniziative **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**. Le attività laboratoriali ed espressive, ludiche e ricreative ottengono un punteggio di 4, mentre le altre attività raggiungono un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in materia di orientamento risiedono nell'ampio ventaglio di **partnership** attivate, nella chiarezza delle **finalità** perseguite, nell'efficacia delle **azioni di sistema** implementate e nell'attenzione all'innovazione didattica. L'istituto dimostra un forte impegno verso l'inclusione e la valorizzazione delle competenze degli studenti. Le attività registrate, come \"**Leggere…che passione!**\", \"**Narrazione inclusiva**\", \"**Parole, parole, parole...conta che ti passa**\", \"**Festa dell’Albero**\", \"**Giornata Della Memoria E Dell’Impegno**\", \"**Azione di Contrasto al Bullismo e Cyberbullismo**\", \"**Frutta Nella Scuola**\", \"**Scuola Attiva Kids**\", \"**Uscite Didattiche**\" e i numerosi corsi di **formazione** per il personale, testimoniano un'offerta formativa ricca e diversificata.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata specificamente all'orientamento all'interno del PTOF. Sebbene i riferimenti all'orientamento siano presenti in diverse sezioni, la mancanza di un focus specifico potrebbe limitare l'efficacia delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl gap principale risiede nella necessità di strutturare un'offerta orientativa più organica e coerente, attraverso la creazione di una sezione dedicata all'interno del PTOF. Questo consentirebbe di definire in modo più preciso le strategie, le azioni e gli indicatori di successo dell'intervento orientativo.\n\n### 6. Conclusioni\n\nIl PTOF dell'I.C. Villaricca dimostra un impegno significativo verso l'orientamento, sebbene manchi una sezione dedicata a questo tema. L'istituto vanta un ampio ventaglio di partnership, finalità ben definite, azioni di sistema efficaci e un approccio didattico innovativo. Per migliorare l'efficacia dell'intervento orientativo, si raccomanda di strutturare un'offerta più organica e coerente, attraverso la creazione di una sezione dedicata all'interno del PTOF."
+}

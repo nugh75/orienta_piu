@@ -1,0 +1,445 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "CSEE8AE045",
+    "denominazione": "S.Marco Argentano - Iotta",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "San Marco Argentano",
+    "anno_ptof": "2022-2025",
+    "provincia": "Cosenza",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "ND",
+    "cap": "87018",
+    "email": "csic8ae00x@istruzione.it",
+    "pec": "csic8ae00x@pec.istruzione.it",
+    "website": "www.icsanmarcoargentano.edu.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano previste attività di orientamento, queste sono integrate in altre sezioni del PTOF e non costituiscono una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 4,
+      "partner_nominati": [
+        "enti e associazioni presenti sul territorio",
+        "Associazioni",
+        "Generazioni Connesse",
+        "Enti Locali",
+        "musei",
+        "istituti pubblici e privati",
+        "Polizia di Stato",
+        "psicologo scolastico",
+        "Università della Calabria",
+        "Università della Basilicata",
+        "Università della Magna Grecia",
+        "Rotary",
+        "Rete Provinciale di Scuole per l'Inclusività - Cosenza",
+        "Agenzia di formazione esterna"
+      ],
+      "partnership_count": 12
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 3
+      },
+      "finalita_interessi": {
+        "score": 3
+      },
+      "finalita_progetto_vita": {
+        "score": 4
+      },
+      "finalita_transizioni_formative": {
+        "score": 3
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 3
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 3
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 3
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 4
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 3
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 4
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 3
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 4
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 4
+      },
+      "didattica_laboratoriale": {
+        "score": 2,
+        "note": "Le attività didattiche previste si concentrano principalmente su lezioni frontali e attività pratiche generiche, con una limitata presenza di laboratori specificamente dedicati all'orientamento."
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 3
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "Realizzazione di Unità di Apprendimento interdisciplinari",
+      "categoria_principale": "Curricolo",
+      "descrizione_e_metodologia": "Percorsi curricolari ed extracurricolari",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Progetti Piano Estate",
+      "categoria_principale": "Progetti",
+      "descrizione_e_metodologia": "Percorsi educativi e formativi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Non uno di meno",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Supporto allo studio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratori per alunni di scuola primaria e secondaria di I grado",
+      "categoria_principale": "Potenziamento competenze",
+      "descrizione_e_metodologia": "Percorsi educativi per socialità, accoglienza e apprendimento",
+      "target": "Alunni"
+    },
+    {
+      "titolo_attivita": "Progetti finalizzati alla prevenzione del bullismo e cyberbullismo",
+      "categoria_principale": "Prevenzione e benessere",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione e prevenzione",
+      "target": "Tutta la comunità scolastica"
+    },
+    {
+      "titolo_attivita": "Un viaggio nel paese dei diritti dei bambini",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Attività di sensibilizzazione alla cittadinanza responsabile",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Emozioni In Vivavoce",
+      "categoria_principale": "Educazione Civica",
+      "descrizione_e_metodologia": "Promozione sviluppo identità, autonomia, competenza e cittadinanza",
+      "target": "Scuola dell'Infanzia"
+    },
+    {
+      "titolo_attivita": "Corso lingua inglese livello b2",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Metodologia CLIL, certificazioni linguistiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Corso Clil",
+      "categoria_principale": "Formazione docenti",
+      "descrizione_e_metodologia": "Metodologia CLIL, certificazioni linguistiche",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Certificazione linguistica",
+      "categoria_principale": "Formazione studenti",
+      "descrizione_e_metodologia": "Percorsi per certificazioni linguistiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Educazione Civica",
+      "categoria_principale": "Educazione alla cittadinanza",
+      "descrizione_e_metodologia": "Curricolo verticale, laboratori, esperienze",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "ePolicy",
+      "categoria_principale": "Competenze Digitali",
+      "descrizione_e_metodologia": "Progetto SIC Generazioni Connesse",
+      "target": "Studenti e adulti"
+    },
+    {
+      "titolo_attivita": "Corso ad indirizzo musicale",
+      "categoria_principale": "Musica",
+      "descrizione_e_metodologia": "Lezioni individuali, piccoli gruppi, musica d'insieme. Saggi pubblici e concerti.",
+      "target": "Alunni del Corso ad Indirizzo Musicale"
+    },
+    {
+      "titolo_attivita": "Visite guidate",
+      "categoria_principale": "Cultura",
+      "descrizione_e_metodologia": "Visite a musei e istituti pubblici/privati. Lavori di rielaborazione in classe.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Percorso museale all'interno della scuola",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Conoscenza diretta del patrimonio artistico tramite rielaborazione di opere d'arte.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Legalità e cultura dell'etica",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Concorso nazionale su tematiche di legalità.",
+      "target": "Studenti della Scuola Secondaria di Primo Grado"
+    },
+    {
+      "titolo_attivita": "Giochi matematici del Mediterraneo",
+      "categoria_principale": "Matematica",
+      "descrizione_e_metodologia": "Concorso per valorizzare le eccellenze in matematica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Generazioni connesse",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Letture, ricerche, incontri con la polizia postale.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Il mostro dei dispetti",
+      "categoria_principale": "Relazioni",
+      "descrizione_e_metodologia": "Lettura, drammatizzazione, creazione di mostri con materiali di riciclo.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Natale Teatro",
+      "categoria_principale": "Arte",
+      "descrizione_e_metodologia": "Drammatizzazione, canti, danze, scenografie.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Alimentiamoci ed emozioniamoci",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Laboratori, piantagione e cura di ortaggi.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Mens Sana in Corpore Sano",
+      "categoria_principale": "Salute",
+      "descrizione_e_metodologia": "Letture, esperimenti, attività laboratoriali sull'alimentazione.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Te lo dico con il volto",
+      "categoria_principale": "Relazioni",
+      "descrizione_e_metodologia": "Drammatizzazione, osservazione, lavoro di gruppo.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Stop and Go",
+      "categoria_principale": "Cittadinanza",
+      "descrizione_e_metodologia": "Lettura, visione video, realizzazione di segnali stradali.",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Il meraviglioso viaggio del Piccolo Principe",
+      "categoria_principale": "Letteratura",
+      "descrizione_e_metodologia": "Non specificato",
+      "target": "Tutte le classi"
+    },
+    {
+      "titolo_attivita": "Sognando Si Puo'",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Laboratori per stimolare la creatività e l'espressione attraverso la lettura del Piccolo Principe.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Giornalino Scolastico",
+      "categoria_principale": "Lettura",
+      "descrizione_e_metodologia": "Progetto di lettura per promuovere l'amore per la lettura.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Consiglio Comunale Dei Ragazzi",
+      "categoria_principale": "Cittadinanza Attiva",
+      "descrizione_e_metodologia": "Elezione del sindaco e dei consiglieri per promuovere la cittadinanza attiva.",
+      "target": "Altro"
+    },
+    {
+      "titolo_attivita": "Un albero per il futuro",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Attività per la consapevolezza dei diritti ecologici.",
+      "target": "Gruppi classe"
+    },
+    {
+      "titolo_attivita": "Plant and care for peace",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Piantumazione di alberi per promuovere la pace.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "L’albero della Pace",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Piantumazione di un albero in collaborazione con l'ente locale.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Plastic Free onlus nelle scuole",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Sensibilizzazione sull'inquinamento da plastica.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ENOart BEAUTYOFPEACE",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Realizzazione di lanterne con materiali riciclati.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "ENOart Fish project",
+      "categoria_principale": "Transizione Ecologica",
+      "descrizione_e_metodologia": "Realizzazione di un modello 3D di un pesce con materiali riciclati.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Partecipazione a concorsi e competizioni",
+      "categoria_principale": "Potenziamento",
+      "descrizione_e_metodologia": "Partecipazione a concorsi per motivare gli studenti",
+      "target": "Alunni con alto potenziale"
+    },
+    {
+      "titolo_attivita": "Percorsi di recupero in orario extracurricolare",
+      "categoria_principale": "Recupero",
+      "descrizione_e_metodologia": "Attività di recupero in piccoli gruppi per Italiano e Matematica",
+      "target": "Alunni con difficoltà"
+    },
+    {
+      "titolo_attivita": "Formazione Sicurezza - Preposti",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Formazione primo soccorso, antincendio",
+      "target": "Docenti designati"
+    },
+    {
+      "titolo_attivita": "METODOLOGIE DIDATTICHE Innovative",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Learning by doing per STEAM",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "INCLUSIONE",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Problematiche adolescenziali, metodologie",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE REGISTRO Elettronico",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Utilizzo Registro Elettronico Axios",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE PNSD",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Didattica digitale innovativa",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PROGETTARE E VALUTARE",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Progettazione e valutazione per competenze",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE D’AMBITO",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "UU.FF. da scuola capofila",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE D.M. 188/2021",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Inclusione alunni con disabilità",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE NEO - Immessi",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Formazione docenti in anno di prova",
+      "target": "Docenti neo-assunti"
+    },
+    {
+      "titolo_attivita": "EDUC-ABILITY",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Competenze non cognitive degli alunni",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "FORMAZIONE Sull'Utilizzo Del Registro Elettronico",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Supporto tecnico attività didattica",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "GENERAZIONI CONNESSE",
+      "categoria_principale": "Digitale",
+      "descrizione_e_metodologia": "Percorso formativo online",
+      "target": "Docenti, genitori, studenti"
+    },
+    {
+      "titolo_attivita": "CORSO DI FORMAZIONE Segreteria Digitale",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Formazione segreteria digitale",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "Digitalizzazione E Dematerializzazione",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Supporto tecnico e gestione beni",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Aggiornamento Sulle Procedure Inps",
+      "categoria_principale": "Amministrazione",
+      "descrizione_e_metodologia": "Contratti, procedure amministrativo-contabili",
+      "target": "Personale Amministrativo"
+    },
+    {
+      "titolo_attivita": "Sicurezza",
+      "categoria_principale": "Sicurezza",
+      "descrizione_e_metodologia": "Rilevazione rischi e condizioni igienico-ambientali",
+      "target": "Personale Collaboratore scolastico"
+    }
+  ],
+  "narrative": "# Analisi del PTOF CSEE8AE045\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria S.Marco Argentano - Iotta (CSEE8AE045) per il triennio 2022-2025. La scuola, situata in Calabria, si colloca in un territorio non metropolitano e presenta un impegno significativo verso la costruzione di una rete di **partnership** con enti e associazioni locali, università e istituzioni. Sebbene l'orientamento non sia presente come sezione autonoma del PTOF, esso è integrato in diverse attività e progetti, dimostrando una consapevolezza dell'importanza di questo ambito. L'attenzione è rivolta allo sviluppo delle **attitudini**, degli **interessi** e, in particolare, alla progettazione del **progetto di vita** degli studenti, con un focus sulle **transizioni formative** e sullo sviluppo delle **capacità orientative** per affrontare le opportunità future.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi rivela che, nonostante la presenza di attività di orientamento, queste non sono formalizzate in una sezione specifica del PTOF, ottenendo un punteggio di 3.\n\n**2.2 Partnership:** La scuola dimostra un forte impegno nella creazione di **partnership** con un ampio ventaglio di soggetti, tra cui **enti e associazioni** del territorio, **istituti pubblici e privati**, la **Polizia di Stato**, lo **psicologo scolastico**, diverse **università** (Calabria, Basilicata, Magna Grecia), il **Rotary**, la **Rete Provinciale di Scuole per l'Inclusività - Cosenza** e un’**agenzia di formazione esterna**. Questo elevato numero di collaborazioni (12 partner) suggerisce un approccio proattivo alla ricerca di risorse e competenze esterne.\n\n**2.3 Finalità:** Le finalità dell'orientamento si concentrano sullo sviluppo delle **attitudini** e degli **interessi** degli studenti, con un punteggio di 3 per entrambe le aree. Maggiore enfasi è posta sulla progettazione del **progetto di vita** (punteggio 4) e sulle **transizioni formative** e lo sviluppo delle **capacità orientative** per affrontare le opportunità future (punteggio 3).\n\n**2.4 Obiettivi:** Gli obiettivi del PTOF in relazione all'orientamento mirano a ridurre l'**abbandono** scolastico, a favorire la continuità con il **territorio** e a contrastare il fenomeno dei **NEET** (Not in Education, Employment or Training), promuovendo il **lifelong learning**. Tutti questi obiettivi ricevono un punteggio di 3.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste includono il **coordinamento dei servizi**, il **dialogo tra docenti e studenti**, il rafforzamento del **rapporto scuola-genitori**, il **monitoraggio delle azioni** intraprese e la creazione di un **sistema integrato di inclusione e fragilità**. Le azioni di coordinamento e rapporto scuola-genitori ottengono un punteggio di 4, mentre le altre un punteggio di 3.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa principalmente sull'apprendimento dall'**esperienza degli studenti** (punteggio 4). Le attività **laboratoriali** sono meno presenti (punteggio 2), mentre la **flessibilità degli spazi e dei tempi** didattici è considerata adeguata (punteggio 3). L'approccio **interdisciplinare** è particolarmente valorizzato (punteggio 5).\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative comprende opzioni **culturali**, **laboratoriali ed espressive**, **ludiche e ricreative**, di **volontariato** e **sportive**, tutte con un punteggio di 3.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento risiedono nella forte rete di **partnership** con il territorio, nell'attenzione allo sviluppo del **progetto di vita** degli studenti e nell'approccio didattico basato sull'apprendimento dall'esperienza. L'interdisciplinarità è un elemento distintivo, così come l'impegno verso l'inclusione e la prevenzione del **bullismo** e del **cyberbullismo**. La scuola si impegna anche nella formazione continua dei **docenti** su tematiche cruciali come l'utilizzo del registro elettronico, la didattica digitale e l'inclusione.\n\n### 4. Aree di Debolezza\n\nL'assenza di una sezione dedicata all'orientamento all'interno del PTOF rappresenta un'area di debolezza. Anche la limitata presenza di attività **laboratoriali** specificamente dedicate all'orientamento potrebbe limitare l'efficacia delle azioni intraprese.\n\n### 5. Gap Analysis\n\nIl divario principale risiede nella necessità di formalizzare l'orientamento come una componente strutturale del PTOF, con obiettivi, azioni e indicatori di valutazione specifici. Un potenziamento delle attività **laboratoriali** e una maggiore integrazione tra le diverse iniziative potrebbero contribuire a colmare questo divario.\n\n### 6. Conclusioni\n\nIl PTOF della scuola S.Marco Argentano - Iotta dimostra un impegno significativo verso l'orientamento, sebbene questo non sia esplicitamente formalizzato in una sezione autonoma. La ricchezza delle **partnership**, l'attenzione allo sviluppo del **progetto di vita** degli studenti e l'approccio didattico innovativo rappresentano punti di forza importanti. Per massimizzare l'efficacia delle azioni intraprese, si raccomanda di formalizzare l'orientamento all'interno del PTOF e di potenziare le attività **laboratoriali** dedicate a questo ambito. Le numerose attività registrate, come \"**Realizzazione di Unità di Apprendimento interdisciplinari**\", \"**Progetti Piano Estate**\", \"**ePolicy**\" e \"**Corso lingua inglese livello b2**\", dimostrano un impegno costante verso la crescita e lo sviluppo degli studenti."
+}

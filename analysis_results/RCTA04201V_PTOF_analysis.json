@@ -1,0 +1,269 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "RCTA04201V",
+    "denominazione": "Ita Caulonia Ass.Iis Z.Bianco M.Gioiosa",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Metropolitano",
+    "comune": "Caulonia",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Reggio Calabria",
+    "regione": "Calabria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Magna Grecia",
+    "cap": "89041",
+    "email": "info@istitutogaussasti.it",
+    "pec": "ND",
+    "website": "www.iiseinaudipalmi.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Presenti attività di orientamento, ma non una sezione dedicata con un capitolo specifico."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 5
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 4
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 6
+      },
+      "didattica_laboratoriale": {
+        "score": 4
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 2
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri da parte degli studenti per compagni con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologia",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "Valutazione formativa",
+      "categoria_principale": "Valutazione",
+      "descrizione_e_metodologia": "Autovalutazione, peer education, feedback",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppare abilità comunicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Lettura testi tecnici inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Ascolto contenuti audiovisivi",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Applicazioni giuridiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Osservazioni posturali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite guidate presso aziende del settore odontotecnico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Predisposizione laboratorio con tecnologie avanzate (EXOCAD, scanner, stampante 3D).",
+      "target": "Studenti, diplomati"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi di aggiornamento per docenti sull'uso di mappe mentali.",
+      "target": "Docenti"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Frequenza laboratori PCTO durante le vacanze estive.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio di gruppo",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Organizzazione attività extra curriculari per studio di gruppo.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Incontri tutor aziendali",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Incontri tra scuola, tutor e famiglie per valutare il PCTO.",
+      "target": "Studenti, famiglie, tutor"
+    },
+    {
+      "titolo_attivita": "Elenco diplomati",
+      "categoria_principale": "Alumni",
+      "descrizione_e_metodologia": "Creazione elenco diplomati titolari di laboratorio.",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "Laboratorio Simulazione Professionale",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Implementazione progetto laboratorio simulazione professionale.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF RCTA04201V\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Ita Caulonia Ass.Iis Z.Bianco M.Gioiosa**, istituto tecnico situato a **Caulonia** in provincia di **Reggio Calabria**. Il PTOF, relativo agli anni **2023/24-2024/25-2025/26**, dimostra un'attenzione significativa all'orientamento, sebbene non presenti una sezione dedicata strutturata come capitolo a sé stante. L'istituto si impegna a fornire un sistema di orientamento che mira a sviluppare le attitudini, gli interessi, il progetto di vita, le transizioni formative e le capacità orientative degli studenti, con un focus particolare sulla riduzione dell'abbandono scolastico e sul contrasto alla dispersione formativa.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** L'analisi evidenzia che, pur essendo l'orientamento presente nel PTOF, manca una sezione specificamente dedicata e strutturata come capitolo autonomo.\n\n**2.2 Partnership:** L'istituto vanta un solido network di partnership con il mondo del lavoro e istituzioni, come dimostrato dalla collaborazione con **imprese del territorio**, **Nobil Metal S.p.A.**, **Archivio di Stato di Asti**, **ISRAT**, un’**azienda leader del settore audiovisivi**, e diverse **aziende accreditate** e **aziende di settore**. Sono state individuate ben 5 partnership attive.\n\n**2.3 Finalità:** Le finalità dell'azione orientativa sono ben definite e comprendono lo sviluppo delle attitudini, degli interessi, del progetto di vita, delle transizioni formative e delle capacità orientative degli studenti, ottenendo punteggi massimi in tutte le aree considerate.\n\n**2.4 Obiettivi:** Gli obiettivi delineati nel PTOF sono ambiziosi e mirano a ridurre l'abbandono scolastico, a favorire la continuità territoriale, a contrastare il fenomeno dei NEET e a promuovere il lifelong learning. L'obiettivo di ridurre l'abbandono scolastico risulta particolarmente prioritario, mentre il contrasto ai NEET necessita di un ulteriore rafforzamento.\n\n**2.5 Azioni di Sistema:** Le azioni di sistema previste sono complete e includono il coordinamento dei servizi, il dialogo tra docenti e studenti, il rapporto scuola-genitori, il monitoraggio delle azioni intraprese e un sistema integrato di inclusione e supporto alle fragilità. Quest'ultima azione, in particolare, ottiene il punteggio più alto, evidenziando l'impegno dell'istituto verso l'inclusione.\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa sull'apprendimento esperienziale, sull'utilizzo di laboratori, sulla flessibilità degli spazi e dei tempi, e sull'approccio interdisciplinare.\n\n**2.7 Opzionali e Facoltative:** L'offerta di attività opzionali e facoltative include opzioni culturali, laboratoriali ed espressive, ma risulta meno sviluppata in ambito ludico-ricreativo, di volontariato e sportivo.\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella forte attenzione alle partnership con il territorio, nella chiarezza delle finalità e degli obiettivi, nella completezza delle azioni di sistema e nell'impegno verso l'inclusione. Le attività pratiche come **PCTO** e i laboratori, in particolare quello **Odontotecnico d'avanguardia**, rappresentano un valore aggiunto per gli studenti. L'organizzazione di **visite guidate aziende** e la predisposizione di un **laboratorio simulazione professionale** sono elementi significativi per l'orientamento al mondo del lavoro.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale è l'assenza di una sezione dedicata all'orientamento all'interno del PTOF, che ne limita la visibilità e la strutturazione. Anche l'offerta di attività opzionali e facoltative in ambito ludico-ricreativo, di volontariato e sportivo appare meno sviluppata rispetto ad altre aree.\n\n### 5. Gap Analysis\n\nIl gap principale riguarda la necessità di strutturare una sezione dedicata all'orientamento nel PTOF, con un capitolo specifico che delinei in modo chiaro le strategie, le azioni e i responsabili dell'azione orientativa. È inoltre auspicabile un potenziamento dell'offerta di attività opzionali e facoltative in ambiti diversi da quelli prettamente culturali e laboratoriali.\n\n### 6. Conclusioni\n\nIn conclusione, il PTOF dell'**Ita Caulonia Ass.Iis Z.Bianco M.Gioiosa** dimostra un impegno significativo verso l'orientamento, supportato da solide partnership, finalità chiare, obiettivi ambiziosi e azioni di sistema complete. La strutturazione di una sezione dedicata all'orientamento e il potenziamento dell'offerta di attività opzionali e facoltative rappresentano le aree di miglioramento per rendere il PTOF ancora più efficace nel supportare gli studenti nel loro percorso di crescita e orientamento. Attività come la creazione di **audiolibri** per studenti con **DSA**, la formazione sull'uso delle **mappe mentali**, la **valutazione formativa** e l'organizzazione di **studi di gruppo** sono esempi di buone pratiche che contribuiscono a un approccio orientativo completo e inclusivo."
+}

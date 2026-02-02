@@ -1,0 +1,233 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "SVEE820034",
+    "denominazione": "Savona I - Santuario",
+    "tipo_scuola": "Primaria",
+    "ordine_grado": "Primaria",
+    "area_geografica": "Nord Ovest",
+    "territorio": "Non Metropolitano",
+    "comune": "Savona",
+    "anno_ptof": "2023/24-2024/25-2025/2026",
+    "provincia": "Savona",
+    "regione": "Liguria",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Cimavalle 1",
+    "cap": "17040",
+    "email": "svic82000x@istruzione.it",
+    "pec": "ND",
+    "website": "www.icsavonaprimo.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sezione dedicata presente"
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato di Asti",
+        "ISRAT",
+        "azienda leader del settore audiovisivi",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 4
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 5
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 5
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 6
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 6
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 6
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 6
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 7
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 3
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 4
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 4
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 1
+      },
+      "opzionali_volontariato": {
+        "score": 1
+      },
+      "opzionali_sportive": {
+        "score": 1
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO presso Archivio di Stato di Asti e ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Realizzazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Studenti e compagni con DSA"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Metodologie didattiche",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppare abilità comunicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo",
+      "categoria_principale": "Diritto",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi testi geostorici",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Comunicazione professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Applicazioni giuridiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Prevenzione e benessere",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA e fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore odontotecnico.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'Avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo workstation EXOCAD, scanner, stampante 3D, fresatrice.",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi di aggiornamento",
+      "categoria_principale": "Formazione",
+      "descrizione_e_metodologia": "Corsi per studenti e diplomati.",
+      "target": "Studenti e diplomati"
+    },
+    {
+      "titolo_attivita": "Attività extra curricolari",
+      "categoria_principale": "Studio",
+      "descrizione_e_metodologia": "Studio di gruppo per ridurre giudizi sospesi.",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF SVEE820034\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento del Piano Triennale dell'Offerta Formativa (PTOF) della scuola primaria “Savona I - Santuario” (codice SVEE820034) per il triennio 2023/24-2024/25-2025/26. L'istituto, situato nel territorio non metropolitano di Savona, Liguria, si distingue per un approccio all'orientamento ben strutturato, come evidenziato dalla presenza di una sezione dedicata e da punteggi elevati nelle finalità e negli obiettivi. L'attenzione è rivolta alla riduzione dell'abbandono scolastico, alla continuità territoriale, al contrasto alla dispersione scolastica e alla promozione del lifelong learning. Il sistema di azioni prevede un forte coordinamento tra i servizi, un dialogo aperto tra docenti e studenti, un rapporto costruttivo con le famiglie e un monitoraggio costante delle attività.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:** Il PTOF presenta una sezione specificamente dedicata all'orientamento, ottenendo un punteggio di 3, a testimonianza di un'attenzione mirata a questo aspetto cruciale del percorso formativo.\n\n**2.2 Partnership:** La scuola vanta un solido network di partnership, con un punteggio di 5, che include **imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato di Asti**, **ISRAT**, un'**azienda leader del settore audiovisivi**, e diverse **aziende accreditate** e di settore. Sono state individuate 4 partnership attive.\n\n**2.3 Finalità:** Le finalità dell'orientamento sono definite in modo completo e ambizioso, con punteggi massimi (5) per lo sviluppo di attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità.\n\n**2.4 Obiettivi:** Gli obiettivi delineati sono altrettanto ambiziosi, con punteggi elevati per la riduzione dell'abbandono (5), il contrasto alla dispersione scolastica (5) e la promozione del lifelong learning (5). L'obiettivo di garantire la continuità territoriale ottiene un punteggio di 4.\n\n**2.5 Azioni di Sistema:** Il sistema di azioni implementato è robusto e ben coordinato, con punteggi elevati per il coordinamento dei servizi (6), il dialogo tra docenti e studenti (6), il rapporto scuola-genitori (6) e il monitoraggio delle azioni (6). Particolarmente efficace si rivela l'azione orientata all'integrazione e alla fragilità (7).\n\n**2.6 Didattica Orientativa:** La didattica orientativa si basa su approcci innovativi, con un buon punteggio per l'apprendimento dall'esperienza degli studenti (5), la flessibilità degli spazi e dei tempi (5) e l'interdisciplinarità (5). La didattica laboratoriale, invece, presenta un punteggio inferiore (3).\n\n**2.7 Offerta di Attività Opzionali e Facoltative:** L'offerta di attività opzionali è diversificata, con punteggi di 4 per le opzioni culturali e laboratoriali-espressive. Le opzioni ludico-ricreative, di volontariato e sportive ricevono punteggi più bassi (1).\n\n### 3. Punti di Forza\n\nI punti di forza del PTOF risiedono nella chiarezza delle finalità e degli obiettivi, nella solidità delle partnership con il territorio e nell'efficacia del sistema di azioni implementato. L'attenzione all'inclusione e alla fragilità rappresenta un elemento distintivo. Le attività pratiche come **PCTO** e i laboratori, seppur con margini di miglioramento, contribuiscono a un apprendimento esperienziale. L'impegno nel fornire **Servizio di Sostegno Educativo** per studenti con BES, DSA e fragilità è particolarmente apprezzabile.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale riguarda la didattica laboratoriale, che necessita di un potenziamento. L'offerta di attività opzionali ludico-ricreative, di volontariato e sportive appare limitata e potrebbe essere ampliata per rispondere a una gamma più ampia di interessi degli studenti.\n\n### 5. Gap Analysis\n\nIl divario tra l'ambizioso quadro teorico delineato dal PTOF e la concreta implementazione delle attività opzionali rappresenta un gap da colmare. È necessario investire maggiormente nella didattica laboratoriale, ampliando l'offerta e dotando le strutture di attrezzature adeguate. L'integrazione di attività pratiche come **Visite guidate aziende** e il **Laboratorio Odontotecnico d'Avanguardia** con le attività curricolari potrebbe rafforzare l'efficacia dell'orientamento.\n\n### 6. Conclusioni\n\nIl PTOF della scuola primaria “Savona I - Santuario” presenta un approccio all'orientamento ben definito e strutturato. I punteggi elevati ottenuti nelle diverse dimensioni analizzate testimoniano l'impegno dell'istituto nel fornire agli studenti un supporto adeguato per affrontare le sfide del futuro. Pur con alcune aree di miglioramento, il PTOF si configura come un documento valido e coerente con le esigenze del territorio e le finalità della scuola. L'implementazione di attività come **PCTO presso Archivio di Stato di Asti e ISRAT**, la **Realizzazione audiolibri** e l'utilizzo di **Mappe Mentali** dimostrano un approccio proattivo e innovativo all'orientamento."
+}

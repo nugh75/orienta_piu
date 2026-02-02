@@ -1,0 +1,244 @@
+{
+  "is_ptof": true,
+  "is_ptof_confidence": "high",
+  "document_type": "PTOF",
+  "metadata": {
+    "school_id": "AVTF07050D",
+    "denominazione": "Itt Guido Dorso - Istruzione Per Adulti",
+    "tipo_scuola": "Tecnico",
+    "ordine_grado": "II Grado",
+    "area_geografica": "Sud",
+    "territorio": "Non Metropolitano",
+    "comune": "Avellino",
+    "anno_ptof": "2023/24-2024/25-2025/26",
+    "provincia": "Avellino",
+    "regione": "Campania",
+    "statale_paritaria": "Statale",
+    "indirizzo": "Via Morelli E Silvati 19",
+    "cap": "83100",
+    "email": "avtf070004@istruzione.it",
+    "pec": "ND",
+    "website": "www.itisguidodorso.gov.it"
+  },
+  "ptof_section2": {
+    "2_1_ptof_orientamento_sezione_dedicata": {
+      "has_sezione_dedicata": 1,
+      "score": 3,
+      "note": "Sebbene siano presenti attività di orientamento integrate in progetti come il PCTO e la digitalizzazione, non risulta esplicitamente definita una sezione dedicata e strutturata per l'orientamento."
+    },
+    "2_2_partnership": {
+      "score": 5,
+      "partner_nominati": [
+        "Imprese del territorio",
+        "Nobil Metal S.p.A.",
+        "Archivio di Stato",
+        "ISRAT",
+        "aziende accreditate",
+        "aziende di settore"
+      ],
+      "partnership_count": 6
+    },
+    "2_3_finalita": {
+      "finalita_attitudini": {
+        "score": 5
+      },
+      "finalita_interessi": {
+        "score": 5
+      },
+      "finalita_progetto_vita": {
+        "score": 5
+      },
+      "finalita_transizioni_formative": {
+        "score": 5
+      },
+      "finalita_capacita_orientative_opportunita": {
+        "score": 5
+      }
+    },
+    "2_4_obiettivi": {
+      "obiettivo_ridurre_abbandono": {
+        "score": 5
+      },
+      "obiettivo_continuita_territorio": {
+        "score": 4
+      },
+      "obiettivo_contrastare_neet": {
+        "score": 3
+      },
+      "obiettivo_lifelong_learning": {
+        "score": 3
+      }
+    },
+    "2_5_azioni_sistema": {
+      "azione_coordinamento_servizi": {
+        "score": 5
+      },
+      "azione_dialogo_docenti_studenti": {
+        "score": 5
+      },
+      "azione_rapporto_scuola_genitori": {
+        "score": 5
+      },
+      "azione_monitoraggio_azioni": {
+        "score": 5
+      },
+      "azione_sistema_integrato_inclusione_fragilita": {
+        "score": 5
+      }
+    },
+    "2_6_didattica_orientativa": {
+      "didattica_da_esperienza_studenti": {
+        "score": 5
+      },
+      "didattica_laboratoriale": {
+        "score": 5
+      },
+      "didattica_flessibilita_spazi_tempi": {
+        "score": 5
+      },
+      "didattica_interdisciplinare": {
+        "score": 5
+      }
+    },
+    "2_7_opzionali_facoltative": {
+      "opzionali_culturali": {
+        "score": 3
+      },
+      "opzionali_laboratoriali_espressive": {
+        "score": 3
+      },
+      "opzionali_ludiche_ricreative": {
+        "score": 3
+      },
+      "opzionali_volontariato": {
+        "score": 3
+      },
+      "opzionali_sportive": {
+        "score": 3
+      }
+    }
+  },
+  "activities_register": [
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di stage in aziende del territorio",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "PCTO Archivio di Stato/ISRAT",
+      "categoria_principale": "Orientamento",
+      "descrizione_e_metodologia": "Digitalizzazione e archiviazione documentale",
+      "target": "Studenti classi terze"
+    },
+    {
+      "titolo_attivita": "Creazione audiolibri",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Registrazione audiolibri per studenti con DSA",
+      "target": "Tutti gli studenti"
+    },
+    {
+      "titolo_attivita": "PCTO",
+      "categoria_principale": "Stage",
+      "descrizione_e_metodologia": "Periodi di PCTO presso aziende accreditate",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Mappe Mentali",
+      "categoria_principale": "Didattica",
+      "descrizione_e_metodologia": "Formazione sull'uso delle mappe mentali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Simulazioni di interviste storiche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Attività laboratoriali per sviluppare abilità comunicative",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività pratiche gnatologia",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modelli 3D, osservazione materiali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Giochi di ruolo Diritto",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Simulazione contesti giuridici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esperimenti materiali dentali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Test fisici e chimici",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Analisi fonti geostoriche",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Scrittura reportage, mappe concettuali",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Conversazioni simulate inglese",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Comunicazione professionale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Esercitazioni disegno tecnico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Modellazione analogica e digitale",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Problemi calcolo e ragionamento logico",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Applicazioni giuridiche",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Attività corporee e posturali",
+      "categoria_principale": "Laboratori",
+      "descrizione_e_metodologia": "Benessere psico-fisico",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Servizio di Sostegno Educativo",
+      "categoria_principale": "Inclusione",
+      "descrizione_e_metodologia": "Favorire la partecipazione degli studenti con BES, DSA e fragilità.",
+      "target": "Studenti con BES, DSA, fragilità"
+    },
+    {
+      "titolo_attivita": "Visite guidate aziende",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Organizzazione visite presso aziende del settore",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Laboratorio Odontotecnico d'avanguardia",
+      "categoria_principale": "Laboratorio",
+      "descrizione_e_metodologia": "Utilizzo tecnologie CAD, scanner, stampanti 3D",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Corsi aggiornamento diplomati",
+      "categoria_principale": "Formazione continua",
+      "descrizione_e_metodologia": "Corsi per diplomati su nuove tecnologie",
+      "target": "Diplomati"
+    },
+    {
+      "titolo_attivita": "PCTO estivo",
+      "categoria_principale": "PCTO",
+      "descrizione_e_metodologia": "Attività PCTO durante le vacanze estive",
+      "target": "Studenti"
+    },
+    {
+      "titolo_attivita": "Studio di gruppo",
+      "categoria_principale": "Supporto didattico",
+      "descrizione_e_metodologia": "Attività extra curriculari per studio di gruppo",
+      "target": "Studenti"
+    }
+  ],
+  "narrative": "# Analisi del PTOF AVTF07050D\n\n## Report di Valutazione dell'Orientamento\n\n### 1. Sintesi Generale\n\nIl presente report analizza la sezione dedicata all'orientamento all'interno del Piano Triennale dell'Offerta Formativa (PTOF) dell'**Itt Guido Dorso - Istruzione Per Adulti** (AVTF07050D), scuola di secondo grado di tipo tecnico situata ad **Avellino** in **Campania**. L'analisi si basa sui dati forniti, valutando la presenza di una sezione dedicata, le partnership, le finalità, gli obiettivi, le azioni di sistema, la didattica orientativa e le attività opzionali. Nel complesso, il PTOF dimostra un impegno significativo verso l'orientamento, sebbene con alcune aree che necessitano di ulteriore strutturazione.\n\n### 2. Analisi Dimensionale\n\n**2.1 Orientamento - Sezione Dedicata:**\n\nL'istituto presenta un punteggio di 3 su una scala non specificata riguardo alla presenza di una sezione dedicata all'orientamento. Si evidenzia che, pur essendo presenti attività di orientamento integrate in progetti come il **PCTO** e la digitalizzazione, manca una definizione esplicita e strutturata di una sezione specificamente dedicata a questa area.\n\n**2.2 Partnership:**\n\nLa scuola vanta un solido network di partnership, ottenendo un punteggio di 5. Tra i partner nominati figurano **Imprese del territorio**, **Nobil Metal S.p.A.**, l'**Archivio di Stato**, **ISRAT**, e diverse **aziende accreditate** e **aziende di settore**. Questo elevato numero di collaborazioni (6 in totale) suggerisce un forte legame con il mondo del lavoro e del territorio.\n\n**2.3 Finalità:**\n\nLe finalità dell'orientamento sono considerate complete e ben definite, con un punteggio di 5 per ciascuna delle aree valutate: attitudini, interessi, progetto di vita, transizioni formative e capacità orientative verso le opportunità.\n\n**2.4 Obiettivi:**\n\nGli obiettivi prefissati sono ambiziosi e pertinenti. Il punteggio di 5 per l'obiettivo di ridurre l'**abbandono** scolastico, 4 per la continuità territoriale e 3 per il contrasto al fenomeno **NEET** e la promozione del **lifelong learning** indicano un focus sulla prevenzione della dispersione scolastica e sull'inserimento nel mondo del lavoro.\n\n**2.5 Azioni di Sistema:**\n\nLe azioni di sistema implementate sono valutate positivamente, con un punteggio di 5 per ciascuna delle aree considerate: coordinamento dei servizi, dialogo tra docenti e studenti, rapporto scuola-genitori, monitoraggio delle azioni e sistema integrato di inclusione e fragilità.\n\n**2.6 Didattica Orientativa:**\n\nLa didattica orientativa si avvale di approcci innovativi e partecipativi, ottenendo un punteggio di 5 per l'utilizzo di esperienze dirette degli studenti, laboratori, flessibilità degli spazi e dei tempi, e approcci interdisciplinari.\n\n**2.7 Opzionali e Facoltative:**\n\nLe attività opzionali e facoltative ricevono un punteggio di 3, suggerendo un'offerta che, pur esistente, potrebbe essere ulteriormente ampliata e diversificata nelle aree culturale, laboratoriale espressiva, ludico-ricreativa, di volontariato e sportiva.\n\n### 3. Punti di Forza\n\nI principali punti di forza del PTOF in relazione all'orientamento sono rappresentati dalla forte rete di **partnership** con il territorio, dalla chiarezza delle **finalità** e dall'efficacia delle **azioni di sistema**. L'utilizzo di metodologie didattiche innovative, come i **laboratori** e le attività basate sull'esperienza, costituisce un ulteriore elemento positivo. L'impegno nell'inclusione, evidenziato dal **Servizio di Sostegno Educativo**, è degno di nota.\n\n### 4. Aree di Debolezza\n\nL'area di debolezza principale risiede nella mancanza di una sezione dedicata e strutturata all'orientamento. Sebbene le attività siano integrate in altri progetti, una maggiore formalizzazione e visibilità di questa area contribuirebbe a rafforzare l'efficacia del PTOF. Le attività opzionali potrebbero essere ampliate per offrire una gamma più ampia di opportunità agli studenti.\n\n### 5. Gap Analysis\n\nIl divario principale da colmare è la strutturazione di una sezione dedicata all'orientamento, con obiettivi specifici, attività programmate e indicatori di valutazione. È necessario definire un piano di azione dettagliato per l'implementazione di questa sezione, coinvolgendo tutti gli attori interessati (docenti, studenti, genitori, partner).\n\n### 6. Conclusioni\n\nIl PTOF dell'**Itt Guido Dorso** dimostra un impegno significativo verso l'orientamento, con numerosi punti di forza e un solido network di **partnership**. Tuttavia, la mancanza di una sezione dedicata e strutturata rappresenta un'area di miglioramento cruciale. Colmando questo divario, l'istituto potrà rafforzare ulteriormente la sua offerta formativa e garantire un orientamento efficace per tutti gli studenti, contribuendo alla loro crescita personale e professionale. Le attività come il **PCTO**, i **laboratori** tematici e le iniziative di inclusione rappresentano un valore aggiunto significativo."
+}
